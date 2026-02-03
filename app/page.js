@@ -845,7 +845,7 @@ export default function Home() {
           {loadingSurahData ? (
             <p className="status">Loading ayahs...</p>
           ) : surahData ? (
-            {filteredAyahs.length ? (
+            filteredAyahs.length ? (
               <ol className="ayah-list">
                 {filteredAyahs.map((ayah, index) => {
                   const translation = ayah.translations?.[selectedTranslation];
@@ -939,7 +939,7 @@ export default function Home() {
               </ol>
             ) : (
               <p className="status">No ayahs found.</p>
-            )}
+            )
           ) : (
             <p className="status">Select a surah to begin.</p>
           )}
