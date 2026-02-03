@@ -37,7 +37,7 @@ const verseNumberFromKey = (key) => {
 };
 
 export async function GET(_request, { params }) {
-  const { id } = params;
+  const { id } = await params;
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }

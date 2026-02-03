@@ -95,7 +95,7 @@ const fetchQpcHafs = async (chapterId) => {
 };
 
 export async function GET(_request, { params }) {
-  const { id } = params;
+  const { id } = await params;
 
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
@@ -138,11 +138,23 @@ export async function GET(_request, { params }) {
       );
     }
 
+    // Bismillah pattern to remove from first ayah (except Surah 1 and 9)
+    const surahNumber = Number(id);
+    const bismillahPattern = /^بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\s*/;
+    const shouldRemoveBismillah = surahNumber !== 1 && surahNumber !== 9;
+
+    const removeBismillah = (text, ayahNumber) => {
+      if (shouldRemoveBismillah && ayahNumber === 1) {
+        return text.replace(bismillahPattern, "").trim();
+      }
+      return text;
+    };
+
     const ayahMap = new Map();
     for (const ayah of arabicEdition.ayahs) {
       ayahMap.set(ayah.numberInSurah, {
         number: ayah.numberInSurah,
-        arabic: ayah.text,
+        arabic: removeBismillah(ayah.text, ayah.numberInSurah),
         translations: {}
       });
     }
@@ -154,7 +166,7 @@ export async function GET(_request, { params }) {
       for (const verse of qpcVerses) {
         const entry = ayahMap.get(verse.number);
         if (entry) {
-          entry.arabic = verse.text;
+          entry.arabic = removeBismillah(verse.text, verse.number);
         }
       }
     }

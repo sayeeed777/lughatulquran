@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <rect width="192" height="192" fill="#0b1c20"/>
+  <g transform="translate(64, 48)">
+    <path
+      d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
+      fill="none"
+      stroke="#d8b36a"
+      stroke-width="4"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M32 14v28"
+      stroke="#d8b36a"
+      stroke-width="4"
+      stroke-linecap="round"
+    />
+    <path
+      d="M20 24h12M20 32h12M20 40h12"
+      stroke="#d8b36a"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+  </g>
+  <text x="96" y="150" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#f2efe7">Quran</text>
+</svg>

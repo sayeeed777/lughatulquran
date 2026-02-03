@@ -1,60 +1,31 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-
-const INLINE_TRANSLATIONS = [
-  { id: "en.sahih", label: "Sahih International" },
-  { id: "en.arberry", label: "A.J. Arberry" },
-  { id: "en.pickthall", label: "Pickthall" },
-  { id: "en.yusufali", label: "Yusuf Ali" }
-];
-
-const ALL_TRANSLATIONS = [
-  { id: "en.sahih", label: "Sahih International" },
-  { id: "en.arberry", label: "A.J. Arberry" },
-  { id: "en.pickthall", label: "Pickthall" },
-  { id: "en.yusufali", label: "Yusuf Ali" },
-  { id: "taqi-usmani", label: "Mufti Taqi Usmani" }
-];
-
-const AUDIO_RECITER = {
-  label: "Mishary Rashid Alafasy",
-  baseUrl: "https://everyayah.com/data/Alafasy_64kbps"
-};
-
-const pad3 = (value) => String(value).padStart(3, "0");
-
-const getAudioUrl = (surahNumber, ayahNumber) =>
-  `${AUDIO_RECITER.baseUrl}/${pad3(surahNumber)}${pad3(ayahNumber)}.mp3`;
-
-const sanitizeArabic = (text) => {
-  return text;
-};
-
-const getLocalDateString = () => {
-  const now = new Date();
-  const offset = now.getTimezoneOffset();
-  const local = new Date(now.getTime() - offset * 60000);
-  return local.toISOString().slice(0, 10);
-};
-
-const parseLocalDate = (value) => new Date(`${value}T00:00:00`);
-
-const defaultPlan = {
-  startDate: getLocalDateString(),
-  perDay: 10,
-  startSurah: 1,
-  startAyah: 1
-};
-
-const verseKey = (surahNumber, ayahNumber) => `${surahNumber}:${ayahNumber}`;
-
-const parseVerseKey = (key) => {
-  const [surah, ayah] = key.split(":").map(Number);
-  return { surah, ayah };
-};
-
-const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  SurahList,
+  ReaderPanel,
+  StudyPanel,
+  CompareModal,
+  NoteModal,
+  ErrorBoundary,
+  LastReadCard,
+  KeyboardShortcutsHelp
+} from "./components";
+import {
+  AUDIO_RECITERS,
+  DEFAULT_PLAN,
+  STORAGE_KEYS,
+  FONT_SCALE
+} from "./lib/constants";
+import {
+  getLocalDateString,
+  parseLocalDate,
+  verseKey,
+  parseVerseKey,
+  clamp,
+  getAudioUrl,
+  copyToClipboard
+} from "./lib/utils";
 
 export default function Home() {
   const [surahs, setSurahs] = useState([]);
@@ -63,9 +34,7 @@ export default function Home() {
   const [surahData, setSurahData] = useState(null);
   const [loadingSurahs, setLoadingSurahs] = useState(true);
   const [loadingSurahData, setLoadingSurahData] = useState(false);
-  const [selectedTranslation, setSelectedTranslation] = useState(
-    INLINE_TRANSLATIONS[0].id
-  );
+  const [selectedTranslation, setSelectedTranslation] = useState("en.sahih");
   const [selectedAyah, setSelectedAyah] = useState(null);
   const [focusedAyahKey, setFocusedAyahKey] = useState(null);
   const [ayahQuery, setAyahQuery] = useState("");
@@ -81,16 +50,17 @@ export default function Home() {
   const [notes, setNotes] = useState({});
   const [noteTarget, setNoteTarget] = useState(null);
   const [noteDraft, setNoteDraft] = useState("");
-  const [readingPlan, setReadingPlan] = useState(defaultPlan);
+  const [readingPlan, setReadingPlan] = useState(DEFAULT_PLAN);
   const [readingMode, setReadingMode] = useState(false);
-  const [fontScale, setFontScale] = useState({
-    arabic: 1,
-    translation: 1
-  });
+  const [fontScale, setFontScale] = useState(FONT_SCALE.default);
+  const [selectedReciter, setSelectedReciter] = useState(AUDIO_RECITERS[0]);
   const [nowPlaying, setNowPlaying] = useState(null);
   const [pendingScroll, setPendingScroll] = useState(null);
   const [error, setError] = useState(null);
+  const [lastRead, setLastRead] = useState(null);
+  const [showShortcuts, setShowShortcuts] = useState(false);
 
+  // Load surahs
   useEffect(() => {
     let isMounted = true;
     const loadSurahs = async () => {
@@ -116,12 +86,12 @@ export default function Home() {
     };
 
     loadSurahs();
-
     return () => {
       isMounted = false;
     };
   }, []);
 
+  // Handle URL params and initial surah selection
   useEffect(() => {
     if (!surahs.length || selectedSurah) {
       return;
@@ -146,6 +116,7 @@ export default function Home() {
     setSelectedSurah(surahs[0]);
   }, [surahs, selectedSurah]);
 
+  // Load surah data
   useEffect(() => {
     let isMounted = true;
     if (!selectedSurah) {
@@ -176,77 +147,100 @@ export default function Home() {
     };
 
     loadSurah();
-
     return () => {
       isMounted = false;
     };
   }, [selectedSurah]);
 
+  // Load from localStorage
   useEffect(() => {
     if (typeof window === "undefined") {
       return;
     }
     try {
-      const storedBookmarks = localStorage.getItem("quran_bookmarks");
+      const storedBookmarks = localStorage.getItem(STORAGE_KEYS.bookmarks);
       if (storedBookmarks) {
         setBookmarks(JSON.parse(storedBookmarks));
       }
-      const storedNotes = localStorage.getItem("quran_notes");
+      const storedNotes = localStorage.getItem(STORAGE_KEYS.notes);
       if (storedNotes) {
         setNotes(JSON.parse(storedNotes));
       }
-      const storedPlan = localStorage.getItem("quran_plan");
+      const storedPlan = localStorage.getItem(STORAGE_KEYS.plan);
       if (storedPlan) {
         const parsedPlan = JSON.parse(storedPlan);
         setReadingPlan({
-          ...defaultPlan,
+          ...DEFAULT_PLAN,
           ...parsedPlan,
-          perDay: Number(parsedPlan.perDay) || defaultPlan.perDay,
-          startSurah: Number(parsedPlan.startSurah) || defaultPlan.startSurah,
-          startAyah: Number(parsedPlan.startAyah) || defaultPlan.startAyah
+          perDay: Number(parsedPlan.perDay) || DEFAULT_PLAN.perDay,
+          startSurah: Number(parsedPlan.startSurah) || DEFAULT_PLAN.startSurah,
+          startAyah: Number(parsedPlan.startAyah) || DEFAULT_PLAN.startAyah
         });
       }
-      const storedScale = localStorage.getItem("quran_font_scale");
+      const storedScale = localStorage.getItem(STORAGE_KEYS.fontScale);
       if (storedScale) {
         const parsedScale = JSON.parse(storedScale);
         setFontScale({
-          arabic: clamp(Number(parsedScale.arabic) || 1, 0.8, 1.4),
-          translation: clamp(Number(parsedScale.translation) || 1, 0.8, 1.3)
+          arabic: clamp(Number(parsedScale.arabic) || 1, FONT_SCALE.min.arabic, FONT_SCALE.max.arabic),
+          translation: clamp(Number(parsedScale.translation) || 1, FONT_SCALE.min.translation, FONT_SCALE.max.translation)
         });
+      }
+      const storedLastRead = localStorage.getItem(STORAGE_KEYS.lastRead);
+      if (storedLastRead) {
+        setLastRead(JSON.parse(storedLastRead));
+      }
+      const storedReciter = localStorage.getItem(STORAGE_KEYS.reciter);
+      if (storedReciter) {
+        const reciter = AUDIO_RECITERS.find(r => r.id === storedReciter);
+        if (reciter) setSelectedReciter(reciter);
       }
     } catch (err) {
       setError("Saved study data could not be loaded.");
     }
   }, []);
 
+  // Save to localStorage
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-    localStorage.setItem("quran_bookmarks", JSON.stringify(bookmarks));
+    if (typeof window === "undefined") return;
+    localStorage.setItem(STORAGE_KEYS.bookmarks, JSON.stringify(bookmarks));
   }, [bookmarks]);
 
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-    localStorage.setItem("quran_notes", JSON.stringify(notes));
+    if (typeof window === "undefined") return;
+    localStorage.setItem(STORAGE_KEYS.notes, JSON.stringify(notes));
   }, [notes]);
 
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-    localStorage.setItem("quran_plan", JSON.stringify(readingPlan));
+    if (typeof window === "undefined") return;
+    localStorage.setItem(STORAGE_KEYS.plan, JSON.stringify(readingPlan));
   }, [readingPlan]);
 
   useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-    localStorage.setItem("quran_font_scale", JSON.stringify(fontScale));
+    if (typeof window === "undefined") return;
+    localStorage.setItem(STORAGE_KEYS.fontScale, JSON.stringify(fontScale));
   }, [fontScale]);
 
+  // Save last read position
+  useEffect(() => {
+    if (typeof window === "undefined" || !selectedSurah || !focusedAyahKey) return;
+    const { surah, ayah } = parseVerseKey(focusedAyahKey);
+    const lastReadData = {
+      surah,
+      ayah,
+      surahName: selectedSurah.englishName,
+      timestamp: Date.now()
+    };
+    setLastRead(lastReadData);
+    localStorage.setItem(STORAGE_KEYS.lastRead, JSON.stringify(lastReadData));
+  }, [selectedSurah, focusedAyahKey]);
+
+  // Save selected reciter
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    localStorage.setItem(STORAGE_KEYS.reciter, selectedReciter.id);
+  }, [selectedReciter]);
+
+  // Update URL
   useEffect(() => {
     if (typeof window === "undefined" || !selectedSurah) {
       return;
@@ -262,6 +256,7 @@ export default function Home() {
     window.history.replaceState({}, "", url);
   }, [selectedSurah, focusedAyahKey]);
 
+  // Memoized values
   const surahByNumber = useMemo(() => {
     return new Map(surahs.map((surah) => [surah.number, surah]));
   }, [surahs]);
@@ -272,11 +267,7 @@ export default function Home() {
       const start = offset + 1;
       const end = offset + surah.numberOfAyahs;
       offset = end;
-      return {
-        number: surah.number,
-        start,
-        end
-      };
+      return { number: surah.number, start, end };
     });
   }, [surahs]);
 
@@ -284,29 +275,20 @@ export default function Home() {
     ? surahIndex[surahIndex.length - 1].end
     : 0;
 
+  // Reading plan validation
   useEffect(() => {
-    if (!readingPlan.startSurah) {
-      return;
-    }
+    if (!readingPlan.startSurah) return;
     const info = surahByNumber.get(Number(readingPlan.startSurah));
-    if (!info) {
-      return;
-    }
+    if (!info) return;
     if (readingPlan.startAyah > info.numberOfAyahs) {
-      setReadingPlan((prev) => ({
-        ...prev,
-        startAyah: info.numberOfAyahs
-      }));
+      setReadingPlan((prev) => ({ ...prev, startAyah: info.numberOfAyahs }));
     }
   }, [readingPlan.startSurah, readingPlan.startAyah, surahByNumber]);
 
+  // Pending scroll
   useEffect(() => {
-    if (!pendingScroll || !surahData?.surah || !selectedSurah) {
-      return;
-    }
-    if (surahData.surah.number !== selectedSurah.number) {
-      return;
-    }
+    if (!pendingScroll || !surahData?.surah || !selectedSurah) return;
+    if (surahData.surah.number !== selectedSurah.number) return;
     const target = document.getElementById(`ayah-${pendingScroll}`);
     if (target) {
       target.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -315,13 +297,10 @@ export default function Home() {
     setPendingScroll(null);
   }, [pendingScroll, surahData, selectedSurah]);
 
+  // Word by word loading
   useEffect(() => {
-    if (!showWordByWord || !selectedSurah) {
-      return;
-    }
-    if (wordByAyah[selectedSurah.number]) {
-      return;
-    }
+    if (!showWordByWord || !selectedSurah) return;
+    if (wordByAyah[selectedSurah.number]) return;
     let isMounted = true;
     setWordLoading(true);
     setWordError(null);
@@ -339,26 +318,124 @@ export default function Home() {
         }
       })
       .catch((err) => {
-        if (isMounted) {
-          setWordError(err.message);
-        }
+        if (isMounted) setWordError(err.message);
       })
       .finally(() => {
-        if (isMounted) {
-          setWordLoading(false);
-        }
+        if (isMounted) setWordLoading(false);
       });
-
     return () => {
       isMounted = false;
     };
   }, [showWordByWord, selectedSurah, wordByAyah]);
 
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      // Don't trigger shortcuts when typing in inputs
+      if (
+        event.target.tagName === "INPUT" ||
+        event.target.tagName === "TEXTAREA"
+      ) {
+        return;
+      }
+
+      // ? - Show shortcuts help
+      if (event.key === "?") {
+        event.preventDefault();
+        setShowShortcuts((prev) => !prev);
+        return;
+      }
+
+      // Escape - Close modals, exit focus mode
+      if (event.key === "Escape") {
+        if (showShortcuts) {
+          setShowShortcuts(false);
+        } else if (selectedAyah) {
+          setSelectedAyah(null);
+        } else if (noteTarget) {
+          setNoteTarget(null);
+          setNoteDraft("");
+        } else if (readingMode) {
+          setReadingMode(false);
+        }
+        return;
+      }
+
+      // f - Toggle focus/reading mode
+      if (event.key === "f" && !event.metaKey && !event.ctrlKey) {
+        event.preventDefault();
+        setReadingMode((prev) => !prev);
+        return;
+      }
+
+      // w - Toggle word by word
+      if (event.key === "w" && !event.metaKey && !event.ctrlKey) {
+        event.preventDefault();
+        setShowWordByWord((prev) => !prev);
+        return;
+      }
+
+      // Navigate with arrow keys when a surah is selected
+      if (selectedSurah && surahData?.ayahs?.length) {
+        const currentAyah = focusedAyahKey
+          ? parseVerseKey(focusedAyahKey).ayah
+          : 1;
+
+        // ArrowDown/j - Next ayah
+        if (event.key === "ArrowDown" || event.key === "j") {
+          event.preventDefault();
+          const nextAyah = Math.min(
+            currentAyah + 1,
+            selectedSurah.numberOfAyahs
+          );
+          setPendingScroll(nextAyah);
+          setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
+          return;
+        }
+
+        // ArrowUp/k - Previous ayah
+        if (event.key === "ArrowUp" || event.key === "k") {
+          event.preventDefault();
+          const prevAyah = Math.max(currentAyah - 1, 1);
+          setPendingScroll(prevAyah);
+          setFocusedAyahKey(verseKey(selectedSurah.number, prevAyah));
+          return;
+        }
+
+        // b - Toggle bookmark for focused ayah
+        if (event.key === "b" && focusedAyahKey) {
+          event.preventDefault();
+          const { surah, ayah } = parseVerseKey(focusedAyahKey);
+          toggleBookmark(surah, ayah);
+          return;
+        }
+
+        // p - Play current ayah
+        if (event.key === "p" && focusedAyahKey) {
+          event.preventDefault();
+          const { surah, ayah } = parseVerseKey(focusedAyahKey);
+          playAyah(surah, ayah);
+          return;
+        }
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [
+    selectedSurah,
+    surahData,
+    focusedAyahKey,
+    readingMode,
+    showShortcuts,
+    selectedAyah,
+    noteTarget
+  ]);
+
+  // Filtered lists
   const filteredSurahs = useMemo(() => {
     const trimmed = query.trim().toLowerCase();
-    if (!trimmed) {
-      return surahs;
-    }
+    if (!trimmed) return surahs;
     return surahs.filter((surah) => {
       return (
         surah.englishName.toLowerCase().includes(trimmed) ||
@@ -369,13 +446,9 @@ export default function Home() {
   }, [query, surahs]);
 
   const filteredAyahs = useMemo(() => {
-    if (!surahData?.ayahs) {
-      return [];
-    }
+    if (!surahData?.ayahs) return [];
     const trimmed = ayahQuery.trim().toLowerCase();
-    if (!trimmed) {
-      return surahData.ayahs;
-    }
+    if (!trimmed) return surahData.ayahs;
     if (/^\d+$/.test(trimmed)) {
       const number = Number(trimmed);
       return surahData.ayahs.filter((ayah) => ayah.number === number);
@@ -393,9 +466,7 @@ export default function Home() {
     return [...bookmarks].sort((a, b) => {
       const first = parseVerseKey(a);
       const second = parseVerseKey(b);
-      if (first.surah !== second.surah) {
-        return first.surah - second.surah;
-      }
+      if (first.surah !== second.surah) return first.surah - second.surah;
       return first.ayah - second.ayah;
     });
   }, [bookmarks]);
@@ -404,18 +475,15 @@ export default function Home() {
     return Object.entries(notes)
       .map(([key, value]) => ({ key, value, ...parseVerseKey(key) }))
       .sort((a, b) => {
-        if (a.surah !== b.surah) {
-          return a.surah - b.surah;
-        }
+        if (a.surah !== b.surah) return a.surah - b.surah;
         return a.ayah - b.ayah;
       });
   }, [notes]);
 
+  // Helper functions
   const getGlobalIndex = (surahNumber, ayahNumber) => {
     const entry = surahIndex.find((item) => item.number === surahNumber);
-    if (!entry) {
-      return null;
-    }
+    if (!entry) return null;
     return entry.start + ayahNumber - 1;
   };
 
@@ -423,26 +491,18 @@ export default function Home() {
     const entry = surahIndex.find(
       (item) => globalIndex >= item.start && globalIndex <= item.end
     );
-    if (!entry) {
-      return null;
-    }
-    return {
-      surah: entry.number,
-      ayah: globalIndex - entry.start + 1
-    };
+    if (!entry) return null;
+    return { surah: entry.number, ayah: globalIndex - entry.start + 1 };
   };
 
+  // Plan summary
   const planSummary = useMemo(() => {
-    if (!surahIndex.length) {
-      return null;
-    }
+    if (!surahIndex.length) return null;
     const perDay = Math.max(1, Number(readingPlan.perDay) || 1);
     const startSurah = Number(readingPlan.startSurah) || 1;
     const startAyah = Math.max(1, Number(readingPlan.startAyah) || 1);
     const startIndex = getGlobalIndex(startSurah, startAyah);
-    if (!startIndex) {
-      return { error: "Start position is not available." };
-    }
+    if (!startIndex) return { error: "Start position is not available." };
     const startDate = readingPlan.startDate || getLocalDateString();
     let startDateValue = parseLocalDate(startDate);
     if (Number.isNaN(startDateValue.getTime())) {
@@ -460,28 +520,18 @@ export default function Home() {
     const todayEndIndex = Math.min(todayStartIndex + perDay - 1, totalAyahs);
     const startVerse = indexToVerse(todayStartIndex);
     const endVerse = indexToVerse(todayEndIndex);
-    return {
-      dayIndex,
-      startVerse,
-      endVerse,
-      todayStartIndex,
-      todayEndIndex
-    };
+    return { dayIndex, startVerse, endVerse, todayStartIndex, todayEndIndex };
   }, [readingPlan, surahIndex, totalAyahs]);
 
   const formatVerseLabel = (verse) => {
-    if (!verse) {
-      return "";
-    }
+    if (!verse) return "";
     const surah = surahByNumber.get(verse.surah);
     const name = surah ? surah.englishName : `Surah ${verse.surah}`;
     return `${name} Ayah ${verse.ayah}`;
   };
 
   const formatRangeLabel = (startVerse, endVerse) => {
-    if (!startVerse || !endVerse) {
-      return "";
-    }
+    if (!startVerse || !endVerse) return "";
     if (startVerse.surah === endVerse.surah) {
       const surah = surahByNumber.get(startVerse.surah);
       const name = surah ? surah.englishName : `Surah ${startVerse.surah}`;
@@ -490,17 +540,13 @@ export default function Home() {
     return `${formatVerseLabel(startVerse)} to ${formatVerseLabel(endVerse)}`;
   };
 
+  // Event handlers
   const handleCompare = async (ayah) => {
-    if (!selectedSurah) {
-      return;
-    }
-
+    if (!selectedSurah) return;
     setSelectedAyah(ayah);
     setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
     const key = `${selectedSurah.number}:${ayah.number}`;
-    if (taqiCache[key] || taqiLoading[key]) {
-      return;
-    }
+    if (taqiCache[key] || taqiLoading[key]) return;
 
     setTaqiLoading((prev) => ({ ...prev, [key]: true }));
     try {
@@ -536,47 +582,31 @@ export default function Home() {
   };
 
   const handleGoToAyah = () => {
-    if (!selectedSurah) {
-      return;
-    }
+    if (!selectedSurah) return;
     const number = Number(goToAyahInput);
-    if (!number || number < 1 || number > selectedSurah.numberOfAyahs) {
-      return;
-    }
+    if (!number || number < 1 || number > selectedSurah.numberOfAyahs) return;
     setPendingScroll(number);
     setFocusedAyahKey(verseKey(selectedSurah.number, number));
   };
 
-  const copyAyahLink = async (surahNumber, ayahNumber) => {
-    if (typeof window === "undefined") {
-      return;
-    }
+  const copyAyahLink = useCallback(async (surahNumber, ayahNumber) => {
+    if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
     url.searchParams.set("surah", surahNumber);
     url.searchParams.set("ayah", ayahNumber);
     url.hash = `ayah-${ayahNumber}`;
-    try {
-      if (navigator?.clipboard?.writeText) {
-        await navigator.clipboard.writeText(url.toString());
-      } else {
-        const textarea = document.createElement("textarea");
-        textarea.value = url.toString();
-        textarea.style.position = "fixed";
-        textarea.style.opacity = "0";
-        document.body.appendChild(textarea);
-        textarea.select();
-        document.execCommand("copy");
-        document.body.removeChild(textarea);
-      }
+    
+    const success = await copyToClipboard(url.toString());
+    if (success) {
       const key = verseKey(surahNumber, ayahNumber);
       setCopiedKey(key);
       window.setTimeout(() => {
         setCopiedKey((prev) => (prev === key ? null : prev));
       }, 1600);
-    } catch (err) {
+    } else {
       setError("Unable to copy link.");
     }
-  };
+  }, []);
 
   const closeNote = () => {
     setNoteTarget(null);
@@ -584,9 +614,7 @@ export default function Home() {
   };
 
   const saveNote = () => {
-    if (!noteTarget) {
-      return;
-    }
+    if (!noteTarget) return;
     const trimmed = noteDraft.trim();
     setNotes((prev) => {
       const next = { ...prev };
@@ -602,9 +630,7 @@ export default function Home() {
 
   const jumpToAyah = (surahNumber, ayahNumber) => {
     const targetSurah = surahByNumber.get(surahNumber);
-    if (!targetSurah) {
-      return;
-    }
+    if (!targetSurah) return;
     setSelectedSurah(targetSurah);
     setPendingScroll(ayahNumber);
     setFocusedAyahKey(verseKey(surahNumber, ayahNumber));
@@ -614,601 +640,180 @@ export default function Home() {
     setNowPlaying({ surah: surahNumber, ayah: ayahNumber });
   };
 
+  const handleSelectSurah = (surah) => {
+    setSelectedSurah(surah);
+    setSelectedAyah(null);
+    setFocusedAyahKey(null);
+  };
+
+  // Computed values
   const selectedAyahKey =
     selectedSurah && selectedAyah
       ? `${selectedSurah.number}:${selectedAyah.number}`
       : null;
-  const taqiText = selectedAyahKey ? taqiCache[selectedAyahKey] : null;
 
   const audioSrc = nowPlaying
-    ? getAudioUrl(nowPlaying.surah, nowPlaying.ayah)
+    ? getAudioUrl(selectedReciter.baseUrl, nowPlaying.surah, nowPlaying.ayah)
     : null;
+
   const nowPlayingLabel = nowPlaying
     ? `${
         surahByNumber.get(nowPlaying.surah)?.englishName ||
         `Surah ${nowPlaying.surah}`
       } - Ayah ${nowPlaying.ayah}`
     : "Select an ayah to play.";
-  const formatArabic = (text) => sanitizeArabic(text);
+
   const fontVars = {
     "--arabic-scale": fontScale.arabic,
     "--translation-scale": fontScale.translation
   };
 
   return (
-    <main className={`app${readingMode ? " reading" : ""}`} style={fontVars}>
-      <div className="topbar">
-        <div className="logo">
-          <div className="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
-              <path
-                d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinejoin="round"
-              />
-              <path
-                d="M32 14v28"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinecap="round"
-              />
-              <path
-                d="M20 24h12M20 32h12M20 40h12"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-              />
-            </svg>
-          </div>
-          <div className="logo-text">
-            <p className="logo-title">Quran</p>
-            <p className="logo-sub">Reader</p>
-          </div>
-        </div>
-        <div className="topbar-actions">
-          <button
-            className="action-btn"
-            onClick={() => setReadingMode((prev) => !prev)}
-          >
-            {readingMode ? "Exit focus" : "Focus mode"}
-          </button>
-        </div>
-      </div>
-      <section className={`content${readingMode ? " reading" : ""}`}>
-        <aside className="panel surah-panel">
-          <div className="panel-header">
-            <h2>Surahs</h2>
-            <input
-              className="search"
-              placeholder="Search by name or number"
-              value={query}
-              onChange={(event) => setQuery(event.target.value)}
-            />
-          </div>
-          {loadingSurahs ? (
-            <p className="status">Loading surahs...</p>
-          ) : (
-            <ul className="surah-list">
-              {filteredSurahs.map((surah) => (
-                <li key={surah.number}>
-                  <button
-                    className={`surah-item${
-                      selectedSurah?.number === surah.number ? " active" : ""
-                    }`}
-                    onClick={() => {
-                      setSelectedSurah(surah);
-                      setSelectedAyah(null);
-                      setFocusedAyahKey(null);
-                    }}
-                  >
-                    <span className="surah-number">{surah.number}</span>
-                    <span className="surah-names">
-                      <span className="surah-english">{surah.englishName}</span>
-                      <span className="surah-translation">
-                        {surah.englishNameTranslation}
-                      </span>
-                    </span>
-                    <span className="surah-arabic" lang="ar" dir="rtl">
-                      {surah.name}
-                    </span>
-                  </button>
-                </li>
-              ))}
-            </ul>
-          )}
-        </aside>
-
-        <section className="panel reader-panel">
-          <div className="panel-header">
-            <div>
-              <h2>
-                {selectedSurah
-                  ? `${selectedSurah.englishName} (${selectedSurah.name})`
-                  : "Choose a Surah"}
-              </h2>
-              {selectedSurah && (
-                <p className="meta">
-                  {selectedSurah.englishNameTranslation} -
-                  {" " + selectedSurah.numberOfAyahs} ayahs -
-                  {" " + selectedSurah.revelationType}
-                </p>
-              )}
-            </div>
-            <div className="translation-toggle">
-              {INLINE_TRANSLATIONS.map((translation) => (
-                <button
-                  key={translation.id}
-                  className={
-                    selectedTranslation === translation.id ? "active" : ""
-                  }
-                  onClick={() => setSelectedTranslation(translation.id)}
-                >
-                  {translation.label}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          <div className="reader-controls">
-            <div className="reader-toolbar">
-              <label className="reader-search">
-                <span>Search ayahs</span>
-                <input
-                  type="text"
-                  placeholder="Ayah number or word in translation"
-                  value={ayahQuery}
-                  onChange={(event) => setAyahQuery(event.target.value)}
+    <ErrorBoundary>
+      <main className={`app${readingMode ? " reading" : ""}`} style={fontVars}>
+        <div className="topbar">
+          <div className="logo">
+            <div className="logo-mark" aria-hidden="true">
+              <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+                <path
+                  d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinejoin="round"
                 />
-              </label>
-              <div className="go-ayah">
-                <label>
-                  <span>Go to ayah</span>
-                  <input
-                    type="number"
-                    min={1}
-                    max={selectedSurah?.numberOfAyahs || 1}
-                    value={goToAyahInput}
-                    onChange={(event) => setGoToAyahInput(event.target.value)}
-                  />
-                </label>
-                <button className="action-btn" onClick={handleGoToAyah}>
-                  Go
-                </button>
-              </div>
-              <div className="word-toggle">
-                <button
-                  className={`action-btn${showWordByWord ? " saved" : ""}`}
-                  onClick={() => setShowWordByWord((prev) => !prev)}
-                >
-                  Word by word
-                </button>
-                {showWordByWord && wordLoading && (
-                  <span className="meta">Loading...</span>
-                )}
-                {showWordByWord && wordError && (
-                  <span className="meta error">Unavailable</span>
-                )}
-              </div>
+                <path
+                  d="M32 14v28"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                  strokeLinecap="round"
+                />
+                <path
+                  d="M20 24h12M20 32h12M20 40h12"
+                  stroke="currentColor"
+                  strokeWidth="2.5"
+                  strokeLinecap="round"
+                />
+              </svg>
             </div>
-            <label className="control">
-              <span>Arabic size</span>
-              <input
-                type="range"
-                min="0.8"
-                max="1.4"
-                step="0.05"
-                value={fontScale.arabic}
-                onChange={(event) =>
-                  setFontScale((prev) => ({
-                    ...prev,
-                    arabic: clamp(Number(event.target.value), 0.8, 1.4)
-                  }))
-                }
-              />
-            </label>
-            <label className="control">
-              <span>Translation size</span>
-              <input
-                type="range"
-                min="0.8"
-                max="1.3"
-                step="0.05"
-                value={fontScale.translation}
-                onChange={(event) =>
-                  setFontScale((prev) => ({
-                    ...prev,
-                    translation: clamp(Number(event.target.value), 0.8, 1.3)
-                  }))
-                }
-              />
-            </label>
-          </div>
-
-          <div className="audio-bar">
-            <div>
-              <p className="label">Recitation</p>
-              <p className="meta">
-                {AUDIO_RECITER.label} - {nowPlayingLabel}
-              </p>
+            <div className="logo-text">
+              <p className="logo-title">Quran</p>
+              <p className="logo-sub">Reader</p>
             </div>
-            {audioSrc ? (
-              <audio key={audioSrc} src={audioSrc} controls autoPlay />
-            ) : (
-              <div className="audio-placeholder">Ready</div>
-            )}
           </div>
+          <div className="topbar-actions">
+            <button
+              className="action-btn"
+              onClick={() => setReadingMode((prev) => !prev)}
+            >
+              {readingMode ? "Exit focus" : "Focus mode"}
+            </button>
+          </div>
+        </div>
 
-          {error && <p className="status error">{error}</p>}
+        <section className={`content${readingMode ? " reading" : ""}`}>
+          <SurahList
+            surahs={surahs}
+            filteredSurahs={filteredSurahs}
+            selectedSurah={selectedSurah}
+            query={query}
+            setQuery={setQuery}
+            onSelectSurah={handleSelectSurah}
+            loading={loadingSurahs}
+          />
 
-          {loadingSurahData ? (
-            <p className="status">Loading ayahs...</p>
-          ) : surahData ? (
-            filteredAyahs.length ? (
-              <ol className="ayah-list">
-                {filteredAyahs.map((ayah, index) => {
-                  const translation = ayah.translations?.[selectedTranslation];
-                  const key = verseKey(selectedSurah.number, ayah.number);
-                  const isSaved = bookmarks.includes(key);
-                  const hasNote = notes[key];
-                  const isFocused = focusedAyahKey === key;
-                  const words =
-                    wordByAyah[selectedSurah.number]?.[ayah.number] || [];
-                  return (
-                    <li
-                      key={ayah.number}
-                      id={`ayah-${ayah.number}`}
-                      className={`ayah-card${isFocused ? " focused" : ""}`}
-                      style={{ "--i": index }}
-                      tabIndex={0}
-                      onClick={() => setFocusedAyahKey(key)}
-                      onFocus={() => setFocusedAyahKey(key)}
-                    >
-                      <div className="ayah-header">
-                        <span className="ayah-number">Ayah {ayah.number}</span>
-                        <div className="ayah-actions">
-                          <button
-                            className="action-btn"
-                            onClick={() =>
-                              playAyah(selectedSurah.number, ayah.number)
-                            }
-                          >
-                            Play
-                          </button>
-                          <button
-                            className={`action-btn${isSaved ? " saved" : ""}`}
-                            onClick={() =>
-                              toggleBookmark(selectedSurah.number, ayah.number)
-                            }
-                          >
-                            {isSaved ? "Saved" : "Save"}
-                          </button>
-                          <button
-                            className={`action-btn${hasNote ? " saved" : ""}`}
-                            onClick={() =>
-                              openNote(selectedSurah.number, ayah.number)
-                            }
-                          >
-                            {hasNote ? "Edit note" : "Add note"}
-                          </button>
-                          <button
-                            className="compare-btn"
-                            onClick={() => handleCompare(ayah)}
-                          >
-                            Compare
-                          </button>
-                          <button
-                            className="action-btn"
-                            onClick={() =>
-                              copyAyahLink(selectedSurah.number, ayah.number)
-                            }
-                          >
-                            {copiedKey === key ? "Copied" : "Copy link"}
-                          </button>
-                        </div>
-                      </div>
-                      <p className="ayah-arabic" lang="ar" dir="rtl">
-                        {formatArabic(ayah.arabic)}
-                      </p>
-                      <p className="ayah-translation">
-                        {translation?.text || "Translation unavailable."}
-                      </p>
-                      {showWordByWord && words.length > 0 && (
-                        <div className="word-row">
-                          {words.map((word, wordIndex) => (
-                            <div
-                              className="word-chip"
-                              key={`${key}-${wordIndex}`}
-                            >
-                              <span className="word-ar" lang="ar" dir="rtl">
-                                {word.arabic}
-                              </span>
-                              {word.translation && (
-                                <span className="word-en">
-                                  {word.translation}
-                                </span>
-                              )}
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </li>
-                  );
-                })}
-              </ol>
-            ) : (
-              <p className="status">No ayahs found.</p>
-            )
-          ) : (
-            <p className="status">Select a surah to begin.</p>
-          )}
+          <ReaderPanel
+            selectedSurah={selectedSurah}
+            surahData={surahData}
+            filteredAyahs={filteredAyahs}
+            selectedTranslation={selectedTranslation}
+            setSelectedTranslation={setSelectedTranslation}
+            ayahQuery={ayahQuery}
+            setAyahQuery={setAyahQuery}
+            goToAyahInput={goToAyahInput}
+            setGoToAyahInput={setGoToAyahInput}
+            handleGoToAyah={handleGoToAyah}
+            showWordByWord={showWordByWord}
+            setShowWordByWord={setShowWordByWord}
+            wordLoading={wordLoading}
+            wordError={wordError}
+            wordByAyah={wordByAyah}
+            fontScale={fontScale}
+            setFontScale={setFontScale}
+            bookmarks={bookmarks}
+            notes={notes}
+            focusedAyahKey={focusedAyahKey}
+            setFocusedAyahKey={setFocusedAyahKey}
+            copiedKey={copiedKey}
+            nowPlaying={nowPlaying}
+            audioSrc={audioSrc}
+            nowPlayingLabel={nowPlayingLabel}
+            reciterLabel={selectedReciter.label}
+            error={error}
+            loadingSurahData={loadingSurahData}
+            onPlay={playAyah}
+            onToggleBookmark={toggleBookmark}
+            onOpenNote={openNote}
+            onCompare={handleCompare}
+            onCopyLink={copyAyahLink}
+            verseKey={verseKey}
+            clamp={clamp}
+          />
+
+          <StudyPanel
+            surahs={surahs}
+            surahByNumber={surahByNumber}
+            readingPlan={readingPlan}
+            setReadingPlan={setReadingPlan}
+            planSummary={planSummary}
+            sortedBookmarks={sortedBookmarks}
+            sortedNotes={sortedNotes}
+            onJumpToAyah={jumpToAyah}
+            onToggleBookmark={toggleBookmark}
+            onOpenNote={openNote}
+            formatRangeLabel={formatRangeLabel}
+            getLocalDateString={getLocalDateString}
+            lastRead={lastRead}
+          />
         </section>
 
-        <aside className="panel study-panel">
-          <div className="panel-header">
-            <h2>Study</h2>
-            <p className="meta">Plan, bookmarks, and notes</p>
-          </div>
+        {/* Last read card - shows when no surah is selected */}
+        {!selectedSurah && lastRead && (
+          <LastReadCard
+            lastRead={lastRead}
+            onContinue={() => jumpToAyah(lastRead.surah, lastRead.ayah)}
+          />
+        )}
 
-          <div className="study-section">
-            <h3>Daily plan</h3>
-            <div className="plan-grid">
-              <label className="field">
-                <span>Start date</span>
-                <input
-                  type="date"
-                  value={readingPlan.startDate || getLocalDateString()}
-                  onChange={(event) =>
-                    setReadingPlan((prev) => ({
-                      ...prev,
-                      startDate: event.target.value
-                    }))
-                  }
-                />
-              </label>
-              <label className="field">
-                <span>Ayahs per day</span>
-                <input
-                  type="number"
-                  min={1}
-                  max={200}
-                  value={readingPlan.perDay || 10}
-                  onChange={(event) =>
-                    setReadingPlan((prev) => ({
-                      ...prev,
-                      perDay: Number(event.target.value)
-                    }))
-                  }
-                />
-              </label>
-              <label className="field">
-                <span>Start surah</span>
-                <select
-                  value={readingPlan.startSurah || 1}
-                  onChange={(event) =>
-                    setReadingPlan((prev) => ({
-                      ...prev,
-                      startSurah: Number(event.target.value)
-                    }))
-                  }
-                >
-                  {surahs.map((surah) => (
-                    <option key={surah.number} value={surah.number}>
-                      {surah.number}. {surah.englishName}
-                    </option>
-                  ))}
-                </select>
-              </label>
-              <label className="field">
-                <span>Start ayah</span>
-                <input
-                  type="number"
-                  min={1}
-                  max={
-                    surahByNumber.get(readingPlan.startSurah)?.numberOfAyahs ||
-                    1
-                  }
-                  value={readingPlan.startAyah || 1}
-                  onChange={(event) =>
-                    setReadingPlan((prev) => ({
-                      ...prev,
-                      startAyah: Number(event.target.value)
-                    }))
-                  }
-                />
-              </label>
-            </div>
-            <div className="plan-summary">
-              <p className="label">Today</p>
-              {!planSummary ? (
-                <p className="plan-range">Loading plan...</p>
-              ) : planSummary.completed ? (
-                <p className="plan-range">
-                  Plan complete. Adjust the start date to begin again.
-                </p>
-              ) : planSummary.error ? (
-                <p className="plan-range">{planSummary.error}</p>
-              ) : (
-                <>
-                  <p className="plan-range">
-                    {formatRangeLabel(
-                      planSummary.startVerse,
-                      planSummary.endVerse
-                    )}
-                  </p>
-                  {planSummary.startVerse && (
-                    <button
-                      className="action-btn"
-                      onClick={() =>
-                        jumpToAyah(
-                          planSummary.startVerse.surah,
-                          planSummary.startVerse.ayah
-                        )
-                      }
-                    >
-                      Jump to today
-                    </button>
-                  )}
-                </>
-              )}
-            </div>
-          </div>
+        <CompareModal
+          selectedAyah={selectedAyah}
+          selectedSurah={selectedSurah}
+          selectedAyahKey={selectedAyahKey}
+          taqiCache={taqiCache}
+          taqiLoading={taqiLoading}
+          onClose={() => setSelectedAyah(null)}
+        />
 
-          <div className="study-section">
-            <h3>Bookmarks</h3>
-            {sortedBookmarks.length ? (
-              <ul className="study-list">
-                {sortedBookmarks.map((key) => {
-                  const { surah, ayah } = parseVerseKey(key);
-                  const name =
-                    surahByNumber.get(surah)?.englishName || `Surah ${surah}`;
-                  return (
-                    <li key={key} className="study-item">
-                      <div>
-                        <p className="study-title">{name}</p>
-                        <p className="study-sub">Ayah {ayah}</p>
-                      </div>
-                      <div className="study-actions">
-                        <button
-                          className="action-btn"
-                          onClick={() => jumpToAyah(surah, ayah)}
-                        >
-                          Open
-                        </button>
-                        <button
-                          className="action-btn"
-                          onClick={() => toggleBookmark(surah, ayah)}
-                        >
-                          Remove
-                        </button>
-                      </div>
-                    </li>
-                  );
-                })}
-              </ul>
-            ) : (
-              <p className="status">No bookmarks yet.</p>
-            )}
-          </div>
+        <NoteModal
+          noteTarget={noteTarget}
+          noteDraft={noteDraft}
+          setNoteDraft={setNoteDraft}
+          surahByNumber={surahByNumber}
+          onClose={closeNote}
+          onSave={saveNote}
+        />
 
-          <div className="study-section">
-            <h3>Notes</h3>
-            {sortedNotes.length ? (
-              <ul className="study-list">
-                {sortedNotes.map((note) => {
-                  const name =
-                    surahByNumber.get(note.surah)?.englishName ||
-                    `Surah ${note.surah}`;
-                  const preview = note.value.length > 80
-                    ? `${note.value.slice(0, 80)}...`
-                    : note.value;
-                  return (
-                    <li key={note.key} className="study-item">
-                      <div>
-                        <p className="study-title">{name} - Ayah {note.ayah}</p>
-                        <p className="study-sub">{preview}</p>
-                      </div>
-                      <div className="study-actions">
-                        <button
-                          className="action-btn"
-                          onClick={() => openNote(note.surah, note.ayah)}
-                        >
-                          Edit
-                        </button>
-                        <button
-                          className="action-btn"
-                          onClick={() => jumpToAyah(note.surah, note.ayah)}
-                        >
-                          Open
-                        </button>
-                      </div>
-                    </li>
-                  );
-                })}
-              </ul>
-            ) : (
-              <p className="status">No notes yet.</p>
-            )}
-          </div>
-        </aside>
-      </section>
+        {/* Keyboard shortcuts help modal */}
+        <KeyboardShortcutsHelp
+          isOpen={showShortcuts}
+          onClose={() => setShowShortcuts(false)}
+        />
 
-      {selectedAyah && selectedSurah && (
-        <div className="compare-panel" role="dialog" aria-modal="true">
-          <div className="compare-header">
-            <div>
-              <p className="eyebrow">Ayah {selectedAyah.number}</p>
-              <h3>
-                {selectedSurah.englishName} - {selectedSurah.name}
-              </h3>
-            </div>
-            <button
-              className="close-btn"
-              onClick={() => setSelectedAyah(null)}
-            >
-              Close
-            </button>
-          </div>
-          <div className="compare-body">
-            <div className="compare-block">
-              <p className="label">Arabic (Uthmani)</p>
-              <p className="ayah-arabic" lang="ar" dir="rtl">
-                {formatArabic(selectedAyah.arabic)}
-              </p>
-            </div>
-            {ALL_TRANSLATIONS.map((translation) => {
-              const isTaqi = translation.id === "taqi-usmani";
-              const translationText = isTaqi
-                ? taqiText
-                : selectedAyah.translations?.[translation.id]?.text;
-              return (
-                <div key={translation.id} className="compare-block">
-                  <p className="label">{translation.label}</p>
-                  <p className="compare-text">
-                    {isTaqi && taqiLoading[selectedAyahKey]
-                      ? "Loading translation..."
-                      : translationText || "Translation unavailable."}
-                  </p>
-                </div>
-              );
-            })}
-          </div>
+        {/* Keyboard shortcuts hint */}
+        <div className="shortcuts-hint">
+          Press <kbd>?</kbd> for keyboard shortcuts
         </div>
-      )}
-
-      {noteTarget && (
-        <div className="note-panel" role="dialog" aria-modal="true">
-          <div className="compare-header">
-            <div>
-              <p className="eyebrow">Notes</p>
-              <h3>
-                {surahByNumber.get(noteTarget.surah)?.englishName ||
-                  `Surah ${noteTarget.surah}`} - Ayah {noteTarget.ayah}
-              </h3>
-            </div>
-            <button className="close-btn" onClick={closeNote}>
-              Close
-            </button>
-          </div>
-          <div className="note-body">
-            <textarea
-              value={noteDraft}
-              onChange={(event) => setNoteDraft(event.target.value)}
-              placeholder="Write your reflection or note here..."
-              rows={6}
-            />
-            <div className="note-actions">
-              <button className="action-btn" onClick={closeNote}>
-                Cancel
-              </button>
-              <button className="action-btn saved" onClick={saveNote}>
-                Save note
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
-    </main>
+      </main>
+    </ErrorBoundary>
   );
 }
