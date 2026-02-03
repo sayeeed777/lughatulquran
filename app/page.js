@@ -609,21 +609,6 @@ export default function Home() {
             </div>
           </div>
 
-          {selectedSurah && (
-            <div className="surah-banner">
-              <div className="surah-meta">
-                <span>Surah {selectedSurah.number}</span>
-                <span>{selectedSurah.revelationType}</span>
-                <span>{selectedSurah.numberOfAyahs} Ayahs</span>
-              </div>
-              {selectedSurah.number !== 9 && (
-                <p className="bismillah" lang="ar" dir="rtl">
-                  بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ
-                </p>
-              )}
-            </div>
-          )}
-
           <div className="reader-controls">
             <label className="control">
               <span>Arabic size</span>
