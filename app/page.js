@@ -68,6 +68,13 @@ export default function Home() {
   );
   const [selectedAyah, setSelectedAyah] = useState(null);
   const [focusedAyahKey, setFocusedAyahKey] = useState(null);
+  const [ayahQuery, setAyahQuery] = useState("");
+  const [goToAyahInput, setGoToAyahInput] = useState("");
+  const [showWordByWord, setShowWordByWord] = useState(false);
+  const [wordByAyah, setWordByAyah] = useState({});
+  const [wordLoading, setWordLoading] = useState(false);
+  const [wordError, setWordError] = useState(null);
+  const [copiedKey, setCopiedKey] = useState(null);
   const [taqiCache, setTaqiCache] = useState({});
   const [taqiLoading, setTaqiLoading] = useState({});
   const [bookmarks, setBookmarks] = useState([]);
@@ -118,6 +125,23 @@ export default function Home() {
   useEffect(() => {
     if (!surahs.length || selectedSurah) {
       return;
+    }
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const surahParam = Number(params.get("surah"));
+      const ayahParam = Number(params.get("ayah"));
+      const hashMatch = window.location.hash.match(/ayah-(\d+)/);
+      const hashAyah = hashMatch ? Number(hashMatch[1]) : null;
+      const targetSurah = surahs.find((surah) => surah.number === surahParam);
+      if (targetSurah) {
+        setSelectedSurah(targetSurah);
+        const targetAyah = ayahParam || hashAyah;
+        if (targetAyah) {
+          setPendingScroll(targetAyah);
+          setFocusedAyahKey(verseKey(targetSurah.number, targetAyah));
+        }
+        return;
+      }
     }
     setSelectedSurah(surahs[0]);
   }, [surahs, selectedSurah]);
@@ -223,6 +247,21 @@ export default function Home() {
     localStorage.setItem("quran_font_scale", JSON.stringify(fontScale));
   }, [fontScale]);
 
+  useEffect(() => {
+    if (typeof window === "undefined" || !selectedSurah) {
+      return;
+    }
+    const url = new URL(window.location.href);
+    url.searchParams.set("surah", selectedSurah.number);
+    if (focusedAyahKey) {
+      const { ayah } = parseVerseKey(focusedAyahKey);
+      url.searchParams.set("ayah", ayah);
+    } else {
+      url.searchParams.delete("ayah");
+    }
+    window.history.replaceState({}, "", url);
+  }, [selectedSurah, focusedAyahKey]);
+
   const surahByNumber = useMemo(() => {
     return new Map(surahs.map((surah) => [surah.number, surah]));
   }, [surahs]);
@@ -276,6 +315,45 @@ export default function Home() {
     setPendingScroll(null);
   }, [pendingScroll, surahData, selectedSurah]);
 
+  useEffect(() => {
+    if (!showWordByWord || !selectedSurah) {
+      return;
+    }
+    if (wordByAyah[selectedSurah.number]) {
+      return;
+    }
+    let isMounted = true;
+    setWordLoading(true);
+    setWordError(null);
+    fetch(`/api/words/${selectedSurah.number}`)
+      .then((response) => response.json().then((data) => ({ response, data })))
+      .then(({ response, data }) => {
+        if (!response.ok) {
+          throw new Error(data?.error || "Word-by-word unavailable.");
+        }
+        if (isMounted) {
+          setWordByAyah((prev) => ({
+            ...prev,
+            [selectedSurah.number]: data.wordsByAyah || {}
+          }));
+        }
+      })
+      .catch((err) => {
+        if (isMounted) {
+          setWordError(err.message);
+        }
+      })
+      .finally(() => {
+        if (isMounted) {
+          setWordLoading(false);
+        }
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [showWordByWord, selectedSurah, wordByAyah]);
+
   const filteredSurahs = useMemo(() => {
     const trimmed = query.trim().toLowerCase();
     if (!trimmed) {
@@ -289,6 +367,27 @@ export default function Home() {
       );
     });
   }, [query, surahs]);
+
+  const filteredAyahs = useMemo(() => {
+    if (!surahData?.ayahs) {
+      return [];
+    }
+    const trimmed = ayahQuery.trim().toLowerCase();
+    if (!trimmed) {
+      return surahData.ayahs;
+    }
+    if (/^\d+$/.test(trimmed)) {
+      const number = Number(trimmed);
+      return surahData.ayahs.filter((ayah) => ayah.number === number);
+    }
+    return surahData.ayahs.filter((ayah) => {
+      const combined = Object.values(ayah.translations || {})
+        .map((translation) => translation.text || "")
+        .join(" ")
+        .toLowerCase();
+      return combined.includes(trimmed);
+    });
+  }, [ayahQuery, surahData]);
 
   const sortedBookmarks = useMemo(() => {
     return [...bookmarks].sort((a, b) => {
@@ -434,6 +533,49 @@ export default function Home() {
     const key = verseKey(surahNumber, ayahNumber);
     setNoteTarget({ surah: surahNumber, ayah: ayahNumber, key });
     setNoteDraft(notes[key] || "");
+  };
+
+  const handleGoToAyah = () => {
+    if (!selectedSurah) {
+      return;
+    }
+    const number = Number(goToAyahInput);
+    if (!number || number < 1 || number > selectedSurah.numberOfAyahs) {
+      return;
+    }
+    setPendingScroll(number);
+    setFocusedAyahKey(verseKey(selectedSurah.number, number));
+  };
+
+  const copyAyahLink = async (surahNumber, ayahNumber) => {
+    if (typeof window === "undefined") {
+      return;
+    }
+    const url = new URL(window.location.href);
+    url.searchParams.set("surah", surahNumber);
+    url.searchParams.set("ayah", ayahNumber);
+    url.hash = `ayah-${ayahNumber}`;
+    try {
+      if (navigator?.clipboard?.writeText) {
+        await navigator.clipboard.writeText(url.toString());
+      } else {
+        const textarea = document.createElement("textarea");
+        textarea.value = url.toString();
+        textarea.style.position = "fixed";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+      }
+      const key = verseKey(surahNumber, ayahNumber);
+      setCopiedKey(key);
+      window.setTimeout(() => {
+        setCopiedKey((prev) => (prev === key ? null : prev));
+      }, 1600);
+    } catch (err) {
+      setError("Unable to copy link.");
+    }
   };
 
   const closeNote = () => {
@@ -610,6 +752,46 @@ export default function Home() {
           </div>
 
           <div className="reader-controls">
+            <div className="reader-toolbar">
+              <label className="reader-search">
+                <span>Search ayahs</span>
+                <input
+                  type="text"
+                  placeholder="Ayah number or word in translation"
+                  value={ayahQuery}
+                  onChange={(event) => setAyahQuery(event.target.value)}
+                />
+              </label>
+              <div className="go-ayah">
+                <label>
+                  <span>Go to ayah</span>
+                  <input
+                    type="number"
+                    min={1}
+                    max={selectedSurah?.numberOfAyahs || 1}
+                    value={goToAyahInput}
+                    onChange={(event) => setGoToAyahInput(event.target.value)}
+                  />
+                </label>
+                <button className="action-btn" onClick={handleGoToAyah}>
+                  Go
+                </button>
+              </div>
+              <div className="word-toggle">
+                <button
+                  className={`action-btn${showWordByWord ? " saved" : ""}`}
+                  onClick={() => setShowWordByWord((prev) => !prev)}
+                >
+                  Word by word
+                </button>
+                {showWordByWord && wordLoading && (
+                  <span className="meta">Loading...</span>
+                )}
+                {showWordByWord && wordError && (
+                  <span className="meta error">Unavailable</span>
+                )}
+              </div>
+            </div>
             <label className="control">
               <span>Arabic size</span>
               <input
@@ -663,68 +845,101 @@ export default function Home() {
           {loadingSurahData ? (
             <p className="status">Loading ayahs...</p>
           ) : surahData ? (
-            <ol className="ayah-list">
-              {surahData.ayahs.map((ayah, index) => {
-                const translation = ayah.translations?.[selectedTranslation];
-                const key = verseKey(selectedSurah.number, ayah.number);
-                const isSaved = bookmarks.includes(key);
-                const hasNote = notes[key];
-                const isFocused = focusedAyahKey === key;
-                return (
-                  <li
-                    key={ayah.number}
-                    id={`ayah-${ayah.number}`}
-                    className={`ayah-card${isFocused ? " focused" : ""}`}
-                    style={{ "--i": index }}
-                    tabIndex={0}
-                    onClick={() => setFocusedAyahKey(key)}
-                    onFocus={() => setFocusedAyahKey(key)}
-                  >
-                    <div className="ayah-header">
-                      <span className="ayah-number">Ayah {ayah.number}</span>
-                      <div className="ayah-actions">
-                        <button
-                          className="action-btn"
-                          onClick={() =>
-                            playAyah(selectedSurah.number, ayah.number)
-                          }
-                        >
-                          Play
-                        </button>
-                        <button
-                          className={`action-btn${isSaved ? " saved" : ""}`}
-                          onClick={() =>
-                            toggleBookmark(selectedSurah.number, ayah.number)
-                          }
-                        >
-                          {isSaved ? "Saved" : "Save"}
-                        </button>
-                        <button
-                          className={`action-btn${hasNote ? " saved" : ""}`}
-                          onClick={() =>
-                            openNote(selectedSurah.number, ayah.number)
-                          }
-                        >
-                          {hasNote ? "Edit note" : "Add note"}
-                        </button>
-                        <button
-                          className="compare-btn"
-                          onClick={() => handleCompare(ayah)}
-                        >
-                          Compare
-                        </button>
+            {filteredAyahs.length ? (
+              <ol className="ayah-list">
+                {filteredAyahs.map((ayah, index) => {
+                  const translation = ayah.translations?.[selectedTranslation];
+                  const key = verseKey(selectedSurah.number, ayah.number);
+                  const isSaved = bookmarks.includes(key);
+                  const hasNote = notes[key];
+                  const isFocused = focusedAyahKey === key;
+                  const words =
+                    wordByAyah[selectedSurah.number]?.[ayah.number] || [];
+                  return (
+                    <li
+                      key={ayah.number}
+                      id={`ayah-${ayah.number}`}
+                      className={`ayah-card${isFocused ? " focused" : ""}`}
+                      style={{ "--i": index }}
+                      tabIndex={0}
+                      onClick={() => setFocusedAyahKey(key)}
+                      onFocus={() => setFocusedAyahKey(key)}
+                    >
+                      <div className="ayah-header">
+                        <span className="ayah-number">Ayah {ayah.number}</span>
+                        <div className="ayah-actions">
+                          <button
+                            className="action-btn"
+                            onClick={() =>
+                              playAyah(selectedSurah.number, ayah.number)
+                            }
+                          >
+                            Play
+                          </button>
+                          <button
+                            className={`action-btn${isSaved ? " saved" : ""}`}
+                            onClick={() =>
+                              toggleBookmark(selectedSurah.number, ayah.number)
+                            }
+                          >
+                            {isSaved ? "Saved" : "Save"}
+                          </button>
+                          <button
+                            className={`action-btn${hasNote ? " saved" : ""}`}
+                            onClick={() =>
+                              openNote(selectedSurah.number, ayah.number)
+                            }
+                          >
+                            {hasNote ? "Edit note" : "Add note"}
+                          </button>
+                          <button
+                            className="compare-btn"
+                            onClick={() => handleCompare(ayah)}
+                          >
+                            Compare
+                          </button>
+                          <button
+                            className="action-btn"
+                            onClick={() =>
+                              copyAyahLink(selectedSurah.number, ayah.number)
+                            }
+                          >
+                            {copiedKey === key ? "Copied" : "Copy link"}
+                          </button>
+                        </div>
                       </div>
-                    </div>
-                    <p className="ayah-arabic" lang="ar" dir="rtl">
-                      {formatArabic(ayah.arabic)}
-                    </p>
-                    <p className="ayah-translation">
-                      {translation?.text || "Translation unavailable."}
-                    </p>
-                  </li>
-                );
-              })}
-            </ol>
+                      <p className="ayah-arabic" lang="ar" dir="rtl">
+                        {formatArabic(ayah.arabic)}
+                      </p>
+                      <p className="ayah-translation">
+                        {translation?.text || "Translation unavailable."}
+                      </p>
+                      {showWordByWord && words.length > 0 && (
+                        <div className="word-row">
+                          {words.map((word, wordIndex) => (
+                            <div
+                              className="word-chip"
+                              key={`${key}-${wordIndex}`}
+                            >
+                              <span className="word-ar" lang="ar" dir="rtl">
+                                {word.arabic}
+                              </span>
+                              {word.translation && (
+                                <span className="word-en">
+                                  {word.translation}
+                                </span>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </li>
+                  );
+                })}
+              </ol>
+            ) : (
+              <p className="status">No ayahs found.</p>
+            )}
           ) : (
             <p className="status">Select a surah to begin.</p>
           )}

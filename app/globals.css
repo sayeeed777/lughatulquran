@@ -216,6 +216,70 @@ button {
   margin-bottom: 16px;
 }
 
+.reader-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.reader-search {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  flex: 1 1 240px;
+}
+
+.reader-search input {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: var(--text);
+}
+
+.reader-search input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+}
+
+.go-ayah {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.go-ayah label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.go-ayah input {
+  width: 90px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 8px 12px;
+  color: var(--text);
+}
+
+.go-ayah input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+}
+
+.word-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .reader-controls .control {
   display: flex;
   flex-direction: column;
@@ -313,6 +377,10 @@ button {
 .meta {
   color: var(--muted);
   font-size: 0.9rem;
+}
+
+.meta.error {
+  color: #f3a08b;
 }
 
 .translation-toggle {
@@ -471,6 +539,38 @@ button {
 .ayah-translation {
   color: var(--muted);
   font-size: calc(0.95rem * var(--translation-scale));
+}
+
+.word-row {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  border-top: 1px dashed rgba(255, 255, 255, 0.08);
+  padding-top: 10px;
+}
+
+.word-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.word-ar {
+  font-family: var(--font-arabic), serif;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.word-en {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-align: center;
 }
 
 .compare-panel {
