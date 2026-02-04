@@ -9,12 +9,15 @@ export default function AyahCard({
   isSaved,
   hasNote,
   isFocused,
+  nowPlaying,
+  isAudioPaused,
   words,
   showWordByWord,
   copiedKey,
   verseKey,
   onFocus,
   onPlay,
+  onTogglePlay,
   onToggleBookmark,
   onOpenNote,
   onCompare,
@@ -24,6 +27,11 @@ export default function AyahCard({
 }) {
   const translation = ayah.translations?.[selectedTranslation];
   const key = verseKey;
+  const isNowPlaying =
+    nowPlaying &&
+    nowPlaying.surah === surahNumber &&
+    nowPlaying.ayah === ayah.number;
+  const isPlaying = isNowPlaying && !isAudioPaused;
 
   return (
     <motion.li
@@ -45,40 +53,87 @@ export default function AyahCard({
         <span className="ayah-number">Ayah {ayah.number}</span>
         <div className="ayah-actions">
           <button
-            className="action-btn"
+            className="action-icon-btn"
             onClick={(e) => {
               e.stopPropagation();
-              onPlay(surahNumber, ayah.number);
+              if (onTogglePlay) {
+                onTogglePlay(surahNumber, ayah.number);
+              } else {
+                onPlay(surahNumber, ayah.number);
+              }
             }}
+            aria-label={isPlaying ? "Pause ayah" : "Play ayah"}
+            title={isPlaying ? "Pause ayah" : "Play ayah"}
           >
-            Play
+            {isPlaying ? (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="6" y="5" width="4" height="14" fill="currentColor" />
+                <rect x="14" y="5" width="4" height="14" fill="currentColor" />
+              </svg>
+            ) : (
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <polygon points="6,4 20,12 6,20" fill="currentColor" />
+              </svg>
+            )}
           </button>
           <button
-            className={`action-btn${isSaved ? " saved" : ""}`}
+            className={`action-icon-btn${isSaved ? " saved" : ""}`}
             onClick={(e) => {
               e.stopPropagation();
               onToggleBookmark(surahNumber, ayah.number);
             }}
+            aria-label={isSaved ? "Remove bookmark" : "Save bookmark"}
+            title={isSaved ? "Remove bookmark" : "Save bookmark"}
           >
-            {isSaved ? "Saved" : "Save"}
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6 3h12a2 2 0 0 1 2 2v16l-8-5-8 5V5a2 2 0 0 1 2-2z"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
           <button
-            className={`action-btn${hasNote ? " saved" : ""}`}
+            className={`action-icon-btn${hasNote ? " saved" : ""}`}
             onClick={(e) => {
               e.stopPropagation();
               onOpenNote(surahNumber, ayah.number);
             }}
+            aria-label={hasNote ? "Edit note" : "Add note"}
+            title={hasNote ? "Edit note" : "Add note"}
           >
-            {hasNote ? "Edit note" : "Add note"}
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 20h9"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+              />
+              <path
+                d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
           <button
-            className="compare-btn"
+            className="action-icon-btn is-compare"
             onClick={(e) => {
               e.stopPropagation();
               onCompare(ayah);
             }}
+            aria-label="Compare translations"
+            title="Compare translations"
           >
-            Compare
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <rect x="3" y="4" width="7" height="16" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
+              <rect x="14" y="4" width="7" height="16" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
+            </svg>
           </button>
         </div>
       </div>

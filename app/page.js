@@ -67,6 +67,7 @@ export default function Home() {
   const [pendingScroll, setPendingScroll] = useState(null);
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
+  const [isAudioPaused, setIsAudioPaused] = useState(false);
 
   // Advanced Data Hooks
   const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(selectedSurah?.number, showWordByWord);
@@ -276,6 +277,7 @@ export default function Home() {
     setFocusedAyahKey(null);
     setIsAutoPlaying(false);
     setNowPlaying(null);
+    setIsAudioPaused(false);
     
     // On mobile, scroll to the reader panel after selecting a surah
     if (typeof window !== "undefined" && window.innerWidth <= 1100) {
@@ -292,6 +294,7 @@ export default function Home() {
     if (!selectedSurah) return;
     setIsAutoPlaying(true);
     setNowPlaying({ surah: selectedSurah.number, ayah: startFromAyah });
+    setIsAudioPaused(false);
     setFocusedAyahKey(verseKey(selectedSurah.number, startFromAyah));
     setPendingScroll(startFromAyah);
   };
@@ -299,10 +302,14 @@ export default function Home() {
   const handleStopAutoPlay = () => {
     setIsAutoPlaying(false);
     setNowPlaying(null);
+    setIsAudioPaused(false);
   };
 
   const handleAudioEnded = () => {
-    if (!isAutoPlaying || !nowPlaying || !selectedSurah) return;
+    if (!isAutoPlaying || !nowPlaying || !selectedSurah) {
+      setIsAudioPaused(true);
+      return;
+    }
     
     const nextAyah = nowPlaying.ayah + 1;
     if (nextAyah <= selectedSurah.numberOfAyahs) {
@@ -314,7 +321,23 @@ export default function Home() {
       // Surah finished
       setIsAutoPlaying(false);
       setNowPlaying(null);
+      setIsAudioPaused(false);
     }
+  };
+
+  const handlePlayAyah = (surah, ayah) => {
+    setIsAutoPlaying(false);
+    setIsAudioPaused(false);
+    setNowPlaying({ surah, ayah });
+  };
+
+  const handleToggleAyah = (surah, ayah) => {
+    setIsAutoPlaying(false);
+    setNowPlaying((prev) => {
+      const same = prev && prev.surah === surah && prev.ayah === ayah;
+      setIsAudioPaused((paused) => (same ? !paused : false));
+      return same ? prev : { surah, ayah };
+    });
   };
 
   const toggleBookmark = (surahNumber, ayahNumber) => {
@@ -498,10 +521,12 @@ export default function Home() {
             error={surahsError || surahDataError || wordError}
             loadingSurahData={loadingSurahData}
             isAutoPlaying={isAutoPlaying}
+            isAudioPaused={isAudioPaused}
             onPlaySurah={handlePlaySurah}
             onStopAutoPlay={handleStopAutoPlay}
             onAudioEnded={handleAudioEnded}
-            onPlay={(s, a) => { setIsAutoPlaying(false); setNowPlaying({ surah: s, ayah: a }); }}
+            onPlay={handlePlayAyah}
+            onTogglePlay={handleToggleAyah}
             onToggleBookmark={toggleBookmark}
             onOpenNote={openNote}
             onCompare={handleCompare}

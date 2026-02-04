@@ -39,10 +39,12 @@ export default function ReaderPanel({
   error,
   loadingSurahData,
   isAutoPlaying,
+  isAudioPaused,
   onPlaySurah,
   onStopAutoPlay,
   onAudioEnded,
   onPlay,
+  onTogglePlay,
   onToggleBookmark,
   onOpenNote,
   onCompare,
@@ -111,14 +113,14 @@ export default function ReaderPanel({
           <span>Arabic size</span>
           <input
             type="range"
-            min="0.8"
+            min="0.6"
             max="1.4"
             step="0.05"
             value={fontScale.arabic}
             onChange={(event) =>
               setFontScale((prev) => ({
                 ...prev,
-                arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                arabic: clamp(Number(event.target.value), 0.6, 1.4)
               }))
             }
           />
@@ -184,14 +186,14 @@ export default function ReaderPanel({
                 <input
                   type="range"
                   className="settings-range"
-                  min="0.8"
+                  min="0.6"
                   max="1.4"
                   step="0.05"
                   value={fontScale.arabic}
                   onChange={(event) =>
                     setFontScale((prev) => ({
                       ...prev,
-                      arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                      arabic: clamp(Number(event.target.value), 0.6, 1.4)
                     }))
                   }
                 />
@@ -279,6 +281,7 @@ export default function ReaderPanel({
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
         isAutoPlaying={isAutoPlaying}
+        isAudioPaused={isAudioPaused}
         onPlaySurah={onPlaySurah}
         onStopAutoPlay={onStopAutoPlay}
         onAudioEnded={onAudioEnded}
@@ -323,12 +326,15 @@ export default function ReaderPanel({
                     isSaved={isSaved}
                     hasNote={hasNote}
                     isFocused={isFocused}
+                    nowPlaying={nowPlaying}
+                    isAudioPaused={isAudioPaused}
                     words={words}
                     showWordByWord={showWordByWord}
                     copiedKey={copiedKey}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
                     onPlay={onPlay}
+                    onTogglePlay={onTogglePlay}
                     onToggleBookmark={onToggleBookmark}
                     onOpenNote={onOpenNote}
                     onCompare={onCompare}

@@ -7,6 +7,7 @@ export default function AudioPlayer({
   nowPlayingLabel,
   audioSrc,
   isAutoPlaying,
+  isAudioPaused = false,
   onPlaySurah,
   onStopAutoPlay,
   onAudioEnded,
@@ -39,6 +40,17 @@ export default function AudioPlayer({
       audio.play().catch(() => {});
     }
   }, [audioSrc, isAutoPlaying]);
+
+  // Pause/resume for single ayah playback
+  useEffect(() => {
+    const audio = audioRef.current;
+    if (!audio || !audioSrc || isAutoPlaying) return;
+    if (isAudioPaused) {
+      audio.pause();
+      return;
+    }
+    audio.play().catch(() => {});
+  }, [audioSrc, isAudioPaused, isAutoPlaying]);
 
   if (!showPlayerBar) {
     if (!audioSrc) {

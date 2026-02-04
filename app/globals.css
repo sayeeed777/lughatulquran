@@ -1,15 +1,15 @@
 :root {
-  --bg-deep: #0b1c20;
-  --bg-mid: #11292f;
-  --bg-light: #1a3b42;
-  --card: rgba(16, 32, 36, 0.8);
-  --card-strong: rgba(19, 43, 50, 0.95);
-  --text: #f2efe7;
-  --muted: #c8c2b4;
+  --bg-deep: #030b0e;
+  --bg-mid: #07171c;
+  --bg-light: #0f252b;
+  --card: rgba(8, 20, 24, 0.9);
+  --card-strong: rgba(10, 26, 31, 0.96);
+  --text: #f2eee6;
+  --muted: #c7c0b4;
   --accent: #d8b36a;
   --accent-2: #6fd4b1;
   --stroke: rgba(216, 179, 106, 0.25);
-  --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
   --radius-lg: 24px;
   --radius-md: 16px;
   --radius-sm: 12px;
@@ -43,8 +43,8 @@ body {
   margin: 0;
   font-family: var(--font-body), "Georgia", serif;
   color: var(--text);
-  background: radial-gradient(circle at top left, #25434a 0%, transparent 45%),
-    radial-gradient(circle at 20% 80%, #1a2f34 0%, transparent 55%),
+  background: radial-gradient(circle at top left, #132a31 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, #0d1d22 0%, transparent 62%),
     linear-gradient(140deg, var(--bg-deep), var(--bg-mid));
   min-height: 100vh;
   position: relative;
@@ -56,11 +56,11 @@ body::before {
   position: fixed;
   inset: 0;
   background: repeating-linear-gradient(135deg,
-      rgba(255, 255, 255, 0.03),
-      rgba(255, 255, 255, 0.03) 1px,
+      rgba(255, 255, 255, 0.025),
+      rgba(255, 255, 255, 0.025) 1px,
       transparent 1px,
-      transparent 6px);
-  opacity: 0.6;
+      transparent 7px);
+  opacity: 0.45;
   pointer-events: none;
   z-index: 0;
 }
@@ -188,13 +188,13 @@ button {
 }
 
 .panel {
-  background: var(--card);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-lg);
-  padding: 20px;
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(12px);
-  overflow: hidden;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  backdrop-filter: none;
+  overflow: visible;
 }
 
 .surah-panel {
@@ -226,6 +226,28 @@ button {
   justify-content: space-between;
   gap: 16px;
   margin-bottom: 16px;
+}
+
+.reader-panel .panel-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 96px;
+}
+
+.reader-panel .panel-header > div:first-child {
+  text-align: center;
+  max-width: 100%;
+}
+
+.reader-panel .panel-header .header-action-btns {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0;
 }
 
 /* Surah Panel Specific Styles */
@@ -265,53 +287,62 @@ button {
 
 .reader-quick {
   display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+  flex-wrap: nowrap;
+  gap: 10px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 16px;
-  padding: 12px 14px;
-  border-radius: var(--radius-md);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  background: rgba(17, 41, 47, 0.55);
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  overflow: hidden;
 }
 
 .quick-slider {
   display: flex;
   align-items: center;
-  gap: 12px;
-  font-size: 0.8rem;
+  gap: 8px;
+  font-size: 0.7rem;
   color: var(--muted);
-  flex: 1 1 200px;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.quick-slider span {
+  white-space: nowrap;
 }
 
 .quick-slider input[type="range"] {
-  width: min(200px, 100%);
+  width: 100%;
+  max-width: 100px;
+  min-width: 70px;
 }
 
 .quick-play {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex: 0 0 auto;
 }
 
 .quick-play .play-surah-btn {
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   color: var(--bg);
-  padding: 8px 16px;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   white-space: nowrap;
 }
 
 .quick-play .stop-btn {
   background: linear-gradient(135deg, #f87171, #dc2626);
   color: white;
-  padding: 8px 16px;
+  padding: 6px 10px;
   border-radius: var(--radius-sm);
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   white-space: nowrap;
 }
 
@@ -478,24 +509,31 @@ button {
   grid-template-columns: auto 1fr auto;
   gap: 14px;
   align-items: center;
-  padding: 14px 16px;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 12px 0 12px 12px;
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(216, 179, 106, 0.15);
+  border-left: 2px solid transparent;
   transition: all 0.25s ease;
-  backdrop-filter: blur(4px);
+  backdrop-filter: none;
 }
 
 .surah-item:hover {
-  background: rgba(255, 255, 255, 0.06);
+  background: transparent;
   border-color: rgba(216, 179, 106, 0.35);
-  transform: translateX(4px);
+  transform: none;
 }
 
 .surah-item.active {
-  background: linear-gradient(135deg, rgba(216, 179, 106, 0.15), rgba(216, 179, 106, 0.08));
+  background: transparent;
   border-color: rgba(216, 179, 106, 0.5);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  border-left-color: var(--accent);
+}
+
+.surah-item:last-child {
+  border-bottom: none;
 }
 
 .surah-number {
@@ -932,29 +970,32 @@ button {
 }
 
 .ayah-card {
-  background: linear-gradient(135deg, rgba(17, 41, 47, 0.75), rgba(11, 28, 32, 0.8));
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-md);
-  padding: 18px 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(216, 179, 106, 0.18);
+  border-radius: 0;
+  padding: 16px 0;
+  padding-left: 12px;
+  border-left: 2px solid transparent;
   animation: fadeUp 0.6s ease both;
   animation-delay: calc(var(--i) * 0.02s);
   scroll-margin-top: 120px;
   content-visibility: auto;
   contain-intrinsic-size: 220px;
   transition: all 0.3s ease;
-  backdrop-filter: blur(8px);
+  backdrop-filter: none;
 }
 
 .ayah-card:hover {
-  background: linear-gradient(135deg, rgba(20, 48, 55, 0.8), rgba(14, 35, 40, 0.85));
-  border-color: rgba(255, 255, 255, 0.12);
+  background: transparent;
+  border-color: rgba(216, 179, 106, 0.3);
 }
 
 .ayah-card.focused {
-  border-color: rgba(111, 212, 177, 0.5);
-  background: linear-gradient(135deg, rgba(22, 58, 65, 0.85), rgba(16, 42, 48, 0.9));
-  box-shadow: 0 0 0 1px rgba(111, 212, 177, 0.2),
-    0 16px 48px rgba(0, 0, 0, 0.25);
+  border-color: rgba(216, 179, 106, 0.55);
+  background: transparent;
+  box-shadow: none;
+  border-left-color: var(--accent);
 }
 
 .ayah-header {
@@ -973,7 +1014,7 @@ button {
 .ayah-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
   opacity: 0;
   transform: translateY(-4px);
   pointer-events: none;
@@ -1145,10 +1186,11 @@ button {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: rgba(17, 41, 47, 0.5);
-  border-radius: var(--radius-md);
-  padding: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: transparent;
+  border-radius: 0;
+  padding: 0 0 16px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 /* Immersive Scrollbar */
@@ -1326,6 +1368,23 @@ button {
   .panel-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .reader-panel .panel-header {
+    padding-right: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reader-panel .panel-header > div:first-child {
+    text-align: center;
+  }
+
+  .reader-panel .panel-header .header-action-btns {
+    position: static;
+    transform: none;
+    margin-top: 12px;
   }
 
   /* Show mobile elements, hide desktop elements */
@@ -1892,6 +1951,49 @@ textarea:focus-visible {
 
 .action-btn:active {
   transform: translateY(0);
+}
+
+.action-icon-btn {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.action-icon-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.action-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(216, 179, 106, 0.5);
+  transform: translateY(-1px);
+}
+
+.action-icon-btn.saved {
+  border-color: rgba(111, 212, 177, 0.5);
+  background: linear-gradient(135deg, rgba(111, 212, 177, 0.2), rgba(111, 212, 177, 0.1));
+  color: #d8fff0;
+  box-shadow: 0 2px 6px rgba(111, 212, 177, 0.15);
+}
+
+.action-icon-btn.is-compare {
+  color: var(--accent-2);
+  border-color: rgba(111, 212, 177, 0.35);
+  background: rgba(111, 212, 177, 0.08);
+}
+
+.action-icon-btn.is-compare:hover {
+  background: rgba(111, 212, 177, 0.15);
+  border-color: rgba(111, 212, 177, 0.5);
 }
 
 /* Ayah card enhancements */
