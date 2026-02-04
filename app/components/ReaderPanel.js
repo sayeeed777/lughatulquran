@@ -39,12 +39,10 @@ export default function ReaderPanel({
   error,
   loadingSurahData,
   isAutoPlaying,
-  isAudioPaused,
   onPlaySurah,
   onStopAutoPlay,
   onAudioEnded,
   onPlay,
-  onTogglePlay,
   onToggleBookmark,
   onOpenNote,
   onCompare,
@@ -55,23 +53,6 @@ export default function ReaderPanel({
   const formatArabic = (text) => text;
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
-  const getQuickAyahNumber = () => {
-    if (focusedAyahKey) {
-      const parts = String(focusedAyahKey).split(":");
-      const number = Number(parts[1]);
-      if (number) {
-        return number;
-      }
-    }
-    return nowPlaying?.ayah || 1;
-  };
-  const quickIsPlaying =
-    selectedSurah &&
-    nowPlaying &&
-    !isAutoPlaying &&
-    !isAudioPaused &&
-    nowPlaying.surah === selectedSurah.number &&
-    nowPlaying.ayah === getQuickAyahNumber();
 
   return (
     <section className="panel reader-panel">
@@ -90,81 +71,76 @@ export default function ReaderPanel({
             </p>
           )}
         </div>
-        {/* Search and Settings buttons */}
+        {/* Search and Settings buttons - all screens */}
         <div className="header-action-btns">
-          <button
+          <button 
             className="header-icon-btn"
             onClick={() => setShowMobileSearch(true)}
             aria-label="Search"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8" />
-              <path d="m21 21-4.35-4.35" />
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
             </svg>
           </button>
-          <button
+          <button 
             className="header-icon-btn"
             onClick={() => setShowMobileSettings(true)}
             aria-label="Settings"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="3" />
-              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
             </svg>
           </button>
         </div>
       </div>
 
-      <div className="reader-quick">
-        <div className="quick-slider">
-          <span>Arabic size</span>
-          <input
-            type="range"
-            min="0.6"
-            max="1.4"
-            step="0.05"
-            value={fontScale.arabic}
-            onChange={(event) =>
-              setFontScale((prev) => ({
-                ...prev,
-                arabic: clamp(Number(event.target.value), 0.6, 1.4)
-              }))
-            }
-          />
-        </div>
-        <div className="quick-slider">
-          <span>English size</span>
-          <input
-            type="range"
-            min="0.8"
-            max="1.3"
-            step="0.05"
-            value={fontScale.translation}
-            onChange={(event) =>
-              setFontScale((prev) => ({
-                ...prev,
-                translation: clamp(Number(event.target.value), 0.8, 1.3)
-              }))
-            }
-          />
-        </div>
-        {selectedSurah && (
-          <div className="quick-play">
-            <button
-              className="action-btn play-surah-btn"
-              onClick={() =>
-                onTogglePlay
-                  ? onTogglePlay(selectedSurah.number, getQuickAyahNumber())
-                  : onPlay(selectedSurah.number, getQuickAyahNumber())
+      {/* Quick Controls Row */}
+      {selectedSurah && (
+        <div className="quick-controls-row">
+          <div className="quick-slider">
+            <span>Arabic size</span>
+            <input
+              type="range"
+              min="0.8"
+              max="1.4"
+              step="0.05"
+              value={fontScale.arabic}
+              onChange={(event) =>
+                setFontScale((prev) => ({
+                  ...prev,
+                  arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                }))
               }
-            >
-              {quickIsPlaying ? "⏸ Stop Ayah" : "▶ Play Ayah"}
-            </button>
+            />
           </div>
-        )}
-      </div>
+          <div className="quick-slider">
+            <span>English size</span>
+            <input
+              type="range"
+              min="0.8"
+              max="1.3"
+              step="0.05"
+              value={fontScale.translation}
+              onChange={(event) =>
+                setFontScale((prev) => ({
+                  ...prev,
+                  translation: clamp(Number(event.target.value), 0.8, 1.3)
+                }))
+              }
+            />
+          </div>
+          <button
+            className="action-btn"
+            onClick={() => onPlay(selectedSurah.number, 1)}
+          >
+            ▶ Play Ayah
+          </button>
+        </div>
+      )}
 
-      {/* Mobile Settings Modal */}
+      {/* Settings Modal */}
       {showMobileSettings && (
         <div className="mobile-settings-overlay" onClick={() => setShowMobileSettings(false)}>
           <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
@@ -182,7 +158,6 @@ export default function ReaderPanel({
                       className={selectedTranslation === translation.id ? "active" : ""}
                       onClick={() => {
                         setSelectedTranslation(translation.id);
-                        setShowMobileSettings(false);
                       }}
                     >
                       {translation.label}
@@ -191,53 +166,43 @@ export default function ReaderPanel({
                 </div>
               </div>
               <div className="setting-group">
-                <label className="setting-label">Arabic Size</label>
-                <input
-                  type="range"
-                  className="settings-range"
-                  min="0.6"
-                  max="1.4"
-                  step="0.05"
-                  value={fontScale.arabic}
-                  onChange={(event) =>
-                    setFontScale((prev) => ({
-                      ...prev,
-                      arabic: clamp(Number(event.target.value), 0.6, 1.4)
-                    }))
-                  }
-                />
-              </div>
-              <div className="setting-group">
-                <label className="setting-label">Translation Size</label>
-                <input
-                  type="range"
-                  className="settings-range"
-                  min="0.8"
-                  max="1.3"
-                  step="0.05"
-                  value={fontScale.translation}
-                  onChange={(event) =>
-                    setFontScale((prev) => ({
-                      ...prev,
-                      translation: clamp(Number(event.target.value), 0.8, 1.3)
-                    }))
-                  }
-                />
-              </div>
-              <div className="setting-group">
-                <label className="setting-label">Word by Word</label>
-                <button
-                  className={`action-btn mobile-toggle-btn${showWordByWord ? " saved" : ""}`}
-                  onClick={() => setShowWordByWord((prev) => !prev)}
-                >
-                  {showWordByWord ? "✓ Enabled" : "Enable"}
-                </button>
-                {showWordByWord && wordLoading && (
-                  <span className="meta">Loading...</span>
-                )}
-                {showWordByWord && wordError && (
-                  <span className="meta error">Unavailable</span>
-                )}
+                <label className="setting-label">Text Size</label>
+                <div className="size-controls-row">
+                  <div className="size-control">
+                    <span className="size-label">Arabic</span>
+                    <input
+                      type="range"
+                      className="settings-range"
+                      min="0.8"
+                      max="1.4"
+                      step="0.05"
+                      value={fontScale.arabic}
+                      onChange={(event) =>
+                        setFontScale((prev) => ({
+                          ...prev,
+                          arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                        }))
+                      }
+                    />
+                  </div>
+                  <div className="size-control">
+                    <span className="size-label">Translation</span>
+                    <input
+                      type="range"
+                      className="settings-range"
+                      min="0.8"
+                      max="1.3"
+                      step="0.05"
+                      value={fontScale.translation}
+                      onChange={(event) =>
+                        setFontScale((prev) => ({
+                          ...prev,
+                          translation: clamp(Number(event.target.value), 0.8, 1.3)
+                        }))
+                      }
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -280,6 +245,21 @@ export default function ReaderPanel({
                   </button>
                 </div>
               </div>
+              <div className="setting-group">
+                <label className="setting-label">Word by Word</label>
+                <button
+                  className={`action-btn mobile-toggle-btn${showWordByWord ? " saved" : ""}`}
+                  onClick={() => setShowWordByWord((prev) => !prev)}
+                >
+                  {showWordByWord ? "✓ Enabled" : "Enable"}
+                </button>
+                {showWordByWord && wordLoading && (
+                  <span className="meta">Loading...</span>
+                )}
+                {showWordByWord && wordError && (
+                  <span className="meta error">Unavailable</span>
+                )}
+              </div>
             </div>
           </div>
         </div>
@@ -290,13 +270,11 @@ export default function ReaderPanel({
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
         isAutoPlaying={isAutoPlaying}
-        isAudioPaused={isAudioPaused}
         onPlaySurah={onPlaySurah}
         onStopAutoPlay={onStopAutoPlay}
         onAudioEnded={onAudioEnded}
         selectedSurah={selectedSurah}
         nowPlaying={nowPlaying}
-        showSurahControls={false}
         showPlayerBar={false}
       />
 
@@ -335,15 +313,12 @@ export default function ReaderPanel({
                     isSaved={isSaved}
                     hasNote={hasNote}
                     isFocused={isFocused}
-                    nowPlaying={nowPlaying}
-                    isAudioPaused={isAudioPaused}
                     words={words}
                     showWordByWord={showWordByWord}
                     copiedKey={copiedKey}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
                     onPlay={onPlay}
-                    onTogglePlay={onTogglePlay}
                     onToggleBookmark={onToggleBookmark}
                     onOpenNote={onOpenNote}
                     onCompare={onCompare}
