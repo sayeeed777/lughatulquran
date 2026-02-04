@@ -53,15 +53,15 @@ export default function ReaderPanel({
   const formatArabic = (text) => text;
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
-  const quickTextSize = fontScale?.arabic || 1;
-
-  const handleQuickSizeChange = (event) => {
-    const value = clamp(Number(event.target.value), 0.8, 1.4);
-    setFontScale((prev) => ({
-      ...prev,
-      arabic: value,
-      translation: clamp(value, 0.8, 1.3)
-    }));
+  const getQuickAyahNumber = () => {
+    if (focusedAyahKey) {
+      const parts = String(focusedAyahKey).split(":");
+      const number = Number(parts[1]);
+      if (number) {
+        return number;
+      }
+    }
+    return nowPlaying?.ayah || 1;
   };
 
   return (
@@ -107,31 +107,48 @@ export default function ReaderPanel({
       </div>
 
       <div className="reader-quick">
-        <div className="quick-resize">
-          <span>Text size</span>
+        <div className="quick-slider">
+          <span>Arabic size</span>
           <input
             type="range"
             min="0.8"
             max="1.4"
             step="0.05"
-            value={quickTextSize}
-            onChange={handleQuickSizeChange}
+            value={fontScale.arabic}
+            onChange={(event) =>
+              setFontScale((prev) => ({
+                ...prev,
+                arabic: clamp(Number(event.target.value), 0.8, 1.4)
+              }))
+            }
+          />
+        </div>
+        <div className="quick-slider">
+          <span>English size</span>
+          <input
+            type="range"
+            min="0.8"
+            max="1.3"
+            step="0.05"
+            value={fontScale.translation}
+            onChange={(event) =>
+              setFontScale((prev) => ({
+                ...prev,
+                translation: clamp(Number(event.target.value), 0.8, 1.3)
+              }))
+            }
           />
         </div>
         {selectedSurah && (
           <div className="quick-play">
-            {isAutoPlaying ? (
-              <button className="action-btn stop-btn" onClick={onStopAutoPlay}>
-                ⏹ Stop
-              </button>
-            ) : (
-              <button
-                className="action-btn play-surah-btn"
-                onClick={() => onPlaySurah(nowPlaying?.ayah || 1)}
-              >
-                ▶ Play Surah
-              </button>
-            )}
+            <button
+              className="action-btn play-surah-btn"
+              onClick={() =>
+                onPlay(selectedSurah.number, getQuickAyahNumber())
+              }
+            >
+              ▶ Play Ayah
+            </button>
           </div>
         )}
       </div>

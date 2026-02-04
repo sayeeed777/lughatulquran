@@ -276,17 +276,17 @@ button {
   background: rgba(17, 41, 47, 0.55);
 }
 
-.quick-resize {
+.quick-slider {
   display: flex;
   align-items: center;
   gap: 12px;
   font-size: 0.8rem;
   color: var(--muted);
-  flex: 1 1 220px;
+  flex: 1 1 200px;
 }
 
-.quick-resize input[type="range"] {
-  width: min(220px, 100%);
+.quick-slider input[type="range"] {
+  width: min(200px, 100%);
 }
 
 .quick-play {
