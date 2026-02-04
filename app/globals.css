@@ -203,6 +203,7 @@ button {
 
 .surah-panel {
   min-width: 0;
+  overflow: hidden;
 }
 
 .panel-header {
@@ -226,11 +227,16 @@ button {
 .surah-search-wrapper {
   margin-bottom: 16px;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 .surah-search-wrapper .search {
   flex: unset;
+  display: block;
   width: 100%;
+  max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
 }
