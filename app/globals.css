@@ -10,13 +10,26 @@
   --accent-2: #6fd4b1;
   --stroke: rgba(216, 179, 106, 0.25);
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
-  --radius-lg: 24px;
-  --radius-md: 16px;
-  --radius-sm: 12px;
   --arabic-scale: 1;
   --translation-scale: 1;
   --font-arabic: "UthmanicHafs", "Traditional Arabic", "Scheherazade New",
     serif;
+
+  /* Apple-style consistent radius system */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Apple SF-style type scale */
+  --text-xs: 0.6875rem;   /* 11px */
+  --text-sm: 0.8125rem;   /* 13px */
+  --text-base: 0.9375rem; /* 15px */
+  --text-lg: 1.0625rem;   /* 17px */
+  --text-xl: 1.375rem;    /* 22px */
+  --text-2xl: 1.6875rem;  /* 27px */
 }
 
 @font-face {
@@ -90,7 +103,7 @@ body::before {
 .logo-mark {
   width: 52px;
   height: 52px;
-  border-radius: 16px;
+  border-radius: var(--radius-md);
   display: grid;
   place-items: center;
   color: #f5e4bf;
@@ -118,8 +131,8 @@ body::before {
 }
 
 .logo-sub {
-  font-size: 0.75rem;
-  letter-spacing: 0.2em;
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--accent-2);
 }
@@ -137,11 +150,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: var(--text-xl);
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: var(--text-lg);
 }
 
 p {
@@ -159,10 +172,10 @@ button {
 
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  font-size: var(--text-xs);
   color: var(--accent-2);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
@@ -269,6 +282,8 @@ button {
   max-width: 100%;
   min-width: 0;
   box-sizing: border-box;
+  padding: 10px 14px;
+  font-size: var(--text-sm);
 }
 
 .reader-controls {
@@ -321,31 +336,39 @@ button {
 }
 
 .quick-play .play-surah-btn {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--text);
-  padding: 6px 12px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  font-weight: 600;
-  font-size: 0.75rem;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
   white-space: nowrap;
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.quick-play .play-surah-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .quick-play .stop-btn {
-  background: rgba(248, 113, 113, 0.18);
-  color: #fff1f1;
-  padding: 6px 12px;
-  border-radius: 999px;
-  border: 1px solid rgba(248, 113, 113, 0.45);
-  font-weight: 600;
-  font-size: 0.75rem;
+  background: rgba(248, 113, 113, 0.15);
+  color: #ffc9c9;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
   white-space: nowrap;
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.quick-play .stop-btn:hover {
+  background: rgba(248, 113, 113, 0.25);
 }
 
 .reader-toolbar {
@@ -498,7 +521,7 @@ button {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 2px;
   max-height: 70vh;
   overflow-y: auto;
   padding-right: 6px;
@@ -511,37 +534,33 @@ button {
   grid-template-columns: auto 1fr auto;
   gap: 14px;
   align-items: center;
-  padding: 12px 0 12px 12px;
-  border-radius: 0;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(216, 179, 106, 0.15);
-  border-left: 2px solid transparent;
   transition: all 0.25s ease;
   backdrop-filter: none;
+  margin-bottom: 4px;
 }
 
 .surah-item:hover {
-  background: transparent;
-  border-color: rgba(216, 179, 106, 0.35);
+  background: rgba(255, 255, 255, 0.06);
   transform: none;
 }
 
 .surah-item.active {
-  background: transparent;
-  border-color: rgba(216, 179, 106, 0.5);
+  background: rgba(216, 179, 106, 0.1);
   box-shadow: none;
-  border-left-color: var(--accent);
 }
 
 .surah-item:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 .surah-number {
-  font-weight: 700;
+  font-weight: 600;
   color: var(--accent);
-  font-size: 0.9rem;
+  font-size: var(--text-base);
   min-width: 28px;
 }
 
@@ -556,7 +575,7 @@ button {
 }
 
 .surah-translation {
-  font-size: 0.75rem;
+  font-size: var(--text-xs);
   color: var(--muted);
 }
 
@@ -580,7 +599,7 @@ button {
 
 .meta {
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: var(--text-sm);
 }
 
 .meta.error {
@@ -596,25 +615,25 @@ button {
 .translation-toggle button {
   border-radius: var(--radius-sm);
   padding: 8px 16px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.04);
-  font-size: 0.8rem;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: var(--text-sm);
   font-weight: 500;
-  transition: all 0.25s ease;
-  backdrop-filter: blur(4px);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
 }
 
 .translation-toggle button:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.translation-toggle button:active {
+  transform: scale(0.97);
 }
 
 .translation-toggle button.active {
-  background: linear-gradient(135deg, rgba(111, 212, 177, 0.25), rgba(111, 212, 177, 0.15));
-  border-color: rgba(111, 212, 177, 0.5);
-  color: #d8fff0;
-  box-shadow: 0 2px 8px rgba(111, 212, 177, 0.2);
+  background: rgba(111, 212, 177, 0.18);
+  color: var(--accent-2);
 }
 
 /* Mobile/Desktop visibility helpers */
@@ -644,21 +663,19 @@ button {
   height: 36px;
   padding: 0;
   border-radius: 50%;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.2s ease;
+  transition: background 0.2s ease;
   color: var(--text);
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.2);
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .header-icon-btn:hover {
-  background: rgba(255, 255, 255, 0.16);
-  border-color: rgba(216, 179, 106, 0.5);
+  background: rgba(255, 255, 255, 0.14);
 }
 
 .header-icon-btn:active {
@@ -812,7 +829,7 @@ button {
 .settings-range {
   width: 100%;
   height: 6px;
-  border-radius: 3px;
+  border-radius: var(--radius-xs);
   background: rgba(255, 255, 255, 0.1);
   appearance: none;
   -webkit-appearance: none;
@@ -911,45 +928,39 @@ button {
 }
 
 .audio-bar .play-surah-btn {
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--text);
-  padding: 8px 16px;
-  border-radius: 999px;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  font-weight: 600;
-  font-size: 0.85rem;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
   white-space: nowrap;
-  transition: transform 0.2s, box-shadow 0.2s;
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .audio-bar .play-surah-btn:hover {
-  transform: scale(1.02);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 12px 28px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.16);
 }
 
 .audio-bar .stop-btn {
-  background: rgba(248, 113, 113, 0.18);
-  color: #fff1f1;
-  padding: 8px 16px;
-  border-radius: 999px;
-  border: 1px solid rgba(248, 113, 113, 0.45);
-  font-weight: 600;
-  font-size: 0.85rem;
+  background: rgba(248, 113, 113, 0.15);
+  color: #ffc9c9;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
   white-space: nowrap;
-  transition: transform 0.2s, box-shadow 0.2s;
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .audio-bar .stop-btn:hover {
-  transform: scale(1.02);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 12px 28px rgba(0, 0, 0, 0.3);
+  background: rgba(248, 113, 113, 0.25);
 }
 
 .audio-bar .label {
@@ -964,7 +975,7 @@ button {
 .audio-bar audio {
   width: 240px;
   height: 36px;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
 }
 
 .audio-placeholder {
@@ -982,17 +993,14 @@ button {
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 40px;
 }
 
 .ayah-card {
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(216, 179, 106, 0.18);
-  border-radius: 0;
-  padding: 16px 0;
-  padding-left: 12px;
-  border-left: 2px solid transparent;
+  border-radius: var(--radius-md);
+  padding: 24px 0;
   animation: fadeUp 0.6s ease both;
   animation-delay: calc(var(--i) * 0.02s);
   scroll-margin-top: 120px;
@@ -1003,15 +1011,15 @@ button {
 }
 
 .ayah-card:hover {
-  background: transparent;
-  border-color: rgba(216, 179, 106, 0.3);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .ayah-card.focused {
-  border-color: rgba(216, 179, 106, 0.55);
-  background: transparent;
+  background: rgba(216, 179, 106, 0.06);
   box-shadow: none;
-  border-left-color: var(--accent);
+  padding: 24px;
+  margin-left: -24px;
+  margin-right: -24px;
 }
 
 .ayah-header {
@@ -1046,48 +1054,49 @@ button {
 }
 
 .action-btn {
-  font-size: 0.75rem;
+  font-size: var(--text-sm);
   font-weight: 500;
   color: var(--text);
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  padding: 6px 14px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.1);
-  transition: all 0.25s ease;
-  backdrop-filter: blur(10px) saturate(140%);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25),
-    0 10px 24px rgba(0, 0, 0, 0.22);
+  border: none;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.08);
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
 }
 
 .action-btn:hover {
-  background: rgba(255, 255, 255, 0.16);
-  border-color: rgba(216, 179, 106, 0.5);
-  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.action-btn:active {
+  background: rgba(255, 255, 255, 0.18);
+  transform: scale(0.97);
 }
 
 .action-btn.saved {
-  border-color: rgba(111, 212, 177, 0.6);
-  background: rgba(111, 212, 177, 0.18);
-  color: #d8fff0;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
-    0 10px 24px rgba(0, 0, 0, 0.22);
+  background: rgba(111, 212, 177, 0.15);
+  color: var(--accent-2);
 }
 
 .compare-btn {
-  font-size: 0.75rem;
+  font-size: var(--text-sm);
   font-weight: 500;
   color: var(--accent-2);
-  border: 1px solid rgba(111, 212, 177, 0.35);
-  padding: 6px 14px;
+  border: none;
+  padding: 8px 14px;
   border-radius: var(--radius-sm);
-  background: rgba(111, 212, 177, 0.08);
-  transition: all 0.25s ease;
+  background: rgba(111, 212, 177, 0.1);
+  transition: background 0.2s ease;
 }
 
 .compare-btn:hover {
-  background: rgba(111, 212, 177, 0.15);
-  border-color: rgba(111, 212, 177, 0.5);
-  transform: translateY(-1px);
+  background: rgba(111, 212, 177, 0.18);
+}
+
+.compare-btn:active {
+  transform: scale(0.97);
 }
 
 .ayah-arabic {
@@ -1103,7 +1112,8 @@ button {
 
 .ayah-translation {
   color: var(--muted);
-  font-size: calc(0.95rem * var(--translation-scale));
+  font-size: calc(var(--text-base) * var(--translation-scale));
+  line-height: 1.5;
 }
 
 .word-row {
@@ -1118,7 +1128,7 @@ button {
 .word-chip {
   background: rgba(255, 255, 255, 0.04);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   padding: 6px 8px;
   display: flex;
   flex-direction: column;
@@ -1160,7 +1170,7 @@ button {
 }
 
 .close-btn {
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 6px 12px;
   background: rgba(255, 255, 255, 0.05);
@@ -1207,9 +1217,13 @@ button {
   gap: 12px;
   background: transparent;
   border-radius: 0;
-  padding: 0 0 16px;
+  padding: 0;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  margin-bottom: 32px;
+}
+
+.study-section:last-child {
+  margin-bottom: 0;
 }
 
 /* Immersive Scrollbar */
@@ -1224,7 +1238,7 @@ button {
 
 ::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 99px;
+  border-radius: var(--radius-full);
   border: 2px solid transparent;
   background-clip: content-box;
 }
@@ -1284,7 +1298,7 @@ button {
 .note-body textarea {
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   padding: 8px 10px;
   color: var(--text);
   font: inherit;
@@ -1484,7 +1498,7 @@ button {
       rgba(255, 255, 255, 0.06) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
-  border-radius: 6px;
+  border-radius: var(--radius-xs);
 }
 
 @keyframes shimmer {
@@ -1541,7 +1555,7 @@ button {
 .skeleton-btn {
   height: 32px;
   width: 60px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
 }
 
 .skeleton-arabic-line {
@@ -1720,7 +1734,7 @@ button {
   align-items: center;
   justify-content: center;
   background: rgba(111, 212, 177, 0.15);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   color: var(--accent-2);
 }
 
@@ -1763,7 +1777,7 @@ button {
   padding: 8px 12px;
   background: var(--card-strong);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   font-size: 0.75rem;
   color: var(--text);
   white-space: nowrap;
@@ -1871,7 +1885,7 @@ kbd {
   padding: 0 8px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 6px;
+  border-radius: var(--radius-xs);
   font-family: inherit;
   font-size: 0.8rem;
   color: var(--text);
@@ -1976,7 +1990,7 @@ textarea:focus-visible {
   width: 30px;
   height: 30px;
   padding: 0;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   border: none;
   background: transparent;
   color: var(--text);

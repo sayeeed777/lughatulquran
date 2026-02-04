@@ -21,7 +21,7 @@ export default function SurahList({
         <div className="surah-search-wrapper">
           <input
             className="search"
-            placeholder="Search by name or number"
+            placeholder="Search surahs…"
             value=""
             disabled
             readOnly
@@ -55,7 +55,7 @@ export default function SurahList({
       <div className="surah-search-wrapper">
         <input
           className="search"
-          placeholder="Search by name or number"
+          placeholder="Search surahs…"
           value={query || ""}
           onChange={(event) => setQuery(event.target.value)}
         />
