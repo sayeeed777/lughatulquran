@@ -10,7 +10,7 @@ export function useLocalStorage(key, initialValue) {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    
+
     try {
       const item = localStorage.getItem(key);
       if (item) {
@@ -23,16 +23,19 @@ export function useLocalStorage(key, initialValue) {
   }, [key]);
 
   const setValue = useCallback((value) => {
-    try {
-      const valueToStore = value instanceof Function ? value(storedValue) : value;
-      setStoredValue(valueToStore);
-      if (typeof window !== "undefined") {
-        localStorage.setItem(key, JSON.stringify(valueToStore));
+    setStoredValue((prevValue) => {
+      try {
+        const valueToStore = value instanceof Function ? value(prevValue) : value;
+        if (typeof window !== "undefined") {
+          localStorage.setItem(key, JSON.stringify(valueToStore));
+        }
+        return valueToStore;
+      } catch (error) {
+        console.error(`Error setting localStorage key "${key}":`, error);
+        return prevValue;
       }
-    } catch (error) {
-      console.error(`Error setting localStorage key "${key}":`, error);
-    }
-  }, [key, storedValue]);
+    });
+  }, [key]);
 
   return [storedValue, setValue, isLoaded];
 }

@@ -21,8 +21,7 @@
 
 @font-face {
   font-family: "UthmanicHafs";
-  src: url("https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2")
-    format("woff2");
+  src: url("https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -30,8 +29,7 @@
 
 @font-face {
   font-family: "UthmanicHafs";
-  src: url("https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2")
-    format("woff2");
+  src: url("https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -57,13 +55,11 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: repeating-linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.03),
-    rgba(255, 255, 255, 0.03) 1px,
-    transparent 1px,
-    transparent 6px
-  );
+  background: repeating-linear-gradient(135deg,
+      rgba(255, 255, 255, 0.03),
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px,
+      transparent 6px);
   opacity: 0.6;
   pointer-events: none;
   z-index: 0;
@@ -72,7 +68,7 @@ body::before {
 .app {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 48px 24px 80px;
   display: flex;
@@ -677,9 +673,7 @@ button {
 
 .ayah-arabic {
   font-family: var(--font-arabic), serif;
-  font-size: calc(
-    clamp(1.8rem, 2.4vw, 2.4rem) * var(--arabic-scale)
-  );
+  font-size: calc(clamp(1.8rem, 2.4vw, 2.4rem) * var(--arabic-scale));
   line-height: 2.1;
   text-align: right;
   letter-spacing: 0;
@@ -822,91 +816,32 @@ button {
 /* Back To Top Button */
 .back-to-top {
   position: fixed;
-  bottom: 32px;
-  right: 32px;
-  background: var(--accent);
-  color: var(--bg-deep);
-  width: 48px;
-  height: 48px;
+  bottom: 24px;
+  right: 20px;
+  background: transparent;
+  color: var(--muted);
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   z-index: 100;
   cursor: pointer;
-  border: none;
+  border: 1px dashed rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+  opacity: 0.6;
+  transition: all 0.2s ease;
 }
 
 .back-to-top:hover {
-  background: #e6c584;
-}
-
-/* Immersive Glow Effects */
-.ayah-card {
-  position: relative;
-  overflow: visible !important;
-}
-
-.ayah-card::before {
-  content: "";
-  position: absolute;
-  inset: -1px;
-  z-index: -1;
-  background: radial-gradient(
-    circle at 50% 0%, 
-    rgba(216, 179, 106, 0.0) 0%, 
-    transparent 70%
-  );
-  border-radius: inherit;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.ayah-card:hover::before {
-  opacity: 1;
-  background: radial-gradient(
-    circle at 50% 0%, 
-    rgba(216, 179, 106, 0.15) 0%, 
-    transparent 70%
-  );
-}
-
-.ayah-card.focused::before {
-  opacity: 1;
-  background: radial-gradient(
-    circle at 50% 0%, 
-    rgba(111, 212, 177, 0.25) 0%, 
-    transparent 70%
-  );
-}
-
-/* Navigation Item Glow */
-.surah-item {
-  position: relative;
-  overflow: hidden;
-}
-
-.surah-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: radial-gradient(
-    800px circle at var(--mouse-x) var(--mouse-y),
-    rgba(255, 255, 255, 0.04),
-    transparent 40%
-  );
-  z-index: 0;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.surah-item:hover::after {
+  background: transparent;
+  color: var(--accent);
+  border-color: var(--accent);
+  border-style: solid;
   opacity: 1;
 }
+
 
 .plan-grid {
   display: grid;
@@ -1017,6 +952,7 @@ button {
     opacity: 0;
     transform: translateY(16px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1076,12 +1012,10 @@ button {
 }
 
 .skeleton-box {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 0.06) 25%,
-    rgba(255, 255, 255, 0.12) 50%,
-    rgba(255, 255, 255, 0.06) 75%
-  );
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.06) 25%,
+      rgba(255, 255, 255, 0.12) 50%,
+      rgba(255, 255, 255, 0.06) 75%);
   background-size: 200% 100%;
   animation: shimmer 1.5s infinite;
   border-radius: 6px;
@@ -1091,6 +1025,7 @@ button {
   0% {
     background-position: 200% 0;
   }
+
   100% {
     background-position: -200% 0;
   }
@@ -1237,11 +1172,9 @@ button {
   text-align: center;
   padding: 32px 20px;
   margin-bottom: 24px;
-  background: linear-gradient(
-    135deg,
-    rgba(216, 179, 106, 0.08) 0%,
-    rgba(111, 212, 177, 0.05) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(216, 179, 106, 0.08) 0%,
+      rgba(111, 212, 177, 0.05) 100%);
   border-radius: var(--radius-lg);
   border: 1px solid rgba(216, 179, 106, 0.15);
   animation: fadeIn 0.6s ease;
@@ -1305,11 +1238,9 @@ button {
   align-items: center;
   gap: 16px;
   padding: 16px 20px;
-  background: linear-gradient(
-    135deg,
-    rgba(111, 212, 177, 0.1) 0%,
-    rgba(216, 179, 106, 0.05) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(111, 212, 177, 0.1) 0%,
+      rgba(216, 179, 106, 0.05) 100%);
   border: 1px solid rgba(111, 212, 177, 0.2);
   border-radius: var(--radius-md);
   margin-bottom: 20px;
@@ -1393,6 +1324,7 @@ button {
     opacity: 0;
     transform: translateX(-50%) translateY(4px);
   }
+
   to {
     opacity: 1;
     transform: translateX(-50%) translateY(0);
@@ -1495,8 +1427,13 @@ kbd {
 
 /* Enhanced Animations */
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes slideIn {
@@ -1504,6 +1441,7 @@ kbd {
     opacity: 0;
     transform: translateY(-10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1515,6 +1453,7 @@ kbd {
     opacity: 0;
     transform: scale(0.95);
   }
+
   to {
     opacity: 1;
     transform: scale(1);
@@ -1522,8 +1461,15 @@ kbd {
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
 }
 
 /* Smooth scroll behavior */
@@ -1574,9 +1520,17 @@ textarea:focus-visible {
 }
 
 @keyframes focusPulse {
-  0% { box-shadow: 0 0 0 0 rgba(216, 179, 106, 0.4); }
-  70% { box-shadow: 0 0 0 10px rgba(216, 179, 106, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(216, 179, 106, 0); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(216, 179, 106, 0.4);
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(216, 179, 106, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(216, 179, 106, 0);
+  }
 }
 
 /* Surah item hover enhancement */
@@ -1605,10 +1559,25 @@ textarea:focus-visible {
 }
 
 @keyframes audioProgress {
-  0% { transform: scaleX(0); transform-origin: left; }
-  50% { transform: scaleX(1); transform-origin: left; }
-  50.01% { transform: scaleX(1); transform-origin: right; }
-  100% { transform: scaleX(0); transform-origin: right; }
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  50.01% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
 }
 
 /* Selection styling */
@@ -1674,4 +1643,3 @@ textarea:focus-visible {
     display: none;
   }
 }
-
