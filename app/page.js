@@ -501,6 +501,7 @@ export default function Home() {
           noteTarget={noteTarget}
           noteDraft={noteDraft}
           setNoteDraft={setNoteDraft}
+          surahByNumber={surahByNumber}
           onSave={saveNote}
           onClose={() => { setNoteTarget(null); setNoteDraft(""); }}
         />
