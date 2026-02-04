@@ -80,15 +80,6 @@ export default function AyahCard({
           >
             Compare
           </button>
-          <button
-            className="action-btn"
-            onClick={(e) => {
-              e.stopPropagation();
-              onCopyLink(surahNumber, ayah.number);
-            }}
-          >
-            {copiedKey === key ? "Copied" : "Copy link"}
-          </button>
         </div>
       </div>
       <p className="ayah-arabic" lang="ar" dir="rtl">
