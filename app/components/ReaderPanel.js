@@ -4,6 +4,7 @@ import AyahCard from "./AyahCard";
 import AudioPlayer from "./AudioPlayer";
 import BismillahBanner from "./BismillahBanner";
 import ProgressBar from "./ProgressBar";
+import BackToTop from "./BackToTop";
 import { AyahListSkeleton } from "./skeletons";
 import { INLINE_TRANSLATIONS, NO_BISMILLAH_SURAHS } from "../lib/constants";
 
@@ -168,13 +169,13 @@ export default function ReaderPanel({
             {selectedSurah && !NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
               <BismillahBanner />
             )}
-            
+
             {/* Reading progress indicator */}
-            <ProgressBar 
-              current={filteredAyahs.length > 0 ? 1 : 0} 
-              total={selectedSurah?.numberOfAyahs || 0} 
+            <ProgressBar
+              current={filteredAyahs.length > 0 ? 1 : 0}
+              total={selectedSurah?.numberOfAyahs || 0}
             />
-            
+
             <ol className="ayah-list">
               {filteredAyahs.map((ayah, index) => {
                 const key = verseKey(selectedSurah.number, ayah.number);
@@ -208,6 +209,7 @@ export default function ReaderPanel({
                 );
               })}
             </ol>
+            <BackToTop />
           </>
         ) : (
           <p className="status">No ayahs found.</p>

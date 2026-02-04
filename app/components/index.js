@@ -14,4 +14,5 @@ export { default as ProgressBar } from "./ProgressBar";
 export { default as LastReadCard } from "./LastReadCard";
 export { default as Tooltip } from "./Tooltip";
 export { default as KeyboardShortcutsHelp } from "./KeyboardShortcutsHelp";
+export { default as BackToTop } from "./BackToTop";
 export * from "./skeletons";

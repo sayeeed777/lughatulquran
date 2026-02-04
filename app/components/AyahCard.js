@@ -1,5 +1,7 @@
 "use client";
 
+import { motion } from "framer-motion";
+
 export default function AyahCard({
   ayah,
   surahNumber,
@@ -24,13 +26,20 @@ export default function AyahCard({
   const key = verseKey;
 
   return (
-    <li
+    <motion.li
       id={`ayah-${ayah.number}`}
       className={`ayah-card${isFocused ? " focused" : ""}`}
       style={{ "--i": index }}
       tabIndex={0}
-      onClick={() => onFocus(key)}
+      onClick={() => {
+        onFocus(key);
+        onPlay(surahNumber, ayah.number);
+      }}
       onFocus={() => onFocus(key)}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "-50px" }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
     >
       <div className="ayah-header">
         <span className="ayah-number">Ayah {ayah.number}</span>
@@ -89,7 +98,11 @@ export default function AyahCard({
         {translation?.text || "Translation unavailable."}
       </p>
       {showWordByWord && words.length > 0 && (
-        <div className="word-row">
+        <motion.div
+          className="word-row"
+          initial={{ opacity: 0, height: 0 }}
+          animate={{ opacity: 1, height: "auto" }}
+        >
           {words.map((word, wordIndex) => (
             <div className="word-chip" key={`${key}-${wordIndex}`}>
               <span className="word-ar" lang="ar" dir="rtl">
@@ -100,8 +113,8 @@ export default function AyahCard({
               )}
             </div>
           ))}
-        </div>
+        </motion.div>
       )}
-    </li>
+    </motion.li>
   );
 }

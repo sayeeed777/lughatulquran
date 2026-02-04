@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import SurahListSkeleton from "./skeletons/SurahListSkeleton";
 
 export default function SurahList({
@@ -31,6 +32,21 @@ export default function SurahList({
     );
   }
 
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.05
+      }
+    }
+  };
+
+  const item = {
+    hidden: { opacity: 0, x: -10 },
+    show: { opacity: 1, x: 0 }
+  };
+
   return (
     <aside className="panel surah-panel">
       <div className="surah-panel-header">
@@ -44,13 +60,17 @@ export default function SurahList({
           onChange={(event) => setQuery(event.target.value)}
         />
       </div>
-      <ul className="surah-list">
+      <motion.ul
+        className="surah-list"
+        variants={container}
+        initial="hidden"
+        animate="show"
+      >
         {filteredSurahs.map((surah) => (
-          <li key={surah.number}>
+          <motion.li key={surah.number} variants={item}>
             <button
-              className={`surah-item${
-                selectedSurah?.number === surah.number ? " active" : ""
-              }`}
+              className={`surah-item${selectedSurah?.number === surah.number ? " active" : ""
+                }`}
               onClick={() => onSelectSurah(surah)}
             >
               <span className="surah-number">{surah.number}</span>
@@ -64,9 +84,9 @@ export default function SurahList({
                 {surah.name}
               </span>
             </button>
-          </li>
+          </motion.li>
         ))}
-      </ul>
+      </motion.ul>
     </aside>
   );
 }
