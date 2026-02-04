@@ -14,8 +14,7 @@ import {
 import {
   AUDIO_RECITERS,
   DEFAULT_PLAN,
-  STORAGE_KEYS,
-  FONT_SCALE
+  STORAGE_KEYS
 } from "./lib/constants";
 import {
   getLocalDateString,
@@ -27,81 +26,64 @@ import {
   copyToClipboard
 } from "./lib/utils";
 
+// Custom Hooks
+import { useLocalStorage, useLastRead, useKeyboardShortcuts } from "./hooks";
+import { useSurahs, useSurahDetails, useWordByWord, useTaqiTranslation } from "./hooks/useQuranData";
+import { useReadingPlan, useFontScale } from "./hooks/useAppSettings";
+
 export default function Home() {
-  const [surahs, setSurahs] = useState([]);
-  const [query, setQuery] = useState("");
+  // --- 1. Data Hooks ---
+  const { surahs, loading: loadingSurahs, error: surahsError, surahByNumber } = useSurahs();
+
+  // --- 2. State & Settings ---
   const [selectedSurah, setSelectedSurah] = useState(null);
-  const [surahData, setSurahData] = useState(null);
-  const [loadingSurahs, setLoadingSurahs] = useState(true);
-  const [loadingSurahData, setLoadingSurahData] = useState(false);
+  const { surahData, loading: loadingSurahData, error: surahDataError } = useSurahDetails(selectedSurah?.number);
+
+  const [bookmarks, setBookmarks] = useLocalStorage(STORAGE_KEYS.bookmarks, []);
+  const [notes, setNotes] = useLocalStorage(STORAGE_KEYS.notes, {});
+  const [readingPlan, setReadingPlan] = useReadingPlan();
+  const [fontScale, setFontScale] = useFontScale();
+  const { lastRead, updateLastRead } = useLastRead();
+
+  // Reciter State (Store ID, derive Object)
+  const [reciterId, setReciterId] = useLocalStorage(STORAGE_KEYS.reciter, AUDIO_RECITERS[0].id);
+  const selectedReciter = useMemo(() =>
+    AUDIO_RECITERS.find(r => r.id === reciterId) || AUDIO_RECITERS[0],
+    [reciterId]);
+
+  // UI State
+  const [query, setQuery] = useState("");
   const [selectedTranslation, setSelectedTranslation] = useState("en.sahih");
   const [selectedAyah, setSelectedAyah] = useState(null);
   const [focusedAyahKey, setFocusedAyahKey] = useState(null);
   const [ayahQuery, setAyahQuery] = useState("");
   const [goToAyahInput, setGoToAyahInput] = useState("");
   const [showWordByWord, setShowWordByWord] = useState(false);
-  const [wordByAyah, setWordByAyah] = useState({});
-  const [wordLoading, setWordLoading] = useState(false);
-  const [wordError, setWordError] = useState(null);
   const [copiedKey, setCopiedKey] = useState(null);
-  const [taqiCache, setTaqiCache] = useState({});
-  const [taqiLoading, setTaqiLoading] = useState({});
-  const [bookmarks, setBookmarks] = useState([]);
-  const [notes, setNotes] = useState({});
   const [noteTarget, setNoteTarget] = useState(null);
   const [noteDraft, setNoteDraft] = useState("");
-  const [readingPlan, setReadingPlan] = useState(DEFAULT_PLAN);
   const [readingMode, setReadingMode] = useState(false);
-  const [fontScale, setFontScale] = useState(FONT_SCALE.default);
-  const [selectedReciter, setSelectedReciter] = useState(AUDIO_RECITERS[0]);
   const [nowPlaying, setNowPlaying] = useState(null);
   const [pendingScroll, setPendingScroll] = useState(null);
-  const [error, setError] = useState(null);
-  const [lastRead, setLastRead] = useState(null);
   const [showShortcuts, setShowShortcuts] = useState(false);
 
-  // Load surahs
-  useEffect(() => {
-    let isMounted = true;
-    const loadSurahs = async () => {
-      setLoadingSurahs(true);
-      try {
-        const response = await fetch("/api/surahs");
-        const payload = await response.json();
-        if (!response.ok) {
-          throw new Error(payload?.error || "Failed to load surahs.");
-        }
-        if (isMounted) {
-          setSurahs(payload.surahs || []);
-        }
-      } catch (err) {
-        if (isMounted) {
-          setError(err.message);
-        }
-      } finally {
-        if (isMounted) {
-          setLoadingSurahs(false);
-        }
-      }
-    };
+  // Advanced Data Hooks
+  const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(selectedSurah?.number, showWordByWord);
+  const { cache: taqiCache, loading: taqiLoading, fetchTranslation: fetchTaqi } = useTaqiTranslation();
 
-    loadSurahs();
-    return () => {
-      isMounted = false;
-    };
-  }, []);
+  // --- 3. Effects ---
 
-  // Handle URL params and initial surah selection
+  // Initial Surah Selection & URL handling
   useEffect(() => {
-    if (!surahs.length || selectedSurah) {
-      return;
-    }
+    if (!surahs.length || selectedSurah) return;
+
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);
       const surahParam = Number(params.get("surah"));
       const ayahParam = Number(params.get("ayah"));
-      const hashMatch = window.location.hash.match(/ayah-(\d+)/);
+      const hashMatch = window.location.hash.match(/ayah-(\d+)/); // Support hash too
       const hashAyah = hashMatch ? Number(hashMatch[1]) : null;
+
       const targetSurah = surahs.find((surah) => surah.number === surahParam);
       if (targetSurah) {
         setSelectedSurah(targetSurah);
@@ -116,135 +98,9 @@ export default function Home() {
     setSelectedSurah(surahs[0]);
   }, [surahs, selectedSurah]);
 
-  // Load surah data
+  // Sync URL with selection
   useEffect(() => {
-    let isMounted = true;
-    if (!selectedSurah) {
-      return undefined;
-    }
-
-    const loadSurah = async () => {
-      setLoadingSurahData(true);
-      setError(null);
-      try {
-        const response = await fetch(`/api/surah/${selectedSurah.number}`);
-        const payload = await response.json();
-        if (!response.ok) {
-          throw new Error(payload?.error || "Failed to load surah.");
-        }
-        if (isMounted) {
-          setSurahData(payload);
-        }
-      } catch (err) {
-        if (isMounted) {
-          setError(err.message);
-        }
-      } finally {
-        if (isMounted) {
-          setLoadingSurahData(false);
-        }
-      }
-    };
-
-    loadSurah();
-    return () => {
-      isMounted = false;
-    };
-  }, [selectedSurah]);
-
-  // Load from localStorage
-  useEffect(() => {
-    if (typeof window === "undefined") {
-      return;
-    }
-    try {
-      const storedBookmarks = localStorage.getItem(STORAGE_KEYS.bookmarks);
-      if (storedBookmarks) {
-        setBookmarks(JSON.parse(storedBookmarks));
-      }
-      const storedNotes = localStorage.getItem(STORAGE_KEYS.notes);
-      if (storedNotes) {
-        setNotes(JSON.parse(storedNotes));
-      }
-      const storedPlan = localStorage.getItem(STORAGE_KEYS.plan);
-      if (storedPlan) {
-        const parsedPlan = JSON.parse(storedPlan);
-        setReadingPlan({
-          ...DEFAULT_PLAN,
-          ...parsedPlan,
-          perDay: Number(parsedPlan.perDay) || DEFAULT_PLAN.perDay,
-          startSurah: Number(parsedPlan.startSurah) || DEFAULT_PLAN.startSurah,
-          startAyah: Number(parsedPlan.startAyah) || DEFAULT_PLAN.startAyah
-        });
-      }
-      const storedScale = localStorage.getItem(STORAGE_KEYS.fontScale);
-      if (storedScale) {
-        const parsedScale = JSON.parse(storedScale);
-        setFontScale({
-          arabic: clamp(Number(parsedScale.arabic) || 1, FONT_SCALE.min.arabic, FONT_SCALE.max.arabic),
-          translation: clamp(Number(parsedScale.translation) || 1, FONT_SCALE.min.translation, FONT_SCALE.max.translation)
-        });
-      }
-      const storedLastRead = localStorage.getItem(STORAGE_KEYS.lastRead);
-      if (storedLastRead) {
-        setLastRead(JSON.parse(storedLastRead));
-      }
-      const storedReciter = localStorage.getItem(STORAGE_KEYS.reciter);
-      if (storedReciter) {
-        const reciter = AUDIO_RECITERS.find(r => r.id === storedReciter);
-        if (reciter) setSelectedReciter(reciter);
-      }
-    } catch (err) {
-      setError("Saved study data could not be loaded.");
-    }
-  }, []);
-
-  // Save to localStorage
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    localStorage.setItem(STORAGE_KEYS.bookmarks, JSON.stringify(bookmarks));
-  }, [bookmarks]);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    localStorage.setItem(STORAGE_KEYS.notes, JSON.stringify(notes));
-  }, [notes]);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    localStorage.setItem(STORAGE_KEYS.plan, JSON.stringify(readingPlan));
-  }, [readingPlan]);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    localStorage.setItem(STORAGE_KEYS.fontScale, JSON.stringify(fontScale));
-  }, [fontScale]);
-
-  // Save last read position
-  useEffect(() => {
-    if (typeof window === "undefined" || !selectedSurah || !focusedAyahKey) return;
-    const { surah, ayah } = parseVerseKey(focusedAyahKey);
-    const lastReadData = {
-      surah,
-      ayah,
-      surahName: selectedSurah.englishName,
-      timestamp: Date.now()
-    };
-    setLastRead(lastReadData);
-    localStorage.setItem(STORAGE_KEYS.lastRead, JSON.stringify(lastReadData));
-  }, [selectedSurah, focusedAyahKey]);
-
-  // Save selected reciter
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    localStorage.setItem(STORAGE_KEYS.reciter, selectedReciter.id);
-  }, [selectedReciter]);
-
-  // Update URL
-  useEffect(() => {
-    if (typeof window === "undefined" || !selectedSurah) {
-      return;
-    }
+    if (typeof window === "undefined" || !selectedSurah) return;
     const url = new URL(window.location.href);
     url.searchParams.set("surah", selectedSurah.number);
     if (focusedAyahKey) {
@@ -256,11 +112,44 @@ export default function Home() {
     window.history.replaceState({}, "", url);
   }, [selectedSurah, focusedAyahKey]);
 
-  // Memoized values
-  const surahByNumber = useMemo(() => {
-    return new Map(surahs.map((surah) => [surah.number, surah]));
-  }, [surahs]);
+  // Update Last Read
+  useEffect(() => {
+    if (!selectedSurah || !focusedAyahKey) return;
+    const { surah, ayah } = parseVerseKey(focusedAyahKey);
+    updateLastRead(surah, ayah, selectedSurah.englishName);
+  }, [focusedAyahKey, selectedSurah, updateLastRead]);
 
+  // Pending Scroll Logic
+  useEffect(() => {
+    if (!pendingScroll || !surahData?.surah || !selectedSurah) return;
+    if (surahData.surah.number !== selectedSurah.number) return;
+
+    // Give a slight delay for render
+    const timer = setTimeout(() => {
+      const target = document.getElementById(`ayah-${pendingScroll}`);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+        setFocusedAyahKey(verseKey(selectedSurah.number, pendingScroll));
+      }
+    }, 100);
+    setPendingScroll(null);
+    return () => clearTimeout(timer);
+  }, [pendingScroll, surahData, selectedSurah]);
+
+  // Validate Reading Plan Start
+  useEffect(() => {
+    if (!readingPlan.startSurah) return;
+    const info = surahByNumber.get(Number(readingPlan.startSurah));
+    if (!info) return;
+    if (readingPlan.startAyah > info.numberOfAyahs) {
+      setReadingPlan((prev) => ({ ...prev, startAyah: info.numberOfAyahs }));
+    }
+  }, [readingPlan.startSurah, readingPlan.startAyah, surahByNumber, setReadingPlan]);
+
+
+  // --- 4. Helpers & Computed ---
+
+  // Surah Indexing for Plan
   const surahIndex = useMemo(() => {
     let offset = 0;
     return surahs.map((surah) => {
@@ -271,178 +160,60 @@ export default function Home() {
     });
   }, [surahs]);
 
-  const totalAyahs = surahIndex.length
-    ? surahIndex[surahIndex.length - 1].end
-    : 0;
+  const totalAyahs = surahIndex.length ? surahIndex[surahIndex.length - 1].end : 0;
 
-  // Reading plan validation
-  useEffect(() => {
-    if (!readingPlan.startSurah) return;
-    const info = surahByNumber.get(Number(readingPlan.startSurah));
-    if (!info) return;
-    if (readingPlan.startAyah > info.numberOfAyahs) {
-      setReadingPlan((prev) => ({ ...prev, startAyah: info.numberOfAyahs }));
+  const getGlobalIndex = (surahNumber, ayahNumber) => {
+    const entry = surahIndex.find((item) => item.number === surahNumber);
+    if (!entry) return null;
+    return entry.start + ayahNumber - 1;
+  };
+
+  const indexToVerse = (globalIndex) => {
+    const entry = surahIndex.find((item) => globalIndex >= item.start && globalIndex <= item.end);
+    if (!entry) return null;
+    return { surah: entry.number, ayah: globalIndex - entry.start + 1 };
+  };
+
+  // Plan Summary
+  const planSummary = useMemo(() => {
+    if (!surahIndex.length) return null;
+    const perDay = Math.max(1, Number(readingPlan.perDay));
+    const startSurah = Number(readingPlan.startSurah);
+    const startAyah = Math.max(1, Number(readingPlan.startAyah));
+
+    const startIndex = getGlobalIndex(startSurah, startAyah);
+    if (!startIndex) return { error: "Start position is not available." };
+
+    let startDateValue = parseLocalDate(readingPlan.startDate || getLocalDateString());
+    if (Number.isNaN(startDateValue.getTime())) {
+      startDateValue = parseLocalDate(getLocalDateString());
     }
-  }, [readingPlan.startSurah, readingPlan.startAyah, surahByNumber]);
 
-  // Pending scroll
-  useEffect(() => {
-    if (!pendingScroll || !surahData?.surah || !selectedSurah) return;
-    if (surahData.surah.number !== selectedSurah.number) return;
-    const target = document.getElementById(`ayah-${pendingScroll}`);
-    if (target) {
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
-      setFocusedAyahKey(verseKey(selectedSurah.number, pendingScroll));
+    const todayValue = parseLocalDate(getLocalDateString());
+    const dayIndex = Math.max(0, Math.floor((todayValue - startDateValue) / 86400000));
+
+    const todayStartIndex = startIndex + dayIndex * perDay;
+    if (todayStartIndex > totalAyahs) {
+      return { completed: true, dayIndex };
     }
-    setPendingScroll(null);
-  }, [pendingScroll, surahData, selectedSurah]);
 
-  // Word by word loading
-  useEffect(() => {
-    if (!showWordByWord || !selectedSurah) return;
-    if (wordByAyah[selectedSurah.number]) return;
-    let isMounted = true;
-    setWordLoading(true);
-    setWordError(null);
-    fetch(`/api/words/${selectedSurah.number}`)
-      .then((response) => response.json().then((data) => ({ response, data })))
-      .then(({ response, data }) => {
-        if (!response.ok) {
-          throw new Error(data?.error || "Word-by-word unavailable.");
-        }
-        if (isMounted) {
-          setWordByAyah((prev) => ({
-            ...prev,
-            [selectedSurah.number]: data.wordsByAyah || {}
-          }));
-        }
-      })
-      .catch((err) => {
-        if (isMounted) setWordError(err.message);
-      })
-      .finally(() => {
-        if (isMounted) setWordLoading(false);
-      });
-    return () => {
-      isMounted = false;
-    };
-  }, [showWordByWord, selectedSurah, wordByAyah]);
+    const todayEndIndex = Math.min(todayStartIndex + perDay - 1, totalAyahs);
+    const startVerse = indexToVerse(todayStartIndex);
+    const endVerse = indexToVerse(todayEndIndex);
 
-  // Keyboard shortcuts
-  useEffect(() => {
-    const handleKeyDown = (event) => {
-      // Don't trigger shortcuts when typing in inputs
-      if (
-        event.target.tagName === "INPUT" ||
-        event.target.tagName === "TEXTAREA"
-      ) {
-        return;
-      }
+    return { dayIndex, startVerse, endVerse, todayStartIndex, todayEndIndex };
+  }, [readingPlan, surahIndex, totalAyahs]);
 
-      // ? - Show shortcuts help
-      if (event.key === "?") {
-        event.preventDefault();
-        setShowShortcuts((prev) => !prev);
-        return;
-      }
 
-      // Escape - Close modals, exit focus mode
-      if (event.key === "Escape") {
-        if (showShortcuts) {
-          setShowShortcuts(false);
-        } else if (selectedAyah) {
-          setSelectedAyah(null);
-        } else if (noteTarget) {
-          setNoteTarget(null);
-          setNoteDraft("");
-        } else if (readingMode) {
-          setReadingMode(false);
-        }
-        return;
-      }
-
-      // f - Toggle focus/reading mode
-      if (event.key === "f" && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        setReadingMode((prev) => !prev);
-        return;
-      }
-
-      // w - Toggle word by word
-      if (event.key === "w" && !event.metaKey && !event.ctrlKey) {
-        event.preventDefault();
-        setShowWordByWord((prev) => !prev);
-        return;
-      }
-
-      // Navigate with arrow keys when a surah is selected
-      if (selectedSurah && surahData?.ayahs?.length) {
-        const currentAyah = focusedAyahKey
-          ? parseVerseKey(focusedAyahKey).ayah
-          : 1;
-
-        // ArrowDown/j - Next ayah
-        if (event.key === "ArrowDown" || event.key === "j") {
-          event.preventDefault();
-          const nextAyah = Math.min(
-            currentAyah + 1,
-            selectedSurah.numberOfAyahs
-          );
-          setPendingScroll(nextAyah);
-          setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
-          return;
-        }
-
-        // ArrowUp/k - Previous ayah
-        if (event.key === "ArrowUp" || event.key === "k") {
-          event.preventDefault();
-          const prevAyah = Math.max(currentAyah - 1, 1);
-          setPendingScroll(prevAyah);
-          setFocusedAyahKey(verseKey(selectedSurah.number, prevAyah));
-          return;
-        }
-
-        // b - Toggle bookmark for focused ayah
-        if (event.key === "b" && focusedAyahKey) {
-          event.preventDefault();
-          const { surah, ayah } = parseVerseKey(focusedAyahKey);
-          toggleBookmark(surah, ayah);
-          return;
-        }
-
-        // p - Play current ayah
-        if (event.key === "p" && focusedAyahKey) {
-          event.preventDefault();
-          const { surah, ayah } = parseVerseKey(focusedAyahKey);
-          playAyah(surah, ayah);
-          return;
-        }
-      }
-    };
-
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [
-    selectedSurah,
-    surahData,
-    focusedAyahKey,
-    readingMode,
-    showShortcuts,
-    selectedAyah,
-    noteTarget
-  ]);
-
-  // Filtered lists
+  // Filtered Data
   const filteredSurahs = useMemo(() => {
     const trimmed = query.trim().toLowerCase();
     if (!trimmed) return surahs;
-    return surahs.filter((surah) => {
-      return (
-        surah.englishName.toLowerCase().includes(trimmed) ||
-        surah.englishNameTranslation.toLowerCase().includes(trimmed) ||
-        String(surah.number).includes(trimmed)
-      );
-    });
+    return surahs.filter((surah) =>
+      surah.englishName.toLowerCase().includes(trimmed) ||
+      surah.englishNameTranslation.toLowerCase().includes(trimmed) ||
+      String(surah.number).includes(trimmed)
+    );
   }, [query, surahs]);
 
   const filteredAyahs = useMemo(() => {
@@ -450,14 +221,11 @@ export default function Home() {
     const trimmed = ayahQuery.trim().toLowerCase();
     if (!trimmed) return surahData.ayahs;
     if (/^\d+$/.test(trimmed)) {
-      const number = Number(trimmed);
-      return surahData.ayahs.filter((ayah) => ayah.number === number);
+      return surahData.ayahs.filter((ayah) => ayah.number === Number(trimmed));
     }
     return surahData.ayahs.filter((ayah) => {
       const combined = Object.values(ayah.translations || {})
-        .map((translation) => translation.text || "")
-        .join(" ")
-        .toLowerCase();
+        .map((t) => t.text || "").join(" ").toLowerCase();
       return combined.includes(trimmed);
     });
   }, [ayahQuery, surahData]);
@@ -480,92 +248,31 @@ export default function Home() {
       });
   }, [notes]);
 
-  // Helper functions
-  const getGlobalIndex = (surahNumber, ayahNumber) => {
-    const entry = surahIndex.find((item) => item.number === surahNumber);
-    if (!entry) return null;
-    return entry.start + ayahNumber - 1;
-  };
-
-  const indexToVerse = (globalIndex) => {
-    const entry = surahIndex.find(
-      (item) => globalIndex >= item.start && globalIndex <= item.end
-    );
-    if (!entry) return null;
-    return { surah: entry.number, ayah: globalIndex - entry.start + 1 };
-  };
-
-  // Plan summary
-  const planSummary = useMemo(() => {
-    if (!surahIndex.length) return null;
-    const perDay = Math.max(1, Number(readingPlan.perDay) || 1);
-    const startSurah = Number(readingPlan.startSurah) || 1;
-    const startAyah = Math.max(1, Number(readingPlan.startAyah) || 1);
-    const startIndex = getGlobalIndex(startSurah, startAyah);
-    if (!startIndex) return { error: "Start position is not available." };
-    const startDate = readingPlan.startDate || getLocalDateString();
-    let startDateValue = parseLocalDate(startDate);
-    if (Number.isNaN(startDateValue.getTime())) {
-      startDateValue = parseLocalDate(getLocalDateString());
-    }
-    const todayValue = parseLocalDate(getLocalDateString());
-    const dayIndex = Math.max(
-      0,
-      Math.floor((todayValue - startDateValue) / 86400000)
-    );
-    const todayStartIndex = startIndex + dayIndex * perDay;
-    if (todayStartIndex > totalAyahs) {
-      return { completed: true, dayIndex };
-    }
-    const todayEndIndex = Math.min(todayStartIndex + perDay - 1, totalAyahs);
-    const startVerse = indexToVerse(todayStartIndex);
-    const endVerse = indexToVerse(todayEndIndex);
-    return { dayIndex, startVerse, endVerse, todayStartIndex, todayEndIndex };
-  }, [readingPlan, surahIndex, totalAyahs]);
-
+  // Labels
   const formatVerseLabel = (verse) => {
     if (!verse) return "";
     const surah = surahByNumber.get(verse.surah);
-    const name = surah ? surah.englishName : `Surah ${verse.surah}`;
-    return `${name} Ayah ${verse.ayah}`;
+    return `${surah ? surah.englishName : `Surah ${verse.surah}`} Ayah ${verse.ayah}`;
   };
 
   const formatRangeLabel = (startVerse, endVerse) => {
     if (!startVerse || !endVerse) return "";
     if (startVerse.surah === endVerse.surah) {
       const surah = surahByNumber.get(startVerse.surah);
-      const name = surah ? surah.englishName : `Surah ${startVerse.surah}`;
-      return `${name} Ayah ${startVerse.ayah} to ${endVerse.ayah}`;
+      return `${surah ? surah.englishName : `Surah ${startVerse.surah}`} Ayah ${startVerse.ayah} to ${endVerse.ayah}`;
     }
     return `${formatVerseLabel(startVerse)} to ${formatVerseLabel(endVerse)}`;
   };
 
-  // Event handlers
-  const handleCompare = async (ayah) => {
-    if (!selectedSurah) return;
-    setSelectedAyah(ayah);
-    setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
-    const key = `${selectedSurah.number}:${ayah.number}`;
-    if (taqiCache[key] || taqiLoading[key]) return;
+  const nowPlayingLabel = nowPlaying
+    ? `${surahByNumber.get(nowPlaying.surah)?.englishName || `Surah ${nowPlaying.surah}`} - Ayah ${nowPlaying.ayah}`
+    : "Select an ayah to play.";
 
-    setTaqiLoading((prev) => ({ ...prev, [key]: true }));
-    try {
-      const response = await fetch(
-        `/api/ayah/taqi-usmani?surah=${selectedSurah.number}&ayah=${ayah.number}`
-      );
-      const payload = await response.json();
-      if (!response.ok) {
-        throw new Error(payload?.error || "Failed to load translation.");
-      }
-      setTaqiCache((prev) => ({ ...prev, [key]: payload.text }));
-    } catch (err) {
-      setTaqiCache((prev) => ({
-        ...prev,
-        [key]: "Unable to load Mufti Taqi Usmani translation."
-      }));
-    } finally {
-      setTaqiLoading((prev) => ({ ...prev, [key]: false }));
-    }
+  // Actions
+  const handleSelectSurah = (surah) => {
+    setSelectedSurah(surah);
+    setSelectedAyah(null);
+    setFocusedAyahKey(null);
   };
 
   const toggleBookmark = (surahNumber, ayahNumber) => {
@@ -581,51 +288,25 @@ export default function Home() {
     setNoteDraft(notes[key] || "");
   };
 
+  const saveNote = () => {
+    if (!noteTarget) return;
+    const trimmed = noteDraft.trim();
+    setNotes((prev) => {
+      const next = { ...prev };
+      if (trimmed) next[noteTarget.key] = trimmed;
+      else delete next[noteTarget.key];
+      return next;
+    });
+    setNoteTarget(null);
+    setNoteDraft("");
+  };
+
   const handleGoToAyah = () => {
     if (!selectedSurah) return;
     const number = Number(goToAyahInput);
     if (!number || number < 1 || number > selectedSurah.numberOfAyahs) return;
     setPendingScroll(number);
     setFocusedAyahKey(verseKey(selectedSurah.number, number));
-  };
-
-  const copyAyahLink = useCallback(async (surahNumber, ayahNumber) => {
-    if (typeof window === "undefined") return;
-    const url = new URL(window.location.href);
-    url.searchParams.set("surah", surahNumber);
-    url.searchParams.set("ayah", ayahNumber);
-    url.hash = `ayah-${ayahNumber}`;
-    
-    const success = await copyToClipboard(url.toString());
-    if (success) {
-      const key = verseKey(surahNumber, ayahNumber);
-      setCopiedKey(key);
-      window.setTimeout(() => {
-        setCopiedKey((prev) => (prev === key ? null : prev));
-      }, 1600);
-    } else {
-      setError("Unable to copy link.");
-    }
-  }, []);
-
-  const closeNote = () => {
-    setNoteTarget(null);
-    setNoteDraft("");
-  };
-
-  const saveNote = () => {
-    if (!noteTarget) return;
-    const trimmed = noteDraft.trim();
-    setNotes((prev) => {
-      const next = { ...prev };
-      if (trimmed) {
-        next[noteTarget.key] = trimmed;
-      } else {
-        delete next[noteTarget.key];
-      }
-      return next;
-    });
-    closeNote();
   };
 
   const jumpToAyah = (surahNumber, ayahNumber) => {
@@ -636,64 +317,90 @@ export default function Home() {
     setFocusedAyahKey(verseKey(surahNumber, ayahNumber));
   };
 
-  const playAyah = (surahNumber, ayahNumber) => {
-    setNowPlaying({ surah: surahNumber, ayah: ayahNumber });
+  const copyAyahLink = useCallback(async (surahNumber, ayahNumber) => {
+    if (typeof window === "undefined") return;
+    const url = new URL(window.location.href);
+    url.searchParams.set("surah", surahNumber);
+    url.searchParams.set("ayah", ayahNumber);
+    url.hash = `ayah-${ayahNumber}`;
+
+    if (await copyToClipboard(url.toString())) {
+      const key = verseKey(surahNumber, ayahNumber);
+      setCopiedKey(key);
+      setTimeout(() => setCopiedKey(prev => prev === key ? null : prev), 1600);
+    }
+  }, []);
+
+  const handleCompare = (ayah) => {
+    if (!selectedSurah) return;
+    setSelectedAyah(ayah);
+    setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
+    fetchTaqi(selectedSurah.number, ayah.number);
   };
 
-  const handleSelectSurah = (surah) => {
-    setSelectedSurah(surah);
-    setSelectedAyah(null);
-    setFocusedAyahKey(null);
-  };
+  // Keyboard Shortcuts
+  useKeyboardShortcuts({
+    "Show Shortcuts": { keys: ["?"], handler: () => setShowShortcuts(p => !p) },
+    "Close Modal": {
+      keys: ["Escape"], handler: () => {
+        if (showShortcuts) setShowShortcuts(false);
+        else if (selectedAyah) setSelectedAyah(null);
+        else if (noteTarget) setNoteTarget(null);
+        else if (readingMode) setReadingMode(false);
+      }
+    },
+    "Focus Mode": { keys: ["f"], handler: () => setReadingMode(p => !p) },
+    "Word by Word": { keys: ["w"], handler: () => setShowWordByWord(p => !p) },
+    "Next Ayah": {
+      keys: ["ArrowDown", "j"], handler: () => {
+        if (!selectedSurah || !surahData) return;
+        const current = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : 1;
+        const next = Math.min(current + 1, selectedSurah.numberOfAyahs);
+        setPendingScroll(next);
+        setFocusedAyahKey(verseKey(selectedSurah.number, next));
+      }
+    },
+    "Prev Ayah": {
+      keys: ["ArrowUp", "k"], handler: () => {
+        if (!selectedSurah || !surahData) return;
+        const current = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : 1;
+        const prev = Math.max(current - 1, 1);
+        setPendingScroll(prev);
+        setFocusedAyahKey(verseKey(selectedSurah.number, prev));
+      }
+    },
+    "Toggle Bookmark": {
+      keys: ["b"], handler: () => {
+        if (focusedAyahKey) {
+          const { surah, ayah } = parseVerseKey(focusedAyahKey);
+          toggleBookmark(surah, ayah);
+        }
+      }
+    },
+    "Play Audio": {
+      keys: ["p"], handler: () => {
+        if (focusedAyahKey) {
+          const { surah, ayah } = parseVerseKey(focusedAyahKey);
+          setNowPlaying({ surah, ayah });
+        }
+      }
+    },
+  });
 
-  // Computed values
-  const selectedAyahKey =
-    selectedSurah && selectedAyah
-      ? `${selectedSurah.number}:${selectedAyah.number}`
-      : null;
-
-  const audioSrc = nowPlaying
-    ? getAudioUrl(selectedReciter.baseUrl, nowPlaying.surah, nowPlaying.ayah)
-    : null;
-
-  const nowPlayingLabel = nowPlaying
-    ? `${
-        surahByNumber.get(nowPlaying.surah)?.englishName ||
-        `Surah ${nowPlaying.surah}`
-      } - Ayah ${nowPlaying.ayah}`
-    : "Select an ayah to play.";
-
-  const fontVars = {
-    "--arabic-scale": fontScale.arabic,
-    "--translation-scale": fontScale.translation
-  };
-
+  // Render
   return (
     <ErrorBoundary>
-      <main className={`app${readingMode ? " reading" : ""}`} style={fontVars}>
+      <main className={`app${readingMode ? " reading" : ""}`} style={{
+        "--arabic-scale": fontScale.arabic,
+        "--translation-scale": fontScale.translation
+      }}>
         <div className="topbar">
           <div className="logo">
             <div className="logo-mark" aria-hidden="true">
               <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
-                <path
-                  d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="3"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M32 14v28"
-                  stroke="currentColor"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                />
-                <path
-                  d="M20 24h12M20 32h12M20 40h12"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                />
+                <path d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z" fill="none" stroke="currentColor" strokeWidth="3" strokeLinejoin="round" />
+                <path d="M32 14v28" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
+                <path d="M20 24h12M20 32h12M20 40h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
               </svg>
             </div>
             <div className="logo-text">
@@ -702,10 +409,7 @@ export default function Home() {
             </div>
           </div>
           <div className="topbar-actions">
-            <button
-              className="action-btn"
-              onClick={() => setReadingMode((prev) => !prev)}
-            >
+            <button className="action-btn" onClick={() => setReadingMode(p => !p)}>
               {readingMode ? "Exit focus" : "Focus mode"}
             </button>
           </div>
@@ -746,12 +450,12 @@ export default function Home() {
             setFocusedAyahKey={setFocusedAyahKey}
             copiedKey={copiedKey}
             nowPlaying={nowPlaying}
-            audioSrc={audioSrc}
+            audioSrc={nowPlaying ? getAudioUrl(selectedReciter.baseUrl, nowPlaying.surah, nowPlaying.ayah) : null}
             nowPlayingLabel={nowPlayingLabel}
             reciterLabel={selectedReciter.label}
-            error={error}
+            error={surahsError || surahDataError || wordError}
             loadingSurahData={loadingSurahData}
-            onPlay={playAyah}
+            onPlay={(s, a) => setNowPlaying({ surah: s, ayah: a })}
             onToggleBookmark={toggleBookmark}
             onOpenNote={openNote}
             onCompare={handleCompare}
@@ -777,7 +481,6 @@ export default function Home() {
           />
         </section>
 
-        {/* Last read card - shows when no surah is selected */}
         {!selectedSurah && lastRead && (
           <LastReadCard
             lastRead={lastRead}
@@ -788,7 +491,7 @@ export default function Home() {
         <CompareModal
           selectedAyah={selectedAyah}
           selectedSurah={selectedSurah}
-          selectedAyahKey={selectedAyahKey}
+          selectedAyahKey={selectedSurah && selectedAyah ? `${selectedSurah.number}:${selectedAyah.number}` : null}
           taqiCache={taqiCache}
           taqiLoading={taqiLoading}
           onClose={() => setSelectedAyah(null)}
@@ -798,21 +501,11 @@ export default function Home() {
           noteTarget={noteTarget}
           noteDraft={noteDraft}
           setNoteDraft={setNoteDraft}
-          surahByNumber={surahByNumber}
-          onClose={closeNote}
           onSave={saveNote}
+          onClose={() => { setNoteTarget(null); setNoteDraft(""); }}
         />
 
-        {/* Keyboard shortcuts help modal */}
-        <KeyboardShortcutsHelp
-          isOpen={showShortcuts}
-          onClose={() => setShowShortcuts(false)}
-        />
-
-        {/* Keyboard shortcuts hint */}
-        <div className="shortcuts-hint">
-          Press <kbd>?</kbd> for keyboard shortcuts
-        </div>
+        {showShortcuts && <KeyboardShortcutsHelp onClose={() => setShowShortcuts(false)} />}
       </main>
     </ErrorBoundary>
   );

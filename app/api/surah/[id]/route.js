@@ -1,7 +1,6 @@
 import { NextResponse } from "next/server";
 
 const EDITIONS = [
-  "quran-uthmani",
   "en.arberry",
   "en.pickthall",
   "en.yusufali",
@@ -15,79 +14,58 @@ const EDITION_LABELS = {
   "en.sahih": "Sahih International"
 };
 
-const QF_BASE_URL = "https://apis.quran.foundation/content/api/v4";
-const QF_CLIENT_ID = process.env.QURAN_API_CLIENT_ID;
-const QF_TOKEN = process.env.QURAN_API_TOKEN;
+// Quran.com V4 API Base URL
+const QDC_BASE_URL = "https://api.quran.com/api/v4";
 
 export const revalidate = 86400;
 
-const fetchQpcHafs = async (chapterId) => {
-  if (!QF_CLIENT_ID || !QF_TOKEN) {
-    return null;
-  }
-
+// Fetch Arabic Text from Quran.com V4
+const fetchArabicText = async (chapterId) => {
   const verses = [];
   let page = 1;
-  let safety = 0;
   let hasNext = true;
+  let safety = 0;
 
   while (hasNext && safety < 20) {
     safety += 1;
-    const url = new URL(`${QF_BASE_URL}/quran/verses/qpc_hafs`);
-    url.searchParams.set("chapter_number", chapterId);
+    const url = new URL(`${QDC_BASE_URL}/verses/by_chapter/${chapterId}`);
+    url.searchParams.set("language", "en");
+    url.searchParams.set("words", "false");
+    url.searchParams.set("fields", "text_uthmani");
     url.searchParams.set("page", String(page));
     url.searchParams.set("per_page", "50");
 
-    const response = await fetch(url, {
-      next: { revalidate: 86400 },
-      headers: {
-        "x-client-id": QF_CLIENT_ID,
-        "x-auth-token": QF_TOKEN,
-        Accept: "application/json"
-      }
-    });
+    try {
+      const response = await fetch(url.toString(), {
+        next: { revalidate: 86400 }
+      });
 
-    if (!response.ok) {
+      if (!response.ok) {
+        console.error(`Failed to fetch Arabic text for chapter ${chapterId} page ${page}`);
+        return null; // Return null to fallback or error
+      }
+
+      const payload = await response.json();
+      const chunk = payload?.verses || [];
+
+      for (const verse of chunk) {
+        // V4 returns verse_key like "1:1"
+        const verseNumber = verse.verse_number;
+        const text = verse.text_uthmani;
+        if (verseNumber && text) {
+          verses.push({ number: verseNumber, text });
+        }
+      }
+
+      const pagination = payload?.pagination;
+      if (pagination && pagination.next_page) {
+        page = pagination.next_page;
+      } else {
+        hasNext = false;
+      }
+    } catch (err) {
+      console.error("Error fetching from Quran.com:", err);
       return null;
-    }
-
-    const payload = await response.json();
-    const chunk = payload?.verses ?? payload?.data ?? [];
-
-    for (const verse of chunk) {
-      const verseNumber =
-        verse.verse_number ||
-        Number(String(verse.verse_key || "").split(":")[1]);
-      const text =
-        verse.text_qpc_hafs ||
-        verse.text ||
-        verse.text_uthmani ||
-        verse.text_imlaei ||
-        null;
-
-      if (verseNumber && text) {
-        verses.push({ number: verseNumber, text });
-      }
-    }
-
-    const pagination = payload?.pagination ?? payload?.meta?.pagination;
-    if (pagination?.next_page) {
-      page = pagination.next_page;
-      continue;
-    }
-
-    if (
-      pagination?.current_page &&
-      pagination?.total_pages &&
-      pagination.current_page < pagination.total_pages
-    ) {
-      page += 1;
-      continue;
-    }
-
-    hasNext = chunk.length === 50;
-    if (hasNext) {
-      page += 1;
     }
   }
 
@@ -96,33 +74,26 @@ const fetchQpcHafs = async (chapterId) => {
 
 export async function GET(_request, { params }) {
   const { id } = await params;
+  const surahNumber = Number(id);
 
-  if (!id) {
-    return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
+  if (!id || isNaN(surahNumber)) {
+    return NextResponse.json({ error: "Invalid surah id." }, { status: 400 });
   }
 
   try {
+    // 1. Fetch Translations from AlQuran.cloud (Reliable for translations)
     const response = await fetch(
       `https://api.alquran.cloud/v1/surah/${id}/editions/${EDITIONS.join(",")}`,
-      {
-        next: { revalidate: 86400 }
-      }
+      { next: { revalidate: 86400 } }
     );
 
     if (!response.ok) {
-      return NextResponse.json(
-        { error: "Failed to fetch surah data." },
-        { status: 502 }
-      );
+      throw new Error("Failed to fetch translation data.");
     }
 
     const payload = await response.json();
-
-    if (!payload || !payload.data) {
-      return NextResponse.json(
-        { error: "Unexpected response from Quran API." },
-        { status: 502 }
-      );
+    if (!payload?.data) {
+      throw new Error("Unexpected response from Translation API.");
     }
 
     const editions = payload.data;
@@ -130,91 +101,65 @@ export async function GET(_request, { params }) {
       editions.map((edition) => [edition.edition.identifier, edition])
     );
 
-    const arabicEdition = editionById.get("quran-uthmani");
-    if (!arabicEdition) {
-      return NextResponse.json(
-        { error: "Arabic edition missing from API response." },
-        { status: 502 }
-      );
-    }
+    // 2. Fetch Arabic Text from Quran.com V4 (Cleaner, better Bismillah handling)
+    const arabicVerses = await fetchArabicText(id);
 
-    // Bismillah pattern to remove from first ayah (except Surah 1 and 9)
-    const surahNumber = Number(id);
-    const bismillahPattern = /^بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ\s*/;
-    const shouldRemoveBismillah = surahNumber !== 1 && surahNumber !== 9;
-
-    const removeBismillah = (text, ayahNumber) => {
-      if (shouldRemoveBismillah && ayahNumber === 1) {
-        return text.replace(bismillahPattern, "").trim();
-      }
-      return text;
+    // 3. Construct reference metadata from the first translation (e.g., Sahih)
+    // We can use the first available edition for metadata since they all share Surah structure
+    const refEdition = editions[0];
+    const surahMeta = {
+      number: refEdition.number,
+      name: refEdition.name, // Note: AlQuran.cloud names might differ slightly, but usually fine
+      englishName: refEdition.englishName,
+      englishNameTranslation: refEdition.englishNameTranslation,
+      numberOfAyahs: refEdition.numberOfAyahs,
+      revelationType: refEdition.revelationType
     };
 
-    const ayahMap = new Map();
-    for (const ayah of arabicEdition.ayahs) {
-      ayahMap.set(ayah.numberInSurah, {
-        number: ayah.numberInSurah,
-        arabic: removeBismillah(ayah.text, ayah.numberInSurah),
-        translations: {}
-      });
-    }
+    // 4. Merge Data
+    const ayahs = [];
+    const totalAyahs = surahMeta.numberOfAyahs;
 
-    const qpcVerses = await fetchQpcHafs(id);
-    let arabicScript = "uthmani";
-    if (qpcVerses) {
-      arabicScript = "qpc_hafs";
-      for (const verse of qpcVerses) {
-        const entry = ayahMap.get(verse.number);
-        if (entry) {
-          entry.arabic = removeBismillah(verse.text, verse.number);
-        }
-      }
-    }
+    // Use a Loop based on total verses to ensure missing translations/arabic don't break order
+    for (let i = 1; i <= totalAyahs; i++) {
+      const arabicEntry = arabicVerses?.find(v => v.number === i);
+      let arabicText = arabicEntry?.text || "Arabic text unavailable";
 
-    for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
-      const edition = editionById.get(identifier);
-      if (!edition) {
-        continue;
-      }
+      // Quran.com V4 usually provides clean text.
+      // For Surah 1 (Fatiha), Verse 1 IS Bismillah.
+      // For others, Verse 1 does NOT contain Bismillah.
+      // So minimal processing is needed compared to AlQuran.cloud.
 
-      for (const ayah of edition.ayahs) {
-        const entry = ayahMap.get(ayah.numberInSurah);
-        if (entry) {
-          entry.translations[identifier] = {
+      const translations = {};
+      for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
+        const edition = editionById.get(identifier);
+        const ayah = edition?.ayahs?.find(a => a.numberInSurah === i);
+        if (ayah) {
+          translations[identifier] = {
             label,
             text: ayah.text
           };
         }
       }
+
+      ayahs.push({
+        number: i,
+        arabic: arabicText,
+        translations
+      });
     }
-
-    const ayahs = Array.from(ayahMap.values()).sort(
-      (a, b) => a.number - b.number
-    );
-
-    const surahMeta = {
-      number: arabicEdition.number,
-      name: arabicEdition.name,
-      englishName: arabicEdition.englishName,
-      englishNameTranslation: arabicEdition.englishNameTranslation,
-      numberOfAyahs: arabicEdition.numberOfAyahs,
-      revelationType: arabicEdition.revelationType
-    };
 
     return NextResponse.json({
       surah: surahMeta,
       ayahs,
-      arabicScript,
-      translationOrder: [
-        "en.sahih",
-        "en.arberry",
-        "en.pickthall",
-        "en.yusufali"
-      ]
+      arabicScript: "uthmani", // Standard Quran.com V4 text
+      translationOrder: ["en.sahih", "en.arberry", "en.pickthall", "en.yusufali"]
     });
+
   } catch (error) {
+    console.error("API Error:", error);
     return NextResponse.json(
-      { error: "Unable to reach Quran API." },
+      { error: "Unable to load Surah data." },
       { status: 502 }
     );
   }
