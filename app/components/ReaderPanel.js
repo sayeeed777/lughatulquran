@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import AyahCard from "./AyahCard";
 import AudioPlayer from "./AudioPlayer";
 import BismillahBanner from "./BismillahBanner";
@@ -37,6 +38,10 @@ export default function ReaderPanel({
   reciterLabel,
   error,
   loadingSurahData,
+  isAutoPlaying,
+  onPlaySurah,
+  onStopAutoPlay,
+  onAudioEnded,
   onPlay,
   onToggleBookmark,
   onOpenNote,
@@ -46,6 +51,18 @@ export default function ReaderPanel({
   clamp
 }) {
   const formatArabic = (text) => text;
+  const [showMobileSettings, setShowMobileSettings] = useState(false);
+  const [showMobileSearch, setShowMobileSearch] = useState(false);
+  const quickTextSize = fontScale?.arabic || 1;
+
+  const handleQuickSizeChange = (event) => {
+    const value = clamp(Number(event.target.value), 0.8, 1.4);
+    setFontScale((prev) => ({
+      ...prev,
+      arabic: value,
+      translation: clamp(value, 0.8, 1.3)
+    }));
+  };
 
   return (
     <section className="panel reader-panel">
@@ -64,98 +81,194 @@ export default function ReaderPanel({
             </p>
           )}
         </div>
-        <div className="translation-toggle">
-          {INLINE_TRANSLATIONS.map((translation) => (
-            <button
-              key={translation.id}
-              className={selectedTranslation === translation.id ? "active" : ""}
-              onClick={() => setSelectedTranslation(translation.id)}
-            >
-              {translation.label}
-            </button>
-          ))}
+        {/* Search and Settings buttons */}
+        <div className="header-action-btns">
+          <button
+            className="header-icon-btn"
+            onClick={() => setShowMobileSearch(true)}
+            aria-label="Search"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.35-4.35" />
+            </svg>
+          </button>
+          <button
+            className="header-icon-btn"
+            onClick={() => setShowMobileSettings(true)}
+            aria-label="Settings"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="3" />
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
+            </svg>
+          </button>
         </div>
       </div>
 
-      <div className="reader-controls">
-        <div className="reader-toolbar">
-          <label className="reader-search">
-            <span>Search ayahs</span>
-            <input
-              type="text"
-              placeholder="Ayah number or word in translation"
-              value={ayahQuery || ""}
-              onChange={(event) => setAyahQuery(event.target.value)}
-            />
-          </label>
-          <div className="go-ayah">
-            <label>
-              <span>Go to ayah</span>
-              <input
-                type="number"
-                min={1}
-                max={selectedSurah?.numberOfAyahs || 1}
-                value={goToAyahInput || ""}
-                onChange={(event) => setGoToAyahInput(event.target.value)}
-              />
-            </label>
-            <button className="action-btn" onClick={handleGoToAyah}>
-              Go
-            </button>
-          </div>
-          <div className="word-toggle">
-            <button
-              className={`action-btn${showWordByWord ? " saved" : ""}`}
-              onClick={() => setShowWordByWord((prev) => !prev)}
-            >
-              Word by word
-            </button>
-            {showWordByWord && wordLoading && (
-              <span className="meta">Loading...</span>
-            )}
-            {showWordByWord && wordError && (
-              <span className="meta error">Unavailable</span>
-            )}
-          </div>
-        </div>
-        <label className="control">
-          <span>Arabic size</span>
+      <div className="reader-quick">
+        <div className="quick-resize">
+          <span>Text size</span>
           <input
             type="range"
             min="0.8"
             max="1.4"
             step="0.05"
-            value={fontScale.arabic}
-            onChange={(event) =>
-              setFontScale((prev) => ({
-                ...prev,
-                arabic: clamp(Number(event.target.value), 0.8, 1.4)
-              }))
-            }
+            value={quickTextSize}
+            onChange={handleQuickSizeChange}
           />
-        </label>
-        <label className="control">
-          <span>Translation size</span>
-          <input
-            type="range"
-            min="0.8"
-            max="1.3"
-            step="0.05"
-            value={fontScale.translation}
-            onChange={(event) =>
-              setFontScale((prev) => ({
-                ...prev,
-                translation: clamp(Number(event.target.value), 0.8, 1.3)
-              }))
-            }
-          />
-        </label>
+        </div>
+        {selectedSurah && (
+          <div className="quick-play">
+            {isAutoPlaying ? (
+              <button className="action-btn stop-btn" onClick={onStopAutoPlay}>
+                ⏹ Stop
+              </button>
+            ) : (
+              <button
+                className="action-btn play-surah-btn"
+                onClick={() => onPlaySurah(nowPlaying?.ayah || 1)}
+              >
+                ▶ Play Surah
+              </button>
+            )}
+          </div>
+        )}
       </div>
+
+      {/* Mobile Settings Modal */}
+      {showMobileSettings && (
+        <div className="mobile-settings-overlay" onClick={() => setShowMobileSettings(false)}>
+          <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
+            <div className="mobile-settings-header">
+              <h3>Settings</h3>
+              <button className="close-btn" onClick={() => setShowMobileSettings(false)}>✕</button>
+            </div>
+            <div className="mobile-settings-body">
+              <div className="setting-group">
+                <label className="setting-label">Translation</label>
+                <div className="translation-toggle-mobile">
+                  {INLINE_TRANSLATIONS.map((translation) => (
+                    <button
+                      key={translation.id}
+                      className={selectedTranslation === translation.id ? "active" : ""}
+                      onClick={() => {
+                        setSelectedTranslation(translation.id);
+                        setShowMobileSettings(false);
+                      }}
+                    >
+                      {translation.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+              <div className="setting-group">
+                <label className="setting-label">Arabic Size</label>
+                <input
+                  type="range"
+                  className="settings-range"
+                  min="0.8"
+                  max="1.4"
+                  step="0.05"
+                  value={fontScale.arabic}
+                  onChange={(event) =>
+                    setFontScale((prev) => ({
+                      ...prev,
+                      arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                    }))
+                  }
+                />
+              </div>
+              <div className="setting-group">
+                <label className="setting-label">Translation Size</label>
+                <input
+                  type="range"
+                  className="settings-range"
+                  min="0.8"
+                  max="1.3"
+                  step="0.05"
+                  value={fontScale.translation}
+                  onChange={(event) =>
+                    setFontScale((prev) => ({
+                      ...prev,
+                      translation: clamp(Number(event.target.value), 0.8, 1.3)
+                    }))
+                  }
+                />
+              </div>
+              <div className="setting-group">
+                <label className="setting-label">Word by Word</label>
+                <button
+                  className={`action-btn mobile-toggle-btn${showWordByWord ? " saved" : ""}`}
+                  onClick={() => setShowWordByWord((prev) => !prev)}
+                >
+                  {showWordByWord ? "✓ Enabled" : "Enable"}
+                </button>
+                {showWordByWord && wordLoading && (
+                  <span className="meta">Loading...</span>
+                )}
+                {showWordByWord && wordError && (
+                  <span className="meta error">Unavailable</span>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Mobile Search Modal */}
+      {showMobileSearch && (
+        <div className="mobile-settings-overlay" onClick={() => setShowMobileSearch(false)}>
+          <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
+            <div className="mobile-settings-header">
+              <h3>Search & Navigate</h3>
+              <button className="close-btn" onClick={() => setShowMobileSearch(false)}>✕</button>
+            </div>
+            <div className="mobile-settings-body">
+              <div className="setting-group">
+                <label className="setting-label">Search Ayahs</label>
+                <input
+                  type="text"
+                  className="mobile-input"
+                  placeholder="Ayah number or word in translation"
+                  value={ayahQuery || ""}
+                  onChange={(event) => setAyahQuery(event.target.value)}
+                />
+              </div>
+              <div className="setting-group">
+                <label className="setting-label">Go to Ayah</label>
+                <div className="mobile-go-ayah">
+                  <input
+                    type="number"
+                    className="mobile-input"
+                    min={1}
+                    max={selectedSurah?.numberOfAyahs || 1}
+                    placeholder="Ayah number"
+                    value={goToAyahInput || ""}
+                    onChange={(event) => setGoToAyahInput(event.target.value)}
+                  />
+                  <button className="action-btn" onClick={() => { handleGoToAyah(); setShowMobileSearch(false); }}>
+                    Go
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       <AudioPlayer
         reciterLabel={reciterLabel}
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
+        isAutoPlaying={isAutoPlaying}
+        onPlaySurah={onPlaySurah}
+        onStopAutoPlay={onStopAutoPlay}
+        onAudioEnded={onAudioEnded}
+        selectedSurah={selectedSurah}
+        nowPlaying={nowPlaying}
+        showSurahControls={false}
+        showPlayerBar={false}
       />
 
       {error && <p className="status error">{error}</p>}

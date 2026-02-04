@@ -66,6 +66,7 @@ export default function Home() {
   const [nowPlaying, setNowPlaying] = useState(null);
   const [pendingScroll, setPendingScroll] = useState(null);
   const [showShortcuts, setShowShortcuts] = useState(false);
+  const [isAutoPlaying, setIsAutoPlaying] = useState(false);
 
   // Advanced Data Hooks
   const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(selectedSurah?.number, showWordByWord);
@@ -273,6 +274,8 @@ export default function Home() {
     setSelectedSurah(surah);
     setSelectedAyah(null);
     setFocusedAyahKey(null);
+    setIsAutoPlaying(false);
+    setNowPlaying(null);
     
     // On mobile, scroll to the reader panel after selecting a surah
     if (typeof window !== "undefined" && window.innerWidth <= 1100) {
@@ -282,6 +285,35 @@ export default function Home() {
           readerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       }, 100);
+    }
+  };
+
+  const handlePlaySurah = (startFromAyah = 1) => {
+    if (!selectedSurah) return;
+    setIsAutoPlaying(true);
+    setNowPlaying({ surah: selectedSurah.number, ayah: startFromAyah });
+    setFocusedAyahKey(verseKey(selectedSurah.number, startFromAyah));
+    setPendingScroll(startFromAyah);
+  };
+
+  const handleStopAutoPlay = () => {
+    setIsAutoPlaying(false);
+    setNowPlaying(null);
+  };
+
+  const handleAudioEnded = () => {
+    if (!isAutoPlaying || !nowPlaying || !selectedSurah) return;
+    
+    const nextAyah = nowPlaying.ayah + 1;
+    if (nextAyah <= selectedSurah.numberOfAyahs) {
+      // Play next ayah and scroll to it
+      setNowPlaying({ surah: selectedSurah.number, ayah: nextAyah });
+      setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
+      setPendingScroll(nextAyah);
+    } else {
+      // Surah finished
+      setIsAutoPlaying(false);
+      setNowPlaying(null);
     }
   };
 
@@ -465,7 +497,11 @@ export default function Home() {
             reciterLabel={selectedReciter.label}
             error={surahsError || surahDataError || wordError}
             loadingSurahData={loadingSurahData}
-            onPlay={(s, a) => setNowPlaying({ surah: s, ayah: a })}
+            isAutoPlaying={isAutoPlaying}
+            onPlaySurah={handlePlaySurah}
+            onStopAutoPlay={handleStopAutoPlay}
+            onAudioEnded={handleAudioEnded}
+            onPlay={(s, a) => { setIsAutoPlaying(false); setNowPlaying({ surah: s, ayah: a }); }}
             onToggleBookmark={toggleBookmark}
             onOpenNote={openNote}
             onCompare={handleCompare}
