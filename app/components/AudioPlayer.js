@@ -41,11 +41,14 @@ export default function AudioPlayer({
   }, [audioSrc, isAutoPlaying]);
 
   if (!showPlayerBar) {
+    if (!audioSrc) {
+      return null;
+    }
     return (
       <audio
         ref={audioRef}
-        key={audioSrc || "silent"}
-        src={audioSrc || ""}
+        key={audioSrc}
+        src={audioSrc}
         autoPlay
         hidden
       />
