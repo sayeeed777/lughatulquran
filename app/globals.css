@@ -204,6 +204,24 @@ button {
 .surah-panel {
   min-width: 0;
   overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+}
+
+/* Guard against older header layouts putting the search inline */
+.surah-panel .panel-header {
+  flex-wrap: wrap;
+}
+
+.surah-panel .panel-header .search {
+  flex: 1 1 100%;
+  width: 100%;
+  min-width: 0;
+  margin-top: 10px;
 }
 
 .panel-header {
@@ -216,7 +234,7 @@ button {
 
 /* Surah Panel Specific Styles */
 .surah-panel-header {
-  margin-bottom: 16px;
+  margin-bottom: 0;
 }
 
 .surah-panel-header h2 {
@@ -225,7 +243,7 @@ button {
 }
 
 .surah-search-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 0;
   overflow: hidden;
   width: 100%;
   max-width: 100%;
