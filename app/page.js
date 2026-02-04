@@ -273,6 +273,16 @@ export default function Home() {
     setSelectedSurah(surah);
     setSelectedAyah(null);
     setFocusedAyahKey(null);
+    
+    // On mobile, scroll to the reader panel after selecting a surah
+    if (typeof window !== "undefined" && window.innerWidth <= 1100) {
+      setTimeout(() => {
+        const readerPanel = document.querySelector(".reader-panel");
+        if (readerPanel) {
+          readerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      }, 100);
+    }
   };
 
   const toggleBookmark = (surahNumber, ayahNumber) => {
