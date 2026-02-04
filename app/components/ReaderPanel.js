@@ -65,6 +65,13 @@ export default function ReaderPanel({
     }
     return nowPlaying?.ayah || 1;
   };
+  const quickIsPlaying =
+    selectedSurah &&
+    nowPlaying &&
+    !isAutoPlaying &&
+    !isAudioPaused &&
+    nowPlaying.surah === selectedSurah.number &&
+    nowPlaying.ayah === getQuickAyahNumber();
 
   return (
     <section className="panel reader-panel">
@@ -146,10 +153,12 @@ export default function ReaderPanel({
             <button
               className="action-btn play-surah-btn"
               onClick={() =>
-                onPlay(selectedSurah.number, getQuickAyahNumber())
+                onTogglePlay
+                  ? onTogglePlay(selectedSurah.number, getQuickAyahNumber())
+                  : onPlay(selectedSurah.number, getQuickAyahNumber())
               }
             >
-              ▶ Play Ayah
+              {quickIsPlaying ? "⏸ Stop Ayah" : "▶ Play Ayah"}
             </button>
           </div>
         )}

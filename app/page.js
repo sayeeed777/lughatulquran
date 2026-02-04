@@ -307,7 +307,8 @@ export default function Home() {
 
   const handleAudioEnded = () => {
     if (!isAutoPlaying || !nowPlaying || !selectedSurah) {
-      setIsAudioPaused(true);
+      setIsAudioPaused(false);
+      setNowPlaying(null);
       return;
     }
     
@@ -335,8 +336,8 @@ export default function Home() {
     setIsAutoPlaying(false);
     setNowPlaying((prev) => {
       const same = prev && prev.surah === surah && prev.ayah === ayah;
-      setIsAudioPaused((paused) => (same ? !paused : false));
-      return same ? prev : { surah, ayah };
+      setIsAudioPaused(false);
+      return same ? null : { surah, ayah };
     });
   };
 
