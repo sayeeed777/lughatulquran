@@ -7,7 +7,7 @@ function KeyboardShortcutsHelp({ isOpen, onClose }) {
     const handleEscape = (e) => {
       if (e.key === "Escape") onClose();
     };
-    
+
     if (isOpen) {
       window.addEventListener("keydown", handleEscape);
       return () => window.removeEventListener("keydown", handleEscape);
@@ -21,7 +21,7 @@ function KeyboardShortcutsHelp({ isOpen, onClose }) {
     { keys: ["↓", "J"], action: "Next ayah" },
     { keys: ["Space"], action: "Play/Pause audio" },
     { keys: ["W"], action: "Toggle word-by-word" },
-    { keys: ["F"], action: "Toggle focus mode" },
+    { keys: ["F"], action: "Toggle study mode" },
     { keys: ["/"], action: "Search ayahs" },
     { keys: ["?"], action: "Show shortcuts" },
     { keys: ["Esc"], action: "Close dialogs" }

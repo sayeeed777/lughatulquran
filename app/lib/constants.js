@@ -50,8 +50,8 @@ export const DEFAULT_PLAN = {
 
 // Font Scale Limits
 export const FONT_SCALE = {
-  min: { arabic: 0.6, translation: 0.8 },
-  max: { arabic: 1.4, translation: 1.3 },
+  min: { arabic: 0.8, translation: 0.9 },
+  max: { arabic: 1.4, translation: 1.4 },
   default: { arabic: 1, translation: 1 }
 };
 

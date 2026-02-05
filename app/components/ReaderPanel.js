@@ -110,26 +110,26 @@ export default function ReaderPanel({
                 max="1.4"
                 step="0.05"
                 value={fontScale.arabic}
-                onChange={(event) =>
+                onChange={(e) =>
                   setFontScale((prev) => ({
                     ...prev,
-                    arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                    arabic: Number(e.target.value)
                   }))
                 }
               />
             </div>
             <div className="quick-slider">
-              <span>English</span>
+              <span>Translation</span>
               <input
                 type="range"
-                min="0.8"
-                max="1.3"
+                min="0.9"
+                max="1.4"
                 step="0.05"
                 value={fontScale.translation}
-                onChange={(event) =>
+                onChange={(e) =>
                   setFontScale((prev) => ({
                     ...prev,
-                    translation: clamp(Number(event.target.value), 0.8, 1.3)
+                    translation: Number(e.target.value)
                   }))
                 }
               />

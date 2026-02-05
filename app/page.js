@@ -293,7 +293,7 @@ export default function Home() {
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
-    
+
     // On mobile, scroll to the reader panel after selecting a surah
     if (typeof window !== "undefined" && window.innerWidth <= 1100) {
       setTimeout(() => {
@@ -326,7 +326,7 @@ export default function Home() {
       setNowPlaying(null);
       return;
     }
-    
+
     const nextAyah = nowPlaying.ayah + 1;
     if (nextAyah <= selectedSurah.numberOfAyahs) {
       // Play next ayah and scroll to it
@@ -440,7 +440,7 @@ export default function Home() {
         else if (readingMode) setReadingMode(false);
       }
     },
-    "Focus Mode": { keys: ["f"], handler: () => setReadingMode(p => !p) },
+    "Study Mode": { keys: ["f"], handler: () => setReadingMode(p => !p) },
     "Word by Word": { keys: ["w"], handler: () => setShowWordByWord(p => !p) },
     "Next Ayah": {
       keys: ["ArrowDown", "j"], handler: () => {
@@ -501,12 +501,25 @@ export default function Home() {
           </div>
           <div className="topbar-actions">
             <button className="action-btn" onClick={() => setReadingMode(p => !p)}>
-              {readingMode ? "Exit focus" : "Focus mode"}
+              {readingMode ? "Exit study" : "Study mode"}
             </button>
           </div>
         </div>
 
+        {/* Floating Exit Button for Study Mode */}
+        <button
+          className="focus-exit-btn"
+          onClick={() => setReadingMode(false)}
+          aria-label="Exit study mode"
+        >
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+
         <section className={`content${readingMode ? " reading" : ""}`}>
+
           <SurahList
             surahs={surahs}
             filteredSurahs={filteredSurahs}

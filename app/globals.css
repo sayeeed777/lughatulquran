@@ -24,12 +24,18 @@
   --radius-full: 9999px;
 
   /* Apple SF-style type scale */
-  --text-xs: 0.6875rem;   /* 11px */
-  --text-sm: 0.8125rem;   /* 13px */
-  --text-base: 0.9375rem; /* 15px */
-  --text-lg: 1.0625rem;   /* 17px */
-  --text-xl: 1.375rem;    /* 22px */
-  --text-2xl: 1.6875rem;  /* 27px */
+  --text-xs: 0.6875rem;
+  /* 11px */
+  --text-sm: 0.8125rem;
+  /* 13px */
+  --text-base: 0.9375rem;
+  /* 15px */
+  --text-lg: 1.0625rem;
+  /* 17px */
+  --text-xl: 1.375rem;
+  /* 22px */
+  --text-2xl: 1.6875rem;
+  /* 27px */
 }
 
 @font-face {
@@ -107,9 +113,14 @@ body::before {
   display: grid;
   place-items: center;
   color: #f5e4bf;
-  background: radial-gradient(circle at top, #2b575f 0%, #0f2428 70%);
-  border: 1px solid rgba(216, 179, 106, 0.35);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+  background: linear-gradient(145deg, rgba(43, 87, 95, 0.6) 0%, rgba(15, 36, 40, 0.8) 100%);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .logo-mark svg {
@@ -244,7 +255,7 @@ button {
   padding-right: 96px;
 }
 
-.reader-panel .panel-header > div:first-child {
+.reader-panel .panel-header>div:first-child {
   text-align: center;
   max-width: 100%;
 }
@@ -298,15 +309,15 @@ button {
 .quick-controls-row {
   display: flex;
   align-items: center;
-  gap: 24px;
+  justify-content: center;
+  gap: 32px;
   padding: 12px 0;
 }
 
 .quick-controls-row .sliders-row {
   display: flex;
   align-items: center;
-  gap: 24px;
-  flex: 1;
+  gap: 28px;
 }
 
 .quick-controls-row .quick-slider {
@@ -320,13 +331,14 @@ button {
 .quick-controls-row .quick-slider span {
   white-space: nowrap;
   color: var(--accent-2);
+  min-width: 65px;
 }
 
 .quick-controls-row .quick-slider input[type="range"] {
-  width: 80px;
+  width: 100px;
   height: 4px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.12);
   appearance: none;
   -webkit-appearance: none;
   cursor: pointer;
@@ -342,7 +354,6 @@ button {
 }
 
 .quick-controls-row .action-btn {
-  margin-left: auto;
   white-space: nowrap;
 }
 
@@ -1525,7 +1536,7 @@ button {
     align-items: center;
   }
 
-  .reader-panel .panel-header > div:first-child {
+  .reader-panel .panel-header>div:first-child {
     text-align: center;
   }
 
@@ -1765,27 +1776,22 @@ button {
 /* Bismillah Banner */
 .bismillah-banner {
   text-align: center;
-  padding: 32px 20px;
-  margin-bottom: 24px;
-  background: linear-gradient(135deg,
-      rgba(216, 179, 106, 0.08) 0%,
-      rgba(111, 212, 177, 0.05) 100%);
-  border-radius: var(--radius-lg);
-  border: 1px solid rgba(216, 179, 106, 0.15);
-  animation: fadeIn 0.6s ease;
+  padding: 28px 24px;
+  margin-bottom: 28px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-md);
 }
 
 .bismillah-arabic {
   font-family: var(--font-arabic);
   font-size: calc(2rem * var(--arabic-scale));
-  line-height: 2;
-  color: var(--accent);
-  margin: 0 0 12px;
-  text-shadow: 0 2px 20px rgba(216, 179, 106, 0.3);
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin: 0 0 10px;
 }
 
 .bismillah-translation {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--muted);
   font-style: italic;
   margin: 0;
@@ -2277,5 +2283,122 @@ textarea:focus-visible {
 @media (max-width: 768px) {
   .shortcuts-hint {
     display: none;
+  }
+}
+
+/* ============================================
+   TRUE FOCUS MODE - Reading Sanctuary
+   ============================================ */
+
+/* Darker, calmer environment */
+.app.reading {
+  background: linear-gradient(180deg, #050d10, #071014);
+  max-width: 100%;
+  padding: 0;
+}
+
+/* Hide topbar with fade */
+.app.reading .topbar {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  transition: opacity 0.4s ease;
+}
+
+/* Centered reading column */
+.content.reading {
+  max-width: 65ch;
+  margin: 0 auto;
+  padding: 80px 32px 120px;
+  gap: 0;
+}
+
+/* Enhanced typography for focus */
+.content.reading .ayah-arabic {
+  font-size: calc(clamp(2.2rem, 3vw, 3rem) * var(--arabic-scale));
+  line-height: 2.4;
+  letter-spacing: 0.01em;
+}
+
+.content.reading .ayah-translation {
+  font-size: calc(var(--text-lg) * var(--translation-scale));
+  line-height: 1.9;
+  color: var(--muted);
+}
+
+.content.reading .ayah-list {
+  gap: 64px;
+}
+
+.content.reading .ayah-card {
+  padding: 32px 0;
+}
+
+/* Hide reader toolbar in focus */
+.content.reading .reader-quick,
+.content.reading .reader-toolbar,
+.content.reading .quick-controls-row {
+  display: none;
+}
+
+/* Floating exit button */
+.focus-exit-btn {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 100;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.app.reading .focus-exit-btn {
+  opacity: 0.4;
+  pointer-events: auto;
+}
+
+.app.reading .focus-exit-btn:hover {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+}
+
+/* Cinematic transitions */
+.app {
+  transition: background 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
+    padding 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.content {
+  transition: max-width 0.5s cubic-bezier(0.2, 0.8, 0.2, 1),
+    padding 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+    gap 0.4s ease;
+}
+
+.topbar {
+  transition: opacity 0.4s ease;
+}
+
+/* Focus mode on mobile */
+@media (max-width: 768px) {
+  .content.reading {
+    padding: 60px 20px 100px;
+  }
+
+  .focus-exit-btn {
+    top: 16px;
+    right: 16px;
+    width: 40px;
+    height: 40px;
   }
 }
