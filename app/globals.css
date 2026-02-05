@@ -3622,7 +3622,17 @@ textarea:focus-visible {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .surah-panel,
+  .surah-panel {
+    display: flex;
+    position: static;
+    max-height: 40vh;
+    order: 0;
+  }
+
+  .reader-panel {
+    order: 1;
+  }
+
   .study-panel {
     display: none;
   }
