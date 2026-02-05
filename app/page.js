@@ -69,11 +69,21 @@ export default function Home() {
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [isAudioPaused, setIsAudioPaused] = useState(false);
+  const [memorizeConfig, setMemorizeConfig] = useState({
+    active: false,
+    startAyah: 1,
+    endAyah: 5,
+    loops: 0,
+    remaining: 0
+  });
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
 
   // Advanced Data Hooks
-  const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(selectedSurah?.number, showWordByWord);
+  const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(
+    selectedSurah?.number,
+    showWordByWord || readingMode
+  );
   const { cache: taqiCache, loading: taqiLoading, fetchTranslation: fetchTaqi } = useTaqiTranslation();
 
   // --- 3. Effects ---
@@ -123,6 +133,26 @@ export default function Home() {
     const { surah, ayah } = parseVerseKey(focusedAyahKey);
     updateLastRead(surah, ayah, selectedSurah.englishName);
   }, [focusedAyahKey, selectedSurah, updateLastRead]);
+
+  // Clamp memorize range when surah changes
+  useEffect(() => {
+    if (!selectedSurah) return;
+    setMemorizeConfig((prev) => {
+      const max = selectedSurah.numberOfAyahs;
+      const startAyah = clamp(Number(prev.startAyah) || 1, 1, max);
+      const endAyah = clamp(Number(prev.endAyah) || startAyah, startAyah, max);
+      return { ...prev, startAyah, endAyah };
+    });
+  }, [selectedSurah, clamp]);
+
+  // Stop memorize when exiting study mode
+  useEffect(() => {
+    if (readingMode) return;
+    if (!memorizeConfig.active) return;
+    setMemorizeConfig((prev) => ({ ...prev, active: false, remaining: 0 }));
+    setIsAutoPlaying(false);
+    setIsAudioPaused(false);
+  }, [readingMode, memorizeConfig.active]);
 
   // Pending Scroll Logic
   useEffect(() => {
@@ -289,7 +319,37 @@ export default function Home() {
     : "Select an ayah to play.";
 
   // Actions
+  const stopMemorize = () => {
+    if (!memorizeConfig.active) return;
+    setMemorizeConfig((prev) => ({ ...prev, active: false, remaining: 0 }));
+    setIsAutoPlaying(false);
+    setIsAudioPaused(false);
+  };
+
+  const startMemorize = (config) => {
+    if (!selectedSurah) return;
+    const max = selectedSurah.numberOfAyahs;
+    const startAyah = clamp(Number(config?.startAyah) || 1, 1, max);
+    const endAyah = clamp(Number(config?.endAyah) || startAyah, startAyah, max);
+    const loops = Math.max(0, Number(config?.loops) || 0);
+
+    setMemorizeConfig({
+      active: true,
+      startAyah,
+      endAyah,
+      loops,
+      remaining: loops
+    });
+
+    setIsAutoPlaying(true);
+    setIsAudioPaused(false);
+    setNowPlaying({ surah: selectedSurah.number, ayah: startAyah });
+    setFocusedAyahKey(verseKey(selectedSurah.number, startAyah));
+    setPendingScroll(startAyah);
+  };
+
   const handleSelectSurah = (surah) => {
+    stopMemorize();
     setSelectedSurah(surah);
     setSelectedAyah(null);
     setFocusedAyahKey(null);
@@ -310,20 +370,59 @@ export default function Home() {
 
   const handlePlaySurah = (startFromAyah = 1) => {
     if (!selectedSurah) return;
+    stopMemorize();
+    const start =
+      Number.isFinite(Number(startFromAyah)) && Number(startFromAyah) >= 1
+        ? Number(startFromAyah)
+        : 1;
     setIsAutoPlaying(true);
-    setNowPlaying({ surah: selectedSurah.number, ayah: startFromAyah });
+    setNowPlaying({ surah: selectedSurah.number, ayah: start });
     setIsAudioPaused(false);
-    setFocusedAyahKey(verseKey(selectedSurah.number, startFromAyah));
-    setPendingScroll(startFromAyah);
+    setFocusedAyahKey(verseKey(selectedSurah.number, start));
+    setPendingScroll(start);
   };
 
   const handleStopAutoPlay = () => {
+    stopMemorize();
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
   };
 
   const handleAudioEnded = () => {
+    if (memorizeConfig.active && selectedSurah && nowPlaying) {
+      const nextAyah = nowPlaying.ayah + 1;
+      if (nextAyah <= memorizeConfig.endAyah) {
+        setNowPlaying({ surah: selectedSurah.number, ayah: nextAyah });
+        setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
+        setPendingScroll(nextAyah);
+        return;
+      }
+
+      // Reached end of memorize range
+      if (memorizeConfig.loops === 0) {
+        setNowPlaying({ surah: selectedSurah.number, ayah: memorizeConfig.startAyah });
+        setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
+        setPendingScroll(memorizeConfig.startAyah);
+        return;
+      }
+
+      if (memorizeConfig.remaining > 1) {
+        setMemorizeConfig((prev) => ({ ...prev, remaining: prev.remaining - 1 }));
+        setNowPlaying({ surah: selectedSurah.number, ayah: memorizeConfig.startAyah });
+        setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
+        setPendingScroll(memorizeConfig.startAyah);
+        return;
+      }
+
+      // Done looping
+      setMemorizeConfig((prev) => ({ ...prev, active: false, remaining: 0 }));
+      setIsAutoPlaying(false);
+      setNowPlaying(null);
+      setIsAudioPaused(false);
+      return;
+    }
+
     if (!isAutoPlaying || !nowPlaying || !selectedSurah) {
       setIsAudioPaused(false);
       setNowPlaying(null);
@@ -345,12 +444,16 @@ export default function Home() {
   };
 
   const handlePlayAyah = (surah, ayah) => {
+    stopMemorize();
     setIsAutoPlaying(false);
     setIsAudioPaused(false);
     setNowPlaying({ surah, ayah });
   };
 
   const handleToggleAyah = (surah, ayah) => {
+    if (memorizeConfig.active) {
+      stopMemorize();
+    }
     // If same ayah is playing, toggle pause and stop auto-play
     if (nowPlaying && nowPlaying.surah === surah && nowPlaying.ayah === ayah) {
       if (!isAudioPaused) {
@@ -503,6 +606,8 @@ export default function Home() {
           nowPlaying={nowPlaying}
           isAutoPlaying={isAutoPlaying}
           isAudioPaused={isAudioPaused}
+          wordByAyah={wordByAyah}
+          wordLoading={wordLoading}
           audioSrc={nowPlaying ? getAudioUrl(selectedReciter.baseUrl, nowPlaying.surah, nowPlaying.ayah) : null}
           reciterLabel={selectedReciter.label}
           onExit={() => setReadingMode(false)}
@@ -511,6 +616,10 @@ export default function Home() {
           onStopAutoPlay={handleStopAutoPlay}
           onPlaySurah={handlePlaySurah}
           onAudioEnded={handleAudioEnded}
+          memorizeConfig={memorizeConfig}
+          setMemorizeConfig={setMemorizeConfig}
+          onStartMemorize={startMemorize}
+          onStopMemorize={stopMemorize}
           onToggleBookmark={toggleBookmark}
           onOpenNote={openNote}
           onJumpToAyah={jumpToAyah}

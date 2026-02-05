@@ -19,7 +19,7 @@ const QDC_BASE_URL = "https://api.quran.com/api/v4";
 
 export const revalidate = 86400;
 
-// Fetch Arabic Text from Quran.com V4
+// Fetch Arabic Text (and optional Tajweed/Page data) from Quran.com V4
 const fetchArabicText = async (chapterId) => {
   const verses = [];
   let page = 1;
@@ -31,7 +31,7 @@ const fetchArabicText = async (chapterId) => {
     const url = new URL(`${QDC_BASE_URL}/verses/by_chapter/${chapterId}`);
     url.searchParams.set("language", "en");
     url.searchParams.set("words", "false");
-    url.searchParams.set("fields", "text_uthmani");
+    url.searchParams.set("fields", "text_uthmani,text_uthmani_tajweed,page_number");
     url.searchParams.set("page", String(page));
     url.searchParams.set("per_page", "50");
 
@@ -52,8 +52,10 @@ const fetchArabicText = async (chapterId) => {
         // V4 returns verse_key like "1:1"
         const verseNumber = verse.verse_number;
         const text = verse.text_uthmani;
+        const tajweed = verse.text_uthmani_tajweed || verse.text_uthmani_tajweed_html;
+        const pageNumber = verse.page_number || verse.page || verse.pageNumber;
         if (verseNumber && text) {
-          verses.push({ number: verseNumber, text });
+          verses.push({ number: verseNumber, text, tajweed, page: pageNumber });
         }
       }
 
@@ -122,8 +124,10 @@ export async function GET(_request, { params }) {
 
     // Use a Loop based on total verses to ensure missing translations/arabic don't break order
     for (let i = 1; i <= totalAyahs; i++) {
-      const arabicEntry = arabicVerses?.find(v => v.number === i);
-      let arabicText = arabicEntry?.text || "Arabic text unavailable";
+    const arabicEntry = arabicVerses?.find(v => v.number === i);
+    let arabicText = arabicEntry?.text || "Arabic text unavailable";
+    const arabicTajweed = arabicEntry?.tajweed || null;
+    const pageNumber = arabicEntry?.page || null;
 
       // Quran.com V4 usually provides clean text.
       // For Surah 1 (Fatiha), Verse 1 IS Bismillah.
@@ -145,6 +149,8 @@ export async function GET(_request, { params }) {
       ayahs.push({
         number: i,
         arabic: arabicText,
+        arabicTajweed,
+        pageNumber,
         translations
       });
     }

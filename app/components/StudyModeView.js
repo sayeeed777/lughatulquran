@@ -1,8 +1,11 @@
 "use client";
 
-import { useState, useEffect, useRef, useMemo } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import AudioPlayer from "./AudioPlayer";
+import ProgressBar from "./ProgressBar";
+import { useLocalStorage } from "../hooks";
+import { getLocalDateString } from "../lib/utils";
 
 // Progress Ring Component
 const ProgressRing = ({ progress, size = 40, strokeWidth = 3 }) => {
@@ -52,8 +55,8 @@ const FloatingButton = ({ icon, label, onClick, active, variant = "default" }) =
   </motion.button>
 );
 
-// Quick Panel Component (Notion-style sidebar)
-const QuickPanel = ({ isOpen, onClose, activeTab, setActiveTab, children }) => (
+// Quick Panel Component (Docked/overlay panel)
+const QuickPanel = ({ isOpen, onClose, title, children }) => (
   <AnimatePresence>
     {isOpen && (
       <>
@@ -72,17 +75,7 @@ const QuickPanel = ({ isOpen, onClose, activeTab, setActiveTab, children }) => (
           transition={{ type: "spring", damping: 30, stiffness: 300 }}
         >
           <div className="quick-panel-header">
-            <div className="quick-panel-tabs">
-              {["bookmarks", "notes", "plan"].map((tab) => (
-                <button
-                  key={tab}
-                  className={`quick-panel-tab ${activeTab === tab ? "active" : ""}`}
-                  onClick={() => setActiveTab(tab)}
-                >
-                  {tab.charAt(0).toUpperCase() + tab.slice(1)}
-                </button>
-              ))}
-            </div>
+            <span className="quick-panel-title">{title}</span>
             <button className="quick-panel-close" onClick={onClose}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M18 6L6 18M6 6l12 12" />
@@ -127,6 +120,8 @@ export default function StudyModeView({
   nowPlaying,
   isAutoPlaying,
   isAudioPaused,
+  wordByAyah,
+  wordLoading,
   audioSrc,
   reciterLabel,
   onExit,
@@ -135,6 +130,10 @@ export default function StudyModeView({
   onStopAutoPlay,
   onPlaySurah,
   onAudioEnded,
+  memorizeConfig,
+  setMemorizeConfig,
+  onStartMemorize,
+  onStopMemorize,
   onToggleBookmark,
   onOpenNote,
   onJumpToAyah,
@@ -144,15 +143,85 @@ export default function StudyModeView({
 }) {
   const [showControls, setShowControls] = useState(true);
   const [showQuickPanel, setShowQuickPanel] = useState(false);
-  const [quickPanelTab, setQuickPanelTab] = useState("bookmarks");
+  const [quickPanelTab, setQuickPanelTab] = useState("study");
   const [readingTime, setReadingTime] = useState(0);
   const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
+  const [showTajweed, setShowTajweed] = useState(false);
+  const [showWordByWord, setShowWordByWord] = useState(false);
+  const [isMushafView, setIsMushafView] = useState(false);
+  const [scriptStyle, setScriptStyle] = useState("uthmani");
+  const [showTranslation, setShowTranslation] = useState(true);
+  const [dimNonFocused, setDimNonFocused] = useState(false);
+  const [autoScrollPlaying, setAutoScrollPlaying] = useState(true);
+  const [playbackRate, setPlaybackRate] = useState(1);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const [searchLoading, setSearchLoading] = useState(false);
+  const [searchError, setSearchError] = useState(null);
+  const wordAudioRef = useRef(null);
+  const [wordAudioUrl, setWordAudioUrl] = useState(null);
+  const [studyGoal, setStudyGoal] = useLocalStorage("quran_study_goal", {
+    perDay: 15,
+    date: getLocalDateString()
+  });
   const scrollContainerRef = useRef(null);
   const controlsTimeoutRef = useRef(null);
 
   const ayahs = filteredAyahs || surahData?.ayahs || [];
   const totalAyahs = ayahs.length;
   const progress = totalAyahs > 0 ? Math.round((currentAyahIndex / totalAyahs) * 100) : 0;
+  const goalTarget = Math.max(1, Number(studyGoal?.perDay) || 1);
+  const goalProgress = Math.min(currentAyahIndex, goalTarget);
+
+  const railItems = [
+    { id: "study", label: "Study", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+        <path d="M4 4h14a2 2 0 0 1 2 2v13" />
+        <path d="M4 4v13a2 2 0 0 0 2 2h14" />
+      </svg>
+    ) },
+    { id: "memorize", label: "Memorize", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M17 1l4 4-4 4" />
+        <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+        <path d="M7 23l-4-4 4-4" />
+        <path d="M21 13v2a4 4 0 0 1-4 4H3" />
+      </svg>
+    ) },
+    { id: "settings", label: "Settings", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M4 21v-7" />
+        <path d="M4 10V3" />
+        <path d="M12 21v-9" />
+        <path d="M12 8V3" />
+        <path d="M20 21v-5" />
+        <path d="M20 12V3" />
+        <path d="M2 14h4" />
+        <path d="M10 8h4" />
+        <path d="M18 16h4" />
+      </svg>
+    ) },
+    { id: "tools", label: "Tools", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
+        <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
+        <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
+      </svg>
+    ) },
+    { id: "search", label: "Search", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <circle cx="11" cy="11" r="8" />
+        <path d="m21 21-4.35-4.35" />
+      </svg>
+    ) },
+    { id: "notes", label: "Notes", icon: (
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+        <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+      </svg>
+    ) }
+  ];
 
   // Reading time tracker
   useEffect(() => {
@@ -161,6 +230,13 @@ export default function StudyModeView({
     }, 1000);
     return () => clearInterval(interval);
   }, []);
+
+  useEffect(() => {
+    const today = getLocalDateString();
+    if (!studyGoal?.date || studyGoal.date !== today) {
+      setStudyGoal((prev) => ({ ...prev, date: today }));
+    }
+  }, [studyGoal?.date, setStudyGoal]);
 
   // Auto-hide controls
   useEffect(() => {
@@ -215,10 +291,48 @@ export default function StudyModeView({
     return () => container.removeEventListener("scroll", handleScroll);
   }, [ayahs.length]);
 
+  useEffect(() => {
+    const audio = wordAudioRef.current;
+    if (!audio || !wordAudioUrl) return;
+    audio.src = wordAudioUrl;
+    audio.play().catch(() => {});
+  }, [wordAudioUrl]);
+
+  useEffect(() => {
+    if (!autoScrollPlaying || !nowPlaying || !selectedSurah) return;
+    const container = scrollContainerRef.current;
+    if (!container) return;
+    if (nowPlaying.surah !== selectedSurah.number) return;
+    const target = container.querySelector(`#ayah-${nowPlaying.ayah}`);
+    if (!target) return;
+    const top = target.offsetTop - container.clientHeight * 0.2;
+    container.scrollTo({ top: Math.max(top, 0), behavior: "smooth" });
+  }, [autoScrollPlaying, nowPlaying, selectedSurah]);
+
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);
     const secs = seconds % 60;
     return `${mins}:${secs.toString().padStart(2, "0")}`;
+  };
+
+  const runSearch = async () => {
+    const query = searchQuery.trim();
+    if (!query) return;
+    setSearchLoading(true);
+    setSearchError(null);
+    try {
+      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload?.error || "Search failed.");
+      }
+      setSearchResults(Array.isArray(payload?.results) ? payload.results : []);
+    } catch (error) {
+      setSearchError(error.message || "Search failed.");
+      setSearchResults([]);
+    } finally {
+      setSearchLoading(false);
+    }
   };
 
   const isBookmarked = (surah, ayah) => bookmarks?.includes(verseKey(surah, ayah));
@@ -230,7 +344,9 @@ export default function StudyModeView({
   };
 
   return (
-    <div className="study-mode-container">
+    <div
+      className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""}`}
+    >
       {/* Ambient Background */}
       <div className="study-ambient-bg" />
 
@@ -273,17 +389,6 @@ export default function StudyModeView({
                 </svg>
                 <span>{formatTime(readingTime)}</span>
               </div>
-              <button
-                className="study-panel-toggle"
-                onClick={() => setShowQuickPanel(true)}
-              >
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <rect x="3" y="3" width="7" height="7" rx="1" />
-                  <rect x="14" y="3" width="7" height="7" rx="1" />
-                  <rect x="3" y="14" width="7" height="7" rx="1" />
-                  <rect x="14" y="14" width="7" height="7" rx="1" />
-                </svg>
-              </button>
             </div>
           </motion.header>
         )}
@@ -318,15 +423,24 @@ export default function StudyModeView({
             const bookmarked = isBookmarked(selectedSurah?.number, ayahNum);
             const noted = hasNote(selectedSurah?.number, ayahNum);
             const isPlaying = nowPlaying?.surah === selectedSurah?.number && nowPlaying?.ayah === ayahNum;
+            const words = showWordByWord
+              ? wordByAyah?.[selectedSurah?.number]?.[ayahNum] || []
+              : [];
+            const arabicMarkup =
+              showTajweed && ayah.arabicTajweed
+                ? { __html: ayah.arabicTajweed }
+                : null;
+            const isFocused = focusedAyahKey === key;
 
             return (
               <motion.article
                 key={key || `ayah-${index}`}
                 id={`ayah-${ayahNum}`}
-                className={`study-ayah-card ${isPlaying ? "playing" : ""}`}
+                className={`study-ayah-card ${isPlaying ? "playing" : ""}${dimNonFocused && focusedAyahKey && !isFocused ? " dimmed" : ""}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.02 }}
+                onClick={() => setFocusedAyahKey?.(key)}
               >
                 <div className="study-ayah-number">
                   <span>{ayahNum}</span>
@@ -339,15 +453,46 @@ export default function StudyModeView({
                     dir="rtl"
                     style={{ fontSize: `calc(2rem * ${fontScale?.arabic || 1})` }}
                   >
-                    {ayah.arabic || ayah.text}
+                    {arabicMarkup ? (
+                      <span dangerouslySetInnerHTML={arabicMarkup} />
+                    ) : (
+                      ayah.arabic || ayah.text
+                    )}
                   </p>
-                  {(ayah.translations?.[selectedTranslation]?.text || ayah.translation) && (
+                  {!isMushafView && showTranslation &&
+                    (ayah.translations?.[selectedTranslation]?.text || ayah.translation) && (
                     <p
                       className="study-ayah-translation"
                       style={{ fontSize: `calc(1rem * ${fontScale?.translation || 1})` }}
                     >
                       {ayah.translations?.[selectedTranslation]?.text || ayah.translation}
                     </p>
+                  )}
+                  {showWordByWord && (
+                    <div className="study-word-row">
+                      {wordLoading && words.length === 0 && (
+                        <span className="meta">Loading words…</span>
+                      )}
+                      {words.map((word, wordIndex) => (
+                        <button
+                          key={`${key}-${wordIndex}`}
+                          className={`study-word-chip${word.audioUrl && wordAudioUrl === word.audioUrl ? " playing" : ""}`}
+                          onClick={() => {
+                            if (word.audioUrl) {
+                              setWordAudioUrl(word.audioUrl);
+                            }
+                          }}
+                          type="button"
+                        >
+                          <span className="word-ar" lang="ar" dir="rtl">
+                            {word.arabic}
+                          </span>
+                          {word.translation && (
+                            <span className="word-en">{word.translation}</span>
+                          )}
+                        </button>
+                      ))}
+                    </div>
                   )}
                 </div>
 
@@ -402,26 +547,189 @@ export default function StudyModeView({
         </div>
       </div>
 
-      {/* Bottom Control Bar */}
-      <AnimatePresence>
-        {showControls && (
-          <motion.div
-            className="study-control-bar"
-            initial={{ y: 100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: 100, opacity: 0 }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
+      {/* Study Rail */}
+      <div className="study-rail">
+        {railItems.map((item) => (
+          <button
+            key={item.id}
+            className={`study-rail-btn${quickPanelTab === item.id && showQuickPanel ? " active" : ""}`}
+            onClick={() => {
+              if (showQuickPanel && quickPanelTab === item.id) {
+                setShowQuickPanel(false);
+                return;
+              }
+              setQuickPanelTab(item.id);
+              setShowQuickPanel(true);
+            }}
+            title={item.label}
           >
-            <div className="control-bar-inner">
-              {/* Font Controls */}
-              <div className="control-group">
-                <span className="control-label">Font</span>
-                <div className="control-buttons">
+            {item.icon}
+          </button>
+        ))}
+      </div>
+
+      {/* Quick Panel (Notion-style) */}
+      <QuickPanel
+        isOpen={showQuickPanel}
+        onClose={() => setShowQuickPanel(false)}
+        title={quickPanelTab.charAt(0).toUpperCase() + quickPanelTab.slice(1)}
+      >
+        {quickPanelTab === "study" && (
+          <div className="quick-panel-section">
+            <div className="study-card">
+              <h4>Overview</h4>
+              <div className="quick-stats-grid">
+                <StatCard
+                  label="Reading Time"
+                  value={formatTime(readingTime)}
+                  icon={
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <circle cx="12" cy="12" r="10" />
+                      <path d="M12 6v6l4 2" />
+                    </svg>
+                  }
+                  color="var(--accent)"
+                />
+                <StatCard
+                  label="Progress"
+                  value={`${progress}%`}
+                  icon={
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+                      <path d="M22 4L12 14.01l-3-3" />
+                    </svg>
+                  }
+                  color="var(--accent-2)"
+                />
+                <StatCard
+                  label="Bookmarks"
+                  value={sortedBookmarks?.length || 0}
+                  icon={
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
+                    </svg>
+                  }
+                  color="#f59e0b"
+                />
+                <StatCard
+                  label="Notes"
+                  value={sortedNotes?.length || 0}
+                  icon={
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                      <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                  }
+                  color="#8b5cf6"
+                />
+              </div>
+            </div>
+
+            <div className="study-card quick-goal">
+              <h4>Daily Goal</h4>
+              <div className="goal-controls">
+                <label className="goal-label">Ayahs per day</label>
+                <input
+                  type="number"
+                  min={1}
+                  max={200}
+                  value={goalTarget}
+                  onChange={(event) =>
+                    setStudyGoal((prev) => ({
+                      ...prev,
+                      perDay: Number(event.target.value) || 1
+                    }))
+                  }
+                />
+              </div>
+              <ProgressBar
+                current={goalProgress}
+                total={goalTarget}
+                label={`${goalProgress}/${goalTarget} ayahs`}
+              />
+            </div>
+
+            {planSummary && !planSummary.completed && !planSummary.error && (
+              <div className="study-card quick-plan-today">
+                <h4>Today's Plan</h4>
+                <p className="plan-range-text">
+                  {planSummary.startVerse && planSummary.endVerse
+                    ? `${surahByNumber?.get(planSummary.startVerse.surah)?.englishName || "Surah"} ${planSummary.startVerse.ayah} - ${surahByNumber?.get(planSummary.endVerse.surah)?.englishName || "Surah"} ${planSummary.endVerse.ayah}`
+                    : "Set up your reading plan"}
+                </p>
+                {planSummary.startVerse && (
+                  <button
+                    className="plan-jump-btn"
+                    onClick={() => {
+                      onJumpToAyah(planSummary.startVerse.surah, planSummary.startVerse.ayah);
+                      setShowQuickPanel(false);
+                    }}
+                  >
+                    Start Reading
+                  </button>
+                )}
+              </div>
+            )}
+
+          </div>
+        )}
+
+        {quickPanelTab === "settings" && (
+          <div className="quick-panel-section">
+            <div className="study-card focus-card">
+              <h4>Session</h4>
+              <div className="tool-grid">
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={showTranslation}
+                    onChange={(event) => setShowTranslation(event.target.checked)}
+                  />
+                  <span>Show Translation</span>
+                </label>
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={dimNonFocused}
+                    onChange={(event) => setDimNonFocused(event.target.checked)}
+                  />
+                  <span>Dim Other Ayahs</span>
+                </label>
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={autoScrollPlaying}
+                    onChange={(event) => setAutoScrollPlaying(event.target.checked)}
+                  />
+                  <span>Auto-scroll Playing</span>
+                </label>
+              </div>
+              <div className="study-slider">
+                <div className="study-slider-header">
+                  <span>Playback Speed</span>
+                  <span className="study-slider-value">{playbackRate.toFixed(2)}x</span>
+                </div>
+                <input
+                  type="range"
+                  min="0.75"
+                  max="1.25"
+                  step="0.05"
+                  value={playbackRate}
+                  onChange={(event) => setPlaybackRate(Number(event.target.value))}
+                />
+              </div>
+            </div>
+
+            <div className="study-card textsize-card">
+              <h4>Text Size</h4>
+              <div className="textsize-row">
+                <span>Arabic</span>
+                <div className="textsize-actions">
                   <button
                     className="control-btn"
                     onClick={() => setFontScale((prev) => ({
                       ...prev,
-                      arabic: clamp(prev.arabic - 0.1, 0.6, 2),
+                      arabic: clamp(prev.arabic - 0.1, 0.6, 2)
                     }))}
                   >
                     A-
@@ -430,118 +738,222 @@ export default function StudyModeView({
                     className="control-btn"
                     onClick={() => setFontScale((prev) => ({
                       ...prev,
-                      arabic: clamp(prev.arabic + 0.1, 0.6, 2),
+                      arabic: clamp(prev.arabic + 0.1, 0.6, 2)
                     }))}
                   >
                     A+
                   </button>
                 </div>
               </div>
-
-              {/* Divider */}
-              <div className="control-divider" />
-
-              {/* Audio Controls */}
-              <div className="control-group audio-controls">
-                {isAutoPlaying ? (
-                  <button className="control-btn primary" onClick={onStopAutoPlay}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                      <rect x="6" y="4" width="4" height="16" rx="1" />
-                      <rect x="14" y="4" width="4" height="16" rx="1" />
-                    </svg>
-                    <span>Stop</span>
+              <div className="textsize-row">
+                <span>Translation</span>
+                <div className="textsize-actions">
+                  <button
+                    className="control-btn"
+                    onClick={() => setFontScale((prev) => ({
+                      ...prev,
+                      translation: clamp(prev.translation - 0.05, 0.7, 1.6)
+                    }))}
+                  >
+                    A-
                   </button>
-                ) : (
-                  <button className="control-btn primary" onClick={onPlaySurah}>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                      <polygon points="5 3 19 12 5 21 5 3" />
-                    </svg>
-                    <span>Play Surah</span>
+                  <button
+                    className="control-btn"
+                    onClick={() => setFontScale((prev) => ({
+                      ...prev,
+                      translation: clamp(prev.translation + 0.05, 0.7, 1.6)
+                    }))}
+                  >
+                    A+
                   </button>
-                )}
-              </div>
-
-              {/* Divider */}
-              <div className="control-divider" />
-
-              {/* Navigation */}
-              <div className="control-group">
-                <span className="control-label">Ayah</span>
-                <div className="ayah-navigator">
-                  <span className="current-ayah">{currentAyahIndex}</span>
-                  <span className="ayah-separator">/</span>
-                  <span className="total-ayahs">{totalAyahs}</span>
                 </div>
               </div>
-
-              {/* Stats Button */}
-              <div className="control-divider" />
-              <button
-                className="control-btn icon-only"
-                onClick={() => {
-                  setQuickPanelTab("bookmarks");
-                  setShowQuickPanel(true);
-                }}
-              >
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                </svg>
-                {sortedBookmarks?.length > 0 && (
-                  <span className="control-badge">{sortedBookmarks.length}</span>
-                )}
-              </button>
             </div>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
 
-      {/* Quick Panel (Notion-style) */}
-      <QuickPanel
-        isOpen={showQuickPanel}
-        onClose={() => setShowQuickPanel(false)}
-        activeTab={quickPanelTab}
-        setActiveTab={setQuickPanelTab}
-      >
-        {quickPanelTab === "bookmarks" && (
+        {quickPanelTab === "memorize" && (
           <div className="quick-panel-section">
-            {sortedBookmarks?.length > 0 ? (
-              <ul className="quick-list">
-                {sortedBookmarks.map((key) => {
-                  const { surah, ayah } = parseVerseKey(key);
-                  const name = surahByNumber?.get(surah)?.englishName || `Surah ${surah}`;
-                  return (
-                    <li key={key} className="quick-list-item">
-                      <div className="quick-item-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" strokeWidth="2">
-                          <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                        </svg>
-                      </div>
-                      <div className="quick-item-content">
-                        <span className="quick-item-title">{name}</span>
-                        <span className="quick-item-sub">Ayah {ayah}</span>
-                      </div>
-                      <button
-                        className="quick-item-action"
-                        onClick={() => {
-                          onJumpToAyah(surah, ayah);
-                          setShowQuickPanel(false);
-                        }}
-                      >
-                        Go
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            ) : (
-              <div className="quick-empty">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                </svg>
-                <p>No bookmarks yet</p>
-                <span>Tap the bookmark icon on any ayah</span>
+            <div className="study-card memorize-card">
+              <h4>Memorize Range</h4>
+              <div className="memorize-grid">
+                <label className="memorize-field">
+                  <span>Start Ayah</span>
+                  <input
+                    type="number"
+                    min={1}
+                    max={selectedSurah?.numberOfAyahs || 1}
+                    value={memorizeConfig?.startAyah || 1}
+                    onChange={(event) =>
+                      setMemorizeConfig?.((prev) => ({
+                        ...prev,
+                        startAyah: Number(event.target.value)
+                      }))
+                    }
+                  />
+                </label>
+                <label className="memorize-field">
+                  <span>End Ayah</span>
+                  <input
+                    type="number"
+                    min={memorizeConfig?.startAyah || 1}
+                    max={selectedSurah?.numberOfAyahs || 1}
+                    value={memorizeConfig?.endAyah || 1}
+                    onChange={(event) =>
+                      setMemorizeConfig?.((prev) => ({
+                        ...prev,
+                        endAyah: Number(event.target.value)
+                      }))
+                    }
+                  />
+                </label>
+                <label className="memorize-field">
+                  <span>Loops (0 = ∞)</span>
+                  <input
+                    type="number"
+                    min={0}
+                    max={50}
+                    value={memorizeConfig?.loops ?? 0}
+                    onChange={(event) =>
+                      setMemorizeConfig?.((prev) => ({
+                        ...prev,
+                        loops: Number(event.target.value)
+                      }))
+                    }
+                  />
+                </label>
               </div>
-            )}
+              <div className="memorize-actions">
+                {memorizeConfig?.active ? (
+                  <button className="control-btn" onClick={onStopMemorize}>
+                    Stop Memorize
+                  </button>
+                ) : (
+                  <button
+                    className="control-btn primary"
+                    onClick={() => onStartMemorize?.(memorizeConfig)}
+                  >
+                    Start Memorize
+                  </button>
+                )}
+                {memorizeConfig?.active && (
+                  <span className="memorize-status">
+                    {memorizeConfig.loops === 0
+                      ? "Looping ∞"
+                      : `Loops left: ${memorizeConfig.remaining || 0}`}
+                  </span>
+                )}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {quickPanelTab === "tools" && (
+          <div className="quick-panel-section">
+            <div className="study-card tools-card">
+              <h4>Study Tools</h4>
+              <div className="tool-grid">
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={showTajweed}
+                    onChange={(event) => setShowTajweed(event.target.checked)}
+                  />
+                  <span>Tajweed Colors</span>
+                </label>
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={showWordByWord}
+                    onChange={(event) => setShowWordByWord(event.target.checked)}
+                  />
+                  <span>Word by Word Audio</span>
+                </label>
+                <label className="tool-toggle">
+                  <input
+                    type="checkbox"
+                    checked={isMushafView}
+                    onChange={(event) => setIsMushafView(event.target.checked)}
+                  />
+                  <span>Mushaf View</span>
+                </label>
+              </div>
+              <div className="tool-section">
+                <span className="tool-label">Script</span>
+                <div className="tool-buttons">
+                  <button
+                    className={`control-btn${scriptStyle === "uthmani" ? " primary" : ""}`}
+                    onClick={() => setScriptStyle("uthmani")}
+                  >
+                    Uthmani
+                  </button>
+                  <button
+                    className={`control-btn${scriptStyle === "naskh" ? " primary" : ""}`}
+                    onClick={() => setScriptStyle("naskh")}
+                  >
+                    Naskh
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {quickPanelTab === "search" && (
+          <div className="quick-panel-section">
+            <div className="study-card search-card">
+              <h4>Search the Quran</h4>
+              <div className="search-row">
+                <input
+                  type="text"
+                  placeholder="Keyword or topic"
+                  value={searchQuery}
+                  onChange={(event) => setSearchQuery(event.target.value)}
+                  onKeyDown={(event) => {
+                    if (event.key === "Enter") runSearch();
+                  }}
+                />
+                <button className="control-btn primary" onClick={runSearch}>
+                  Search
+                </button>
+              </div>
+              {searchLoading && <p className="status">Searching…</p>}
+              {searchError && <p className="status error">{searchError}</p>}
+              {!searchLoading && !searchError && searchResults.length === 0 && (
+                <p className="status">No results yet.</p>
+              )}
+              {searchResults.length > 0 && (
+                <ul className="search-results">
+                  {searchResults.map((result, index) => {
+                    const name = result.surah
+                      ? surahByNumber?.get(result.surah)?.englishName || `Surah ${result.surah}`
+                      : "Surah";
+                    const location = result.ayah ? `Ayah ${result.ayah}` : "";
+                    return (
+                      <li key={`${result.surah}-${result.ayah}-${index}`}>
+                        <div className="search-result-main">
+                          <span className="search-result-title">{name} {location}</span>
+                          <span className="search-result-text">
+                            {result.translation || result.text || "Result"}
+                          </span>
+                        </div>
+                        {result.surah && result.ayah && (
+                          <button
+                            className="quick-item-action"
+                            onClick={() => {
+                              onJumpToAyah(result.surah, result.ayah);
+                              setShowQuickPanel(false);
+                            }}
+                          >
+                            Go
+                          </button>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
+              )}
+            </div>
           </div>
         )}
 
@@ -590,78 +1002,10 @@ export default function StudyModeView({
           </div>
         )}
 
-        {quickPanelTab === "plan" && (
-          <div className="quick-panel-section">
-            <div className="quick-stats-grid">
-              <StatCard
-                label="Reading Time"
-                value={formatTime(readingTime)}
-                icon={
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="12" cy="12" r="10" />
-                    <path d="M12 6v6l4 2" />
-                  </svg>
-                }
-                color="var(--accent)"
-              />
-              <StatCard
-                label="Progress"
-                value={`${progress}%`}
-                icon={
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-                    <path d="M22 4L12 14.01l-3-3" />
-                  </svg>
-                }
-                color="var(--accent-2)"
-              />
-              <StatCard
-                label="Bookmarks"
-                value={sortedBookmarks?.length || 0}
-                icon={
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                  </svg>
-                }
-                color="#f59e0b"
-              />
-              <StatCard
-                label="Notes"
-                value={sortedNotes?.length || 0}
-                icon={
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                    <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                  </svg>
-                }
-                color="#8b5cf6"
-              />
-            </div>
-
-            {planSummary && !planSummary.completed && !planSummary.error && (
-              <div className="quick-plan-today">
-                <h4>Today's Goal</h4>
-                <p className="plan-range-text">
-                  {planSummary.startVerse && planSummary.endVerse
-                    ? `${surahByNumber?.get(planSummary.startVerse.surah)?.englishName || "Surah"} ${planSummary.startVerse.ayah} - ${surahByNumber?.get(planSummary.endVerse.surah)?.englishName || "Surah"} ${planSummary.endVerse.ayah}`
-                    : "Set up your reading plan"}
-                </p>
-                {planSummary.startVerse && (
-                  <button
-                    className="plan-jump-btn"
-                    onClick={() => {
-                      onJumpToAyah(planSummary.startVerse.surah, planSummary.startVerse.ayah);
-                      setShowQuickPanel(false);
-                    }}
-                  >
-                    Start Reading
-                  </button>
-                )}
-              </div>
-            )}
-          </div>
-        )}
       </QuickPanel>
+
+      {/* Word-by-word audio */}
+      <audio ref={wordAudioRef} hidden />
 
       {/* Hidden Audio Player */}
       <AudioPlayer
@@ -670,6 +1014,7 @@ export default function StudyModeView({
         audioSrc={audioSrc}
         isAutoPlaying={isAutoPlaying}
         isAudioPaused={isAudioPaused}
+        playbackRate={playbackRate}
         onPlaySurah={onPlaySurah}
         onStopAutoPlay={onStopAutoPlay}
         onAudioEnded={onAudioEnded}

@@ -22,9 +22,16 @@ const normalizeWord = (word) => {
     word?.translation ||
     word?.transliteration?.text ||
     "";
+  const audioUrl =
+    word?.audio_url ||
+    word?.audio?.url ||
+    word?.audio?.mp3 ||
+    word?.audio ||
+    "";
   return {
     arabic,
-    translation
+    translation,
+    audioUrl
   };
 };
 
@@ -52,7 +59,7 @@ export async function GET(_request, { params }) {
       safety += 1;
       const url = new URL(`${WORDS_BASE_URL}/${id}`);
       url.searchParams.set("words", "true");
-      url.searchParams.set("word_fields", "text_uthmani");
+      url.searchParams.set("word_fields", "text_uthmani,audio_url");
       url.searchParams.set("translation_fields", "text");
       url.searchParams.set("page", String(page));
       url.searchParams.set("per_page", "50");
