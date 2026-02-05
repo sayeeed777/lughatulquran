@@ -39,10 +39,12 @@ export default function ReaderPanel({
   error,
   loadingSurahData,
   isAutoPlaying,
+  isAudioPaused,
   onPlaySurah,
   onStopAutoPlay,
   onAudioEnded,
   onPlay,
+  onTogglePlay,
   onToggleBookmark,
   onOpenNote,
   onCompare,
@@ -99,44 +101,55 @@ export default function ReaderPanel({
       {/* Quick Controls Row */}
       {selectedSurah && (
         <div className="quick-controls-row">
-          <div className="quick-slider">
-            <span>Arabic size</span>
-            <input
-              type="range"
-              min="0.8"
-              max="1.4"
-              step="0.05"
-              value={fontScale.arabic}
-              onChange={(event) =>
-                setFontScale((prev) => ({
-                  ...prev,
-                  arabic: clamp(Number(event.target.value), 0.8, 1.4)
-                }))
-              }
-            />
+          <div className="sliders-row">
+            <div className="quick-slider">
+              <span>Arabic</span>
+              <input
+                type="range"
+                min="0.8"
+                max="1.4"
+                step="0.05"
+                value={fontScale.arabic}
+                onChange={(event) =>
+                  setFontScale((prev) => ({
+                    ...prev,
+                    arabic: clamp(Number(event.target.value), 0.8, 1.4)
+                  }))
+                }
+              />
+            </div>
+            <div className="quick-slider">
+              <span>English</span>
+              <input
+                type="range"
+                min="0.8"
+                max="1.3"
+                step="0.05"
+                value={fontScale.translation}
+                onChange={(event) =>
+                  setFontScale((prev) => ({
+                    ...prev,
+                    translation: clamp(Number(event.target.value), 0.8, 1.3)
+                  }))
+                }
+              />
+            </div>
           </div>
-          <div className="quick-slider">
-            <span>English size</span>
-            <input
-              type="range"
-              min="0.8"
-              max="1.3"
-              step="0.05"
-              value={fontScale.translation}
-              onChange={(event) =>
-                setFontScale((prev) => ({
-                  ...prev,
-                  translation: clamp(Number(event.target.value), 0.8, 1.3)
-                }))
-              }
-            />
-          </div>
-          <button
-            className="action-btn"
-            onClick={() => onPlay(selectedSurah.number, 1)}
-          >
-            ▶ Play Ayah
-          </button>
+          {isAutoPlaying ? (
+            <button
+              className="action-btn stop-btn"
+              onClick={onStopAutoPlay}
+            >
+              ◼ Stop
+            </button>
+          ) : (
+            <button
+              className="action-btn play-btn"
+              onClick={() => onPlaySurah(1)}
+            >
+              ▶ Play Surah
+            </button>
+          )}
         </div>
       )}
 
@@ -270,6 +283,7 @@ export default function ReaderPanel({
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
         isAutoPlaying={isAutoPlaying}
+        isAudioPaused={isAudioPaused}
         onPlaySurah={onPlaySurah}
         onStopAutoPlay={onStopAutoPlay}
         onAudioEnded={onAudioEnded}
@@ -313,12 +327,15 @@ export default function ReaderPanel({
                     isSaved={isSaved}
                     hasNote={hasNote}
                     isFocused={isFocused}
+                    nowPlaying={nowPlaying}
+                    isAudioPaused={isAudioPaused}
                     words={words}
                     showWordByWord={showWordByWord}
                     copiedKey={copiedKey}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
                     onPlay={onPlay}
+                    onTogglePlay={onTogglePlay}
                     onToggleBookmark={onToggleBookmark}
                     onOpenNote={onOpenNote}
                     onCompare={onCompare}

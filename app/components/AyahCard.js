@@ -53,7 +53,7 @@ export default function AyahCard({
         <span className="ayah-number">Ayah {ayah.number}</span>
         <div className="ayah-actions">
           <button
-            className="action-icon-btn"
+            className={`action-icon-btn play-icon${isPlaying ? " playing" : ""}`}
             onClick={(e) => {
               e.stopPropagation();
               if (onTogglePlay) {
@@ -130,9 +130,10 @@ export default function AyahCard({
             aria-label="Compare translations"
             title="Compare translations"
           >
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <rect x="3" y="4" width="7" height="16" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
-              <rect x="14" y="4" width="7" height="16" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2" />
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">
+              <rect x="3" y="6" width="10" height="14" rx="2" />
+              <path d="M13 4h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6" />
+              <path d="M6 10h4M6 14h4" strokeLinecap="round" />
             </svg>
           </button>
         </div>

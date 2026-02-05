@@ -138,6 +138,21 @@ export default function Home() {
     return () => clearTimeout(timer);
   }, [pendingScroll, surahData, selectedSurah]);
 
+  // Auto-scroll to currently playing ayah during auto-play
+  useEffect(() => {
+    if (!isAutoPlaying || !nowPlaying || !selectedSurah) return;
+    if (nowPlaying.surah !== selectedSurah.number) return;
+
+    const timer = setTimeout(() => {
+      const target = document.getElementById(`ayah-${nowPlaying.ayah}`);
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    }, 150);
+
+    return () => clearTimeout(timer);
+  }, [nowPlaying, isAutoPlaying, selectedSurah]);
+
   // Validate Reading Plan Start
   useEffect(() => {
     if (!readingPlan.startSurah) return;
@@ -333,12 +348,22 @@ export default function Home() {
   };
 
   const handleToggleAyah = (surah, ayah) => {
+    // If same ayah is playing, toggle pause and stop auto-play
+    if (nowPlaying && nowPlaying.surah === surah && nowPlaying.ayah === ayah) {
+      if (!isAudioPaused) {
+        // Pausing - stop auto-play mode
+        setIsAudioPaused(true);
+        setIsAutoPlaying(false);
+      } else {
+        // Resuming - just unpause (don't restart auto-play)
+        setIsAudioPaused(false);
+      }
+      return;
+    }
+    // Otherwise, play the new ayah (stops auto-play)
     setIsAutoPlaying(false);
-    setNowPlaying((prev) => {
-      const same = prev && prev.surah === surah && prev.ayah === ayah;
-      setIsAudioPaused(false);
-      return same ? null : { surah, ayah };
-    });
+    setIsAudioPaused(false);
+    setNowPlaying({ surah, ayah });
   };
 
   const toggleBookmark = (surahNumber, ayahNumber) => {
