@@ -185,14 +185,22 @@ export default function StudyModeView({
 
   // Track scroll position for current ayah
   useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
     const handleScroll = () => {
-      const ayahElements = document.querySelectorAll(".study-ayah-card");
+      const ayahElements = container.querySelectorAll(".study-ayah-card");
+      if (!ayahElements.length) {
+        setCurrentAyahIndex(0);
+        return;
+      }
+
+      const target = container.scrollTop + container.clientHeight / 3;
       let closestIndex = 0;
       let closestDistance = Infinity;
 
       ayahElements.forEach((el, index) => {
-        const rect = el.getBoundingClientRect();
-        const distance = Math.abs(rect.top - window.innerHeight / 3);
+        const distance = Math.abs(el.offsetTop - target);
         if (distance < closestDistance) {
           closestDistance = distance;
           closestIndex = index;
@@ -202,9 +210,10 @@ export default function StudyModeView({
       setCurrentAyahIndex(closestIndex + 1);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+    handleScroll();
+    container.addEventListener("scroll", handleScroll, { passive: true });
+    return () => container.removeEventListener("scroll", handleScroll);
+  }, [ayahs.length]);
 
   const formatTime = (seconds) => {
     const mins = Math.floor(seconds / 60);

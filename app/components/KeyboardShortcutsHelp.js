@@ -1,17 +1,17 @@
 "use client";
 
-import { memo, useEffect, useState } from "react";
+import { memo, useEffect } from "react";
 
-function KeyboardShortcutsHelp({ isOpen, onClose }) {
+function KeyboardShortcutsHelp({ isOpen = true, onClose }) {
   useEffect(() => {
+    if (!isOpen || !onClose) return;
+
     const handleEscape = (e) => {
-      if (e.key === "Escape") onClose();
+      if (e.key === "Escape") onClose?.();
     };
 
-    if (isOpen) {
-      window.addEventListener("keydown", handleEscape);
-      return () => window.removeEventListener("keydown", handleEscape);
-    }
+    window.addEventListener("keydown", handleEscape);
+    return () => window.removeEventListener("keydown", handleEscape);
   }, [isOpen, onClose]);
 
   if (!isOpen) return null;

@@ -1,9 +1,9 @@
 :root {
-  --bg-deep: #12181d;
-  --bg-mid: #161e24;
-  --bg-light: #1c262e;
-  --card: rgba(24, 32, 40, 0.8);
-  --card-strong: rgba(28, 36, 44, 0.95);
+  --bg-deep: #0e1418;
+  --bg-mid: #141c22;
+  --bg-light: #1b242c;
+  --card: rgba(12, 16, 20, 0.72);
+  --card-strong: rgba(14, 19, 24, 0.92);
   --text: #f2eee6;
   --muted: #a8b0ba;
   --accent: #d8b36a;
@@ -62,7 +62,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #12181d 0%, #0d1216 100%);
+  background: linear-gradient(180deg, #0f151a 0%, #0b1014 100%);
   min-height: 100vh;
   position: relative;
   overflow-x: hidden;
@@ -103,6 +103,7 @@ body::before {
 .topbar-actions {
   display: flex;
   gap: 12px;
+  align-items: center;
 }
 
 .logo {
@@ -118,8 +119,11 @@ body::before {
   display: grid;
   place-items: center;
   color: var(--accent);
-  background: linear-gradient(135deg, #1a3d35 0%, #0f2a24 100%);
-  border: none;
+  background:
+    radial-gradient(120% 120% at 10% 10%, rgba(255, 255, 255, 0.18), transparent 55%),
+    linear-gradient(135deg, #1a262b 0%, #0b1418 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .logo-mark svg {
@@ -206,10 +210,10 @@ button {
 }
 
 .panel {
-  background: rgba(15, 20, 25, 0.6);
+  background: var(--card);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border: none;
+  border: 1px solid rgba(255, 255, 255, 0.04);
   border-radius: var(--radius-lg);
   padding: 20px;
   overflow: visible;
@@ -376,8 +380,13 @@ button {
 }
 
 .quick-controls-row .action-btn.play-btn {
-  background: var(--accent-2);
-  color: var(--bg-deep);
+  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  color: #f4fffb;
+  border: none;
+}
+
+.quick-controls-row .action-btn.play-btn:hover {
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
 }
 
 .quick-controls-row .action-btn.stop-btn {
@@ -794,6 +803,12 @@ button {
   align-items: center;
 }
 
+.topbar-icon-btns {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
 /* Header Icon Buttons (Search & Settings) */
 .header-icon-btn {
   width: 36px;
@@ -1081,11 +1096,11 @@ button {
 }
 
 .audio-bar .play-surah-btn {
-  background: rgba(255, 255, 255, 0.1);
-  color: var(--text);
+  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  color: #f4fffb;
+  border: none;
   padding: 10px 18px;
   border-radius: var(--radius-sm);
-  border: none;
   font-weight: 500;
   font-size: var(--text-sm);
   white-space: nowrap;
@@ -1095,7 +1110,7 @@ button {
 }
 
 .audio-bar .play-surah-btn:hover {
-  background: rgba(255, 255, 255, 0.16);
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
 }
 
 .audio-bar .stop-btn {
@@ -1475,6 +1490,20 @@ button {
   transition: all 0.2s ease;
 }
 
+/* Calendar icon styling for dark UI */
+input[type="date"] {
+  color-scheme: dark;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1) brightness(0.9) saturate(0.9);
+  opacity: 0.8;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+  opacity: 1;
+}
+
 .field input:focus,
 .field select:focus,
 .note-body textarea:focus {
@@ -1609,6 +1638,10 @@ button {
     position: static;
     transform: none;
     margin-top: 12px;
+  }
+
+  .reader-panel .header-action-btns {
+    display: none;
   }
 
   /* Show mobile elements, hide desktop elements */
@@ -2869,13 +2902,13 @@ textarea:focus-visible {
 }
 
 .control-btn.primary {
-  background: var(--accent-2);
-  color: #000;
+  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  color: #f4fffb;
   border-color: transparent;
 }
 
 .control-btn.primary:hover {
-  background: #5ec9a0;
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
 }
 
 .control-btn.icon-only {
@@ -3288,17 +3321,18 @@ textarea:focus-visible {
 
 @media (max-width: 640px) {
   .topbar {
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
-    align-items: stretch;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .topbar-actions {
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   .logo {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .ayah-card {

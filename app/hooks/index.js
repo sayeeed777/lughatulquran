@@ -71,10 +71,15 @@ export function useKeyboardShortcuts(shortcuts, enabled = true) {
         return;
       }
 
-      for (const [action, keys] of Object.entries(shortcuts)) {
+      for (const [action, config] of Object.entries(shortcuts)) {
+        const keys = Array.isArray(config) ? config : config?.keys;
+        if (!Array.isArray(keys)) continue;
         if (keys.includes(event.key)) {
           event.preventDefault();
-          shortcuts[action].handler?.();
+          const handler = Array.isArray(config) ? null : config?.handler;
+          if (typeof handler === "function") {
+            handler(event);
+          }
           break;
         }
       }

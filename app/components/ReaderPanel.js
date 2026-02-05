@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import AyahCard from "./AyahCard";
 import AudioPlayer from "./AudioPlayer";
 import BismillahBanner from "./BismillahBanner";
@@ -22,6 +22,10 @@ export default function ReaderPanel({
   handleGoToAyah,
   showWordByWord,
   setShowWordByWord,
+  showMobileSettings,
+  setShowMobileSettings,
+  showMobileSearch,
+  setShowMobileSearch,
   wordLoading,
   wordError,
   wordByAyah,
@@ -53,8 +57,29 @@ export default function ReaderPanel({
   clamp
 }) {
   const formatArabic = (text) => text;
-  const [showMobileSettings, setShowMobileSettings] = useState(false);
-  const [showMobileSearch, setShowMobileSearch] = useState(false);
+  const [localShowMobileSettings, setLocalShowMobileSettings] = useState(false);
+  const [localShowMobileSearch, setLocalShowMobileSearch] = useState(false);
+  const isMobileSettingsOpen = showMobileSettings ?? localShowMobileSettings;
+  const isMobileSearchOpen = showMobileSearch ?? localShowMobileSearch;
+  const openMobileSettings = setShowMobileSettings ?? setLocalShowMobileSettings;
+  const openMobileSearch = setShowMobileSearch ?? setLocalShowMobileSearch;
+  const currentAyahNumber = useMemo(() => {
+    if (!selectedSurah || !filteredAyahs?.length) return 0;
+
+    if (focusedAyahKey) {
+      const parts = String(focusedAyahKey).split(":");
+      const ayah = Number(parts[1]);
+      if (Number.isFinite(ayah) && ayah > 0) {
+        return ayah;
+      }
+    }
+
+    if (nowPlaying?.surah === selectedSurah.number && Number.isFinite(nowPlaying?.ayah)) {
+      return nowPlaying.ayah;
+    }
+
+    return 1;
+  }, [filteredAyahs?.length, focusedAyahKey, nowPlaying, selectedSurah]);
 
   return (
     <section className="panel reader-panel">
@@ -72,29 +97,6 @@ export default function ReaderPanel({
               {" " + selectedSurah.revelationType}
             </p>
           )}
-        </div>
-        {/* Search and Settings buttons - all screens */}
-        <div className="header-action-btns">
-          <button 
-            className="header-icon-btn"
-            onClick={() => setShowMobileSearch(true)}
-            aria-label="Search"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8"/>
-              <path d="m21 21-4.35-4.35"/>
-            </svg>
-          </button>
-          <button 
-            className="header-icon-btn"
-            onClick={() => setShowMobileSettings(true)}
-            aria-label="Settings"
-          >
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="12" cy="12" r="3"/>
-              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
-            </svg>
-          </button>
         </div>
       </div>
 
@@ -154,12 +156,12 @@ export default function ReaderPanel({
       )}
 
       {/* Settings Modal */}
-      {showMobileSettings && (
-        <div className="mobile-settings-overlay" onClick={() => setShowMobileSettings(false)}>
+      {isMobileSettingsOpen && (
+        <div className="mobile-settings-overlay" onClick={() => openMobileSettings(false)}>
           <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-settings-header">
               <h3>Settings</h3>
-              <button className="close-btn" onClick={() => setShowMobileSettings(false)}>✕</button>
+              <button className="close-btn" onClick={() => openMobileSettings(false)}>✕</button>
             </div>
             <div className="mobile-settings-body">
               <div className="setting-group">
@@ -203,14 +205,14 @@ export default function ReaderPanel({
                     <input
                       type="range"
                       className="settings-range"
-                      min="0.8"
-                      max="1.3"
+                      min="0.9"
+                      max="1.4"
                       step="0.05"
                       value={fontScale.translation}
                       onChange={(event) =>
                         setFontScale((prev) => ({
                           ...prev,
-                          translation: clamp(Number(event.target.value), 0.8, 1.3)
+                          translation: clamp(Number(event.target.value), 0.9, 1.4)
                         }))
                       }
                     />
@@ -223,12 +225,12 @@ export default function ReaderPanel({
       )}
 
       {/* Mobile Search Modal */}
-      {showMobileSearch && (
-        <div className="mobile-settings-overlay" onClick={() => setShowMobileSearch(false)}>
+      {isMobileSearchOpen && (
+        <div className="mobile-settings-overlay" onClick={() => openMobileSearch(false)}>
           <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-settings-header">
               <h3>Search & Navigate</h3>
-              <button className="close-btn" onClick={() => setShowMobileSearch(false)}>✕</button>
+              <button className="close-btn" onClick={() => openMobileSearch(false)}>✕</button>
             </div>
             <div className="mobile-settings-body">
               <div className="setting-group">
@@ -253,7 +255,7 @@ export default function ReaderPanel({
                     value={goToAyahInput || ""}
                     onChange={(event) => setGoToAyahInput(event.target.value)}
                   />
-                  <button className="action-btn" onClick={() => { handleGoToAyah(); setShowMobileSearch(false); }}>
+                  <button className="action-btn" onClick={() => { handleGoToAyah(); openMobileSearch(false); }}>
                     Go
                   </button>
                 </div>
@@ -306,7 +308,7 @@ export default function ReaderPanel({
 
             {/* Reading progress indicator */}
             <ProgressBar
-              current={filteredAyahs.length > 0 ? 1 : 0}
+              current={currentAyahNumber}
               total={selectedSurah?.numberOfAyahs || 0}
             />
 
