@@ -1126,11 +1126,15 @@ button {
 }
 
 .ayah-card.focused {
-  background: rgba(216, 179, 106, 0.06);
+  background: transparent;
   box-shadow: none;
   padding: 24px;
   margin-left: -24px;
   margin-right: -24px;
+}
+
+.ayah-card.focused .ayah-number {
+  color: var(--accent-2);
 }
 
 .ayah-header {
@@ -2144,11 +2148,11 @@ textarea:focus-visible {
 }
 
 .ayah-card:hover {
-  border-color: rgba(216, 179, 106, 0.3);
+  border-color: rgba(255, 255, 255, 0.06);
 }
 
 .ayah-card.focused {
-  animation: focusPulse 0.5s ease;
+  animation: none;
 }
 
 @keyframes focusPulse {
