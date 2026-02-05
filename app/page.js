@@ -5,6 +5,7 @@ import {
   SurahList,
   ReaderPanel,
   StudyPanel,
+  StudyModeView,
   CompareModal,
   NoteModal,
   ErrorBoundary,
@@ -479,9 +480,57 @@ export default function Home() {
   });
 
   // Render
+  if (readingMode) {
+    return (
+      <ErrorBoundary>
+        <StudyModeView
+          selectedSurah={selectedSurah}
+          surahData={surahData}
+          filteredAyahs={filteredAyahs}
+          selectedTranslation={selectedTranslation}
+          bookmarks={bookmarks}
+          notes={notes}
+          sortedBookmarks={sortedBookmarks}
+          sortedNotes={sortedNotes}
+          readingPlan={readingPlan}
+          planSummary={planSummary}
+          focusedAyahKey={focusedAyahKey}
+          setFocusedAyahKey={setFocusedAyahKey}
+          fontScale={fontScale}
+          setFontScale={setFontScale}
+          nowPlaying={nowPlaying}
+          isAutoPlaying={isAutoPlaying}
+          isAudioPaused={isAudioPaused}
+          audioSrc={nowPlaying ? getAudioUrl(selectedReciter.baseUrl, nowPlaying.surah, nowPlaying.ayah) : null}
+          reciterLabel={selectedReciter.label}
+          onExit={() => setReadingMode(false)}
+          onPlayAyah={handlePlayAyah}
+          onTogglePlay={handleToggleAyah}
+          onStopAutoPlay={handleStopAutoPlay}
+          onPlaySurah={handlePlaySurah}
+          onAudioEnded={handleAudioEnded}
+          onToggleBookmark={toggleBookmark}
+          onOpenNote={openNote}
+          onJumpToAyah={jumpToAyah}
+          surahByNumber={surahByNumber}
+          verseKey={verseKey}
+          clamp={clamp}
+        />
+        <NoteModal
+          noteTarget={noteTarget}
+          noteDraft={noteDraft}
+          setNoteDraft={setNoteDraft}
+          surahByNumber={surahByNumber}
+          onSave={saveNote}
+          onClose={() => { setNoteTarget(null); setNoteDraft(""); }}
+        />
+      </ErrorBoundary>
+    );
+  }
+
   return (
     <ErrorBoundary>
-      <main className={`app${readingMode ? " reading" : ""}`} style={{
+      <main className="app" style={{
         "--arabic-scale": fontScale.arabic,
         "--translation-scale": fontScale.translation
       }}>
@@ -500,25 +549,13 @@ export default function Home() {
             </div>
           </div>
           <div className="topbar-actions">
-            <button className="action-btn" onClick={() => setReadingMode(p => !p)}>
-              {readingMode ? "Exit study" : "Study mode"}
+            <button className="action-btn" onClick={() => setReadingMode(true)}>
+              Study mode
             </button>
           </div>
         </div>
 
-        {/* Floating Exit Button for Study Mode */}
-        <button
-          className="focus-exit-btn"
-          onClick={() => setReadingMode(false)}
-          aria-label="Exit study mode"
-        >
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-            <polyline points="15 18 9 12 15 6"></polyline>
-          </svg>
-        </button>
-
-
-        <section className={`content${readingMode ? " reading" : ""}`}>
+        <section className="content">
 
           <SurahList
             surahs={surahs}

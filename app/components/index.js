@@ -2,6 +2,7 @@ export { default as SurahList } from "./SurahList";
 export { default as AyahCard } from "./AyahCard";
 export { default as AudioPlayer } from "./AudioPlayer";
 export { default as StudyPanel } from "./StudyPanel";
+export { default as StudyModeView } from "./StudyModeView";
 export { default as ReadingPlan } from "./ReadingPlan";
 export { default as BookmarkList } from "./BookmarkList";
 export { default as NoteList } from "./NoteList";

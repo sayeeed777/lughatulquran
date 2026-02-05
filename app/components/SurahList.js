@@ -3,9 +3,25 @@
 import { motion } from "framer-motion";
 import SurahListSkeleton from "./skeletons/SurahListSkeleton";
 
+// Move animation objects outside component to prevent recreation on every render
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05
+    }
+  }
+};
+
+const item = {
+  hidden: { opacity: 0, x: -10 },
+  show: { opacity: 1, x: 0 }
+};
+
 export default function SurahList({
   surahs,
-  filteredSurahs,
+  filteredSurahs = [], // Default to empty array to prevent .map() error
   selectedSurah,
   query,
   setQuery,
@@ -32,21 +48,6 @@ export default function SurahList({
     );
   }
 
-  const container = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.05
-      }
-    }
-  };
-
-  const item = {
-    hidden: { opacity: 0, x: -10 },
-    show: { opacity: 1, x: 0 }
-  };
-
   return (
     <aside className="panel surah-panel">
       <div className="surah-panel-header">
@@ -57,7 +58,7 @@ export default function SurahList({
           className="search"
           placeholder="Search surahs…"
           value={query || ""}
-          onChange={(event) => setQuery(event.target.value)}
+          onChange={(event) => setQuery?.(event.target.value)}
         />
       </div>
       <motion.ul
