@@ -858,6 +858,11 @@ button {
   color: var(--muted);
 }
 
+.mobile-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .mobile-go-ayah {
   display: flex;
   gap: 10px;
@@ -871,10 +876,35 @@ button {
   padding: 12px 20px;
 }
 
+.mobile-go-ayah .action-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 .mobile-toggle-btn {
   width: 100%;
   padding: 12px 16px;
   justify-content: center;
+}
+
+/* Mobile Search Surah Results */
+.mobile-surah-results {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 240px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.mobile-surah-results .surah-item {
+  padding: 10px 12px;
+}
+
+.mobile-surah-results .surah-item:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.06);
 }
 
 /* Mobile Settings Modal */

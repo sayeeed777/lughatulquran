@@ -704,6 +704,10 @@ export default function Home() {
             selectedSurah={selectedSurah}
             surahData={surahData}
             filteredAyahs={filteredAyahs}
+            surahs={surahs}
+            filteredSurahs={filteredSurahs}
+            query={query}
+            setQuery={setQuery}
             selectedTranslation={selectedTranslation}
             setSelectedTranslation={setSelectedTranslation}
             ayahQuery={ayahQuery}
@@ -744,6 +748,7 @@ export default function Home() {
             onOpenNote={openNote}
             onCompare={handleCompare}
             onCopyLink={copyAyahLink}
+            onSelectSurah={handleSelectSurah}
             verseKey={verseKey}
             clamp={clamp}
           />

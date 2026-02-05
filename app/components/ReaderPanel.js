@@ -13,6 +13,10 @@ export default function ReaderPanel({
   selectedSurah,
   surahData,
   filteredAyahs,
+  surahs,
+  filteredSurahs,
+  query,
+  setQuery,
   selectedTranslation,
   setSelectedTranslation,
   ayahQuery,
@@ -53,6 +57,7 @@ export default function ReaderPanel({
   onOpenNote,
   onCompare,
   onCopyLink,
+  onSelectSurah,
   verseKey,
   clamp
 }) {
@@ -80,6 +85,12 @@ export default function ReaderPanel({
 
     return 1;
   }, [filteredAyahs?.length, focusedAyahKey, nowPlaying, selectedSurah]);
+  const mobileSurahResults = useMemo(() => {
+    const list = query?.trim() ? filteredSurahs : surahs;
+    if (!Array.isArray(list)) return [];
+    return list.slice(0, 12);
+  }, [filteredSurahs, query, surahs]);
+  const isAyahSearchDisabled = !selectedSurah;
 
   return (
     <section className="panel reader-panel">
@@ -229,18 +240,56 @@ export default function ReaderPanel({
         <div className="mobile-settings-overlay" onClick={() => openMobileSearch(false)}>
           <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-settings-header">
-              <h3>Search & Navigate</h3>
+              <h3>Search</h3>
               <button className="close-btn" onClick={() => openMobileSearch(false)}>✕</button>
             </div>
             <div className="mobile-settings-body">
+              <div className="setting-group">
+                <label className="setting-label">Search Surahs</label>
+                <input
+                  type="text"
+                  className="mobile-input"
+                  placeholder="Type surah name or number"
+                  value={query || ""}
+                  onChange={(event) => setQuery?.(event.target.value)}
+                />
+                <div className="mobile-surah-results">
+                  {mobileSurahResults.length ? (
+                    mobileSurahResults.map((surah) => (
+                      <button
+                        key={surah.number}
+                        className={`surah-item mobile-surah-item${selectedSurah?.number === surah.number ? " active" : ""}`}
+                        onClick={() => {
+                          onSelectSurah?.(surah);
+                          openMobileSearch(false);
+                        }}
+                      >
+                        <span className="surah-number">{surah.number}</span>
+                        <span className="surah-names">
+                          <span className="surah-english">{surah.englishName}</span>
+                          <span className="surah-translation">
+                            {surah.englishNameTranslation}
+                          </span>
+                        </span>
+                        <span className="surah-arabic" lang="ar" dir="rtl">
+                          {surah.name}
+                        </span>
+                      </button>
+                    ))
+                  ) : (
+                    <p className="meta">No surahs found.</p>
+                  )}
+                </div>
+              </div>
               <div className="setting-group">
                 <label className="setting-label">Search Ayahs</label>
                 <input
                   type="text"
                   className="mobile-input"
-                  placeholder="Ayah number or word in translation"
+                  placeholder={isAyahSearchDisabled ? "Select a surah first" : "Ayah number or word in translation"}
                   value={ayahQuery || ""}
                   onChange={(event) => setAyahQuery(event.target.value)}
+                  disabled={isAyahSearchDisabled}
                 />
               </div>
               <div className="setting-group">
@@ -251,11 +300,16 @@ export default function ReaderPanel({
                     className="mobile-input"
                     min={1}
                     max={selectedSurah?.numberOfAyahs || 1}
-                    placeholder="Ayah number"
+                    placeholder={isAyahSearchDisabled ? "Select a surah first" : "Ayah number"}
                     value={goToAyahInput || ""}
                     onChange={(event) => setGoToAyahInput(event.target.value)}
+                    disabled={isAyahSearchDisabled}
                   />
-                  <button className="action-btn" onClick={() => { handleGoToAyah(); openMobileSearch(false); }}>
+                  <button
+                    className="action-btn"
+                    onClick={() => { handleGoToAyah(); openMobileSearch(false); }}
+                    disabled={isAyahSearchDisabled}
+                  >
                     Go
                   </button>
                 </div>
