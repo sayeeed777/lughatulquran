@@ -5059,6 +5059,32 @@ textarea:focus-visible {
     /* Reduced from 24px */
   }
 
+  /* Surah List Mobile Optimization - Apple Standard Row Size */
+  .surah-item {
+    padding: 16px 20px !important;
+    /* Larger comfortable tap area */
+    min-height: 64px;
+    /* Apple standard row height */
+    gap: 16px;
+  }
+
+  .surah-name-en {
+    font-size: 1rem !important;
+    /* 16px standard body text */
+    font-weight: 600;
+  }
+
+  .surah-name-ar {
+    font-size: 1.2rem !important;
+    /* Larger Arabic script */
+  }
+
+  .surah-number {
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+  }
+
   /* Adjust vertical rhythm within card */
   .ayah-header {
     margin-bottom: 8px;
