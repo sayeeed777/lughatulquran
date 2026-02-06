@@ -5087,28 +5087,29 @@ textarea:focus-visible {
 
   /* Surah List Mobile Optimization - Apple Standard Row Size */
   .surah-item {
-    padding: 16px 20px !important;
-    /* Larger comfortable tap area */
+    padding: 16px 18px !important;
     min-height: 64px;
-    /* Apple standard row height */
-    gap: 16px;
-  }
-
-  .surah-name-en {
-    font-size: 1rem !important;
-    /* 16px standard body text */
-    font-weight: 600;
-  }
-
-  .surah-name-ar {
-    font-size: 1.2rem !important;
-    /* Larger Arabic script */
+    gap: 14px;
+    grid-template-columns: 34px 1fr auto;
   }
 
   .surah-number {
     width: 32px;
     height: 32px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
+  }
+
+  .surah-english {
+    font-size: 0.98rem !important;
+    font-weight: 600;
+  }
+
+  .surah-translation {
+    font-size: 0.78rem !important;
+  }
+
+  .surah-arabic {
+    font-size: 1.15rem !important;
   }
 
   /* Adjust vertical rhythm within card */
