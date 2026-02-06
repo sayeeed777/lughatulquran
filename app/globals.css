@@ -112,6 +112,12 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #0f151a;
+  /* Fixes white glitch on overscroll */
+  -webkit-tap-highlight-color: transparent;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, sans-serif;
@@ -1361,7 +1367,7 @@ button {
 
 .ayah-arabic {
   font-family: var(--font-arabic), serif;
-  font-size: calc(clamp(1.8rem, 2.4vw, 2.4rem) * var(--arabic-scale));
+  font-size: calc(clamp(1.8rem, 1.5vw, 2rem) * var(--arabic-scale));
   line-height: 2.1;
   text-align: right;
   letter-spacing: 0;

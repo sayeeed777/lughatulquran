@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useRef, useEffect } from "react";
 import AyahCard from "./AyahCard";
 import AudioPlayer from "./AudioPlayer";
 import BismillahBanner from "./BismillahBanner";
@@ -66,6 +66,41 @@ export default function ReaderPanel({
   clamp
 }) {
   const formatArabic = (text) => text;
+
+  // -- Deferred Rendering State --
+  const [visibleCount, setVisibleCount] = useState(15);
+
+  // Reset visible count when surah changes or filter updates
+  useEffect(() => {
+    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+
+    // 1. Immediate Render: Small batch for speed
+    let targetCount = isMobile ? 15 : filteredAyahs.length;
+
+    // Deep link support: Ensure focused ayah is visible immediately
+    if (focusedAyahKey) {
+      const parts = focusedAyahKey.split(':');
+      if (parts.length === 2) {
+        const ayahNum = parseInt(parts[1], 10);
+        if (!isNaN(ayahNum)) {
+          targetCount = Math.max(targetCount, ayahNum + 5);
+        }
+      }
+    }
+
+    setVisibleCount(targetCount);
+
+    // 2. Deferred Full Render: Load the rest after initial paint
+    // This allows the navigation animation to stay smooth, then we fill the list
+    if (targetCount < filteredAyahs.length) {
+      const timer = setTimeout(() => {
+        setVisibleCount(filteredAyahs.length);
+      }, 500); // 500ms delay to allow initial paint/transition to finish
+
+      return () => clearTimeout(timer);
+    }
+  }, [selectedSurah?.number, filteredAyahs.length, focusedAyahKey]);
+
   const [localShowMobileSettings, setLocalShowMobileSettings] = useState(false);
   const [localShowMobileSearch, setLocalShowMobileSearch] = useState(false);
   const isMobileSettingsOpen = showMobileSettings ?? localShowMobileSettings;
@@ -317,7 +352,7 @@ export default function ReaderPanel({
             />
 
             <ol className="ayah-list">
-              {filteredAyahs.map((ayah, index) => {
+              {filteredAyahs.slice(0, visibleCount).map((ayah, index) => {
                 const key = verseKey(selectedSurah.number, ayah.number);
                 const isSaved = bookmarks.includes(key);
                 const hasNote = notes[key];
@@ -351,6 +386,7 @@ export default function ReaderPanel({
                   />
                 );
               })}
+
             </ol>
             <BackToTop />
           </>
