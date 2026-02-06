@@ -222,23 +222,27 @@ body::before {
 
 .logo-text {
   display: flex;
-  flex-direction: column;
-  gap: 1px;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 6px;
 }
 
 .logo-title {
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-size: 1.15rem;
+  font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--text);
+  line-height: 1;
 }
 
 .logo-sub {
-  font-size: var(--text-xs);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  font-size: 1.15rem;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  /* Was uppercase */
   color: var(--accent-2);
-  font-weight: 500;
+  font-weight: 400;
+  line-height: 1;
 }
 
 h1,
@@ -380,9 +384,11 @@ button {
 }
 
 .surah-panel-header h2 {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  /* Increased from 1rem to 24px (Title 2) */
   color: var(--text);
-  font-weight: 600;
+  font-weight: 700;
+  letter-spacing: -0.01em;
 }
 
 .surah-search-wrapper {
@@ -912,12 +918,13 @@ button {
 
 /* Header Icon Buttons (Search & Settings) */
 .header-icon-btn {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   padding: 0;
-  border-radius: 50%;
+  border-radius: 12px;
+  /* Smooth corners */
   border: none;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.06);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -5496,5 +5503,13 @@ textarea:focus-visible {
     background: linear-gradient(165deg, rgba(28, 36, 44, 0.95) 0%, rgba(18, 24, 30, 0.98) 100%) !important;
     border: 1px solid rgba(255, 255, 255, 0.08) !important;
     border-bottom: none !important;
+  }
+
+  /* Surah Header Hierarchy Fix (Re-applied) */
+  .surah-panel-header h2 {
+    font-size: 1.375rem !important;
+    /* 22px (Title 2) */
+    font-weight: 700;
+    letter-spacing: 0.01em;
   }
 }
