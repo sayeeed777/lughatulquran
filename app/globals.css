@@ -227,6 +227,16 @@ h2 {
   font-size: 1.1rem;
 }
 
+.surah-title-arabic {
+  font-family: var(--font-arabic);
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: inline-block;
+  margin-left: 6px;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
 h3 {
   font-size: 0.95rem;
 }
@@ -4138,11 +4148,16 @@ textarea:focus-visible {
 /* Modal Container */
 .settings-modal {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: min(480px, 92vw);
-  max-height: 85vh;
+  top: 45%;
+  /* Shifted up from 50% per user request */
+  right: 24px;
+  left: auto;
+  transform: translateY(-50%);
+  pointer-events: auto;
+  /* Ensure clicks work */
+  /* Only vertical center */
+  width: min(420px, 90vw);
+  max-height: 80vh;
   background: linear-gradient(165deg,
       rgba(28, 36, 44, 0.95) 0%,
       rgba(18, 24, 30, 0.98) 100%);
@@ -4156,6 +4171,8 @@ textarea:focus-visible {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  pointer-events: auto;
+  /* Re-enable clicks on the modal */
 }
 
 /* Header */
@@ -4268,6 +4285,8 @@ textarea:focus-visible {
 .settings-content {
   flex: 1;
   overflow-y: auto;
+  min-height: 0;
+  /* Critical for flexbox scrolling */
   padding: 20px 24px;
 }
 
@@ -5361,5 +5380,31 @@ textarea:focus-visible {
 @media (prefers-color-scheme: dark) {
   .app-container {
     background-color: #000;
+  }
+}
+
+/* Restore Settings Modal for Mobile */
+@media (max-width: 768px) {
+  .settings-backdrop {
+    background: rgba(0, 0, 0, 0.5) !important;
+    /* Restore dimmed background */
+    backdrop-filter: blur(4px) !important;
+    pointer-events: auto !important;
+    /* Restore blocking clicks */
+  }
+
+  .settings-modal {
+    position: fixed !important;
+    top: auto !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    width: 100% !important;
+    max-height: 85vh !important;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0 !important;
+    background: linear-gradient(165deg, rgba(28, 36, 44, 0.95) 0%, rgba(18, 24, 30, 0.98) 100%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-bottom: none !important;
   }
 }

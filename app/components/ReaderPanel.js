@@ -136,9 +136,18 @@ export default function ReaderPanel({
       <div className="panel-header">
         <div>
           <h2>
-            {selectedSurah
-              ? `${selectedSurah.englishName} (${selectedSurah.name})`
-              : "Choose a Surah"}
+            {selectedSurah ? (
+              <>
+                <span className="surah-title-english">
+                  {selectedSurah.englishName}
+                </span>
+                <span className="surah-title-arabic" lang="ar" dir="rtl">
+                  ({selectedSurah.name})
+                </span>
+              </>
+            ) : (
+              "Choose a Surah"
+            )}
           </h2>
           {selectedSurah && (
             <p className="meta">

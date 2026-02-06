@@ -246,13 +246,13 @@ function SettingsModal({
     const modalVariants = {
         hidden: isMobile
             ? { opacity: 0, y: "100%" }
-            : { opacity: 0, scale: 0.95, y: 20 },
+            : { opacity: 0, x: 20, y: 0, scale: 1 },
         visible: isMobile
             ? { opacity: 1, y: 0 }
-            : { opacity: 1, scale: 1, y: 0 },
+            : { opacity: 1, x: 0, y: 0, scale: 1 },
         exit: isMobile
             ? { opacity: 0, y: "100%" }
-            : { opacity: 0, scale: 0.95, y: 20 }
+            : { opacity: 0, x: 20, y: 0, scale: 1 }
     };
 
     // Swipe gesture handling for tabs
