@@ -52,6 +52,11 @@ export const DEFAULT_RECITER = AUDIO_RECITERS[0];
 // Arabic Fonts
 export const ARABIC_FONTS = [
   {
+    id: "scheherazade-new",
+    label: "Scheherazade New",
+    css: '"Scheherazade New","Amiri","Traditional Arabic",serif'
+  },
+  {
     id: "kfgqpc-hafs",
     label: "KFGQPC Uthmanic Hafs",
     css: '"KFGQPC Hafs","UthmanicHafs","Traditional Arabic","Scheherazade New",serif'

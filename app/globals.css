@@ -12,8 +12,8 @@
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.4);
   --arabic-scale: 1;
   --translation-scale: 1;
-  --font-arabic: "KFGQPC Hafs", "UthmanicHafs", "Traditional Arabic",
-    "Scheherazade New", serif;
+  --font-arabic: "Scheherazade New", "Amiri", "KFGQPC Hafs", "UthmanicHafs",
+    "Noto Naskh Arabic", "Traditional Arabic", serif;
 
   /* Apple-style consistent radius system */
   --radius-xs: 6px;
@@ -125,6 +125,14 @@
   src:
     url("/fonts/UthmanNaskh.woff2") format("woff2"),
     url("https://cdn.jsdelivr.net/gh/quranwbw/qpc-fonts@master/various-woff2/UthmanTN1%20Ver10.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Scheherazade New";
+  src: url("https://cdn.jsdelivr.net/fontsource/fonts/scheherazade-new@latest/arabic-400-normal.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -820,6 +828,8 @@ button {
   font-family: var(--font-arabic), serif;
   font-size: 0.95rem;
   color: var(--accent-2);
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
 }
 
 .reader-panel {
@@ -1406,6 +1416,8 @@ button {
   letter-spacing: 0;
   word-spacing: 0.12em;
   font-variant-ligatures: contextual;
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
   margin: 12px 0 8px;
 }
 
@@ -1438,6 +1450,8 @@ button {
   font-family: var(--font-arabic), serif;
   font-size: 1rem;
   color: var(--text);
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
 }
 
 .word-en {
