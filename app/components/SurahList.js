@@ -28,14 +28,17 @@ export default function SurahList({
   onSelectSurah,
   loading,
   onOpenSearch,
-  onOpenSettings
+  onOpenSettings,
+  onToggleTheme,
+  theme
 }) {
+  const isLightTheme = theme === "light";
   if (loading) {
     return (
       <aside className="panel surah-panel">
         <div className="surah-panel-header">
           <h2>Surahs</h2>
-          {(onOpenSearch || onOpenSettings) && (
+          {(onOpenSearch || onOpenSettings || onToggleTheme) && (
             <div className="topbar-icon-btns mobile-only">
               {onOpenSearch && (
                 <button
@@ -47,6 +50,31 @@ export default function SurahList({
                     <circle cx="11" cy="11" r="8" />
                     <path d="m21 21-4.35-4.35" />
                   </svg>
+                </button>
+              )}
+              {onToggleTheme && (
+                <button
+                  className="header-icon-btn"
+                  onClick={onToggleTheme}
+                  aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
+                >
+                  {isLightTheme ? (
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" />
+                    </svg>
+                  ) : (
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="4" />
+                      <path d="M12 2v2" />
+                      <path d="M12 20v2" />
+                      <path d="m4.93 4.93 1.41 1.41" />
+                      <path d="m17.66 17.66 1.41 1.41" />
+                      <path d="M2 12h2" />
+                      <path d="M20 12h2" />
+                      <path d="m4.93 19.07 1.41-1.41" />
+                      <path d="m17.66 6.34 1.41-1.41" />
+                    </svg>
+                  )}
                 </button>
               )}
               {onOpenSettings && (
@@ -82,7 +110,7 @@ export default function SurahList({
     <aside className="panel surah-panel">
       <div className="surah-panel-header">
         <h2>Surahs</h2>
-        {(onOpenSearch || onOpenSettings) && (
+        {(onOpenSearch || onOpenSettings || onToggleTheme) && (
           <div className="topbar-icon-btns mobile-only">
             {onOpenSearch && (
               <button
@@ -94,6 +122,31 @@ export default function SurahList({
                   <circle cx="11" cy="11" r="8" />
                   <path d="m21 21-4.35-4.35" />
                 </svg>
+              </button>
+            )}
+            {onToggleTheme && (
+              <button
+                className="header-icon-btn"
+                onClick={onToggleTheme}
+                aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
+              >
+                {isLightTheme ? (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" />
+                  </svg>
+                ) : (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m4.93 19.07 1.41-1.41" />
+                    <path d="m17.66 6.34 1.41-1.41" />
+                  </svg>
+                )}
               </button>
             )}
             {onOpenSettings && (

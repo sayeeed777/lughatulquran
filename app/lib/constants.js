@@ -117,7 +117,8 @@ export const STORAGE_KEYS = {
   fontScale: "quran_font_scale",
   lastRead: "quran_last_read",
   reciter: "quran_reciter",
-  arabicFont: "quran_arabic_font"
+  arabicFont: "quran_arabic_font",
+  theme: "quran_theme"
 };
 
 // Keyboard Shortcuts

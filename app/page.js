@@ -87,6 +87,33 @@ export default function Home() {
   });
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
+  const [theme, setTheme] = useState("dark");
+  const isLightTheme = theme === "light";
+
+  const toggleTheme = useCallback(() => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    try {
+      const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
+      if (storedTheme) {
+        setTheme(JSON.parse(storedTheme));
+      } else {
+        const prefersLight = window.matchMedia?.("(prefers-color-scheme: light)")?.matches;
+        setTheme(prefersLight ? "light" : "dark");
+      }
+    } catch {
+      setTheme("dark");
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    document.documentElement.dataset.theme = theme;
+    localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify(theme));
+  }, [theme]);
 
   // Advanced Data Hooks
   const { wordByAyah, loading: wordLoading, error: wordError } = useWordByWord(
@@ -692,6 +719,29 @@ export default function Home() {
               </button>
               <button
                 className="header-icon-btn"
+                onClick={toggleTheme}
+                aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
+              >
+                {isLightTheme ? (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" />
+                  </svg>
+                ) : (
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="4" />
+                    <path d="M12 2v2" />
+                    <path d="M12 20v2" />
+                    <path d="m4.93 4.93 1.41 1.41" />
+                    <path d="m17.66 17.66 1.41 1.41" />
+                    <path d="M2 12h2" />
+                    <path d="M20 12h2" />
+                    <path d="m4.93 19.07 1.41-1.41" />
+                    <path d="m17.66 6.34 1.41-1.41" />
+                  </svg>
+                )}
+              </button>
+              <button
+                className="header-icon-btn"
                 onClick={() => setShowMobileSettings(true)}
                 aria-label="Settings"
               >
@@ -719,6 +769,8 @@ export default function Home() {
             loading={loadingSurahs}
             onOpenSearch={() => setShowMobileSearch(true)}
             onOpenSettings={() => setShowMobileSettings(true)}
+            onToggleTheme={toggleTheme}
+            theme={theme}
           />
 
           <ReaderPanel
