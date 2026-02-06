@@ -54,7 +54,7 @@ export default function Home() {
 
   // UI State
   const [query, setQuery] = useState("");
-  const [selectedTranslation, setSelectedTranslation] = useState("en.sahih");
+  const [selectedTranslations, setSelectedTranslations] = useState(["en.arberry"]); // Array for multi-translation
   const [selectedAyah, setSelectedAyah] = useState(null);
   const [focusedAyahKey, setFocusedAyahKey] = useState(null);
   const [ayahQuery, setAyahQuery] = useState("");
@@ -592,7 +592,10 @@ export default function Home() {
           selectedSurah={selectedSurah}
           surahData={surahData}
           filteredAyahs={filteredAyahs}
-          selectedTranslation={selectedTranslation}
+          reciters={AUDIO_RECITERS}
+          reciterId={reciterId}
+          setReciterId={setReciterId}
+          selectedTranslations={selectedTranslations}
           bookmarks={bookmarks}
           notes={notes}
           sortedBookmarks={sortedBookmarks}
@@ -708,8 +711,11 @@ export default function Home() {
             filteredSurahs={filteredSurahs}
             query={query}
             setQuery={setQuery}
-            selectedTranslation={selectedTranslation}
-            setSelectedTranslation={setSelectedTranslation}
+            reciters={AUDIO_RECITERS}
+            reciterId={reciterId}
+            setReciterId={setReciterId}
+            selectedTranslations={selectedTranslations}
+            setSelectedTranslations={setSelectedTranslations}
             ayahQuery={ayahQuery}
             setAyahQuery={setAyahQuery}
             goToAyahInput={goToAyahInput}

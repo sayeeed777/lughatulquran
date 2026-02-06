@@ -16,4 +16,5 @@ export { default as LastReadCard } from "./LastReadCard";
 export { default as Tooltip } from "./Tooltip";
 export { default as KeyboardShortcutsHelp } from "./KeyboardShortcutsHelp";
 export { default as BackToTop } from "./BackToTop";
+export { default as SettingsModal } from "./SettingsModal";
 export * from "./skeletons";

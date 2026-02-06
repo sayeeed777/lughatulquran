@@ -1,11 +1,12 @@
 "use client";
 
+import { memo } from "react";
 import { motion } from "framer-motion";
 
-export default function AyahCard({
+const AyahCard = memo(function AyahCard({
   ayah,
   surahNumber,
-  selectedTranslation,
+  selectedTranslations = ["en.arberry"],
   isSaved,
   hasNote,
   isFocused,
@@ -25,13 +26,22 @@ export default function AyahCard({
   formatArabic,
   index
 }) {
-  const translation = ayah.translations?.[selectedTranslation];
+  // Support both array and single string for backwards compatibility
+  const translationIds = Array.isArray(selectedTranslations) ? selectedTranslations : [selectedTranslations];
   const key = verseKey;
   const isNowPlaying =
     nowPlaying &&
     nowPlaying.surah === surahNumber &&
     nowPlaying.ayah === ayah.number;
   const isPlaying = isNowPlaying && !isAudioPaused;
+
+  // Translation label map
+  const translationLabels = {
+    "en.sahih": "Sahih International",
+    "en.arberry": "A.J. Arberry",
+    "en.pickthall": "Pickthall",
+    "en.yusufali": "Yusuf Ali"
+  };
 
   return (
     <motion.li
@@ -141,9 +151,25 @@ export default function AyahCard({
       <p className="ayah-arabic" lang="ar" dir="rtl">
         {formatArabic(ayah.arabic)}
       </p>
-      <p className="ayah-translation">
-        {translation?.text || "Translation unavailable."}
-      </p>
+
+      {/* Multiple translations display */}
+      <div className="ayah-translations">
+        {translationIds.map((translationId, idx) => {
+          const translation = ayah.translations?.[translationId];
+          return (
+            <div key={translationId} className="translation-item">
+              {translationIds.length > 1 && (
+                <span className="translation-label">
+                  {translationLabels[translationId] || translationId}
+                </span>
+              )}
+              <p className={`ayah-translation${translationIds.length > 1 ? " multi" : ""}`}>
+                {translation?.text || "Translation unavailable."}
+              </p>
+            </div>
+          );
+        })}
+      </div>
       {showWordByWord && words.length > 0 && (
         <motion.div
           className="word-row"
@@ -164,4 +190,6 @@ export default function AyahCard({
       )}
     </motion.li>
   );
-}
+});
+
+export default AyahCard;

@@ -106,7 +106,10 @@ export default function StudyModeView({
   selectedSurah,
   surahData,
   filteredAyahs,
-  selectedTranslation = "en.sahih",
+  reciters,
+  reciterId,
+  setReciterId,
+  selectedTranslations = ["en.arberry"],
   bookmarks,
   notes,
   sortedBookmarks,
@@ -141,6 +144,10 @@ export default function StudyModeView({
   verseKey,
   clamp,
 }) {
+  // Support both array and single string for backwards compatibility
+  const translationIds = Array.isArray(selectedTranslations) ? selectedTranslations : [selectedTranslations];
+  const primaryTranslation = translationIds[0] || "en.arberry";
+
   const [showControls, setShowControls] = useState(true);
   const [showQuickPanel, setShowQuickPanel] = useState(false);
   const [quickPanelTab, setQuickPanelTab] = useState("study");
@@ -174,53 +181,65 @@ export default function StudyModeView({
   const goalProgress = Math.min(currentAyahIndex, goalTarget);
 
   const railItems = [
-    { id: "study", label: "Study", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-        <path d="M4 4h14a2 2 0 0 1 2 2v13" />
-        <path d="M4 4v13a2 2 0 0 0 2 2h14" />
-      </svg>
-    ) },
-    { id: "memorize", label: "Memorize", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M17 1l4 4-4 4" />
-        <path d="M3 11V9a4 4 0 0 1 4-4h14" />
-        <path d="M7 23l-4-4 4-4" />
-        <path d="M21 13v2a4 4 0 0 1-4 4H3" />
-      </svg>
-    ) },
-    { id: "settings", label: "Settings", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="M4 21v-7" />
-        <path d="M4 10V3" />
-        <path d="M12 21v-9" />
-        <path d="M12 8V3" />
-        <path d="M20 21v-5" />
-        <path d="M20 12V3" />
-        <path d="M2 14h4" />
-        <path d="M10 8h4" />
-        <path d="M18 16h4" />
-      </svg>
-    ) },
-    { id: "tools", label: "Tools", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
-        <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
-        <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
-      </svg>
-    ) },
-    { id: "search", label: "Search", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <circle cx="11" cy="11" r="8" />
-        <path d="m21 21-4.35-4.35" />
-      </svg>
-    ) },
-    { id: "notes", label: "Notes", icon: (
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-        <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-      </svg>
-    ) }
+    {
+      id: "study", label: "Study", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+          <path d="M4 4h14a2 2 0 0 1 2 2v13" />
+          <path d="M4 4v13a2 2 0 0 0 2 2h14" />
+        </svg>
+      )
+    },
+    {
+      id: "memorize", label: "Memorize", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M17 1l4 4-4 4" />
+          <path d="M3 11V9a4 4 0 0 1 4-4h14" />
+          <path d="M7 23l-4-4 4-4" />
+          <path d="M21 13v2a4 4 0 0 1-4 4H3" />
+        </svg>
+      )
+    },
+    {
+      id: "settings", label: "Settings", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 21v-7" />
+          <path d="M4 10V3" />
+          <path d="M12 21v-9" />
+          <path d="M12 8V3" />
+          <path d="M20 21v-5" />
+          <path d="M20 12V3" />
+          <path d="M2 14h4" />
+          <path d="M10 8h4" />
+          <path d="M18 16h4" />
+        </svg>
+      )
+    },
+    {
+      id: "tools", label: "Tools", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
+          <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
+          <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
+        </svg>
+      )
+    },
+    {
+      id: "search", label: "Search", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" />
+        </svg>
+      )
+    },
+    {
+      id: "notes", label: "Notes", icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+          <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+        </svg>
+      )
+    }
   ];
 
   // Reading time tracker
@@ -295,7 +314,7 @@ export default function StudyModeView({
     const audio = wordAudioRef.current;
     if (!audio || !wordAudioUrl) return;
     audio.src = wordAudioUrl;
-    audio.play().catch(() => {});
+    audio.play().catch(() => { });
   }, [wordAudioUrl]);
 
   useEffect(() => {
@@ -460,14 +479,14 @@ export default function StudyModeView({
                     )}
                   </p>
                   {!isMushafView && showTranslation &&
-                    (ayah.translations?.[selectedTranslation]?.text || ayah.translation) && (
-                    <p
-                      className="study-ayah-translation"
-                      style={{ fontSize: `calc(1rem * ${fontScale?.translation || 1})` }}
-                    >
-                      {ayah.translations?.[selectedTranslation]?.text || ayah.translation}
-                    </p>
-                  )}
+                    (ayah.translations?.[primaryTranslation]?.text || ayah.translation) && (
+                      <p
+                        className="study-ayah-translation"
+                        style={{ fontSize: `calc(1rem * ${fontScale?.translation || 1})` }}
+                      >
+                        {ayah.translations?.[primaryTranslation]?.text || ayah.translation}
+                      </p>
+                    )}
                   {showWordByWord && (
                     <div className="study-word-row">
                       {wordLoading && words.length === 0 && (
@@ -675,98 +694,163 @@ export default function StudyModeView({
         )}
 
         {quickPanelTab === "settings" && (
-          <div className="quick-panel-section">
-            <div className="study-card focus-card">
-              <h4>Session</h4>
-              <div className="tool-grid">
-                <label className="tool-toggle">
-                  <input
-                    type="checkbox"
-                    checked={showTranslation}
-                    onChange={(event) => setShowTranslation(event.target.checked)}
-                  />
-                  <span>Show Translation</span>
+          <div className="quick-panel-section study-settings-premium">
+            {/* Display Options */}
+            <div className="study-settings-group">
+              <h4 className="study-settings-title">Display</h4>
+              <div className="study-toggle-list">
+                <label className="study-premium-toggle">
+                  <div className="toggle-info">
+                    <span className="toggle-icon">📖</span>
+                    <span className="toggle-label">Show Translation</span>
+                  </div>
+                  <div className={`toggle-switch ${showTranslation ? "active" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={showTranslation}
+                      onChange={(e) => setShowTranslation(e.target.checked)}
+                    />
+                    <span className="toggle-slider" />
+                  </div>
                 </label>
-                <label className="tool-toggle">
-                  <input
-                    type="checkbox"
-                    checked={dimNonFocused}
-                    onChange={(event) => setDimNonFocused(event.target.checked)}
-                  />
-                  <span>Dim Other Ayahs</span>
+                <label className="study-premium-toggle">
+                  <div className="toggle-info">
+                    <span className="toggle-icon">🌙</span>
+                    <span className="toggle-label">Dim Other Ayahs</span>
+                  </div>
+                  <div className={`toggle-switch ${dimNonFocused ? "active" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={dimNonFocused}
+                      onChange={(e) => setDimNonFocused(e.target.checked)}
+                    />
+                    <span className="toggle-slider" />
+                  </div>
                 </label>
-                <label className="tool-toggle">
-                  <input
-                    type="checkbox"
-                    checked={autoScrollPlaying}
-                    onChange={(event) => setAutoScrollPlaying(event.target.checked)}
-                  />
-                  <span>Auto-scroll Playing</span>
+                <label className="study-premium-toggle">
+                  <div className="toggle-info">
+                    <span className="toggle-icon">⬇️</span>
+                    <span className="toggle-label">Auto-scroll on Play</span>
+                  </div>
+                  <div className={`toggle-switch ${autoScrollPlaying ? "active" : ""}`}>
+                    <input
+                      type="checkbox"
+                      checked={autoScrollPlaying}
+                      onChange={(e) => setAutoScrollPlaying(e.target.checked)}
+                    />
+                    <span className="toggle-slider" />
+                  </div>
                 </label>
-              </div>
-              <div className="study-slider">
-                <div className="study-slider-header">
-                  <span>Playback Speed</span>
-                  <span className="study-slider-value">{playbackRate.toFixed(2)}x</span>
-                </div>
-                <input
-                  type="range"
-                  min="0.75"
-                  max="1.25"
-                  step="0.05"
-                  value={playbackRate}
-                  onChange={(event) => setPlaybackRate(Number(event.target.value))}
-                />
               </div>
             </div>
 
-            <div className="study-card textsize-card">
-              <h4>Text Size</h4>
-              <div className="textsize-row">
-                <span>Arabic</span>
-                <div className="textsize-actions">
-                  <button
-                    className="control-btn"
-                    onClick={() => setFontScale((prev) => ({
-                      ...prev,
-                      arabic: clamp(prev.arabic - 0.1, 0.6, 2)
-                    }))}
-                  >
-                    A-
-                  </button>
-                  <button
-                    className="control-btn"
-                    onClick={() => setFontScale((prev) => ({
-                      ...prev,
-                      arabic: clamp(prev.arabic + 0.1, 0.6, 2)
-                    }))}
-                  >
-                    A+
-                  </button>
+            {/* Text Size */}
+            <div className="study-settings-group">
+              <h4 className="study-settings-title">Text Size</h4>
+              <div className="study-premium-sliders">
+                <div className="study-premium-slider">
+                  <div className="slider-row">
+                    <span className="slider-icon-box">ع</span>
+                    <span className="slider-name">Arabic</span>
+                    <span className="slider-val">{Math.round((fontScale?.arabic || 1) * 100)}%</span>
+                  </div>
+                  <div className="slider-track-wrap">
+                    <div
+                      className="slider-track-fill"
+                      style={{ width: `${((fontScale?.arabic || 1) - 0.6) / 1.4 * 100}%` }}
+                    />
+                    <input
+                      type="range"
+                      min="0.6"
+                      max="2"
+                      step="0.05"
+                      value={fontScale?.arabic || 1}
+                      onChange={(e) => setFontScale((prev) => ({
+                        ...prev,
+                        arabic: clamp(Number(e.target.value), 0.6, 2)
+                      }))}
+                    />
+                  </div>
+                </div>
+                <div className="study-premium-slider">
+                  <div className="slider-row">
+                    <span className="slider-icon-box">A</span>
+                    <span className="slider-name">Translation</span>
+                    <span className="slider-val">{Math.round((fontScale?.translation || 1) * 100)}%</span>
+                  </div>
+                  <div className="slider-track-wrap">
+                    <div
+                      className="slider-track-fill"
+                      style={{ width: `${((fontScale?.translation || 1) - 0.7) / 0.9 * 100}%` }}
+                    />
+                    <input
+                      type="range"
+                      min="0.7"
+                      max="1.6"
+                      step="0.05"
+                      value={fontScale?.translation || 1}
+                      onChange={(e) => setFontScale((prev) => ({
+                        ...prev,
+                        translation: clamp(Number(e.target.value), 0.7, 1.6)
+                      }))}
+                    />
+                  </div>
                 </div>
               </div>
-              <div className="textsize-row">
-                <span>Translation</span>
-                <div className="textsize-actions">
-                  <button
-                    className="control-btn"
-                    onClick={() => setFontScale((prev) => ({
-                      ...prev,
-                      translation: clamp(prev.translation - 0.05, 0.7, 1.6)
-                    }))}
-                  >
-                    A-
-                  </button>
-                  <button
-                    className="control-btn"
-                    onClick={() => setFontScale((prev) => ({
-                      ...prev,
-                      translation: clamp(prev.translation + 0.05, 0.7, 1.6)
-                    }))}
-                  >
-                    A+
-                  </button>
+            </div>
+
+            {/* Playback Speed */}
+            <div className="study-settings-group">
+              <h4 className="study-settings-title">Playback</h4>
+              <div className="study-premium-slider">
+                <div className="slider-row">
+                  <span className="slider-icon-box">⏱</span>
+                  <span className="slider-name">Speed</span>
+                  <span className="slider-val">{playbackRate.toFixed(2)}x</span>
                 </div>
+                <div className="slider-track-wrap">
+                  <div
+                    className="slider-track-fill"
+                    style={{ width: `${((playbackRate - 0.75) / 0.5) * 100}%` }}
+                  />
+                  <input
+                    type="range"
+                    min="0.75"
+                    max="1.25"
+                    step="0.05"
+                    value={playbackRate}
+                    onChange={(e) => setPlaybackRate(Number(e.target.value))}
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Reciter Selection */}
+            <div className="study-settings-group">
+              <h4 className="study-settings-title">Reciter</h4>
+              <div className="study-reciter-grid">
+                {(reciters || []).map((reciter) => (
+                  <button
+                    key={reciter.id}
+                    className={`study-reciter-chip ${reciterId === reciter.id ? "selected" : ""}`}
+                    onClick={() => setReciterId?.(reciter.id)}
+                  >
+                    <span className="reciter-avatar-sm">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                        <circle cx="12" cy="8" r="4" />
+                        <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" />
+                      </svg>
+                    </span>
+                    <span className="reciter-chip-name">{reciter.label}</span>
+                    {reciterId === reciter.id && (
+                      <span className="reciter-check">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                          <path d="M5 12l5 5L20 7" strokeLinecap="round" strokeLinejoin="round" />
+                        </svg>
+                      </span>
+                    )}
+                  </button>
+                ))}
               </div>
             </div>
           </div>

@@ -6,6 +6,36 @@ export const AUDIO_RECITERS = [
     baseUrl: "https://everyayah.com/data/Alafasy_64kbps"
   },
   {
+    id: "sudais",
+    label: "Abdurrahmaan As-Sudais",
+    baseUrl: "https://everyayah.com/data/Abdurrahmaan_As-Sudais_64kbps"
+  },
+  {
+    id: "shuraim",
+    label: "Saood ash-Shuraym",
+    baseUrl: "https://everyayah.com/data/Saood_ash-Shuraym_64kbps"
+  },
+  {
+    id: "shaatree",
+    label: "Abu Bakr Ash-Shaatree",
+    baseUrl: "https://everyayah.com/data/Abu_Bakr_Ash-Shaatree_64kbps"
+  },
+  {
+    id: "maher",
+    label: "Maher Al-Muaiqly",
+    baseUrl: "https://everyayah.com/data/Maher_AlMuaiqly_64kbps"
+  },
+  {
+    id: "hani",
+    label: "Hani Rifai",
+    baseUrl: "https://everyayah.com/data/Hani_Rifai_64kbps"
+  },
+  {
+    id: "abdulbasit",
+    label: "Abdul Basit (Murattal)",
+    baseUrl: "https://everyayah.com/data/Abdul_Basit_Murattal_64kbps"
+  },
+  {
     id: "husary",
     label: "Mahmoud Khalil Al-Husary",
     baseUrl: "https://everyayah.com/data/Husary_64kbps"

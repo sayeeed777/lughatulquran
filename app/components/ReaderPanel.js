@@ -6,8 +6,9 @@ import AudioPlayer from "./AudioPlayer";
 import BismillahBanner from "./BismillahBanner";
 import ProgressBar from "./ProgressBar";
 import BackToTop from "./BackToTop";
+import SettingsModal from "./SettingsModal";
 import { AyahListSkeleton } from "./skeletons";
-import { INLINE_TRANSLATIONS, NO_BISMILLAH_SURAHS } from "../lib/constants";
+import { INLINE_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../lib/constants";
 
 export default function ReaderPanel({
   selectedSurah,
@@ -17,8 +18,11 @@ export default function ReaderPanel({
   filteredSurahs,
   query,
   setQuery,
-  selectedTranslation,
-  setSelectedTranslation,
+  reciters,
+  reciterId,
+  setReciterId,
+  selectedTranslations,
+  setSelectedTranslations,
   ayahQuery,
   setAyahQuery,
   goToAyahInput,
@@ -166,74 +170,20 @@ export default function ReaderPanel({
         </div>
       )}
 
-      {/* Settings Modal */}
-      {isMobileSettingsOpen && (
-        <div className="mobile-settings-overlay" onClick={() => openMobileSettings(false)}>
-          <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
-            <div className="mobile-settings-header">
-              <h3>Settings</h3>
-              <button className="close-btn" onClick={() => openMobileSettings(false)}>✕</button>
-            </div>
-            <div className="mobile-settings-body">
-              <div className="setting-group">
-                <label className="setting-label">Translation</label>
-                <div className="translation-toggle-mobile">
-                  {INLINE_TRANSLATIONS.map((translation) => (
-                    <button
-                      key={translation.id}
-                      className={selectedTranslation === translation.id ? "active" : ""}
-                      onClick={() => {
-                        setSelectedTranslation(translation.id);
-                      }}
-                    >
-                      {translation.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-              <div className="setting-group">
-                <label className="setting-label">Text Size</label>
-                <div className="size-controls-row">
-                  <div className="size-control">
-                    <span className="size-label">Arabic</span>
-                    <input
-                      type="range"
-                      className="settings-range"
-                      min="0.8"
-                      max="1.4"
-                      step="0.05"
-                      value={fontScale.arabic}
-                      onChange={(event) =>
-                        setFontScale((prev) => ({
-                          ...prev,
-                          arabic: clamp(Number(event.target.value), 0.8, 1.4)
-                        }))
-                      }
-                    />
-                  </div>
-                  <div className="size-control">
-                    <span className="size-label">Translation</span>
-                    <input
-                      type="range"
-                      className="settings-range"
-                      min="0.9"
-                      max="1.4"
-                      step="0.05"
-                      value={fontScale.translation}
-                      onChange={(event) =>
-                        setFontScale((prev) => ({
-                          ...prev,
-                          translation: clamp(Number(event.target.value), 0.9, 1.4)
-                        }))
-                      }
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
+      {/* Apple-Style Settings Modal */}
+      <SettingsModal
+        isOpen={isMobileSettingsOpen}
+        onClose={() => openMobileSettings(false)}
+        translations={INLINE_TRANSLATIONS}
+        selectedTranslations={selectedTranslations}
+        setSelectedTranslations={setSelectedTranslations}
+        fontScale={fontScale}
+        setFontScale={setFontScale}
+        reciters={reciters || AUDIO_RECITERS}
+        reciterId={reciterId}
+        setReciterId={setReciterId}
+        clamp={clamp}
+      />
 
       {/* Mobile Search Modal */}
       {isMobileSearchOpen && (
@@ -379,7 +329,7 @@ export default function ReaderPanel({
                     key={ayah.number}
                     ayah={ayah}
                     surahNumber={selectedSurah.number}
-                    selectedTranslation={selectedTranslation}
+                    selectedTranslations={selectedTranslations}
                     isSaved={isSaved}
                     hasNote={hasNote}
                     isFocused={isFocused}
