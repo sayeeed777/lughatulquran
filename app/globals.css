@@ -401,6 +401,10 @@ button {
   font-size: 0.78rem;
   border-radius: 10px;
   white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
 }
 
 .surah-search-wrapper {
@@ -934,6 +938,10 @@ button {
 
 .topbar-icon-btns .header-icon-btn + .header-icon-btn {
   margin-left: -2px;
+}
+
+.topbar-icon-btns.mobile-only {
+  display: none;
 }
 
 /* Header Icon Buttons (Search & Settings) */
@@ -1830,6 +1838,10 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 
   .desktop-only {
     display: none !important;
+  }
+
+  .topbar-icon-btns.mobile-only {
+    display: flex;
   }
 
   .compare-panel {
@@ -4245,6 +4257,10 @@ textarea:focus-visible {
     border: 1px solid rgba(255, 255, 255, 0.08);
     white-space: nowrap;
     flex: 0 1 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
   }
 
   .ayah-card {

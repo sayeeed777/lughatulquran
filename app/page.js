@@ -676,7 +676,10 @@ export default function Home() {
             </div>
           </div>
           <div className="topbar-actions">
-            <div className="topbar-icon-btns mobile-only">
+            <button className="action-btn mobile-only" onClick={() => setReadingMode(true)}>
+              Study mode
+            </button>
+            <div className="topbar-icon-btns desktop-only">
               <button
                 className="header-icon-btn"
                 onClick={() => setShowMobileSearch(true)}
@@ -697,8 +700,10 @@ export default function Home() {
                   <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
                 </svg>
               </button>
-
             </div>
+            <button className="action-btn desktop-only" onClick={() => setReadingMode(true)}>
+              Study mode
+            </button>
           </div>
         </div>
 
@@ -712,7 +717,8 @@ export default function Home() {
             setQuery={setQuery}
             onSelectSurah={handleSelectSurah}
             loading={loadingSurahs}
-            onEnterStudyMode={() => setReadingMode(true)}
+            onOpenSearch={() => setShowMobileSearch(true)}
+            onOpenSettings={() => setShowMobileSettings(true)}
           />
 
           <ReaderPanel
