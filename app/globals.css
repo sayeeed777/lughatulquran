@@ -1367,7 +1367,8 @@ button {
 
 .ayah-arabic {
   font-family: var(--font-arabic), serif;
-  font-size: calc(clamp(1.8rem, 1.5vw, 2rem) * var(--arabic-scale));
+  font-size: calc(1.65rem * var(--arabic-scale));
+  /* Desktop: Slightly larger (26px) */
   line-height: 2.1;
   text-align: right;
   letter-spacing: 0;
@@ -5098,6 +5099,8 @@ textarea:focus-visible {
   }
 
   .ayah-arabic {
+    font-size: calc(1.8rem * var(--arabic-scale)) !important;
+    /* Mobile: Keep perfect size */
     margin-top: 4px;
     margin-bottom: 12px;
   }
