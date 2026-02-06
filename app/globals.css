@@ -12,8 +12,8 @@
   --shadow: 0 24px 70px rgba(0, 0, 0, 0.4);
   --arabic-scale: 1;
   --translation-scale: 1;
-  --font-arabic: "UthmanicHafs", "Traditional Arabic", "Scheherazade New",
-    serif;
+  --font-arabic: "KFGQPC Hafs", "UthmanicHafs", "Traditional Arabic",
+    "Scheherazade New", serif;
 
   /* Apple-style consistent radius system */
   --radius-xs: 6px;
@@ -101,8 +101,30 @@
 }
 
 @font-face {
-  font-family: "UthmanicHafs";
-  src: url("https://verses.quran.foundation/fonts/quran/hafs/uthmanic_hafs/UthmanicHafs1Ver18.woff2") format("woff2");
+  font-family: "KFGQPC Hafs";
+  src:
+    url("/fonts/KFGQPC-Hafs.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/thetruetruth/quran-data-kfgqpc@main/hafs/font/hafs.18.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KFGQPC Hafs Smart";
+  src:
+    url("/fonts/KFGQPC-HafsSmart.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/thetruetruth/quran-data-kfgqpc@main/hafs-smart/font/hafssmart.8.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uthman Naskh";
+  src:
+    url("/fonts/UthmanNaskh.woff2") format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/quranwbw/qpc-fonts@master/various-woff2/UthmanTN1%20Ver10.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -4140,33 +4162,35 @@ textarea:focus-visible {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(40px) saturate(180%);
-  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  backdrop-filter: blur(18px) saturate(120%);
+  -webkit-backdrop-filter: blur(18px) saturate(120%);
   z-index: 1000;
 }
 
 /* Modal Container */
 .settings-modal {
   position: fixed;
-  top: 45%;
-  /* Shifted up from 50% per user request */
-  right: 24px;
-  left: auto;
-  transform: translateY(-50%);
+  top: 50%;
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, -50%);
   pointer-events: auto;
   /* Ensure clicks work */
   /* Only vertical center */
-  width: min(420px, 90vw);
+  width: min(520px, 92vw);
+  height: min(84vh, 780px);
   max-height: 80vh;
-  background: linear-gradient(165deg,
-      rgba(28, 36, 44, 0.95) 0%,
-      rgba(18, 24, 30, 0.98) 100%);
+  background: linear-gradient(180deg,
+      rgba(20, 26, 32, 0.96) 0%,
+      rgba(12, 16, 20, 0.98) 100%);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px) saturate(120%);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
   border-radius: var(--radius-xl);
   box-shadow:
-    0 0 0 1px rgba(255, 255, 255, 0.05),
-    0 25px 80px -12px rgba(0, 0, 0, 0.65),
-    0 0 100px rgba(111, 212, 177, 0.08);
+    0 0 0 1px rgba(255, 255, 255, 0.04),
+    0 30px 90px -18px rgba(0, 0, 0, 0.65),
+    0 0 60px rgba(111, 212, 177, 0.04);
   z-index: 1001;
   overflow: hidden;
   display: flex;
@@ -4180,19 +4204,17 @@ textarea:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 24px 16px;
+  padding: 18px 22px 12px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
 }
 
 .settings-title {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   margin: 0;
-  background: linear-gradient(135deg, #fff 0%, #a8b0ba 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #f3f5f6;
 }
 
 .settings-close-btn {
@@ -4221,38 +4243,45 @@ textarea:focus-visible {
 /* Tabs */
 .settings-tabs {
   display: flex;
-  gap: 4px;
-  padding: 12px 24px;
-  background: rgba(0, 0, 0, 0.2);
+  gap: 6px;
+  padding: 6px;
+  margin: 10px 22px 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  flex-shrink: 0;
 }
 
 .settings-tab {
   flex: 1;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 12px 16px;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 14px;
   border: none;
   background: transparent;
-  border-radius: var(--radius-md);
+  border-radius: 999px;
   cursor: pointer;
   transition: background 0.2s ease;
+  overflow: hidden;
 }
 
 .settings-tab:hover {
-  background: rgba(255, 255, 255, 0.04);
-}
-
-.settings-tab.active {
   background: rgba(255, 255, 255, 0.06);
 }
 
+.settings-tab.active {
+  background: transparent;
+}
+
 .tab-icon {
-  font-size: 1.25rem;
-  opacity: 0.7;
+  font-size: 1rem;
+  opacity: 0.85;
   transition: opacity 0.2s;
+  position: relative;
+  z-index: 1;
 }
 
 .settings-tab.active .tab-icon {
@@ -4260,25 +4289,25 @@ textarea:focus-visible {
 }
 
 .tab-label {
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.85rem;
+  font-weight: 600;
   color: var(--muted);
   transition: color 0.2s;
+  position: relative;
+  z-index: 1;
 }
 
 .settings-tab.active .tab-label {
-  color: var(--text);
+  color: #eaf7f2;
 }
 
 .tab-indicator {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 24px;
-  height: 3px;
-  background: var(--accent-2);
-  border-radius: 2px;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(111, 212, 177, 0.28), rgba(111, 212, 177, 0.12));
+  border: 1px solid rgba(111, 212, 177, 0.35);
+  border-radius: 999px;
+  z-index: 0;
 }
 
 /* Content Area */
@@ -4287,7 +4316,10 @@ textarea:focus-visible {
   overflow-y: auto;
   min-height: 0;
   /* Critical for flexbox scrolling */
-  padding: 20px 24px;
+  padding: 16px 22px 24px;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  padding-bottom: 32px;
 }
 
 .settings-tab-content {
@@ -4301,21 +4333,48 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  padding: 16px;
 }
 
 .section-title {
-  font-size: 0.7rem;
-  font-weight: 600;
+  font-size: 0.68rem;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--accent-2);
+  letter-spacing: 0.12em;
+  color: rgba(111, 212, 177, 0.9);
   margin: 0;
 }
 
 .section-content {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 14px;
+}
+
+.settings-select {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  color: var(--text);
+  font-size: 0.95rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23cdd6de' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px 16px;
+  padding-right: 40px;
+}
+
+.settings-select:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Segmented Control - Apple Style */
@@ -4367,6 +4426,21 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.translation-chips-scroll {
+  max-height: 220px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.translation-chips-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.translation-chips-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
 }
 
 .translation-chip {
@@ -4686,9 +4760,10 @@ textarea:focus-visible {
 
 /* Footer */
 .settings-footer {
-  padding: 12px 24px;
+  padding: 10px 22px 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.04);
   text-align: center;
+  flex-shrink: 0;
 }
 
 .settings-hint {
@@ -4705,11 +4780,11 @@ textarea:focus-visible {
     position: fixed;
     width: 100%;
     max-width: none;
-    height: 92vh;
+    height: 88vh;
     max-height: none;
     border-radius: 20px 20px 0 0;
     top: auto;
-    bottom: 0;
+    bottom: 8px;
     left: 0;
     right: 0;
     transform: none;

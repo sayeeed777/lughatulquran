@@ -109,6 +109,9 @@ export default function StudyModeView({
   reciters,
   reciterId,
   setReciterId,
+  arabicFonts,
+  arabicFontId,
+  setArabicFontId,
   selectedTranslations = ["en.arberry"],
   bookmarks,
   notes,
@@ -362,9 +365,12 @@ export default function StudyModeView({
     return { surah, ayah };
   };
 
+  const selectedArabicFont = (arabicFonts || []).find((font) => font.id === arabicFontId);
+
   return (
     <div
       className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""}`}
+      style={{ "--font-arabic": selectedArabicFont?.css }}
     >
       {/* Ambient Background */}
       <div className="study-ambient-bg" />
@@ -823,6 +829,22 @@ export default function StudyModeView({
                   />
                 </div>
               </div>
+            </div>
+
+            {/* Arabic Font Selection */}
+            <div className="study-settings-group">
+              <h4 className="study-settings-title">Arabic Font</h4>
+              <select
+                className="study-select"
+                value={arabicFontId}
+                onChange={(event) => setArabicFontId?.(event.target.value)}
+              >
+                {(arabicFonts || []).map((font) => (
+                  <option key={font.id} value={font.id}>
+                    {font.label}
+                  </option>
+                ))}
+              </select>
             </div>
 
             {/* Reciter Selection */}

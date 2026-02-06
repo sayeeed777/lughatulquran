@@ -14,6 +14,7 @@ import {
 } from "./components";
 import {
   AUDIO_RECITERS,
+  ARABIC_FONTS,
   DEFAULT_PLAN,
   STORAGE_KEYS
 } from "./lib/constants";
@@ -51,6 +52,14 @@ export default function Home() {
   const selectedReciter = useMemo(() =>
     AUDIO_RECITERS.find(r => r.id === reciterId) || AUDIO_RECITERS[0],
     [reciterId]);
+  const [arabicFontId, setArabicFontId] = useLocalStorage(
+    STORAGE_KEYS.arabicFont,
+    ARABIC_FONTS[0].id
+  );
+  const selectedArabicFont = useMemo(
+    () => ARABIC_FONTS.find((font) => font.id === arabicFontId) || ARABIC_FONTS[0],
+    [arabicFontId]
+  );
 
   // UI State
   const [query, setQuery] = useState("");
@@ -595,6 +604,9 @@ export default function Home() {
           reciters={AUDIO_RECITERS}
           reciterId={reciterId}
           setReciterId={setReciterId}
+          arabicFonts={ARABIC_FONTS}
+          arabicFontId={arabicFontId}
+          setArabicFontId={setArabicFontId}
           selectedTranslations={selectedTranslations}
           bookmarks={bookmarks}
           notes={notes}
@@ -646,7 +658,8 @@ export default function Home() {
     <ErrorBoundary>
       <main className="app" style={{
         "--arabic-scale": fontScale.arabic,
-        "--translation-scale": fontScale.translation
+        "--translation-scale": fontScale.translation,
+        "--font-arabic": selectedArabicFont?.css
       }}>
         <div className="topbar">
           <div className="logo">
@@ -714,6 +727,9 @@ export default function Home() {
             reciters={AUDIO_RECITERS}
             reciterId={reciterId}
             setReciterId={setReciterId}
+            arabicFonts={ARABIC_FONTS}
+            arabicFontId={arabicFontId}
+            setArabicFontId={setArabicFontId}
             selectedTranslations={selectedTranslations}
             setSelectedTranslations={setSelectedTranslations}
             ayahQuery={ayahQuery}

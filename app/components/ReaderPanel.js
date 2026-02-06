@@ -8,7 +8,7 @@ import ProgressBar from "./ProgressBar";
 import BackToTop from "./BackToTop";
 import SettingsModal from "./SettingsModal";
 import { AyahListSkeleton } from "./skeletons";
-import { INLINE_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../lib/constants";
+import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../lib/constants";
 
 export default function ReaderPanel({
   selectedSurah,
@@ -21,6 +21,9 @@ export default function ReaderPanel({
   reciters,
   reciterId,
   setReciterId,
+  arabicFonts,
+  arabicFontId,
+  setArabicFontId,
   selectedTranslations,
   setSelectedTranslations,
   ayahQuery,
@@ -215,10 +218,10 @@ export default function ReaderPanel({
       )}
 
       {/* Apple-Style Settings Modal */}
-      <SettingsModal
-        isOpen={isMobileSettingsOpen}
-        onClose={() => openMobileSettings(false)}
-        translations={INLINE_TRANSLATIONS}
+        <SettingsModal
+          isOpen={isMobileSettingsOpen}
+          onClose={() => openMobileSettings(false)}
+          translations={ALL_TRANSLATIONS}
         selectedTranslations={selectedTranslations}
         setSelectedTranslations={setSelectedTranslations}
         fontScale={fontScale}
@@ -226,6 +229,9 @@ export default function ReaderPanel({
         reciters={reciters || AUDIO_RECITERS}
         reciterId={reciterId}
         setReciterId={setReciterId}
+        arabicFonts={arabicFonts}
+        arabicFontId={arabicFontId}
+        setArabicFontId={setArabicFontId}
         clamp={clamp}
       />
 

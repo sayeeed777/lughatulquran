@@ -49,6 +49,25 @@ export const AUDIO_RECITERS = [
 
 export const DEFAULT_RECITER = AUDIO_RECITERS[0];
 
+// Arabic Fonts
+export const ARABIC_FONTS = [
+  {
+    id: "kfgqpc-hafs",
+    label: "KFGQPC Uthmanic Hafs",
+    css: '"KFGQPC Hafs","UthmanicHafs","Traditional Arabic","Scheherazade New",serif'
+  },
+  {
+    id: "kfgqpc-hafssmart",
+    label: "KFGQPC Hafs Smart",
+    css: '"KFGQPC Hafs Smart","UthmanicHafs","Traditional Arabic","Scheherazade New",serif'
+  },
+  {
+    id: "uthman-naskh",
+    label: "Uthman Taha Naskh",
+    css: '"Uthman Naskh","UthmanicHafs","Traditional Arabic","Scheherazade New",serif'
+  }
+];
+
 // Translations
 export const INLINE_TRANSLATIONS = [
   { id: "en.sahih", label: "Sahih International", short: "Sahih" },
@@ -92,7 +111,8 @@ export const STORAGE_KEYS = {
   plan: "quran_plan",
   fontScale: "quran_font_scale",
   lastRead: "quran_last_read",
-  reciter: "quran_reciter"
+  reciter: "quran_reciter",
+  arabicFont: "quran_arabic_font"
 };
 
 // Keyboard Shortcuts

@@ -38,7 +38,7 @@ const SegmentedControl = memo(function SegmentedControl({ options, value, onChan
 });
 
 // Multi-Select Translation Chips
-const TranslationChips = memo(function TranslationChips({ options, selectedIds, onChange, defaultId = "en.arberry" }) {
+const TranslationChips = memo(function TranslationChips({ options, selectedIds, onChange, defaultId = "en.arberry", className = "" }) {
     const toggleTranslation = (id) => {
         const isSelected = selectedIds.includes(id);
         const isDefault = id === defaultId;
@@ -55,7 +55,7 @@ const TranslationChips = memo(function TranslationChips({ options, selectedIds, 
     };
 
     return (
-        <div className="translation-chips">
+        <div className={`translation-chips ${className}`.trim()}>
             {options.map((option) => {
                 const isSelected = selectedIds.includes(option.id);
                 const isDefault = option.id === defaultId;
@@ -201,6 +201,10 @@ function SettingsModal({
     reciters,
     reciterId,
     setReciterId,
+    // Arabic Font
+    arabicFonts,
+    arabicFontId,
+    setArabicFontId,
     // Utility
     clamp
 }) {
@@ -315,10 +319,6 @@ function SettingsModal({
                             damping: isMobile ? 35 : 30
                         }}
                         onClick={(e) => e.stopPropagation()}
-                        drag={isMobile ? "y" : false}
-                        dragConstraints={{ top: 0, bottom: 0 }}
-                        dragElastic={{ top: 0, bottom: 0.5 }}
-                        onDragEnd={handleDragEnd}
                     >
                         {/* Header */}
                         <div className="settings-header">
@@ -359,10 +359,6 @@ function SettingsModal({
                         {/* Content - with swipe gestures on mobile */}
                         <motion.div
                             className="settings-content"
-                            drag={isMobile ? "x" : false}
-                            dragConstraints={{ left: 0, right: 0 }}
-                            dragElastic={0.2}
-                            onDragEnd={handleContentDragEnd}
                         >
                             <AnimatePresence mode="wait">
                                 {activeTab === "display" && (
@@ -381,11 +377,27 @@ function SettingsModal({
                                                 selectedIds={selectedTranslations}
                                                 onChange={setSelectedTranslations}
                                                 defaultId="en.arberry"
+                                                className="translation-chips-scroll"
                                             />
                                         </SettingsSection>
 
+                                        {/* Arabic Font Section */}
+                                        <SettingsSection title="Arabic Font" delay={0.05}>
+                                            <select
+                                                className="settings-select"
+                                                value={arabicFontId}
+                                                onChange={(e) => setArabicFontId?.(e.target.value)}
+                                            >
+                                                {(arabicFonts || []).map((font) => (
+                                                    <option key={font.id} value={font.id}>
+                                                        {font.label}
+                                                    </option>
+                                                ))}
+                                            </select>
+                                        </SettingsSection>
+
                                         {/* Text Size Section */}
-                                        <SettingsSection title="Text Size" delay={0.05}>
+                                        <SettingsSection title="Text Size" delay={0.1}>
                                             <PremiumSlider
                                                 label="Arabic"
                                                 icon="ع"
