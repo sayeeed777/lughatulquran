@@ -26,13 +26,19 @@ export default function SurahList({
   query,
   setQuery,
   onSelectSurah,
-  loading
+  loading,
+  onEnterStudyMode
 }) {
   if (loading) {
     return (
       <aside className="panel surah-panel">
         <div className="surah-panel-header">
           <h2>Surahs</h2>
+          {onEnterStudyMode && (
+            <button className="action-btn surah-study-btn" onClick={onEnterStudyMode}>
+              Study mode
+            </button>
+          )}
         </div>
         <div className="surah-search-wrapper">
           <input
@@ -52,6 +58,11 @@ export default function SurahList({
     <aside className="panel surah-panel">
       <div className="surah-panel-header">
         <h2>Surahs</h2>
+        {onEnterStudyMode && (
+          <button className="action-btn surah-study-btn" onClick={onEnterStudyMode}>
+            Study mode
+          </button>
+        )}
       </div>
       <div className="surah-search-wrapper">
         <input

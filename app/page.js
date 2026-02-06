@@ -699,9 +699,6 @@ export default function Home() {
               </button>
 
             </div>
-            <button className="action-btn" onClick={() => setReadingMode(true)}>
-              Study mode
-            </button>
           </div>
         </div>
 
@@ -715,6 +712,7 @@ export default function Home() {
             setQuery={setQuery}
             onSelectSurah={handleSelectSurah}
             loading={loadingSurahs}
+            onEnterStudyMode={() => setReadingMode(true)}
           />
 
           <ReaderPanel

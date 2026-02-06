@@ -191,7 +191,7 @@ body::before {
 
 .topbar-actions {
   display: flex;
-  gap: 12px;
+  gap: 4px;
   align-items: center;
 }
 
@@ -381,6 +381,10 @@ button {
 /* Surah Panel Specific Styles */
 .surah-panel-header {
   margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .surah-panel-header h2 {
@@ -389,6 +393,14 @@ button {
   color: var(--text);
   font-weight: 700;
   letter-spacing: -0.01em;
+}
+
+.surah-panel-header .surah-study-btn {
+  height: 34px;
+  padding: 0 12px;
+  font-size: 0.78rem;
+  border-radius: 10px;
+  white-space: nowrap;
 }
 
 .surah-search-wrapper {
@@ -912,8 +924,16 @@ button {
 
 .topbar-icon-btns {
   display: flex;
-  gap: 8px;
+  gap: 0;
   align-items: center;
+  padding: 2px;
+  border-radius: 999px;
+  background: transparent;
+  border: none;
+}
+
+.topbar-icon-btns .header-icon-btn + .header-icon-btn {
+  margin-left: -2px;
 }
 
 /* Header Icon Buttons (Search & Settings) */
@@ -924,7 +944,7 @@ button {
   border-radius: 12px;
   /* Smooth corners */
   border: none;
-  background: rgba(255, 255, 255, 0.06);
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -935,7 +955,7 @@ button {
 }
 
 .header-icon-btn:hover {
-  background: rgba(255, 255, 255, 0.14);
+  background: transparent;
 }
 
 .header-icon-btn:active {
@@ -944,6 +964,11 @@ button {
 
 .header-icon-btn svg {
   opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.header-icon-btn:hover svg {
+  opacity: 1;
 }
 
 /* Mobile Input Styles */
@@ -4144,14 +4169,82 @@ textarea:focus-visible {
     gap: 12px;
     align-items: center;
     justify-content: space-between;
+    height: 56px;
+    padding: 8px 10px;
+    flex-wrap: nowrap;
+    overflow: hidden;
   }
 
   .topbar-actions {
     justify-content: flex-end;
+    gap: 2px;
+    flex: 0 0 auto;
   }
 
   .logo {
     justify-content: flex-start;
+    gap: 10px;
+    min-width: 0;
+  }
+
+  .logo-mark {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: none;
+  }
+
+  .logo-mark svg {
+    width: 26px;
+    height: 26px;
+  }
+
+  .logo-text {
+    gap: 4px;
+    min-width: 0;
+  }
+
+  .logo-title {
+    font-size: 1.02rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    white-space: nowrap;
+  }
+
+  .logo-sub {
+    font-size: 0.98rem;
+    color: var(--accent-2);
+    font-weight: 500;
+    white-space: nowrap;
+  }
+
+  .header-icon-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background: transparent;
+    border: none;
+  }
+
+  .header-icon-btn svg {
+    width: 17px;
+    height: 17px;
+    opacity: 0.9;
+  }
+
+  .topbar .action-btn {
+    height: 40px;
+    padding: 0 10px;
+    min-width: 84px;
+    max-width: 112px;
+    font-size: 0.76rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    white-space: nowrap;
+    flex: 0 1 auto;
   }
 
   .ayah-card {
