@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
 const EDITIONS = [
   "en.arberry",
@@ -7,7 +8,7 @@ const EDITIONS = [
   "en.sahih"
 ];
 
-const EDITION_LABELS = {
+const EDITION_LABELS: Record<string, string> = {
   "en.arberry": "A.J. Arberry",
   "en.pickthall": "Pickthall",
   "en.yusufali": "Yusuf Ali",
@@ -19,10 +20,51 @@ const QDC_BASE_URL = "https://api.quran.com/api/v4";
 
 export const revalidate = 86400;
 
+type QuranComVerse = {
+  verse_number: number;
+  text_uthmani: string;
+  text_uthmani_tajweed?: string;
+  text_uthmani_tajweed_html?: string;
+  page_number?: number;
+  page?: number;
+  pageNumber?: number;
+};
+
+type QuranComResponse = {
+  verses?: QuranComVerse[];
+  pagination?: { next_page?: number };
+};
+
+type ArabicVerse = {
+  number: number;
+  text: string;
+  tajweed: string | null;
+  page: number | null;
+};
+
+type TranslationAyah = {
+  numberInSurah: number;
+  text: string;
+};
+
+type TranslationEdition = {
+  edition: { identifier: string };
+  ayahs?: TranslationAyah[];
+  number: number;
+  name: string;
+  englishName: string;
+  englishNameTranslation: string;
+  numberOfAyahs: number;
+  revelationType: string;
+};
+
+type TranslationResponse = {
+  data?: TranslationEdition[];
+};
+
 // Fetch Arabic Text (and optional Tajweed/Page data) from Quran.com V4
-/** @param {string | number} chapterId */
-const fetchArabicText = async (chapterId) => {
-  const verses = [];
+const fetchArabicText = async (chapterId: string | number): Promise<ArabicVerse[] | null> => {
+  const verses: ArabicVerse[] = [];
   let page = 1;
   let hasNext = true;
   let safety = 0;
@@ -46,22 +88,22 @@ const fetchArabicText = async (chapterId) => {
         return null; // Return null to fallback or error
       }
 
-      const payload = await response.json();
+      const payload = (await response.json()) as QuranComResponse | null;
       const chunk = payload?.verses || [];
 
       for (const verse of chunk) {
         // V4 returns verse_key like "1:1"
         const verseNumber = verse.verse_number;
         const text = verse.text_uthmani;
-        const tajweed = verse.text_uthmani_tajweed || verse.text_uthmani_tajweed_html;
-        const pageNumber = verse.page_number || verse.page || verse.pageNumber;
+        const tajweed = verse.text_uthmani_tajweed || verse.text_uthmani_tajweed_html || null;
+        const pageNumber = verse.page_number || verse.page || verse.pageNumber || null;
         if (verseNumber && text) {
           verses.push({ number: verseNumber, text, tajweed, page: pageNumber });
         }
       }
 
       const pagination = payload?.pagination;
-      if (pagination && pagination.next_page) {
+      if (pagination?.next_page) {
         page = pagination.next_page;
       } else {
         hasNext = false;
@@ -75,15 +117,15 @@ const fetchArabicText = async (chapterId) => {
   return verses.length ? verses : null;
 };
 
-/**
- * @param {import("next/server").NextRequest} _request
- * @param {{ params: { id: string } }} context
- */
-export async function GET(_request, context) {
-  const { id } = await context.params;
+type RouteContext = {
+  params: { id: string };
+};
+
+export async function GET(_request: NextRequest, { params }: RouteContext) {
+  const { id } = params;
   const surahNumber = Number(id);
 
-  if (!id || isNaN(surahNumber)) {
+  if (!id || Number.isNaN(surahNumber)) {
     return NextResponse.json({ error: "Invalid surah id." }, { status: 400 });
   }
 
@@ -98,16 +140,14 @@ export async function GET(_request, context) {
       throw new Error("Failed to fetch translation data.");
     }
 
-    const payload = await response.json();
-    if (!payload?.data) {
+    const payload = (await response.json()) as TranslationResponse | null;
+    if (!payload?.data || !payload.data.length) {
       throw new Error("Unexpected response from Translation API.");
     }
 
     const editions = payload.data;
     const editionById = new Map(
-      editions.map(
-        /** @param {any} edition */ (edition) => [edition.edition.identifier, edition]
-      )
+      editions.map((edition) => [edition.edition.identifier, edition])
     );
 
     // 2. Fetch Arabic Text from Quran.com V4 (Cleaner, better Bismillah handling)
@@ -126,28 +166,31 @@ export async function GET(_request, context) {
     };
 
     // 4. Merge Data
-    const ayahs = [];
+    const ayahs: Array<{
+      number: number;
+      arabic: string;
+      arabicTajweed: string | null;
+      pageNumber: number | null;
+      translations: Record<string, { label: string; text: string }>;
+    }> = [];
     const totalAyahs = surahMeta.numberOfAyahs;
 
     // Use a Loop based on total verses to ensure missing translations/arabic don't break order
     for (let i = 1; i <= totalAyahs; i++) {
-    const arabicEntry = arabicVerses?.find(v => v.number === i);
-    let arabicText = arabicEntry?.text || "Arabic text unavailable";
-    const arabicTajweed = arabicEntry?.tajweed || null;
-    const pageNumber = arabicEntry?.page || null;
+      const arabicEntry = arabicVerses?.find((v) => v.number === i);
+      const arabicText = arabicEntry?.text || "Arabic text unavailable";
+      const arabicTajweed = arabicEntry?.tajweed || null;
+      const pageNumber = arabicEntry?.page || null;
 
       // Quran.com V4 usually provides clean text.
       // For Surah 1 (Fatiha), Verse 1 IS Bismillah.
       // For others, Verse 1 does NOT contain Bismillah.
       // So minimal processing is needed compared to AlQuran.cloud.
 
-      /** @type {Record<string, { label: string, text: string }>} */
-      const translations = {};
-    for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
-      const edition = editionById.get(identifier);
-      const ayah = edition?.ayahs?.find(
-        /** @param {any} a */ (a) => a.numberInSurah === i
-      );
+      const translations: Record<string, { label: string; text: string }> = {};
+      for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
+        const edition = editionById.get(identifier);
+        const ayah = edition?.ayahs?.find((a) => a.numberInSurah === i);
         if (ayah) {
           translations[identifier] = {
             label,
@@ -171,7 +214,6 @@ export async function GET(_request, context) {
       arabicScript: "uthmani", // Standard Quran.com V4 text
       translationOrder: ["en.sahih", "en.arberry", "en.pickthall", "en.yusufali"]
     });
-
   } catch (error) {
     console.error("API Error:", error);
     return NextResponse.json(

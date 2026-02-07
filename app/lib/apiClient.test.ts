@@ -17,7 +17,8 @@ describe("apiClient.fetchJSON", () => {
 
   it("retries on failure", async () => {
     clearApiCache();
-    const fetcher = vi.fn()
+    const fetcher = vi
+      .fn()
       .mockRejectedValueOnce(new Error("network"))
       .mockResolvedValueOnce({
         ok: true,

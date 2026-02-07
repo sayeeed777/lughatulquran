@@ -1,11 +1,43 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
 export const revalidate = 86400;
 
 const WORDS_BASE_URL = "https://api.quran.com/api/v4/verses/by_chapter";
 
-/** @param {any} word */
-const normalizeWord = (word) => {
+type QuranComWord = {
+  text_uthmani?: string;
+  text?: string;
+  text_imlaei?: string;
+  text_uthmani_simple?: string;
+  text_indopak?: string;
+  text_qpc_hafs?: string;
+  translation?: { text?: string; translation_text?: string } | string;
+  transliteration?: { text?: string };
+  audio_url?: string;
+  audio?: { url?: string; mp3?: string } | string;
+};
+
+type QuranComVerse = {
+  verse_number?: number;
+  verse_key?: string;
+  words?: QuranComWord[];
+};
+
+type QuranComResponse = {
+  verses?: QuranComVerse[];
+  data?: QuranComVerse[];
+  pagination?: { next_page?: number; current_page?: number; total_pages?: number };
+  meta?: { pagination?: { next_page?: number; current_page?: number; total_pages?: number } };
+};
+
+type NormalizedWord = {
+  arabic: string;
+  translation: string;
+  audioUrl: string;
+};
+
+const normalizeWord = (word: QuranComWord): NormalizedWord | null => {
   const arabic =
     word?.text_uthmani ||
     word?.text ||
@@ -18,16 +50,14 @@ const normalizeWord = (word) => {
     return null;
   }
   const translation =
-    word?.translation?.text ||
-    word?.translation?.translation_text ||
-    word?.translation ||
+    (typeof word?.translation === "string"
+      ? word.translation
+      : word?.translation?.text || word?.translation?.translation_text) ||
     word?.transliteration?.text ||
     "";
   const audioUrl =
     word?.audio_url ||
-    word?.audio?.url ||
-    word?.audio?.mp3 ||
-    word?.audio ||
+    (typeof word?.audio === "string" ? word.audio : word?.audio?.url || word?.audio?.mp3) ||
     "";
   return {
     arabic,
@@ -36,8 +66,7 @@ const normalizeWord = (word) => {
   };
 };
 
-/** @param {string | number | null | undefined} key */
-const verseNumberFromKey = (key) => {
+const verseNumberFromKey = (key?: string | number | null): number | null => {
   if (!key) {
     return null;
   }
@@ -45,19 +74,18 @@ const verseNumberFromKey = (key) => {
   return Number(parts[1] || parts[0]);
 };
 
-/**
- * @param {import("next/server").NextRequest} _request
- * @param {{ params: { id: string } }} context
- */
-export async function GET(_request, context) {
-  const { id } = await context.params;
+type RouteContext = {
+  params: { id: string };
+};
+
+export async function GET(_request: NextRequest, { params }: RouteContext) {
+  const { id } = params;
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }
 
   try {
-    /** @type {Record<number, Array<{ arabic: string, translation: string, audioUrl: string }>>} */
-    const wordsByAyah = {};
+    const wordsByAyah: Record<number, NormalizedWord[]> = {};
     let page = 1;
     let safety = 0;
     let hasNext = true;
@@ -79,7 +107,7 @@ export async function GET(_request, context) {
         );
       }
 
-      const payload = await response.json();
+      const payload = (await response.json()) as QuranComResponse | null;
       const verses = payload?.verses ?? payload?.data ?? [];
 
       for (const verse of verses) {
@@ -90,11 +118,7 @@ export async function GET(_request, context) {
         }
         const normalized = verse.words
           .map(normalizeWord)
-          .filter(
-            /** @param {{ arabic: string, translation: string, audioUrl: string } | null} item */ (
-              item
-            ) => item && item.arabic
-          );
+          .filter((item): item is NormalizedWord => Boolean(item?.arabic));
         if (normalized.length) {
           wordsByAyah[verseNumber] = normalized;
         }

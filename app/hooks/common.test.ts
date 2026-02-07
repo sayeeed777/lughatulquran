@@ -15,7 +15,7 @@ describe("useLocalStorage", () => {
       result.current[1]("next");
     });
 
-    expect(JSON.parse(localStorage.getItem("test_key"))).toBe("next");
+    expect(JSON.parse(localStorage.getItem("test_key") ?? "null")).toBe("next");
   });
 
   it("hydrates from localStorage", () => {

@@ -1,7 +1,39 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-/** @param {import("next/server").NextRequest} request */
-export async function GET(request) {
+type SearchResult = {
+  surah: number | null;
+  ayah: number | null;
+  text: string;
+  translation: string;
+};
+
+type QuranComResult = {
+  verse_key?: string;
+  verseKey?: string;
+  text?: string;
+  text_uthmani?: string;
+  arabic?: string;
+  translations?: Array<{ text?: string }>;
+  translation?: { text?: string } | string;
+};
+
+type QuranComPayload = {
+  search?: { results?: QuranComResult[] };
+  results?: QuranComResult[];
+};
+
+type AlQuranMatch = {
+  surah?: { number?: number };
+  numberInSurah?: number;
+  text?: string;
+};
+
+type AlQuranPayload = {
+  data?: { matches?: AlQuranMatch[] };
+};
+
+export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get("q");
 
@@ -19,11 +51,10 @@ export async function GET(request) {
     );
 
     if (response.ok) {
-      const payload = await response.json();
+      const payload = (await response.json()) as QuranComPayload | null;
       const results = payload?.search?.results || payload?.results || [];
 
-      const normalized = results.map(
-        /** @param {any} result */ (result) => {
+      const normalized: SearchResult[] = results.map((result) => {
         const verseKey = result?.verse_key || result?.verseKey || "";
         const [surah, ayah] = String(verseKey).split(":").map(Number);
         return {
@@ -32,8 +63,9 @@ export async function GET(request) {
           text: result?.text || result?.text_uthmani || result?.arabic || "",
           translation:
             result?.translations?.[0]?.text ||
-            result?.translation?.text ||
-            result?.translation ||
+            (typeof result?.translation === "string"
+              ? result.translation
+              : result?.translation?.text) ||
             ""
         };
       });
@@ -55,10 +87,9 @@ export async function GET(request) {
       return NextResponse.json({ error: "Search unavailable." }, { status: 502 });
     }
 
-    const payload = await response.json();
+    const payload = (await response.json()) as AlQuranPayload | null;
     const matches = payload?.data?.matches || [];
-    const normalized = matches.map(
-      /** @param {any} match */ (match) => ({
+    const normalized: SearchResult[] = matches.map((match) => ({
       surah: match?.surah?.number || null,
       ayah: match?.numberInSurah || null,
       text: "",
