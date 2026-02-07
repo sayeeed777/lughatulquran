@@ -3,11 +3,9 @@
 import { useCallback, useEffect } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { clamp, verseKey } from "../lib/utils";
+import type { Surah } from "../lib/types";
 
-type Surah = {
-  number: number;
-  numberOfAyahs: number;
-};
+type SurahSummary = Pick<Surah, "number" | "numberOfAyahs">;
 
 type MemorizeConfig = {
   active: boolean;
@@ -29,7 +27,7 @@ type StartMemorizeConfig = {
 };
 
 type UseMemorizationOptions = {
-  selectedSurah: Surah | null;
+  selectedSurah: SurahSummary | null;
   setMemorizeConfig: Dispatch<SetStateAction<MemorizeConfig>>;
   setNowPlaying?: Dispatch<SetStateAction<NowPlaying | null>>;
   setIsAutoPlaying?: Dispatch<SetStateAction<boolean>>;

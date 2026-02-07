@@ -3,14 +3,7 @@
 import { memo } from "react";
 import { motion } from "framer-motion";
 import type { MotionStyle } from "framer-motion";
-
-type AyahTranslation = { text?: string };
-
-type Ayah = {
-  number: number;
-  arabic?: string;
-  translations?: Record<string, AyahTranslation>;
-};
+import type { Ayah } from "../../lib/types";
 
 type Word = {
   arabic: string;

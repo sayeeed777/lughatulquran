@@ -1,18 +1,13 @@
 "use client";
 
+import type { ReadingPlan as ReadingPlanState, Surah } from "../../lib/types";
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
-
-type Surah = {
-  number: number;
-  englishName: string;
-  numberOfAyahs: number;
-};
 
 type StudyPanelProps = {
   surahs: Surah[];
   surahByNumber: Map<number, Surah>;
-  readingPlan: any;
-  setReadingPlan: (value: any) => void;
+  readingPlan: ReadingPlanState;
+  setReadingPlan: (value: ReadingPlanState | ((prev: ReadingPlanState) => ReadingPlanState)) => void;
   planSummary: any;
   sortedBookmarks: string[];
   sortedNotes: Array<{ key: string; surah: number; ayah: number; value: string }>;

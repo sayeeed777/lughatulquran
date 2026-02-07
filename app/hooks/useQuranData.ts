@@ -1,27 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { fetchJSON } from "../lib/apiClient";
-
-type Surah = {
-  number: number;
-  name: string;
-  englishName: string;
-  englishNameTranslation: string;
-  numberOfAyahs: number;
-  revelationType: string;
-};
-
-type AyahTranslation = {
-  label?: string;
-  text?: string;
-};
-
-type Ayah = {
-  number: number;
-  arabic?: string;
-  arabicTajweed?: string | null;
-  pageNumber?: number | null;
-  translations?: Record<string, AyahTranslation>;
-};
+import type { Ayah, AyahTranslation, Surah, SurahData } from "../lib/types";
 
 type SurahDetail = {
   surah?: Surah;

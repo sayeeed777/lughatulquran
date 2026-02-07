@@ -1,8 +1,6 @@
 "use client";
 
-type Surah = {
-  englishName: string;
-};
+import type { Surah } from "../../lib/types";
 
 type NoteEntry = {
   key: string;

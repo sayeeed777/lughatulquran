@@ -229,6 +229,19 @@
   margin-bottom: 0;
 }
 
+/* Mobile layout fixes (override base sticky panels) */
+@media (max-width: 1024px) {
+  .surah-panel {
+    position: static !important;
+    top: auto !important;
+    max-height: 65vh;
+  }
+
+  .study-panel {
+    display: none !important;
+  }
+}
+
 .plan-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));

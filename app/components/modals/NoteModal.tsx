@@ -1,10 +1,7 @@
 "use client";
 
 import type { Dispatch, SetStateAction } from "react";
-
-type Surah = {
-  englishName: string;
-};
+import type { Surah } from "../../lib/types";
 
 type NoteTarget = {
   surah: number;

@@ -3,11 +3,9 @@
 import { useState, useCallback } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { verseKey } from "../lib/utils";
+import type { Surah } from "../lib/types";
 
-type Surah = {
-  number: number;
-  numberOfAyahs: number;
-};
+type SurahSummary = Pick<Surah, "number" | "numberOfAyahs">;
 
 type MemorizeConfig = {
   active: boolean;
@@ -23,7 +21,7 @@ type NowPlaying = {
 };
 
 type UseAudioPlaybackOptions = {
-  selectedSurah: Surah | null;
+  selectedSurah: SurahSummary | null;
   memorizeConfig: MemorizeConfig;
   setMemorizeConfig: Dispatch<SetStateAction<MemorizeConfig>>;
   setFocusedAyahKey: Dispatch<SetStateAction<string | null>>;

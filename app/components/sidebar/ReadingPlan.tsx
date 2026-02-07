@@ -1,17 +1,6 @@
 "use client";
 
-type Surah = {
-  number: number;
-  englishName: string;
-  numberOfAyahs: number;
-};
-
-type ReadingPlanState = {
-  startDate: string;
-  perDay: number;
-  startSurah: number;
-  startAyah: number;
-};
+import type { ReadingPlan as ReadingPlanState, Surah } from "../../lib/types";
 
 type PlanSummaryRange = {
   dayIndex: number;

@@ -289,6 +289,9 @@ export default function Home() {
                 </svg>
               </button>
             </div>
+            <button className="action-btn desktop-only" onClick={() => setReadingMode(true)}>
+              Study mode
+            </button>
           </div>
         </div>
 

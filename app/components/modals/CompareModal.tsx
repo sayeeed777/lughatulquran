@@ -1,19 +1,8 @@
 "use client";
 
+import type { Ayah, Surah } from "../../lib/types";
+
 type Translation = { id: string; label: string };
-
-type AyahTranslation = { text?: string };
-
-type Ayah = {
-  number: number;
-  arabic?: string;
-  translations?: Record<string, AyahTranslation>;
-};
-
-type Surah = {
-  name: string;
-  englishName: string;
-};
 
 type CompareModalProps = {
   selectedAyah: Ayah | null;

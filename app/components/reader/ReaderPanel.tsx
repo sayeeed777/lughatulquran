@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
+import type { Ayah, Surah, SurahData } from "../../lib/types";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
@@ -8,28 +9,7 @@ import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib/constants";
 
-type Surah = {
-  number: number;
-  name: string;
-  englishName: string;
-  englishNameTranslation: string;
-  numberOfAyahs: number;
-  revelationType: string;
-};
-
-type AyahTranslation = {
-  text?: string;
-};
-
-type Ayah = {
-  number: number;
-  arabic?: string;
-  translations?: Record<string, AyahTranslation>;
-};
-
-type SurahData = {
-  ayahs?: Ayah[];
-};
+type SurahDataSummary = Pick<SurahData, "ayahs">;
 
 type Word = {
   arabic: string;
@@ -53,7 +33,7 @@ type SetState<T> = (value: T | ((prev: T) => T)) => void;
 
 type ReaderPanelProps = {
   selectedSurah: Surah | null;
-  surahData: SurahData | null;
+  surahData: SurahDataSummary | null;
   filteredAyahs: Ayah[];
   surahs: Surah[];
   filteredSurahs: Surah[];

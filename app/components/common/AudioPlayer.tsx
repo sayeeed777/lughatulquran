@@ -1,10 +1,9 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import type { Surah } from "../../lib/types";
 
-type Surah = {
-  number: number;
-};
+type SurahSummary = Pick<Surah, "number">;
 
 type NowPlaying = {
   surah: number;
@@ -21,7 +20,7 @@ type AudioPlayerProps = {
   onPlaySurah: (startAyah: number) => void;
   onStopAutoPlay: () => void;
   onAudioEnded: () => void;
-  selectedSurah: Surah | null;
+  selectedSurah: SurahSummary | null;
   nowPlaying: NowPlaying | null;
   showSurahControls?: boolean;
   showPlayerBar?: boolean;

@@ -14,6 +14,8 @@ export type AyahTranslation = {
 export type Ayah = {
   number: number;
   arabic?: string;
+  arabicTajweed?: string | null;
+  pageNumber?: number | null;
   translations?: Record<string, AyahTranslation>;
 };
 
@@ -24,4 +26,9 @@ export type ReadingPlan = {
   perDay: number;
   startSurah: number;
   startAyah: number;
+};
+
+export type SurahData = {
+  surah?: Surah;
+  ayahs?: Ayah[];
 };
