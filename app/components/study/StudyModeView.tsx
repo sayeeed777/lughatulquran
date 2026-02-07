@@ -754,7 +754,7 @@ export default function StudyModeView({
 
         {quickPanelTab === "settings" && (
           <div className="quick-panel-section study-settings-premium">
-            <div className="study-settings-group">
+            <div className="study-settings-group study-card">
               <h4 className="study-settings-title">Display</h4>
               <div className="study-toggle-list">
                 <label className="study-premium-toggle">
@@ -802,7 +802,7 @@ export default function StudyModeView({
               </div>
             </div>
 
-            <div className="study-settings-group">
+            <div className="study-settings-group study-card">
               <h4 className="study-settings-title">Text Size</h4>
               <div className="study-premium-sliders">
                 <div className="study-premium-slider">
@@ -860,7 +860,7 @@ export default function StudyModeView({
               </div>
             </div>
 
-            <div className="study-settings-group">
+            <div className="study-settings-group study-card">
               <h4 className="study-settings-title">Playback</h4>
               <div className="study-premium-slider">
                 <div className="slider-row">
@@ -885,7 +885,7 @@ export default function StudyModeView({
               </div>
             </div>
 
-            <div className="study-settings-group">
+            <div className="study-settings-group study-card">
               <h4 className="study-settings-title">Arabic Font</h4>
               <select
                 className="study-select"
@@ -900,7 +900,7 @@ export default function StudyModeView({
               </select>
             </div>
 
-            <div className="study-settings-group">
+            <div className="study-settings-group study-card">
               <h4 className="study-settings-title">Reciter</h4>
               <div className="study-reciter-grid">
                 {(reciters || []).map((reciter) => (
@@ -1123,46 +1123,48 @@ export default function StudyModeView({
 
         {quickPanelTab === "notes" && (
           <div className="quick-panel-section">
-            {sortedNotes?.length > 0 ? (
-              <ul className="quick-list">
-                {sortedNotes.map((note) => {
-                  const name = surahByNumber?.get(note.surah)?.englishName || `Surah ${note.surah}`;
-                  const preview = note.value.length > 60 ? `${note.value.slice(0, 60)}...` : note.value;
-                  return (
-                    <li key={note.key} className="quick-list-item">
-                      <div className="quick-item-icon">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                          <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                          <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                        </svg>
-                      </div>
-                      <div className="quick-item-content">
-                        <span className="quick-item-title">{name} - Ayah {note.ayah}</span>
-                        <span className="quick-item-sub">{preview}</span>
-                      </div>
-                      <button
-                        className="quick-item-action"
-                        onClick={() => {
-                          onOpenNote(note.surah, note.ayah);
-                          setShowQuickPanel(false);
-                        }}
-                      >
-                        Edit
-                      </button>
-                    </li>
-                  );
-                })}
-              </ul>
-            ) : (
-              <div className="quick-empty">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
-                  <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                  <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                </svg>
-                <p>No notes yet</p>
-                <span>Tap the note icon on any ayah to add thoughts</span>
-              </div>
-            )}
+            <div className="study-card notes-card">
+              {sortedNotes?.length > 0 ? (
+                <ul className="quick-list">
+                  {sortedNotes.map((note) => {
+                    const name = surahByNumber?.get(note.surah)?.englishName || `Surah ${note.surah}`;
+                    const preview = note.value.length > 60 ? `${note.value.slice(0, 60)}...` : note.value;
+                    return (
+                      <li key={note.key} className="quick-list-item">
+                        <div className="quick-item-icon">
+                          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                            <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+                          </svg>
+                        </div>
+                        <div className="quick-item-content">
+                          <span className="quick-item-title">{name} - Ayah {note.ayah}</span>
+                          <span className="quick-item-sub">{preview}</span>
+                        </div>
+                        <button
+                          className="quick-item-action"
+                          onClick={() => {
+                            onOpenNote(note.surah, note.ayah);
+                            setShowQuickPanel(false);
+                          }}
+                        >
+                          Edit
+                        </button>
+                      </li>
+                    );
+                  })}
+                </ul>
+              ) : (
+                <div className="quick-empty">
+                  <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
+                    <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                    <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+                  </svg>
+                  <p>No notes yet</p>
+                  <span>Tap the note icon on any ayah to add thoughts</span>
+                </div>
+              )}
+            </div>
           </div>
         )}
       </QuickPanel>

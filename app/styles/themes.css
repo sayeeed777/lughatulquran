@@ -336,6 +336,27 @@
   backdrop-filter: blur(20px) saturate(180%);
 }
 
+/* Quick panel surfaces */
+:root[data-theme="light"] .study-card,
+:root[data-theme="light"] .study-settings-group,
+:root[data-theme="light"] .search-results li,
+:root[data-theme="light"] .quick-list-item,
+:root[data-theme="light"] .tool-toggle {
+  background: rgba(250, 248, 245, 0.75);
+  border: 1px solid rgba(66, 82, 54, 0.12);
+}
+
+:root[data-theme="light"] .study-card h4,
+:root[data-theme="light"] .study-settings-title {
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .study-toggle-list,
+:root[data-theme="light"] .study-premium-sliders {
+  background: rgba(66, 82, 54, 0.04);
+  border: 1px solid rgba(66, 82, 54, 0.08);
+}
+
 /* Study rail */
 :root[data-theme="light"] .study-rail {
   background: rgba(240, 231, 219, 0.92);
@@ -358,6 +379,57 @@
   background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
   color: #f0e7db;
   box-shadow: 0 6px 16px rgba(66, 82, 54, 0.2);
+}
+
+/* Tajweed colors — light mode tuning */
+:root[data-theme="light"] .study-mode-container tajweed {
+  color: #2e7a66;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.ham_wasl {
+  color: #7f8a82;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.laam_shamsiyah {
+  color: #b8842e;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.laam_qamariyah {
+  color: #3b6fa3;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.madda_normal,
+:root[data-theme="light"] .study-mode-container tajweed.madda_permissible,
+:root[data-theme="light"] .study-mode-container tajweed.madda_obligatory {
+  color: #3b6fa3;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.madda_necessary {
+  color: #b2553b;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.qalqalah {
+  color: #b84242;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.ikhafa,
+:root[data-theme="light"] .study-mode-container tajweed.ikhafa_shafawi,
+:root[data-theme="light"] .study-mode-container tajweed.ikhfaa {
+  color: #6a4bb3;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.iqlab {
+  color: #2b7ba3;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.idgham_with_ghunnah,
+:root[data-theme="light"] .study-mode-container tajweed.idgham_shafawi,
+:root[data-theme="light"] .study-mode-container tajweed.ghunnah {
+  color: #2f7d4b;
+}
+
+:root[data-theme="light"] .study-mode-container tajweed.idgham_without_ghunnah {
+  color: #2c6aa6;
 }
 
 /* Toggle switch */
