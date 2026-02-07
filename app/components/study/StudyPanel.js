@@ -1,8 +1,6 @@
 "use client";
 
-import ReadingPlan from "./ReadingPlan";
-import BookmarkList from "./BookmarkList";
-import NoteList from "./NoteList";
+import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
 
 export default function StudyPanel({
   surahs,

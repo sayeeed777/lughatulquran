@@ -1,20 +1,32 @@
-export { default as SurahList } from "./SurahList";
-export { default as AyahCard } from "./AyahCard";
-export { default as AudioPlayer } from "./AudioPlayer";
-export { default as StudyPanel } from "./StudyPanel";
-export { default as StudyModeView } from "./StudyModeView";
-export { default as ReadingPlan } from "./ReadingPlan";
-export { default as BookmarkList } from "./BookmarkList";
-export { default as NoteList } from "./NoteList";
-export { default as CompareModal } from "./CompareModal";
-export { default as NoteModal } from "./NoteModal";
-export { default as ReaderPanel } from "./ReaderPanel";
+/**
+ * Components Barrel Export
+ * 
+ * Organized component structure:
+ * - common/   → Shared UI primitives (Tooltip, ProgressBar, etc.)
+ * - modals/   → Modal/overlay components
+ * - reader/   → Main reading panel components
+ * - study/    → Study mode components  
+ * - sidebar/  → Left sidebar components
+ * - skeletons/ → Loading state components
+ */
+
+// Common UI Components
+export { Tooltip, ProgressBar, BackToTop, AudioPlayer, SectionErrorBoundary } from "./common";
+
+// Modal Components
+export { SettingsModal, CompareModal, NoteModal, KeyboardShortcutsHelp } from "./modals";
+
+// Reader Components
+export { ReaderPanel, AyahCard, BismillahBanner } from "./reader";
+
+// Study Mode Components
+export { StudyModeView, StudyPanel } from "./study";
+
+// Sidebar Components
+export { SurahList, LastReadCard, BookmarkList, NoteList, ReadingPlan } from "./sidebar";
+
+// Error Boundary (root level)
 export { default as ErrorBoundary } from "./ErrorBoundary";
-export { default as BismillahBanner } from "./BismillahBanner";
-export { default as ProgressBar } from "./ProgressBar";
-export { default as LastReadCard } from "./LastReadCard";
-export { default as Tooltip } from "./Tooltip";
-export { default as KeyboardShortcutsHelp } from "./KeyboardShortcutsHelp";
-export { default as BackToTop } from "./BackToTop";
-export { default as SettingsModal } from "./SettingsModal";
+
+// Skeleton Components
 export * from "./skeletons";

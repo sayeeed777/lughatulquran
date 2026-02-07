@@ -2,105 +2,11 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import AudioPlayer from "./AudioPlayer";
-import ProgressBar from "./ProgressBar";
-import { useLocalStorage } from "../hooks";
-import { getLocalDateString } from "../lib/utils";
-
-// Progress Ring Component
-const ProgressRing = ({ progress, size = 40, strokeWidth = 3 }) => {
-  const radius = (size - strokeWidth) / 2;
-  const circumference = radius * 2 * Math.PI;
-  const offset = circumference - (progress / 100) * circumference;
-
-  return (
-    <svg width={size} height={size} className="progress-ring">
-      <circle
-        className="progress-ring-bg"
-        strokeWidth={strokeWidth}
-        fill="transparent"
-        r={radius}
-        cx={size / 2}
-        cy={size / 2}
-      />
-      <circle
-        className="progress-ring-fill"
-        strokeWidth={strokeWidth}
-        strokeLinecap="round"
-        fill="transparent"
-        r={radius}
-        cx={size / 2}
-        cy={size / 2}
-        style={{
-          strokeDasharray: circumference,
-          strokeDashoffset: offset,
-          transform: "rotate(-90deg)",
-          transformOrigin: "50% 50%",
-        }}
-      />
-    </svg>
-  );
-};
-
-// Floating Action Button
-const FloatingButton = ({ icon, label, onClick, active, variant = "default" }) => (
-  <motion.button
-    className={`study-fab ${variant} ${active ? "active" : ""}`}
-    onClick={onClick}
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-    title={label}
-  >
-    {icon}
-  </motion.button>
-);
-
-// Quick Panel Component (Docked/overlay panel)
-const QuickPanel = ({ isOpen, onClose, title, children }) => (
-  <AnimatePresence>
-    {isOpen && (
-      <>
-        <motion.div
-          className="quick-panel-backdrop"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          onClick={onClose}
-        />
-        <motion.aside
-          className="quick-panel"
-          initial={{ x: "100%", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: "100%", opacity: 0 }}
-          transition={{ type: "spring", damping: 30, stiffness: 300 }}
-        >
-          <div className="quick-panel-header">
-            <span className="quick-panel-title">{title}</span>
-            <button className="quick-panel-close" onClick={onClose}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <div className="quick-panel-content">
-            {children}
-          </div>
-        </motion.aside>
-      </>
-    )}
-  </AnimatePresence>
-);
-
-// Stats Card Component
-const StatCard = ({ label, value, icon, color }) => (
-  <div className="study-stat-card" style={{ "--stat-color": color }}>
-    <div className="stat-icon">{icon}</div>
-    <div className="stat-info">
-      <span className="stat-value">{value}</span>
-      <span className="stat-label">{label}</span>
-    </div>
-  </div>
-);
+import { AudioPlayer, ProgressBar } from "../common";
+import { useLocalStorage } from "../../hooks";
+import { getLocalDateString } from "../../lib/utils";
+import { fetchJSON } from "../../lib/apiClient";
+import { ProgressRing, FloatingButton, QuickPanel, StatCard } from "./StudyComponents";
 
 export default function StudyModeView({
   selectedSurah,
@@ -343,11 +249,11 @@ export default function StudyModeView({
     setSearchLoading(true);
     setSearchError(null);
     try {
-      const response = await fetch(`/api/search?q=${encodeURIComponent(query)}`);
-      const payload = await response.json();
-      if (!response.ok) {
-        throw new Error(payload?.error || "Search failed.");
-      }
+      const payload = await fetchJSON(`/api/search?q=${encodeURIComponent(query)}`, {
+        ttl: 2 * 60 * 1000,
+        retries: 1,
+        retryDelay: 250
+      });
       setSearchResults(Array.isArray(payload?.results) ? payload.results : []);
     } catch (error) {
       setSearchError(error.message || "Search failed.");

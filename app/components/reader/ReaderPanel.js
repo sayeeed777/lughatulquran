@@ -2,13 +2,11 @@
 
 import { useMemo, useState, useRef, useEffect } from "react";
 import AyahCard from "./AyahCard";
-import AudioPlayer from "./AudioPlayer";
+import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
-import ProgressBar from "./ProgressBar";
-import BackToTop from "./BackToTop";
-import SettingsModal from "./SettingsModal";
-import { AyahListSkeleton } from "./skeletons";
-import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../lib/constants";
+import { SettingsModal } from "../modals";
+import { AyahListSkeleton } from "../skeletons";
+import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib/constants";
 
 export default function ReaderPanel({
   selectedSurah,
@@ -52,6 +50,7 @@ export default function ReaderPanel({
   nowPlayingLabel,
   reciterLabel,
   error,
+  onRetry,
   loadingSurahData,
   isAutoPlaying,
   isAudioPaused,
@@ -218,10 +217,10 @@ export default function ReaderPanel({
       )}
 
       {/* Apple-Style Settings Modal */}
-        <SettingsModal
-          isOpen={isMobileSettingsOpen}
-          onClose={() => openMobileSettings(false)}
-          translations={ALL_TRANSLATIONS}
+      <SettingsModal
+        isOpen={isMobileSettingsOpen}
+        onClose={() => openMobileSettings(false)}
+        translations={ALL_TRANSLATIONS}
         selectedTranslations={selectedTranslations}
         setSelectedTranslations={setSelectedTranslations}
         fontScale={fontScale}
@@ -348,7 +347,13 @@ export default function ReaderPanel({
         showPlayerBar={false}
       />
 
-      {error && <p className="status error">{error}</p>}
+      {error && (
+        <InlineError
+          title="Reader unavailable"
+          message={error}
+          onRetry={onRetry}
+        />
+      )}
 
       {loadingSurahData ? (
         <AyahListSkeleton count={7} />

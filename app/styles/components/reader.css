@@ -1,0 +1,583 @@
+.reader-panel .panel-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 96px;
+}
+
+.reader-panel .panel-header>div:first-child {
+  text-align: center;
+  max-width: 100%;
+}
+
+.reader-panel .panel-header .header-action-btns {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 0;
+}
+
+.reader-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+/* Quick Controls Row - inline sliders and play button */
+.quick-controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 12px 0;
+}
+
+.quick-controls-row .sliders-row {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.quick-controls-row .quick-slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+
+.quick-controls-row .quick-slider span {
+  white-space: nowrap;
+  color: var(--accent-2);
+  min-width: 65px;
+}
+
+.quick-controls-row .quick-slider input[type="range"] {
+  width: 100px;
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.12);
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.quick-controls-row .quick-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  cursor: pointer;
+}
+
+.quick-controls-row .action-btn {
+  white-space: nowrap;
+}
+
+.quick-controls-row .action-btn.play-btn {
+  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  color: #f4fffb;
+  border: none;
+}
+
+.quick-controls-row .action-btn.play-btn:hover {
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
+}
+
+.quick-controls-row .action-btn.stop-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+  border: none;
+}
+
+.quick-controls-row .action-btn.stop-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--text-primary);
+}
+
+.reader-quick {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  background: transparent;
+  overflow: hidden;
+}
+
+.quick-slider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.7rem;
+  color: var(--muted);
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.quick-slider span {
+  white-space: nowrap;
+}
+
+.quick-slider input[type="range"] {
+  width: 100%;
+  max-width: 100px;
+  min-width: 70px;
+}
+
+.quick-play {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 0 0 auto;
+}
+
+.quick-play .play-surah-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text);
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.quick-play .play-surah-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.quick-play .stop-btn {
+  background: rgba(248, 113, 113, 0.15);
+  color: #ffc9c9;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.quick-play .stop-btn:hover {
+  background: rgba(248, 113, 113, 0.25);
+}
+
+.reader-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.reader-search {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  flex: 1 1 280px;
+}
+
+.reader-search span {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.reader-search input {
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  color: var(--text);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.reader-search input::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.reader-search input:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.reader-search input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.2);
+}
+
+.go-ayah {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.go-ayah label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.go-ayah input {
+  width: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  color: var(--text);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.go-ayah input::placeholder {
+  color: var(--muted);
+  opacity: 0.7;
+}
+
+.go-ayah input:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.go-ayah input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.2);
+}
+
+.word-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.reader-controls .control {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.reader-controls input[type="range"] {
+  width: 180px;
+}
+
+.reader-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  overflow: visible;
+}
+
+.reader-panel .panel-header {
+  position: relative;
+}
+
+.translation-toggle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.translation-toggle button {
+  border-radius: var(--radius-sm);
+  padding: 8px 16px;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+}
+
+.translation-toggle button:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.translation-toggle button:active {
+  transform: scale(0.97);
+}
+
+.translation-toggle button.active {
+  background: rgba(111, 212, 177, 0.18);
+  color: var(--accent-2);
+}
+
+.translation-toggle-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.translation-toggle-mobile button {
+  width: 100%;
+  text-align: left;
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.translation-toggle-mobile button:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.translation-toggle-mobile button.active {
+  background: linear-gradient(135deg, rgba(111, 212, 177, 0.25), rgba(111, 212, 177, 0.15));
+  color: #d8fff0;
+}
+
+.ayah-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.ayah-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: none;
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  animation: fadeUp 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: calc(var(--i) * 0.015s);
+  scroll-margin-top: 120px;
+  content-visibility: auto;
+  contain-intrinsic-size: 220px;
+  transition: all 0.2s ease;
+}
+
+.ayah-card:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.ayah-card.focused {
+  background: rgba(111, 212, 177, 0.04);
+}
+
+.ayah-card.focused .ayah-number {
+  color: var(--accent-2);
+}
+
+.ayah-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.ayah-number {
+  font-size: 0.85rem;
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.ayah-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  opacity: 0;
+  transform: translateY(-4px);
+  pointer-events: none;
+  transition: all 0.2s ease;
+}
+
+.ayah-card:hover .ayah-actions,
+.ayah-card:focus-within .ayah-actions,
+.ayah-card.focused .ayah-actions {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.ayah-arabic {
+  font-family: var(--font-arabic), serif;
+  font-size: calc(1.65rem * var(--arabic-scale));
+  /* Desktop: Slightly larger (26px) */
+  line-height: 2.1;
+  text-align: right;
+  letter-spacing: 0;
+  word-spacing: 0.12em;
+  font-variant-ligatures: contextual;
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+  margin: 12px 0 8px;
+}
+
+.ayah-translation {
+  color: var(--muted);
+  font-size: calc(var(--text-base) * var(--translation-scale));
+  line-height: 1.5;
+}
+
+.word-row {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 10px;
+}
+
+.word-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 6px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.word-ar {
+  font-family: var(--font-arabic), serif;
+  font-size: 1rem;
+  color: var(--text);
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+.word-en {
+  font-size: 0.7rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.ayah-card.skeleton {
+  padding: 20px;
+  margin-bottom: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: var(--radius-md);
+}
+
+/* Bismillah Banner */
+.bismillah-banner {
+  text-align: center;
+  padding: 28px 24px;
+  margin-bottom: 28px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-md);
+}
+
+.bismillah-arabic {
+  font-family: var(--font-arabic);
+  font-size: calc(2rem * var(--arabic-scale));
+  line-height: 1.8;
+  color: var(--text-primary);
+  margin: 0 0 10px;
+}
+
+.bismillah-translation {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0;
+}
+
+/* Progress Bar */
+.progress-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progress-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.progress-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.progress-text {
+  font-size: 0.75rem;
+  color: var(--accent-2);
+  font-weight: 600;
+  min-width: 40px;
+  text-align: right;
+}
+
+/* Ayah card enhancements */
+.ayah-card {
+  transition: all 0.3s ease;
+}
+
+.ayah-card:hover {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.ayah-card.focused {
+  animation: none;
+}
+
+/* Enhanced typography for focus */
+.content.reading .ayah-arabic {
+  font-size: calc(clamp(2.2rem, 3vw, 3rem) * var(--arabic-scale));
+  line-height: 2.4;
+  letter-spacing: 0.01em;
+}
+
+.content.reading .ayah-translation {
+  font-size: calc(var(--text-lg) * var(--translation-scale));
+  line-height: 1.9;
+  color: var(--muted);
+}
+
+.content.reading .ayah-list {
+  gap: 64px;
+}
+
+.content.reading .ayah-card {
+  padding: 32px 0;
+}
+
+/* Hide reader toolbar in focus */
+.content.reading .reader-quick,
+.content.reading .reader-toolbar,
+.content.reading .quick-controls-row {
+  display: none;
+}

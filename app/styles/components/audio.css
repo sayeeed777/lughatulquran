@@ -1,0 +1,103 @@
+.audio-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  border: none;
+  background: rgba(15, 34, 39, 0.95);
+  flex-wrap: wrap;
+}
+
+.audio-bar .audio-info {
+  flex: 1;
+  min-width: 150px;
+}
+
+.audio-bar .audio-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.audio-bar .surah-play-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.audio-bar .play-surah-btn {
+  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  color: #f4fffb;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.audio-bar .play-surah-btn:hover {
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
+}
+
+.audio-bar .stop-btn {
+  background: rgba(248, 113, 113, 0.15);
+  color: #ffc9c9;
+  padding: 10px 18px;
+  border-radius: var(--radius-sm);
+  border: none;
+  font-weight: 500;
+  font-size: var(--text-sm);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.audio-bar .stop-btn:hover {
+  background: rgba(248, 113, 113, 0.25);
+}
+
+.audio-bar .label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent-2);
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.audio-bar audio {
+  width: 240px;
+  height: 36px;
+  border-radius: var(--radius-sm);
+}
+
+.audio-placeholder {
+  font-size: 0.75rem;
+  color: var(--muted);
+  padding: 8px 16px;
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Audio bar playing animation */
+.audio-bar.playing {
+  border-color: var(--accent-2);
+}
+
+.audio-bar.playing::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  animation: audioProgress 2s linear infinite;
+}

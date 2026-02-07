@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import SurahListSkeleton from "./skeletons/SurahListSkeleton";
+import { SurahListSkeleton } from "../skeletons";
+import { InlineError } from "../common";
 
 // Move animation objects outside component to prevent recreation on every render
 const container = {
@@ -27,6 +28,8 @@ export default function SurahList({
   setQuery,
   onSelectSurah,
   loading,
+  error,
+  onRetry,
   onOpenSearch,
   onOpenSettings,
   onToggleTheme,
@@ -172,6 +175,14 @@ export default function SurahList({
           onChange={(event) => setQuery?.(event.target.value)}
         />
       </div>
+      {error && (
+        <InlineError
+          title="Surahs unavailable"
+          message={error}
+          onRetry={onRetry}
+          compact
+        />
+      )}
       <motion.ul
         className="surah-list"
         variants={container}

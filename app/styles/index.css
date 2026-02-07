@@ -1,0 +1,47 @@
+/**
+ * Styles Entry Point
+ * 
+ * This file imports all CSS modules in the correct order.
+ * The modular architecture improves maintainability and reduces cognitive load.
+ * 
+ * Import Order (critical for CSS specificity):
+ * 1. Base - Variables, fonts, reset, typography
+ * 2. Layout - App structure, grid, panels
+ * 3. Legacy - Unmigrated component styles
+ * 4. Components - Migrated modules (override legacy when needed)
+ * 5. Themes - Light/dark mode overrides
+ */
+
+/* === Foundation === */
+@import './base.css';
+@import './layout.css';
+
+/* === Legacy (Unmigrated) === */
+/* 
+ * The globals.css file contains all component styles.
+ * As we refactor, styles will be moved to:
+ * - ./components/surah.css
+ * - ./components/reader.css  
+ * - ./components/study.css
+ * - ./components/settings.css
+ * - ./components/modals.css
+ */
+@import '../globals.css';
+
+/* === Components (Migrated Modules) === */
+@import './components/common.css';
+@import './components/sidebar.css';
+@import './components/reader.css';
+@import './components/audio.css';
+@import './components/study.css';
+@import './components/settings.css';
+@import './themes.css';
+
+/* 
+ * Note: globals.css is imported before migrated modules.
+ * New component modules should be imported after globals.css so they
+ * can override legacy styles as we refactor.
+ * 
+ * The end goal is to remove globals.css entirely once all styles
+ * are properly modularized.
+ */

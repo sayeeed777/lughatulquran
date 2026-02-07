@@ -1,0 +1,329 @@
+.surah-panel {
+  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 16px;
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+}
+
+/* Guard against older header layouts putting the search inline */
+.surah-panel .panel-header {
+  flex-wrap: wrap;
+}
+
+.surah-panel .panel-header .search {
+  flex: 1 1 100%;
+  width: 100%;
+  min-width: 0;
+  margin-top: 10px;
+}
+
+/* Surah Panel Specific Styles */
+.surah-panel-header {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.surah-panel-header h2 {
+  font-size: 1.5rem;
+  /* Increased from 1rem to 24px (Title 2) */
+  color: var(--text);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.surah-panel-header .surah-study-btn {
+  height: 34px;
+  padding: 0 12px;
+  font-size: 0.78rem;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.surah-search-wrapper {
+  margin-bottom: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+.surah-search-wrapper .search {
+  flex: unset;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-size: var(--text-sm);
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+  border-radius: var(--radius-md);
+  color: var(--text);
+  transition: all 0.2s ease;
+}
+
+.surah-search-wrapper .search:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.surah-search-wrapper .search::placeholder {
+  color: var(--muted);
+}
+
+.surah-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.surah-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.surah-list::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.surah-item {
+  width: 100%;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 32px 1fr auto;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: transparent;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.surah-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.surah-item.active {
+  background: rgba(111, 212, 177, 0.08);
+}
+
+.surah-item:last-child {
+  margin-bottom: 0;
+}
+
+.surah-number {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: var(--text);
+  font-size: 0.7rem;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: var(--radius-sm);
+  border: none;
+}
+
+.surah-names {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.surah-english {
+  font-weight: 500;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.surah-translation {
+  font-size: 0.7rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.surah-arabic {
+  font-family: var(--font-arabic), serif;
+  font-size: 0.95rem;
+  color: var(--accent-2);
+  font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
+  text-rendering: optimizeLegibility;
+}
+
+.mobile-surah-results .surah-item {
+  padding: 10px 12px;
+}
+
+.mobile-surah-results .surah-item:hover {
+  transform: none;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.study-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 24px;
+  max-height: calc(100vh - 48px);
+  overflow-y: auto;
+}
+
+.study-panel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.study-panel::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.study-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  border: none;
+}
+
+.study-section h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+
+.study-section:last-child {
+  margin-bottom: 0;
+}
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+.field input,
+.field select,
+.note-body textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+}
+
+.field input:focus,
+.field select:focus,
+.note-body textarea:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.plan-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 12px;
+}
+
+.plan-range {
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+.study-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.study-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 12px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.study-item:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.surah-item.skeleton {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: var(--radius-sm);
+  margin-bottom: 8px;
+}
+
+.surah-number-skeleton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Surah item hover enhancement */
+.surah-item {
+  transition: all 0.2s ease;
+}
+
+.surah-item:hover {
+  transform: translateX(4px);
+}

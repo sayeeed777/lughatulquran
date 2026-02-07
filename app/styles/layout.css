@@ -1,0 +1,133 @@
+/**
+ * Layout Styles
+ * App container, content grid, panels, topbar, logo
+ */
+
+/* =============================================
+   App Container
+   ============================================= */
+
+.app {
+    position: relative;
+    z-index: 1;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 24px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* =============================================
+   Top Bar
+   ============================================= */
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+.topbar-actions {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+/* =============================================
+   Logo
+   ============================================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-mark {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--radius-md);
+    display: grid;
+    place-items: center;
+    color: var(--accent);
+    background:
+        radial-gradient(120% 120% at 10% 10%, rgba(255, 255, 255, 0.18), transparent 55%),
+        linear-gradient(135deg, #1a262b 0%, #0b1418 100%);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.logo-mark svg {
+    width: 24px;
+    height: 24px;
+}
+
+.logo-text {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 6px;
+}
+
+.logo-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    line-height: 1;
+}
+
+.logo-sub {
+    font-size: 1.15rem;
+    letter-spacing: -0.01em;
+    text-transform: none;
+    color: var(--accent-2);
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* =============================================
+   Content Grid
+   ============================================= */
+
+.content {
+    display: grid;
+    grid-template-columns: 280px minmax(0, 1fr) 300px;
+    gap: 20px;
+}
+
+.content.reading {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.content.reading .surah-panel,
+.content.reading .study-panel {
+    display: none;
+}
+
+/* =============================================
+   Panels (Base)
+   ============================================= */
+
+.panel {
+    background: transparent;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    border: none;
+    border-radius: var(--radius-lg);
+    padding: 20px;
+    overflow: visible;
+}
+
+.panel-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 12px;
+}

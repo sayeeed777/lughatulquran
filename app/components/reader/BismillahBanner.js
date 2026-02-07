@@ -1,6 +1,6 @@
 "use client";
 
-import { BISMILLAH, BISMILLAH_TRANSLATION, NO_BISMILLAH_SURAHS } from "../lib/constants";
+import { BISMILLAH, BISMILLAH_TRANSLATION, NO_BISMILLAH_SURAHS } from "../../lib/constants";
 
 export default function BismillahBanner({ surahNumber }) {
   // Don't show for Al-Fatihah (Bismillah is ayah 1) or At-Tawbah (no Bismillah)

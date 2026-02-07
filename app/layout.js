@@ -1,4 +1,4 @@
-import "./globals.css";
+import "./styles/index.css";
 import { Fraunces, Manrope } from "next/font/google";
 import Script from "next/script";
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { Component } from "react";
+import { reportError } from "../lib/telemetry";
 
 export default class ErrorBoundary extends Component {
   constructor(props) {
@@ -14,8 +15,7 @@ export default class ErrorBoundary extends Component {
 
   componentDidCatch(error, errorInfo) {
     this.setState({ errorInfo });
-    // You can log to an error reporting service here
-    console.error("ErrorBoundary caught an error:", error, errorInfo);
+    reportError(error, { componentStack: errorInfo?.componentStack });
   }
 
   handleRetry = () => {
