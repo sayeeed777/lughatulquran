@@ -1,5 +1,26 @@
 "use client";
 
+import type { Dispatch, SetStateAction } from "react";
+
+type Surah = {
+  englishName: string;
+};
+
+type NoteTarget = {
+  surah: number;
+  ayah: number;
+  key: string;
+} | null;
+
+type NoteModalProps = {
+  noteTarget: NoteTarget;
+  noteDraft: string;
+  setNoteDraft: Dispatch<SetStateAction<string>>;
+  surahByNumber: Map<number, Surah>;
+  onClose: () => void;
+  onSave: () => void;
+};
+
 export default function NoteModal({
   noteTarget,
   noteDraft,
@@ -7,7 +28,7 @@ export default function NoteModal({
   surahByNumber,
   onClose,
   onSave
-}) {
+}: NoteModalProps) {
   if (!noteTarget) {
     return null;
   }
@@ -19,8 +40,7 @@ export default function NoteModal({
           <p className="eyebrow">Notes</p>
           <h3>
             {surahByNumber.get(noteTarget.surah)?.englishName ||
-              `Surah ${noteTarget.surah}`}{" "}
-            - Ayah {noteTarget.ayah}
+              `Surah ${noteTarget.surah}`} - Ayah {noteTarget.ayah}
           </h3>
         </div>
         <button className="close-btn" onClick={onClose}>

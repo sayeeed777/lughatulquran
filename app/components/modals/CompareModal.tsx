@@ -1,6 +1,30 @@
 "use client";
 
-const ALL_TRANSLATIONS = [
+type Translation = { id: string; label: string };
+
+type AyahTranslation = { text?: string };
+
+type Ayah = {
+  number: number;
+  arabic?: string;
+  translations?: Record<string, AyahTranslation>;
+};
+
+type Surah = {
+  name: string;
+  englishName: string;
+};
+
+type CompareModalProps = {
+  selectedAyah: Ayah | null;
+  selectedSurah: Surah | null;
+  selectedAyahKey: string | null;
+  taqiCache: Record<string, string>;
+  taqiLoading: Record<string, boolean>;
+  onClose: () => void;
+};
+
+const ALL_TRANSLATIONS: Translation[] = [
   { id: "en.sahih", label: "Sahih International" },
   { id: "en.arberry", label: "A.J. Arberry" },
   { id: "en.pickthall", label: "Pickthall" },
@@ -15,13 +39,14 @@ export default function CompareModal({
   taqiCache,
   taqiLoading,
   onClose
-}) {
+}: CompareModalProps) {
   if (!selectedAyah || !selectedSurah) {
     return null;
   }
 
   const taqiText = selectedAyahKey ? taqiCache[selectedAyahKey] : null;
-  const formatArabic = (text) => text;
+  const isTaqiLoading = selectedAyahKey ? taqiLoading[selectedAyahKey] : false;
+  const formatArabic = (text?: string) => text ?? "";
 
   return (
     <div className="compare-panel" role="dialog" aria-modal="true">
@@ -52,7 +77,7 @@ export default function CompareModal({
             <div key={translation.id} className="compare-block">
               <p className="label">{translation.label}</p>
               <p className="compare-text">
-                {isTaqi && taqiLoading[selectedAyahKey]
+                {isTaqi && isTaqiLoading
                   ? "Loading translation..."
                   : translationText || "Translation unavailable."}
               </p>

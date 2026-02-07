@@ -1,12 +1,115 @@
 "use client";
 
-import { useMemo, useState, useRef, useEffect } from "react";
+import { useMemo, useState, useEffect } from "react";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
 import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib/constants";
+
+type Surah = {
+  number: number;
+  name: string;
+  englishName: string;
+  englishNameTranslation: string;
+  numberOfAyahs: number;
+  revelationType: string;
+};
+
+type AyahTranslation = {
+  text?: string;
+};
+
+type Ayah = {
+  number: number;
+  arabic?: string;
+  translations?: Record<string, AyahTranslation>;
+};
+
+type SurahData = {
+  ayahs?: Ayah[];
+};
+
+type Word = {
+  arabic: string;
+  translation?: string;
+  audioUrl?: string;
+};
+
+type WordByAyah = Record<number, Word[]>;
+
+type WordBySurah = Record<number, WordByAyah>;
+
+type NowPlaying = { surah: number; ayah: number } | null;
+
+type FontScale = { arabic: number; translation: number };
+
+type Reciter = { id: string; label: string; baseUrl: string };
+
+type ArabicFont = { id: string; label: string; css: string };
+
+type SetState<T> = (value: T | ((prev: T) => T)) => void;
+
+type ReaderPanelProps = {
+  selectedSurah: Surah | null;
+  surahData: SurahData | null;
+  filteredAyahs: Ayah[];
+  surahs: Surah[];
+  filteredSurahs: Surah[];
+  query?: string;
+  setQuery?: SetState<string>;
+  reciters?: Reciter[];
+  reciterId: string;
+  setReciterId: SetState<string>;
+  arabicFonts: ArabicFont[];
+  arabicFontId: string;
+  setArabicFontId: SetState<string>;
+  selectedTranslations: string[];
+  setSelectedTranslations: SetState<string[]>;
+  ayahQuery: string;
+  setAyahQuery: SetState<string>;
+  goToAyahInput: string;
+  setGoToAyahInput: SetState<string>;
+  handleGoToAyah: () => void;
+  showWordByWord: boolean;
+  setShowWordByWord: SetState<boolean>;
+  showMobileSettings?: boolean;
+  setShowMobileSettings?: SetState<boolean>;
+  showMobileSearch?: boolean;
+  setShowMobileSearch?: SetState<boolean>;
+  wordLoading: boolean;
+  wordError: string | null;
+  wordByAyah: WordBySurah;
+  fontScale: FontScale;
+  setFontScale: SetState<FontScale>;
+  bookmarks: string[];
+  notes: Record<string, string>;
+  focusedAyahKey: string | null;
+  setFocusedAyahKey: SetState<string | null>;
+  copiedKey: string | null;
+  nowPlaying: NowPlaying;
+  audioSrc: string | null;
+  nowPlayingLabel: string;
+  reciterLabel: string;
+  error: string | null;
+  onRetry: () => void;
+  loadingSurahData: boolean;
+  isAutoPlaying: boolean;
+  isAudioPaused: boolean;
+  onPlaySurah: (startFromAyah?: number) => void;
+  onStopAutoPlay: () => void;
+  onAudioEnded: () => void;
+  onPlay: (surah: number, ayah: number) => void;
+  onTogglePlay?: (surah: number, ayah: number) => void;
+  onToggleBookmark: (surah: number, ayah: number) => void;
+  onOpenNote: (surah: number, ayah: number) => void;
+  onCompare: (ayah: Ayah) => void;
+  onCopyLink?: (surah: number, ayah: number) => void;
+  onSelectSurah?: (surah: Surah) => void;
+  verseKey: (surah: number, ayah: number) => string;
+  clamp: (value: number, min: number, max: number) => number;
+};
 
 export default function ReaderPanel({
   selectedSurah,
@@ -66,22 +169,22 @@ export default function ReaderPanel({
   onSelectSurah,
   verseKey,
   clamp
-}) {
-  const formatArabic = (text) => text;
+}: ReaderPanelProps) {
+  const formatArabic = (text?: string) => text ?? "";
 
   // -- Deferred Rendering State --
   const [visibleCount, setVisibleCount] = useState(15);
 
   // Reset visible count when surah changes or filter updates
   useEffect(() => {
-    const isMobile = typeof window !== 'undefined' && window.innerWidth < 768;
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
     // 1. Immediate Render: Small batch for speed
     let targetCount = isMobile ? 15 : filteredAyahs.length;
 
     // Deep link support: Ensure focused ayah is visible immediately
     if (focusedAyahKey) {
-      const parts = focusedAyahKey.split(':');
+      const parts = focusedAyahKey.split(":");
       if (parts.length === 2) {
         const ayahNum = parseInt(parts[1], 10);
         if (!isNaN(ayahNum)) {
@@ -140,9 +243,7 @@ export default function ReaderPanel({
           <h2>
             {selectedSurah ? (
               <>
-                <span className="surah-title-english">
-                  {selectedSurah.englishName}
-                </span>
+                <span className="surah-title-english">{selectedSurah.englishName}</span>
                 <span className="surah-title-arabic" lang="ar" dir="rtl">
                   ({selectedSurah.name})
                 </span>
@@ -153,9 +254,8 @@ export default function ReaderPanel({
           </h2>
           {selectedSurah && (
             <p className="meta">
-              {selectedSurah.englishNameTranslation} -
-              {" " + selectedSurah.numberOfAyahs} ayahs -
-              {" " + selectedSurah.revelationType}
+              {selectedSurah.englishNameTranslation} -{" " + selectedSurah.numberOfAyahs} ayahs -{" " +
+                selectedSurah.revelationType}
             </p>
           )}
         </div>
@@ -199,17 +299,11 @@ export default function ReaderPanel({
             </div>
           </div>
           {isAutoPlaying ? (
-            <button
-              className="action-btn stop-btn"
-              onClick={onStopAutoPlay}
-            >
+            <button className="action-btn stop-btn" onClick={onStopAutoPlay}>
               ◼ Stop
             </button>
           ) : (
-            <button
-              className="action-btn play-btn"
-              onClick={() => onPlaySurah(1)}
-            >
+            <button className="action-btn play-btn" onClick={() => onPlaySurah(1)}>
               ▶ Play Surah
             </button>
           )}
@@ -240,7 +334,9 @@ export default function ReaderPanel({
           <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
             <div className="mobile-settings-header">
               <h3>Search</h3>
-              <button className="close-btn" onClick={() => openMobileSearch(false)}>✕</button>
+              <button className="close-btn" onClick={() => openMobileSearch(false)}>
+                ✕
+              </button>
             </div>
             <div className="mobile-settings-body">
               <div className="setting-group">
@@ -257,7 +353,9 @@ export default function ReaderPanel({
                     mobileSurahResults.map((surah) => (
                       <button
                         key={surah.number}
-                        className={`surah-item mobile-surah-item${selectedSurah?.number === surah.number ? " active" : ""}`}
+                        className={`surah-item mobile-surah-item${
+                          selectedSurah?.number === surah.number ? " active" : ""
+                        }`}
                         onClick={() => {
                           onSelectSurah?.(surah);
                           openMobileSearch(false);
@@ -266,9 +364,7 @@ export default function ReaderPanel({
                         <span className="surah-number">{surah.number}</span>
                         <span className="surah-names">
                           <span className="surah-english">{surah.englishName}</span>
-                          <span className="surah-translation">
-                            {surah.englishNameTranslation}
-                          </span>
+                          <span className="surah-translation">{surah.englishNameTranslation}</span>
                         </span>
                         <span className="surah-arabic" lang="ar" dir="rtl">
                           {surah.name}
@@ -285,7 +381,11 @@ export default function ReaderPanel({
                 <input
                   type="text"
                   className="mobile-input"
-                  placeholder={isAyahSearchDisabled ? "Select a surah first" : "Ayah number or word in translation"}
+                  placeholder={
+                    isAyahSearchDisabled
+                      ? "Select a surah first"
+                      : "Ayah number or word in translation"
+                  }
                   value={ayahQuery || ""}
                   onChange={(event) => setAyahQuery(event.target.value)}
                   disabled={isAyahSearchDisabled}
@@ -299,14 +399,19 @@ export default function ReaderPanel({
                     className="mobile-input"
                     min={1}
                     max={selectedSurah?.numberOfAyahs || 1}
-                    placeholder={isAyahSearchDisabled ? "Select a surah first" : "Ayah number"}
+                    placeholder={
+                      isAyahSearchDisabled ? "Select a surah first" : "Ayah number"
+                    }
                     value={goToAyahInput || ""}
                     onChange={(event) => setGoToAyahInput(event.target.value)}
                     disabled={isAyahSearchDisabled}
                   />
                   <button
                     className="action-btn"
-                    onClick={() => { handleGoToAyah(); openMobileSearch(false); }}
+                    onClick={() => {
+                      handleGoToAyah();
+                      openMobileSearch(false);
+                    }}
                     disabled={isAyahSearchDisabled}
                   >
                     Go
@@ -321,12 +426,8 @@ export default function ReaderPanel({
                 >
                   {showWordByWord ? "✓ Enabled" : "Enable"}
                 </button>
-                {showWordByWord && wordLoading && (
-                  <span className="meta">Loading...</span>
-                )}
-                {showWordByWord && wordError && (
-                  <span className="meta error">Unavailable</span>
-                )}
+                {showWordByWord && wordLoading && <span className="meta">Loading...</span>}
+                {showWordByWord && wordError && <span className="meta error">Unavailable</span>}
               </div>
             </div>
           </div>
@@ -347,38 +448,28 @@ export default function ReaderPanel({
         showPlayerBar={false}
       />
 
-      {error && (
-        <InlineError
-          title="Reader unavailable"
-          message={error}
-          onRetry={onRetry}
-        />
-      )}
+      {error && <InlineError title="Reader unavailable" message={error} onRetry={onRetry} />}
 
       {loadingSurahData ? (
         <AyahListSkeleton count={7} />
-      ) : surahData ? (
+      ) : surahData && selectedSurah ? (
         filteredAyahs.length ? (
           <>
             {/* Show Bismillah banner before surahs (except Al-Fatihah and At-Tawbah) */}
-            {selectedSurah && !NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
+            {!NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
               <BismillahBanner surahNumber={selectedSurah.number} />
             )}
 
             {/* Reading progress indicator */}
-            <ProgressBar
-              current={currentAyahNumber}
-              total={selectedSurah?.numberOfAyahs || 0}
-            />
+            <ProgressBar current={currentAyahNumber} total={selectedSurah.numberOfAyahs || 0} />
 
             <ol className="ayah-list">
               {filteredAyahs.slice(0, visibleCount).map((ayah, index) => {
                 const key = verseKey(selectedSurah.number, ayah.number);
                 const isSaved = bookmarks.includes(key);
-                const hasNote = notes[key];
+                const hasNote = Boolean(notes[key]);
                 const isFocused = focusedAyahKey === key;
-                const words =
-                  wordByAyah[selectedSurah.number]?.[ayah.number] || [];
+                const words = wordByAyah[selectedSurah.number]?.[ayah.number] || [];
                 return (
                   <AyahCard
                     key={ayah.number}
@@ -406,7 +497,6 @@ export default function ReaderPanel({
                   />
                 );
               })}
-
             </ol>
             <BackToTop />
           </>

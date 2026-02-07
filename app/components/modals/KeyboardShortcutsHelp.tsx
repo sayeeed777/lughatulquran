@@ -2,11 +2,16 @@
 
 import { memo, useEffect } from "react";
 
-function KeyboardShortcutsHelp({ isOpen = true, onClose }) {
+type KeyboardShortcutsHelpProps = {
+  isOpen?: boolean;
+  onClose?: () => void;
+};
+
+function KeyboardShortcutsHelp({ isOpen = true, onClose }: KeyboardShortcutsHelpProps) {
   useEffect(() => {
     if (!isOpen || !onClose) return;
 
-    const handleEscape = (e) => {
+    const handleEscape = (e: KeyboardEvent) => {
       if (e.key === "Escape") onClose?.();
     };
 
@@ -32,7 +37,9 @@ function KeyboardShortcutsHelp({ isOpen = true, onClose }) {
       <div className="shortcuts-modal" onClick={(e) => e.stopPropagation()}>
         <div className="shortcuts-header">
           <h3>Keyboard Shortcuts</h3>
-          <button className="close-btn" onClick={onClose}>×</button>
+          <button className="close-btn" onClick={onClose}>
+            ×
+          </button>
         </div>
         <div className="shortcuts-list">
           {shortcuts.map(({ keys, action }) => (
