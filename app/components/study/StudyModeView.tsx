@@ -371,16 +371,26 @@ export default function StudyModeView({
     setShowQuickPanel(false);
   };
 
-  const handleWordAudio = (word: Word) => {
-    if (!word.audioUrl) return;
-    if (wordAudioRef.current) {
-      wordAudioRef.current.pause();
-      wordAudioRef.current.currentTime = 0;
+  const resolveWordAudioUrl = (audioUrl?: string) => {
+    if (!audioUrl) return "";
+    if (audioUrl.startsWith("http")) return audioUrl;
+    return `https://audio.qurancdn.com/${audioUrl.replace(/^\//, "")}`;
+  };
+
+  const handleWordAudio = (audioUrl?: string) => {
+    const resolvedUrl = resolveWordAudioUrl(audioUrl);
+    if (!resolvedUrl) return;
+    const audio = wordAudioRef.current;
+    if (audio) {
+      if (audio.src !== resolvedUrl) {
+        audio.src = resolvedUrl;
+        audio.load();
+      }
+      audio.pause();
+      audio.currentTime = 0;
+      audio.play().catch(() => {});
     }
-    setWordAudioUrl(word.audioUrl);
-    setTimeout(() => {
-      wordAudioRef.current?.play().catch(() => {});
-    }, 100);
+    setWordAudioUrl(resolvedUrl);
   };
 
   const currentReciter = reciters?.find((r) => r.id === reciterId) || reciters?.[0];
@@ -516,22 +526,25 @@ export default function StudyModeView({
                       {wordLoading && words.length === 0 && (
                         <span className="meta">Loading words…</span>
                       )}
-                      {words.map((word, wordIndex) => (
-                        <button
-                          key={`${key}-${wordIndex}`}
-                          className={`study-word-chip${word.audioUrl && wordAudioUrl === word.audioUrl ? " playing" : ""}`}
-                          onClick={(event) => {
-                            event.stopPropagation();
-                            handleWordAudio(word);
-                          }}
-                          type="button"
-                        >
-                          <span className="word-ar" lang="ar" dir="rtl">
-                            {word.arabic}
-                          </span>
-                          {word.translation && <span className="word-en">{word.translation}</span>}
-                        </button>
-                      ))}
+                      {words.map((word, wordIndex) => {
+                        const resolvedAudioUrl = resolveWordAudioUrl(word.audioUrl);
+                        return (
+                          <button
+                            key={`${key}-${wordIndex}`}
+                            className={`study-word-chip${resolvedAudioUrl && wordAudioUrl === resolvedAudioUrl ? " playing" : ""}`}
+                            onClick={(event) => {
+                              event.stopPropagation();
+                              handleWordAudio(word.audioUrl);
+                            }}
+                            type="button"
+                          >
+                            <span className="word-ar" lang="ar" dir="rtl">
+                              {word.arabic}
+                            </span>
+                            {word.translation && <span className="word-en">{word.translation}</span>}
+                          </button>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
@@ -1155,7 +1168,7 @@ export default function StudyModeView({
       </QuickPanel>
 
       {/* Hidden audio element for word audio */}
-      <audio ref={wordAudioRef} src={wordAudioUrl || undefined} hidden />
+      <audio ref={wordAudioRef} hidden />
     </div>
   );
 }

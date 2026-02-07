@@ -4,6 +4,7 @@ import type { NextRequest } from "next/server";
 export const revalidate = 86400;
 
 const WORDS_BASE_URL = "https://api.quran.com/api/v4/verses/by_chapter";
+const WORD_AUDIO_BASE_URL = "https://audio.qurancdn.com/";
 
 type QuranComWord = {
   text_uthmani?: string;
@@ -55,10 +56,15 @@ const normalizeWord = (word: QuranComWord): NormalizedWord | null => {
       : word?.translation?.text || word?.translation?.translation_text) ||
     word?.transliteration?.text ||
     "";
-  const audioUrl =
+  const rawAudioUrl =
     word?.audio_url ||
     (typeof word?.audio === "string" ? word.audio : word?.audio?.url || word?.audio?.mp3) ||
     "";
+  const audioUrl = rawAudioUrl
+    ? rawAudioUrl.startsWith("http")
+      ? rawAudioUrl
+      : `${WORD_AUDIO_BASE_URL}${rawAudioUrl.replace(/^\//, "")}`
+    : "";
   return {
     arabic,
     translation,
