@@ -118,11 +118,11 @@ const fetchArabicText = async (chapterId: string | number): Promise<ArabicVerse[
 };
 
 type RouteContext = {
-  params: { id: string };
+  params: { id: string } | Promise<{ id: string }>;
 };
 
 export async function GET(_request: NextRequest, { params }: RouteContext) {
-  const { id } = params;
+  const { id } = await Promise.resolve(params);
   const surahNumber = Number(id);
 
   if (!id || Number.isNaN(surahNumber)) {

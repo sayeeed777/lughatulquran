@@ -144,7 +144,7 @@ export function useSurahs() {
   return { surahs, loading, error, surahByNumber, refetch };
 }
 
-export function useSurahDetails(surahNumber?: number | null) {
+export function useSurahDetails(surahNumber?: number | string | null) {
   const [surahData, setSurahData] = useState<SurahDetail | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -155,14 +155,16 @@ export function useSurahDetails(surahNumber?: number | null) {
   }, []);
 
   useEffect(() => {
-    if (!surahNumber) return;
+    if (surahNumber == null || surahNumber === "") return;
+    const surahId = typeof surahNumber === "string" ? Number(surahNumber) : surahNumber;
+    if (!Number.isFinite(surahId) || surahId < 1) return;
 
     let isMounted = true;
     const loadSurah = async () => {
       setLoading(true);
       setError(null);
       try {
-        const payload = await fetchJSON<SurahDetail>(`/api/surah/${surahNumber}`, {
+        const payload = await fetchJSON<SurahDetail>(`/api/surah/${surahId}`, {
           ttl: 10 * 60 * 1000,
           retries: 2,
           retryDelay: 300,

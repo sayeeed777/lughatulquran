@@ -292,7 +292,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="dashboard">
+        <section className="content">
           <SectionErrorBoundary title="Surah list unavailable">
             <SurahList
               surahs={surahs}

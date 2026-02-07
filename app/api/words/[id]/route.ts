@@ -75,11 +75,11 @@ const verseNumberFromKey = (key?: string | number | null): number | null => {
 };
 
 type RouteContext = {
-  params: { id: string };
+  params: { id: string } | Promise<{ id: string }>;
 };
 
 export async function GET(_request: NextRequest, { params }: RouteContext) {
-  const { id } = params;
+  const { id } = await Promise.resolve(params);
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }

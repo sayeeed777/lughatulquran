@@ -1,4 +1,4 @@
-import { useLocalStorage } from "./index";
+import { useLocalStorage } from "./common";
 import { STORAGE_KEYS, DEFAULT_PLAN, FONT_SCALE } from "../lib/constants";
 import { clamp } from "../lib/utils";
 

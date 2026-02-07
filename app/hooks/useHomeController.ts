@@ -9,15 +9,10 @@ import {
   parseVerseKey,
   copyToClipboard
 } from "../lib/utils";
-import {
-  useLocalStorage,
-  useLastRead,
-  useKeyboardShortcuts,
-  useAudioPlayback,
-  useBookmarks,
-  useNoteEditor,
-  useMemorization
-} from "./index";
+import { useLocalStorage, useLastRead, useKeyboardShortcuts } from "./common";
+import { useAudioPlayback } from "./useAudioPlayback";
+import { useBookmarks, useNoteEditor } from "./useBookmarks";
+import { useMemorization } from "./useMemorization";
 import {
   useSurahs,
   useSurahDetails,
