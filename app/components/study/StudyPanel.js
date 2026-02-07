@@ -2,6 +2,23 @@
 
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
 
+/**
+ * @param {{
+ *  surahs: any[],
+ *  surahByNumber: Map<number, any>,
+ *  readingPlan: any,
+ *  setReadingPlan: (value: any) => void,
+ *  planSummary: any,
+ *  sortedBookmarks: any[],
+ *  sortedNotes: any[],
+ *  onJumpToAyah: (surah: number, ayah: number) => void,
+ *  onToggleBookmark: (surah: number, ayah: number) => void,
+ *  onOpenNote: (surah: number, ayah: number) => void,
+ *  formatRangeLabel: (start: any, end: any) => string,
+ *  getLocalDateString: () => string,
+ *  lastRead?: any
+ * }} props
+ */
 export default function StudyPanel({
   surahs,
   surahByNumber,

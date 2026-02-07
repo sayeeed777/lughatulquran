@@ -3,8 +3,24 @@
 import { memo, useState, useCallback, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
+/**
+ * @typedef {{ id: string, label: string, short?: string }} Option
+ * @typedef {{ id: string, label: string, baseUrl?: string }} Reciter
+ * @typedef {{ id: string, label: string, css?: string }} ArabicFont
+ * @typedef {{ arabic: number, translation: number }} FontScale
+ *
+ * @typedef {{ options: Option[], value: string, onChange: (id: string) => void, size?: string }} SegmentedControlProps
+ * @typedef {{ options: Option[], selectedIds: string[], onChange: (ids: string[]) => void, defaultId?: string, className?: string }} TranslationChipsProps
+ * @typedef {{ label: string, value: number, min: number, max: number, step: number, onChange: (value: number) => void, icon?: import("react").ReactNode }} PremiumSliderProps
+ * @typedef {{ reciter: Reciter, isSelected: boolean, onSelect: (id: string) => void }} ReciterCardProps
+ * @typedef {{ title: string, children: import("react").ReactNode, delay?: number }} SettingsSectionProps
+ * @typedef {{ isOpen: boolean, onClose: () => void, translations: Option[], selectedTranslations?: string[], setSelectedTranslations: (ids: string[]) => void, fontScale: FontScale, setFontScale: (value: any) => void, reciters: Reciter[], reciterId: string, setReciterId: (id: string) => void, arabicFonts: ArabicFont[], arabicFontId: string, setArabicFontId: (id: string) => void, clamp: (value: number, min: number, max: number) => number }} SettingsModalProps
+ */
+
 // Apple-style Segmented Control (for single select)
-const SegmentedControl = memo(function SegmentedControl({ options, value, onChange, size = "normal" }) {
+const SegmentedControl = memo(
+    /** @param {SegmentedControlProps} props */
+    function SegmentedControl({ options, value, onChange, size = "normal" }) {
     const selectedIndex = options.findIndex(opt => opt.id === value);
 
     return (
@@ -35,10 +51,13 @@ const SegmentedControl = memo(function SegmentedControl({ options, value, onChan
             ))}
         </div>
     );
-});
+    }
+);
 
 // Multi-Select Translation Chips
-const TranslationChips = memo(function TranslationChips({ options, selectedIds, onChange, defaultId = "en.arberry", className = "" }) {
+const TranslationChips = memo(
+    /** @param {TranslationChipsProps} props */
+    function TranslationChips({ options, selectedIds, onChange, defaultId = "en.arberry", className = "" }) {
     const toggleTranslation = (id) => {
         const isSelected = selectedIds.includes(id);
         const isDefault = id === defaultId;
@@ -97,10 +116,13 @@ const TranslationChips = memo(function TranslationChips({ options, selectedIds, 
             <p className="chips-hint">Select one or more translations</p>
         </div>
     );
-});
+    }
+);
 
 // Apple-style Slider with gradient track
-const PremiumSlider = memo(function PremiumSlider({ label, value, min, max, step, onChange, icon }) {
+const PremiumSlider = memo(
+    /** @param {PremiumSliderProps} props */
+    function PremiumSlider({ label, value, min, max, step, onChange, icon }) {
     const percentage = ((value - min) / (max - min)) * 100;
 
     return (
@@ -127,10 +149,13 @@ const PremiumSlider = memo(function PremiumSlider({ label, value, min, max, step
             </div>
         </div>
     );
-});
+    }
+);
 
 // Apple-style Option Card for Reciter
-const ReciterCard = memo(function ReciterCard({ reciter, isSelected, onSelect }) {
+const ReciterCard = memo(
+    /** @param {ReciterCardProps} props */
+    function ReciterCard({ reciter, isSelected, onSelect }) {
     return (
         <motion.button
             className={`reciter-card ${isSelected ? "selected" : ""}`}
@@ -168,10 +193,13 @@ const ReciterCard = memo(function ReciterCard({ reciter, isSelected, onSelect })
             </AnimatePresence>
         </motion.button>
     );
-});
+    }
+);
 
 // Settings Section with iOS-style header
-const SettingsSection = memo(function SettingsSection({ title, children, delay = 0 }) {
+const SettingsSection = memo(
+    /** @param {SettingsSectionProps} props */
+    function SettingsSection({ title, children, delay = 0 }) {
     return (
         <motion.div
             className="settings-section"
@@ -185,8 +213,10 @@ const SettingsSection = memo(function SettingsSection({ title, children, delay =
             </div>
         </motion.div>
     );
-});
+    }
+);
 
+/** @param {SettingsModalProps} props */
 function SettingsModal({
     isOpen,
     onClose,

@@ -362,7 +362,7 @@ export default function ReaderPanel({
           <>
             {/* Show Bismillah banner before surahs (except Al-Fatihah and At-Tawbah) */}
             {selectedSurah && !NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
-              <BismillahBanner />
+              <BismillahBanner surahNumber={selectedSurah.number} />
             )}
 
             {/* Reading progress indicator */}

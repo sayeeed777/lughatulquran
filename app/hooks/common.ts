@@ -3,11 +3,13 @@
 import { useState, useEffect, useCallback } from "react";
 import { STORAGE_KEYS } from "../lib/constants";
 
+type SetState<T> = (value: T | ((prev: T) => T)) => void;
+
 // No re-exports needed here
 
 // Hook for localStorage with SSR safety
-export function useLocalStorage(key, initialValue) {
-  const [storedValue, setStoredValue] = useState(initialValue);
+export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T>, boolean] {
+  const [storedValue, setStoredValue] = useState<T>(initialValue);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -16,7 +18,7 @@ export function useLocalStorage(key, initialValue) {
     try {
       const item = localStorage.getItem(key);
       if (item) {
-        setStoredValue(JSON.parse(item));
+        setStoredValue(JSON.parse(item) as T);
       }
     } catch (error) {
       console.error(`Error reading localStorage key "${key}":`, error);
@@ -24,56 +26,72 @@ export function useLocalStorage(key, initialValue) {
     setIsLoaded(true);
   }, [key]);
 
-  const setValue = useCallback((value) => {
-    setStoredValue((prevValue) => {
-      try {
-        const valueToStore = value instanceof Function ? value(prevValue) : value;
-        if (typeof window !== "undefined") {
-          localStorage.setItem(key, JSON.stringify(valueToStore));
+  const setValue = useCallback<SetState<T>>(
+    (value) => {
+      setStoredValue((prevValue) => {
+        try {
+          const valueToStore = value instanceof Function ? value(prevValue) : value;
+          if (typeof window !== "undefined") {
+            localStorage.setItem(key, JSON.stringify(valueToStore));
+          }
+          return valueToStore;
+        } catch (error) {
+          console.error(`Error setting localStorage key "${key}":`, error);
+          return prevValue;
         }
-        return valueToStore;
-      } catch (error) {
-        console.error(`Error setting localStorage key "${key}":`, error);
-        return prevValue;
-      }
-    });
-  }, [key]);
+      });
+    },
+    [key]
+  );
 
   return [storedValue, setValue, isLoaded];
 }
 
 // Hook for tracking last read position
 export function useLastRead() {
-  const [lastRead, setLastRead] = useLocalStorage(STORAGE_KEYS.lastRead, null);
+  const [lastRead, setLastRead] = useLocalStorage(STORAGE_KEYS.lastRead, null as null | {
+    surah: number;
+    ayah: number;
+    surahName: string;
+    timestamp: number;
+  });
 
-  const updateLastRead = useCallback((surahNumber, ayahNumber, surahName) => {
-    setLastRead({
-      surah: surahNumber,
-      ayah: ayahNumber,
-      surahName,
-      timestamp: Date.now()
-    });
-  }, [setLastRead]);
+  const updateLastRead = useCallback(
+    (surahNumber: number, ayahNumber: number, surahName: string) => {
+      setLastRead({
+        surah: surahNumber,
+        ayah: ayahNumber,
+        surahName,
+        timestamp: Date.now()
+      });
+    },
+    [setLastRead]
+  );
 
   return { lastRead, updateLastRead };
 }
 
 // Hook for keyboard shortcuts
-export function useKeyboardShortcuts(shortcuts, enabled = true) {
+export function useKeyboardShortcuts(
+  shortcuts: Record<string, any>,
+  enabled = true
+) {
   useEffect(() => {
     if (!enabled) return;
 
-    const handleKeyDown = (event) => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      const target = event.target as HTMLElement | null;
       // Don't trigger shortcuts when typing in inputs
       if (
-        event.target.tagName === "INPUT" ||
-        event.target.tagName === "TEXTAREA" ||
-        event.target.tagName === "SELECT"
+        target &&
+        (target.tagName === "INPUT" ||
+          target.tagName === "TEXTAREA" ||
+          target.tagName === "SELECT")
       ) {
         return;
       }
 
-      for (const [action, config] of Object.entries(shortcuts)) {
+      for (const [, config] of Object.entries(shortcuts)) {
         const keys = Array.isArray(config) ? config : config?.keys;
         if (!Array.isArray(keys)) continue;
         if (keys.includes(event.key)) {
@@ -93,8 +111,8 @@ export function useKeyboardShortcuts(shortcuts, enabled = true) {
 }
 
 // Hook for intersection observer (for lazy loading and tracking)
-export function useIntersectionObserver(options = {}) {
-  const [ref, setRef] = useState(null);
+export function useIntersectionObserver(options: IntersectionObserverInit = {}) {
+  const [ref, setRef] = useState<Element | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
 
   useEffect(() => {
@@ -111,15 +129,15 @@ export function useIntersectionObserver(options = {}) {
     return () => observer.disconnect();
   }, [ref, options]);
 
-  return [setRef, isIntersecting];
+  return [setRef, isIntersecting] as const;
 }
 
 // Hook for audio playback
-export function useAudioPlayer(initialSrc = null) {
+export function useAudioPlayer(initialSrc: string | null = null) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
   const play = useCallback(() => setIsPlaying(true), []);
   const pause = useCallback(() => setIsPlaying(false), []);
@@ -137,7 +155,7 @@ export function useAudioPlayer(initialSrc = null) {
 }
 
 // Hook for debounced value
-export function useDebounce(value, delay = 300) {
+export function useDebounce<T>(value: T, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
 
   useEffect(() => {

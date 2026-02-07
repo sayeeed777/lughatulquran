@@ -173,13 +173,16 @@ export default function Home() {
     );
   }
 
+  /** @type {import("react").CSSProperties & Record<string, string | number>} */
+  const mainStyle = {
+    "--arabic-scale": fontScale.arabic,
+    "--translation-scale": fontScale.translation,
+    "--font-arabic": selectedArabicFont?.css
+  };
+
   return (
     <ErrorBoundary>
-      <main className="app" style={{
-        "--arabic-scale": fontScale.arabic,
-        "--translation-scale": fontScale.translation,
-        "--font-arabic": selectedArabicFont?.css
-      }}>
+      <main className="app" style={mainStyle}>
         <div className="topbar">
           <div className="logo">
             <div className="logo-mark" aria-hidden="true">

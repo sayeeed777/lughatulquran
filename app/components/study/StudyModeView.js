@@ -249,11 +249,13 @@ export default function StudyModeView({
     setSearchLoading(true);
     setSearchError(null);
     try {
-      const payload = await fetchJSON(`/api/search?q=${encodeURIComponent(query)}`, {
-        ttl: 2 * 60 * 1000,
-        retries: 1,
-        retryDelay: 250
-      });
+      const payload = /** @type {{ results?: any[] }} */ (
+        await fetchJSON(`/api/search?q=${encodeURIComponent(query)}`, {
+          ttl: 2 * 60 * 1000,
+          retries: 1,
+          retryDelay: 250
+        })
+      );
       setSearchResults(Array.isArray(payload?.results) ? payload.results : []);
     } catch (error) {
       setSearchError(error.message || "Search failed.");
@@ -272,11 +274,13 @@ export default function StudyModeView({
   };
 
   const selectedArabicFont = (arabicFonts || []).find((font) => font.id === arabicFontId);
+  /** @type {import("react").CSSProperties & Record<string, string | number>} */
+  const containerStyle = { "--font-arabic": selectedArabicFont?.css };
 
   return (
     <div
       className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""}`}
-      style={{ "--font-arabic": selectedArabicFont?.css }}
+      style={containerStyle}
     >
       {/* Ambient Background */}
       <div className="study-ambient-bg" />

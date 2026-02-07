@@ -1,10 +1,18 @@
 "use client";
 
+/** @param {{ count?: number }} props */
 export default function AyahListSkeleton({ count = 5 }) {
   return (
     <ol className="ayah-list skeleton-list">
-      {Array.from({ length: count }).map((_, index) => (
-        <li key={index} className="ayah-card skeleton" style={{ "--i": index }}>
+      {Array.from({ length: count }).map((_, index) => {
+        /** @type {import("react").CSSProperties & Record<string, string | number>} */
+        const itemStyle = { "--i": index };
+        return (
+          <li
+            key={index}
+            className="ayah-card skeleton"
+            style={itemStyle}
+          >
           <div className="ayah-header">
             <span className="skeleton-box skeleton-text-sm"></span>
             <div className="ayah-actions">
@@ -21,7 +29,8 @@ export default function AyahListSkeleton({ count = 5 }) {
             <div className="skeleton-box skeleton-text-line short"></div>
           </div>
         </li>
-      ))}
+        );
+      })}
     </ol>
   );
 }

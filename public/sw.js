@@ -1,3 +1,12 @@
+/// <reference lib="webworker" />
+
+/**
+ * @typedef {{ tag?: string, waitUntil: (promise: Promise<any>) => void }} SyncEventLike
+ */
+
+/** @type {ServiceWorkerGlobalScope} */
+const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
+
 const CACHE_NAME = "quran-reader-v1";
 const STATIC_CACHE = "quran-static-v1";
 const DYNAMIC_CACHE = "quran-dynamic-v1";
@@ -16,18 +25,18 @@ const API_ROUTES = [
 ];
 
 // Install event - cache static assets
-self.addEventListener("install", (event) => {
+sw.addEventListener("install", /** @param {ExtendableEvent} event */ (event) => {
   event.waitUntil(
     caches.open(STATIC_CACHE).then((cache) => {
       console.log("[ServiceWorker] Caching static assets");
       return cache.addAll(STATIC_ASSETS);
     })
   );
-  self.skipWaiting();
+  sw.skipWaiting();
 });
 
 // Activate event - clean up old caches
-self.addEventListener("activate", (event) => {
+sw.addEventListener("activate", /** @param {ExtendableEvent} event */ (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
@@ -46,11 +55,11 @@ self.addEventListener("activate", (event) => {
       );
     })
   );
-  self.clients.claim();
+  sw.clients.claim();
 });
 
 // Fetch event - serve from cache, fallback to network
-self.addEventListener("fetch", (event) => {
+sw.addEventListener("fetch", /** @param {FetchEvent} event */ (event) => {
   const { request } = event;
   const url = new URL(request.url);
 
@@ -180,7 +189,7 @@ async function handleFontRequest(request) {
 }
 
 // Handle background sync for bookmarks/notes
-self.addEventListener("sync", (event) => {
+/** @type {any} */ (sw).addEventListener("sync", /** @param {SyncEventLike} event */ (event) => {
   if (event.tag === "sync-data") {
     event.waitUntil(syncUserData());
   }
@@ -192,7 +201,7 @@ async function syncUserData() {
 }
 
 // Handle push notifications (for future use)
-self.addEventListener("push", (event) => {
+sw.addEventListener("push", /** @param {PushEvent} event */ (event) => {
   if (event.data) {
     const data = event.data.json();
     const options = {
@@ -206,15 +215,15 @@ self.addEventListener("push", (event) => {
       }
     };
     event.waitUntil(
-      self.registration.showNotification(data.title || "Quran Reader", options)
+      sw.registration.showNotification(data.title || "Quran Reader", options)
     );
   }
 });
 
 // Handle notification clicks
-self.addEventListener("notificationclick", (event) => {
+sw.addEventListener("notificationclick", /** @param {NotificationEvent} event */ (event) => {
   event.notification.close();
   event.waitUntil(
-    clients.openWindow("/")
+    sw.clients.openWindow("/")
   );
 });

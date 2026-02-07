@@ -60,6 +60,7 @@ export const FloatingButton = ({ icon, label, onClick, active, variant = "defaul
  * Quick Panel Component
  * Docked/overlay panel for study mode settings
  */
+/** @param {{ isOpen: boolean, onClose: () => void, title: string, children: import("react").ReactNode }} props */
 export const QuickPanel = ({ isOpen, onClose, title, children }) => (
     <AnimatePresence>
         {isOpen && (
@@ -99,12 +100,17 @@ export const QuickPanel = ({ isOpen, onClose, title, children }) => (
  * Stats Card Component
  * Display stat with icon and value
  */
-export const StatCard = ({ label, value, icon, color }) => (
-    <div className="study-stat-card" style={{ "--stat-color": color }}>
-        <div className="stat-icon">{icon}</div>
-        <div className="stat-info">
-            <span className="stat-value">{value}</span>
-            <span className="stat-label">{label}</span>
+/** @param {{ label: string, value: string | number, icon?: import("react").ReactNode, color?: string }} props */
+export const StatCard = ({ label, value, icon, color }) => {
+    /** @type {import("react").CSSProperties & Record<string, string | number>} */
+    const style = { "--stat-color": color };
+    return (
+        <div className="study-stat-card" style={style}>
+            <div className="stat-icon">{icon}</div>
+            <div className="stat-info">
+                <span className="stat-value">{value}</span>
+                <span className="stat-label">{label}</span>
+            </div>
         </div>
-    </div>
-);
+    );
+};

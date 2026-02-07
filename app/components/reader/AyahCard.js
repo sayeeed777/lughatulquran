@@ -3,7 +3,40 @@
 import { memo } from "react";
 import { motion } from "framer-motion";
 
-const AyahCard = memo(function AyahCard({
+/**
+ * @typedef {{ text?: string }} AyahTranslation
+ * @typedef {{ number: number, arabic?: string, translations?: Record<string, AyahTranslation> }} Ayah
+ * @typedef {{ arabic: string, translation?: string, audioUrl?: string }} Word
+ * @typedef {{ surah: number, ayah: number }} NowPlaying
+ *
+ * @typedef {{
+ *  ayah: Ayah,
+ *  surahNumber: number,
+ *  selectedTranslations?: string[] | string,
+ *  isSaved?: boolean,
+ *  hasNote?: boolean,
+ *  isFocused?: boolean,
+ *  nowPlaying?: NowPlaying | null,
+ *  isAudioPaused?: boolean,
+ *  words?: Word[],
+ *  showWordByWord?: boolean,
+ *  copiedKey?: string | null,
+ *  verseKey: string,
+ *  onFocus: (key: string) => void,
+ *  onPlay: (surah: number, ayah: number) => void,
+ *  onTogglePlay?: (surah: number, ayah: number) => void,
+ *  onToggleBookmark: (surah: number, ayah: number) => void,
+ *  onOpenNote: (surah: number, ayah: number) => void,
+ *  onCompare: (ayah: Ayah) => void,
+ *  onCopyLink?: (surah: number, ayah: number) => void,
+ *  formatArabic: (text: string) => string,
+ *  index: number
+ * }} AyahCardProps
+ */
+
+const AyahCard = memo(
+  /** @param {AyahCardProps} props */
+  function AyahCard({
   ayah,
   surahNumber,
   selectedTranslations = ["en.arberry"],
@@ -12,7 +45,7 @@ const AyahCard = memo(function AyahCard({
   isFocused,
   nowPlaying,
   isAudioPaused,
-  words,
+  words = [],
   showWordByWord,
   copiedKey,
   verseKey,
@@ -25,7 +58,7 @@ const AyahCard = memo(function AyahCard({
   onCopyLink,
   formatArabic,
   index
-}) {
+  }) {
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations) ? selectedTranslations : [selectedTranslations];
   const key = verseKey;
@@ -43,11 +76,14 @@ const AyahCard = memo(function AyahCard({
     "en.yusufali": "Yusuf Ali"
   };
 
+  /** @type {import("framer-motion").MotionStyle & Record<string, string | number>} */
+  const itemStyle = { "--i": index };
+
   return (
     <motion.li
       id={`ayah-${ayah.number}`}
       className={`ayah-card${isFocused ? " focused" : ""}`}
-      style={{ "--i": index }}
+      style={itemStyle}
       tabIndex={0}
       onClick={() => {
         onFocus(key);
@@ -190,6 +226,7 @@ const AyahCard = memo(function AyahCard({
       )}
     </motion.li>
   );
-});
+  }
+);
 
 export default AyahCard;

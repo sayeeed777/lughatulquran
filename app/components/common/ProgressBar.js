@@ -2,6 +2,7 @@
 
 import { memo } from "react";
 
+/** @param {{ current: number, total: number, label?: string }} props */
 function ProgressBar({ current, total, label }) {
   const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
 

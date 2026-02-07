@@ -1,11 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import {
-  AUDIO_RECITERS,
-  ARABIC_FONTS,
-  STORAGE_KEYS
-} from "../lib/constants";
+import { AUDIO_RECITERS, ARABIC_FONTS, STORAGE_KEYS } from "../lib/constants";
 import {
   getLocalDateString,
   parseLocalDate,
@@ -30,6 +26,88 @@ import {
 } from "./useQuranData";
 import { useReadingPlan, useFontScale } from "./useAppSettings";
 
+type Surah = {
+  number: number;
+  name: string;
+  englishName: string;
+  englishNameTranslation: string;
+  numberOfAyahs: number;
+  revelationType: string;
+};
+
+type AyahTranslation = {
+  label?: string;
+  text?: string;
+};
+
+type Ayah = {
+  number: number;
+  arabic?: string;
+  translations?: Record<string, AyahTranslation>;
+};
+
+type SurahData = {
+  surah?: Surah;
+  ayahs?: Ayah[];
+};
+
+type MemorizeConfig = {
+  active: boolean;
+  startAyah: number;
+  endAyah: number;
+  loops: number;
+  remaining: number;
+};
+
+type Reciter = {
+  id: string;
+  label: string;
+  baseUrl: string;
+};
+
+type ArabicFont = {
+  id: string;
+  label: string;
+  css: string;
+};
+
+type ReadingPlan = {
+  startDate: string;
+  perDay: number;
+  startSurah: number;
+  startAyah: number;
+};
+
+type Word = {
+  arabic: string;
+  translation?: string;
+  audioUrl?: string;
+};
+
+type WordByAyah = Record<number, Word[]>;
+
+type WordBySurah = Record<number, WordByAyah>;
+
+type NowPlaying = {
+  surah: number;
+  ayah: number;
+} | null;
+
+type LastRead = {
+  surah: number;
+  ayah: number;
+  surahName: string;
+  timestamp: number;
+} | null;
+
+type Notes = Record<string, string>;
+
+type NoteTarget = {
+  surah: number;
+  ayah: number;
+  key: string;
+} | null;
+
 export function useHomeController() {
   // Data hooks
   const {
@@ -39,7 +117,7 @@ export function useHomeController() {
     surahByNumber,
     refetch: refetchSurahs
   } = useSurahs();
-  const [selectedSurah, setSelectedSurah] = useState(null);
+  const [selectedSurah, setSelectedSurah] = useState<Surah | null>(null);
   const {
     surahData,
     loading: loadingSurahData,
@@ -49,10 +127,14 @@ export function useHomeController() {
 
   // Bookmarks & Notes
   const { bookmarks, notes, setNotes, toggleBookmark } = useBookmarks();
-  const { noteTarget, noteDraft, setNoteDraft, openNote, saveNote, closeNote } = useNoteEditor(
-    notes,
-    setNotes
-  );
+  const {
+    noteTarget,
+    noteDraft,
+    setNoteDraft,
+    openNote,
+    saveNote,
+    closeNote
+  } = useNoteEditor(notes as Notes, setNotes);
 
   // Reading plan + font scale + last read
   const [readingPlan, setReadingPlan] = useReadingPlan();
@@ -60,7 +142,7 @@ export function useHomeController() {
   const { lastRead, updateLastRead } = useLastRead();
 
   // Memorization state (shared by audio + memorize flows)
-  const [memorizeConfig, setMemorizeConfig] = useState({
+  const [memorizeConfig, setMemorizeConfig] = useState<MemorizeConfig>({
     active: false,
     startAyah: 1,
     endAyah: 5,
@@ -69,8 +151,8 @@ export function useHomeController() {
   });
 
   // Focus + audio state (used by audio hook)
-  const [focusedAyahKey, setFocusedAyahKey] = useState(null);
-  const [pendingScroll, setPendingScroll] = useState(null);
+  const [focusedAyahKey, setFocusedAyahKey] = useState<string | null>(null);
+  const [pendingScroll, setPendingScroll] = useState<number | null>(null);
 
   // Audio Logic
   const {
@@ -105,33 +187,36 @@ export function useHomeController() {
   });
 
   // Reciter State (Store ID, derive Object)
-  const [reciterId, setReciterId] = useLocalStorage(STORAGE_KEYS.reciter, AUDIO_RECITERS[0].id);
-  const selectedReciter = useMemo(
+  const [reciterId, setReciterId] = useLocalStorage(
+    STORAGE_KEYS.reciter,
+    AUDIO_RECITERS[0].id
+  ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
+  const selectedReciter = useMemo<Reciter>(
     () => AUDIO_RECITERS.find((r) => r.id === reciterId) || AUDIO_RECITERS[0],
     [reciterId]
   );
   const [arabicFontId, setArabicFontId] = useLocalStorage(
     STORAGE_KEYS.arabicFont,
     ARABIC_FONTS[0].id
-  );
-  const selectedArabicFont = useMemo(
+  ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
+  const selectedArabicFont = useMemo<ArabicFont>(
     () => ARABIC_FONTS.find((font) => font.id === arabicFontId) || ARABIC_FONTS[0],
     [arabicFontId]
   );
 
   // UI State
   const [query, setQuery] = useState("");
-  const [selectedTranslations, setSelectedTranslations] = useState(["en.arberry"]);
-  const [selectedAyah, setSelectedAyah] = useState(null);
+  const [selectedTranslations, setSelectedTranslations] = useState<string[]>(["en.arberry"]);
+  const [selectedAyah, setSelectedAyah] = useState<Ayah | null>(null);
   const [ayahQuery, setAyahQuery] = useState("");
   const [goToAyahInput, setGoToAyahInput] = useState("");
   const [showWordByWord, setShowWordByWord] = useState(false);
-  const [copiedKey, setCopiedKey] = useState(null);
+  const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const [readingMode, setReadingMode] = useState(false);
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
   const isLightTheme = theme === "light";
 
   const toggleTheme = useCallback(() => {
@@ -160,11 +245,14 @@ export function useHomeController() {
   }, [theme]);
 
   // Advanced Data Hooks
-  const { wordByAyah, loading: wordLoading, error: wordError, refetch: refetchWordByWord } = useWordByWord(
-    selectedSurah?.number,
-    showWordByWord || readingMode
-  );
-  const { cache: taqiCache, loading: taqiLoading, fetchTranslation: fetchTaqi } = useTaqiTranslation();
+  const {
+    wordByAyah,
+    loading: wordLoading,
+    error: wordError,
+    refetch: refetchWordByWord
+  } = useWordByWord(selectedSurah?.number, showWordByWord || readingMode);
+  const { cache: taqiCache, loading: taqiLoading, fetchTranslation: fetchTaqi } =
+    useTaqiTranslation();
 
   // Initial Surah Selection & URL handling
   useEffect(() => {
@@ -188,17 +276,17 @@ export function useHomeController() {
         return;
       }
     }
-    setSelectedSurah(surahs[0]);
+    setSelectedSurah(surahs[0] || null);
   }, [surahs, selectedSurah]);
 
   // Sync URL with selection
   useEffect(() => {
     if (typeof window === "undefined" || !selectedSurah) return;
     const url = new URL(window.location.href);
-    url.searchParams.set("surah", selectedSurah.number);
+    url.searchParams.set("surah", String(selectedSurah.number));
     if (focusedAyahKey) {
       const { ayah } = parseVerseKey(focusedAyahKey);
-      url.searchParams.set("ayah", ayah);
+      url.searchParams.set("ayah", String(ayah));
     } else {
       url.searchParams.delete("ayah");
     }
@@ -275,14 +363,16 @@ export function useHomeController() {
 
   const totalAyahs = surahIndex.length ? surahIndex[surahIndex.length - 1].end : 0;
 
-  const getGlobalIndex = (surahNumber, ayahNumber) => {
+  const getGlobalIndex = (surahNumber: number, ayahNumber: number) => {
     const entry = surahIndex.find((item) => item.number === surahNumber);
     if (!entry) return null;
     return entry.start + ayahNumber - 1;
   };
 
-  const indexToVerse = (globalIndex) => {
-    const entry = surahIndex.find((item) => globalIndex >= item.start && globalIndex <= item.end);
+  const indexToVerse = (globalIndex: number) => {
+    const entry = surahIndex.find(
+      (item) => globalIndex >= item.start && globalIndex <= item.end
+    );
     if (!entry) return null;
     return { surah: entry.number, ayah: globalIndex - entry.start + 1 };
   };
@@ -303,7 +393,10 @@ export function useHomeController() {
     }
 
     const todayValue = parseLocalDate(getLocalDateString());
-    const dayIndex = Math.max(0, Math.floor((todayValue - startDateValue) / 86400000));
+    const dayIndex = Math.max(
+      0,
+      Math.floor((todayValue.getTime() - startDateValue.getTime()) / 86400000)
+    );
 
     const todayStartIndex = startIndex + dayIndex * perDay;
     if (todayStartIndex > totalAyahs) {
@@ -321,10 +414,11 @@ export function useHomeController() {
   const filteredSurahs = useMemo(() => {
     const trimmed = query.trim().toLowerCase();
     if (!trimmed) return surahs;
-    return surahs.filter((surah) =>
-      surah.englishName.toLowerCase().includes(trimmed) ||
-      surah.englishNameTranslation.toLowerCase().includes(trimmed) ||
-      String(surah.number).includes(trimmed)
+    return surahs.filter(
+      (surah) =>
+        surah.englishName.toLowerCase().includes(trimmed) ||
+        surah.englishNameTranslation.toLowerCase().includes(trimmed) ||
+        String(surah.number).includes(trimmed)
     );
   }, [query, surahs]);
 
@@ -337,7 +431,9 @@ export function useHomeController() {
     }
     return surahData.ayahs.filter((ayah) => {
       const combined = Object.values(ayah.translations || {})
-        .map((t) => t.text || "").join(" ").toLowerCase();
+        .map((t) => t.text || "")
+        .join(" ")
+        .toLowerCase();
       return combined.includes(trimmed);
     });
   }, [ayahQuery, surahData]);
@@ -352,7 +448,7 @@ export function useHomeController() {
   }, [bookmarks]);
 
   const sortedNotes = useMemo(() => {
-    return Object.entries(notes)
+    return Object.entries(notes as Notes)
       .map(([key, value]) => ({ key, value, ...parseVerseKey(key) }))
       .sort((a, b) => {
         if (a.surah !== b.surah) return a.surah - b.surah;
@@ -361,17 +457,22 @@ export function useHomeController() {
   }, [notes]);
 
   // Labels
-  const formatVerseLabel = (verse) => {
+  const formatVerseLabel = (verse: { surah: number; ayah: number } | null) => {
     if (!verse) return "";
     const surah = surahByNumber.get(verse.surah);
     return `${surah ? surah.englishName : `Surah ${verse.surah}`} Ayah ${verse.ayah}`;
   };
 
-  const formatRangeLabel = (startVerse, endVerse) => {
+  const formatRangeLabel = (
+    startVerse: { surah: number; ayah: number } | null,
+    endVerse: { surah: number; ayah: number } | null
+  ) => {
     if (!startVerse || !endVerse) return "";
     if (startVerse.surah === endVerse.surah) {
       const surah = surahByNumber.get(startVerse.surah);
-      return `${surah ? surah.englishName : `Surah ${startVerse.surah}`} Ayah ${startVerse.ayah} to ${endVerse.ayah}`;
+      return `${surah ? surah.englishName : `Surah ${startVerse.surah}`} Ayah ${
+        startVerse.ayah
+      } to ${endVerse.ayah}`;
     }
     return `${formatVerseLabel(startVerse)} to ${formatVerseLabel(endVerse)}`;
   };
@@ -381,7 +482,7 @@ export function useHomeController() {
     : "Select an ayah to play.";
 
   // Actions
-  const handleSelectSurah = (surah) => {
+  const handleSelectSurah = (surah: Surah) => {
     stopMemorize();
     setSelectedSurah(surah);
     setSelectedAyah(null);
@@ -408,19 +509,19 @@ export function useHomeController() {
     setFocusedAyahKey(verseKey(selectedSurah.number, number));
   };
 
-  const jumpToAyah = (surahNumber, ayahNumber) => {
+  const jumpToAyah = (surahNumber: number, ayahNumber: number) => {
     const targetSurah = surahByNumber.get(surahNumber);
     if (!targetSurah) return;
-    setSelectedSurah(targetSurah);
+    setSelectedSurah(targetSurah as Surah);
     setPendingScroll(ayahNumber);
     setFocusedAyahKey(verseKey(surahNumber, ayahNumber));
   };
 
-  const copyAyahLink = useCallback(async (surahNumber, ayahNumber) => {
+  const copyAyahLink = useCallback(async (surahNumber: number, ayahNumber: number) => {
     if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
-    url.searchParams.set("surah", surahNumber);
-    url.searchParams.set("ayah", ayahNumber);
+    url.searchParams.set("surah", String(surahNumber));
+    url.searchParams.set("ayah", String(ayahNumber));
     url.hash = `ayah-${ayahNumber}`;
 
     if (await copyToClipboard(url.toString())) {
@@ -430,7 +531,7 @@ export function useHomeController() {
     }
   }, []);
 
-  const handleCompare = (ayah) => {
+  const handleCompare = (ayah: Ayah) => {
     if (!selectedSurah) return;
     setSelectedAyah(ayah);
     setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
@@ -458,7 +559,8 @@ export function useHomeController() {
   useKeyboardShortcuts({
     "Show Shortcuts": { keys: ["?"], handler: () => setShowShortcuts((p) => !p) },
     "Close Modal": {
-      keys: ["Escape"], handler: () => {
+      keys: ["Escape"],
+      handler: () => {
         if (showShortcuts) setShowShortcuts(false);
         else if (selectedAyah) setSelectedAyah(null);
         else if (noteTarget) closeNote();
@@ -468,7 +570,8 @@ export function useHomeController() {
     "Study Mode": { keys: ["f"], handler: () => setReadingMode((p) => !p) },
     "Word by Word": { keys: ["w"], handler: () => setShowWordByWord((p) => !p) },
     "Next Ayah": {
-      keys: ["ArrowDown", "j"], handler: () => {
+      keys: ["ArrowDown", "j"],
+      handler: () => {
         if (!selectedSurah || !surahData) return;
         const current = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : 1;
         const next = Math.min(current + 1, selectedSurah.numberOfAyahs);
@@ -477,7 +580,8 @@ export function useHomeController() {
       }
     },
     "Prev Ayah": {
-      keys: ["ArrowUp", "k"], handler: () => {
+      keys: ["ArrowUp", "k"],
+      handler: () => {
         if (!selectedSurah || !surahData) return;
         const current = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : 1;
         const prev = Math.max(current - 1, 1);
@@ -486,7 +590,8 @@ export function useHomeController() {
       }
     },
     "Toggle Bookmark": {
-      keys: ["b"], handler: () => {
+      keys: ["b"],
+      handler: () => {
         if (focusedAyahKey) {
           const { surah, ayah } = parseVerseKey(focusedAyahKey);
           toggleBookmark(surah, ayah);
@@ -494,13 +599,14 @@ export function useHomeController() {
       }
     },
     "Play Audio": {
-      keys: ["p"], handler: () => {
+      keys: ["p"],
+      handler: () => {
         if (focusedAyahKey) {
           const { surah, ayah } = parseVerseKey(focusedAyahKey);
           setNowPlaying({ surah, ayah });
         }
       }
-    },
+    }
   });
 
   return {
@@ -510,7 +616,7 @@ export function useHomeController() {
     surahByNumber,
     selectedSurah,
     setSelectedSurah,
-    surahData,
+    surahData: surahData as SurahData | null,
     loadingSurahData,
     surahDataError,
     bookmarks,
@@ -519,11 +625,11 @@ export function useHomeController() {
     openNote,
     saveNote,
     setNotes,
-    readingPlan,
+    readingPlan: readingPlan as ReadingPlan,
     setReadingPlan,
     fontScale,
     setFontScale,
-    lastRead,
+    lastRead: lastRead as LastRead,
     updateLastRead,
     memorizeConfig,
     setMemorizeConfig,
@@ -531,7 +637,7 @@ export function useHomeController() {
     setFocusedAyahKey,
     pendingScroll,
     setPendingScroll,
-    nowPlaying,
+    nowPlaying: nowPlaying as NowPlaying,
     isAutoPlaying,
     isAudioPaused,
     handlePlaySurah,
@@ -561,7 +667,7 @@ export function useHomeController() {
     setShowWordByWord,
     copiedKey,
     setCopiedKey,
-    noteTarget,
+    noteTarget: noteTarget as NoteTarget,
     noteDraft,
     setNoteDraft,
     closeNote,
@@ -576,7 +682,7 @@ export function useHomeController() {
     theme,
     isLightTheme,
     toggleTheme,
-    wordByAyah,
+    wordByAyah: wordByAyah as WordBySurah,
     wordLoading,
     wordError,
     taqiCache,

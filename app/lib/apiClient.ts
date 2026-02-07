@@ -1,12 +1,29 @@
 import { reportError } from "./telemetry";
 
-const cache = new Map();
-const inflight = new Map();
+type Fetcher = (input: RequestInfo | URL, init?: RequestInit) => Promise<Response>;
+
+type CacheEntry<T> = {
+  timestamp: number;
+  data: T;
+};
+
+export type FetchJSONOptions = {
+  ttl?: number;
+  retries?: number;
+  retryDelay?: number;
+  cacheKey?: string;
+  fetcher?: Fetcher;
+  persist?: boolean;
+  signal?: AbortSignal;
+};
+
+const cache = new Map<string, CacheEntry<unknown>>();
+const inflight = new Map<string, Promise<unknown>>();
 const STORAGE_PREFIX = "quran_api_cache:";
 
-const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
-export async function fetchJSON(url, options = {}) {
+export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOptions = {}): Promise<T> {
   const {
     ttl = 0,
     retries = 0,
@@ -21,7 +38,7 @@ export async function fetchJSON(url, options = {}) {
   if (ttl > 0 && cache.has(cacheKey)) {
     const entry = cache.get(cacheKey);
     if (entry && now - entry.timestamp < ttl) {
-      return entry.data;
+      return entry.data as T;
     }
   }
 
@@ -32,7 +49,7 @@ export async function fetchJSON(url, options = {}) {
         const parsed = JSON.parse(stored);
         if (parsed?.timestamp && parsed?.data && now - parsed.timestamp < ttl) {
           cache.set(cacheKey, parsed);
-          return parsed.data;
+          return parsed.data as T;
         }
       }
     } catch {
@@ -41,7 +58,7 @@ export async function fetchJSON(url, options = {}) {
   }
 
   if (inflight.has(cacheKey)) {
-    return inflight.get(cacheKey);
+    return inflight.get(cacheKey) as Promise<T>;
   }
 
   const request = (async () => {
@@ -49,13 +66,16 @@ export async function fetchJSON(url, options = {}) {
     while (true) {
       try {
         const response = await fetcher(url, { signal });
-        const payload = await response.json();
+        const payload = (await response.json()) as T;
         if (!response.ok) {
-          const message = payload?.error || `Request failed (${response.status})`;
+          const message =
+            typeof payload === "object" && payload && "error" in payload
+              ? String((payload as { error?: string }).error || `Request failed (${response.status})`)
+              : `Request failed (${response.status})`;
           throw new Error(message);
         }
         if (ttl > 0) {
-          const entry = { timestamp: Date.now(), data: payload };
+          const entry: CacheEntry<T> = { timestamp: Date.now(), data: payload };
           cache.set(cacheKey, entry);
           if (persist && typeof window !== "undefined") {
             try {
