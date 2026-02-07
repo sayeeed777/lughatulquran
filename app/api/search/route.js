@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+/** @param {import("next/server").NextRequest} request */
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get("q");
@@ -21,7 +22,8 @@ export async function GET(request) {
       const payload = await response.json();
       const results = payload?.search?.results || payload?.results || [];
 
-      const normalized = results.map((result) => {
+      const normalized = results.map(
+        /** @param {any} result */ (result) => {
         const verseKey = result?.verse_key || result?.verseKey || "";
         const [surah, ayah] = String(verseKey).split(":").map(Number);
         return {
@@ -55,7 +57,8 @@ export async function GET(request) {
 
     const payload = await response.json();
     const matches = payload?.data?.matches || [];
-    const normalized = matches.map((match) => ({
+    const normalized = matches.map(
+      /** @param {any} match */ (match) => ({
       surah: match?.surah?.number || null,
       ayah: match?.numberInSurah || null,
       text: "",

@@ -1,8 +1,17 @@
 "use client";
 
+import type { ReactNode } from "react";
 import ErrorBoundary from "../ErrorBoundary";
 
-export default function SectionErrorBoundary({ title = "Section failed to load", children }) {
+type SectionErrorBoundaryProps = {
+  title?: string;
+  children: ReactNode;
+};
+
+export default function SectionErrorBoundary({
+  title = "Section failed to load",
+  children
+}: SectionErrorBoundaryProps) {
   return (
     <ErrorBoundary
       fallback={

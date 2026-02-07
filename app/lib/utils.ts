@@ -1,53 +1,58 @@
 // Date utilities
-export const getLocalDateString = () => {
+export const getLocalDateString = (): string => {
   const now = new Date();
   const offset = now.getTimezoneOffset();
   const local = new Date(now.getTime() - offset * 60000);
   return local.toISOString().slice(0, 10);
 };
 
-export const parseLocalDate = (value) => new Date(`${value}T00:00:00`);
+export const parseLocalDate = (value: string): Date => new Date(`${value}T00:00:00`);
 
-export const getDaysBetween = (date1, date2) => {
-  return Math.floor((date2 - date1) / 86400000);
+export const getDaysBetween = (date1: Date | number, date2: Date | number): number => {
+  return Math.floor((Number(date2) - Number(date1)) / 86400000);
 };
 
 // Verse key utilities
-export const verseKey = (surahNumber, ayahNumber) => `${surahNumber}:${ayahNumber}`;
+export const verseKey = (surahNumber: number, ayahNumber: number): string =>
+  `${surahNumber}:${ayahNumber}`;
 
-export const parseVerseKey = (key) => {
+export const parseVerseKey = (key: string): { surah: number; ayah: number } => {
   const [surah, ayah] = key.split(":").map(Number);
   return { surah, ayah };
 };
 
 // Number utilities
-export const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+export const clamp = (value: number, min: number, max: number): number =>
+  Math.min(Math.max(value, min), max);
 
-export const pad = (value, length = 3) => String(value).padStart(length, "0");
+export const pad = (value: number | string, length = 3): string =>
+  String(value).padStart(length, "0");
 
 // Audio URL generator
-export const getAudioUrl = (baseUrl, surahNumber, ayahNumber) =>
+export const getAudioUrl = (baseUrl: string, surahNumber: number, ayahNumber: number): string =>
   `${baseUrl}/${pad(surahNumber)}${pad(ayahNumber)}.mp3`;
 
 // Arabic text utilities
-export const sanitizeArabic = (text) => {
+export const sanitizeArabic = (text?: string | null): string => {
   if (!text) return "";
   return text;
 };
 
 // Debounce utility
-export const debounce = (fn, delay) => {
-  let timeoutId;
-  return (...args) => {
-    clearTimeout(timeoutId);
+export const debounce = <T extends (...args: unknown[]) => void>(fn: T, delay: number) => {
+  let timeoutId: ReturnType<typeof setTimeout> | null = null;
+  return (...args: Parameters<T>) => {
+    if (timeoutId) {
+      clearTimeout(timeoutId);
+    }
     timeoutId = setTimeout(() => fn(...args), delay);
   };
 };
 
 // Throttle utility
-export const throttle = (fn, limit) => {
-  let inThrottle;
-  return (...args) => {
+export const throttle = <T extends (...args: unknown[]) => void>(fn: T, limit: number) => {
+  let inThrottle = false;
+  return (...args: Parameters<T>) => {
     if (!inThrottle) {
       fn(...args);
       inThrottle = true;
@@ -57,7 +62,7 @@ export const throttle = (fn, limit) => {
 };
 
 // Copy to clipboard
-export const copyToClipboard = async (text) => {
+export const copyToClipboard = async (text: string): Promise<boolean> => {
   if (navigator?.clipboard?.writeText) {
     await navigator.clipboard.writeText(text);
     return true;
@@ -75,17 +80,17 @@ export const copyToClipboard = async (text) => {
 };
 
 // Format reading progress
-export const formatProgress = (current, total) => {
+export const formatProgress = (current: number, total: number) => {
   const percentage = Math.round((current / total) * 100);
   return { current, total, percentage };
 };
 
 // Generate ayah link
-export const generateAyahLink = (surahNumber, ayahNumber) => {
+export const generateAyahLink = (surahNumber: number, ayahNumber: number): string => {
   if (typeof window === "undefined") return "";
   const url = new URL(window.location.href);
-  url.searchParams.set("surah", surahNumber);
-  url.searchParams.set("ayah", ayahNumber);
+  url.searchParams.set("surah", String(surahNumber));
+  url.searchParams.set("ayah", String(ayahNumber));
   url.hash = `ayah-${ayahNumber}`;
   return url.toString();
 };

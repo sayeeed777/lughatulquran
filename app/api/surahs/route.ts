@@ -4,6 +4,19 @@ const SURAH_LIST_ENDPOINT = "https://api.alquran.cloud/v1/surah";
 
 export const revalidate = 86400;
 
+type SurahApiItem = {
+  number: number;
+  name: string;
+  englishName: string;
+  englishNameTranslation: string;
+  numberOfAyahs: number;
+  revelationType: string;
+};
+
+type SurahApiResponse = {
+  data?: SurahApiItem[];
+};
+
 export async function GET() {
   try {
     const response = await fetch(SURAH_LIST_ENDPOINT, {
@@ -17,17 +30,16 @@ export async function GET() {
       );
     }
 
-    const payload = await response.json();
+    const payload = (await response.json()) as SurahApiResponse | null;
 
-    if (!payload || !payload.data) {
+    if (!payload?.data || !Array.isArray(payload.data)) {
       return NextResponse.json(
         { error: "Unexpected response from Quran API." },
         { status: 502 }
       );
     }
 
-    const surahs = payload.data.map(
-      /** @param {any} surah */ (surah) => ({
+    const surahs = payload.data.map((surah) => ({
       number: surah.number,
       name: surah.name,
       englishName: surah.englishName,

@@ -4,6 +4,7 @@ export const revalidate = 86400;
 
 const WORDS_BASE_URL = "https://api.quran.com/api/v4/verses/by_chapter";
 
+/** @param {any} word */
 const normalizeWord = (word) => {
   const arabic =
     word?.text_uthmani ||
@@ -35,6 +36,7 @@ const normalizeWord = (word) => {
   };
 };
 
+/** @param {string | number | null | undefined} key */
 const verseNumberFromKey = (key) => {
   if (!key) {
     return null;
@@ -43,13 +45,18 @@ const verseNumberFromKey = (key) => {
   return Number(parts[1] || parts[0]);
 };
 
-export async function GET(_request, { params }) {
-  const { id } = await params;
+/**
+ * @param {import("next/server").NextRequest} _request
+ * @param {{ params: { id: string } }} context
+ */
+export async function GET(_request, context) {
+  const { id } = await context.params;
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }
 
   try {
+    /** @type {Record<number, Array<{ arabic: string, translation: string, audioUrl: string }>>} */
     const wordsByAyah = {};
     let page = 1;
     let safety = 0;
@@ -83,7 +90,11 @@ export async function GET(_request, { params }) {
         }
         const normalized = verse.words
           .map(normalizeWord)
-          .filter((item) => item && item.arabic);
+          .filter(
+            /** @param {{ arabic: string, translation: string, audioUrl: string } | null} item */ (
+              item
+            ) => item && item.arabic
+          );
         if (normalized.length) {
           wordsByAyah[verseNumber] = normalized;
         }

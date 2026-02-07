@@ -1,6 +1,10 @@
 "use client";
 
-export default function SurahListSkeleton({ count = 10 }) {
+type SurahListSkeletonProps = {
+  count?: number;
+};
+
+export default function SurahListSkeleton({ count = 10 }: SurahListSkeletonProps) {
   return (
     <ul className="surah-list skeleton-list">
       {Array.from({ length: count }).map((_, index) => (

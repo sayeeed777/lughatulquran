@@ -1,19 +1,34 @@
 "use client";
 
 import { Component } from "react";
+import type { ErrorInfo, ReactNode } from "react";
 import { reportError } from "../lib/telemetry";
 
-export default class ErrorBoundary extends Component {
-  constructor(props) {
+type ErrorBoundaryProps = {
+  children?: ReactNode;
+  fallback?: ReactNode;
+};
+
+type ErrorBoundaryState = {
+  hasError: boolean;
+  error: Error | null;
+  errorInfo: ErrorInfo | null;
+};
+
+export default class ErrorBoundary extends Component<
+  ErrorBoundaryProps,
+  ErrorBoundaryState
+> {
+  constructor(props: ErrorBoundaryProps) {
     super(props);
     this.state = { hasError: false, error: null, errorInfo: null };
   }
 
-  static getDerivedStateFromError(error) {
+  static getDerivedStateFromError(error: Error): Partial<ErrorBoundaryState> {
     return { hasError: true, error };
   }
 
-  componentDidCatch(error, errorInfo) {
+  componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     this.setState({ errorInfo });
     reportError(error, { componentStack: errorInfo?.componentStack });
   }

@@ -2,6 +2,31 @@
 
 import { useRef, useEffect } from "react";
 
+type Surah = {
+  number: number;
+};
+
+type NowPlaying = {
+  surah: number;
+  ayah: number;
+};
+
+type AudioPlayerProps = {
+  reciterLabel: string;
+  nowPlayingLabel: string;
+  audioSrc: string | null;
+  isAutoPlaying: boolean;
+  isAudioPaused?: boolean;
+  playbackRate?: number;
+  onPlaySurah: (startAyah: number) => void;
+  onStopAutoPlay: () => void;
+  onAudioEnded: () => void;
+  selectedSurah: Surah | null;
+  nowPlaying: NowPlaying | null;
+  showSurahControls?: boolean;
+  showPlayerBar?: boolean;
+};
+
 export default function AudioPlayer({
   reciterLabel,
   nowPlayingLabel,
@@ -16,8 +41,8 @@ export default function AudioPlayer({
   nowPlaying,
   showSurahControls = true,
   showPlayerBar = true
-}) {
-  const audioRef = useRef(null);
+}: AudioPlayerProps) {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // Handle audio ended event for auto-play
   useEffect(() => {
@@ -25,9 +50,7 @@ export default function AudioPlayer({
     if (!audio) return;
 
     const handleEnded = () => {
-      if (onAudioEnded) {
-        onAudioEnded();
-      }
+      onAudioEnded();
     };
 
     audio.addEventListener("ended", handleEnded);
@@ -65,15 +88,7 @@ export default function AudioPlayer({
     if (!audioSrc) {
       return null;
     }
-    return (
-      <audio
-        ref={audioRef}
-        key={audioSrc}
-        src={audioSrc}
-        autoPlay
-        hidden
-      />
-    );
+    return <audio ref={audioRef} key={audioSrc} src={audioSrc} autoPlay hidden />;
   }
 
   return (
@@ -88,15 +103,12 @@ export default function AudioPlayer({
         {showSurahControls && selectedSurah && (
           <div className="surah-play-controls">
             {isAutoPlaying ? (
-              <button 
-                className="action-btn stop-btn" 
-                onClick={onStopAutoPlay}
-              >
+              <button className="action-btn stop-btn" onClick={onStopAutoPlay}>
                 ⏹ Stop
               </button>
             ) : (
-              <button 
-                className="action-btn play-surah-btn" 
+              <button
+                className="action-btn play-surah-btn"
                 onClick={() => onPlaySurah(nowPlaying?.ayah || 1)}
               >
                 ▶ Play Surah
@@ -105,13 +117,7 @@ export default function AudioPlayer({
           </div>
         )}
         {audioSrc ? (
-          <audio 
-            ref={audioRef}
-            key={audioSrc} 
-            src={audioSrc} 
-            controls 
-            autoPlay 
-          />
+          <audio ref={audioRef} key={audioSrc} src={audioSrc} controls autoPlay />
         ) : (
           <div className="audio-placeholder">Ready</div>
         )}

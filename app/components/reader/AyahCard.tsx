@@ -2,41 +2,49 @@
 
 import { memo } from "react";
 import { motion } from "framer-motion";
+import type { MotionStyle } from "framer-motion";
 
-/**
- * @typedef {{ text?: string }} AyahTranslation
- * @typedef {{ number: number, arabic?: string, translations?: Record<string, AyahTranslation> }} Ayah
- * @typedef {{ arabic: string, translation?: string, audioUrl?: string }} Word
- * @typedef {{ surah: number, ayah: number }} NowPlaying
- *
- * @typedef {{
- *  ayah: Ayah,
- *  surahNumber: number,
- *  selectedTranslations?: string[] | string,
- *  isSaved?: boolean,
- *  hasNote?: boolean,
- *  isFocused?: boolean,
- *  nowPlaying?: NowPlaying | null,
- *  isAudioPaused?: boolean,
- *  words?: Word[],
- *  showWordByWord?: boolean,
- *  copiedKey?: string | null,
- *  verseKey: string,
- *  onFocus: (key: string) => void,
- *  onPlay: (surah: number, ayah: number) => void,
- *  onTogglePlay?: (surah: number, ayah: number) => void,
- *  onToggleBookmark: (surah: number, ayah: number) => void,
- *  onOpenNote: (surah: number, ayah: number) => void,
- *  onCompare: (ayah: Ayah) => void,
- *  onCopyLink?: (surah: number, ayah: number) => void,
- *  formatArabic: (text: string) => string,
- *  index: number
- * }} AyahCardProps
- */
+type AyahTranslation = { text?: string };
 
-const AyahCard = memo(
-  /** @param {AyahCardProps} props */
-  function AyahCard({
+type Ayah = {
+  number: number;
+  arabic?: string;
+  translations?: Record<string, AyahTranslation>;
+};
+
+type Word = {
+  arabic: string;
+  translation?: string;
+  audioUrl?: string;
+};
+
+type NowPlaying = { surah: number; ayah: number } | null;
+
+type AyahCardProps = {
+  ayah: Ayah;
+  surahNumber: number;
+  selectedTranslations?: string[] | string;
+  isSaved?: boolean;
+  hasNote?: boolean;
+  isFocused?: boolean;
+  nowPlaying?: NowPlaying;
+  isAudioPaused?: boolean;
+  words?: Word[];
+  showWordByWord?: boolean;
+  copiedKey?: string | null;
+  verseKey: string;
+  onFocus: (key: string) => void;
+  onPlay: (surah: number, ayah: number) => void;
+  onTogglePlay?: (surah: number, ayah: number) => void;
+  onToggleBookmark: (surah: number, ayah: number) => void;
+  onOpenNote: (surah: number, ayah: number) => void;
+  onCompare: (ayah: Ayah) => void;
+  onCopyLink?: (surah: number, ayah: number) => void;
+  formatArabic: (text: string) => string;
+  index: number;
+};
+
+const AyahCard = memo(function AyahCard({
   ayah,
   surahNumber,
   selectedTranslations = ["en.arberry"],
@@ -58,26 +66,23 @@ const AyahCard = memo(
   onCopyLink,
   formatArabic,
   index
-  }) {
+}: AyahCardProps) {
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations) ? selectedTranslations : [selectedTranslations];
   const key = verseKey;
   const isNowPlaying =
-    nowPlaying &&
-    nowPlaying.surah === surahNumber &&
-    nowPlaying.ayah === ayah.number;
+    nowPlaying && nowPlaying.surah === surahNumber && nowPlaying.ayah === ayah.number;
   const isPlaying = isNowPlaying && !isAudioPaused;
 
   // Translation label map
-  const translationLabels = {
+  const translationLabels: Record<string, string> = {
     "en.sahih": "Sahih International",
     "en.arberry": "A.J. Arberry",
     "en.pickthall": "Pickthall",
     "en.yusufali": "Yusuf Ali"
   };
 
-  /** @type {import("framer-motion").MotionStyle & Record<string, string | number>} */
-  const itemStyle = { "--i": index };
+  const itemStyle: MotionStyle & Record<string, string | number> = { "--i": index };
 
   return (
     <motion.li
@@ -185,12 +190,12 @@ const AyahCard = memo(
         </div>
       </div>
       <p className="ayah-arabic" lang="ar" dir="rtl">
-        {formatArabic(ayah.arabic)}
+        {formatArabic(ayah.arabic || "")}
       </p>
 
       {/* Multiple translations display */}
       <div className="ayah-translations">
-        {translationIds.map((translationId, idx) => {
+        {translationIds.map((translationId) => {
           const translation = ayah.translations?.[translationId];
           return (
             <div key={translationId} className="translation-item">
@@ -207,26 +212,19 @@ const AyahCard = memo(
         })}
       </div>
       {showWordByWord && words.length > 0 && (
-        <motion.div
-          className="word-row"
-          initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: "auto" }}
-        >
+        <motion.div className="word-row" initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }}>
           {words.map((word, wordIndex) => (
             <div className="word-chip" key={`${key}-${wordIndex}`}>
               <span className="word-ar" lang="ar" dir="rtl">
                 {word.arabic}
               </span>
-              {word.translation && (
-                <span className="word-en">{word.translation}</span>
-              )}
+              {word.translation && <span className="word-en">{word.translation}</span>}
             </div>
           ))}
         </motion.div>
       )}
     </motion.li>
   );
-  }
-);
+});
 
 export default AyahCard;

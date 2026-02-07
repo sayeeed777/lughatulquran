@@ -2,16 +2,21 @@
 
 import { memo } from "react";
 
-/** @param {{ current: number, total: number, label?: string }} props */
-function ProgressBar({ current, total, label }) {
+type ProgressBarProps = {
+  current: number;
+  total: number;
+  label?: string;
+};
+
+function ProgressBar({ current, total, label }: ProgressBarProps) {
   const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
 
   return (
     <div className="progress-container">
       {label && <span className="progress-label">{label}</span>}
       <div className="progress-bar">
-        <div 
-          className="progress-fill" 
+        <div
+          className="progress-fill"
           style={{ width: `${percentage}%` }}
           role="progressbar"
           aria-valuenow={percentage}

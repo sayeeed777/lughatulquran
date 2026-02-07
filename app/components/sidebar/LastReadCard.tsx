@@ -2,7 +2,19 @@
 
 import { memo } from "react";
 
-function LastReadCard({ lastRead, onContinue }) {
+type LastRead = {
+  surah: number;
+  ayah: number;
+  surahName: string;
+  timestamp: number;
+};
+
+type LastReadCardProps = {
+  lastRead: LastRead | null;
+  onContinue: () => void;
+};
+
+function LastReadCard({ lastRead, onContinue }: LastReadCardProps) {
   if (!lastRead) return null;
 
   const timeAgo = getTimeAgo(lastRead.timestamp);
@@ -28,14 +40,14 @@ function LastReadCard({ lastRead, onContinue }) {
   );
 }
 
-function getTimeAgo(timestamp) {
+function getTimeAgo(timestamp: number) {
   const seconds = Math.floor((Date.now() - timestamp) / 1000);
-  
+
   if (seconds < 60) return "Just now";
   if (seconds < 3600) return `${Math.floor(seconds / 60)} min ago`;
   if (seconds < 86400) return `${Math.floor(seconds / 3600)} hours ago`;
   if (seconds < 604800) return `${Math.floor(seconds / 86400)} days ago`;
-  
+
   return new Date(timestamp).toLocaleDateString();
 }
 

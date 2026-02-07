@@ -1,14 +1,15 @@
-export function reportError(error, context = {}) {
+export function reportError(error: unknown, context: Record<string, unknown> = {}) {
+  const normalizedError = error instanceof Error ? error : new Error(String(error));
   if (process.env.NODE_ENV !== "production") {
-    console.error("AppError:", error, context);
+    console.error("AppError:", normalizedError, context);
     return;
   }
 
   // Lightweight production hook. Replace with your backend/SaaS later.
   try {
     const payload = {
-      message: error?.message || "Unknown error",
-      stack: error?.stack || null,
+      message: normalizedError.message || "Unknown error",
+      stack: normalizedError.stack || null,
       context,
       timestamp: Date.now()
     };

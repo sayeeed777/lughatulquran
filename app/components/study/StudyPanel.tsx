@@ -2,23 +2,28 @@
 
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
 
-/**
- * @param {{
- *  surahs: any[],
- *  surahByNumber: Map<number, any>,
- *  readingPlan: any,
- *  setReadingPlan: (value: any) => void,
- *  planSummary: any,
- *  sortedBookmarks: any[],
- *  sortedNotes: any[],
- *  onJumpToAyah: (surah: number, ayah: number) => void,
- *  onToggleBookmark: (surah: number, ayah: number) => void,
- *  onOpenNote: (surah: number, ayah: number) => void,
- *  formatRangeLabel: (start: any, end: any) => string,
- *  getLocalDateString: () => string,
- *  lastRead?: any
- * }} props
- */
+type Surah = {
+  number: number;
+  englishName: string;
+  numberOfAyahs: number;
+};
+
+type StudyPanelProps = {
+  surahs: Surah[];
+  surahByNumber: Map<number, Surah>;
+  readingPlan: any;
+  setReadingPlan: (value: any) => void;
+  planSummary: any;
+  sortedBookmarks: string[];
+  sortedNotes: Array<{ key: string; surah: number; ayah: number; value: string }>;
+  onJumpToAyah: (surah: number, ayah: number) => void;
+  onToggleBookmark: (surah: number, ayah: number) => void;
+  onOpenNote: (surah: number, ayah: number) => void;
+  formatRangeLabel: (start: any, end: any) => string;
+  getLocalDateString: () => string;
+  lastRead?: any;
+};
+
 export default function StudyPanel({
   surahs,
   surahByNumber,
@@ -32,7 +37,7 @@ export default function StudyPanel({
   onOpenNote,
   formatRangeLabel,
   getLocalDateString
-}) {
+}: StudyPanelProps) {
   return (
     <aside className="panel study-panel">
       <div className="panel-header">

@@ -20,6 +20,7 @@ const QDC_BASE_URL = "https://api.quran.com/api/v4";
 export const revalidate = 86400;
 
 // Fetch Arabic Text (and optional Tajweed/Page data) from Quran.com V4
+/** @param {string | number} chapterId */
 const fetchArabicText = async (chapterId) => {
   const verses = [];
   let page = 1;
@@ -74,8 +75,12 @@ const fetchArabicText = async (chapterId) => {
   return verses.length ? verses : null;
 };
 
-export async function GET(_request, { params }) {
-  const { id } = await params;
+/**
+ * @param {import("next/server").NextRequest} _request
+ * @param {{ params: { id: string } }} context
+ */
+export async function GET(_request, context) {
+  const { id } = await context.params;
   const surahNumber = Number(id);
 
   if (!id || isNaN(surahNumber)) {
@@ -100,7 +105,9 @@ export async function GET(_request, { params }) {
 
     const editions = payload.data;
     const editionById = new Map(
-      editions.map((edition) => [edition.edition.identifier, edition])
+      editions.map(
+        /** @param {any} edition */ (edition) => [edition.edition.identifier, edition]
+      )
     );
 
     // 2. Fetch Arabic Text from Quran.com V4 (Cleaner, better Bismillah handling)
@@ -134,10 +141,13 @@ export async function GET(_request, { params }) {
       // For others, Verse 1 does NOT contain Bismillah.
       // So minimal processing is needed compared to AlQuran.cloud.
 
+      /** @type {Record<string, { label: string, text: string }>} */
       const translations = {};
-      for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
-        const edition = editionById.get(identifier);
-        const ayah = edition?.ayahs?.find(a => a.numberInSurah === i);
+    for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
+      const edition = editionById.get(identifier);
+      const ayah = edition?.ayahs?.find(
+        /** @param {any} a */ (a) => a.numberInSurah === i
+      );
         if (ayah) {
           translations[identifier] = {
             label,

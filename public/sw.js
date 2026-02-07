@@ -96,6 +96,7 @@ sw.addEventListener("fetch", /** @param {FetchEvent} event */ (event) => {
 });
 
 // Cache-first strategy for static assets
+/** @param {Request} request */
 async function handleStaticRequest(request) {
   const cachedResponse = await caches.match(request);
   if (cachedResponse) {
@@ -122,6 +123,7 @@ async function handleStaticRequest(request) {
 }
 
 // Network-first strategy for API requests with cache fallback
+/** @param {Request} request */
 async function handleApiRequest(request) {
   const url = new URL(request.url);
   
@@ -151,6 +153,7 @@ async function handleApiRequest(request) {
 }
 
 // Cache audio files for offline playback
+/** @param {Request} request */
 async function handleAudioRequest(request) {
   const cachedResponse = await caches.match(request);
   if (cachedResponse) {
@@ -170,6 +173,7 @@ async function handleAudioRequest(request) {
 }
 
 // Cache fonts for offline use
+/** @param {Request} request */
 async function handleFontRequest(request) {
   const cachedResponse = await caches.match(request);
   if (cachedResponse) {

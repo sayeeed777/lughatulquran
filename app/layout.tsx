@@ -1,6 +1,8 @@
 import "./styles/index.css";
 import { Fraunces, Manrope } from "next/font/google";
 import Script from "next/script";
+import type { Metadata, Viewport } from "next";
+import type { ReactNode } from "react";
 
 const fraunces = Fraunces({
   subsets: ["latin"],
@@ -14,7 +16,7 @@ const manrope = Manrope({
   variable: "--font-body"
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Quran Reader",
   description:
     "A modern Quran reader with authentic English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International).",
@@ -28,28 +30,27 @@ export const metadata = {
     telephone: false
   },
   icons: {
-    icon: [
-      { url: "/icons/icon.svg", type: "image/svg+xml" }
-    ],
+    icon: [{ url: "/icons/icon.svg", type: "image/svg+xml" }],
     apple: [
       { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" }
     ]
   }
 };
 
-export const viewport = {
+export const viewport: Viewport = {
   themeColor: "#0b1c20",
   width: "device-width",
   initialScale: 1,
   maximumScale: 5
 };
 
-export default function RootLayout({ children }) {
+type RootLayoutProps = {
+  children: ReactNode;
+};
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html
-      lang="en"
-      className={`${fraunces.variable} ${manrope.variable}`}
-    >
+    <html lang="en" className={`${fraunces.variable} ${manrope.variable}`}>
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

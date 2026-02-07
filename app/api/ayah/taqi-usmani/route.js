@@ -4,6 +4,7 @@ const TAQI_USMANI_BOOK_ID = 13645;
 
 export const revalidate = 86400;
 
+/** @param {import("next/server").NextRequest} request */
 export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const surah = searchParams.get("surah");
@@ -44,7 +45,8 @@ export async function GET(request) {
           : [];
 
     const match = results.find(
-      (entry) => Number(entry?.book?.id) === TAQI_USMANI_BOOK_ID
+      /** @param {any} entry */ (entry) =>
+        Number(entry?.book?.id) === TAQI_USMANI_BOOK_ID
     );
 
     let text =
