@@ -129,21 +129,23 @@ export default function ReadingPlan({
         ) : "error" in planSummary && planSummary.error ? (
           <p className="plan-range">{planSummary.error}</p>
         ) : isRangeSummary(planSummary) ? (
-          <>
-            <p className="plan-range">
-              {formatRangeLabel(planSummary.startVerse, planSummary.endVerse)}
-            </p>
-            {planSummary.startVerse && (
-              <button
-                className="action-btn"
-                onClick={() =>
-                  onJumpToAyah(planSummary.startVerse.surah, planSummary.startVerse.ayah)
-                }
-              >
-                Jump to today
-              </button>
-            )}
-          </>
+          (() => {
+            const startVerse = planSummary.startVerse;
+            const endVerse = planSummary.endVerse;
+            return (
+              <>
+                <p className="plan-range">{formatRangeLabel(startVerse, endVerse)}</p>
+                {startVerse ? (
+                  <button
+                    className="action-btn"
+                    onClick={() => onJumpToAyah(startVerse.surah, startVerse.ayah)}
+                  >
+                    Jump to today
+                  </button>
+                ) : null}
+              </>
+            );
+          })()
         ) : (
           <p className="plan-range">Loading plan...</p>
         )}
