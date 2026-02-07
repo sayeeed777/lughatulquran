@@ -1150,6 +1150,16 @@ export default function StudyModeView({
                         >
                           Edit
                         </button>
+                        <button
+                          className="quick-item-action"
+                          onClick={() => {
+                            onJumpToAyah(note.surah, note.ayah);
+                            onOpenNote(note.surah, note.ayah);
+                            setShowQuickPanel(false);
+                          }}
+                        >
+                          Open
+                        </button>
                       </li>
                     );
                   })}

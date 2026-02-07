@@ -611,6 +611,11 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   animation: fadeUp 0.4s ease;
 }
 
+/* Ensure note modal is visible above Study Mode overlay */
+.study-mode-container ~ .note-panel {
+  z-index: 1200;
+}
+
 .note-body {
   display: flex;
   flex-direction: column;

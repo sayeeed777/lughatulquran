@@ -42,7 +42,13 @@ export default function NoteList({
                   <button className="action-btn" onClick={() => onOpenNote(note.surah, note.ayah)}>
                     Edit
                   </button>
-                  <button className="action-btn" onClick={() => onJumpToAyah(note.surah, note.ayah)}>
+                  <button
+                    className="action-btn"
+                    onClick={() => {
+                      onJumpToAyah(note.surah, note.ayah);
+                      onOpenNote(note.surah, note.ayah);
+                    }}
+                  >
                     Open
                   </button>
                 </div>
