@@ -56,7 +56,9 @@ export async function GET(request: NextRequest) {
 
       const normalized: SearchResult[] = results.map((result) => {
         const verseKey = result?.verse_key || result?.verseKey || "";
-        const [surah, ayah] = String(verseKey).split(":").map(Number);
+        const parts = String(verseKey).split(":");
+        const surah = Number(parts[0] ?? "");
+        const ayah = Number(parts[1] ?? "");
         return {
           surah: Number.isFinite(surah) ? surah : null,
           ayah: Number.isFinite(ayah) ? ayah : null,
@@ -89,12 +91,16 @@ export async function GET(request: NextRequest) {
 
     const payload = (await response.json()) as AlQuranPayload | null;
     const matches = payload?.data?.matches || [];
-    const normalized: SearchResult[] = matches.map((match) => ({
-      surah: match?.surah?.number || null,
-      ayah: match?.numberInSurah || null,
-      text: "",
-      translation: match?.text || ""
-    }));
+    const normalized: SearchResult[] = matches.map((match) => {
+      const surahNumber = Number(match?.surah?.number);
+      const ayahNumber = Number(match?.numberInSurah);
+      return {
+        surah: Number.isFinite(surahNumber) ? surahNumber : null,
+        ayah: Number.isFinite(ayahNumber) ? ayahNumber : null,
+        text: "",
+        translation: match?.text || ""
+      };
+    });
 
     return NextResponse.json({ results: normalized });
   } catch (error) {

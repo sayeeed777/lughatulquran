@@ -1,5 +1,6 @@
 "use client";
 
+import { memo } from "react";
 import { motion } from "framer-motion";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError } from "../common";
@@ -45,7 +46,7 @@ const item = {
   show: { opacity: 1, x: 0 }
 };
 
-export default function SurahList({
+function SurahList({
   surahs,
   filteredSurahs = [], // Default to empty array to prevent .map() error
   selectedSurah,
@@ -275,3 +276,5 @@ export default function SurahList({
     </aside>
   );
 }
+
+export default memo(SurahList);

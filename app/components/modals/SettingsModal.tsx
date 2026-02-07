@@ -347,9 +347,15 @@ function SettingsModal({
     (direction: "left" | "right") => {
       const currentIndex = tabs.findIndex((t) => t.id === activeTab);
       if (direction === "left" && currentIndex < tabs.length - 1) {
-        setActiveTab(tabs[currentIndex + 1].id);
+        const nextTab = tabs[currentIndex + 1];
+        if (nextTab) {
+          setActiveTab(nextTab.id);
+        }
       } else if (direction === "right" && currentIndex > 0) {
-        setActiveTab(tabs[currentIndex - 1].id);
+        const prevTab = tabs[currentIndex - 1];
+        if (prevTab) {
+          setActiveTab(prevTab.id);
+        }
       }
     },
     [activeTab, tabs]

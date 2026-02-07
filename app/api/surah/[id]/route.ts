@@ -156,6 +156,9 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
     // 3. Construct reference metadata from the first translation (e.g., Sahih)
     // We can use the first available edition for metadata since they all share Surah structure
     const refEdition = editions[0];
+    if (!refEdition) {
+      throw new Error("Unexpected response from Translation API.");
+    }
     const surahMeta = {
       number: refEdition.number,
       name: refEdition.name, // Note: AlQuran.cloud names might differ slightly, but usually fine

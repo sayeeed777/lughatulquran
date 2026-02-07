@@ -17,7 +17,9 @@ export const verseKey = (surahNumber: number, ayahNumber: number): string =>
   `${surahNumber}:${ayahNumber}`;
 
 export const parseVerseKey = (key: string): { surah: number; ayah: number } => {
-  const [surah, ayah] = key.split(":").map(Number);
+  const parts = key.split(":");
+  const surah = Number(parts[0] ?? 0);
+  const ayah = Number(parts[1] ?? 0);
   return { surah, ayah };
 };
 

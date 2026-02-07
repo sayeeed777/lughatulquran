@@ -1,4 +1,7 @@
 import { describe, it, expect, vi } from "vitest";
+
+vi.mock("./telemetry", () => ({ reportError: vi.fn() }));
+
 import { fetchJSON, clearApiCache } from "./apiClient";
 
 describe("apiClient.fetchJSON", () => {

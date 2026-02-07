@@ -110,7 +110,8 @@ export function useSurahs() {
           ttl: 24 * 60 * 60 * 1000,
           retries: 2,
           retryDelay: 300,
-          persist: true
+          persist: true,
+          staleWhileRevalidate: true
         });
         const parsed = validateSurahList(payload);
         if (!parsed) {
@@ -168,7 +169,8 @@ export function useSurahDetails(surahNumber?: number | string | null) {
           ttl: 10 * 60 * 1000,
           retries: 2,
           retryDelay: 300,
-          persist: true
+          persist: true,
+          staleWhileRevalidate: true
         });
         const parsed = validateSurahDetail(payload);
         if (!parsed) {
@@ -226,7 +228,8 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
       ttl: 24 * 60 * 60 * 1000,
       retries: 1,
       retryDelay: 300,
-      persist: true
+      persist: true,
+      staleWhileRevalidate: true
     })
       .then((data) => {
         const parsed = validateWordByWord(data);

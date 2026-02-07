@@ -186,7 +186,7 @@ export default function ReaderPanel({
     if (focusedAyahKey) {
       const parts = focusedAyahKey.split(":");
       if (parts.length === 2) {
-        const ayahNum = parseInt(parts[1], 10);
+        const ayahNum = parseInt(parts[1] ?? "", 10);
         if (!isNaN(ayahNum)) {
           targetCount = Math.max(targetCount, ayahNum + 5);
         }

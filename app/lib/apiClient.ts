@@ -14,6 +14,7 @@ export type FetchJSONOptions = {
   cacheKey?: string;
   fetcher?: Fetcher;
   persist?: boolean;
+  staleWhileRevalidate?: boolean;
   signal?: AbortSignal;
 };
 
@@ -31,14 +32,21 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
     cacheKey = url,
     fetcher = fetch,
     persist = false,
+    staleWhileRevalidate = false,
     signal
   } = options;
 
   const now = Date.now();
+  let staleEntry: CacheEntry<T> | null = null;
   if (ttl > 0 && cache.has(cacheKey)) {
-    const entry = cache.get(cacheKey);
-    if (entry && now - entry.timestamp < ttl) {
-      return entry.data as T;
+    const entry = cache.get(cacheKey) as CacheEntry<T> | undefined;
+    if (entry) {
+      if (now - entry.timestamp < ttl) {
+        return entry.data as T;
+      }
+      if (staleWhileRevalidate) {
+        staleEntry = entry;
+      }
     }
   }
 
@@ -46,10 +54,16 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
     try {
       const stored = localStorage.getItem(`${STORAGE_PREFIX}${cacheKey}`);
       if (stored) {
-        const parsed = JSON.parse(stored);
-        if (parsed?.timestamp && parsed?.data && now - parsed.timestamp < ttl) {
-          cache.set(cacheKey, parsed);
-          return parsed.data as T;
+        const parsed = JSON.parse(stored) as CacheEntry<T> | null;
+        if (parsed?.timestamp && parsed?.data) {
+          if (now - parsed.timestamp < ttl) {
+            cache.set(cacheKey, parsed);
+            return parsed.data as T;
+          }
+          if (staleWhileRevalidate) {
+            cache.set(cacheKey, parsed);
+            staleEntry = parsed;
+          }
         }
       }
     } catch {
@@ -57,11 +71,7 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
     }
   }
 
-  if (inflight.has(cacheKey)) {
-    return inflight.get(cacheKey) as Promise<T>;
-  }
-
-  const request = (async () => {
+  const performFetch = async (): Promise<T> => {
     let attempt = 0;
     while (true) {
       try {
@@ -95,14 +105,27 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
         await sleep(retryDelay);
       }
     }
-  })();
+  };
 
-  inflight.set(cacheKey, request);
-  try {
-    return await request;
-  } finally {
-    inflight.delete(cacheKey);
+  const startRequest = () => {
+    const request = performFetch();
+    inflight.set(cacheKey, request);
+    request.finally(() => inflight.delete(cacheKey)).catch(() => {});
+    return request;
+  };
+
+  if (staleEntry) {
+    if (!inflight.has(cacheKey)) {
+      startRequest().catch(() => {});
+    }
+    return staleEntry.data as T;
   }
+
+  if (inflight.has(cacheKey)) {
+    return inflight.get(cacheKey) as Promise<T>;
+  }
+
+  return await startRequest();
 }
 
 export function clearApiCache() {

@@ -12,7 +12,9 @@ type BookmarkListProps = {
 };
 
 const parseVerseKey = (key: string) => {
-  const [surah, ayah] = key.split(":").map(Number);
+  const parts = key.split(":");
+  const surah = Number(parts[0] ?? 0);
+  const ayah = Number(parts[1] ?? 0);
   return { surah, ayah };
 };
 

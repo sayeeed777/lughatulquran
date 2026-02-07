@@ -182,21 +182,31 @@ export function useHomeController() {
   });
 
   // Reciter State (Store ID, derive Object)
+  const defaultReciter: Reciter = AUDIO_RECITERS[0] ?? {
+    id: "default",
+    label: "Default",
+    baseUrl: ""
+  };
   const [reciterId, setReciterId] = useLocalStorage(
     STORAGE_KEYS.reciter,
-    AUDIO_RECITERS[0].id
+    defaultReciter.id
   ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
   const selectedReciter = useMemo<Reciter>(
-    () => AUDIO_RECITERS.find((r) => r.id === reciterId) || AUDIO_RECITERS[0],
-    [reciterId]
+    () => AUDIO_RECITERS.find((r) => r.id === reciterId) ?? defaultReciter,
+    [reciterId, defaultReciter]
   );
+  const defaultArabicFont: ArabicFont = ARABIC_FONTS[0] ?? {
+    id: "default",
+    label: "Default",
+    css: ""
+  };
   const [arabicFontId, setArabicFontId] = useLocalStorage(
     STORAGE_KEYS.arabicFont,
-    ARABIC_FONTS[0].id
+    defaultArabicFont.id
   ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
   const selectedArabicFont = useMemo<ArabicFont>(
-    () => ARABIC_FONTS.find((font) => font.id === arabicFontId) || ARABIC_FONTS[0],
-    [arabicFontId]
+    () => ARABIC_FONTS.find((font) => font.id === arabicFontId) ?? defaultArabicFont,
+    [arabicFontId, defaultArabicFont]
   );
 
   // UI State
@@ -356,7 +366,8 @@ export function useHomeController() {
     });
   }, [surahs]);
 
-  const totalAyahs = surahIndex.length ? surahIndex[surahIndex.length - 1].end : 0;
+  const lastSurahIndex = surahIndex[surahIndex.length - 1];
+  const totalAyahs = lastSurahIndex ? lastSurahIndex.end : 0;
 
   const getGlobalIndex = (surahNumber: number, ayahNumber: number) => {
     const entry = surahIndex.find((item) => item.number === surahNumber);
