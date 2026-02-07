@@ -1065,6 +1065,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+  direction: rtl;
 }
 
 .study-word-chip {
@@ -1077,11 +1078,16 @@
   gap: 4px;
   align-items: center;
   color: var(--text);
+  direction: rtl;
 }
 
 .study-word-chip.playing {
   background: rgba(111, 212, 177, 0.12);
   color: var(--accent-2);
+}
+
+.study-word-chip .word-en {
+  direction: ltr;
 }
 
 /* Tajweed highlighting */

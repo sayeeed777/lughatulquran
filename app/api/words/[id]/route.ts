@@ -5,8 +5,19 @@ export const revalidate = 86400;
 
 const WORDS_BASE_URL = "https://api.quran.com/api/v4/verses/by_chapter";
 const WORD_AUDIO_BASE_URL = "https://audio.qurancdn.com/";
+const pad3 = (value: number) => String(value).padStart(3, "0");
+
+const buildWordAudioUrl = (surah: number, ayah: number, position: number) =>
+  `${WORD_AUDIO_BASE_URL}wbw/${pad3(surah)}_${pad3(ayah)}_${pad3(position)}.mp3`;
+
+const parseAudioIndex = (audioUrl: string) => {
+  const match = audioUrl.match(/_(\d{3})\.mp3$/);
+  return match ? Number(match[1]) : null;
+};
 
 type QuranComWord = {
+  char_type_name?: string;
+  position?: number;
   text_uthmani?: string;
   text?: string;
   text_imlaei?: string;
@@ -36,9 +47,13 @@ type NormalizedWord = {
   arabic: string;
   translation: string;
   audioUrl: string;
+  position?: number;
 };
 
 const normalizeWord = (word: QuranComWord): NormalizedWord | null => {
+  if (word?.char_type_name && word.char_type_name !== "word") {
+    return null;
+  }
   const arabic =
     word?.text_uthmani ||
     word?.text ||
@@ -68,7 +83,8 @@ const normalizeWord = (word: QuranComWord): NormalizedWord | null => {
   return {
     arabic,
     translation,
-    audioUrl
+    audioUrl,
+    position: word?.position
   };
 };
 
@@ -89,6 +105,10 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }
+  const surahNumber = Number(id);
+  if (!Number.isFinite(surahNumber)) {
+    return NextResponse.json({ error: "Invalid surah id." }, { status: 400 });
+  }
 
   try {
     const wordsByAyah: Record<number, NormalizedWord[]> = {};
@@ -100,7 +120,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
       safety += 1;
       const url = new URL(`${WORDS_BASE_URL}/${id}`);
       url.searchParams.set("words", "true");
-      url.searchParams.set("word_fields", "text_uthmani,audio_url");
+      url.searchParams.set("word_fields", "text_uthmani,audio_url,char_type_name");
       url.searchParams.set("translation_fields", "text");
       url.searchParams.set("page", String(page));
       url.searchParams.set("per_page", "50");
@@ -124,9 +144,22 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
         }
         const normalized = verse.words
           .map(normalizeWord)
-          .filter((item): item is NormalizedWord => Boolean(item?.arabic));
+          .filter((item): item is NormalizedWord => Boolean(item?.arabic))
+          .sort((a, b) => (a.position ?? 0) - (b.position ?? 0));
+        const fixed = normalized.map((word) => {
+          if (!word.position) return word;
+          const expectedUrl = buildWordAudioUrl(surahNumber, verseNumber, word.position);
+          if (!word.audioUrl) {
+            return { ...word, audioUrl: expectedUrl };
+          }
+          const audioIndex = parseAudioIndex(word.audioUrl);
+          if (!audioIndex || audioIndex !== word.position) {
+            return { ...word, audioUrl: expectedUrl };
+          }
+          return word;
+        });
         if (normalized.length) {
-          wordsByAyah[verseNumber] = normalized;
+          wordsByAyah[verseNumber] = fixed;
         }
       }
 

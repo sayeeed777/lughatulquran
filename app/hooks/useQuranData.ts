@@ -203,7 +203,7 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
     setLoading(true);
     setError(null);
 
-    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}`, {
+    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}?v=5`, {
       ttl: 24 * 60 * 60 * 1000,
       retries: 1,
       retryDelay: 300,
