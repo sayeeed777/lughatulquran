@@ -241,6 +241,35 @@
   color: var(--muted);
 }
 
+/* Note & Compare panels */
+:root[data-theme="light"] .note-panel,
+:root[data-theme="light"] .compare-panel {
+  background: rgba(240, 231, 219, 0.95);
+  border: 1px solid rgba(66, 82, 54, 0.1);
+  box-shadow: var(--shadow-elevated);
+}
+
+:root[data-theme="light"] .compare-block {
+  background: rgba(250, 248, 245, 0.75);
+  border: 1px solid rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .note-body textarea {
+  background: rgba(66, 82, 54, 0.04);
+  border: 1px solid rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .note-body textarea:focus {
+  background: rgba(66, 82, 54, 0.06);
+  border-color: rgba(66, 82, 54, 0.2);
+}
+
+:root[data-theme="light"] .close-btn {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
 /* Study Mode — Serene scholarly environment */
 :root[data-theme="light"] .study-mode-container {
   background: linear-gradient(180deg, #e8ded1 0%, #e0d4c5 100%);
@@ -379,6 +408,15 @@
   background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
   color: #f0e7db;
   box-shadow: 0 6px 16px rgba(66, 82, 54, 0.2);
+}
+
+@media (max-width: 768px) {
+  :root[data-theme="light"] .study-rail {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
 }
 
 /* Tajweed colors — light mode tuning */
