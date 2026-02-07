@@ -336,6 +336,30 @@
   backdrop-filter: blur(20px) saturate(180%);
 }
 
+/* Study rail */
+:root[data-theme="light"] .study-rail {
+  background: rgba(240, 231, 219, 0.92);
+  border: 1px solid rgba(66, 82, 54, 0.12);
+  box-shadow: 0 8px 24px rgba(45, 52, 40, 0.12);
+  backdrop-filter: blur(18px) saturate(150%);
+}
+
+:root[data-theme="light"] .study-rail-btn {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--muted);
+}
+
+:root[data-theme="light"] .study-rail-btn:hover {
+  background: rgba(66, 82, 54, 0.16);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-rail-btn.active {
+  background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
+  color: #f0e7db;
+  box-shadow: 0 6px 16px rgba(66, 82, 54, 0.2);
+}
+
 /* Toggle switch */
 :root[data-theme="light"] .toggle-switch {
   background: rgba(66, 82, 54, 0.15);
