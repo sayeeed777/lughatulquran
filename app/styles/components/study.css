@@ -264,6 +264,14 @@
   gap: 20px;
 }
 
+.study-ayah-card:hover .ayah-actions,
+.study-ayah-card:focus-within .ayah-actions,
+.study-ayah-card.focused .ayah-actions {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 .study-ayah-arabic {
   font-family: var(--font-arabic);
   font-size: calc(2rem * var(--arabic-scale, 1));

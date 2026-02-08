@@ -757,17 +757,85 @@ export default function StudyModeView({
               <motion.article
                 key={key || `ayah-${index}`}
                 id={`ayah-${ayahNum}`}
-                className={`study-ayah-card${isActivePlay ? " playing" : ""}${dimNonFocused && focusedAyahKey && !isFocused ? " dimmed" : ""}`}
+                className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${dimNonFocused && focusedAyahKey && !isFocused ? " dimmed" : ""}`}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.02 }}
                 onClick={() => setFocusedAyahKey(key)}
+                onFocus={() => setFocusedAyahKey(key)}
+                tabIndex={0}
               >
-                <div className="study-ayah-number">
-                  <span>{ayahNum}</span>
-                </div>
-
                 <div className="study-ayah-content">
+                  <div className="ayah-header study-ayah-header">
+                    <span className="ayah-number">Ayah {ayahNum}</span>
+                    <div className="ayah-actions">
+                      <button
+                        className={`action-icon-btn play-icon${isActivePlay ? " playing" : ""}`}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          onTogglePlay(selectedSurah?.number || 0, ayahNum);
+                        }}
+                        aria-label={isActivePlay ? "Pause ayah" : "Play ayah"}
+                        title={isActivePlay ? "Pause ayah" : "Play ayah"}
+                      >
+                        {isActivePlay ? (
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <rect x="6" y="5" width="4" height="14" fill="currentColor" />
+                            <rect x="14" y="5" width="4" height="14" fill="currentColor" />
+                          </svg>
+                        ) : (
+                          <svg viewBox="0 0 24 24" aria-hidden="true">
+                            <polygon points="6,4 20,12 6,20" fill="currentColor" />
+                          </svg>
+                        )}
+                      </button>
+                      <button
+                        className={`action-icon-btn${bookmarked ? " saved" : ""}`}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          onToggleBookmark(selectedSurah?.number || 0, ayahNum);
+                        }}
+                        aria-label={bookmarked ? "Remove bookmark" : "Save bookmark"}
+                        title={bookmarked ? "Remove bookmark" : "Save bookmark"}
+                      >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path
+                            d="M6 3h12a2 2 0 0 1 2 2v16l-8-5-8 5V5a2 2 0 0 1 2-2z"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </button>
+                      <button
+                        className={`action-icon-btn${noted ? " saved" : ""}`}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          onOpenNote(selectedSurah?.number || 0, ayahNum);
+                        }}
+                        aria-label={noted ? "Edit note" : "Add note"}
+                        title={noted ? "Edit note" : "Add note"}
+                      >
+                        <svg viewBox="0 0 24 24" aria-hidden="true">
+                          <path
+                            d="M12 20h9"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                          />
+                          <path
+                            d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"
+                            fill="none"
+                            stroke="currentColor"
+                            strokeWidth="2"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
                   <p
                     className="study-ayah-arabic"
                     lang="ar"
@@ -790,9 +858,7 @@ export default function StudyModeView({
                     )}
                   {showWordByWord && (
                     <div className="study-word-row">
-                      {wordLoading && words.length === 0 && (
-                        <span className="meta">Loading words…</span>
-                      )}
+                      {wordLoading && words.length === 0 && <span className="meta">Loading words…</span>}
                       {words.map((word, wordIndex) => {
                         const resolvedAudioUrl = resolveWordAudioUrl(word.audioUrl);
                         return (
@@ -814,53 +880,6 @@ export default function StudyModeView({
                       })}
                     </div>
                   )}
-                </div>
-
-                <div className="study-ayah-actions">
-                  <button
-                    className={`study-ayah-action${bookmarked ? " active" : ""}`}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      onToggleBookmark(selectedSurah?.number || 0, ayahNum);
-                    }}
-                    title={bookmarked ? "Remove bookmark" : "Add bookmark"}
-                  >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill={bookmarked ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
-                      <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                    </svg>
-                  </button>
-                  <button
-                    className={`study-ayah-action${noted ? " active" : ""}`}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      onOpenNote(selectedSurah?.number || 0, ayahNum);
-                    }}
-                    title={noted ? "Edit note" : "Add note"}
-                  >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                      <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                    </svg>
-                  </button>
-                  <button
-                    className={`study-ayah-action${isActivePlay ? " active" : ""}`}
-                    onClick={(event) => {
-                      event.stopPropagation();
-                      onTogglePlay(selectedSurah?.number || 0, ayahNum);
-                    }}
-                    title={isActivePlay ? "Pause" : "Play"}
-                  >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill={isActivePlay ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2">
-                      {isActivePlay ? (
-                        <>
-                          <rect x="6" y="4" width="4" height="16" rx="1" />
-                          <rect x="14" y="4" width="4" height="16" rx="1" />
-                        </>
-                      ) : (
-                        <polygon points="5 3 19 12 5 21 5 3" />
-                      )}
-                    </svg>
-                  </button>
                 </div>
               </motion.article>
             );
