@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer, ProgressBar } from "../common";
@@ -347,6 +347,13 @@ export default function StudyModeView({
   const [tafsirText, setTafsirText] = useState("");
   const [tafsirLoading, setTafsirLoading] = useState(false);
   const [tafsirError, setTafsirError] = useState<string | null>(null);
+  const [showMemorizeModal, setShowMemorizeModal] = useState(false);
+  const [memorizeMode, setMemorizeMode] = useState<"single" | "range" | "surah">("single");
+  const [memorizeDraft, setMemorizeDraft] = useState({
+    startAyah: 1,
+    endAyah: 1,
+    loops: 2
+  });
   const lastTafsirKeyRef = useRef<string | null>(null);
   const wordAudioRef = useRef<HTMLAudioElement | null>(null);
   const [wordAudioUrl, setWordAudioUrl] = useState<string | null>(null);
@@ -363,92 +370,83 @@ export default function StudyModeView({
   const goalTarget = Math.max(1, Number(studyGoal?.perDay) || 1);
   const goalProgress = Math.min(currentAyahIndex, goalTarget);
 
-  const railItems = [
-    {
-      id: "study",
-      label: "Study",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-          <path d="M4 4h14a2 2 0 0 1 2 2v13" />
-          <path d="M4 4v13a2 2 0 0 0 2 2h14" />
-        </svg>
-      )
-    },
-    {
-      id: "memorize",
-      label: "Memorize",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M17 1l4 4-4 4" />
-          <path d="M3 11V9a4 4 0 0 1 4-4h14" />
-          <path d="M7 23l-4-4 4-4" />
-          <path d="M21 13v2a4 4 0 0 1-4 4H3" />
-        </svg>
-      )
-    },
-    {
-      id: "settings",
-      label: "Settings",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M4 21v-7" />
-          <path d="M4 10V3" />
-          <path d="M12 21v-9" />
-          <path d="M12 8V3" />
-          <path d="M20 21v-5" />
-          <path d="M20 12V3" />
-          <path d="M2 14h4" />
-          <path d="M10 8h4" />
-          <path d="M18 16h4" />
-        </svg>
-      )
-    },
-    {
-      id: "tools",
-      label: "Tools",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
-          <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
-          <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
-        </svg>
-      )
-    },
-    {
-      id: "tafsir",
-      label: "Tafsir",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-          <path d="M4 4h14a2 2 0 0 1 2 2v13" />
-          <path d="M4 4v13a2 2 0 0 0 2 2h14" />
-          <path d="M8 7h8" />
-          <path d="M8 11h6" />
-        </svg>
-      )
-    },
-    {
-      id: "search",
-      label: "Search",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <circle cx="11" cy="11" r="8" />
-          <path d="m21 21-4.35-4.35" />
-        </svg>
-      )
-    },
-    {
-      id: "notes",
-      label: "Notes",
-      icon: (
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-          <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-          <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-        </svg>
-      )
-    }
-  ];
+  const railItems = useMemo(
+    () => [
+      {
+        id: "study",
+        label: "Study",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M4 4h14a2 2 0 0 1 2 2v13" />
+            <path d="M4 4v13a2 2 0 0 0 2 2h14" />
+          </svg>
+        )
+      },
+      {
+        id: "settings",
+        label: "Settings",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M4 21v-7" />
+            <path d="M4 10V3" />
+            <path d="M12 21v-9" />
+            <path d="M12 8V3" />
+            <path d="M20 21v-5" />
+            <path d="M20 12V3" />
+            <path d="M2 14h4" />
+            <path d="M10 8h4" />
+            <path d="M18 16h4" />
+          </svg>
+        )
+      },
+      {
+        id: "tools",
+        label: "Tools",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
+            <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
+            <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
+          </svg>
+        )
+      },
+      {
+        id: "tafsir",
+        label: "Tafsir",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+            <path d="M4 4h14a2 2 0 0 1 2 2v13" />
+            <path d="M4 4v13a2 2 0 0 0 2 2h14" />
+            <path d="M8 7h8" />
+            <path d="M8 11h6" />
+          </svg>
+        )
+      },
+      {
+        id: "search",
+        label: "Search",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <circle cx="11" cy="11" r="8" />
+            <path d="m21 21-4.35-4.35" />
+          </svg>
+        )
+      },
+      {
+        id: "notes",
+        label: "Notes",
+        icon: (
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+            <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+          </svg>
+        )
+      }
+    ],
+    []
+  );
 
   // Reading time tracker
   useEffect(() => {
@@ -528,8 +526,14 @@ export default function StudyModeView({
     setCurrentAyahIndex(ayahNumber);
   }, [focusedAyahKey, selectedSurah]);
 
-  const isBookmarked = (surah: number, ayah: number) => bookmarks?.includes(verseKey(surah, ayah));
-  const hasNote = (surah: number, ayah: number) => notes?.[verseKey(surah, ayah)];
+  const isBookmarked = useCallback(
+    (surah: number, ayah: number) => bookmarks?.includes(verseKey(surah, ayah)),
+    [bookmarks, verseKey]
+  );
+  const hasNote = useCallback(
+    (surah: number, ayah: number) => notes?.[verseKey(surah, ayah)],
+    [notes, verseKey]
+  );
 
   const parseVerseKey = (key: string) => {
     const [surah, ayah] = key.split(":").map(Number);
@@ -638,34 +642,336 @@ export default function StudyModeView({
     return "Plan ready";
   })();
 
-  const navigateToAyah = (surahNumber: number, ayahNumber: number) => {
+  const navigateToAyah = useCallback(
+    (surahNumber: number, ayahNumber: number) => {
     onJumpToAyah(surahNumber, ayahNumber);
     setShowQuickPanel(false);
-  };
+    },
+    [onJumpToAyah]
+  );
 
-  const resolveWordAudioUrl = (audioUrl?: string) => {
+  const resolveWordAudioUrl = useCallback((audioUrl?: string) => {
     if (!audioUrl) return "";
     if (audioUrl.startsWith("http")) return audioUrl;
     return `https://audio.qurancdn.com/${audioUrl.replace(/^\//, "")}`;
-  };
+  }, []);
 
-  const handleWordAudio = (audioUrl?: string) => {
-    const resolvedUrl = resolveWordAudioUrl(audioUrl);
-    if (!resolvedUrl) return;
-    const audio = wordAudioRef.current;
-    if (audio) {
-      if (audio.src !== resolvedUrl) {
-        audio.src = resolvedUrl;
-        audio.load();
+  const handleWordAudio = useCallback(
+    (audioUrl?: string) => {
+      const resolvedUrl = resolveWordAudioUrl(audioUrl);
+      if (!resolvedUrl) return;
+      const audio = wordAudioRef.current;
+      if (audio) {
+        if (audio.src !== resolvedUrl) {
+          audio.src = resolvedUrl;
+          audio.load();
+        }
+        audio.pause();
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
       }
-      audio.pause();
-      audio.currentTime = 0;
-      audio.play().catch(() => {});
-    }
-    setWordAudioUrl(resolvedUrl);
-  };
+      setWordAudioUrl(resolvedUrl);
+    },
+    [resolveWordAudioUrl]
+  );
+
+  const openMemorizeModal = useCallback(
+    (ayahNumber: number) => {
+      if (!selectedSurah) return;
+      const max = selectedSurah.numberOfAyahs;
+      const start = clamp(Number(ayahNumber) || 1, 1, max);
+      setMemorizeMode("single");
+      setMemorizeDraft({
+        startAyah: start,
+        endAyah: start,
+        loops: Number.isFinite(memorizeConfig?.loops) ? memorizeConfig.loops : 2
+      });
+      setShowMemorizeModal(true);
+    },
+    [clamp, memorizeConfig?.loops, selectedSurah]
+  );
+
+  const closeMemorizeModal = useCallback(() => {
+    setShowMemorizeModal(false);
+  }, []);
+
+  const applyMemorizeMode = useCallback(
+    (mode: "single" | "range" | "surah") => {
+      setMemorizeMode(mode);
+      setMemorizeDraft((prev) => {
+        if (!selectedSurah) return prev;
+        if (mode === "single") {
+          const start = clamp(Number(prev.startAyah) || 1, 1, selectedSurah.numberOfAyahs);
+          return { ...prev, startAyah: start, endAyah: start };
+        }
+        if (mode === "surah") {
+          return { ...prev, startAyah: 1, endAyah: selectedSurah.numberOfAyahs };
+        }
+        const start = clamp(Number(prev.startAyah) || 1, 1, selectedSurah.numberOfAyahs);
+        const end = clamp(
+          Number(prev.endAyah) || start,
+          start,
+          selectedSurah.numberOfAyahs
+        );
+        return { ...prev, startAyah: start, endAyah: end };
+      });
+    },
+    [clamp, selectedSurah]
+  );
+
+  const updateMemorizeStart = useCallback(
+    (value: number) => {
+      if (!selectedSurah) return;
+      const max = selectedSurah.numberOfAyahs;
+      const start = clamp(Number(value) || 1, 1, max);
+      setMemorizeDraft((prev) => {
+        const end = memorizeMode === "single" ? start : clamp(prev.endAyah, start, max);
+        return { ...prev, startAyah: start, endAyah: end };
+      });
+    },
+    [clamp, memorizeMode, selectedSurah]
+  );
+
+  const updateMemorizeEnd = useCallback(
+    (value: number) => {
+      if (!selectedSurah) return;
+      const max = selectedSurah.numberOfAyahs;
+      setMemorizeDraft((prev) => {
+        const start = clamp(prev.startAyah, 1, max);
+        const end = clamp(Number(value) || start, start, max);
+        return { ...prev, startAyah: start, endAyah: end };
+      });
+    },
+    [clamp, selectedSurah]
+  );
+
+  const updateMemorizeLoops = useCallback((delta: number) => {
+    setMemorizeDraft((prev) => {
+      const raw = Number(prev.loops) || 0;
+      const next = clamp(raw + delta, 0, 50);
+      return { ...prev, loops: next };
+    });
+  }, [clamp]);
 
   const currentReciter = reciters?.find((r) => r.id === reciterId) || reciters?.[0];
+  const ayahCards = useMemo(
+    () =>
+      ayahs.map((ayah, index) => {
+        const ayahNum = ayah.number;
+        const key = verseKey(selectedSurah?.number || 0, ayahNum);
+        const bookmarked = isBookmarked(selectedSurah?.number || 0, ayahNum);
+        const noted = hasNote(selectedSurah?.number || 0, ayahNum);
+        const isPlaying = nowPlaying?.surah === selectedSurah?.number && nowPlaying?.ayah === ayahNum;
+        const isActivePlay = isPlaying && !isAudioPaused;
+        const words = showWordByWord
+          ? wordByAyah?.[selectedSurah?.number || 0]?.[ayahNum] || []
+          : [];
+        const isFocused = focusedAyahKey === key;
+
+        return (
+          <motion.article
+            key={key || `ayah-${index}`}
+            id={`ayah-${ayahNum}`}
+            className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${dimNonFocused && focusedAyahKey && !isFocused ? " dimmed" : ""}`}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.02 }}
+            onClick={() => setFocusedAyahKey(key)}
+            onFocus={() => setFocusedAyahKey(key)}
+            tabIndex={0}
+          >
+            <div className="study-ayah-content">
+              <div className="ayah-header study-ayah-header">
+                <span className="ayah-number">Ayah {ayahNum}</span>
+                <div className="ayah-actions">
+                  <button
+                    className="action-icon-btn memorize-icon"
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      openMemorizeModal(ayahNum);
+                    }}
+                    aria-label="Memorize / Repeat"
+                    title="Memorize / Repeat"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M17 2l4 4-4 4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M3 12v-2a4 4 0 0 1 4-4h14"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M7 22l-4-4 4-4"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                      <path
+                        d="M21 14v2a4 4 0 0 1-4 4H3"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    className={`action-icon-btn play-icon${isActivePlay ? " playing" : ""}`}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onTogglePlay(selectedSurah?.number || 0, ayahNum);
+                    }}
+                    aria-label={isActivePlay ? "Pause ayah" : "Play ayah"}
+                    title={isActivePlay ? "Pause ayah" : "Play ayah"}
+                  >
+                    {isActivePlay ? (
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <rect x="6" y="5" width="4" height="14" fill="currentColor" />
+                        <rect x="14" y="5" width="4" height="14" fill="currentColor" />
+                      </svg>
+                    ) : (
+                      <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <polygon points="6,4 20,12 6,20" fill="currentColor" />
+                      </svg>
+                    )}
+                  </button>
+                  <button
+                    className={`action-icon-btn${bookmarked ? " saved" : ""}`}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onToggleBookmark(selectedSurah?.number || 0, ayahNum);
+                    }}
+                    aria-label={bookmarked ? "Remove bookmark" : "Save bookmark"}
+                    title={bookmarked ? "Remove bookmark" : "Save bookmark"}
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M6 3h12a2 2 0 0 1 2 2v16l-8-5-8 5V5a2 2 0 0 1 2-2z"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </button>
+                  <button
+                    className={`action-icon-btn${noted ? " saved" : ""}`}
+                    onClick={(event) => {
+                      event.stopPropagation();
+                      onOpenNote(selectedSurah?.number || 0, ayahNum);
+                    }}
+                    aria-label={noted ? "Edit note" : "Add note"}
+                    title={noted ? "Edit note" : "Add note"}
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path
+                        d="M12 20h9"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                      />
+                      <path
+                        d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <p
+                className="study-ayah-arabic"
+                lang="ar"
+                dir="rtl"
+                style={{ fontSize: `calc(2rem * ${fontScale?.arabic || 1})` }}
+              >
+                {showTajweed && ayah.arabicTajweed
+                  ? renderTajweedMarkup(ayah.arabicTajweed)
+                  : ayah.arabic || ""}
+              </p>
+              {!isMushafView &&
+                showTranslation &&
+                (ayah.translations?.[primaryTranslation]?.text || "") && (
+                  <p
+                    className="study-ayah-translation"
+                    style={{ fontSize: `calc(1rem * ${fontScale?.translation || 1})` }}
+                  >
+                    {ayah.translations?.[primaryTranslation]?.text || "Translation unavailable."}
+                  </p>
+                )}
+              {showWordByWord && (
+                <div className="study-word-row">
+                  {wordLoading && words.length === 0 && <span className="meta">Loading words…</span>}
+                  {words.map((word, wordIndex) => {
+                    const resolvedAudioUrl = resolveWordAudioUrl(word.audioUrl);
+                    return (
+                      <button
+                        key={`${key}-${wordIndex}`}
+                        className={`study-word-chip${resolvedAudioUrl && wordAudioUrl === resolvedAudioUrl ? " playing" : ""}`}
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          handleWordAudio(word.audioUrl);
+                        }}
+                        type="button"
+                      >
+                        <span className="word-ar" lang="ar" dir="rtl">
+                          {word.arabic}
+                        </span>
+                        {word.translation && <span className="word-en">{word.translation}</span>}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          </motion.article>
+        );
+      }),
+    [
+      ayahs,
+      dimNonFocused,
+      focusedAyahKey,
+      fontScale?.arabic,
+      fontScale?.translation,
+      handleWordAudio,
+      hasNote,
+      isAudioPaused,
+      isBookmarked,
+      isMushafView,
+      nowPlaying,
+      openMemorizeModal,
+      onOpenNote,
+      onToggleBookmark,
+      onTogglePlay,
+      primaryTranslation,
+      resolveWordAudioUrl,
+      selectedSurah?.number,
+      setFocusedAyahKey,
+      showTajweed,
+      showTranslation,
+      showWordByWord,
+      verseKey,
+      wordAudioUrl,
+      wordByAyah,
+      wordLoading
+    ]
+  );
 
   return (
     <div
@@ -740,151 +1046,7 @@ export default function StudyModeView({
           </div>
         )}
 
-        <div className="study-ayah-list">
-          {ayahs.map((ayah, index) => {
-            const ayahNum = ayah.number;
-            const key = verseKey(selectedSurah?.number || 0, ayahNum);
-            const bookmarked = isBookmarked(selectedSurah?.number || 0, ayahNum);
-            const noted = hasNote(selectedSurah?.number || 0, ayahNum);
-            const isPlaying = nowPlaying?.surah === selectedSurah?.number && nowPlaying?.ayah === ayahNum;
-            const isActivePlay = isPlaying && !isAudioPaused;
-            const words = showWordByWord
-              ? wordByAyah?.[selectedSurah?.number || 0]?.[ayahNum] || []
-              : [];
-            const isFocused = focusedAyahKey === key;
-
-            return (
-              <motion.article
-                key={key || `ayah-${index}`}
-                id={`ayah-${ayahNum}`}
-                className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${dimNonFocused && focusedAyahKey && !isFocused ? " dimmed" : ""}`}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.02 }}
-                onClick={() => setFocusedAyahKey(key)}
-                onFocus={() => setFocusedAyahKey(key)}
-                tabIndex={0}
-              >
-                <div className="study-ayah-content">
-                  <div className="ayah-header study-ayah-header">
-                    <span className="ayah-number">Ayah {ayahNum}</span>
-                    <div className="ayah-actions">
-                      <button
-                        className={`action-icon-btn play-icon${isActivePlay ? " playing" : ""}`}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          onTogglePlay(selectedSurah?.number || 0, ayahNum);
-                        }}
-                        aria-label={isActivePlay ? "Pause ayah" : "Play ayah"}
-                        title={isActivePlay ? "Pause ayah" : "Play ayah"}
-                      >
-                        {isActivePlay ? (
-                          <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <rect x="6" y="5" width="4" height="14" fill="currentColor" />
-                            <rect x="14" y="5" width="4" height="14" fill="currentColor" />
-                          </svg>
-                        ) : (
-                          <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <polygon points="6,4 20,12 6,20" fill="currentColor" />
-                          </svg>
-                        )}
-                      </button>
-                      <button
-                        className={`action-icon-btn${bookmarked ? " saved" : ""}`}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          onToggleBookmark(selectedSurah?.number || 0, ayahNum);
-                        }}
-                        aria-label={bookmarked ? "Remove bookmark" : "Save bookmark"}
-                        title={bookmarked ? "Remove bookmark" : "Save bookmark"}
-                      >
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                          <path
-                            d="M6 3h12a2 2 0 0 1 2 2v16l-8-5-8 5V5a2 2 0 0 1 2-2z"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </button>
-                      <button
-                        className={`action-icon-btn${noted ? " saved" : ""}`}
-                        onClick={(event) => {
-                          event.stopPropagation();
-                          onOpenNote(selectedSurah?.number || 0, ayahNum);
-                        }}
-                        aria-label={noted ? "Edit note" : "Add note"}
-                        title={noted ? "Edit note" : "Add note"}
-                      >
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                          <path
-                            d="M12 20h9"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinecap="round"
-                          />
-                          <path
-                            d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4 12.5-12.5z"
-                            fill="none"
-                            stroke="currentColor"
-                            strokeWidth="2"
-                            strokeLinejoin="round"
-                          />
-                        </svg>
-                      </button>
-                    </div>
-                  </div>
-                  <p
-                    className="study-ayah-arabic"
-                    lang="ar"
-                    dir="rtl"
-                    style={{ fontSize: `calc(2rem * ${fontScale?.arabic || 1})` }}
-                  >
-                    {showTajweed && ayah.arabicTajweed
-                      ? renderTajweedMarkup(ayah.arabicTajweed)
-                      : ayah.arabic || ""}
-                  </p>
-                  {!isMushafView &&
-                    showTranslation &&
-                    (ayah.translations?.[primaryTranslation]?.text || "") && (
-                      <p
-                        className="study-ayah-translation"
-                        style={{ fontSize: `calc(1rem * ${fontScale?.translation || 1})` }}
-                      >
-                        {ayah.translations?.[primaryTranslation]?.text || "Translation unavailable."}
-                      </p>
-                    )}
-                  {showWordByWord && (
-                    <div className="study-word-row">
-                      {wordLoading && words.length === 0 && <span className="meta">Loading words…</span>}
-                      {words.map((word, wordIndex) => {
-                        const resolvedAudioUrl = resolveWordAudioUrl(word.audioUrl);
-                        return (
-                          <button
-                            key={`${key}-${wordIndex}`}
-                            className={`study-word-chip${resolvedAudioUrl && wordAudioUrl === resolvedAudioUrl ? " playing" : ""}`}
-                            onClick={(event) => {
-                              event.stopPropagation();
-                              handleWordAudio(word.audioUrl);
-                            }}
-                            type="button"
-                          >
-                            <span className="word-ar" lang="ar" dir="rtl">
-                              {word.arabic}
-                            </span>
-                            {word.translation && <span className="word-en">{word.translation}</span>}
-                          </button>
-                        );
-                      })}
-                    </div>
-                  )}
-                </div>
-              </motion.article>
-            );
-          })}
-        </div>
+        <div className="study-ayah-list">{ayahCards}</div>
 
         <div className="study-surah-end">
           <div className="study-end-decoration">
@@ -1216,88 +1378,6 @@ export default function StudyModeView({
           </div>
         )}
 
-        {quickPanelTab === "memorize" && (
-          <div className="quick-panel-section">
-            <div className="study-card memorize-card">
-              <h4>Memorize Range</h4>
-              <div className="memorize-grid">
-                <label className="memorize-field">
-                  <span>Start Ayah</span>
-                  <input
-                    type="number"
-                    min={1}
-                    max={selectedSurah?.numberOfAyahs || 1}
-                    value={memorizeConfig?.startAyah || 1}
-                    onChange={(event) =>
-                      setMemorizeConfig((prev) => ({
-                        ...prev,
-                        startAyah: Number(event.target.value)
-                      }))
-                    }
-                  />
-                </label>
-                <label className="memorize-field">
-                  <span>End Ayah</span>
-                  <input
-                    type="number"
-                    min={memorizeConfig?.startAyah || 1}
-                    max={selectedSurah?.numberOfAyahs || 1}
-                    value={memorizeConfig?.endAyah || 1}
-                    onChange={(event) =>
-                      setMemorizeConfig((prev) => ({
-                        ...prev,
-                        endAyah: Number(event.target.value)
-                      }))
-                    }
-                  />
-                </label>
-                <label className="memorize-field">
-                  <span>Loops (0 = ∞)</span>
-                  <input
-                    type="number"
-                    min={0}
-                    max={50}
-                    value={memorizeConfig?.loops ?? 0}
-                    onChange={(event) =>
-                      setMemorizeConfig((prev) => ({
-                        ...prev,
-                        loops: Number(event.target.value)
-                      }))
-                    }
-                  />
-                </label>
-              </div>
-              <div className="memorize-actions">
-                {memorizeConfig?.active ? (
-                  <button className="control-btn" onClick={onStopMemorize}>
-                    Stop Memorize
-                  </button>
-                ) : (
-                  <button
-                    className="control-btn primary"
-                    onClick={() =>
-                      onStartMemorize({
-                        startAyah: memorizeConfig.startAyah,
-                        endAyah: memorizeConfig.endAyah,
-                        loops: memorizeConfig.loops
-                      })
-                    }
-                  >
-                    Start Memorize
-                  </button>
-                )}
-                {memorizeConfig?.active && (
-                  <span className="memorize-status">
-                    {memorizeConfig.loops === 0
-                      ? "Looping ∞"
-                      : `Loops left: ${memorizeConfig.remaining || 0}`}
-                  </span>
-                )}
-              </div>
-            </div>
-          </div>
-        )}
-
         {quickPanelTab === "tools" && (
           <div className="quick-panel-section">
             <div className="study-card tools-card">
@@ -1559,6 +1639,152 @@ export default function StudyModeView({
           </div>
         )}
       </QuickPanel>
+
+      <AnimatePresence>
+        {showMemorizeModal && (
+          <>
+            <motion.div
+              className="memorize-modal-backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={closeMemorizeModal}
+            />
+            <motion.section
+              className="memorize-modal"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Repeat settings"
+              initial={{ opacity: 0, y: 20, scale: 0.98 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 16, scale: 0.98 }}
+              transition={{ type: "spring", damping: 28, stiffness: 320 }}
+            >
+              <div className="memorize-modal-header">
+                <div>
+                  <h3>Repeat Settings</h3>
+                  <p>{selectedSurah?.englishName || "Surah"}</p>
+                </div>
+                <button className="memorize-close" onClick={closeMemorizeModal} aria-label="Close">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              <div className="memorize-segmented">
+                <button
+                  className={`memorize-segment${memorizeMode === "single" ? " active" : ""}`}
+                  onClick={() => applyMemorizeMode("single")}
+                >
+                  Single Verse
+                </button>
+                <button
+                  className={`memorize-segment${memorizeMode === "range" ? " active" : ""}`}
+                  onClick={() => applyMemorizeMode("range")}
+                >
+                  Range
+                </button>
+                <button
+                  className={`memorize-segment${memorizeMode === "surah" ? " active" : ""}`}
+                  onClick={() => applyMemorizeMode("surah")}
+                >
+                  Full Surah
+                </button>
+              </div>
+
+              <div className="memorize-range">
+                {memorizeMode === "surah" ? (
+                  <div className="memorize-range-summary">
+                    {selectedSurah?.englishName || "Surah"} · {selectedSurah?.numberOfAyahs || 0} ayahs
+                  </div>
+                ) : (
+                  <div className="memorize-range-grid">
+                    <label>
+                      <span>Start ayah</span>
+                      <input
+                        type="number"
+                        min={1}
+                        max={selectedSurah?.numberOfAyahs || 1}
+                        value={memorizeDraft.startAyah}
+                        onChange={(event) => updateMemorizeStart(Number(event.target.value))}
+                      />
+                    </label>
+                    {memorizeMode === "range" && (
+                      <label>
+                        <span>End ayah</span>
+                        <input
+                          type="number"
+                          min={memorizeDraft.startAyah}
+                          max={selectedSurah?.numberOfAyahs || 1}
+                          value={memorizeDraft.endAyah}
+                          onChange={(event) => updateMemorizeEnd(Number(event.target.value))}
+                        />
+                      </label>
+                    )}
+                  </div>
+                )}
+              </div>
+
+              <div className="memorize-steps">
+                <div className="memorize-step-row">
+                  <span>Repeat range</span>
+                  <div className="memorize-stepper">
+                    <button type="button" onClick={() => updateMemorizeLoops(-1)} aria-label="Decrease repeats">
+                      −
+                    </button>
+                    <span className="stepper-value">
+                      {memorizeDraft.loops === 0 ? "∞" : memorizeDraft.loops}
+                    </span>
+                    <button type="button" onClick={() => updateMemorizeLoops(1)} aria-label="Increase repeats">
+                      +
+                    </button>
+                  </div>
+                  <span className="stepper-suffix">times</span>
+                </div>
+                <p className="memorize-hint">Set repeats to 0 for infinite looping.</p>
+              </div>
+
+              <div className="memorize-footer">
+                {memorizeConfig?.active && (
+                  <button
+                    className="memorize-ghost"
+                    onClick={() => {
+                      onStopMemorize();
+                      closeMemorizeModal();
+                    }}
+                  >
+                    Stop
+                  </button>
+                )}
+                <button className="memorize-ghost" onClick={closeMemorizeModal}>
+                  Cancel
+                </button>
+                <button
+                  className="memorize-primary"
+                  onClick={() => {
+                    const startAyah = memorizeMode === "surah" ? 1 : memorizeDraft.startAyah;
+                    const endAyah =
+                      memorizeMode === "surah"
+                        ? selectedSurah?.numberOfAyahs || startAyah
+                        : memorizeMode === "single"
+                          ? startAyah
+                          : memorizeDraft.endAyah;
+                    onStartMemorize({
+                      startAyah,
+                      endAyah,
+                      loops: memorizeDraft.loops
+                    });
+                    closeMemorizeModal();
+                  }}
+                >
+                  Start
+                </button>
+              </div>
+            </motion.section>
+          </>
+        )}
+      </AnimatePresence>
 
       {/* Hidden audio element for word audio */}
       <audio ref={wordAudioRef} hidden />

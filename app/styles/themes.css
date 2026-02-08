@@ -420,6 +420,57 @@
   box-shadow: 0 6px 16px rgba(66, 82, 54, 0.2);
 }
 
+/* Memorize modal */
+:root[data-theme="light"] .memorize-modal-backdrop {
+  background: rgba(224, 212, 197, 0.7);
+}
+
+:root[data-theme="light"] .memorize-modal {
+  background: rgba(240, 231, 219, 0.98);
+  border: 1px solid rgba(66, 82, 54, 0.12);
+  box-shadow: var(--shadow-elevated);
+}
+
+:root[data-theme="light"] .memorize-close {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .memorize-segmented {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .memorize-segment {
+  color: var(--muted);
+}
+
+:root[data-theme="light"] .memorize-segment.active {
+  background: rgba(66, 82, 54, 0.18);
+  color: var(--text);
+  box-shadow: none;
+}
+
+:root[data-theme="light"] .memorize-range-grid input,
+:root[data-theme="light"] .memorize-range-summary,
+:root[data-theme="light"] .memorize-stepper {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .memorize-stepper button {
+  background: rgba(66, 82, 54, 0.12);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .memorize-ghost {
+  background: rgba(66, 82, 54, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .memorize-primary {
+  background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
+  color: #f0e7db;
+}
+
 @media (max-width: 768px) {
   :root[data-theme="light"] .study-rail {
     background: transparent;
