@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import type { ReactNode, CSSProperties } from "react";
 
 type ProgressRingProps = {
@@ -92,36 +92,34 @@ export const QuickPanel = ({
   title: string;
   children: ReactNode;
 }) => (
-  <AnimatePresence>
-    {isOpen && (
-      <>
-        <motion.div
-          className="quick-panel-backdrop"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          onClick={onClose}
-        />
-        <motion.aside
-          className="quick-panel"
-          initial={{ x: "100%", opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: "100%", opacity: 0 }}
-          transition={{ type: "spring", damping: 30, stiffness: 300 }}
-        >
-          <div className="quick-panel-header">
-            <span className="quick-panel-title">{title}</span>
-            <button className="quick-panel-close" onClick={onClose}>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="M18 6L6 18M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
-          <div className="quick-panel-content">{children}</div>
-        </motion.aside>
-      </>
-    )}
-  </AnimatePresence>
+  <>
+    <motion.div
+      className="quick-panel-backdrop"
+      initial={false}
+      animate={{ opacity: isOpen ? 1 : 0 }}
+      transition={{ duration: 0.18, ease: "easeOut" }}
+      style={{ pointerEvents: isOpen ? "auto" : "none", visibility: isOpen ? "visible" : "hidden" }}
+      onClick={onClose}
+    />
+    <motion.aside
+      className="quick-panel"
+      initial={false}
+      animate={{ x: isOpen ? 0 : "100%", opacity: isOpen ? 1 : 0.98 }}
+      transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
+      style={{ pointerEvents: isOpen ? "auto" : "none", visibility: isOpen ? "visible" : "hidden" }}
+      aria-hidden={!isOpen}
+    >
+      <div className="quick-panel-header">
+        <span className="quick-panel-title">{title}</span>
+        <button className="quick-panel-close" onClick={onClose} type="button">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+      <div className="quick-panel-content">{children}</div>
+    </motion.aside>
+  </>
 );
 
 /**

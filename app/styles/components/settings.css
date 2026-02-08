@@ -955,10 +955,10 @@
 @media (max-width: 768px) {
 
   /* Base button reset for touch */
-  button,
-  [role="button"],
-  .btn,
-  a.btn {
+  .settings-modal-overlay button,
+  .settings-modal-overlay [role="button"],
+  .settings-modal-overlay .btn,
+  .settings-modal-overlay a.btn {
     min-height: 44px;
     min-width: 44px;
     -webkit-tap-highlight-color: rgba(111, 212, 177, 0.15);
@@ -966,9 +966,9 @@
   }
 
   /* Ayah card action buttons - 44px hit area, compact visual */
-  .ayah-action,
-  .ayah-btn,
-  .study-ayah-action {
+  .settings-modal-overlay .ayah-action,
+  .settings-modal-overlay .ayah-btn,
+  .settings-modal-overlay .study-ayah-action {
     /* 44px tap target via padding, not min-height */
     position: relative;
     padding: 10px;
@@ -980,9 +980,9 @@
   }
 
   /* Extended hit area using pseudo-element */
-  .ayah-action::before,
-  .ayah-btn::before,
-  .study-ayah-action::before {
+  .settings-modal-overlay .ayah-action::before,
+  .settings-modal-overlay .ayah-btn::before,
+  .settings-modal-overlay .study-ayah-action::before {
     content: "";
     position: absolute;
     inset: -6px;
@@ -1229,52 +1229,46 @@
 @media (max-width: 768px) {
 
   /* Active states for touch feedback */
-  button:active,
-  [role="button"]:active,
-  .btn:active {
+  .settings-modal-overlay button:active,
+  .settings-modal-overlay [role="button"]:active,
+  .settings-modal-overlay .btn:active {
     opacity: 0.85;
     transform: scale(0.98);
   }
 
-  .translation-chip:active,
-  .reciter-card:active,
-  .study-reciter-chip:active {
+  .settings-modal-overlay .translation-chip:active,
+  .settings-modal-overlay .reciter-card:active,
+  .settings-modal-overlay .study-reciter-chip:active {
     transform: scale(0.98);
   }
 
-  .ayah-action:active,
-  .study-ayah-action:active {
+  .settings-modal-overlay .ayah-action:active,
+  .settings-modal-overlay .study-ayah-action:active {
     transform: scale(0.9);
   }
 
   /* Prevent text selection on interactive elements */
-  button,
-  [role="button"],
-  .ayah-action,
-  .translation-chip,
-  .reciter-card {
+  .settings-modal-overlay button,
+  .settings-modal-overlay [role="button"],
+  .settings-modal-overlay .ayah-action,
+  .settings-modal-overlay .translation-chip,
+  .settings-modal-overlay .reciter-card {
     -webkit-user-select: none;
     user-select: none;
   }
 
   /* Smooth scrolling */
-  .reader-panel-scroll,
-  .study-reading-area,
   .settings-content,
-  .quick-panel-content {
+  .settings-modal-overlay .quick-panel-content {
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
   }
 
   /* Hide scrollbars on mobile for cleaner look */
-  .reader-panel-scroll::-webkit-scrollbar,
-  .study-reading-area::-webkit-scrollbar,
   .settings-content::-webkit-scrollbar {
     display: none;
   }
 
-  .reader-panel-scroll,
-  .study-reading-area,
   .settings-content {
     -ms-overflow-style: none;
     scrollbar-width: none;

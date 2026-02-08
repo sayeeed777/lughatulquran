@@ -39,6 +39,12 @@ type TajweedStackNode = {
   children: ReactNode[];
 };
 
+type RailItem = {
+  id: QuickPanelTab;
+  label: string;
+  icon: ReactNode;
+};
+
 const sanitizeClassName = (value: string) => value.replace(/[^a-zA-Z0-9 _-]/g, "").trim();
 
 const extractClassName = (attrs: string) => {
@@ -366,6 +372,7 @@ export default function StudyModeView({
   });
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const lastPointerActivityRef = useRef(0);
 
   const ayahs = filteredAyahs || surahData?.ayahs || [];
   const totalAyahs = ayahs.length;
@@ -373,7 +380,7 @@ export default function StudyModeView({
   const goalTarget = Math.max(1, Number(studyGoal?.perDay) || 1);
   const goalProgress = Math.min(currentAyahIndex, goalTarget);
 
-  const railItems = useMemo(
+  const railItems = useMemo<RailItem[]>(
     () => [
       {
         id: "study",
@@ -468,56 +475,123 @@ export default function StudyModeView({
 
   // Auto-hide controls
   useEffect(() => {
-    const handleMouseMove = () => {
-      setShowControls(true);
+    let frameId: number | null = null;
+    const resetHideTimer = () => {
       if (controlsTimeoutRef.current) {
         clearTimeout(controlsTimeoutRef.current);
       }
       controlsTimeoutRef.current = setTimeout(() => {
         setShowControls(false);
-      }, 3000);
+      }, 2500);
     };
+    const revealControls = (throttleMs: number) => {
+      const now = typeof performance !== "undefined" ? performance.now() : Date.now();
+      if (now - lastPointerActivityRef.current < throttleMs) return;
+      lastPointerActivityRef.current = now;
+      setShowControls((prev) => (prev ? prev : true));
+      resetHideTimer();
+    };
+    const handlePointerMove = () => {
+      if (frameId !== null) return;
+      frameId = window.requestAnimationFrame(() => {
+        revealControls(120);
+        frameId = null;
+      });
+    };
+    const handlePointerDown = () => revealControls(0);
+    const handleKeyDown = () => revealControls(0);
 
-    window.addEventListener("mousemove", handleMouseMove);
+    window.addEventListener("pointermove", handlePointerMove, { passive: true });
+    window.addEventListener("pointerdown", handlePointerDown, { passive: true });
+    window.addEventListener("keydown", handleKeyDown);
+    resetHideTimer();
+
     return () => {
-      window.removeEventListener("mousemove", handleMouseMove);
+      window.removeEventListener("pointermove", handlePointerMove);
+      window.removeEventListener("pointerdown", handlePointerDown);
+      window.removeEventListener("keydown", handleKeyDown);
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
       if (controlsTimeoutRef.current) {
         clearTimeout(controlsTimeoutRef.current);
       }
     };
   }, []);
 
-  // Track scroll position for current ayah
+  // Track scroll position for current ayah with intersection observer to avoid
+  // scanning all cards on every scroll event.
   useEffect(() => {
     const container = scrollContainerRef.current;
     if (!container) return;
 
-    const handleScroll = () => {
-      const ayahElements = container.querySelectorAll(".study-ayah-card");
-      if (!ayahElements.length) {
-        setCurrentAyahIndex(0);
-        return;
-      }
+    const ayahElements = Array.from(
+      container.querySelectorAll<HTMLElement>(".study-ayah-card")
+    );
+    if (ayahElements.length === 0) {
+      setCurrentAyahIndex(0);
+      return;
+    }
 
-      const containerRect = container.getBoundingClientRect();
-      let closestIndex = 0;
-      let closestDistance = Infinity;
-
-      ayahElements.forEach((el, index) => {
-        const rect = el.getBoundingClientRect();
-        const distance = Math.abs(rect.top - containerRect.top);
-        if (distance < closestDistance) {
-          closestDistance = distance;
-          closestIndex = index;
+    let frameId: number | null = null;
+    let visibleEntries = new Map<Element, IntersectionObserverEntry>();
+    let activeAyah = 0;
+    const updateActiveAyah = () => {
+      let bestAyah = activeAyah;
+      let bestScore = -1;
+      visibleEntries.forEach((entry, target) => {
+        if (!entry.isIntersecting) return;
+        const element = target as HTMLElement;
+        const id = element.id.startsWith("ayah-")
+          ? Number(element.id.slice(5))
+          : Number.NaN;
+        if (!Number.isFinite(id)) return;
+        const rootTop = entry.rootBounds?.top ?? 0;
+        const distance = Math.abs(entry.boundingClientRect.top - rootTop);
+        const score = entry.intersectionRatio - distance / 10000;
+        if (score > bestScore) {
+          bestScore = score;
+          bestAyah = id;
         }
       });
-
-      setCurrentAyahIndex(closestIndex + 1);
+      if (bestAyah > 0 && bestAyah !== activeAyah) {
+        activeAyah = bestAyah;
+        setCurrentAyahIndex(bestAyah);
+      }
     };
 
-    container.addEventListener("scroll", handleScroll);
-    handleScroll();
-    return () => container.removeEventListener("scroll", handleScroll);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          visibleEntries.set(entry.target, entry);
+        });
+        if (frameId !== null) return;
+        frameId = window.requestAnimationFrame(() => {
+          updateActiveAyah();
+          frameId = null;
+        });
+      },
+      {
+        root: container,
+        threshold: [0.15, 0.35, 0.6, 0.85],
+        rootMargin: "-6% 0px -50% 0px"
+      }
+    );
+
+    ayahElements.forEach((element) => observer.observe(element));
+    const firstAyahId = Number(ayahElements[0]?.id.replace("ayah-", ""));
+    if (Number.isFinite(firstAyahId) && firstAyahId > 0) {
+      activeAyah = firstAyahId;
+      setCurrentAyahIndex(firstAyahId);
+    }
+
+    return () => {
+      observer.disconnect();
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+      visibleEntries = new Map();
+    };
   }, [ayahs.length]);
 
   // Sync focused ayah in study mode
@@ -790,6 +864,11 @@ export default function StudyModeView({
             onOpenMemorize={() => openMemorizeModal(ayahNum)}
             onTogglePlay={() => onTogglePlay(selectedSurah?.number || 0, ayahNum)}
             onToggleBookmark={() => onToggleBookmark(selectedSurah?.number || 0, ayahNum)}
+            onOpenTafsir={() => {
+              setFocusedAyahKey(key);
+              setQuickPanelTab("tafsir");
+              setShowQuickPanel(true);
+            }}
             onOpenNote={() => onOpenNote(selectedSurah?.number || 0, ayahNum)}
             onWordAudio={handleWordAudio}
           />
@@ -936,7 +1015,7 @@ export default function StudyModeView({
                 setShowQuickPanel(false);
                 return;
               }
-              setQuickPanelTab(item.id as QuickPanelTab);
+              setQuickPanelTab(item.id);
               setShowQuickPanel(true);
             }}
             title={item.label}

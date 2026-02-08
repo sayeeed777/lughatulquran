@@ -225,7 +225,10 @@
   background: rgba(255, 255, 255, 0.02);
   border-radius: 20px;
   border: none;
-  transition: all 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transition:
+    background-color 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
+    filter 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .study-ayah-card:hover {
@@ -545,7 +548,10 @@
   color: var(--muted);
   background: rgba(255, 255, 255, 0.04);
   border: none;
-  transition: all 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .study-rail-btn svg {
@@ -1816,6 +1822,12 @@
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .study-header {
+    background: rgba(10, 15, 18, 0.92);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+
+  .study-header {
     padding: 12px 16px;
   }
 
@@ -1863,6 +1875,7 @@
 
   .quick-panel {
     width: 100%;
+    box-shadow: -8px 0 24px rgba(0, 0, 0, 0.24);
   }
 
   .quick-stats-grid {
@@ -1879,6 +1892,9 @@
     max-width: calc(100vw - 32px);
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: rgba(18, 24, 30, 0.58);
   }
 
   .study-rail::-webkit-scrollbar {
