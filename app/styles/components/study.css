@@ -1059,6 +1059,27 @@
   flex-wrap: wrap;
 }
 
+/* Tafsir */
+.tafsir-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tafsir-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.tafsir-text {
+  white-space: pre-wrap;
+  line-height: 1.7;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 /* Word-by-word row in Study Mode */
 .study-word-row {
   margin-top: 14px;
@@ -1482,5 +1503,12 @@
     transform: translateX(50%);
     flex-direction: row;
     padding: 10px 12px;
+    max-width: calc(100vw - 32px);
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .study-rail::-webkit-scrollbar {
+    display: none;
   }
 }

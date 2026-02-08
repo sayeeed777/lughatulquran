@@ -27,6 +27,12 @@ type WordByAyah = Record<number, Word[]>;
 
 type WordBySurah = Record<number, WordByAyah>;
 
+const TAFSIR_EDITIONS = [
+  { id: "en-tafsir-maarif-ul-quran", label: "Maarif-ul-Quran" },
+  { id: "en-kashf-al-asrar-tafsir", label: "Kashf Al-Asrar" },
+  { id: "en-al-jalalayn", label: "Al-Jalalayn" }
+] as const;
+
 type StudyModeViewProps = {
   selectedSurah: Surah | null;
   surahData: SurahData | null;
@@ -141,6 +147,14 @@ export default function StudyModeView({
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [searchLoading, setSearchLoading] = useState(false);
   const [searchError, setSearchError] = useState<string | null>(null);
+  const [tafsirEdition, setTafsirEdition] = useLocalStorage<string>(
+    "quran_tafsir_edition",
+    TAFSIR_EDITIONS[0].id
+  );
+  const [tafsirText, setTafsirText] = useState("");
+  const [tafsirLoading, setTafsirLoading] = useState(false);
+  const [tafsirError, setTafsirError] = useState<string | null>(null);
+  const lastTafsirKeyRef = useRef<string | null>(null);
   const wordAudioRef = useRef<HTMLAudioElement | null>(null);
   const [wordAudioUrl, setWordAudioUrl] = useState<string | null>(null);
   const [studyGoal, setStudyGoal] = useLocalStorage("quran_study_goal", {
@@ -205,6 +219,19 @@ export default function StudyModeView({
           <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
           <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
           <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
+        </svg>
+      )
+    },
+    {
+      id: "tafsir",
+      label: "Tafsir",
+      icon: (
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+          <path d="M4 4h14a2 2 0 0 1 2 2v13" />
+          <path d="M4 4v13a2 2 0 0 0 2 2h14" />
+          <path d="M8 7h8" />
+          <path d="M8 11h6" />
         </svg>
       )
     },
@@ -315,6 +342,58 @@ export default function StudyModeView({
     const [surah, ayah] = key.split(":").map(Number);
     return { surah, ayah };
   };
+
+  useEffect(() => {
+    if (!TAFSIR_EDITIONS.some((edition) => edition.id === tafsirEdition)) {
+      setTafsirEdition(TAFSIR_EDITIONS[0].id);
+    }
+  }, [tafsirEdition, setTafsirEdition]);
+
+  useEffect(() => {
+    if (!showQuickPanel || quickPanelTab !== "tafsir") return;
+    if (!selectedSurah?.number) return;
+
+    const focused = focusedAyahKey ? parseVerseKey(focusedAyahKey) : null;
+    const ayahNumber = focused?.ayah || currentAyahIndex || 1;
+    if (!Number.isFinite(ayahNumber) || ayahNumber < 1) return;
+
+    const key = `${String(tafsirEdition)}:${selectedSurah.number}:${ayahNumber}`;
+    if (lastTafsirKeyRef.current === key) return;
+    lastTafsirKeyRef.current = key;
+
+    setTafsirLoading(true);
+    setTafsirError(null);
+
+    fetchJSON<{ text?: string; error?: string }>(
+      `/api/tafsir?edition=${encodeURIComponent(String(tafsirEdition))}&surah=${selectedSurah.number}&ayah=${ayahNumber}`,
+      {
+        ttl: 30 * 24 * 60 * 60 * 1000,
+        retries: 1,
+        retryDelay: 300,
+        cacheKey: `tafsir:v2:${String(tafsirEdition)}:${selectedSurah.number}:${ayahNumber}`,
+        persist: true,
+        staleWhileRevalidate: true
+      }
+    )
+      .then((payload) => {
+        if (payload?.error) {
+          setTafsirError(payload.error);
+          setTafsirText("");
+          lastTafsirKeyRef.current = null;
+          return;
+        }
+        const rawText = typeof payload?.text === "string" ? payload.text : "";
+        const text = rawText.replace(/\uFFFD+/gu, " ").replace(/\s+/g, " ").trim();
+        setTafsirText(text);
+      })
+      .catch((error) => {
+        const message = error instanceof Error ? error.message : "Failed to load tafsir.";
+        setTafsirError(message);
+        setTafsirText("");
+        lastTafsirKeyRef.current = null;
+      })
+      .finally(() => setTafsirLoading(false));
+  }, [showQuickPanel, quickPanelTab, selectedSurah?.number, focusedAyahKey, currentAyahIndex, tafsirEdition]);
 
   const selectedArabicFont = (arabicFonts || []).find((font) => font.id === arabicFontId);
   const containerStyle: React.CSSProperties & Record<string, string | number> = {
@@ -1059,6 +1138,58 @@ export default function StudyModeView({
                   </button>
                 </div>
               </div>
+            </div>
+          </div>
+        )}
+
+        {quickPanelTab === "tafsir" && (
+          <div className="quick-panel-section">
+            <div className="study-card tafsir-card">
+              <h4>Tafsir</h4>
+              <div className="tafsir-controls">
+                <label className="tafsir-field">
+                  <span className="tool-label">Edition</span>
+                  <select
+                    className="study-select"
+                    value={String(tafsirEdition)}
+                    onChange={(event) => {
+                      lastTafsirKeyRef.current = null;
+                      setTafsirEdition(event.target.value);
+                    }}
+                  >
+                    {TAFSIR_EDITIONS.map((edition) => (
+                      <option key={edition.id} value={edition.id}>
+                        {edition.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+
+                <div className="tafsir-meta">
+                  <span className="meta">
+                    {selectedSurah?.englishName || "Surah"} · Ayah{" "}
+                    {(focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : currentAyahIndex) || 1}
+                  </span>
+                  {selectedSurah?.number && currentAyahIndex > 0 && (
+                    <button
+                      className="quick-item-action"
+                      onClick={() =>
+                        setFocusedAyahKey(verseKey(selectedSurah.number, currentAyahIndex))
+                      }
+                    >
+                      Use current
+                    </button>
+                  )}
+                </div>
+              </div>
+
+              {tafsirLoading && <p className="status">Loading tafsir…</p>}
+              {tafsirError && <p className="status error">{tafsirError}</p>}
+              {!tafsirLoading && !tafsirError && (
+                <div className="tafsir-text">
+                  {tafsirText ? tafsirText : "No tafsir available for this ayah."}
+                </div>
+              )}
             </div>
           </div>
         )}
