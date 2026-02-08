@@ -55,7 +55,12 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
       const stored = localStorage.getItem(`${STORAGE_PREFIX}${cacheKey}`);
       if (stored) {
         const parsed = JSON.parse(stored) as CacheEntry<T> | null;
-        if (parsed?.timestamp && parsed?.data) {
+        if (
+          parsed &&
+          typeof parsed.timestamp === "number" &&
+          Number.isFinite(parsed.timestamp) &&
+          Object.prototype.hasOwnProperty.call(parsed, "data")
+        ) {
           if (now - parsed.timestamp < ttl) {
             cache.set(cacheKey, parsed);
             return parsed.data as T;

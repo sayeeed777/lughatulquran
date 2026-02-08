@@ -1059,6 +1059,81 @@
   flex-wrap: wrap;
 }
 
+.tool-legend-btn {
+  justify-content: space-between;
+  cursor: pointer;
+  user-select: none;
+}
+
+.tool-legend-chevron {
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+.tajweed-legend {
+  margin-top: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  padding: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.tajweed-legend-hint {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.tajweed-legend-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tajweed-legend-item {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.tajweed-swatch {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 26px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.tajweed-legend-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tajweed-legend-label {
+  font-size: 0.82rem;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.tajweed-legend-desc {
+  font-size: 0.78rem;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
 /* Tafsir */
 .tafsir-controls {
   display: flex;
@@ -1112,56 +1187,75 @@
 }
 
 /* Tajweed highlighting */
-.study-mode-container tajweed {
+.study-mode-container .tajweed {
   display: inline;
   color: #7fe3c3;
   font-weight: 600;
 }
 
-.study-mode-container tajweed.ham_wasl {
+.study-mode-container .tajweed-swatch.tajweed {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.study-mode-container .tajweed.ham_wasl {
   color: #cfd6dd;
 }
 
-.study-mode-container tajweed.laam_shamsiyah {
+.study-mode-container .tajweed.laam_shamsiyah {
   color: #f3c969;
 }
 
-.study-mode-container tajweed.laam_qamariyah {
+.study-mode-container .tajweed.laam_qamariyah {
   color: #8fc7ff;
 }
 
-.study-mode-container tajweed.madda_normal,
-.study-mode-container tajweed.madda_permissible,
-.study-mode-container tajweed.madda_obligatory {
+.study-mode-container .tajweed.madda_normal,
+.study-mode-container .tajweed.madda_permissible,
+.study-mode-container .tajweed.madda_obligatory {
   color: #79c6ff;
 }
 
-.study-mode-container tajweed.madda_necessary {
+.study-mode-container .tajweed.madda_necessary {
   color: #ff9b7d;
 }
 
-.study-mode-container tajweed.qalqalah {
+.study-mode-container .tajweed.qalqalah,
+.study-mode-container .tajweed.qalaqah {
   color: #ff7a7a;
 }
 
-.study-mode-container tajweed.ikhafa,
-.study-mode-container tajweed.ikhafa_shafawi,
-.study-mode-container tajweed.ikhfaa {
+.study-mode-container .tajweed.ikhafa,
+.study-mode-container .tajweed.ikhafa_shafawi,
+.study-mode-container .tajweed.ikhfaa {
   color: #c59bff;
 }
 
-.study-mode-container tajweed.iqlab {
+.study-mode-container .tajweed.iqlab {
   color: #6bd6ff;
 }
 
-.study-mode-container tajweed.idgham_with_ghunnah,
-.study-mode-container tajweed.idgham_shafawi,
-.study-mode-container tajweed.ghunnah {
+.study-mode-container .tajweed.idgham_with_ghunnah,
+.study-mode-container .tajweed.idgham_shafawi,
+.study-mode-container .tajweed.ghunnah {
   color: #8fe39a;
 }
 
-.study-mode-container tajweed.idgham_without_ghunnah {
+.study-mode-container .tajweed.idgham_without_ghunnah {
   color: #7ec8ff;
+}
+
+.study-mode-container .tajweed.idgham_wo_ghunnah {
+  color: #7ec8ff;
+}
+
+.study-mode-container .tajweed.slnt {
+  color: var(--muted);
+  font-weight: 500;
+  opacity: 0.7;
 }
 
 .study-slider {

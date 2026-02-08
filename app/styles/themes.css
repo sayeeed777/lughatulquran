@@ -386,6 +386,16 @@
   border: 1px solid rgba(66, 82, 54, 0.08);
 }
 
+:root[data-theme="light"] .tajweed-legend {
+  background: rgba(66, 82, 54, 0.04);
+  border: 1px solid rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .tajweed-swatch {
+  background: rgba(250, 248, 245, 0.75);
+  border: 1px solid rgba(66, 82, 54, 0.12);
+}
+
 /* Study rail */
 :root[data-theme="light"] .study-rail {
   background: rgba(240, 231, 219, 0.92);
@@ -420,54 +430,65 @@
 }
 
 /* Tajweed colors — light mode tuning */
-:root[data-theme="light"] .study-mode-container tajweed {
+:root[data-theme="light"] .study-mode-container .tajweed {
   color: #2e7a66;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.ham_wasl {
+:root[data-theme="light"] .study-mode-container .tajweed.ham_wasl {
   color: #7f8a82;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.laam_shamsiyah {
+:root[data-theme="light"] .study-mode-container .tajweed.laam_shamsiyah {
   color: #b8842e;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.laam_qamariyah {
+:root[data-theme="light"] .study-mode-container .tajweed.laam_qamariyah {
   color: #3b6fa3;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.madda_normal,
-:root[data-theme="light"] .study-mode-container tajweed.madda_permissible,
-:root[data-theme="light"] .study-mode-container tajweed.madda_obligatory {
+:root[data-theme="light"] .study-mode-container .tajweed.madda_normal,
+:root[data-theme="light"] .study-mode-container .tajweed.madda_permissible,
+:root[data-theme="light"] .study-mode-container .tajweed.madda_obligatory {
   color: #3b6fa3;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.madda_necessary {
+:root[data-theme="light"] .study-mode-container .tajweed.madda_necessary {
   color: #b2553b;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.qalqalah {
+:root[data-theme="light"] .study-mode-container .tajweed.qalqalah,
+:root[data-theme="light"] .study-mode-container .tajweed.qalaqah {
   color: #b84242;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.ikhafa,
-:root[data-theme="light"] .study-mode-container tajweed.ikhafa_shafawi,
-:root[data-theme="light"] .study-mode-container tajweed.ikhfaa {
+:root[data-theme="light"] .study-mode-container .tajweed.ikhafa,
+:root[data-theme="light"] .study-mode-container .tajweed.ikhafa_shafawi,
+:root[data-theme="light"] .study-mode-container .tajweed.ikhfaa {
   color: #6a4bb3;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.iqlab {
+:root[data-theme="light"] .study-mode-container .tajweed.iqlab {
   color: #2b7ba3;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.idgham_with_ghunnah,
-:root[data-theme="light"] .study-mode-container tajweed.idgham_shafawi,
-:root[data-theme="light"] .study-mode-container tajweed.ghunnah {
+:root[data-theme="light"] .study-mode-container .tajweed.idgham_with_ghunnah,
+:root[data-theme="light"] .study-mode-container .tajweed.idgham_shafawi,
+:root[data-theme="light"] .study-mode-container .tajweed.ghunnah {
   color: #2f7d4b;
 }
 
-:root[data-theme="light"] .study-mode-container tajweed.idgham_without_ghunnah {
+:root[data-theme="light"] .study-mode-container .tajweed.idgham_without_ghunnah {
   color: #2c6aa6;
+}
+
+:root[data-theme="light"] .study-mode-container .tajweed.idgham_wo_ghunnah {
+  color: #2c6aa6;
+}
+
+:root[data-theme="light"] .study-mode-container .tajweed.slnt {
+  color: #7f8a82;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 /* Toggle switch */

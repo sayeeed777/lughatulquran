@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer, ProgressBar } from "../common";
 import { useLocalStorage } from "../../hooks";
@@ -26,6 +27,197 @@ type Word = { arabic: string; translation?: string; audioUrl?: string };
 type WordByAyah = Record<number, Word[]>;
 
 type WordBySurah = Record<number, WordByAyah>;
+
+type TajweedTagName = "tajweed" | "span";
+
+type TajweedStackNode = {
+  tag: TajweedTagName;
+  className: string | null;
+  children: ReactNode[];
+};
+
+const sanitizeClassName = (value: string) => value.replace(/[^a-zA-Z0-9 _-]/g, "").trim();
+
+const extractClassName = (attrs: string) => {
+  const match = attrs.match(/\bclass\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
+  const raw = (match?.[1] || match?.[2] || match?.[3] || "").trim();
+  return raw ? sanitizeClassName(raw) : "";
+};
+
+const renderTajweedMarkup = (markup: string): ReactNode[] => {
+  if (!markup) return [""];
+
+  // Quran.com returns a small custom markup subset (e.g. <tajweed class=madda_necessary>...</tajweed>).
+  // We render only a safe allowlist of tags/attributes to avoid XSS.
+  const root: ReactNode[] = [];
+  const stack: TajweedStackNode[] = [];
+  let keyCounter = 0;
+
+  const append = (node: ReactNode) => {
+    if (node === null || node === undefined || node === "") return;
+    if (stack.length) {
+      stack[stack.length - 1]?.children.push(node);
+    } else {
+      root.push(node);
+    }
+  };
+
+  const appendText = (text: string) => {
+    if (!text) return;
+    append(text);
+  };
+
+  let cursor = 0;
+  while (cursor < markup.length) {
+    const lt = markup.indexOf("<", cursor);
+    if (lt === -1) {
+      appendText(markup.slice(cursor));
+      break;
+    }
+    appendText(markup.slice(cursor, lt));
+
+    const gt = markup.indexOf(">", lt + 1);
+    if (gt === -1) {
+      appendText(markup.slice(lt));
+      break;
+    }
+
+    const rawTag = markup.slice(lt + 1, gt).trim();
+    cursor = gt + 1;
+
+    if (!rawTag) continue;
+
+    // Closing tag
+    if (rawTag.startsWith("/")) {
+      const tagName = rawTag.slice(1).split(/\s+/, 1)[0] as TajweedTagName | string;
+      const node = stack.pop();
+      if (!node || node.tag !== tagName) {
+        // Malformed markup; fall back to plain text.
+        return [markup.replace(/<[^>]*>/g, "")];
+      }
+      const key = `${node.tag}-${keyCounter++}`;
+      if (node.tag === "tajweed") {
+        const className = node.className ? `tajweed ${node.className}` : "tajweed";
+        append(
+          <span key={key} className={className}>
+            {node.children}
+          </span>
+        );
+      } else if (node.tag === "span") {
+        append(
+          <span key={key} className={node.className || undefined}>
+            {node.children}
+          </span>
+        );
+      }
+      continue;
+    }
+
+    // Opening tag
+    const tagName = rawTag.split(/\s+/, 1)[0] as TajweedTagName | string;
+    if (tagName !== "tajweed" && tagName !== "span") {
+      // Ignore unknown tags but keep their inner text (handled by the main loop).
+      continue;
+    }
+
+    const className = extractClassName(rawTag);
+    stack.push({
+      tag: tagName,
+      className: className || null,
+      children: []
+    });
+  }
+
+  if (stack.length) {
+    // Unbalanced tags; fall back to plain text.
+    return [markup.replace(/<[^>]*>/g, "")];
+  }
+
+  return root;
+};
+
+const TAJWEED_LEGEND: Array<{ swatchClass: string; label: string; description: string }> = [
+  {
+    swatchClass: "ham_wasl",
+    label: "Hamzat al-wasl",
+    description: "Connecting hamza; usually dropped when linking from the previous word."
+  },
+  {
+    swatchClass: "laam_shamsiyah",
+    label: "Laam shamsiyah (sun letters)",
+    description: "Lam is assimilated; the following letter is emphasized."
+  },
+  {
+    swatchClass: "laam_qamariyah",
+    label: "Laam qamariyah (moon letters)",
+    description: "Lam is pronounced clearly before the following letter."
+  },
+  {
+    swatchClass: "madda_normal",
+    label: "Madd (natural)",
+    description: "Elongate 2 counts (2 harakah)."
+  },
+  {
+    swatchClass: "madda_permissible",
+    label: "Madd (permissible)",
+    description: "Elongate 2–4 counts (varies by recitation)."
+  },
+  {
+    swatchClass: "madda_obligatory",
+    label: "Madd (obligatory)",
+    description: "Elongate 4–5 counts."
+  },
+  {
+    swatchClass: "madda_necessary",
+    label: "Madd (necessary)",
+    description: "Elongate 6 counts."
+  },
+  {
+    swatchClass: "qalqalah",
+    label: "Qalqalah (echo)",
+    description: "A slight echo/bounce sound on certain letters when they carry sukoon."
+  },
+  {
+    swatchClass: "ikhafa",
+    label: "Ikhfaa / Ikhafa",
+    description: "Concealment with nasalization (ghunnah) for ~2 counts."
+  },
+  {
+    swatchClass: "ikhafa_shafawi",
+    label: "Ikhfaa shafawi",
+    description: "Labial concealment (mim before ba) with ghunnah for ~2 counts."
+  },
+  {
+    swatchClass: "iqlab",
+    label: "Iqlab",
+    description: "Change nun sakinah/tanween before ba into a hidden mim with ghunnah."
+  },
+  {
+    swatchClass: "idgham_with_ghunnah",
+    label: "Idgham (with ghunnah)",
+    description: "Merge with nasalization (ghunnah) for ~2 counts."
+  },
+  {
+    swatchClass: "idgham_without_ghunnah",
+    label: "Idgham (without ghunnah)",
+    description: "Merge without nasalization."
+  },
+  {
+    swatchClass: "idgham_shafawi",
+    label: "Idgham shafawi",
+    description: "Mim merging (mim before mim) with ghunnah."
+  },
+  {
+    swatchClass: "ghunnah",
+    label: "Ghunnah",
+    description: "Nasalization (usually 2 counts) on nun/mim with shaddah."
+  },
+  {
+    swatchClass: "slnt",
+    label: "Silent letter",
+    description: "A letter present in the script that is not pronounced."
+  }
+];
 
 const TAFSIR_EDITIONS = [
   { id: "en-tafsir-maarif-ul-quran", label: "Maarif-ul-Quran" },
@@ -136,6 +328,7 @@ export default function StudyModeView({
   const [readingTime, setReadingTime] = useState(0);
   const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
   const [showTajweed, setShowTajweed] = useState(false);
+  const [showTajweedLegend, setShowTajweedLegend] = useState(false);
   const [showWordByWord, setShowWordByWord] = useState(false);
   const [isMushafView, setIsMushafView] = useState(false);
   const [scriptStyle, setScriptStyle] = useState("uthmani");
@@ -558,9 +751,6 @@ export default function StudyModeView({
             const words = showWordByWord
               ? wordByAyah?.[selectedSurah?.number || 0]?.[ayahNum] || []
               : [];
-            const arabicMarkup = showTajweed && ayah.arabicTajweed
-              ? { __html: ayah.arabicTajweed }
-              : null;
             const isFocused = focusedAyahKey === key;
 
             return (
@@ -584,11 +774,9 @@ export default function StudyModeView({
                     dir="rtl"
                     style={{ fontSize: `calc(2rem * ${fontScale?.arabic || 1})` }}
                   >
-                    {arabicMarkup ? (
-                      <span dangerouslySetInnerHTML={arabicMarkup} />
-                    ) : (
-                      ayah.arabic || ""
-                    )}
+                    {showTajweed && ayah.arabicTajweed
+                      ? renderTajweedMarkup(ayah.arabicTajweed)
+                      : ayah.arabic || ""}
                   </p>
                   {!isMushafView &&
                     showTranslation &&
@@ -1095,17 +1283,23 @@ export default function StudyModeView({
           <div className="quick-panel-section">
             <div className="study-card tools-card">
               <h4>Study Tools</h4>
-              <div className="tool-grid">
-                <label className="tool-toggle">
-                  <input
-                    type="checkbox"
-                    checked={showTajweed}
-                    onChange={(event) => setShowTajweed(event.target.checked)}
-                  />
-                  <span>Tajweed Colors</span>
-                </label>
-                <label className="tool-toggle">
-                  <input
+	              <div className="tool-grid">
+	                <label className="tool-toggle">
+	                  <input
+	                    type="checkbox"
+	                    checked={showTajweed}
+	                    onChange={(event) => {
+	                      const next = event.target.checked;
+	                      setShowTajweed(next);
+	                      if (!next) {
+	                        setShowTajweedLegend(false);
+	                      }
+	                    }}
+	                  />
+	                  <span>Tajweed Colors</span>
+	                </label>
+	                <label className="tool-toggle">
+	                  <input
                     type="checkbox"
                     checked={showWordByWord}
                     onChange={(event) => setShowWordByWord(event.target.checked)}
@@ -1118,13 +1312,50 @@ export default function StudyModeView({
                     checked={isMushafView}
                     onChange={(event) => setIsMushafView(event.target.checked)}
                   />
-                  <span>Mushaf View</span>
-                </label>
-              </div>
-              <div className="tool-section">
-                <span className="tool-label">Script</span>
-                <div className="tool-buttons">
-                  <button
+	                  <span>Mushaf View</span>
+	                </label>
+	              </div>
+	              {showTajweed && (
+	                <>
+	                  <button
+	                    className="tool-toggle tool-legend-btn"
+	                    type="button"
+	                    onClick={() => setShowTajweedLegend((prev) => !prev)}
+	                  >
+	                    <span>Tajweed color key</span>
+	                    <span className="tool-legend-chevron" aria-hidden="true">
+	                      {showTajweedLegend ? "▾" : "▸"}
+	                    </span>
+	                  </button>
+	                  {showTajweedLegend && (
+	                    <div className="tajweed-legend" role="note" aria-label="Tajweed color key">
+	                      <p className="tajweed-legend-hint">
+	                        Counts are beats (harakah). This is a quick visual guide, not a full tajweed lesson.
+	                      </p>
+	                      <ul className="tajweed-legend-list">
+	                        {TAJWEED_LEGEND.map((item) => (
+	                          <li key={item.swatchClass} className="tajweed-legend-item">
+	                            <span
+	                              className={`tajweed-swatch tajweed ${item.swatchClass}`}
+	                              aria-hidden="true"
+	                            >
+	                              Aa
+	                            </span>
+	                            <div className="tajweed-legend-text">
+	                              <span className="tajweed-legend-label">{item.label}</span>
+	                              <span className="tajweed-legend-desc">{item.description}</span>
+	                            </div>
+	                          </li>
+	                        ))}
+	                      </ul>
+	                    </div>
+	                  )}
+	                </>
+	              )}
+	              <div className="tool-section">
+	                <span className="tool-label">Script</span>
+	                <div className="tool-buttons">
+	                  <button
                     className={`control-btn${scriptStyle === "uthmani" ? " primary" : ""}`}
                     onClick={() => setScriptStyle("uthmani")}
                   >
