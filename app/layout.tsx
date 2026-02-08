@@ -1,20 +1,7 @@
 import "./styles/index.css";
-import { Fraunces, Manrope } from "next/font/google";
 import Script from "next/script";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
-
-const fraunces = Fraunces({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-display"
-});
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-body"
-});
 
 export const metadata: Metadata = {
   title: "Quran Reader",
@@ -50,7 +37,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className={`${fraunces.variable} ${manrope.variable}`}>
+    <html lang="en">
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="apple-mobile-web-app-capable" content="yes" />

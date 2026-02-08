@@ -125,7 +125,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
   const { id } = await Promise.resolve(params);
   const surahNumber = Number(id);
 
-  if (!id || Number.isNaN(surahNumber)) {
+  if (!id || !Number.isInteger(surahNumber) || surahNumber < 1 || surahNumber > 114) {
     return NextResponse.json({ error: "Invalid surah id." }, { status: 400 });
   }
 

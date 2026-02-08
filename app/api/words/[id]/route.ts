@@ -106,7 +106,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });
   }
   const surahNumber = Number(id);
-  if (!Number.isFinite(surahNumber)) {
+  if (!Number.isInteger(surahNumber) || surahNumber < 1 || surahNumber > 114) {
     return NextResponse.json({ error: "Invalid surah id." }, { status: 400 });
   }
 
