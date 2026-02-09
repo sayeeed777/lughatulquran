@@ -20,10 +20,20 @@ type RouteContext = {
 };
 
 const sanitizeRoot = (value: string) => value.trim().slice(0, 32);
+const safeDecodeURIComponent = (value: string) => {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return null;
+  }
+};
 
 export async function GET(_request: Request, { params }: RouteContext) {
   const resolvedParams = await Promise.resolve(params);
-  const rawRoot = decodeURIComponent(resolvedParams?.root || "");
+  const rawRoot = safeDecodeURIComponent(resolvedParams?.root || "");
+  if (rawRoot === null) {
+    return NextResponse.json({ error: "Invalid root encoding." }, { status: 400 });
+  }
   const root = sanitizeRoot(rawRoot);
 
   if (!root) {

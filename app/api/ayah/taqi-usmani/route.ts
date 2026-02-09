@@ -5,10 +5,25 @@ const TAQI_USMANI_BOOK_ID = 13645;
 
 export const revalidate = 86400;
 
+const SURAH_AYAH_COUNTS = [
+  7, 286, 200, 176, 120, 165, 206, 75, 129, 109, 123, 111, 43, 52, 99, 128,
+  111, 110, 98, 135, 112, 78, 118, 64, 77, 227, 93, 88, 69, 60, 34, 30, 73,
+  54, 45, 83, 182, 88, 75, 85, 54, 53, 89, 59, 37, 35, 38, 29, 18, 45, 60, 49,
+  62, 55, 78, 96, 29, 22, 24, 13, 14, 11, 11, 18, 12, 12, 30, 52, 52, 44, 28,
+  28, 20, 56, 40, 31, 50, 40, 46, 42, 29, 19, 36, 25, 22, 17, 19, 26, 30, 20,
+  15, 21, 11, 8, 8, 19, 5, 8, 8, 11, 11, 8, 3, 9, 5, 4, 7, 3, 6, 3, 5, 4, 5, 6
+];
+
 type TranslationEntry = {
   book?: { id?: number | string };
   translation?: Record<string, unknown>;
   [key: string]: unknown;
+};
+
+const parsePositiveInteger = (value: string | null) => {
+  if (!value || !/^\d{1,3}$/.test(value)) return null;
+  const parsed = Number(value);
+  return Number.isInteger(parsed) && parsed > 0 ? parsed : null;
 };
 
 const extractTranslationText = (entry?: TranslationEntry | null): string | null => {
@@ -30,12 +45,27 @@ const extractTranslationText = (entry?: TranslationEntry | null): string | null 
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
-  const surah = searchParams.get("surah");
-  const ayah = searchParams.get("ayah");
+  const surah = parsePositiveInteger(searchParams.get("surah"));
+  const ayah = parsePositiveInteger(searchParams.get("ayah"));
 
   if (!surah || !ayah) {
     return NextResponse.json(
       { error: "Missing surah or ayah." },
+      { status: 400 }
+    );
+  }
+
+  if (surah < 1 || surah > 114) {
+    return NextResponse.json(
+      { error: "Invalid surah number." },
+      { status: 400 }
+    );
+  }
+
+  const maxAyah = SURAH_AYAH_COUNTS[surah - 1] || 0;
+  if (ayah < 1 || ayah > maxAyah) {
+    return NextResponse.json(
+      { error: "Invalid ayah number." },
       { status: 400 }
     );
   }
@@ -103,7 +133,7 @@ export async function GET(request: NextRequest) {
     }
 
     return NextResponse.json({ text });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: "Unable to reach Quranpedia API." },
       { status: 502 }

@@ -1,5 +1,6 @@
 import "./styles/index.css";
 import Script from "next/script";
+import { headers } from "next/headers";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 
@@ -35,7 +36,12 @@ type RootLayoutProps = {
   children: ReactNode;
 };
 
-export default function RootLayout({ children }: RootLayoutProps) {
+export default async function RootLayout({ children }: RootLayoutProps) {
+  const nonce =
+    process.env.NODE_ENV === "production"
+      ? (await headers()).get("x-nonce") || undefined
+      : undefined;
+
   return (
     <html lang="en">
       <head>
@@ -48,7 +54,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body>
         {children}
         {process.env.NODE_ENV === "production" && (
-          <Script src="/sw-register.js" strategy="afterInteractive" />
+          <Script nonce={nonce} src="/sw-register.js" strategy="afterInteractive" />
         )}
       </body>
     </html>
