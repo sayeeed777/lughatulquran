@@ -1,35 +1,18 @@
 "use client";
 
-import { useState, useEffect, useRef, useMemo, useCallback } from "react";
+import { useMemo, useCallback } from "react";
 import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer } from "../common";
-import { useLocalStorage } from "../../hooks";
-import { getLocalDateString } from "../../lib/utils";
-import { fetchJSON } from "../../lib/apiClient";
 import { ProgressRing, QuickPanel } from "./StudyComponents";
-import StudyAyahCard from "./StudyAyahCard";
-import StudyMemorizeModal, { type MemorizeDraft, type MemorizeMode } from "./StudyMemorizeModal";
+import StudyMemorizeModal from "./StudyMemorizeModal";
 import StudyLexiconModals from "./StudyLexiconModals";
-import {
-  TAJWEED_LEGEND,
-  TAFSIR_EDITIONS,
-  hasLexiconData,
-  renderTajweedMarkup
-} from "./StudyModeHelpers";
-import type {
-  ArabicFont,
-  MemorizeConfig,
-  Reciter,
-  RootLexiconPayload,
-  SelectedWordDetails,
-  StudyMarks,
-  Word,
-  WordByAyah,
-  WordBySurah,
-  WordByWordPayload
-} from "./StudyModeTypes";
+import { TAJWEED_LEGEND, TAFSIR_EDITIONS } from "./StudyModeHelpers";
+import type { ArabicFont, MemorizeConfig, Reciter, WordBySurah } from "./StudyModeTypes";
 import StudyQuickPanelContent, { type QuickPanelTab } from "./StudyQuickPanelContent";
+import StudyAyahList from "./StudyAyahList";
+import useStudyControls from "./useStudyControls";
+import useWordLexicon from "./useWordLexicon";
 import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
 
 type RailItem = {
@@ -136,76 +119,98 @@ export default function StudyModeView({
     : [selectedTranslations];
   const primaryTranslation = translationIds[0] || "en.arberry";
 
-  const [showControls, setShowControls] = useState(true);
-  const [showQuickPanel, setShowQuickPanel] = useState(false);
-  const [quickPanelTab, setQuickPanelTab] = useState<QuickPanelTab>("study");
-  const [readingTime, setReadingTime] = useState(0);
-  const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
-  const [showTajweed, setShowTajweed] = useState(false);
-  const [showTajweedLegend, setShowTajweedLegend] = useState(false);
-  const [showWordByWord, setShowWordByWord] = useState(false);
-  const [isMushafView, setIsMushafView] = useState(false);
-  const [scriptStyle, setScriptStyle] = useState<"uthmani" | "naskh">("uthmani");
-  const [showTranslation, setShowTranslation] = useState(true);
-  const [dimNonFocused, setDimNonFocused] = useState(false);
-  const [autoScrollPlaying, setAutoScrollPlaying] = useState(true);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [searchResults, setSearchResults] = useState<any[]>([]);
-  const [searchLoading, setSearchLoading] = useState(false);
-  const [searchError, setSearchError] = useState<string | null>(null);
-  const [tafsirEdition, setTafsirEdition] = useLocalStorage<string>(
-    "quran_tafsir_edition",
-    TAFSIR_EDITIONS[0].id
+  const ayahs = useMemo(
+    () => filteredAyahs || surahData?.ayahs || [],
+    [filteredAyahs, surahData?.ayahs]
   );
-  const [tafsirText, setTafsirText] = useState("");
-  const [tafsirLoading, setTafsirLoading] = useState(false);
-  const [tafsirError, setTafsirError] = useState<string | null>(null);
-  const [showMemorizeModal, setShowMemorizeModal] = useState(false);
-  const [memorizeMode, setMemorizeMode] = useState<MemorizeMode>("single");
-  const [memorizeDraft, setMemorizeDraft] = useState<MemorizeDraft>({
-    startAyah: 1,
-    endAyah: 1,
-    loops: 2
-  });
-  const lastTafsirKeyRef = useRef<string | null>(null);
-  const wordAudioRef = useRef<HTMLAudioElement | null>(null);
-  const [wordAudioUrl, setWordAudioUrl] = useState<string | null>(null);
-  const [selectedWordDetails, setSelectedWordDetails] = useState<SelectedWordDetails | null>(null);
-  const [isRootModalOpen, setIsRootModalOpen] = useState(false);
-  const [rootLexicon, setRootLexicon] = useState<RootLexiconPayload | null>(null);
-  const [rootLexiconLoading, setRootLexiconLoading] = useState(false);
-  const [rootLexiconError, setRootLexiconError] = useState<string | null>(null);
-  const [studyWordCache, setStudyWordCache] = useState<WordBySurah>({});
-  const [studyWordLoading, setStudyWordLoading] = useState(false);
-  const [studyMarks, setStudyMarks] = useLocalStorage<StudyMarks>("quran_study_marks", {});
-  const [studyGoal, setStudyGoal] = useLocalStorage("quran_study_goal", {
-    perDay: 15,
-    date: getLocalDateString()
-  });
-  const scrollContainerRef = useRef<HTMLDivElement | null>(null);
-  const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const lastPointerActivityRef = useRef(0);
-  const rootLookupRequestRef = useRef(0);
-
-  const ayahs = useMemo(() => filteredAyahs || surahData?.ayahs || [], [filteredAyahs, surahData?.ayahs]);
   const selectedSurahNumber = selectedSurah?.number || 0;
-  const wordsFromHook = selectedSurahNumber ? wordByAyah?.[selectedSurahNumber] : undefined;
-  const wordsFromStudyCache = selectedSurahNumber ? studyWordCache?.[selectedSurahNumber] : undefined;
-  const hookHasLexiconData = useMemo(() => hasLexiconData(wordsFromHook), [wordsFromHook]);
-  const cacheHasLexiconData = useMemo(() => hasLexiconData(wordsFromStudyCache), [wordsFromStudyCache]);
-  const wordsByAyahForStudy = useMemo<WordByAyah>(
-    () => {
-      if (hookHasLexiconData && wordsFromHook) return wordsFromHook;
-      if (cacheHasLexiconData && wordsFromStudyCache) return wordsFromStudyCache;
-      return wordsFromHook || wordsFromStudyCache || {};
-    },
-    [hookHasLexiconData, wordsFromHook, cacheHasLexiconData, wordsFromStudyCache]
-  );
-  const effectiveWordLoading = wordLoading || studyWordLoading;
   const totalAyahs = ayahs.length;
-  const progress = totalAyahs > 0 ? Math.round((currentAyahIndex / totalAyahs) * 100) : 0;
-  const goalTarget = Math.max(1, Number(studyGoal?.perDay) || 1);
-  const goalProgress = Math.min(currentAyahIndex, goalTarget);
+
+  const {
+    showControls,
+    showQuickPanel,
+    setShowQuickPanel,
+    quickPanelTab,
+    setQuickPanelTab,
+    readingTime,
+    currentAyahIndex,
+    progress,
+    goalTarget,
+    goalProgress,
+    setGoalPerDay,
+    showTajweed,
+    setShowTajweed,
+    showTajweedLegend,
+    setShowTajweedLegend,
+    showWordByWord,
+    setShowWordByWord,
+    isMushafView,
+    setIsMushafView,
+    scriptStyle,
+    setScriptStyle,
+    showTranslation,
+    setShowTranslation,
+    dimNonFocused,
+    setDimNonFocused,
+    autoScrollPlaying,
+    setAutoScrollPlaying,
+    searchQuery,
+    setSearchQuery,
+    searchResults,
+    searchLoading,
+    searchError,
+    runSearch,
+    tafsirEdition,
+    tafsirText,
+    tafsirLoading,
+    tafsirError,
+    handleChangeTafsirEdition,
+    focusedAyahNumber,
+    showMemorizeModal,
+    memorizeMode,
+    memorizeDraft,
+    openMemorizeModal,
+    closeMemorizeModal,
+    applyMemorizeMode,
+    updateMemorizeStart,
+    updateMemorizeEnd,
+    updateMemorizeLoops,
+    studyMarks,
+    toggleStudyMark,
+    scrollContainerRef
+  } = useStudyControls({
+    ayahsLength: ayahs.length,
+    selectedSurah,
+    focusedAyahKey,
+    clamp,
+    memorizeConfig
+  });
+
+  const {
+    wordAudioRef,
+    wordAudioUrl,
+    selectedWordDetails,
+    isRootModalOpen,
+    rootLexicon,
+    rootLexiconLoading,
+    rootLexiconError,
+    wordsByAyahForStudy,
+    effectiveWordLoading,
+    resolveWordAudioUrl,
+    handleWordAudio,
+    handleWordSelect,
+    closeWordDetails,
+    openRootDetails,
+    closeRootModal,
+    selectedRoot,
+    selectedRootArabic,
+    rootMeaningSummary,
+    laneActionLabel
+  } = useWordLexicon({
+    selectedSurahNumber,
+    wordByAyah,
+    wordLoading
+  });
 
   const railItems = useMemo<RailItem[]>(
     () => [
@@ -270,203 +275,6 @@ export default function StudyModeView({
     []
   );
 
-  // Reading time tracker
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setReadingTime((t) => t + 1);
-    }, 1000);
-    return () => clearInterval(interval);
-  }, []);
-
-  useEffect(() => {
-    const today = getLocalDateString();
-    if (!studyGoal?.date || studyGoal.date !== today) {
-      setStudyGoal((prev: any) => ({ ...prev, date: today }));
-    }
-  }, [studyGoal?.date, setStudyGoal]);
-
-  useEffect(() => {
-    if (!selectedSurahNumber) return;
-
-    if (hookHasLexiconData && wordsFromHook) {
-      setStudyWordCache((prev) => {
-        if (prev[selectedSurahNumber]) return prev;
-        return {
-          ...prev,
-          [selectedSurahNumber]: wordsFromHook
-        };
-      });
-      return;
-    }
-
-    if (cacheHasLexiconData && wordsFromStudyCache) return;
-
-    let isMounted = true;
-    setStudyWordLoading(true);
-
-    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}?v=6`, {
-      ttl: 24 * 60 * 60 * 1000,
-      retries: 1,
-      retryDelay: 300,
-      persist: true,
-      staleWhileRevalidate: true
-    })
-      .then((payload) => {
-        if (!isMounted) return;
-        setStudyWordCache((prev) => ({
-          ...prev,
-          [selectedSurahNumber]: payload?.wordsByAyah || {}
-        }));
-      })
-      .catch(() => {
-        if (!isMounted) return;
-      })
-      .finally(() => {
-        if (!isMounted) return;
-        setStudyWordLoading(false);
-      });
-
-    return () => {
-      isMounted = false;
-    };
-  }, [
-    selectedSurahNumber,
-    wordsFromHook,
-    wordsFromStudyCache,
-    hookHasLexiconData,
-    cacheHasLexiconData
-  ]);
-
-  // Auto-hide controls
-  useEffect(() => {
-    let frameId: number | null = null;
-    const resetHideTimer = () => {
-      if (controlsTimeoutRef.current) {
-        clearTimeout(controlsTimeoutRef.current);
-      }
-      controlsTimeoutRef.current = setTimeout(() => {
-        setShowControls(false);
-      }, 2500);
-    };
-    const revealControls = (throttleMs: number) => {
-      const now = typeof performance !== "undefined" ? performance.now() : Date.now();
-      if (now - lastPointerActivityRef.current < throttleMs) return;
-      lastPointerActivityRef.current = now;
-      setShowControls((prev) => (prev ? prev : true));
-      resetHideTimer();
-    };
-    const handlePointerMove = () => {
-      if (frameId !== null) return;
-      frameId = window.requestAnimationFrame(() => {
-        revealControls(120);
-        frameId = null;
-      });
-    };
-    const handlePointerDown = () => revealControls(0);
-    const handleKeyDown = () => revealControls(0);
-
-    window.addEventListener("pointermove", handlePointerMove, { passive: true });
-    window.addEventListener("pointerdown", handlePointerDown, { passive: true });
-    window.addEventListener("keydown", handleKeyDown);
-    resetHideTimer();
-
-    return () => {
-      window.removeEventListener("pointermove", handlePointerMove);
-      window.removeEventListener("pointerdown", handlePointerDown);
-      window.removeEventListener("keydown", handleKeyDown);
-      if (frameId !== null) {
-        window.cancelAnimationFrame(frameId);
-      }
-      if (controlsTimeoutRef.current) {
-        clearTimeout(controlsTimeoutRef.current);
-      }
-    };
-  }, []);
-
-  // Track scroll position for current ayah with intersection observer to avoid
-  // scanning all cards on every scroll event.
-  useEffect(() => {
-    const container = scrollContainerRef.current;
-    if (!container) return;
-
-    const ayahElements = Array.from(
-      container.querySelectorAll<HTMLElement>(".study-ayah-card")
-    );
-    if (ayahElements.length === 0) {
-      setCurrentAyahIndex(0);
-      return;
-    }
-
-    let frameId: number | null = null;
-    let visibleEntries = new Map<Element, IntersectionObserverEntry>();
-    let activeAyah = 0;
-    const updateActiveAyah = () => {
-      let bestAyah = activeAyah;
-      let bestScore = -1;
-      visibleEntries.forEach((entry, target) => {
-        if (!entry.isIntersecting) return;
-        const element = target as HTMLElement;
-        const id = element.id.startsWith("ayah-")
-          ? Number(element.id.slice(5))
-          : Number.NaN;
-        if (!Number.isFinite(id)) return;
-        const rootTop = entry.rootBounds?.top ?? 0;
-        const distance = Math.abs(entry.boundingClientRect.top - rootTop);
-        const score = entry.intersectionRatio - distance / 10000;
-        if (score > bestScore) {
-          bestScore = score;
-          bestAyah = id;
-        }
-      });
-      if (bestAyah > 0 && bestAyah !== activeAyah) {
-        activeAyah = bestAyah;
-        setCurrentAyahIndex(bestAyah);
-      }
-    };
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          visibleEntries.set(entry.target, entry);
-        });
-        if (frameId !== null) return;
-        frameId = window.requestAnimationFrame(() => {
-          updateActiveAyah();
-          frameId = null;
-        });
-      },
-      {
-        root: container,
-        threshold: [0.15, 0.35, 0.6, 0.85],
-        rootMargin: "-6% 0px -50% 0px"
-      }
-    );
-
-    ayahElements.forEach((element) => observer.observe(element));
-    const firstAyahId = Number(ayahElements[0]?.id.replace("ayah-", ""));
-    if (Number.isFinite(firstAyahId) && firstAyahId > 0) {
-      activeAyah = firstAyahId;
-      setCurrentAyahIndex(firstAyahId);
-    }
-
-    return () => {
-      observer.disconnect();
-      if (frameId !== null) {
-        window.cancelAnimationFrame(frameId);
-      }
-      visibleEntries = new Map();
-    };
-  }, [ayahs.length]);
-
-  // Sync focused ayah in study mode
-  useEffect(() => {
-    if (!focusedAyahKey || !selectedSurah) return;
-    const parts = focusedAyahKey.split(":");
-    const ayahNumber = Number(parts[1]);
-    if (!Number.isFinite(ayahNumber)) return;
-    setCurrentAyahIndex(ayahNumber);
-  }, [focusedAyahKey, selectedSurah]);
-
   const isBookmarked = useCallback(
     (surah: number, ayah: number) => bookmarks?.includes(verseKey(surah, ayah)),
     [bookmarks, verseKey]
@@ -475,63 +283,6 @@ export default function StudyModeView({
     (surah: number, ayah: number) => notes?.[verseKey(surah, ayah)],
     [notes, verseKey]
   );
-
-  const parseVerseKey = (key: string) => {
-    const [surah, ayah] = key.split(":").map(Number);
-    return { surah, ayah };
-  };
-
-  useEffect(() => {
-    if (!TAFSIR_EDITIONS.some((edition) => edition.id === tafsirEdition)) {
-      setTafsirEdition(TAFSIR_EDITIONS[0].id);
-    }
-  }, [tafsirEdition, setTafsirEdition]);
-
-  useEffect(() => {
-    if (!showQuickPanel || quickPanelTab !== "tafsir") return;
-    if (!selectedSurah?.number) return;
-
-    const focused = focusedAyahKey ? parseVerseKey(focusedAyahKey) : null;
-    const ayahNumber = focused?.ayah || currentAyahIndex || 1;
-    if (!Number.isFinite(ayahNumber) || ayahNumber < 1) return;
-
-    const key = `${String(tafsirEdition)}:${selectedSurah.number}:${ayahNumber}`;
-    if (lastTafsirKeyRef.current === key) return;
-    lastTafsirKeyRef.current = key;
-
-    setTafsirLoading(true);
-    setTafsirError(null);
-
-    fetchJSON<{ text?: string; error?: string }>(
-      `/api/tafsir?edition=${encodeURIComponent(String(tafsirEdition))}&surah=${selectedSurah.number}&ayah=${ayahNumber}`,
-      {
-        ttl: 30 * 24 * 60 * 60 * 1000,
-        retries: 1,
-        retryDelay: 300,
-        cacheKey: `tafsir:v2:${String(tafsirEdition)}:${selectedSurah.number}:${ayahNumber}`,
-        persist: true,
-        staleWhileRevalidate: true
-      }
-    )
-      .then((payload) => {
-        if (payload?.error) {
-          setTafsirError(payload.error);
-          setTafsirText("");
-          lastTafsirKeyRef.current = null;
-          return;
-        }
-        const rawText = typeof payload?.text === "string" ? payload.text : "";
-        const text = rawText.replace(/\uFFFD+/gu, " ").replace(/\s+/g, " ").trim();
-        setTafsirText(text);
-      })
-      .catch((error) => {
-        const message = error instanceof Error ? error.message : "Failed to load tafsir.";
-        setTafsirError(message);
-        setTafsirText("");
-        lastTafsirKeyRef.current = null;
-      })
-      .finally(() => setTafsirLoading(false));
-  }, [showQuickPanel, quickPanelTab, selectedSurah?.number, focusedAyahKey, currentAyahIndex, tafsirEdition]);
 
   const selectedArabicFont = (arabicFonts || []).find((font) => font.id === arabicFontId);
   const containerStyle: React.CSSProperties & Record<string, string | number> = {
@@ -544,414 +295,15 @@ export default function StudyModeView({
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
 
-  const runSearch = async () => {
-    const query = searchQuery.trim();
-    if (!query) return;
-    setSearchLoading(true);
-    setSearchError(null);
-    try {
-      const payload = await fetchJSON<{ results?: any[] }>(
-        `/api/search?q=${encodeURIComponent(query)}`,
-        { ttl: 2 * 60 * 1000, retries: 1, retryDelay: 250 }
-      );
-      setSearchResults(Array.isArray(payload?.results) ? payload.results : []);
-    } catch (error) {
-      const message = error instanceof Error ? error.message : "Search failed.";
-      setSearchError(message);
-      setSearchResults([]);
-    } finally {
-      setSearchLoading(false);
-    }
-  };
-
-  const setGoalPerDay = useCallback(
-    (value: number) => {
-      setStudyGoal((prev) => ({
-        ...prev,
-        perDay: value
-      }));
+  const onOpenTafsirFromAyah = useCallback(
+    (key: string) => {
+      setFocusedAyahKey(key);
+      setQuickPanelTab("tafsir");
+      setShowQuickPanel(true);
     },
-    [setStudyGoal]
+    [setFocusedAyahKey, setQuickPanelTab, setShowQuickPanel]
   );
 
-  const handleChangeTafsirEdition = useCallback(
-    (edition: string) => {
-      lastTafsirKeyRef.current = null;
-      setTafsirEdition(edition);
-    },
-    [setTafsirEdition]
-  );
-
-  const resolveWordAudioUrl = useCallback((audioUrl?: string) => {
-    if (!audioUrl) return "";
-    if (audioUrl.startsWith("http")) return audioUrl;
-    return `https://audio.qurancdn.com/${audioUrl.replace(/^\//, "")}`;
-  }, []);
-
-  const handleWordAudio = useCallback(
-    (audioUrl?: string) => {
-      const resolvedUrl = resolveWordAudioUrl(audioUrl);
-      if (!resolvedUrl) return;
-      const audio = wordAudioRef.current;
-      if (audio) {
-        if (audio.src !== resolvedUrl) {
-          audio.src = resolvedUrl;
-          audio.load();
-        }
-        audio.pause();
-        audio.currentTime = 0;
-        audio.play().catch(() => {});
-      }
-      setWordAudioUrl(resolvedUrl);
-    },
-    [resolveWordAudioUrl]
-  );
-
-  const hydrateWordLexicon = useCallback(
-    async (surahNumber: number, ayahNumber: number, position: number) => {
-      const payload = await fetchJSON<WordByWordPayload>(`/api/words/${surahNumber}?v=6`, {
-        ttl: 24 * 60 * 60 * 1000,
-        retries: 1,
-        retryDelay: 250,
-        persist: true,
-        staleWhileRevalidate: true
-      });
-      const wordsByAyahPayload = payload?.wordsByAyah || {};
-      setStudyWordCache((prev) => ({
-        ...prev,
-        [surahNumber]: wordsByAyahPayload
-      }));
-      const ayahWords = wordsByAyahPayload?.[ayahNumber] || [];
-      return (
-        ayahWords.find((item, idx) => (Number(item.position) || idx + 1) === position) || null
-      );
-    },
-    []
-  );
-
-  const fetchRootLexicon = useCallback(async (root?: string) => {
-    const normalizedRoot = (root || "").trim();
-    if (!normalizedRoot) return null;
-    const requestId = rootLookupRequestRef.current + 1;
-    rootLookupRequestRef.current = requestId;
-    setRootLexiconLoading(true);
-    setRootLexiconError(null);
-    try {
-      const payload = await fetchJSON<RootLexiconPayload>(
-        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}`,
-        { ttl: 24 * 60 * 60 * 1000, retries: 1, retryDelay: 250, persist: true }
-      );
-      if (rootLookupRequestRef.current !== requestId) return null;
-      setRootLexicon(payload);
-      return payload;
-    } catch (error) {
-      if (rootLookupRequestRef.current !== requestId) return null;
-      const message = error instanceof Error ? error.message : "Failed to load root lexicon.";
-      setRootLexicon(null);
-      setRootLexiconError(message);
-      return null;
-    } finally {
-      if (rootLookupRequestRef.current === requestId) {
-        setRootLexiconLoading(false);
-      }
-    }
-  }, []);
-
-  const handleWordSelect = useCallback(
-    (word: Word, ayahNumber: number, wordIndex: number) => {
-      const surahNumber = selectedSurah?.number;
-      if (!surahNumber) return;
-      rootLookupRequestRef.current += 1;
-      const position = Number(word.position) || wordIndex + 1;
-      setSelectedWordDetails({
-        surah: surahNumber,
-        ayah: ayahNumber,
-        position,
-        arabic: word.arabic,
-        translation: word.translation,
-        audioUrl: word.audioUrl,
-        lemma: word.lemma,
-        root: word.root,
-        rootArabic: word.rootArabic
-      });
-      setIsRootModalOpen(false);
-      setRootLexicon(null);
-      setRootLexiconError(null);
-
-      if (word.root) {
-        void fetchRootLexicon(word.root);
-      }
-
-      if (!word.root && !word.lemma) {
-        void hydrateWordLexicon(surahNumber, ayahNumber, position)
-          .then((hydratedWord) => {
-            if (!hydratedWord) return;
-            setSelectedWordDetails((prev) => {
-              if (!prev) return prev;
-              if (
-                prev.surah !== surahNumber ||
-                prev.ayah !== ayahNumber ||
-                prev.position !== position
-              ) {
-                return prev;
-              }
-              return {
-                ...prev,
-                lemma: hydratedWord.lemma || prev.lemma,
-                root: hydratedWord.root || prev.root,
-                rootArabic: hydratedWord.rootArabic || prev.rootArabic
-              };
-            });
-            if (hydratedWord.root) {
-              void fetchRootLexicon(hydratedWord.root);
-            }
-          })
-          .catch(() => {});
-      }
-    },
-    [selectedSurah?.number, hydrateWordLexicon, fetchRootLexicon]
-  );
-
-  const closeWordDetails = useCallback(() => {
-    rootLookupRequestRef.current += 1;
-    setSelectedWordDetails(null);
-    setIsRootModalOpen(false);
-    setRootLexicon(null);
-    setRootLexiconError(null);
-    setRootLexiconLoading(false);
-  }, []);
-
-  const openRootDetails = useCallback(async (root?: string) => {
-    const normalizedRoot = (root || "").trim();
-    if (!normalizedRoot) return;
-    setIsRootModalOpen(true);
-    if (rootLexicon?.root === normalizedRoot && !rootLexiconError) {
-      return;
-    }
-    await fetchRootLexicon(normalizedRoot);
-  }, [fetchRootLexicon, rootLexicon?.root, rootLexiconError]);
-
-  const openMemorizeModal = useCallback(
-    (ayahNumber: number) => {
-      if (!selectedSurah) return;
-      const max = selectedSurah.numberOfAyahs;
-      const start = clamp(Number(ayahNumber) || 1, 1, max);
-      setMemorizeMode("single");
-      setMemorizeDraft({
-        startAyah: start,
-        endAyah: start,
-        loops: Number.isFinite(memorizeConfig?.loops) ? memorizeConfig.loops : 2
-      });
-      setShowMemorizeModal(true);
-    },
-    [clamp, memorizeConfig?.loops, selectedSurah]
-  );
-
-  const closeMemorizeModal = useCallback(() => {
-    setShowMemorizeModal(false);
-  }, []);
-
-  const applyMemorizeMode = useCallback(
-    (mode: MemorizeMode) => {
-      setMemorizeMode(mode);
-      setMemorizeDraft((prev) => {
-        if (!selectedSurah) return prev;
-        if (mode === "single") {
-          const start = clamp(Number(prev.startAyah) || 1, 1, selectedSurah.numberOfAyahs);
-          return { ...prev, startAyah: start, endAyah: start };
-        }
-        if (mode === "surah") {
-          return { ...prev, startAyah: 1, endAyah: selectedSurah.numberOfAyahs };
-        }
-        const start = clamp(Number(prev.startAyah) || 1, 1, selectedSurah.numberOfAyahs);
-        const end = clamp(
-          Number(prev.endAyah) || start,
-          start,
-          selectedSurah.numberOfAyahs
-        );
-        return { ...prev, startAyah: start, endAyah: end };
-      });
-    },
-    [clamp, selectedSurah]
-  );
-
-  const updateMemorizeStart = useCallback(
-    (value: number) => {
-      if (!selectedSurah) return;
-      const max = selectedSurah.numberOfAyahs;
-      const start = clamp(Number(value) || 1, 1, max);
-      setMemorizeDraft((prev) => {
-        const end = memorizeMode === "single" ? start : clamp(prev.endAyah, start, max);
-        return { ...prev, startAyah: start, endAyah: end };
-      });
-    },
-    [clamp, memorizeMode, selectedSurah]
-  );
-
-  const updateMemorizeEnd = useCallback(
-    (value: number) => {
-      if (!selectedSurah) return;
-      const max = selectedSurah.numberOfAyahs;
-      setMemorizeDraft((prev) => {
-        const start = clamp(prev.startAyah, 1, max);
-        const end = clamp(Number(value) || start, start, max);
-        return { ...prev, startAyah: start, endAyah: end };
-      });
-    },
-    [clamp, selectedSurah]
-  );
-
-  const updateMemorizeLoops = useCallback((delta: number) => {
-    setMemorizeDraft((prev) => {
-      const raw = Number(prev.loops) || 0;
-      const next = clamp(raw + delta, 0, 50);
-      return { ...prev, loops: next };
-    });
-  }, [clamp]);
-
-  const toggleStudyMark = useCallback((key: string) => {
-    setStudyMarks((previous) => {
-      const next = { ...(previous || {}) };
-      if (next[key]) {
-        delete next[key];
-      } else {
-        next[key] = true;
-      }
-      return next;
-    });
-  }, [setStudyMarks]);
-
-  const ayahCards = useMemo(
-    () =>
-      ayahs.map((ayah, index) => {
-        const ayahNum = ayah.number;
-        const key = verseKey(selectedSurah?.number || 0, ayahNum);
-        const bookmarked = isBookmarked(selectedSurah?.number || 0, ayahNum);
-        const noted = hasNote(selectedSurah?.number || 0, ayahNum);
-        const isPlaying = nowPlaying?.surah === selectedSurah?.number && nowPlaying?.ayah === ayahNum;
-        const isActivePlay = isPlaying && !isAudioPaused;
-        const words = ayahNum ? wordsByAyahForStudy?.[ayahNum] || [] : [];
-        const isFocused = focusedAyahKey === key;
-        const isMarked = Boolean(studyMarks?.[key]);
-        const translationText = ayah.translations?.[primaryTranslation]?.text || "";
-
-        return (
-          <StudyAyahCard
-            key={key || `ayah-${index}`}
-            ayahNumber={ayahNum}
-            animationDelay={index * 0.02}
-            cardId={key || `ayah-${ayahNum}`}
-            isActivePlay={isActivePlay}
-            isFocused={isFocused}
-            isMarked={isMarked}
-            isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
-            arabicContent={
-              showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
-            }
-            translationText={translationText}
-            showTranslation={showTranslation}
-            isMushafView={isMushafView}
-            fontScaleArabic={fontScale?.arabic || 1}
-            fontScaleTranslation={fontScale?.translation || 1}
-            showWordByWord={showWordByWord}
-            words={words}
-            wordLoading={effectiveWordLoading}
-            wordAudioUrl={wordAudioUrl}
-            selectedWordPosition={
-              selectedWordDetails?.surah === selectedSurah?.number &&
-              selectedWordDetails?.ayah === ayahNum
-                ? selectedWordDetails.position
-                : null
-            }
-            isBookmarked={Boolean(bookmarked)}
-            hasNote={Boolean(noted)}
-            resolveWordAudioUrl={resolveWordAudioUrl}
-            onFocusAyah={() => setFocusedAyahKey(key)}
-            onOpenMemorize={() => openMemorizeModal(ayahNum)}
-            onTogglePlay={() => onTogglePlay(selectedSurah?.number || 0, ayahNum)}
-            onToggleBookmark={() => onToggleBookmark(selectedSurah?.number || 0, ayahNum)}
-            onOpenTafsir={() => {
-              setFocusedAyahKey(key);
-              setQuickPanelTab("tafsir");
-              setShowQuickPanel(true);
-            }}
-            onOpenNote={() => onOpenNote(selectedSurah?.number || 0, ayahNum)}
-            onWordSelect={handleWordSelect}
-            onWordAudio={handleWordAudio}
-            onToggleStudyMark={() => toggleStudyMark(key)}
-          />
-        );
-      }),
-    [
-      ayahs,
-      dimNonFocused,
-      focusedAyahKey,
-      fontScale?.arabic,
-      fontScale?.translation,
-      handleWordAudio,
-      handleWordSelect,
-      hasNote,
-      isAudioPaused,
-      isBookmarked,
-      studyMarks,
-      isMushafView,
-      nowPlaying,
-      openMemorizeModal,
-      onOpenNote,
-      onToggleBookmark,
-      onTogglePlay,
-      primaryTranslation,
-      resolveWordAudioUrl,
-      selectedSurah?.number,
-      setFocusedAyahKey,
-      showTajweed,
-      showTranslation,
-      showWordByWord,
-      verseKey,
-      wordAudioUrl,
-      wordsByAyahForStudy,
-      effectiveWordLoading,
-      selectedWordDetails?.surah,
-      selectedWordDetails?.ayah,
-      selectedWordDetails?.position,
-      toggleStudyMark
-    ]
-  );
-
-  const selectedRoot = (selectedWordDetails?.root || "").trim();
-  const selectedRootArabic =
-    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || "";
-  const distillRootMeaning = useCallback((value?: string) => {
-    const raw = (value || "").replace(/\s+/g, " ").trim();
-    if (!raw) return "";
-    const firstSentence = raw.split(/[.;:]/, 1)[0] || raw;
-    const condensed = firstSentence.replace(/\s+/g, " ").trim();
-    if (condensed.length <= 160) return condensed;
-    return `${condensed.slice(0, 157).trim()}...`;
-  }, []);
-  const rootMeaningSummary = useMemo(() => {
-    if (!selectedRoot) return "Root data is not available for this word yet.";
-    if (rootLexicon?.rootMeaning) {
-      return distillRootMeaning(rootLexicon.rootMeaning);
-    }
-    if (rootLexiconLoading) return "Loading root meaning...";
-    if (rootLexicon?.primaryRootMeaningsAvailable === false) {
-      return "Primary root-meaning dataset is not available.";
-    }
-    return "No root meaning found in the primary dataset.";
-  }, [
-    distillRootMeaning,
-    rootLexicon?.rootMeaning,
-    rootLexicon?.primaryRootMeaningsAvailable,
-    rootLexiconLoading,
-    selectedRoot
-  ]);
-  const laneActionLabel = useMemo(() => {
-    if (!selectedRoot) return "Lane Lexicon unavailable";
-    if (rootLexiconLoading) return "Loading Lane Lexicon...";
-    if (rootLexiconError) return "Retry Lane Lexicon";
-    return "Open Lane Lexicon";
-  }, [rootLexiconError, rootLexiconLoading, selectedRoot]);
   return (
     <div
       className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${
@@ -1025,7 +377,38 @@ export default function StudyModeView({
           </div>
         )}
 
-        <div className="study-ayah-list">{ayahCards}</div>
+        <StudyAyahList
+          ayahs={ayahs}
+          selectedSurahNumber={selectedSurahNumber}
+          verseKey={verseKey}
+          nowPlaying={nowPlaying}
+          isAudioPaused={isAudioPaused}
+          focusedAyahKey={focusedAyahKey}
+          dimNonFocused={dimNonFocused}
+          studyMarks={studyMarks}
+          primaryTranslation={primaryTranslation}
+          showTajweed={showTajweed}
+          showTranslation={showTranslation}
+          isMushafView={isMushafView}
+          fontScale={fontScale}
+          showWordByWord={showWordByWord}
+          wordsByAyahForStudy={wordsByAyahForStudy}
+          effectiveWordLoading={effectiveWordLoading}
+          wordAudioUrl={wordAudioUrl}
+          selectedWordDetails={selectedWordDetails}
+          isBookmarked={isBookmarked}
+          hasNote={hasNote}
+          resolveWordAudioUrl={resolveWordAudioUrl}
+          onFocusAyahKey={setFocusedAyahKey}
+          onOpenMemorize={openMemorizeModal}
+          onTogglePlay={onTogglePlay}
+          onToggleBookmark={onToggleBookmark}
+          onOpenTafsir={onOpenTafsirFromAyah}
+          onOpenNote={onOpenNote}
+          onWordSelect={handleWordSelect}
+          onWordAudio={handleWordAudio}
+          onToggleStudyMarkByKey={toggleStudyMark}
+        />
 
         <div className="study-surah-end">
           <div className="study-end-decoration">
@@ -1127,7 +510,7 @@ export default function StudyModeView({
           onChangeTafsirEdition={handleChangeTafsirEdition}
           selectedSurahNumber={selectedSurah?.number || 0}
           selectedSurahName={selectedSurah?.englishName || "Surah"}
-          focusedAyahNumber={(focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : currentAyahIndex) || 1}
+          focusedAyahNumber={focusedAyahNumber}
           currentAyahIndex={currentAyahIndex}
           onUseCurrentAyah={() =>
             setFocusedAyahKey(verseKey(selectedSurah?.number || 0, currentAyahIndex))
@@ -1156,7 +539,7 @@ export default function StudyModeView({
         rootLexiconLoading={rootLexiconLoading}
         rootLexicon={rootLexicon}
         onCloseWordDetails={closeWordDetails}
-        onCloseRootModal={() => setIsRootModalOpen(false)}
+        onCloseRootModal={closeRootModal}
         onOpenRootDetails={openRootDetails}
         onPlayWordAudio={handleWordAudio}
       />
