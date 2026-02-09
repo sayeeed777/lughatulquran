@@ -643,6 +643,15 @@
 }
 
 :root[data-theme="light"] .tool-slider-fill {
+  box-shadow: none;
+}
+
+:root[data-theme="light"] .tool-slider-fill::-webkit-progress-value {
+  background: linear-gradient(90deg, #4f9d7f 0%, #65af91 100%);
+  box-shadow: none;
+}
+
+:root[data-theme="light"] .tool-slider-fill::-moz-progress-bar {
   background: linear-gradient(90deg, #4f9d7f 0%, #65af91 100%);
   box-shadow: none;
 }
@@ -980,6 +989,14 @@
 /* Progress and fill elements */
 :root[data-theme="light"] .progress-fill,
 :root[data-theme="light"] .slider-progress {
+  background: var(--accent) !important;
+}
+
+:root[data-theme="light"] .progress-fill::-webkit-progress-value {
+  background: var(--accent) !important;
+}
+
+:root[data-theme="light"] .progress-fill::-moz-progress-bar {
   background: var(--accent) !important;
 }
 

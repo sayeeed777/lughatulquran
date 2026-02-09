@@ -1,7 +1,5 @@
 "use client";
 
-import type { CSSProperties } from "react";
-
 type AyahListSkeletonProps = {
   count?: number;
 };
@@ -10,10 +8,8 @@ export default function AyahListSkeleton({ count = 5 }: AyahListSkeletonProps) {
   return (
     <ol className="ayah-list skeleton-list">
       {Array.from({ length: count }).map((_, index) => {
-        const itemStyle = { "--i": index } as CSSProperties &
-          Record<string, string | number>;
         return (
-          <li key={index} className="ayah-card skeleton" style={itemStyle}>
+          <li key={index} className="ayah-card skeleton">
             <div className="ayah-header">
               <span className="skeleton-box skeleton-text-sm"></span>
               <div className="ayah-actions">

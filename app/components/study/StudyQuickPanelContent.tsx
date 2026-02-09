@@ -203,7 +203,7 @@ export default function StudyQuickPanelContent({
                   <path d="M12 6v6l4 2" />
                 </svg>
               }
-              color="var(--accent)"
+              tone="accent"
             />
             <StatCard
               label="Progress"
@@ -214,7 +214,7 @@ export default function StudyQuickPanelContent({
                   <path d="M22 4L12 14.01l-3-3" />
                 </svg>
               }
-              color="var(--accent-2)"
+              tone="accent-2"
             />
             <StatCard
               label="Bookmarks"
@@ -224,7 +224,7 @@ export default function StudyQuickPanelContent({
                   <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
                 </svg>
               }
-              color="#f59e0b"
+              tone="amber"
             />
             <StatCard
               label="Notes"
@@ -235,7 +235,7 @@ export default function StudyQuickPanelContent({
                   <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
                 </svg>
               }
-              color="#8b5cf6"
+              tone="violet"
             />
           </div>
         </div>
@@ -465,9 +465,11 @@ export default function StudyQuickPanelContent({
                 <span className="tool-slider-value">{Math.round((fontScale?.arabic || 1) * 100)}%</span>
               </div>
               <div className="tool-slider-track">
-                <div
+                <progress
                   className="tool-slider-fill"
-                  style={{ width: `${(((fontScale?.arabic || 1) - 0.6) / 1.4) * 100}%` }}
+                  max={100}
+                  value={Math.max(0, Math.min(100, (((fontScale?.arabic || 1) - 0.6) / 1.4) * 100))}
+                  aria-hidden="true"
                 />
                 <input
                   className="tool-slider-input"
@@ -494,9 +496,11 @@ export default function StudyQuickPanelContent({
                 </span>
               </div>
               <div className="tool-slider-track">
-                <div
+                <progress
                   className="tool-slider-fill"
-                  style={{ width: `${(((fontScale?.translation || 1) - 0.7) / 0.9) * 100}%` }}
+                  max={100}
+                  value={Math.max(0, Math.min(100, (((fontScale?.translation || 1) - 0.7) / 0.9) * 100))}
+                  aria-hidden="true"
                 />
                 <input
                   className="tool-slider-input"
@@ -521,9 +525,11 @@ export default function StudyQuickPanelContent({
                 <span className="tool-slider-value">{playbackRate.toFixed(2)}x</span>
               </div>
               <div className="tool-slider-track">
-                <div
+                <progress
                   className="tool-slider-fill"
-                  style={{ width: `${((playbackRate - 0.75) / 0.5) * 100}%` }}
+                  max={100}
+                  value={Math.max(0, Math.min(100, ((playbackRate - 0.75) / 0.5) * 100))}
+                  aria-hidden="true"
                 />
                 <input
                   className="tool-slider-input"

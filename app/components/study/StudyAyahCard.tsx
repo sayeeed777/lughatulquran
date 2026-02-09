@@ -30,8 +30,6 @@ type StudyAyahCardProps = {
   translationText: string;
   showTranslation: boolean;
   isMushafView: boolean;
-  fontScaleArabic: number;
-  fontScaleTranslation: number;
   showWordByWord: boolean;
   words: StudyWord[];
   wordLoading: boolean;
@@ -63,8 +61,6 @@ function StudyAyahCardComponent({
   translationText,
   showTranslation,
   isMushafView,
-  fontScaleArabic,
-  fontScaleTranslation,
   showWordByWord,
   words,
   wordLoading,
@@ -325,7 +321,6 @@ function StudyAyahCardComponent({
             className="study-ayah-arabic study-ayah-arabic-interactive"
             lang="ar"
             dir="rtl"
-            style={{ fontSize: `calc(2rem * ${fontScaleArabic || 1})` }}
           >
             {words.map((word, wordIndex) => {
               const position = Number(word.position) || wordIndex + 1;
@@ -350,16 +345,12 @@ function StudyAyahCardComponent({
             className="study-ayah-arabic"
             lang="ar"
             dir="rtl"
-            style={{ fontSize: `calc(2rem * ${fontScaleArabic || 1})` }}
           >
             {arabicContent}
           </p>
         )}
         {!isMushafView && showTranslation && translationText && (
-          <p
-            className="study-ayah-translation"
-            style={{ fontSize: `calc(1rem * ${fontScaleTranslation || 1})` }}
-          >
+          <p className="study-ayah-translation">
             {translationText}
           </p>
         )}

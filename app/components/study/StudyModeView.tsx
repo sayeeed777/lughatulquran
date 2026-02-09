@@ -14,6 +14,7 @@ import StudyAyahList from "./StudyAyahList";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
+import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
 
 type RailItem = {
   id: QuickPanelTab;
@@ -284,10 +285,9 @@ export default function StudyModeView({
     [notes, verseKey]
   );
 
-  const selectedArabicFont = (arabicFonts || []).find((font) => font.id === arabicFontId);
-  const containerStyle: React.CSSProperties & Record<string, string | number> = {
-    "--font-arabic": selectedArabicFont?.css || ""
-  };
+  const studyTypographyClasses = `${getArabicScaleClass(fontScale.arabic)} ${getTranslationScaleClass(
+    fontScale.translation
+  )} ${getArabicFontClass(arabicFontId)}`;
 
   const formatTime = (seconds: number) => {
     const mins = Math.floor(seconds / 60);
@@ -308,8 +308,7 @@ export default function StudyModeView({
     <div
       className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${
         scriptStyle === "naskh" ? " script-naskh" : ""
-      }`}
-      style={containerStyle}
+      } ${studyTypographyClasses}`}
     >
       {/* Ambient Background */}
       <div className="study-ambient-bg" />
@@ -390,7 +389,6 @@ export default function StudyModeView({
           showTajweed={showTajweed}
           showTranslation={showTranslation}
           isMushafView={isMushafView}
-          fontScale={fontScale}
           showWordByWord={showWordByWord}
           wordsByAyahForStudy={wordsByAyahForStudy}
           effectiveWordLoading={effectiveWordLoading}

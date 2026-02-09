@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import type { ReactNode, CSSProperties } from "react";
+import type { ReactNode } from "react";
 
 type ProgressRingProps = {
   progress: number;
@@ -25,6 +25,7 @@ export const ProgressRing = ({ progress, size = 40, strokeWidth = 3 }: ProgressR
   const radius = (size - strokeWidth) / 2;
   const circumference = radius * 2 * Math.PI;
   const offset = circumference - (progress / 100) * circumference;
+  const center = size / 2;
 
   return (
     <svg width={size} height={size} className="progress-ring">
@@ -42,14 +43,11 @@ export const ProgressRing = ({ progress, size = 40, strokeWidth = 3 }: ProgressR
         strokeLinecap="round"
         fill="transparent"
         r={radius}
-        cx={size / 2}
-        cy={size / 2}
-        style={{
-          strokeDasharray: circumference,
-          strokeDashoffset: offset,
-          transform: "rotate(-90deg)",
-          transformOrigin: "50% 50%"
-        }}
+        cx={center}
+        cy={center}
+        strokeDasharray={circumference}
+        strokeDashoffset={offset}
+        transform={`rotate(-90 ${center} ${center})`}
       />
     </svg>
   );
@@ -94,19 +92,17 @@ export const QuickPanel = ({
 }) => (
   <>
     <motion.div
-      className="quick-panel-backdrop"
+      className={`quick-panel-backdrop${isOpen ? " is-open" : ""}`}
       initial={false}
       animate={{ opacity: isOpen ? 1 : 0 }}
       transition={{ duration: 0.18, ease: "easeOut" }}
-      style={{ pointerEvents: isOpen ? "auto" : "none", visibility: isOpen ? "visible" : "hidden" }}
       onClick={onClose}
     />
     <motion.aside
-      className="quick-panel"
+      className={`quick-panel${isOpen ? " is-open" : ""}`}
       initial={false}
       animate={{ x: isOpen ? 0 : "100%", opacity: isOpen ? 1 : 0.98 }}
       transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
-      style={{ pointerEvents: isOpen ? "auto" : "none", visibility: isOpen ? "visible" : "hidden" }}
       aria-hidden={!isOpen}
     >
       <div className="quick-panel-header">
@@ -130,16 +126,15 @@ export const StatCard = ({
   label,
   value,
   icon,
-  color
+  tone = "accent"
 }: {
   label: string;
   value: string | number;
   icon?: ReactNode;
-  color?: string;
+  tone?: "accent" | "accent-2" | "amber" | "violet";
 }) => {
-  const style: CSSProperties & Record<string, string | number> = { "--stat-color": color ?? "" };
   return (
-    <div className="study-stat-card" style={style}>
+    <div className={`study-stat-card stat-tone-${tone}`}>
       <div className="stat-icon">{icon}</div>
       <div className="stat-info">
         <span className="stat-value">{value}</span>

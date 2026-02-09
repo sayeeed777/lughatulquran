@@ -468,10 +468,29 @@
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, var(--accent-2) 0%, #4ac99b 100%);
   border-radius: var(--radius-full);
   pointer-events: none;
+  overflow: hidden;
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+}
+
+.slider-track-fill::-webkit-progress-bar {
+  background: transparent;
+}
+
+.slider-track-fill::-webkit-progress-value {
+  background: linear-gradient(90deg, var(--accent-2) 0%, #4ac99b 100%);
+  border-radius: var(--radius-full);
+}
+
+.slider-track-fill::-moz-progress-bar {
+  background: linear-gradient(90deg, var(--accent-2) 0%, #4ac99b 100%);
+  border-radius: var(--radius-full);
 }
 
 .slider-input {

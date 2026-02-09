@@ -114,7 +114,7 @@ export const PremiumSlider = memo(function PremiumSlider({
   onChange,
   icon
 }: PremiumSliderProps) {
-  const percentage = ((value - min) / (max - min)) * 100;
+  const percentage = Math.max(0, Math.min(100, ((value - min) / (max - min)) * 100));
 
   return (
     <div className="premium-slider">
@@ -124,7 +124,7 @@ export const PremiumSlider = memo(function PremiumSlider({
         <span className="slider-value">{Math.round(value * 100)}%</span>
       </div>
       <div className="slider-track-container">
-        <div className="slider-track-fill" style={{ width: `${percentage}%` }} />
+        <progress className="slider-track-fill" max={100} value={percentage} aria-hidden="true" />
         <input
           type="range"
           min={min}

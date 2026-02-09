@@ -24,7 +24,6 @@ type StudyAyahListProps = {
   showTajweed: boolean;
   showTranslation: boolean;
   isMushafView: boolean;
-  fontScale: { arabic: number; translation: number };
   showWordByWord: boolean;
   wordsByAyahForStudy: WordByAyah;
   effectiveWordLoading: boolean;
@@ -57,7 +56,6 @@ export default function StudyAyahList({
   showTajweed,
   showTranslation,
   isMushafView,
-  fontScale,
   showWordByWord,
   wordsByAyahForStudy,
   effectiveWordLoading,
@@ -106,8 +104,6 @@ export default function StudyAyahList({
             translationText={translationText}
             showTranslation={showTranslation}
             isMushafView={isMushafView}
-            fontScaleArabic={fontScale?.arabic || 1}
-            fontScaleTranslation={fontScale?.translation || 1}
             showWordByWord={showWordByWord}
             words={words}
             wordLoading={effectiveWordLoading}
@@ -137,8 +133,6 @@ export default function StudyAyahList({
       ayahs,
       dimNonFocused,
       focusedAyahKey,
-      fontScale?.arabic,
-      fontScale?.translation,
       hasNote,
       isAudioPaused,
       isBookmarked,

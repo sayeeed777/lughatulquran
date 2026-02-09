@@ -21,7 +21,6 @@ const buildCsp = (nonce: string) =>
     "img-src 'self' data: blob:",
     "font-src 'self' data:",
     `style-src 'self' 'nonce-${nonce}'`,
-    "style-src-attr 'unsafe-inline'",
     `script-src 'self' 'nonce-${nonce}'`,
     "connect-src 'self'",
     "media-src 'self' https://everyayah.com https://audio.qurancdn.com",

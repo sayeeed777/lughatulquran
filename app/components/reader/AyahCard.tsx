@@ -2,7 +2,6 @@
 
 import { memo } from "react";
 import { motion } from "framer-motion";
-import type { MotionStyle } from "framer-motion";
 import type { Ayah } from "../../lib/types";
 
 type Word = {
@@ -48,7 +47,6 @@ const AyahCard = memo(function AyahCard({
   isAudioPaused,
   words = [],
   showWordByWord,
-  copiedKey,
   verseKey,
   onFocus,
   onPlay,
@@ -56,7 +54,6 @@ const AyahCard = memo(function AyahCard({
   onToggleBookmark,
   onOpenNote,
   onCompare,
-  onCopyLink,
   formatArabic,
   index
 }: AyahCardProps) {
@@ -75,13 +72,10 @@ const AyahCard = memo(function AyahCard({
     "en.yusufali": "Yusuf Ali"
   };
 
-  const itemStyle: MotionStyle & Record<string, string | number> = { "--i": index };
-
   return (
     <motion.li
       id={`ayah-${ayah.number}`}
       className={`ayah-card${isFocused ? " focused" : ""}`}
-      style={itemStyle}
       tabIndex={0}
       onClick={() => {
         onFocus(key);
@@ -91,7 +85,7 @@ const AyahCard = memo(function AyahCard({
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.5, ease: "easeOut" }}
+      transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(index * 0.015, 0.24) }}
     >
       <div className="ayah-header">
         <span className="ayah-number">Ayah {ayah.number}</span>

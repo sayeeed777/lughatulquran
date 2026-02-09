@@ -9,19 +9,17 @@ type ProgressBarProps = {
 };
 
 function ProgressBar({ current, total, label }: ProgressBarProps) {
-  const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
+  const percentage = total > 0 ? Math.max(0, Math.min(100, Math.round((current / total) * 100))) : 0;
 
   return (
     <div className="progress-container">
       {label && <span className="progress-label">{label}</span>}
       <div className="progress-bar">
-        <div
+        <progress
           className="progress-fill"
-          style={{ width: `${percentage}%` }}
-          role="progressbar"
-          aria-valuenow={percentage}
-          aria-valuemin={0}
-          aria-valuemax={100}
+          max={100}
+          value={percentage}
+          aria-label={label || "Progress"}
         />
       </div>
       <span className="progress-text">{percentage}%</span>

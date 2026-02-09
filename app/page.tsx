@@ -1,6 +1,5 @@
 "use client";
 
-import type { CSSProperties } from "react";
 import {
   SurahList,
   ReaderPanel,
@@ -14,6 +13,7 @@ import {
 } from "./components";
 import { AUDIO_RECITERS, ARABIC_FONTS, FONT_SCALE } from "./lib/constants";
 import { verseKey, clamp, getAudioUrl, getLocalDateString } from "./lib/utils";
+import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "./lib/styleClasses";
 import { useHomeController } from "./hooks/useHomeController";
 
 export default function Home() {
@@ -58,7 +58,6 @@ export default function Home() {
     selectedReciter,
     arabicFontId,
     setArabicFontId,
-    selectedArabicFont,
     query,
     setQuery,
     selectedTranslations,
@@ -174,11 +173,9 @@ export default function Home() {
     );
   }
 
-  const mainStyle: CSSProperties & Record<string, string | number> = {
-    "--arabic-scale": fontScale.arabic,
-    "--translation-scale": fontScale.translation,
-    "--font-arabic": selectedArabicFont?.css || ""
-  };
+  const appTypographyClasses = `${getArabicScaleClass(fontScale.arabic)} ${getTranslationScaleClass(
+    fontScale.translation
+  )} ${getArabicFontClass(arabicFontId)}`;
 
   const continueSession = studySession || (lastRead
     ? {
@@ -216,7 +213,7 @@ export default function Home() {
 
   return (
     <ErrorBoundary>
-      <main className="app" style={mainStyle}>
+      <main className={`app ${appTypographyClasses}`}>
         <div className="topbar">
           <div className="logo">
             <div className="logo-mark" aria-hidden="true">

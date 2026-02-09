@@ -46,6 +46,81 @@
     /* 27px */
 }
 
+/* Typography utility tokens (CSP-safe, class based) */
+.arabic-font-scheherazade-new {
+    --font-arabic: "Scheherazade New", "Amiri", "Traditional Arabic", serif;
+}
+
+.arabic-font-kfgqpc-hafs {
+    --font-arabic: "KFGQPC Hafs", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+}
+
+.arabic-font-kfgqpc-hafssmart {
+    --font-arabic: "KFGQPC Hafs Smart", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+}
+
+.arabic-font-uthman-naskh {
+    --font-arabic: "Uthman Naskh", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+}
+
+.arabic-scale-60 { --arabic-scale: 0.6; }
+.arabic-scale-65 { --arabic-scale: 0.65; }
+.arabic-scale-70 { --arabic-scale: 0.7; }
+.arabic-scale-75 { --arabic-scale: 0.75; }
+.arabic-scale-80 { --arabic-scale: 0.8; }
+.arabic-scale-85 { --arabic-scale: 0.85; }
+.arabic-scale-90 { --arabic-scale: 0.9; }
+.arabic-scale-95 { --arabic-scale: 0.95; }
+.arabic-scale-100 { --arabic-scale: 1; }
+.arabic-scale-105 { --arabic-scale: 1.05; }
+.arabic-scale-110 { --arabic-scale: 1.1; }
+.arabic-scale-115 { --arabic-scale: 1.15; }
+.arabic-scale-120 { --arabic-scale: 1.2; }
+.arabic-scale-125 { --arabic-scale: 1.25; }
+.arabic-scale-130 { --arabic-scale: 1.3; }
+.arabic-scale-135 { --arabic-scale: 1.35; }
+.arabic-scale-140 { --arabic-scale: 1.4; }
+.arabic-scale-145 { --arabic-scale: 1.45; }
+.arabic-scale-150 { --arabic-scale: 1.5; }
+.arabic-scale-155 { --arabic-scale: 1.55; }
+.arabic-scale-160 { --arabic-scale: 1.6; }
+.arabic-scale-165 { --arabic-scale: 1.65; }
+.arabic-scale-170 { --arabic-scale: 1.7; }
+.arabic-scale-175 { --arabic-scale: 1.75; }
+.arabic-scale-180 { --arabic-scale: 1.8; }
+.arabic-scale-185 { --arabic-scale: 1.85; }
+.arabic-scale-190 { --arabic-scale: 1.9; }
+.arabic-scale-195 { --arabic-scale: 1.95; }
+.arabic-scale-200 { --arabic-scale: 2; }
+
+.translation-scale-70 { --translation-scale: 0.7; }
+.translation-scale-75 { --translation-scale: 0.75; }
+.translation-scale-80 { --translation-scale: 0.8; }
+.translation-scale-85 { --translation-scale: 0.85; }
+.translation-scale-90 { --translation-scale: 0.9; }
+.translation-scale-95 { --translation-scale: 0.95; }
+.translation-scale-100 { --translation-scale: 1; }
+.translation-scale-105 { --translation-scale: 1.05; }
+.translation-scale-110 { --translation-scale: 1.1; }
+.translation-scale-115 { --translation-scale: 1.15; }
+.translation-scale-120 { --translation-scale: 1.2; }
+.translation-scale-125 { --translation-scale: 1.25; }
+.translation-scale-130 { --translation-scale: 1.3; }
+.translation-scale-135 { --translation-scale: 1.35; }
+.translation-scale-140 { --translation-scale: 1.4; }
+.translation-scale-145 { --translation-scale: 1.45; }
+.translation-scale-150 { --translation-scale: 1.5; }
+.translation-scale-155 { --translation-scale: 1.55; }
+.translation-scale-160 { --translation-scale: 1.6; }
+
+.clipboard-fallback-area {
+    position: fixed;
+    left: -9999px;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
 /* =============================================
    GPU ACCELERATION & PERFORMANCE HINTS
    ============================================= */
