@@ -293,6 +293,9 @@ export default function StudyQuickPanelContent({
       showWordByWord,
       isMushafView
     ].filter(Boolean).length;
+    const selectedReciterLabel =
+      (reciters || []).find((reciter) => reciter.id === reciterId)?.label ||
+      "Select reciter";
 
     return (
       <div className="quick-panel-section study-tool-section">
@@ -454,18 +457,19 @@ export default function StudyQuickPanelContent({
             <span>Text scale and playback speed</span>
           </div>
 
-          <div className="tool-slider-grid">
-            <div className="tool-slider-card">
+          <div className="tool-slider-stack">
+            <div className="tool-slider-row">
               <div className="tool-slider-head">
                 <span className="tool-slider-label">Arabic Size</span>
                 <span className="tool-slider-value">{Math.round((fontScale?.arabic || 1) * 100)}%</span>
               </div>
-              <div className="slider-track-wrap">
+              <div className="tool-slider-track">
                 <div
-                  className="slider-track-fill"
+                  className="tool-slider-fill"
                   style={{ width: `${(((fontScale?.arabic || 1) - 0.6) / 1.4) * 100}%` }}
                 />
                 <input
+                  className="tool-slider-input"
                   type="range"
                   min="0.6"
                   max="2"
@@ -481,19 +485,20 @@ export default function StudyQuickPanelContent({
               </div>
             </div>
 
-            <div className="tool-slider-card">
+            <div className="tool-slider-row">
               <div className="tool-slider-head">
                 <span className="tool-slider-label">Translation Size</span>
                 <span className="tool-slider-value">
                   {Math.round((fontScale?.translation || 1) * 100)}%
                 </span>
               </div>
-              <div className="slider-track-wrap">
+              <div className="tool-slider-track">
                 <div
-                  className="slider-track-fill"
+                  className="tool-slider-fill"
                   style={{ width: `${(((fontScale?.translation || 1) - 0.7) / 0.9) * 100}%` }}
                 />
                 <input
+                  className="tool-slider-input"
                   type="range"
                   min="0.7"
                   max="1.6"
@@ -509,17 +514,18 @@ export default function StudyQuickPanelContent({
               </div>
             </div>
 
-            <div className="tool-slider-card">
+            <div className="tool-slider-row">
               <div className="tool-slider-head">
                 <span className="tool-slider-label">Playback Speed</span>
                 <span className="tool-slider-value">{playbackRate.toFixed(2)}x</span>
               </div>
-              <div className="slider-track-wrap">
+              <div className="tool-slider-track">
                 <div
-                  className="slider-track-fill"
+                  className="tool-slider-fill"
                   style={{ width: `${((playbackRate - 0.75) / 0.5) * 100}%` }}
                 />
                 <input
+                  className="tool-slider-input"
                   type="range"
                   min="0.75"
                   max="1.25"
@@ -580,24 +586,28 @@ export default function StudyQuickPanelContent({
             <h5>Reciter</h5>
             <span>Set your default recitation voice</span>
           </div>
-          <div className="tool-reciter-grid">
-            {(reciters || []).map((reciter) => (
-              <button
-                key={reciter.id}
-                className={`tool-reciter-chip${reciterId === reciter.id ? " selected" : ""}`}
-                onClick={() => setReciterId(reciter.id)}
-                type="button"
+          <div className="tool-reciter-select-shell">
+            <span className="tool-reciter-caption">Current</span>
+            <div className="tool-reciter-select-field">
+              <span className="tool-reciter-selected">{selectedReciterLabel}</span>
+              <span className="tool-reciter-chevron" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </span>
+              <select
+                className="tool-reciter-select-native"
+                value={reciterId}
+                onChange={(event) => setReciterId(event.target.value)}
+                aria-label="Reciter"
               >
-                <span className="tool-reciter-name">{reciter.label}</span>
-                {reciterId === reciter.id && (
-                  <span className="tool-reciter-check" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path d="M5 12l5 5L20 7" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </span>
-                )}
-              </button>
-            ))}
+                {(reciters || []).map((reciter) => (
+                  <option key={reciter.id} value={reciter.id}>
+                    {reciter.label}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
         </div>
       </div>
