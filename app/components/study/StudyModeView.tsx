@@ -69,6 +69,8 @@ type WordByWordPayload = {
   wordsByAyah?: WordByAyah;
 };
 
+type StudyMarks = Record<string, true>;
+
 const hasLexiconData = (wordsByAyah?: WordByAyah) => {
   if (!wordsByAyah) return false;
   for (const words of Object.values(wordsByAyah)) {
@@ -426,6 +428,7 @@ export default function StudyModeView({
   const [rootLexiconError, setRootLexiconError] = useState<string | null>(null);
   const [studyWordCache, setStudyWordCache] = useState<WordBySurah>({});
   const [studyWordLoading, setStudyWordLoading] = useState(false);
+  const [studyMarks, setStudyMarks] = useLocalStorage<StudyMarks>("quran_study_marks", {});
   const [studyGoal, setStudyGoal] = useLocalStorage("quran_study_goal", {
     perDay: 15,
     date: getLocalDateString()
@@ -1057,6 +1060,18 @@ export default function StudyModeView({
     });
   }, [clamp]);
 
+  const toggleStudyMark = useCallback((key: string) => {
+    setStudyMarks((previous) => {
+      const next = { ...(previous || {}) };
+      if (next[key]) {
+        delete next[key];
+      } else {
+        next[key] = true;
+      }
+      return next;
+    });
+  }, [setStudyMarks]);
+
   const ayahCards = useMemo(
     () =>
       ayahs.map((ayah, index) => {
@@ -1068,6 +1083,7 @@ export default function StudyModeView({
         const isActivePlay = isPlaying && !isAudioPaused;
         const words = ayahNum ? wordsByAyahForStudy?.[ayahNum] || [] : [];
         const isFocused = focusedAyahKey === key;
+        const isMarked = Boolean(studyMarks?.[key]);
         const translationText = ayah.translations?.[primaryTranslation]?.text || "";
 
         return (
@@ -1078,6 +1094,7 @@ export default function StudyModeView({
             cardId={key || `ayah-${ayahNum}`}
             isActivePlay={isActivePlay}
             isFocused={isFocused}
+            isMarked={isMarked}
             isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
             arabicContent={
               showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
@@ -1112,6 +1129,7 @@ export default function StudyModeView({
             onOpenNote={() => onOpenNote(selectedSurah?.number || 0, ayahNum)}
             onWordSelect={handleWordSelect}
             onWordAudio={handleWordAudio}
+            onToggleStudyMark={() => toggleStudyMark(key)}
           />
         );
       }),
@@ -1126,6 +1144,7 @@ export default function StudyModeView({
       hasNote,
       isAudioPaused,
       isBookmarked,
+      studyMarks,
       isMushafView,
       nowPlaying,
       openMemorizeModal,
@@ -1145,7 +1164,8 @@ export default function StudyModeView({
       effectiveWordLoading,
       selectedWordDetails?.surah,
       selectedWordDetails?.ayah,
-      selectedWordDetails?.position
+      selectedWordDetails?.position,
+      toggleStudyMark
     ]
   );
 

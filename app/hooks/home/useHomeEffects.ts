@@ -50,6 +50,9 @@ export function useHomeEffects({
   nowPlaying,
   isAutoPlaying
 }: UseHomeEffectsParams) {
+  const isMobileViewport = () =>
+    typeof window !== "undefined" && window.matchMedia("(max-width: 1024px)").matches;
+
   // Initial Surah Selection & URL handling
   useEffect(() => {
     if (!surahs.length || selectedSurah) return;
@@ -65,7 +68,7 @@ export function useHomeEffects({
       if (targetSurah) {
         setSelectedSurah(targetSurah);
         const targetAyah = ayahParam || hashAyah;
-        if (targetAyah) {
+        if (targetAyah && !isMobileViewport()) {
           setPendingScroll(targetAyah);
           setFocusedAyahKey(verseKey(targetSurah.number, targetAyah));
         }
@@ -80,7 +83,7 @@ export function useHomeEffects({
     if (typeof window === "undefined" || !selectedSurah) return;
     const url = new URL(window.location.href);
     url.searchParams.set("surah", String(selectedSurah.number));
-    if (focusedAyahKey) {
+    if (focusedAyahKey && !isMobileViewport()) {
       const { ayah } = parseVerseKey(focusedAyahKey);
       url.searchParams.set("ayah", String(ayah));
     } else {

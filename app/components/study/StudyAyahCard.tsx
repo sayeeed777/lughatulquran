@@ -1,7 +1,11 @@
 "use client";
 
-import { memo } from "react";
-import type { ReactNode } from "react";
+import { memo, useEffect, useRef } from "react";
+import type {
+  MouseEvent as ReactMouseEvent,
+  PointerEvent as ReactPointerEvent,
+  ReactNode
+} from "react";
 import { motion } from "framer-motion";
 
 type StudyWord = {
@@ -20,6 +24,7 @@ type StudyAyahCardProps = {
   cardId: string;
   isActivePlay: boolean;
   isFocused: boolean;
+  isMarked: boolean;
   isDimmed: boolean;
   arabicContent: ReactNode;
   translationText: string;
@@ -41,6 +46,7 @@ type StudyAyahCardProps = {
   onToggleBookmark: () => void;
   onOpenTafsir: () => void;
   onOpenNote: () => void;
+  onToggleStudyMark: () => void;
   onWordSelect: (word: StudyWord, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
 };
@@ -51,6 +57,7 @@ function StudyAyahCardComponent({
   cardId,
   isActivePlay,
   isFocused,
+  isMarked,
   isDimmed,
   arabicContent,
   translationText,
@@ -72,18 +79,81 @@ function StudyAyahCardComponent({
   onToggleBookmark,
   onOpenTafsir,
   onOpenNote,
+  onToggleStudyMark,
   onWordSelect,
   onWordAudio
 }: StudyAyahCardProps) {
+  const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const longPressTriggeredRef = useRef(false);
+  const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+
+  const clearLongPressTimer = () => {
+    if (longPressTimerRef.current) {
+      clearTimeout(longPressTimerRef.current);
+      longPressTimerRef.current = null;
+    }
+    pointerStartRef.current = null;
+  };
+
+  const isInteractiveTarget = (target: EventTarget | null) => {
+    return target instanceof Element && Boolean(
+      target.closest("button, a, input, textarea, select, [role='button']")
+    );
+  };
+
+  const handlePointerDown = (event: ReactPointerEvent<HTMLElement>) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    if (isInteractiveTarget(event.target)) return;
+
+    longPressTriggeredRef.current = false;
+    clearLongPressTimer();
+    pointerStartRef.current = { x: event.clientX, y: event.clientY };
+    longPressTimerRef.current = setTimeout(() => {
+      longPressTriggeredRef.current = true;
+      onToggleStudyMark();
+    }, 450);
+  };
+
+  const handlePointerMove = (event: ReactPointerEvent<HTMLElement>) => {
+    if (!pointerStartRef.current || !longPressTimerRef.current) return;
+    const dx = event.clientX - pointerStartRef.current.x;
+    const dy = event.clientY - pointerStartRef.current.y;
+    if (Math.hypot(dx, dy) > 10) {
+      clearLongPressTimer();
+    }
+  };
+
+  const handlePointerEnd = () => {
+    clearLongPressTimer();
+  };
+
+  const handleCardClick = (event: ReactMouseEvent<HTMLElement>) => {
+    if (isInteractiveTarget(event.target)) return;
+    if (longPressTriggeredRef.current) {
+      longPressTriggeredRef.current = false;
+      return;
+    }
+    onFocusAyah();
+  };
+
+  useEffect(() => {
+    return () => clearLongPressTimer();
+  }, []);
+
   return (
     <motion.article
       id={`ayah-${ayahNumber}`}
-      className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isDimmed ? " dimmed" : ""}`}
+      className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isMarked ? " marked" : ""}${isDimmed ? " dimmed" : ""}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: animationDelay }}
-      onClick={onFocusAyah}
+      onClick={handleCardClick}
       onFocus={onFocusAyah}
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={handlePointerEnd}
+      onPointerCancel={handlePointerEnd}
+      onPointerLeave={handlePointerEnd}
       tabIndex={0}
     >
       <div className="study-ayah-content">

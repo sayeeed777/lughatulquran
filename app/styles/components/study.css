@@ -239,6 +239,18 @@
   background: rgba(111, 212, 177, 0.06);
 }
 
+.study-ayah-card.marked {
+  background: rgba(111, 212, 177, 0.14);
+}
+
+.study-ayah-card.marked:hover {
+  background: rgba(111, 212, 177, 0.18);
+}
+
+.study-ayah-card.marked.playing {
+  background: rgba(111, 212, 177, 0.2);
+}
+
 .study-ayah-card.dimmed {
   opacity: 0.35;
   filter: saturate(0.8);
