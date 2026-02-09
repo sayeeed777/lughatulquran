@@ -9,6 +9,7 @@ import type { ArabicFont, Reciter } from "./types";
 
 export function useHomePreferences() {
   const mobileViewportQuery = "(max-width: 1100px)";
+  const desktopDefaultArabicFontId = "scheherazade-new";
   const mobileDefaultArabicFontId = "uthman-naskh";
   const [readingPlan, setReadingPlan] = useReadingPlan();
   const [fontScale, setFontScale] = useFontScale();
@@ -27,11 +28,15 @@ export function useHomePreferences() {
     [setStoredPlaybackRate]
   );
 
-  const defaultReciter: Reciter = AUDIO_RECITERS[0] ?? {
-    id: "default",
-    label: "Default",
-    baseUrl: ""
-  };
+  const defaultReciter = useMemo<Reciter>(
+    () =>
+      AUDIO_RECITERS[0] ?? {
+        id: "default",
+        label: "Default",
+        baseUrl: ""
+      },
+    []
+  );
   const [reciterId, setReciterId] = useLocalStorage(
     STORAGE_KEYS.reciter,
     defaultReciter.id
@@ -41,14 +46,26 @@ export function useHomePreferences() {
     [reciterId, defaultReciter]
   );
 
-  const defaultArabicFont: ArabicFont = ARABIC_FONTS[0] ?? {
-    id: "default",
-    label: "Default",
-    css: ""
-  };
+  const fallbackDefaultArabicFontId = useMemo(
+    () =>
+      ARABIC_FONTS.find((font) => font.id === desktopDefaultArabicFontId)?.id ??
+      ARABIC_FONTS[0]?.id ??
+      "default",
+    [desktopDefaultArabicFontId]
+  );
+  const defaultArabicFont = useMemo<ArabicFont>(
+    () =>
+      ARABIC_FONTS.find((font) => font.id === fallbackDefaultArabicFontId) ??
+      ARABIC_FONTS[0] ?? {
+        id: "default",
+        label: "Default",
+        css: ""
+      },
+    [fallbackDefaultArabicFontId]
+  );
   const [arabicFontId, setArabicFontId, isArabicFontLoaded] = useLocalStorage(
     STORAGE_KEYS.arabicFont,
-    defaultArabicFont.id
+    fallbackDefaultArabicFontId
   ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
   const selectedArabicFont = useMemo<ArabicFont>(
     () => ARABIC_FONTS.find((font) => font.id === arabicFontId) ?? defaultArabicFont,
@@ -60,11 +77,19 @@ export function useHomePreferences() {
     const hasStoredFont = window.localStorage.getItem(STORAGE_KEYS.arabicFont);
     if (hasStoredFont) return;
     const isMobileView = window.matchMedia(mobileViewportQuery).matches;
-    if (!isMobileView || arabicFontId === mobileDefaultArabicFontId) return;
-    const hasMobileDefaultFont = ARABIC_FONTS.some((font) => font.id === mobileDefaultArabicFontId);
-    if (!hasMobileDefaultFont) return;
-    setArabicFontId(mobileDefaultArabicFontId);
-  }, [arabicFontId, isArabicFontLoaded, mobileViewportQuery, mobileDefaultArabicFontId, setArabicFontId]);
+    const targetDefaultFontId = isMobileView ? mobileDefaultArabicFontId : desktopDefaultArabicFontId;
+    if (arabicFontId === targetDefaultFontId) return;
+    const hasTargetFont = ARABIC_FONTS.some((font) => font.id === targetDefaultFontId);
+    if (!hasTargetFont) return;
+    setArabicFontId(targetDefaultFontId);
+  }, [
+    arabicFontId,
+    desktopDefaultArabicFontId,
+    isArabicFontLoaded,
+    mobileViewportQuery,
+    mobileDefaultArabicFontId,
+    setArabicFontId
+  ]);
 
   const [theme, setTheme] = useState<"dark" | "light">("dark");
   const isLightTheme = theme === "light";
