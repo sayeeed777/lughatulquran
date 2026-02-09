@@ -2306,6 +2306,135 @@
   gap: 8px;
 }
 
+.quick-notes-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.quick-notes-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quick-note-tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 2px;
+}
+
+.quick-note-tab {
+  width: 100%;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.quick-note-tab:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.quick-note-tab.active {
+  background: rgba(111, 212, 177, 0.12);
+  border-color: rgba(111, 212, 177, 0.25);
+}
+
+.quick-note-tab-title {
+  font-size: 0.82rem;
+  font-weight: 560;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quick-note-tab-time {
+  font-size: 0.72rem;
+  color: var(--muted);
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.quick-note-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.quick-note-title-input,
+.quick-note-body-input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  padding: 10px 12px;
+  font-size: 0.88rem;
+  transition: background 0.2s ease;
+}
+
+.quick-note-title-input::placeholder,
+.quick-note-body-input::placeholder {
+  color: var(--muted);
+}
+
+.quick-note-title-input:focus,
+.quick-note-body-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.quick-note-body-input {
+  resize: vertical;
+  min-height: 112px;
+  line-height: 1.5;
+}
+
+.quick-note-editor-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.74rem;
+  color: var(--muted);
+}
+
+.quick-note-editor-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quick-item-action.danger {
+  background: rgba(248, 113, 113, 0.12);
+  color: #ffc2c2;
+}
+
+.quick-item-action.danger:hover {
+  background: rgba(248, 113, 113, 0.2);
+}
+
+.quick-notes-empty .action-btn {
+  margin-top: 8px;
+}
+
 .quick-list-item {
   display: flex;
   align-items: center;
@@ -2367,6 +2496,24 @@
 
 .quick-item-action:hover {
   background: rgba(111, 212, 177, 0.2);
+}
+
+.quick-item-action.save {
+  background: rgba(111, 212, 177, 0.2);
+  color: #d8fff0;
+}
+
+.quick-item-action.save:hover {
+  background: rgba(111, 212, 177, 0.28);
+}
+
+.quick-item-action:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.quick-item-action:disabled:hover {
+  background: inherit;
 }
 
 /* Quick Empty State */

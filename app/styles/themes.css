@@ -401,6 +401,62 @@
   color: var(--text);
 }
 
+:root[data-theme="light"] .quick-note-tab {
+  background: rgba(66, 82, 54, 0.05);
+  border-color: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .quick-note-tab:hover {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .quick-note-tab.active {
+  background: rgba(66, 82, 54, 0.14);
+  border-color: rgba(66, 82, 54, 0.2);
+}
+
+:root[data-theme="light"] .quick-note-tab-time {
+  color: rgba(70, 83, 63, 0.72);
+}
+
+:root[data-theme="light"] .quick-note-editor {
+  background: rgba(66, 82, 54, 0.035);
+  border-color: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .quick-note-title-input,
+:root[data-theme="light"] .quick-note-body-input {
+  background: rgba(66, 82, 54, 0.05);
+}
+
+:root[data-theme="light"] .quick-note-title-input:focus,
+:root[data-theme="light"] .quick-note-body-input:focus {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .quick-item-action.save {
+  background: rgba(66, 82, 54, 0.16);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .quick-item-action.save:hover {
+  background: rgba(66, 82, 54, 0.22);
+}
+
+:root[data-theme="light"] .quick-item-action.save:disabled {
+  background: rgba(66, 82, 54, 0.08);
+  color: rgba(66, 82, 54, 0.56);
+}
+
+:root[data-theme="light"] .quick-item-action.danger {
+  background: rgba(176, 78, 64, 0.1);
+  color: #9b493d;
+}
+
+:root[data-theme="light"] .quick-item-action.danger:hover {
+  background: rgba(176, 78, 64, 0.16);
+}
+
 :root[data-theme="light"] .study-lexicon-backdrop {
   background: rgba(34, 40, 30, 0.24);
 }
