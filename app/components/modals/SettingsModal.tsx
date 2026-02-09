@@ -66,6 +66,11 @@ type SettingsModalProps = {
   clamp: (value: number, min: number, max: number) => number;
 };
 
+const SETTINGS_TABS = [
+  { id: "display", label: "Display", icon: "◐" },
+  { id: "audio", label: "Audio", icon: "♫" }
+] as const;
+
 // Apple-style Segmented Control (for single select)
 const SegmentedControl = memo(function SegmentedControl({
   options,
@@ -324,11 +329,6 @@ function SettingsModal({
     [setFontScale, clamp]
   );
 
-  const tabs = [
-    { id: "display", label: "Display", icon: "◐" },
-    { id: "audio", label: "Audio", icon: "♫" }
-  ];
-
   // Animation variants for mobile (slide up) vs desktop (scale)
   const modalVariants = {
     hidden: isMobile
@@ -341,54 +341,6 @@ function SettingsModal({
       ? { opacity: 0, y: "100%" }
       : { opacity: 0, x: 20, y: 0, scale: 1 }
   };
-
-  // Swipe gesture handling for tabs
-  const handleSwipe = useCallback(
-    (direction: "left" | "right") => {
-      const currentIndex = tabs.findIndex((t) => t.id === activeTab);
-      if (direction === "left" && currentIndex < tabs.length - 1) {
-        const nextTab = tabs[currentIndex + 1];
-        if (nextTab) {
-          setActiveTab(nextTab.id);
-        }
-      } else if (direction === "right" && currentIndex > 0) {
-        const prevTab = tabs[currentIndex - 1];
-        if (prevTab) {
-          setActiveTab(prevTab.id);
-        }
-      }
-    },
-    [activeTab, tabs]
-  );
-
-  // Handle drag end for swipe-to-dismiss
-  const handleDragEnd = useCallback(
-    (_event: MouseEvent | TouchEvent | PointerEvent, info: { offset: { y: number }; velocity: { y: number } }) => {
-      const threshold = 100;
-      const velocity = 500;
-
-      // Swipe down to dismiss (only on mobile)
-      if (info.offset.y > threshold || info.velocity.y > velocity) {
-        onClose();
-      }
-    },
-    [onClose]
-  );
-
-  // Handle horizontal swipe in content area
-  const handleContentDragEnd = useCallback(
-    (_event: MouseEvent | TouchEvent | PointerEvent, info: { offset: { x: number }; velocity: { x: number } }) => {
-      const threshold = 50;
-      const velocity = 300;
-
-      if (info.offset.x < -threshold || info.velocity.x < -velocity) {
-        handleSwipe("left");
-      } else if (info.offset.x > threshold || info.velocity.x > velocity) {
-        handleSwipe("right");
-      }
-    },
-    [handleSwipe]
-  );
 
   return (
     <AnimatePresence>
@@ -435,7 +387,7 @@ function SettingsModal({
 
             {/* Tab Switcher */}
             <div className="settings-tabs">
-              {tabs.map((tab) => (
+              {SETTINGS_TABS.map((tab) => (
                 <button
                   key={tab.id}
                   className={`settings-tab ${activeTab === tab.id ? "active" : ""}`}
@@ -454,7 +406,7 @@ function SettingsModal({
               ))}
             </div>
 
-            {/* Content - with swipe gestures on mobile */}
+            {/* Content */}
             <motion.div className="settings-content">
               <AnimatePresence mode="wait">
                 {activeTab === "display" && (
