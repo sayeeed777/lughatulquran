@@ -394,30 +394,15 @@ export default function StudyModeView({
         )
       },
       {
-        id: "settings",
-        label: "Settings",
+        id: "tool",
+        label: "Tool",
         icon: (
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 21v-7" />
-            <path d="M4 10V3" />
-            <path d="M12 21v-9" />
-            <path d="M12 8V3" />
-            <path d="M20 21v-5" />
-            <path d="M20 12V3" />
-            <path d="M2 14h4" />
-            <path d="M10 8h4" />
-            <path d="M18 16h4" />
-          </svg>
-        )
-      },
-      {
-        id: "tools",
-        label: "Tools",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="m12 3 1.8 3.6L17 8l-3.2 1.4L12 13l-1.8-3.6L7 8l3.2-1.4L12 3z" />
-            <path d="m19 14 1 2 2 1-2 1-1 2-1-2-2-1 2-1 1-2z" />
-            <path d="m5 14 .8 1.6L7 16l-1.2.4L5 18l-.8-1.6L3 16l1.2-.4L5 14z" />
+            <path d="M14.5 6.5 17.5 3.5a2.121 2.121 0 1 1 3 3l-3.01 3.01" />
+            <path d="M12.5 8.5 4 17v3h3l8.5-8.5" />
+            <path d="M7 12H3" />
+            <path d="M21 21h-4" />
+            <path d="M14 14h-2" />
           </svg>
         )
       },

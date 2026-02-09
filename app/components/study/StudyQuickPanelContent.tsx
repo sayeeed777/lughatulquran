@@ -3,7 +3,7 @@
 import { ProgressBar } from "../common";
 import { StatCard } from "./StudyComponents";
 
-type QuickPanelTab = "study" | "settings" | "tools" | "tafsir" | "search" | "notes";
+type QuickPanelTab = "study" | "tool" | "tafsir" | "search" | "notes";
 
 type VerseRef = {
   surah: number;
@@ -284,16 +284,38 @@ export default function StudyQuickPanelContent({
     );
   }
 
-  if (tab === "settings") {
+  if (tab === "tool") {
+    const activeToolCount = [
+      showTranslation,
+      dimNonFocused,
+      autoScrollPlaying,
+      showTajweed,
+      showWordByWord,
+      isMushafView
+    ].filter(Boolean).length;
+
     return (
-      <div className="quick-panel-section study-settings-premium">
-        <div className="study-settings-group study-card">
-          <h4 className="study-settings-title">Display</h4>
-          <div className="study-toggle-list">
-            <label className="study-premium-toggle">
-              <div className="toggle-info">
-                <span className="toggle-icon">📖</span>
-                <span className="toggle-label">Show Translation</span>
+      <div className="quick-panel-section study-tool-section">
+        <div className="study-card tool-hero-card">
+          <div className="tool-hero-head">
+            <h4>Toolbox</h4>
+            <span className="tool-chip">{activeToolCount} active</span>
+          </div>
+          <p className="tool-hero-copy">
+            Display, playback, script, and reciter settings are all merged into one panel.
+          </p>
+        </div>
+
+        <div className="study-card tool-block">
+          <div className="tool-block-head">
+            <h5>Reading Aids</h5>
+            <span>Focus and visual helpers</span>
+          </div>
+          <div className="tool-toggle-grid">
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Show Translation</span>
+                <span className="tool-toggle-sub">Keep translation visible under each ayah.</span>
               </div>
               <div className={`toggle-switch ${showTranslation ? "active" : ""}`}>
                 <input
@@ -304,10 +326,11 @@ export default function StudyQuickPanelContent({
                 <span className="toggle-slider" />
               </div>
             </label>
-            <label className="study-premium-toggle">
-              <div className="toggle-info">
-                <span className="toggle-icon">🌙</span>
-                <span className="toggle-label">Dim Other Ayahs</span>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Dim Other Ayahs</span>
+                <span className="tool-toggle-sub">Highlight the focused ayah during study.</span>
               </div>
               <div className={`toggle-switch ${dimNonFocused ? "active" : ""}`}>
                 <input
@@ -318,10 +341,11 @@ export default function StudyQuickPanelContent({
                 <span className="toggle-slider" />
               </div>
             </label>
-            <label className="study-premium-toggle">
-              <div className="toggle-info">
-                <span className="toggle-icon">⬇️</span>
-                <span className="toggle-label">Auto-scroll on Play</span>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Auto-scroll on Play</span>
+                <span className="tool-toggle-sub">Follow recitation while ayahs advance.</span>
               </div>
               <div className={`toggle-switch ${autoScrollPlaying ? "active" : ""}`}>
                 <input
@@ -332,17 +356,109 @@ export default function StudyQuickPanelContent({
                 <span className="toggle-slider" />
               </div>
             </label>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Tajweed Colors</span>
+                <span className="tool-toggle-sub">Show tajweed highlights in Arabic text.</span>
+              </div>
+              <div className={`toggle-switch ${showTajweed ? "active" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={showTajweed}
+                  onChange={(event) => {
+                    const next = event.target.checked;
+                    setShowTajweed(next);
+                    if (!next) {
+                      setShowTajweedLegend(false);
+                    }
+                  }}
+                />
+                <span className="toggle-slider" />
+              </div>
+            </label>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Word by Word</span>
+                <span className="tool-toggle-sub">Enable word chips and word-level audio.</span>
+              </div>
+              <div className={`toggle-switch ${showWordByWord ? "active" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={showWordByWord}
+                  onChange={(event) => setShowWordByWord(event.target.checked)}
+                />
+                <span className="toggle-slider" />
+              </div>
+            </label>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Mushaf View</span>
+                <span className="tool-toggle-sub">Use a cleaner page-like reading layout.</span>
+              </div>
+              <div className={`toggle-switch ${isMushafView ? "active" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={isMushafView}
+                  onChange={(event) => setIsMushafView(event.target.checked)}
+                />
+                <span className="toggle-slider" />
+              </div>
+            </label>
           </div>
         </div>
 
-        <div className="study-settings-group study-card">
-          <h4 className="study-settings-title">Text Size</h4>
-          <div className="study-premium-sliders">
-            <div className="study-premium-slider">
-              <div className="slider-row">
-                <span className="slider-icon-box">ع</span>
-                <span className="slider-name">Arabic</span>
-                <span className="slider-val">{Math.round((fontScale?.arabic || 1) * 100)}%</span>
+        {showTajweed && (
+          <div className="study-card tool-block">
+            <button
+              className="tool-toggle tool-legend-btn"
+              type="button"
+              onClick={() => setShowTajweedLegend((prev) => !prev)}
+            >
+              <span>Tajweed color key</span>
+              <span className="tool-legend-chevron" aria-hidden="true">
+                {showTajweedLegend ? "▾" : "▸"}
+              </span>
+            </button>
+            {showTajweedLegend && (
+              <div className="tajweed-legend" role="note" aria-label="Tajweed color key">
+                <p className="tajweed-legend-hint">
+                  Counts are beats (harakah). This is a quick visual guide, not a full tajweed lesson.
+                </p>
+                <ul className="tajweed-legend-list">
+                  {tajweedLegend.map((item) => (
+                    <li key={item.swatchClass} className="tajweed-legend-item">
+                      <span
+                        className={`tajweed-swatch tajweed ${item.swatchClass}`}
+                        aria-hidden="true"
+                      >
+                        Aa
+                      </span>
+                      <div className="tajweed-legend-text">
+                        <span className="tajweed-legend-label">{item.label}</span>
+                        <span className="tajweed-legend-desc">{item.description}</span>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+
+        <div className="study-card tool-block">
+          <div className="tool-block-head">
+            <h5>Typography and Audio</h5>
+            <span>Text scale and playback speed</span>
+          </div>
+
+          <div className="tool-slider-grid">
+            <div className="tool-slider-card">
+              <div className="tool-slider-head">
+                <span className="tool-slider-label">Arabic Size</span>
+                <span className="tool-slider-value">{Math.round((fontScale?.arabic || 1) * 100)}%</span>
               </div>
               <div className="slider-track-wrap">
                 <div
@@ -364,11 +480,13 @@ export default function StudyQuickPanelContent({
                 />
               </div>
             </div>
-            <div className="study-premium-slider">
-              <div className="slider-row">
-                <span className="slider-icon-box">A</span>
-                <span className="slider-name">Translation</span>
-                <span className="slider-val">{Math.round((fontScale?.translation || 1) * 100)}%</span>
+
+            <div className="tool-slider-card">
+              <div className="tool-slider-head">
+                <span className="tool-slider-label">Translation Size</span>
+                <span className="tool-slider-value">
+                  {Math.round((fontScale?.translation || 1) * 100)}%
+                </span>
               </div>
               <div className="slider-track-wrap">
                 <div
@@ -390,68 +508,89 @@ export default function StudyQuickPanelContent({
                 />
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="study-settings-group study-card">
-          <h4 className="study-settings-title">Playback</h4>
-          <div className="study-premium-slider">
-            <div className="slider-row">
-              <span className="slider-icon-box">⏱</span>
-              <span className="slider-name">Speed</span>
-              <span className="slider-val">{playbackRate.toFixed(2)}x</span>
-            </div>
-            <div className="slider-track-wrap">
-              <div
-                className="slider-track-fill"
-                style={{ width: `${((playbackRate - 0.75) / 0.5) * 100}%` }}
-              />
-              <input
-                type="range"
-                min="0.75"
-                max="1.25"
-                step="0.05"
-                value={playbackRate}
-                onChange={(event) => setPlaybackRate(Number(event.target.value))}
-              />
+            <div className="tool-slider-card">
+              <div className="tool-slider-head">
+                <span className="tool-slider-label">Playback Speed</span>
+                <span className="tool-slider-value">{playbackRate.toFixed(2)}x</span>
+              </div>
+              <div className="slider-track-wrap">
+                <div
+                  className="slider-track-fill"
+                  style={{ width: `${((playbackRate - 0.75) / 0.5) * 100}%` }}
+                />
+                <input
+                  type="range"
+                  min="0.75"
+                  max="1.25"
+                  step="0.05"
+                  value={playbackRate}
+                  onChange={(event) => setPlaybackRate(Number(event.target.value))}
+                />
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="study-settings-group study-card">
-          <h4 className="study-settings-title">Arabic Font</h4>
-          <select
-            className="study-select"
-            value={arabicFontId}
-            onChange={(event) => setArabicFontId(event.target.value)}
-          >
-            {(arabicFonts || []).map((font) => (
-              <option key={font.id} value={font.id}>
-                {font.label}
-              </option>
-            ))}
-          </select>
+        <div className="study-card tool-block">
+          <div className="tool-block-head">
+            <h5>Script and Font</h5>
+            <span>Choose Arabic rendering style</span>
+          </div>
+          <div className="tool-script-grid">
+            <div className="tool-section">
+              <span className="tool-label">Script</span>
+              <div className="tool-buttons">
+                <button
+                  className={`control-btn${scriptStyle === "uthmani" ? " primary" : ""}`}
+                  onClick={() => setScriptStyle("uthmani")}
+                  type="button"
+                >
+                  Uthmani
+                </button>
+                <button
+                  className={`control-btn${scriptStyle === "naskh" ? " primary" : ""}`}
+                  onClick={() => setScriptStyle("naskh")}
+                  type="button"
+                >
+                  Naskh
+                </button>
+              </div>
+            </div>
+
+            <label className="tool-section tool-select-wrap">
+              <span className="tool-label">Arabic Font</span>
+              <select
+                className="study-select"
+                value={arabicFontId}
+                onChange={(event) => setArabicFontId(event.target.value)}
+              >
+                {(arabicFonts || []).map((font) => (
+                  <option key={font.id} value={font.id}>
+                    {font.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+          </div>
         </div>
 
-        <div className="study-settings-group study-card">
-          <h4 className="study-settings-title">Reciter</h4>
-          <div className="study-reciter-grid">
+        <div className="study-card tool-block">
+          <div className="tool-block-head">
+            <h5>Reciter</h5>
+            <span>Set your default recitation voice</span>
+          </div>
+          <div className="tool-reciter-grid">
             {(reciters || []).map((reciter) => (
               <button
                 key={reciter.id}
-                className={`study-reciter-chip ${reciterId === reciter.id ? "selected" : ""}`}
+                className={`tool-reciter-chip${reciterId === reciter.id ? " selected" : ""}`}
                 onClick={() => setReciterId(reciter.id)}
                 type="button"
               >
-                <span className="reciter-avatar-sm">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                    <circle cx="12" cy="8" r="4" />
-                    <path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2" />
-                  </svg>
-                </span>
-                <span className="reciter-chip-name">{reciter.label}</span>
+                <span className="tool-reciter-name">{reciter.label}</span>
                 {reciterId === reciter.id && (
-                  <span className="reciter-check">
+                  <span className="tool-reciter-check" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                       <path d="M5 12l5 5L20 7" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
@@ -459,104 +598,6 @@ export default function StudyQuickPanelContent({
                 )}
               </button>
             ))}
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  if (tab === "tools") {
-    return (
-      <div className="quick-panel-section">
-        <div className="study-card tools-card">
-          <h4>Study Tools</h4>
-          <div className="tool-grid">
-            <label className="tool-toggle">
-              <input
-                type="checkbox"
-                checked={showTajweed}
-                onChange={(event) => {
-                  const next = event.target.checked;
-                  setShowTajweed(next);
-                  if (!next) {
-                    setShowTajweedLegend(false);
-                  }
-                }}
-              />
-              <span>Tajweed Colors</span>
-            </label>
-            <label className="tool-toggle">
-              <input
-                type="checkbox"
-                checked={showWordByWord}
-                onChange={(event) => setShowWordByWord(event.target.checked)}
-              />
-              <span>Word by Word Audio</span>
-            </label>
-            <label className="tool-toggle">
-              <input
-                type="checkbox"
-                checked={isMushafView}
-                onChange={(event) => setIsMushafView(event.target.checked)}
-              />
-              <span>Mushaf View</span>
-            </label>
-          </div>
-          {showTajweed && (
-            <>
-              <button
-                className="tool-toggle tool-legend-btn"
-                type="button"
-                onClick={() => setShowTajweedLegend((prev) => !prev)}
-              >
-                <span>Tajweed color key</span>
-                <span className="tool-legend-chevron" aria-hidden="true">
-                  {showTajweedLegend ? "▾" : "▸"}
-                </span>
-              </button>
-              {showTajweedLegend && (
-                <div className="tajweed-legend" role="note" aria-label="Tajweed color key">
-                  <p className="tajweed-legend-hint">
-                    Counts are beats (harakah). This is a quick visual guide, not a full tajweed lesson.
-                  </p>
-                  <ul className="tajweed-legend-list">
-                    {tajweedLegend.map((item) => (
-                      <li key={item.swatchClass} className="tajweed-legend-item">
-                        <span
-                          className={`tajweed-swatch tajweed ${item.swatchClass}`}
-                          aria-hidden="true"
-                        >
-                          Aa
-                        </span>
-                        <div className="tajweed-legend-text">
-                          <span className="tajweed-legend-label">{item.label}</span>
-                          <span className="tajweed-legend-desc">{item.description}</span>
-                        </div>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </>
-          )}
-          <div className="tool-section">
-            <span className="tool-label">Script</span>
-            <div className="tool-buttons">
-              <button
-                className={`control-btn${scriptStyle === "uthmani" ? " primary" : ""}`}
-                onClick={() => setScriptStyle("uthmani")}
-                type="button"
-              >
-                Uthmani
-              </button>
-              <button
-                className={`control-btn${scriptStyle === "naskh" ? " primary" : ""}`}
-                onClick={() => setScriptStyle("naskh")}
-                type="button"
-              >
-                Naskh
-              </button>
-            </div>
           </div>
         </div>
       </div>
