@@ -100,23 +100,51 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7261' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 }
 
-/* Surah List Items — Soft parchment, no borders */
+/* Surah List Items — flatter list rhythm, less boxed */
+:root[data-theme="light"] .surah-list {
+  gap: 2px;
+}
+
 :root[data-theme="light"] .surah-item {
-  background: rgba(240, 231, 219, 0.6);
-  border: none;
+  background: transparent;
+  border: none !important;
+  box-shadow: none !important;
   transition: background 0.2s ease;
 }
 
 :root[data-theme="light"] .surah-item:hover {
-  background: rgba(240, 231, 219, 0.9);
+  background: rgba(236, 226, 211, 0.72);
+  box-shadow: none !important;
+  transform: none;
 }
 
 :root[data-theme="light"] .surah-item.active {
-  background: rgba(66, 82, 54, 0.08);
+  background: rgba(66, 82, 54, 0.06);
+  border: none !important;
+  box-shadow: none !important;
+}
+
+:root[data-theme="light"] .surah-item.active .surah-english {
+  color: rgba(47, 59, 43, 0.98);
+  font-weight: 600;
+}
+
+:root[data-theme="light"] .surah-item.active .surah-translation {
+  color: rgba(67, 80, 62, 0.8);
+}
+
+:root[data-theme="light"] .surah-item.active .surah-arabic {
+  color: rgba(74, 101, 63, 0.92);
 }
 
 :root[data-theme="light"] .surah-number {
-  background: rgba(66, 82, 54, 0.1);
+  background: rgba(66, 82, 54, 0.065);
+  border-radius: 999px;
+  color: rgba(52, 67, 44, 0.9);
+}
+
+:root[data-theme="light"] .surah-item.active .surah-number {
+  background: rgba(66, 82, 54, 0.08);
   color: var(--accent);
 }
 
@@ -690,8 +718,9 @@
 
 /* Override any lingering teal active states */
 :root[data-theme="light"] .surah-item.active {
-  background: rgba(66, 82, 54, 0.1) !important;
-  border-color: rgba(66, 82, 54, 0.2) !important;
+  background: rgba(66, 82, 54, 0.06) !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 /* Smooth focus rings — removed for softness, using background instead */
@@ -771,7 +800,12 @@
 
 /* Surah number in surah panel */
 :root[data-theme="light"] .surah-number {
-  background: rgba(66, 82, 54, 0.1) !important;
+  background: rgba(66, 82, 54, 0.065) !important;
+  color: rgba(52, 67, 44, 0.9) !important;
+}
+
+:root[data-theme="light"] .surah-item.active .surah-number {
+  background: rgba(66, 82, 54, 0.08) !important;
   color: var(--accent) !important;
 }
 
