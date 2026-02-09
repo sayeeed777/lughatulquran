@@ -117,6 +117,10 @@
     flex: 1;
   }
 
+  .quick-controls-row .sliders-row .quick-slider:first-child span {
+    margin-left: 12px;
+  }
+
   .quick-controls-row .quick-slider input[type="range"] {
     width: 100%;
     flex: 1;
@@ -126,6 +130,14 @@
     margin-left: 0;
     width: 100%;
     text-align: center;
+    min-height: 42px;
+    padding: 9px 16px;
+    border-radius: 13px;
+    font-size: 0.94rem;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
