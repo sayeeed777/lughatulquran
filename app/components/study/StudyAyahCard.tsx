@@ -89,7 +89,7 @@ function StudyAyahCardComponent({
       <div className="study-ayah-content">
         <div className="ayah-header study-ayah-header">
           <span className="ayah-number">Ayah {ayahNumber}</span>
-          <div className="ayah-actions">
+          <div className="ayah-actions study-ayah-actions">
             <button
               className="action-icon-btn memorize-icon"
               onClick={(event) => {

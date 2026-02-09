@@ -267,12 +267,21 @@
   gap: 20px;
 }
 
-.study-ayah-card:hover .ayah-actions,
-.study-ayah-card:focus-within .ayah-actions,
-.study-ayah-card.focused .ayah-actions {
-  opacity: 1;
+.study-ayah-card .ayah-actions,
+.study-ayah-card .study-ayah-actions {
+  opacity: 0.56;
   transform: translateY(0);
   pointer-events: auto;
+}
+
+.study-ayah-card:hover .ayah-actions,
+.study-ayah-card:focus-within .ayah-actions,
+.study-ayah-card.focused .ayah-actions,
+.study-ayah-card:hover .study-ayah-actions,
+.study-ayah-card:focus-within .study-ayah-actions,
+.study-ayah-card.focused .study-ayah-actions {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .study-ayah-arabic {
@@ -330,14 +339,7 @@
   right: 16px;
   display: flex;
   gap: 4px;
-  opacity: 0;
-  transform: translateY(-4px);
-  transition: all 0.2s ease;
-}
-
-.study-ayah-card:hover .study-ayah-actions {
-  opacity: 1;
-  transform: translateY(0);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .study-ayah-action {
@@ -2264,11 +2266,13 @@
 }
 
 .study-mode-container.mushaf-view .study-ayah-actions {
-  opacity: 0;
-  pointer-events: none;
+  opacity: 0.52;
+  pointer-events: auto;
 }
 
-.study-mode-container.mushaf-view .study-ayah-card:hover .study-ayah-actions {
+.study-mode-container.mushaf-view .study-ayah-card:hover .study-ayah-actions,
+.study-mode-container.mushaf-view .study-ayah-card:focus-within .study-ayah-actions,
+.study-mode-container.mushaf-view .study-ayah-card.focused .study-ayah-actions {
   opacity: 1;
   pointer-events: auto;
 }
