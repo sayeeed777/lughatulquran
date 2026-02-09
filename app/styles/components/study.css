@@ -657,13 +657,19 @@
   position: relative;
   width: 48px;
   height: 28px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
-  transition: background 0.3s ease;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
+  transition: background 0.3s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
 
 .toggle-switch.active {
-  background: linear-gradient(135deg, var(--accent-2), var(--primary));
+  background: linear-gradient(135deg, #3f8f79 0%, #6fd4b1 100%);
+  border-color: rgba(111, 212, 177, 0.55);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.14),
+    0 0 0 1px rgba(111, 212, 177, 0.14);
 }
 
 .toggle-switch input {
@@ -681,14 +687,16 @@
   left: 3px;
   width: 22px;
   height: 22px;
-  background: #fff;
+  background: #f8fbfa;
+  border: 1px solid rgba(255, 255, 255, 0.34);
   border-radius: 50%;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.2s ease;
 }
 
 .toggle-switch.active .toggle-slider {
   transform: translateX(20px);
+  border-color: rgba(18, 46, 56, 0.35);
 }
 
 /* Premium Sliders for Study Mode */
@@ -755,7 +763,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(90deg, var(--accent-2), var(--primary));
+  background: linear-gradient(90deg, #58b998 0%, #6fd4b1 100%);
   border-radius: 3px;
   transition: width 0.15s ease;
 }
