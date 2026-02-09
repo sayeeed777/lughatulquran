@@ -304,7 +304,7 @@ export default function StudyQuickPanelContent({
     }
     setSimpleNoteTitleDraft(activeSimpleNote.title || "");
     setSimpleNoteBodyDraft(activeSimpleNote.body || "");
-  }, [activeSimpleNote?.id, isCreatingSimpleNote]);
+  }, [activeSimpleNote?.id, activeSimpleNote?.title, activeSimpleNote?.body, isCreatingSimpleNote]);
 
   const createSimpleNote = useCallback(() => {
     setIsCreatingSimpleNote(true);

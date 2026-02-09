@@ -43,9 +43,7 @@ const getCandidates = () =>
     join(process.cwd(), "public/data/quran-morphology.mustafa.txt"),
     join(process.cwd(), "app/data/quranic-corpus-morphology-0.4.txt"),
     join(process.cwd(), "app/data/quranic-corpus-morphology-0.4.zip"),
-    "/tmp/quran-morphology.mustafa.txt",
-    "/Users/mdaminalsayeed/Downloads/quranic-corpus-morphology-0.4.txt",
-    "/Users/mdaminalsayeed/Downloads/quranic-corpus-morphology-0.4.zip"
+    "/tmp/quran-morphology.mustafa.txt"
   ].filter((value): value is string => Boolean(value));
 
 const readCorpusText = () => {
