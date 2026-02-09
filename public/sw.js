@@ -8,21 +8,16 @@
 /** @type {ServiceWorkerGlobalScope} */
 const sw = /** @type {ServiceWorkerGlobalScope} */ (/** @type {unknown} */ (self));
 
-const CACHE_NAME = "quran-reader-v1";
 const STATIC_CACHE = "quran-static-v1";
-const DYNAMIC_CACHE = "quran-dynamic-v1";
 const API_CACHE = "quran-api-v1";
+const API_CACHE_MAX_ENTRIES = 120;
+const API_CACHE_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000; // 7 days
 
 // Static assets to cache immediately
 const STATIC_ASSETS = [
   "/",
   "/manifest.json",
   "/offline.html"
-];
-
-// API routes to cache
-const API_ROUTES = [
-  "/api/surahs"
 ];
 
 // Install event - cache static assets
@@ -45,7 +40,6 @@ sw.addEventListener("activate", /** @param {ExtendableEvent} event */ (event) =>
           .filter((name) => {
             return (
               name !== STATIC_CACHE &&
-              name !== DYNAMIC_CACHE &&
               name !== API_CACHE
             );
           })
@@ -80,9 +74,8 @@ sw.addEventListener("fetch", /** @param {FetchEvent} event */ (event) => {
     return;
   }
 
-  // Handle audio requests (cache with network first)
+  // Do not cache recitation audio; stream directly from network.
   if (url.hostname === "everyayah.com") {
-    event.respondWith(handleAudioRequest(request));
     return;
   }
 
@@ -129,19 +122,37 @@ async function handleStaticRequest(request) {
 /** @param {Request} request @returns {Promise<Response>} */
 async function handleApiRequest(request) {
   const url = new URL(request.url);
+  const cache = await caches.open(API_CACHE);
   
   try {
     const networkResponse = await fetch(request);
     if (networkResponse.ok) {
-      const cache = await caches.open(API_CACHE);
-      cache.put(request, networkResponse.clone());
+      const responseForCache = networkResponse.clone();
+      const cacheHeaders = new Headers(responseForCache.headers);
+      cacheHeaders.set("x-sw-cache-time", String(Date.now()));
+      const cacheableResponse = new Response(responseForCache.body, {
+        status: responseForCache.status,
+        statusText: responseForCache.statusText,
+        headers: cacheHeaders
+      });
+      await cache.put(request, cacheableResponse);
+      await trimApiCache(cache);
     }
     return networkResponse;
-  } catch (error) {
-    const cachedResponse = await caches.match(request);
+  } catch {
+    const cachedResponse = await cache.match(request);
     if (cachedResponse) {
+      const cachedAt = Number(cachedResponse.headers.get("x-sw-cache-time") || "0");
+      if (cachedAt > 0 && Date.now() - cachedAt > API_CACHE_MAX_AGE_MS) {
+        await cache.delete(request);
+      } else {
+        return cachedResponse;
+      }
+    }
+    const fallbackResponse = await caches.match(request);
+    if (fallbackResponse) {
       console.log("[ServiceWorker] Serving API from cache:", url.pathname);
-      return cachedResponse;
+      return fallbackResponse;
     }
     
     // Return a JSON error response
@@ -155,24 +166,29 @@ async function handleApiRequest(request) {
   }
 }
 
-// Cache audio files for offline playback
-/** @param {Request} request */
-/** @param {Request} request @returns {Promise<Response>} */
-async function handleAudioRequest(request) {
-  const cachedResponse = await caches.match(request);
-  if (cachedResponse) {
-    return cachedResponse;
+/** @param {Cache} cache */
+async function trimApiCache(cache) {
+  const now = Date.now();
+  const requests = await cache.keys();
+
+  for (const request of requests) {
+    const response = await cache.match(request);
+    if (!response) continue;
+    const cachedAt = Number(response.headers.get("x-sw-cache-time") || "0");
+    if (cachedAt > 0 && now - cachedAt > API_CACHE_MAX_AGE_MS) {
+      await cache.delete(request);
+    }
   }
 
-  try {
-    const networkResponse = await fetch(request);
-    if (networkResponse.ok) {
-      const cache = await caches.open(DYNAMIC_CACHE);
-      cache.put(request, networkResponse.clone());
+  const remaining = await cache.keys();
+  const overflow = remaining.length - API_CACHE_MAX_ENTRIES;
+  if (overflow <= 0) return;
+
+  for (let index = 0; index < overflow; index += 1) {
+    const request = remaining[index];
+    if (request) {
+      await cache.delete(request);
     }
-    return networkResponse;
-  } catch (error) {
-    return new Response("Audio unavailable offline", { status: 503 });
   }
 }
 
