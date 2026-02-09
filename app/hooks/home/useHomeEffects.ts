@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { parseVerseKey, verseKey } from "../../lib/utils";
+import type { StudySession } from "../common";
 import type { MemorizeConfig, NowPlaying, Surah, SurahData } from "./types";
 
 type UseHomeEffectsParams = {
@@ -14,6 +15,10 @@ type UseHomeEffectsParams = {
   setPendingScroll: (value: number | null) => void;
   surahData: SurahData | null;
   updateLastRead: (surah: number, ayah: number, surahName: string) => void;
+  updateStudySession: (payload: Omit<StudySession, "updatedAt">) => void;
+  reciterId: string;
+  playbackRate: number;
+  fontScale: { arabic: number; translation: number };
   readingMode: boolean;
   memorizeConfig: MemorizeConfig;
   setMemorizeConfig: (value: MemorizeConfig | ((prev: MemorizeConfig) => MemorizeConfig)) => void;
@@ -33,6 +38,10 @@ export function useHomeEffects({
   setPendingScroll,
   surahData,
   updateLastRead,
+  updateStudySession,
+  reciterId,
+  playbackRate,
+  fontScale,
   readingMode,
   memorizeConfig,
   setMemorizeConfig,
@@ -87,6 +96,37 @@ export function useHomeEffects({
     updateLastRead(surah, ayah, selectedSurah.englishName);
   }, [focusedAyahKey, selectedSurah, updateLastRead]);
 
+  // Persist richer "continue where left off" session state
+  useEffect(() => {
+    if (!selectedSurah) return;
+    const focusedAyah = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : null;
+    const playingAyah =
+      nowPlaying?.surah === selectedSurah.number ? nowPlaying.ayah : null;
+    const ayah = focusedAyah || playingAyah;
+    if (!ayah) return;
+    updateStudySession({
+      surah: selectedSurah.number,
+      ayah,
+      surahName: selectedSurah.englishName,
+      reciterId,
+      playbackRate,
+      fontScale: {
+        arabic: Number(fontScale?.arabic) || 1,
+        translation: Number(fontScale?.translation) || 1
+      }
+    });
+  }, [
+    selectedSurah,
+    focusedAyahKey,
+    nowPlaying?.surah,
+    nowPlaying?.ayah,
+    reciterId,
+    playbackRate,
+    fontScale?.arabic,
+    fontScale?.translation,
+    updateStudySession
+  ]);
+
   // Stop memorize when exiting study mode
   useEffect(() => {
     if (readingMode) return;
@@ -98,19 +138,41 @@ export function useHomeEffects({
 
   // Pending Scroll Logic
   useEffect(() => {
-    if (!pendingScroll || !surahData?.surah || !selectedSurah) return;
-    if (surahData.surah.number !== selectedSurah.number) return;
+    if (!pendingScroll || !selectedSurah) return;
 
-    const timer = setTimeout(() => {
-      const target = document.getElementById(`ayah-${pendingScroll}`);
+    let isCancelled = false;
+    let frameId: number | null = null;
+    let attempts = 0;
+    const targetAyah = pendingScroll;
+    const maxAttempts = 32;
+
+    const scrollWhenReady = () => {
+      if (isCancelled) return;
+      const target = document.getElementById(`ayah-${targetAyah}`);
       if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "start" });
-        setFocusedAyahKey(verseKey(selectedSurah.number, pendingScroll));
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+        setFocusedAyahKey(verseKey(selectedSurah.number, targetAyah));
+        setPendingScroll(null);
+        return;
       }
-    }, 100);
-    setPendingScroll(null);
-    return () => clearTimeout(timer);
-  }, [pendingScroll, surahData, selectedSurah, setFocusedAyahKey, setPendingScroll]);
+      attempts += 1;
+      if (attempts >= maxAttempts) {
+        setPendingScroll(null);
+        return;
+      }
+      frameId = window.requestAnimationFrame(scrollWhenReady);
+    };
+
+    const timer = window.setTimeout(scrollWhenReady, 60);
+
+    return () => {
+      isCancelled = true;
+      window.clearTimeout(timer);
+      if (frameId !== null) {
+        window.cancelAnimationFrame(frameId);
+      }
+    };
+  }, [pendingScroll, selectedSurah, surahData?.ayahs?.length, setFocusedAyahKey, setPendingScroll]);
 
   // Auto-scroll to currently playing ayah during auto-play
   useEffect(() => {

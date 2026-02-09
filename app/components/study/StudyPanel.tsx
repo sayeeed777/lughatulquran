@@ -16,7 +16,13 @@ type StudyPanelProps = {
   onOpenNote: (surah: number, ayah: number) => void;
   formatRangeLabel: (start: any, end: any) => string;
   getLocalDateString: () => string;
-  lastRead?: any;
+  continueSession?: {
+    surah: number;
+    ayah: number;
+    surahName: string;
+    updatedAt: number;
+  } | null;
+  onContinueSession?: () => void;
 };
 
 export default function StudyPanel({
@@ -31,14 +37,31 @@ export default function StudyPanel({
   onToggleBookmark,
   onOpenNote,
   formatRangeLabel,
-  getLocalDateString
+  getLocalDateString,
+  continueSession,
+  onContinueSession
 }: StudyPanelProps) {
+  const continueTimeAgo = continueSession ? getTimeAgo(continueSession.updatedAt) : "";
+
   return (
     <aside className="panel study-panel">
       <div className="panel-header">
         <h2>Study</h2>
         <p className="meta">Plan, bookmarks, and notes</p>
       </div>
+
+      {continueSession && onContinueSession && (
+        <div className="study-section study-resume-section">
+          <h3>Continue</h3>
+          <p className="study-resume-location">
+            {continueSession.surahName} · Ayah {continueSession.ayah}
+          </p>
+          <p className="study-resume-time">{continueTimeAgo}</p>
+          <button className="action-btn" onClick={onContinueSession}>
+            Continue where you left off
+          </button>
+        </div>
+      )}
 
       <ReadingPlan
         surahs={surahs}
@@ -66,4 +89,13 @@ export default function StudyPanel({
       />
     </aside>
   );
+}
+
+function getTimeAgo(timestamp: number) {
+  const elapsedSeconds = Math.floor((Date.now() - timestamp) / 1000);
+  if (elapsedSeconds < 60) return "Just now";
+  if (elapsedSeconds < 3600) return `${Math.floor(elapsedSeconds / 60)} min ago`;
+  if (elapsedSeconds < 86400) return `${Math.floor(elapsedSeconds / 3600)}h ago`;
+  if (elapsedSeconds < 604800) return `${Math.floor(elapsedSeconds / 86400)}d ago`;
+  return new Date(timestamp).toLocaleDateString();
 }

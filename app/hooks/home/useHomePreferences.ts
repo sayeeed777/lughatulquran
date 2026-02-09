@@ -3,12 +3,27 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { AUDIO_RECITERS, ARABIC_FONTS, STORAGE_KEYS } from "../../lib/constants";
 import { useLocalStorage } from "../common";
+import { clamp } from "../../lib/utils";
 import { useReadingPlan, useFontScale } from "../useAppSettings";
 import type { ArabicFont, Reciter } from "./types";
 
 export function useHomePreferences() {
   const [readingPlan, setReadingPlan] = useReadingPlan();
   const [fontScale, setFontScale] = useFontScale();
+  const [storedPlaybackRate, setStoredPlaybackRate] = useLocalStorage(
+    STORAGE_KEYS.playbackRate,
+    1
+  ) as [number, (value: number | ((prev: number) => number)) => void, boolean];
+  const playbackRate = clamp(Number(storedPlaybackRate) || 1, 0.75, 1.25);
+  const setPlaybackRate = useCallback(
+    (value: number | ((prev: number) => number)) => {
+      setStoredPlaybackRate((prev) => {
+        const next = typeof value === "function" ? value(prev) : value;
+        return clamp(Number(next) || 1, 0.75, 1.25);
+      });
+    },
+    [setStoredPlaybackRate]
+  );
 
   const defaultReciter: Reciter = AUDIO_RECITERS[0] ?? {
     id: "default",
@@ -71,6 +86,8 @@ export function useHomePreferences() {
     setReadingPlan,
     fontScale,
     setFontScale,
+    playbackRate,
+    setPlaybackRate,
     reciterId,
     setReciterId,
     selectedReciter,

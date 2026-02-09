@@ -228,6 +228,26 @@
   margin-bottom: 0;
 }
 
+.study-resume-section {
+  gap: 6px;
+}
+
+.study-resume-location {
+  font-size: 0.9rem;
+  color: var(--text);
+  font-weight: 560;
+}
+
+.study-resume-time {
+  font-size: 0.75rem;
+  color: var(--muted);
+  margin-top: -2px;
+}
+
+.study-resume-section .action-btn {
+  margin-top: 4px;
+}
+
 /* Mobile layout fixes (override base sticky panels) */
 @media (max-width: 1024px) {
   .surah-panel {

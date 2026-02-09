@@ -305,6 +305,8 @@ type StudyModeViewProps = {
   setFocusedAyahKey: (value: string | null) => void;
   fontScale: { arabic: number; translation: number };
   setFontScale: (value: { arabic: number; translation: number } | ((prev: { arabic: number; translation: number }) => { arabic: number; translation: number })) => void;
+  playbackRate: number;
+  setPlaybackRate: (value: number) => void;
   nowPlaying: { surah: number; ayah: number } | null;
   isAutoPlaying: boolean;
   isAudioPaused: boolean;
@@ -351,6 +353,8 @@ export default function StudyModeView({
   setFocusedAyahKey,
   fontScale,
   setFontScale,
+  playbackRate,
+  setPlaybackRate,
   nowPlaying,
   isAutoPlaying,
   isAudioPaused,
@@ -394,7 +398,6 @@ export default function StudyModeView({
   const [showTranslation, setShowTranslation] = useState(true);
   const [dimNonFocused, setDimNonFocused] = useState(false);
   const [autoScrollPlaying, setAutoScrollPlaying] = useState(true);
-  const [playbackRate, setPlaybackRate] = useState(1);
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<any[]>([]);
   const [searchLoading, setSearchLoading] = useState(false);

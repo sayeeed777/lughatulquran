@@ -115,7 +115,9 @@ export const STORAGE_KEYS = {
   notes: "quran_notes",
   plan: "quran_plan",
   fontScale: "quran_font_scale",
+  playbackRate: "quran_playback_rate",
   lastRead: "quran_last_read",
+  studySession: "quran_study_session",
   reciter: "quran_reciter",
   arabicFont: "quran_arabic_font",
   theme: "quran_theme"

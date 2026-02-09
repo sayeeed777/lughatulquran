@@ -10,10 +10,9 @@ import {
   NoteModal,
   ErrorBoundary,
   SectionErrorBoundary,
-  LastReadCard,
   KeyboardShortcutsHelp
 } from "./components";
-import { AUDIO_RECITERS, ARABIC_FONTS } from "./lib/constants";
+import { AUDIO_RECITERS, ARABIC_FONTS, FONT_SCALE } from "./lib/constants";
 import { verseKey, clamp, getAudioUrl, getLocalDateString } from "./lib/utils";
 import { useHomeController } from "./hooks/useHomeController";
 
@@ -36,7 +35,10 @@ export default function Home() {
     setReadingPlan,
     fontScale,
     setFontScale,
+    playbackRate,
+    setPlaybackRate,
     lastRead,
+    studySession,
     memorizeConfig,
     setMemorizeConfig,
     focusedAyahKey,
@@ -130,6 +132,8 @@ export default function Home() {
           setFocusedAyahKey={setFocusedAyahKey}
           fontScale={fontScale}
           setFontScale={setFontScale}
+          playbackRate={playbackRate}
+          setPlaybackRate={setPlaybackRate}
           nowPlaying={nowPlaying}
           isAutoPlaying={isAutoPlaying}
           isAudioPaused={isAudioPaused}
@@ -174,6 +178,40 @@ export default function Home() {
     "--arabic-scale": fontScale.arabic,
     "--translation-scale": fontScale.translation,
     "--font-arabic": selectedArabicFont?.css || ""
+  };
+
+  const continueSession = studySession || (lastRead
+    ? {
+        surah: lastRead.surah,
+        ayah: lastRead.ayah,
+        surahName: lastRead.surahName,
+        updatedAt: lastRead.timestamp
+      }
+    : null);
+
+  const handleContinueSession = () => {
+    if (!continueSession) return;
+    if (studySession?.reciterId) {
+      setReciterId(studySession.reciterId);
+    }
+    if (studySession?.fontScale) {
+      setFontScale({
+        arabic: clamp(
+          Number(studySession.fontScale.arabic) || 1,
+          FONT_SCALE.min.arabic,
+          FONT_SCALE.max.arabic
+        ),
+        translation: clamp(
+          Number(studySession.fontScale.translation) || 1,
+          FONT_SCALE.min.translation,
+          FONT_SCALE.max.translation
+        )
+      });
+    }
+    if (Number.isFinite(studySession?.playbackRate)) {
+      setPlaybackRate(clamp(Number(studySession?.playbackRate) || 1, 0.75, 1.25));
+    }
+    jumpToAyah(continueSession.surah, continueSession.ayah);
   };
 
   return (
@@ -394,17 +432,11 @@ export default function Home() {
               onOpenNote={openNote}
               formatRangeLabel={formatRangeLabel}
               getLocalDateString={getLocalDateString}
-              lastRead={lastRead}
+              continueSession={continueSession}
+              onContinueSession={handleContinueSession}
             />
           </SectionErrorBoundary>
         </section>
-
-        {!selectedSurah && lastRead && (
-          <LastReadCard
-            lastRead={lastRead}
-            onContinue={() => jumpToAyah(lastRead.surah, lastRead.ayah)}
-          />
-        )}
 
         <CompareModal
           selectedAyah={selectedAyah}

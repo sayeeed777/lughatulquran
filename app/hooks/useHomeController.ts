@@ -2,7 +2,7 @@
 
 import { useCallback, useMemo, useState } from "react";
 import { verseKey, parseVerseKey, copyToClipboard } from "../lib/utils";
-import { useLastRead } from "./common";
+import { useLastRead, useStudySession } from "./common";
 import { useAudioPlayback } from "./useAudioPlayback";
 import { useBookmarks, useNoteEditor } from "./useBookmarks";
 import { useMemorization } from "./useMemorization";
@@ -64,6 +64,8 @@ export function useHomeController() {
     setReadingPlan,
     fontScale,
     setFontScale,
+    playbackRate,
+    setPlaybackRate,
     reciterId,
     setReciterId,
     selectedReciter,
@@ -77,6 +79,7 @@ export function useHomeController() {
 
   // Last read
   const { lastRead, updateLastRead } = useLastRead();
+  const { studySession, updateStudySession } = useStudySession();
 
   // Memorization state (shared by audio + memorize flows)
   const [memorizeConfig, setMemorizeConfig] = useState<MemorizeConfig>({
@@ -173,6 +176,10 @@ export function useHomeController() {
     setPendingScroll,
     surahData: surahData as SurahData | null,
     updateLastRead,
+    updateStudySession,
+    reciterId,
+    playbackRate,
+    fontScale,
     readingMode,
     memorizeConfig,
     setMemorizeConfig,
@@ -320,7 +327,10 @@ export function useHomeController() {
     setReadingPlan,
     fontScale,
     setFontScale,
+    playbackRate,
+    setPlaybackRate,
     lastRead: lastRead as LastRead,
+    studySession,
     updateLastRead,
     memorizeConfig,
     setMemorizeConfig,

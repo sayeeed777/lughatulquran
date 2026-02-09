@@ -7,6 +7,19 @@ type SetState<T> = (value: T | ((prev: T) => T)) => void;
 
 // No re-exports needed here
 
+export type StudySession = {
+  surah: number;
+  ayah: number;
+  surahName: string;
+  reciterId: string;
+  playbackRate: number;
+  fontScale: {
+    arabic: number;
+    translation: number;
+  };
+  updatedAt: number;
+};
+
 // Hook for localStorage with SSR safety
 export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T>, boolean] {
   const [storedValue, setStoredValue] = useState<T>(initialValue);
@@ -69,6 +82,25 @@ export function useLastRead() {
   );
 
   return { lastRead, updateLastRead };
+}
+
+export function useStudySession() {
+  const [studySession, setStudySession] = useLocalStorage(
+    STORAGE_KEYS.studySession,
+    null as StudySession | null
+  );
+
+  const updateStudySession = useCallback(
+    (payload: Omit<StudySession, "updatedAt">) => {
+      setStudySession({
+        ...payload,
+        updatedAt: Date.now()
+      });
+    },
+    [setStudySession]
+  );
+
+  return { studySession, updateStudySession };
 }
 
 // Hook for keyboard shortcuts
