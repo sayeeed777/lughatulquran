@@ -1325,10 +1325,9 @@
 
   /* Surah Header Hierarchy Fix (Re-applied) */
   .surah-panel-header h2 {
-    font-size: 1.375rem !important;
-    /* 22px (Title 2) */
-    font-weight: 700;
-    letter-spacing: 0.01em;
+    font-size: 1.18rem !important;
+    font-weight: 650;
+    letter-spacing: -0.006em;
   }
 }
 

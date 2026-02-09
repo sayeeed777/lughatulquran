@@ -148,6 +148,39 @@
   color: var(--accent);
 }
 
+/* Typography hierarchy — clearer primary/secondary separation */
+:root[data-theme="light"] .meta {
+  color: rgba(67, 79, 58, 0.72);
+  font-size: 0.84rem;
+}
+
+:root[data-theme="light"] .surah-translation,
+:root[data-theme="light"] .study-sub,
+:root[data-theme="light"] .plan-range,
+:root[data-theme="light"] .ayah-translation,
+:root[data-theme="light"] .compare-text {
+  color: rgba(60, 72, 54, 0.82);
+}
+
+:root[data-theme="light"] .surah-translation,
+:root[data-theme="light"] .study-sub {
+  font-size: 0.74rem;
+}
+
+:root[data-theme="light"] .study-section h3,
+:root[data-theme="light"] .field,
+:root[data-theme="light"] .label {
+  color: rgba(67, 79, 58, 0.62);
+}
+
+:root[data-theme="light"] .field {
+  letter-spacing: 0.065em;
+}
+
+:root[data-theme="light"] .label {
+  letter-spacing: 0.09em;
+}
+
 /* Ayah Cards — Pure soft parchment, no boxy feel */
 :root[data-theme="light"] .ayah-card {
   background: rgba(240, 231, 219, 0.5);

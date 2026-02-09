@@ -34,11 +34,10 @@
 }
 
 .surah-panel-header h2 {
-  font-size: 1.5rem;
-  /* Increased from 1rem to 24px (Title 2) */
+  font-size: 1.28rem;
   color: var(--text);
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 650;
+  letter-spacing: -0.008em;
 }
 
 .surah-panel-header .surah-study-btn {
