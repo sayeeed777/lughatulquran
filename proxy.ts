@@ -29,7 +29,7 @@ const buildCsp = (nonce: string) =>
     "manifest-src 'self'"
   ].join("; ");
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   if (process.env.NODE_ENV !== "production") {
     return NextResponse.next();
   }
@@ -55,4 +55,3 @@ export const config = {
     "/((?!api|_next/static|_next/image|favicon.ico|manifest.json|sw.js|sw-register.js|offline.html|icons).*)"
   ]
 };
-
