@@ -875,6 +875,17 @@
   background: rgba(66, 82, 54, 0.06) !important;
 }
 
+/* Mobile tap parity: avoid dark-to-soft flash on ayah tap */
+@media (hover: none) and (pointer: coarse) {
+  :root[data-theme="light"] .ayah-card:active,
+  :root[data-theme="light"] .ayah-card:focus,
+  :root[data-theme="light"] .ayah-card.focused {
+    background: rgba(240, 231, 219, 0.95) !important;
+    box-shadow: 0 4px 24px rgba(45, 52, 40, 0.03) !important;
+    transition: background 0.05s linear, box-shadow 0.05s linear !important;
+  }
+}
+
 /* Back to top button — soft olive floating */
 :root[data-theme="light"] .back-to-top {
   background: rgba(240, 231, 219, 0.9);
