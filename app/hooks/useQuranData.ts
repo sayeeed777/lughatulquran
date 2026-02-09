@@ -13,6 +13,10 @@ type Word = {
   arabic: string;
   translation?: string;
   audioUrl?: string;
+  position?: number;
+  lemma?: string;
+  root?: string;
+  rootArabic?: string;
 };
 
 type WordByAyah = Record<number, Word[]>;

@@ -25,11 +25,57 @@ type MemorizeConfig = {
   remaining: number;
 };
 
-type Word = { arabic: string; translation?: string; audioUrl?: string };
+type Word = {
+  arabic: string;
+  translation?: string;
+  audioUrl?: string;
+  position?: number;
+  lemma?: string;
+  root?: string;
+  rootArabic?: string;
+};
 
 type WordByAyah = Record<number, Word[]>;
 
 type WordBySurah = Record<number, WordByAyah>;
+
+type SelectedWordDetails = {
+  surah: number;
+  ayah: number;
+  position: number;
+  arabic: string;
+  translation?: string;
+  audioUrl?: string;
+  lemma?: string;
+  root?: string;
+  rootArabic?: string;
+};
+
+type RootLexiconPayload = {
+  root: string;
+  rootArabic?: string;
+  coreMeanings?: string[];
+  definitions?: string[];
+  lemmas?: string[];
+  references?: string[];
+  laneAvailable?: boolean;
+};
+
+type WordByWordPayload = {
+  wordsByAyah?: WordByAyah;
+};
+
+const hasLexiconData = (wordsByAyah?: WordByAyah) => {
+  if (!wordsByAyah) return false;
+  for (const words of Object.values(wordsByAyah)) {
+    for (const word of words || []) {
+      if (word?.root || word?.lemma) {
+        return true;
+      }
+    }
+  }
+  return false;
+};
 
 type TajweedTagName = "tajweed" | "span";
 
@@ -366,6 +412,13 @@ export default function StudyModeView({
   const lastTafsirKeyRef = useRef<string | null>(null);
   const wordAudioRef = useRef<HTMLAudioElement | null>(null);
   const [wordAudioUrl, setWordAudioUrl] = useState<string | null>(null);
+  const [selectedWordDetails, setSelectedWordDetails] = useState<SelectedWordDetails | null>(null);
+  const [isRootModalOpen, setIsRootModalOpen] = useState(false);
+  const [rootLexicon, setRootLexicon] = useState<RootLexiconPayload | null>(null);
+  const [rootLexiconLoading, setRootLexiconLoading] = useState(false);
+  const [rootLexiconError, setRootLexiconError] = useState<string | null>(null);
+  const [studyWordCache, setStudyWordCache] = useState<WordBySurah>({});
+  const [studyWordLoading, setStudyWordLoading] = useState(false);
   const [studyGoal, setStudyGoal] = useLocalStorage("quran_study_goal", {
     perDay: 15,
     date: getLocalDateString()
@@ -373,8 +426,23 @@ export default function StudyModeView({
   const scrollContainerRef = useRef<HTMLDivElement | null>(null);
   const controlsTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const lastPointerActivityRef = useRef(0);
+  const rootLookupRequestRef = useRef(0);
 
   const ayahs = filteredAyahs || surahData?.ayahs || [];
+  const selectedSurahNumber = selectedSurah?.number || 0;
+  const wordsFromHook = selectedSurahNumber ? wordByAyah?.[selectedSurahNumber] : undefined;
+  const wordsFromStudyCache = selectedSurahNumber ? studyWordCache?.[selectedSurahNumber] : undefined;
+  const hookHasLexiconData = useMemo(() => hasLexiconData(wordsFromHook), [wordsFromHook]);
+  const cacheHasLexiconData = useMemo(() => hasLexiconData(wordsFromStudyCache), [wordsFromStudyCache]);
+  const wordsByAyahForStudy = useMemo<WordByAyah>(
+    () => {
+      if (hookHasLexiconData && wordsFromHook) return wordsFromHook;
+      if (cacheHasLexiconData && wordsFromStudyCache) return wordsFromStudyCache;
+      return wordsFromHook || wordsFromStudyCache || {};
+    },
+    [hookHasLexiconData, wordsFromHook, cacheHasLexiconData, wordsFromStudyCache]
+  );
+  const effectiveWordLoading = wordLoading || studyWordLoading;
   const totalAyahs = ayahs.length;
   const progress = totalAyahs > 0 ? Math.round((currentAyahIndex / totalAyahs) * 100) : 0;
   const goalTarget = Math.max(1, Number(studyGoal?.perDay) || 1);
@@ -457,6 +525,58 @@ export default function StudyModeView({
       setStudyGoal((prev: any) => ({ ...prev, date: today }));
     }
   }, [studyGoal?.date, setStudyGoal]);
+
+  useEffect(() => {
+    if (!selectedSurahNumber) return;
+
+    if (hookHasLexiconData && wordsFromHook) {
+      setStudyWordCache((prev) => {
+        if (prev[selectedSurahNumber]) return prev;
+        return {
+          ...prev,
+          [selectedSurahNumber]: wordsFromHook
+        };
+      });
+      return;
+    }
+
+    if (cacheHasLexiconData && wordsFromStudyCache) return;
+
+    let isMounted = true;
+    setStudyWordLoading(true);
+
+    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}?v=6`, {
+      ttl: 24 * 60 * 60 * 1000,
+      retries: 1,
+      retryDelay: 300,
+      persist: true,
+      staleWhileRevalidate: true
+    })
+      .then((payload) => {
+        if (!isMounted) return;
+        setStudyWordCache((prev) => ({
+          ...prev,
+          [selectedSurahNumber]: payload?.wordsByAyah || {}
+        }));
+      })
+      .catch(() => {
+        if (!isMounted) return;
+      })
+      .finally(() => {
+        if (!isMounted) return;
+        setStudyWordLoading(false);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, [
+    selectedSurahNumber,
+    wordsFromHook,
+    wordsFromStudyCache,
+    hookHasLexiconData,
+    cacheHasLexiconData
+  ]);
 
   // Auto-hide controls
   useEffect(() => {
@@ -728,6 +848,130 @@ export default function StudyModeView({
     [resolveWordAudioUrl]
   );
 
+  const hydrateWordLexicon = useCallback(
+    async (surahNumber: number, ayahNumber: number, position: number) => {
+      const payload = await fetchJSON<WordByWordPayload>(`/api/words/${surahNumber}?v=6`, {
+        ttl: 24 * 60 * 60 * 1000,
+        retries: 1,
+        retryDelay: 250,
+        persist: true,
+        staleWhileRevalidate: true
+      });
+      const wordsByAyahPayload = payload?.wordsByAyah || {};
+      setStudyWordCache((prev) => ({
+        ...prev,
+        [surahNumber]: wordsByAyahPayload
+      }));
+      const ayahWords = wordsByAyahPayload?.[ayahNumber] || [];
+      return (
+        ayahWords.find((item, idx) => (Number(item.position) || idx + 1) === position) || null
+      );
+    },
+    []
+  );
+
+  const fetchRootLexicon = useCallback(async (root?: string) => {
+    const normalizedRoot = (root || "").trim();
+    if (!normalizedRoot) return null;
+    const requestId = rootLookupRequestRef.current + 1;
+    rootLookupRequestRef.current = requestId;
+    setRootLexiconLoading(true);
+    setRootLexiconError(null);
+    try {
+      const payload = await fetchJSON<RootLexiconPayload>(
+        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}`,
+        { ttl: 24 * 60 * 60 * 1000, retries: 1, retryDelay: 250, persist: true }
+      );
+      if (rootLookupRequestRef.current !== requestId) return null;
+      setRootLexicon(payload);
+      return payload;
+    } catch (error) {
+      if (rootLookupRequestRef.current !== requestId) return null;
+      const message = error instanceof Error ? error.message : "Failed to load root lexicon.";
+      setRootLexicon(null);
+      setRootLexiconError(message);
+      return null;
+    } finally {
+      if (rootLookupRequestRef.current === requestId) {
+        setRootLexiconLoading(false);
+      }
+    }
+  }, []);
+
+  const handleWordSelect = useCallback(
+    (word: Word, ayahNumber: number, wordIndex: number) => {
+      const surahNumber = selectedSurah?.number;
+      if (!surahNumber) return;
+      rootLookupRequestRef.current += 1;
+      const position = Number(word.position) || wordIndex + 1;
+      setSelectedWordDetails({
+        surah: surahNumber,
+        ayah: ayahNumber,
+        position,
+        arabic: word.arabic,
+        translation: word.translation,
+        audioUrl: word.audioUrl,
+        lemma: word.lemma,
+        root: word.root,
+        rootArabic: word.rootArabic
+      });
+      setIsRootModalOpen(false);
+      setRootLexicon(null);
+      setRootLexiconError(null);
+
+      if (word.root) {
+        void fetchRootLexicon(word.root);
+      }
+
+      if (!word.root && !word.lemma) {
+        void hydrateWordLexicon(surahNumber, ayahNumber, position)
+          .then((hydratedWord) => {
+            if (!hydratedWord) return;
+            setSelectedWordDetails((prev) => {
+              if (!prev) return prev;
+              if (
+                prev.surah !== surahNumber ||
+                prev.ayah !== ayahNumber ||
+                prev.position !== position
+              ) {
+                return prev;
+              }
+              return {
+                ...prev,
+                lemma: hydratedWord.lemma || prev.lemma,
+                root: hydratedWord.root || prev.root,
+                rootArabic: hydratedWord.rootArabic || prev.rootArabic
+              };
+            });
+            if (hydratedWord.root) {
+              void fetchRootLexicon(hydratedWord.root);
+            }
+          })
+          .catch(() => {});
+      }
+    },
+    [selectedSurah?.number, hydrateWordLexicon, fetchRootLexicon]
+  );
+
+  const closeWordDetails = useCallback(() => {
+    rootLookupRequestRef.current += 1;
+    setSelectedWordDetails(null);
+    setIsRootModalOpen(false);
+    setRootLexicon(null);
+    setRootLexiconError(null);
+    setRootLexiconLoading(false);
+  }, []);
+
+  const openRootDetails = useCallback(async (root?: string) => {
+    const normalizedRoot = (root || "").trim();
+    if (!normalizedRoot) return;
+    setIsRootModalOpen(true);
+    if (rootLexicon?.root === normalizedRoot && !rootLexiconError) {
+      return;
+    }
+    await fetchRootLexicon(normalizedRoot);
+  }, [fetchRootLexicon, rootLexicon?.root, rootLexiconError]);
+
   const openMemorizeModal = useCallback(
     (ayahNumber: number) => {
       if (!selectedSurah) return;
@@ -815,9 +1059,7 @@ export default function StudyModeView({
         const noted = hasNote(selectedSurah?.number || 0, ayahNum);
         const isPlaying = nowPlaying?.surah === selectedSurah?.number && nowPlaying?.ayah === ayahNum;
         const isActivePlay = isPlaying && !isAudioPaused;
-        const words = showWordByWord
-          ? wordByAyah?.[selectedSurah?.number || 0]?.[ayahNum] || []
-          : [];
+        const words = ayahNum ? wordsByAyahForStudy?.[ayahNum] || [] : [];
         const isFocused = focusedAyahKey === key;
         const translationText = ayah.translations?.[primaryTranslation]?.text || "";
 
@@ -840,8 +1082,14 @@ export default function StudyModeView({
             fontScaleTranslation={fontScale?.translation || 1}
             showWordByWord={showWordByWord}
             words={words}
-            wordLoading={wordLoading}
+            wordLoading={effectiveWordLoading}
             wordAudioUrl={wordAudioUrl}
+            selectedWordPosition={
+              selectedWordDetails?.surah === selectedSurah?.number &&
+              selectedWordDetails?.ayah === ayahNum
+                ? selectedWordDetails.position
+                : null
+            }
             isBookmarked={Boolean(bookmarked)}
             hasNote={Boolean(noted)}
             resolveWordAudioUrl={resolveWordAudioUrl}
@@ -855,6 +1103,7 @@ export default function StudyModeView({
               setShowQuickPanel(true);
             }}
             onOpenNote={() => onOpenNote(selectedSurah?.number || 0, ayahNum)}
+            onWordSelect={handleWordSelect}
             onWordAudio={handleWordAudio}
           />
         );
@@ -866,6 +1115,7 @@ export default function StudyModeView({
       fontScale?.arabic,
       fontScale?.translation,
       handleWordAudio,
+      handleWordSelect,
       hasNote,
       isAudioPaused,
       isBookmarked,
@@ -884,10 +1134,35 @@ export default function StudyModeView({
       showWordByWord,
       verseKey,
       wordAudioUrl,
-      wordByAyah,
-      wordLoading
+      wordsByAyahForStudy,
+      effectiveWordLoading,
+      selectedWordDetails?.surah,
+      selectedWordDetails?.ayah,
+      selectedWordDetails?.position
     ]
   );
+
+  const selectedRoot = (selectedWordDetails?.root || "").trim();
+  const selectedRootArabic =
+    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || selectedRoot;
+  const rootMeaningSummary = useMemo(() => {
+    if (!selectedRoot) return "Root data is not available for this word yet.";
+    if (rootLexicon?.coreMeanings?.length) {
+      return rootLexicon.coreMeanings.slice(0, 4).join(" · ");
+    }
+    if (rootLexiconLoading) return "Loading root meaning...";
+    return "No core root meaning found for this root.";
+  }, [rootLexicon?.coreMeanings, rootLexiconLoading, selectedRoot]);
+  const laneMeaningSummary = useMemo(() => {
+    if (!selectedRoot) return "Add morphology data to unlock root insights.";
+    if (rootLexicon?.definitions?.length) return rootLexicon.definitions[0];
+    if (rootLexiconLoading) return "Loading Lane Lexicon meaning...";
+    if (rootLexicon?.laneAvailable === false) {
+      return "Lane Lexicon is not loaded. Add lane-lexicon.json to enable richer meanings.";
+    }
+    return "No Lane Lexicon definition found for this root.";
+  }, [rootLexicon?.definitions, rootLexicon?.laneAvailable, rootLexiconLoading, selectedRoot]);
+  const rootUnderstandingLabel = selectedRootArabic || selectedRoot || "Root unavailable";
 
   return (
     <div
@@ -1081,6 +1356,212 @@ export default function StudyModeView({
           onOpenNote={onOpenNote}
         />
       </QuickPanel>
+
+      <AnimatePresence>
+        {selectedWordDetails && (
+          <motion.div
+            className="study-lexicon-backdrop"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={closeWordDetails}
+          >
+            <motion.div
+              className="study-lexicon-modal"
+              initial={{ y: 18, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 10, opacity: 0 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              onClick={(event) => event.stopPropagation()}
+            >
+              <div className="study-lexicon-header">
+                <div>
+                  <p className="study-lexicon-eyebrow">Word</p>
+                  <h3>Word Details</h3>
+                </div>
+                <button className="study-lexicon-close" onClick={closeWordDetails} type="button">
+                  ✕
+                </button>
+              </div>
+
+              <div className="study-lexicon-body">
+                <div className="study-lexicon-top-row">
+                  {selectedRoot ? (
+                    <button
+                      type="button"
+                      className="study-lexicon-root-focus"
+                      onClick={() => openRootDetails(selectedRoot)}
+                    >
+                      <span className="study-lexicon-root-heading">Root (جذر)</span>
+                      <span className="study-lexicon-root-arabic" lang="ar" dir="rtl">
+                        {selectedRootArabic || selectedRoot}
+                      </span>
+                      {selectedRootArabic && selectedRootArabic !== selectedRoot ? (
+                        <span className="study-lexicon-root-bw">{selectedRoot}</span>
+                      ) : null}
+                    </button>
+                  ) : (
+                    <div className="study-lexicon-root-focus is-unavailable">
+                      <span className="study-lexicon-root-heading">Root (جذر)</span>
+                      <span className="study-lexicon-unavailable">Unavailable</span>
+                    </div>
+                  )}
+
+                  <p className="study-lexicon-word" lang="ar" dir="rtl">
+                    {selectedWordDetails.arabic}
+                  </p>
+                </div>
+
+                {selectedWordDetails.translation ? (
+                  <p className="study-lexicon-translation">{selectedWordDetails.translation}</p>
+                ) : null}
+
+                <div className="study-lexicon-summary-grid">
+                  <div className="study-lexicon-summary-item">
+                    <span className="study-lexicon-label">Root Meaning</span>
+                    <p className="study-lexicon-summary-text">{rootMeaningSummary}</p>
+                  </div>
+                  <div className="study-lexicon-summary-item">
+                    <span className="study-lexicon-label">Lane Lexicon Meaning</span>
+                    <p className="study-lexicon-summary-text">{laneMeaningSummary}</p>
+                  </div>
+                </div>
+
+                {rootLexiconError && selectedRoot ? (
+                  <p className="study-lexicon-unavailable">{rootLexiconError}</p>
+                ) : null}
+
+                <div className="study-lexicon-actions">
+                  {selectedRoot ? (
+                    <button
+                      type="button"
+                      className="study-root-link study-root-insight-btn"
+                      onClick={() => openRootDetails(selectedRoot)}
+                    >
+                      Broader root understanding ({rootUnderstandingLabel})
+                    </button>
+                  ) : (
+                    <span className="study-lexicon-unavailable">Root unavailable</span>
+                  )}
+
+                  {selectedWordDetails.audioUrl ? (
+                    <button
+                      type="button"
+                      className="study-word-audio-btn"
+                      onClick={() => handleWordAudio(selectedWordDetails.audioUrl)}
+                    >
+                      Play word audio
+                    </button>
+                  ) : null}
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      <AnimatePresence>
+        {selectedWordDetails && isRootModalOpen && (
+          <motion.div
+            className="study-lexicon-backdrop root-layer"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setIsRootModalOpen(false)}
+          >
+            <motion.div
+              className="study-lexicon-modal root-modal"
+              initial={{ y: 18, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 10, opacity: 0 }}
+              transition={{ duration: 0.2, ease: "easeOut" }}
+              onClick={(event) => event.stopPropagation()}
+            >
+              <div className="study-lexicon-header">
+                <div>
+                  <p className="study-lexicon-eyebrow">Root</p>
+                  <h3>{selectedWordDetails.rootArabic || selectedWordDetails.root}</h3>
+                </div>
+                <button
+                  className="study-lexicon-close"
+                  onClick={() => setIsRootModalOpen(false)}
+                  type="button"
+                >
+                  ✕
+                </button>
+              </div>
+
+              <div className="study-lexicon-body">
+                {rootLexiconLoading ? <p className="study-lexicon-unavailable">Loading lexicon...</p> : null}
+                {!rootLexiconLoading && rootLexiconError ? (
+                  <p className="study-lexicon-unavailable">{rootLexiconError}</p>
+                ) : null}
+                {!rootLexiconLoading && !rootLexiconError && (
+                  <>
+                    <div className="study-lexicon-meta-grid">
+                      <div className="study-lexicon-meta-item">
+                        <span className="study-lexicon-label">Root</span>
+                        <span className="study-lexicon-value">{rootLexicon?.root || selectedWordDetails.root}</span>
+                      </div>
+                      <div className="study-lexicon-meta-item">
+                        <span className="study-lexicon-label">Arabic</span>
+                        <span className="study-lexicon-value">
+                          {rootLexicon?.rootArabic || selectedWordDetails.rootArabic || "—"}
+                        </span>
+                      </div>
+                    </div>
+
+                    <div className="study-lexicon-section">
+                      <h4>Core Meanings</h4>
+                      {rootLexicon?.coreMeanings?.length ? (
+                        <div className="study-lexicon-chip-row">
+                          {rootLexicon.coreMeanings.map((meaning) => (
+                            <span key={meaning} className="study-lexicon-chip">
+                              {meaning}
+                            </span>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="study-lexicon-unavailable">No Lane meanings found for this root.</p>
+                      )}
+                    </div>
+
+                    <div className="study-lexicon-section">
+                      <h4>Dictionary Definitions</h4>
+                      {rootLexicon?.definitions?.length ? (
+                        <ul className="study-lexicon-list">
+                          {rootLexicon.definitions.map((definition, index) => (
+                            <li key={`${index}-${definition.slice(0, 16)}`}>{definition}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="study-lexicon-unavailable">
+                          Add a Lane lexicon JSON to see dictionary definitions here.
+                        </p>
+                      )}
+                    </div>
+
+                    <div className="study-lexicon-section">
+                      <h4>Qur&apos;anic References</h4>
+                      {rootLexicon?.references?.length ? (
+                        <div className="study-lexicon-ref-grid">
+                          {rootLexicon.references.map((ref) => (
+                            <span key={ref} className="study-lexicon-ref">
+                              {ref}
+                            </span>
+                          ))}
+                        </div>
+                      ) : (
+                        <p className="study-lexicon-unavailable">No references found.</p>
+                      )}
+                    </div>
+                  </>
+                )}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <StudyMemorizeModal
         isOpen={showMemorizeModal}

@@ -379,6 +379,84 @@
   color: var(--accent);
 }
 
+:root[data-theme="light"] .study-ayah-word-trigger:hover {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .study-ayah-word-trigger.active {
+  background: rgba(225, 212, 192, 0.88);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-lexicon-backdrop {
+  background: rgba(34, 40, 30, 0.24);
+}
+
+:root[data-theme="light"] .study-lexicon-modal {
+  background: rgba(240, 231, 219, 0.98);
+  border: none;
+  box-shadow: 0 20px 52px rgba(45, 52, 40, 0.15);
+}
+
+:root[data-theme="light"] .study-lexicon-header {
+  border-bottom: 1px solid rgba(66, 82, 54, 0.12);
+}
+
+:root[data-theme="light"] .study-lexicon-close {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-lexicon-word {
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-lexicon-root-focus {
+  background: rgba(66, 82, 54, 0.07);
+  border-color: rgba(66, 82, 54, 0.15);
+}
+
+:root[data-theme="light"] .study-lexicon-root-focus.is-unavailable {
+  background: rgba(66, 82, 54, 0.05);
+  border-color: rgba(66, 82, 54, 0.1);
+}
+
+:root[data-theme="light"] .study-lexicon-root-heading {
+  color: rgba(66, 82, 54, 0.75);
+}
+
+:root[data-theme="light"] .study-lexicon-root-bw {
+  color: rgba(66, 82, 54, 0.72);
+}
+
+:root[data-theme="light"] .study-lexicon-meta-item {
+  background: rgba(66, 82, 54, 0.05);
+}
+
+:root[data-theme="light"] .study-lexicon-summary-item {
+  background: rgba(66, 82, 54, 0.05);
+}
+
+:root[data-theme="light"] .study-root-link {
+  background: rgba(66, 82, 54, 0.12);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .study-root-insight-btn {
+  background: rgba(66, 82, 54, 0.14);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .study-word-audio-btn {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-lexicon-chip,
+:root[data-theme="light"] .study-lexicon-ref {
+  background: rgba(66, 82, 54, 0.08);
+}
+
 /* Form elements */
 :root[data-theme="light"] input[type="date"] {
   color-scheme: light;

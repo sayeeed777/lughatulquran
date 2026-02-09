@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { buckwalterToArabic } from "../../../lib/lexicon/buckwalter";
+import { getMorphologyIndex, getMorphologyWord } from "../../../lib/lexicon/morphology";
 
 export const revalidate = 86400;
 
@@ -48,6 +50,9 @@ type NormalizedWord = {
   translation: string;
   audioUrl: string;
   position?: number;
+  lemma?: string;
+  root?: string;
+  rootArabic?: string;
 };
 
 const normalizeWord = (word: QuranComWord): NormalizedWord | null => {
@@ -111,6 +116,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
   }
 
   try {
+    const morphologyIndex = await getMorphologyIndex();
     const wordsByAyah: Record<number, NormalizedWord[]> = {};
     let page = 1;
     let safety = 0;
@@ -149,14 +155,21 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
         const fixed = normalized.map((word) => {
           if (!word.position) return word;
           const expectedUrl = buildWordAudioUrl(surahNumber, verseNumber, word.position);
+          const morphology = getMorphologyWord(morphologyIndex, surahNumber, verseNumber, word.position);
+          const withMorphology = {
+            ...word,
+            lemma: morphology?.lemma,
+            root: morphology?.root,
+            rootArabic: morphology?.root ? buckwalterToArabic(morphology.root) : undefined
+          };
           if (!word.audioUrl) {
-            return { ...word, audioUrl: expectedUrl };
+            return { ...withMorphology, audioUrl: expectedUrl };
           }
           const audioIndex = parseAudioIndex(word.audioUrl);
           if (!audioIndex || audioIndex !== word.position) {
-            return { ...word, audioUrl: expectedUrl };
+            return { ...withMorphology, audioUrl: expectedUrl };
           }
-          return word;
+          return withMorphology;
         });
         if (normalized.length) {
           wordsByAyah[verseNumber] = fixed;

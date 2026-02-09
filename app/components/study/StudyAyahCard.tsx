@@ -8,6 +8,10 @@ type StudyWord = {
   arabic: string;
   translation?: string;
   audioUrl?: string;
+  position?: number;
+  lemma?: string;
+  root?: string;
+  rootArabic?: string;
 };
 
 type StudyAyahCardProps = {
@@ -27,6 +31,7 @@ type StudyAyahCardProps = {
   words: StudyWord[];
   wordLoading: boolean;
   wordAudioUrl: string | null;
+  selectedWordPosition?: number | null;
   isBookmarked: boolean;
   hasNote: boolean;
   resolveWordAudioUrl: (audioUrl?: string) => string;
@@ -36,6 +41,7 @@ type StudyAyahCardProps = {
   onToggleBookmark: () => void;
   onOpenTafsir: () => void;
   onOpenNote: () => void;
+  onWordSelect: (word: StudyWord, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
 };
 
@@ -56,6 +62,7 @@ function StudyAyahCardComponent({
   words,
   wordLoading,
   wordAudioUrl,
+  selectedWordPosition,
   isBookmarked,
   hasNote,
   resolveWordAudioUrl,
@@ -65,6 +72,7 @@ function StudyAyahCardComponent({
   onToggleBookmark,
   onOpenTafsir,
   onOpenNote,
+  onWordSelect,
   onWordAudio
 }: StudyAyahCardProps) {
   return (
@@ -242,14 +250,41 @@ function StudyAyahCardComponent({
             </button>
           </div>
         </div>
-        <p
-          className="study-ayah-arabic"
-          lang="ar"
-          dir="rtl"
-          style={{ fontSize: `calc(2rem * ${fontScaleArabic || 1})` }}
-        >
-          {arabicContent}
-        </p>
+        {words.length > 0 ? (
+          <div
+            className="study-ayah-arabic study-ayah-arabic-interactive"
+            lang="ar"
+            dir="rtl"
+            style={{ fontSize: `calc(2rem * ${fontScaleArabic || 1})` }}
+          >
+            {words.map((word, wordIndex) => {
+              const position = Number(word.position) || wordIndex + 1;
+              const isSelected = selectedWordPosition === position;
+              return (
+                <button
+                  key={`${cardId}-arabic-word-${position}`}
+                  type="button"
+                  className={`study-ayah-word-trigger${isSelected ? " active" : ""}`}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onWordSelect(word, ayahNumber, wordIndex);
+                  }}
+                >
+                  {word.arabic}
+                </button>
+              );
+            })}
+          </div>
+        ) : (
+          <p
+            className="study-ayah-arabic"
+            lang="ar"
+            dir="rtl"
+            style={{ fontSize: `calc(2rem * ${fontScaleArabic || 1})` }}
+          >
+            {arabicContent}
+          </p>
+        )}
         {!isMushafView && showTranslation && translationText && (
           <p
             className="study-ayah-translation"
