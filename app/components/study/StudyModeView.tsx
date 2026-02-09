@@ -10,281 +10,33 @@ import { fetchJSON } from "../../lib/apiClient";
 import { ProgressRing, QuickPanel } from "./StudyComponents";
 import StudyAyahCard from "./StudyAyahCard";
 import StudyMemorizeModal, { type MemorizeDraft, type MemorizeMode } from "./StudyMemorizeModal";
+import StudyLexiconModals from "./StudyLexiconModals";
+import {
+  TAJWEED_LEGEND,
+  TAFSIR_EDITIONS,
+  hasLexiconData,
+  renderTajweedMarkup
+} from "./StudyModeHelpers";
+import type {
+  ArabicFont,
+  MemorizeConfig,
+  Reciter,
+  RootLexiconPayload,
+  SelectedWordDetails,
+  StudyMarks,
+  Word,
+  WordByAyah,
+  WordBySurah,
+  WordByWordPayload
+} from "./StudyModeTypes";
 import StudyQuickPanelContent, { type QuickPanelTab } from "./StudyQuickPanelContent";
 import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
-
-type Reciter = { id: string; label: string; baseUrl: string };
-
-type ArabicFont = { id: string; label: string; css: string };
-
-type MemorizeConfig = {
-  active: boolean;
-  startAyah: number;
-  endAyah: number;
-  loops: number;
-  remaining: number;
-};
-
-type Word = {
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-  position?: number;
-  lemma?: string;
-  root?: string;
-  rootArabic?: string;
-};
-
-type WordByAyah = Record<number, Word[]>;
-
-type WordBySurah = Record<number, WordByAyah>;
-
-type SelectedWordDetails = {
-  surah: number;
-  ayah: number;
-  position: number;
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-  lemma?: string;
-  root?: string;
-  rootArabic?: string;
-};
-
-type RootLexiconPayload = {
-  root: string;
-  rootArabic?: string;
-  rootMeaning?: string | null;
-  rootMeaningSource?: string;
-  coreMeanings?: string[];
-  definitions?: string[];
-  lemmas?: string[];
-  references?: string[];
-  primaryRootMeaningsAvailable?: boolean;
-  primaryRootMeaningsError?: string | null;
-  laneAvailable?: boolean;
-};
-
-type WordByWordPayload = {
-  wordsByAyah?: WordByAyah;
-};
-
-type StudyMarks = Record<string, true>;
-
-const hasLexiconData = (wordsByAyah?: WordByAyah) => {
-  if (!wordsByAyah) return false;
-  for (const words of Object.values(wordsByAyah)) {
-    for (const word of words || []) {
-      if (word?.root || word?.lemma) {
-        return true;
-      }
-    }
-  }
-  return false;
-};
-
-type TajweedTagName = "tajweed" | "span";
-
-type TajweedStackNode = {
-  tag: TajweedTagName;
-  className: string | null;
-  children: ReactNode[];
-};
 
 type RailItem = {
   id: QuickPanelTab;
   label: string;
   icon: ReactNode;
 };
-
-const sanitizeClassName = (value: string) => value.replace(/[^a-zA-Z0-9 _-]/g, "").trim();
-
-const extractClassName = (attrs: string) => {
-  const match = attrs.match(/\bclass\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))/i);
-  const raw = (match?.[1] || match?.[2] || match?.[3] || "").trim();
-  return raw ? sanitizeClassName(raw) : "";
-};
-
-const renderTajweedMarkup = (markup: string): ReactNode[] => {
-  if (!markup) return [""];
-
-  // Quran.com returns a small custom markup subset (e.g. <tajweed class=madda_necessary>...</tajweed>).
-  // We render only a safe allowlist of tags/attributes to avoid XSS.
-  const root: ReactNode[] = [];
-  const stack: TajweedStackNode[] = [];
-  let keyCounter = 0;
-
-  const append = (node: ReactNode) => {
-    if (node === null || node === undefined || node === "") return;
-    if (stack.length) {
-      stack[stack.length - 1]?.children.push(node);
-    } else {
-      root.push(node);
-    }
-  };
-
-  const appendText = (text: string) => {
-    if (!text) return;
-    append(text);
-  };
-
-  let cursor = 0;
-  while (cursor < markup.length) {
-    const lt = markup.indexOf("<", cursor);
-    if (lt === -1) {
-      appendText(markup.slice(cursor));
-      break;
-    }
-    appendText(markup.slice(cursor, lt));
-
-    const gt = markup.indexOf(">", lt + 1);
-    if (gt === -1) {
-      appendText(markup.slice(lt));
-      break;
-    }
-
-    const rawTag = markup.slice(lt + 1, gt).trim();
-    cursor = gt + 1;
-
-    if (!rawTag) continue;
-
-    // Closing tag
-    if (rawTag.startsWith("/")) {
-      const tagName = rawTag.slice(1).split(/\s+/, 1)[0] as TajweedTagName | string;
-      const node = stack.pop();
-      if (!node || node.tag !== tagName) {
-        // Malformed markup; fall back to plain text.
-        return [markup.replace(/<[^>]*>/g, "")];
-      }
-      const key = `${node.tag}-${keyCounter++}`;
-      if (node.tag === "tajweed") {
-        const className = node.className ? `tajweed ${node.className}` : "tajweed";
-        append(
-          <span key={key} className={className}>
-            {node.children}
-          </span>
-        );
-      } else if (node.tag === "span") {
-        append(
-          <span key={key} className={node.className || undefined}>
-            {node.children}
-          </span>
-        );
-      }
-      continue;
-    }
-
-    // Opening tag
-    const tagName = rawTag.split(/\s+/, 1)[0] as TajweedTagName | string;
-    if (tagName !== "tajweed" && tagName !== "span") {
-      // Ignore unknown tags but keep their inner text (handled by the main loop).
-      continue;
-    }
-
-    const className = extractClassName(rawTag);
-    stack.push({
-      tag: tagName,
-      className: className || null,
-      children: []
-    });
-  }
-
-  if (stack.length) {
-    // Unbalanced tags; fall back to plain text.
-    return [markup.replace(/<[^>]*>/g, "")];
-  }
-
-  return root;
-};
-
-const TAJWEED_LEGEND: Array<{ swatchClass: string; label: string; description: string }> = [
-  {
-    swatchClass: "ham_wasl",
-    label: "Hamzat al-wasl",
-    description: "Connecting hamza; usually dropped when linking from the previous word."
-  },
-  {
-    swatchClass: "laam_shamsiyah",
-    label: "Laam shamsiyah (sun letters)",
-    description: "Lam is assimilated; the following letter is emphasized."
-  },
-  {
-    swatchClass: "laam_qamariyah",
-    label: "Laam qamariyah (moon letters)",
-    description: "Lam is pronounced clearly before the following letter."
-  },
-  {
-    swatchClass: "madda_normal",
-    label: "Madd (natural)",
-    description: "Elongate 2 counts (2 harakah)."
-  },
-  {
-    swatchClass: "madda_permissible",
-    label: "Madd (permissible)",
-    description: "Elongate 2–4 counts (varies by recitation)."
-  },
-  {
-    swatchClass: "madda_obligatory",
-    label: "Madd (obligatory)",
-    description: "Elongate 4–5 counts."
-  },
-  {
-    swatchClass: "madda_necessary",
-    label: "Madd (necessary)",
-    description: "Elongate 6 counts."
-  },
-  {
-    swatchClass: "qalqalah",
-    label: "Qalqalah (echo)",
-    description: "A slight echo/bounce sound on certain letters when they carry sukoon."
-  },
-  {
-    swatchClass: "ikhafa",
-    label: "Ikhfaa / Ikhafa",
-    description: "Concealment with nasalization (ghunnah) for ~2 counts."
-  },
-  {
-    swatchClass: "ikhafa_shafawi",
-    label: "Ikhfaa shafawi",
-    description: "Labial concealment (mim before ba) with ghunnah for ~2 counts."
-  },
-  {
-    swatchClass: "iqlab",
-    label: "Iqlab",
-    description: "Change nun sakinah/tanween before ba into a hidden mim with ghunnah."
-  },
-  {
-    swatchClass: "idgham_with_ghunnah",
-    label: "Idgham (with ghunnah)",
-    description: "Merge with nasalization (ghunnah) for ~2 counts."
-  },
-  {
-    swatchClass: "idgham_without_ghunnah",
-    label: "Idgham (without ghunnah)",
-    description: "Merge without nasalization."
-  },
-  {
-    swatchClass: "idgham_shafawi",
-    label: "Idgham shafawi",
-    description: "Mim merging (mim before mim) with ghunnah."
-  },
-  {
-    swatchClass: "ghunnah",
-    label: "Ghunnah",
-    description: "Nasalization (usually 2 counts) on nun/mim with shaddah."
-  },
-  {
-    swatchClass: "slnt",
-    label: "Silent letter",
-    description: "A letter present in the script that is not pronounced."
-  }
-];
-
-const TAFSIR_EDITIONS = [
-  { id: "en-tafsir-maarif-ul-quran", label: "Maarif-ul-Quran" },
-  { id: "en-kashf-al-asrar-tafsir", label: "Kashf Al-Asrar" },
-  { id: "en-al-jalalayn", label: "Al-Jalalayn" }
-] as const;
 
 type StudyModeViewProps = {
   selectedSurah: Surah | null;
@@ -349,7 +101,6 @@ export default function StudyModeView({
   notes,
   sortedBookmarks,
   sortedNotes,
-  readingPlan,
   planSummary,
   focusedAyahKey,
   setFocusedAyahKey,
@@ -365,13 +116,11 @@ export default function StudyModeView({
   audioSrc,
   reciterLabel,
   onExit,
-  onPlayAyah,
   onTogglePlay,
   onStopAutoPlay,
   onPlaySurah,
   onAudioEnded,
   memorizeConfig,
-  setMemorizeConfig,
   onStartMemorize,
   onStopMemorize,
   onToggleBookmark,
@@ -438,7 +187,7 @@ export default function StudyModeView({
   const lastPointerActivityRef = useRef(0);
   const rootLookupRequestRef = useRef(0);
 
-  const ayahs = filteredAyahs || surahData?.ayahs || [];
+  const ayahs = useMemo(() => filteredAyahs || surahData?.ayahs || [], [filteredAyahs, surahData?.ayahs]);
   const selectedSurahNumber = selectedSurah?.number || 0;
   const wordsFromHook = selectedSurahNumber ? wordByAyah?.[selectedSurahNumber] : undefined;
   const wordsFromStudyCache = selectedSurahNumber ? studyWordCache?.[selectedSurahNumber] : undefined;
@@ -1396,214 +1145,21 @@ export default function StudyModeView({
         />
       </QuickPanel>
 
-      <AnimatePresence>
-        {selectedWordDetails && (
-          <motion.div
-            className="study-lexicon-backdrop"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={closeWordDetails}
-          >
-            <motion.div
-              className="study-lexicon-modal"
-              initial={{ y: 18, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 10, opacity: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-              onClick={(event) => event.stopPropagation()}
-            >
-              <div className="study-lexicon-header">
-                <div>
-                  <p className="study-lexicon-eyebrow">Word</p>
-                  <h3>Word Details</h3>
-                </div>
-                <button className="study-lexicon-close" onClick={closeWordDetails} type="button">
-                  ✕
-                </button>
-              </div>
-
-              <div className="study-lexicon-body">
-                <div className="study-lexicon-top-row">
-                  {selectedRoot ? (
-                    <button
-                      type="button"
-                      className="study-lexicon-root-focus"
-                      onClick={() => openRootDetails(selectedRoot)}
-                    >
-                      <span className="study-lexicon-root-heading">Root (جذر)</span>
-                      <span className="study-lexicon-root-arabic" lang="ar" dir="rtl">
-                        {selectedRootArabic || "—"}
-                      </span>
-                    </button>
-                  ) : (
-                    <div className="study-lexicon-root-focus is-unavailable">
-                      <span className="study-lexicon-root-heading">Root (جذر)</span>
-                      <span className="study-lexicon-unavailable">Unavailable</span>
-                    </div>
-                  )}
-
-                  <p className="study-lexicon-word" lang="ar" dir="rtl">
-                    {selectedWordDetails.arabic}
-                  </p>
-                </div>
-
-                {selectedWordDetails.translation ? (
-                  <p className="study-lexicon-translation">{selectedWordDetails.translation}</p>
-                ) : null}
-
-                <div className="study-lexicon-summary-grid">
-                  <div className="study-lexicon-summary-item">
-                    <span className="study-lexicon-label">Root Meaning</span>
-                    <p className="study-lexicon-summary-text">{rootMeaningSummary}</p>
-                  </div>
-                  <div className="study-lexicon-summary-item">
-                    <span className="study-lexicon-label">Lane Lexicon</span>
-                    {selectedRoot ? (
-                      <button
-                        type="button"
-                        className="study-lane-open-btn"
-                        onClick={() => openRootDetails(selectedRoot)}
-                      >
-                        {laneActionLabel}
-                      </button>
-                    ) : (
-                      <p className="study-lexicon-summary-text">No root available for this word.</p>
-                    )}
-                  </div>
-                </div>
-
-                {rootLexiconError && selectedRoot ? (
-                  <p className="study-lexicon-unavailable">{rootLexiconError}</p>
-                ) : null}
-
-                <div className="study-lexicon-actions">
-                  {selectedRoot ? (
-                    <button
-                      type="button"
-                      className="study-root-link study-root-insight-btn"
-                      onClick={() => openRootDetails(selectedRoot)}
-                    >
-                      Open root details
-                    </button>
-                  ) : (
-                    <span className="study-lexicon-unavailable">Root unavailable</span>
-                  )}
-
-                  {selectedWordDetails.audioUrl ? (
-                    <button
-                      type="button"
-                      className="study-word-audio-btn"
-                      onClick={() => handleWordAudio(selectedWordDetails.audioUrl)}
-                    >
-                      Play word audio
-                    </button>
-                  ) : null}
-                </div>
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <AnimatePresence>
-        {selectedWordDetails && isRootModalOpen && (
-          <motion.div
-            className="study-lexicon-backdrop root-layer"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={() => setIsRootModalOpen(false)}
-          >
-            <motion.div
-              className="study-lexicon-modal root-modal"
-              initial={{ y: 18, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 10, opacity: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-              onClick={(event) => event.stopPropagation()}
-            >
-              <div className="study-lexicon-header">
-                <div>
-                  <p className="study-lexicon-eyebrow">Lane Lexicon</p>
-                  <h3>{selectedWordDetails.rootArabic || rootLexicon?.rootArabic || "Root"}</h3>
-                </div>
-                <button
-                  className="study-lexicon-close"
-                  onClick={() => setIsRootModalOpen(false)}
-                  type="button"
-                >
-                  ✕
-                </button>
-              </div>
-
-              <div className="study-lexicon-body">
-                {rootLexiconLoading ? <p className="study-lexicon-unavailable">Loading lexicon...</p> : null}
-                {!rootLexiconLoading && rootLexiconError ? (
-                  <p className="study-lexicon-unavailable">{rootLexiconError}</p>
-                ) : null}
-                {!rootLexiconLoading && !rootLexiconError && (
-                  <>
-                    <div className="study-lexicon-meta-grid">
-                      <div className="study-lexicon-meta-item">
-                        <span className="study-lexicon-label">Arabic</span>
-                        <span className="study-lexicon-value">
-                          {rootLexicon?.rootArabic || selectedWordDetails.rootArabic || "—"}
-                        </span>
-                      </div>
-                    </div>
-
-                    <div className="study-lexicon-section">
-                      <h4>Core Meanings</h4>
-                      {rootLexicon?.coreMeanings?.length ? (
-                        <div className="study-lexicon-chip-row">
-                          {rootLexicon.coreMeanings.map((meaning) => (
-                            <span key={meaning} className="study-lexicon-chip">
-                              {meaning}
-                            </span>
-                          ))}
-                        </div>
-                      ) : (
-                        <p className="study-lexicon-unavailable">No Lane meanings found for this root.</p>
-                      )}
-                    </div>
-
-                    <div className="study-lexicon-section">
-                      <h4>Dictionary Definitions</h4>
-                      {rootLexicon?.definitions?.length ? (
-                        <ul className="study-lexicon-list">
-                          {rootLexicon.definitions.map((definition, index) => (
-                            <li key={`${index}-${definition.slice(0, 16)}`}>{definition}</li>
-                          ))}
-                        </ul>
-                      ) : (
-                        <p className="study-lexicon-unavailable">
-                          Add a Lane lexicon JSON to see dictionary definitions here.
-                        </p>
-                      )}
-                    </div>
-
-                    <div className="study-lexicon-section">
-                      <h4>Qur&apos;anic References</h4>
-                      {rootLexicon?.references?.length ? (
-                        <div className="study-lexicon-ref-grid">
-                          {rootLexicon.references.map((ref) => (
-                            <span key={ref} className="study-lexicon-ref">
-                              {ref}
-                            </span>
-                          ))}
-                        </div>
-                      ) : (
-                        <p className="study-lexicon-unavailable">No references found.</p>
-                      )}
-                    </div>
-                  </>
-                )}
-              </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <StudyLexiconModals
+        selectedWordDetails={selectedWordDetails}
+        isRootModalOpen={isRootModalOpen}
+        selectedRoot={selectedRoot}
+        selectedRootArabic={selectedRootArabic}
+        rootMeaningSummary={rootMeaningSummary}
+        laneActionLabel={laneActionLabel}
+        rootLexiconError={rootLexiconError}
+        rootLexiconLoading={rootLexiconLoading}
+        rootLexicon={rootLexicon}
+        onCloseWordDetails={closeWordDetails}
+        onCloseRootModal={() => setIsRootModalOpen(false)}
+        onOpenRootDetails={openRootDetails}
+        onPlayWordAudio={handleWordAudio}
+      />
 
       <StudyMemorizeModal
         isOpen={showMemorizeModal}
