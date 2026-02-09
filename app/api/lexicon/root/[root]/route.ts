@@ -43,7 +43,7 @@ export async function GET(_request: Request, { params }: RouteContext) {
     root,
     rootArabic: laneEntry?.rootArabic || buckwalterToArabic(root),
     rootMeaning,
-    rootMeaningSource: "quran-journey",
+    rootMeaningSource: "primary-root-meanings",
     coreMeanings,
     definitions,
     lemmas,

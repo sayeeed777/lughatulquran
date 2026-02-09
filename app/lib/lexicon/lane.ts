@@ -1,5 +1,6 @@
 import { existsSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { buckwalterToArabic } from "./buckwalter";
 
 export type LaneRootEntry = {
   root?: string;
@@ -8,7 +9,7 @@ export type LaneRootEntry = {
   definitions?: string[];
 };
 
-type LaneLexiconMap = Record<string, LaneRootEntry>;
+type LaneLexiconMap = Map<string, LaneRootEntry>;
 
 let cachedLexicon: LaneLexiconMap | null = null;
 let cachedLaneError: string | null = null;
@@ -20,6 +21,17 @@ const laneCandidates = () =>
     join(process.cwd(), "app/data/lane_lexicon.json"),
     join(process.cwd(), "public/data/lane-lexicon.json")
   ].filter((value): value is string => Boolean(value));
+
+const normalizeRootKey = (value: string) =>
+  value
+    .normalize("NFC")
+    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
+    .replace(/\s+/g, "")
+    .replace(/[أإآٱ]/g, "ا")
+    .replace(/[ؤئ]/g, "ء")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .trim();
 
 const normalizeEntry = (value: unknown): LaneRootEntry | null => {
   if (!value || typeof value !== "object") return null;
@@ -51,11 +63,22 @@ const loadLaneLexicon = () => {
       if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
         continue;
       }
-      const map: LaneLexiconMap = {};
+      const map: LaneLexiconMap = new Map();
       for (const [root, rawEntry] of Object.entries(payload as Record<string, unknown>)) {
         const normalized = normalizeEntry(rawEntry);
         if (!normalized) continue;
-        map[root] = normalized;
+        const keys = [
+          root,
+          buckwalterToArabic(root),
+          normalized.root || "",
+          buckwalterToArabic(normalized.root || ""),
+          normalized.rootArabic || ""
+        ];
+        for (const key of keys) {
+          const normalizedKey = normalizeRootKey(key);
+          if (!normalizedKey || map.has(normalizedKey)) continue;
+          map.set(normalizedKey, normalized);
+        }
       }
       cachedLexicon = map;
       return map;
@@ -71,10 +94,17 @@ const loadLaneLexicon = () => {
 export const getLaneEntry = (root: string) => {
   const map = loadLaneLexicon();
   if (!map || !root) return null;
-  return map[root] || null;
+  const normalizedInput = normalizeRootKey(root);
+  if (normalizedInput && map.has(normalizedInput)) {
+    return map.get(normalizedInput) || null;
+  }
+  const convertedInput = normalizeRootKey(buckwalterToArabic(root));
+  if (convertedInput && map.has(convertedInput)) {
+    return map.get(convertedInput) || null;
+  }
+  return null;
 };
 
 export const hasLaneLexicon = () => Boolean(loadLaneLexicon());
 
 export const getLaneLoadError = () => cachedLaneError;
-
