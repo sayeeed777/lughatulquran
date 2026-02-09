@@ -12,13 +12,6 @@ type ArabicFont = { id: string; label: string; css?: string };
 
 type FontScale = { arabic: number; translation: number };
 
-type SegmentedControlProps = {
-  options: Option[];
-  value: string;
-  onChange: (id: string) => void;
-  size?: string;
-};
-
 type TranslationChipsProps = {
   options: Option[];
   selectedIds: string[];
@@ -71,45 +64,6 @@ const SETTINGS_TABS = [
   { id: "audio", label: "Audio", icon: "♫" }
 ] as const;
 
-// Apple-style Segmented Control (for single select)
-const SegmentedControl = memo(function SegmentedControl({
-  options,
-  value,
-  onChange,
-  size = "normal"
-}: SegmentedControlProps) {
-  const selectedIndex = options.findIndex((opt) => opt.id === value);
-
-  return (
-    <div className={`segmented-control ${size}`}>
-      <motion.div
-        className="segmented-indicator"
-        layoutId="segmented-indicator"
-        initial={false}
-        animate={{
-          x: `${selectedIndex * 100}%`
-        }}
-        transition={{
-          type: "spring",
-          stiffness: 500,
-          damping: 35
-        }}
-        style={{ width: `${100 / options.length}%` }}
-      />
-      {options.map((option) => (
-        <button
-          key={option.id}
-          className={`segmented-btn ${value === option.id ? "active" : ""}`}
-          onClick={() => onChange(option.id)}
-          aria-pressed={value === option.id}
-        >
-          {option.short || option.label}
-        </button>
-      ))}
-    </div>
-  );
-});
-
 // Multi-Select Translation Chips
 const TranslationChips = memo(function TranslationChips({
   options,
@@ -120,7 +74,6 @@ const TranslationChips = memo(function TranslationChips({
 }: TranslationChipsProps) {
   const toggleTranslation = (id: string) => {
     const isSelected = selectedIds.includes(id);
-    const isDefault = id === defaultId;
 
     if (isSelected) {
       // Don't allow deselecting if it's the only one selected
