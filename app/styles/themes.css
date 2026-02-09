@@ -425,16 +425,17 @@
   color: rgba(66, 82, 54, 0.75);
 }
 
-:root[data-theme="light"] .study-lexicon-root-bw {
-  color: rgba(66, 82, 54, 0.72);
-}
-
 :root[data-theme="light"] .study-lexicon-meta-item {
   background: rgba(66, 82, 54, 0.05);
 }
 
 :root[data-theme="light"] .study-lexicon-summary-item {
   background: rgba(66, 82, 54, 0.05);
+}
+
+:root[data-theme="light"] .study-lane-open-btn {
+  background: rgba(66, 82, 54, 0.12);
+  color: var(--accent);
 }
 
 :root[data-theme="light"] .study-root-link {

@@ -7,6 +7,11 @@ import {
   getRootLemmas,
   getRootReferences
 } from "../../../../lib/lexicon/morphology";
+import {
+  getPrimaryRootMeaning,
+  getPrimaryRootMeaningsLoadError,
+  hasPrimaryRootMeanings
+} from "../../../../lib/lexicon/rootMeanings";
 
 export const revalidate = 86400;
 
@@ -29,6 +34,7 @@ export async function GET(_request: Request, { params }: RouteContext) {
   const laneEntry = getLaneEntry(root);
   const references = getRootReferences(index, root, 120);
   const lemmas = getRootLemmas(index, root, 20);
+  const rootMeaning = getPrimaryRootMeaning(root);
 
   const coreMeanings = laneEntry?.coreMeanings || [];
   const definitions = laneEntry?.definitions || [];
@@ -36,13 +42,16 @@ export async function GET(_request: Request, { params }: RouteContext) {
   return NextResponse.json({
     root,
     rootArabic: laneEntry?.rootArabic || buckwalterToArabic(root),
+    rootMeaning,
+    rootMeaningSource: "quran-journey",
     coreMeanings,
     definitions,
     lemmas,
     references,
+    primaryRootMeaningsAvailable: hasPrimaryRootMeanings(),
+    primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
     laneAvailable: hasLaneLexicon(),
     morphologyAvailable: Boolean(index),
     morphologyError: index ? null : getMorphologyLoadError()
   });
 }
-

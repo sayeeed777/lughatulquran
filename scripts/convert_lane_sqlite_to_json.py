@@ -14,6 +14,7 @@ from typing import Dict, Iterable, List, Optional, Set, Tuple
 
 
 ROOT_COL_CANDIDATES = (
+    "broot",
     "root",
     "root_key",
     "key",
@@ -42,6 +43,8 @@ ARABIC_COL_CANDIDATES = (
     "arabic_root",
     "arabic",
     "root_ar",
+    # Common in Lane SQLite: root is Arabic and broot is Buckwalter.
+    "root",
 )
 
 
@@ -90,7 +93,7 @@ def _read_zip_to_temp(zip_path: Path) -> Path:
             target = sqlite_candidates[0]
         else:
             # Fall back to the first file. We'll error later if it isn't a SQLite DB.
-            target = names[0] if names else ""
+            target = next((n for n in names if not n.endswith("/")), "") if names else ""
         if not target:
             raise RuntimeError(f"No files found inside zip: {zip_path}")
         data = zf.read(target)
@@ -135,6 +138,9 @@ def _pick_best_table(conn: sqlite3.Connection) -> Tuple[str, str, str, Optional[
         root_col = next((col_lut[c] for c in ROOT_COL_CANDIDATES if c in col_lut), "")
         text_col = next((col_lut[c] for c in TEXT_COL_CANDIDATES if c in col_lut), "")
         arabic_col = next((col_lut[c] for c in ARABIC_COL_CANDIDATES if c in col_lut), None)
+
+        if root_col.lower() == "broot" and not arabic_col and "root" in col_lut:
+            arabic_col = col_lut["root"]
 
         score = 0
         if root_col:
@@ -181,7 +187,9 @@ def _parse_quran_roots(morphology_path: Path) -> Set[str]:
             with zipfile.ZipFile(morphology_path, "r") as zf:
                 # Quranic corpus zip generally contains a single text file.
                 names = zf.namelist()
-                target = names[0] if names else ""
+                target = next((n for n in names if n.lower().endswith(".txt")), "")
+                if not target:
+                    target = next((n for n in names if not n.endswith("/")), "") if names else ""
                 if not target:
                     return []
                 with zf.open(target, "r") as f:
@@ -202,7 +210,7 @@ def _parse_quran_roots(morphology_path: Path) -> Set[str]:
         features = match.group(7) or ""
         if "STEM|" not in features:
             continue
-        root_match = re.search(r"(?:^|\\|)ROOT:([^|\\t]+)", features)
+        root_match = re.search(r"(?:^|\|)ROOT:([^|\t]+)", features)
         if not root_match:
             continue
         root = root_match.group(1).strip()
@@ -309,6 +317,11 @@ def main() -> int:
         if arabic_col:
             select_cols.append(arabic_col)
 
+        cols = _table_columns(conn, table)
+        col_lut = {c.lower(): c for c in cols}
+        page_col = col_lut.get("page")
+        nodenum_col = col_lut.get("nodenum")
+
         print(
             f"Using table={table} root_col={root_col} text_col={text_col}"
             + (f" arabic_col={arabic_col}" if arabic_col else ""),
@@ -316,6 +329,13 @@ def main() -> int:
         )
 
         query = f"SELECT {', '.join(select_cols)} FROM {table}"
+        order_cols: List[str] = []
+        if page_col:
+            order_cols.append(page_col)
+        if nodenum_col:
+            order_cols.append(nodenum_col)
+        if order_cols:
+            query += f" ORDER BY {root_col} ASC, {', '.join(order_cols)} ASC"
         if args.limit and args.limit > 0:
             query += f" LIMIT {int(args.limit)}"
 
@@ -329,6 +349,9 @@ def main() -> int:
             if not root:
                 continue
             if quran_roots is not None and root not in quran_roots:
+                continue
+            if root in out_map:
+                # Keep only the earliest entry for this root (ordered by page/nodenum when available).
                 continue
 
             raw_entry = row[text_col]
@@ -370,4 +393,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

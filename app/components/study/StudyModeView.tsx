@@ -54,10 +54,14 @@ type SelectedWordDetails = {
 type RootLexiconPayload = {
   root: string;
   rootArabic?: string;
+  rootMeaning?: string | null;
+  rootMeaningSource?: string;
   coreMeanings?: string[];
   definitions?: string[];
   lemmas?: string[];
   references?: string[];
+  primaryRootMeaningsAvailable?: boolean;
+  primaryRootMeaningsError?: string | null;
   laneAvailable?: boolean;
 };
 
@@ -1144,26 +1148,38 @@ export default function StudyModeView({
 
   const selectedRoot = (selectedWordDetails?.root || "").trim();
   const selectedRootArabic =
-    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || selectedRoot;
+    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || "";
+  const distillRootMeaning = useCallback((value?: string) => {
+    const raw = (value || "").replace(/\s+/g, " ").trim();
+    if (!raw) return "";
+    const firstSentence = raw.split(/[.;:]/, 1)[0] || raw;
+    const condensed = firstSentence.replace(/\s+/g, " ").trim();
+    if (condensed.length <= 160) return condensed;
+    return `${condensed.slice(0, 157).trim()}...`;
+  }, []);
   const rootMeaningSummary = useMemo(() => {
     if (!selectedRoot) return "Root data is not available for this word yet.";
-    if (rootLexicon?.coreMeanings?.length) {
-      return rootLexicon.coreMeanings.slice(0, 4).join(" · ");
+    if (rootLexicon?.rootMeaning) {
+      return distillRootMeaning(rootLexicon.rootMeaning);
     }
     if (rootLexiconLoading) return "Loading root meaning...";
-    return "No core root meaning found for this root.";
-  }, [rootLexicon?.coreMeanings, rootLexiconLoading, selectedRoot]);
-  const laneMeaningSummary = useMemo(() => {
-    if (!selectedRoot) return "Add morphology data to unlock root insights.";
-    if (rootLexicon?.definitions?.length) return rootLexicon.definitions[0];
-    if (rootLexiconLoading) return "Loading Lane Lexicon meaning...";
-    if (rootLexicon?.laneAvailable === false) {
-      return "Lane Lexicon is not loaded. Add lane-lexicon.json to enable richer meanings.";
+    if (rootLexicon?.primaryRootMeaningsAvailable === false) {
+      return "Primary root-meaning dataset is not available.";
     }
-    return "No Lane Lexicon definition found for this root.";
-  }, [rootLexicon?.definitions, rootLexicon?.laneAvailable, rootLexiconLoading, selectedRoot]);
-  const rootUnderstandingLabel = selectedRootArabic || selectedRoot || "Root unavailable";
-
+    return "No root meaning found in the primary dataset.";
+  }, [
+    distillRootMeaning,
+    rootLexicon?.rootMeaning,
+    rootLexicon?.primaryRootMeaningsAvailable,
+    rootLexiconLoading,
+    selectedRoot
+  ]);
+  const laneActionLabel = useMemo(() => {
+    if (!selectedRoot) return "Lane Lexicon unavailable";
+    if (rootLexiconLoading) return "Loading Lane Lexicon...";
+    if (rootLexiconError) return "Retry Lane Lexicon";
+    return "Open Lane Lexicon";
+  }, [rootLexiconError, rootLexiconLoading, selectedRoot]);
   return (
     <div
       className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${
@@ -1394,11 +1410,8 @@ export default function StudyModeView({
                     >
                       <span className="study-lexicon-root-heading">Root (جذر)</span>
                       <span className="study-lexicon-root-arabic" lang="ar" dir="rtl">
-                        {selectedRootArabic || selectedRoot}
+                        {selectedRootArabic || "—"}
                       </span>
-                      {selectedRootArabic && selectedRootArabic !== selectedRoot ? (
-                        <span className="study-lexicon-root-bw">{selectedRoot}</span>
-                      ) : null}
                     </button>
                   ) : (
                     <div className="study-lexicon-root-focus is-unavailable">
@@ -1422,8 +1435,18 @@ export default function StudyModeView({
                     <p className="study-lexicon-summary-text">{rootMeaningSummary}</p>
                   </div>
                   <div className="study-lexicon-summary-item">
-                    <span className="study-lexicon-label">Lane Lexicon Meaning</span>
-                    <p className="study-lexicon-summary-text">{laneMeaningSummary}</p>
+                    <span className="study-lexicon-label">Lane Lexicon</span>
+                    {selectedRoot ? (
+                      <button
+                        type="button"
+                        className="study-lane-open-btn"
+                        onClick={() => openRootDetails(selectedRoot)}
+                      >
+                        {laneActionLabel}
+                      </button>
+                    ) : (
+                      <p className="study-lexicon-summary-text">No root available for this word.</p>
+                    )}
                   </div>
                 </div>
 
@@ -1438,7 +1461,7 @@ export default function StudyModeView({
                       className="study-root-link study-root-insight-btn"
                       onClick={() => openRootDetails(selectedRoot)}
                     >
-                      Broader root understanding ({rootUnderstandingLabel})
+                      Open root details
                     </button>
                   ) : (
                     <span className="study-lexicon-unavailable">Root unavailable</span>
@@ -1479,8 +1502,8 @@ export default function StudyModeView({
             >
               <div className="study-lexicon-header">
                 <div>
-                  <p className="study-lexicon-eyebrow">Root</p>
-                  <h3>{selectedWordDetails.rootArabic || selectedWordDetails.root}</h3>
+                  <p className="study-lexicon-eyebrow">Lane Lexicon</p>
+                  <h3>{selectedWordDetails.rootArabic || rootLexicon?.rootArabic || "Root"}</h3>
                 </div>
                 <button
                   className="study-lexicon-close"
@@ -1499,10 +1522,6 @@ export default function StudyModeView({
                 {!rootLexiconLoading && !rootLexiconError && (
                   <>
                     <div className="study-lexicon-meta-grid">
-                      <div className="study-lexicon-meta-item">
-                        <span className="study-lexicon-label">Root</span>
-                        <span className="study-lexicon-value">{rootLexicon?.root || selectedWordDetails.root}</span>
-                      </div>
                       <div className="study-lexicon-meta-item">
                         <span className="study-lexicon-label">Arabic</span>
                         <span className="study-lexicon-value">
