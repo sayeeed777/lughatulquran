@@ -157,7 +157,7 @@ export default function useWordLexicon({
     setRootLexiconError(null);
     try {
       const payload = await fetchJSON<RootLexiconPayload>(
-        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}`,
+        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}?v=2`,
         { ttl: 24 * 60 * 60 * 1000, retries: 1, retryDelay: 250, persist: true }
       );
       if (rootLookupRequestRef.current !== requestId) return null;
