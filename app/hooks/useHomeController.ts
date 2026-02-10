@@ -214,20 +214,22 @@ export function useHomeController() {
   // Actions
   const handleSelectSurah = (surah: Surah) => {
     stopMemorize();
+    const firstAyahKey = verseKey(surah.number, 1);
     setSelectedSurah(surah);
     setSelectedAyah(null);
-    setFocusedAyahKey(null);
+    setPendingScroll(1);
+    setFocusedAyahKey(firstAyahKey);
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
 
-    if (typeof window !== "undefined" && window.innerWidth <= 1100) {
-      setTimeout(() => {
+    if (typeof window !== "undefined") {
+      window.requestAnimationFrame(() => {
         const readerPanel = document.querySelector(".reader-panel");
         if (readerPanel) {
           readerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
         }
-      }, 100);
+      });
     }
   };
 

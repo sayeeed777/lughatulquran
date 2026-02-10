@@ -6,7 +6,6 @@ import type {
   PointerEvent as ReactPointerEvent,
   ReactNode
 } from "react";
-import { motion } from "framer-motion";
 
 type StudyWord = {
   arabic: string;
@@ -20,7 +19,6 @@ type StudyWord = {
 
 type StudyAyahCardProps = {
   ayahNumber: number;
-  animationDelay: number;
   cardId: string;
   isActivePlay: boolean;
   isFocused: boolean;
@@ -51,7 +49,6 @@ type StudyAyahCardProps = {
 
 function StudyAyahCardComponent({
   ayahNumber,
-  animationDelay,
   cardId,
   isActivePlay,
   isFocused,
@@ -137,12 +134,9 @@ function StudyAyahCardComponent({
   }, []);
 
   return (
-    <motion.article
+    <article
       id={`ayah-${ayahNumber}`}
       className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isMarked ? " marked" : ""}${isDimmed ? " dimmed" : ""}`}
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: animationDelay }}
       onClick={handleCardClick}
       onFocus={onFocusAyah}
       onPointerDown={handlePointerDown}
@@ -379,7 +373,7 @@ function StudyAyahCardComponent({
           </div>
         )}
       </div>
-    </motion.article>
+    </article>
   );
 }
 

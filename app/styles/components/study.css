@@ -148,6 +148,8 @@
   inset: 0;
   overflow-y: auto;
   overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
   padding: 72px 24px 160px;
   scroll-behavior: smooth;
 }

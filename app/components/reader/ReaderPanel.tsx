@@ -418,7 +418,7 @@ export default function ReaderPanel({
             <ProgressBar current={currentAyahNumber} total={selectedSurah.numberOfAyahs || 0} />
 
             <ol className="ayah-list">
-              {filteredAyahs.slice(0, visibleCount).map((ayah, index) => {
+              {filteredAyahs.slice(0, visibleCount).map((ayah) => {
                 const key = verseKey(selectedSurah.number, ayah.number);
                 const isSaved = bookmarks.includes(key);
                 const hasNote = Boolean(notes[key]);
@@ -447,7 +447,6 @@ export default function ReaderPanel({
                     onCompare={onCompare}
                     onCopyLink={onCopyLink}
                     formatArabic={formatArabic}
-                    index={index}
                   />
                 );
               })}

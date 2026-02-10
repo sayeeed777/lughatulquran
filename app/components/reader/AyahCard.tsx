@@ -1,7 +1,6 @@
 "use client";
 
 import { memo } from "react";
-import { motion } from "framer-motion";
 import type { Ayah, Word, NowPlaying } from "../../lib/types";
 
 type AyahCardProps = {
@@ -25,7 +24,6 @@ type AyahCardProps = {
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
   formatArabic: (text: string) => string;
-  index: number;
 };
 
 const AyahCard = memo(function AyahCard({
@@ -46,8 +44,7 @@ const AyahCard = memo(function AyahCard({
   onToggleBookmark,
   onOpenNote,
   onCompare,
-  formatArabic,
-  index
+  formatArabic
 }: AyahCardProps) {
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations) ? selectedTranslations : [selectedTranslations];
@@ -65,7 +62,7 @@ const AyahCard = memo(function AyahCard({
   };
 
   return (
-    <motion.li
+    <li
       id={`ayah-${ayah.number}`}
       className={`ayah-card${isFocused ? " focused" : ""}`}
       tabIndex={0}
@@ -74,10 +71,6 @@ const AyahCard = memo(function AyahCard({
         onPlay(surahNumber, ayah.number);
       }}
       onFocus={() => onFocus(key)}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-50px" }}
-      transition={{ duration: 0.5, ease: "easeOut", delay: Math.min(index * 0.015, 0.24) }}
     >
       <div className="ayah-header">
         <span className="ayah-number">Ayah {ayah.number}</span>
@@ -191,7 +184,7 @@ const AyahCard = memo(function AyahCard({
         })}
       </div>
       {showWordByWord && words.length > 0 && (
-        <motion.div className="word-row" initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }}>
+        <div className="word-row">
           {words.map((word, wordIndex) => (
             <div className="word-chip" key={`${key}-${wordIndex}`}>
               <span className="word-ar" lang="ar" dir="rtl">
@@ -200,9 +193,9 @@ const AyahCard = memo(function AyahCard({
               {word.translation && <span className="word-en">{word.translation}</span>}
             </div>
           ))}
-        </motion.div>
+        </div>
       )}
-    </motion.li>
+    </li>
   );
 });
 

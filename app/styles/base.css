@@ -272,10 +272,7 @@
 .settings-modal-container,
 .quick-panel,
 .quick-panel-backdrop,
-.study-mode-container,
-.study-header,
-.ayah-card,
-.study-ayah-card {
+.study-header {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
     backface-visibility: hidden;
@@ -284,8 +281,7 @@
 
 /* Hint browser to prepare GPU for animations */
 .settings-modal-container,
-.quick-panel,
-.study-mode-container {
+.quick-panel {
     will-change: transform, opacity;
 }
 
@@ -305,8 +301,6 @@
 }
 
 /* Content containment for cards */
-.ayah-card,
-.study-ayah-card,
 .reciter-card,
 .translation-chip,
 .study-reciter-chip {

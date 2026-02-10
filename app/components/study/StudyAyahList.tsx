@@ -92,7 +92,6 @@ export default function StudyAyahList({
           <StudyAyahCard
             key={key || `ayah-${index}`}
             ayahNumber={ayahNum}
-            animationDelay={index * 0.02}
             cardId={key || `ayah-${ayahNum}`}
             isActivePlay={isActivePlay}
             isFocused={isFocused}

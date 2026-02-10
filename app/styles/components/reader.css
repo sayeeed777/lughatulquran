@@ -433,10 +433,7 @@
   border: none;
   border-radius: var(--radius-lg);
   padding: 24px;
-  animation: fadeUp 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both;
   scroll-margin-top: 120px;
-  content-visibility: auto;
-  contain-intrinsic-size: 220px;
   transition: all 0.2s ease;
 }
 
