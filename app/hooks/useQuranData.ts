@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { fetchJSON } from "../lib/apiClient";
-import type { Ayah, AyahTranslation, Surah, SurahData } from "../lib/types";
+import type { Ayah, AyahTranslation, Surah, SurahData, Word, WordByAyah, WordBySurah } from "../lib/types";
 
 type SurahDetail = {
   surah?: Surah;
@@ -8,20 +8,6 @@ type SurahDetail = {
   arabicScript?: string;
   translationOrder?: string[];
 };
-
-type Word = {
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-  position?: number;
-  lemma?: string;
-  root?: string;
-  rootArabic?: string;
-};
-
-type WordByAyah = Record<number, Word[]>;
-
-type WordBySurah = Record<number, WordByAyah>;
 
 type SurahListPayload = { surahs: Surah[] };
 

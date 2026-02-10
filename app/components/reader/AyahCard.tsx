@@ -2,15 +2,7 @@
 
 import { memo } from "react";
 import { motion } from "framer-motion";
-import type { Ayah } from "../../lib/types";
-
-type Word = {
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-};
-
-type NowPlaying = { surah: number; ayah: number } | null;
+import type { Ayah, Word, NowPlaying } from "../../lib/types";
 
 type AyahCardProps = {
   ayah: Ayah;
@@ -19,7 +11,7 @@ type AyahCardProps = {
   isSaved?: boolean;
   hasNote?: boolean;
   isFocused?: boolean;
-  nowPlaying?: NowPlaying;
+  nowPlaying?: NowPlaying | null;
   isAudioPaused?: boolean;
   words?: Word[];
   showWordByWord?: boolean;

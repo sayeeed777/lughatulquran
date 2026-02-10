@@ -9,7 +9,10 @@ import {
   NoteModal,
   ErrorBoundary,
   SectionErrorBoundary,
-  KeyboardShortcutsHelp
+  KeyboardShortcutsHelp,
+  SearchIcon,
+  ThemeIcon,
+  SettingsIcon
 } from "./components";
 import { AUDIO_RECITERS, ARABIC_FONTS, FONT_SCALE } from "./lib/constants";
 import { verseKey, clamp, getAudioUrl, getLocalDateString } from "./lib/utils";
@@ -179,11 +182,11 @@ export default function Home() {
 
   const continueSession = studySession || (lastRead
     ? {
-        surah: lastRead.surah,
-        ayah: lastRead.ayah,
-        surahName: lastRead.surahName,
-        updatedAt: lastRead.timestamp
-      }
+      surah: lastRead.surah,
+      ayah: lastRead.ayah,
+      surahName: lastRead.surahName,
+      updatedAt: lastRead.timestamp
+    }
     : null);
 
   const handleContinueSession = () => {
@@ -249,79 +252,21 @@ export default function Home() {
                 onClick={() => setShowMobileSearch(true)}
                 aria-label="Search"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="11" cy="11" r="8" />
-                  <path d="m21 21-4.35-4.35" />
-                </svg>
+                <SearchIcon />
               </button>
               <button
                 className="header-icon-btn"
                 onClick={toggleTheme}
                 aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
               >
-                {isLightTheme ? (
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" />
-                  </svg>
-                ) : (
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <circle cx="12" cy="12" r="4" />
-                    <path d="M12 2v2" />
-                    <path d="M12 20v2" />
-                    <path d="m4.93 4.93 1.41 1.41" />
-                    <path d="m17.66 17.66 1.41 1.41" />
-                    <path d="M2 12h2" />
-                    <path d="M20 12h2" />
-                    <path d="m4.93 19.07 1.41-1.41" />
-                    <path d="m17.66 6.34 1.41-1.41" />
-                  </svg>
-                )}
+                <ThemeIcon isLight={isLightTheme} />
               </button>
               <button
                 className="header-icon-btn"
                 onClick={() => setShowMobileSettings(true)}
                 aria-label="Settings"
               >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <circle cx="12" cy="12" r="3" />
-                  <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h.09A1.65 1.65 0 0 0 9 2.09V2a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h.09a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v.09A1.65 1.65 0 0 0 21.91 11H22a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" />
-                </svg>
+                <SettingsIcon />
               </button>
             </div>
             <button className="action-btn desktop-only" onClick={() => setReadingMode(true)}>

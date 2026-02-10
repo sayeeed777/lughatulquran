@@ -1,7 +1,19 @@
 "use client";
 
 import { useMemo, useState, useEffect } from "react";
-import type { Ayah, Surah, SurahData } from "../../lib/types";
+import type {
+  Ayah,
+  Surah,
+  SurahData,
+  Word,
+  WordByAyah,
+  WordBySurah,
+  NowPlaying,
+  FontScale,
+  Reciter,
+  ArabicFont,
+  SetState
+} from "../../lib/types";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
@@ -11,25 +23,6 @@ import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib
 
 type SurahDataSummary = Pick<SurahData, "ayahs">;
 
-type Word = {
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-};
-
-type WordByAyah = Record<number, Word[]>;
-
-type WordBySurah = Record<number, WordByAyah>;
-
-type NowPlaying = { surah: number; ayah: number } | null;
-
-type FontScale = { arabic: number; translation: number };
-
-type Reciter = { id: string; label: string; baseUrl: string };
-
-type ArabicFont = { id: string; label: string; css: string };
-
-type SetState<T> = (value: T | ((prev: T) => T)) => void;
 
 type ReaderPanelProps = {
   selectedSurah: Surah | null;
@@ -68,7 +61,7 @@ type ReaderPanelProps = {
   focusedAyahKey: string | null;
   setFocusedAyahKey: SetState<string | null>;
   copiedKey: string | null;
-  nowPlaying: NowPlaying;
+  nowPlaying: NowPlaying | null;
   audioSrc: string | null;
   nowPlayingLabel: string;
   reciterLabel: string;
@@ -333,9 +326,8 @@ export default function ReaderPanel({
                     mobileSurahResults.map((surah) => (
                       <button
                         key={surah.number}
-                        className={`surah-item mobile-surah-item${
-                          selectedSurah?.number === surah.number ? " active" : ""
-                        }`}
+                        className={`surah-item mobile-surah-item${selectedSurah?.number === surah.number ? " active" : ""
+                          }`}
                         onClick={() => {
                           onSelectSurah?.(surah);
                           openMobileSearch(false);

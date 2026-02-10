@@ -1,28 +1,17 @@
-export type Reciter = { id: string; label: string; baseUrl: string };
+/**
+ * Re-export shared types from the central types module.
+ * Study-specific types are declared locally below.
+ */
+export type {
+  Reciter,
+  ArabicFont,
+  MemorizeConfig,
+  Word,
+  WordByAyah,
+  WordBySurah
+} from "../../lib/types";
 
-export type ArabicFont = { id: string; label: string; css: string };
-
-export type MemorizeConfig = {
-  active: boolean;
-  startAyah: number;
-  endAyah: number;
-  loops: number;
-  remaining: number;
-};
-
-export type Word = {
-  arabic: string;
-  translation?: string;
-  audioUrl?: string;
-  position?: number;
-  lemma?: string;
-  root?: string;
-  rootArabic?: string;
-};
-
-export type WordByAyah = Record<number, Word[]>;
-
-export type WordBySurah = Record<number, WordByAyah>;
+import type { WordByAyah } from "../../lib/types";
 
 export type SelectedWordDetails = {
   surah: number;
@@ -55,3 +44,4 @@ export type WordByWordPayload = {
 };
 
 export type StudyMarks = Record<string, true>;
+

@@ -12,6 +12,7 @@
 
 // Common UI Components
 export { Tooltip, ProgressBar, BackToTop, AudioPlayer, SectionErrorBoundary } from "./common";
+export { SearchIcon, SunIcon, MoonIcon, SettingsIcon, ThemeIcon } from "./common";
 
 // Modal Components
 export { SettingsModal, CompareModal, NoteModal, KeyboardShortcutsHelp } from "./modals";
