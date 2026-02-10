@@ -28,7 +28,7 @@ const safeDecodeURIComponent = (value: string) => {
   }
 };
 
-export async function GET(_request: Request, { params }: RouteContext) {
+export async function GET(request: Request, { params }: RouteContext) {
   const resolvedParams = await Promise.resolve(params);
   const rawRoot = safeDecodeURIComponent(resolvedParams?.root || "");
   if (rawRoot === null) {
@@ -40,11 +40,33 @@ export async function GET(_request: Request, { params }: RouteContext) {
     return NextResponse.json({ error: "Missing root." }, { status: 400 });
   }
 
+  const url = new URL(request.url);
+  const isSummaryMode = url.searchParams.get("mode") === "summary";
+  const rootMeaning = getPrimaryRootMeaning(root);
+
+  if (isSummaryMode) {
+    return NextResponse.json({
+      root,
+      rootArabic: buckwalterToArabic(root),
+      rootMeaning,
+      rootMeaningSource: "primary-root-meanings",
+      coreMeanings: [],
+      definitions: [],
+      lemmas: [],
+      references: [],
+      primaryRootMeaningsAvailable: hasPrimaryRootMeanings(),
+      primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
+      laneAvailable: false,
+      morphologyAvailable: false,
+      morphologyError: null,
+      fullPayload: false
+    });
+  }
+
   const index = await getMorphologyIndex();
   const laneEntry = getLaneEntry(root);
   const references = getRootReferences(index, root, 120);
   const lemmas = getRootLemmas(index, root, 20);
-  const rootMeaning = getPrimaryRootMeaning(root);
 
   const coreMeanings = laneEntry?.coreMeanings || [];
   const definitions = laneEntry?.definitions || [];
@@ -62,6 +84,7 @@ export async function GET(_request: Request, { params }: RouteContext) {
     primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
     laneAvailable: hasLaneLexicon(),
     morphologyAvailable: Boolean(index),
-    morphologyError: index ? null : getMorphologyLoadError()
+    morphologyError: index ? null : getMorphologyLoadError(),
+    fullPayload: true
   });
 }

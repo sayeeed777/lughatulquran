@@ -37,6 +37,9 @@ export type RootLexiconPayload = {
   primaryRootMeaningsAvailable?: boolean;
   primaryRootMeaningsError?: string | null;
   laneAvailable?: boolean;
+  morphologyAvailable?: boolean;
+  morphologyError?: string | null;
+  fullPayload?: boolean;
 };
 
 export type WordByWordPayload = {
@@ -44,4 +47,3 @@ export type WordByWordPayload = {
 };
 
 export type StudyMarks = Record<string, true>;
-

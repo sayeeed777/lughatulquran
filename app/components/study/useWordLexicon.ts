@@ -148,20 +148,36 @@ export default function useWordLexicon({
     []
   );
 
-  const fetchRootLexicon = useCallback(async (root?: string) => {
+  const fetchRootLexicon = useCallback(async (root?: string, mode: "summary" | "full" = "full") => {
     const normalizedRoot = (root || "").trim();
     if (!normalizedRoot) return null;
+    if (
+      mode === "summary" &&
+      rootLexicon?.root === normalizedRoot &&
+      rootLexicon?.fullPayload
+    ) {
+      return rootLexicon;
+    }
     const requestId = rootLookupRequestRef.current + 1;
     rootLookupRequestRef.current = requestId;
     setRootLexiconLoading(true);
     setRootLexiconError(null);
     try {
       const payload = await fetchJSON<RootLexiconPayload>(
-        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}?v=2`,
+        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}?v=2&mode=${mode}`,
         { ttl: 24 * 60 * 60 * 1000, retries: 1, retryDelay: 250, persist: true }
       );
       if (rootLookupRequestRef.current !== requestId) return null;
-      setRootLexicon(payload);
+      setRootLexicon((prev) => {
+        if (
+          mode === "summary" &&
+          prev?.root === normalizedRoot &&
+          prev?.fullPayload
+        ) {
+          return prev;
+        }
+        return payload;
+      });
       return payload;
     } catch (error) {
       if (rootLookupRequestRef.current !== requestId) return null;
@@ -174,7 +190,7 @@ export default function useWordLexicon({
         setRootLexiconLoading(false);
       }
     }
-  }, []);
+  }, [rootLexicon]);
 
   const handleWordSelect = useCallback(
     (word: Word, ayahNumber: number, wordIndex: number) => {
@@ -197,7 +213,7 @@ export default function useWordLexicon({
       setRootLexiconError(null);
 
       if (word.root) {
-        void fetchRootLexicon(word.root);
+        void fetchRootLexicon(word.root, "summary");
       }
 
       if (!word.root && !word.lemma) {
@@ -221,7 +237,7 @@ export default function useWordLexicon({
               };
             });
             if (hydratedWord.root) {
-              void fetchRootLexicon(hydratedWord.root);
+              void fetchRootLexicon(hydratedWord.root, "summary");
             }
           })
           .catch(() => {});
@@ -244,12 +260,12 @@ export default function useWordLexicon({
       const normalizedRoot = (root || "").trim();
       if (!normalizedRoot) return;
       setIsRootModalOpen(true);
-      if (rootLexicon?.root === normalizedRoot && !rootLexiconError) {
+      if (rootLexicon?.root === normalizedRoot && rootLexicon?.fullPayload && !rootLexiconError) {
         return;
       }
-      await fetchRootLexicon(normalizedRoot);
+      await fetchRootLexicon(normalizedRoot, "full");
     },
-    [fetchRootLexicon, rootLexicon?.root, rootLexiconError]
+    [fetchRootLexicon, rootLexicon?.fullPayload, rootLexicon?.root, rootLexiconError]
   );
 
   const closeRootModal = useCallback(() => {

@@ -92,6 +92,8 @@ export default function StudyAyahList({
           <StudyAyahCard
             key={key || `ayah-${index}`}
             ayahNumber={ayahNum}
+            surahNumber={selectedSurahNumber || 0}
+            verseKey={key}
             cardId={key || `ayah-${ayahNum}`}
             isActivePlay={isActivePlay}
             isFocused={isFocused}
@@ -116,15 +118,15 @@ export default function StudyAyahList({
             isBookmarked={Boolean(bookmarked)}
             hasNote={Boolean(noted)}
             resolveWordAudioUrl={resolveWordAudioUrl}
-            onFocusAyah={() => onFocusAyahKey(key)}
-            onOpenMemorize={() => onOpenMemorize(ayahNum)}
-            onTogglePlay={() => onTogglePlay(selectedSurahNumber || 0, ayahNum)}
-            onToggleBookmark={() => onToggleBookmark(selectedSurahNumber || 0, ayahNum)}
-            onOpenTafsir={() => onOpenTafsir(key)}
-            onOpenNote={() => onOpenNote(selectedSurahNumber || 0, ayahNum)}
+            onFocusAyahKey={onFocusAyahKey}
+            onOpenMemorize={onOpenMemorize}
+            onTogglePlay={onTogglePlay}
+            onToggleBookmark={onToggleBookmark}
+            onOpenTafsir={onOpenTafsir}
+            onOpenNote={onOpenNote}
             onWordSelect={onWordSelect}
             onWordAudio={onWordAudio}
-            onToggleStudyMark={() => onToggleStudyMarkByKey(key)}
+            onToggleStudyMarkByKey={onToggleStudyMarkByKey}
           />
         );
       }),

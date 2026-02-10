@@ -19,6 +19,8 @@ type StudyWord = {
 
 type StudyAyahCardProps = {
   ayahNumber: number;
+  surahNumber: number;
+  verseKey: string;
   cardId: string;
   isActivePlay: boolean;
   isFocused: boolean;
@@ -36,19 +38,21 @@ type StudyAyahCardProps = {
   isBookmarked: boolean;
   hasNote: boolean;
   resolveWordAudioUrl: (audioUrl?: string) => string;
-  onFocusAyah: () => void;
-  onOpenMemorize: () => void;
-  onTogglePlay: () => void;
-  onToggleBookmark: () => void;
-  onOpenTafsir: () => void;
-  onOpenNote: () => void;
-  onToggleStudyMark: () => void;
+  onFocusAyahKey: (key: string) => void;
+  onOpenMemorize: (ayahNumber: number) => void;
+  onTogglePlay: (surah: number, ayah: number) => void;
+  onToggleBookmark: (surah: number, ayah: number) => void;
+  onOpenTafsir: (key: string) => void;
+  onOpenNote: (surah: number, ayah: number) => void;
+  onToggleStudyMarkByKey: (key: string) => void;
   onWordSelect: (word: StudyWord, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
 };
 
 function StudyAyahCardComponent({
   ayahNumber,
+  surahNumber,
+  verseKey,
   cardId,
   isActivePlay,
   isFocused,
@@ -66,13 +70,13 @@ function StudyAyahCardComponent({
   isBookmarked,
   hasNote,
   resolveWordAudioUrl,
-  onFocusAyah,
+  onFocusAyahKey,
   onOpenMemorize,
   onTogglePlay,
   onToggleBookmark,
   onOpenTafsir,
   onOpenNote,
-  onToggleStudyMark,
+  onToggleStudyMarkByKey,
   onWordSelect,
   onWordAudio
 }: StudyAyahCardProps) {
@@ -103,7 +107,7 @@ function StudyAyahCardComponent({
     pointerStartRef.current = { x: event.clientX, y: event.clientY };
     longPressTimerRef.current = setTimeout(() => {
       longPressTriggeredRef.current = true;
-      onToggleStudyMark();
+      onToggleStudyMarkByKey(verseKey);
     }, 450);
   };
 
@@ -126,7 +130,7 @@ function StudyAyahCardComponent({
       longPressTriggeredRef.current = false;
       return;
     }
-    onFocusAyah();
+    onFocusAyahKey(verseKey);
   };
 
   useEffect(() => {
@@ -138,7 +142,7 @@ function StudyAyahCardComponent({
       id={`ayah-${ayahNumber}`}
       className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isMarked ? " marked" : ""}${isDimmed ? " dimmed" : ""}`}
       onClick={handleCardClick}
-      onFocus={onFocusAyah}
+      onFocus={() => onFocusAyahKey(verseKey)}
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={handlePointerEnd}
@@ -154,7 +158,7 @@ function StudyAyahCardComponent({
               className="action-icon-btn memorize-icon"
               onClick={(event) => {
                 event.stopPropagation();
-                onOpenMemorize();
+                onOpenMemorize(ayahNumber);
               }}
               aria-label="Memorize / Repeat"
               title="Memorize / Repeat"
@@ -199,7 +203,7 @@ function StudyAyahCardComponent({
               className={`action-icon-btn play-icon${isActivePlay ? " playing" : ""}`}
               onClick={(event) => {
                 event.stopPropagation();
-                onTogglePlay();
+                onTogglePlay(surahNumber, ayahNumber);
               }}
               aria-label={isActivePlay ? "Pause ayah" : "Play ayah"}
               title={isActivePlay ? "Pause ayah" : "Play ayah"}
@@ -220,7 +224,7 @@ function StudyAyahCardComponent({
               className={`action-icon-btn${isBookmarked ? " saved" : ""}`}
               onClick={(event) => {
                 event.stopPropagation();
-                onToggleBookmark();
+                onToggleBookmark(surahNumber, ayahNumber);
               }}
               aria-label={isBookmarked ? "Remove bookmark" : "Save bookmark"}
               title={isBookmarked ? "Remove bookmark" : "Save bookmark"}
@@ -240,7 +244,7 @@ function StudyAyahCardComponent({
               className="action-icon-btn"
               onClick={(event) => {
                 event.stopPropagation();
-                onOpenTafsir();
+                onOpenTafsir(verseKey);
               }}
               aria-label="Open tafsir"
               title="Open tafsir"
@@ -285,7 +289,7 @@ function StudyAyahCardComponent({
               className={`action-icon-btn${hasNote ? " saved" : ""}`}
               onClick={(event) => {
                 event.stopPropagation();
-                onOpenNote();
+                onOpenNote(surahNumber, ayahNumber);
               }}
               aria-label={hasNote ? "Edit note" : "Add note"}
               title={hasNote ? "Edit note" : "Add note"}

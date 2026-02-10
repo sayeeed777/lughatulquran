@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useRef } from "react";
 import type {
   Ayah,
   Surah,
@@ -126,16 +126,25 @@ export default function ReaderPanel({
   } = useAudio();
   const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const formatArabic = (text?: string) => text ?? "";
+  const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
 
   // -- Deferred Rendering State --
   const [visibleCount, setVisibleCount] = useState(15);
+  const [isMobileViewport, setIsMobileViewport] = useState(false);
 
-  // Reset visible count when surah changes or filter updates
   useEffect(() => {
-    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+    if (typeof window === "undefined") return;
+    const mediaQuery = window.matchMedia("(max-width: 767px)");
+    const handleChange = () => setIsMobileViewport(mediaQuery.matches);
+    handleChange();
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
-    // 1. Immediate Render: Small batch for speed
-    let targetCount = isMobile ? 15 : filteredAyahs.length;
+  // Reset visible count when surah changes or filter updates.
+  // Mobile starts with a chunk; desktop renders all.
+  useEffect(() => {
+    let targetCount = isMobileViewport ? 24 : filteredAyahs.length;
 
     // Deep link support: Ensure focused ayah is visible immediately
     if (focusedAyahKey) {
@@ -143,23 +152,13 @@ export default function ReaderPanel({
       if (parts.length === 2) {
         const ayahNum = parseInt(parts[1] ?? "", 10);
         if (!isNaN(ayahNum)) {
-          targetCount = Math.max(targetCount, ayahNum + 5);
+          targetCount = Math.max(targetCount, ayahNum + 8);
         }
       }
     }
 
-    setVisibleCount(targetCount);
-
-    // 2. Deferred Full Render: Load the rest after initial paint
-    // This allows the navigation animation to stay smooth, then we fill the list
-    if (targetCount < filteredAyahs.length) {
-      const timer = setTimeout(() => {
-        setVisibleCount(filteredAyahs.length);
-      }, 500); // 500ms delay to allow initial paint/transition to finish
-
-      return () => clearTimeout(timer);
-    }
-  }, [selectedSurah?.number, filteredAyahs.length, focusedAyahKey]);
+    setVisibleCount(Math.min(filteredAyahs.length, targetCount));
+  }, [selectedSurah?.number, filteredAyahs.length, focusedAyahKey, isMobileViewport]);
 
   const [localShowMobileSettings, setLocalShowMobileSettings] = useState(false);
   const [localShowMobileSearch, setLocalShowMobileSearch] = useState(false);
@@ -184,6 +183,38 @@ export default function ReaderPanel({
 
     return 1;
   }, [filteredAyahs?.length, focusedAyahKey, nowPlaying, selectedSurah]);
+
+  useEffect(() => {
+    if (!isMobileViewport) return;
+    if (!filteredAyahs.length) return;
+    const minimumVisible = Math.min(filteredAyahs.length, Math.max(visibleCount, currentAyahNumber + 10));
+    if (minimumVisible !== visibleCount) {
+      setVisibleCount(minimumVisible);
+    }
+  }, [currentAyahNumber, filteredAyahs.length, isMobileViewport, visibleCount]);
+
+  useEffect(() => {
+    if (!isMobileViewport) return;
+    if (visibleCount >= filteredAyahs.length) return;
+    const sentinel = loadMoreSentinelRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const entry = entries[0];
+        if (!entry?.isIntersecting) return;
+        setVisibleCount((prev) => Math.min(filteredAyahs.length, prev + 28));
+      },
+      {
+        root: null,
+        rootMargin: "240px 0px",
+        threshold: 0.01
+      }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [filteredAyahs.length, isMobileViewport, visibleCount]);
   const mobileSurahResults = useMemo(() => {
     const list = query?.trim() ? filteredSurahs : surahs;
     if (!Array.isArray(list)) return [];
@@ -451,6 +482,9 @@ export default function ReaderPanel({
                 );
               })}
             </ol>
+            {isMobileViewport && visibleCount < filteredAyahs.length ? (
+              <div ref={loadMoreSentinelRef} className="ayah-load-sentinel" aria-hidden="true" />
+            ) : null}
             <BackToTop />
           </>
         ) : (

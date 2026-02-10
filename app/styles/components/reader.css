@@ -428,6 +428,11 @@
   gap: 24px;
 }
 
+.ayah-load-sentinel {
+  width: 100%;
+  height: 1px;
+}
+
 .ayah-card {
   background: rgba(255, 255, 255, 0.02);
   border: none;

@@ -227,6 +227,8 @@
   background: rgba(255, 255, 255, 0.02);
   border-radius: 20px;
   border: none;
+  content-visibility: auto;
+  contain-intrinsic-size: 360px;
   transition:
     background-color 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
     opacity 0.3s cubic-bezier(0.2, 0.8, 0.2, 1),
@@ -2890,6 +2892,7 @@
   .study-ayah-card {
     padding: 24px 20px;
     border-radius: 16px;
+    contain-intrinsic-size: 280px;
   }
 
   .study-ayah-list {

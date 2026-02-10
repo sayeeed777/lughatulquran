@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { useRef } from "react";
 import { parseVerseKey, verseKey } from "../../lib/utils";
 import type { StudySession } from "../common";
 import type { MemorizeConfig, NowPlaying, Surah, SurahData } from "./types";
@@ -50,6 +51,8 @@ export function useHomeEffects({
   nowPlaying,
   isAutoPlaying
 }: UseHomeEffectsParams) {
+  const studySessionWriteTimerRef = useRef<number | null>(null);
+  const lastStudySessionSignatureRef = useRef<string>("");
   const isMobileViewport = () =>
     typeof window !== "undefined" && window.matchMedia("(max-width: 1024px)").matches;
 
@@ -107,7 +110,8 @@ export function useHomeEffects({
       nowPlaying?.surah === selectedSurah.number ? nowPlaying.ayah : null;
     const ayah = focusedAyah || playingAyah;
     if (!ayah) return;
-    updateStudySession({
+
+    const payload: Omit<StudySession, "updatedAt"> = {
       surah: selectedSurah.number,
       ayah,
       surahName: selectedSurah.englishName,
@@ -117,7 +121,42 @@ export function useHomeEffects({
         arabic: Number(fontScale?.arabic) || 1,
         translation: Number(fontScale?.translation) || 1
       }
-    });
+    };
+
+    const signature = [
+      payload.surah,
+      payload.ayah,
+      payload.surahName,
+      payload.reciterId,
+      payload.playbackRate.toFixed(2),
+      payload.fontScale.arabic.toFixed(2),
+      payload.fontScale.translation.toFixed(2)
+    ].join("|");
+
+    if (signature === lastStudySessionSignatureRef.current) return;
+
+    if (typeof window === "undefined") {
+      updateStudySession(payload);
+      lastStudySessionSignatureRef.current = signature;
+      return;
+    }
+
+    if (studySessionWriteTimerRef.current !== null) {
+      window.clearTimeout(studySessionWriteTimerRef.current);
+    }
+
+    studySessionWriteTimerRef.current = window.setTimeout(() => {
+      updateStudySession(payload);
+      lastStudySessionSignatureRef.current = signature;
+      studySessionWriteTimerRef.current = null;
+    }, 220);
+
+    return () => {
+      if (studySessionWriteTimerRef.current !== null) {
+        window.clearTimeout(studySessionWriteTimerRef.current);
+        studySessionWriteTimerRef.current = null;
+      }
+    };
   }, [
     selectedSurah,
     focusedAyahKey,
@@ -147,13 +186,16 @@ export function useHomeEffects({
     let frameId: number | null = null;
     let attempts = 0;
     const targetAyah = pendingScroll;
-    const maxAttempts = 32;
+    const maxAttempts = 240;
 
     const scrollWhenReady = () => {
       if (isCancelled) return;
       const target = document.getElementById(`ayah-${targetAyah}`);
       if (target) {
-        target.scrollIntoView({ behavior: "smooth", block: "center" });
+        target.scrollIntoView({
+          behavior: "smooth",
+          block: "center"
+        });
         setFocusedAyahKey(verseKey(selectedSurah.number, targetAyah));
         setPendingScroll(null);
         return;
