@@ -502,8 +502,32 @@
   background: rgba(66, 82, 54, 0.05);
 }
 
-:root[data-theme="light"] .study-lane-open-btn {
+:root[data-theme="light"] .study-lexicon-guide-item {
+  background: rgba(66, 82, 54, 0.05);
+}
+
+:root[data-theme="light"] .study-lexicon-guide-toggle {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .study-lexicon-guide-popover {
+  background: rgba(240, 231, 219, 0.99);
+  border-color: rgba(66, 82, 54, 0.12);
+  box-shadow: 0 18px 38px rgba(45, 52, 40, 0.14);
+}
+
+:root[data-theme="light"] .study-lexicon-guide-code {
   background: rgba(66, 82, 54, 0.12);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .study-lexicon-guide-meaning {
+  color: rgba(44, 54, 40, 0.8);
+}
+
+:root[data-theme="light"] .study-lane-open-btn {
+  background: rgba(66, 82, 54, 0.14);
   color: var(--accent);
 }
 
@@ -518,13 +542,17 @@
 }
 
 :root[data-theme="light"] .study-word-audio-btn {
-  background: rgba(66, 82, 54, 0.08);
-  color: var(--text);
+  background: rgba(66, 82, 54, 0.14);
+  color: var(--accent);
 }
 
 :root[data-theme="light"] .study-lexicon-chip,
 :root[data-theme="light"] .study-lexicon-ref {
   background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .study-lexicon-list li {
+  color: rgba(44, 54, 40, 0.88);
 }
 
 /* Form elements */

@@ -1,7 +1,15 @@
 "use client";
 
+import { useEffect, useMemo, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import type { RootLexiconPayload, SelectedWordDetails } from "./StudyModeTypes";
+
+const LANE_ABBREVIATION_GUIDE = [
+  { code: "S", meaning: "as-Sihah (al-Jawhari)" },
+  { code: "Msb", meaning: "al-Misbah al-Munir" },
+  { code: "K", meaning: "al-Qamus al-Muhit" },
+  { code: "*", meaning: "editorial emphasis marker in the source text" }
+] as const;
 
 type StudyLexiconModalsProps = {
   selectedWordDetails: SelectedWordDetails | null;
@@ -34,6 +42,44 @@ export default function StudyLexiconModals({
   onOpenRootDetails,
   onPlayWordAudio
 }: StudyLexiconModalsProps) {
+  const [showAbbreviationGuide, setShowAbbreviationGuide] = useState(false);
+
+  useEffect(() => {
+    if (!isRootModalOpen) {
+      setShowAbbreviationGuide(false);
+    }
+  }, [isRootModalOpen]);
+
+  const coreMeaningChips = useMemo(() => {
+    const laneChips = (rootLexicon?.coreMeanings || [])
+      .map((value) => value.trim())
+      .filter(Boolean);
+    if (laneChips.length) return laneChips.slice(0, 8);
+
+    const rootMeaning = (rootLexicon?.rootMeaning || "").trim();
+    if (!rootMeaning) return [];
+
+    const pieces = rootMeaning
+      .replace(/\([^)]*\)/g, " ")
+      .replace(/\s+/g, " ")
+      .split(/[,;/]|(?:\s+-\s+)|\.\s+/)
+      .map((value) => value.trim())
+      .filter(Boolean)
+      .map((value) => value.replace(/^to\s+/i, ""))
+      .map((value) => value.replace(/\s+/g, " "));
+
+    const unique: string[] = [];
+    const seen = new Set<string>();
+    for (const piece of pieces) {
+      const key = piece.toLowerCase();
+      if (!piece || seen.has(key)) continue;
+      seen.add(key);
+      unique.push(piece.length > 42 ? `${piece.slice(0, 39).trim()}...` : piece);
+      if (unique.length >= 6) break;
+    }
+    return unique;
+  }, [rootLexicon?.coreMeanings, rootLexicon?.rootMeaning]);
+
   return (
     <>
       <AnimatePresence>
@@ -146,23 +192,12 @@ export default function StudyLexiconModals({
         )}
       </AnimatePresence>
 
-      <AnimatePresence>
-        {selectedWordDetails && isRootModalOpen && (
-          <motion.div
-            className="study-lexicon-backdrop root-layer"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            onClick={onCloseRootModal}
+      {selectedWordDetails && isRootModalOpen ? (
+        <div className="study-lexicon-backdrop root-layer" onClick={onCloseRootModal}>
+          <div
+            className="study-lexicon-modal root-modal"
+            onClick={(event) => event.stopPropagation()}
           >
-            <motion.div
-              className="study-lexicon-modal root-modal"
-              initial={{ y: 18, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              exit={{ y: 10, opacity: 0 }}
-              transition={{ duration: 0.2, ease: "easeOut" }}
-              onClick={(event) => event.stopPropagation()}
-            >
               <div className="study-lexicon-header">
                 <div>
                   <p className="study-lexicon-eyebrow">Lane Lexicon</p>
@@ -180,29 +215,54 @@ export default function StudyLexiconModals({
                 ) : null}
                 {!rootLexiconLoading && !rootLexiconError && (
                   <>
-                    <div className="study-lexicon-meta-grid">
-                      <div className="study-lexicon-meta-item">
-                        <span className="study-lexicon-label">Arabic</span>
-                        <span className="study-lexicon-value">
-                          {rootLexicon?.rootArabic || selectedWordDetails.rootArabic || "—"}
-                        </span>
+                    <div className="study-lexicon-meta-row">
+                      <div className="study-lexicon-meta-grid">
+                        <div className="study-lexicon-meta-item">
+                          <span className="study-lexicon-label">Arabic</span>
+                          <span className="study-lexicon-value">
+                            {rootLexicon?.rootArabic || selectedWordDetails.rootArabic || "—"}
+                          </span>
+                        </div>
+                      </div>
+                      <div className="study-lexicon-guide">
+                        <button
+                          type="button"
+                          className={`study-lexicon-guide-toggle${showAbbreviationGuide ? " is-open" : ""}`}
+                          onClick={() => setShowAbbreviationGuide((prev) => !prev)}
+                          aria-expanded={showAbbreviationGuide}
+                        >
+                          <span>Guide</span>
+                          <span className="study-lexicon-guide-caret" aria-hidden="true">
+                            ▾
+                          </span>
+                        </button>
+                        {showAbbreviationGuide ? (
+                          <div className="study-lexicon-guide-popover">
+                            <div className="study-lexicon-guide-grid">
+                              {LANE_ABBREVIATION_GUIDE.map((item) => (
+                                <div key={item.code} className="study-lexicon-guide-item">
+                                  <span className="study-lexicon-guide-code">{item.code}</span>
+                                  <span className="study-lexicon-guide-meaning">{item.meaning}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        ) : null}
                       </div>
                     </div>
 
-                    <div className="study-lexicon-section">
-                      <h4>Core Meanings</h4>
-                      {rootLexicon?.coreMeanings?.length ? (
+                    {coreMeaningChips.length > 0 ? (
+                      <div className="study-lexicon-section">
+                        <h4>Core Meanings</h4>
                         <div className="study-lexicon-chip-row">
-                          {rootLexicon.coreMeanings.map((meaning) => (
+                          {coreMeaningChips.map((meaning) => (
                             <span key={meaning} className="study-lexicon-chip">
                               {meaning}
                             </span>
                           ))}
                         </div>
-                      ) : (
-                        <p className="study-lexicon-unavailable">No Lane meanings found for this root.</p>
-                      )}
-                    </div>
+                      </div>
+                    ) : null}
 
                     <div className="study-lexicon-section">
                       <h4>Dictionary Definitions</h4>
@@ -236,10 +296,9 @@ export default function StudyLexiconModals({
                   </>
                 )}
               </div>
-            </motion.div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          </div>
+        </div>
+      ) : null}
     </>
   );
 }
