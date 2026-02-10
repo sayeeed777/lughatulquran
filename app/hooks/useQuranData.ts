@@ -71,7 +71,7 @@ export function useSurahs() {
   }, []);
 
   useEffect(() => {
-    let isMounted = true;
+    const controller = new AbortController();
     const loadSurahs = async () => {
       setLoading(true);
       try {
@@ -80,22 +80,20 @@ export function useSurahs() {
           retries: 2,
           retryDelay: 300,
           persist: true,
-          staleWhileRevalidate: true
+          staleWhileRevalidate: true,
+          signal: controller.signal
         });
         const parsed = validateSurahList(payload);
         if (!parsed) {
           throw new Error("Invalid surah list response.");
         }
-        if (isMounted) {
-          setSurahs(parsed.surahs || []);
-        }
+        setSurahs(parsed.surahs || []);
       } catch (err) {
-        if (isMounted) {
-          const message = err instanceof Error ? err.message : String(err);
-          setError(message);
-        }
+        if (controller.signal.aborted) return;
+        const message = err instanceof Error ? err.message : String(err);
+        setError(message);
       } finally {
-        if (isMounted) {
+        if (!controller.signal.aborted) {
           setLoading(false);
         }
       }
@@ -103,7 +101,7 @@ export function useSurahs() {
 
     loadSurahs();
     return () => {
-      isMounted = false;
+      controller.abort();
     };
   }, [reloadKey]);
 
@@ -129,7 +127,7 @@ export function useSurahDetails(surahNumber?: number | string | null) {
     const surahId = typeof surahNumber === "string" ? Number(surahNumber) : surahNumber;
     if (!Number.isFinite(surahId) || surahId < 1) return;
 
-    let isMounted = true;
+    const controller = new AbortController();
     const loadSurah = async () => {
       setLoading(true);
       setError(null);
@@ -139,22 +137,20 @@ export function useSurahDetails(surahNumber?: number | string | null) {
           retries: 2,
           retryDelay: 300,
           persist: true,
-          staleWhileRevalidate: true
+          staleWhileRevalidate: true,
+          signal: controller.signal
         });
         const parsed = validateSurahDetail(payload);
         if (!parsed) {
           throw new Error("Invalid surah response.");
         }
-        if (isMounted) {
-          setSurahData(parsed);
-        }
+        setSurahData(parsed);
       } catch (err) {
-        if (isMounted) {
-          const message = err instanceof Error ? err.message : String(err);
-          setError(message);
-        }
+        if (controller.signal.aborted) return;
+        const message = err instanceof Error ? err.message : String(err);
+        setError(message);
       } finally {
-        if (isMounted) {
+        if (!controller.signal.aborted) {
           setLoading(false);
         }
       }
@@ -162,7 +158,7 @@ export function useSurahDetails(surahNumber?: number | string | null) {
 
     loadSurah();
     return () => {
-      isMounted = false;
+      controller.abort();
     };
   }, [surahNumber, reloadKey]);
 
