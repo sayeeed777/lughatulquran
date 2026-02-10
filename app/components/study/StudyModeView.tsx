@@ -15,6 +15,7 @@ import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
+import { useAudio, useBookmarkContext } from "../../contexts";
 
 type RailItem = {
   id: QuickPanelTab;
@@ -33,10 +34,6 @@ type StudyModeViewProps = {
   arabicFontId: string;
   setArabicFontId: (value: string) => void;
   selectedTranslations?: string[] | string;
-  bookmarks: string[];
-  notes: Record<string, string>;
-  sortedBookmarks: string[];
-  sortedNotes: Array<{ key: string; surah: number; ayah: number; value: string }>;
   readingPlan: ReadingPlan;
   planSummary: any;
   focusedAyahKey: string | null;
@@ -45,25 +42,13 @@ type StudyModeViewProps = {
   setFontScale: (value: { arabic: number; translation: number } | ((prev: { arabic: number; translation: number }) => { arabic: number; translation: number })) => void;
   playbackRate: number;
   setPlaybackRate: (value: number) => void;
-  nowPlaying: { surah: number; ayah: number } | null;
-  isAutoPlaying: boolean;
-  isAudioPaused: boolean;
   wordByAyah: WordBySurah;
   wordLoading: boolean;
-  audioSrc: string | null;
-  reciterLabel: string;
   onExit: () => void;
-  onPlayAyah: (surah: number, ayah: number) => void;
-  onTogglePlay: (surah: number, ayah: number) => void;
-  onStopAutoPlay: () => void;
-  onPlaySurah: (startFromAyah?: number) => void;
-  onAudioEnded: () => void;
   memorizeConfig: MemorizeConfig;
   setMemorizeConfig: (value: MemorizeConfig | ((prev: MemorizeConfig) => MemorizeConfig)) => void;
   onStartMemorize: (config: { startAyah?: number; endAyah?: number; loops?: number }) => void;
   onStopMemorize: () => void;
-  onToggleBookmark: (surah: number, ayah: number) => void;
-  onOpenNote: (surah: number, ayah: number) => void;
   onJumpToAyah: (surah: number, ayah: number) => void;
   surahByNumber: Map<number, Surah>;
   verseKey: (surah: number, ayah: number) => string;
@@ -81,10 +66,6 @@ export default function StudyModeView({
   arabicFontId,
   setArabicFontId,
   selectedTranslations = ["en.arberry"],
-  bookmarks,
-  notes,
-  sortedBookmarks,
-  sortedNotes,
   planSummary,
   focusedAyahKey,
   setFocusedAyahKey,
@@ -92,28 +73,36 @@ export default function StudyModeView({
   setFontScale,
   playbackRate,
   setPlaybackRate,
-  nowPlaying,
-  isAutoPlaying,
-  isAudioPaused,
   wordByAyah,
   wordLoading,
-  audioSrc,
-  reciterLabel,
   onExit,
-  onTogglePlay,
-  onStopAutoPlay,
-  onPlaySurah,
-  onAudioEnded,
   memorizeConfig,
   onStartMemorize,
   onStopMemorize,
-  onToggleBookmark,
-  onOpenNote,
   onJumpToAyah,
   surahByNumber,
   verseKey,
   clamp
 }: StudyModeViewProps) {
+  const {
+    nowPlaying,
+    isAutoPlaying,
+    isAudioPaused,
+    audioSrc,
+    reciterLabel,
+    handleStopAutoPlay: onStopAutoPlay,
+    handlePlaySurah: onPlaySurah,
+    handleAudioEnded: onAudioEnded,
+    handleToggleAyah: onTogglePlay
+  } = useAudio();
+  const {
+    bookmarks,
+    notes,
+    sortedBookmarks,
+    sortedNotes,
+    toggleBookmark: onToggleBookmark,
+    openNote: onOpenNote
+  } = useBookmarkContext();
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations)
     ? selectedTranslations
@@ -306,9 +295,8 @@ export default function StudyModeView({
 
   return (
     <div
-      className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${
-        scriptStyle === "naskh" ? " script-naskh" : ""
-      } ${studyTypographyClasses}`}
+      className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""
+        } ${studyTypographyClasses}`}
     >
       {/* Ambient Background */}
       <div className="study-ambient-bg" />

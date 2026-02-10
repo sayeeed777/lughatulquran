@@ -5,10 +5,7 @@ import type {
   Ayah,
   Surah,
   SurahData,
-  Word,
-  WordByAyah,
   WordBySurah,
-  NowPlaying,
   FontScale,
   Reciter,
   ArabicFont,
@@ -20,6 +17,7 @@ import BismillahBanner from "./BismillahBanner";
 import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib/constants";
+import { useAudio, useBookmarkContext } from "../../contexts";
 
 type SurahDataSummary = Pick<SurahData, "ayahs">;
 
@@ -56,27 +54,12 @@ type ReaderPanelProps = {
   wordByAyah: WordBySurah;
   fontScale: FontScale;
   setFontScale: SetState<FontScale>;
-  bookmarks: string[];
-  notes: Record<string, string>;
   focusedAyahKey: string | null;
   setFocusedAyahKey: SetState<string | null>;
   copiedKey: string | null;
-  nowPlaying: NowPlaying | null;
-  audioSrc: string | null;
-  nowPlayingLabel: string;
-  reciterLabel: string;
   error: string | null;
   onRetry: () => void;
   loadingSurahData: boolean;
-  isAutoPlaying: boolean;
-  isAudioPaused: boolean;
-  onPlaySurah: (startFromAyah?: number) => void;
-  onStopAutoPlay: () => void;
-  onAudioEnded: () => void;
-  onPlay: (surah: number, ayah: number) => void;
-  onTogglePlay?: (surah: number, ayah: number) => void;
-  onToggleBookmark: (surah: number, ayah: number) => void;
-  onOpenNote: (surah: number, ayah: number) => void;
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
   onSelectSurah?: (surah: Surah) => void;
@@ -116,33 +99,32 @@ export default function ReaderPanel({
   wordByAyah,
   fontScale,
   setFontScale,
-  bookmarks,
-  notes,
   focusedAyahKey,
   setFocusedAyahKey,
   copiedKey,
-  nowPlaying,
-  audioSrc,
-  nowPlayingLabel,
-  reciterLabel,
   error,
   onRetry,
   loadingSurahData,
-  isAutoPlaying,
-  isAudioPaused,
-  onPlaySurah,
-  onStopAutoPlay,
-  onAudioEnded,
-  onPlay,
-  onTogglePlay,
-  onToggleBookmark,
-  onOpenNote,
   onCompare,
   onCopyLink,
   onSelectSurah,
   verseKey,
   clamp
 }: ReaderPanelProps) {
+  const {
+    nowPlaying,
+    isAutoPlaying,
+    isAudioPaused,
+    audioSrc,
+    reciterLabel,
+    nowPlayingLabel,
+    handlePlaySurah: onPlaySurah,
+    handleStopAutoPlay: onStopAutoPlay,
+    handleAudioEnded: onAudioEnded,
+    handlePlayAyah: onPlay,
+    handleToggleAyah: onTogglePlay
+  } = useAudio();
+  const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const formatArabic = (text?: string) => text ?? "";
 
   // -- Deferred Rendering State --

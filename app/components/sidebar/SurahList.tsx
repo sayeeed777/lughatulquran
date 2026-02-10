@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import type { Surah } from "../../lib/types";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError, SearchIcon, ThemeIcon, SettingsIcon } from "../common";
+import { useTheme } from "../../contexts";
 
 type SurahListProps = {
-  surahs: Surah[];
   filteredSurahs?: Surah[];
   selectedSurah: Surah | null;
   query?: string;
@@ -18,8 +18,6 @@ type SurahListProps = {
   onRetry: () => void;
   onOpenSearch?: () => void;
   onOpenSettings?: () => void;
-  onToggleTheme?: () => void;
-  theme?: "light" | "dark";
 };
 
 // Move animation objects outside component to prevent recreation on every render
@@ -39,7 +37,6 @@ const item = {
 };
 
 function SurahList({
-  surahs,
   filteredSurahs = [], // Default to empty array to prevent .map() error
   selectedSurah,
   query,
@@ -49,32 +46,28 @@ function SurahList({
   error,
   onRetry,
   onOpenSearch,
-  onOpenSettings,
-  onToggleTheme,
-  theme
+  onOpenSettings
 }: SurahListProps) {
-  const isLightTheme = theme === "light";
+  const { isLightTheme, toggleTheme } = useTheme();
   if (loading) {
     return (
       <aside className="panel surah-panel">
         <div className="surah-panel-header">
           <h2>Surahs</h2>
-          {(onOpenSearch || onOpenSettings || onToggleTheme) && (
+          {(onOpenSearch || onOpenSettings) && (
             <div className="topbar-icon-btns mobile-only">
               {onOpenSearch && (
                 <button className="header-icon-btn" onClick={onOpenSearch} aria-label="Search">
                   <SearchIcon />
                 </button>
               )}
-              {onToggleTheme && (
-                <button
-                  className="header-icon-btn"
-                  onClick={onToggleTheme}
-                  aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
-                >
-                  <ThemeIcon isLight={isLightTheme} />
-                </button>
-              )}
+              <button
+                className="header-icon-btn"
+                onClick={toggleTheme}
+                aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
+              >
+                <ThemeIcon isLight={isLightTheme} />
+              </button>
               {onOpenSettings && (
                 <button className="header-icon-btn" onClick={onOpenSettings} aria-label="Settings">
                   <SettingsIcon />
@@ -95,22 +88,20 @@ function SurahList({
     <aside className="panel surah-panel">
       <div className="surah-panel-header">
         <h2>Surahs</h2>
-        {(onOpenSearch || onOpenSettings || onToggleTheme) && (
+        {(onOpenSearch || onOpenSettings) && (
           <div className="topbar-icon-btns mobile-only">
             {onOpenSearch && (
               <button className="header-icon-btn" onClick={onOpenSearch} aria-label="Search">
                 <SearchIcon />
               </button>
             )}
-            {onToggleTheme && (
-              <button
-                className="header-icon-btn"
-                onClick={onToggleTheme}
-                aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
-              >
-                <ThemeIcon isLight={isLightTheme} />
-              </button>
-            )}
+            <button
+              className="header-icon-btn"
+              onClick={toggleTheme}
+              aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
+            >
+              <ThemeIcon isLight={isLightTheme} />
+            </button>
             {onOpenSettings && (
               <button className="header-icon-btn" onClick={onOpenSettings} aria-label="Settings">
                 <SettingsIcon />

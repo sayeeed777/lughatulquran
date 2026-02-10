@@ -2,6 +2,7 @@
 
 import type { ReadingPlan as ReadingPlanState, Surah } from "../../lib/types";
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
+import { useBookmarkContext } from "../../contexts";
 
 type StudyPanelProps = {
   surahs: Surah[];
@@ -9,11 +10,7 @@ type StudyPanelProps = {
   readingPlan: ReadingPlanState;
   setReadingPlan: (value: ReadingPlanState | ((prev: ReadingPlanState) => ReadingPlanState)) => void;
   planSummary: any;
-  sortedBookmarks: string[];
-  sortedNotes: Array<{ key: string; surah: number; ayah: number; value: string }>;
   onJumpToAyah: (surah: number, ayah: number) => void;
-  onToggleBookmark: (surah: number, ayah: number) => void;
-  onOpenNote: (surah: number, ayah: number) => void;
   formatRangeLabel: (start: any, end: any) => string;
   getLocalDateString: () => string;
   continueSession?: {
@@ -31,16 +28,13 @@ export default function StudyPanel({
   readingPlan,
   setReadingPlan,
   planSummary,
-  sortedBookmarks,
-  sortedNotes,
   onJumpToAyah,
-  onToggleBookmark,
-  onOpenNote,
   formatRangeLabel,
   getLocalDateString,
   continueSession,
   onContinueSession
 }: StudyPanelProps) {
+  const { sortedBookmarks, sortedNotes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const continueTimeAgo = continueSession ? getTimeAgo(continueSession.updatedAt) : "";
 
   return (
