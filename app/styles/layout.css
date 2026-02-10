@@ -12,6 +12,7 @@
     z-index: 1;
     max-width: 1600px;
     margin: 0 auto;
+    background-color: var(--bg-deep);
     padding: 24px 24px 80px;
     display: flex;
     flex-direction: column;
