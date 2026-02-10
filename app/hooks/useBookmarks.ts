@@ -4,17 +4,7 @@ import { useCallback, useMemo } from "react";
 import { useLocalStorage } from "./common";
 import { STORAGE_KEYS } from "../lib/constants";
 import { verseKey, parseVerseKey } from "../lib/utils";
-
-type Bookmark = string;
-type Notes = Record<string, string>;
-
-type NoteTarget = {
-  surah: number;
-  ayah: number;
-  key: string;
-};
-
-type SetState<T> = (value: T | ((prev: T) => T)) => void;
+import type { Bookmark, Notes, NoteTarget, SetState } from "../lib/types";
 
 /**
  * Hook for managing bookmarks and notes

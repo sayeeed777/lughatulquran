@@ -3,7 +3,6 @@ export {
   useLastRead,
   useKeyboardShortcuts,
   useIntersectionObserver,
-  useAudioPlayer,
   useDebounce,
   useWindowSize
 } from "./common";

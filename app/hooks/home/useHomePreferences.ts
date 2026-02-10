@@ -16,7 +16,7 @@ export function useHomePreferences() {
   const [storedPlaybackRate, setStoredPlaybackRate] = useLocalStorage(
     STORAGE_KEYS.playbackRate,
     1
-  ) as [number, (value: number | ((prev: number) => number)) => void, boolean];
+  );
   const playbackRate = clamp(Number(storedPlaybackRate) || 1, 0.75, 1.25);
   const setPlaybackRate = useCallback(
     (value: number | ((prev: number) => number)) => {
@@ -40,7 +40,7 @@ export function useHomePreferences() {
   const [reciterId, setReciterId] = useLocalStorage(
     STORAGE_KEYS.reciter,
     defaultReciter.id
-  ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
+  );
   const selectedReciter = useMemo<Reciter>(
     () => AUDIO_RECITERS.find((r) => r.id === reciterId) ?? defaultReciter,
     [reciterId, defaultReciter]
@@ -66,7 +66,7 @@ export function useHomePreferences() {
   const [arabicFontId, setArabicFontId, isArabicFontLoaded] = useLocalStorage(
     STORAGE_KEYS.arabicFont,
     fallbackDefaultArabicFontId
-  ) as [string, (value: string | ((prev: string) => string)) => void, boolean];
+  );
   const selectedArabicFont = useMemo<ArabicFont>(
     () => ARABIC_FONTS.find((font) => font.id === arabicFontId) ?? defaultArabicFont,
     [arabicFontId, defaultArabicFont]

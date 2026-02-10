@@ -187,14 +187,19 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
     while (true) {
       try {
         const response = await fetcher(url, { signal });
-        const payload = (await response.json()) as T;
         if (!response.ok) {
-          const message =
-            typeof payload === "object" && payload && "error" in payload
-              ? String((payload as { error?: string }).error || `Request failed (${response.status})`)
-              : `Request failed (${response.status})`;
-          throw new Error(message);
+          let errorMessage = `Request failed (${response.status})`;
+          try {
+            const body = await response.json();
+            if (typeof body === "object" && body && "error" in body) {
+              errorMessage = String((body as { error?: string }).error || errorMessage);
+            }
+          } catch {
+            // body wasn't JSON — use the default status message
+          }
+          throw new Error(errorMessage);
         }
+        const payload = (await response.json()) as T;
         if (ttl > 0) {
           const entry: CacheEntry<T> = { timestamp: Date.now(), data: payload };
           cache.set(cacheKey, entry);
@@ -217,13 +222,13 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
   const startRequest = () => {
     const request = performFetch();
     inflight.set(cacheKey, request);
-    request.finally(() => inflight.delete(cacheKey)).catch(() => {});
+    request.finally(() => inflight.delete(cacheKey)).catch(() => { });
     return request;
   };
 
   if (staleEntry) {
     if (!inflight.has(cacheKey)) {
-      startRequest().catch(() => {});
+      startRequest().catch(() => { });
     }
     return staleEntry.data as T;
   }

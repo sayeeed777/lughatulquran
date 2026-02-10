@@ -1,20 +1,7 @@
 import { useLocalStorage } from "./common";
 import { STORAGE_KEYS, DEFAULT_PLAN, FONT_SCALE } from "../lib/constants";
 import { clamp } from "../lib/utils";
-
-type ReadingPlan = {
-  startDate: string;
-  perDay: number;
-  startSurah: number;
-  startAyah: number;
-};
-
-type FontScale = {
-  arabic: number;
-  translation: number;
-};
-
-type SetState<T> = (value: T | ((prev: T) => T)) => void;
+import type { ReadingPlan, FontScale, SetState } from "../lib/types";
 
 export function useReadingPlan() {
   const [storedPlan, setStoredPlan, isLoaded] = useLocalStorage(

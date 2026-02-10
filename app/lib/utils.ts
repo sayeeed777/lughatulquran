@@ -34,11 +34,7 @@ export const pad = (value: number | string, length = 3): string =>
 export const getAudioUrl = (baseUrl: string, surahNumber: number, ayahNumber: number): string =>
   `${baseUrl}/${pad(surahNumber)}${pad(ayahNumber)}.mp3`;
 
-// Arabic text utilities
-export const sanitizeArabic = (text?: string | null): string => {
-  if (!text) return "";
-  return text;
-};
+
 
 // Debounce utility
 export const debounce = <T extends (...args: unknown[]) => void>(fn: T, delay: number) => {
@@ -65,19 +61,36 @@ export const throttle = <T extends (...args: unknown[]) => void>(fn: T, limit: n
 
 // Copy to clipboard
 export const copyToClipboard = async (text: string): Promise<boolean> => {
-  if (navigator?.clipboard?.writeText) {
-    await navigator.clipboard.writeText(text);
-    return true;
+  if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Fall through to legacy fallback below.
+    }
   }
-  
+
+  if (typeof document === "undefined") return false;
+
   const textarea = document.createElement("textarea");
   textarea.value = text;
-  textarea.className = "clipboard-fallback-area";
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.top = "-9999px";
+  textarea.style.opacity = "0";
   document.body.appendChild(textarea);
+
+  textarea.focus();
   textarea.select();
-  document.execCommand("copy");
-  document.body.removeChild(textarea);
-  return true;
+  textarea.setSelectionRange(0, textarea.value.length);
+
+  try {
+    return document.execCommand("copy");
+  } catch {
+    return false;
+  } finally {
+    document.body.removeChild(textarea);
+  }
 };
 
 // Format reading progress
@@ -86,12 +99,3 @@ export const formatProgress = (current: number, total: number) => {
   return { current, total, percentage };
 };
 
-// Generate ayah link
-export const generateAyahLink = (surahNumber: number, ayahNumber: number): string => {
-  if (typeof window === "undefined") return "";
-  const url = new URL(window.location.href);
-  url.searchParams.set("surah", String(surahNumber));
-  url.searchParams.set("ayah", String(ayahNumber));
-  url.hash = `ayah-${ayahNumber}`;
-  return url.toString();
-};

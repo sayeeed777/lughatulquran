@@ -24,7 +24,7 @@ type UseHomeEffectsParams = {
   setMemorizeConfig: (value: MemorizeConfig | ((prev: MemorizeConfig) => MemorizeConfig)) => void;
   setIsAutoPlaying: (value: boolean) => void;
   setIsAudioPaused: (value: boolean) => void;
-  nowPlaying: NowPlaying;
+  nowPlaying: NowPlaying | null;
   isAutoPlaying: boolean;
 };
 

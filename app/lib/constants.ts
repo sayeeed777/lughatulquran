@@ -1,3 +1,5 @@
+import { getLocalDateString } from "./utils";
+
 // Audio Reciters
 export const AUDIO_RECITERS = [
   {
@@ -86,13 +88,7 @@ export const ALL_TRANSLATIONS = [
   { id: "taqi-usmani", label: "Mufti Taqi Usmani", short: "Taqi Usmani" }
 ];
 
-// Helper to get local date string
-const getLocalDateString = () => {
-  const now = new Date();
-  const offset = now.getTimezoneOffset();
-  const local = new Date(now.getTime() - offset * 60000);
-  return local.toISOString().slice(0, 10);
-};
+
 
 // Reading Plan Defaults
 export const DEFAULT_PLAN = {

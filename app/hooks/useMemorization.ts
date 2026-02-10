@@ -3,22 +3,9 @@
 import { useCallback, useEffect } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { clamp, verseKey } from "../lib/utils";
-import type { Surah } from "../lib/types";
+import type { Surah, MemorizeConfig, NowPlaying } from "../lib/types";
 
 type SurahSummary = Pick<Surah, "number" | "numberOfAyahs">;
-
-type MemorizeConfig = {
-  active: boolean;
-  startAyah: number;
-  endAyah: number;
-  loops: number;
-  remaining: number;
-};
-
-type NowPlaying = {
-  surah: number;
-  ayah: number;
-};
 
 type StartMemorizeConfig = {
   startAyah?: number;

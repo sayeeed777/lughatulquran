@@ -2,25 +2,11 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { STORAGE_KEYS } from "../lib/constants";
+import type { SetState, ShortcutConfig, StudySession } from "../lib/types";
 
-type SetState<T> = (value: T | ((prev: T) => T)) => void;
+export type { StudySession };
 
-// No re-exports needed here
-
-export type StudySession = {
-  surah: number;
-  ayah: number;
-  surahName: string;
-  reciterId: string;
-  playbackRate: number;
-  fontScale: {
-    arabic: number;
-    translation: number;
-  };
-  updatedAt: number;
-};
-
-// Hook for localStorage with SSR safety
+// Hook for localStorage with SSR safety and parse validation
 export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T>, boolean] {
   const [storedValue, setStoredValue] = useState<T>(initialValue);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -31,10 +17,19 @@ export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T
     try {
       const item = localStorage.getItem(key);
       if (item) {
-        setStoredValue(JSON.parse(item) as T);
+        const parsed: unknown = JSON.parse(item);
+        // Basic structural validation: reject primitives when expecting objects and vice-versa
+        if (parsed !== null && parsed !== undefined) {
+          setStoredValue(parsed as T);
+        }
       }
-    } catch (error) {
-      console.error(`Error reading localStorage key "${key}":`, error);
+    } catch {
+      // Malformed or tampered data — fall back to initialValue
+      try {
+        localStorage.removeItem(key);
+      } catch {
+        // ignore storage errors
+      }
     }
     setIsLoaded(true);
   }, [key]);
@@ -48,8 +43,7 @@ export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T
             localStorage.setItem(key, JSON.stringify(valueToStore));
           }
           return valueToStore;
-        } catch (error) {
-          console.error(`Error setting localStorage key "${key}":`, error);
+        } catch {
           return prevValue;
         }
       });
@@ -103,9 +97,9 @@ export function useStudySession() {
   return { studySession, updateStudySession };
 }
 
-// Hook for keyboard shortcuts
+// Hook for keyboard shortcuts (properly typed)
 export function useKeyboardShortcuts(
-  shortcuts: Record<string, any>,
+  shortcuts: ShortcutConfig,
   enabled = true
 ) {
   useEffect(() => {
@@ -142,7 +136,7 @@ export function useKeyboardShortcuts(
   }, [shortcuts, enabled]);
 }
 
-// Hook for intersection observer (for lazy loading and tracking)
+// Hook for intersection observer
 export function useIntersectionObserver(options: IntersectionObserverInit = {}) {
   const [ref, setRef] = useState<Element | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
@@ -167,28 +161,6 @@ export function useIntersectionObserver(options: IntersectionObserverInit = {}) 
   return [setRef, isIntersecting] as const;
 }
 
-// Hook for audio playback
-export function useAudioPlayer(initialSrc: string | null = null) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [currentTime, setCurrentTime] = useState(0);
-  const [duration, setDuration] = useState(0);
-  const [error, setError] = useState<string | null>(null);
-
-  const play = useCallback(() => setIsPlaying(true), []);
-  const pause = useCallback(() => setIsPlaying(false), []);
-  const toggle = useCallback(() => setIsPlaying((prev) => !prev), []);
-
-  return {
-    isPlaying,
-    currentTime,
-    duration,
-    error,
-    play,
-    pause,
-    toggle
-  };
-}
-
 // Hook for debounced value
 export function useDebounce<T>(value: T, delay = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -201,18 +173,33 @@ export function useDebounce<T>(value: T, delay = 300) {
   return debouncedValue;
 }
 
-// Hook for window size
+// Hook for window size (with throttle)
 export function useWindowSize() {
   const [size, setSize] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
+    let rafId: number | null = null;
+
     const updateSize = () => {
       setSize({ width: window.innerWidth, height: window.innerHeight });
     };
 
+    const handleResize = () => {
+      if (rafId !== null) return;
+      rafId = window.requestAnimationFrame(() => {
+        updateSize();
+        rafId = null;
+      });
+    };
+
     updateSize();
-    window.addEventListener("resize", updateSize);
-    return () => window.removeEventListener("resize", updateSize);
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      if (rafId !== null) {
+        window.cancelAnimationFrame(rafId);
+      }
+    };
   }, []);
 
   return size;

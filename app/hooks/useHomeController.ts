@@ -23,7 +23,6 @@ import type {
   MemorizeConfig,
   NoteTarget,
   Notes,
-  NowPlaying,
   ReadingPlan,
   Surah,
   SurahData,
@@ -185,7 +184,7 @@ export function useHomeController() {
     setMemorizeConfig,
     setIsAutoPlaying,
     setIsAudioPaused,
-    nowPlaying: nowPlaying as NowPlaying,
+    nowPlaying,
     isAutoPlaying
   });
 
@@ -259,7 +258,10 @@ export function useHomeController() {
       const key = verseKey(surahNumber, ayahNumber);
       setCopiedKey(key);
       setTimeout(() => setCopiedKey((prev) => (prev === key ? null : prev)), 1600);
+      return;
     }
+
+    window.prompt("Copy this ayah link:", url.toString());
   }, []);
 
   const handleCompare = (ayah: Ayah) => {
@@ -338,7 +340,7 @@ export function useHomeController() {
     setFocusedAyahKey,
     pendingScroll,
     setPendingScroll,
-    nowPlaying: nowPlaying as NowPlaying,
+    nowPlaying,
     isAutoPlaying,
     isAudioPaused,
     handlePlaySurah,
