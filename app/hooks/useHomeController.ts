@@ -227,17 +227,16 @@ export function useHomeController() {
         setPendingScroll(null);
       } else {
         const firstAyahKey = verseKey(surah.number, 1);
-        setPendingScroll(1);
+        setPendingScroll(null);
         setFocusedAyahKey(firstAyahKey);
       }
       window.requestAnimationFrame(() => {
-        const readerPanel = document.querySelector(".reader-panel");
-        if (readerPanel) {
-          readerPanel.scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-          });
-        }
+        const readerPanel = document.querySelector<HTMLElement>(".reader-panel");
+        if (!readerPanel) return;
+        readerPanel.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
       });
     }
   };
