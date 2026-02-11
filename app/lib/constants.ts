@@ -135,8 +135,8 @@ export const PRAYER_METHODS = [
 ];
 
 export const PRAYER_MADHABS = [
-  { id: "SHAFI", label: "Shafi" },
-  { id: "HANAFI", label: "Hanafi" }
+  { id: "HANAFI", label: "Hanafi" },
+  { id: "SHAFI", label: "Shafi" }
 ];
 
 
