@@ -1564,9 +1564,16 @@ textarea:focus-visible {
 
 /* Native APK-only mobile layout tuning (Capacitor) */
 @media (max-width: 1024px) {
+  html.is-native-app .content {
+    gap: 4px !important;
+  }
+
   html.is-native-app .surah-panel {
-    max-height: 60vh !important;
-    max-height: min(60svh, 560px) !important;
+    padding-bottom: 0 !important;
+  }
+
+  html.is-native-app .reader-panel {
+    padding-top: 0 !important;
   }
 
   html.is-native-app .app {
@@ -1576,9 +1583,16 @@ textarea:focus-visible {
 }
 
 @media (max-width: 640px) {
+  html.is-native-app .content {
+    gap: 2px !important;
+  }
+
   html.is-native-app .surah-panel {
-    max-height: 58vh !important;
-    max-height: min(58svh, 520px) !important;
+    padding-bottom: 0 !important;
+  }
+
+  html.is-native-app .reader-panel {
+    padding-top: 0 !important;
   }
 
   html.is-native-app .app {
