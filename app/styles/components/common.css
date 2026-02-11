@@ -1584,7 +1584,7 @@ textarea:focus-visible {
 
 @media (max-width: 640px) {
   html.is-native-app .content {
-    gap: 2px !important;
+    gap: 4px !important;
   }
 
   html.is-native-app .surah-panel {
