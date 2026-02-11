@@ -257,22 +257,94 @@
   color: var(--muted);
 }
 
+.prayer-city-input-shell {
+  position: relative;
+}
+
+.prayer-city-input {
+  padding-left: 36px;
+  padding-right: 38px;
+}
+
+.prayer-city-input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.prayer-city-input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.prayer-city-clear-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.prayer-city-clear-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  color: var(--text);
+}
+
+.prayer-city-selected-pill {
+  margin-top: 8px;
+  border: 1px solid rgba(111, 212, 177, 0.24);
+  background: linear-gradient(135deg, rgba(111, 212, 177, 0.14), rgba(111, 212, 177, 0.05));
+  border-radius: 10px;
+  padding: 9px 11px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.prayer-city-selected-main {
+  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.prayer-city-selected-meta {
+  color: var(--muted);
+  font-size: 0.76rem;
+}
+
 .prayer-city-options-status {
   margin-top: 8px;
   padding: 10px 12px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
   color: var(--muted);
   font-size: 0.82rem;
 }
 
 .prayer-city-options {
   margin-top: 8px;
-  max-height: 220px;
+  max-height: 250px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 7px;
+  padding: 8px;
+  border-radius: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.03);
   padding-right: 4px;
 }
 
@@ -285,6 +357,15 @@
   border-radius: 10px;
 }
 
+.prayer-city-options-head {
+  margin: 2px 4px 4px;
+  color: var(--muted);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 .prayer-city-option {
   width: 100%;
   border: 1px solid rgba(255, 255, 255, 0.09);
@@ -292,22 +373,35 @@
   background: rgba(255, 255, 255, 0.04);
   color: var(--text);
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
   padding: 10px 12px;
   text-align: left;
   cursor: pointer;
 }
 
-.prayer-city-option span:last-child {
+.prayer-city-option-main {
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.prayer-city-option-meta {
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.77rem;
+  line-height: 1.2;
 }
 
 .prayer-city-option:hover {
   border-color: rgba(111, 212, 177, 0.35);
   background: rgba(111, 212, 177, 0.08);
+}
+
+.prayer-city-option.active {
+  border-color: rgba(111, 212, 177, 0.45);
+  background: rgba(111, 212, 177, 0.12);
 }
 
 .prayer-preview-card {

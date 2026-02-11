@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { PRAYER_COUNTRIES, PRAYER_MADHABS, PRAYER_METHODS } from "../../lib/constants";
@@ -40,6 +40,24 @@ type PrayerTimesResponse = {
 };
 
 const PRAYER_ORDER = ["Fajr", "Dhuhr", "Asr", "Maghrib", "Isha"] as const;
+const RECENT_LOCATIONS_KEY = "quran.prayer_recent_locations.v1";
+const MAX_RECENT_LOCATIONS = 5;
+
+const isValidLocationOption = (value: unknown): value is PrayerLocationOption => {
+  if (!value || typeof value !== "object") return false;
+  const record = value as Record<string, unknown>;
+  return (
+    typeof record.countryCode === "string"
+    && typeof record.country === "string"
+    && typeof record.city === "string"
+    && typeof record.timezone === "string"
+    && typeof record.latitude === "number"
+    && Number.isFinite(record.latitude)
+    && typeof record.longitude === "number"
+    && Number.isFinite(record.longitude)
+    && (record.geonameId === null || typeof record.geonameId === "number")
+  );
+};
 
 export default function PrayerPanel({
   isOpen,
@@ -49,6 +67,10 @@ export default function PrayerPanel({
   nextPrayerPreview,
   hasPrayerLocation
 }: PrayerPanelProps) {
+  const [cityInput, setCityInput] = useState("");
+  const [isCityFocused, setIsCityFocused] = useState(false);
+  const [highlightedCityIndex, setHighlightedCityIndex] = useState(-1);
+  const [recentLocations, setRecentLocations] = useState<PrayerLocationOption[]>([]);
   const [locationOptions, setLocationOptions] = useState<PrayerLocationOption[]>([]);
   const [locationStatus, setLocationStatus] = useState<"idle" | "loading" | "error">("idle");
   const [timings, setTimings] = useState<Record<string, PrayerTiming>>({});
@@ -67,9 +89,40 @@ export default function PrayerPanel({
 
   useEffect(() => {
     if (!isOpen) return;
+    setCityInput(String(prayerSettings.city || "").trim());
+    setIsCityFocused(false);
+    setHighlightedCityIndex(-1);
+  }, [isOpen, prayerSettings.city]);
+
+  useEffect(() => {
+    if (!isOpen || typeof window === "undefined") return;
+    try {
+      const raw = window.localStorage.getItem(RECENT_LOCATIONS_KEY);
+      if (!raw) {
+        setRecentLocations([]);
+        return;
+      }
+      const parsed = JSON.parse(raw) as unknown;
+      if (!Array.isArray(parsed)) {
+        setRecentLocations([]);
+        return;
+      }
+      setRecentLocations(parsed.filter(isValidLocationOption).slice(0, MAX_RECENT_LOCATIONS));
+    } catch {
+      setRecentLocations([]);
+    }
+  }, [isOpen]);
+
+  useEffect(() => {
+    if (!isOpen) return;
     const countryCode = String(prayerSettings.countryCode || "").trim();
-    const query = String(prayerSettings.city || "").trim();
+    const query = String(cityInput || "").trim();
     if (!countryCode) {
+      setLocationStatus("idle");
+      setLocationOptions([]);
+      return;
+    }
+    if (query.length === 1) {
       setLocationStatus("idle");
       setLocationOptions([]);
       return;
@@ -106,7 +159,15 @@ export default function PrayerPanel({
       abortController.abort();
       window.clearTimeout(timeoutId);
     };
-  }, [isOpen, prayerSettings.city, prayerSettings.countryCode]);
+  }, [cityInput, isOpen, prayerSettings.countryCode]);
+
+  useEffect(() => {
+    setHighlightedCityIndex((prev) => {
+      if (locationOptions.length === 0) return -1;
+      if (prev < 0) return 0;
+      return Math.min(prev, locationOptions.length - 1);
+    });
+  }, [locationOptions]);
 
   useEffect(() => {
     if (!isOpen || !hasPrayerLocation) {
@@ -196,6 +257,108 @@ export default function PrayerPanel({
       }),
     [timings]
   );
+  const trimmedCityInput = cityInput.trim();
+  const recentInCountry = useMemo(
+    () =>
+      recentLocations.filter((item) =>
+        !prayerSettings.countryCode || item.countryCode === prayerSettings.countryCode
+      ),
+    [prayerSettings.countryCode, recentLocations]
+  );
+  const showRecentLocations = Boolean(
+    isCityFocused
+      && prayerSettings.countryCode
+      && !trimmedCityInput
+      && locationStatus !== "loading"
+      && recentInCountry.length > 0
+  );
+  const showCityResults = Boolean(
+    isCityFocused
+      && prayerSettings.countryCode
+      && !showRecentLocations
+      && locationOptions.length > 0
+  );
+  const showNoMatch = Boolean(
+    isCityFocused
+      && locationStatus === "idle"
+      && prayerSettings.countryCode
+      && trimmedCityInput.length >= 2
+      && locationOptions.length === 0
+  );
+
+  const rememberRecentLocation = (option: PrayerLocationOption) => {
+    setRecentLocations((prev) => {
+      const filtered = prev.filter((item) =>
+        item.geonameId != null && option.geonameId != null
+          ? item.geonameId !== option.geonameId
+          : !(item.countryCode === option.countryCode && item.city === option.city)
+      );
+      const next = [option, ...filtered].slice(0, MAX_RECENT_LOCATIONS);
+      if (typeof window !== "undefined") {
+        try {
+          window.localStorage.setItem(RECENT_LOCATIONS_KEY, JSON.stringify(next));
+        } catch {
+          // Ignore storage restrictions.
+        }
+      }
+      return next;
+    });
+  };
+
+  const applyLocationOption = (option: PrayerLocationOption) => {
+    setPrayerSettings((prev) => ({
+      ...prev,
+      countryCode: option.countryCode,
+      countryName: option.country,
+      city: option.city,
+      timezone: option.timezone || prev.timezone,
+      latitude: option.latitude,
+      longitude: option.longitude,
+      geonameId: option.geonameId
+    }));
+    setCityInput(option.city);
+    setLocationOptions([]);
+    setIsCityFocused(false);
+    setHighlightedCityIndex(-1);
+    rememberRecentLocation(option);
+  };
+
+  const handleCityInputBlur = () => {
+    window.setTimeout(() => {
+      setIsCityFocused(false);
+      setHighlightedCityIndex(-1);
+    }, 120);
+  };
+
+  const handleCityInputKeyDown = (event: ReactKeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "ArrowDown") {
+      if (!locationOptions.length) return;
+      event.preventDefault();
+      setHighlightedCityIndex((prev) => {
+        if (prev < 0) return 0;
+        return Math.min(prev + 1, locationOptions.length - 1);
+      });
+      return;
+    }
+
+    if (event.key === "ArrowUp") {
+      if (!locationOptions.length) return;
+      event.preventDefault();
+      setHighlightedCityIndex((prev) => Math.max(prev - 1, 0));
+      return;
+    }
+
+    if (event.key === "Enter" && highlightedCityIndex >= 0 && highlightedCityIndex < locationOptions.length) {
+      event.preventDefault();
+      applyLocationOption(locationOptions[highlightedCityIndex]);
+      return;
+    }
+
+    if (event.key === "Escape") {
+      setIsCityFocused(false);
+      setHighlightedCityIndex(-1);
+    }
+  };
 
   return (
     <AnimatePresence>
@@ -274,6 +437,9 @@ export default function PrayerPanel({
                           longitude: null,
                           geonameId: null
                         }));
+                        setCityInput("");
+                        setIsCityFocused(false);
+                        setHighlightedCityIndex(-1);
                         setLocationOptions([]);
                       }}
                     >
@@ -288,65 +454,116 @@ export default function PrayerPanel({
 
                   <label className="settings-field">
                     <span className="settings-field-label">City</span>
-                    <input
-                      className="settings-input"
-                      type="text"
-                      placeholder="Start typing city..."
-                      value={prayerSettings.city}
-                      onChange={(event) =>
-                        setPrayerSettings((prev) => ({
-                          ...prev,
-                          city: event.target.value,
-                          latitude: null,
-                          longitude: null,
-                          geonameId: null
-                        }))
-                      }
-                    />
+                    <div className="prayer-city-input-shell">
+                      <span className="prayer-city-input-icon" aria-hidden="true">⌕</span>
+                      <input
+                        className="settings-input prayer-city-input"
+                        type="text"
+                        role="combobox"
+                        aria-expanded={showCityResults || showRecentLocations}
+                        aria-controls={showCityResults || showRecentLocations ? "prayer-city-options" : undefined}
+                        aria-activedescendant={showCityResults && highlightedCityIndex >= 0
+                          ? `prayer-city-option-${highlightedCityIndex}`
+                          : undefined}
+                        placeholder={prayerSettings.countryCode ? "Search city..." : "Select country first"}
+                        value={cityInput}
+                        onFocus={() => setIsCityFocused(true)}
+                        onBlur={handleCityInputBlur}
+                        onKeyDown={handleCityInputKeyDown}
+                        onChange={(event) => {
+                          setCityInput(event.target.value);
+                          setIsCityFocused(true);
+                          setHighlightedCityIndex(-1);
+                        }}
+                        autoComplete="off"
+                        spellCheck={false}
+                        disabled={!prayerSettings.countryCode}
+                      />
+                      {cityInput && (
+                        <button
+                          type="button"
+                          className="prayer-city-clear-btn"
+                          aria-label="Clear city search"
+                          onClick={() => {
+                            setCityInput("");
+                            setHighlightedCityIndex(-1);
+                            setLocationOptions([]);
+                          }}
+                        >
+                          ×
+                        </button>
+                      )}
+                    </div>
                     <p className="settings-field-hint">
-                      Choose a suggestion for exact coordinates and timezone.
+                      Pick from suggestions for the most accurate coordinates and timezone.
                     </p>
 
-                    {locationStatus === "loading" && (
+                    {prayerSettings.geonameId && (
+                      <div className="prayer-city-selected-pill">
+                        <span className="prayer-city-selected-main">
+                          {prayerSettings.city}, {prayerSettings.countryCode}
+                        </span>
+                        <span className="prayer-city-selected-meta">
+                          {prayerSettings.timezone} • GeoNames #{prayerSettings.geonameId}
+                        </span>
+                      </div>
+                    )}
+
+                    {locationStatus === "loading" && isCityFocused && (
                       <div className="prayer-city-options-status">Searching cities...</div>
                     )}
                     {locationStatus === "error" && (
                       <div className="prayer-city-options-status">
-                        Unable to load city list. Please try again.
+                        Unable to load city list. Check connection and try again.
                       </div>
                     )}
-                    {locationOptions.length > 0 && (
-                      <div className="prayer-city-options" role="listbox" aria-label="City options">
-                        {locationOptions.map((option) => (
+
+                    {showRecentLocations && (
+                      <div className="prayer-city-options" role="listbox" aria-label="Recent city options" id="prayer-city-options">
+                        <p className="prayer-city-options-head">Recent</p>
+                        {recentInCountry.map((option) => (
                           <button
-                            key={`${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
+                            key={`recent-${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
                             type="button"
                             className="prayer-city-option"
-                            onClick={() => {
-                              setPrayerSettings((prev) => ({
-                                ...prev,
-                                countryCode: option.countryCode,
-                                countryName: option.country,
-                                city: option.city,
-                                timezone: option.timezone || prev.timezone,
-                                latitude: option.latitude,
-                                longitude: option.longitude,
-                                geonameId: option.geonameId
-                              }));
-                              setLocationOptions([]);
-                            }}
+                            onMouseDown={(event) => event.preventDefault()}
+                            onClick={() => applyLocationOption(option)}
                           >
-                            <span>{option.city}, {option.countryCode}</span>
-                            <span>{option.timezone}</span>
+                            <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
+                            <span className="prayer-city-option-meta">Recent • {option.timezone}</span>
                           </button>
                         ))}
                       </div>
                     )}
-                    {locationStatus === "idle"
-                      && Boolean(prayerSettings.countryCode)
-                      && Boolean(prayerSettings.city.trim())
-                      && locationOptions.length === 0 && (
-                        <div className="prayer-city-options-status">No matching city found. Try another spelling.</div>
+
+                    {showCityResults && (
+                      <div className="prayer-city-options" role="listbox" aria-label="City options" id="prayer-city-options">
+                        <p className="prayer-city-options-head">
+                          {trimmedCityInput ? "Suggestions" : "Popular cities"}
+                        </p>
+                        {locationOptions.map((option, index) => (
+                          <button
+                            key={`${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
+                            type="button"
+                            id={`prayer-city-option-${index}`}
+                            className={`prayer-city-option${highlightedCityIndex === index ? " active" : ""}`}
+                            onMouseDown={(event) => event.preventDefault()}
+                            onMouseEnter={() => setHighlightedCityIndex(index)}
+                            onClick={() => applyLocationOption(option)}
+                          >
+                            <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
+                            <span className="prayer-city-option-meta">
+                              {option.timezone}{option.geonameId ? ` • #${option.geonameId}` : ""}
+                            </span>
+                          </button>
+                        ))}
+                      </div>
+                    )}
+
+                    {showNoMatch && (
+                      <div className="prayer-city-options-status">
+                        No matching city found. Try another spelling or a nearby major city.
+                      </div>
                     )}
                   </label>
                 </section>

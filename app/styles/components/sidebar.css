@@ -52,6 +52,76 @@
   margin-left: -2px;
 }
 
+.surah-prayer-hint-anchor {
+  position: relative;
+}
+
+.surah-prayer-hint {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: -6px;
+  width: min(220px, 68vw);
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(111, 212, 177, 0.3);
+  background: linear-gradient(150deg, rgba(19, 34, 38, 0.96), rgba(12, 22, 27, 0.95));
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  z-index: 45;
+  animation: prayerHintIn 0.18s ease-out;
+}
+
+.surah-prayer-hint::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 18px;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid rgba(111, 212, 177, 0.3);
+  border-top: 1px solid rgba(111, 212, 177, 0.3);
+  background: rgba(17, 31, 36, 0.96);
+  transform: rotate(45deg);
+}
+
+.surah-prayer-hint-title {
+  margin: 0;
+  font-size: 0.74rem;
+  font-weight: 620;
+  color: var(--text);
+}
+
+.surah-prayer-hint-text {
+  margin: 5px 0 8px;
+  font-size: 0.7rem;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.surah-prayer-hint-dismiss {
+  border: none;
+  background: transparent;
+  color: var(--accent-2);
+  font-size: 0.69rem;
+  font-weight: 600;
+  padding: 0;
+}
+
+.surah-prayer-hint-dismiss:hover {
+  color: var(--accent);
+}
+
+@keyframes prayerHintIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .surah-panel-header .surah-study-btn {
   height: 34px;
   padding: 0 12px;
@@ -287,6 +357,15 @@
   .surah-header-actions {
     margin-right: 4px;
     gap: 6px;
+  }
+
+  .surah-prayer-hint {
+    right: -2px;
+    width: min(210px, 72vw);
+  }
+
+  .surah-prayer-hint::before {
+    right: 14px;
   }
 }
 
