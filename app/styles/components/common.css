@@ -1564,6 +1564,11 @@ textarea:focus-visible {
 
 /* Native APK-only mobile layout tuning (Capacitor) */
 @media (max-width: 1024px) {
+  html.is-native-app .surah-panel {
+    max-height: 64vh !important;
+    max-height: min(64svh, 65vh) !important;
+  }
+
   html.is-native-app .content {
     gap: 4px !important;
   }
@@ -1583,6 +1588,11 @@ textarea:focus-visible {
 }
 
 @media (max-width: 640px) {
+  html.is-native-app .surah-panel {
+    max-height: 63vh !important;
+    max-height: min(63svh, 65vh) !important;
+  }
+
   html.is-native-app .content {
     gap: 4px !important;
   }
