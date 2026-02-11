@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest",
-    "verify:prayer": "node scripts/verify-prayer-times.mjs"
+    "verify:prayer": "node scripts/verify-prayer-times.mjs",
+    "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs"
   },
   "dependencies": {
     "adhan": "^4.4.3",

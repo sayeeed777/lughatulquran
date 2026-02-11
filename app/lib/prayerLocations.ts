@@ -1,4 +1,5 @@
 import type { PrayerLocationOption } from "./types";
+import prayerLocationsSupplemental from "../data/prayerLocationsSupplemental.json";
 
 const DEFAULT_DATASET_URL =
   "https://cdn.jsdelivr.net/gh/sayeeed777/prayer-locations-data@main/locations.json";
@@ -26,7 +27,8 @@ const normalizeForMatch = (value: string) =>
   normalizeText(value)
     .replace(/[^a-z0-9\s]/g, " ")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    .replace(/\bpanjab\b/g, "punjab");
 
 const compactText = (value: string) => value.replace(/\s+/g, "");
 
@@ -68,6 +70,26 @@ const parsePayload = (payload: PrayerLocationPayload): PrayerLocationOption[] =>
     .filter((item): item is PrayerLocationOption => Boolean(item));
 };
 
+const toLocationKey = (location: PrayerLocationOption) =>
+  Number.isFinite(location.geonameId)
+    ? `gid:${location.geonameId}`
+    : `${location.countryCode}:${normalizeForMatch(location.city)}:${location.latitude}:${location.longitude}`;
+
+const mergeLocations = (...lists: PrayerLocationOption[][]) => {
+  const merged = new Map<string, PrayerLocationOption>();
+  for (const list of lists) {
+    for (const location of list) {
+      const key = toLocationKey(location);
+      if (!merged.has(key)) {
+        merged.set(key, location);
+      }
+    }
+  }
+  return Array.from(merged.values());
+};
+
+const supplementalLocations = parsePayload(prayerLocationsSupplemental as PrayerLocationPayload);
+
 export async function loadPrayerLocations(): Promise<PrayerLocationOption[]> {
   const now = Date.now();
   if (prayerLocationCache && now - prayerLocationCache.loadedAt < CACHE_TTL_MS) {
@@ -75,16 +97,25 @@ export async function loadPrayerLocations(): Promise<PrayerLocationOption[]> {
   }
 
   const datasetUrl = process.env.PRAYER_LOCATIONS_DATASET_URL || DEFAULT_DATASET_URL;
-  const response = await fetch(datasetUrl, {
-    next: { revalidate: 21600 }
-  });
+  let remoteLocations: PrayerLocationOption[] = [];
 
-  if (!response.ok) {
-    throw new Error(`Failed to load location dataset (${response.status}).`);
+  try {
+    const response = await fetch(datasetUrl, {
+      next: { revalidate: 21600 }
+    });
+    if (response.ok) {
+      const payload = (await response.json()) as PrayerLocationPayload;
+      remoteLocations = parsePayload(payload);
+    }
+  } catch {
+    remoteLocations = [];
   }
 
-  const payload = (await response.json()) as PrayerLocationPayload;
-  const locations = parsePayload(payload);
+  const locations = mergeLocations(remoteLocations, supplementalLocations);
+  if (!locations.length) {
+    throw new Error("No prayer locations available.");
+  }
+
   prayerLocationCache = {
     loadedAt: now,
     locations
