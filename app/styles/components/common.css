@@ -1561,3 +1561,28 @@ textarea:focus-visible {
     font-size: 0.75rem;
   }
 }
+
+/* Native APK-only mobile layout tuning (Capacitor) */
+@media (max-width: 1024px) {
+  html.is-native-app .surah-panel {
+    max-height: 56vh !important;
+    max-height: min(56svh, 520px) !important;
+  }
+
+  html.is-native-app .app {
+    padding-top: max(12px, env(safe-area-inset-top, 0px)) !important;
+    padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}
+
+@media (max-width: 640px) {
+  html.is-native-app .surah-panel {
+    max-height: 52vh !important;
+    max-height: min(52svh, 480px) !important;
+  }
+
+  html.is-native-app .app {
+    padding-top: max(12px, env(safe-area-inset-top, 0px)) !important;
+    padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+}

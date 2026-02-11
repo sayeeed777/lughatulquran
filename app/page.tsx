@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   SurahList,
   ReaderPanel,
@@ -24,6 +24,19 @@ import { ThemeProvider, AudioProvider, BookmarkProvider } from "./contexts";
 
 export default function Home() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const maybeCapacitor = (window as unknown as { Capacitor?: { isNativePlatform?: () => boolean } }).Capacitor;
+    const isNativeApp = Boolean(maybeCapacitor?.isNativePlatform?.());
+
+    document.documentElement.classList.toggle("is-native-app", isNativeApp);
+
+    return () => {
+      document.documentElement.classList.remove("is-native-app");
+    };
+  }, []);
 
   const {
     surahs,
