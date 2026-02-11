@@ -14,9 +14,14 @@
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest",
     "verify:prayer": "node scripts/verify-prayer-times.mjs",
-    "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs"
+    "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs",
+    "cap:sync": "npx cap sync",
+    "cap:copy": "npx cap copy",
+    "cap:android": "npx cap open android"
   },
   "dependencies": {
+    "@capacitor/android": "^8.0.2",
+    "@capacitor/core": "^8.0.2",
     "adhan": "^4.4.3",
     "framer-motion": "^12.31.0",
     "next": "^16.1.6",
@@ -24,6 +29,7 @@
     "react-dom": "^19.2.4"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.0.2",
     "@testing-library/react": "^16.0.1",
     "@types/node": "^25.2.1",
     "@types/react": "^19.2.13",

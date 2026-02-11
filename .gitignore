@@ -21,3 +21,9 @@ yarn-error.log*
 .vercel/
 *.tsbuildinfo
 .vercel
+
+# android / capacitor
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/

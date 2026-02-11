@@ -1159,3 +1159,155 @@
   transform: translateY(0);
   box-shadow: none;
 }
+
+/* Prayer UI light-mode fixes */
+:root[data-theme="light"] .settings-select,
+:root[data-theme="light"] .mobile-select {
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 16px 16px;
+}
+
+:root[data-theme="light"] .surah-prayer-hint {
+  border-color: rgba(66, 82, 54, 0.22);
+  background: linear-gradient(152deg, rgba(247, 244, 238, 0.98), rgba(239, 232, 220, 0.96));
+  box-shadow: 0 12px 28px rgba(45, 52, 40, 0.12);
+}
+
+:root[data-theme="light"] .surah-prayer-hint::before {
+  border-left-color: rgba(66, 82, 54, 0.22);
+  border-top-color: rgba(66, 82, 54, 0.22);
+  background: rgba(244, 238, 228, 0.98);
+}
+
+:root[data-theme="light"] .surah-prayer-hint-text {
+  color: rgba(60, 72, 54, 0.9);
+}
+
+:root[data-theme="light"] .surah-prayer-hint-dismiss {
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .surah-prayer-hint-dismiss:hover {
+  color: #334127;
+}
+
+:root[data-theme="light"] .prayer-floating-backdrop {
+  background: rgba(44, 52, 42, 0.2);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+:root[data-theme="light"] .prayer-floating-panel {
+  border-color: rgba(66, 82, 54, 0.22);
+  background:
+    radial-gradient(120% 120% at 0% 0%, rgba(66, 82, 54, 0.06) 0%, transparent 52%),
+    linear-gradient(160deg, rgba(250, 247, 241, 0.995) 0%, rgba(241, 233, 221, 0.995) 100%);
+  box-shadow: 0 24px 48px rgba(45, 52, 40, 0.14);
+}
+
+:root[data-theme="light"] .prayer-floating-header {
+  border-bottom-color: rgba(66, 82, 54, 0.12);
+}
+
+:root[data-theme="light"] .prayer-floating-title {
+  color: #2b3728;
+}
+
+:root[data-theme="light"] .prayer-floating-subtitle {
+  color: #5f6757;
+}
+
+:root[data-theme="light"] .prayer-floating-close {
+  border: 1px solid rgba(66, 82, 54, 0.16);
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .prayer-floating-close:hover {
+  background: rgba(66, 82, 54, 0.14);
+}
+
+:root[data-theme="light"] .prayer-floating-section {
+  border-color: rgba(66, 82, 54, 0.12);
+  background: rgba(251, 249, 245, 0.82);
+}
+
+:root[data-theme="light"] .prayer-floating-section-title {
+  color: rgba(67, 79, 58, 0.7);
+}
+
+:root[data-theme="light"] .prayer-preview-card {
+  border-color: rgba(66, 82, 54, 0.2);
+  background: linear-gradient(
+    135deg,
+    rgba(250, 247, 241, 0.96) 0%,
+    rgba(236, 230, 220, 0.92) 100%
+  );
+}
+
+:root[data-theme="light"] .prayer-floating-next {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+}
+
+:root[data-theme="light"] .prayer-preview-main {
+  color: #2f3a2a;
+}
+
+:root[data-theme="light"] .prayer-preview-sub {
+  color: #5d6658;
+}
+
+:root[data-theme="light"] .prayer-city-selected-pill {
+  border-color: rgba(66, 82, 54, 0.2);
+  background: linear-gradient(
+    140deg,
+    rgba(249, 246, 240, 0.96) 0%,
+    rgba(236, 230, 220, 0.9) 100%
+  );
+}
+
+:root[data-theme="light"] .prayer-city-options-status,
+:root[data-theme="light"] .prayer-city-options {
+  border-color: rgba(66, 82, 54, 0.12);
+  background: rgba(249, 246, 241, 0.85);
+}
+
+:root[data-theme="light"] .prayer-city-option {
+  border-color: rgba(66, 82, 54, 0.14);
+  background: rgba(255, 255, 255, 0.7);
+}
+
+:root[data-theme="light"] .prayer-city-option:hover {
+  border-color: rgba(66, 82, 54, 0.3);
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .prayer-city-option.active {
+  border-color: rgba(66, 82, 54, 0.34);
+  background: rgba(66, 82, 54, 0.12);
+}
+
+:root[data-theme="light"] .prayer-city-clear-btn {
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--muted);
+}
+
+:root[data-theme="light"] .prayer-city-clear-btn:hover {
+  background: rgba(66, 82, 54, 0.14);
+  color: var(--text);
+}
+
+:root[data-theme="light"] .prayer-schedule-row {
+  border-color: rgba(66, 82, 54, 0.14);
+  background: rgba(251, 249, 245, 0.78);
+}
+
+:root[data-theme="light"] .prayer-schedule-row.active {
+  border-color: rgba(66, 82, 54, 0.3);
+  background: linear-gradient(
+    135deg,
+    rgba(248, 244, 236, 0.95) 0%,
+    rgba(233, 225, 213, 0.9) 100%
+  );
+}
