@@ -1564,6 +1564,11 @@ textarea:focus-visible {
 
 /* Native APK-only mobile layout tuning (Capacitor) */
 @media (max-width: 1024px) {
+  html.is-native-app .topbar {
+    padding-top: 18px !important;
+    padding-bottom: 10px !important;
+  }
+
   html.is-native-app .surah-panel {
     max-height: 64vh !important;
     max-height: min(64svh, 65vh) !important;
@@ -1582,12 +1587,18 @@ textarea:focus-visible {
   }
 
   html.is-native-app .app {
-    padding-top: max(12px, env(safe-area-inset-top, 0px)) !important;
+    gap: 16px !important;
+    padding-top: max(16px, env(safe-area-inset-top, 0px)) !important;
     padding-bottom: calc(80px + env(safe-area-inset-bottom, 0px)) !important;
   }
 }
 
 @media (max-width: 640px) {
+  html.is-native-app .topbar {
+    padding-top: 18px !important;
+    padding-bottom: 8px !important;
+  }
+
   html.is-native-app .surah-panel {
     max-height: 63vh !important;
     max-height: min(63svh, 65vh) !important;
@@ -1606,7 +1617,8 @@ textarea:focus-visible {
   }
 
   html.is-native-app .app {
-    padding-top: max(12px, env(safe-area-inset-top, 0px)) !important;
+    gap: 14px !important;
+    padding-top: max(16px, env(safe-area-inset-top, 0px)) !important;
     padding-bottom: calc(72px + env(safe-area-inset-bottom, 0px)) !important;
   }
 }
