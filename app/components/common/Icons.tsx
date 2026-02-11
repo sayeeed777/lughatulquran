@@ -54,6 +54,15 @@ export function SettingsIcon({ size = 20, ...props }: IconProps) {
     );
 }
 
+export function ClockIcon({ size = 20, ...props }: IconProps) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 7v5l3 2" />
+        </svg>
+    );
+}
+
 /** Convenience: renders SunIcon or MoonIcon based on current theme */
 export function ThemeIcon({ isLight, ...props }: IconProps & { isLight: boolean }) {
     return isLight ? <MoonIcon {...props} /> : <SunIcon {...props} />;

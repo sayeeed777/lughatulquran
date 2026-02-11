@@ -9,4 +9,4 @@ export { default as BackToTop } from "./BackToTop";
 export { default as AudioPlayer } from "./AudioPlayer";
 export { default as SectionErrorBoundary } from "./SectionErrorBoundary";
 export { default as InlineError } from "./InlineError";
-export { SearchIcon, SunIcon, MoonIcon, SettingsIcon, ThemeIcon } from "./Icons";
+export { SearchIcon, SunIcon, MoonIcon, SettingsIcon, ClockIcon, ThemeIcon } from "./Icons";

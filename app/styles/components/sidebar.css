@@ -40,6 +40,18 @@
   letter-spacing: -0.008em;
 }
 
+.surah-header-actions {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  margin-right: 6px;
+}
+
+.surah-icon-btns {
+  gap: 2px;
+  margin-left: -2px;
+}
+
 .surah-panel-header .surah-study-btn {
   height: 34px;
   padding: 0 12px;
@@ -249,6 +261,12 @@
 }
 
 /* Mobile layout fixes (override base sticky panels) */
+@media (max-width: 1100px) {
+  .surah-header-actions {
+    display: flex;
+  }
+}
+
 @media (max-width: 1024px) {
   .surah-panel {
     position: static !important;
@@ -256,8 +274,19 @@
     max-height: 65vh;
   }
 
+  .surah-header-actions {
+    margin-right: 10px;
+  }
+
   .study-panel {
     display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .surah-header-actions {
+    margin-right: 4px;
+    gap: 6px;
   }
 }
 

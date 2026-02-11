@@ -39,42 +39,6 @@
     align-items: center;
 }
 
-.prayer-badge-btn {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2px;
-    min-width: 190px;
-    padding: 8px 12px;
-    border-radius: 12px;
-    border: 1px solid rgba(111, 212, 177, 0.28);
-    background: linear-gradient(135deg, rgba(111, 212, 177, 0.16) 0%, rgba(111, 212, 177, 0.08) 100%);
-    color: var(--text);
-    cursor: pointer;
-    transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
-}
-
-.prayer-badge-btn:hover {
-    border-color: rgba(111, 212, 177, 0.45);
-    background: linear-gradient(135deg, rgba(111, 212, 177, 0.2) 0%, rgba(111, 212, 177, 0.1) 100%);
-}
-
-.prayer-badge-btn:active {
-    transform: scale(0.98);
-}
-
-.prayer-badge-main {
-    font-size: 0.84rem;
-    font-weight: 600;
-    line-height: 1.2;
-}
-
-.prayer-badge-meta {
-    font-size: 0.72rem;
-    color: var(--muted);
-    line-height: 1.1;
-}
-
 /* =============================================
    Logo
    ============================================= */

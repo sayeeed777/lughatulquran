@@ -12,7 +12,7 @@ import {
   ErrorBoundary,
   SectionErrorBoundary,
   KeyboardShortcutsHelp,
-  SearchIcon,
+  ClockIcon,
   ThemeIcon,
   SettingsIcon
 } from "./components";
@@ -298,29 +298,13 @@ export default function Home() {
                   <button className="action-btn mobile-only" onClick={() => setReadingMode(true)}>
                     Study mode
                   </button>
-                  <button
-                    className="prayer-badge-btn desktop-only"
-                    onClick={() => setIsPrayerPanelOpen(true)}
-                    aria-label="Open prayer panel"
-                  >
-                    <span className="prayer-badge-main">
-                      {hasPrayerLocation && nextPrayerPreview
-                        ? `Next: ${nextPrayerPreview.name} ${nextPrayerPreview.time}`
-                        : "Set prayer location"}
-                    </span>
-                    <span className="prayer-badge-meta">
-                      {hasPrayerLocation
-                        ? `${prayerSettings.city}, ${prayerSettings.countryCode}`
-                        : "Tap to configure"}
-                    </span>
-                  </button>
                   <div className="topbar-icon-btns desktop-only">
                     <button
                       className="header-icon-btn"
-                      onClick={() => setShowMobileSearch(true)}
-                      aria-label="Search"
+                      onClick={() => setIsPrayerPanelOpen(true)}
+                      aria-label="Prayer times"
                     >
-                      <SearchIcon />
+                      <ClockIcon />
                     </button>
                     <button
                       className="header-icon-btn"
@@ -357,7 +341,7 @@ export default function Home() {
                     setQuery={setQuery}
                     filteredSurahs={filteredSurahs}
                     onRetry={retryData}
-                    onOpenSearch={() => setShowMobileSearch(true)}
+                    onOpenPrayer={() => setIsPrayerPanelOpen(true)}
                     onOpenSettings={() => {
                       setSettingsTab("display");
                       setShowMobileSettings(true);
