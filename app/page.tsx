@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   SurahList,
   ReaderPanel,
@@ -22,35 +22,8 @@ import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } fro
 import { useHomeController } from "./hooks/useHomeController";
 import { ThemeProvider, AudioProvider, BookmarkProvider } from "./contexts";
 
-const NATIVE_WARM_BOOT_KEY = "quran.native_boot.warm.v1";
-
 export default function Home() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
-  const [isNativeApp, setIsNativeApp] = useState(false);
-  const [isNativeWarmBoot, setIsNativeWarmBoot] = useState(true);
-  const [showNativeBootOverlay, setShowNativeBootOverlay] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-
-    const maybeCapacitor = (window as unknown as { Capacitor?: { isNativePlatform?: () => boolean } }).Capacitor;
-    const nativePlatform = Boolean(maybeCapacitor?.isNativePlatform?.());
-    setIsNativeApp(nativePlatform);
-
-    if (nativePlatform) {
-      try {
-        setIsNativeWarmBoot(window.localStorage.getItem(NATIVE_WARM_BOOT_KEY) === "1");
-      } catch {
-        setIsNativeWarmBoot(false);
-      }
-    }
-
-    document.documentElement.classList.toggle("is-native-app", nativePlatform);
-
-    return () => {
-      document.documentElement.classList.remove("is-native-app");
-    };
-  }, []);
 
   const {
     surahs,
@@ -146,32 +119,6 @@ export default function Home() {
     copyAyahLink,
     handleCompare
   } = useHomeController();
-
-  useEffect(() => {
-    if (!isNativeApp || isNativeWarmBoot) {
-      setShowNativeBootOverlay(false);
-      return;
-    }
-
-    if (!loadingSurahs) {
-      setShowNativeBootOverlay(false);
-      if (surahs.length > 0) {
-        try {
-          window.localStorage.setItem(NATIVE_WARM_BOOT_KEY, "1");
-        } catch {
-          // Ignore storage restrictions.
-        }
-        setIsNativeWarmBoot(true);
-      }
-      return;
-    }
-
-    const delay = window.setTimeout(() => {
-      setShowNativeBootOverlay(true);
-    }, 260);
-
-    return () => window.clearTimeout(delay);
-  }, [isNativeApp, isNativeWarmBoot, loadingSurahs, surahs.length]);
 
   // Derive audio values needed by providers
   const audioSrc = nowPlaying
@@ -322,30 +269,6 @@ export default function Home() {
             handleToggleAyah={handleToggleAyah}
           >
             <main className={`app ${appTypographyClasses}`}>
-              {showNativeBootOverlay && (
-                <div className="native-boot-overlay" role="status" aria-live="polite" aria-label="Loading Quran Reader">
-                  <div className="native-boot-mark" aria-hidden="true">
-                    <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
-                      <path
-                        d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="3"
-                        strokeLinejoin="round"
-                      />
-                      <path d="M32 14v28" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-                      <path
-                        d="M20 24h12M20 32h12M20 40h12"
-                        stroke="currentColor"
-                        strokeWidth="2.5"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-                  </div>
-                  <span className="native-boot-spinner" aria-hidden="true" />
-                </div>
-              )}
-
               <div className="topbar">
                 <div className="logo">
                   <div className="logo-mark" aria-hidden="true">

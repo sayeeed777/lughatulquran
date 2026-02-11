@@ -35,7 +35,6 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
-    "android/**"
+    "node_modules"
   ]
 }
