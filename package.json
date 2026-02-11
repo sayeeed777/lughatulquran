@@ -12,9 +12,11 @@
     "start": "next start",
     "lint": "eslint .",
     "test": "tsc --noEmit && vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "verify:prayer": "node scripts/verify-prayer-times.mjs"
   },
   "dependencies": {
+    "adhan": "^4.4.3",
     "framer-motion": "^12.31.0",
     "next": "^16.1.6",
     "react": "^19.2.4",

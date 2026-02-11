@@ -88,6 +88,57 @@ export const ALL_TRANSLATIONS = [
   { id: "taqi-usmani", label: "Mufti Taqi Usmani", short: "Taqi Usmani" }
 ];
 
+// Prayer Settings (UI)
+export const PRAYER_COUNTRIES = [
+  { code: "US", name: "United States" },
+  { code: "GB", name: "United Kingdom" },
+  { code: "CA", name: "Canada" },
+  { code: "BD", name: "Bangladesh" },
+  { code: "IN", name: "India" },
+  { code: "PK", name: "Pakistan" },
+  { code: "SA", name: "Saudi Arabia" },
+  { code: "AE", name: "United Arab Emirates" },
+  { code: "QA", name: "Qatar" },
+  { code: "KW", name: "Kuwait" },
+  { code: "BH", name: "Bahrain" },
+  { code: "OM", name: "Oman" },
+  { code: "EG", name: "Egypt" },
+  { code: "TR", name: "Turkey" },
+  { code: "JO", name: "Jordan" },
+  { code: "IQ", name: "Iraq" },
+  { code: "SY", name: "Syria" },
+  { code: "LB", name: "Lebanon" },
+  { code: "YE", name: "Yemen" },
+  { code: "MA", name: "Morocco" },
+  { code: "DZ", name: "Algeria" },
+  { code: "TN", name: "Tunisia" },
+  { code: "ID", name: "Indonesia" },
+  { code: "MY", name: "Malaysia" },
+  { code: "BN", name: "Brunei" },
+  { code: "MV", name: "Maldives" },
+  { code: "AF", name: "Afghanistan" },
+  { code: "IR", name: "Iran" }
+];
+
+export const PRAYER_METHODS = [
+  { id: "MWL", label: "Muslim World League" },
+  { id: "ISNA", label: "ISNA" },
+  { id: "EGYPT", label: "Egyptian General Authority of Survey" },
+  { id: "MAKKAH", label: "Umm Al-Qura, Makkah" },
+  { id: "KARACHI", label: "University of Islamic Sciences, Karachi" },
+  { id: "DUBAI", label: "Dubai" },
+  { id: "QATAR", label: "Qatar" },
+  { id: "KUWAIT", label: "Kuwait" },
+  { id: "SINGAPORE", label: "Singapore (MUIS)" },
+  { id: "TURKEY", label: "Turkey (Diyanet)" },
+  { id: "MOROCCO", label: "Morocco" }
+];
+
+export const PRAYER_MADHABS = [
+  { id: "SHAFI", label: "Shafi" },
+  { id: "HANAFI", label: "Hanafi" }
+];
+
 
 
 // Reading Plan Defaults
@@ -117,7 +168,8 @@ export const STORAGE_KEYS = {
   quickNotes: "quran_quick_notes",
   reciter: "quran_reciter",
   arabicFont: "quran_arabic_font",
-  theme: "quran_theme"
+  theme: "quran_theme",
+  prayerSettings: "quran_prayer_settings"
 };
 
 // Keyboard Shortcuts

@@ -15,7 +15,7 @@ export { Tooltip, ProgressBar, BackToTop, AudioPlayer, SectionErrorBoundary } fr
 export { SearchIcon, SunIcon, MoonIcon, SettingsIcon, ThemeIcon } from "./common";
 
 // Modal Components
-export { SettingsModal, CompareModal, NoteModal, KeyboardShortcutsHelp } from "./modals";
+export { SettingsModal, PrayerPanel, CompareModal, NoteModal, KeyboardShortcutsHelp } from "./modals";
 
 // Reader Components
 export { ReaderPanel, AyahCard, BismillahBanner } from "./reader";

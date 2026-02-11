@@ -1,11 +1,23 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { AUDIO_RECITERS, ARABIC_FONTS, STORAGE_KEYS } from "../../lib/constants";
+import {
+  AUDIO_RECITERS,
+  ARABIC_FONTS,
+  PRAYER_MADHABS,
+  PRAYER_METHODS,
+  STORAGE_KEYS
+} from "../../lib/constants";
 import { useLocalStorage } from "../common";
 import { clamp } from "../../lib/utils";
 import { useReadingPlan, useFontScale } from "../useAppSettings";
 import type { ArabicFont, Reciter } from "./types";
+import type { PrayerSettings, SetState } from "../../lib/types";
+
+const asNumberOrNull = (value: unknown) => {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) ? parsed : null;
+};
 
 export function useHomePreferences() {
   const mobileViewportQuery = "(max-width: 1100px)";
@@ -44,6 +56,46 @@ export function useHomePreferences() {
   const selectedReciter = useMemo<Reciter>(
     () => AUDIO_RECITERS.find((r) => r.id === reciterId) ?? defaultReciter,
     [reciterId, defaultReciter]
+  );
+
+  const defaultTimezone = useMemo(() => {
+    try {
+      return Intl.DateTimeFormat().resolvedOptions().timeZone || "UTC";
+    } catch {
+      return "UTC";
+    }
+  }, []);
+
+  const defaultPrayerMethod = PRAYER_METHODS[0]?.id || "MWL";
+  const defaultPrayerMadhab = PRAYER_MADHABS[0]?.id || "SHAFI";
+  const [storedPrayerSettings, setStoredPrayerSettings] = useLocalStorage(
+    STORAGE_KEYS.prayerSettings,
+    {
+      countryCode: "",
+      countryName: "",
+      city: "",
+      timezone: defaultTimezone,
+      method: defaultPrayerMethod,
+      madhab: defaultPrayerMadhab,
+      latitude: null,
+      longitude: null,
+      geonameId: null
+    } as PrayerSettings
+  ) as [PrayerSettings, SetState<PrayerSettings>, boolean];
+
+  const prayerSettings = useMemo<PrayerSettings>(
+    () => ({
+      countryCode: String(storedPrayerSettings?.countryCode || "").toUpperCase(),
+      countryName: String(storedPrayerSettings?.countryName || ""),
+      city: String(storedPrayerSettings?.city || ""),
+      timezone: String(storedPrayerSettings?.timezone || defaultTimezone),
+      method: String(storedPrayerSettings?.method || defaultPrayerMethod),
+      madhab: String(storedPrayerSettings?.madhab || defaultPrayerMadhab),
+      latitude: asNumberOrNull(storedPrayerSettings?.latitude),
+      longitude: asNumberOrNull(storedPrayerSettings?.longitude),
+      geonameId: asNumberOrNull(storedPrayerSettings?.geonameId)
+    }),
+    [defaultPrayerMadhab, defaultPrayerMethod, defaultTimezone, storedPrayerSettings]
   );
 
   const fallbackDefaultArabicFontId = useMemo(
@@ -132,6 +184,8 @@ export function useHomePreferences() {
     arabicFontId,
     setArabicFontId,
     selectedArabicFont,
+    prayerSettings,
+    setPrayerSettings: setStoredPrayerSettings,
     theme,
     isLightTheme,
     toggleTheme

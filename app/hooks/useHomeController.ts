@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { verseKey, parseVerseKey, copyToClipboard } from "../lib/utils";
 import { useLastRead, useStudySession } from "./common";
 import { useAudioPlayback } from "./useAudioPlayback";
@@ -22,12 +22,22 @@ import type {
   LastRead,
   MemorizeConfig,
   NoteTarget,
+  NextPrayerPreview,
   Notes,
   ReadingPlan,
+  SettingsTabId,
   Surah,
   SurahData,
   WordBySurah
 } from "./home/types";
+
+type PrayerTimePayload = {
+  nextPrayer?: {
+    name?: string;
+    display?: string;
+    time?: string;
+  };
+};
 
 export function useHomeController() {
   // Data hooks
@@ -71,6 +81,8 @@ export function useHomeController() {
     arabicFontId,
     setArabicFontId,
     selectedArabicFont,
+    prayerSettings,
+    setPrayerSettings,
     theme,
     isLightTheme,
     toggleTheme
@@ -135,6 +147,81 @@ export function useHomeController() {
   const [showShortcuts, setShowShortcuts] = useState(false);
   const [showMobileSettings, setShowMobileSettings] = useState(false);
   const [showMobileSearch, setShowMobileSearch] = useState(false);
+  const [settingsTab, setSettingsTab] = useState<SettingsTabId>("display");
+  const [clockTick, setClockTick] = useState(() => Date.now());
+  const [nextPrayerPreview, setNextPrayerPreview] = useState<NextPrayerPreview | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const interval = window.setInterval(() => setClockTick(Date.now()), 60_000);
+    return () => window.clearInterval(interval);
+  }, []);
+
+  const hasPrayerLocation = Boolean(
+    String(prayerSettings.countryCode || "").trim()
+      && String(prayerSettings.city || "").trim()
+  );
+
+  useEffect(() => {
+    if (!hasPrayerLocation) {
+      setNextPrayerPreview(null);
+      return;
+    }
+
+    const abortController = new AbortController();
+    const params = new URLSearchParams({
+      countryCode: String(prayerSettings.countryCode || "").trim(),
+      city: String(prayerSettings.city || "").trim(),
+      timezone: String(prayerSettings.timezone || "").trim(),
+      method: String(prayerSettings.method || "MWL"),
+      madhab: String(prayerSettings.madhab || "SHAFI")
+    });
+
+    if (Number.isFinite(prayerSettings.latitude) && Number.isFinite(prayerSettings.longitude)) {
+      params.set("latitude", String(prayerSettings.latitude));
+      params.set("longitude", String(prayerSettings.longitude));
+    }
+
+    const loadNextPrayer = async () => {
+      try {
+        const response = await fetch(`/api/prayer-times?${params.toString()}`, {
+          signal: abortController.signal,
+          cache: "no-store"
+        });
+        if (!response.ok) {
+          setNextPrayerPreview(null);
+          return;
+        }
+        const payload = (await response.json()) as PrayerTimePayload;
+        const name = String(payload?.nextPrayer?.name || "").trim();
+        const display = String(payload?.nextPrayer?.display || payload?.nextPrayer?.time || "").trim();
+        if (!name || !display) {
+          setNextPrayerPreview(null);
+          return;
+        }
+        setNextPrayerPreview({ name, time: display });
+      } catch {
+        if (abortController.signal.aborted) return;
+        setNextPrayerPreview(null);
+      }
+    };
+
+    loadNextPrayer();
+
+    return () => {
+      abortController.abort();
+    };
+  }, [
+    clockTick,
+    hasPrayerLocation,
+    prayerSettings.city,
+    prayerSettings.countryCode,
+    prayerSettings.latitude,
+    prayerSettings.longitude,
+    prayerSettings.madhab,
+    prayerSettings.method,
+    prayerSettings.timezone
+  ]);
 
   // Filters
   const {
@@ -392,6 +479,12 @@ export function useHomeController() {
     setShowMobileSettings,
     showMobileSearch,
     setShowMobileSearch,
+    settingsTab,
+    setSettingsTab,
+    prayerSettings,
+    setPrayerSettings,
+    nextPrayerPreview,
+    hasPrayerLocation,
     theme,
     isLightTheme,
     toggleTheme,

@@ -95,6 +95,39 @@ export type FontScale = {
 };
 
 // =============================================
+// Prayer
+// =============================================
+
+export type PrayerSettings = {
+  countryCode: string;
+  countryName: string;
+  city: string;
+  timezone: string;
+  method: string;
+  madhab: string;
+  latitude: number | null;
+  longitude: number | null;
+  geonameId: number | null;
+};
+
+export type NextPrayerPreview = {
+  name: string;
+  time: string;
+};
+
+export type PrayerLocationOption = {
+  countryCode: string;
+  country: string;
+  city: string;
+  latitude: number;
+  longitude: number;
+  timezone: string;
+  geonameId: number | null;
+};
+
+export type SettingsTabId = "display" | "audio" | "prayer";
+
+// =============================================
 // Word-by-word
 // =============================================
 

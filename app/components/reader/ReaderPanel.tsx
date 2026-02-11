@@ -9,7 +9,10 @@ import type {
   FontScale,
   Reciter,
   ArabicFont,
-  SetState
+  SetState,
+  PrayerSettings,
+  NextPrayerPreview,
+  SettingsTabId
 } from "../../lib/types";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
@@ -49,6 +52,8 @@ type ReaderPanelProps = {
   setShowMobileSettings?: SetState<boolean>;
   showMobileSearch?: boolean;
   setShowMobileSearch?: SetState<boolean>;
+  settingsTab: SettingsTabId;
+  setSettingsTab: SetState<SettingsTabId>;
   wordLoading: boolean;
   wordError: string | null;
   wordByAyah: WordBySurah;
@@ -57,6 +62,10 @@ type ReaderPanelProps = {
   focusedAyahKey: string | null;
   setFocusedAyahKey: SetState<string | null>;
   copiedKey: string | null;
+  prayerSettings: PrayerSettings;
+  setPrayerSettings: SetState<PrayerSettings>;
+  nextPrayerPreview: NextPrayerPreview | null;
+  hasPrayerLocation: boolean;
   error: string | null;
   onRetry: () => void;
   loadingSurahData: boolean;
@@ -94,6 +103,8 @@ export default function ReaderPanel({
   setShowMobileSettings,
   showMobileSearch,
   setShowMobileSearch,
+  settingsTab,
+  setSettingsTab,
   wordLoading,
   wordError,
   wordByAyah,
@@ -102,6 +113,10 @@ export default function ReaderPanel({
   focusedAyahKey,
   setFocusedAyahKey,
   copiedKey,
+  prayerSettings,
+  setPrayerSettings,
+  nextPrayerPreview,
+  hasPrayerLocation,
   error,
   onRetry,
   loadingSurahData,
@@ -300,6 +315,8 @@ export default function ReaderPanel({
       <SettingsModal
         isOpen={isMobileSettingsOpen}
         onClose={() => openMobileSettings(false)}
+        initialTab={settingsTab}
+        onTabChange={setSettingsTab}
         translations={ALL_TRANSLATIONS}
         selectedTranslations={selectedTranslations}
         setSelectedTranslations={setSelectedTranslations}
@@ -311,6 +328,10 @@ export default function ReaderPanel({
         arabicFonts={arabicFonts}
         arabicFontId={arabicFontId}
         setArabicFontId={setArabicFontId}
+        prayerSettings={prayerSettings}
+        setPrayerSettings={setPrayerSettings}
+        nextPrayerPreview={nextPrayerPreview}
+        hasPrayerLocation={hasPrayerLocation}
         clamp={clamp}
       />
 

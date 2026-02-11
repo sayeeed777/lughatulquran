@@ -689,6 +689,20 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     display: flex;
   }
 
+  .prayer-badge-btn {
+    min-width: 0;
+    max-width: 190px;
+    padding: 7px 10px;
+  }
+
+  .prayer-badge-main {
+    font-size: 0.8rem;
+  }
+
+  .prayer-badge-meta {
+    font-size: 0.68rem;
+  }
+
   .compare-panel {
     inset: auto 16px 16px 16px;
     width: auto;
@@ -1468,8 +1482,22 @@ textarea:focus-visible {
 
   .topbar-actions {
     justify-content: flex-end;
-    gap: 2px;
+    gap: 6px;
     flex: 0 0 auto;
+  }
+
+  .prayer-badge-btn {
+    min-width: 0;
+    max-width: 164px;
+    padding: 6px 8px;
+  }
+
+  .prayer-badge-main {
+    font-size: 0.76rem;
+  }
+
+  .prayer-badge-meta {
+    display: none;
   }
 
   .logo {

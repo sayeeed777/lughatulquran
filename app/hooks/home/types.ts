@@ -18,6 +18,9 @@ export type {
   LastRead,
   Notes,
   NoteTarget,
+  PrayerSettings,
+  NextPrayerPreview,
+  SettingsTabId,
   FontScale,
   SetState
 } from "../../lib/types";

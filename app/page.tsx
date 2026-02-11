@@ -1,10 +1,12 @@
 "use client";
 
+import { useState } from "react";
 import {
   SurahList,
   ReaderPanel,
   StudyPanel,
   StudyModeView,
+  PrayerPanel,
   CompareModal,
   NoteModal,
   ErrorBoundary,
@@ -21,6 +23,8 @@ import { useHomeController } from "./hooks/useHomeController";
 import { ThemeProvider, AudioProvider, BookmarkProvider } from "./contexts";
 
 export default function Home() {
+  const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
+
   const {
     surahs,
     loadingSurahs,
@@ -87,6 +91,12 @@ export default function Home() {
     setShowMobileSettings,
     showMobileSearch,
     setShowMobileSearch,
+    settingsTab,
+    setSettingsTab,
+    prayerSettings,
+    setPrayerSettings,
+    nextPrayerPreview,
+    hasPrayerLocation,
     theme,
     isLightTheme,
     toggleTheme,
@@ -288,6 +298,22 @@ export default function Home() {
                   <button className="action-btn mobile-only" onClick={() => setReadingMode(true)}>
                     Study mode
                   </button>
+                  <button
+                    className="prayer-badge-btn desktop-only"
+                    onClick={() => setIsPrayerPanelOpen(true)}
+                    aria-label="Open prayer panel"
+                  >
+                    <span className="prayer-badge-main">
+                      {hasPrayerLocation && nextPrayerPreview
+                        ? `Next: ${nextPrayerPreview.name} ${nextPrayerPreview.time}`
+                        : "Set prayer location"}
+                    </span>
+                    <span className="prayer-badge-meta">
+                      {hasPrayerLocation
+                        ? `${prayerSettings.city}, ${prayerSettings.countryCode}`
+                        : "Tap to configure"}
+                    </span>
+                  </button>
                   <div className="topbar-icon-btns desktop-only">
                     <button
                       className="header-icon-btn"
@@ -305,7 +331,10 @@ export default function Home() {
                     </button>
                     <button
                       className="header-icon-btn"
-                      onClick={() => setShowMobileSettings(true)}
+                      onClick={() => {
+                        setSettingsTab("display");
+                        setShowMobileSettings(true);
+                      }}
                       aria-label="Settings"
                     >
                       <SettingsIcon />
@@ -329,7 +358,10 @@ export default function Home() {
                     filteredSurahs={filteredSurahs}
                     onRetry={retryData}
                     onOpenSearch={() => setShowMobileSearch(true)}
-                    onOpenSettings={() => setShowMobileSettings(true)}
+                    onOpenSettings={() => {
+                      setSettingsTab("display");
+                      setShowMobileSettings(true);
+                    }}
                   />
                 </SectionErrorBoundary>
 
@@ -361,6 +393,8 @@ export default function Home() {
                     setShowMobileSettings={setShowMobileSettings}
                     showMobileSearch={showMobileSearch}
                     setShowMobileSearch={setShowMobileSearch}
+                    settingsTab={settingsTab}
+                    setSettingsTab={setSettingsTab}
                     wordLoading={wordLoading}
                     wordError={wordError}
                     wordByAyah={wordByAyah}
@@ -369,6 +403,10 @@ export default function Home() {
                     focusedAyahKey={focusedAyahKey}
                     setFocusedAyahKey={setFocusedAyahKey}
                     copiedKey={copiedKey}
+                    prayerSettings={prayerSettings}
+                    setPrayerSettings={setPrayerSettings}
+                    nextPrayerPreview={nextPrayerPreview}
+                    hasPrayerLocation={hasPrayerLocation}
                     error={surahDataError}
                     onRetry={retryData}
                     loadingSurahData={loadingSurahData}
@@ -414,6 +452,15 @@ export default function Home() {
                 surahByNumber={surahByNumber}
                 onSave={saveNote}
                 onClose={closeNote}
+              />
+
+              <PrayerPanel
+                isOpen={isPrayerPanelOpen}
+                onClose={() => setIsPrayerPanelOpen(false)}
+                prayerSettings={prayerSettings}
+                setPrayerSettings={setPrayerSettings}
+                nextPrayerPreview={nextPrayerPreview}
+                hasPrayerLocation={hasPrayerLocation}
               />
 
               <KeyboardShortcutsHelp isOpen={showShortcuts} onClose={() => setShowShortcuts(false)} />
