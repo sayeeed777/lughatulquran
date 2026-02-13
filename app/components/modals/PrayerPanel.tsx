@@ -267,23 +267,23 @@ export default function PrayerPanel({
   );
   const showRecentLocations = Boolean(
     isCityFocused
-      && prayerSettings.countryCode
-      && !trimmedCityInput
-      && locationStatus !== "loading"
-      && recentInCountry.length > 0
+    && prayerSettings.countryCode
+    && !trimmedCityInput
+    && locationStatus !== "loading"
+    && recentInCountry.length > 0
   );
   const showCityResults = Boolean(
     isCityFocused
-      && prayerSettings.countryCode
-      && !showRecentLocations
-      && locationOptions.length > 0
+    && prayerSettings.countryCode
+    && !showRecentLocations
+    && locationOptions.length > 0
   );
   const showNoMatch = Boolean(
     isCityFocused
-      && locationStatus === "idle"
-      && prayerSettings.countryCode
-      && trimmedCityInput.length >= 2
-      && locationOptions.length === 0
+    && locationStatus === "idle"
+    && prayerSettings.countryCode
+    && trimmedCityInput.length >= 2
+    && locationOptions.length === 0
   );
 
   const rememberRecentLocation = (option: PrayerLocationOption) => {
@@ -389,8 +389,8 @@ export default function PrayerPanel({
                 <h3 className="prayer-floating-title">Prayer Times</h3>
                 <p className="prayer-floating-subtitle">
                   {hasPrayerLocation
-                    ? `${prayerSettings.city}, ${prayerSettings.countryCode}`
-                    : "Set your location to calculate times."}
+                    ? `${prayerSettings.city}, ${prayerSettings.countryName || prayerSettings.countryCode}`
+                    : "Set your location below"}
                 </p>
               </div>
               <button
@@ -399,31 +399,71 @@ export default function PrayerPanel({
                 aria-label="Close prayer panel"
                 onClick={onClose}
               >
-                ✕
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round">
+                  <path d="M1 1l12 12M13 1L1 13" />
+                </svg>
               </button>
             </div>
 
             <div className="prayer-floating-body">
-              <div className="prayer-preview-card prayer-floating-next">
-                <p className="prayer-preview-main">
-                  {activeNextPrayer
-                    ? `Next: ${activeNextPrayer.name} - ${activeNextPrayer.time}`
-                    : "Set location to see next prayer"}
-                </p>
-                <p className="prayer-preview-sub">
-                  {resolvedMeta?.geonameId
-                    ? `GeoNames #${resolvedMeta.geonameId} • ${resolvedMeta.timezone || prayerSettings.timezone}`
-                    : prayerSettings.timezone}
-                </p>
+              {/* ── Hero: Next Prayer ── */}
+              <div className="prayer-hero-card">
+                {activeNextPrayer ? (
+                  <>
+                    <span className="prayer-hero-label">Next Prayer</span>
+                    <span className="prayer-hero-name">{activeNextPrayer.name}</span>
+                    <span className="prayer-hero-time">{activeNextPrayer.time}</span>
+                  </>
+                ) : (
+                  <>
+                    <span className="prayer-hero-label">Next Prayer</span>
+                    <span className="prayer-hero-empty">Set your location to get started</span>
+                  </>
+                )}
               </div>
 
-              <div className="prayer-floating-grid">
-                <section className="prayer-floating-section">
-                  <h4 className="prayer-floating-section-title">Location</h4>
-                  <label className="settings-field">
-                    <span className="settings-field-label">Country</span>
+              {/* ── Today's Schedule ── */}
+              <section className="prayer-section">
+                <h4 className="prayer-section-title">Today</h4>
+                <div className="prayer-schedule-card">
+                  {!hasPrayerLocation && (
+                    <p className="prayer-schedule-empty">
+                      Select a country and city to see prayer times.
+                    </p>
+                  )}
+                  {hasPrayerLocation && timingStatus === "loading" && (
+                    <p className="prayer-schedule-empty">Calculating…</p>
+                  )}
+                  {hasPrayerLocation && timingStatus === "error" && (
+                    <p className="prayer-schedule-empty">Unable to load times right now.</p>
+                  )}
+                  {hasPrayerLocation && timingStatus === "idle" && (
+                    <div className="prayer-schedule-list">
+                      {timingRows.map((row, idx) => {
+                        const isNext = activeNextPrayer?.name?.toLowerCase() === row.name.toLowerCase();
+                        return (
+                          <div
+                            key={row.name}
+                            className={`prayer-schedule-row${isNext ? " active" : ""}${idx === 0 ? " first" : ""}${idx === timingRows.length - 1 ? " last" : ""}`}
+                          >
+                            <span className="prayer-schedule-name">{row.name}</span>
+                            <span className="prayer-schedule-time">{row.display}</span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
+              </section>
+
+              {/* ── Location ── */}
+              <section className="prayer-section">
+                <h4 className="prayer-section-title">Location</h4>
+                <div className="prayer-settings-card">
+                  <label className="prayer-settings-row">
+                    <span className="prayer-settings-label">Country</span>
                     <select
-                      className="settings-select"
+                      className="prayer-settings-select"
                       value={prayerSettings.countryCode}
                       onChange={(event) => {
                         const code = event.target.value;
@@ -443,7 +483,7 @@ export default function PrayerPanel({
                         setLocationOptions([]);
                       }}
                     >
-                      <option value="">Select country</option>
+                      <option value="">Select</option>
                       {PRAYER_COUNTRIES.map((country) => (
                         <option key={country.code} value={country.code}>
                           {country.name}
@@ -452,12 +492,19 @@ export default function PrayerPanel({
                     </select>
                   </label>
 
-                  <label className="settings-field">
-                    <span className="settings-field-label">City</span>
+                  <div className="prayer-settings-divider" />
+
+                  <div className="prayer-settings-row prayer-city-row">
+                    <span className="prayer-settings-label">City</span>
                     <div className="prayer-city-input-shell">
-                      <span className="prayer-city-input-icon" aria-hidden="true">⌕</span>
+                      <span className="prayer-city-input-icon" aria-hidden="true">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                          <circle cx="11" cy="11" r="8" />
+                          <path d="m21 21-4.3-4.3" />
+                        </svg>
+                      </span>
                       <input
-                        className="settings-input prayer-city-input"
+                        className="prayer-city-input"
                         type="text"
                         role="combobox"
                         aria-expanded={showCityResults || showRecentLocations}
@@ -465,7 +512,7 @@ export default function PrayerPanel({
                         aria-activedescendant={showCityResults && highlightedCityIndex >= 0
                           ? `prayer-city-option-${highlightedCityIndex}`
                           : undefined}
-                        placeholder={prayerSettings.countryCode ? "Search city..." : "Select country first"}
+                        placeholder={prayerSettings.countryCode ? "Search…" : "Select country first"}
                         value={cityInput}
                         onFocus={() => setIsCityFocused(true)}
                         onBlur={handleCityInputBlur}
@@ -494,86 +541,86 @@ export default function PrayerPanel({
                         </button>
                       )}
                     </div>
-                    <p className="settings-field-hint">
-                      Pick from suggestions for the most accurate coordinates and timezone.
-                    </p>
+                  </div>
 
-                    {prayerSettings.geonameId && (
-                      <div className="prayer-city-selected-pill">
-                        <span className="prayer-city-selected-main">
-                          {prayerSettings.city}, {prayerSettings.countryCode}
-                        </span>
-                        <span className="prayer-city-selected-meta">
-                          {prayerSettings.timezone} • GeoNames #{prayerSettings.geonameId}
-                        </span>
-                      </div>
-                    )}
+                  {prayerSettings.geonameId && (
+                    <div className="prayer-city-selected-pill">
+                      <span className="prayer-city-selected-main">
+                        {prayerSettings.city}, {prayerSettings.countryCode}
+                      </span>
+                      <span className="prayer-city-selected-meta">
+                        {prayerSettings.timezone}
+                      </span>
+                    </div>
+                  )}
 
-                    {locationStatus === "loading" && isCityFocused && (
-                      <div className="prayer-city-options-status">Searching cities...</div>
-                    )}
-                    {locationStatus === "error" && (
-                      <div className="prayer-city-options-status">
-                        Unable to load city list. Check connection and try again.
-                      </div>
-                    )}
+                  {locationStatus === "loading" && isCityFocused && (
+                    <div className="prayer-city-options-status">Searching cities…</div>
+                  )}
+                  {locationStatus === "error" && (
+                    <div className="prayer-city-options-status">
+                      Unable to load city list. Check connection and try again.
+                    </div>
+                  )}
 
-                    {showRecentLocations && (
-                      <div className="prayer-city-options" role="listbox" aria-label="Recent city options" id="prayer-city-options">
-                        <p className="prayer-city-options-head">Recent</p>
-                        {recentInCountry.map((option) => (
-                          <button
-                            key={`recent-${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
-                            type="button"
-                            className="prayer-city-option"
-                            onMouseDown={(event) => event.preventDefault()}
-                            onClick={() => applyLocationOption(option)}
-                          >
-                            <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
-                            <span className="prayer-city-option-meta">Recent • {option.timezone}</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
+                  {showRecentLocations && (
+                    <div className="prayer-city-options" role="listbox" aria-label="Recent city options" id="prayer-city-options">
+                      <p className="prayer-city-options-head">Recent</p>
+                      {recentInCountry.map((option) => (
+                        <button
+                          key={`recent-${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
+                          type="button"
+                          className="prayer-city-option"
+                          onMouseDown={(event) => event.preventDefault()}
+                          onClick={() => applyLocationOption(option)}
+                        >
+                          <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
+                          <span className="prayer-city-option-meta">{option.timezone}</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
 
-                    {showCityResults && (
-                      <div className="prayer-city-options" role="listbox" aria-label="City options" id="prayer-city-options">
-                        <p className="prayer-city-options-head">
-                          {trimmedCityInput ? "Suggestions" : "Popular cities"}
-                        </p>
-                        {locationOptions.map((option, index) => (
-                          <button
-                            key={`${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
-                            type="button"
-                            id={`prayer-city-option-${index}`}
-                            className={`prayer-city-option${highlightedCityIndex === index ? " active" : ""}`}
-                            onMouseDown={(event) => event.preventDefault()}
-                            onMouseEnter={() => setHighlightedCityIndex(index)}
-                            onClick={() => applyLocationOption(option)}
-                          >
-                            <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
-                            <span className="prayer-city-option-meta">
-                              {option.timezone}{option.geonameId ? ` • #${option.geonameId}` : ""}
-                            </span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
+                  {showCityResults && (
+                    <div className="prayer-city-options" role="listbox" aria-label="City options" id="prayer-city-options">
+                      <p className="prayer-city-options-head">
+                        {trimmedCityInput ? "Suggestions" : "Popular cities"}
+                      </p>
+                      {locationOptions.map((option, index) => (
+                        <button
+                          key={`${option.countryCode}-${option.city}-${option.latitude}-${option.longitude}`}
+                          type="button"
+                          id={`prayer-city-option-${index}`}
+                          className={`prayer-city-option${highlightedCityIndex === index ? " active" : ""}`}
+                          onMouseDown={(event) => event.preventDefault()}
+                          onMouseEnter={() => setHighlightedCityIndex(index)}
+                          onClick={() => applyLocationOption(option)}
+                        >
+                          <span className="prayer-city-option-main">{option.city}, {option.countryCode}</span>
+                          <span className="prayer-city-option-meta">
+                            {option.timezone}
+                          </span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
 
-                    {showNoMatch && (
-                      <div className="prayer-city-options-status">
-                        No matching city found. Try another spelling or a nearby major city.
-                      </div>
-                    )}
-                  </label>
-                </section>
+                  {showNoMatch && (
+                    <div className="prayer-city-options-status">
+                      No matching city found. Try another spelling or a nearby major city.
+                    </div>
+                  )}
+                </div>
+              </section>
 
-                <section className="prayer-floating-section">
-                  <h4 className="prayer-floating-section-title">Calculation</h4>
-                  <label className="settings-field">
-                    <span className="settings-field-label">Method</span>
+              {/* ── Calculation Settings ── */}
+              <section className="prayer-section">
+                <h4 className="prayer-section-title">Calculation</h4>
+                <div className="prayer-settings-card">
+                  <label className="prayer-settings-row">
+                    <span className="prayer-settings-label">Method</span>
                     <select
-                      className="settings-select"
+                      className="prayer-settings-select"
                       value={prayerSettings.method}
                       onChange={(event) =>
                         setPrayerSettings((prev) => ({
@@ -590,10 +637,12 @@ export default function PrayerPanel({
                     </select>
                   </label>
 
-                  <label className="settings-field">
-                    <span className="settings-field-label">Madhab</span>
+                  <div className="prayer-settings-divider" />
+
+                  <label className="prayer-settings-row">
+                    <span className="prayer-settings-label">Madhab</span>
                     <select
-                      className="settings-select"
+                      className="prayer-settings-select"
                       value={prayerSettings.madhab}
                       onChange={(event) =>
                         setPrayerSettings((prev) => ({
@@ -610,10 +659,12 @@ export default function PrayerPanel({
                     </select>
                   </label>
 
-                  <label className="settings-field">
-                    <span className="settings-field-label">Timezone</span>
+                  <div className="prayer-settings-divider" />
+
+                  <label className="prayer-settings-row">
+                    <span className="prayer-settings-label">Timezone</span>
                     <input
-                      className="settings-input"
+                      className="prayer-settings-input"
                       type="text"
                       placeholder="Area/City"
                       value={prayerSettings.timezone}
@@ -625,33 +676,7 @@ export default function PrayerPanel({
                       }
                     />
                   </label>
-                </section>
-              </div>
-
-              <section className="prayer-floating-section prayer-floating-schedule">
-                <h4 className="prayer-floating-section-title">Today&apos;s 5 Prayers</h4>
-                {!hasPrayerLocation && (
-                  <p className="prayer-floating-empty">Set country and city to load timings.</p>
-                )}
-                {hasPrayerLocation && timingStatus === "loading" && (
-                  <p className="prayer-floating-empty">Calculating prayer times...</p>
-                )}
-                {hasPrayerLocation && timingStatus === "error" && (
-                  <p className="prayer-floating-empty">Unable to load timings right now.</p>
-                )}
-                {hasPrayerLocation && timingStatus === "idle" && (
-                  <div className="prayer-schedule-list">
-                    {timingRows.map((row) => {
-                      const isNext = activeNextPrayer?.name?.toLowerCase() === row.name.toLowerCase();
-                      return (
-                        <div key={row.name} className={`prayer-schedule-row${isNext ? " active" : ""}`}>
-                          <span className="prayer-schedule-name">{row.name}</span>
-                          <span className="prayer-schedule-time">{row.display}</span>
-                        </div>
-                      );
-                    })}
-                  </div>
-                )}
+                </div>
               </section>
             </div>
           </motion.aside>
