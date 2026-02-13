@@ -815,6 +815,169 @@
   color: var(--text);
 }
 
+/* ── Custom Select Dropdown ── */
+.prayer-custom-select {
+  position: relative;
+  flex: 1;
+  min-width: 0;
+}
+
+.prayer-custom-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  width: 100%;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 0.86rem;
+  font-weight: 400;
+  color: var(--muted);
+  text-align: right;
+  transition: color 0.15s ease;
+}
+
+.prayer-custom-trigger:hover,
+.prayer-custom-trigger.open {
+  color: var(--text);
+}
+
+.prayer-custom-trigger-text {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: right;
+}
+
+.prayer-custom-trigger-text.placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.prayer-custom-chevron {
+  flex-shrink: 0;
+  color: var(--muted);
+  opacity: 0.6;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.prayer-custom-chevron.rotated {
+  transform: rotate(180deg);
+  opacity: 1;
+}
+
+.prayer-custom-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: -16px;
+  z-index: 150;
+  min-width: 220px;
+  max-width: min(380px, calc(100vw - 48px));
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: linear-gradient(168deg,
+      rgba(22, 30, 36, 0.97) 0%,
+      rgba(12, 18, 24, 0.99) 100%);
+  box-shadow:
+    0 16px 48px -8px rgba(0, 0, 0, 0.5),
+    0 0 0 0.5px rgba(255, 255, 255, 0.06) inset;
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  overflow: hidden;
+  transform-origin: top right;
+}
+
+.prayer-custom-search-wrap {
+  padding: 8px 8px 0;
+}
+
+.prayer-custom-search {
+  width: 100%;
+  height: 36px;
+  padding: 0 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  font-size: 0.84rem;
+  outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.prayer-custom-search::placeholder {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.prayer-custom-search:focus {
+  border-color: rgba(111, 212, 177, 0.3);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.prayer-custom-options {
+  max-height: 260px;
+  overflow-y: auto;
+  padding: 4px;
+}
+
+.prayer-custom-options::-webkit-scrollbar {
+  width: 4px;
+}
+
+.prayer-custom-options::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.prayer-custom-options::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.prayer-custom-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--text);
+  font-size: 0.86rem;
+  font-weight: 400;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.1s ease;
+}
+
+.prayer-custom-option:hover,
+.prayer-custom-option.highlighted {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.prayer-custom-option.selected {
+  color: #d8fff0;
+  font-weight: 500;
+}
+
+.prayer-custom-option.selected svg {
+  color: rgba(111, 212, 177, 0.85);
+  flex-shrink: 0;
+}
+
+.prayer-custom-no-match {
+  padding: 16px 12px;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.82rem;
+  opacity: 0.6;
+}
+
 .prayer-settings-input {
   background: transparent;
   border: none;

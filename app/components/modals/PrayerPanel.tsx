@@ -1,10 +1,207 @@
 "use client";
 
-import { useEffect, useMemo, useState, type KeyboardEvent as ReactKeyboardEvent } from "react";
+import { useEffect, useMemo, useRef, useState, useCallback, type KeyboardEvent as ReactKeyboardEvent } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { PRAYER_COUNTRIES, PRAYER_MADHABS, PRAYER_METHODS } from "../../lib/constants";
 import type { NextPrayerPreview, PrayerLocationOption, PrayerSettings } from "../../lib/types";
+
+/* ── Custom Select Dropdown ── */
+
+type SelectOption = { value: string; label: string };
+
+type PrayerSelectProps = {
+  options: SelectOption[];
+  value: string;
+  onChange: (value: string) => void;
+  placeholder?: string;
+  searchable?: boolean;
+  searchPlaceholder?: string;
+};
+
+function PrayerSelect({
+  options,
+  value,
+  onChange,
+  placeholder = "Select",
+  searchable = false,
+  searchPlaceholder = "Search…"
+}: PrayerSelectProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [search, setSearch] = useState("");
+  const [highlightIndex, setHighlightIndex] = useState(-1);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const searchInputRef = useRef<HTMLInputElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+
+  const selectedLabel = options.find((o) => o.value === value)?.label || placeholder;
+
+  const filtered = useMemo(() => {
+    if (!searchable || !search.trim()) return options;
+    const q = search.trim().toLowerCase();
+    return options.filter((o) => o.label.toLowerCase().includes(q));
+  }, [options, search, searchable]);
+
+  // Reset state when opening/closing
+  useEffect(() => {
+    if (isOpen) {
+      setSearch("");
+      setHighlightIndex(-1);
+      // Focus the search input after animation
+      if (searchable) {
+        requestAnimationFrame(() => searchInputRef.current?.focus());
+      }
+    }
+  }, [isOpen, searchable]);
+
+  // Close on outside click
+  useEffect(() => {
+    if (!isOpen) return;
+    const handler = (e: MouseEvent) => {
+      if (containerRef.current && !containerRef.current.contains(e.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [isOpen]);
+
+  // Scroll highlighted item into view
+  useEffect(() => {
+    if (highlightIndex < 0 || !listRef.current) return;
+    const item = listRef.current.children[highlightIndex] as HTMLElement | undefined;
+    item?.scrollIntoView({ block: "nearest" });
+  }, [highlightIndex]);
+
+  const select = useCallback(
+    (optionValue: string) => {
+      onChange(optionValue);
+      setIsOpen(false);
+    },
+    [onChange]
+  );
+
+  const handleKeyDown = (e: ReactKeyboardEvent) => {
+    if (!isOpen) {
+      if (e.key === "Enter" || e.key === " " || e.key === "ArrowDown") {
+        e.preventDefault();
+        setIsOpen(true);
+      }
+      return;
+    }
+
+    switch (e.key) {
+      case "ArrowDown":
+        e.preventDefault();
+        setHighlightIndex((prev) => Math.min(prev + 1, filtered.length - 1));
+        break;
+      case "ArrowUp":
+        e.preventDefault();
+        setHighlightIndex((prev) => Math.max(prev - 1, 0));
+        break;
+      case "Enter":
+        e.preventDefault();
+        if (highlightIndex >= 0 && highlightIndex < filtered.length) {
+          select(filtered[highlightIndex].value);
+        }
+        break;
+      case "Escape":
+        e.preventDefault();
+        setIsOpen(false);
+        break;
+    }
+  };
+
+  return (
+    <div
+      className="prayer-custom-select"
+      ref={containerRef}
+      onKeyDown={handleKeyDown}
+    >
+      <button
+        type="button"
+        className={`prayer-custom-trigger${isOpen ? " open" : ""}`}
+        onClick={() => setIsOpen((prev) => !prev)}
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
+      >
+        <span className={`prayer-custom-trigger-text${!value ? " placeholder" : ""}`}>
+          {selectedLabel}
+        </span>
+        <svg
+          className={`prayer-custom-chevron${isOpen ? " rotated" : ""}`}
+          width="10"
+          height="6"
+          viewBox="0 0 10 6"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="1.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M1 1l4 4 4-4" />
+        </svg>
+      </button>
+
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            className="prayer-custom-dropdown"
+            role="listbox"
+            initial={{ opacity: 0, y: -6, scaleY: 0.96 }}
+            animate={{ opacity: 1, y: 0, scaleY: 1 }}
+            exit={{ opacity: 0, y: -6, scaleY: 0.96 }}
+            transition={{ duration: 0.15, ease: [0.22, 1, 0.36, 1] }}
+          >
+            {searchable && (
+              <div className="prayer-custom-search-wrap">
+                <input
+                  ref={searchInputRef}
+                  type="text"
+                  className="prayer-custom-search"
+                  placeholder={searchPlaceholder}
+                  value={search}
+                  onChange={(e) => {
+                    setSearch(e.target.value);
+                    setHighlightIndex(0);
+                  }}
+                  autoComplete="off"
+                  spellCheck={false}
+                />
+              </div>
+            )}
+            <div className="prayer-custom-options" ref={listRef}>
+              {filtered.length === 0 && (
+                <div className="prayer-custom-no-match">No match found</div>
+              )}
+              {filtered.map((opt, idx) => (
+                <button
+                  key={opt.value}
+                  type="button"
+                  role="option"
+                  aria-selected={opt.value === value}
+                  className={`prayer-custom-option${opt.value === value ? " selected" : ""}${idx === highlightIndex ? " highlighted" : ""}`}
+                  onMouseEnter={() => setHighlightIndex(idx)}
+                  onMouseDown={(e) => e.preventDefault()}
+                  onClick={() => select(opt.value)}
+                >
+                  <span>{opt.label}</span>
+                  {opt.value === value && (
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M20 6L9 17l-5-5" />
+                    </svg>
+                  )}
+                </button>
+              ))}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </div>
+  );
+}
+
+/* ── Prayer Panel ── */
 
 type PrayerPanelProps = {
   isOpen: boolean;
@@ -257,6 +454,49 @@ export default function PrayerPanel({
       }),
     [timings]
   );
+  const countryOptions = useMemo<SelectOption[]>(
+    () => PRAYER_COUNTRIES.map((c) => ({ value: c.code, label: c.name })),
+    []
+  );
+  const methodOptions = useMemo<SelectOption[]>(
+    () => PRAYER_METHODS.map((m) => ({ value: m.id, label: m.label })),
+    []
+  );
+  const madhabOptions = useMemo<SelectOption[]>(
+    () => PRAYER_MADHABS.map((m) => ({ value: m.id, label: m.label })),
+    []
+  );
+
+  const handleCountryChange = useCallback(
+    (code: string) => {
+      const country = PRAYER_COUNTRIES.find((item) => item.code === code);
+      setPrayerSettings((prev) => ({
+        ...prev,
+        countryCode: code,
+        countryName: country?.name || "",
+        city: "",
+        latitude: null,
+        longitude: null,
+        geonameId: null
+      }));
+      setCityInput("");
+      setIsCityFocused(false);
+      setHighlightedCityIndex(-1);
+      setLocationOptions([]);
+    },
+    [setPrayerSettings]
+  );
+
+  const handleMethodChange = useCallback(
+    (value: string) => setPrayerSettings((prev) => ({ ...prev, method: value })),
+    [setPrayerSettings]
+  );
+
+  const handleMadhabChange = useCallback(
+    (value: string) => setPrayerSettings((prev) => ({ ...prev, madhab: value })),
+    [setPrayerSettings]
+  );
+
   const trimmedCityInput = cityInput.trim();
   const recentInCountry = useMemo(
     () =>
@@ -460,37 +700,17 @@ export default function PrayerPanel({
               <section className="prayer-section">
                 <h4 className="prayer-section-title">Location</h4>
                 <div className="prayer-settings-card">
-                  <label className="prayer-settings-row">
+                  <div className="prayer-settings-row">
                     <span className="prayer-settings-label">Country</span>
-                    <select
-                      className="prayer-settings-select"
+                    <PrayerSelect
+                      options={countryOptions}
                       value={prayerSettings.countryCode}
-                      onChange={(event) => {
-                        const code = event.target.value;
-                        const country = PRAYER_COUNTRIES.find((item) => item.code === code);
-                        setPrayerSettings((prev) => ({
-                          ...prev,
-                          countryCode: code,
-                          countryName: country?.name || "",
-                          city: "",
-                          latitude: null,
-                          longitude: null,
-                          geonameId: null
-                        }));
-                        setCityInput("");
-                        setIsCityFocused(false);
-                        setHighlightedCityIndex(-1);
-                        setLocationOptions([]);
-                      }}
-                    >
-                      <option value="">Select</option>
-                      {PRAYER_COUNTRIES.map((country) => (
-                        <option key={country.code} value={country.code}>
-                          {country.name}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
+                      onChange={handleCountryChange}
+                      placeholder="Select"
+                      searchable
+                      searchPlaceholder="Search country…"
+                    />
+                  </div>
 
                   <div className="prayer-settings-divider" />
 
@@ -617,47 +837,25 @@ export default function PrayerPanel({
               <section className="prayer-section">
                 <h4 className="prayer-section-title">Calculation</h4>
                 <div className="prayer-settings-card">
-                  <label className="prayer-settings-row">
+                  <div className="prayer-settings-row">
                     <span className="prayer-settings-label">Method</span>
-                    <select
-                      className="prayer-settings-select"
+                    <PrayerSelect
+                      options={methodOptions}
                       value={prayerSettings.method}
-                      onChange={(event) =>
-                        setPrayerSettings((prev) => ({
-                          ...prev,
-                          method: event.target.value
-                        }))
-                      }
-                    >
-                      {PRAYER_METHODS.map((method) => (
-                        <option key={method.id} value={method.id}>
-                          {method.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
+                      onChange={handleMethodChange}
+                    />
+                  </div>
 
                   <div className="prayer-settings-divider" />
 
-                  <label className="prayer-settings-row">
+                  <div className="prayer-settings-row">
                     <span className="prayer-settings-label">Madhab</span>
-                    <select
-                      className="prayer-settings-select"
+                    <PrayerSelect
+                      options={madhabOptions}
                       value={prayerSettings.madhab}
-                      onChange={(event) =>
-                        setPrayerSettings((prev) => ({
-                          ...prev,
-                          madhab: event.target.value
-                        }))
-                      }
-                    >
-                      {PRAYER_MADHABS.map((madhab) => (
-                        <option key={madhab.id} value={madhab.id}>
-                          {madhab.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
+                      onChange={handleMadhabChange}
+                    />
+                  </div>
 
                   <div className="prayer-settings-divider" />
 
