@@ -27,6 +27,7 @@ type StudyAyahCardProps = {
   isMarked: boolean;
   isDimmed: boolean;
   arabicContent: ReactNode;
+  showTajweed: boolean;
   translationText: string;
   showTranslation: boolean;
   isMushafView: boolean;
@@ -59,6 +60,7 @@ function StudyAyahCardComponent({
   isMarked,
   isDimmed,
   arabicContent,
+  showTajweed,
   translationText,
   showTranslation,
   isMushafView,
@@ -314,7 +316,7 @@ function StudyAyahCardComponent({
             </button>
           </div>
         </div>
-        {words.length > 0 ? (
+        {words.length > 0 && !showTajweed ? (
           <div
             className="study-ayah-arabic study-ayah-arabic-interactive"
             lang="ar"

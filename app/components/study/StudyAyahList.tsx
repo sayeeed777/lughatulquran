@@ -99,6 +99,7 @@ export default function StudyAyahList({
             isFocused={isFocused}
             isMarked={isMarked}
             isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
+            showTajweed={showTajweed}
             arabicContent={
               showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
             }
@@ -111,7 +112,7 @@ export default function StudyAyahList({
             wordAudioUrl={wordAudioUrl}
             selectedWordPosition={
               selectedWordDetails?.surah === selectedSurahNumber &&
-              selectedWordDetails?.ayah === ayahNum
+                selectedWordDetails?.ayah === ayahNum
                 ? selectedWordDetails.position
                 : null
             }
