@@ -33,6 +33,10 @@ let lastPersistedPruneAt = 0;
 
 const sleep = (ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms));
 
+const isAbortError = (error: unknown): boolean => {
+  return error instanceof Error && error.name === "AbortError";
+};
+
 const getPersistedStorageKey = (cacheKey: string) => `${STORAGE_PREFIX}${cacheKey}`;
 
 const prunePersistedCache = (now = Date.now()) => {
@@ -209,6 +213,10 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
         }
         return payload;
       } catch (error) {
+        // Don't retry or report AbortErrors - they're expected cancellations
+        if (isAbortError(error)) {
+          throw error;
+        }
         attempt += 1;
         if (attempt > retries) {
           reportError(error, { url, cacheKey });
