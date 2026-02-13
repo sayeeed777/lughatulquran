@@ -9,6 +9,9 @@ out/
 .env
 .env.*
 
+# IDE / editor
+.idea/
+
 # OS / editor
 .DS_Store
 
@@ -21,6 +24,11 @@ yarn-error.log*
 .vercel/
 *.tsbuildinfo
 .vercel
+
+# Claude Code
+.claude/
+session-*.md
+god-hook-refactor-plan.md
 
 # android / capacitor
 android/.gradle/

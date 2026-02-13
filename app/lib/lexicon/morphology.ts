@@ -1,6 +1,11 @@
-import { execFileSync } from "node:child_process";
-import { existsSync, readFileSync } from "node:fs";
+import { execFile as execFileCb } from "node:child_process";
+import { existsSync } from "node:fs";
+import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { promisify } from "node:util";
+import { normalizeRootKey } from "./buckwalter";
+
+const execFile = promisify(execFileCb);
 
 export type MorphologyWordEntry = {
   surah: number;
@@ -46,18 +51,19 @@ const getCandidates = () =>
     "/tmp/quran-morphology.mustafa.txt"
   ].filter((value): value is string => Boolean(value));
 
-const readCorpusText = () => {
+const readCorpusText = async (): Promise<string | null> => {
   for (const candidate of getCandidates()) {
     if (!existsSync(candidate)) continue;
     try {
       if (candidate.endsWith(".txt")) {
-        return readFileSync(candidate, "utf8");
+        return await readFile(candidate, "utf8");
       }
       if (candidate.endsWith(".zip")) {
-        return execFileSync("unzip", ["-p", candidate], {
+        const { stdout } = await execFile("unzip", ["-p", candidate], {
           encoding: "utf8",
           maxBuffer: 50 * 1024 * 1024
         });
+        return stdout;
       }
     } catch {
       continue;
@@ -70,17 +76,6 @@ const parseFeatureValue = (features: string, key: "LEM" | "ROOT") => {
   const match = features.match(new RegExp(`(?:^|\\|)${key}:([^|\\t]+)`));
   return match?.[1]?.trim() || "";
 };
-
-const normalizeRootKey = (value: string) =>
-  value
-    .normalize("NFC")
-    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
-    .replace(/\s+/g, "")
-    .replace(/[أإآٱ]/g, "ا")
-    .replace(/[ؤئ]/g, "ء")
-    .replace(/ى/g, "ي")
-    .replace(/ة/g, "ه")
-    .trim();
 
 const parseMorphologyLine = (line: string): ParsedMorphologyLine | null => {
   const legacyMatch = line.match(LEGACY_LOCATION_RE);
@@ -182,7 +177,7 @@ const loadIndex = async () => {
   if (cachedIndex) return cachedIndex;
   if (cachedLoadError) return null;
 
-  const corpusText = readCorpusText();
+  const corpusText = await readCorpusText();
   if (!corpusText) {
     cachedLoadError = "Morphology corpus file not found.";
     return null;

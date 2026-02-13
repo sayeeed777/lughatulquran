@@ -1,19 +1,13 @@
 "use client";
 
 import type { Surah } from "../../lib/types";
+import { parseVerseKey } from "../../lib/utils";
 
 type BookmarkListProps = {
   sortedBookmarks: string[];
   surahByNumber: Map<number, Surah>;
   onJumpToAyah: (surah: number, ayah: number) => void;
   onToggleBookmark: (surah: number, ayah: number) => void;
-};
-
-const parseVerseKey = (key: string) => {
-  const parts = key.split(":");
-  const surah = Number(parts[0] ?? 0);
-  const ayah = Number(parts[1] ?? 0);
-  return { surah, ayah };
 };
 
 export default function BookmarkList({

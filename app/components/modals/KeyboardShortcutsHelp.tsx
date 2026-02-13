@@ -24,7 +24,7 @@ function KeyboardShortcutsHelp({ isOpen = true, onClose }: KeyboardShortcutsHelp
   const shortcuts = [
     { keys: ["↑", "K"], action: "Previous ayah" },
     { keys: ["↓", "J"], action: "Next ayah" },
-    { keys: ["Space"], action: "Play/Pause audio" },
+    { keys: ["P"], action: "Play/Pause audio" },
     { keys: ["W"], action: "Toggle word-by-word" },
     { keys: ["F"], action: "Toggle study mode" },
     { keys: ["/"], action: "Search ayahs" },

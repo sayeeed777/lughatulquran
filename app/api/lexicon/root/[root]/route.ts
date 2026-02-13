@@ -42,7 +42,7 @@ export async function GET(request: Request, { params }: RouteContext) {
 
   const url = new URL(request.url);
   const isSummaryMode = url.searchParams.get("mode") === "summary";
-  const rootMeaning = getPrimaryRootMeaning(root);
+  const rootMeaning = await getPrimaryRootMeaning(root);
 
   if (isSummaryMode) {
     return NextResponse.json({
@@ -54,7 +54,7 @@ export async function GET(request: Request, { params }: RouteContext) {
       definitions: [],
       lemmas: [],
       references: [],
-      primaryRootMeaningsAvailable: hasPrimaryRootMeanings(),
+      primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
       primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
       laneAvailable: false,
       morphologyAvailable: false,
@@ -63,8 +63,10 @@ export async function GET(request: Request, { params }: RouteContext) {
     });
   }
 
-  const index = await getMorphologyIndex();
-  const laneEntry = getLaneEntry(root);
+  const [index, laneEntry] = await Promise.all([
+    getMorphologyIndex(),
+    getLaneEntry(root)
+  ]);
   const references = getRootReferences(index, root, 120);
   const lemmas = getRootLemmas(index, root, 20);
 
@@ -80,9 +82,9 @@ export async function GET(request: Request, { params }: RouteContext) {
     definitions,
     lemmas,
     references,
-    primaryRootMeaningsAvailable: hasPrimaryRootMeanings(),
+    primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
     primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
-    laneAvailable: hasLaneLexicon(),
+    laneAvailable: await hasLaneLexicon(),
     morphologyAvailable: Boolean(index),
     morphologyError: index ? null : getMorphologyLoadError(),
     fullPayload: true

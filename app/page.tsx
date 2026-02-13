@@ -130,6 +130,7 @@ export default function Home() {
   if (readingMode) {
     return (
       <ErrorBoundary>
+        <ThemeProvider theme={theme} isLightTheme={isLightTheme} toggleTheme={toggleTheme}>
         <BookmarkProvider
           bookmarks={bookmarks}
           notes={notes}
@@ -197,6 +198,7 @@ export default function Home() {
             />
           </AudioProvider>
         </BookmarkProvider>
+        </ThemeProvider>
       </ErrorBoundary>
     );
   }
@@ -386,7 +388,6 @@ export default function Home() {
                     setFontScale={setFontScale}
                     focusedAyahKey={focusedAyahKey}
                     setFocusedAyahKey={setFocusedAyahKey}
-                    copiedKey={copiedKey}
                     prayerSettings={prayerSettings}
                     setPrayerSettings={setPrayerSettings}
                     nextPrayerPreview={nextPrayerPreview}

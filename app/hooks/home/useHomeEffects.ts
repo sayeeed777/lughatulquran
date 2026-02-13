@@ -81,9 +81,14 @@ export function useHomeEffects({
     setSelectedSurah(surahs[0] || null);
   }, [surahs, selectedSurah, setSelectedSurah, setPendingScroll, setFocusedAyahKey]);
 
-  // Sync URL with selection
+  // Sync URL with selection (debounced to avoid excessive calls during autoplay)
+  const lastUrlUpdateRef = useRef(0);
   useEffect(() => {
     if (typeof window === "undefined" || !selectedSurah) return;
+    const now = Date.now();
+    // Throttle URL updates to at most once per 500ms
+    if (now - lastUrlUpdateRef.current < 500) return;
+    lastUrlUpdateRef.current = now;
     const url = new URL(window.location.href);
     url.searchParams.set("surah", String(selectedSurah.number));
     if (focusedAyahKey && !isMobileViewport()) {
@@ -94,6 +99,32 @@ export function useHomeEffects({
     }
     window.history.replaceState({}, "", url);
   }, [selectedSurah, focusedAyahKey]);
+
+  // Handle browser back/forward navigation
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const surahParam = Number(params.get("surah"));
+      const ayahParam = Number(params.get("ayah"));
+
+      if (!surahParam || !surahs.length) return;
+      const targetSurah = surahs.find((s) => s.number === surahParam);
+      if (!targetSurah) return;
+
+      if (!selectedSurah || selectedSurah.number !== surahParam) {
+        setSelectedSurah(targetSurah);
+      }
+      if (ayahParam) {
+        setPendingScroll(ayahParam);
+        setFocusedAyahKey(verseKey(surahParam, ayahParam));
+      }
+    };
+
+    window.addEventListener("popstate", handlePopState);
+    return () => window.removeEventListener("popstate", handlePopState);
+  }, [surahs, selectedSurah, setSelectedSurah, setPendingScroll, setFocusedAyahKey]);
 
   // Update Last Read
   useEffect(() => {

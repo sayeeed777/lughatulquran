@@ -11,6 +11,9 @@ type RateLimitBucket = {
   resetAt: number;
 };
 
+// NOTE: In-memory rate limiting is best-effort. It resets on cold starts in
+// serverless environments and is per-instance in multi-instance deployments.
+// For stricter enforcement, replace with an external store (e.g. Redis, KV).
 const rateLimitBuckets = new Map<string, RateLimitBucket>();
 
 type SearchResult = {
@@ -45,12 +48,21 @@ type AlQuranPayload = {
   data?: { matches?: AlQuranMatch[] };
 };
 
+/** Simple string hash to avoid storing full user-agent strings in memory. */
+const simpleHash = (input: string): string => {
+  let hash = 0;
+  for (let i = 0; i < input.length; i++) {
+    hash = ((hash << 5) - hash + input.charCodeAt(i)) | 0;
+  }
+  return hash.toString(36);
+};
+
 const getClientIdentifier = (request: NextRequest) => {
   const xForwardedFor = request.headers.get("x-forwarded-for") || "";
   const realIp = request.headers.get("x-real-ip") || "";
   const ip = xForwardedFor.split(",")[0]?.trim() || realIp || "unknown";
-  const userAgent = request.headers.get("user-agent") || "unknown";
-  return `${ip}:${userAgent.slice(0, 120)}`;
+  const userAgent = request.headers.get("user-agent") || "";
+  return `${ip}:${simpleHash(userAgent)}`;
 };
 
 const pruneRateLimitBuckets = (now: number) => {

@@ -1,8 +1,7 @@
 "use client";
 
 import type { Ayah, Surah } from "../../lib/types";
-
-type Translation = { id: string; label: string };
+import { ALL_TRANSLATIONS } from "../../lib/constants";
 
 type CompareModalProps = {
   selectedAyah: Ayah | null;
@@ -12,14 +11,6 @@ type CompareModalProps = {
   taqiLoading: Record<string, boolean>;
   onClose: () => void;
 };
-
-const ALL_TRANSLATIONS: Translation[] = [
-  { id: "en.sahih", label: "Sahih International" },
-  { id: "en.arberry", label: "A.J. Arberry" },
-  { id: "en.pickthall", label: "Pickthall" },
-  { id: "en.yusufali", label: "Yusuf Ali" },
-  { id: "taqi-usmani", label: "Mufti Taqi Usmani" }
-];
 
 export default function CompareModal({
   selectedAyah,

@@ -93,7 +93,9 @@ def _read_zip_to_temp(zip_path: Path) -> Path:
             target = sqlite_candidates[0]
         else:
             # Fall back to the first file. We'll error later if it isn't a SQLite DB.
-            target = next((n for n in names if not n.endswith("/")), "") if names else ""
+            target = (
+                next((n for n in names if not n.endswith("/")), "") if names else ""
+            )
         if not target:
             raise RuntimeError(f"No files found inside zip: {zip_path}")
         data = zf.read(target)
@@ -137,7 +139,9 @@ def _pick_best_table(conn: sqlite3.Connection) -> Tuple[str, str, str, Optional[
 
         root_col = next((col_lut[c] for c in ROOT_COL_CANDIDATES if c in col_lut), "")
         text_col = next((col_lut[c] for c in TEXT_COL_CANDIDATES if c in col_lut), "")
-        arabic_col = next((col_lut[c] for c in ARABIC_COL_CANDIDATES if c in col_lut), None)
+        arabic_col = next(
+            (col_lut[c] for c in ARABIC_COL_CANDIDATES if c in col_lut), None
+        )
 
         if root_col.lower() == "broot" and not arabic_col and "root" in col_lut:
             arabic_col = col_lut["root"]
@@ -168,7 +172,9 @@ def _pick_best_table(conn: sqlite3.Connection) -> Tuple[str, str, str, Optional[
         preview = []
         for table in tables[:14]:
             cols = _table_columns(conn, table)
-            preview.append(f"- {table}: {', '.join(cols[:18])}{' ...' if len(cols) > 18 else ''}")
+            preview.append(
+                f"- {table}: {', '.join(cols[:18])}{' ...' if len(cols) > 18 else ''}"
+            )
         raise RuntimeError(
             "Could not auto-detect a table/columns for root + entry text.\n\n"
             "Tables found:\n"
@@ -189,7 +195,11 @@ def _parse_quran_roots(morphology_path: Path) -> Set[str]:
                 names = zf.namelist()
                 target = next((n for n in names if n.lower().endswith(".txt")), "")
                 if not target:
-                    target = next((n for n in names if not n.endswith("/")), "") if names else ""
+                    target = (
+                        next((n for n in names if not n.endswith("/")), "")
+                        if names
+                        else ""
+                    )
                 if not target:
                     return []
                 with zf.open(target, "r") as f:
@@ -223,8 +233,8 @@ def _default_morphology_candidates(repo_root: Path) -> List[Path]:
     return [
         repo_root / "app" / "data" / "quranic-corpus-morphology-0.4.txt",
         repo_root / "app" / "data" / "quranic-corpus-morphology-0.4.zip",
-        Path("/Users/mdaminalsayeed/Downloads/quranic-corpus-morphology-0.4.txt"),
-        Path("/Users/mdaminalsayeed/Downloads/quranic-corpus-morphology-0.4.zip"),
+        Path.home() / "Downloads" / "quranic-corpus-morphology-0.4.txt",
+        Path.home() / "Downloads" / "quranic-corpus-morphology-0.4.zip",
     ]
 
 
@@ -245,7 +255,9 @@ def main() -> int:
     parser.add_argument("--table", help="Override the source table name.")
     parser.add_argument("--root-col", help="Override the root key column name.")
     parser.add_argument("--text-col", help="Override the entry text column name.")
-    parser.add_argument("--arabic-col", help="Optional: override the Arabic root column name.")
+    parser.add_argument(
+        "--arabic-col", help="Optional: override the Arabic root column name."
+    )
     parser.add_argument(
         "--max-defs",
         type=int,
@@ -280,7 +292,9 @@ def main() -> int:
 
     quran_roots: Optional[Set[str]] = None
     if args.only_quran_roots:
-        morph_path: Optional[Path] = Path(args.morphology).expanduser() if args.morphology else None
+        morph_path: Optional[Path] = (
+            Path(args.morphology).expanduser() if args.morphology else None
+        )
         if not morph_path:
             for candidate in _default_morphology_candidates(repo_root):
                 if candidate.exists():
@@ -294,7 +308,10 @@ def main() -> int:
             return 2
         print(f"Scanning Qur'an roots from: {morph_path}", file=sys.stderr)
         quran_roots = _parse_quran_roots(morph_path)
-        print(f"Found {len(quran_roots)} unique roots in morphology corpus.", file=sys.stderr)
+        print(
+            f"Found {len(quran_roots)} unique roots in morphology corpus.",
+            file=sys.stderr,
+        )
 
     conn, tmp = _connect_sqlite(sqlite_path)
     try:
@@ -355,7 +372,9 @@ def main() -> int:
                 continue
 
             raw_entry = row[text_col]
-            entry_text = _normalize_text(str(raw_entry) if raw_entry is not None else "")
+            entry_text = _normalize_text(
+                str(raw_entry) if raw_entry is not None else ""
+            )
             if not entry_text:
                 continue
 

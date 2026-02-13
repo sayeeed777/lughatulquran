@@ -61,7 +61,6 @@ type ReaderPanelProps = {
   setFontScale: SetState<FontScale>;
   focusedAyahKey: string | null;
   setFocusedAyahKey: SetState<string | null>;
-  copiedKey: string | null;
   prayerSettings: PrayerSettings;
   setPrayerSettings: SetState<PrayerSettings>;
   nextPrayerPreview: NextPrayerPreview | null;
@@ -112,7 +111,6 @@ export default function ReaderPanel({
   setFontScale,
   focusedAyahKey,
   setFocusedAyahKey,
-  copiedKey,
   prayerSettings,
   setPrayerSettings,
   nextPrayerPreview,
@@ -489,7 +487,6 @@ export default function ReaderPanel({
                     isAudioPaused={isAudioPaused}
                     words={words}
                     showWordByWord={showWordByWord}
-                    copiedKey={copiedKey}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
                     onPlay={onPlay}

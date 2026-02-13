@@ -1,7 +1,7 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
-import { verseKey, parseVerseKey, copyToClipboard } from "../lib/utils";
+import { useCallback, useEffect, useState } from "react";
+import { verseKey, copyToClipboard } from "../lib/utils";
 import { useLastRead, useStudySession } from "./common";
 import { useAudioPlayback } from "./useAudioPlayback";
 import { useBookmarks, useNoteEditor } from "./useBookmarks";
@@ -57,7 +57,7 @@ export function useHomeController() {
   } = useSurahDetails(selectedSurah?.number);
 
   // Bookmarks & Notes
-  const { bookmarks, notes, setNotes, toggleBookmark } = useBookmarks();
+  const { bookmarks, notes, setNotes, toggleBookmark, sortedBookmarks, sortedNotes } = useBookmarks();
   const {
     noteTarget,
     noteDraft,
@@ -274,25 +274,6 @@ export function useHomeController() {
     nowPlaying,
     isAutoPlaying
   });
-
-  // Sorted lists
-  const sortedBookmarks = useMemo(() => {
-    return [...bookmarks].sort((a, b) => {
-      const first = parseVerseKey(a);
-      const second = parseVerseKey(b);
-      if (first.surah !== second.surah) return first.surah - second.surah;
-      return first.ayah - second.ayah;
-    });
-  }, [bookmarks]);
-
-  const sortedNotes = useMemo(() => {
-    return Object.entries(notes as Notes)
-      .map(([key, value]) => ({ key, value, ...parseVerseKey(key) }))
-      .sort((a, b) => {
-        if (a.surah !== b.surah) return a.surah - b.surah;
-        return a.ayah - b.ayah;
-      });
-  }, [notes]);
 
   const nowPlayingLabel = nowPlaying
     ? `${surahByNumber.get(nowPlaying.surah)?.englishName || `Surah ${nowPlaying.surah}`} - Ayah ${nowPlaying.ayah}`

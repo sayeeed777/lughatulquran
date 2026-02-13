@@ -1,6 +1,7 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync } from "node:fs";
+import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { buckwalterToArabic } from "./buckwalter";
+import { buckwalterToArabic, normalizeRootKey } from "./buckwalter";
 
 export type LaneRootEntry = {
   root?: string;
@@ -13,6 +14,7 @@ type LaneLexiconMap = Map<string, LaneRootEntry>;
 
 let cachedLexicon: LaneLexiconMap | null = null;
 let cachedLaneError: string | null = null;
+let lexiconPromise: Promise<LaneLexiconMap | null> | null = null;
 
 const laneCandidates = () =>
   [
@@ -21,17 +23,6 @@ const laneCandidates = () =>
     join(process.cwd(), "app/data/lane_lexicon.json"),
     join(process.cwd(), "public/data/lane-lexicon.json")
   ].filter((value): value is string => Boolean(value));
-
-const normalizeRootKey = (value: string) =>
-  value
-    .normalize("NFC")
-    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
-    .replace(/\s+/g, "")
-    .replace(/[أإآٱ]/g, "ا")
-    .replace(/[ؤئ]/g, "ء")
-    .replace(/ى/g, "ي")
-    .replace(/ة/g, "ه")
-    .trim();
 
 const cleanLaneText = (value: string) =>
   value
@@ -122,14 +113,15 @@ const normalizeEntry = (value: unknown): LaneRootEntry | null => {
   };
 };
 
-const loadLaneLexicon = () => {
+const loadLaneLexiconAsync = async (): Promise<LaneLexiconMap | null> => {
   if (cachedLexicon) return cachedLexicon;
   if (cachedLaneError) return null;
 
   for (const candidate of laneCandidates()) {
     if (!existsSync(candidate)) continue;
     try {
-      const payload = JSON.parse(readFileSync(candidate, "utf8")) as unknown;
+      const raw = await readFile(candidate, "utf8");
+      const payload = JSON.parse(raw) as unknown;
       if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
         continue;
       }
@@ -161,8 +153,16 @@ const loadLaneLexicon = () => {
   return null;
 };
 
-export const getLaneEntry = (root: string) => {
-  const map = loadLaneLexicon();
+const loadLaneLexicon = async (): Promise<LaneLexiconMap | null> => {
+  if (cachedLexicon) return cachedLexicon;
+  if (!lexiconPromise) {
+    lexiconPromise = loadLaneLexiconAsync();
+  }
+  return lexiconPromise;
+};
+
+export const getLaneEntry = async (root: string) => {
+  const map = await loadLaneLexicon();
   if (!map || !root) return null;
   const normalizedInput = normalizeRootKey(root);
   if (normalizedInput && map.has(normalizedInput)) {
@@ -175,6 +175,6 @@ export const getLaneEntry = (root: string) => {
   return null;
 };
 
-export const hasLaneLexicon = () => Boolean(loadLaneLexicon());
+export const hasLaneLexicon = async () => Boolean(await loadLaneLexicon());
 
 export const getLaneLoadError = () => cachedLaneError;

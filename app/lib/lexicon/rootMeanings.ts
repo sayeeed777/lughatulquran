@@ -1,11 +1,13 @@
-import { existsSync, readFileSync } from "node:fs";
+import { existsSync } from "node:fs";
+import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import { buckwalterToArabic } from "./buckwalter";
+import { buckwalterToArabic, normalizeRootKey } from "./buckwalter";
 
 type RootMeaningMap = Map<string, string>;
 
 let cachedMap: RootMeaningMap | null = null;
 let cachedLoadError: string | null = null;
+let loadPromise: Promise<RootMeaningMap | null> | null = null;
 
 const candidatePaths = () =>
   [
@@ -18,19 +20,9 @@ const candidatePaths = () =>
     join(process.cwd(), "public/data/root-meanings.json")
   ].filter((value): value is string => Boolean(value));
 
-const normalizeRootKey = (value: string) =>
-  value
-    .normalize("NFC")
-    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
-    .replace(/\s+/g, "")
-    .replace(/[أإآٱ]/g, "ا")
-    .replace(/[ؤئ]/g, "ء")
-    .replace(/ى/g, "ي")
-    .replace(/ة/g, "ه")
-    .trim();
 const normalizeMeaning = (value: string) => value.replace(/\s+/g, " ").trim();
 
-const loadRootMeanings = () => {
+const loadRootMeaningsAsync = async (): Promise<RootMeaningMap | null> => {
   if (cachedMap) return cachedMap;
   if (cachedLoadError) return null;
 
@@ -40,7 +32,8 @@ const loadRootMeanings = () => {
   for (const candidate of candidatePaths()) {
     if (!existsSync(candidate)) continue;
     try {
-      const payload = JSON.parse(readFileSync(candidate, "utf8")) as unknown;
+      const raw = await readFile(candidate, "utf8");
+      const payload = JSON.parse(raw) as unknown;
       if (!payload || typeof payload !== "object" || Array.isArray(payload)) {
         continue;
       }
@@ -67,8 +60,16 @@ const loadRootMeanings = () => {
   return null;
 };
 
-export const getPrimaryRootMeaning = (root: string) => {
-  const map = loadRootMeanings();
+const loadRootMeanings = async (): Promise<RootMeaningMap | null> => {
+  if (cachedMap) return cachedMap;
+  if (!loadPromise) {
+    loadPromise = loadRootMeaningsAsync();
+  }
+  return loadPromise;
+};
+
+export const getPrimaryRootMeaning = async (root: string) => {
+  const map = await loadRootMeanings();
   if (!map || !root) return null;
 
   const normalizedRaw = normalizeRootKey(root);
@@ -82,6 +83,6 @@ export const getPrimaryRootMeaning = (root: string) => {
   return map.get(arabicRoot) || null;
 };
 
-export const hasPrimaryRootMeanings = () => Boolean(loadRootMeanings());
+export const hasPrimaryRootMeanings = async () => Boolean(await loadRootMeanings());
 
 export const getPrimaryRootMeaningsLoadError = () => cachedLoadError;

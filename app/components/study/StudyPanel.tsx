@@ -2,16 +2,20 @@
 
 import type { ReadingPlan as ReadingPlanState, Surah } from "../../lib/types";
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
+import { getTimeAgo } from "../sidebar/LastReadCard";
 import { useBookmarkContext } from "../../contexts";
+import type { PlanSummary } from "../../hooks/home/useHomePlan";
+
+type VerseRef = { surah: number; ayah: number } | null;
 
 type StudyPanelProps = {
   surahs: Surah[];
   surahByNumber: Map<number, Surah>;
   readingPlan: ReadingPlanState;
   setReadingPlan: (value: ReadingPlanState | ((prev: ReadingPlanState) => ReadingPlanState)) => void;
-  planSummary: any;
+  planSummary: PlanSummary;
   onJumpToAyah: (surah: number, ayah: number) => void;
-  formatRangeLabel: (start: any, end: any) => string;
+  formatRangeLabel: (start: VerseRef, end: VerseRef) => string;
   getLocalDateString: () => string;
   continueSession?: {
     surah: number;
@@ -83,13 +87,4 @@ export default function StudyPanel({
       />
     </aside>
   );
-}
-
-function getTimeAgo(timestamp: number) {
-  const elapsedSeconds = Math.floor((Date.now() - timestamp) / 1000);
-  if (elapsedSeconds < 60) return "Just now";
-  if (elapsedSeconds < 3600) return `${Math.floor(elapsedSeconds / 60)} min ago`;
-  if (elapsedSeconds < 86400) return `${Math.floor(elapsedSeconds / 3600)}h ago`;
-  if (elapsedSeconds < 604800) return `${Math.floor(elapsedSeconds / 86400)}d ago`;
-  return new Date(timestamp).toLocaleDateString();
 }

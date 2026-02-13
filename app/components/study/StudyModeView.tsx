@@ -16,6 +16,7 @@ import useWordLexicon from "./useWordLexicon";
 import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
 import { useAudio, useBookmarkContext } from "../../contexts";
+import type { PlanSummary } from "../../hooks/home/useHomePlan";
 
 type RailItem = {
   id: QuickPanelTab;
@@ -35,7 +36,7 @@ type StudyModeViewProps = {
   setArabicFontId: (value: string) => void;
   selectedTranslations?: string[] | string;
   readingPlan: ReadingPlan;
-  planSummary: any;
+  planSummary: PlanSummary;
   focusedAyahKey: string | null;
   setFocusedAyahKey: (value: string | null) => void;
   fontScale: { arabic: number; translation: number };

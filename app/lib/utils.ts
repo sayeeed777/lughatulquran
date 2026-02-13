@@ -95,7 +95,7 @@ export const copyToClipboard = async (text: string): Promise<boolean> => {
 
 // Format reading progress
 export const formatProgress = (current: number, total: number) => {
-  const percentage = Math.round((current / total) * 100);
+  const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
   return { current, total, percentage };
 };
 

@@ -1,5 +1,3 @@
-import { getLocalDateString } from "./utils";
-
 // Audio Reciters
 export const AUDIO_RECITERS = [
   {
@@ -142,8 +140,10 @@ export const PRAYER_MADHABS = [
 
 
 // Reading Plan Defaults
+// NOTE: startDate is intentionally empty — it must be set at runtime (client-side)
+// to avoid server/client date mismatches during SSR/hydration.
 export const DEFAULT_PLAN = {
-  startDate: getLocalDateString(),
+  startDate: "",
   perDay: 10,
   startSurah: 1,
   startAyah: 1
@@ -160,6 +160,8 @@ export const FONT_SCALE = {
 export const STORAGE_KEYS = {
   bookmarks: "quran_bookmarks",
   notes: "quran_notes",
+  noteTarget: "quran_note_target",
+  noteDraft: "quran_note_draft",
   plan: "quran_plan",
   fontScale: "quran_font_scale",
   playbackRate: "quran_playback_rate",
@@ -186,6 +188,16 @@ export const SHORTCUTS = {
 // Bismillah Text (for display before surahs)
 export const BISMILLAH = "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ";
 export const BISMILLAH_TRANSLATION = "In the name of Allah, the Entirely Merciful, the Especially Merciful";
+
+// Ayah counts per surah (1-indexed by surah-1)
+export const SURAH_AYAH_COUNTS = [
+  7, 286, 200, 176, 120, 165, 206, 75, 129, 109, 123, 111, 43, 52, 99, 128,
+  111, 110, 98, 135, 112, 78, 118, 64, 77, 227, 93, 88, 69, 60, 34, 30, 73,
+  54, 45, 83, 182, 88, 75, 85, 54, 53, 89, 59, 37, 35, 38, 29, 18, 45, 60, 49,
+  62, 55, 78, 96, 29, 22, 24, 13, 14, 11, 11, 18, 12, 12, 30, 52, 52, 44, 28,
+  28, 20, 56, 40, 31, 50, 40, 46, 42, 29, 19, 36, 25, 22, 17, 19, 26, 30, 20,
+  15, 21, 11, 8, 8, 19, 5, 8, 8, 11, 11, 8, 3, 9, 5, 4, 7, 3, 6, 3, 5, 4, 5, 6
+];
 
 // Surahs that don't have Bismillah
 export const NO_BISMILLAH_SURAHS = [1, 9]; // Al-Fatihah (it's the first ayah), At-Tawbah (no bismillah)

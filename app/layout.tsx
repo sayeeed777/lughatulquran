@@ -44,13 +44,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-        <meta name="apple-mobile-web-app-title" content="Quran Reader" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-      </head>
+      {/* Meta tags are handled by the metadata and viewport exports above.
+          No manual <head> tags needed — Next.js injects them automatically. */}
       <body>
         {children}
         {process.env.NODE_ENV === "production" && (

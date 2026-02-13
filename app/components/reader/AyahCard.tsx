@@ -14,7 +14,6 @@ type AyahCardProps = {
   isAudioPaused?: boolean;
   words?: Word[];
   showWordByWord?: boolean;
-  copiedKey?: string | null;
   verseKey: string;
   onFocus: (key: string) => void;
   onPlay: (surah: number, ayah: number) => void;

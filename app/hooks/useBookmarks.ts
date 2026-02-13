@@ -40,9 +40,9 @@ export function useBookmarks() {
 
   const sortedNotes = useMemo(() => {
     return Object.entries(notes)
-      .map(([key, text]) => {
+      .map(([key, value]) => {
         const { surah, ayah } = parseVerseKey(key);
-        return { key, surah, ayah, text };
+        return { key, surah, ayah, value };
       })
       .sort((a, b) => a.surah - b.surah || a.ayah - b.ayah);
   }, [notes]);
@@ -62,11 +62,11 @@ export function useBookmarks() {
  */
 export function useNoteEditor(notes: Notes, setNotes: SetState<Notes>) {
   const [noteTarget, setNoteTarget] = useLocalStorage(
-    "quran_note_target",
+    STORAGE_KEYS.noteTarget,
     null as NoteTarget | null
   ) as [NoteTarget | null, SetState<NoteTarget | null>, boolean];
   const [noteDraft, setNoteDraft] = useLocalStorage(
-    "quran_note_draft",
+    STORAGE_KEYS.noteDraft,
     ""
   ) as [string, SetState<string>, boolean];
 

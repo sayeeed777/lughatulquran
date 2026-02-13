@@ -1,12 +1,50 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { STORAGE_KEYS } from "../lib/constants";
 import type { SetState, ShortcutConfig, StudySession } from "../lib/types";
 
 export type { StudySession };
 
-// Hook for localStorage with SSR safety and parse validation
+// Validate that parsed localStorage data structurally matches the expected type
+// by comparing against the initialValue's shape. Prevents corrupted/tampered data
+// from crashing downstream code.
+function isStructurallyCompatible(parsed: unknown, reference: unknown): boolean {
+  if (reference === null || reference === undefined) {
+    // When initialValue is null/undefined, accept any valid JSON value
+    return true;
+  }
+  const refType = typeof reference;
+  const parsedType = typeof parsed;
+
+  // Primitive types must match
+  if (refType !== "object") {
+    return parsedType === refType;
+  }
+  // If reference is an object, parsed must also be a non-null object
+  if (parsed === null || parsedType !== "object") {
+    return false;
+  }
+  // Array check: both must be arrays or both must be plain objects
+  if (Array.isArray(reference) !== Array.isArray(parsed)) {
+    return false;
+  }
+  // For plain objects, verify top-level keys exist with compatible types
+  if (!Array.isArray(reference)) {
+    const refObj = reference as Record<string, unknown>;
+    const parsedObj = parsed as Record<string, unknown>;
+    for (const key of Object.keys(refObj)) {
+      if (!(key in parsedObj)) return false;
+      // Only check type for non-null reference values
+      if (refObj[key] !== null && refObj[key] !== undefined) {
+        if (typeof parsedObj[key] !== typeof refObj[key]) return false;
+      }
+    }
+  }
+  return true;
+}
+
+// Hook for localStorage with SSR safety and structural validation
 export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T>, boolean] {
   const [storedValue, setStoredValue] = useState<T>(initialValue);
   const [isLoaded, setIsLoaded] = useState(false);
@@ -18,9 +56,13 @@ export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T
       const item = localStorage.getItem(key);
       if (item) {
         const parsed: unknown = JSON.parse(item);
-        // Basic structural validation: reject primitives when expecting objects and vice-versa
         if (parsed !== null && parsed !== undefined) {
-          setStoredValue(parsed as T);
+          if (isStructurallyCompatible(parsed, initialValue)) {
+            setStoredValue(parsed as T);
+          } else {
+            // Data shape doesn't match expected type — discard it
+            localStorage.removeItem(key);
+          }
         }
       }
     } catch {
@@ -32,7 +74,7 @@ export function useLocalStorage<T>(key: string, initialValue: T): [T, SetState<T
       }
     }
     setIsLoaded(true);
-  }, [key]);
+  }, [key]); // eslint-disable-line react-hooks/exhaustive-deps -- initialValue is stable
 
   const setValue = useCallback<SetState<T>>(
     (value) => {
@@ -140,6 +182,12 @@ export function useKeyboardShortcuts(
 export function useIntersectionObserver(options: IntersectionObserverInit = {}) {
   const [ref, setRef] = useState<Element | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
+  const optionsRef = useRef(options);
+  optionsRef.current = options;
+
+  // Extract primitive values for stable dependency comparison
+  const threshold = Array.isArray(options.threshold) ? options.threshold.join(",") : options.threshold;
+  const rootMargin = options.rootMargin;
 
   useEffect(() => {
     if (!ref) return;
@@ -151,12 +199,12 @@ export function useIntersectionObserver(options: IntersectionObserverInit = {}) 
       }
     }, {
       threshold: 0.5,
-      ...options
+      ...optionsRef.current
     });
 
     observer.observe(ref);
     return () => observer.disconnect();
-  }, [ref, options]);
+  }, [ref, threshold, rootMargin]);
 
   return [setRef, isIntersecting] as const;
 }

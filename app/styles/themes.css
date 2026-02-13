@@ -234,30 +234,27 @@
   background: rgba(66, 82, 54, 0.1);
 }
 
-/* Settings Modal — Frosted parchment */
+/* Settings Modal — Light theme: parchment surface */
 :root[data-theme="light"] .settings-backdrop {
-  background: rgba(247, 244, 239, 0.5);
-  backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(30, 35, 30, 0.4);
 }
 
 :root[data-theme="light"] .settings-modal {
-  background: rgba(240, 231, 219, 0.98) !important;
-  border: none !important;
-  box-shadow: 0 8px 40px rgba(45, 52, 40, 0.12);
-  backdrop-filter: blur(24px) saturate(150%);
+  background: var(--bg-light) !important;
+  border: 1px solid rgba(66, 82, 54, 0.1) !important;
+  box-shadow: 0 16px 48px rgba(45, 52, 40, 0.15);
 }
 
-:root[data-theme="light"] .settings-header {
-  border-bottom: none;
+:root[data-theme="light"] .settings-title {
+  color: var(--text);
+}
+
+:root[data-theme="light"] .settings-close-btn {
+  color: var(--muted);
 }
 
 :root[data-theme="light"] .settings-tabs {
-  background: rgba(66, 82, 54, 0.04);
-  border: none;
-}
-
-:root[data-theme="light"] .settings-tab.active .tab-label {
-  color: var(--text);
+  border-bottom-color: rgba(66, 82, 54, 0.1);
 }
 
 :root[data-theme="light"] .tab-label {
@@ -265,29 +262,26 @@
 }
 
 :root[data-theme="light"] .tab-indicator {
-  background: #f0e7db;
-  border: none;
-  box-shadow: 0 2px 8px rgba(45, 52, 40, 0.06);
-}
-
-:root[data-theme="light"] .settings-section {
-  background: rgba(66, 82, 54, 0.02);
-  border: none;
+  background: var(--accent);
 }
 
 :root[data-theme="light"] .section-title {
   color: var(--accent);
 }
 
-/* Translation Chips — Soft selection, no borders */
-:root[data-theme="light"] .translation-chip {
-  background: rgba(240, 231, 219, 0.7);
-  border: none;
-  transition: background 0.2s ease;
+:root[data-theme="light"] .settings-select {
+  background: var(--bg-mid);
+  border-color: rgba(66, 82, 54, 0.12);
 }
 
+:root[data-theme="light"] .settings-input {
+  background: var(--bg-mid);
+  border-color: rgba(66, 82, 54, 0.12);
+}
+
+/* Translation Chips */
 :root[data-theme="light"] .translation-chip:hover {
-  background: rgba(240, 231, 219, 0.95);
+  background: rgba(66, 82, 54, 0.04);
 }
 
 :root[data-theme="light"] .translation-chip.selected {
@@ -298,8 +292,16 @@
   background: var(--accent);
 }
 
-:root[data-theme="light"] .settings-footer {
-  border-top: none;
+:root[data-theme="light"] .slider-track-container {
+  background: rgba(66, 82, 54, 0.08);
+}
+
+:root[data-theme="light"] .reciter-card:hover {
+  background: rgba(66, 82, 54, 0.04);
+}
+
+:root[data-theme="light"] .reciter-card.selected {
+  background: rgba(66, 82, 54, 0.08);
 }
 
 :root[data-theme="light"] .settings-hint {
@@ -569,33 +571,31 @@
   opacity: 0.6;
 }
 
-/* Reciter cards — no borders */
+/* Reciter cards — light theme */
 :root[data-theme="light"] .reciter-card {
-  background: rgba(240, 231, 219, 0.7);
-  border: none;
+  background: transparent;
 }
 
 :root[data-theme="light"] .reciter-card:hover {
-  background: rgba(240, 231, 219, 0.95);
+  background: rgba(66, 82, 54, 0.04);
 }
 
 :root[data-theme="light"] .reciter-card.selected {
   background: rgba(66, 82, 54, 0.08);
 }
 
-/* Slider styling — soft */
-:root[data-theme="light"] .slider-track {
-  background: rgba(66, 82, 54, 0.6);
+:root[data-theme="light"] .reciter-avatar {
+  background: var(--bg-mid);
 }
 
-:root[data-theme="light"] .slider-fill {
-  background: #ffffff;
+/* Slider styling — light theme */
+:root[data-theme="light"] .slider-track-container {
+  background: rgba(66, 82, 54, 0.1);
 }
 
-:root[data-theme="light"] .slider-thumb {
-  background: #f0e7db;
-  border: none;
-  box-shadow: 0 2px 6px rgba(45, 52, 40, 0.15);
+:root[data-theme="light"] .slider-input::-webkit-slider-thumb {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(45, 52, 40, 0.2);
 }
 
 /* Quick panel */

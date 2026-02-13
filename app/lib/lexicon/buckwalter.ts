@@ -46,3 +46,15 @@ export const buckwalterToArabic = (value?: string | null) => {
   return out;
 };
 
+/** Normalize an Arabic root key by stripping diacritics and unifying letter variants. */
+export const normalizeRootKey = (value: string) =>
+  value
+    .normalize("NFC")
+    .replace(/[\u064B-\u065F\u0670\u0640]/g, "")
+    .replace(/\s+/g, "")
+    .replace(/[أإآٱ]/g, "ا")
+    .replace(/[ؤئ]/g, "ء")
+    .replace(/ى/g, "ي")
+    .replace(/ة/g, "ه")
+    .trim();
+
