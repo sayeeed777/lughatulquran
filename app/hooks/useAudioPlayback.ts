@@ -137,22 +137,21 @@ export function useAudioPlayback({
       if (memorizeConfig.active) {
         stopMemorize();
       }
-      // If same ayah is playing, toggle pause
+      // If same ayah is playing, stop playback
       if (nowPlaying && nowPlaying.surah === surah && nowPlaying.ayah === ayah) {
-        if (!isAudioPaused) {
-          setIsAudioPaused(true);
-          setIsAutoPlaying(false);
-        } else {
-          setIsAudioPaused(false);
-        }
+        setIsAutoPlaying(false);
+        setNowPlaying(null);
+        setIsAudioPaused(false);
         return;
       }
-      // Play new ayah
-      setIsAutoPlaying(false);
+      // Play new ayah with continuous auto-play from this point
+      setIsAutoPlaying(true);
       setIsAudioPaused(false);
       setNowPlaying({ surah, ayah });
+      setFocusedAyahKey(verseKey(surah, ayah));
+      setPendingScroll(ayah);
     },
-    [memorizeConfig.active, nowPlaying, isAudioPaused, stopMemorize]
+    [memorizeConfig.active, nowPlaying, isAudioPaused, stopMemorize, setFocusedAyahKey, setPendingScroll]
   );
 
   return {
