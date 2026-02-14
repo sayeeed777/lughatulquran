@@ -4,8 +4,7 @@ import { memo } from "react";
 import { motion } from "framer-motion";
 import type { Surah } from "../../lib/types";
 import { SurahListSkeleton } from "../skeletons";
-import { InlineError, ThemeIcon, SettingsIcon, ClockIcon } from "../common";
-import { useTheme } from "../../contexts";
+import { InlineError, SettingsIcon, ClockIcon, ThemeChooser } from "../common";
 
 type SurahListProps = {
   filteredSurahs?: Surah[];
@@ -49,7 +48,6 @@ function SurahList({
   onOpenPrayer,
   onOpenSettings
 }: SurahListProps) {
-  const { isLightTheme, toggleTheme } = useTheme();
 
   if (loading) {
     return (
@@ -64,13 +62,7 @@ function SurahList({
                     <ClockIcon />
                   </button>
                 )}
-                <button
-                  className="header-icon-btn"
-                  onClick={toggleTheme}
-                  aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
-                >
-                  <ThemeIcon isLight={isLightTheme} />
-                </button>
+                <ThemeChooser />
                 {onOpenSettings && (
                   <button className="header-icon-btn" onClick={onOpenSettings} aria-label="Settings">
                     <SettingsIcon />
@@ -100,13 +92,7 @@ function SurahList({
                     <ClockIcon />
                   </button>
               )}
-              <button
-                className="header-icon-btn"
-                onClick={toggleTheme}
-                aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
-              >
-                <ThemeIcon isLight={isLightTheme} />
-              </button>
+              <ThemeChooser />
               {onOpenSettings && (
                 <button className="header-icon-btn" onClick={onOpenSettings} aria-label="Settings">
                   <SettingsIcon />

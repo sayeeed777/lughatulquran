@@ -467,3 +467,24 @@
 .surah-item:hover {
   transform: translateX(4px);
 }
+
+/* =============================================
+   B&W THEME OVERRIDES
+   ============================================= */
+
+/* Prayer hint */
+:root[data-theme="bw"] .surah-prayer-hint {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme="bw"] .surah-prayer-hint::before {
+  border-left-color: rgba(0, 0, 0, 0.1);
+  border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Surah item active */
+:root[data-theme="bw"] .surah-item.active {
+  background: rgba(0, 0, 0, 0.08);
+}

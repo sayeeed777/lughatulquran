@@ -687,3 +687,34 @@
     transition: none !important;
   }
 }
+
+/* =============================================
+   B&W THEME OVERRIDES
+   ============================================= */
+
+/* Reader search and go-ayah inputs focus */
+:root[data-theme="bw"] .reader-search input:focus,
+:root[data-theme="bw"] .go-ayah input:focus {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+/* Translation toggle buttons */
+:root[data-theme="bw"] .translation-toggle button.active,
+:root[data-theme="bw"] .translation-toggle-mobile button.active {
+  background: rgba(0, 0, 0, 0.12);
+  color: #111;
+}
+
+:root[data-theme="bw"] .translation-toggle button.active:hover,
+:root[data-theme="bw"] .translation-toggle-mobile button.active:hover {
+  background: rgba(0, 0, 0, 0.16);
+}
+
+/* Ayah card focused state */
+:root[data-theme="bw"] .ayah-card.focused {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="bw"] .ayah-card.focused .ayah-number {
+  color: #333;
+}

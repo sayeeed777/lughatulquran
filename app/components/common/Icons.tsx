@@ -21,30 +21,6 @@ export function SearchIcon({ size = 20, ...props }: IconProps) {
     );
 }
 
-export function SunIcon({ size = 20, ...props }: IconProps) {
-    return (
-        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
-            <circle cx="12" cy="12" r="4" />
-            <path d="M12 2v2" />
-            <path d="M12 20v2" />
-            <path d="m4.93 4.93 1.41 1.41" />
-            <path d="m17.66 17.66 1.41 1.41" />
-            <path d="M2 12h2" />
-            <path d="M20 12h2" />
-            <path d="m4.93 19.07 1.41-1.41" />
-            <path d="m17.66 6.34 1.41-1.41" />
-        </svg>
-    );
-}
-
-export function MoonIcon({ size = 20, ...props }: IconProps) {
-    return (
-        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
-            <path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79Z" />
-        </svg>
-    );
-}
-
 export function SettingsIcon({ size = 20, ...props }: IconProps) {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
@@ -63,7 +39,14 @@ export function ClockIcon({ size = 20, ...props }: IconProps) {
     );
 }
 
-/** Convenience: renders SunIcon or MoonIcon based on current theme */
-export function ThemeIcon({ isLight, ...props }: IconProps & { isLight: boolean }) {
-    return isLight ? <MoonIcon {...props} /> : <SunIcon {...props} />;
+export function PaletteIcon({ size = 20, ...props }: IconProps) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
+            <path d="M12 2a10 10 0 0 0 0 20c.83 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.01A1.49 1.49 0 0 1 14.5 18h1A5.5 5.5 0 0 0 21 12.5C21 6.8 17.02 2 12 2Z" />
+            <circle cx="8" cy="10" r="1.25" fill="currentColor" stroke="none" />
+            <circle cx="12" cy="6.5" r="1.25" fill="currentColor" stroke="none" />
+            <circle cx="16" cy="10" r="1.25" fill="currentColor" stroke="none" />
+            <circle cx="9" cy="14.5" r="1.25" fill="currentColor" stroke="none" />
+        </svg>
+    );
 }

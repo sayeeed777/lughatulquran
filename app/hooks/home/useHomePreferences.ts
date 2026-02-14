@@ -143,11 +143,11 @@ export function useHomePreferences() {
     setArabicFontId
   ]);
 
-  const [theme, setTheme] = useState<"dark" | "light">("dark");
-  const isLightTheme = theme === "light";
+  const [theme, setThemeState] = useState<"dark" | "light" | "bw">("dark");
+  const isLightTheme = theme !== "dark";
 
-  const toggleTheme = useCallback(() => {
-    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  const setThemeValue = useCallback((t: "dark" | "light" | "bw") => {
+    setThemeState(t);
   }, []);
 
   useEffect(() => {
@@ -155,13 +155,16 @@ export function useHomePreferences() {
     try {
       const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
       if (storedTheme) {
-        setTheme(JSON.parse(storedTheme));
+        const parsed = JSON.parse(storedTheme);
+        if (parsed === "dark" || parsed === "light" || parsed === "bw") {
+          setThemeState(parsed);
+        }
       } else {
         const prefersLight = window.matchMedia?.("(prefers-color-scheme: light)")?.matches;
-        setTheme(prefersLight ? "light" : "dark");
+        setThemeState(prefersLight ? "light" : "dark");
       }
     } catch {
-      setTheme("dark");
+      setThemeState("dark");
     }
   }, []);
 
@@ -188,6 +191,6 @@ export function useHomePreferences() {
     setPrayerSettings: setStoredPrayerSettings,
     theme,
     isLightTheme,
-    toggleTheme
+    setTheme: setThemeValue
   };
 }

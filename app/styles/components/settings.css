@@ -2213,6 +2213,98 @@
 }
 
 /* =============================================
+   B&W THEME OVERRIDES
+   ============================================= */
+
+/* Settings inputs focus */
+:root[data-theme="bw"] .settings-select:focus,
+:root[data-theme="bw"] .settings-input:focus {
+  border-color: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Prayer panel components */
+:root[data-theme="bw"] .prayer-hero-card {
+  background: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="bw"] .prayer-hero-card::before {
+  display: none;
+}
+
+:root[data-theme="bw"] .prayer-schedule-row.active {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="bw"] .prayer-schedule-row.active .prayer-schedule-name,
+:root[data-theme="bw"] .prayer-schedule-row.active .prayer-schedule-time {
+  color: #111;
+}
+
+/* Prayer city input */
+:root[data-theme="bw"] .prayer-city-input:focus {
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .prayer-city-input-icon {
+  color: #888;
+}
+
+:root[data-theme="bw"] .prayer-city-clear-btn {
+  color: #666;
+}
+
+:root[data-theme="bw"] .prayer-city-clear-btn:hover {
+  color: #111;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+/* Prayer city selected pill */
+:root[data-theme="bw"] .prayer-city-selected-pill {
+  background: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="bw"] .prayer-city-selected-main {
+  color: #111;
+}
+
+:root[data-theme="bw"] .prayer-city-selected-meta {
+  color: #888;
+}
+
+/* Prayer city options */
+:root[data-theme="bw"] .prayer-city-options {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+:root[data-theme="bw"] .prayer-city-option:hover,
+:root[data-theme="bw"] .prayer-city-option.active {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="bw"] .prayer-city-option-main {
+  color: #333;
+}
+
+:root[data-theme="bw"] .prayer-city-option-meta {
+  color: #888;
+}
+
+:root[data-theme="bw"] .prayer-city-options-status {
+  color: #888;
+}
+
+/* Segmented control active */
+:root[data-theme="bw"] .segmented-control-indicator {
+  background: #111;
+}
+
+/* =============================================
    Light Mode — Olive Serenity
    Inspired by Zaytuna College, Islamic scholarly calm
    ============================================= */

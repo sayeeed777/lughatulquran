@@ -13,7 +13,7 @@ import {
   SectionErrorBoundary,
   KeyboardShortcutsHelp,
   ClockIcon,
-  ThemeIcon,
+  ThemeChooser,
   SettingsIcon
 } from "./components";
 import { AUDIO_RECITERS, ARABIC_FONTS, FONT_SCALE } from "./lib/constants";
@@ -99,7 +99,7 @@ export default function Home() {
     hasPrayerLocation,
     theme,
     isLightTheme,
-    toggleTheme,
+    setTheme,
     wordByAyah,
     wordLoading,
     wordError,
@@ -130,7 +130,7 @@ export default function Home() {
   if (readingMode) {
     return (
       <ErrorBoundary>
-        <ThemeProvider theme={theme} isLightTheme={isLightTheme} toggleTheme={toggleTheme}>
+        <ThemeProvider theme={theme} isLightTheme={isLightTheme} setTheme={setTheme}>
         <BookmarkProvider
           bookmarks={bookmarks}
           notes={notes}
@@ -243,7 +243,7 @@ export default function Home() {
 
   return (
     <ErrorBoundary>
-      <ThemeProvider theme={theme} isLightTheme={isLightTheme} toggleTheme={toggleTheme}>
+      <ThemeProvider theme={theme} isLightTheme={isLightTheme} setTheme={setTheme}>
         <BookmarkProvider
           bookmarks={bookmarks}
           notes={notes}
@@ -307,13 +307,7 @@ export default function Home() {
                     >
                       <ClockIcon />
                     </button>
-                    <button
-                      className="header-icon-btn"
-                      onClick={toggleTheme}
-                      aria-label={isLightTheme ? "Switch to dark mode" : "Switch to light mode"}
-                    >
-                      <ThemeIcon isLight={isLightTheme} />
-                    </button>
+                    <ThemeChooser />
                     <button
                       className="header-icon-btn"
                       onClick={() => {

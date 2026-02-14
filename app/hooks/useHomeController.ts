@@ -85,7 +85,7 @@ export function useHomeController() {
     setPrayerSettings,
     theme,
     isLightTheme,
-    toggleTheme
+    setTheme
   } = useHomePreferences();
 
   // Last read
@@ -468,7 +468,7 @@ export function useHomeController() {
     hasPrayerLocation,
     theme,
     isLightTheme,
-    toggleTheme,
+    setTheme,
     wordByAyah: wordByAyah as WordBySurah,
     wordLoading,
     wordError,

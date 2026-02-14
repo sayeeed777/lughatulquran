@@ -3,19 +3,21 @@
 import { createContext, useContext } from "react";
 import type { ReactNode } from "react";
 
+export type ThemeName = "dark" | "light" | "bw";
+
 type ThemeContextValue = {
-    theme: "dark" | "light";
+    theme: ThemeName;
     isLightTheme: boolean;
-    toggleTheme: () => void;
+    setTheme: (theme: ThemeName) => void;
 };
 
 const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 type ThemeProviderProps = ThemeContextValue & { children: ReactNode };
 
-export function ThemeProvider({ children, theme, isLightTheme, toggleTheme }: ThemeProviderProps) {
+export function ThemeProvider({ children, theme, isLightTheme, setTheme }: ThemeProviderProps) {
     return (
-        <ThemeContext.Provider value={{ theme, isLightTheme, toggleTheme }}>
+        <ThemeContext.Provider value={{ theme, isLightTheme, setTheme }}>
             {children}
         </ThemeContext.Provider>
     );

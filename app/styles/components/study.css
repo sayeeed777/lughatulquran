@@ -3086,3 +3086,196 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* =============================================
+   B&W THEME OVERRIDES
+   ============================================= */
+
+/* Study ambient background - hide green gradient */
+:root[data-theme="bw"] .study-ambient-bg::before {
+  display: none;
+}
+
+/* Study ayah cards - playing and marked states */
+:root[data-theme="bw"] .study-ayah-card.playing {
+  background: rgba(0, 0, 0, 0.05) !important;
+}
+
+:root[data-theme="bw"] .study-ayah-card.marked {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+:root[data-theme="bw"] .study-ayah-card.marked:hover {
+  background: rgba(0, 0, 0, 0.14) !important;
+}
+
+:root[data-theme="bw"] .study-ayah-card.marked.playing {
+  background: rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Study ayah word trigger */
+:root[data-theme="bw"] .study-ayah-word-trigger:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .study-ayah-word-trigger.active {
+  background: rgba(0, 0, 0, 0.1);
+  color: #111;
+}
+
+/* Toggle switch active state */
+:root[data-theme="bw"] .toggle-switch.active {
+  background: #111;
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: none;
+}
+
+/* Study rail button active */
+:root[data-theme="bw"] .study-rail-btn.active {
+  background: #111;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Slider track fill */
+:root[data-theme="bw"] .slider-track-fill {
+  background: #111;
+}
+
+:root[data-theme="bw"] .slider-track-fill::-webkit-progress-value {
+  background: #111;
+}
+
+:root[data-theme="bw"] .slider-track-fill::-moz-progress-bar {
+  background: #111;
+}
+
+:root[data-theme="bw"] .slider-thumb {
+  background: #111;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Study reciter chip */
+:root[data-theme="bw"] .study-reciter-chip.selected {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.2);
+  color: #111;
+}
+
+/* Study lexicon components */
+:root[data-theme="bw"] .study-lexicon-root-focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="bw"] .study-lexicon-root-focus:focus-within {
+  border-color: rgba(0, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="bw"] .study-lane-open-btn,
+:root[data-theme="bw"] .study-root-link,
+:root[data-theme="bw"] .study-root-insight-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+:root[data-theme="bw"] .study-lane-open-btn:hover,
+:root[data-theme="bw"] .study-root-link:hover,
+:root[data-theme="bw"] .study-root-insight-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* Study word audio button */
+:root[data-theme="bw"] .study-word-audio-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+:root[data-theme="bw"] .study-word-audio-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* Study word chip playing */
+:root[data-theme="bw"] .study-word-chip.playing {
+  background: rgba(0, 0, 0, 0.1);
+  color: #111;
+}
+
+/* Quick note tab active */
+:root[data-theme="bw"] .quick-note-tab.active {
+  background: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme="bw"] .quick-note-editor:focus-within {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+:root[data-theme="bw"] .quick-item-action {
+  background: rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+:root[data-theme="bw"] .quick-item-action:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+:root[data-theme="bw"] .quick-item-action.save {
+  background: rgba(0, 0, 0, 0.1);
+  color: #111;
+}
+
+:root[data-theme="bw"] .quick-item-action.save:hover {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+/* Tool hero card */
+:root[data-theme="bw"] .tool-hero-card {
+  background: rgba(0, 0, 0, 0.03);
+  border-color: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="bw"] .tool-hero-card::before {
+  display: none;
+}
+
+/* Tool chip */
+:root[data-theme="bw"] .tool-chip {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #333;
+}
+
+/* Tool slider value */
+:root[data-theme="bw"] .tool-slider-value {
+  background: rgba(0, 0, 0, 0.08);
+  border-color: rgba(0, 0, 0, 0.15);
+  color: #111;
+}
+
+:root[data-theme="bw"] .tool-slider-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="bw"] .tool-slider-fill::-webkit-progress-value {
+  background: #111;
+  box-shadow: none;
+}
+
+:root[data-theme="bw"] .tool-slider-fill::-moz-progress-bar {
+  background: #111;
+  box-shadow: none;
+}
+
+:root[data-theme="bw"] .tool-slider-input::-webkit-slider-thumb {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme="bw"] .tool-slider-input::-moz-range-thumb {
+  background: #fff;
+  border-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
