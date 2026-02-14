@@ -57,7 +57,10 @@ export default function NoteList({
           })}
         </ul>
       ) : (
-        <p className="status">No notes yet.</p>
+        <div className="empty-state">
+          <span className="empty-state-icon" aria-hidden="true">&#x1F4DD;</span>
+          <p className="empty-state-text">No notes yet. Add a note to any ayah to start building your reflections.</p>
+        </div>
       )}
     </div>
   );

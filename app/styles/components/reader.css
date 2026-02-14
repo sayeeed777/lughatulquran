@@ -81,7 +81,7 @@
 }
 
 .quick-controls-row .action-btn.play-btn {
-  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  background: var(--gradient-primary);
   color: #f4fffb;
   border: none;
 }
@@ -159,7 +159,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 0.7rem;
+  font-size: var(--text-xs);
   color: var(--muted);
   flex: 1 1 0;
   min-width: 0;

@@ -31,10 +31,10 @@ export default function BookmarkList({
                   <p className="study-sub">Ayah {ayah}</p>
                 </div>
                 <div className="study-actions">
-                  <button className="action-btn" onClick={() => onJumpToAyah(surah, ayah)}>
+                  <button className="action-btn action-btn--primary" onClick={() => onJumpToAyah(surah, ayah)}>
                     Open
                   </button>
-                  <button className="action-btn" onClick={() => onToggleBookmark(surah, ayah)}>
+                  <button className="action-btn action-btn--danger" onClick={() => onToggleBookmark(surah, ayah)}>
                     Remove
                   </button>
                 </div>
@@ -43,7 +43,10 @@ export default function BookmarkList({
           })}
         </ul>
       ) : (
-        <p className="status">No bookmarks yet.</p>
+        <div className="empty-state">
+          <span className="empty-state-icon" aria-hidden="true">&#x1F516;</span>
+          <p className="empty-state-text">No bookmarks yet. Tap the bookmark icon on any ayah to save it here.</p>
+        </div>
       )}
     </div>
   );

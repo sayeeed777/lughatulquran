@@ -31,11 +31,11 @@ export default function NoteModal({
   }
 
   return (
-    <div className="note-panel" role="dialog" aria-modal="true">
+    <div className="note-panel" role="dialog" aria-modal="true" aria-labelledby="note-modal-title">
       <div className="compare-header">
         <div>
           <p className="eyebrow">Notes</p>
-          <h3>
+          <h3 id="note-modal-title">
             {surahByNumber.get(noteTarget.surah)?.englishName ||
               `Surah ${noteTarget.surah}`} - Ayah {noteTarget.ayah}
           </h3>
@@ -55,7 +55,7 @@ export default function NoteModal({
           <button className="action-btn" onClick={onClose}>
             Cancel
           </button>
-          <button className="action-btn saved" onClick={onSave}>
+          <button className="action-btn action-btn--primary" onClick={onSave}>
             Save note
           </button>
         </div>

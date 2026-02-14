@@ -46,7 +46,7 @@
 .study-back-btn {
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,13 +121,13 @@
   color: var(--muted);
   padding: 8px 12px;
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
 }
 
 .study-panel-toggle {
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -160,7 +160,7 @@
 
 .study-reading-area::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
 }
 
 /* Surah Opening */
@@ -225,7 +225,7 @@
   position: relative;
   padding: 32px;
   background: rgba(255, 255, 255, 0.02);
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   border: none;
   content-visibility: auto;
   contain-intrinsic-size: 360px;
@@ -271,7 +271,7 @@
   justify-content: center;
   background: var(--bg-deep);
   border: none;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--accent);
@@ -359,9 +359,9 @@
 }
 
 .study-ayah-action {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -423,7 +423,7 @@
   background: rgba(20, 25, 30, 0.9);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-radius: 20px;
+  border-radius: var(--radius-lg);
   border: none;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
 }
@@ -451,7 +451,7 @@
   align-items: center;
   gap: 6px;
   padding: 8px 14px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   font-size: 0.8rem;
   font-weight: 500;
   background: rgba(255, 255, 255, 0.08);
@@ -465,7 +465,7 @@
 }
 
 .control-btn.primary {
-  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  background: var(--gradient-primary);
   color: #f4fffb;
   border-color: transparent;
 }
@@ -576,7 +576,7 @@
 .quick-panel-close {
   width: 32px;
   height: 32px;
-  border-radius: 8px;
+  border-radius: var(--radius-xs);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -594,7 +594,7 @@
   flex-direction: column;
   gap: 8px;
   padding: 10px;
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
   background: rgba(18, 24, 30, 0.7);
   border: 1px solid rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(18px) saturate(160%);
@@ -605,7 +605,7 @@
 .study-rail-btn {
   width: 40px;
   height: 40px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -636,7 +636,7 @@
 
 .study-rail-btn.active {
   color: #f4fffb;
-  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  background: var(--gradient-primary);
 }
 
 .quick-panel-close:hover {
@@ -682,7 +682,7 @@
   flex-direction: column;
   gap: 8px;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   padding: 8px;
   border: 1px solid rgba(255, 255, 255, 0.04);
 }
@@ -692,7 +692,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 14px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   transition: background 0.2s ease;
 }
@@ -723,7 +723,7 @@
   height: 28px;
   background: rgba(255, 255, 255, 0.14);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25);
   transition: background 0.3s ease, border-color 0.25s ease, box-shadow 0.25s ease;
 }
@@ -769,7 +769,7 @@
   flex-direction: column;
   gap: 16px;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.04);
 }
@@ -793,7 +793,7 @@
   align-items: center;
   justify-content: center;
   background: rgba(111, 212, 177, 0.12);
-  border-radius: 8px;
+  border-radius: var(--radius-xs);
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--accent-2);
@@ -878,7 +878,7 @@
   padding: 14px 16px;
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: left;
@@ -951,7 +951,7 @@
 /* Study tools + memorize + search */
 .study-card {
   background: rgba(255, 255, 255, 0.035);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   padding: 16px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
@@ -1021,7 +1021,7 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
-  font-size: 0.7rem;
+  font-size: var(--text-xs);
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1034,7 +1034,7 @@
   padding: 10px 12px;
   color: var(--text);
   font: inherit;
-  font-size: 0.85rem;
+  font-size: var(--text-sm);
 }
 
 .memorize-actions {
@@ -1045,7 +1045,7 @@
 }
 
 .memorize-status {
-  font-size: 0.8rem;
+  font-size: var(--text-sm);
   color: var(--muted);
 }
 
@@ -1066,7 +1066,7 @@
   width: min(440px, 92vw);
   background: rgba(16, 20, 24, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 24px;
+  border-radius: var(--radius-xl);
   padding: 20px;
   color: var(--text);
   box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
@@ -1098,7 +1098,7 @@
 .memorize-close {
   width: 32px;
   height: 32px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   border: none;
   background: rgba(255, 255, 255, 0.08);
   color: var(--text);
@@ -1113,7 +1113,7 @@
   gap: 6px;
   padding: 6px;
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 999px;
+  border-radius: var(--radius-full);
 }
 
 .memorize-segment {
@@ -1125,7 +1125,7 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   padding: 8px 10px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   transition: all 0.2s ease;
 }
 
@@ -1169,7 +1169,7 @@
 
 .memorize-range-summary {
   padding: 12px 14px;
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   background: rgba(255, 255, 255, 0.04);
   color: var(--muted);
   font-size: 0.85rem;
@@ -1196,7 +1196,7 @@
   gap: 10px;
   background: rgba(255, 255, 255, 0.05);
   padding: 6px 10px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
 }
 
 .memorize-stepper button {
@@ -1239,7 +1239,7 @@
 .memorize-ghost,
 .memorize-primary {
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 10px 16px;
   font-weight: 600;
   font-size: 0.85rem;
@@ -1252,7 +1252,7 @@
 }
 
 .memorize-primary {
-  background: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+  background: var(--gradient-primary);
   color: #f4fffb;
 }
 
@@ -1277,7 +1277,7 @@
   width: min(520px, 94vw);
   max-height: min(82vh, 760px);
   overflow-y: auto;
-  border-radius: 22px;
+  border-radius: var(--radius-lg);
   background: rgba(16, 20, 24, 0.97);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.36);
@@ -1314,7 +1314,7 @@
 .study-lexicon-close {
   width: 32px;
   height: 32px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   border: none;
   background: rgba(255, 255, 255, 0.09);
   color: var(--text);
@@ -1358,7 +1358,7 @@
 .study-lexicon-root-focus {
   border: 1px solid rgba(111, 212, 177, 0.22);
   background: rgba(111, 212, 177, 0.1);
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 8px 12px;
   display: inline-flex;
   align-items: baseline;
@@ -1397,7 +1397,7 @@
 
 .study-lexicon-summary-item {
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   display: flex;
   flex-direction: column;
@@ -1418,7 +1418,7 @@
 .study-lane-open-btn {
   align-self: flex-start;
   border: none;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 8px 12px;
   font-size: 0.78rem;
   font-weight: 600;
@@ -1448,7 +1448,7 @@
 
 .study-lexicon-meta-item {
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   display: flex;
   flex-direction: column;
@@ -1479,7 +1479,7 @@
 .study-root-link,
 .study-word-audio-btn {
   border: none;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 9px 14px;
   font-size: 0.8rem;
   font-weight: 600;
@@ -1529,7 +1529,7 @@
 
 .study-lexicon-guide-toggle {
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 9px 12px;
   min-height: 40px;
   background: rgba(255, 255, 255, 0.06);
@@ -1561,7 +1561,7 @@
   width: min(360px, calc(100vw - 56px));
   background: rgba(16, 20, 24, 0.98);
   border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   box-shadow: 0 20px 44px rgba(0, 0, 0, 0.32);
   padding: 10px;
   z-index: 3;
@@ -1575,7 +1575,7 @@
 
 .study-lexicon-guide-item {
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 9px 10px;
   display: flex;
   flex-direction: column;
@@ -1590,7 +1590,7 @@
   min-width: 28px;
   height: 22px;
   padding: 0 7px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   background: rgba(255, 255, 255, 0.1);
   font-size: 0.72rem;
   font-weight: 700;
@@ -1613,7 +1613,7 @@
 .study-lexicon-chip {
   display: inline-flex;
   align-items: center;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 6px 10px;
   background: rgba(255, 255, 255, 0.06);
   font-size: 0.78rem;
@@ -1643,7 +1643,7 @@
 }
 
 .study-lexicon-ref {
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 5px 9px;
   background: rgba(255, 255, 255, 0.06);
   color: var(--text);
@@ -1667,7 +1667,7 @@
     width: auto;
     max-height: 80vh;
     overflow-y: auto;
-    border-radius: 22px;
+    border-radius: var(--radius-lg);
     padding: 18px;
     box-sizing: border-box;
   }
@@ -1705,7 +1705,7 @@
   .study-lexicon-modal.root-modal {
     width: calc(100vw - 24px);
     max-height: calc(100vh - 18px);
-    border-radius: 18px;
+    border-radius: var(--radius-lg);
   }
 
   .study-lexicon-backdrop.root-layer {
@@ -1840,7 +1840,7 @@
   justify-content: space-between;
   gap: 12px;
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -1886,7 +1886,7 @@
 }
 
 .tool-chip {
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   padding: 5px 10px;
   font-size: 0.68rem;
   font-weight: 650;
@@ -1942,7 +1942,7 @@
   justify-content: space-between;
   gap: 12px;
   padding: 12px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.035);
   border: 1px solid rgba(255, 255, 255, 0.06);
 }
@@ -1973,7 +1973,7 @@
   font-size: 0.85rem;
   color: var(--text);
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -1986,7 +1986,7 @@
 
 .tool-slider-row {
   padding: 12px 12px 11px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.055) 0%,
@@ -2016,7 +2016,7 @@
   color: #b9ffe6;
   font-weight: 620;
   padding: 3px 9px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   background: rgba(111, 212, 177, 0.14);
   border: 1px solid rgba(111, 212, 177, 0.3);
   font-variant-numeric: tabular-nums;
@@ -2025,7 +2025,7 @@
 .tool-slider-track {
   position: relative;
   height: 8px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -2034,7 +2034,7 @@
   inset: 0;
   width: 100%;
   height: 8px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   pointer-events: none;
   overflow: hidden;
   appearance: none;
@@ -2049,13 +2049,13 @@
 
 .tool-slider-fill::-webkit-progress-value {
   background: linear-gradient(90deg, #57b795 0%, #7de3c0 100%);
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   box-shadow: 0 0 0 1px rgba(111, 212, 177, 0.28) inset;
 }
 
 .tool-slider-fill::-moz-progress-bar {
   background: linear-gradient(90deg, #57b795 0%, #7de3c0 100%);
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   box-shadow: 0 0 0 1px rgba(111, 212, 177, 0.28) inset;
 }
 
@@ -2148,7 +2148,7 @@
 .tool-reciter-select-field {
   position: relative;
   min-height: 52px;
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   padding: 10px 40px 10px 12px;
   background: linear-gradient(
     180deg,
@@ -2179,7 +2179,7 @@
   transform: translateY(-50%);
   width: 22px;
   height: 22px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2221,7 +2221,7 @@
 .tajweed-legend {
   margin-top: 10px;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   padding: 12px;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
@@ -2252,7 +2252,7 @@
   flex: 0 0 auto;
   width: 40px;
   height: 26px;
-  border-radius: 999px;
+  border-radius: var(--radius-full);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -2315,7 +2315,7 @@
 .study-word-chip {
   background: rgba(255, 255, 255, 0.04);
   border: none;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   padding: 8px 10px;
   display: inline-flex;
   flex-direction: column;
@@ -2535,7 +2535,7 @@
 .quick-note-tab {
   width: 100%;
   text-align: left;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   padding: 10px 12px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background: rgba(255, 255, 255, 0.03);
@@ -2577,7 +2577,7 @@
   flex-direction: column;
   gap: 8px;
   padding: 10px;
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.025);
   border: 1px solid rgba(255, 255, 255, 0.06);
 }
@@ -2586,7 +2586,7 @@
 .quick-note-body-input {
   width: 100%;
   border: none;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   background: rgba(255, 255, 255, 0.05);
   color: var(--text);
   padding: 10px 12px;
@@ -2645,7 +2645,7 @@
   gap: 12px;
   padding: 12px 14px;
   background: rgba(255, 255, 255, 0.04);
-  border-radius: 12px;
+  border-radius: var(--radius-sm);
   border: 1px solid rgba(255, 255, 255, 0.05);
   transition: all 0.2s ease;
 }
@@ -2657,7 +2657,7 @@
 .quick-item-icon {
   width: 36px;
   height: 36px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   background: rgba(216, 179, 106, 0.1);
   color: var(--accent);
   display: flex;
@@ -2690,7 +2690,7 @@
 
 .quick-item-action {
   padding: 6px 12px;
-  border-radius: 6px;
+  border-radius: var(--radius-xs);
   font-size: 0.75rem;
   font-weight: 500;
   background: rgba(111, 212, 177, 0.1);
@@ -2761,7 +2761,7 @@
   gap: 12px;
   padding: 16px;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.04);
 }
 
@@ -2784,7 +2784,7 @@
 .stat-icon {
   width: 40px;
   height: 40px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   background: color-mix(in srgb, var(--stat-color) 15%, transparent);
   color: var(--stat-color);
   display: flex;
@@ -2816,7 +2816,7 @@
   margin-top: 0;
   padding: 16px;
   background: rgba(255, 255, 255, 0.03);
-  border-radius: 14px;
+  border-radius: var(--radius-md);
   border: 1px solid rgba(255, 255, 255, 0.04);
 }
 
@@ -2836,7 +2836,7 @@
 .plan-jump-btn {
   width: 100%;
   padding: 12px;
-  border-radius: 10px;
+  border-radius: var(--radius-sm);
   font-size: 0.85rem;
   font-weight: 500;
   background: var(--accent-2);
@@ -2891,7 +2891,7 @@
 
   .study-ayah-card {
     padding: 24px 20px;
-    border-radius: 16px;
+    border-radius: var(--radius-md);
     contain-intrinsic-size: 280px;
   }
 
@@ -2901,7 +2901,7 @@
 
   .control-bar-inner {
     padding: 10px 16px;
-    border-radius: 16px;
+    border-radius: var(--radius-md);
   }
 
   .control-label {
@@ -2939,7 +2939,7 @@
 
   .study-card {
     padding: 14px;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
   }
 
   .tool-hero-copy {
@@ -3047,7 +3047,7 @@
 
   .tool-reciter-select-field {
     min-height: 48px;
-    border-radius: 12px;
+    border-radius: var(--radius-sm);
     padding: 10px 36px 10px 11px;
   }
 

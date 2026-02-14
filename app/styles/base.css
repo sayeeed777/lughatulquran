@@ -18,6 +18,24 @@
     --accent-2: #6fd4b1;
     --stroke: rgba(255, 255, 255, 0.1);
     --shadow: 0 24px 70px rgba(0, 0, 0, 0.4);
+    --shadow-card:
+        0 1px 3px rgba(0, 0, 0, 0.12),
+        0 4px 16px rgba(0, 0, 0, 0.16);
+    --shadow-elevated:
+        0 4px 12px rgba(0, 0, 0, 0.15),
+        0 16px 40px rgba(0, 0, 0, 0.25),
+        0 32px 64px rgba(0, 0, 0, 0.15);
+
+    /* Primary action gradient */
+    --gradient-primary: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+
+    /* Z-index scale */
+    --z-dropdown: 50;
+    --z-sticky: 100;
+    --z-overlay: 200;
+    --z-modal: 300;
+    --z-tooltip: 400;
+
     --arabic-scale: 1;
     --translation-scale: 1;
     --font-arabic: "Scheherazade New", "Amiri", "KFGQPC Hafs", "UthmanicHafs",

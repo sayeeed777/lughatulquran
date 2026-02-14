@@ -29,11 +29,11 @@ export default function CompareModal({
   const formatArabic = (text?: string) => text ?? "";
 
   return (
-    <div className="compare-panel" role="dialog" aria-modal="true">
+    <div className="compare-panel" role="dialog" aria-modal="true" aria-labelledby="compare-modal-title">
       <div className="compare-header">
         <div>
           <p className="eyebrow">Ayah {selectedAyah.number}</p>
-          <h3>
+          <h3 id="compare-modal-title">
             {selectedSurah.englishName} - {selectedSurah.name}
           </h3>
         </div>

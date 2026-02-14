@@ -255,7 +255,7 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(20px) saturate(180%);
-  z-index: 100;
+  z-index: var(--z-overlay);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -432,9 +432,57 @@
   transform: scale(0.97);
 }
 
-.action-btn.saved {
+.action-btn.saved,
+.action-btn--primary {
   background: rgba(111, 212, 177, 0.15);
   color: var(--accent-2);
+}
+
+.action-btn--primary:hover {
+  background: rgba(111, 212, 177, 0.25);
+}
+
+.action-btn--danger {
+  color: #f3a08b;
+}
+
+.action-btn--danger:hover {
+  background: rgba(243, 160, 139, 0.12);
+}
+
+/* Empty state styling */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.empty-state-icon {
+  font-size: 2rem;
+  opacity: 0.3;
+}
+
+.empty-state-text {
+  font-size: var(--text-sm);
+  color: var(--muted);
+}
+
+/* Inline loading spinner */
+.spinner-inline {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  border-top-color: var(--accent-2);
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
 }
 
 .compare-btn {
@@ -547,7 +595,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: var(--z-sticky);
   cursor: pointer;
   border: none;
   box-shadow: none;
@@ -613,7 +661,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 
 /* Ensure note modal is visible above Study Mode overlay */
 .study-mode-container ~ .note-panel {
-  z-index: 1200;
+  z-index: calc(var(--z-modal) + 10);
 }
 
 .note-body {
@@ -952,7 +1000,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   font-size: 0.75rem;
   color: var(--text);
   white-space: nowrap;
-  z-index: 100;
+  z-index: var(--z-tooltip);
   pointer-events: none;
   animation: tooltipFade 0.2s ease;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
@@ -990,7 +1038,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 100;
+  z-index: var(--z-modal);
   animation: fadeIn 0.15s ease;
   backdrop-filter: blur(20px) saturate(180%);
 }
@@ -1330,7 +1378,7 @@ textarea:focus-visible {
   position: fixed;
   top: 24px;
   right: 24px;
-  z-index: 100;
+  z-index: var(--z-sticky);
   width: 44px;
   height: 44px;
   border-radius: 50%;
