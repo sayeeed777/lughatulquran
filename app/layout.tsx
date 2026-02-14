@@ -120,9 +120,14 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   };
 
   return (
-    <html lang="en">
-      {/* Meta tags are handled by the metadata and viewport exports above.
-          No manual <head> tags needed — Next.js injects them automatically. */}
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=JSON.parse(localStorage.getItem("quran_theme"));if(t==="light"||t==="bw"||t==="dark"){document.documentElement.dataset.theme=t}else{document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"}}catch(e){document.documentElement.dataset.theme="dark"}})();`,
+          }}
+        />
+      </head>
       <body>
         <script
           type="application/ld+json"
