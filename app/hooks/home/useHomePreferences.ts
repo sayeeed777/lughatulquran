@@ -143,13 +143,13 @@ export function useHomePreferences() {
     setArabicFontId
   ]);
 
-  const [theme, setThemeState] = useState<"dark" | "light" | "bw">(() => {
+  const [theme, setThemeState] = useState<"dark" | "light" | "bw" | "bw-dark">(() => {
     if (typeof window === "undefined") return "dark";
     try {
       const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
       if (storedTheme) {
         const parsed = JSON.parse(storedTheme);
-        if (parsed === "dark" || parsed === "light" || parsed === "bw") {
+        if (parsed === "dark" || parsed === "light" || parsed === "bw" || parsed === "bw-dark") {
           return parsed;
         }
       }
@@ -158,9 +158,9 @@ export function useHomePreferences() {
       return "dark";
     }
   });
-  const isLightTheme = theme !== "dark";
+  const isLightTheme = theme === "light" || theme === "bw";
 
-  const setThemeValue = useCallback((t: "dark" | "light" | "bw") => {
+  const setThemeValue = useCallback((t: "dark" | "light" | "bw" | "bw-dark") => {
     setThemeState(t);
   }, []);
 

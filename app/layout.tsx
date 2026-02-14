@@ -124,7 +124,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       <head>
         <script
           dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=JSON.parse(localStorage.getItem("quran_theme"));if(t==="light"||t==="bw"||t==="dark"){document.documentElement.dataset.theme=t}else{document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"}}catch(e){document.documentElement.dataset.theme="dark"}})();`,
+            __html: `(function(){try{var t=JSON.parse(localStorage.getItem("quran_theme"));if(t==="light"||t==="bw"||t==="dark"||t==="bw-dark"){document.documentElement.dataset.theme=t}else{document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"}}catch(e){document.documentElement.dataset.theme="dark"}})();`,
           }}
         />
       </head>

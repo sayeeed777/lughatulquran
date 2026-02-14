@@ -8,7 +8,8 @@ import type { ThemeName } from "../../contexts/ThemeContext";
 const THEMES: { id: ThemeName; label: string; colors: [string, string, string] }[] = [
   { id: "dark", label: "Dark", colors: ["#0e1418", "#1b242c", "#6fd4b1"] },
   { id: "light", label: "Parchment", colors: ["#e8ded1", "#f0e7db", "#425236"] },
-  { id: "bw", label: "Black & White", colors: ["#ffffff", "#f5f5f5", "#111111"] }
+  { id: "bw", label: "Black & White", colors: ["#ffffff", "#f5f5f5", "#111111"] },
+  { id: "bw-dark", label: "Dark B&W", colors: ["#000000", "#111111", "#ffffff"] }
 ];
 
 function ThemeChooser() {
