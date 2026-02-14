@@ -1172,6 +1172,19 @@
   box-shadow: none;
 }
 
+/* Quick controls stop/play — flat for light theme */
+:root[data-theme="light"] .quick-controls-row .action-btn.stop-btn,
+:root[data-theme="light"] .quick-controls-row .action-btn.play-btn {
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="light"] .quick-controls-row .action-btn.stop-btn:hover,
+:root[data-theme="light"] .quick-controls-row .action-btn.play-btn:hover {
+  box-shadow: none;
+  transform: none;
+}
+
 /* Prayer UI light-mode fixes */
 :root[data-theme="light"] .settings-select,
 :root[data-theme="light"] .mobile-select {
@@ -1580,10 +1593,19 @@
 :root[data-theme="bw"] .action-btn {
   background: rgba(0, 0, 0, 0.05);
   color: var(--text);
+  box-shadow: none;
+  transform: none;
 }
 
 :root[data-theme="bw"] .action-btn:hover {
   background: rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw"] .action-btn:active {
+  box-shadow: none;
+  transform: none;
 }
 
 :root[data-theme="bw"] .action-btn.saved,
@@ -1602,6 +1624,29 @@
 
 :root[data-theme="bw"] .action-btn--danger:hover {
   background: rgba(204, 51, 51, 0.08);
+}
+
+/* Quick controls stop/play buttons — flat for bw */
+:root[data-theme="bw"] .quick-controls-row .action-btn.stop-btn {
+  background: rgba(0, 0, 0, 0.06);
+  color: #333;
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw"] .quick-controls-row .action-btn.stop-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="bw"] .quick-controls-row .action-btn.play-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: #111;
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw"] .quick-controls-row .action-btn.play-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
 }
 
 /* Compare / note modals */

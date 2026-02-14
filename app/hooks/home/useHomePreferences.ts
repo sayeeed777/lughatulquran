@@ -143,29 +143,25 @@ export function useHomePreferences() {
     setArabicFontId
   ]);
 
-  const [theme, setThemeState] = useState<"dark" | "light" | "bw">("dark");
-  const isLightTheme = theme !== "dark";
-
-  const setThemeValue = useCallback((t: "dark" | "light" | "bw") => {
-    setThemeState(t);
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
+  const [theme, setThemeState] = useState<"dark" | "light" | "bw">(() => {
+    if (typeof window === "undefined") return "dark";
     try {
       const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
       if (storedTheme) {
         const parsed = JSON.parse(storedTheme);
         if (parsed === "dark" || parsed === "light" || parsed === "bw") {
-          setThemeState(parsed);
+          return parsed;
         }
-      } else {
-        const prefersLight = window.matchMedia?.("(prefers-color-scheme: light)")?.matches;
-        setThemeState(prefersLight ? "light" : "dark");
       }
+      return window.matchMedia?.("(prefers-color-scheme: light)")?.matches ? "light" : "dark";
     } catch {
-      setThemeState("dark");
+      return "dark";
     }
+  });
+  const isLightTheme = theme !== "dark";
+
+  const setThemeValue = useCallback((t: "dark" | "light" | "bw") => {
+    setThemeState(t);
   }, []);
 
   useEffect(() => {
