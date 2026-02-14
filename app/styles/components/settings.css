@@ -1978,7 +1978,7 @@
   /* Translation text */
   .ayah-translation,
   .study-ayah-translation {
-    font-size: 0.95rem;
+    font-size: calc(0.95rem * var(--translation-scale, 1));
     line-height: 1.65;
   }
 
