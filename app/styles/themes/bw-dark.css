@@ -1,0 +1,1404 @@
+/* =============================================
+   DARK B&W THEME — Pure black & white, no color
+   ============================================= */
+
+:root[data-theme="bw-dark"] {
+  color-scheme: dark;
+
+  --bg-deep: #000000;
+  --bg-mid: #0a0a0a;
+  --bg-light: #111111;
+  --card: rgba(255, 255, 255, 0.04);
+  --card-strong: rgba(255, 255, 255, 0.06);
+
+  --text: #eeeeee;
+  --muted: #888888;
+
+  --accent: #eeeeee;
+  --accent-2: #cccccc;
+
+  --stroke: rgba(255, 255, 255, 0.1);
+
+  --shadow:
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 4px 12px rgba(0, 0, 0, 0.4);
+
+  --shadow-card:
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 4px 16px rgba(0, 0, 0, 0.3);
+
+  --shadow-elevated:
+    0 2px 8px rgba(0, 0, 0, 0.4),
+    0 12px 32px rgba(0, 0, 0, 0.5),
+    0 32px 64px rgba(0, 0, 0, 0.4);
+
+  --gradient-primary: linear-gradient(135deg, #ccc 0%, #eee 100%);
+}
+
+:root[data-theme="bw-dark"] body {
+  background: #000000;
+  color: var(--text);
+}
+
+:root[data-theme="bw-dark"] html {
+  background-color: #000000;
+}
+
+:root[data-theme="bw-dark"] body::before {
+  display: none;
+}
+
+/* Logo */
+:root[data-theme="bw-dark"] .logo-mark {
+  background: #111;
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+:root[data-theme="bw-dark"] .logo:hover .logo-mark {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.1), 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .logo-highlight {
+  color: #ccc;
+}
+
+/* Header buttons */
+:root[data-theme="bw-dark"] .header-icon-btn {
+  color: var(--text);
+}
+
+:root[data-theme="bw-dark"] .header-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Topbar */
+:root[data-theme="bw-dark"] .topbar {
+  background: rgba(0, 0, 0, 0.9);
+  border-bottom: none;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+
+/* Sidebar / surah panel */
+:root[data-theme="bw-dark"] .surah-panel {
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+:root[data-theme="bw-dark"] .surah-item:hover {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .surah-item.active {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .surah-number {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+}
+
+:root[data-theme="bw-dark"] .surah-arabic {
+  color: #ccc;
+}
+
+/* Search */
+:root[data-theme="bw-dark"] .surah-search-wrapper .search,
+:root[data-theme="bw-dark"] .mobile-input,
+:root[data-theme="bw-dark"] .mobile-select {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+:root[data-theme="bw-dark"] .surah-search-wrapper .search:focus,
+:root[data-theme="bw-dark"] .mobile-input:focus {
+  background: #111;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+:root[data-theme="bw-dark"] .surah-search-wrapper .search::placeholder,
+:root[data-theme="bw-dark"] .mobile-input::placeholder {
+  color: var(--muted);
+}
+
+/* Ayah cards */
+:root[data-theme="bw-dark"] .ayah-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .ayah-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .ayah-card.active {
+  background: rgba(255, 255, 255, 0.07);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+:root[data-theme="bw-dark"] .ayah-number-badge {
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--muted);
+}
+
+/* Action buttons */
+:root[data-theme="bw-dark"] .action-btn {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw-dark"] .action-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw-dark"] .action-btn:active {
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw-dark"] .action-btn.saved,
+:root[data-theme="bw-dark"] .action-btn--primary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .action-btn--primary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .action-btn--danger {
+  color: #ff6b6b;
+}
+
+:root[data-theme="bw-dark"] .action-btn--danger:hover {
+  background: rgba(255, 107, 107, 0.1);
+}
+
+/* Quick controls stop/play buttons */
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.stop-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.stop-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* Compare / note modals */
+:root[data-theme="bw-dark"] .compare-panel,
+:root[data-theme="bw-dark"] .note-panel {
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-elevated);
+}
+
+:root[data-theme="bw-dark"] .compare-block {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Settings modal container */
+:root[data-theme="bw-dark"] .settings-modal-container {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .mobile-settings-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="bw-dark"] .settings-tab-btn {
+  color: var(--muted);
+}
+
+:root[data-theme="bw-dark"] .settings-tab-btn.active {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .settings-group {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+/* Scrollbar */
+:root[data-theme="bw-dark"] ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:root[data-theme="bw-dark"] ::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Quick panel */
+:root[data-theme="bw-dark"] .quick-panel {
+  background: rgba(10, 10, 10, 0.96);
+  border-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+:root[data-theme="bw-dark"] .quick-panel-backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Study mode */
+:root[data-theme="bw-dark"] .study-header {
+  background: rgba(0, 0, 0, 0.92);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+:root[data-theme="bw-dark"] .study-mode-container {
+  background: #000000;
+}
+
+:root[data-theme="bw-dark"] .study-card {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .study-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Audio bar */
+:root[data-theme="bw-dark"] .audio-bar {
+  background: rgba(0, 0, 0, 0.95);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Chips & tags */
+:root[data-theme="bw-dark"] .translation-chip,
+:root[data-theme="bw-dark"] .reciter-card,
+:root[data-theme="bw-dark"] .study-reciter-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="bw-dark"] .translation-chip:hover,
+:root[data-theme="bw-dark"] .reciter-card:hover,
+:root[data-theme="bw-dark"] .study-reciter-chip:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .translation-chip.selected,
+:root[data-theme="bw-dark"] .reciter-card.selected,
+:root[data-theme="bw-dark"] .study-reciter-chip.active {
+  background: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Tooltip */
+:root[data-theme="bw-dark"] .tooltip {
+  background: #eee;
+  color: #000;
+}
+
+/* Keyboard shortcuts */
+:root[data-theme="bw-dark"] .shortcuts-overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="bw-dark"] .shortcuts-modal {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Back to top */
+:root[data-theme="bw-dark"] .back-to-top {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .back-to-top:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Bookmark active */
+:root[data-theme="bw-dark"] .bookmark-active {
+  color: #eee;
+}
+
+/* Bismillah */
+:root[data-theme="bw-dark"] .bismillah-banner {
+  color: #ccc;
+}
+
+/* Prayer panel */
+:root[data-theme="bw-dark"] .prayer-panel-container {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .prayer-time-row {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .prayer-time-row.active {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Toggle switch */
+:root[data-theme="bw-dark"] .toggle-track {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .toggle-track.active {
+  background: #ccc;
+}
+
+:root[data-theme="bw-dark"] .toggle-thumb {
+  background: #000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Inputs / textarea */
+:root[data-theme="bw-dark"] textarea,
+:root[data-theme="bw-dark"] input[type="text"],
+:root[data-theme="bw-dark"] input[type="number"] {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="bw-dark"] textarea:focus,
+:root[data-theme="bw-dark"] input[type="text"]:focus,
+:root[data-theme="bw-dark"] input[type="number"]:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.06);
+}
+
+/* Close / icon buttons */
+:root[data-theme="bw-dark"] .close-btn {
+  color: var(--muted);
+}
+
+:root[data-theme="bw-dark"] .close-btn:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Eyebrow label */
+:root[data-theme="bw-dark"] .eyebrow {
+  color: #888;
+}
+
+/* Empty states */
+:root[data-theme="bw-dark"] .empty-state-icon {
+  opacity: 0.25;
+}
+
+/* Status / muted text */
+:root[data-theme="bw-dark"] .status {
+  color: var(--muted);
+}
+
+/* =============================================
+   PRAYER PANEL - DARK B&W THEME
+   ============================================= */
+
+:root[data-theme="bw-dark"] .prayer-floating-panel {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 24px 80px -12px rgba(0, 0, 0, 0.6),
+    0 0 0 0.5px rgba(255, 255, 255, 0.05) inset;
+}
+
+:root[data-theme="bw-dark"] .prayer-floating-title {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-floating-subtitle {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .prayer-floating-close {
+  background: rgba(255, 255, 255, 0.05);
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .prayer-floating-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+/* Hero card */
+:root[data-theme="bw-dark"] .prayer-hero-card {
+  background: linear-gradient(145deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.02) 60%,
+      rgba(0, 0, 0, 0.8) 100%);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .prayer-hero-card::before {
+  background: radial-gradient(ellipse at 30% 20%,
+      rgba(255, 255, 255, 0.03) 0%,
+      transparent 70%);
+}
+
+:root[data-theme="bw-dark"] .prayer-hero-label {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="bw-dark"] .prayer-hero-name {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-hero-time {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+:root[data-theme="bw-dark"] .prayer-hero-empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Section titles */
+:root[data-theme="bw-dark"] .prayer-section-title {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Schedule card */
+:root[data-theme="bw-dark"] .prayer-schedule-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-empty {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-row {
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-row.active {
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(255, 255, 255, 0.02) 100%);
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-row.active .prayer-schedule-name {
+  color: #eee;
+  font-weight: 600;
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-row.active .prayer-schedule-time {
+  color: #eee;
+  font-weight: 600;
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-name {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .prayer-schedule-time {
+  color: #888;
+}
+
+/* Settings card */
+:root[data-theme="bw-dark"] .prayer-settings-card {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .prayer-settings-divider {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .prayer-settings-label {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .prayer-settings-select {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .prayer-settings-input {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .prayer-settings-input:focus {
+  color: #eee;
+}
+
+/* Custom select dropdown */
+:root[data-theme="bw-dark"] .prayer-custom-select {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-trigger {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-trigger:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-dropdown {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-search {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-search:focus {
+  background: #111;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-option {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-option:hover,
+:root[data-theme="bw-dark"] .prayer-custom-option.highlighted {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-option.selected {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-custom-no-match {
+  color: #666;
+}
+
+/* City input */
+:root[data-theme="bw-dark"] .prayer-city-input-shell {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-input {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-input::placeholder {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-input-icon {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-clear-btn {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-clear-btn:hover {
+  color: #eee;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-selected-pill {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-selected-main {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-selected-meta {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-options {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-options-head {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-option {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-option:hover,
+:root[data-theme="bw-dark"] .prayer-city-option.active {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-option-main {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-option-meta {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .prayer-city-options-status {
+  color: #666;
+}
+
+/* Backdrop */
+:root[data-theme="bw-dark"] .prayer-floating-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* =============================================
+   STUDY RAIL - DARK B&W THEME
+   ============================================= */
+
+:root[data-theme="bw-dark"] .study-rail {
+  background: rgba(10, 10, 10, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(18px) saturate(150%);
+}
+
+:root[data-theme="bw-dark"] .study-rail-btn {
+  background: rgba(255, 255, 255, 0.05);
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .study-rail-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-rail-btn.active {
+  background: #eee;
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Mobile study rail */
+@media (max-width: 768px) {
+  :root[data-theme="bw-dark"] .study-rail {
+    background: rgba(10, 10, 10, 0.95);
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Settings Modal */
+:root[data-theme="bw-dark"] .settings-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="bw-dark"] .settings-modal {
+  background: #0a0a0a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .settings-title {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .settings-close-btn {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .settings-close-btn:hover {
+  color: #eee;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .settings-tabs {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .settings-tab {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .settings-tab:hover {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .settings-tab.active {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .tab-label {
+  color: inherit;
+}
+
+:root[data-theme="bw-dark"] .tab-indicator {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .section-title {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .settings-select {
+  background: #111;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .settings-select:focus {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root[data-theme="bw-dark"] .settings-input {
+  background: #111;
+  border-color: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .settings-input:focus {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root[data-theme="bw-dark"] .chip-check {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .slider-track-container {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .settings-hint {
+  color: #666;
+}
+
+/* Study Mode Tool Panel */
+:root[data-theme="bw-dark"] .toggle-switch.active {
+  background: #eee;
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: none;
+}
+
+:root[data-theme="bw-dark"] .tool-toggle-card,
+:root[data-theme="bw-dark"] .tool-slider-row,
+:root[data-theme="bw-dark"] .tool-reciter-select-field {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .tool-hero-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .tool-chip {
+  color: #eee;
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root[data-theme="bw-dark"] .tool-slider-value {
+  color: #eee;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .tool-slider-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .tool-slider-fill::-webkit-progress-value {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .tool-slider-fill::-moz-progress-bar {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .tool-slider-input::-webkit-slider-thumb {
+  background: #000;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="bw-dark"] .tool-slider-input::-moz-range-thumb {
+  background: #000;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+:root[data-theme="bw-dark"] .study-card,
+:root[data-theme="bw-dark"] .study-settings-group,
+:root[data-theme="bw-dark"] .tool-toggle {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .study-toggle-list,
+:root[data-theme="bw-dark"] .study-premium-sliders {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Study Lexicon Modal */
+:root[data-theme="bw-dark"] .study-lexicon-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-modal {
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 52px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-close {
+  background: rgba(255, 255, 255, 0.05);
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-word {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-root-focus {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-root-focus.is-unavailable {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-root-heading {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-meta-item {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-summary-item {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-guide-item {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-guide-toggle {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-guide-popover {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 18px 38px rgba(0, 0, 0, 0.5);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-guide-code {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-guide-meaning {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .study-lane-open-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .study-root-link {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .study-root-insight-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .study-word-audio-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-chip,
+:root[data-theme="bw-dark"] .study-lexicon-ref {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .study-lexicon-list li {
+  color: #ccc;
+}
+
+/* Study Ayah Card States */
+:root[data-theme="bw-dark"] .study-ayah-card.playing {
+  background: rgba(255, 255, 255, 0.06) !important;
+}
+
+:root[data-theme="bw-dark"] .study-ayah-card.marked {
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+:root[data-theme="bw-dark"] .study-ayah-card.marked:hover {
+  background: rgba(255, 255, 255, 0.16) !important;
+}
+
+:root[data-theme="bw-dark"] .study-ayah-card.marked.playing {
+  background: rgba(255, 255, 255, 0.18) !important;
+}
+
+/* Quick Note Components */
+:root[data-theme="bw-dark"] .quick-note-tab {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .quick-note-tab:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .quick-note-tab.active {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .quick-note-tab-time {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .quick-note-editor {
+  background: rgba(255, 255, 255, 0.03);
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .quick-note-title-input,
+:root[data-theme="bw-dark"] .quick-note-body-input {
+  background: rgba(255, 255, 255, 0.04);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .quick-note-title-input:focus,
+:root[data-theme="bw-dark"] .quick-note-body-input:focus {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .quick-item-action.save {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .quick-item-action.save:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .quick-item-action.save:disabled {
+  background: rgba(255, 255, 255, 0.05);
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .quick-item-action.danger {
+  background: rgba(255, 107, 107, 0.1);
+  color: #ff6b6b;
+}
+
+:root[data-theme="bw-dark"] .quick-item-action.danger:hover {
+  background: rgba(255, 107, 107, 0.15);
+}
+
+/* Translation/Reciter Chips detailed states */
+:root[data-theme="bw-dark"] .translation-chip:hover,
+:root[data-theme="bw-dark"] .reciter-card:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+:root[data-theme="bw-dark"] .translation-chip.selected,
+:root[data-theme="bw-dark"] .reciter-card.selected {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #eee;
+}
+
+/* Slider Track and Fill */
+:root[data-theme="bw-dark"] .slider-track-fill {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .tool-slider-fill::-webkit-progress-value {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .tool-slider-fill::-moz-progress-bar {
+  background: #eee;
+}
+
+/* Focus Rings */
+:root[data-theme="bw-dark"] *:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.3);
+  outline-offset: 2px;
+}
+
+:root[data-theme="bw-dark"] .search:focus,
+:root[data-theme="bw-dark"] .mobile-input:focus,
+:root[data-theme="bw-dark"] .settings-input:focus {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .surah-item.active .surah-number {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .last-read-card {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .last-read-title {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .last-read-surah {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .last-read-meta {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .audio-bar.playing {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .audio-progress-fill {
+  background: #eee;
+}
+
+:root[data-theme="bw-dark"] .prayer-hint {
+  background: #0a0a0a;
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+/* Memorize Modal */
+:root[data-theme="bw-dark"] .memorize-modal-backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+:root[data-theme="bw-dark"] .memorize-modal {
+  background: #0a0a0a;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 24px 80px -12px rgba(0, 0, 0, 0.6);
+}
+
+:root[data-theme="bw-dark"] .memorize-modal-header h3 {
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .memorize-modal-header p {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .memorize-close {
+  background: rgba(255, 255, 255, 0.05);
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .memorize-close:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .memorize-segmented {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+:root[data-theme="bw-dark"] .memorize-segment {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .memorize-segment:hover {
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .memorize-segment.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eee;
+  box-shadow: none;
+}
+
+:root[data-theme="bw-dark"] .memorize-range-grid label {
+  color: #888;
+}
+
+:root[data-theme="bw-dark"] .memorize-range-grid input,
+:root[data-theme="bw-dark"] .memorize-range-summary,
+:root[data-theme="bw-dark"] .memorize-stepper {
+  background: rgba(255, 255, 255, 0.05);
+  color: #eee;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .memorize-stepper button {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .memorize-stepper button:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+:root[data-theme="bw-dark"] .memorize-hint {
+  color: #666;
+}
+
+:root[data-theme="bw-dark"] .memorize-ghost {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .memorize-ghost:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+:root[data-theme="bw-dark"] .memorize-primary {
+  background: #eee;
+  color: #000;
+}
+
+/* Ayah Card Focused State */
+:root[data-theme="bw-dark"] .ayah-card.focused {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+:root[data-theme="bw-dark"] .ayah-card.focused .ayah-number {
+  color: #ccc;
+}
+
+/* Action Buttons Saved State */
+:root[data-theme="bw-dark"] .action-btn.saved,
+:root[data-theme="bw-dark"] .action-btn--primary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .action-btn--primary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .action-btn.saved:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Study Mode Ayah Actions */
+:root[data-theme="bw-dark"] .study-ayah-action.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-ayah-word-trigger.active {
+  background: rgba(255, 255, 255, 0.08);
+  color: #eee;
+}
+
+/* Surah translation & text overrides */
+:root[data-theme="bw-dark"] .surah-translation,
+:root[data-theme="bw-dark"] .study-sub,
+:root[data-theme="bw-dark"] .plan-range,
+:root[data-theme="bw-dark"] .ayah-translation,
+:root[data-theme="bw-dark"] .compare-text {
+  color: rgba(238, 238, 238, 0.7);
+}
+
+/* Neutralize all green/teal/gold hardcoded accent colors */
+
+/* Search & input focus rings */
+:root[data-theme="bw-dark"] .search:focus,
+:root[data-theme="bw-dark"] .reader-search input:focus,
+:root[data-theme="bw-dark"] .go-ayah input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .settings-select:focus,
+:root[data-theme="bw-dark"] .settings-input:focus {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Translation toggle active */
+:root[data-theme="bw-dark"] .translation-toggle button.active,
+:root[data-theme="bw-dark"] .translation-toggle-mobile button.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eee;
+}
+
+/* Ayah card focused state */
+:root[data-theme="bw-dark"] .ayah-card.focused {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Surah item active */
+:root[data-theme="bw-dark"] .surah-item.active {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Compare button */
+:root[data-theme="bw-dark"] .compare-btn {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .compare-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Last read card / continue banner */
+:root[data-theme="bw-dark"] .last-read-banner {
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+}
+
+:root[data-theme="bw-dark"] .last-read-icon {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+/* Selection highlight */
+:root[data-theme="bw-dark"] ::selection {
+  background: rgba(255, 255, 255, 0.25);
+  color: var(--text);
+}
+
+/* Prayer city input focus */
+:root[data-theme="bw-dark"] .prayer-city-input:focus {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+}
+
+:root[data-theme="bw-dark"] .prayer-city-input:focus ~ .prayer-city-input-icon,
+:root[data-theme="bw-dark"] .prayer-city-input-shell:focus-within .prayer-city-input-icon {
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+/* Prayer city selected pill */
+:root[data-theme="bw-dark"] .prayer-city-selected-pill {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Audio bar play button */
+:root[data-theme="bw-dark"] .audio-bar .play-surah-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .audio-bar .play-surah-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Audio bar stop button */
+:root[data-theme="bw-dark"] .audio-bar .stop-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .audio-bar .stop-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Surah prayer hint tooltip */
+:root[data-theme="bw-dark"] .surah-prayer-hint {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(10, 10, 10, 0.96);
+}
+
+:root[data-theme="bw-dark"] .surah-prayer-hint::before {
+  border-left-color: rgba(255, 255, 255, 0.1);
+  border-top-color: rgba(255, 255, 255, 0.1);
+  background: rgba(10, 10, 10, 0.96);
+}
+
+/* Study mode active action (gold) */
+:root[data-theme="bw-dark"] .study-ayah-action.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+/* Audio bar playing animation border */
+:root[data-theme="bw-dark"] .audio-bar.playing {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+:root[data-theme="bw-dark"] .audio-bar.playing::before {
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.03), transparent);
+}
+
+/* Dark B&W overrides (from common.css) */
+/* Dark B&W — Bookmark ribbon */
+:root[data-theme="bw-dark"] .bookmark-ribbon,
+:root[data-theme="bw-dark"] .ayah-bookmark-btn.saved,
+:root[data-theme="bw-dark"] .action-icon-btn.saved {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .bookmark-ribbon:hover,
+:root[data-theme="bw-dark"] .ayah-bookmark-btn.saved:hover,
+:root[data-theme="bw-dark"] .action-icon-btn.saved:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+/* Note button active */
+:root[data-theme="bw-dark"] .note-btn.active,
+:root[data-theme="bw-dark"] .ayah-note-btn.active,
+:root[data-theme="bw-dark"] .action-icon-btn.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+/* Play icon button */
+:root[data-theme="bw-dark"] .action-icon-btn.play-icon.playing {
+  background: rgba(255, 255, 255, 0.15);
+  color: #eee;
+}

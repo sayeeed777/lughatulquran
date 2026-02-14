@@ -161,14 +161,11 @@ export function useHomePreferences() {
   const isLightTheme = theme === "light" || theme === "bw";
 
   const setThemeValue = useCallback((t: "dark" | "light" | "bw" | "bw-dark") => {
+    // Update DOM synchronously to prevent flash between old/new theme
+    document.documentElement.dataset.theme = t;
+    localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify(t));
     setThemeState(t);
   }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    document.documentElement.dataset.theme = theme;
-    localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify(theme));
-  }, [theme]);
 
   return {
     readingPlan,

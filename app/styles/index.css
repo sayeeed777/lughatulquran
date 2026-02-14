@@ -30,11 +30,13 @@
 
 /* === Components (Migrated Modules) === */
 @import './components/common.css';
+@import './components/theme-chooser.css';
 @import './components/sidebar.css';
 @import './components/reader.css';
 @import './components/audio.css';
 @import './components/study.css';
 @import './components/settings.css';
+@import './components/prayer.css';
 @import './themes.css';
 
 /* 
