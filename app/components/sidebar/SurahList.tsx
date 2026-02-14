@@ -1,6 +1,6 @@
 "use client";
 
-import { memo, useEffect, useState } from "react";
+import { memo } from "react";
 import { motion } from "framer-motion";
 import type { Surah } from "../../lib/types";
 import { SurahListSkeleton } from "../skeletons";
@@ -36,7 +36,6 @@ const item = {
   show: { opacity: 1, x: 0 }
 };
 
-const PRAYER_HINT_SEEN_KEY = "quran.prayer_hint_seen.v1";
 
 function SurahList({
   filteredSurahs = [], // Default to empty array to prevent .map() error
@@ -51,36 +50,6 @@ function SurahList({
   onOpenSettings
 }: SurahListProps) {
   const { isLightTheme, toggleTheme } = useTheme();
-  const [showPrayerHint, setShowPrayerHint] = useState(false);
-
-  useEffect(() => {
-    if (typeof window === "undefined" || !onOpenPrayer) return;
-    if (!window.matchMedia("(max-width: 1100px)").matches) return;
-    try {
-      const hasSeenHint = window.localStorage.getItem(PRAYER_HINT_SEEN_KEY) === "1";
-      if (!hasSeenHint) {
-        setShowPrayerHint(true);
-      }
-    } catch {
-      setShowPrayerHint(true);
-    }
-  }, [onOpenPrayer]);
-
-  const dismissPrayerHint = () => {
-    setShowPrayerHint(false);
-    if (typeof window !== "undefined") {
-      try {
-        window.localStorage.setItem(PRAYER_HINT_SEEN_KEY, "1");
-      } catch {
-        // Ignore storage failures (private mode / storage restrictions).
-      }
-    }
-  };
-
-  const handleOpenPrayer = () => {
-    dismissPrayerHint();
-    onOpenPrayer?.();
-  };
 
   if (loading) {
     return (
@@ -91,11 +60,9 @@ function SurahList({
             <div className="surah-header-actions">
               <div className="topbar-icon-btns surah-icon-btns">
                 {onOpenPrayer && (
-                  <div className="surah-prayer-hint-anchor">
-                    <button className="header-icon-btn" onClick={handleOpenPrayer} aria-label="Prayer times">
-                      <ClockIcon />
-                    </button>
-                  </div>
+                  <button className="header-icon-btn" onClick={onOpenPrayer} aria-label="Prayer times">
+                    <ClockIcon />
+                  </button>
                 )}
                 <button
                   className="header-icon-btn"
@@ -129,25 +96,9 @@ function SurahList({
           <div className="surah-header-actions">
             <div className="topbar-icon-btns surah-icon-btns">
               {onOpenPrayer && (
-                <div className="surah-prayer-hint-anchor">
-                  <button className="header-icon-btn" onClick={handleOpenPrayer} aria-label="Prayer times">
+                  <button className="header-icon-btn" onClick={onOpenPrayer} aria-label="Prayer times">
                     <ClockIcon />
                   </button>
-                  {showPrayerHint && (
-                    <div className="surah-prayer-hint" role="note" aria-live="polite">
-                      <p className="surah-prayer-hint-title">Prayer times</p>
-                      <p className="surah-prayer-hint-text">Tap this clock to open Salah times.</p>
-                      <button
-                        type="button"
-                        className="surah-prayer-hint-dismiss"
-                        onClick={dismissPrayerHint}
-                        aria-label="Dismiss prayer hint"
-                      >
-                        Got it
-                      </button>
-                    </div>
-                  )}
-                </div>
               )}
               <button
                 className="header-icon-btn"
