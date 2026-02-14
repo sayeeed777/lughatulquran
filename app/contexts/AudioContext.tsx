@@ -2,7 +2,7 @@
 
 import { createContext, useContext } from "react";
 import type { ReactNode } from "react";
-import type { NowPlaying } from "../lib/types";
+import type { NowPlaying, Reciter, SetState } from "../lib/types";
 
 type AudioContextValue = {
     // State
@@ -12,6 +12,12 @@ type AudioContextValue = {
     audioSrc: string | null;
     reciterLabel: string;
     nowPlayingLabel: string;
+    // Settings
+    reciterId: string;
+    setReciterId: SetState<string>;
+    selectedReciter: Reciter;
+    playbackRate: number;
+    setPlaybackRate: SetState<number>;
     // Actions
     handlePlaySurah: (startAyah: number) => void;
     handleStopAutoPlay: () => void;

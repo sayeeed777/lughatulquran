@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useState, useEffect, useRef } from "react";
-import type { Ayah, Surah } from "../../lib/types";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
@@ -9,27 +8,9 @@ import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
 import { verseKey, clamp } from "../../lib/utils";
-import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences } from "../../contexts";
+import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 
-type ReaderPanelProps = {
-  reciterId: string;
-  setReciterId: (value: string | ((prev: string) => string)) => void;
-  handleGoToAyah: () => void;
-  onRetry: () => void;
-  onCompare: (ayah: Ayah) => void;
-  onCopyLink?: (surah: number, ayah: number) => void;
-  onSelectSurah?: (surah: Surah) => void;
-};
-
-export default function ReaderPanel({
-  reciterId,
-  setReciterId,
-  handleGoToAyah,
-  onRetry,
-  onCompare,
-  onCopyLink,
-  onSelectSurah
-}: ReaderPanelProps) {
+export default function ReaderPanel() {
   // Consume from contexts
   const {
     selectedSurah,
@@ -80,6 +61,8 @@ export default function ReaderPanel({
     audioSrc,
     reciterLabel,
     nowPlayingLabel,
+    reciterId,
+    setReciterId,
     handlePlaySurah: onPlaySurah,
     handleStopAutoPlay: onStopAutoPlay,
     handleAudioEnded: onAudioEnded,
@@ -87,6 +70,13 @@ export default function ReaderPanel({
     handleToggleAyah: onTogglePlay
   } = useAudio();
   const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
+  const {
+    handleGoToAyah,
+    retryData: onRetry,
+    handleCompare: onCompare,
+    copyAyahLink: onCopyLink,
+    handleSelectSurah: onSelectSurah
+  } = useActions();
   const formatArabic = (text?: string) => text ?? "";
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
 

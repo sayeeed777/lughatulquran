@@ -3,15 +3,10 @@
 import { ALL_TRANSLATIONS } from "../../lib/constants";
 import { useQuranData, useUIState } from "../../contexts";
 
-type CompareModalProps = {
-  onClose: () => void;
-};
-
-export default function CompareModal({
-  onClose
-}: CompareModalProps) {
+export default function CompareModal() {
   const { selectedSurah, taqiCache, taqiLoading } = useQuranData();
-  const { selectedAyah } = useUIState();
+  const { selectedAyah, setSelectedAyah } = useUIState();
+  const onClose = () => setSelectedAyah(null);
   const selectedAyahKey =
     selectedSurah && selectedAyah ? `${selectedSurah.number}:${selectedAyah.number}` : null;
   if (!selectedAyah || !selectedSurah) {

@@ -16,8 +16,7 @@ import useWordLexicon from "./useWordLexicon";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
 import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
-import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences } from "../../contexts";
-import type { PlanSummary } from "../../hooks/home/useHomePlan";
+import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 
 type RailItem = {
   id: QuickPanelTab;
@@ -26,23 +25,11 @@ type RailItem = {
 };
 
 type StudyModeViewProps = {
-  reciterId: string;
-  setReciterId: (value: string) => void;
-  playbackRate: number;
-  setPlaybackRate: (value: number) => void;
-  planSummary: PlanSummary;
   onExit: () => void;
-  onJumpToAyah: (surah: number, ayah: number) => void;
 };
 
 export default function StudyModeView({
-  reciterId,
-  setReciterId,
-  playbackRate,
-  setPlaybackRate,
-  planSummary,
-  onExit,
-  onJumpToAyah
+  onExit
 }: StudyModeViewProps) {
   // Consume from contexts
   const {
@@ -70,11 +57,16 @@ export default function StudyModeView({
     isAudioPaused,
     audioSrc,
     reciterLabel,
+    reciterId,
+    setReciterId,
+    playbackRate,
+    setPlaybackRate,
     handleStopAutoPlay: onStopAutoPlay,
     handlePlaySurah: onPlaySurah,
     handleAudioEnded: onAudioEnded,
     handleToggleAyah: onTogglePlay
   } = useAudio();
+  const { planSummary, jumpToAyah: onJumpToAyah } = useActions();
   const {
     bookmarks,
     notes,

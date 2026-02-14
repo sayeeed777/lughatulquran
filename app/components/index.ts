@@ -29,5 +29,8 @@ export { SurahList, LastReadCard, BookmarkList, NoteList, ReadingPlan } from "./
 // Error Boundary (root level)
 export { default as ErrorBoundary } from "./ErrorBoundary";
 
+// Provider Wrapper
+export { default as HomeProviders } from "./HomeProviders";
+
 // Skeleton Components
 export * from "./skeletons";

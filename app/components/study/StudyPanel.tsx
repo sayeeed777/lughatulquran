@@ -3,15 +3,9 @@
 import { ReadingPlan, BookmarkList, NoteList } from "../sidebar";
 import { getTimeAgo } from "../sidebar/LastReadCard";
 import { getLocalDateString } from "../../lib/utils";
-import { useBookmarkContext, useQuranData, usePreferences } from "../../contexts";
-import type { PlanSummary } from "../../hooks/home/useHomePlan";
-
-type VerseRef = { surah: number; ayah: number } | null;
+import { useBookmarkContext, useQuranData, usePreferences, useActions } from "../../contexts";
 
 type StudyPanelProps = {
-  planSummary: PlanSummary;
-  onJumpToAyah: (surah: number, ayah: number) => void;
-  formatRangeLabel: (start: VerseRef, end: VerseRef) => string;
   continueSession?: {
     surah: number;
     ayah: number;
@@ -22,14 +16,12 @@ type StudyPanelProps = {
 };
 
 export default function StudyPanel({
-  planSummary,
-  onJumpToAyah,
-  formatRangeLabel,
   continueSession,
   onContinueSession
 }: StudyPanelProps) {
   const { surahs, surahByNumber } = useQuranData();
   const { readingPlan, setReadingPlan } = usePreferences();
+  const { planSummary, jumpToAyah: onJumpToAyah, formatRangeLabel } = useActions();
   const { sortedBookmarks, sortedNotes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const continueTimeAgo = continueSession ? getTimeAgo(continueSession.updatedAt) : "";
 

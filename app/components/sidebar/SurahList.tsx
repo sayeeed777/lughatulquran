@@ -1,20 +1,11 @@
 "use client";
 
-import { memo } from "react";
 import { motion } from "framer-motion";
-import type { Surah } from "../../lib/types";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError, SettingsIcon, ClockIcon, ThemeChooser } from "../common";
+import { useQuranData, useUIState, useActions } from "../../contexts";
 
 type SurahListProps = {
-  filteredSurahs?: Surah[];
-  selectedSurah: Surah | null;
-  query?: string;
-  setQuery?: (value: string) => void;
-  onSelectSurah: (surah: Surah) => void;
-  loading: boolean;
-  error: string | null;
-  onRetry: () => void;
   onOpenPrayer?: () => void;
   onOpenSettings?: () => void;
 };
@@ -36,18 +27,13 @@ const item = {
 };
 
 
-function SurahList({
-  filteredSurahs = [], // Default to empty array to prevent .map() error
-  selectedSurah,
-  query,
-  setQuery,
-  onSelectSurah,
-  loading,
-  error,
-  onRetry,
+export default function SurahList({
   onOpenPrayer,
   onOpenSettings
 }: SurahListProps) {
+  const { filteredSurahs, selectedSurah, loadingSurahs: loading, surahsError: error } = useQuranData();
+  const { query, setQuery } = useUIState();
+  const { handleSelectSurah: onSelectSurah, retryData: onRetry } = useActions();
 
   if (loading) {
     return (
@@ -136,4 +122,3 @@ function SurahList({
   );
 }
 
-export default memo(SurahList);
