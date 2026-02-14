@@ -50,46 +50,54 @@
 }
 
 .logo-mark {
-    width: 44px;
-    height: 44px;
-    border-radius: var(--radius-md);
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
     display: grid;
     place-items: center;
     color: var(--accent);
     background:
-        radial-gradient(120% 120% at 10% 10%, rgba(255, 255, 255, 0.18), transparent 55%),
-        linear-gradient(135deg, #1a262b 0%, #0b1418 100%);
-    border: 1px solid rgba(255, 255, 255, 0.08);
-    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+        radial-gradient(120% 120% at 10% 10%, rgba(255, 255, 255, 0.15), transparent 55%),
+        linear-gradient(145deg, #1a2e33 0%, #0d1a1e 100%);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.2),
+        0 8px 24px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.logo:hover .logo-mark {
+    transform: translateY(-1px);
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.25),
+        0 12px 32px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.12);
 }
 
 .logo-mark svg {
-    width: 24px;
-    height: 24px;
+    width: 22px;
+    height: 22px;
 }
 
 .logo-text {
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    gap: 6px;
+    gap: 0;
 }
 
 .logo-title {
-    font-size: 1.15rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
     color: var(--text);
     line-height: 1;
 }
 
-.logo-sub {
-    font-size: 1.15rem;
-    letter-spacing: -0.01em;
-    text-transform: none;
+.logo-highlight {
     color: var(--accent-2);
-    font-weight: 400;
-    line-height: 1;
+    font-weight: 700;
 }
 
 /* =============================================

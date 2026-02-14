@@ -59,9 +59,20 @@
   background:
     radial-gradient(120% 120% at 20% 10%, rgba(255, 255, 255, 0.9), transparent 60%),
     linear-gradient(180deg, #f0e7db 0%, #e0d4c5 100%);
+  border-color: rgba(66, 82, 54, 0.08);
   box-shadow:
     0 0 0 1px rgba(66, 82, 54, 0.06),
     0 4px 16px rgba(45, 52, 40, 0.08);
+}
+
+:root[data-theme="light"] .logo:hover .logo-mark {
+  box-shadow:
+    0 0 0 1px rgba(66, 82, 54, 0.08),
+    0 6px 20px rgba(45, 52, 40, 0.1);
+}
+
+:root[data-theme="light"] .logo-highlight {
+  color: var(--accent);
 }
 
 /* Header buttons */

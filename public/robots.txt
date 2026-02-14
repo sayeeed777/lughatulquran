@@ -1,0 +1,12 @@
+# OpenFurqan — openfurqan.com
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*?surah=
+Disallow: /*?ayah=
+Disallow: /*?surah=*&ayah=
+
+# Yandex-specific: collapse query param variants
+Clean-param: surah&ayah /
+
+Sitemap: https://openfurqan.com/sitemap.xml

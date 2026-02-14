@@ -292,8 +292,7 @@ export default function Home() {
                     </svg>
                   </div>
                   <div className="logo-text">
-                    <p className="logo-title">Quran</p>
-                    <p className="logo-sub">Reader</p>
+                    <h1 className="logo-title">Open<span className="logo-highlight">Furqan</span></h1>
                   </div>
                 </div>
                 <div className="topbar-actions">

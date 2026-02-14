@@ -240,7 +240,7 @@ sw.addEventListener("push", /** @param {PushEvent} event */ (event) => {
       }
     };
     event.waitUntil(
-      sw.registration.showNotification(data.title || "Quran Reader", options)
+      sw.registration.showNotification(data.title || "OpenFurqan", options)
     );
   }
 });
