@@ -1,10 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState, useCallback, type KeyboardEvent as ReactKeyboardEvent } from "react";
-import type { Dispatch, SetStateAction } from "react";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { PRAYER_COUNTRIES, PRAYER_MADHABS, PRAYER_METHODS } from "../../lib/constants";
-import type { NextPrayerPreview, PrayerLocationOption, PrayerSettings } from "../../lib/types";
+import type { NextPrayerPreview, PrayerLocationOption } from "../../lib/types";
+import { usePreferences } from "../../contexts";
 
 /* ── Custom Select Dropdown ── */
 
@@ -206,10 +207,6 @@ function PrayerSelect({
 type PrayerPanelProps = {
   isOpen: boolean;
   onClose: () => void;
-  prayerSettings: PrayerSettings;
-  setPrayerSettings: Dispatch<SetStateAction<PrayerSettings>>;
-  nextPrayerPreview: NextPrayerPreview | null;
-  hasPrayerLocation: boolean;
 };
 
 type PrayerLocationSearchResponse = {
@@ -258,12 +255,9 @@ const isValidLocationOption = (value: unknown): value is PrayerLocationOption =>
 
 export default function PrayerPanel({
   isOpen,
-  onClose,
-  prayerSettings,
-  setPrayerSettings,
-  nextPrayerPreview,
-  hasPrayerLocation
+  onClose
 }: PrayerPanelProps) {
+  const { prayerSettings, setPrayerSettings, nextPrayerPreview, hasPrayerLocation } = usePreferences();
   const [cityInput, setCityInput] = useState("");
   const [isCityFocused, setIsCityFocused] = useState(false);
   const [highlightedCityIndex, setHighlightedCityIndex] = useState(-1);

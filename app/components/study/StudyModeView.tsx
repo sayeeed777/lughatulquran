@@ -8,14 +8,15 @@ import { ProgressRing, QuickPanel } from "./StudyComponents";
 import StudyMemorizeModal from "./StudyMemorizeModal";
 import StudyLexiconModals from "./StudyLexiconModals";
 import { TAJWEED_LEGEND, TAFSIR_EDITIONS } from "./StudyModeHelpers";
-import type { ArabicFont, MemorizeConfig, Reciter, WordBySurah } from "./StudyModeTypes";
-import StudyQuickPanelContent, { type QuickPanelTab } from "./StudyQuickPanelContent";
+import type { QuickPanelTab } from "./StudyQuickPanelContent";
+import StudyQuickPanelContent from "./StudyQuickPanelContent";
 import StudyAyahList from "./StudyAyahList";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
-import type { Ayah, ReadingPlan, Surah, SurahData } from "../../lib/types";
+import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
+import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
-import { useAudio, useBookmarkContext } from "../../contexts";
+import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences } from "../../contexts";
 import type { PlanSummary } from "../../hooks/home/useHomePlan";
 
 type RailItem = {
@@ -25,66 +26,44 @@ type RailItem = {
 };
 
 type StudyModeViewProps = {
-  selectedSurah: Surah | null;
-  surahData: SurahData | null;
-  filteredAyahs: Ayah[];
-  reciters: Reciter[];
   reciterId: string;
   setReciterId: (value: string) => void;
-  arabicFonts: ArabicFont[];
-  arabicFontId: string;
-  setArabicFontId: (value: string) => void;
-  selectedTranslations?: string[] | string;
-  readingPlan: ReadingPlan;
-  planSummary: PlanSummary;
-  focusedAyahKey: string | null;
-  setFocusedAyahKey: (value: string | null) => void;
-  fontScale: { arabic: number; translation: number };
-  setFontScale: (value: { arabic: number; translation: number } | ((prev: { arabic: number; translation: number }) => { arabic: number; translation: number })) => void;
   playbackRate: number;
   setPlaybackRate: (value: number) => void;
-  wordByAyah: WordBySurah;
-  wordLoading: boolean;
+  planSummary: PlanSummary;
   onExit: () => void;
-  memorizeConfig: MemorizeConfig;
-  setMemorizeConfig: (value: MemorizeConfig | ((prev: MemorizeConfig) => MemorizeConfig)) => void;
-  onStartMemorize: (config: { startAyah?: number; endAyah?: number; loops?: number }) => void;
-  onStopMemorize: () => void;
   onJumpToAyah: (surah: number, ayah: number) => void;
-  surahByNumber: Map<number, Surah>;
-  verseKey: (surah: number, ayah: number) => string;
-  clamp: (value: number, min: number, max: number) => number;
 };
 
 export default function StudyModeView({
-  selectedSurah,
-  surahData,
-  filteredAyahs,
-  reciters,
   reciterId,
   setReciterId,
-  arabicFonts,
-  arabicFontId,
-  setArabicFontId,
-  selectedTranslations = ["en.arberry"],
-  planSummary,
-  focusedAyahKey,
-  setFocusedAyahKey,
-  fontScale,
-  setFontScale,
   playbackRate,
   setPlaybackRate,
-  wordByAyah,
-  wordLoading,
+  planSummary,
   onExit,
-  memorizeConfig,
-  onStartMemorize,
-  onStopMemorize,
-  onJumpToAyah,
-  surahByNumber,
-  verseKey,
-  clamp
+  onJumpToAyah
 }: StudyModeViewProps) {
+  // Consume from contexts
+  const {
+    selectedSurah,
+    surahData,
+    filteredAyahs,
+    wordByAyah,
+    wordLoading,
+    surahByNumber
+  } = useQuranData();
+  const { focusedAyahKey, setFocusedAyahKey } = useUIState();
+  const {
+    arabicFontId,
+    setArabicFontId,
+    selectedTranslations,
+    fontScale,
+    setFontScale,
+    memorizeConfig,
+    startMemorize: onStartMemorize,
+    stopMemorize: onStopMemorize
+  } = usePreferences();
   const {
     nowPlaying,
     isAutoPlaying,
@@ -268,11 +247,11 @@ export default function StudyModeView({
 
   const isBookmarked = useCallback(
     (surah: number, ayah: number) => bookmarks?.includes(verseKey(surah, ayah)),
-    [bookmarks, verseKey]
+    [bookmarks]
   );
   const hasNote = useCallback(
     (surah: number, ayah: number) => notes?.[verseKey(surah, ayah)],
-    [notes, verseKey]
+    [notes]
   );
 
   const studyTypographyClasses = `${getArabicScaleClass(fontScale.arabic)} ${getTranslationScaleClass(
@@ -475,10 +454,10 @@ export default function StudyModeView({
           clamp={clamp}
           playbackRate={playbackRate}
           setPlaybackRate={setPlaybackRate}
-          arabicFonts={arabicFonts}
+          arabicFonts={ARABIC_FONTS}
           arabicFontId={arabicFontId}
           setArabicFontId={setArabicFontId}
-          reciters={reciters}
+          reciters={AUDIO_RECITERS}
           reciterId={reciterId}
           setReciterId={setReciterId}
           showTajweed={showTajweed}

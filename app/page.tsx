@@ -16,11 +16,18 @@ import {
   ThemeChooser,
   SettingsIcon
 } from "./components";
-import { AUDIO_RECITERS, ARABIC_FONTS, FONT_SCALE } from "./lib/constants";
-import { verseKey, clamp, getAudioUrl, getLocalDateString } from "./lib/utils";
+import { FONT_SCALE } from "./lib/constants";
+import { clamp, getAudioUrl } from "./lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "./lib/styleClasses";
 import { useHomeController } from "./hooks/useHomeController";
-import { ThemeProvider, AudioProvider, BookmarkProvider } from "./contexts";
+import {
+  ThemeProvider,
+  AudioProvider,
+  BookmarkProvider,
+  QuranDataProvider,
+  UIStateProvider,
+  PreferencesProvider
+} from "./contexts";
 
 export default function Home() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
@@ -38,6 +45,9 @@ export default function Home() {
     return (
       <ErrorBoundary>
         <ThemeProvider theme={preferences.theme} isLightTheme={preferences.isLightTheme} setTheme={preferences.setTheme}>
+        <QuranDataProvider {...data}>
+        <PreferencesProvider {...preferences}>
+        <UIStateProvider {...ui}>
         <BookmarkProvider
           bookmarks={bookmarks.bookmarks}
           notes={bookmarks.notes}
@@ -65,46 +75,20 @@ export default function Home() {
             handleToggleAyah={audio.handleToggleAyah}
           >
             <StudyModeView
-              selectedSurah={data.selectedSurah}
-              surahData={data.surahData}
-              filteredAyahs={data.filteredAyahs}
-              reciters={AUDIO_RECITERS}
               reciterId={audio.reciterId}
               setReciterId={audio.setReciterId}
-              arabicFonts={ARABIC_FONTS}
-              arabicFontId={preferences.arabicFontId}
-              setArabicFontId={preferences.setArabicFontId}
-              selectedTranslations={preferences.selectedTranslations}
-              readingPlan={preferences.readingPlan}
-              planSummary={actions.planSummary}
-              focusedAyahKey={ui.focusedAyahKey}
-              setFocusedAyahKey={ui.setFocusedAyahKey}
-              fontScale={preferences.fontScale}
-              setFontScale={preferences.setFontScale}
               playbackRate={audio.playbackRate}
               setPlaybackRate={audio.setPlaybackRate}
-              wordByAyah={data.wordByAyah}
-              wordLoading={data.wordLoading}
+              planSummary={actions.planSummary}
               onExit={() => ui.setReadingMode(false)}
-              memorizeConfig={preferences.memorizeConfig}
-              setMemorizeConfig={preferences.setMemorizeConfig}
-              onStartMemorize={preferences.startMemorize}
-              onStopMemorize={preferences.stopMemorize}
               onJumpToAyah={actions.jumpToAyah}
-              surahByNumber={data.surahByNumber}
-              verseKey={verseKey}
-              clamp={clamp}
             />
-            <NoteModal
-              noteTarget={bookmarks.noteTarget}
-              noteDraft={bookmarks.noteDraft}
-              setNoteDraft={bookmarks.setNoteDraft}
-              surahByNumber={data.surahByNumber}
-              onSave={bookmarks.saveNote}
-              onClose={bookmarks.closeNote}
-            />
+            <NoteModal />
           </AudioProvider>
         </BookmarkProvider>
+        </UIStateProvider>
+        </PreferencesProvider>
+        </QuranDataProvider>
         </ThemeProvider>
       </ErrorBoundary>
     );
@@ -151,6 +135,9 @@ export default function Home() {
   return (
     <ErrorBoundary>
       <ThemeProvider theme={preferences.theme} isLightTheme={preferences.isLightTheme} setTheme={preferences.setTheme}>
+        <QuranDataProvider {...data}>
+        <PreferencesProvider {...preferences}>
+        <UIStateProvider {...ui}>
         <BookmarkProvider
           bookmarks={bookmarks.bookmarks}
           notes={bookmarks.notes}
@@ -253,66 +240,21 @@ export default function Home() {
 
                 <SectionErrorBoundary title="Reader unavailable">
                   <ReaderPanel
-                    selectedSurah={data.selectedSurah}
-                    surahData={data.surahData}
-                    filteredAyahs={data.filteredAyahs}
-                    surahs={data.surahs}
-                    filteredSurahs={data.filteredSurahs}
-                    query={ui.query}
-                    setQuery={ui.setQuery}
-                    reciters={AUDIO_RECITERS}
                     reciterId={audio.reciterId}
                     setReciterId={audio.setReciterId}
-                    arabicFonts={ARABIC_FONTS}
-                    arabicFontId={preferences.arabicFontId}
-                    setArabicFontId={preferences.setArabicFontId}
-                    selectedTranslations={preferences.selectedTranslations}
-                    setSelectedTranslations={preferences.setSelectedTranslations}
-                    ayahQuery={ui.ayahQuery}
-                    setAyahQuery={ui.setAyahQuery}
-                    goToAyahInput={ui.goToAyahInput}
-                    setGoToAyahInput={ui.setGoToAyahInput}
                     handleGoToAyah={actions.handleGoToAyah}
-                    showWordByWord={preferences.showWordByWord}
-                    setShowWordByWord={preferences.setShowWordByWord}
-                    showMobileSettings={ui.showMobileSettings}
-                    setShowMobileSettings={ui.setShowMobileSettings}
-                    showMobileSearch={ui.showMobileSearch}
-                    setShowMobileSearch={ui.setShowMobileSearch}
-                    settingsTab={ui.settingsTab}
-                    setSettingsTab={ui.setSettingsTab}
-                    wordLoading={data.wordLoading}
-                    wordError={data.wordError}
-                    wordByAyah={data.wordByAyah}
-                    fontScale={preferences.fontScale}
-                    setFontScale={preferences.setFontScale}
-                    focusedAyahKey={ui.focusedAyahKey}
-                    setFocusedAyahKey={ui.setFocusedAyahKey}
-                    prayerSettings={preferences.prayerSettings}
-                    setPrayerSettings={preferences.setPrayerSettings}
-                    nextPrayerPreview={preferences.nextPrayerPreview}
-                    hasPrayerLocation={preferences.hasPrayerLocation}
-                    error={data.surahDataError}
                     onRetry={actions.retryData}
-                    loadingSurahData={data.loadingSurahData}
                     onCompare={actions.handleCompare}
                     onCopyLink={actions.copyAyahLink}
                     onSelectSurah={actions.handleSelectSurah}
-                    verseKey={verseKey}
-                    clamp={clamp}
                   />
                 </SectionErrorBoundary>
 
                 <SectionErrorBoundary title="Study panel unavailable">
                   <StudyPanel
-                    surahs={data.surahs}
-                    surahByNumber={data.surahByNumber}
-                    readingPlan={preferences.readingPlan}
-                    setReadingPlan={preferences.setReadingPlan}
                     planSummary={actions.planSummary}
                     onJumpToAyah={actions.jumpToAyah}
                     formatRangeLabel={actions.formatRangeLabel}
-                    getLocalDateString={getLocalDateString}
                     continueSession={continueSession}
                     onContinueSession={handleContinueSession}
                   />
@@ -320,38 +262,23 @@ export default function Home() {
               </section>
 
               <CompareModal
-                selectedAyah={ui.selectedAyah}
-                selectedSurah={data.selectedSurah}
-                selectedAyahKey={
-                  data.selectedSurah && ui.selectedAyah ? `${data.selectedSurah.number}:${ui.selectedAyah.number}` : null
-                }
-                taqiCache={data.taqiCache}
-                taqiLoading={data.taqiLoading}
                 onClose={() => ui.setSelectedAyah(null)}
               />
 
-              <NoteModal
-                noteTarget={bookmarks.noteTarget}
-                noteDraft={bookmarks.noteDraft}
-                setNoteDraft={bookmarks.setNoteDraft}
-                surahByNumber={data.surahByNumber}
-                onSave={bookmarks.saveNote}
-                onClose={bookmarks.closeNote}
-              />
+              <NoteModal />
 
               <PrayerPanel
                 isOpen={isPrayerPanelOpen}
                 onClose={() => setIsPrayerPanelOpen(false)}
-                prayerSettings={preferences.prayerSettings}
-                setPrayerSettings={preferences.setPrayerSettings}
-                nextPrayerPreview={preferences.nextPrayerPreview}
-                hasPrayerLocation={preferences.hasPrayerLocation}
               />
 
               <KeyboardShortcutsHelp isOpen={ui.showShortcuts} onClose={() => ui.setShowShortcuts(false)} />
             </main>
           </AudioProvider>
         </BookmarkProvider>
+        </UIStateProvider>
+        </PreferencesProvider>
+        </QuranDataProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );

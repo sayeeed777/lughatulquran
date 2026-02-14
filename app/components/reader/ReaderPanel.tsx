@@ -1,129 +1,78 @@
 "use client";
 
 import { useMemo, useState, useEffect, useRef } from "react";
-import type {
-  Ayah,
-  Surah,
-  SurahData,
-  WordBySurah,
-  FontScale,
-  Reciter,
-  ArabicFont,
-  SetState,
-  PrayerSettings,
-  NextPrayerPreview,
-  SettingsTabId
-} from "../../lib/types";
+import type { Ayah, Surah } from "../../lib/types";
 import AyahCard from "./AyahCard";
 import { AudioPlayer, ProgressBar, BackToTop, InlineError } from "../common";
 import BismillahBanner from "./BismillahBanner";
 import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
-import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS } from "../../lib/constants";
-import { useAudio, useBookmarkContext } from "../../contexts";
-
-type SurahDataSummary = Pick<SurahData, "ayahs">;
-
+import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
+import { verseKey, clamp } from "../../lib/utils";
+import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences } from "../../contexts";
 
 type ReaderPanelProps = {
-  selectedSurah: Surah | null;
-  surahData: SurahDataSummary | null;
-  filteredAyahs: Ayah[];
-  surahs: Surah[];
-  filteredSurahs: Surah[];
-  query?: string;
-  setQuery?: SetState<string>;
-  reciters?: Reciter[];
   reciterId: string;
-  setReciterId: SetState<string>;
-  arabicFonts: ArabicFont[];
-  arabicFontId: string;
-  setArabicFontId: SetState<string>;
-  selectedTranslations: string[];
-  setSelectedTranslations: SetState<string[]>;
-  ayahQuery: string;
-  setAyahQuery: SetState<string>;
-  goToAyahInput: string;
-  setGoToAyahInput: SetState<string>;
+  setReciterId: (value: string | ((prev: string) => string)) => void;
   handleGoToAyah: () => void;
-  showWordByWord: boolean;
-  setShowWordByWord: SetState<boolean>;
-  showMobileSettings?: boolean;
-  setShowMobileSettings?: SetState<boolean>;
-  showMobileSearch?: boolean;
-  setShowMobileSearch?: SetState<boolean>;
-  settingsTab: SettingsTabId;
-  setSettingsTab: SetState<SettingsTabId>;
-  wordLoading: boolean;
-  wordError: string | null;
-  wordByAyah: WordBySurah;
-  fontScale: FontScale;
-  setFontScale: SetState<FontScale>;
-  focusedAyahKey: string | null;
-  setFocusedAyahKey: SetState<string | null>;
-  prayerSettings: PrayerSettings;
-  setPrayerSettings: SetState<PrayerSettings>;
-  nextPrayerPreview: NextPrayerPreview | null;
-  hasPrayerLocation: boolean;
-  error: string | null;
   onRetry: () => void;
-  loadingSurahData: boolean;
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
   onSelectSurah?: (surah: Surah) => void;
-  verseKey: (surah: number, ayah: number) => string;
-  clamp: (value: number, min: number, max: number) => number;
 };
 
 export default function ReaderPanel({
-  selectedSurah,
-  surahData,
-  filteredAyahs,
-  surahs,
-  filteredSurahs,
-  query,
-  setQuery,
-  reciters,
   reciterId,
   setReciterId,
-  arabicFonts,
-  arabicFontId,
-  setArabicFontId,
-  selectedTranslations,
-  setSelectedTranslations,
-  ayahQuery,
-  setAyahQuery,
-  goToAyahInput,
-  setGoToAyahInput,
   handleGoToAyah,
-  showWordByWord,
-  setShowWordByWord,
-  showMobileSettings,
-  setShowMobileSettings,
-  showMobileSearch,
-  setShowMobileSearch,
-  settingsTab,
-  setSettingsTab,
-  wordLoading,
-  wordError,
-  wordByAyah,
-  fontScale,
-  setFontScale,
-  focusedAyahKey,
-  setFocusedAyahKey,
-  prayerSettings,
-  setPrayerSettings,
-  nextPrayerPreview,
-  hasPrayerLocation,
-  error,
   onRetry,
-  loadingSurahData,
   onCompare,
   onCopyLink,
-  onSelectSurah,
-  verseKey,
-  clamp
+  onSelectSurah
 }: ReaderPanelProps) {
+  // Consume from contexts
+  const {
+    selectedSurah,
+    surahData,
+    filteredAyahs,
+    surahs,
+    filteredSurahs,
+    wordByAyah,
+    wordLoading,
+    wordError,
+    loadingSurahData,
+    surahDataError: error
+  } = useQuranData();
+  const {
+    query,
+    setQuery,
+    ayahQuery,
+    setAyahQuery,
+    goToAyahInput,
+    setGoToAyahInput,
+    showMobileSettings,
+    setShowMobileSettings,
+    showMobileSearch,
+    setShowMobileSearch,
+    settingsTab,
+    setSettingsTab,
+    focusedAyahKey,
+    setFocusedAyahKey
+  } = useUIState();
+  const {
+    arabicFontId,
+    setArabicFontId,
+    selectedTranslations,
+    setSelectedTranslations,
+    showWordByWord,
+    setShowWordByWord,
+    fontScale,
+    setFontScale,
+    prayerSettings,
+    setPrayerSettings,
+    nextPrayerPreview,
+    hasPrayerLocation
+  } = usePreferences();
   const {
     nowPlaying,
     isAutoPlaying,
@@ -173,12 +122,10 @@ export default function ReaderPanel({
     setVisibleCount(Math.min(filteredAyahs.length, targetCount));
   }, [selectedSurah?.number, filteredAyahs.length, focusedAyahKey, isMobileViewport]);
 
-  const [localShowMobileSettings, setLocalShowMobileSettings] = useState(false);
-  const [localShowMobileSearch, setLocalShowMobileSearch] = useState(false);
-  const isMobileSettingsOpen = showMobileSettings ?? localShowMobileSettings;
-  const isMobileSearchOpen = showMobileSearch ?? localShowMobileSearch;
-  const openMobileSettings = setShowMobileSettings ?? setLocalShowMobileSettings;
-  const openMobileSearch = setShowMobileSearch ?? setLocalShowMobileSearch;
+  const isMobileSettingsOpen = showMobileSettings;
+  const isMobileSearchOpen = showMobileSearch;
+  const openMobileSettings = setShowMobileSettings;
+  const openMobileSearch = setShowMobileSearch;
   const currentAyahNumber = useMemo(() => {
     if (!selectedSurah || !filteredAyahs?.length) return 0;
 
@@ -320,10 +267,10 @@ export default function ReaderPanel({
         setSelectedTranslations={setSelectedTranslations}
         fontScale={fontScale}
         setFontScale={setFontScale}
-        reciters={reciters || AUDIO_RECITERS}
+        reciters={AUDIO_RECITERS}
         reciterId={reciterId}
         setReciterId={setReciterId}
-        arabicFonts={arabicFonts}
+        arabicFonts={ARABIC_FONTS}
         arabicFontId={arabicFontId}
         setArabicFontId={setArabicFontId}
         prayerSettings={prayerSettings}

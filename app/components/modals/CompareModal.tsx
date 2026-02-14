@@ -1,25 +1,19 @@
 "use client";
 
-import type { Ayah, Surah } from "../../lib/types";
 import { ALL_TRANSLATIONS } from "../../lib/constants";
+import { useQuranData, useUIState } from "../../contexts";
 
 type CompareModalProps = {
-  selectedAyah: Ayah | null;
-  selectedSurah: Surah | null;
-  selectedAyahKey: string | null;
-  taqiCache: Record<string, string>;
-  taqiLoading: Record<string, boolean>;
   onClose: () => void;
 };
 
 export default function CompareModal({
-  selectedAyah,
-  selectedSurah,
-  selectedAyahKey,
-  taqiCache,
-  taqiLoading,
   onClose
 }: CompareModalProps) {
+  const { selectedSurah, taqiCache, taqiLoading } = useQuranData();
+  const { selectedAyah } = useUIState();
+  const selectedAyahKey =
+    selectedSurah && selectedAyah ? `${selectedSurah.number}:${selectedAyah.number}` : null;
   if (!selectedAyah || !selectedSurah) {
     return null;
   }

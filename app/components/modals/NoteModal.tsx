@@ -1,31 +1,10 @@
 "use client";
 
-import type { Dispatch, SetStateAction } from "react";
-import type { Surah } from "../../lib/types";
+import { useBookmarkContext, useQuranData } from "../../contexts";
 
-type NoteTarget = {
-  surah: number;
-  ayah: number;
-  key: string;
-} | null;
-
-type NoteModalProps = {
-  noteTarget: NoteTarget;
-  noteDraft: string;
-  setNoteDraft: Dispatch<SetStateAction<string>>;
-  surahByNumber: Map<number, Surah>;
-  onClose: () => void;
-  onSave: () => void;
-};
-
-export default function NoteModal({
-  noteTarget,
-  noteDraft,
-  setNoteDraft,
-  surahByNumber,
-  onClose,
-  onSave
-}: NoteModalProps) {
+export default function NoteModal() {
+  const { noteTarget, noteDraft, setNoteDraft, saveNote: onSave, closeNote: onClose } = useBookmarkContext();
+  const { surahByNumber } = useQuranData();
   if (!noteTarget) {
     return null;
   }
