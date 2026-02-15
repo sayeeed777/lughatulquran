@@ -1,10 +1,23 @@
 import { notFound } from "next/navigation";
-import { SURAH_BY_SLUG, SURAHS } from "../../data/surahs";
+import Link from "next/link";
+import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../data/surahs";
 import type { Metadata } from "next";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
+
+type QuranText = Record<string, Record<string, { ar: string; en: string }>>;
+
+let quranText: QuranText | null = null;
+function getQuranText(): QuranText {
+  if (!quranText) {
+    quranText = require("../../data/quran-text.json") as QuranText;
+  }
+  return quranText;
+}
+
+const PREVIEW_COUNT = 5;
 
 export async function generateStaticParams() {
   return SURAHS.map((s) => ({ slug: s.slug }));
@@ -15,8 +28,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) return {};
 
+  const text = getQuranText();
+  const firstVerse = text[String(surah.number)]?.["1"];
+  const snippet = firstVerse?.en ? firstVerse.en.slice(0, 120) : "";
+
   const title = `Surah ${surah.englishName} (${surah.arabicName}) — ${surah.translation} | OpenFurqan`;
-  const description = `Read Surah ${surah.englishName} (${surah.translation}) with English translations. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Multiple translations including Sahih International, Yusuf Ali, Pickthall & more.`;
+  const description = snippet
+    ? `"${snippet}${firstVerse!.en.length > 120 ? "..." : ""}" — Read all ${surah.ayahCount} ayahs of Surah ${surah.englishName} with Arabic text, English translation, audio & tafsir.`
+    : `Read Surah ${surah.englishName} (${surah.translation}) with English translations. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Multiple translations including Sahih International, Yusuf Ali, Pickthall & more.`;
 
   return {
     title,
@@ -33,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article"
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title: `Surah ${surah.englishName} — ${surah.translation}`,
       description
     }
@@ -45,6 +64,19 @@ export default async function SurahPage({ params }: Props) {
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) notFound();
 
+  const text = getQuranText();
+  const surahText = text[String(surah.number)] || {};
+
+  // Get preview verses (first N)
+  const previewVerses = [];
+  for (let i = 1; i <= Math.min(PREVIEW_COUNT, surah.ayahCount); i++) {
+    const v = surahText[String(i)];
+    if (v) previewVerses.push({ num: i, ...v });
+  }
+
+  const prevSurah = surah.number > 1 ? SURAH_BY_NUMBER.get(surah.number - 1) : null;
+  const nextSurah = surah.number < 114 ? SURAH_BY_NUMBER.get(surah.number + 1) : null;
+
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -54,7 +86,7 @@ export default async function SurahPage({ params }: Props) {
     ]
   };
 
-  const creativeWorkJsonLd = {
+  const chapterJsonLd = {
     "@context": "https://schema.org",
     "@type": "Chapter",
     name: `Surah ${surah.englishName}`,
@@ -62,6 +94,7 @@ export default async function SurahPage({ params }: Props) {
     description: `${surah.translation} — ${surah.ayahCount} ayahs, ${surah.revelationType} surah`,
     position: surah.number,
     url: `https://openfurqan.com/surah/${slug}`,
+    datePublished: "2025-06-01",
     isPartOf: {
       "@type": "Book",
       name: "The Holy Quran",
@@ -76,11 +109,92 @@ export default async function SurahPage({ params }: Props) {
   };
 
   return (
-    <>
+    <div className="seo-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(creativeWorkJsonLd) }} />
-      <meta httpEquiv="refresh" content={`0;url=/?surah=${surah.number}`} />
-      <p>Redirecting to Surah {surah.englishName}...</p>
-    </>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterJsonLd) }} />
+
+      <div className="seo-container">
+        {/* Header */}
+        <header className="seo-header">
+          <div className="seo-surah-badge">
+            <span>{surah.revelationType}</span>
+            <span className="seo-meta-dot">&middot;</span>
+            <span>Surah {surah.number}</span>
+          </div>
+          <h2 className="seo-arabic-title">{surah.arabicName}</h2>
+          <h1 className="seo-english-title">Surah {surah.englishName}</h1>
+          <p className="seo-translation">{surah.translation}</p>
+          <div className="seo-meta">
+            <span>{surah.ayahCount} Ayahs</span>
+            <span className="seo-meta-dot">&middot;</span>
+            <span>{surah.revelationType}</span>
+          </div>
+        </header>
+
+        {/* Preview Verses */}
+        <section>
+          {previewVerses.map((v) => (
+            <article key={v.num} className="seo-verse">
+              <div className="seo-verse-ref">
+                <Link href={`/surah/${slug}/${v.num}`}>{surah.number}:{v.num}</Link>
+              </div>
+              <p className="seo-verse-arabic">{v.ar}</p>
+              <p className="seo-verse-english">{v.en}</p>
+            </article>
+          ))}
+        </section>
+
+        {/* CTA */}
+        <div className="seo-cta-section">
+          <Link href={`/?surah=${surah.number}`} className="seo-cta">
+            Read Full Surah with Audio &rarr;
+          </Link>
+        </div>
+
+        {/* All Ayah Links */}
+        <section>
+          <h2 style={{ fontSize: "0.875rem", fontWeight: 600, color: "#7a8290", marginBottom: 12, letterSpacing: "0.04em", textTransform: "uppercase" as const }}>
+            All {surah.ayahCount} Ayahs
+          </h2>
+          <div className="seo-ayah-grid">
+            {Array.from({ length: surah.ayahCount }, (_, i) => i + 1).map((n) => (
+              <Link key={n} href={`/surah/${slug}/${n}`} className="seo-ayah-link">
+                {n}
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Navigation */}
+        <nav className="seo-nav" style={{ marginTop: 32 }}>
+          {prevSurah ? (
+            <Link href={`/surah/${prevSurah.slug}`}>
+              &larr; {prevSurah.englishName}
+            </Link>
+          ) : (
+            <span className="seo-nav-disabled">&nbsp;</span>
+          )}
+
+          <Link href="/">
+            All Surahs
+          </Link>
+
+          {nextSurah ? (
+            <Link href={`/surah/${nextSurah.slug}`}>
+              {nextSurah.englishName} &rarr;
+            </Link>
+          ) : (
+            <span className="seo-nav-disabled">&nbsp;</span>
+          )}
+        </nav>
+
+        {/* Footer */}
+        <footer className="seo-footer">
+          <p>
+            <Link href="/">OpenFurqan</Link> — Read the Quran with translations, audio & study tools.
+          </p>
+        </footer>
+      </div>
+    </div>
   );
 }

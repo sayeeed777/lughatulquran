@@ -1,0 +1,207 @@
+/* ============================================
+   SEO Landing Pages — Surah & Ayah
+   Clean, fast, crawlable verse pages
+   ============================================ */
+
+.seo-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0e1418 0%, #0a0f12 100%);
+  color: #f2eee6;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seo-container {
+  width: 100%;
+  max-width: 720px;
+  padding: 48px 24px 64px;
+}
+
+/* ---- Header ---- */
+.seo-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.seo-surah-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  border-radius: 100px;
+  background: rgba(216, 179, 106, 0.08);
+  color: #d8b36a;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.seo-arabic-title {
+  font-size: 2.5rem;
+  color: rgba(242, 238, 230, 0.2);
+  margin: 0 0 8px;
+  direction: rtl;
+  line-height: 1.4;
+}
+
+.seo-english-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #f2eee6;
+  letter-spacing: -0.02em;
+  margin: 0 0 8px;
+}
+
+.seo-translation {
+  font-size: 1.0625rem;
+  color: #d8b36a;
+  margin: 0 0 16px;
+}
+
+.seo-meta {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-size: 0.8125rem;
+  color: #7a8290;
+}
+
+.seo-meta-dot {
+  color: rgba(255, 255, 255, 0.15);
+}
+
+/* ---- Verse Block ---- */
+.seo-verse {
+  margin-bottom: 32px;
+  padding: 24px 0;
+}
+
+.seo-verse + .seo-verse {
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.seo-verse-ref {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #d8b36a;
+  margin-bottom: 16px;
+  letter-spacing: 0.03em;
+}
+
+.seo-verse-arabic {
+  font-size: 1.75rem;
+  line-height: 2;
+  direction: rtl;
+  text-align: right;
+  color: #f2eee6;
+  margin-bottom: 16px;
+  font-family: "KFGQPC Uthmanic Script HAFS", "Scheherazade New", "Traditional Arabic", serif;
+}
+
+.seo-verse-english {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: #a8b0ba;
+}
+
+/* ---- CTA Button ---- */
+.seo-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(216, 179, 106, 0.15), rgba(216, 179, 106, 0.08));
+  border: 1px solid rgba(216, 179, 106, 0.2);
+  color: #d8b36a;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.seo-cta:hover {
+  background: linear-gradient(135deg, rgba(216, 179, 106, 0.22), rgba(216, 179, 106, 0.12));
+  border-color: rgba(216, 179, 106, 0.35);
+}
+
+.seo-cta-section {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+/* ---- Navigation ---- */
+.seo-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.seo-nav a {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: #6fd4b1;
+  text-decoration: none;
+  padding: 8px 0;
+  transition: opacity 0.15s;
+}
+
+.seo-nav a:hover {
+  opacity: 0.7;
+}
+
+.seo-nav-disabled {
+  visibility: hidden;
+}
+
+/* ---- Ayah Links Grid (surah page) ---- */
+.seo-ayah-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.seo-ayah-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.04);
+  color: #a8b0ba;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-variant-numeric: tabular-nums;
+  transition: background 0.15s;
+}
+
+.seo-ayah-link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #f2eee6;
+}
+
+/* ---- Footer ---- */
+.seo-footer {
+  text-align: center;
+  padding-top: 32px;
+  margin-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.75rem;
+  color: #4a5568;
+}
+
+.seo-footer a {
+  color: #7a8290;
+  text-decoration: none;
+}
