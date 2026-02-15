@@ -35,6 +35,9 @@ coverage/
 # Next.js
 next-env.d.ts
 
+# npm debug logs (accidental local folder)
+~/.npm/
+
 # Claude Code
 .claude/
 session-*.md
