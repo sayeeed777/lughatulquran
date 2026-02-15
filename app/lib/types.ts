@@ -146,6 +146,25 @@ export type WordByAyah = Record<number, Word[]>;
 export type WordBySurah = Record<number, WordByAyah>;
 
 // =============================================
+// Reading stats & history
+// =============================================
+
+export type DailyReading = {
+  date: string;
+  versesRead: number;
+  minutesRead: number;
+  surahsVisited: number[];
+};
+
+export type ReadingStats = {
+  history: DailyReading[];
+  currentStreak: number;
+  longestStreak: number;
+  totalVersesRead: number;
+  surahProgress: Record<number, number[]>;
+};
+
+// =============================================
 // Study session
 // =============================================
 

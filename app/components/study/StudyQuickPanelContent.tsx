@@ -1,8 +1,9 @@
 "use client";
 
-import { ProgressBar } from "../common";
-import { StatCard } from "./StudyComponents";
+import { useMemo, useState } from "react";
 import StudyQuickNotesSection from "./StudyQuickNotesSection";
+import { SURAH_AYAH_COUNTS } from "../../lib/constants";
+import type { DailyReading } from "../../lib/types";
 
 type QuickPanelTab = "study" | "tool" | "tafsir" | "search" | "notes";
 
@@ -125,6 +126,12 @@ type StudyQuickPanelContentProps = {
   searchError: string | null;
   searchResults: SearchResult[];
   onOpenNote: (surah: number, ayah: number) => void;
+  todayVersesRead: number;
+  weekTotal: number;
+  currentStreak: number;
+  longestStreak: number;
+  weeklyData: DailyReading[];
+  surahProgress: Record<number, number[]>;
 };
 
 export default function StudyQuickPanelContent({
@@ -186,102 +193,36 @@ export default function StudyQuickPanelContent({
   searchLoading,
   searchError,
   searchResults,
-  onOpenNote
+  onOpenNote,
+  todayVersesRead,
+  weekTotal,
+  currentStreak,
+  longestStreak,
+  weeklyData,
+  surahProgress
 }: StudyQuickPanelContentProps) {
   if (tab === "study") {
     return (
-      <div className="quick-panel-section">
-        <div className="study-card">
-          <h4>Overview</h4>
-          <div className="quick-stats-grid">
-            <StatCard
-              label="Reading Time"
-              value={formatTime(readingTime)}
-              icon={
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M12 6v6l4 2" />
-                </svg>
-              }
-              tone="accent"
-            />
-            <StatCard
-              label="Progress"
-              value={`${progress}%`}
-              icon={
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
-                  <path d="M22 4L12 14.01l-3-3" />
-                </svg>
-              }
-              tone="accent-2"
-            />
-            <StatCard
-              label="Bookmarks"
-              value={sortedBookmarks?.length || 0}
-              icon={
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
-                </svg>
-              }
-              tone="amber"
-            />
-            <StatCard
-              label="Notes"
-              value={sortedNotes?.length || 0}
-              icon={
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                  <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                </svg>
-              }
-              tone="violet"
-            />
-          </div>
-        </div>
-
-        <div className="study-card quick-goal">
-          <h4>Daily Goal</h4>
-          <div className="goal-controls">
-            <label className="goal-label">Ayahs per day</label>
-            <input
-              type="number"
-              min={1}
-              max={200}
-              value={goalTarget}
-              onChange={(event) => setGoalPerDay(Number(event.target.value) || 1)}
-            />
-          </div>
-          <ProgressBar
-            current={goalProgress}
-            total={goalTarget}
-            label={`${goalProgress}/${goalTarget} ayahs`}
-          />
-        </div>
-
-        {planSummary && !("completed" in planSummary) && !("error" in planSummary) && (
-          <div className="study-card quick-plan-today">
-            <h4>Today's Plan</h4>
-            <p className="plan-range-text">
-              {planSummary.startVerse && planSummary.endVerse
-                ? `${surahByNumber?.get(planSummary.startVerse.surah)?.englishName || "Surah"} ${planSummary.startVerse.ayah} - ${surahByNumber?.get(planSummary.endVerse.surah)?.englishName || "Surah"} ${planSummary.endVerse.ayah}`
-                : "Set up your reading plan"}
-            </p>
-            {planSummary.startVerse && (
-              <button
-                className="plan-jump-btn"
-                onClick={() => {
-                  onJumpToAyah(planSummary.startVerse!.surah, planSummary.startVerse!.ayah);
-                  onClosePanel();
-                }}
-                type="button"
-              >
-                Start Reading
-              </button>
-            )}
-          </div>
-        )}
-      </div>
+      <StudyTabContent
+        readingTime={readingTime}
+        progress={progress}
+        sortedBookmarks={sortedBookmarks}
+        sortedNotes={sortedNotes}
+        goalTarget={goalTarget}
+        goalProgress={goalProgress}
+        setGoalPerDay={setGoalPerDay}
+        planSummary={planSummary}
+        surahByNumber={surahByNumber}
+        onJumpToAyah={onJumpToAyah}
+        onClosePanel={onClosePanel}
+        formatTime={formatTime}
+        todayVersesRead={todayVersesRead}
+        weekTotal={weekTotal}
+        currentStreak={currentStreak}
+        longestStreak={longestStreak}
+        weeklyData={weeklyData}
+        surahProgress={surahProgress}
+      />
     );
   }
 
@@ -744,6 +685,324 @@ export default function StudyQuickPanelContent({
   }
 
   return null;
+}
+
+/* =============================================
+   STUDY TAB — Apple HIG-aligned design
+   ============================================= */
+
+const DAY_LABELS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function getLocalDateString() {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+/* #3 — Polished bar chart with rounded bars + visible empty track */
+function WeeklyChart({ data }: { data: DailyReading[] }) {
+  const maxVerses = Math.max(...data.map((d) => d.versesRead), 1);
+  const today = getLocalDateString();
+
+  return (
+    <div className="qp-weekly-chart">
+      <div className="qp-weekly-bars">
+        {data.map((day) => {
+          const height = day.versesRead > 0 ? Math.max((day.versesRead / maxVerses) * 100, 6) : 0;
+          const dayOfWeek = new Date(day.date + "T12:00:00").getDay();
+          const isToday = day.date === today;
+          return (
+            <div key={day.date} className={`qp-bar-col${isToday ? " today" : ""}`}>
+              <span className="qp-bar-value">{day.versesRead || ""}</span>
+              <div className="qp-bar-track">
+                <div className="qp-bar-fill" style={{ height: `${height}%` }} />
+              </div>
+              <span className="qp-bar-label">{DAY_LABELS[dayOfWeek]}</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function MiniRing({ progress, size = 34 }: { progress: number; size?: number }) {
+  const sw = 3.5;
+  const r = (size - sw) / 2;
+  const c = r * 2 * Math.PI;
+  const offset = c - (Math.min(progress, 100) / 100) * c;
+  const center = size / 2;
+  return (
+    <svg width={size} height={size} className="qp-mini-ring">
+      <circle className="qp-ring-bg" strokeWidth={sw} fill="transparent" r={r} cx={center} cy={center} />
+      <circle
+        className="qp-ring-fill"
+        strokeWidth={sw}
+        strokeLinecap="round"
+        fill="transparent"
+        r={r}
+        cx={center}
+        cy={center}
+        strokeDasharray={c}
+        strokeDashoffset={offset}
+        transform={`rotate(-90 ${center} ${center})`}
+      />
+    </svg>
+  );
+}
+
+/* #7 — Apple-style stepper (- value +) instead of raw number input */
+function Stepper({ value, min, max, onChange }: { value: number; min: number; max: number; onChange: (v: number) => void }) {
+  return (
+    <div className="qp-stepper">
+      <button
+        className="qp-stepper-btn"
+        type="button"
+        onClick={() => onChange(Math.max(min, value - 1))}
+        disabled={value <= min}
+        aria-label="Decrease"
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+          <path d="M5 12h14" />
+        </svg>
+      </button>
+      <span className="qp-stepper-value">{value}</span>
+      <button
+        className="qp-stepper-btn"
+        type="button"
+        onClick={() => onChange(Math.min(max, value + 1))}
+        disabled={value >= max}
+        aria-label="Increase"
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+          <path d="M12 5v14M5 12h14" />
+        </svg>
+      </button>
+    </div>
+  );
+}
+
+type StudyTabProps = {
+  readingTime: number;
+  progress: number;
+  sortedBookmarks: string[];
+  sortedNotes: SortedNote[];
+  goalTarget: number;
+  goalProgress: number;
+  setGoalPerDay: (value: number) => void;
+  planSummary: PlanSummary;
+  surahByNumber: Map<number, { englishName: string }>;
+  onJumpToAyah: (surah: number, ayah: number) => void;
+  onClosePanel: () => void;
+  formatTime: (seconds: number) => string;
+  todayVersesRead: number;
+  weekTotal: number;
+  currentStreak: number;
+  longestStreak: number;
+  weeklyData: DailyReading[];
+  surahProgress: Record<number, number[]>;
+};
+
+function StudyTabContent({
+  readingTime,
+  progress,
+  goalTarget,
+  goalProgress,
+  setGoalPerDay,
+  planSummary,
+  surahByNumber,
+  onJumpToAyah,
+  onClosePanel,
+  formatTime,
+  todayVersesRead,
+  weekTotal,
+  currentStreak,
+  longestStreak,
+  weeklyData,
+  surahProgress
+}: StudyTabProps) {
+  const [showAllSurahs, setShowAllSurahs] = useState(false);
+
+  const surahEntries = useMemo(() => {
+    const items: { number: number; name: string; total: number; read: number; pct: number }[] = [];
+    for (const [numStr, ayahs] of Object.entries(surahProgress)) {
+      const num = Number(numStr);
+      const surah = surahByNumber.get(num);
+      if (!surah || !ayahs.length) continue;
+      const total = SURAH_AYAH_COUNTS[num - 1] || 0;
+      if (!total) continue;
+      const read = new Set(ayahs).size;
+      items.push({ number: num, name: surah.englishName, total, read, pct: Math.round((read / total) * 100) });
+    }
+    return items.sort((a, b) => b.pct - a.pct);
+  }, [surahProgress, surahByNumber]);
+
+  const almostDone = useMemo(
+    () => surahEntries.filter((e) => e.pct >= 70 && e.pct < 100),
+    [surahEntries]
+  );
+
+  const displayedSurahs = showAllSurahs ? surahEntries : surahEntries.slice(0, 4);
+  const streakClass = currentStreak >= 7 ? "qp-streak-fire" : currentStreak >= 3 ? "qp-streak-warm" : "";
+  const goalPct = goalTarget > 0 ? Math.min(100, Math.round((goalProgress / goalTarget) * 100)) : 0;
+
+  return (
+    <div className="quick-panel-section qp-apple">
+
+      {/* #1 + #2 + #4 — Grouped container, 2x2 hero grid, large display numbers */}
+      <div className="qp-group">
+        <div className="qp-hero-grid">
+          <div className="qp-hero-stat qp-stat-verses">
+            <div className="qp-hero-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <span className="qp-hero-value">{todayVersesRead}</span>
+            <span className="qp-hero-label">Verses Today</span>
+          </div>
+          <div className="qp-hero-stat qp-stat-week">
+            <div className="qp-hero-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <rect x="3" y="4" width="18" height="18" rx="2" />
+                <path d="M16 2v4M8 2v4M3 10h18" />
+              </svg>
+            </div>
+            <span className="qp-hero-value">{weekTotal}</span>
+            <span className="qp-hero-label">This Week</span>
+          </div>
+          <div className={`qp-hero-stat qp-stat-streak ${streakClass}`}>
+            <div className="qp-hero-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <path d="M12 2c.5 4-2.5 6-2.5 10a4.5 4.5 0 0 0 9 0c0-4-3-6-2.5-10" />
+                <path d="M12 18a2 2 0 0 1-2-2c0-1.5 2-3 2-3s2 1.5 2 3a2 2 0 0 1-2 2Z" />
+              </svg>
+            </div>
+            <span className="qp-hero-value">{currentStreak}</span>
+            <span className="qp-hero-label">Day Streak</span>
+          </div>
+          <div className="qp-hero-stat qp-stat-time">
+            <div className="qp-hero-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 6v6l4 2" />
+              </svg>
+            </div>
+            <span className="qp-hero-value">{formatTime(readingTime)}</span>
+            <span className="qp-hero-label">Session</span>
+          </div>
+        </div>
+      </div>
+
+      {/* #3 — Polished weekly chart in its own group */}
+      <div className="qp-group">
+        <div className="qp-group-header">
+          <h4>Weekly Activity</h4>
+        </div>
+        <WeeklyChart data={weeklyData} />
+      </div>
+
+      {/* #1 + #7 + #10 — Grouped: goal stepper + progress in one block, no redundant label */}
+      <div className="qp-group">
+        <div className="qp-group-header">
+          <h4>Daily Goal</h4>
+        </div>
+        <div className="qp-goal-row">
+          <div className="qp-goal-info">
+            <span className="qp-goal-fraction">{goalProgress}<span className="qp-goal-of">/{goalTarget}</span></span>
+            <span className="qp-goal-sublabel">ayahs read</span>
+          </div>
+          <Stepper value={goalTarget} min={1} max={200} onChange={setGoalPerDay} />
+        </div>
+        <div className="qp-goal-bar">
+          <div className="qp-goal-bar-fill" style={{ width: `${goalPct}%` }} />
+        </div>
+        {currentStreak > 0 && (
+          <p className="qp-streak-msg">
+            {currentStreak >= 7
+              ? `${currentStreak}-day streak — longest: ${longestStreak}`
+              : currentStreak >= 3
+                ? `${currentStreak}-day streak`
+                : `${currentStreak} day streak`}
+          </p>
+        )}
+      </div>
+
+      {/* #5 + #8 — Surah progress: SVG icon instead of emoji, "See All" chevron */}
+      {surahEntries.length > 0 && (
+        <div className="qp-group">
+          <div className="qp-group-header">
+            <h4>Surah Progress</h4>
+            {surahEntries.length > 4 && (
+              <button className="qp-see-all" onClick={() => setShowAllSurahs(!showAllSurahs)} type="button">
+                {showAllSurahs ? "Less" : "See All"}
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                  <path d={showAllSurahs ? "m18 15-6-6-6 6" : "m6 9 6 6 6-6"} />
+                </svg>
+              </button>
+            )}
+          </div>
+
+          {almostDone.length > 0 && (
+            <div className="qp-almost-banner">
+              <svg className="qp-almost-svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              <span className="qp-almost-text">
+                {almostDone.slice(0, 2).map((s) => s.name).join(" & ")}
+                {almostDone.length > 2 ? ` +${almostDone.length - 2}` : ""}
+                {" — almost complete"}
+              </span>
+            </div>
+          )}
+
+          <div className="qp-surah-list">
+            {displayedSurahs.map((entry) => (
+              <div key={entry.number} className="qp-surah-row">
+                <MiniRing progress={entry.pct} />
+                <div className="qp-surah-info">
+                  <span className="qp-surah-name">{entry.number}. {entry.name}</span>
+                  <span className="qp-surah-detail">{entry.read}/{entry.total} ayahs</span>
+                </div>
+                <span className={`qp-surah-pct${entry.pct === 100 ? " done" : ""}`}>
+                  {entry.pct === 100 ? (
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg>
+                  ) : `${entry.pct}%`}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Today's Plan */}
+      {planSummary && !("completed" in planSummary) && !("error" in planSummary) && (
+        <div className="qp-group">
+          <div className="qp-group-header">
+            <h4>Today&apos;s Plan</h4>
+          </div>
+          <p className="plan-range-text">
+            {planSummary.startVerse && planSummary.endVerse
+              ? `${surahByNumber?.get(planSummary.startVerse.surah)?.englishName || "Surah"} ${planSummary.startVerse.ayah} — ${surahByNumber?.get(planSummary.endVerse.surah)?.englishName || "Surah"} ${planSummary.endVerse.ayah}`
+              : "Set up your reading plan"}
+          </p>
+          {planSummary.startVerse && (
+            <button
+              className="plan-jump-btn"
+              onClick={() => {
+                onJumpToAyah(planSummary.startVerse!.surah, planSummary.startVerse!.ayah);
+                onClosePanel();
+              }}
+              type="button"
+            >
+              Start Reading
+            </button>
+          )}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export type { QuickPanelTab, StudyQuickPanelContentProps };

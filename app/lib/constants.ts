@@ -171,7 +171,8 @@ export const STORAGE_KEYS = {
   reciter: "quran_reciter",
   arabicFont: "quran_arabic_font",
   theme: "quran_theme",
-  prayerSettings: "quran_prayer_settings"
+  prayerSettings: "quran_prayer_settings",
+  readingStats: "quran_reading_stats"
 };
 
 // Keyboard Shortcuts

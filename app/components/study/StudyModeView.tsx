@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useCallback } from "react";
+import { useMemo, useCallback, useEffect, useRef } from "react";
 import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer } from "../common";
@@ -14,6 +14,7 @@ import StudyAyahList from "./StudyAyahList";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
+import { useReadingStats } from "../../hooks";
 import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
@@ -75,6 +76,7 @@ export default function StudyModeView({
     toggleBookmark: onToggleBookmark,
     openNote: onOpenNote
   } = useBookmarkContext();
+  const { todayStats, weeklyData, weekTotal, stats, surahProgress, recordVerseRead } = useReadingStats();
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations)
     ? selectedTranslations
@@ -255,6 +257,15 @@ export default function StudyModeView({
     const secs = seconds % 60;
     return `${mins}:${secs.toString().padStart(2, "0")}`;
   };
+
+  // Track verse reading when currentAyahIndex changes
+  const lastTrackedAyahRef = useRef(0);
+  useEffect(() => {
+    if (currentAyahIndex > 0 && selectedSurahNumber > 0 && currentAyahIndex !== lastTrackedAyahRef.current) {
+      lastTrackedAyahRef.current = currentAyahIndex;
+      recordVerseRead(selectedSurahNumber, currentAyahIndex);
+    }
+  }, [currentAyahIndex, selectedSurahNumber, recordVerseRead]);
 
   const onOpenTafsirFromAyah = useCallback(
     (key: string) => {
@@ -483,6 +494,12 @@ export default function StudyModeView({
           searchError={searchError}
           searchResults={searchResults}
           onOpenNote={onOpenNote}
+          todayVersesRead={todayStats.versesRead}
+          weekTotal={weekTotal}
+          currentStreak={stats.currentStreak}
+          longestStreak={stats.longestStreak}
+          weeklyData={weeklyData}
+          surahProgress={surahProgress}
         />
       </QuickPanel>
 

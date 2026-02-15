@@ -3279,3 +3279,688 @@
   border-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
 }
+
+/* =============================================
+   QUICK PANEL — STUDY TAB (Premium iOS)
+   Apple Health / Widget-inspired design
+   ============================================= */
+
+/* Root container — spacious sections separated by dividers */
+.qp-apple {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* Invisible group — no bg, just padding + bottom separator */
+.qp-group {
+  background: transparent;
+  border-radius: 0;
+  padding: 20px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.qp-group:first-child {
+  padding-top: 8px;
+}
+
+.qp-group:last-child {
+  border-bottom: none;
+  padding-bottom: 8px;
+}
+
+/* Section header */
+.qp-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.qp-group-header h4 {
+  font-size: var(--text-base, 0.9375rem);
+  font-weight: 650;
+  color: var(--text, #f2eee6);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+/* ---- Hero Stats 2x2 Grid ---- */
+.qp-hero-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.qp-hero-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 18px 12px 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qp-hero-stat:active {
+  transform: scale(0.97);
+}
+
+.qp-hero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 0;
+  margin-bottom: 2px;
+  background: none !important;
+}
+
+.qp-stat-verses .qp-hero-icon {
+  color: #72daa8;
+}
+
+.qp-stat-week .qp-hero-icon {
+  color: #6eaafc;
+}
+
+.qp-stat-streak .qp-hero-icon {
+  color: #f0aa50;
+}
+
+.qp-stat-time .qp-hero-icon {
+  color: #be8ce6;
+}
+
+/* Large display typography */
+.qp-hero-value {
+  font-size: var(--text-2xl, 1.6875rem);
+  font-weight: 750;
+  color: var(--text, #f2eee6);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
+}
+
+.qp-hero-label {
+  font-size: var(--text-xs, 0.6875rem);
+  font-weight: 500;
+  color: var(--muted, #7a8290);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Streak color accents */
+.qp-streak-warm .qp-hero-value {
+  color: #f0aa50;
+}
+
+.qp-streak-fire .qp-hero-value {
+  color: #f07a3a;
+}
+
+.qp-streak-fire .qp-hero-icon {
+  color: #f07a3a;
+  animation: qp-fire-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes qp-fire-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+/* ---- Weekly Chart — Slim pill bars ---- */
+.qp-weekly-chart {
+  padding: 0;
+}
+
+.qp-weekly-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 8px;
+  height: 120px;
+  padding: 0 4px;
+}
+
+.qp-bar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  max-width: 28px;
+  height: 100%;
+}
+
+.qp-bar-value {
+  font-size: var(--text-xs, 0.6875rem);
+  font-weight: 600;
+  color: var(--muted, #7a8290);
+  min-height: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
+.qp-bar-track {
+  flex: 1;
+  width: 100%;
+  max-width: 22px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 11px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.qp-bar-fill {
+  width: 100%;
+  border-radius: 11px;
+  background: linear-gradient(180deg, #72daa8 0%, rgba(114, 218, 168, 0.25) 100%);
+  transition: height 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  min-height: 0;
+}
+
+.qp-bar-col.today .qp-bar-fill {
+  background: linear-gradient(180deg, #d8b36a 0%, rgba(216, 179, 106, 0.3) 100%);
+  box-shadow: 0 0 12px rgba(216, 179, 106, 0.25);
+}
+
+.qp-bar-col.today .qp-bar-value {
+  color: #d8b36a;
+  font-weight: 700;
+}
+
+.qp-bar-label {
+  font-size: 0.625rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.qp-bar-col.today .qp-bar-label {
+  color: #d8b36a;
+  font-weight: 700;
+}
+
+/* ---- Daily Goal ---- */
+.qp-goal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.qp-goal-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.qp-goal-fraction {
+  font-size: var(--text-2xl, 1.6875rem);
+  font-weight: 750;
+  color: var(--text, #f2eee6);
+  line-height: 1;
+  letter-spacing: -0.035em;
+  font-variant-numeric: tabular-nums;
+}
+
+.qp-goal-of {
+  font-size: var(--text-sm, 0.8125rem);
+  font-weight: 500;
+  color: var(--muted, #7a8290);
+}
+
+.qp-goal-sublabel {
+  font-size: var(--text-xs, 0.6875rem);
+  color: var(--muted, #7a8290);
+  letter-spacing: 0.03em;
+}
+
+.qp-goal-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  overflow: hidden;
+}
+
+.qp-goal-bar-fill {
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #72daa8, #5cc99a);
+  transition: width 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: 0 0 10px rgba(114, 218, 168, 0.2);
+}
+
+/* ---- Apple Stepper — capsule shape with divider ---- */
+.qp-stepper {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.qp-stepper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: none;
+  border: none;
+  color: var(--accent-2, #6fd4b1);
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.qp-stepper-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.qp-stepper-btn:active:not(:disabled) {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.qp-stepper-btn:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+.qp-stepper-value {
+  min-width: 36px;
+  text-align: center;
+  font-size: var(--text-sm, 0.8125rem);
+  font-weight: 650;
+  color: var(--text, #f2eee6);
+  user-select: none;
+  font-variant-numeric: tabular-nums;
+  border-left: 1px solid rgba(255, 255, 255, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0 2px;
+}
+
+/* ---- Streak pill ---- */
+.qp-streak-msg {
+  font-size: var(--text-xs, 0.6875rem);
+  font-weight: 500;
+  color: #f0aa50;
+  margin-top: 12px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  background: rgba(240, 170, 80, 0.08);
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+/* ---- "See All" chevron ---- */
+.qp-see-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  background: none;
+  border: none;
+  color: var(--accent-2, #6fd4b1);
+  font-size: var(--text-xs, 0.6875rem);
+  font-weight: 550;
+  cursor: pointer;
+  padding: 4px 0;
+  transition: opacity 0.15s;
+}
+
+.qp-see-all:hover {
+  opacity: 0.7;
+}
+
+.qp-see-all svg {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+/* ---- Almost-done banner ---- */
+.qp-almost-svg {
+  flex-shrink: 0;
+  color: #f0aa50;
+}
+
+/* ---- Surah Progress List ---- */
+.qp-surah-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.qp-surah-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 4px;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  transition: background 0.15s;
+}
+
+.qp-surah-row:last-child {
+  border-bottom: none;
+}
+
+.qp-surah-row:hover {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.qp-mini-ring {
+  flex-shrink: 0;
+}
+
+.qp-ring-bg {
+  stroke: rgba(255, 255, 255, 0.08);
+}
+
+.qp-ring-fill {
+  stroke: #72daa8;
+  transition: stroke-dashoffset 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.qp-surah-info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.qp-surah-name {
+  font-size: var(--text-sm, 0.8125rem);
+  font-weight: 560;
+  color: var(--text, #f2eee6);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: -0.01em;
+}
+
+.qp-surah-detail {
+  font-size: var(--text-xs, 0.6875rem);
+  color: var(--muted, #7a8290);
+}
+
+.qp-surah-pct {
+  font-size: var(--text-sm, 0.8125rem);
+  font-weight: 600;
+  color: var(--muted, #7a8290);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.qp-surah-pct.done {
+  color: #72daa8;
+  background: rgba(114, 218, 168, 0.1);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.qp-almost-banner {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(240, 170, 80, 0.07);
+  margin-bottom: 10px;
+}
+
+.qp-almost-text {
+  font-size: var(--text-xs, 0.6875rem);
+  font-weight: 500;
+  color: var(--muted, #7a8290);
+  line-height: 1.45;
+}
+
+/* =============================================
+   LIGHT THEME — Quick Panel Study Tab
+   ============================================= */
+
+:root[data-theme="light"] .qp-group {
+  border-bottom-color: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="light"] .qp-hero-stat {
+  background: rgba(0, 0, 0, 0.035);
+  backdrop-filter: none;
+}
+
+:root[data-theme="light"] .qp-stat-verses .qp-hero-icon {
+  color: #2e8b57;
+}
+
+:root[data-theme="light"] .qp-stat-week .qp-hero-icon {
+  color: #4169af;
+}
+
+:root[data-theme="light"] .qp-stat-streak .qp-hero-icon {
+  color: #c88c32;
+}
+
+:root[data-theme="light"] .qp-stat-time .qp-hero-icon {
+  color: #8c64b4;
+}
+
+:root[data-theme="light"] .qp-streak-warm .qp-hero-value {
+  color: #c88c32;
+}
+
+:root[data-theme="light"] .qp-streak-fire .qp-hero-value {
+  color: #d06830;
+}
+
+:root[data-theme="light"] .qp-streak-fire .qp-hero-icon {
+  color: #d06830;
+}
+
+:root[data-theme="light"] .qp-bar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="light"] .qp-bar-fill {
+  background: linear-gradient(180deg, #2e8b57 0%, rgba(46, 139, 87, 0.25) 100%);
+}
+
+:root[data-theme="light"] .qp-bar-col.today .qp-bar-fill {
+  background: linear-gradient(180deg, #8c7846 0%, rgba(140, 120, 70, 0.3) 100%);
+  box-shadow: none;
+}
+
+:root[data-theme="light"] .qp-bar-col.today .qp-bar-value,
+:root[data-theme="light"] .qp-bar-col.today .qp-bar-label {
+  color: #8c7846;
+}
+
+:root[data-theme="light"] .qp-bar-label {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+:root[data-theme="light"] .qp-goal-bar {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="light"] .qp-goal-bar-fill {
+  background: linear-gradient(90deg, #2e8b57, #3a9d68);
+  box-shadow: none;
+}
+
+:root[data-theme="light"] .qp-stepper {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="light"] .qp-stepper-btn {
+  color: var(--accent-2, #5d6e50);
+}
+
+:root[data-theme="light"] .qp-stepper-btn:hover:not(:disabled) {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="light"] .qp-stepper-value {
+  border-left-color: rgba(0, 0, 0, 0.08);
+  border-right-color: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="light"] .qp-streak-msg {
+  background: rgba(200, 140, 50, 0.08);
+  color: #c88c32;
+}
+
+:root[data-theme="light"] .qp-see-all {
+  color: var(--accent-2, #5d6e50);
+}
+
+:root[data-theme="light"] .qp-ring-bg {
+  stroke: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="light"] .qp-ring-fill {
+  stroke: #2e8b57;
+}
+
+:root[data-theme="light"] .qp-surah-row {
+  border-bottom-color: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="light"] .qp-surah-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme="light"] .qp-surah-pct.done {
+  color: #2e8b57;
+  background: rgba(46, 139, 87, 0.08);
+}
+
+:root[data-theme="light"] .qp-almost-banner {
+  background: rgba(208, 104, 48, 0.06);
+}
+
+:root[data-theme="light"] .qp-almost-svg {
+  color: #d06830;
+}
+
+/* =============================================
+   B&W THEME — Quick Panel Study Tab
+   ============================================= */
+
+:root[data-theme="bw"] .qp-group {
+  border-bottom-color: rgba(0, 0, 0, 0.08);
+}
+
+:root[data-theme="bw"] .qp-hero-stat {
+  background: rgba(0, 0, 0, 0.035);
+  backdrop-filter: none;
+}
+
+:root[data-theme="bw"] .qp-stat-verses .qp-hero-icon,
+:root[data-theme="bw"] .qp-stat-week .qp-hero-icon,
+:root[data-theme="bw"] .qp-stat-streak .qp-hero-icon,
+:root[data-theme="bw"] .qp-stat-time .qp-hero-icon {
+  color: #444;
+}
+
+:root[data-theme="bw"] .qp-streak-warm .qp-hero-value,
+:root[data-theme="bw"] .qp-streak-fire .qp-hero-value {
+  color: #333;
+}
+
+:root[data-theme="bw"] .qp-streak-fire .qp-hero-icon {
+  color: #333;
+  animation: none;
+}
+
+:root[data-theme="bw"] .qp-bar-track {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="bw"] .qp-bar-fill {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+:root[data-theme="bw"] .qp-bar-col.today .qp-bar-fill {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.25) 100%);
+  box-shadow: none;
+}
+
+:root[data-theme="bw"] .qp-bar-col.today .qp-bar-value,
+:root[data-theme="bw"] .qp-bar-col.today .qp-bar-label {
+  color: #111;
+}
+
+:root[data-theme="bw"] .qp-bar-label {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+:root[data-theme="bw"] .qp-goal-bar {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-goal-bar-fill {
+  background: linear-gradient(90deg, #444, #555);
+  box-shadow: none;
+}
+
+:root[data-theme="bw"] .qp-stepper {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-stepper-btn {
+  color: #444;
+}
+
+:root[data-theme="bw"] .qp-stepper-value {
+  border-left-color: rgba(0, 0, 0, 0.1);
+  border-right-color: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="bw"] .qp-streak-msg {
+  background: rgba(0, 0, 0, 0.04);
+  color: #555;
+}
+
+:root[data-theme="bw"] .qp-see-all {
+  color: #444;
+}
+
+:root[data-theme="bw"] .qp-ring-bg {
+  stroke: rgba(0, 0, 0, 0.1);
+}
+
+:root[data-theme="bw"] .qp-ring-fill {
+  stroke: #444;
+}
+
+:root[data-theme="bw"] .qp-surah-row {
+  border-bottom-color: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-surah-row:hover {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme="bw"] .qp-surah-pct.done {
+  color: #333;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-almost-banner {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+:root[data-theme="bw"] .qp-almost-svg {
+  color: #333;
+}
