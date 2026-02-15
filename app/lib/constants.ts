@@ -88,6 +88,7 @@ export const ALL_TRANSLATIONS = [
   { id: "en-muhsin-khan", label: "Muhsin Khan", short: "Muhsin Khan" },
   { id: "en-maarif-ul-quran", label: "Maarif-ul-Quran", short: "Maarif" },
   { id: "bn-bengali", label: "Bangla (Muhiuddin Khan)", short: "Bangla" },
+  { id: "bn-hoque", label: "Bangla (Zohurul Hoque)", short: "Hoque" },
   { id: "bayan-ul-quran", label: "Bayan-ul-Quran (Urdu)", short: "Bayan" }
 ];
 
