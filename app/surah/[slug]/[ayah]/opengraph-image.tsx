@@ -1,19 +1,12 @@
 import { ImageResponse } from "next/og";
 import { SURAH_BY_SLUG } from "../../../data/surahs";
+import { loadVerseSeoText } from "../../../lib/seoQuranText";
 
+export const runtime = "nodejs";
+export const revalidate = 86400;
 export const alt = "OpenFurqan — Ayah";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-
-type QuranText = Record<string, Record<string, { ar: string; en: string }>>;
-
-let quranText: QuranText | null = null;
-function getQuranText(): QuranText {
-  if (!quranText) {
-    quranText = require("../../../data/quran-text.json") as QuranText;
-  }
-  return quranText;
-}
 
 export default async function OGImage({ params }: { params: Promise<{ slug: string; ayah: string }> }) {
   const { slug, ayah } = await params;
@@ -24,8 +17,12 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
     return new ImageResponse(<div style={{ width: "100%", height: "100%", background: "#0b1c20" }} />, { ...size });
   }
 
-  const text = getQuranText();
-  const verse = text[String(surah.number)]?.[String(ayahNum)];
+  let verse: { ar: string; en: string } | null = null;
+  try {
+    verse = await loadVerseSeoText(surah.number, ayahNum);
+  } catch {
+    verse = null;
+  }
 
   const englishText = verse?.en
     ? verse.en.length > 220 ? verse.en.slice(0, 220) + "..." : verse.en

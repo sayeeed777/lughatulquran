@@ -8,13 +8,15 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run split:quran-seo-text",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest",
     "verify:prayer": "node scripts/verify-prayer-times.mjs",
-    "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs"
+    "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs",
+    "split:quran-seo-text": "node scripts/split-quran-seo-text.mjs"
   },
   "dependencies": {
     "adhan": "^4.4.3",

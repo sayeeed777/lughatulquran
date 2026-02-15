@@ -2,20 +2,12 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../data/surahs";
 import type { Metadata } from "next";
+import { loadFirstVerseSeoText, loadSurahSeoText } from "../../lib/seoQuranText";
+import { getCspNonce } from "../../lib/csp";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
-
-type QuranText = Record<string, Record<string, { ar: string; en: string }>>;
-
-let quranText: QuranText | null = null;
-function getQuranText(): QuranText {
-  if (!quranText) {
-    quranText = require("../../data/quran-text.json") as QuranText;
-  }
-  return quranText;
-}
 
 const PREVIEW_COUNT = 5;
 
@@ -28,11 +20,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) return {};
 
-  const text = getQuranText();
-  const firstVerse = text[String(surah.number)]?.["1"];
+  let firstVerse: { ar: string; en: string } | null = null;
+  try {
+    firstVerse = await loadFirstVerseSeoText(surah.number);
+  } catch {
+    firstVerse = null;
+  }
   const snippet = firstVerse?.en ? firstVerse.en.slice(0, 120) : "";
 
-  const title = `Surah ${surah.englishName} (${surah.arabicName}) — ${surah.translation} | OpenFurqan`;
+  const title = `Surah ${surah.englishName} (${surah.arabicName}) — ${surah.translation}`;
   const description = snippet
     ? `"${snippet}${firstVerse!.en.length > 120 ? "..." : ""}" — Read all ${surah.ayahCount} ayahs of Surah ${surah.englishName} with Arabic text, English translation, audio & tafsir.`
     : `Read Surah ${surah.englishName} (${surah.translation}) with English translations. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Multiple translations including Sahih International, Yusuf Ali, Pickthall & more.`;
@@ -60,12 +56,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function SurahPage({ params }: Props) {
+  const nonce = await getCspNonce();
   const { slug } = await params;
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) notFound();
 
-  const text = getQuranText();
-  const surahText = text[String(surah.number)] || {};
+  let surahText: Record<string, { ar: string; en: string }> = {};
+  try {
+    surahText = await loadSurahSeoText(surah.number);
+  } catch {
+    surahText = {};
+  }
 
   // Get preview verses (first N)
   const previewVerses = [];
@@ -110,8 +111,8 @@ export default async function SurahPage({ params }: Props) {
 
   return (
     <div className="seo-page">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterJsonLd) }} />
+      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterJsonLd) }} />
 
       <div className="seo-container">
         {/* Header */}

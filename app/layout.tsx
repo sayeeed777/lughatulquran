@@ -1,8 +1,8 @@
 import "./styles/index.css";
 import Script from "next/script";
-import { headers } from "next/headers";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { getCspNonce } from "./lib/csp";
 
 export const metadata: Metadata = {
   title: {
@@ -88,10 +88,7 @@ type RootLayoutProps = {
 };
 
 export default async function RootLayout({ children }: RootLayoutProps) {
-  const nonce =
-    process.env.NODE_ENV === "production"
-      ? (await headers()).get("x-nonce") || undefined
-      : undefined;
+  const nonce = await getCspNonce();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -122,6 +119,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <script
+          nonce={nonce}
           dangerouslySetInnerHTML={{
             __html: `(function(){try{var t=JSON.parse(localStorage.getItem("quran_theme"));if(t==="light"||t==="bw"||t==="dark"||t==="bw-dark"){document.documentElement.dataset.theme=t}else{document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"}}catch(e){document.documentElement.dataset.theme="dark"}})();`,
           }}
@@ -129,6 +127,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       </head>
       <body>
         <script
+          nonce={nonce}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />

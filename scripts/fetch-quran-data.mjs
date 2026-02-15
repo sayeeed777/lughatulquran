@@ -6,12 +6,13 @@
  * Usage: node scripts/fetch-quran-data.mjs
  */
 
-import { writeFileSync } from "fs";
+import { mkdirSync, writeFileSync } from "fs";
 import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT = resolve(__dirname, "../app/data/quran-text.json");
+const SEO_OUT_DIR = resolve(__dirname, "../app/data/quran-seo");
 
 const QDC = "https://api.quran.com/api/v4";
 const ALQURAN = "https://api.alquran.cloud/v1";
@@ -67,8 +68,16 @@ async function main() {
   }
 
   writeFileSync(OUT, JSON.stringify(result));
+
+  mkdirSync(SEO_OUT_DIR, { recursive: true });
+  for (const [surahKey, surahData] of Object.entries(result)) {
+    const padded = String(Number(surahKey)).padStart(3, "0");
+    writeFileSync(resolve(SEO_OUT_DIR, `surah-${padded}.json`), JSON.stringify(surahData));
+  }
+
   const sizeMB = (Buffer.byteLength(JSON.stringify(result)) / 1024 / 1024).toFixed(2);
   console.log(`\nDone! Saved to ${OUT} (${sizeMB} MB)`);
+  console.log(`Also wrote split SEO files to ${SEO_OUT_DIR}`);
 }
 
 main().catch((err) => {

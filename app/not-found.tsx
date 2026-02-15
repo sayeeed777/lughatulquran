@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Page Not Found | OpenFurqan",
+  title: "Page Not Found",
   description: "The page you're looking for doesn't exist. Return to OpenFurqan to continue reading the Quran.",
   robots: { index: false, follow: true }
 };
