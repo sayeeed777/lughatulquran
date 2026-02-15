@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../../data/surahs";
+import { SURAH_BY_SLUG, SURAH_BY_NUMBER } from "../../../data/surahs";
 import type { Metadata } from "next";
 
 type Props = {
@@ -15,16 +15,6 @@ function getQuranText(): QuranText {
     quranText = require("../../../data/quran-text.json") as QuranText;
   }
   return quranText;
-}
-
-export async function generateStaticParams() {
-  const params: { slug: string; ayah: string }[] = [];
-  for (const surah of SURAHS) {
-    for (let a = 1; a <= surah.ayahCount; a++) {
-      params.push({ slug: surah.slug, ayah: String(a) });
-    }
-  }
-  return params;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {

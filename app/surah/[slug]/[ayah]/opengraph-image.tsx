@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { SURAH_BY_SLUG, SURAHS } from "../../../data/surahs";
+import { SURAH_BY_SLUG } from "../../../data/surahs";
 
 export const alt = "OpenFurqan — Ayah";
 export const size = { width: 1200, height: 630 };
@@ -13,16 +13,6 @@ function getQuranText(): QuranText {
     quranText = require("../../../data/quran-text.json") as QuranText;
   }
   return quranText;
-}
-
-export function generateStaticParams() {
-  const params: { slug: string; ayah: string }[] = [];
-  for (const surah of SURAHS) {
-    for (let a = 1; a <= surah.ayahCount; a++) {
-      params.push({ slug: surah.slug, ayah: String(a) });
-    }
-  }
-  return params;
 }
 
 export default async function OGImage({ params }: { params: Promise<{ slug: string; ayah: string }> }) {
