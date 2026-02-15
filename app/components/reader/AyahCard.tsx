@@ -62,6 +62,7 @@ const AyahCard = memo(function AyahCard({
     "en-haleem": "Abdel Haleem",
     "en-muhsin-khan": "Muhsin Khan",
     "en-maarif-ul-quran": "Maarif-ul-Quran",
+    "bn-bengali": "Bangla (Muhiuddin Khan)",
     "bayan-ul-quran": "Bayan-ul-Quran"
   };
 
