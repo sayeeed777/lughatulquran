@@ -13,7 +13,12 @@ export const metadata: Metadata = {
     "Read the Quran online with authentic English translations by Arberry, Pickthall, Taqi Usmani, Yusuf Ali & Sahih International. Word-by-word analysis, audio recitation, prayer times & study tools.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
-    canonical: "/"
+    canonical: "/",
+    languages: {
+      "en": "/",
+      "ar": "/",
+      "x-default": "/"
+    }
   },
   keywords: [
     "Quran", "Quran online", "read Quran", "Quran English translation",
@@ -33,21 +38,12 @@ export const metadata: Metadata = {
     title: "OpenFurqan — Read Quran Online with English Translations",
     description:
       "Read the Quran online with authentic English translations, word-by-word analysis, audio recitation, prayer times and study tools. Free and open source.",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "OpenFurqan — Modern Quran Reader"
-      }
-    ]
   },
   twitter: {
     card: "summary_large_image",
     title: "OpenFurqan — Read Quran Online with English Translations",
     description:
       "Read the Quran online with authentic English translations, word-by-word analysis, audio recitation & study tools.",
-    images: ["/og-image.png"]
   },
   robots: {
     index: true,
@@ -69,9 +65,12 @@ export const metadata: Metadata = {
     telephone: false
   },
   icons: {
-    icon: [{ url: "/icons/icon.svg", type: "image/svg+xml" }],
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32" },
+      { url: "/icons/icon.svg", type: "image/svg+xml" }
+    ],
     apple: [
-      { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" }
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }
     ]
   },
   category: "education"

@@ -1,4 +1,4 @@
-import { notFound, redirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import { SURAH_BY_SLUG, SURAHS } from "../../data/surahs";
 import type { Metadata } from "next";
 
@@ -22,7 +22,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}`
+      canonical: `/surah/${slug}`,
+      languages: { "en": `/surah/${slug}`, "ar": `/surah/${slug}`, "x-default": `/surah/${slug}` }
     },
     openGraph: {
       title,
@@ -43,5 +44,43 @@ export default async function SurahPage({ params }: Props) {
   const { slug } = await params;
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) notFound();
-  redirect(`/?surah=${surah.number}`);
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://openfurqan.com" },
+      { "@type": "ListItem", position: 2, name: `Surah ${surah.englishName}`, item: `https://openfurqan.com/surah/${slug}` }
+    ]
+  };
+
+  const creativeWorkJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Chapter",
+    name: `Surah ${surah.englishName}`,
+    alternateName: surah.arabicName,
+    description: `${surah.translation} — ${surah.ayahCount} ayahs, ${surah.revelationType} surah`,
+    position: surah.number,
+    url: `https://openfurqan.com/surah/${slug}`,
+    isPartOf: {
+      "@type": "Book",
+      name: "The Holy Quran",
+      url: "https://openfurqan.com"
+    },
+    inLanguage: ["ar", "en"],
+    provider: {
+      "@type": "WebApplication",
+      name: "OpenFurqan",
+      url: "https://openfurqan.com"
+    }
+  };
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(creativeWorkJsonLd) }} />
+      <meta httpEquiv="refresh" content={`0;url=/?surah=${surah.number}`} />
+      <p>Redirecting to Surah {surah.englishName}...</p>
+    </>
+  );
 }

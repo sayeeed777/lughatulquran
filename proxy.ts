@@ -28,7 +28,25 @@ const buildCsp = (nonce: string) =>
     "manifest-src 'self'"
   ].join("; ");
 
+const CANONICAL_HOST = "openfurqan.com";
+
 export function proxy(request: NextRequest) {
+  const { hostname, pathname } = request.nextUrl;
+
+  // Redirect www → non-www
+  if (hostname === `www.${CANONICAL_HOST}`) {
+    const url = request.nextUrl.clone();
+    url.hostname = CANONICAL_HOST;
+    return NextResponse.redirect(url, 301);
+  }
+
+  // Remove trailing slashes (except root)
+  if (pathname !== "/" && pathname.endsWith("/")) {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname.slice(0, -1);
+    return NextResponse.redirect(url, 301);
+  }
+
   if (process.env.NODE_ENV !== "production") {
     return NextResponse.next();
   }
