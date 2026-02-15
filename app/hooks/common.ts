@@ -183,11 +183,16 @@ export function useIntersectionObserver(options: IntersectionObserverInit = {}) 
   const [ref, setRef] = useState<Element | null>(null);
   const [isIntersecting, setIsIntersecting] = useState(false);
   const optionsRef = useRef(options);
-  optionsRef.current = options;
 
   // Extract primitive values for stable dependency comparison
   const threshold = Array.isArray(options.threshold) ? options.threshold.join(",") : options.threshold;
   const rootMargin = options.rootMargin;
+  const root = options.root;
+
+  // Keep latest options without mutating refs during render.
+  useEffect(() => {
+    optionsRef.current = options;
+  }, [root, rootMargin, threshold, options]);
 
   useEffect(() => {
     if (!ref) return;

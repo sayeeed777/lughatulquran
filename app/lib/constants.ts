@@ -75,15 +75,19 @@ export const ARABIC_FONTS = [
 
 // Translations
 export const INLINE_TRANSLATIONS = [
-  { id: "en.sahih", label: "Sahih International", short: "Sahih" },
-  { id: "en.arberry", label: "A.J. Arberry", short: "Arberry" },
-  { id: "en.pickthall", label: "Pickthall", short: "Pickthall" },
-  { id: "en.yusufali", label: "Yusuf Ali", short: "Yusuf Ali" }
+  { id: "en-sahih", label: "Sahih International", short: "Sahih" },
+  { id: "en-arberry", label: "A.J. Arberry", short: "Arberry" },
+  { id: "en-pickthall", label: "Pickthall", short: "Pickthall" },
+  { id: "en-yusufali", label: "Yusuf Ali", short: "Yusuf Ali" }
 ];
 
 export const ALL_TRANSLATIONS = [
   ...INLINE_TRANSLATIONS,
-  { id: "taqi-usmani", label: "Mufti Taqi Usmani", short: "Taqi Usmani" }
+  { id: "en-taqi-usmani", label: "Mufti Taqi Usmani", short: "Taqi Usmani" },
+  { id: "en-haleem", label: "Abdel Haleem", short: "Haleem" },
+  { id: "en-muhsin-khan", label: "Muhsin Khan", short: "Muhsin Khan" },
+  { id: "en-maarif-ul-quran", label: "Maarif-ul-Quran", short: "Maarif" },
+  { id: "bayan-ul-quran", label: "Bayan-ul-Quran (Urdu)", short: "Bayan" }
 ];
 
 // Prayer Settings (UI)

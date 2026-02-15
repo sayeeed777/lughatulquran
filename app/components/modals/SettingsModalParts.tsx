@@ -46,7 +46,7 @@ export const TranslationChips = memo(function TranslationChips({
   options,
   selectedIds,
   onChange,
-  defaultId = "en.arberry",
+  defaultId = "en-arberry",
   className = ""
 }: TranslationChipsProps) {
   const toggleTranslation = (id: string) => {

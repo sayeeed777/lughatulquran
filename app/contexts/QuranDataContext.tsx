@@ -18,8 +18,6 @@ type QuranDataContextValue = {
   wordByAyah: WordBySurah;
   wordLoading: boolean;
   wordError: string | null;
-  taqiCache: Record<string, string>;
-  taqiLoading: Record<string, boolean>;
 };
 
 const QuranDataContext = createContext<QuranDataContextValue | null>(null);

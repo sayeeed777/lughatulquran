@@ -1,21 +1,14 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { readFile } from "fs/promises";
+import { join } from "path";
+import { SURAHS } from "../../../data/surahs";
+import { ALL_TRANSLATIONS } from "../../../lib/constants";
+import { getTranslation } from "../../../lib/translationLoader";
 
-const EDITIONS = [
-  "en.arberry",
-  "en.pickthall",
-  "en.yusufali",
-  "en.sahih"
-];
+const EDITIONS = ALL_TRANSLATIONS;
 
-const EDITION_LABELS: Record<string, string> = {
-  "en.arberry": "A.J. Arberry",
-  "en.pickthall": "Pickthall",
-  "en.yusufali": "Yusuf Ali",
-  "en.sahih": "Sahih International"
-};
-
-// Quran.com V4 API Base URL
+// Quran.com V4 API Base URL (still needed for Arabic + Tajweed)
 const QDC_BASE_URL = "https://api.quran.com/api/v4";
 
 export const revalidate = 86400;
@@ -42,26 +35,6 @@ type ArabicVerse = {
   page: number | null;
 };
 
-type TranslationAyah = {
-  numberInSurah: number;
-  text: string;
-};
-
-type TranslationEdition = {
-  edition: { identifier: string };
-  ayahs?: TranslationAyah[];
-  number: number;
-  name: string;
-  englishName: string;
-  englishNameTranslation: string;
-  numberOfAyahs: number;
-  revelationType: string;
-};
-
-type TranslationResponse = {
-  data?: TranslationEdition[];
-};
-
 // Fetch Arabic Text (and optional Tajweed/Page data) from Quran.com V4
 const fetchArabicText = async (chapterId: string | number): Promise<ArabicVerse[] | null> => {
   const verses: ArabicVerse[] = [];
@@ -85,14 +58,13 @@ const fetchArabicText = async (chapterId: string | number): Promise<ArabicVerse[
 
       if (!response.ok) {
         console.error(`Failed to fetch Arabic text for chapter ${chapterId} page ${page}`);
-        return null; // Return null to fallback or error
+        return null;
       }
 
       const payload = (await response.json()) as QuranComResponse | null;
       const chunk = payload?.verses || [];
 
       for (const verse of chunk) {
-        // V4 returns verse_key like "1:1"
         const verseNumber = verse.verse_number;
         const text = verse.text_uthmani;
         const tajweed = verse.text_uthmani_tajweed || verse.text_uthmani_tajweed_html || null;
@@ -117,11 +89,53 @@ const fetchArabicText = async (chapterId: string | number): Promise<ArabicVerse[
   return verses.length ? verses : null;
 };
 
+// Local Arabic text fallback from quran-metadata-ayah.json
+type AyahMetaEntry = {
+  id: number;
+  surah_number: number;
+  ayah_number: number;
+  verse_key: string;
+  words_count: number;
+  text: string;
+};
+
+let ayahMetaCache: Record<string, AyahMetaEntry> | null = null;
+
+const loadAyahMeta = async (): Promise<Record<string, AyahMetaEntry>> => {
+  if (ayahMetaCache) return ayahMetaCache;
+  try {
+    const filePath = join(process.cwd(), "app/data/quran-metadata-ayah.json");
+    const content = await readFile(filePath, "utf-8");
+    ayahMetaCache = JSON.parse(content) as Record<string, AyahMetaEntry>;
+    return ayahMetaCache;
+  } catch {
+    return {};
+  }
+};
+
+const getLocalArabicVerses = async (surahNumber: number): Promise<ArabicVerse[]> => {
+  const meta = await loadAyahMeta();
+  const verses: ArabicVerse[] = [];
+  for (const entry of Object.values(meta)) {
+    if (entry.surah_number === surahNumber) {
+      // Remove verse number suffix (e.g., " ١" at end of text)
+      const text = entry.text.replace(/\s+[\u0660-\u0669\u06F0-\u06F9]+$/u, "").trim();
+      verses.push({
+        number: entry.ayah_number,
+        text,
+        tajweed: null,
+        page: null
+      });
+    }
+  }
+  return verses;
+};
+
 type RouteContext = {
   params: { id: string } | Promise<{ id: string }>;
 };
 
-export async function GET(_request: NextRequest, { params }: RouteContext) {
+export async function GET(request: NextRequest, { params }: RouteContext) {
   const { id } = await Promise.resolve(params);
   const surahNumber = Number(id);
 
@@ -130,43 +144,42 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
   }
 
   try {
-    // 1. Fetch Translations from AlQuran.cloud (Reliable for translations)
-    const response = await fetch(
-      `https://api.alquran.cloud/v1/surah/${id}/editions/${EDITIONS.join(",")}`,
-      { next: { revalidate: 86400 } }
+    const allowedTranslationIds = new Set(EDITIONS.map((e) => e.id));
+    const translationsParam = request.nextUrl.searchParams.get("translations") || "";
+    const requestedIds = translationsParam
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean)
+      .filter((value) => allowedTranslationIds.has(value));
+
+    const translationIds: string[] = [];
+    const seen = new Set<string>();
+    for (const translationId of (requestedIds.length ? requestedIds : ["en-arberry"])) {
+      if (seen.has(translationId)) continue;
+      if (!allowedTranslationIds.has(translationId)) continue;
+      seen.add(translationId);
+      translationIds.push(translationId);
+    }
+
+    // 1. Get surah metadata from local data
+    const surahMeta = SURAHS.find((s) => s.number === surahNumber);
+    if (!surahMeta) {
+      return NextResponse.json({ error: "Surah not found." }, { status: 404 });
+    }
+
+    // 2. Load only requested translations from local files (in parallel)
+    const translationResults = await Promise.all(
+      translationIds.map(async (translationId) => ({
+        id: translationId,
+        verses: await getTranslation(translationId, surahNumber)
+      }))
     );
 
-    if (!response.ok) {
-      throw new Error("Failed to fetch translation data.");
+    // 3. Fetch Arabic Text from Quran.com V4 (Tajweed markup), fallback to local
+    let arabicVerses = await fetchArabicText(id);
+    if (!arabicVerses) {
+      arabicVerses = await getLocalArabicVerses(surahNumber);
     }
-
-    const payload = (await response.json()) as TranslationResponse | null;
-    if (!payload?.data || !payload.data.length) {
-      throw new Error("Unexpected response from Translation API.");
-    }
-
-    const editions = payload.data;
-    const editionById = new Map(
-      editions.map((edition) => [edition.edition.identifier, edition])
-    );
-
-    // 2. Fetch Arabic Text from Quran.com V4 (Cleaner, better Bismillah handling)
-    const arabicVerses = await fetchArabicText(id);
-
-    // 3. Construct reference metadata from the first translation (e.g., Sahih)
-    // We can use the first available edition for metadata since they all share Surah structure
-    const refEdition = editions[0];
-    if (!refEdition) {
-      throw new Error("Unexpected response from Translation API.");
-    }
-    const surahMeta = {
-      number: refEdition.number,
-      name: refEdition.name, // Note: AlQuran.cloud names might differ slightly, but usually fine
-      englishName: refEdition.englishName,
-      englishNameTranslation: refEdition.englishNameTranslation,
-      numberOfAyahs: refEdition.numberOfAyahs,
-      revelationType: refEdition.revelationType
-    };
 
     // 4. Merge Data
     const ayahs: Array<{
@@ -174,31 +187,22 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
       arabic: string;
       arabicTajweed: string | null;
       pageNumber: number | null;
-      translations: Record<string, { label: string; text: string }>;
+      translations: Record<string, { text: string }>;
     }> = [];
-    const totalAyahs = surahMeta.numberOfAyahs;
 
-    // Use a Loop based on total verses to ensure missing translations/arabic don't break order
+    const totalAyahs = surahMeta.ayahCount;
+
     for (let i = 1; i <= totalAyahs; i++) {
       const arabicEntry = arabicVerses?.find((v) => v.number === i);
       const arabicText = arabicEntry?.text || "Arabic text unavailable";
       const arabicTajweed = arabicEntry?.tajweed || null;
       const pageNumber = arabicEntry?.page || null;
 
-      // Quran.com V4 usually provides clean text.
-      // For Surah 1 (Fatiha), Verse 1 IS Bismillah.
-      // For others, Verse 1 does NOT contain Bismillah.
-      // So minimal processing is needed compared to AlQuran.cloud.
-
-      const translations: Record<string, { label: string; text: string }> = {};
-      for (const [identifier, label] of Object.entries(EDITION_LABELS)) {
-        const edition = editionById.get(identifier);
-        const ayah = edition?.ayahs?.find((a) => a.numberInSurah === i);
-        if (ayah) {
-          translations[identifier] = {
-            label,
-            text: ayah.text
-          };
+      const translations: Record<string, { text: string }> = {};
+      for (const result of translationResults) {
+        const text = result.verses?.get(i);
+        if (text) {
+          translations[result.id] = { text };
         }
       }
 
@@ -212,10 +216,17 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
     }
 
     return NextResponse.json({
-      surah: surahMeta,
+      surah: {
+        number: surahMeta.number,
+        name: surahMeta.arabicName,
+        englishName: surahMeta.englishName,
+        englishNameTranslation: surahMeta.translation,
+        numberOfAyahs: surahMeta.ayahCount,
+        revelationType: surahMeta.revelationType
+      },
       ayahs,
-      arabicScript: "uthmani", // Standard Quran.com V4 text
-      translationOrder: ["en.sahih", "en.arberry", "en.pickthall", "en.yusufali"]
+      arabicScript: "uthmani",
+      translationOrder: translationIds
     });
   } catch (error) {
     console.error("API Error:", error);

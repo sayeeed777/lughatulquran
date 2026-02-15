@@ -9,8 +9,7 @@ import { useMemorization } from "./useMemorization";
 import {
   useSurahs,
   useSurahDetails,
-  useWordByWord,
-  useTaqiTranslation
+  useWordByWord
 } from "./useQuranData";
 import { useHomePreferences } from "./home/useHomePreferences";
 import { useHomeFilters } from "./home/useHomeFilters";
@@ -49,12 +48,13 @@ export function useHomeController() {
     refetch: refetchSurahs
   } = useSurahs();
   const [selectedSurah, setSelectedSurah] = useState<Surah | null>(null);
+  const [selectedTranslations, setSelectedTranslations] = useState<string[]>(["en-arberry"]);
   const {
     surahData,
     loading: loadingSurahData,
     error: surahDataError,
     refetch: refetchSurahDetails
-  } = useSurahDetails(selectedSurah?.number);
+  } = useSurahDetails(selectedSurah?.number, selectedTranslations);
 
   // Bookmarks & Notes
   const { bookmarks, notes, setNotes, toggleBookmark, sortedBookmarks, sortedNotes } = useBookmarks();
@@ -138,7 +138,6 @@ export function useHomeController() {
   });
 
   // UI State
-  const [selectedTranslations, setSelectedTranslations] = useState<string[]>(["en.arberry"]);
   const [selectedAyah, setSelectedAyah] = useState<Ayah | null>(null);
   const [goToAyahInput, setGoToAyahInput] = useState("");
   const [showWordByWord, setShowWordByWord] = useState(false);
@@ -240,9 +239,6 @@ export function useHomeController() {
     error: wordError,
     refetch: refetchWordByWord
   } = useWordByWord(selectedSurah?.number, showWordByWord || readingMode);
-  const { cache: taqiCache, loading: taqiLoading, fetchTranslation: fetchTaqi } =
-    useTaqiTranslation();
-
   // Plan Summary
   const { planSummary, formatRangeLabel } = useHomePlan(
     surahs,
@@ -346,7 +342,6 @@ export function useHomeController() {
     if (!selectedSurah) return;
     setSelectedAyah(ayah);
     setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
-    fetchTaqi(selectedSurah.number, ayah.number);
   };
 
   const retryData = useCallback(() => {
@@ -401,9 +396,7 @@ export function useHomeController() {
       filteredAyahs,
       wordByAyah: wordByAyah as WordBySurah,
       wordLoading,
-      wordError,
-      taqiCache,
-      taqiLoading
+      wordError
     },
     audio: {
       nowPlaying,

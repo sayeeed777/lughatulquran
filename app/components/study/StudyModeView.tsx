@@ -81,7 +81,7 @@ export default function StudyModeView({
   const translationIds = Array.isArray(selectedTranslations)
     ? selectedTranslations
     : [selectedTranslations];
-  const primaryTranslation = translationIds[0] || "en.arberry";
+  const primaryTranslation = translationIds[0] || "en-arberry";
 
   const ayahs = useMemo(
     () => filteredAyahs || surahData?.ayahs || [],

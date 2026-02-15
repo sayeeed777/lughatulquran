@@ -28,7 +28,7 @@ type AyahCardProps = {
 const AyahCard = memo(function AyahCard({
   ayah,
   surahNumber,
-  selectedTranslations = ["en.arberry"],
+  selectedTranslations = ["en-arberry"],
   isSaved,
   hasNote,
   isFocused,
@@ -54,10 +54,15 @@ const AyahCard = memo(function AyahCard({
 
   // Translation label map
   const translationLabels: Record<string, string> = {
-    "en.sahih": "Sahih International",
-    "en.arberry": "A.J. Arberry",
-    "en.pickthall": "Pickthall",
-    "en.yusufali": "Yusuf Ali"
+    "en-sahih": "Sahih International",
+    "en-arberry": "A.J. Arberry",
+    "en-pickthall": "Pickthall",
+    "en-yusufali": "Yusuf Ali",
+    "en-taqi-usmani": "Mufti Taqi Usmani",
+    "en-haleem": "Abdel Haleem",
+    "en-muhsin-khan": "Muhsin Khan",
+    "en-maarif-ul-quran": "Maarif-ul-Quran",
+    "bayan-ul-quran": "Bayan-ul-Quran"
   };
 
   return (

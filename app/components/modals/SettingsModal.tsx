@@ -58,7 +58,7 @@ function SettingsModal({
   onTabChange,
   // Translation
   translations,
-  selectedTranslations = ["en.arberry"],
+  selectedTranslations = ["en-arberry"],
   setSelectedTranslations,
   // Font Scale
   fontScale,
@@ -271,7 +271,7 @@ function SettingsModal({
                         options={translations || []}
                         selectedIds={selectedTranslations}
                         onChange={setSelectedTranslations}
-                        defaultId="en.arberry"
+                        defaultId="en-arberry"
                         className="translation-chips-scroll"
                       />
                     </SettingsSection>

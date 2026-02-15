@@ -112,11 +112,20 @@ export function useSurahs() {
   return { surahs, loading, error, surahByNumber, refetch };
 }
 
-export function useSurahDetails(surahNumber?: number | string | null) {
+export function useSurahDetails(
+  surahNumber?: number | string | null,
+  translationIds: string[] = ["en-arberry"]
+) {
   const [surahData, setSurahData] = useState<SurahDetail | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [reloadKey, setReloadKey] = useState(0);
+  const translationKey = useMemo(() => {
+    return (translationIds || [])
+      .map((value) => String(value || "").trim())
+      .filter(Boolean)
+      .join(",");
+  }, [translationIds]);
 
   const refetch = useCallback(() => {
     setReloadKey((prev) => prev + 1);
@@ -132,7 +141,15 @@ export function useSurahDetails(surahNumber?: number | string | null) {
       setLoading(true);
       setError(null);
       try {
-        const payload = await fetchJSON<SurahDetail>(`/api/surah/${surahId}`, {
+        const params = new URLSearchParams();
+        if (translationKey) {
+          params.set("translations", translationKey);
+        }
+        const url = params.toString()
+          ? `/api/surah/${surahId}?${params.toString()}`
+          : `/api/surah/${surahId}`;
+
+        const payload = await fetchJSON<SurahDetail>(url, {
           ttl: 10 * 60 * 1000,
           retries: 2,
           retryDelay: 300,
@@ -160,7 +177,7 @@ export function useSurahDetails(surahNumber?: number | string | null) {
     return () => {
       controller.abort();
     };
-  }, [surahNumber, reloadKey]);
+  }, [surahNumber, translationKey, reloadKey]);
 
   return { surahData, loading, error, refetch };
 }
