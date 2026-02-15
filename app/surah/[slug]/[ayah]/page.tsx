@@ -27,15 +27,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `Surah ${surah.englishName} Ayah ${ayahNum} — ${surah.translation} (${surah.number}:${ayahNum})`;
   const description = englishSnippet
-    ? `"${englishSnippet}${verse!.en.length > 160 ? "..." : ""}" — Surah ${surah.englishName} (${surah.arabicName}), Verse ${surah.number}:${ayahNum}. Read with Arabic text, English translation & audio.`
-    : `Read Surah ${surah.englishName} (${surah.arabicName}), Ayah ${ayahNum} with English translations. Verse ${surah.number}:${ayahNum} — word-by-word analysis, audio recitation & tafsir.`;
+    ? `"${englishSnippet}${verse!.en.length > 160 ? "..." : ""}" — Surah ${surah.englishName} (${surah.arabicName}), Verse ${surah.number}:${ayahNum}. Read with Arabic text, translations in English, Bangla & Urdu, audio & tafsir.`
+    : `Read Surah ${surah.englishName} (${surah.arabicName}), Ayah ${ayahNum} with translations in English, Bangla & Urdu. Verse ${surah.number}:${ayahNum} — word-by-word analysis, audio recitation & tafsir.`;
 
   return {
     title,
     description,
     alternates: {
       canonical: `/surah/${slug}/${ayahNum}`,
-      languages: { "en": `/surah/${slug}/${ayahNum}`, "ar": `/surah/${slug}/${ayahNum}`, "x-default": `/surah/${slug}/${ayahNum}` }
+      languages: { "en": `/surah/${slug}/${ayahNum}`, "ar": `/surah/${slug}/${ayahNum}`, "bn": `/surah/${slug}/${ayahNum}`, "ur": `/surah/${slug}/${ayahNum}`, "x-default": `/surah/${slug}/${ayahNum}` }
     },
     openGraph: {
       title,
@@ -89,7 +89,7 @@ export default async function AyahPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: `Surah ${surah.englishName} Ayah ${ayahNum} (${surah.number}:${ayahNum})`,
-    description: `Verse ${surah.number}:${ayahNum} of Surah ${surah.englishName} with English translation`,
+    description: `Verse ${surah.number}:${ayahNum} of Surah ${surah.englishName} with translations in English, Bangla & Urdu`,
     articleBody: verse ? `${verse.ar}\n\n${verse.en}` : undefined,
     url: `https://openfurqan.com/surah/${slug}/${ayahNum}`,
     datePublished: "2025-06-01",
@@ -99,7 +99,7 @@ export default async function AyahPage({ params }: Props) {
       url: `https://openfurqan.com/surah/${slug}`,
       position: surah.number
     },
-    inLanguage: ["ar", "en"],
+    inLanguage: ["ar", "en", "bn", "ur"],
     publisher: {
       "@type": "WebApplication",
       name: "OpenFurqan",

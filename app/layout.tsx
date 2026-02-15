@@ -6,17 +6,19 @@ import { getCspNonce } from "./lib/csp";
 
 export const metadata: Metadata = {
   title: {
-    default: "OpenFurqan — Read Quran Online with English Translations",
+    default: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
     template: "%s | OpenFurqan"
   },
   description:
-    "Read the Quran online with authentic English translations by Arberry, Pickthall, Taqi Usmani, Yusuf Ali & Sahih International. Word-by-word analysis, audio recitation, prayer times & study tools.",
+    "Read the Quran online with translations in English, Bangla (বাংলা) & Urdu (اردو). Sahih International, Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Muhiuddin Khan & Bayan-ul-Quran. Word-by-word analysis, audio recitation, prayer times & study tools.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
     canonical: "/",
     languages: {
       "en": "/",
       "ar": "/",
+      "bn": "/",
+      "ur": "/",
       "x-default": "/"
     }
   },
@@ -24,7 +26,10 @@ export const metadata: Metadata = {
     "Quran", "Quran online", "read Quran", "Quran English translation",
     "Quran reader", "OpenFurqan", "Sahih International", "Yusuf Ali",
     "Pickthall", "Arberry", "Taqi Usmani", "word by word Quran",
-    "Quran audio", "Quran recitation", "Islamic", "prayer times"
+    "Quran audio", "Quran recitation", "Islamic", "prayer times",
+    "কুরআন", "কোরআন", "বাংলা অনুবাদ", "Quran Bangla translation",
+    "Quran Bengali", "قرآن", "اردو ترجمہ", "Quran Urdu translation",
+    "Bayan-ul-Quran", "Muhiuddin Khan"
   ],
   authors: [{ name: "OpenFurqan", url: "https://openfurqan.com" }],
   creator: "OpenFurqan",
@@ -35,15 +40,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://openfurqan.com",
     siteName: "OpenFurqan",
-    title: "OpenFurqan — Read Quran Online with English Translations",
+    title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
     description:
-      "Read the Quran online with authentic English translations, word-by-word analysis, audio recitation, prayer times and study tools. Free and open source.",
+      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools. Free and open source.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "OpenFurqan — Read Quran Online with English Translations",
+    title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
     description:
-      "Read the Quran online with authentic English translations, word-by-word analysis, audio recitation & study tools.",
+      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation & study tools.",
   },
   robots: {
     index: true,
@@ -99,7 +104,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     name: "OpenFurqan",
     url: "https://openfurqan.com",
     description:
-      "Read the Quran online with authentic English translations, word-by-word analysis, audio recitation, prayer times and study tools.",
+      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools.",
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
     offers: {
@@ -108,7 +113,9 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       priceCurrency: "USD"
     },
     featureList: [
-      "Multiple English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International)",
+      "Multiple English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International, Haleem, Muhsin Khan)",
+      "Bangla translation (Muhiuddin Khan)",
+      "Urdu translation (Bayan-ul-Quran)",
       "Word-by-word Arabic analysis",
       "Audio recitation by multiple reciters",
       "Prayer times",

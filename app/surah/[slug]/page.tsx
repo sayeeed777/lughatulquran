@@ -30,15 +30,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = `Surah ${surah.englishName} (${surah.arabicName}) — ${surah.translation}`;
   const description = snippet
-    ? `"${snippet}${firstVerse!.en.length > 120 ? "..." : ""}" — Read all ${surah.ayahCount} ayahs of Surah ${surah.englishName} with Arabic text, English translation, audio & tafsir.`
-    : `Read Surah ${surah.englishName} (${surah.translation}) with English translations. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Multiple translations including Sahih International, Yusuf Ali, Pickthall & more.`;
+    ? `"${snippet}${firstVerse!.en.length > 120 ? "..." : ""}" — Read all ${surah.ayahCount} ayahs of Surah ${surah.englishName} with Arabic text, translations in English, Bangla & Urdu, audio & tafsir.`
+    : `Read Surah ${surah.englishName} (${surah.translation}) with translations in English, Bangla & Urdu. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Sahih International, Yusuf Ali, Pickthall, Muhiuddin Khan & more.`;
 
   return {
     title,
     description,
     alternates: {
       canonical: `/surah/${slug}`,
-      languages: { "en": `/surah/${slug}`, "ar": `/surah/${slug}`, "x-default": `/surah/${slug}` }
+      languages: { "en": `/surah/${slug}`, "ar": `/surah/${slug}`, "bn": `/surah/${slug}`, "ur": `/surah/${slug}`, "x-default": `/surah/${slug}` }
     },
     openGraph: {
       title,
@@ -101,7 +101,7 @@ export default async function SurahPage({ params }: Props) {
       name: "The Holy Quran",
       url: "https://openfurqan.com"
     },
-    inLanguage: ["ar", "en"],
+    inLanguage: ["ar", "en", "bn", "ur"],
     provider: {
       "@type": "WebApplication",
       name: "OpenFurqan",
