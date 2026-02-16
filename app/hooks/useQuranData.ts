@@ -77,6 +77,7 @@ export function useSurahs() {
       try {
         const payload = await fetchJSON<SurahListPayload>("/api/surahs", {
           ttl: 24 * 60 * 60 * 1000,
+          cacheKey: "/api/surahs?v=2",
           retries: 2,
           retryDelay: 300,
           persist: true,
