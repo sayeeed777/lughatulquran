@@ -113,6 +113,24 @@
   margin-top: 12px;
 }
 
+.seo-context-section {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.seo-context-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #cdd3dc;
+  margin: 0 0 8px;
+  letter-spacing: 0.01em;
+}
+
+.seo-verse-context {
+  margin-bottom: 20px;
+  padding: 18px 0;
+}
+
 /* ---- CTA Button ---- */
 .seo-cta {
   display: inline-flex;

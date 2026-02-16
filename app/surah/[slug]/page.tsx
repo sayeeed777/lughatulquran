@@ -9,8 +9,6 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const PREVIEW_COUNT = 40;
-
 export async function generateStaticParams() {
   return SURAHS.map((s) => ({ slug: s.slug }));
 }
@@ -60,18 +58,18 @@ export default async function SurahPage({ params }: Props) {
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) notFound();
 
-  let surahText: Record<string, { ar: string; en: string }> = {};
+  let surahText: Partial<Record<string, { ar: string; en: string }>> = {};
   try {
     surahText = await loadSurahSeoText(surah.number);
   } catch {
     surahText = {};
   }
 
-  // Get preview verses (first N)
-  const previewVerses = [];
-  for (let i = 1; i <= Math.min(PREVIEW_COUNT, surah.ayahCount); i++) {
+  // Render all ayahs for stronger content depth and crawlability.
+  const allVerses = [];
+  for (let i = 1; i <= surah.ayahCount; i++) {
     const v = surahText[String(i)];
-    if (v) previewVerses.push({ num: i, ...v });
+    if (v) allVerses.push({ num: i, ...v });
   }
 
   const prevSurah = surah.number > 1 ? SURAH_BY_NUMBER.get(surah.number - 1) : null;
@@ -129,14 +127,14 @@ export default async function SurahPage({ params }: Props) {
             <span>{surah.revelationType}</span>
           </div>
           <p className="seo-verse-english seo-context-copy">
-            Surah {surah.englishName} is chapter {surah.number} of the Quran. This page shows the opening verses
+            Surah {surah.englishName} is chapter {surah.number} of the Quran. This page shows the full surah text
             in Arabic with translation and links to every ayah for full reading, audio, and study tools.
           </p>
         </header>
 
-        {/* Preview Verses */}
+        {/* Full Surah Verses */}
         <section>
-          {previewVerses.map((v) => (
+          {allVerses.map((v) => (
             <article key={v.num} className="seo-verse">
               <div className="seo-verse-ref">
                 <Link href={`/surah/${slug}/${v.num}`}>{surah.number}:{v.num}</Link>

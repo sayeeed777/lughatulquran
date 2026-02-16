@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../../data/surahs";
 import type { Metadata } from "next";
-import { loadVerseSeoText } from "../../../lib/seoQuranText";
+import { loadSurahSeoText, loadVerseSeoText } from "../../../lib/seoQuranText";
 import { getCspNonce } from "../../../lib/csp";
 
 export const dynamicParams = false;
@@ -69,11 +69,29 @@ export default async function AyahPage({ params }: Props) {
     notFound();
   }
 
-  let verse: { ar: string; en: string } | null = null;
+  let surahText: Partial<Record<string, { ar: string; en: string }>> = {};
   try {
-    verse = await loadVerseSeoText(surah.number, ayahNum);
+    surahText = await loadSurahSeoText(surah.number);
   } catch {
-    verse = null;
+    surahText = {};
+  }
+  let verse: { ar: string; en: string } | null = surahText[String(ayahNum)] || null;
+  if (!verse) {
+    try {
+      verse = await loadVerseSeoText(surah.number, ayahNum);
+    } catch {
+      verse = null;
+    }
+  }
+
+  const nearbyVerses: Array<{ num: number; ar: string; en: string }> = [];
+  const contextStart = Math.max(1, ayahNum - 2);
+  const contextEnd = Math.min(surah.ayahCount, ayahNum + 2);
+  for (let n = contextStart; n <= contextEnd; n++) {
+    if (n === ayahNum) continue;
+    const contextVerse = surahText[String(n)];
+    if (!contextVerse) continue;
+    nearbyVerses.push({ num: n, ...contextVerse });
   }
 
   const prevAyah = ayahNum > 1 ? ayahNum - 1 : null;
@@ -146,6 +164,25 @@ export default async function AyahPage({ params }: Props) {
             <p className="seo-verse-arabic">{verse.ar}</p>
             <p className="seo-verse-english">{verse.en}</p>
           </article>
+        )}
+        {nearbyVerses.length > 0 && (
+          <section className="seo-context-section" aria-labelledby="ayah-context-title">
+            <h2 id="ayah-context-title" className="seo-context-title">
+              Context in Surah {surah.englishName}
+            </h2>
+            <p className="seo-verse-english seo-context-copy">
+              Nearby ayahs help place verse {surah.number}:{ayahNum} in sequence and meaning.
+            </p>
+            {nearbyVerses.map((contextVerse) => (
+              <article key={contextVerse.num} className="seo-verse seo-verse-context">
+                <div className="seo-verse-ref">
+                  <Link href={`/surah/${slug}/${contextVerse.num}`}>{surah.number}:{contextVerse.num}</Link>
+                </div>
+                <p className="seo-verse-arabic">{contextVerse.ar}</p>
+                <p className="seo-verse-english">{contextVerse.en}</p>
+              </article>
+            ))}
+          </section>
         )}
 
         {/* CTA */}
