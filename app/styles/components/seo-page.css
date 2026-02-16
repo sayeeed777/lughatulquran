@@ -109,6 +109,10 @@
   color: #a8b0ba;
 }
 
+.seo-context-copy {
+  margin-top: 12px;
+}
+
 /* ---- CTA Button ---- */
 .seo-cta {
   display: inline-flex;
@@ -168,6 +172,19 @@
   flex-wrap: wrap;
   gap: 6px;
   margin-top: 16px;
+}
+
+.seo-ayah-links-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #7a8290;
+  margin: 0 0 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.seo-nav-surah {
+  margin-top: 32px;
 }
 
 .seo-ayah-link {

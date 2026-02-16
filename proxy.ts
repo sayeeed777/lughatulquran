@@ -19,7 +19,7 @@ const buildCsp = (nonce: string) =>
     "frame-ancestors 'none'",
     "form-action 'self'",
     "img-src 'self' data: blob:",
-    "font-src 'self' data:",
+    "font-src 'self' data: https://verses.quran.foundation https://cdn.jsdelivr.net",
     `style-src 'self' 'nonce-${nonce}'`,
     `script-src 'self' 'nonce-${nonce}'`,
     "connect-src 'self'",

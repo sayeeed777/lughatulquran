@@ -1,15 +1,24 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { SURAH_BY_SLUG, SURAH_BY_NUMBER } from "../../../data/surahs";
+import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../../data/surahs";
 import type { Metadata } from "next";
 import { loadVerseSeoText } from "../../../lib/seoQuranText";
 import { getCspNonce } from "../../../lib/csp";
 
-export const revalidate = 86400;
+export const dynamicParams = false;
 
 type Props = {
   params: Promise<{ slug: string; ayah: string }>;
 };
+
+export async function generateStaticParams() {
+  return SURAHS.flatMap((surah) =>
+    Array.from({ length: surah.ayahCount }, (_, index) => ({
+      slug: surah.slug,
+      ayah: String(index + 1)
+    }))
+  );
+}
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, ayah } = await params;
@@ -34,8 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}/${ayahNum}`,
-      languages: { "en": `/surah/${slug}/${ayahNum}`, "ar": `/surah/${slug}/${ayahNum}`, "bn": `/surah/${slug}/${ayahNum}`, "ur": `/surah/${slug}/${ayahNum}`, "x-default": `/surah/${slug}/${ayahNum}` }
+      canonical: `/surah/${slug}/${ayahNum}`
     },
     openGraph: {
       title,
@@ -92,7 +100,6 @@ export default async function AyahPage({ params }: Props) {
     description: `Verse ${surah.number}:${ayahNum} of Surah ${surah.englishName} with translations in English, Bangla & Urdu`,
     articleBody: verse ? `${verse.ar}\n\n${verse.en}` : undefined,
     url: `https://openfurqan.com/surah/${slug}/${ayahNum}`,
-    datePublished: "2026-02-16",
     isPartOf: {
       "@type": "Chapter",
       name: `Surah ${surah.englishName}`,

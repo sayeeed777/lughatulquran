@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { SURAHS } from "./data/surahs";
 
 const BASE = "https://openfurqan.com";
+// Update this only when canonical Quran SEO content changes.
 const LAST_MODIFIED = new Date("2026-02-16");
 
 /**
@@ -27,17 +28,15 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
         url: BASE,
         lastModified: LAST_MODIFIED,
         changeFrequency: "weekly",
-        priority: 1.0,
-        alternates: { languages: { en: BASE, bn: BASE, ur: BASE } }
+        priority: 1.0
       },
       ...SURAHS.map((surah) => {
         const surahUrl = `${BASE}/surah/${surah.slug}`;
         return {
           url: surahUrl,
           lastModified: LAST_MODIFIED,
-          changeFrequency: "monthly" as const,
-          priority: 0.8,
-          alternates: { languages: { en: surahUrl, bn: surahUrl, ur: surahUrl } }
+          changeFrequency: "yearly" as const,
+          priority: 0.8
         };
       })
     ];
@@ -56,8 +55,7 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
         url: ayahUrl,
         lastModified: LAST_MODIFIED,
         changeFrequency: "yearly",
-        priority: 0.5,
-        alternates: { languages: { en: ayahUrl, bn: ayahUrl, ur: ayahUrl } }
+        priority: 0.5
       });
     }
   }

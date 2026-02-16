@@ -10,17 +10,10 @@ export const metadata: Metadata = {
     template: "%s | OpenFurqan"
   },
   description:
-    "Read the Quran online with translations in English, Bangla (বাংলা) & Urdu (اردو). Sahih International, Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Muhiuddin Khan & Bayan-ul-Quran. Word-by-word analysis, audio recitation, prayer times & study tools.",
+    "Read the Quran online with Arabic text and translations in English, Bangla, and Urdu. Audio recitation, word-by-word study, prayer times, and notes.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
-    canonical: "/",
-    languages: {
-      "en": "/",
-      "ar": "/",
-      "bn": "/",
-      "ur": "/",
-      "x-default": "/"
-    }
+    canonical: "/"
   },
   keywords: [
     "Quran", "Quran online", "read Quran", "Quran English translation",
@@ -38,6 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
+    alternateLocale: ["ar", "bn_BD", "ur_PK"],
     url: "https://openfurqan.com",
     siteName: "OpenFurqan",
     title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
@@ -109,6 +103,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools.",
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
+    inLanguage: ["en", "ar", "bn", "ur"],
     offers: {
       "@type": "Offer",
       price: "0",
@@ -130,12 +125,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script
-          nonce={nonce}
-          dangerouslySetInnerHTML={{
-            __html: `(function(){try{var t=JSON.parse(localStorage.getItem("quran_theme"));if(t==="light"||t==="bw"||t==="dark"||t==="bw-dark"){document.documentElement.dataset.theme=t}else{document.documentElement.dataset.theme=window.matchMedia("(prefers-color-scheme:light)").matches?"light":"dark"}}catch(e){document.documentElement.dataset.theme="dark"}})();`,
-          }}
-        />
+        <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
       </head>
       <body>
         <script

@@ -9,7 +9,7 @@ type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const PREVIEW_COUNT = 5;
+const PREVIEW_COUNT = 40;
 
 export async function generateStaticParams() {
   return SURAHS.map((s) => ({ slug: s.slug }));
@@ -37,8 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}`,
-      languages: { "en": `/surah/${slug}`, "ar": `/surah/${slug}`, "bn": `/surah/${slug}`, "ur": `/surah/${slug}`, "x-default": `/surah/${slug}` }
+      canonical: `/surah/${slug}`
     },
     openGraph: {
       title,
@@ -95,7 +94,6 @@ export default async function SurahPage({ params }: Props) {
     description: `${surah.translation} — ${surah.ayahCount} ayahs, ${surah.revelationType} surah`,
     position: surah.number,
     url: `https://openfurqan.com/surah/${slug}`,
-    datePublished: "2026-02-16",
     isPartOf: {
       "@type": "Book",
       name: "The Holy Quran",
@@ -130,6 +128,10 @@ export default async function SurahPage({ params }: Props) {
             <span className="seo-meta-dot">&middot;</span>
             <span>{surah.revelationType}</span>
           </div>
+          <p className="seo-verse-english seo-context-copy">
+            Surah {surah.englishName} is chapter {surah.number} of the Quran. This page shows the opening verses
+            in Arabic with translation and links to every ayah for full reading, audio, and study tools.
+          </p>
         </header>
 
         {/* Preview Verses */}
@@ -154,7 +156,7 @@ export default async function SurahPage({ params }: Props) {
 
         {/* All Ayah Links */}
         <section>
-          <h2 style={{ fontSize: "0.875rem", fontWeight: 600, color: "#7a8290", marginBottom: 12, letterSpacing: "0.04em", textTransform: "uppercase" as const }}>
+          <h2 className="seo-ayah-links-title">
             All {surah.ayahCount} Ayahs
           </h2>
           <div className="seo-ayah-grid">
@@ -167,7 +169,7 @@ export default async function SurahPage({ params }: Props) {
         </section>
 
         {/* Navigation */}
-        <nav className="seo-nav" style={{ marginTop: 32 }}>
+        <nav className="seo-nav seo-nav-surah">
           {prevSurah ? (
             <Link href={`/surah/${prevSurah.slug}`}>
               &larr; {prevSurah.englishName}
