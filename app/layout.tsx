@@ -66,6 +66,9 @@ export const metadata: Metadata = {
   formatDetection: {
     telephone: false
   },
+  other: {
+    google: "notranslate"
+  },
   icons: {
     icon: [
       { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
@@ -128,7 +131,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   };
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} translate="no" suppressHydrationWarning>
       <head>
         <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
       </head>
