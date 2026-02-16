@@ -1,30 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1a3b42"/>
-      <stop offset="100%" stop-color="#0b1c20"/>
+    <linearGradient id="openfurqan-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18424a"/>
+      <stop offset="100%" stop-color="#071a22"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
-  <g transform="translate(96, 96) scale(5)">
-    <path
-      d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-      fill="none"
-      stroke="#d8b36a"
-      stroke-width="3"
-      stroke-linejoin="round"
-    />
-    <path
-      d="M32 14v28"
-      stroke="#d8b36a"
-      stroke-width="3"
-      stroke-linecap="round"
-    />
-    <path
-      d="M20 24h12M20 32h12M20 40h12"
-      stroke="#d8b36a"
-      stroke-width="2.5"
-      stroke-linecap="round"
-    />
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#openfurqan-bg)"/>
+  <g fill="none" stroke="#e0be74" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M156 190c31-14 68-21 100-21s69 7 100 21v161c-31-14-68-21-100-21s-69 7-100 21V190Z" stroke-width="24"/>
+    <path d="M256 169v182" stroke-width="23"/>
+    <path d="M186 236h54M186 284h54" stroke-width="20"/>
   </g>
 </svg>
