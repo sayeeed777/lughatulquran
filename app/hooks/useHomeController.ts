@@ -17,6 +17,12 @@ import { useHomePlan } from "./home/useHomePlan";
 import { useHomeEffects } from "./home/useHomeEffects";
 import { useHomeShortcuts } from "./home/useHomeShortcuts";
 import { ALL_TRANSLATIONS, STORAGE_KEYS } from "../lib/constants";
+import {
+  defaultTranslationForLocale,
+  localeFromPathname,
+  localeFromTranslationIds,
+  LOCALE_COOKIE
+} from "../lib/locales";
 import type {
   Ayah,
   LastRead,
@@ -59,6 +65,23 @@ export function useHomeController() {
     STORAGE_KEYS.translations,
     ["en-arberry"]
   );
+  const [hasStoredTranslations, setHasStoredTranslations] = useState<boolean | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setHasStoredTranslations(window.localStorage.getItem(STORAGE_KEYS.translations) !== null);
+  }, []);
+
+  // First visit on locale-prefixed routes should start with a matching translation.
+  useEffect(() => {
+    if (!areTranslationsLoaded) return;
+    if (hasStoredTranslations !== false) return;
+    if (typeof window === "undefined") return;
+
+    const routeLocale = localeFromPathname(window.location.pathname) || "en";
+    setStoredTranslations([defaultTranslationForLocale(routeLocale)]);
+    setHasStoredTranslations(true);
+  }, [areTranslationsLoaded, hasStoredTranslations, setStoredTranslations]);
 
   const selectedTranslations = useMemo(() => {
     const input = Array.isArray(storedTranslations) ? storedTranslations : ["en-arberry"];
@@ -85,6 +108,14 @@ export function useHomeController() {
     }
     setStoredTranslations(selectedTranslations);
   }, [areTranslationsLoaded, selectedTranslations, setStoredTranslations, storedTranslations]);
+
+  // Persist preferred locale for root redirects (/, legacy links).
+  useEffect(() => {
+    if (!areTranslationsLoaded) return;
+    if (typeof document === "undefined") return;
+    const locale = localeFromTranslationIds(selectedTranslations);
+    document.cookie = `${LOCALE_COOKIE}=${locale}; Path=/; Max-Age=31536000; SameSite=Lax`;
+  }, [areTranslationsLoaded, selectedTranslations]);
 
   const setSelectedTranslations = setStoredTranslations;
   const {

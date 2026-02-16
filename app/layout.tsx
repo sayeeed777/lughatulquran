@@ -3,6 +3,8 @@ import Script from "next/script";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { getCspNonce } from "./lib/csp";
+import { headers } from "next/headers";
+import { DEFAULT_LOCALE, localeAlternateMap, normalizeLocale } from "./lib/locales";
 
 export const metadata: Metadata = {
   title: {
@@ -13,7 +15,8 @@ export const metadata: Metadata = {
     "Read the Quran online with Arabic text and translations in English, Bangla, and Urdu. Audio recitation, word-by-word study, prayer times, and notes.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
-    canonical: "/"
+    canonical: "/en",
+    languages: localeAlternateMap("/")
   },
   keywords: [
     "Quran", "Quran online", "read Quran", "Quran English translation",
@@ -32,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: ["ar", "bn_BD", "ur_PK"],
-    url: "https://openfurqan.com",
+    url: "https://openfurqan.com/en",
     siteName: "OpenFurqan",
     title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
     description:
@@ -92,6 +95,8 @@ type RootLayoutProps = {
 };
 
 export default async function RootLayout({ children }: RootLayoutProps) {
+  const requestHeaders = await headers();
+  const locale = normalizeLocale(requestHeaders.get("x-locale")) || DEFAULT_LOCALE;
   const nonce = await getCspNonce();
 
   const jsonLd = {
@@ -123,7 +128,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   };
 
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head>
         <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
       </head>
