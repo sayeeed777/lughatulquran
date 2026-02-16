@@ -166,7 +166,8 @@ export default function ReaderPanel() {
     return () => observer.disconnect();
   }, [filteredAyahs.length, isMobileViewport, visibleCount]);
   const mobileSurahResults = useMemo(() => {
-    const list = query?.trim() ? filteredSurahs : surahs;
+    const effectiveQuery = String(query || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
+    const list = effectiveQuery ? filteredSurahs : surahs;
     if (!Array.isArray(list)) return [];
     return list.slice(0, 12);
   }, [filteredSurahs, query, surahs]);

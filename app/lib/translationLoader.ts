@@ -19,35 +19,9 @@ type LocalTranslationFile = {
   surahs: LocalSurah[];
 };
 
-// Parse the Python-like dict string: {'t': 'text', 'f': {...}}
-const parseTranslationField = (raw: string): string => {
-  if (!raw) return "";
-
-  // Extract the 't' value from the dict-like string (handles both '...' and "...")
-  const tMatch = raw.match(
-    /'t'\s*:\s*(?:'((?:[^'\\]|\\.|'')*?)'|"((?:[^"\\]|\\.)*?)")\s*[,}]/s
-  );
-  if (!tMatch) return raw;
-
-  let text = (tMatch[1] ?? tMatch[2] ?? "").toString();
-
-  // Unescape common sequences from the source encoding.
-  text = text
-    .replace(/''/g, "'")
-    .replace(/\\'/g, "'")
-    .replace(/\\"/g, "\"")
-    .replace(/\\n/g, "\n")
-    .replace(/\\r/g, "\r")
-    .replace(/\\t/g, "\t");
-
-  // Remove HTML footnote markers like <sup foot_note="...">N</sup>
-  text = text.replace(/<sup\s+foot_note="[^"]*">\d+<\/sup>/gi, "");
-
-  return text.trim();
-};
-
 // Cache loaded translations in memory (they never change)
 const cache = new Map<string, LocalTranslationFile>();
+const surahVerseCache = new Map<string, Map<number, Map<number, string>>>();
 
 const loadTranslationFile = async (
   translationId: string
@@ -74,17 +48,25 @@ export const getTranslation = async (
   translationId: string,
   surahNumber: number
 ): Promise<Map<number, string> | null> => {
+  const cachedBySurah = surahVerseCache.get(translationId);
+  if (cachedBySurah) {
+    return cachedBySurah.get(surahNumber) || null;
+  }
+
   const file = await loadTranslationFile(translationId);
   if (!file) return null;
 
-  const surah = file.surahs.find((s) => s.id === surahNumber);
-  if (!surah) return null;
-
-  const verses = new Map<number, string>();
-  for (const verse of surah.verses) {
-    verses.set(verse.id, parseTranslationField(verse.translation));
+  const bySurah = new Map<number, Map<number, string>>();
+  for (const surah of file.surahs) {
+    const verses = new Map<number, string>();
+    for (const verse of surah.verses) {
+      verses.set(verse.id, String(verse.translation || "").trim());
+    }
+    bySurah.set(surah.id, verses);
   }
-  return verses;
+  surahVerseCache.set(translationId, bySurah);
+
+  return bySurah.get(surahNumber) || null;
 };
 
 export const getAyahTranslation = async (

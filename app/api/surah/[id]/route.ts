@@ -100,6 +100,7 @@ type AyahMetaEntry = {
 };
 
 let ayahMetaCache: Record<string, AyahMetaEntry> | null = null;
+let localArabicBySurahCache: Map<number, ArabicVerse[]> | null = null;
 
 const loadAyahMeta = async (): Promise<Record<string, AyahMetaEntry>> => {
   if (ayahMetaCache) return ayahMetaCache;
@@ -113,22 +114,36 @@ const loadAyahMeta = async (): Promise<Record<string, AyahMetaEntry>> => {
   }
 };
 
-const getLocalArabicVerses = async (surahNumber: number): Promise<ArabicVerse[]> => {
+const loadLocalArabicBySurah = async (): Promise<Map<number, ArabicVerse[]>> => {
+  if (localArabicBySurahCache) return localArabicBySurahCache;
+
   const meta = await loadAyahMeta();
-  const verses: ArabicVerse[] = [];
+  const bySurah = new Map<number, ArabicVerse[]>();
+
   for (const entry of Object.values(meta)) {
-    if (entry.surah_number === surahNumber) {
-      // Remove verse number suffix (e.g., " ١" at end of text)
-      const text = entry.text.replace(/\s+[\u0660-\u0669\u06F0-\u06F9]+$/u, "").trim();
-      verses.push({
-        number: entry.ayah_number,
-        text,
-        tajweed: null,
-        page: null
-      });
-    }
+    const list = bySurah.get(entry.surah_number) || [];
+    // Remove verse number suffix (e.g., " ١" at end of text)
+    const text = entry.text.replace(/\s+[\u0660-\u0669\u06F0-\u06F9]+$/u, "").trim();
+    list.push({
+      number: entry.ayah_number,
+      text,
+      tajweed: null,
+      page: null
+    });
+    bySurah.set(entry.surah_number, list);
   }
-  return verses;
+
+  for (const verses of bySurah.values()) {
+    verses.sort((a, b) => a.number - b.number);
+  }
+
+  localArabicBySurahCache = bySurah;
+  return bySurah;
+};
+
+const getLocalArabicVerses = async (surahNumber: number): Promise<ArabicVerse[]> => {
+  const bySurah = await loadLocalArabicBySurah();
+  return bySurah.get(surahNumber) || [];
 };
 
 type RouteContext = {
@@ -180,6 +195,9 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
     if (!arabicVerses) {
       arabicVerses = await getLocalArabicVerses(surahNumber);
     }
+    const arabicByNumber = new Map<number, ArabicVerse>(
+      (arabicVerses || []).map((verse) => [verse.number, verse])
+    );
 
     // 4. Merge Data
     const ayahs: Array<{
@@ -193,7 +211,7 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
     const totalAyahs = surahMeta.ayahCount;
 
     for (let i = 1; i <= totalAyahs; i++) {
-      const arabicEntry = arabicVerses?.find((v) => v.number === i);
+      const arabicEntry = arabicByNumber.get(i);
       const arabicText = arabicEntry?.text || "Arabic text unavailable";
       const arabicTajweed = arabicEntry?.tajweed || null;
       const pageNumber = arabicEntry?.page || null;

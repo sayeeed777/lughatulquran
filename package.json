@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "engines": {
-    "node": ">=24.x"
+    "node": "24.x"
   },
   "scripts": {
     "dev": "next dev",
@@ -14,6 +14,7 @@
     "lint": "eslint .",
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest",
+    "normalize:translations": "node scripts/normalize-translation-json.mjs",
     "verify:prayer": "node scripts/verify-prayer-times.mjs",
     "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs",
     "split:quran-seo-text": "node scripts/split-quran-seo-text.mjs"

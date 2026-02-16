@@ -1,20 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { checkRateLimit } from "../../lib/rateLimit";
 
 const MAX_QUERY_LENGTH = 120;
 const RATE_LIMIT_WINDOW_MS = 60_000;
 const RATE_LIMIT_MAX_REQUESTS = 30;
-const RATE_LIMIT_CACHE_MAX = 2000;
-
-type RateLimitBucket = {
-  count: number;
-  resetAt: number;
-};
-
-// NOTE: In-memory rate limiting is best-effort. It resets on cold starts in
-// serverless environments and is per-instance in multi-instance deployments.
-// For stricter enforcement, replace with an external store (e.g. Redis, KV).
-const rateLimitBuckets = new Map<string, RateLimitBucket>();
 
 type SearchResult = {
   surah: number | null;
@@ -65,38 +55,6 @@ const getClientIdentifier = (request: NextRequest) => {
   return `${ip}:${simpleHash(userAgent)}`;
 };
 
-const pruneRateLimitBuckets = (now: number) => {
-  if (rateLimitBuckets.size <= RATE_LIMIT_CACHE_MAX) return;
-  for (const [key, bucket] of rateLimitBuckets.entries()) {
-    if (now >= bucket.resetAt) {
-      rateLimitBuckets.delete(key);
-    }
-  }
-};
-
-const checkRateLimit = (clientKey: string, now: number) => {
-  const current = rateLimitBuckets.get(clientKey);
-
-  if (!current || now >= current.resetAt) {
-    rateLimitBuckets.set(clientKey, {
-      count: 1,
-      resetAt: now + RATE_LIMIT_WINDOW_MS
-    });
-    return { limited: false, retryAfterSeconds: 0 };
-  }
-
-  if (current.count >= RATE_LIMIT_MAX_REQUESTS) {
-    return {
-      limited: true,
-      retryAfterSeconds: Math.max(1, Math.ceil((current.resetAt - now) / 1000))
-    };
-  }
-
-  current.count += 1;
-  rateLimitBuckets.set(clientKey, current);
-  return { limited: false, retryAfterSeconds: 0 };
-};
-
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const query = searchParams.get("q");
@@ -114,10 +72,13 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  const now = Date.now();
   const clientKey = getClientIdentifier(request);
-  pruneRateLimitBuckets(now);
-  const { limited, retryAfterSeconds } = checkRateLimit(clientKey, now);
+  const { limited, retryAfterSeconds } = await checkRateLimit({
+    namespace: "api-search",
+    key: clientKey,
+    limit: RATE_LIMIT_MAX_REQUESTS,
+    windowMs: RATE_LIMIT_WINDOW_MS
+  });
   if (limited) {
     return NextResponse.json(
       {

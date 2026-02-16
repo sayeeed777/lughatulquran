@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useRef } from "react";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError, SettingsIcon, ClockIcon, ThemeChooser } from "../common";
 import { useQuranData, useUIState, useActions } from "../../contexts";
@@ -31,9 +32,14 @@ export default function SurahList({
   onOpenPrayer,
   onOpenSettings
 }: SurahListProps) {
-  const { filteredSurahs, selectedSurah, loadingSurahs: loading, surahsError: error } = useQuranData();
+  const { surahs, filteredSurahs, selectedSurah, loadingSurahs: loading, surahsError: error } = useQuranData();
   const { query, setQuery } = useUIState();
   const { handleSelectSurah: onSelectSurah, retryData: onRetry } = useActions();
+  const hasMounted = useRef(false);
+  const effectiveQuery = String(query || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
+  const visibleSurahs = effectiveQuery ? filteredSurahs : surahs;
+  const shouldAnimate = !hasMounted.current;
+  if (visibleSurahs.length && !loading) hasMounted.current = true;
 
   if (loading) {
     return (
@@ -99,26 +105,29 @@ export default function SurahList({
       {error && (
         <InlineError title="Surahs unavailable" message={error} onRetry={onRetry} compact />
       )}
-      <motion.ul className="surah-list" variants={container} initial="hidden" animate="show">
-        {filteredSurahs.map((surah) => (
-          <motion.li key={surah.number} variants={item}>
-            <button
-              className={`surah-item${selectedSurah?.number === surah.number ? " active" : ""}`}
-              onClick={() => onSelectSurah(surah)}
-            >
-              <span className="surah-number">{surah.number}</span>
-              <span className="surah-names">
-                <span className="surah-english">{surah.englishName}</span>
-                <span className="surah-translation">{surah.englishNameTranslation}</span>
-              </span>
-              <span className="surah-arabic" lang="ar" dir="rtl">
-                {surah.name}
-              </span>
-            </button>
-          </motion.li>
-        ))}
-      </motion.ul>
+      {visibleSurahs.length ? (
+        <motion.ul className="surah-list" variants={container} initial={shouldAnimate ? "hidden" : false} animate="show">
+          {visibleSurahs.map((surah) => (
+            <motion.li key={surah.number} variants={item} initial={shouldAnimate ? "hidden" : false}>
+              <button
+                className={`surah-item${selectedSurah?.number === surah.number ? " active" : ""}`}
+                onClick={() => onSelectSurah(surah)}
+              >
+                <span className="surah-number">{surah.number}</span>
+                <span className="surah-names">
+                  <span className="surah-english">{surah.englishName}</span>
+                  <span className="surah-translation">{surah.englishNameTranslation}</span>
+                </span>
+                <span className="surah-arabic" lang="ar" dir="rtl">
+                  {surah.name}
+                </span>
+              </button>
+            </motion.li>
+          ))}
+        </motion.ul>
+      ) : (
+        <p className="meta">No surahs found. Try another search.</p>
+      )}
     </aside>
   );
 }
-
