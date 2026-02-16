@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { useRef } from "react";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError, SettingsIcon, ClockIcon, ThemeChooser } from "../common";
 import { useQuranData, useUIState, useActions } from "../../contexts";
@@ -9,22 +7,6 @@ import { useQuranData, useUIState, useActions } from "../../contexts";
 type SurahListProps = {
   onOpenPrayer?: () => void;
   onOpenSettings?: () => void;
-};
-
-// Move animation objects outside component to prevent recreation on every render
-const container = {
-  hidden: { opacity: 0 },
-  show: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.05
-    }
-  }
-};
-
-const item = {
-  hidden: { opacity: 0, x: -10 },
-  show: { opacity: 1, x: 0 }
 };
 
 
@@ -35,11 +17,8 @@ export default function SurahList({
   const { surahs, filteredSurahs, selectedSurah, loadingSurahs: loading, surahsError: error } = useQuranData();
   const { query, setQuery } = useUIState();
   const { handleSelectSurah: onSelectSurah, retryData: onRetry } = useActions();
-  const hasMounted = useRef(false);
   const effectiveQuery = String(query || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
   const visibleSurahs = effectiveQuery ? filteredSurahs : surahs;
-  const shouldAnimate = !hasMounted.current;
-  if (visibleSurahs.length && !loading) hasMounted.current = true;
 
   if (loading) {
     return (
@@ -106,9 +85,9 @@ export default function SurahList({
         <InlineError title="Surahs unavailable" message={error} onRetry={onRetry} compact />
       )}
       {visibleSurahs.length ? (
-        <motion.ul className="surah-list" variants={container} initial={shouldAnimate ? "hidden" : false} animate="show">
+        <ul className="surah-list">
           {visibleSurahs.map((surah) => (
-            <motion.li key={surah.number} variants={item} initial={shouldAnimate ? "hidden" : false}>
+            <li key={surah.number}>
               <button
                 className={`surah-item${selectedSurah?.number === surah.number ? " active" : ""}`}
                 onClick={() => onSelectSurah(surah)}
@@ -122,9 +101,9 @@ export default function SurahList({
                   {surah.name}
                 </span>
               </button>
-            </motion.li>
+            </li>
           ))}
-        </motion.ul>
+        </ul>
       ) : (
         <p className="meta">No surahs found. Try another search.</p>
       )}
