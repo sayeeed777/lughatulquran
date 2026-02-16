@@ -6,6 +6,11 @@
       document.documentElement.dataset.theme = theme;
       return;
     }
+    const isMobileView = window.matchMedia?.("(max-width: 1100px)")?.matches;
+    if (isMobileView) {
+      document.documentElement.dataset.theme = "dark";
+      return;
+    }
     document.documentElement.dataset.theme = window.matchMedia("(prefers-color-scheme:light)").matches
       ? "light"
       : "dark";

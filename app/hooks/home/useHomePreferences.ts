@@ -22,7 +22,7 @@ const asNumberOrNull = (value: unknown) => {
 export function useHomePreferences() {
   const mobileViewportQuery = "(max-width: 1100px)";
   const desktopDefaultArabicFontId = "scheherazade-new";
-  const mobileDefaultArabicFontId = "uthman-naskh";
+  const mobileDefaultArabicFontId = "scheherazade-new";
   const [readingPlan, setReadingPlan] = useReadingPlan();
   const [fontScale, setFontScale] = useFontScale();
   const [storedPlaybackRate, setStoredPlaybackRate] = useLocalStorage(
@@ -152,6 +152,10 @@ export function useHomePreferences() {
         if (parsed === "dark" || parsed === "light" || parsed === "bw" || parsed === "bw-dark") {
           return parsed;
         }
+      }
+      const isMobileView = window.matchMedia?.(mobileViewportQuery)?.matches;
+      if (isMobileView) {
+        return "dark";
       }
       return window.matchMedia?.("(prefers-color-scheme: light)")?.matches ? "light" : "dark";
     } catch {
