@@ -89,7 +89,7 @@ export default function CompareModal() {
           return (
             <div key={translation.id} className="compare-block">
               <p className="label">{translation.label}</p>
-              <p className="compare-text">
+              <p dir="auto" className="compare-text">
                 {translationText || (loading ? "Loading..." : "Translation unavailable.")}
               </p>
             </div>

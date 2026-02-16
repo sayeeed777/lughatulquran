@@ -87,8 +87,10 @@ export const ALL_TRANSLATIONS = [
   { id: "en-haleem", label: "Abdel Haleem", short: "Haleem" },
   { id: "en-muhsin-khan", label: "Muhsin Khan", short: "Muhsin Khan" },
   { id: "en-maarif-ul-quran", label: "Maarif-ul-Quran", short: "Maarif" },
+  { id: "en-ahmedraza", label: "Kanz al-Iman (English)", short: "Kanz (EN)" },
   { id: "bn-bengali", label: "Bangla (Muhiuddin Khan)", short: "Bangla" },
   { id: "bn-hoque", label: "Bangla (Zohurul Hoque)", short: "Hoque" },
+  { id: "ur-kanzuliman", label: "Kanz al-Iman (Urdu)", short: "Kanz (UR)" },
   { id: "bayan-ul-quran", label: "Bayan-ul-Quran (Urdu)", short: "Bayan" }
 ];
 
@@ -170,6 +172,7 @@ export const STORAGE_KEYS = {
   noteDraft: "quran_note_draft",
   plan: "quran_plan",
   fontScale: "quran_font_scale",
+  translations: "quran_translations",
   playbackRate: "quran_playback_rate",
   lastRead: "quran_last_read",
   studySession: "quran_study_session",

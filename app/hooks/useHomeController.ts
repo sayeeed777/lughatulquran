@@ -1,8 +1,8 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { verseKey, copyToClipboard } from "../lib/utils";
-import { useLastRead, useStudySession } from "./common";
+import { useLastRead, useStudySession, useLocalStorage } from "./common";
 import { useAudioPlayback } from "./useAudioPlayback";
 import { useBookmarks, useNoteEditor } from "./useBookmarks";
 import { useMemorization } from "./useMemorization";
@@ -16,6 +16,7 @@ import { useHomeFilters } from "./home/useHomeFilters";
 import { useHomePlan } from "./home/useHomePlan";
 import { useHomeEffects } from "./home/useHomeEffects";
 import { useHomeShortcuts } from "./home/useHomeShortcuts";
+import { ALL_TRANSLATIONS, STORAGE_KEYS } from "../lib/constants";
 import type {
   Ayah,
   LastRead,
@@ -48,7 +49,44 @@ export function useHomeController() {
     refetch: refetchSurahs
   } = useSurahs();
   const [selectedSurah, setSelectedSurah] = useState<Surah | null>(null);
-  const [selectedTranslations, setSelectedTranslations] = useState<string[]>(["en-arberry"]);
+
+  const availableTranslationIds = useMemo(
+    () => new Set(ALL_TRANSLATIONS.map((t) => t.id)),
+    []
+  );
+
+  const [storedTranslations, setStoredTranslations, areTranslationsLoaded] = useLocalStorage(
+    STORAGE_KEYS.translations,
+    ["en-arberry"]
+  );
+
+  const selectedTranslations = useMemo(() => {
+    const input = Array.isArray(storedTranslations) ? storedTranslations : ["en-arberry"];
+    const unique: string[] = [];
+    const seen = new Set<string>();
+
+    for (const id of input) {
+      if (typeof id !== "string") continue;
+      if (!availableTranslationIds.has(id)) continue;
+      if (seen.has(id)) continue;
+      seen.add(id);
+      unique.push(id);
+    }
+
+    return unique.length ? unique : ["en-arberry"];
+  }, [availableTranslationIds, storedTranslations]);
+
+  // Keep localStorage tidy if older/invalid IDs were stored.
+  useEffect(() => {
+    if (!areTranslationsLoaded) return;
+    const stored = Array.isArray(storedTranslations) ? storedTranslations : [];
+    if (stored.length === selectedTranslations.length && stored.every((v, i) => v === selectedTranslations[i])) {
+      return;
+    }
+    setStoredTranslations(selectedTranslations);
+  }, [areTranslationsLoaded, selectedTranslations, setStoredTranslations, storedTranslations]);
+
+  const setSelectedTranslations = setStoredTranslations;
   const {
     surahData,
     loading: loadingSurahData,

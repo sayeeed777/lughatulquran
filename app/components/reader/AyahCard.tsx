@@ -62,8 +62,10 @@ const AyahCard = memo(function AyahCard({
     "en-haleem": "Abdel Haleem",
     "en-muhsin-khan": "Muhsin Khan",
     "en-maarif-ul-quran": "Maarif-ul-Quran",
+    "en-ahmedraza": "Kanz al-Iman (English)",
     "bn-bengali": "Bangla (Muhiuddin Khan)",
     "bn-hoque": "Bangla (Zohurul Hoque)",
+    "ur-kanzuliman": "Kanz al-Iman (Urdu)",
     "bayan-ul-quran": "Bayan-ul-Quran"
   };
 
@@ -182,7 +184,7 @@ const AyahCard = memo(function AyahCard({
                   {translationLabels[translationId] || translationId}
                 </span>
               )}
-              <p className={`ayah-translation${translationIds.length > 1 ? " multi" : ""}`}>
+              <p dir="auto" className={`ayah-translation${translationIds.length > 1 ? " multi" : ""}`}>
                 {translation?.text || "Translation unavailable."}
               </p>
             </div>
