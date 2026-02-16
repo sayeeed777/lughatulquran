@@ -425,7 +425,8 @@
 
 .ayah-translation.multi {
   padding-left: 12px;
-  border-left: 2px solid rgba(111, 212, 177, 0.3);
+  border-left: 2px solid var(--accent-2);
+  border-left-color: color-mix(in srgb, var(--accent-2) 40%, transparent);
 }
 
 /* Mobile optimizations for translation chips */
@@ -1375,4 +1376,3 @@
 :root[data-theme="bw"] .segmented-control-indicator {
   background: #111;
 }
-
