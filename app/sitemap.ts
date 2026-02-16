@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { SURAHS } from "./data/surahs";
 
 const BASE = "https://openfurqan.com";
-const LAST_MODIFIED = new Date("2025-06-01");
+const LAST_MODIFIED = new Date("2026-02-16");
 
 /**
  * Generates a sitemap index with one sitemap per group:
@@ -27,14 +27,19 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
         url: BASE,
         lastModified: LAST_MODIFIED,
         changeFrequency: "weekly",
-        priority: 1.0
+        priority: 1.0,
+        alternates: { languages: { en: BASE, bn: BASE, ur: BASE } }
       },
-      ...SURAHS.map((surah) => ({
-        url: `${BASE}/surah/${surah.slug}`,
-        lastModified: LAST_MODIFIED,
-        changeFrequency: "monthly" as const,
-        priority: 0.8
-      }))
+      ...SURAHS.map((surah) => {
+        const surahUrl = `${BASE}/surah/${surah.slug}`;
+        return {
+          url: surahUrl,
+          lastModified: LAST_MODIFIED,
+          changeFrequency: "monthly" as const,
+          priority: 0.8,
+          alternates: { languages: { en: surahUrl, bn: surahUrl, ur: surahUrl } }
+        };
+      })
     ];
   }
 
@@ -46,11 +51,13 @@ export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
   for (const surah of chunk) {
     for (let ayah = 1; ayah <= surah.ayahCount; ayah++) {
+      const ayahUrl = `${BASE}/surah/${surah.slug}/${ayah}`;
       entries.push({
-        url: `${BASE}/surah/${surah.slug}/${ayah}`,
+        url: ayahUrl,
         lastModified: LAST_MODIFIED,
         changeFrequency: "yearly",
-        priority: 0.5
+        priority: 0.5,
+        alternates: { languages: { en: ayahUrl, bn: ayahUrl, ur: ayahUrl } }
       });
     }
   }

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
-export const alt = "OpenFurqan — Modern Quran Reader";
+export const alt = "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -70,7 +70,7 @@ export default function OGImage() {
             marginBottom: 24,
           }}
         >
-          Read Quran Online with English Translations
+          Read Quran · English · Bangla · Urdu
         </div>
 
         {/* Features */}
@@ -82,7 +82,7 @@ export default function OGImage() {
             color: "#a8b0ba",
           }}
         >
-          <span>5 Translations</span>
+          <span>10+ Translations</span>
           <span style={{ color: "#4a5568" }}>·</span>
           <span>Word-by-Word</span>
           <span style={{ color: "#4a5568" }}>·</span>

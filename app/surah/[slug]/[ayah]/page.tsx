@@ -92,7 +92,7 @@ export default async function AyahPage({ params }: Props) {
     description: `Verse ${surah.number}:${ayahNum} of Surah ${surah.englishName} with translations in English, Bangla & Urdu`,
     articleBody: verse ? `${verse.ar}\n\n${verse.en}` : undefined,
     url: `https://openfurqan.com/surah/${slug}/${ayahNum}`,
-    datePublished: "2025-06-01",
+    datePublished: "2026-02-16",
     isPartOf: {
       "@type": "Chapter",
       name: `Surah ${surah.englishName}`,

@@ -95,7 +95,7 @@ export default async function SurahPage({ params }: Props) {
     description: `${surah.translation} — ${surah.ayahCount} ayahs, ${surah.revelationType} surah`,
     position: surah.number,
     url: `https://openfurqan.com/surah/${slug}`,
-    datePublished: "2025-06-01",
+    datePublished: "2026-02-16",
     isPartOf: {
       "@type": "Book",
       name: "The Holy Quran",

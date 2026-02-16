@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 import { SURAH_BY_SLUG, SURAHS } from "../../data/surahs";
 
-export const alt = "OpenFurqan — Surah";
+export const alt = "OpenFurqan — Surah with English, Bangla & Urdu Translations";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
