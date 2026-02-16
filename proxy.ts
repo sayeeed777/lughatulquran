@@ -79,7 +79,7 @@ export function proxy(request: NextRequest) {
     const preferredLocale = resolvePreferredLocale(request);
     const url = request.nextUrl.clone();
     url.pathname = withLocalePath(preferredLocale);
-    const response = NextResponse.redirect(url, 307);
+    const response = NextResponse.redirect(url, 308);
     setLocaleCookie(response, preferredLocale);
     return response;
   }
