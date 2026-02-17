@@ -34,6 +34,10 @@ const buildCsp = (nonce: string) =>
   ].join("; ");
 
 const CANONICAL_HOST = "openfurqan.com";
+const LEGACY_PRODUCTION_HOSTS = new Set([
+  "www.openfurqan.com",
+  "quranbeta.vercel.app"
+]);
 const ONE_YEAR_SECONDS = 60 * 60 * 24 * 365;
 
 const setLocaleCookie = (response: NextResponse, locale: string) => {
@@ -49,8 +53,8 @@ export function proxy(request: NextRequest) {
   const { hostname, pathname } = request.nextUrl;
   const localeFromPath = localeFromPathname(pathname);
 
-  // Redirect www → non-www
-  if (hostname === `www.${CANONICAL_HOST}`) {
+  // Redirect known legacy production hosts to canonical domain.
+  if (LEGACY_PRODUCTION_HOSTS.has(hostname)) {
     const url = request.nextUrl.clone();
     url.hostname = CANONICAL_HOST;
     return NextResponse.redirect(url, 301);
