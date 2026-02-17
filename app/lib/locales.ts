@@ -70,6 +70,7 @@ export const localeFromPathname = (pathname?: string | null): AppLocale | null =
 
 export const withLocalePath = (locale: AppLocale, path = "/") => {
   const safePath = path.startsWith("/") ? path : `/${path}`;
+  if (locale === DEFAULT_LOCALE) return safePath;
   if (safePath === "/") return `/${locale}`;
   return `/${locale}${safePath}`;
 };

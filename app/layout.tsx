@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     "Read the Quran online with Arabic text and translations in English, Bangla, and Urdu. Audio recitation, word-by-word study, prayer times, and notes.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
-    canonical: "/en",
+    canonical: "/",
     languages: localeAlternateMap("/")
   },
   keywords: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: ["ar", "bn_BD", "ur_PK"],
-    url: "https://openfurqan.com/en",
+    url: "https://openfurqan.com/",
     siteName: "OpenFurqan",
     title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
     description:

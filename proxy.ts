@@ -3,10 +3,7 @@ import type { NextRequest } from "next/server";
 import {
   DEFAULT_LOCALE,
   LOCALE_COOKIE,
-  localeFromAcceptLanguage,
-  localeFromPathname,
-  normalizeLocale,
-  withLocalePath
+  localeFromPathname
 } from "./app/lib/locales";
 
 const createNonce = () => {
@@ -48,17 +45,9 @@ const setLocaleCookie = (response: NextResponse, locale: string) => {
   });
 };
 
-const resolvePreferredLocale = (request: NextRequest) => {
-  const cookieLocale = normalizeLocale(request.cookies.get(LOCALE_COOKIE)?.value);
-  if (cookieLocale) return cookieLocale;
-  return localeFromAcceptLanguage(request.headers.get("accept-language"));
-};
-
 export function proxy(request: NextRequest) {
   const { hostname, pathname } = request.nextUrl;
   const localeFromPath = localeFromPathname(pathname);
-  const isSurahPath = pathname === "/surah" || pathname.startsWith("/surah/");
-  const isSurahOpenGraphImage = pathname.includes("/opengraph-image");
 
   // Redirect www → non-www
   if (hostname === `www.${CANONICAL_HOST}`) {
@@ -67,30 +56,26 @@ export function proxy(request: NextRequest) {
     return NextResponse.redirect(url, 301);
   }
 
+  // Keep English canonical at root: /en and /en/* → / and /*.
+  if (pathname === "/en" || pathname === "/en/" || pathname.startsWith("/en/")) {
+    const url = request.nextUrl.clone();
+    let normalizedPath = pathname === "/en" || pathname === "/en/"
+      ? "/"
+      : pathname.replace(/^\/en(?=\/)/, "");
+    if (normalizedPath !== "/" && normalizedPath.endsWith("/")) {
+      normalizedPath = normalizedPath.slice(0, -1);
+    }
+    url.pathname = normalizedPath || "/";
+    const response = NextResponse.redirect(url, 308);
+    setLocaleCookie(response, DEFAULT_LOCALE);
+    return response;
+  }
+
   // Remove trailing slashes (except root)
   if (pathname !== "/" && pathname.endsWith("/")) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.slice(0, -1);
     return NextResponse.redirect(url, 301);
-  }
-
-  // Locale entrypoint: root always redirects to a locale-prefixed URL.
-  if (pathname === "/") {
-    const preferredLocale = resolvePreferredLocale(request);
-    const url = request.nextUrl.clone();
-    url.pathname = withLocalePath(preferredLocale);
-    const response = NextResponse.redirect(url, 308);
-    setLocaleCookie(response, preferredLocale);
-    return response;
-  }
-
-  // Keep canonical Surah/Ayah URLs locale-prefixed.
-  if (!localeFromPath && isSurahPath && !isSurahOpenGraphImage) {
-    const url = request.nextUrl.clone();
-    url.pathname = withLocalePath(DEFAULT_LOCALE, pathname);
-    const response = NextResponse.redirect(url, 308);
-    setLocaleCookie(response, DEFAULT_LOCALE);
-    return response;
   }
 
   const requestHeaders = new Headers(request.headers);
