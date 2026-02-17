@@ -3,6 +3,7 @@ import Script from "next/script";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getCspNonce } from "./lib/csp";
 import { headers } from "next/headers";
 import { DEFAULT_LOCALE, localeAlternateMap, normalizeLocale } from "./lib/locales";
@@ -144,6 +145,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         />
         {children}
         <Analytics />
+        <SpeedInsights />
         {process.env.NODE_ENV === "production" && (
           <Script nonce={nonce} src="/sw-register.js" strategy="afterInteractive" />
         )}
