@@ -27,7 +27,7 @@ const buildCsp = (nonce: string) =>
     "font-src 'self' data: https://verses.quran.foundation https://cdn.jsdelivr.net",
     `style-src 'self' 'nonce-${nonce}'`,
     `script-src 'self' 'nonce-${nonce}'`,
-    "connect-src 'self'",
+    "connect-src 'self' https://vitals.vercel-insights.com",
     "media-src 'self' https://everyayah.com https://audio.qurancdn.com",
     "worker-src 'self'",
     "manifest-src 'self'"
