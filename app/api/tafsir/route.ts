@@ -13,7 +13,9 @@ const TAFSIR_BASE_URLS = [
 
 const LOCAL_EDITIONS = new Set([
   // Stored locally under app/data/translations/en-maududi.json, but treated as tafsir-style notes.
-  "en-maududi"
+  "en-maududi",
+  "bn-tafsir-ahsanul-bayaan",
+  "bengali-mokhtasar"
 ]);
 
 const REMOTE_EDITIONS = new Set([

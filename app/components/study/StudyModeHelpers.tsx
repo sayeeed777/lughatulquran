@@ -210,8 +210,10 @@ export const TAJWEED_LEGEND: TajweedLegendItem[] = [
 ];
 
 export const TAFSIR_EDITIONS: readonly TafsirEdition[] = [
-  { id: "en-maududi", label: "Maududi (Notes)" },
   { id: "en-tafsir-maarif-ul-quran", label: "Maarif-ul-Quran" },
+  { id: "en-maududi", label: "Maududi (Notes)" },
+  { id: "bn-tafsir-ahsanul-bayaan", label: "Bangla Tafsir (Ahsanul Bayaan)" },
+  { id: "bengali-mokhtasar", label: "Bangla Tafsir (Mokhtasar)" },
   { id: "en-kashf-al-asrar-tafsir", label: "Kashf Al-Asrar" },
   { id: "en-al-jalalayn", label: "Al-Jalalayn" }
 ] as const;
