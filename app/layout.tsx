@@ -2,6 +2,7 @@ import "./styles/index.css";
 import Script from "next/script";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { getCspNonce } from "./lib/csp";
 import { headers } from "next/headers";
 import { DEFAULT_LOCALE, localeAlternateMap, normalizeLocale } from "./lib/locales";
@@ -142,6 +143,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         {children}
+        <Analytics />
         {process.env.NODE_ENV === "production" && (
           <Script nonce={nonce} src="/sw-register.js" strategy="afterInteractive" />
         )}
