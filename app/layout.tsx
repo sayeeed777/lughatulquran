@@ -135,6 +135,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang={locale} translate="no" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
+        <link rel="preconnect" href="https://verses.quran.foundation" crossOrigin="" />
         <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
       </head>
       <body>

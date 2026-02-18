@@ -1,16 +1,12 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { useState } from "react";
 import {
   SurahList,
   ReaderPanel,
   StudyPanel,
-  StudyModeView,
-  PrayerPanel,
-  CompareModal,
-  NoteModal,
   SectionErrorBoundary,
-  KeyboardShortcutsHelp,
   ClockIcon,
   ThemeChooser,
   SettingsIcon,
@@ -20,6 +16,15 @@ import { FONT_SCALE } from "./lib/constants";
 import { clamp } from "./lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "./lib/styleClasses";
 import { useUIState, usePreferences, useAudio, useActions } from "./contexts";
+
+const StudyModeView = dynamic(() => import("./components/study/StudyModeView"), { ssr: false });
+const PrayerPanel = dynamic(() => import("./components/modals/PrayerPanel"), { ssr: false });
+const CompareModal = dynamic(() => import("./components/modals/CompareModal"), { ssr: false });
+const NoteModal = dynamic(() => import("./components/modals/NoteModal"), { ssr: false });
+const KeyboardShortcutsHelp = dynamic(
+  () => import("./components/modals/KeyboardShortcutsHelp"),
+  { ssr: false }
+);
 
 function HomeContent() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
@@ -156,16 +161,20 @@ function HomeContent() {
         </SectionErrorBoundary>
       </section>
 
-      <CompareModal />
+      {ui.selectedAyah ? <CompareModal /> : null}
 
       <NoteModal />
 
-      <PrayerPanel
-        isOpen={isPrayerPanelOpen}
-        onClose={() => setIsPrayerPanelOpen(false)}
-      />
+      {isPrayerPanelOpen ? (
+        <PrayerPanel
+          isOpen={isPrayerPanelOpen}
+          onClose={() => setIsPrayerPanelOpen(false)}
+        />
+      ) : null}
 
-      <KeyboardShortcutsHelp isOpen={ui.showShortcuts} onClose={() => ui.setShowShortcuts(false)} />
+      {ui.showShortcuts ? (
+        <KeyboardShortcutsHelp isOpen={ui.showShortcuts} onClose={() => ui.setShowShortcuts(false)} />
+      ) : null}
     </main>
   );
 }
