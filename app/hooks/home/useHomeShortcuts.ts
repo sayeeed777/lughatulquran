@@ -13,7 +13,6 @@ type UseHomeShortcutsParams = {
   closeNote: () => void;
   readingMode: boolean;
   setReadingMode: (value: boolean | ((prev: boolean) => boolean)) => void;
-  showWordByWord: boolean;
   setShowWordByWord: (value: boolean | ((prev: boolean) => boolean)) => void;
   selectedSurah: Surah | null;
   surahData: SurahData | null;
@@ -33,7 +32,6 @@ export function useHomeShortcuts({
   closeNote,
   readingMode,
   setReadingMode,
-  showWordByWord,
   setShowWordByWord,
   selectedSurah,
   surahData,

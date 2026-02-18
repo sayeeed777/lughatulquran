@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo } from "react";
+import { useCallback, useEffect, useMemo } from "react";
 import type { ReadingPlan, Surah } from "./types";
 import { getLocalDateString, parseLocalDate } from "../../lib/utils";
 
@@ -46,19 +46,19 @@ export function useHomePlan(
   const lastSurahIndex = surahIndex[surahIndex.length - 1];
   const totalAyahs = lastSurahIndex ? lastSurahIndex.end : 0;
 
-  const getGlobalIndex = (surahNumber: number, ayahNumber: number) => {
+  const getGlobalIndex = useCallback((surahNumber: number, ayahNumber: number) => {
     const entry = surahIndex.find((item) => item.number === surahNumber);
     if (!entry) return null;
     return entry.start + ayahNumber - 1;
-  };
+  }, [surahIndex]);
 
-  const indexToVerse = (globalIndex: number) => {
+  const indexToVerse = useCallback((globalIndex: number) => {
     const entry = surahIndex.find(
       (item) => globalIndex >= item.start && globalIndex <= item.end
     );
     if (!entry) return null;
     return { surah: entry.number, ayah: globalIndex - entry.start + 1 };
-  };
+  }, [surahIndex]);
 
   const planSummary: PlanSummary = useMemo(() => {
     if (!surahIndex.length) return null;
@@ -90,7 +90,7 @@ export function useHomePlan(
     const endVerse = indexToVerse(todayEndIndex);
 
     return { dayIndex, startVerse, endVerse, todayStartIndex, todayEndIndex };
-  }, [readingPlan, surahIndex, totalAyahs]);
+  }, [readingPlan, surahIndex, totalAyahs, getGlobalIndex, indexToVerse]);
 
   const formatVerseLabel = (verse: { surah: number; ayah: number } | null) => {
     if (!verse) return "";

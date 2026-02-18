@@ -266,7 +266,7 @@ export default function PrayerPanel({
   const [locationStatus, setLocationStatus] = useState<"idle" | "loading" | "error">("idle");
   const [timings, setTimings] = useState<Record<string, PrayerTiming>>({});
   const [timingStatus, setTimingStatus] = useState<"idle" | "loading" | "error">("idle");
-  const [resolvedMeta, setResolvedMeta] = useState<PrayerTimesResponse["location"] | null>(null);
+  const [, setResolvedMeta] = useState<PrayerTimesResponse["location"] | null>(null);
   const [nextPrayerFromApi, setNextPrayerFromApi] = useState<NextPrayerPreview | null>(null);
 
   useEffect(() => {

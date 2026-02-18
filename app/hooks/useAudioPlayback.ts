@@ -151,7 +151,7 @@ export function useAudioPlayback({
       setFocusedAyahKey(verseKey(surah, ayah));
       setPendingScroll(ayah);
     },
-    [memorizeConfig.active, nowPlaying, isAudioPaused, stopMemorize, setFocusedAyahKey, setPendingScroll]
+    [memorizeConfig.active, nowPlaying, stopMemorize, setFocusedAyahKey, setPendingScroll]
   );
 
   return {

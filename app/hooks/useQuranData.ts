@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { fetchJSON } from "../lib/apiClient";
-import type { Ayah, AyahTranslation, Surah, SurahData, Word, WordByAyah, WordBySurah } from "../lib/types";
+import type { Ayah, Surah, WordByAyah, WordBySurah } from "../lib/types";
 
 type SurahDetail = {
   surah?: Surah;
@@ -263,7 +263,7 @@ export function useTaqiTranslation() {
         throw new Error("Invalid translation response.");
       }
       setCache((prev) => ({ ...prev, [key]: parsed.text }));
-    } catch (err) {
+    } catch {
       setCache((prev) => ({
         ...prev,
         [key]: "Unable to load Mufti Taqi Usmani translation."

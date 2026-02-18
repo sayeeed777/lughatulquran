@@ -198,7 +198,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
     }
 
     return NextResponse.json({ wordsByAyah });
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: "Unable to reach word-by-word API." },
       { status: 502 }

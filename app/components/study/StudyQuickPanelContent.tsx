@@ -821,6 +821,7 @@ function StudyTabContent({
   surahProgress
 }: StudyTabProps) {
   const [showAllSurahs, setShowAllSurahs] = useState(false);
+  const overallProgress = Math.max(0, Math.min(100, Math.round(progress)));
 
   const surahEntries = useMemo(() => {
     const items: { number: number; name: string; total: number; read: number; pct: number }[] = [];
@@ -846,7 +847,7 @@ function StudyTabContent({
   const goalPct = goalTarget > 0 ? Math.min(100, Math.round((goalProgress / goalTarget) * 100)) : 0;
 
   return (
-    <div className="quick-panel-section qp-apple">
+    <div className="quick-panel-section qp-apple" data-overall-progress={overallProgress}>
 
       {/* #1 + #2 + #4 — Grouped container, 2x2 hero grid, large display numbers */}
       <div className="qp-group">
