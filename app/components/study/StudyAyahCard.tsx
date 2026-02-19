@@ -30,6 +30,8 @@ type StudyAyahCardProps = {
   showTajweed: boolean;
   translationText: string;
   showTranslation: boolean;
+  transliterationText: string;
+  showTransliteration: boolean;
   isMushafView: boolean;
   showWordByWord: boolean;
   words: StudyWord[];
@@ -63,6 +65,8 @@ function StudyAyahCardComponent({
   showTajweed,
   translationText,
   showTranslation,
+  transliterationText,
+  showTransliteration,
   isMushafView,
   showWordByWord,
   words,
@@ -349,6 +353,9 @@ function StudyAyahCardComponent({
             {arabicContent}
           </p>
         )}
+        {!isMushafView && showTransliteration && transliterationText ? (
+          <p className="study-ayah-transliteration">{transliterationText}</p>
+        ) : null}
         {!isMushafView && showTranslation && translationText && (
           <p className="study-ayah-translation">
             {translationText}

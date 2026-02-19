@@ -46,6 +46,8 @@ export default function StudyModeView({
     arabicFontId,
     setArabicFontId,
     selectedTranslations,
+    showStudyTransliteration,
+    setShowStudyTransliteration,
     fontScale,
     setFontScale,
     memorizeConfig,
@@ -359,6 +361,7 @@ export default function StudyModeView({
           primaryTranslation={primaryTranslation}
           showTajweed={showTajweed}
           showTranslation={showTranslation}
+          showTransliteration={showStudyTransliteration}
           isMushafView={isMushafView}
           showWordByWord={showWordByWord}
           wordsByAyahForStudy={wordsByAyahForStudy}
@@ -448,6 +451,8 @@ export default function StudyModeView({
           formatTime={formatTime}
           showTranslation={showTranslation}
           setShowTranslation={setShowTranslation}
+          showStudyTransliteration={showStudyTransliteration}
+          setShowStudyTransliteration={setShowStudyTransliteration}
           dimNonFocused={dimNonFocused}
           setDimNonFocused={setDimNonFocused}
           autoScrollPlaying={autoScrollPlaying}

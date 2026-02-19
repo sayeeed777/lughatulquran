@@ -118,24 +118,6 @@ export function useHomeController() {
   }, [areTranslationsLoaded, selectedTranslations]);
 
   const setSelectedTranslations = setStoredTranslations;
-  const {
-    surahData,
-    loading: loadingSurahData,
-    error: surahDataError,
-    refetch: refetchSurahDetails
-  } = useSurahDetails(selectedSurah?.number, selectedTranslations);
-
-  // Bookmarks & Notes
-  const { bookmarks, notes, setNotes, toggleBookmark, sortedBookmarks, sortedNotes } = useBookmarks();
-  const {
-    noteTarget,
-    noteDraft,
-    setNoteDraft,
-    openNote,
-    saveNote,
-    closeNote
-  } = useNoteEditor(notes as Notes, setNotes);
-
   // Preferences
   const {
     readingPlan,
@@ -149,12 +131,38 @@ export function useHomeController() {
     selectedReciter,
     arabicFontId,
     setArabicFontId,
+    showTransliteration,
+    setShowTransliteration,
+    showStudyTransliteration,
+    setShowStudyTransliteration,
     prayerSettings,
     setPrayerSettings,
     theme,
     isLightTheme,
     setTheme
   } = useHomePreferences();
+
+  const {
+    surahData,
+    loading: loadingSurahData,
+    error: surahDataError,
+    refetch: refetchSurahDetails
+  } = useSurahDetails(
+    selectedSurah?.number,
+    selectedTranslations,
+    showTransliteration || showStudyTransliteration
+  );
+
+  // Bookmarks & Notes
+  const { bookmarks, notes, setNotes, toggleBookmark, sortedBookmarks, sortedNotes } = useBookmarks();
+  const {
+    noteTarget,
+    noteDraft,
+    setNoteDraft,
+    openNote,
+    saveNote,
+    closeNote
+  } = useNoteEditor(notes as Notes, setNotes);
 
   // Last read
   const { lastRead, updateLastRead } = useLastRead();
@@ -505,6 +513,10 @@ export function useHomeController() {
       setSelectedTranslations,
       showWordByWord,
       setShowWordByWord,
+      showTransliteration,
+      setShowTransliteration,
+      showStudyTransliteration,
+      setShowStudyTransliteration,
       prayerSettings,
       setPrayerSettings,
       nextPrayerPreview,

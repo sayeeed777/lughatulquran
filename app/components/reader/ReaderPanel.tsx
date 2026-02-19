@@ -47,6 +47,8 @@ export default function ReaderPanel() {
     setSelectedTranslations,
     showWordByWord,
     setShowWordByWord,
+    showTransliteration,
+    setShowTransliteration,
     fontScale,
     setFontScale,
     prayerSettings,
@@ -256,6 +258,8 @@ export default function ReaderPanel() {
         translations={ALL_TRANSLATIONS}
         selectedTranslations={selectedTranslations}
         setSelectedTranslations={setSelectedTranslations}
+        showTransliteration={showTransliteration}
+        setShowTransliteration={setShowTransliteration}
         fontScale={fontScale}
         setFontScale={setFontScale}
         reciters={AUDIO_RECITERS}
@@ -425,6 +429,7 @@ export default function ReaderPanel() {
                     isAudioPaused={isAudioPaused}
                     words={words}
                     showWordByWord={showWordByWord}
+                    showTransliteration={showTransliteration}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
                     onPlay={onPlay}

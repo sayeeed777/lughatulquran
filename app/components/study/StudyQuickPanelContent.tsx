@@ -82,6 +82,8 @@ type StudyQuickPanelContentProps = {
   formatTime: (seconds: number) => string;
   showTranslation: boolean;
   setShowTranslation: (value: boolean) => void;
+  showStudyTransliteration: boolean;
+  setShowStudyTransliteration: (value: boolean) => void;
   dimNonFocused: boolean;
   setDimNonFocused: (value: boolean) => void;
   autoScrollPlaying: boolean;
@@ -150,6 +152,8 @@ export default function StudyQuickPanelContent({
   formatTime,
   showTranslation,
   setShowTranslation,
+  showStudyTransliteration,
+  setShowStudyTransliteration,
   dimNonFocused,
   setDimNonFocused,
   autoScrollPlaying,
@@ -229,6 +233,7 @@ export default function StudyQuickPanelContent({
   if (tab === "tool") {
     const activeToolCount = [
       showTranslation,
+      showStudyTransliteration,
       dimNonFocused,
       autoScrollPlaying,
       showTajweed,
@@ -267,6 +272,21 @@ export default function StudyQuickPanelContent({
                   type="checkbox"
                   checked={showTranslation}
                   onChange={(event) => setShowTranslation(event.target.checked)}
+                />
+                <span className="toggle-slider" />
+              </div>
+            </label>
+
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Show Transliteration</span>
+                <span className="tool-toggle-sub">Display transliteration only in Study mode.</span>
+              </div>
+              <div className={`toggle-switch ${showStudyTransliteration ? "active" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={showStudyTransliteration}
+                  onChange={(event) => setShowStudyTransliteration(event.target.checked)}
                 />
                 <span className="toggle-slider" />
               </div>

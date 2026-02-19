@@ -505,6 +505,14 @@
   line-height: 1.5;
 }
 
+.ayah-transliteration {
+  color: var(--accent-2);
+  font-size: calc(var(--text-sm) * var(--translation-scale));
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+  margin: 0 0 10px;
+}
+
 .word-row {
   margin-top: 12px;
   display: flex;
@@ -649,6 +657,11 @@
   font-size: calc(var(--text-lg) * var(--translation-scale));
   line-height: 1.9;
   color: var(--muted);
+}
+
+.content.reading .ayah-transliteration {
+  font-size: calc(var(--text-base) * var(--translation-scale));
+  line-height: 1.8;
 }
 
 .content.reading .ayah-list {

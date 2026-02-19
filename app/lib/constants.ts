@@ -173,6 +173,8 @@ export const STORAGE_KEYS = {
   plan: "quran_plan",
   fontScale: "quran_font_scale",
   translations: "quran_translations",
+  showTransliteration: "quran_show_transliteration",
+  showStudyTransliteration: "quran_show_study_transliteration",
   playbackRate: "quran_playback_rate",
   lastRead: "quran_last_read",
   studySession: "quran_study_session",

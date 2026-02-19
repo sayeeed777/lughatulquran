@@ -119,6 +119,15 @@ export function useHomePreferences() {
     STORAGE_KEYS.arabicFont,
     fallbackDefaultArabicFontId
   );
+
+  const [showTransliteration, setShowTransliteration] = useLocalStorage(
+    STORAGE_KEYS.showTransliteration,
+    false
+  );
+  const [showStudyTransliteration, setShowStudyTransliteration] = useLocalStorage(
+    STORAGE_KEYS.showStudyTransliteration,
+    false
+  );
   const selectedArabicFont = useMemo<ArabicFont>(
     () => ARABIC_FONTS.find((font) => font.id === arabicFontId) ?? defaultArabicFont,
     [arabicFontId, defaultArabicFont]
@@ -184,6 +193,10 @@ export function useHomePreferences() {
     arabicFontId,
     setArabicFontId,
     selectedArabicFont,
+    showTransliteration,
+    setShowTransliteration,
+    showStudyTransliteration,
+    setShowStudyTransliteration,
     prayerSettings,
     setPrayerSettings: setStoredPrayerSettings,
     theme,

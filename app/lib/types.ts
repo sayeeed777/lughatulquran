@@ -19,6 +19,7 @@ export type Ayah = {
   number: number;
   arabic?: string;
   arabicTajweed?: string | null;
+  transliteration?: string;
   pageNumber?: number | null;
   translations?: Record<string, AyahTranslation>;
 };

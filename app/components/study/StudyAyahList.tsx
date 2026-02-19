@@ -23,6 +23,7 @@ type StudyAyahListProps = {
   primaryTranslation: string;
   showTajweed: boolean;
   showTranslation: boolean;
+  showTransliteration: boolean;
   isMushafView: boolean;
   showWordByWord: boolean;
   wordsByAyahForStudy: WordByAyah;
@@ -55,6 +56,7 @@ export default function StudyAyahList({
   primaryTranslation,
   showTajweed,
   showTranslation,
+  showTransliteration,
   isMushafView,
   showWordByWord,
   wordsByAyahForStudy,
@@ -105,6 +107,8 @@ export default function StudyAyahList({
             }
             translationText={translationText}
             showTranslation={showTranslation}
+            transliterationText={ayah.transliteration || ""}
+            showTransliteration={showTransliteration}
             isMushafView={isMushafView}
             showWordByWord={showWordByWord}
             words={words}
@@ -157,6 +161,7 @@ export default function StudyAyahList({
       selectedWordDetails?.surah,
       showTajweed,
       showTranslation,
+      showTransliteration,
       showWordByWord,
       studyMarks,
       verseKey,

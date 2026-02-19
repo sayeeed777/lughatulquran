@@ -159,6 +159,13 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
   }
 
   try {
+    const transliterationParam = String(
+      request.nextUrl.searchParams.get("transliteration") || ""
+    ).toLowerCase();
+    const includeTransliteration = ["1", "true", "yes", "on"].includes(
+      transliterationParam
+    );
+
     const allowedTranslationIds = new Set(EDITIONS.map((e) => e.id));
     const translationsParam = request.nextUrl.searchParams.get("translations") || "";
     const requestedIds = translationsParam
@@ -189,6 +196,9 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
         verses: await getTranslation(translationId, surahNumber)
       }))
     );
+    const transliterationByAyah = includeTransliteration
+      ? await getTranslation("en-transliteration", surahNumber)
+      : null;
 
     // 3. Fetch Arabic Text from Quran.com V4 (Tajweed markup), fallback to local
     let arabicVerses = await fetchArabicText(id);
@@ -204,6 +214,7 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
       number: number;
       arabic: string;
       arabicTajweed: string | null;
+      transliteration?: string;
       pageNumber: number | null;
       translations: Record<string, { text: string }>;
     }> = [];
@@ -228,6 +239,7 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
         number: i,
         arabic: arabicText,
         arabicTajweed,
+        transliteration: transliterationByAyah?.get(i) || undefined,
         pageNumber,
         translations
       });

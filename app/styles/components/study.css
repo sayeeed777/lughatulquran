@@ -349,6 +349,14 @@
   padding-top: 16px;
 }
 
+.study-ayah-transliteration {
+  font-size: calc(0.94rem * var(--translation-scale, 1));
+  line-height: 1.75;
+  color: var(--accent-2);
+  margin: 0;
+  padding-top: 12px;
+}
+
 .study-ayah-actions {
   position: absolute;
   top: 16px;

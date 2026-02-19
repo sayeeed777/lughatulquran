@@ -14,6 +14,7 @@ type AyahCardProps = {
   isAudioPaused?: boolean;
   words?: Word[];
   showWordByWord?: boolean;
+  showTransliteration?: boolean;
   verseKey: string;
   onFocus: (key: string) => void;
   onPlay: (surah: number, ayah: number) => void;
@@ -36,6 +37,7 @@ const AyahCard = memo(function AyahCard({
   isAudioPaused,
   words = [],
   showWordByWord,
+  showTransliteration = false,
   verseKey,
   onFocus,
   onPlay,
@@ -172,6 +174,11 @@ const AyahCard = memo(function AyahCard({
       <p className="ayah-arabic" lang="ar" dir="rtl">
         {formatArabic(ayah.arabic || "")}
       </p>
+      {showTransliteration && ayah.transliteration ? (
+        <p dir="auto" className="ayah-transliteration">
+          {ayah.transliteration}
+        </p>
+      ) : null}
 
       {/* Multiple translations display */}
       <div className="ayah-translations">

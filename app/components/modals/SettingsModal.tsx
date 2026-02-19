@@ -32,6 +32,8 @@ type SettingsModalProps = {
   translations: Option[];
   selectedTranslations?: string[];
   setSelectedTranslations: Dispatch<SetStateAction<string[]>>;
+  showTransliteration: boolean;
+  setShowTransliteration: Dispatch<SetStateAction<boolean>>;
   fontScale: FontScale;
   setFontScale: Dispatch<SetStateAction<FontScale>>;
   reciters: Reciter[];
@@ -60,6 +62,8 @@ function SettingsModal({
   translations,
   selectedTranslations = ["en-arberry"],
   setSelectedTranslations,
+  showTransliteration,
+  setShowTransliteration,
   // Font Scale
   fontScale,
   setFontScale,
@@ -311,6 +315,27 @@ function SettingsModal({
                         step={0.05}
                         onChange={handleTranslationScale}
                       />
+                    </SettingsSection>
+
+                    <SettingsSection title="Reading" delay={0.15}>
+                      <label className="study-premium-toggle">
+                        <span className="toggle-info">
+                          <span className="toggle-icon" aria-hidden="true">
+                            Aa
+                          </span>
+                          <span className="toggle-label">Show transliteration (Reader)</span>
+                        </span>
+                        <span className={`toggle-switch ${showTransliteration ? "active" : ""}`}>
+                          <input
+                            type="checkbox"
+                            checked={showTransliteration}
+                            onChange={(event) => setShowTransliteration(event.target.checked)}
+                            aria-label="Show English transliteration"
+                          />
+                          <span className="toggle-slider" aria-hidden="true" />
+                        </span>
+                      </label>
+                      <p className="chips-hint">Display English transliteration in the Reader page.</p>
                     </SettingsSection>
                   </motion.div>
                 )}

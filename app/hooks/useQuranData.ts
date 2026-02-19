@@ -115,7 +115,8 @@ export function useSurahs() {
 
 export function useSurahDetails(
   surahNumber?: number | string | null,
-  translationIds: string[] = ["en-arberry"]
+  translationIds: string[] = ["en-arberry"],
+  includeTransliteration = false
 ) {
   const [surahData, setSurahData] = useState<SurahDetail | null>(null);
   const [loading, setLoading] = useState(false);
@@ -145,6 +146,9 @@ export function useSurahDetails(
         const params = new URLSearchParams();
         if (translationKey) {
           params.set("translations", translationKey);
+        }
+        if (includeTransliteration) {
+          params.set("transliteration", "1");
         }
         const url = params.toString()
           ? `/api/surah/${surahId}?${params.toString()}`
@@ -178,7 +182,7 @@ export function useSurahDetails(
     return () => {
       controller.abort();
     };
-  }, [surahNumber, translationKey, reloadKey]);
+  }, [surahNumber, translationKey, includeTransliteration, reloadKey]);
 
   return { surahData, loading, error, refetch };
 }

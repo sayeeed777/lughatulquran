@@ -25,6 +25,10 @@ type PreferencesContextValue = {
   setSelectedTranslations: SetState<string[]>;
   showWordByWord: boolean;
   setShowWordByWord: SetState<boolean>;
+  showTransliteration: boolean;
+  setShowTransliteration: SetState<boolean>;
+  showStudyTransliteration: boolean;
+  setShowStudyTransliteration: SetState<boolean>;
   prayerSettings: PrayerSettings;
   setPrayerSettings: SetState<PrayerSettings>;
   nextPrayerPreview: NextPrayerPreview | null;
