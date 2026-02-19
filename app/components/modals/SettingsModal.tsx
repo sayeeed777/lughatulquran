@@ -269,8 +269,28 @@ function SettingsModal({
                     transition={{ duration: 0.25 }}
                     className="settings-tab-content"
                   >
+                    <SettingsSection title="Reading" delay={0}>
+                      <label className="study-premium-toggle">
+                        <span className="toggle-info">
+                          <span className="toggle-icon" aria-hidden="true">
+                            Aa
+                          </span>
+                          <span className="toggle-label">Show transliteration (Reader)</span>
+                        </span>
+                        <span className={`toggle-switch ${showTransliteration ? "active" : ""}`}>
+                          <input
+                            type="checkbox"
+                            checked={showTransliteration}
+                            onChange={(event) => setShowTransliteration(event.target.checked)}
+                            aria-label="Show English transliteration"
+                          />
+                          <span className="toggle-slider" aria-hidden="true" />
+                        </span>
+                      </label>
+                    </SettingsSection>
+
                     {/* Translation Section */}
-                    <SettingsSection title="Translations" delay={0}>
+                    <SettingsSection title="Translations" delay={0.05}>
                       <TranslationChips
                         options={translations || []}
                         selectedIds={selectedTranslations}
@@ -281,7 +301,7 @@ function SettingsModal({
                     </SettingsSection>
 
                     {/* Arabic Font Section */}
-                    <SettingsSection title="Arabic Font" delay={0.05}>
+                    <SettingsSection title="Arabic Font" delay={0.1}>
                       <select
                         className="settings-select"
                         value={arabicFontId}
@@ -296,7 +316,7 @@ function SettingsModal({
                     </SettingsSection>
 
                     {/* Text Size Section */}
-                    <SettingsSection title="Text Size" delay={0.1}>
+                    <SettingsSection title="Text Size" delay={0.15}>
                       <PremiumSlider
                         label="Arabic"
                         icon="ع"
@@ -315,27 +335,6 @@ function SettingsModal({
                         step={0.05}
                         onChange={handleTranslationScale}
                       />
-                    </SettingsSection>
-
-                    <SettingsSection title="Reading" delay={0.15}>
-                      <label className="study-premium-toggle">
-                        <span className="toggle-info">
-                          <span className="toggle-icon" aria-hidden="true">
-                            Aa
-                          </span>
-                          <span className="toggle-label">Show transliteration (Reader)</span>
-                        </span>
-                        <span className={`toggle-switch ${showTransliteration ? "active" : ""}`}>
-                          <input
-                            type="checkbox"
-                            checked={showTransliteration}
-                            onChange={(event) => setShowTransliteration(event.target.checked)}
-                            aria-label="Show English transliteration"
-                          />
-                          <span className="toggle-slider" aria-hidden="true" />
-                        </span>
-                      </label>
-                      <p className="chips-hint">Display English transliteration in the Reader page.</p>
                     </SettingsSection>
                   </motion.div>
                 )}
