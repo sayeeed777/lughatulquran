@@ -697,8 +697,14 @@ export default function AudioPlayer({
       if (!audio) return;
 
       if (document.visibilityState === "hidden") {
-        if (isAutoPlayingRef.current && !isAudioPausedRef.current) {
-          void activateChapterMode({ preserveAyahProgress: true });
+        // Only activate chapter mode if NOT already in it.
+        // If chapter mode is already active, the surah is a single continuous
+        // audio file — it keeps playing in the background with no intervention.
+        // Calling activateChapterMode again while in chapter mode wrongly uses
+        // audio.currentTime (full-file position) as ayah-relative elapsed time,
+        // which causes a bad seek that breaks background playback.
+        if (isAutoPlayingRef.current && !isAudioPausedRef.current && !chapterModeRef.current) {
+          void activateChapterMode({ preserveAyahProgress: false });
         }
         return;
       }
