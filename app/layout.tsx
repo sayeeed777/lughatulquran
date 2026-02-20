@@ -113,6 +113,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools.",
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
+    datePublished: "2024-01-01",
+    dateModified: "2026-02-16",
     inLanguage: ["en", "ar", "bn", "ur"],
     offers: {
       "@type": "Offer",

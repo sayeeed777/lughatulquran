@@ -4,6 +4,7 @@ import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../data/surahs";
 import type { Metadata } from "next";
 import { loadFirstVerseSeoText, loadSurahSeoText } from "../../lib/seoQuranText";
 import { getCspNonce } from "../../lib/csp";
+import { localeAlternateMap } from "../../lib/locales";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -35,7 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}`
+      canonical: `/surah/${slug}`,
+      languages: localeAlternateMap(`/surah/${slug}`)
     },
     openGraph: {
       title,
@@ -92,6 +94,8 @@ export default async function SurahPage({ params }: Props) {
     description: `${surah.translation} — ${surah.ayahCount} ayahs, ${surah.revelationType} surah`,
     position: surah.number,
     url: `https://openfurqan.com/surah/${slug}`,
+    datePublished: "2024-01-01",
+    dateModified: "2026-02-16",
     isPartOf: {
       "@type": "Book",
       name: "The Holy Quran",

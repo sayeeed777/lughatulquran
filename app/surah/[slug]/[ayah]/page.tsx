@@ -4,6 +4,7 @@ import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../../data/surahs";
 import type { Metadata } from "next";
 import { loadSurahSeoText, loadVerseSeoText } from "../../../lib/seoQuranText";
 import { getCspNonce } from "../../../lib/csp";
+import { localeAlternateMap } from "../../../lib/locales";
 
 export const dynamicParams = false;
 
@@ -43,7 +44,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}/${ayahNum}`
+      canonical: `/surah/${slug}/${ayahNum}`,
+      languages: localeAlternateMap(`/surah/${slug}/${ayahNum}`)
     },
     openGraph: {
       title,
@@ -118,6 +120,8 @@ export default async function AyahPage({ params }: Props) {
     description: `Verse ${surah.number}:${ayahNum} of Surah ${surah.englishName} with translations in English, Bangla & Urdu`,
     articleBody: verse ? `${verse.ar}\n\n${verse.en}` : undefined,
     url: `https://openfurqan.com/surah/${slug}/${ayahNum}`,
+    datePublished: "2024-01-01",
+    dateModified: "2026-02-16",
     isPartOf: {
       "@type": "Chapter",
       name: `Surah ${surah.englishName}`,
