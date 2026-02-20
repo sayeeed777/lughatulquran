@@ -109,6 +109,7 @@ export default function AudioPlayer({
   const preloadRef = useRef<HTMLAudioElement | null>(null);
   const retryCountRef = useRef(0);
   const recoverTimerRef = useRef<number | null>(null);
+  const pausedByMediaSessionRef = useRef(false);
   const chapterModeRef = useRef(false);
   const chapterKeyRef = useRef<string | null>(null);
   const chapterCurrentAyahRef = useRef<number | null>(null);
@@ -483,6 +484,7 @@ export default function AudioPlayer({
     };
 
     const handlePause = () => {
+      if (pausedByMediaSessionRef.current) return;
       if (!isAutoPlayingRef.current || isAudioPausedRef.current) return;
       if (audio.ended) return;
       tryRecovery();
@@ -509,6 +511,7 @@ export default function AudioPlayer({
 
   useEffect(() => {
     if (isAutoPlaying) return;
+    pausedByMediaSessionRef.current = false;
     disableChapterMode();
   }, [disableChapterMode, isAutoPlaying]);
 
@@ -555,7 +558,7 @@ export default function AudioPlayer({
     }
 
     audio.playbackRate = playbackRateRef.current;
-    if (audio.paused && !isAudioPausedRef.current) {
+    if (audio.paused && !isAudioPausedRef.current && !pausedByMediaSessionRef.current) {
       audio.play().catch(() => {});
     }
 
@@ -573,6 +576,7 @@ export default function AudioPlayer({
     if (!audio) return;
 
     if (!audioSrc) {
+      pausedByMediaSessionRef.current = false;
       disableChapterMode();
       audio.pause();
       audio.src = "";
@@ -585,6 +589,7 @@ export default function AudioPlayer({
 
     // Only reload if src actually changed
     if (audio.src !== audioSrc) {
+      pausedByMediaSessionRef.current = false;
       audio.src = audioSrc;
       audio.load();
     }
@@ -592,6 +597,7 @@ export default function AudioPlayer({
     audio.playbackRate = playbackRate;
 
     if (isAutoPlaying && !isAudioPaused && audio.paused) {
+      if (pausedByMediaSessionRef.current) return;
       // Only call play() if not already playing — avoids restarting
       // audio that the background handler already started.
       audio.play().catch(() => {});
@@ -652,11 +658,15 @@ export default function AudioPlayer({
     navigator.mediaSession.playbackState = isAudioPaused ? "paused" : "playing";
 
     navigator.mediaSession.setActionHandler("play", () => {
+      pausedByMediaSessionRef.current = false;
+      isAudioPausedRef.current = false;
       audioRef.current?.play().catch(() => {});
       navigator.mediaSession.playbackState = "playing";
     });
 
     navigator.mediaSession.setActionHandler("pause", () => {
+      pausedByMediaSessionRef.current = true;
+      isAudioPausedRef.current = true;
       audioRef.current?.pause();
       navigator.mediaSession.playbackState = "paused";
     });
@@ -695,6 +705,7 @@ export default function AudioPlayer({
 
       // Coming back to visible — only act if audio unexpectedly stopped.
       if (!isAutoPlayingRef.current || isAudioPausedRef.current) return;
+      if (pausedByMediaSessionRef.current) return;
       if (!audio.paused) return;
 
       if (chapterModeRef.current) {
