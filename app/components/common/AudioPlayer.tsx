@@ -82,6 +82,12 @@ const normalizeAudioUrl = (audioUrl?: string): string | null => {
   return `https://audio.qurancdn.com/${audioUrl.replace(/^\/+/, "")}`;
 };
 
+type ActivateChapterModeOptions = {
+  preserveAyahProgress: boolean;
+  allowWhileVisible?: boolean;
+  targetAyah?: number;
+};
+
 export default function AudioPlayer({
   reciterId,
   reciterLabel,
@@ -135,7 +141,6 @@ export default function AudioPlayer({
   useEffect(() => {
     nowPlayingRef.current = nowPlaying;
   }, [nowPlaying]);
-  const previousNowPlayingRef = useRef(nowPlaying);
 
   const selectedSurahRef = useRef(selectedSurah);
   useEffect(() => {
@@ -232,21 +237,33 @@ export default function AudioPlayer({
   }, []);
 
   const activateChapterMode = useCallback(
-    async (preserveAyahProgress: boolean): Promise<boolean> => {
+    async ({
+      preserveAyahProgress,
+      allowWhileVisible = false,
+      targetAyah
+    }: ActivateChapterModeOptions): Promise<boolean> => {
       if (chapterSwitchingRef.current) return false;
-      if (typeof document === "undefined" || document.visibilityState === "visible") return false;
+      if (
+        typeof document === "undefined"
+        || (!allowWhileVisible && document.visibilityState === "visible")
+      ) {
+        return false;
+      }
       if (!isAutoPlayingRef.current || isAudioPausedRef.current) return false;
 
       const currentNowPlaying = nowPlayingRef.current;
       const audio = audioRef.current;
       if (!audio || !currentNowPlaying) return false;
+      const targetAyahNumber = Number.isInteger(targetAyah) && Number(targetAyah) > 0
+        ? Number(targetAyah)
+        : currentNowPlaying.ayah;
 
       chapterSwitchingRef.current = true;
       try {
         const chapterData = await fetchChapterAudioData(reciterId, currentNowPlaying.surah);
         if (!chapterData) return false;
 
-        const currentAyahTiming = chapterData.byAyah.get(currentNowPlaying.ayah);
+        const currentAyahTiming = chapterData.byAyah.get(targetAyahNumber);
         if (!currentAyahTiming) return false;
 
         const ayahElapsedMs = preserveAyahProgress ? Math.max(0, Math.floor(audio.currentTime * 1000)) : 0;
@@ -281,8 +298,9 @@ export default function AudioPlayer({
         const cacheKey = getChapterCacheKey(reciterId, currentNowPlaying.surah);
         chapterModeRef.current = true;
         chapterKeyRef.current = cacheKey;
-        chapterCurrentAyahRef.current = currentNowPlaying.ayah;
-        chapterTimingIndexRef.current = 0;
+        chapterCurrentAyahRef.current = targetAyahNumber;
+        const timingIndex = chapterData.timings.findIndex((item) => item.ayah === targetAyahNumber);
+        chapterTimingIndexRef.current = timingIndex >= 0 ? timingIndex : 0;
         retryCountRef.current = 0;
 
         return true;
@@ -402,7 +420,7 @@ export default function AudioPlayer({
         if (!node.paused && !node.error) return;
 
         if (document.visibilityState !== "visible") {
-          void activateChapterMode(true).then((activated) => {
+          void activateChapterMode({ preserveAyahProgress: true }).then((activated) => {
             if (activated) return;
 
             const hiddenCurrentSrc = node.currentSrc || node.src;
@@ -490,20 +508,61 @@ export default function AudioPlayer({
   }, [activateChapterMode, getNextSrcFromCurrent, onAudioEnded]);
 
   useEffect(() => {
-    if (!chapterModeRef.current) return;
-    if (typeof document === "undefined" || document.visibilityState !== "visible") return;
-    const previous = previousNowPlayingRef.current;
-    previousNowPlayingRef.current = nowPlaying;
-    if (!nowPlaying || !previous) return;
-    if (nowPlaying.surah !== previous.surah || Math.abs(nowPlaying.ayah - previous.ayah) > 1) {
-      disableChapterMode();
-    }
-  }, [disableChapterMode, nowPlaying]);
-
-  useEffect(() => {
     if (isAutoPlaying) return;
     disableChapterMode();
   }, [disableChapterMode, isAutoPlaying]);
+
+  // Primary autoplay strategy (Quran.com-like): use chapter stream + verse timestamps.
+  // Keep ayah-by-ayah playback as fallback when no chapter recitation mapping exists.
+  useEffect(() => {
+    if (!isAutoPlaying || !nowPlaying) return;
+
+    const cacheKey = getChapterCacheKey(reciterId, nowPlaying.surah);
+    const supportsChapterMode = Boolean(QURAN_API_RECITER_BY_LOCAL_ID[reciterId]);
+
+    if (!supportsChapterMode) {
+      disableChapterMode();
+      return;
+    }
+
+    if (!chapterModeRef.current || chapterKeyRef.current !== cacheKey) {
+      void activateChapterMode({
+        preserveAyahProgress: false,
+        allowWhileVisible: true,
+        targetAyah: nowPlaying.ayah
+      });
+      return;
+    }
+
+    const chapterData = chapterCacheRef.current.get(cacheKey);
+    const audio = audioRef.current;
+    if (!chapterData || !audio) return;
+
+    const ayahTiming = chapterData.byAyah.get(nowPlaying.ayah);
+    if (!ayahTiming) return;
+
+    const currentMs = Math.floor(audio.currentTime * 1000);
+    const seekToleranceMs = 900;
+    const outsideTargetAyah =
+      currentMs < ayahTiming.fromMs - seekToleranceMs || currentMs > ayahTiming.toMs + seekToleranceMs;
+
+    if (!outsideTargetAyah) return;
+
+    try {
+      audio.currentTime = (ayahTiming.fromMs + 100) / 1000;
+    } catch {
+      // ignore seek errors
+    }
+
+    audio.playbackRate = playbackRateRef.current;
+    if (audio.paused && !isAudioPausedRef.current) {
+      audio.play().catch(() => {});
+    }
+
+    chapterCurrentAyahRef.current = nowPlaying.ayah;
+    const index = chapterData.timings.findIndex((item) => item.ayah === nowPlaying.ayah);
+    chapterTimingIndexRef.current = index >= 0 ? index : 0;
+  }, [activateChapterMode, disableChapterMode, getChapterCacheKey, isAutoPlaying, nowPlaying, reciterId]);
 
   // Update src imperatively (no remount) and play.
   // Guard: if audio is already playing the correct src (set imperatively in the
@@ -629,7 +688,7 @@ export default function AudioPlayer({
 
       if (document.visibilityState === "hidden") {
         if (isAutoPlayingRef.current && !isAudioPausedRef.current) {
-          void activateChapterMode(true);
+          void activateChapterMode({ preserveAyahProgress: true });
         }
         return;
       }
