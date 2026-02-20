@@ -12,7 +12,11 @@ type AudioContextValue = {
     audioSrc: string | null;
     nextAudioSrc: string | null;
     reciterLabel: string;
+    reciterBaseUrl: string;
     nowPlayingLabel: string;
+    nowPlayingPage: number | null;
+    surahPageStart: number | null;
+    surahPageEnd: number | null;
     // Settings
     reciterId: string;
     setReciterId: SetState<string>;

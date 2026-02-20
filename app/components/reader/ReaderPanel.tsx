@@ -63,8 +63,12 @@ export default function ReaderPanel() {
     audioSrc,
     nextAudioSrc,
     reciterLabel,
+    reciterBaseUrl,
     nowPlayingLabel,
+    nowPlayingPage,
     reciterId,
+    surahPageStart,
+    surahPageEnd,
     setReciterId,
     handlePlaySurah: onPlaySurah,
     handleStopAutoPlay: onStopAutoPlay,
@@ -382,7 +386,9 @@ export default function ReaderPanel() {
       )}
 
       <AudioPlayer
+        reciterId={reciterId}
         reciterLabel={reciterLabel}
+        reciterBaseUrl={reciterBaseUrl}
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
         nextAudioSrc={nextAudioSrc}
@@ -393,6 +399,9 @@ export default function ReaderPanel() {
         onAudioEnded={onAudioEnded}
         selectedSurah={selectedSurah}
         nowPlaying={nowPlaying}
+        nowPlayingPage={nowPlayingPage}
+        surahPageStart={surahPageStart}
+        surahPageEnd={surahPageEnd}
         showPlayerBar={false}
       />
 

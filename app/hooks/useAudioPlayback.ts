@@ -64,8 +64,10 @@ export function useAudioPlayback({
       const nextAyah = nowPlaying.ayah + 1;
       if (nextAyah <= memorizeConfig.endAyah) {
         setNowPlaying({ surah: selectedSurah.number, ayah: nextAyah });
-        setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
-        setPendingScroll(nextAyah);
+        if (typeof document === "undefined" || document.visibilityState === "visible") {
+          setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
+          setPendingScroll(nextAyah);
+        }
         return;
       }
 
@@ -73,16 +75,20 @@ export function useAudioPlayback({
       if (memorizeConfig.loops === 0) {
         // Infinite loop
         setNowPlaying({ surah: selectedSurah.number, ayah: memorizeConfig.startAyah });
-        setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
-        setPendingScroll(memorizeConfig.startAyah);
+        if (typeof document === "undefined" || document.visibilityState === "visible") {
+          setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
+          setPendingScroll(memorizeConfig.startAyah);
+        }
         return;
       }
 
       if (memorizeConfig.remaining > 1) {
         setMemorizeConfig((prev) => ({ ...prev, remaining: prev.remaining - 1 }));
         setNowPlaying({ surah: selectedSurah.number, ayah: memorizeConfig.startAyah });
-        setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
-        setPendingScroll(memorizeConfig.startAyah);
+        if (typeof document === "undefined" || document.visibilityState === "visible") {
+          setFocusedAyahKey(verseKey(selectedSurah.number, memorizeConfig.startAyah));
+          setPendingScroll(memorizeConfig.startAyah);
+        }
         return;
       }
 
@@ -104,8 +110,10 @@ export function useAudioPlayback({
     const nextAyah = nowPlaying.ayah + 1;
     if (nextAyah <= selectedSurah.numberOfAyahs) {
       setNowPlaying({ surah: selectedSurah.number, ayah: nextAyah });
-      setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
-      setPendingScroll(nextAyah);
+      if (typeof document === "undefined" || document.visibilityState === "visible") {
+        setFocusedAyahKey(verseKey(selectedSurah.number, nextAyah));
+        setPendingScroll(nextAyah);
+      }
     } else {
       // Surah finished
       setIsAutoPlaying(false);

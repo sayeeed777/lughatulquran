@@ -30,6 +30,18 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
     ? getAudioUrl(audio.selectedReciter.baseUrl, audio.nowPlaying.surah, audio.nowPlaying.ayah + 1)
     : null;
 
+  const pageNumbers = (data.surahData?.ayahs || [])
+    .map((ayah) => Number(ayah?.pageNumber))
+    .filter((page) => Number.isFinite(page) && page > 0);
+  const surahPageStart = pageNumbers.length ? Math.min(...pageNumbers) : null;
+  const surahPageEnd = pageNumbers.length ? Math.max(...pageNumbers) : null;
+  const nowPlayingPage = (() => {
+    if (!audio.nowPlaying) return null;
+    const ayah = (data.surahData?.ayahs || []).find((item) => item.number === audio.nowPlaying?.ayah);
+    const page = Number(ayah?.pageNumber);
+    return Number.isFinite(page) && page > 0 ? page : null;
+  })();
+
   return (
     <ErrorBoundary>
       <ThemeProvider theme={preferences.theme} isLightTheme={preferences.isLightTheme} setTheme={preferences.setTheme}>
@@ -57,7 +69,11 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     audioSrc={audioSrc}
                     nextAudioSrc={nextAudioSrc}
                     reciterLabel={audio.selectedReciter.label}
+                    reciterBaseUrl={audio.selectedReciter.baseUrl}
                     nowPlayingLabel={audio.nowPlayingLabel}
+                    nowPlayingPage={nowPlayingPage}
+                    surahPageStart={surahPageStart}
+                    surahPageEnd={surahPageEnd}
                     reciterId={audio.reciterId}
                     setReciterId={audio.setReciterId}
                     selectedReciter={audio.selectedReciter}

@@ -60,7 +60,11 @@ export default function StudyModeView({
     isAudioPaused,
     audioSrc,
     reciterLabel,
+    reciterBaseUrl,
+    nowPlayingPage,
     reciterId,
+    surahPageStart,
+    surahPageEnd,
     setReciterId,
     playbackRate,
     setPlaybackRate,
@@ -392,7 +396,9 @@ export default function StudyModeView({
 
       {/* Audio Player */}
       <AudioPlayer
+        reciterId={reciterId}
         reciterLabel={reciterLabel}
+        reciterBaseUrl={reciterBaseUrl}
         nowPlayingLabel={nowPlaying ? `Ayah ${nowPlaying.ayah}` : ""}
         audioSrc={audioSrc}
         isAutoPlaying={isAutoPlaying}
@@ -403,6 +409,9 @@ export default function StudyModeView({
         onAudioEnded={onAudioEnded}
         selectedSurah={selectedSurah}
         nowPlaying={nowPlaying}
+        nowPlayingPage={nowPlayingPage}
+        surahPageStart={surahPageStart}
+        surahPageEnd={surahPageEnd}
         showPlayerBar={false}
       />
 
