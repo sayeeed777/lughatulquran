@@ -61,6 +61,7 @@ export default function ReaderPanel() {
     isAutoPlaying,
     isAudioPaused,
     audioSrc,
+    nextAudioSrc,
     reciterLabel,
     nowPlayingLabel,
     reciterId,
@@ -384,6 +385,7 @@ export default function ReaderPanel() {
         reciterLabel={reciterLabel}
         nowPlayingLabel={nowPlayingLabel}
         audioSrc={audioSrc}
+        nextAudioSrc={nextAudioSrc}
         isAutoPlaying={isAutoPlaying}
         isAudioPaused={isAudioPaused}
         onPlaySurah={onPlaySurah}

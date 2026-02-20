@@ -25,6 +25,11 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
     ? getAudioUrl(audio.selectedReciter.baseUrl, audio.nowPlaying.surah, audio.nowPlaying.ayah)
     : null;
 
+  // Preload next verse while current plays for seamless background playback
+  const nextAudioSrc = audio.nowPlaying && audio.isAutoPlaying
+    ? getAudioUrl(audio.selectedReciter.baseUrl, audio.nowPlaying.surah, audio.nowPlaying.ayah + 1)
+    : null;
+
   return (
     <ErrorBoundary>
       <ThemeProvider theme={preferences.theme} isLightTheme={preferences.isLightTheme} setTheme={preferences.setTheme}>
@@ -50,6 +55,7 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     isAutoPlaying={audio.isAutoPlaying}
                     isAudioPaused={audio.isAudioPaused}
                     audioSrc={audioSrc}
+                    nextAudioSrc={nextAudioSrc}
                     reciterLabel={audio.selectedReciter.label}
                     nowPlayingLabel={audio.nowPlayingLabel}
                     reciterId={audio.reciterId}

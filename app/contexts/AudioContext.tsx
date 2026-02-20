@@ -10,6 +10,7 @@ type AudioContextValue = {
     isAutoPlaying: boolean;
     isAudioPaused: boolean;
     audioSrc: string | null;
+    nextAudioSrc: string | null;
     reciterLabel: string;
     nowPlayingLabel: string;
     // Settings
