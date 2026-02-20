@@ -180,17 +180,19 @@ function SettingsModal({
     [onTabChange]
   );
 
-  // Animation variants for mobile (slide up) vs desktop (scale)
+  // Animation variants for mobile (slide up) vs desktop (fade only)
+  // Desktop uses opacity-only so Framer Motion doesn't set an inline transform
+  // that would override the CSS transform: translate(-50%, -50%) centering.
   const modalVariants = {
     hidden: isMobile
       ? { opacity: 0, y: "100%" }
-      : { opacity: 0, x: 20, y: 0, scale: 1 },
+      : { opacity: 0 },
     visible: isMobile
       ? { opacity: 1, y: 0 }
-      : { opacity: 1, x: 0, y: 0, scale: 1 },
+      : { opacity: 1 },
     exit: isMobile
       ? { opacity: 0, y: "100%" }
-      : { opacity: 0, x: 20, y: 0, scale: 1 }
+      : { opacity: 0 }
   };
 
   return (
