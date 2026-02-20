@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useEffect } from "react";
+import { pad } from "../../lib/utils";
 import type { Surah } from "../../lib/types";
 
 type SurahSummary = Pick<Surah, "number">;
@@ -46,22 +47,52 @@ export default function AudioPlayer({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const preloadRef = useRef<HTMLAudioElement | null>(null);
 
-  // Wire up the ended event once — the audio element is never remounted
+  // Keep a ref to isAutoPlaying so the ended handler can read the latest
+  // value without being a stale closure — critical for background playback.
+  const isAutoPlayingRef = useRef(isAutoPlaying);
+  useEffect(() => {
+    isAutoPlayingRef.current = isAutoPlaying;
+  }, [isAutoPlaying]);
+
+  // Wire up the ended event once — the audio element is never remounted.
+  // When backgrounded, React state updates are throttled by the browser, so
+  // we CANNOT rely on the audioSrc prop updating after onAudioEnded(). Instead,
+  // we advance the audio element imperatively by parsing the current URL and
+  // computing the next ayah ourselves. This keeps audio alive in the background.
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
-    const handleEnded = () => onAudioEnded();
+    const handleEnded = () => {
+      if (isAutoPlayingRef.current) {
+        // URL pattern: .../<SSS><AAA>.mp3  (3-digit surah + 3-digit ayah)
+        const match = audio.src.match(/(\d{3})(\d{3})\.mp3/);
+        if (match) {
+          const surah = parseInt(match[1], 10);
+          const nextAyah = parseInt(match[2], 10) + 1;
+          const nextSrc = audio.src.replace(/\d{6}\.mp3/, `${pad(surah)}${pad(nextAyah)}.mp3`);
+          audio.src = nextSrc;
+          audio.load();
+          audio.play().catch(() => {});
+        }
+      }
+      // Also notify React so it can update UI state (nowPlaying, scroll, etc.)
+      onAudioEnded();
+    };
     audio.addEventListener("ended", handleEnded);
     return () => audio.removeEventListener("ended", handleEnded);
   }, [onAudioEnded]);
 
-  // Update src imperatively (no remount) and play — key fix for background playback
+  // Update src imperatively (no remount) and play.
+  // Guard: if audio is already playing the correct src (set imperatively in the
+  // background ended handler), do NOT reload or re-call play() — that would
+  // interrupt background playback when React finally re-renders.
   useEffect(() => {
     const audio = audioRef.current;
     if (!audio) return;
 
     if (!audioSrc) {
       audio.pause();
+      audio.src = "";
       return;
     }
 
@@ -73,7 +104,9 @@ export default function AudioPlayer({
 
     audio.playbackRate = playbackRate;
 
-    if (isAutoPlaying && !isAudioPaused) {
+    if (isAutoPlaying && !isAudioPaused && audio.paused) {
+      // Only call play() if not already playing — avoids restarting
+      // audio that the background handler already started.
       audio.play().catch(() => {});
     }
   }, [audioSrc, isAutoPlaying, isAudioPaused, playbackRate]);
