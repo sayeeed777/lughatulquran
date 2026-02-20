@@ -15,7 +15,8 @@ const LOCAL_EDITIONS = new Set([
   // Stored locally under app/data/translations/en-maududi.json, but treated as tafsir-style notes.
   "en-maududi",
   "bn-tafsir-ahsanul-bayaan",
-  "bengali-mokhtasar"
+  "bengali-mokhtasar",
+  "hi-tafsir-farooq"
 ]);
 
 const REMOTE_EDITIONS = new Set([
