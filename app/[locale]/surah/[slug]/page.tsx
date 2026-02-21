@@ -4,7 +4,7 @@ import { SURAH_BY_SLUG, SURAH_BY_NUMBER } from "../../../data/surahs";
 import type { Metadata } from "next";
 import { loadFirstVerseSeoText, loadSurahSeoText } from "../../../lib/seoQuranText";
 import { getCspNonce } from "../../../lib/csp";
-import { isSupportedLocale, localeAlternateMap, withLocalePath } from "../../../lib/locales";
+import { isSupportedLocale, withLocalePath } from "../../../lib/locales";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -31,19 +31,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     : `Read Surah ${surah.englishName} (${surah.translation}) with translations in English, Bangla & Urdu. ${surah.ayahCount} ayahs, ${surah.revelationType} surah. Sahih International, Yusuf Ali, Pickthall, Muhiuddin Khan & more.`;
 
   const path = `/surah/${slug}`;
-  const canonicalPath = withLocalePath(locale, path);
 
   return {
     title,
     description,
     alternates: {
-      canonical: canonicalPath,
-      languages: localeAlternateMap(path)
+      canonical: path
     },
     openGraph: {
       title,
       description,
-      url: `https://openfurqan.com${canonicalPath}`,
+      url: `https://openfurqan.com${path}`,
       siteName: "OpenFurqan",
       type: "article"
     },

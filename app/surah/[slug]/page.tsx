@@ -4,7 +4,6 @@ import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../data/surahs";
 import type { Metadata } from "next";
 import { loadFirstVerseSeoText, loadSurahSeoText } from "../../lib/seoQuranText";
 import { getCspNonce } from "../../lib/csp";
-import { localeAlternateMap } from "../../lib/locales";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -36,8 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `/surah/${slug}`,
-      languages: localeAlternateMap(`/surah/${slug}`)
+      canonical: `/surah/${slug}`
     },
     openGraph: {
       title,
