@@ -590,6 +590,12 @@
   white-space: nowrap;
 }
 
+.progress-spacer {
+  width: 30px;
+  min-width: 30px;
+  flex: 0 0 30px;
+}
+
 .progress-bar {
   flex: 1;
   height: 6px;
@@ -599,30 +605,12 @@
 }
 
 .progress-fill {
-  width: 100%;
+  width: 0;
   height: 100%;
-  border: none;
   border-radius: 3px;
-  overflow: hidden;
-  appearance: none;
-  -webkit-appearance: none;
-  background: transparent;
-}
-
-.progress-fill::-webkit-progress-bar {
-  background: transparent;
-}
-
-.progress-fill::-webkit-progress-value {
   background: linear-gradient(90deg, var(--accent-2), var(--accent));
-  border-radius: 3px;
   transition: width 0.5s ease;
-}
-
-.progress-fill::-moz-progress-bar {
-  background: linear-gradient(90deg, var(--accent-2), var(--accent));
-  border-radius: 3px;
-  transition: width 0.5s ease;
+  will-change: width;
 }
 
 .progress-text {
@@ -631,6 +619,7 @@
   font-weight: 600;
   min-width: 40px;
   text-align: right;
+  transform: translateX(-10px);
 }
 
 /* Ayah card enhancements */
@@ -698,6 +687,15 @@
 
   .ayah-actions {
     transition: none !important;
+  }
+
+  /* Keep mobile vertical rhythm consistent above and below the Bismillah block */
+  .quick-controls-row {
+    padding-bottom: 12px;
+  }
+
+  .bismillah-banner {
+    margin-bottom: 12px;
   }
 }
 
