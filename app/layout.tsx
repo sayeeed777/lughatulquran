@@ -139,6 +139,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       <head>
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
         <link rel="preconnect" href="https://verses.quran.foundation" crossOrigin="" />
+        <link rel="icon" href="/favicon.ico" sizes="48x48" />
+        <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
+        <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
         <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
       </head>
       <body>
