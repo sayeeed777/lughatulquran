@@ -1185,6 +1185,27 @@
   transform: none;
 }
 
+/* Quick controls sliders — ensure track contrast on parchment mode */
+:root[data-theme="light"] .quick-controls-row .quick-slider input[type="range"] {
+  background: rgba(66, 82, 54, 0.18);
+}
+
+:root[data-theme="light"] .quick-controls-row .quick-slider input[type="range"]::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: rgba(66, 82, 54, 0.18);
+}
+
+:root[data-theme="light"] .quick-controls-row .quick-slider input[type="range"]::-webkit-slider-thumb {
+  margin-top: -5px;
+}
+
+:root[data-theme="light"] .quick-controls-row .quick-slider input[type="range"]::-moz-range-track {
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: rgba(66, 82, 54, 0.18);
+}
+
 /* Prayer UI light-mode fixes */
 :root[data-theme="light"] .settings-select,
 :root[data-theme="light"] .mobile-select {
@@ -1438,4 +1459,3 @@
   background: rgba(66, 82, 54, 0.14);
   color: #2f3a2a;
 }
-
