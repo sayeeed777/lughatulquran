@@ -533,6 +533,7 @@ export default function StudyModeView({
         onCloseRootModal={closeRootModal}
         onOpenRootDetails={openRootDetails}
         onPlayWordAudio={handleWordAudio}
+        onJumpToAyah={onJumpToAyah}
       />
 
       <StudyMemorizeModal

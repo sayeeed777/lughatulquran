@@ -1656,6 +1656,23 @@
   background: rgba(255, 255, 255, 0.06);
   color: var(--text);
   font-size: 0.76rem;
+  border: 1px solid transparent;
+}
+
+.study-lexicon-ref.is-link {
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.study-lexicon-ref.is-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.study-lexicon-ref.is-link:focus-visible {
+  outline: none;
+  border-color: rgba(111, 212, 177, 0.5);
+  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.16);
 }
 
 .study-lexicon-unavailable {

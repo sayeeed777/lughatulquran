@@ -25,6 +25,7 @@ type StudyLexiconModalsProps = {
   onCloseRootModal: () => void;
   onOpenRootDetails: (root?: string) => void;
   onPlayWordAudio: (audioUrl?: string) => void;
+  onJumpToAyah: (surah: number, ayah: number) => void;
 };
 
 export default function StudyLexiconModals({
@@ -40,9 +41,20 @@ export default function StudyLexiconModals({
   onCloseWordDetails,
   onCloseRootModal,
   onOpenRootDetails,
-  onPlayWordAudio
+  onPlayWordAudio,
+  onJumpToAyah
 }: StudyLexiconModalsProps) {
   const [showAbbreviationGuide, setShowAbbreviationGuide] = useState(false);
+
+  const parseReference = (value: string) => {
+    const match = String(value || "").trim().match(/^(\d{1,3})\s*:\s*(\d{1,3})$/);
+    if (!match) return null;
+    const surah = Number(match[1]);
+    const ayah = Number(match[2]);
+    if (!Number.isInteger(surah) || !Number.isInteger(ayah)) return null;
+    if (surah < 1 || surah > 114 || ayah < 1) return null;
+    return { surah, ayah };
+  };
 
   useEffect(() => {
     if (!isRootModalOpen) {
@@ -283,11 +295,32 @@ export default function StudyLexiconModals({
                       <h4>Qur&apos;anic References</h4>
                       {rootLexicon?.references?.length ? (
                         <div className="study-lexicon-ref-grid">
-                          {rootLexicon.references.map((ref) => (
-                            <span key={ref} className="study-lexicon-ref">
-                              {ref}
-                            </span>
-                          ))}
+                          {rootLexicon.references.map((ref, index) => {
+                            const parsed = parseReference(ref);
+                            if (!parsed) {
+                              return (
+                                <span key={`${ref}-${index}`} className="study-lexicon-ref">
+                                  {ref}
+                                </span>
+                              );
+                            }
+
+                            return (
+                              <button
+                                key={`${ref}-${index}`}
+                                type="button"
+                                className="study-lexicon-ref is-link"
+                                onClick={() => {
+                                  onCloseRootModal();
+                                  onJumpToAyah(parsed.surah, parsed.ayah);
+                                }}
+                                aria-label={`Go to Surah ${parsed.surah}, Ayah ${parsed.ayah}`}
+                                title={`Go to ${parsed.surah}:${parsed.ayah}`}
+                              >
+                                {ref}
+                              </button>
+                            );
+                          })}
                         </div>
                       ) : (
                         <p className="study-lexicon-unavailable">No references found.</p>
