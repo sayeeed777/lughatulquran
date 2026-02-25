@@ -1247,7 +1247,7 @@
 :root[data-theme="bw-dark"] .surah-translation,
 :root[data-theme="bw-dark"] .study-sub,
 :root[data-theme="bw-dark"] .plan-range {
-  color: rgba(238, 238, 238, 0.74);
+  color: rgba(238, 238, 238, 0.7);
 }
 
 :root[data-theme="bw-dark"] .ayah-translation,
@@ -1410,4 +1410,153 @@
 :root[data-theme="bw-dark"] .action-icon-btn.play-icon.playing {
   background: rgba(255, 255, 255, 0.15);
   color: #eee;
+}
+
+/* =============================================
+   FIX: Override hardcoded teal/aqua colors
+   ============================================= */
+
+/* Play button in quick controls (reader.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn {
+  background: #eee;
+  color: #000;
+}
+
+:root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn:hover {
+  background: #fff;
+}
+
+/* Audio bar play button (audio.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw-dark"] .audio-bar .play-surah-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .audio-bar .play-surah-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Audio bar stop button (audio.css leaks red tint) */
+:root[data-theme="bw-dark"] .quick-play .stop-btn {
+  background: rgba(255, 255, 255, 0.08);
+  color: #ccc;
+}
+
+:root[data-theme="bw-dark"] .quick-play .stop-btn:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* Study control-btn.primary (study.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw-dark"] .control-btn.primary {
+  background: #eee;
+  color: #000;
+}
+
+:root[data-theme="bw-dark"] .control-btn.primary:hover {
+  background: #fff;
+}
+
+/* Study rail active button (study.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw-dark"] .study-rail-btn.active {
+  background: #eee;
+  color: #000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Memorize primary button (study.css leaks #f4fffb) */
+:root[data-theme="bw-dark"] .memorize-primary {
+  background: #eee;
+  color: #000;
+}
+
+/* Reader search focus ring (reader.css leaks teal glow) */
+:root[data-theme="bw-dark"] .reader-search input:focus,
+:root[data-theme="bw-dark"] .go-ayah input:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
+}
+
+/* Translation toggle active (reader.css leaks green tint) */
+:root[data-theme="bw-dark"] .translation-toggle button.active,
+:root[data-theme="bw-dark"] .translation-toggle-mobile button.active {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eee;
+}
+
+/* Ayah card focused (reader.css leaks green tint) */
+:root[data-theme="bw-dark"] .ayah-card.focused {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Action btn saved/primary (common.css leaks green tint) */
+:root[data-theme="bw-dark"] .action-btn.saved,
+:root[data-theme="bw-dark"] .action-btn--primary {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .action-btn--primary:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* Search focus ring (common.css leaks teal glow) */
+:root[data-theme="bw-dark"] .search:focus {
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
+}
+
+/* =============================================
+   FIX: Consolidate error/danger colors to #ff6b6b
+   ============================================= */
+
+:root[data-theme="bw-dark"] .meta.error,
+:root[data-theme="bw-dark"] .status.error {
+  color: #ff6b6b;
+}
+
+:root[data-theme="bw-dark"] .inline-error {
+  background: rgba(255, 107, 107, 0.08);
+  border-color: rgba(255, 107, 107, 0.2);
+}
+
+:root[data-theme="bw-dark"] .action-btn--danger {
+  color: #ff6b6b;
+}
+
+:root[data-theme="bw-dark"] .action-btn--danger:hover {
+  background: rgba(255, 107, 107, 0.1);
+}
+
+/* =============================================
+   FIX: Tafsir edition chevron green circle
+   ============================================= */
+
+:root[data-theme="bw-dark"] .tafsir-edition-chevron {
+  color: #ccc;
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+:root[data-theme="bw-dark"] .tafsir-edition-field:focus-within {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.08);
+}
+
+/* =============================================
+   FIX: "Use current ayah" button green tint
+   ============================================= */
+
+:root[data-theme="bw-dark"] .quick-item-action {
+  background: rgba(255, 255, 255, 0.1);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .quick-item-action:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* =============================================
+   FIX: Tafsir text too dim (#888 → brighter)
+   ============================================= */
+
+:root[data-theme="bw-dark"] .tafsir-text {
+  color: rgba(238, 238, 238, 0.88);
 }

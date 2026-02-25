@@ -1312,3 +1312,100 @@
   background: rgba(0, 0, 0, 0.15);
   color: #111;
 }
+
+/* =============================================
+   FIX: Override hardcoded teal/aqua colors
+   ============================================= */
+
+/* Play button in quick controls (reader.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw"] .quick-controls-row .action-btn.play-btn {
+  background: #111;
+  color: #fff;
+}
+
+:root[data-theme="bw"] .quick-controls-row .action-btn.play-btn:hover {
+  background: #000;
+}
+
+/* Audio bar play button (audio.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw"] .audio-bar .play-surah-btn {
+  background: rgba(0, 0, 0, 0.08);
+  color: #111;
+}
+
+:root[data-theme="bw"] .audio-bar .play-surah-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+/* Audio bar stop button (audio.css leaks red tint) */
+:root[data-theme="bw"] .quick-play .stop-btn {
+  background: rgba(0, 0, 0, 0.06);
+  color: #333;
+}
+
+:root[data-theme="bw"] .quick-play .stop-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Study control-btn.primary (study.css leaks #f4fffb + teal gradient) */
+:root[data-theme="bw"] .control-btn.primary {
+  background: #111;
+  color: #fff;
+}
+
+:root[data-theme="bw"] .control-btn.primary:hover {
+  background: #000;
+}
+
+/* Study rail active button — already overridden above */
+
+/* Memorize primary button (study.css leaks #f4fffb) */
+:root[data-theme="bw"] .memorize-primary {
+  background: #111;
+  color: #fff;
+}
+
+/* =============================================
+   FIX: Consolidate error/danger colors to #cc3333
+   ============================================= */
+
+:root[data-theme="bw"] .meta.error,
+:root[data-theme="bw"] .status.error {
+  color: #cc3333;
+}
+
+:root[data-theme="bw"] .inline-error {
+  background: rgba(204, 51, 51, 0.06);
+  border-color: rgba(204, 51, 51, 0.15);
+}
+
+:root[data-theme="bw"] .action-btn--danger {
+  color: #cc3333;
+}
+
+:root[data-theme="bw"] .action-btn--danger:hover {
+  background: rgba(204, 51, 51, 0.08);
+}
+
+/* =============================================
+   FIX: Slider track background for B&W light
+   ============================================= */
+
+:root[data-theme="bw"] .quick-controls-row .quick-slider input[type="range"] {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* =============================================
+   FIX: Tafsir edition chevron green circle
+   ============================================= */
+
+:root[data-theme="bw"] .tafsir-edition-chevron {
+  color: #333;
+  background: rgba(0, 0, 0, 0.06);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+:root[data-theme="bw"] .tafsir-edition-field:focus-within {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+}
