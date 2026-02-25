@@ -126,6 +126,7 @@ type StudyQuickPanelContentProps = {
   runSearch: () => void;
   searchLoading: boolean;
   searchError: string | null;
+  searchHasRun: boolean;
   searchResults: SearchResult[];
   onOpenNote: (surah: number, ayah: number) => void;
   todayVersesRead: number;
@@ -196,6 +197,7 @@ export default function StudyQuickPanelContent({
   runSearch,
   searchLoading,
   searchError,
+  searchHasRun,
   searchResults,
   onOpenNote,
   todayVersesRead,
@@ -651,7 +653,7 @@ export default function StudyQuickPanelContent({
           {searchLoading && <p className="status">Searching...</p>}
           {searchError && <p className="status error">{searchError}</p>}
           {!searchLoading && !searchError && searchResults.length === 0 && (
-            <p className="status">No results yet.</p>
+            <p className="status">{searchHasRun ? "No results found." : "Type a keyword, then press Search."}</p>
           )}
           {searchResults.length > 0 && (
             <ul className="search-results">

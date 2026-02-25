@@ -129,6 +129,7 @@ export default function StudyModeView({
     searchResults,
     searchLoading,
     searchError,
+    searchHasRun,
     runSearch,
     tafsirEdition,
     tafsirText,
@@ -506,6 +507,7 @@ export default function StudyModeView({
           runSearch={runSearch}
           searchLoading={searchLoading}
           searchError={searchError}
+          searchHasRun={searchHasRun}
           searchResults={searchResults}
           onOpenNote={onOpenNote}
           todayVersesRead={todayStats.versesRead}
