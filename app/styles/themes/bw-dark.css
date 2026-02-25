@@ -1246,9 +1246,17 @@
 /* Surah translation & text overrides */
 :root[data-theme="bw-dark"] .surah-translation,
 :root[data-theme="bw-dark"] .study-sub,
-:root[data-theme="bw-dark"] .plan-range,
+:root[data-theme="bw-dark"] .plan-range {
+  color: rgba(238, 238, 238, 0.74);
+}
+
 :root[data-theme="bw-dark"] .ayah-translation,
+:root[data-theme="bw-dark"] .study-ayah-translation,
 :root[data-theme="bw-dark"] .compare-text {
+  color: rgba(238, 238, 238, 0.86);
+}
+
+:root[data-theme="bw-dark"] .translation-item .translation-label {
   color: rgba(238, 238, 238, 0.7);
 }
 
