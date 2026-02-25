@@ -89,6 +89,7 @@ export const ALL_TRANSLATIONS = [
   { id: "en-maarif-ul-quran", label: "Maarif-ul-Quran", short: "Maarif" },
   { id: "en-ahmedraza", label: "Kanz al-Iman (English)", short: "Kanz (EN)" },
   { id: "hi-hindi", label: "Hindi (Azizul Haq Al-Umari)", short: "Hindi" },
+  { id: "si-naseem-ismail", label: "Sinhala (Naseem Ismail)", short: "Sinhala" },
   { id: "fr-hamidullah", label: "French (Muhammad Hamidullah)", short: "Francais" },
   { id: "de-bubenheim", label: "German (Bubenheim & Elyas)", short: "Deutsch" },
   { id: "es-cortes", label: "Spanish (Julio Cortes)", short: "Español" },

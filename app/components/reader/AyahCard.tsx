@@ -66,6 +66,7 @@ const AyahCard = memo(function AyahCard({
     "en-maarif-ul-quran": "Maarif-ul-Quran",
     "en-ahmedraza": "Kanz al-Iman (English)",
     "hi-hindi": "Hindi (Azizul Haq Al-Umari)",
+    "si-naseem-ismail": "Sinhala (Naseem Ismail)",
     "fr-hamidullah": "French (Muhammad Hamidullah)",
     "de-bubenheim": "German (Bubenheim & Elyas)",
     "es-cortes": "Spanish (Julio Cortes)",
