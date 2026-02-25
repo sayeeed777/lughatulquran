@@ -1,0 +1,55 @@
+# OpenFurqan
+
+> A free, modern Quran reader for reading, studying, and listening to the Quran online.
+
+Website: https://openfurqan.com
+
+## About
+
+OpenFurqan is a free, open web application for reading and studying the Holy Quran. It provides the full Arabic text of the Quran alongside translations in multiple languages, word-by-word analysis, audio recitation, prayer times, and study tools. No account or payment is required. The interface is available in English, Bangla, and Urdu.
+
+## Content
+
+- 114 Surahs (chapters) of the Holy Quran
+- 6,236 Ayahs (verses) with full Arabic text
+- 22 translations across 7 languages
+- Word-by-word Arabic analysis
+
+## Translations Available
+
+English: Sahih International, Yusuf Ali, Pickthall, Arberry, Haleem, Muhsin Khan, Taqi Usmani, Ahmed Raza, Maarif-ul-Quran, Maududi, Transliteration
+Bangla: Muhiuddin Khan, Hoque, Mokhtasar, Tafsir Ahsanul-Bayaan
+Urdu: Bayan-ul-Quran, Kanzu al-Iman
+German: Bubenheim
+Spanish: Cortes
+French: Hamidullah
+Hindi: Hindi, Tafsir Farooq
+
+## Features
+
+- Read the Quran online with clean, distraction-free design
+- Multiple translations side by side
+- Audio recitation by multiple reciters
+- Word-by-word Arabic meanings and analysis
+- Prayer times based on user location
+- Bookmarks and personal notes
+- Dark and light themes
+- Works on desktop, tablet, and mobile
+- Offline support (Progressive Web App)
+- No ads, no accounts, completely free
+
+## URL Structure
+
+- Homepage: https://openfurqan.com
+- Surah page: https://openfurqan.com/surah/{surah-slug}
+- Ayah page: https://openfurqan.com/surah/{surah-slug}/{ayah-number}
+- Bangla: https://openfurqan.com/bn/
+- Urdu: https://openfurqan.com/ur/
+
+## Sitemap
+
+https://openfurqan.com/sitemap.xml
+
+## Contact
+
+Website: https://openfurqan.com
