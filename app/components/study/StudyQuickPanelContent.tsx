@@ -260,9 +260,6 @@ export default function StudyQuickPanelContent({
             <h4>Toolbox</h4>
             <span className="tool-chip">{activeToolCount} active</span>
           </div>
-          <p className="tool-hero-copy">
-            Display, playback, script, and reciter settings are all merged into one panel.
-          </p>
         </div>
 
         <div className="study-card tool-block">
