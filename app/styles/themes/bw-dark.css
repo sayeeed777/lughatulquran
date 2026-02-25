@@ -811,7 +811,8 @@
 
 :root[data-theme="bw-dark"] .tool-toggle-card,
 :root[data-theme="bw-dark"] .tool-slider-row,
-:root[data-theme="bw-dark"] .tool-reciter-select-field {
+:root[data-theme="bw-dark"] .tool-reciter-select-field,
+:root[data-theme="bw-dark"] .tafsir-edition-field {
   background: rgba(255, 255, 255, 0.03);
   border-color: rgba(255, 255, 255, 0.08);
 }

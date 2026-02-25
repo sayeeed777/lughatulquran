@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { useEffect, useMemo, useState } from "react";
 import type { Surah } from "../../lib/types";
 
 type MemorizeMode = "single" | "range" | "surah";
@@ -40,6 +41,50 @@ export default function StudyMemorizeModal({
   onStartMemorize,
   onStopMemorize
 }: StudyMemorizeModalProps) {
+  const maxAyah = selectedSurah?.numberOfAyahs || 1;
+  const [startInput, setStartInput] = useState(String(memorizeDraft.startAyah));
+  const [endInput, setEndInput] = useState(String(memorizeDraft.endAyah));
+
+  useEffect(() => {
+    setStartInput(String(memorizeDraft.startAyah));
+  }, [isOpen, memorizeDraft.startAyah]);
+
+  useEffect(() => {
+    setEndInput(String(memorizeDraft.endAyah));
+  }, [isOpen, memorizeDraft.endAyah]);
+
+  const sanitizeNumericInput = (value: string) => value.replace(/[^\d]/g, "");
+
+  const normalizedStartInput = useMemo(() => {
+    const parsed = Number(startInput);
+    if (!Number.isFinite(parsed) || parsed < 1) return memorizeDraft.startAyah;
+    return Math.min(parsed, maxAyah);
+  }, [startInput, memorizeDraft.startAyah, maxAyah]);
+
+  const normalizedEndInput = useMemo(() => {
+    const parsed = Number(endInput);
+    if (!Number.isFinite(parsed) || parsed < memorizeDraft.startAyah) return memorizeDraft.endAyah;
+    return Math.min(parsed, maxAyah);
+  }, [endInput, memorizeDraft.endAyah, memorizeDraft.startAyah, maxAyah]);
+
+  const commitStart = () => {
+    if (!startInput) {
+      setStartInput(String(memorizeDraft.startAyah));
+      return;
+    }
+    onUpdateStart(normalizedStartInput);
+    setStartInput(String(normalizedStartInput));
+  };
+
+  const commitEnd = () => {
+    if (!endInput) {
+      setEndInput(String(memorizeDraft.endAyah));
+      return;
+    }
+    onUpdateEnd(normalizedEndInput);
+    setEndInput(String(normalizedEndInput));
+  };
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -109,9 +154,17 @@ export default function StudyMemorizeModal({
                     <input
                       type="number"
                       min={1}
-                      max={selectedSurah?.numberOfAyahs || 1}
-                      value={memorizeDraft.startAyah}
-                      onChange={(event) => onUpdateStart(Number(event.target.value))}
+                      max={maxAyah}
+                      inputMode="numeric"
+                      pattern="[0-9]*"
+                      value={startInput}
+                      onChange={(event) => {
+                        const next = sanitizeNumericInput(event.target.value);
+                        setStartInput(next);
+                        if (!next) return;
+                        onUpdateStart(Number(next));
+                      }}
+                      onBlur={commitStart}
                     />
                   </label>
                   {memorizeMode === "range" && (
@@ -120,9 +173,17 @@ export default function StudyMemorizeModal({
                       <input
                         type="number"
                         min={memorizeDraft.startAyah}
-                        max={selectedSurah?.numberOfAyahs || 1}
-                        value={memorizeDraft.endAyah}
-                        onChange={(event) => onUpdateEnd(Number(event.target.value))}
+                        max={maxAyah}
+                        inputMode="numeric"
+                        pattern="[0-9]*"
+                        value={endInput}
+                        onChange={(event) => {
+                          const next = sanitizeNumericInput(event.target.value);
+                          setEndInput(next);
+                          if (!next) return;
+                          onUpdateEnd(Number(next));
+                        }}
+                        onBlur={commitEnd}
                       />
                     </label>
                   )}

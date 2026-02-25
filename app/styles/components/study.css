@@ -2297,6 +2297,93 @@
   gap: 12px;
 }
 
+.tafsir-edition-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.tafsir-edition-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tafsir-edition-action {
+  font-size: 0.74rem;
+  font-weight: 560;
+  color: var(--accent-2);
+  letter-spacing: 0.01em;
+}
+
+.tafsir-edition-field {
+  position: relative;
+  min-height: 52px;
+  border-radius: var(--radius-md);
+  padding: 10px 40px 10px 12px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.tafsir-edition-field:focus-within {
+  border-color: rgba(111, 212, 177, 0.42);
+  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.12);
+}
+
+.tafsir-edition-selected {
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  color: var(--text);
+  font-weight: 560;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tafsir-edition-chevron {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #b9ffe6;
+  background: rgba(111, 212, 177, 0.14);
+  border: 1px solid rgba(111, 212, 177, 0.28);
+  pointer-events: none;
+}
+
+.tafsir-edition-chevron svg {
+  width: 12px;
+  height: 12px;
+}
+
+.tafsir-edition-native {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
+}
+
 .tafsir-meta {
   display: flex;
   align-items: center;
@@ -3067,6 +3154,48 @@
     right: 10px;
     width: 20px;
     height: 20px;
+  }
+
+  .tafsir-edition-shell {
+    gap: 6px;
+  }
+
+  .tafsir-edition-field {
+    min-height: 48px;
+    border-radius: var(--radius-sm);
+    padding: 10px 36px 10px 11px;
+  }
+
+  .tafsir-edition-selected {
+    font-size: 0.84rem;
+  }
+
+  .tafsir-edition-chevron {
+    right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .tafsir-meta {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+
+  .tafsir-meta .meta {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex: 1 1 auto;
+  }
+
+  .tafsir-meta .quick-item-action {
+    width: auto;
+    flex: 0 0 auto;
+    white-space: nowrap;
+    padding: 6px 10px;
   }
 
   .study-rail {

@@ -670,7 +670,8 @@
 
 :root[data-theme="light"] .tool-toggle-card,
 :root[data-theme="light"] .tool-slider-row,
-:root[data-theme="light"] .tool-reciter-select-field {
+:root[data-theme="light"] .tool-reciter-select-field,
+:root[data-theme="light"] .tafsir-edition-field {
   background: rgba(250, 248, 245, 0.82);
   border: 1px solid rgba(66, 82, 54, 0.14);
 }
@@ -712,12 +713,14 @@
 }
 
 :root[data-theme="light"] .tool-reciter-selected,
+:root[data-theme="light"] .tafsir-edition-selected,
 :root[data-theme="light"] .tool-toggle-title,
 :root[data-theme="light"] .tool-slider-label {
   color: var(--text);
 }
 
-:root[data-theme="light"] .tool-reciter-chevron {
+:root[data-theme="light"] .tool-reciter-chevron,
+:root[data-theme="light"] .tafsir-edition-chevron {
   color: #425236;
   background: rgba(66, 82, 54, 0.1);
   border: 1px solid rgba(66, 82, 54, 0.22);

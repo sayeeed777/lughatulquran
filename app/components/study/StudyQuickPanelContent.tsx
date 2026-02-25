@@ -207,6 +207,13 @@ export default function StudyQuickPanelContent({
   weeklyData,
   surahProgress
 }: StudyQuickPanelContentProps) {
+  const selectedTafsirLabel = useMemo(
+    () =>
+      tafsirEditions.find((edition) => edition.id === String(tafsirEdition))?.label
+      || "Select tafsir edition",
+    [tafsirEdition, tafsirEditions]
+  );
+
   if (tab === "study") {
     return (
       <StudyTabContent
@@ -590,22 +597,34 @@ export default function StudyQuickPanelContent({
         <div className="study-card tafsir-card">
           <h4>Tafsir</h4>
           <div className="tafsir-controls">
-            <label className="tafsir-field">
-              <span className="tool-label">Edition</span>
-              <select
-                className="study-select"
-                value={String(tafsirEdition)}
-                onChange={(event) => {
-                  onChangeTafsirEdition(event.target.value);
-                }}
-              >
-                {tafsirEditions.map((edition) => (
-                  <option key={edition.id} value={edition.id}>
-                    {edition.label}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <div className="tafsir-edition-shell">
+              <div className="tafsir-edition-head">
+                <span className="tool-label">Tafsir Edition</span>
+                <span className="tafsir-edition-action">Tap to change</span>
+              </div>
+              <div className="tafsir-edition-field">
+                <span className="tafsir-edition-selected">{selectedTafsirLabel}</span>
+                <span className="tafsir-edition-chevron" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m6 9 6 6 6-6" />
+                  </svg>
+                </span>
+                <select
+                  className="tafsir-edition-native"
+                  value={String(tafsirEdition)}
+                  onChange={(event) => {
+                    onChangeTafsirEdition(event.target.value);
+                  }}
+                  aria-label="Choose tafsir edition"
+                >
+                  {tafsirEditions.map((edition) => (
+                    <option key={edition.id} value={edition.id}>
+                      {edition.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            </div>
 
             <div className="tafsir-meta">
               <span className="meta">
@@ -613,7 +632,7 @@ export default function StudyQuickPanelContent({
               </span>
               {selectedSurahNumber > 0 && currentAyahIndex > 0 && (
                 <button className="quick-item-action" onClick={onUseCurrentAyah} type="button">
-                  Use current
+                  Use current ayah
                 </button>
               )}
             </div>
