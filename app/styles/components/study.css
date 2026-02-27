@@ -656,6 +656,25 @@
   flex: 1;
   overflow-y: auto;
   padding: 20px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(111, 212, 177, 0.25) transparent;
+}
+
+.quick-panel-content::-webkit-scrollbar {
+  width: 5px;
+}
+
+.quick-panel-content::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.quick-panel-content::-webkit-scrollbar-thumb {
+  background: rgba(111, 212, 177, 0.22);
+  border-radius: 10px;
+}
+
+.quick-panel-content::-webkit-scrollbar-thumb:hover {
+  background: rgba(111, 212, 177, 0.38);
 }
 
 .quick-panel-section {
@@ -2308,6 +2327,19 @@
 }
 
 /* Tafsir */
+.tafsir-card.study-card {
+  background: transparent;
+  border: none;
+  padding: 0;
+  gap: 16px;
+}
+
+.tafsir-card.study-card h4 {
+  font-size: 0.7rem;
+  opacity: 0.5;
+  letter-spacing: 0.1em;
+}
+
 .tafsir-controls {
   display: flex;
   flex-direction: column;
@@ -2409,10 +2441,20 @@
 }
 
 .tafsir-text {
-  white-space: pre-wrap;
-  line-height: 1.7;
-  font-size: 0.9rem;
-  color: var(--muted);
+  line-height: 2;
+  font-size: 0.96rem;
+  color: rgba(255, 255, 255, 0.82);
+  letter-spacing: 0.015em;
+  word-spacing: normal;
+  font-weight: 400;
+  padding: 16px 0 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  margin-top: 4px;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-break: break-word;
 }
 
 /* Word-by-word row in Study Mode */

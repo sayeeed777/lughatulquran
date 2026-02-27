@@ -592,7 +592,6 @@ export default function StudyQuickPanelContent({
     return (
       <div className="quick-panel-section">
         <div className="study-card tafsir-card">
-          <h4>Tafsir</h4>
           <div className="tafsir-controls">
             <div className="tafsir-edition-shell">
               <div className="tafsir-edition-head">
@@ -639,7 +638,7 @@ export default function StudyQuickPanelContent({
           {tafsirError && <p className="status error">{tafsirError}</p>}
           {!tafsirLoading && !tafsirError && (
             <div className="tafsir-text">
-              {tafsirText ? tafsirText : "No tafsir available for this ayah."}
+              {tafsirText || "No tafsir available for this ayah."}
             </div>
           )}
         </div>
