@@ -1,7 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   SurahList,
   ReaderPanel,
@@ -28,11 +28,25 @@ const KeyboardShortcutsHelp = dynamic(
 
 function HomeContent() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
+  const [showStudyPulse, setShowStudyPulse] = useState(false);
 
   const ui = useUIState();
   const preferences = usePreferences();
   const audio = useAudio();
   const actions = useActions();
+
+  useEffect(() => {
+    const key = "study_mode_seen";
+    if (!localStorage.getItem(key)) {
+      setShowStudyPulse(true);
+    }
+  }, []);
+
+  const handleStudyModeClick = () => {
+    setShowStudyPulse(false);
+    localStorage.setItem("study_mode_seen", "1");
+    ui.setReadingMode(true);
+  };
 
   // Reading mode
   if (ui.readingMode) {
@@ -109,9 +123,16 @@ function HomeContent() {
           </div>
         </div>
         <div className="topbar-actions">
-          <button className="action-btn mobile-only" onClick={() => ui.setReadingMode(true)}>
-            Study mode
-          </button>
+          <div className="study-btn-wrapper mobile-only">
+            <button className={`action-btn${showStudyPulse ? " study-pulse" : ""}`} onClick={handleStudyModeClick}>
+              Study mode
+            </button>
+            {showStudyPulse && (
+              <span className="study-tooltip" onClick={handleStudyModeClick}>
+                Study, memorization, dictionary &amp; more
+              </span>
+            )}
+          </div>
           <div className="topbar-icon-btns desktop-only">
             <button
               className="header-icon-btn"
@@ -132,9 +153,16 @@ function HomeContent() {
               <SettingsIcon />
             </button>
           </div>
-          <button className="action-btn desktop-only" onClick={() => ui.setReadingMode(true)}>
-            Study mode
-          </button>
+          <div className="study-btn-wrapper desktop-only">
+            <button className={`action-btn${showStudyPulse ? " study-pulse" : ""}`} onClick={handleStudyModeClick}>
+              Study mode
+            </button>
+            {showStudyPulse && (
+              <span className="study-tooltip" onClick={handleStudyModeClick}>
+                Study, memorization, dictionary &amp; more
+              </span>
+            )}
+          </div>
         </div>
       </div>
 

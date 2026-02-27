@@ -39,6 +39,64 @@
     align-items: center;
 }
 
+/* Study mode button pulse - first visit only */
+@keyframes study-pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(111, 212, 177, 0); }
+  12.5% { box-shadow: 0 0 12px 4px rgba(111, 212, 177, 0.35); }
+  25% { box-shadow: 0 0 0 0 rgba(111, 212, 177, 0); }
+  37.5% { box-shadow: 0 0 12px 4px rgba(111, 212, 177, 0.35); }
+  50% { box-shadow: 0 0 0 0 rgba(111, 212, 177, 0); }
+  62.5% { box-shadow: 0 0 12px 4px rgba(111, 212, 177, 0.35); }
+  75% { box-shadow: 0 0 0 0 rgba(111, 212, 177, 0); }
+  87.5% { box-shadow: 0 0 12px 4px rgba(111, 212, 177, 0.35); }
+}
+
+.action-btn.study-pulse {
+  animation: study-pulse-glow 6s ease-in-out 1;
+}
+
+.study-btn-wrapper {
+  position: relative;
+}
+
+@keyframes study-tooltip-in {
+  0% { opacity: 0; transform: translateY(4px); }
+  15% { opacity: 1; transform: translateY(0); }
+  85% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(4px); }
+}
+
+.study-tooltip {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  white-space: nowrap;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #d8fff0;
+  background: rgba(22, 30, 36, 0.92);
+  border: 1px solid rgba(111, 212, 177, 0.25);
+  border-radius: 8px;
+  padding: 8px 12px;
+  pointer-events: auto;
+  cursor: pointer;
+  animation: study-tooltip-in 6s ease-in-out forwards;
+  z-index: 100;
+}
+
+.study-tooltip::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 16px;
+  width: 8px;
+  height: 8px;
+  background: rgba(22, 30, 36, 0.92);
+  border-top: 1px solid rgba(111, 212, 177, 0.25);
+  border-left: 1px solid rgba(111, 212, 177, 0.25);
+  transform: rotate(45deg);
+}
+
 /* =============================================
    Logo
    ============================================= */
