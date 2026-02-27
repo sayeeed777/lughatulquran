@@ -863,6 +863,11 @@
   border-color: rgba(255, 255, 255, 0.08);
 }
 
+:root[data-theme="bw-dark"] .tafsir-card.study-card {
+  background: transparent;
+  border: none;
+}
+
 :root[data-theme="bw-dark"] .study-toggle-list,
 :root[data-theme="bw-dark"] .study-premium-sliders {
   background: rgba(255, 255, 255, 0.04);
@@ -1553,10 +1558,6 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* =============================================
-   FIX: Tafsir text too dim (#888 → brighter)
-   ============================================= */
-
 :root[data-theme="bw-dark"] .tafsir-text {
-  color: rgba(238, 238, 238, 0.88);
+  color: rgba(238, 238, 238, 0.9);
 }

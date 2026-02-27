@@ -2443,12 +2443,12 @@
 .tafsir-text {
   line-height: 2;
   font-size: 0.96rem;
-  color: rgba(255, 255, 255, 0.82);
+  color: var(--muted);
   letter-spacing: 0.015em;
   word-spacing: normal;
   font-weight: 400;
   padding: 16px 0 24px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid color-mix(in srgb, var(--text) 8%, transparent);
   margin-top: 4px;
   text-align: justify;
   text-align-last: left;

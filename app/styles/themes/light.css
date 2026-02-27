@@ -632,6 +632,11 @@
   color: var(--accent);
 }
 
+:root[data-theme="light"] .tafsir-card.study-card {
+  background: transparent;
+  border: none;
+}
+
 :root[data-theme="light"] .study-toggle-list,
 :root[data-theme="light"] .study-premium-sliders {
   background: rgba(66, 82, 54, 0.04);

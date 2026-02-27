@@ -864,6 +864,11 @@
   border-color: rgba(0, 0, 0, 0.08);
 }
 
+:root[data-theme="bw"] .tafsir-card.study-card {
+  background: transparent;
+  border: none;
+}
+
 :root[data-theme="bw"] .study-toggle-list,
 :root[data-theme="bw"] .study-premium-sliders {
   background: rgba(0, 0, 0, 0.04);
