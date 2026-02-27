@@ -71,7 +71,7 @@ export function useHomeEffects({
       if (targetSurah) {
         setSelectedSurah(targetSurah);
         const targetAyah = ayahParam || hashAyah;
-        if (targetAyah && !isMobileViewport()) {
+        if (targetAyah) {
           setPendingScroll(targetAyah);
           setFocusedAyahKey(verseKey(targetSurah.number, targetAyah));
         }
@@ -91,7 +91,7 @@ export function useHomeEffects({
     lastUrlUpdateRef.current = now;
     const url = new URL(window.location.href);
     url.searchParams.set("surah", String(selectedSurah.number));
-    if (focusedAyahKey && !isMobileViewport()) {
+    if (focusedAyahKey) {
       const { ayah } = parseVerseKey(focusedAyahKey);
       url.searchParams.set("ayah", String(ayah));
     } else {
