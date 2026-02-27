@@ -72,6 +72,45 @@
   font-weight: 600;
   color: var(--text);
   letter-spacing: -0.02em;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.study-surah-picker {
+  position: relative;
+  cursor: pointer;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  border-radius: var(--radius-sm);
+  padding: 4px 8px;
+  transition: background 0.2s ease;
+}
+
+.study-surah-picker:hover {
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+}
+
+.study-surah-picker-icon {
+  opacity: 0.4;
+  flex-shrink: 0;
+  transition: opacity 0.2s ease;
+}
+
+.study-surah-picker:hover .study-surah-picker-icon {
+  opacity: 0.7;
+}
+
+.study-surah-picker-native {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  background: transparent;
 }
 
 .study-surah-meta {
@@ -214,11 +253,12 @@
 
 /* Ayah List */
 .study-ayah-list {
-  max-width: 700px;
+  max-width: clamp(500px, 55vw, 900px);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 48px;
+  width: 100%;
 }
 
 .study-ayah-card {
@@ -1917,9 +1957,9 @@
 .tool-hero-card {
   position: relative;
   overflow: hidden;
-  background:
-    radial-gradient(120% 120% at 0% 0%, rgba(111, 212, 177, 0.14), transparent 55%),
-    rgba(255, 255, 255, 0.035);
+  background: transparent;
+  border: none;
+  padding: 0;
 }
 
 .tool-hero-head {
@@ -1950,6 +1990,10 @@
 
 .tool-block {
   gap: 14px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 16px;
+  border-radius: var(--radius-md);
 }
 
 .tool-block-head {
@@ -1977,7 +2021,7 @@
 .tool-toggle-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 0;
 }
 
 .tool-toggle-card {
@@ -1985,10 +2029,11 @@
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  padding: 12px;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.035);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 12px 0;
+  border-radius: 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 6%, transparent);
 }
 
 .tool-toggle-copy {
@@ -2029,14 +2074,10 @@
 }
 
 .tool-slider-row {
-  padding: 12px 12px 11px;
-  border-radius: var(--radius-sm);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.055) 0%,
-    rgba(255, 255, 255, 0.025) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 12px 0 11px;
+  border-radius: 0;
+  background: transparent;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 6%, transparent);
   display: flex;
   flex-direction: column;
 }

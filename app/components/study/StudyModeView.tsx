@@ -34,6 +34,7 @@ export default function StudyModeView({
 }: StudyModeViewProps) {
   // Consume from contexts
   const {
+    surahs,
     selectedSurah,
     surahData,
     filteredAyahs,
@@ -308,7 +309,31 @@ export default function StudyModeView({
                 </svg>
               </button>
               <div className="study-surah-info">
-                <h1 className="study-surah-name">{selectedSurah?.englishName}</h1>
+                <div className="study-surah-picker">
+                  <h1 className="study-surah-name">
+                    {selectedSurah?.englishName}
+                    <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </h1>
+                  <select
+                    className="study-surah-picker-native"
+                    value={selectedSurah?.number || 1}
+                    onChange={(e) => {
+                      const num = Number(e.target.value);
+                      if (num && num !== selectedSurah?.number) {
+                        onJumpToAyah(num, 1);
+                      }
+                    }}
+                    aria-label="Choose surah"
+                  >
+                    {surahs.map((s) => (
+                      <option key={s.number} value={s.number}>
+                        {s.number}. {s.englishName}
+                      </option>
+                    ))}
+                  </select>
+                </div>
                 <span className="study-surah-meta">
                   {selectedSurah?.englishNameTranslation} · {totalAyahs} Ayahs
                 </span>

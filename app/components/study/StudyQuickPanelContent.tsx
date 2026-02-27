@@ -255,13 +255,6 @@ export default function StudyQuickPanelContent({
 
     return (
       <div className="quick-panel-section study-tool-section">
-        <div className="study-card tool-hero-card">
-          <div className="tool-hero-head">
-            <h4>Toolbox</h4>
-            <span className="tool-chip">{activeToolCount} active</span>
-          </div>
-        </div>
-
         <div className="study-card tool-block">
           <div className="tool-block-head">
             <h5>Reading Aids</h5>

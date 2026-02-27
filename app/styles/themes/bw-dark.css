@@ -810,7 +810,12 @@
 }
 
 :root[data-theme="bw-dark"] .tool-toggle-card,
-:root[data-theme="bw-dark"] .tool-slider-row,
+:root[data-theme="bw-dark"] .tool-slider-row {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
 :root[data-theme="bw-dark"] .tool-reciter-select-field,
 :root[data-theme="bw-dark"] .tafsir-edition-field {
   background: rgba(255, 255, 255, 0.03);
@@ -818,8 +823,8 @@
 }
 
 :root[data-theme="bw-dark"] .tool-hero-card {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: transparent;
+  border: none;
 }
 
 :root[data-theme="bw-dark"] .tool-chip {
@@ -866,6 +871,11 @@
 :root[data-theme="bw-dark"] .tafsir-card.study-card {
   background: transparent;
   border: none;
+}
+
+:root[data-theme="bw-dark"] .tool-block.study-card {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 :root[data-theme="bw-dark"] .study-toggle-list,

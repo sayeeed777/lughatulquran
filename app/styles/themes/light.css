@@ -637,6 +637,11 @@
   border: none;
 }
 
+:root[data-theme="light"] .tool-block.study-card {
+  background: rgba(66, 82, 54, 0.04);
+  border: 1px solid rgba(66, 82, 54, 0.08);
+}
+
 :root[data-theme="light"] .study-toggle-list,
 :root[data-theme="light"] .study-premium-sliders {
   background: rgba(66, 82, 54, 0.04);
@@ -655,10 +660,8 @@
 
 /* Tool panel (light mode contrast tuning) */
 :root[data-theme="light"] .tool-hero-card {
-  background:
-    radial-gradient(120% 120% at 0% 0%, rgba(66, 82, 54, 0.09), transparent 62%),
-    rgba(250, 248, 245, 0.84);
-  border: 1px solid rgba(66, 82, 54, 0.16);
+  background: transparent;
+  border: none;
 }
 
 :root[data-theme="light"] .tool-chip {
@@ -674,7 +677,12 @@
 }
 
 :root[data-theme="light"] .tool-toggle-card,
-:root[data-theme="light"] .tool-slider-row,
+:root[data-theme="light"] .tool-slider-row {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(66, 82, 54, 0.1);
+}
+
 :root[data-theme="light"] .tool-reciter-select-field,
 :root[data-theme="light"] .tafsir-edition-field {
   background: rgba(250, 248, 245, 0.82);
