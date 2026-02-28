@@ -71,6 +71,7 @@ export default function useStudyControls({
     loops: 2
   });
   const [studyMarks, setStudyMarks] = useLocalStorage<StudyMarks>("quran_study_marks", {});
+  const [hifzMarks, setHifzMarks] = useLocalStorage<StudyMarks>("quran_hifz", {});
   const [studyGoal, setStudyGoal] = useLocalStorage<StudyGoal>("quran_study_goal", {
     perDay: 15,
     date: getLocalDateString()
@@ -508,6 +509,47 @@ export default function useStudyControls({
     [setStudyMarks]
   );
 
+  const toggleHifzMark = useCallback(
+    (key: string) => {
+      setHifzMarks((previous) => {
+        const next = { ...(previous || {}) };
+        if (next[key]) {
+          delete next[key];
+        } else {
+          next[key] = true;
+        }
+        return next;
+      });
+    },
+    [setHifzMarks]
+  );
+
+  const markHifzRange = useCallback(
+    (surahNumber: number, startAyah: number, endAyah: number) => {
+      setHifzMarks((previous) => {
+        const next = { ...(previous || {}) };
+        for (let i = startAyah; i <= endAyah; i++) {
+          next[`${surahNumber}:${i}`] = true;
+        }
+        return next;
+      });
+    },
+    [setHifzMarks]
+  );
+
+  const clearHifzSurah = useCallback(
+    (surahNumber: number, totalAyahs: number) => {
+      setHifzMarks((previous) => {
+        const next = { ...(previous || {}) };
+        for (let i = 1; i <= totalAyahs; i++) {
+          delete next[`${surahNumber}:${i}`];
+        }
+        return next;
+      });
+    },
+    [setHifzMarks]
+  );
+
   return {
     showControls,
     showQuickPanel,
@@ -560,6 +602,10 @@ export default function useStudyControls({
     updateMemorizeLoops,
     studyMarks,
     toggleStudyMark,
+    hifzMarks,
+    toggleHifzMark,
+    markHifzRange,
+    clearHifzSurah,
     scrollContainerRef
   };
 }

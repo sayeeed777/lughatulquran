@@ -48,6 +48,8 @@ type StudyAyahCardProps = {
   onOpenTafsir: (key: string) => void;
   onOpenNote: (surah: number, ayah: number) => void;
   onToggleStudyMarkByKey: (key: string) => void;
+  isMemorized: boolean;
+  onToggleHifzMark: (key: string) => void;
   onWordSelect: (word: StudyWord, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
 };
@@ -83,6 +85,8 @@ function StudyAyahCardComponent({
   onOpenTafsir,
   onOpenNote,
   onToggleStudyMarkByKey,
+  isMemorized,
+  onToggleHifzMark,
   onWordSelect,
   onWordAudio
 }: StudyAyahCardProps) {
@@ -146,7 +150,7 @@ function StudyAyahCardComponent({
   return (
     <article
       id={`ayah-${ayahNumber}`}
-      className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isMarked ? " marked" : ""}${isDimmed ? " dimmed" : ""}`}
+      className={`study-ayah-card${isActivePlay ? " playing" : ""}${isFocused ? " focused" : ""}${isMarked ? " marked" : ""}${isDimmed ? " dimmed" : ""}${isMemorized ? " memorized" : ""}`}
       onClick={handleCardClick}
       onFocus={() => onFocusAyahKey(verseKey)}
       onPointerDown={handlePointerDown}
@@ -315,6 +319,35 @@ function StudyAyahCardComponent({
                   stroke="currentColor"
                   strokeWidth="2"
                   strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              className={`action-icon-btn hifz-icon${isMemorized ? " memorized" : ""}`}
+              onClick={(event) => {
+                event.stopPropagation();
+                onToggleHifzMark(verseKey);
+              }}
+              aria-label={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
+              title={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
+              type="button"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M9 12l2 2 4-4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="9"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
                 />
               </svg>
             </button>

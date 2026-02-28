@@ -295,6 +295,15 @@
   background: rgba(111, 212, 177, 0.2);
 }
 
+.study-ayah-card.memorized {
+  border-left: 3px solid rgba(111, 212, 177, 0.5);
+}
+
+.action-icon-btn.hifz-icon.memorized {
+  background: rgba(111, 212, 177, 0.16);
+  color: var(--accent-2);
+}
+
 .study-ayah-card.dimmed {
   opacity: 0.35;
   filter: saturate(0.8);
@@ -3562,6 +3571,82 @@
   margin: 0;
 }
 
+/* ---- Hifz (Memorization) Section ---- */
+.hifz-total-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.hifz-stats-row {
+  display: flex;
+  gap: 16px;
+}
+
+.hifz-stat {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border: 1px solid color-mix(in srgb, var(--text) 5%, transparent);
+}
+
+.hifz-stat-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.hifz-stat-value {
+  font-size: 0.88rem;
+  font-weight: 650;
+  color: var(--text);
+}
+
+.hifz-stat-label {
+  font-size: 0.7rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hifz-actions {
+  margin-top: 4px;
+}
+
+.hifz-action-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(111, 212, 177, 0.2);
+  background: rgba(111, 212, 177, 0.08);
+  color: var(--accent-2);
+  font-size: 0.78rem;
+  font-weight: 580;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.hifz-action-btn:hover {
+  background: rgba(111, 212, 177, 0.14);
+}
+
+.hifz-action-btn.hifz-action-clear {
+  border-color: color-mix(in srgb, var(--text) 8%, transparent);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  color: var(--muted);
+}
+
+.hifz-action-btn.hifz-action-clear:hover {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+}
+
 /* ---- Hero Stats 2x2 Grid ---- */
 .qp-hero-grid {
   display: grid;
@@ -3927,6 +4012,13 @@
   color: var(--muted, #7a8290);
 }
 
+.qp-surah-badges {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
 .qp-surah-pct {
   font-size: var(--text-sm, 0.8125rem);
   font-weight: 600;
@@ -3944,6 +4036,29 @@
   height: 28px;
   border-radius: 50%;
   justify-content: center;
+}
+
+.qp-surah-mem-pct {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-2, #6fd4b1);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.qp-surah-mem-pct.done {
+  color: #6fd4b1;
+  background: rgba(111, 212, 177, 0.1);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  justify-content: center;
+}
+
+.qp-surah-hifz-detail {
+  color: var(--accent-2, #6fd4b1);
 }
 
 .qp-almost-banner {
@@ -4082,6 +4197,19 @@
   background: rgba(46, 139, 87, 0.08);
 }
 
+:root[data-theme="light"] .qp-surah-mem-pct {
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .qp-surah-mem-pct.done {
+  color: #2e8b57;
+  background: rgba(46, 139, 87, 0.08);
+}
+
+:root[data-theme="light"] .qp-surah-hifz-detail {
+  color: var(--accent);
+}
+
 :root[data-theme="light"] .qp-almost-banner {
   background: rgba(208, 104, 48, 0.06);
 }
@@ -4192,6 +4320,19 @@
 :root[data-theme="bw"] .qp-surah-pct.done {
   color: #333;
   background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-surah-mem-pct {
+  color: #444;
+}
+
+:root[data-theme="bw"] .qp-surah-mem-pct.done {
+  color: #333;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+:root[data-theme="bw"] .qp-surah-hifz-detail {
+  color: #444;
 }
 
 :root[data-theme="bw"] .qp-almost-banner {

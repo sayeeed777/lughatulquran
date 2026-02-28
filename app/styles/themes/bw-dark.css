@@ -1413,6 +1413,25 @@
   background: rgba(255, 255, 255, 0.18);
 }
 
+:root[data-theme="bw-dark"] .action-icon-btn.hifz-icon.memorized {
+  background: rgba(255, 255, 255, 0.12);
+  color: #eee;
+}
+
+:root[data-theme="bw-dark"] .study-ayah-card.memorized {
+  border-left-color: rgba(255, 255, 255, 0.3);
+}
+
+:root[data-theme="bw-dark"] .hifz-action-btn {
+  border-color: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.06);
+  color: #ddd;
+}
+
+:root[data-theme="bw-dark"] .hifz-action-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /* Note button active */
 :root[data-theme="bw-dark"] .note-btn.active,
 :root[data-theme="bw-dark"] .ayah-note-btn.active,

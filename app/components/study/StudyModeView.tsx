@@ -149,6 +149,10 @@ export default function StudyModeView({
     updateMemorizeLoops,
     studyMarks,
     toggleStudyMark,
+    hifzMarks,
+    toggleHifzMark,
+    markHifzRange,
+    clearHifzSurah,
     scrollContainerRef
   } = useStudyControls({
     ayahsLength: ayahs.length,
@@ -410,6 +414,8 @@ export default function StudyModeView({
           onWordSelect={handleWordSelect}
           onWordAudio={handleWordAudio}
           onToggleStudyMarkByKey={toggleStudyMark}
+          hifzMarks={hifzMarks}
+          onToggleHifzMark={toggleHifzMark}
         />
 
         <div className="study-surah-end">
@@ -439,6 +445,11 @@ export default function StudyModeView({
         surahPageStart={surahPageStart}
         surahPageEnd={surahPageEnd}
         showPlayerBar={false}
+        memorizeActive={Boolean(memorizeConfig?.active)}
+        memorizeStartAyah={memorizeConfig?.startAyah}
+        memorizeEndAyah={memorizeConfig?.endAyah}
+        memorizeLoops={memorizeConfig?.loops}
+        memorizeRemaining={memorizeConfig?.remaining}
       />
 
 
@@ -541,6 +552,10 @@ export default function StudyModeView({
           longestStreak={stats.longestStreak}
           weeklyData={weeklyData}
           surahProgress={surahProgress}
+          hifzMarks={hifzMarks}
+          totalAyahs={totalAyahs}
+          markHifzRange={markHifzRange}
+          clearHifzSurah={clearHifzSurah}
         />
       </QuickPanel>
 

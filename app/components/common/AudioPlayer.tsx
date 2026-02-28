@@ -31,6 +31,11 @@ type AudioPlayerProps = {
   surahPageEnd?: number | null;
   showSurahControls?: boolean;
   showPlayerBar?: boolean;
+  memorizeActive?: boolean;
+  memorizeStartAyah?: number;
+  memorizeEndAyah?: number;
+  memorizeLoops?: number;
+  memorizeRemaining?: number;
 };
 
 type ChapterTimestamp = {
@@ -103,7 +108,12 @@ export default function AudioPlayer({
   selectedSurah,
   nowPlaying,
   showSurahControls = true,
-  showPlayerBar = true
+  showPlayerBar = true,
+  memorizeActive = false,
+  memorizeStartAyah = 1,
+  memorizeEndAyah = 1,
+  memorizeLoops = 0,
+  memorizeRemaining = 0
 }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const preloadRef = useRef<HTMLAudioElement | null>(null);
@@ -127,6 +137,19 @@ export default function AudioPlayer({
   useEffect(() => {
     isAutoPlayingRef.current = isAutoPlaying;
   }, [isAutoPlaying]);
+
+  const memorizeActiveRef = useRef(memorizeActive);
+  const memorizeStartAyahRef = useRef(memorizeStartAyah);
+  const memorizeEndAyahRef = useRef(memorizeEndAyah);
+  const memorizeLoopsRef = useRef(memorizeLoops);
+  const memorizeRemainingRef = useRef(memorizeRemaining);
+  useEffect(() => {
+    memorizeActiveRef.current = memorizeActive;
+    memorizeStartAyahRef.current = memorizeStartAyah;
+    memorizeEndAyahRef.current = memorizeEndAyah;
+    memorizeLoopsRef.current = memorizeLoops;
+    memorizeRemainingRef.current = memorizeRemaining;
+  }, [memorizeActive, memorizeStartAyah, memorizeEndAyah, memorizeLoops, memorizeRemaining]);
 
   const isAudioPausedRef = useRef(isAudioPaused);
   useEffect(() => {
@@ -244,6 +267,7 @@ export default function AudioPlayer({
       targetAyah
     }: ActivateChapterModeOptions): Promise<boolean> => {
       if (chapterSwitchingRef.current) return false;
+      if (memorizeActiveRef.current) return false;
       if (
         typeof document === "undefined"
         || (!allowWhileVisible && document.visibilityState === "visible")
@@ -343,6 +367,46 @@ export default function AudioPlayer({
     if (!audio) return;
     const handleEnded = () => {
       retryCountRef.current = 0;
+      if (isAutoPlayingRef.current && memorizeActiveRef.current) {
+        // Keep memorize/repeat in ayah mode so repeat boundaries are exact.
+        if (chapterModeRef.current) {
+          disableChapterMode();
+        }
+
+        const match = (audio.currentSrc || audio.src).match(/(\d{3})(\d{3})\.mp3(?:\?.*)?$/);
+        if (match) {
+          const surah = Number.parseInt(match[1] || "0", 10);
+          const ayah = Number.parseInt(match[2] || "0", 10);
+          const nextAyah = ayah + 1;
+          const atRangeEnd = nextAyah > memorizeEndAyahRef.current;
+
+          if (atRangeEnd) {
+            // Check if loops are exhausted (loops > 0 means finite, remaining <= 1 means last)
+            const loops = memorizeLoopsRef.current;
+            const remaining = memorizeRemainingRef.current;
+            if (loops > 0 && remaining <= 1) {
+              // Done looping — let onAudioEnded() handle cleanup, don't play next
+              onAudioEnded();
+              return;
+            }
+          }
+
+          // Still within range or looping back to start
+          const targetAyah = atRangeEnd
+            ? memorizeStartAyahRef.current
+            : nextAyah;
+          const targetSrc = (audio.currentSrc || audio.src).replace(
+            /\d{6}\.mp3(?:\?.*)?$/,
+            `${pad(surah)}${pad(targetAyah)}.mp3`
+          );
+          audio.src = targetSrc;
+          audio.playbackRate = playbackRateRef.current;
+          audio.play().catch(() => {});
+        }
+        onAudioEnded();
+        return;
+      }
+
       if (isAutoPlayingRef.current && chapterModeRef.current) {
         disableChapterMode();
         onStopAutoPlay();
@@ -515,10 +579,21 @@ export default function AudioPlayer({
     disableChapterMode();
   }, [disableChapterMode, isAutoPlaying]);
 
+  useEffect(() => {
+    if (!memorizeActive) return;
+    if (!chapterModeRef.current) return;
+    disableChapterMode();
+  }, [disableChapterMode, memorizeActive]);
+
   // Primary autoplay strategy (Quran.com-like): use chapter stream + verse timestamps.
   // Keep ayah-by-ayah playback as fallback when no chapter recitation mapping exists.
   useEffect(() => {
     if (!isAutoPlaying || !nowPlaying) return;
+
+    if (memorizeActive) {
+      disableChapterMode();
+      return;
+    }
 
     const cacheKey = getChapterCacheKey(reciterId, nowPlaying.surah);
     const supportsChapterMode = Boolean(QURAN_API_RECITER_BY_LOCAL_ID[reciterId]);
@@ -565,7 +640,7 @@ export default function AudioPlayer({
     chapterCurrentAyahRef.current = nowPlaying.ayah;
     const index = chapterData.timings.findIndex((item) => item.ayah === nowPlaying.ayah);
     chapterTimingIndexRef.current = index >= 0 ? index : 0;
-  }, [activateChapterMode, disableChapterMode, getChapterCacheKey, isAutoPlaying, nowPlaying, reciterId]);
+  }, [activateChapterMode, disableChapterMode, getChapterCacheKey, isAutoPlaying, memorizeActive, nowPlaying, reciterId]);
 
   // Update src imperatively (no remount) and play.
   // Guard: if audio is already playing the correct src (set imperatively in the

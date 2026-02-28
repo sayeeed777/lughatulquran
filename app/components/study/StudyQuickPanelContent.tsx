@@ -135,6 +135,10 @@ type StudyQuickPanelContentProps = {
   longestStreak: number;
   weeklyData: DailyReading[];
   surahProgress: Record<number, number[]>;
+  hifzMarks: Record<string, true>;
+  totalAyahs: number;
+  markHifzRange: (surahNumber: number, startAyah: number, endAyah: number) => void;
+  clearHifzSurah: (surahNumber: number, totalAyahs: number) => void;
 };
 
 export default function StudyQuickPanelContent({
@@ -205,7 +209,11 @@ export default function StudyQuickPanelContent({
   currentStreak,
   longestStreak,
   weeklyData,
-  surahProgress
+  surahProgress,
+  hifzMarks,
+  totalAyahs,
+  markHifzRange,
+  clearHifzSurah
 }: StudyQuickPanelContentProps) {
   const selectedTafsirLabel = useMemo(
     () =>
@@ -235,6 +243,12 @@ export default function StudyQuickPanelContent({
         longestStreak={longestStreak}
         weeklyData={weeklyData}
         surahProgress={surahProgress}
+        hifzMarks={hifzMarks}
+        selectedSurahNumber={selectedSurahNumber}
+        selectedSurahName={selectedSurahName}
+        totalAyahs={totalAyahs}
+        markHifzRange={markHifzRange}
+        clearHifzSurah={clearHifzSurah}
       />
     );
   }
@@ -830,6 +844,12 @@ type StudyTabProps = {
   longestStreak: number;
   weeklyData: DailyReading[];
   surahProgress: Record<number, number[]>;
+  hifzMarks: Record<string, true>;
+  selectedSurahNumber: number;
+  selectedSurahName: string;
+  totalAyahs: number;
+  markHifzRange: (surahNumber: number, startAyah: number, endAyah: number) => void;
+  clearHifzSurah: (surahNumber: number, totalAyahs: number) => void;
 };
 
 function StudyTabContent({
@@ -848,24 +868,46 @@ function StudyTabContent({
   currentStreak,
   longestStreak,
   weeklyData,
-  surahProgress
+  surahProgress,
+  hifzMarks,
+  selectedSurahNumber,
+  selectedSurahName,
+  totalAyahs,
+  markHifzRange,
+  clearHifzSurah
 }: StudyTabProps) {
   const [showAllSurahs, setShowAllSurahs] = useState(false);
   const overallProgress = Math.max(0, Math.min(100, Math.round(progress)));
 
   const surahEntries = useMemo(() => {
-    const items: { number: number; name: string; total: number; read: number; pct: number }[] = [];
-    for (const [numStr, ayahs] of Object.entries(surahProgress)) {
-      const num = Number(numStr);
+    const items: { number: number; name: string; total: number; read: number; pct: number; memorized: number; memPct: number }[] = [];
+    // Collect surahs that have reading progress OR memorization marks
+    const surahNumbers = new Set<number>();
+    for (const numStr of Object.keys(surahProgress)) surahNumbers.add(Number(numStr));
+    if (hifzMarks) {
+      for (const key of Object.keys(hifzMarks)) {
+        const sNum = Number(key.split(":")[0]);
+        if (sNum) surahNumbers.add(sNum);
+      }
+    }
+    for (const num of surahNumbers) {
       const surah = surahByNumber.get(num);
-      if (!surah || !ayahs.length) continue;
+      if (!surah) continue;
       const total = SURAH_AYAH_COUNTS[num - 1] || 0;
       if (!total) continue;
-      const read = new Set(ayahs).size;
-      items.push({ number: num, name: surah.englishName, total, read, pct: Math.round((read / total) * 100) });
+      const ayahs = surahProgress[num];
+      const read = ayahs ? new Set(ayahs).size : 0;
+      let memorized = 0;
+      if (hifzMarks) {
+        for (let i = 1; i <= total; i++) {
+          if (hifzMarks[`${num}:${i}`]) memorized++;
+        }
+      }
+      if (read === 0 && memorized === 0) continue;
+      items.push({ number: num, name: surah.englishName, total, read, pct: Math.round((read / total) * 100), memorized, memPct: Math.round((memorized / total) * 100) });
     }
     return items.sort((a, b) => b.pct - a.pct);
-  }, [surahProgress, surahByNumber]);
+  }, [surahProgress, surahByNumber, hifzMarks]);
 
   const almostDone = useMemo(
     () => surahEntries.filter((e) => e.pct >= 70 && e.pct < 100),
@@ -875,6 +917,20 @@ function StudyTabContent({
   const displayedSurahs = showAllSurahs ? surahEntries : surahEntries.slice(0, 4);
   const streakClass = currentStreak >= 7 ? "qp-streak-fire" : currentStreak >= 3 ? "qp-streak-warm" : "";
   const goalPct = goalTarget > 0 ? Math.min(100, Math.round((goalProgress / goalTarget) * 100)) : 0;
+
+  // Hifz (memorization) stats
+  const totalHifzCount = Object.keys(hifzMarks || {}).length;
+  const TOTAL_QURAN_AYAHS = 6236;
+  const hifzPct = Math.round((totalHifzCount / TOTAL_QURAN_AYAHS) * 100);
+  const currentSurahHifzCount = useMemo(() => {
+    if (!selectedSurahNumber || !hifzMarks) return 0;
+    let count = 0;
+    for (let i = 1; i <= totalAyahs; i++) {
+      if (hifzMarks[`${selectedSurahNumber}:${i}`]) count++;
+    }
+    return count;
+  }, [selectedSurahNumber, totalAyahs, hifzMarks]);
+  const currentSurahHifzPct = totalAyahs > 0 ? Math.round((currentSurahHifzCount / totalAyahs) * 100) : 0;
 
   return (
     <div className="quick-panel-section qp-apple" data-overall-progress={overallProgress}>
@@ -930,6 +986,53 @@ function StudyTabContent({
           <h4>Weekly Activity</h4>
         </div>
         <WeeklyChart data={weeklyData} />
+      </div>
+
+      {/* Memorization (Hifz) Progress */}
+      <div className="qp-group hifz-group">
+        <div className="qp-group-header">
+          <h4>Memorization</h4>
+          <span className="hifz-total-badge">{totalHifzCount} / {TOTAL_QURAN_AYAHS}</span>
+        </div>
+
+        <div className="hifz-stats-row">
+          <div className="hifz-stat">
+            <MiniRing progress={hifzPct} />
+            <div className="hifz-stat-text">
+              <span className="hifz-stat-value">{hifzPct}%</span>
+              <span className="hifz-stat-label">Overall</span>
+            </div>
+          </div>
+          <div className="hifz-stat">
+            <MiniRing progress={currentSurahHifzPct} />
+            <div className="hifz-stat-text">
+              <span className="hifz-stat-value">{currentSurahHifzCount}/{totalAyahs}</span>
+              <span className="hifz-stat-label">{selectedSurahName || "Current"}</span>
+            </div>
+          </div>
+        </div>
+
+        {totalAyahs > 0 && (
+          <div className="hifz-actions">
+            {currentSurahHifzCount < totalAyahs ? (
+              <button
+                className="hifz-action-btn"
+                type="button"
+                onClick={() => markHifzRange(selectedSurahNumber, 1, totalAyahs)}
+              >
+                Mark all {totalAyahs} ayahs as memorized
+              </button>
+            ) : (
+              <button
+                className="hifz-action-btn hifz-action-clear"
+                type="button"
+                onClick={() => clearHifzSurah(selectedSurahNumber, totalAyahs)}
+              >
+                Clear memorization for this surah
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {/* #1 + #7 + #10 — Grouped: goal stepper + progress in one block, no redundant label */}
@@ -992,15 +1095,32 @@ function StudyTabContent({
                 <MiniRing progress={entry.pct} />
                 <div className="qp-surah-info">
                   <span className="qp-surah-name">{entry.number}. {entry.name}</span>
-                  <span className="qp-surah-detail">{entry.read}/{entry.total} ayahs</span>
+                  <span className="qp-surah-detail">
+                    {entry.read}/{entry.total} read
+                    {entry.memorized > 0 && (
+                      <span className="qp-surah-hifz-detail"> · {entry.memorized} memorized</span>
+                    )}
+                  </span>
                 </div>
-                <span className={`qp-surah-pct${entry.pct === 100 ? " done" : ""}`}>
-                  {entry.pct === 100 ? (
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M20 6 9 17l-5-5" />
-                    </svg>
-                  ) : `${entry.pct}%`}
-                </span>
+                <div className="qp-surah-badges">
+                  {entry.memorized > 0 && (
+                    <span className={`qp-surah-mem-pct${entry.memPct === 100 ? " done" : ""}`}>
+                      {entry.memPct === 100 ? (
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                          <path d="M9 12l2 2 4-4" />
+                          <circle cx="12" cy="12" r="9" />
+                        </svg>
+                      ) : `${entry.memPct}%`}
+                    </span>
+                  )}
+                  <span className={`qp-surah-pct${entry.pct === 100 ? " done" : ""}`}>
+                    {entry.pct === 100 ? (
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M20 6 9 17l-5-5" />
+                      </svg>
+                    ) : `${entry.pct}%`}
+                  </span>
+                </div>
               </div>
             ))}
           </div>

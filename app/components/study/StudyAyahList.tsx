@@ -42,6 +42,8 @@ type StudyAyahListProps = {
   onWordSelect: (word: Word, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
   onToggleStudyMarkByKey: (key: string) => void;
+  hifzMarks: StudyMarks;
+  onToggleHifzMark: (key: string) => void;
 };
 
 export default function StudyAyahList({
@@ -74,7 +76,9 @@ export default function StudyAyahList({
   onOpenNote,
   onWordSelect,
   onWordAudio,
-  onToggleStudyMarkByKey
+  onToggleStudyMarkByKey,
+  hifzMarks,
+  onToggleHifzMark
 }: StudyAyahListProps) {
   const ayahCards = useMemo(
     () =>
@@ -88,6 +92,7 @@ export default function StudyAyahList({
         const words = ayahNum ? wordsByAyahForStudy?.[ayahNum] || [] : [];
         const isFocused = focusedAyahKey === key;
         const isMarked = Boolean(studyMarks?.[key]);
+        const isMemorized = Boolean(hifzMarks?.[key]);
         const translationText = ayah.translations?.[primaryTranslation]?.text || "";
 
         return (
@@ -132,6 +137,8 @@ export default function StudyAyahList({
             onWordSelect={onWordSelect}
             onWordAudio={onWordAudio}
             onToggleStudyMarkByKey={onToggleStudyMarkByKey}
+            isMemorized={isMemorized}
+            onToggleHifzMark={onToggleHifzMark}
           />
         );
       }),
@@ -164,6 +171,8 @@ export default function StudyAyahList({
       showTransliteration,
       showWordByWord,
       studyMarks,
+      hifzMarks,
+      onToggleHifzMark,
       verseKey,
       wordAudioUrl,
       wordsByAyahForStudy,

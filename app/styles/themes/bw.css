@@ -1314,6 +1314,25 @@
   background: rgba(0, 0, 0, 0.15);
 }
 
+:root[data-theme="bw"] .action-icon-btn.hifz-icon.memorized {
+  background: rgba(0, 0, 0, 0.1);
+  color: #111;
+}
+
+:root[data-theme="bw"] .study-ayah-card.memorized {
+  border-left-color: rgba(0, 0, 0, 0.3);
+}
+
+:root[data-theme="bw"] .hifz-action-btn {
+  border-color: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.05);
+  color: #222;
+}
+
+:root[data-theme="bw"] .hifz-action-btn:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 /* Note button active */
 :root[data-theme="bw"] .note-btn.active,
 :root[data-theme="bw"] .ayah-note-btn.active,

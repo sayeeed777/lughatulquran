@@ -1107,6 +1107,25 @@
   color: var(--accent) !important;
 }
 
+:root[data-theme="light"] .action-icon-btn.hifz-icon.memorized {
+  background: rgba(66, 82, 54, 0.12);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .study-ayah-card.memorized {
+  border-left-color: rgba(66, 82, 54, 0.4);
+}
+
+:root[data-theme="light"] .hifz-action-btn {
+  border-color: rgba(66, 82, 54, 0.2);
+  background: rgba(66, 82, 54, 0.08);
+  color: var(--accent);
+}
+
+:root[data-theme="light"] .hifz-action-btn:hover {
+  background: rgba(66, 82, 54, 0.14);
+}
+
 /* Audio visualizer bars (if present) */
 :root[data-theme="light"] .audio-bar.playing {
   border-color: var(--accent-2) !important;
