@@ -946,7 +946,7 @@ function StudyTabContent({
           <span className="qp-a-label">This week</span>
         </div>
         <div className={`qp-a-stat ${streakClass}`}>
-          <span className="qp-a-num qp-a-streak">{currentStreak}</span>
+          <span className="qp-a-num qp-a-streak">{String(currentStreak).padStart(2, "0")}</span>
           <span className="qp-a-label">Day streak</span>
         </div>
         <div className="qp-a-stat">
@@ -1057,7 +1057,7 @@ function StudyTabContent({
           <div className="hifz-stat">
             <MiniRing progress={hifzPct} />
             <div className="hifz-stat-text">
-              <span className="hifz-stat-value">{hifzPct}%</span>
+              <span className="hifz-stat-value">{hifzPct >= 1 ? `${hifzPct}%` : `${totalHifzCount} ayahs`}</span>
               <span className="hifz-stat-label">Overall</span>
             </div>
           </div>
@@ -1082,11 +1082,11 @@ function StudyTabContent({
               </button>
             ) : (
               <button
-                className="hifz-action-btn hifz-action-clear"
+                className="hifz-clear-link"
                 type="button"
                 onClick={() => clearHifzSurah(selectedSurahNumber, totalAyahs)}
               >
-                Clear memorization for this surah
+                Clear memorization
               </button>
             )}
           </div>
