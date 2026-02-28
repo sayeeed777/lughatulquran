@@ -935,48 +935,23 @@ function StudyTabContent({
   return (
     <div className="quick-panel-section qp-apple" data-overall-progress={overallProgress}>
 
-      {/* #1 + #2 + #4 — Grouped container, 2x2 hero grid, large display numbers */}
-      <div className="qp-group">
-        <div className="qp-hero-grid">
-          <div className="qp-hero-stat qp-stat-verses">
-            <div className="qp-hero-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-              </svg>
-            </div>
-            <span className="qp-hero-value">{todayVersesRead}</span>
-            <span className="qp-hero-label">Verses Today</span>
-          </div>
-          <div className="qp-hero-stat qp-stat-week">
-            <div className="qp-hero-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                <rect x="3" y="4" width="18" height="18" rx="2" />
-                <path d="M16 2v4M8 2v4M3 10h18" />
-              </svg>
-            </div>
-            <span className="qp-hero-value">{weekTotal}</span>
-            <span className="qp-hero-label">This Week</span>
-          </div>
-          <div className={`qp-hero-stat qp-stat-streak ${streakClass}`}>
-            <div className="qp-hero-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                <path d="M12 2c.5 4-2.5 6-2.5 10a4.5 4.5 0 0 0 9 0c0-4-3-6-2.5-10" />
-                <path d="M12 18a2 2 0 0 1-2-2c0-1.5 2-3 2-3s2 1.5 2 3a2 2 0 0 1-2 2Z" />
-              </svg>
-            </div>
-            <span className="qp-hero-value">{currentStreak}</span>
-            <span className="qp-hero-label">Day Streak</span>
-          </div>
-          <div className="qp-hero-stat qp-stat-time">
-            <div className="qp-hero-icon">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 6v6l4 2" />
-              </svg>
-            </div>
-            <span className="qp-hero-value">{formatTime(readingTime)}</span>
-            <span className="qp-hero-label">Session</span>
-          </div>
+      {/* Apple-style stats — pure typography, no chrome */}
+      <div className="qp-a-stats">
+        <div className="qp-a-stat">
+          <span className="qp-a-num qp-a-today">{todayVersesRead}</span>
+          <span className="qp-a-label">Verses today</span>
+        </div>
+        <div className="qp-a-stat">
+          <span className="qp-a-num qp-a-week">{weekTotal}</span>
+          <span className="qp-a-label">This week</span>
+        </div>
+        <div className={`qp-a-stat ${streakClass}`}>
+          <span className="qp-a-num qp-a-streak">{currentStreak}</span>
+          <span className="qp-a-label">Day streak</span>
+        </div>
+        <div className="qp-a-stat">
+          <span className="qp-a-num qp-a-session">{formatTime(readingTime)}</span>
+          <span className="qp-a-label">Session</span>
         </div>
       </div>
 

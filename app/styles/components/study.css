@@ -3647,88 +3647,45 @@
   background: color-mix(in srgb, var(--text) 6%, transparent);
 }
 
-/* ---- Hero Stats 2x2 Grid ---- */
-.qp-hero-grid {
+/* ---- Apple-style Stats — typography only ---- */
+.qp-a-stats {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px 16px;
+  padding: 12px 4px 16px;
+  border-bottom: 1px solid color-mix(in srgb, var(--text) 6%, transparent);
 }
 
-.qp-hero-stat {
+.qp-a-stat {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   gap: 6px;
-  padding: 18px 12px 16px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 4px 0;
 }
 
-.qp-hero-stat:active {
-  transform: scale(0.97);
-}
-
-.qp-hero-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 0;
-  margin-bottom: 2px;
-  background: none !important;
-}
-
-.qp-stat-verses .qp-hero-icon {
-  color: #72daa8;
-}
-
-.qp-stat-week .qp-hero-icon {
-  color: #6eaafc;
-}
-
-.qp-stat-streak .qp-hero-icon {
-  color: #f0aa50;
-}
-
-.qp-stat-time .qp-hero-icon {
-  color: #be8ce6;
-}
-
-/* Large display typography */
-.qp-hero-value {
-  font-size: var(--text-2xl, 1.6875rem);
-  font-weight: 750;
-  color: var(--text, #f2eee6);
+.qp-a-num {
+  font-size: 1.5rem;
+  font-weight: 780;
   line-height: 1;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.04em;
   font-variant-numeric: tabular-nums;
 }
 
-.qp-hero-label {
-  font-size: var(--text-xs, 0.6875rem);
+.qp-a-today  { color: #72daa8; }
+.qp-a-week   { color: #6eaafc; }
+.qp-a-streak { color: #f0aa50; }
+.qp-a-session { color: #be8ce6; }
+
+.qp-a-label {
+  font-size: 0.68rem;
   font-weight: 500;
   color: var(--muted, #7a8290);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  line-height: 1;
 }
 
-/* Streak color accents */
-.qp-streak-warm .qp-hero-value {
-  color: #f0aa50;
-}
-
-.qp-streak-fire .qp-hero-value {
-  color: #f07a3a;
-}
-
-.qp-streak-fire .qp-hero-icon {
-  color: #f07a3a;
-  animation: qp-fire-pulse 2.4s ease-in-out infinite;
-}
+/* Streak accents */
+.qp-streak-warm .qp-a-streak { color: #f0aa50; }
+.qp-streak-fire .qp-a-streak { color: #f07a3a; }
 
 @keyframes qp-fire-pulse {
   0%, 100% { transform: scale(1); }
@@ -4086,38 +4043,12 @@
   border-bottom-color: rgba(0, 0, 0, 0.06);
 }
 
-:root[data-theme="light"] .qp-hero-stat {
-  background: rgba(0, 0, 0, 0.035);
-  backdrop-filter: none;
-}
-
-:root[data-theme="light"] .qp-stat-verses .qp-hero-icon {
-  color: #2e8b57;
-}
-
-:root[data-theme="light"] .qp-stat-week .qp-hero-icon {
-  color: #4169af;
-}
-
-:root[data-theme="light"] .qp-stat-streak .qp-hero-icon {
-  color: #c88c32;
-}
-
-:root[data-theme="light"] .qp-stat-time .qp-hero-icon {
-  color: #8c64b4;
-}
-
-:root[data-theme="light"] .qp-streak-warm .qp-hero-value {
-  color: #c88c32;
-}
-
-:root[data-theme="light"] .qp-streak-fire .qp-hero-value {
-  color: #d06830;
-}
-
-:root[data-theme="light"] .qp-streak-fire .qp-hero-icon {
-  color: #d06830;
-}
+:root[data-theme="light"] .qp-a-today  { color: #2e8b57; }
+:root[data-theme="light"] .qp-a-week   { color: #4169af; }
+:root[data-theme="light"] .qp-a-streak { color: #c88c32; }
+:root[data-theme="light"] .qp-a-session { color: #8c64b4; }
+:root[data-theme="light"] .qp-streak-warm .qp-a-streak { color: #c88c32; }
+:root[data-theme="light"] .qp-streak-fire .qp-a-streak { color: #d06830; }
 
 :root[data-theme="light"] .qp-bar-track {
   background: rgba(0, 0, 0, 0.05);
@@ -4226,26 +4157,16 @@
   border-bottom-color: rgba(0, 0, 0, 0.08);
 }
 
-:root[data-theme="bw"] .qp-hero-stat {
-  background: rgba(0, 0, 0, 0.035);
-  backdrop-filter: none;
-}
-
-:root[data-theme="bw"] .qp-stat-verses .qp-hero-icon,
-:root[data-theme="bw"] .qp-stat-week .qp-hero-icon,
-:root[data-theme="bw"] .qp-stat-streak .qp-hero-icon,
-:root[data-theme="bw"] .qp-stat-time .qp-hero-icon {
-  color: #444;
-}
-
-:root[data-theme="bw"] .qp-streak-warm .qp-hero-value,
-:root[data-theme="bw"] .qp-streak-fire .qp-hero-value {
+:root[data-theme="bw"] .qp-a-today,
+:root[data-theme="bw"] .qp-a-week,
+:root[data-theme="bw"] .qp-a-streak,
+:root[data-theme="bw"] .qp-a-session {
   color: #333;
 }
 
-:root[data-theme="bw"] .qp-streak-fire .qp-hero-icon {
-  color: #333;
-  animation: none;
+:root[data-theme="bw"] .qp-streak-warm .qp-a-streak,
+:root[data-theme="bw"] .qp-streak-fire .qp-a-streak {
+  color: #222;
 }
 
 :root[data-theme="bw"] .qp-bar-track {
