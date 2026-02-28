@@ -1036,32 +1036,7 @@ function StudyTabContent({
       </div>
 
       {/* #1 + #7 + #10 — Grouped: goal stepper + progress in one block, no redundant label */}
-      <div className="qp-group">
-        <div className="qp-group-header">
-          <h4>Daily Goal</h4>
-        </div>
-        <div className="qp-goal-row">
-          <div className="qp-goal-info">
-            <span className="qp-goal-fraction">{goalProgress}<span className="qp-goal-of">/{goalTarget}</span></span>
-            <span className="qp-goal-sublabel">ayahs read</span>
-          </div>
-          <Stepper value={goalTarget} min={1} max={200} onChange={setGoalPerDay} />
-        </div>
-        <div className="qp-goal-bar">
-          <div className="qp-goal-bar-fill" style={{ width: `${goalPct}%` }} />
-        </div>
-        {currentStreak > 0 && (
-          <p className="qp-streak-msg">
-            {currentStreak >= 7
-              ? `${currentStreak}-day streak — longest: ${longestStreak}`
-              : currentStreak >= 3
-                ? `${currentStreak}-day streak`
-                : `${currentStreak} day streak`}
-          </p>
-        )}
-      </div>
-
-      {/* #5 + #8 — Surah progress: SVG icon instead of emoji, "See All" chevron */}
+      {/* Surah progress */}
       {surahEntries.length > 0 && (
         <div className="qp-group">
           <div className="qp-group-header">
@@ -1126,6 +1101,32 @@ function StudyTabContent({
           </div>
         </div>
       )}
+
+      {/* Daily Goal */}
+      <div className="qp-group">
+        <div className="qp-group-header">
+          <h4>Daily Goal</h4>
+        </div>
+        <div className="qp-goal-row">
+          <div className="qp-goal-info">
+            <span className="qp-goal-fraction">{goalProgress}<span className="qp-goal-of">/{goalTarget}</span></span>
+            <span className="qp-goal-sublabel">ayahs read</span>
+          </div>
+          <Stepper value={goalTarget} min={1} max={200} onChange={setGoalPerDay} />
+        </div>
+        <div className="qp-goal-bar">
+          <div className="qp-goal-bar-fill" style={{ width: `${goalPct}%` }} />
+        </div>
+        {currentStreak > 0 && (
+          <p className="qp-streak-msg">
+            {currentStreak >= 7
+              ? `${currentStreak}-day streak — longest: ${longestStreak}`
+              : currentStreak >= 3
+                ? `${currentStreak}-day streak`
+                : `${currentStreak} day streak`}
+          </p>
+        )}
+      </div>
 
       {/* Today's Plan */}
       {planSummary && !("completed" in planSummary) && !("error" in planSummary) && (
