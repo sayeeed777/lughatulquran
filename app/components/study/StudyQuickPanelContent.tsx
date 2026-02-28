@@ -980,7 +980,7 @@ function StudyTabContent({
         </div>
       </div>
 
-      {/* #3 — Polished weekly chart in its own group */}
+      {/* Weekly Activity */}
       <div className="qp-group">
         <div className="qp-group-header">
           <h4>Weekly Activity</h4>
@@ -988,55 +988,24 @@ function StudyTabContent({
         <WeeklyChart data={weeklyData} />
       </div>
 
-      {/* Memorization (Hifz) Progress */}
-      <div className="qp-group hifz-group">
+      {/* Daily Goal */}
+      <div className="qp-group">
         <div className="qp-group-header">
-          <h4>Memorization</h4>
-          <span className="hifz-total-badge">{totalHifzCount} / {TOTAL_QURAN_AYAHS}</span>
+          <h4>Daily Goal</h4>
         </div>
-
-        <div className="hifz-stats-row">
-          <div className="hifz-stat">
-            <MiniRing progress={hifzPct} />
-            <div className="hifz-stat-text">
-              <span className="hifz-stat-value">{hifzPct}%</span>
-              <span className="hifz-stat-label">Overall</span>
-            </div>
+        <div className="qp-goal-row">
+          <div className="qp-goal-info">
+            <span className="qp-goal-fraction">{goalProgress}<span className="qp-goal-of">/{goalTarget}</span></span>
+            <span className="qp-goal-sublabel">ayahs read</span>
           </div>
-          <div className="hifz-stat">
-            <MiniRing progress={currentSurahHifzPct} />
-            <div className="hifz-stat-text">
-              <span className="hifz-stat-value">{currentSurahHifzCount}/{totalAyahs}</span>
-              <span className="hifz-stat-label">{selectedSurahName || "Current"}</span>
-            </div>
-          </div>
+          <Stepper value={goalTarget} min={1} max={200} onChange={setGoalPerDay} />
         </div>
-
-        {totalAyahs > 0 && (
-          <div className="hifz-actions">
-            {currentSurahHifzCount < totalAyahs ? (
-              <button
-                className="hifz-action-btn"
-                type="button"
-                onClick={() => markHifzRange(selectedSurahNumber, 1, totalAyahs)}
-              >
-                Mark all {totalAyahs} ayahs as memorized
-              </button>
-            ) : (
-              <button
-                className="hifz-action-btn hifz-action-clear"
-                type="button"
-                onClick={() => clearHifzSurah(selectedSurahNumber, totalAyahs)}
-              >
-                Clear memorization for this surah
-              </button>
-            )}
-          </div>
-        )}
+        <div className="qp-goal-bar">
+          <div className="qp-goal-bar-fill" style={{ width: `${goalPct}%` }} />
+        </div>
       </div>
 
-      {/* #1 + #7 + #10 — Grouped: goal stepper + progress in one block, no redundant label */}
-      {/* Surah progress */}
+      {/* Surah Progress */}
       {surahEntries.length > 0 && (
         <div className="qp-group">
           <div className="qp-group-header">
@@ -1102,29 +1071,50 @@ function StudyTabContent({
         </div>
       )}
 
-      {/* Daily Goal */}
-      <div className="qp-group">
+      {/* Memorization (Hifz) Progress */}
+      <div className="qp-group hifz-group">
         <div className="qp-group-header">
-          <h4>Daily Goal</h4>
+          <h4>Memorization</h4>
+          <span className="hifz-total-badge">{totalHifzCount} / {TOTAL_QURAN_AYAHS}</span>
         </div>
-        <div className="qp-goal-row">
-          <div className="qp-goal-info">
-            <span className="qp-goal-fraction">{goalProgress}<span className="qp-goal-of">/{goalTarget}</span></span>
-            <span className="qp-goal-sublabel">ayahs read</span>
+
+        <div className="hifz-stats-row">
+          <div className="hifz-stat">
+            <MiniRing progress={hifzPct} />
+            <div className="hifz-stat-text">
+              <span className="hifz-stat-value">{hifzPct}%</span>
+              <span className="hifz-stat-label">Overall</span>
+            </div>
           </div>
-          <Stepper value={goalTarget} min={1} max={200} onChange={setGoalPerDay} />
+          <div className="hifz-stat">
+            <MiniRing progress={currentSurahHifzPct} />
+            <div className="hifz-stat-text">
+              <span className="hifz-stat-value">{currentSurahHifzCount}/{totalAyahs}</span>
+              <span className="hifz-stat-label">{selectedSurahName || "Current"}</span>
+            </div>
+          </div>
         </div>
-        <div className="qp-goal-bar">
-          <div className="qp-goal-bar-fill" style={{ width: `${goalPct}%` }} />
-        </div>
-        {currentStreak > 0 && (
-          <p className="qp-streak-msg">
-            {currentStreak >= 7
-              ? `${currentStreak}-day streak — longest: ${longestStreak}`
-              : currentStreak >= 3
-                ? `${currentStreak}-day streak`
-                : `${currentStreak} day streak`}
-          </p>
+
+        {totalAyahs > 0 && (
+          <div className="hifz-actions">
+            {currentSurahHifzCount < totalAyahs ? (
+              <button
+                className="hifz-action-btn"
+                type="button"
+                onClick={() => markHifzRange(selectedSurahNumber, 1, totalAyahs)}
+              >
+                Mark all {totalAyahs} ayahs as memorized
+              </button>
+            ) : (
+              <button
+                className="hifz-action-btn hifz-action-clear"
+                type="button"
+                onClick={() => clearHifzSurah(selectedSurahNumber, totalAyahs)}
+              >
+                Clear memorization for this surah
+              </button>
+            )}
+          </div>
         )}
       </div>
 
