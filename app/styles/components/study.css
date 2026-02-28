@@ -3326,22 +3326,19 @@
     display: none;
   }
 
-  /* Tighten study panel stats on mobile */
+  /* Study panel stats on mobile — breathing room */
   .qp-a-stats {
-    padding: 0 16px 14px 22px;
-    gap: 6px 0;
+    padding: 10px 16px 18px 22px;
+    gap: 12px 0;
   }
 
   .qp-a-num {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    min-width: unset;
   }
 
   .qp-a-label {
-    font-size: 0.62rem;
-  }
-
-  .qp-a-num {
-    min-width: unset;
+    font-size: 0.65rem;
   }
 
   /* Reduce weekly chart height on mobile */
