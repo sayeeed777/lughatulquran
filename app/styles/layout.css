@@ -187,7 +187,7 @@
     -webkit-backdrop-filter: none;
     border: none;
     border-radius: var(--radius-lg);
-    padding: 20px;
+    padding: 0;
     overflow: visible;
 }
 
