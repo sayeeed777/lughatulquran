@@ -363,6 +363,14 @@
 }
 
 @media (max-width: 640px) {
+  .surah-panel {
+    gap: 10px;
+  }
+
+  .surah-panel-header {
+    margin-bottom: -2px;
+  }
+
   .surah-header-actions {
     margin-right: 4px;
     gap: 6px;
