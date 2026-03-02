@@ -304,6 +304,36 @@
   color: var(--accent-2);
 }
 
+.hifz-toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(10, 10, 10, 0.9);
+  color: var(--accent-2);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: 10px;
+  white-space: nowrap;
+  pointer-events: none;
+  animation: hifzToastIn 0.2s ease-out, hifzToastOut 0.3s 1.2s ease-in forwards;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(111, 212, 177, 0.15);
+  z-index: 1100;
+}
+
+@keyframes hifzToastIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes hifzToastOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
 .study-ayah-card.dimmed {
   opacity: 0.35;
   filter: saturate(0.8);

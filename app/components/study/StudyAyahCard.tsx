@@ -1,6 +1,7 @@
 "use client";
 
-import { memo, useEffect, useRef } from "react";
+import { memo, useCallback, useEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import type {
   MouseEvent as ReactMouseEvent,
   PointerEvent as ReactPointerEvent,
@@ -95,6 +96,16 @@ function StudyAyahCardComponent({
   const longPressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const longPressTriggeredRef = useRef(false);
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null);
+  const [hifzToast, setHifzToast] = useState<string | null>(null);
+  const hifzToastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleHifzToggle = useCallback(() => {
+    const willMemorize = !isMemorized;
+    onToggleHifzMark(verseKey);
+    setHifzToast(willMemorize ? "Marked as memorized" : "Unmarked");
+    if (hifzToastTimer.current) clearTimeout(hifzToastTimer.current);
+    hifzToastTimer.current = setTimeout(() => setHifzToast(null), 1500);
+  }, [isMemorized, onToggleHifzMark, verseKey]);
 
   const clearLongPressTimer = () => {
     if (longPressTimerRef.current) {
@@ -329,7 +340,7 @@ function StudyAyahCardComponent({
                 className={`action-icon-btn hifz-icon${isMemorized ? " memorized" : ""}`}
                 onClick={(event) => {
                   event.stopPropagation();
-                  onToggleHifzMark(verseKey);
+                  handleHifzToggle();
                 }}
                 aria-label={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
                 title={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
@@ -354,6 +365,10 @@ function StudyAyahCardComponent({
                   />
                 </svg>
               </button>
+            )}
+            {hifzToast && createPortal(
+              <span className="hifz-toast">{hifzToast}</span>,
+              document.body
             )}
           </div>
         </div>
