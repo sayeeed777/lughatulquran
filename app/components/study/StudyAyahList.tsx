@@ -44,6 +44,7 @@ type StudyAyahListProps = {
   onToggleStudyMarkByKey: (key: string) => void;
   hifzMarks: StudyMarks;
   onToggleHifzMark: (key: string) => void;
+  showHifzMode: boolean;
 };
 
 export default function StudyAyahList({
@@ -78,7 +79,8 @@ export default function StudyAyahList({
   onWordAudio,
   onToggleStudyMarkByKey,
   hifzMarks,
-  onToggleHifzMark
+  onToggleHifzMark,
+  showHifzMode
 }: StudyAyahListProps) {
   const ayahCards = useMemo(
     () =>
@@ -139,6 +141,7 @@ export default function StudyAyahList({
             onToggleStudyMarkByKey={onToggleStudyMarkByKey}
             isMemorized={isMemorized}
             onToggleHifzMark={onToggleHifzMark}
+            showHifzMode={showHifzMode}
           />
         );
       }),
@@ -173,6 +176,7 @@ export default function StudyAyahList({
       studyMarks,
       hifzMarks,
       onToggleHifzMark,
+      showHifzMode,
       verseKey,
       wordAudioUrl,
       wordsByAyahForStudy,

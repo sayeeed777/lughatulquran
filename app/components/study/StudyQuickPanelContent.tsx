@@ -103,6 +103,8 @@ type StudyQuickPanelContentProps = {
   setShowTajweed: (value: boolean) => void;
   showTajweedLegend: boolean;
   setShowTajweedLegend: (value: boolean | ((prev: boolean) => boolean)) => void;
+  showHifzMode: boolean;
+  setShowHifzMode: (value: boolean) => void;
   showWordByWord: boolean;
   setShowWordByWord: (value: boolean) => void;
   isMushafView: boolean;
@@ -178,6 +180,8 @@ export default function StudyQuickPanelContent({
   setShowTajweed,
   showTajweedLegend,
   setShowTajweedLegend,
+  showHifzMode,
+  setShowHifzMode,
   showWordByWord,
   setShowWordByWord,
   isMushafView,
@@ -275,6 +279,21 @@ export default function StudyQuickPanelContent({
             <span>Focus and visual helpers</span>
           </div>
           <div className="tool-toggle-grid">
+            <label className="tool-toggle-card">
+              <div className="tool-toggle-copy">
+                <span className="tool-toggle-title">Memorize Mode</span>
+                <span className="tool-toggle-sub">Mark ayahs as you memorize them.</span>
+              </div>
+              <div className={`toggle-switch ${showHifzMode ? "active" : ""}`}>
+                <input
+                  type="checkbox"
+                  checked={showHifzMode}
+                  onChange={(event) => setShowHifzMode(event.target.checked)}
+                />
+                <span className="toggle-slider" />
+              </div>
+            </label>
+
             <label className="tool-toggle-card">
               <div className="tool-toggle-copy">
                 <span className="tool-toggle-title">Show Translation</span>
@@ -385,6 +404,7 @@ export default function StudyQuickPanelContent({
                 <span className="toggle-slider" />
               </div>
             </label>
+
           </div>
         </div>
 
@@ -423,6 +443,20 @@ export default function StudyQuickPanelContent({
                 </ul>
               </div>
             )}
+          </div>
+        )}
+
+        {showHifzMode && (
+          <div className="study-card tool-block">
+            <div className="hifz-guide" role="note" aria-label="Memorization guide">
+              <p className="hifz-guide-title">How memorization works</p>
+              <ul className="hifz-guide-list">
+                <li>A <strong>✓</strong> icon now appears on each ayah card</li>
+                <li>After memorizing an ayah, tap the icon to mark it</li>
+                <li>Your progress shows in the <strong>Study</strong> tab under Surah Progress</li>
+                <li>You can also mark entire surahs from the Study tab</li>
+              </ul>
+            </div>
           </div>
         )}
 

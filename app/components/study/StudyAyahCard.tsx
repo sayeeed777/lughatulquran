@@ -50,6 +50,7 @@ type StudyAyahCardProps = {
   onToggleStudyMarkByKey: (key: string) => void;
   isMemorized: boolean;
   onToggleHifzMark: (key: string) => void;
+  showHifzMode: boolean;
   onWordSelect: (word: StudyWord, ayahNumber: number, wordIndex: number) => void;
   onWordAudio: (audioUrl?: string) => void;
 };
@@ -87,6 +88,7 @@ function StudyAyahCardComponent({
   onToggleStudyMarkByKey,
   isMemorized,
   onToggleHifzMark,
+  showHifzMode,
   onWordSelect,
   onWordAudio
 }: StudyAyahCardProps) {
@@ -322,35 +324,37 @@ function StudyAyahCardComponent({
                 />
               </svg>
             </button>
-            <button
-              className={`action-icon-btn hifz-icon${isMemorized ? " memorized" : ""}`}
-              onClick={(event) => {
-                event.stopPropagation();
-                onToggleHifzMark(verseKey);
-              }}
-              aria-label={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
-              title={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
-              type="button"
-            >
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M9 12l2 2 4-4"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <circle
-                  cx="12"
-                  cy="12"
-                  r="9"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                />
-              </svg>
-            </button>
+            {showHifzMode && (
+              <button
+                className={`action-icon-btn hifz-icon${isMemorized ? " memorized" : ""}`}
+                onClick={(event) => {
+                  event.stopPropagation();
+                  onToggleHifzMark(verseKey);
+                }}
+                aria-label={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
+                title={isMemorized ? "Unmark as memorized" : "Mark as memorized"}
+                type="button"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M9 12l2 2 4-4"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="9"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  />
+                </svg>
+              </button>
+            )}
           </div>
         </div>
         {words.length > 0 && !showTajweed ? (

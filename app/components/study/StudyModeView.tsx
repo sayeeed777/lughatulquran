@@ -113,6 +113,8 @@ export default function StudyModeView({
     setShowTajweed,
     showTajweedLegend,
     setShowTajweedLegend,
+    showHifzMode,
+    setShowHifzMode,
     showWordByWord,
     setShowWordByWord,
     isMushafView,
@@ -416,6 +418,7 @@ export default function StudyModeView({
           onToggleStudyMarkByKey={toggleStudyMark}
           hifzMarks={hifzMarks}
           onToggleHifzMark={toggleHifzMark}
+          showHifzMode={showHifzMode}
         />
 
         <div className="study-surah-end">
@@ -518,6 +521,8 @@ export default function StudyModeView({
           setShowTajweed={setShowTajweed}
           showTajweedLegend={showTajweedLegend}
           setShowTajweedLegend={setShowTajweedLegend}
+          showHifzMode={showHifzMode}
+          setShowHifzMode={setShowHifzMode}
           showWordByWord={showWordByWord}
           setShowWordByWord={setShowWordByWord}
           isMushafView={isMushafView}

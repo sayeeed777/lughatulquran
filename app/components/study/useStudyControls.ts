@@ -45,6 +45,7 @@ export default function useStudyControls({
   const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
   const [showTajweed, setShowTajweed] = useState(false);
   const [showTajweedLegend, setShowTajweedLegend] = useState(false);
+  const [showHifzMode, setShowHifzMode] = useState(false);
   const [showWordByWord, setShowWordByWord] = useState(false);
   const [isMushafView, setIsMushafView] = useState(false);
   const [scriptStyle, setScriptStyle] = useState<"uthmani" | "naskh">("uthmani");
@@ -566,6 +567,8 @@ export default function useStudyControls({
     setShowTajweed,
     showTajweedLegend,
     setShowTajweedLegend,
+    showHifzMode,
+    setShowHifzMode,
     showWordByWord,
     setShowWordByWord,
     isMushafView,
