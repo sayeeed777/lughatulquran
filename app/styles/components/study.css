@@ -2420,6 +2420,90 @@
   font-weight: 600;
 }
 
+/* Discovery tips */
+.discovery-tip {
+  position: fixed;
+  right: 76px;
+  top: calc(50% - 72px);
+  transform: translateY(-50%);
+  z-index: 160;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background: rgba(22, 30, 36, 0.92);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  max-width: 280px;
+}
+
+.discovery-tip::after {
+  content: "";
+  position: absolute;
+  right: -6px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: rgba(22, 30, 36, 0.92);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.discovery-tip-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.4;
+}
+
+.discovery-tip-dismiss {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  color: rgba(255, 255, 255, 0.5);
+  border-radius: 6px;
+  font-size: 0.7rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.discovery-tip-dismiss:hover {
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  .discovery-tip {
+    right: auto;
+    left: 0;
+    right: 0;
+    top: auto;
+    bottom: calc(90px + env(safe-area-inset-bottom));
+    transform: none !important;
+    margin: 0 auto;
+    max-width: 260px;
+    width: fit-content;
+    padding: 9px 14px;
+  }
+
+  .discovery-tip::after {
+    display: none;
+  }
+
+  .discovery-tip-text {
+    font-size: 0.75rem;
+  }
+}
+
 /* Tafsir */
 .tafsir-card.study-card {
   background: transparent;

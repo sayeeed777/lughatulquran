@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useCallback, useEffect, useRef } from "react";
+import { useMemo, useCallback, useEffect, useRef, useState } from "react";
 import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer } from "../common";
@@ -15,6 +15,7 @@ import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
 import { useReadingStats } from "../../hooks";
+import { useDiscoveryTips } from "../../hooks/useDiscoveryTips";
 import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
@@ -84,6 +85,15 @@ export default function StudyModeView({
     openNote: onOpenNote
   } = useBookmarkContext();
   const { todayStats, weeklyData, weekTotal, stats, surahProgress, recordVerseRead } = useReadingStats();
+
+  // Discovery tips
+  const [hasOpenedTools, setHasOpenedTools] = useState(false);
+  const surahCount = Object.keys(surahProgress || {}).length;
+  const { activeTip, dismiss: dismissTip } = useDiscoveryTips({
+    toolsOpened: hasOpenedTools,
+    surahCount,
+  });
+
   // Support both array and single string for backwards compatibility
   const translationIds = Array.isArray(selectedTranslations)
     ? selectedTranslations
@@ -469,6 +479,10 @@ export default function StudyModeView({
               }
               setQuickPanelTab(item.id);
               setShowQuickPanel(true);
+              if (item.id === "tool") {
+                setHasOpenedTools(true);
+                dismissTip();
+              }
             }}
             title={item.label}
           >
@@ -598,6 +612,28 @@ export default function StudyModeView({
 
       {/* Hidden audio element for word audio */}
       <audio ref={wordAudioRef} hidden />
+
+      <AnimatePresence>
+        {activeTip && (
+          <motion.div
+            className="discovery-tip"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: 10 }}
+            transition={{ duration: 0.3, ease: "easeOut" }}
+          >
+            <span className="discovery-tip-text">{activeTip.message}</span>
+            <button
+              className="discovery-tip-dismiss"
+              onClick={dismissTip}
+              aria-label="Dismiss tip"
+              type="button"
+            >
+              ✕
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
