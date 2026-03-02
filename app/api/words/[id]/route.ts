@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { buckwalterToArabic } from "../../../lib/lexicon/buckwalter";
 import { getMorphologyIndex, getMorphologyWord } from "../../../lib/lexicon/morphology";
+import { apiRateGuard } from "../../../lib/apiRateLimit";
 
 export const revalidate = 86400;
 
@@ -106,6 +107,9 @@ type RouteContext = {
 };
 
 export async function GET(_request: NextRequest, { params }: RouteContext) {
+  const blocked = await apiRateGuard(_request, "api-words");
+  if (blocked) return blocked;
+
   const { id } = await Promise.resolve(params);
   if (!id) {
     return NextResponse.json({ error: "Missing surah id." }, { status: 400 });

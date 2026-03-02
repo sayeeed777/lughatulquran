@@ -5,6 +5,7 @@ import { join } from "path";
 import { SURAHS } from "../../../data/surahs";
 import { ALL_TRANSLATIONS } from "../../../lib/constants";
 import { getTranslation } from "../../../lib/translationLoader";
+import { apiRateGuard } from "../../../lib/apiRateLimit";
 
 const EDITIONS = ALL_TRANSLATIONS;
 
@@ -151,6 +152,9 @@ type RouteContext = {
 };
 
 export async function GET(request: NextRequest, { params }: RouteContext) {
+  const blocked = await apiRateGuard(request, "api-surah");
+  if (blocked) return blocked;
+
   const { id } = await Promise.resolve(params);
   const surahNumber = Number(id);
 
