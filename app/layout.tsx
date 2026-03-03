@@ -122,7 +122,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       priceCurrency: "USD"
     },
     featureList: [
-      "Multiple English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International, Haleem, Muhsin Khan)",
+      "Multiple English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International, Haleem, Al-Hilali & Khan)",
       "Bangla translation (Muhiuddin Khan)",
       "Urdu translation (Bayan-ul-Quran)",
       "Word-by-word Arabic analysis",

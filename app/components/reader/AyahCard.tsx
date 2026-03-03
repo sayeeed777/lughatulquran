@@ -62,7 +62,7 @@ const AyahCard = memo(function AyahCard({
     "en-yusufali": "Yusuf Ali",
     "en-taqi-usmani": "Mufti Taqi Usmani",
     "en-haleem": "Abdel Haleem",
-    "en-muhsin-khan": "Muhsin Khan",
+    "en-muhsin-khan": "Al-Hilali & Khan",
     "en-maarif-ul-quran": "Maarif-ul-Quran",
     "en-ahmedraza": "Kanz al-Iman (English)",
     "hi-hindi": "Hindi (Azizul Haq Al-Umari)",

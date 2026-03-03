@@ -85,7 +85,7 @@ export const ALL_TRANSLATIONS = [
   ...INLINE_TRANSLATIONS,
   { id: "en-taqi-usmani", label: "Mufti Taqi Usmani", short: "Taqi Usmani" },
   { id: "en-haleem", label: "Abdel Haleem", short: "Haleem" },
-  { id: "en-muhsin-khan", label: "Muhsin Khan", short: "Muhsin Khan" },
+  { id: "en-muhsin-khan", label: "Al-Hilali & Khan", short: "Hilali & Khan" },
   { id: "en-maarif-ul-quran", label: "Maarif-ul-Quran", short: "Maarif" },
   { id: "en-ahmedraza", label: "Kanz al-Iman (English)", short: "Kanz (EN)" },
   { id: "hi-hindi", label: "Hindi (Azizul Haq Al-Umari)", short: "Hindi" },
