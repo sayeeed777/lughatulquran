@@ -228,6 +228,7 @@ export default async function AyahPage({ params }: Props) {
         <footer className="seo-footer">
           <p>
             <Link href="/">OpenFurqan</Link> — Read the Quran with translations, audio & study tools.
+            {" | "}<Link href="/about">About</Link>{" | "}<Link href="/faq">FAQ</Link>
           </p>
         </footer>
       </div>

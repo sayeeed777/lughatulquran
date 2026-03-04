@@ -550,6 +550,11 @@ function SettingsModal({
               <span className="settings-hint">
                 {isMobile ? "Tap outside to close" : "Press ESC to close"}
               </span>
+              <span className="settings-hint" style={{ marginTop: "4px" }}>
+                <a href="/about" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>About OpenFurqan</a>
+                {" | "}
+                <a href="/faq" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>FAQ</a>
+              </span>
             </div>
           </motion.div>
         </>

@@ -233,6 +233,7 @@ export default async function LocaleAyahPage({ params }: Props) {
         <footer className="seo-footer">
           <p>
             <Link href={homePath}>OpenFurqan</Link> — Read the Quran with translations, audio & study tools.
+            {" | "}<Link href={localizedPath("/about")}>About</Link>{" | "}<Link href={localizedPath("/faq")}>FAQ</Link>
           </p>
         </footer>
       </div>
