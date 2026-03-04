@@ -44,6 +44,18 @@ export default async function sitemap(
         changeFrequency: "monthly" as const,
         priority: 1.0
       },
+      {
+        url: `${BASE}/about`,
+        lastModified: LAST_MODIFIED,
+        changeFrequency: "monthly" as const,
+        priority: 0.7
+      },
+      {
+        url: `${BASE}/faq`,
+        lastModified: LAST_MODIFIED,
+        changeFrequency: "monthly" as const,
+        priority: 0.7
+      },
       ...SURAHS.map((surah) => ({
         url: `${BASE}/surah/${surah.slug}`,
         lastModified: LAST_MODIFIED,
