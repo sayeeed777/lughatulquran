@@ -3,6 +3,7 @@
 import { memo, useState, useCallback, useEffect } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 import { PRAYER_COUNTRIES, PRAYER_MADHABS, PRAYER_METHODS } from "../../lib/constants";
 import type {
   NextPrayerPreview,
@@ -551,9 +552,13 @@ function SettingsModal({
                 {isMobile ? "Tap outside to close" : "Press ESC to close"}
               </span>
               <span className="settings-hint" style={{ marginTop: "4px" }}>
-                <a href="/about" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>About OpenFurqan</a>
+                <Link href="/about" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>
+                  About OpenFurqan
+                </Link>
                 {" | "}
-                <a href="/faq" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>FAQ</a>
+                <Link href="/faq" style={{ color: "var(--accent-2, #6fd4b1)", textDecoration: "none" }}>
+                  FAQ
+                </Link>
               </span>
             </div>
           </motion.div>

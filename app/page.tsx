@@ -204,11 +204,6 @@ function HomeContent() {
         <KeyboardShortcutsHelp isOpen={ui.showShortcuts} onClose={() => ui.setShowShortcuts(false)} />
       ) : null}
 
-      <footer style={{ textAlign: "center", padding: "12px 0 16px", opacity: 0.45, fontSize: "0.75rem" }}>
-        <a href="/about" style={{ color: "var(--muted)" }}>About</a>
-        {" | "}
-        <a href="/faq" style={{ color: "var(--muted)" }}>FAQ</a>
-      </footer>
     </main>
   );
 }
