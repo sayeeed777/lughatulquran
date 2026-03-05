@@ -82,7 +82,7 @@ export default function OGImage() {
             color: "#a8b0ba",
           }}
         >
-          <span>10+ Translations</span>
+          <span>22+ Translations</span>
           <span style={{ color: "#4a5568" }}>·</span>
           <span>Word-by-Word</span>
           <span style={{ color: "#4a5568" }}>·</span>

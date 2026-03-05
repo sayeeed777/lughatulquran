@@ -169,13 +169,7 @@ export const metadata: Metadata = {
   description:
     "Frequently asked questions about OpenFurqan. Learn how to use translations, audio recitation, word-by-word analysis, Tajweed, Study Mode, Hifz memorization, Tafsir, prayer times, and more.",
   alternates: {
-    canonical: "/faq",
-    languages: {
-      en: "/faq",
-      bn: "/bn/faq",
-      ur: "/ur/faq",
-      "x-default": "/faq"
-    }
+    canonical: "/faq"
   },
   openGraph: {
     title: "FAQ — OpenFurqan Quran Reader",

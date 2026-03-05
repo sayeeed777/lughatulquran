@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getCspNonce } from "./lib/csp";
 import { headers } from "next/headers";
-import { DEFAULT_LOCALE, localeAlternateMap, normalizeLocale } from "./lib/locales";
+import { DEFAULT_LOCALE, normalizeLocale } from "./lib/locales";
 
 export const metadata: Metadata = {
   title: {
@@ -17,8 +17,7 @@ export const metadata: Metadata = {
     "Read the Quran online with Arabic text and translations in English, Bangla, and Urdu. Audio recitation, word-by-word study, prayer times, and notes.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
-    canonical: "/",
-    languages: localeAlternateMap("/")
+    canonical: "/"
   },
   keywords: [
     "Quran", "Quran online", "read Quran", "Quran English translation",

@@ -7,13 +7,7 @@ export const metadata: Metadata = {
   description:
     "OpenFurqan is a free, open-source Quran reading web application with 22+ translations, 9+ reciters, word-by-word analysis, Tajweed colors, memorization tools, Tafsir, prayer times, and more.",
   alternates: {
-    canonical: "/about",
-    languages: {
-      en: "/about",
-      bn: "/bn/about",
-      ur: "/ur/about",
-      "x-default": "/about"
-    }
+    canonical: "/about"
   },
   openGraph: {
     title: "About OpenFurqan — Free Open-Source Quran Reader",

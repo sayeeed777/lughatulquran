@@ -22,17 +22,6 @@ export const normalizeLocale = (value?: string | null): AppLocale | null => {
   return null;
 };
 
-export const localeFromAcceptLanguage = (headerValue?: string | null): AppLocale => {
-  const raw = String(headerValue || "").trim();
-  if (!raw) return DEFAULT_LOCALE;
-
-  const tags = raw.split(",").map((part) => part.split(";")[0]?.trim()).filter(Boolean);
-  for (const tag of tags) {
-    const locale = normalizeLocale(tag);
-    if (locale) return locale;
-  }
-  return DEFAULT_LOCALE;
-};
 
 export const translationIdToLocale = (translationId: string): AppLocale | null => {
   const normalized = String(translationId || "").trim().toLowerCase();
@@ -68,25 +57,8 @@ export const localeFromPathname = (pathname?: string | null): AppLocale | null =
   return isSupportedLocale(firstSegment) ? firstSegment : null;
 };
 
-export const withLocalePath = (locale: AppLocale, path = "/") => {
-  const safePath = path.startsWith("/") ? path : `/${path}`;
-  if (locale === DEFAULT_LOCALE) return safePath;
-  if (safePath === "/") return `/${locale}`;
-  return `/${locale}${safePath}`;
-};
-
 export const defaultTranslationForLocale = (locale: AppLocale): string => {
   if (locale === "bn") return "bn-bengali";
   if (locale === "ur") return "ur-kanzuliman";
   return "en-arberry";
 };
-
-export const localeAlternateMap = (
-  path: string,
-  base = "https://openfurqan.com"
-): Record<string, string> => ({
-  en: `${base}${withLocalePath("en", path)}`,
-  bn: `${base}${withLocalePath("bn", path)}`,
-  ur: `${base}${withLocalePath("ur", path)}`,
-  "x-default": `${base}${withLocalePath(DEFAULT_LOCALE, path)}`
-});
