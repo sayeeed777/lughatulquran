@@ -130,7 +130,7 @@
     margin-left: 0;
     width: 100%;
     text-align: center;
-    min-height: 42px;
+    min-height: 44px;
     padding: 9px 16px;
     border-radius: 13px;
     font-size: 0.94rem;
@@ -683,6 +683,7 @@
 
   .ayah-card {
     transition: none !important;
+    scroll-margin-top: 80px;
   }
 
   .ayah-actions {

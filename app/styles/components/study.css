@@ -44,8 +44,8 @@
 }
 
 .study-back-btn {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -164,8 +164,8 @@
 }
 
 .study-panel-toggle {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-sm);
   display: flex;
   align-items: center;
@@ -690,8 +690,8 @@
 }
 
 .study-rail-btn {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-sm);
   display: inline-flex;
   align-items: center;

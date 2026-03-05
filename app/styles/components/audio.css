@@ -101,3 +101,9 @@
   background: linear-gradient(90deg, var(--accent-2), var(--accent));
   animation: audioProgress 2s linear infinite;
 }
+
+@media (max-width: 768px) {
+  .audio-bar audio {
+    height: 44px;
+  }
+}

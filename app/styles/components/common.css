@@ -311,8 +311,8 @@
 }
 
 .mobile-settings-header .close-btn {
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
   font-size: 1rem;
@@ -1223,7 +1223,7 @@ textarea:focus-visible {
 .action-icon-btn {
   width: 30px;
   height: 30px;
-  padding: 0;
+  padding: 7px;  /* 30px + 14px padding = 44px touch target */
   border-radius: var(--radius-sm);
   border: none;
   background: transparent;
@@ -1250,14 +1250,15 @@ textarea:focus-visible {
 }
 
 .action-icon-btn.saved {
-  background: rgba(111, 212, 177, 0.16);
+  background: rgba(111, 212, 177, 0.10);
   color: #d8fff0;
   box-shadow: none;
+  border-radius: var(--radius-md);
 }
 
 /* Play button playing state */
 .action-icon-btn.play-icon.playing {
-  background: rgba(111, 212, 177, 0.15);
+  background: rgba(111, 212, 177, 0.10);
   color: var(--accent-2);
 }
 
@@ -1511,7 +1512,7 @@ textarea:focus-visible {
 
 @media (max-width: 640px) {
   .app {
-    padding: 20px 10px 72px;
+    padding: 20px 14px 72px;
   }
 
   .panel {
@@ -1575,8 +1576,8 @@ textarea:focus-visible {
   }
 
   .header-icon-btn {
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     border-radius: 12px;
     background: transparent;
     border: none;
@@ -1589,7 +1590,7 @@ textarea:focus-visible {
   }
 
   .topbar .action-btn {
-    height: 40px;
+    height: 44px;
     padding: 0 10px;
     min-width: 84px;
     max-width: 112px;
