@@ -3,6 +3,28 @@ const isProd = process.env.NODE_ENV === "production";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  redirects: async () => [
+    {
+      source: "/bn/:path*",
+      destination: "/:path*",
+      permanent: true
+    },
+    {
+      source: "/ur/:path*",
+      destination: "/:path*",
+      permanent: true
+    },
+    {
+      source: "/bn",
+      destination: "/",
+      permanent: true
+    },
+    {
+      source: "/ur",
+      destination: "/",
+      permanent: true
+    }
+  ],
   headers: async () => {
     /* CSP is handled by proxy.ts middleware with proper nonces in production.
        Only non-CSP security headers are set here. */
