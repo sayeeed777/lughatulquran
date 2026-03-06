@@ -149,8 +149,8 @@ export default async function SurahPage({ params }: Props) {
 
         {/* CTA */}
         <div className="seo-cta-section">
-          <Link href={`/?surah=${surah.number}`} className="seo-cta">
-            Read Full Surah with Audio &rarr;
+          <Link href="/" className="seo-cta">
+            Open in Reader &rarr;
           </Link>
         </div>
 

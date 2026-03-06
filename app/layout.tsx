@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    alternateLocale: ["ar", "bn_BD", "ur_PK"],
+    alternateLocale: ["ar"],
     url: "https://openfurqan.com/",
     siteName: "OpenFurqan",
     title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
@@ -113,8 +113,8 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
     datePublished: "2024-01-01",
-    dateModified: "2026-02-16",
-    inLanguage: ["en", "ar", "bn", "ur"],
+    dateModified: "2026-03-06",
+    inLanguage: ["en", "ar"],
     offers: {
       "@type": "Offer",
       price: "0",

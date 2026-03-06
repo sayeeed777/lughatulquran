@@ -3,7 +3,7 @@ import { SURAHS } from "./data/surahs";
 
 const BASE = "https://openfurqan.com";
 // Update this only when canonical Quran SEO content changes.
-const LAST_MODIFIED = new Date("2026-02-16");
+const LAST_MODIFIED = new Date("2026-03-06");
 
 /**
  * Generates a sitemap index with one sitemap per group:

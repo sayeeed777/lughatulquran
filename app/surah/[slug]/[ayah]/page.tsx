@@ -188,8 +188,8 @@ export default async function AyahPage({ params }: Props) {
 
         {/* CTA */}
         <div className="seo-cta-section">
-          <Link href={`/?surah=${surah.number}&ayah=${ayahNum}`} className="seo-cta">
-            Read with Audio & Tafsir &rarr;
+          <Link href="/" className="seo-cta">
+            Open in Reader &rarr;
           </Link>
         </div>
 
