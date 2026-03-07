@@ -160,7 +160,7 @@ const FAQ_ITEMS = [
   {
     question: "How can I report issues or contribute?",
     answer:
-      "Visit the OpenFurqan GitHub repository to report issues, suggest features, or contribute to the project. OpenFurqan is open source and welcomes community contributions."
+      "OpenFurqan is open source and welcomes community contributions. You can report issues, suggest features, or contribute to the project."
   }
 ];
 

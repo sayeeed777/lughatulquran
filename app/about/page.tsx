@@ -245,7 +245,7 @@ export default async function AboutPage() {
           <h2 className="info-section-title">Open Source</h2>
           <p className="info-text">
             OpenFurqan is open source. The project is independently developed and completely free.
-            Contributions, feedback, and issue reports are welcome on GitHub.
+            Contributions, feedback, and issue reports are welcome.
           </p>
         </section>
 
