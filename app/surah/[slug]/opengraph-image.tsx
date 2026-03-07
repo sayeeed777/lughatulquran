@@ -29,7 +29,6 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
           padding: 60,
         }}
       >
-        {/* Surah number badge */}
         <div
           style={{
             display: "flex",
@@ -49,44 +48,36 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
           {surah.number}
         </div>
 
-        {/* English name */}
         <div
           style={{
-            fontSize: 48,
+            fontSize: 46,
             fontWeight: 700,
             color: "#f2eee6",
             letterSpacing: "-0.02em",
-            marginBottom: 8,
+            marginBottom: 10,
           }}
         >
           Surah {surah.englishName}
         </div>
 
-        {/* Translation */}
         <div
           style={{
-            fontSize: 26,
+            fontSize: 24,
             color: "#d8b36a",
-            marginBottom: 32,
+            marginBottom: 28,
           }}
         >
           {surah.translation}
         </div>
 
-        {/* Meta info */}
         <div
           style={{
-            display: "flex",
-            gap: 24,
             fontSize: 18,
             color: "#a8b0ba",
+            textAlign: "center",
           }}
         >
-          <span>{surah.ayahCount} Ayahs</span>
-          <span style={{ color: "#4a5568" }}>·</span>
-          <span>{surah.revelationType}</span>
-          <span style={{ color: "#4a5568" }}>·</span>
-          <span>OpenFurqan</span>
+          {`${surah.ayahCount} Ayahs · ${surah.revelationType} · OpenFurqan`}
         </div>
       </div>
     ),
