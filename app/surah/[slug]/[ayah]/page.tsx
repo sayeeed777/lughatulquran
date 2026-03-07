@@ -118,14 +118,14 @@ export default async function AyahPage({ params }: Props) {
     articleBody: verse ? `${verse.ar}\n\n${verse.en}` : undefined,
     url: `https://openfurqan.com/surah/${slug}/${ayahNum}`,
     datePublished: "2024-01-01",
-    dateModified: "2026-02-16",
+    dateModified: "2026-03-06",
     isPartOf: {
       "@type": "Chapter",
       name: `Surah ${surah.englishName}`,
       url: `https://openfurqan.com/surah/${slug}`,
       position: surah.number
     },
-    inLanguage: ["ar", "en", "bn", "ur"],
+    inLanguage: ["en", "ar"],
     publisher: {
       "@type": "WebApplication",
       name: "OpenFurqan",

@@ -93,13 +93,13 @@ export default async function SurahPage({ params }: Props) {
     position: surah.number,
     url: `https://openfurqan.com/surah/${slug}`,
     datePublished: "2024-01-01",
-    dateModified: "2026-02-16",
+    dateModified: "2026-03-06",
     isPartOf: {
       "@type": "Book",
       name: "The Holy Quran",
       url: "https://openfurqan.com"
     },
-    inLanguage: ["ar", "en", "bn", "ur"],
+    inLanguage: ["en", "ar"],
     provider: {
       "@type": "WebApplication",
       name: "OpenFurqan",
