@@ -70,6 +70,7 @@ const AyahCard = memo(function AyahCard({
     "fr-hamidullah": "French (Muhammad Hamidullah)",
     "de-bubenheim": "German (Bubenheim & Elyas)",
     "es-cortes": "Spanish (Julio Cortes)",
+    "tr-ates": "Turkish (Suleyman Ates)",
     "bn-bengali": "Bangla (Muhiuddin Khan)",
     "bn-hoque": "Bangla (Zohurul Hoque)",
     "ur-kanzuliman": "Kanz al-Iman (Urdu)",

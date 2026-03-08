@@ -93,6 +93,7 @@ export const ALL_TRANSLATIONS = [
   { id: "fr-hamidullah", label: "French (Muhammad Hamidullah)", short: "Francais" },
   { id: "de-bubenheim", label: "German (Bubenheim & Elyas)", short: "Deutsch" },
   { id: "es-cortes", label: "Spanish (Julio Cortes)", short: "Español" },
+  { id: "tr-ates", label: "Turkish (Suleyman Ates)", short: "Turkish" },
   { id: "bn-bengali", label: "Bangla (Muhiuddin Khan)", short: "Bangla" },
   { id: "bn-hoque", label: "Bangla (Zohurul Hoque)", short: "Hoque" },
   { id: "ur-kanzuliman", label: "Kanz al-Iman (Urdu)", short: "Kanz (UR)" },

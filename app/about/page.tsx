@@ -5,7 +5,7 @@ import { getCspNonce } from "../lib/csp";
 export const metadata: Metadata = {
   title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools",
   description:
-    "OpenFurqan is a free, open-source Quran reading web application with 22+ translations, 9+ reciters, word-by-word analysis, Tajweed colors, memorization tools, Tafsir, prayer times, and more.",
+    "OpenFurqan is a free, open-source Quran reading web application with 22+ translations across 9+ languages, 9+ reciters, word-by-word analysis, Tajweed colors, memorization tools, Tafsir, prayer times, and more.",
   alternates: {
     canonical: "/about"
   },
@@ -50,9 +50,9 @@ export default async function AboutPage() {
       priceCurrency: "USD"
     },
     description:
-      "A free, open-source Quran reading web application with 22+ translations across 7+ languages, 9+ audio reciters, word-by-word analysis, Tajweed color-coding, memorization tools, Tafsir, prayer times, and study features.",
+      "A free, open-source Quran reading web application with 22+ translations across 9+ languages, 9+ audio reciters, word-by-word analysis, Tajweed color-coding, memorization tools, Tafsir, prayer times, and study features.",
     featureList: [
-      "22+ Quran translations in 7+ languages",
+      "22+ Quran translations in 9+ languages",
       "9+ audio reciters with adjustable playback speed",
       "Word-by-word Arabic analysis with root and morphology",
       "15+ color-coded Tajweed pronunciation rules",
@@ -97,7 +97,7 @@ export default async function AboutPage() {
           <p className="info-text">
             OpenFurqan is a free, open-source Quran reading web application built around two focused
             experiences: distraction-free reading with clean Arabic text and 22+ translations across
-            7+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary,
+            9+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary,
             Tajweed color-coding, Tafsir from 7+ editions, Hifz memorization tools, bookmarks,
             personal notes, reading plans, and progress tracking. Audio recitation is available from
             9+ well-known reciters. No account, no ads, no payment required.
@@ -138,7 +138,7 @@ export default async function AboutPage() {
                 English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem,
                 Al-Hilali &amp; Khan, Maarif-ul-Quran, Maududi, Ahmed Raza. Bangla: Muhiuddin Khan,
                 Zohurul Hoque, Mokhtasar, Ahsanul-Bayaan. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus
-                Hindi, French, German, Spanish, and Sinhala translations.
+                Hindi, Turkish, French, German, Spanish, and Sinhala translations.
               </p>
             </div>
             <div className="info-feature-item">

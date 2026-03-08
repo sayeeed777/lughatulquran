@@ -8,7 +8,7 @@ const FAQ_ITEMS = [
     category: "General",
     question: "What is OpenFurqan?",
     answer:
-      "OpenFurqan is a free, open-source Quran reading web application built around two focused experiences: distraction-free reading with clean Arabic text and 22+ translations across 7+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Hifz memorization tools, bookmarks, personal notes, reading plans, and progress tracking. Audio recitation is available from 9+ well-known reciters. No account, no ads, no payment required."
+      "OpenFurqan is a free, open-source Quran reading web application built around two focused experiences: distraction-free reading with clean Arabic text and 22+ translations across 9+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Hifz memorization tools, bookmarks, personal notes, reading plans, and progress tracking. Audio recitation is available from 9+ well-known reciters. No account, no ads, no payment required."
   },
   {
     question: "Is OpenFurqan free?",
@@ -30,12 +30,12 @@ const FAQ_ITEMS = [
   {
     question: "How do I change or add translations?",
     answer:
-      "Click the Settings gear icon in the topbar, go to the Display tab, and select translation chips to enable or disable them. Multiple translations can be shown side by side. 22+ translations are available across English, Bangla, Urdu, Hindi, French, German, Spanish, and Sinhala."
+      "Click the Settings gear icon in the topbar, go to the Display tab, and select translation chips to enable or disable them. Multiple translations can be shown side by side. 22+ translations are available across English, Bangla, Urdu, Hindi, Turkish, French, German, Spanish, and Sinhala."
   },
   {
     question: "Which translations are available?",
     answer:
-      "English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem, Al-Hilali & Khan, Maarif-ul-Quran, Maududi, Ahmed Raza. Bangla: Muhiuddin Khan, Zohurul Hoque, Mokhtasar, Ahsanul-Bayaan. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, French, German, Spanish, and Sinhala translations."
+      "English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem, Al-Hilali & Khan, Maarif-ul-Quran, Maududi, Ahmed Raza. Bangla: Muhiuddin Khan, Zohurul Hoque, Mokhtasar, Ahsanul-Bayaan. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French, German, Spanish, and Sinhala translations."
   },
   // Audio
   {
