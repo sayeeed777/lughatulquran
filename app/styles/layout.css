@@ -208,4 +208,12 @@
     .topbar {
         padding: 8px 0;
     }
+
+    .study-tooltip {
+        right: 0;
+        max-width: min(260px, calc(100vw - 32px));
+        white-space: normal;
+        line-height: 1.35;
+        text-wrap: balance;
+    }
 }

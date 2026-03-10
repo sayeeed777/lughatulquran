@@ -1527,7 +1527,7 @@ textarea:focus-visible {
     height: 56px;
     padding: 8px 10px;
     flex-wrap: nowrap;
-    overflow: hidden;
+    overflow: visible;
   }
 
   .topbar-actions {
@@ -1625,5 +1625,4 @@ textarea:focus-visible {
     font-size: 0.75rem;
   }
 }
-
 
