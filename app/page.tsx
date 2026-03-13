@@ -48,7 +48,6 @@ function HomeContent() {
     ui.setReadingMode(true);
   };
 
-  // Reading mode
   if (ui.readingMode) {
     return (
       <>

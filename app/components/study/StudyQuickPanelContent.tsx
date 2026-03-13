@@ -6,6 +6,7 @@ import { SURAH_AYAH_COUNTS } from "../../lib/constants";
 import type { DailyReading } from "../../lib/types";
 
 type QuickPanelTab = "study" | "tool" | "tafsir" | "search" | "notes";
+type StudyScopeMode = "surah" | "juz" | "page";
 
 type VerseRef = {
   surah: number;
@@ -82,6 +83,12 @@ type StudyQuickPanelContentProps = {
   formatTime: (seconds: number) => string;
   showTranslation: boolean;
   setShowTranslation: (value: boolean) => void;
+  studyScopeMode: StudyScopeMode;
+  setStudyScopeMode: (value: StudyScopeMode) => void;
+  studyJuzNumber: number;
+  setStudyJuzNumber: (value: number) => void;
+  studyPageNumber: number;
+  setStudyPageNumber: (value: number) => void;
   showStudyTransliteration: boolean;
   setShowStudyTransliteration: (value: boolean) => void;
   dimNonFocused: boolean;
@@ -134,7 +141,6 @@ type StudyQuickPanelContentProps = {
   todayVersesRead: number;
   weekTotal: number;
   currentStreak: number;
-  longestStreak: number;
   weeklyData: DailyReading[];
   surahProgress: Record<number, number[]>;
   hifzMarks: Record<string, true>;
@@ -159,6 +165,12 @@ export default function StudyQuickPanelContent({
   formatTime,
   showTranslation,
   setShowTranslation,
+  studyScopeMode,
+  setStudyScopeMode,
+  studyJuzNumber,
+  setStudyJuzNumber,
+  studyPageNumber,
+  setStudyPageNumber,
   showStudyTransliteration,
   setShowStudyTransliteration,
   dimNonFocused,
@@ -211,7 +223,6 @@ export default function StudyQuickPanelContent({
   todayVersesRead,
   weekTotal,
   currentStreak,
-  longestStreak,
   weeklyData,
   surahProgress,
   hifzMarks,
@@ -244,7 +255,6 @@ export default function StudyQuickPanelContent({
         todayVersesRead={todayVersesRead}
         weekTotal={weekTotal}
         currentStreak={currentStreak}
-        longestStreak={longestStreak}
         weeklyData={weeklyData}
         surahProgress={surahProgress}
         hifzMarks={hifzMarks}
@@ -258,15 +268,6 @@ export default function StudyQuickPanelContent({
   }
 
   if (tab === "tool") {
-    const activeToolCount = [
-      showTranslation,
-      showStudyTransliteration,
-      dimNonFocused,
-      autoScrollPlaying,
-      showTajweed,
-      showWordByWord,
-      isMushafView
-    ].filter(Boolean).length;
     const selectedReciterLabel =
       (reciters || []).find((reciter) => reciter.id === reciterId)?.label ||
       "Select reciter";
@@ -405,6 +406,132 @@ export default function StudyQuickPanelContent({
               </div>
             </label>
 
+          </div>
+        </div>
+
+        <div className="study-card tool-block">
+          <div className="tool-block-head">
+            <h5>Reading Scope</h5>
+            <span>Switch between surah, juz, and mushaf page reading.</span>
+          </div>
+
+          <div className="tool-script-grid">
+            <div className="tool-section">
+              <span className="tool-label">Mode</span>
+              <div className="tool-buttons">
+                <button
+                  className={`control-btn${studyScopeMode === "surah" ? " primary" : ""}`}
+                  onClick={() => setStudyScopeMode("surah")}
+                  type="button"
+                >
+                  Surah
+                </button>
+                <button
+                  className={`control-btn${studyScopeMode === "juz" ? " primary" : ""}`}
+                  onClick={() => setStudyScopeMode("juz")}
+                  type="button"
+                >
+                  Juz
+                </button>
+                <button
+                  className={`control-btn${studyScopeMode === "page" ? " primary" : ""}`}
+                  onClick={() => setStudyScopeMode("page")}
+                  type="button"
+                >
+                  Page
+                </button>
+              </div>
+            </div>
+
+            {studyScopeMode === "juz" && (
+              <div className="tool-section tool-nav-row">
+                <span className="tool-label">Juz</span>
+                <div className="tool-nav-picker">
+                  <button
+                    type="button"
+                    className="tool-nav-btn"
+                    onClick={() => setStudyJuzNumber(Math.max(1, studyJuzNumber - 1))}
+                    disabled={studyJuzNumber <= 1}
+                    aria-label="Previous juz"
+                    title="Previous juz"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                  <label className="tool-select-wrap">
+                    <select
+                      className="study-select"
+                      value={studyJuzNumber}
+                      onChange={(event) => setStudyJuzNumber(Number(event.target.value))}
+                    >
+                      {Array.from({ length: 30 }, (_, index) => (
+                        <option key={index + 1} value={index + 1}>
+                          Juz {index + 1}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <button
+                    type="button"
+                    className="tool-nav-btn"
+                    onClick={() => setStudyJuzNumber(Math.min(30, studyJuzNumber + 1))}
+                    disabled={studyJuzNumber >= 30}
+                    aria-label="Next juz"
+                    title="Next juz"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {studyScopeMode === "page" && (
+              <div className="tool-section tool-nav-row">
+                <span className="tool-label">Page</span>
+                <div className="tool-nav-picker">
+                  <button
+                    type="button"
+                    className="tool-nav-btn"
+                    onClick={() => setStudyPageNumber(Math.max(1, studyPageNumber - 1))}
+                    disabled={studyPageNumber <= 1}
+                    aria-label="Previous page"
+                    title="Previous page"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                  <label className="tool-select-wrap">
+                    <select
+                      className="study-select"
+                      value={studyPageNumber}
+                      onChange={(event) => setStudyPageNumber(Number(event.target.value))}
+                    >
+                      {Array.from({ length: 604 }, (_, index) => (
+                        <option key={index + 1} value={index + 1}>
+                          Page {index + 1}
+                        </option>
+                      ))}
+                    </select>
+                  </label>
+                  <button
+                    type="button"
+                    className="tool-nav-btn"
+                    onClick={() => setStudyPageNumber(Math.min(604, studyPageNumber + 1))}
+                    disabled={studyPageNumber >= 604}
+                    aria-label="Next page"
+                    title="Next page"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         </div>
 
@@ -875,7 +1002,6 @@ type StudyTabProps = {
   todayVersesRead: number;
   weekTotal: number;
   currentStreak: number;
-  longestStreak: number;
   weeklyData: DailyReading[];
   surahProgress: Record<number, number[]>;
   hifzMarks: Record<string, true>;
@@ -900,7 +1026,6 @@ function StudyTabContent({
   todayVersesRead,
   weekTotal,
   currentStreak,
-  longestStreak,
   weeklyData,
   surahProgress,
   hifzMarks,

@@ -11,10 +11,18 @@ import type {
 } from "./StudyModeTypes";
 import type { Ayah } from "../../lib/types";
 
+type StudyAyahItem = Ayah & {
+  surahNumber?: number;
+  verseKey?: string;
+};
+
 type StudyAyahListProps = {
-  ayahs: Ayah[];
+  ayahs: StudyAyahItem[];
   selectedSurahNumber: number;
+  surahByNumber: Map<number, { englishName: string; name: string }>;
   verseKey: (surah: number, ayah: number) => string;
+  viewMode: "surah" | "juz" | "page";
+  scopeLabel?: string;
   nowPlaying: { surah: number; ayah: number } | null;
   isAudioPaused: boolean;
   focusedAyahKey: string | null;
@@ -50,7 +58,10 @@ type StudyAyahListProps = {
 export default function StudyAyahList({
   ayahs,
   selectedSurahNumber,
+  surahByNumber,
   verseKey,
+  viewMode,
+  scopeLabel,
   nowPlaying,
   isAudioPaused,
   focusedAyahKey,
@@ -86,63 +97,89 @@ export default function StudyAyahList({
     () =>
       ayahs.map((ayah, index) => {
         const ayahNum = ayah.number;
-        const key = verseKey(selectedSurahNumber || 0, ayahNum);
-        const bookmarked = isBookmarked(selectedSurahNumber || 0, ayahNum);
-        const noted = hasNote(selectedSurahNumber || 0, ayahNum);
-        const isPlaying = nowPlaying?.surah === selectedSurahNumber && nowPlaying?.ayah === ayahNum;
+        const effectiveSurahNumber = ayah.surahNumber || selectedSurahNumber || 0;
+        const key = ayah.verseKey || verseKey(effectiveSurahNumber, ayahNum);
+        const bookmarked = isBookmarked(effectiveSurahNumber, ayahNum);
+        const noted = hasNote(effectiveSurahNumber, ayahNum);
+        const isPlaying = nowPlaying?.surah === effectiveSurahNumber && nowPlaying?.ayah === ayahNum;
         const isActivePlay = isPlaying && !isAudioPaused;
-        const words = ayahNum ? wordsByAyahForStudy?.[ayahNum] || [] : [];
+        const words = effectiveSurahNumber === selectedSurahNumber && ayahNum
+          ? wordsByAyahForStudy?.[ayahNum] || []
+          : [];
         const isFocused = focusedAyahKey === key;
         const isMarked = Boolean(studyMarks?.[key]);
         const isMemorized = Boolean(hifzMarks?.[key]);
         const translationText = ayah.translations?.[primaryTranslation]?.text || "";
+        const previousSurahNumber = ayahs[index - 1]?.surahNumber || selectedSurahNumber || 0;
+        const showSectionHeader = viewMode !== "surah" && index === 0
+          ? true
+          : viewMode !== "surah" && previousSurahNumber !== effectiveSurahNumber;
+        const surahMeta = surahByNumber.get(effectiveSurahNumber);
 
         return (
-          <StudyAyahCard
-            key={key || `ayah-${index}`}
-            ayahNumber={ayahNum}
-            surahNumber={selectedSurahNumber || 0}
-            verseKey={key}
-            cardId={key || `ayah-${ayahNum}`}
-            isActivePlay={isActivePlay}
-            isFocused={isFocused}
-            isMarked={isMarked}
-            isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
-            showTajweed={showTajweed}
-            arabicContent={
-              showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
-            }
-            translationText={translationText}
-            showTranslation={showTranslation}
-            transliterationText={ayah.transliteration || ""}
-            showTransliteration={showTransliteration}
-            isMushafView={isMushafView}
-            showWordByWord={showWordByWord}
-            words={words}
-            wordLoading={effectiveWordLoading}
-            wordAudioUrl={wordAudioUrl}
-            selectedWordPosition={
-              selectedWordDetails?.surah === selectedSurahNumber &&
-                selectedWordDetails?.ayah === ayahNum
-                ? selectedWordDetails.position
-                : null
-            }
-            isBookmarked={Boolean(bookmarked)}
-            hasNote={Boolean(noted)}
-            resolveWordAudioUrl={resolveWordAudioUrl}
-            onFocusAyahKey={onFocusAyahKey}
-            onOpenMemorize={onOpenMemorize}
-            onTogglePlay={onTogglePlay}
-            onToggleBookmark={onToggleBookmark}
-            onOpenTafsir={onOpenTafsir}
-            onOpenNote={onOpenNote}
-            onWordSelect={onWordSelect}
-            onWordAudio={onWordAudio}
-            onToggleStudyMarkByKey={onToggleStudyMarkByKey}
-            isMemorized={isMemorized}
-            onToggleHifzMark={onToggleHifzMark}
-            showHifzMode={showHifzMode}
-          />
+          <div key={key || `ayah-${index}`}>
+            {showSectionHeader && (
+              <div className={`study-scope-section${viewMode === "page" ? " page-mode" : ""}`}>
+                <span className="study-scope-section-kicker">
+                  {viewMode === "page" ? scopeLabel || "Page" : "Surah"}
+                </span>
+                <h3 className="study-scope-section-title">
+                  {surahMeta?.englishName || `Surah ${effectiveSurahNumber}`}
+                </h3>
+                {surahMeta?.name && (
+                  <p className="study-scope-section-arabic" lang="ar" dir="rtl">
+                    {surahMeta.name}
+                  </p>
+                )}
+              </div>
+            )}
+            <StudyAyahCard
+              ayahNumber={ayahNum}
+              surahNumber={effectiveSurahNumber}
+              verseKey={key}
+              cardId={`ayah-${effectiveSurahNumber}-${ayahNum}`}
+              scopeIndex={index + 1}
+              viewMode={viewMode}
+              isActivePlay={isActivePlay}
+              isFocused={isFocused}
+              isMarked={isMarked}
+              isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
+              showTajweed={showTajweed}
+              arabicContent={
+                showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
+              }
+              translationText={translationText}
+              showTranslation={showTranslation}
+              transliterationText={ayah.transliteration || ""}
+              showTransliteration={showTransliteration}
+              isMushafView={isMushafView}
+              showWordByWord={showWordByWord}
+              words={words}
+              wordLoading={effectiveWordLoading}
+              wordAudioUrl={wordAudioUrl}
+              selectedWordPosition={
+                selectedWordDetails?.surah === effectiveSurahNumber &&
+                  selectedWordDetails?.ayah === ayahNum
+                  ? selectedWordDetails.position
+                  : null
+              }
+              isBookmarked={Boolean(bookmarked)}
+              hasNote={Boolean(noted)}
+              resolveWordAudioUrl={resolveWordAudioUrl}
+              onFocusAyahKey={onFocusAyahKey}
+              onOpenMemorize={onOpenMemorize}
+              onTogglePlay={onTogglePlay}
+              onToggleBookmark={onToggleBookmark}
+              onOpenTafsir={onOpenTafsir}
+              onOpenNote={onOpenNote}
+              onWordSelect={onWordSelect}
+              onWordAudio={onWordAudio}
+              onToggleStudyMarkByKey={onToggleStudyMarkByKey}
+              isMemorized={isMemorized}
+              onToggleHifzMark={onToggleHifzMark}
+              showHifzMode={showHifzMode}
+            />
+          </div>
         );
       }),
     [
@@ -165,6 +202,7 @@ export default function StudyAyahList({
       onWordSelect,
       primaryTranslation,
       resolveWordAudioUrl,
+      scopeLabel,
       selectedSurahNumber,
       selectedWordDetails?.ayah,
       selectedWordDetails?.position,
@@ -173,10 +211,12 @@ export default function StudyAyahList({
       showTranslation,
       showTransliteration,
       showWordByWord,
+      surahByNumber,
       studyMarks,
       hifzMarks,
       onToggleHifzMark,
       showHifzMode,
+      viewMode,
       verseKey,
       wordAudioUrl,
       wordsByAyahForStudy,
@@ -184,5 +224,13 @@ export default function StudyAyahList({
     ]
   );
 
-  return <div className="study-ayah-list">{ayahCards}</div>;
+  return (
+    <div className={`study-ayah-list${viewMode === "page" ? " page-mode" : ""}`}>
+      {viewMode === "page" ? (
+        <section className="study-page-sheet">
+          {ayahCards}
+        </section>
+      ) : ayahCards}
+    </div>
+  );
 }

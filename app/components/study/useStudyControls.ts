@@ -196,7 +196,7 @@ export default function useStudyControls({
     if (!container) return;
 
     const ayahElements = Array.from(
-      container.querySelectorAll<HTMLElement>(".study-ayah-card")
+      container.querySelectorAll<HTMLElement>(".study-focus-track")
     );
     if (ayahElements.length === 0) {
       setCurrentAyahIndex(0);
@@ -212,9 +212,7 @@ export default function useStudyControls({
       visibleEntries.forEach((entry, target) => {
         if (!entry.isIntersecting) return;
         const element = target as HTMLElement;
-        const id = element.id.startsWith("ayah-")
-          ? Number(element.id.slice(5))
-          : Number.NaN;
+        const id = Number(element.dataset.scopeIndex || "");
         if (!Number.isFinite(id)) return;
         const rootTop = entry.rootBounds?.top ?? 0;
         const distance = Math.abs(entry.boundingClientRect.top - rootTop);
@@ -249,7 +247,7 @@ export default function useStudyControls({
     );
 
     ayahElements.forEach((element) => observer.observe(element));
-    const firstAyahId = Number(ayahElements[0]?.id.replace("ayah-", ""));
+    const firstAyahId = Number(ayahElements[0]?.dataset.scopeIndex || "");
     if (Number.isFinite(firstAyahId) && firstAyahId > 0) {
       activeAyah = firstAyahId;
       setCurrentAyahIndex(firstAyahId);
@@ -265,7 +263,20 @@ export default function useStudyControls({
   }, [ayahsLength]);
 
   useEffect(() => {
-    if (!focusedAyahKey || !selectedSurah) return;
+    if (!focusedAyahKey) return;
+
+    const container = scrollContainerRef.current;
+    const matchingIndex = Array.from(
+      container?.querySelectorAll<HTMLElement>(".study-ayah-card") || []
+    ).find((element) => element.dataset.verseKey === focusedAyahKey)?.dataset.scopeIndex;
+
+    const scopeIndex = Number(matchingIndex || "");
+    if (Number.isFinite(scopeIndex) && scopeIndex > 0) {
+      setCurrentAyahIndex(scopeIndex);
+      return;
+    }
+
+    if (!selectedSurah) return;
     const parsed = parseVerseKey(focusedAyahKey);
     if (!Number.isFinite(parsed.ayah)) return;
     setCurrentAyahIndex(parsed.ayah);

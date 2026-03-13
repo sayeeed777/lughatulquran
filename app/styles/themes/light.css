@@ -823,6 +823,14 @@
   }
 }
 
+:root[data-theme="light"] .study-mode-container.page-scope .study-reading-area {
+  scrollbar-color: rgba(66, 82, 54, 0.15) transparent;
+}
+
+:root[data-theme="light"] .study-mode-container.page-scope .study-reading-area::-webkit-scrollbar-thumb {
+  background: rgba(66, 82, 54, 0.15);
+}
+
 /* Tajweed colors — light mode tuning */
 :root[data-theme="light"] .study-mode-container .tajweed {
   color: #2e7a66;

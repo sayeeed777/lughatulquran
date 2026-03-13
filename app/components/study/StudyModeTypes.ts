@@ -47,3 +47,30 @@ export type WordByWordPayload = {
 };
 
 export type StudyMarks = Record<string, true>;
+
+export type MushafPageSegment = {
+  type: "word" | "marker";
+  verseKey: string;
+  surahNumber: number;
+  ayahNumber: number;
+  position: number | null;
+  glyph?: string;
+  text: string;
+};
+
+export type MushafPageLine = {
+  lineNumber: number;
+  segments: MushafPageSegment[];
+};
+
+export type MushafPageLayout = {
+  pageNumber: number;
+  mushaf: string;
+  firstVerseKey: string;
+  lastVerseKey: string;
+  versesCount: number;
+  surahs: number[];
+  lines: MushafPageLine[];
+};
+
+export const TOTAL_MUSHAF_PAGES = 604;

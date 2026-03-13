@@ -53,8 +53,6 @@ export function useHomeEffects({
 }: UseHomeEffectsParams) {
   const studySessionWriteTimerRef = useRef<number | null>(null);
   const lastStudySessionSignatureRef = useRef<string>("");
-  const isMobileViewport = () =>
-    typeof window !== "undefined" && window.matchMedia("(max-width: 1024px)").matches;
 
   // Initial Surah Selection & URL handling
   useEffect(() => {

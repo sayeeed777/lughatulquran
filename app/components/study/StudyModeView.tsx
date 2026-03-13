@@ -8,16 +8,19 @@ import { ProgressRing, QuickPanel } from "./StudyComponents";
 import StudyMemorizeModal from "./StudyMemorizeModal";
 import StudyLexiconModals from "./StudyLexiconModals";
 import { TAJWEED_LEGEND, TAFSIR_EDITIONS } from "./StudyModeHelpers";
+import type { MushafPageLayout } from "./StudyModeTypes";
 import type { QuickPanelTab } from "./StudyQuickPanelContent";
 import StudyQuickPanelContent from "./StudyQuickPanelContent";
 import StudyAyahList from "./StudyAyahList";
+import StudyMushafPage from "./StudyMushafPage";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
-import { useReadingStats } from "../../hooks";
+import { useLocalStorage, useReadingStats } from "../../hooks";
 import { useDiscoveryTips } from "../../hooks/useDiscoveryTips";
 import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
+import { fetchJSON } from "../../lib/apiClient";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 
 type RailItem = {
@@ -28,6 +31,39 @@ type RailItem = {
 
 type StudyModeViewProps = {
   onExit: () => void;
+};
+
+type StudyScopeMode = "surah" | "juz" | "page";
+
+type StudyScopeAyah = {
+  surahNumber: number;
+  number: number;
+  verseKey: string;
+  arabic?: string;
+  arabicTajweed?: string | null;
+  transliteration?: string;
+  pageNumber?: number | null;
+  translations?: Record<string, { text?: string }>;
+};
+
+type StudyScopeSection = {
+  surahNumber: number;
+  startAyah: number;
+  endAyah: number;
+};
+
+type StudyScopeResponse = {
+  scope?: {
+    type: StudyScopeMode;
+    id: number;
+    label: string;
+    versesCount: number;
+    firstVerseKey: string;
+    lastVerseKey: string;
+  };
+  sections?: StudyScopeSection[];
+  ayahs?: StudyScopeAyah[];
+  layout?: MushafPageLayout | null;
 };
 
 export default function StudyModeView({
@@ -72,6 +108,7 @@ export default function StudyModeView({
     setPlaybackRate,
     handleStopAutoPlay: onStopAutoPlay,
     handlePlaySurah: onPlaySurah,
+    handlePlayAyah: onPlayAyah,
     handleAudioEnded: onAudioEnded,
     handleToggleAyah: onTogglePlay
   } = useAudio();
@@ -99,13 +136,100 @@ export default function StudyModeView({
     ? selectedTranslations
     : [selectedTranslations];
   const primaryTranslation = translationIds[0] || "en-arberry";
+  const translationKey = translationIds.join(",");
 
-  const ayahs = useMemo(
-    () => filteredAyahs || surahData?.ayahs || [],
-    [filteredAyahs, surahData?.ayahs]
+  const [studyScopeMode, setStudyScopeMode] = useLocalStorage<StudyScopeMode>(
+    "quran_study_scope_mode",
+    "surah"
   );
+  const [studyJuzNumber, setStudyJuzNumber] = useLocalStorage<number>("quran_study_juz_number", 1);
+  const [studyPageNumber, setStudyPageNumber] = useLocalStorage<number>("quran_study_page_number", 1);
+  const [scopedAyahs, setScopedAyahs] = useState<StudyScopeAyah[]>([]);
+  const [scopeMeta, setScopeMeta] = useState<StudyScopeResponse["scope"] | null>(null);
+  const [scopeLayout, setScopeLayout] = useState<MushafPageLayout | null>(null);
+  const [scopeLoading, setScopeLoading] = useState(false);
+  const [scopeError, setScopeError] = useState<string | null>(null);
+
   const selectedSurahNumber = selectedSurah?.number || 0;
-  const totalAyahs = ayahs.length;
+  const surahAyahs = useMemo<StudyScopeAyah[]>(
+    () =>
+      (filteredAyahs || surahData?.ayahs || []).map((ayah) => ({
+        ...ayah,
+        surahNumber: selectedSurahNumber,
+        verseKey: verseKey(selectedSurahNumber, ayah.number)
+      })),
+    [filteredAyahs, selectedSurahNumber, surahData?.ayahs]
+  );
+
+  const activeScopeValue = studyScopeMode === "page" ? studyPageNumber : studyJuzNumber;
+
+  useEffect(() => {
+    if (studyScopeMode === "surah") {
+      setScopeLoading(false);
+      setScopeError(null);
+      setScopeMeta(null);
+      setScopeLayout(null);
+      return;
+    }
+
+    const controller = new AbortController();
+    const params = new URLSearchParams();
+    if (translationKey) {
+      params.set("translations", translationKey);
+    }
+    if (showStudyTransliteration && studyScopeMode === "juz") {
+      params.set("transliteration", "1");
+    }
+
+    const url = `/api/${studyScopeMode}/${activeScopeValue}${params.toString() ? `?${params.toString()}` : ""}`;
+    const cacheKey = `study-scope:v3:${studyScopeMode}:${activeScopeValue}:${translationKey}:${showStudyTransliteration ? 1 : 0}`;
+
+    setScopeLoading(true);
+    setScopeError(null);
+
+    fetchJSON<StudyScopeResponse>(url, {
+      ttl: 30 * 60 * 1000,
+      retries: 1,
+      retryDelay: 300,
+      persist: true,
+      staleWhileRevalidate: true,
+      cacheKey,
+      signal: controller.signal
+    })
+      .then((payload) => {
+        if (controller.signal.aborted) return;
+        setScopedAyahs(Array.isArray(payload?.ayahs) ? payload.ayahs : []);
+        setScopeMeta(payload?.scope || null);
+        setScopeLayout(payload?.layout || null);
+      })
+      .catch((error) => {
+        if (controller.signal.aborted) return;
+        const message = error instanceof Error ? error.message : "Failed to load study scope.";
+        setScopeError(message);
+        setScopedAyahs([]);
+        setScopeMeta(null);
+        setScopeLayout(null);
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setScopeLoading(false);
+      });
+
+    return () => {
+      controller.abort();
+    };
+  }, [
+    activeScopeValue,
+    showStudyTransliteration,
+    studyScopeMode,
+    translationKey
+  ]);
+
+  const displayAyahs = studyScopeMode === "surah" ? surahAyahs : scopedAyahs;
+  const totalAyahs = displayAyahs.length;
+  const isPageScope = studyScopeMode === "page";
+  const isSurahScope = studyScopeMode === "surah";
+  const hasMushafLayout = Boolean(isPageScope && scopeLayout?.lines?.length);
 
   const {
     showControls,
@@ -167,7 +291,7 @@ export default function StudyModeView({
     clearHifzSurah,
     scrollContainerRef
   } = useStudyControls({
-    ayahsLength: ayahs.length,
+    ayahsLength: totalAyahs,
     selectedSurah,
     focusedAyahKey,
     clamp,
@@ -199,6 +323,15 @@ export default function StudyModeView({
     wordByAyah,
     wordLoading
   });
+
+  useEffect(() => {
+    if (!displayAyahs.length) return;
+    const hasFocusedAyah = focusedAyahKey
+      ? displayAyahs.some((ayah) => ayah.verseKey === focusedAyahKey)
+      : false;
+    if (hasFocusedAyah) return;
+    setFocusedAyahKey(displayAyahs[0].verseKey);
+  }, [displayAyahs, focusedAyahKey, setFocusedAyahKey]);
 
   const railItems = useMemo<RailItem[]>(
     () => [
@@ -285,11 +418,12 @@ export default function StudyModeView({
   // Track verse reading when currentAyahIndex changes
   const lastTrackedAyahRef = useRef(0);
   useEffect(() => {
+    if (!isSurahScope) return;
     if (currentAyahIndex > 0 && selectedSurahNumber > 0 && currentAyahIndex !== lastTrackedAyahRef.current) {
       lastTrackedAyahRef.current = currentAyahIndex;
       recordVerseRead(selectedSurahNumber, currentAyahIndex);
     }
-  }, [currentAyahIndex, selectedSurahNumber, recordVerseRead]);
+  }, [currentAyahIndex, isSurahScope, selectedSurahNumber, recordVerseRead]);
 
   const onOpenTafsirFromAyah = useCallback(
     (key: string) => {
@@ -300,9 +434,44 @@ export default function StudyModeView({
     [setFocusedAyahKey, setQuickPanelTab, setShowQuickPanel]
   );
 
+  const jumpToStudyAyah = useCallback(
+    (surah: number, ayah: number) => {
+      if (!isSurahScope) {
+        setStudyScopeMode("surah");
+      }
+      onJumpToAyah(surah, ayah);
+    },
+    [isSurahScope, onJumpToAyah, setStudyScopeMode]
+  );
+
+  const handleStudyAyahPlay = useCallback(
+    (surah: number, ayah: number) => {
+      if (studyScopeMode === "surah") {
+        onTogglePlay(surah, ayah);
+        return;
+      }
+
+      if (nowPlaying?.surah === surah && nowPlaying?.ayah === ayah) {
+        onStopAutoPlay();
+        return;
+      }
+
+      onPlayAyah(surah, ayah);
+    },
+    [nowPlaying?.ayah, nowPlaying?.surah, onPlayAyah, onStopAutoPlay, onTogglePlay, studyScopeMode]
+  );
+
+  const activeScopeLabel = isSurahScope
+    ? selectedSurah?.englishName || "Surah"
+    : scopeMeta?.label || (isPageScope ? `Page ${studyPageNumber}` : `Juz ${studyJuzNumber}`);
+  const activeScopeMeta = isSurahScope
+    ? `${selectedSurah?.englishNameTranslation || ""} · ${totalAyahs} Ayahs`
+    : `${totalAyahs} ayahs · ${scopeMeta?.firstVerseKey || ""}${scopeMeta?.lastVerseKey ? ` - ${scopeMeta.lastVerseKey}` : ""}`;
+  const currentScopeAyah = displayAyahs[Math.max(0, currentAyahIndex - 1)] || null;
+
   return (
     <div
-      className={`study-mode-container${isMushafView ? " mushaf-view" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""
+      className={`study-mode-container${(isMushafView || isPageScope) ? " mushaf-view" : ""}${isPageScope ? " page-scope" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""
         } ${studyTypographyClasses}`}
     >
       {/* Ambient Background */}
@@ -325,33 +494,109 @@ export default function StudyModeView({
                 </svg>
               </button>
               <div className="study-surah-info">
-                <div className="study-surah-picker">
-                  <h1 className="study-surah-name">
-                    {selectedSurah?.englishName}
-                    <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                      <path d="m6 9 6 6 6-6" />
-                    </svg>
-                  </h1>
-                  <select
-                    className="study-surah-picker-native"
-                    value={selectedSurah?.number || 1}
-                    onChange={(e) => {
-                      const num = Number(e.target.value);
-                      if (num && num !== selectedSurah?.number) {
-                        onJumpToAyah(num, 1);
-                      }
-                    }}
-                    aria-label="Choose surah"
-                  >
-                    {surahs.map((s) => (
-                      <option key={s.number} value={s.number}>
-                        {s.number}. {s.englishName}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+                {isSurahScope ? (
+                  <div className="study-surah-picker">
+                    <h1 className="study-surah-name">
+                      {selectedSurah?.englishName}
+                      <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                        <path d="m6 9 6 6 6-6" />
+                      </svg>
+                    </h1>
+                    <select
+                      className="study-surah-picker-native"
+                      value={selectedSurah?.number || 1}
+                      onChange={(e) => {
+                        const num = Number(e.target.value);
+                        if (num && num !== selectedSurah?.number) {
+                          jumpToStudyAyah(num, 1);
+                        }
+                      }}
+                      aria-label="Choose surah"
+                    >
+                      {surahs.map((s) => (
+                        <option key={s.number} value={s.number}>
+                          {s.number}. {s.englishName}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                ) : isPageScope ? (
+                  <div className="study-scope-nav">
+                    <button
+                      type="button"
+                      className="study-scope-nav-btn"
+                      onClick={() => setStudyPageNumber(Math.max(1, studyPageNumber - 1))}
+                      disabled={studyPageNumber <= 1}
+                      aria-label="Previous page"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </button>
+                    <div className="study-scope-nav-select">
+                      <h1 className="study-surah-name">
+                        {activeScopeLabel}
+                        <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6" /></svg>
+                      </h1>
+                      <select
+                        className="study-surah-picker-native"
+                        value={studyPageNumber}
+                        onChange={(e) => setStudyPageNumber(Number(e.target.value))}
+                        aria-label="Choose page"
+                      >
+                        {Array.from({ length: 604 }, (_, i) => (
+                          <option key={i + 1} value={i + 1}>Page {i + 1}</option>
+                        ))}
+                      </select>
+                    </div>
+                    <button
+                      type="button"
+                      className="study-scope-nav-btn"
+                      onClick={() => setStudyPageNumber(Math.min(604, studyPageNumber + 1))}
+                      disabled={studyPageNumber >= 604}
+                      aria-label="Next page"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </button>
+                  </div>
+                ) : (
+                  <div className="study-scope-nav">
+                    <button
+                      type="button"
+                      className="study-scope-nav-btn"
+                      onClick={() => setStudyJuzNumber(Math.max(1, studyJuzNumber - 1))}
+                      disabled={studyJuzNumber <= 1}
+                      aria-label="Previous juz"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </button>
+                    <div className="study-scope-nav-select">
+                      <h1 className="study-surah-name">
+                        {activeScopeLabel}
+                        <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6" /></svg>
+                      </h1>
+                      <select
+                        className="study-surah-picker-native"
+                        value={studyJuzNumber}
+                        onChange={(e) => setStudyJuzNumber(Number(e.target.value))}
+                        aria-label="Choose juz"
+                      >
+                        {Array.from({ length: 30 }, (_, i) => (
+                          <option key={i + 1} value={i + 1}>Juz {i + 1}</option>
+                        ))}
+                      </select>
+                    </div>
+                    <button
+                      type="button"
+                      className="study-scope-nav-btn"
+                      onClick={() => setStudyJuzNumber(Math.min(30, studyJuzNumber + 1))}
+                      disabled={studyJuzNumber >= 30}
+                      aria-label="Next juz"
+                    >
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </button>
+                  </div>
+                )}
                 <span className="study-surah-meta">
-                  {selectedSurah?.englishNameTranslation} · {totalAyahs} Ayahs
+                  {activeScopeMeta}
                 </span>
               </div>
             </div>
@@ -378,65 +623,105 @@ export default function StudyModeView({
 
       {/* Main Reading Area */}
       <div className="study-reading-area" ref={scrollContainerRef}>
-        <div className="study-surah-opening">
-          <span className="study-arabic-name" lang="ar" dir="rtl">
-            {selectedSurah?.name}
-          </span>
-          <div className="study-opening-decoration">
-            <span className="decoration-line" />
-            <span className="decoration-dot" />
-            <span className="decoration-line" />
-          </div>
-        </div>
+        {isSurahScope ? (
+          <>
+            <div className="study-surah-opening">
+              <span className="study-arabic-name" lang="ar" dir="rtl">
+                {selectedSurah?.name}
+              </span>
+              <div className="study-opening-decoration">
+                <span className="decoration-line" />
+                <span className="decoration-dot" />
+                <span className="decoration-line" />
+              </div>
+            </div>
 
-        {selectedSurah?.number !== 1 && selectedSurah?.number !== 9 && (
-          <div className="study-bismillah" lang="ar" dir="rtl">
-            بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+            {selectedSurah?.number !== 1 && selectedSurah?.number !== 9 && (
+              <div className="study-bismillah" lang="ar" dir="rtl">
+                بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+              </div>
+            )}
+          </>
+        ) : !isPageScope ? (
+          <div className="study-surah-opening scope-opening">
+            <span className="study-arabic-name">{activeScopeLabel}</span>
+            <div className="study-opening-decoration">
+              <span className="decoration-line" />
+              <span className="decoration-dot" />
+              <span className="decoration-line" />
+            </div>
+            <p className="study-scope-meta">{activeScopeMeta}</p>
           </div>
+        ) : null}
+
+        {!isSurahScope && scopeLoading && <p className="status">Loading {activeScopeLabel.toLowerCase()}...</p>}
+        {!isSurahScope && scopeError && <p className="status error">{scopeError}</p>}
+
+        {hasMushafLayout && scopeLayout ? (
+          <StudyMushafPage
+            layout={scopeLayout}
+            ayahs={displayAyahs.map((ayah) => ({
+              surahNumber: ayah.surahNumber || 0,
+              number: ayah.number,
+              verseKey: ayah.verseKey || verseKey(ayah.surahNumber || 0, ayah.number)
+            }))}
+            focusedAyahKey={focusedAyahKey}
+            dimNonFocused={dimNonFocused}
+            nowPlaying={nowPlaying}
+            isAudioPaused={isAudioPaused}
+            onFocusAyahKey={setFocusedAyahKey}
+            onTogglePlay={handleStudyAyahPlay}
+            onSelectPage={setStudyPageNumber}
+          />
+        ) : (
+          <StudyAyahList
+            ayahs={displayAyahs}
+            selectedSurahNumber={selectedSurahNumber}
+            surahByNumber={surahByNumber}
+            verseKey={verseKey}
+            viewMode={studyScopeMode}
+            scopeLabel={activeScopeLabel}
+            nowPlaying={nowPlaying}
+            isAudioPaused={isAudioPaused}
+            focusedAyahKey={focusedAyahKey}
+            dimNonFocused={dimNonFocused}
+            studyMarks={studyMarks}
+            primaryTranslation={primaryTranslation}
+            showTajweed={showTajweed}
+            showTranslation={isPageScope ? false : showTranslation}
+            showTransliteration={isPageScope ? false : showStudyTransliteration}
+            isMushafView={isPageScope ? true : isMushafView}
+            showWordByWord={isSurahScope ? showWordByWord : false}
+            wordsByAyahForStudy={wordsByAyahForStudy}
+            effectiveWordLoading={effectiveWordLoading}
+            wordAudioUrl={wordAudioUrl}
+            selectedWordDetails={selectedWordDetails}
+            isBookmarked={isBookmarked}
+            hasNote={hasNote}
+            resolveWordAudioUrl={resolveWordAudioUrl}
+            onFocusAyahKey={setFocusedAyahKey}
+            onOpenMemorize={openMemorizeModal}
+            onTogglePlay={handleStudyAyahPlay}
+            onToggleBookmark={onToggleBookmark}
+            onOpenTafsir={onOpenTafsirFromAyah}
+            onOpenNote={onOpenNote}
+            onWordSelect={handleWordSelect}
+            onWordAudio={handleWordAudio}
+            onToggleStudyMarkByKey={toggleStudyMark}
+            hifzMarks={hifzMarks}
+            onToggleHifzMark={toggleHifzMark}
+            showHifzMode={isSurahScope && showHifzMode}
+          />
         )}
 
-        <StudyAyahList
-          ayahs={ayahs}
-          selectedSurahNumber={selectedSurahNumber}
-          verseKey={verseKey}
-          nowPlaying={nowPlaying}
-          isAudioPaused={isAudioPaused}
-          focusedAyahKey={focusedAyahKey}
-          dimNonFocused={dimNonFocused}
-          studyMarks={studyMarks}
-          primaryTranslation={primaryTranslation}
-          showTajweed={showTajweed}
-          showTranslation={showTranslation}
-          showTransliteration={showStudyTransliteration}
-          isMushafView={isMushafView}
-          showWordByWord={showWordByWord}
-          wordsByAyahForStudy={wordsByAyahForStudy}
-          effectiveWordLoading={effectiveWordLoading}
-          wordAudioUrl={wordAudioUrl}
-          selectedWordDetails={selectedWordDetails}
-          isBookmarked={isBookmarked}
-          hasNote={hasNote}
-          resolveWordAudioUrl={resolveWordAudioUrl}
-          onFocusAyahKey={setFocusedAyahKey}
-          onOpenMemorize={openMemorizeModal}
-          onTogglePlay={onTogglePlay}
-          onToggleBookmark={onToggleBookmark}
-          onOpenTafsir={onOpenTafsirFromAyah}
-          onOpenNote={onOpenNote}
-          onWordSelect={handleWordSelect}
-          onWordAudio={handleWordAudio}
-          onToggleStudyMarkByKey={toggleStudyMark}
-          hifzMarks={hifzMarks}
-          onToggleHifzMark={toggleHifzMark}
-          showHifzMode={showHifzMode}
-        />
-
-        <div className="study-surah-end">
-          <div className="study-end-decoration">
-            <span className="decoration-star">✦</span>
+        {!scopeLoading && !scopeError && displayAyahs.length > 0 && (
+          <div className="study-surah-end">
+            <div className="study-end-decoration">
+              <span className="decoration-star">✦</span>
+            </div>
+            <p className="study-end-text">{isSurahScope ? "End of Surah" : `End of ${activeScopeLabel}`}</p>
           </div>
-          <p className="study-end-text">End of Surah</p>
-        </div>
+        )}
       </div>
 
       {/* Audio Player */}
@@ -509,11 +794,17 @@ export default function StudyModeView({
           setGoalPerDay={setGoalPerDay}
           planSummary={planSummary}
           surahByNumber={surahByNumber}
-          onJumpToAyah={onJumpToAyah}
+          onJumpToAyah={jumpToStudyAyah}
           onClosePanel={() => setShowQuickPanel(false)}
           formatTime={formatTime}
           showTranslation={showTranslation}
           setShowTranslation={setShowTranslation}
+          studyScopeMode={studyScopeMode}
+          setStudyScopeMode={setStudyScopeMode}
+          studyJuzNumber={studyJuzNumber}
+          setStudyJuzNumber={setStudyJuzNumber}
+          studyPageNumber={studyPageNumber}
+          setStudyPageNumber={setStudyPageNumber}
           showStudyTransliteration={showStudyTransliteration}
           setShowStudyTransliteration={setShowStudyTransliteration}
           dimNonFocused={dimNonFocused}
@@ -551,9 +842,7 @@ export default function StudyModeView({
           selectedSurahName={selectedSurah?.englishName || "Surah"}
           focusedAyahNumber={focusedAyahNumber}
           currentAyahIndex={currentAyahIndex}
-          onUseCurrentAyah={() =>
-            setFocusedAyahKey(verseKey(selectedSurah?.number || 0, currentAyahIndex))
-          }
+          onUseCurrentAyah={() => currentScopeAyah?.verseKey && setFocusedAyahKey(currentScopeAyah.verseKey)}
           tafsirLoading={tafsirLoading}
           tafsirError={tafsirError}
           tafsirText={tafsirText}
@@ -568,7 +857,6 @@ export default function StudyModeView({
           todayVersesRead={todayStats.versesRead}
           weekTotal={weekTotal}
           currentStreak={stats.currentStreak}
-          longestStreak={stats.longestStreak}
           weeklyData={weeklyData}
           surahProgress={surahProgress}
           hifzMarks={hifzMarks}
@@ -592,7 +880,7 @@ export default function StudyModeView({
         onCloseRootModal={closeRootModal}
         onOpenRootDetails={openRootDetails}
         onPlayWordAudio={handleWordAudio}
-        onJumpToAyah={onJumpToAyah}
+        onJumpToAyah={jumpToStudyAyah}
       />
 
       <StudyMemorizeModal
