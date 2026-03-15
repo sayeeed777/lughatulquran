@@ -8,7 +8,7 @@ const qcfFontCache = new Set<number>();
 
 const getQcfFontName = (page: number) => `QCF2${String(page).padStart(3, "0")}`;
 const getQcfFontUrl = (page: number) =>
-  `https://static.qurancdn.com/fonts/quran/hafs/v2/woff2/p${page}.woff2`;
+  `/fonts/qcf-v2/p${page}.woff2`;
 
 type StudyScopeAyah = {
   surahNumber: number;

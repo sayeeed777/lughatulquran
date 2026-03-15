@@ -357,8 +357,8 @@
 .study-mushaf-inner.qcf-ready .study-mushaf-line {
   justify-content: space-between;
   gap: 0;
-  font-size: calc(2.6rem * var(--arabic-scale, 1));
-  line-height: 1.95;
+  font-size: calc(2.1rem * var(--arabic-scale, 1));
+  line-height: 1.9;
 }
 
 .study-mushaf-inner.qcf-ready .study-mushaf-line.center-align {
