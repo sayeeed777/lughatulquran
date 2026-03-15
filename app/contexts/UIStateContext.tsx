@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type { Ayah, SetState, SettingsTabId } from "../lib/types";
 
@@ -32,7 +32,17 @@ const UIStateContext = createContext<UIStateContextValue | null>(null);
 
 type UIStateProviderProps = UIStateContextValue & { children: ReactNode };
 
-export function UIStateProvider({ children, ...value }: UIStateProviderProps) {
+export function UIStateProvider({ children, ...props }: UIStateProviderProps) {
+  const value = useMemo(() => props, [
+    props.query, props.setQuery, props.ayahQuery, props.setAyahQuery,
+    props.goToAyahInput, props.setGoToAyahInput, props.readingMode,
+    props.setReadingMode, props.showShortcuts, props.setShowShortcuts,
+    props.showMobileSettings, props.setShowMobileSettings,
+    props.showMobileSearch, props.setShowMobileSearch,
+    props.settingsTab, props.setSettingsTab, props.selectedAyah,
+    props.setSelectedAyah, props.focusedAyahKey, props.setFocusedAyahKey,
+    props.copiedKey,
+  ]);
   return (
     <UIStateContext.Provider value={value}>
       {children}

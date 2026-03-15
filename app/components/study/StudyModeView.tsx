@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useCallback, useEffect, useRef, useState } from "react";
+import { useMemo, useCallback, useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from "react";
 import type { ReactNode } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { AudioPlayer } from "../common";
@@ -149,6 +149,30 @@ export default function StudyModeView({
   const [scopeLayout, setScopeLayout] = useState<MushafPageLayout | null>(null);
   const [scopeLoading, setScopeLoading] = useState(false);
   const [scopeError, setScopeError] = useState<string | null>(null);
+
+  // Swipe navigation for page/juz scope on mobile
+  const swipeRef = useRef<{ startX: number; startY: number } | null>(null);
+  const handleSwipeStart = useCallback((e: ReactTouchEvent) => {
+    const t = e.touches[0];
+    swipeRef.current = { startX: t.clientX, startY: t.clientY };
+  }, []);
+  const handleSwipeEnd = useCallback((e: ReactTouchEvent) => {
+    if (!swipeRef.current || studyScopeMode === "surah") return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - swipeRef.current.startX;
+    const dy = t.clientY - swipeRef.current.startY;
+    swipeRef.current = null;
+    // Only trigger if horizontal swipe is dominant and long enough
+    if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx) * 0.6) return;
+    if (studyScopeMode === "page") {
+      // RTL: swipe left = next page, swipe right = prev page
+      if (dx < 0) setStudyPageNumber(Math.min(604, studyPageNumber + 1));
+      else setStudyPageNumber(Math.max(1, studyPageNumber - 1));
+    } else {
+      if (dx < 0) setStudyJuzNumber(Math.min(30, studyJuzNumber + 1));
+      else setStudyJuzNumber(Math.max(1, studyJuzNumber - 1));
+    }
+  }, [studyScopeMode, studyPageNumber, studyJuzNumber, setStudyPageNumber, setStudyJuzNumber]);
 
   const selectedSurahNumber = selectedSurah?.number || 0;
   const surahAyahs = useMemo<StudyScopeAyah[]>(
@@ -622,7 +646,8 @@ export default function StudyModeView({
       </AnimatePresence>
 
       {/* Main Reading Area */}
-      <div className="study-reading-area" ref={scrollContainerRef}>
+      <div className="study-reading-area" ref={scrollContainerRef}
+        onTouchStart={handleSwipeStart} onTouchEnd={handleSwipeEnd}>
         {isSurahScope ? (
           <>
             <div className="study-surah-opening">

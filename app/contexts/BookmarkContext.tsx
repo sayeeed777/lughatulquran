@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type { Notes, NoteTarget } from "../lib/types";
 
@@ -30,7 +30,13 @@ const BookmarkContext = createContext<BookmarkContextValue | null>(null);
 
 type BookmarkProviderProps = BookmarkContextValue & { children: ReactNode };
 
-export function BookmarkProvider({ children, ...value }: BookmarkProviderProps) {
+export function BookmarkProvider({ children, ...props }: BookmarkProviderProps) {
+    const value = useMemo(() => props, [
+        props.bookmarks, props.notes, props.toggleBookmark,
+        props.sortedBookmarks, props.sortedNotes, props.noteTarget,
+        props.noteDraft, props.setNoteDraft, props.openNote,
+        props.saveNote, props.closeNote,
+    ]);
     return (
         <BookmarkContext.Provider value={value}>
             {children}

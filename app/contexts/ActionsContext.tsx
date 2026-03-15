@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type { Ayah, Surah } from "../lib/types";
 import type { PlanSummary } from "../hooks/home/useHomePlan";
@@ -22,7 +22,12 @@ const ActionsContext = createContext<ActionsContextValue | null>(null);
 
 type ActionsProviderProps = ActionsContextValue & { children: ReactNode };
 
-export function ActionsProvider({ children, ...value }: ActionsProviderProps) {
+export function ActionsProvider({ children, ...props }: ActionsProviderProps) {
+  const value = useMemo(() => props, [
+    props.handleSelectSurah, props.handleGoToAyah, props.jumpToAyah,
+    props.copyAyahLink, props.handleCompare, props.retryData,
+    props.planSummary, props.formatRangeLabel,
+  ]);
   return (
     <ActionsContext.Provider value={value}>
       {children}

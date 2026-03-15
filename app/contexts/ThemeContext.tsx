@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 
 export type ThemeName = "dark" | "light" | "bw" | "bw-dark";
@@ -16,8 +16,9 @@ const ThemeContext = createContext<ThemeContextValue | null>(null);
 type ThemeProviderProps = ThemeContextValue & { children: ReactNode };
 
 export function ThemeProvider({ children, theme, isLightTheme, setTheme }: ThemeProviderProps) {
+    const value = useMemo(() => ({ theme, isLightTheme, setTheme }), [theme, isLightTheme, setTheme]);
     return (
-        <ThemeContext.Provider value={{ theme, isLightTheme, setTheme }}>
+        <ThemeContext.Provider value={value}>
             {children}
         </ThemeContext.Provider>
     );

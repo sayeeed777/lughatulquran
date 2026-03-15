@@ -282,8 +282,10 @@ export default function ReaderPanel() {
 
       {/* Mobile Search Modal */}
       {isMobileSearchOpen && (
-        <div className="mobile-settings-overlay" onClick={() => openMobileSearch(false)}>
-          <div className="mobile-settings-panel" onClick={(e) => e.stopPropagation()}>
+        <div className="mobile-settings-overlay" onClick={() => openMobileSearch(false)}
+          onKeyDown={(e) => e.key === "Escape" && openMobileSearch(false)}>
+          <div className="mobile-settings-panel" role="dialog" aria-modal="true" aria-label="Search"
+            onClick={(e) => e.stopPropagation()}>
             <div className="mobile-settings-header">
               <h3>Search</h3>
               <button className="close-btn" onClick={() => openMobileSearch(false)}>

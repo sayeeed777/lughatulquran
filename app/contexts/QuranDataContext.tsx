@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type { Ayah, Surah, SurahData, WordBySurah } from "../lib/types";
 
@@ -24,7 +24,14 @@ const QuranDataContext = createContext<QuranDataContextValue | null>(null);
 
 type QuranDataProviderProps = QuranDataContextValue & { children: ReactNode };
 
-export function QuranDataProvider({ children, ...value }: QuranDataProviderProps) {
+export function QuranDataProvider({ children, ...props }: QuranDataProviderProps) {
+  const value = useMemo(() => props, [
+    props.surahs, props.loadingSurahs, props.surahsError,
+    props.surahByNumber, props.selectedSurah, props.surahData,
+    props.loadingSurahData, props.surahDataError, props.filteredSurahs,
+    props.filteredAyahs, props.wordByAyah, props.wordLoading,
+    props.wordError,
+  ]);
   return (
     <QuranDataContext.Provider value={value}>
       {children}

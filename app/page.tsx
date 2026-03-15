@@ -17,7 +17,10 @@ import { clamp } from "./lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "./lib/styleClasses";
 import { useUIState, usePreferences, useAudio, useActions } from "./contexts";
 
-const StudyModeView = dynamic(() => import("./components/study/StudyModeView"), { ssr: false });
+const StudyModeView = dynamic(() => import("./components/study/StudyModeView"), {
+  ssr: false,
+  loading: () => <div className="status">Loading study mode…</div>,
+});
 const PrayerPanel = dynamic(() => import("./components/modals/PrayerPanel"), { ssr: false });
 const CompareModal = dynamic(() => import("./components/modals/CompareModal"), { ssr: false });
 const NoteModal = dynamic(() => import("./components/modals/NoteModal"), { ssr: false });

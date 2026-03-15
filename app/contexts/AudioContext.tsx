@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type { NowPlaying, Reciter, SetState } from "../lib/types";
 
@@ -35,7 +35,16 @@ const AudioContext = createContext<AudioContextValue | null>(null);
 
 type AudioProviderProps = AudioContextValue & { children: ReactNode };
 
-export function AudioProvider({ children, ...value }: AudioProviderProps) {
+export function AudioProvider({ children, ...props }: AudioProviderProps) {
+    const value = useMemo(() => props, [
+        props.nowPlaying, props.isAutoPlaying, props.isAudioPaused,
+        props.audioSrc, props.nextAudioSrc, props.reciterLabel,
+        props.reciterBaseUrl, props.nowPlayingLabel, props.nowPlayingPage,
+        props.surahPageStart, props.surahPageEnd, props.reciterId,
+        props.setReciterId, props.selectedReciter, props.playbackRate,
+        props.setPlaybackRate, props.handlePlaySurah, props.handleStopAutoPlay,
+        props.handleAudioEnded, props.handlePlayAyah, props.handleToggleAyah,
+    ]);
     return (
         <AudioContext.Provider value={value}>
             {children}

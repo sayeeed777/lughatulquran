@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext } from "react";
+import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
 import type {
   FontScale,
@@ -48,7 +48,18 @@ const PreferencesContext = createContext<PreferencesContextValue | null>(null);
 
 type PreferencesProviderProps = PreferencesContextValue & { children: ReactNode };
 
-export function PreferencesProvider({ children, ...value }: PreferencesProviderProps) {
+export function PreferencesProvider({ children, ...props }: PreferencesProviderProps) {
+  const value = useMemo(() => props, [
+    props.readingPlan, props.setReadingPlan, props.fontScale, props.setFontScale,
+    props.arabicFontId, props.setArabicFontId, props.selectedTranslations,
+    props.setSelectedTranslations, props.showWordByWord, props.setShowWordByWord,
+    props.showTransliteration, props.setShowTransliteration,
+    props.showStudyTransliteration, props.setShowStudyTransliteration,
+    props.prayerSettings, props.setPrayerSettings, props.nextPrayerPreview,
+    props.hasPrayerLocation, props.theme, props.isLightTheme, props.setTheme,
+    props.memorizeConfig, props.setMemorizeConfig, props.startMemorize,
+    props.stopMemorize, props.lastRead, props.studySession,
+  ]);
   return (
     <PreferencesContext.Provider value={value}>
       {children}

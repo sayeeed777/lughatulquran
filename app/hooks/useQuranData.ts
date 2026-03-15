@@ -207,7 +207,7 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
     if (!showWordByWord || !selectedSurahNumber) return;
     if (wordByAyah[selectedSurahNumber]) return;
 
-    let isMounted = true;
+    const controller = new AbortController();
     setLoading(true);
     setError(null);
 
@@ -216,32 +216,31 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
       retries: 1,
       retryDelay: 300,
       persist: true,
-      staleWhileRevalidate: true
+      staleWhileRevalidate: true,
+      signal: controller.signal
     })
       .then((data) => {
+        if (controller.signal.aborted) return;
         const parsed = validateWordByWord(data);
         if (!parsed) {
           throw new Error("Invalid word-by-word response.");
         }
-        if (isMounted) {
-          setWordByAyah((prev) => ({
-            ...prev,
-            [selectedSurahNumber]: parsed.wordsByAyah || {}
-          }));
-        }
+        setWordByAyah((prev) => ({
+          ...prev,
+          [selectedSurahNumber]: parsed.wordsByAyah || {}
+        }));
       })
       .catch((err) => {
-        if (isMounted) {
-          const message = err instanceof Error ? err.message : String(err);
-          setError(message);
-        }
+        if (controller.signal.aborted) return;
+        const message = err instanceof Error ? err.message : String(err);
+        setError(message);
       })
       .finally(() => {
-        if (isMounted) setLoading(false);
+        if (!controller.signal.aborted) setLoading(false);
       });
 
     return () => {
-      isMounted = false;
+      controller.abort();
     };
   }, [showWordByWord, selectedSurahNumber, wordByAyah]);
 

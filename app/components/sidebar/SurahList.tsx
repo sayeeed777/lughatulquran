@@ -77,6 +77,7 @@ export default function SurahList({
         <input
           className="search"
           placeholder="Search surahs…"
+          aria-label="Search surahs"
           value={query || ""}
           onChange={(event) => setQuery?.(event.target.value)}
         />
