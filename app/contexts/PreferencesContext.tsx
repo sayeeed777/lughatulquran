@@ -49,7 +49,35 @@ const PreferencesContext = createContext<PreferencesContextValue | null>(null);
 type PreferencesProviderProps = PreferencesContextValue & { children: ReactNode };
 
 export function PreferencesProvider({ children, ...props }: PreferencesProviderProps) {
-  const value = useMemo(() => props, [
+  const value = useMemo(() => ({
+    readingPlan: props.readingPlan,
+    setReadingPlan: props.setReadingPlan,
+    fontScale: props.fontScale,
+    setFontScale: props.setFontScale,
+    arabicFontId: props.arabicFontId,
+    setArabicFontId: props.setArabicFontId,
+    selectedTranslations: props.selectedTranslations,
+    setSelectedTranslations: props.setSelectedTranslations,
+    showWordByWord: props.showWordByWord,
+    setShowWordByWord: props.setShowWordByWord,
+    showTransliteration: props.showTransliteration,
+    setShowTransliteration: props.setShowTransliteration,
+    showStudyTransliteration: props.showStudyTransliteration,
+    setShowStudyTransliteration: props.setShowStudyTransliteration,
+    prayerSettings: props.prayerSettings,
+    setPrayerSettings: props.setPrayerSettings,
+    nextPrayerPreview: props.nextPrayerPreview,
+    hasPrayerLocation: props.hasPrayerLocation,
+    theme: props.theme,
+    isLightTheme: props.isLightTheme,
+    setTheme: props.setTheme,
+    memorizeConfig: props.memorizeConfig,
+    setMemorizeConfig: props.setMemorizeConfig,
+    startMemorize: props.startMemorize,
+    stopMemorize: props.stopMemorize,
+    lastRead: props.lastRead,
+    studySession: props.studySession
+  }), [
     props.readingPlan, props.setReadingPlan, props.fontScale, props.setFontScale,
     props.arabicFontId, props.setArabicFontId, props.selectedTranslations,
     props.setSelectedTranslations, props.showWordByWord, props.setShowWordByWord,

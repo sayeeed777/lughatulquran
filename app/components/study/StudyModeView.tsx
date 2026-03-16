@@ -7,12 +7,11 @@ import { QuickPanel } from "./StudyComponents";
 import StudyModeHeader from "./StudyModeHeader";
 import StudyMemorizeModal from "./StudyMemorizeModal";
 import StudyLexiconModals from "./StudyLexiconModals";
+import StudyModeReadingArea from "./StudyModeReadingArea";
 import StudyModeRail from "./StudyModeRail";
 import { TAJWEED_LEGEND, TAFSIR_EDITIONS } from "./StudyModeHelpers";
 import type { MushafPageLayout } from "./StudyModeTypes";
 import StudyQuickPanelContent from "./StudyQuickPanelContent";
-import StudyAyahList from "./StudyAyahList";
-import StudyMushafPage from "./StudyMushafPage";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
 import type { StudyScopeAyah, StudyScopeMode, StudyScopeResponse } from "./StudyScopeTypes";
@@ -419,109 +418,56 @@ export default function StudyModeView({
         formatTime={formatTime}
       />
 
-      {/* Main Reading Area */}
-      <div className="study-reading-area" ref={scrollContainerRef}
-        onTouchStart={handleSwipeStart} onTouchEnd={handleSwipeEnd}>
-        {isSurahScope ? (
-          <>
-            <div className="study-surah-opening">
-              <span className="study-arabic-name" lang="ar" dir="rtl">
-                {selectedSurah?.name}
-              </span>
-              <div className="study-opening-decoration">
-                <span className="decoration-line" />
-                <span className="decoration-dot" />
-                <span className="decoration-line" />
-              </div>
-            </div>
-
-            {selectedSurah?.number !== 1 && selectedSurah?.number !== 9 && (
-              <div className="study-bismillah" lang="ar" dir="rtl">
-                بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
-              </div>
-            )}
-          </>
-        ) : !isPageScope ? (
-          <div className="study-surah-opening scope-opening">
-            <span className="study-arabic-name">{activeScopeLabel}</span>
-            <div className="study-opening-decoration">
-              <span className="decoration-line" />
-              <span className="decoration-dot" />
-              <span className="decoration-line" />
-            </div>
-            <p className="study-scope-meta">{activeScopeMeta}</p>
-          </div>
-        ) : null}
-
-        {!isSurahScope && scopeLoading && <p className="status">Loading {activeScopeLabel.toLowerCase()}...</p>}
-        {!isSurahScope && scopeError && <p className="status error">{scopeError}</p>}
-
-        {hasMushafLayout && scopeLayout ? (
-          <StudyMushafPage
-            layout={scopeLayout}
-            ayahs={displayAyahs.map((ayah) => ({
-              surahNumber: ayah.surahNumber || 0,
-              number: ayah.number,
-              verseKey: ayah.verseKey || verseKey(ayah.surahNumber || 0, ayah.number)
-            }))}
-            focusedAyahKey={focusedAyahKey}
-            dimNonFocused={dimNonFocused}
-            nowPlaying={nowPlaying}
-            isAudioPaused={isAudioPaused}
-            onFocusAyahKey={setFocusedAyahKey}
-            onTogglePlay={handleStudyAyahPlay}
-            onSelectPage={setStudyPageNumber}
-          />
-        ) : (
-          <StudyAyahList
-            ayahs={displayAyahs}
-            selectedSurahNumber={selectedSurahNumber}
-            surahByNumber={surahByNumber}
-            verseKey={verseKey}
-            viewMode={studyScopeMode}
-            scopeLabel={activeScopeLabel}
-            nowPlaying={nowPlaying}
-            isAudioPaused={isAudioPaused}
-            focusedAyahKey={focusedAyahKey}
-            dimNonFocused={dimNonFocused}
-            studyMarks={studyMarks}
-            primaryTranslation={primaryTranslation}
-            showTajweed={showTajweed}
-            showTranslation={isPageScope ? false : showTranslation}
-            showTransliteration={isPageScope ? false : showStudyTransliteration}
-            isMushafView={isPageScope ? true : isMushafView}
-            showWordByWord={isSurahScope ? showWordByWord : false}
-            wordsByAyahForStudy={wordsByAyahForStudy}
-            effectiveWordLoading={effectiveWordLoading}
-            wordAudioUrl={wordAudioUrl}
-            selectedWordDetails={selectedWordDetails}
-            isBookmarked={isBookmarked}
-            hasNote={hasNote}
-            resolveWordAudioUrl={resolveWordAudioUrl}
-            onFocusAyahKey={setFocusedAyahKey}
-            onOpenMemorize={openMemorizeModal}
-            onTogglePlay={handleStudyAyahPlay}
-            onToggleBookmark={onToggleBookmark}
-            onOpenTafsir={onOpenTafsirFromAyah}
-            onOpenNote={onOpenNote}
-            onWordSelect={handleWordSelect}
-            onWordAudio={handleWordAudio}
-            onToggleStudyMarkByKey={toggleStudyMark}
-            hifzMarks={hifzMarks}
-            onToggleHifzMark={toggleHifzMark}
-            showHifzMode={isSurahScope && showHifzMode}
-          />
-        )}
-
-        {!scopeLoading && !scopeError && displayAyahs.length > 0 && (
-          <div className="study-surah-end">
-            <div className="study-end-decoration">
-              <span className="decoration-star">✦</span>
-            </div>
-            <p className="study-end-text">{isSurahScope ? "End of Surah" : `End of ${activeScopeLabel}`}</p>
-          </div>
-        )}
-      </div>
+      <StudyModeReadingArea
+        scrollContainerRef={scrollContainerRef}
+        onSwipeStart={handleSwipeStart}
+        onSwipeEnd={handleSwipeEnd}
+        isSurahScope={isSurahScope}
+        isPageScope={isPageScope}
+        selectedSurah={selectedSurah}
+        activeScopeLabel={activeScopeLabel}
+        activeScopeMeta={activeScopeMeta}
+        scopeLoading={scopeLoading}
+        scopeError={scopeError}
+        hasMushafLayout={hasMushafLayout}
+        scopeLayout={scopeLayout}
+        displayAyahs={displayAyahs}
+        focusedAyahKey={focusedAyahKey}
+        dimNonFocused={dimNonFocused}
+        nowPlaying={nowPlaying}
+        isAudioPaused={isAudioPaused}
+        onFocusAyahKey={setFocusedAyahKey}
+        onTogglePlay={handleStudyAyahPlay}
+        onSelectPage={setStudyPageNumber}
+        selectedSurahNumber={selectedSurahNumber}
+        surahByNumber={surahByNumber}
+        studyScopeMode={studyScopeMode}
+        studyMarks={studyMarks}
+        primaryTranslation={primaryTranslation}
+        showTajweed={showTajweed}
+        showTranslation={showTranslation}
+        showStudyTransliteration={showStudyTransliteration}
+        isMushafView={isMushafView}
+        showWordByWord={showWordByWord}
+        wordsByAyahForStudy={wordsByAyahForStudy}
+        effectiveWordLoading={effectiveWordLoading}
+        wordAudioUrl={wordAudioUrl}
+        selectedWordDetails={selectedWordDetails}
+        isBookmarked={isBookmarked}
+        hasNote={hasNote}
+        resolveWordAudioUrl={resolveWordAudioUrl}
+        onOpenMemorize={openMemorizeModal}
+        onToggleBookmark={onToggleBookmark}
+        onOpenTafsir={onOpenTafsirFromAyah}
+        onOpenNote={onOpenNote}
+        onWordSelect={handleWordSelect}
+        onWordAudio={handleWordAudio}
+        onToggleStudyMarkByKey={toggleStudyMark}
+        hifzMarks={hifzMarks}
+        onToggleHifzMark={toggleHifzMark}
+        showHifzMode={showHifzMode}
+        verseKey={verseKey}
+      />
 
       {/* Audio Player */}
       <AudioPlayer

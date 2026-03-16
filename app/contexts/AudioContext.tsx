@@ -36,7 +36,29 @@ const AudioContext = createContext<AudioContextValue | null>(null);
 type AudioProviderProps = AudioContextValue & { children: ReactNode };
 
 export function AudioProvider({ children, ...props }: AudioProviderProps) {
-    const value = useMemo(() => props, [
+    const value = useMemo(() => ({
+        nowPlaying: props.nowPlaying,
+        isAutoPlaying: props.isAutoPlaying,
+        isAudioPaused: props.isAudioPaused,
+        audioSrc: props.audioSrc,
+        nextAudioSrc: props.nextAudioSrc,
+        reciterLabel: props.reciterLabel,
+        reciterBaseUrl: props.reciterBaseUrl,
+        nowPlayingLabel: props.nowPlayingLabel,
+        nowPlayingPage: props.nowPlayingPage,
+        surahPageStart: props.surahPageStart,
+        surahPageEnd: props.surahPageEnd,
+        reciterId: props.reciterId,
+        setReciterId: props.setReciterId,
+        selectedReciter: props.selectedReciter,
+        playbackRate: props.playbackRate,
+        setPlaybackRate: props.setPlaybackRate,
+        handlePlaySurah: props.handlePlaySurah,
+        handleStopAutoPlay: props.handleStopAutoPlay,
+        handleAudioEnded: props.handleAudioEnded,
+        handlePlayAyah: props.handlePlayAyah,
+        handleToggleAyah: props.handleToggleAyah,
+    }), [
         props.nowPlaying, props.isAutoPlaying, props.isAudioPaused,
         props.audioSrc, props.nextAudioSrc, props.reciterLabel,
         props.reciterBaseUrl, props.nowPlayingLabel, props.nowPlayingPage,

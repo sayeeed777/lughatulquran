@@ -23,7 +23,16 @@ const ActionsContext = createContext<ActionsContextValue | null>(null);
 type ActionsProviderProps = ActionsContextValue & { children: ReactNode };
 
 export function ActionsProvider({ children, ...props }: ActionsProviderProps) {
-  const value = useMemo(() => props, [
+  const value = useMemo(() => ({
+    handleSelectSurah: props.handleSelectSurah,
+    handleGoToAyah: props.handleGoToAyah,
+    jumpToAyah: props.jumpToAyah,
+    copyAyahLink: props.copyAyahLink,
+    handleCompare: props.handleCompare,
+    retryData: props.retryData,
+    planSummary: props.planSummary,
+    formatRangeLabel: props.formatRangeLabel
+  }), [
     props.handleSelectSurah, props.handleGoToAyah, props.jumpToAyah,
     props.copyAyahLink, props.handleCompare, props.retryData,
     props.planSummary, props.formatRangeLabel,

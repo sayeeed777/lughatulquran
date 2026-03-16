@@ -25,7 +25,21 @@ const QuranDataContext = createContext<QuranDataContextValue | null>(null);
 type QuranDataProviderProps = QuranDataContextValue & { children: ReactNode };
 
 export function QuranDataProvider({ children, ...props }: QuranDataProviderProps) {
-  const value = useMemo(() => props, [
+  const value = useMemo(() => ({
+    surahs: props.surahs,
+    loadingSurahs: props.loadingSurahs,
+    surahsError: props.surahsError,
+    surahByNumber: props.surahByNumber,
+    selectedSurah: props.selectedSurah,
+    surahData: props.surahData,
+    loadingSurahData: props.loadingSurahData,
+    surahDataError: props.surahDataError,
+    filteredSurahs: props.filteredSurahs,
+    filteredAyahs: props.filteredAyahs,
+    wordByAyah: props.wordByAyah,
+    wordLoading: props.wordLoading,
+    wordError: props.wordError
+  }), [
     props.surahs, props.loadingSurahs, props.surahsError,
     props.surahByNumber, props.selectedSurah, props.surahData,
     props.loadingSurahData, props.surahDataError, props.filteredSurahs,

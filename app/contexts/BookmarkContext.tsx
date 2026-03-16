@@ -31,7 +31,19 @@ const BookmarkContext = createContext<BookmarkContextValue | null>(null);
 type BookmarkProviderProps = BookmarkContextValue & { children: ReactNode };
 
 export function BookmarkProvider({ children, ...props }: BookmarkProviderProps) {
-    const value = useMemo(() => props, [
+    const value = useMemo(() => ({
+        bookmarks: props.bookmarks,
+        notes: props.notes,
+        toggleBookmark: props.toggleBookmark,
+        sortedBookmarks: props.sortedBookmarks,
+        sortedNotes: props.sortedNotes,
+        noteTarget: props.noteTarget,
+        noteDraft: props.noteDraft,
+        setNoteDraft: props.setNoteDraft,
+        openNote: props.openNote,
+        saveNote: props.saveNote,
+        closeNote: props.closeNote,
+    }), [
         props.bookmarks, props.notes, props.toggleBookmark,
         props.sortedBookmarks, props.sortedNotes, props.noteTarget,
         props.noteDraft, props.setNoteDraft, props.openNote,

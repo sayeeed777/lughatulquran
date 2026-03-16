@@ -33,7 +33,29 @@ const UIStateContext = createContext<UIStateContextValue | null>(null);
 type UIStateProviderProps = UIStateContextValue & { children: ReactNode };
 
 export function UIStateProvider({ children, ...props }: UIStateProviderProps) {
-  const value = useMemo(() => props, [
+  const value = useMemo(() => ({
+    query: props.query,
+    setQuery: props.setQuery,
+    ayahQuery: props.ayahQuery,
+    setAyahQuery: props.setAyahQuery,
+    goToAyahInput: props.goToAyahInput,
+    setGoToAyahInput: props.setGoToAyahInput,
+    readingMode: props.readingMode,
+    setReadingMode: props.setReadingMode,
+    showShortcuts: props.showShortcuts,
+    setShowShortcuts: props.setShowShortcuts,
+    showMobileSettings: props.showMobileSettings,
+    setShowMobileSettings: props.setShowMobileSettings,
+    showMobileSearch: props.showMobileSearch,
+    setShowMobileSearch: props.setShowMobileSearch,
+    settingsTab: props.settingsTab,
+    setSettingsTab: props.setSettingsTab,
+    selectedAyah: props.selectedAyah,
+    setSelectedAyah: props.setSelectedAyah,
+    focusedAyahKey: props.focusedAyahKey,
+    setFocusedAyahKey: props.setFocusedAyahKey,
+    copiedKey: props.copiedKey
+  }), [
     props.query, props.setQuery, props.ayahQuery, props.setAyahQuery,
     props.goToAyahInput, props.setGoToAyahInput, props.readingMode,
     props.setReadingMode, props.showShortcuts, props.setShowShortcuts,
