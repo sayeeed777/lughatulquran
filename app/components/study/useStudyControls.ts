@@ -8,7 +8,7 @@ import { getLocalDateString } from "../../lib/utils";
 import { TAFSIR_EDITIONS } from "./StudyModeHelpers";
 import type { MemorizeConfig, StudyMarks } from "./StudyModeTypes";
 import type { MemorizeDraft, MemorizeMode } from "./StudyMemorizeModal";
-import type { QuickPanelTab } from "./StudyQuickPanelContent";
+import type { QuickPanelTab } from "./StudyQuickPanelTypes";
 import type { Surah } from "../../lib/types";
 
 type SearchResult = {

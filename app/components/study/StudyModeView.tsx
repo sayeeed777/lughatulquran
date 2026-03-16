@@ -1,20 +1,21 @@
 "use client";
 
 import { useMemo, useCallback, useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from "react";
-import type { ReactNode } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { AudioPlayer } from "../common";
-import { ProgressRing, QuickPanel } from "./StudyComponents";
+import { QuickPanel } from "./StudyComponents";
+import StudyModeHeader from "./StudyModeHeader";
 import StudyMemorizeModal from "./StudyMemorizeModal";
 import StudyLexiconModals from "./StudyLexiconModals";
+import StudyModeRail from "./StudyModeRail";
 import { TAJWEED_LEGEND, TAFSIR_EDITIONS } from "./StudyModeHelpers";
 import type { MushafPageLayout } from "./StudyModeTypes";
-import type { QuickPanelTab } from "./StudyQuickPanelContent";
 import StudyQuickPanelContent from "./StudyQuickPanelContent";
 import StudyAyahList from "./StudyAyahList";
 import StudyMushafPage from "./StudyMushafPage";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
+import type { StudyScopeAyah, StudyScopeMode, StudyScopeResponse } from "./StudyScopeTypes";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
 import { useLocalStorage, useReadingStats } from "../../hooks";
 import { useDiscoveryTips } from "../../hooks/useDiscoveryTips";
@@ -23,47 +24,8 @@ import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } fro
 import { fetchJSON } from "../../lib/apiClient";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 
-type RailItem = {
-  id: QuickPanelTab;
-  label: string;
-  icon: ReactNode;
-};
-
 type StudyModeViewProps = {
   onExit: () => void;
-};
-
-type StudyScopeMode = "surah" | "juz" | "page";
-
-type StudyScopeAyah = {
-  surahNumber: number;
-  number: number;
-  verseKey: string;
-  arabic?: string;
-  arabicTajweed?: string | null;
-  transliteration?: string;
-  pageNumber?: number | null;
-  translations?: Record<string, { text?: string }>;
-};
-
-type StudyScopeSection = {
-  surahNumber: number;
-  startAyah: number;
-  endAyah: number;
-};
-
-type StudyScopeResponse = {
-  scope?: {
-    type: StudyScopeMode;
-    id: number;
-    label: string;
-    versesCount: number;
-    firstVerseKey: string;
-    lastVerseKey: string;
-  };
-  sections?: StudyScopeSection[];
-  ayahs?: StudyScopeAyah[];
-  layout?: MushafPageLayout | null;
 };
 
 export default function StudyModeView({
@@ -357,69 +319,6 @@ export default function StudyModeView({
     setFocusedAyahKey(displayAyahs[0].verseKey);
   }, [displayAyahs, focusedAyahKey, setFocusedAyahKey]);
 
-  const railItems = useMemo<RailItem[]>(
-    () => [
-      {
-        id: "study",
-        label: "Study",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-            <path d="M4 4h14a2 2 0 0 1 2 2v13" />
-            <path d="M4 4v13a2 2 0 0 0 2 2h14" />
-          </svg>
-        )
-      },
-      {
-        id: "tool",
-        label: "Tool",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M14.5 6.5 17.5 3.5a2.121 2.121 0 1 1 3 3l-3.01 3.01" />
-            <path d="M12.5 8.5 4 17v3h3l8.5-8.5" />
-            <path d="M7 12H3" />
-            <path d="M21 21h-4" />
-            <path d="M14 14h-2" />
-          </svg>
-        )
-      },
-      {
-        id: "tafsir",
-        label: "Tafsir",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-            <path d="M4 4h14a2 2 0 0 1 2 2v13" />
-            <path d="M4 4v13a2 2 0 0 0 2 2h14" />
-            <path d="M8 7h8" />
-            <path d="M8 11h6" />
-          </svg>
-        )
-      },
-      {
-        id: "search",
-        label: "Search",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <circle cx="11" cy="11" r="8" />
-            <path d="m21 21-4.35-4.35" />
-          </svg>
-        )
-      },
-      {
-        id: "notes",
-        label: "Notes",
-        icon: (
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-            <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-          </svg>
-        )
-      }
-    ],
-    []
-  );
-
   const isBookmarked = useCallback(
     (surah: number, ayah: number) => bookmarks?.includes(verseKey(surah, ayah)),
     [bookmarks]
@@ -501,149 +400,24 @@ export default function StudyModeView({
       {/* Ambient Background */}
       <div className="study-ambient-bg" />
 
-      {/* Top Header - Minimal */}
-      <AnimatePresence>
-        {showControls && (
-          <motion.header
-            className="study-header"
-            initial={{ y: -100, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -100, opacity: 0 }}
-            transition={{ type: "spring", damping: 25, stiffness: 200 }}
-          >
-            <div className="study-header-left">
-              <button className="study-back-btn" onClick={onExit}>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M19 12H5M12 19l-7-7 7-7" />
-                </svg>
-              </button>
-              <div className="study-surah-info">
-                {isSurahScope ? (
-                  <div className="study-surah-picker">
-                    <h1 className="study-surah-name">
-                      {selectedSurah?.englishName}
-                      <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                        <path d="m6 9 6 6 6-6" />
-                      </svg>
-                    </h1>
-                    <select
-                      className="study-surah-picker-native"
-                      value={selectedSurah?.number || 1}
-                      onChange={(e) => {
-                        const num = Number(e.target.value);
-                        if (num && num !== selectedSurah?.number) {
-                          jumpToStudyAyah(num, 1);
-                        }
-                      }}
-                      aria-label="Choose surah"
-                    >
-                      {surahs.map((s) => (
-                        <option key={s.number} value={s.number}>
-                          {s.number}. {s.englishName}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                ) : isPageScope ? (
-                  <div className="study-scope-nav">
-                    <button
-                      type="button"
-                      className="study-scope-nav-btn"
-                      onClick={() => setStudyPageNumber(Math.max(1, studyPageNumber - 1))}
-                      disabled={studyPageNumber <= 1}
-                      aria-label="Previous page"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                    </button>
-                    <div className="study-scope-nav-select">
-                      <h1 className="study-surah-name">
-                        {activeScopeLabel}
-                        <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6" /></svg>
-                      </h1>
-                      <select
-                        className="study-surah-picker-native"
-                        value={studyPageNumber}
-                        onChange={(e) => setStudyPageNumber(Number(e.target.value))}
-                        aria-label="Choose page"
-                      >
-                        {Array.from({ length: 604 }, (_, i) => (
-                          <option key={i + 1} value={i + 1}>Page {i + 1}</option>
-                        ))}
-                      </select>
-                    </div>
-                    <button
-                      type="button"
-                      className="study-scope-nav-btn"
-                      onClick={() => setStudyPageNumber(Math.min(604, studyPageNumber + 1))}
-                      disabled={studyPageNumber >= 604}
-                      aria-label="Next page"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                    </button>
-                  </div>
-                ) : (
-                  <div className="study-scope-nav">
-                    <button
-                      type="button"
-                      className="study-scope-nav-btn"
-                      onClick={() => setStudyJuzNumber(Math.max(1, studyJuzNumber - 1))}
-                      disabled={studyJuzNumber <= 1}
-                      aria-label="Previous juz"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                    </button>
-                    <div className="study-scope-nav-select">
-                      <h1 className="study-surah-name">
-                        {activeScopeLabel}
-                        <svg className="study-surah-picker-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="m6 9 6 6 6-6" /></svg>
-                      </h1>
-                      <select
-                        className="study-surah-picker-native"
-                        value={studyJuzNumber}
-                        onChange={(e) => setStudyJuzNumber(Number(e.target.value))}
-                        aria-label="Choose juz"
-                      >
-                        {Array.from({ length: 30 }, (_, i) => (
-                          <option key={i + 1} value={i + 1}>Juz {i + 1}</option>
-                        ))}
-                      </select>
-                    </div>
-                    <button
-                      type="button"
-                      className="study-scope-nav-btn"
-                      onClick={() => setStudyJuzNumber(Math.min(30, studyJuzNumber + 1))}
-                      disabled={studyJuzNumber >= 30}
-                      aria-label="Next juz"
-                    >
-                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                    </button>
-                  </div>
-                )}
-                <span className="study-surah-meta">
-                  {activeScopeMeta}
-                </span>
-              </div>
-            </div>
-
-            <div className="study-header-center">
-              <div className="study-progress-indicator">
-                <ProgressRing progress={progress} />
-                <span className="progress-text">{progress}%</span>
-              </div>
-            </div>
-
-            <div className="study-header-right">
-              <div className="study-reading-time">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <circle cx="12" cy="12" r="10" />
-                  <path d="M12 6v6l4 2" />
-                </svg>
-                <span>{formatTime(readingTime)}</span>
-              </div>
-            </div>
-          </motion.header>
-        )}
-      </AnimatePresence>
+      <StudyModeHeader
+        showControls={showControls}
+        onExit={onExit}
+        isSurahScope={isSurahScope}
+        isPageScope={isPageScope}
+        surahs={surahs}
+        selectedSurah={selectedSurah}
+        activeScopeLabel={activeScopeLabel}
+        activeScopeMeta={activeScopeMeta}
+        studyPageNumber={studyPageNumber}
+        setStudyPageNumber={setStudyPageNumber}
+        studyJuzNumber={studyJuzNumber}
+        setStudyJuzNumber={setStudyJuzNumber}
+        jumpToStudyAyah={jumpToStudyAyah}
+        progress={progress}
+        readingTime={readingTime}
+        formatTime={formatTime}
+      />
 
       {/* Main Reading Area */}
       <div className="study-reading-area" ref={scrollContainerRef}
@@ -777,29 +551,22 @@ export default function StudyModeView({
 
 
       {/* Study Rail */}
-      <div className="study-rail">
-        {railItems.map((item) => (
-          <button
-            key={item.id}
-            className={`study-rail-btn${quickPanelTab === item.id && showQuickPanel ? " active" : ""}`}
-            onClick={() => {
-              if (showQuickPanel && quickPanelTab === item.id) {
-                setShowQuickPanel(false);
-                return;
-              }
-              setQuickPanelTab(item.id);
-              setShowQuickPanel(true);
-              if (item.id === "tool") {
-                setHasOpenedTools(true);
-                dismissTip();
-              }
-            }}
-            title={item.label}
-          >
-            {item.icon}
-          </button>
-        ))}
-      </div>
+      <StudyModeRail
+        activeTab={quickPanelTab}
+        isOpen={showQuickPanel}
+        onSelectTab={(tab) => {
+          if (showQuickPanel && quickPanelTab === tab) {
+            setShowQuickPanel(false);
+            return;
+          }
+          setQuickPanelTab(tab);
+          setShowQuickPanel(true);
+          if (tab === "tool") {
+            setHasOpenedTools(true);
+            dismissTip();
+          }
+        }}
+      />
 
 
       {/* Quick Panel */}
