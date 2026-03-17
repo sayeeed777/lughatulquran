@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
-import type { Ayah, SetState, SettingsTabId } from "../lib/types";
+import type { Ayah, SetState, SettingsTabId, ReaderScopeMode } from "../lib/types";
 
 type UIStateContextValue = {
   query: string;
@@ -26,6 +26,12 @@ type UIStateContextValue = {
   focusedAyahKey: string | null;
   setFocusedAyahKey: SetState<string | null>;
   copiedKey: string | null;
+  readerScopeMode: ReaderScopeMode;
+  setReaderScopeMode: SetState<ReaderScopeMode>;
+  readerJuzNumber: number;
+  setReaderJuzNumber: SetState<number>;
+  readerPageNumber: number;
+  setReaderPageNumber: SetState<number>;
 };
 
 const UIStateContext = createContext<UIStateContextValue | null>(null);
@@ -54,7 +60,13 @@ export function UIStateProvider({ children, ...props }: UIStateProviderProps) {
     setSelectedAyah: props.setSelectedAyah,
     focusedAyahKey: props.focusedAyahKey,
     setFocusedAyahKey: props.setFocusedAyahKey,
-    copiedKey: props.copiedKey
+    copiedKey: props.copiedKey,
+    readerScopeMode: props.readerScopeMode,
+    setReaderScopeMode: props.setReaderScopeMode,
+    readerJuzNumber: props.readerJuzNumber,
+    setReaderJuzNumber: props.setReaderJuzNumber,
+    readerPageNumber: props.readerPageNumber,
+    setReaderPageNumber: props.setReaderPageNumber,
   }), [
     props.query, props.setQuery, props.ayahQuery, props.setAyahQuery,
     props.goToAyahInput, props.setGoToAyahInput, props.readingMode,
@@ -63,7 +75,9 @@ export function UIStateProvider({ children, ...props }: UIStateProviderProps) {
     props.showMobileSearch, props.setShowMobileSearch,
     props.settingsTab, props.setSettingsTab, props.selectedAyah,
     props.setSelectedAyah, props.focusedAyahKey, props.setFocusedAyahKey,
-    props.copiedKey,
+    props.copiedKey, props.readerScopeMode, props.setReaderScopeMode,
+    props.readerJuzNumber, props.setReaderJuzNumber,
+    props.readerPageNumber, props.setReaderPageNumber,
   ]);
   return (
     <UIStateContext.Provider value={value}>

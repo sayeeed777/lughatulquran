@@ -176,6 +176,7 @@ function HomeContent() {
               ui.setSettingsTab("display");
               ui.setShowMobileSettings(true);
             }}
+            onOpenSearch={() => ui.setShowMobileSearch(true)}
           />
         </SectionErrorBoundary>
 

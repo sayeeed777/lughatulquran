@@ -23,6 +23,7 @@ type StudyMushafPageProps = {
   dimNonFocused: boolean;
   nowPlaying: { surah: number; ayah: number } | null;
   isAudioPaused: boolean;
+  hideToolbar?: boolean;
   onFocusAyahKey: (key: string) => void;
   onTogglePlay: (surah: number, ayah: number) => void;
   onSelectPage: (page: number) => void;
@@ -35,6 +36,7 @@ export default function StudyMushafPage({
   dimNonFocused,
   nowPlaying,
   isAudioPaused,
+  hideToolbar,
   onFocusAyahKey,
   onTogglePlay,
   onSelectPage
@@ -106,7 +108,7 @@ export default function StudyMushafPage({
 
   return (
     <section className="study-mushaf-page" aria-label={`Mushaf page ${layout.pageNumber}`}>
-      {activeAyah && (
+      {activeAyah && !hideToolbar && (
         <div className="study-mushaf-toolbar study-mushaf-toolbar-top">
           <div className="study-mushaf-toolbar-copy study-mushaf-page-picker-block">
             <span className="study-mushaf-toolbar-kicker">Page</span>

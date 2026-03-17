@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
-import type { Ayah, Surah, SurahData, WordBySurah } from "../lib/types";
+import type { Ayah, Surah, SurahData, WordBySurah, ScopeAyah, ScopeMeta, MushafPageLayout } from "../lib/types";
 
 type QuranDataContextValue = {
   surahs: Surah[];
@@ -18,6 +18,11 @@ type QuranDataContextValue = {
   wordByAyah: WordBySurah;
   wordLoading: boolean;
   wordError: string | null;
+  readerScopeAyahs: ScopeAyah[];
+  readerScopeLoading: boolean;
+  readerScopeError: string | null;
+  readerScopeMeta: ScopeMeta | null;
+  readerScopeLayout: MushafPageLayout | null;
 };
 
 const QuranDataContext = createContext<QuranDataContextValue | null>(null);
@@ -38,13 +43,19 @@ export function QuranDataProvider({ children, ...props }: QuranDataProviderProps
     filteredAyahs: props.filteredAyahs,
     wordByAyah: props.wordByAyah,
     wordLoading: props.wordLoading,
-    wordError: props.wordError
+    wordError: props.wordError,
+    readerScopeAyahs: props.readerScopeAyahs,
+    readerScopeLoading: props.readerScopeLoading,
+    readerScopeError: props.readerScopeError,
+    readerScopeMeta: props.readerScopeMeta,
+    readerScopeLayout: props.readerScopeLayout,
   }), [
     props.surahs, props.loadingSurahs, props.surahsError,
     props.surahByNumber, props.selectedSurah, props.surahData,
     props.loadingSurahData, props.surahDataError, props.filteredSurahs,
     props.filteredAyahs, props.wordByAyah, props.wordLoading,
-    props.wordError,
+    props.wordError, props.readerScopeAyahs, props.readerScopeLoading,
+    props.readerScopeError, props.readerScopeMeta, props.readerScopeLayout,
   ]);
   return (
     <QuranDataContext.Provider value={value}>

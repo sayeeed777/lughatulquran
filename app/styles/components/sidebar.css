@@ -364,7 +364,7 @@
 
 @media (max-width: 640px) {
   .surah-panel {
-    gap: 10px;
+    gap: 6px;
   }
 
   .surah-panel-header {
@@ -374,6 +374,29 @@
   .surah-header-actions {
     margin-right: 4px;
     gap: 6px;
+  }
+
+  .surah-search-wrapper {
+    display: none;
+  }
+
+  .scope-mode-switcher {
+    padding: 2px;
+    margin: 0;
+  }
+
+  .scope-mode-btn {
+    padding: 6px 8px;
+    font-size: 0.8rem;
+  }
+
+  .surah-item {
+    padding: 10px 12px;
+    gap: 10px;
+  }
+
+  .surah-list {
+    gap: 2px;
   }
 
   .surah-prayer-hint {
@@ -504,4 +527,186 @@
 /* Surah item active */
 :root[data-theme="bw"] .surah-item.active {
   background: rgba(0, 0, 0, 0.08);
+}
+
+/* =============================================
+   Scope Mode Switcher (Surah / Juz / Page)
+   ============================================= */
+
+.scope-mode-switcher {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  background: var(--stroke);
+  border-radius: var(--radius-md);
+  margin: 0 2px;
+}
+
+.scope-mode-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: none;
+  border-radius: calc(var(--radius-md) - 2px);
+  background: transparent;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-weight: 550;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.scope-mode-btn:hover {
+  color: var(--text);
+}
+
+.scope-mode-btn.active {
+  background: var(--card-strong);
+  color: var(--accent-2);
+  box-shadow: var(--shadow-card);
+}
+
+/* =============================================
+   Page Selector
+   ============================================= */
+
+.page-selector {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 0 2px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.page-nav-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-nav-btn {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--stroke);
+  color: var(--text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.page-nav-btn:hover:not(:disabled) {
+  background: var(--card);
+}
+
+.page-nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.page-nav-btn svg {
+  width: 18px;
+  height: 18px;
+}
+
+.page-nav-center {
+  flex: 1;
+  min-width: 0;
+}
+
+.page-select-wrap {
+  display: block;
+  width: 100%;
+}
+
+.page-select {
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: var(--stroke);
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.page-select:focus {
+  outline: none;
+  background: var(--card);
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.page-grid::-webkit-scrollbar {
+  width: 6px;
+}
+
+.page-grid::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.page-grid-btn {
+  padding: 10px 4px;
+  border: none;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text);
+  font-size: var(--text-xs);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: center;
+}
+
+.page-grid-btn:hover {
+  background: var(--stroke);
+  color: var(--text);
+}
+
+.page-grid-btn.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--accent-2);
+  font-weight: 600;
+}
+
+:root[data-theme="light"] .page-grid-btn.active,
+:root[data-theme="bw"] .page-grid-btn.active {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1024px) {
+  .page-grid {
+    max-height: 45vh;
+  }
+}
+
+@media (max-width: 640px) {
+  .page-grid {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+  }
+
+  .page-grid-btn {
+    padding: 14px 4px;
+    font-size: 0.88rem;
+    min-height: 44px;
+    border-radius: var(--radius-md);
+  }
 }

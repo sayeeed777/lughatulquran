@@ -9,6 +9,8 @@ type VerseRef = { surah: number; ayah: number } | null;
 
 type ActionsContextValue = {
   handleSelectSurah: (surah: Surah) => void;
+  handleSelectJuz: (juz: number) => void;
+  handleSelectPage: (page: number) => void;
   handleGoToAyah: () => void;
   jumpToAyah: (surah: number, ayah: number) => void;
   copyAyahLink: (surah: number, ayah: number) => Promise<void>;
@@ -25,6 +27,8 @@ type ActionsProviderProps = ActionsContextValue & { children: ReactNode };
 export function ActionsProvider({ children, ...props }: ActionsProviderProps) {
   const value = useMemo(() => ({
     handleSelectSurah: props.handleSelectSurah,
+    handleSelectJuz: props.handleSelectJuz,
+    handleSelectPage: props.handleSelectPage,
     handleGoToAyah: props.handleGoToAyah,
     jumpToAyah: props.jumpToAyah,
     copyAyahLink: props.copyAyahLink,
@@ -33,7 +37,8 @@ export function ActionsProvider({ children, ...props }: ActionsProviderProps) {
     planSummary: props.planSummary,
     formatRangeLabel: props.formatRangeLabel
   }), [
-    props.handleSelectSurah, props.handleGoToAyah, props.jumpToAyah,
+    props.handleSelectSurah, props.handleSelectJuz, props.handleSelectPage,
+    props.handleGoToAyah, props.jumpToAyah,
     props.copyAyahLink, props.handleCompare, props.retryData,
     props.planSummary, props.formatRangeLabel,
   ]);

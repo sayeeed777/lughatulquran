@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { verseKey, copyToClipboard } from "../lib/utils";
+import { fetchJSON } from "../lib/apiClient";
 import { useLastRead, useStudySession, useLocalStorage } from "./common";
 import { useAudioPlayback } from "./useAudioPlayback";
 import { useBookmarks, useNoteEditor } from "./useBookmarks";
@@ -27,10 +28,14 @@ import type {
   Ayah,
   LastRead,
   MemorizeConfig,
+  MushafPageLayout,
   NoteTarget,
   NextPrayerPreview,
   Notes,
   ReadingPlan,
+  ReaderScopeMode,
+  ScopeAyah,
+  ScopeMeta,
   SettingsTabId,
   Surah,
   SurahData,
@@ -226,6 +231,16 @@ export function useHomeController() {
   const [clockTick, setClockTick] = useState(() => Date.now());
   const [nextPrayerPreview, setNextPrayerPreview] = useState<NextPrayerPreview | null>(null);
 
+  // Reader Scope State (juz / page navigation on front reader)
+  const [readerScopeMode, setReaderScopeMode] = useLocalStorage<ReaderScopeMode>("reader_scope_mode", "surah");
+  const [readerJuzNumber, setReaderJuzNumber] = useLocalStorage<number>("reader_juz_number", 1);
+  const [readerPageNumber, setReaderPageNumber] = useLocalStorage<number>("reader_page_number", 1);
+  const [readerScopeAyahs, setReaderScopeAyahs] = useState<ScopeAyah[]>([]);
+  const [readerScopeMeta, setReaderScopeMeta] = useState<ScopeMeta | null>(null);
+  const [readerScopeLayout, setReaderScopeLayout] = useState<MushafPageLayout | null>(null);
+  const [readerScopeLoading, setReaderScopeLoading] = useState(false);
+  const [readerScopeError, setReaderScopeError] = useState<string | null>(null);
+
   useEffect(() => {
     if (typeof window === "undefined") return;
     const interval = window.setInterval(() => setClockTick(Date.now()), 60_000);
@@ -298,6 +313,62 @@ export function useHomeController() {
     prayerSettings.timezone
   ]);
 
+  // Reader scope data fetching (juz / page)
+  const readerScopeValue = readerScopeMode === "page" ? readerPageNumber : readerJuzNumber;
+  const translationKey = selectedTranslations.join(",");
+
+  useEffect(() => {
+    if (readerScopeMode === "surah") {
+      setReaderScopeAyahs([]);
+      setReaderScopeMeta(null);
+      setReaderScopeLayout(null);
+      setReaderScopeLoading(false);
+      setReaderScopeError(null);
+      return;
+    }
+
+    const controller = new AbortController();
+    const params = new URLSearchParams();
+    if (translationKey) {
+      params.set("translations", translationKey);
+    }
+
+    const url = `/api/${readerScopeMode}/${readerScopeValue}${params.toString() ? `?${params.toString()}` : ""}`;
+    const cacheKey = `reader-scope:v1:${readerScopeMode}:${readerScopeValue}:${translationKey}`;
+
+    setReaderScopeLoading(true);
+    setReaderScopeError(null);
+
+    fetchJSON<{ scope?: ScopeMeta; ayahs?: ScopeAyah[]; layout?: MushafPageLayout }>(url, {
+      ttl: 30 * 60 * 1000,
+      retries: 1,
+      retryDelay: 300,
+      persist: true,
+      staleWhileRevalidate: true,
+      cacheKey,
+      signal: controller.signal,
+    })
+      .then((payload) => {
+        if (controller.signal.aborted) return;
+        setReaderScopeAyahs(Array.isArray(payload?.ayahs) ? payload.ayahs : []);
+        setReaderScopeMeta(payload?.scope || null);
+        setReaderScopeLayout(payload?.layout && payload.layout.lines?.length ? payload.layout : null);
+      })
+      .catch((err) => {
+        if (controller.signal.aborted) return;
+        setReaderScopeError(err instanceof Error ? err.message : "Failed to load.");
+        setReaderScopeAyahs([]);
+        setReaderScopeMeta(null);
+        setReaderScopeLayout(null);
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setReaderScopeLoading(false);
+      });
+
+    return () => { controller.abort(); };
+  }, [readerScopeMode, readerScopeValue, translationKey]);
+
   // Filters
   const {
     query,
@@ -359,6 +430,7 @@ export function useHomeController() {
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
+    setReaderScopeMode("surah");
 
     if (typeof window !== "undefined") {
       const isMobileViewport = window.matchMedia("(max-width: 1024px)").matches;
@@ -379,6 +451,35 @@ export function useHomeController() {
         });
       });
     }
+  };
+
+  const scrollReaderIntoView = () => {
+    if (typeof window === "undefined") return;
+    window.requestAnimationFrame(() => {
+      const readerPanel = document.querySelector<HTMLElement>(".reader-panel");
+      if (!readerPanel) return;
+      readerPanel.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  };
+
+  const handleSelectJuz = (juz: number) => {
+    stopMemorize();
+    setIsAutoPlaying(false);
+    setNowPlaying(null);
+    setIsAudioPaused(false);
+    setReaderJuzNumber(juz);
+    setReaderScopeMode("juz");
+    scrollReaderIntoView();
+  };
+
+  const handleSelectPage = (page: number) => {
+    stopMemorize();
+    setIsAutoPlaying(false);
+    setNowPlaying(null);
+    setIsAudioPaused(false);
+    setReaderPageNumber(page);
+    setReaderScopeMode("page");
+    scrollReaderIntoView();
   };
 
   const handleGoToAyah = () => {
@@ -471,7 +572,12 @@ export function useHomeController() {
       filteredAyahs,
       wordByAyah: wordByAyah as WordBySurah,
       wordLoading,
-      wordError
+      wordError,
+      readerScopeAyahs,
+      readerScopeLoading,
+      readerScopeError,
+      readerScopeMeta,
+      readerScopeLayout,
     },
     audio: {
       nowPlaying,
@@ -552,10 +658,18 @@ export function useHomeController() {
       setSelectedAyah,
       focusedAyahKey,
       setFocusedAyahKey,
-      copiedKey
+      copiedKey,
+      readerScopeMode,
+      setReaderScopeMode,
+      readerJuzNumber,
+      setReaderJuzNumber,
+      readerPageNumber,
+      setReaderPageNumber,
     },
     actions: {
       handleSelectSurah,
+      handleSelectJuz,
+      handleSelectPage,
       handleGoToAyah,
       jumpToAyah,
       copyAyahLink,

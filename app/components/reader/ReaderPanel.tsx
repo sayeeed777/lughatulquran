@@ -9,6 +9,7 @@ import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
 import { verseKey, clamp } from "../../lib/utils";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
+import StudyMushafPage from "../study/StudyMushafPage";
 
 export default function ReaderPanel() {
   // Consume from contexts
@@ -22,7 +23,12 @@ export default function ReaderPanel() {
     wordLoading,
     wordError,
     loadingSurahData,
-    surahDataError: error
+    surahDataError: error,
+    readerScopeAyahs,
+    readerScopeLoading,
+    readerScopeError,
+    readerScopeMeta,
+    readerScopeLayout
   } = useQuranData();
   const {
     query,
@@ -38,7 +44,8 @@ export default function ReaderPanel() {
     settingsTab,
     setSettingsTab,
     focusedAyahKey,
-    setFocusedAyahKey
+    setFocusedAyahKey,
+    readerScopeMode
   } = useUIState();
   const {
     arabicFontId,
@@ -79,6 +86,7 @@ export default function ReaderPanel() {
   const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const {
     handleGoToAyah,
+    handleSelectPage,
     retryData: onRetry,
     handleCompare: onCompare,
     copyAyahLink: onCopyLink,
@@ -86,6 +94,9 @@ export default function ReaderPanel() {
   } = useActions();
   const formatArabic = (text?: string) => text ?? "";
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
+
+  const isScopeMode = readerScopeMode !== "surah";
+  const hasMushafLayout = readerScopeMode === "page" && Boolean(readerScopeLayout?.lines?.length);
 
   // -- Deferred Rendering State --
   const [visibleCount, setVisibleCount] = useState(15);
@@ -100,10 +111,14 @@ export default function ReaderPanel() {
     return () => mediaQuery.removeEventListener("change", handleChange);
   }, []);
 
-  // Reset visible count when surah changes or filter updates.
+  const activeLoading = isScopeMode ? readerScopeLoading : loadingSurahData;
+  const activeError = isScopeMode ? readerScopeError : error;
+  const activeAyahCount = isScopeMode ? readerScopeAyahs.length : filteredAyahs.length;
+
+  // Reset visible count when surah/scope changes or filter updates.
   // Mobile starts with a chunk; desktop renders all.
   useEffect(() => {
-    let targetCount = isMobileViewport ? 24 : filteredAyahs.length;
+    let targetCount = isMobileViewport ? 24 : activeAyahCount;
 
     // Deep link support: Ensure focused ayah is visible immediately
     if (focusedAyahKey) {
@@ -116,14 +131,23 @@ export default function ReaderPanel() {
       }
     }
 
-    setVisibleCount(Math.min(filteredAyahs.length, targetCount));
-  }, [selectedSurah?.number, filteredAyahs.length, focusedAyahKey, isMobileViewport]);
+    setVisibleCount(Math.min(activeAyahCount, targetCount));
+  }, [selectedSurah?.number, activeAyahCount, focusedAyahKey, isMobileViewport, readerScopeMode, readerScopeMeta?.id]);
 
   const isMobileSettingsOpen = showMobileSettings;
   const isMobileSearchOpen = showMobileSearch;
   const openMobileSettings = setShowMobileSettings;
   const openMobileSearch = setShowMobileSearch;
   const currentAyahNumber = useMemo(() => {
+    if (isScopeMode) {
+      if (!readerScopeAyahs.length) return 0;
+      if (focusedAyahKey) {
+        const idx = readerScopeAyahs.findIndex((a) => a.verseKey === focusedAyahKey);
+        if (idx >= 0) return idx + 1;
+      }
+      return 1;
+    }
+
     if (!selectedSurah || !filteredAyahs?.length) return 0;
 
     if (focusedAyahKey) {
@@ -139,20 +163,20 @@ export default function ReaderPanel() {
     }
 
     return 1;
-  }, [filteredAyahs?.length, focusedAyahKey, nowPlaying, selectedSurah]);
+  }, [readerScopeAyahs, filteredAyahs?.length, focusedAyahKey, isScopeMode, nowPlaying, selectedSurah]);
 
   useEffect(() => {
     if (!isMobileViewport) return;
-    if (!filteredAyahs.length) return;
-    const minimumVisible = Math.min(filteredAyahs.length, Math.max(visibleCount, currentAyahNumber + 10));
+    if (!activeAyahCount) return;
+    const minimumVisible = Math.min(activeAyahCount, Math.max(visibleCount, currentAyahNumber + 10));
     if (minimumVisible !== visibleCount) {
       setVisibleCount(minimumVisible);
     }
-  }, [currentAyahNumber, filteredAyahs.length, isMobileViewport, visibleCount]);
+  }, [currentAyahNumber, activeAyahCount, isMobileViewport, visibleCount]);
 
   useEffect(() => {
     if (!isMobileViewport) return;
-    if (visibleCount >= filteredAyahs.length) return;
+    if (visibleCount >= activeAyahCount) return;
     const sentinel = loadMoreSentinelRef.current;
     if (!sentinel) return;
 
@@ -160,7 +184,7 @@ export default function ReaderPanel() {
       (entries) => {
         const entry = entries[0];
         if (!entry?.isIntersecting) return;
-        setVisibleCount((prev) => Math.min(filteredAyahs.length, prev + 28));
+        setVisibleCount((prev) => Math.min(activeAyahCount, prev + 28));
       },
       {
         root: null,
@@ -171,7 +195,7 @@ export default function ReaderPanel() {
 
     observer.observe(sentinel);
     return () => observer.disconnect();
-  }, [filteredAyahs.length, isMobileViewport, visibleCount]);
+  }, [activeAyahCount, isMobileViewport, visibleCount]);
   const mobileSurahResults = useMemo(() => {
     const effectiveQuery = String(query || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
     const list = effectiveQuery ? filteredSurahs : surahs;
@@ -180,33 +204,48 @@ export default function ReaderPanel() {
   }, [filteredSurahs, query, surahs]);
   const isAyahSearchDisabled = !selectedSurah;
 
+  // Header content based on scope mode
+  const headerContent = isScopeMode ? (
+    <div>
+      <h2>{readerScopeMeta?.label || (readerScopeMode === "juz" ? "Juz" : "Page")}</h2>
+      {readerScopeMeta && (
+        <p className="meta">
+          {readerScopeMeta.versesCount} ayahs · {readerScopeMeta.firstVerseKey}
+          {readerScopeMeta.lastVerseKey ? ` - ${readerScopeMeta.lastVerseKey}` : ""}
+        </p>
+      )}
+    </div>
+  ) : (
+    <div>
+      <h2>
+        {selectedSurah ? (
+          <>
+            <span className="surah-title-english">{selectedSurah.englishName}</span>
+            <span className="surah-title-arabic" lang="ar" dir="rtl">
+              ({selectedSurah.name})
+            </span>
+          </>
+        ) : (
+          "Choose a Surah"
+        )}
+      </h2>
+      {selectedSurah && (
+        <p className="meta">
+          {selectedSurah.englishNameTranslation} -{" " + selectedSurah.numberOfAyahs} ayahs -{" " +
+            selectedSurah.revelationType}
+        </p>
+      )}
+    </div>
+  );
+
   return (
     <section className="panel reader-panel">
       <div className="panel-header">
-        <div>
-          <h2>
-            {selectedSurah ? (
-              <>
-                <span className="surah-title-english">{selectedSurah.englishName}</span>
-                <span className="surah-title-arabic" lang="ar" dir="rtl">
-                  ({selectedSurah.name})
-                </span>
-              </>
-            ) : (
-              "Choose a Surah"
-            )}
-          </h2>
-          {selectedSurah && (
-            <p className="meta">
-              {selectedSurah.englishNameTranslation} -{" " + selectedSurah.numberOfAyahs} ayahs -{" " +
-                selectedSurah.revelationType}
-            </p>
-          )}
-        </div>
+        {headerContent}
       </div>
 
-      {/* Quick Controls Row */}
-      {selectedSurah && (
+      {/* Quick Controls Row - surah mode only */}
+      {!isScopeMode && selectedSurah && (
         <div className="quick-controls-row">
           <div className="sliders-row">
             <div className="quick-slider">
@@ -251,6 +290,46 @@ export default function ReaderPanel() {
               ▶ Play Surah
             </button>
           )}
+        </div>
+      )}
+
+      {/* Quick Controls Row - scope mode */}
+      {isScopeMode && readerScopeAyahs.length > 0 && (
+        <div className="quick-controls-row">
+          <div className="sliders-row">
+            <div className="quick-slider">
+              <span>Arabic</span>
+              <input
+                type="range"
+                min="0.8"
+                max="1.4"
+                step="0.05"
+                value={fontScale.arabic}
+                onChange={(e) =>
+                  setFontScale((prev) => ({
+                    ...prev,
+                    arabic: Number(e.target.value)
+                  }))
+                }
+              />
+            </div>
+            <div className="quick-slider">
+              <span>Translation</span>
+              <input
+                type="range"
+                min="0.9"
+                max="1.4"
+                step="0.05"
+                value={fontScale.translation}
+                onChange={(e) =>
+                  setFontScale((prev) => ({
+                    ...prev,
+                    translation: Number(e.target.value)
+                  }))
+                }
+              />
+            </div>
+          </div>
         </div>
       )}
 
@@ -407,41 +486,48 @@ export default function ReaderPanel() {
         showPlayerBar={false}
       />
 
-      {error && <InlineError title="Reader unavailable" message={error} onRetry={onRetry} />}
+      {activeError && <InlineError title="Reader unavailable" message={activeError} onRetry={onRetry} />}
 
-      {loadingSurahData ? (
-        <AyahListSkeleton count={7} />
-      ) : surahData && selectedSurah ? (
-        filteredAyahs.length ? (
+      {/* Scope mode content (juz / page) */}
+      {isScopeMode ? (
+        activeLoading ? (
+          <AyahListSkeleton count={7} />
+        ) : hasMushafLayout && readerScopeLayout ? (
           <>
-            {/* Show Bismillah banner before surahs (except Al-Fatihah and At-Tawbah) */}
-            {!NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
-              <BismillahBanner surahNumber={selectedSurah.number} />
-            )}
-
-            {/* Reading progress indicator */}
-            <ProgressBar current={currentAyahNumber} total={selectedSurah.numberOfAyahs || 0} />
-
+            <StudyMushafPage
+              layout={readerScopeLayout}
+              ayahs={readerScopeAyahs}
+              focusedAyahKey={focusedAyahKey}
+              dimNonFocused={false}
+              nowPlaying={nowPlaying}
+              isAudioPaused={isAudioPaused}
+              hideToolbar
+              onFocusAyahKey={setFocusedAyahKey}
+              onTogglePlay={onTogglePlay}
+              onSelectPage={handleSelectPage}
+            />
+            <BackToTop />
+          </>
+        ) : readerScopeAyahs.length ? (
+          <>
+            <ProgressBar current={currentAyahNumber} total={readerScopeAyahs.length} />
             <ol className="ayah-list">
-              {filteredAyahs.slice(0, visibleCount).map((ayah) => {
-                const key = verseKey(selectedSurah.number, ayah.number);
+              {readerScopeAyahs.slice(0, visibleCount).map((ayah) => {
+                const key = ayah.verseKey || verseKey(ayah.surahNumber, ayah.number);
                 const isSaved = bookmarks.includes(key);
                 const hasNote = Boolean(notes[key]);
                 const isFocused = focusedAyahKey === key;
-                const words = wordByAyah[selectedSurah.number]?.[ayah.number] || [];
                 return (
                   <AyahCard
-                    key={ayah.number}
+                    key={key}
                     ayah={ayah}
-                    surahNumber={selectedSurah.number}
+                    surahNumber={ayah.surahNumber}
                     selectedTranslations={selectedTranslations}
                     isSaved={isSaved}
                     hasNote={hasNote}
                     isFocused={isFocused}
                     nowPlaying={nowPlaying}
                     isAudioPaused={isAudioPaused}
-                    words={words}
-                    showWordByWord={showWordByWord}
                     showTransliteration={showTransliteration}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
@@ -456,16 +542,78 @@ export default function ReaderPanel() {
                 );
               })}
             </ol>
-            {isMobileViewport && visibleCount < filteredAyahs.length ? (
+            {isMobileViewport && visibleCount < readerScopeAyahs.length ? (
               <div ref={loadMoreSentinelRef} className="ayah-load-sentinel" aria-hidden="true" />
             ) : null}
             <BackToTop />
           </>
         ) : (
-          <p className="status">No ayahs found.</p>
+          <p className="status">
+            {readerScopeMode === "juz" ? "Select a Juz to begin." : "Select a Page to begin."}
+          </p>
         )
       ) : (
-        <p className="status">Select a surah to begin.</p>
+        /* Surah mode content (original) */
+        <>
+          {loadingSurahData ? (
+            <AyahListSkeleton count={7} />
+          ) : surahData && selectedSurah ? (
+            filteredAyahs.length ? (
+              <>
+                {/* Show Bismillah banner before surahs (except Al-Fatihah and At-Tawbah) */}
+                {!NO_BISMILLAH_SURAHS.includes(selectedSurah.number) && (
+                  <BismillahBanner surahNumber={selectedSurah.number} />
+                )}
+
+                {/* Reading progress indicator */}
+                <ProgressBar current={currentAyahNumber} total={selectedSurah.numberOfAyahs || 0} />
+
+                <ol className="ayah-list">
+                  {filteredAyahs.slice(0, visibleCount).map((ayah) => {
+                    const key = verseKey(selectedSurah.number, ayah.number);
+                    const isSaved = bookmarks.includes(key);
+                    const hasNote = Boolean(notes[key]);
+                    const isFocused = focusedAyahKey === key;
+                    const words = wordByAyah[selectedSurah.number]?.[ayah.number] || [];
+                    return (
+                      <AyahCard
+                        key={ayah.number}
+                        ayah={ayah}
+                        surahNumber={selectedSurah.number}
+                        selectedTranslations={selectedTranslations}
+                        isSaved={isSaved}
+                        hasNote={hasNote}
+                        isFocused={isFocused}
+                        nowPlaying={nowPlaying}
+                        isAudioPaused={isAudioPaused}
+                        words={words}
+                        showWordByWord={showWordByWord}
+                        showTransliteration={showTransliteration}
+                        verseKey={key}
+                        onFocus={setFocusedAyahKey}
+                        onPlay={onPlay}
+                        onTogglePlay={onTogglePlay}
+                        onToggleBookmark={onToggleBookmark}
+                        onOpenNote={onOpenNote}
+                        onCompare={onCompare}
+                        onCopyLink={onCopyLink}
+                        formatArabic={formatArabic}
+                      />
+                    );
+                  })}
+                </ol>
+                {isMobileViewport && visibleCount < filteredAyahs.length ? (
+                  <div ref={loadMoreSentinelRef} className="ayah-load-sentinel" aria-hidden="true" />
+                ) : null}
+                <BackToTop />
+              </>
+            ) : (
+              <p className="status">No ayahs found.</p>
+            )
+          ) : (
+            <p className="status">Select a surah to begin.</p>
+          )}
+        </>
       )}
     </section>
   );

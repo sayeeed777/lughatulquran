@@ -180,6 +180,61 @@ export type StudySession = {
 };
 
 // =============================================
+// Reader scope (juz / page navigation)
+// =============================================
+
+export type ReaderScopeMode = "surah" | "juz" | "page";
+
+export type ScopeAyah = {
+  surahNumber: number;
+  number: number;
+  verseKey: string;
+  arabic?: string;
+  arabicTajweed?: string | null;
+  transliteration?: string;
+  pageNumber?: number | null;
+  translations?: Record<string, AyahTranslation>;
+};
+
+export type ScopeMeta = {
+  type: string;
+  id: number;
+  label: string;
+  versesCount: number;
+  firstVerseKey: string;
+  lastVerseKey: string;
+};
+
+// =============================================
+// Mushaf page layout
+// =============================================
+
+export type MushafPageSegment = {
+  type: "word" | "marker";
+  verseKey: string;
+  surahNumber: number;
+  ayahNumber: number;
+  position: number | null;
+  glyph?: string;
+  text: string;
+};
+
+export type MushafPageLine = {
+  lineNumber: number;
+  segments: MushafPageSegment[];
+};
+
+export type MushafPageLayout = {
+  pageNumber: number;
+  mushaf: string;
+  firstVerseKey: string;
+  lastVerseKey: string;
+  versesCount: number;
+  surahs: number[];
+  lines: MushafPageLine[];
+};
+
+// =============================================
 // Utilities
 // =============================================
 
