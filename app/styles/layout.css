@@ -214,6 +214,13 @@
         display: none;
     }
 
+    .study-btn-wrapper .action-btn {
+        background: var(--card-strong);
+        border: none;
+        color: #fff;
+        box-shadow: var(--shadow-card);
+    }
+
     .study-tooltip {
         right: 0;
         max-width: min(260px, calc(100vw - 32px));

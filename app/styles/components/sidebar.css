@@ -566,6 +566,24 @@
   box-shadow: var(--shadow-card);
 }
 
+:root[data-theme="light"] .scope-mode-switcher {
+  background: rgba(66, 82, 54, 0.06);
+}
+
+:root[data-theme="light"] .scope-mode-btn.active {
+  background: rgba(66, 82, 54, 0.08);
+  box-shadow: none;
+}
+
+:root[data-theme="bw"] .scope-mode-switcher {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+:root[data-theme="bw"] .scope-mode-btn.active {
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.04);
+}
+
 /* =============================================
    Page Selector
    ============================================= */
