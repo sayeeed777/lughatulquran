@@ -10,11 +10,11 @@ import { DEFAULT_LOCALE, normalizeLocale } from "./lib/locales";
 
 export const metadata: Metadata = {
   title: {
-    default: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
+    default: "OpenFurqan — Free Quran Reader & Study App",
     template: "%s | OpenFurqan"
   },
   description:
-    "Read the Quran online with Arabic text and translations in English, Bangla, and Urdu. Audio recitation, word-by-word study, prayer times, and notes.",
+    "Free, open-source Quran reader and study app with Tafsir, Tajweed color-coding, word-by-word analysis, Hifz memorization, Lane's Lexicon, reading stats, and prayer times.",
   metadataBase: new URL("https://openfurqan.com"),
   alternates: {
     canonical: "/"
@@ -38,15 +38,15 @@ export const metadata: Metadata = {
     alternateLocale: ["ar"],
     url: "https://openfurqan.com/",
     siteName: "OpenFurqan",
-    title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
+    title: "OpenFurqan — Free Quran Reader & Study App",
     description:
-      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools. Free and open source.",
+      "Free, open-source Quran reader and study app with Tafsir, Tajweed color-coding, word-by-word analysis, Hifz memorization, Lane's Lexicon, reading stats, and prayer times.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "OpenFurqan — Read Quran Online with Translations in English, Bangla & Urdu",
+    title: "OpenFurqan — Free Quran Reader & Study App",
     description:
-      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation & study tools.",
+      "Free, open-source Quran reader and study app with Tafsir, Tajweed color-coding, word-by-word analysis, Hifz memorization, Lane's Lexicon, reading stats, and prayer times.",
   },
   robots: {
     index: true,
@@ -109,27 +109,32 @@ export default async function RootLayout({ children }: RootLayoutProps) {
     name: "OpenFurqan",
     url: "https://openfurqan.com",
     description:
-      "Read the Quran online with translations in English, Bangla & Urdu. Word-by-word analysis, audio recitation, prayer times and study tools.",
+      "Free, open-source Quran reader and study app with Tafsir, Tajweed color-coding, word-by-word analysis, Hifz memorization, Lane's Lexicon, reading stats, and prayer times.",
     applicationCategory: "EducationalApplication",
     operatingSystem: "Any",
     datePublished: "2024-01-01",
     dateModified: "2026-03-06",
-    inLanguage: ["en", "ar"],
+    inLanguage: ["ar", "en", "bn", "ur"],
     offers: {
       "@type": "Offer",
       price: "0",
       priceCurrency: "USD"
     },
     featureList: [
-      "Multiple English translations (Arberry, Pickthall, Taqi Usmani, Yusuf Ali, Sahih International, Haleem, Al-Hilali & Khan)",
-      "Bangla translation (Muhiuddin Khan)",
-      "Urdu translation (Bayan-ul-Quran)",
-      "Word-by-word Arabic analysis",
-      "Audio recitation by multiple reciters",
-      "Prayer times",
-      "Study mode with bookmarks and notes",
-      "Dark and light themes",
-      "Offline support"
+      "19 Quran translations in 9 languages",
+      "9 audio reciters with adjustable playback speed",
+      "Word-by-word Arabic analysis with roots and morphology",
+      "16 color-coded Tajweed pronunciation rules",
+      "7 Tafsir editions",
+      "Study Mode with bookmarks, notes, and reading plans",
+      "Hifz memorization mode with configurable repetition loops",
+      "Arabic root lexicon with Lane's Lexicon definitions",
+      "Prayer times with 11 calculation methods",
+      "Reading statistics and streak tracking",
+      "Surah, Juz, and Mushaf page reading modes",
+      "4 visual themes",
+      "Offline support as a Progressive Web App",
+      "Customizable Arabic fonts and text sizes"
     ]
   };
 
