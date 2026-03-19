@@ -1595,9 +1595,9 @@ textarea:focus-visible {
     min-width: 84px;
     max-width: 112px;
     font-size: 0.76rem;
-    border-radius: 12px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
     white-space: nowrap;
     flex: 0 1 auto;
     display: inline-flex;
