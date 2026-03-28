@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { SurahListSkeleton } from "../skeletons";
-import { InlineError, SettingsIcon, ClockIcon, ThemeChooser } from "../common";
+import { InlineError, SettingsIcon, ThemeChooser } from "../common";
 import { useQuranData, useUIState, useActions } from "../../contexts";
 
 type SurahListProps = {
@@ -102,7 +102,7 @@ function JuzList() {
 }
 
 function PageSelector() {
-  const { readerPageNumber, setReaderPageNumber } = useUIState();
+  const { readerPageNumber } = useUIState();
   const { handleSelectPage } = useActions();
   const gridRef = useRef<HTMLDivElement>(null);
 

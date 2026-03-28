@@ -3,6 +3,7 @@
 import { useMemo, useCallback, useEffect, useRef, useState, type TouchEvent as ReactTouchEvent } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { AudioPlayer } from "../common";
+import { MemorizationApp } from "../memorization/MemorizationApp";
 import { QuickPanel } from "./StudyComponents";
 import StudyModeHeader from "./StudyModeHeader";
 import StudyMemorizeModal from "./StudyMemorizeModal";
@@ -105,6 +106,7 @@ export default function StudyModeView({
   );
   const [studyJuzNumber, setStudyJuzNumber] = useLocalStorage<number>("quran_study_juz_number", 1);
   const [studyPageNumber, setStudyPageNumber] = useLocalStorage<number>("quran_study_page_number", 1);
+  const [showMemorizationPreview, setShowMemorizationPreview] = useState(false);
   const [scopedAyahs, setScopedAyahs] = useState<StudyScopeAyah[]>([]);
   const [scopeMeta, setScopeMeta] = useState<StudyScopeResponse["scope"] | null>(null);
   const [scopeLayout, setScopeLayout] = useState<MushafPageLayout | null>(null);
@@ -390,6 +392,11 @@ export default function StudyModeView({
     ? `${selectedSurah?.englishNameTranslation || ""} · ${totalAyahs} Ayahs`
     : `${totalAyahs} ayahs · ${scopeMeta?.firstVerseKey || ""}${scopeMeta?.lastVerseKey ? ` - ${scopeMeta.lastVerseKey}` : ""}`;
   const currentScopeAyah = displayAyahs[Math.max(0, currentAyahIndex - 1)] || null;
+  const toggleMemorizationPreview = useCallback(() => {
+    setShowQuickPanel(false);
+    onStopAutoPlay();
+    setShowMemorizationPreview((previous) => !previous);
+  }, [onStopAutoPlay, setShowQuickPanel]);
 
   return (
     <div
@@ -418,229 +425,249 @@ export default function StudyModeView({
         formatTime={formatTime}
       />
 
-      <StudyModeReadingArea
-        scrollContainerRef={scrollContainerRef}
-        onSwipeStart={handleSwipeStart}
-        onSwipeEnd={handleSwipeEnd}
-        isSurahScope={isSurahScope}
-        isPageScope={isPageScope}
-        selectedSurah={selectedSurah}
-        activeScopeLabel={activeScopeLabel}
-        activeScopeMeta={activeScopeMeta}
-        scopeLoading={scopeLoading}
-        scopeError={scopeError}
-        hasMushafLayout={hasMushafLayout}
-        scopeLayout={scopeLayout}
-        displayAyahs={displayAyahs}
-        focusedAyahKey={focusedAyahKey}
-        dimNonFocused={dimNonFocused}
-        nowPlaying={nowPlaying}
-        isAudioPaused={isAudioPaused}
-        onFocusAyahKey={setFocusedAyahKey}
-        onTogglePlay={handleStudyAyahPlay}
-        onSelectPage={setStudyPageNumber}
-        selectedSurahNumber={selectedSurahNumber}
-        surahByNumber={surahByNumber}
-        studyScopeMode={studyScopeMode}
-        studyMarks={studyMarks}
-        primaryTranslation={primaryTranslation}
-        showTajweed={showTajweed}
-        showTranslation={showTranslation}
-        showStudyTransliteration={showStudyTransliteration}
-        isMushafView={isMushafView}
-        showWordByWord={showWordByWord}
-        wordsByAyahForStudy={wordsByAyahForStudy}
-        effectiveWordLoading={effectiveWordLoading}
-        wordAudioUrl={wordAudioUrl}
-        selectedWordDetails={selectedWordDetails}
-        isBookmarked={isBookmarked}
-        hasNote={hasNote}
-        resolveWordAudioUrl={resolveWordAudioUrl}
-        onOpenMemorize={openMemorizeModal}
-        onToggleBookmark={onToggleBookmark}
-        onOpenTafsir={onOpenTafsirFromAyah}
-        onOpenNote={onOpenNote}
-        onWordSelect={handleWordSelect}
-        onWordAudio={handleWordAudio}
-        onToggleStudyMarkByKey={toggleStudyMark}
-        hifzMarks={hifzMarks}
-        onToggleHifzMark={toggleHifzMark}
-        showHifzMode={showHifzMode}
-        verseKey={verseKey}
-      />
+      {showMemorizationPreview ? (
+        <div className="study-reading-area study-reading-area-preview" ref={scrollContainerRef}>
+          <MemorizationApp embedded />
+        </div>
+      ) : (
+        <StudyModeReadingArea
+          scrollContainerRef={scrollContainerRef}
+          onSwipeStart={handleSwipeStart}
+          onSwipeEnd={handleSwipeEnd}
+          isSurahScope={isSurahScope}
+          isPageScope={isPageScope}
+          selectedSurah={selectedSurah}
+          activeScopeLabel={activeScopeLabel}
+          activeScopeMeta={activeScopeMeta}
+          scopeLoading={scopeLoading}
+          scopeError={scopeError}
+          hasMushafLayout={hasMushafLayout}
+          scopeLayout={scopeLayout}
+          displayAyahs={displayAyahs}
+          focusedAyahKey={focusedAyahKey}
+          dimNonFocused={dimNonFocused}
+          nowPlaying={nowPlaying}
+          isAudioPaused={isAudioPaused}
+          onFocusAyahKey={setFocusedAyahKey}
+          onTogglePlay={handleStudyAyahPlay}
+          onSelectPage={setStudyPageNumber}
+          selectedSurahNumber={selectedSurahNumber}
+          surahByNumber={surahByNumber}
+          studyScopeMode={studyScopeMode}
+          studyMarks={studyMarks}
+          primaryTranslation={primaryTranslation}
+          showTajweed={showTajweed}
+          showTranslation={showTranslation}
+          showStudyTransliteration={showStudyTransliteration}
+          isMushafView={isMushafView}
+          showWordByWord={showWordByWord}
+          wordsByAyahForStudy={wordsByAyahForStudy}
+          effectiveWordLoading={effectiveWordLoading}
+          wordAudioUrl={wordAudioUrl}
+          selectedWordDetails={selectedWordDetails}
+          isBookmarked={isBookmarked}
+          hasNote={hasNote}
+          resolveWordAudioUrl={resolveWordAudioUrl}
+          onOpenMemorize={openMemorizeModal}
+          onToggleBookmark={onToggleBookmark}
+          onOpenTafsir={onOpenTafsirFromAyah}
+          onOpenNote={onOpenNote}
+          onWordSelect={handleWordSelect}
+          onWordAudio={handleWordAudio}
+          onToggleStudyMarkByKey={toggleStudyMark}
+          hifzMarks={hifzMarks}
+          onToggleHifzMark={toggleHifzMark}
+          showHifzMode={showHifzMode}
+          verseKey={verseKey}
+        />
+      )}
 
       {/* Audio Player */}
-      <AudioPlayer
-        reciterId={reciterId}
-        reciterLabel={reciterLabel}
-        reciterBaseUrl={reciterBaseUrl}
-        nowPlayingLabel={nowPlaying ? `Ayah ${nowPlaying.ayah}` : ""}
-        audioSrc={audioSrc}
-        isAutoPlaying={isAutoPlaying}
-        isAudioPaused={isAudioPaused}
-        playbackRate={playbackRate}
-        onPlaySurah={onPlaySurah}
-        onStopAutoPlay={onStopAutoPlay}
-        onAudioEnded={onAudioEnded}
-        selectedSurah={selectedSurah}
-        nowPlaying={nowPlaying}
-        nowPlayingPage={nowPlayingPage}
-        surahPageStart={surahPageStart}
-        surahPageEnd={surahPageEnd}
-        showPlayerBar={false}
-        memorizeActive={Boolean(memorizeConfig?.active)}
-        memorizeStartAyah={memorizeConfig?.startAyah}
-        memorizeEndAyah={memorizeConfig?.endAyah}
-        memorizeLoops={memorizeConfig?.loops}
-        memorizeRemaining={memorizeConfig?.remaining}
-      />
+      {!showMemorizationPreview ? (
+        <AudioPlayer
+          reciterId={reciterId}
+          reciterLabel={reciterLabel}
+          reciterBaseUrl={reciterBaseUrl}
+          nowPlayingLabel={nowPlaying ? `Ayah ${nowPlaying.ayah}` : ""}
+          audioSrc={audioSrc}
+          isAutoPlaying={isAutoPlaying}
+          isAudioPaused={isAudioPaused}
+          playbackRate={playbackRate}
+          onPlaySurah={onPlaySurah}
+          onStopAutoPlay={onStopAutoPlay}
+          onAudioEnded={onAudioEnded}
+          selectedSurah={selectedSurah}
+          nowPlaying={nowPlaying}
+          nowPlayingPage={nowPlayingPage}
+          surahPageStart={surahPageStart}
+          surahPageEnd={surahPageEnd}
+          showPlayerBar={false}
+          memorizeActive={Boolean(memorizeConfig?.active)}
+          memorizeStartAyah={memorizeConfig?.startAyah}
+          memorizeEndAyah={memorizeConfig?.endAyah}
+          memorizeLoops={memorizeConfig?.loops}
+          memorizeRemaining={memorizeConfig?.remaining}
+        />
+      ) : null}
 
 
       {/* Study Rail */}
-      <StudyModeRail
-        activeTab={quickPanelTab}
-        isOpen={showQuickPanel}
-        onSelectTab={(tab) => {
-          if (showQuickPanel && quickPanelTab === tab) {
-            setShowQuickPanel(false);
-            return;
-          }
-          setQuickPanelTab(tab);
-          setShowQuickPanel(true);
-          if (tab === "tool") {
-            setHasOpenedTools(true);
-            dismissTip();
-          }
-        }}
-      />
+      {!showMemorizationPreview ? (
+        <StudyModeRail
+          activeTab={quickPanelTab}
+          isOpen={showQuickPanel}
+          onSelectTab={(tab) => {
+            if (tab === "memorization") {
+              toggleMemorizationPreview();
+              return;
+            }
+            if (showQuickPanel && quickPanelTab === tab) {
+              setShowQuickPanel(false);
+              return;
+            }
+            setQuickPanelTab(tab);
+            setShowQuickPanel(true);
+            if (tab === "tool") {
+              setHasOpenedTools(true);
+              dismissTip();
+            }
+          }}
+        />
+      ) : null}
 
 
       {/* Quick Panel */}
-      <QuickPanel
-        isOpen={showQuickPanel}
-        onClose={() => setShowQuickPanel(false)}
-        title={quickPanelTab.charAt(0).toUpperCase() + quickPanelTab.slice(1)}
-      >
-        <StudyQuickPanelContent
-          tab={quickPanelTab}
-          readingTime={readingTime}
-          progress={progress}
-          sortedBookmarks={sortedBookmarks}
-          sortedNotes={sortedNotes}
-          goalTarget={goalTarget}
-          goalProgress={goalProgress}
-          setGoalPerDay={setGoalPerDay}
-          planSummary={planSummary}
-          surahByNumber={surahByNumber}
+      {!showMemorizationPreview ? (
+        <QuickPanel
+          isOpen={showQuickPanel}
+          onClose={() => setShowQuickPanel(false)}
+          title={quickPanelTab.charAt(0).toUpperCase() + quickPanelTab.slice(1)}
+        >
+          <StudyQuickPanelContent
+            tab={quickPanelTab}
+            readingTime={readingTime}
+            progress={progress}
+            sortedBookmarks={sortedBookmarks}
+            sortedNotes={sortedNotes}
+            goalTarget={goalTarget}
+            goalProgress={goalProgress}
+            setGoalPerDay={setGoalPerDay}
+            planSummary={planSummary}
+            surahByNumber={surahByNumber}
+            onJumpToAyah={jumpToStudyAyah}
+            onClosePanel={() => setShowQuickPanel(false)}
+            formatTime={formatTime}
+            showTranslation={showTranslation}
+            setShowTranslation={setShowTranslation}
+            studyScopeMode={studyScopeMode}
+            setStudyScopeMode={setStudyScopeMode}
+            studyJuzNumber={studyJuzNumber}
+            setStudyJuzNumber={setStudyJuzNumber}
+            studyPageNumber={studyPageNumber}
+            setStudyPageNumber={setStudyPageNumber}
+            showStudyTransliteration={showStudyTransliteration}
+            setShowStudyTransliteration={setShowStudyTransliteration}
+            dimNonFocused={dimNonFocused}
+            setDimNonFocused={setDimNonFocused}
+            autoScrollPlaying={autoScrollPlaying}
+            setAutoScrollPlaying={setAutoScrollPlaying}
+            fontScale={fontScale}
+            setFontScale={setFontScale}
+            clamp={clamp}
+            playbackRate={playbackRate}
+            setPlaybackRate={setPlaybackRate}
+            arabicFonts={ARABIC_FONTS}
+            arabicFontId={arabicFontId}
+            setArabicFontId={setArabicFontId}
+            reciters={AUDIO_RECITERS}
+            reciterId={reciterId}
+            setReciterId={setReciterId}
+            showTajweed={showTajweed}
+            setShowTajweed={setShowTajweed}
+            showTajweedLegend={showTajweedLegend}
+            setShowTajweedLegend={setShowTajweedLegend}
+            showHifzMode={showHifzMode}
+            setShowHifzMode={setShowHifzMode}
+            showWordByWord={showWordByWord}
+            setShowWordByWord={setShowWordByWord}
+            isMushafView={isMushafView}
+            setIsMushafView={setIsMushafView}
+            scriptStyle={scriptStyle}
+            setScriptStyle={setScriptStyle}
+            tajweedLegend={TAJWEED_LEGEND}
+            tafsirEdition={String(tafsirEdition)}
+            tafsirEditions={TAFSIR_EDITIONS}
+            onChangeTafsirEdition={handleChangeTafsirEdition}
+            selectedSurahNumber={selectedSurah?.number || 0}
+            selectedSurahName={selectedSurah?.englishName || "Surah"}
+            focusedAyahNumber={focusedAyahNumber}
+            currentAyahIndex={currentAyahIndex}
+            onUseCurrentAyah={() => currentScopeAyah?.verseKey && setFocusedAyahKey(currentScopeAyah.verseKey)}
+            tafsirLoading={tafsirLoading}
+            tafsirError={tafsirError}
+            tafsirText={tafsirText}
+            searchQuery={searchQuery}
+            setSearchQuery={setSearchQuery}
+            runSearch={runSearch}
+            searchLoading={searchLoading}
+            searchError={searchError}
+            searchHasRun={searchHasRun}
+            searchResults={searchResults}
+            onOpenNote={onOpenNote}
+            todayVersesRead={todayStats.versesRead}
+            weekTotal={weekTotal}
+            currentStreak={stats.currentStreak}
+            weeklyData={weeklyData}
+            surahProgress={surahProgress}
+            hifzMarks={hifzMarks}
+            totalAyahs={totalAyahs}
+            markHifzRange={markHifzRange}
+            clearHifzSurah={clearHifzSurah}
+          />
+        </QuickPanel>
+      ) : null}
+
+      {!showMemorizationPreview ? (
+        <StudyLexiconModals
+          selectedWordDetails={selectedWordDetails}
+          isRootModalOpen={isRootModalOpen}
+          selectedRoot={selectedRoot}
+          selectedRootArabic={selectedRootArabic}
+          rootMeaningSummary={rootMeaningSummary}
+          laneActionLabel={laneActionLabel}
+          rootLexiconError={rootLexiconError}
+          rootLexiconLoading={rootLexiconLoading}
+          rootLexicon={rootLexicon}
+          onCloseWordDetails={closeWordDetails}
+          onCloseRootModal={closeRootModal}
+          onOpenRootDetails={openRootDetails}
+          onPlayWordAudio={handleWordAudio}
           onJumpToAyah={jumpToStudyAyah}
-          onClosePanel={() => setShowQuickPanel(false)}
-          formatTime={formatTime}
-          showTranslation={showTranslation}
-          setShowTranslation={setShowTranslation}
-          studyScopeMode={studyScopeMode}
-          setStudyScopeMode={setStudyScopeMode}
-          studyJuzNumber={studyJuzNumber}
-          setStudyJuzNumber={setStudyJuzNumber}
-          studyPageNumber={studyPageNumber}
-          setStudyPageNumber={setStudyPageNumber}
-          showStudyTransliteration={showStudyTransliteration}
-          setShowStudyTransliteration={setShowStudyTransliteration}
-          dimNonFocused={dimNonFocused}
-          setDimNonFocused={setDimNonFocused}
-          autoScrollPlaying={autoScrollPlaying}
-          setAutoScrollPlaying={setAutoScrollPlaying}
-          fontScale={fontScale}
-          setFontScale={setFontScale}
-          clamp={clamp}
-          playbackRate={playbackRate}
-          setPlaybackRate={setPlaybackRate}
-          arabicFonts={ARABIC_FONTS}
-          arabicFontId={arabicFontId}
-          setArabicFontId={setArabicFontId}
-          reciters={AUDIO_RECITERS}
-          reciterId={reciterId}
-          setReciterId={setReciterId}
-          showTajweed={showTajweed}
-          setShowTajweed={setShowTajweed}
-          showTajweedLegend={showTajweedLegend}
-          setShowTajweedLegend={setShowTajweedLegend}
-          showHifzMode={showHifzMode}
-          setShowHifzMode={setShowHifzMode}
-          showWordByWord={showWordByWord}
-          setShowWordByWord={setShowWordByWord}
-          isMushafView={isMushafView}
-          setIsMushafView={setIsMushafView}
-          scriptStyle={scriptStyle}
-          setScriptStyle={setScriptStyle}
-          tajweedLegend={TAJWEED_LEGEND}
-          tafsirEdition={String(tafsirEdition)}
-          tafsirEditions={TAFSIR_EDITIONS}
-          onChangeTafsirEdition={handleChangeTafsirEdition}
-          selectedSurahNumber={selectedSurah?.number || 0}
-          selectedSurahName={selectedSurah?.englishName || "Surah"}
-          focusedAyahNumber={focusedAyahNumber}
-          currentAyahIndex={currentAyahIndex}
-          onUseCurrentAyah={() => currentScopeAyah?.verseKey && setFocusedAyahKey(currentScopeAyah.verseKey)}
-          tafsirLoading={tafsirLoading}
-          tafsirError={tafsirError}
-          tafsirText={tafsirText}
-          searchQuery={searchQuery}
-          setSearchQuery={setSearchQuery}
-          runSearch={runSearch}
-          searchLoading={searchLoading}
-          searchError={searchError}
-          searchHasRun={searchHasRun}
-          searchResults={searchResults}
-          onOpenNote={onOpenNote}
-          todayVersesRead={todayStats.versesRead}
-          weekTotal={weekTotal}
-          currentStreak={stats.currentStreak}
-          weeklyData={weeklyData}
-          surahProgress={surahProgress}
-          hifzMarks={hifzMarks}
-          totalAyahs={totalAyahs}
-          markHifzRange={markHifzRange}
-          clearHifzSurah={clearHifzSurah}
         />
-      </QuickPanel>
+      ) : null}
 
-      <StudyLexiconModals
-        selectedWordDetails={selectedWordDetails}
-        isRootModalOpen={isRootModalOpen}
-        selectedRoot={selectedRoot}
-        selectedRootArabic={selectedRootArabic}
-        rootMeaningSummary={rootMeaningSummary}
-        laneActionLabel={laneActionLabel}
-        rootLexiconError={rootLexiconError}
-        rootLexiconLoading={rootLexiconLoading}
-        rootLexicon={rootLexicon}
-        onCloseWordDetails={closeWordDetails}
-        onCloseRootModal={closeRootModal}
-        onOpenRootDetails={openRootDetails}
-        onPlayWordAudio={handleWordAudio}
-        onJumpToAyah={jumpToStudyAyah}
-      />
-
-      <StudyMemorizeModal
-        isOpen={showMemorizeModal}
-        selectedSurah={selectedSurah}
-        memorizeMode={memorizeMode}
-        memorizeDraft={memorizeDraft}
-        memorizeActive={Boolean(memorizeConfig?.active)}
-        onClose={closeMemorizeModal}
-        onApplyMode={applyMemorizeMode}
-        onUpdateStart={updateMemorizeStart}
-        onUpdateEnd={updateMemorizeEnd}
-        onUpdateLoops={updateMemorizeLoops}
-        onStartMemorize={onStartMemorize}
-        onStopMemorize={onStopMemorize}
-      />
+      {!showMemorizationPreview ? (
+        <StudyMemorizeModal
+          isOpen={showMemorizeModal}
+          selectedSurah={selectedSurah}
+          memorizeMode={memorizeMode}
+          memorizeDraft={memorizeDraft}
+          memorizeActive={Boolean(memorizeConfig?.active)}
+          onClose={closeMemorizeModal}
+          onApplyMode={applyMemorizeMode}
+          onUpdateStart={updateMemorizeStart}
+          onUpdateEnd={updateMemorizeEnd}
+          onUpdateLoops={updateMemorizeLoops}
+          onStartMemorize={onStartMemorize}
+          onStopMemorize={onStopMemorize}
+        />
+      ) : null}
 
       {/* Hidden audio element for word audio */}
-      <audio ref={wordAudioRef} hidden />
+      {!showMemorizationPreview ? <audio ref={wordAudioRef} hidden /> : null}
 
       <AnimatePresence>
-        {activeTip && (
+        {activeTip && !showMemorizationPreview && (
           <motion.div
             className="discovery-tip"
             initial={{ opacity: 0, y: 20 }}

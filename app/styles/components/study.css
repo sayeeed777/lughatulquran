@@ -152,6 +152,30 @@
   gap: 16px;
 }
 
+.study-preview-toggle {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.study-preview-toggle:hover {
+  background: rgba(255, 255, 255, 0.09);
+  transform: translateY(-1px);
+}
+
+.study-preview-toggle.active {
+  background: color-mix(in srgb, var(--accent-2) 18%, rgba(255, 255, 255, 0.06));
+  border-color: color-mix(in srgb, var(--accent-2) 35%, rgba(255, 255, 255, 0.08));
+  color: var(--text);
+}
+
 .study-reading-time {
   display: flex;
   align-items: center;
@@ -191,6 +215,10 @@
   overscroll-behavior-y: contain;
   padding: 72px 24px 160px;
   scroll-behavior: smooth;
+}
+
+.study-reading-area-preview {
+  padding-top: 88px;
 }
 
 .study-reading-area {
@@ -3881,8 +3909,22 @@
     font-size: 0.95rem;
   }
 
+  .study-header-right {
+    gap: 10px;
+  }
+
+  .study-preview-toggle {
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 0.72rem;
+  }
+
   .study-reading-area {
     padding: 72px 16px 140px;
+  }
+
+  .study-reading-area-preview {
+    padding-top: 84px;
   }
 
   .study-surah-opening {

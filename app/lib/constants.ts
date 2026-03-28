@@ -189,7 +189,9 @@ export const STORAGE_KEYS = {
   arabicFont: "quran_arabic_font",
   theme: "quran_theme",
   prayerSettings: "quran_prayer_settings",
-  readingStats: "quran_reading_stats"
+  readingStats: "quran_reading_stats",
+  memorizationProgress: "quran_memorization_progress",
+  memorizationDeckState: "quran_memorization_deck_state"
 };
 
 // Keyboard Shortcuts

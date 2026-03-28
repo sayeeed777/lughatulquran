@@ -206,6 +206,74 @@ export type ScopeMeta = {
 };
 
 // =============================================
+// Memorization / SRS
+// =============================================
+
+export type MemorizationScopeMode = "surah" | "juz" | "page";
+
+export type MemorizationCardMode =
+  | "arabic-to-meaning"
+  | "meaning-to-arabic"
+  | "first-words"
+  | "word-by-word-meaning";
+
+export type MemorizationRating = "again" | "hard" | "good" | "easy";
+
+export type MemorizationCard = {
+  id: string;
+  verseKey: string;
+  surahNumber: number;
+  ayahNumber: number;
+  pageNumber: number | null;
+  scopeMode: MemorizationScopeMode;
+  scopeId: number;
+  scopeLabel: string;
+  translationId: "en-haleem" | "wbw-quran-com";
+  cardMode: MemorizationCardMode;
+  arabic: string;
+  englishMeaning: string;
+  transliteration?: string;
+  firstWords: string;
+  hint: string;
+  audioUrl: string;
+  wordArabic?: string;
+  wordMeaning?: string;
+  wordPosition?: number;
+  contextArabic?: string;
+  contextMeaning?: string;
+};
+
+export type MemorizationCardStatus = "new" | "learning" | "review" | "relearning";
+
+export type MemorizationCardState = {
+  status: MemorizationCardStatus;
+  dueAt: number;
+  lastReviewedAt: number | null;
+  intervalDays: number;
+  easeFactor: number;
+  repetitions: number;
+  lapses: number;
+  learningStep: number;
+  suspended: boolean;
+};
+
+export type MemorizationProgressStore = Record<string, MemorizationCardState>;
+
+export type MemorizationDeckMeta = {
+  scopeMode: MemorizationScopeMode;
+  scopeId: number;
+  scopeLabel: string;
+  cardMode: MemorizationCardMode;
+  translationId: "en-haleem" | "wbw-quran-com";
+  totalCards: number;
+};
+
+export type MemorizationDeckResponse = {
+  deck: MemorizationDeckMeta;
+  cards: MemorizationCard[];
+};
+
+// =============================================
 // Mushaf page layout
 // =============================================
 

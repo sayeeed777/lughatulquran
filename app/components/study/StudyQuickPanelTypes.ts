@@ -3,7 +3,7 @@ import type { ArabicFont, Reciter } from "./StudyModeTypes";
 import type { TafsirEdition, TajweedLegendItem } from "./StudyModeHelpers";
 import type { StudyScopeMode } from "./StudyScopeTypes";
 
-export type QuickPanelTab = "study" | "tool" | "tafsir" | "search" | "notes";
+export type QuickPanelTab = "study" | "tool" | "tafsir" | "search" | "notes" | "memorization";
 
 type VerseRef = {
   surah: number;
