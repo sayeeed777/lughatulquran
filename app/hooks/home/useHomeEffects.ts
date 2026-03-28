@@ -18,6 +18,7 @@ type UseHomeEffectsParams = {
   updateLastRead: (surah: number, ayah: number, surahName: string) => void;
   updateStudySession: (payload: Omit<StudySession, "updatedAt">) => void;
   reciterId: string;
+  isReciterReady: boolean;
   playbackRate: number;
   fontScale: { arabic: number; translation: number };
   readingMode: boolean;
@@ -41,6 +42,7 @@ export function useHomeEffects({
   updateLastRead,
   updateStudySession,
   reciterId,
+  isReciterReady,
   playbackRate,
   fontScale,
   readingMode,
@@ -133,7 +135,7 @@ export function useHomeEffects({
 
   // Persist richer "continue where left off" session state
   useEffect(() => {
-    if (!selectedSurah) return;
+    if (!selectedSurah || !isReciterReady) return;
     const focusedAyah = focusedAyahKey ? parseVerseKey(focusedAyahKey).ayah : null;
     const playingAyah =
       nowPlaying?.surah === selectedSurah.number ? nowPlaying.ayah : null;
@@ -192,6 +194,7 @@ export function useHomeEffects({
     nowPlaying?.surah,
     nowPlaying?.ayah,
     reciterId,
+    isReciterReady,
     playbackRate,
     fontScale?.arabic,
     fontScale?.translation,

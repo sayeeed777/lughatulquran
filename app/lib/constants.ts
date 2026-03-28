@@ -47,7 +47,10 @@ export const AUDIO_RECITERS = [
   }
 ];
 
-export const DEFAULT_RECITER = AUDIO_RECITERS[0];
+export const DEFAULT_RECITER_ID = "husary";
+export const DEFAULT_RECITER =
+  AUDIO_RECITERS.find((reciter) => reciter.id === DEFAULT_RECITER_ID) ??
+  AUDIO_RECITERS[0];
 
 // Arabic Fonts
 export const ARABIC_FONTS = [

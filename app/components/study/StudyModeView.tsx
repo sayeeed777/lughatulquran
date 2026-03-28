@@ -427,7 +427,7 @@ export default function StudyModeView({
 
       {showMemorizationPreview ? (
         <div className="study-reading-area study-reading-area-preview" ref={scrollContainerRef}>
-          <MemorizationApp embedded />
+          <MemorizationApp embedded reciterId={reciterId} />
         </div>
       ) : (
         <StudyModeReadingArea

@@ -1,13 +1,18 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   AUDIO_RECITERS,
   ARABIC_FONTS,
+  DEFAULT_RECITER,
   PRAYER_MADHABS,
   PRAYER_METHODS,
   STORAGE_KEYS
 } from "../../lib/constants";
+import {
+  getReciterBootstrapMode,
+  LEGACY_DEFAULT_RECITER
+} from "../../lib/reciterPreferences";
 import { useLocalStorage } from "../common";
 import { clamp } from "../../lib/utils";
 import { useReadingPlan, useFontScale } from "../useAppSettings";
@@ -40,23 +45,50 @@ export function useHomePreferences() {
     [setStoredPlaybackRate]
   );
 
-  const defaultReciter = useMemo<Reciter>(
-    () =>
-      AUDIO_RECITERS[0] ?? {
-        id: "default",
-        label: "Default",
-        baseUrl: ""
-      },
-    []
-  );
-  const [reciterId, setReciterId] = useLocalStorage(
+  const legacyDefaultReciter = useMemo<Reciter>(() => LEGACY_DEFAULT_RECITER, []);
+  const defaultReciter = useMemo<Reciter>(() => DEFAULT_RECITER ?? legacyDefaultReciter, [legacyDefaultReciter]);
+  const reciterBootstrapModeRef = useRef<ReturnType<typeof getReciterBootstrapMode> | null>(null);
+  if (typeof window !== "undefined" && reciterBootstrapModeRef.current === null) {
+    reciterBootstrapModeRef.current = getReciterBootstrapMode(window.localStorage);
+  }
+  const [reciterId, setReciterId, isReciterLoaded] = useLocalStorage(
     STORAGE_KEYS.reciter,
-    defaultReciter.id
+    legacyDefaultReciter.id
   );
+  const [isReciterReady, setIsReciterReady] = useState(false);
   const selectedReciter = useMemo<Reciter>(
     () => AUDIO_RECITERS.find((r) => r.id === reciterId) ?? defaultReciter,
     [reciterId, defaultReciter]
   );
+
+  useEffect(() => {
+    if (typeof window === "undefined" || !isReciterLoaded) return;
+
+    const storedReciter = window.localStorage.getItem(STORAGE_KEYS.reciter);
+    if (storedReciter !== null) {
+      setIsReciterReady(true);
+      return;
+    }
+
+    const bootstrapMode = reciterBootstrapModeRef.current ?? "new-user";
+    const targetReciterId = bootstrapMode === "new-user"
+      ? defaultReciter.id
+      : legacyDefaultReciter.id;
+
+    if (reciterId !== targetReciterId) {
+      setReciterId(targetReciterId);
+      return;
+    }
+
+    window.localStorage.setItem(STORAGE_KEYS.reciter, JSON.stringify(targetReciterId));
+    setIsReciterReady(true);
+  }, [
+    defaultReciter.id,
+    isReciterLoaded,
+    legacyDefaultReciter.id,
+    reciterId,
+    setReciterId
+  ]);
 
   const defaultTimezone = useMemo(() => {
     try {
@@ -189,6 +221,7 @@ export function useHomePreferences() {
     setPlaybackRate,
     reciterId,
     setReciterId,
+    isReciterReady,
     selectedReciter,
     arabicFontId,
     setArabicFontId,

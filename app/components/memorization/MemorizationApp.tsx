@@ -6,8 +6,14 @@ import useMemorizationSrs from "./useMemorizationSrs";
 import { useLocalStorage } from "../../hooks";
 import { SURAHS } from "../../data/surahs";
 import { fetchJSON } from "../../lib/apiClient";
-import { STORAGE_KEYS } from "../../lib/constants";
+import { DEFAULT_RECITER, STORAGE_KEYS } from "../../lib/constants";
+import {
+  resolveBootstrappedReciterId,
+  resolveReciterById
+} from "../../lib/reciterPreferences";
+import { getAudioUrl } from "../../lib/utils";
 import type {
+  MemorizationCard,
   MemorizationCardMode,
   MemorizationDeckResponse,
   MemorizationScopeMode
@@ -40,22 +46,61 @@ const CARD_MODES: Array<{ id: MemorizationCardMode; label: string; desc: string 
   }
 ];
 
-export default function MemorizationApp() {
-  return <MemorizationAppInner />;
-}
-
 type MemorizationAppProps = {
   embedded?: boolean;
+  reciterId?: string;
 };
 
-function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
+const WORD_AUDIO_PREFIX = "https://audio.qurancdn.com/wbw/";
+
+const shouldPreserveCardAudio = (card: MemorizationCard) =>
+  card.cardMode === "word-by-word-meaning" && card.audioUrl.startsWith(WORD_AUDIO_PREFIX);
+
+export function applyReciterToMemorizationDeck(
+  deck: MemorizationDeckResponse | null,
+  reciterBaseUrl: string
+): MemorizationDeckResponse | null {
+  if (!deck) return null;
+
+  return {
+    ...deck,
+    cards: deck.cards.map((card) => {
+      if (shouldPreserveCardAudio(card)) {
+        return card;
+      }
+
+      const audioUrl = getAudioUrl(reciterBaseUrl, card.surahNumber, card.ayahNumber);
+      return card.audioUrl === audioUrl ? card : { ...card, audioUrl };
+    })
+  };
+}
+
+export function MemorizationApp({ embedded = false, reciterId: activeReciterId }: MemorizationAppProps = {}) {
   const [prefs, setPrefs] = useLocalStorage<MemorizationDeckPrefs>(
     STORAGE_KEYS.memorizationDeckState,
     DEFAULT_PREFS
   );
-  const [deck, setDeck] = useState<MemorizationDeckResponse | null>(null);
+  const [rawDeck, setRawDeck] = useState<MemorizationDeckResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [bootstrapReciterId, setBootstrapReciterId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined" || activeReciterId) return;
+    setBootstrapReciterId(resolveBootstrappedReciterId(window.localStorage));
+  }, [activeReciterId]);
+
+  const resolvedReciter = useMemo(
+    () => resolveReciterById(activeReciterId ?? bootstrapReciterId ?? DEFAULT_RECITER.id),
+    [activeReciterId, bootstrapReciterId]
+  );
+
+  useEffect(() => {
+    if (typeof window === "undefined" || activeReciterId) return;
+    if (!bootstrapReciterId) return;
+    if (window.localStorage.getItem(STORAGE_KEYS.reciter) !== null) return;
+    window.localStorage.setItem(STORAGE_KEYS.reciter, JSON.stringify(resolvedReciter.id));
+  }, [activeReciterId, bootstrapReciterId, resolvedReciter.id]);
 
   const scopeId = prefs.scopeMode === "surah"
     ? prefs.surahNumber
@@ -81,7 +126,7 @@ function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
     )
       .then((payload) => {
         if (controller.signal.aborted) return;
-        setDeck(payload);
+        setRawDeck(payload);
       })
       .catch((err) => {
         if (controller.signal.aborted) return;
@@ -89,7 +134,7 @@ function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
         const msg = err instanceof Error ? err.message : String(err);
         if (/abort/i.test(msg)) return;
         setError(msg || "Unable to load memorization deck.");
-        setDeck(null);
+        setRawDeck(null);
       })
       .finally(() => {
         if (controller.signal.aborted) return;
@@ -98,6 +143,11 @@ function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
 
     return () => controller.abort();
   }, [prefs.cardMode, prefs.scopeMode, scopeId]);
+
+  const deck = useMemo(
+    () => applyReciterToMemorizationDeck(rawDeck, resolvedReciter.baseUrl),
+    [rawDeck, resolvedReciter.baseUrl]
+  );
 
   const {
     counts,
@@ -144,9 +194,6 @@ function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
   const progressPct = totalCards
     ? Math.round((sessionStats.reviewed / totalCards) * 100)
     : 0;
-  const meaningSourceLabel = prefs.cardMode === "word-by-word-meaning"
-    ? "Word meanings"
-    : "Abdel Haleem";
 
   return (
     <main className={`mem-shell${embedded ? " mem-embedded" : ""}`}>
@@ -329,4 +376,4 @@ function MemorizationAppInner({ embedded = false }: MemorizationAppProps = {}) {
   );
 }
 
-export { MemorizationAppInner as MemorizationApp };
+export default MemorizationApp;
