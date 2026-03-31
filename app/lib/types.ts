@@ -259,6 +259,17 @@ export type MemorizationCardState = {
 
 export type MemorizationProgressStore = Record<string, MemorizationCardState>;
 
+export type MemorizationSettings = {
+  newCardsPerDay: number;
+  maxReviewsPerDay: number;
+  learningStepsMinutes: number[];
+  graduatingIntervalDays: number;
+  easyIntervalDays: number;
+  maxIntervalDays: number;
+  leechThreshold: number;
+  autoSuspendLeeches: boolean;
+};
+
 export type MemorizationDeckMeta = {
   scopeMode: MemorizationScopeMode;
   scopeId: number;

@@ -406,28 +406,30 @@ export default function StudyModeView({
       {/* Ambient Background */}
       <div className="study-ambient-bg" />
 
-      <StudyModeHeader
-        showControls={showControls}
-        onExit={onExit}
-        isSurahScope={isSurahScope}
-        isPageScope={isPageScope}
-        surahs={surahs}
-        selectedSurah={selectedSurah}
-        activeScopeLabel={activeScopeLabel}
-        activeScopeMeta={activeScopeMeta}
-        studyPageNumber={studyPageNumber}
-        setStudyPageNumber={setStudyPageNumber}
-        studyJuzNumber={studyJuzNumber}
-        setStudyJuzNumber={setStudyJuzNumber}
-        jumpToStudyAyah={jumpToStudyAyah}
-        progress={progress}
-        readingTime={readingTime}
-        formatTime={formatTime}
-      />
+      {!showMemorizationPreview && (
+        <StudyModeHeader
+          showControls={showControls}
+          onExit={onExit}
+          isSurahScope={isSurahScope}
+          isPageScope={isPageScope}
+          surahs={surahs}
+          selectedSurah={selectedSurah}
+          activeScopeLabel={activeScopeLabel}
+          activeScopeMeta={activeScopeMeta}
+          studyPageNumber={studyPageNumber}
+          setStudyPageNumber={setStudyPageNumber}
+          studyJuzNumber={studyJuzNumber}
+          setStudyJuzNumber={setStudyJuzNumber}
+          jumpToStudyAyah={jumpToStudyAyah}
+          progress={progress}
+          readingTime={readingTime}
+          formatTime={formatTime}
+        />
+      )}
 
       {showMemorizationPreview ? (
         <div className="study-reading-area study-reading-area-preview" ref={scrollContainerRef}>
-          <MemorizationApp embedded reciterId={reciterId} />
+          <MemorizationApp embedded reciterId={reciterId} onBack={toggleMemorizationPreview} />
         </div>
       ) : (
         <StudyModeReadingArea

@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import MemorizationSessionCard from "./MemorizationSessionCard";
-import useMemorizationSrs from "./useMemorizationSrs";
+import useMemorizationSrs, { DEFAULT_MEMORIZATION_SETTINGS } from "./useMemorizationSrs";
+import type { MasteryBreakdown, SessionHistoryEntry } from "./useMemorizationSrs";
 import { useLocalStorage } from "../../hooks";
 import { SURAHS } from "../../data/surahs";
 import { fetchJSON } from "../../lib/apiClient";
@@ -32,23 +33,25 @@ const DEFAULT_PREFS: MemorizationDeckPrefs = {
   surahNumber: 1,
   juzNumber: 1,
   pageNumber: 1,
-  cardMode: "arabic-to-meaning"
+  cardMode: "word-by-word-meaning"
 };
 
-const CARD_MODES: Array<{ id: MemorizationCardMode; label: string; desc: string }> = [
-  { id: "arabic-to-meaning", label: "Arabic → Meaning", desc: "Read Arabic, recall the meaning" },
-  { id: "meaning-to-arabic", label: "Meaning → Arabic", desc: "See meaning, recall the Arabic" },
-  { id: "first-words", label: "First Words", desc: "Continue the ayah from its opening" },
+const CARD_MODES: Array<{ id: MemorizationCardMode; label: string; desc: string; icon: string }> = [
   {
     id: "word-by-word-meaning",
     label: "Word → Meaning",
-    desc: "Memorize each Arabic word with its English meaning"
-  }
+    desc: "See an Arabic word, guess its meaning",
+    icon: "Aa"
+  },
+  { id: "arabic-to-meaning", label: "Arabic → Meaning", desc: "See the Arabic ayah, guess its translation", icon: "عر" },
+  { id: "meaning-to-arabic", label: "Meaning → Arabic", desc: "See the translation, recall the Arabic", icon: "En" },
+  { id: "first-words", label: "First Words", desc: "See the opening words, complete the ayah", icon: "..." }
 ];
 
 type MemorizationAppProps = {
   embedded?: boolean;
   reciterId?: string;
+  onBack?: () => void;
 };
 
 const WORD_AUDIO_PREFIX = "https://audio.qurancdn.com/wbw/";
@@ -75,7 +78,7 @@ export function applyReciterToMemorizationDeck(
   };
 }
 
-export function MemorizationApp({ embedded = false, reciterId: activeReciterId }: MemorizationAppProps = {}) {
+export function MemorizationApp({ embedded = false, reciterId: activeReciterId, onBack }: MemorizationAppProps = {}) {
   const [prefs, setPrefs] = useLocalStorage<MemorizationDeckPrefs>(
     STORAGE_KEYS.memorizationDeckState,
     DEFAULT_PREFS
@@ -151,6 +154,8 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
 
   const {
     counts,
+    mastery,
+    sessionHistory,
     sessionActive,
     sessionQueue,
     currentCard,
@@ -161,9 +166,15 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
     stopSession,
     revealAnswer,
     rateCurrentCard,
+    undoLastReview,
+    canUndo,
+    settings,
+    setSettings,
     suspendCurrentCard,
     resetDeckProgress
   } = useMemorizationSrs(deck);
+
+  const [showSettings, setShowSettings] = useState(false);
 
   const scopeOptions = useMemo(() => {
     if (prefs.scopeMode === "surah") {
@@ -195,28 +206,170 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
     ? Math.round((sessionStats.reviewed / totalCards) * 100)
     : 0;
 
+  // Last 7 days for activity graph
+  const last7Days = useMemo(() => {
+    const days: Array<{ label: string; date: string; reviewed: number; completed: number }> = [];
+    const dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    for (let i = 6; i >= 0; i--) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+      const entry = sessionHistory.find((e) => e.date === key);
+      days.push({
+        label: i === 0 ? "Today" : dayNames[d.getDay()],
+        date: key,
+        reviewed: entry?.reviewed || 0,
+        completed: entry?.completed || 0
+      });
+    }
+    return days;
+  }, [sessionHistory]);
+
+  const maxReviewed = Math.max(1, ...last7Days.map((d) => d.reviewed));
+  const masteryPct = mastery.total > 0
+    ? Math.round(((mastery.reviewingCount + mastery.memorizedCount) / mastery.total) * 100)
+    : 0;
+
+  const hasActivity = last7Days.some((d) => d.reviewed > 0);
+
   return (
     <main className={`mem-shell${embedded ? " mem-embedded" : ""}`}>
       {/* ── Header ── */}
       <header className="mem-header">
         <div className="mem-header-left">
+          {onBack && !sessionActive && (
+            <button type="button" className="mem-icon-btn" onClick={onBack} aria-label="Back to reader">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+          )}
           <h1 className="mem-title">Memorization</h1>
         </div>
-        {sessionActive && (
-          <button type="button" className="mem-btn mem-btn--ghost" onClick={stopSession}>
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
-            End
+        {!sessionActive && (
+          <button type="button" className="mem-icon-btn" onClick={() => setShowSettings((s) => !s)} aria-label="Settings" title="Settings">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
           </button>
         )}
+        {sessionActive && (
+          <div className="mem-header-actions">
+            {canUndo && (
+              <button type="button" className="mem-btn mem-btn--ghost mem-btn--sm" onClick={undoLastReview} aria-label="Undo last review" title="Undo (Ctrl+Z)">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7v6h6"/><path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6.69 3L3 13"/></svg>
+                Undo
+              </button>
+            )}
+            <button type="button" className="mem-btn mem-btn--ghost" onClick={stopSession}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+              End
+            </button>
+          </div>
+        )}
       </header>
+
+      {/* ── Settings Panel ── */}
+      {showSettings && !sessionActive && (
+        <section className="mem-settings">
+          <div className="mem-settings-header">
+            <h3 className="mem-settings-title">Settings</h3>
+            <button type="button" className="mem-icon-btn" onClick={() => setShowSettings(false)} aria-label="Close settings">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+            </button>
+          </div>
+
+          <div className="mem-settings-grid">
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">New cards per day</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={1}
+                max={999}
+                value={settings.newCardsPerDay}
+                onChange={(e) => setSettings((s) => ({ ...s, newCardsPerDay: Math.max(1, Number(e.target.value) || 1) }))}
+              />
+            </label>
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">Max reviews per day</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={1}
+                max={9999}
+                value={settings.maxReviewsPerDay}
+                onChange={(e) => setSettings((s) => ({ ...s, maxReviewsPerDay: Math.max(1, Number(e.target.value) || 1) }))}
+              />
+            </label>
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">Graduating interval (days)</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={1}
+                max={365}
+                value={settings.graduatingIntervalDays}
+                onChange={(e) => setSettings((s) => ({ ...s, graduatingIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+              />
+            </label>
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">Easy interval (days)</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={1}
+                max={365}
+                value={settings.easyIntervalDays}
+                onChange={(e) => setSettings((s) => ({ ...s, easyIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+              />
+            </label>
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">Max interval (days)</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={1}
+                max={3650}
+                value={settings.maxIntervalDays}
+                onChange={(e) => setSettings((s) => ({ ...s, maxIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+              />
+            </label>
+            <label className="mem-settings-field">
+              <span className="mem-settings-label">Leech threshold (lapses)</span>
+              <input
+                type="number"
+                className="mem-settings-input"
+                min={3}
+                max={99}
+                value={settings.leechThreshold}
+                onChange={(e) => setSettings((s) => ({ ...s, leechThreshold: Math.max(3, Number(e.target.value) || 8) }))}
+              />
+            </label>
+          </div>
+
+          <label className="mem-settings-toggle">
+            <input
+              type="checkbox"
+              checked={settings.autoSuspendLeeches}
+              onChange={(e) => setSettings((s) => ({ ...s, autoSuspendLeeches: e.target.checked }))}
+            />
+            <span>Auto-suspend leech cards</span>
+          </label>
+
+          <button
+            type="button"
+            className="mem-btn mem-btn--ghost mem-btn--sm"
+            onClick={() => setSettings(DEFAULT_MEMORIZATION_SETTINGS)}
+          >
+            Reset to defaults
+          </button>
+        </section>
+      )}
 
       {/* ── Setup (single surface) ── */}
       {!sessionActive && (
         <section className="mem-setup">
-          {/* Controls row */}
+          {/* Controls + Start button */}
           <div className="mem-controls">
             <div className="mem-scope-tabs" role="tablist">
-              {(["surah", "juz", "page"] as MemorizationScopeMode[]).map((mode) => (
+              {(["surah", "juz"] as MemorizationScopeMode[]).map((mode) => (
                 <button
                   key={mode}
                   type="button"
@@ -254,62 +407,92 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
                 onClick={() => setCardMode(m.id)}
               >
                 <span className="mem-mode-card-title">{m.label}</span>
-                <span className="mem-mode-card-desc">{m.desc}</span>
               </button>
             ))}
           </div>
 
-          {/* Stats */}
-          <div className={`mem-stats-row${loading ? " mem-stats-loading" : ""}`}>
-            <div className="mem-stat mem-stat--due">
-              <span className="mem-stat-value">{loading ? "–" : counts.dueNow}</span>
-              <span className="mem-stat-label">Due</span>
+          {/* Mastery + Activity — flowing sections */}
+          <div className="mem-insights">
+            <div className="mem-mastery">
+              <div className="mem-mastery-header">
+                <h3 className="mem-mastery-title">Mastery</h3>
+                <span className="mem-mastery-pct">{loading ? "–" : `${masteryPct}%`}</span>
+              </div>
+
+              <div className="mem-mastery-bar">
+                {mastery.total > 0 && (
+                  <>
+                    {mastery.memorizedCount > 0 && (
+                      <div className="mem-mastery-seg mem-mastery-seg--memorized" style={{ width: `${(mastery.memorizedCount / mastery.total) * 100}%` }} />
+                    )}
+                    {mastery.reviewingCount > 0 && (
+                      <div className="mem-mastery-seg mem-mastery-seg--reviewing" style={{ width: `${(mastery.reviewingCount / mastery.total) * 100}%` }} />
+                    )}
+                    {mastery.learningCount > 0 && (
+                      <div className="mem-mastery-seg mem-mastery-seg--learning" style={{ width: `${(mastery.learningCount / mastery.total) * 100}%` }} />
+                    )}
+                  </>
+                )}
+              </div>
+
+              <div className="mem-mastery-legend">
+                <span className="mem-legend-item"><span className="mem-legend-dot mem-legend-dot--memorized" />{mastery.memorizedCount} Strong</span>
+                <span className="mem-legend-item"><span className="mem-legend-dot mem-legend-dot--reviewing" />{mastery.reviewingCount} Learned</span>
+                <span className="mem-legend-item"><span className="mem-legend-dot mem-legend-dot--learning" />{mastery.learningCount} Learning</span>
+                <span className="mem-legend-item"><span className="mem-legend-dot mem-legend-dot--new" />{mastery.newCount} New</span>
+              </div>
             </div>
-            <div className="mem-stat-divider" />
-            <div className="mem-stat mem-stat--new">
-              <span className="mem-stat-value">{loading ? "–" : counts.newCount}</span>
-              <span className="mem-stat-label">New</span>
-            </div>
-            <div className="mem-stat-divider" />
-            <div className="mem-stat mem-stat--learning">
-              <span className="mem-stat-value">{loading ? "–" : counts.learningCount}</span>
-              <span className="mem-stat-label">Learning</span>
-            </div>
-            <div className="mem-stat-divider" />
-            <div className="mem-stat mem-stat--review">
-              <span className="mem-stat-value">{loading ? "–" : counts.reviewDueCount}</span>
-              <span className="mem-stat-label">Review</span>
+
+            <div className="mem-section-divider" />
+
+            <div className="mem-activity">
+              <h3 className="mem-activity-title">Activity</h3>
+              {hasActivity ? (
+                <div className="mem-activity-graph">
+                  {last7Days.map((day) => (
+                    <div key={day.date} className="mem-activity-col">
+                      <div className="mem-activity-bar-wrap">
+                        <div
+                          className={`mem-activity-bar${day.reviewed > 0 ? " mem-activity-bar--active" : ""}`}
+                          style={{ height: `${day.reviewed > 0 ? Math.max(8, (day.reviewed / maxReviewed) * 100) : 4}%` }}
+                        >
+                          {day.reviewed > 0 && <span className="mem-activity-bar-tooltip">{day.reviewed}</span>}
+                        </div>
+                      </div>
+                      <span className="mem-activity-label">{day.label}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="mem-activity-empty-text">No activity yet — complete a session to track your progress</p>
+              )}
             </div>
           </div>
 
-          {/* Deck info + actions */}
-          <div className="mem-deck-info">
-            <div className="mem-deck-info-text">
-              <h2 className="mem-deck-label">{deck?.deck.scopeLabel || "Select a deck"}</h2>
-              <p className="mem-deck-meta">{totalCards} cards · {activeMode.label}</p>
-            </div>
-            <div className="mem-deck-actions">
-              <button
-                type="button"
-                className="mem-btn mem-btn--primary"
-                onClick={startSession}
-                disabled={!deck || loading}
-              >
-                {loading ? "Loading…" : "Start session"}
-              </button>
-              <button
-                type="button"
-                className="mem-btn mem-btn--ghost mem-btn--sm"
-                onClick={() => {
-                  if (window.confirm(`Reset all progress for ${totalCards} cards? This cannot be undone.`)) {
-                    resetDeckProgress();
-                  }
-                }}
-                disabled={!deck}
-              >
-                Reset
-              </button>
-            </div>
+          {/* Start session */}
+          <button
+            type="button"
+            className="mem-btn mem-btn--primary mem-btn--full mem-btn--start"
+            onClick={startSession}
+            disabled={!deck || loading}
+          >
+            {loading ? "Loading…" : `Start session · ${counts.dueNow} due`}
+          </button>
+
+          <div className="mem-deck-footer">
+            <span className="mem-deck-meta">{totalCards} cards · {activeMode.label}</span>
+            <button
+              type="button"
+              className="mem-btn mem-btn--ghost mem-btn--sm"
+              onClick={() => {
+                if (window.confirm(`Reset all progress for ${totalCards} cards? This cannot be undone.`)) {
+                  resetDeckProgress();
+                }
+              }}
+              disabled={!deck}
+            >
+              Reset progress
+            </button>
           </div>
 
           {error && (
@@ -354,6 +537,10 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
               onReveal={revealAnswer}
               onRate={rateCurrentCard}
               onSuspend={suspendCurrentCard}
+              onUndo={undoLastReview}
+              canUndo={canUndo}
+              leechThreshold={settings.leechThreshold}
+              schedulerOpts={{ graduatingIntervalDays: settings.graduatingIntervalDays, easyIntervalDays: settings.easyIntervalDays, maxIntervalDays: settings.maxIntervalDays }}
             />
           ) : (
             <div className="mem-complete">
@@ -361,9 +548,65 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId }
                 <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="var(--accent-2)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg>
               </div>
               <h2 className="mem-complete-title">Session complete</h2>
-              <p className="mem-complete-meta">
-                {sessionStats.reviewed} reviewed · {sessionStats.completed} passed{sessionStats.againCount > 0 ? ` · ${sessionStats.againCount} repeated` : ""}
-              </p>
+
+              {/* Stats grid */}
+              <div className="mem-complete-stats">
+                <div className="mem-complete-stat">
+                  <span className="mem-complete-stat-value">{sessionStats.reviewed}</span>
+                  <span className="mem-complete-stat-label">Reviewed</span>
+                </div>
+                <div className="mem-complete-stat">
+                  <span className="mem-complete-stat-value">
+                    {sessionStats.reviewed > 0 ? Math.round((sessionStats.completed / sessionStats.reviewed) * 100) : 0}%
+                  </span>
+                  <span className="mem-complete-stat-label">Accuracy</span>
+                </div>
+                <div className="mem-complete-stat">
+                  <span className="mem-complete-stat-value">
+                    {sessionStats.totalTimeMs > 0
+                      ? sessionStats.totalTimeMs >= 60000
+                        ? `${Math.round(sessionStats.totalTimeMs / 60000)}m`
+                        : `${Math.round(sessionStats.totalTimeMs / 1000)}s`
+                      : "–"}
+                  </span>
+                  <span className="mem-complete-stat-label">Time</span>
+                </div>
+                <div className="mem-complete-stat">
+                  <span className="mem-complete-stat-value">
+                    {sessionStats.reviewed > 0
+                      ? `${Math.round(sessionStats.totalTimeMs / sessionStats.reviewed / 1000)}s`
+                      : "–"}
+                  </span>
+                  <span className="mem-complete-stat-label">Per card</span>
+                </div>
+              </div>
+
+              {/* Rating breakdown bar */}
+              {sessionStats.reviewed > 0 && (
+                <div className="mem-complete-breakdown">
+                  <div className="mem-complete-breakdown-bar">
+                    {sessionStats.againCount > 0 && (
+                      <div className="mem-breakdown-seg mem-breakdown-seg--again" style={{ width: `${(sessionStats.againCount / sessionStats.reviewed) * 100}%` }} />
+                    )}
+                    {sessionStats.hardCount > 0 && (
+                      <div className="mem-breakdown-seg mem-breakdown-seg--hard" style={{ width: `${(sessionStats.hardCount / sessionStats.reviewed) * 100}%` }} />
+                    )}
+                    {sessionStats.goodCount > 0 && (
+                      <div className="mem-breakdown-seg mem-breakdown-seg--good" style={{ width: `${(sessionStats.goodCount / sessionStats.reviewed) * 100}%` }} />
+                    )}
+                    {sessionStats.easyCount > 0 && (
+                      <div className="mem-breakdown-seg mem-breakdown-seg--easy" style={{ width: `${(sessionStats.easyCount / sessionStats.reviewed) * 100}%` }} />
+                    )}
+                  </div>
+                  <div className="mem-complete-breakdown-legend">
+                    {sessionStats.againCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--again">{sessionStats.againCount} Again</span>}
+                    {sessionStats.hardCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--hard">{sessionStats.hardCount} Hard</span>}
+                    {sessionStats.goodCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--good">{sessionStats.goodCount} Good</span>}
+                    {sessionStats.easyCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--easy">{sessionStats.easyCount} Easy</span>}
+                  </div>
+                </div>
+              )}
+
               <div className="mem-complete-actions">
                 <button type="button" className="mem-btn mem-btn--primary" onClick={startSession}>New session</button>
                 <button type="button" className="mem-btn mem-btn--ghost" onClick={stopSession}>Back to deck</button>

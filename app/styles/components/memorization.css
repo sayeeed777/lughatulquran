@@ -1,20 +1,20 @@
 /* ============================================
-   MEMORIZATION — Modern Glass Design
+   MEMORIZATION
    ============================================ */
 
 /* ── Keyframes ── */
 @keyframes memFadeUp {
-  from { opacity: 0; transform: translateY(16px); }
+  from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes memScaleIn {
-  from { opacity: 0; transform: scale(0.95); }
+  from { opacity: 0; transform: scale(0.97); }
   to   { opacity: 1; transform: scale(1); }
 }
 
 @keyframes memReveal {
-  from { opacity: 0; transform: translateY(6px); }
+  from { opacity: 0; transform: translateY(4px); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
@@ -25,8 +25,8 @@
   padding: 40px 0 96px;
   display: flex;
   flex-direction: column;
-  gap: 28px;
-  animation: memFadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  gap: 24px;
+  animation: memFadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mem-shell.mem-embedded {
@@ -40,7 +40,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 0;
 }
 
 .mem-header-left {
@@ -50,23 +49,19 @@
   min-width: 0;
 }
 
-/* badge removed */
+.mem-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
 .mem-title {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   font-weight: 720;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.04em;
   color: var(--text);
   line-height: 1.1;
-}
-
-.mem-subtitle {
-  margin: 3px 0 0;
-  font-size: 0.8rem;
-  color: var(--muted);
-  letter-spacing: 0.01em;
-  font-weight: 450;
 }
 
 /* ── Shared button system ── */
@@ -77,12 +72,12 @@
   gap: 7px;
   border: none;
   cursor: pointer;
-  font-weight: 580;
+  font-weight: 560;
   font-size: var(--text-sm);
   border-radius: 12px;
   padding: 9px 18px;
   min-height: 40px;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -95,46 +90,43 @@
 .mem-btn--primary {
   background: var(--gradient-primary);
   color: #eef8f3;
-  box-shadow:
-    0 2px 8px color-mix(in srgb, var(--accent-2) 25%, transparent),
-    0 1px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .mem-btn--primary:not(:disabled):hover {
-  filter: brightness(1.1);
+  filter: brightness(1.08);
   transform: translateY(-1px);
-  box-shadow:
-    0 6px 20px color-mix(in srgb, var(--accent-2) 30%, transparent),
-    0 2px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent-2) 20%, transparent);
 }
 
 .mem-btn--primary:not(:disabled):active {
-  transform: scale(0.97);
-  filter: brightness(0.96);
+  transform: scale(0.98);
+  filter: brightness(0.97);
+}
+
+.mem-btn--start {
+  min-height: 48px;
+  padding: 13px 28px;
+  font-size: 0.92rem;
+  font-weight: 620;
+  border-radius: 14px;
+  letter-spacing: -0.01em;
 }
 
 .mem-btn--ghost {
-  background: color-mix(in srgb, var(--text) 6%, transparent);
+  background: transparent;
   color: var(--muted);
-  border: 1px solid color-mix(in srgb, var(--stroke) 50%, transparent);
 }
 
 .mem-btn--ghost:not(:disabled):hover {
-  background: color-mix(in srgb, var(--text) 10%, transparent);
   color: var(--text);
-  border-color: color-mix(in srgb, var(--stroke) 80%, transparent);
-}
-
-.mem-btn--ghost:not(:disabled):active {
-  transform: scale(0.97);
 }
 
 .mem-btn--sm {
-  min-height: 34px;
-  padding: 6px 12px;
+  min-height: 32px;
+  padding: 5px 10px;
   font-size: 0.72rem;
-  font-weight: 520;
-  border-radius: 10px;
+  font-weight: 480;
 }
 
 .mem-btn--lg {
@@ -143,7 +135,6 @@
   font-size: var(--text-base);
   font-weight: 620;
   border-radius: 14px;
-  letter-spacing: -0.01em;
 }
 
 .mem-btn--full {
@@ -151,77 +142,147 @@
 }
 
 .mem-icon-btn {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  border: 1px solid color-mix(in srgb, var(--stroke) 40%, transparent);
-  background: color-mix(in srgb, var(--text) 4%, transparent);
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  background: transparent;
   color: var(--muted);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   flex-shrink: 0;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
 .mem-icon-btn:hover {
-  background: color-mix(in srgb, var(--text) 10%, transparent);
+  background: color-mix(in srgb, var(--text) 8%, transparent);
   color: var(--text);
-  border-color: color-mix(in srgb, var(--stroke) 70%, transparent);
-  transform: translateY(-1px);
 }
 
 .mem-icon-btn:active {
-  transform: scale(0.92);
+  transform: scale(0.9);
 }
 
-/* ── Setup — Glass surface ── */
+/* ── Settings Panel ── */
+.mem-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px;
+  background: color-mix(in srgb, var(--card-strong) 90%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid color-mix(in srgb, var(--stroke) 40%, transparent);
+  border-radius: 20px;
+  animation: memFadeUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mem-settings-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mem-settings-title {
+  margin: 0;
+  font-size: 0.92rem;
+  font-weight: 640;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.mem-settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.mem-settings-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.mem-settings-label {
+  font-size: 0.72rem;
+  font-weight: 540;
+  color: var(--muted);
+}
+
+.mem-settings-input {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--stroke) 50%, transparent);
+  background: color-mix(in srgb, var(--text) 4%, transparent);
+  color: var(--text);
+  font-size: 0.84rem;
+  font-weight: 520;
+  font-variant-numeric: tabular-nums;
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
+
+.mem-settings-input:focus {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 12%, transparent);
+}
+
+.mem-settings-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+  font-weight: 480;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.mem-settings-toggle input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--accent-2);
+  cursor: pointer;
+}
+
+/* ── Setup ── */
 .mem-setup {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding: 28px 30px;
-  background: color-mix(in srgb, var(--card-strong) 80%, transparent);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  border: 1px solid color-mix(in srgb, var(--stroke) 55%, transparent);
-  border-radius: 22px;
-  box-shadow:
-    0 4px 32px rgba(0, 0, 0, 0.08),
-    0 1px 2px rgba(0, 0, 0, 0.04),
-    inset 0 1px 0 color-mix(in srgb, white 4%, transparent);
-  animation: memFadeUp 0.5s 0.08s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: memFadeUp 0.5s 0.05s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 /* ── Scope tabs + deck picker ── */
 .mem-controls {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
 }
 
 .mem-scope-tabs {
   display: flex;
   gap: 2px;
   padding: 3px;
-  border-radius: 12px;
-  background: color-mix(in srgb, var(--text) 5%, transparent);
-  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
   flex-shrink: 0;
 }
 
 .mem-scope-tab {
-  padding: 8px 16px;
-  border-radius: 9px;
+  padding: 7px 14px;
+  border-radius: 7px;
   border: none;
   background: transparent;
   color: var(--muted);
-  font-size: 0.82rem;
-  font-weight: 560;
+  font-size: 0.8rem;
+  font-weight: 540;
   cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -230,9 +291,9 @@
 }
 
 .mem-scope-tab.active {
-  background: color-mix(in srgb, var(--text) 10%, transparent);
+  background: color-mix(in srgb, var(--text) 12%, transparent);
   color: var(--text);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  font-weight: 600;
 }
 
 /* ── Deck picker ── */
@@ -246,164 +307,302 @@
   width: 100%;
   appearance: none;
   -webkit-appearance: none;
-  min-height: 38px;
-  padding: 8px 32px 8px 14px;
-  border-radius: 12px;
-  border: 1px solid color-mix(in srgb, var(--stroke) 60%, transparent);
-  background: color-mix(in srgb, var(--text) 4%, transparent);
+  min-height: 36px;
+  padding: 7px 28px 7px 12px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--stroke) 40%, transparent);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
   color: var(--text);
-  font-size: 0.84rem;
-  font-weight: 500;
+  font-size: 0.82rem;
+  font-weight: 480;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: all 0.2s ease;
 }
 
 .mem-select:hover {
-  background: color-mix(in srgb, var(--text) 7%, transparent);
-  border-color: color-mix(in srgb, var(--stroke) 80%, transparent);
+  border-color: color-mix(in srgb, var(--stroke) 70%, transparent);
 }
 
 .mem-select:focus {
   outline: none;
-  border-color: color-mix(in srgb, var(--accent-2) 50%, transparent);
+  border-color: var(--accent-2);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 12%, transparent);
 }
 
 .mem-select-chevron {
   position: absolute;
-  right: 11px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--muted);
   pointer-events: none;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
-/* ── Mode cards (2x2 grid) ── */
+/* ── Mode cards — pill row ── */
 .mem-mode-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
 }
 
 .mem-mode-card {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 5px;
-  padding: 16px 18px;
-  border-radius: 12px;
-  border: 1px solid transparent;
-  background: color-mix(in srgb, var(--text) 4%, transparent);
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
+  background: transparent;
   cursor: pointer;
   text-align: left;
-  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
 .mem-mode-card:hover {
-  background: color-mix(in srgb, var(--text) 7%, transparent);
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  border-color: color-mix(in srgb, var(--stroke) 50%, transparent);
 }
 
 .mem-mode-card.active {
-  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
-  border-color: color-mix(in srgb, var(--accent-2) 25%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border-color: color-mix(in srgb, var(--accent-2) 30%, transparent);
+}
+
+.mem-mode-card-icon {
+  display: none;
+}
+
+.mem-mode-card-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .mem-mode-card-title {
-  font-size: 0.9rem;
-  font-weight: 620;
-  color: var(--text);
+  font-size: 0.78rem;
+  font-weight: 560;
+  color: var(--muted);
   letter-spacing: -0.01em;
 }
 
 .mem-mode-card.active .mem-mode-card-title {
   color: var(--accent-2);
+  font-weight: 620;
 }
 
 .mem-mode-card-desc {
-  font-size: 0.76rem;
-  color: var(--muted);
-  line-height: 1.4;
-  font-weight: 440;
+  display: none;
 }
 
-/* ── Stats row ── */
-.mem-stats-row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2px 0;
-}
-
-.mem-stat {
+/* ── Insights container (mastery + activity) ── */
+.mem-insights {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 4px;
-  flex: 1;
-  min-width: 0;
+  gap: 0;
+  padding: 24px;
+  background: color-mix(in srgb, var(--card-strong) 70%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
+  border-radius: 20px;
 }
 
-.mem-stat-value {
-  font-size: 1.6rem;
+.mem-section-divider {
+  height: 1px;
+  background: color-mix(in srgb, var(--stroke) 25%, transparent);
+  margin: 20px 0;
+}
+
+/* ── Mastery Progress ── */
+.mem-mastery {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mem-mastery-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mem-mastery-title {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+
+.mem-mastery-pct {
+  font-size: 1.1rem;
   font-weight: 700;
-  line-height: 1;
+  color: var(--text);
   letter-spacing: -0.03em;
   font-variant-numeric: tabular-nums;
 }
 
-.mem-stat--due .mem-stat-value     { color: var(--accent-2); }
-.mem-stat--new .mem-stat-value     { color: var(--accent); }
-.mem-stat--learning .mem-stat-value { color: #edb95e; }
-.mem-stat--review .mem-stat-value   { color: #6eade8; }
-
-.mem-stat-label {
-  font-size: 0.62rem;
-  font-weight: 650;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+.mem-mastery-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--text) 8%, transparent);
+  overflow: hidden;
+  gap: 1px;
 }
 
-.mem-stat-divider {
-  width: 1px;
-  height: 26px;
-  background: color-mix(in srgb, var(--stroke) 45%, transparent);
+.mem-mastery-seg {
+  height: 100%;
+  min-width: 3px;
+  border-radius: 3px;
+  transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mem-mastery-seg--memorized { background: var(--accent-2); }
+.mem-mastery-seg--reviewing { background: #6eade8; }
+.mem-mastery-seg--learning  { background: #edb95e; }
+
+.mem-mastery-legend {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.mem-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.68rem;
+  color: var(--muted);
+  font-weight: 480;
+  font-variant-numeric: tabular-nums;
+}
+
+.mem-legend-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
   flex-shrink: 0;
 }
 
-.mem-stats-loading .mem-stat-value {
-  opacity: 0.3;
+.mem-legend-dot--memorized { background: var(--accent-2); }
+.mem-legend-dot--reviewing { background: #6eade8; }
+.mem-legend-dot--learning  { background: #edb95e; }
+.mem-legend-dot--new       { background: color-mix(in srgb, var(--text) 18%, transparent); }
+
+/* ── Activity Graph ── */
+.mem-activity {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-/* ── Deck info + actions ── */
-.mem-deck-info {
+.mem-activity-title {
+  margin: 0;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.68rem;
+}
+
+.mem-activity-graph {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 64px;
+  padding: 4px 0 0;
+}
+
+.mem-activity-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  height: 100%;
+}
+
+.mem-activity-bar-wrap {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.mem-activity-bar {
+  width: 100%;
+  max-width: 28px;
+  border-radius: 4px 4px 2px 2px;
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  transition: height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  min-height: 3px;
+}
+
+.mem-activity-bar--active {
+  background: var(--accent-2);
+  opacity: 0.7;
+}
+
+.mem-activity-bar-tooltip {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  font-weight: 680;
+  color: var(--accent-2);
+  font-variant-numeric: tabular-nums;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  pointer-events: none;
+}
+
+.mem-activity-col:hover .mem-activity-bar-tooltip {
+  opacity: 1;
+}
+
+.mem-activity-label {
+  font-size: 0.58rem;
+  font-weight: 540;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.6;
+}
+
+.mem-activity-empty-text {
+  margin: 0;
+  font-size: 0.76rem;
+  color: var(--muted);
+  font-weight: 440;
+  opacity: 0.5;
+  padding: 12px 0 4px;
+}
+
+/* ── Deck footer ── */
+.mem-deck-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
-  padding: 16px 0 0;
-  border-top: 1px solid color-mix(in srgb, var(--stroke) 35%, transparent);
 }
 
-.mem-deck-info-text {
-  min-width: 0;
-}
-
-.mem-deck-label {
+.mem-deck-footer .mem-deck-meta {
   margin: 0;
-  font-size: 1.15rem;
-  font-weight: 640;
-  color: var(--text);
-  letter-spacing: -0.02em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-size: 0.72rem;
+  color: var(--muted);
+  opacity: 0.6;
+  font-weight: 440;
 }
 
+/* legacy .mem-deck-meta used elsewhere */
 .mem-deck-meta {
-  margin: 4px 0 0;
+  margin: 0;
   font-size: 0.76rem;
   color: var(--muted);
   letter-spacing: 0.01em;
@@ -436,41 +635,38 @@
 .mem-session {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  animation: memFadeUp 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  gap: 14px;
+  animation: memFadeUp 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* ── Progress bar ── */
 .mem-progress-bar {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .mem-progress-stats {
   display: flex;
   align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .mem-progress-pill {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  padding: 4px 10px;
-  border-radius: var(--radius-full);
-  background: color-mix(in srgb, var(--text) 5%, transparent);
-  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
   font-size: 0.72rem;
-  font-weight: 480;
+  font-weight: 440;
   color: var(--muted);
-  letter-spacing: 0.01em;
+  padding: 0;
+  border: none;
+  background: transparent;
 }
 
 .mem-progress-pill strong {
   color: var(--text);
-  font-weight: 660;
+  font-weight: 640;
   font-variant-numeric: tabular-nums;
 }
 
@@ -478,27 +674,26 @@
 .mem-progress-pill--again strong { color: #f3a08b; }
 
 .mem-progress-track {
-  height: 5px;
-  border-radius: 3px;
-  background: color-mix(in srgb, var(--text) 6%, transparent);
+  height: 3px;
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--text) 8%, transparent);
   overflow: hidden;
 }
 
 .mem-progress-fill {
   height: 100%;
-  border-radius: 3px;
-  background: linear-gradient(90deg, var(--accent-2), color-mix(in srgb, var(--accent-2) 70%, var(--accent) 30%));
-  box-shadow: 0 0 12px color-mix(in srgb, var(--accent-2) 30%, transparent);
-  transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-  min-width: 4px;
+  border-radius: 2px;
+  background: var(--accent-2);
+  transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  min-width: 3px;
 }
 
 /* ── Flashcard ── */
 .mem-flashcard {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  animation: memScaleIn 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  gap: 12px;
+  animation: memScaleIn 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mem-card-header {
@@ -506,60 +701,79 @@
   align-items: center;
   justify-content: space-between;
   gap: 10px;
-  padding: 0 4px;
+  padding: 0 2px;
 }
 
 .mem-card-header-left {
   display: flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   min-width: 0;
 }
 
 .mem-card-header-right {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 4px;
 }
 
 .mem-status-dot {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
   flex-shrink: 0;
 }
 
-.mem-status-dot.new        { background: var(--accent); box-shadow: 0 0 8px color-mix(in srgb, var(--accent) 40%, transparent); }
+.mem-status-dot.new        { background: var(--accent); }
 .mem-status-dot.learning,
-.mem-status-dot.relearning { background: #edb95e; box-shadow: 0 0 8px color-mix(in srgb, #edb95e 40%, transparent); }
-.mem-status-dot.review     { background: var(--accent-2); box-shadow: 0 0 8px color-mix(in srgb, var(--accent-2) 40%, transparent); }
+.mem-status-dot.relearning { background: #edb95e; }
+.mem-status-dot.review     { background: var(--accent-2); }
 
 .mem-card-verse {
-  font-size: 0.84rem;
-  font-weight: 620;
+  font-size: 0.8rem;
+  font-weight: 580;
   color: var(--text);
   letter-spacing: -0.01em;
 }
 
 .mem-card-status-text {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--muted);
-  font-weight: 480;
+  font-weight: 440;
+}
+
+.mem-card-timer {
+  font-size: 0.7rem;
+  font-weight: 560;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  opacity: 0.5;
+  min-width: 24px;
+  text-align: right;
+}
+
+.mem-leech-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, #ef4444 10%, transparent);
+  color: #ef4444;
+  font-size: 0.58rem;
+  font-weight: 640;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 /* ── Card body ── */
 .mem-card-body {
   border-radius: 20px;
-  border: 1px solid color-mix(in srgb, var(--stroke) 60%, transparent);
-  background: color-mix(in srgb, var(--card-strong) 85%, transparent);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  box-shadow:
-    0 4px 32px rgba(0, 0, 0, 0.1),
-    0 1px 2px rgba(0, 0, 0, 0.05),
-    inset 0 1px 0 color-mix(in srgb, white 4%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 40%, transparent);
+  background: color-mix(in srgb, var(--card-strong) 80%, transparent);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   overflow: hidden;
-  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.25s ease;
 }
 
 .mem-card-body--front {
@@ -567,21 +781,18 @@
 }
 
 .mem-card-body--front:hover {
-  border-color: color-mix(in srgb, var(--stroke) 90%, transparent);
-  box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.12),
-    inset 0 1px 0 color-mix(in srgb, white 5%, transparent);
-  transform: translateY(-2px);
+  border-color: color-mix(in srgb, var(--stroke) 65%, transparent);
+  transform: translateY(-1px);
 }
 
 .mem-card-body--front:active {
-  transform: translateY(-1px) scale(0.998);
+  transform: scale(0.998);
 }
 
 .mem-card-body--front:focus-visible {
   outline: none;
-  border-color: color-mix(in srgb, var(--stroke) 100%, transparent);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--text) 10%, transparent);
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 12%, transparent);
 }
 
 /* ── Card front ── */
@@ -590,37 +801,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 18px;
-  padding: 64px 40px;
-  min-height: 380px;
+  gap: 16px;
+  padding: 56px 36px;
+  min-height: 340px;
   text-align: center;
 }
 
 .mem-card-prompt-label {
-  font-size: 0.68rem;
-  font-weight: 700;
+  font-size: 0.62rem;
+  font-weight: 640;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   color: var(--accent-2);
-  opacity: 0.9;
-  padding: 5px 14px;
-  border-radius: var(--radius-full);
-  background: color-mix(in srgb, var(--accent-2) 8%, transparent);
+  opacity: 0.7;
 }
 
 .mem-card-context-chip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 30px;
-  padding: 0 14px;
+  min-height: 28px;
+  padding: 0 12px;
   border-radius: var(--radius-full);
-  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
-  border: 1px solid color-mix(in srgb, var(--accent-2) 18%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 8%, transparent);
   color: var(--accent-2);
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.02em;
+  font-size: 0.7rem;
+  font-weight: 560;
 }
 
 .mem-card-arabic {
@@ -646,56 +852,54 @@
 
 .mem-card-hint {
   margin: 0;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   color: var(--muted);
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .mem-card-tap-hint {
-  font-size: 0.68rem;
-  color: color-mix(in srgb, var(--muted) 40%, transparent);
-  margin-top: 16px;
-  letter-spacing: 0.03em;
-  padding: 4px 12px;
-  border-radius: var(--radius-full);
-  border: 1px solid color-mix(in srgb, var(--stroke) 25%, transparent);
+  font-size: 0.64rem;
+  color: var(--muted);
+  opacity: 0.3;
+  margin-top: 12px;
+  letter-spacing: 0.02em;
 }
 
 /* ── Card back ── */
 .mem-card-back {
   display: flex;
   flex-direction: column;
-  padding: 36px;
-  animation: memReveal 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  padding: 32px;
+  animation: memReveal 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mem-answer-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 18px 0;
+  gap: 8px;
+  padding: 16px 0;
 }
 
 .mem-answer-section:first-child {
-  padding-top: 6px;
+  padding-top: 4px;
 }
 
 .mem-answer-section:last-child {
-  padding-bottom: 6px;
+  padding-bottom: 4px;
 }
 
 .mem-answer-divider {
   height: 1px;
-  background: color-mix(in srgb, var(--stroke) 40%, transparent);
+  background: color-mix(in srgb, var(--stroke) 25%, transparent);
 }
 
 .mem-answer-label {
-  font-size: 0.65rem;
-  font-weight: 720;
+  font-size: 0.6rem;
+  font-weight: 640;
   text-transform: uppercase;
-  letter-spacing: 0.16em;
+  letter-spacing: 0.14em;
   color: var(--accent-2);
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .mem-card-translit {
@@ -711,7 +915,7 @@
   font-family: var(--font-arabic);
   font-size: clamp(1.2rem, 2.8vw, 1.7rem);
   line-height: 1.9;
-  color: color-mix(in srgb, var(--text) 88%, transparent);
+  color: color-mix(in srgb, var(--text) 85%, transparent);
 }
 
 .mem-card-context-meaning {
@@ -729,9 +933,9 @@
 /* ── Rating row ── */
 .mem-rating-row {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 8px;
-  animation: memFadeUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6px;
+  animation: memFadeUp 0.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mem-rate-btn {
@@ -739,73 +943,90 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 4px;
-  min-height: 72px;
-  padding: 14px 12px;
+  gap: 3px;
+  min-height: 64px;
+  padding: 12px 8px;
   border: 1px solid transparent;
   border-radius: 14px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
 .mem-rate-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  transform: translateY(-1px);
 }
 
 .mem-rate-btn:active {
-  transform: scale(0.96);
+  transform: scale(0.97);
 }
 
 .mem-rate-label {
-  font-size: 0.92rem;
-  font-weight: 650;
+  font-size: 0.84rem;
+  font-weight: 620;
   letter-spacing: -0.01em;
 }
 
 .mem-rate-interval {
-  font-size: 0.8rem;
-  font-weight: 550;
-  opacity: 0.85;
+  font-size: 0.72rem;
+  font-weight: 480;
+  opacity: 0.7;
 }
 
 .mem-rate-key {
   position: absolute;
-  top: 5px;
-  right: 7px;
-  font-size: 0.58rem;
-  opacity: 0.25;
-  font-weight: 600;
+  top: 4px;
+  right: 6px;
+  font-size: 0.54rem;
+  opacity: 0.2;
+  font-weight: 560;
   font-variant-numeric: tabular-nums;
 }
 
-/* Soft translucent rating colors */
 .mem-rate-btn--again {
-  background: color-mix(in srgb, #ef4444 12%, transparent);
-  border-color: color-mix(in srgb, #ef4444 20%, transparent);
+  background: color-mix(in srgb, #ef4444 10%, transparent);
   color: #ef4444;
 }
 .mem-rate-btn--again .mem-rate-interval { color: #ef4444; }
 .mem-rate-btn--again .mem-rate-key     { color: #ef4444; }
 .mem-rate-btn--again:hover {
-  background: color-mix(in srgb, #ef4444 18%, transparent);
-  border-color: color-mix(in srgb, #ef4444 30%, transparent);
+  background: color-mix(in srgb, #ef4444 16%, transparent);
+  border-color: color-mix(in srgb, #ef4444 20%, transparent);
 }
 
-/* "Pass" button uses "good" rating internally */
+.mem-rate-btn--hard {
+  background: color-mix(in srgb, #edb95e 10%, transparent);
+  color: #edb95e;
+}
+.mem-rate-btn--hard .mem-rate-interval { color: #edb95e; }
+.mem-rate-btn--hard .mem-rate-key     { color: #edb95e; }
+.mem-rate-btn--hard:hover {
+  background: color-mix(in srgb, #edb95e 16%, transparent);
+  border-color: color-mix(in srgb, #edb95e 20%, transparent);
+}
+
 .mem-rate-btn--good {
-  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
-  border-color: color-mix(in srgb, var(--accent-2) 22%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
   color: var(--accent-2);
 }
 .mem-rate-btn--good .mem-rate-interval { color: var(--accent-2); }
 .mem-rate-btn--good .mem-rate-key     { color: var(--accent-2); }
 .mem-rate-btn--good:hover {
-  background: color-mix(in srgb, var(--accent-2) 20%, transparent);
-  border-color: color-mix(in srgb, var(--accent-2) 32%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  border-color: color-mix(in srgb, var(--accent-2) 22%, transparent);
+}
+
+.mem-rate-btn--easy {
+  background: color-mix(in srgb, #6eade8 10%, transparent);
+  color: #6eade8;
+}
+.mem-rate-btn--easy .mem-rate-interval { color: #6eade8; }
+.mem-rate-btn--easy .mem-rate-key     { color: #6eade8; }
+.mem-rate-btn--easy:hover {
+  background: color-mix(in srgb, #6eade8 16%, transparent);
+  border-color: color-mix(in srgb, #6eade8 20%, transparent);
 }
 
 /* ── Session complete ── */
@@ -813,53 +1034,126 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
-  padding: 72px 36px 64px;
-  border-radius: 22px;
-  border: 1px solid color-mix(in srgb, var(--stroke) 55%, transparent);
-  background: color-mix(in srgb, var(--card-strong) 85%, transparent);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
-  box-shadow:
-    0 4px 32px rgba(0, 0, 0, 0.08),
-    0 1px 2px rgba(0, 0, 0, 0.04),
-    inset 0 1px 0 color-mix(in srgb, white 4%, transparent);
+  gap: 20px;
+  padding: 64px 32px 56px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--stroke) 40%, transparent);
+  background: color-mix(in srgb, var(--card-strong) 80%, transparent);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   text-align: center;
-  animation: memScaleIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  animation: memScaleIn 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .mem-complete-icon {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: color-mix(in srgb, var(--accent-2) 10%, transparent);
-  border: 1px solid color-mix(in srgb, var(--accent-2) 18%, transparent);
-  box-shadow: 0 0 24px color-mix(in srgb, var(--accent-2) 12%, transparent);
 }
 
 .mem-complete-title {
   margin: 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: var(--text);
   letter-spacing: -0.03em;
 }
 
-.mem-complete-meta {
-  margin: 0;
-  font-size: 0.84rem;
-  color: var(--muted);
-  letter-spacing: 0.01em;
+/* ── Session complete stats grid ── */
+.mem-complete-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--stroke) 12%, transparent);
 }
+
+.mem-complete-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 6px;
+  background: color-mix(in srgb, var(--card-strong) 95%, transparent);
+}
+
+.mem-complete-stat-value {
+  font-size: 1.25rem;
+  font-weight: 720;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+
+.mem-complete-stat-label {
+  font-size: 0.58rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* ── Rating breakdown ── */
+.mem-complete-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.mem-complete-breakdown-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  gap: 1px;
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+}
+
+.mem-breakdown-seg {
+  height: 100%;
+  min-width: 3px;
+  border-radius: 3px;
+  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mem-breakdown-seg--again { background: #ef4444; }
+.mem-breakdown-seg--hard  { background: #edb95e; }
+.mem-breakdown-seg--good  { background: var(--accent-2); }
+.mem-breakdown-seg--easy  { background: #6eade8; }
+
+.mem-complete-breakdown-legend {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mem-breakdown-item {
+  font-size: 0.66rem;
+  font-weight: 540;
+  font-variant-numeric: tabular-nums;
+}
+
+.mem-breakdown-item--again { color: #ef4444; }
+.mem-breakdown-item--hard  { color: #edb95e; }
+.mem-breakdown-item--good  { color: var(--accent-2); }
+.mem-breakdown-item--easy  { color: #6eade8; }
 
 .mem-complete-actions {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 /* ── Responsive ── */
@@ -867,25 +1161,13 @@
   .mem-shell {
     width: calc(100vw - 28px);
     padding: 20px 0 80px;
-    gap: 16px;
-  }
-
-  .mem-setup {
-    padding: 18px;
-    border-radius: 18px;
-    gap: 16px;
-  }
-
-  .mem-header {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+    gap: 20px;
   }
 
   .mem-controls {
     flex-direction: column;
     align-items: stretch;
-    gap: 10px;
+    gap: 8px;
   }
 
   .mem-scope-tabs {
@@ -893,53 +1175,55 @@
   }
 
   .mem-mode-grid {
-    grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 5px;
   }
 
   .mem-mode-card {
-    padding: 12px 14px;
+    padding: 6px 12px;
   }
 
-  .mem-stats-row {
-    padding: 2px 0;
+  .mem-insights {
+    padding: 18px;
+    border-radius: 16px;
   }
 
-  .mem-stat-value {
-    font-size: 1.2rem;
+  .mem-mastery-legend {
+    gap: 10px;
   }
 
-  .mem-stat-divider {
-    height: 20px;
+  .mem-activity-graph {
+    height: 48px;
+    gap: 4px;
   }
 
-  .mem-deck-info {
+  .mem-settings-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .mem-settings {
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .mem-deck-footer {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding-top: 14px;
-  }
-
-  .mem-deck-actions {
-    width: 100%;
-  }
-
-  .mem-deck-actions .mem-btn--primary {
-    flex: 1;
+    align-items: center;
+    gap: 4px;
   }
 
   .mem-card-front {
-    padding: 40px 22px;
-    min-height: 280px;
+    padding: 36px 20px;
+    min-height: 260px;
   }
 
   .mem-card-back {
-    padding: 22px;
+    padding: 20px;
   }
 
   .mem-complete {
-    padding: 44px 22px 40px;
-    border-radius: 18px;
+    padding: 40px 20px 36px;
+    border-radius: 16px;
   }
 
   .mem-complete-actions {
@@ -952,13 +1236,118 @@
   }
 
   .mem-progress-stats {
-    gap: 5px;
+    gap: 10px;
   }
 
-  .mem-progress-pill {
-    padding: 3px 8px;
-    font-size: 0.68rem;
+  .mem-rating-row {
+    grid-template-columns: repeat(2, 1fr);
   }
+
+  .mem-rate-btn {
+    min-height: 56px;
+    padding: 10px 8px;
+  }
+
+  .mem-rate-label {
+    font-size: 0.78rem;
+  }
+
+  .mem-rate-interval {
+    font-size: 0.66rem;
+  }
+}
+
+/* ── Theme overrides: BW-dark ── */
+:root[data-theme="bw-dark"] .mem-btn--primary {
+  color: #111111;
+}
+
+:root[data-theme="bw-dark"] .mem-rate-btn--again {
+  background: color-mix(in srgb, var(--text) 8%, transparent);
+  color: var(--text);
+}
+:root[data-theme="bw-dark"] .mem-rate-btn--again .mem-rate-interval,
+:root[data-theme="bw-dark"] .mem-rate-btn--again .mem-rate-key { color: var(--muted); }
+:root[data-theme="bw-dark"] .mem-rate-btn--hard {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  color: var(--muted);
+}
+:root[data-theme="bw-dark"] .mem-rate-btn--hard .mem-rate-interval,
+:root[data-theme="bw-dark"] .mem-rate-btn--hard .mem-rate-key { color: var(--muted); }
+:root[data-theme="bw-dark"] .mem-rate-btn--good {
+  background: color-mix(in srgb, var(--text) 12%, transparent);
+  color: var(--text);
+}
+:root[data-theme="bw-dark"] .mem-rate-btn--good .mem-rate-interval,
+:root[data-theme="bw-dark"] .mem-rate-btn--good .mem-rate-key { color: var(--text); }
+:root[data-theme="bw-dark"] .mem-rate-btn--easy {
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  color: var(--text);
+}
+:root[data-theme="bw-dark"] .mem-rate-btn--easy .mem-rate-interval,
+:root[data-theme="bw-dark"] .mem-rate-btn--easy .mem-rate-key { color: var(--muted); }
+
+:root[data-theme="bw-dark"] .mem-mastery-seg--memorized { background: var(--text); }
+:root[data-theme="bw-dark"] .mem-mastery-seg--reviewing { background: var(--muted); }
+:root[data-theme="bw-dark"] .mem-mastery-seg--learning  { background: color-mix(in srgb, var(--muted) 50%, transparent); }
+:root[data-theme="bw-dark"] .mem-legend-dot--memorized   { background: var(--text); }
+:root[data-theme="bw-dark"] .mem-legend-dot--reviewing   { background: var(--muted); }
+:root[data-theme="bw-dark"] .mem-legend-dot--learning    { background: color-mix(in srgb, var(--muted) 50%, transparent); }
+:root[data-theme="bw-dark"] .mem-breakdown-seg--again    { background: var(--text); }
+:root[data-theme="bw-dark"] .mem-breakdown-seg--hard     { background: var(--muted); }
+:root[data-theme="bw-dark"] .mem-breakdown-seg--good     { background: color-mix(in srgb, var(--text) 80%, transparent); }
+:root[data-theme="bw-dark"] .mem-breakdown-seg--easy     { background: color-mix(in srgb, var(--muted) 70%, transparent); }
+:root[data-theme="bw-dark"] .mem-breakdown-item--again   { color: var(--text); }
+:root[data-theme="bw-dark"] .mem-breakdown-item--hard    { color: var(--muted); }
+:root[data-theme="bw-dark"] .mem-breakdown-item--easy    { color: var(--muted); }
+
+/* ── Theme overrides: BW (light) ── */
+:root[data-theme="bw"] .mem-rate-btn--again {
+  background: color-mix(in srgb, var(--text) 8%, transparent);
+  color: var(--text);
+}
+:root[data-theme="bw"] .mem-rate-btn--again .mem-rate-interval,
+:root[data-theme="bw"] .mem-rate-btn--again .mem-rate-key { color: var(--muted); }
+:root[data-theme="bw"] .mem-rate-btn--hard {
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  color: var(--muted);
+}
+:root[data-theme="bw"] .mem-rate-btn--hard .mem-rate-interval,
+:root[data-theme="bw"] .mem-rate-btn--hard .mem-rate-key { color: var(--muted); }
+:root[data-theme="bw"] .mem-rate-btn--good {
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  color: var(--text);
+}
+:root[data-theme="bw"] .mem-rate-btn--good .mem-rate-interval,
+:root[data-theme="bw"] .mem-rate-btn--good .mem-rate-key { color: var(--text); }
+:root[data-theme="bw"] .mem-rate-btn--easy {
+  background: color-mix(in srgb, var(--text) 7%, transparent);
+  color: var(--muted);
+}
+:root[data-theme="bw"] .mem-rate-btn--easy .mem-rate-interval,
+:root[data-theme="bw"] .mem-rate-btn--easy .mem-rate-key { color: var(--muted); }
+
+:root[data-theme="bw"] .mem-mastery-seg--memorized { background: var(--text); }
+:root[data-theme="bw"] .mem-mastery-seg--reviewing { background: var(--muted); }
+:root[data-theme="bw"] .mem-mastery-seg--learning  { background: color-mix(in srgb, var(--muted) 50%, transparent); }
+:root[data-theme="bw"] .mem-legend-dot--memorized   { background: var(--text); }
+:root[data-theme="bw"] .mem-legend-dot--reviewing   { background: var(--muted); }
+:root[data-theme="bw"] .mem-legend-dot--learning    { background: color-mix(in srgb, var(--muted) 50%, transparent); }
+:root[data-theme="bw"] .mem-breakdown-seg--again    { background: var(--text); }
+:root[data-theme="bw"] .mem-breakdown-seg--hard     { background: var(--muted); }
+:root[data-theme="bw"] .mem-breakdown-seg--good     { background: color-mix(in srgb, var(--text) 70%, transparent); }
+:root[data-theme="bw"] .mem-breakdown-seg--easy     { background: color-mix(in srgb, var(--muted) 60%, transparent); }
+:root[data-theme="bw"] .mem-breakdown-item--again   { color: var(--text); }
+:root[data-theme="bw"] .mem-breakdown-item--hard    { color: var(--muted); }
+:root[data-theme="bw"] .mem-breakdown-item--easy    { color: var(--muted); }
+
+/* ── Theme overrides: Light ── */
+:root[data-theme="light"] .mem-insights {
+  border-color: color-mix(in srgb, var(--text) 8%, transparent);
+}
+
+:root[data-theme="light"] .mem-settings {
+  border-color: color-mix(in srgb, var(--text) 8%, transparent);
 }
 
 /* ── Reduced motion ── */

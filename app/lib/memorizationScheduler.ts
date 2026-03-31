@@ -1,6 +1,7 @@
 import type {
   MemorizationCardState,
-  MemorizationRating
+  MemorizationRating,
+  MemorizationSettings
 } from "./types";
 
 const MIN_EASE = 1.3;
@@ -8,6 +9,11 @@ const MAX_EASE = 3.0;
 const DEFAULT_EASE = 2.5;
 const LEARNING_DELAY_MS = 10 * 60 * 1000;
 const HARD_DELAY_MS = 20 * 60 * 1000;
+const DAY_MS = 86400000;
+
+const DEFAULT_GRADUATING_DAYS = 1;
+const DEFAULT_EASY_DAYS = 3;
+const DEFAULT_MAX_INTERVAL_DAYS = 365;
 
 export const createInitialMemorizationState = (now = Date.now()): MemorizationCardState => ({
   status: "new",
@@ -32,11 +38,21 @@ export const isMemorizationCardDue = (
 
 const roundDays = (value: number) => Math.max(1, Math.round(value));
 
+export type SchedulerOptions = Pick<
+  MemorizationSettings,
+  "graduatingIntervalDays" | "easyIntervalDays" | "maxIntervalDays"
+>;
+
 export const applyMemorizationReview = (
   previous: MemorizationCardState | undefined,
   rating: MemorizationRating,
-  now = Date.now()
+  now = Date.now(),
+  opts?: SchedulerOptions
 ): MemorizationCardState => {
+  const graduatingDays = opts?.graduatingIntervalDays ?? DEFAULT_GRADUATING_DAYS;
+  const easyDays = opts?.easyIntervalDays ?? DEFAULT_EASY_DAYS;
+  const maxInterval = opts?.maxIntervalDays ?? DEFAULT_MAX_INTERVAL_DAYS;
+
   const state = previous || createInitialMemorizationState(now);
 
   if (rating === "again") {
@@ -66,29 +82,33 @@ export const applyMemorizationReview = (
     }
 
     if (rating === "good") {
+      const days = Math.min(graduatingDays, maxInterval);
       return {
         ...state,
         status: "review",
-        dueAt: now + 86400000,
+        dueAt: now + days * DAY_MS,
         lastReviewedAt: now,
-        intervalDays: 1,
+        intervalDays: days,
         repetitions: state.repetitions + 1,
         learningStep: 0
       };
     }
 
+    // easy
+    const days = Math.min(easyDays, maxInterval);
     return {
       ...state,
       status: "review",
-      dueAt: now + 3 * 86400000,
+      dueAt: now + days * DAY_MS,
       lastReviewedAt: now,
-      intervalDays: 3,
+      intervalDays: days,
       easeFactor: Math.min(MAX_EASE, state.easeFactor + 0.15),
       repetitions: state.repetitions + 1,
       learningStep: 0
     };
   }
 
+  // Review card
   let easeFactor = state.easeFactor;
   let intervalDays = state.intervalDays || 1;
 
@@ -102,10 +122,12 @@ export const applyMemorizationReview = (
     intervalDays = roundDays(intervalDays * easeFactor * 1.3);
   }
 
+  intervalDays = Math.min(intervalDays, maxInterval);
+
   return {
     ...state,
     status: "review",
-    dueAt: now + intervalDays * 86400000,
+    dueAt: now + intervalDays * DAY_MS,
     lastReviewedAt: now,
     intervalDays,
     easeFactor,
@@ -113,8 +135,6 @@ export const applyMemorizationReview = (
     learningStep: 0
   };
 };
-
-const DAY_MS = 86400000;
 
 export const formatMemorizationIntervalLabel = (ms: number): string => {
   if (ms < 60 * 60 * 1000) {
@@ -128,8 +148,9 @@ export const formatMemorizationIntervalLabel = (ms: number): string => {
 
 export const getMemorizationReviewPreview = (
   previous: MemorizationCardState | undefined,
-  rating: MemorizationRating
+  rating: MemorizationRating,
+  opts?: SchedulerOptions
 ): string => {
-  const nextState = applyMemorizationReview(previous, rating, 0);
+  const nextState = applyMemorizationReview(previous, rating, 0, opts);
   return formatMemorizationIntervalLabel(nextState.dueAt);
 };

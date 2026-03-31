@@ -1,8 +1,8 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { KeyboardEvent } from "react";
-import { getMemorizationReviewPreview } from "../../lib/memorizationScheduler";
+import { getMemorizationReviewPreview, type SchedulerOptions } from "../../lib/memorizationScheduler";
 import type {
   MemorizationCard,
   MemorizationCardMode,
@@ -17,6 +17,10 @@ type Props = {
   onReveal: () => void;
   onRate: (rating: MemorizationRating) => void;
   onSuspend: () => void;
+  onUndo?: () => void;
+  canUndo?: boolean;
+  leechThreshold?: number;
+  schedulerOpts?: SchedulerOptions;
 };
 
 const PROMPT: Record<MemorizationCardMode, string> = {
@@ -28,13 +32,31 @@ const PROMPT: Record<MemorizationCardMode, string> = {
 
 const RATINGS: Array<{ r: MemorizationRating; label: string; key: string }> = [
   { r: "again", label: "Again", key: "1" },
-  { r: "good",  label: "Pass",  key: "2" }
+  { r: "hard",  label: "Hard",  key: "2" },
+  { r: "good",  label: "Good",  key: "3" },
+  { r: "easy",  label: "Easy",  key: "4" }
 ];
 
 export default function MemorizationSessionCard({
-  card, state, showAnswer, onReveal, onRate, onSuspend
+  card, state, showAnswer, onReveal, onRate, onSuspend, onUndo, canUndo, leechThreshold = 8, schedulerOpts
 }: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [elapsed, setElapsed] = useState(0);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  // Card timer
+  useEffect(() => {
+    setElapsed(0);
+    timerRef.current = setInterval(() => setElapsed((e) => e + 1), 1000);
+    return () => { if (timerRef.current) clearInterval(timerRef.current); };
+  }, [card.id]);
+
+  const formatElapsed = (s: number) => {
+    const m = Math.floor(s / 60);
+    const sec = s % 60;
+    return m > 0 ? `${m}:${String(sec).padStart(2, "0")}` : `${sec}s`;
+  };
+
   const status = state?.status || "new";
   const statusLabel = status.charAt(0).toUpperCase() + status.slice(1);
   const isWordMode = card.cardMode === "word-by-word-meaning";
@@ -51,18 +73,24 @@ export default function MemorizationSessionCard({
   useEffect(() => {
     const handler = (e: globalThis.KeyboardEvent) => {
       if (e.target instanceof HTMLSelectElement || e.target instanceof HTMLInputElement) return;
+      // Ctrl+Z / Cmd+Z = undo
+      if ((e.ctrlKey || e.metaKey) && e.key === "z" && canUndo && onUndo) {
+        e.preventDefault();
+        onUndo();
+        return;
+      }
       if (!showAnswer && (e.key === " " || e.key === "Enter")) {
         e.preventDefault();
         onReveal();
       }
       if (showAnswer) {
-        const idx = ["1", "2"].indexOf(e.key);
+        const idx = ["1", "2", "3", "4"].indexOf(e.key);
         if (idx !== -1) { e.preventDefault(); onRate(RATINGS[idx].r); }
       }
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  }, [showAnswer, onReveal, onRate]);
+  }, [showAnswer, onReveal, onRate, onUndo, canUndo]);
 
   const playAudio = () => audioRef.current?.play().catch(() => {});
 
@@ -110,8 +138,10 @@ export default function MemorizationSessionCard({
           <span className={`mem-status-dot ${status}`} />
           <span className="mem-card-verse">{card.verseKey}</span>
           <span className="mem-card-status-text">{statusLabel}</span>
+          {state && state.lapses >= leechThreshold && <span className="mem-leech-badge">Leech</span>}
         </div>
         <div className="mem-card-header-right">
+          <span className="mem-card-timer">{formatElapsed(elapsed)}</span>
           <button
             type="button"
             className="mem-icon-btn"
@@ -224,7 +254,7 @@ export default function MemorizationSessionCard({
               onClick={() => onRate(opt.r)}
             >
               <span className="mem-rate-label">{opt.label}</span>
-              <span className="mem-rate-interval">{getMemorizationReviewPreview(state || undefined, opt.r)}</span>
+              <span className="mem-rate-interval">{getMemorizationReviewPreview(state || undefined, opt.r, schedulerOpts)}</span>
               <span className="mem-rate-key">{opt.key}</span>
             </button>
           ))}

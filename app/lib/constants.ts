@@ -194,7 +194,9 @@ export const STORAGE_KEYS = {
   prayerSettings: "quran_prayer_settings",
   readingStats: "quran_reading_stats",
   memorizationProgress: "quran_memorization_progress",
-  memorizationDeckState: "quran_memorization_deck_state"
+  memorizationDeckState: "quran_memorization_deck_state",
+  memorizationSessionHistory: "quran_memorization_session_history",
+  memorizationSettings: "quran_memorization_settings"
 };
 
 // Keyboard Shortcuts
