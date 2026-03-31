@@ -84,7 +84,8 @@ export default function StudyModeRail({ activeTab, isOpen, onSelectTab }: StudyM
           key={item.id}
           className={`study-rail-btn${activeTab === item.id && isOpen ? " active" : ""}`}
           onClick={() => onSelectTab(item.id)}
-          title={item.label}
+          aria-label={item.label}
+          data-tooltip={item.label}
           type="button"
         >
           {item.icon}

@@ -31,7 +31,7 @@
 
 .mem-shell.mem-embedded {
   width: min(860px, 100%);
-  padding: 20px 0 48px;
+  padding: 8px 0 48px;
 }
 
 /* ── Header ── */
@@ -1160,8 +1160,12 @@
 @media (max-width: 600px) {
   .mem-shell {
     width: calc(100vw - 28px);
-    padding: 20px 0 80px;
-    gap: 20px;
+    padding: 8px 0 80px;
+    gap: 16px;
+  }
+
+  .mem-shell.mem-embedded {
+    padding: 0 0 48px;
   }
 
   .mem-controls {

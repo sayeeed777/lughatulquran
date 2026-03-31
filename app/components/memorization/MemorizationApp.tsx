@@ -79,7 +79,7 @@ export function applyReciterToMemorizationDeck(
 }
 
 export function MemorizationApp({ embedded = false, reciterId: activeReciterId, onBack }: MemorizationAppProps = {}) {
-  const [prefs, setPrefs] = useLocalStorage<MemorizationDeckPrefs>(
+  const [prefs, setPrefs, prefsLoaded] = useLocalStorage<MemorizationDeckPrefs>(
     STORAGE_KEYS.memorizationDeckState,
     DEFAULT_PREFS
   );
@@ -112,6 +112,8 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
       : prefs.pageNumber;
 
   useEffect(() => {
+    if (!prefsLoaded) return;
+
     const controller = new AbortController();
     const cacheKey = `memorization:${prefs.scopeMode}:${scopeId}:${prefs.cardMode}`;
     setLoading(true);
@@ -145,7 +147,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
       });
 
     return () => controller.abort();
-  }, [prefs.cardMode, prefs.scopeMode, scopeId]);
+  }, [prefsLoaded, prefs.cardMode, prefs.scopeMode, scopeId]);
 
   const deck = useMemo(
     () => applyReciterToMemorizationDeck(rawDeck, resolvedReciter.baseUrl),
