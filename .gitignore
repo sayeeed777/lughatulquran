@@ -24,6 +24,7 @@ yarn-error.log*
 .vercel/
 *.tsbuildinfo
 .vercel
+Library/Preferences/nextjs-nodejs/
 
 # Linting
 .ruff_cache/
@@ -31,9 +32,6 @@ yarn-error.log*
 
 # Testing
 coverage/
-
-# Next.js
-next-env.d.ts
 
 # npm debug logs (accidental local folder)
 ~/.npm/
