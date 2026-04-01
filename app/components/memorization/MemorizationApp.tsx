@@ -228,11 +228,32 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
   }, [sessionHistory]);
 
   const maxReviewed = Math.max(1, ...last7Days.map((d) => d.reviewed));
+  const weekTotal = last7Days.reduce((sum, d) => sum + d.reviewed, 0);
   const masteryPct = mastery.total > 0
     ? Math.round(((mastery.reviewingCount + mastery.memorizedCount) / mastery.total) * 100)
     : 0;
 
   const hasActivity = last7Days.some((d) => d.reviewed > 0);
+
+  // Calculate current streak (consecutive days with activity ending today or yesterday)
+  const streak = useMemo(() => {
+    let count = 0;
+    for (let i = 0; i < 30; i++) {
+      const d = new Date();
+      d.setDate(d.getDate() - i);
+      const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+      const entry = sessionHistory.find((e) => e.date === key);
+      if (entry && entry.reviewed > 0) {
+        count++;
+      } else if (i === 0) {
+        // Today has no activity — still check yesterday
+        continue;
+      } else {
+        break;
+      }
+    }
+    return count;
+  }, [sessionHistory]);
 
   return (
     <main className={`mem-shell${embedded ? " mem-embedded" : ""}`}>
@@ -448,18 +469,27 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
             <div className="mem-section-divider" />
 
             <div className="mem-activity">
-              <h3 className="mem-activity-title">Activity</h3>
+              <div className="mem-activity-header">
+                <h3 className="mem-activity-title">Activity</h3>
+                {hasActivity && (
+                  <div className="mem-activity-stats">
+                    {streak > 0 && <span className="mem-streak">{streak} day streak</span>}
+                    <span className="mem-week-total">{weekTotal} this week</span>
+                  </div>
+                )}
+              </div>
               {hasActivity ? (
                 <div className="mem-activity-graph">
                   {last7Days.map((day) => (
                     <div key={day.date} className="mem-activity-col">
+                      <span className={`mem-activity-count${day.reviewed > 0 ? " mem-activity-count--active" : ""}`}>
+                        {day.reviewed > 0 ? day.reviewed : ""}
+                      </span>
                       <div className="mem-activity-bar-wrap">
                         <div
                           className={`mem-activity-bar${day.reviewed > 0 ? " mem-activity-bar--active" : ""}`}
-                          style={{ height: `${day.reviewed > 0 ? Math.max(8, (day.reviewed / maxReviewed) * 100) : 4}%` }}
-                        >
-                          {day.reviewed > 0 && <span className="mem-activity-bar-tooltip">{day.reviewed}</span>}
-                        </div>
+                          style={{ height: `${day.reviewed > 0 ? Math.max(12, (day.reviewed / maxReviewed) * 100) : 4}%` }}
+                        />
                       </div>
                       <span className="mem-activity-label">{day.label}</span>
                     </div>

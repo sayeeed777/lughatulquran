@@ -497,7 +497,14 @@
 .mem-activity {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
+}
+
+.mem-activity-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
 
 .mem-activity-title {
@@ -509,12 +516,31 @@
   font-size: 0.68rem;
 }
 
+.mem-activity-stats {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mem-streak {
+  font-size: 0.7rem;
+  font-weight: 620;
+  color: var(--accent-2);
+  font-variant-numeric: tabular-nums;
+}
+
+.mem-week-total {
+  font-size: 0.68rem;
+  font-weight: 480;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
 .mem-activity-graph {
   display: flex;
   align-items: flex-end;
-  gap: 6px;
-  height: 64px;
-  padding: 4px 0 0;
+  gap: 4px;
+  height: 80px;
 }
 
 .mem-activity-col {
@@ -522,8 +548,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   height: 100%;
+}
+
+.mem-activity-count {
+  font-size: 0.6rem;
+  font-weight: 620;
+  color: transparent;
+  font-variant-numeric: tabular-nums;
+  min-height: 14px;
+  line-height: 14px;
+}
+
+.mem-activity-count--active {
+  color: var(--accent-2);
 }
 
 .mem-activity-bar-wrap {
@@ -536,35 +575,16 @@
 
 .mem-activity-bar {
   width: 100%;
-  max-width: 28px;
-  border-radius: 4px 4px 2px 2px;
+  max-width: 40px;
+  border-radius: 5px 5px 2px 2px;
   background: color-mix(in srgb, var(--text) 5%, transparent);
   transition: height 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  position: relative;
   min-height: 3px;
 }
 
 .mem-activity-bar--active {
   background: var(--accent-2);
-  opacity: 0.7;
-}
-
-.mem-activity-bar-tooltip {
-  position: absolute;
-  top: -18px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 0.6rem;
-  font-weight: 680;
-  color: var(--accent-2);
-  font-variant-numeric: tabular-nums;
-  opacity: 0;
-  transition: opacity 0.15s ease;
-  pointer-events: none;
-}
-
-.mem-activity-col:hover .mem-activity-bar-tooltip {
-  opacity: 1;
+  opacity: 0.75;
 }
 
 .mem-activity-label {
@@ -573,7 +593,11 @@
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  opacity: 0.6;
+  opacity: 0.5;
+}
+
+.mem-activity-col:hover .mem-activity-label {
+  opacity: 1;
 }
 
 .mem-activity-empty-text {
