@@ -4,6 +4,7 @@ import type { RefObject, TouchEvent as ReactTouchEvent } from "react";
 import type { NowPlaying, Surah } from "../../lib/types";
 import StudyAyahList from "./StudyAyahList";
 import StudyMushafPage from "./StudyMushafPage";
+import { StudyAyahSkeleton } from "../skeletons";
 import type { MushafPageLayout, SelectedWordDetails, StudyMarks, Word, WordByAyah } from "./StudyModeTypes";
 import type { StudyScopeAyah } from "./StudyScopeTypes";
 
@@ -146,7 +147,7 @@ export default function StudyModeReadingArea({
         </div>
       ) : null}
 
-      {!isSurahScope && scopeLoading && <p className="status">Loading {activeScopeLabel.toLowerCase()}...</p>}
+      {!isSurahScope && scopeLoading && <StudyAyahSkeleton count={5} />}
       {!isSurahScope && scopeError && <p className="status error">{scopeError}</p>}
 
       {hasMushafLayout && scopeLayout ? (

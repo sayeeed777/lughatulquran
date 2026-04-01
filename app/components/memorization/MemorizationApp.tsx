@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import MemorizationSessionCard from "./MemorizationSessionCard";
 import useMemorizationSrs, { DEFAULT_MEMORIZATION_SETTINGS } from "./useMemorizationSrs";
 import type { MasteryBreakdown, SessionHistoryEntry } from "./useMemorizationSrs";
@@ -258,6 +258,40 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
     }
     return count;
   }, [sessionHistory]);
+
+  const [shareStatus, setShareStatus] = useState<"idle" | "copied">("idle");
+
+  const handleShareSession = useCallback(() => {
+    const scopeLabel = prefs.scopeMode === "surah"
+      ? SURAHS[prefs.surahNumber - 1]?.englishName || `Surah ${prefs.surahNumber}`
+      : prefs.scopeMode === "juz"
+        ? `Juz ${prefs.juzNumber}`
+        : `Page ${prefs.pageNumber}`;
+    const accuracy = sessionStats.reviewed > 0
+      ? Math.round((sessionStats.completed / sessionStats.reviewed) * 100)
+      : 0;
+    const time = sessionStats.totalTimeMs >= 60000
+      ? `${Math.round(sessionStats.totalTimeMs / 60000)}m`
+      : `${Math.round(sessionStats.totalTimeMs / 1000)}s`;
+
+    const lines = [
+      `Quran Memorization - ${scopeLabel}`,
+      `${sessionStats.reviewed} cards reviewed | ${accuracy}% accuracy | ${time}`,
+    ];
+    if (streak > 0) lines.push(`${streak} day streak`);
+    lines.push("", "OpenFurqan.com");
+
+    const text = lines.join("\n");
+
+    if (navigator.share) {
+      navigator.share({ text }).catch(() => {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(() => {
+        setShareStatus("copied");
+        setTimeout(() => setShareStatus("idle"), 2000);
+      }).catch(() => {});
+    }
+  }, [prefs, sessionStats, streak]);
 
   return (
     <main className={`mem-shell${embedded ? " mem-embedded" : ""}`}>
@@ -661,6 +695,19 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
                 <button type="button" className="mem-btn mem-btn--primary" onClick={startSession}>New session</button>
                 <button type="button" className="mem-btn mem-btn--ghost" onClick={stopSession}>Back to deck</button>
               </div>
+              <button type="button" className="mem-share-btn" onClick={handleShareSession}>
+                {shareStatus === "copied" ? (
+                  <>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                    Copied
+                  </>
+                ) : (
+                  <>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                    Share results
+                  </>
+                )}
+              </button>
             </div>
           )}
         </section>

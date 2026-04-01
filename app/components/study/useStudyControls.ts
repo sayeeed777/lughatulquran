@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useLocalStorage } from "../../hooks";
 import { fetchJSON } from "../../lib/apiClient";
-import { SURAH_AYAH_COUNTS } from "../../lib/constants";
+import { STORAGE_KEYS, SURAH_AYAH_COUNTS } from "../../lib/constants";
 import { getLocalDateString } from "../../lib/utils";
 import { TAFSIR_EDITIONS } from "./StudyModeHelpers";
 import type { MemorizeConfig, StudyMarks } from "./StudyModeTypes";
@@ -23,12 +23,15 @@ type StudyGoal = {
   date: string;
 };
 
+type ReadingProgress = Record<string, number>;
+
 type UseStudyControlsArgs = {
   ayahsLength: number;
   selectedSurah: Surah | null;
   focusedAyahKey: string | null;
   clamp: (value: number, min: number, max: number) => number;
   memorizeConfig: MemorizeConfig;
+  scopeKey: string;
 };
 
 export default function useStudyControls({
@@ -36,13 +39,19 @@ export default function useStudyControls({
   selectedSurah,
   focusedAyahKey,
   clamp,
-  memorizeConfig
+  memorizeConfig,
+  scopeKey
 }: UseStudyControlsArgs) {
   const [showControls, setShowControls] = useState(true);
   const [showQuickPanel, setShowQuickPanel] = useState(false);
   const [quickPanelTab, setQuickPanelTab] = useState<QuickPanelTab>("study");
   const [readingTime, setReadingTime] = useState(0);
+  const [readingProgress, setReadingProgress] = useLocalStorage<ReadingProgress>(
+    STORAGE_KEYS.studyReadingProgress,
+    {}
+  );
   const [currentAyahIndex, setCurrentAyahIndex] = useState(0);
+  const restoredScopeRef = useRef<string>("");
   const [showTajweed, setShowTajweed] = useState(false);
   const [showTajweedLegend, setShowTajweedLegend] = useState(false);
   const [showHifzMode, setShowHifzMode] = useState(false);
@@ -261,6 +270,53 @@ export default function useStudyControls({
       visibleEntries = new Map();
     };
   }, [ayahsLength]);
+
+  // Restore reading position when scope changes
+  useEffect(() => {
+    if (!scopeKey || restoredScopeRef.current === scopeKey) return;
+    restoredScopeRef.current = scopeKey;
+    const saved = readingProgress?.[scopeKey];
+    if (saved && saved > 1) {
+      setCurrentAyahIndex(saved);
+      // Scroll to the saved position once the DOM is ready
+      const container = scrollContainerRef.current;
+      if (!container) return;
+      const tryRestore = () => {
+        const el = Array.from(
+          container.querySelectorAll<HTMLElement>(".study-ayah-card")
+        ).find((element) => Number(element.dataset.scopeIndex) === saved);
+        if (!el) return false;
+        const containerRect = container.getBoundingClientRect();
+        const elRect = el.getBoundingClientRect();
+        const scrollTop = container.scrollTop + (elRect.top - containerRect.top) - 20;
+        container.scrollTo({ top: scrollTop, behavior: "instant" });
+        return true;
+      };
+      if (!tryRestore()) {
+        const delays = [200, 500, 1000];
+        for (const delay of delays) {
+          setTimeout(tryRestore, delay);
+        }
+      }
+    }
+  }, [scopeKey, readingProgress]);
+
+  // Save reading position as user reads (debounced)
+  const saveProgressTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  useEffect(() => {
+    if (!scopeKey || currentAyahIndex < 1) return;
+    if (saveProgressTimerRef.current) clearTimeout(saveProgressTimerRef.current);
+    saveProgressTimerRef.current = setTimeout(() => {
+      setReadingProgress((prev) => {
+        const current = prev?.[scopeKey];
+        if (current === currentAyahIndex) return prev;
+        return { ...prev, [scopeKey]: currentAyahIndex };
+      });
+    }, 1500);
+    return () => {
+      if (saveProgressTimerRef.current) clearTimeout(saveProgressTimerRef.current);
+    };
+  }, [scopeKey, currentAyahIndex, setReadingProgress]);
 
   const scrollTimersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
 

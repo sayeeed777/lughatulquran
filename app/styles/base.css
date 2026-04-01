@@ -400,6 +400,25 @@ body {
     overflow-x: hidden;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    body.theme-transitioning,
+    body.theme-transitioning .app,
+    body.theme-transitioning .panel,
+    body.theme-transitioning .sidebar,
+    body.theme-transitioning .topbar,
+    body.theme-transitioning .study-reading-area,
+    body.theme-transitioning .study-ayah-card,
+    body.theme-transitioning .study-card,
+    body.theme-transitioning .mem-shell,
+    body.theme-transitioning .mem-insights,
+    body.theme-transitioning .mem-card-body,
+    body.theme-transitioning .mem-settings,
+    body.theme-transitioning .quick-panel-content,
+    body.theme-transitioning .settings-drawer {
+        transition: color 0.35s ease, background-color 0.35s ease, background 0.35s ease, border-color 0.35s ease;
+    }
+}
+
 body::before {
     content: "";
     position: fixed;

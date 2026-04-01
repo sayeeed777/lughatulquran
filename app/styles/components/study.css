@@ -205,6 +205,75 @@
   color: var(--text);
 }
 
+/* ── Study skeleton loading ── */
+.study-skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.study-skeleton-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 28px;
+  border-radius: var(--radius-lg);
+  background: color-mix(in srgb, var(--text) 2%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 15%, transparent);
+}
+
+.study-skeleton-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.study-skeleton-badge {
+  width: 64px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+.study-skeleton-actions {
+  width: 80px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+.study-skeleton-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.study-skeleton-arabic {
+  width: 85%;
+  height: 24px;
+  border-radius: 6px;
+}
+
+.study-skeleton-arabic.short {
+  width: 55%;
+}
+
+.study-skeleton-translation {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.study-skeleton-line {
+  width: 100%;
+  height: 12px;
+  border-radius: 4px;
+}
+
+.study-skeleton-line.short {
+  width: 65%;
+}
+
 /* Reading Area */
 .study-reading-area {
   position: absolute;

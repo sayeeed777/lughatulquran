@@ -206,10 +206,12 @@ export function useHomePreferences() {
   const isLightTheme = theme === "light" || theme === "bw";
 
   const setThemeValue = useCallback((t: "dark" | "light" | "bw" | "bw-dark") => {
-    // Update DOM synchronously to prevent flash between old/new theme
+    // Enable smooth transition, then switch theme
+    document.body.classList.add("theme-transitioning");
     document.documentElement.dataset.theme = t;
     localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify(t));
     setThemeState(t);
+    setTimeout(() => document.body.classList.remove("theme-transitioning"), 400);
   }, []);
 
   return {

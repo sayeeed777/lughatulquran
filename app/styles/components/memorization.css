@@ -1184,6 +1184,29 @@
   margin-top: 4px;
 }
 
+.mem-share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 520;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+  opacity: 0.6;
+}
+
+.mem-share-btn:hover {
+  opacity: 1;
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+  color: var(--text);
+}
+
 /* ── Responsive ── */
 @media (max-width: 600px) {
   .mem-shell {

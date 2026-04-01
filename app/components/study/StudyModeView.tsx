@@ -218,6 +218,12 @@ export default function StudyModeView({
   const isSurahScope = studyScopeMode === "surah";
   const hasMushafLayout = Boolean(isPageScope && scopeLayout?.lines?.length);
 
+  const scopeKey = useMemo(() => {
+    if (studyScopeMode === "surah") return `surah:${selectedSurahNumber}`;
+    if (studyScopeMode === "juz") return `juz:${studyJuzNumber}`;
+    return `page:${studyPageNumber}`;
+  }, [studyScopeMode, selectedSurahNumber, studyJuzNumber, studyPageNumber]);
+
   const {
     showControls,
     showQuickPanel,
@@ -283,7 +289,8 @@ export default function StudyModeView({
     selectedSurah,
     focusedAyahKey,
     clamp,
-    memorizeConfig
+    memorizeConfig,
+    scopeKey
   });
 
   const {
@@ -513,7 +520,6 @@ export default function StudyModeView({
           memorizeRemaining={memorizeConfig?.remaining}
         />
       ) : null}
-
 
       {/* Study Rail */}
       {!showMemorizationPreview ? (
