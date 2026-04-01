@@ -276,7 +276,8 @@ export default function StudyModeView({
     toggleHifzMark,
     markHifzRange,
     clearHifzSurah,
-    scrollContainerRef
+    scrollContainerRef,
+    scrollToVerseKey
   } = useStudyControls({
     ayahsLength: totalAyahs,
     selectedSurah,
@@ -364,8 +365,9 @@ export default function StudyModeView({
         setStudyScopeMode("surah");
       }
       onJumpToAyah(surah, ayah);
+      scrollToVerseKey(verseKey(surah, ayah));
     },
-    [isSurahScope, onJumpToAyah, setStudyScopeMode]
+    [isSurahScope, onJumpToAyah, setStudyScopeMode, scrollToVerseKey]
   );
 
   const handleStudyAyahPlay = useCallback(

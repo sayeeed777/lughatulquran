@@ -262,24 +262,63 @@ export default function useStudyControls({
     };
   }, [ayahsLength]);
 
+  const scrollTimersRef = useRef<ReturnType<typeof setTimeout>[]>([]);
+
+  const cancelPendingScrolls = () => {
+    scrollTimersRef.current.forEach(clearTimeout);
+    scrollTimersRef.current = [];
+  };
+
+  // Scroll a study-ayah-card into the center of the scroll container
+  const scrollToVerseKey = useCallback((key: string) => {
+    cancelPendingScrolls();
+
+    const tryScroll = () => {
+      const container = scrollContainerRef.current;
+      if (!container) return false;
+      const el = Array.from(
+        container.querySelectorAll<HTMLElement>(".study-ayah-card")
+      ).find((element) => element.dataset.verseKey === key);
+      if (!el) return false;
+
+      const scopeIndex = Number(el.dataset.scopeIndex || "");
+      if (Number.isFinite(scopeIndex) && scopeIndex > 0) {
+        setCurrentAyahIndex(scopeIndex);
+      }
+
+      const containerRect = container.getBoundingClientRect();
+      const elRect = el.getBoundingClientRect();
+      const scrollTop = container.scrollTop + (elRect.top - containerRect.top) - (containerRect.height / 2) + (elRect.height / 2);
+      container.scrollTo({ top: scrollTop, behavior: "instant" });
+      // Cancel remaining retries — we found it
+      cancelPendingScrolls();
+      return true;
+    };
+
+    if (tryScroll()) return;
+
+    // Element not in DOM yet — retry until found
+    const delays = [150, 400, 800, 1500, 2500];
+    for (const delay of delays) {
+      scrollTimersRef.current.push(setTimeout(tryScroll, delay));
+    }
+  }, [setCurrentAyahIndex]);
+
   useEffect(() => {
     if (!focusedAyahKey) return;
 
     const container = scrollContainerRef.current;
-    const matchingIndex = Array.from(
+    const matchingEl = Array.from(
       container?.querySelectorAll<HTMLElement>(".study-ayah-card") || []
-    ).find((element) => element.dataset.verseKey === focusedAyahKey)?.dataset.scopeIndex;
+    ).find((element) => element.dataset.verseKey === focusedAyahKey);
 
-    const scopeIndex = Number(matchingIndex || "");
+    const scopeIndex = Number(matchingEl?.dataset.scopeIndex || "");
     if (Number.isFinite(scopeIndex) && scopeIndex > 0) {
       setCurrentAyahIndex(scopeIndex);
-      return;
+    } else if (selectedSurah) {
+      const parsed = parseVerseKey(focusedAyahKey);
+      if (Number.isFinite(parsed.ayah)) setCurrentAyahIndex(parsed.ayah);
     }
-
-    if (!selectedSurah) return;
-    const parsed = parseVerseKey(focusedAyahKey);
-    if (!Number.isFinite(parsed.ayah)) return;
-    setCurrentAyahIndex(parsed.ayah);
   }, [focusedAyahKey, parseVerseKey, selectedSurah]);
 
   useEffect(() => {
@@ -620,6 +659,7 @@ export default function useStudyControls({
     toggleHifzMark,
     markHifzRange,
     clearHifzSurah,
-    scrollContainerRef
+    scrollContainerRef,
+    scrollToVerseKey
   };
 }
