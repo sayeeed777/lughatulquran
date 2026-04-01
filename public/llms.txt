@@ -1,12 +1,22 @@
 # OpenFurqan
 
-> A free, modern Quran reader for reading, studying, memorizing, and listening to the Quran online.
+> A free web app for reading, studying, memorizing, and listening to the Quran — no account, no ads, no payment.
 
 Website: https://openfurqan.com
 
 ## About
 
-OpenFurqan is a free, open web application for reading and studying the Holy Quran. It provides the full Arabic text of the Quran alongside translations in multiple languages, word-by-word analysis, audio recitation from 16 reciters, Anki-style spaced repetition memorization, Surah/Juz/Page reading views, prayer times, and study tools. No account or payment is required.
+OpenFurqan is a free, open-source web application that combines Quran reading, deep study, memorization, and audio recitation in a single fast interface. Most Quran websites focus only on reading. OpenFurqan was built to end the tab-switching between reading, word analysis, Tafsir, and memorization tools. No account required — all data stays in your browser.
+
+## What Makes It Different
+
+- No login, no account, no sign-up required
+- No ads, no tracking, no data collection
+- Reader + study workflow in one place (no tab-switching)
+- Anki-style spaced repetition for Quran memorization
+- Word-level Arabic study with Lane's Lexicon and root analysis
+- Three reading views: Surah, Juz (all 30), and Mushaf Page (all 604)
+- Fast, offline-capable Progressive Web App
 
 ## Content
 
@@ -15,48 +25,66 @@ OpenFurqan is a free, open web application for reading and studying the Holy Qur
 - 20+ translations across 9+ languages
 - Word-by-word Arabic analysis with root dictionary
 
-## Translations Available
+## Translations
 
 English: Sahih International, Yusuf Ali, Pickthall, Arberry, Haleem, Muhsin Khan, Taqi Usmani, Ahmed Raza, Maarif-ul-Quran, Transliteration
-Bangla: Muhiuddin Khan, Hoque
-Urdu: Bayan-ul-Quran, Kanzu al-Iman
+Bangla: Muhiuddin Khan, Zohurul Hoque
+Urdu: Bayan-ul-Quran, Kanz al-Iman
 German: Bubenheim
 Spanish: Cortes
 French: Hamidullah
-Hindi: Hindi
+Hindi: Al-Umari
 Turkish: Suleyman Ates
 Sinhala: Naseem Ismail
 
-## Audio Reciters
+## Audio Reciters (16)
 
-16 reciters available: Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Abdul Basit (Mujawwad), Mahmoud Khalil Al-Husary, Al-Husary (Muallim), Mohamed Siddiq Al-Minshawi, Saad Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, Yasser Ad-Dussary. Adjustable playback speed and continuous surah playback.
+Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Abdul Basit (Mujawwad), Mahmoud Khalil Al-Husary, Al-Husary (Muallim), Mohamed Siddiq Al-Minshawi, Saad Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, Yasser Ad-Dussary. Adjustable playback speed and continuous surah playback.
 
 ## Features
 
-- Read the Quran online with clean, distraction-free design
-- Three reading views: Surah (chapter), Juz (para, all 30), and Page (all 604 mushaf pages)
+Reading:
+- Clean, distraction-free Quran reader
+- Three reading views: Surah, Juz (para), and Mushaf Page
 - Multiple translations side by side
 - Audio recitation from 16 reciters with adjustable speed
-- Anki-style spaced repetition memorization (SRS) with flashcards, ratings (Again/Hard/Good/Easy), audio autoplay, session stats, streak tracking, and session sharing
-- Hifz memorization mode with repetition loops and ayah range selection
+- 4 themes (Dark, Parchment, Black & White, Dark B&W)
+- 4 Arabic fonts, Uthmani/Naskh script, adjustable text sizes
+- Reading position saved per surah, juz, and page
+- Offline PWA support — installable on any device
+
+Study:
 - Word-by-word Arabic meanings, root analysis, and Lane's Lexicon definitions
-- 15+ color-coded Tajweed pronunciation rules
-- 7+ Tafsir editions (Maarif-ul-Quran, Maududi, Ahsanul Bayaan, Mokhtasar, Al-Jalalayn, Kashf Al-Asrar, Hindi Tafseer)
-- Study Mode with bookmarks, personal notes, reading plans, and progress tracking
-- Advanced search with key verses, topic exploration, and recent search history
-- Reading progress saved per surah, juz, and page
-- Reading statistics: daily verses, time spent, streaks, and long-term history
-- Prayer times based on user location (31+ countries, 11+ calculation methods)
-- 4 visual themes with smooth transitions (Dark, Parchment, Black & White, Dark B&W)
-- 4 Arabic fonts (KFGQPC Hafs, Hafs Smart, Scheherazade New, Uthman Naskh)
-- Uthmani and Naskh script styles
-- Works on desktop, tablet, and mobile with swipe navigation
-- Offline support (Progressive Web App)
-- No ads, no accounts, completely free
+- 15+ color-coded Tajweed pronunciation rules with legend
+- 7+ Tafsir editions on demand (Maarif-ul-Quran, Maududi, Al-Jalalayn, etc.)
+- Bookmarks, personal notes per ayah, and reading plans
+- Advanced search with key verses, topic groups, and recent history
+- Reading statistics: daily verses, time spent, streaks, and history
+- Full keyboard shortcuts
+
+Memorization:
+- Anki-style spaced repetition (SRS) with flashcards and ratings (Again/Hard/Good/Easy)
+- Audio autoplay on cards, session stats, streak tracking, session sharing
+- Hifz repetition mode with audio loops and ayah range selection
+- Memorization progress tracked across surahs
+
+Other:
+- Prayer times for 31+ countries with 11+ calculation methods
+- No account required — all data stored locally in browser
+- No ads, no tracking, no data collection
+
+## Data Sources
+
+All Quranic text, translations, audio recitations, and linguistic data are sourced from well-established, widely trusted Islamic and academic datasets. Every piece of data has been carefully cross-checked, analyzed, and verified for accuracy before inclusion.
+
+## Privacy
+
+No accounts, no tracking pixels, no analytics cookies, no third-party data collection. All user data (bookmarks, notes, progress, memorization) is stored in browser localStorage. Nothing leaves the device.
 
 ## URL Structure
 
 - Homepage: https://openfurqan.com
+- Study Mode: https://openfurqan.com/?mode=study
 - Surah page: https://openfurqan.com/surah/{surah-slug}
 - Ayah page: https://openfurqan.com/surah/{surah-slug}/{ayah-number}
 - Memorization: https://openfurqan.com/memorization

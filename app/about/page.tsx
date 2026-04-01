@@ -90,7 +90,7 @@ export default async function AboutPage() {
         <header className="seo-header">
           <h1 className="seo-english-title">About OpenFurqan</h1>
           <p className="seo-translation">
-            Free, open-source Quran reader with deep study tools
+            Read, study, memorize, and listen — one free Quran app
           </p>
         </header>
 
@@ -98,13 +98,11 @@ export default async function AboutPage() {
         <section className="info-section">
           <h2 className="info-section-title">What is OpenFurqan</h2>
           <p className="info-text">
-            OpenFurqan is a free, open-source Quran reading web application built around two focused
-            experiences: distraction-free reading with clean Arabic text and 20+ translations across
-            9+ languages, and a deep Study Mode with Surah, Juz, and Page views, word-by-word analysis,
-            Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Anki-style spaced
-            repetition memorization, Hifz tools, bookmarks, personal notes, reading plans, and progress
-            tracking. Audio recitation is available from 16 well-known reciters. No account, no ads,
-            no payment required.
+            OpenFurqan is a free, open-source web application for reading and deeply studying the
+            Quran. It pairs a clean, distraction-free reader with a full-featured Study Mode — giving
+            you 20+ translations, 16 audio reciters, Surah/Juz/Page views, Anki-style spaced
+            repetition memorization, word-by-word Arabic analysis, Tajweed color-coding, 7+ Tafsir
+            editions, and daily reading statistics. No account, no ads, no payment — just open and read.
           </p>
         </section>
 
@@ -112,25 +110,46 @@ export default async function AboutPage() {
         <section className="info-section">
           <h2 className="info-section-title">Why OpenFurqan Exists</h2>
           <p className="info-text">
-            Most Quran websites focus only on reading. OpenFurqan combines reading, studying,
-            memorizing, and listening into a single fast interface — with tools like Lane&#39;s Lexicon
-            for word roots, 15+ color-coded Tajweed rules, Anki-style spaced repetition flashcards for
-            long-term memorization, Surah/Juz/Page reading views, 16 reciters, and daily reading
-            statistics with streaks. The project is independently developed and completely free and
-            open source.
+            Most Quran websites do one thing: display Arabic text with a translation. If you want to
+            study a word&#39;s root, you open another tab. If you want to memorize, you download a
+            separate app. If you want Tafsir, that&#39;s yet another website.
           </p>
+          <p className="info-text">
+            OpenFurqan was built to end that tab-switching. Reading, studying, memorizing, and
+            listening live in a single fast interface. Tap a word and see its root in Lane&#39;s
+            Lexicon. Flip to Tafsir without losing your place. Review flashcards with spaced
+            repetition. Track your streak across days and weeks. All in one place, all free, all
+            without signing up.
+          </p>
+          <p className="info-text">
+            The project is independently developed and will always remain free and open source.
+          </p>
+        </section>
+
+        {/* What Makes OpenFurqan Different */}
+        <section className="info-section">
+          <h2 className="info-section-title">What Makes OpenFurqan Different</h2>
+          <ul className="info-audience-list">
+            <li><strong>No login required.</strong> Your bookmarks, notes, and progress are stored locally in your browser. Nothing leaves your device.</li>
+            <li><strong>No ads, ever.</strong> No banners, no pop-ups, no sponsored content.</li>
+            <li><strong>Reader + study in one place.</strong> Switch between a simple reader and a deep study workspace without leaving the app.</li>
+            <li><strong>Memorize with spaced repetition.</strong> Anki-style flashcards that schedule reviews based on your recall — not just audio loops.</li>
+            <li><strong>Word-level Arabic study.</strong> Click any word to see its root, morphology, Lane&#39;s Lexicon definition, and every occurrence in the Quran.</li>
+            <li><strong>Three reading views.</strong> Read by Surah, by Juz (all 30), or by Mushaf page (all 604 pages).</li>
+            <li><strong>Fast and installable.</strong> Works offline as a Progressive Web App. Install it on your phone like a native app.</li>
+          </ul>
         </section>
 
         {/* Who Should Use OpenFurqan */}
         <section className="info-section">
           <h2 className="info-section-title">Who Should Use OpenFurqan</h2>
           <ul className="info-audience-list">
-            <li>Muslims who want to read the Quran online with a clean, distraction-free interface</li>
-            <li>Students studying Quranic Arabic with word-by-word analysis and root dictionaries</li>
-            <li>People memorizing the Quran (Hifz) with Anki-style spaced repetition flashcards and repetition loops</li>
+            <li>Muslims who want a clean, distraction-free Quran reading experience online</li>
+            <li>Students learning Quranic Arabic through word-by-word analysis and root dictionaries</li>
+            <li>Anyone memorizing the Quran (Hifz) — with spaced repetition flashcards or audio repetition loops</li>
             <li>Readers who prefer Juz or Page-based reading alongside traditional Surah view</li>
-            <li>Researchers studying Quran translations across multiple languages</li>
-            <li>Anyone looking for a fast, modern Quran reading experience with study tools</li>
+            <li>Researchers comparing Quran translations across multiple languages</li>
+            <li>Teachers looking for a free tool to share with students — no accounts to manage</li>
           </ul>
         </section>
 
@@ -143,113 +162,93 @@ export default async function AboutPage() {
               <p className="info-feature-desc">
                 English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem,
                 Al-Hilali &amp; Khan, Maarif-ul-Quran, Ahmed Raza. Bangla: Muhiuddin Khan,
-                Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus
-                Hindi, Turkish, French, German, Spanish, and Sinhala translations.
+                Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French,
+                German, Spanish, and Sinhala. Show multiple translations side by side.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">16 Audio Reciters</h3>
               <p className="info-feature-desc">
-                Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr
-                Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal &amp; Mujawwad),
-                Mahmoud Khalil Al-Husary (Standard &amp; Muallim), Mohamed Siddiq Al-Minshawi, Saad
-                Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, and Yasser
-                Ad-Dussary. Adjustable playback speed and continuous surah playback.
+                Alafasy, As-Sudais, Ash-Shuraym, Ash-Shaatree, Al-Muaiqly, Hani Rifai, Abdul Basit
+                (Murattal &amp; Mujawwad), Al-Husary (Standard &amp; Muallim), Al-Minshawi,
+                Al-Ghamdi, al-Ajmy, Ali Jabir, Al Tunaiji, and Ad-Dussary. Adjustable playback speed
+                and continuous surah playback.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">Surah, Juz &amp; Page Views</h3>
               <p className="info-feature-desc">
-                Read the Quran in three different scopes: by Surah (chapter), by Juz (para, all 30),
-                or by Mushaf Page (all 604 pages). Switch between views in the Study tab. Juz and Page
-                views support swipe navigation on mobile devices.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">Word-by-Word Analysis</h3>
-              <p className="info-feature-desc">
-                Morphological breakdown of every Arabic word: root, lemma, part-of-speech, and
-                individual word audio pronunciation. Click any word to explore its linguistic details.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">15+ Tajweed Rules</h3>
-              <p className="info-feature-desc">
-                Color-coded pronunciation rules: hamzat al-wasl, laam shamsiyah, laam qamariyah,
-                madd (natural, permissible, obligatory, necessary), qalqalah, ikhfaa, iqlab, idgham
-                (with and without ghunnah), ghunnah, and silent letters.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">Study Mode</h3>
-              <p className="info-feature-desc">
-                Bookmarks, personal notes per ayah, customizable reading plans with daily ayah
-                goals, reading statistics with current and longest streaks, and long-term reading history.
+                Read by Surah (chapter), Juz (para — all 30), or Mushaf Page (all 604). Switch
+                between views instantly. Juz and Page support swipe navigation on mobile.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">Anki-Style Memorization</h3>
               <p className="info-feature-desc">
-                Full spaced repetition system (SRS) with flashcards. Review ayahs and rate recall as
-                Again, Hard, Good, or Easy. The algorithm schedules cards based on your performance for
-                optimal long-term retention. Includes audio autoplay, session statistics, streak tracking,
-                and session sharing. Choose scope by Surah or Juz.
+                Spaced repetition flashcards for long-term Quran memorization. See an ayah, rate your
+                recall (Again / Hard / Good / Easy), and the algorithm schedules the next review.
+                Audio autoplay, session stats, streak tracking, and session sharing included.
               </p>
             </div>
             <div className="info-feature-item">
-              <h3 className="info-feature-title">Hifz / Repetition Mode</h3>
+              <h3 className="info-feature-title">Hifz Repetition Mode</h3>
               <p className="info-feature-desc">
-                Mark ayahs as memorized, set repetition loops, select ayah ranges for focused
-                practice with audio, and track memorization progress across surahs. Complementary to
-                the Anki-style SRS for audio-based repetition practice.
+                Select an ayah range, set repetition loops, and practice with audio. Mark ayahs as
+                memorized and track progress across surahs. Complements the SRS flashcards for
+                audio-based drilling.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Word-by-Word &amp; Lexicon</h3>
+              <p className="info-feature-desc">
+                Morphological breakdown of every word: root, lemma, part-of-speech, and individual
+                word audio. Click any word to open Lane&#39;s Lexicon with definitions, Buckwalter
+                transliteration, and all Quran occurrences of that root.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">15+ Tajweed Rules</h3>
+              <p className="info-feature-desc">
+                Color-coded pronunciation rules including ikhfaa, idgham, ghunnah, qalqalah, four
+                types of madd, hamzat al-wasl, laam shamsiyah/qamariyah, iqlab, and silent letters.
+                A legend shows what each color means.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">7+ Tafsir Editions</h3>
               <p className="info-feature-desc">
                 Maarif-ul-Quran, Maududi, Ahsanul Bayaan, Mokhtasar, Al-Jalalayn, Kashf Al-Asrar,
-                and Hindi Tafseer. Load Tafsir on-demand for any ayah.
+                and Hindi Tafseer. Load Tafsir for any ayah on demand without leaving your reading.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Study Mode</h3>
+              <p className="info-feature-desc">
+                Bookmarks, personal notes per ayah, customizable reading plans with daily goals,
+                reading statistics with streaks, advanced search with key verses and topic exploration,
+                and long-term reading history — all in one workspace.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Reading Progress</h3>
+              <p className="info-feature-desc">
+                Your position is saved per surah, juz, and page — you always resume where you left
+                off. Track daily verses, time spent, current streak, and longest streak automatically.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">Prayer Times</h3>
               <p className="info-feature-desc">
-                Accurate prayer times for 31+ countries with 11+ calculation methods. Supports
-                Hanafi and Shafi madhab. Configure your city and see the next prayer at a glance.
+                Accurate prayer times for 31+ countries with 11+ calculation methods. Hanafi and Shafi
+                madhab support. See the next prayer at a glance.
               </p>
             </div>
             <div className="info-feature-item">
-              <h3 className="info-feature-title">Arabic Root Lexicon</h3>
+              <h3 className="info-feature-title">Customization</h3>
               <p className="info-feature-desc">
-                Lane&#39;s Lexicon definitions for Arabic word roots, Buckwalter transliteration, and
-                all Quran occurrences of each root word.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">Reading Statistics &amp; Progress</h3>
-              <p className="info-feature-desc">
-                Track daily verses read, minutes spent reading, current streak, longest streak, and
-                long-term reading history automatically. Reading position is saved per surah, juz, and
-                page so you always resume where you left off.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">Study Tools</h3>
-              <p className="info-feature-desc">
-                The Tools tab includes: Memorize Mode, Show Translation, Show Transliteration,
-                Dim Other Ayahs, Auto-scroll on Play, Tajweed Colors with color key legend,
-                Word by Word mode, and Mushaf View for page-like reading. Customize Arabic and
-                translation text size, playback speed, script (Uthmani or Naskh), Arabic font,
-                and reciter — all from one panel.
-              </p>
-            </div>
-            <div className="info-feature-item">
-              <h3 className="info-feature-title">More Features</h3>
-              <p className="info-feature-desc">
-                4 visual themes with smooth transitions (Dark, Parchment, Black &amp; White, Dark
-                B&amp;W), advanced search with key verses and topic exploration, full keyboard
-                shortcuts, offline PWA support, customizable Arabic fonts (KFGQPC Hafs, Hafs Smart,
-                Scheherazade New, Uthman Naskh), and adjustable text sizes.
+                4 themes (Dark, Parchment, Black &amp; White, Dark B&amp;W), 4 Arabic fonts, Uthmani
+                or Naskh script, adjustable text sizes, full keyboard shortcuts, and offline PWA
+                support.
               </p>
             </div>
           </div>
@@ -266,12 +265,23 @@ export default async function AboutPage() {
           </p>
         </section>
 
+        {/* Privacy */}
+        <section className="info-section">
+          <h2 className="info-section-title">Privacy</h2>
+          <p className="info-text">
+            OpenFurqan does not collect personal data. There are no accounts, no tracking pixels, and
+            no analytics cookies. Your bookmarks, notes, reading progress, and memorization data are
+            stored locally in your browser using localStorage. Nothing leaves your device. If you clear
+            your browser data, your saved data is removed — because it was never stored anywhere else.
+          </p>
+        </section>
+
         {/* Open Source */}
         <section className="info-section">
           <h2 className="info-section-title">Open Source</h2>
           <p className="info-text">
-            OpenFurqan is open source. The project is independently developed and completely free.
-            Contributions, feedback, and issue reports are welcome.
+            OpenFurqan is open source and independently developed. The project is completely free and
+            will remain so. Contributions, feedback, and issue reports are welcome from the community.
           </p>
         </section>
 

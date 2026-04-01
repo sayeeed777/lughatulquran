@@ -8,17 +8,22 @@ const FAQ_ITEMS = [
     category: "General",
     question: "What is OpenFurqan?",
     answer:
-      "OpenFurqan is a free, open-source Quran reading web application built around two focused experiences: distraction-free reading with clean Arabic text and 20+ translations across 9+ languages, and a deep Study Mode with Surah, Juz, and Page views, word-by-word analysis, Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Anki-style spaced repetition memorization, bookmarks, personal notes, reading plans, and progress tracking. Audio recitation is available from 16 well-known reciters. No account, no ads, no payment required."
+      "OpenFurqan is a free web app for reading, studying, memorizing, and listening to the Quran. It combines a clean reader with a deep Study Mode — 20+ translations, 16 reciters, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word Arabic analysis, Tajweed colors, 7+ Tafsir editions, and reading statistics. No account, no ads, no payment."
   },
   {
     question: "Is OpenFurqan free?",
     answer:
-      "Yes, OpenFurqan is completely free and open source. There are no ads, no account required, and no payment needed. The project is independently developed and maintained."
+      "Yes, completely. No ads, no subscription, no account required. The project is independently developed, open source, and will always be free."
+  },
+  {
+    question: "Can I read the Quran without signing in?",
+    answer:
+      "Yes. OpenFurqan requires no account, no login, and no sign-up. Just open openfurqan.com and start reading. Your bookmarks, notes, and progress are saved locally in your browser."
   },
   {
     question: "Is OpenFurqan a good alternative to Quran.com?",
     answer:
-      "OpenFurqan is not intended to replace Quran.com. It offers a different design philosophy focused on integrated study tools, Anki-style memorization with spaced repetition, Tajweed visualization, word-by-word root analysis, Surah/Juz/Page reading views, and deep customization. Both are free resources for reading the Quran online."
+      "OpenFurqan is not intended to replace Quran.com. It offers a different philosophy: integrated study tools, Anki-style memorization, Tajweed visualization, word-by-word root analysis, Surah/Juz/Page views, and deep customization in a single interface. Both are free resources for reading the Quran online."
   },
   // Reading & Translations
   {
@@ -42,6 +47,11 @@ const FAQ_ITEMS = [
     answer:
       "English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem, Al-Hilali & Khan, Maarif-ul-Quran, Ahmed Raza. Bangla: Muhiuddin Khan, Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French, German, Spanish, and Sinhala translations."
   },
+  {
+    question: "Which Bangla and Urdu translations are available?",
+    answer:
+      "Bangla: Muhiuddin Khan and Zohurul Hoque. Urdu: Kanz al-Iman and Bayan-ul-Quran. Select them from the Settings panel under the Display tab. You can show multiple translations at the same time."
+  },
   // Audio
   {
     category: "Audio",
@@ -53,6 +63,11 @@ const FAQ_ITEMS = [
     question: "Which reciters are available?",
     answer:
       "Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Abdul Basit (Mujawwad), Mahmoud Khalil Al-Husary, Al-Husary (Muallim), Mohamed Siddiq Al-Minshawi, Saad Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, and Yasser Ad-Dussary."
+  },
+  {
+    question: "Can I listen to Quran recitation with translation?",
+    answer:
+      "Yes. Enable a translation from Settings, then play any ayah. The audio recitation plays while the Arabic text and your selected translation are both visible on screen. You can show multiple translations side by side while listening."
   },
   // Memorization
   {
@@ -82,13 +97,18 @@ const FAQ_ITEMS = [
       "Yes. After completing a memorization session, a share button appears showing your scope, cards reviewed, accuracy percentage, time spent, and streak. It uses your device's native share feature or copies to clipboard."
   },
   {
-    question: "How do I use Hifz / Memorization mode in Study Mode?",
+    question: "Can I use OpenFurqan for Hifz?",
     answer:
-      "Enable Memorize Mode from the Tools tab in Study Mode. Select an ayah range for focused memorization, set repetition loops, and use audio playback for practice. Mark ayahs as memorized to track your progress across surahs. This is separate from the Anki-style SRS and focuses on repetition-based memorization."
+      "Yes. OpenFurqan offers two memorization methods: Anki-style spaced repetition flashcards that schedule reviews based on your recall, and a Hifz repetition mode where you select an ayah range, set loop count, and practice with audio. Both track your progress across surahs."
   },
   // Study & Learning
   {
     category: "Study & Learning",
+    question: "Does OpenFurqan have Tafsir?",
+    answer:
+      "Yes. OpenFurqan includes 7+ Tafsir editions: Maarif-ul-Quran, Maududi, Ahsanul Bayaan, Mokhtasar, Al-Jalalayn, Kashf Al-Asrar, and Hindi Tafseer. Open the Tafsir tab in Study Mode to load commentary for any ayah on demand."
+  },
+  {
     question: "How do I use word-by-word mode?",
     answer:
       "Press W on your keyboard or enable Word by Word from the Tools tab in Study Mode. Each Arabic word shows its individual meaning. Click any word to see its root, lemma, part-of-speech, and hear its pronunciation."
@@ -198,6 +218,28 @@ const FAQ_ITEMS = [
     question: "How can I report issues or contribute?",
     answer:
       "OpenFurqan is open source and welcomes community contributions. You can report issues, suggest features, or contribute to the project."
+  },
+  // Privacy & Data
+  {
+    category: "Privacy & Data",
+    question: "Where is my data stored?",
+    answer:
+      "All your data — bookmarks, notes, reading progress, memorization history, and preferences — is stored locally in your browser using localStorage. Nothing is sent to a server. Your data stays on your device."
+  },
+  {
+    question: "Does OpenFurqan collect personal data?",
+    answer:
+      "No. OpenFurqan does not collect any personal data. There are no accounts, no tracking pixels, no analytics cookies, and no third-party data collection. The app works entirely on your device."
+  },
+  {
+    question: "Do bookmarks and notes stay on my device?",
+    answer:
+      "Yes. Bookmarks, notes, and all saved data are stored in your browser's localStorage. They persist between sessions but are tied to your browser. If you clear your browser data, your saved content will be removed because it was never stored anywhere else."
+  },
+  {
+    question: "Where does OpenFurqan get its Quran text and translations?",
+    answer:
+      "All Quranic text, translations, audio recitations, and linguistic data are sourced from well-established, widely trusted Islamic and academic datasets. Every piece of data has been carefully cross-checked, analyzed, and verified for accuracy before being included."
   }
 ];
 
