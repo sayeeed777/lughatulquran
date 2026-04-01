@@ -176,6 +176,10 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
     resetDeckProgress
   } = useMemorizationSrs(deck);
 
+  const [autoPlayAudio, setAutoPlayAudio] = useLocalStorage<boolean>(
+    STORAGE_KEYS.memorizationAutoPlay,
+    true
+  );
   const [showSettings, setShowSettings] = useState(false);
 
   const scopeOptions = useMemo(() => {
@@ -274,6 +278,19 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
         )}
         {sessionActive && (
           <div className="mem-header-actions">
+            <button
+              type="button"
+              className={`mem-icon-btn${autoPlayAudio ? "" : " mem-icon-btn--muted"}`}
+              onClick={() => setAutoPlayAudio((v) => !v)}
+              aria-label={autoPlayAudio ? "Mute auto-play" : "Unmute auto-play"}
+              title={autoPlayAudio ? "Auto-play on" : "Auto-play off"}
+            >
+              {autoPlayAudio ? (
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+              ) : (
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+              )}
+            </button>
             {canUndo && (
               <button type="button" className="mem-btn mem-btn--ghost mem-btn--sm" onClick={undoLastReview} aria-label="Undo last review" title="Undo (Ctrl+Z)">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M3 7v6h6"/><path d="M21 17a9 9 0 0 0-9-9 9 9 0 0 0-6.69 3L3 13"/></svg>
@@ -566,6 +583,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
               card={currentCard}
               state={currentCardState}
               showAnswer={showAnswer}
+              autoPlayAudio={autoPlayAudio}
               onReveal={revealAnswer}
               onRate={rateCurrentCard}
               onSuspend={suspendCurrentCard}

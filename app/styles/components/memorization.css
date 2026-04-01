@@ -166,6 +166,10 @@
   transform: scale(0.9);
 }
 
+.mem-icon-btn--muted {
+  opacity: 0.4;
+}
+
 /* ── Settings Panel ── */
 .mem-settings {
   display: flex;

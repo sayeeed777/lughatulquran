@@ -14,6 +14,7 @@ type Props = {
   card: MemorizationCard;
   state: MemorizationCardState | null;
   showAnswer: boolean;
+  autoPlayAudio?: boolean;
   onReveal: () => void;
   onRate: (rating: MemorizationRating) => void;
   onSuspend: () => void;
@@ -38,7 +39,7 @@ const RATINGS: Array<{ r: MemorizationRating; label: string; key: string }> = [
 ];
 
 export default function MemorizationSessionCard({
-  card, state, showAnswer, onReveal, onRate, onSuspend, onUndo, canUndo, leechThreshold = 8, schedulerOpts
+  card, state, showAnswer, autoPlayAudio = true, onReveal, onRate, onSuspend, onUndo, canUndo, leechThreshold = 8, schedulerOpts
 }: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [elapsed, setElapsed] = useState(0);
@@ -61,13 +62,16 @@ export default function MemorizationSessionCard({
   const statusLabel = status.charAt(0).toUpperCase() + status.slice(1);
   const isWordMode = card.cardMode === "word-by-word-meaning";
 
-  /* Reset audio on card change */
+  /* Reset and auto-play audio on new card */
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current.currentTime = 0;
+      if (autoPlayAudio) {
+        audioRef.current.play().catch(() => {});
+      }
     }
-  }, [card.id]);
+  }, [card.id, autoPlayAudio]);
 
   /* Global keyboard shortcuts */
   useEffect(() => {
