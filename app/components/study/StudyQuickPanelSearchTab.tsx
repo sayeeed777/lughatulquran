@@ -20,6 +20,34 @@ type StudyQuickPanelSearchTabProps = Pick<
   | "onClosePanel"
 >;
 
+const TOPIC_GROUPS: Array<{ title: string; topics: string[] }> = [
+  {
+    title: "Core Themes",
+    topics: ["Mercy", "Faith", "Patience", "Forgiveness", "Guidance", "Gratitude"]
+  },
+  {
+    title: "Worship & Practice",
+    topics: ["Prayer", "Fasting", "Charity", "Hajj", "Repentance", "Supplication"]
+  },
+  {
+    title: "Life & Society",
+    topics: ["Justice", "Family", "Kindness", "Honesty", "Knowledge", "Wealth"]
+  },
+  {
+    title: "Hereafter",
+    topics: ["Paradise", "Hell", "Judgement Day", "Death", "Resurrection", "Angels"]
+  }
+];
+
+const KEY_VERSES: Array<{ label: string; surah: number; ayah: number; desc: string }> = [
+  { label: "Ayat al-Kursi", surah: 2, ayah: 255, desc: "The Throne Verse" },
+  { label: "Al-Fatiha", surah: 1, ayah: 1, desc: "The Opening" },
+  { label: "Last 2 Ayahs", surah: 2, ayah: 285, desc: "Al-Baqarah ending" },
+  { label: "Light Verse", surah: 24, ayah: 35, desc: "Ayat an-Nur" },
+  { label: "No Compulsion", surah: 2, ayah: 256, desc: "Freedom of faith" },
+  { label: "Trust in Allah", surah: 65, ayah: 3, desc: "At-Talaq" }
+];
+
 const getRecentSearches = (): string[] => {
   try {
     const raw = localStorage.getItem(RECENT_SEARCHES_KEY);
@@ -60,7 +88,6 @@ export default function StudyQuickPanelSearchTab({
 
   useEffect(() => {
     setRecentSearches(getRecentSearches());
-    // Auto-focus the input when tab opens
     setTimeout(() => inputRef.current?.focus(), 80);
   }, []);
 
@@ -73,17 +100,24 @@ export default function StudyQuickPanelSearchTab({
   }, [searchQuery, runSearch]);
 
   const handleClear = () => {
+    pendingSearchRef.current = true;
     setSearchQuery("");
     inputRef.current?.focus();
   };
 
-  // Run search after query state has been updated from a recent click
   useEffect(() => {
     if (pendingSearchRef.current) {
       pendingSearchRef.current = false;
       runSearch();
     }
   }, [searchQuery, runSearch]);
+
+  const handleTopicClick = (topic: string) => {
+    saveRecentSearch(topic);
+    setRecentSearches(getRecentSearches());
+    pendingSearchRef.current = true;
+    setSearchQuery(topic);
+  };
 
   const handleRecentClick = (query: string) => {
     saveRecentSearch(query);
@@ -97,7 +131,13 @@ export default function StudyQuickPanelSearchTab({
     setRecentSearches([]);
   };
 
-  const showRecent = !searchQuery.trim() && !searchHasRun && recentSearches.length > 0;
+  const handleKeyVerse = (surah: number, ayah: number) => {
+    onJumpToAyah(surah, ayah);
+    onClosePanel();
+  };
+
+  const hasQuery = searchQuery.trim().length > 0;
+  const showHome = !hasQuery && !searchHasRun && !searchLoading;
   const showEmpty = !searchLoading && !searchError && searchResults.length === 0;
 
   return (
@@ -140,40 +180,89 @@ export default function StudyQuickPanelSearchTab({
         </div>
       )}
 
-      {/* Recent searches */}
-      {showRecent && (
-        <div className="sqp-recent">
-          <div className="sqp-recent-header">
-            <span className="sqp-recent-label">Recent</span>
-            <button type="button" className="sqp-recent-clear" onClick={handleClearRecent}>Clear</button>
+      {/* ── Home state (no query) ── */}
+      {showHome && (
+        <>
+          {/* Recent searches */}
+          {recentSearches.length > 0 && (
+            <div className="sqp-section">
+              <div className="sqp-section-header">
+                <span className="sqp-section-label">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  Recent
+                </span>
+                <button type="button" className="sqp-section-action" onClick={handleClearRecent}>Clear</button>
+              </div>
+              <div className="sqp-chip-list">
+                {recentSearches.map((q) => (
+                  <button key={q} type="button" className="sqp-chip" onClick={() => handleRecentClick(q)}>
+                    {q}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Key Verses */}
+          <div className="sqp-section">
+            <div className="sqp-section-header">
+              <span className="sqp-section-label">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2 L15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26Z"/></svg>
+                Key Verses
+              </span>
+            </div>
+            <div className="sqp-key-verses">
+              {KEY_VERSES.map((v) => (
+                <button
+                  key={`${v.surah}:${v.ayah}`}
+                  type="button"
+                  className="sqp-key-verse"
+                  onClick={() => handleKeyVerse(v.surah, v.ayah)}
+                >
+                  <div className="sqp-key-verse-text">
+                    <span className="sqp-key-verse-label">{v.label}</span>
+                    <span className="sqp-key-verse-desc">{v.desc}</span>
+                  </div>
+                  <span className="sqp-key-verse-ref">{v.surah}:{v.ayah}</span>
+                </button>
+              ))}
+            </div>
           </div>
-          <div className="sqp-recent-list">
-            {recentSearches.map((q) => (
-              <button key={q} type="button" className="sqp-recent-chip" onClick={() => handleRecentClick(q)}>
-                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                {q}
-              </button>
-            ))}
+
+          {/* Topic exploration */}
+          {TOPIC_GROUPS.map((group) => (
+            <div key={group.title} className="sqp-section">
+              <div className="sqp-section-header">
+                <span className="sqp-section-label">{group.title}</span>
+              </div>
+              <div className="sqp-chip-list">
+                {group.topics.map((topic) => (
+                  <button key={topic} type="button" className="sqp-chip sqp-chip--topic" onClick={() => handleTopicClick(topic)}>
+                    {topic}
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
+
+          {/* Search tips */}
+          <div className="sqp-tips">
+            <span className="sqp-tips-label">Tips</span>
+            <ul className="sqp-tips-list">
+              <li>Type a verse reference like <strong>2:255</strong> to jump directly</li>
+              <li>Search in English or Arabic</li>
+              <li>Try broad topics like &ldquo;mercy&rdquo; or specific words</li>
+            </ul>
           </div>
-        </div>
+        </>
       )}
 
-      {/* Empty state */}
-      {!searchLoading && !searchError && !showRecent && showEmpty && (
+      {/* No results */}
+      {!searchLoading && !searchError && searchHasRun && showEmpty && (
         <div className="sqp-search-empty">
-          {searchHasRun ? (
-            <>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/></svg>
-              <p>No results found</p>
-              <span>Try a different keyword or verse reference (e.g. 2:255)</span>
-            </>
-          ) : (
-            <>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-              <p>Search by keyword or verse</p>
-              <span>Try &ldquo;mercy&rdquo;, &ldquo;patience&rdquo;, or a verse like &ldquo;2:255&rdquo;</span>
-            </>
-          )}
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M8 11h6"/></svg>
+          <p>No results found</p>
+          <span>Try a different keyword or verse reference (e.g. 2:255)</span>
         </div>
       )}
 
