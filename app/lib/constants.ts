@@ -44,6 +44,41 @@ export const AUDIO_RECITERS = [
     id: "minshawi",
     label: "Mohamed Siddiq Al-Minshawi",
     baseUrl: "https://everyayah.com/data/Minshawy_Mujawwad_64kbps"
+  },
+  {
+    id: "abdulbasit-mujawwad",
+    label: "Abdul Basit (Mujawwad)",
+    baseUrl: "https://everyayah.com/data/Abdul_Basit_Mujawwad_128kbps"
+  },
+  {
+    id: "ghamdi",
+    label: "Saad Al-Ghamdi",
+    baseUrl: "https://everyayah.com/data/Ghamadi_40kbps"
+  },
+  {
+    id: "ajmy",
+    label: "Ahmed ibn Ali al-Ajmy",
+    baseUrl: "https://everyayah.com/data/Ahmed_ibn_Ali_al-Ajamy_64kbps_QuranExplorer.Com"
+  },
+  {
+    id: "ali-jabir",
+    label: "Abdullah Ali Jabir",
+    baseUrl: "https://everyayah.com/data/Ali_Jaber_64kbps"
+  },
+  {
+    id: "tunaiji",
+    label: "Khalifah Al Tunaiji",
+    baseUrl: "https://everyayah.com/data/khalefa_al_tunaiji_64kbps"
+  },
+  {
+    id: "husary-muallim",
+    label: "Mahmoud Khalil Al-Husary (Muallim)",
+    baseUrl: "https://everyayah.com/data/Husary_Muallim_128kbps"
+  },
+  {
+    id: "dussary",
+    label: "Yasser Ad-Dussary",
+    baseUrl: "https://everyayah.com/data/Yasser_Ad-Dussary_128kbps"
   }
 ];
 
