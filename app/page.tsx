@@ -43,7 +43,27 @@ function HomeContent() {
     if (!localStorage.getItem(key)) {
       setShowStudyPulse(true);
     }
-  }, []);
+    // Open study mode if ?mode=study is in the URL
+    const params = new URLSearchParams(window.location.search);
+    if (params.get("mode") === "study" && !ui.readingMode) {
+      ui.setReadingMode(true);
+      localStorage.setItem(key, "1");
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Sync URL with study mode state
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const hasStudy = params.get("mode") === "study";
+    if (ui.readingMode && !hasStudy) {
+      params.set("mode", "study");
+      window.history.replaceState({}, "", `${window.location.pathname}?${params.toString()}`);
+    } else if (!ui.readingMode && hasStudy) {
+      params.delete("mode");
+      const qs = params.toString();
+      window.history.replaceState({}, "", qs ? `${window.location.pathname}?${qs}` : window.location.pathname);
+    }
+  }, [ui.readingMode]);
 
   const handleStudyModeClick = () => {
     setShowStudyPulse(false);

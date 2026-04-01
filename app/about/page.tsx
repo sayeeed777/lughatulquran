@@ -3,16 +3,16 @@ import type { Metadata } from "next";
 import { getCspNonce } from "../lib/csp";
 
 export const metadata: Metadata = {
-  title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools",
+  title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools & Memorization",
   description:
-    "OpenFurqan is a free, open-source Quran reading web application with 22+ translations across 9+ languages, 9+ reciters, word-by-word analysis, Tajweed colors, memorization tools, Tafsir, prayer times, and more.",
+    "OpenFurqan is a free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 reciters, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed colors, Tafsir, prayer times, and more.",
   alternates: {
     canonical: "/about"
   },
   openGraph: {
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web application with translations, audio recitation, study tools, memorization, Tajweed, Tafsir, and more.",
+      "A free, open-source Quran reading web app with 16 reciters, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more.",
     url: "https://openfurqan.com/about",
     siteName: "OpenFurqan",
     type: "website"
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web application with translations, audio recitation, study tools, memorization, Tajweed, Tafsir, and more."
+      "A free, open-source Quran reading web app with 16 reciters, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more."
   }
 };
 
@@ -50,10 +50,12 @@ export default async function AboutPage() {
       priceCurrency: "USD"
     },
     description:
-      "A free, open-source Quran reading web application with 22+ translations across 9+ languages, 9+ audio reciters, word-by-word analysis, Tajweed color-coding, memorization tools, Tafsir, prayer times, and study features.",
+      "A free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 audio reciters, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed color-coding, Tafsir, prayer times, and study features.",
     featureList: [
-      "22+ Quran translations in 9+ languages",
-      "9+ audio reciters with adjustable playback speed",
+      "20+ Quran translations in 9+ languages",
+      "16 audio reciters with adjustable playback speed",
+      "Surah, Juz, and Page reading views",
+      "Anki-style spaced repetition memorization (SRS) with flashcards",
       "Word-by-word Arabic analysis with root and morphology",
       "15+ color-coded Tajweed pronunciation rules",
       "Study Mode with bookmarks, notes, and reading plans",
@@ -62,7 +64,8 @@ export default async function AboutPage() {
       "Prayer times for 31+ countries",
       "Arabic root lexicon with Lane's Lexicon definitions",
       "Reading statistics and streak tracking",
-      "4 visual themes including dark mode",
+      "Reading progress persistence per surah, juz, and page",
+      "4 visual themes with smooth transitions",
       "Full keyboard shortcuts",
       "Offline support as Progressive Web App",
       "Customizable Arabic fonts and text sizes"
@@ -96,11 +99,12 @@ export default async function AboutPage() {
           <h2 className="info-section-title">What is OpenFurqan</h2>
           <p className="info-text">
             OpenFurqan is a free, open-source Quran reading web application built around two focused
-            experiences: distraction-free reading with clean Arabic text and 22+ translations across
-            9+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary,
-            Tajweed color-coding, Tafsir from 7+ editions, Hifz memorization tools, bookmarks,
-            personal notes, reading plans, and progress tracking. Audio recitation is available from
-            9+ well-known reciters. No account, no ads, no payment required.
+            experiences: distraction-free reading with clean Arabic text and 20+ translations across
+            9+ languages, and a deep Study Mode with Surah, Juz, and Page views, word-by-word analysis,
+            Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Anki-style spaced
+            repetition memorization, Hifz tools, bookmarks, personal notes, reading plans, and progress
+            tracking. Audio recitation is available from 16 well-known reciters. No account, no ads,
+            no payment required.
           </p>
         </section>
 
@@ -110,9 +114,10 @@ export default async function AboutPage() {
           <p className="info-text">
             Most Quran websites focus only on reading. OpenFurqan combines reading, studying,
             memorizing, and listening into a single fast interface — with tools like Lane&#39;s Lexicon
-            for word roots, 15+ color-coded Tajweed rules, customizable memorization loops, and daily
-            reading statistics with streaks. The project is independently developed and completely
-            free and open source.
+            for word roots, 15+ color-coded Tajweed rules, Anki-style spaced repetition flashcards for
+            long-term memorization, Surah/Juz/Page reading views, 16 reciters, and daily reading
+            statistics with streaks. The project is independently developed and completely free and
+            open source.
           </p>
         </section>
 
@@ -122,7 +127,8 @@ export default async function AboutPage() {
           <ul className="info-audience-list">
             <li>Muslims who want to read the Quran online with a clean, distraction-free interface</li>
             <li>Students studying Quranic Arabic with word-by-word analysis and root dictionaries</li>
-            <li>People memorizing the Quran (Hifz) with repetition loops and progress tracking</li>
+            <li>People memorizing the Quran (Hifz) with Anki-style spaced repetition flashcards and repetition loops</li>
+            <li>Readers who prefer Juz or Page-based reading alongside traditional Surah view</li>
             <li>Researchers studying Quran translations across multiple languages</li>
             <li>Anyone looking for a fast, modern Quran reading experience with study tools</li>
           </ul>
@@ -133,21 +139,30 @@ export default async function AboutPage() {
           <h2 className="info-section-title">Features</h2>
           <div className="info-feature-grid">
             <div className="info-feature-item">
-              <h3 className="info-feature-title">22+ Translations</h3>
+              <h3 className="info-feature-title">20+ Translations</h3>
               <p className="info-feature-desc">
                 English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem,
-                Al-Hilali &amp; Khan, Maarif-ul-Quran, Maududi, Ahmed Raza. Bangla: Muhiuddin Khan,
-                Zohurul Hoque, Mokhtasar, Ahsanul-Bayaan. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus
+                Al-Hilali &amp; Khan, Maarif-ul-Quran, Ahmed Raza. Bangla: Muhiuddin Khan,
+                Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus
                 Hindi, Turkish, French, German, Spanish, and Sinhala translations.
               </p>
             </div>
             <div className="info-feature-item">
-              <h3 className="info-feature-title">9+ Audio Reciters</h3>
+              <h3 className="info-feature-title">16 Audio Reciters</h3>
               <p className="info-feature-desc">
                 Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr
-                Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Mahmoud Khalil
-                Al-Husary, and Mohamed Siddiq Al-Minshawi. Adjustable playback speed and continuous
-                surah playback.
+                Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal &amp; Mujawwad),
+                Mahmoud Khalil Al-Husary (Standard &amp; Muallim), Mohamed Siddiq Al-Minshawi, Saad
+                Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, and Yasser
+                Ad-Dussary. Adjustable playback speed and continuous surah playback.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Surah, Juz &amp; Page Views</h3>
+              <p className="info-feature-desc">
+                Read the Quran in three different scopes: by Surah (chapter), by Juz (para, all 30),
+                or by Mushaf Page (all 604 pages). Switch between views in the Study tab. Juz and Page
+                views support swipe navigation on mobile devices.
               </p>
             </div>
             <div className="info-feature-item">
@@ -173,10 +188,20 @@ export default async function AboutPage() {
               </p>
             </div>
             <div className="info-feature-item">
-              <h3 className="info-feature-title">Hifz / Memorization</h3>
+              <h3 className="info-feature-title">Anki-Style Memorization</h3>
+              <p className="info-feature-desc">
+                Full spaced repetition system (SRS) with flashcards. Review ayahs and rate recall as
+                Again, Hard, Good, or Easy. The algorithm schedules cards based on your performance for
+                optimal long-term retention. Includes audio autoplay, session statistics, streak tracking,
+                and session sharing. Choose scope by Surah or Juz.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Hifz / Repetition Mode</h3>
               <p className="info-feature-desc">
                 Mark ayahs as memorized, set repetition loops, select ayah ranges for focused
-                practice with audio, and track memorization progress across surahs.
+                practice with audio, and track memorization progress across surahs. Complementary to
+                the Anki-style SRS for audio-based repetition practice.
               </p>
             </div>
             <div className="info-feature-item">
@@ -201,10 +226,11 @@ export default async function AboutPage() {
               </p>
             </div>
             <div className="info-feature-item">
-              <h3 className="info-feature-title">Reading Statistics</h3>
+              <h3 className="info-feature-title">Reading Statistics &amp; Progress</h3>
               <p className="info-feature-desc">
                 Track daily verses read, minutes spent reading, current streak, longest streak, and
-                long-term reading history automatically.
+                long-term reading history automatically. Reading position is saved per surah, juz, and
+                page so you always resume where you left off.
               </p>
             </div>
             <div className="info-feature-item">
@@ -220,10 +246,10 @@ export default async function AboutPage() {
             <div className="info-feature-item">
               <h3 className="info-feature-title">More Features</h3>
               <p className="info-feature-desc">
-                4 visual themes (Dark, Parchment, Black &amp; White, Dark B&amp;W), Arabic and
-                English search, full keyboard shortcuts, offline PWA support, customizable Arabic
-                fonts (KFGQPC Hafs, Hafs Smart, Scheherazade New, Uthman Naskh), and adjustable
-                text sizes.
+                4 visual themes with smooth transitions (Dark, Parchment, Black &amp; White, Dark
+                B&amp;W), advanced search with key verses and topic exploration, full keyboard
+                shortcuts, offline PWA support, customizable Arabic fonts (KFGQPC Hafs, Hafs Smart,
+                Scheherazade New, Uthman Naskh), and adjustable text sizes.
               </p>
             </div>
           </div>

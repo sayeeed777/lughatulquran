@@ -8,7 +8,7 @@ const FAQ_ITEMS = [
     category: "General",
     question: "What is OpenFurqan?",
     answer:
-      "OpenFurqan is a free, open-source Quran reading web application built around two focused experiences: distraction-free reading with clean Arabic text and 22+ translations across 9+ languages, and a deep Study Mode with word-by-word analysis, Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Hifz memorization tools, bookmarks, personal notes, reading plans, and progress tracking. Audio recitation is available from 9+ well-known reciters. No account, no ads, no payment required."
+      "OpenFurqan is a free, open-source Quran reading web application built around two focused experiences: distraction-free reading with clean Arabic text and 20+ translations across 9+ languages, and a deep Study Mode with Surah, Juz, and Page views, word-by-word analysis, Arabic root dictionary, Tajweed color-coding, Tafsir from 7+ editions, Anki-style spaced repetition memorization, bookmarks, personal notes, reading plans, and progress tracking. Audio recitation is available from 16 well-known reciters. No account, no ads, no payment required."
   },
   {
     question: "Is OpenFurqan free?",
@@ -18,36 +18,73 @@ const FAQ_ITEMS = [
   {
     question: "Is OpenFurqan a good alternative to Quran.com?",
     answer:
-      "OpenFurqan is not intended to replace Quran.com. It offers a different design philosophy focused on integrated study tools, memorization support, Tajweed visualization, word-by-word root analysis, and deep customization. Both are free resources for reading the Quran online."
+      "OpenFurqan is not intended to replace Quran.com. It offers a different design philosophy focused on integrated study tools, Anki-style memorization with spaced repetition, Tajweed visualization, word-by-word root analysis, Surah/Juz/Page reading views, and deep customization. Both are free resources for reading the Quran online."
   },
   // Reading & Translations
   {
     category: "Reading & Translations",
     question: "How do I read the Quran on OpenFurqan?",
     answer:
-      "Visit openfurqan.com, select a surah from the sidebar list or search by name or number. The Arabic text appears with your selected translation below each ayah. You can navigate between ayahs using arrow keys, J/K keys, or by scrolling."
+      "Visit openfurqan.com, select a surah from the sidebar list or search by name or number. The Arabic text appears with your selected translation below each ayah. You can navigate between ayahs using arrow keys, J/K keys, or by scrolling. In Study Mode, switch between Surah, Juz, and Page views for different reading experiences."
+  },
+  {
+    question: "What are the Surah, Juz, and Page views?",
+    answer:
+      "Study Mode offers three reading scopes: Surah view (read one surah at a time), Juz view (read by juz/para with navigation between all 30 juz), and Page view (read by mushaf page with navigation across all 604 pages). Switch between them from the Study tab in the study panel. Juz and Page views support swipe navigation on mobile."
   },
   {
     question: "How do I change or add translations?",
     answer:
-      "Click the Settings gear icon in the topbar, go to the Display tab, and select translation chips to enable or disable them. Multiple translations can be shown side by side. 22+ translations are available across English, Bangla, Urdu, Hindi, Turkish, French, German, Spanish, and Sinhala."
+      "Click the Settings gear icon in the topbar, go to the Display tab, and select translation chips to enable or disable them. Multiple translations can be shown side by side. 20+ translations are available across English, Bangla, Urdu, Hindi, Turkish, French, German, Spanish, and Sinhala."
   },
   {
     question: "Which translations are available?",
     answer:
-      "English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem, Al-Hilali & Khan, Maarif-ul-Quran, Maududi, Ahmed Raza. Bangla: Muhiuddin Khan, Zohurul Hoque, Mokhtasar, Ahsanul-Bayaan. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French, German, Spanish, and Sinhala translations."
+      "English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem, Al-Hilali & Khan, Maarif-ul-Quran, Ahmed Raza. Bangla: Muhiuddin Khan, Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French, German, Spanish, and Sinhala translations."
   },
   // Audio
   {
     category: "Audio",
     question: "How do I listen to audio recitation?",
     answer:
-      "Click the play button on any ayah or press P or Space on your keyboard. Audio plays continuously through the surah. To change the reciter, open Settings, go to the Audio tab, and select from 9+ reciters. Playback speed is adjustable from the Tools tab in Study Mode."
+      "Click the play button on any ayah or press P or Space on your keyboard. Audio plays continuously through the surah. To change the reciter, open Settings, go to the Audio tab, and select from 16 reciters. Playback speed is adjustable from the Tools tab in Study Mode."
   },
   {
     question: "Which reciters are available?",
     answer:
-      "Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Mahmoud Khalil Al-Husary, and Mohamed Siddiq Al-Minshawi."
+      "Mishary Rashid Alafasy, Abdurrahman As-Sudais, Saud Ash-Shuraym, Abu Bakr Ash-Shaatree, Maher Al-Muaiqly, Hani Rifai, Abdul Basit (Murattal), Abdul Basit (Mujawwad), Mahmoud Khalil Al-Husary, Al-Husary (Muallim), Mohamed Siddiq Al-Minshawi, Saad Al-Ghamdi, Ahmed ibn Ali al-Ajmy, Abdullah Ali Jabir, Khalifah Al Tunaiji, and Yasser Ad-Dussary."
+  },
+  // Memorization
+  {
+    category: "Memorization",
+    question: "How does the Anki-style memorization work?",
+    answer:
+      "OpenFurqan includes a full spaced repetition system (SRS) inspired by Anki. You review flashcards of Quran ayahs and rate your recall as Again, Hard, Good, or Easy. The system schedules each card based on your performance — cards you struggle with appear more frequently, while mastered cards appear less often. This scientifically-proven method optimizes long-term memorization."
+  },
+  {
+    question: "How do I start a memorization session?",
+    answer:
+      "Click the Memorization tab in the study rail or navigate to the Memorization page. Choose your scope (Surah or Juz), select the specific surah or juz number, and start your session. Cards show the Arabic text and you can reveal the translation to check your understanding before rating your recall."
+  },
+  {
+    question: "What do the memorization card ratings mean?",
+    answer:
+      "Again: You forgot the ayah completely — it will be shown again soon. Hard: You remembered with difficulty — shorter interval. Good: You remembered correctly — normal interval increase. Easy: You remembered effortlessly — longer interval. The SRS algorithm adjusts review intervals based on your ratings to optimize retention."
+  },
+  {
+    question: "Does memorization have audio autoplay?",
+    answer:
+      "Yes. When a memorization card appears, the audio recitation plays automatically so you can hear the ayah as you study. You can mute/unmute this feature using the speaker icon in the session header."
+  },
+  {
+    question: "Can I share my memorization results?",
+    answer:
+      "Yes. After completing a memorization session, a share button appears showing your scope, cards reviewed, accuracy percentage, time spent, and streak. It uses your device's native share feature or copies to clipboard."
+  },
+  {
+    question: "How do I use Hifz / Memorization mode in Study Mode?",
+    answer:
+      "Enable Memorize Mode from the Tools tab in Study Mode. Select an ayah range for focused memorization, set repetition loops, and use audio playback for practice. Mark ayahs as memorized to track your progress across surahs. This is separate from the Anki-style SRS and focuses on repetition-based memorization."
   },
   // Study & Learning
   {
@@ -64,7 +101,7 @@ const FAQ_ITEMS = [
   {
     question: "How do I use Study Mode?",
     answer:
-      "Click the Study Mode button in the topbar or press F on your keyboard. This opens the study panel with tabs for Study (bookmarks, notes, reading plan), Tools (reading aids, typography, audio settings), Tafsir, Search, and Notes."
+      "Click the Study Mode button in the topbar or press F on your keyboard. This opens the study panel with tabs for Study (bookmarks, notes, reading plan), Tools (reading aids, typography, audio settings), Tafsir, Search, Hifz, and Notes. You can read in Surah, Juz, or Page view."
   },
   {
     question: "How do I bookmark ayahs?",
@@ -82,11 +119,6 @@ const FAQ_ITEMS = [
       "In the Study tab of the study panel, configure your reading plan: set a start surah, start ayah, ayahs per day, and start date. The plan shows your daily reading target, tracks your progress, and lets you jump directly to today's assigned reading."
   },
   {
-    question: "How do I use Hifz / Memorization mode?",
-    answer:
-      "Enable Memorize Mode from the Tools tab in Study Mode. Select an ayah range for focused memorization, set repetition loops, and use audio playback for practice. Mark ayahs as memorized to track your progress across surahs. A memorization guide appears when the mode is enabled."
-  },
-  {
     question: "How do I read Tafsir?",
     answer:
       "Open the Tafsir tab in the study panel while viewing any ayah. Choose from 7+ editions: Maarif-ul-Quran, Maududi, Ahsanul Bayaan, Mokhtasar, Al-Jalalayn, Kashf Al-Asrar, and Hindi Tafseer. Tafsir loads on-demand for the current ayah."
@@ -96,12 +128,17 @@ const FAQ_ITEMS = [
     answer:
       "Click the Study Mode button to enter Study Mode. In the study page, click on any Arabic word in an ayah card. The lexicon opens showing the word's root, Lane's Lexicon definitions, Buckwalter transliteration, and all Quran occurrences of that root."
   },
+  {
+    question: "How do I use the advanced search in Study Mode?",
+    answer:
+      "Open the Search tab in the study panel. The search home screen shows recent searches, key verses (Ayat al-Kursi, Al-Fatiha, Light Verse, etc.) for quick navigation, topic groups organized by category (Core Themes, Worship, Life & Society, Hereafter), and search tips. Type to search by Arabic text or translation, and click any result to jump directly to that ayah."
+  },
   // Study Tools Tab
   {
     category: "Study Tools",
     question: "What options are available in the Tools tab?",
     answer:
-      "The Tools tab in Study Mode includes: Memorize Mode (mark ayahs as you memorize), Show Translation (keep translation visible under each ayah), Show Transliteration (display transliteration in Study Mode), Dim Other Ayahs (highlight the focused ayah), Auto-scroll on Play (follow recitation as ayahs advance), Tajweed Colors (show color-coded pronunciation highlights with a legend), Word by Word (enable word chips and word-level audio), and Mushaf View (cleaner page-like reading layout). It also has sliders for Arabic text size, translation text size, and playback speed. You can choose between Uthmani and Naskh script, select your Arabic font, and pick your preferred reciter."
+      "The Tools tab in Study Mode includes: Memorize Mode (mark ayahs as you memorize), Show Translation (keep translation visible under each ayah), Show Transliteration (display transliteration in Study Mode), Dim Other Ayahs (highlight the focused ayah), Auto-scroll on Play (follow recitation as ayahs advance), Tajweed Colors (show color-coded pronunciation highlights with a legend), Word by Word (enable word chips and word-level audio), and Mushaf View (cleaner page-like reading layout). It also has sliders for Arabic text size, translation text size, and playback speed. You can choose between Uthmani and Naskh script, select your Arabic font, and pick your preferred reciter from 16 options."
   },
   {
     question: "What is Mushaf View?",
@@ -128,7 +165,7 @@ const FAQ_ITEMS = [
   {
     question: "How do I change the theme?",
     answer:
-      "Click the theme switcher icon in the topbar. Choose from 4 themes: Dark (default dark background), Parchment (warm light background), Black & White (pure contrast), or Dark B&W (true black background)."
+      "Click the theme switcher icon in the topbar. Choose from 4 themes: Dark (default dark background), Parchment (warm light background), Black & White (pure contrast), or Dark B&W (true black background). Theme changes animate smoothly between colors."
   },
   {
     question: "How do I customize text size and fonts?",
@@ -145,7 +182,7 @@ const FAQ_ITEMS = [
     category: "Technical",
     question: "How do I search the Quran?",
     answer:
-      "Press / on your keyboard or click the search icon. Search by Arabic text or English translation. Results show matching ayahs with the surah name and ayah number. Click any result to jump to that verse."
+      "Press / on your keyboard or click the search icon. Search by Arabic text or English translation. Results show matching ayahs with the surah name and ayah number. Click any result to jump to that verse. In Study Mode, the search panel also offers key verses, topic exploration, and recent search history."
   },
   {
     question: "Does OpenFurqan work offline?",
@@ -153,9 +190,9 @@ const FAQ_ITEMS = [
       "Yes. OpenFurqan is a Progressive Web App (PWA). After your first visit, the app shell and previously viewed content are cached for offline use. You can also install it on your device for quick access."
   },
   {
-    question: "How do I track my reading progress?",
+    question: "Does OpenFurqan save my reading progress?",
     answer:
-      "Reading statistics are tracked automatically in the Study panel: daily verses read, minutes spent reading, current streak, longest streak, and long-term reading history. No setup is required."
+      "Yes. Reading position is automatically saved per surah, juz, and page. When you return, you resume exactly where you left off. Reading statistics are also tracked automatically: daily verses read, minutes spent reading, current streak, longest streak, and long-term reading history."
   },
   {
     question: "How can I report issues or contribute?",
@@ -167,14 +204,14 @@ const FAQ_ITEMS = [
 export const metadata: Metadata = {
   title: "FAQ — OpenFurqan Quran Reader | How to Use Every Feature",
   description:
-    "Frequently asked questions about OpenFurqan. Learn how to use translations, audio recitation, word-by-word analysis, Tajweed, Study Mode, Hifz memorization, Tafsir, prayer times, and more.",
+    "Frequently asked questions about OpenFurqan. Learn how to use translations, 16 audio reciters, word-by-word analysis, Tajweed, Study Mode with Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
   alternates: {
     canonical: "/faq"
   },
   openGraph: {
     title: "FAQ — OpenFurqan Quran Reader",
     description:
-      "Learn how to use every feature of OpenFurqan: translations, audio, word-by-word, Tajweed, Study Mode, Hifz, Tafsir, prayer times, and more.",
+      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
     url: "https://openfurqan.com/faq",
     siteName: "OpenFurqan",
     type: "website"
@@ -183,7 +220,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FAQ — OpenFurqan Quran Reader",
     description:
-      "Learn how to use every feature of OpenFurqan: translations, audio, word-by-word, Tajweed, Study Mode, Hifz, Tafsir, prayer times, and more."
+      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more."
   }
 };
 
