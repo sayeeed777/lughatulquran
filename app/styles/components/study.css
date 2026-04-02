@@ -1433,10 +1433,10 @@
   transform: translateY(-50%);
   padding: 4px 10px;
   border-radius: 6px;
-  background: rgba(10, 10, 10, 0.9);
+  background: color-mix(in srgb, var(--text) 85%, transparent);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  color: var(--text);
+  color: var(--bg-light, #fff);
   font-size: 0.68rem;
   font-weight: 540;
   white-space: nowrap;
@@ -3164,10 +3164,10 @@
 
 .tool-block {
   gap: 14px;
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: color-mix(in srgb, var(--text) 2.5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 25%, transparent);
   padding: 16px;
-  border-radius: var(--radius-md);
+  border-radius: 14px;
 }
 
 .tool-block-head {
@@ -3235,10 +3235,10 @@
   gap: 10px;
   font-size: 0.85rem;
   color: var(--text);
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border-radius: 10px;
   padding: 10px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid color-mix(in srgb, var(--stroke) 25%, transparent);
 }
 
 .tool-slider-stack {
@@ -3272,12 +3272,12 @@
 
 .tool-slider-value {
   font-size: 0.78rem;
-  color: #b9ffe6;
+  color: var(--accent-2);
   font-weight: 620;
   padding: 3px 9px;
-  border-radius: var(--radius-full);
-  background: rgba(111, 212, 177, 0.14);
-  border: 1px solid rgba(111, 212, 177, 0.3);
+  border-radius: 20px;
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
   font-variant-numeric: tabular-nums;
 }
 
@@ -3285,7 +3285,7 @@
   position: relative;
   height: 8px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.1);
+  background: color-mix(in srgb, var(--text) 8%, transparent);
 }
 
 .tool-slider-fill {
@@ -3307,15 +3307,15 @@
 }
 
 .tool-slider-fill::-webkit-progress-value {
-  background: linear-gradient(90deg, #57b795 0%, #7de3c0 100%);
+  background: var(--accent-2);
   border-radius: var(--radius-full);
-  box-shadow: 0 0 0 1px rgba(111, 212, 177, 0.28) inset;
+  opacity: 0.7;
 }
 
 .tool-slider-fill::-moz-progress-bar {
-  background: linear-gradient(90deg, #57b795 0%, #7de3c0 100%);
+  background: var(--accent-2);
   border-radius: var(--radius-full);
-  box-shadow: 0 0 0 1px rgba(111, 212, 177, 0.28) inset;
+  opacity: 0.7;
 }
 
 .tool-slider-input {
@@ -3347,9 +3347,9 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #f4faf7;
-  border: 2px solid #173037;
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.34);
+  background: var(--bg-light, #f4faf7);
+  border: 2px solid color-mix(in srgb, var(--text) 50%, transparent);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--text) 20%, transparent);
   margin-top: -4px;
 }
 
@@ -3357,9 +3357,9 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: #f4faf7;
-  border: 2px solid #173037;
-  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.34);
+  background: var(--bg-light, #f4faf7);
+  border: 2px solid color-mix(in srgb, var(--text) 50%, transparent);
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--text) 20%, transparent);
 }
 
 .tool-script-grid {
@@ -3450,16 +3450,13 @@
 .tool-reciter-select-field {
   position: relative;
   min-height: 52px;
-  border-radius: var(--radius-md);
+  border-radius: 12px;
   padding: 10px 40px 10px 12px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.06) 0%,
-    rgba(255, 255, 255, 0.03) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
   display: flex;
   align-items: center;
+  transition: border-color 0.15s ease;
 }
 
 .tool-reciter-selected {
@@ -3485,9 +3482,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #b9ffe6;
-  background: rgba(111, 212, 177, 0.14);
-  border: 1px solid rgba(111, 212, 177, 0.28);
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
   pointer-events: none;
 }
 
@@ -3522,10 +3519,10 @@
 
 .tajweed-legend {
   margin-top: 10px;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--text) 2%, transparent);
+  border-radius: 12px;
   padding: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid color-mix(in srgb, var(--stroke) 15%, transparent);
 }
 
 .tajweed-legend-hint {
@@ -3554,12 +3551,12 @@
   flex: 0 0 auto;
   width: 40px;
   height: 26px;
-  border-radius: var(--radius-full);
+  border-radius: 8px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 20%, transparent);
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.02em;
@@ -3586,10 +3583,10 @@
 
 /* Hifz guide */
 .hifz-guide {
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--text) 2%, transparent);
+  border-radius: 12px;
   padding: 14px;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid color-mix(in srgb, var(--stroke) 15%, transparent);
 }
 
 .hifz-guide-title {
@@ -3755,21 +3752,18 @@
 .tafsir-edition-field {
   position: relative;
   min-height: 52px;
-  border-radius: var(--radius-md);
+  border-radius: 12px;
   padding: 10px 40px 10px 12px;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.06) 0%,
-    rgba(255, 255, 255, 0.03) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
   display: flex;
   align-items: center;
+  transition: border-color 0.15s ease;
 }
 
 .tafsir-edition-field:focus-within {
-  border-color: rgba(111, 212, 177, 0.42);
-  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.12);
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 10%, transparent);
 }
 
 .tafsir-edition-selected {
@@ -3795,9 +3789,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: #b9ffe6;
-  background: rgba(111, 212, 177, 0.14);
-  border: 1px solid rgba(111, 212, 177, 0.28);
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
   pointer-events: none;
 }
 

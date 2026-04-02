@@ -809,61 +809,8 @@
   box-shadow: none;
 }
 
-:root[data-theme="bw-dark"] .tool-toggle-card,
-:root[data-theme="bw-dark"] .tool-slider-row {
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-:root[data-theme="bw-dark"] .tool-reciter-select-field,
-:root[data-theme="bw-dark"] .tafsir-edition-field {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-:root[data-theme="bw-dark"] .tool-hero-card {
-  background: transparent;
-  border: none;
-}
-
-:root[data-theme="bw-dark"] .tool-chip {
-  color: #eee;
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.2);
-}
-
-:root[data-theme="bw-dark"] .tool-slider-value {
-  color: #eee;
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.15);
-}
-
-:root[data-theme="bw-dark"] .tool-slider-track {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-:root[data-theme="bw-dark"] .tool-slider-fill::-webkit-progress-value {
-  background: #eee;
-}
-
-:root[data-theme="bw-dark"] .tool-slider-fill::-moz-progress-bar {
-  background: #eee;
-}
-
-:root[data-theme="bw-dark"] .tool-slider-input::-webkit-slider-thumb {
-  background: #000;
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
-:root[data-theme="bw-dark"] .tool-slider-input::-moz-range-thumb {
-  background: #000;
-  border-color: rgba(255, 255, 255, 0.5);
-}
-
 :root[data-theme="bw-dark"] .study-card,
-:root[data-theme="bw-dark"] .study-settings-group,
-:root[data-theme="bw-dark"] .tool-toggle {
+:root[data-theme="bw-dark"] .study-settings-group {
   background: rgba(255, 255, 255, 0.03);
   border-color: rgba(255, 255, 255, 0.08);
 }
@@ -871,17 +818,6 @@
 :root[data-theme="bw-dark"] .tafsir-card.study-card {
   background: transparent;
   border: none;
-}
-
-:root[data-theme="bw-dark"] .tool-block.study-card {
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-:root[data-theme="bw-dark"] .study-toggle-list,
-:root[data-theme="bw-dark"] .study-premium-sliders {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.08);
 }
 
 /* Study Lexicon Modal */
@@ -1024,13 +960,6 @@
   background: #eee;
 }
 
-:root[data-theme="bw-dark"] .tool-slider-fill::-webkit-progress-value {
-  background: #eee;
-}
-
-:root[data-theme="bw-dark"] .tool-slider-fill::-moz-progress-bar {
-  background: #eee;
-}
 
 /* Focus Rings */
 :root[data-theme="bw-dark"] *:focus-visible {
