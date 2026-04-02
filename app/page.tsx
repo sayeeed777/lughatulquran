@@ -19,7 +19,37 @@ import { useUIState, usePreferences, useAudio, useActions } from "./contexts";
 
 const StudyModeView = dynamic(() => import("./components/study/StudyModeView"), {
   ssr: false,
-  loading: () => <div className="status">Loading study mode…</div>,
+  loading: () => (
+    <div className="study-mode-container">
+      <div className="study-ambient-bg" />
+      <div className="study-load-skeleton">
+        <div className="study-load-skeleton-header">
+          <div className="skeleton-box" style={{ width: 60, height: 14, borderRadius: 7 }} />
+          <div className="skeleton-box" style={{ width: 120, height: 18, borderRadius: 9 }} />
+          <div className="skeleton-box" style={{ width: 60, height: 14, borderRadius: 7 }} />
+        </div>
+        <div className="study-skeleton-list">
+          {[1, 2, 3, 4].map((i) => (
+            <div key={i} className="study-skeleton-card skeleton">
+              <div className="study-skeleton-header">
+                <div className="skeleton-box study-skeleton-badge" />
+                <div className="skeleton-box study-skeleton-actions" />
+              </div>
+              <div className="study-skeleton-body">
+                <div className="skeleton-box study-skeleton-arabic" />
+                <div className="skeleton-box study-skeleton-arabic short" />
+              </div>
+              <div className="study-skeleton-translation">
+                <div className="skeleton-box study-skeleton-line" />
+                <div className="skeleton-box study-skeleton-line" />
+                <div className="skeleton-box study-skeleton-line short" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  ),
 });
 const PrayerPanel = dynamic(() => import("./components/modals/PrayerPanel"), { ssr: false });
 const CompareModal = dynamic(() => import("./components/modals/CompareModal"), { ssr: false });
