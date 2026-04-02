@@ -1005,63 +1005,6 @@
   background: rgba(255, 255, 255, 0.18) !important;
 }
 
-/* Quick Note Components */
-:root[data-theme="bw-dark"] .quick-note-tab {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.06);
-}
-
-:root[data-theme="bw-dark"] .quick-note-tab:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-:root[data-theme="bw-dark"] .quick-note-tab.active {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.15);
-}
-
-:root[data-theme="bw-dark"] .quick-note-tab-time {
-  color: #666;
-}
-
-:root[data-theme="bw-dark"] .quick-note-editor {
-  background: rgba(255, 255, 255, 0.03);
-  border-color: rgba(255, 255, 255, 0.06);
-}
-
-:root[data-theme="bw-dark"] .quick-note-title-input,
-:root[data-theme="bw-dark"] .quick-note-body-input {
-  background: rgba(255, 255, 255, 0.04);
-  color: #eee;
-}
-
-:root[data-theme="bw-dark"] .quick-note-title-input:focus,
-:root[data-theme="bw-dark"] .quick-note-body-input:focus {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-:root[data-theme="bw-dark"] .quick-item-action.save {
-  background: rgba(255, 255, 255, 0.1);
-  color: #eee;
-}
-
-:root[data-theme="bw-dark"] .quick-item-action.save:hover {
-  background: rgba(255, 255, 255, 0.15);
-}
-
-:root[data-theme="bw-dark"] .quick-item-action.save:disabled {
-  background: rgba(255, 255, 255, 0.05);
-  color: #666;
-}
-
-:root[data-theme="bw-dark"] .quick-item-action.danger {
-  background: rgba(255, 107, 107, 0.1);
-  color: #ff6b6b;
-}
-
-:root[data-theme="bw-dark"] .quick-item-action.danger:hover {
-  background: rgba(255, 107, 107, 0.15);
-}
 
 /* Translation/Reciter Chips detailed states */
 :root[data-theme="bw-dark"] .translation-chip:hover,

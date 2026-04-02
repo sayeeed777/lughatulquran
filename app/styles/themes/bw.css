@@ -1006,54 +1006,6 @@
   background: rgba(0, 0, 0, 0.18) !important;
 }
 
-/* Quick Note Components - B&W theme */
-:root[data-theme="bw"] .quick-note-tab {
-  background: rgba(0, 0, 0, 0.04);
-  border-color: rgba(0, 0, 0, 0.06);
-}
-
-:root[data-theme="bw"] .quick-note-tab:hover {
-  background: rgba(0, 0, 0, 0.06);
-}
-
-:root[data-theme="bw"] .quick-note-tab.active {
-  background: rgba(0, 0, 0, 0.1);
-  border-color: rgba(0, 0, 0, 0.15);
-}
-
-:root[data-theme="bw"] .quick-note-tab-time {
-  color: #888;
-}
-
-:root[data-theme="bw"] .quick-note-editor {
-  background: rgba(0, 0, 0, 0.03);
-  border-color: rgba(0, 0, 0, 0.06);
-}
-
-:root[data-theme="bw"] .quick-note-title-input,
-:root[data-theme="bw"] .quick-note-body-input {
-  background: rgba(0, 0, 0, 0.04);
-  color: #111;
-}
-
-:root[data-theme="bw"] .quick-note-title-input:focus,
-:root[data-theme="bw"] .quick-note-body-input:focus {
-  background: rgba(0, 0, 0, 0.06);
-}
-
-:root[data-theme="bw"] .quick-item-action.save {
-  background: rgba(0, 0, 0, 0.1);
-  color: #111;
-}
-
-:root[data-theme="bw"] .quick-item-action.save:hover {
-  background: rgba(0, 0, 0, 0.15);
-}
-
-:root[data-theme="bw"] .quick-item-action.save:disabled {
-  background: rgba(0, 0, 0, 0.05);
-  color: #888;
-}
 
 :root[data-theme="bw"] .quick-item-action.danger {
   background: rgba(204, 51, 51, 0.08);

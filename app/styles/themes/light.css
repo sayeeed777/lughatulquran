@@ -418,47 +418,6 @@
   color: var(--text);
 }
 
-:root[data-theme="light"] .quick-note-tab {
-  background: rgba(66, 82, 54, 0.05);
-  border-color: rgba(66, 82, 54, 0.08);
-}
-
-:root[data-theme="light"] .quick-note-tab:hover {
-  background: rgba(66, 82, 54, 0.08);
-}
-
-:root[data-theme="light"] .quick-note-tab.active {
-  background: rgba(66, 82, 54, 0.14);
-  border-color: rgba(66, 82, 54, 0.2);
-}
-
-:root[data-theme="light"] .quick-note-tab-time {
-  color: rgba(70, 83, 63, 0.72);
-}
-
-:root[data-theme="light"] .quick-note-editor {
-  background: rgba(66, 82, 54, 0.035);
-  border-color: rgba(66, 82, 54, 0.08);
-}
-
-:root[data-theme="light"] .quick-note-title-input,
-:root[data-theme="light"] .quick-note-body-input {
-  background: rgba(66, 82, 54, 0.05);
-}
-
-:root[data-theme="light"] .quick-note-title-input:focus,
-:root[data-theme="light"] .quick-note-body-input:focus {
-  background: rgba(66, 82, 54, 0.08);
-}
-
-:root[data-theme="light"] .quick-item-action.save {
-  background: rgba(66, 82, 54, 0.16);
-  color: var(--accent);
-}
-
-:root[data-theme="light"] .quick-item-action.save:hover {
-  background: rgba(66, 82, 54, 0.22);
-}
 
 :root[data-theme="light"] .quick-item-action.save:disabled {
   background: rgba(66, 82, 54, 0.08);
@@ -621,7 +580,6 @@
 :root[data-theme="light"] .study-card,
 :root[data-theme="light"] .study-settings-group,
 :root[data-theme="light"] .search-results li,
-:root[data-theme="light"] .quick-list-item,
 :root[data-theme="light"] .tool-toggle {
   background: rgba(250, 248, 245, 0.75);
   border: 1px solid rgba(66, 82, 54, 0.12);

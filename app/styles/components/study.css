@@ -4040,173 +4040,249 @@
   font-family: "Scheherazade New", "Amiri", serif;
 }
 
-/* Quick List */
-.quick-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+/* ── Notes panel (redesigned) ── */
+.notes-panel-redesign {
+  gap: 20px;
 }
 
-.quick-notes-head {
+.notes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.notes-section-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
 }
 
-.quick-notes-shell {
+.notes-section-label {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.quick-note-tabs {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  max-height: 180px;
-  overflow-y: auto;
-  padding-right: 2px;
-}
-
-.quick-note-tab {
-  width: 100%;
-  text-align: left;
-  border-radius: var(--radius-sm);
-  padding: 10px 12px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  background: rgba(255, 255, 255, 0.03);
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  transition: background 0.2s ease, border-color 0.2s ease;
-}
-
-.quick-note-tab:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.quick-note-tab.active {
-  background: rgba(111, 212, 177, 0.12);
-  border-color: rgba(111, 212, 177, 0.25);
-}
-
-.quick-note-tab-title {
-  font-size: 0.82rem;
-  font-weight: 560;
-  color: var(--text);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.quick-note-tab-time {
-  font-size: 0.72rem;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.66rem;
+  font-weight: 620;
   color: var(--muted);
-  letter-spacing: 0.01em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
 }
 
-.quick-note-editor {
+.notes-new-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 5px 12px;
+  border-radius: 20px;
+  border: 1px solid color-mix(in srgb, var(--accent-2) 25%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 8%, transparent);
+  color: var(--accent-2);
+  font-size: 0.72rem;
+  font-weight: 520;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.notes-new-btn:hover {
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  border-color: color-mix(in srgb, var(--accent-2) 40%, transparent);
+}
+
+.notes-count-badge {
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
+  color: var(--accent-2);
+  font-size: 0.66rem;
+  font-weight: 600;
+}
+
+/* ── Notes editor ── */
+.notes-editor {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  padding: 10px;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  gap: 6px;
+  padding: 14px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--text) 3%, transparent);
+  border: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
 }
 
-.quick-note-title-input,
-.quick-note-body-input {
+.notes-editor-title {
   width: 100%;
   border: none;
-  border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--text) 4%, transparent);
   color: var(--text);
-  padding: 10px 12px;
+  padding: 10px 14px;
   font-size: 0.88rem;
-  transition: background 0.2s ease;
-}
-
-.quick-note-title-input::placeholder,
-.quick-note-body-input::placeholder {
-  color: var(--muted);
-}
-
-.quick-note-title-input:focus,
-.quick-note-body-input:focus {
+  font-weight: 540;
+  transition: all 0.2s ease;
   outline: none;
-  background: rgba(255, 255, 255, 0.08);
 }
 
-.quick-note-body-input {
+.notes-editor-title::placeholder {
+  color: var(--muted);
+  opacity: 0.5;
+  font-weight: 440;
+}
+
+.notes-editor-title:focus {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 12%, transparent);
+}
+
+.notes-editor-body {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--text) 4%, transparent);
+  color: var(--text);
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  line-height: 1.6;
   resize: vertical;
-  min-height: 112px;
-  line-height: 1.5;
+  min-height: 120px;
+  transition: all 0.2s ease;
+  outline: none;
 }
 
-.quick-note-editor-meta {
+.notes-editor-body::placeholder {
+  color: var(--muted);
+  opacity: 0.5;
+}
+
+.notes-editor-body:focus {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 12%, transparent);
+}
+
+.notes-editor-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  font-size: 0.74rem;
+  gap: 8px;
+  padding-top: 6px;
+}
+
+.notes-editor-status {
+  font-size: 0.7rem;
+  font-weight: 480;
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.notes-editor-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ── Notes buttons ── */
+.notes-btn {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 520;
+  border: none;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.notes-btn--primary {
+  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+  color: var(--accent-2);
+}
+
+.notes-btn--primary:hover {
+  background: color-mix(in srgb, var(--accent-2) 28%, transparent);
+}
+
+.notes-btn--primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.notes-btn--primary:disabled:hover {
+  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
+}
+
+.notes-btn--ghost {
+  background: transparent;
   color: var(--muted);
 }
 
-.quick-note-editor-actions {
+.notes-btn--ghost:hover {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  color: var(--text);
+}
+
+.notes-btn--danger {
+  background: color-mix(in srgb, #f87171 10%, transparent);
+  color: #f3a08b;
+}
+
+.notes-btn--danger:hover {
+  background: color-mix(in srgb, #f87171 18%, transparent);
+}
+
+.notes-btn--small {
+  padding: 6px;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+.notes-btn--small:hover {
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  color: var(--text);
+  opacity: 1;
+}
+
+/* ── Notes list ── */
+.notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.notes-list-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.quick-item-action.danger {
-  background: rgba(248, 113, 113, 0.12);
-  color: #ffc2c2;
+.notes-list-item:hover {
+  background: color-mix(in srgb, var(--text) 4%, transparent);
 }
 
-.quick-item-action.danger:hover {
-  background: rgba(248, 113, 113, 0.2);
-}
-
-.quick-notes-empty .action-btn {
-  margin-top: 8px;
-}
-
-.quick-list-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  background: rgba(255, 255, 255, 0.04);
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  transition: all 0.2s ease;
-}
-
-.quick-list-item:hover {
-  background: rgba(255, 255, 255, 0.06);
-}
-
-.quick-item-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: var(--radius-sm);
-  background: rgba(216, 179, 106, 0.1);
-  color: var(--accent);
+.notes-list-item-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
+  color: var(--accent-2);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
 
-.quick-item-content {
+.notes-list-item-content {
   flex: 1;
   min-width: 0;
   display: flex;
@@ -4214,77 +4290,161 @@
   gap: 2px;
 }
 
-.quick-item-title {
-  font-size: 0.85rem;
-  font-weight: 500;
+.notes-list-item-title {
+  font-size: 0.82rem;
+  font-weight: 520;
   color: var(--text);
-}
-
-.quick-item-sub {
-  font-size: 0.75rem;
-  color: var(--muted);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.quick-item-action {
-  padding: 6px 12px;
-  border-radius: var(--radius-xs);
-  font-size: 0.75rem;
-  font-weight: 500;
-  background: rgba(111, 212, 177, 0.1);
-  color: var(--accent-2);
-  transition: all 0.2s ease;
+.notes-list-item-time {
+  font-size: 0.68rem;
+  color: var(--muted);
+  opacity: 0.6;
 }
 
-.quick-item-action:hover {
-  background: rgba(111, 212, 177, 0.2);
+.notes-list-item-chevron {
+  color: var(--muted);
+  opacity: 0.3;
+  flex-shrink: 0;
 }
 
-.quick-item-action.save {
-  background: rgba(111, 212, 177, 0.2);
-  color: #d8fff0;
+/* ── Ayah notes list ── */
+.notes-ayah-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 4px;
 }
 
-.quick-item-action.save:hover {
-  background: rgba(111, 212, 177, 0.28);
+.notes-ayah-item-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.quick-item-action:disabled {
-  opacity: 0.55;
-  cursor: not-allowed;
+.notes-ayah-item-main:hover {
+  background: color-mix(in srgb, var(--text) 4%, transparent);
 }
 
-.quick-item-action:disabled:hover {
-  background: inherit;
+.notes-ayah-ref {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
-/* Quick Empty State */
-.quick-empty {
+.notes-ayah-ref-num {
+  font-size: 0.68rem;
+  font-weight: 620;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+}
+
+.notes-ayah-item-content {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.notes-ayah-name {
+  font-size: 0.8rem;
+  font-weight: 520;
+  color: var(--text);
+}
+
+.notes-ayah-preview {
+  font-size: 0.72rem;
+  color: var(--muted);
+  opacity: 0.7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.4;
+}
+
+/* ── Notes empty state ── */
+.notes-empty {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 48px 24px;
+  padding: 40px 24px;
   text-align: center;
-  color: var(--muted);
 }
 
-.quick-empty svg {
-  opacity: 0.3;
-  margin-bottom: 16px;
+.notes-empty--compact {
+  padding: 28px 20px;
 }
 
-.quick-empty p {
-  font-size: 0.95rem;
-  font-weight: 500;
+.notes-empty-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--accent-2) 8%, transparent);
+  color: var(--accent-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+  opacity: 0.6;
+}
+
+.notes-empty-title {
+  font-size: 0.88rem;
+  font-weight: 540;
   color: var(--text);
-  margin-bottom: 4px;
+  margin: 0 0 4px;
 }
 
-.quick-empty span {
-  font-size: 0.8rem;
+.notes-empty-desc {
+  font-size: 0.75rem;
+  color: var(--muted);
+  opacity: 0.6;
+  line-height: 1.4;
+}
+
+.notes-create-btn {
+  margin-top: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Legacy quick-item-action (used by Tafsir tab) */
+.quick-item-action {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.73rem;
+  font-weight: 520;
+  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
+  color: var(--accent-2);
+  transition: all 0.15s ease;
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.quick-item-action:hover {
+  background: color-mix(in srgb, var(--accent-2) 18%, transparent);
 }
 
 /* Stats Grid */
@@ -4831,33 +4991,6 @@
   color: #111;
 }
 
-/* Quick note tab active */
-:root[data-theme="bw"] .quick-note-tab.active {
-  background: rgba(0, 0, 0, 0.1);
-  border-color: rgba(0, 0, 0, 0.15);
-}
-
-:root[data-theme="bw"] .quick-note-editor:focus-within {
-  border-color: rgba(0, 0, 0, 0.2);
-}
-
-:root[data-theme="bw"] .quick-item-action {
-  background: rgba(0, 0, 0, 0.08);
-  color: #333;
-}
-
-:root[data-theme="bw"] .quick-item-action:hover {
-  background: rgba(0, 0, 0, 0.12);
-}
-
-:root[data-theme="bw"] .quick-item-action.save {
-  background: rgba(0, 0, 0, 0.1);
-  color: #111;
-}
-
-:root[data-theme="bw"] .quick-item-action.save:hover {
-  background: rgba(0, 0, 0, 0.15);
-}
 
 /* Tool hero card */
 :root[data-theme="bw"] .tool-hero-card {

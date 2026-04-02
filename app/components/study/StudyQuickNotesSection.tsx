@@ -210,6 +210,13 @@ export default function StudyQuickNotesSection({
     setSimpleNoteBodyDraft("");
   }, [activeSimpleNote, isCreatingSimpleNote, setStoredSimpleNotes]);
 
+  const cancelEditing = useCallback(() => {
+    setIsCreatingSimpleNote(false);
+    setActiveSimpleNoteId(null);
+    setSimpleNoteTitleDraft("");
+    setSimpleNoteBodyDraft("");
+  }, []);
+
   const quickNoteHasDraftChanges = isCreatingSimpleNote
     ? Boolean((simpleNoteTitleDraft || "").trim() || (simpleNoteBodyDraft || "").trim())
     : Boolean(
@@ -218,139 +225,167 @@ export default function StudyQuickNotesSection({
             activeSimpleNote.body !== simpleNoteBodyDraft)
       );
 
+  const isEditing = activeSimpleNote || isCreatingSimpleNote;
+
   return (
-    <div className="quick-panel-section">
-      <div className="study-card quick-notes-card">
-        <div className="quick-notes-head">
-          <h4>Quick Notes</h4>
-          <button className="quick-item-action" onClick={createSimpleNote} type="button">
-            New note
-          </button>
-        </div>
-
-        {orderedSimpleNotes.length > 0 || isCreatingSimpleNote ? (
-          <div className="quick-notes-shell">
-            {orderedSimpleNotes.length > 0 && (
-              <div className="quick-note-tabs">
-                {orderedSimpleNotes.map((note) => {
-                  const title = deriveNoteTitle(note.title, note.body);
-                  const isActive = !isCreatingSimpleNote && note.id === activeSimpleNote?.id;
-                  return (
-                    <button
-                      key={note.id}
-                      className={`quick-note-tab${isActive ? " active" : ""}`}
-                      onClick={() => {
-                        setIsCreatingSimpleNote(false);
-                        setActiveSimpleNoteId(note.id);
-                      }}
-                      type="button"
-                    >
-                      <span className="quick-note-tab-title">{title}</span>
-                      <span className="quick-note-tab-time">
-                        {formatRelativeTime(note.updatedAt)}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
-            )}
-
-            {(activeSimpleNote || isCreatingSimpleNote) && (
-              <div className="quick-note-editor">
-                <input
-                  className="quick-note-title-input"
-                  value={simpleNoteTitleDraft}
-                  onChange={(event) => setSimpleNoteTitleDraft(event.target.value)}
-                  placeholder="Title (optional)"
-                />
-                <textarea
-                  className="quick-note-body-input"
-                  value={simpleNoteBodyDraft}
-                  onChange={(event) => setSimpleNoteBodyDraft(event.target.value)}
-                  placeholder="Write your note..."
-                  rows={6}
-                />
-                <div className="quick-note-editor-meta">
-                  <span>
-                    {isCreatingSimpleNote
-                      ? "New note"
-                      : quickNoteHasDraftChanges
-                        ? "Unsaved changes"
-                        : activeSimpleNote
-                          ? `Updated ${formatRelativeTime(activeSimpleNote.updatedAt)}`
-                          : ""}
-                  </span>
-                  <div className="quick-note-editor-actions">
-                    {!isCreatingSimpleNote && activeSimpleNote && (
-                      <button
-                        className="quick-item-action danger"
-                        onClick={deleteActiveSimpleNote}
-                        type="button"
-                      >
-                        Delete
-                      </button>
-                    )}
-                    <button
-                      className="quick-item-action save"
-                      onClick={saveActiveSimpleNote}
-                      type="button"
-                      disabled={!quickNoteHasDraftChanges}
-                    >
-                      Save
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-        ) : (
-          <div className="quick-empty quick-notes-empty">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
+    <div className="quick-panel-section notes-panel-redesign">
+      {/* ── Quick Notes Section ── */}
+      <div className="notes-section">
+        <div className="notes-section-header">
+          <span className="notes-section-label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
               <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
               <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
             </svg>
-            <p>No quick notes yet</p>
-            <span>Create one simple note like a phone notes app.</span>
-            <button className="action-btn" onClick={createSimpleNote} type="button">
+            Quick Notes
+          </span>
+          {!isEditing && (
+            <button className="notes-section-action notes-new-btn" onClick={createSimpleNote} type="button">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+              New
+            </button>
+          )}
+        </div>
+
+        {/* Editor (create or edit) */}
+        {isEditing && (
+          <div className="notes-editor">
+            <input
+              className="notes-editor-title"
+              value={simpleNoteTitleDraft}
+              onChange={(event) => setSimpleNoteTitleDraft(event.target.value)}
+              placeholder="Title (optional)"
+              autoFocus
+            />
+            <textarea
+              className="notes-editor-body"
+              value={simpleNoteBodyDraft}
+              onChange={(event) => setSimpleNoteBodyDraft(event.target.value)}
+              placeholder="Write your note..."
+              rows={6}
+            />
+            <div className="notes-editor-footer">
+              <span className="notes-editor-status">
+                {isCreatingSimpleNote
+                  ? "New note"
+                  : quickNoteHasDraftChanges
+                    ? "Unsaved changes"
+                    : activeSimpleNote
+                      ? `Updated ${formatRelativeTime(activeSimpleNote.updatedAt)}`
+                      : ""}
+              </span>
+              <div className="notes-editor-actions">
+                {!isCreatingSimpleNote && activeSimpleNote && (
+                  <button
+                    className="notes-btn notes-btn--danger"
+                    onClick={deleteActiveSimpleNote}
+                    type="button"
+                  >
+                    Delete
+                  </button>
+                )}
+                <button
+                  className="notes-btn notes-btn--ghost"
+                  onClick={cancelEditing}
+                  type="button"
+                >
+                  Cancel
+                </button>
+                <button
+                  className="notes-btn notes-btn--primary"
+                  onClick={saveActiveSimpleNote}
+                  type="button"
+                  disabled={!quickNoteHasDraftChanges}
+                >
+                  Save
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Note list */}
+        {!isEditing && orderedSimpleNotes.length > 0 && (
+          <div className="notes-list">
+            {orderedSimpleNotes.map((note) => {
+              const title = deriveNoteTitle(note.title, note.body);
+              return (
+                <button
+                  key={note.id}
+                  className="notes-list-item"
+                  onClick={() => {
+                    setIsCreatingSimpleNote(false);
+                    setActiveSimpleNoteId(note.id);
+                  }}
+                  type="button"
+                >
+                  <div className="notes-list-item-icon">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z" />
+                      <polyline points="14 2 14 8 20 8" />
+                      <line x1="16" y1="13" x2="8" y2="13" />
+                      <line x1="16" y1="17" x2="8" y2="17" />
+                    </svg>
+                  </div>
+                  <div className="notes-list-item-content">
+                    <span className="notes-list-item-title">{title}</span>
+                    <span className="notes-list-item-time">{formatRelativeTime(note.updatedAt)}</span>
+                  </div>
+                  <svg className="notes-list-item-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* Empty state */}
+        {!isEditing && orderedSimpleNotes.length === 0 && (
+          <div className="notes-empty">
+            <div className="notes-empty-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+              </svg>
+            </div>
+            <p className="notes-empty-title">No quick notes yet</p>
+            <span className="notes-empty-desc">Jot down thoughts, reflections, or reminders</span>
+            <button className="notes-btn notes-btn--primary notes-create-btn" onClick={createSimpleNote} type="button">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
               Create first note
             </button>
           </div>
         )}
       </div>
 
-      <div className="study-card notes-card">
-        <h4>Ayah Notes</h4>
+      {/* ── Ayah Notes Section ── */}
+      <div className="notes-section">
+        <div className="notes-section-header">
+          <span className="notes-section-label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
+            </svg>
+            Ayah Notes
+          </span>
+          {sortedNotes?.length > 0 && (
+            <span className="notes-count-badge">{sortedNotes.length}</span>
+          )}
+        </div>
+
         {sortedNotes?.length > 0 ? (
-          <ul className="quick-list">
+          <div className="notes-list">
             {sortedNotes.map((note) => {
               const name = surahByNumber?.get(note.surah)?.englishName || `Surah ${note.surah}`;
               const preview = note.value.length > 60 ? `${note.value.slice(0, 60)}...` : note.value;
               return (
-                <li key={note.key} className="quick-list-item">
-                  <div className="quick-item-icon">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-                      <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-                    </svg>
-                  </div>
-                  <div className="quick-item-content">
-                    <span className="quick-item-title">
-                      {name} - Ayah {note.ayah}
-                    </span>
-                    <span className="quick-item-sub">{preview}</span>
-                  </div>
+                <div key={note.key} className="notes-ayah-item">
                   <button
-                    className="quick-item-action"
-                    onClick={() => {
-                      onOpenNote(note.surah, note.ayah);
-                      onClosePanel();
-                    }}
-                    type="button"
-                  >
-                    Edit
-                  </button>
-                  <button
-                    className="quick-item-action"
+                    className="notes-ayah-item-main"
                     onClick={() => {
                       onJumpToAyah(note.surah, note.ayah);
                       onOpenNote(note.surah, note.ayah);
@@ -358,20 +393,41 @@ export default function StudyQuickNotesSection({
                     }}
                     type="button"
                   >
-                    Open
+                    <div className="notes-ayah-ref">
+                      <span className="notes-ayah-ref-num">{note.surah}:{note.ayah}</span>
+                    </div>
+                    <div className="notes-ayah-item-content">
+                      <span className="notes-ayah-name">{name} - Ayah {note.ayah}</span>
+                      <span className="notes-ayah-preview">{preview}</span>
+                    </div>
                   </button>
-                </li>
+                  <button
+                    className="notes-btn notes-btn--small"
+                    onClick={() => {
+                      onOpenNote(note.surah, note.ayah);
+                      onClosePanel();
+                    }}
+                    type="button"
+                    aria-label="Edit note"
+                  >
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
+                      <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
+                    </svg>
+                  </button>
+                </div>
               );
             })}
-          </ul>
+          </div>
         ) : (
-          <div className="quick-empty">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
-              <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" />
-              <path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z" />
-            </svg>
-            <p>No notes yet</p>
-            <span>Tap the note icon on any ayah to add thoughts</span>
+          <div className="notes-empty notes-empty--compact">
+            <div className="notes-empty-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M19 21l-7-5-7 5V5a2 2 0 012-2h10a2 2 0 012 2z" />
+              </svg>
+            </div>
+            <p className="notes-empty-title">No ayah notes yet</p>
+            <span className="notes-empty-desc">Tap the note icon on any ayah to add your thoughts</span>
           </div>
         )}
       </div>
