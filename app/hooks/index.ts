@@ -7,6 +7,7 @@ export {
   useWindowSize
 } from "./common";
 export { useBookmarks, useNoteEditor } from "./useBookmarks";
+export { useAudioNotes } from "./useAudioNotes";
 export { useAudioPlayback } from "./useAudioPlayback";
 export { useMemorization } from "./useMemorization";
 export { useReadingPlan, useFontScale } from "./useAppSettings";

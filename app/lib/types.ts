@@ -67,6 +67,20 @@ export type MemorizeConfig = {
 
 export type Notes = Record<string, string>;
 
+export type AudioNoteMeta = {
+  id: string;
+  title: string;
+  durationMs: number;
+  mimeType: string;
+  size: number;
+  createdAt: number;
+  updatedAt: number;
+};
+
+export type AudioNote = AudioNoteMeta & {
+  audioUrl: string;
+};
+
 export type NoteTarget = {
   surah: number;
   ayah: number;

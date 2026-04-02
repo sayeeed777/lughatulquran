@@ -18,7 +18,7 @@ const FAQ_ITEMS = [
   {
     question: "Can I read the Quran without signing in?",
     answer:
-      "Yes. OpenFurqan requires no account, no login, and no sign-up. Just open openfurqan.com and start reading. Your bookmarks, notes, and progress are saved locally in your browser."
+      "Yes. OpenFurqan requires no account, no login, and no sign-up. Just open openfurqan.com and start reading. Your notes, progress, and recitation recordings stay on your device and are not uploaded to our servers."
   },
   {
     question: "Is OpenFurqan a good alternative to Quran.com?",
@@ -68,6 +68,11 @@ const FAQ_ITEMS = [
     question: "Can I listen to Quran recitation with translation?",
     answer:
       "Yes. Enable a translation from Settings, then play any ayah. The audio recitation plays while the Arabic text and your selected translation are both visible on screen. You can show multiple translations side by side while listening."
+  },
+  {
+    question: "Can I record and save my own recitation?",
+    answer:
+      "Yes. In Study Mode, open the Notes tab and use Recitation Notes to record your own recitation, preview it, save it, replay it, download it, or delete it later. Your recitation recordings stay on your device and are not uploaded to our servers. Microphone permission is requested only when you tap Start recording."
   },
   // Memorization
   {
@@ -224,7 +229,7 @@ const FAQ_ITEMS = [
     category: "Privacy & Data",
     question: "Where is my data stored?",
     answer:
-      "All your data — bookmarks, notes, reading progress, memorization history, and preferences — is stored locally in your browser using localStorage. Nothing is sent to a server. Your data stays on your device."
+      "All your data — bookmarks, notes, recitation recordings, reading progress, memorization history, and preferences — stays on your device and is not uploaded to our servers."
   },
   {
     question: "Does OpenFurqan collect personal data?",
@@ -234,7 +239,7 @@ const FAQ_ITEMS = [
   {
     question: "Do bookmarks and notes stay on my device?",
     answer:
-      "Yes. Bookmarks, notes, and all saved data are stored in your browser's localStorage. They persist between sessions but are tied to your browser. If you clear your browser data, your saved content will be removed because it was never stored anywhere else."
+      "Yes. Bookmarks, notes, recitation recordings, and other saved data stay on your device and are not uploaded to our servers. If you clear your browser data, your saved content may be removed because it was never stored anywhere else."
   },
   {
     question: "Where does OpenFurqan get its Quran text and translations?",
@@ -246,14 +251,14 @@ const FAQ_ITEMS = [
 export const metadata: Metadata = {
   title: "FAQ — OpenFurqan Quran Reader | How to Use Every Feature",
   description:
-    "Frequently asked questions about OpenFurqan. Learn how to use translations, 16 audio reciters, word-by-word analysis, Tajweed, Study Mode with Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
+    "Frequently asked questions about OpenFurqan. Learn how to use translations, 16 audio reciters, recitation notes, word-by-word analysis, Tajweed, Study Mode with Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
   alternates: {
     canonical: "/faq"
   },
   openGraph: {
     title: "FAQ — OpenFurqan Quran Reader",
     description:
-      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
+      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, recitation notes, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more.",
     url: "https://openfurqan.com/faq",
     siteName: "OpenFurqan",
     type: "website"
@@ -262,7 +267,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "FAQ — OpenFurqan Quran Reader",
     description:
-      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more."
+      "Learn how to use every feature of OpenFurqan: translations, 16 reciters, recitation notes, word-by-word, Tajweed, Surah/Juz/Page views, Anki-style memorization, Tafsir, prayer times, and more."
   }
 };
 

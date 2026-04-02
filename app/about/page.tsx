@@ -5,14 +5,14 @@ import { getCspNonce } from "../lib/csp";
 export const metadata: Metadata = {
   title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools & Memorization",
   description:
-    "OpenFurqan is a free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 reciters, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed colors, Tafsir, prayer times, and more.",
+    "OpenFurqan is a free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 reciters, local recitation notes, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed colors, Tafsir, prayer times, and more.",
   alternates: {
     canonical: "/about"
   },
   openGraph: {
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web app with 16 reciters, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more.",
+      "A free, open-source Quran reading web app with 16 reciters, local recitation notes, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more.",
     url: "https://openfurqan.com/about",
     siteName: "OpenFurqan",
     type: "website"
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web app with 16 reciters, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more."
+      "A free, open-source Quran reading web app with 16 reciters, local recitation notes, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more."
   }
 };
 
@@ -34,7 +34,7 @@ export default async function AboutPage() {
     name: "OpenFurqan",
     url: "https://openfurqan.com",
     description:
-      "OpenFurqan is a free, open-source Quran reading web application with translations, audio, study tools, and more."
+      "OpenFurqan is a free, open-source Quran reading web application with translations, audio, local recitation notes, study tools, and more."
   };
 
   const appJsonLd = {
@@ -50,10 +50,11 @@ export default async function AboutPage() {
       priceCurrency: "USD"
     },
     description:
-      "A free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 audio reciters, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed color-coding, Tafsir, prayer times, and study features.",
+      "A free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 audio reciters, local recitation notes, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed color-coding, Tafsir, prayer times, and study features.",
     featureList: [
       "20+ Quran translations in 9+ languages",
       "16 audio reciters with adjustable playback speed",
+      "Recitation notes with local WAV recording, replay, download, and delete",
       "Surah, Juz, and Page reading views",
       "Anki-style spaced repetition memorization (SRS) with flashcards",
       "Word-by-word Arabic analysis with root and morphology",
@@ -100,9 +101,10 @@ export default async function AboutPage() {
           <p className="info-text">
             OpenFurqan is a free, open-source web application for reading and deeply studying the
             Quran. It pairs a clean, distraction-free reader with a full-featured Study Mode — giving
-            you 20+ translations, 16 audio reciters, Surah/Juz/Page views, Anki-style spaced
-            repetition memorization, word-by-word Arabic analysis, Tajweed color-coding, 7+ Tafsir
-            editions, and daily reading statistics. No account, no ads, no payment — just open and read.
+            you 20+ translations, 16 audio reciters, local recitation notes, Surah/Juz/Page views,
+            Anki-style spaced repetition memorization, word-by-word Arabic analysis, Tajweed
+            color-coding, 7+ Tafsir editions, and daily reading statistics. No account, no ads, no
+            payment — just open and read.
           </p>
         </section>
 
@@ -130,9 +132,10 @@ export default async function AboutPage() {
         <section className="info-section">
           <h2 className="info-section-title">What Makes OpenFurqan Different</h2>
           <ul className="info-audience-list">
-            <li><strong>No login required.</strong> Your bookmarks, notes, and progress are stored locally in your browser. Nothing leaves your device.</li>
+            <li><strong>No login required.</strong> Your notes, progress, and recitation recordings stay on your device and are not uploaded to our servers.</li>
             <li><strong>No ads, ever.</strong> No banners, no pop-ups, no sponsored content.</li>
             <li><strong>Reader + study in one place.</strong> Switch between a simple reader and a deep study workspace without leaving the app.</li>
+            <li><strong>Recitation notes built in.</strong> Record your own recitation, replay it, download it, or delete it from the Notes rail.</li>
             <li><strong>Memorize with spaced repetition.</strong> Anki-style flashcards that schedule reviews based on your recall — not just audio loops.</li>
             <li><strong>Word-level Arabic study.</strong> Click any word to see its root, morphology, Lane&#39;s Lexicon definition, and every occurrence in the Quran.</li>
             <li><strong>Three reading views.</strong> Read by Surah, by Juz (all 30), or by Mushaf page (all 604 pages).</li>
@@ -173,6 +176,15 @@ export default async function AboutPage() {
                 (Murattal &amp; Mujawwad), Al-Husary (Standard &amp; Muallim), Al-Minshawi,
                 Al-Ghamdi, al-Ajmy, Ali Jabir, Al Tunaiji, and Ad-Dussary. Adjustable playback speed
                 and continuous surah playback.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Recitation Notes</h3>
+              <p className="info-feature-desc">
+                Record your own recitation in the Notes rail, preview it with a custom player, and
+                save it for replay, download, or deletion later. Your recordings stay on your device
+                and are not uploaded to our servers. Microphone permission is requested only when you
+                choose to record.
               </p>
             </div>
             <div className="info-feature-item">
@@ -270,9 +282,11 @@ export default async function AboutPage() {
           <h2 className="info-section-title">Privacy</h2>
           <p className="info-text">
             OpenFurqan does not collect personal data. There are no accounts, no tracking pixels, and
-            no analytics cookies. Your bookmarks, notes, reading progress, and memorization data are
-            stored locally in your browser using localStorage. Nothing leaves your device. If you clear
-            your browser data, your saved data is removed — because it was never stored anywhere else.
+            no analytics cookies. Your bookmarks, notes, recitation recordings, reading progress, and
+            memorization data stay on your device and are not uploaded to our servers. Microphone
+            permission is requested only when you choose to record a recitation note. If you clear
+            your browser data, your saved data may be removed — because it was never stored anywhere
+            else.
           </p>
         </section>
 

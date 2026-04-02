@@ -228,6 +228,7 @@ export const STORAGE_KEYS = {
   theme: "quran_theme",
   prayerSettings: "quran_prayer_settings",
   readingStats: "quran_reading_stats",
+  recitationStorageNoticeDismissed: "quran_recitation_storage_notice_dismissed",
   memorizationProgress: "quran_memorization_progress",
   memorizationDeckState: "quran_memorization_deck_state",
   memorizationSessionHistory: "quran_memorization_session_history",

@@ -6,13 +6,14 @@ Website: https://openfurqan.com
 
 ## About
 
-OpenFurqan is a free, open-source web application that combines Quran reading, deep study, memorization, and audio recitation in a single fast interface. Most Quran websites focus only on reading. OpenFurqan was built to end the tab-switching between reading, word analysis, Tafsir, and memorization tools. No account required — all data stays in your browser.
+OpenFurqan is a free, open-source web application that combines Quran reading, deep study, memorization, audio recitation, and recitation notes in a single fast interface. Most Quran websites focus only on reading. OpenFurqan was built to end the tab-switching between reading, word analysis, Tafsir, memorization, and personal study tools. No account required — notes, progress, and recitation recordings stay on the user's device and are not uploaded to OpenFurqan servers.
 
 ## What Makes It Different
 
 - No login, no account, no sign-up required
 - No ads, no tracking, no data collection
 - Reader + study workflow in one place (no tab-switching)
+- Local recitation notes with recording, replay, download, and delete
 - Anki-style spaced repetition for Quran memorization
 - Word-level Arabic study with Lane's Lexicon and root analysis
 - Three reading views: Surah, Juz (all 30), and Mushaf Page (all 604)
@@ -57,7 +58,7 @@ Study:
 - Word-by-word Arabic meanings, root analysis, and Lane's Lexicon definitions
 - 15+ color-coded Tajweed pronunciation rules with legend
 - 7+ Tafsir editions on demand (Maarif-ul-Quran, Maududi, Al-Jalalayn, etc.)
-- Bookmarks, personal notes per ayah, and reading plans
+- Bookmarks, personal notes per ayah, recitation notes, and reading plans
 - Advanced search with key verses, topic groups, and recent history
 - Reading statistics: daily verses, time spent, streaks, and history
 - Full keyboard shortcuts
@@ -70,7 +71,7 @@ Memorization:
 
 Other:
 - Prayer times for 31+ countries with 11+ calculation methods
-- No account required — all data stored locally in browser
+ - No account required — notes, progress, and recitation recordings stay on the user's device and are not uploaded to OpenFurqan servers
 - No ads, no tracking, no data collection
 
 ## Data Sources
@@ -79,7 +80,7 @@ All Quranic text, translations, audio recitations, and linguistic data are sourc
 
 ## Privacy
 
-No accounts, no tracking pixels, no analytics cookies, no third-party data collection. All user data (bookmarks, notes, progress, memorization) is stored in browser localStorage. Nothing leaves the device.
+No accounts, no tracking pixels, no analytics cookies, no third-party data collection. User data such as bookmarks, notes, recitation recordings, progress, and memorization history stays on the user's device and is not uploaded to OpenFurqan servers. Microphone permission is requested only when the user chooses to record a recitation note.
 
 ## URL Structure
 

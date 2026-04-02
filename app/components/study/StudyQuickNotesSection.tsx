@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { useLocalStorage } from "../../hooks";
+import StudyAudioNotePlayer from "./StudyAudioNotePlayer";
+import { useAudioNotes, useLocalStorage } from "../../hooks";
 import { STORAGE_KEYS } from "../../lib/constants";
 
 type SortedNote = {
@@ -34,6 +35,54 @@ const formatRelativeTime = (timestamp: number) => {
   if (elapsedSeconds < 86400) return `${Math.floor(elapsedSeconds / 3600)}h ago`;
   if (elapsedSeconds < 604800) return `${Math.floor(elapsedSeconds / 86400)}d ago`;
   return new Date(timestamp).toLocaleDateString();
+};
+
+const formatDuration = (durationMs: number) => {
+  const totalSeconds = durationMs > 0 ? Math.max(1, Math.round(durationMs / 1000)) : 0;
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  if (hours > 0) {
+    return `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  return `${minutes}:${String(seconds).padStart(2, "0")}`;
+};
+
+const formatFileSize = (bytes: number) => {
+  if (!Number.isFinite(bytes) || bytes <= 0) return "0 B";
+  if (bytes < 1024) return `${Math.round(bytes)} B`;
+
+  const units = ["KB", "MB", "GB"];
+  let size = bytes / 1024;
+  let unitIndex = 0;
+
+  while (size >= 1024 && unitIndex < units.length - 1) {
+    size /= 1024;
+    unitIndex += 1;
+  }
+
+  const precision = size >= 10 || unitIndex === 0 ? 0 : 1;
+  return `${size.toFixed(precision)} ${units[unitIndex]}`;
+};
+
+const getAudioFileExtension = (mimeType: string) => {
+  if (mimeType.includes("wav")) return "wav";
+  if (mimeType.includes("ogg")) return "ogg";
+  if (mimeType.includes("webm")) return "webm";
+  if (mimeType.includes("mp4")) return "m4a";
+  return "audio";
+};
+
+const createAudioFileName = (title: string, mimeType: string) => {
+  const slug = title
+    .trim()
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `${slug || "recitation-note"}.${getAudioFileExtension(mimeType)}`;
 };
 
 const isPlaceholderNoteTitle = (value: string) =>
@@ -69,6 +118,29 @@ export default function StudyQuickNotesSection({
   const [isCreatingSimpleNote, setIsCreatingSimpleNote] = useState(false);
   const [simpleNoteTitleDraft, setSimpleNoteTitleDraft] = useState("");
   const [simpleNoteBodyDraft, setSimpleNoteBodyDraft] = useState("");
+  const {
+    audioNotes,
+    pendingRecording,
+    isLoaded: isAudioNotesLoaded,
+    isPreparingRecording,
+    isSaving: isSavingAudioNote,
+    isDeleting: isDeletingAudioNote,
+    isRecording,
+    isRecordingSupported,
+    isPersistenceSupported,
+    recordingDurationMs,
+    totalAudioBytes,
+    showRecitationStorageNotice,
+    error: audioNoteError,
+    startRecording,
+    stopRecording,
+    discardPendingRecording,
+    savePendingRecording,
+    deleteAudioNote,
+    dismissRecitationStorageNotice
+  } = useAudioNotes();
+  const [isCreatingAudioNote, setIsCreatingAudioNote] = useState(false);
+  const [audioNoteTitleDraft, setAudioNoteTitleDraft] = useState("");
 
   const simpleNotes = useMemo(() => {
     const source = Array.isArray(storedSimpleNotes) ? storedSimpleNotes : [];
@@ -226,6 +298,64 @@ export default function StudyQuickNotesSection({
       );
 
   const isEditing = activeSimpleNote || isCreatingSimpleNote;
+  const isSecureRecordingContext = typeof window !== "undefined" ? window.isSecureContext : true;
+  const canCreateAudioNotes = isAudioNotesLoaded && isRecordingSupported && isPersistenceSupported && isSecureRecordingContext;
+  const audioComposerStatus = isRecording
+    ? `Recording ${formatDuration(recordingDurationMs)}`
+    : pendingRecording
+      ? `Ready to save • ${formatDuration(pendingRecording.durationMs)} • ${formatFileSize(pendingRecording.size)}`
+      : isPreparingRecording
+        ? "Waiting for microphone access"
+        : "Record your recitation and save it on this device";
+  const audioCapabilityMessage = !isAudioNotesLoaded
+    ? ""
+    : !isSecureRecordingContext
+      ? "Audio recording requires HTTPS or localhost on this device."
+    : !isPersistenceSupported
+      ? "This browser cannot save recorded audio locally."
+      : !isRecordingSupported
+        ? "This browser does not support in-app audio recording."
+        : "";
+
+  const createAudioNote = useCallback(() => {
+    setIsCreatingAudioNote(true);
+    setAudioNoteTitleDraft("");
+  }, []);
+
+  const cancelAudioNote = useCallback(() => {
+    if (isRecording || isPreparingRecording) return;
+    discardPendingRecording();
+    setAudioNoteTitleDraft("");
+    setIsCreatingAudioNote(false);
+  }, [discardPendingRecording, isPreparingRecording, isRecording]);
+
+  const saveAudioNote = useCallback(async () => {
+    const didSave = await savePendingRecording(audioNoteTitleDraft);
+    if (!didSave) return;
+    setAudioNoteTitleDraft("");
+    setIsCreatingAudioNote(false);
+  }, [audioNoteTitleDraft, savePendingRecording]);
+
+  const handleStartAudioRecording = useCallback(() => {
+    void startRecording();
+  }, [startRecording]);
+
+  const handleDeleteAudioNote = useCallback(
+    (noteId: string) => {
+      void deleteAudioNote(noteId);
+    },
+    [deleteAudioNote]
+  );
+
+  const handleDownloadAudio = useCallback((audioUrl: string, title: string, mimeType: string) => {
+    const link = document.createElement("a");
+    link.href = audioUrl;
+    link.download = createAudioFileName(title, mimeType);
+    link.rel = "noopener";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }, []);
 
   return (
     <div className="quick-panel-section notes-panel-redesign">
@@ -358,6 +488,227 @@ export default function StudyQuickNotesSection({
                 <path d="M12 5v14M5 12h14" />
               </svg>
               Create first note
+            </button>
+          </div>
+        )}
+      </div>
+
+      <div className="notes-section">
+        <div className="notes-section-header">
+          <span className="notes-section-label">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M12 15a3 3 0 003-3V7a3 3 0 10-6 0v5a3 3 0 003 3z" />
+              <path d="M19 11a7 7 0 01-14 0" />
+              <path d="M12 18v4" />
+              <path d="M8 22h8" />
+            </svg>
+            Recitation Notes
+          </span>
+          <div className="notes-section-header-actions">
+            {audioNotes.length > 0 && <span className="notes-count-badge">{audioNotes.length}</span>}
+            {!isCreatingAudioNote && (
+              <button
+                className="notes-section-action notes-new-btn"
+                onClick={createAudioNote}
+                type="button"
+                disabled={!canCreateAudioNotes}
+                aria-label="Create recitation note"
+              >
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                  <path d="M12 5v14M5 12h14" />
+                </svg>
+                New
+              </button>
+            )}
+          </div>
+        </div>
+
+        {showRecitationStorageNotice && (
+          <div className="notes-audio-notice" role="status">
+            <div className="notes-audio-notice-copy">
+              <span className="notes-audio-notice-title">Recitation storage notice</span>
+              <span className="notes-audio-notice-text">
+                You&#39;ve used {formatFileSize(totalAudioBytes)} of local storage for recitation recordings on this device.
+              </span>
+            </div>
+
+            <button
+              className="notes-audio-notice-dismiss"
+              onClick={dismissRecitationStorageNotice}
+              type="button"
+              aria-label="Dismiss recitation storage notice"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M18 6 6 18" />
+                <path d="m6 6 12 12" />
+              </svg>
+            </button>
+          </div>
+        )}
+
+        {isCreatingAudioNote && (
+          <div className="notes-editor notes-editor--audio">
+            <input
+              className="notes-editor-title"
+              value={audioNoteTitleDraft}
+              onChange={(event) => setAudioNoteTitleDraft(event.target.value)}
+              placeholder="Title (optional)"
+            />
+
+            <div className="notes-audio-recorder">
+              <div className="notes-audio-recorder-main">
+                <div className={`notes-audio-recorder-badge${isRecording ? " is-recording" : ""}`}>
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M12 15a3 3 0 003-3V7a3 3 0 10-6 0v5a3 3 0 003 3z" />
+                    <path d="M19 11a7 7 0 01-14 0" />
+                    <path d="M12 18v4" />
+                    <path d="M8 22h8" />
+                  </svg>
+                </div>
+
+                <div className="notes-audio-recorder-copy">
+                  <span className="notes-audio-recorder-label">
+                    {isRecording ? "Recording in progress" : pendingRecording ? "Preview ready" : "Recitation note"}
+                  </span>
+                  <span className="notes-audio-recorder-time">
+                    {formatDuration(isRecording ? recordingDurationMs : pendingRecording?.durationMs || 0)}
+                  </span>
+                </div>
+              </div>
+
+              <button
+                className={`notes-btn ${isRecording ? "notes-btn--danger" : "notes-btn--primary"}`}
+                onClick={isRecording ? stopRecording : handleStartAudioRecording}
+                type="button"
+                disabled={isPreparingRecording || !canCreateAudioNotes}
+              >
+                {isPreparingRecording ? "Preparing..." : isRecording ? "Stop" : pendingRecording ? "Record again" : "Start recording"}
+              </button>
+            </div>
+
+            {pendingRecording && (
+              <StudyAudioNotePlayer
+                audioSrc={pendingRecording.audioUrl}
+                title={audioNoteTitleDraft.trim() || "Draft preview"}
+                meta={`Unsaved preview • ${formatDuration(pendingRecording.durationMs)} • ${formatFileSize(pendingRecording.size)}`}
+                fallbackDurationMs={pendingRecording.durationMs}
+                className="notes-audio-card--draft"
+                actions={[
+                  {
+                    label: "Download",
+                    onClick: () => handleDownloadAudio(
+                      pendingRecording.audioUrl,
+                      audioNoteTitleDraft.trim() || "Draft preview",
+                      pendingRecording.mimeType
+                    ),
+                    icon: (
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M12 3v12" />
+                        <path d="m7 10 5 5 5-5" />
+                        <path d="M5 21h14" />
+                      </svg>
+                    )
+                  }
+                ]}
+              />
+            )}
+
+            {audioCapabilityMessage ? <span className="notes-audio-hint">{audioCapabilityMessage}</span> : null}
+            {audioNoteError ? <span className="notes-audio-error" role="alert">{audioNoteError}</span> : null}
+
+            <div className="notes-editor-footer">
+              <span className="notes-editor-status">{audioComposerStatus}</span>
+              <div className="notes-editor-actions">
+                <button
+                  className="notes-btn notes-btn--ghost"
+                  onClick={cancelAudioNote}
+                  type="button"
+                  disabled={isRecording || isPreparingRecording || isSavingAudioNote}
+                >
+                  Discard
+                </button>
+                <button
+                  className="notes-btn notes-btn--primary"
+                  onClick={() => {
+                    void saveAudioNote();
+                  }}
+                  type="button"
+                  disabled={!pendingRecording || isSavingAudioNote}
+                >
+                  {isSavingAudioNote ? "Saving..." : "Save"}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {!isCreatingAudioNote && audioNoteError ? <span className="notes-audio-error" role="alert">{audioNoteError}</span> : null}
+
+        {isAudioNotesLoaded && audioNotes.length > 0 && (
+          <div className="notes-list notes-list--audio">
+            {audioNotes.map((note) => (
+              <StudyAudioNotePlayer
+                key={note.id}
+                audioSrc={note.audioUrl}
+                title={note.title}
+                meta={`${formatDuration(note.durationMs)} • ${formatFileSize(note.size)} • ${formatRelativeTime(note.updatedAt)}`}
+                fallbackDurationMs={note.durationMs}
+                actions={[
+                  {
+                    label: "Download",
+                    onClick: () => handleDownloadAudio(note.audioUrl, note.title, note.mimeType),
+                    icon: (
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M12 3v12" />
+                        <path d="m7 10 5 5 5-5" />
+                        <path d="M5 21h14" />
+                      </svg>
+                    )
+                  },
+                  {
+                    label: "Delete",
+                    onClick: () => handleDeleteAudioNote(note.id),
+                    disabled: isDeletingAudioNote,
+                    tone: "danger",
+                    icon: (
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <path d="M3 6h18" />
+                        <path d="M8 6V4h8v2" />
+                        <path d="M19 6l-1 14H6L5 6" />
+                        <path d="M10 11v6" />
+                        <path d="M14 11v6" />
+                      </svg>
+                    )
+                  }
+                ]}
+              />
+            ))}
+          </div>
+        )}
+
+        {!isCreatingAudioNote && isAudioNotesLoaded && audioNotes.length === 0 && (
+          <div className="notes-empty notes-empty--compact">
+            <div className="notes-empty-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+                <path d="M12 15a3 3 0 003-3V7a3 3 0 10-6 0v5a3 3 0 003 3z" />
+                <path d="M19 11a7 7 0 01-14 0" />
+                <path d="M12 18v4" />
+                <path d="M8 22h8" />
+              </svg>
+            </div>
+            <p className="notes-empty-title">No recitation notes yet</p>
+            <span className="notes-empty-desc">Record your recitation</span>
+            {audioCapabilityMessage ? <span className="notes-audio-hint">{audioCapabilityMessage}</span> : null}
+            <button
+              className="notes-btn notes-btn--primary notes-create-btn"
+              onClick={createAudioNote}
+              type="button"
+              disabled={!canCreateAudioNotes}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                <path d="M12 5v14M5 12h14" />
+              </svg>
+              Create first recording
             </button>
           </div>
         )}
