@@ -102,6 +102,12 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   const requestHeaders = await headers();
   const locale = normalizeLocale(requestHeaders.get("x-locale")) || DEFAULT_LOCALE;
   const nonce = await getCspNonce();
+  const serviceWorkerVersion = process.env.NEXT_PUBLIC_APP_VERSION
+    || process.env.VERCEL_GIT_COMMIT_SHA
+    || process.env.VERCEL_DEPLOYMENT_ID
+    || process.env.GITHUB_SHA
+    || process.env.SOURCE_VERSION
+    || "dev";
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -159,7 +165,11 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         <Analytics />
         <SpeedInsights />
         {process.env.NODE_ENV === "production" && (
-          <Script nonce={nonce} src="/sw-register.js" strategy="afterInteractive" />
+          <Script
+            nonce={nonce}
+            src={`/sw-register.js?v=${encodeURIComponent(serviceWorkerVersion)}`}
+            strategy="afterInteractive"
+          />
         )}
       </body>
     </html>
