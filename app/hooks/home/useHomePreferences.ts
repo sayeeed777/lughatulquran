@@ -13,6 +13,7 @@ import {
   getReciterBootstrapMode,
   LEGACY_DEFAULT_RECITER
 } from "../../lib/reciterPreferences";
+import type { ThemeName } from "../../contexts/ThemeContext";
 import { useLocalStorage } from "../common";
 import { clamp } from "../../lib/utils";
 import { useReadingPlan, useFontScale } from "../useAppSettings";
@@ -184,14 +185,18 @@ export function useHomePreferences() {
     setArabicFontId
   ]);
 
-  const [theme, setThemeState] = useState<"dark" | "light" | "bw" | "bw-dark">(() => {
+  const [theme, setThemeState] = useState<ThemeName>(() => {
     if (typeof window === "undefined") return "dark";
     try {
       const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
       if (storedTheme) {
         const parsed = JSON.parse(storedTheme);
-        if (parsed === "dark" || parsed === "light" || parsed === "bw" || parsed === "bw-dark") {
-          return parsed;
+        const normalizedTheme = parsed === "ocean" ? "mist" : parsed;
+        if (normalizedTheme === "dark" || normalizedTheme === "light" || normalizedTheme === "bw" || normalizedTheme === "bw-dark" || normalizedTheme === "mist" || normalizedTheme === "sky") {
+          if (parsed === "ocean") {
+            localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify("mist"));
+          }
+          return normalizedTheme;
         }
       }
       const isMobileView = window.matchMedia?.(mobileViewportQuery)?.matches;
@@ -203,9 +208,9 @@ export function useHomePreferences() {
       return "dark";
     }
   });
-  const isLightTheme = theme === "light" || theme === "bw";
+  const isLightTheme = theme === "light" || theme === "bw" || theme === "sky";
 
-  const setThemeValue = useCallback((t: "dark" | "light" | "bw" | "bw-dark") => {
+  const setThemeValue = useCallback((t: ThemeName) => {
     // Enable smooth transition, then switch theme
     document.body.classList.add("theme-transitioning");
     document.documentElement.dataset.theme = t;

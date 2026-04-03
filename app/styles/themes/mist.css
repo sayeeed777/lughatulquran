@@ -1,0 +1,1038 @@
+/* =============================================
+   MIST THEME — Deep teal + Mint green accents
+   Calm, immersive dark theme with a soft haze
+   ============================================= */
+
+:root[data-theme="mist"] {
+  color-scheme: dark;
+
+  --bg-deep: #2f4a4e;
+  --bg-mid: #2f4a4e;
+  --bg-light: #476167;
+  --surface-soft: #2c454a;
+  --surface: #315055;
+  --surface-strong: #3a5d63;
+  --surface-elevated: #283f44;
+  --surface-overlay: #24393e;
+  --card: #2a4247;
+  --card-strong: #305056;
+
+  --text: #dcebe1;
+  --muted: #8aa99a;
+
+  --accent: #bedcc6;
+  --accent-2: #8fb299;
+
+  --stroke: rgba(190, 220, 198, 0.1);
+
+  --shadow:
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 4px 12px rgba(0, 10, 20, 0.4);
+
+  --shadow-card:
+    0 1px 2px rgba(0, 0, 0, 0.25),
+    0 4px 16px rgba(0, 10, 20, 0.3);
+
+  --shadow-elevated:
+    0 2px 8px rgba(0, 0, 0, 0.4),
+    0 12px 32px rgba(0, 10, 20, 0.5),
+    0 32px 64px rgba(0, 10, 20, 0.4);
+
+  --gradient-primary: linear-gradient(135deg, #8fb299 0%, #bedcc6 100%);
+}
+
+:root[data-theme="mist"] body {
+  background: var(--bg-mid);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] html {
+  background-color: var(--bg-mid);
+}
+
+/* Ambient backdrop — Keep mist flat and cool */
+:root[data-theme="mist"] body::before {
+  background: none;
+}
+
+/* Logo */
+:root[data-theme="mist"] .logo-mark {
+  background:
+    radial-gradient(120% 120% at 20% 10%, rgba(190, 220, 198, 0.15), transparent 60%),
+    linear-gradient(180deg, var(--bg-light) 0%, var(--bg-mid) 100%);
+  border-color: rgba(190, 220, 198, 0.12);
+  box-shadow: 0 0 0 1px rgba(190, 220, 198, 0.08), 0 2px 8px rgba(0, 10, 20, 0.4);
+}
+
+:root[data-theme="mist"] .logo:hover .logo-mark {
+  box-shadow: 0 0 0 1px rgba(190, 220, 198, 0.14), 0 4px 12px rgba(0, 10, 20, 0.5);
+}
+
+:root[data-theme="mist"] .logo-highlight {
+  color: var(--accent);
+}
+
+/* Header buttons */
+:root[data-theme="mist"] .header-icon-btn {
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .header-icon-btn:hover {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .study-btn-wrapper .action-btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #36555b !important;
+  background-image: none !important;
+  border: none !important;
+  color: #e6f2eb !important;
+  box-shadow: none !important;
+  text-shadow: none;
+  filter: none;
+}
+
+:root[data-theme="mist"] .study-btn-wrapper .action-btn:hover {
+  background: #3f6369 !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none;
+  filter: none;
+}
+
+/* Topbar */
+:root[data-theme="mist"] .topbar {
+  background: transparent;
+  border-bottom: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+/* Sidebar / surah panel */
+:root[data-theme="mist"] .surah-panel {
+  background: transparent;
+  border-color: transparent;
+  padding: 0;
+  border-radius: 0;
+}
+
+:root[data-theme="mist"] .surah-item:hover {
+  background: var(--card);
+}
+
+:root[data-theme="mist"] .surah-item.active {
+  background: var(--card-strong);
+}
+
+:root[data-theme="mist"] .surah-number {
+  background: var(--surface);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .surah-arabic {
+  color: #c8e3cf;
+}
+
+/* Search */
+:root[data-theme="mist"] .surah-search-wrapper .search,
+:root[data-theme="mist"] .mobile-input,
+:root[data-theme="mist"] .mobile-select {
+  background: var(--card);
+  color: var(--text);
+  border: none;
+  transition: all 0.2s ease;
+}
+
+:root[data-theme="mist"] .surah-search-wrapper .search:focus,
+:root[data-theme="mist"] .mobile-input:focus {
+  background: var(--card-strong);
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 10, 20, 0.3);
+}
+
+:root[data-theme="mist"] .surah-search-wrapper .search::placeholder,
+:root[data-theme="mist"] .mobile-input::placeholder {
+  color: var(--muted);
+}
+
+/* Translation text — brighter than --muted for readability */
+:root[data-theme="mist"] .ayah-translation,
+:root[data-theme="mist"] .compare-text,
+:root[data-theme="mist"] .study-ayah-translation,
+:root[data-theme="mist"] .surah-translation,
+:root[data-theme="mist"] .study-sub {
+  color: rgba(214, 230, 219, 0.82);
+}
+
+/* Ayah cards */
+:root[data-theme="mist"] .ayah-card {
+  background: var(--card);
+  border-color: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .ayah-card:hover {
+  background: var(--card-strong);
+}
+
+:root[data-theme="mist"] .ayah-card.active {
+  background: var(--surface-strong);
+  border-color: rgba(190, 220, 198, 0.14);
+}
+
+:root[data-theme="mist"] .ayah-number-badge {
+  background: var(--surface);
+  color: var(--muted);
+}
+
+/* Action buttons */
+:root[data-theme="mist"] .action-btn {
+  background: var(--card);
+  color: var(--text);
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="mist"] .action-btn:hover {
+  background: var(--card-strong);
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="mist"] .action-btn:active {
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="mist"] .action-btn.saved,
+:root[data-theme="mist"] .action-btn--primary {
+  background: rgba(83, 136, 130, 0.92);
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .action-btn--primary:hover {
+  background: rgba(97, 149, 143, 0.96);
+}
+
+:root[data-theme="mist"] .action-btn--danger {
+  color: #ff6b6b;
+}
+
+:root[data-theme="mist"] .action-btn--danger:hover {
+  background: rgba(255, 107, 107, 0.1);
+}
+
+/* Quick controls stop/play buttons */
+:root[data-theme="mist"] .quick-controls-row .action-btn.stop-btn {
+  background: var(--surface);
+  color: #c8e3cf;
+  box-shadow: none;
+  transform: none;
+}
+
+:root[data-theme="mist"] .quick-controls-row .action-btn.stop-btn:hover {
+  background: var(--surface-strong);
+}
+
+:root[data-theme="mist"] .quick-controls-row .action-btn.play-btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #5f8a83 !important;
+  background-image: none !important;
+  border: none !important;
+  color: #ecf7f1 !important;
+  box-shadow: none !important;
+  text-shadow: none;
+  filter: none;
+  transform: none;
+}
+
+:root[data-theme="mist"] .quick-controls-row .action-btn.play-btn:hover {
+  background: #6a9790 !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-shadow: none;
+  filter: none;
+}
+
+/* Compare / note modals */
+:root[data-theme="mist"] .compare-panel,
+:root[data-theme="mist"] .note-panel {
+  background: var(--surface-elevated);
+  border: 1px solid rgba(190, 220, 198, 0.12);
+  box-shadow: var(--shadow-elevated);
+}
+
+:root[data-theme="mist"] .compare-block {
+  background: rgba(190, 220, 198, 0.04);
+  border-color: rgba(190, 220, 198, 0.08);
+}
+
+/* Settings modal container */
+:root[data-theme="mist"] .settings-modal-container {
+  background: var(--surface-elevated);
+  border-color: rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .mobile-settings-overlay {
+  background: rgba(8, 20, 24, 0.6);
+}
+
+:root[data-theme="mist"] .settings-tab-btn {
+  color: var(--muted);
+}
+
+:root[data-theme="mist"] .settings-tab-btn.active {
+  color: var(--text);
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .settings-group {
+  background: rgba(190, 220, 198, 0.04);
+  border-color: rgba(190, 220, 198, 0.08);
+}
+
+/* Study mode */
+:root[data-theme="mist"] .study-mode-container {
+  background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 100%);
+}
+
+:root[data-theme="mist"] .study-ambient-bg {
+  background:
+    radial-gradient(ellipse 100% 50% at 50% -20%, rgba(190, 220, 198, 0.06), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(143, 178, 153, 0.04), transparent);
+}
+
+:root[data-theme="mist"] .study-header {
+  background: var(--surface-overlay);
+  border-bottom: none;
+  backdrop-filter: blur(20px) saturate(150%);
+}
+
+:root[data-theme="mist"] .study-back-btn {
+  background: rgba(190, 220, 198, 0.08);
+  border: none;
+  color: var(--muted);
+  transition: background 0.15s ease;
+}
+
+:root[data-theme="mist"] .study-back-btn:hover {
+  background: rgba(190, 220, 198, 0.14);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .study-ayah-card {
+  background: var(--card);
+  border: none;
+  box-shadow: 0 2px 12px rgba(0, 10, 20, 0.2);
+}
+
+:root[data-theme="mist"] .study-ayah-card:hover {
+  background: var(--card-strong);
+}
+
+:root[data-theme="mist"] .study-ayah-card.playing {
+  background: var(--surface-strong);
+}
+
+:root[data-theme="mist"] .study-ayah-card.marked {
+  background: rgba(83, 136, 130, 0.82);
+  box-shadow: 0 2px 10px rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .study-ayah-card.marked:hover {
+  background: rgba(97, 149, 143, 0.9);
+}
+
+:root[data-theme="mist"] .study-ayah-card.marked.playing {
+  background: rgba(110, 160, 153, 0.94);
+}
+
+:root[data-theme="mist"] .study-ayah-number {
+  background: var(--surface);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .study-ayah-word-trigger:hover {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .study-ayah-word-trigger.active {
+  background: var(--card-strong);
+  color: var(--text);
+}
+
+/* Study rail */
+:root[data-theme="mist"] .study-rail {
+  background: var(--surface-overlay);
+  border: 1px solid rgba(190, 220, 198, 0.12);
+  box-shadow: 0 8px 24px rgba(0, 10, 20, 0.3);
+  backdrop-filter: blur(18px) saturate(150%);
+}
+
+:root[data-theme="mist"] .study-rail-btn {
+  background: var(--card);
+  color: var(--muted);
+}
+
+:root[data-theme="mist"] .study-rail-btn:hover {
+  background: var(--card-strong);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .study-rail-btn.active {
+  background: linear-gradient(135deg, #46767d 0%, #74a39d 100%);
+  color: var(--bg-deep);
+  box-shadow: 0 6px 16px rgba(190, 220, 198, 0.2);
+}
+
+/* Quick panel */
+:root[data-theme="mist"] .quick-panel {
+  background: var(--surface-elevated);
+  border: 1px solid rgba(190, 220, 198, 0.12);
+  box-shadow: var(--shadow-elevated);
+  backdrop-filter: blur(20px) saturate(180%);
+}
+
+:root[data-theme="mist"] .study-card,
+:root[data-theme="mist"] .study-settings-group,
+:root[data-theme="mist"] .search-results li {
+  background: var(--card);
+  border: 1px solid rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .study-card h4,
+:root[data-theme="mist"] .study-settings-title {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .tafsir-card.study-card {
+  background: transparent;
+  border: none;
+}
+
+/* Quick item actions */
+:root[data-theme="mist"] .quick-item-action.save:disabled {
+  background: rgba(190, 220, 198, 0.08);
+  color: rgba(190, 220, 198, 0.5);
+}
+
+:root[data-theme="mist"] .quick-item-action.danger {
+  background: rgba(255, 107, 107, 0.1);
+  color: #ff6b6b;
+}
+
+:root[data-theme="mist"] .quick-item-action.danger:hover {
+  background: rgba(255, 107, 107, 0.16);
+}
+
+/* Lexicon modal */
+:root[data-theme="mist"] .study-lexicon-backdrop {
+  background: rgba(8, 20, 24, 0.52);
+}
+
+:root[data-theme="mist"] .study-lexicon-modal {
+  background: var(--surface-elevated);
+  border: none;
+  box-shadow: 0 20px 52px rgba(0, 10, 20, 0.4);
+}
+
+:root[data-theme="mist"] .study-lexicon-header {
+  border-bottom: 1px solid rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .study-lexicon-close {
+  background: rgba(190, 220, 198, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .study-lexicon-word {
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .study-lexicon-root-focus {
+  background: rgba(190, 220, 198, 0.08);
+  border-color: rgba(190, 220, 198, 0.15);
+}
+
+:root[data-theme="mist"] .study-lexicon-root-focus.is-unavailable {
+  background: rgba(190, 220, 198, 0.05);
+  border-color: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .study-lexicon-root-heading {
+  color: rgba(190, 220, 198, 0.75);
+}
+
+:root[data-theme="mist"] .study-lexicon-meta-item,
+:root[data-theme="mist"] .study-lexicon-summary-item,
+:root[data-theme="mist"] .study-lexicon-guide-item {
+  background: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .study-lexicon-guide-toggle {
+  background: rgba(190, 220, 198, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .study-lexicon-guide-popover {
+  background: var(--surface-elevated);
+  border-color: rgba(190, 220, 198, 0.12);
+  box-shadow: 0 18px 38px rgba(0, 10, 20, 0.4);
+}
+
+:root[data-theme="mist"] .study-lexicon-guide-code {
+  background: rgba(190, 220, 198, 0.14);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .study-lexicon-guide-meaning {
+  color: rgba(220, 232, 223, 0.8);
+}
+
+:root[data-theme="mist"] .study-lane-open-btn,
+:root[data-theme="mist"] .study-root-link,
+:root[data-theme="mist"] .study-root-insight-btn,
+:root[data-theme="mist"] .study-word-audio-btn {
+  background: rgba(190, 220, 198, 0.14);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .study-lexicon-chip,
+:root[data-theme="mist"] .study-lexicon-ref {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .study-lexicon-list li {
+  color: rgba(220, 232, 223, 0.88);
+}
+
+/* Note panel textarea */
+:root[data-theme="mist"] .note-body textarea {
+  background: rgba(190, 220, 198, 0.06);
+  border: 1px solid rgba(190, 220, 198, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .note-body textarea:focus {
+  background: rgba(190, 220, 198, 0.08);
+  border-color: rgba(190, 220, 198, 0.2);
+}
+
+:root[data-theme="mist"] .close-btn {
+  background: rgba(190, 220, 198, 0.1);
+  color: var(--text);
+}
+
+/* Translation toggle */
+:root[data-theme="mist"] .translation-toggle button {
+  background: rgba(190, 220, 198, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .translation-toggle button:hover {
+  background: rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .translation-toggle button.active {
+  background: rgba(190, 220, 198, 0.18);
+  color: var(--accent);
+}
+
+/* Translation chips */
+:root[data-theme="mist"] .translation-chip:hover {
+  background: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .translation-chip.selected {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .chip-check {
+  background: var(--accent);
+}
+
+/* Slider */
+:root[data-theme="mist"] .slider-track-container {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+/* Reciter cards */
+:root[data-theme="mist"] .reciter-card:hover {
+  background: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .reciter-card.selected {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+/* Toggle switch */
+:root[data-theme="mist"] .toggle-switch {
+  background: rgba(190, 220, 198, 0.2);
+}
+
+:root[data-theme="mist"] .toggle-switch.active {
+  background: var(--accent);
+}
+
+/* Memorize modal */
+:root[data-theme="mist"] .memorize-modal-backdrop {
+  background: rgba(8, 20, 24, 0.72);
+}
+
+:root[data-theme="mist"] .memorize-modal {
+  background: var(--surface-elevated);
+  border: 1px solid rgba(190, 220, 198, 0.12);
+  box-shadow: var(--shadow-elevated);
+}
+
+:root[data-theme="mist"] .memorize-close {
+  background: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .memorize-segmented {
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .memorize-segment {
+  color: var(--muted);
+}
+
+:root[data-theme="mist"] .memorize-segment.active {
+  background: rgba(190, 220, 198, 0.18);
+  color: var(--text);
+  box-shadow: none;
+}
+
+:root[data-theme="mist"] .memorize-range-grid input,
+:root[data-theme="mist"] .memorize-range-summary,
+:root[data-theme="mist"] .memorize-stepper {
+  background: rgba(190, 220, 198, 0.08);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .memorize-stepper button {
+  background: rgba(190, 220, 198, 0.14);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .memorize-ghost {
+  background: rgba(190, 220, 198, 0.1);
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .memorize-primary {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #567570 !important;
+  background-image: none !important;
+  color: #e3efe8 !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none;
+}
+
+:root[data-theme="mist"] .mem-btn--primary {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #567570 !important;
+  background-image: none !important;
+  color: #e3efe8 !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+:root[data-theme="mist"] .mem-btn--primary:not(:disabled):hover,
+:root[data-theme="mist"] .memorize-primary:hover {
+  background: #62827c !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  transform: none;
+}
+
+:root[data-theme="mist"] .mem-btn--primary:not(:disabled):active,
+:root[data-theme="mist"] .memorize-primary:active {
+  background: #4b6964 !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  transform: none;
+}
+
+/* Last read card */
+:root[data-theme="mist"] .last-read-card {
+  background: linear-gradient(135deg, rgba(70, 118, 125, 0.7) 0%, rgba(116, 163, 157, 0.28) 100%);
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 10, 20, 0.2);
+}
+
+:root[data-theme="mist"] .last-read-icon {
+  background: rgba(190, 220, 198, 0.12);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .last-read-label {
+  color: var(--accent);
+  opacity: 0.8;
+}
+
+/* Play button states */
+:root[data-theme="mist"] .action-icon-btn.play-icon.playing {
+  background: rgba(190, 220, 198, 0.18) !important;
+  color: var(--accent) !important;
+}
+
+:root[data-theme="mist"] .action-icon-btn.hifz-icon.memorized {
+  background: rgba(190, 220, 198, 0.14);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .study-ayah-card.memorized {
+  border-left-color: rgba(190, 220, 198, 0.4);
+}
+
+:root[data-theme="mist"] .hifz-action-btn {
+  border-color: rgba(190, 220, 198, 0.2);
+  background: rgba(190, 220, 198, 0.1);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .hifz-action-btn:hover {
+  background: rgba(190, 220, 198, 0.16);
+}
+
+/* Back to top */
+:root[data-theme="mist"] .back-to-top {
+  background: var(--surface);
+  border: none;
+  box-shadow: 0 4px 16px rgba(0, 10, 20, 0.3);
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .back-to-top:hover {
+  background: var(--bg-light);
+  box-shadow: 0 6px 20px rgba(0, 10, 20, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Settings modal */
+:root[data-theme="mist"] .settings-backdrop {
+  background: rgba(8, 20, 24, 0.54);
+}
+
+:root[data-theme="mist"] .settings-modal {
+  background: var(--bg-light) !important;
+  border: 1px solid rgba(190, 220, 198, 0.12) !important;
+  box-shadow: 0 16px 48px rgba(0, 10, 20, 0.4);
+}
+
+:root[data-theme="mist"] .settings-title {
+  color: var(--text);
+}
+
+:root[data-theme="mist"] .settings-close-btn {
+  color: var(--muted);
+}
+
+:root[data-theme="mist"] .settings-tabs {
+  border-bottom-color: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .tab-label {
+  color: var(--muted);
+}
+
+:root[data-theme="mist"] .tab-indicator {
+  background: var(--accent);
+}
+
+:root[data-theme="mist"] .section-title {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .settings-select {
+  background: var(--surface);
+  border-color: rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .settings-input {
+  background: var(--surface);
+  border-color: rgba(190, 220, 198, 0.12);
+}
+
+/* Prayer panel */
+:root[data-theme="mist"] .prayer-floating-backdrop {
+  background: rgba(8, 20, 24, 0.44);
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+}
+
+:root[data-theme="mist"] .prayer-floating-panel {
+  border-color: rgba(190, 220, 198, 0.14);
+  background: linear-gradient(168deg,
+      rgba(46, 82, 88, 0.98) 0%,
+      rgba(29, 61, 67, 0.98) 100%);
+  box-shadow:
+    0 24px 80px -12px rgba(0, 10, 20, 0.4),
+    0 0 0 0.5px rgba(190, 220, 198, 0.1) inset;
+}
+
+:root[data-theme="mist"] .prayer-floating-title {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-floating-subtitle {
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-floating-close {
+  background: rgba(190, 220, 198, 0.08);
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-floating-close:hover {
+  background: rgba(190, 220, 198, 0.14);
+  color: #dcebe1;
+}
+
+/* Prayer hero card */
+:root[data-theme="mist"] .prayer-hero-card {
+  background: linear-gradient(145deg,
+      rgba(74, 124, 130, 0.58) 0%,
+      rgba(92, 146, 140, 0.24) 60%,
+      rgba(35, 69, 76, 0.72) 100%);
+  border-color: rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .prayer-hero-card::before {
+  background: radial-gradient(ellipse at 30% 20%,
+      rgba(190, 220, 198, 0.08) 0%,
+      transparent 70%);
+}
+
+:root[data-theme="mist"] .prayer-hero-label {
+  color: rgba(190, 220, 198, 0.6);
+}
+
+:root[data-theme="mist"] .prayer-hero-name {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-hero-time {
+  color: rgba(190, 220, 198, 0.8);
+}
+
+/* Prayer section titles */
+:root[data-theme="mist"] .prayer-section-title {
+  color: rgba(190, 220, 198, 0.55);
+}
+
+/* Prayer schedule card */
+:root[data-theme="mist"] .prayer-schedule-card {
+  background: rgba(190, 220, 198, 0.05);
+  border-color: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .prayer-schedule-row {
+  border-bottom-color: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .prayer-schedule-row.active {
+  background: linear-gradient(90deg,
+      rgba(190, 220, 198, 0.1) 0%,
+      rgba(190, 220, 198, 0.04) 100%);
+}
+
+:root[data-theme="mist"] .prayer-schedule-row.active .prayer-schedule-name,
+:root[data-theme="mist"] .prayer-schedule-row.active .prayer-schedule-time {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .prayer-schedule-name {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-schedule-time {
+  color: #8aa99a;
+}
+
+/* Prayer settings card */
+:root[data-theme="mist"] .prayer-settings-card {
+  background: rgba(190, 220, 198, 0.05);
+  border-color: rgba(190, 220, 198, 0.1);
+}
+
+:root[data-theme="mist"] .prayer-settings-divider {
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .prayer-settings-label {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-settings-select,
+:root[data-theme="mist"] .prayer-settings-input {
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-settings-input:focus {
+  color: #dcebe1;
+}
+
+/* Prayer custom dropdown */
+:root[data-theme="mist"] .prayer-custom-trigger {
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-custom-trigger:hover,
+:root[data-theme="mist"] .prayer-custom-trigger.open {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-custom-chevron {
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-custom-dropdown {
+  border-color: rgba(190, 220, 198, 0.14);
+  background: linear-gradient(168deg,
+      rgba(46, 82, 88, 0.98) 0%,
+      rgba(29, 61, 67, 0.98) 100%);
+  box-shadow:
+    0 16px 48px -8px rgba(0, 10, 20, 0.4),
+    0 0 0 0.5px rgba(190, 220, 198, 0.1) inset;
+}
+
+:root[data-theme="mist"] .prayer-custom-search {
+  border-color: rgba(190, 220, 198, 0.12);
+  background: rgba(190, 220, 198, 0.06);
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-custom-search:focus {
+  border-color: rgba(190, 220, 198, 0.25);
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .prayer-custom-option {
+  color: #dcebe1;
+}
+
+:root[data-theme="mist"] .prayer-custom-option:hover,
+:root[data-theme="mist"] .prayer-custom-option.highlighted {
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .prayer-custom-option.selected {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .prayer-custom-option.selected svg {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .prayer-custom-options::-webkit-scrollbar-thumb {
+  background: rgba(190, 220, 198, 0.15);
+}
+
+/* City search */
+:root[data-theme="mist"] .prayer-city-selected-pill {
+  border-color: rgba(190, 220, 198, 0.14);
+  background: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .prayer-city-row .prayer-city-input:focus {
+  background: rgba(190, 220, 198, 0.06);
+}
+
+:root[data-theme="mist"] .prayer-city-options-status,
+:root[data-theme="mist"] .prayer-city-options {
+  border-color: rgba(190, 220, 198, 0.12);
+  background: var(--surface-elevated);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 12px 32px rgba(0, 10, 20, 0.3);
+}
+
+:root[data-theme="mist"] .prayer-city-option:hover {
+  background: rgba(190, 220, 198, 0.08);
+}
+
+:root[data-theme="mist"] .prayer-city-option.active {
+  background: rgba(190, 220, 198, 0.12);
+}
+
+:root[data-theme="mist"] .prayer-city-option.active .prayer-city-option-main {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .prayer-city-clear-btn {
+  background: rgba(190, 220, 198, 0.1);
+  color: #8aa99a;
+}
+
+:root[data-theme="mist"] .prayer-city-clear-btn:hover {
+  background: rgba(190, 220, 198, 0.16);
+  color: #dcebe1;
+}
+
+/* Prayer hint */
+:root[data-theme="mist"] .surah-prayer-hint {
+  border-color: rgba(190, 220, 198, 0.2);
+  background: linear-gradient(152deg, rgba(46, 82, 88, 0.96), rgba(29, 61, 67, 0.94));
+  box-shadow: 0 12px 28px rgba(0, 10, 20, 0.3);
+}
+
+:root[data-theme="mist"] .surah-prayer-hint::before {
+  border-left-color: rgba(190, 220, 198, 0.2);
+  border-top-color: rgba(190, 220, 198, 0.2);
+  background: rgba(46, 82, 88, 0.96);
+}
+
+:root[data-theme="mist"] .surah-prayer-hint-text {
+  color: rgba(220, 232, 223, 0.9);
+}
+
+:root[data-theme="mist"] .surah-prayer-hint-dismiss {
+  color: var(--accent);
+}
+
+:root[data-theme="mist"] .surah-prayer-hint-dismiss:hover {
+  color: #c8e3cf;
+}
+
+/* Scrollbar */
+:root[data-theme="mist"] ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+:root[data-theme="mist"] ::-webkit-scrollbar-thumb {
+  background-color: rgba(190, 220, 198, 0.15);
+}
+
+:root[data-theme="mist"] ::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(190, 220, 198, 0.25);
+}
+
+:root[data-theme="mist"] .study-mode-container.page-scope .study-reading-area {
+  scrollbar-color: rgba(190, 220, 198, 0.15) transparent;
+}
+
+:root[data-theme="mist"] .study-mode-container.page-scope .study-reading-area::-webkit-scrollbar-thumb {
+  background: rgba(190, 220, 198, 0.15);
+}
+
+@media (max-width: 768px) {
+  :root[data-theme="mist"] .study-rail {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+}
