@@ -1,13 +1,18 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { KeyboardEvent } from "react";
+import StudyLexiconModals from "../study/StudyLexiconModals";
+import useWordLexicon from "../study/useWordLexicon";
+import { useActions } from "../../contexts";
 import { getMemorizationReviewPreview, type SchedulerOptions } from "../../lib/memorizationScheduler";
 import type {
   MemorizationCard,
   MemorizationCardMode,
   MemorizationCardState,
-  MemorizationRating
+  MemorizationRating,
+  Word,
+  WordBySurah
 } from "../../lib/types";
 
 type Props = {
@@ -38,9 +43,12 @@ const RATINGS: Array<{ r: MemorizationRating; label: string; key: string }> = [
   { r: "easy",  label: "Easy",  key: "4" }
 ];
 
+const EMPTY_WORDS_BY_SURAH: WordBySurah = {};
+
 export default function MemorizationSessionCard({
   card, state, showAnswer, autoPlayAudio = true, onReveal, onRate, onSuspend, onUndo, canUndo, leechThreshold = 8, schedulerOpts
 }: Props) {
+  const { jumpToAyah } = useActions();
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const [elapsed, setElapsed] = useState(0);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
@@ -61,6 +69,69 @@ export default function MemorizationSessionCard({
   const status = state?.status || "new";
   const statusLabel = status.charAt(0).toUpperCase() + status.slice(1);
   const isWordMode = card.cardMode === "word-by-word-meaning";
+  const {
+    wordAudioRef,
+    selectedWordDetails,
+    isRootModalOpen,
+    rootLexicon,
+    rootLexiconLoading,
+    rootLexiconError,
+    wordsByAyahForStudy,
+    handleWordAudio,
+    handleWordSelect,
+    closeWordDetails,
+    openRootDetails,
+    closeRootModal,
+    selectedRoot,
+    selectedRootArabic,
+    rootMeaningSummary,
+    laneActionLabel
+  } = useWordLexicon({
+    selectedSurahNumber: showAnswer ? card.surahNumber : 0,
+    wordByAyah: EMPTY_WORDS_BY_SURAH,
+    wordLoading: false
+  });
+
+  const ayahWords = useMemo(
+    () => (showAnswer ? wordsByAyahForStudy?.[card.ayahNumber] || [] : []),
+    [showAnswer, wordsByAyahForStudy, card.ayahNumber]
+  );
+
+  const selectedWordPosition = selectedWordDetails?.ayah === card.ayahNumber
+    ? selectedWordDetails.position
+    : null;
+
+  const focusedWord = useMemo<Word | null>(() => {
+    if (!isWordMode || !showAnswer) return null;
+    const position = Number(card.wordPosition) || 1;
+    const fromAyahWords = ayahWords.find((word, index) => (Number(word.position) || index + 1) === position);
+    if (fromAyahWords) return fromAyahWords;
+    const arabic = card.wordArabic || card.arabic;
+    if (!arabic) return null;
+    return {
+      arabic,
+      translation: card.wordMeaning,
+      audioUrl: card.audioUrl,
+      position
+    };
+  }, [
+    ayahWords,
+    card.arabic,
+    card.audioUrl,
+    card.wordArabic,
+    card.wordMeaning,
+    card.wordPosition,
+    isWordMode,
+    showAnswer
+  ]);
+
+  const handleMemorizationWordSelect = (word: Word, ayahNumber: number, wordIndex: number) => {
+    handleWordSelect(word, ayahNumber, wordIndex);
+  };
+
+  useEffect(() => {
+    closeWordDetails();
+  }, [card.id, showAnswer, closeWordDetails]);
 
   /* Reset and auto-play audio on new card */
   useEffect(() => {
@@ -104,6 +175,38 @@ export default function MemorizationSessionCard({
     onReveal();
   };
 
+  const renderInteractiveAyah = (
+    fallbackText: string | undefined,
+    className: string
+  ) => {
+    if (!ayahWords.length) {
+      return (
+        <p className={className} lang="ar" dir="rtl">
+          {fallbackText}
+        </p>
+      );
+    }
+
+    return (
+      <p className={`${className} mem-card-arabic-interactive`} lang="ar" dir="rtl">
+        {ayahWords.map((word, wordIndex) => {
+          const position = Number(word.position) || wordIndex + 1;
+          const isSelected = selectedWordPosition === position;
+          return (
+            <button
+              key={`${card.id}-ayah-word-${position}`}
+              type="button"
+              className={`mem-card-word-trigger${isSelected ? " active" : ""}`}
+              onClick={() => handleMemorizationWordSelect(word, card.ayahNumber, wordIndex)}
+            >
+              {word.arabic}
+            </button>
+          );
+        })}
+      </p>
+    );
+  };
+
   /* Front content by card mode */
   const front = () => {
     if (isWordMode) {
@@ -135,6 +238,7 @@ export default function MemorizationSessionCard({
   return (
     <div className="mem-flashcard">
       <audio ref={audioRef} src={card.audioUrl} preload="none" />
+      <audio ref={wordAudioRef} hidden />
 
       {/* Header row */}
       <div className="mem-card-header">
@@ -183,9 +287,25 @@ export default function MemorizationSessionCard({
               <>
                 <div className="mem-answer-section">
                   <span className="mem-answer-label">Word</span>
-                  <p className="mem-card-arabic mem-card-arabic--word" lang="ar" dir="rtl">
-                    {card.wordArabic || card.arabic}
-                  </p>
+                  {focusedWord ? (
+                    <button
+                      type="button"
+                      className={`mem-card-word-trigger mem-card-word-trigger--standalone mem-card-arabic mem-card-arabic--word${selectedWordPosition === (Number(focusedWord.position) || 1) ? " active" : ""}`}
+                      onClick={() => handleMemorizationWordSelect(
+                        focusedWord,
+                        card.ayahNumber,
+                        Math.max((Number(focusedWord.position) || 1) - 1, 0)
+                      )}
+                      lang="ar"
+                      dir="rtl"
+                    >
+                      {focusedWord.arabic}
+                    </button>
+                  ) : (
+                    <p className="mem-card-arabic mem-card-arabic--word" lang="ar" dir="rtl">
+                      {card.wordArabic || card.arabic}
+                    </p>
+                  )}
                 </div>
                 <div className="mem-answer-divider" />
                 <div className="mem-answer-section">
@@ -197,7 +317,7 @@ export default function MemorizationSessionCard({
                     <div className="mem-answer-divider" />
                     <div className="mem-answer-section">
                       <span className="mem-answer-label">Ayah context</span>
-                      <p className="mem-card-context-arabic" lang="ar" dir="rtl">{card.contextArabic}</p>
+                      {renderInteractiveAyah(card.contextArabic, "mem-card-context-arabic")}
                     </div>
                   </>
                 )}
@@ -215,7 +335,7 @@ export default function MemorizationSessionCard({
               <>
                 <div className="mem-answer-section">
                   <span className="mem-answer-label">Arabic</span>
-                  <p className="mem-card-arabic" lang="ar" dir="rtl">{card.arabic}</p>
+                  {renderInteractiveAyah(card.arabic, "mem-card-arabic")}
                 </div>
                 <div className="mem-answer-divider" />
                 <div className="mem-answer-section">
@@ -264,6 +384,23 @@ export default function MemorizationSessionCard({
           ))}
         </div>
       )}
+
+      <StudyLexiconModals
+        selectedWordDetails={selectedWordDetails}
+        isRootModalOpen={isRootModalOpen}
+        selectedRoot={selectedRoot}
+        selectedRootArabic={selectedRootArabic}
+        rootMeaningSummary={rootMeaningSummary}
+        laneActionLabel={laneActionLabel}
+        rootLexiconError={rootLexiconError}
+        rootLexiconLoading={rootLexiconLoading}
+        rootLexicon={rootLexicon}
+        onCloseWordDetails={closeWordDetails}
+        onCloseRootModal={closeRootModal}
+        onOpenRootDetails={openRootDetails}
+        onPlayWordAudio={handleWordAudio}
+        onJumpToAyah={jumpToAyah}
+      />
     </div>
   );
 }

@@ -865,9 +865,53 @@
   color: var(--text);
 }
 
+.mem-card-arabic-interactive {
+  text-align: right;
+}
+
 .mem-card-arabic--word {
   font-size: clamp(2.2rem, 5.5vw, 3.2rem);
   line-height: 1.8;
+}
+
+.mem-card-word-trigger {
+  appearance: none;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding: 0 0.1em;
+  margin: 0 0.08em 0.08em 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.16s ease, color 0.16s ease;
+}
+
+.mem-card-word-trigger:hover {
+  background: color-mix(in srgb, var(--accent-2) 12%, transparent);
+  color: var(--accent-2);
+}
+
+.mem-card-word-trigger.active {
+  background: color-mix(in srgb, var(--accent-2) 16%, transparent);
+  color: var(--accent-2);
+}
+
+.mem-card-word-trigger:focus-visible {
+  outline: none;
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 18%, transparent);
+}
+
+.mem-card-word-trigger--standalone {
+  align-self: flex-end;
+  font-family: var(--font-arabic);
+  font-size: clamp(2.2rem, 5.5vw, 3.2rem);
+  line-height: 1.8;
+  color: var(--text);
+  text-align: right;
 }
 
 .mem-card-meaning {

@@ -8,21 +8,21 @@
 
   /* Sky blue backgrounds */
   --bg-deep: #b8d4e4;
-  --bg-mid: #aeccd8;
-  --bg-light: #c6dfea;
-  --card: rgba(20, 78, 95, 0.16);
-  --card-strong: rgba(20, 78, 95, 0.2);
+  --bg-mid: #b3d1e0;
+  --bg-light: #dbeaf2;
+  --card: rgba(232, 243, 249, 0.9);
+  --card-strong: rgba(220, 235, 244, 0.96);
 
-  /* Navy blue text */
-  --text: #0c2d48;
-  --muted: #40728a;
+  /* Sky-ink text */
+  --text: #143149;
+  --muted: #4f748a;
 
-  /* Ocean teal accents */
-  --accent: #1b5d6e;
-  --accent-2: #2a7d8e;
+  /* Powder-blue accents */
+  --accent: #4d7590;
+  --accent-2: #6f97b1;
 
-  /* Teal-tinted borders */
-  --stroke: rgba(20, 78, 95, 0.1);
+  /* Soft blue borders */
+  --stroke: rgba(86, 127, 154, 0.12);
 
   /* Soft ocean shadows */
   --shadow:
@@ -38,12 +38,12 @@
     0 12px 32px rgba(12, 45, 72, 0.1),
     0 32px 64px rgba(12, 45, 72, 0.08);
 
-  --gradient-primary: linear-gradient(135deg, #1b5d6e 0%, #2a7d8e 100%);
+  --gradient-primary: linear-gradient(135deg, #7ea4bb 0%, #567f9a 100%);
 }
 
 /* Body — Sky blue gradient */
 :root[data-theme="sky"] body {
-  background: linear-gradient(180deg, #b8d4e4 0%, #aeccd8 50%, #aeccd8 100%);
+  background: linear-gradient(180deg, #b8d4e4 0%, #b3d1e0 52%, #b3d1e0 100%);
   color: var(--text);
 }
 
@@ -54,16 +54,16 @@
 /* Ambient glow — Soft teal wash */
 :root[data-theme="sky"] body::before {
   background:
-    radial-gradient(ellipse 100% 60% at 50% -10%, rgba(27, 93, 110, 0.05), transparent 70%),
-    radial-gradient(ellipse 80% 40% at 100% 50%, rgba(42, 125, 142, 0.04), transparent);
+    radial-gradient(ellipse 92% 56% at 50% -12%, rgba(255, 255, 255, 0.14), transparent 70%),
+    radial-gradient(ellipse 74% 34% at 100% 45%, rgba(126, 164, 187, 0.04), transparent 78%);
 }
 
 /* Logo — Sky elevated */
 :root[data-theme="sky"] .logo-mark {
   background:
     radial-gradient(120% 120% at 20% 10%, rgba(255, 255, 255, 0.8), transparent 60%),
-    linear-gradient(180deg, #c6dfea 0%, #aeccd8 100%);
-  border-color: rgba(20, 78, 95, 0.1);
+    linear-gradient(180deg, #dbeaf2 0%, #b3d1e0 100%);
+  border-color: rgba(86, 127, 154, 0.08);
   box-shadow:
     0 0 0 1px rgba(20, 78, 95, 0.06),
     0 4px 16px rgba(12, 45, 72, 0.08);
@@ -85,15 +85,15 @@
 }
 
 :root[data-theme="sky"] .header-icon-btn:hover {
-  background: rgba(20, 78, 95, 0.08);
+  background: rgba(255, 255, 255, 0.28);
 }
 
 /* Topbar */
 :root[data-theme="sky"] .topbar {
-  background: rgba(184, 212, 228, 0.9);
+  background: transparent;
   border-bottom: none;
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 /* Search & Inputs */
@@ -101,7 +101,7 @@
 :root[data-theme="sky"] .mobile-input,
 :root[data-theme="sky"] .mobile-select,
 :root[data-theme="sky"] .settings-select {
-  background: rgba(20, 78, 95, 0.06);
+  background: rgba(255, 255, 255, 0.42);
   color: var(--text);
   border: none;
   transition: all 0.2s ease;
@@ -109,7 +109,7 @@
 
 :root[data-theme="sky"] .surah-search-wrapper .search:focus,
 :root[data-theme="sky"] .mobile-input:focus {
-  background: #c6dfea;
+  background: #dbeaf2;
   border: none;
   box-shadow: 0 2px 8px rgba(12, 45, 72, 0.06);
 }
@@ -147,13 +147,13 @@
 }
 
 :root[data-theme="sky"] .surah-item:hover {
-  background: rgba(20, 78, 95, 0.12);
+  background: rgba(255, 255, 255, 0.3);
   box-shadow: none !important;
   transform: none;
 }
 
 :root[data-theme="sky"] .surah-item.active {
-  background: rgba(20, 78, 95, 0.15);
+  background: rgba(217, 232, 241, 0.96);
   border: none !important;
   box-shadow: none !important;
 }
@@ -164,26 +164,26 @@
 }
 
 :root[data-theme="sky"] .surah-item.active .surah-translation {
-  color: rgba(27, 93, 110, 0.8);
+  color: rgba(20, 61, 86, 0.8);
 }
 
 :root[data-theme="sky"] .surah-item.active .surah-arabic {
-  color: rgba(27, 93, 110, 0.92);
+  color: rgba(20, 61, 86, 0.92);
 }
 
 :root[data-theme="sky"] .surah-number {
-  background: rgba(20, 78, 95, 0.08);
+  background: rgba(255, 255, 255, 0.34);
   border-radius: 999px;
-  color: rgba(12, 45, 72, 0.85);
+  color: rgba(23, 53, 77, 0.76);
 }
 
 :root[data-theme="sky"] .surah-item.active .surah-number {
-  background: rgba(20, 78, 95, 0.12);
+  background: rgba(255, 255, 255, 0.52);
   color: var(--accent);
 }
 
 :root[data-theme="sky"] .surah-arabic {
-  color: #1b5d6e;
+  color: #547a92;
 }
 
 /* Typography — translation text darker for readability */
@@ -192,7 +192,7 @@
 :root[data-theme="sky"] .plan-range,
 :root[data-theme="sky"] .ayah-translation,
 :root[data-theme="sky"] .compare-text {
-  color: rgba(12, 45, 72, 0.78);
+  color: rgba(12, 45, 72, 0.84);
 }
 
 :root[data-theme="sky"] .surah-translation,
@@ -201,14 +201,14 @@
 }
 
 :root[data-theme="sky"] .meta {
-  color: rgba(27, 93, 110, 0.72);
+  color: rgba(20, 61, 86, 0.76);
   font-size: 0.84rem;
 }
 
 :root[data-theme="sky"] .study-section h3,
 :root[data-theme="sky"] .field,
 :root[data-theme="sky"] .label {
-  color: rgba(27, 93, 110, 0.62);
+  color: rgba(20, 61, 86, 0.7);
 }
 
 :root[data-theme="sky"] .field {
@@ -221,19 +221,19 @@
 
 /* Ayah Cards — Ocean teal surfaces */
 :root[data-theme="sky"] .ayah-card {
-  background: rgba(20, 78, 95, 0.14);
+  background: rgba(208, 228, 240, 0.9);
   border: none;
   box-shadow: none;
   transition: background 0.2s ease;
 }
 
 :root[data-theme="sky"] .ayah-card:hover {
-  background: rgba(20, 78, 95, 0.18);
-  box-shadow: 0 4px 24px rgba(12, 45, 72, 0.06);
+  background: rgba(200, 222, 236, 0.96);
+  box-shadow: 0 2px 10px rgba(12, 45, 72, 0.04);
 }
 
 :root[data-theme="sky"] .ayah-card.focused {
-  background: rgba(20, 78, 95, 0.16);
+  background: rgba(194, 217, 232, 0.96);
 }
 
 :root[data-theme="sky"] .audio-placeholder {
@@ -258,7 +258,7 @@
 
 /* Action Buttons — Teal ghost */
 :root[data-theme="sky"] .action-btn {
-  background: rgba(20, 78, 95, 0.07);
+  background: rgba(255, 255, 255, 0.32);
   border: 1px solid transparent;
   color: var(--accent);
   font-weight: 500;
@@ -266,25 +266,25 @@
 }
 
 :root[data-theme="sky"] .action-btn:hover {
-  background: rgba(20, 78, 95, 0.12);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(20, 78, 95, 0.08);
+  background: rgba(232, 243, 249, 0.88);
+  transform: none;
+  box-shadow: none;
 }
 
 :root[data-theme="sky"] .action-btn:active {
-  background: rgba(20, 78, 95, 0.15);
+  background: rgba(220, 235, 244, 0.96);
   transform: translateY(0);
   box-shadow: none;
 }
 
 :root[data-theme="sky"] .action-btn.saved,
 :root[data-theme="sky"] .action-btn--primary {
-  background: rgba(20, 78, 95, 0.1);
+  background: rgba(220, 235, 244, 0.92);
   color: var(--accent);
 }
 
 :root[data-theme="sky"] .action-btn--primary:hover {
-  background: rgba(20, 78, 95, 0.16);
+  background: rgba(208, 228, 240, 0.98);
 }
 
 :root[data-theme="sky"] .action-btn--danger {
@@ -316,8 +316,8 @@
 
 :root[data-theme="sky"] .settings-modal {
   background: var(--bg-light) !important;
-  border: 1px solid rgba(20, 78, 95, 0.12) !important;
-  box-shadow: 0 16px 48px rgba(12, 45, 72, 0.15);
+  border: 1px solid rgba(86, 127, 154, 0.1) !important;
+  box-shadow: 0 12px 28px rgba(12, 45, 72, 0.1);
 }
 
 :root[data-theme="sky"] .settings-title {
@@ -346,17 +346,17 @@
 
 :root[data-theme="sky"] .settings-select {
   background: var(--bg-mid);
-  border-color: rgba(20, 78, 95, 0.12);
+  border-color: rgba(86, 127, 154, 0.1);
 }
 
 :root[data-theme="sky"] .settings-input {
   background: var(--bg-mid);
-  border-color: rgba(20, 78, 95, 0.12);
+  border-color: rgba(86, 127, 154, 0.1);
 }
 
 :root[data-theme="sky"] .settings-modal-container {
-  background: #c6dfea;
-  border-color: rgba(20, 78, 95, 0.1);
+  background: #dbeaf2;
+  border-color: rgba(86, 127, 154, 0.08);
 }
 
 :root[data-theme="sky"] .mobile-settings-overlay {
@@ -373,8 +373,8 @@
 }
 
 :root[data-theme="sky"] .settings-group {
-  background: rgba(20, 78, 95, 0.04);
-  border-color: rgba(20, 78, 95, 0.08);
+  background: rgba(255, 255, 255, 0.28);
+  border-color: rgba(86, 127, 154, 0.08);
 }
 
 :root[data-theme="sky"] .settings-hint {
@@ -387,7 +387,7 @@
 }
 
 :root[data-theme="sky"] .translation-chip.selected {
-  background: rgba(20, 78, 95, 0.1);
+  background: rgba(220, 235, 244, 0.9);
 }
 
 :root[data-theme="sky"] .chip-check {
@@ -401,11 +401,11 @@
 }
 
 :root[data-theme="sky"] .reciter-card:hover {
-  background: rgba(20, 78, 95, 0.05);
+  background: rgba(255, 255, 255, 0.22);
 }
 
 :root[data-theme="sky"] .reciter-card.selected {
-  background: rgba(20, 78, 95, 0.1);
+  background: rgba(220, 235, 244, 0.88);
 }
 
 :root[data-theme="sky"] .reciter-avatar {
@@ -415,14 +415,14 @@
 /* Note & Compare panels */
 :root[data-theme="sky"] .note-panel,
 :root[data-theme="sky"] .compare-panel {
-  background: rgba(198, 223, 234, 0.95);
-  border: 1px solid rgba(20, 78, 95, 0.12);
-  box-shadow: var(--shadow-elevated);
+  background: rgba(219, 234, 242, 0.96);
+  border: 1px solid rgba(86, 127, 154, 0.1);
+  box-shadow: 0 10px 24px rgba(12, 45, 72, 0.08);
 }
 
 :root[data-theme="sky"] .compare-block {
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(20, 78, 95, 0.08);
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(86, 127, 154, 0.08);
 }
 
 :root[data-theme="sky"] .note-body textarea {
@@ -443,19 +443,20 @@
 
 /* Study Mode */
 :root[data-theme="sky"] .study-mode-container {
-  background: linear-gradient(180deg, #b8d4e4 0%, #aeccd8 100%);
+  background: linear-gradient(180deg, #b8d4e4 0%, #b3d1e0 100%);
 }
 
 :root[data-theme="sky"] .study-ambient-bg {
   background:
-    radial-gradient(ellipse 100% 50% at 50% -20%, rgba(27, 93, 110, 0.05), transparent 60%),
-    radial-gradient(ellipse 60% 40% at 100% 100%, rgba(42, 125, 142, 0.04), transparent);
+    radial-gradient(ellipse 94% 46% at 50% -22%, rgba(255, 255, 255, 0.12), transparent 62%),
+    radial-gradient(ellipse 56% 36% at 100% 100%, rgba(126, 164, 187, 0.04), transparent 78%);
 }
 
 :root[data-theme="sky"] .study-header {
-  background: rgba(198, 223, 234, 0.95);
+  background: rgba(219, 234, 242, 0.9);
   border-bottom: none;
-  backdrop-filter: blur(20px) saturate(150%);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 :root[data-theme="sky"] .study-back-btn {
@@ -471,34 +472,34 @@
 }
 
 :root[data-theme="sky"] .study-ayah-card {
-  background: rgba(20, 78, 95, 0.13);
+  background: rgba(208, 228, 240, 0.9);
   border: none;
-  box-shadow: 0 2px 12px rgba(12, 45, 72, 0.04);
+  box-shadow: 0 1px 6px rgba(12, 45, 72, 0.03);
 }
 
 :root[data-theme="sky"] .study-ayah-card:hover {
-  background: rgba(20, 78, 95, 0.17);
+  background: rgba(200, 222, 236, 0.96);
 }
 
 :root[data-theme="sky"] .study-ayah-card.playing {
-  background: rgba(20, 78, 95, 0.08);
+  background: rgba(216, 233, 243, 0.98);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked {
-  background: rgba(27, 93, 110, 0.14);
-  box-shadow: 0 2px 10px rgba(20, 78, 95, 0.08);
+  background: rgba(198, 220, 235, 0.98);
+  box-shadow: 0 1px 6px rgba(86, 127, 154, 0.05);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked:hover {
-  background: rgba(27, 93, 110, 0.18);
+  background: rgba(192, 216, 232, 1);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked.playing {
-  background: rgba(27, 93, 110, 0.2);
+  background: rgba(206, 225, 238, 1);
 }
 
 :root[data-theme="sky"] .study-ayah-number {
-  background: rgba(20, 78, 95, 0.1);
+  background: rgba(255, 255, 255, 0.48);
   color: var(--accent);
 }
 
@@ -513,41 +514,43 @@
 
 /* Study rail */
 :root[data-theme="sky"] .study-rail {
-  background: rgba(198, 223, 234, 0.92);
-  border: 1px solid rgba(20, 78, 95, 0.12);
-  box-shadow: 0 8px 24px rgba(12, 45, 72, 0.1);
-  backdrop-filter: blur(18px) saturate(150%);
+  background: rgba(219, 234, 242, 0.94);
+  border: 1px solid rgba(86, 127, 154, 0.1);
+  box-shadow: 0 6px 18px rgba(12, 45, 72, 0.07);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 :root[data-theme="sky"] .study-rail-btn {
-  background: rgba(20, 78, 95, 0.08);
+  background: rgba(255, 255, 255, 0.34);
   color: var(--muted);
 }
 
 :root[data-theme="sky"] .study-rail-btn:hover {
-  background: rgba(20, 78, 95, 0.16);
+  background: rgba(220, 235, 244, 0.88);
   color: var(--text);
 }
 
 :root[data-theme="sky"] .study-rail-btn.active {
-  background: linear-gradient(135deg, #1b5d6e 0%, #2a7d8e 100%);
-  color: #c6dfea;
-  box-shadow: 0 6px 16px rgba(27, 93, 110, 0.2);
+  background: #6f97b1;
+  color: #f4f9fc;
+  box-shadow: none;
 }
 
 /* Quick panel */
 :root[data-theme="sky"] .quick-panel {
-  background: rgba(198, 223, 234, 0.95);
-  border: 1px solid rgba(20, 78, 95, 0.12);
-  box-shadow: var(--shadow-elevated);
-  backdrop-filter: blur(20px) saturate(180%);
+  background: rgba(219, 234, 242, 0.97);
+  border: 1px solid rgba(86, 127, 154, 0.1);
+  box-shadow: 0 10px 24px rgba(12, 45, 72, 0.08);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 :root[data-theme="sky"] .study-card,
 :root[data-theme="sky"] .study-settings-group,
 :root[data-theme="sky"] .search-results li {
-  background: rgba(255, 255, 255, 0.5);
-  border: 1px solid rgba(20, 78, 95, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(86, 127, 154, 0.08);
 }
 
 :root[data-theme="sky"] .study-card h4,
@@ -583,7 +586,7 @@
 :root[data-theme="sky"] .study-lexicon-modal {
   background: rgba(198, 223, 234, 0.98);
   border: none;
-  box-shadow: 0 20px 52px rgba(12, 45, 72, 0.15);
+  box-shadow: 0 14px 32px rgba(12, 45, 72, 0.1);
 }
 
 :root[data-theme="sky"] .study-lexicon-header {
@@ -627,7 +630,7 @@
 :root[data-theme="sky"] .study-lexicon-guide-popover {
   background: rgba(198, 223, 234, 0.99);
   border-color: rgba(20, 78, 95, 0.12);
-  box-shadow: 0 18px 38px rgba(12, 45, 72, 0.14);
+  box-shadow: 0 12px 24px rgba(12, 45, 72, 0.1);
 }
 
 :root[data-theme="sky"] .study-lexicon-guide-code {
@@ -712,15 +715,15 @@
 }
 
 :root[data-theme="sky"] .memorize-primary {
-  background: linear-gradient(135deg, #1b5d6e 0%, #2a7d8e 100%);
-  color: #c6dfea;
+  background: #6f97b1;
+  color: #f4f9fc;
 }
 
 /* Last read card */
 :root[data-theme="sky"] .last-read-card {
-  background: linear-gradient(135deg, rgba(20, 78, 95, 0.08) 0%, rgba(27, 93, 110, 0.04) 100%);
+  background: rgba(214, 231, 240, 0.88);
   border: none;
-  box-shadow: 0 4px 20px rgba(20, 78, 95, 0.06);
+  box-shadow: 0 4px 14px rgba(20, 78, 95, 0.05);
 }
 
 :root[data-theme="sky"] .last-read-icon {
@@ -826,8 +829,8 @@
 /* Playing states */
 :root[data-theme="sky"] .study-ayah-card.playing,
 :root[data-theme="sky"] .ayah-card.playing {
-  background: rgba(20, 78, 95, 0.08) !important;
-  border-color: rgba(20, 78, 95, 0.15) !important;
+  background: rgba(196, 219, 234, 0.96) !important;
+  border-color: rgba(86, 127, 154, 0.12) !important;
 }
 
 /* Segmented control */
@@ -858,7 +861,7 @@
 }
 
 :root[data-theme="sky"] .surah-item:active {
-  background: rgba(20, 78, 95, 0.1);
+  background: rgba(208, 228, 240, 0.94);
   transition: background 0.15s ease-out;
 }
 
@@ -866,13 +869,13 @@
 :root[data-theme="sky"] .translation-chip:active,
 :root[data-theme="sky"] .reciter-card:active,
 :root[data-theme="sky"] .study-ayah-card:active {
-  background: rgba(20, 78, 95, 0.08);
+  background: rgba(200, 222, 236, 0.94);
   transition: background-color 0.15s ease-out;
 }
 
 /* Override active states */
 :root[data-theme="sky"] .surah-item.active {
-  background: rgba(20, 78, 95, 0.15) !important;
+  background: rgba(217, 232, 241, 0.96) !important;
   border: none !important;
   box-shadow: none !important;
 }
@@ -898,13 +901,13 @@
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
-  background: rgba(20, 78, 95, 0.16) !important;
+  background: rgba(194, 217, 232, 0.96) !important;
 }
 
 @media (hover: none) and (pointer: coarse) {
   :root[data-theme="sky"] .ayah-card:active,
   :root[data-theme="sky"] .ayah-card:focus {
-    background: rgba(20, 78, 95, 0.07) !important;
+    background: rgba(200, 222, 236, 0.94) !important;
     box-shadow: none !important;
     transition: none !important;
   }
@@ -936,18 +939,16 @@
 
 /* Prayer panel */
 :root[data-theme="sky"] .prayer-floating-backdrop {
-  background: rgba(12, 45, 72, 0.15);
-  backdrop-filter: blur(18px) saturate(1.4);
-  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  background: rgba(12, 45, 72, 0.12);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
 
 :root[data-theme="sky"] .prayer-floating-panel {
   border-color: rgba(20, 78, 95, 0.14);
-  background: linear-gradient(168deg,
-      rgba(210, 232, 240, 0.995) 0%,
-      rgba(198, 223, 234, 0.995) 100%);
+  background: rgba(206, 228, 239, 0.99);
   box-shadow:
-    0 24px 80px -12px rgba(12, 45, 72, 0.12),
+    0 16px 42px -12px rgba(12, 45, 72, 0.1),
     0 0 0 0.5px rgba(20, 78, 95, 0.08) inset;
 }
 
@@ -970,10 +971,7 @@
 }
 
 :root[data-theme="sky"] .prayer-hero-card {
-  background: linear-gradient(145deg,
-      rgba(20, 78, 95, 0.08) 0%,
-      rgba(20, 78, 95, 0.03) 60%,
-      rgba(255, 255, 255, 0.3) 100%);
+  background: rgba(218, 235, 243, 0.88);
   border-color: rgba(20, 78, 95, 0.1);
 }
 
@@ -1009,9 +1007,7 @@
 }
 
 :root[data-theme="sky"] .prayer-schedule-row.active {
-  background: linear-gradient(90deg,
-      rgba(20, 78, 95, 0.08) 0%,
-      rgba(20, 78, 95, 0.03) 100%);
+  background: rgba(210, 229, 239, 0.82);
 }
 
 :root[data-theme="sky"] .prayer-schedule-row.active .prayer-schedule-name,
@@ -1064,11 +1060,9 @@
 
 :root[data-theme="sky"] .prayer-custom-dropdown {
   border-color: rgba(20, 78, 95, 0.12);
-  background: linear-gradient(168deg,
-      rgba(220, 240, 248, 0.99) 0%,
-      rgba(210, 232, 240, 0.99) 100%);
+  background: rgba(216, 236, 245, 0.99);
   box-shadow:
-    0 16px 48px -8px rgba(12, 45, 72, 0.12),
+    0 12px 30px -8px rgba(12, 45, 72, 0.1),
     0 0 0 0.5px rgba(20, 78, 95, 0.08) inset;
 }
 
@@ -1117,9 +1111,9 @@
 :root[data-theme="sky"] .prayer-city-options {
   border-color: rgba(20, 78, 95, 0.1);
   background: rgba(220, 240, 248, 0.96);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  box-shadow: 0 12px 32px rgba(12, 45, 72, 0.1);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: 0 10px 24px rgba(12, 45, 72, 0.08);
 }
 
 :root[data-theme="sky"] .prayer-city-option:hover {
@@ -1146,8 +1140,8 @@
 
 :root[data-theme="sky"] .surah-prayer-hint {
   border-color: rgba(20, 78, 95, 0.2);
-  background: linear-gradient(152deg, rgba(210, 232, 240, 0.98), rgba(198, 223, 234, 0.96));
-  box-shadow: 0 12px 28px rgba(12, 45, 72, 0.1);
+  background: rgba(210, 232, 240, 0.97);
+  box-shadow: 0 8px 18px rgba(12, 45, 72, 0.08);
 }
 
 :root[data-theme="sky"] .surah-prayer-hint::before {
