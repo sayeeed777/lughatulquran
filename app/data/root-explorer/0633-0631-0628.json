@@ -1,0 +1,159 @@
+{
+  "root": "سرب",
+  "rootArabic": "سرب",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "سَراب",
+      "count": 2
+    },
+    {
+      "form": "سارِب",
+      "count": 1
+    },
+    {
+      "form": "سَرَباً",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سارِب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَرَباً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَراب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَراب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 13,
+      "ayah": 10,
+      "text": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ",
+      "highlightedHtml": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ <a class=\"highlight-text\">وَسَارِبٌۢ</a> بِٱلنَّهَارِ",
+      "derivedForms": [
+        "سارِب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 61,
+      "text": "فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ سَرَبًا",
+      "highlightedHtml": "فَلَمَّا بَلَغَا مَجْمَعَ بَيْنِهِمَا نَسِيَا حُوتَهُمَا فَٱتَّخَذَ سَبِيلَهُۥ فِى ٱلْبَحْرِ <a class=\"highlight-text\">سَرَبًا</a>",
+      "derivedForms": [
+        "سَرَباً"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 39,
+      "text": "وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ كَسَرَابٍۭ بِقِيعَةٍ يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
+      "highlightedHtml": "وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ <a class=\"highlight-text\">كَسَرَابٍۭ</a> بِقِيعَةٍ يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
+      "derivedForms": [
+        "سَراب"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 20,
+      "text": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ سَرَابًا",
+      "highlightedHtml": "وَسُيِّرَتِ ٱلْجِبَالُ فَكَانَتْ <a class=\"highlight-text\">سَرَابًا</a>",
+      "derivedForms": [
+        "سَراب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:47.651Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "وَسَارِبٌۢ is in the derivative form: سارِب",
+    "rootDefinitionHtml": "س/ر/ب   s–r–b to seep in, to leak out, to flow out<br>; an underground passage; to flock, a flock; to be blurred. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سَرَباً saraban 1 time; سَراب sarāb 2 times and سارِب sārib 1 time.",
+    "mainDefinitionHtml": "سارِب sārib [act. part.] moving about openly; sallying; moving about in stealth; skulking <br><br>(13:10) سَوَاءٌ مِنْكُمْ مَنْ أَسَرَّ الْقَوْلَ وَمَنْ جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَار alike among you is he who conceals his words and he who speaks them openly, he who hides himself under cover of night, and he who sallies by day (or, he who appears by night and hides himself by day).",
+    "mainEntryId": "wdef-س-ر-ب.سارِب",
+    "entries": [
+      {
+        "id": "wdef-س-ر-ب",
+        "label": "س-ر-ب",
+        "definitionHtml": "س/ر/ب   s–r–b to seep in, to leak out, to flow out<br>; an underground passage; to flock, a flock; to be blurred. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سَرَباً saraban 1 time; سَراب sarāb 2 times and سارِب sārib 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ب.سارِب",
+        "label": "سارِب",
+        "definitionHtml": "سارِب sārib [act. part.] moving about openly; sallying; moving about in stealth; skulking <br><br>(13:10) سَوَاءٌ مِنْكُمْ مَنْ أَسَرَّ الْقَوْلَ وَمَنْ جَهَرَ بِهِ وَمَنْ هُوَ مُسْتَخْفٍ بِاللَّيْلِ وَسَارِبٌ بِالنَّهَار alike among you is he who conceals his words and he who speaks them openly, he who hides himself under cover of night, and he who sallies by day (or, he who appears by night and hides himself by day).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ر-ب.سَراب",
+        "label": "سَراب",
+        "definitionHtml": "سَراب sarāb I [n.] mirage <br><br>(24:39) وَالَّذِينَ كَفَرُوا أَعْمَالُهُمْ كَسَرَابٍ بِقِيعَةٍ but the deeds of those who disbelieve are like a mirage in a desert II [v. n. used as quasi‐act. part./n.] moving, travelling <br><br>(78:20) وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا when the mountains are set in motion and become a moving object (or, and become like a mirage).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ب.سَرَباً",
+        "label": "سَرَباً",
+        "definitionHtml": "سَرَباً saraban [v. n. used adverbially] by stealth, furtively; tunnel‐like <br><br>(18:61) نَسِيَا حُوتَهُمَا فَاتَّخَذَ سَبِيلَهُ فِى الْبَحْرِ سَرَبًا they forgot their fish, which made its way into the sea furtively (or, dipping in the water).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:39.900Z",
+      "refword": "13:10:13",
+      "lexword": "وَسَارِبٌۢ"
+    }
+  }
+}

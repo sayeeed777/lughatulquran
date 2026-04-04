@@ -1,0 +1,127 @@
+{
+  "root": "هزم",
+  "rootArabic": "هزم",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "هَزَمَ",
+      "count": 2
+    },
+    {
+      "form": "مَهْزُومٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هَزَمَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهْزُومٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هَزَمَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 251,
+      "text": "فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَهَزَمُوهُم</a> بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "هَزَمَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 11,
+      "text": "جُندٌ مَّا هُنَالِكَ مَهْزُومٌ مِّنَ ٱلْأَحْزَابِ",
+      "highlightedHtml": "جُندٌ مَّا هُنَالِكَ <a class=\"highlight-text\">مَهْزُومٌ</a> مِّنَ ٱلْأَحْزَابِ",
+      "derivedForms": [
+        "مَهْزُومٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 45,
+      "text": "سَيُهْزَمُ ٱلْجَمْعُ وَيُوَلُّونَ ٱلدُّبُرَ",
+      "highlightedHtml": "<a class=\"highlight-text\">سَيُهْزَمُ</a> ٱلْجَمْعُ وَيُوَلُّونَ ٱلدُّبُرَ",
+      "derivedForms": [
+        "هَزَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:32.870Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "فَهَزَمُوهُم is in the derivative form: هَزَمَ",
+    "rootDefinitionHtml": "هـ/ز/م   h–z–m lowland<br>; crevice, dent, groove, crack; to defeat, to vanquish, to rob someone of his rights; roll of thunder; disaster, to kill; emaciated animals. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> هَزَمَ hazama; يُهْزَمُ yuhzam and مَهْزُومٌ mahzūm.",
+    "mainDefinitionHtml": "هَزَمَ hazama i [v. trans., pass. imperf. v. يُهْزَمُ yuhzam] to defeat <br><br>(2:251) فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُدُ جَالُوتَ and so by God’s leave they defeated them and David killed Goliath.",
+    "mainEntryId": "wdef-هـ-ز-م.هَزَمَ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ز-م",
+        "label": "هـ-ز-م",
+        "definitionHtml": "هـ/ز/م   h–z–m lowland<br>; crevice, dent, groove, crack; to defeat, to vanquish, to rob someone of his rights; roll of thunder; disaster, to kill; emaciated animals. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> هَزَمَ hazama; يُهْزَمُ yuhzam and مَهْزُومٌ mahzūm.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ز-م.هَزَمَ",
+        "label": "هَزَمَ",
+        "definitionHtml": "هَزَمَ hazama i [v. trans., pass. imperf. v. يُهْزَمُ yuhzam] to defeat <br><br>(2:251) فَهَزَمُوهُمْ بِإِذْنِ اللَّهِ وَقَتَلَ دَاوُدُ جَالُوتَ and so by God’s leave they defeated them and David killed Goliath.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-هـ-ز-م.مَهْزُومٌ",
+        "label": "مَهْزُومٌ",
+        "definitionHtml": "مَهْزُومٌ mahzūm [pass. part.] defeated, vanquished, put to flight <br><br>(38:11) جُنْدٌ مَا هُنَالِكَ مَهْزُومٌ مِنَ الأَحْزَابِ an inconsequential army of the alliance, defeatable.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:10.752Z",
+      "refword": "2:251:1",
+      "lexword": "فَهَزَمُوهُم"
+    }
+  }
+}

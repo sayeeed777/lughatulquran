@@ -1,0 +1,84 @@
+{
+  "root": "نكف",
+  "rootArabic": "نكف",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اسْتَنْكَفَ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "اسْتَنْكَفَ",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 172,
+      "text": "لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
+      "highlightedHtml": "لَّن <a class=\"highlight-text\">يَسْتَنكِفَ</a> ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن <a class=\"highlight-text\">يَسْتَنكِفْ</a> عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
+      "derivedForms": [
+        "اسْتَنْكَفَ",
+        "اسْتَنْكَفَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 173,
+      "text": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "highlightedHtml": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ <a class=\"highlight-text\">ٱسْتَنكَفُوا۟</a> وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "derivedForms": [
+        "اسْتَنْكَفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:07.941Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form X) imperfect verb, subjunctive mood",
+    "derivativeNote": "يَسْتَنكِفَ is in the derivative form: اسْتَنْكَفَ",
+    "rootDefinitionHtml": "ن/ك/ف n–k–f to wipe tears from the cheek with one’s finger, to be disdainful, to snub, to loathe, to be haughty. Of this root, اسْتَنْكَفَ ʾistankafa, occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "اسْتَنْكَفَ ʾistankafa [v. X intrans.] to become haughty, to disdain, to look down upon <br><br>(4:172) لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْدًا لِلَّهِ the Messiah would never disdain to be a servant of God.",
+    "mainEntryId": "wdef-ن-ك-ف.اسْتَنْكَفَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-ف",
+        "label": "ن-ك-ف",
+        "definitionHtml": "ن/ك/ف n–k–f to wipe tears from the cheek with one’s finger, to be disdainful, to snub, to loathe, to be haughty. Of this root, اسْتَنْكَفَ ʾistankafa, occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ف.اسْتَنْكَفَ",
+        "label": "اسْتَنْكَفَ",
+        "definitionHtml": "اسْتَنْكَفَ ʾistankafa [v. X intrans.] to become haughty, to disdain, to look down upon <br><br>(4:172) لَنْ يَسْتَنْكِفَ الْمَسِيحُ أَنْ يَكُونَ عَبْدًا لِلَّهِ the Messiah would never disdain to be a servant of God.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:26.790Z",
+      "refword": "4:172:2",
+      "lexword": "يَسْتَنكِفَ"
+    }
+  }
+}

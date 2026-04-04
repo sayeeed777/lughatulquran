@@ -1,0 +1,74 @@
+{
+  "root": "بحث",
+  "rootArabic": "بحث",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَبْحَثُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَبْحَثُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 31,
+      "text": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "highlightedHtml": "فَبَعَثَ ٱللَّهُ غُرَابًا <a class=\"highlight-text\">يَبْحَثُ</a> فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "derivedForms": [
+        "يَبْحَثُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:11.946Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَبْحَثُ is in the derivative form: يَبْحَثُ",
+    "rootDefinitionHtml": "ب/ح/ث   b–ḥ–th to rummage in the dust looking for something, to claw the dust, to search, to seek information. Of this root, يَبحَثُ yabḥath, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَبْحَثُ yabḥath [imperf. of v. intrans. with prep. في] to dig up, to scratch up <br><br>(5:31) فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِى الأَرْضِ so God sent a raven scratching up the earth.",
+    "mainEntryId": "wdef-ب-ح-ث.يَبْحَثُ",
+    "entries": [
+      {
+        "id": "wdef-ب-ح-ث",
+        "label": "ب-ح-ث",
+        "definitionHtml": "ب/ح/ث   b–ḥ–th to rummage in the dust looking for something, to claw the dust, to search, to seek information. Of this root, يَبحَثُ yabḥath, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ح-ث.يَبْحَثُ",
+        "label": "يَبْحَثُ",
+        "definitionHtml": "يَبْحَثُ yabḥath [imperf. of v. intrans. with prep. في] to dig up, to scratch up <br><br>(5:31) فَبَعَثَ اللَّهُ غُرَابًا يَبْحَثُ فِى الأَرْضِ so God sent a raven scratching up the earth.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:16.887Z",
+      "refword": "5:31:4",
+      "lexword": "يَبْحَثُ"
+    }
+  }
+}

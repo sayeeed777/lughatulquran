@@ -1,0 +1,106 @@
+{
+  "root": "طعن",
+  "rootArabic": "طعن",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "طَعَنَ",
+      "count": 1
+    },
+    {
+      "form": "طَعْن",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَعْن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَعَنَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 46,
+      "text": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا لَيًّۢا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا لَيًّۢا لَيًّۢا بِأَلْسِنَتِهِمْ <a class=\"highlight-text\">وَطَعْنًا</a> فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "طَعْن"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 12,
+      "text": "وَإِن نَّكَثُوٓا۟ أَيْمَٰنَهُم مِّنۢ بَعْدِ عَهْدِهِمْ وَطَعَنُوا۟ فِى دِينِكُمْ فَقَٰتِلُوٓا۟ أَئِمَّةَ ٱلْكُفْرِ ۙ إِنَّهُمْ لَآ أَيْمَٰنَ لَهُمْ لَعَلَّهُمْ يَنتَهُونَ",
+      "highlightedHtml": "وَإِن نَّكَثُوٓا۟ أَيْمَٰنَهُم مِّنۢ بَعْدِ عَهْدِهِمْ <a class=\"highlight-text\">وَطَعَنُوا۟</a> فِى دِينِكُمْ فَقَٰتِلُوٓا۟ أَئِمَّةَ ٱلْكُفْرِ ۙ إِنَّهُمْ لَآ أَيْمَٰنَ لَهُمْ لَعَلَّهُمْ يَنتَهُونَ",
+      "derivedForms": [
+        "طَعَنَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:47.926Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "وَطَعْنًا is in the derivative form: طَعْن",
+    "rootDefinitionHtml": "ط/ع/ن   ṭ–ʿ–n to stab, to penetrate with a blade, to thrust, a stab; to defame; to approach; plague. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> طَعَنَ ṭaʿana and طَعْن ṭaʿn.",
+    "mainDefinitionHtml": "طَعْن ṭaʿn [v. n. with prep. فِي] defaming, speaking ill of, reviling, slandering, maligning <br><br>(4:46) ‏وَطَعْنًا‏ ‏فِي‏ ‏الدِّينِ‏ and speaking ill of the religion.",
+    "mainEntryId": "wdef-ط-ع-ن.طَعْن",
+    "entries": [
+      {
+        "id": "wdef-ط-ع-ن",
+        "label": "ط-ع-ن",
+        "definitionHtml": "ط/ع/ن   ṭ–ʿ–n to stab, to penetrate with a blade, to thrust, a stab; to defame; to approach; plague. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> طَعَنَ ṭaʿana and طَعْن ṭaʿn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ع-ن.طَعْن",
+        "label": "طَعْن",
+        "definitionHtml": "طَعْن ṭaʿn [v. n. with prep. فِي] defaming, speaking ill of, reviling, slandering, maligning <br><br>(4:46) ‏وَطَعْنًا‏ ‏فِي‏ ‏الدِّينِ‏ and speaking ill of the religion.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-ع-ن.طَعَنَ",
+        "label": "طَعَنَ",
+        "definitionHtml": "طَعَنَ ṭaʿana a [v. intrans. with prep. فِي] to defame, to speak ill of, to assail, to slander <br><br>(9:12) ‏وَطَعَنُوا‏ ‏فِي‏ ‏دِينِكُمْ‏ and they reviled your religion.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:28.053Z",
+      "refword": "4:46:17",
+      "lexword": "وَطَعْنًا"
+    }
+  }
+}

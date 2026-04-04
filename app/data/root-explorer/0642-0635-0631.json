@@ -1,0 +1,325 @@
+{
+  "root": "قصر",
+  "rootArabic": "قصر",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 6,
+    "surahCount": 9,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "قَصْر",
+      "count": 4
+    },
+    {
+      "form": "قَاصِرات",
+      "count": 3
+    },
+    {
+      "form": "تَقْصُر",
+      "count": 1
+    },
+    {
+      "form": "مُقَصِّرِين",
+      "count": 1
+    },
+    {
+      "form": "مَقْصُوراتٌ",
+      "count": 1
+    },
+    {
+      "form": "يُقْصِر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقْصُر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصْر",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "يُقْصِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصْر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصْر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاصِرات",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاصِرات",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقَصِّرِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَاصِرات",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "مَقْصُوراتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصْر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 101,
+      "text": "وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا",
+      "highlightedHtml": "وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن <a class=\"highlight-text\">تَقْصُرُوا۟</a> مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا",
+      "derivedForms": [
+        "تَقْصُر"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 74,
+      "text": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا <a class=\"highlight-text\">قُصُورًا</a> وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "قَصْر"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 202,
+      "text": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ",
+      "highlightedHtml": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا <a class=\"highlight-text\">يُقْصِرُونَ</a>",
+      "derivedForms": [
+        "يُقْصِر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 45,
+      "text": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ",
+      "highlightedHtml": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ <a class=\"highlight-text\">وَقَصْرٍ</a> مَّشِيدٍ",
+      "derivedForms": [
+        "قَصْر"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 10,
+      "text": "تَبَارَكَ ٱلَّذِىٓ إِن شَآءَ جَعَلَ لَكَ خَيْرًا مِّن ذَٰلِكَ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ وَيَجْعَل لَّكَ قُصُورًۢا",
+      "highlightedHtml": "تَبَارَكَ ٱلَّذِىٓ إِن شَآءَ جَعَلَ لَكَ خَيْرًا مِّن ذَٰلِكَ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ وَيَجْعَل لَّكَ <a class=\"highlight-text\">قُصُورًۢا</a>",
+      "derivedForms": [
+        "قَصْر"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 48,
+      "text": "وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ عِينٌ",
+      "highlightedHtml": "وَعِندَهُمْ <a class=\"highlight-text\">قَٰصِرَٰتُ</a> ٱلطَّرْفِ عِينٌ",
+      "derivedForms": [
+        "قَاصِرات"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 52,
+      "text": "وَعِندَهُمْ قَٰصِرَٰتُ ٱلطَّرْفِ أَتْرَابٌ",
+      "highlightedHtml": "وَعِندَهُمْ <a class=\"highlight-text\">قَٰصِرَٰتُ</a> ٱلطَّرْفِ أَتْرَابٌ",
+      "derivedForms": [
+        "قَاصِرات"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 27,
+      "text": "لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًا قَرِيبًا",
+      "highlightedHtml": "لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ <a class=\"highlight-text\">وَمُقَصِّرِينَ</a> لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًا قَرِيبًا",
+      "derivedForms": [
+        "مُقَصِّرِين"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 56,
+      "text": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "highlightedHtml": "فِيهِنَّ <a class=\"highlight-text\">قَٰصِرَٰتُ</a> ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "derivedForms": [
+        "قَاصِرات"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 72,
+      "text": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
+      "highlightedHtml": "حُورٌ <a class=\"highlight-text\">مَّقْصُورَٰتٌ</a> فِى ٱلْخِيَامِ",
+      "derivedForms": [
+        "مَقْصُوراتٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 32,
+      "text": "إِنَّهَا تَرْمِى بِشَرَرٍ كَٱلْقَصْرِ",
+      "highlightedHtml": "إِنَّهَا تَرْمِى بِشَرَرٍ <a class=\"highlight-text\">كَٱلْقَصْرِ</a>",
+      "derivedForms": [
+        "قَصْر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:57.147Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb, subjunctive mood",
+    "derivativeNote": "تَقْصُرُوا۟ is in the derivative form: تَقْصُر",
+    "rootDefinitionHtml": "ق/ص/ر   q–ṣ–r to be short, brief or small<br>; incapability; negligence; curtailment, confinement, to shorten, to fail to accomplish; chaff; base of the neck, disease paralysing the neck; trunk of a great tree. <br><br>Of this root, 7 forms occur 11 times in the Qur’an:<br> تَقْصُرُوا taqṣurū 1 time; يُقْصِرُون yuqṣirūn 1 time; قَصْر qaṣr 2 times; قُصُور quṣūr 2 times; قَاصِرات qāsirāt 3 times; مَقْصُورات maqṣūrāt 1 time and مُقَصِّرِين muqaṣṣirın 1 time.",
+    "mainDefinitionHtml": "تَقْصُر taqṣur [imperf. of v. قَصَرَ qaṣara, trans.] to shorten <br><br>(4:101) وَإِذَا ضَرَبْتُمْ فِى الأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَقْصُرُوا مِنَ الصَّلاَةِ there is no blame on you if you shorten [your] prayer when you are travelling in the land.",
+    "mainEntryId": "wdef-ق-ص-ر.تَقْصُر",
+    "entries": [
+      {
+        "id": "wdef-ق-ص-ر",
+        "label": "ق-ص-ر",
+        "definitionHtml": "ق/ص/ر   q–ṣ–r to be short, brief or small<br>; incapability; negligence; curtailment, confinement, to shorten, to fail to accomplish; chaff; base of the neck, disease paralysing the neck; trunk of a great tree. <br><br>Of this root, 7 forms occur 11 times in the Qur’an:<br> تَقْصُرُوا taqṣurū 1 time; يُقْصِرُون yuqṣirūn 1 time; قَصْر qaṣr 2 times; قُصُور quṣūr 2 times; قَاصِرات qāsirāt 3 times; مَقْصُورات maqṣūrāt 1 time and مُقَصِّرِين muqaṣṣirın 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ر.تَقْصُر",
+        "label": "تَقْصُر",
+        "definitionHtml": "تَقْصُر taqṣur [imperf. of v. قَصَرَ qaṣara, trans.] to shorten <br><br>(4:101) وَإِذَا ضَرَبْتُمْ فِى الأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَنْ تَقْصُرُوا مِنَ الصَّلاَةِ there is no blame on you if you shorten [your] prayer when you are travelling in the land.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ص-ر.قَاصِرات",
+        "label": "قَاصِرات",
+        "definitionHtml": "قَاصِرات الطَرْف qāṣirāt ʾal-ṭarf [pl. of fem. act. part. قَاصِرَةٌ qāṣiratun, in construct (إضافة)] literally, women who shorten the range of their gaze, who cast down their eyes; modest women, avoiding staring <br><br>(38:52) وَعِنْدَهُمْ قَاصِرَاتُ الطَّرْفِ أَتْرَابٌ and with them are those restraining their glances, of equal age.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ر.قَصْر",
+        "label": "قَصْر",
+        "definitionHtml": "قَصْر qaṣr [n.; pl. قُصُور quṣūr] <br><br><strong>1 </strong>stone house, fortified dwelling, mansion <br><br>(7:74) تَتَّخِذُونَ مِنْ سُهُولِهَا قُصُورًا وَتَنْحِتُونَ الْجِبَالَ بُيُوتًا taking for yourselves fortified dwellings on its plains and hewing the mountains into houses ‏<br><br><strong>2 </strong>great tree trunk <br><br>(77:32) أِنّّها تَرْمى بِشَرَرً كالقَصْر it shoots out sparks as large as tree trunks.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ر.مَقْصُوراتٌ",
+        "label": "مَقْصُوراتٌ",
+        "definitionHtml": "مَقْصُوراتٌ maqṣūrātun [pl. of pass. part. fem. مَقْصُورَةٌ maqṣūratun] secluded, sheltered, treasured <br><br>(55:72) حُورٌ مَقْصُورَاتٌ فِى الْخِيَامِ Houris [dark-eyed maidens], treasured in pavilions.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ر.مُقَصِّرِين",
+        "label": "مُقَصِّرِين",
+        "definitionHtml": "مُقَصِّرِين muqaṣṣirın [pl. of act. part. مُقَصِّر muqaṣṣir] those who shorten, those who curtail <br><br>(48:27) مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لاَ تَخَافُونَ shaving your heads or cropping [them], having no fear.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ر.يُقْصِر",
+        "label": "يُقْصِر",
+        "definitionHtml": "يُقْصِر yuqṣir [imperf. of v. IV أقْصَرَ ʾaqṣara, intrans.] to stop doing, to cease to do, to desist <br><br>(7:202) وَإِخْوَانُهُمْ يَمُدُّونَهُمْ فِى الْغَيِّ ثُمَّ لاَ يُقْصِرُونَ and their fellows relentlessly lead them into error, then cannot stop.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:28.309Z",
+      "refword": "4:101:9",
+      "lexword": "تَقْصُرُوا۟"
+    }
+  }
+}

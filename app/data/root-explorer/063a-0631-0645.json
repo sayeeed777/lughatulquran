@@ -1,0 +1,205 @@
+{
+  "root": "غرم",
+  "rootArabic": "غرم",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "مَغْرَم",
+      "count": 3
+    },
+    {
+      "form": "غارِمين",
+      "count": 1
+    },
+    {
+      "form": "غَراما",
+      "count": 1
+    },
+    {
+      "form": "مُغْرَمون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غارِمين",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَغْرَم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَراما",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَغْرَم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُغْرَمون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَغْرَم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 60,
+      "text": "إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ <a class=\"highlight-text\">وَٱلْغَٰرِمِينَ</a> وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "غارِمين"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 98,
+      "text": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ <a class=\"highlight-text\">مَغْرَمًا</a> وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "مَغْرَم"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 65,
+      "text": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا ٱصْرِفْ ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ غَرَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ يَقُولُونَ رَبَّنَا ٱصْرِفْ ٱصْرِفْ عَنَّا عَذَابَ جَهَنَّمَ ۖ إِنَّ عَذَابَهَا كَانَ <a class=\"highlight-text\">غَرَامًا</a>",
+      "derivedForms": [
+        "غَراما"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 40,
+      "text": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
+      "highlightedHtml": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن <a class=\"highlight-text\">مَّغْرَمٍ</a> مُّثْقَلُونَ",
+      "derivedForms": [
+        "مَغْرَم"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 66,
+      "text": "إِنَّا لَمُغْرَمُونَ",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">لَمُغْرَمُونَ</a>",
+      "derivedForms": [
+        "مُغْرَمون"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 46,
+      "text": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
+      "highlightedHtml": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن <a class=\"highlight-text\">مَّغْرَمٍ</a> مُّثْقَلُونَ",
+      "derivedForms": [
+        "مَغْرَم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:54.622Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "وَٱلْغَٰرِمِينَ is in the derivative form: غارِمين",
+    "rootDefinitionHtml": "غ/ر/م   gh–r–m loss, financial liability 1 takes upon oneself, to be in debt<br>; lasting torment, aching love, fondness, heart; (of heat) scorching; opponent. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> غارِمين ghārimın 1 time; غَراماٌ gharāman 1 time; مَغْرَم maghram 3 times and مُغْرَمون mughramūn 1 time.",
+    "mainDefinitionHtml": "غارِمين ghārimın [pl. of act. part. غارِم ghārim] debtors, those incurring debts as a result of helping others <br><br>(9:60) إِِنَّمَا‏ ‏الصَّدَقَاتُ‏ لِلْفُقَرَاءِ ... وَالْغَارِمِينَ ...‏] alms are only for the poor […] and the ones who incur debt in their helping of others and in the way of God.",
+    "mainEntryId": "wdef-غ-ر-م.غارِمين",
+    "entries": [
+      {
+        "id": "wdef-غ-ر-م",
+        "label": "غ-ر-م",
+        "definitionHtml": "غ/ر/م   gh–r–m loss, financial liability 1 takes upon oneself, to be in debt<br>; lasting torment, aching love, fondness, heart; (of heat) scorching; opponent. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> غارِمين ghārimın 1 time; غَراماٌ gharāman 1 time; مَغْرَم maghram 3 times and مُغْرَمون mughramūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-م.غارِمين",
+        "label": "غارِمين",
+        "definitionHtml": "غارِمين ghārimın [pl. of act. part. غارِم ghārim] debtors, those incurring debts as a result of helping others <br><br>(9:60) إِِنَّمَا‏ ‏الصَّدَقَاتُ‏ لِلْفُقَرَاءِ ... وَالْغَارِمِينَ ...‏] alms are only for the poor […] and the ones who incur debt in their helping of others and in the way of God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ر-م.غَراما",
+        "label": "غَراما",
+        "definitionHtml": "غَراما gharāman [v. n./n.] constant severe [torment], clinging, lasting <br><br>(25:65) رَبَّنَا‏ ‏اصْرِفْ‏ ‏عَنَّا‏ ‏عَذَابَ‏ ‏جَهَنَّمَ‏ ‏إِنَّ‏ ‏عَذَابَهَا‏ ‏كَانَ ‏‏غَرَامًا our Lord, turn away from us the chastisement of Hell, for its chastisement is a dreadful, lasting anguish.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-م.مَغْرَم",
+        "label": "مَغْرَم",
+        "definitionHtml": "مَغْرَم maghram [n./v. n.] a liability, particularly financial, incurred not as a result of one’s own action; unjust fine or penalty, loss, debt unjustly incurred, imposition <br><br>(9:98) وَمِنَ‏ ‏الأَعْرَابِ‏ ‏مَنْ‏ ‏يَتَّخِذُ‏ ‏مَا يُنْفِقُ‏ ‏مَغْرَمًا ‏‏and of the desert Arabs are those who consider what they spend [in the cause of God] as a financial imposition.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-م.مُغْرَمون",
+        "label": "مُغْرَمون",
+        "definitionHtml": "مُغْرَمون mughramūn [pl. of quasi‐pass. part. مُغْرَم mughram] tormented, left with heavy loss/debt <br><br>(56:66) إِنَّا‏ ‏لَمُغْرَمُونَ‏ We are burdened with the debt [over what we have spent] (or, we are faced with destruction [because of the loss of our livelihood]).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:28.157Z",
+      "refword": "9:60:11",
+      "lexword": "وَٱلْغَٰرِمِينَ"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "root": "خصص",
+  "rootArabic": "خصص",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَخْتَصُّ",
+      "count": 2
+    },
+    {
+      "form": "خَاصَّةٌ",
+      "count": 1
+    },
+    {
+      "form": "خَصَاصَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْتَصُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْتَصُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاصَّةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَصَاصَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 105,
+      "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "highlightedHtml": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ <a class=\"highlight-text\">يَخْتَصُّ</a> بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "يَخْتَصُّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 74,
+      "text": "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَخْتَصُّ</a> بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "يَخْتَصُّ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 25,
+      "text": "وَٱتَّقُوا۟ فِتْنَةً لَّا تُصِيبَنَّ ٱلَّذِينَ ظَلَمُوا۟ مِنكُمْ خَآصَّةً ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَٱتَّقُوا۟ فِتْنَةً لَّا تُصِيبَنَّ ٱلَّذِينَ ظَلَمُوا۟ مِنكُمْ <a class=\"highlight-text\">خَآصَّةً</a> ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "خَاصَّةٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 9,
+      "text": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ <a class=\"highlight-text\">خَصَاصَةٌ</a> ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "خَصَاصَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:21.285Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VIII) imperfect verb",
+    "derivativeNote": "يَخْتَصُّ is in the derivative form: يَخْتَصُّ",
+    "rootDefinitionHtml": "خ/ص/ص   kh–ṣ–ṣ small holes in a sieve<br>; a keyhole; small breaks in the clouds; to be in dire straits, to be hard up; to belong to a small circle; to choose above others, to single out, to favour. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَخْتَصُّ yakhtaṣṣ 2 times; خَاصَّةٌ khāṣṣatan 1 time; خَصَاصَةٌ khaṣāṣatun 11 times.",
+    "mainDefinitionHtml": "يَخْتَصُّ yakhtaṣṣ [imperf. of v. VIII, trans.] to favour, to single out <br><br>(2:105) وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ God chooses for His mercy whomever He will.",
+    "mainEntryId": "wdef-خ-ص-ص.يَخْتَصُّ",
+    "entries": [
+      {
+        "id": "wdef-خ-ص-ص",
+        "label": "خ-ص-ص",
+        "definitionHtml": "خ/ص/ص   kh–ṣ–ṣ small holes in a sieve<br>; a keyhole; small breaks in the clouds; to be in dire straits, to be hard up; to belong to a small circle; to choose above others, to single out, to favour. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَخْتَصُّ yakhtaṣṣ 2 times; خَاصَّةٌ khāṣṣatan 1 time; خَصَاصَةٌ khaṣāṣatun 11 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-ص.يَخْتَصُّ",
+        "label": "يَخْتَصُّ",
+        "definitionHtml": "يَخْتَصُّ yakhtaṣṣ [imperf. of v. VIII, trans.] to favour, to single out <br><br>(2:105) وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ God chooses for His mercy whomever He will.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ص-ص.خَاصَّةٌ",
+        "label": "خَاصَّةٌ",
+        "definitionHtml": "خَاصَّةٌ khāṣṣatan [quasi‐act. part. used adverbially] in particular, specifically, alone, only <br><br>(8:25) وَاتَّقُوا فِتْنَةً لاَ تُصِيبَنَّ الَّذِينَ ظَلَمُوا مِنْكُمْ خَاصَّةً beware of discord that harms not only the wrongdoers among you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-ص.خَصَاصَةٌ",
+        "label": "خَصَاصَةٌ",
+        "definitionHtml": "خَصَاصَةٌ khaṣāṣatun [n.] poverty, straitened circumstances, need <br><br>(59:9) وَيُؤْثِرُونَ عَلَى أَنْفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ and they give [others] preference over themselves, even if they themselves are in need.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:06.207Z",
+      "refword": "2:105:18",
+      "lexword": "يَخْتَصُّ"
+    }
+  }
+}

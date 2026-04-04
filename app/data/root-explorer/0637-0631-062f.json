@@ -1,0 +1,142 @@
+{
+  "root": "طرد",
+  "rootArabic": "طرد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "طَرَدَ",
+      "count": 3
+    },
+    {
+      "form": "طاَرِد",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَرَدَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طاَرِد",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "طَرَدَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَرِد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 52,
+      "text": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَطْرُدِ</a> ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ <a class=\"highlight-text\">فَتَطْرُدَهُمْ</a> فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "طَرَدَ",
+        "طَرَدَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 29,
+      "text": "وَيَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ مَالًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۚ وَمَآ أَنَا۠ بِطَارِدِ ٱلَّذِينَ آمَنُوا ۚ إِنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَلَٰكِنِّىٓ أَرَىٰكُمْ قَوْمًا تَجْهَلُونَ",
+      "highlightedHtml": "وَيَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ مَالًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱللَّهِ ۚ وَمَآ أَنَا۠ <a class=\"highlight-text\">بِطَارِدِ</a> ٱلَّذِينَ آمَنُوا ۚ إِنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَلَٰكِنِّىٓ أَرَىٰكُمْ قَوْمًا تَجْهَلُونَ",
+      "derivedForms": [
+        "طاَرِد"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 30,
+      "text": "وَيَٰقَوْمِ مَن يَنصُرُنِى مِنَ ٱللَّهِ إِن طَرَدتُّهُمْ ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "وَيَٰقَوْمِ مَن يَنصُرُنِى مِنَ ٱللَّهِ إِن <a class=\"highlight-text\">طَرَدتُّهُمْ</a> ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "طَرَدَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 114,
+      "text": "وَمَآ أَنَا۠ بِطَارِدِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَمَآ أَنَا۠ <a class=\"highlight-text\">بِطَارِدِ</a> ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "طاَرِد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:44.386Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "تَطْرُدِ is in the derivative form: طَرَدَ",
+    "rootDefinitionHtml": "ط/ر/د   ṭ–r–d fugitive, outcast, chased game; to banish, to expel, to drive away. <br><br>Of this root, 2 forms occur in 5 places in the Qur’an:<br> طَرَدَ ṭarada 3 times and طاَرِد ṭārid 2 times.",
+    "mainDefinitionHtml": "طَرَدَ ṭarada u [v. trans.] to drive away, to drive out, to dismiss <br><br>(6:52) وَلاَ تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُمْ بِالْغَدَاةِ وَالْعَشِيِّ يُرِيدُونَ وَجْهَهُ do not drive away (or, distance yourself from) those who call upon their Lord morning and evening, seeking [nothing but] His Face.",
+    "mainEntryId": "wdef-ط-ر-د.طَرَدَ",
+    "entries": [
+      {
+        "id": "wdef-ط-ر-د",
+        "label": "ط-ر-د",
+        "definitionHtml": "ط/ر/د   ṭ–r–d fugitive, outcast, chased game; to banish, to expel, to drive away. <br><br>Of this root, 2 forms occur in 5 places in the Qur’an:<br> طَرَدَ ṭarada 3 times and طاَرِد ṭārid 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ر-د.طَرَدَ",
+        "label": "طَرَدَ",
+        "definitionHtml": "طَرَدَ ṭarada u [v. trans.] to drive away, to drive out, to dismiss <br><br>(6:52) وَلاَ تَطْرُدِ الَّذِينَ يَدْعُونَ رَبَّهُمْ بِالْغَدَاةِ وَالْعَشِيِّ يُرِيدُونَ وَجْهَهُ do not drive away (or, distance yourself from) those who call upon their Lord morning and evening, seeking [nothing but] His Face.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-ر-د.طاَرِد",
+        "label": "طاَرِد",
+        "definitionHtml": "طاَرِد ṭārid [act. part.] one who chases away, one who drives out, one who expels <br><br>(11:29)‏وَمَا‏ ‏أَنَا‏ ‏بِطَارِدِ‏ ‏الَّذِينَ‏ ‏ءَامَنُوا ‏‏ ‏I will not be one who drives away those who believe.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:21.413Z",
+      "refword": "6:52:2",
+      "lexword": "تَطْرُدِ"
+    }
+  }
+}

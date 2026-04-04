@@ -1,0 +1,190 @@
+{
+  "root": "شفي",
+  "rootArabic": "شفي",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "شِفاء",
+      "count": 4
+    },
+    {
+      "form": "يَشْفي",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَشْفي",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِفاء",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِفاء",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِفاء",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَشْفي",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِفاء",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 14,
+      "text": "قَٰتِلُوهُمْ يُعَذِّبْهُمُ ٱللَّهُ بِأَيْدِيكُمْ وَيُخْزِهِمْ وَيَنصُرْكُمْ عَلَيْهِمْ وَيَشْفِ صُدُورَ صُدُورَ قَوْمٍ مُّؤْمِنِينَ",
+      "highlightedHtml": "قَٰتِلُوهُمْ يُعَذِّبْهُمُ ٱللَّهُ بِأَيْدِيكُمْ وَيُخْزِهِمْ وَيَنصُرْكُمْ عَلَيْهِمْ <a class=\"highlight-text\">وَيَشْفِ</a> صُدُورَ صُدُورَ قَوْمٍ مُّؤْمِنِينَ",
+      "derivedForms": [
+        "يَشْفي"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 57,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَآءٌ لِّمَا فِى ٱلصُّدُورِ ٱلصُّدُورِ وَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ <a class=\"highlight-text\">وَشِفَآءٌ</a> لِّمَا فِى ٱلصُّدُورِ ٱلصُّدُورِ وَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "شِفاء"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 69,
+      "text": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ <a class=\"highlight-text\">شِفَآءٌ</a> لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "شِفاء"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 82,
+      "text": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًا",
+      "highlightedHtml": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ <a class=\"highlight-text\">شِفَآءٌ</a> وَرَحْمَةٌ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًا",
+      "derivedForms": [
+        "شِفاء"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 80,
+      "text": "وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ",
+      "highlightedHtml": "وَإِذَا مَرِضْتُ فَهُوَ <a class=\"highlight-text\">يَشْفِينِ</a>",
+      "derivedForms": [
+        "يَشْفي"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 44,
+      "text": "وَلَوْ جَعَلْنَٰهُ قُرْءَانًا أَعْجَمِيًّا لَّقَالُوا۟ لَوْلَا فُصِّلَتْ آيَاتُهُ ۖ أَأَعْجَمِيٌّ وَعَرَبِىٌّ ۗ قُلْ هُوَ لِلَّذِينَ آمَنُوا هُدًى وَشِفَآءٌ ۖ وَٱلَّذِينَ لَا يُؤْمِنُونَ فِىٓ آذَانِهِمْ وَقْرٌ وَهُوَ عَلَيْهِمْ عَمًى ۚ أُو۟لَٰٓئِكَ يُنَادَوْنَ مِن مَّكَانٍۭ بَعِيدٍ",
+      "highlightedHtml": "وَلَوْ جَعَلْنَٰهُ قُرْءَانًا أَعْجَمِيًّا لَّقَالُوا۟ لَوْلَا فُصِّلَتْ آيَاتُهُ ۖ أَأَعْجَمِيٌّ وَعَرَبِىٌّ ۗ قُلْ هُوَ لِلَّذِينَ آمَنُوا هُدًى <a class=\"highlight-text\">وَشِفَآءٌ</a> ۖ وَٱلَّذِينَ لَا يُؤْمِنُونَ فِىٓ آذَانِهِمْ وَقْرٌ وَهُوَ عَلَيْهِمْ عَمًى ۚ أُو۟لَٰٓئِكَ يُنَادَوْنَ مِن مَّكَانٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "شِفاء"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:15.895Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "وَيَشْفِ is in the derivative form: يَشْفي",
+    "rootDefinitionHtml": "ش/ف/ي sh–f–y to restore to good health, to cure; to satisfy one’s curiosity, to reassure oneself. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يَشْفي yashfı 2 times and شِفاء shifāʾ 4 times.",
+    "mainDefinitionHtml": "يَشْفي yashfı [imperf. v., trans.] to heal, to cure a physical or mental illness; to remove rancour or bad feeling from the heart <br><br>(26:80) وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ and if I become sick He heals me.",
+    "mainEntryId": "wdef-ش-ف-ي.يَشْفي",
+    "entries": [
+      {
+        "id": "wdef-ش-ف-ي",
+        "label": "ش-ف-ي",
+        "definitionHtml": "ش/ف/ي sh–f–y to restore to good health, to cure; to satisfy one’s curiosity, to reassure oneself. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يَشْفي yashfı 2 times and شِفاء shifāʾ 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ف-ي.يَشْفي",
+        "label": "يَشْفي",
+        "definitionHtml": "يَشْفي yashfı [imperf. v., trans.] to heal, to cure a physical or mental illness; to remove rancour or bad feeling from the heart <br><br>(26:80) وَإِذَا مَرِضْتُ فَهُوَ يَشْفِينِ and if I become sick He heals me.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ف-ي.شِفاء",
+        "label": "شِفاء",
+        "definitionHtml": "شِفاء shifāʾ [n./v. n.] cure, remedy; curing, healing <br><br>(17:82) وَنُنَزِّلُ مِنَ الْقُرْءَانِ مَا هُوَ شِفَاءٌ وَرَحْمَةٌ لِلْمُؤْمِنِينَ We send down the Qur’an (or, parts of the Qur’an) as healing and mercy to those who believe.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:34.150Z",
+      "refword": "9:14:8",
+      "lexword": "وَيَشْفِ"
+    }
+  }
+}

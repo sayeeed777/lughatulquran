@@ -1,0 +1,173 @@
+{
+  "root": "ربط",
+  "rootArabic": "ربط",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "رَبَطَ",
+      "count": 3
+    },
+    {
+      "form": "رَابَطَ",
+      "count": 1
+    },
+    {
+      "form": "رِبَاطٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَابَطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رِبَاطٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "رَبَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 200,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱصْبِرُوا۟ وَصَابِرُوا۟ وَرَابِطُوا۟ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱصْبِرُوا۟ وَصَابِرُوا۟ <a class=\"highlight-text\">وَرَابِطُوا۟</a> وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "رَابَطَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 11,
+      "text": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "highlightedHtml": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ <a class=\"highlight-text\">وَلِيَرْبِطَ</a> عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "derivedForms": [
+        "رَبَطَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 60,
+      "text": "وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍ قُوَّةٍ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَآخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
+      "highlightedHtml": "وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍ قُوَّةٍ وَمِن <a class=\"highlight-text\">رِّبَاطِ</a> ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَآخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
+      "derivedForms": [
+        "رِبَاطٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 14,
+      "text": "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا شَطَطًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَرَبَطْنَا</a> عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا شَطَطًا",
+      "derivedForms": [
+        "رَبَطَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 10,
+      "text": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَٰرِغًا ۖ إِن كَادَتْ لَتُبْدِى بِهِۦ لَوْلَآ أَن رَّبَطْنَا عَلَىٰ قَلْبِهَا لِتَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَأَصْبَحَ فُؤَادُ أُمِّ مُوسَىٰ فَٰرِغًا ۖ إِن كَادَتْ لَتُبْدِى بِهِۦ لَوْلَآ أَن <a class=\"highlight-text\">رَّبَطْنَا</a> عَلَىٰ قَلْبِهَا لِتَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "رَبَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:59.928Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form III) imperative verb",
+    "derivativeNote": "وَرَابِطُوا۟ is in the derivative form: رَابَطَ",
+    "rootDefinitionHtml": "ر/ب/ط   r–b–ṭ to tie, to tie up, to connect, to unite<br>; to station, garrison; to line up, (of an army) to take up a position; to conclude an agreement; a band, fetters, shackles; a place where animals, particularly horses, are kept, stables. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> رَبَطَ rabaṭa 3 times; رَابَطَ rābaṭa 1 time and رِبَاطٌ ribāṭ 1 time.",
+    "mainDefinitionHtml": "رَابَطَ rābaṭa [v. III, intrans.] to be constant, to be steadfast, to participate in the defence of the land, to man the garrisons <br><br>(3:200) يَاأَيُّهَا الَّذِينَ ءَامَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا you who believe, become steadfast and remain steadfast, be on call [to defend] [also interpreted as: fortify yourselves].",
+    "mainEntryId": "wdef-ر-ب-ط.رَابَطَ",
+    "entries": [
+      {
+        "id": "wdef-ر-ب-ط",
+        "label": "ر-ب-ط",
+        "definitionHtml": "ر/ب/ط   r–b–ṭ to tie, to tie up, to connect, to unite<br>; to station, garrison; to line up, (of an army) to take up a position; to conclude an agreement; a band, fetters, shackles; a place where animals, particularly horses, are kept, stables. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> رَبَطَ rabaṭa 3 times; رَابَطَ rābaṭa 1 time and رِبَاطٌ ribāṭ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-ط.رَابَطَ",
+        "label": "رَابَطَ",
+        "definitionHtml": "رَابَطَ rābaṭa [v. III, intrans.] to be constant, to be steadfast, to participate in the defence of the land, to man the garrisons <br><br>(3:200) يَاأَيُّهَا الَّذِينَ ءَامَنُوا اصْبِرُوا وَصَابِرُوا وَرَابِطُوا you who believe, become steadfast and remain steadfast, be on call [to defend] [also interpreted as: fortify yourselves].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ب-ط.رَبَطَ",
+        "label": "رَبَطَ",
+        "definitionHtml": "رَبَطَ rabaṭa i [v., trans. with prep. عَلَى] to strengthen, to fortify *<br><br>(18:14) وَرَبَطْنَا عَلَى قُلُوبِهِمْ We gave strength to their hearts, We strengthened their determination [lit. We tied up their hearts].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-ط.رِبَاطٌ",
+        "label": "رِبَاطٌ",
+        "definitionHtml": "رِبَاطٌ ribāṭ [v. n.; n.] tethering, tying up; stationing, keeping ready *<br><br>(8:60) رِبَاطِ الْخَيْلِ [tethered horses, horse enclosures] horses specifically kept for defence, warhorses.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:15.566Z",
+      "refword": "3:200:6",
+      "lexword": "وَرَابِطُوا۟"
+    }
+  }
+}

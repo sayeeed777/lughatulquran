@@ -1,0 +1,415 @@
+{
+  "root": "ركب",
+  "rootArabic": "ركب",
+  "stats": {
+    "totalOccurrences": 15,
+    "derivativeCount": 7,
+    "surahCount": 13,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "رَكِبَ",
+      "count": 9
+    },
+    {
+      "form": "رِكَابٌ",
+      "count": 1
+    },
+    {
+      "form": "رَكَّبَ",
+      "count": 1
+    },
+    {
+      "form": "رَكْبٌ",
+      "count": 1
+    },
+    {
+      "form": "رُكْبَانٌ",
+      "count": 1
+    },
+    {
+      "form": "رَكُوبٌ",
+      "count": 1
+    },
+    {
+      "form": "مُتَرَاكِبٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُكْبَانٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَرَاكِبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكْبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "رَكُوبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رِكَابٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكَّبَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَكِبَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 239,
+      "text": "فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ",
+      "highlightedHtml": "فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ <a class=\"highlight-text\">رُكْبَانًا</a> ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ",
+      "derivedForms": [
+        "رُكْبَانٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 99,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا <a class=\"highlight-text\">مُّتَرَاكِبًا</a> وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "مُتَرَاكِبٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 42,
+      "text": "إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ وَٱلرَّكْبُ أَسْفَلَ مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَٰدِ ۙ وَلَٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ <a class=\"highlight-text\">وَٱلرَّكْبُ</a> أَسْفَلَ مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَٰدِ ۙ وَلَٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "رَكْبٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 41,
+      "text": "وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَقَالَ <a class=\"highlight-text\">ٱرْكَبُوا۟</a> فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 42,
+      "text": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ <a class=\"highlight-text\">ٱرْكَب</a> مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 8,
+      "text": "وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ لِتَرْكَبُوهَا وَزِينَةً ۚ وَيَخْلُقُ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ <a class=\"highlight-text\">لِتَرْكَبُوهَا</a> وَزِينَةً ۚ وَيَخْلُقُ مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 71,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا <a class=\"highlight-text\">رَكِبَا</a> فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 65,
+      "text": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">رَكِبُوا۟</a> فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 42,
+      "text": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
+      "highlightedHtml": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا <a class=\"highlight-text\">يَرْكَبُونَ</a>",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 72,
+      "text": "وَذَلَّلْنَٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+      "highlightedHtml": "وَذَلَّلْنَٰهَا لَهُمْ فَمِنْهَا <a class=\"highlight-text\">رَكُوبُهُمْ</a> وَمِنْهَا يَأْكُلُونَ",
+      "derivedForms": [
+        "رَكُوبٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 79,
+      "text": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَٰمَ لِتَرْكَبُوا۟ مِنْهَا وَمِنْهَا تَأْكُلُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَنْعَٰمَ <a class=\"highlight-text\">لِتَرْكَبُوا۟</a> مِنْهَا وَمِنْهَا تَأْكُلُونَ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 12,
+      "text": "وَٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَٰمِ مَا تَرْكَبُونَ",
+      "highlightedHtml": "وَٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَٰمِ مَا <a class=\"highlight-text\">تَرْكَبُونَ</a>",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 6,
+      "text": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا <a class=\"highlight-text\">رِكَابٍ</a> وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "رِكَابٌ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 8,
+      "text": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
+      "highlightedHtml": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ <a class=\"highlight-text\">رَكَّبَكَ</a>",
+      "derivedForms": [
+        "رَكَّبَ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 19,
+      "text": "لَتَرْكَبُنَّ طَبَقًا عَن طَبَقٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">لَتَرْكَبُنَّ</a> طَبَقًا عَن طَبَقٍ",
+      "derivedForms": [
+        "رَكِبَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:40.145Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural indefinite noun",
+    "derivativeNote": "رُكْبَانًا is in the derivative form: رُكْبَانٌ",
+    "rootDefinitionHtml": "ر/ك/ب r–k–b mount, to mount, to ride, to board, a travelling group, caravan, boat<br>; to accumulate, to stack up; complex; to commit; knee, to injure one’s knee. <br><br>Of this root, 7 forms occur 15 times in the Qur’an:<br> رَكِبَ rakiba 9 times; رَكَّّبَ rakkaba 1 time; مُتَرَاكِبٌ mutarākib 1 time; رَكْبٌ rakb 1 time; رُكْبَانٌ rukbān 1 time; رِكَابٌ rikāb 1 time and رَكُوبٌ rakūb 1 time.",
+    "mainDefinitionHtml": "رُكْبَانٌ rukbān [pl. of coll. n. رَكْبٌ rakb/pl. of quasi‐act. part. رَاكِب rākib] riders, riding, being on a camel or horseback <br><br>(2:239) فَإِنْ خِفْتُمْ فَرِجَالا أَوْ رُكْبَانًا if you are in a state of fear [from an enemy], then [pray] on foot or while riding.",
+    "mainEntryId": "wdef-ر-ك-ب.رُكْبَانٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ك-ب",
+        "label": "ر-ك-ب",
+        "definitionHtml": "ر/ك/ب r–k–b mount, to mount, to ride, to board, a travelling group, caravan, boat<br>; to accumulate, to stack up; complex; to commit; knee, to injure one’s knee. <br><br>Of this root, 7 forms occur 15 times in the Qur’an:<br> رَكِبَ rakiba 9 times; رَكَّّبَ rakkaba 1 time; مُتَرَاكِبٌ mutarākib 1 time; رَكْبٌ rakb 1 time; رُكْبَانٌ rukbān 1 time; رِكَابٌ rikāb 1 time and رَكُوبٌ rakūb 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.رُكْبَانٌ",
+        "label": "رُكْبَانٌ",
+        "definitionHtml": "رُكْبَانٌ rukbān [pl. of coll. n. رَكْبٌ rakb/pl. of quasi‐act. part. رَاكِب rākib] riders, riding, being on a camel or horseback <br><br>(2:239) فَإِنْ خِفْتُمْ فَرِجَالا أَوْ رُكْبَانًا if you are in a state of fear [from an enemy], then [pray] on foot or while riding.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ك-ب.رَكُوبٌ",
+        "label": "رَكُوبٌ",
+        "definitionHtml": "رَكُوبٌ rakūb [quasi‐pass. part. used collectively] riding animals <br><br>(36:72) وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ and We made them [the animals] manageable for them [humankind], so that from them they might [obtain] riding mounts, and from them they might obtain food.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.رَكِبَ",
+        "label": "رَكِبَ",
+        "definitionHtml": "رَكِبَ rakiba a [v., trans.] <br><br><strong>1 </strong>to mount, to ride <br><br>(40:79) اللَّهُ الَّذِي جَعَلَ لَكُمُ الأَنْعَامَ لِتَرْكَبُوا مِنْهَا وَمِنْهَا تَأْكُلُونَ God it is who provides livestock for you, that you might aquire riding mounts from them, and you might–from them–obtain food <br><br><strong>2 </strong>to board <br><br>(18:71) فَانْطَلَقَا حَتَّى إِذَا رَكِبَا فِى السَّفِينَةِ خَرَقَهَا so they proceeded until they boarded the boat, and he made a hole in it <br><br><strong>3 </strong>to progress, to move on/upward <br><br>(84:19) لَتَرْكَبُنَّ طَبَقًا عَنْ طَبَقٍ you will progress, one stage after another.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.رَكَّبَ",
+        "label": "رَكَّبَ",
+        "definitionHtml": "رَكَّبَ rakkaba [v. II, trans.] to compose, to put together <br><br>(82:8) فِي أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ in whatever form He chooses, He composes you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.رَكْبٌ",
+        "label": "رَكْبٌ",
+        "definitionHtml": "رَكْبٌ rakb [coll. n.] travelling party, group of travelling camel‐riders, caravan <br><br>(8:42) إِذْ أَنْتُمْ بِالْعُدْوَةِ الدُّنْيَا وَهُمْ بِالْعُدْوَةِ الْقُصْوَى وَالرَّكْبُ أَسْفَلَ مِنْكُمْ [remember] when you were on the near side [of the valley], and they were on the far side, and the caravan was below you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.رِكَابٌ",
+        "label": "رِكَابٌ",
+        "definitionHtml": "رِكَابٌ rikāb [coll. n.] mounts, particularly camels <br><br>(59:6) وَمَا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ مِنْهُمْ فَمَا أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلاَ رِكَابٍ whatever God gave as spoils to His Messenger from them [his opponents], [are those for which] you did not have [in the course of capturing them] to spur on [also: you did not have to fight] horses or [other] mounts.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ب.مُتَرَاكِبٌ",
+        "label": "مُتَرَاكِبٌ",
+        "definitionHtml": "مُتَرَاكِبٌ mutarākib [act. part. of v. VI تَرَاكَبَ tarākaba] to stack up on top of one another, to cluster, to be in rows <br><br>(6:99) فَأَخْرَجْنَا بِهِ نَبَاتَ كُلِّ شَيْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُخْرِجُ مِنْهُ حَبًّا مُتَرَاكِبًا then with it We produce the shoots of everything [every plant], then from it We bring forth vegetation, from which We produce grains in close‐stacked rows.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:27.133Z",
+      "refword": "2:239:5",
+      "lexword": "رُكْبَانًا"
+    }
+  }
+}

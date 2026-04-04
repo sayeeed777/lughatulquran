@@ -1,0 +1,345 @@
+{
+  "root": "زعم",
+  "rootArabic": "زعم",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 3,
+    "surahCount": 10,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "زَعَمَ",
+      "count": 13
+    },
+    {
+      "form": "زَعْم",
+      "count": 2
+    },
+    {
+      "form": "زَعيم",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 3,
+          "totalInQuran": 13
+        },
+        {
+          "form": "زَعْم",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعيم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعَمَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَعيم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 60,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًا",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ <a class=\"highlight-text\">يَزْعُمُونَ</a> أَنَّهُمْ آمَنُوا بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًا",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 22,
+      "text": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ <a class=\"highlight-text\">تَزْعُمُونَ</a>",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 94,
+      "text": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ <a class=\"highlight-text\">زَعَمْتُمْ</a> أَنَّهُمْ فِيكُمْ شُرَكَٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ <a class=\"highlight-text\">تَزْعُمُونَ</a>",
+      "derivedForms": [
+        "زَعَمَ",
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 136,
+      "text": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ <a class=\"highlight-text\">بِزَعْمِهِمْ</a> وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "derivedForms": [
+        "زَعْم"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 138,
+      "text": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ <a class=\"highlight-text\">بِزَعْمِهِمْ</a> وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "زَعْم"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 72,
+      "text": "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ زَعِيمٌ",
+      "highlightedHtml": "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ <a class=\"highlight-text\">زَعِيمٌ</a>",
+      "derivedForms": [
+        "زَعيم"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 56,
+      "text": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ <a class=\"highlight-text\">زَعَمْتُم</a> مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 92,
+      "text": "أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا",
+      "highlightedHtml": "أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا <a class=\"highlight-text\">زَعَمْتَ</a> عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 48,
+      "text": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "highlightedHtml": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ <a class=\"highlight-text\">زَعَمْتُمْ</a> أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 52,
+      "text": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا",
+      "highlightedHtml": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ <a class=\"highlight-text\">زَعَمْتُمْ</a> فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 62,
+      "text": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ <a class=\"highlight-text\">تَزْعُمُونَ</a>",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 74,
+      "text": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ <a class=\"highlight-text\">تَزْعُمُونَ</a>",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 22,
+      "text": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ <a class=\"highlight-text\">زَعَمْتُم</a> مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 6,
+      "text": "قُلْ يَٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓا۟ إِن زَعَمْتُمْ أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ يَٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓا۟ إِن <a class=\"highlight-text\">زَعَمْتُمْ</a> أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 7,
+      "text": "زَعَمَ ٱلَّذِينَ كَفَرُوٓا۟ أَن لَّن يُبْعَثُوا۟ ۚ قُلْ بَلَىٰ وَرَبِّى لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ ۚ وَذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">زَعَمَ</a> ٱلَّذِينَ كَفَرُوٓا۟ أَن لَّن يُبْعَثُوا۟ ۚ قُلْ بَلَىٰ وَرَبِّى لَتُبْعَثُنَّ ثُمَّ لَتُنَبَّؤُنَّ بِمَا عَمِلْتُمْ ۚ وَذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "زَعَمَ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 40,
+      "text": "سَلْهُمْ أَيُّهُم بِذَٰلِكَ زَعِيمٌ",
+      "highlightedHtml": "سَلْهُمْ أَيُّهُم بِذَٰلِكَ <a class=\"highlight-text\">زَعِيمٌ</a>",
+      "derivedForms": [
+        "زَعيم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:04.587Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَزْعُمُونَ is in the derivative form: زَعَمَ",
+    "rootDefinitionHtml": "ز/ع/م   z–ʿ–m to claim, to allege<br>; to undertake, to be leader, to lead, leadership. <br><br>Of this root, 3 forms occur in 17 places in the Qur’an:<br> زَعَمَ zaʿama 13 times; زَعْم zaʿm 2 times and زَعيم zaʿīm 2 times.",
+    "mainDefinitionHtml": "زَعَمَ zaʿama u [v. trans.] <br><br><strong>1 </strong>to claim, to allege <br><br>(4:60) أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ يُرِيدُونَ أَنْ يَتَحَاكَمُوا إِلَى الطَّاغُوتِ have you not considered those who claim (or, allege) to believe in what has been sent down to you, and in what has been sent down before you, desiring to turn for judgement to idols? <br><br><strong>2 </strong>to conjecture, to invent <br><br>(17:56) قُلِ ادْعُوا الَّذِينَ زَعَمْتُمْ مِنْ دُونِهِ say, ‘Call upon those you invent [as deities] instead of Him.’",
+    "mainEntryId": "wdef-ز-ع-م.زَعَمَ",
+    "entries": [
+      {
+        "id": "wdef-ز-ع-م",
+        "label": "ز-ع-م",
+        "definitionHtml": "ز/ع/م   z–ʿ–m to claim, to allege<br>; to undertake, to be leader, to lead, leadership. <br><br>Of this root, 3 forms occur in 17 places in the Qur’an:<br> زَعَمَ zaʿama 13 times; زَعْم zaʿm 2 times and زَعيم zaʿīm 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ع-م.زَعَمَ",
+        "label": "زَعَمَ",
+        "definitionHtml": "زَعَمَ zaʿama u [v. trans.] <br><br><strong>1 </strong>to claim, to allege <br><br>(4:60) أَلَمْ تَرَ إِلَى الَّذِينَ يَزْعُمُونَ أَنَّهُمْ ءَامَنُوا بِمَا أُنْزِلَ إِلَيْكَ وَمَا أُنْزِلَ مِنْ قَبْلِكَ يُرِيدُونَ أَنْ يَتَحَاكَمُوا إِلَى الطَّاغُوتِ have you not considered those who claim (or, allege) to believe in what has been sent down to you, and in what has been sent down before you, desiring to turn for judgement to idols? <br><br><strong>2 </strong>to conjecture, to invent <br><br>(17:56) قُلِ ادْعُوا الَّذِينَ زَعَمْتُمْ مِنْ دُونِهِ say, ‘Call upon those you invent [as deities] instead of Him.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ع-م.زَعيم",
+        "label": "زَعيم",
+        "definitionHtml": "زَعيم zaʿīm [act. part.] leader, one who is responsible, one in charge, guarantor <br><br>(12:72) قَالُوا نَفْقِدُ صُوَاعَ الْمَلِكِ وَلِمَنْ جَاءَ بِهِ حِمْلُ بَعِيرٍ وَأَنَا بِهِ زَعِيمٌ they said, ‘We are missing the king’s cup and for whoever returns it there will be a camel‐load, and I am the guarantor of that.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ع-م.زَعْم",
+        "label": "زَعْم",
+        "definitionHtml": "زَعْم zaʿm [v. n.] claim <br><br>(6:138) وَقَالُوا هَذِهِ أَنْعَامٌ وَحَرْثٌ حِجْرٌ لاَ يَطْعَمُهَا إِلاَّ مَنْ نَشَاءُ بِزَعْمِهِمْ they [also] say, ‘These are sacrosanct cattle and tillage [crops]; none but those we wish may eat them’–so they claim!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:14.609Z",
+      "refword": "4:60:5",
+      "lexword": "يَزْعُمُونَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "غبن",
+  "rootArabic": "غبن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَغابُن",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَغابُن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 64,
+      "ayah": 9,
+      "text": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ ٱلتَّغَابُنِ ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "highlightedHtml": "يَوْمَ يَجْمَعُكُمْ لِيَوْمِ ٱلْجَمْعِ ۖ ذَٰلِكَ يَوْمُ <a class=\"highlight-text\">ٱلتَّغَابُنِ</a> ۗ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَٰلِحًا يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "تَغابُن"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:46.994Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form VI) verbal noun",
+    "derivativeNote": "ٱلتَّغَابُنِ is in the derivative form: تَغابُن",
+    "rootDefinitionHtml": "غ/ب/ن   gh–b–n to forget, to be lacking in judgement; to weaken, to deceive. Of this root, only تَغابُن taghābun occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَغابُن taghābun [v. n. of v.VII تَغَابَنَ taghābana] attempting to deceive one another, running each other down, bickering, outdoing one another, mutual forgetfulness/neglect *<br><br>(64:9) يَوم التَغابُن Day of Judgement [lit. the day of bickering, or, of mutual neglect]; * التَغابُنname of Sura 64, Meccan sura, so‐named because of the reference in verse <br><br><strong>9 </strong>to the ‘Day of Judgement.’",
+    "mainEntryId": "wdef-غ-ب-ن.تَغابُن",
+    "entries": [
+      {
+        "id": "wdef-غ-ب-ن",
+        "label": "غ-ب-ن",
+        "definitionHtml": "غ/ب/ن   gh–b–n to forget, to be lacking in judgement; to weaken, to deceive. Of this root, only تَغابُن taghābun occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ب-ن.تَغابُن",
+        "label": "تَغابُن",
+        "definitionHtml": "تَغابُن taghābun [v. n. of v.VII تَغَابَنَ taghābana] attempting to deceive one another, running each other down, bickering, outdoing one another, mutual forgetfulness/neglect *<br><br>(64:9) يَوم التَغابُن Day of Judgement [lit. the day of bickering, or, of mutual neglect]; * التَغابُنname of Sura 64, Meccan sura, so‐named because of the reference in verse <br><br><strong>9 </strong>to the ‘Day of Judgement.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:12.706Z",
+      "refword": "64:9:7",
+      "lexword": "ٱلتَّغَابُنِ"
+    }
+  }
+}

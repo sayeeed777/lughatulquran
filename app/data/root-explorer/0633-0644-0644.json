@@ -1,0 +1,127 @@
+{
+  "root": "سلل",
+  "rootArabic": "سلل",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "سُلالةٌ",
+      "count": 2
+    },
+    {
+      "form": "يَتَسَلَّلون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُلالةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَسَلَّلون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُلالةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 12,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن سُلَٰلَةٍ مِّن طِينٍ",
+      "highlightedHtml": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن <a class=\"highlight-text\">سُلَٰلَةٍ</a> مِّن طِينٍ",
+      "derivedForms": [
+        "سُلالةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 63,
+      "text": "لَّا تَجْعَلُوا۟ دُعَآءَ ٱلرَّسُولِ بَيْنَكُمْ كَدُعَآءِ بَعْضِكُم بَعْضًا ۚ قَدْ يَعْلَمُ ٱللَّهُ ٱلَّذِينَ يَتَسَلَّلُونَ مِنكُمْ لِوَاذًا ۚ فَلْيَحْذَرِ ٱلَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِۦٓ أَن تُصِيبَهُمْ فِتْنَةٌ أَوْ يُصِيبَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "لَّا تَجْعَلُوا۟ دُعَآءَ ٱلرَّسُولِ بَيْنَكُمْ كَدُعَآءِ بَعْضِكُم بَعْضًا ۚ قَدْ يَعْلَمُ ٱللَّهُ ٱلَّذِينَ <a class=\"highlight-text\">يَتَسَلَّلُونَ</a> مِنكُمْ لِوَاذًا ۚ فَلْيَحْذَرِ ٱلَّذِينَ يُخَالِفُونَ عَنْ أَمْرِهِۦٓ أَن تُصِيبَهُمْ فِتْنَةٌ أَوْ يُصِيبَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "يَتَسَلَّلون"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 8,
+      "text": "ثُمَّ جَعَلَ نَسْلَهُۥ مِن سُلَٰلَةٍ مِّن مَّآءٍ مَّهِينٍ",
+      "highlightedHtml": "ثُمَّ جَعَلَ نَسْلَهُۥ مِن <a class=\"highlight-text\">سُلَٰلَةٍ</a> مِّن مَّآءٍ مَّهِينٍ",
+      "derivedForms": [
+        "سُلالةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:21.068Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite noun",
+    "derivativeNote": "سُلَٰلَةٍ is in the derivative form: سُلالةٌ",
+    "rootDefinitionHtml": "س/ل/ل   s–l–l to extract gently and unobtrusively, to pull out strands of wool; pedigree, breed; to move about stealthily. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَتَسَلَّلون yatasallalūn 1 time andسُلالةٌ sulālatun 2 times.",
+    "mainDefinitionHtml": "سُلالةٌ sulālatun [n.] extract, essence, strain, stock <br><br>(23:12) وَلَقَدْ خَلَقْنَا الإِنْسَانَ مِنْ سُلاَلَةٍ مِنْ طِينٍ indeed, We created man from a stock of clay.",
+    "mainEntryId": "wdef-س-ل-ل.سُلالةٌ",
+    "entries": [
+      {
+        "id": "wdef-س-ل-ل",
+        "label": "س-ل-ل",
+        "definitionHtml": "س/ل/ل   s–l–l to extract gently and unobtrusively, to pull out strands of wool; pedigree, breed; to move about stealthily. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَتَسَلَّلون yatasallalūn 1 time andسُلالةٌ sulālatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ل-ل.سُلالةٌ",
+        "label": "سُلالةٌ",
+        "definitionHtml": "سُلالةٌ sulālatun [n.] extract, essence, strain, stock <br><br>(23:12) وَلَقَدْ خَلَقْنَا الإِنْسَانَ مِنْ سُلاَلَةٍ مِنْ طِينٍ indeed, We created man from a stock of clay.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ل-ل.يَتَسَلَّلون",
+        "label": "يَتَسَلَّلون",
+        "definitionHtml": "يَتَسَلَّلون yatasallalūn [imperf. of v. V, intrans.] to steal away, to move about stealthily <br><br>(24:63) قَدْ يَعْلَمُ اللَّهُ الَّذِينَ يَتَسَلَّلُونَ مِنْكُمْ لِوَاذًا God is well aware of those of you who steal away surreptitiously.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:48.977Z",
+      "refword": "23:12:5",
+      "lexword": "سُلَٰلَةٍ"
+    }
+  }
+}

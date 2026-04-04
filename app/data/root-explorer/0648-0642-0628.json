@@ -1,0 +1,74 @@
+{
+  "root": "وقب",
+  "rootArabic": "وقب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "وَقَبَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَبَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 113,
+      "ayah": 3,
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "highlightedHtml": "وَمِن شَرِّ غَاسِقٍ إِذَا <a class=\"highlight-text\">وَقَبَ</a>",
+      "derivedForms": [
+        "وَقَبَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:39.913Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَقَبَ is in the derivative form: وَقَبَ",
+    "rootDefinitionHtml": "و/ق/ب   w–q–b holes in the rock where rainwater collects; foolish person; heavy drinker; to sink in, to subside; to disappear, to darken. Of this root, وَقَبَ waqaba, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَقَبَ waqaba i [v. intrans.] to enter, to cover with darkness, to prevail <br><br>(113:3) وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ and of the evil of the dark night [also interpreted as: darkness, the moon, or the Pleiades] when it prevails.",
+    "mainEntryId": "wdef-و-ق-ب.وَقَبَ",
+    "entries": [
+      {
+        "id": "wdef-و-ق-ب",
+        "label": "و-ق-ب",
+        "definitionHtml": "و/ق/ب   w–q–b holes in the rock where rainwater collects; foolish person; heavy drinker; to sink in, to subside; to disappear, to darken. Of this root, وَقَبَ waqaba, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ب.وَقَبَ",
+        "label": "وَقَبَ",
+        "definitionHtml": "وَقَبَ waqaba i [v. intrans.] to enter, to cover with darkness, to prevail <br><br>(113:3) وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ and of the evil of the dark night [also interpreted as: darkness, the moon, or the Pleiades] when it prevails.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:23.729Z",
+      "refword": "113:3:5",
+      "lexword": "وَقَبَ"
+    }
+  }
+}

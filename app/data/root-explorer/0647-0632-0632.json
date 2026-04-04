@@ -1,0 +1,169 @@
+{
+  "root": "هزز",
+  "rootArabic": "هزز",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "اهْتَزَّ",
+      "count": 4
+    },
+    {
+      "form": "هُزِّي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هُزِّي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اهْتَزَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اهْتَزَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اهْتَزَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اهْتَزَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 19,
+      "ayah": 25,
+      "text": "وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَهُزِّىٓ</a> إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا",
+      "derivedForms": [
+        "هُزِّي"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ <a class=\"highlight-text\">ٱهْتَزَّتْ</a> وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "اهْتَزَّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 10,
+      "text": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ",
+      "highlightedHtml": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا <a class=\"highlight-text\">تَهْتَزُّ</a> كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ",
+      "derivedForms": [
+        "اهْتَزَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 31,
+      "text": "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْءَامِنِينَ",
+      "highlightedHtml": "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا <a class=\"highlight-text\">تَهْتَزُّ</a> كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْءَامِنِينَ",
+      "derivedForms": [
+        "اهْتَزَّ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 39,
+      "text": "وَمِنْ آيَاتِهِ أَنَّكَ تَرَى ٱلْأَرْضَ خَٰشِعَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَنَّكَ تَرَى ٱلْأَرْضَ خَٰشِعَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ <a class=\"highlight-text\">ٱهْتَزَّتْ</a> وَرَبَتْ ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "اهْتَزَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:31.933Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person feminine singular imperative verb",
+    "derivativeNote": "وَهُزِّىٓ is in the derivative form: هُزِّي",
+    "rootDefinitionHtml": "هـ/ز/ز   h–z–z shaking, vibrating, to swing; to walk briskly, (of God) to bring forth plants, (of barren land) to become alive; rumbling, quivering, trembling, commotion, movement. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br>هُزِّي huzzı 1 time and اهْتَزَّ ʾihtazza 4 times.",
+    "mainDefinitionHtml": "هُزِّي huzzı [fem. imper. of v. هَزَّ hazza, trans.] shake, rattle <br><br>(19:25) وَهُزِّي إِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسَاقِطْ عَلَيْكِ رُطَبًا جَنِيًّا and shake the trunk of the palm tree towards you, it will drop ripe dates upon you.",
+    "mainEntryId": "wdef-هـ-ز-ز.هُزِّي",
+    "entries": [
+      {
+        "id": "wdef-هـ-ز-ز",
+        "label": "هـ-ز-ز",
+        "definitionHtml": "هـ/ز/ز   h–z–z shaking, vibrating, to swing; to walk briskly, (of God) to bring forth plants, (of barren land) to become alive; rumbling, quivering, trembling, commotion, movement. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br>هُزِّي huzzı 1 time and اهْتَزَّ ʾihtazza 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ز-ز.هُزِّي",
+        "label": "هُزِّي",
+        "definitionHtml": "هُزِّي huzzı [fem. imper. of v. هَزَّ hazza, trans.] shake, rattle <br><br>(19:25) وَهُزِّي إِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسَاقِطْ عَلَيْكِ رُطَبًا جَنِيًّا and shake the trunk of the palm tree towards you, it will drop ripe dates upon you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-هـ-ز-ز.اهْتَزَّ",
+        "label": "اهْتَزَّ",
+        "definitionHtml": "اهْتَزَّ ʾihtazza [v. VIII, intrans.] <br><br><strong>1 </strong>to shake, to quiver <br><br>(28:31) وَأَنْ أَلْقِ عَصَاكَ فَلَمَّا رَآهَا تَهْتَزُّ كَأَنَّهَا جَانٌّ وَلَّى مُدْبِرًا ‘And throw down your staff!’–when he saw it quivering like a snake/demon, he turned and ran away <br><br><strong>2 </strong>to come to life, to stir, to perk up <br><br>(22:5) وَتَرَى الأَرْضَ هَامِدَةً فَإِذَا أَنْزَلْنَا عَلَيْهَا الْمَاءَ اهْتَزَّتْ وَرَبَتْ وَأَنْبَتَتْ مِنْ كُلِّ زَوْجٍ بَهِيجٍ you perceive the earth lifeless, yet when We send down upon it water, it stirs and swells and puts forth vegetation of every joyous kind.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:08.547Z",
+      "refword": "19:25:1",
+      "lexword": "وَهُزِّىٓ"
+    }
+  }
+}

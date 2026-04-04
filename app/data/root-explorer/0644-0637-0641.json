@@ -1,0 +1,243 @@
+{
+  "root": "لطف",
+  "rootArabic": "لطف",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "لَطِيف",
+      "count": 5
+    },
+    {
+      "form": "اللَطِيف",
+      "count": 2
+    },
+    {
+      "form": "يَتَلَطََّف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اللَطِيف",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَطِيف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَلَطََّف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَطِيف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَطِيف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَطِيف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَطِيف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اللَطِيف",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 103,
+      "text": "لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ ۖ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+      "highlightedHtml": "لَّا تُدْرِكُهُ ٱلْأَبْصَٰرُ وَهُوَ يُدْرِكُ ٱلْأَبْصَٰرَ ۖ وَهُوَ <a class=\"highlight-text\">ٱللَّطِيفُ</a> ٱلْخَبِيرُ",
+      "derivedForms": [
+        "اللَطِيف"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 100,
+      "text": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "highlightedHtml": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى <a class=\"highlight-text\">لَطِيفٌ</a> لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "لَطِيف"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 19,
+      "text": "وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ يُشْعِرَنَّ بِكُمْ أَحَدًا",
+      "highlightedHtml": "وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ <a class=\"highlight-text\">وَلْيَتَلَطَّفْ</a> وَلَا يُشْعِرَنَّ يُشْعِرَنَّ بِكُمْ أَحَدًا",
+      "derivedForms": [
+        "يَتَلَطََّف"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 63,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَتُصْبِحُ ٱلْأَرْضُ مُخْضَرَّةً ۗ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَتُصْبِحُ ٱلْأَرْضُ مُخْضَرَّةً ۗ إِنَّ ٱللَّهَ <a class=\"highlight-text\">لَطِيفٌ</a> خَبِيرٌ",
+      "derivedForms": [
+        "لَطِيف"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 16,
+      "text": "يَٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
+      "highlightedHtml": "يَٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ <a class=\"highlight-text\">لَطِيفٌ</a> خَبِيرٌ",
+      "derivedForms": [
+        "لَطِيف"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 34,
+      "text": "وَٱذْكُرْنَ مَا يُتْلَىٰ فِى بُيُوتِكُنَّ مِنْ آيَاتِ ٱللَّهِ وَٱلْحِكْمَةِ ۚ إِنَّ ٱللَّهَ كَانَ لَطِيفًا خَبِيرًا",
+      "highlightedHtml": "وَٱذْكُرْنَ مَا يُتْلَىٰ فِى بُيُوتِكُنَّ مِنْ آيَاتِ ٱللَّهِ وَٱلْحِكْمَةِ ۚ إِنَّ ٱللَّهَ كَانَ <a class=\"highlight-text\">لَطِيفًا</a> خَبِيرًا",
+      "derivedForms": [
+        "لَطِيف"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 19,
+      "text": "ٱللَّهُ لَطِيفٌۢ بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+      "highlightedHtml": "ٱللَّهُ <a class=\"highlight-text\">لَطِيفٌۢ</a> بِعِبَادِهِۦ يَرْزُقُ مَن يَشَآءُ ۖ وَهُوَ ٱلْقَوِىُّ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+      "derivedForms": [
+        "لَطِيف"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 14,
+      "text": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+      "highlightedHtml": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ <a class=\"highlight-text\">ٱللَّطِيفُ</a> ٱلْخَبِيرُ",
+      "derivedForms": [
+        "اللَطِيف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:30.509Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine singular noun",
+    "derivativeNote": "ٱللَّطِيفُ is in the derivative form: اللَطِيف",
+    "rootDefinitionHtml": "ل/ط/ف   l–ṭ–f gentleness, benevolence, to be amiable, to be courteous, to be merciful, to be thin; to alleviate, to caress, to be obscure in meaning; discreetly. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br>يَتَلَطََّف yatalaṭṭaf 1 time and لَطِيف laṭıf 7 times.",
+    "mainDefinitionHtml": "اللَطِيف ʾal‐laṭıf [an attribute of God], One who encompasses all subtleties, Most Discerning <br><br>(67:14) أَلاَ‏ ‏يَعْلَمُ‏ ‏مَنْ‏ ‏خَلَقَ‏ ‏وَهُوَ اللَّطِيفُ‏ ‏الْخَبِيرُ‏ would He not know whom He has created?–when He is the Most Subtle, the All‐Aware!",
+    "mainEntryId": "wdef-ل-ط-ف.اللَطِيف",
+    "entries": [
+      {
+        "id": "wdef-ل-ط-ف",
+        "label": "ل-ط-ف",
+        "definitionHtml": "ل/ط/ف   l–ṭ–f gentleness, benevolence, to be amiable, to be courteous, to be merciful, to be thin; to alleviate, to caress, to be obscure in meaning; discreetly. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br>يَتَلَطََّف yatalaṭṭaf 1 time and لَطِيف laṭıf 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ط-ف.اللَطِيف",
+        "label": "اللَطِيف",
+        "definitionHtml": "اللَطِيف ʾal‐laṭıf [an attribute of God], One who encompasses all subtleties, Most Discerning <br><br>(67:14) أَلاَ‏ ‏يَعْلَمُ‏ ‏مَنْ‏ ‏خَلَقَ‏ ‏وَهُوَ اللَّطِيفُ‏ ‏الْخَبِيرُ‏ would He not know whom He has created?–when He is the Most Subtle, the All‐Aware!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ط-ف.لَطِيف",
+        "label": "لَطِيف",
+        "definitionHtml": "لَطِيف laṭıf [intens. act. part.] most benign, most subtle, most discerning <br><br>(42:19) اللَّهُ‏ ‏لَطِيفٌ‏ ‏بِعِبَادِهِ‏ ‏يَرْزُقُ‏ ‏مَنْ يَشَاءُ‏ ‏وَهُوَ‏ ‏الْقَوِيُّ‏ ‏الْعَزِيزُ God is most subtle towards His creatures; He provides for whomever He will; He is the Powerful, the Almighty.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ط-ف.يَتَلَطََّف",
+        "label": "يَتَلَطََّف",
+        "definitionHtml": "يَتَلَطََّف yatalaṭṭaf [imperf. of v. V intrans.] to do stealthily, to act carefully, to do discreetly, to do unobtrusively, to act in an easy manner <br><br>(18:19) ‏‏وَلْيَتَلَطَّفْ‏ ‏وَلاَ‏ ‏يُشْعِرَنَّ‏ ‏بِكُم أحَداً‏ ‏let him be discreet and not cause anyone to become aware of you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:20.206Z",
+      "refword": "6:103:8",
+      "lexword": "ٱللَّطِيفُ"
+    }
+  }
+}

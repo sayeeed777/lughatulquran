@@ -1,0 +1,190 @@
+{
+  "root": "فيا",
+  "rootArabic": "فيا",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أفاءَ",
+      "count": 3
+    },
+    {
+      "form": "فاءَ",
+      "count": 3
+    },
+    {
+      "form": "يَتَفَيّأُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاءَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَفَيّأُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أفاءَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فاءَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أفاءَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 226,
+      "text": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن <a class=\"highlight-text\">فَآءُو</a> فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "فاءَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 48,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ <a class=\"highlight-text\">يَتَفَيَّؤُا۟</a> ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "derivedForms": [
+        "يَتَفَيّأُ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 50,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ <a class=\"highlight-text\">أَفَآءَ</a> ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "أفاءَ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 9,
+      "text": "وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى الْأُخْرَى فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ تَفِىٓءَ إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن فَآءَتْ فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+      "highlightedHtml": "وَإِن طَآئِفَتَانِ مِنَ ٱلْمُؤْمِنِينَ ٱقْتَتَلُوا۟ فَأَصْلِحُوا۟ بَيْنَهُمَا ۖ فَإِنۢ بَغَتْ إِحْدَىٰهُمَا عَلَى الْأُخْرَى فَقَٰتِلُوا۟ ٱلَّتِى تَبْغِى حَتَّىٰ <a class=\"highlight-text\">تَفِىٓءَ</a> إِلَىٰٓ أَمْرِ ٱللَّهِ ۚ فَإِن <a class=\"highlight-text\">فَآءَتْ</a> فَأَصْلِحُوا۟ بَيْنَهُمَا بِٱلْعَدْلِ وَأَقْسِطُوٓا۟ ۖ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+      "derivedForms": [
+        "فاءَ",
+        "فاءَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 6,
+      "text": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَفَآءَ</a> ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "أفاءَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 7,
+      "text": "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ آتَاكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "مَّآ <a class=\"highlight-text\">أَفَآءَ</a> ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ آتَاكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "أفاءَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:24.531Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "فَآءُو is in the derivative form: فاءَ",
+    "rootDefinitionHtml": "ف/ي/أ f–y–ʾ shade, the movement of shade<br>; to return; to take shelter in the shade, to recover from anger; spoils from battle; taxation; flock of birds; company of people. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> فاءَ fāʾa 3 times; أفاءَ ʾafāʾa 3 times and يَتَفَيّأُ yatafayyaʾ 1 time.",
+    "mainDefinitionHtml": "فاءَ fāʾa i [v. intrans.] to return <br><br>(49:9)‏فَإِنْ‏ ‏بَغَتْ‏ ‏إِحْدَاهُمَا‏ ‏عَلَى‏ ‏الأُخْرَى‏ ‏فَقَاتِلُوا‏ ‏الَّتِي تَبْغِي‏ ‏حَتَّى‏ ‏تَفِيءَ‏ ‏إِلَى‏ ‏أَمْرِ‏ ‏اللَّهِ but if one [of the two parties] wrongs the other, fight the one who has done wrong until he returns to God’s commandment.",
+    "mainEntryId": "wdef-ف-ي-أ.فاءَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ي-أ",
+        "label": "ف-ي-أ",
+        "definitionHtml": "ف/ي/أ f–y–ʾ shade, the movement of shade<br>; to return; to take shelter in the shade, to recover from anger; spoils from battle; taxation; flock of birds; company of people. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> فاءَ fāʾa 3 times; أفاءَ ʾafāʾa 3 times and يَتَفَيّأُ yatafayyaʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ي-أ.فاءَ",
+        "label": "فاءَ",
+        "definitionHtml": "فاءَ fāʾa i [v. intrans.] to return <br><br>(49:9)‏فَإِنْ‏ ‏بَغَتْ‏ ‏إِحْدَاهُمَا‏ ‏عَلَى‏ ‏الأُخْرَى‏ ‏فَقَاتِلُوا‏ ‏الَّتِي تَبْغِي‏ ‏حَتَّى‏ ‏تَفِيءَ‏ ‏إِلَى‏ ‏أَمْرِ‏ ‏اللَّهِ but if one [of the two parties] wrongs the other, fight the one who has done wrong until he returns to God’s commandment.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ي-أ.أفاءَ",
+        "label": "أفاءَ",
+        "definitionHtml": "أفاءَ ʾafāʾa [v. IV] to grant as spoils of war <br><br>(59:7) مَا‏ ‏أَفَاءَ‏ ‏اللَّهُ‏ ‏عَلَى‏ ‏رَسُولِهِ مِنْ‏ ‏أَهْلِ‏ ‏الْقُرَى‏ whatever spoils God turned over to His Messenger from the inhabitants of the villages.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ي-أ.يَتَفَيّأُ",
+        "label": "يَتَفَيّأُ",
+        "definitionHtml": "يَتَفَيّأُ yatafayyaʾ [imperf. of v. V, intrans.] (of something) to cast (its shades) from one side to the other <br><br>(16:48) أَوَلَمْ يَرَوْا إِلَى مَا خَلَقَ اللَّهُ مِنْ شَيْءٍ يَتَفَيَّأُ ظِلاَلُهُ عَنِ الْيَمِينِ وَالشَّمَائِلِ سُجَّدًا لِلَّهِ‏ do they not ponder the fact that whatever things God has created that cast shadows all around [lit. to the right and to the left]–all submit [lit. prostrate themselves] to God?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:28.030Z",
+      "refword": "2:226:9",
+      "lexword": "فَآءُو"
+    }
+  }
+}

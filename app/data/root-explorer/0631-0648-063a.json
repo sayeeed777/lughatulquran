@@ -1,0 +1,104 @@
+{
+  "root": "روغ",
+  "rootArabic": "روغ",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "رَاغَ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَاغَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاغَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 91,
+      "text": "فَرَاغَ إِلَىٰٓ آلِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَرَاغَ</a> إِلَىٰٓ آلِهَتِهِمْ فَقَالَ أَلَا تَأْكُلُونَ",
+      "derivedForms": [
+        "رَاغَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 93,
+      "text": "فَرَاغَ عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَرَاغَ</a> عَلَيْهِمْ ضَرْبًۢا بِٱلْيَمِينِ",
+      "derivedForms": [
+        "رَاغَ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 26,
+      "text": "فَرَاغَ إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍ سَمِينٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَرَاغَ</a> إِلَىٰٓ أَهْلِهِۦ فَجَآءَ بِعِجْلٍ سَمِينٍ",
+      "derivedForms": [
+        "رَاغَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:54.949Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "فَرَاغَ is in the derivative form: رَاغَ",
+    "rootDefinitionHtml": "ر/و/غ   r–w–gh to deviate, to swerve, to dodge, to go by a side road, to trick, a fox, to fox; to want; to approach, to come over; to hide. Of this root, رَاغَ rāgha occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "رَاغَ rāgha u [v. intrans.] <br><br><strong>1 </strong>to turn to, to make for, to approach <br><br>(51:26) فَرَاغَ إِلَى أَهْلِهِ فَجَاءَ بِعِجْلٍ سَمِينٍ so he turned to his folk and brought a fat calf <br><br><strong>2 </strong>to attempt to do so in stealth <br><br>(37:91) فَرَاغَ إِلَى ءَالِهَتِهِمْ فَقَالَ أَلاَ تَأْكُلُونَ so he turned surreptitiously to their gods and said, ‘Won’t you eat?’",
+    "mainEntryId": "wdef-ر-و-غ.رَاغَ",
+    "entries": [
+      {
+        "id": "wdef-ر-و-غ",
+        "label": "ر-و-غ",
+        "definitionHtml": "ر/و/غ   r–w–gh to deviate, to swerve, to dodge, to go by a side road, to trick, a fox, to fox; to want; to approach, to come over; to hide. Of this root, رَاغَ rāgha occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-و-غ.رَاغَ",
+        "label": "رَاغَ",
+        "definitionHtml": "رَاغَ rāgha u [v. intrans.] <br><br><strong>1 </strong>to turn to, to make for, to approach <br><br>(51:26) فَرَاغَ إِلَى أَهْلِهِ فَجَاءَ بِعِجْلٍ سَمِينٍ so he turned to his folk and brought a fat calf <br><br><strong>2 </strong>to attempt to do so in stealth <br><br>(37:91) فَرَاغَ إِلَى ءَالِهَتِهِمْ فَقَالَ أَلاَ تَأْكُلُونَ so he turned surreptitiously to their gods and said, ‘Won’t you eat?’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:54.622Z",
+      "refword": "37:91:1",
+      "lexword": "فَرَاغَ"
+    }
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "root": "سور",
+  "rootArabic": "سور",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 5,
+    "surahCount": 13,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "سورةٌ",
+      "count": 10
+    },
+    {
+      "form": "أساوِر",
+      "count": 4
+    },
+    {
+      "form": "أسْوِرةٌ",
+      "count": 1
+    },
+    {
+      "form": "تَسَوَّر",
+      "count": 1
+    },
+    {
+      "form": "سور",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 4,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساوِر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساوِر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساوِر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَسَوَّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْوِرةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سورةٌ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساوِر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 23,
+      "text": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ <a class=\"highlight-text\">بِسُورَةٍ</a> مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 64,
+      "text": "يَحْذَرُ ٱلْمُنَٰفِقُونَ أَن تُنَزَّلَ عَلَيْهِمْ سُورَةٌ تُنَبِّئُهُم بِمَا فِى قُلُوبِهِمْ ۚ قُلِ ٱسْتَهْزِءُوٓا۟ إِنَّ ٱللَّهَ مُخْرِجٌ مَّا تَحْذَرُونَ",
+      "highlightedHtml": "يَحْذَرُ ٱلْمُنَٰفِقُونَ أَن تُنَزَّلَ عَلَيْهِمْ <a class=\"highlight-text\">سُورَةٌ</a> تُنَبِّئُهُم بِمَا فِى قُلُوبِهِمْ ۚ قُلِ ٱسْتَهْزِءُوٓا۟ إِنَّ ٱللَّهَ مُخْرِجٌ مَّا تَحْذَرُونَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 86,
+      "text": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَٰعِدِينَ",
+      "highlightedHtml": "وَإِذَآ أُنزِلَتْ <a class=\"highlight-text\">سُورَةٌ</a> أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَٰعِدِينَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 124,
+      "text": "وَإِذَا مَآ أُنزِلَتْ سُورَةٌ فَمِنْهُم مَّن يَقُولُ أَيُّكُمْ زَادَتْهُ هَٰذِهِۦٓ إِيمَٰنًا ۚ فَأَمَّا ٱلَّذِينَ آمَنُوا فَزَادَتْهُمْ إِيمَٰنًا وَهُمْ يَسْتَبْشِرُونَ",
+      "highlightedHtml": "وَإِذَا مَآ أُنزِلَتْ <a class=\"highlight-text\">سُورَةٌ</a> فَمِنْهُم مَّن يَقُولُ أَيُّكُمْ زَادَتْهُ هَٰذِهِۦٓ إِيمَٰنًا ۚ فَأَمَّا ٱلَّذِينَ آمَنُوا فَزَادَتْهُمْ إِيمَٰنًا وَهُمْ يَسْتَبْشِرُونَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 127,
+      "text": "وَإِذَا مَآ أُنزِلَتْ سُورَةٌ نَّظَرَ بَعْضُهُمْ إِلَىٰ بَعْضٍ هَلْ يَرَىٰكُم مِّنْ أَحَدٍ ثُمَّ ٱنصَرَفُوا۟ ٱنصَرَفُوا۟ ۚ صَرَفَ صَرَفَ ٱللَّهُ قُلُوبَهُم بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "highlightedHtml": "وَإِذَا مَآ أُنزِلَتْ <a class=\"highlight-text\">سُورَةٌ</a> نَّظَرَ بَعْضُهُمْ إِلَىٰ بَعْضٍ هَلْ يَرَىٰكُم مِّنْ أَحَدٍ ثُمَّ ٱنصَرَفُوا۟ ٱنصَرَفُوا۟ ۚ صَرَفَ صَرَفَ ٱللَّهُ قُلُوبَهُم بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 38,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِسُورَةٍ مِّثْلِهِۦ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ <a class=\"highlight-text\">بِسُورَةٍ</a> مِّثْلِهِۦ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 13,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِعَشْرِ سُوَرٍ مِّثْلِهِۦ مُفْتَرَيَٰتٍ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ فَأْتُوا۟ بِعَشْرِ <a class=\"highlight-text\">سُوَرٍ</a> مِّثْلِهِۦ مُفْتَرَيَٰتٍ وَٱدْعُوا۟ مَنِ ٱسْتَطَعْتُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 31,
+      "text": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ <a class=\"highlight-text\">أَسَاوِرَ</a> مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "أساوِر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 23,
+      "text": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ <a class=\"highlight-text\">أَسَاوِرَ</a> مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "derivedForms": [
+        "أساوِر"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 1,
+      "text": "سُورَةٌ أَنزَلْنَٰهَا وَفَرَضْنَٰهَا وَأَنزَلْنَا فِيهَآ آيَاتٍ بَيِّنَٰتٍ لَّعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">سُورَةٌ</a> أَنزَلْنَٰهَا وَفَرَضْنَٰهَا وَأَنزَلْنَا فِيهَآ آيَاتٍ بَيِّنَٰتٍ لَّعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 33,
+      "text": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ <a class=\"highlight-text\">أَسَاوِرَ</a> مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "derivedForms": [
+        "أساوِر"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 21,
+      "text": "وَهَلْ أَتَىٰكَ نَبَؤُا۟ ٱلْخَصْمِ إِذْ تَسَوَّرُوا۟ ٱلْمِحْرَابَ",
+      "highlightedHtml": "وَهَلْ أَتَىٰكَ نَبَؤُا۟ ٱلْخَصْمِ إِذْ <a class=\"highlight-text\">تَسَوَّرُوا۟</a> ٱلْمِحْرَابَ",
+      "derivedForms": [
+        "تَسَوَّر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 53,
+      "text": "فَلَوْلَآ أُلْقِىَ عَلَيْهِ أَسْوِرَةٌ مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَٰٓئِكَةُ مُقْتَرِنِينَ",
+      "highlightedHtml": "فَلَوْلَآ أُلْقِىَ عَلَيْهِ <a class=\"highlight-text\">أَسْوِرَةٌ</a> مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَٰٓئِكَةُ مُقْتَرِنِينَ",
+      "derivedForms": [
+        "أسْوِرةٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 20,
+      "text": "وَيَقُولُ ٱلَّذِينَ آمَنُوا لَوْلَا نُزِّلَتْ سُورَةٌ ۖ فَإِذَآ أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ ٱلْمَغْشِىِّ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ",
+      "highlightedHtml": "وَيَقُولُ ٱلَّذِينَ آمَنُوا لَوْلَا نُزِّلَتْ <a class=\"highlight-text\">سُورَةٌ</a> ۖ فَإِذَآ أُنزِلَتْ <a class=\"highlight-text\">سُورَةٌ</a> مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ ٱلْمَغْشِىِّ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ",
+      "derivedForms": [
+        "سورةٌ",
+        "سورةٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 13,
+      "text": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "highlightedHtml": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم <a class=\"highlight-text\">بِسُورٍ</a> لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "derivedForms": [
+        "سور"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 21,
+      "text": "عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
+      "highlightedHtml": "عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ <a class=\"highlight-text\">أَسَاوِرَ</a> مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
+      "derivedForms": [
+        "أساوِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:39.498Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite noun",
+    "derivativeNote": "بِسُورَةٍ is in the derivative form: سورةٌ",
+    "rootDefinitionHtml": "س/و/ر   s–w–r circle, fence, fencing<br>; an enclosure; to scale, to go over a fence; to be high in stature or in spirits. أَسْوِرةٌ ʾaswiratun is a borrowing from Persian. <br><br>Of this root, 6 forms occur 17 times in the Qur’an:<br> تَسَوّرّ tasawwar 1 time;سور sūr 1 time; أساوِر ʾasāwir 4 times;أَسْوِرةٌ ʾaswiratun 1 time;سورةٌ sūratun 9 times andسُوَر suwar 1 time.",
+    "mainDefinitionHtml": "سورةٌ sūratun [n.; pl. سُوَر suwar] one of the <br><br><strong>114 </strong>sections into which the Qur’an is divided, each consisting of a different number of verses (the minimum being three verses and the maximum being 286). Opinions as to the sense from which سورةٌ is derived include: enclosure, eminence, glory, honour, dignity, rank, station, sign, token <br><br>(24:1) سُورَةٌ أَنْزَلْنَاهَا وَفَرَضْنَاهَا وَأَنْزَلْنَا فِيهَا ءَايَاتٍ بَيِّنَاتٍ لَعَلَّكُمْ تَذَكَّرُونَ this/the following is a sura [containing legislation] We have sent down and made binding: We have sent down clear revelations in it, so that you might take heed.",
+    "mainEntryId": "wdef-س-و-ر.سورةٌ",
+    "entries": [
+      {
+        "id": "wdef-س-و-ر",
+        "label": "س-و-ر",
+        "definitionHtml": "س/و/ر   s–w–r circle, fence, fencing<br>; an enclosure; to scale, to go over a fence; to be high in stature or in spirits. أَسْوِرةٌ ʾaswiratun is a borrowing from Persian. <br><br>Of this root, 6 forms occur 17 times in the Qur’an:<br> تَسَوّرّ tasawwar 1 time;سور sūr 1 time; أساوِر ʾasāwir 4 times;أَسْوِرةٌ ʾaswiratun 1 time;سورةٌ sūratun 9 times andسُوَر suwar 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ر.سورةٌ",
+        "label": "سورةٌ",
+        "definitionHtml": "سورةٌ sūratun [n.; pl. سُوَر suwar] one of the <br><br><strong>114 </strong>sections into which the Qur’an is divided, each consisting of a different number of verses (the minimum being three verses and the maximum being 286). Opinions as to the sense from which سورةٌ is derived include: enclosure, eminence, glory, honour, dignity, rank, station, sign, token <br><br>(24:1) سُورَةٌ أَنْزَلْنَاهَا وَفَرَضْنَاهَا وَأَنْزَلْنَا فِيهَا ءَايَاتٍ بَيِّنَاتٍ لَعَلَّكُمْ تَذَكَّرُونَ this/the following is a sura [containing legislation] We have sent down and made binding: We have sent down clear revelations in it, so that you might take heed.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-و-ر.أساوِر",
+        "label": "أساوِر",
+        "definitionHtml": "أساوِر ʾasāwir [pl. of n. سِوار siwār] bracelets, armlets, bangles <br><br>(18:31) يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِنْ ذَهَبٍ in it [the Garden] they will be adorned with bracelets of gold.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ر.أسْوِرةٌ",
+        "label": "أسْوِرةٌ",
+        "definitionHtml": "أسْوِرةٌ ʾaswiratun [pl. of n. سِوار suwār] bracelets, armlets, bangles <br><br>(43:53) فَلَوْلاَ أُلْقِيَ عَلَيْهِ أَسْوِرَةٌ مِنْ ذَهَبٍ if only bracelets of gold had been cast upon him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ر.تَسَوَّر",
+        "label": "تَسَوَّر",
+        "definitionHtml": "تَسَوَّر tasawwar [v. V, trans.] to scale up, to go over a wall <br><br>(38:21) وَهَلْ أَتَاكَ نَبَأُ الْخَصْمِ إِذْ تَسَوَّرُوا الْمِحْرَابَ and has the story come to you of the litigants, when they climbed into the private quarters?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ر.سور",
+        "label": "سور",
+        "definitionHtml": "سور sūr [n.] fence, wall <br><br>(57:13) فَضُرِبَ بَيْنَهُمْ بِسُورٍ لَهُ بَابٌ so a wall, with a door in it, will be erected between them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:22.542Z",
+      "refword": "2:23:10",
+      "lexword": "بِسُورَةٍ"
+    }
+  }
+}

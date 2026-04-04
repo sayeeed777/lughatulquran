@@ -1,0 +1,82 @@
+{
+  "root": "جود",
+  "rootArabic": "جود",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "جِيَادٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جِيَادٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 38,
+      "ayah": 31,
+      "text": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ ٱلصَّٰفِنَٰتُ ٱلْجِيَادُ ٱلْجِيَادُ",
+      "highlightedHtml": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ ٱلصَّٰفِنَٰتُ <a class=\"highlight-text\">ٱلْجِيَادُ</a> <a class=\"highlight-text\">ٱلْجِيَادُ</a>",
+      "derivedForms": [
+        "جِيَادٌ",
+        "جِيَادٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:32.303Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural adjective",
+    "derivativeNote": "ٱلْجِيَادُ is in the derivative form: جِيَادٌ",
+    "rootDefinitionHtml": "ج/و/د   j–w–d horses, to seek a horse; generosity, generous person; goodness, excellence, nobility; rain‐laden clouds. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> الجُودِيُّ ʾal‐Jūdiyy and جِيَادٌ jiyād.",
+    "mainDefinitionHtml": "جِيَادٌ jiyād[pl. of n./quasi act. part. جَوَادٌ jawād] horses, chargers; magnificent, the select, well‐bred <br><br>(38:31) إِذْ عُرِضَ عَلَيْهِ بِالْعَشِيِّ الصَّافِنَاتُ الْجِيَادُ ... when, at the close of the day, well‐bred light‐footed horses were paraded before him …",
+    "mainEntryId": "wdef-ج-و-د.جِيَادٌ",
+    "entries": [
+      {
+        "id": "wdef-ج-و-د",
+        "label": "ج-و-د",
+        "definitionHtml": "ج/و/د   j–w–d horses, to seek a horse; generosity, generous person; goodness, excellence, nobility; rain‐laden clouds. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> الجُودِيُّ ʾal‐Jūdiyy and جِيَادٌ jiyād.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-د.جِيَادٌ",
+        "label": "جِيَادٌ",
+        "definitionHtml": "جِيَادٌ jiyād[pl. of n./quasi act. part. جَوَادٌ jawād] horses, chargers; magnificent, the select, well‐bred <br><br>(38:31) إِذْ عُرِضَ عَلَيْهِ بِالْعَشِيِّ الصَّافِنَاتُ الْجِيَادُ ... when, at the close of the day, well‐bred light‐footed horses were paraded before him …",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-و-د.الجوُدِيُّ",
+        "label": "الجوُدِيُّ",
+        "definitionHtml": "الجوُدِيُّ ʾal‐Jūdiyy[proper name] the mountain upon which Noah’s ark settled, traditionally identified with Mount Ararat located in either Armenia or Syria and now said to be in Turkey <br><br>(11:44) وَاسْتَوَتْ عَلَى الْجُودِيِّ and it [the Ark] settled on [Mount] Jūdiyy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:37.902Z",
+      "refword": "38:31:6",
+      "lexword": "ٱلْجِيَادُ"
+    }
+  }
+}

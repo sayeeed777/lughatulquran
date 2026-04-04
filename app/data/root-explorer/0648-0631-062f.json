@@ -1,0 +1,306 @@
+{
+  "root": "ورد",
+  "rootArabic": "ورد",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 7,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "وَارِدٌ",
+      "count": 3
+    },
+    {
+      "form": "وَرَدَ",
+      "count": 2
+    },
+    {
+      "form": "وِرْدٌ",
+      "count": 2
+    },
+    {
+      "form": "أَوْرَدَ",
+      "count": 1
+    },
+    {
+      "form": "مَوْرُودٌ",
+      "count": 1
+    },
+    {
+      "form": "وَرْدَةٌ",
+      "count": 1
+    },
+    {
+      "form": "وَرِيدٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَوْرَدَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَوْرُودٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "وِرْدٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَارِدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَارِدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "وِرْدٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَارِدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "وَرَدَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَرَدَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَرِيدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَرْدَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 98,
+      "text": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
+      "highlightedHtml": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ <a class=\"highlight-text\">فَأَوْرَدَهُمُ</a> ٱلنَّارَ ۖ وَبِئْسَ <a class=\"highlight-text\">ٱلْوِرْدُ</a> <a class=\"highlight-text\">ٱلْمَوْرُودُ</a>",
+      "derivedForms": [
+        "أَوْرَدَ",
+        "وِرْدٌ",
+        "مَوْرُودٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 19,
+      "text": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ وَأَسَرُّوهُ بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ <a class=\"highlight-text\">وَارِدَهُمْ</a> فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ وَأَسَرُّوهُ بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "وَارِدٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 71,
+      "text": "وَإِن مِّنكُمْ إِلَّا وَارِدُهَا ۚ كَانَ عَلَىٰ رَبِّكَ حَتْمًا مَّقْضِيًّا",
+      "highlightedHtml": "وَإِن مِّنكُمْ إِلَّا <a class=\"highlight-text\">وَارِدُهَا</a> ۚ كَانَ عَلَىٰ رَبِّكَ حَتْمًا مَّقْضِيًّا",
+      "derivedForms": [
+        "وَارِدٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 86,
+      "text": "وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًا",
+      "highlightedHtml": "وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ <a class=\"highlight-text\">وِرْدًا</a>",
+      "derivedForms": [
+        "وِرْدٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 98,
+      "text": "إِنَّكُمْ وَمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ حَصَبُ جَهَنَّمَ أَنتُمْ لَهَا وَٰرِدُونَ",
+      "highlightedHtml": "إِنَّكُمْ وَمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ حَصَبُ جَهَنَّمَ أَنتُمْ لَهَا <a class=\"highlight-text\">وَٰرِدُونَ</a>",
+      "derivedForms": [
+        "وَارِدٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 99,
+      "text": "لَوْ كَانَ هَٰٓؤُلَآءِ آلِهَةً مَّا وَرَدُوهَا ۖ وَكُلٌّ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "لَوْ كَانَ هَٰٓؤُلَآءِ آلِهَةً مَّا <a class=\"highlight-text\">وَرَدُوهَا</a> ۖ وَكُلٌّ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "وَرَدَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 23,
+      "text": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">وَرَدَ</a> مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "derivedForms": [
+        "وَرَدَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 16,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+      "highlightedHtml": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ <a class=\"highlight-text\">ٱلْوَرِيدِ</a>",
+      "derivedForms": [
+        "وَرِيدٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 37,
+      "text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "highlightedHtml": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ <a class=\"highlight-text\">وَرْدَةً</a> كَٱلدِّهَانِ",
+      "derivedForms": [
+        "وَرْدَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:11.471Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "فَأَوْرَدَهُمُ is in the derivative form: أَوْرَدَ",
+    "rootDefinitionHtml": "و/ر/د   w–r–d blossoms, flowers, to come out in flowers<br>; tree with hanging branches; watering‐place, drinking herd or flock, to drive (a flock) to drink (at a watering‐hole); daily task, assignment; turn; road, destination, to approach, to arrive; jugular vein; to appear, to supply. <br><br>Of this root, 8 forms occur 11 times in the Qur’an:<br> وَرَدَ warada 2 times; أَوْرَدَ ʾawrada 1 time; وِرْدٌ wird 2 times; وَارِدٌ wārid 2 times; وَارِدُون wāridūn 1 time; مَوْرُودٌ mawrūd 1 time; وَرْدَةً wardatan 1 time and وَرِيدٌ warıd 1 time.",
+    "mainDefinitionHtml": "أَوْرَدَ ʾawrada [v. IV trans.] to lead to, to drive to <br><br>(11:98) فَأَوْرَدَهُمُ النَّارَ and he will lead them down to the Fire.",
+    "mainEntryId": "wdef-و-ر-د.أَوْرَدَ",
+    "entries": [
+      {
+        "id": "wdef-و-ر-د",
+        "label": "و-ر-د",
+        "definitionHtml": "و/ر/د   w–r–d blossoms, flowers, to come out in flowers<br>; tree with hanging branches; watering‐place, drinking herd or flock, to drive (a flock) to drink (at a watering‐hole); daily task, assignment; turn; road, destination, to approach, to arrive; jugular vein; to appear, to supply. <br><br>Of this root, 8 forms occur 11 times in the Qur’an:<br> وَرَدَ warada 2 times; أَوْرَدَ ʾawrada 1 time; وِرْدٌ wird 2 times; وَارِدٌ wārid 2 times; وَارِدُون wāridūn 1 time; مَوْرُودٌ mawrūd 1 time; وَرْدَةً wardatan 1 time and وَرِيدٌ warıd 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.أَوْرَدَ",
+        "label": "أَوْرَدَ",
+        "definitionHtml": "أَوْرَدَ ʾawrada [v. IV trans.] to lead to, to drive to <br><br>(11:98) فَأَوْرَدَهُمُ النَّارَ and he will lead them down to the Fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ر-د.مَوْرُودٌ",
+        "label": "مَوْرُودٌ",
+        "definitionHtml": "مَوْرُودٌ mawrūd [pass. part.] a place approached or descended into for drinking <br><br>(11:98) وَبِئْسَ الْوِرْدُ الْمَوْرُودُ what a foul drinking‐place to be led into.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.وَارِدٌ",
+        "label": "وَارِدٌ",
+        "definitionHtml": "وَارِدٌ wārid I [act. part., pl. وَارِدُون wāridūn] one who approaches, one who enters <br><br>(19:71) وَإِنْ مِنْكُمْ إِلاَّ وَارِدُهَا there is not one of you but shall come to it II [n.] one who scouts for or seeks water, water‐fetcher <br><br>(12:19) وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ and a caravan came by, and they sent their water‐fetcher.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.وَرَدَ",
+        "label": "وَرَدَ",
+        "definitionHtml": "وَرَدَ warada i [v. trans.] <br><br><strong>1 </strong>to arrive at, to approach a watering‐place <br><br>(28:23) وَلَمَّا وَرَدَ مَاءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِنَ النَّاسِ يَسْقُونَ and when he arrived at the water of Midian, he found thereabouts a crowd of people watering [their flock] <br><br><strong>2 </strong>to end up in <br><br>(21:99) لَوْ كَانَ هَؤُلاَءِ ءَالِهَةً مَا وَرَدُوهَا if these [idols] were real gods they would not have ended up there [in the fire].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.وَرِيدٌ",
+        "label": "وَرِيدٌ",
+        "definitionHtml": "وَرِيدٌ warıd [n.] the jugular vein <br><br>(50:16) وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ الْوَرِيدِ We are closer to him than the[/his] jugular vein.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.وَرْدَةٌ",
+        "label": "وَرْدَةٌ",
+        "definitionHtml": "وَرْدَةٌ wardatun [n., used adjectivally] rose‐red <br><br>(55:37) فَكَانَتْ وَرْدَةً كَالدِّهَانِ and becomes rose‐red, like red hide (or: like molten fat).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ر-د.وِرْدٌ",
+        "label": "وِرْدٌ",
+        "definitionHtml": "وِرْدٌ wird [n.] <br><br><strong>1 </strong>a place of drinking <br><br>(11:98) وَبِئْسَ الْوِرْدُ الْمَوْرُودُ what a foul drinking‐place to be led into <br><br><strong>2 </strong>a (drinking) herd <br><br>(19:86) وَنَسُوقُ الْمُجْرِمِينَ إِلَى جَهَنَّمَ وِرْدًا and We drive the sinful into Hell, like a [thirsty] herd.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:28.309Z",
+      "refword": "11:98:5",
+      "lexword": "فَأَوْرَدَهُمُ"
+    }
+  }
+}

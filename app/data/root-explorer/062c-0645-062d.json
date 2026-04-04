@@ -1,0 +1,38 @@
+{
+  "root": "جمح",
+  "rootArabic": "جمح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 57,
+      "text": "لَوْ يَجِدُونَ مَلْجَـًٔا أَوْ مَغَٰرَٰتٍ أَوْ مُدَّخَلًا لَّوَلَّوْا۟ إِلَيْهِ وَهُمْ يَجْمَحُونَ",
+      "highlightedHtml": "لَوْ يَجِدُونَ مَلْجَـًٔا أَوْ مَغَٰرَٰتٍ أَوْ مُدَّخَلًا لَّوَلَّوْا۟ إِلَيْهِ وَهُمْ <a class=\"highlight-text\">يَجْمَحُونَ</a>",
+      "derivedForms": []
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:15.563Z"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "تيه",
+  "rootArabic": "تيه",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَتِيهُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتِيهُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 26,
+      "text": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ ۛ أَرْبَعِينَ سَنَةً ۛ يَتِيهُونَ فِى ٱلْأَرْضِ ۚ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ ۛ أَرْبَعِينَ سَنَةً ۛ <a class=\"highlight-text\">يَتِيهُونَ</a> فِى ٱلْأَرْضِ ۚ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "يَتِيهُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:31.847Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَتِيهُونَ is in the derivative form: يَتِيهُ",
+    "rootDefinitionHtml": "ت/ي/هـ t–y–h expanse of desolate unmarked featureless desert; wilderness; to lose one’s way, to be misguided; to be conceited, to be obstinate. Of this root, يَتِيهُون yatıhūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَتِيهُ yatıh [imperf. of v. تَاهَ tāha, intrans.] to wander around having lost one’s way <br><br>(5:26) قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً يَتِيهُونَ فِى الأَرْضِ He said, ‘It [the holy land] is forbidden to them for forty years, [they will] wander in the land [being lost].’",
+    "mainEntryId": "wdef-ت-ي-هـ.يَتِيهُ",
+    "entries": [
+      {
+        "id": "wdef-ت-ي-هـ",
+        "label": "ت-ي-هـ",
+        "definitionHtml": "ت/ي/هـ t–y–h expanse of desolate unmarked featureless desert; wilderness; to lose one’s way, to be misguided; to be conceited, to be obstinate. Of this root, يَتِيهُون yatıhūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ي-هـ.يَتِيهُ",
+        "label": "يَتِيهُ",
+        "definitionHtml": "يَتِيهُ yatıh [imperf. of v. تَاهَ tāha, intrans.] to wander around having lost one’s way <br><br>(5:26) قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً يَتِيهُونَ فِى الأَرْضِ He said, ‘It [the holy land] is forbidden to them for forty years, [they will] wander in the land [being lost].’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:46.974Z",
+      "refword": "5:26:7",
+      "lexword": "يَتِيهُونَ"
+    }
+  }
+}

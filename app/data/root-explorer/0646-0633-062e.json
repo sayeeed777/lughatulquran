@@ -1,0 +1,159 @@
+{
+  "root": "نسخ",
+  "rootArabic": "نسخ",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "نَسَخَ",
+      "count": 2
+    },
+    {
+      "form": "اسْتَنْسَخَ",
+      "count": 1
+    },
+    {
+      "form": "نُسْخَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسَخَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُسْخَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسَخَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَنْسَخَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 106,
+      "text": "مَا نَنسَخْ مِنْ آيَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍ مِّنْهَآ أَوْ مِثْلِهَآ ۗ أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "مَا <a class=\"highlight-text\">نَنسَخْ</a> مِنْ آيَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍ مِّنْهَآ أَوْ مِثْلِهَآ ۗ أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "نَسَخَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 154,
+      "text": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "highlightedHtml": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى <a class=\"highlight-text\">نُسْخَتِهَا</a> هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "derivedForms": [
+        "نُسْخَةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 52,
+      "text": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلْقَى ٱلشَّيْطَٰنُ فِىٓ أُمْنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ آيَاتِهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلْقَى ٱلشَّيْطَٰنُ فِىٓ أُمْنِيَّتِهِۦ <a class=\"highlight-text\">فَيَنسَخُ</a> ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ آيَاتِهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "نَسَخَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 29,
+      "text": "هَٰذَا كِتَٰبُنَا يَنطِقُ عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا نَسْتَنسِخُ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "هَٰذَا كِتَٰبُنَا يَنطِقُ عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا <a class=\"highlight-text\">نَسْتَنسِخُ</a> مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "اسْتَنْسَخَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:16.883Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural imperfect verb, jussive mood",
+    "derivativeNote": "نَنسَخْ is in the derivative form: نَسَخَ",
+    "rootDefinitionHtml": "ن/س/خ   n–s–kh to abrogate, to revoke, to remove, to invalidate, to substitute 1 thing for another<br>; to copy, a copy, to seek to copy. Some scholars claim the word نُسْخَةٌ nuskhatun is of Akkadian origin. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> نَسَخَ nasakha 2 times; اسْتَنْسَخَ ʾistansakha 1 time and نُسْخَةٌ nuskhatun 1 time.",
+    "mainDefinitionHtml": "نَسَخَ nasakha a [v. trans.] <br><br><strong>1 </strong>to abrogate, to revoke <br><br>(2:106) مَا نَنْسَخْ مِنْ ءَايَةٍ أَوْ نُنْسِهَا نَأْتِ بِخَيْرٍ مِنْهَا أَوْ مِثْلِهَا whatever revelation We abrogate or make [people] forget, We replace with a better or similar one <br><br><strong>2 </strong>to remove, to obliterate <br><br>(22:52) فَيَنْسَخُ اللَّهُ مَا يُلْقِي الشَّيْطَانُ ثُمَّ يُحْكِمُ اللَّهُ ءَايَاتِهِ God annuls what Satan insinuates and then God affirms His revelations.",
+    "mainEntryId": "wdef-ن-س-خ.نَسَخَ",
+    "entries": [
+      {
+        "id": "wdef-ن-س-خ",
+        "label": "ن-س-خ",
+        "definitionHtml": "ن/س/خ   n–s–kh to abrogate, to revoke, to remove, to invalidate, to substitute 1 thing for another<br>; to copy, a copy, to seek to copy. Some scholars claim the word نُسْخَةٌ nuskhatun is of Akkadian origin. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> نَسَخَ nasakha 2 times; اسْتَنْسَخَ ʾistansakha 1 time and نُسْخَةٌ nuskhatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-خ.نَسَخَ",
+        "label": "نَسَخَ",
+        "definitionHtml": "نَسَخَ nasakha a [v. trans.] <br><br><strong>1 </strong>to abrogate, to revoke <br><br>(2:106) مَا نَنْسَخْ مِنْ ءَايَةٍ أَوْ نُنْسِهَا نَأْتِ بِخَيْرٍ مِنْهَا أَوْ مِثْلِهَا whatever revelation We abrogate or make [people] forget, We replace with a better or similar one <br><br><strong>2 </strong>to remove, to obliterate <br><br>(22:52) فَيَنْسَخُ اللَّهُ مَا يُلْقِي الشَّيْطَانُ ثُمَّ يُحْكِمُ اللَّهُ ءَايَاتِهِ God annuls what Satan insinuates and then God affirms His revelations.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-س-خ.اسْتَنْسَخَ",
+        "label": "اسْتَنْسَخَ",
+        "definitionHtml": "اسْتَنْسَخَ ʾistansakha [v. X trans.] to seek to copy, to entrust someone to record, to note down exactly <br><br>(45:29) هَذَا كِتَابُنَا يَنْطِقُ عَلَيْكُمْ بِالْحَقِّ إِنَّا كُنَّا نَسْتَنْسِخُ مَا كُنْتُمْ تَعْمَلُونَ here is Our record speaking against you with truth–We have been recording what you were doing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-خ.نُسْخَةٌ",
+        "label": "نُسْخَةٌ",
+        "definitionHtml": "نُسْخَةٌ nuskhatun [n.; pass. part.] transcription from an original, copy; transcribed materials <br><br>(7:154) أَخَذَ الأَلْوَاحَ وَفِي نُسْخَتِهَا هُدًى وَرَحْمَةٌ he picked up the Tablets, in the inscription of which were guidance and mercy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:48.927Z",
+      "refword": "2:106:2",
+      "lexword": "نَنسَخْ"
+    }
+  }
+}

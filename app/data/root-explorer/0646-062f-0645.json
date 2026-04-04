@@ -1,0 +1,199 @@
+{
+  "root": "ندم",
+  "rootArabic": "ندم",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 2,
+    "surahCount": 6,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "نَادِمُون",
+      "count": 5
+    },
+    {
+      "form": "نَدَامَةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَادِمُون",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَدَامَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَادِمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَادِمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَدَامَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَادِمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 31,
+      "text": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "highlightedHtml": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ <a class=\"highlight-text\">ٱلنَّٰدِمِينَ</a>",
+      "derivedForms": [
+        "نَادِمُون"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 52,
+      "text": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+      "highlightedHtml": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ <a class=\"highlight-text\">نَٰدِمِينَ</a>",
+      "derivedForms": [
+        "نَادِمُون"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 54,
+      "text": "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ وَأَسَرُّوا۟ <a class=\"highlight-text\">ٱلنَّدَامَةَ</a> لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "derivedForms": [
+        "نَدَامَةٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 40,
+      "text": "قَالَ عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ نَٰدِمِينَ",
+      "highlightedHtml": "قَالَ عَمَّا قَلِيلٍ لَّيُصْبِحُنَّ <a class=\"highlight-text\">نَٰدِمِينَ</a>",
+      "derivedForms": [
+        "نَادِمُون"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 157,
+      "text": "فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ",
+      "highlightedHtml": "فَعَقَرُوهَا فَأَصْبَحُوا۟ <a class=\"highlight-text\">نَٰدِمِينَ</a>",
+      "derivedForms": [
+        "نَادِمُون"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 33,
+      "text": "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ وَأَسَرُّوا۟ <a class=\"highlight-text\">ٱلنَّدَامَةَ</a> لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "نَدَامَةٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَٰلَةٍ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ نَٰدِمِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن جَآءَكُمْ فَاسِقٌۢ بِنَبَإٍ فَتَبَيَّنُوٓا۟ أَن تُصِيبُوا۟ قَوْمًۢا بِجَهَٰلَةٍ فَتُصْبِحُوا۟ عَلَىٰ مَا فَعَلْتُمْ <a class=\"highlight-text\">نَٰدِمِينَ</a>",
+      "derivedForms": [
+        "نَادِمُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:08.408Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلنَّٰدِمِينَ is in the derivative form: نَادِمُون",
+    "rootDefinitionHtml": "ن/د/م   n–d–m remorse, repentance, regret, to be regretful; a drinking partner, an intimate companion. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> نَادِمُون nādimūn 5 times and نَدامَة nadāmatun 2 times.",
+    "mainDefinitionHtml": "نَادِمُون nādimūn [pl. of act. part.نَادِم nādim] remorseful <br><br>(5:31) أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَذَا الْغُرَابِ فَأُوَارِيَ سَوْأَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ ‘Could I not have been like this raven and covered up the nakedness of my brother’s dead body?’–he became remorseful!",
+    "mainEntryId": "wdef-ن-د-م.نَادِمُون",
+    "entries": [
+      {
+        "id": "wdef-ن-د-م",
+        "label": "ن-د-م",
+        "definitionHtml": "ن/د/م   n–d–m remorse, repentance, regret, to be regretful; a drinking partner, an intimate companion. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> نَادِمُون nādimūn 5 times and نَدامَة nadāmatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-د-م.نَادِمُون",
+        "label": "نَادِمُون",
+        "definitionHtml": "نَادِمُون nādimūn [pl. of act. part.نَادِم nādim] remorseful <br><br>(5:31) أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَذَا الْغُرَابِ فَأُوَارِيَ سَوْأَةَ أَخِي فَأَصْبَحَ مِنَ النَّادِمِينَ ‘Could I not have been like this raven and covered up the nakedness of my brother’s dead body?’–he became remorseful!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-د-م.نَدَامَةٌ",
+        "label": "نَدَامَةٌ",
+        "definitionHtml": "نَدَامَةٌ nadāmatun [n.] remorse, regret, penitence <br><br>(34:33) وَأَسَرُّوا النَّدَامَةَ لَمَّا رَأَوُا الْعَذَابَ and, when they see the punishment, they will fall silent with remorse.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:33.381Z",
+      "refword": "5:31:25",
+      "lexword": "ٱلنَّٰدِمِينَ"
+    }
+  }
+}

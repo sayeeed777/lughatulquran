@@ -1,0 +1,756 @@
+{
+  "root": "حدث",
+  "rootArabic": "حدث",
+  "stats": {
+    "totalOccurrences": 36,
+    "derivativeCount": 4,
+    "surahCount": 28,
+    "ayahCount": 36
+  },
+  "derivatives": [
+    {
+      "form": "حَدِيثٌ",
+      "count": 28
+    },
+    {
+      "form": "تُحَدِّثُ",
+      "count": 3
+    },
+    {
+      "form": "يُحْدِثُ",
+      "count": 3
+    },
+    {
+      "form": "مُحْدَثٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُحَدِّثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 4,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 4,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        },
+        {
+          "form": "يُحْدِثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        },
+        {
+          "form": "يُحْدِثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحْدَثٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحْدَثٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُحْدِثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَدِيثٌ",
+          "count": 1,
+          "totalInQuran": 28
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُحَدِّثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 99,
+      "surahName": "Al-Zilzal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُحَدِّثُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 76,
+      "text": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ <a class=\"highlight-text\">أَتُحَدِّثُونَهُم</a> بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "تُحَدِّثُ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 42,
+      "text": "يَوْمَئِذٍ يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ وَعَصَوُا۟ ٱلرَّسُولَ لَوْ تُسَوَّىٰ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ وَلَا يَكْتُمُونَ ٱللَّهَ حَدِيثًا",
+      "highlightedHtml": "يَوْمَئِذٍ يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ وَعَصَوُا۟ ٱلرَّسُولَ لَوْ تُسَوَّىٰ تُسَوَّىٰ بِهِمُ ٱلْأَرْضُ وَلَا يَكْتُمُونَ ٱللَّهَ <a class=\"highlight-text\">حَدِيثًا</a>",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 78,
+      "text": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "highlightedHtml": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ <a class=\"highlight-text\">حَدِيثًا</a>",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 87,
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ حَدِيثًا",
+      "highlightedHtml": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۗ وَمَنْ أَصْدَقُ مِنَ ٱللَّهِ <a class=\"highlight-text\">حَدِيثًا</a>",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 140,
+      "text": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "highlightedHtml": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى <a class=\"highlight-text\">حَدِيثٍ</a> غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 68,
+      "text": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى <a class=\"highlight-text\">حَدِيثٍ</a> غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 185,
+      "text": "أَوَلَمْ يَنظُرُوا۟ فِى مَلَكُوتِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا خَلَقَ ٱللَّهُ مِن شَىْءٍ وَأَنْ عَسَىٰٓ أَن يَكُونَ قَدِ ٱقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "highlightedHtml": "أَوَلَمْ يَنظُرُوا۟ فِى مَلَكُوتِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا خَلَقَ ٱللَّهُ مِن شَىْءٍ وَأَنْ عَسَىٰٓ أَن يَكُونَ قَدِ ٱقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَىِّ <a class=\"highlight-text\">حَدِيثٍۭ</a> بَعْدَهُۥ يُؤْمِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 6,
+      "text": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ ٱلْأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ آلِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَكَذَٰلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِن تَأْوِيلِ <a class=\"highlight-text\">ٱلْأَحَادِيثِ</a> وَيُتِمُّ نِعْمَتَهُۥ عَلَيْكَ وَعَلَىٰٓ آلِ يَعْقُوبَ كَمَآ أَتَمَّهَا عَلَىٰٓ أَبَوَيْكَ مِن قَبْلُ إِبْرَٰهِيمَ وَإِسْحَٰقَ ۚ إِنَّ رَبَّكَ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 21,
+      "text": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ <a class=\"highlight-text\">ٱلْأَحَادِيثِ</a> ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 101,
+      "text": "رَبِّ قَدْ آتَيْتَنِي مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ تَوَفَّنِى مُسْلِمًا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
+      "highlightedHtml": "رَبِّ قَدْ آتَيْتَنِي مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ <a class=\"highlight-text\">ٱلْأَحَادِيثِ</a> ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ تَوَفَّنِى مُسْلِمًا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 111,
+      "text": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ <a class=\"highlight-text\">حَدِيثًا</a> يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 6,
+      "text": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "highlightedHtml": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا <a class=\"highlight-text\">ٱلْحَدِيثِ</a> أَسَفًا",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 70,
+      "text": "قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ أُحْدِثَ لَكَ مِنْهُ ذِكْرًا",
+      "highlightedHtml": "قَالَ فَإِنِ ٱتَّبَعْتَنِى فَلَا تَسْـَٔلْنِى عَن شَىْءٍ حَتَّىٰٓ <a class=\"highlight-text\">أُحْدِثَ</a> لَكَ مِنْهُ ذِكْرًا",
+      "derivedForms": [
+        "يُحْدِثُ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 9,
+      "text": "وَهَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "highlightedHtml": "وَهَلْ أَتَىٰكَ <a class=\"highlight-text\">حَدِيثُ</a> مُوسَىٰٓ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 113,
+      "text": "وَكَذَٰلِكَ أَنزَلْنَٰهُ قُرْءَانًا عَرَبِيًّا وَصَرَّفْنَا وَصَرَّفْنَا فِيهِ مِنَ ٱلْوَعِيدِ لَعَلَّهُمْ يَتَّقُونَ أَوْ يُحْدِثُ لَهُمْ ذِكْرًا",
+      "highlightedHtml": "وَكَذَٰلِكَ أَنزَلْنَٰهُ قُرْءَانًا عَرَبِيًّا وَصَرَّفْنَا وَصَرَّفْنَا فِيهِ مِنَ ٱلْوَعِيدِ لَعَلَّهُمْ يَتَّقُونَ أَوْ <a class=\"highlight-text\">يُحْدِثُ</a> لَهُمْ ذِكْرًا",
+      "derivedForms": [
+        "يُحْدِثُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 2,
+      "text": "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا ٱسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ",
+      "highlightedHtml": "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم <a class=\"highlight-text\">مُّحْدَثٍ</a> إِلَّا ٱسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ",
+      "derivedForms": [
+        "مُحْدَثٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 44,
+      "text": "ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
+      "highlightedHtml": "ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَٰهُمْ <a class=\"highlight-text\">أَحَادِيثَ</a> ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 5,
+      "text": "وَمَا يَأْتِيهِم مِّن ذِكْرٍ مِّنَ ٱلرَّحْمَٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ",
+      "highlightedHtml": "وَمَا يَأْتِيهِم مِّن ذِكْرٍ مِّنَ ٱلرَّحْمَٰنِ <a class=\"highlight-text\">مُحْدَثٍ</a> إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ",
+      "derivedForms": [
+        "مُحْدَثٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 6,
+      "text": "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
+      "highlightedHtml": "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ <a class=\"highlight-text\">ٱلْحَدِيثِ</a> لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 53,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ لِحَدِيثٍ ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَدْخُلُوا۟ بُيُوتَ ٱلنَّبِىِّ إِلَّآ أَن يُؤْذَنَ لَكُمْ إِلَىٰ طَعَامٍ غَيْرَ نَٰظِرِينَ إِنَىٰهُ وَلَٰكِنْ إِذَا دُعِيتُمْ فَٱدْخُلُوا۟ فَإِذَا طَعِمْتُمْ فَٱنتَشِرُوا۟ وَلَا مُسْتَـْٔنِسِينَ <a class=\"highlight-text\">لِحَدِيثٍ</a> ۚ إِنَّ ذَٰلِكُمْ كَانَ يُؤْذِى ٱلنَّبِىَّ فَيَسْتَحْىِۦ مِنكُمْ ۖ وَٱللَّهُ لَا يَسْتَحْىِۦ مِنَ ٱلْحَقِّ ۚ وَإِذَا سَأَلْتُمُوهُنَّ مَتَٰعًا فَسْـَٔلُوهُنَّ مِن وَرَآءِ حِجَابٍ ۚ ذَٰلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ وَقُلُوبِهِنَّ ۚ وَمَا كَانَ لَكُمْ أَن تُؤْذُوا۟ رَسُولَ ٱللَّهِ وَلَآ أَن تَنكِحُوٓا۟ أَزْوَٰجَهُۥ مِنۢ بَعْدِهِۦٓ أَبَدًا ۚ إِنَّ ذَٰلِكُمْ كَانَ عِندَ ٱللَّهِ عَظِيمًا",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 19,
+      "text": "فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ أَحَادِيثَ وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "highlightedHtml": "فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ <a class=\"highlight-text\">أَحَادِيثَ</a> وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 23,
+      "text": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًا مُّتَشَٰبِهًا مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "highlightedHtml": "ٱللَّهُ نَزَّلَ أَحْسَنَ <a class=\"highlight-text\">ٱلْحَدِيثِ</a> كِتَٰبًا مُّتَشَٰبِهًا مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 6,
+      "text": "تِلْكَ آيَاتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَ ٱللَّهِ وَءَايَٰتِهِۦ يُؤْمِنُونَ",
+      "highlightedHtml": "تِلْكَ آيَاتُ ٱللَّهِ نَتْلُوهَا عَلَيْكَ بِٱلْحَقِّ ۖ فَبِأَىِّ <a class=\"highlight-text\">حَدِيثٍۭ</a> بَعْدَ ٱللَّهِ وَءَايَٰتِهِۦ يُؤْمِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 24,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ <a class=\"highlight-text\">حَدِيثُ</a> ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 34,
+      "text": "فَلْيَأْتُوا۟ بِحَدِيثٍ مِّثْلِهِۦٓ إِن كَانُوا۟ صَٰدِقِينَ",
+      "highlightedHtml": "فَلْيَأْتُوا۟ <a class=\"highlight-text\">بِحَدِيثٍ</a> مِّثْلِهِۦٓ إِن كَانُوا۟ صَٰدِقِينَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 59,
+      "text": "أَفَمِنْ هَٰذَا ٱلْحَدِيثِ تَعْجَبُونَ",
+      "highlightedHtml": "أَفَمِنْ هَٰذَا <a class=\"highlight-text\">ٱلْحَدِيثِ</a> تَعْجَبُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 81,
+      "text": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+      "highlightedHtml": "أَفَبِهَٰذَا <a class=\"highlight-text\">ٱلْحَدِيثِ</a> أَنتُم مُّدْهِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ <a class=\"highlight-text\">يُحْدِثُ</a> بَعْدَ ذَٰلِكَ أَمْرًا",
+      "derivedForms": [
+        "يُحْدِثُ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 3,
+      "text": "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ <a class=\"highlight-text\">حَدِيثًا</a> فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 44,
+      "text": "فَذَرْنِى وَمَن يُكَذِّبُ بِهَٰذَا ٱلْحَدِيثِ ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+      "highlightedHtml": "فَذَرْنِى وَمَن يُكَذِّبُ بِهَٰذَا <a class=\"highlight-text\">ٱلْحَدِيثِ</a> ۖ سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 50,
+      "text": "فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">حَدِيثٍۭ</a> بَعْدَهُۥ يُؤْمِنُونَ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 15,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ مُوسَىٰٓ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ <a class=\"highlight-text\">حَدِيثُ</a> مُوسَىٰٓ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 17,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ <a class=\"highlight-text\">حَدِيثُ</a> ٱلْجُنُودِ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 1,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ <a class=\"highlight-text\">حَدِيثُ</a> ٱلْغَٰشِيَةِ",
+      "derivedForms": [
+        "حَدِيثٌ"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 11,
+      "text": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
+      "highlightedHtml": "وَأَمَّا بِنِعْمَةِ رَبِّكَ <a class=\"highlight-text\">فَحَدِّثْ</a>",
+      "derivedForms": [
+        "تُحَدِّثُ"
+      ]
+    },
+    {
+      "surah": 99,
+      "ayah": 4,
+      "text": "يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهَا",
+      "highlightedHtml": "يَوْمَئِذٍ <a class=\"highlight-text\">تُحَدِّثُ</a> أَخْبَارَهَا",
+      "derivedForms": [
+        "تُحَدِّثُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:49.073Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form II) imperfect verb",
+    "derivativeNote": "أَتُحَدِّثُونَهُم is in the derivative form: تُحَدِّثُ",
+    "rootDefinitionHtml": "ح/د/ث   ḥ–d–th new, novel, youth<br>; to originate, to create; to happen, incident, occurrence; to tell, to narrate, to speak to, to disclose. <br><br>Of this root, 5 forms occur 36 times in the Qur’an:<br> تُحَدِّثُ tuḥaddith 3 times; يُحْدِثُ yuḥdith 3 times; مُحْدَثٌ muḥdath 2 times; حَدِيثٌ ḥadıth 23 times and أَحَادِيثُ ʾaḥādıth 5 times.",
+    "mainDefinitionHtml": "تُحَدِّثُ tuḥaddith [imperf. of v. II حَدَّثَ ḥaddatha] <br><br><strong>1 </strong>to divulge, to disclose, to tell (something) <br><br>(99:4) يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهاَ on that Day, it will tell its story <br><br><strong>2 </strong>[with prep. بـ] to acquaint someone with, to tell someone something, to inform someone of <br><br>(2:76) أَتُحَدِّثُونَهُمْ بِمَا فَتَحَ اللَّهُ عَلَيْكُمْ لِيُحَاجُّوكُمْ بِهِ عِنْدَ رَبِّكُمْ how can you disclose to them what God has revealed to you, so that they may be able to use it to argue against you before your Lord? <br><br><strong>3 </strong>to acknowledge, to show gratitude <br><br>(93:11) وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ and as for the blessings of your Lord, so [forever] acknowledge [them].",
+    "mainEntryId": "wdef-ح-د-ث.تُحَدِّثُ",
+    "entries": [
+      {
+        "id": "wdef-ح-د-ث",
+        "label": "ح-د-ث",
+        "definitionHtml": "ح/د/ث   ḥ–d–th new, novel, youth<br>; to originate, to create; to happen, incident, occurrence; to tell, to narrate, to speak to, to disclose. <br><br>Of this root, 5 forms occur 36 times in the Qur’an:<br> تُحَدِّثُ tuḥaddith 3 times; يُحْدِثُ yuḥdith 3 times; مُحْدَثٌ muḥdath 2 times; حَدِيثٌ ḥadıth 23 times and أَحَادِيثُ ʾaḥādıth 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-د-ث.تُحَدِّثُ",
+        "label": "تُحَدِّثُ",
+        "definitionHtml": "تُحَدِّثُ tuḥaddith [imperf. of v. II حَدَّثَ ḥaddatha] <br><br><strong>1 </strong>to divulge, to disclose, to tell (something) <br><br>(99:4) يَوْمَئِذٍ تُحَدِّثُ أَخْبَارَهاَ on that Day, it will tell its story <br><br><strong>2 </strong>[with prep. بـ] to acquaint someone with, to tell someone something, to inform someone of <br><br>(2:76) أَتُحَدِّثُونَهُمْ بِمَا فَتَحَ اللَّهُ عَلَيْكُمْ لِيُحَاجُّوكُمْ بِهِ عِنْدَ رَبِّكُمْ how can you disclose to them what God has revealed to you, so that they may be able to use it to argue against you before your Lord? <br><br><strong>3 </strong>to acknowledge, to show gratitude <br><br>(93:11) وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ and as for the blessings of your Lord, so [forever] acknowledge [them].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-د-ث.حَدِيثٌ",
+        "label": "حَدِيثٌ",
+        "definitionHtml": "حَدِيثٌ ḥadıth [n., pl. أَحَادِيثُ ʾaḥādıth] <br><br><strong>1 </strong>discourse <br><br>(52:34) فَلْيَأْتُوا بِحَدِيثٍ مِثْلِهِ إِنْ كَانُوا صَادِقِينَ let them produce one discourse like it if they are truthful <br><br><strong>2 </strong>conversation, chat <br><br>(33:53) فَإِذَا طَعِمْتُمْ فَانْتَشِرُوا وَلاَ مُسْتَأْنِسِينَ لِحَدِيثٍ then, when you have eaten, disperse, and do not stay on desiring a chat <br><br><strong>3 </strong>statement, tiding, news <br><br>(53:59) أَفَمِنْ هَذَا الْحَدِيثِ تَعْجَبُونَ do you [people] marvel at this tiding? <br><br><strong>4 </strong>topic, subject of conversation <br><br>(6:68) وَإِذَا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِى ءَايَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِى حَدِيثٍ غَيْرِهِ when you come across people who speak ill of our revelations, turn away from them until they move on to another topic <br><br><strong>5 </strong>piece of information <br><br>(66:3) وَإِذْ أَسَرَّ النَّبِيُc إِلَى بَعْضِ أَزْوَاجِهِ حَدِيثًا and when the Prophet told something in confidence to one of his wives <br><br><strong>6 </strong>story, account, tale <br><br>(51:24) هَلْ أَتَاكَ حَدِيثُ ضَيْفِ إِبْرَاهِيمَ الْمُكْرَمِينَ has the story of the honoured guests of Abraham reached you? <br><br><strong>7 </strong>lesson, example, cautionary tale <br><br>(23:44) كُلَّ مَا جَاءَ أُمَّةً رَسُولُهَا كَذَّبُوهُ فَأَتْبَعْنَا بَعْضَهُمْ بَعْضًا وَجَعَلْنَاهُمْ أحاديث whenever a messenger came to a community, they called him a liar, so We destroyed them one after the other and made them into cautionary tales <br><br><strong>8 </strong>events, happenings (in an interpretation of 12:6) وَكَذَلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِنْ تَأْوِيلِ الأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُ عَلَيْكَ thus, your Lord will choose you, teach you to interpret events and perfect His blessing on you <br><br><strong>9 </strong>dreams (in an interpretation of 12:6) وَكَذَلِكَ يَجْتَبِيكَ رَبُّكَ وَيُعَلِّمُكَ مِنْ تَأْوِيلِ الأَحَادِيثِ وَيُتِمُّ نِعْمَتَهُ عَلَيْكَ thus, your Lord will choose you, teach you to interpret dreams and perfect His blessing on you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-د-ث.مُحْدَثٌ",
+        "label": "مُحْدَثٌ",
+        "definitionHtml": "مُحْدَثٌ muḥdath [pass. part.] something newly created, fresh <br><br>(21:2) مَا يَأْتِيهِمْ مِنْ ذِكْرٍ مِنْ رَبِّهِمْ مُحْدَثٍ إِلاَّ اسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ no newly revealed reminder comes to them from their Lord, but they listen to it as they play.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-د-ث.يُحْدِثُ",
+        "label": "يُحْدِثُ",
+        "definitionHtml": "يُحْدِثُ yuḥdith [imperf. of v. IV أَحْدَثَ ʾaḥdatha] <br><br><strong>1 </strong>to cause something to come about <br><br>(65:1) لاَ تَدْرِي لَعَلَّ اللَّهَ يُحْدِثُ بَعْدَ ذَلِكَ أَمْرًا you can never know, for God may very well bring about a [new] situation <br><br><strong>2 </strong>to initiate <br><br>(18:70) فَإِنِ اتَّبَعْتَنِي فَلاَ تَسْأَلْنِي عَنْ شَيْءٍ حَتَّى أُحْدِثَ لَكَ مِنْهُ ذِكْرًا if you follow me, then, do not ask me about anything till I [myself] start to make a mention of it to you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:09.952Z",
+      "refword": "2:76:13",
+      "lexword": "أَتُحَدِّثُونَهُم"
+    }
+  }
+}

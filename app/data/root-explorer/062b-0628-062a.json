@@ -1,0 +1,419 @@
+{
+  "root": "ثبت",
+  "rootArabic": "ثبت",
+  "stats": {
+    "totalOccurrences": 18,
+    "derivativeCount": 6,
+    "surahCount": 11,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "ثَبَّتَ",
+      "count": 10
+    },
+    {
+      "form": "تَثْبِيتٌ",
+      "count": 2
+    },
+    {
+      "form": "ثَابِتٌ",
+      "count": 2
+    },
+    {
+      "form": "يُثْبِتُ",
+      "count": 2
+    },
+    {
+      "form": "اثْبُتْ",
+      "count": 1
+    },
+    {
+      "form": "ثُبُوتٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَثْبِيتٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَثْبِيتٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "اثْبُتْ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُثْبِتُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُثْبِتُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ثَابِتٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "ثُبُوتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّتَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 250,
+      "text": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا <a class=\"highlight-text\">وَثَبِّتْ</a> أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 265,
+      "text": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ <a class=\"highlight-text\">وَتَثْبِيتًا</a> مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "تَثْبِيتٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 147,
+      "text": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا <a class=\"highlight-text\">وَثَبِّتْ</a> أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 66,
+      "text": "وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَٰرِكُم مَّا فَعَلُوهُ إِلَّا قَلِيلٌ مِّنْهُمْ ۖ وَلَوْ أَنَّهُمْ فَعَلُوا۟ مَا يُوعَظُونَ بِهِۦ لَكَانَ خَيْرًا لَّهُمْ وَأَشَدَّ تَثْبِيتًا",
+      "highlightedHtml": "وَلَوْ أَنَّا كَتَبْنَا عَلَيْهِمْ أَنِ ٱقْتُلُوٓا۟ أَنفُسَكُمْ أَوِ ٱخْرُجُوا۟ مِن دِيَٰرِكُم مَّا فَعَلُوهُ إِلَّا قَلِيلٌ مِّنْهُمْ ۖ وَلَوْ أَنَّهُمْ فَعَلُوا۟ مَا يُوعَظُونَ بِهِۦ لَكَانَ خَيْرًا لَّهُمْ وَأَشَدَّ <a class=\"highlight-text\">تَثْبِيتًا</a>",
+      "derivedForms": [
+        "تَثْبِيتٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 11,
+      "text": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "highlightedHtml": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ <a class=\"highlight-text\">وَيُثَبِّتَ</a> بِهِ ٱلْأَقْدَامَ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 12,
+      "text": "إِذْ يُوحِى رَبُّكَ إِلَى ٱلْمَلَٰٓئِكَةِ أَنِّى مَعَكُمْ فَثَبِّتُوا۟ ٱلَّذِينَ آمَنُوا ۚ سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ فَٱضْرِبُوا۟ فَوْقَ ٱلْأَعْنَاقِ وَٱضْرِبُوا۟ مِنْهُمْ كُلَّ بَنَانٍ",
+      "highlightedHtml": "إِذْ يُوحِى رَبُّكَ إِلَى ٱلْمَلَٰٓئِكَةِ أَنِّى مَعَكُمْ <a class=\"highlight-text\">فَثَبِّتُوا۟</a> ٱلَّذِينَ آمَنُوا ۚ سَأُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ فَٱضْرِبُوا۟ فَوْقَ ٱلْأَعْنَاقِ وَٱضْرِبُوا۟ مِنْهُمْ كُلَّ بَنَانٍ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 30,
+      "text": "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَٰكِرِينَ",
+      "highlightedHtml": "وَإِذْ يَمْكُرُ بِكَ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">لِيُثْبِتُوكَ</a> أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ ۚ وَيَمْكُرُونَ وَيَمْكُرُ ٱللَّهُ ۖ وَٱللَّهُ خَيْرُ ٱلْمَٰكِرِينَ",
+      "derivedForms": [
+        "يُثْبِتُ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 45,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا لَقِيتُمْ فِئَةً فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا لَقِيتُمْ فِئَةً <a class=\"highlight-text\">فَٱثْبُتُوا۟</a> وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "اثْبُتْ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 120,
+      "text": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا <a class=\"highlight-text\">نُثَبِّتُ</a> بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 39,
+      "text": "يَمْحُوا۟ ٱللَّهُ مَا يَشَآءُ وَيُثْبِتُ ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَٰبِ",
+      "highlightedHtml": "يَمْحُوا۟ ٱللَّهُ مَا يَشَآءُ <a class=\"highlight-text\">وَيُثْبِتُ</a> ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَٰبِ",
+      "derivedForms": [
+        "يُثْبِتُ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 24,
+      "text": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ",
+      "highlightedHtml": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا <a class=\"highlight-text\">ثَابِتٌ</a> وَفَرْعُهَا فِى ٱلسَّمَآءِ",
+      "derivedForms": [
+        "ثَابِتٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 27,
+      "text": "يُثَبِّتُ ٱللَّهُ ٱلَّذِينَ آمَنُوا بِٱلْقَوْلِ ٱلثَّابِتِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى الْآخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُثَبِّتُ</a> ٱللَّهُ ٱلَّذِينَ آمَنُوا بِٱلْقَوْلِ <a class=\"highlight-text\">ٱلثَّابِتِ</a> فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى الْآخِرَةِ ۖ وَيُضِلُّ ٱللَّهُ ٱلظَّٰلِمِينَ ۚ وَيَفْعَلُ ٱللَّهُ مَا يَشَآءُ",
+      "derivedForms": [
+        "ثَبَّتَ",
+        "ثَابِتٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 94,
+      "text": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ قَدَمٌۢ بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ قَدَمٌۢ بَعْدَ <a class=\"highlight-text\">ثُبُوتِهَا</a> وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "ثُبُوتٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 102,
+      "text": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ آمَنُوا وَهُدًى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "highlightedHtml": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ <a class=\"highlight-text\">لِيُثَبِّتَ</a> ٱلَّذِينَ آمَنُوا وَهُدًى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 74,
+      "text": "وَلَوْلَآ أَن ثَبَّتْنَٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِيلًا",
+      "highlightedHtml": "وَلَوْلَآ أَن <a class=\"highlight-text\">ثَبَّتْنَٰكَ</a> لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِيلًا",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 32,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ٱلْقُرْءَانُ جُمْلَةً وَٰحِدَةً ۚ كَذَٰلِكَ لِنُثَبِّتَ بِهِۦ فُؤَادَكَ ۖ وَرَتَّلْنَٰهُ وَرَتَّلْنَٰهُ تَرْتِيلًا تَرْتِيلًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ٱلْقُرْءَانُ جُمْلَةً وَٰحِدَةً ۚ كَذَٰلِكَ <a class=\"highlight-text\">لِنُثَبِّتَ</a> بِهِۦ فُؤَادَكَ ۖ وَرَتَّلْنَٰهُ وَرَتَّلْنَٰهُ تَرْتِيلًا تَرْتِيلًا",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 7,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ <a class=\"highlight-text\">وَيُثَبِّتْ</a> أَقْدَامَكُمْ",
+      "derivedForms": [
+        "ثَبَّتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:33.117Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form II) imperative verb",
+    "derivativeNote": "وَثَبِّتْ is in the derivative form: ثَبَّتَ",
+    "rootDefinitionHtml": "ث/ب/ت   th–b–t to stand firm, to be fixed, to hold out<br>; to establish, to make fast; to prove; to transfix; to be constant. <br><br>Of this root, 6 forms occur 18 times in the Qur’an:<br> اثْبُتْ ʾuthbut 1 time; ثَبَّتَ thabbata 10 times; يُثْبِتُ yuthbit 2 times; ثُبُوتٌ thubūt 1 time; ثَابِتٌ thābit 2 times and تَثْبِيتٌ tathbıt 2 times.",
+    "mainDefinitionHtml": "ثَبَّتَ thabbata [v. II, trans.] <br><br><strong>1 </strong>to set fast, to make firm, to give firmness <br><br>(14:27) يُثَبِّتُ اللَّهُ الَّذِينَ ءَامَنُوا بِالْقَوْلِ الثَّابِتِ فِى الْحَيَاةِ الدُّنْيَا وَفِي الآخِرَةِ God gives firmness to those who believe with the firmly‐rooted word, in this life and in the Hereafter [also interpreted as: God gives firmness to those who believe in the firmly‐rooted word, in this life and in the Hereafter]; *<br><br>(2:250) َثَبِّتْ أَقْدَامَنَا make us stand firm <br><br><strong>2 </strong>to bolster, to strengthen <br><br>(25:32) لِنُثَبِّتَ بِهِ فُؤَادَك that We may strengthen your heart with it.",
+    "mainEntryId": "wdef-ث-ب-ت.ثَبَّتَ",
+    "entries": [
+      {
+        "id": "wdef-ث-ب-ت",
+        "label": "ث-ب-ت",
+        "definitionHtml": "ث/ب/ت   th–b–t to stand firm, to be fixed, to hold out<br>; to establish, to make fast; to prove; to transfix; to be constant. <br><br>Of this root, 6 forms occur 18 times in the Qur’an:<br> اثْبُتْ ʾuthbut 1 time; ثَبَّتَ thabbata 10 times; يُثْبِتُ yuthbit 2 times; ثُبُوتٌ thubūt 1 time; ثَابِتٌ thābit 2 times and تَثْبِيتٌ tathbıt 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ت.ثَبَّتَ",
+        "label": "ثَبَّتَ",
+        "definitionHtml": "ثَبَّتَ thabbata [v. II, trans.] <br><br><strong>1 </strong>to set fast, to make firm, to give firmness <br><br>(14:27) يُثَبِّتُ اللَّهُ الَّذِينَ ءَامَنُوا بِالْقَوْلِ الثَّابِتِ فِى الْحَيَاةِ الدُّنْيَا وَفِي الآخِرَةِ God gives firmness to those who believe with the firmly‐rooted word, in this life and in the Hereafter [also interpreted as: God gives firmness to those who believe in the firmly‐rooted word, in this life and in the Hereafter]; *<br><br>(2:250) َثَبِّتْ أَقْدَامَنَا make us stand firm <br><br><strong>2 </strong>to bolster, to strengthen <br><br>(25:32) لِنُثَبِّتَ بِهِ فُؤَادَك that We may strengthen your heart with it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ث-ب-ت.اثْبُتْ",
+        "label": "اثْبُتْ",
+        "definitionHtml": "اثْبُتْ ʾuthbut [imperat. of v. ثَبَتَ thabata, intrans.] to stand firm, to hold fast to one’s position <br><br>(8:45) يَاأَيُّهَا الَّذِينَ ءَامَنُوا إِذَا لَقِيتُمْ فِئَةً فَاثْبُتُوا you who believe, when you meet a force [in battle], stand firm.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ت.تَثْبِيتٌ",
+        "label": "تَثْبِيتٌ",
+        "definitionHtml": "تَثْبِيتٌ tathbıt [v. n.] act of confirming, affirming, strengthening <br><br>(2:265) وَمَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمُ ابْتِغَاءَ مَرْضَاةِ اللَّهِ وَتَثْبِيتًا مِنْ أَنْفُسِهِمْ the likeness of those who spend their wealth seeking God’s pleasure, and strengthening themselves [their souls].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ت.ثَابِتٌ",
+        "label": "ثَابِتٌ",
+        "definitionHtml": "ثَابِتٌ thābit [act. part.] firmly rooted, steadfast, sure <br><br>(14:27) يُثَبِّتُ اللَّهُ الَّذِينَ ءَامَنُوا بِالْقَوْلِ الثَّابِتِ فِى الْحَيَاةِ الدُّنْيَا وَفِي الآخِرَةِ God gives firmness to those who believe, with the firmly‐rooted word, in this life and in the Hereafter [also interpreted as: God gives firmness to those who believe in the firmly‐rooted word, in this life and in the Hereafter].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ت.ثُبُوتٌ",
+        "label": "ثُبُوتٌ",
+        "definitionHtml": "ثُبُوتٌ thubūt [v. n.] being steadfast, steadfastness, being firm <br><br>(16:94) فَتَزِلَّ قَدَمٌ بَعْدَ ثُبُوتِهَا lest a foot should slip after its being firmly placed.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ت.يُثْبِتُ",
+        "label": "يُثْبِتُ",
+        "definitionHtml": "يُثْبِتُ yuthbit [imperf. of v. IV أَثْبَتَ ʾathbata, trans.] <br><br><strong>1 </strong>to confirm <br><br>(13:39) يَمْحُوا اللَّهُ مَا يَشَاءُ وَيُثْبِتُ God erases whatever He will and confirms [whatever He will] <br><br><strong>2 </strong>to immobilise, to transfix, restrain, to tie up, to take as captive <br><br>(8:30) وَإِذْ يَمْكُرُ بِكَ الَّذِينَ كَفَرُوا لِيُثْبِتُوكَ أَوْ يَقْتُلُوكَ أَوْ يُخْرِجُوكَ remember when the disbelievers were plotting against you, to take you captive, kill you or expel you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:49.222Z",
+      "refword": "2:250:10",
+      "lexword": "وَثَبِّتْ"
+    }
+  }
+}

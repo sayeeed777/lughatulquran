@@ -1,0 +1,618 @@
+{
+  "root": "خلص",
+  "rootArabic": "خلص",
+  "stats": {
+    "totalOccurrences": 31,
+    "derivativeCount": 6,
+    "surahCount": 17,
+    "ayahCount": 30
+  },
+  "derivatives": [
+    {
+      "form": "مُخْلِصٌ",
+      "count": 11
+    },
+    {
+      "form": "مُخْلَصٌ",
+      "count": 9
+    },
+    {
+      "form": "خَالِصٌ",
+      "count": 7
+    },
+    {
+      "form": "أَخْلَصَ",
+      "count": 2
+    },
+    {
+      "form": "أَسْتَخْلِصُ",
+      "count": 1
+    },
+    {
+      "form": "خَلَصَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَخْلَصَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَسْتَخْلِصُ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "خَلَصَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُخْلَصٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلَصٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلَصٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "مُخْلَصٌ",
+          "count": 5,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَخْلَصَ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مُخْلَصٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 3,
+          "totalInQuran": 11
+        },
+        {
+          "form": "خَالِصٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 98,
+      "surahName": "Al-Bayyinah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُخْلِصٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 94,
+      "text": "قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ الْآخِرَةُ عِندَ ٱللَّهِ خَالِصَةً مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ الْآخِرَةُ عِندَ ٱللَّهِ <a class=\"highlight-text\">خَالِصَةً</a> مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 139,
+      "text": "قُلْ أَتُحَآجُّونَنَا فِى ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ وَنَحْنُ لَهُۥ مُخْلِصُونَ",
+      "highlightedHtml": "قُلْ أَتُحَآجُّونَنَا فِى ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ وَنَحْنُ لَهُۥ <a class=\"highlight-text\">مُخْلِصُونَ</a>",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 146,
+      "text": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ <a class=\"highlight-text\">وَأَخْلَصُوا۟</a> دِينَهُمْ لِلَّهِ فَأُو۟لَٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
+      "derivedForms": [
+        "أَخْلَصَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 139,
+      "text": "وَقَالُوا۟ مَا فِى بُطُونِ هَٰذِهِ ٱلْأَنْعَٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "highlightedHtml": "وَقَالُوا۟ مَا فِى بُطُونِ هَٰذِهِ ٱلْأَنْعَٰمِ <a class=\"highlight-text\">خَالِصَةٌ</a> لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 29,
+      "text": "قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ",
+      "highlightedHtml": "قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍ وَٱدْعُوهُ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 32,
+      "text": "قُلْ مَنْ حَرَّمَ زِينَةَ ٱللَّهِ ٱلَّتِىٓ أَخْرَجَ لِعِبَادِهِۦ وَٱلطَّيِّبَٰتِ مِنَ ٱلرِّزْقِ ۚ قُلْ هِىَ لِلَّذِينَ آمَنُوا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا خَالِصَةً يَوْمَ ٱلْقِيَٰمَةِ ۗ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "highlightedHtml": "قُلْ مَنْ حَرَّمَ زِينَةَ ٱللَّهِ ٱلَّتِىٓ أَخْرَجَ لِعِبَادِهِۦ وَٱلطَّيِّبَٰتِ مِنَ ٱلرِّزْقِ ۚ قُلْ هِىَ لِلَّذِينَ آمَنُوا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا <a class=\"highlight-text\">خَالِصَةً</a> يَوْمَ ٱلْقِيَٰمَةِ ۗ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 22,
+      "text": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 24,
+      "text": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 54,
+      "text": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ <a class=\"highlight-text\">أَسْتَخْلِصْهُ</a> لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌ",
+      "derivedForms": [
+        "أَسْتَخْلِصُ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 80,
+      "text": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
+      "highlightedHtml": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ <a class=\"highlight-text\">خَلَصُوا۟</a> نَجِيًّا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
+      "derivedForms": [
+        "خَلَصَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 40,
+      "text": "إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَكَ مِنْهُمُ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 66,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا <a class=\"highlight-text\">خَالِصًا</a> سَآئِغًا لِّلشَّٰرِبِينَ",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 51,
+      "text": "وَٱذْكُرْ فِى ٱلْكِتَٰبِ مُوسَىٰٓ ۚ إِنَّهُۥ كَانَ مُخْلَصًا وَكَانَ رَسُولًا نَّبِيًّا",
+      "highlightedHtml": "وَٱذْكُرْ فِى ٱلْكِتَٰبِ مُوسَىٰٓ ۚ إِنَّهُۥ كَانَ <a class=\"highlight-text\">مُخْلَصًا</a> وَكَانَ رَسُولًا نَّبِيًّا",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 65,
+      "text": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+      "highlightedHtml": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 32,
+      "text": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "highlightedHtml": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 50,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا <a class=\"highlight-text\">خَالِصَةً</a> لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 40,
+      "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 74,
+      "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 128,
+      "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 160,
+      "text": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 169,
+      "text": "لَكُنَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "لَكُنَّا عِبَادَ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 46,
+      "text": "إِنَّآ أَخْلَصْنَٰهُم بِخَالِصَةٍ ذِكْرَى ٱلدَّارِ",
+      "highlightedHtml": "إِنَّآ <a class=\"highlight-text\">أَخْلَصْنَٰهُم</a> <a class=\"highlight-text\">بِخَالِصَةٍ</a> ذِكْرَى ٱلدَّارِ",
+      "derivedForms": [
+        "أَخْلَصَ",
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 83,
+      "text": "إِلَّا عِبَادَكَ مِنْهُمُ ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "إِلَّا عِبَادَكَ مِنْهُمُ <a class=\"highlight-text\">ٱلْمُخْلَصِينَ</a>",
+      "derivedForms": [
+        "مُخْلَصٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 2,
+      "text": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًا لَّهُ ٱلدِّينَ",
+      "highlightedHtml": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصًا</a> لَّهُ ٱلدِّينَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 3,
+      "text": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌ كَفَّارٌ",
+      "highlightedHtml": "أَلَا لِلَّهِ ٱلدِّينُ <a class=\"highlight-text\">ٱلْخَالِصُ</a> ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌ كَفَّارٌ",
+      "derivedForms": [
+        "خَالِصٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 11,
+      "text": "قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ مُخْلِصًا لَّهُ ٱلدِّينَ",
+      "highlightedHtml": "قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصًا</a> لَّهُ ٱلدِّينَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 14,
+      "text": "قُلِ ٱللَّهَ أَعْبُدُ مُخْلِصًا لَّهُۥ دِينِى",
+      "highlightedHtml": "قُلِ ٱللَّهَ أَعْبُدُ <a class=\"highlight-text\">مُخْلِصًا</a> لَّهُۥ دِينِى",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 14,
+      "text": "فَٱدْعُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "فَٱدْعُوا۟ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ وَلَوْ كَرِهَ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 65,
+      "text": "هُوَ ٱلْحَىُّ لَآ إِلَٰهَ إِلَّا هُوَ فَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۗ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "هُوَ ٱلْحَىُّ لَآ إِلَٰهَ إِلَّا هُوَ فَٱدْعُوهُ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ ۗ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    },
+    {
+      "surah": 98,
+      "ayah": 5,
+      "text": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+      "highlightedHtml": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ <a class=\"highlight-text\">مُخْلِصِينَ</a> لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+      "derivedForms": [
+        "مُخْلِصٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:37.909Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite active participle",
+    "derivativeNote": "خَالِصَةً is in the derivative form: خَالِصٌ",
+    "rootDefinitionHtml": "خ/ل/ص   kh–l–ṣ purity, to be unblemished, to purify, to extricate, to extract, to select above others, to befriend<br>; to bring to safety, to reach safety; to arrive, to join someone, to be alone with; to be sincere. <br><br>Of this root, 9 forms occur 31 times in the Qur’an:<br> خَلَصَ khalaṣa 1 time; أَخْلَصَ ʾakhlaṣa 2 times; اسْتَخْلَصَ ʾistakhlaṣa 1 time; خَالِصٌ khāliṣ 2 times; خَالِصَةٌ khāliṣatun 5 times; مُخْلِصٌ mukhliṣ 3 times; مُخْلِصُون mukhliṣūn 8 times; مُخْلَصٌ mukhlaṣ 1 time and مُخْلَصُون mukhlaṣūn 8 times.",
+    "mainDefinitionHtml": "خَالِصٌ khāliṣ I [quasi‐act. part.; fem. خَالِصَةٌ khāliṣatun] pure, complete, total, true <br><br>(39:3) أَلاَ لِلَّهِ الدِّينُ الْخَالِصُ true [also: pure, total, complete] devotion is due to God alone II [fem. n. خَالِصَةٌ khāliṣatun] entitlement to the exclusion of all others, a privilege, that which is particularised <br><br>(33:50) وَامْرَأَةً مُؤْمِنَةً إِنْ وَهَبَتْ نَفْسَهَا لِلنَّبِيِّ إِنْ أَرَادَ النَّبِيُّ أَنْ يَسْتَنْكِحَهَا خَالِصَةً لَكَ مِنْ دُونِ الْمُؤْمِنِينَ also any believing woman who offers herself [without dowry in marriage] to the Prophet and if the Prophet wishes to seek her in marriage–this is an exclusive [privilege] for you [Prophet] and not for the [rest of the] believers.",
+    "mainEntryId": "wdef-خ-ل-ص.خَالِصٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ل-ص",
+        "label": "خ-ل-ص",
+        "definitionHtml": "خ/ل/ص   kh–l–ṣ purity, to be unblemished, to purify, to extricate, to extract, to select above others, to befriend<br>; to bring to safety, to reach safety; to arrive, to join someone, to be alone with; to be sincere. <br><br>Of this root, 9 forms occur 31 times in the Qur’an:<br> خَلَصَ khalaṣa 1 time; أَخْلَصَ ʾakhlaṣa 2 times; اسْتَخْلَصَ ʾistakhlaṣa 1 time; خَالِصٌ khāliṣ 2 times; خَالِصَةٌ khāliṣatun 5 times; مُخْلِصٌ mukhliṣ 3 times; مُخْلِصُون mukhliṣūn 8 times; مُخْلَصٌ mukhlaṣ 1 time and مُخْلَصُون mukhlaṣūn 8 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ص.خَالِصٌ",
+        "label": "خَالِصٌ",
+        "definitionHtml": "خَالِصٌ khāliṣ I [quasi‐act. part.; fem. خَالِصَةٌ khāliṣatun] pure, complete, total, true <br><br>(39:3) أَلاَ لِلَّهِ الدِّينُ الْخَالِصُ true [also: pure, total, complete] devotion is due to God alone II [fem. n. خَالِصَةٌ khāliṣatun] entitlement to the exclusion of all others, a privilege, that which is particularised <br><br>(33:50) وَامْرَأَةً مُؤْمِنَةً إِنْ وَهَبَتْ نَفْسَهَا لِلنَّبِيِّ إِنْ أَرَادَ النَّبِيُّ أَنْ يَسْتَنْكِحَهَا خَالِصَةً لَكَ مِنْ دُونِ الْمُؤْمِنِينَ also any believing woman who offers herself [without dowry in marriage] to the Prophet and if the Prophet wishes to seek her in marriage–this is an exclusive [privilege] for you [Prophet] and not for the [rest of the] believers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ل-ص.أَخْلَصَ",
+        "label": "أَخْلَصَ",
+        "definitionHtml": "أَخْلَصَ ʾakhlaṣa [v. IV, trans.] <br><br><strong>1 </strong>to devote, to dedicate oneself or something entirely to <br><br>(4:146) إِلاَّ الَّذِينَ تَابُوا وَأَصْلَحُوا وَاعْتَصَمُوا بِاللَّهِ وَأَخْلَصُوا دِينَهُمْ لِلَّه not so those who repent, mend their ways, hold fast to God, and devote their religion entirely to Him <br><br><strong>2 </strong>to purify, to make someone pure; or to distinguish someone with, to favour someone with something exclusively; or to make someone devoted to <br><br>(38:46) إِنَّا أَخْلَصْنَاهُمْ بِخَالِصَةٍ ذِكْرَى الدَّارِ We have rendered them pure by a pure quality (or, We have favoured them, to the exclusion of others, with a quality particular to them; or, We have made them devoted [to Us] by a quality of their own), [namely] their keeping in mind the [ultimate] abode.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ص.أَسْتَخْلِصُ",
+        "label": "أَسْتَخْلِصُ",
+        "definitionHtml": "أَسْتَخْلِصُ ʾastakhliṣ [1st pers. imperf. of v. X اسْتَخْلَصَ ʾistakhlaṣa, trans.] to select someone or something above all else, to dedicate someone/something to oneself <br><br>(12:54) وَقَالَ الْمَلِكُ ائْتُونِي بِهِ أَسْتَخْلِصْهُ لِنَفْسِي the king said, ‘Bring him to me: so I may attach him to my person.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ص.خَلَصَ",
+        "label": "خَلَصَ",
+        "definitionHtml": "خَلَصَ khalaṣa u [v. intrans.] to extricate oneself, to draw away from others, to draw or retire to one side <br><br>(12:80) فَلَمَّا اسْتَيْئَسُوا مِنْهُ خَلَصُوا نَجِيًّا when they despaired of [retrieving] him, they retired to one side, as a conferring group.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ص.مُخْلَصٌ",
+        "label": "مُخْلَصٌ",
+        "definitionHtml": "مُخْلَصٌ mukhlaṣ [pass. part., pl. مُخْلَصُون mukhlaṣūn] the chosen one, the purified one <br><br>(38:83) إِلاَّ عِبَادَكَ مِنْهُمُ الْمُخْلَصِينَ except for Your chosen/purified servants; * الإِخلاص name of Sura 112, Meccan sura, so‐named because of the ‘purity of faith’ it describes, also called الصَمَد and الصَمَدِيَّة (see د/م/ص ṣ–m–d).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ص.مُخْلِصٌ",
+        "label": "مُخْلِصٌ",
+        "definitionHtml": "مُخْلِصٌ mukhliṣ [act. part., pl. مُخْلِصُون mukhliṣūn] <br><br><strong>1 </strong>one who devotes or dedicates oneself or something to <br><br>(39:2) إِنَّا أَنْزَلْنَا إِلَيْكَ الْكِتَابَ بِالْحَقِّ فَاعْبُدِ اللَّهَ مُخْلِصًا لَهُ الدِّينَ indeed, We have sent down the Book to you with the Truth, so worship God, devoting to Him the religion <br><br><strong>2 </strong>one who is sincere <br><br>(2:139) قُلْ أَتُحَاجُّونَنَا فِى اللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ وَنَحْنُ لَهُ مُخْلِصُونَ say [to the people of the Scripture] How can you argue with us about God when He is our Lord and your Lord? Our deeds belong to us, and yours to you. We are sincere to Him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:39.294Z",
+      "refword": "2:94:9",
+      "lexword": "خَالِصَةً"
+    }
+  }
+}

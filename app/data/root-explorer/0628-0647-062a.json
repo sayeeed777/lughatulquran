@@ -1,0 +1,219 @@
+{
+  "root": "بهت",
+  "rootArabic": "بهت",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "بُهْتَانٌ",
+      "count": 6
+    },
+    {
+      "form": "بُهِتَ",
+      "count": 1
+    },
+    {
+      "form": "تَبْهَتُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُهِتَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "بُهْتَانٌ",
+          "count": 3,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَبْهَتُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُهْتَانٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُهْتَانٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُهْتَانٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 258,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِۦمَ فِى رَبِّهِۦٓ أَنْ آتَاهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِۦمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ فَبُهِتَ ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِۦمَ فِى رَبِّهِۦٓ أَنْ آتَاهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِۦمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ <a class=\"highlight-text\">فَبُهِتَ</a> ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "بُهِتَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 20,
+      "text": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًا قِنطَارًا قِنطَارًا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "highlightedHtml": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًا قِنطَارًا قِنطَارًا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ <a class=\"highlight-text\">بُهْتَٰنًا</a> وَإِثْمًا مُّبِينًا",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 112,
+      "text": "وَمَن يَكْسِبْ خَطِيٓـَٔةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًٔا فَقَدِ ٱحْتَمَلَ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "highlightedHtml": "وَمَن يَكْسِبْ خَطِيٓـَٔةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًٔا فَقَدِ ٱحْتَمَلَ <a class=\"highlight-text\">بُهْتَٰنًا</a> وَإِثْمًا مُّبِينًا",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 156,
+      "text": "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ بُهْتَٰنًا عَظِيمًا",
+      "highlightedHtml": "وَبِكُفْرِهِمْ وَقَوْلِهِمْ عَلَىٰ مَرْيَمَ <a class=\"highlight-text\">بُهْتَٰنًا</a> عَظِيمًا",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 40,
+      "text": "بَلْ تَأْتِيهِم بَغْتَةً فَتَبْهَتُهُمْ فَلَا يَسْتَطِيعُونَ رَدَّهَا وَلَا هُمْ يُنظَرُونَ",
+      "highlightedHtml": "بَلْ تَأْتِيهِم بَغْتَةً <a class=\"highlight-text\">فَتَبْهَتُهُمْ</a> فَلَا يَسْتَطِيعُونَ رَدَّهَا وَلَا هُمْ يُنظَرُونَ",
+      "derivedForms": [
+        "تَبْهَتُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 16,
+      "text": "وَلَوْلَآ إِذْ سَمِعْتُمُوهُ قُلْتُم مَّا يَكُونُ لَنَآ أَن نَّتَكَلَّمَ بِهَٰذَا سُبْحَٰنَكَ هَٰذَا بُهْتَٰنٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَوْلَآ إِذْ سَمِعْتُمُوهُ قُلْتُم مَّا يَكُونُ لَنَآ أَن نَّتَكَلَّمَ بِهَٰذَا سُبْحَٰنَكَ هَٰذَا <a class=\"highlight-text\">بُهْتَٰنٌ</a> عَظِيمٌ",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 58,
+      "text": "وَٱلَّذِينَ يُؤْذُونَ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ بِغَيْرِ مَا ٱكْتَسَبُوا۟ فَقَدِ ٱحْتَمَلُوا۟ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "highlightedHtml": "وَٱلَّذِينَ يُؤْذُونَ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ بِغَيْرِ مَا ٱكْتَسَبُوا۟ فَقَدِ ٱحْتَمَلُوا۟ <a class=\"highlight-text\">بُهْتَٰنًا</a> وَإِثْمًا مُّبِينًا",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ <a class=\"highlight-text\">بِبُهْتَٰنٍ</a> يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "بُهْتَانٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:06.043Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive perfect verb",
+    "derivativeNote": "فَبُهِتَ is in the derivative form: بُهِتَ",
+    "rootDefinitionHtml": "ب/هـ/ت b–h–t to be confounded, to be taken by surprise, to be dumbfounded<br>; falsehood, slander; to be argued down; to be perplexed. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> تَبْهَتُ tabhat 1 time; بُهِتَ buhita 1 time and بُهْتَانٌ buhtān 6 times.",
+    "mainDefinitionHtml": "بُهِتَ buhita [pass. v.] to be confounded, to be dumbfounded <br><br>(2:258) قَالَ إِبْرَاهِيمُ فَإِنَّ اللَّهَ يَأْتِي بِالشَّمْسِ مِنَ الْمَشْرِقِ فَأْتِ بِهَا مِنَ الْمَغْرِبِ فَبُهِتَ الَّذِي كَفَرَ so Abraham said, ‘God brings the sun from the east; so bring it from the west’, the one who disbelieved was confounded.",
+    "mainEntryId": "wdef-ب-هـ-ت.بُهِتَ",
+    "entries": [
+      {
+        "id": "wdef-ب-هـ-ت",
+        "label": "ب-هـ-ت",
+        "definitionHtml": "ب/هـ/ت b–h–t to be confounded, to be taken by surprise, to be dumbfounded<br>; falsehood, slander; to be argued down; to be perplexed. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> تَبْهَتُ tabhat 1 time; بُهِتَ buhita 1 time and بُهْتَانٌ buhtān 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-هـ-ت.بُهِتَ",
+        "label": "بُهِتَ",
+        "definitionHtml": "بُهِتَ buhita [pass. v.] to be confounded, to be dumbfounded <br><br>(2:258) قَالَ إِبْرَاهِيمُ فَإِنَّ اللَّهَ يَأْتِي بِالشَّمْسِ مِنَ الْمَشْرِقِ فَأْتِ بِهَا مِنَ الْمَغْرِبِ فَبُهِتَ الَّذِي كَفَرَ so Abraham said, ‘God brings the sun from the east; so bring it from the west’, the one who disbelieved was confounded.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-هـ-ت.بُهْتَانٌ",
+        "label": "بُهْتَانٌ",
+        "definitionHtml": "بُهْتَانٌ buhtān [n./v. n.] <br><br><strong>1 </strong>fabrication, perjury, falsehood *<br><br>(60:12) وَلاَ يَأْتِينَ بِبُهْتَانٍ يَفْتَرِينَهُ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ they do not falsely attribute children to their husbands, they do not commit adultery [lit. nor do they produce any falsehood, they fabricate between their hands and legs] <br><br><strong>2 </strong>malicious slander, calumny <br><br>(24:16) مَا يَكُونُ لَنَا أَنْ نَتَكَلَّمَ بِهَذَا سُبْحَانَكَ هَذَا بُهْتَانٌ عَظِيمٌ it is not [proper] for us to speak of this!–Glory be to You!–this is a monstrous slander <br><br><strong>3 </strong>deception, trickery; unjust act <br><br>(4:20) وَإِنْ أَرَدْتُمُ اسْتِبْدَالَ زَوْجٍ مَكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَاهُنَّ قِنْطَارًا فَلاَ تَأْخُذُوا مِنْهُ شَيْئًا أَتَأْخُذُونَهُ بُهْتَانًا وَإِثْمًا مُبِينًا and if you wish to replace one wife with another, and [even if] you have given any one of them [as a dower] a ton [of gold], do not take any of it [back], do you take it by way of calumny and manifest sin?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-هـ-ت.تَبْهَتُ",
+        "label": "تَبْهَتُ",
+        "definitionHtml": "تَبْهَتُ tabhat [imperf. of v. بَهَتَ bahata, trans.] to render dumbfounded and unable to act, to stupefy, to stun <br><br>(21:40) بَلْ تَأْتِيهِمْ بَغْتَةً فَتَبْهَتُهُمْ فَلاَ يَسْتَطِيعُونَ رَدَّهَا but it will come upon them suddenly, and it will stupefy them; so they will not be able to repel it.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:00.086Z",
+      "refword": "2:258:36",
+      "lexword": "فَبُهِتَ"
+    }
+  }
+}

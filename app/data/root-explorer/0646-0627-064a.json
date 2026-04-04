@@ -1,0 +1,116 @@
+{
+  "root": "ناي",
+  "rootArabic": "ناي",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَأَى",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَأَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَأَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَأَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 26,
+      "text": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَهُمْ يَنْهَوْنَ عَنْهُ <a class=\"highlight-text\">وَيَنْـَٔوْنَ</a> عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "نَأَى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 83,
+      "text": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًا",
+      "highlightedHtml": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ <a class=\"highlight-text\">وَنَـَٔا</a> بِجَانِبِهِۦ ۖ وَإِذَا مَسَّهُ ٱلشَّرُّ كَانَ يَـُٔوسًا",
+      "derivedForms": [
+        "نَأَى"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 51,
+      "text": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ وَنَـَٔا بِجَانِبِهِۦ وَإِذَا مَسَّهُ ٱلشَّرُّ فَذُو دُعَآءٍ عَرِيضٍ",
+      "highlightedHtml": "وَإِذَآ أَنْعَمْنَا عَلَى ٱلْإِنسَٰنِ أَعْرَضَ <a class=\"highlight-text\">وَنَـَٔا</a> بِجَانِبِهِۦ وَإِذَا مَسَّهُ ٱلشَّرُّ فَذُو دُعَآءٍ عَرِيضٍ",
+      "derivedForms": [
+        "نَأَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:55.546Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "وَيَنْـَٔوْنَ is in the derivative form: نَأَى",
+    "rootDefinitionHtml": "ن/أ/ي   n–ʾ–y small ditch encircling a tent to keep sewage away, to go a long distance, to walk away, to shun, to be far removed, to keep away, to remove. One form of this root, نَأَى naʾā, occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَأَى naʾā ā [v. intrans.] to go far away, to distance oneself from <br><br>(6:26) وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْأَوْنَ عَنْهُ they drive [others] away from it and keep themselves away from it; *<br><br>(17:83) نَأَى بِجَانِبِهِ he becomes haughty [lit. he turns away to his side].",
+    "mainEntryId": "wdef-ن-أ-ي.نَأَى",
+    "entries": [
+      {
+        "id": "wdef-ن-أ-ي",
+        "label": "ن-أ-ي",
+        "definitionHtml": "ن/أ/ي   n–ʾ–y small ditch encircling a tent to keep sewage away, to go a long distance, to walk away, to shun, to be far removed, to keep away, to remove. One form of this root, نَأَى naʾā, occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-أ-ي.نَأَى",
+        "label": "نَأَى",
+        "definitionHtml": "نَأَى naʾā ā [v. intrans.] to go far away, to distance oneself from <br><br>(6:26) وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْأَوْنَ عَنْهُ they drive [others] away from it and keep themselves away from it; *<br><br>(17:83) نَأَى بِجَانِبِهِ he becomes haughty [lit. he turns away to his side].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:09.044Z",
+      "refword": "6:26:4",
+      "lexword": "وَيَنْـَٔوْنَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "فضو",
+  "rootArabic": "فضو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أفْضى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أفْضى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 21,
+      "text": "وَكَيْفَ تَأْخُذُونَهُۥ وَقَدْ أَفْضَىٰ بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًا",
+      "highlightedHtml": "وَكَيْفَ تَأْخُذُونَهُۥ وَقَدْ <a class=\"highlight-text\">أَفْضَىٰ</a> بَعْضُكُمْ إِلَىٰ بَعْضٍ وَأَخَذْنَ مِنكُم مِّيثَٰقًا غَلِيظًا",
+      "derivedForms": [
+        "أفْضى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:02.168Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "أَفْضَىٰ is in the derivative form: أفْضى",
+    "rootDefinitionHtml": "ف/ض/و   f–ḍ–w wide open space, to go out into the open; to be empty; to reach out to, to break the barriers between, to become close to; to occupy the space of. Of this root, أفْضَى ʾafḍā, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أفْضى ʾafḍā [v. VI, intrans.] to break the barriers between, to occupy the space of, to become adjacent to, to come close to *<br><br>(4:21) ‏أَفْضَى ‏‏بَعْضُكُمْ‏ ‏إِلَى‏ ‏بَعْضٍ you have slept together [lit. one of you has come close to the other]. ‏",
+    "mainEntryId": "wdef-ف-ض-و.أفْضى",
+    "entries": [
+      {
+        "id": "wdef-ف-ض-و",
+        "label": "ف-ض-و",
+        "definitionHtml": "ف/ض/و   f–ḍ–w wide open space, to go out into the open; to be empty; to reach out to, to break the barriers between, to become close to; to occupy the space of. Of this root, أفْضَى ʾafḍā, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ض-و.أفْضى",
+        "label": "أفْضى",
+        "definitionHtml": "أفْضى ʾafḍā [v. VI, intrans.] to break the barriers between, to occupy the space of, to become adjacent to, to come close to *<br><br>(4:21) ‏أَفْضَى ‏‏بَعْضُكُمْ‏ ‏إِلَى‏ ‏بَعْضٍ you have slept together [lit. one of you has come close to the other]. ‏",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:43.789Z",
+      "refword": "4:21:4",
+      "lexword": "أَفْضَىٰ"
+    }
+  }
+}

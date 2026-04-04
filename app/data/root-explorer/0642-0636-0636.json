@@ -1,0 +1,74 @@
+{
+  "root": "قضض",
+  "rootArabic": "قضض",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَنْقَضّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْقَضّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 77,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن <a class=\"highlight-text\">يَنقَضَّ</a> فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا",
+      "derivedForms": [
+        "يَنْقَضّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:01.825Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VII) imperfect verb, subjunctive mood",
+    "derivativeNote": "يَنقَضَّ is in the derivative form: يَنْقَضّ",
+    "rootDefinitionHtml": "ق/ض/ض   q–ḍ–ḍ to swoop down, to descend, to charge; to collapse, to tumble; pebble, to be pebbly; to pierce, to bore; to become dusty; to be rough. Of this root, يَنْقَضّ yanqaḍḍ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَنْقَضّ yanqaḍḍ [imperf. of v. VII, intrans.] to crumble, to collapse, to crack up, to fall down, to tumble down <br><br>(18:77) فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَنْ يَنْقَضَّ فَأَقَامَهُ they found a wall in it that was on the point of collapsing and he supported it.",
+    "mainEntryId": "wdef-ق-ض-ض.يَنْقَضّ",
+    "entries": [
+      {
+        "id": "wdef-ق-ض-ض",
+        "label": "ق-ض-ض",
+        "definitionHtml": "ق/ض/ض   q–ḍ–ḍ to swoop down, to descend, to charge; to collapse, to tumble; pebble, to be pebbly; to pierce, to bore; to become dusty; to be rough. Of this root, يَنْقَضّ yanqaḍḍ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ض-ض.يَنْقَضّ",
+        "label": "يَنْقَضّ",
+        "definitionHtml": "يَنْقَضّ yanqaḍḍ [imperf. of v. VII, intrans.] to crumble, to collapse, to crack up, to fall down, to tumble down <br><br>(18:77) فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَنْ يَنْقَضَّ فَأَقَامَهُ they found a wall in it that was on the point of collapsing and he supported it.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:37.164Z",
+      "refword": "18:77:17",
+      "lexword": "يَنقَضَّ"
+    }
+  }
+}

@@ -1,0 +1,4104 @@
+{
+  "root": "رحم",
+  "rootArabic": "رحم",
+  "stats": {
+    "totalOccurrences": 337,
+    "derivativeCount": 10,
+    "surahCount": 62,
+    "ayahCount": 312
+  },
+  "derivatives": [
+    {
+      "form": "رَحِيمٌ",
+      "count": 115
+    },
+    {
+      "form": "رَحْمَةٌ",
+      "count": 114
+    },
+    {
+      "form": "الرَّحْمَن",
+      "count": 56
+    },
+    {
+      "form": "رَحِمَ",
+      "count": 19
+    },
+    {
+      "form": "أَرْحَام",
+      "count": 12
+    },
+    {
+      "form": "تُرْحَمُ",
+      "count": 8
+    },
+    {
+      "form": "رَاحِمين",
+      "count": 6
+    },
+    {
+      "form": "أَرْحَم",
+      "count": 5
+    },
+    {
+      "form": "رُحْمٌ",
+      "count": 1
+    },
+    {
+      "form": "مَرْحَمَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 1,
+      "surahName": "Al-Fatihah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 20,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 12,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 5,
+          "totalInQuran": 114
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 5,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 3,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 16,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 11,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 5,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 13,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 6,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 3,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 18,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 9,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 3,
+          "totalInQuran": 19
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَم",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رَاحِمين",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 13,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 9,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 3,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 13,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 8,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 3,
+          "totalInQuran": 19
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 9,
+      "derivatives": [
+        {
+          "form": "أَرْحَم",
+          "count": 2,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رَاحِمين",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 6,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 11,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 6,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 3,
+          "totalInQuran": 19
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 6,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رُحْمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 20,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 16,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 4,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 4,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "أَرْحَم",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رَاحِمين",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَاحِمين",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 2,
+          "totalInQuran": 19
+        },
+        {
+          "form": "أَرْحَم",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 5,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 5,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 9,
+          "totalInQuran": 115
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 3,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 5,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 6,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 4,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 4,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 3,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 9,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 7,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 2,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 3,
+          "totalInQuran": 115
+        },
+        {
+          "form": "تُرْحَمُ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 3,
+          "totalInQuran": 114
+        },
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "الرَّحْمَن",
+          "count": 1,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 2,
+          "totalInQuran": 115
+        },
+        {
+          "form": "أَرْحَام",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 4,
+          "totalInQuran": 56
+        },
+        {
+          "form": "رَحِمَ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحِيمٌ",
+          "count": 1,
+          "totalInQuran": 115
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَحْمَةٌ",
+          "count": 1,
+          "totalInQuran": 114
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الرَّحْمَن",
+          "count": 2,
+          "totalInQuran": 56
+        }
+      ]
+    },
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْحَمَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 1,
+      "ayah": 3,
+      "text": "ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> <a class=\"highlight-text\">ٱلرَّحِيمِ</a>",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 37,
+      "text": "فَتَلَقَّىٰٓ آدَمُ مِن رَّبِّهِۦ كَلِمَٰتٍ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "فَتَلَقَّىٰٓ آدَمُ مِن رَّبِّهِۦ كَلِمَٰتٍ فَتَابَ عَلَيْهِ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 54,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ ۚ إِنَّهُۥ هُوَ ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 64,
+      "text": "ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ ۖ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 105,
+      "text": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "highlightedHtml": "مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ <a class=\"highlight-text\">بِرَحْمَتِهِۦ</a> مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 128,
+      "text": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةً مُّسْلِمَةً لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةً مُّسْلِمَةً لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 143,
+      "text": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 157,
+      "text": "أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌ مِّن رَّبِّهِمْ <a class=\"highlight-text\">وَرَحْمَةٌ</a> ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 160,
+      "text": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 163,
+      "text": "وَإِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 173,
+      "text": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 178,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ <a class=\"highlight-text\">وَرَحْمَةٌ</a> ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 182,
+      "text": "فَمَنْ خَافَ مِن مُّوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَمَنْ خَافَ مِن مُّوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 192,
+      "text": "فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 199,
+      "text": "ثُمَّ أَفِيضُوا۟ مِنْ حَيْثُ أَفَاضَ ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ثُمَّ أَفِيضُوا۟ مِنْ حَيْثُ أَفَاضَ ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 218,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ <a class=\"highlight-text\">رَحْمَتَ</a> ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 226,
+      "text": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 228,
+      "text": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ <a class=\"highlight-text\">أَرْحَامِهِنَّ</a> إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 286,
+      "text": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا <a class=\"highlight-text\">وَٱرْحَمْنَآ</a> ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 6,
+      "text": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى <a class=\"highlight-text\">ٱلْأَرْحَامِ</a> كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 8,
+      "text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةً ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+      "highlightedHtml": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ <a class=\"highlight-text\">رَحْمَةً</a> ۚ إِنَّكَ أَنتَ ٱلْوَهَّابُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 31,
+      "text": "قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "قُلْ إِن كُنتُمْ تُحِبُّونَ ٱللَّهَ فَٱتَّبِعُونِى يُحْبِبْكُمُ ٱللَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْ ۗ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 74,
+      "text": "يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "highlightedHtml": "يَخْتَصُّ <a class=\"highlight-text\">بِرَحْمَتِهِۦ</a> مَن يَشَآءُ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 89,
+      "text": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 107,
+      "text": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى رَحْمَةِ ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "وَأَمَّا ٱلَّذِينَ ٱبْيَضَّتْ وُجُوهُهُمْ فَفِى <a class=\"highlight-text\">رَحْمَةِ</a> ٱللَّهِ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 129,
+      "text": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 132,
+      "text": "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَأَطِيعُوا۟ ٱللَّهَ وَٱلرَّسُولَ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 157,
+      "text": "وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرَحْمَةٌ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "highlightedHtml": "وَلَئِن قُتِلْتُمْ فِى سَبِيلِ ٱللَّهِ أَوْ مُتُّمْ لَمَغْفِرَةٌ مِّنَ ٱللَّهِ <a class=\"highlight-text\">وَرَحْمَةٌ</a> خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 159,
+      "text": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "highlightedHtml": "فَبِمَا <a class=\"highlight-text\">رَحْمَةٍ</a> مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ <a class=\"highlight-text\">وَٱلْأَرْحَامَ</a> ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 16,
+      "text": "وَٱلَّذَانِ يَأْتِيَٰنِهَا مِنكُمْ فَـَٔاذُوهُمَا ۖ فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ تَوَّابًا رَّحِيمًا",
+      "highlightedHtml": "وَٱلَّذَانِ يَأْتِيَٰنِهَا مِنكُمْ فَـَٔاذُوهُمَا ۖ فَإِن تَابَا وَأَصْلَحَا فَأَعْرِضُوا۟ عَنْهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ تَوَّابًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 23,
+      "text": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 25,
+      "text": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَٰتِ ٱلْمُؤْمِنَٰتِ فَمِن مَّا مَلَكَتْ أَيْمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلْمُؤْمِنَٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَٰتٍ غَيْرَ مُسَٰفِحَٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَٰتِ ٱلْمُؤْمِنَٰتِ فَمِن مَّا مَلَكَتْ أَيْمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلْمُؤْمِنَٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَٰتٍ غَيْرَ مُسَٰفِحَٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 29,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ إِلَّآ أَن تَكُونَ تِجَٰرَةً عَن تَرَاضٍ مِّنكُمْ ۚ وَلَا تَقْتُلُوٓا۟ أَنفُسَكُمْ ۚ إِنَّ ٱللَّهَ كَانَ بِكُمْ رَحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ إِلَّآ أَن تَكُونَ تِجَٰرَةً عَن تَرَاضٍ مِّنكُمْ ۚ وَلَا تَقْتُلُوٓا۟ أَنفُسَكُمْ ۚ إِنَّ ٱللَّهَ كَانَ بِكُمْ <a class=\"highlight-text\">رَحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 64,
+      "text": "وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًا رَّحِيمًا",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا مِن رَّسُولٍ إِلَّا لِيُطَاعَ بِإِذْنِ ٱللَّهِ ۚ وَلَوْ أَنَّهُمْ إِذ ظَّلَمُوٓا۟ أَنفُسَهُمْ جَآءُوكَ فَٱسْتَغْفَرُوا۟ ٱللَّهَ وَٱسْتَغْفَرَ لَهُمُ ٱلرَّسُولُ لَوَجَدُوا۟ ٱللَّهَ تَوَّابًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 83,
+      "text": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 96,
+      "text": "دَرَجَٰتٍ مِّنْهُ وَمَغْفِرَةً وَرَحْمَةً ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "دَرَجَٰتٍ مِّنْهُ وَمَغْفِرَةً <a class=\"highlight-text\">وَرَحْمَةً</a> ۚ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 100,
+      "text": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 106,
+      "text": "وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَٱسْتَغْفِرِ ٱللَّهَ ۖ إِنَّ ٱللَّهَ كَانَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 110,
+      "text": "وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَمَن يَعْمَلْ سُوٓءًا أَوْ يَظْلِمْ نَفْسَهُۥ ثُمَّ يَسْتَغْفِرِ ٱللَّهَ يَجِدِ ٱللَّهَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 113,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> لَهَمَّت طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 129,
+      "text": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 152,
+      "text": "وَٱلَّذِينَ آمَنُوا بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍ مِّنْهُمْ أُو۟لَٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَٱلَّذِينَ آمَنُوا بِٱللَّهِ وَرُسُلِهِۦ وَلَمْ يُفَرِّقُوا۟ بَيْنَ أَحَدٍ مِّنْهُمْ أُو۟لَٰٓئِكَ سَوْفَ يُؤْتِيهِمْ أُجُورَهُمْ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 175,
+      "text": "فَأَمَّا ٱلَّذِينَ آمَنُوا بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى رَحْمَةٍ مِّنْهُ وَفَضْلٍ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًا مُّسْتَقِيمًا",
+      "highlightedHtml": "فَأَمَّا ٱلَّذِينَ آمَنُوا بِٱللَّهِ وَٱعْتَصَمُوا۟ بِهِۦ فَسَيُدْخِلُهُمْ فِى <a class=\"highlight-text\">رَحْمَةٍ</a> مِّنْهُ وَفَضْلٍ وَيَهْدِيهِمْ إِلَيْهِ صِرَٰطًا مُّسْتَقِيمًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 3,
+      "text": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 34,
+      "text": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِن قَبْلِ أَن تَقْدِرُوا۟ عَلَيْهِمْ ۖ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِن قَبْلِ أَن تَقْدِرُوا۟ عَلَيْهِمْ ۖ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 39,
+      "text": "فَمَن تَابَ مِنۢ بَعْدِ ظُلْمِهِۦ وَأَصْلَحَ فَإِنَّ ٱللَّهَ يَتُوبُ عَلَيْهِ ۗ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَمَن تَابَ مِنۢ بَعْدِ ظُلْمِهِۦ وَأَصْلَحَ فَإِنَّ ٱللَّهَ يَتُوبُ عَلَيْهِ ۗ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 74,
+      "text": "أَفَلَا يَتُوبُونَ إِلَى ٱللَّهِ وَيَسْتَغْفِرُونَهُۥ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "أَفَلَا يَتُوبُونَ إِلَى ٱللَّهِ وَيَسْتَغْفِرُونَهُۥ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 98,
+      "text": "ٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ وَأَنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ وَأَنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 12,
+      "text": "قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "قُل لِّمَن مَّا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ قُل لِّلَّهِ ۚ كَتَبَ عَلَىٰ نَفْسِهِ <a class=\"highlight-text\">ٱلرَّحْمَةَ</a> ۚ لَيَجْمَعَنَّكُمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَا رَيْبَ فِيهِ ۚ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فَهُمْ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 16,
+      "text": "مَّن يُصْرَفْ يُصْرَفْ عَنْهُ يَوْمَئِذٍ فَقَدْ رَحِمَهُۥ ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ",
+      "highlightedHtml": "مَّن يُصْرَفْ يُصْرَفْ عَنْهُ يَوْمَئِذٍ فَقَدْ <a class=\"highlight-text\">رَحِمَهُۥ</a> ۚ وَذَٰلِكَ ٱلْفَوْزُ ٱلْمُبِينُ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 54,
+      "text": "وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَٰتِنَا فَقُلْ سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَٰتِنَا فَقُلْ سَلَٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ <a class=\"highlight-text\">ٱلرَّحْمَةَ</a> ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَٰلَةٍ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 133,
+      "text": "وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ آخَرِينَ",
+      "highlightedHtml": "وَرَبُّكَ ٱلْغَنِىُّ ذُو <a class=\"highlight-text\">ٱلرَّحْمَةِ</a> ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ آخَرِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 143,
+      "text": "ثَمَٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "ثَمَٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ <a class=\"highlight-text\">أَرْحَامُ</a> ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 144,
+      "text": "وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ <a class=\"highlight-text\">أَرْحَامُ</a> ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 145,
+      "text": "قُل لَّآ أَجِدُ فِى مَآ أُوحِىَ إِلَىَّ مُحَرَّمًا عَلَىٰ طَاعِمٍ يَطْعَمُهُۥٓ إِلَّآ أَن يَكُونَ مَيْتَةً أَوْ دَمًا مَّسْفُوحًا أَوْ لَحْمَ خِنزِيرٍ فَإِنَّهُۥ رِجْسٌ أَوْ فِسْقًا أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۚ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَإِنَّ رَبَّكَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "قُل لَّآ أَجِدُ فِى مَآ أُوحِىَ إِلَىَّ مُحَرَّمًا عَلَىٰ طَاعِمٍ يَطْعَمُهُۥٓ إِلَّآ أَن يَكُونَ مَيْتَةً أَوْ دَمًا مَّسْفُوحًا أَوْ لَحْمَ خِنزِيرٍ فَإِنَّهُۥ رِجْسٌ أَوْ فِسْقًا أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۚ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَإِنَّ رَبَّكَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 147,
+      "text": "فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو رَحْمَةٍ وَٰسِعَةٍ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
+      "highlightedHtml": "فَإِن كَذَّبُوكَ فَقُل رَّبُّكُمْ ذُو <a class=\"highlight-text\">رَحْمَةٍ</a> وَٰسِعَةٍ وَلَا يُرَدُّ بَأْسُهُۥ عَنِ ٱلْقَوْمِ ٱلْمُجْرِمِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 154,
+      "text": "ثُمَّ آتَيْنَا مُوسَى ٱلْكِتَٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ",
+      "highlightedHtml": "ثُمَّ آتَيْنَا مُوسَى ٱلْكِتَٰبَ تَمَامًا عَلَى ٱلَّذِىٓ أَحْسَنَ وَتَفْصِيلًا لِّكُلِّ شَىْءٍ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لَّعَلَّهُم بِلِقَآءِ رَبِّهِمْ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 155,
+      "text": "وَهَٰذَا كِتَٰبٌ أَنزَلْنَٰهُ مُبَارَكٌ فَٱتَّبِعُوهُ وَٱتَّقُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَهَٰذَا كِتَٰبٌ أَنزَلْنَٰهُ مُبَارَكٌ فَٱتَّبِعُوهُ وَٱتَّقُوا۟ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 157,
+      "text": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ آيَاتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ",
+      "highlightedHtml": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ آيَاتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 165,
+      "text": "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۗ إِنَّ رَبَّكَ سَرِيعُ ٱلْعِقَابِ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌۢ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى جَعَلَكُمْ خَلَٰٓئِفَ ٱلْأَرْضِ وَرَفَعَ بَعْضَكُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۗ إِنَّ رَبَّكَ سَرِيعُ ٱلْعِقَابِ وَإِنَّهُۥ لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌۢ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 23,
+      "text": "قَالَا رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "قَالَا رَبَّنَا ظَلَمْنَآ أَنفُسَنَا وَإِن لَّمْ تَغْفِرْ لَنَا <a class=\"highlight-text\">وَتَرْحَمْنَا</a> لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 49,
+      "text": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "highlightedHtml": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ <a class=\"highlight-text\">بِرَحْمَةٍ</a> ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 52,
+      "text": "وَلَقَدْ جِئْنَٰهُم بِكِتَٰبٍ فَصَّلْنَٰهُ عَلَىٰ عِلْمٍ هُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَلَقَدْ جِئْنَٰهُم بِكِتَٰبٍ فَصَّلْنَٰهُ عَلَىٰ عِلْمٍ هُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 56,
+      "text": "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ <a class=\"highlight-text\">رَحْمَتَ</a> ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 57,
+      "text": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 63,
+      "text": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ وَلِتَتَّقُوا۟ وَلَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ وَلِتَتَّقُوا۟ وَلَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 72,
+      "text": "فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
+      "highlightedHtml": "فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ <a class=\"highlight-text\">بِرَحْمَةٍ</a> مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 149,
+      "text": "وَلَمَّا سُقِطَ فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "وَلَمَّا سُقِطَ فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ <a class=\"highlight-text\">يَرْحَمْنَا</a> رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 151,
+      "text": "قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى رَحْمَتِكَ ۖ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "قَالَ رَبِّ ٱغْفِرْ لِى وَلِأَخِى وَأَدْخِلْنَا فِى <a class=\"highlight-text\">رَحْمَتِكَ</a> ۖ وَأَنتَ <a class=\"highlight-text\">أَرْحَمُ</a> <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "أَرْحَم",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 153,
+      "text": "وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ ثُمَّ تَابُوا۟ مِنۢ بَعْدِهَا وَءَامَنُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 154,
+      "text": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "highlightedHtml": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 155,
+      "text": "وَٱخْتَارَ مُوسَىٰ قَوْمَهُۥ سَبْعِينَ رَجُلًا لِّمِيقَٰتِنَا ۖ فَلَمَّآ أَخَذَتْهُمُ ٱلرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُم مِّن قَبْلُ وَإِيَّٰىَ ۖ أَتُهْلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَآءُ مِنَّآ ۖ إِنْ هِىَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَن تَشَآءُ وَتَهْدِى مَن تَشَآءُ ۖ أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا ۖ وَأَنتَ خَيْرُ ٱلْغَٰفِرِينَ",
+      "highlightedHtml": "وَٱخْتَارَ مُوسَىٰ قَوْمَهُۥ سَبْعِينَ رَجُلًا لِّمِيقَٰتِنَا ۖ فَلَمَّآ أَخَذَتْهُمُ ٱلرَّجْفَةُ قَالَ رَبِّ لَوْ شِئْتَ أَهْلَكْتَهُم مِّن قَبْلُ وَإِيَّٰىَ ۖ أَتُهْلِكُنَا بِمَا فَعَلَ ٱلسُّفَهَآءُ مِنَّآ ۖ إِنْ هِىَ إِلَّا فِتْنَتُكَ تُضِلُّ بِهَا مَن تَشَآءُ وَتَهْدِى مَن تَشَآءُ ۖ أَنتَ وَلِيُّنَا فَٱغْفِرْ لَنَا <a class=\"highlight-text\">وَٱرْحَمْنَا</a> ۖ وَأَنتَ خَيْرُ ٱلْغَٰفِرِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 156,
+      "text": "وَٱكْتُبْ لَنَا فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةً وَفِى الْآخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَٰتِنَا يُؤْمِنُونَ",
+      "highlightedHtml": "وَٱكْتُبْ لَنَا فِى هَٰذِهِ ٱلدُّنْيَا حَسَنَةً وَفِى الْآخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ <a class=\"highlight-text\">وَرَحْمَتِى</a> وَسِعَتْ كُلَّ شَىْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَٰتِنَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 167,
+      "text": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَن يَسُومُهُمْ سُوٓءَ ٱلْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ ٱلْعِقَابِ ۖ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَن يَسُومُهُمْ سُوٓءَ ٱلْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ ٱلْعِقَابِ ۖ وَإِنَّهُۥ لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 203,
+      "text": "وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَإِذَا لَمْ تَأْتِهِم بِـَٔايَةٍ قَالُوا۟ لَوْلَا ٱجْتَبَيْتَهَا ۚ قُلْ إِنَّمَآ أَتَّبِعُ مَا يُوحَىٰٓ إِلَىَّ مِن رَّبِّى ۚ هَٰذَا بَصَآئِرُ مِن رَّبِّكُمْ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 204,
+      "text": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 69,
+      "text": "فَكُلُوا۟ مِمَّا غَنِمْتُمْ حَلَٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَكُلُوا۟ مِمَّا غَنِمْتُمْ حَلَٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 70,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 75,
+      "text": "وَٱلَّذِينَ آمَنُوا مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ",
+      "highlightedHtml": "وَٱلَّذِينَ آمَنُوا مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَٰهَدُوا۟ مَعَكُمْ فَأُو۟لَٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ <a class=\"highlight-text\">ٱلْأَرْحَامِ</a> بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 5,
+      "text": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 21,
+      "text": "يُبَشِّرُهُمْ رَبُّهُم بِرَحْمَةٍ مِّنْهُ وَرِضْوَٰنٍ وَجَنَّٰتٍ لَّهُمْ فِيهَا نَعِيمٌ مُّقِيمٌ",
+      "highlightedHtml": "يُبَشِّرُهُمْ رَبُّهُم <a class=\"highlight-text\">بِرَحْمَةٍ</a> مِّنْهُ وَرِضْوَٰنٍ وَجَنَّٰتٍ لَّهُمْ فِيهَا نَعِيمٌ مُّقِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 27,
+      "text": "ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ثُمَّ يَتُوبُ ٱللَّهُ مِنۢ بَعْدِ ذَٰلِكَ عَلَىٰ مَن يَشَآءُ ۗ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 61,
+      "text": "وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌ ۚ قُلْ أُذُنُ خَيْرٍ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ وَرَحْمَةٌ لِّلَّذِينَ آمَنُوا مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَمِنْهُمُ ٱلَّذِينَ يُؤْذُونَ ٱلنَّبِىَّ وَيَقُولُونَ هُوَ أُذُنٌ ۚ قُلْ أُذُنُ خَيْرٍ لَّكُمْ يُؤْمِنُ بِٱللَّهِ وَيُؤْمِنُ لِلْمُؤْمِنِينَ <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّلَّذِينَ آمَنُوا مِنكُمْ ۚ وَٱلَّذِينَ يُؤْذُونَ رَسُولَ ٱللَّهِ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 71,
+      "text": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ <a class=\"highlight-text\">سَيَرْحَمُهُمُ</a> ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 91,
+      "text": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 99,
+      "text": "وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى <a class=\"highlight-text\">رَحْمَتِهِۦٓ</a> ۗ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 102,
+      "text": "وَآخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ خَلَطُوا۟ عَمَلًا صَٰلِحًا وَآخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَآخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ خَلَطُوا۟ عَمَلًا صَٰلِحًا وَآخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 104,
+      "text": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 117,
+      "text": "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 118,
+      "text": "وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 128,
+      "text": "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 21,
+      "text": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌ فِىٓ آيَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ",
+      "highlightedHtml": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ <a class=\"highlight-text\">رَحْمَةً</a> مِّنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُمْ إِذَا لَهُم مَّكْرٌ فِىٓ آيَاتِنَا ۚ قُلِ ٱللَّهُ أَسْرَعُ مَكْرًا ۚ إِنَّ رُسُلَنَا يَكْتُبُونَ مَا تَمْكُرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 57,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَآءٌ لِّمَا فِى ٱلصُّدُورِ ٱلصُّدُورِ وَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ قَدْ جَآءَتْكُم مَّوْعِظَةٌ مِّن رَّبِّكُمْ وَشِفَآءٌ لِّمَا فِى ٱلصُّدُورِ ٱلصُّدُورِ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 58,
+      "text": "قُلْ بِفَضْلِ ٱللَّهِ وَبِرَحْمَتِهِۦ فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "highlightedHtml": "قُلْ بِفَضْلِ ٱللَّهِ <a class=\"highlight-text\">وَبِرَحْمَتِهِۦ</a> فَبِذَٰلِكَ فَلْيَفْرَحُوا۟ هُوَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 86,
+      "text": "وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَنَجِّنَا <a class=\"highlight-text\">بِرَحْمَتِكَ</a> مِنَ ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 107,
+      "text": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 9,
+      "text": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
+      "highlightedHtml": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا <a class=\"highlight-text\">رَحْمَةً</a> ثُمَّ نَزَعْنَٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 17,
+      "text": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا <a class=\"highlight-text\">وَرَحْمَةً</a> ۚ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 28,
+      "text": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةً مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ",
+      "highlightedHtml": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى <a class=\"highlight-text\">رَحْمَةً</a> مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 41,
+      "text": "وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱرْكَبُوا۟ فِيهَا بِسْمِ ٱللَّهِ مَجْر۪ىٰهَا وَمُرْسَىٰهَآ ۚ إِنَّ رَبِّى لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 43,
+      "text": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "highlightedHtml": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن <a class=\"highlight-text\">رَّحِمَ</a> ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 47,
+      "text": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى <a class=\"highlight-text\">وَتَرْحَمْنِىٓ</a> أَكُن مِّنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 58,
+      "text": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَنَجَّيْنَٰهُم مِّنْ عَذَابٍ غَلِيظٍ",
+      "highlightedHtml": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ <a class=\"highlight-text\">بِرَحْمَةٍ</a> مِّنَّا وَنَجَّيْنَٰهُم مِّنْ عَذَابٍ غَلِيظٍ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 63,
+      "text": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ رَحْمَةً فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍ",
+      "highlightedHtml": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى مِنْهُ <a class=\"highlight-text\">رَحْمَةً</a> فَمَن يَنصُرُنِى مِنَ ٱللَّهِ إِنْ عَصَيْتُهُۥ ۖ فَمَا تَزِيدُونَنِى غَيْرَ تَخْسِيرٍ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 66,
+      "text": "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَٰلِحًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+      "highlightedHtml": "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَٰلِحًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ <a class=\"highlight-text\">بِرَحْمَةٍ</a> مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 73,
+      "text": "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ رَحْمَتُ ٱللَّهِ وَبَرَكَٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌ مَّجِيدٌ",
+      "highlightedHtml": "قَالُوٓا۟ أَتَعْجَبِينَ مِنْ أَمْرِ ٱللَّهِ ۖ <a class=\"highlight-text\">رَحْمَتُ</a> ٱللَّهِ وَبَرَكَٰتُهُۥ عَلَيْكُمْ أَهْلَ ٱلْبَيْتِ ۚ إِنَّهُۥ حَمِيدٌ مَّجِيدٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 90,
+      "text": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌ وَدُودٌ",
+      "highlightedHtml": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى <a class=\"highlight-text\">رَحِيمٌ</a> وَدُودٌ",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 94,
+      "text": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَأَخَذَتِ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ",
+      "highlightedHtml": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا شُعَيْبًا وَٱلَّذِينَ آمَنُوا مَعَهُۥ <a class=\"highlight-text\">بِرَحْمَةٍ</a> مِّنَّا وَأَخَذَتِ ٱلَّذِينَ ظَلَمُوا۟ ٱلصَّيْحَةُ فَأَصْبَحُوا۟ فِى دِيَٰرِهِمْ جَٰثِمِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 119,
+      "text": "إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "highlightedHtml": "إِلَّا مَن <a class=\"highlight-text\">رَّحِمَ</a> رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 53,
+      "text": "وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا رَحِمَ رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَمَآ أُبَرِّئُ نَفْسِىٓ ۚ إِنَّ ٱلنَّفْسَ لَأَمَّارَةٌۢ بِٱلسُّوٓءِ إِلَّا مَا <a class=\"highlight-text\">رَحِمَ</a> رَبِّىٓ ۚ إِنَّ رَبِّى غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِمَ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 56,
+      "text": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ <a class=\"highlight-text\">بِرَحْمَتِنَا</a> مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 64,
+      "text": "قَالَ هَلْ آمَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًا ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "قَالَ هَلْ آمَنُكُمْ عَلَيْهِ إِلَّا كَمَآ أَمِنتُكُمْ عَلَىٰٓ أَخِيهِ مِن قَبْلُ ۖ فَٱللَّهُ خَيْرٌ حَٰفِظًا ۖ وَهُوَ <a class=\"highlight-text\">أَرْحَمُ</a> <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "أَرْحَم",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 92,
+      "text": "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ <a class=\"highlight-text\">أَرْحَمُ</a> <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "أَرْحَم",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 98,
+      "text": "قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "قَالَ سَوْفَ أَسْتَغْفِرُ لَكُمْ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 111,
+      "text": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 8,
+      "text": "ٱللَّهُ يَعْلَمُ مَا تَحْمِلُ كُلُّ أُنثَىٰ وَمَا تَغِيضُ ٱلْأَرْحَامُ وَمَا تَزْدَادُ ۖ وَكُلُّ شَىْءٍ عِندَهُۥ بِمِقْدَارٍ",
+      "highlightedHtml": "ٱللَّهُ يَعْلَمُ مَا تَحْمِلُ كُلُّ أُنثَىٰ وَمَا تَغِيضُ <a class=\"highlight-text\">ٱلْأَرْحَامُ</a> وَمَا تَزْدَادُ ۖ وَكُلُّ شَىْءٍ عِندَهُۥ بِمِقْدَارٍ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 30,
+      "text": "كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ",
+      "highlightedHtml": "كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ <a class=\"highlight-text\">بِٱلرَّحْمَٰنِ</a> ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 36,
+      "text": "رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "رَبِّ إِنَّهُنَّ أَضْلَلْنَ كَثِيرًا مِّنَ ٱلنَّاسِ ۖ فَمَن تَبِعَنِى فَإِنَّهُۥ مِنِّى ۖ وَمَنْ عَصَانِى فَإِنَّكَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 49,
+      "text": "نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "نَبِّئْ عِبَادِىٓ أَنِّىٓ أَنَا ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 56,
+      "text": "قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
+      "highlightedHtml": "قَالَ وَمَن يَقْنَطُ مِن <a class=\"highlight-text\">رَّحْمَةِ</a> رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 7,
+      "text": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 18,
+      "text": "وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 47,
+      "text": "أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍ فَإِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "أَوْ يَأْخُذَهُمْ عَلَىٰ تَخَوُّفٍ فَإِنَّ رَبَّكُمْ لَرَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 64,
+      "text": "وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَمَآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ إِلَّا لِتُبَيِّنَ لَهُمُ ٱلَّذِى ٱخْتَلَفُوا۟ فِيهِ ۙ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 89,
+      "text": "وَيَوْمَ نَبْعَثُ فِى كُلِّ أُمَّةٍ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَٰٓؤُلَآءِ ۚ وَنَزَّلْنَا عَلَيْكَ ٱلْكِتَٰبَ تِبْيَٰنًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "highlightedHtml": "وَيَوْمَ نَبْعَثُ فِى كُلِّ أُمَّةٍ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَٰٓؤُلَآءِ ۚ وَنَزَّلْنَا عَلَيْكَ ٱلْكِتَٰبَ تِبْيَٰنًا لِّكُلِّ شَىْءٍ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 110,
+      "text": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ هَاجَرُوا۟ مِنۢ بَعْدِ مَا فُتِنُوا۟ ثُمَّ جَٰهَدُوا۟ وَصَبَرُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 115,
+      "text": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ عَادٍ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 119,
+      "text": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ عَمِلُوا۟ ٱلسُّوٓءَ بِجَهَٰلَةٍ ثُمَّ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ثُمَّ إِنَّ رَبَّكَ لِلَّذِينَ عَمِلُوا۟ ٱلسُّوٓءَ بِجَهَٰلَةٍ ثُمَّ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوٓا۟ إِنَّ رَبَّكَ مِنۢ بَعْدِهَا لَغَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 8,
+      "text": "عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ حَصِيرًا",
+      "highlightedHtml": "عَسَىٰ رَبُّكُمْ أَن <a class=\"highlight-text\">يَرْحَمَكُمْ</a> ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ حَصِيرًا",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 24,
+      "text": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "highlightedHtml": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ <a class=\"highlight-text\">ٱلرَّحْمَةِ</a> وَقُل رَّبِّ <a class=\"highlight-text\">ٱرْحَمْهُمَا</a> كَمَا رَبَّيَانِى صَغِيرًا",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 28,
+      "text": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا",
+      "highlightedHtml": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ <a class=\"highlight-text\">رَحْمَةٍ</a> مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 54,
+      "text": "رَّبُّكُمْ أَعْلَمُ بِكُمْ ۖ إِن يَشَأْ يَرْحَمْكُمْ أَوْ إِن يَشَأْ يُعَذِّبْكُمْ ۚ وَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ وَكِيلًا",
+      "highlightedHtml": "رَّبُّكُمْ أَعْلَمُ بِكُمْ ۖ إِن يَشَأْ <a class=\"highlight-text\">يَرْحَمْكُمْ</a> أَوْ إِن يَشَأْ يُعَذِّبْكُمْ ۚ وَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ وَكِيلًا",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 57,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ <a class=\"highlight-text\">رَحْمَتَهُۥ</a> وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 66,
+      "text": "رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ رَحِيمًا",
+      "highlightedHtml": "رَّبُّكُمُ ٱلَّذِى يُزْجِى لَكُمُ ٱلْفُلْكَ فِى ٱلْبَحْرِ لِتَبْتَغُوا۟ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ كَانَ بِكُمْ <a class=\"highlight-text\">رَحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 82,
+      "text": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌ وَرَحْمَةٌ لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًا",
+      "highlightedHtml": "وَنُنَزِّلُ مِنَ ٱلْقُرْءَانِ مَا هُوَ شِفَآءٌ <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّلْمُؤْمِنِينَ ۙ وَلَا يَزِيدُ ٱلظَّٰلِمِينَ إِلَّا خَسَارًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 87,
+      "text": "إِلَّا رَحْمَةً مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًا",
+      "highlightedHtml": "إِلَّا <a class=\"highlight-text\">رَحْمَةً</a> مِّن رَّبِّكَ ۚ إِنَّ فَضْلَهُۥ كَانَ عَلَيْكَ كَبِيرًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 100,
+      "text": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًا",
+      "highlightedHtml": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ <a class=\"highlight-text\">رَحْمَةِ</a> رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 110,
+      "text": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ <a class=\"highlight-text\">ٱلرَّحْمَٰنَ</a> ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 10,
+      "text": "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "highlightedHtml": "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ آتِنَا مِن لَّدُنكَ <a class=\"highlight-text\">رَحْمَةً</a> وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 16,
+      "text": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
+      "highlightedHtml": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن <a class=\"highlight-text\">رَّحْمَتِهِۦ</a> وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 58,
+      "text": "وَرَبُّكَ ٱلْغَفُورُ ذُو ٱلرَّحْمَةِ ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًا",
+      "highlightedHtml": "وَرَبُّكَ ٱلْغَفُورُ ذُو <a class=\"highlight-text\">ٱلرَّحْمَةِ</a> ۖ لَوْ يُؤَاخِذُهُم بِمَا كَسَبُوا۟ لَعَجَّلَ لَهُمُ ٱلْعَذَابَ ۚ بَل لَّهُم مَّوْعِدٌ لَّن يَجِدُوا۟ مِن دُونِهِۦ مَوْئِلًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 65,
+      "text": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ آتَيْنَاهُ رَحْمَةً مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًا",
+      "highlightedHtml": "فَوَجَدَا عَبْدًا مِّنْ عِبَادِنَآ آتَيْنَاهُ <a class=\"highlight-text\">رَحْمَةً</a> مِّنْ عِندِنَا وَعَلَّمْنَٰهُ مِن لَّدُنَّا عِلْمًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 81,
+      "text": "فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِّنْهُ زَكَوٰةً وَأَقْرَبَ رُحْمًا",
+      "highlightedHtml": "فَأَرَدْنَآ أَن يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِّنْهُ زَكَوٰةً وَأَقْرَبَ <a class=\"highlight-text\">رُحْمًا</a>",
+      "derivedForms": [
+        "رُحْمٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 82,
+      "text": "وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا رَحْمَةً مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا",
+      "highlightedHtml": "وَأَمَّا ٱلْجِدَارُ فَكَانَ لِغُلَٰمَيْنِ يَتِيمَيْنِ فِى ٱلْمَدِينَةِ وَكَانَ تَحْتَهُۥ كَنزٌ لَّهُمَا وَكَانَ أَبُوهُمَا صَٰلِحًا فَأَرَادَ رَبُّكَ أَن يَبْلُغَآ أَشُدَّهُمَا وَيَسْتَخْرِجَا كَنزَهُمَا <a class=\"highlight-text\">رَحْمَةً</a> مِّن رَّبِّكَ ۚ وَمَا فَعَلْتُهُۥ عَنْ أَمْرِى ۚ ذَٰلِكَ تَأْوِيلُ مَا لَمْ تَسْطِع عَّلَيْهِ صَبْرًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 98,
+      "text": "قَالَ هَٰذَا رَحْمَةٌ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا",
+      "highlightedHtml": "قَالَ هَٰذَا <a class=\"highlight-text\">رَحْمَةٌ</a> مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 2,
+      "text": "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ",
+      "highlightedHtml": "ذِكْرُ <a class=\"highlight-text\">رَحْمَتِ</a> رَبِّكَ عَبْدَهُۥ زَكَرِيَّآ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 18,
+      "text": "قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّا",
+      "highlightedHtml": "قَالَتْ إِنِّىٓ أَعُوذُ <a class=\"highlight-text\">بِٱلرَّحْمَٰنِ</a> مِنكَ إِن كُنتَ تَقِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 21,
+      "text": "قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌ ۖ وَلِنَجْعَلَهُۥٓ آيَةً لِّلنَّاسِ وَرَحْمَةً مِّنَّا ۚ وَكَانَ أَمْرًا مَّقْضِيًّا",
+      "highlightedHtml": "قَالَ كَذَٰلِكِ قَالَ رَبُّكِ هُوَ عَلَىَّ هَيِّنٌ ۖ وَلِنَجْعَلَهُۥٓ آيَةً لِّلنَّاسِ <a class=\"highlight-text\">وَرَحْمَةً</a> مِّنَّا ۚ وَكَانَ أَمْرًا مَّقْضِيًّا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 26,
+      "text": "فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًا ۖ فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًا فَقُولِىٓ إِنِّى نَذَرْتُ لِلرَّحْمَٰنِ صَوْمًا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّا",
+      "highlightedHtml": "فَكُلِى وَٱشْرَبِى وَقَرِّى عَيْنًا ۖ فَإِمَّا تَرَيِنَّ مِنَ ٱلْبَشَرِ أَحَدًا فَقُولِىٓ إِنِّى نَذَرْتُ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> صَوْمًا فَلَنْ أُكَلِّمَ ٱلْيَوْمَ إِنسِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 44,
+      "text": "يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلرَّحْمَٰنِ عَصِيًّا",
+      "highlightedHtml": "يَٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَٰنَ ۖ إِنَّ ٱلشَّيْطَٰنَ كَانَ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> عَصِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 45,
+      "text": "يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ ٱلرَّحْمَٰنِ فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّا",
+      "highlightedHtml": "يَٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> فَتَكُونَ لِلشَّيْطَٰنِ وَلِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 50,
+      "text": "وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّا",
+      "highlightedHtml": "وَوَهَبْنَا لَهُم مِّن <a class=\"highlight-text\">رَّحْمَتِنَا</a> وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 53,
+      "text": "وَوَهَبْنَا لَهُۥ مِن رَّحْمَتِنَآ أَخَاهُ هَٰرُونَ نَبِيًّا",
+      "highlightedHtml": "وَوَهَبْنَا لَهُۥ مِن <a class=\"highlight-text\">رَّحْمَتِنَآ</a> أَخَاهُ هَٰرُونَ نَبِيًّا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 58,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ آدَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًا وَبُكِيًّا ۩",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ آدَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> خَرُّوا۟ سُجَّدًا وَبُكِيًّا ۩",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 61,
+      "text": "جَنَّٰتِ عَدْنٍ ٱلَّتِى وَعَدَ ٱلرَّحْمَٰنُ عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّا",
+      "highlightedHtml": "جَنَّٰتِ عَدْنٍ ٱلَّتِى وَعَدَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> عِبَادَهُۥ بِٱلْغَيْبِ ۚ إِنَّهُۥ كَانَ وَعْدُهُۥ مَأْتِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 69,
+      "text": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "highlightedHtml": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> عِتِيًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 75,
+      "text": "قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
+      "highlightedHtml": "قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 78,
+      "text": "أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا",
+      "highlightedHtml": "أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> عَهْدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 85,
+      "text": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+      "highlightedHtml": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> وَفْدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 87,
+      "text": "لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا",
+      "highlightedHtml": "لَّا يَمْلِكُونَ ٱلشَّفَٰعَةَ إِلَّا مَنِ ٱتَّخَذَ عِندَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> عَهْدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 88,
+      "text": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًا",
+      "highlightedHtml": "وَقَالُوا۟ ٱتَّخَذَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وَلَدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 91,
+      "text": "أَن دَعَوْا۟ لِلرَّحْمَٰنِ وَلَدًا",
+      "highlightedHtml": "أَن دَعَوْا۟ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> وَلَدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 92,
+      "text": "وَمَا يَنۢبَغِى لِلرَّحْمَٰنِ أَن يَتَّخِذَ وَلَدًا",
+      "highlightedHtml": "وَمَا يَنۢبَغِى <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> أَن يَتَّخِذَ وَلَدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 93,
+      "text": "إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ آتِي ٱلرَّحْمَٰنِ عَبْدًا",
+      "highlightedHtml": "إِن كُلُّ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ إِلَّآ آتِي <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> عَبْدًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 96,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ ٱلرَّحْمَٰنُ وُدًّا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَيَجْعَلُ لَهُمُ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وُدًّا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 5,
+      "text": "ٱلرَّحْمَٰنُ عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ ٱسْتَوَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> عَلَى ٱلْعَرْشِ ٱسْتَوَىٰ ٱسْتَوَىٰ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 90,
+      "text": "وَلَقَدْ قَالَ لَهُمْ هَٰرُونُ مِن قَبْلُ يَٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ ٱلرَّحْمَٰنُ فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى",
+      "highlightedHtml": "وَلَقَدْ قَالَ لَهُمْ هَٰرُونُ مِن قَبْلُ يَٰقَوْمِ إِنَّمَا فُتِنتُم بِهِۦ ۖ وَإِنَّ رَبَّكُمُ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> فَٱتَّبِعُونِى وَأَطِيعُوٓا۟ أَمْرِى",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 108,
+      "text": "يَوْمَئِذٍ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ لِلرَّحْمَٰنِ فَلَا تَسْمَعُ إِلَّا هَمْسًا",
+      "highlightedHtml": "يَوْمَئِذٍ يَتَّبِعُونَ ٱلدَّاعِىَ لَا عِوَجَ لَهُۥ ۖ وَخَشَعَتِ ٱلْأَصْوَاتُ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> فَلَا تَسْمَعُ إِلَّا هَمْسًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 109,
+      "text": "يَوْمَئِذٍ لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَرَضِىَ لَهُۥ قَوْلًا",
+      "highlightedHtml": "يَوْمَئِذٍ لَّا تَنفَعُ ٱلشَّفَٰعَةُ إِلَّا مَنْ أَذِنَ لَهُ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وَرَضِىَ لَهُۥ قَوْلًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 26,
+      "text": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌ مُّكْرَمُونَ",
+      "highlightedHtml": "وَقَالُوا۟ ٱتَّخَذَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وَلَدًا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌ مُّكْرَمُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 36,
+      "text": "وَإِذَا رَءَاكَ ٱلَّذِينَ كَفَرُوٓا۟ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَٰذَا ٱلَّذِى يَذْكُرُ آلِهَتَكُمْ وَهُم بِذِكْرِ ٱلرَّحْمَٰنِ هُمْ كَٰفِرُونَ",
+      "highlightedHtml": "وَإِذَا رَءَاكَ ٱلَّذِينَ كَفَرُوٓا۟ إِن يَتَّخِذُونَكَ إِلَّا هُزُوًا أَهَٰذَا ٱلَّذِى يَذْكُرُ آلِهَتَكُمْ وَهُم بِذِكْرِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> هُمْ كَٰفِرُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 42,
+      "text": "قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ",
+      "highlightedHtml": "قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 75,
+      "text": "وَأَدْخَلْنَٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "وَأَدْخَلْنَٰهُ فِى <a class=\"highlight-text\">رَحْمَتِنَآ</a> ۖ إِنَّهُۥ مِنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 83,
+      "text": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "وَأَيُّوبَ إِذْ نَادَىٰ رَبَّهُۥٓ أَنِّى مَسَّنِىَ ٱلضُّرُّ وَأَنتَ <a class=\"highlight-text\">أَرْحَمُ</a> <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "أَرْحَم",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 84,
+      "text": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ",
+      "highlightedHtml": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ <a class=\"highlight-text\">رَحْمَةً</a> مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 86,
+      "text": "وَأَدْخَلْنَٰهُمْ فِى رَحْمَتِنَآ ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "وَأَدْخَلْنَٰهُمْ فِى <a class=\"highlight-text\">رَحْمَتِنَآ</a> ۖ إِنَّهُم مِّنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 107,
+      "text": "وَمَآ أَرْسَلْنَٰكَ إِلَّا رَحْمَةً لِّلْعَٰلَمِينَ",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَٰكَ إِلَّا <a class=\"highlight-text\">رَحْمَةً</a> لِّلْعَٰلَمِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 112,
+      "text": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "highlightedHtml": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى <a class=\"highlight-text\">ٱلْأَرْحَامِ</a> مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 65,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 75,
+      "text": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ <a class=\"highlight-text\">رَحِمْنَٰهُمْ</a> وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 109,
+      "text": "إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ آمَنَّا فَٱغْفِرْ لَنَا وَٱرْحَمْنَا وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "إِنَّهُۥ كَانَ فَرِيقٌ مِّنْ عِبَادِى يَقُولُونَ رَبَّنَآ آمَنَّا فَٱغْفِرْ لَنَا <a class=\"highlight-text\">وَٱرْحَمْنَا</a> وَأَنتَ خَيْرُ <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "رَحِمَ",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 118,
+      "text": "وَقُل رَّبِّ ٱغْفِرْ وَٱرْحَمْ وَأَنتَ خَيْرُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "وَقُل رَّبِّ ٱغْفِرْ <a class=\"highlight-text\">وَٱرْحَمْ</a> وَأَنتَ خَيْرُ <a class=\"highlight-text\">ٱلرَّٰحِمِينَ</a>",
+      "derivedForms": [
+        "أَرْحَم",
+        "رَاحِمين"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 5,
+      "text": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ تَابُوا۟ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 10,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 14,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ فِى ٱلدُّنْيَا وَالْآخِرَةِ لَمَسَّكُمْ فِى مَآ أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> فِى ٱلدُّنْيَا وَالْآخِرَةِ لَمَسَّكُمْ فِى مَآ أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 20,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> وَأَنَّ ٱللَّهَ رَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 21,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ <a class=\"highlight-text\">وَرَحْمَتُهُۥ</a> مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 22,
+      "text": "وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 33,
+      "text": "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَٰبَ مِمَّا مَلَكَتْ أَيْمَٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ آتَاكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَٰبَ مِمَّا مَلَكَتْ أَيْمَٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ آتَاكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 56,
+      "text": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 62,
+      "text": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ آمَنُوا بِٱللَّهِ وَرَسُولِهِۦ وَإِذَا كَانُوا۟ مَعَهُۥ عَلَىٰٓ أَمْرٍ جَامِعٍ لَّمْ يَذْهَبُوا۟ حَتَّىٰ يَسْتَـْٔذِنُوهُ ۚ إِنَّ ٱلَّذِينَ يَسْتَـْٔذِنُونَكَ أُو۟لَٰٓئِكَ ٱلَّذِينَ يُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ ۚ فَإِذَا ٱسْتَـْٔذَنُوكَ لِبَعْضِ شَأْنِهِمْ فَأْذَن لِّمَن شِئْتَ مِنْهُمْ وَٱسْتَغْفِرْ لَهُمُ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ آمَنُوا بِٱللَّهِ وَرَسُولِهِۦ وَإِذَا كَانُوا۟ مَعَهُۥ عَلَىٰٓ أَمْرٍ جَامِعٍ لَّمْ يَذْهَبُوا۟ حَتَّىٰ يَسْتَـْٔذِنُوهُ ۚ إِنَّ ٱلَّذِينَ يَسْتَـْٔذِنُونَكَ أُو۟لَٰٓئِكَ ٱلَّذِينَ يُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ ۚ فَإِذَا ٱسْتَـْٔذَنُوكَ لِبَعْضِ شَأْنِهِمْ فَأْذَن لِّمَن شِئْتَ مِنْهُمْ وَٱسْتَغْفِرْ لَهُمُ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 6,
+      "text": "قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 26,
+      "text": "ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًا",
+      "highlightedHtml": "ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 48,
+      "text": "وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً طَهُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً طَهُورًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 59,
+      "text": "ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًا",
+      "highlightedHtml": "ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> فَسْـَٔلْ بِهِۦ خَبِيرًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 60,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ لِلرَّحْمَٰنِ قَالُوا۟ وَمَا ٱلرَّحْمَٰنُ أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًا ۩",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمُ ٱسْجُدُوا۟ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> قَالُوا۟ وَمَا <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> أَنَسْجُدُ لِمَا تَأْمُرُنَا وَزَادَهُمْ نُفُورًا ۩",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 63,
+      "text": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "highlightedHtml": "وَعِبَادُ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 70,
+      "text": "إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ عَمَلًا صَٰلِحًا فَأُو۟لَٰٓئِكَ يُبَدِّلُ ٱللَّهُ سَيِّـَٔاتِهِمْ حَسَنَٰتٍ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ عَمَلًا صَٰلِحًا فَأُو۟لَٰٓئِكَ يُبَدِّلُ ٱللَّهُ سَيِّـَٔاتِهِمْ حَسَنَٰتٍ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 5,
+      "text": "وَمَا يَأْتِيهِم مِّن ذِكْرٍ مِّنَ ٱلرَّحْمَٰنِ مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ",
+      "highlightedHtml": "وَمَا يَأْتِيهِم مِّن ذِكْرٍ مِّنَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> مُحْدَثٍ إِلَّا كَانُوا۟ عَنْهُ مُعْرِضِينَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 9,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 68,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 104,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 122,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 140,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 159,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 175,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 191,
+      "text": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 217,
+      "text": "وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ ٱلرَّحِيمِ",
+      "highlightedHtml": "وَتَوَكَّلْ عَلَى ٱلْعَزِيزِ <a class=\"highlight-text\">ٱلرَّحِيمِ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 11,
+      "text": "إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًۢا بَعْدَ سُوٓءٍ فَإِنِّى غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًۢا بَعْدَ سُوٓءٍ فَإِنِّى غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 19,
+      "text": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى <a class=\"highlight-text\">بِرَحْمَتِكَ</a> فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 30,
+      "text": "إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "highlightedHtml": "إِنَّهُۥ مِن سُلَيْمَٰنَ وَإِنَّهُۥ بِسْمِ ٱللَّهِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> <a class=\"highlight-text\">ٱلرَّحِيمِ</a>",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 46,
+      "text": "قَالَ يَٰقَوْمِ لِمَ تَسْتَعْجِلُونَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ ۖ لَوْلَا تَسْتَغْفِرُونَ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "قَالَ يَٰقَوْمِ لِمَ تَسْتَعْجِلُونَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ ۖ لَوْلَا تَسْتَغْفِرُونَ ٱللَّهَ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 63,
+      "text": "أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ تَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "أَمَّن يَهْدِيكُمْ فِى ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ <a class=\"highlight-text\">رَحْمَتِهِۦٓ</a> ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ تَعَٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 77,
+      "text": "وَإِنَّهُۥ لَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَإِنَّهُۥ لَهُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 16,
+      "text": "قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 43,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى وَرَحْمَةً لَّعَلَّهُمْ يَتَذَكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لَّعَلَّهُمْ يَتَذَكَّرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 46,
+      "text": "وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَٰكِن رَّحْمَةً مِّن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+      "highlightedHtml": "وَمَا كُنتَ بِجَانِبِ ٱلطُّورِ إِذْ نَادَيْنَا وَلَٰكِن <a class=\"highlight-text\">رَّحْمَةً</a> مِّن رَّبِّكَ لِتُنذِرَ قَوْمًا مَّآ أَتَىٰهُم مِّن نَّذِيرٍ مِّن قَبْلِكَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 73,
+      "text": "وَمِن رَّحْمَتِهِۦ جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَمِن <a class=\"highlight-text\">رَّحْمَتِهِۦ</a> جَعَلَ لَكُمُ ٱلَّيْلَ وَٱلنَّهَارَ لِتَسْكُنُوا۟ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 86,
+      "text": "وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةً مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا <a class=\"highlight-text\">رَحْمَةً</a> مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَٰفِرِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 21,
+      "text": "يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
+      "highlightedHtml": "يُعَذِّبُ مَن يَشَآءُ <a class=\"highlight-text\">وَيَرْحَمُ</a> مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 23,
+      "text": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَٰٓئِكَ يَئِسُوا۟ مِن <a class=\"highlight-text\">رَّحْمَتِى</a> وَأُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 51,
+      "text": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ <a class=\"highlight-text\">لَرَحْمَةً</a> وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 5,
+      "text": "بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "بِنَصْرِ ٱللَّهِ ۚ يَنصُرُ مَن يَشَآءُ ۖ وَهُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 21,
+      "text": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً <a class=\"highlight-text\">وَرَحْمَةً</a> ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 33,
+      "text": "وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ",
+      "highlightedHtml": "وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ <a class=\"highlight-text\">رَحْمَةً</a> إِذَا فَرِيقٌ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 36,
+      "text": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ",
+      "highlightedHtml": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ <a class=\"highlight-text\">رَحْمَةً</a> فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 46,
+      "text": "وَمِنْ آيَاتِهِ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَٰتٍ وَلِيُذِيقَكُم مِّن رَّحْمَتِهِۦ وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَن يُرْسِلَ ٱلرِّيَاحَ مُبَشِّرَٰتٍ وَلِيُذِيقَكُم مِّن <a class=\"highlight-text\">رَّحْمَتِهِۦ</a> وَلِتَجْرِىَ ٱلْفُلْكُ بِأَمْرِهِۦ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 50,
+      "text": "فَٱنظُرْ إِلَىٰٓ آثَارِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "فَٱنظُرْ إِلَىٰٓ آثَارِ <a class=\"highlight-text\">رَحْمَتِ</a> ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 3,
+      "text": "هُدًى وَرَحْمَةً لِّلْمُحْسِنِينَ",
+      "highlightedHtml": "هُدًى <a class=\"highlight-text\">وَرَحْمَةً</a> لِّلْمُحْسِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 34,
+      "text": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى <a class=\"highlight-text\">ٱلْأَرْحَامِ</a> ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 6,
+      "text": "ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "ذَٰلِكَ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 5,
+      "text": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 6,
+      "text": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًا",
+      "highlightedHtml": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ <a class=\"highlight-text\">ٱلْأَرْحَامِ</a> بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًا",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 17,
+      "text": "قُلْ مَن ذَا ٱلَّذِى يَعْصِمُكُم مِّنَ ٱللَّهِ إِنْ أَرَادَ بِكُمْ سُوٓءًا أَوْ أَرَادَ بِكُمْ رَحْمَةً ۚ وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "highlightedHtml": "قُلْ مَن ذَا ٱلَّذِى يَعْصِمُكُم مِّنَ ٱللَّهِ إِنْ أَرَادَ بِكُمْ سُوٓءًا أَوْ أَرَادَ بِكُمْ <a class=\"highlight-text\">رَحْمَةً</a> ۚ وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 24,
+      "text": "لِّيَجْزِىَ ٱللَّهُ ٱلصَّٰدِقِينَ بِصِدْقِهِمْ وَيُعَذِّبَ ٱلْمُنَٰفِقِينَ إِن شَآءَ أَوْ يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "لِّيَجْزِىَ ٱللَّهُ ٱلصَّٰدِقِينَ بِصِدْقِهِمْ وَيُعَذِّبَ ٱلْمُنَٰفِقِينَ إِن شَآءَ أَوْ يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ كَانَ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 43,
+      "text": "هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًا",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ <a class=\"highlight-text\">رَحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 50,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّٰتِىٓ آتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَٰلَٰتِكَ ٱلَّٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 59,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 73,
+      "text": "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًۢا",
+      "highlightedHtml": "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَٰفِقِينَ وَٱلْمُنَٰفِقَٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًۢا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 2,
+      "text": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
+      "highlightedHtml": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ <a class=\"highlight-text\">ٱلرَّحِيمُ</a> ٱلْغَفُورُ",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 2,
+      "text": "مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن <a class=\"highlight-text\">رَّحْمَةٍ</a> فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 5,
+      "text": "تَنزِيلَ ٱلْعَزِيزِ ٱلرَّحِيمِ",
+      "highlightedHtml": "تَنزِيلَ ٱلْعَزِيزِ <a class=\"highlight-text\">ٱلرَّحِيمِ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 11,
+      "text": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+      "highlightedHtml": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ <a class=\"highlight-text\">ٱلرَّحْمَٰنَ</a> بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 15,
+      "text": "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ ٱلرَّحْمَٰنُ مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
+      "highlightedHtml": "قَالُوا۟ مَآ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا وَمَآ أَنزَلَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> مِن شَىْءٍ إِنْ أَنتُمْ إِلَّا تَكْذِبُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 23,
+      "text": "أَأَتَّخِذُ مِن دُونِهِۦٓ آلِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
+      "highlightedHtml": "أَأَتَّخِذُ مِن دُونِهِۦٓ آلِهَةً إِن يُرِدْنِ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 44,
+      "text": "إِلَّا رَحْمَةً مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "highlightedHtml": "إِلَّا <a class=\"highlight-text\">رَحْمَةً</a> مِّنَّا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 45,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 52,
+      "text": "قَالُوا۟ يَٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ ٱلرَّحْمَٰنُ وَصَدَقَ ٱلْمُرْسَلُونَ",
+      "highlightedHtml": "قَالُوا۟ يَٰوَيْلَنَا مَنۢ بَعَثَنَا مِن مَّرْقَدِنَا ۜ ۗ هَٰذَا مَا وَعَدَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وَصَدَقَ ٱلْمُرْسَلُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 58,
+      "text": "سَلَٰمٌ قَوْلًا مِّن رَّبٍّ رَّحِيمٍ",
+      "highlightedHtml": "سَلَٰمٌ قَوْلًا مِّن رَّبٍّ <a class=\"highlight-text\">رَّحِيمٍ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 9,
+      "text": "أَمْ عِندَهُمْ خَزَآئِنُ رَحْمَةِ رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ",
+      "highlightedHtml": "أَمْ عِندَهُمْ خَزَآئِنُ <a class=\"highlight-text\">رَحْمَةِ</a> رَبِّكَ ٱلْعَزِيزِ ٱلْوَهَّابِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 43,
+      "text": "وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ <a class=\"highlight-text\">رَحْمَةً</a> مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 9,
+      "text": "أَمَّنْ هُوَ قَٰنِتٌ آنَاءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُوا۟ رَحْمَةَ رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "أَمَّنْ هُوَ قَٰنِتٌ آنَاءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُوا۟ <a class=\"highlight-text\">رَحْمَةَ</a> رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 38,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى <a class=\"highlight-text\">بِرَحْمَةٍ</a> هَلْ هُنَّ مُمْسِكَٰتُ <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 53,
+      "text": "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن <a class=\"highlight-text\">رَّحْمَةِ</a> ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 7,
+      "text": "ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ آمَنُوا رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍ رَّحْمَةً وَعِلْمًا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ",
+      "highlightedHtml": "ٱلَّذِينَ يَحْمِلُونَ ٱلْعَرْشَ وَمَنْ حَوْلَهُۥ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيُؤْمِنُونَ بِهِۦ وَيَسْتَغْفِرُونَ لِلَّذِينَ آمَنُوا رَبَّنَا وَسِعْتَ كُلَّ شَىْءٍ <a class=\"highlight-text\">رَّحْمَةً</a> وَعِلْمًا فَٱغْفِرْ لِلَّذِينَ تَابُوا۟ وَٱتَّبَعُوا۟ سَبِيلَكَ وَقِهِمْ عَذَابَ ٱلْجَحِيمِ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 9,
+      "text": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُۥ ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "highlightedHtml": "وَقِهِمُ ٱلسَّيِّـَٔاتِ ۚ وَمَن تَقِ ٱلسَّيِّـَٔاتِ يَوْمَئِذٍ فَقَدْ <a class=\"highlight-text\">رَحِمْتَهُۥ</a> ۚ وَذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 2,
+      "text": "تَنزِيلٌ مِّنَ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ",
+      "highlightedHtml": "تَنزِيلٌ مِّنَ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> <a class=\"highlight-text\">ٱلرَّحِيمِ</a>",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 32,
+      "text": "نُزُلًا مِّنْ غَفُورٍ رَّحِيمٍ",
+      "highlightedHtml": "نُزُلًا مِّنْ غَفُورٍ <a class=\"highlight-text\">رَّحِيمٍ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 50,
+      "text": "وَلَئِنْ أَذَقْنَٰهُ رَحْمَةً مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةً وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍ",
+      "highlightedHtml": "وَلَئِنْ أَذَقْنَٰهُ <a class=\"highlight-text\">رَحْمَةً</a> مِّنَّا مِنۢ بَعْدِ ضَرَّآءَ مَسَّتْهُ لَيَقُولَنَّ هَٰذَا لِى وَمَآ أَظُنُّ ٱلسَّاعَةَ قَآئِمَةً وَلَئِن رُّجِعْتُ إِلَىٰ رَبِّىٓ إِنَّ لِى عِندَهُۥ لَلْحُسْنَىٰ ۚ فَلَنُنَبِّئَنَّ ٱلَّذِينَ كَفَرُوا۟ بِمَا عَمِلُوا۟ وَلَنُذِيقَنَّهُم مِّنْ عَذَابٍ غَلِيظٍ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 5,
+      "text": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 8,
+      "text": "وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمُونَ مَا لَهُم مِّن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَهُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن يُدْخِلُ مَن يَشَآءُ فِى <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۚ وَٱلظَّٰلِمُونَ مَا لَهُم مِّن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 28,
+      "text": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ <a class=\"highlight-text\">رَحْمَتَهُۥ</a> ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 48,
+      "text": "فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌ",
+      "highlightedHtml": "فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا <a class=\"highlight-text\">رَحْمَةً</a> فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 17,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 19,
+      "text": "وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 20,
+      "text": "وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ",
+      "highlightedHtml": "وَقَالُوا۟ لَوْ شَآءَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 32,
+      "text": "أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَتَّخِذَ بَعْضُهُم بَعْضًا سُخْرِيًّا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "highlightedHtml": "أَهُمْ يَقْسِمُونَ <a class=\"highlight-text\">رَحْمَتَ</a> رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَتَّخِذَ بَعْضُهُم بَعْضًا سُخْرِيًّا ۗ <a class=\"highlight-text\">وَرَحْمَتُ</a> رَبِّكَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 33,
+      "text": "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ بِٱلرَّحْمَٰنِ لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ وَمَعَارِجَ عَلَيْهَا يَظْهَرُونَ",
+      "highlightedHtml": "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ <a class=\"highlight-text\">بِٱلرَّحْمَٰنِ</a> لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ وَمَعَارِجَ عَلَيْهَا يَظْهَرُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 36,
+      "text": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "highlightedHtml": "وَمَن يَعْشُ عَن ذِكْرِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 45,
+      "text": "وَسْـَٔلْ مَنْ أَرْسَلْنَا مِن قَبْلِكَ مِن رُّسُلِنَآ أَجَعَلْنَا مِن دُونِ ٱلرَّحْمَٰنِ آلِهَةً يُعْبَدُونَ",
+      "highlightedHtml": "وَسْـَٔلْ مَنْ أَرْسَلْنَا مِن قَبْلِكَ مِن رُّسُلِنَآ أَجَعَلْنَا مِن دُونِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> آلِهَةً يُعْبَدُونَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 81,
+      "text": "قُلْ إِن كَانَ لِلرَّحْمَٰنِ وَلَدٌ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ",
+      "highlightedHtml": "قُلْ إِن كَانَ <a class=\"highlight-text\">لِلرَّحْمَٰنِ</a> وَلَدٌ فَأَنَا۠ أَوَّلُ ٱلْعَٰبِدِينَ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 6,
+      "text": "رَحْمَةً مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "<a class=\"highlight-text\">رَحْمَةً</a> مِّن رَّبِّكَ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 42,
+      "text": "إِلَّا مَن رَّحِمَ ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلرَّحِيمُ",
+      "highlightedHtml": "إِلَّا مَن <a class=\"highlight-text\">رَّحِمَ</a> ٱللَّهُ ۚ إِنَّهُۥ هُوَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِمَ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 20,
+      "text": "هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًى <a class=\"highlight-text\">وَرَحْمَةٌ</a> لِّقَوْمٍ يُوقِنُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 30,
+      "text": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى رَحْمَتِهِۦ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ",
+      "highlightedHtml": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَيُدْخِلُهُمْ رَبُّهُمْ فِى <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْمُبِينُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 8,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 12,
+      "text": "وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ وَهَٰذَا كِتَٰبٌ مُّصَدِّقٌ لِّسَانًا عَرَبِيًّا لِّيُنذِرَ ٱلَّذِينَ ظَلَمُوا۟ وَبُشْرَىٰ لِلْمُحْسِنِينَ",
+      "highlightedHtml": "وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا <a class=\"highlight-text\">وَرَحْمَةً</a> ۚ وَهَٰذَا كِتَٰبٌ مُّصَدِّقٌ لِّسَانًا عَرَبِيًّا لِّيُنذِرَ ٱلَّذِينَ ظَلَمُوا۟ وَبُشْرَىٰ لِلْمُحْسِنِينَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 22,
+      "text": "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ",
+      "highlightedHtml": "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ <a class=\"highlight-text\">أَرْحَامَكُمْ</a>",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 14,
+      "text": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَكَانَ ٱللَّهُ غَفُورًا <a class=\"highlight-text\">رَّحِيمًا</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 25,
+      "text": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى <a class=\"highlight-text\">رَحْمَتِهِۦ</a> مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ <a class=\"highlight-text\">رُحَمَآءُ</a> بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 5,
+      "text": "وَلَوْ أَنَّهُمْ صَبَرُوا۟ حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَّهُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلَوْ أَنَّهُمْ صَبَرُوا۟ حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَّهُمْ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 10,
+      "text": "إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ <a class=\"highlight-text\">تُرْحَمُونَ</a>",
+      "derivedForms": [
+        "تُرْحَمُ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 14,
+      "text": "قَالَتِ ٱلْأَعْرَابُ آمَنَّا ۖ قُل لَّمْ تُؤْمِنُوا۟ وَلَٰكِن قُولُوٓا۟ أَسْلَمْنَا وَلَمَّا يَدْخُلِ ٱلْإِيمَٰنُ فِى قُلُوبِكُمْ ۖ وَإِن تُطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ لَا يَلِتْكُم مِّنْ أَعْمَٰلِكُمْ شَيْـًٔا ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "قَالَتِ ٱلْأَعْرَابُ آمَنَّا ۖ قُل لَّمْ تُؤْمِنُوا۟ وَلَٰكِن قُولُوٓا۟ أَسْلَمْنَا وَلَمَّا يَدْخُلِ ٱلْإِيمَٰنُ فِى قُلُوبِكُمْ ۖ وَإِن تُطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ لَا يَلِتْكُم مِّنْ أَعْمَٰلِكُمْ شَيْـًٔا ۚ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 33,
+      "text": "مَّنْ خَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍ مُّنِيبٍ",
+      "highlightedHtml": "مَّنْ خَشِىَ <a class=\"highlight-text\">ٱلرَّحْمَٰنَ</a> بِٱلْغَيْبِ وَجَآءَ بِقَلْبٍ مُّنِيبٍ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 28,
+      "text": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ",
+      "highlightedHtml": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 1,
+      "text": "ٱلرَّحْمَٰنُ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a>",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 9,
+      "text": "هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ آيَاتٍ بَيِّنَٰتٍ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُنَزِّلُ عَلَىٰ عَبْدِهِۦٓ آيَاتٍ بَيِّنَٰتٍ لِّيُخْرِجَكُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۚ وَإِنَّ ٱللَّهَ بِكُمْ لَرَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 13,
+      "text": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "highlightedHtml": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ <a class=\"highlight-text\">ٱلرَّحْمَةُ</a> وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً <a class=\"highlight-text\">وَرَحْمَةً</a> وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 28,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن <a class=\"highlight-text\">رَّحْمَتِهِۦ</a> وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحْمَةٌ",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 10,
+      "text": "وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَآ إِنَّكَ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَآ إِنَّكَ رَءُوفٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 22,
+      "text": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ",
+      "highlightedHtml": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ۖ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۖ هُوَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> <a class=\"highlight-text\">ٱلرَّحِيمُ</a>",
+      "derivedForms": [
+        "الرَّحْمَن",
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 3,
+      "text": "لَن تَنفَعَكُمْ أَرْحَامُكُمْ وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "لَن تَنفَعَكُمْ <a class=\"highlight-text\">أَرْحَامُكُمْ</a> وَلَآ أَوْلَٰدُكُمْ ۚ يَوْمَ ٱلْقِيَٰمَةِ يَفْصِلُ بَيْنَكُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "أَرْحَام"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 7,
+      "text": "عَسَى ٱللَّهُ أَن يَجْعَلَ بَيْنَكُمْ وَبَيْنَ ٱلَّذِينَ عَادَيْتُم مِّنْهُم مَّوَدَّةً ۚ وَٱللَّهُ قَدِيرٌ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "عَسَى ٱللَّهُ أَن يَجْعَلَ بَيْنَكُمْ وَبَيْنَ ٱلَّذِينَ عَادَيْتُم مِّنْهُم مَّوَدَّةً ۚ وَٱللَّهُ قَدِيرٌ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 14,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَٰدِكُمْ عَدُوًّا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَصْفَحُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ مِنْ أَزْوَٰجِكُمْ وَأَوْلَٰدِكُمْ عَدُوًّا لَّكُمْ فَٱحْذَرُوهُمْ ۚ وَإِن تَعْفُوا۟ وَتَصْفَحُوا۟ وَتَصْفَحُوا۟ وَتَصْفَحُوا۟ وَتَغْفِرُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 3,
+      "text": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "highlightedHtml": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 19,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 20,
+      "text": "أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ ٱلرَّحْمَٰنِ ۚ إِنِ ٱلْكَٰفِرُونَ إِلَّا فِى غُرُورٍ",
+      "highlightedHtml": "أَمَّنْ هَٰذَا ٱلَّذِى هُوَ جُندٌ لَّكُمْ يَنصُرُكُم مِّن دُونِ <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> ۚ إِنِ ٱلْكَٰفِرُونَ إِلَّا فِى غُرُورٍ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 28,
+      "text": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ <a class=\"highlight-text\">رَحِمَنَا</a> فَمَن يُجِيرُ ٱلْكَٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "رَحِمَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 29,
+      "text": "قُلْ هُوَ ٱلرَّحْمَٰنُ آمَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "قُلْ هُوَ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> آمَنَّا بِهِۦ وَعَلَيْهِ تَوَكَّلْنَا ۖ فَسَتَعْلَمُونَ مَنْ هُوَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 20,
+      "text": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+      "highlightedHtml": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ <a class=\"highlight-text\">رَّحِيمٌۢ</a>",
+      "derivedForms": [
+        "رَحِيمٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 31,
+      "text": "يُدْخِلُ مَن يَشَآءُ فِى رَحْمَتِهِۦ ۚ وَٱلظَّٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا",
+      "highlightedHtml": "يُدْخِلُ مَن يَشَآءُ فِى <a class=\"highlight-text\">رَحْمَتِهِۦ</a> ۚ وَٱلظَّٰلِمِينَ أَعَدَّ لَهُمْ عَذَابًا أَلِيمًۢا",
+      "derivedForms": [
+        "رَحْمَةٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 37,
+      "text": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+      "highlightedHtml": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا <a class=\"highlight-text\">ٱلرَّحْمَٰنِ</a> ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 38,
+      "text": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًا",
+      "highlightedHtml": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ <a class=\"highlight-text\">ٱلرَّحْمَٰنُ</a> وَقَالَ صَوَابًا",
+      "derivedForms": [
+        "الرَّحْمَن"
+      ]
+    },
+    {
+      "surah": 90,
+      "ayah": 17,
+      "text": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ آمَنُوا وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ بِٱلْمَرْحَمَةِ",
+      "highlightedHtml": "ثُمَّ كَانَ مِنَ ٱلَّذِينَ آمَنُوا وَتَوَاصَوْا۟ بِٱلصَّبْرِ وَتَوَاصَوْا۟ <a class=\"highlight-text\">بِٱلْمَرْحَمَةِ</a>",
+      "derivedForms": [
+        "مَرْحَمَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T12:22:23.718Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine singular adjective",
+    "derivativeNote": "ٱلرَّحْمَٰنِ is in the derivative form: الرَّحْمَن",
+    "rootDefinitionHtml": "ر/ح/م   r–ḥ–m the womb, blood relatives<br>; mercy, kindness, compassion, pity, sympathy, to show mercy, to show compassion, to let off, to be kind, forgiveness, bounty, good fortune, blessing. <br><br>Of this root, 11 forms occur 342 times in the Qur’an:<br> رَحِمَ raḥima 20 times; تُرْحَمُون turḥamūn 8 times; رَحْمَةٌ raḥmatun 117 times; الرّاحِمِين ʾal‐rāḥimın 6 times; الرَّحْمَن ʾal‐raḥmān 57 times (and 113 times in the basmallah); الرَّحِيم ʾal‐raḥım 115 times (and 113 times in the basmallah); رُحَمَاءٌ ruḥamāʾ 1 time; أَرْحَم ʾarḥam 4 times; مَرْحَمَةٌ marḥamatun 1 time; أَرْحَام ʾarḥām 12 times and رُحْمٌ ruḥm 1 time.",
+    "mainDefinitionHtml": "الرَّحْمَن ʾal‐raḥmān [quasi‐act. part., always in definite form] [attribute of God] the Most Merciful, the Beneficent, the Lord of Mercy <br><br>(67:19) مَا يُمْسِكُهُنَّ إِلاَّ الرَّحْمَنُ none holds them up save the Lord of Mercy; * الرَّحْمَن name of Sura 55, Medinan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Lord of Mercy’ and His attributes in following verses.",
+    "mainEntryId": "wdef-ر-ح-م.الرَّحْمَن",
+    "entries": [
+      {
+        "id": "wdef-ر-ح-م",
+        "label": "ر-ح-م",
+        "definitionHtml": "ر/ح/م   r–ḥ–m the womb, blood relatives<br>; mercy, kindness, compassion, pity, sympathy, to show mercy, to show compassion, to let off, to be kind, forgiveness, bounty, good fortune, blessing. <br><br>Of this root, 11 forms occur 342 times in the Qur’an:<br> رَحِمَ raḥima 20 times; تُرْحَمُون turḥamūn 8 times; رَحْمَةٌ raḥmatun 117 times; الرّاحِمِين ʾal‐rāḥimın 6 times; الرَّحْمَن ʾal‐raḥmān 57 times (and 113 times in the basmallah); الرَّحِيم ʾal‐raḥım 115 times (and 113 times in the basmallah); رُحَمَاءٌ ruḥamāʾ 1 time; أَرْحَم ʾarḥam 4 times; مَرْحَمَةٌ marḥamatun 1 time; أَرْحَام ʾarḥām 12 times and رُحْمٌ ruḥm 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.الرَّحْمَن",
+        "label": "الرَّحْمَن",
+        "definitionHtml": "الرَّحْمَن ʾal‐raḥmān [quasi‐act. part., always in definite form] [attribute of God] the Most Merciful, the Beneficent, the Lord of Mercy <br><br>(67:19) مَا يُمْسِكُهُنَّ إِلاَّ الرَّحْمَنُ none holds them up save the Lord of Mercy; * الرَّحْمَن name of Sura 55, Medinan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Lord of Mercy’ and His attributes in following verses.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ح-م.أَرْحَام",
+        "label": "أَرْحَام",
+        "definitionHtml": "أَرْحَام ʾarḥām [pl. of n. رَحِمٌ raḥim] womb, uterus <br><br>(3:6) هُوَ الَّذِي يُصَوِّرُكُمْ فِى الأَرْحَامِ كَيْفَ يَشَاءُ it is He who shapes you in the womb(s) as He wills; *<br><br>(8:75) أُولُو الأَرْحَامِ kindred; *<br><br>(47:22) وَتُقَطِّعُوا أَرْحَامَكُمْ and break, or cut off, your [ties of] kinship.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.أَرْحَم",
+        "label": "أَرْحَم",
+        "definitionHtml": "أَرْحَم ʾarḥam [elat.] more/most merciful <br><br>(7:151) وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ You are the Most Merciful of the merciful.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.تُرْحَمُ",
+        "label": "تُرْحَمُ",
+        "definitionHtml": "تُرْحَمُ turḥam [imperf. pass. v.] to be shown mercy, to be treated with mercy <br><br>(7:204) لَعَلَّكُمْ تُرْحَمُونَ that you might be shown mercy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.رَاحِمين",
+        "label": "رَاحِمين",
+        "definitionHtml": "رَاحِمين rāḥimın [pl. of act. part. رَاحِمٌ rāḥim] showing mercy, merciful <br><br>(12:64) فَاللَّهُ خَيْرٌ حَافِظًا وَهُوَ أَرْحَمُ الرَّاحِمِينَ God is the best guardian and the Most Merciful of the merciful.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.رَحِمَ",
+        "label": "رَحِمَ",
+        "definitionHtml": "رَحِمَ raḥima a [v. trans.] <br><br><strong>1 </strong>to show mercy, to have mercy upon someone <br><br>(11:47) وَإِلاَّ تَغْفِرْ لِي وَتَرْحَمْنِي أَكُنْ مِنَ الْخَاسِرِينَ if you do not forgive me and have mercy on me, I shall be one of the losers <br><br><strong>2 </strong>to guide <br><br>(11:119) وَلاَ يَزَالُونَ مُخْتَلِفِينَ إِلاَّ مَنْ رَحِمَ رَبُّكَ and they will continue to be at odds with one another except for those whom your Lord has guided <br><br><strong>3 </strong>to forgive <br><br>(29:21) يُعَذِّبُ مَنْ يَشَاءُ وَيَرْحَمُ مَنْ يَشَاءُ He chastises whom He pleases and shows mercy to/forgives whom He pleases <br><br><strong>4 </strong>to spare, to rescue <br><br>(11:43) لاَ عَاصِمَ الْيَوْمَ مِنْ أَمْرِ اللَّهِ إِلاَّ مَنْ رَحِمَ there is no protection today from God’s command except for whom He spares.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.رَحِيمٌ",
+        "label": "رَحِيمٌ",
+        "definitionHtml": "رَحِيمٌ raḥım [intens. quasi‐act. part., pl. رُحَمَاءٌ ruḥamāʾ] <br><br><strong>1 </strong>one endowed with mercy, compassion <br><br>(48:29) وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ رُحَمَاءُ بَيْنَهُمْ and those with him are hard against the disbelievers, and merciful among themselves <br><br><strong>2 </strong>[attribute of God] the Most Compassionate <br><br>(2:199) وَاسْتَغْفِرُوا اللَّهَ إِنَّ اللَّهَ غَفُورٌ رَحِيمٌ and ask forgiveness of God: He is Most Forgiving and Most Compassionate.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.رَحْمَةٌ",
+        "label": "رَحْمَةٌ",
+        "definitionHtml": "رَحْمَةٌ raḥmatun [n.] mercy, grace <br><br>(28:73) وَمِنْ رَحْمَتِهِ جَعَلَ لَكُمُ اللَّيْلَ وَالنَّهَارَ لِتَسْكُنُوا فِيهِ وَلِتَبْتَغُوا مِنْ فَضْلِهِ and out of His mercy He has made for you the night and the day, that you may rest therein and that you may seek of His bounty.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.رُحْمٌ",
+        "label": "رُحْمٌ",
+        "definitionHtml": "رُحْمٌ ruḥm [n.] mercy, kindness, compassion <br><br>(18:81) فَأَرَدْنَا أَنْ يُبْدِلَهُمَا رَبُّهُمَا خَيْرًا مِنْهُ زَكَاةً وَأَقْرَبَ رُحْمًا so we wished that their Lord should change him for them, [for one] better in purity and more inclined to show mercy [lit. nearer in mercy].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-م.مَرْحَمَةٌ",
+        "label": "مَرْحَمَةٌ",
+        "definitionHtml": "مَرْحَمَةٌ marḥamatun [n.] mercy, compassion <br><br>(90:17) وَتَوَاصَوْا بِالصَّبْرِ وَتَوَاصَوْا بِالْمَرْحَمَةِ and [be of those who] enjoin upon one another steadfastness and enjoin upon one another compassion.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:22:23.710Z",
+      "refword": "1:3:1",
+      "lexword": "ٱلرَّحْمَٰنِ"
+    }
+  }
+}

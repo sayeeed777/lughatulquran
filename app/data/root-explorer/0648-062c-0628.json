@@ -1,0 +1,74 @@
+{
+  "root": "وجب",
+  "rootArabic": "وجب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "وَجَبَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَجَبَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 36,
+      "text": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا <a class=\"highlight-text\">وَجَبَتْ</a> جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "وَجَبَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:57.453Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "وَجَبَتْ is in the derivative form: وَجَبَ",
+    "rootDefinitionHtml": "و/ج/ب w–j–b a loud thud, (of the heart) to beat strongly; to fall down, to fall dead; to become due, (of the sun) to set, to reach the appropriate time. Of this root, وَجَبَ wajaba, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَجَبَ wajaba i [v. intrans.] to become due, to reach the correct position *<br><br>(22:36) فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا مِنْهَا when [the slaughtered animals] completely expire [lit. when its sides fall to the ground].",
+    "mainEntryId": "wdef-و-ج-ب.وَجَبَ",
+    "entries": [
+      {
+        "id": "wdef-و-ج-ب",
+        "label": "و-ج-ب",
+        "definitionHtml": "و/ج/ب w–j–b a loud thud, (of the heart) to beat strongly; to fall down, to fall dead; to become due, (of the sun) to set, to reach the appropriate time. Of this root, وَجَبَ wajaba, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ج-ب.وَجَبَ",
+        "label": "وَجَبَ",
+        "definitionHtml": "وَجَبَ wajaba i [v. intrans.] to become due, to reach the correct position *<br><br>(22:36) فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا مِنْهَا when [the slaughtered animals] completely expire [lit. when its sides fall to the ground].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:03.945Z",
+      "refword": "22:36:16",
+      "lexword": "وَجَبَتْ"
+    }
+  }
+}

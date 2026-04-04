@@ -1,0 +1,74 @@
+{
+  "root": "ثبط",
+  "rootArabic": "ثبط",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ثَبَّطَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَبَّطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 46,
+      "text": "وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ ٱقْعُدُوا۟ مَعَ ٱلْقَٰعِدِينَ",
+      "highlightedHtml": "وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ <a class=\"highlight-text\">فَثَبَّطَهُمْ</a> وَقِيلَ ٱقْعُدُوا۟ مَعَ ٱلْقَٰعِدِينَ",
+      "derivedForms": [
+        "ثَبَّطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:34.999Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) perfect verb",
+    "derivativeNote": "فَثَبَّطَهُمْ is in the derivative form: ثَبَّطَ",
+    "rootDefinitionHtml": "ث/ب/ط   th–b–ṭ to be slow, sluggish, phlegmatic; to cause someone to lose heart, to discourage, to turn away. Of this root, ثَبَّطَ thabbaṭa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ثَبَّطَ thabbaṭa [v. II, trans.] to frustrate, to discourage, to impede; to cause someone to be reticent <br><br>(9:46) وَلَكِنْ كَرِهَ اللَّهُ انْبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ اقْعُدُوا مَعَ الْقَاعِدِينَ but God was averse to their going forth, so He discouraged them, and it was said, ‘Stay behind with the laggards.’",
+    "mainEntryId": "wdef-ث-ب-ط.ثَبَّطَ",
+    "entries": [
+      {
+        "id": "wdef-ث-ب-ط",
+        "label": "ث-ب-ط",
+        "definitionHtml": "ث/ب/ط   th–b–ṭ to be slow, sluggish, phlegmatic; to cause someone to lose heart, to discourage, to turn away. Of this root, ثَبَّطَ thabbaṭa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ط.ثَبَّطَ",
+        "label": "ثَبَّطَ",
+        "definitionHtml": "ثَبَّطَ thabbaṭa [v. II, trans.] to frustrate, to discourage, to impede; to cause someone to be reticent <br><br>(9:46) وَلَكِنْ كَرِهَ اللَّهُ انْبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ اقْعُدُوا مَعَ الْقَاعِدِينَ but God was averse to their going forth, so He discouraged them, and it was said, ‘Stay behind with the laggards.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:54.231Z",
+      "refword": "9:46:11",
+      "lexword": "فَثَبَّطَهُمْ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "عنو",
+  "rootArabic": "عنو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "عَنَا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَنَا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 111,
+      "text": "وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَعَنَتِ</a> ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
+      "derivedForms": [
+        "عَنَا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:35.295Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "وَعَنَتِ is in the derivative form: عَنَا",
+    "rootDefinitionHtml": "ع/ن/و ʿ–n–w to be humble, to be subservient, to yield, to show humility, to submit, to humble oneself; to take by force, force, to take as prisoner of war, to be imprisoned; to show interest; to take something; to mean, meaning; title. Of this root, only عَنَتِ‏ʿana(t) occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "عَنَا ʿanā u [v. intrans.] to become servile, to become humble, to be lowly; to become submissive, to bow <br><br>(20:111) وَعَنَتِ‏ ‏الْوُجُوهُ‏ ‏لِلْحَيِّ‏ ‏الْقَيُّومِ faces will become humble (or, downcast) before the Living, Eternal One.",
+    "mainEntryId": "wdef-ع-ن-و.عَنَا",
+    "entries": [
+      {
+        "id": "wdef-ع-ن-و",
+        "label": "ع-ن-و",
+        "definitionHtml": "ع/ن/و ʿ–n–w to be humble, to be subservient, to yield, to show humility, to submit, to humble oneself; to take by force, force, to take as prisoner of war, to be imprisoned; to show interest; to take something; to mean, meaning; title. Of this root, only عَنَتِ‏ʿana(t) occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ن-و.عَنَا",
+        "label": "عَنَا",
+        "definitionHtml": "عَنَا ʿanā u [v. intrans.] to become servile, to become humble, to be lowly; to become submissive, to bow <br><br>(20:111) وَعَنَتِ‏ ‏الْوُجُوهُ‏ ‏لِلْحَيِّ‏ ‏الْقَيُّومِ faces will become humble (or, downcast) before the Living, Eternal One.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:47.989Z",
+      "refword": "20:111:1",
+      "lexword": "وَعَنَتِ"
+    }
+  }
+}

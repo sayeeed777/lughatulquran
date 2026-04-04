@@ -1,0 +1,433 @@
+{
+  "root": "حجر",
+  "rootArabic": "حجر",
+  "stats": {
+    "totalOccurrences": 21,
+    "derivativeCount": 5,
+    "surahCount": 14,
+    "ayahCount": 18
+  },
+  "derivatives": [
+    {
+      "form": "حَجَرٌ",
+      "count": 12
+    },
+    {
+      "form": "حِجْرٌ",
+      "count": 5
+    },
+    {
+      "form": "X",
+      "count": 2
+    },
+    {
+      "form": "حُجُرَاتٌ",
+      "count": 1
+    },
+    {
+      "form": "حُجُورٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 4,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُجُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حِجْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "حِجْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حِجْرٌ",
+          "count": 2,
+          "totalInQuran": 5
+        },
+        {
+          "form": "X",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُجُرَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حِجْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 105,
+      "surahName": "Al-Fil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَجَرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 24,
+      "text": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "highlightedHtml": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ <a class=\"highlight-text\">وَٱلْحِجَارَةُ</a> ۖ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 60,
+      "text": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ <a class=\"highlight-text\">ٱلْحَجَرَ</a> ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 74,
+      "text": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "highlightedHtml": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ <a class=\"highlight-text\">كَٱلْحِجَارَةِ</a> أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ <a class=\"highlight-text\">ٱلْحِجَارَةِ</a> لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "derivedForms": [
+        "حَجَرٌ",
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 23,
+      "text": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّٰتُكُمْ وَخَٰلَٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَٰتُكُمُ ٱلَّٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَٰعَةِ وَأُمَّهَٰتُ نِسَآئِكُمْ وَرَبَٰٓئِبُكُمُ ٱلَّٰتِى فِى <a class=\"highlight-text\">حُجُورِكُم</a> مِّن نِّسَآئِكُمُ ٱلَّٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "حُجُورٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 138,
+      "text": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ وَحَرْثٌ <a class=\"highlight-text\">حِجْرٌ</a> لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "حِجْرٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 160,
+      "text": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ <a class=\"highlight-text\">ٱلْحَجَرَ</a> ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 32,
+      "text": "وَإِذْ قَالُوا۟ ٱللَّهُمَّ إِن كَانَ هَٰذَا هُوَ ٱلْحَقَّ مِنْ عِندِكَ فَأَمْطِرْ فَأَمْطِرْ عَلَيْنَا حِجَارَةً مِّنَ ٱلسَّمَآءِ أَوِ ٱئْتِنَا بِعَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "وَإِذْ قَالُوا۟ ٱللَّهُمَّ إِن كَانَ هَٰذَا هُوَ ٱلْحَقَّ مِنْ عِندِكَ فَأَمْطِرْ فَأَمْطِرْ عَلَيْنَا <a class=\"highlight-text\">حِجَارَةً</a> مِّنَ ٱلسَّمَآءِ أَوِ ٱئْتِنَا بِعَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 82,
+      "text": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
+      "highlightedHtml": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا <a class=\"highlight-text\">حِجَارَةً</a> مِّن سِجِّيلٍ مَّنضُودٍ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 74,
+      "text": "فَجَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+      "highlightedHtml": "فَجَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهِمْ <a class=\"highlight-text\">حِجَارَةً</a> مِّن سِجِّيلٍ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 80,
+      "text": "وَلَقَدْ كَذَّبَ أَصْحَٰبُ ٱلْحِجْرِ ٱلْمُرْسَلِينَ",
+      "highlightedHtml": "وَلَقَدْ كَذَّبَ أَصْحَٰبُ <a class=\"highlight-text\">ٱلْحِجْرِ</a> ٱلْمُرْسَلِينَ",
+      "derivedForms": [
+        "حِجْرٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 50,
+      "text": "قُلْ كُونُوا۟ حِجَارَةً أَوْ حَدِيدًا",
+      "highlightedHtml": "قُلْ كُونُوا۟ <a class=\"highlight-text\">حِجَارَةً</a> أَوْ حَدِيدًا",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 22,
+      "text": "يَوْمَ يَرَوْنَ ٱلْمَلَٰٓئِكَةَ لَا بُشْرَىٰ يَوْمَئِذٍ لِّلْمُجْرِمِينَ وَيَقُولُونَ حِجْرًا مَّحْجُورًا",
+      "highlightedHtml": "يَوْمَ يَرَوْنَ ٱلْمَلَٰٓئِكَةَ لَا بُشْرَىٰ يَوْمَئِذٍ لِّلْمُجْرِمِينَ وَيَقُولُونَ <a class=\"highlight-text\">حِجْرًا</a> <a class=\"highlight-text\">مَّحْجُورًا</a>",
+      "derivedForms": [
+        "حِجْرٌ",
+        "X"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 53,
+      "text": "وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا وَحِجْرًا مَّحْجُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا <a class=\"highlight-text\">وَحِجْرًا</a> <a class=\"highlight-text\">مَّحْجُورًا</a>",
+      "derivedForms": [
+        "حِجْرٌ",
+        "X"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 4,
+      "text": "إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ ٱلْحُجُرَٰتِ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يُنَادُونَكَ مِن وَرَآءِ <a class=\"highlight-text\">ٱلْحُجُرَٰتِ</a> أَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "حُجُرَاتٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 33,
+      "text": "لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِّن طِينٍ",
+      "highlightedHtml": "لِنُرْسِلَ عَلَيْهِمْ <a class=\"highlight-text\">حِجَارَةً</a> مِّن طِينٍ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا ٱلنَّاسُ <a class=\"highlight-text\">وَٱلْحِجَارَةُ</a> عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 5,
+      "text": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+      "highlightedHtml": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى <a class=\"highlight-text\">حِجْرٍ</a>",
+      "derivedForms": [
+        "حِجْرٌ"
+      ]
+    },
+    {
+      "surah": 105,
+      "ayah": 4,
+      "text": "تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ",
+      "highlightedHtml": "تَرْمِيهِم <a class=\"highlight-text\">بِحِجَارَةٍ</a> مِّن سِجِّيلٍ",
+      "derivedForms": [
+        "حَجَرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:46.919Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine noun",
+    "derivativeNote": "وَٱلْحِجَارَةُ is in the derivative form: حَجَرٌ",
+    "rootDefinitionHtml": "ح/ج/ر   ḥ–j–r stone, to stone<br>; to solidify; enclosure, room; to confine; to deny access, to limit, to declare legally incompetent, to freeze; cunning person, brains, discerning faculty. <br><br>Of this root, 5 forms occur 21 times in the Qur’an:<br> حِجْر ḥijr 7 times;حُجُور ḥujūr 1 time; حُجُرَاتٌ ḥujurāt 1 time; حَجَر ḥajar 2 times and حِجَارَةٌ ḥijāratun 10 times.",
+    "mainDefinitionHtml": "حَجَرٌ ḥajar [n., pl. حِجَارَةٌ ḥijāratun] <br><br><strong>1 </strong>stone, rock <br><br>(2:74) ثُمَّ قَسَتْ قُلُوبُكُمْ مِنْ بَعْدِ ذَلِكَ فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً even after that, your hearts became hard, as hard as rocks, or even harder <br><br><strong>2 </strong>clumps of hardened mud <br><br>(51:33) لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِنْ طِينٍ that We may shower upon them clumps of hard clay.",
+    "mainEntryId": "wdef-ح-ج-ر.حَجَرٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-ج-ر",
+        "label": "ح-ج-ر",
+        "definitionHtml": "ح/ج/ر   ḥ–j–r stone, to stone<br>; to solidify; enclosure, room; to confine; to deny access, to limit, to declare legally incompetent, to freeze; cunning person, brains, discerning faculty. <br><br>Of this root, 5 forms occur 21 times in the Qur’an:<br> حِجْر ḥijr 7 times;حُجُور ḥujūr 1 time; حُجُرَاتٌ ḥujurāt 1 time; حَجَر ḥajar 2 times and حِجَارَةٌ ḥijāratun 10 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ج-ر.حَجَرٌ",
+        "label": "حَجَرٌ",
+        "definitionHtml": "حَجَرٌ ḥajar [n., pl. حِجَارَةٌ ḥijāratun] <br><br><strong>1 </strong>stone, rock <br><br>(2:74) ثُمَّ قَسَتْ قُلُوبُكُمْ مِنْ بَعْدِ ذَلِكَ فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً even after that, your hearts became hard, as hard as rocks, or even harder <br><br><strong>2 </strong>clumps of hardened mud <br><br>(51:33) لِنُرْسِلَ عَلَيْهِمْ حِجَارَةً مِنْ طِينٍ that We may shower upon them clumps of hard clay.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ج-ر.حُجُرَاتٌ",
+        "label": "حُجُرَاتٌ",
+        "definitionHtml": "حُجُرَاتٌ ḥujurāt [pl. of n. حُجْرَةٌ ḥujratun] enclosures of any type, rooms, bedrooms, private quarters <br><br>(49:4) إِنَّ الَّذِينَ يُنَادُونَكَ مِنْ وَرَاءِ الْحُجُرَاتِ أَكْثَرُهُمْ لاَ يَعْقِلُونَ those who call you [Prophet] from outside your private rooms–most of them lack understanding; * الْحُجُرَاتِ name of Sura 49, Medinan sura, so‐named because of the reference in verse <br><br><strong>4 </strong>to the Prophet’s ‘Private Quarters’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ج-ر.حُجُورٌ",
+        "label": "حُجُورٌ",
+        "definitionHtml": "حُجُورٌ ḥujūr [pl. of n./v. n. حَِجْر ḥijr or ḥajr] bosom, lap (front of a garment from the waist to the knee); restriction *<br><br>(4:23) فِي حُجُورِكُمْ in your care, under your guardianship [lit. in your laps].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ج-ر.حِجْرٌ",
+        "label": "حِجْرٌ",
+        "definitionHtml": "حِجْرٌ ḥijr I [v. n.] <br><br><strong>1 </strong>[functioning as a quasi‐pass. part.] that which is earmarked for a certain purpose, reserved for exclusive use <br><br>(6:138) وَقَالُوا هَذِهِ أَنْعَامٌ وَحَرْثٌ حِجْرٌ لاَ يَطْعَمُهَا إِلاَّ مَنْ نَشَاءُ بِزَعْمِهِمْ and they [also] say, ‘These sacredly reserved cattle and tillage [crops], none but those we wish may eat them’–so they claim!; *<br><br>(25:22) حِجْرًا مَحْجُورًا [an interjection] absolutely forbidden!; absolutely untouchable! used as an expression in pre‐Islamic Arabia to gain safe conduct from an enemy during the forbidden months: <br><br>(25:22) يَوْمَ يَرَوْنَ الْمَلاَئِكَةَ لاَ بُشْرَى يَوْمَئِذٍ لِلْمُجْرِمِينَ وَيَقُولُونَ حِجْرًا مَحْجُورًا the day they will see the angels, [there will be] no good tidings that day for the guilty, they [the angels] will say [to them ‘halt’] it is absolutely forbidden [for you to go any further towards the Garden] <br><br><strong>2 </strong>[functioning as a quasi‐act. part.] controlling power, restrictive power *<br><br>(89:5) لِذِي حِجْرٍ for a rational person, person of discernment, reasonable person [lit. for a person with restraint] II [n.] enclosure, stone dwelling, stone city, name of the city in which the tribe of Thamūd lived *<br><br>(15:80) أَصْحَابُ الْحِجْرِ the people of ʾal‐˘ijr, the inhabitants of ʾal‐˘ijr, the tribe of Thamūd (q.v.) who hued for themselves dwellings in the rock face; * الْحِجْرِname of Sura 15, Meccan sura, so‐named because of the reference in verse <br><br><strong>80 </strong>to the ‘Stone City’ of Thamūd.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:05.501Z",
+      "refword": "2:24:11",
+      "lexword": "وَٱلْحِجَارَةُ"
+    }
+  }
+}

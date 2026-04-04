@@ -1,0 +1,579 @@
+{
+  "root": "دري",
+  "rootArabic": "دري",
+  "stats": {
+    "totalOccurrences": 29,
+    "derivativeCount": 2,
+    "surahCount": 21,
+    "ayahCount": 28
+  },
+  "derivatives": [
+    {
+      "form": "أَدْرَى",
+      "count": 17
+    },
+    {
+      "form": "أَدْرِي",
+      "count": 12
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        },
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        },
+        {
+          "form": "أَدْرِي",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرِي",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 97,
+      "surahName": "Al-Qadr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْرَى",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 11,
+      "text": "يُوصِيكُمُ ٱللَّهُ فِىٓ أَوْلَٰدِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۚ فَإِن كُنَّ نِسَآءً فَوْقَ ٱثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِن كَانَتْ وَٰحِدَةً فَلَهَا ٱلنِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَٰحِدٍ مِّنْهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدٌ ۚ فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ فَإِن كَانَ لَهُۥٓ إِخْوَةٌ فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ لَا تَدْرُونَ أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًا ۚ فَرِيضَةً مِّنَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "highlightedHtml": "يُوصِيكُمُ ٱللَّهُ فِىٓ أَوْلَٰدِكُمْ ۖ لِلذَّكَرِ مِثْلُ حَظِّ ٱلْأُنثَيَيْنِ ۚ فَإِن كُنَّ نِسَآءً فَوْقَ ٱثْنَتَيْنِ فَلَهُنَّ ثُلُثَا مَا تَرَكَ ۖ وَإِن كَانَتْ وَٰحِدَةً فَلَهَا ٱلنِّصْفُ ۚ وَلِأَبَوَيْهِ لِكُلِّ وَٰحِدٍ مِّنْهُمَا ٱلسُّدُسُ مِمَّا تَرَكَ إِن كَانَ لَهُۥ وَلَدٌ ۚ فَإِن لَّمْ يَكُن لَّهُۥ وَلَدٌ وَوَرِثَهُۥٓ أَبَوَاهُ فَلِأُمِّهِ ٱلثُّلُثُ ۚ فَإِن كَانَ لَهُۥٓ إِخْوَةٌ فَلِأُمِّهِ ٱلسُّدُسُ ۚ مِنۢ بَعْدِ وَصِيَّةٍ يُوصِى بِهَآ أَوْ دَيْنٍ ۗ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ لَا <a class=\"highlight-text\">تَدْرُونَ</a> أَيُّهُمْ أَقْرَبُ لَكُمْ نَفْعًا ۚ فَرِيضَةً مِّنَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 16,
+      "text": "قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ وَلَآ أَدْرَىٰكُم بِهِۦ ۖ فَقَدْ لَبِثْتُ فِيكُمْ عُمُرًا مِّن قَبْلِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ وَلَآ <a class=\"highlight-text\">أَدْرَىٰكُم</a> بِهِۦ ۖ فَقَدْ لَبِثْتُ فِيكُمْ عُمُرًا مِّن قَبْلِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 109,
+      "text": "فَإِن تَوَلَّوْا۟ فَقُلْ آذَنْتُكُمْ عَلَىٰ سَوَآءٍ سَوَآءٍ ۖ وَإِنْ أَدْرِىٓ أَقَرِيبٌ أَم بَعِيدٌ مَّا تُوعَدُونَ",
+      "highlightedHtml": "فَإِن تَوَلَّوْا۟ فَقُلْ آذَنْتُكُمْ عَلَىٰ سَوَآءٍ سَوَآءٍ ۖ وَإِنْ <a class=\"highlight-text\">أَدْرِىٓ</a> أَقَرِيبٌ أَم بَعِيدٌ مَّا تُوعَدُونَ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 111,
+      "text": "وَإِنْ أَدْرِى لَعَلَّهُۥ فِتْنَةٌ لَّكُمْ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "highlightedHtml": "وَإِنْ <a class=\"highlight-text\">أَدْرِى</a> لَعَلَّهُۥ فِتْنَةٌ لَّكُمْ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 34,
+      "text": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا <a class=\"highlight-text\">تَدْرِى</a> نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا <a class=\"highlight-text\">تَدْرِى</a> نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "derivedForms": [
+        "أَدْرِي",
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 63,
+      "text": "يَسْـَٔلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِ ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ ۚ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِيبًا",
+      "highlightedHtml": "يَسْـَٔلُكَ ٱلنَّاسُ عَنِ ٱلسَّاعَةِ ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ ۚ وَمَا <a class=\"highlight-text\">يُدْرِيكَ</a> لَعَلَّ ٱلسَّاعَةَ تَكُونُ قَرِيبًا",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 17,
+      "text": "ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا <a class=\"highlight-text\">يُدْرِيكَ</a> لَعَلَّ ٱلسَّاعَةَ قَرِيبٌ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 52,
+      "text": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًا مِّنْ أَمْرِنَا ۚ مَا كُنتَ تَدْرِى مَا ٱلْكِتَٰبُ وَلَا ٱلْإِيمَٰنُ وَلَٰكِن جَعَلْنَٰهُ نُورًا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ رُوحًا مِّنْ أَمْرِنَا ۚ مَا كُنتَ <a class=\"highlight-text\">تَدْرِى</a> مَا ٱلْكِتَٰبُ وَلَا ٱلْإِيمَٰنُ وَلَٰكِن جَعَلْنَٰهُ نُورًا نَّهْدِى بِهِۦ مَن نَّشَآءُ مِنْ عِبَادِنَا ۚ وَإِنَّكَ لَتَهْدِىٓ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 32,
+      "text": "وَإِذَا قِيلَ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لَا رَيْبَ فِيهَا قُلْتُم مَّا نَدْرِى مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنًّا وَمَا نَحْنُ بِمُسْتَيْقِنِينَ",
+      "highlightedHtml": "وَإِذَا قِيلَ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لَا رَيْبَ فِيهَا قُلْتُم مَّا <a class=\"highlight-text\">نَدْرِى</a> مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنًّا وَمَا نَحْنُ بِمُسْتَيْقِنِينَ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 9,
+      "text": "قُلْ مَا كُنتُ بِدْعًا مِّنَ ٱلرُّسُلِ وَمَآ أَدْرِى مَا يُفْعَلُ بِى وَلَا بِكُمْ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ وَمَآ أَنَا۠ إِلَّا نَذِيرٌ مُّبِينٌ",
+      "highlightedHtml": "قُلْ مَا كُنتُ بِدْعًا مِّنَ ٱلرُّسُلِ وَمَآ <a class=\"highlight-text\">أَدْرِى</a> مَا يُفْعَلُ بِى وَلَا بِكُمْ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ وَمَآ أَنَا۠ إِلَّا نَذِيرٌ مُّبِينٌ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا <a class=\"highlight-text\">تَدْرِى</a> لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 3,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحَآقَّةُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا ٱلْحَآقَّةُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 26,
+      "text": "وَلَمْ أَدْرِ مَا حِسَابِيَهْ",
+      "highlightedHtml": "وَلَمْ <a class=\"highlight-text\">أَدْرِ</a> مَا حِسَابِيَهْ",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 10,
+      "text": "وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
+      "highlightedHtml": "وَأَنَّا لَا <a class=\"highlight-text\">نَدْرِىٓ</a> أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 25,
+      "text": "قُلْ إِنْ أَدْرِىٓ أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًا",
+      "highlightedHtml": "قُلْ إِنْ <a class=\"highlight-text\">أَدْرِىٓ</a> أَقَرِيبٌ مَّا تُوعَدُونَ أَمْ يَجْعَلُ لَهُۥ رَبِّىٓ أَمَدًا",
+      "derivedForms": [
+        "أَدْرِي"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 27,
+      "text": "وَمَآ أَدْرَىٰكَ مَا سَقَرُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا سَقَرُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 14,
+      "text": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلْفَصْلِ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا يَوْمُ ٱلْفَصْلِ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 3,
+      "text": "وَمَا يُدْرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">يُدْرِيكَ</a> لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 17,
+      "text": "وَمَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا يَوْمُ ٱلدِّينِ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 18,
+      "text": "ثُمَّ مَآ أَدْرَىٰكَ مَا يَوْمُ ٱلدِّينِ",
+      "highlightedHtml": "ثُمَّ مَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا يَوْمُ ٱلدِّينِ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 8,
+      "text": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا سِجِّينٌ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 19,
+      "text": "وَمَآ أَدْرَىٰكَ مَا عِلِّيُّونَ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا عِلِّيُّونَ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا ٱلطَّارِقُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 90,
+      "ayah": 12,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْعَقَبَةُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا ٱلْعَقَبَةُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 97,
+      "ayah": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا لَيْلَةُ ٱلْقَدْرِ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا لَيْلَةُ ٱلْقَدْرِ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 3,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْقَارِعَةُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا ٱلْقَارِعَةُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 10,
+      "text": "وَمَآ أَدْرَىٰكَ مَا هِيَهْ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا هِيَهْ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 5,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "highlightedHtml": "وَمَآ <a class=\"highlight-text\">أَدْرَىٰكَ</a> مَا ٱلْحُطَمَةُ",
+      "derivedForms": [
+        "أَدْرَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:12.627Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "تَدْرُونَ is in the derivative form: أَدْرِي",
+    "rootDefinitionHtml": "د/ر/ي   d–r–y to know, to comprehend, to understand; to inform, to teach; to disguise, a hideout; to act furtively; to deal gently, to placate, to comb. <br><br>Of this root, 2 forms occur 29 times in the Qur’an:<br> أَدْرِي ʾadrı 12 times and أَدْرَى ʾadrā 17 times.",
+    "mainDefinitionHtml": "أَدْرِي ʾadrı [imperf. of v. دَرَى darā, trans.] to know <br><br>(72:10) وَأَنَّا لاَ نَدْرِي أَشَرٌّ أُرِيدَ بِمَنْ فِى الأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا and so we do not know whether evil is intended for those who are on the earth, or whether their Lord intends for them guidance.",
+    "mainEntryId": "wdef-د-ر-ي.أَدْرِي",
+    "entries": [
+      {
+        "id": "wdef-د-ر-ي",
+        "label": "د-ر-ي",
+        "definitionHtml": "د/ر/ي   d–r–y to know, to comprehend, to understand; to inform, to teach; to disguise, a hideout; to act furtively; to deal gently, to placate, to comb. <br><br>Of this root, 2 forms occur 29 times in the Qur’an:<br> أَدْرِي ʾadrı 12 times and أَدْرَى ʾadrā 17 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ر-ي.أَدْرِي",
+        "label": "أَدْرِي",
+        "definitionHtml": "أَدْرِي ʾadrı [imperf. of v. دَرَى darā, trans.] to know <br><br>(72:10) وَأَنَّا لاَ نَدْرِي أَشَرٌّ أُرِيدَ بِمَنْ فِى الأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا and so we do not know whether evil is intended for those who are on the earth, or whether their Lord intends for them guidance.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ر-ي.أَدْرَى",
+        "label": "أَدْرَى",
+        "definitionHtml": "أَدْرَى ʾadrā [v. IV, trans.] to cause to know: <br><br>(10:16) قُلْ لَوْ شَاءَ اللَّهُ مَا تَلَوْتُهُ عَلَيْكُمْ وَلاَ أَدرَاكُمْ بِهِ say, ‘If God had so willed, I would not have recited it to you, nor would He have brought it to your knowledge’; *<br><br>(69:3) وَمَا أَدْرَاكَ مَا ...! how will you come to comprehend what such‐and‐such is!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:44.414Z",
+      "refword": "4:11:59",
+      "lexword": "تَدْرُونَ"
+    }
+  }
+}

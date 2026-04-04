@@ -1,0 +1,140 @@
+{
+  "root": "طوق",
+  "rootArabic": "طوق",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "طَاقَةٌ",
+      "count": 2
+    },
+    {
+      "form": "يُطَوَّق",
+      "count": 1
+    },
+    {
+      "form": "يُطِيق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "طَاقَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يُطِيق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُطَوَّق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 184,
+      "text": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ <a class=\"highlight-text\">يُطِيقُونَهُۥ</a> فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "يُطِيق"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 249,
+      "text": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًا مِّنْهُمْ ۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ آمَنُوا مَعَهُۥ قَالُوا۟ لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًا مِّنْهُمْ ۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ آمَنُوا مَعَهُۥ قَالُوا۟ لَا <a class=\"highlight-text\">طَاقَةَ</a> لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "طَاقَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 286,
+      "text": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا <a class=\"highlight-text\">طَاقَةَ</a> لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "طَاقَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 180,
+      "text": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ <a class=\"highlight-text\">سَيُطَوَّقُونَ</a> مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "يُطَوَّق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:04.476Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "يُطِيقُونَهُۥ is in the derivative form: يُطِيق",
+    "rootDefinitionHtml": "ط/و/ق   ṭ–w–q neckband, torc, collar, loop, circle, to encircle, to encompass<br>; ability, power, capacity, to be capable of, to be able, to bear. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يُطَوَّقُون yuṭawwaqūn 1 time; يُطِيقُون yuṭıqūn 1 time and طَاقَةٌ ṭāqatun 2 times.",
+    "mainDefinitionHtml": "يُطِيق yuṭıq [imperf. of IV, trans.] [jur.] to put up with; to bear with difficulty <br><br>(2:184) ‏وَعَلَى‏ ‏الَّذِينَ‏ ‏يُطِيقُونَهُ‏ ‏فِدْيَةٌ‏ ‏طَعَامُ‏ ‏مِسْكِينٍ‏ levied upon those who can barely do it [the fast] [also interpreted as: those who can bear it but they have a valid excuse such as travel or sickness] is a compensation–feeding a needy person.",
+    "mainEntryId": "wdef-ط-و-ق.يُطِيق",
+    "entries": [
+      {
+        "id": "wdef-ط-و-ق",
+        "label": "ط-و-ق",
+        "definitionHtml": "ط/و/ق   ṭ–w–q neckband, torc, collar, loop, circle, to encircle, to encompass<br>; ability, power, capacity, to be capable of, to be able, to bear. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يُطَوَّقُون yuṭawwaqūn 1 time; يُطِيقُون yuṭıqūn 1 time and طَاقَةٌ ṭāqatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ق.يُطِيق",
+        "label": "يُطِيق",
+        "definitionHtml": "يُطِيق yuṭıq [imperf. of IV, trans.] [jur.] to put up with; to bear with difficulty <br><br>(2:184) ‏وَعَلَى‏ ‏الَّذِينَ‏ ‏يُطِيقُونَهُ‏ ‏فِدْيَةٌ‏ ‏طَعَامُ‏ ‏مِسْكِينٍ‏ levied upon those who can barely do it [the fast] [also interpreted as: those who can bear it but they have a valid excuse such as travel or sickness] is a compensation–feeding a needy person.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-و-ق.طَاقَةٌ",
+        "label": "طَاقَةٌ",
+        "definitionHtml": "طَاقَةٌ ṭāqatun [n.] power, strength, capacity <br><br>(2:286)‏رَبَّنَا‏ ‏وَلاَ‏ ‏تُحَمِّلْنَا‏ ‏مَا‏ ‏لاَ‏ ‏طَاقَةَ‏ ‏لَنَا‏ ‏بِهِ and Lord, do not burden us with what we do not have strength to bear.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ق.يُطَوَّق",
+        "label": "يُطَوَّق",
+        "definitionHtml": "يُطَوَّق yuṭawwaq [imperf. pass. v. II] to have [something] clapped around [the neck], to have twisted around [the neck] <br><br>(3:180) ‏سَيُطَوَّقُونَ‏ ‏مَا‏ ‏بَخِلُوا‏ ‏بِهِ‏ ‏يَوْمَ‏ ‏الْقِيَامَةِ‏ they will have twisted around [their necks] on the Day of Resurrection whatever they stingily withhold.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:00.066Z",
+      "refword": "2:184:16",
+      "lexword": "يُطِيقُونَهُۥ"
+    }
+  }
+}

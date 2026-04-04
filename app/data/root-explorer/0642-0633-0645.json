@@ -1,0 +1,741 @@
+{
+  "root": "قسم",
+  "rootArabic": "قسم",
+  "stats": {
+    "totalOccurrences": 33,
+    "derivativeCount": 10,
+    "surahCount": 24,
+    "ayahCount": 31
+  },
+  "derivatives": [
+    {
+      "form": "أَقْسَمَ",
+      "count": 20
+    },
+    {
+      "form": "قِسْمَةٌ",
+      "count": 3
+    },
+    {
+      "form": "قَسَم",
+      "count": 2
+    },
+    {
+      "form": "قَسَمَ",
+      "count": 2
+    },
+    {
+      "form": "تَقَاسَمَ",
+      "count": 1
+    },
+    {
+      "form": "قَاسَمَ",
+      "count": 1
+    },
+    {
+      "form": "مُقْتَسِمِين",
+      "count": 1
+    },
+    {
+      "form": "مُقَسِّمات",
+      "count": 1
+    },
+    {
+      "form": "مَقْسُوم",
+      "count": 1
+    },
+    {
+      "form": "يَسْتَقْسِم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قِسْمَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 3,
+          "totalInQuran": 20
+        },
+        {
+          "form": "يَسْتَقْسِم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَاسَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُقْتَسِمِين",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَقْسُوم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقَاسَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَسَمَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقَسِّمات",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قِسْمَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قِسْمَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَسَم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَسَم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْسَمَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 8,
+      "text": "وَإِذَا حَضَرَ ٱلْقِسْمَةَ أُو۟لُوا۟ ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينُ فَٱرْزُقُوهُم مِّنْهُ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا",
+      "highlightedHtml": "وَإِذَا حَضَرَ <a class=\"highlight-text\">ٱلْقِسْمَةَ</a> أُو۟لُوا۟ ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينُ فَٱرْزُقُوهُم مِّنْهُ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا",
+      "derivedForms": [
+        "قِسْمَةٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 3,
+      "text": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن <a class=\"highlight-text\">تَسْتَقْسِمُوا۟</a> بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يَسْتَقْسِم"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 53,
+      "text": "وَيَقُولُ ٱلَّذِينَ آمَنُوا أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ إِنَّهُمْ لَمَعَكُمْ ۚ حَبِطَتْ أَعْمَٰلُهُمْ فَأَصْبَحُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "وَيَقُولُ ٱلَّذِينَ آمَنُوا أَهَٰٓؤُلَآءِ ٱلَّذِينَ <a class=\"highlight-text\">أَقْسَمُوا۟</a> بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ إِنَّهُمْ لَمَعَكُمْ ۚ حَبِطَتْ أَعْمَٰلُهُمْ فَأَصْبَحُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 106,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ آخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْءَاثِمِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ آخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ <a class=\"highlight-text\">فَيُقْسِمَانِ</a> بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْءَاثِمِينَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 107,
+      "text": "فَإِنْ عُثِرَ عُثِرَ عَلَىٰٓ أَنَّهُمَا ٱسْتَحَقَّآ إِثْمًا فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا مِنَ ٱلَّذِينَ ٱسْتَحَقَّ عَلَيْهِمُ ٱلْأَوْلَيَٰنِ فَيُقْسِمَانِ بِٱللَّهِ لَشَهَٰدَتُنَآ أَحَقُّ مِن شَهَٰدَتِهِمَا وَمَا ٱعْتَدَيْنَآ إِنَّآ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "فَإِنْ عُثِرَ عُثِرَ عَلَىٰٓ أَنَّهُمَا ٱسْتَحَقَّآ إِثْمًا فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا مِنَ ٱلَّذِينَ ٱسْتَحَقَّ عَلَيْهِمُ ٱلْأَوْلَيَٰنِ <a class=\"highlight-text\">فَيُقْسِمَانِ</a> بِٱللَّهِ لَشَهَٰدَتُنَآ أَحَقُّ مِن شَهَٰدَتِهِمَا وَمَا ٱعْتَدَيْنَآ إِنَّآ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 109,
+      "text": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَتْهُمْ آيَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ ۖ وَمَا يُشْعِرُكُمْ يُشْعِرُكُمْ أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَقْسَمُوا۟</a> بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَتْهُمْ آيَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ ۖ وَمَا يُشْعِرُكُمْ يُشْعِرُكُمْ أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 21,
+      "text": "وَقَاسَمَهُمَآ إِنِّى لَكُمَا لَمِنَ ٱلنَّٰصِحِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَقَاسَمَهُمَآ</a> إِنِّى لَكُمَا لَمِنَ ٱلنَّٰصِحِينَ",
+      "derivedForms": [
+        "قَاسَمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 49,
+      "text": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "highlightedHtml": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ <a class=\"highlight-text\">أَقْسَمْتُمْ</a> لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 44,
+      "text": "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَا إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍ",
+      "highlightedHtml": "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَا إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ <a class=\"highlight-text\">أَقْسَمْتُم</a> مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 44,
+      "text": "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ مَّقْسُومٌ",
+      "highlightedHtml": "لَهَا سَبْعَةُ أَبْوَٰبٍ لِّكُلِّ بَابٍ مِّنْهُمْ جُزْءٌ <a class=\"highlight-text\">مَّقْسُومٌ</a>",
+      "derivedForms": [
+        "مَقْسُوم"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 90,
+      "text": "كَمَآ أَنزَلْنَا عَلَى ٱلْمُقْتَسِمِينَ",
+      "highlightedHtml": "كَمَآ أَنزَلْنَا عَلَى <a class=\"highlight-text\">ٱلْمُقْتَسِمِينَ</a>",
+      "derivedForms": [
+        "مُقْتَسِمِين"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 38,
+      "text": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ لَا يَبْعَثُ ٱللَّهُ مَن يَمُوتُ ۚ بَلَىٰ وَعْدًا عَلَيْهِ حَقًّا وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَقْسَمُوا۟</a> بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ ۙ لَا يَبْعَثُ ٱللَّهُ مَن يَمُوتُ ۚ بَلَىٰ وَعْدًا عَلَيْهِ حَقًّا وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 53,
+      "text": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِنْ أَمَرْتَهُمْ لَيَخْرُجُنَّ ۖ قُل لَّا تُقْسِمُوا۟ ۖ طَاعَةٌ مَّعْرُوفَةٌ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَقْسَمُوا۟</a> بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِنْ أَمَرْتَهُمْ لَيَخْرُجُنَّ ۖ قُل لَّا <a class=\"highlight-text\">تُقْسِمُوا۟</a> ۖ طَاعَةٌ مَّعْرُوفَةٌ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "أَقْسَمَ",
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 49,
+      "text": "قَالُوا۟ تَقَاسَمُوا۟ بِٱللَّهِ لَنُبَيِّتَنَّهُۥ وَأَهْلَهُۥ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِۦ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِۦ وَإِنَّا لَصَٰدِقُونَ",
+      "highlightedHtml": "قَالُوا۟ <a class=\"highlight-text\">تَقَاسَمُوا۟</a> بِٱللَّهِ لَنُبَيِّتَنَّهُۥ وَأَهْلَهُۥ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِۦ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِۦ وَإِنَّا لَصَٰدِقُونَ",
+      "derivedForms": [
+        "تَقَاسَمَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 55,
+      "text": "وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يُقْسِمُ ٱلْمُجْرِمُونَ مَا لَبِثُوا۟ غَيْرَ سَاعَةٍ ۚ كَذَٰلِكَ كَانُوا۟ يُؤْفَكُونَ",
+      "highlightedHtml": "وَيَوْمَ تَقُومُ ٱلسَّاعَةُ <a class=\"highlight-text\">يُقْسِمُ</a> ٱلْمُجْرِمُونَ مَا لَبِثُوا۟ غَيْرَ سَاعَةٍ ۚ كَذَٰلِكَ كَانُوا۟ يُؤْفَكُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 42,
+      "text": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَهُمْ نَذِيرٌ لَّيَكُونُنَّ أَهْدَىٰ مِنْ إِحْدَى ٱلْأُمَمِ ۖ فَلَمَّا جَآءَهُمْ نَذِيرٌ مَّا زَادَهُمْ إِلَّا نُفُورًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَقْسَمُوا۟</a> بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَهُمْ نَذِيرٌ لَّيَكُونُنَّ أَهْدَىٰ مِنْ إِحْدَى ٱلْأُمَمِ ۖ فَلَمَّا جَآءَهُمْ نَذِيرٌ مَّا زَادَهُمْ إِلَّا نُفُورًا",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 32,
+      "text": "أَهُمْ يَقْسِمُونَ رَحْمَتَ رَبِّكَ ۚ نَحْنُ قَسَمْنَا بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَتَّخِذَ بَعْضُهُم بَعْضًا سُخْرِيًّا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "highlightedHtml": "أَهُمْ <a class=\"highlight-text\">يَقْسِمُونَ</a> رَحْمَتَ رَبِّكَ ۚ نَحْنُ <a class=\"highlight-text\">قَسَمْنَا</a> بَيْنَهُم مَّعِيشَتَهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَٰتٍ لِّيَتَّخِذَ بَعْضُهُم بَعْضًا سُخْرِيًّا ۗ وَرَحْمَتُ رَبِّكَ خَيْرٌ مِّمَّا يَجْمَعُونَ",
+      "derivedForms": [
+        "قَسَمَ",
+        "قَسَمَ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 4,
+      "text": "فَٱلْمُقَسِّمَٰتِ أَمْرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلْمُقَسِّمَٰتِ</a> أَمْرًا",
+      "derivedForms": [
+        "مُقَسِّمات"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 22,
+      "text": "تِلْكَ إِذًا قِسْمَةٌ ضِيزَىٰٓ",
+      "highlightedHtml": "تِلْكَ إِذًا <a class=\"highlight-text\">قِسْمَةٌ</a> ضِيزَىٰٓ",
+      "derivedForms": [
+        "قِسْمَةٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 28,
+      "text": "وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ قِسْمَةٌۢ بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُّحْتَضَرٌ",
+      "highlightedHtml": "وَنَبِّئْهُمْ أَنَّ ٱلْمَآءَ <a class=\"highlight-text\">قِسْمَةٌۢ</a> بَيْنَهُمْ ۖ كُلُّ شِرْبٍ مُّحْتَضَرٌ",
+      "derivedForms": [
+        "قِسْمَةٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 75,
+      "text": "فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+      "highlightedHtml": "فَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِمَوَٰقِعِ ٱلنُّجُومِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 76,
+      "text": "وَإِنَّهُۥ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+      "highlightedHtml": "وَإِنَّهُۥ <a class=\"highlight-text\">لَقَسَمٌ</a> لَّوْ تَعْلَمُونَ عَظِيمٌ",
+      "derivedForms": [
+        "قَسَم"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 17,
+      "text": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+      "highlightedHtml": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ <a class=\"highlight-text\">أَقْسَمُوا۟</a> لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 38,
+      "text": "فَلَآ أُقْسِمُ بِمَا تُبْصِرُونَ",
+      "highlightedHtml": "فَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِمَا تُبْصِرُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 40,
+      "text": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَٰرِقِ وَٱلْمَغَٰرِبِ إِنَّا لَقَٰدِرُونَ",
+      "highlightedHtml": "فَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِرَبِّ ٱلْمَشَٰرِقِ وَٱلْمَغَٰرِبِ إِنَّا لَقَٰدِرُونَ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 1,
+      "text": "لَآ أُقْسِمُ بِيَوْمِ ٱلْقِيَٰمَةِ",
+      "highlightedHtml": "لَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِيَوْمِ ٱلْقِيَٰمَةِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 2,
+      "text": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ",
+      "highlightedHtml": "وَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِٱلنَّفْسِ ٱللَّوَّامَةِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 15,
+      "text": "فَلَآ أُقْسِمُ بِٱلْخُنَّسِ",
+      "highlightedHtml": "فَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِٱلْخُنَّسِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 16,
+      "text": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+      "highlightedHtml": "فَلَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِٱلشَّفَقِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 5,
+      "text": "هَلْ فِى ذَٰلِكَ قَسَمٌ لِّذِى حِجْرٍ",
+      "highlightedHtml": "هَلْ فِى ذَٰلِكَ <a class=\"highlight-text\">قَسَمٌ</a> لِّذِى حِجْرٍ",
+      "derivedForms": [
+        "قَسَم"
+      ]
+    },
+    {
+      "surah": 90,
+      "ayah": 1,
+      "text": "لَآ أُقْسِمُ بِهَٰذَا ٱلْبَلَدِ",
+      "highlightedHtml": "لَآ <a class=\"highlight-text\">أُقْسِمُ</a> بِهَٰذَا ٱلْبَلَدِ",
+      "derivedForms": [
+        "أَقْسَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:53.202Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine noun",
+    "derivativeNote": "ٱلْقِسْمَةَ is in the derivative form: قِسْمَةٌ",
+    "rootDefinitionHtml": "ق/س/م   q–s–m to divide, to partition, to share out<br>; portion, section; to divine, to seek to know the future, to ponder; to swear, oath; truce, allies; countenance, good looks, features; market place. <br><br>Of this root, 10 forms occur 33 times in the Qur’an:<br> قَسَمَ qasam 2 times; أَقْسَمَ ʾaqsama 20 times قَاسَمَ qāsama 1 time; تَقَاسَمَ taqāsama 1 time; يَسْتَقْسِم yastaqsim 1 time; قَسَم qasam 2 times; قِسْمَةٌ qismatun 3 times; مَقْسُوم maqsūm 1 time; مُقَسِّمات muqassimāt 1 time and مُقْتَسِمِين muqtasimın 1 time.",
+    "mainDefinitionHtml": "قِسْمَةٌ qismatun [n.; v. n.] partition, dividing <br><br>(4:8) وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ and if [other] kinfolk, orphans and the poor attend the division, make provision for them out of it [of the legacy].",
+    "mainEntryId": "wdef-ق-س-م.قِسْمَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ق-س-م",
+        "label": "ق-س-م",
+        "definitionHtml": "ق/س/م   q–s–m to divide, to partition, to share out<br>; portion, section; to divine, to seek to know the future, to ponder; to swear, oath; truce, allies; countenance, good looks, features; market place. <br><br>Of this root, 10 forms occur 33 times in the Qur’an:<br> قَسَمَ qasam 2 times; أَقْسَمَ ʾaqsama 20 times قَاسَمَ qāsama 1 time; تَقَاسَمَ taqāsama 1 time; يَسْتَقْسِم yastaqsim 1 time; قَسَم qasam 2 times; قِسْمَةٌ qismatun 3 times; مَقْسُوم maqsūm 1 time; مُقَسِّمات muqassimāt 1 time and مُقْتَسِمِين muqtasimın 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.قِسْمَةٌ",
+        "label": "قِسْمَةٌ",
+        "definitionHtml": "قِسْمَةٌ qismatun [n.; v. n.] partition, dividing <br><br>(4:8) وَإِذَا حَضَرَ الْقِسْمَةَ أُولُو الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينُ فَارْزُقُوهُمْ مِنْهُ and if [other] kinfolk, orphans and the poor attend the division, make provision for them out of it [of the legacy].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-س-م.أَقْسَمَ",
+        "label": "أَقْسَمَ",
+        "definitionHtml": "أَقْسَمَ ʾaqsama [v. IV, intrans.] <br><br><strong>1 </strong>to swear <br><br>(5:107) فَيُقْسِمَانِ بِاللَّهِ لَشَهَادَتُنَا أَحَقُّ مِنْ شَهَادَتِهِمَا‏ let them swear by God, ‘Our testimony is more worthy [of being accepted] than theirs’ <br><br><strong>2 </strong>to vow, to resolve, to firmly decide on a course of action <br><br>(68:17) إِنَّا بَلَوْنَاهُمْ كَمَا بَلَوْنَا أَصْحَابَ الْجَنَّةِ إِذْ أَقْسَمُوا لَيَصْرِمُنَّهَا مُصْبِحِينَ We tested them as We tested the owners of a garden, who vowed that they would harvest its fruits first thing in the morning.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.تَقَاسَمَ",
+        "label": "تَقَاسَمَ",
+        "definitionHtml": "تَقَاسَمَ taqāsama [v. VI, intrans.] to swear to one another <br><br>(27:49) قَالُوا تَقَاسَمُوا بِاللَّهِ لَنُبَيِّتَنَّهُ وَأَهْلَهُ they said, ‘Swear to one another by God: we shall attack him and his household in the night.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.قَاسَمَ",
+        "label": "قَاسَمَ",
+        "definitionHtml": "قَاسَمَ qāsama [v. III, trans.] to take a solemn oath; to exchange oaths <br><br>(7:21) وَقَاسَمَهُمَا إِنِّي لَكُمَا لَمِنَ النَّاصِحِينَ and he swore to them, (or, exchanged oaths with them,) ‘I am giving you sincere advice.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.قَسَم",
+        "label": "قَسَم",
+        "definitionHtml": "قَسَم qasam [n.] oath <br><br>(56:76) وَإِنَّهُ لَقَسَمٌ لَوْ تَعْلَمُونَ عَظِيمٌ and it is a mighty oath, if you only knew.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.قَسَمَ",
+        "label": "قَسَمَ",
+        "definitionHtml": "قَسَمَ qasama i [v. trans.] to determine, to share out, to measure out <br><br>(43:32) أَهُمْ يَقْسِمُونَ رَحْمَةَ رَبِّكَ نَحْنُ قَسَمْنَا بَيْنَهُمْ مَعِيشَتَهُمْ فِى الْحَيَاةِ الدُّنْيَا وَرَفَعْنَا بَعْضَهُمْ فَوْقَ بَعْضٍ دَرَجَاتٍ are they the ones who share out the mercy of your Lord!?–We have shared out between them their livelihood in this life, and raised some of them above others in rank.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.مَقْسُوم",
+        "label": "مَقْسُوم",
+        "definitionHtml": "مَقْسُوم maqsūm [pass. part.] apportioned, assigned, allotted <br><br>(15:44) لَهَا سَبْعَةُ أَبْوَابٍ لِكُلِّ بَابٍ مِنْهُمْ جُزْءٌ مَقْسُومٌ it has seven gates, to each belongs an allotted share of them [the inmates].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.مُقَسِّمات",
+        "label": "مُقَسِّمات",
+        "definitionHtml": "مُقَسِّمات muqassimāt [pl. of fem. act. part. مُقَسِّمَةٌ muqassimatun] those who carry out acts of apportioning <br><br>(51:4) فَالْمُقَسِّمَاتِ أَمْرًا who apportion what is ordained.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.مُقْتَسِمِين",
+        "label": "مُقْتَسِمِين",
+        "definitionHtml": "مُقْتَسِمِين muqtasimın [pl. of act. part. مُقْتَسِم muqtasim] those who divide with others, those who take a share; those who divine, or seek omens <br><br>(15:90) كَمَا أَنْزَلْنَا عَلَى الْمُقْتَسِمِينَ like the [warning] We sent down for those who were selective in their beliefs [lit. take some parts [of the teachings]].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-س-م.يَسْتَقْسِم",
+        "label": "يَسْتَقْسِم",
+        "definitionHtml": "يَسْتَقْسِم yastaqsim [imperf. of v. X, intrans.] to seek to divide, to draw lots by means of the divining arrows (أزلام), (q.v.), either to decide upon a course of action, or to distribute what are supposed to be equal parts of a slaughtered animal <br><br>(5:3) وَأَنْ تَسْتَقْسِمُوا بِالأَزْلاَمِ ذَلِكُمْ فِسْقٌ and [forbidden to you] is to seek answers by means of drawing divining arrows–that is a heinous practice.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:19.734Z",
+      "refword": "4:8:3",
+      "lexword": "ٱلْقِسْمَةَ"
+    }
+  }
+}

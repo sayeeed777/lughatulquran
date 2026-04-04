@@ -1,0 +1,101 @@
+{
+  "root": "مزق",
+  "rootArabic": "مزق",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَزَّقَ",
+      "count": 2
+    },
+    {
+      "form": "مُمَزَّق",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مَزَّقَ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مُمَزَّق",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 34,
+      "ayah": 7,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِى خَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا <a class=\"highlight-text\">مُزِّقْتُمْ</a> كُلَّ <a class=\"highlight-text\">مُمَزَّقٍ</a> إِنَّكُمْ لَفِى خَلْقٍ جَدِيدٍ",
+      "derivedForms": [
+        "مَزَّقَ",
+        "مُمَزَّق"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 19,
+      "text": "فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ أَحَادِيثَ وَمَزَّقْنَٰهُمْ كُلَّ مُمَزَّقٍ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "highlightedHtml": "فَقَالُوا۟ رَبَّنَا بَٰعِدْ بَيْنَ أَسْفَارِنَا وَظَلَمُوٓا۟ أَنفُسَهُمْ فَجَعَلْنَٰهُمْ أَحَادِيثَ <a class=\"highlight-text\">وَمَزَّقْنَٰهُمْ</a> كُلَّ <a class=\"highlight-text\">مُمَزَّقٍ</a> ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "derivedForms": [
+        "مَزَّقَ",
+        "مُمَزَّق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:19.174Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form II) passive perfect verb",
+    "derivativeNote": "مُزِّقْتُمْ is in the derivative form: مَزَّقَ",
+    "rootDefinitionHtml": "م/ز/ق   m–z–q to tear up, to rip apart, to shred, to pierce, to be tattered<br>; to scatter, to disperse. <br><br>Of this root. 3 forms occur 4 times in the Qur’an:<br><br> مَزَّقَ mazzaqa 1 time;<br> مُزِّقَ muzziqa 1 time and مُمَزَّق mumazzaq 2 times<br>.",
+    "mainDefinitionHtml": "مَزَّقَ mazzaqa [v. II, trans., pass .v. مُزِّقَ muzziqa] <br><br><strong>1 </strong>to tear apart, to shred <br><br>(34:7) ‏هَلْ‏ ‏نَدُلُّكُمْ‏ ‏عَلَى‏ ‏رَجُلٍ‏ ‏يُنَبِّئُكُمْ‏ ‏إِذَا‏ ‏مُزِّقْتُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ ‏إِنَّكُمْ‏ ‏لَفِي‏ ‏خَلْقٍ‏ ‏جَدِيدٍ‏ shall we show you a man who tells you that you will be [raised] in a new creation, when you have been utterly torn to pieces!? <br><br><strong>2 </strong>to disperse, to scatter around <br><br>(34:19) ‏فَجَعَلْنَاهُمْ‏ ‏أَحَادِيثَ‏ ‏وَمَزَّقْنَاهُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ so We made them tales to be told, and We scattered them wide [in all directions].",
+    "mainEntryId": "wdef-م-ز-ق.مَزَّقَ",
+    "entries": [
+      {
+        "id": "wdef-م-ز-ق",
+        "label": "م-ز-ق",
+        "definitionHtml": "م/ز/ق   m–z–q to tear up, to rip apart, to shred, to pierce, to be tattered<br>; to scatter, to disperse. <br><br>Of this root. 3 forms occur 4 times in the Qur’an:<br><br> مَزَّقَ mazzaqa 1 time;<br> مُزِّقَ muzziqa 1 time and مُمَزَّق mumazzaq 2 times<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ز-ق.مَزَّقَ",
+        "label": "مَزَّقَ",
+        "definitionHtml": "مَزَّقَ mazzaqa [v. II, trans., pass .v. مُزِّقَ muzziqa] <br><br><strong>1 </strong>to tear apart, to shred <br><br>(34:7) ‏هَلْ‏ ‏نَدُلُّكُمْ‏ ‏عَلَى‏ ‏رَجُلٍ‏ ‏يُنَبِّئُكُمْ‏ ‏إِذَا‏ ‏مُزِّقْتُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ ‏إِنَّكُمْ‏ ‏لَفِي‏ ‏خَلْقٍ‏ ‏جَدِيدٍ‏ shall we show you a man who tells you that you will be [raised] in a new creation, when you have been utterly torn to pieces!? <br><br><strong>2 </strong>to disperse, to scatter around <br><br>(34:19) ‏فَجَعَلْنَاهُمْ‏ ‏أَحَادِيثَ‏ ‏وَمَزَّقْنَاهُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ so We made them tales to be told, and We scattered them wide [in all directions].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ز-ق.مُمَزَّق",
+        "label": "مُمَزَّق",
+        "definitionHtml": "مُمَزَّق mumazzaq [v. n. used adverbially for intensification] <br><br><strong>1 </strong>the act of tearing into pieces, the act of fragmenting <br><br>(34:7)‏هَلْ‏ ‏نَدُلُّكُمْ‏ ‏عَلَى‏ ‏رَجُلٍ‏ ‏يُنَبِّئُكُمْ‏ ‏إِذَا‏ ‏مُزِّقْتُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ ‏إِنَّكُمْ‏ ‏لَفِي‏ ‏خَلْقٍ‏ ‏جَدِيدٍ‏ shall we show you a man who tells you that you will be [raised] in a new creation, when you have been utterly torn to pieces!? <br><br><strong>2 </strong>the act of scattering, the act of dispersing <br><br>(34:19)‏فَجَعَلْنَاهُمْ‏ ‏أَحَادِيثَ‏ ‏وَمَزَّقْنَاهُمْ‏ ‏كُلَّ‏ ‏مُمَزَّقٍ‏ so We made them tales to be told, and We scattered them wide [in all directions].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:56.586Z",
+      "refword": "34:7:10",
+      "lexword": "مُزِّقْتُمْ"
+    }
+  }
+}

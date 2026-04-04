@@ -1,0 +1,106 @@
+{
+  "root": "جزع",
+  "rootArabic": "جزع",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "جَزِعَ",
+      "count": 1
+    },
+    {
+      "form": "جَزُوع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَزِعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَزُوع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 21,
+      "text": "وَبَرَزُوا۟ لِلَّهِ جَمِيعًا فَقَالَ ٱلضُّعَفَٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَٰكُمْ ۖ سَوَآءٌ سَوَآءٌ عَلَيْنَآ أَجَزِعْنَآ أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍ",
+      "highlightedHtml": "وَبَرَزُوا۟ لِلَّهِ جَمِيعًا فَقَالَ ٱلضُّعَفَٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَٰكُمْ ۖ سَوَآءٌ سَوَآءٌ عَلَيْنَآ <a class=\"highlight-text\">أَجَزِعْنَآ</a> أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍ",
+      "derivedForms": [
+        "جَزِعَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 20,
+      "text": "إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا",
+      "highlightedHtml": "إِذَا مَسَّهُ ٱلشَّرُّ <a class=\"highlight-text\">جَزُوعًا</a>",
+      "derivedForms": [
+        "جَزُوع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:04.029Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "أَجَزِعْنَآ is in the derivative form: جَزِعَ",
+    "rootDefinitionHtml": "ج/ز/ع   j–z–ʿ to break into two, to traverse, to divide up; anxiety, shock, to be distressed, to be disturbed. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> جَزِعَ jaziʿa and جَزُوع ٌ jazūʿ.",
+    "mainDefinitionHtml": "جَزِعَ jaziʿa a [v. intrans.] to become anxious, distressed, disturbed <br><br>(14:21) سَوَاءٌ عَلَيْنَا أَجَزِعْنَا أَمْ صَبَرْنَا مَا لَنَا مِنْ مَحِيصٍ it is the same for us [now]; whether we show distress or bear with patience: for us there is no escape.",
+    "mainEntryId": "wdef-ج-ز-ع.جَزِعَ",
+    "entries": [
+      {
+        "id": "wdef-ج-ز-ع",
+        "label": "ج-ز-ع",
+        "definitionHtml": "ج/ز/ع   j–z–ʿ to break into two, to traverse, to divide up; anxiety, shock, to be distressed, to be disturbed. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> جَزِعَ jaziʿa and جَزُوع ٌ jazūʿ.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ز-ع.جَزِعَ",
+        "label": "جَزِعَ",
+        "definitionHtml": "جَزِعَ jaziʿa a [v. intrans.] to become anxious, distressed, disturbed <br><br>(14:21) سَوَاءٌ عَلَيْنَا أَجَزِعْنَا أَمْ صَبَرْنَا مَا لَنَا مِنْ مَحِيصٍ it is the same for us [now]; whether we show distress or bear with patience: for us there is no escape.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-ز-ع.جَزُوع",
+        "label": "جَزُوع",
+        "definitionHtml": "جَزُوع jazūʿ [intens. act. part.] given to collapsing under stress, prone to anxiety, fretful <br><br>(70:20) إِذَا مَسَّهُ الشَّرُّ جَزُوعًا he becomes overly anxious when misfortune touches him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:51.817Z",
+      "refword": "14:21:28",
+      "lexword": "أَجَزِعْنَآ"
+    }
+  }
+}

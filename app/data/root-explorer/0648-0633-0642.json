@@ -1,0 +1,99 @@
+{
+  "root": "وسق",
+  "rootArabic": "وسق",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اتَّسَقَ",
+      "count": 1
+    },
+    {
+      "form": "وَسَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اتَّسَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "وَسَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 84,
+      "ayah": 17,
+      "text": "وَٱلَّيْلِ وَمَا وَسَقَ",
+      "highlightedHtml": "وَٱلَّيْلِ وَمَا <a class=\"highlight-text\">وَسَقَ</a>",
+      "derivedForms": [
+        "وَسَقَ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 18,
+      "text": "وَٱلْقَمَرِ إِذَا ٱتَّسَقَ",
+      "highlightedHtml": "وَٱلْقَمَرِ إِذَا <a class=\"highlight-text\">ٱتَّسَقَ</a>",
+      "derivedForms": [
+        "اتَّسَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:19.656Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَسَقَ is in the derivative form: وَسَقَ",
+    "rootDefinitionHtml": "و/س/ق   w–s–q a camel’s load, a dry measure of a certain capacity; a flock of birds, a herd of animals; to load, a beast of burden; to cover up (of night), to rise up in the sky (of the moon), to become a full moon, to shine upon the land below; to gather together, to be complete, to be in perfect order. Of this root, 2 forms, وَسَقَ wasaqa and اتَّسَقَ ʾittasaqa, occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَسَقَ wasaqa i [v. trans.] to gather together; to cover; to span; to enshroud <br><br>(84:17) وَاللَّيْلِ وَمَا وَسَقَ by the night and all that it covers.",
+    "mainEntryId": "wdef-و-س-ق.وَسَقَ",
+    "entries": [
+      {
+        "id": "wdef-و-س-ق",
+        "label": "و-س-ق",
+        "definitionHtml": "و/س/ق   w–s–q a camel’s load, a dry measure of a certain capacity; a flock of birds, a herd of animals; to load, a beast of burden; to cover up (of night), to rise up in the sky (of the moon), to become a full moon, to shine upon the land below; to gather together, to be complete, to be in perfect order. Of this root, 2 forms, وَسَقَ wasaqa and اتَّسَقَ ʾittasaqa, occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-س-ق.وَسَقَ",
+        "label": "وَسَقَ",
+        "definitionHtml": "وَسَقَ wasaqa i [v. trans.] to gather together; to cover; to span; to enshroud <br><br>(84:17) وَاللَّيْلِ وَمَا وَسَقَ by the night and all that it covers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-س-ق.اتَّسَقَ",
+        "label": "اتَّسَقَ",
+        "definitionHtml": "اتَّسَقَ ʾittasaqa [v. VIII, intrans.] to reach fullness, to realise full potential; to become in good order <br><br>(84:18) وَالْقَمَرِ إِذَا اتَّسَقَ by the moon when it becomes full.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:43.853Z",
+      "refword": "84:17:3",
+      "lexword": "وَسَقَ"
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "root": "ولج",
+  "rootArabic": "ولج",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "يُولِجُ",
+      "count": 10
+    },
+    {
+      "form": "يَلِجُ",
+      "count": 3
+    },
+    {
+      "form": "وَلِيجَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُولِجُ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلِجُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَلِيجَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُولِجُ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُولِجُ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلِجُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُولِجُ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يُولِجُ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "يَلِجُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 27,
+      "text": "تُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">تُولِجُ</a> ٱلَّيْلَ فِى ٱلنَّهَارِ <a class=\"highlight-text\">وَتُولِجُ</a> ٱلنَّهَارَ فِى ٱلَّيْلِ ۖ وَتُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَتُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ ۖ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٍ",
+      "derivedForms": [
+        "يُولِجُ",
+        "يُولِجُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 40,
+      "text": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ يَلِجَ ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ <a class=\"highlight-text\">يَلِجَ</a> ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
+      "derivedForms": [
+        "يَلِجُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 16,
+      "text": "أَمْ حَسِبْتُمْ أَن تُتْرَكُوا۟ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَلَمْ يَتَّخِذُوا۟ مِن دُونِ ٱللَّهِ وَلَا رَسُولِهِۦ وَلَا ٱلْمُؤْمِنِينَ وَلِيجَةً ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "أَمْ حَسِبْتُمْ أَن تُتْرَكُوا۟ وَلَمَّا يَعْلَمِ ٱللَّهُ ٱلَّذِينَ جَٰهَدُوا۟ مِنكُمْ وَلَمْ يَتَّخِذُوا۟ مِن دُونِ ٱللَّهِ وَلَا رَسُولِهِۦ وَلَا ٱلْمُؤْمِنِينَ <a class=\"highlight-text\">وَلِيجَةً</a> ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "وَلِيجَةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 61,
+      "text": "ذَٰلِكَ بِأَنَّ ٱللَّهَ يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَأَنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّ ٱللَّهَ <a class=\"highlight-text\">يُولِجُ</a> ٱلَّيْلَ فِى ٱلنَّهَارِ <a class=\"highlight-text\">وَيُولِجُ</a> ٱلنَّهَارَ فِى ٱلَّيْلِ وَأَنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "derivedForms": [
+        "يُولِجُ",
+        "يُولِجُ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 29,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِىٓ إِلَىٰٓ أَجَلٍ مُّسَمًّى وَأَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ <a class=\"highlight-text\">يُولِجُ</a> ٱلَّيْلَ فِى ٱلنَّهَارِ <a class=\"highlight-text\">وَيُولِجُ</a> ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِىٓ إِلَىٰٓ أَجَلٍ مُّسَمًّى وَأَنَّ ٱللَّهَ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "يُولِجُ",
+        "يُولِجُ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 2,
+      "text": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
+      "highlightedHtml": "يَعْلَمُ مَا <a class=\"highlight-text\">يَلِجُ</a> فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
+      "derivedForms": [
+        "يَلِجُ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 13,
+      "text": "يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۚ وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ مَا يَمْلِكُونَ مِن قِطْمِيرٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُولِجُ</a> ٱلَّيْلَ فِى ٱلنَّهَارِ <a class=\"highlight-text\">وَيُولِجُ</a> ٱلنَّهَارَ فِى ٱلَّيْلِ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۚ وَٱلَّذِينَ تَدْعُونَ مِن دُونِهِۦ مَا يَمْلِكُونَ مِن قِطْمِيرٍ",
+      "derivedForms": [
+        "يُولِجُ",
+        "يُولِجُ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 4,
+      "text": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا <a class=\"highlight-text\">يَلِجُ</a> فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "يَلِجُ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 6,
+      "text": "يُولِجُ ٱلَّيْلَ فِى ٱلنَّهَارِ وَيُولِجُ ٱلنَّهَارَ فِى ٱلَّيْلِ ۚ وَهُوَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُولِجُ</a> ٱلَّيْلَ فِى ٱلنَّهَارِ <a class=\"highlight-text\">وَيُولِجُ</a> ٱلنَّهَارَ فِى ٱلَّيْلِ ۚ وَهُوَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "يُولِجُ",
+        "يُولِجُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:53.698Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form IV) imperfect verb",
+    "derivativeNote": "تُولِجُ is in the derivative form: يُولِجُ",
+    "rootDefinitionHtml": "و/ل/ج   w–l–j land depression, valley, cave<br>; door, entrance, doorway; to enter, to cause to enter; confidants, close friends, associates. <br><br>Of this root, 3 forms occur 14 times in the Qur’an:<br> يَلِجُ yalij 3 times; يُولِجُ yūlij 10 times and وَلِيجَةٌ walıjatun 1 time.",
+    "mainDefinitionHtml": "يُولِجُ yūlij [imperf. of v. IV أَوْلَجَ ʾawlaja, trans.] to cause to enter <br><br>(22:61) يُولِجُ اللَّيْلَ فِى النَّهَارِ وَيُولِجُ النَّهَارَ فِى اللَّيْلِ He makes night enter into day, and day into night.",
+    "mainEntryId": "wdef-و-ل-ج.يُولِجُ",
+    "entries": [
+      {
+        "id": "wdef-و-ل-ج",
+        "label": "و-ل-ج",
+        "definitionHtml": "و/ل/ج   w–l–j land depression, valley, cave<br>; door, entrance, doorway; to enter, to cause to enter; confidants, close friends, associates. <br><br>Of this root, 3 forms occur 14 times in the Qur’an:<br> يَلِجُ yalij 3 times; يُولِجُ yūlij 10 times and وَلِيجَةٌ walıjatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ل-ج.يُولِجُ",
+        "label": "يُولِجُ",
+        "definitionHtml": "يُولِجُ yūlij [imperf. of v. IV أَوْلَجَ ʾawlaja, trans.] to cause to enter <br><br>(22:61) يُولِجُ اللَّيْلَ فِى النَّهَارِ وَيُولِجُ النَّهَارَ فِى اللَّيْلِ He makes night enter into day, and day into night.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ل-ج.وَلِيجَةٌ",
+        "label": "وَلِيجَةٌ",
+        "definitionHtml": "وَلِيجَةٌ walıjatun [coll. n.] close friend(s) and associate(s) <br><br>(9:16) وَلَمْ يَتَّخِذُوا مِنْ دُونِ اللَّهِ وَلاَ رَسُولِهِ وَلاَ الْمُؤْمِنِينَ وَلِيجَةً and take no confidant(s) apart from God, His Messenger and [other] believers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ل-ج.يَلِجُ",
+        "label": "يَلِجُ",
+        "definitionHtml": "يَلِجُ yalij [imperf. of v. وَلَجَ walaja, intrans.] to enter, to penetrate <br><br>(7:40) وَلاَ يَدْخُلُونَ الْجَنَّةَ حَتَّى يَلِجَ الْجَمَلُ فِى سَمِّ الْخِيَاطِ and they will not enter the Garden until a thick rope passes through the eye of a needle.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:50.381Z",
+      "refword": "3:27:1",
+      "lexword": "تُولِجُ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "وكز",
+  "rootArabic": "وكز",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "وَكَزَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَكَزَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 28,
+      "ayah": 15,
+      "text": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "highlightedHtml": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ <a class=\"highlight-text\">فَوَكَزَهُۥ</a> مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "derivedForms": [
+        "وَكَزَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:51.107Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "فَوَكَزَهُۥ is in the derivative form: وَكَزَ",
+    "rootDefinitionHtml": "و/ك/ز   w–k–z to strike or poke with the fist, to slap, to thrust, to spur; to break; (of a snake) to bite. Of this root, وَكَزَ wakaza, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَكَزَ wakaza i [v. trans.] to punch, to strike with one’s fist <br><br>(28:15) فَوَكَزَهُ مُوسَى فَقَضَى عَلَيْهِ so Moses struck him [with his fist] and killed him.",
+    "mainEntryId": "wdef-و-ك-ز.وَكَزَ",
+    "entries": [
+      {
+        "id": "wdef-و-ك-ز",
+        "label": "و-ك-ز",
+        "definitionHtml": "و/ك/ز   w–k–z to strike or poke with the fist, to slap, to thrust, to spur; to break; (of a snake) to bite. Of this root, وَكَزَ wakaza, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ك-ز.وَكَزَ",
+        "label": "وَكَزَ",
+        "definitionHtml": "وَكَزَ wakaza i [v. trans.] to punch, to strike with one’s fist <br><br>(28:15) فَوَكَزَهُ مُوسَى فَقَضَى عَلَيْهِ so Moses struck him [with his fist] and killed him.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:45.917Z",
+      "refword": "28:15:26",
+      "lexword": "فَوَكَزَهُۥ"
+    }
+  }
+}

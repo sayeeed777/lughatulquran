@@ -1,0 +1,104 @@
+{
+  "root": "جار",
+  "rootArabic": "جار",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يَجْأَرُ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَجْأَرُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَجْأَرُ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 16,
+      "ayah": 53,
+      "text": "وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ ٱللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ تَجْـَٔرُونَ",
+      "highlightedHtml": "وَمَا بِكُم مِّن نِّعْمَةٍ فَمِنَ ٱللَّهِ ۖ ثُمَّ إِذَا مَسَّكُمُ ٱلضُّرُّ فَإِلَيْهِ <a class=\"highlight-text\">تَجْـَٔرُونَ</a>",
+      "derivedForms": [
+        "يَجْأَرُ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 64,
+      "text": "حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ <a class=\"highlight-text\">يَجْـَٔرُونَ</a>",
+      "derivedForms": [
+        "يَجْأَرُ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 65,
+      "text": "لَا تَجْـَٔرُوا۟ ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تَجْـَٔرُوا۟</a> ٱلْيَوْمَ ۖ إِنَّكُم مِّنَّا لَا تُنصَرُونَ",
+      "derivedForms": [
+        "يَجْأَرُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:49.535Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "تَجْـَٔرُونَ is in the derivative form: يَجْأَرُ",
+    "rootDefinitionHtml": "ج/أ/ر   j–ʾ–r (of cattle) to low; to cry for help; anxiety; (of plants) to grow tall and plentiful; to be stout. Of this root, يَجْأَرُ yajʾar occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَجْأَرُ yajʾar [imperf. of v. جَأَرَ jaʾara, intrans.] to cry out for help, to raise the voice in prayer or supplication <br><br>(23:64) حَتَّى إِذَا أَخَذْنَا مُتْرَفِيهِمْ بِالْعَذَابِ إِذَا هُمْ يَجْأَرُونَ until [the time], when We seize with the chastisement those of them who lead a life of pleasure, they will cry out for help.",
+    "mainEntryId": "wdef-ج-أ-ر.يَجْأَرُ",
+    "entries": [
+      {
+        "id": "wdef-ج-أ-ر",
+        "label": "ج-أ-ر",
+        "definitionHtml": "ج/أ/ر   j–ʾ–r (of cattle) to low; to cry for help; anxiety; (of plants) to grow tall and plentiful; to be stout. Of this root, يَجْأَرُ yajʾar occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-أ-ر.يَجْأَرُ",
+        "label": "يَجْأَرُ",
+        "definitionHtml": "يَجْأَرُ yajʾar [imperf. of v. جَأَرَ jaʾara, intrans.] to cry out for help, to raise the voice in prayer or supplication <br><br>(23:64) حَتَّى إِذَا أَخَذْنَا مُتْرَفِيهِمْ بِالْعَذَابِ إِذَا هُمْ يَجْأَرُونَ until [the time], when We seize with the chastisement those of them who lead a life of pleasure, they will cry out for help.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:23.198Z",
+      "refword": "16:53:12",
+      "lexword": "تَجْـَٔرُونَ"
+    }
+  }
+}

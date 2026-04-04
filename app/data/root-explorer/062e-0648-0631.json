@@ -1,0 +1,95 @@
+{
+  "root": "خور",
+  "rootArabic": "خور",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "خُوَارٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُوَارٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُوَارٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 148,
+      "text": "وَٱتَّخَذَ قَوْمُ مُوسَىٰ مِنۢ بَعْدِهِۦ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ ۚ أَلَمْ يَرَوْا۟ أَنَّهُۥ لَا يُكَلِّمُهُمْ وَلَا يَهْدِيهِمْ سَبِيلًا ۘ ٱتَّخَذُوهُ وَكَانُوا۟ ظَٰلِمِينَ",
+      "highlightedHtml": "وَٱتَّخَذَ قَوْمُ مُوسَىٰ مِنۢ بَعْدِهِۦ مِنْ حُلِيِّهِمْ عِجْلًا جَسَدًا لَّهُۥ <a class=\"highlight-text\">خُوَارٌ</a> ۚ أَلَمْ يَرَوْا۟ أَنَّهُۥ لَا يُكَلِّمُهُمْ وَلَا يَهْدِيهِمْ سَبِيلًا ۘ ٱتَّخَذُوهُ وَكَانُوا۟ ظَٰلِمِينَ",
+      "derivedForms": [
+        "خُوَارٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 88,
+      "text": "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُۥ خُوَارٌ فَقَالُوا۟ هَٰذَآ إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ فَنَسِىَ",
+      "highlightedHtml": "فَأَخْرَجَ لَهُمْ عِجْلًا جَسَدًا لَّهُۥ <a class=\"highlight-text\">خُوَارٌ</a> فَقَالُوا۟ هَٰذَآ إِلَٰهُكُمْ وَإِلَٰهُ مُوسَىٰ فَنَسِىَ",
+      "derivedForms": [
+        "خُوَارٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:48.162Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite verbal noun",
+    "derivativeNote": "خُوَارٌ is in the derivative form: خُوَارٌ",
+    "rootDefinitionHtml": "خ/و/ر   kh–w–r the lowing of an ox or a cow, to low, to moo; weakness, to weaken at the time of need, a coward; low land between high hills. Of this root, خُوَارٌ khuwār occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "خُوَارٌ khuwār [n.] lowing, mooing <br><br>(20:88) فَأَخْرَجَ لَهُمْ عِجْلاً جَسَدًا لَهُ خُوَارٌ so he produced for them a calf, an effigy that produced a lowing sound.",
+    "mainEntryId": "wdef-خ-و-ر.خُوَارٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-و-ر",
+        "label": "خ-و-ر",
+        "definitionHtml": "خ/و/ر   kh–w–r the lowing of an ox or a cow, to low, to moo; weakness, to weaken at the time of need, a coward; low land between high hills. Of this root, خُوَارٌ khuwār occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ر.خُوَارٌ",
+        "label": "خُوَارٌ",
+        "definitionHtml": "خُوَارٌ khuwār [n.] lowing, mooing <br><br>(20:88) فَأَخْرَجَ لَهُمْ عِجْلاً جَسَدًا لَهُ خُوَارٌ so he produced for them a calf, an effigy that produced a lowing sound.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:57.354Z",
+      "refword": "7:148:11",
+      "lexword": "خُوَارٌ"
+    }
+  }
+}

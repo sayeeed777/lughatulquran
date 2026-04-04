@@ -1,0 +1,157 @@
+{
+  "root": "خرص",
+  "rootArabic": "خرص",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "تَخْرِصُ",
+      "count": 4
+    },
+    {
+      "form": "خَرَّاصُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَخْرِصُ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخْرِصُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخْرِصُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَرَّاصُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 116,
+      "text": "وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
+      "highlightedHtml": "وَإِن تُطِعْ أَكْثَرَ مَن فِى ٱلْأَرْضِ يُضِلُّوكَ عَن سَبِيلِ ٱللَّهِ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا <a class=\"highlight-text\">يَخْرُصُونَ</a>",
+      "derivedForms": [
+        "تَخْرِصُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 148,
+      "text": "سَيَقُولُ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكْنَا وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن شَىْءٍ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ حَتَّىٰ ذَاقُوا۟ بَأْسَنَا ۗ قُلْ هَلْ عِندَكُم مِّنْ عِلْمٍ فَتُخْرِجُوهُ لَنَآ ۖ إِن تَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ أَنتُمْ إِلَّا تَخْرُصُونَ",
+      "highlightedHtml": "سَيَقُولُ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكْنَا وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن شَىْءٍ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ حَتَّىٰ ذَاقُوا۟ بَأْسَنَا ۗ قُلْ هَلْ عِندَكُم مِّنْ عِلْمٍ فَتُخْرِجُوهُ لَنَآ ۖ إِن تَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ أَنتُمْ إِلَّا <a class=\"highlight-text\">تَخْرُصُونَ</a>",
+      "derivedForms": [
+        "تَخْرِصُ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 66,
+      "text": "أَلَآ إِنَّ لِلَّهِ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ ۗ وَمَا يَتَّبِعُ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ شُرَكَآءَ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
+      "highlightedHtml": "أَلَآ إِنَّ لِلَّهِ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ ۗ وَمَا يَتَّبِعُ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ شُرَكَآءَ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا <a class=\"highlight-text\">يَخْرُصُونَ</a>",
+      "derivedForms": [
+        "تَخْرِصُ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 20,
+      "text": "وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا يَخْرُصُونَ",
+      "highlightedHtml": "وَقَالُوا۟ لَوْ شَآءَ ٱلرَّحْمَٰنُ مَا عَبَدْنَٰهُم ۗ مَّا لَهُم بِذَٰلِكَ مِنْ عِلْمٍ ۖ إِنْ هُمْ إِلَّا <a class=\"highlight-text\">يَخْرُصُونَ</a>",
+      "derivedForms": [
+        "تَخْرِصُ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 10,
+      "text": "قُتِلَ ٱلْخَرَّٰصُونَ",
+      "highlightedHtml": "قُتِلَ <a class=\"highlight-text\">ٱلْخَرَّٰصُونَ</a>",
+      "derivedForms": [
+        "خَرَّاصُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:11.153Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَخْرُصُونَ is in the derivative form: تَخْرِصُ",
+    "rootDefinitionHtml": "خ/ر/ص   kh–r–ṣ palm tree branch<br>; to estimate the amount of fruit carried by a palm tree; guessing, conjecturing, approximation; lying; a large water basin, estuary. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَخْرِصُ takhriṣ 4 times; and خَرَّاصُون kharrāṣūn 1 time.",
+    "mainDefinitionHtml": "تَخْرِصُ takhriṣ [imperf. of v. خَرص kharaṣa, trans.] to guess, to speculate, to conjecture (also said to mean to lie) <br><br>(43:20) وَقَالُوا لَوْ شَاءَ الرَّحْمَنُ مَا عَبَدْنَاهُمْ مَا لَهُمْ بِذَلِكَ مِنْ عِلْمٍ إِنْ هُمْ إِلاَّ يَخْرُصُونَ they say, ‘If the Lord of Mercy had willed it we would not have worshipped them, but they do not know that–they are only conjecturing.’",
+    "mainEntryId": "wdef-خ-ر-ص.تَخْرِصُ",
+    "entries": [
+      {
+        "id": "wdef-خ-ر-ص",
+        "label": "خ-ر-ص",
+        "definitionHtml": "خ/ر/ص   kh–r–ṣ palm tree branch<br>; to estimate the amount of fruit carried by a palm tree; guessing, conjecturing, approximation; lying; a large water basin, estuary. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَخْرِصُ takhriṣ 4 times; and خَرَّاصُون kharrāṣūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ر-ص.تَخْرِصُ",
+        "label": "تَخْرِصُ",
+        "definitionHtml": "تَخْرِصُ takhriṣ [imperf. of v. خَرص kharaṣa, trans.] to guess, to speculate, to conjecture (also said to mean to lie) <br><br>(43:20) وَقَالُوا لَوْ شَاءَ الرَّحْمَنُ مَا عَبَدْنَاهُمْ مَا لَهُمْ بِذَلِكَ مِنْ عِلْمٍ إِنْ هُمْ إِلاَّ يَخْرُصُونَ they say, ‘If the Lord of Mercy had willed it we would not have worshipped them, but they do not know that–they are only conjecturing.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ر-ص.خَرَّاصُون",
+        "label": "خَرَّاصُون",
+        "definitionHtml": "خَرَّاصُون kharrāṣūn [pl. of intens. act. part. خَرَّاصٌ kharrāṣ ] ones given to guessing, conjecturing (also said to mean liars) <br><br>(51:10) قُتِلَ الْخَرَّاصُونَ perish the conjecturers/the liars.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:46.285Z",
+      "refword": "6:116:18",
+      "lexword": "يَخْرُصُونَ"
+    }
+  }
+}

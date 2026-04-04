@@ -1,0 +1,116 @@
+{
+  "root": "محو",
+  "rootArabic": "محو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَحَا",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَحَا",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَحَا",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَحَا",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 13,
+      "ayah": 39,
+      "text": "يَمْحُوا۟ ٱللَّهُ مَا يَشَآءُ وَيُثْبِتُ ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَٰبِ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَمْحُوا۟</a> ٱللَّهُ مَا يَشَآءُ وَيُثْبِتُ ۖ وَعِندَهُۥٓ أُمُّ ٱلْكِتَٰبِ",
+      "derivedForms": [
+        "مَحَا"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 12,
+      "text": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ آيَتَيْنِ ۖ فَمَحَوْنَآ آيَةَ ٱلَّيْلِ وَجَعَلْنَآ آيَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَٰهُ تَفْصِيلًا",
+      "highlightedHtml": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ آيَتَيْنِ ۖ <a class=\"highlight-text\">فَمَحَوْنَآ</a> آيَةَ ٱلَّيْلِ وَجَعَلْنَآ آيَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَٰهُ تَفْصِيلًا",
+      "derivedForms": [
+        "مَحَا"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 24,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۖ فَإِن يَشَإِ ٱللَّهُ يَخْتِمْ عَلَىٰ قَلْبِكَ ۗ وَيَمْحُ ٱللَّهُ ٱلْبَٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۖ فَإِن يَشَإِ ٱللَّهُ يَخْتِمْ عَلَىٰ قَلْبِكَ ۗ <a class=\"highlight-text\">وَيَمْحُ</a> ٱللَّهُ ٱلْبَٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "مَحَا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:08.025Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَمْحُوا۟ is in the derivative form: مَحَا",
+    "rootDefinitionHtml": "م/ح/و   m–ḥ–w to wipe out, to eradicate, to disappear completely, to be effaced, to be featureless; (of land) to be covered with rain water; to annul. Of this root, مَحَا maḥā, occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَحَا maḥā u [v. trans.] <br><br><strong>1 </strong>to erase, to blot out <br><br>(13:39) يَمْحُوا‏ ‏اللَّهُ‏ ‏مَا‏ ‏يَشَاءُ‏ ‏وَيُثْبِتُ God erases or confirms whatever He wills <br><br><strong>2 </strong>to darken, to withdraw the light <br><br>(17:12) ‏فَمَحَوْنَا‏ ‏ءَايَةَ‏ ‏اللَّيْلِ‏ ‏وَجَعَلْنَا‏ ‏ءَايَةَ‏ ‏النَّهَارِ‏ ‏مُبْصِرَةً‏ We then made dark the portent of the night and made the portent of the day to see.",
+    "mainEntryId": "wdef-م-ح-و.مَحَا",
+    "entries": [
+      {
+        "id": "wdef-م-ح-و",
+        "label": "م-ح-و",
+        "definitionHtml": "م/ح/و   m–ḥ–w to wipe out, to eradicate, to disappear completely, to be effaced, to be featureless; (of land) to be covered with rain water; to annul. Of this root, مَحَا maḥā, occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ح-و.مَحَا",
+        "label": "مَحَا",
+        "definitionHtml": "مَحَا maḥā u [v. trans.] <br><br><strong>1 </strong>to erase, to blot out <br><br>(13:39) يَمْحُوا‏ ‏اللَّهُ‏ ‏مَا‏ ‏يَشَاءُ‏ ‏وَيُثْبِتُ God erases or confirms whatever He wills <br><br><strong>2 </strong>to darken, to withdraw the light <br><br>(17:12) ‏فَمَحَوْنَا‏ ‏ءَايَةَ‏ ‏اللَّيْلِ‏ ‏وَجَعَلْنَا‏ ‏ءَايَةَ‏ ‏النَّهَارِ‏ ‏مُبْصِرَةً‏ We then made dark the portent of the night and made the portent of the day to see.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:35.506Z",
+      "refword": "13:39:1",
+      "lexword": "يَمْحُوا۟"
+    }
+  }
+}

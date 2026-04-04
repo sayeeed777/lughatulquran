@@ -1,0 +1,95 @@
+{
+  "root": "صغو",
+  "rootArabic": "صغو",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "صَغَى",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَغَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَغَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 113,
+      "text": "وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَلِتَصْغَىٰٓ</a> إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ",
+      "derivedForms": [
+        "صَغَى"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 4,
+      "text": "إِن تَتُوبَآ إِلَى ٱللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا ۖ وَإِن تَظَٰهَرَا عَلَيْهِ فَإِنَّ ٱللَّهَ هُوَ مَوْلَىٰهُ وَجِبْرِيلُ وَصَٰلِحُ ٱلْمُؤْمِنِينَ ۖ وَٱلْمَلَٰٓئِكَةُ بَعْدَ ذَٰلِكَ ظَهِيرٌ",
+      "highlightedHtml": "إِن تَتُوبَآ إِلَى ٱللَّهِ فَقَدْ <a class=\"highlight-text\">صَغَتْ</a> قُلُوبُكُمَا ۖ وَإِن تَظَٰهَرَا عَلَيْهِ فَإِنَّ ٱللَّهَ هُوَ مَوْلَىٰهُ وَجِبْرِيلُ وَصَٰلِحُ ٱلْمُؤْمِنِينَ ۖ وَٱلْمَلَٰٓئِكَةُ بَعْدَ ذَٰلِكَ ظَهِيرٌ",
+      "derivedForms": [
+        "صَغَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:00.054Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "وَلِتَصْغَىٰٓ is in the derivative form: صَغَى",
+    "rootDefinitionHtml": "ص/غ/و   ṣ–gh–w inclination, or twisting, of the mouth; to incline, to swerve. Of this root, 1 form, صَغَى ṣaghā, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "صَغَى ṣaghā i/a/u [v. intrans.] <br><br><strong>1 </strong>to incline, to lean towards, to swerve <br><br>(6:113) وَلِتَصْغَى إِلَيْهِ أَفْئِدَةُ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ let the hearts of those who do not believe in the Hereafter incline towards it <br><br><strong>2 </strong>to go astray, to deviate <br><br>(66:4) إِنْ تَتُوبَا إِلَى اللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا if both of you [wives] repent to God [then you have done the right thing] for your hearts had deviated.",
+    "mainEntryId": "wdef-ص-غ-و.صَغَى",
+    "entries": [
+      {
+        "id": "wdef-ص-غ-و",
+        "label": "ص-غ-و",
+        "definitionHtml": "ص/غ/و   ṣ–gh–w inclination, or twisting, of the mouth; to incline, to swerve. Of this root, 1 form, صَغَى ṣaghā, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-غ-و.صَغَى",
+        "label": "صَغَى",
+        "definitionHtml": "صَغَى ṣaghā i/a/u [v. intrans.] <br><br><strong>1 </strong>to incline, to lean towards, to swerve <br><br>(6:113) وَلِتَصْغَى إِلَيْهِ أَفْئِدَةُ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ let the hearts of those who do not believe in the Hereafter incline towards it <br><br><strong>2 </strong>to go astray, to deviate <br><br>(66:4) إِنْ تَتُوبَا إِلَى اللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا if both of you [wives] repent to God [then you have done the right thing] for your hearts had deviated.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:58.913Z",
+      "refword": "6:113:1",
+      "lexword": "وَلِتَصْغَىٰٓ"
+    }
+  }
+}

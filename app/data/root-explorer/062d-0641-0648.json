@@ -1,0 +1,127 @@
+{
+  "root": "حفو",
+  "rootArabic": "حفو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "حَفِيٌّ",
+      "count": 2
+    },
+    {
+      "form": "يُحْفِي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَفِيٌّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَفِيٌّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُحْفِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 187,
+      "text": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ <a class=\"highlight-text\">حَفِىٌّ</a> عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "حَفِيٌّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 47,
+      "text": "قَالَ سَلَٰمٌ عَلَيْكَ ۖ سَأَسْتَغْفِرُ لَكَ رَبِّىٓ ۖ إِنَّهُۥ كَانَ بِى حَفِيًّا",
+      "highlightedHtml": "قَالَ سَلَٰمٌ عَلَيْكَ ۖ سَأَسْتَغْفِرُ لَكَ رَبِّىٓ ۖ إِنَّهُۥ كَانَ بِى <a class=\"highlight-text\">حَفِيًّا</a>",
+      "derivedForms": [
+        "حَفِيٌّ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 37,
+      "text": "إِن يَسْـَٔلْكُمُوهَا فَيُحْفِكُمْ تَبْخَلُوا۟ وَيُخْرِجْ أَضْغَٰنَكُمْ",
+      "highlightedHtml": "إِن يَسْـَٔلْكُمُوهَا <a class=\"highlight-text\">فَيُحْفِكُمْ</a> تَبْخَلُوا۟ وَيُخْرِجْ أَضْغَٰنَكُمْ",
+      "derivedForms": [
+        "يُحْفِي"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:28.524Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine singular indefinite noun",
+    "derivativeNote": "حَفِىٌّ is in the derivative form: حَفِيٌّ",
+    "rootDefinitionHtml": "ح/ف/و-ي   ḥ–f–w/y condition of chafing, abrading or wearing out of feet, particularly of camel hooves, caused by long travel barefoot in the hot desert, barefootedness; to strip bare, to scrape off, to trim; to welcome, to be gracious; to dispute; to exact, to harass; to be knowledgeable. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُحْفِي yuḥfı 1 time and حَفِيٌّ ḥafiyy 2 times.",
+    "mainDefinitionHtml": "حَفِيٌّ ḥafiyy [quasi‐act. part.] <br><br><strong>1 </strong>kind, caring, welcoming, gracious <br><br>(19:47) سَأَسْتَغْفِرُ لَكَ رَبِّي إِنَّهُ كَانَ بِي حَفِيًّا I will beg my Lord to forgive you–He is always gracious to me <br><br><strong>2 </strong>knowledgeable (also said to mean solicitous) <br><br>(7:187) يَسْأَلُونَكَ كَأَنَّكَ حَفِيٌّ عَنْهَا قُلْ إِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ they ask you as if you are knowledgeable about it [the Hour] [also interpreted as: as if you must be eager to find out] say, ‘Knowledge of it is only with God.’",
+    "mainEntryId": "wdef-ح-ف-و-ي.حَفِيٌّ",
+    "entries": [
+      {
+        "id": "wdef-ح-ف-و-ي",
+        "label": "ح-ف-و-ي",
+        "definitionHtml": "ح/ف/و-ي   ḥ–f–w/y condition of chafing, abrading or wearing out of feet, particularly of camel hooves, caused by long travel barefoot in the hot desert, barefootedness; to strip bare, to scrape off, to trim; to welcome, to be gracious; to dispute; to exact, to harass; to be knowledgeable. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُحْفِي yuḥfı 1 time and حَفِيٌّ ḥafiyy 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ف-و-ي.حَفِيٌّ",
+        "label": "حَفِيٌّ",
+        "definitionHtml": "حَفِيٌّ ḥafiyy [quasi‐act. part.] <br><br><strong>1 </strong>kind, caring, welcoming, gracious <br><br>(19:47) سَأَسْتَغْفِرُ لَكَ رَبِّي إِنَّهُ كَانَ بِي حَفِيًّا I will beg my Lord to forgive you–He is always gracious to me <br><br><strong>2 </strong>knowledgeable (also said to mean solicitous) <br><br>(7:187) يَسْأَلُونَكَ كَأَنَّكَ حَفِيٌّ عَنْهَا قُلْ إِنَّمَا عِلْمُهَا عِنْدَ اللَّهِ they ask you as if you are knowledgeable about it [the Hour] [also interpreted as: as if you must be eager to find out] say, ‘Knowledge of it is only with God.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ف-و-ي.يُحْفِي",
+        "label": "يُحْفِي",
+        "definitionHtml": "يُحْفِي yuḥfı [imperf. of v. IV, trans.] to press, to importune, to exhort, to put pressure on <br><br>(47:37) إِنْ يَسْأَلْكُمُوهَا فَيُحْفِكُمْ تَبْخَلُوا if he were to ask you for them [your possessions] and put pressure on you, you would be niggardly.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:23.838Z",
+      "refword": "7:187:26",
+      "lexword": "حَفِىٌّ"
+    }
+  }
+}

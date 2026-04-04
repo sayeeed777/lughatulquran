@@ -1,0 +1,187 @@
+{
+  "root": "فزع",
+  "rootArabic": "فزع",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "فَزِعَ",
+      "count": 3
+    },
+    {
+      "form": "فَزَع",
+      "count": 2
+    },
+    {
+      "form": "فُزِّعَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَزَع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَزَع",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "فَزِعَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَزِعَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "فُزِّعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَزِعَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 103,
+      "text": "لَا يَحْزُنُهُمُ ٱلْفَزَعُ ٱلْأَكْبَرُ وَتَتَلَقَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ هَٰذَا يَوْمُكُمُ ٱلَّذِى كُنتُمْ تُوعَدُونَ",
+      "highlightedHtml": "لَا يَحْزُنُهُمُ <a class=\"highlight-text\">ٱلْفَزَعُ</a> ٱلْأَكْبَرُ وَتَتَلَقَّىٰهُمُ ٱلْمَلَٰٓئِكَةُ هَٰذَا يَوْمُكُمُ ٱلَّذِى كُنتُمْ تُوعَدُونَ",
+      "derivedForms": [
+        "فَزَع"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 87,
+      "text": "وَيَوْمَ يُنفَخُ فِى ٱلصُّورِ فَفَزِعَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "highlightedHtml": "وَيَوْمَ يُنفَخُ فِى ٱلصُّورِ <a class=\"highlight-text\">فَفَزِعَ</a> مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "derivedForms": [
+        "فَزِعَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 89,
+      "text": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ خَيْرٌ مِّنْهَا وَهُم مِّن فَزَعٍ يَوْمَئِذٍ آمِنُونَ",
+      "highlightedHtml": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ خَيْرٌ مِّنْهَا وَهُم مِّن <a class=\"highlight-text\">فَزَعٍ</a> يَوْمَئِذٍ آمِنُونَ",
+      "derivedForms": [
+        "فَزَع"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 23,
+      "text": "وَلَا تَنفَعُ ٱلشَّفَٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا فُزِّعَ عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ",
+      "highlightedHtml": "وَلَا تَنفَعُ ٱلشَّفَٰعَةُ عِندَهُۥٓ إِلَّا لِمَنْ أَذِنَ لَهُۥ ۚ حَتَّىٰٓ إِذَا <a class=\"highlight-text\">فُزِّعَ</a> عَن قُلُوبِهِمْ قَالُوا۟ مَاذَا قَالَ رَبُّكُمْ ۖ قَالُوا۟ ٱلْحَقَّ ۖ وَهُوَ ٱلْعَلِىُّ ٱلْكَبِيرُ",
+      "derivedForms": [
+        "فُزِّعَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 51,
+      "text": "وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذْ <a class=\"highlight-text\">فَزِعُوا۟</a> فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ",
+      "derivedForms": [
+        "فَزِعَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 22,
+      "text": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "highlightedHtml": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ <a class=\"highlight-text\">فَفَزِعَ</a> مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "derivedForms": [
+        "فَزِعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:49.398Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلْفَزَعُ is in the derivative form: فَزَع",
+    "rootDefinitionHtml": "ف/ز/ع   f–z–ʿ to be frightened, to be afraid, to take fright. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> فَزِعَ faziʿa 3 times; فُزِّعَ fuzziʿa 1 time and فَزَع fazaʿ 2 times.",
+    "mainDefinitionHtml": "فَزَع fazaʿ [n.] terror, fright <br><br>(27:89) مَنْ‏ ‏جَاءَ‏ ‏بِالْحَسَنَةِ‏ ‏فَلَهُ‏ ‏خَيْرٌ مِنْهَا‏ ‏وَهُمْ‏ ‏مِنْ‏ ‏فَزَعٍ‏ ‏يَوْمَئِذٍ‏ ‏ءَامِنُونَ whoever comes with a good deed will be [rewarded with] something better, and be secure from fear on that day; *<br><br>(21:103) الفَزَع الأَكْبَر variously interpreted as: blowing of the trumpet heralding the Day of Resurrection, Hellfire or, death [lit. the greatest Terror].",
+    "mainEntryId": "wdef-ف-ز-ع.فَزَع",
+    "entries": [
+      {
+        "id": "wdef-ف-ز-ع",
+        "label": "ف-ز-ع",
+        "definitionHtml": "ف/ز/ع   f–z–ʿ to be frightened, to be afraid, to take fright. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> فَزِعَ faziʿa 3 times; فُزِّعَ fuzziʿa 1 time and فَزَع fazaʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ز-ع.فَزَع",
+        "label": "فَزَع",
+        "definitionHtml": "فَزَع fazaʿ [n.] terror, fright <br><br>(27:89) مَنْ‏ ‏جَاءَ‏ ‏بِالْحَسَنَةِ‏ ‏فَلَهُ‏ ‏خَيْرٌ مِنْهَا‏ ‏وَهُمْ‏ ‏مِنْ‏ ‏فَزَعٍ‏ ‏يَوْمَئِذٍ‏ ‏ءَامِنُونَ whoever comes with a good deed will be [rewarded with] something better, and be secure from fear on that day; *<br><br>(21:103) الفَزَع الأَكْبَر variously interpreted as: blowing of the trumpet heralding the Day of Resurrection, Hellfire or, death [lit. the greatest Terror].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ز-ع.فَزِعَ",
+        "label": "فَزِعَ",
+        "definitionHtml": "فَزِعَ faziʿa a [v. intrans.] to take fright, to be terrified <br><br>(38:22) إِذْ‏ ‏دَخَلُوا‏ ‏عَلَى‏ ‏دَاوُدَ‏ ‏فَفَزِعَ مِنْهُمْ‏‏ when they entered upon David, and he became afraid of them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ز-ع.فُزِّعَ",
+        "label": "فُزِّعَ",
+        "definitionHtml": "فُزِّعَ fuzziʿa [pass. of v. II., with prep. عَنْ] to take someone’s fear away, to wipe out terror <br><br>(34:23)‏حَتَّى إِذَا فُزِّعَ عَنْ قُلُوبِهِمْ قَالُوا مَاذَا قَالَ رَبُّكُمْ until, when terror is lifted off their hearts, they say ‘What has your Lord said?’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:19.498Z",
+      "refword": "21:103:3",
+      "lexword": "ٱلْفَزَعُ"
+    }
+  }
+}

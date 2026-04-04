@@ -1,0 +1,74 @@
+{
+  "root": "حري",
+  "rootArabic": "حري",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَحَرَّى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحَرَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 72,
+      "ayah": 14,
+      "text": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَٰٓئِكَ تَحَرَّوْا۟ رَشَدًا",
+      "highlightedHtml": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَٰٓئِكَ <a class=\"highlight-text\">تَحَرَّوْا۟</a> رَشَدًا",
+      "derivedForms": [
+        "تَحَرَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:03.044Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "تَحَرَّوْا۟ is in the derivative form: تَحَرَّى",
+    "rootDefinitionHtml": "ح/ر/و-ي   ḥ–r–w/y nest, den, inviolable place; to take great care, to be intent; to be worthy; to be hot. Of this root, تَحَرَّوا taḥarraw occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَحَرَّى taḥarrā [v. V, trans.] to pursue meticulously, to seek out something with intent, to take great care in achieving something to the full <br><br>(72:14) وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ فَمَنْ أَسْلَمَ فَأُولَئِكَ تَحَرَّوْا رَشَدًا and among us there are the ones who surrendered, and the ones who deviate: those who surrendered have sought out guidance.",
+    "mainEntryId": "wdef-ح-ر-و-ي.تَحَرَّى",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-و-ي",
+        "label": "ح-ر-و-ي",
+        "definitionHtml": "ح/ر/و-ي   ḥ–r–w/y nest, den, inviolable place; to take great care, to be intent; to be worthy; to be hot. Of this root, تَحَرَّوا taḥarraw occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-و-ي.تَحَرَّى",
+        "label": "تَحَرَّى",
+        "definitionHtml": "تَحَرَّى taḥarrā [v. V, trans.] to pursue meticulously, to seek out something with intent, to take great care in achieving something to the full <br><br>(72:14) وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ فَمَنْ أَسْلَمَ فَأُولَئِكَ تَحَرَّوْا رَشَدًا and among us there are the ones who surrendered, and the ones who deviate: those who surrendered have sought out guidance.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:36.962Z",
+      "refword": "72:14:9",
+      "lexword": "تَحَرَّوْا۟"
+    }
+  }
+}

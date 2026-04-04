@@ -1,0 +1,74 @@
+{
+  "root": "وهي",
+  "rootArabic": "وهي",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "وَاهِيَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاهِيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 69,
+      "ayah": 16,
+      "text": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "highlightedHtml": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ <a class=\"highlight-text\">وَاهِيَةٌ</a>",
+      "derivedForms": [
+        "وَاهِيَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T10:00:06.686Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite active participle",
+    "derivativeNote": "وَاهِيَةٌ is in the derivative form: وَاهِيَةٌ",
+    "rootDefinitionHtml": "و/ﻫ/ي   w–h–y crack, weakness, to slacken, to collapse, to fall down, to become frayed; to act foolishly. Of this root, وَاهِيَةٌ (wāhiyatun), occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَاهِيَةٌ wāhiyatun [fem. act. part.] frail, fragile, collapsing, in tatters <br><br>(69:16) وَانْشَقَّتِ السَّمَاءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ the sky will be torn apart; on that Day it will be so frail.",
+    "mainEntryId": "wdef-و-ﻫ-ي.وَاهِيَةٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ﻫ-ي",
+        "label": "و-ﻫ-ي",
+        "definitionHtml": "و/ﻫ/ي   w–h–y crack, weakness, to slacken, to collapse, to fall down, to become frayed; to act foolishly. Of this root, وَاهِيَةٌ (wāhiyatun), occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ﻫ-ي.وَاهِيَةٌ",
+        "label": "وَاهِيَةٌ",
+        "definitionHtml": "وَاهِيَةٌ wāhiyatun [fem. act. part.] frail, fragile, collapsing, in tatters <br><br>(69:16) وَانْشَقَّتِ السَّمَاءُ فَهِيَ يَوْمَئِذٍ وَاهِيَةٌ the sky will be torn apart; on that Day it will be so frail.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:05:03.735Z",
+      "refword": "69:16:5",
+      "lexword": "وَاهِيَةٌ"
+    }
+  }
+}

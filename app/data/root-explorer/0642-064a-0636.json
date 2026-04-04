@@ -1,0 +1,95 @@
+{
+  "root": "قيض",
+  "rootArabic": "قيض",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "قَيَّضَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَيَّضَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَيَّضَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 41,
+      "ayah": 25,
+      "text": "وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَقَيَّضْنَا</a> لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "قَيَّضَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 36,
+      "text": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "highlightedHtml": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ <a class=\"highlight-text\">نُقَيِّضْ</a> لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "derivedForms": [
+        "قَيَّضَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:27.202Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "وَقَيَّضْنَا is in the derivative form: قَيَّضَ",
+    "rootDefinitionHtml": "ق/ي/ض   q–y–ḍ egg shells, to hatch, to crack; to barter, to compensate; to foreordain, to destine; to assign, to facilitate, to prepare. Of this root, قَيَّض qayyaḍa occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "قَيَّضَ qayyaḍa [v. II, trans.] to assign, to facilitate, to put in the way <br><br>(41:25) وَقَيَّضْنَا لَهُمْ قُرَنَاءَ فَزَيَّنُوا لَهُمْ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ We have appointed for them companions, who made their present and their past [seem] fair to them.",
+    "mainEntryId": "wdef-ق-ي-ض.قَيَّضَ",
+    "entries": [
+      {
+        "id": "wdef-ق-ي-ض",
+        "label": "ق-ي-ض",
+        "definitionHtml": "ق/ي/ض   q–y–ḍ egg shells, to hatch, to crack; to barter, to compensate; to foreordain, to destine; to assign, to facilitate, to prepare. Of this root, قَيَّض qayyaḍa occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ي-ض.قَيَّضَ",
+        "label": "قَيَّضَ",
+        "definitionHtml": "قَيَّضَ qayyaḍa [v. II, trans.] to assign, to facilitate, to put in the way <br><br>(41:25) وَقَيَّضْنَا لَهُمْ قُرَنَاءَ فَزَيَّنُوا لَهُمْ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ We have appointed for them companions, who made their present and their past [seem] fair to them.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:21.924Z",
+      "refword": "41:25:1",
+      "lexword": "وَقَيَّضْنَا"
+    }
+  }
+}

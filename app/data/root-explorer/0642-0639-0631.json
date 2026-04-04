@@ -1,0 +1,74 @@
+{
+  "root": "قعر",
+  "rootArabic": "قعر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُنْقَعِر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْقَعِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 54,
+      "ayah": 20,
+      "text": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
+      "highlightedHtml": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ <a class=\"highlight-text\">مُّنقَعِرٍ</a>",
+      "derivedForms": [
+        "مُنْقَعِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:06.860Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite (form VII) active participle",
+    "derivativeNote": "مُّنقَعِرٍ is in the derivative form: مُنْقَعِر",
+    "rootDefinitionHtml": "ق/ع/ر   q–ʿ–r bottom, depth, to excavate, to pierce, to uproot; to hollow; to knock down. Of this root, مُنْقَعِر munqaʿir occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُنْقَعِر munqaʿir [pass. part. of v. VIII اِنْقَعَرَ ʾinqaʿara] uprooted, severed at the root <br><br>(54:20) تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُنْقَعِرٍ it sweeps people away, as if they were uprooted palm stumps.",
+    "mainEntryId": "wdef-ق-ع-ر.مُنْقَعِر",
+    "entries": [
+      {
+        "id": "wdef-ق-ع-ر",
+        "label": "ق-ع-ر",
+        "definitionHtml": "ق/ع/ر   q–ʿ–r bottom, depth, to excavate, to pierce, to uproot; to hollow; to knock down. Of this root, مُنْقَعِر munqaʿir occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-ر.مُنْقَعِر",
+        "label": "مُنْقَعِر",
+        "definitionHtml": "مُنْقَعِر munqaʿir [pass. part. of v. VIII اِنْقَعَرَ ʾinqaʿara] uprooted, severed at the root <br><br>(54:20) تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُنْقَعِرٍ it sweeps people away, as if they were uprooted palm stumps.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:46.256Z",
+      "refword": "54:20:6",
+      "lexword": "مُّنقَعِرٍ"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "root": "كور",
+  "rootArabic": "كور",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يُكَوِّر",
+      "count": 2
+    },
+    {
+      "form": "كُوِّرَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُكَوِّر",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كُوِّرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 39,
+      "ayah": 5,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّٰرُ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ <a class=\"highlight-text\">يُكَوِّرُ</a> ٱلَّيْلَ عَلَى ٱلنَّهَارِ <a class=\"highlight-text\">وَيُكَوِّرُ</a> ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّٰرُ",
+      "derivedForms": [
+        "يُكَوِّر",
+        "يُكَوِّر"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 1,
+      "text": "إِذَا ٱلشَّمْسُ كُوِّرَتْ",
+      "highlightedHtml": "إِذَا ٱلشَّمْسُ <a class=\"highlight-text\">كُوِّرَتْ</a>",
+      "derivedForms": [
+        "كُوِّرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:10.954Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) imperfect verb",
+    "derivativeNote": "يُكَوِّرُ is in the derivative form: يُكَوِّر",
+    "rootDefinitionHtml": "ك/و/ر   k–w–r travel gear; bellows; to twist a turban around the head, to roll up; to harvest, to gather; succession of day and night; township. كُوَّرَت kuwwirat is described by some philologists as a borrowing from Persian. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُكَوِّر yukawwir 2 times and كُوِّرَ kuwwira 1 time.",
+    "mainDefinitionHtml": "يُكَوِّر yukawwir [imperf. of v. II] to roll up, to twist *<br><br>(39:5) يُكَوِّرُ اللَّيْلَ عَلَى النَّهَارِ وَيُكَوِّرُ النَّهَارَ عَلَى اللَّيْلِ He sets the night to outstrip the day and the day to outstrip the night [lit. He wraps the night around the day and the day around the night].",
+    "mainEntryId": "wdef-ك-و-ر.يُكَوِّر",
+    "entries": [
+      {
+        "id": "wdef-ك-و-ر",
+        "label": "ك-و-ر",
+        "definitionHtml": "ك/و/ر   k–w–r travel gear; bellows; to twist a turban around the head, to roll up; to harvest, to gather; succession of day and night; township. كُوَّرَت kuwwirat is described by some philologists as a borrowing from Persian. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُكَوِّر yukawwir 2 times and كُوِّرَ kuwwira 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-و-ر.يُكَوِّر",
+        "label": "يُكَوِّر",
+        "definitionHtml": "يُكَوِّر yukawwir [imperf. of v. II] to roll up, to twist *<br><br>(39:5) يُكَوِّرُ اللَّيْلَ عَلَى النَّهَارِ وَيُكَوِّرُ النَّهَارَ عَلَى اللَّيْلِ He sets the night to outstrip the day and the day to outstrip the night [lit. He wraps the night around the day and the day around the night].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-و-ر.كُوِّرَ",
+        "label": "كُوِّرَ",
+        "definitionHtml": "كُوِّرَ kuwwira [pass. of v. II] to be gathered, to be folded up, to be covered up in darkness <br><br>(81:1) إِذَا الشَّمْسُ كُوِّرَتْ when the sun is shrouded in darkness. * التَّكوير ʾal‐takwır name of Sura 81, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to the ‘Shrouding’ of the sun in darkness.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:42.593Z",
+      "refword": "39:5:5",
+      "lexword": "يُكَوِّرُ"
+    }
+  }
+}

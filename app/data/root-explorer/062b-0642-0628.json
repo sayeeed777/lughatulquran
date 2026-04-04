@@ -1,0 +1,95 @@
+{
+  "root": "ثقب",
+  "rootArabic": "ثقب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "ثَاقِبٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَاقِبٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَاقِبٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 10,
+      "text": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌ ثَاقِبٌ",
+      "highlightedHtml": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌ <a class=\"highlight-text\">ثَاقِبٌ</a>",
+      "derivedForms": [
+        "ثَاقِبٌ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 3,
+      "text": "ٱلنَّجْمُ ٱلثَّاقِبُ",
+      "highlightedHtml": "ٱلنَّجْمُ <a class=\"highlight-text\">ٱلثَّاقِبُ</a>",
+      "derivedForms": [
+        "ثَاقِبٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:37.849Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "ثَاقِبٌ is in the derivative form: ثَاقِبٌ",
+    "rootDefinitionHtml": "ث/ق/ب   th–q–b to bore, to perforate, to puncture, to pierce a hole; to heighten; to kindle, to light, to shine up. Of this root, ثَاقِبٌ thāqib occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "ثَاقِبٌ thāqib [act. part.] piercing, piercing bright <br><br>(37:10) إِلاَّ مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ except for he who snatches away a fragment, and he is pursued by a piercing flame.",
+    "mainEntryId": "wdef-ث-ق-ب.ثَاقِبٌ",
+    "entries": [
+      {
+        "id": "wdef-ث-ق-ب",
+        "label": "ث-ق-ب",
+        "definitionHtml": "ث/ق/ب   th–q–b to bore, to perforate, to puncture, to pierce a hole; to heighten; to kindle, to light, to shine up. Of this root, ثَاقِبٌ thāqib occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ب.ثَاقِبٌ",
+        "label": "ثَاقِبٌ",
+        "definitionHtml": "ثَاقِبٌ thāqib [act. part.] piercing, piercing bright <br><br>(37:10) إِلاَّ مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ except for he who snatches away a fragment, and he is pursued by a piercing flame.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:00.890Z",
+      "refword": "37:10:7",
+      "lexword": "ثَاقِبٌ"
+    }
+  }
+}

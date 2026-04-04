@@ -1,0 +1,74 @@
+{
+  "root": "سطح",
+  "rootArabic": "سطح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "سُطِحَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُطِحَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 88,
+      "ayah": 20,
+      "text": "وَإِلَى ٱلْأَرْضِ كَيْفَ سُطِحَتْ",
+      "highlightedHtml": "وَإِلَى ٱلْأَرْضِ كَيْفَ <a class=\"highlight-text\">سُطِحَتْ</a>",
+      "derivedForms": [
+        "سُطِحَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:55.574Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "سُطِحَتْ is in the derivative form: سُطِحَ",
+    "rootDefinitionHtml": "س/ط/ح   s–ṭ–ḥ to be flat, flattened, to spread out, upper side. Of this root, only سُطْحَت suṭiḥat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "سُطِحَ suṭiḥa [pass. v.] to be made flat, to be flattened, to be spread out <br><br>(88:20) وَإِلَى‏ ‏الأَرْضِ‏ ‏كَيْفَ‏ ‏سُطِحَتْ‏ and [don’t they see] how the earth has been spread out?",
+    "mainEntryId": "wdef-س-ط-ح.سُطِحَ",
+    "entries": [
+      {
+        "id": "wdef-س-ط-ح",
+        "label": "س-ط-ح",
+        "definitionHtml": "س/ط/ح   s–ṭ–ḥ to be flat, flattened, to spread out, upper side. Of this root, only سُطْحَت suṭiḥat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-ح.سُطِحَ",
+        "label": "سُطِحَ",
+        "definitionHtml": "سُطِحَ suṭiḥa [pass. v.] to be made flat, to be flattened, to be spread out <br><br>(88:20) وَإِلَى‏ ‏الأَرْضِ‏ ‏كَيْفَ‏ ‏سُطِحَتْ‏ and [don’t they see] how the earth has been spread out?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:55.616Z",
+      "refword": "88:20:4",
+      "lexword": "سُطِحَتْ"
+    }
+  }
+}

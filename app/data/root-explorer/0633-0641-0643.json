@@ -1,0 +1,83 @@
+{
+  "root": "سفك",
+  "rootArabic": "سفك",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَسْفِك",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَسْفِك",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 30,
+      "text": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا <a class=\"highlight-text\">وَيَسْفِكُ</a> ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "يَسْفِك"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 84,
+      "text": "وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ لَا تَسْفِكُونَ دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
+      "highlightedHtml": "وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ لَا <a class=\"highlight-text\">تَسْفِكُونَ</a> دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
+      "derivedForms": [
+        "يَسْفِك"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:04.982Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "وَيَسْفِكُ is in the derivative form: يَسْفِك",
+    "rootDefinitionHtml": "س/ف/ك   s–f–k to shed tears or blood, to cause to flow. Of this root, only يَسْفِك yasfik occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَسْفِك yasfik [imperf. of v. سَفَكَ safaka, trans.] to shed, to spill <br><br>(2:30) أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ do You place on it [the Earth] someone who will sow corruption in it and commit murder [lit. shed blood]?",
+    "mainEntryId": "wdef-س-ف-ك.يَسْفِك",
+    "entries": [
+      {
+        "id": "wdef-س-ف-ك",
+        "label": "س-ف-ك",
+        "definitionHtml": "س/ف/ك   s–f–k to shed tears or blood, to cause to flow. Of this root, only يَسْفِك yasfik occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ف-ك.يَسْفِك",
+        "label": "يَسْفِك",
+        "definitionHtml": "يَسْفِك yasfik [imperf. of v. سَفَكَ safaka, trans.] to shed, to spill <br><br>(2:30) أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ do You place on it [the Earth] someone who will sow corruption in it and commit murder [lit. shed blood]?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:15.793Z",
+      "refword": "2:30:16",
+      "lexword": "وَيَسْفِكُ"
+    }
+  }
+}

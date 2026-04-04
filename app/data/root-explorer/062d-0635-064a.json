@@ -1,0 +1,288 @@
+{
+  "root": "حصي",
+  "rootArabic": "حصي",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 2,
+    "surahCount": 10,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "أَحْصى",
+      "count": 10
+    },
+    {
+      "form": "أَحْصَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "أَحْصَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْصى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 34,
+      "text": "وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌ كَفَّارٌ",
+      "highlightedHtml": "وَءَاتَىٰكُم مِّن كُلِّ مَا سَأَلْتُمُوهُ ۚ وَإِن تَعُدُّوا۟ نِعْمَتَ ٱللَّهِ لَا <a class=\"highlight-text\">تُحْصُوهَآ</a> ۗ إِنَّ ٱلْإِنسَٰنَ لَظَلُومٌ كَفَّارٌ",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 18,
+      "text": "وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا تُحْصُوهَآ ۗ إِنَّ ٱللَّهَ لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَإِن تَعُدُّوا۟ نِعْمَةَ ٱللَّهِ لَا <a class=\"highlight-text\">تُحْصُوهَآ</a> ۗ إِنَّ ٱللَّهَ لَغَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 12,
+      "text": "ثُمَّ بَعَثْنَٰهُمْ لِنَعْلَمَ أَىُّ ٱلْحِزْبَيْنِ أَحْصَىٰ لِمَا لَبِثُوٓا۟ أَمَدًا",
+      "highlightedHtml": "ثُمَّ بَعَثْنَٰهُمْ لِنَعْلَمَ أَىُّ ٱلْحِزْبَيْنِ <a class=\"highlight-text\">أَحْصَىٰ</a> لِمَا لَبِثُوٓا۟ أَمَدًا",
+      "derivedForms": [
+        "أَحْصَى"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 49,
+      "text": "وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًا",
+      "highlightedHtml": "وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ <a class=\"highlight-text\">أَحْصَىٰهَا</a> ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًا",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 94,
+      "text": "لَّقَدْ أَحْصَىٰهُمْ وَعَدَّهُمْ عَدًّا",
+      "highlightedHtml": "لَّقَدْ <a class=\"highlight-text\">أَحْصَىٰهُمْ</a> وَعَدَّهُمْ عَدًّا",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 12,
+      "text": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+      "highlightedHtml": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ <a class=\"highlight-text\">أَحْصَيْنَٰهُ</a> فِىٓ إِمَامٍ مُّبِينٍ",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 6,
+      "text": "يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعًا فَيُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ أَحْصَىٰهُ ٱللَّهُ وَنَسُوهُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "highlightedHtml": "يَوْمَ يَبْعَثُهُمُ ٱللَّهُ جَمِيعًا فَيُنَبِّئُهُم بِمَا عَمِلُوٓا۟ ۚ <a class=\"highlight-text\">أَحْصَىٰهُ</a> ٱللَّهُ وَنَسُوهُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ <a class=\"highlight-text\">وَأَحْصُوا۟</a> ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 28,
+      "text": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَٰلَٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا",
+      "highlightedHtml": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَٰلَٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ <a class=\"highlight-text\">وَأَحْصَىٰ</a> كُلَّ شَىْءٍ عَدَدًۢا",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 20,
+      "text": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+      "highlightedHtml": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن <a class=\"highlight-text\">تُحْصُوهُ</a> فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 29,
+      "text": "وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ كِتَٰبًا",
+      "highlightedHtml": "وَكُلَّ شَىْءٍ <a class=\"highlight-text\">أَحْصَيْنَٰهُ</a> كِتَٰبًا",
+      "derivedForms": [
+        "أَحْصى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:21.124Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperfect verb, jussive mood",
+    "derivativeNote": "تُحْصُوهَآ is in the derivative form: أَحْصى",
+    "rootDefinitionHtml": "ح/ص/ي   ḥ–ṣ–y pebbles, to count; to comprehend; to keep, to stick with; mind, discerning faculty; ability to express oneself clearly. <br><br>Of this root, 2 forms occur 11 times in the Qur’an:<br> أَحْصى (1) ʾaḥṣā 10 times and أَحْصى (2) ʾaḥṣā 1 time.",
+    "mainDefinitionHtml": "أَحْصى (1) ʾaḥṣā [v. IV, trans.] <br><br><strong>1 </strong>to keep a record of, to record <br><br>(36:12) وَكُلَّ شَيْءٍ أحْصَيْنَاهُ فِى إِمَامٍ مُبِينٍ and everything We keep an account of in a clear Record <br><br><strong>2 </strong>to reckon, to calculate, to enumerate <br><br>(14:34) وَإِنْ تَعُدُّوا نِعْمَةَ اللَّهِ لاَ تُحْصُوهَا if you count God’s blessings you will never [be able to] enumerate them <br><br><strong>3 </strong>to comprehend <br><br>(19:93–4) لَقَدْ أَحْصَاهُمْ وَعَدَّهُمْ عَدًّا He has comprehended them and counted them exactly <br><br><strong>4 </strong>to bear; keep count of <br><br>(73:20) إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَى مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْءَانِ [Prophet] your Lord knows that you [sometimes] stay up [praying] nearly two thirds of the night, and [sometimes] half the night, and [sometimes] a third of the night–as do a party of those with you– it is God who determines the [division of] night and day–He knows that you will not bear it [staying up all night] (or, maintains all of it [the hours of the night]) and He has relented towards you, so recite as much of the Qur’an as is feasible.",
+    "mainEntryId": "wdef-ح-ص-ي.أَحْصى",
+    "entries": [
+      {
+        "id": "wdef-ح-ص-ي",
+        "label": "ح-ص-ي",
+        "definitionHtml": "ح/ص/ي   ḥ–ṣ–y pebbles, to count; to comprehend; to keep, to stick with; mind, discerning faculty; ability to express oneself clearly. <br><br>Of this root, 2 forms occur 11 times in the Qur’an:<br> أَحْصى (1) ʾaḥṣā 10 times and أَحْصى (2) ʾaḥṣā 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ي.أَحْصى",
+        "label": "أَحْصى",
+        "definitionHtml": "أَحْصى (1) ʾaḥṣā [v. IV, trans.] <br><br><strong>1 </strong>to keep a record of, to record <br><br>(36:12) وَكُلَّ شَيْءٍ أحْصَيْنَاهُ فِى إِمَامٍ مُبِينٍ and everything We keep an account of in a clear Record <br><br><strong>2 </strong>to reckon, to calculate, to enumerate <br><br>(14:34) وَإِنْ تَعُدُّوا نِعْمَةَ اللَّهِ لاَ تُحْصُوهَا if you count God’s blessings you will never [be able to] enumerate them <br><br><strong>3 </strong>to comprehend <br><br>(19:93–4) لَقَدْ أَحْصَاهُمْ وَعَدَّهُمْ عَدًّا He has comprehended them and counted them exactly <br><br><strong>4 </strong>to bear; keep count of <br><br>(73:20) إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَى مِنْ ثُلُثَيِ اللَّيْلِ وَنِصْفَهُ وَثُلُثَهُ وَطَائِفَةٌ مِنَ الَّذِينَ مَعَكَ وَاللَّهُ يُقَدِّرُ اللَّيْلَ وَالنَّهَارَ عَلِمَ أَنْ لَنْ تُحْصُوهُ فَتَابَ عَلَيْكُمْ فَاقْرَءُوا مَا تَيَسَّرَ مِنَ الْقُرْءَانِ [Prophet] your Lord knows that you [sometimes] stay up [praying] nearly two thirds of the night, and [sometimes] half the night, and [sometimes] a third of the night–as do a party of those with you– it is God who determines the [division of] night and day–He knows that you will not bear it [staying up all night] (or, maintains all of it [the hours of the night]) and He has relented towards you, so recite as much of the Qur’an as is feasible.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ص-ي.أَحْصَى",
+        "label": "أَحْصَى",
+        "definitionHtml": "أَحْصَى (2) ʾaḥṣā [elat.] more/most capable of calculating or reckoning or working out <br><br>(18:12) ثُمَّ بَعَثْنَاهُمْ لِنَعْلَمَ أَيُّ الْحِزْبَيْنِ أَحْصَى لِمَا لَبِثُوا أَمَدًا then We woke them that We may know which of the two parties was better able to calculate the period they had remained [in the cave].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:08.257Z",
+      "refword": "14:34:11",
+      "lexword": "تُحْصُوهَآ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "مير",
+  "rootArabic": "مير",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَمِير",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَمِير",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 65,
+      "text": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ۖ ذَٰلِكَ كَيْلٌ يَسِيرٌ",
+      "highlightedHtml": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ <a class=\"highlight-text\">وَنَمِيرُ</a> أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ۖ ذَٰلِكَ كَيْلٌ يَسِيرٌ",
+      "derivedForms": [
+        "نَمِير"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:52.595Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural imperfect verb",
+    "derivativeNote": "وَنَمِيرُ is in the derivative form: نَمِير",
+    "rootDefinitionHtml": "م/ي/ر   m–y–r food stock, provision, to provide with food, to keep well‐stocked/supplied with food; to melt down. Of this root, only نَمِير namır occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَمِير namır [imperf. of v. مَارَ māra, trans.] to provide with food, to stock with provisions <br><br>(12:65) وَنَمِيرُ أَهْلَنَا and we will get provisions for our household.",
+    "mainEntryId": "wdef-م-ي-ر.نَمِير",
+    "entries": [
+      {
+        "id": "wdef-م-ي-ر",
+        "label": "م-ي-ر",
+        "definitionHtml": "م/ي/ر   m–y–r food stock, provision, to provide with food, to keep well‐stocked/supplied with food; to melt down. Of this root, only نَمِير namır occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-ر.نَمِير",
+        "label": "نَمِير",
+        "definitionHtml": "نَمِير namır [imperf. of v. مَارَ māra, trans.] to provide with food, to stock with provisions <br><br>(12:65) وَنَمِيرُ أَهْلَنَا and we will get provisions for our household.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:02.421Z",
+      "refword": "12:65:16",
+      "lexword": "وَنَمِيرُ"
+    }
+  }
+}

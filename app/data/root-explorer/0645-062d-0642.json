@@ -1,0 +1,95 @@
+{
+  "root": "محق",
+  "rootArabic": "محق",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَمْحَق",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَمْحَق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَمْحَق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 276,
+      "text": "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَمْحَقُ</a> ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+      "derivedForms": [
+        "يَمْحَق"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 141,
+      "text": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَيَمْحَقَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ آمَنُوا <a class=\"highlight-text\">وَيَمْحَقَ</a> ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "يَمْحَق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:05.181Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَمْحَقُ is in the derivative form: يَمْحَق",
+    "rootDefinitionHtml": "م/ح/ق   m–ḥ–q waning of the moon, moonless nights; to diminish, to blot out, to eradicate; to uproot, to annihilate; sharp blade. Of this root, only يَمْحَق yamḥaq, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَمْحَق yamḥaq [imperf. of v. محق maḥaqa, trans.] <br><br><strong>1 </strong>to eradicate, to vanquish <br><br>(3:141) ‏وَيَمْحَقَ‏ ‏الْكَافِرِينَ‏ and He vanquishes the disbelievers <br><br><strong>2 </strong>to cause to decrease, to diminish, to blight <br><br>(2:276) يَمْحَقُ‏ ‏اللَّهُ‏ ‏الرِّبَا‏ ‏وَيُرْبِي‏ ‏الصَّدَقَاتِ‏ God blights usury, but blesses charitable deeds [with multiple increase].",
+    "mainEntryId": "wdef-م-ح-ق.يَمْحَق",
+    "entries": [
+      {
+        "id": "wdef-م-ح-ق",
+        "label": "م-ح-ق",
+        "definitionHtml": "م/ح/ق   m–ḥ–q waning of the moon, moonless nights; to diminish, to blot out, to eradicate; to uproot, to annihilate; sharp blade. Of this root, only يَمْحَق yamḥaq, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ح-ق.يَمْحَق",
+        "label": "يَمْحَق",
+        "definitionHtml": "يَمْحَق yamḥaq [imperf. of v. محق maḥaqa, trans.] <br><br><strong>1 </strong>to eradicate, to vanquish <br><br>(3:141) ‏وَيَمْحَقَ‏ ‏الْكَافِرِينَ‏ and He vanquishes the disbelievers <br><br><strong>2 </strong>to cause to decrease, to diminish, to blight <br><br>(2:276) يَمْحَقُ‏ ‏اللَّهُ‏ ‏الرِّبَا‏ ‏وَيُرْبِي‏ ‏الصَّدَقَاتِ‏ God blights usury, but blesses charitable deeds [with multiple increase].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:28.854Z",
+      "refword": "2:276:1",
+      "lexword": "يَمْحَقُ"
+    }
+  }
+}

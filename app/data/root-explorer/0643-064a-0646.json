@@ -1,0 +1,95 @@
+{
+  "root": "كين",
+  "rootArabic": "كين",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اِسْتَكَانَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِسْتَكَانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِسْتَكَانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 146,
+      "text": "وَكَأَيِّن مِّن نَّبِىٍّ قَٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا ٱسْتَكَانُوا۟ ۗ وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "وَكَأَيِّن مِّن نَّبِىٍّ قَٰتَلَ مَعَهُۥ رِبِّيُّونَ كَثِيرٌ فَمَا وَهَنُوا۟ لِمَآ أَصَابَهُمْ فِى سَبِيلِ ٱللَّهِ وَمَا ضَعُفُوا۟ وَمَا <a class=\"highlight-text\">ٱسْتَكَانُوا۟</a> ۗ وَٱللَّهُ يُحِبُّ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "اِسْتَكَانَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 76,
+      "text": "وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ",
+      "highlightedHtml": "وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا <a class=\"highlight-text\">ٱسْتَكَانُوا۟</a> لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ",
+      "derivedForms": [
+        "اِسْتَكَانَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:19.118Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form X) perfect verb",
+    "derivativeNote": "ٱسْتَكَانُوا۟ is in the derivative form: اِسْتَكَانَ",
+    "rootDefinitionHtml": "ك/ي/ن   k–y–n the substantive word for ‘clitoris’, كَيْن kayn, seems to be the source from which this root is derived. The word اِسْتَكَانَ ʾistakāna, to be humbled, to become abased, to abase oneself, which is derived from this root, is also considered by some scholars to be a derivative from the root ن/ك/س s–k–n or ن/و/ ك k–w–n. Such confusion is characteristically common in the case of roots with weak radicals. Of this root, اِسْتَكَانُوا ʾistakānū occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "اِسْتَكَانَ ʾistakāna [v. X, intrans.] to abase oneself, to humble oneself, to submit to greater power <br><br>(23:76) وَلَقَدْ أَخَذْنَاهُمْ بِالْعَذَابِ فَمَا اسْتَكَانُوا لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ We have already tried them with torment, yet they did not submit to their Lord: and they do not plead for mercy.",
+    "mainEntryId": "wdef-ك-ي-ن.اِسْتَكَانَ",
+    "entries": [
+      {
+        "id": "wdef-ك-ي-ن",
+        "label": "ك-ي-ن",
+        "definitionHtml": "ك/ي/ن   k–y–n the substantive word for ‘clitoris’, كَيْن kayn, seems to be the source from which this root is derived. The word اِسْتَكَانَ ʾistakāna, to be humbled, to become abased, to abase oneself, which is derived from this root, is also considered by some scholars to be a derivative from the root ن/ك/س s–k–n or ن/و/ ك k–w–n. Such confusion is characteristically common in the case of roots with weak radicals. Of this root, اِسْتَكَانُوا ʾistakānū occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ي-ن.اِسْتَكَانَ",
+        "label": "اِسْتَكَانَ",
+        "definitionHtml": "اِسْتَكَانَ ʾistakāna [v. X, intrans.] to abase oneself, to humble oneself, to submit to greater power <br><br>(23:76) وَلَقَدْ أَخَذْنَاهُمْ بِالْعَذَابِ فَمَا اسْتَكَانُوا لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ We have already tried them with torment, yet they did not submit to their Lord: and they do not plead for mercy.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:55.846Z",
+      "refword": "3:146:18",
+      "lexword": "ٱسْتَكَانُوا۟"
+    }
+  }
+}

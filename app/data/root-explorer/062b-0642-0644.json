@@ -1,0 +1,614 @@
+{
+  "root": "ثقل",
+  "rootArabic": "ثقل",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 8,
+    "surahCount": 19,
+    "ayahCount": 26
+  },
+  "derivatives": [
+    {
+      "form": "مِثْقَالٌ",
+      "count": 8
+    },
+    {
+      "form": "أَثْقَالٌ",
+      "count": 5
+    },
+    {
+      "form": "ثَقِيلٌ",
+      "count": 5
+    },
+    {
+      "form": "ثَقُلَ",
+      "count": 4
+    },
+    {
+      "form": "مُثْقَلَةٌ",
+      "count": 3
+    },
+    {
+      "form": "اثَّاقَلَ",
+      "count": 1
+    },
+    {
+      "form": "أَثْقَلَتْ",
+      "count": 1
+    },
+    {
+      "form": "الثَّقَلاَن",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "ثَقُلَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "أَثْقَلَتْ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ثَقِيلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اثَّاقَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ثَقِيلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَقِيلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَقُلَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَثْقَالٌ",
+          "count": 3,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُثْقَلَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُثْقَلَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الثَّقَلاَن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُثْقَلَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَقِيلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَقِيلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 99,
+      "surahName": "Al-Zilzal",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مِثْقَالٌ",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "أَثْقَالٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثَقُلَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 40,
+      "text": "إِنَّ ٱللَّهَ لَا يَظْلِمُ مِثْقَالَ ذَرَّةٍ ۖ وَإِن تَكُ حَسَنَةً يُضَٰعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًا",
+      "highlightedHtml": "إِنَّ ٱللَّهَ لَا يَظْلِمُ <a class=\"highlight-text\">مِثْقَالَ</a> ذَرَّةٍ ۖ وَإِن تَكُ حَسَنَةً يُضَٰعِفْهَا وَيُؤْتِ مِن لَّدُنْهُ أَجْرًا عَظِيمًا",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 8,
+      "text": "وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن <a class=\"highlight-text\">ثَقُلَتْ</a> مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "ثَقُلَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 57,
+      "text": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا <a class=\"highlight-text\">ثِقَالًا</a> سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "ثَقِيلٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 187,
+      "text": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ <a class=\"highlight-text\">ثَقُلَتْ</a> فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "ثَقُلَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 189,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ <a class=\"highlight-text\">أَثْقَلَت</a> دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "أَثْقَلَتْ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 38,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ ٱثَّاقَلْتُمْ إِلَى ٱلْأَرْضِ ۚ أَرَضِيتُم بِٱلْحَيَوٰةِ ٱلدُّنْيَا مِنَ الْآخِرَةِ ۚ فَمَا مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا فِى الْآخِرَةِ إِلَّا قَلِيلٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَا لَكُمْ إِذَا قِيلَ لَكُمُ ٱنفِرُوا۟ فِى سَبِيلِ ٱللَّهِ <a class=\"highlight-text\">ٱثَّاقَلْتُمْ</a> إِلَى ٱلْأَرْضِ ۚ أَرَضِيتُم بِٱلْحَيَوٰةِ ٱلدُّنْيَا مِنَ الْآخِرَةِ ۚ فَمَا مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا فِى الْآخِرَةِ إِلَّا قَلِيلٌ",
+      "derivedForms": [
+        "اثَّاقَلَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 41,
+      "text": "ٱنفِرُوا۟ خِفَافًا وَثِقَالًا وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "ٱنفِرُوا۟ خِفَافًا <a class=\"highlight-text\">وَثِقَالًا</a> وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "ثَقِيلٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 61,
+      "text": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن مِّثْقَالِ ذَرَّةٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن <a class=\"highlight-text\">مِّثْقَالِ</a> ذَرَّةٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 12,
+      "text": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنشِئُ ٱلسَّحَابَ ٱلثِّقَالَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنشِئُ ٱلسَّحَابَ <a class=\"highlight-text\">ٱلثِّقَالَ</a>",
+      "derivedForms": [
+        "ثَقِيلٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 7,
+      "text": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَتَحْمِلُ <a class=\"highlight-text\">أَثْقَالَكُمْ</a> إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "أَثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 47,
+      "text": "وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْـًٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ",
+      "highlightedHtml": "وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْـًٔا ۖ وَإِن كَانَ <a class=\"highlight-text\">مِثْقَالَ</a> حَبَّةٍ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 102,
+      "text": "فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "فَمَن <a class=\"highlight-text\">ثَقُلَتْ</a> مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "ثَقُلَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 13,
+      "text": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "وَلَيَحْمِلُنَّ <a class=\"highlight-text\">أَثْقَالَهُمْ</a> <a class=\"highlight-text\">وَأَثْقَالًا</a> مَّعَ <a class=\"highlight-text\">أَثْقَالِهِمْ</a> ۖ وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "أَثْقَالٌ",
+        "أَثْقَالٌ",
+        "أَثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 16,
+      "text": "يَٰبُنَىَّ إِنَّهَآ إِن تَكُ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
+      "highlightedHtml": "يَٰبُنَىَّ إِنَّهَآ إِن تَكُ <a class=\"highlight-text\">مِثْقَالَ</a> حَبَّةٍ مِّنْ خَرْدَلٍ فَتَكُن فِى صَخْرَةٍ أَوْ فِى ٱلسَّمَٰوَٰتِ أَوْ فِى ٱلْأَرْضِ يَأْتِ بِهَا ٱللَّهُ ۚ إِنَّ ٱللَّهَ لَطِيفٌ خَبِيرٌ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 3,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَأْتِينَا ٱلسَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّى لَتَأْتِيَنَّكُمْ عَٰلِمِ ٱلْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ مِثْقَالُ ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَلَآ أَصْغَرُ مِن ذَٰلِكَ وَلَآ أَكْبَرُ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَأْتِينَا ٱلسَّاعَةُ ۖ قُلْ بَلَىٰ وَرَبِّى لَتَأْتِيَنَّكُمْ عَٰلِمِ ٱلْغَيْبِ ۖ لَا يَعْزُبُ عَنْهُ <a class=\"highlight-text\">مِثْقَالُ</a> ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَلَآ أَصْغَرُ مِن ذَٰلِكَ وَلَآ أَكْبَرُ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 22,
+      "text": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ <a class=\"highlight-text\">مِثْقَالَ</a> ذَرَّةٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 18,
+      "text": "وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۚ وَإِن تَدْعُ مُثْقَلَةٌ إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۚ وَإِن تَدْعُ <a class=\"highlight-text\">مُثْقَلَةٌ</a> إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "مُثْقَلَةٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 40,
+      "text": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
+      "highlightedHtml": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ <a class=\"highlight-text\">مُّثْقَلُونَ</a>",
+      "derivedForms": [
+        "مُثْقَلَةٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 31,
+      "text": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ",
+      "highlightedHtml": "سَنَفْرُغُ لَكُمْ أَيُّهَ <a class=\"highlight-text\">ٱلثَّقَلَانِ</a>",
+      "derivedForms": [
+        "الثَّقَلاَن"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 46,
+      "text": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ مُّثْقَلُونَ",
+      "highlightedHtml": "أَمْ تَسْـَٔلُهُمْ أَجْرًا فَهُم مِّن مَّغْرَمٍ <a class=\"highlight-text\">مُّثْقَلُونَ</a>",
+      "derivedForms": [
+        "مُثْقَلَةٌ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 5,
+      "text": "إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًا ثَقِيلًا",
+      "highlightedHtml": "إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًا <a class=\"highlight-text\">ثَقِيلًا</a>",
+      "derivedForms": [
+        "ثَقِيلٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 27,
+      "text": "إِنَّ هَٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا ثَقِيلًا",
+      "highlightedHtml": "إِنَّ هَٰٓؤُلَآءِ يُحِبُّونَ ٱلْعَاجِلَةَ وَيَذَرُونَ وَرَآءَهُمْ يَوْمًا <a class=\"highlight-text\">ثَقِيلًا</a>",
+      "derivedForms": [
+        "ثَقِيلٌ"
+      ]
+    },
+    {
+      "surah": 99,
+      "ayah": 2,
+      "text": "وَأَخْرَجَتِ ٱلْأَرْضُ أَثْقَالَهَا",
+      "highlightedHtml": "وَأَخْرَجَتِ ٱلْأَرْضُ <a class=\"highlight-text\">أَثْقَالَهَا</a>",
+      "derivedForms": [
+        "أَثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 99,
+      "ayah": 7,
+      "text": "فَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "highlightedHtml": "فَمَن يَعْمَلْ <a class=\"highlight-text\">مِثْقَالَ</a> ذَرَّةٍ خَيْرًا يَرَهُۥ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 99,
+      "ayah": 8,
+      "text": "وَمَن يَعْمَلْ مِثْقَالَ ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "highlightedHtml": "وَمَن يَعْمَلْ <a class=\"highlight-text\">مِثْقَالَ</a> ذَرَّةٍ شَرًّا يَرَهُۥ",
+      "derivedForms": [
+        "مِثْقَالٌ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 6,
+      "text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "highlightedHtml": "فَأَمَّا مَن <a class=\"highlight-text\">ثَقُلَتْ</a> مَوَٰزِينُهُۥ",
+      "derivedForms": [
+        "ثَقُلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:39.961Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "مِثْقَالَ is in the derivative form: مِثْقَالٌ",
+    "rootDefinitionHtml": "ث/ق/ل   th–q–l weight, to weigh, heavy, loads<br>; sin, responsibility; to find heavy, to become reluctant, to find burdensome; to oppress, to distress; phlegmatic, dull. <br><br>Of this root, 10 forms occur 28 times in the Qur’an:<br> ثَقُلَ thaqula 4 times; أَثْقَلَتْ ʾathqalat 1 time; اثَّاقَلَ ʾiththāqala 1 time; ثَقِيلٌ thaqıl 2 times; ثِقَالٌ thiqāl 3 times; مُثْقَلَةٌ muthqalatun 1 time; مُثْقَلُون muthqalūn 2 times; الثَّقَلاَنِ ʾal‐thaqalān 1 time; أَثْقَالٌ ʾathqāl 5 times and مِثْقَالٌ mithqāl 8 times.",
+    "mainDefinitionHtml": "مِثْقَالٌ mithqāl [n.] a weight <br><br>(4:40) إِنَّ اللَّهَ لاَ يَظْلِمُ مِثْقَالَ ذَرَّةٍ God does not wrong [anyone] by as much as the weight of a speck of dust/an ant.",
+    "mainEntryId": "wdef-ث-ق-ل.مِثْقَالٌ",
+    "entries": [
+      {
+        "id": "wdef-ث-ق-ل",
+        "label": "ث-ق-ل",
+        "definitionHtml": "ث/ق/ل   th–q–l weight, to weigh, heavy, loads<br>; sin, responsibility; to find heavy, to become reluctant, to find burdensome; to oppress, to distress; phlegmatic, dull. <br><br>Of this root, 10 forms occur 28 times in the Qur’an:<br> ثَقُلَ thaqula 4 times; أَثْقَلَتْ ʾathqalat 1 time; اثَّاقَلَ ʾiththāqala 1 time; ثَقِيلٌ thaqıl 2 times; ثِقَالٌ thiqāl 3 times; مُثْقَلَةٌ muthqalatun 1 time; مُثْقَلُون muthqalūn 2 times; الثَّقَلاَنِ ʾal‐thaqalān 1 time; أَثْقَالٌ ʾathqāl 5 times and مِثْقَالٌ mithqāl 8 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.مِثْقَالٌ",
+        "label": "مِثْقَالٌ",
+        "definitionHtml": "مِثْقَالٌ mithqāl [n.] a weight <br><br>(4:40) إِنَّ اللَّهَ لاَ يَظْلِمُ مِثْقَالَ ذَرَّةٍ God does not wrong [anyone] by as much as the weight of a speck of dust/an ant.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ث-ق-ل.أَثْقَالٌ",
+        "label": "أَثْقَالٌ",
+        "definitionHtml": "أَثْقَالٌ ʾathqāl [pl. of n. ثِقَلٌ thiqal] a load, a burden <br><br>(16:7) وَتَحْمِلُ أَثْقَالَكُمْ إِلَى بَلَدٍ لَمْ تَكُونُوا بَالِغِيهِ إِلاَّ بِشِقِّ الأَنْفُسِ and they carry your burdens to a land you could not reach without great hardship.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.أَثْقَلَتْ",
+        "label": "أَثْقَلَتْ",
+        "definitionHtml": "أَثْقَلَتْ ʾathqalat [v. IV, intrans.] (of a pregnant woman) to become heavy with child <br><br>(7:189) فَلَمَّا تَغَشَّاهَا حَمَلَتْ حَمْلاً خَفِيفًا فَمَرَّتْ بِهِ فَلَمَّا أَثْقَلَتْ دَعَوَا اللَّهَ رَبَّهُمَا لَئِنْ ءَاتَيْتَنَا صَالِحًا لَنَكُونَنَّ مِنَ الشَّاكِرِينَ and when he covered her she bore a light pregnancy, and she passed by with it [unnoticed], but when she became heavy, they both prayed to God, their Lord, ‘If You give us a righteous [son] we shall certainly be of the thankful.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.اثَّاقَلَ",
+        "label": "اثَّاقَلَ",
+        "definitionHtml": "اثَّاقَلَ ʾiththāqala [an assimilated form of v. VI تَثَاقَلَ tathāqala, intrans.] to become reluctant *<br><br>(9:38) اثَّاقَلْتُمْ إِلَى الأَرْضِ you show great reluctance to move [lit. you inclined heavily towards the earth].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.الثَّقَلاَن",
+        "label": "الثَّقَلاَن",
+        "definitionHtml": "الثَّقَلاَن ʾal‐thaqalān [dual of n. ثَقَلٌ thaqal] eminence, importance; most commentators interpret this as the parallel worlds of humans and jinn <br><br>(55:31) سَنَفْرُغُ لَكُمْ أَيُّهَا الثَّقَلاَنِ We shall take you to task [lit. free Ourselves exclusively to you] two masses of jinn and humankind [lit. two weighty entities].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.ثَقُلَ",
+        "label": "ثَقُلَ",
+        "definitionHtml": "ثَقُلَ thaqula u [v. intrans.] <br><br><strong>1 </strong>to be of heavy weight, to weigh heavily on the scales <br><br>(101:6) فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ as for the one whose good deeds [lit. scales] weigh heavily <br><br><strong>2 </strong>to be serious, to be burdensome, to be momentous <br><br>(7:187) يَسْأَلُونَكَ عَنِ السَّاعَةِ أَيَّانَ مُرْسَاهَا قُلْ إِنَّمَا عِلْمُهَا عِنْدَ رَبِّي لاَ يُجَلِّيهَا لِوَقْتِهَا إِلاَّ هُوَ ثَقُلَتْ فِى السَّمَوَاتِ وَالأَرْضِ they question you [Prophet] about the Hour, ‘When is its arrival [lit. coming to port]?’ Say, ‘The knowledge of it is only with My Lord: None but He will manifest it at its due time, it [the knowledge of it or expecting it] has become burdensome in the heavens and the earth.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.ثَقِيلٌ",
+        "label": "ثَقِيلٌ",
+        "definitionHtml": "ثَقِيلٌ thaqıl [quasi act. part., pl. ثِقَالٌ thiqāl] <br><br><strong>1 </strong>heavy, burdensome <br><br>(76:27) إِنَّ هَؤُلاَءِ يُحِبُّونَ الْعَاجِلَةَ وَيَذَرُونَ وَرَاءَهُمْ يَوْمًا ثَقِيلاً these [people] love the immediate life, and put behind them [all thoughts of] the Day of Reckoning [lit. a Heavy Day] <br><br><strong>2 </strong>momentous, weighty <br><br>(73:5) إِنَّا سَنُلْقِي عَلَيْكَ قَوْلاً ثَقِيلاً We shall cast upon you a weighty discourse <br><br><strong>3 </strong>heavily laden <br><br>(9:41) انْفِرُوا خِفَافًا وَثِقَالاً ٍso go forth, lightly and heavily [armed].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ق-ل.مُثْقَلَةٌ",
+        "label": "مُثْقَلَةٌ",
+        "definitionHtml": "مُثْقَلَةٌ muthqalatun [pass. part.; pl. مُثْقَلُون muthqalūn] one who is burdened, heavily laden <br><br>(68:46) أَمْ تَسْأَلُهُمْ أَجْرًا فَهُمْ مِنْ مَغْرَمٍ مُثْقَلُونَ or do you ask them for a wage and so they are burdened with a levied payment?; *<br><br>(35:18) وَإِنْ تَدْعُ مُثْقَلَةٌ إِلَى حِمْلِهَا لاَ يُحْمَلْ مِنْهُ شَيْءٌ and if a soul heavily‐laden [by sin] calls for its load [to be carried], not a thing of it will be carried.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:05.368Z",
+      "refword": "4:40:5",
+      "lexword": "مِثْقَالَ"
+    }
+  }
+}

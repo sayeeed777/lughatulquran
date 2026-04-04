@@ -1,0 +1,168 @@
+{
+  "root": "بور",
+  "rootArabic": "بور",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "بُورٌ",
+      "count": 2
+    },
+    {
+      "form": "يَبُورُ",
+      "count": 2
+    },
+    {
+      "form": "بَوَارٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَوَارٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُورٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَبُورُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُورٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 28,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ ٱلْبَوَارِ",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ بَدَّلُوا۟ نِعْمَتَ ٱللَّهِ كُفْرًا وَأَحَلُّوا۟ قَوْمَهُمْ دَارَ <a class=\"highlight-text\">ٱلْبَوَارِ</a>",
+      "derivedForms": [
+        "بَوَارٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 18,
+      "text": "قَالُوا۟ سُبْحَٰنَكَ مَا كَانَ يَنۢبَغِى لَنَآ أَن نَّتَّخِذَ مِن دُونِكَ مِنْ أَوْلِيَآءَ وَلَٰكِن مَّتَّعْتَهُمْ وَءَابَآءَهُمْ حَتَّىٰ نَسُوا۟ ٱلذِّكْرَ وَكَانُوا۟ قَوْمًۢا بُورًا",
+      "highlightedHtml": "قَالُوا۟ سُبْحَٰنَكَ مَا كَانَ يَنۢبَغِى لَنَآ أَن نَّتَّخِذَ مِن دُونِكَ مِنْ أَوْلِيَآءَ وَلَٰكِن مَّتَّعْتَهُمْ وَءَابَآءَهُمْ حَتَّىٰ نَسُوا۟ ٱلذِّكْرَ وَكَانُوا۟ قَوْمًۢا <a class=\"highlight-text\">بُورًا</a>",
+      "derivedForms": [
+        "بُورٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 10,
+      "text": "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ يَبُورُ",
+      "highlightedHtml": "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ <a class=\"highlight-text\">يَبُورُ</a>",
+      "derivedForms": [
+        "يَبُورُ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 29,
+      "text": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَٰرَةً لَّن تَبُورَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَٰرَةً لَّن <a class=\"highlight-text\">تَبُورَ</a>",
+      "derivedForms": [
+        "يَبُورُ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 12,
+      "text": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا بُورًا",
+      "highlightedHtml": "بَلْ ظَنَنتُمْ أَن لَّن يَنقَلِبَ ٱلرَّسُولُ وَٱلْمُؤْمِنُونَ إِلَىٰٓ أَهْلِيهِمْ أَبَدًا وَزُيِّنَ ذَٰلِكَ فِى قُلُوبِكُمْ وَظَنَنتُمْ ظَنَّ ٱلسَّوْءِ وَكُنتُمْ قَوْمًۢا <a class=\"highlight-text\">بُورًا</a>",
+      "derivedForms": [
+        "بُورٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:09.110Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "ٱلْبَوَارِ is in the derivative form: بَوَارٌ",
+    "rootDefinitionHtml": "ب/و/ر   b–w–r waste, uncultivated land<br>; demise, to perish; corrupt; stagnant; lazy; to test. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَبُورُ yabūr 2 times; بُورٌ būr 1 time and بَوَارٌ bawār 1 time.",
+    "mainDefinitionHtml": "بَوَارٌ bawār [v. n./n.] utter loss, condemnation, doom <br><br>(14:28) وَأَحَلُّوا قَوْمَهُمْ دَارَ الْبَوَارِ and cause their people to end up in the home of utter ruin.",
+    "mainEntryId": "wdef-ب-و-ر.بَوَارٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-و-ر",
+        "label": "ب-و-ر",
+        "definitionHtml": "ب/و/ر   b–w–r waste, uncultivated land<br>; demise, to perish; corrupt; stagnant; lazy; to test. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَبُورُ yabūr 2 times; بُورٌ būr 1 time and بَوَارٌ bawār 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-و-ر.بَوَارٌ",
+        "label": "بَوَارٌ",
+        "definitionHtml": "بَوَارٌ bawār [v. n./n.] utter loss, condemnation, doom <br><br>(14:28) وَأَحَلُّوا قَوْمَهُمْ دَارَ الْبَوَارِ and cause their people to end up in the home of utter ruin.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-و-ر.بُورٌ",
+        "label": "بُورٌ",
+        "definitionHtml": "بُورٌ būr [pl. of act. part. بَائِرٌ bāʾir; v. n. functioning as quasi‐act. part.] lost, ruined, condemned <br><br>(25:18) حَتَّى نَسُوا الذِّكْرَ وَكَانُوا قَوْمًا بُورًا until they forgot the Reminder and were people ruined.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-و-ر.يَبُورُ",
+        "label": "يَبُورُ",
+        "definitionHtml": "يَبُورُ yabūr [imperf. of v. بَارَ bāra, intrans.] <br><br><strong>1 </strong>to perish, to meet with a bad end, to come to nothing <br><br>(35:10) لَهُمْ عَذَابٌ شَدِيدٌ وَمَكْرُ أُولَئِكَ هُوَ يَبُورُ for them is a severe chastisement, and the plotting of such will come to nothing <br><br><strong>2 </strong>(of trade) to be stagnant, to be unprofitable, to decline <br><br>(35:29) يَرْجُونَ تِجَارَةً لَنْ تَبُورَ in the hope of a trade that will never decline.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:06.727Z",
+      "refword": "14:28:12",
+      "lexword": "ٱلْبَوَارِ"
+    }
+  }
+}

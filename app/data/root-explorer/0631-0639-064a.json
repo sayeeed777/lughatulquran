@@ -1,0 +1,303 @@
+{
+  "root": "رعي",
+  "rootArabic": "رعي",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 6,
+    "surahCount": 9,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "رَاعِنَا",
+      "count": 2
+    },
+    {
+      "form": "رَاعُون",
+      "count": 2
+    },
+    {
+      "form": "رَعَى",
+      "count": 2
+    },
+    {
+      "form": "مَرْعَى",
+      "count": 2
+    },
+    {
+      "form": "رِعَاءٌ",
+      "count": 1
+    },
+    {
+      "form": "رِعَايَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاعِنَا",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاعِنَا",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاعُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رِعَاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رِعَايَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "رَعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاعُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 104,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقُولُوا۟ رَٰعِنَا وَقُولُوا۟ ٱنظُرْنَا وَٱسْمَعُوا۟ ۗ وَلِلْكَٰفِرِينَ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقُولُوا۟ <a class=\"highlight-text\">رَٰعِنَا</a> وَقُولُوا۟ ٱنظُرْنَا وَٱسْمَعُوا۟ ۗ وَلِلْكَٰفِرِينَ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "رَاعِنَا"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 46,
+      "text": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا لَيًّۢا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ <a class=\"highlight-text\">وَرَٰعِنَا</a> لَيًّۢا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "رَاعِنَا"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 54,
+      "text": "كُلُوا۟ وَٱرْعَوْا۟ أَنْعَٰمَكُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "highlightedHtml": "كُلُوا۟ <a class=\"highlight-text\">وَٱرْعَوْا۟</a> أَنْعَٰمَكُمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "derivedForms": [
+        "رَعَى"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 8,
+      "text": "وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ <a class=\"highlight-text\">رَٰعُونَ</a>",
+      "derivedForms": [
+        "رَاعُون"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 23,
+      "text": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "highlightedHtml": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ <a class=\"highlight-text\">ٱلرِّعَآءُ</a> ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "derivedForms": [
+        "رِعَاءٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا <a class=\"highlight-text\">رَعَوْهَا</a> حَقَّ <a class=\"highlight-text\">رِعَايَتِهَا</a> ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "رَعَى",
+        "رِعَايَةٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 32,
+      "text": "وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُمْ لِأَمَٰنَٰتِهِمْ وَعَهْدِهِمْ <a class=\"highlight-text\">رَٰعُونَ</a>",
+      "derivedForms": [
+        "رَاعُون"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 31,
+      "text": "أَخْرَجَ مِنْهَا مَآءَهَا وَمَرْعَىٰهَا",
+      "highlightedHtml": "أَخْرَجَ مِنْهَا مَآءَهَا <a class=\"highlight-text\">وَمَرْعَىٰهَا</a>",
+      "derivedForms": [
+        "مَرْعَى"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 4,
+      "text": "وَٱلَّذِىٓ أَخْرَجَ ٱلْمَرْعَىٰ",
+      "highlightedHtml": "وَٱلَّذِىٓ أَخْرَجَ <a class=\"highlight-text\">ٱلْمَرْعَىٰ</a>",
+      "derivedForms": [
+        "مَرْعَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:29.827Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form III) imperative verb",
+    "derivativeNote": "رَٰعِنَا is in the derivative form: رَاعِنَا",
+    "rootDefinitionHtml": "ر/ع/ي   r–ʿ–y pasture, grazing land, to graze, shepherd, to shepherd<br>; to guard, to watch over, to observe, guardianship, to manage; to abide, to heed advice, to mend one’s ways. The word رَاعِنَا rāʿinā, classified under this root, is considered to be homophonous with a Hebrew word, meaning ‘evil’, but not a borrowing from it. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> رَعَى raʿā 2 times; رَاعِنَا rāʿinā 2 times; رَاعُون rāʿūn 2 times; رِعَايَةٌ riʿāyatun 1 time; رِعَاءٌ riʿāʾ 1 time and مَرْعَى marʿā 2 times.",
+    "mainDefinitionHtml": "رَاعِنَا rāʿinā I [a phrase, consisting of imper. v. رَاعِ rāʿi, ‘regard’ or the n. رَاعِى, ‘shepherd’ + the pronom. suffix نَا, ‘us’ or ‘our’] (a form of address coined by the Companions of the Prophet which they used in addressing him and which happened to be somewhat homophonous with a Hebrew word meaning ‘evil’; the Muslims therefore were cautioned against using the expression) ‘regard us’, ‘look at us’, ‘listen to us’, ‘have care for us’; our shepherd <br><br>(2:104) يَاأَيُّهَا الَّذِينَ ءَامَنُوا لاَ تَقُولُوا رَاعِنَا وَقُولُوا انْظُرْنَا believers, do not say [to the Prophet] ‘rāʿinā’, but say ‘ʾunẓurnā’ II [either an act. part. from v. رَعُنَ raʿuna, to be foolish, to be unsteady; or an utterance somewhat homophonous with the Arabic phrase رَاعِنَا rāʿinā and also a Hebrew word derived from the root meaning ‘evil’] (taking advantage of the Muslims’ use of رَاعِنَا rāʿinā in addressing the Prophet (sense I, above), certain members of the Jewish community at the time saw an opportunity to mock the Prophet, by using this homophonous Hebrew word in addressing him themselves) ‘you foolish one!’; ‘you evil one!’ <br><br>(4:46) مِنَ الَّذِينَ هَادُوا يُحَرِّفُونَ الْكَلِمَ عَنْ مَوَاضِعِهِ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَاسْمَعْ غَيْرَ مُسْمَعٍ وَرَاعِنَا لَيًّا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى الدِّينِ some of those who are Jews distort words from their contexts: they say, ‘We hear and disobey’, and ‘Listen’ [adding the insult] ‘may you not hear’, and [they say] ‘rāʿinā’ (originally meaning ‘look after us’, or ‘our Shepherd’), twisting it abusively with their tongues [so as to mean: ‘you foolish one!’ or ‘you evil one’] so as to disparage the religion.",
+    "mainEntryId": "wdef-ر-ع-ي.رَاعِنَا",
+    "entries": [
+      {
+        "id": "wdef-ر-ع-ي",
+        "label": "ر-ع-ي",
+        "definitionHtml": "ر/ع/ي   r–ʿ–y pasture, grazing land, to graze, shepherd, to shepherd<br>; to guard, to watch over, to observe, guardianship, to manage; to abide, to heed advice, to mend one’s ways. The word رَاعِنَا rāʿinā, classified under this root, is considered to be homophonous with a Hebrew word, meaning ‘evil’, but not a borrowing from it. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> رَعَى raʿā 2 times; رَاعِنَا rāʿinā 2 times; رَاعُون rāʿūn 2 times; رِعَايَةٌ riʿāyatun 1 time; رِعَاءٌ riʿāʾ 1 time and مَرْعَى marʿā 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ع-ي.رَاعِنَا",
+        "label": "رَاعِنَا",
+        "definitionHtml": "رَاعِنَا rāʿinā I [a phrase, consisting of imper. v. رَاعِ rāʿi, ‘regard’ or the n. رَاعِى, ‘shepherd’ + the pronom. suffix نَا, ‘us’ or ‘our’] (a form of address coined by the Companions of the Prophet which they used in addressing him and which happened to be somewhat homophonous with a Hebrew word meaning ‘evil’; the Muslims therefore were cautioned against using the expression) ‘regard us’, ‘look at us’, ‘listen to us’, ‘have care for us’; our shepherd <br><br>(2:104) يَاأَيُّهَا الَّذِينَ ءَامَنُوا لاَ تَقُولُوا رَاعِنَا وَقُولُوا انْظُرْنَا believers, do not say [to the Prophet] ‘rāʿinā’, but say ‘ʾunẓurnā’ II [either an act. part. from v. رَعُنَ raʿuna, to be foolish, to be unsteady; or an utterance somewhat homophonous with the Arabic phrase رَاعِنَا rāʿinā and also a Hebrew word derived from the root meaning ‘evil’] (taking advantage of the Muslims’ use of رَاعِنَا rāʿinā in addressing the Prophet (sense I, above), certain members of the Jewish community at the time saw an opportunity to mock the Prophet, by using this homophonous Hebrew word in addressing him themselves) ‘you foolish one!’; ‘you evil one!’ <br><br>(4:46) مِنَ الَّذِينَ هَادُوا يُحَرِّفُونَ الْكَلِمَ عَنْ مَوَاضِعِهِ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَاسْمَعْ غَيْرَ مُسْمَعٍ وَرَاعِنَا لَيًّا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى الدِّينِ some of those who are Jews distort words from their contexts: they say, ‘We hear and disobey’, and ‘Listen’ [adding the insult] ‘may you not hear’, and [they say] ‘rāʿinā’ (originally meaning ‘look after us’, or ‘our Shepherd’), twisting it abusively with their tongues [so as to mean: ‘you foolish one!’ or ‘you evil one’] so as to disparage the religion.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ع-ي.رِعَايَةٌ",
+        "label": "رِعَايَةٌ",
+        "definitionHtml": "رِعَايَةٌ riʿāyatun [v. n.; n.] caring, observing, honouring, fulfilling <br><br>(57:27) وَرَهْبَانِيَّةً ابْتَدَعُوهَا مَا كَتَبْنَاهَا عَلَيْهِمْ إِلاَّ ابْتِغَاءَ رِضْوَانِ اللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا and monasticism they have invented–We did not ordain it for them, only seeking God’s pleasure–but they did not observe it with the observance due to it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ع-ي.رَاعُون",
+        "label": "رَاعُون",
+        "definitionHtml": "رَاعُون rāʿūn [pl. of act. part. رَاعِي rāʿı] shepherd; one who observes, fulfils, honours <br><br>(23:8) وَالَّذِينَ هُمْ لأَِمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ those who are faithful to their trusts and pledges.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ع-ي.رَعَى",
+        "label": "رَعَى",
+        "definitionHtml": "رَعَى raʿā ā [v. trans.] <br><br><strong>1 </strong>observe, to give something its rightful dues, to regard in the right spirits, to see something in the right light <br><br>(57:27) وَرَهْبَانِيَّةً ابْتَدَعُوهَا مَا كَتَبْنَاهَا عَلَيْهِمْ إِلاَّ ابْتِغَاءَ رِضْوَانِ اللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا and monasticism they have invented–which We did not ordain for them, [they did that] only seeking God’s pleasure–but they did not observe it with the observance due to it <br><br><strong>2 </strong>to graze, to pasture, to feed <br><br>(20:54) كُلُوا وَارْعَوْا أَنْعَامَكُمْ so eat, and pasture your cattle.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ع-ي.رِعَاءٌ",
+        "label": "رِعَاءٌ",
+        "definitionHtml": "رِعَاءٌ riʿāʾ [pl. of n. rāʿı] specifically signifying herds or flocks of sheep; shepherds, those grazing animals on open land <br><br>(28:23) قَالَتَا لاَ نَسْقِي حَتَّى يُصْدِرَ الرِّعَاءُ they said, ‘We do not water [our flock] until the shepherds drive [their flocks] away.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ع-ي.مَرْعَى",
+        "label": "مَرْعَى",
+        "definitionHtml": "مَرْعَى marʿā [pass. part.; n.; n. of place] pasture; pasturage; place of pasture <br><br>(87:4) وَالَّذِي أَخْرَجَ الْمَرْعَى and who brought out the green pasture.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:06.955Z",
+      "refword": "2:104:6",
+      "lexword": "رَٰعِنَا"
+    }
+  }
+}

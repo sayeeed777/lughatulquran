@@ -1,0 +1,151 @@
+{
+  "root": "دلو",
+  "rootArabic": "دلو",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "أَدْلَى",
+      "count": 2
+    },
+    {
+      "form": "تَدَلَّى",
+      "count": 1
+    },
+    {
+      "form": "دَلْوٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْلَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْلَى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "دَلْوٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَدَلَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 188,
+      "text": "وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ <a class=\"highlight-text\">وَتُدْلُوا۟</a> بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "أَدْلَى"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 19,
+      "text": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ وَأَسَرُّوهُ بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ <a class=\"highlight-text\">فَأَدْلَىٰ</a> <a class=\"highlight-text\">دَلْوَهُۥ</a> ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ وَأَسَرُّوهُ بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "أَدْلَى",
+        "دَلْوٌ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 8,
+      "text": "ثُمَّ دَنَا فَتَدَلَّىٰ",
+      "highlightedHtml": "ثُمَّ دَنَا <a class=\"highlight-text\">فَتَدَلَّىٰ</a>",
+      "derivedForms": [
+        "تَدَلَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:23.235Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperfect verb, jussive mood",
+    "derivativeNote": "وَتُدْلُوا۟ is in the derivative form: أَدْلَى",
+    "rootDefinitionHtml": "د/ل/و-ي   d–l–w/y bucket, pail, to let down a bucket into a well<br>; to hang down, to come near; to lead on, to tempt, to deceive; to submit a proof, to offer money as a bribe; to use one’s good offices. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> دَلَّى dallā 1 time; أَدْلَى ʾadlā 2 times; تَدَلَّى tadallā 1 time and دَلْوٌ dalw 1 time.",
+    "mainDefinitionHtml": "أَدْلَى ʾadlā [v. IV, trans.] <br><br><strong>1 </strong>to let down ‏<br><br>(12:19) وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَى دَلْوَهُ then came travellers, and they sent their water fetcher, and he let down his bucket <br><br><strong>2 </strong>[with prep. ﺒ] to offer or present [money] to [someone in authority as a bribe] <br><br>(2:188) وَلاَ تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ وَتُدْلُوا بِهَا إِلَى الْحُكَّامِ لِتَأْكُلُوا فَرِيقًا مِنْ أَمْوَالِ النَّاسِ بِالإِثْمِ do not appropriate each other’s property in dealing together in a corrupt way, nor use your property to bribe judges/rulers, intending sinfully and knowingly to appropriate [even] a part of other people’s property.",
+    "mainEntryId": "wdef-د-ل-و-ي.أَدْلَى",
+    "entries": [
+      {
+        "id": "wdef-د-ل-و-ي",
+        "label": "د-ل-و-ي",
+        "definitionHtml": "د/ل/و-ي   d–l–w/y bucket, pail, to let down a bucket into a well<br>; to hang down, to come near; to lead on, to tempt, to deceive; to submit a proof, to offer money as a bribe; to use one’s good offices. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> دَلَّى dallā 1 time; أَدْلَى ʾadlā 2 times; تَدَلَّى tadallā 1 time and دَلْوٌ dalw 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ل-و-ي.أَدْلَى",
+        "label": "أَدْلَى",
+        "definitionHtml": "أَدْلَى ʾadlā [v. IV, trans.] <br><br><strong>1 </strong>to let down ‏<br><br>(12:19) وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَى دَلْوَهُ then came travellers, and they sent their water fetcher, and he let down his bucket <br><br><strong>2 </strong>[with prep. ﺒ] to offer or present [money] to [someone in authority as a bribe] <br><br>(2:188) وَلاَ تَأْكُلُوا أَمْوَالَكُمْ بَيْنَكُمْ بِالْبَاطِلِ وَتُدْلُوا بِهَا إِلَى الْحُكَّامِ لِتَأْكُلُوا فَرِيقًا مِنْ أَمْوَالِ النَّاسِ بِالإِثْمِ do not appropriate each other’s property in dealing together in a corrupt way, nor use your property to bribe judges/rulers, intending sinfully and knowingly to appropriate [even] a part of other people’s property.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ل-و-ي.تَدَلَّى",
+        "label": "تَدَلَّى",
+        "definitionHtml": "تَدَلَّى tadallā [v. V, intrans.] to hang down, to approach closely, to draw near ‏<br><br>(53:7–8) ثُمَّ دَنَا فَتَدَلَّى فَكَانَ قَابَ قَوْسَيْنِ أَوْ أَدْنَى and then he approached–coming down until he was two bow‐lengths away or even closer.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ل-و-ي.دَلَّى",
+        "label": "دَلَّى",
+        "definitionHtml": "دَلَّى dallā [v. II, trans.] to lead someone on, to lure <br><br>(7:22) فَدَلاَّهُمَا بِغُرُورٍ فَلَمَّا ذَاقَا الشَّجَرَةَ بَدَتْ لَهُمَا سَوْآتُهُمَا so, he lured them with guile, and when they tasted the tree their shameful parts became manifest to them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ل-و-ي.دَلْوٌ",
+        "label": "دَلْوٌ",
+        "definitionHtml": "دَلْوٌ dalw [n.] bucket, pail <br><br>(12:19) وَجَاءَتْ سَيَّارَةٌ فَأَرْسَلُوا وَارِدَهُمْ فَأَدْلَى دَلْوَهُ then came travellers, and they sent their water fetcher, and he let down his bucket.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:06.912Z",
+      "refword": "2:188:6",
+      "lexword": "وَتُدْلُوا۟"
+    }
+  }
+}

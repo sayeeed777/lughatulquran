@@ -1,0 +1,441 @@
+{
+  "root": "مني",
+  "rootArabic": "مني",
+  "stats": {
+    "totalOccurrences": 21,
+    "derivativeCount": 7,
+    "surahCount": 10,
+    "ayahCount": 18
+  },
+  "derivatives": [
+    {
+      "form": "تَمَنَّى",
+      "count": 9
+    },
+    {
+      "form": "أَمَانِىّ",
+      "count": 6
+    },
+    {
+      "form": "تُمْنَى",
+      "count": 2
+    },
+    {
+      "form": "أَمْنَى",
+      "count": 1
+    },
+    {
+      "form": "أُمْنِيَة",
+      "count": 1
+    },
+    {
+      "form": "مَنَّى",
+      "count": 1
+    },
+    {
+      "form": "مَنِىّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَمَانِىّ",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "تَمَنَّى",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمَنَّى",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "أَمَانِىّ",
+          "count": 3,
+          "totalInQuran": 6
+        },
+        {
+          "form": "تَمَنَّى",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "مَنَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أُمْنِيَة",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "تَمَنَّى",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمَنَّى",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمَنَّى",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "تُمْنَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمْنَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمَانِىّ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمَنَّى",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تُمْنَى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مَنِىّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 78,
+      "text": "وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَٰبَ إِلَّآ أَمَانِىَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ",
+      "highlightedHtml": "وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَٰبَ إِلَّآ <a class=\"highlight-text\">أَمَانِىَّ</a> وَإِنْ هُمْ إِلَّا يَظُنُّونَ",
+      "derivedForms": [
+        "أَمَانِىّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 94,
+      "text": "قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ الْآخِرَةُ عِندَ ٱللَّهِ خَالِصَةً مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ الْآخِرَةُ عِندَ ٱللَّهِ خَالِصَةً مِّن دُونِ ٱلنَّاسِ <a class=\"highlight-text\">فَتَمَنَّوُا۟</a> ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 95,
+      "text": "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَن <a class=\"highlight-text\">يَتَمَنَّوْهُ</a> أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 111,
+      "text": "وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَٰرَىٰ ۗ تِلْكَ أَمَانِيُّهُمْ ۗ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَٰرَىٰ ۗ تِلْكَ <a class=\"highlight-text\">أَمَانِيُّهُمْ</a> ۗ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "أَمَانِىّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 143,
+      "text": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ ٱلْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ",
+      "highlightedHtml": "وَلَقَدْ كُنتُمْ <a class=\"highlight-text\">تَمَنَّوْنَ</a> ٱلْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 32,
+      "text": "وَلَا تَتَمَنَّوْا۟ مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِّلرِّجَالِ نَصِيبٌ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا ٱكْتَسَبْنَ ۚ وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَتَمَنَّوْا۟</a> مَا فَضَّلَ ٱللَّهُ بِهِۦ بَعْضَكُمْ عَلَىٰ بَعْضٍ ۚ لِّلرِّجَالِ نَصِيبٌ مِّمَّا ٱكْتَسَبُوا۟ ۖ وَلِلنِّسَآءِ نَصِيبٌ مِّمَّا ٱكْتَسَبْنَ ۚ وَسْـَٔلُوا۟ ٱللَّهَ مِن فَضْلِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 119,
+      "text": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "highlightedHtml": "وَلَأُضِلَّنَّهُمْ <a class=\"highlight-text\">وَلَأُمَنِّيَنَّهُمْ</a> وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "derivedForms": [
+        "أَمَانِىّ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 120,
+      "text": "يَعِدُهُمْ وَيُمَنِّيهِمْ ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا",
+      "highlightedHtml": "يَعِدُهُمْ <a class=\"highlight-text\">وَيُمَنِّيهِمْ</a> ۖ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا",
+      "derivedForms": [
+        "مَنَّى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 123,
+      "text": "لَّيْسَ بِأَمَانِيِّكُمْ وَلَآ أَمَانِىِّ أَهْلِ ٱلْكِتَٰبِ ۗ مَن يَعْمَلْ سُوٓءًا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "highlightedHtml": "لَّيْسَ <a class=\"highlight-text\">بِأَمَانِيِّكُمْ</a> وَلَآ <a class=\"highlight-text\">أَمَانِىِّ</a> أَهْلِ ٱلْكِتَٰبِ ۗ مَن يَعْمَلْ سُوٓءًا يُجْزَ بِهِۦ وَلَا يَجِدْ لَهُۥ مِن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+      "derivedForms": [
+        "أَمَانِىّ",
+        "أَمَانِىّ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 52,
+      "text": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا تَمَنَّىٰٓ أَلْقَى ٱلشَّيْطَٰنُ فِىٓ أُمْنِيَّتِهِۦ فَيَنسَخُ ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ آيَاتِهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ وَلَا نَبِىٍّ إِلَّآ إِذَا <a class=\"highlight-text\">تَمَنَّىٰٓ</a> أَلْقَى ٱلشَّيْطَٰنُ فِىٓ <a class=\"highlight-text\">أُمْنِيَّتِهِۦ</a> فَيَنسَخُ ٱللَّهُ مَا يُلْقِى ٱلشَّيْطَٰنُ ثُمَّ يُحْكِمُ ٱللَّهُ آيَاتِهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "تَمَنَّى",
+        "أُمْنِيَة"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 82,
+      "text": "وَأَصْبَحَ ٱلَّذِينَ تَمَنَّوْا۟ مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن مَّنَّ ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "وَأَصْبَحَ ٱلَّذِينَ <a class=\"highlight-text\">تَمَنَّوْا۟</a> مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن مَّنَّ ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 24,
+      "text": "أَمْ لِلْإِنسَٰنِ مَا تَمَنَّىٰ",
+      "highlightedHtml": "أَمْ لِلْإِنسَٰنِ مَا <a class=\"highlight-text\">تَمَنَّىٰ</a>",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 46,
+      "text": "مِن نُّطْفَةٍ إِذَا تُمْنَىٰ",
+      "highlightedHtml": "مِن نُّطْفَةٍ إِذَا <a class=\"highlight-text\">تُمْنَىٰ</a>",
+      "derivedForms": [
+        "تُمْنَى"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 58,
+      "text": "أَفَرَءَيْتُم مَّا تُمْنُونَ",
+      "highlightedHtml": "أَفَرَءَيْتُم مَّا <a class=\"highlight-text\">تُمْنُونَ</a>",
+      "derivedForms": [
+        "أَمْنَى"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 14,
+      "text": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
+      "highlightedHtml": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ <a class=\"highlight-text\">ٱلْأَمَانِىُّ</a> حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
+      "derivedForms": [
+        "أَمَانِىّ"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 6,
+      "text": "قُلْ يَٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓا۟ إِن زَعَمْتُمْ أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ يَٰٓأَيُّهَا ٱلَّذِينَ هَادُوٓا۟ إِن زَعَمْتُمْ أَنَّكُمْ أَوْلِيَآءُ لِلَّهِ مِن دُونِ ٱلنَّاسِ <a class=\"highlight-text\">فَتَمَنَّوُا۟</a> ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 7,
+      "text": "وَلَا يَتَمَنَّوْنَهُۥٓ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۚ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">يَتَمَنَّوْنَهُۥٓ</a> أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۚ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "تَمَنَّى"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 37,
+      "text": "أَلَمْ يَكُ نُطْفَةً مِّن مَّنِىٍّ يُمْنَىٰ",
+      "highlightedHtml": "أَلَمْ يَكُ نُطْفَةً مِّن <a class=\"highlight-text\">مَّنِىٍّ</a> <a class=\"highlight-text\">يُمْنَىٰ</a>",
+      "derivedForms": [
+        "مَنِىّ",
+        "تُمْنَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:44.934Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural noun",
+    "derivativeNote": "أَمَانِىَّ is in the derivative form: أَمَانِىّ",
+    "rootDefinitionHtml": "م/ن/و-ي   m–n–w/y fate, to fate, death, to afflict, to test<br>; to approximate; to hope for, to imagine, to implore; to fabricate, to lie; to shed, to flow, semen, sperm; to recite; to reward; to await; a dry measure. Of this root, 8 forms occur 22 times in the Qur’an, مَنَّى mannā 2 times;<br> أَمْنَى ʾamnā 1 time; تُمْنَى tumnā 2 times; تَمَنَّى tamannā 9 times; أُمْنِيَة ʾumniyyatun 1 time; أَمَانِىّ ʾamāniyy 5 times; مَنِىّ maniyy 1 time and مَنَاة manātun 1 time.",
+    "mainDefinitionHtml": "أَمَانِىّ ʾamāniyy [pl. of n. أُمْنِيَة ʾumniyyatun] <br><br><strong>1 </strong>hopes, desires <br><br>(4:123) لَيْسَ بِأَمَانِيِّكُمْ وَلاَ أَمَانِيِّ أَهْلِ الْكِتَابِ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ it will not be according to your desires or the desires of the People of the Book: anyone who does wrong will be requited for it <br><br><strong>2 </strong>false hopes, vain desires <br><br>(57:14) وَلَكِنَّكُمْ فَتَنْتُمْ أَنْفُسَكُمْ وَتَرَبَّصْتُمْ وَارْتَبْتُمْ وَغَرَّتْكُمُ الأَمَانِيُّ but you misled one another, sat in wait [for calamity to befall the believers], doubted [the faith], and false hopes deluded you <br><br><strong>3 </strong>wishful thinking <br><br>(2:111) وَقَالُوا لَنْ يَدْخُلَ الْجَنَّةَ إِلاَّ مَنْ كَانَ هُودًا أَوْ نَصَارَى تِلْكَ أَمَانِيُّهُمْ they say, ‘No one will enter Paradise unless he is a Jew or a Christian’; this is their own wishful thinking <br><br><strong>4 </strong>conjecture, hearsay <br><br>(2:78) وَمِنْهُمْ أُمِّيُّونَ لاَ يَعْلَمُونَ الْكِتَابَ إِلاَّ أَمَانِيَّ some of them are illiterate and know the Scripture only through hearsay.",
+    "mainEntryId": "wdef-م-ن-و-ي.أَمَانِىّ",
+    "entries": [
+      {
+        "id": "wdef-م-ن-و-ي",
+        "label": "م-ن-و-ي",
+        "definitionHtml": "م/ن/و-ي   m–n–w/y fate, to fate, death, to afflict, to test<br>; to approximate; to hope for, to imagine, to implore; to fabricate, to lie; to shed, to flow, semen, sperm; to recite; to reward; to await; a dry measure. Of this root, 8 forms occur 22 times in the Qur’an, مَنَّى mannā 2 times;<br> أَمْنَى ʾamnā 1 time; تُمْنَى tumnā 2 times; تَمَنَّى tamannā 9 times; أُمْنِيَة ʾumniyyatun 1 time; أَمَانِىّ ʾamāniyy 5 times; مَنِىّ maniyy 1 time and مَنَاة manātun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.أَمَانِىّ",
+        "label": "أَمَانِىّ",
+        "definitionHtml": "أَمَانِىّ ʾamāniyy [pl. of n. أُمْنِيَة ʾumniyyatun] <br><br><strong>1 </strong>hopes, desires <br><br>(4:123) لَيْسَ بِأَمَانِيِّكُمْ وَلاَ أَمَانِيِّ أَهْلِ الْكِتَابِ مَنْ يَعْمَلْ سُوءًا يُجْزَ بِهِ it will not be according to your desires or the desires of the People of the Book: anyone who does wrong will be requited for it <br><br><strong>2 </strong>false hopes, vain desires <br><br>(57:14) وَلَكِنَّكُمْ فَتَنْتُمْ أَنْفُسَكُمْ وَتَرَبَّصْتُمْ وَارْتَبْتُمْ وَغَرَّتْكُمُ الأَمَانِيُّ but you misled one another, sat in wait [for calamity to befall the believers], doubted [the faith], and false hopes deluded you <br><br><strong>3 </strong>wishful thinking <br><br>(2:111) وَقَالُوا لَنْ يَدْخُلَ الْجَنَّةَ إِلاَّ مَنْ كَانَ هُودًا أَوْ نَصَارَى تِلْكَ أَمَانِيُّهُمْ they say, ‘No one will enter Paradise unless he is a Jew or a Christian’; this is their own wishful thinking <br><br><strong>4 </strong>conjecture, hearsay <br><br>(2:78) وَمِنْهُمْ أُمِّيُّونَ لاَ يَعْلَمُونَ الْكِتَابَ إِلاَّ أَمَانِيَّ some of them are illiterate and know the Scripture only through hearsay.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ن-و-ي.أُمْنِيَة",
+        "label": "أُمْنِيَة",
+        "definitionHtml": "أُمْنِيَة ʾumniyyatun [n., pl. أَمَانِىّ ʾamāniyy] wish, desire; recitation (in an interpretation of verse 22:52) إِذَا تَمَنَّى أَلْقَى الشَّيْطَانُ فِى أُمْنِيَّتِهِ when he recited [the message] (or, when he made a wish) Satan proposed [things] in respect of his recitation (or, in respect of his wish).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.أَمْنَى",
+        "label": "أَمْنَى",
+        "definitionHtml": "أَمْنَى ʾamnā [v. IV, trans.] to pour forth sperm <br><br>(56:58) أَفَرَأَيْتُمْ مَا تُمْنُونَ ءَأَنْتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ consider the semen you discharge–did you create it yourselves or are We the Creators?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.تَمَنَّى",
+        "label": "تَمَنَّى",
+        "definitionHtml": "تَمَنَّى tamannā [v. V trans.] <br><br><strong>1 </strong>to desire, to wish for <br><br>(62:6) فَتَمَنَّوُا الْمَوْتَ إِنْ كُنْتُمْ صَادِقِينَ if you are truthful, then [you should] wish for death <br><br><strong>2 </strong>to covet, to long for <br><br>(4:32) وَلاَ تَتَمَنَّوْا مَا فَضَّلَ اللَّهُ بِهِ بَعْضَكُمْ عَلَى بَعْضٍ do not covet that with which God has favoured some of you over others <br><br><strong>3 </strong>to read, recite (in one interpretation of 22:52) وَمَا أَرْسَلْنَا مِنْ قَبْلِكَ مِنْ رَسُولٍ وَلاَ نَبِيٍّ إِلاَّ إِذَا تَمَنَّى أَلْقَى الشَّيْطَانُ فِى أُمْنِيَّتِهِ We never sent a messenger or a prophet before you [Muḥammad], but when he recited (or, when he made a wish) Satan proposed [things] in respect of his recitation (or, in respect of his wish).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.تُمْنَى",
+        "label": "تُمْنَى",
+        "definitionHtml": "تُمْنَى tumnā [imperf. pass v. IV] (of sperm) to be poured forth, to be ejected <br><br>(53:46) مِنْ نُطْفَةٍ إِذَا تُمْنَى from a drop of sperm when it is ejected.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.مَنَاة",
+        "label": "مَنَاة",
+        "definitionHtml": "مَنَاة Manāt [proper name] Manāt, one of the idols worshipped by the pagan Arabs in pre‐Islamic Arabia and regarded together with ʾallāt and ʾal‐ʿuzzā, to be God’s daughters <br><br>(53:19–21) أَفَرَأَيْتُمُ‏ ‏اللاَّتَ‏ ‏وَالْعُزَّى‏ ‏وَمَنَاةَ‏ ‏الثَّالِثَةَ‏ ‏الأُخْرَى‏ أَلَكُمُ‏ ‏الذَّكَرُ‏ ‏وَلَهُ‏ ‏الأُنْثَى‏ will you [disbelievers] consider [the case of] ʾallāt and ʾal‐ʿuzzā and that third one, Manāt!?–Are you to have the male and He the female?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.مَنِىّ",
+        "label": "مَنِىّ",
+        "definitionHtml": "مَنِىّ maniyy [n.] sperm, semen <br><br>(75:37) أَلَمْ يَكُ نُطْفَةً مِنْ مَنِيٍّ يُمْنَى was he not just a drop of ejected sperm?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-و-ي.مَنَّى",
+        "label": "مَنَّى",
+        "definitionHtml": "مَنَّى mannā i [v. II, trans] to create desires in, to plant expectations in <br><br>(4:120) يَعِدُهُمْ وَيُمَنِّيهِمْ وَمَا يَعِدُهُمُ الشَّيْطَانُ إِلاَّ غُرُورًا he makes them promises and raises hopes in them, but Satan’s promises are nothing but delusion.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:45.814Z",
+      "refword": "2:78:7",
+      "lexword": "أَمَانِىَّ"
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "root": "شهو",
+  "rootArabic": "شهو",
+  "stats": {
+    "totalOccurrences": 13,
+    "derivativeCount": 2,
+    "surahCount": 13,
+    "ayahCount": 13
+  },
+  "derivatives": [
+    {
+      "form": "اشْتَهى",
+      "count": 8
+    },
+    {
+      "form": "شَهْوةٌ",
+      "count": 5
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَهْوةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَهْوةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَهْوةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَهْوةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَهْوةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَهى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 14,
+      "text": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "highlightedHtml": "زُيِّنَ لِلنَّاسِ حُبُّ <a class=\"highlight-text\">ٱلشَّهَوَٰتِ</a> مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "derivedForms": [
+        "شَهْوةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 27,
+      "text": "وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًا",
+      "highlightedHtml": "وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ <a class=\"highlight-text\">ٱلشَّهَوَٰتِ</a> أَن تَمِيلُوا۟ مَيْلًا عَظِيمًا",
+      "derivedForms": [
+        "شَهْوةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 81,
+      "text": "إِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+      "highlightedHtml": "إِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ <a class=\"highlight-text\">شَهْوَةً</a> مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ مُّسْرِفُونَ",
+      "derivedForms": [
+        "شَهْوةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 57,
+      "text": "وَيَجْعَلُونَ لِلَّهِ ٱلْبَنَٰتِ سُبْحَٰنَهُۥ ۙ وَلَهُم مَّا يَشْتَهُونَ",
+      "highlightedHtml": "وَيَجْعَلُونَ لِلَّهِ ٱلْبَنَٰتِ سُبْحَٰنَهُۥ ۙ وَلَهُم مَّا <a class=\"highlight-text\">يَشْتَهُونَ</a>",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 59,
+      "text": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا",
+      "highlightedHtml": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ <a class=\"highlight-text\">ٱلشَّهَوَٰتِ</a> ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا",
+      "derivedForms": [
+        "شَهْوةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 102,
+      "text": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِى مَا ٱشْتَهَتْ أَنفُسُهُمْ خَٰلِدُونَ",
+      "highlightedHtml": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِى مَا <a class=\"highlight-text\">ٱشْتَهَتْ</a> أَنفُسُهُمْ خَٰلِدُونَ",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 55,
+      "text": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ شَهْوَةً مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ تَجْهَلُونَ",
+      "highlightedHtml": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ <a class=\"highlight-text\">شَهْوَةً</a> مِّن دُونِ ٱلنِّسَآءِ ۚ بَلْ أَنتُمْ قَوْمٌ تَجْهَلُونَ",
+      "derivedForms": [
+        "شَهْوةٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 54,
+      "text": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ",
+      "highlightedHtml": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا <a class=\"highlight-text\">يَشْتَهُونَ</a> كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 31,
+      "text": "نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى الْآخِرَةِ ۖ وَلَكُمْ فِيهَا مَا تَشْتَهِىٓ أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ",
+      "highlightedHtml": "نَحْنُ أَوْلِيَآؤُكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى الْآخِرَةِ ۖ وَلَكُمْ فِيهَا مَا <a class=\"highlight-text\">تَشْتَهِىٓ</a> أَنفُسُكُمْ وَلَكُمْ فِيهَا مَا تَدَّعُونَ",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 71,
+      "text": "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا تَشْتَهِيهِ ٱلْأَنفُسُ وَتَلَذُّ ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا <a class=\"highlight-text\">تَشْتَهِيهِ</a> ٱلْأَنفُسُ وَتَلَذُّ ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 22,
+      "text": "وَأَمْدَدْنَٰهُم بِفَٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ",
+      "highlightedHtml": "وَأَمْدَدْنَٰهُم بِفَٰكِهَةٍ وَلَحْمٍ مِّمَّا <a class=\"highlight-text\">يَشْتَهُونَ</a>",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 21,
+      "text": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
+      "highlightedHtml": "وَلَحْمِ طَيْرٍ مِّمَّا <a class=\"highlight-text\">يَشْتَهُونَ</a>",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 42,
+      "text": "وَفَوَٰكِهَ مِمَّا يَشْتَهُونَ",
+      "highlightedHtml": "وَفَوَٰكِهَ مِمَّا <a class=\"highlight-text\">يَشْتَهُونَ</a>",
+      "derivedForms": [
+        "اشْتَهى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:28.182Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine plural noun",
+    "derivativeNote": "ٱلشَّهَوَٰتِ is in the derivative form: شَهْوةٌ",
+    "rootDefinitionHtml": "ش/ﻫ/و   sh–h–w to desire, to long for, to lust after<br>; to resemble. <br><br>Of this root, 3 forms occur 13 times in the Qur’an:<br> اشْتَهى ʾishtahā 8 times;شَهْوةٌ shahwatun 2 times andشَهَوَات shahawāt 3 times.",
+    "mainDefinitionHtml": "شَهْوةٌ shahwatun I [n., pl.شَهَوات shahawāt] desire, lust, carnal appetite <br><br>(3:14) زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالأَنْعَامِ وَالْحَرْثِ made fair for humankind is the love of desirable things–women (or, made fair to human beings is the lusting after), children, tons upon tons of gold and silver, horses with fine markings, livestock and farmland II [v. n. used adverbially] lusting after <br><br>(7:81) إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِنْ دُونِ النِّسَاءِ you go lusting after men rather than women!",
+    "mainEntryId": "wdef-ش-ﻫ-و.شَهْوةٌ",
+    "entries": [
+      {
+        "id": "wdef-ش-ﻫ-و",
+        "label": "ش-ﻫ-و",
+        "definitionHtml": "ش/ﻫ/و   sh–h–w to desire, to long for, to lust after<br>; to resemble. <br><br>Of this root, 3 forms occur 13 times in the Qur’an:<br> اشْتَهى ʾishtahā 8 times;شَهْوةٌ shahwatun 2 times andشَهَوَات shahawāt 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ﻫ-و.شَهْوةٌ",
+        "label": "شَهْوةٌ",
+        "definitionHtml": "شَهْوةٌ shahwatun I [n., pl.شَهَوات shahawāt] desire, lust, carnal appetite <br><br>(3:14) زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ الْمُسَوَّمَةِ وَالأَنْعَامِ وَالْحَرْثِ made fair for humankind is the love of desirable things–women (or, made fair to human beings is the lusting after), children, tons upon tons of gold and silver, horses with fine markings, livestock and farmland II [v. n. used adverbially] lusting after <br><br>(7:81) إِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِنْ دُونِ النِّسَاءِ you go lusting after men rather than women!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ﻫ-و.اشْتَهى",
+        "label": "اشْتَهى",
+        "definitionHtml": "اشْتَهى ʾishtahā [v. VIII, intrans.] to desire, to crave, to covet, to long for <br><br>(43:71) وَفِيهَا مَا تَشْتَهِيهِ الأَنْفُسُ وَتَلَذُّ الأَعْيُنُ in it is all that souls desire and eyes delight in.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:58.799Z",
+      "refword": "3:14:4",
+      "lexword": "ٱلشَّهَوَٰتِ"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "root": "رفد",
+  "rootArabic": "رفد",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "رِفْدٌ",
+      "count": 1
+    },
+    {
+      "form": "مَرْفُودٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رِفْدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَرْفُودٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 99,
+      "text": "وَأُتْبِعُوا۟ فِى هَٰذِهِۦ لَعْنَةً وَيَوْمَ ٱلْقِيَٰمَةِ ۚ بِئْسَ ٱلرِّفْدُ ٱلْمَرْفُودُ",
+      "highlightedHtml": "وَأُتْبِعُوا۟ فِى هَٰذِهِۦ لَعْنَةً وَيَوْمَ ٱلْقِيَٰمَةِ ۚ بِئْسَ <a class=\"highlight-text\">ٱلرِّفْدُ</a> <a class=\"highlight-text\">ٱلْمَرْفُودُ</a>",
+      "derivedForms": [
+        "رِفْدٌ",
+        "مَرْفُودٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:32.654Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلرِّفْدُ is in the derivative form: رِفْدٌ",
+    "rootDefinitionHtml": "ر/ف/د   r–f–d augmentation, addition; help, support, assistance; to deputise, a king’s deputy; to choose as a leader; share, portion, tributary. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> رِفْدٌ rifd and مَرْفُودٌ marfūd.",
+    "mainDefinitionHtml": "رِفْدٌ rifd [v. n.; n.] addition, support, gift, a load <br><br>(11:99) وَأُتْبِعُوا فِى هَذِهِ لَعْنَةً وَيَوْمَ الْقِيَامَةِ بِئْسَ الرِّفْدُ الْمَرْفُودُ they were pursued in this [life] by a curse and on the Day of Resurrection, too; what a foul gift to be given!",
+    "mainEntryId": "wdef-ر-ف-د.رِفْدٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ف-د",
+        "label": "ر-ف-د",
+        "definitionHtml": "ر/ف/د   r–f–d augmentation, addition; help, support, assistance; to deputise, a king’s deputy; to choose as a leader; share, portion, tributary. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> رِفْدٌ rifd and مَرْفُودٌ marfūd.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ف-د.رِفْدٌ",
+        "label": "رِفْدٌ",
+        "definitionHtml": "رِفْدٌ rifd [v. n.; n.] addition, support, gift, a load <br><br>(11:99) وَأُتْبِعُوا فِى هَذِهِ لَعْنَةً وَيَوْمَ الْقِيَامَةِ بِئْسَ الرِّفْدُ الْمَرْفُودُ they were pursued in this [life] by a curse and on the Day of Resurrection, too; what a foul gift to be given!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ف-د.مَرْفُودٌ",
+        "label": "مَرْفُودٌ",
+        "definitionHtml": "مَرْفُودٌ marfūd [pass. part.] added on, loaded on, attached, given <br><br>(11:99) وَأُتْبِعُوا فِى هَذِهِ لَعْنَةً وَيَوْمَ الْقِيَامَةِ بِئْسَ الرِّفْدُ الْمَرْفُودُ they were pursued in this [life] by a curse and on the Day of Resurrection, too; what a foul gift to be given!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:13.606Z",
+      "refword": "11:99:8",
+      "lexword": "ٱلرِّفْدُ"
+    }
+  }
+}

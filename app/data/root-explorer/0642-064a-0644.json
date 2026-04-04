@@ -1,0 +1,106 @@
+{
+  "root": "قيل",
+  "rootArabic": "قيل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "قَائِل",
+      "count": 1
+    },
+    {
+      "form": "مَقِيل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَائِل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَقِيل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 4,
+      "text": "وَكَم مِّن قَرْيَةٍ أَهْلَكْنَٰهَا فَجَآءَهَا بَأْسُنَا بَيَٰتًا أَوْ هُمْ قَآئِلُونَ",
+      "highlightedHtml": "وَكَم مِّن قَرْيَةٍ أَهْلَكْنَٰهَا فَجَآءَهَا بَأْسُنَا بَيَٰتًا أَوْ هُمْ <a class=\"highlight-text\">قَآئِلُونَ</a>",
+      "derivedForms": [
+        "قَائِل"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 24,
+      "text": "أَصْحَٰبُ ٱلْجَنَّةِ يَوْمَئِذٍ خَيْرٌ مُّسْتَقَرًّا وَأَحْسَنُ مَقِيلًا",
+      "highlightedHtml": "أَصْحَٰبُ ٱلْجَنَّةِ يَوْمَئِذٍ خَيْرٌ مُّسْتَقَرًّا وَأَحْسَنُ <a class=\"highlight-text\">مَقِيلًا</a>",
+      "derivedForms": [
+        "مَقِيل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:28.153Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural active participle",
+    "derivativeNote": "قَآئِلُونَ is in the derivative form: قَائِل",
+    "rootDefinitionHtml": "ق/ي/ل   q–y–l the noon, siesta, to take a midday nap, a midday resting place; to annul; to help out of difficulty; chief. <br><br>Of this root, 2 forms occur 11 times each in the Qur’an:<br> قَائِلُون qāʾilūn and مَقِيل maqıl.",
+    "mainDefinitionHtml": "قَائِل qāʾil [act. part. of v. قَالَ qāla; imperf. يَقِيل yaqıl] one who rests or sleeps at midday <br><br>(7:4) فَجَاءَهَا بَأْسُنَا بَيَاتًا أَوْ هُمْ قَائِلُونَ so Our punishment came to it by night or while they slept in the afternoon. ‏",
+    "mainEntryId": "wdef-ق-ي-ل.قَائِل",
+    "entries": [
+      {
+        "id": "wdef-ق-ي-ل",
+        "label": "ق-ي-ل",
+        "definitionHtml": "ق/ي/ل   q–y–l the noon, siesta, to take a midday nap, a midday resting place; to annul; to help out of difficulty; chief. <br><br>Of this root, 2 forms occur 11 times each in the Qur’an:<br> قَائِلُون qāʾilūn and مَقِيل maqıl.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ي-ل.قَائِل",
+        "label": "قَائِل",
+        "definitionHtml": "قَائِل qāʾil [act. part. of v. قَالَ qāla; imperf. يَقِيل yaqıl] one who rests or sleeps at midday <br><br>(7:4) فَجَاءَهَا بَأْسُنَا بَيَاتًا أَوْ هُمْ قَائِلُونَ so Our punishment came to it by night or while they slept in the afternoon. ‏",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ي-ل.مَقِيل",
+        "label": "مَقِيل",
+        "definitionHtml": "مَقِيل maqıl [n. of place; v. n.] a place for repose, a place for a midday siesta; resting at midday, repose <br><br>(25:24) أَصْحَابُ الْجَنَّةِ يَوْمَئِذٍ خَيْرٌ مُسْتَقَرًّا وَأَحْسَنُ مَقِيلا those in the Garden will have on that Day a better home and a fairer place to rest.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:24.105Z",
+      "refword": "7:4:10",
+      "lexword": "قَآئِلُونَ"
+    }
+  }
+}

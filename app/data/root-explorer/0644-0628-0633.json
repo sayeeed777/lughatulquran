@@ -1,0 +1,451 @@
+{
+  "root": "لبس",
+  "rootArabic": "لبس",
+  "stats": {
+    "totalOccurrences": 23,
+    "derivativeCount": 5,
+    "surahCount": 13,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "لِبَاس",
+      "count": 10
+    },
+    {
+      "form": "لَبَسَ",
+      "count": 7
+    },
+    {
+      "form": "لَبِسَ",
+      "count": 4
+    },
+    {
+      "form": "لَبْس",
+      "count": 1
+    },
+    {
+      "form": "لَبُوس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "لَبَسَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَبَسَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "لَبَسَ",
+          "count": 5,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 3,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "لَبِسَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَبِسَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَبُوس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "لَبِسَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَبِسَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَبْس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِبَاس",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 42,
+      "text": "وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَلْبِسُوا۟</a> ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 187,
+      "text": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ <a class=\"highlight-text\">لِبَاسٌ</a> لَّكُمْ وَأَنتُمْ <a class=\"highlight-text\">لِبَاسٌ</a> لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "لِبَاس",
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 71,
+      "text": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ تَلْبِسُونَ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُونَ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "يَٰٓأَهْلَ ٱلْكِتَٰبِ لِمَ <a class=\"highlight-text\">تَلْبِسُونَ</a> ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُونَ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 9,
+      "text": "وَلَوْ جَعَلْنَٰهُ مَلَكًا لَّجَعَلْنَٰهُ رَجُلًا وَلَلَبَسْنَا عَلَيْهِم مَّا يَلْبِسُونَ",
+      "highlightedHtml": "وَلَوْ جَعَلْنَٰهُ مَلَكًا لَّجَعَلْنَٰهُ رَجُلًا <a class=\"highlight-text\">وَلَلَبَسْنَا</a> عَلَيْهِم مَّا <a class=\"highlight-text\">يَلْبِسُونَ</a>",
+      "derivedForms": [
+        "لَبَسَ",
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 65,
+      "text": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
+      "highlightedHtml": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ <a class=\"highlight-text\">يَلْبِسَكُمْ</a> شِيَعًا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
+      "derivedForms": [
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 82,
+      "text": "ٱلَّذِينَ آمَنُوا وَلَمْ يَلْبِسُوٓا۟ إِيمَٰنَهُم بِظُلْمٍ أُو۟لَٰٓئِكَ لَهُمُ ٱلْأَمْنُ وَهُم مُّهْتَدُونَ",
+      "highlightedHtml": "ٱلَّذِينَ آمَنُوا وَلَمْ <a class=\"highlight-text\">يَلْبِسُوٓا۟</a> إِيمَٰنَهُم بِظُلْمٍ أُو۟لَٰٓئِكَ لَهُمُ ٱلْأَمْنُ وَهُم مُّهْتَدُونَ",
+      "derivedForms": [
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 137,
+      "text": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ <a class=\"highlight-text\">وَلِيَلْبِسُوا۟</a> عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+      "derivedForms": [
+        "لَبَسَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 26,
+      "text": "يَٰبَنِىٓ آدَمَ قَدْ أَنزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَٰرِى سَوْءَٰتِكُمْ وَرِيشًا ۖ وَلِبَاسُ ٱلتَّقْوَىٰ ذَٰلِكَ خَيْرٌ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "highlightedHtml": "يَٰبَنِىٓ آدَمَ قَدْ أَنزَلْنَا عَلَيْكُمْ <a class=\"highlight-text\">لِبَاسًا</a> يُوَٰرِى سَوْءَٰتِكُمْ وَرِيشًا ۖ <a class=\"highlight-text\">وَلِبَاسُ</a> ٱلتَّقْوَىٰ ذَٰلِكَ خَيْرٌ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "derivedForms": [
+        "لِبَاس",
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 27,
+      "text": "يَٰبَنِىٓ آدَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ يَنزِعُ عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "يَٰبَنِىٓ آدَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ يَنزِعُ عَنْهُمَا <a class=\"highlight-text\">لِبَاسَهُمَا</a> لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 14,
+      "text": "وَهُوَ ٱلَّذِى سَخَّرَ ٱلْبَحْرَ لِتَأْكُلُوا۟ مِنْهُ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُوا۟ مِنْهُ حِلْيَةً تَلْبَسُونَهَا وَتَرَى ٱلْفُلْكَ مَوَاخِرَ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى سَخَّرَ ٱلْبَحْرَ لِتَأْكُلُوا۟ مِنْهُ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُوا۟ مِنْهُ حِلْيَةً <a class=\"highlight-text\">تَلْبَسُونَهَا</a> وَتَرَى ٱلْفُلْكَ مَوَاخِرَ فِيهِ وَلِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "لَبِسَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 112,
+      "text": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ <a class=\"highlight-text\">لِبَاسَ</a> ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 31,
+      "text": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ <a class=\"highlight-text\">وَيَلْبَسُونَ</a> ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "لَبِسَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 80,
+      "text": "وَعَلَّمْنَٰهُ صَنْعَةَ لَبُوسٍ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَٰكِرُونَ",
+      "highlightedHtml": "وَعَلَّمْنَٰهُ صَنْعَةَ <a class=\"highlight-text\">لَبُوسٍ</a> لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَٰكِرُونَ",
+      "derivedForms": [
+        "لَبُوس"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 23,
+      "text": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ <a class=\"highlight-text\">وَلِبَاسُهُمْ</a> فِيهَا حَرِيرٌ",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 47,
+      "text": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا وَٱلنَّوْمَ سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ <a class=\"highlight-text\">لِبَاسًا</a> وَٱلنَّوْمَ سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 12,
+      "text": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌ فُرَاتٌ سَآئِغٌ شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌ ۖ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً تَلْبَسُونَهَا ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌ فُرَاتٌ سَآئِغٌ شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌ ۖ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً <a class=\"highlight-text\">تَلْبَسُونَهَا</a> ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "لَبِسَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 33,
+      "text": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ <a class=\"highlight-text\">وَلِبَاسُهُمْ</a> فِيهَا حَرِيرٌ",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 53,
+      "text": "يَلْبَسُونَ مِن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَقَٰبِلِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَلْبَسُونَ</a> مِن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَقَٰبِلِينَ",
+      "derivedForms": [
+        "لَبِسَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 15,
+      "text": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى <a class=\"highlight-text\">لَبْسٍ</a> مِّنْ خَلْقٍ جَدِيدٍ",
+      "derivedForms": [
+        "لَبْس"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 10,
+      "text": "وَجَعَلْنَا ٱلَّيْلَ لِبَاسًا",
+      "highlightedHtml": "وَجَعَلْنَا ٱلَّيْلَ <a class=\"highlight-text\">لِبَاسًا</a>",
+      "derivedForms": [
+        "لِبَاس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:21.562Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb, jussive mood",
+    "derivativeNote": "تَلْبِسُوا۟ is in the derivative form: لَبَسَ",
+    "rootDefinitionHtml": "ل/ب/س   l–b–s to wear, to put on, to clothe, garment, clothes, armour, cover<br>; to confuse; wife, husband; condition; to tarry or to remain in a place. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> لَبَسَ labasa 7 times; لَبِسَ labisa 4 times; لَبْس labs 1 time; لِبَاس libās 10 times and لَبُوس labūs 1 time.",
+    "mainDefinitionHtml": "لَبَسَ labasa i [v. trans.] <br><br><strong>1 </strong>to obscure, to mystify, to confuse something with something else, to render obscured, to cause to be obscured <br><br>(6:9) وَلَوْ‏ ‏جَعَلْنَاهُ‏ ‏مَلَكًا‏ ‏لَجَعَلْنَاهُ رَجُلا‏ ‏وَلَلَبَسْنَا‏ ‏عَلَيْهِمْ‏ ‏مَا‏ ‏يَلْبِسُونَ‏ if We had made him [the Messenger] an angel, We would still have made him [in the shape of] a human being, and confused for them the thing which they are now confusing for themselves <br><br><strong>2 </strong>to mix up, to mar, to adulterate <br><br>(6:82) الَّذِينَ‏ ‏ءَامَنُوا‏ ‏وَلَمْ‏ ‏يَلْبِسُوا إِيمَانَهُمْ‏ ‏بِظُلْمٍ‏ ‏أُولَئِكَ لَهُمُ الأَمْن those who believe, and have not obscured their faith with wrongdoing–for them will be security.‏",
+    "mainEntryId": "wdef-ل-ب-س.لَبَسَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ب-س",
+        "label": "ل-ب-س",
+        "definitionHtml": "ل/ب/س   l–b–s to wear, to put on, to clothe, garment, clothes, armour, cover<br>; to confuse; wife, husband; condition; to tarry or to remain in a place. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> لَبَسَ labasa 7 times; لَبِسَ labisa 4 times; لَبْس labs 1 time; لِبَاس libās 10 times and لَبُوس labūs 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ب-س.لَبَسَ",
+        "label": "لَبَسَ",
+        "definitionHtml": "لَبَسَ labasa i [v. trans.] <br><br><strong>1 </strong>to obscure, to mystify, to confuse something with something else, to render obscured, to cause to be obscured <br><br>(6:9) وَلَوْ‏ ‏جَعَلْنَاهُ‏ ‏مَلَكًا‏ ‏لَجَعَلْنَاهُ رَجُلا‏ ‏وَلَلَبَسْنَا‏ ‏عَلَيْهِمْ‏ ‏مَا‏ ‏يَلْبِسُونَ‏ if We had made him [the Messenger] an angel, We would still have made him [in the shape of] a human being, and confused for them the thing which they are now confusing for themselves <br><br><strong>2 </strong>to mix up, to mar, to adulterate <br><br>(6:82) الَّذِينَ‏ ‏ءَامَنُوا‏ ‏وَلَمْ‏ ‏يَلْبِسُوا إِيمَانَهُمْ‏ ‏بِظُلْمٍ‏ ‏أُولَئِكَ لَهُمُ الأَمْن those who believe, and have not obscured their faith with wrongdoing–for them will be security.‏",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ب-س.لَبُوس",
+        "label": "لَبُوس",
+        "definitionHtml": "لَبُوس labūs [n.] coat of mail, clothing <br><br>(21:80) وَعَلَّمْنَاهُ‏ ‏صَنْعَةَ‏ ‏لَبُوسٍ‏ ‏لَكُمْ لِتُحْصِنَكُمْ‏ ‏مِنْ‏ ‏بَأْسِكُمْ‏‏ ‏and We taught him the making of garments [of mail] to protect you from your violence.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ب-س.لَبِسَ",
+        "label": "لَبِسَ",
+        "definitionHtml": "لَبِسَ labisa a [v. trans.] to wear, to put on, to dress <br><br>(35:12) ‏وَتَسْتَخْرِجُونَ حِلْيَةً‏ ‏تَلْبَسُونَهَا and extract ornaments that you wear.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ب-س.لَبْس",
+        "label": "لَبْس",
+        "definitionHtml": "لَبْس labs [v. n./n.] confusion, muddle, doubt <br><br>(50:15)‏هُمْ‏ ‏فِى ‏لَبْسٍ‏ ‏مِنْ‏ ‏خَلْقٍ‏ ‏جَدِيدٍ‏ they are in doubt concerning a new creation.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ب-س.لِبَاس",
+        "label": "لِبَاس",
+        "definitionHtml": "لِبَاس libās [n./v. n.] <br><br><strong>1 </strong>raiment, apparel, clothing <br><br>(7:26) يَابَنِي ءَادَمَ قَدْ أَنْزَلْنَا عَلَيْكُمْ لِبَاسًا يُوَارِي سَوْآتِكُمْ وَرِيشًا وَلِبَاسُ التَّقْوَى ذَلِكَ خَيْرٌ‏ children of Adam, We have given you garments to cover your nakedness and as adornment [for you], and the garment of piety, that is best; *<br><br>(16:112) لِبَاسَ الجُوعِ وَالخَوْف the state of hunger and fear <br><br><strong>2 </strong>cover, hiding <br><br>(78:10–11) وَجَعَلْنَا‏ ‏اللَّيْلَ‏ ‏لِبَاسًا‏ وَجَعَلْنَا‏ ‏النَّهَارَ‏ ‏مَعَاشًا‏ We have made the night as a cover and the day for livelihood.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:00.265Z",
+      "refword": "2:42:2",
+      "lexword": "تَلْبِسُوا۟"
+    }
+  }
+}

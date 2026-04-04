@@ -1,0 +1,136 @@
+{
+  "root": "يبس",
+  "rootArabic": "يبس",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَابِس",
+      "count": 3
+    },
+    {
+      "form": "يَبَس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَابِس",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَابِس",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَبَس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 59,
+      "text": "وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا <a class=\"highlight-text\">يَابِسٍ</a> إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "يَابِس"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 43,
+      "text": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ <a class=\"highlight-text\">يَابِسَٰتٍ</a> ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+      "derivedForms": [
+        "يَابِس"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 46,
+      "text": "يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "يُوسُفُ أَيُّهَا ٱلصِّدِّيقُ أَفْتِنَا فِى سَبْعِ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعِ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ <a class=\"highlight-text\">يَابِسَٰتٍ</a> لَّعَلِّىٓ أَرْجِعُ إِلَى ٱلنَّاسِ لَعَلَّهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "يَابِس"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 77,
+      "text": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "highlightedHtml": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ <a class=\"highlight-text\">يَبَسًا</a> لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "derivedForms": [
+        "يَبَس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T10:00:08.927Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite active participle",
+    "derivativeNote": "يَابِسٍ is in the derivative form: يَابِس",
+    "rootDefinitionHtml": "ي/ب/س   y–b–s dry land (as opposed to the sea), hard, arid<br>; to be afflicted with famine; to keep silent, to be too drunk; to have unpleasant countenances. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَبَس yabas 1 time; يَابِس yābis 1 time and يَابِسات yābisāt 2 times.",
+    "mainDefinitionHtml": "يَابِس yābis [quasi‐act. part., pl. fem. يَابِسات yābisāt] dry, withered <br><br>(12:43) وَسَبْعَ سُنْبُلاَتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ and seven green ears of corn and [seven] others withered.",
+    "mainEntryId": "wdef-ي-ب-س.يَابِس",
+    "entries": [
+      {
+        "id": "wdef-ي-ب-س",
+        "label": "ي-ب-س",
+        "definitionHtml": "ي/ب/س   y–b–s dry land (as opposed to the sea), hard, arid<br>; to be afflicted with famine; to keep silent, to be too drunk; to have unpleasant countenances. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَبَس yabas 1 time; يَابِس yābis 1 time and يَابِسات yābisāt 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ي-ب-س.يَابِس",
+        "label": "يَابِس",
+        "definitionHtml": "يَابِس yābis [quasi‐act. part., pl. fem. يَابِسات yābisāt] dry, withered <br><br>(12:43) وَسَبْعَ سُنْبُلاَتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ and seven green ears of corn and [seven] others withered.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ي-ب-س.يَبَس",
+        "label": "يَبَس",
+        "definitionHtml": "يَبَس yabas [v. n./quasi‐act. part.] dryness/dry <br><br>(20:77) فَاضْرِبْ لَهُمْ طَرِيقًا فِى الْبَحْرِ يَبَسًا and strike for them a path across the sea [which will become] dry.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:05:08.148Z",
+      "refword": "6:59:27",
+      "lexword": "يَابِسٍ"
+    }
+  }
+}

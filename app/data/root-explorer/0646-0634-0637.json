@@ -1,0 +1,91 @@
+{
+  "root": "نشط",
+  "rootArabic": "نشط",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَاشِطَاتٌ",
+      "count": 1
+    },
+    {
+      "form": "نَشْطٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَاشِطَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نَشْطٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 79,
+      "ayah": 2,
+      "text": "وَٱلنَّٰشِطَٰتِ نَشْطًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلنَّٰشِطَٰتِ</a> <a class=\"highlight-text\">نَشْطًا</a>",
+      "derivedForms": [
+        "نَاشِطَاتٌ",
+        "نَشْطٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:26.783Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine plural active participle",
+    "derivativeNote": "وَٱلنَّٰشِطَٰتِ is in the derivative form: نَاشِطَاتٌ",
+    "rootDefinitionHtml": "ن/ش/ط   n–sh–ṭ a well with water high enough to draw, to draw water from such a well; energy, agility, to recover completely from illness; to pasture well, (of animals) to migrate from 1 location to another in search of pasture. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَشْطٌ nashṭ and نَاشِطَاتٌ nāshiṭāt.",
+    "mainDefinitionHtml": "نَاشِطَاتٌ nāshiṭāt [pl. of fem. act. part. نَاشِطَة nāshiṭatun] one acting briskly, energetically <br><br>(79:1–2) والنَّازِعاتِ غَرْقًا وَالنَّاشِطَاتِ نَشْطًا by those pulling out forcefully and energetically gaining strength.",
+    "mainEntryId": "wdef-ن-ش-ط.نَاشِطَاتٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ش-ط",
+        "label": "ن-ش-ط",
+        "definitionHtml": "ن/ش/ط   n–sh–ṭ a well with water high enough to draw, to draw water from such a well; energy, agility, to recover completely from illness; to pasture well, (of animals) to migrate from 1 location to another in search of pasture. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَشْطٌ nashṭ and نَاشِطَاتٌ nāshiṭāt.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-ط.نَاشِطَاتٌ",
+        "label": "نَاشِطَاتٌ",
+        "definitionHtml": "نَاشِطَاتٌ nāshiṭāt [pl. of fem. act. part. نَاشِطَة nāshiṭatun] one acting briskly, energetically <br><br>(79:1–2) والنَّازِعاتِ غَرْقًا وَالنَّاشِطَاتِ نَشْطًا by those pulling out forcefully and energetically gaining strength.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ش-ط.نَشْطٌ",
+        "label": "نَشْطٌ",
+        "definitionHtml": "نَشْطٌ nashṭ [v. n.] the act of being energetic, highly spirited, brisk, in control <br><br>(79:1–2) وَالنَّاشِطَاتِ نَشْطًا وَالنَّازِعَاتِ غَرْقًا by those pulling out forcefully and energetically gaining strength.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:09.112Z",
+      "refword": "79:2:1",
+      "lexword": "وَٱلنَّٰشِطَٰتِ"
+    }
+  }
+}

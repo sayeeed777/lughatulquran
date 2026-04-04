@@ -1,0 +1,84 @@
+{
+  "root": "بسس",
+  "rootArabic": "بسس",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "بُسَّ",
+      "count": 1
+    },
+    {
+      "form": "X",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بُسَّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 56,
+      "ayah": 5,
+      "text": "وَبُسَّتِ ٱلْجِبَالُ بَسًّا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَبُسَّتِ</a> ٱلْجِبَالُ <a class=\"highlight-text\">بَسًّا</a>",
+      "derivedForms": [
+        "بُسَّ",
+        "X"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:34.517Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "وَبُسَّتِ is in the derivative form: بُسَّ",
+    "rootDefinitionHtml": "ب/س/س   b–s–s to scatter; to travel throughout the land; to crumble; to drive gently; to stroke with the hand, to mix together. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> بُسَّ bussa and بَسٌّ bass.",
+    "mainDefinitionHtml": "بُسَّ bussa [pass. v.; v. n. بَسٌّ bass] to be crumbled, to be crushed, to be ground <br><br>(56:5) وَبُسَّتِ الْجِبَالُ بَسًّا and the mountains are ground to powder.",
+    "mainEntryId": "wdef-ب-س-س.بُسَّ",
+    "entries": [
+      {
+        "id": "wdef-ب-س-س",
+        "label": "ب-س-س",
+        "definitionHtml": "ب/س/س   b–s–s to scatter; to travel throughout the land; to crumble; to drive gently; to stroke with the hand, to mix together. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> بُسَّ bussa and بَسٌّ bass.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-س-س.بُسَّ",
+        "label": "بُسَّ",
+        "definitionHtml": "بُسَّ bussa [pass. v.; v. n. بَسٌّ bass] to be crumbled, to be crushed, to be ground <br><br>(56:5) وَبُسَّتِ الْجِبَالُ بَسًّا and the mountains are ground to powder.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:03.709Z",
+      "refword": "56:5:1",
+      "lexword": "وَبُسَّتِ"
+    }
+  }
+}

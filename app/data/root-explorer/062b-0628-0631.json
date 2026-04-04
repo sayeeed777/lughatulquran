@@ -1,0 +1,137 @@
+{
+  "root": "ثبر",
+  "rootArabic": "ثبر",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "ثُبُورٌ",
+      "count": 4
+    },
+    {
+      "form": "مَثْبُورٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَثْبُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ثُبُورٌ",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ثُبُورٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 102,
+      "text": "قَالَ لَقَدْ عَلِمْتَ مَآ أَنزَلَ هَٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ بَصَآئِرَ وَإِنِّى لَأَظُنُّكَ يَٰفِرْعَوْنُ مَثْبُورًا",
+      "highlightedHtml": "قَالَ لَقَدْ عَلِمْتَ مَآ أَنزَلَ هَٰٓؤُلَآءِ إِلَّا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ بَصَآئِرَ وَإِنِّى لَأَظُنُّكَ يَٰفِرْعَوْنُ <a class=\"highlight-text\">مَثْبُورًا</a>",
+      "derivedForms": [
+        "مَثْبُورٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 13,
+      "text": "وَإِذَآ أُلْقُوا۟ مِنْهَا مَكَانًا ضَيِّقًا مُّقَرَّنِينَ دَعَوْا۟ هُنَالِكَ ثُبُورًا",
+      "highlightedHtml": "وَإِذَآ أُلْقُوا۟ مِنْهَا مَكَانًا ضَيِّقًا مُّقَرَّنِينَ دَعَوْا۟ هُنَالِكَ <a class=\"highlight-text\">ثُبُورًا</a>",
+      "derivedForms": [
+        "ثُبُورٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 14,
+      "text": "لَّا تَدْعُوا۟ ٱلْيَوْمَ ثُبُورًا وَٰحِدًا وَٱدْعُوا۟ ثُبُورًا كَثِيرًا",
+      "highlightedHtml": "لَّا تَدْعُوا۟ ٱلْيَوْمَ <a class=\"highlight-text\">ثُبُورًا</a> وَٰحِدًا وَٱدْعُوا۟ <a class=\"highlight-text\">ثُبُورًا</a> كَثِيرًا",
+      "derivedForms": [
+        "ثُبُورٌ",
+        "ثُبُورٌ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 11,
+      "text": "فَسَوْفَ يَدْعُوا۟ ثُبُورًا",
+      "highlightedHtml": "فَسَوْفَ يَدْعُوا۟ <a class=\"highlight-text\">ثُبُورًا</a>",
+      "derivedForms": [
+        "ثُبُورٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:34.053Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَثْبُورًا is in the derivative form: مَثْبُورٌ",
+    "rootDefinitionHtml": "ث/ب/ر   th–b–r ruin, destruction, to perish; to be vanquished, to be transfixed, to be detained; to persist, to be diligent. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ثُبُورٌ thubūr 4 times and مَثْبورٌ mathbūr 1 time.",
+    "mainDefinitionHtml": "مَثْبُورٌ mathbūr [pass. part.] one who is lost, ruined, doomed, vanquished <br><br>(17:102) وَإِنِّي لأََظُنُّكَ يَافِرْعَوْنُ مَثْبُورًا and indeed, I deem you, Pharaoh, ruined/vanquished.",
+    "mainEntryId": "wdef-ث-ب-ر.مَثْبُورٌ",
+    "entries": [
+      {
+        "id": "wdef-ث-ب-ر",
+        "label": "ث-ب-ر",
+        "definitionHtml": "ث/ب/ر   th–b–r ruin, destruction, to perish; to be vanquished, to be transfixed, to be detained; to persist, to be diligent. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ثُبُورٌ thubūr 4 times and مَثْبورٌ mathbūr 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ب-ر.مَثْبُورٌ",
+        "label": "مَثْبُورٌ",
+        "definitionHtml": "مَثْبُورٌ mathbūr [pass. part.] one who is lost, ruined, doomed, vanquished <br><br>(17:102) وَإِنِّي لأََظُنُّكَ يَافِرْعَوْنُ مَثْبُورًا and indeed, I deem you, Pharaoh, ruined/vanquished.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ث-ب-ر.ثُبُورٌ",
+        "label": "ثُبُورٌ",
+        "definitionHtml": "ثُبُورٌ thubūr [v. n.] ruin, destruction, perishing <br><br>(25:13) وَإِذَا أُلْقُوا مِنْهَا مَكَانًا ضَيِّقًا مُقَرَّنِينَ دَعَوْا هُنَالِكَ ثُبُورًا and when they are thrown into a narrow place in it [Hell], chained [together], they will cry out [for] death.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:51.455Z",
+      "refword": "17:102:15",
+      "lexword": "مَثْبُورًا"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "root": "جمد",
+  "rootArabic": "جمد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 88,
+      "text": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "highlightedHtml": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا <a class=\"highlight-text\">جَامِدَةً</a> وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "derivedForms": []
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:18.167Z"
+  }
+}

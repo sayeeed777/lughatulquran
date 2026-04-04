@@ -1,0 +1,115 @@
+{
+  "root": "فقد",
+  "rootArabic": "فقد",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَفْقِد",
+      "count": 2
+    },
+    {
+      "form": "تَفَقَّدَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَفْقِد",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفَقَّدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 71,
+      "text": "قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا تَفْقِدُونَ",
+      "highlightedHtml": "قَالُوا۟ وَأَقْبَلُوا۟ عَلَيْهِم مَّاذَا <a class=\"highlight-text\">تَفْقِدُونَ</a>",
+      "derivedForms": [
+        "نَفْقِد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 72,
+      "text": "قَالُوا۟ نَفْقِدُ صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ زَعِيمٌ",
+      "highlightedHtml": "قَالُوا۟ <a class=\"highlight-text\">نَفْقِدُ</a> صُوَاعَ ٱلْمَلِكِ وَلِمَن جَآءَ بِهِۦ حِمْلُ بَعِيرٍ وَأَنَا۠ بِهِۦ زَعِيمٌ",
+      "derivedForms": [
+        "نَفْقِد"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 20,
+      "text": "وَتَفَقَّدَ ٱلطَّيْرَ فَقَالَ مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَتَفَقَّدَ</a> ٱلطَّيْرَ فَقَالَ مَا لِىَ لَآ أَرَى ٱلْهُدْهُدَ أَمْ كَانَ مِنَ ٱلْغَآئِبِينَ",
+      "derivedForms": [
+        "تَفَقَّدَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:06.002Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "تَفْقِدُونَ is in the derivative form: نَفْقِد",
+    "rootDefinitionHtml": "ف/ق/د   f–q–d to lose, loss; to seek, to search, to research; to inspect. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَفْقِد nafqid 2 times and تَفَقَّدَ tafaqqada 1 time.",
+    "mainDefinitionHtml": "نَفْقِد nafqid [imperf. of v. trans.] to lose, to miss <br><br>(12:71) قَالُوا‏ ‏وَأَقْبَلُوا‏ ‏عَلَيْهِمْ‏ ‏مَاذَا تَفْقِدُونَ‏ ‏and they turned and said, ‘What are you missing?’",
+    "mainEntryId": "wdef-ف-ق-د.نَفْقِد",
+    "entries": [
+      {
+        "id": "wdef-ف-ق-د",
+        "label": "ف-ق-د",
+        "definitionHtml": "ف/ق/د   f–q–d to lose, loss; to seek, to search, to research; to inspect. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَفْقِد nafqid 2 times and تَفَقَّدَ tafaqqada 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ق-د.نَفْقِد",
+        "label": "نَفْقِد",
+        "definitionHtml": "نَفْقِد nafqid [imperf. of v. trans.] to lose, to miss <br><br>(12:71) قَالُوا‏ ‏وَأَقْبَلُوا‏ ‏عَلَيْهِمْ‏ ‏مَاذَا تَفْقِدُونَ‏ ‏and they turned and said, ‘What are you missing?’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ق-د.تَفَقَّدَ",
+        "label": "تَفَقَّدَ",
+        "definitionHtml": "تَفَقَّدَ tafaqqada [v. V, trans.] to inspect, to review, to survey <br><br>(27:20) وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لاَ أَرَى الْهُدْهُدَ and he inspected the birds and said, ‘How is it that I do not see the hoopoe?’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:50.419Z",
+      "refword": "12:71:5",
+      "lexword": "تَفْقِدُونَ"
+    }
+  }
+}

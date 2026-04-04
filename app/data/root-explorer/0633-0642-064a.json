@@ -1,0 +1,557 @@
+{
+  "root": "سقي",
+  "rootArabic": "سقي",
+  "stats": {
+    "totalOccurrences": 25,
+    "derivativeCount": 5,
+    "surahCount": 19,
+    "ayahCount": 24
+  },
+  "derivatives": [
+    {
+      "form": "سَقى",
+      "count": 12
+    },
+    {
+      "form": "أسْقى",
+      "count": 8
+    },
+    {
+      "form": "إسْتسَقى",
+      "count": 2
+    },
+    {
+      "form": "سِقايةٌ",
+      "count": 2
+    },
+    {
+      "form": "سُقْيا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إسْتسَقى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إسْتسَقى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِقايةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سِقايةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 4,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْقى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُقْيا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 60,
+      "text": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَإِذِ <a class=\"highlight-text\">ٱسْتَسْقَىٰ</a> مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "إسْتسَقى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 71,
+      "text": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا <a class=\"highlight-text\">تَسْقِى</a> ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 160,
+      "text": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ <a class=\"highlight-text\">ٱسْتَسْقَىٰهُ</a> قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "إسْتسَقى"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 19,
+      "text": "أَجَعَلْتُمْ سِقَايَةَ ٱلْحَآجِّ وَعِمَارَةَ ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَجَٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "أَجَعَلْتُمْ <a class=\"highlight-text\">سِقَايَةَ</a> ٱلْحَآجِّ وَعِمَارَةَ ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَجَٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "سِقايةٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 41,
+      "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًا ۖ وَأَمَّا الْآخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
+      "highlightedHtml": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا <a class=\"highlight-text\">فَيَسْقِى</a> رَبَّهُۥ خَمْرًا ۖ وَأَمَّا الْآخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 70,
+      "text": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+      "highlightedHtml": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ <a class=\"highlight-text\">ٱلسِّقَايَةَ</a> فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+      "derivedForms": [
+        "سِقايةٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 4,
+      "text": "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَٰوِرَٰتٌ وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَٰوِرَٰتٌ وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ <a class=\"highlight-text\">يُسْقَىٰ</a> بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 16,
+      "text": "مِّن وَرَآئِهِۦ جَهَنَّمُ وَيُسْقَىٰ مِن مَّآءٍ صَدِيدٍ",
+      "highlightedHtml": "مِّن وَرَآئِهِۦ جَهَنَّمُ <a class=\"highlight-text\">وَيُسْقَىٰ</a> مِن مَّآءٍ صَدِيدٍ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 22,
+      "text": "وَأَرْسَلْنَا ٱلرِّيَٰحَ لَوَٰقِحَ فَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَسْقَيْنَٰكُمُوهُ وَمَآ أَنتُمْ لَهُۥ بِخَٰزِنِينَ",
+      "highlightedHtml": "وَأَرْسَلْنَا ٱلرِّيَٰحَ لَوَٰقِحَ فَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً <a class=\"highlight-text\">فَأَسْقَيْنَٰكُمُوهُ</a> وَمَآ أَنتُمْ لَهُۥ بِخَٰزِنِينَ",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 66,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ <a class=\"highlight-text\">نُّسْقِيكُم</a> مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 21,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ <a class=\"highlight-text\">نُّسْقِيكُم</a> مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 49,
+      "text": "لِّنُحْۦِىَ بِهِۦ بَلْدَةً مَّيْتًا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًا وَأَنَاسِىَّ كَثِيرًا",
+      "highlightedHtml": "لِّنُحْۦِىَ بِهِۦ بَلْدَةً مَّيْتًا <a class=\"highlight-text\">وَنُسْقِيَهُۥ</a> مِمَّا خَلَقْنَآ أَنْعَٰمًا وَأَنَاسِىَّ كَثِيرًا",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 79,
+      "text": "وَٱلَّذِى هُوَ يُطْعِمُنِى وَيَسْقِينِ",
+      "highlightedHtml": "وَٱلَّذِى هُوَ يُطْعِمُنِى <a class=\"highlight-text\">وَيَسْقِينِ</a>",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 23,
+      "text": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "highlightedHtml": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ <a class=\"highlight-text\">يَسْقُونَ</a> وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا <a class=\"highlight-text\">نَسْقِى</a> حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "derivedForms": [
+        "سَقى",
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 24,
+      "text": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَسَقَىٰ</a> لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 25,
+      "text": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا <a class=\"highlight-text\">سَقَيْتَ</a> لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 15,
+      "text": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ آسِنٍ وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "highlightedHtml": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ آسِنٍ وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ <a class=\"highlight-text\">وَسُقُوا۟</a> مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 16,
+      "text": "وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًا",
+      "highlightedHtml": "وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ <a class=\"highlight-text\">لَأَسْقَيْنَٰهُم</a> مَّآءً غَدَقًا",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 17,
+      "text": "وَيُسْقَوْنَ فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيُسْقَوْنَ</a> فِيهَا كَأْسًا كَانَ مِزَاجُهَا زَنجَبِيلًا",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 21,
+      "text": "عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ وَسَقَىٰهُمْ رَبُّهُمْ شَرَابًا طَهُورًا",
+      "highlightedHtml": "عَٰلِيَهُمْ ثِيَابُ سُندُسٍ خُضْرٌ وَإِسْتَبْرَقٌ ۖ وَحُلُّوٓا۟ أَسَاوِرَ مِن فِضَّةٍ <a class=\"highlight-text\">وَسَقَىٰهُمْ</a> رَبُّهُمْ شَرَابًا طَهُورًا",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 27,
+      "text": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَٰمِخَٰتٍ وَأَسْقَيْنَٰكُم مَّآءً فُرَاتًا",
+      "highlightedHtml": "وَجَعَلْنَا فِيهَا رَوَٰسِىَ شَٰمِخَٰتٍ <a class=\"highlight-text\">وَأَسْقَيْنَٰكُم</a> مَّآءً فُرَاتًا",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 25,
+      "text": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُسْقَوْنَ</a> مِن رَّحِيقٍ مَّخْتُومٍ",
+      "derivedForms": [
+        "أسْقى"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 5,
+      "text": "تُسْقَىٰ مِنْ عَيْنٍ آنِيَةٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">تُسْقَىٰ</a> مِنْ عَيْنٍ آنِيَةٍ",
+      "derivedForms": [
+        "سَقى"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 13,
+      "text": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقْيَٰهَا",
+      "highlightedHtml": "فَقَالَ لَهُمْ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ <a class=\"highlight-text\">وَسُقْيَٰهَا</a>",
+      "derivedForms": [
+        "سُقْيا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:09.340Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form X) perfect verb",
+    "derivativeNote": "ٱسْتَسْقَىٰ is in the derivative form: إسْتسَقى",
+    "rootDefinitionHtml": "س/ق/ي   s–q–y to give to drink, to water (animals, plants or land), to make drink. <br><br>Of this root, 6 forms occur 25 times in the Qur’an:<br> سَقى saqā 8 times;أسْقى ʾasqā 6 times; اسْتَسْقى ʾistasqā 2 times; سِقايَة siqāyatun 2 times and سُقْيا suqyā 1 time.",
+    "mainDefinitionHtml": "إسْتسَقى ʾistasqā [v. X, trans.] <br><br><strong>1 </strong>to ask someone for water, to seek water <br><br>(7:160) وَأَوْحَيْنَا إِلَى مُوسَى إِذِ اسْتَسْقَاهُ قَوْمُهُ and We inspired Moses, when his people asked him for water <br><br><strong>2 </strong>[with no obj.] to seek sources for drinking or irrigating, to pray for water <br><br>(2:60) وَإِذِ اسْتَسْقَى مُوسَى لِقَوْمِهِ فَقُلْنَا اضْرِبْ بِعَصَاكَ الْحَجَرَ and [remember] when Moses prayed for water for his people and We said, ‘Strike with your staff the rock.'",
+    "mainEntryId": "wdef-س-ق-ي.إسْتسَقى",
+    "entries": [
+      {
+        "id": "wdef-س-ق-ي",
+        "label": "س-ق-ي",
+        "definitionHtml": "س/ق/ي   s–q–y to give to drink, to water (animals, plants or land), to make drink. <br><br>Of this root, 6 forms occur 25 times in the Qur’an:<br> سَقى saqā 8 times;أسْقى ʾasqā 6 times; اسْتَسْقى ʾistasqā 2 times; سِقايَة siqāyatun 2 times and سُقْيا suqyā 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ي.إسْتسَقى",
+        "label": "إسْتسَقى",
+        "definitionHtml": "إسْتسَقى ʾistasqā [v. X, trans.] <br><br><strong>1 </strong>to ask someone for water, to seek water <br><br>(7:160) وَأَوْحَيْنَا إِلَى مُوسَى إِذِ اسْتَسْقَاهُ قَوْمُهُ and We inspired Moses, when his people asked him for water <br><br><strong>2 </strong>[with no obj.] to seek sources for drinking or irrigating, to pray for water <br><br>(2:60) وَإِذِ اسْتَسْقَى مُوسَى لِقَوْمِهِ فَقُلْنَا اضْرِبْ بِعَصَاكَ الْحَجَرَ and [remember] when Moses prayed for water for his people and We said, ‘Strike with your staff the rock.'",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ق-ي.أسْقى",
+        "label": "أسْقى",
+        "definitionHtml": "أسْقى ʾasqā [v. IV, doubly trans.] to make available for drinking, to provide for drinking <br><br>(72:16) وَأَنْ لَوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لأََسْقَيْنَاهُمْ مَاءً غَدَقًا if they went straight on the path, We would give them abundant water to drink.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ي.سَقى",
+        "label": "سَقى",
+        "definitionHtml": "سَقى saqā i [v. trans.; pass. v. سُقِي suqiya] <br><br><strong>1 </strong>to give to drink, to serve a drink to <br><br>(12:41) يَاصَاحِبَيِ السِّجْنِ أَمَّا أَحَدُكُمَا فَيَسْقِي رَبَّهُ خَمْرًا fellow prisoners, one of you will serve his master with wine [to drink]; *<br><br>(26:79) وَالَّذِي هُوَ يُطْعِمُنِي وَيَسْقِينِ and the one who takes responsibility for me [lit. and He who gives me to eat and drink] (or, takes care of me) <br><br><strong>2 </strong>to irrigate <br><br>(2:71) إِنَّهَا بَقَرَةٌ لاَ ذَلُولٌ تُثِيرُ الأَرْضَ وَلاَ تَسْقِي الْحَرْثَ it is a cow, not broken to plough the earth or water the tillage <br><br><strong>3 </strong>[elliptically, with no obj.] to perform the daily act/ritual of watering [animals or land] <br><br>(28:23) وَلَمَّا وَرَدَ مَاءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِنَ النَّاسِ يَسْقُونَ and when he arrived at the water of Midian, he found a crowd of people watering [their flocks].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ي.سُقْيا",
+        "label": "سُقْيا",
+        "definitionHtml": "سُقْيا suqyā [v. n.] giving to drink, watering, irrigating <br><br>(91:13) فَقَالَ لَهُمْ رَسُولُ اللَّهِ نَاقَةَ اللَّهِ وَسُقْيَاهَا the messenger of God said to them, [have regard for] God’s camel and for her drinking.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ي.سِقايةٌ",
+        "label": "سِقايةٌ",
+        "definitionHtml": "سِقايةٌ siqāyatun I [v. n.] making water available for drinking, providing water for drinking <br><br>(9:19) أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ وَعِمَارَةَ الْمَسْجِدِ الْحَرَامِ كَمَنْ ءَامَنَ بِاللَّهِ وَالْيَوْمِ الآخِرِ ... do you equate giving water to pilgrims and tending the Sacred Mosque with [the deeds of] those who believe in God and the Last Day …? II [n.] a drinking cup <br><br>(12:70) فَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ جَعَلَ السِّقَايَةَ فِى رَحْلِ أَخِيهِ and when he provided them with their provisions, he placed the drinking cup in the pack of his brother.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:24.664Z",
+      "refword": "2:60:2",
+      "lexword": "ٱسْتَسْقَىٰ"
+    }
+  }
+}

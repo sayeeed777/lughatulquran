@@ -1,0 +1,74 @@
+{
+  "root": "ليت",
+  "rootArabic": "ليت",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "لَيْتَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَيْتَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 49,
+      "ayah": 14,
+      "text": "قَالَتِ ٱلْأَعْرَابُ آمَنَّا ۖ قُل لَّمْ تُؤْمِنُوا۟ وَلَٰكِن قُولُوٓا۟ أَسْلَمْنَا وَلَمَّا يَدْخُلِ ٱلْإِيمَٰنُ فِى قُلُوبِكُمْ ۖ وَإِن تُطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ لَا يَلِتْكُم مِّنْ أَعْمَٰلِكُمْ شَيْـًٔا ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "قَالَتِ ٱلْأَعْرَابُ آمَنَّا ۖ قُل لَّمْ تُؤْمِنُوا۟ وَلَٰكِن قُولُوٓا۟ أَسْلَمْنَا وَلَمَّا يَدْخُلِ ٱلْإِيمَٰنُ فِى قُلُوبِكُمْ ۖ وَإِن تُطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ لَا <a class=\"highlight-text\">يَلِتْكُم</a> مِّنْ أَعْمَٰلِكُمْ شَيْـًٔا ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "لَيْتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:54.880Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَلِتْكُم is in the derivative form: لَيْتَ",
+    "rootDefinitionHtml": "ل/ي/<br>ت",
+    "mainDefinitionHtml": "لَيْتَ layta (or wishing) particle (حَرْف للتَّمَنِّي), generally relating to something impossible, a sister of particle ʾinna (اِنَّ وأخواتها) (q.v.), occurring <br><br><strong>14 </strong>times in the Qur’an. Like ʾinna (إِنَّ), layta (لَيْتَ) governs a nominal sentence of which the subject is in the accusative case and the predicate in the nominative, ‘would that …!’, ‘I wish that …!’, ‘if only …!’ <br><br>(25:28) لَيْتَنِي لَمْ أَتَّخِذْ فُلاَنًا خَلِيلاً if only I had not taken so‐and‐so for a friend! لَيْتَ is often preceded with يَا yā for emphasis as in <br><br>(36:26) قِيلَ ادْخُلِ الْجَنَّةَ قَالَ يَالَيْتَ قَوْمِي يَعْلَمُونَ‏ it was said, ‘Enter the Garden,’ and he said, ‘Would that my people knew!’",
+    "mainEntryId": "wdef-ل-ي-ت.لَيْتَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ي-ت",
+        "label": "ل-ي-ت",
+        "definitionHtml": "ل/ي/<br>ت",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ي-ت.لَيْتَ",
+        "label": "لَيْتَ",
+        "definitionHtml": "لَيْتَ layta (or wishing) particle (حَرْف للتَّمَنِّي), generally relating to something impossible, a sister of particle ʾinna (اِنَّ وأخواتها) (q.v.), occurring <br><br><strong>14 </strong>times in the Qur’an. Like ʾinna (إِنَّ), layta (لَيْتَ) governs a nominal sentence of which the subject is in the accusative case and the predicate in the nominative, ‘would that …!’, ‘I wish that …!’, ‘if only …!’ <br><br>(25:28) لَيْتَنِي لَمْ أَتَّخِذْ فُلاَنًا خَلِيلاً if only I had not taken so‐and‐so for a friend! لَيْتَ is often preceded with يَا yā for emphasis as in <br><br>(36:26) قِيلَ ادْخُلِ الْجَنَّةَ قَالَ يَالَيْتَ قَوْمِي يَعْلَمُونَ‏ it was said, ‘Enter the Garden,’ and he said, ‘Would that my people knew!’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:10.878Z",
+      "refword": "49:14:20",
+      "lexword": "يَلِتْكُم"
+    }
+  }
+}

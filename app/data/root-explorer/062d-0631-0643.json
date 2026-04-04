@@ -1,0 +1,74 @@
+{
+  "root": "حرك",
+  "rootArabic": "حرك",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُحَرِّكُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُحَرِّكُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 75,
+      "ayah": 16,
+      "text": "لَا تُحَرِّكْ بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تُحَرِّكْ</a> بِهِۦ لِسَانَكَ لِتَعْجَلَ بِهِۦٓ",
+      "derivedForms": [
+        "تُحَرِّكُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:00.359Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form II) imperfect verb, jussive mood",
+    "derivativeNote": "تُحَرِّكْ is in the derivative form: تُحَرِّكُ",
+    "rootDefinitionHtml": "ح/ر/ك ḥ–r–k movement, to move, to be agile, to be lively and intelligent; the joint between the head and the neck. Of this root, تُحَرِّكُ tuḥarrik occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُحَرِّكُ tuḥarrik [imperf. of v. II حَرَّك ḥarraka, trans. with prep. ﺒ] to move, to stir <br><br>(75:16) لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ [Prophet] do not move your tongue with it [Qur’anic verses as they are being revealed] in an attempt to hasten it [your",
+    "mainEntryId": "wdef-ح-ر-ك.تُحَرِّكُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ك",
+        "label": "ح-ر-ك",
+        "definitionHtml": "ح/ر/ك ḥ–r–k movement, to move, to be agile, to be lively and intelligent; the joint between the head and the neck. Of this root, تُحَرِّكُ tuḥarrik occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ك.تُحَرِّكُ",
+        "label": "تُحَرِّكُ",
+        "definitionHtml": "تُحَرِّكُ tuḥarrik [imperf. of v. II حَرَّك ḥarraka, trans. with prep. ﺒ] to move, to stir <br><br>(75:16) لاَ تُحَرِّكْ بِهِ لِسَانَكَ لِتَعْجَلَ بِهِ [Prophet] do not move your tongue with it [Qur’anic verses as they are being revealed] in an attempt to hasten it [your",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:32.497Z",
+      "refword": "75:16:2",
+      "lexword": "تُحَرِّكْ"
+    }
+  }
+}

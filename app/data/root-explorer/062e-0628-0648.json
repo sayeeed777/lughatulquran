@@ -1,0 +1,74 @@
+{
+  "root": "خبو",
+  "rootArabic": "خبو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "خَبَا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَبَا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 97,
+      "text": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "highlightedHtml": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا <a class=\"highlight-text\">خَبَتْ</a> زِدْنَٰهُمْ سَعِيرًا",
+      "derivedForms": [
+        "خَبَا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:03.455Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "خَبَتْ is in the derivative form: خَبَا",
+    "rootDefinitionHtml": "خ/ب/و   kh–b–w (there is a degree of overlap between this root and root خ/ب/أ kh–b–ʾ) a small bedouin woollen tent, a house; the encasing of grains inside the ear of corn; (of fire) to abate, to die out, to become extinct. Of this root, خَبَتْ khabat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "خَبَا khabā u [v. intrans.] to become extinct, to abate <br><br>(17:97) مَأْوَاهُمْ جَهَنَّمُ كُلَّمَا خَبَتْ زِدْنَاهُمْ سَعِيرًا Hell is their Home, whenever it abates, We increase the blaze for them.",
+    "mainEntryId": "wdef-خ-ب-و.خَبَا",
+    "entries": [
+      {
+        "id": "wdef-خ-ب-و",
+        "label": "خ-ب-و",
+        "definitionHtml": "خ/ب/و   kh–b–w (there is a degree of overlap between this root and root خ/ب/أ kh–b–ʾ) a small bedouin woollen tent, a house; the encasing of grains inside the ear of corn; (of fire) to abate, to die out, to become extinct. Of this root, خَبَتْ khabat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ب-و.خَبَا",
+        "label": "خَبَا",
+        "definitionHtml": "خَبَا khabā u [v. intrans.] to become extinct, to abate <br><br>(17:97) مَأْوَاهُمْ جَهَنَّمُ كُلَّمَا خَبَتْ زِدْنَاهُمْ سَعِيرًا Hell is their Home, whenever it abates, We increase the blaze for them.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:30.812Z",
+      "refword": "17:97:25",
+      "lexword": "خَبَتْ"
+    }
+  }
+}

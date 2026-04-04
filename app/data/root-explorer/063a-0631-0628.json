@@ -1,0 +1,446 @@
+{
+  "root": "غرب",
+  "rootArabic": "غرب",
+  "stats": {
+    "totalOccurrences": 19,
+    "derivativeCount": 8,
+    "surahCount": 13,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "المَغْرِب",
+      "count": 7
+    },
+    {
+      "form": "المَغارِب",
+      "count": 2
+    },
+    {
+      "form": "غُراب",
+      "count": 2
+    },
+    {
+      "form": "غَرَبَ",
+      "count": 2
+    },
+    {
+      "form": "غَرْبىّ",
+      "count": 2
+    },
+    {
+      "form": "غُروب",
+      "count": 2
+    },
+    {
+      "form": "المَغْرِبَين",
+      "count": 1
+    },
+    {
+      "form": "غَرابيب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "المَغْرِب",
+          "count": 4,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غُراب",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغارِب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "غَرَبَ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "المَغْرِب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُروب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَرْبىّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغْرِب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَرْبىّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَرابيب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُروب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغْرِبَين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغارِب",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغْرِب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 115,
+      "text": "وَلِلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ فَأَيْنَمَا تُوَلُّوا۟ فَثَمَّ وَجْهُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٌ",
+      "highlightedHtml": "وَلِلَّهِ ٱلْمَشْرِقُ <a class=\"highlight-text\">وَٱلْمَغْرِبُ</a> ۚ فَأَيْنَمَا تُوَلُّوا۟ فَثَمَّ وَجْهُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٌ",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 142,
+      "text": "سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ <a class=\"highlight-text\">وَٱلْمَغْرِبُ</a> ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 177,
+      "text": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
+      "highlightedHtml": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ <a class=\"highlight-text\">وَٱلْمَغْرِبِ</a> وَلَٰكِنَّ ٱلْبِرَّ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 258,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِۦمَ فِى رَبِّهِۦٓ أَنْ آتَاهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِۦمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ ٱلْمَغْرِبِ فَبُهِتَ ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِى حَآجَّ إِبْرَٰهِۦمَ فِى رَبِّهِۦٓ أَنْ آتَاهُ ٱللَّهُ ٱلْمُلْكَ إِذْ قَالَ إِبْرَٰهِۦمُ رَبِّىَ ٱلَّذِى يُحْىِۦ وَيُمِيتُ قَالَ أَنَا۠ أُحْىِۦ وَأُمِيتُ ۖ قَالَ إِبْرَٰهِۦمُ فَإِنَّ ٱللَّهَ يَأْتِى بِٱلشَّمْسِ مِنَ ٱلْمَشْرِقِ فَأْتِ بِهَا مِنَ <a class=\"highlight-text\">ٱلْمَغْرِبِ</a> فَبُهِتَ ٱلَّذِى كَفَرَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 31,
+      "text": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "highlightedHtml": "فَبَعَثَ ٱللَّهُ <a class=\"highlight-text\">غُرَابًا</a> يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا <a class=\"highlight-text\">ٱلْغُرَابِ</a> فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "derivedForms": [
+        "غُراب",
+        "غُراب"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 137,
+      "text": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
+      "highlightedHtml": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ <a class=\"highlight-text\">وَمَغَٰرِبَهَا</a> ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
+      "derivedForms": [
+        "المَغارِب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 17,
+      "text": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "highlightedHtml": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا <a class=\"highlight-text\">غَرَبَت</a> تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "derivedForms": [
+        "غَرَبَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 86,
+      "text": "حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا بَلَغَ <a class=\"highlight-text\">مَغْرِبَ</a> ٱلشَّمْسِ وَجَدَهَا <a class=\"highlight-text\">تَغْرُبُ</a> فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا",
+      "derivedForms": [
+        "المَغْرِب",
+        "غَرَبَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 130,
+      "text": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "highlightedHtml": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ <a class=\"highlight-text\">غُرُوبِهَا</a> ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "derivedForms": [
+        "غُروب"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 35,
+      "text": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا <a class=\"highlight-text\">غَرْبِيَّةٍ</a> يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "غَرْبىّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 28,
+      "text": "قَالَ رَبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُمْ تَعْقِلُونَ",
+      "highlightedHtml": "قَالَ رَبُّ ٱلْمَشْرِقِ <a class=\"highlight-text\">وَٱلْمَغْرِبِ</a> وَمَا بَيْنَهُمَآ ۖ إِن كُنتُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 44,
+      "text": "وَمَا كُنتَ بِجَانِبِ ٱلْغَرْبِىِّ إِذْ قَضَيْنَآ إِلَىٰ مُوسَى ٱلْأَمْرَ وَمَا كُنتَ مِنَ ٱلشَّٰهِدِينَ",
+      "highlightedHtml": "وَمَا كُنتَ بِجَانِبِ <a class=\"highlight-text\">ٱلْغَرْبِىِّ</a> إِذْ قَضَيْنَآ إِلَىٰ مُوسَى ٱلْأَمْرَ وَمَا كُنتَ مِنَ ٱلشَّٰهِدِينَ",
+      "derivedForms": [
+        "غَرْبىّ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 27,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا <a class=\"highlight-text\">وَغَرَابِيبُ</a> سُودٌ",
+      "derivedForms": [
+        "غَرابيب"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 39,
+      "text": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ",
+      "highlightedHtml": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ <a class=\"highlight-text\">ٱلْغُرُوبِ</a>",
+      "derivedForms": [
+        "غُروب"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 17,
+      "text": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ",
+      "highlightedHtml": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ <a class=\"highlight-text\">ٱلْمَغْرِبَيْنِ</a>",
+      "derivedForms": [
+        "المَغْرِبَين"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 40,
+      "text": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَٰرِقِ وَٱلْمَغَٰرِبِ إِنَّا لَقَٰدِرُونَ",
+      "highlightedHtml": "فَلَآ أُقْسِمُ بِرَبِّ ٱلْمَشَٰرِقِ <a class=\"highlight-text\">وَٱلْمَغَٰرِبِ</a> إِنَّا لَقَٰدِرُونَ",
+      "derivedForms": [
+        "المَغارِب"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 9,
+      "text": "رَّبُّ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًا",
+      "highlightedHtml": "رَّبُّ ٱلْمَشْرِقِ <a class=\"highlight-text\">وَٱلْمَغْرِبِ</a> لَآ إِلَٰهَ إِلَّا هُوَ فَٱتَّخِذْهُ وَكِيلًا",
+      "derivedForms": [
+        "المَغْرِب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:50.347Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "وَٱلْمَغْرِبُ is in the derivative form: المَغْرِب",
+    "rootDefinitionHtml": "غ/ر/ب   gh–r–b sunset, the west, to travel westward<br>; to leave home, to become a stranger, strange, obscure words; high sea waves; crow; black men. <br><br>Of this root, 8 forms occur 19 times in the Qur’an:<br> غَرَبَ gharaba 2 times; غُروب ghurūb 2 times; المَغْرِب ʾal‐maghrib 7 times; المَغْرِبَين ʾal‐maghribayn 1 time; المَغارِب ʾal‐maghārib 2 times; غَرْبىّ gharbiyy 2 times; غُراب ghurāb 2 times and غَرابيب gharābıb 1 time.",
+    "mainDefinitionHtml": "المَغْرِب ʾal‐maghrib [n. of place/time; v. n.] <br><br><strong>1 </strong>the West, time or place of sun setting; sun setting <br><br>(2:115) وَلِلَّهِ‏ ‏الْمَشْرِقُ‏ وَالْمَغْرِبُ فَأَيْنَمَا‏ ‏تُوَلُّوا‏ ‏فَثَمَّ‏ ‏وَجْهُ ‏‏اللَّهِ‏‏ ‏‏the East and the West belong to God–wherever you turn, you will find [lit. there is] God’s Face <br><br><strong>2 </strong>place where/time when the sun sets <br><br>(18:86) حَتَّى‏ ‏إِذَا‏ ‏بَلَغَ‏ ‏مَغْرِبَ‏ ‏الشَّمْسِ وَجَدَهَا‏ ‏تَغْرُبُ‏ ‏فِي‏ ‏عَيْنٍ‏ ‏حَمِئَةٍ‏ till, when he came to the place/time of sunset he discovered the sun setting into a murky pool; *<br><br>(73:9) رَب المَشْرِقِ والمَغْرِب God of God of All [lit. the East and the West].",
+    "mainEntryId": "wdef-غ-ر-ب.المَغْرِب",
+    "entries": [
+      {
+        "id": "wdef-غ-ر-ب",
+        "label": "غ-ر-ب",
+        "definitionHtml": "غ/ر/ب   gh–r–b sunset, the west, to travel westward<br>; to leave home, to become a stranger, strange, obscure words; high sea waves; crow; black men. <br><br>Of this root, 8 forms occur 19 times in the Qur’an:<br> غَرَبَ gharaba 2 times; غُروب ghurūb 2 times; المَغْرِب ʾal‐maghrib 7 times; المَغْرِبَين ʾal‐maghribayn 1 time; المَغارِب ʾal‐maghārib 2 times; غَرْبىّ gharbiyy 2 times; غُراب ghurāb 2 times and غَرابيب gharābıb 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.المَغْرِب",
+        "label": "المَغْرِب",
+        "definitionHtml": "المَغْرِب ʾal‐maghrib [n. of place/time; v. n.] <br><br><strong>1 </strong>the West, time or place of sun setting; sun setting <br><br>(2:115) وَلِلَّهِ‏ ‏الْمَشْرِقُ‏ وَالْمَغْرِبُ فَأَيْنَمَا‏ ‏تُوَلُّوا‏ ‏فَثَمَّ‏ ‏وَجْهُ ‏‏اللَّهِ‏‏ ‏‏the East and the West belong to God–wherever you turn, you will find [lit. there is] God’s Face <br><br><strong>2 </strong>place where/time when the sun sets <br><br>(18:86) حَتَّى‏ ‏إِذَا‏ ‏بَلَغَ‏ ‏مَغْرِبَ‏ ‏الشَّمْسِ وَجَدَهَا‏ ‏تَغْرُبُ‏ ‏فِي‏ ‏عَيْنٍ‏ ‏حَمِئَةٍ‏ till, when he came to the place/time of sunset he discovered the sun setting into a murky pool; *<br><br>(73:9) رَب المَشْرِقِ والمَغْرِب God of God of All [lit. the East and the West].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ر-ب.المَغارِب",
+        "label": "المَغارِب",
+        "definitionHtml": "المَغارِب ʾal‐maghārib [pl. of مَغْرِب maghrib] the various places where the sun sets throughout the year, or the setting places of all the stars and planets <br><br>(70:40)‏ ‏وَالْمَغَارِبِ‏ ‏إِنَّا‏ ‏لَقَادِرُونَ ...‏ فَلاَ‏ ‏أُقْسِمُ‏ ‏بِرَبِّ‏ ‏الْمَشَارِق no indeed, by the Lord of the rising‐places and setting‐places [of planets?], We are well capable …",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.المَغْرِبَين",
+        "label": "المَغْرِبَين",
+        "definitionHtml": "المَغْرِبَين ʾal‐maghribayn [dual n. of مَغْرِب maghrib] interpreted as either the two places where the sun sets at the summer and winter solstices or the two setting places of the sun and the moon <br><br>(55:17) رَبُّ‏ ‏الْمَشْرِقَيْنِ‏ ‏وَرَب الْمَغْرِبَيْن Lord of the two risings and Lord of the two settings (or, the two places of rising and two places of setting).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.غَرابيب",
+        "label": "غَرابيب",
+        "definitionHtml": "غَرابيب gharābıb [pl. of n. غِرْبيب ghirbıb, used adjectivally] black, jet (black) <br><br>(35:27) وَمِنَ الْجِبَالِ جُدَدٌ بِيضٌ وَحُمْرٌ مُخْتَلِفٌ أَلْوَانُهَا وَغَرَابِيبُ سُودٌ and in the mountains, there are tracks/layers of white and red of various hues, and jet black.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.غَرَبَ",
+        "label": "غَرَبَ",
+        "definitionHtml": "غَرَبَ gharaba u [v. intrans.] (of the celestial bodies) to set <br><br>(18:86) حَتَّى‏ ‏إِذَا‏ ‏بَلَغَ‏ ٍ مَغْرِبَ الشَّمْس‏ ‏وَجَدَهَا‏ ‏تَغْرُبُ‏ ‏فِي‏ ‏عَيْنٍ‏ ‏حَمِئَةٍ till, when he came to the place/time of sunset he discovered the sun setting into a murky pool.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.غَرْبىّ",
+        "label": "غَرْبىّ",
+        "definitionHtml": "غَرْبىّ gharbiyy [quasi‐act. part.] western, westerly, of the west <br><br>(24:35) يُوقَدُ‏ ‏مِنْ‏ ‏شَجَرَةٍ‏ ‏‏مُبَارَكَةٍ‏ ‏زَيْتُونَةٍ‏ ‏لاَ‏ ‏شَرْقِيَّة‏ وَلاَ‏ ‏غَرْبِيَّةٍ‏ fuelled from a blessed olive tree, neither of the east nor of the west.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.غُراب",
+        "label": "غُراب",
+        "definitionHtml": "غُراب ghurāb [n.] raven, crow <br><br>(5:31) فَبَعَثَ‏ ‏اللَّهُ‏ ‏غُرَابًا ‏يَبْحَثُ‏ فِى ‏الأَرْضِ o God sent a raven scratching the earth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ب.غُروب",
+        "label": "غُروب",
+        "definitionHtml": "غُروب ghurūb [v. n.] setting of the sun <br><br>(50:39)‏‏وَسَبِّحْ‏ ‏بِحَمْدِ‏ ‏رَبِّكَ‏ ‏قَبْلَ‏ ‏طُلُوعِ‏ ‏الشَّمْسِ‏ وَقَبْلَ‏ الْغُرُوبِ celebrate the praise of your Lord before the rising of the sun and before the setting [constantly].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:19.340Z",
+      "refword": "2:115:3",
+      "lexword": "وَٱلْمَغْرِبُ"
+    }
+  }
+}

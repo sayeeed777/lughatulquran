@@ -1,0 +1,74 @@
+{
+  "root": "ذبذب",
+  "rootArabic": "ذبذب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُذَبْذَبِينَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُذَبْذَبِينَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 143,
+      "text": "مُّذَبْذَبِينَ بَيْنَ ذَٰلِكَ لَآ إِلَىٰ هَٰٓؤُلَآءِ وَلَآ إِلَىٰ هَٰٓؤُلَآءِ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًا",
+      "highlightedHtml": "<a class=\"highlight-text\">مُّذَبْذَبِينَ</a> بَيْنَ ذَٰلِكَ لَآ إِلَىٰ هَٰٓؤُلَآءِ وَلَآ إِلَىٰ هَٰٓؤُلَآءِ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَلَن تَجِدَ لَهُۥ سَبِيلًا",
+      "derivedForms": [
+        "مُذَبْذَبِينَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:39.901Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form II) passive participle",
+    "derivativeNote": "مُّذَبْذَبِينَ is in the derivative form: مُذَبْذَبِينَ",
+    "rootDefinitionHtml": "ذ/ب/ذ/ب   dh–b–dh–b to make something dangle or move to and fro; to perplex; to harm; to be in a state of commotion. Of this root, only مُذَبْذَبُون mudhabdhabūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُذَبْذَبِينَ mudhabdhabına [pl. of pass. part. مُذَبْذَبٌ mudhabdhab] ones who are pulled from two opposite directions, who keep swinging from one side to the other, waverers <br><br>(4:143) مُذَبْذَبِينَ بَيْنَ ذَلِكَ لاَ إِلَى هَؤُلاَءِ وَلاَ إِلَى هَؤُلاَءِ wavering all the time between [this and] that, [belonging] neither to one side nor the other.",
+    "mainEntryId": "wdef-ذ-ب-ذ-ب.مُذَبْذَبِينَ",
+    "entries": [
+      {
+        "id": "wdef-ذ-ب-ذ-ب",
+        "label": "ذ-ب-ذ-ب",
+        "definitionHtml": "ذ/ب/ذ/ب   dh–b–dh–b to make something dangle or move to and fro; to perplex; to harm; to be in a state of commotion. Of this root, only مُذَبْذَبُون mudhabdhabūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ب-ذ-ب.مُذَبْذَبِينَ",
+        "label": "مُذَبْذَبِينَ",
+        "definitionHtml": "مُذَبْذَبِينَ mudhabdhabına [pl. of pass. part. مُذَبْذَبٌ mudhabdhab] ones who are pulled from two opposite directions, who keep swinging from one side to the other, waverers <br><br>(4:143) مُذَبْذَبِينَ بَيْنَ ذَلِكَ لاَ إِلَى هَؤُلاَءِ وَلاَ إِلَى هَؤُلاَءِ wavering all the time between [this and] that, [belonging] neither to one side nor the other.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:37.708Z",
+      "refword": "4:143:1",
+      "lexword": "مُّذَبْذَبِينَ"
+    }
+  }
+}

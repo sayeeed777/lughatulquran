@@ -1,0 +1,169 @@
+{
+  "root": "درا",
+  "rootArabic": "درا",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "يَدْرَأُ",
+      "count": 4
+    },
+    {
+      "form": "ادَّارأَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ادَّارأَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدْرَأُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدْرَأُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدْرَأُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدْرَأُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 72,
+      "text": "وَإِذْ قَتَلْتُمْ نَفْسًا فَٱدَّٰرَْٰٔتُمْ فِيهَا ۖ وَٱللَّهُ مُخْرِجٌ مَّا كُنتُمْ تَكْتُمُونَ",
+      "highlightedHtml": "وَإِذْ قَتَلْتُمْ نَفْسًا <a class=\"highlight-text\">فَٱدَّٰرَْٰٔتُمْ</a> فِيهَا ۖ وَٱللَّهُ مُخْرِجٌ مَّا كُنتُمْ تَكْتُمُونَ",
+      "derivedForms": [
+        "ادَّارأَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 168,
+      "text": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ <a class=\"highlight-text\">فَٱدْرَءُوا۟</a> عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "يَدْرَأُ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 22,
+      "text": "وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ",
+      "highlightedHtml": "وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً <a class=\"highlight-text\">وَيَدْرَءُونَ</a> بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ",
+      "derivedForms": [
+        "يَدْرَأُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 8,
+      "text": "وَيَدْرَؤُا۟ عَنْهَا ٱلْعَذَابَ أَن تَشْهَدَ أَرْبَعَ شَهَٰدَٰتٍۭ بِٱللَّهِ ۙ إِنَّهُۥ لَمِنَ ٱلْكَٰذِبِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيَدْرَؤُا۟</a> عَنْهَا ٱلْعَذَابَ أَن تَشْهَدَ أَرْبَعَ شَهَٰدَٰتٍۭ بِٱللَّهِ ۙ إِنَّهُۥ لَمِنَ ٱلْكَٰذِبِينَ",
+      "derivedForms": [
+        "يَدْرَأُ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 54,
+      "text": "أُو۟لَٰٓئِكَ يُؤْتَوْنَ أَجْرَهُم مَّرَّتَيْنِ بِمَا صَبَرُوا۟ وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ يُؤْتَوْنَ أَجْرَهُم مَّرَّتَيْنِ بِمَا صَبَرُوا۟ <a class=\"highlight-text\">وَيَدْرَءُونَ</a> بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "derivedForms": [
+        "يَدْرَأُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:08.154Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VI) perfect verb",
+    "derivativeNote": "فَٱدَّٰرَْٰٔتُمْ is in the derivative form: ادَّارأَ",
+    "rootDefinitionHtml": "د/ر/أ   d–r–ʾ to push, to dispute; to delay, to avert; to come upon suddenly; to spread out; to hide, to shelter, a hideout, to shield, a shield; to support. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> يَدْرَأُ yadraʾ 4 times and ادَّارأَ ʾiddāraʾa 1 time.",
+    "mainDefinitionHtml": "ادَّارأَ ʾiddāraʾa [assimilated form of تَدَارَأ tadāraʾa v. VI, intrans.] to hide behind one another, to dispute with one another, to accuse one another; or to connive with one another in order to conceal something <br><br>(2:72) وَإِذْ قَتَلْتُمْ نَفْسًا فَادَّارَأْتُمْ فِيهَا then, when you killed someone and blamed one another (or, you disputed with one another over it).",
+    "mainEntryId": "wdef-د-ر-أ.ادَّارأَ",
+    "entries": [
+      {
+        "id": "wdef-د-ر-أ",
+        "label": "د-ر-أ",
+        "definitionHtml": "د/ر/أ   d–r–ʾ to push, to dispute; to delay, to avert; to come upon suddenly; to spread out; to hide, to shelter, a hideout, to shield, a shield; to support. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> يَدْرَأُ yadraʾ 4 times and ادَّارأَ ʾiddāraʾa 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ر-أ.ادَّارأَ",
+        "label": "ادَّارأَ",
+        "definitionHtml": "ادَّارأَ ʾiddāraʾa [assimilated form of تَدَارَأ tadāraʾa v. VI, intrans.] to hide behind one another, to dispute with one another, to accuse one another; or to connive with one another in order to conceal something <br><br>(2:72) وَإِذْ قَتَلْتُمْ نَفْسًا فَادَّارَأْتُمْ فِيهَا then, when you killed someone and blamed one another (or, you disputed with one another over it).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ر-أ.يَدْرَأُ",
+        "label": "يَدْرَأُ",
+        "definitionHtml": "يَدْرَأُ yadraʾ [imperf. of v. دَرَأَ daraʾa, trans.] <br><br><strong>1 </strong>to avert <br><br>(24:8) وَيَدْرَأُ عَنْهَا الْعَذَابَ أَنْ تَشْهَدَ أَرْبَعَ شَهَادَاتٍ بِاللَّهِ إِنَّهُ لَمِنَ الْكَاذِبِينَ punishment shall be averted from her if she [in turn] calls God to witness that he is [one of the] lying four times <br><br><strong>2 </strong>to repel, to overcome <br><br>(13:22) وَيَدْرَءُونَ بِالْحَسَنَةِ السَّيِّئَةَ and they repel an evil deed with a good one.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:35.551Z",
+      "refword": "2:72:4",
+      "lexword": "فَٱدَّٰرَْٰٔتُمْ"
+    }
+  }
+}

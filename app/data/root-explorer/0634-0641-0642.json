@@ -1,0 +1,282 @@
+{
+  "root": "شفق",
+  "rootArabic": "شفق",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 3,
+    "surahCount": 9,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "مُشْفِقون",
+      "count": 8
+    },
+    {
+      "form": "أشْفَق",
+      "count": 2
+    },
+    {
+      "form": "شَفَق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْفَق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْفَق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُشْفِقون",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَفَق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 49,
+      "text": "وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ مُشْفِقِينَ مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًا",
+      "highlightedHtml": "وَوُضِعَ ٱلْكِتَٰبُ فَتَرَى ٱلْمُجْرِمِينَ <a class=\"highlight-text\">مُشْفِقِينَ</a> مِمَّا فِيهِ وَيَقُولُونَ يَٰوَيْلَتَنَا مَالِ هَٰذَا ٱلْكِتَٰبِ لَا يُغَادِرُ صَغِيرَةً وَلَا كَبِيرَةً إِلَّآ أَحْصَىٰهَا ۚ وَوَجَدُوا۟ مَا عَمِلُوا۟ حَاضِرًا ۗ وَلَا يَظْلِمُ رَبُّكَ أَحَدًا",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 28,
+      "text": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يَشْفَعُونَ إِلَّا لِمَنِ ٱرْتَضَىٰ وَهُم مِّنْ خَشْيَتِهِۦ مُشْفِقُونَ",
+      "highlightedHtml": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يَشْفَعُونَ إِلَّا لِمَنِ ٱرْتَضَىٰ وَهُم مِّنْ خَشْيَتِهِۦ <a class=\"highlight-text\">مُشْفِقُونَ</a>",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 49,
+      "text": "ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَهُم مِّنَ ٱلسَّاعَةِ مُشْفِقُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَهُم مِّنَ ٱلسَّاعَةِ <a class=\"highlight-text\">مُشْفِقُونَ</a>",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 57,
+      "text": "إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيَةِ رَبِّهِم مُّشْفِقُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ هُم مِّنْ خَشْيَةِ رَبِّهِم <a class=\"highlight-text\">مُّشْفِقُونَ</a>",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 72,
+      "text": "إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًا جَهُولًا",
+      "highlightedHtml": "إِنَّا عَرَضْنَا ٱلْأَمَانَةَ عَلَى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلْجِبَالِ فَأَبَيْنَ أَن يَحْمِلْنَهَا <a class=\"highlight-text\">وَأَشْفَقْنَ</a> مِنْهَا وَحَمَلَهَا ٱلْإِنسَٰنُ ۖ إِنَّهُۥ كَانَ ظَلُومًا جَهُولًا",
+      "derivedForms": [
+        "أشْفَق"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 18,
+      "text": "يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ آمَنُوا مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَٰلٍۭ بَعِيدٍ",
+      "highlightedHtml": "يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ آمَنُوا <a class=\"highlight-text\">مُشْفِقُونَ</a> مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَٰلٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 22,
+      "text": "تَرَى ٱلظَّٰلِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا۟ وَهُوَ وَاقِعٌۢ بِهِمْ ۗ وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "highlightedHtml": "تَرَى ٱلظَّٰلِمِينَ <a class=\"highlight-text\">مُشْفِقِينَ</a> مِمَّا كَسَبُوا۟ وَهُوَ وَاقِعٌۢ بِهِمْ ۗ وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 26,
+      "text": "قَالُوٓا۟ إِنَّا كُنَّا قَبْلُ فِىٓ أَهْلِنَا مُشْفِقِينَ",
+      "highlightedHtml": "قَالُوٓا۟ إِنَّا كُنَّا قَبْلُ فِىٓ أَهْلِنَا <a class=\"highlight-text\">مُشْفِقِينَ</a>",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 13,
+      "text": "أَأَشْفَقْتُمْ أَن تُقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَأَشْفَقْتُمْ</a> أَن تُقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "أشْفَق"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 27,
+      "text": "وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم <a class=\"highlight-text\">مُّشْفِقُونَ</a>",
+      "derivedForms": [
+        "مُشْفِقون"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 16,
+      "text": "فَلَآ أُقْسِمُ بِٱلشَّفَقِ",
+      "highlightedHtml": "فَلَآ أُقْسِمُ <a class=\"highlight-text\">بِٱلشَّفَقِ</a>",
+      "derivedForms": [
+        "شَفَق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:14.961Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form IV) active participle",
+    "derivativeNote": "مُشْفِقِينَ is in the derivative form: مُشْفِقون",
+    "rootDefinitionHtml": "ش/ف/ق   sh–f–q to be niggardly or covetous<br>; to be afraid, to be concerned, to be worried; to be affectionate, to be tender‐hearted; to be weary; kindness; worry; redness on the horizon after sunset. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> أشْفَق ʾashfaq 2 times; مُشْفِقون mushfiqūn 8 times and شَفَق shafaq 1 time.",
+    "mainDefinitionHtml": "مُشْفِقون mushfiqūn [pl. of act. part. مُشْفِق mushfiq] ones who are in fear, those who are anxious <br><br>(42:22) تَرَى الظَّالِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا you will see the unjust fearful of that which they have earned.",
+    "mainEntryId": "wdef-ش-ف-ق.مُشْفِقون",
+    "entries": [
+      {
+        "id": "wdef-ش-ف-ق",
+        "label": "ش-ف-ق",
+        "definitionHtml": "ش/ف/ق   sh–f–q to be niggardly or covetous<br>; to be afraid, to be concerned, to be worried; to be affectionate, to be tender‐hearted; to be weary; kindness; worry; redness on the horizon after sunset. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> أشْفَق ʾashfaq 2 times; مُشْفِقون mushfiqūn 8 times and شَفَق shafaq 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ف-ق.مُشْفِقون",
+        "label": "مُشْفِقون",
+        "definitionHtml": "مُشْفِقون mushfiqūn [pl. of act. part. مُشْفِق mushfiq] ones who are in fear, those who are anxious <br><br>(42:22) تَرَى الظَّالِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا you will see the unjust fearful of that which they have earned.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ف-ق.أشْفَق",
+        "label": "أشْفَق",
+        "definitionHtml": "أشْفَق ʾashfaq I [v. IV, intrans.] to feel anxiety, to be concerned, to be afraid <br><br>(33:72) إِنَّا عَرَضْنَا الأَمَانَةَ عَلَى السَّمَوَاتِ وَالأَرْضِ وَالْجِبَالِ فَأَبَيْنَ أَنْ يَحْمِلْنَهَا وَأَشْفَقْنَ مِنْهَا We offered the Trust (q.v. الأمانة ʾal‐ʾamānatu) to the heavens, the earth and the mountains, yet they refused to carry it and were afraid of it II [v. IV, trans.] to have miserly urges, to be reticent, to be weary of <br><br>(58:13) ءَأَشْفَقْتُمْ أَنْ تُقَدِّمُوا بَيْنَ يَدَيْ نَجْوَاكُمْ صَدَقَاتٍ have you found it burdensome to give alms before your consultation [with the Prophet]?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ف-ق.شَفَق",
+        "label": "شَفَق",
+        "definitionHtml": "شَفَق shafaq [n.] the afterglow of sunset, twilight <br><br>(84:16) فَلاَ أُقْسِمُ بِالشَّفَقِ but no, I swear by the twilight.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:31.917Z",
+      "refword": "18:49:5",
+      "lexword": "مُشْفِقِينَ"
+    }
+  }
+}

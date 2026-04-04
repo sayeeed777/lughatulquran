@@ -1,0 +1,74 @@
+{
+  "root": "تلل",
+  "rootArabic": "تلل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَلَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 103,
+      "text": "فَلَمَّآ أَسْلَمَا وَتَلَّهُۥ لِلْجَبِينِ",
+      "highlightedHtml": "فَلَمَّآ أَسْلَمَا <a class=\"highlight-text\">وَتَلَّهُۥ</a> لِلْجَبِينِ",
+      "derivedForms": [
+        "تَلَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:26.603Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَتَلَّهُۥ is in the derivative form: تَلَّ",
+    "rootDefinitionHtml": "ت/ل/ل   t–l–l hill, heap, mound, elevation, to mount, to heap up; to knock down, to lay down, to be tough, to be stocky, to agitate. Of this root, تَلَّ talla occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَلَّ talla i [v. trans.] to throw or lay someone face down, with his mouth or forehead touching the ground, or on his side with the side of his forehead touching the ground <br><br>(37:103) فَلَمَّا أَسْلَمَا وَتَلَّهُ لِلْجَبِين when they had both submitted [to God], and he had laid him down on his forehead.",
+    "mainEntryId": "wdef-ت-ل-ل.تَلَّ",
+    "entries": [
+      {
+        "id": "wdef-ت-ل-ل",
+        "label": "ت-ل-ل",
+        "definitionHtml": "ت/ل/ل   t–l–l hill, heap, mound, elevation, to mount, to heap up; to knock down, to lay down, to be tough, to be stocky, to agitate. Of this root, تَلَّ talla occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ل-ل.تَلَّ",
+        "label": "تَلَّ",
+        "definitionHtml": "تَلَّ talla i [v. trans.] to throw or lay someone face down, with his mouth or forehead touching the ground, or on his side with the side of his forehead touching the ground <br><br>(37:103) فَلَمَّا أَسْلَمَا وَتَلَّهُ لِلْجَبِين when they had both submitted [to God], and he had laid him down on his forehead.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:38.055Z",
+      "refword": "37:103:3",
+      "lexword": "وَتَلَّهُۥ"
+    }
+  }
+}

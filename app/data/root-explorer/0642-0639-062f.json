@@ -1,0 +1,567 @@
+{
+  "root": "قعد",
+  "rootArabic": "قعد",
+  "stats": {
+    "totalOccurrences": 31,
+    "derivativeCount": 6,
+    "surahCount": 15,
+    "ayahCount": 26
+  },
+  "derivatives": [
+    {
+      "form": "قَعَدَ",
+      "count": 12
+    },
+    {
+      "form": "قَاعِد",
+      "count": 7
+    },
+    {
+      "form": "قُعُود",
+      "count": 4
+    },
+    {
+      "form": "مَقْعَد",
+      "count": 4
+    },
+    {
+      "form": "قَوَاعِد",
+      "count": 3
+    },
+    {
+      "form": "قَعِيد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَوَاعِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "قُعُود",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مَقْعَد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "قَاعِد",
+          "count": 3,
+          "totalInQuran": 7
+        },
+        {
+          "form": "قَعَدَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "قُعُود",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاعِد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 4,
+          "totalInQuran": 12
+        },
+        {
+          "form": "قَاعِد",
+          "count": 2,
+          "totalInQuran": 7
+        },
+        {
+          "form": "قُعُود",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مَقْعَد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاعِد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَوَاعِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَوَاعِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَعِيد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَقْعَد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَعَدَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "مَقْعَد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قُعُود",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 127,
+      "text": "وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ <a class=\"highlight-text\">ٱلْقَوَاعِدَ</a> مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "قَوَاعِد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 121,
+      "text": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ <a class=\"highlight-text\">مَقَٰعِدَ</a> لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "مَقْعَد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 168,
+      "text": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ وَقَعَدُوا۟ لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "ٱلَّذِينَ قَالُوا۟ لِإِخْوَٰنِهِمْ <a class=\"highlight-text\">وَقَعَدُوا۟</a> لَوْ أَطَاعُونَا مَا قُتِلُوا۟ ۗ قُلْ فَٱدْرَءُوا۟ عَنْ أَنفُسِكُمُ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 191,
+      "text": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "highlightedHtml": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًا <a class=\"highlight-text\">وَقُعُودًا</a> وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "derivedForms": [
+        "قُعُود"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 95,
+      "text": "لَّا يَسْتَوِى يَسْتَوِى ٱلْقَٰعِدُونَ مِنَ ٱلْمُؤْمِنِينَ غَيْرُ أُو۟لِى ٱلضَّرَرِ وَٱلْمُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۚ فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى ٱلْقَٰعِدِينَ دَرَجَةً ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَفَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ عَلَى ٱلْقَٰعِدِينَ أَجْرًا عَظِيمًا",
+      "highlightedHtml": "لَّا يَسْتَوِى يَسْتَوِى <a class=\"highlight-text\">ٱلْقَٰعِدُونَ</a> مِنَ ٱلْمُؤْمِنِينَ غَيْرُ أُو۟لِى ٱلضَّرَرِ وَٱلْمُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ ۚ فَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ عَلَى <a class=\"highlight-text\">ٱلْقَٰعِدِينَ</a> دَرَجَةً ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَفَضَّلَ ٱللَّهُ ٱلْمُجَٰهِدِينَ عَلَى <a class=\"highlight-text\">ٱلْقَٰعِدِينَ</a> أَجْرًا عَظِيمًا",
+      "derivedForms": [
+        "قَاعِد",
+        "قَاعِد",
+        "قَاعِد"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 103,
+      "text": "فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًا مَّوْقُوتًا",
+      "highlightedHtml": "فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَٰمًا <a class=\"highlight-text\">وَقُعُودًا</a> وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَٰبًا مَّوْقُوتًا",
+      "derivedForms": [
+        "قُعُود"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 140,
+      "text": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "highlightedHtml": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا <a class=\"highlight-text\">تَقْعُدُوا۟</a> مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 24,
+      "text": "قَالُوا۟ يَٰمُوسَىٰٓ إِنَّا لَن نَّدْخُلَهَآ أَبَدًا مَّا دَامُوا۟ فِيهَا ۖ فَٱذْهَبْ أَنتَ وَرَبُّكَ فَقَٰتِلَآ إِنَّا هَٰهُنَا قَٰعِدُونَ",
+      "highlightedHtml": "قَالُوا۟ يَٰمُوسَىٰٓ إِنَّا لَن نَّدْخُلَهَآ أَبَدًا مَّا دَامُوا۟ فِيهَا ۖ فَٱذْهَبْ أَنتَ وَرَبُّكَ فَقَٰتِلَآ إِنَّا هَٰهُنَا <a class=\"highlight-text\">قَٰعِدُونَ</a>",
+      "derivedForms": [
+        "قَاعِد"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 68,
+      "text": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا <a class=\"highlight-text\">تَقْعُدْ</a> بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 16,
+      "text": "قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ",
+      "highlightedHtml": "قَالَ فَبِمَآ أَغْوَيْتَنِى <a class=\"highlight-text\">لَأَقْعُدَنَّ</a> لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 86,
+      "text": "وَلَا تَقْعُدُوا۟ بِكُلِّ صِرَٰطٍ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ آمَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَقْعُدُوا۟</a> بِكُلِّ صِرَٰطٍ تُوعِدُونَ وَتَصُدُّونَ عَن سَبِيلِ ٱللَّهِ مَنْ آمَنَ بِهِۦ وَتَبْغُونَهَا عِوَجًا ۚ وَٱذْكُرُوٓا۟ إِذْ كُنتُمْ قَلِيلًا فَكَثَّرَكُمْ ۖ وَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 5,
+      "text": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ <a class=\"highlight-text\">وَٱقْعُدُوا۟</a> لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 46,
+      "text": "وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ ٱقْعُدُوا۟ مَعَ ٱلْقَٰعِدِينَ",
+      "highlightedHtml": "وَلَوْ أَرَادُوا۟ ٱلْخُرُوجَ لَأَعَدُّوا۟ لَهُۥ عُدَّةً وَلَٰكِن كَرِهَ ٱللَّهُ ٱنۢبِعَاثَهُمْ فَثَبَّطَهُمْ وَقِيلَ <a class=\"highlight-text\">ٱقْعُدُوا۟</a> مَعَ <a class=\"highlight-text\">ٱلْقَٰعِدِينَ</a>",
+      "derivedForms": [
+        "قَعَدَ",
+        "قَاعِد"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 81,
+      "text": "فَرِحَ ٱلْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى ٱلْحَرِّ ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ",
+      "highlightedHtml": "فَرِحَ ٱلْمُخَلَّفُونَ <a class=\"highlight-text\">بِمَقْعَدِهِمْ</a> خِلَٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى ٱلْحَرِّ ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ",
+      "derivedForms": [
+        "مَقْعَد"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 83,
+      "text": "فَإِن رَّجَعَكَ ٱللَّهُ إِلَىٰ طَآئِفَةٍ مِّنْهُمْ فَٱسْتَـْٔذَنُوكَ لِلْخُرُوجِ فَقُل لَّن تَخْرُجُوا۟ مَعِىَ أَبَدًا وَلَن تُقَٰتِلُوا۟ مَعِىَ عَدُوًّا ۖ إِنَّكُمْ رَضِيتُم بِٱلْقُعُودِ أَوَّلَ مَرَّةٍ فَٱقْعُدُوا۟ مَعَ ٱلْخَٰلِفِينَ",
+      "highlightedHtml": "فَإِن رَّجَعَكَ ٱللَّهُ إِلَىٰ طَآئِفَةٍ مِّنْهُمْ فَٱسْتَـْٔذَنُوكَ لِلْخُرُوجِ فَقُل لَّن تَخْرُجُوا۟ مَعِىَ أَبَدًا وَلَن تُقَٰتِلُوا۟ مَعِىَ عَدُوًّا ۖ إِنَّكُمْ رَضِيتُم <a class=\"highlight-text\">بِٱلْقُعُودِ</a> أَوَّلَ مَرَّةٍ <a class=\"highlight-text\">فَٱقْعُدُوا۟</a> مَعَ ٱلْخَٰلِفِينَ",
+      "derivedForms": [
+        "قُعُود",
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 86,
+      "text": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَٰعِدِينَ",
+      "highlightedHtml": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ <a class=\"highlight-text\">ٱلْقَٰعِدِينَ</a>",
+      "derivedForms": [
+        "قَاعِد"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 90,
+      "text": "وَجَآءَ ٱلْمُعَذِّرُونَ مِنَ ٱلْأَعْرَابِ لِيُؤْذَنَ لَهُمْ وَقَعَدَ ٱلَّذِينَ كَذَبُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ سَيُصِيبُ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَجَآءَ ٱلْمُعَذِّرُونَ مِنَ ٱلْأَعْرَابِ لِيُؤْذَنَ لَهُمْ <a class=\"highlight-text\">وَقَعَدَ</a> ٱلَّذِينَ كَذَبُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ سَيُصِيبُ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 12,
+      "text": "وَإِذَا مَسَّ ٱلْإِنسَٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ قَاعِدًا أَوْ قَآئِمًا فَلَمَّا كَشَفْنَا عَنْهُ ضُرَّهُۥ مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّ مَّسَّهُۥ ۚ كَذَٰلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَإِذَا مَسَّ ٱلْإِنسَٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ <a class=\"highlight-text\">قَاعِدًا</a> أَوْ قَآئِمًا فَلَمَّا كَشَفْنَا عَنْهُ ضُرَّهُۥ مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّ مَّسَّهُۥ ۚ كَذَٰلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "قَاعِد"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 26,
+      "text": "قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ <a class=\"highlight-text\">ٱلْقَوَاعِدِ</a> فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "قَوَاعِد"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 22,
+      "text": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتَقْعُدَ مَذْمُومًا مَّخْذُولًا",
+      "highlightedHtml": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ <a class=\"highlight-text\">فَتَقْعُدَ</a> مَذْمُومًا مَّخْذُولًا",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 29,
+      "text": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ فَتَقْعُدَ مَلُومًا مَّحْسُورًا",
+      "highlightedHtml": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ <a class=\"highlight-text\">فَتَقْعُدَ</a> مَلُومًا مَّحْسُورًا",
+      "derivedForms": [
+        "قَعَدَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 60,
+      "text": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْقَوَٰعِدُ</a> مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "قَوَاعِد"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 17,
+      "text": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌ",
+      "highlightedHtml": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ <a class=\"highlight-text\">قَعِيدٌ</a>",
+      "derivedForms": [
+        "قَعِيد"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 55,
+      "text": "فِى مَقْعَدِ صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍۭ",
+      "highlightedHtml": "فِى <a class=\"highlight-text\">مَقْعَدِ</a> صِدْقٍ عِندَ مَلِيكٍ مُّقْتَدِرٍۭ",
+      "derivedForms": [
+        "مَقْعَد"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 9,
+      "text": "وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَٰعِدَ لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْءَانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا",
+      "highlightedHtml": "وَأَنَّا كُنَّا <a class=\"highlight-text\">نَقْعُدُ</a> مِنْهَا <a class=\"highlight-text\">مَقَٰعِدَ</a> لِلسَّمْعِ ۖ فَمَن يَسْتَمِعِ ٱلْءَانَ يَجِدْ لَهُۥ شِهَابًا رَّصَدًا",
+      "derivedForms": [
+        "قَعَدَ",
+        "مَقْعَد"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 6,
+      "text": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
+      "highlightedHtml": "إِذْ هُمْ عَلَيْهَا <a class=\"highlight-text\">قُعُودٌ</a>",
+      "derivedForms": [
+        "قُعُود"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:05.936Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural noun",
+    "derivativeNote": "ٱلْقَوَاعِدَ is in the derivative form: قَوَاعِد",
+    "rootDefinitionHtml": "ق/ع/د   q–ʿ–d to sit down, to take a seat<br>; to abide, to lie in wait; to refrain; (of women) to grow old; to serve; saddle, cushions; young camel; companion, wife; foundations; weight‐bearing pillars, cowardly person. <br><br>Of this root, 8 forms occur 31 times in the Qur’an:<br> قعَدَ qaʿada12 times; قُعُود quʿūd 4 times; قَاعِد qāʿid 1 time; قَاعِدٌ qāʿid 6 times; قَعِيد qaʿıd 1 time; قَوَاعِد qawāʿid 3 times; مَقْعَد maqʿad 2 times and مَقَاعِد maqāʿid 2 times.",
+    "mainDefinitionHtml": "قَوَاعِد qawāʿid [pl. of fem. n. قاَعِدَةٌ qāʿidatun] <br><br><strong>1 </strong>base, foundation <br><br>(2:127) وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ and as Abraham and Ishmael were raising up the foundations of the House [at Mecca] <br><br><strong>2 </strong>women past child-bearing age <br><br>(24:60) وَالْقَوَاعِدُ مِنَ النِّسَاءِ اللاَّتِي لاَ يَرْجُونَ نِكَاحًا and women past child‐bearing age who have no hope of marriage.‏ ‏",
+    "mainEntryId": "wdef-ق-ع-د.قَوَاعِد",
+    "entries": [
+      {
+        "id": "wdef-ق-ع-د",
+        "label": "ق-ع-د",
+        "definitionHtml": "ق/ع/د   q–ʿ–d to sit down, to take a seat<br>; to abide, to lie in wait; to refrain; (of women) to grow old; to serve; saddle, cushions; young camel; companion, wife; foundations; weight‐bearing pillars, cowardly person. <br><br>Of this root, 8 forms occur 31 times in the Qur’an:<br> قعَدَ qaʿada12 times; قُعُود quʿūd 4 times; قَاعِد qāʿid 1 time; قَاعِدٌ qāʿid 6 times; قَعِيد qaʿıd 1 time; قَوَاعِد qawāʿid 3 times; مَقْعَد maqʿad 2 times and مَقَاعِد maqāʿid 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-د.قَوَاعِد",
+        "label": "قَوَاعِد",
+        "definitionHtml": "قَوَاعِد qawāʿid [pl. of fem. n. قاَعِدَةٌ qāʿidatun] <br><br><strong>1 </strong>base, foundation <br><br>(2:127) وَإِذْ يَرْفَعُ إِبْرَاهِيمُ الْقَوَاعِدَ مِنَ الْبَيْتِ وَإِسْمَاعِيلُ and as Abraham and Ishmael were raising up the foundations of the House [at Mecca] <br><br><strong>2 </strong>women past child-bearing age <br><br>(24:60) وَالْقَوَاعِدُ مِنَ النِّسَاءِ اللاَّتِي لاَ يَرْجُونَ نِكَاحًا and women past child‐bearing age who have no hope of marriage.‏ ‏",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ع-د.قَاعِد",
+        "label": "قَاعِد",
+        "definitionHtml": "قَاعِد qāʿid [act. part.; pl. قَاعِدُون qāʿidūn] <br><br><strong>1 </strong>one who is sitting down <br><br>(10:12) وَإِذَا مَسَّ الإِنْسَانَ الضُّرُّ دَعَانَا لِجَنْبِهِ أَوْ قَاعِدًا أَوْ قَائِمًا when affliction befalls man, he calls Us–on his side, sitting or standing <br><br><strong>2 </strong>one staying behind, holding back, denying assistance <br><br>(4:95) لاَ يَسْتَوِي الْقَاعِدُونَ مِنَ الْمُؤْمِنِينَ غَيْرُ أُولِي الضَّرَرِ وَالْمُجَاهِدُونَ فِى سَبِيلِ اللَّهِ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ those believers who stay at home, apart from those with an incapacity, are not the equal of those who strive in God’s cause with their possessions and their selves.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-د.قَعَدَ",
+        "label": "قَعَدَ",
+        "definitionHtml": "قَعَدَ qaʿada u [v. intrans.] <br><br><strong>1 </strong>to sit <br><br>(6:68) وَإِمَّا يُنْسِيَنَّكَ الشَّيْطَانُ فَلاَ تَقْعُدْ بَعْدَ الذِّكْرَى مَعَ الْقَوْمِ الظَّالِمِينَ if Satan should make you forget, then, do not sit with the evil‐doing people after the Remembrance [has come to you] ‏ ‏<br><br><strong>2 </strong>to stay behind, to hold back, to deny <br><br>(3:168) الَّذِينَ قَالُوا لإِِخْوَانِهِمْ وَقَعَدُوا لَوْ أَطَاعُونَا مَا قُتِلُوا those who said of their brothers, while [themselves] staying behind, ‘If [only] they had listened to us, they would not have been killed’ ‏<br><br><strong>3 </strong>to lie in wait, to lie in ambush <br><br>(7:16) فَبِمَا أَغْوَيْتَنِي لأََقْعُدَنَّ لَهُمْ صِرَاطَكَ الْمُسْتَقِيمَ because You have put me in the wrong, I will lie in wait for them all on Your straight path <br><br><strong>4 </strong>to become, end up <br><br>(17:22) لاَ تَجْعَلْ مَعَ اللَّهِ إِلَهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًا مَخْذُولا do not set up with God another god [beside Him], or you will end up reproved and forsaken.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-د.قَعِيد",
+        "label": "قَعِيد",
+        "definitionHtml": "قَعِيد qaʿıd [quasi-act. part. unchangeable for number or gender] one sitting down, companion, close observer <br><br>(50:17) إِذْ يَتَلَقَّى الْمُتَلَقِّيَانِ عَنِ الْيَمِينِ وَعَنِ الشِّمَالِ قَعِيدٌ when the two receivers receive [him–the individual, one] seated on the left [and another] on the [deceased’s] right.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-د.قُعُود",
+        "label": "قُعُود",
+        "definitionHtml": "قُعُود quʿūd [v. n.] <br><br><strong>1 </strong>sitting down <br><br>(3:191) الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ those who remember God standing, sitting and on their sides ‏<br><br><strong>2 </strong>staying behind, denying help, not participating <br><br>(9:83) لَنْ تَخْرُجُوا مَعِيَ أَبَدًا وَلَنْ تُقَاتِلُوا مَعِيَ عَدُوًّا إِنَّكُمْ رَضِيتُمْ بِالْقُعُودِ أَوَّلَ مَرَّةٍ فَاقْعُدُوا مَعَ الْخَالِفِينَ you will never go out [to battle] with me, and will never fight an enemy with me: you chose to stay at home the first time, so stay with those who stayed behind. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ع-د.مَقْعَد",
+        "label": "مَقْعَد",
+        "definitionHtml": "مَقْعَد maqʿad I [v. n.] ‏the act of staying behind, the act of denying someone assistance <br><br>(9:81) فَرِحَ الْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلاَفَ رَسُولِ اللَّهِ those who were left behind [and did not join in the Campaign of Tabūk, year <br><br><strong>9 </strong>A.H./<br><br><strong>630 </strong>A.D.] rejoiced at their staying behind the Messenger of God II [n. of place; pl. مَقَاعُد maqāʿid] <br><br><strong>1 </strong>seat, sitting place <br><br>(72:9) وَأَنَّا كُنَّا نَقْعُدُ مِنْهَا مَقَاعِدَ لِلسَّمْعِ and that we used to sit therein in places for listening <br><br><strong>2 </strong>station, position <br><br>(3:121) وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ الْمُؤْمِنِينَ مَقَاعِدَ لِلْقِتَالِ and [remember] when you left your folk at dawn to assign battle positions to the believers <br><br><strong>3 </strong>rank <br><br>(54:55) فِى مَقْعَدِ صِدْقٍ عِنْدَ مَلِيكٍ مُقْتَدِرٍ secure in the seat of truth in the presence of an all‐powerful Sovereign.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:44.063Z",
+      "refword": "2:127:4",
+      "lexword": "ٱلْقَوَاعِدَ"
+    }
+  }
+}

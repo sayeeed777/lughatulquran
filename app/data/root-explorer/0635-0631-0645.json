@@ -1,0 +1,124 @@
+{
+  "root": "صرم",
+  "rootArabic": "صرم",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 1,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "صَارِم",
+      "count": 1
+    },
+    {
+      "form": "صَرِِِِِِِِِِيم",
+      "count": 1
+    },
+    {
+      "form": "يَصْرِم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "صَارِم",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "صَرِِِِِِِِِِيم",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَصْرِم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 68,
+      "ayah": 17,
+      "text": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ لَيَصْرِمُنَّهَا مُصْبِحِينَ",
+      "highlightedHtml": "إِنَّا بَلَوْنَٰهُمْ كَمَا بَلَوْنَآ أَصْحَٰبَ ٱلْجَنَّةِ إِذْ أَقْسَمُوا۟ <a class=\"highlight-text\">لَيَصْرِمُنَّهَا</a> مُصْبِحِينَ",
+      "derivedForms": [
+        "يَصْرِم"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 20,
+      "text": "فَأَصْبَحَتْ كَٱلصَّرِيمِ",
+      "highlightedHtml": "فَأَصْبَحَتْ <a class=\"highlight-text\">كَٱلصَّرِيمِ</a>",
+      "derivedForms": [
+        "صَرِِِِِِِِِِيم"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 22,
+      "text": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+      "highlightedHtml": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ <a class=\"highlight-text\">صَٰرِمِينَ</a>",
+      "derivedForms": [
+        "صَارِم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:53.698Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "لَيَصْرِمُنَّهَا is in the derivative form: يَصْرِم",
+    "rootDefinitionHtml": "ص/ر/م   ṣ–r–m to cut off, to sever, to separate, plucking off<br>; to forsake; to pass away; the first and last parts of the night, the night; sharp, decisive. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَصْرِم yaṣrim; صارِم ṣārim and صَرِيم ṣarım.",
+    "mainDefinitionHtml": "يَصْرِم yaṣrim [imperf. v. trans.] to cut off, to harvest <br><br>(68:17) إِنَّا بَلَوْنَاهُمْ كَمَا بَلَوْنَا أَصْحَابَ الْجَنَّةِ إِذْ أَقْسَمُوا لَيَصْرِمُنَّهَا مُصْبِحِينَ We tried them as We tried the owners of the garden, who swore that they would harvest its fruits when they entered into the morning.",
+    "mainEntryId": "wdef-ص-ر-م.يَصْرِم",
+    "entries": [
+      {
+        "id": "wdef-ص-ر-م",
+        "label": "ص-ر-م",
+        "definitionHtml": "ص/ر/م   ṣ–r–m to cut off, to sever, to separate, plucking off<br>; to forsake; to pass away; the first and last parts of the night, the night; sharp, decisive. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَصْرِم yaṣrim; صارِم ṣārim and صَرِيم ṣarım.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-م.يَصْرِم",
+        "label": "يَصْرِم",
+        "definitionHtml": "يَصْرِم yaṣrim [imperf. v. trans.] to cut off, to harvest <br><br>(68:17) إِنَّا بَلَوْنَاهُمْ كَمَا بَلَوْنَا أَصْحَابَ الْجَنَّةِ إِذْ أَقْسَمُوا لَيَصْرِمُنَّهَا مُصْبِحِينَ We tried them as We tried the owners of the garden, who swore that they would harvest its fruits when they entered into the morning.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ر-م.صَارِم",
+        "label": "صَارِم",
+        "definitionHtml": "صَارِم ṣārim [act. part.] one who cuts off, harvests <br><br>(68:22) اغْدُوا عَلَى حَرْثِكُمْ إِنْ كُنْتُمْ صَارِمِينَ go early to your field if you are [determined] on harvesting.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-م.صَرِِِِِِِِِِيم",
+        "label": "صَرِِِِِِِِِِيم",
+        "definitionHtml": "صَرِِِِِِِِِِيم ṣarım [quasi-pass. part./n.] completely stripped bare, barren land; night <br><br>(68:20) فَأَصْبَحَتْ كَالصَّرِيمِ and by morning it was as if it was stripped bare or like a desolate land (or, burnt up and black like the dark night).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:47.815Z",
+      "refword": "68:17:9",
+      "lexword": "لَيَصْرِمُنَّهَا"
+    }
+  }
+}

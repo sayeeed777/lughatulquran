@@ -1,0 +1,154 @@
+{
+  "root": "صبب",
+  "rootArabic": "صبب",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "صَبَّ",
+      "count": 4
+    },
+    {
+      "form": "صَبًّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَبَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَبَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَبًّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "صَبَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَبَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 19,
+      "text": "هَٰذَانِ خَصْمَانِ ٱخْتَصَمُوا۟ فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ",
+      "highlightedHtml": "هَٰذَانِ خَصْمَانِ ٱخْتَصَمُوا۟ فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ <a class=\"highlight-text\">يُصَبُّ</a> مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ",
+      "derivedForms": [
+        "صَبَّ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 48,
+      "text": "ثُمَّ صُبُّوا۟ فَوْقَ رَأْسِهِۦ مِنْ عَذَابِ ٱلْحَمِيمِ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">صُبُّوا۟</a> فَوْقَ رَأْسِهِۦ مِنْ عَذَابِ ٱلْحَمِيمِ",
+      "derivedForms": [
+        "صَبَّ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 25,
+      "text": "أَنَّا صَبَبْنَا ٱلْمَآءَ صَبًّا",
+      "highlightedHtml": "أَنَّا <a class=\"highlight-text\">صَبَبْنَا</a> ٱلْمَآءَ <a class=\"highlight-text\">صَبًّا</a>",
+      "derivedForms": [
+        "صَبَّ",
+        "صَبًّ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 13,
+      "text": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَصَبَّ</a> عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+      "derivedForms": [
+        "صَبَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:36.179Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive imperfect verb",
+    "derivativeNote": "يُصَبُّ is in the derivative form: صَبَّ",
+    "rootDefinitionHtml": "ص/ب/ب   ṣ–b–b to pour out<br>; remnant; a group; love, to be in love. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> صبَّ ṣabba 3 times; يُصَبُّ yuṣabb 1 time and صباًّ sabban 1 time.",
+    "mainDefinitionHtml": "صَبَّ ṣabba u [v. trans.] to pour out liquid and the like <br><br>(44:48) ثُمَّ صُبُّوا فَوْقَ رَأْسِهِ مِنْ عَذَابِ الْحَمِيمِ then, pour scalding water over his head as punishment.",
+    "mainEntryId": "wdef-ص-ب-ب.صَبَّ",
+    "entries": [
+      {
+        "id": "wdef-ص-ب-ب",
+        "label": "ص-ب-ب",
+        "definitionHtml": "ص/ب/ب   ṣ–b–b to pour out<br>; remnant; a group; love, to be in love. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> صبَّ ṣabba 3 times; يُصَبُّ yuṣabb 1 time and صباًّ sabban 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ب-ب.صَبَّ",
+        "label": "صَبَّ",
+        "definitionHtml": "صَبَّ ṣabba u [v. trans.] to pour out liquid and the like <br><br>(44:48) ثُمَّ صُبُّوا فَوْقَ رَأْسِهِ مِنْ عَذَابِ الْحَمِيمِ then, pour scalding water over his head as punishment.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ب-ب.صَبًّ",
+        "label": "صَبًّ",
+        "definitionHtml": "صَبًّ ṣabb [v. n. used adverbially for emphasis] pouring out liquid and the like <br><br>(80:25) أَنَّا صَبَبْنَا الْمَاءَ صَبًّا We pour down water torrentially.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:14.530Z",
+      "refword": "22:19:13",
+      "lexword": "يُصَبُّ"
+    }
+  }
+}

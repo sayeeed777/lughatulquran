@@ -1,0 +1,159 @@
+{
+  "root": "غسق",
+  "rootArabic": "غسق",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "غَسّاق",
+      "count": 2
+    },
+    {
+      "form": "غاسِق",
+      "count": 1
+    },
+    {
+      "form": "غَسَق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَسَق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَسّاق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَسّاق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غاسِق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 78,
+      "text": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
+      "highlightedHtml": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ <a class=\"highlight-text\">غَسَقِ</a> ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
+      "derivedForms": [
+        "غَسَق"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 57,
+      "text": "هَٰذَا فَلْيَذُوقُوهُ حَمِيمٌ وَغَسَّاقٌ",
+      "highlightedHtml": "هَٰذَا فَلْيَذُوقُوهُ حَمِيمٌ <a class=\"highlight-text\">وَغَسَّاقٌ</a>",
+      "derivedForms": [
+        "غَسّاق"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 25,
+      "text": "إِلَّا حَمِيمًا وَغَسَّاقًا",
+      "highlightedHtml": "إِلَّا حَمِيمًا <a class=\"highlight-text\">وَغَسَّاقًا</a>",
+      "derivedForms": [
+        "غَسّاق"
+      ]
+    },
+    {
+      "surah": 113,
+      "ayah": 3,
+      "text": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "highlightedHtml": "وَمِن شَرِّ <a class=\"highlight-text\">غَاسِقٍ</a> إِذَا وَقَبَ",
+      "derivedForms": [
+        "غاسِق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:56.524Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "غَسَقِ is in the derivative form: غَسَق",
+    "rootDefinitionHtml": "غ/س/ق   gh–s–q evening dusk, darkness of the night<br>; bright red; extreme coldness, pus, foul fluid, to pour out, (of the eye) to water. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> غَسَق ghasaq 1 time; غاسِق ghāsiq 1 time and غَسّاق ghassāq 2 times.",
+    "mainDefinitionHtml": "غَسَق ghasaq [n.] dusk or darkness of the night <br><br>(17:78) أَقِمِ‏ ‏الصَّلاَةَ‏ ‏لِدُلُوكِ‏ ‏الشَّمْسِ ‏إِلَى‏ ‏غَسَقِ‏ ‏اللَّيْل establish the prayer at the going down of the sun (or, the time it goes past its zenith) until the darkness of the night.",
+    "mainEntryId": "wdef-غ-س-ق.غَسَق",
+    "entries": [
+      {
+        "id": "wdef-غ-س-ق",
+        "label": "غ-س-ق",
+        "definitionHtml": "غ/س/ق   gh–s–q evening dusk, darkness of the night<br>; bright red; extreme coldness, pus, foul fluid, to pour out, (of the eye) to water. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> غَسَق ghasaq 1 time; غاسِق ghāsiq 1 time and غَسّاق ghassāq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-س-ق.غَسَق",
+        "label": "غَسَق",
+        "definitionHtml": "غَسَق ghasaq [n.] dusk or darkness of the night <br><br>(17:78) أَقِمِ‏ ‏الصَّلاَةَ‏ ‏لِدُلُوكِ‏ ‏الشَّمْسِ ‏إِلَى‏ ‏غَسَقِ‏ ‏اللَّيْل establish the prayer at the going down of the sun (or, the time it goes past its zenith) until the darkness of the night.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-س-ق.غاسِق",
+        "label": "غاسِق",
+        "definitionHtml": "غاسِق ghāsiq [act. part./n.] one entering into darkness; the moon; night or early part of the night <br><br>(113:3) وَمِنْ‏ ‏شَرِّ‏ ‏غَاسِقٍ‏ ‏إِذَا‏ ‏وَقَبَ‏ and of the evil of the darkness when it descends [also interpreted as: the night, the moon, or, the Pleiades] when it prevails.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-س-ق.غَسّاق",
+        "label": "غَسّاق",
+        "definitionHtml": "غَسّاق ghassāq [intens. act. part./n.] pus, dark, foul fluid <br><br>(38:57) هَذَا‏ ‏فَلْيَذُوقُوهُ‏ ‏حَمِيمٌ‏ ‏وَغَسَّاقٌ‏ all this [will be theirs], let them taste it–scalding water, a dark, foul fluid.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:32.604Z",
+      "refword": "17:78:6",
+      "lexword": "غَسَقِ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "زري",
+  "rootArabic": "زري",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَزْدَري",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَزْدَري",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 31,
+      "text": "وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌ وَلَآ أَقُولُ لِلَّذِينَ تَزْدَرِىٓ أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَآ أَقُولُ لَكُمْ عِندِى خَزَآئِنُ ٱللَّهِ وَلَآ أَعْلَمُ ٱلْغَيْبَ وَلَآ أَقُولُ إِنِّى مَلَكٌ وَلَآ أَقُولُ لِلَّذِينَ <a class=\"highlight-text\">تَزْدَرِىٓ</a> أَعْيُنُكُمْ لَن يُؤْتِيَهُمُ ٱللَّهُ خَيْرًا ۖ ٱللَّهُ أَعْلَمُ بِمَا فِىٓ أَنفُسِهِمْ ۖ إِنِّىٓ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "تَزْدَري"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:03.387Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VIII) imperfect verb",
+    "derivativeNote": "تَزْدَرِىٓ is in the derivative form: تَزْدَري",
+    "rootDefinitionHtml": "ز/ر/ي   z–r–y to abuse, to scorn, to reproach, to humiliate, to consider insignificant. Of this root, only تَزْدَري tazdarī occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَزْدَري tazdarī [imperf. of v. VIII. ازْدَرَى ʾizdarā, trans.] to despise, to show contempt <br><br>(11:31) وَلاَ أَقُولُ لِلَّذِينَ تَزْدَرِي أَعْيُنُكُمْ لَنْ يُؤْتِيَهُمُ اللَّهُ خَيْرًا nor do I say concerning those you [lit. your eyes] despise, ‘God will not grant them goodness.’",
+    "mainEntryId": "wdef-ز-ر-ي.تَزْدَري",
+    "entries": [
+      {
+        "id": "wdef-ز-ر-ي",
+        "label": "ز-ر-ي",
+        "definitionHtml": "ز/ر/ي   z–r–y to abuse, to scorn, to reproach, to humiliate, to consider insignificant. Of this root, only تَزْدَري tazdarī occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ر-ي.تَزْدَري",
+        "label": "تَزْدَري",
+        "definitionHtml": "تَزْدَري tazdarī [imperf. of v. VIII. ازْدَرَى ʾizdarā, trans.] to despise, to show contempt <br><br>(11:31) وَلاَ أَقُولُ لِلَّذِينَ تَزْدَرِي أَعْيُنُكُمْ لَنْ يُؤْتِيَهُمُ اللَّهُ خَيْرًا nor do I say concerning those you [lit. your eyes] despise, ‘God will not grant them goodness.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:12.384Z",
+      "refword": "11:31:17",
+      "lexword": "تَزْدَرِىٓ"
+    }
+  }
+}

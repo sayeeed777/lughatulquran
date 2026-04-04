@@ -1,0 +1,74 @@
+{
+  "root": "طرح",
+  "rootArabic": "طرح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اطْرَح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اطْرَح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 9,
+      "text": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًا صَٰلِحِينَ",
+      "highlightedHtml": "ٱقْتُلُوا۟ يُوسُفَ أَوِ <a class=\"highlight-text\">ٱطْرَحُوهُ</a> أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًا صَٰلِحِينَ",
+      "derivedForms": [
+        "اطْرَح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:43.380Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "ٱطْرَحُوهُ is in the derivative form: اطْرَح",
+    "rootDefinitionHtml": "ط/ر/ح   ṭ–r–ḥ thrown out, to throw away, cast out, to cast off, to discard, to banish; forlorn. Of this root,اطْرَحُوا ʾiṭraḥū occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اطْرَح ʾiṭraḥ [imperat. of v. trans. طَرَحَ ṭaraḥa] to cast out, to banish <br><br>(12:9) اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ kill Joseph or cast him in some land, so that your father’s undivided attention may be yours [lit. your father’s face becomes free for you].",
+    "mainEntryId": "wdef-ط-ر-ح.اطْرَح",
+    "entries": [
+      {
+        "id": "wdef-ط-ر-ح",
+        "label": "ط-ر-ح",
+        "definitionHtml": "ط/ر/ح   ṭ–r–ḥ thrown out, to throw away, cast out, to cast off, to discard, to banish; forlorn. Of this root,اطْرَحُوا ʾiṭraḥū occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ر-ح.اطْرَح",
+        "label": "اطْرَح",
+        "definitionHtml": "اطْرَح ʾiṭraḥ [imperat. of v. trans. طَرَحَ ṭaraḥa] to cast out, to banish <br><br>(12:9) اقْتُلُوا يُوسُفَ أَوِ اطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ kill Joseph or cast him in some land, so that your father’s undivided attention may be yours [lit. your father’s face becomes free for you].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:19.226Z",
+      "refword": "12:9:4",
+      "lexword": "ٱطْرَحُوهُ"
+    }
+  }
+}

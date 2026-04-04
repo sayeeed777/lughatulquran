@@ -1,0 +1,171 @@
+{
+  "root": "بعل",
+  "rootArabic": "بعل",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "بُعُولَةٌ",
+      "count": 4
+    },
+    {
+      "form": "بَعْلٌ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُعُولَةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَعْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَعْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "بُعُولَةٌ",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَعْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 228,
+      "text": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ <a class=\"highlight-text\">وَبُعُولَتُهُنَّ</a> أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "بُعُولَةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 128,
+      "text": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَٱلصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "highlightedHtml": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ <a class=\"highlight-text\">بَعْلِهَا</a> نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَٱلصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "derivedForms": [
+        "بَعْلٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 72,
+      "text": "قَالَتْ يَٰوَيْلَتَىٰٓ أَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَٰذَا لَشَىْءٌ عَجِيبٌ",
+      "highlightedHtml": "قَالَتْ يَٰوَيْلَتَىٰٓ أَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَٰذَا <a class=\"highlight-text\">بَعْلِى</a> شَيْخًا ۖ إِنَّ هَٰذَا لَشَىْءٌ عَجِيبٌ",
+      "derivedForms": [
+        "بَعْلٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 31,
+      "text": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا <a class=\"highlight-text\">لِبُعُولَتِهِنَّ</a> أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ <a class=\"highlight-text\">بُعُولَتِهِنَّ</a> أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ <a class=\"highlight-text\">بُعُولَتِهِنَّ</a> أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "بُعُولَةٌ",
+        "بُعُولَةٌ",
+        "بُعُولَةٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 125,
+      "text": "أَتَدْعُونَ بَعْلًا وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+      "highlightedHtml": "أَتَدْعُونَ <a class=\"highlight-text\">بَعْلًا</a> وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+      "derivedForms": [
+        "بَعْلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:52.531Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "وَبُعُولَتُهُنَّ is in the derivative form: بُعُولَةٌ",
+    "rootDefinitionHtml": "ب/ع/ل   b–ʿ–l unirrigated palm trees, a male palm tree; a husband, a wife; to marry; courtship; master, deity. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> بَعْلٌ baʿl 3 times and بُعُولَةٌ buʿūlatun 4 times.",
+    "mainDefinitionHtml": "بُعُولَةٌ buʿūlatun [pl. of بَعْلٌ baʿl (also v. n. of v. بَعَلَتْ baʿalat)] husbands; being married to a husband; the entire family <br><br>(2:228) وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَلِكَ إِنْ أَرَادُوا إِصْلاَحًا their husbands are [more] entitled to take them back during this period provided they wish to put things right.",
+    "mainEntryId": "wdef-ب-ع-ل.بُعُولَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ع-ل",
+        "label": "ب-ع-ل",
+        "definitionHtml": "ب/ع/ل   b–ʿ–l unirrigated palm trees, a male palm tree; a husband, a wife; to marry; courtship; master, deity. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> بَعْلٌ baʿl 3 times and بُعُولَةٌ buʿūlatun 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ع-ل.بُعُولَةٌ",
+        "label": "بُعُولَةٌ",
+        "definitionHtml": "بُعُولَةٌ buʿūlatun [pl. of بَعْلٌ baʿl (also v. n. of v. بَعَلَتْ baʿalat)] husbands; being married to a husband; the entire family <br><br>(2:228) وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَلِكَ إِنْ أَرَادُوا إِصْلاَحًا their husbands are [more] entitled to take them back during this period provided they wish to put things right.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ع-ل.بَعْلٌ",
+        "label": "بَعْلٌ",
+        "definitionHtml": "بَعْلٌ baʿl I [n.] husband <br><br>(11:72) قَالَتْ يَاوَيْلَتَى ءَأَلِدُ وَأَنَا عَجُوزٌ وَهَذَا بَعْلِي شَيْخًا she said, ‘Woe is me!, do I bear [a child] when I am an old woman, and this, my husband, is an old man?’ II [proper name, maybe a very early borrowing] a generic term for idol worshipping; Baal, sun god, an idol of gold belonging to the people of ʾilyās or any deity that is not God <br><br>(37:125) أَتَدْعُونَ بَعْلا وَتَذَرُونَ أَحْسَنَ الْخَالِقِينَ how can you invoke Baal and forsake the Most Gracious Creator?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:35.896Z",
+      "refword": "2:228:22",
+      "lexword": "وَبُعُولَتُهُنَّ"
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "root": "سرح",
+  "rootArabic": "سرح",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 4,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "اُسَرِّح",
+      "count": 3
+    },
+    {
+      "form": "سَرَاحاً",
+      "count": 2
+    },
+    {
+      "form": "تَسْرَحون",
+      "count": 1
+    },
+    {
+      "form": "تَسْريح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اُسَرِّح",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "تَسْريح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَسْرَحون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "اُسَرِّح",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "سَرَاحاً",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 229,
+      "text": "ٱلطَّلَٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ آتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "ٱلطَّلَٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ <a class=\"highlight-text\">تَسْرِيحٌۢ</a> بِإِحْسَٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ آتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "تَسْريح"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 231,
+      "text": "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ سَرِّحُوهُنَّ بِمَعْرُوفٍ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ آيَاتِ ٱللَّهِ هُزُوًا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ <a class=\"highlight-text\">سَرِّحُوهُنَّ</a> بِمَعْرُوفٍ ۚ وَلَا تُمْسِكُوهُنَّ ضِرَارًا لِّتَعْتَدُوا۟ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ وَلَا تَتَّخِذُوٓا۟ آيَاتِ ٱللَّهِ هُزُوًا ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ وَمَآ أَنزَلَ عَلَيْكُم مِّنَ ٱلْكِتَٰبِ وَٱلْحِكْمَةِ يَعِظُكُم بِهِۦ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "اُسَرِّح"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 6,
+      "text": "وَلَكُمْ فِيهَا جَمَالٌ حِينَ تُرِيحُونَ وَحِينَ تَسْرَحُونَ",
+      "highlightedHtml": "وَلَكُمْ فِيهَا جَمَالٌ حِينَ تُرِيحُونَ وَحِينَ <a class=\"highlight-text\">تَسْرَحُونَ</a>",
+      "derivedForms": [
+        "تَسْرَحون"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 28,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ إِن كُنتُنَّ تُرِدْنَ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ وَأُسَرِّحْكُنَّ سَرَاحًا جَمِيلًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ إِن كُنتُنَّ تُرِدْنَ ٱلْحَيَوٰةَ ٱلدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ <a class=\"highlight-text\">وَأُسَرِّحْكُنَّ</a> <a class=\"highlight-text\">سَرَاحًا</a> جَمِيلًا",
+      "derivedForms": [
+        "اُسَرِّح",
+        "سَرَاحاً"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 49,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَكَحْتُمُ ٱلْمُؤْمِنَٰتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا ۖ فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحًا جَمِيلًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَكَحْتُمُ ٱلْمُؤْمِنَٰتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا ۖ فَمَتِّعُوهُنَّ <a class=\"highlight-text\">وَسَرِّحُوهُنَّ</a> <a class=\"highlight-text\">سَرَاحًا</a> جَمِيلًا",
+      "derivedForms": [
+        "اُسَرِّح",
+        "سَرَاحاً"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:48.777Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form II) verbal noun",
+    "derivativeNote": "تَسْرِيحٌۢ is in the derivative form: تَسْريح",
+    "rootDefinitionHtml": "س/ر/ح   s–r–ḥ to go to pasture, to set free. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> تَسْرَحون tasraḥūn 1 time; اُسَرِّح ʾusarriḥ 3 times; سَراحاً sarāḥan 2 times and تَسْريح tasrıḥ 1 time.",
+    "mainDefinitionHtml": "تَسْريح tasrıḥ [v. n. of v. II] setting free, releasing <br><br>(2:229) الطَّلاَقُ مَرَّتَانِ فَإِمْسَاكٌ بِمَعْرُوفٍ أَوْ تَسْرِيحٌ بِإِحْسَانٍ divorce is [revocable only] twice, [after which husbands are] either to keep [their wives] in an acceptable manner or release [them] graciously.",
+    "mainEntryId": "wdef-س-ر-ح.تَسْريح",
+    "entries": [
+      {
+        "id": "wdef-س-ر-ح",
+        "label": "س-ر-ح",
+        "definitionHtml": "س/ر/ح   s–r–ḥ to go to pasture, to set free. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> تَسْرَحون tasraḥūn 1 time; اُسَرِّح ʾusarriḥ 3 times; سَراحاً sarāḥan 2 times and تَسْريح tasrıḥ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ح.تَسْريح",
+        "label": "تَسْريح",
+        "definitionHtml": "تَسْريح tasrıḥ [v. n. of v. II] setting free, releasing <br><br>(2:229) الطَّلاَقُ مَرَّتَانِ فَإِمْسَاكٌ بِمَعْرُوفٍ أَوْ تَسْرِيحٌ بِإِحْسَانٍ divorce is [revocable only] twice, [after which husbands are] either to keep [their wives] in an acceptable manner or release [them] graciously.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ر-ح.اُسَرِّح",
+        "label": "اُسَرِّح",
+        "definitionHtml": "اُسَرِّح ʾusarriḥ [imperf. of v. II, trans.] to set free, to release, to grant a divorce to <br><br>(33:28) إِنْ كُنْتُنَّ تُرِدْنَ الْحَيَاةَ الدُّنْيَا وَزِينَتَهَا فَتَعَالَيْنَ أُمَتِّعْكُنَّ وَأُسَرِّحْكُنَّ سَرَاحًا جَمِيلا if you desire the present life and its finery, then come, I will make provision for you and release you [from the bondage of marriage] in an amicable way.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ح.تَسْرَحون",
+        "label": "تَسْرَحون",
+        "definitionHtml": "تَسْرَحون tasraḥūn [imperf. of v. intrans.] to go out to pasture <br><br>(16:6) وَلَكُمْ فِيهَا جَمَالٌ حِينَ تُرِيحُونَ وَحِينَ تَسْرَحُونَ and in them there is beauty for you when you bring them home [to rest] and when you drive them out [to pasture].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ح.سَرَاحاً",
+        "label": "سَرَاحاً",
+        "definitionHtml": "سَرَاحاً sarāhan [v. n.] releasing, setting free <br><br>(33:49) فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحًا جَمِيلاً make provision for them and release them in an amicable way.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:42.101Z",
+      "refword": "2:229:6",
+      "lexword": "تَسْرِيحٌۢ"
+    }
+  }
+}

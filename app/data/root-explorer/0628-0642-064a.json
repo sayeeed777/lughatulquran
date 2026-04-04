@@ -1,0 +1,494 @@
+{
+  "root": "بقي",
+  "rootArabic": "بقي",
+  "stats": {
+    "totalOccurrences": 21,
+    "derivativeCount": 6,
+    "surahCount": 16,
+    "ayahCount": 21
+  },
+  "derivatives": [
+    {
+      "form": "أَبْقَى(1)",
+      "count": 7
+    },
+    {
+      "form": "بَاقِيَةٌ",
+      "count": 4
+    },
+    {
+      "form": "بَاقِي",
+      "count": 3
+    },
+    {
+      "form": "بَقِيَّةٌ",
+      "count": 3
+    },
+    {
+      "form": "أَبْقَى",
+      "count": 2
+    },
+    {
+      "form": "بَقِيَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَقِيَ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "بَقِيَّةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَقِيَّةٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِيَةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِيَةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَبْقَى(1)",
+          "count": 4,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبْقَى(1)",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبْقَى(1)",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِيَةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبْقَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَقِيَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاقِيَةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبْقَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبْقَى(1)",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 248,
+      "text": "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ آيَةَ مُلْكِهِۦٓ أَن يَأْتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٌ مِّن رَّبِّكُمْ وَبَقِيَّةٌ مِّمَّا تَرَكَ آلُ مُوسَىٰ وَءَالُ هَٰرُونَ تَحْمِلُهُ ٱلْمَلَٰٓئِكَةُ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "وَقَالَ لَهُمْ نَبِيُّهُمْ إِنَّ آيَةَ مُلْكِهِۦٓ أَن يَأْتِيَكُمُ ٱلتَّابُوتُ فِيهِ سَكِينَةٌ مِّن رَّبِّكُمْ <a class=\"highlight-text\">وَبَقِيَّةٌ</a> مِّمَّا تَرَكَ آلُ مُوسَىٰ وَءَالُ هَٰرُونَ تَحْمِلُهُ ٱلْمَلَٰٓئِكَةُ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "بَقِيَّةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 278,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا بَقِىَ مِنَ ٱلرِّبَوٰٓا۟ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا <a class=\"highlight-text\">بَقِىَ</a> مِنَ ٱلرِّبَوٰٓا۟ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "بَقِيَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 86,
+      "text": "بَقِيَّتُ ٱللَّهِ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">بَقِيَّتُ</a> ٱللَّهِ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ ۚ وَمَآ أَنَا۠ عَلَيْكُم بِحَفِيظٍ",
+      "derivedForms": [
+        "بَقِيَّةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 116,
+      "text": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "highlightedHtml": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ <a class=\"highlight-text\">بَقِيَّةٍ</a> يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "derivedForms": [
+        "بَقِيَّةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 96,
+      "text": "مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ بَاقٍ ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ <a class=\"highlight-text\">بَاقٍ</a> ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "بَاقِي"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 46,
+      "text": "ٱلْمَالُ وَٱلْبَنُونَ زِينَةُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ أَمَلًا",
+      "highlightedHtml": "ٱلْمَالُ وَٱلْبَنُونَ زِينَةُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ <a class=\"highlight-text\">وَٱلْبَٰقِيَٰتُ</a> ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ أَمَلًا",
+      "derivedForms": [
+        "بَاقِيَةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 76,
+      "text": "وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًى ۗ وَٱلْبَٰقِيَٰتُ ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ مَّرَدًّا",
+      "highlightedHtml": "وَيَزِيدُ ٱللَّهُ ٱلَّذِينَ ٱهْتَدَوْا۟ هُدًى ۗ <a class=\"highlight-text\">وَٱلْبَٰقِيَٰتُ</a> ٱلصَّٰلِحَٰتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ مَّرَدًّا",
+      "derivedForms": [
+        "بَاقِيَةٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 71,
+      "text": "قَالَ آمَنْتُمْ لَهُۥ قَبْلَ أَنْ آذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًا وَأَبْقَىٰ",
+      "highlightedHtml": "قَالَ آمَنْتُمْ لَهُۥ قَبْلَ أَنْ آذَنَ لَكُمْ ۖ إِنَّهُۥ لَكَبِيرُكُمُ ٱلَّذِى عَلَّمَكُمُ ٱلسِّحْرَ ۖ فَلَأُقَطِّعَنَّ أَيْدِيَكُمْ وَأَرْجُلَكُم مِّنْ خِلَٰفٍ وَلَأُصَلِّبَنَّكُمْ فِى جُذُوعِ ٱلنَّخْلِ وَلَتَعْلَمُنَّ أَيُّنَآ أَشَدُّ عَذَابًا <a class=\"highlight-text\">وَأَبْقَىٰ</a>",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 73,
+      "text": "إِنَّآ آمَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَٰيَٰنَا وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ وَأَبْقَىٰٓ",
+      "highlightedHtml": "إِنَّآ آمَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَٰيَٰنَا وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ <a class=\"highlight-text\">وَأَبْقَىٰٓ</a>",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 127,
+      "text": "وَكَذَٰلِكَ نَجْزِى مَنْ أَسْرَفَ وَلَمْ يُؤْمِنۢ بِـَٔايَٰتِ رَبِّهِۦ ۚ وَلَعَذَابُ الْآخِرَةِ أَشَدُّ وَأَبْقَىٰٓ",
+      "highlightedHtml": "وَكَذَٰلِكَ نَجْزِى مَنْ أَسْرَفَ وَلَمْ يُؤْمِنۢ بِـَٔايَٰتِ رَبِّهِۦ ۚ وَلَعَذَابُ الْآخِرَةِ أَشَدُّ <a class=\"highlight-text\">وَأَبْقَىٰٓ</a>",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 131,
+      "text": "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ وَأَبْقَىٰ",
+      "highlightedHtml": "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ <a class=\"highlight-text\">وَأَبْقَىٰ</a>",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 120,
+      "text": "ثُمَّ أَغْرَقْنَا بَعْدُ ٱلْبَاقِينَ",
+      "highlightedHtml": "ثُمَّ أَغْرَقْنَا بَعْدُ <a class=\"highlight-text\">ٱلْبَاقِينَ</a>",
+      "derivedForms": [
+        "بَاقِي"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 60,
+      "text": "وَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا وَزِينَتُهَا ۚ وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا وَزِينَتُهَا ۚ وَمَا عِندَ ٱللَّهِ خَيْرٌ <a class=\"highlight-text\">وَأَبْقَىٰٓ</a> ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 77,
+      "text": "وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ ٱلْبَاقِينَ",
+      "highlightedHtml": "وَجَعَلْنَا ذُرِّيَّتَهُۥ هُمُ <a class=\"highlight-text\">ٱلْبَاقِينَ</a>",
+      "derivedForms": [
+        "بَاقِي"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 36,
+      "text": "فَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَمَا عِندَ ٱللَّهِ خَيْرٌ وَأَبْقَىٰ لِلَّذِينَ آمَنُوا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "highlightedHtml": "فَمَآ أُوتِيتُم مِّن شَىْءٍ فَمَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَمَا عِندَ ٱللَّهِ خَيْرٌ <a class=\"highlight-text\">وَأَبْقَىٰ</a> لِلَّذِينَ آمَنُوا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 28,
+      "text": "وَجَعَلَهَا كَلِمَةًۢ بَاقِيَةً فِى عَقِبِهِۦ لَعَلَّهُمْ يَرْجِعُونَ",
+      "highlightedHtml": "وَجَعَلَهَا كَلِمَةًۢ <a class=\"highlight-text\">بَاقِيَةً</a> فِى عَقِبِهِۦ لَعَلَّهُمْ يَرْجِعُونَ",
+      "derivedForms": [
+        "بَاقِيَةٌ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 51,
+      "text": "وَثَمُودَا۟ فَمَآ أَبْقَىٰ",
+      "highlightedHtml": "وَثَمُودَا۟ فَمَآ <a class=\"highlight-text\">أَبْقَىٰ</a>",
+      "derivedForms": [
+        "أَبْقَى"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 27,
+      "text": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيَبْقَىٰ</a> وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+      "derivedForms": [
+        "بَقِيَ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 8,
+      "text": "فَهَلْ تَرَىٰ لَهُم مِّنۢ بَاقِيَةٍ",
+      "highlightedHtml": "فَهَلْ تَرَىٰ لَهُم مِّنۢ <a class=\"highlight-text\">بَاقِيَةٍ</a>",
+      "derivedForms": [
+        "بَاقِيَةٌ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 28,
+      "text": "لَا تُبْقِى وَلَا تَذَرُ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تُبْقِى</a> وَلَا تَذَرُ",
+      "derivedForms": [
+        "أَبْقَى"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 17,
+      "text": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَىٰٓ",
+      "highlightedHtml": "وَالْآخِرَةُ خَيْرٌ <a class=\"highlight-text\">وَأَبْقَىٰٓ</a>",
+      "derivedForms": [
+        "أَبْقَى(1)"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:55.479Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite noun",
+    "derivativeNote": "وَبَقِيَّةٌ is in the derivative form: بَقِيَّةٌ",
+    "rootDefinitionHtml": "ب/ق/ي b–q–y to stay behind, to wait, to remain, to survive, to continue<br>; remainder, residue, that which outlasts, that which endures. <br><br>Of this root, 8 forms occur 21 times in the Qur’an:<br> بَقِيَ baqiya 2 times; أَبْقَى ʾabqā (1) 2 times; أَبْقَى ʾabqā (2) 7 times; بَاقِي bāqı 1 time; بَاقِين bāqın 2 times; بَاقِيَةٌ bāqiyatun 2 times; بَاقِياتٌ bāqiyāt 2 times and بَقِيَّةٌ baqiyyatun 3 times.",
+    "mainDefinitionHtml": "بَقِيَّةٌ baqiyyatun [n.] <br><br><strong>1 </strong>relic, memento; remnant <br><br>(2:248) أَنْ يَأْتِيَكُمُ التَّابُوتُ فِيهِ سَكِينَةٌ مِنْ رَبِّكُمْ وَبَقِيَّةٌ مِمَّا تَرَكَ ءَالُ مُوسَى وَءَالُ هَارُونَ تَحْمِلُهُ الْمَلاَئِكَةُ that the Ark [of the Covenant] will come to you, carried by the angels, containing [the gift of] tranquillity from your Lord and relics of the followers of Moses and Aaron <br><br><strong>2 </strong>whatever lasts, what endures; good pious work *<br><br>(11:86) بَقِيَّةُ اللَّهِ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ what God keeps for you [after you have given of your wealth] is best for you, if you are believers; *<br><br>(11:116) أُولُو بَقِيَّةٍ people having the quality of preserving themselves, or, holding on to the true religion, people possessed of excellence [lit. people with a remnant].",
+    "mainEntryId": "wdef-ب-ق-ي.بَقِيَّةٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ق-ي",
+        "label": "ب-ق-ي",
+        "definitionHtml": "ب/ق/ي b–q–y to stay behind, to wait, to remain, to survive, to continue<br>; remainder, residue, that which outlasts, that which endures. <br><br>Of this root, 8 forms occur 21 times in the Qur’an:<br> بَقِيَ baqiya 2 times; أَبْقَى ʾabqā (1) 2 times; أَبْقَى ʾabqā (2) 7 times; بَاقِي bāqı 1 time; بَاقِين bāqın 2 times; بَاقِيَةٌ bāqiyatun 2 times; بَاقِياتٌ bāqiyāt 2 times and بَقِيَّةٌ baqiyyatun 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ق-ي.بَقِيَّةٌ",
+        "label": "بَقِيَّةٌ",
+        "definitionHtml": "بَقِيَّةٌ baqiyyatun [n.] <br><br><strong>1 </strong>relic, memento; remnant <br><br>(2:248) أَنْ يَأْتِيَكُمُ التَّابُوتُ فِيهِ سَكِينَةٌ مِنْ رَبِّكُمْ وَبَقِيَّةٌ مِمَّا تَرَكَ ءَالُ مُوسَى وَءَالُ هَارُونَ تَحْمِلُهُ الْمَلاَئِكَةُ that the Ark [of the Covenant] will come to you, carried by the angels, containing [the gift of] tranquillity from your Lord and relics of the followers of Moses and Aaron <br><br><strong>2 </strong>whatever lasts, what endures; good pious work *<br><br>(11:86) بَقِيَّةُ اللَّهِ خَيْرٌ لَكُمْ إِنْ كُنْتُمْ مُؤْمِنِينَ what God keeps for you [after you have given of your wealth] is best for you, if you are believers; *<br><br>(11:116) أُولُو بَقِيَّةٍ people having the quality of preserving themselves, or, holding on to the true religion, people possessed of excellence [lit. people with a remnant].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ق-ي.أَبْقَى(1)",
+        "label": "أَبْقَى(1)",
+        "definitionHtml": "أَبْقَى ʾabqā (2) [elat.] more/most lasting, more/most enduring <br><br>(42:36) وَمَا عِنْدَ اللَّهِ خَيْرٌ وَأَبْقَى لِلَّذِينَ ءَامَنُوا what God has to give is far better and more lasting for those who believe.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ق-ي.أَبْقَى",
+        "label": "أَبْقَى",
+        "definitionHtml": "أَبْقَى ʾabqā (1) [v. IV trans.] to spare <br><br>(74:28) لاَ تُبْقِي وَلاَ تَذَرُ it [Hell‐fire] does not spare [a thing] and does not leave [a thing].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ق-ي.بَاقِي",
+        "label": "بَاقِي",
+        "definitionHtml": "بَاقِي bāqı [quasi‐act. part., pl. بَاقِين bāqın] <br><br><strong>1 </strong>lasting, enduring <br><br>(16:96) مَا عِنْدَكُمْ يَنْفَدُ وَمَا عِنْدَ اللَّهِ بَاقٍ that which is with you runs out, but what is with God endures <br><br><strong>2 </strong>the remaining ones, the rest <br><br>(26:120) ثُمَّ أَغْرَقْنَا بَعْدُ الْبَاقِينَ and then We drowned the rest.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ق-ي.بَاقِيَةٌ",
+        "label": "بَاقِيَةٌ",
+        "definitionHtml": "بَاقِيَةٌ bāqiyatun I [quasi‐act. part. fem.] lasting, enduring <br><br>(43:28) وَجَعَلَهَا كَلِمَةً بَاقِيَةً فِى عَقِبِهِ and he made it a word enduring among his descendants II [pl. n. بَاقِيَاتٌ bāqiyāt] lasting deeds <br><br>(19:76) وَيَزِيدُ اللَّهُ الَّذِينَ اهْتَدَوْا هُدًى وَالْبَاقِيَاتُ الصَّالِحَاتُ خَيْرٌ عِنْدَ رَبِّكَ ثَوَابًا وَخَيْرٌ مَرَدًّا God increases the guided in guidance, but the lasting–good–deeds are best for reward with your Lord and best in the return [the yield] III [v. n./n.] endurance, continuance; trace, residue, remnant <br><br>(69:7–8) فَتَرَى الْقَوْمَ فِيهَا صَرْعَى كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ فَهَلْ تَرَى لَهُمْ مِنْ بَاقِيَةٍ such that you could have seen its people lying dead like hollow palm‐trunks, can you see any remnant of them? (or, do you see them remaining?).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ق-ي.بَقِيَ",
+        "label": "بَقِيَ",
+        "definitionHtml": "بَقِيَ baqiya a [v. intrans.] <br><br><strong>1 </strong>to remain <br><br>(2:278) وَذَرُوا مَا بَقِيَ مِنَ الرِّبَا and forgo what dues remain from usury <br><br><strong>2 </strong>to endure, to last <br><br>(55:27) وَيَبْقَى وَجْهُ رَبِّكَ ذُو الْجَلاَلِ وَالإِكْرَام and yet remains the Face of your Lord, full of majesty, honour‐giving.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:42.192Z",
+      "refword": "2:248:14",
+      "lexword": "وَبَقِيَّةٌ"
+    }
+  }
+}

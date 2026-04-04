@@ -1,0 +1,233 @@
+{
+  "root": "غنم",
+  "rootArabic": "غنم",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "غَنَم",
+      "count": 4
+    },
+    {
+      "form": "مَغانِم",
+      "count": 3
+    },
+    {
+      "form": "غَنِمَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَغانِم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَنَم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غَنِمَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَنَم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَنَم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مَغانِم",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "غَنَم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 94,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ <a class=\"highlight-text\">مَغَانِمُ</a> كَثِيرَةٌ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "derivedForms": [
+        "مَغانِم"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 146,
+      "text": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "highlightedHtml": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ <a class=\"highlight-text\">وَٱلْغَنَمِ</a> حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "derivedForms": [
+        "غَنَم"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 41,
+      "text": "وَٱعْلَمُوٓا۟ أَنَّمَا غَنِمْتُم مِّن شَىْءٍ فَأَنَّ لِلَّهِ خُمُسَهُۥ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ إِن كُنتُمْ آمَنْتُمْ بِٱللَّهِ وَمَآ أَنزَلْنَا عَلَىٰ عَبْدِنَا يَوْمَ ٱلْفُرْقَانِ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَٱعْلَمُوٓا۟ أَنَّمَا <a class=\"highlight-text\">غَنِمْتُم</a> مِّن شَىْءٍ فَأَنَّ لِلَّهِ خُمُسَهُۥ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ إِن كُنتُمْ آمَنْتُمْ بِٱللَّهِ وَمَآ أَنزَلْنَا عَلَىٰ عَبْدِنَا يَوْمَ ٱلْفُرْقَانِ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "غَنِمَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 69,
+      "text": "فَكُلُوا۟ مِمَّا غَنِمْتُمْ حَلَٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَكُلُوا۟ مِمَّا <a class=\"highlight-text\">غَنِمْتُمْ</a> حَلَٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "غَنِمَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 18,
+      "text": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَى",
+      "highlightedHtml": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ <a class=\"highlight-text\">غَنَمِى</a> وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَى",
+      "derivedForms": [
+        "غَنَم"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 78,
+      "text": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "highlightedHtml": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ <a class=\"highlight-text\">غَنَمُ</a> ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "derivedForms": [
+        "غَنَم"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 15,
+      "text": "سَيَقُولُ ٱلْمُخَلَّفُونَ إِذَا ٱنطَلَقْتُمْ إِلَىٰ مَغَانِمَ لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا۟ كَلَٰمَ ٱللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ ٱللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ تَحْسُدُونَنَا ۚ بَلْ كَانُوا۟ لَا يَفْقَهُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "سَيَقُولُ ٱلْمُخَلَّفُونَ إِذَا ٱنطَلَقْتُمْ إِلَىٰ <a class=\"highlight-text\">مَغَانِمَ</a> لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا۟ كَلَٰمَ ٱللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ ٱللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ تَحْسُدُونَنَا ۚ بَلْ كَانُوا۟ لَا يَفْقَهُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "مَغانِم"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 19,
+      "text": "وَمَغَانِمَ كَثِيرَةً يَأْخُذُونَهَا ۗ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَمَغَانِمَ</a> كَثِيرَةً يَأْخُذُونَهَا ۗ وَكَانَ ٱللَّهُ عَزِيزًا حَكِيمًا",
+      "derivedForms": [
+        "غَنَم"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 20,
+      "text": "وَعَدَكُمُ ٱللَّهُ مَغَانِمَ كَثِيرَةً تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِۦ وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ آيَةً لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًا مُّسْتَقِيمًا",
+      "highlightedHtml": "وَعَدَكُمُ ٱللَّهُ <a class=\"highlight-text\">مَغَانِمَ</a> كَثِيرَةً تَأْخُذُونَهَا فَعَجَّلَ لَكُمْ هَٰذِهِۦ وَكَفَّ أَيْدِىَ ٱلنَّاسِ عَنكُمْ وَلِتَكُونَ آيَةً لِّلْمُؤْمِنِينَ وَيَهْدِيَكُمْ صِرَٰطًا مُّسْتَقِيمًا",
+      "derivedForms": [
+        "مَغانِم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:14.652Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "مَغَانِمُ is in the derivative form: مَغانِم",
+    "rootDefinitionHtml": "غ/ن/م   gh–n–m sheep, to acquire sheep, to gain without trouble, to acquire as booty, spoils of war; to avail oneself of an opportunity. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> غَنِمَ ghanima 2 times, مَغانِم maghānim 4 times and غَنَم ghanam 3 times.",
+    "mainDefinitionHtml": "مَغانِم maghānim [pl. of n. مَغْنَم maghnam] spoils of war, gains <br><br>(48:15) سَيَقُولُ‏ ‏الْمُخَلَّفُونَ‏ ‏إِذَا انْطَلَقْتُمْ‏ ‏إِلَى‏ ‏مَغَانِمَ‏ ‏لِتَأْخُذُوهَا‏ ‏ذَرُونَا‏ ‏نَتَّبِعْكُمْ‏‏ ‏those who were left behind will say, when you set off for spoils [in order] to take [them], ‘Let us follow you.’",
+    "mainEntryId": "wdef-غ-ن-م.مَغانِم",
+    "entries": [
+      {
+        "id": "wdef-غ-ن-م",
+        "label": "غ-ن-م",
+        "definitionHtml": "غ/ن/م   gh–n–m sheep, to acquire sheep, to gain without trouble, to acquire as booty, spoils of war; to avail oneself of an opportunity. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> غَنِمَ ghanima 2 times, مَغانِم maghānim 4 times and غَنَم ghanam 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ن-م.مَغانِم",
+        "label": "مَغانِم",
+        "definitionHtml": "مَغانِم maghānim [pl. of n. مَغْنَم maghnam] spoils of war, gains <br><br>(48:15) سَيَقُولُ‏ ‏الْمُخَلَّفُونَ‏ ‏إِذَا انْطَلَقْتُمْ‏ ‏إِلَى‏ ‏مَغَانِمَ‏ ‏لِتَأْخُذُوهَا‏ ‏ذَرُونَا‏ ‏نَتَّبِعْكُمْ‏‏ ‏those who were left behind will say, when you set off for spoils [in order] to take [them], ‘Let us follow you.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ن-م.غَنَم",
+        "label": "غَنَم",
+        "definitionHtml": "غَنَم ghanam [coll. n.] sheep and/or goats <br><br>(20:18)‏‏قَالَ‏ ‏هِيَ‏ ‏عَصَايَ‏ ‏أَتَوَكَّأُ‏ ‏عَلَيْهَا وَأَهُشُّ‏ ‏بِهَا‏ ‏عَلَى‏ ‏غَنَمِي‏ ‘It is my staff,’ he said, ‘I lean on it and I beat down leaves with it for my sheep’ (or, ‘I restrain my sheep with it.’)",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ن-م.غَنِمَ",
+        "label": "غَنِمَ",
+        "definitionHtml": "غَنِمَ ghanima a [v. trans.] to take as spoils of war <br><br>(8:41) وَاعْلَمُوا‏ ‏أَنَّمَا‏ ‏غَنِمْتُمْ‏ ‏مِنْ شَيْء فَأَنَّ‏ ‏لِلَّهِ‏ ‏خُمُسَهُ‏ ‏وَلِلرَّسُولٍِ know that whatever you take [as spoils of war], the fifth of it belongs to God and the Messenger.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:12.923Z",
+      "refword": "4:94:24",
+      "lexword": "مَغَانِمُ"
+    }
+  }
+}

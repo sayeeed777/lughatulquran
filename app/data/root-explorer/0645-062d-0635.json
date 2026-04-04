@@ -1,0 +1,83 @@
+{
+  "root": "محص",
+  "rootArabic": "محص",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يُمَحِّص",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُمَحِّص",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 141,
+      "text": "وَلِيُمَحِّصَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَيَمْحَقَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَلِيُمَحِّصَ</a> ٱللَّهُ ٱلَّذِينَ آمَنُوا وَيَمْحَقَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "يُمَحِّص"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 154,
+      "text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ <a class=\"highlight-text\">وَلِيُمَحِّصَ</a> مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "يُمَحِّص"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:04.220Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) imperfect verb, subjunctive mood",
+    "derivativeNote": "وَلِيُمَحِّصَ is in the derivative form: يُمَحِّص",
+    "rootDefinitionHtml": "م/ح/ص   m–ḥ–ṣ sifting, purifying, smelting: to examine closely; to come into the open; to be tightly twisted; to afflict. Of this root, يُمَحِّص yumaḥḥiṣ, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُمَحِّص yumaḥḥiṣ [imperf. of v. II, trans.] <br><br><strong>1 </strong>to cleanse, to purify <br><br>(3:141) وَلِيُمَحِّصَ‏ ‏اللَّهُ‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏ and for God to cleanse those who believe <br><br><strong>2 </strong>to bring into the open <br><br>(3:154)‏وَلِيَبْتَلِيَ‏ ‏اللَّهُ‏ ‏مَا‏ ‏فِي‏ ‏صُدُورِكُمْ‏ ‏وَلِيُمَحِّصَ‏ ‏مَا‏ ‏فِي‏ ‏قُلُوبِكُمْ‏ [all this has happened] so that God may try what is in your breasts and bring into the open [or, to purify] what is in your hearts.",
+    "mainEntryId": "wdef-م-ح-ص.يُمَحِّص",
+    "entries": [
+      {
+        "id": "wdef-م-ح-ص",
+        "label": "م-ح-ص",
+        "definitionHtml": "م/ح/ص   m–ḥ–ṣ sifting, purifying, smelting: to examine closely; to come into the open; to be tightly twisted; to afflict. Of this root, يُمَحِّص yumaḥḥiṣ, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ح-ص.يُمَحِّص",
+        "label": "يُمَحِّص",
+        "definitionHtml": "يُمَحِّص yumaḥḥiṣ [imperf. of v. II, trans.] <br><br><strong>1 </strong>to cleanse, to purify <br><br>(3:141) وَلِيُمَحِّصَ‏ ‏اللَّهُ‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏ and for God to cleanse those who believe <br><br><strong>2 </strong>to bring into the open <br><br>(3:154)‏وَلِيَبْتَلِيَ‏ ‏اللَّهُ‏ ‏مَا‏ ‏فِي‏ ‏صُدُورِكُمْ‏ ‏وَلِيُمَحِّصَ‏ ‏مَا‏ ‏فِي‏ ‏قُلُوبِكُمْ‏ [all this has happened] so that God may try what is in your breasts and bring into the open [or, to purify] what is in your hearts.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:26.680Z",
+      "refword": "3:141:1",
+      "lexword": "وَلِيُمَحِّصَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "بلع",
+  "rootArabic": "بلع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ابْلَعْ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ابْلَعْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 44,
+      "text": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَقِيلَ يَٰٓأَرْضُ <a class=\"highlight-text\">ٱبْلَعِى</a> مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "ابْلَعْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:59.471Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person feminine singular imperative verb",
+    "derivativeNote": "ٱبْلَعِى is in the derivative form: ابْلَعْ",
+    "rootDefinitionHtml": "ب/ل/ع   b–l–ʿ to swallow, to swallow up; a glutton; a drain. Of this root, ابْلَعِي ʾiblaʿı occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ابْلَعْ iblaʿ [imper. of v. بَلَعَ balaʿa] to swallow up <br><br>(11:44) وَقِيلَ يَاأَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي then it was said, ‘Earth, swallow up your water, and Sky, cease [raining].’",
+    "mainEntryId": "wdef-ب-ل-ع.ابْلَعْ",
+    "entries": [
+      {
+        "id": "wdef-ب-ل-ع",
+        "label": "ب-ل-ع",
+        "definitionHtml": "ب/ل/ع   b–l–ʿ to swallow, to swallow up; a glutton; a drain. Of this root, ابْلَعِي ʾiblaʿı occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ل-ع.ابْلَعْ",
+        "label": "ابْلَعْ",
+        "definitionHtml": "ابْلَعْ iblaʿ [imper. of v. بَلَعَ balaʿa] to swallow up <br><br>(11:44) وَقِيلَ يَاأَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي then it was said, ‘Earth, swallow up your water, and Sky, cease [raining].’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:51.098Z",
+      "refword": "11:44:3",
+      "lexword": "ٱبْلَعِى"
+    }
+  }
+}

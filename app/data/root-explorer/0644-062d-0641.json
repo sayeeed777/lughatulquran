@@ -1,0 +1,74 @@
+{
+  "root": "لحف",
+  "rootArabic": "لحف",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اِلْحَاف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْحَاف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 273,
+      "text": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "highlightedHtml": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ <a class=\"highlight-text\">إِلْحَافًا</a> ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "derivedForms": [
+        "اِلْحَاف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:24.425Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form IV) verbal noun",
+    "derivativeNote": "إِلْحَافًا is in the derivative form: اِلْحَاف",
+    "rootDefinitionHtml": "ل/ح/ف   l–ḥ–f outer garment, bedcover, to wrap up; to bestow a favour, to request or ask persistently, to demand urgently. Of this root, only اِلْحَاف ʾilḥāf occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اِلْحَاف ʾilḥāf [v. n. used adverbially] persistence, importunity <br><br>(2:273) ‏تَعْرِفُهُم بِسِيمَاهُمْ لاَ يَسْأَلُونَ النَّاسَ إلْحَافاً‏ ‏you will recognise them by their characteristics; they do not beg people persistently.",
+    "mainEntryId": "wdef-ل-ح-ف.اِلْحَاف",
+    "entries": [
+      {
+        "id": "wdef-ل-ح-ف",
+        "label": "ل-ح-ف",
+        "definitionHtml": "ل/ح/ف   l–ḥ–f outer garment, bedcover, to wrap up; to bestow a favour, to request or ask persistently, to demand urgently. Of this root, only اِلْحَاف ʾilḥāf occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ح-ف.اِلْحَاف",
+        "label": "اِلْحَاف",
+        "definitionHtml": "اِلْحَاف ʾilḥāf [v. n. used adverbially] persistence, importunity <br><br>(2:273) ‏تَعْرِفُهُم بِسِيمَاهُمْ لاَ يَسْأَلُونَ النَّاسَ إلْحَافاً‏ ‏you will recognise them by their characteristics; they do not beg people persistently.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:06.886Z",
+      "refword": "2:273:22",
+      "lexword": "إِلْحَافًا"
+    }
+  }
+}

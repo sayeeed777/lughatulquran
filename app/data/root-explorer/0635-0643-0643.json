@@ -1,0 +1,74 @@
+{
+  "root": "صكك",
+  "rootArabic": "صكك",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "صَكَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَكَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 51,
+      "ayah": 29,
+      "text": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+      "highlightedHtml": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ <a class=\"highlight-text\">فَصَكَّتْ</a> وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+      "derivedForms": [
+        "صَكَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:07.152Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "فَصَكَّتْ is in the derivative form: صَكَّ",
+    "rootDefinitionHtml": "ص/ك/ك   ṣ–k–k to slap with the hand, violent strike with a ringing sound; to shut, to close. Of this root, 1 form, صَكَّت ṣakkat, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "صَكَّ ṣakka u [v. trans.] to slap, smack, smite with loud noise <br><br>(51:29) فَأَقْبَلَتِ امْرَأَتُهُ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا then his wife entered with a loud cry, and struck her [own] face.",
+    "mainEntryId": "wdef-ص-ك-ك.صَكَّ",
+    "entries": [
+      {
+        "id": "wdef-ص-ك-ك",
+        "label": "ص-ك-ك",
+        "definitionHtml": "ص/ك/ك   ṣ–k–k to slap with the hand, violent strike with a ringing sound; to shut, to close. Of this root, 1 form, صَكَّت ṣakkat, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ك-ك.صَكَّ",
+        "label": "صَكَّ",
+        "definitionHtml": "صَكَّ ṣakka u [v. trans.] to slap, smack, smite with loud noise <br><br>(51:29) فَأَقْبَلَتِ امْرَأَتُهُ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا then his wife entered with a loud cry, and struck her [own] face.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:12.056Z",
+      "refword": "51:29:5",
+      "lexword": "فَصَكَّتْ"
+    }
+  }
+}

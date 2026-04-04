@@ -1,0 +1,74 @@
+{
+  "root": "قصف",
+  "rootArabic": "قصف",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "قَاصِف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاصِف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 69,
+      "text": "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَى فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا",
+      "highlightedHtml": "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَى فَيُرْسِلَ عَلَيْكُمْ <a class=\"highlight-text\">قَاصِفًا</a> مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا",
+      "derivedForms": [
+        "قَاصِف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:59.296Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite active participle",
+    "derivativeNote": "قَاصِفًا is in the derivative form: قَاصِف",
+    "rootDefinitionHtml": "ق/ص/ف   q–ṣ–f to break, to shatter, to smash, to snap; to thunder, to rumble, thunder, gale, storm; to rush in, to crowd. Of this root, قَاصِف qāṣif occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "قَاصِف qāṣif [act. part.] hurricane, gale, storm <br><br>(17:69) فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِنَ الرِّيحِ فَيُغْرِقَكُمْ بِمَا كَفَرْتُمْ and send against you a gale of wind and drown you for your ungratefulness.",
+    "mainEntryId": "wdef-ق-ص-ف.قَاصِف",
+    "entries": [
+      {
+        "id": "wdef-ق-ص-ف",
+        "label": "ق-ص-ف",
+        "definitionHtml": "ق/ص/ف   q–ṣ–f to break, to shatter, to smash, to snap; to thunder, to rumble, thunder, gale, storm; to rush in, to crowd. Of this root, قَاصِف qāṣif occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ف.قَاصِف",
+        "label": "قَاصِف",
+        "definitionHtml": "قَاصِف qāṣif [act. part.] hurricane, gale, storm <br><br>(17:69) فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِنَ الرِّيحِ فَيُغْرِقَكُمْ بِمَا كَفَرْتُمْ and send against you a gale of wind and drown you for your ungratefulness.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:32.743Z",
+      "refword": "17:69:10",
+      "lexword": "قَاصِفًا"
+    }
+  }
+}

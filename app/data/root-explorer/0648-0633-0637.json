@@ -1,0 +1,173 @@
+{
+  "root": "وسط",
+  "rootArabic": "وسط",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "أََوْسَطُ",
+      "count": 3
+    },
+    {
+      "form": "وَسَطٌ",
+      "count": 1
+    },
+    {
+      "form": "وَسَطَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أََوْسَطُ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "وَسَطٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أََوْسَطُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أََوْسَطُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 100,
+      "surahName": "Al-'Adiyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَسَطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 143,
+      "text": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةً <a class=\"highlight-text\">وَسَطًا</a> لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "وَسَطٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 238,
+      "text": "حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ",
+      "highlightedHtml": "حَٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ <a class=\"highlight-text\">ٱلْوُسْطَىٰ</a> وَقُومُوا۟ لِلَّهِ قَٰنِتِينَ",
+      "derivedForms": [
+        "أََوْسَطُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 89,
+      "text": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ <a class=\"highlight-text\">أَوْسَطِ</a> مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "أََوْسَطُ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 28,
+      "text": "قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">أَوْسَطُهُمْ</a> أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ",
+      "derivedForms": [
+        "أََوْسَطُ"
+      ]
+    },
+    {
+      "surah": 100,
+      "ayah": 5,
+      "text": "فَوَسَطْنَ بِهِۦ جَمْعًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَوَسَطْنَ</a> بِهِۦ جَمْعًا",
+      "derivedForms": [
+        "وَسَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:17.288Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative indefinite adjective",
+    "derivativeNote": "وَسَطًا is in the derivative form: وَسَطٌ",
+    "rootDefinitionHtml": "و/س/ط   w–s–ṭ middle, centre<br>; justice; heart, waist; inside; between; the choice, the select; to cause to be in the centre. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> وَسَطَ wasaṭa 1 time; وَسَطٌ wasaṭ 1 time; أَوْسَطٌ ʾawsaṭ 2 times and وُسْطَى wusṭā 1 time.",
+    "mainDefinitionHtml": "وَسَطٌ wasaṭ [quasi‐act. part./n.] middle/the middle, the centre *<br><br>(2:143) جَعَلْنَاكُمْ أُمَّةً وَسَطًا We have made you into a just community [lit. a community of the middle].",
+    "mainEntryId": "wdef-و-س-ط.وَسَطٌ",
+    "entries": [
+      {
+        "id": "wdef-و-س-ط",
+        "label": "و-س-ط",
+        "definitionHtml": "و/س/ط   w–s–ṭ middle, centre<br>; justice; heart, waist; inside; between; the choice, the select; to cause to be in the centre. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> وَسَطَ wasaṭa 1 time; وَسَطٌ wasaṭ 1 time; أَوْسَطٌ ʾawsaṭ 2 times and وُسْطَى wusṭā 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-س-ط.وَسَطٌ",
+        "label": "وَسَطٌ",
+        "definitionHtml": "وَسَطٌ wasaṭ [quasi‐act. part./n.] middle/the middle, the centre *<br><br>(2:143) جَعَلْنَاكُمْ أُمَّةً وَسَطًا We have made you into a just community [lit. a community of the middle].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-س-ط.أََوْسَطُ",
+        "label": "أََوْسَطُ",
+        "definitionHtml": "أََوْسَطُ ʾawsaṭ [elat., fem. وُسْطَى wusṭā] <br><br><strong>1 </strong>middle, average <br><br>(5:89) فَكَفَّارَتُهُ إِطْعَامُ عَشَرَةِ مَسَاكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ the atonement for it [breaking an oath] is the feeding of ten poor people with the average of the food you serve your own families <br><br><strong>2 </strong>the noblest kind, the most worthy (in an interpretation of verse 2:238) حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلاَةِ الْوُسْطَى take care to do your prayers, and [particularly], prayers performed in the best of ways [also interpreted as: the middle prayer, said to be either the afternoon or the dawn prayer].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-س-ط.وَسَطَ",
+        "label": "وَسَطَ",
+        "definitionHtml": "وَسَطَ wasaṭa i [v. trans.] to move into the middle or the centre, to split something down the middle <br><br>(100:5) فَوَسَطْنَ بِهِ جَمْعًا and plunging thereby into the gathering [of the enemy].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:39.412Z",
+      "refword": "2:143:4",
+      "lexword": "وَسَطًا"
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "root": "كيد",
+  "rootArabic": "كيد",
+  "stats": {
+    "totalOccurrences": 35,
+    "derivativeCount": 3,
+    "surahCount": 16,
+    "ayahCount": 29
+  },
+  "derivatives": [
+    {
+      "form": "كَيْد",
+      "count": 25
+    },
+    {
+      "form": "كَادَ",
+      "count": 9
+    },
+    {
+      "form": "مَكِيدُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَادَ",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَادَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 9,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 6,
+          "totalInQuran": 25
+        },
+        {
+          "form": "كَادَ",
+          "count": 3,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 3,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَادَ",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 2,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 2,
+          "totalInQuran": 25
+        },
+        {
+          "form": "مَكِيدُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَادَ",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "كَادَ",
+          "count": 2,
+          "totalInQuran": 9
+        },
+        {
+          "form": "كَيْد",
+          "count": 2,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 105,
+      "surahName": "Al-Fil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَيْد",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 120,
+      "text": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
+      "highlightedHtml": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ <a class=\"highlight-text\">كَيْدُهُمْ</a> شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 76,
+      "text": "ٱلَّذِينَ آمَنُوا يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا",
+      "highlightedHtml": "ٱلَّذِينَ آمَنُوا يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ <a class=\"highlight-text\">كَيْدَ</a> ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 183,
+      "text": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "highlightedHtml": "وَأُمْلِى لَهُمْ ۚ إِنَّ <a class=\"highlight-text\">كَيْدِى</a> مَتِينٌ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 195,
+      "text": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
+      "highlightedHtml": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ <a class=\"highlight-text\">كِيدُونِ</a> فَلَا تُنظِرُونِ",
+      "derivedForms": [
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 18,
+      "text": "ذَٰلِكُمْ وَأَنَّ ٱللَّهَ مُوهِنُ كَيْدِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "ذَٰلِكُمْ وَأَنَّ ٱللَّهَ مُوهِنُ <a class=\"highlight-text\">كَيْدِ</a> ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 55,
+      "text": "مِن دُونِهِۦ ۖ فَكِيدُونِى جَمِيعًا ثُمَّ لَا تُنظِرُونِ",
+      "highlightedHtml": "مِن دُونِهِۦ ۖ <a class=\"highlight-text\">فَكِيدُونِى</a> جَمِيعًا ثُمَّ لَا تُنظِرُونِ",
+      "derivedForms": [
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 5,
+      "text": "قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّ مُّبِينٌ",
+      "highlightedHtml": "قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ <a class=\"highlight-text\">فَيَكِيدُوا۟</a> لَكَ <a class=\"highlight-text\">كَيْدًا</a> ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّ مُّبِينٌ",
+      "derivedForms": [
+        "كَادَ",
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 28,
+      "text": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "highlightedHtml": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُۥ مِن <a class=\"highlight-text\">كَيْدِكُنَّ</a> ۖ إِنَّ <a class=\"highlight-text\">كَيْدَكُنَّ</a> عَظِيمٌ",
+      "derivedForms": [
+        "كَيْد",
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 33,
+      "text": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى <a class=\"highlight-text\">كَيْدَهُنَّ</a> أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 34,
+      "text": "فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ فَصَرَفَ عَنْهُ كَيْدَهُنَّ ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "فَٱسْتَجَابَ لَهُۥ رَبُّهُۥ فَصَرَفَ فَصَرَفَ عَنْهُ <a class=\"highlight-text\">كَيْدَهُنَّ</a> ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 50,
+      "text": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى بِكَيْدِهِنَّ عَلِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦ ۖ فَلَمَّا جَآءَهُ ٱلرَّسُولُ قَالَ ٱرْجِعْ إِلَىٰ رَبِّكَ فَسْـَٔلْهُ مَا بَالُ ٱلنِّسْوَةِ ٱلَّٰتِى قَطَّعْنَ أَيْدِيَهُنَّ ۚ إِنَّ رَبِّى <a class=\"highlight-text\">بِكَيْدِهِنَّ</a> عَلِيمٌ",
+      "derivedForms": [
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 52,
+      "text": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ",
+      "highlightedHtml": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى <a class=\"highlight-text\">كَيْدَ</a> ٱلْخَآئِنِينَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 76,
+      "text": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "highlightedHtml": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ <a class=\"highlight-text\">كِدْنَا</a> لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "derivedForms": [
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 60,
+      "text": "فَتَوَلَّىٰ فِرْعَوْنُ فَجَمَعَ كَيْدَهُۥ ثُمَّ أَتَىٰ",
+      "highlightedHtml": "فَتَوَلَّىٰ فِرْعَوْنُ فَجَمَعَ <a class=\"highlight-text\">كَيْدَهُۥ</a> ثُمَّ أَتَىٰ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 64,
+      "text": "فَأَجْمِعُوا۟ كَيْدَكُمْ ثُمَّ ٱئْتُوا۟ صَفًّا ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
+      "highlightedHtml": "فَأَجْمِعُوا۟ <a class=\"highlight-text\">كَيْدَكُمْ</a> ثُمَّ ٱئْتُوا۟ صَفًّا ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 69,
+      "text": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "highlightedHtml": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ <a class=\"highlight-text\">كَيْدُ</a> سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 57,
+      "text": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم بَعْدَ أَن تُوَلُّوا۟ مُدْبِرِينَ",
+      "highlightedHtml": "وَتَٱللَّهِ <a class=\"highlight-text\">لَأَكِيدَنَّ</a> أَصْنَٰمَكُم بَعْدَ أَن تُوَلُّوا۟ مُدْبِرِينَ",
+      "derivedForms": [
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 70,
+      "text": "وَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ",
+      "highlightedHtml": "وَأَرَادُوا۟ بِهِۦ <a class=\"highlight-text\">كَيْدًا</a> فَجَعَلْنَٰهُمُ ٱلْأَخْسَرِينَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 15,
+      "text": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
+      "highlightedHtml": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ <a class=\"highlight-text\">كَيْدُهُۥ</a> مَا يَغِيظُ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 98,
+      "text": "فَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+      "highlightedHtml": "فَأَرَادُوا۟ بِهِۦ <a class=\"highlight-text\">كَيْدًا</a> فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 25,
+      "text": "فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ آمَنُوا مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا كَيْدُ ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍ",
+      "highlightedHtml": "فَلَمَّا جَآءَهُم بِٱلْحَقِّ مِنْ عِندِنَا قَالُوا۟ ٱقْتُلُوٓا۟ أَبْنَآءَ ٱلَّذِينَ آمَنُوا مَعَهُۥ وَٱسْتَحْيُوا۟ نِسَآءَهُمْ ۚ وَمَا <a class=\"highlight-text\">كَيْدُ</a> ٱلْكَٰفِرِينَ إِلَّا فِى ضَلَٰلٍ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 37,
+      "text": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "highlightedHtml": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا <a class=\"highlight-text\">كَيْدُ</a> فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 42,
+      "text": "أَمْ يُرِيدُونَ كَيْدًا ۖ فَٱلَّذِينَ كَفَرُوا۟ هُمُ ٱلْمَكِيدُونَ",
+      "highlightedHtml": "أَمْ يُرِيدُونَ <a class=\"highlight-text\">كَيْدًا</a> ۖ فَٱلَّذِينَ كَفَرُوا۟ هُمُ <a class=\"highlight-text\">ٱلْمَكِيدُونَ</a>",
+      "derivedForms": [
+        "كَيْد",
+        "مَكِيدُون"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 46,
+      "text": "يَوْمَ لَا يُغْنِى عَنْهُمْ كَيْدُهُمْ شَيْـًٔا وَلَا هُمْ يُنصَرُونَ",
+      "highlightedHtml": "يَوْمَ لَا يُغْنِى عَنْهُمْ <a class=\"highlight-text\">كَيْدُهُمْ</a> شَيْـًٔا وَلَا هُمْ يُنصَرُونَ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 45,
+      "text": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "highlightedHtml": "وَأُمْلِى لَهُمْ ۚ إِنَّ <a class=\"highlight-text\">كَيْدِى</a> مَتِينٌ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 39,
+      "text": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
+      "highlightedHtml": "فَإِن كَانَ لَكُمْ <a class=\"highlight-text\">كَيْدٌ</a> <a class=\"highlight-text\">فَكِيدُونِ</a>",
+      "derivedForms": [
+        "كَيْد",
+        "كَادَ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 15,
+      "text": "إِنَّهُمْ يَكِيدُونَ كَيْدًا",
+      "highlightedHtml": "إِنَّهُمْ <a class=\"highlight-text\">يَكِيدُونَ</a> <a class=\"highlight-text\">كَيْدًا</a>",
+      "derivedForms": [
+        "كَادَ",
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 16,
+      "text": "وَأَكِيدُ كَيْدًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَكِيدُ</a> <a class=\"highlight-text\">كَيْدًا</a>",
+      "derivedForms": [
+        "كَادَ",
+        "كَيْد"
+      ]
+    },
+    {
+      "surah": 105,
+      "ayah": 2,
+      "text": "أَلَمْ يَجْعَلْ كَيْدَهُمْ فِى تَضْلِيلٍ",
+      "highlightedHtml": "أَلَمْ يَجْعَلْ <a class=\"highlight-text\">كَيْدَهُمْ</a> فِى تَضْلِيلٍ",
+      "derivedForms": [
+        "كَيْد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:15.569Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "كَيْدُهُمْ is in the derivative form: كَيْد",
+    "rootDefinitionHtml": "ك/ي/د   k–y–d plot, to plot, to deceive, to connive, to conspire, ruse, machination<br>; to wish to harm. <br><br>Of this root, 3 forms occur 35 times in the Qur’an:<br> كَادَ kāda 8 times; كَيْد kayd 26 times and مَكِيدُون makıdūn 1 time.",
+    "mainDefinitionHtml": "كَيْد kayd [n./v. n.] <br><br><strong>1 </strong>guile, ploy <br><br>(4:76) إِنَّ كَيْدَ الشَّيْطَانِ كَانَ ضَعِيفًا Satan’s ploys are truly weak <br><br><strong>2 </strong>contrivance, machination, cunning <br><br>(12:28) فَلَمَّا رَأَى قَمِيصَهُ قُدَّ مِنْ دُبُرٍ قَالَ إِنَّهُ مِنْ كَيْدِكُنَّ إِنَّ كَيْدَكُنَّ عَظِيمٌ when he saw that the shirt was torn at the back, he said, ‘This is another instance of your cunning: your cunning is indeed great’ <br><br><strong>3 </strong>harmful plot <br><br>(21:70) وَأَرَادُوا بِهِ كَيْدًا فَجَعَلْنَاهُمُ الأَخْسَرِينَ they intended to harm him, but We made them suffer the greatest loss <br><br><strong>4 </strong>stratagem, scheming <br><br>(40:37) وَمَا كَيْدُ فِرْعَوْنَ إِلاَّ فِى تَبَابٍ and Pharaoh’s scheming led only to ruin <br><br><strong>5 </strong>planning, arrangements, preparation <br><br>(20:64) فَأَجْمِعُوا كَيْدَكُمْ ثُمَّ ائْتُوا صَفًّا so muster your resources and form a line <br><br><strong>6 </strong>taking to task, punishment <br><br>(7:183) وَأُمْلِي لَهُمْ إِنَّ كَيْدِي مَتِينٌ I give them respite; indeed, My punishment is sure.",
+    "mainEntryId": "wdef-ك-ي-د.كَيْد",
+    "entries": [
+      {
+        "id": "wdef-ك-ي-د",
+        "label": "ك-ي-د",
+        "definitionHtml": "ك/ي/د   k–y–d plot, to plot, to deceive, to connive, to conspire, ruse, machination<br>; to wish to harm. <br><br>Of this root, 3 forms occur 35 times in the Qur’an:<br> كَادَ kāda 8 times; كَيْد kayd 26 times and مَكِيدُون makıdūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ي-د.كَيْد",
+        "label": "كَيْد",
+        "definitionHtml": "كَيْد kayd [n./v. n.] <br><br><strong>1 </strong>guile, ploy <br><br>(4:76) إِنَّ كَيْدَ الشَّيْطَانِ كَانَ ضَعِيفًا Satan’s ploys are truly weak <br><br><strong>2 </strong>contrivance, machination, cunning <br><br>(12:28) فَلَمَّا رَأَى قَمِيصَهُ قُدَّ مِنْ دُبُرٍ قَالَ إِنَّهُ مِنْ كَيْدِكُنَّ إِنَّ كَيْدَكُنَّ عَظِيمٌ when he saw that the shirt was torn at the back, he said, ‘This is another instance of your cunning: your cunning is indeed great’ <br><br><strong>3 </strong>harmful plot <br><br>(21:70) وَأَرَادُوا بِهِ كَيْدًا فَجَعَلْنَاهُمُ الأَخْسَرِينَ they intended to harm him, but We made them suffer the greatest loss <br><br><strong>4 </strong>stratagem, scheming <br><br>(40:37) وَمَا كَيْدُ فِرْعَوْنَ إِلاَّ فِى تَبَابٍ and Pharaoh’s scheming led only to ruin <br><br><strong>5 </strong>planning, arrangements, preparation <br><br>(20:64) فَأَجْمِعُوا كَيْدَكُمْ ثُمَّ ائْتُوا صَفًّا so muster your resources and form a line <br><br><strong>6 </strong>taking to task, punishment <br><br>(7:183) وَأُمْلِي لَهُمْ إِنَّ كَيْدِي مَتِينٌ I give them respite; indeed, My punishment is sure.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ي-د.كَادَ",
+        "label": "كَادَ",
+        "definitionHtml": "كَادَ kāda i I [v. intrans.] to plot, to connive, to devise a harmful scheme <br><br>(12:5) قَالَ يَابُنَيَّ لاَ تَقْصُصْ رُؤْيَاكَ عَلَى إِخْوَتِكَ فَيَكِيدُوا لَكَ كَيْدًا he said, ‘My son, do not relate your dream to your brothers, lest they devise against you a harmful scheme’ II [v., trans.] to harm, to upset, <br><br>(11:55) فَكِيدُونِي جَمِيعًا ثُمَّ لاَ تُنْظِرُونِ so try your utmost against me, all of you, and give me no respite.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ي-د.مَكِيدُون",
+        "label": "مَكِيدُون",
+        "definitionHtml": "مَكِيدُون makıdūn [pl. of pass. part. مَكِيد makıd] one who is caught in a plot, entrapped <br><br>(52:42) أَمْ يُرِيدُونَ كَيْدًا فَالَّذِينَ كَفَرُوا هُمُ الْمَكِيدُونَ do they seek to trap [you]?–it is the disbelievers who will be trapped.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:49.229Z",
+      "refword": "3:120:15",
+      "lexword": "كَيْدُهُمْ"
+    }
+  }
+}

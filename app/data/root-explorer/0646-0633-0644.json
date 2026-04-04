@@ -1,0 +1,148 @@
+{
+  "root": "نسل",
+  "rootArabic": "نسل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "نَسْلٌ",
+      "count": 2
+    },
+    {
+      "form": "يَنْسِل",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْلٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْسِل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْلٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْسِل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 205,
+      "text": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "highlightedHtml": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ <a class=\"highlight-text\">وَٱلنَّسْلَ</a> ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "derivedForms": [
+        "نَسْلٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 96,
+      "text": "حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ <a class=\"highlight-text\">يَنسِلُونَ</a>",
+      "derivedForms": [
+        "يَنْسِل"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 8,
+      "text": "ثُمَّ جَعَلَ نَسْلَهُۥ مِن سُلَٰلَةٍ مِّن مَّآءٍ مَّهِينٍ",
+      "highlightedHtml": "ثُمَّ جَعَلَ <a class=\"highlight-text\">نَسْلَهُۥ</a> مِن سُلَٰلَةٍ مِّن مَّآءٍ مَّهِينٍ",
+      "derivedForms": [
+        "نَسْلٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 51,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "highlightedHtml": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ <a class=\"highlight-text\">يَنسِلُونَ</a>",
+      "derivedForms": [
+        "يَنْسِل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:20.880Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "وَٱلنَّسْلَ is in the derivative form: نَسْلٌ",
+    "rootDefinitionHtml": "ن/س/ل   n–s–l offspring, progeny, to beget, to give birth; (of hair or feathers) to fall out, fibrous waste; to move quickly, to ooze out. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> يَنْسِلُ yansil and نَسْلٌ nasl.",
+    "mainDefinitionHtml": "نَسْلٌ nasl [coll. n./v. n.] offspring, descendants <br><br>(32:8) ثُمَّ جَعَلَ نَسْلَهُ مِنْ سُلاَلَةٍ مِنْ مَاءٍ مَهِينٍ then He fashioned his descendants from an extraction of worthless fluid; *<br><br>(2:205) يُهْلِكَ الْحَرْثَ وَالنَّسْلَ causes total destruction [lit. destroys crops and livestock].",
+    "mainEntryId": "wdef-ن-س-ل.نَسْلٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-س-ل",
+        "label": "ن-س-ل",
+        "definitionHtml": "ن/س/ل   n–s–l offspring, progeny, to beget, to give birth; (of hair or feathers) to fall out, fibrous waste; to move quickly, to ooze out. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> يَنْسِلُ yansil and نَسْلٌ nasl.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-ل.نَسْلٌ",
+        "label": "نَسْلٌ",
+        "definitionHtml": "نَسْلٌ nasl [coll. n./v. n.] offspring, descendants <br><br>(32:8) ثُمَّ جَعَلَ نَسْلَهُ مِنْ سُلاَلَةٍ مِنْ مَاءٍ مَهِينٍ then He fashioned his descendants from an extraction of worthless fluid; *<br><br>(2:205) يُهْلِكَ الْحَرْثَ وَالنَّسْلَ causes total destruction [lit. destroys crops and livestock].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-س-ل.يَنْسِل",
+        "label": "يَنْسِل",
+        "definitionHtml": "يَنْسِل yansil [imperf. of v. نَسَلَ nasala, intrans.] to move swiftly, to speed up, to swarm out <br><br>(36:51) مِنَ الأَجْدَاثِ إِلَى رَبِّهِمْ يَنْسِلُونَ they will swarm out to their Lord from their graves.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:57.766Z",
+      "refword": "2:205:10",
+      "lexword": "وَٱلنَّسْلَ"
+    }
+  }
+}

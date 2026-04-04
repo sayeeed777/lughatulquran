@@ -1,0 +1,350 @@
+{
+  "root": "زرع",
+  "rootArabic": "زرع",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 4,
+    "surahCount": 12,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "زَرْع",
+      "count": 8
+    },
+    {
+      "form": "تَزْرَعُون",
+      "count": 2
+    },
+    {
+      "form": "زُرّاع",
+      "count": 2
+    },
+    {
+      "form": "زُروع",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَزْرَعُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُروع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُروع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زُرّاع",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "زَرْع",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَزْرَعُون",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "زُرّاع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 141,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ <a class=\"highlight-text\">وَٱلزَّرْعَ</a> مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 47,
+      "text": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">تَزْرَعُونَ</a> سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "derivedForms": [
+        "تَزْرَعُون"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 4,
+      "text": "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَٰوِرَٰتٌ وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَٰوِرَٰتٌ وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ <a class=\"highlight-text\">وَزَرْعٌ</a> وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 37,
+      "text": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى زَرْعٍ عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةً مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
+      "highlightedHtml": "رَّبَّنَآ إِنِّىٓ أَسْكَنتُ مِن ذُرِّيَّتِى بِوَادٍ غَيْرِ ذِى <a class=\"highlight-text\">زَرْعٍ</a> عِندَ بَيْتِكَ ٱلْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا۟ ٱلصَّلَوٰةَ فَٱجْعَلْ أَفْـِٔدَةً مِّنَ ٱلنَّاسِ تَهْوِىٓ إِلَيْهِمْ وَٱرْزُقْهُم مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَشْكُرُونَ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 11,
+      "text": "يُنۢبِتُ لَكُم بِهِ ٱلزَّرْعَ وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلْأَعْنَٰبَ وَمِن كُلِّ ٱلثَّمَرَٰتِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "يُنۢبِتُ لَكُم بِهِ <a class=\"highlight-text\">ٱلزَّرْعَ</a> وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلْأَعْنَٰبَ وَمِن كُلِّ ٱلثَّمَرَٰتِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 32,
+      "text": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍ وَحَفَفْنَٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا",
+      "highlightedHtml": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍ وَحَفَفْنَٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا <a class=\"highlight-text\">زَرْعًا</a>",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 148,
+      "text": "وَزُرُوعٍ وَنَخْلٍ طَلْعُهَا هَضِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَزُرُوعٍ</a> وَنَخْلٍ طَلْعُهَا هَضِيمٌ",
+      "derivedForms": [
+        "زُروع"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 27,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًا تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ <a class=\"highlight-text\">زَرْعًا</a> تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 21,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ زَرْعًا مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ حُطَٰمًا ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ <a class=\"highlight-text\">زَرْعًا</a> مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ حُطَٰمًا ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "زَرْع"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 26,
+      "text": "وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَزُرُوعٍ</a> وَمَقَامٍ كَرِيمٍ",
+      "derivedForms": [
+        "زُروع"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ <a class=\"highlight-text\">كَزَرْعٍ</a> أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ <a class=\"highlight-text\">ٱلزُّرَّاعَ</a> لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "زَرْع",
+        "زُرّاع"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 64,
+      "text": "أَأَنْتُمْ تَزْرَعُونَهُۥٓ أَمْ نَحْنُ ٱلزَّٰرِعُونَ",
+      "highlightedHtml": "أَأَنْتُمْ <a class=\"highlight-text\">تَزْرَعُونَهُۥٓ</a> أَمْ نَحْنُ <a class=\"highlight-text\">ٱلزَّٰرِعُونَ</a>",
+      "derivedForms": [
+        "تَزْرَعُون",
+        "زُرّاع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:02.452Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "وَٱلزَّرْعَ is in the derivative form: زَرْع",
+    "rootDefinitionHtml": "ز/ر/ع   z–r–ʿ to sow, to plant, to cultivate, to grow plants. <br><br>Of this root, 4 forms occur in 14 places in the Qur’an:<br> تَزْرَعُون tazraʿūn 3 times; زُرّاع zurrāʿ 1 time; زَرْع zarʿ 8 times and زُروع zurūʿ 2 times.",
+    "mainDefinitionHtml": "زَرْع zarʿ [coll. n., pl. زُروع zurūʿ] plants, grain‐producing plants, herbage (as opposed to trees) <br><br>(16:11) يُنْبِتُ لَكُمْ بِهِ الزَّرْعَ وَالزَّيْتُونَ وَالنَّخِيلَ وَالأَعْنَابَ وَمِنْ كُلِّ الثَّمَرَاتِ with it He grows for you plants, olives, palms, vines and all kinds of produce.",
+    "mainEntryId": "wdef-ز-ر-ع.زَرْع",
+    "entries": [
+      {
+        "id": "wdef-ز-ر-ع",
+        "label": "ز-ر-ع",
+        "definitionHtml": "ز/ر/ع   z–r–ʿ to sow, to plant, to cultivate, to grow plants. <br><br>Of this root, 4 forms occur in 14 places in the Qur’an:<br> تَزْرَعُون tazraʿūn 3 times; زُرّاع zurrāʿ 1 time; زَرْع zarʿ 8 times and زُروع zurūʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ر-ع.زَرْع",
+        "label": "زَرْع",
+        "definitionHtml": "زَرْع zarʿ [coll. n., pl. زُروع zurūʿ] plants, grain‐producing plants, herbage (as opposed to trees) <br><br>(16:11) يُنْبِتُ لَكُمْ بِهِ الزَّرْعَ وَالزَّيْتُونَ وَالنَّخِيلَ وَالأَعْنَابَ وَمِنْ كُلِّ الثَّمَرَاتِ with it He grows for you plants, olives, palms, vines and all kinds of produce.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ر-ع.تَزْرَعُون",
+        "label": "تَزْرَعُون",
+        "definitionHtml": "تَزْرَعُون tazraʿūn [imperf. v., trans.] <br><br><strong>1 </strong>to plant, to sow, to till <br><br>(12:47) قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا he said, ‘You should sow for seven consecutive years as usual’ <br><br><strong>2 </strong>to cause to grow, to cause to germinate, to give the power of growth <br><br>(56:64) ءَأَنْتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ is it you who make it germinate or are We the grower[s]?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ر-ع.زُروع",
+        "label": "زُروع",
+        "definitionHtml": "زُروع zurūʿ [pl. n.] plants, plantations <br><br>(44:26) وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ plantations and noble buildings!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ر-ع.زُرّاع",
+        "label": "زُرّاع",
+        "definitionHtml": "زُرّاع zurrāʿ [pl. of n. زارع zāriʿ] planters, sowers, tillers of the land <br><br>(48:29) كَزَرْعٍ أَخْرَجَ شَطْأَهُ فَآزَرَهُ فَاسْتَغْلَظَ فَاسْتَوَى عَلَى سُوقِهِ يُعْجِبُ الزُّرَّاعَ as seeds that put forth their shoots, strengthen them, and they grow thick, and rise straight upon their stalks, delighting the sowers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:10.169Z",
+      "refword": "6:141:9",
+      "lexword": "وَٱلزَّرْعَ"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "root": "نكص",
+  "rootArabic": "نكص",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "نَكَصَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَصَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَصَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 48,
+      "text": "وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ <a class=\"highlight-text\">نَكَصَ</a> عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "نَكَصَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 66,
+      "text": "قَدْ كَانَتْ آيَاتِي تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ تَنكِصُونَ",
+      "highlightedHtml": "قَدْ كَانَتْ آيَاتِي تُتْلَىٰ عَلَيْكُمْ فَكُنتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ <a class=\"highlight-text\">تَنكِصُونَ</a>",
+      "derivedForms": [
+        "نَكَصَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:06.995Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "نَكَصَ is in the derivative form: نَكَصَ",
+    "rootDefinitionHtml": "ن/ك/ص   n–k–ṣ to withdraw, to reverse, to show reluctance, to recoil, to lose heart. Of this root, نَكَصَ nakaṣa, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَكَصَ nakaṣa u [v. intrans.] to reverse, to retreat, to recoil <br><br>(8:48) نَكَصَ عَلَى عَقِبَيْهِ he turned on his heels.",
+    "mainEntryId": "wdef-ن-ك-ص.نَكَصَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-ص",
+        "label": "ن-ك-ص",
+        "definitionHtml": "ن/ك/ص   n–k–ṣ to withdraw, to reverse, to show reluctance, to recoil, to lose heart. Of this root, نَكَصَ nakaṣa, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ص.نَكَصَ",
+        "label": "نَكَصَ",
+        "definitionHtml": "نَكَصَ nakaṣa u [v. intrans.] to reverse, to retreat, to recoil <br><br>(8:48) نَكَصَ عَلَى عَقِبَيْهِ he turned on his heels.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:24.578Z",
+      "refword": "8:48:19",
+      "lexword": "نَكَصَ"
+    }
+  }
+}

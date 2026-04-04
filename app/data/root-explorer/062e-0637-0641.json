@@ -1,0 +1,207 @@
+{
+  "root": "خطف",
+  "rootArabic": "خطف",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "خَطَفَ",
+      "count": 3
+    },
+    {
+      "form": "يَتَخَطَّفَ",
+      "count": 3
+    },
+    {
+      "form": "خَطْفَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطَفَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَخَطَّفَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطَفَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَخَطَّفَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَخَطَّفَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَطَفَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "خَطْفَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 20,
+      "text": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَكَادُ ٱلْبَرْقُ <a class=\"highlight-text\">يَخْطَفُ</a> أَبْصَٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَطَفَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 26,
+      "text": "وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن يَتَخَطَّفَكُمُ ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَٱذْكُرُوٓا۟ إِذْ أَنتُمْ قَلِيلٌ مُّسْتَضْعَفُونَ فِى ٱلْأَرْضِ تَخَافُونَ أَن <a class=\"highlight-text\">يَتَخَطَّفَكُمُ</a> ٱلنَّاسُ فَـَٔاوَىٰكُمْ وَأَيَّدَكُم بِنَصْرِهِۦ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "يَتَخَطَّفَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 31,
+      "text": "حُنَفَآءَ لِلَّهِ غَيْرَ مُشْرِكِينَ بِهِۦ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ فَتَخْطَفُهُ ٱلطَّيْرُ أَوْ تَهْوِى بِهِ ٱلرِّيحُ فِى مَكَانٍ سَحِيقٍ",
+      "highlightedHtml": "حُنَفَآءَ لِلَّهِ غَيْرَ مُشْرِكِينَ بِهِۦ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ <a class=\"highlight-text\">فَتَخْطَفُهُ</a> ٱلطَّيْرُ أَوْ تَهْوِى بِهِ ٱلرِّيحُ فِى مَكَانٍ سَحِيقٍ",
+      "derivedForms": [
+        "خَطَفَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 57,
+      "text": "وَقَالُوٓا۟ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ ۚ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَمًا آمِنًا يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍ رِّزْقًا مِّن لَّدُنَّا وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَقَالُوٓا۟ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ <a class=\"highlight-text\">نُتَخَطَّفْ</a> مِنْ أَرْضِنَآ ۚ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَمًا آمِنًا يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍ رِّزْقًا مِّن لَّدُنَّا وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "يَتَخَطَّفَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 67,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا آمِنًا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا آمِنًا <a class=\"highlight-text\">وَيُتَخَطَّفُ</a> ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ أَفَبِٱلْبَٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
+      "derivedForms": [
+        "يَتَخَطَّفَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 10,
+      "text": "إِلَّا مَنْ خَطِفَ ٱلْخَطْفَةَ فَأَتْبَعَهُۥ شِهَابٌ ثَاقِبٌ",
+      "highlightedHtml": "إِلَّا مَنْ <a class=\"highlight-text\">خَطِفَ</a> <a class=\"highlight-text\">ٱلْخَطْفَةَ</a> فَأَتْبَعَهُۥ شِهَابٌ ثَاقِبٌ",
+      "derivedForms": [
+        "خَطَفَ",
+        "خَطْفَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:30.822Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَخْطَفُ is in the derivative form: خَطَفَ",
+    "rootDefinitionHtml": "خ/ط/ف   kh–ṭ–f to snatch, to grab<br>; to dazzle, to blind; to be fast, to walk briskly; a hook, to hook; to sail, to miss the target. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> خَطِفَ khaṭifa 3 times; يَتَخَطَّفُ yatakhaṭṭaf 1 time; يُتَخَطَّف yutakhaṭṭaf 2 times; and خَطْفَةٌ khaṭfatun 1 time.",
+    "mainDefinitionHtml": "خَطَفَ khaṭifa a [v. trans.] <br><br><strong>1 </strong>to snatch away <br><br>(22:31) فَكَأَنَّمَا خَرَّ مِنَ السَّمَاءِ فَتَخْطَفُهُ الطَّيْرُ as if he has fallen down from the skies, so the birds snatch him up <br><br><strong>2 </strong>to dazzle, to blind <br><br>(2:20) يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ كُلَّمَا أَضَاءَ لَهُمْ مَشَوْا فِيهِ the lightning almost blinds their sight, whenever it flashes on them they walk on in it.",
+    "mainEntryId": "wdef-خ-ط-ف.خَطَفَ",
+    "entries": [
+      {
+        "id": "wdef-خ-ط-ف",
+        "label": "خ-ط-ف",
+        "definitionHtml": "خ/ط/ف   kh–ṭ–f to snatch, to grab<br>; to dazzle, to blind; to be fast, to walk briskly; a hook, to hook; to sail, to miss the target. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> خَطِفَ khaṭifa 3 times; يَتَخَطَّفُ yatakhaṭṭaf 1 time; يُتَخَطَّف yutakhaṭṭaf 2 times; and خَطْفَةٌ khaṭfatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ف.خَطَفَ",
+        "label": "خَطَفَ",
+        "definitionHtml": "خَطَفَ khaṭifa a [v. trans.] <br><br><strong>1 </strong>to snatch away <br><br>(22:31) فَكَأَنَّمَا خَرَّ مِنَ السَّمَاءِ فَتَخْطَفُهُ الطَّيْرُ as if he has fallen down from the skies, so the birds snatch him up <br><br><strong>2 </strong>to dazzle, to blind <br><br>(2:20) يَكَادُ الْبَرْقُ يَخْطَفُ أَبْصَارَهُمْ كُلَّمَا أَضَاءَ لَهُمْ مَشَوْا فِيهِ the lightning almost blinds their sight, whenever it flashes on them they walk on in it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ط-ف.خَطْفَةٌ",
+        "label": "خَطْفَةٌ",
+        "definitionHtml": "خَطْفَةٌ khaṭfatun [n. of unit] a snatch, a grab/a snatched object <br><br>(37:10) إِلاَّ مَنْ خَطِفَ الْخَطْفَةَ فَأَتْبَعَهُ شِهَابٌ ثَاقِبٌ except for he who snatches away a fragment [of conversation], and so is pursued by a piercing flame.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ف.يَتَخَطَّفَ",
+        "label": "يَتَخَطَّفَ",
+        "definitionHtml": "يَتَخَطَّفَ yatakhaṭṭaf [imperf. of v. V تَخَطَّفَ takhaṭṭafa, trans.; pass. يُتَخَطَّفُ yutakhaṭṭaf] to sweep away, to do away with, to grab from all directions <br><br>(8:26) وَاذْكُرُوا إِذْ أَنْتُمْ قَلِيلٌ مُسْتَضْعَفُونَ فِى الأَرْضِ تَخَافُونَ أَنْ يَتَخَطَّفَكُمُ النَّاسُ and remember when you were a few, considered as weak in the land and afraid that people might grab you from all directions.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:26.030Z",
+      "refword": "2:20:3",
+      "lexword": "يَخْطَفُ"
+    }
+  }
+}

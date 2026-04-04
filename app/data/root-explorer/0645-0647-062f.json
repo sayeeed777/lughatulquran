@@ -1,0 +1,410 @@
+{
+  "root": "مهد",
+  "rootArabic": "مهد",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 6,
+    "surahCount": 13,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "مِهَاد",
+      "count": 7
+    },
+    {
+      "form": "مَهْد",
+      "count": 5
+    },
+    {
+      "form": "تَمْهِيد",
+      "count": 1
+    },
+    {
+      "form": "مَاهِدون",
+      "count": 1
+    },
+    {
+      "form": "مَهَدَ",
+      "count": 1
+    },
+    {
+      "form": "مَهَّدَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 2,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مَهْد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهْد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهْد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهْد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهَدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهْد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَاهِدون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمْهِيد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَهَّدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِهَاد",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 206,
+      "text": "وَإِذَا قِيلَ لَهُ ٱتَّقِ ٱللَّهَ أَخَذَتْهُ ٱلْعِزَّةُ بِٱلْإِثْمِ ۚ فَحَسْبُهُۥ جَهَنَّمُ ۚ وَلَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُ ٱتَّقِ ٱللَّهَ أَخَذَتْهُ ٱلْعِزَّةُ بِٱلْإِثْمِ ۚ فَحَسْبُهُۥ جَهَنَّمُ ۚ وَلَبِئْسَ <a class=\"highlight-text\">ٱلْمِهَادُ</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 12,
+      "text": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ <a class=\"highlight-text\">ٱلْمِهَادُ</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 46,
+      "text": "وَيُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا وَمِنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "وَيُكَلِّمُ ٱلنَّاسَ فِى <a class=\"highlight-text\">ٱلْمَهْدِ</a> وَكَهْلًا وَمِنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "مَهْد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 197,
+      "text": "مَتَٰعٌ قَلِيلٌ ثُمَّ مَأْوَىٰهُمْ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "مَتَٰعٌ قَلِيلٌ ثُمَّ مَأْوَىٰهُمْ جَهَنَّمُ ۚ وَبِئْسَ <a class=\"highlight-text\">ٱلْمِهَادُ</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 110,
+      "text": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى <a class=\"highlight-text\">ٱلْمَهْدِ</a> وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "مَهْد"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 41,
+      "text": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "لَهُم مِّن جَهَنَّمَ <a class=\"highlight-text\">مِهَادٌ</a> وَمِن فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 18,
+      "text": "لِلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمُ ٱلْحُسْنَىٰ ۚ وَٱلَّذِينَ لَمْ يَسْتَجِيبُوا۟ لَهُۥ لَوْ أَنَّ لَهُم مَّا فِى ٱلْأَرْضِ جَمِيعًا وَمِثْلَهُۥ مَعَهُۥ لَٱفْتَدَوْا۟ بِهِۦٓ ۚ أُو۟لَٰٓئِكَ لَهُمْ سُوٓءُ ٱلْحِسَابِ وَمَأْوَىٰهُمْ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "لِلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمُ ٱلْحُسْنَىٰ ۚ وَٱلَّذِينَ لَمْ يَسْتَجِيبُوا۟ لَهُۥ لَوْ أَنَّ لَهُم مَّا فِى ٱلْأَرْضِ جَمِيعًا وَمِثْلَهُۥ مَعَهُۥ لَٱفْتَدَوْا۟ بِهِۦٓ ۚ أُو۟لَٰٓئِكَ لَهُمْ سُوٓءُ ٱلْحِسَابِ وَمَأْوَىٰهُمْ جَهَنَّمُ ۖ وَبِئْسَ <a class=\"highlight-text\">ٱلْمِهَادُ</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 29,
+      "text": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ صَبِيًّا",
+      "highlightedHtml": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى <a class=\"highlight-text\">ٱلْمَهْدِ</a> صَبِيًّا",
+      "derivedForms": [
+        "مَهْد"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 53,
+      "text": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ",
+      "highlightedHtml": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ <a class=\"highlight-text\">مَهْدًا</a> وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ",
+      "derivedForms": [
+        "مَهْد"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 44,
+      "text": "مَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَمَنْ عَمِلَ صَٰلِحًا فَلِأَنفُسِهِمْ يَمْهَدُونَ",
+      "highlightedHtml": "مَن كَفَرَ فَعَلَيْهِ كُفْرُهُۥ ۖ وَمَنْ عَمِلَ صَٰلِحًا فَلِأَنفُسِهِمْ <a class=\"highlight-text\">يَمْهَدُونَ</a>",
+      "derivedForms": [
+        "مَهَدَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 56,
+      "text": "جَهَنَّمَ يَصْلَوْنَهَا فَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "جَهَنَّمَ يَصْلَوْنَهَا فَبِئْسَ <a class=\"highlight-text\">ٱلْمِهَادُ</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 10,
+      "text": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَجَعَلَ لَكُمْ فِيهَا سُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ",
+      "highlightedHtml": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ <a class=\"highlight-text\">مَهْدًا</a> وَجَعَلَ لَكُمْ فِيهَا سُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ",
+      "derivedForms": [
+        "مَهْد"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 48,
+      "text": "وَٱلْأَرْضَ فَرَشْنَٰهَا فَنِعْمَ ٱلْمَٰهِدُونَ",
+      "highlightedHtml": "وَٱلْأَرْضَ فَرَشْنَٰهَا فَنِعْمَ <a class=\"highlight-text\">ٱلْمَٰهِدُونَ</a>",
+      "derivedForms": [
+        "مَاهِدون"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 14,
+      "text": "وَمَهَّدتُّ لَهُۥ تَمْهِيدًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَمَهَّدتُّ</a> لَهُۥ <a class=\"highlight-text\">تَمْهِيدًا</a>",
+      "derivedForms": [
+        "مَهَّدَ",
+        "تَمْهِيد"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 6,
+      "text": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ مِهَٰدًا",
+      "highlightedHtml": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ <a class=\"highlight-text\">مِهَٰدًا</a>",
+      "derivedForms": [
+        "مِهَاد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:46.114Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلْمِهَادُ is in the derivative form: مِهَاد",
+    "rootDefinitionHtml": "م/ﻫ/د   m–h–d sleeping place, resting place, cradle, to prepare, to pave, to straighten things up, to make level or even<br>; to facilitate, to introduce. <br><br>Of this root, 6 forms occur 12 times in the Qur’an:<br> مَهَدَ mahada 1 time; مَهَّدَ mahhada 1 time; مَاهِدون māhidūn 1 time; تَمْهِيد tamhıd 1 time; مَهْد mahd 5 times and مِهَاد mihād 7 times.",
+    "mainDefinitionHtml": "مِهَاد mihād [v. n./n.] <br><br><strong>1 </strong>widely spreading out, widely outstretched; an expanse <br><br>(78:6) أَلَمْ نَجْعَلِ الأَرْضَ مِهَادًا did We not make the earth for you an expanse? <br><br><strong>2 </strong>abode, resting place <br><br>(3:12) وَتُحْشَرُونَ إِلَى جَهَنَّمَ وَبِئْسَ الْمِهَادُ you will be gathered into Hell and a foul resting place it is!",
+    "mainEntryId": "wdef-م-ﻫ-د.مِهَاد",
+    "entries": [
+      {
+        "id": "wdef-م-ﻫ-د",
+        "label": "م-ﻫ-د",
+        "definitionHtml": "م/ﻫ/د   m–h–d sleeping place, resting place, cradle, to prepare, to pave, to straighten things up, to make level or even<br>; to facilitate, to introduce. <br><br>Of this root, 6 forms occur 12 times in the Qur’an:<br> مَهَدَ mahada 1 time; مَهَّدَ mahhada 1 time; مَاهِدون māhidūn 1 time; تَمْهِيد tamhıd 1 time; مَهْد mahd 5 times and مِهَاد mihād 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-د.مِهَاد",
+        "label": "مِهَاد",
+        "definitionHtml": "مِهَاد mihād [v. n./n.] <br><br><strong>1 </strong>widely spreading out, widely outstretched; an expanse <br><br>(78:6) أَلَمْ نَجْعَلِ الأَرْضَ مِهَادًا did We not make the earth for you an expanse? <br><br><strong>2 </strong>abode, resting place <br><br>(3:12) وَتُحْشَرُونَ إِلَى جَهَنَّمَ وَبِئْسَ الْمِهَادُ you will be gathered into Hell and a foul resting place it is!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ﻫ-د.تَمْهِيد",
+        "label": "تَمْهِيد",
+        "definitionHtml": "تَمْهِيد tamhıd [v. n. of v. II] preparing things, making things agreeable, smoothing out difficulties <br><br>(74:14) وَمَهَّدْتُ لَهُ تَمْهِيدًا and I smoothed things for him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-د.مَاهِدون",
+        "label": "مَاهِدون",
+        "definitionHtml": "مَاهِدون māhidūn [pl. of act. part. مَاهِد māhid] ones who pave the way, spread out, remove difficulties, smooth things out <br><br>(51:48) وَالأَرْضَ فَرَشْنَاهَا فَنِعْمَ الْمَاهِدُونَ and the Earth We spread out–how excellent is the paver! [lit. are the pavers!]",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-د.مَهَدَ",
+        "label": "مَهَدَ",
+        "definitionHtml": "مَهَدَ mahada a [v. trans. with no object] to pave the way, to smooth out, to make good provisions <br><br>(30:44) وَمَنْ عَمِلَ صَالِحًا فَلأَِنْفُسِهِمْ يَمْهَدُونَ and whosoever does good deeds, it is for themselves they make provision.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-د.مَهَّدَ",
+        "label": "مَهَّدَ",
+        "definitionHtml": "مَهَّدَ mahhada [v. II, trans. with no object] to make agreeable, to facilitate, to remove all obstacles <br><br>(74:14) وَمَهَّدْتُ لَهُ تَمْهِيدًا and I smoothed things out for him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-د.مَهْد",
+        "label": "مَهْد",
+        "definitionHtml": "مَهْد mahd <br><br><strong>1 </strong>[n] cradle <br><br>(19:29) كَيْفَ نُكَلِّمُ مَنْ كَانَ فِى الْمَهْدِ صَبِيًّا how can we converse with one who is [still] in the cradle, a [mere] baby? <br><br><strong>2 </strong>[v. n./quasi‐pass. part.] plain, spread out, habitable, well prepared <br><br>(20:53) الَّذِي جَعَلَ لَكُمُ الأَرْضَ مَهْدًا He who made the earth for you an expanse.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:48.018Z",
+      "refword": "2:206:12",
+      "lexword": "ٱلْمِهَادُ"
+    }
+  }
+}

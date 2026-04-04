@@ -1,0 +1,474 @@
+{
+  "root": "نزع",
+  "rootArabic": "نزع",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 5,
+    "surahCount": 16,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "نَزَعَ",
+      "count": 10
+    },
+    {
+      "form": "تَنَازَعَ",
+      "count": 7
+    },
+    {
+      "form": "نَازِعَاتٌ",
+      "count": 1
+    },
+    {
+      "form": "نَزَّاعَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يُنَازِعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 3,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنَازِعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَازَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَعَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَّاعَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَازِعَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 26,
+      "text": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ <a class=\"highlight-text\">وَتَنزِعُ</a> ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 152,
+      "text": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ الْآخِرَةَ ۚ ثُمَّ صَرَفَكُمْ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ <a class=\"highlight-text\">وَتَنَٰزَعْتُمْ</a> فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ الْآخِرَةَ ۚ ثُمَّ صَرَفَكُمْ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 59,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ ۖ فَإِن تَنَٰزَعْتُمْ فِى شَىْءٍ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَطِيعُوا۟ ٱللَّهَ وَأَطِيعُوا۟ ٱلرَّسُولَ وَأُو۟لِى ٱلْأَمْرِ مِنكُمْ ۖ فَإِن <a class=\"highlight-text\">تَنَٰزَعْتُمْ</a> فِى شَىْءٍ فَرُدُّوهُ إِلَى ٱللَّهِ وَٱلرَّسُولِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 27,
+      "text": "يَٰبَنِىٓ آدَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ يَنزِعُ عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "يَٰبَنِىٓ آدَمَ لَا يَفْتِنَنَّكُمُ ٱلشَّيْطَٰنُ كَمَآ أَخْرَجَ أَبَوَيْكُم مِّنَ ٱلْجَنَّةِ <a class=\"highlight-text\">يَنزِعُ</a> عَنْهُمَا لِبَاسَهُمَا لِيُرِيَهُمَا سَوْءَٰتِهِمَآ ۗ إِنَّهُۥ يَرَىٰكُمْ هُوَ وَقَبِيلُهُۥ مِنْ حَيْثُ لَا تَرَوْنَهُمْ ۗ إِنَّا جَعَلْنَا ٱلشَّيَٰطِينَ أَوْلِيَآءَ لِلَّذِينَ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 43,
+      "text": "وَنَزَعْنَا مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَزَعْنَا</a> مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ ۖ وَقَالُوا۟ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى هَدَىٰنَا لِهَٰذَا وَمَا كُنَّا لِنَهْتَدِىَ لَوْلَآ أَنْ هَدَىٰنَا ٱللَّهُ ۖ لَقَدْ جَآءَتْ رُسُلُ رَبِّنَا بِٱلْحَقِّ ۖ وَنُودُوٓا۟ أَن تِلْكُمُ ٱلْجَنَّةُ أُورِثْتُمُوهَا بِمَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 108,
+      "text": "وَنَزَعَ يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّٰظِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَزَعَ</a> يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّٰظِرِينَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 43,
+      "text": "إِذْ يُرِيكَهُمُ ٱللَّهُ فِى مَنَامِكَ قَلِيلًا ۖ وَلَوْ أَرَىٰكَهُمْ كَثِيرًا لَّفَشِلْتُمْ وَلَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَلَٰكِنَّ ٱللَّهَ سَلَّمَ ۗ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "إِذْ يُرِيكَهُمُ ٱللَّهُ فِى مَنَامِكَ قَلِيلًا ۖ وَلَوْ أَرَىٰكَهُمْ كَثِيرًا لَّفَشِلْتُمْ <a class=\"highlight-text\">وَلَتَنَٰزَعْتُمْ</a> فِى ٱلْأَمْرِ وَلَٰكِنَّ ٱللَّهَ سَلَّمَ ۗ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 46,
+      "text": "وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا تَنَٰزَعُوا۟ فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ وَلَا <a class=\"highlight-text\">تَنَٰزَعُوا۟</a> فَتَفْشَلُوا۟ وَتَذْهَبَ رِيحُكُمْ ۖ وَٱصْبِرُوٓا۟ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 9,
+      "text": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَٰهَا مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
+      "highlightedHtml": "وَلَئِنْ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً ثُمَّ <a class=\"highlight-text\">نَزَعْنَٰهَا</a> مِنْهُ إِنَّهُۥ لَيَـُٔوسٌ كَفُورٌ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 47,
+      "text": "وَنَزَعْنَا مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَٰبِلِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَزَعْنَا</a> مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَٰبِلِينَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 21,
+      "text": "وَكَذَٰلِكَ أَعْثَرْنَا أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا",
+      "highlightedHtml": "وَكَذَٰلِكَ أَعْثَرْنَا أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ <a class=\"highlight-text\">يَتَنَٰزَعُونَ</a> بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 69,
+      "text": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">لَنَنزِعَنَّ</a> مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 62,
+      "text": "فَتَنَٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَتَنَٰزَعُوٓا۟</a> أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 67,
+      "text": "لِّكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا هُمْ نَاسِكُوهُ ۖ فَلَا يُنَٰزِعُنَّكَ فِى ٱلْأَمْرِ ۚ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ إِنَّكَ لَعَلَىٰ هُدًى مُّسْتَقِيمٍ",
+      "highlightedHtml": "لِّكُلِّ أُمَّةٍ جَعَلْنَا مَنسَكًا هُمْ نَاسِكُوهُ ۖ فَلَا <a class=\"highlight-text\">يُنَٰزِعُنَّكَ</a> فِى ٱلْأَمْرِ ۚ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ إِنَّكَ لَعَلَىٰ هُدًى مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "يُنَازِعُ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 33,
+      "text": "وَنَزَعَ يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّٰظِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَزَعَ</a> يَدَهُۥ فَإِذَا هِىَ بَيْضَآءُ لِلنَّٰظِرِينَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 75,
+      "text": "وَنَزَعْنَا مِن كُلِّ أُمَّةٍ شَهِيدًا فَقُلْنَا هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ فَعَلِمُوٓا۟ أَنَّ ٱلْحَقَّ لِلَّهِ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَزَعْنَا</a> مِن كُلِّ أُمَّةٍ شَهِيدًا فَقُلْنَا هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ فَعَلِمُوٓا۟ أَنَّ ٱلْحَقَّ لِلَّهِ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 23,
+      "text": "يَتَنَٰزَعُونَ فِيهَا كَأْسًا لَّا لَغْوٌ فِيهَا وَلَا تَأْثِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَتَنَٰزَعُونَ</a> فِيهَا كَأْسًا لَّا لَغْوٌ فِيهَا وَلَا تَأْثِيمٌ",
+      "derivedForms": [
+        "تَنَازَعَ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 20,
+      "text": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">تَنزِعُ</a> ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
+      "derivedForms": [
+        "نَزَعَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 16,
+      "text": "نَزَّاعَةً لِّلشَّوَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">نَزَّاعَةً</a> لِّلشَّوَىٰ",
+      "derivedForms": [
+        "نَزَّاعَةٌ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 1,
+      "text": "وَٱلنَّٰزِعَٰتِ غَرْقًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلنَّٰزِعَٰتِ</a> غَرْقًا",
+      "derivedForms": [
+        "نَازِعَاتٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:12.014Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb",
+    "derivativeNote": "وَتَنزِعُ is in the derivative form: نَزَعَ",
+    "rootDefinitionHtml": "ن/ز/ع   n–z–ʿ to pull out, to strip off, to pull at<br>; an archer; to incline, to take after (a parent); to walk briskly, to strive; to desire; to exchange, to dispute, controversy. <br><br>Of this root, 5 forms occur 20 times in the Qur’an:<br> نَزَعَ nazaʿa 10 times; يُنَازِعُ yunāziʿ 1 time; تَنَازَعَ tanāzaʿa 7 times; نازِعات nāziʿāt 1 time and نَزَّاعَةٌ nazzāʿatun 1 time.",
+    "mainDefinitionHtml": "نَزَعَ nazaʿa a [v. trans.] <br><br><strong>1 </strong>to pull out, to take out <br><br>(7:108) وَنَزَعَ يَدَهُ فَإِذَا هِيَ بَيْضَاءُ لِلنَّاظِرِينَ and he pulled out his hand and–lo!–it was white for the beholders <br><br><strong>2 </strong>to remove <br><br>(15:47) وَنَزَعْنَا مَا فِى صُدُورِهِمْ مِنْ غِلٍّ and We will remove from their hearts whatever rancour is therein <br><br><strong>3 </strong>to withdraw, to take away, to abolish <br><br>(11:9) وَلَئِنْ أَذَقْنَا الإِنْسَانَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَاهَا مِنْهُ إِنَّهُ لَيَئُوسٌ كَفُورٌ how desperate and ungrateful man becomes when We let him taste Our mercy and then withdraw it from him <br><br><strong>4 </strong>to sweep away, to tear away, to uproot <br><br>(54:20) تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُنْقَعِرٍ it sweeps people away, as if they were uprooted palm trunks <br><br><strong>5 </strong>to peel off, to strip off <br><br>(7:27) يَنْزِعُ عَنْهُمَا لِبَاسَهُمَا stripping their garments off them <br><br><strong>6 </strong>to select, to choose, to draw <br><br>(28:75) وَنَزَعْنَا مِنْ كُلِّ أُمَّةٍ شَهِيدًا We will choose from every community a witness <br><br><strong>7 </strong>to pluck out, to root out <br><br>(19:69) ثُمَّ لَنَنْزِعَنَّ مِنْ كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى الرَّحْمَنِ عِتِيًّا then We will seize out of each group those who were most disobedient towards the Lord of Mercy.",
+    "mainEntryId": "wdef-ن-ز-ع.نَزَعَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ز-ع",
+        "label": "ن-ز-ع",
+        "definitionHtml": "ن/ز/ع   n–z–ʿ to pull out, to strip off, to pull at<br>; an archer; to incline, to take after (a parent); to walk briskly, to strive; to desire; to exchange, to dispute, controversy. <br><br>Of this root, 5 forms occur 20 times in the Qur’an:<br> نَزَعَ nazaʿa 10 times; يُنَازِعُ yunāziʿ 1 time; تَنَازَعَ tanāzaʿa 7 times; نازِعات nāziʿāt 1 time and نَزَّاعَةٌ nazzāʿatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-ع.نَزَعَ",
+        "label": "نَزَعَ",
+        "definitionHtml": "نَزَعَ nazaʿa a [v. trans.] <br><br><strong>1 </strong>to pull out, to take out <br><br>(7:108) وَنَزَعَ يَدَهُ فَإِذَا هِيَ بَيْضَاءُ لِلنَّاظِرِينَ and he pulled out his hand and–lo!–it was white for the beholders <br><br><strong>2 </strong>to remove <br><br>(15:47) وَنَزَعْنَا مَا فِى صُدُورِهِمْ مِنْ غِلٍّ and We will remove from their hearts whatever rancour is therein <br><br><strong>3 </strong>to withdraw, to take away, to abolish <br><br>(11:9) وَلَئِنْ أَذَقْنَا الإِنْسَانَ مِنَّا رَحْمَةً ثُمَّ نَزَعْنَاهَا مِنْهُ إِنَّهُ لَيَئُوسٌ كَفُورٌ how desperate and ungrateful man becomes when We let him taste Our mercy and then withdraw it from him <br><br><strong>4 </strong>to sweep away, to tear away, to uproot <br><br>(54:20) تَنْزِعُ النَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُنْقَعِرٍ it sweeps people away, as if they were uprooted palm trunks <br><br><strong>5 </strong>to peel off, to strip off <br><br>(7:27) يَنْزِعُ عَنْهُمَا لِبَاسَهُمَا stripping their garments off them <br><br><strong>6 </strong>to select, to choose, to draw <br><br>(28:75) وَنَزَعْنَا مِنْ كُلِّ أُمَّةٍ شَهِيدًا We will choose from every community a witness <br><br><strong>7 </strong>to pluck out, to root out <br><br>(19:69) ثُمَّ لَنَنْزِعَنَّ مِنْ كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى الرَّحْمَنِ عِتِيًّا then We will seize out of each group those who were most disobedient towards the Lord of Mercy.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ز-ع.تَنَازَعَ",
+        "label": "تَنَازَعَ",
+        "definitionHtml": "تَنَازَعَ tanāzaʿa [v. VI] I [intrans.] <br><br><strong>1 </strong>to be at variance with one another, to fall into dispute with one another <br><br>(8:46) وَلاَ تَنَازَعُوا فَتَفْشَلُوا ‏‏and do not dispute [among yourselves], lest you fail <br><br><strong>2 </strong>to debate, to differ with one another, to disagree <br><br>(4:59) فَإِنْ تَنَازَعْتُمْ فِى شَيْءٍ فَرُدُّوهُ إِلَى اللَّهِ وَالرَّسُولِ if you should dispute over something, refer it to God and the Messenger II [trans.] <br><br><strong>1 </strong>to debate an issue, to discuss <br><br>(18:21) إِذْ يَتَنَازَعُونَ بَيْنَهُمْ أَمْرَهُمْ when they discussed their situation among themselves <br><br><strong>2 </strong>to exchange, to pass [something] around, to share in a friendly manner <br><br>(52:23) يَتَنَازَعُونَ فِيهَا كَأْسًا therein, they pass around cups of wine.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-ع.نَازِعَاتٌ",
+        "label": "نَازِعَاتٌ",
+        "definitionHtml": "نَازِعَاتٌ nāziʿāt [pl. of fem. act. part. نَازِعَةٌ nāziʿatun] those who strive, those who pull out, those who discard. In the single context in which this word occurs in the Qur’an it is variously interpreted as the stars that rise and set regularly, the charging horses ridden in God’s cause, the archers who pull away in the cause of God, the souls that vie to achieve higher ranks, the angels that tear out the souls of the wicked and others. The context, however, may also be understood to refer to those who by actively seeking God’s pleasure manage to go from ‘lagging behind’ in their worship to being in the vanguard of the pious <br><br>(79:1) وَالنَّازِعَاتِ غَرْقًا by those pulling out forcefully; * النَّازِعَاتِ name of Sura 79, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to the ‘Forceful Chargers’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-ع.نَزَّاعَةٌ",
+        "label": "نَزَّاعَةٌ",
+        "definitionHtml": "نَزَّاعَةٌ nazzāʿatun [intens. fem. act. part.] one which resolutely tears away, plucks out <br><br>(70:16) نَزَّاعَةً لِلشَّوَى stripper of scalps (or, limbs).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-ع.يُنَازِعُ",
+        "label": "يُنَازِعُ",
+        "definitionHtml": "يُنَازِعُ yunāziʿ [imperf. of v. III trans. نَازِعُ nāzaʿa] to dispute with, to contend with <br><br>(22:67) فَلاَ يُنَازِعُنَّكَ فِى الأَمْرِ so do not let them dispute this matter with you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:38.693Z",
+      "refword": "3:26:9",
+      "lexword": "وَتَنزِعُ"
+    }
+  }
+}

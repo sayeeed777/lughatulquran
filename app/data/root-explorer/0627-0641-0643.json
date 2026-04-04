@@ -1,0 +1,620 @@
+{
+  "root": "افك",
+  "rootArabic": "افك",
+  "stats": {
+    "totalOccurrences": 30,
+    "derivativeCount": 4,
+    "surahCount": 21,
+    "ayahCount": 29
+  },
+  "derivatives": [
+    {
+      "form": "تَأْفِكُ",
+      "count": 16
+    },
+    {
+      "form": "إِفْكٌ",
+      "count": 9
+    },
+    {
+      "form": "مُؤْتَفِكَةٌ",
+      "count": 3
+    },
+    {
+      "form": "أَفَّاكٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        },
+        {
+          "form": "مُؤْتَفِكَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَفَّاكٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَفَّاكٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "إِفْكٌ",
+          "count": 2,
+          "totalInQuran": 9
+        },
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُؤْتَفِكَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 63,
+      "surahName": "Al-Munafiqun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْفِكُ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُؤْتَفِكَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 75,
+      "text": "مَّا ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ وَأُمُّهُۥ صِدِّيقَةٌ ۖ كَانَا يَأْكُلَانِ ٱلطَّعَامَ ۗ ٱنظُرْ كَيْفَ نُبَيِّنُ لَهُمُ ٱلْءَايَٰتِ ثُمَّ ٱنظُرْ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "مَّا ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ وَأُمُّهُۥ صِدِّيقَةٌ ۖ كَانَا يَأْكُلَانِ ٱلطَّعَامَ ۗ ٱنظُرْ كَيْفَ نُبَيِّنُ لَهُمُ ٱلْءَايَٰتِ ثُمَّ ٱنظُرْ أَنَّىٰ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 95,
+      "text": "إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ <a class=\"highlight-text\">تُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 117,
+      "text": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
+      "highlightedHtml": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ تَلْقَفُ مَا <a class=\"highlight-text\">يَأْفِكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 30,
+      "text": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 70,
+      "text": "أَلَمْ يَأْتِهِمْ نَبَأُ ٱلَّذِينَ مِن قَبْلِهِمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَقَوْمِ إِبْرَٰهِيمَ وَأَصْحَٰبِ مَدْيَنَ وَٱلْمُؤْتَفِكَٰتِ ۚ أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "أَلَمْ يَأْتِهِمْ نَبَأُ ٱلَّذِينَ مِن قَبْلِهِمْ قَوْمِ نُوحٍ وَعَادٍ وَثَمُودَ وَقَوْمِ إِبْرَٰهِيمَ وَأَصْحَٰبِ مَدْيَنَ <a class=\"highlight-text\">وَٱلْمُؤْتَفِكَٰتِ</a> ۚ أَتَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "مُؤْتَفِكَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 34,
+      "text": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ <a class=\"highlight-text\">تُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 11,
+      "text": "إِنَّ ٱلَّذِينَ جَآءُو بِٱلْإِفْكِ عُصْبَةٌ مِّنكُمْ ۚ لَا تَحْسَبُوهُ شَرًّا لَّكُم ۖ بَلْ هُوَ خَيْرٌ لَّكُمْ ۚ لِكُلِّ ٱمْرِئٍ مِّنْهُم مَّا ٱكْتَسَبَ مِنَ ٱلْإِثْمِ ۚ وَٱلَّذِى تَوَلَّىٰ كِبْرَهُۥ مِنْهُمْ لَهُۥ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ جَآءُو <a class=\"highlight-text\">بِٱلْإِفْكِ</a> عُصْبَةٌ مِّنكُمْ ۚ لَا تَحْسَبُوهُ شَرًّا لَّكُم ۖ بَلْ هُوَ خَيْرٌ لَّكُمْ ۚ لِكُلِّ ٱمْرِئٍ مِّنْهُم مَّا ٱكْتَسَبَ مِنَ ٱلْإِثْمِ ۚ وَٱلَّذِى تَوَلَّىٰ كِبْرَهُۥ مِنْهُمْ لَهُۥ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 12,
+      "text": "لَّوْلَآ إِذْ سَمِعْتُمُوهُ ظَنَّ ٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بِأَنفُسِهِمْ خَيْرًا وَقَالُوا۟ هَٰذَآ إِفْكٌ مُّبِينٌ",
+      "highlightedHtml": "لَّوْلَآ إِذْ سَمِعْتُمُوهُ ظَنَّ ٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بِأَنفُسِهِمْ خَيْرًا وَقَالُوا۟ هَٰذَآ <a class=\"highlight-text\">إِفْكٌ</a> مُّبِينٌ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 4,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ <a class=\"highlight-text\">إِفْكٌ</a> ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 45,
+      "text": "فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
+      "highlightedHtml": "فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِىَ تَلْقَفُ مَا <a class=\"highlight-text\">يَأْفِكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 222,
+      "text": "تَنَزَّلُ عَلَىٰ كُلِّ أَفَّاكٍ أَثِيمٍ",
+      "highlightedHtml": "تَنَزَّلُ عَلَىٰ كُلِّ <a class=\"highlight-text\">أَفَّاكٍ</a> أَثِيمٍ",
+      "derivedForms": [
+        "أَفَّاكٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 17,
+      "text": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَٰنًا وَتَخْلُقُونَ <a class=\"highlight-text\">إِفْكًا</a> ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 61,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 55,
+      "text": "وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يُقْسِمُ ٱلْمُجْرِمُونَ مَا لَبِثُوا۟ غَيْرَ سَاعَةٍ ۚ كَذَٰلِكَ كَانُوا۟ يُؤْفَكُونَ",
+      "highlightedHtml": "وَيَوْمَ تَقُومُ ٱلسَّاعَةُ يُقْسِمُ ٱلْمُجْرِمُونَ مَا لَبِثُوا۟ غَيْرَ سَاعَةٍ ۚ كَذَٰلِكَ كَانُوا۟ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 43,
+      "text": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ قَالُوا۟ مَا هَٰذَآ إِلَّا رَجُلٌ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَآؤُكُمْ وَقَالُوا۟ مَا هَٰذَآ إِلَّآ إِفْكٌ مُّفْتَرًى ۚ وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ قَالُوا۟ مَا هَٰذَآ إِلَّا رَجُلٌ يُرِيدُ أَن يَصُدَّكُمْ عَمَّا كَانَ يَعْبُدُ ءَابَآؤُكُمْ وَقَالُوا۟ مَا هَٰذَآ إِلَّآ <a class=\"highlight-text\">إِفْكٌ</a> مُّفْتَرًى ۚ وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلْحَقِّ لَمَّا جَآءَهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 3,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ <a class=\"highlight-text\">تُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 86,
+      "text": "أَئِفْكًا آلِهَةً دُونَ ٱللَّهِ تُرِيدُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَئِفْكًا</a> آلِهَةً دُونَ ٱللَّهِ تُرِيدُونَ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 151,
+      "text": "أَلَآ إِنَّهُم مِّنْ إِفْكِهِمْ لَيَقُولُونَ",
+      "highlightedHtml": "أَلَآ إِنَّهُم مِّنْ <a class=\"highlight-text\">إِفْكِهِمْ</a> لَيَقُولُونَ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 62,
+      "text": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ خَٰلِقُ كُلِّ شَىْءٍ لَّآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ خَٰلِقُ كُلِّ شَىْءٍ لَّآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ <a class=\"highlight-text\">تُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 63,
+      "text": "كَذَٰلِكَ يُؤْفَكُ ٱلَّذِينَ كَانُوا۟ بِـَٔايَٰتِ ٱللَّهِ يَجْحَدُونَ",
+      "highlightedHtml": "كَذَٰلِكَ <a class=\"highlight-text\">يُؤْفَكُ</a> ٱلَّذِينَ كَانُوا۟ بِـَٔايَٰتِ ٱللَّهِ يَجْحَدُونَ",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 87,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 7,
+      "text": "وَيْلٌ لِّكُلِّ أَفَّاكٍ أَثِيمٍ",
+      "highlightedHtml": "وَيْلٌ لِّكُلِّ <a class=\"highlight-text\">أَفَّاكٍ</a> أَثِيمٍ",
+      "derivedForms": [
+        "أَفَّاكٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 11,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا سَبَقُونَآ إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ قَدِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا سَبَقُونَآ إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ <a class=\"highlight-text\">إِفْكٌ</a> قَدِيمٌ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 22,
+      "text": "قَالُوٓا۟ أَجِئْتَنَا لِتَأْفِكَنَا عَنْ آلِهَتِنَا فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَجِئْتَنَا <a class=\"highlight-text\">لِتَأْفِكَنَا</a> عَنْ آلِهَتِنَا فَأْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 28,
+      "text": "فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا آلِهَةً ۖ بَلْ ضَلُّوا۟ عَنْهُمْ ۚ وَذَٰلِكَ إِفْكُهُمْ وَمَا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "فَلَوْلَا نَصَرَهُمُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ قُرْبَانًا آلِهَةً ۖ بَلْ ضَلُّوا۟ عَنْهُمْ ۚ وَذَٰلِكَ <a class=\"highlight-text\">إِفْكُهُمْ</a> وَمَا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "إِفْكٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 9,
+      "text": "يُؤْفَكُ عَنْهُ مَنْ أُفِكَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُؤْفَكُ</a> عَنْهُ مَنْ <a class=\"highlight-text\">أُفِكَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ",
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 53,
+      "text": "وَٱلْمُؤْتَفِكَةَ أَهْوَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْمُؤْتَفِكَةَ</a> أَهْوَىٰ",
+      "derivedForms": [
+        "مُؤْتَفِكَةٌ"
+      ]
+    },
+    {
+      "surah": 63,
+      "ayah": 4,
+      "text": "وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ <a class=\"highlight-text\">يُؤْفَكُونَ</a>",
+      "derivedForms": [
+        "تَأْفِكُ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 9,
+      "text": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ بِٱلْخَاطِئَةِ",
+      "highlightedHtml": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ <a class=\"highlight-text\">وَٱلْمُؤْتَفِكَٰتُ</a> بِٱلْخَاطِئَةِ",
+      "derivedForms": [
+        "مُؤْتَفِكَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:36.786Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive imperfect verb",
+    "derivativeNote": "يُؤْفَكُونَ is in the derivative form: تَأْفِكُ",
+    "rootDefinitionHtml": "أ/ف/ك ʾ–f–k falsehood, to lie, to deceive. to beguile<br>; to turn upside down, to change the manner of things; to turn away, to dissuade. <br><br>Of this root, 6 forms occur 27 times in the Qur’an:<br> تَأْفِكُ taʾfik 3 times; يُؤْفَك yuʾfak 13 times; إِفْكٌ ʾifk 9 times; أَفَّاك ʾaffāk 2 times; مُؤْتَفِكَةٌ muʾtafikatun 1 time and مُؤْتَفِكَاتٌ muʾtafikāt 2 times.",
+    "mainDefinitionHtml": "تَأْفِكُ taʾfik [imperf. of v. أَفَك ʾafaka (also أَفِكَ ʾafika) trans.; pass. v. أُفِكَ ʾufika] <br><br><strong>1 </strong>to turn away from, particularly with guile and deceit <br><br>(46:22) قَالُوا أَجِئْتَنَا لِتَأْفِكَنَا عَنْ ءَالِهَتِنَا they said, ‘Have you come to turn us away from our gods?’ <br><br><strong>2 </strong>to fabricate, to fake, to feign <br><br>(7:117) وَأَوْحَيْنَا إِلَى مُوسَى أَنْ أَلْقِ عَصَاكَ فَإِذَا هِيَ تَلْقَفُ مَا يَأْفِكُونَ then We inspired Moses, ‘Throw your staff,’ and–lo and behold!–it devoured what they had fabricated.",
+    "mainEntryId": "wdef-أ-ف-ك.تَأْفِكُ",
+    "entries": [
+      {
+        "id": "wdef-أ-ف-ك",
+        "label": "أ-ف-ك",
+        "definitionHtml": "أ/ف/ك ʾ–f–k falsehood, to lie, to deceive. to beguile<br>; to turn upside down, to change the manner of things; to turn away, to dissuade. <br><br>Of this root, 6 forms occur 27 times in the Qur’an:<br> تَأْفِكُ taʾfik 3 times; يُؤْفَك yuʾfak 13 times; إِفْكٌ ʾifk 9 times; أَفَّاك ʾaffāk 2 times; مُؤْتَفِكَةٌ muʾtafikatun 1 time and مُؤْتَفِكَاتٌ muʾtafikāt 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ف-ك.تَأْفِكُ",
+        "label": "تَأْفِكُ",
+        "definitionHtml": "تَأْفِكُ taʾfik [imperf. of v. أَفَك ʾafaka (also أَفِكَ ʾafika) trans.; pass. v. أُفِكَ ʾufika] <br><br><strong>1 </strong>to turn away from, particularly with guile and deceit <br><br>(46:22) قَالُوا أَجِئْتَنَا لِتَأْفِكَنَا عَنْ ءَالِهَتِنَا they said, ‘Have you come to turn us away from our gods?’ <br><br><strong>2 </strong>to fabricate, to fake, to feign <br><br>(7:117) وَأَوْحَيْنَا إِلَى مُوسَى أَنْ أَلْقِ عَصَاكَ فَإِذَا هِيَ تَلْقَفُ مَا يَأْفِكُونَ then We inspired Moses, ‘Throw your staff,’ and–lo and behold!–it devoured what they had fabricated.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ف-ك.أَفَّاكٌ",
+        "label": "أَفَّاكٌ",
+        "definitionHtml": "أَفَّاكٌ ʾaffāk [intens. act. part.] an incorrigible liar <br><br>(26:221–2) هَلْ أُنَبِّئُكُمْ عَلَى مَنْ تَنَزَّلُ الشَّيَاطينُ تَنَزَّلُ عَلَى كُلِّ أَفَّاكٍ أَثِيمٍ shall I tell you who the devils come down to?, they come down to every lying sinner.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ف-ك.إِفْكٌ",
+        "label": "إِفْكٌ",
+        "definitionHtml": "إِفْكٌ ʾifk [n./v. n.] <br><br><strong>1 </strong>falsehood, lie, a false slander <br><br>(25:4) وَقَالَ الَّذِينَ كَفَرُوا إِنْ هَذَا إِلاَّ إِفْكٌ افْتَرَاهُ the unbelievers said, ‘This is but a lie he has made up’ <br><br><strong>2 </strong>[ الإِفْكُ ʾal-ʾifk] the false accusation of unchastity brought against ʿāʾisha, the Prophet’s wife <br><br>(24:11) إِنَّ الَّذِينَ جَاءُوا بِالإِفْكِ عُصْبَةٌ مِنْكُمْ those who brought the false slander were a group from among you. The narrative of the ʾifk incident <br><br>(24:11–40) stems from an incident which occurred during a military expedition. The Prophet’s wife ʿāʾisha lost her necklace and returned to search for it; however, the convoy she was travelling with had departed without her. It was assumed that she was riding in the hawdaj of her camel. Subsequently, ʿāʾisha was found by a companion who escorted her back to the encampment. It was insinuated that she could have been involved in adultery; the Qur’an fully exonerated her, describing the charge as an abject falsehood (ʾifk).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ف-ك.مُؤْتَفِكَةٌ",
+        "label": "مُؤْتَفِكَةٌ",
+        "definitionHtml": "مُؤْتَفِكَةٌ muʾtafikatun [act. part. fem.; pl. مُؤْتَفِكَاتٌ muʾtafikāt] that which is turned upside down, overthrown, subverted, the cities which were turned upside down, or subverted, such as the city of Lot (q.v.) <br><br>(9:70) وَأَصْحَابِ مَدْيَنَ وَالْمُؤْتَفِكَاتِ أَتَتْهُمْ رُسُلُهُمْ بِالْبَيِّنَاتِ and the peoples of Midian and the overthrown cities, their messengers came to them with clear proofs.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:22.216Z",
+      "refword": "5:75:25",
+      "lexword": "يُؤْفَكُونَ"
+    }
+  }
+}

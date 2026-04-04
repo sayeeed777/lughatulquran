@@ -1,0 +1,74 @@
+{
+  "root": "شمز",
+  "rootArabic": "شمز",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اشمَأَزَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشمَأَزَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 39,
+      "ayah": 45,
+      "text": "وَإِذَا ذُكِرَ ٱللَّهُ وَحْدَهُ ٱشْمَأَزَّتْ قُلُوبُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ ۖ وَإِذَا ذُكِرَ ٱلَّذِينَ مِن دُونِهِۦٓ إِذَا هُمْ يَسْتَبْشِرُونَ",
+      "highlightedHtml": "وَإِذَا ذُكِرَ ٱللَّهُ وَحْدَهُ <a class=\"highlight-text\">ٱشْمَأَزَّتْ</a> قُلُوبُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ ۖ وَإِذَا ذُكِرَ ٱلَّذِينَ مِن دُونِهِۦٓ إِذَا هُمْ يَسْتَبْشِرُونَ",
+      "derivedForms": [
+        "اشمَأَزَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:23.250Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VIII) perfect verb",
+    "derivativeNote": "ٱشْمَأَزَّتْ is in the derivative form: اشمَأَزَّ",
+    "rootDefinitionHtml": "ش/م/ز   sh–m–z to contract and shrink in aversion, to be disdainful, to be disgusted, to abhor. Of this root, only اشمَأَزَّ ʾishmaʾazza occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اشمَأَزَّ ʾishmaʾazza [v. VIII, intrans.] to be disdainful, to abhor, to find abhorrent <br><br>(39:45) وَإِذَا ذُكِرَ اللَّهُ وَحْدَهُ اشْمَأَزَّتْ قُلُوبُ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ the hearts of those who do not believe in the Hereafter shrink with aversion whenever God is mentioned on His own.",
+    "mainEntryId": "wdef-ش-م-ز.اشمَأَزَّ",
+    "entries": [
+      {
+        "id": "wdef-ش-م-ز",
+        "label": "ش-م-ز",
+        "definitionHtml": "ش/م/ز   sh–m–z to contract and shrink in aversion, to be disdainful, to be disgusted, to abhor. Of this root, only اشمَأَزَّ ʾishmaʾazza occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-م-ز.اشمَأَزَّ",
+        "label": "اشمَأَزَّ",
+        "definitionHtml": "اشمَأَزَّ ʾishmaʾazza [v. VIII, intrans.] to be disdainful, to abhor, to find abhorrent <br><br>(39:45) وَإِذَا ذُكِرَ اللَّهُ وَحْدَهُ اشْمَأَزَّتْ قُلُوبُ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ the hearts of those who do not believe in the Hereafter shrink with aversion whenever God is mentioned on His own.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:49.670Z",
+      "refword": "39:45:5",
+      "lexword": "ٱشْمَأَزَّتْ"
+    }
+  }
+}

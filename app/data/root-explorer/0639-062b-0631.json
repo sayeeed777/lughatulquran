@@ -1,0 +1,108 @@
+{
+  "root": "عثر",
+  "rootArabic": "عثر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اَعْثَرَ",
+      "count": 2
+    },
+    {
+      "form": "عُثِرَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عُثِرَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اَعْثَرَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 107,
+      "text": "فَإِنْ عُثِرَ عُثِرَ عَلَىٰٓ أَنَّهُمَا ٱسْتَحَقَّآ إِثْمًا فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا مِنَ ٱلَّذِينَ ٱسْتَحَقَّ عَلَيْهِمُ ٱلْأَوْلَيَٰنِ فَيُقْسِمَانِ بِٱللَّهِ لَشَهَٰدَتُنَآ أَحَقُّ مِن شَهَٰدَتِهِمَا وَمَا ٱعْتَدَيْنَآ إِنَّآ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "فَإِنْ <a class=\"highlight-text\">عُثِرَ</a> <a class=\"highlight-text\">عُثِرَ</a> عَلَىٰٓ أَنَّهُمَا ٱسْتَحَقَّآ إِثْمًا فَآخَرَانِ يَقُومَانِ مَقَامَهُمَا مِنَ ٱلَّذِينَ ٱسْتَحَقَّ عَلَيْهِمُ ٱلْأَوْلَيَٰنِ فَيُقْسِمَانِ بِٱللَّهِ لَشَهَٰدَتُنَآ أَحَقُّ مِن شَهَٰدَتِهِمَا وَمَا ٱعْتَدَيْنَآ إِنَّآ إِذًا لَّمِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "عُثِرَ",
+        "عُثِرَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 21,
+      "text": "وَكَذَٰلِكَ أَعْثَرْنَا أَعْثَرْنَا عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا",
+      "highlightedHtml": "وَكَذَٰلِكَ <a class=\"highlight-text\">أَعْثَرْنَا</a> <a class=\"highlight-text\">أَعْثَرْنَا</a> عَلَيْهِمْ لِيَعْلَمُوٓا۟ أَنَّ وَعْدَ ٱللَّهِ حَقٌّ وَأَنَّ ٱلسَّاعَةَ لَا رَيْبَ فِيهَآ إِذْ يَتَنَٰزَعُونَ بَيْنَهُمْ أَمْرَهُمْ ۖ فَقَالُوا۟ ٱبْنُوا۟ عَلَيْهِم بُنْيَٰنًا ۖ رَّبُّهُمْ أَعْلَمُ بِهِمْ ۚ قَالَ ٱلَّذِينَ غَلَبُوا۟ عَلَىٰٓ أَمْرِهِمْ لَنَتَّخِذَنَّ عَلَيْهِم مَّسْجِدًا",
+      "derivedForms": [
+        "اَعْثَرَ",
+        "اَعْثَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:27.988Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive perfect verb",
+    "derivativeNote": "عُثِرَ is in the derivative form: عُثِرَ",
+    "rootDefinitionHtml": "ع/ث/ر   ʿ–th–r a hole in which irrigation water collects, palm trees that get water from such pools; to stumble upon, to find, to trip; a slip of the tongue; dusty land. <br><br>Of this root, 2 forms occur each in a single place in the Qur’an:<br> عُثِرَ ʿuthira and أَعْثَرْنا ʾaʿtharnā.",
+    "mainDefinitionHtml": "عُثِرَ ʿuthira [pass. v.] to be found, to be discovered <br><br>(5:107) فَإِنْ‏ ‏عُثِرَ‏ ‏عَلَى‏ ‏أَنَّهُمَا‏ ‏اسْتَحَقَّا‏ ‏إِثْمًا‏‏ if it is discovered that these two have committed a sin.",
+    "mainEntryId": "wdef-ع-ث-ر.عُثِرَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ث-ر",
+        "label": "ع-ث-ر",
+        "definitionHtml": "ع/ث/ر   ʿ–th–r a hole in which irrigation water collects, palm trees that get water from such pools; to stumble upon, to find, to trip; a slip of the tongue; dusty land. <br><br>Of this root, 2 forms occur each in a single place in the Qur’an:<br> عُثِرَ ʿuthira and أَعْثَرْنا ʾaʿtharnā.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ث-ر.عُثِرَ",
+        "label": "عُثِرَ",
+        "definitionHtml": "عُثِرَ ʿuthira [pass. v.] to be found, to be discovered <br><br>(5:107) فَإِنْ‏ ‏عُثِرَ‏ ‏عَلَى‏ ‏أَنَّهُمَا‏ ‏اسْتَحَقَّا‏ ‏إِثْمًا‏‏ if it is discovered that these two have committed a sin.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ث-ر.اَعْثَرَ",
+        "label": "اَعْثَرَ",
+        "definitionHtml": "اَعْثَرَ ʾaʿthara [v. IV, trans., no object, with prep. عَلَي] to cause to find, to cause to stumble upon <br><br>(18:21) وَكَذَلِكَ‏ ‏أَعْثَرْنَا‏ ‏عَلَيْهِمْ‏ ‏لِيَعْلَمُوا‏ ‏أَنَّ‏ ‏وَعْدَ‏ ‏اللَّهِ‏ ‏حَقٌّ‏ in this way We caused [people] to find them, that they come to know God’s promise is true.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:45.743Z",
+      "refword": "5:107:2",
+      "lexword": "عُثِرَ"
+    }
+  }
+}

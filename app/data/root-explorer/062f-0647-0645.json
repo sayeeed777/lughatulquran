@@ -1,0 +1,74 @@
+{
+  "root": "دهم",
+  "rootArabic": "دهم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُدْهَامَّتَانِ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدْهَامَّتَانِ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 55,
+      "ayah": 64,
+      "text": "مُدْهَآمَّتَانِ",
+      "highlightedHtml": "<a class=\"highlight-text\">مُدْهَآمَّتَانِ</a>",
+      "derivedForms": [
+        "مُدْهَامَّتَانِ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:28.734Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine dual (form XI) active participle",
+    "derivativeNote": "مُدْهَآمَّتَانِ is in the derivative form: مُدْهَامَّتَانِ",
+    "rootDefinitionHtml": "د/هـ/م   d–h–m blackness, dark green; large numbers of people; attack, to overtake, to overwhelm, calamity. Of this root, مُدْهَامَّتَانِ mudhāmmatān occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُدْهَامَّتَانِ mudhāmmatān [dual of fem. act. part. (of v. IX) مُدْهَامَّة mudhāmmatun] blackish green, very dark green <br><br>(55:62–4) وَمِنْ دُونِهِمَا جَنَّتَان ... مُدْهَامَّتَانِ there are two other gardens below these two … both of deepest green.",
+    "mainEntryId": "wdef-د-هـ-م.مُدْهَامَّتَانِ",
+    "entries": [
+      {
+        "id": "wdef-د-هـ-م",
+        "label": "د-هـ-م",
+        "definitionHtml": "د/هـ/م   d–h–m blackness, dark green; large numbers of people; attack, to overtake, to overwhelm, calamity. Of this root, مُدْهَامَّتَانِ mudhāmmatān occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-هـ-م.مُدْهَامَّتَانِ",
+        "label": "مُدْهَامَّتَانِ",
+        "definitionHtml": "مُدْهَامَّتَانِ mudhāmmatān [dual of fem. act. part. (of v. IX) مُدْهَامَّة mudhāmmatun] blackish green, very dark green <br><br>(55:62–4) وَمِنْ دُونِهِمَا جَنَّتَان ... مُدْهَامَّتَانِ there are two other gardens below these two … both of deepest green.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:17.973Z",
+      "refword": "55:64:1",
+      "lexword": "مُدْهَآمَّتَانِ"
+    }
+  }
+}

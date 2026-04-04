@@ -1,0 +1,74 @@
+{
+  "root": "رصص",
+  "rootArabic": "رصص",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَرْصُوصٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 61,
+      "surahName": "As-Saff",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْصُوصٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 61,
+      "ayah": 4,
+      "text": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِى سَبِيلِهِۦ صَفًّا كَأَنَّهُم بُنْيَٰنٌ مَّرْصُوصٌ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِى سَبِيلِهِۦ صَفًّا كَأَنَّهُم بُنْيَٰنٌ <a class=\"highlight-text\">مَّرْصُوصٌ</a>",
+      "derivedForms": [
+        "مَرْصُوصٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:26.120Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite passive participle",
+    "derivativeNote": "مَّرْصُوصٌ is in the derivative form: مَرْصُوصٌ",
+    "rootDefinitionHtml": "ر/ص/ص   r–ṣ–ṣ to line up, to align, to set together in a row or stack, to pile up, to fit together tightly; lead, soldering with lead. Of this root, مَرْصُوصٌ marṣūṣ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَرْصُوصٌ marṣūṣ [pass. part.] tightly fitted, well lined up <br><br>(61:4) إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِى سَبِيلِهِ صَفًّا كَأَنَّهُمْ بُنْيَانٌ مَرْصُوصٌ God truly loves those who fight in close ranks for His cause, like a well‐compacted wall.",
+    "mainEntryId": "wdef-ر-ص-ص.مَرْصُوصٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ص-ص",
+        "label": "ر-ص-ص",
+        "definitionHtml": "ر/ص/ص   r–ṣ–ṣ to line up, to align, to set together in a row or stack, to pile up, to fit together tightly; lead, soldering with lead. Of this root, مَرْصُوصٌ marṣūṣ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ص-ص.مَرْصُوصٌ",
+        "label": "مَرْصُوصٌ",
+        "definitionHtml": "مَرْصُوصٌ marṣūṣ [pass. part.] tightly fitted, well lined up <br><br>(61:4) إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِى سَبِيلِهِ صَفًّا كَأَنَّهُمْ بُنْيَانٌ مَرْصُوصٌ God truly loves those who fight in close ranks for His cause, like a well‐compacted wall.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:00.239Z",
+      "refword": "61:4:11",
+      "lexword": "مَّرْصُوصٌ"
+    }
+  }
+}

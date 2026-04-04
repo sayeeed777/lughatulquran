@@ -1,0 +1,127 @@
+{
+  "root": "عري",
+  "rootArabic": "عري",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "عَرَاءٌ",
+      "count": 2
+    },
+    {
+      "form": "تَعْرَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْرَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَرَاءٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَرَاءٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 118,
+      "text": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعْرَىٰ",
+      "highlightedHtml": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا <a class=\"highlight-text\">تَعْرَىٰ</a>",
+      "derivedForms": [
+        "تَعْرَى"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 145,
+      "text": "فَنَبَذْنَٰهُ بِٱلْعَرَآءِ وَهُوَ سَقِيمٌ",
+      "highlightedHtml": "فَنَبَذْنَٰهُ <a class=\"highlight-text\">بِٱلْعَرَآءِ</a> وَهُوَ سَقِيمٌ",
+      "derivedForms": [
+        "عَرَاءٌ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 49,
+      "text": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌ",
+      "highlightedHtml": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌ مِّن رَّبِّهِۦ لَنُبِذَ <a class=\"highlight-text\">بِٱلْعَرَآءِ</a> وَهُوَ مَذْمُومٌ",
+      "derivedForms": [
+        "عَرَاءٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:47.606Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "تَعْرَىٰ is in the derivative form: تَعْرَى",
+    "rootDefinitionHtml": "ع/ر/ي ʿ–r–y remote open expanse of land, treeless area; nakedness, to be naked, to become emaciated, to strip off, to strip meat off bones; to evacuate. A degree of overlapping between this root and root ع/ر/و ʿ–r–w exists, as might be expected of corresponding ي and و radicals. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَعْرَى taʿrā 1 time and عَرَاءٌ ʿarāʾ 2 times.",
+    "mainDefinitionHtml": "تَعْرَى taʿrā [imperf. of v. عَرِيَ ʿariya, intrans.] to be or become naked <br><br>(20:118) إِنَّ‏ ‏لَكَ‏ ‏أَلاَّ‏ ‏تَجُوعَ‏ ‏فِيهَا‏ ‏وَلاَ‏ ‏تَعْرَى‏ it is [granted] for you that you will neither go hungry, nor naked in it [the Garden].",
+    "mainEntryId": "wdef-ع-ر-ي.تَعْرَى",
+    "entries": [
+      {
+        "id": "wdef-ع-ر-ي",
+        "label": "ع-ر-ي",
+        "definitionHtml": "ع/ر/ي ʿ–r–y remote open expanse of land, treeless area; nakedness, to be naked, to become emaciated, to strip off, to strip meat off bones; to evacuate. A degree of overlapping between this root and root ع/ر/و ʿ–r–w exists, as might be expected of corresponding ي and و radicals. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَعْرَى taʿrā 1 time and عَرَاءٌ ʿarāʾ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ر-ي.تَعْرَى",
+        "label": "تَعْرَى",
+        "definitionHtml": "تَعْرَى taʿrā [imperf. of v. عَرِيَ ʿariya, intrans.] to be or become naked <br><br>(20:118) إِنَّ‏ ‏لَكَ‏ ‏أَلاَّ‏ ‏تَجُوعَ‏ ‏فِيهَا‏ ‏وَلاَ‏ ‏تَعْرَى‏ it is [granted] for you that you will neither go hungry, nor naked in it [the Garden].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ر-ي.عَرَاءٌ",
+        "label": "عَرَاءٌ",
+        "definitionHtml": "عَرَاءٌ ʿarāʾ [n] wide and open, barren, treeless land <br><br>(37:145) فَنَبَذْنَاهُ‏ ‏بِالْعَرَاءِ‏ ‏وَهُوَ‏ ‏سَقِيمٌ‏ so We cast him out, ailing and thin, onto a barren, open shore.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:20.188Z",
+      "refword": "20:118:7",
+      "lexword": "تَعْرَىٰ"
+    }
+  }
+}

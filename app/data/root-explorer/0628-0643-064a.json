@@ -1,0 +1,215 @@
+{
+  "root": "بكي",
+  "rootArabic": "بكي",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "بَكَى",
+      "count": 5
+    },
+    {
+      "form": "أَبْكَى",
+      "count": 1
+    },
+    {
+      "form": "بُكِيٌّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَكَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَكَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَكَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكِيٌّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَكَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَبْكَى",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "بَكَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 82,
+      "text": "فَلْيَضْحَكُوا۟ قَلِيلًا وَلْيَبْكُوا۟ كَثِيرًا جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "فَلْيَضْحَكُوا۟ قَلِيلًا <a class=\"highlight-text\">وَلْيَبْكُوا۟</a> كَثِيرًا جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "بَكَى"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 16,
+      "text": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً يَبْكُونَ",
+      "highlightedHtml": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً <a class=\"highlight-text\">يَبْكُونَ</a>",
+      "derivedForms": [
+        "بَكَى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 109,
+      "text": "وَيَخِرُّونَ لِلْأَذْقَانِ يَبْكُونَ وَيَزِيدُهُمْ خُشُوعًا ۩",
+      "highlightedHtml": "وَيَخِرُّونَ لِلْأَذْقَانِ <a class=\"highlight-text\">يَبْكُونَ</a> وَيَزِيدُهُمْ خُشُوعًا ۩",
+      "derivedForms": [
+        "بَكَى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 58,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ آدَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًا وَبُكِيًّا ۩",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ مِن ذُرِّيَّةِ آدَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَٰهِيمَ وَإِسْرَٰٓءِيلَ وَمِمَّنْ هَدَيْنَا وَٱجْتَبَيْنَآ ۚ إِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُ ٱلرَّحْمَٰنِ خَرُّوا۟ سُجَّدًا <a class=\"highlight-text\">وَبُكِيًّا</a> ۩",
+      "derivedForms": [
+        "بُكِيٌّ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 29,
+      "text": "فَمَا بَكَتْ عَلَيْهِمُ ٱلسَّمَآءُ وَٱلْأَرْضُ وَمَا كَانُوا۟ مُنظَرِينَ",
+      "highlightedHtml": "فَمَا <a class=\"highlight-text\">بَكَتْ</a> عَلَيْهِمُ ٱلسَّمَآءُ وَٱلْأَرْضُ وَمَا كَانُوا۟ مُنظَرِينَ",
+      "derivedForms": [
+        "بَكَى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 43,
+      "text": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+      "highlightedHtml": "وَأَنَّهُۥ هُوَ أَضْحَكَ <a class=\"highlight-text\">وَأَبْكَىٰ</a>",
+      "derivedForms": [
+        "أَبْكَى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 60,
+      "text": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+      "highlightedHtml": "وَتَضْحَكُونَ وَلَا <a class=\"highlight-text\">تَبْكُونَ</a>",
+      "derivedForms": [
+        "بَكَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:57.557Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb, jussive mood",
+    "derivativeNote": "وَلْيَبْكُوا۟ is in the derivative form: بَكَى",
+    "rootDefinitionHtml": "ب/ك/ي b–k–y to wail, to cry, to bemoan, to lament<br>; to cause to cry; to pretend to cry. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> بَكَى bakā 5 times; أَبْكَى ʾabkā 1 time and بُكِيٌّ bukiyy 1 time.",
+    "mainDefinitionHtml": "بَكَى bakā i [v. intrans. with prep. على] to weep, to wail <br><br>(9:82) فَلْيَضْحَكُوا قَلِيلاً ًوَلْيَبْكُوا كَثِيرًا so let them laugh a little; they will weep a lot; *<br><br>(44:29) فَمَا بَكَتْ عَلَيْهِمُ السَّمَاءُ وَالأَرْضُ they were lamented by no one [lit. neither the heavens nor earth shed a tear for them].",
+    "mainEntryId": "wdef-ب-ك-ي.بَكَى",
+    "entries": [
+      {
+        "id": "wdef-ب-ك-ي",
+        "label": "ب-ك-ي",
+        "definitionHtml": "ب/ك/ي b–k–y to wail, to cry, to bemoan, to lament<br>; to cause to cry; to pretend to cry. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> بَكَى bakā 5 times; أَبْكَى ʾabkā 1 time and بُكِيٌّ bukiyy 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ك-ي.بَكَى",
+        "label": "بَكَى",
+        "definitionHtml": "بَكَى bakā i [v. intrans. with prep. على] to weep, to wail <br><br>(9:82) فَلْيَضْحَكُوا قَلِيلاً ًوَلْيَبْكُوا كَثِيرًا so let them laugh a little; they will weep a lot; *<br><br>(44:29) فَمَا بَكَتْ عَلَيْهِمُ السَّمَاءُ وَالأَرْضُ they were lamented by no one [lit. neither the heavens nor earth shed a tear for them].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ك-ي.أَبْكَى",
+        "label": "أَبْكَى",
+        "definitionHtml": "أَبْكَى ʾabkā [v. IV, trans.] to cause to weep, to bring/cause unhappiness <br><br>(53:43) وَأَنَّهُ هُوَ أَضْحَكَ وَأَبْكَى and He it is who makes one laugh, and makes one weep.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ك-ي.بُكِيٌّ",
+        "label": "بُكِيٌّ",
+        "definitionHtml": "بُكِيٌّ bukıyy [pl. of quasi‐act. part. بَاكِي bākı] weeping <br><br>(19:58) خَرُّوا سُجَّدًا وَبُكِيًّا they fell down prostrate and weeping.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:46.652Z",
+      "refword": "9:82:3",
+      "lexword": "وَلْيَبْكُوا۟"
+    }
+  }
+}

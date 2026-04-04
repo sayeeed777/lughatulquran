@@ -1,0 +1,74 @@
+{
+  "root": "صفن",
+  "rootArabic": "صفن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "صَافِنات",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَافِنات",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 38,
+      "ayah": 31,
+      "text": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ ٱلصَّٰفِنَٰتُ ٱلْجِيَادُ ٱلْجِيَادُ",
+      "highlightedHtml": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ <a class=\"highlight-text\">ٱلصَّٰفِنَٰتُ</a> ٱلْجِيَادُ ٱلْجِيَادُ",
+      "derivedForms": [
+        "صَافِنات"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:05.000Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine plural active participle",
+    "derivativeNote": "ٱلصَّٰفِنَٰتُ is in the derivative form: صَافِنات",
+    "rootDefinitionHtml": "ص/ف/ن   ṣ–f–n (of horses) to stand on 3 legs with the edge of 1 of the front hoofs just touching the ground (a sign of a thoroughbred), to set the feet side by side, to stand confronting a party of people; to compact dry herbage into a nest; nest, water-skin. Of this root, صَافِنات ṣāfināt, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "صَافِنات ṣāfināt [pl. of act. part. صَافِنَة ṣāfinatun] (of horses) standing with one leg bent, standing majestically <br><br>(38:31) إِذْ عُرِضَ عَلَيْهِ بِالْعَشِيِّ الصَّافِنَاتُ الْجِيَادُ when, at the close of the day, well-bred light-footed horses were paraded before him.",
+    "mainEntryId": "wdef-ص-ف-ن.صَافِنات",
+    "entries": [
+      {
+        "id": "wdef-ص-ف-ن",
+        "label": "ص-ف-ن",
+        "definitionHtml": "ص/ف/ن   ṣ–f–n (of horses) to stand on 3 legs with the edge of 1 of the front hoofs just touching the ground (a sign of a thoroughbred), to set the feet side by side, to stand confronting a party of people; to compact dry herbage into a nest; nest, water-skin. Of this root, صَافِنات ṣāfināt, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ف-ن.صَافِنات",
+        "label": "صَافِنات",
+        "definitionHtml": "صَافِنات ṣāfināt [pl. of act. part. صَافِنَة ṣāfinatun] (of horses) standing with one leg bent, standing majestically <br><br>(38:31) إِذْ عُرِضَ عَلَيْهِ بِالْعَشِيِّ الصَّافِنَاتُ الْجِيَادُ when, at the close of the day, well-bred light-footed horses were paraded before him.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:07.631Z",
+      "refword": "38:31:5",
+      "lexword": "ٱلصَّٰفِنَٰتُ"
+    }
+  }
+}

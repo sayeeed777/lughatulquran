@@ -1,0 +1,74 @@
+{
+  "root": "لزب",
+  "rootArabic": "لزب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "لازِب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لازِب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 11,
+      "text": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍ لَّازِبٍۭ",
+      "highlightedHtml": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍ <a class=\"highlight-text\">لَّازِبٍۭ</a>",
+      "derivedForms": [
+        "لازِب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:28.405Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite active participle",
+    "derivativeNote": "لَّازِبٍۭ is in the derivative form: لازِب",
+    "rootDefinitionHtml": "ل/ز/ب   l–z–b to be narrow; to be scanty, famine, hardship; to adhere, to stick together; to sting. Of this root, only لازِب lāzib occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "لازِب lāzib [quasi‐act. part.] sticky, adhesive <br><br>(37:11)‏إِنَّا‏ ‏خَلَقْنَاهُمْ‏ ‏مِنْ‏ ‏طِينٍ‏ ‏لاَزِبٍ‏ We have created them from sticky clay.",
+    "mainEntryId": "wdef-ل-ز-ب.لازِب",
+    "entries": [
+      {
+        "id": "wdef-ل-ز-ب",
+        "label": "ل-ز-ب",
+        "definitionHtml": "ل/ز/ب   l–z–b to be narrow; to be scanty, famine, hardship; to adhere, to stick together; to sting. Of this root, only لازِب lāzib occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ز-ب.لازِب",
+        "label": "لازِب",
+        "definitionHtml": "لازِب lāzib [quasi‐act. part.] sticky, adhesive <br><br>(37:11)‏إِنَّا‏ ‏خَلَقْنَاهُمْ‏ ‏مِنْ‏ ‏طِينٍ‏ ‏لاَزِبٍ‏ We have created them from sticky clay.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:15.706Z",
+      "refword": "37:11:12",
+      "lexword": "لَّازِبٍۭ"
+    }
+  }
+}

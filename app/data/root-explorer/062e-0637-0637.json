@@ -1,0 +1,74 @@
+{
+  "root": "خطط",
+  "rootArabic": "خطط",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَخُطُّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخُطُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 29,
+      "ayah": 48,
+      "text": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَٰبٍ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
+      "highlightedHtml": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَٰبٍ وَلَا <a class=\"highlight-text\">تَخُطُّهُۥ</a> بِيَمِينِكَ ۖ إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
+      "derivedForms": [
+        "تَخُطُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:29.715Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb",
+    "derivativeNote": "تَخُطُّهُۥ is in the derivative form: تَخُطُّ",
+    "rootDefinitionHtml": "خ/ط/ط   kh–ṭ–ṭ furrows, roads; lines, pen markings, writing, stripes; living quarters; affair, plan, intention; to write. Of this root, تَخُطُّ takhuṭṭ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَخُطُّ takhuṭṭ [2nd pers. imperf. of v. خَطَّ khaṭṭa, trans.] to write down, to transcribe <br><br>(29:48) وَمَا كُنْتَ تَتْلُو مِنْ قَبْلِهِ مِنْ كِتَابٍ وَلاَ تَخُطُّهُ بِيَمِينِكَ إِذًا لاَرْتَابَ الْمُبْطِلُونَ and you never recited, before it, any book; nor did you write one down with your own right hand. [Had you done so], those who are bent on denial might [then] have had [cause] to doubt.",
+    "mainEntryId": "wdef-خ-ط-ط.تَخُطُّ",
+    "entries": [
+      {
+        "id": "wdef-خ-ط-ط",
+        "label": "خ-ط-ط",
+        "definitionHtml": "خ/ط/ط   kh–ṭ–ṭ furrows, roads; lines, pen markings, writing, stripes; living quarters; affair, plan, intention; to write. Of this root, تَخُطُّ takhuṭṭ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ط.تَخُطُّ",
+        "label": "تَخُطُّ",
+        "definitionHtml": "تَخُطُّ takhuṭṭ [2nd pers. imperf. of v. خَطَّ khaṭṭa, trans.] to write down, to transcribe <br><br>(29:48) وَمَا كُنْتَ تَتْلُو مِنْ قَبْلِهِ مِنْ كِتَابٍ وَلاَ تَخُطُّهُ بِيَمِينِكَ إِذًا لاَرْتَابَ الْمُبْطِلُونَ and you never recited, before it, any book; nor did you write one down with your own right hand. [Had you done so], those who are bent on denial might [then] have had [cause] to doubt.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:23.814Z",
+      "refword": "29:48:9",
+      "lexword": "تَخُطُّهُۥ"
+    }
+  }
+}

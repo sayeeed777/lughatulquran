@@ -1,0 +1,74 @@
+{
+  "root": "تقن",
+  "rootArabic": "تقن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَتْقَنَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَتْقَنَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 88,
+      "text": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "highlightedHtml": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ <a class=\"highlight-text\">أَتْقَنَ</a> كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "derivedForms": [
+        "أَتْقَنَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:25.639Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "أَتْقَنَ is in the derivative form: أَتْقَنَ",
+    "rootDefinitionHtml": "ت/ق/ن   t–q–n dregs of a well, to dredge up a well; nature; to do something well, to be skilful, to be eloquent; to perfect, perfection. Of this root, أَتْقَنَ ʾatqana occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَتْقَنَ ʾatqana [v. IV, trans.] to perfect <br><br>(27:88) وَتَرَى الْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ and you will see the mountains, deeming them standing still, when [in fact] they are passing by like the passing of clouds; [this is] the handiwork of God who has perfected all things.",
+    "mainEntryId": "wdef-ت-ق-ن.أَتْقَنَ",
+    "entries": [
+      {
+        "id": "wdef-ت-ق-ن",
+        "label": "ت-ق-ن",
+        "definitionHtml": "ت/ق/ن   t–q–n dregs of a well, to dredge up a well; nature; to do something well, to be skilful, to be eloquent; to perfect, perfection. Of this root, أَتْقَنَ ʾatqana occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ق-ن.أَتْقَنَ",
+        "label": "أَتْقَنَ",
+        "definitionHtml": "أَتْقَنَ ʾatqana [v. IV, trans.] to perfect <br><br>(27:88) وَتَرَى الْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ and you will see the mountains, deeming them standing still, when [in fact] they are passing by like the passing of clouds; [this is] the handiwork of God who has perfected all things.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:35.614Z",
+      "refword": "27:88:12",
+      "lexword": "أَتْقَنَ"
+    }
+  }
+}

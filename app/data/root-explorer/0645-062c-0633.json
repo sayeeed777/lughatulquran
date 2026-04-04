@@ -1,0 +1,74 @@
+{
+  "root": "مجس",
+  "rootArabic": "مجس",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "المَجُوس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَجُوس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 17,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـِٔينَ وَٱلنَّصَٰرَىٰ وَٱلْمَجُوسَ وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـِٔينَ وَٱلنَّصَٰرَىٰ <a class=\"highlight-text\">وَٱلْمَجُوسَ</a> وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "derivedForms": [
+        "المَجُوس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:03.249Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural passive participle",
+    "derivativeNote": "وَٱلْمَجُوسَ is in the derivative form: المَجُوس",
+    "rootDefinitionHtml": "م/ج/<br>س",
+    "mainDefinitionHtml": "المَجُوس ʾal‐Majūs [proper name borrowed from Persian ‘Magush’, occurring once in the Qur’an] the Magians, adherents of Mazdaism, fire worshippers <br><br>(22:17) إِنَّ‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏وَالَّذِينَ‏ ‏هَادُوا‏ ‏وَالصَّابِئِينَ‏ ‏وَالنَّصَارَى‏ ‏وَالْمَجُوسَ‏ ‏وَالَّذِينَ‏ ‏أَشْرَكُوا‏ ‏إِنَّ‏ ‏اللَّهَ‏ ‏يَفْصِلُ‏ ‏بَيْنَهُمْ‏ ‏يَوْمَ‏ ‏الْقِيَامَةِ‏ indeed, those who believe [in the Message of Muḥammad] and those who follow the Jewish faith and the Sabians, the Christians, the Magians and the Polytheists, God will decide between them on the Day of Resurrection.",
+    "mainEntryId": "wdef-م-ج-س.المَجُوس",
+    "entries": [
+      {
+        "id": "wdef-م-ج-س",
+        "label": "م-ج-س",
+        "definitionHtml": "م/ج/<br>س",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ج-س.المَجُوس",
+        "label": "المَجُوس",
+        "definitionHtml": "المَجُوس ʾal‐Majūs [proper name borrowed from Persian ‘Magush’, occurring once in the Qur’an] the Magians, adherents of Mazdaism, fire worshippers <br><br>(22:17) إِنَّ‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏وَالَّذِينَ‏ ‏هَادُوا‏ ‏وَالصَّابِئِينَ‏ ‏وَالنَّصَارَى‏ ‏وَالْمَجُوسَ‏ ‏وَالَّذِينَ‏ ‏أَشْرَكُوا‏ ‏إِنَّ‏ ‏اللَّهَ‏ ‏يَفْصِلُ‏ ‏بَيْنَهُمْ‏ ‏يَوْمَ‏ ‏الْقِيَامَةِ‏ indeed, those who believe [in the Message of Muḥammad] and those who follow the Jewish faith and the Sabians, the Christians, the Magians and the Polytheists, God will decide between them on the Day of Resurrection.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:24.456Z",
+      "refword": "22:17:8",
+      "lexword": "وَٱلْمَجُوسَ"
+    }
+  }
+}

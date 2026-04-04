@@ -1,0 +1,138 @@
+{
+  "root": "لفف",
+  "rootArabic": "لفف",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "اِلْتَفَّ",
+      "count": 1
+    },
+    {
+      "form": "ألْفَاف",
+      "count": 1
+    },
+    {
+      "form": "لَفِيف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَفِيف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْتَفَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْفَاف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 104,
+      "text": "وَقُلْنَا مِنۢ بَعْدِهِۦ لِبَنِىٓ إِسْرَٰٓءِيلَ ٱسْكُنُوا۟ ٱلْأَرْضَ فَإِذَا جَآءَ وَعْدُ الْآخِرَةِ جِئْنَا بِكُمْ لَفِيفًا",
+      "highlightedHtml": "وَقُلْنَا مِنۢ بَعْدِهِۦ لِبَنِىٓ إِسْرَٰٓءِيلَ ٱسْكُنُوا۟ ٱلْأَرْضَ فَإِذَا جَآءَ وَعْدُ الْآخِرَةِ جِئْنَا بِكُمْ <a class=\"highlight-text\">لَفِيفًا</a>",
+      "derivedForms": [
+        "لَفِيف"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 29,
+      "text": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْتَفَّتِ</a> ٱلسَّاقُ بِٱلسَّاقِ",
+      "derivedForms": [
+        "اِلْتَفَّ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 16,
+      "text": "وَجَنَّٰتٍ أَلْفَافًا",
+      "highlightedHtml": "وَجَنَّٰتٍ <a class=\"highlight-text\">أَلْفَافًا</a>",
+      "derivedForms": [
+        "ألْفَاف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:39.014Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine singular indefinite noun",
+    "derivativeNote": "لَفِيفًا is in the derivative form: لَفِيف",
+    "rootDefinitionHtml": "ل/ف/ف   l–f–f (of the thighs) to be fleshy<br>; to gather together, to wrap up; large crowd of a mixture of people, thicket of trees; to stutter. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> اِلْتَفَّ ʾiltaffa; ألْفَاف ʾalfāf andلَفِيف lafıf.",
+    "mainDefinitionHtml": "لَفِيف lafıf [quasi‐act./pass. part.] diversified crowd, a mixed group <br><br>(17:104) ‏فَإِذَا‏ ‏جَاءَ‏ ‏وَعْدُ‏ ‏الآخِرَةِ‏ ‏جِئْنَا‏ ‏بِكُمْ‏ ‏لَفِيفًا‏ and when the promise of the Hereafter is fulfilled, We shall bring you [out] as a mixed group.",
+    "mainEntryId": "wdef-ل-ف-ف.لَفِيف",
+    "entries": [
+      {
+        "id": "wdef-ل-ف-ف",
+        "label": "ل-ف-ف",
+        "definitionHtml": "ل/ف/ف   l–f–f (of the thighs) to be fleshy<br>; to gather together, to wrap up; large crowd of a mixture of people, thicket of trees; to stutter. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> اِلْتَفَّ ʾiltaffa; ألْفَاف ʾalfāf andلَفِيف lafıf.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-ف.لَفِيف",
+        "label": "لَفِيف",
+        "definitionHtml": "لَفِيف lafıf [quasi‐act./pass. part.] diversified crowd, a mixed group <br><br>(17:104) ‏فَإِذَا‏ ‏جَاءَ‏ ‏وَعْدُ‏ ‏الآخِرَةِ‏ ‏جِئْنَا‏ ‏بِكُمْ‏ ‏لَفِيفًا‏ and when the promise of the Hereafter is fulfilled, We shall bring you [out] as a mixed group.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ف-ف.ألْفَاف",
+        "label": "ألْفَاف",
+        "definitionHtml": "ألْفَاف ʾalfāf [pl. of لُفّ luff which is, in turn, pl. of quasi‐act. part. لَفَّاء laffāʾ] intertwined, conflated, thickly interlacing, tangled <br><br>(78:15–16) لِنُخْرِجَ‏ ‏بِهِ‏ ‏حَبًّا‏ ‏وَنَبَاتًا وَجَنَّاتٍ‏ ‏أَلْفَافًا‏ to bring forth with it grain, plants and gardens of interlacing foliage.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-ف.اِلْتَفَّ",
+        "label": "اِلْتَفَّ",
+        "definitionHtml": "اِلْتَفَّ ʾiltaffa [v. VIII, intrans.] to wind around, to join closely together *<br><br>(75:29) وَالْتَفَّتِ‏ ‏السَّاقُ‏ ‏بِالسَّاقِ when death overtakes the person [lit. and leg is intertwined with leg].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:37.911Z",
+      "refword": "17:104:14",
+      "lexword": "لَفِيفًا"
+    }
+  }
+}

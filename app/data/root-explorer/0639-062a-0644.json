@@ -1,0 +1,106 @@
+{
+  "root": "عتل",
+  "rootArabic": "عتل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اُعْتُلْ",
+      "count": 1
+    },
+    {
+      "form": "عُتُلٌّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اُعْتُلْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُتُلٌّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 44,
+      "ayah": 47,
+      "text": "خُذُوهُ فَٱعْتِلُوهُ إِلَىٰ سَوَآءِ سَوَآءِ ٱلْجَحِيمِ",
+      "highlightedHtml": "خُذُوهُ <a class=\"highlight-text\">فَٱعْتِلُوهُ</a> إِلَىٰ سَوَآءِ سَوَآءِ ٱلْجَحِيمِ",
+      "derivedForms": [
+        "اُعْتُلْ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 13,
+      "text": "عُتُلٍّۭ بَعْدَ ذَٰلِكَ زَنِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">عُتُلٍّۭ</a> بَعْدَ ذَٰلِكَ زَنِيمٍ",
+      "derivedForms": [
+        "عُتُلٌّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:26.111Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "فَٱعْتِلُوهُ is in the derivative form: اُعْتُلْ",
+    "rootDefinitionHtml": "ع/ت/ل   ʿ–t–l crowbar; to drag violently; ruffian and cruel person. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> إعْتِلوه ʾiʿtilūhu and عُتُلّ ʿutull.",
+    "mainDefinitionHtml": "اُعْتُلْ /اعْتِلْ ʾuʿtul/ʾiʿtil [imper. V., trans.] drag and cast away violently <br><br>(44:47) خُذُوهُ‏ ‏فَاعْتِلُوهُ‏ ‏إِلَى‏ ‏سَوَاءِ‏ ‏الْجَحِيمِ‏ take him and thrust him into the midst of Hell.",
+    "mainEntryId": "wdef-ع-ت-ل.اُعْتُلْ",
+    "entries": [
+      {
+        "id": "wdef-ع-ت-ل",
+        "label": "ع-ت-ل",
+        "definitionHtml": "ع/ت/ل   ʿ–t–l crowbar; to drag violently; ruffian and cruel person. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> إعْتِلوه ʾiʿtilūhu and عُتُلّ ʿutull.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ت-ل.اُعْتُلْ",
+        "label": "اُعْتُلْ",
+        "definitionHtml": "اُعْتُلْ /اعْتِلْ ʾuʿtul/ʾiʿtil [imper. V., trans.] drag and cast away violently <br><br>(44:47) خُذُوهُ‏ ‏فَاعْتِلُوهُ‏ ‏إِلَى‏ ‏سَوَاءِ‏ ‏الْجَحِيمِ‏ take him and thrust him into the midst of Hell.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ت-ل.عُتُلٌّ",
+        "label": "عُتُلٌّ",
+        "definitionHtml": "عُتُلٌّ ʿutull [quasi‐act. part.] ruffian, ignoble, coarse, rude, rough <br><br>(68:12–13) مَنَّاعٍ‏ ‏لِلْخَيْرِ‏ ‏مُعْتَدٍ‏ ‏أَثِيمٍ عُتُلٍّ‏ ‏بَعْدَ‏ ‏ذَلِكَ‏ ‏زَنِيمٍ‏ hinderer of good, aggressor, sinful, and above all an infamous ruffian.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:41.104Z",
+      "refword": "44:47:2",
+      "lexword": "فَٱعْتِلُوهُ"
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "root": "همم",
+  "rootArabic": "همم",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 2,
+    "surahCount": 6,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "هَمَّ",
+      "count": 8
+    },
+    {
+      "form": "أَهَمَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَهَمَّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "هَمَّ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هَمَّ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هَمَّ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "هَمَّ",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "هَمَّ",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هَمَّ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 122,
+      "text": "إِذْ هَمَّت طَّآئِفَتَانِ مِنكُمْ أَن تَفْشَلَا وَٱللَّهُ وَلِيُّهُمَا ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">هَمَّت</a> طَّآئِفَتَانِ مِنكُمْ أَن تَفْشَلَا وَٱللَّهُ وَلِيُّهُمَا ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 154,
+      "text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ <a class=\"highlight-text\">أَهَمَّتْهُمْ</a> أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "أَهَمَّ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 113,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ لَهَمَّت طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكَ وَرَحْمَتُهُۥ <a class=\"highlight-text\">لَهَمَّت</a> طَّآئِفَةٌ مِّنْهُمْ أَن يُضِلُّوكَ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ ۖ وَمَا يَضُرُّونَكَ مِن شَىْءٍ ۚ وَأَنزَلَ ٱللَّهُ عَلَيْكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَعَلَّمَكَ مَا لَمْ تَكُن تَعْلَمُ ۚ وَكَانَ فَضْلُ ٱللَّهِ عَلَيْكَ عَظِيمًا",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 11,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ هَمَّ قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ <a class=\"highlight-text\">هَمَّ</a> قَوْمٌ أَن يَبْسُطُوٓا۟ إِلَيْكُمْ أَيْدِيَهُمْ فَكَفَّ أَيْدِيَهُمْ عَنكُمْ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 13,
+      "text": "أَلَا تُقَٰتِلُونَ قَوْمًا نَّكَثُوٓا۟ أَيْمَٰنَهُمْ وَهَمُّوا۟ بِإِخْرَاجِ ٱلرَّسُولِ وَهُم بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "أَلَا تُقَٰتِلُونَ قَوْمًا نَّكَثُوٓا۟ أَيْمَٰنَهُمْ <a class=\"highlight-text\">وَهَمُّوا۟</a> بِإِخْرَاجِ ٱلرَّسُولِ وَهُم بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 74,
+      "text": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ <a class=\"highlight-text\">وَهَمُّوا۟</a> بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 24,
+      "text": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">هَمَّتْ</a> بِهِۦ ۖ <a class=\"highlight-text\">وَهَمَّ</a> بِهَا لَوْلَآ أَن رَّءَا بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ بُرْهَٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
+      "derivedForms": [
+        "هَمَّ",
+        "هَمَّ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 5,
+      "text": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ وَهَمَّتْ كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَٰدَلُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "highlightedHtml": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ <a class=\"highlight-text\">وَهَمَّتْ</a> كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَٰدَلُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "derivedForms": [
+        "هَمَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:41.636Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "هَمَّت is in the derivative form: هَمَّ",
+    "rootDefinitionHtml": "هـ/م/م   h–m–m sorrow, anxiety, concern, to cause distress; importance, serious matter; errand, assignment; to go about one’s business, to fend for oneself; to intend to do, to be about to do; ability, high capability, highly accomplished and capable person; vermin, pest, reptiles, insects in general; to plot, to have bad designs; murmuring sounds, to melt down. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> هَمَّ hamma 8 times and أَهَمَّ ʾahamma 1 time.",
+    "mainDefinitionHtml": "هَمَّ hamma u [v. intrans] <br><br><strong>1 </strong>to intend, to be on the point of doing <br><br>(5:11) إِذْ هَمَّ قَوْمٌ أَنْ يَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ when a [certain] people were about to raise their hands against you <br><br><strong>2 </strong>[with prep. ﺒ] to plot, to scheme <br><br>(40:5) وَهَمَّتْ كُلُّ أُمَّةٍ بِرَسُولِهِمْ لِيَأْخُذُوهُ each [of these communities] schemed to seize their messenger <br><br><strong>3 </strong>[with prep. ﺒ] to make for, to attempt <br><br>(12:24) وَلَقَدْ هَمَّتْ بِهِ وَهَمَّ بِهَا لَوْلاَ أَنْ رَأَى بُرْهَانَ رَبِّهِ and she made for him, and he would have taken her had he not seen the evidence of his Lord.",
+    "mainEntryId": "wdef-هـ-م-م.هَمَّ",
+    "entries": [
+      {
+        "id": "wdef-هـ-م-م",
+        "label": "هـ-م-م",
+        "definitionHtml": "هـ/م/م   h–m–m sorrow, anxiety, concern, to cause distress; importance, serious matter; errand, assignment; to go about one’s business, to fend for oneself; to intend to do, to be about to do; ability, high capability, highly accomplished and capable person; vermin, pest, reptiles, insects in general; to plot, to have bad designs; murmuring sounds, to melt down. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> هَمَّ hamma 8 times and أَهَمَّ ʾahamma 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-م-م.هَمَّ",
+        "label": "هَمَّ",
+        "definitionHtml": "هَمَّ hamma u [v. intrans] <br><br><strong>1 </strong>to intend, to be on the point of doing <br><br>(5:11) إِذْ هَمَّ قَوْمٌ أَنْ يَبْسُطُوا إِلَيْكُمْ أَيْدِيَهُمْ when a [certain] people were about to raise their hands against you <br><br><strong>2 </strong>[with prep. ﺒ] to plot, to scheme <br><br>(40:5) وَهَمَّتْ كُلُّ أُمَّةٍ بِرَسُولِهِمْ لِيَأْخُذُوهُ each [of these communities] schemed to seize their messenger <br><br><strong>3 </strong>[with prep. ﺒ] to make for, to attempt <br><br>(12:24) وَلَقَدْ هَمَّتْ بِهِ وَهَمَّ بِهَا لَوْلاَ أَنْ رَأَى بُرْهَانَ رَبِّهِ and she made for him, and he would have taken her had he not seen the evidence of his Lord.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-هـ-م-م.أَهَمَّ",
+        "label": "أَهَمَّ",
+        "definitionHtml": "أَهَمَّ ʾahamma [v. IV, trans.] to cause to be mindful, to cause to have concerns, to cause to be anxious <br><br>(3:154) وَطَائِفَةٌ قَدْ أَهَمَّتْهُمْ أَنْفُسُهُمْ يَظُنُّونَ بِاللَّهِ غَيْرَ الْحَقِّ and a group who were concerned [only] for themselves [lit. whose souls caused them concern], thinking of God [thoughts that were] contrary to the truth.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:28.088Z",
+      "refword": "3:122:2",
+      "lexword": "هَمَّت"
+    }
+  }
+}

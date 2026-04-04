@@ -1,0 +1,74 @@
+{
+  "root": "ضمر",
+  "rootArabic": "ضمر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ضَامِرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَامِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 27,
+      "text": "وَأَذِّن فِى ٱلنَّاسِ بِٱلْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ",
+      "highlightedHtml": "وَأَذِّن فِى ٱلنَّاسِ بِٱلْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ <a class=\"highlight-text\">ضَامِرٍ</a> يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ",
+      "derivedForms": [
+        "ضَامِرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:34.335Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite active participle",
+    "derivativeNote": "ضَامِرٍ is in the derivative form: ضَامِرٌ",
+    "rootDefinitionHtml": "ض/م/ر   ḍ–m–r race course, slimming down of horses in preparation for a race or battle, (of the body) to be slender, to be emaciated, to weaken; hidden secrets, to conceal. Of this root, ضَامِرٌ ḍāmir, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ضَامِرٌ ḍāmir [act. part.] emaciated, shrunk, lean <br><br>(22:27) وَأَذِّنْ‏ ‏فِى‏ ‏النَّاسِ‏ ‏بِالْحَجِّ‏ ‏يَأْتُوكَ‏ ‏رِجَالاً‏ ‏وَعَلَى‏ ‏كُلِّ‏ ‏ضَامِرٍ‏‏ proclaim the Pilgrimage to humankind; they will come to you on foot, and on every [kind of] emaciated [mount].",
+    "mainEntryId": "wdef-ض-م-ر.ضَامِرٌ",
+    "entries": [
+      {
+        "id": "wdef-ض-م-ر",
+        "label": "ض-م-ر",
+        "definitionHtml": "ض/م/ر   ḍ–m–r race course, slimming down of horses in preparation for a race or battle, (of the body) to be slender, to be emaciated, to weaken; hidden secrets, to conceal. Of this root, ضَامِرٌ ḍāmir, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-م-ر.ضَامِرٌ",
+        "label": "ضَامِرٌ",
+        "definitionHtml": "ضَامِرٌ ḍāmir [act. part.] emaciated, shrunk, lean <br><br>(22:27) وَأَذِّنْ‏ ‏فِى‏ ‏النَّاسِ‏ ‏بِالْحَجِّ‏ ‏يَأْتُوكَ‏ ‏رِجَالاً‏ ‏وَعَلَى‏ ‏كُلِّ‏ ‏ضَامِرٍ‏‏ proclaim the Pilgrimage to humankind; they will come to you on foot, and on every [kind of] emaciated [mount].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:58.866Z",
+      "refword": "22:27:9",
+      "lexword": "ضَامِرٍ"
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "root": "صبا",
+  "rootArabic": "صبا",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "الصابئون",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الصابئون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الصابئون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الصابئون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 62,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَعَمِلَ صَٰلِحًا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَٰرَىٰ <a class=\"highlight-text\">وَٱلصَّٰبِـِٔينَ</a> مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَعَمِلَ صَٰلِحًا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "derivedForms": [
+        "الصابئون"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 69,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـُٔونَ وَٱلنَّصَٰرَىٰ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَعَمِلَ صَٰلِحًا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ <a class=\"highlight-text\">وَٱلصَّٰبِـُٔونَ</a> وَٱلنَّصَٰرَىٰ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَعَمِلَ صَٰلِحًا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "derivedForms": [
+        "الصابئون"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 17,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ وَٱلصَّٰبِـِٔينَ وَٱلنَّصَٰرَىٰ وَٱلْمَجُوسَ وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَادُوا۟ <a class=\"highlight-text\">وَٱلصَّٰبِـِٔينَ</a> وَٱلنَّصَٰرَىٰ وَٱلْمَجُوسَ وَٱلَّذِينَ أَشْرَكُوٓا۟ إِنَّ ٱللَّهَ يَفْصِلُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
+      "derivedForms": [
+        "الصابئون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:35.248Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "وَٱلصَّٰبِـِٔينَ is in the derivative form: الصابئون",
+    "rootDefinitionHtml": "ص/ب/أ   ṣ–b–ʾ to emerge, to well out, (of the stars) to spring forth, to appear; to renege one’s faith for another faith. Arab philologists derive the form الصابئون ʾal-ṣābiʾūn (which occurs 3 times in the Qur’an) from this root or from the root ص/ب/و ṣ–b–w ‘to incline’. Some western scholars attribute it to a borrowing from Aramaic, Ethiopic or South Arabian. Hughes attributes the word to ‘the Hebrew word tsābā “a host” Gen. ii.1, i.e., “Those who worship the hosts of heaven.”<br>’",
+    "mainDefinitionHtml": "الصابئون ʾal-ṣābiʾūn, [pl. of n. صابئ ṣābiʾ] the Sabians, a group of believers who are variously described in the Arabic sources as worshipping the stars secretly but openly professing themselves to belong to the son of Seth (the Christians; followers of the religion of ∑orā bı Seth), the son of Adam; followers of the religion of Noah, so-called, son of a brother of Noah <br><br>(5:69) after ∑ābıإِنَّ الَّذِينَ ءَامَنُوا وَالَّذِينَ هَادُوا وَالصَّابِئُونَ وَالنَّصَارَى مَنْ ءَامَنَ بِاللَّهِ وَالْيَوْمِ الآخِرِ وَعَمِلَ صَالِحًا فَلاَ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ those who believe [the Muslims], those who follow Judaism, the Sabians, and the Christians–those who believe in God and the Last Day and do good deeds–will have nothing to fear or to regret. There is confusion in the sources as to the beliefs and identity of these people and also as indicated above, to the root from which the name Ṣābiʾ is derived. They are variously described as followers of the religion of Noah; of a religion mid-way between Judaism and Christianity; of the religion of Ṣābi, son of Seth, son of Adam; worshippers of the stars; worshippers of the moon or worshippers of the angels. They are also said to be openly professing to be Christians when in fact secretly worshipping the stars. ʾibn ˘azm describes them as those who deny the prophethood of Abraham. Of the identity of these people Asad says, ‘The Sabians seem to be a monotheistic religious group, intermediate between Judaism and Christianity. Their name (probably derived from the Aramaic verb tseeba “he immersed himself [in water]”) would indicate that they were followers of John the Baptist–in which case they could be identified with the Madaean, a community which to this day is to be found in Iraq. They are not to be confused with the so-called “Sabians of Harran”, a gnostic sect which still existed in the early centuries of Islam, and which may have deliberately adopted the name of the true Sabians in order to obtain the advantages accorded by the Muslims to the followers of every monontheistic faith.’ The Qur’an puts the Sabians on a par with the Muslims, the Jews and Christians in that <br><br>(2:262) whoever of them believe in God and do good work will have their rewards with their Lord; there will be no fear for them, nor will they grieve.",
+    "mainEntryId": "wdef-ص-ب-أ.الصابئون",
+    "entries": [
+      {
+        "id": "wdef-ص-ب-أ",
+        "label": "ص-ب-أ",
+        "definitionHtml": "ص/ب/أ   ṣ–b–ʾ to emerge, to well out, (of the stars) to spring forth, to appear; to renege one’s faith for another faith. Arab philologists derive the form الصابئون ʾal-ṣābiʾūn (which occurs 3 times in the Qur’an) from this root or from the root ص/ب/و ṣ–b–w ‘to incline’. Some western scholars attribute it to a borrowing from Aramaic, Ethiopic or South Arabian. Hughes attributes the word to ‘the Hebrew word tsābā “a host” Gen. ii.1, i.e., “Those who worship the hosts of heaven.”<br>’",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ب-أ.الصابئون",
+        "label": "الصابئون",
+        "definitionHtml": "الصابئون ʾal-ṣābiʾūn, [pl. of n. صابئ ṣābiʾ] the Sabians, a group of believers who are variously described in the Arabic sources as worshipping the stars secretly but openly professing themselves to belong to the son of Seth (the Christians; followers of the religion of ∑orā bı Seth), the son of Adam; followers of the religion of Noah, so-called, son of a brother of Noah <br><br>(5:69) after ∑ābıإِنَّ الَّذِينَ ءَامَنُوا وَالَّذِينَ هَادُوا وَالصَّابِئُونَ وَالنَّصَارَى مَنْ ءَامَنَ بِاللَّهِ وَالْيَوْمِ الآخِرِ وَعَمِلَ صَالِحًا فَلاَ خَوْفٌ عَلَيْهِمْ وَلاَ هُمْ يَحْزَنُونَ those who believe [the Muslims], those who follow Judaism, the Sabians, and the Christians–those who believe in God and the Last Day and do good deeds–will have nothing to fear or to regret. There is confusion in the sources as to the beliefs and identity of these people and also as indicated above, to the root from which the name Ṣābiʾ is derived. They are variously described as followers of the religion of Noah; of a religion mid-way between Judaism and Christianity; of the religion of Ṣābi, son of Seth, son of Adam; worshippers of the stars; worshippers of the moon or worshippers of the angels. They are also said to be openly professing to be Christians when in fact secretly worshipping the stars. ʾibn ˘azm describes them as those who deny the prophethood of Abraham. Of the identity of these people Asad says, ‘The Sabians seem to be a monotheistic religious group, intermediate between Judaism and Christianity. Their name (probably derived from the Aramaic verb tseeba “he immersed himself [in water]”) would indicate that they were followers of John the Baptist–in which case they could be identified with the Madaean, a community which to this day is to be found in Iraq. They are not to be confused with the so-called “Sabians of Harran”, a gnostic sect which still existed in the early centuries of Islam, and which may have deliberately adopted the name of the true Sabians in order to obtain the advantages accorded by the Muslims to the followers of every monontheistic faith.’ The Qur’an puts the Sabians on a par with the Muslims, the Jews and Christians in that <br><br>(2:262) whoever of them believe in God and do good work will have their rewards with their Lord; there will be no fear for them, nor will they grieve.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:12.316Z",
+      "refword": "2:62:7",
+      "lexword": "وَٱلصَّٰبِـِٔينَ"
+    }
+  }
+}

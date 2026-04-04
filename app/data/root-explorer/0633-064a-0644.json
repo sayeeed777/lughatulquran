@@ -1,0 +1,137 @@
+{
+  "root": "سيل",
+  "rootArabic": "سيل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "سَيل",
+      "count": 2
+    },
+    {
+      "form": "أسالَ",
+      "count": 1
+    },
+    {
+      "form": "سالَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سالَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "سَيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسالَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "سَيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 13,
+      "ayah": 17,
+      "text": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا رَّابِيًا ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "highlightedHtml": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً <a class=\"highlight-text\">فَسَالَتْ</a> أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ <a class=\"highlight-text\">ٱلسَّيْلُ</a> زَبَدًا رَّابِيًا ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "derivedForms": [
+        "سالَ",
+        "سَيل"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 12,
+      "text": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ <a class=\"highlight-text\">وَأَسَلْنَا</a> لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
+      "derivedForms": [
+        "أسالَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 16,
+      "text": "فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ ٱلْعَرِمِ وَبَدَّلْنَٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَىْءٍ مِّن سِدْرٍ قَلِيلٍ",
+      "highlightedHtml": "فَأَعْرَضُوا۟ فَأَرْسَلْنَا عَلَيْهِمْ <a class=\"highlight-text\">سَيْلَ</a> ٱلْعَرِمِ وَبَدَّلْنَٰهُم بِجَنَّتَيْهِمْ جَنَّتَيْنِ ذَوَاتَىْ أُكُلٍ خَمْطٍ وَأَثْلٍ وَشَىْءٍ مِّن سِدْرٍ قَلِيلٍ",
+      "derivedForms": [
+        "سَيل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:50.588Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "فَسَالَتْ is in the derivative form: سالَ",
+    "rootDefinitionHtml": "س/ى/ل s–y–l to flow, torrent, flooding, flowing, inundation, to melt. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سالَ sāla 1 time;أسالَ ʾasāla 1 time and سَيل sayl 2 times.",
+    "mainDefinitionHtml": "سالَ sāla ı [v. intrans.] (of water) to flow, (of the ground) to run with water. <br><br>(13:17) أَنْزَلَ مِنَ السَّمَاءِ مَاءً فَسَالَتْ أَوْدِيَةٌ بِقَدَرِهَا He sends from the sky water, so valleys flow, each according to its capacity.",
+    "mainEntryId": "wdef-س-ى-ل.سالَ",
+    "entries": [
+      {
+        "id": "wdef-س-ى-ل",
+        "label": "س-ى-ل",
+        "definitionHtml": "س/ى/ل s–y–l to flow, torrent, flooding, flowing, inundation, to melt. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سالَ sāla 1 time;أسالَ ʾasāla 1 time and سَيل sayl 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ى-ل.سالَ",
+        "label": "سالَ",
+        "definitionHtml": "سالَ sāla ı [v. intrans.] (of water) to flow, (of the ground) to run with water. <br><br>(13:17) أَنْزَلَ مِنَ السَّمَاءِ مَاءً فَسَالَتْ أَوْدِيَةٌ بِقَدَرِهَا He sends from the sky water, so valleys flow, each according to its capacity.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ى-ل.أسالَ",
+        "label": "أسالَ",
+        "definitionHtml": "أسالَ ʾasāla [v. IV, trans.] to cause to flow, to melt down <br><br>(34:12) وَأَسَلْنَا لَهُ عَيْنَ الْقِطْرِ and We caused the spring of brass to run liquid for him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ى-ل.سَيل",
+        "label": "سَيل",
+        "definitionHtml": "سَيل sayl [n.] torrent, inundation * سَيل العَرْم an inundation which caused the bursting of the dyke and destruction of the city of Maʿrib, Saba, in the first or second century A.D. <br><br>(34:16) فَأَعْرَضُوا فَأَرْسَلْنَا عَلَيْهِمْ سَيْلَ الْعَرِمِ but they turned away, so We let loose on them a flooding of the ʿiram dam.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:45.156Z",
+      "refword": "13:17:5",
+      "lexword": "فَسَالَتْ"
+    }
+  }
+}

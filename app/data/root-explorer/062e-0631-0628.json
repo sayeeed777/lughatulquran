@@ -1,0 +1,106 @@
+{
+  "root": "خرب",
+  "rootArabic": "خرب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "خَرَابٌ",
+      "count": 1
+    },
+    {
+      "form": "يُخْرِبُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَرَابٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُخْرِبُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 114,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى <a class=\"highlight-text\">خَرَابِهَآ</a> ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "خَرَابٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ <a class=\"highlight-text\">يُخْرِبُونَ</a> بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "يُخْرِبُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:07.244Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "خَرَابِهَآ is in the derivative form: خَرَابٌ",
+    "rootDefinitionHtml": "خ/ر/ب   kh–r–b to pull down, to lay waste, to level, to destroy, to ruin; ruins; to desert, to neglect; to pierce. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُخْرِبُ yukhrib (also read as يُخَرِّبُ yukharrib) and خَرَابٌ kharāb.",
+    "mainDefinitionHtml": "خَرَابٌ kharāb [v. n.] laying to waste, destruction, demolition, desertion, abandonment <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more wicked than those who prohibit the mention of God’s name in His places of worship and strive for their destruction (or, desertion)?!",
+    "mainEntryId": "wdef-خ-ر-ب.خَرَابٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ر-ب",
+        "label": "خ-ر-ب",
+        "definitionHtml": "خ/ر/ب   kh–r–b to pull down, to lay waste, to level, to destroy, to ruin; ruins; to desert, to neglect; to pierce. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُخْرِبُ yukhrib (also read as يُخَرِّبُ yukharrib) and خَرَابٌ kharāb.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ر-ب.خَرَابٌ",
+        "label": "خَرَابٌ",
+        "definitionHtml": "خَرَابٌ kharāb [v. n.] laying to waste, destruction, demolition, desertion, abandonment <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more wicked than those who prohibit the mention of God’s name in His places of worship and strive for their destruction (or, desertion)?!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ر-ب.يُخْرِبُ",
+        "label": "يُخْرِبُ",
+        "definitionHtml": "يُخْرِبُ yukhrib [imperf. of v. IV أَخْرَبَ ʾakhraba, trans (variant reading يُخَرِّبُ yukharrib, imperf. of v. II خَرَّبَ kharraba, trans.] to lay waste, to ruin, to destroy (variant to desert, to abandon) <br><br>(59:2) يُخْرِبُونَ بُيُوتَهُمْ بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ destroying their homes with their own hands and the hands of the believers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:39.650Z",
+      "refword": "2:114:13",
+      "lexword": "خَرَابِهَآ"
+    }
+  }
+}

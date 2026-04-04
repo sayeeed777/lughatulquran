@@ -1,0 +1,95 @@
+{
+  "root": "لقط",
+  "rootArabic": "لقط",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اِلْتَقَطَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْتَقَطَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْتَقَطَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 10,
+      "text": "قَالَ قَآئِلٌ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ يَلْتَقِطْهُ بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ",
+      "highlightedHtml": "قَالَ قَآئِلٌ مِّنْهُمْ لَا تَقْتُلُوا۟ يُوسُفَ وَأَلْقُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ <a class=\"highlight-text\">يَلْتَقِطْهُ</a> بَعْضُ ٱلسَّيَّارَةِ إِن كُنتُمْ فَٰعِلِينَ",
+      "derivedForms": [
+        "اِلْتَقَطَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 8,
+      "text": "فَٱلْتَقَطَهُۥٓ آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا ۗ إِنَّ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا كَانُوا۟ خَٰطِـِٔينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلْتَقَطَهُۥٓ</a> آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا ۗ إِنَّ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا كَانُوا۟ خَٰطِـِٔينَ",
+      "derivedForms": [
+        "اِلْتَقَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:40.920Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VIII) imperfect verb, jussive mood",
+    "derivativeNote": "يَلْتَقِطْهُ is in the derivative form: اِلْتَقَطَ",
+    "rootDefinitionHtml": "ل/ق/ط   l–q–ṭ to pick up from the ground, to collect, to glean; a find, a foundling; windfalls. Of this root,اِلْتَقَطَ ʾiltaqaṭa occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "اِلْتَقَطَ ʾiltaqaṭa [v. VIII trans.] to pick up, to take in <br><br>(28:8) فَالْتَقَطَهُ‏ ‏ءَالُ‏ ‏فِرْعَوْنَ لِيَكُونَ لَهُمْ‏ ‏عَدُوًّا‏ ‏وَحَزَنًا so the family of Pharaoh took him in [only for him] to become for them an enemy and a source of grief.",
+    "mainEntryId": "wdef-ل-ق-ط.اِلْتَقَطَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ق-ط",
+        "label": "ل-ق-ط",
+        "definitionHtml": "ل/ق/ط   l–q–ṭ to pick up from the ground, to collect, to glean; a find, a foundling; windfalls. Of this root,اِلْتَقَطَ ʾiltaqaṭa occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ق-ط.اِلْتَقَطَ",
+        "label": "اِلْتَقَطَ",
+        "definitionHtml": "اِلْتَقَطَ ʾiltaqaṭa [v. VIII trans.] to pick up, to take in <br><br>(28:8) فَالْتَقَطَهُ‏ ‏ءَالُ‏ ‏فِرْعَوْنَ لِيَكُونَ لَهُمْ‏ ‏عَدُوًّا‏ ‏وَحَزَنًا so the family of Pharaoh took him in [only for him] to become for them an enemy and a source of grief.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:42.286Z",
+      "refword": "12:10:11",
+      "lexword": "يَلْتَقِطْهُ"
+    }
+  }
+}

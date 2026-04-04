@@ -1,0 +1,74 @@
+{
+  "root": "سكب",
+  "rootArabic": "سكب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَسْكوب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْكوب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 56,
+      "ayah": 31,
+      "text": "وَمَآءٍ مَّسْكُوبٍ",
+      "highlightedHtml": "وَمَآءٍ <a class=\"highlight-text\">مَّسْكُوبٍ</a>",
+      "derivedForms": [
+        "مَسْكوب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:10.285Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite passive participle",
+    "derivativeNote": "مَّسْكُوبٍ is in the derivative form: مَسْكوب",
+    "rootDefinitionHtml": "س/ك/ب s–k–b pouring out of liquid, flowing forth. Of this root, onlyمَسْكوب maskūb occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَسْكوب maskūb [pass. part.] poured out, made to flow <br><br>(56:31) وَمَاءٍ مَسْكُوبٍ and water made to flow.",
+    "mainEntryId": "wdef-س-ك-ب.مَسْكوب",
+    "entries": [
+      {
+        "id": "wdef-س-ك-ب",
+        "label": "س-ك-ب",
+        "definitionHtml": "س/ك/ب s–k–b pouring out of liquid, flowing forth. Of this root, onlyمَسْكوب maskūb occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ك-ب.مَسْكوب",
+        "label": "مَسْكوب",
+        "definitionHtml": "مَسْكوب maskūb [pass. part.] poured out, made to flow <br><br>(56:31) وَمَاءٍ مَسْكُوبٍ and water made to flow.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:26.887Z",
+      "refword": "56:31:2",
+      "lexword": "مَّسْكُوبٍ"
+    }
+  }
+}

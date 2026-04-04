@@ -1,0 +1,458 @@
+{
+  "root": "صنع",
+  "rootArabic": "صنع",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 6,
+    "surahCount": 14,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "صَنَعَ",
+      "count": 14
+    },
+    {
+      "form": "صُنْع",
+      "count": 2
+    },
+    {
+      "form": "اصْطَنَع",
+      "count": 1
+    },
+    {
+      "form": "تُصْنَع",
+      "count": 1
+    },
+    {
+      "form": "صَنْعَة",
+      "count": 1
+    },
+    {
+      "form": "مَصَانِع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 2,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 3,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُنْع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "اصْطَنَع",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "تُصْنَع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنْعَة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَصَانِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُنْع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَنَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 14,
+      "text": "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰٓ أَخَذْنَا مِيثَٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ فَأَغْرَيْنَا بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰٓ أَخَذْنَا مِيثَٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ فَأَغْرَيْنَا بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ <a class=\"highlight-text\">يَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 63,
+      "text": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ <a class=\"highlight-text\">يَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 137,
+      "text": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
+      "highlightedHtml": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَٰرِقَ ٱلْأَرْضِ وَمَغَٰرِبَهَا ٱلَّتِى بَٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ <a class=\"highlight-text\">يَصْنَعُ</a> فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 16,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى الْآخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا صَنَعُوا۟ فِيهَا وَبَٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ لَيْسَ لَهُمْ فِى الْآخِرَةِ إِلَّا ٱلنَّارُ ۖ وَحَبِطَ مَا <a class=\"highlight-text\">صَنَعُوا۟</a> فِيهَا وَبَٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 37,
+      "text": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱصْنَعِ</a> ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 38,
+      "text": "وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيَصْنَعُ</a> ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 31,
+      "text": "وَلَوْ أَنَّ قُرْءَانًا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ ۗ بَل لِّلَّهِ ٱلْأَمْرُ جَمِيعًا ۗ أَفَلَمْ يَا۟يْـَٔسِ ٱلَّذِينَ آمَنُوا أَن لَّوْ يَشَآءُ ٱللَّهُ لَهَدَى ٱلنَّاسَ جَمِيعًا ۗ وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ تُصِيبُهُم بِمَا صَنَعُوا۟ قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًا مِّن دَارِهِمْ حَتَّىٰ يَأْتِىَ وَعْدُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+      "highlightedHtml": "وَلَوْ أَنَّ قُرْءَانًا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ ۗ بَل لِّلَّهِ ٱلْأَمْرُ جَمِيعًا ۗ أَفَلَمْ يَا۟يْـَٔسِ ٱلَّذِينَ آمَنُوا أَن لَّوْ يَشَآءُ ٱللَّهُ لَهَدَى ٱلنَّاسَ جَمِيعًا ۗ وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ تُصِيبُهُم بِمَا <a class=\"highlight-text\">صَنَعُوا۟</a> قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًا مِّن دَارِهِمْ حَتَّىٰ يَأْتِىَ وَعْدُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 112,
+      "text": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ <a class=\"highlight-text\">يَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 104,
+      "text": "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+      "highlightedHtml": "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ <a class=\"highlight-text\">صُنْعًا</a>",
+      "derivedForms": [
+        "صُنْع"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 39,
+      "text": "أَنِ ٱقْذِفِيهِ فِى ٱلتَّابُوتِ فَٱقْذِفِيهِ فِى ٱلْيَمِّ فَلْيُلْقِهِ ٱلْيَمُّ بِٱلسَّاحِلِ يَأْخُذْهُ عَدُوٌّ لِّى وَعَدُوٌّ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةً مِّنِّى وَلِتُصْنَعَ عَلَىٰ عَيْنِىٓ",
+      "highlightedHtml": "أَنِ ٱقْذِفِيهِ فِى ٱلتَّابُوتِ فَٱقْذِفِيهِ فِى ٱلْيَمِّ فَلْيُلْقِهِ ٱلْيَمُّ بِٱلسَّاحِلِ يَأْخُذْهُ عَدُوٌّ لِّى وَعَدُوٌّ لَّهُۥ ۚ وَأَلْقَيْتُ عَلَيْكَ مَحَبَّةً مِّنِّى <a class=\"highlight-text\">وَلِتُصْنَعَ</a> عَلَىٰ عَيْنِىٓ",
+      "derivedForms": [
+        "تُصْنَع"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 41,
+      "text": "وَٱصْطَنَعْتُكَ لِنَفْسِى",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱصْطَنَعْتُكَ</a> لِنَفْسِى",
+      "derivedForms": [
+        "اصْطَنَع"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 69,
+      "text": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "highlightedHtml": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا <a class=\"highlight-text\">صَنَعُوٓا۟</a> ۖ إِنَّمَا <a class=\"highlight-text\">صَنَعُوا۟</a> كَيْدُ سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "derivedForms": [
+        "صَنَعَ",
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 80,
+      "text": "وَعَلَّمْنَٰهُ صَنْعَةَ لَبُوسٍ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَٰكِرُونَ",
+      "highlightedHtml": "وَعَلَّمْنَٰهُ <a class=\"highlight-text\">صَنْعَةَ</a> لَبُوسٍ لَّكُمْ لِتُحْصِنَكُم مِّنۢ بَأْسِكُمْ ۖ فَهَلْ أَنتُمْ شَٰكِرُونَ",
+      "derivedForms": [
+        "صَنْعَة"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 27,
+      "text": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ <a class=\"highlight-text\">ٱصْنَعِ</a> ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 30,
+      "text": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+      "highlightedHtml": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا <a class=\"highlight-text\">يَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 129,
+      "text": "وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ",
+      "highlightedHtml": "وَتَتَّخِذُونَ <a class=\"highlight-text\">مَصَانِعَ</a> لَعَلَّكُمْ تَخْلُدُونَ",
+      "derivedForms": [
+        "مَصَانِع"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 88,
+      "text": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ صُنْعَ ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "highlightedHtml": "وَتَرَى ٱلْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِىَ تَمُرُّ مَرَّ ٱلسَّحَابِ ۚ <a class=\"highlight-text\">صُنْعَ</a> ٱللَّهِ ٱلَّذِىٓ أَتْقَنَ كُلَّ شَىْءٍ ۚ إِنَّهُۥ خَبِيرٌۢ بِمَا تَفْعَلُونَ",
+      "derivedForms": [
+        "صُنْع"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 45,
+      "text": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "highlightedHtml": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا <a class=\"highlight-text\">تَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 8,
+      "text": "أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا يَصْنَعُونَ",
+      "highlightedHtml": "أَفَمَن زُيِّنَ لَهُۥ سُوٓءُ عَمَلِهِۦ فَرَءَاهُ حَسَنًا ۖ فَإِنَّ ٱللَّهَ يُضِلُّ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۖ فَلَا تَذْهَبْ نَفْسُكَ عَلَيْهِمْ حَسَرَٰتٍ ۚ إِنَّ ٱللَّهَ عَلِيمٌۢ بِمَا <a class=\"highlight-text\">يَصْنَعُونَ</a>",
+      "derivedForms": [
+        "صَنَعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:16.158Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَصْنَعُونَ is in the derivative form: صَنَعَ",
+    "rootDefinitionHtml": "ص/ن/ع   ṣ–n–ʿ to look after, to groom, to do, to commit<br>; to make, to fashion, to build, to produce, to manufacture; to be dextrous; to take for oneself; place where rainwater gathers. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> صَنَعَ ṣanaʿa 14 times; تُصْنَع tuṣnaʿ 1 time; اصْطَنَع ʾiṣṭanaʿa 1 time; صُنْع ṣunʿ 2 times; صَنْعَة ṣanʿatun 1 time and مَصَانِع maṣāniʿ 1 time.",
+    "mainDefinitionHtml": "صَنَعَ ṣanaʿa a [v. trans.] <br><br><strong>1 </strong>to make, to contrive, to produce, to manufacture <br><br>(20:69) وَأَلْقِ‏ ‏مَا‏ ‏فِي‏ ‏يَمِينِكَ‏ ‏تَلْقَفْ‏ ‏مَا صَنَعُوا‏‏throw down what is in your right hand–it will swallow up what they have produced <br><br><strong>2 </strong>to build <br><br>(11:38) وَيَصْنَعُ الْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلأٌَ مِنْ قَوْمِهِ سَخِرُوا مِنْهُ so he [began to] build the ark, and [while he was building it] whenever a party of his people passed by him, they made fun of him <br><br><strong>3 </strong>to do, to commit <br><br>(5:63) لَوْلاَ يَنْهَاهُمُ الرَّبَّانِيُّونَ وَالأَحْبَارُ عَنْ قَوْلِهِمُ الإِثْمَ وَأَكْلِهِمُ السُّحْتَ لَبِئْسَ مَا كَانُوا يَصْنَعُونَ if only the rabbis and scholars had forbidden them to speak words of sin and consumption of what is unlawful?, How evil is what they do!",
+    "mainEntryId": "wdef-ص-ن-ع.صَنَعَ",
+    "entries": [
+      {
+        "id": "wdef-ص-ن-ع",
+        "label": "ص-ن-ع",
+        "definitionHtml": "ص/ن/ع   ṣ–n–ʿ to look after, to groom, to do, to commit<br>; to make, to fashion, to build, to produce, to manufacture; to be dextrous; to take for oneself; place where rainwater gathers. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> صَنَعَ ṣanaʿa 14 times; تُصْنَع tuṣnaʿ 1 time; اصْطَنَع ʾiṣṭanaʿa 1 time; صُنْع ṣunʿ 2 times; صَنْعَة ṣanʿatun 1 time and مَصَانِع maṣāniʿ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ن-ع.صَنَعَ",
+        "label": "صَنَعَ",
+        "definitionHtml": "صَنَعَ ṣanaʿa a [v. trans.] <br><br><strong>1 </strong>to make, to contrive, to produce, to manufacture <br><br>(20:69) وَأَلْقِ‏ ‏مَا‏ ‏فِي‏ ‏يَمِينِكَ‏ ‏تَلْقَفْ‏ ‏مَا صَنَعُوا‏‏throw down what is in your right hand–it will swallow up what they have produced <br><br><strong>2 </strong>to build <br><br>(11:38) وَيَصْنَعُ الْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلأٌَ مِنْ قَوْمِهِ سَخِرُوا مِنْهُ so he [began to] build the ark, and [while he was building it] whenever a party of his people passed by him, they made fun of him <br><br><strong>3 </strong>to do, to commit <br><br>(5:63) لَوْلاَ يَنْهَاهُمُ الرَّبَّانِيُّونَ وَالأَحْبَارُ عَنْ قَوْلِهِمُ الإِثْمَ وَأَكْلِهِمُ السُّحْتَ لَبِئْسَ مَا كَانُوا يَصْنَعُونَ if only the rabbis and scholars had forbidden them to speak words of sin and consumption of what is unlawful?, How evil is what they do!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ن-ع.اصْطَنَع",
+        "label": "اصْطَنَع",
+        "definitionHtml": "اصْطَنَع ʾiṣṭanaʿa [v. VIII, trans.] to make [in accordance] to one’s design, to take as a protégé, to select for a very special purpose <br><br>(20:41) وَاصْطَنَعْتُكَ لِنَفْسِي I have made you (or, I have reared you) for a purpose of My own.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ن-ع.تُصْنَع",
+        "label": "تُصْنَع",
+        "definitionHtml": "تُصْنَع tuṣnaʿ [pass. v.] to be reared, to be brought up, to be prepared <br><br>(20:39) وَلِتُصْنَعَ عَلَى عَيْنِي and that you should be reared under My eye.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ن-ع.صَنْعَة",
+        "label": "صَنْعَة",
+        "definitionHtml": "صَنْعَة ṣanʿatun [n.] a skill, an art, a craft, a trade <br><br>(21:80) وَعَلَّمْنَاهُ صَنْعَةَ لَبُوسٍ لَكُمْ We taught him the craft of making coats [of mail] for you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ن-ع.صُنْع",
+        "label": "صُنْع",
+        "definitionHtml": "صُنْع ṣunʿ [v. n.] making, doing, handiwork <br><br>(27:88) وَتَرَى الْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ and you will see the mountains, deeming them standing still, when [in fact] they are passing by like the passing of clouds–[this is] the handiwork of God, who has perfected all things.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ن-ع.مَصَانِع",
+        "label": "مَصَانِع",
+        "definitionHtml": "مَصَانِع maṣāʿni [pl. of n. of place/v. n./n. مَصْنَع maṣnaʿ] artefacts (the commentators suggest: fortresses, palaces and water supply systems) <br><br>(26:129) وَتَتَّخِذُونَ مَصَانِعَ لَعَلَّكُمْ تَخْلُدُونَ and you build for yourselves fortresses, [thinking/hoping/presuming] that you will remain/live for ever.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:27.797Z",
+      "refword": "5:14:25",
+      "lexword": "يَصْنَعُونَ"
+    }
+  }
+}

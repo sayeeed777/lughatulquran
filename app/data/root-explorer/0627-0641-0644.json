@@ -1,0 +1,109 @@
+{
+  "root": "افل",
+  "rootArabic": "افل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "أَفَلَ",
+      "count": 3
+    },
+    {
+      "form": "آفِلِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَفَلَ",
+          "count": 3,
+          "totalInQuran": 3
+        },
+        {
+          "form": "آفِلِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 76,
+      "text": "فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًا ۖ قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَآ أُحِبُّ ٱلْءَافِلِينَ",
+      "highlightedHtml": "فَلَمَّا جَنَّ عَلَيْهِ ٱلَّيْلُ رَءَا كَوْكَبًا ۖ قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ <a class=\"highlight-text\">أَفَلَ</a> قَالَ لَآ أُحِبُّ <a class=\"highlight-text\">ٱلْءَافِلِينَ</a>",
+      "derivedForms": [
+        "أَفَلَ",
+        "آفِلِين"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 77,
+      "text": "فَلَمَّا رَءَا ٱلْقَمَرَ بَازِغًا قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ",
+      "highlightedHtml": "فَلَمَّا رَءَا ٱلْقَمَرَ بَازِغًا قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ <a class=\"highlight-text\">أَفَلَ</a> قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ",
+      "derivedForms": [
+        "أَفَلَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 78,
+      "text": "فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةً قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "highlightedHtml": "فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةً قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ <a class=\"highlight-text\">أَفَلَتْ</a> قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "derivedForms": [
+        "أَفَلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:37.729Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "أَفَلَ is in the derivative form: أَفَلَ",
+    "rootDefinitionHtml": "أ/ف/ل ʾ–f–l (of a female’s milk) to decrease; (of planets and stars) to set; to be absent or go away from. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> أَفَلَ ʾafala 3 times and آفِلِين ʾāfilīn 1 time.",
+    "mainDefinitionHtml": "أَفَلَ ʾafala u [v. intrans.] to set <br><br>(6:78) فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً قَالَ هَذَا رَبِّي هَذَا أَكْبَرُ فَلَمَّا أَفَلَتْ قَالَ يَاقَوْمِ إِنِّي بَرِيءٌ مِمَّا تُشْرِكُونَ then when he saw the sun rising he cried, ‘This is my Lord! This is greater’, but when the sun set, he said, ‘My people, I disown all that you associate [with Him].’",
+    "mainEntryId": "wdef-أ-ف-ل.أَفَلَ",
+    "entries": [
+      {
+        "id": "wdef-أ-ف-ل",
+        "label": "أ-ف-ل",
+        "definitionHtml": "أ/ف/ل ʾ–f–l (of a female’s milk) to decrease; (of planets and stars) to set; to be absent or go away from. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> أَفَلَ ʾafala 3 times and آفِلِين ʾāfilīn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ف-ل.أَفَلَ",
+        "label": "أَفَلَ",
+        "definitionHtml": "أَفَلَ ʾafala u [v. intrans.] to set <br><br>(6:78) فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً قَالَ هَذَا رَبِّي هَذَا أَكْبَرُ فَلَمَّا أَفَلَتْ قَالَ يَاقَوْمِ إِنِّي بَرِيءٌ مِمَّا تُشْرِكُونَ then when he saw the sun rising he cried, ‘This is my Lord! This is greater’, but when the sun set, he said, ‘My people, I disown all that you associate [with Him].’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ف-ل.آفِلِين",
+        "label": "آفِلِين",
+        "definitionHtml": "آفِلِين ʾāfilīn [pl. of act. part. آفِلٌ ʾāfil] that which sets <br><br>(6:76) فَلَمَّا جَنَّ عَلَيْهِ اللَّيْلُ رَأَى كَوْكَبًا قَالَ هَذَا رَبِّي فَلَمَّا أَفَلَ قَالَ لاَ أُحِبُّ الآفِلِينَ when the night grew dark over him he saw a star and said, ‘This is my Lord,’ but when it set, he said, ‘I do not like things that set.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:24.406Z",
+      "refword": "6:76:11",
+      "lexword": "أَفَلَ"
+    }
+  }
+}

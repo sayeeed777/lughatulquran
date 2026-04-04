@@ -1,0 +1,403 @@
+{
+  "root": "سوق",
+  "rootArabic": "سوق",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 5,
+    "surahCount": 13,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "ساقَ",
+      "count": 7
+    },
+    {
+      "form": "أسْواق",
+      "count": 4
+    },
+    {
+      "form": "ساق",
+      "count": 4
+    },
+    {
+      "form": "سائق",
+      "count": 1
+    },
+    {
+      "form": "مَساق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسْواق",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْواق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ساقَ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْواق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سائق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ساق",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مَساق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 57,
+      "text": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا سُقْنَٰهُ لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُرْسِلُ ٱلرِّيَٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦ ۖ حَتَّىٰٓ إِذَآ أَقَلَّتْ سَحَابًا ثِقَالًا <a class=\"highlight-text\">سُقْنَٰهُ</a> لِبَلَدٍ مَّيِّتٍ فَأَنزَلْنَا بِهِ ٱلْمَآءَ فَأَخْرَجْنَا بِهِۦ مِن كُلِّ ٱلثَّمَرَٰتِ ۚ كَذَٰلِكَ نُخْرِجُ ٱلْمَوْتَىٰ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 6,
+      "text": "يُجَٰدِلُونَكَ فِى ٱلْحَقِّ بَعْدَمَا تَبَيَّنَ كَأَنَّمَا يُسَاقُونَ إِلَى ٱلْمَوْتِ وَهُمْ يَنظُرُونَ",
+      "highlightedHtml": "يُجَٰدِلُونَكَ فِى ٱلْحَقِّ بَعْدَمَا تَبَيَّنَ كَأَنَّمَا <a class=\"highlight-text\">يُسَاقُونَ</a> إِلَى ٱلْمَوْتِ وَهُمْ يَنظُرُونَ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 86,
+      "text": "وَنَسُوقُ ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنَسُوقُ</a> ٱلْمُجْرِمِينَ إِلَىٰ جَهَنَّمَ وِرْدًا",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 7,
+      "text": "وَقَالُوا۟ مَالِ هَٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى ٱلْأَسْوَاقِ ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا",
+      "highlightedHtml": "وَقَالُوا۟ مَالِ هَٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى <a class=\"highlight-text\">ٱلْأَسْوَاقِ</a> ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا",
+      "derivedForms": [
+        "أسْواق"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 20,
+      "text": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ وَيَمْشُونَ فِى ٱلْأَسْوَاقِ ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ وَيَمْشُونَ فِى <a class=\"highlight-text\">ٱلْأَسْوَاقِ</a> ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا",
+      "derivedForms": [
+        "أسْواق"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 44,
+      "text": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن <a class=\"highlight-text\">سَاقَيْهَا</a> ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "ساق"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 27,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّا نَسُوقُ ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًا تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّا <a class=\"highlight-text\">نَسُوقُ</a> ٱلْمَآءَ إِلَى ٱلْأَرْضِ ٱلْجُرُزِ فَنُخْرِجُ بِهِۦ زَرْعًا تَأْكُلُ مِنْهُ أَنْعَٰمُهُمْ وَأَنفُسُهُمْ ۖ أَفَلَا يُبْصِرُونَ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 9,
+      "text": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًا فَسُقْنَٰهُ إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ كَذَٰلِكَ ٱلنُّشُورُ",
+      "highlightedHtml": "وَٱللَّهُ ٱلَّذِىٓ أَرْسَلَ ٱلرِّيَٰحَ فَتُثِيرُ سَحَابًا <a class=\"highlight-text\">فَسُقْنَٰهُ</a> إِلَىٰ بَلَدٍ مَّيِّتٍ فَأَحْيَيْنَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا ۚ كَذَٰلِكَ ٱلنُّشُورُ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 33,
+      "text": "رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ",
+      "highlightedHtml": "رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ مَسْحًۢا <a class=\"highlight-text\">بِٱلسُّوقِ</a> وَٱلْأَعْنَاقِ",
+      "derivedForms": [
+        "أسْواق"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 71,
+      "text": "وَسِيقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا فُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ آيَاتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَسِيقَ</a> ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا فُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ آيَاتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 73,
+      "text": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَسِيقَ</a> ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ",
+      "derivedForms": [
+        "ساقَ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ <a class=\"highlight-text\">سُوقِهِۦ</a> يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "أسْواق"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 21,
+      "text": "وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا سَآئِقٌ وَشَهِيدٌ",
+      "highlightedHtml": "وَجَآءَتْ كُلُّ نَفْسٍ مَّعَهَا <a class=\"highlight-text\">سَآئِقٌ</a> وَشَهِيدٌ",
+      "derivedForms": [
+        "سائق"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 42,
+      "text": "يَوْمَ يُكْشَفُ عَن سَاقٍ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+      "highlightedHtml": "يَوْمَ يُكْشَفُ عَن <a class=\"highlight-text\">سَاقٍ</a> وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+      "derivedForms": [
+        "ساق"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 29,
+      "text": "وَٱلْتَفَّتِ ٱلسَّاقُ بِٱلسَّاقِ",
+      "highlightedHtml": "وَٱلْتَفَّتِ <a class=\"highlight-text\">ٱلسَّاقُ</a> <a class=\"highlight-text\">بِٱلسَّاقِ</a>",
+      "derivedForms": [
+        "ساق",
+        "ساق"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 30,
+      "text": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ ٱلْمَسَاقُ",
+      "highlightedHtml": "إِلَىٰ رَبِّكَ يَوْمَئِذٍ <a class=\"highlight-text\">ٱلْمَسَاقُ</a>",
+      "derivedForms": [
+        "مَساق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:43.013Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "سُقْنَٰهُ is in the derivative form: ساقَ",
+    "rootDefinitionHtml": "س/و/ق   s–w–q to herd, to drive, market place (being the location to which animals and goods are driven), a sequence<br>; leg, tree trunk. Some have suggested a foreign origin for سوق sūq, market. <br><br>Of this root, 8 forms occur 17 times in the Qur’an:<br>ساقَ sāqa 4 times;سيقَ sıqa 3 times; سائق sāʾiq 1 time;مَساق masāq 3 times;ساق sāq 3 times; س َاقَيْنsāqayn 1 time;سوق sūq 2 times and أسْواق ʾaswāq 2 times.",
+    "mainDefinitionHtml": "ساقَ sāqa u [v. trans.; pass. v. سيقَ sıqa] <br><br><strong>1 </strong>to drive, to herd <br><br>(19:86) وَنَسُوقُ الْمُجْرِمِينَ إِلَى جَهَنَّمَ وِرْدًا and We drive the sinful into Hell, a [thirsty] herd <br><br><strong>2 </strong>to convey, to lead <br><br>(39:73) وَسِيقَ الَّذِينَ اتَّقَوْا رَبَّهُمْ إِلَى الْجَنَّةِ زُمَرًا and those who are mindful of their Lord are conveyed to the Garden in groups <br><br><strong>3 </strong>to direct, to channel <br><br>(32:27) أَوَلَمْ يَرَوْا أَنَّا نَسُوقُ الْمَاءَ إِلَى الأَرْضِ الْجُرُزِ do they not consider how We direct water [rain] to the barren land!?",
+    "mainEntryId": "wdef-س-و-ق.ساقَ",
+    "entries": [
+      {
+        "id": "wdef-س-و-ق",
+        "label": "س-و-ق",
+        "definitionHtml": "س/و/ق   s–w–q to herd, to drive, market place (being the location to which animals and goods are driven), a sequence<br>; leg, tree trunk. Some have suggested a foreign origin for سوق sūq, market. <br><br>Of this root, 8 forms occur 17 times in the Qur’an:<br>ساقَ sāqa 4 times;سيقَ sıqa 3 times; سائق sāʾiq 1 time;مَساق masāq 3 times;ساق sāq 3 times; س َاقَيْنsāqayn 1 time;سوق sūq 2 times and أسْواق ʾaswāq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ق.ساقَ",
+        "label": "ساقَ",
+        "definitionHtml": "ساقَ sāqa u [v. trans.; pass. v. سيقَ sıqa] <br><br><strong>1 </strong>to drive, to herd <br><br>(19:86) وَنَسُوقُ الْمُجْرِمِينَ إِلَى جَهَنَّمَ وِرْدًا and We drive the sinful into Hell, a [thirsty] herd <br><br><strong>2 </strong>to convey, to lead <br><br>(39:73) وَسِيقَ الَّذِينَ اتَّقَوْا رَبَّهُمْ إِلَى الْجَنَّةِ زُمَرًا and those who are mindful of their Lord are conveyed to the Garden in groups <br><br><strong>3 </strong>to direct, to channel <br><br>(32:27) أَوَلَمْ يَرَوْا أَنَّا نَسُوقُ الْمَاءَ إِلَى الأَرْضِ الْجُرُزِ do they not consider how We direct water [rain] to the barren land!?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-و-ق.أسْواق",
+        "label": "أسْواق",
+        "definitionHtml": "أسْواق ʾaswāq [pl. of n. سوق sūq] markets, market places <br><br>(25:7) مَالِ هَذَا الرَّسُولِ يَأْكُلُ الطَّعَامَ وَيَمْشِي فِى الأَسْوَاقِ what is it with the Messenger that he is behaving like a human [lit. eats and walks in marketplaces]?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ق.سائق",
+        "label": "سائق",
+        "definitionHtml": "سائق sāʾiq [n./act. part.] driver, conveyor, a steering person <br><br>(50:21) وَجَاءَتْ كُلُّ نَفْسٍ مَعَهَا سَائِقٌ وَشَهِيدٌ each person will arrive attended by an [angel] to steer him and another to bear witness.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ق.ساق",
+        "label": "ساق",
+        "definitionHtml": "ساق sāq [n.; dual سَاقَين sāqayn; pl. سوق sūq and سيقان sıqān] <br><br><strong>1 </strong>leg <br><br>(27:44) حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَنْ سَاقَيْهَا she took it to be a deep pool of water, and bared her legs; *<br><br>(68:42) يَوْمَ يُكْشَفُ عَنْ سَاقٍ on the Day when matters become dire [lit. a leg is made bare] <br><br><strong>2 </strong>stem, tree trunk <br><br>(48:29) كَزَرْعٍ أَخْرَجَ شَطْأَهُ فَآزَرَهُ فَاسْتَغْلَظَ فَاسْتَوَى عَلَى سُوقِهِ as seeds that put forth their shoots, and they [the shoots] strengthen it [the plant], and they grow thick, and rise straight upon their stalks.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-ق.مَساق",
+        "label": "مَساق",
+        "definitionHtml": "مَساق masāq [v. n.] the act of driving, conveying <br><br>(75:30) إِلَى رَبِّكَ يَوْمَئِذ الْمَسَاقُ ٍ the conveying on that day will be towards your Lord.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:29.700Z",
+      "refword": "7:57:14",
+      "lexword": "سُقْنَٰهُ"
+    }
+  }
+}

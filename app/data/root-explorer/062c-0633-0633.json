@@ -1,0 +1,74 @@
+{
+  "root": "جسس",
+  "rootArabic": "جسس",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَجَسَّسَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَجَسَّسَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 49,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا تَجَسَّسُوا۟ وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱجْتَنِبُوا۟ كَثِيرًا مِّنَ ٱلظَّنِّ إِنَّ بَعْضَ ٱلظَّنِّ إِثْمٌ ۖ وَلَا <a class=\"highlight-text\">تَجَسَّسُوا۟</a> وَلَا يَغْتَب بَّعْضُكُم بَعْضًا ۚ أَيُحِبُّ أَحَدُكُمْ أَن يَأْكُلَ لَحْمَ أَخِيهِ مَيْتًا فَكَرِهْتُمُوهُ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ تَوَّابٌ رَّحِيمٌ",
+      "derivedForms": [
+        "تَجَسَّسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:06.633Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form V) imperfect verb, jussive mood",
+    "derivativeNote": "تَجَسَّسُوا۟ is in the derivative form: تَجَسَّسَ",
+    "rootDefinitionHtml": "ج/س/س   j–s–s to test by hand, to probe, to examine; to spy, to probe into other people’s private lives. Of this root, تَجَسَّسُوا tajassasū, occurs 1 time in the Qur’a<br>n",
+    "mainDefinitionHtml": "تَجَسَّسَ tajassas [<br>(49:12) وَلاَ تَجَسَّسُوا وَلاَ يَغْتَبْ بَعْضُكُمْ بَعْضًا and do not spy, and do not backbite one another.",
+    "mainEntryId": "wdef-ج-س-س.تَجَسَّسَ",
+    "entries": [
+      {
+        "id": "wdef-ج-س-س",
+        "label": "ج-س-س",
+        "definitionHtml": "ج/س/س   j–s–s to test by hand, to probe, to examine; to spy, to probe into other people’s private lives. Of this root, تَجَسَّسُوا tajassasū, occurs 1 time in the Qur’a<br>n",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-س-س.تَجَسَّسَ",
+        "label": "تَجَسَّسَ",
+        "definitionHtml": "تَجَسَّسَ tajassas [<br>(49:12) وَلاَ تَجَسَّسُوا وَلاَ يَغْتَبْ بَعْضُكُمْ بَعْضًا and do not spy, and do not backbite one another.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:56.249Z",
+      "refword": "49:12:13",
+      "lexword": "تَجَسَّسُوا۟"
+    }
+  }
+}

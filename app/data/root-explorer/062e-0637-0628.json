@@ -1,0 +1,326 @@
+{
+  "root": "خطب",
+  "rootArabic": "خطب",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 11,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "خَطْبٌ",
+      "count": 5
+    },
+    {
+      "form": "خَاطَبَ",
+      "count": 3
+    },
+    {
+      "form": "خِطَابٌ",
+      "count": 3
+    },
+    {
+      "form": "خِطْبَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خِطْبَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاطَبَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطْبٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطْبٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطْبٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاطَبَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاطَبَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطْبٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خِطَابٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطْبٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خِطَابٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 235,
+      "text": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ <a class=\"highlight-text\">خِطْبَةِ</a> ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "خِطْبَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 37,
+      "text": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا <a class=\"highlight-text\">تُخَٰطِبْنِى</a> فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "خَاطَبَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 51,
+      "text": "قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "قَالَ مَا <a class=\"highlight-text\">خَطْبُكُنَّ</a> إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "خَطْبٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 57,
+      "text": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+      "highlightedHtml": "قَالَ فَمَا <a class=\"highlight-text\">خَطْبُكُمْ</a> أَيُّهَا ٱلْمُرْسَلُونَ",
+      "derivedForms": [
+        "خَطْبٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 95,
+      "text": "قَالَ فَمَا خَطْبُكَ يَٰسَٰمِرِىُّ",
+      "highlightedHtml": "قَالَ فَمَا <a class=\"highlight-text\">خَطْبُكَ</a> يَٰسَٰمِرِىُّ",
+      "derivedForms": [
+        "خَطْبٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 27,
+      "text": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا <a class=\"highlight-text\">تُخَٰطِبْنِى</a> فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "خَاطَبَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 63,
+      "text": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "highlightedHtml": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا <a class=\"highlight-text\">خَاطَبَهُمُ</a> ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "derivedForms": [
+        "خَاطَبَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 23,
+      "text": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "highlightedHtml": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا <a class=\"highlight-text\">خَطْبُكُمَا</a> ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "derivedForms": [
+        "خَطْبٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 20,
+      "text": "وَشَدَدْنَا مُلْكَهُۥ وَءَاتَيْنَٰهُ ٱلْحِكْمَةَ وَفَصْلَ ٱلْخِطَابِ",
+      "highlightedHtml": "وَشَدَدْنَا مُلْكَهُۥ وَءَاتَيْنَٰهُ ٱلْحِكْمَةَ وَفَصْلَ <a class=\"highlight-text\">ٱلْخِطَابِ</a>",
+      "derivedForms": [
+        "خِطَابٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 23,
+      "text": "إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ",
+      "highlightedHtml": "إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى <a class=\"highlight-text\">ٱلْخِطَابِ</a>",
+      "derivedForms": [
+        "خِطَابٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 31,
+      "text": "قَالَ فَمَا خَطْبُكُمْ أَيُّهَا ٱلْمُرْسَلُونَ",
+      "highlightedHtml": "قَالَ فَمَا <a class=\"highlight-text\">خَطْبُكُمْ</a> أَيُّهَا ٱلْمُرْسَلُونَ",
+      "derivedForms": [
+        "خَطْبٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 37,
+      "text": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
+      "highlightedHtml": "رَّبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ٱلرَّحْمَٰنِ ۖ لَا يَمْلِكُونَ مِنْهُ <a class=\"highlight-text\">خِطَابًا</a>",
+      "derivedForms": [
+        "خِطَابٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:28.770Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine noun",
+    "derivativeNote": "خِطْبَةِ is in the derivative form: خِطْبَةٌ",
+    "rootDefinitionHtml": "خ/ط/ب   kh–ṭ–b an affair, matter, concern, business, situation<br>; a public speech, to address a group, a sermon, a speech, to speak; to propose in marriage to a woman, a marriage proposal. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> خَاطَبَ khāṭaba 3 times; خَطْبٌ khaṭb 5 times; خِطَابٌ khiṭāb 3 times; خِطْبَةٌ khiṭbatun 1 time.",
+    "mainDefinitionHtml": "خِطْبَةٌ khiṭbatun [n.] marriage proposal <br><br>(2:235) وَلاَ جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُمْ بِهِ مِنْ خِطْبَةِ النِّسَاءِ أَوْ أَكْنَنْتُمْ فِى أَنْفُسِكُمْ no blame will be attached to you if you give a hint of [an intended] marriage proposal to [these] women or keep it to yourselves.",
+    "mainEntryId": "wdef-خ-ط-ب.خِطْبَةٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ط-ب",
+        "label": "خ-ط-ب",
+        "definitionHtml": "خ/ط/ب   kh–ṭ–b an affair, matter, concern, business, situation<br>; a public speech, to address a group, a sermon, a speech, to speak; to propose in marriage to a woman, a marriage proposal. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> خَاطَبَ khāṭaba 3 times; خَطْبٌ khaṭb 5 times; خِطَابٌ khiṭāb 3 times; خِطْبَةٌ khiṭbatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ب.خِطْبَةٌ",
+        "label": "خِطْبَةٌ",
+        "definitionHtml": "خِطْبَةٌ khiṭbatun [n.] marriage proposal <br><br>(2:235) وَلاَ جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُمْ بِهِ مِنْ خِطْبَةِ النِّسَاءِ أَوْ أَكْنَنْتُمْ فِى أَنْفُسِكُمْ no blame will be attached to you if you give a hint of [an intended] marriage proposal to [these] women or keep it to yourselves.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ط-ب.خَاطَبَ",
+        "label": "خَاطَبَ",
+        "definitionHtml": "خَاطَبَ khāṭaba [v. III, trans.] <br><br><strong>1 </strong>to talk to, to address <br><br>(25:63) وَإِذَا خَاطَبَهُمُ الْجَاهِلُونَ قَالُوا سَلاَمًا and when the ignorant speak to them, they say: ‘We have nothing to do with you [lit. are quit of you]’ (or, they say ‘Peace’) <br><br><strong>2 </strong>[with prep. في] to speak on behalf of, to intercede, to plead <br><br>(11:37) وَلاَ تُخَاطِبْنِي فِى الَّذِينَ ظَلَمُوا إِنَّهُمْ مُغْرَقُونَ do not plead with Me for those who have done wrong–they will be drowned.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ب.خَطْبٌ",
+        "label": "خَطْبٌ",
+        "definitionHtml": "خَطْبٌ khaṭb [n./v. n.] matter, affair, ailment, trouble *<br><br>(20:95) فَمَا خَطْبُكَ and what was the matter with you?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-ب.خِطَابٌ",
+        "label": "خِطَابٌ",
+        "definitionHtml": "خِطَابٌ khiṭāb [n./v. n.] <br><br><strong>1 </strong>address, talking, discourse <br><br>(78:37) الرَّحْمَنِ لاَ يَمْلِكُونَ مِنْهُ خِطَابًا Lord of Mercy ,no one will have it in their power to force speech with Him (or, they will have no authority from Him to speak) <br><br><strong>2 </strong>argument <br><br>(38:23) إِنَّ هَذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِيَ نَعْجَةٌ وَاحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِي فِى الْخِطَابِ this, my brother, has ninety‐nine ewes and I have one ewe, so he said, ‘Put her in my charge,’ and he prevailed over me in argument; *<br><br>(38:20) فَصْلَ الْخِطَابِ decisive talk, sound judgement.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:21.608Z",
+      "refword": "2:235:8",
+      "lexword": "خِطْبَةِ"
+    }
+  }
+}

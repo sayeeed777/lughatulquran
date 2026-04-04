@@ -1,0 +1,74 @@
+{
+  "root": "وكد",
+  "rootArabic": "وكد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَوْكِيدٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَوْكِيدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 16,
+      "ayah": 91,
+      "text": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "highlightedHtml": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ <a class=\"highlight-text\">تَوْكِيدِهَا</a> وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "derivedForms": [
+        "تَوْكِيدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:50.166Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form II) verbal noun",
+    "derivativeNote": "تَوْكِيدِهَا is in the derivative form: تَوْكِيدٌ",
+    "rootDefinitionHtml": "و/ك/د   w–k–d saddle straps, leather belt; intention; to tighten up; to be on target, to give support. Of this root, تَوْكِيد tawkıd, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَوْكِيدٌ tawkıd [v. n.] solemnising, ratifying, endorsing <br><br>(16:91) وَلاَ تَنْقُضُوا الأَيْمَانَ بَعْدَ تَوْكِيدِهَا do not break oaths after their being solemnised.",
+    "mainEntryId": "wdef-و-ك-د.تَوْكِيدٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ك-د",
+        "label": "و-ك-د",
+        "definitionHtml": "و/ك/د   w–k–d saddle straps, leather belt; intention; to tighten up; to be on target, to give support. Of this root, تَوْكِيد tawkıd, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ك-د.تَوْكِيدٌ",
+        "label": "تَوْكِيدٌ",
+        "definitionHtml": "تَوْكِيدٌ tawkıd [v. n.] solemnising, ratifying, endorsing <br><br>(16:91) وَلاَ تَنْقُضُوا الأَيْمَانَ بَعْدَ تَوْكِيدِهَا do not break oaths after their being solemnised.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:43.701Z",
+      "refword": "16:91:10",
+      "lexword": "تَوْكِيدِهَا"
+    }
+  }
+}

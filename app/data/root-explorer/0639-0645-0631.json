@@ -1,0 +1,544 @@
+{
+  "root": "عمر",
+  "rootArabic": "عمر",
+  "stats": {
+    "totalOccurrences": 24,
+    "derivativeCount": 11,
+    "surahCount": 14,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "عُمُرٌ",
+      "count": 7
+    },
+    {
+      "form": "عَمَرَ",
+      "count": 4
+    },
+    {
+      "form": "يُعَمَّرُ",
+      "count": 3
+    },
+    {
+      "form": "عُمْرَةٌ",
+      "count": 2
+    },
+    {
+      "form": "نُعَمِّرٌ",
+      "count": 2
+    },
+    {
+      "form": "اسْتَعْمَرَ",
+      "count": 1
+    },
+    {
+      "form": "اعْتَمَرَ",
+      "count": 1
+    },
+    {
+      "form": "عِمَارَةٌ",
+      "count": 1
+    },
+    {
+      "form": "لَعَمْرُكَ",
+      "count": 1
+    },
+    {
+      "form": "مُعَمَّرٌ",
+      "count": 1
+    },
+    {
+      "form": "مَعْمُورٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "عُمْرَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يُعَمَّرُ",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "اعْتَمَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "عَمَرَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "عِمَارَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَعْمَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعَمْرُكَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَمَرَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "عُمُرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مُعَمَّرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نُعَمِّرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يُعَمَّرُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُعَمِّرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْمُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 96,
+      "text": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ <a class=\"highlight-text\">يُعَمَّرُ</a> أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن <a class=\"highlight-text\">يُعَمَّرَ</a> ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "يُعَمَّرُ",
+        "يُعَمَّرُ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 158,
+      "text": "إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ <a class=\"highlight-text\">ٱعْتَمَرَ</a> فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
+      "derivedForms": [
+        "اعْتَمَرَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 196,
+      "text": "وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًى مِّن رَّأْسِهِۦ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌ كَامِلَةٌ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَأَتِمُّوا۟ ٱلْحَجَّ <a class=\"highlight-text\">وَٱلْعُمْرَةَ</a> لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًى مِّن رَّأْسِهِۦ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ <a class=\"highlight-text\">بِٱلْعُمْرَةِ</a> إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌ كَامِلَةٌ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "عُمْرَةٌ",
+        "عُمْرَةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 17,
+      "text": "مَا كَانَ لِلْمُشْرِكِينَ أَن يَعْمُرُوا۟ مَسَٰجِدَ ٱللَّهِ شَٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلْكُفْرِ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ وَفِى ٱلنَّارِ هُمْ خَٰلِدُونَ",
+      "highlightedHtml": "مَا كَانَ لِلْمُشْرِكِينَ أَن <a class=\"highlight-text\">يَعْمُرُوا۟</a> مَسَٰجِدَ ٱللَّهِ شَٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلْكُفْرِ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ وَفِى ٱلنَّارِ هُمْ خَٰلِدُونَ",
+      "derivedForms": [
+        "عَمَرَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 18,
+      "text": "إِنَّمَا يَعْمُرُ مَسَٰجِدَ ٱللَّهِ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمْ يَخْشَ إِلَّا ٱللَّهَ ۖ فَعَسَىٰٓ أُو۟لَٰٓئِكَ أَن يَكُونُوا۟ مِنَ ٱلْمُهْتَدِينَ",
+      "highlightedHtml": "إِنَّمَا <a class=\"highlight-text\">يَعْمُرُ</a> مَسَٰجِدَ ٱللَّهِ مَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمْ يَخْشَ إِلَّا ٱللَّهَ ۖ فَعَسَىٰٓ أُو۟لَٰٓئِكَ أَن يَكُونُوا۟ مِنَ ٱلْمُهْتَدِينَ",
+      "derivedForms": [
+        "عَمَرَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 19,
+      "text": "أَجَعَلْتُمْ سِقَايَةَ ٱلْحَآجِّ وَعِمَارَةَ ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَجَٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "أَجَعَلْتُمْ سِقَايَةَ ٱلْحَآجِّ <a class=\"highlight-text\">وَعِمَارَةَ</a> ٱلْمَسْجِدِ ٱلْحَرَامِ كَمَنْ آمَنَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَجَٰهَدَ فِى سَبِيلِ ٱللَّهِ ۚ لَا يَسْتَوُۥنَ يَسْتَوُۥنَ عِندَ ٱللَّهِ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "عِمَارَةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 16,
+      "text": "قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ وَلَآ أَدْرَىٰكُم بِهِۦ ۖ فَقَدْ لَبِثْتُ فِيكُمْ عُمُرًا مِّن قَبْلِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "قُل لَّوْ شَآءَ ٱللَّهُ مَا تَلَوْتُهُۥ عَلَيْكُمْ وَلَآ أَدْرَىٰكُم بِهِۦ ۖ فَقَدْ لَبِثْتُ فِيكُمْ <a class=\"highlight-text\">عُمُرًا</a> مِّن قَبْلِهِۦٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 61,
+      "text": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+      "highlightedHtml": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ <a class=\"highlight-text\">وَٱسْتَعْمَرَكُمْ</a> فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+      "derivedForms": [
+        "اسْتَعْمَرَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 72,
+      "text": "لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">لَعَمْرُكَ</a> إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "لَعَمْرُكَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 70,
+      "text": "وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ <a class=\"highlight-text\">ٱلْعُمُرِ</a> لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 44,
+      "text": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "highlightedHtml": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ <a class=\"highlight-text\">ٱلْعُمُرُ</a> ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ <a class=\"highlight-text\">ٱلْعُمُرِ</a> لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 18,
+      "text": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
+      "highlightedHtml": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ <a class=\"highlight-text\">عُمُرِكَ</a> سِنِينَ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 45,
+      "text": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "highlightedHtml": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ <a class=\"highlight-text\">ٱلْعُمُرُ</a> ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "derivedForms": [
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 9,
+      "text": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً وَأَثَارُوا۟ ٱلْأَرْضَ وَعَمَرُوهَآ أَكْثَرَ مِمَّا عَمَرُوهَا وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً وَأَثَارُوا۟ ٱلْأَرْضَ <a class=\"highlight-text\">وَعَمَرُوهَآ</a> أَكْثَرَ مِمَّا <a class=\"highlight-text\">عَمَرُوهَا</a> وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ ۖ فَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "عَمَرَ",
+        "عَمَرَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 11,
+      "text": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا <a class=\"highlight-text\">يُعَمَّرُ</a> مِن <a class=\"highlight-text\">مُّعَمَّرٍ</a> وَلَا يُنقَصُ مِنْ <a class=\"highlight-text\">عُمُرِهِۦٓ</a> إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "يُعَمَّرُ",
+        "مُعَمَّرٌ",
+        "عُمُرٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 37,
+      "text": "وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ نُعَمِّرْكُم مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّٰلِمِينَ مِن نَّصِيرٍ",
+      "highlightedHtml": "وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ <a class=\"highlight-text\">نُعَمِّرْكُم</a> مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّٰلِمِينَ مِن نَّصِيرٍ",
+      "derivedForms": [
+        "نُعَمِّرٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 68,
+      "text": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمَن <a class=\"highlight-text\">نُّعَمِّرْهُ</a> نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "derivedForms": [
+        "نُعَمِّرٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 4,
+      "text": "وَٱلْبَيْتِ ٱلْمَعْمُورِ",
+      "highlightedHtml": "وَٱلْبَيْتِ <a class=\"highlight-text\">ٱلْمَعْمُورِ</a>",
+      "derivedForms": [
+        "مَعْمُورٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:26.736Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) passive imperfect verb",
+    "derivativeNote": "يُعَمَّرُ is in the derivative form: يُعَمَّرُ",
+    "rootDefinitionHtml": "ع/م/ر   ʿ–m–r age, life, life‐span, to live long, to grow old<br>; to cultivate, to inhabit, to populate; a haunted house; to intend; to worship; headgear; a subgroup of a tribe. <br><br>Of this root, 12 forms occur 27 times in the Qur’an:<br> عَمَرَ ʿamara 4 times; نُعَمِّرُ nuʿammir 2 times; يُعَمَّرُ yuʿammar 3 times; اعْتَمَرَ ʾiʿtamara 1 time; اسْتَعْمَرَ ʾistaʿmara 1 time; مَعْمُورٌ maʿmūr 1 time; مُعَمَّرٌ muʿammar 1 time; لَعَمْرُكَ laʿamruka 1 time; عُمُرٌ ʿumur 7 times; عُمْرَةٌ ʿumratun 2 times; عِمَارَةٌ ʿimāratun 1 time and عِمْرَان ʿimrān 3 times.",
+    "mainDefinitionHtml": "يُعَمَّرُ yuʿammar [imperf. of pass v. II] to be caused/enabled to live for a very long time, to be granted longevity‏ <br><br>(2:96)‏يَوَدُّ‏ ‏أَحَدُهُمْ‏ ‏لَوْ‏ ‏يُعَمَّرُ‏ ‏أَلْفَ‏ ‏سَنَةٍ‏ any of them would wish to be granted longevity for a thousand years.",
+    "mainEntryId": "wdef-ع-م-ر.يُعَمَّرُ",
+    "entries": [
+      {
+        "id": "wdef-ع-م-ر",
+        "label": "ع-م-ر",
+        "definitionHtml": "ع/م/ر   ʿ–m–r age, life, life‐span, to live long, to grow old<br>; to cultivate, to inhabit, to populate; a haunted house; to intend; to worship; headgear; a subgroup of a tribe. <br><br>Of this root, 12 forms occur 27 times in the Qur’an:<br> عَمَرَ ʿamara 4 times; نُعَمِّرُ nuʿammir 2 times; يُعَمَّرُ yuʿammar 3 times; اعْتَمَرَ ʾiʿtamara 1 time; اسْتَعْمَرَ ʾistaʿmara 1 time; مَعْمُورٌ maʿmūr 1 time; مُعَمَّرٌ muʿammar 1 time; لَعَمْرُكَ laʿamruka 1 time; عُمُرٌ ʿumur 7 times; عُمْرَةٌ ʿumratun 2 times; عِمَارَةٌ ʿimāratun 1 time and عِمْرَان ʿimrān 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.يُعَمَّرُ",
+        "label": "يُعَمَّرُ",
+        "definitionHtml": "يُعَمَّرُ yuʿammar [imperf. of pass v. II] to be caused/enabled to live for a very long time, to be granted longevity‏ <br><br>(2:96)‏يَوَدُّ‏ ‏أَحَدُهُمْ‏ ‏لَوْ‏ ‏يُعَمَّرُ‏ ‏أَلْفَ‏ ‏سَنَةٍ‏ any of them would wish to be granted longevity for a thousand years.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-م-ر.اسْتَعْمَرَ",
+        "label": "اسْتَعْمَرَ",
+        "definitionHtml": "اسْتَعْمَرَ ʾistaʿamara [v. X trans.] to cause to settle, to cause to inhabit, to cause to populate <br><br>(11:61) هُوَ‏ ‏أَنْشَأَكُمْ‏ ‏مِنَ‏ ‏الأَرْضِ‏ ‏وَاسْتَعْمَرَكُمْ‏ ‏فِيهَا‏ it is He who brought you into being from the earth and made you inhabit it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.اعْتَمَرَ",
+        "label": "اعْتَمَرَ",
+        "definitionHtml": "اعْتَمَرَ ʾiʿtamara [v. VIII intrans.] [jur.] to perform ʿumra (q.v.), to visit the holy mosque in Mecca <br><br>(2:158) ‏فَمَنْ‏ ‏حَجَّ‏ ‏الْبَيْتَ‏ ‏أَوِ‏ ‏اعْتَمَرَ‏ so for those who make major or minor pilgrimage to the House.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.عَمَرَ",
+        "label": "عَمَرَ",
+        "definitionHtml": "عَمَرَ ʿamara u [v. trans.] <br><br><strong>1 </strong>to populate, to cultivate, to make habitable <br><br>(30:9) ‏وَأَثَارُوا‏ ‏الأَرْضَ‏ ‏وَعَمَرُوهَا‏ ‏أَكْثَرَ‏ ‏مِمَّا‏ ‏عَمَرُوهَا they dug up the land and populated it more than they [the ones before them] had done <br><br><strong>2 </strong>to maintain; to frequent <br><br>(9:18) إِنَّمَا‏ ‏يَعْمُرُ‏ ‏مَسَاجِدَ‏ ‏اللَّهِ‏ ‏مَنْ‏ ‏ءَامَنَ‏ ‏بِاللَّهِ‏ ‏وَالْيَوْمِ‏ ‏الآخِرِ‏ the ones who frequent (or, tend) God’s places of worship are those who believe in God and the Last Day.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.عُمُرٌ",
+        "label": "عُمُرٌ",
+        "definitionHtml": "عُمُرٌ ʿumur [v. n.; n.] <br><br><strong>1 </strong>lifespan <br><br>(26:18) وَلَبِثْتَ‏ ‏فِينَا‏ ‏مِنْ‏ ‏عُمُرِكَ‏ ‏سِنِينَ‏ and you spent among us years of your life; *<br><br>(22:5) أَرْذَلِ‏ ‏الْعُمُرِ the most abject stage of life, the worst of life’s stages, very old age, infirmity <br><br><strong>2 </strong>time, the passage of time <br><br>(28:45) ‏فَتَطَاوَلَ‏ ‏عَلَيْهِمُ‏ ‏الْعُمُرُ‏ for whom time dragged on <br><br><strong>3 </strong>[adverbially] for a long time <br><br>(10:16)‏فَقَدْ‏ ‏لَبِثْتُ‏ ‏فِيكُمْ‏ ‏عُمُرًا‏ ‏مِنْ‏ ‏قَبْلِهِ for I have lived a long time among you before it [came to me].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.عُمْرَةٌ",
+        "label": "عُمْرَةٌ",
+        "definitionHtml": "عُمْرَةٌ ʿumratun [n.] [jur.] a ritual visit, at any time of the year, to the holy places in Mecca; also referred to as the Minor Pilgrimage (q.v.) <br><br>(2:196) وَأَتِمُّوا‏ ‏الْحَجَّ‏ ‏وَالْعُمْرَةَ‏ ‏لِلَّهِ‏ perform the major and minor pilgrimages for God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.عِمَارَةٌ",
+        "label": "عِمَارَةٌ",
+        "definitionHtml": "عِمَارَةٌ ʿimāratun [v. n./n.] maintaining, tending; maintenance; building <br><br>(9:19) أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ وَعِمَارَةَ الْمَسْجِدِ الْحَرَامِ ... do you consider giving water to pilgrims and tending the Sacred Mosque…?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.عِمْرَان",
+        "label": "عِمْرَان",
+        "definitionHtml": "عِمْرَان ʿimrān [proper name] Amran (Biblical Amram, Exo. VI.18–20) the Qur’an <br><br>(3:34–63) speaks of God’s choosing the House of Amran, together with Adam and the House of Abraham, and raising them above all others as a prelude to its account of the story of how one descendant of the house of Amran, the Virgin Mary, was chosen over all other women and purified and made fit for the task of bearing Jesus by direct command from the Archangel Gabriel <br><br>(3:35) إِذْ‏ ‏قَالَتِ‏ ‏امْرَأَةُ‏ ‏عِمْرَانَ ...‏ [remember] when a woman of [the household of] ʿimrān said …; * ‏عِمْرَانَ‏ آل name of Sura 3, Medinan sura, so‐named because of the reference in verse <br><br><strong>33 </strong>to ‘the Family of ʿimrān’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.لَعَمْرُكَ",
+        "label": "لَعَمْرُكَ",
+        "definitionHtml": "لَعَمْرُكَ laʿamruka [interjection, consisting of (لام الابتداء), for emphasis, ﻠ + v. n. عَمْر ʿamr, longevity, + 2nd pers. sing. masc. pronom. suffix كَ] by your life, upon your life, assuredly <br><br>(15:72) لَعَمْرُكَ‏ ‏إِنَّهُمْ‏ ‏لَفى‏ ‏سَكْرَتِهِمْ‏ ‏يَعْمَهُونَ‏ by your life, they wander on in their delirium.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.مَعْمُورٌ",
+        "label": "مَعْمُورٌ",
+        "definitionHtml": "مَعْمُورٌ maʿmūr [pass. part.] frequented; well‐kept <br><br>(52:4) وَالْبَيْتِ‏ ‏الْمَعْمُورِ ‏ by the much‐visited House.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.مُعَمَّرٌ",
+        "label": "مُعَمَّرٌ",
+        "definitionHtml": "مُعَمَّرٌ muʿammar [pass. part. of v. II] one who is granted longevity, one living beyong the normal old age <br><br>(35:11)‏وَمَا يُعَمَّرُ مِنْ مُعَمَّرٍ وَلاَ يُنْقَصُ مِنْ عُمُرِهِ إِلاَّ فِى كِتَابٍ no one living long is granted longevity nor is aught diminished from his [another’s] life‐span, but it is in a Record.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-ر.نُعَمِّرٌ",
+        "label": "نُعَمِّرٌ",
+        "definitionHtml": "نُعَمِّرٌ nuʿammir [imperf. of v. II trans.] (of God) to grant longevity to, to cause to live beyond the normal old age <br><br>(36:68) وَمَنْ‏ ‏نُعَمِّرْهُ‏ ‏نُنَكِّسْهُ‏ ‏فِي‏ ‏الْخَلْقِ‏ he whom We allow to live into old age We reverse him in [the process of his] creation [from strength to weakness].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:31.159Z",
+      "refword": "2:96:12",
+      "lexword": "يُعَمَّرُ"
+    }
+  }
+}

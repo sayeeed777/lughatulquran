@@ -1,0 +1,264 @@
+{
+  "root": "نوم",
+  "rootArabic": "نوم",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 9,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "مَنَام",
+      "count": 4
+    },
+    {
+      "form": "نَوْمٌ",
+      "count": 3
+    },
+    {
+      "form": "نَائِمُون",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَوْمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَائِمُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَام",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَوْمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَام",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَام",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَام",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَائِمُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَوْمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 255,
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "highlightedHtml": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا <a class=\"highlight-text\">نَوْمٌ</a> ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "نَوْمٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 97,
+      "text": "أَفَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا بَيَٰتًا وَهُمْ نَآئِمُونَ",
+      "highlightedHtml": "أَفَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا بَيَٰتًا وَهُمْ <a class=\"highlight-text\">نَآئِمُونَ</a>",
+      "derivedForms": [
+        "نَائِمُون"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 43,
+      "text": "إِذْ يُرِيكَهُمُ ٱللَّهُ فِى مَنَامِكَ قَلِيلًا ۖ وَلَوْ أَرَىٰكَهُمْ كَثِيرًا لَّفَشِلْتُمْ وَلَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَلَٰكِنَّ ٱللَّهَ سَلَّمَ ۗ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "إِذْ يُرِيكَهُمُ ٱللَّهُ فِى <a class=\"highlight-text\">مَنَامِكَ</a> قَلِيلًا ۖ وَلَوْ أَرَىٰكَهُمْ كَثِيرًا لَّفَشِلْتُمْ وَلَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَلَٰكِنَّ ٱللَّهَ سَلَّمَ ۗ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "مَنَام"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 47,
+      "text": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا وَٱلنَّوْمَ سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا <a class=\"highlight-text\">وَٱلنَّوْمَ</a> سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "derivedForms": [
+        "نَوْمٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 23,
+      "text": "وَمِنْ آيَاتِهِ مَنَامُكُم بِٱلَّيْلِ وَٱلنَّهَارِ وَٱبْتِغَآؤُكُم مِّن فَضْلِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَسْمَعُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ <a class=\"highlight-text\">مَنَامُكُم</a> بِٱلَّيْلِ وَٱلنَّهَارِ وَٱبْتِغَآؤُكُم مِّن فَضْلِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَسْمَعُونَ",
+      "derivedForms": [
+        "مَنَام"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 102,
+      "text": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى <a class=\"highlight-text\">ٱلْمَنَامِ</a> أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "مَنَام"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 42,
+      "text": "ٱللَّهُ يَتَوَفَّى ٱلْأَنفُسَ حِينَ مَوْتِهَا وَٱلَّتِى لَمْ تَمُتْ فِى مَنَامِهَا ۖ فَيُمْسِكُ ٱلَّتِى قَضَىٰ عَلَيْهَا ٱلْمَوْتَ وَيُرْسِلُ الْأُخْرَى إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "ٱللَّهُ يَتَوَفَّى ٱلْأَنفُسَ حِينَ مَوْتِهَا وَٱلَّتِى لَمْ تَمُتْ فِى <a class=\"highlight-text\">مَنَامِهَا</a> ۖ فَيُمْسِكُ ٱلَّتِى قَضَىٰ عَلَيْهَا ٱلْمَوْتَ وَيُرْسِلُ الْأُخْرَى إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "مَنَام"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 19,
+      "text": "فَطَافَ عَلَيْهَا طَآئِفٌ مِّن رَّبِّكَ وَهُمْ نَآئِمُونَ",
+      "highlightedHtml": "فَطَافَ عَلَيْهَا طَآئِفٌ مِّن رَّبِّكَ وَهُمْ <a class=\"highlight-text\">نَآئِمُونَ</a>",
+      "derivedForms": [
+        "نَائِمُون"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 9,
+      "text": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
+      "highlightedHtml": "وَجَعَلْنَا <a class=\"highlight-text\">نَوْمَكُمْ</a> سُبَاتًا",
+      "derivedForms": [
+        "نَوْمٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:18.310Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite noun",
+    "derivativeNote": "نَوْمٌ is in the derivative form: نَوْمٌ",
+    "rootDefinitionHtml": "ن/و/م   n–w–m sleep, to lie down, to dream, to be lazy<br>; to be insignificant; to abate. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نَوْمٌ nawm 3 times; نَائِمُون nāʾimūn 2 times and مَنَامٌ manām 4 times.",
+    "mainDefinitionHtml": "نَوْمٌ nawm [v. n.; n.] the act of sleeping, sleep <br><br>(2:255) لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ neither slumber nor sleep overtakes Him.",
+    "mainEntryId": "wdef-ن-و-م.نَوْمٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-و-م",
+        "label": "ن-و-م",
+        "definitionHtml": "ن/و/م   n–w–m sleep, to lie down, to dream, to be lazy<br>; to be insignificant; to abate. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نَوْمٌ nawm 3 times; نَائِمُون nāʾimūn 2 times and مَنَامٌ manām 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-و-م.نَوْمٌ",
+        "label": "نَوْمٌ",
+        "definitionHtml": "نَوْمٌ nawm [v. n.; n.] the act of sleeping, sleep <br><br>(2:255) لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ neither slumber nor sleep overtakes Him.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-و-م.مَنَام",
+        "label": "مَنَام",
+        "definitionHtml": "مَنَام manām I [v. n.] the act of sleeping, the act of being asleep <br><br>(30:23) وَمِنْ ءَايَاتِهِ مَنَامُكُمْ بِاللَّيْلِ وَالنَّهَارِ وَابْتِغَاؤُكُمْ مِنْ فَضْلِهِ His wonders [also] include your sleeping and seeking His bounty by night and by day II [n.] dream <br><br>(37:102) يَابُنَيَّ إِنِّي أَرَى فِى الْمَنَامِ أَنِّي أَذْبَحُكَ my son, I have seen in the dream that I am slaying [sacrificing] you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-و-م.نَائِمُون",
+        "label": "نَائِمُون",
+        "definitionHtml": "نَائِمُون nāʾimūn [pl. of act. part. نَائِمٌ nāʾim] ones who are asleep <br><br>(68:19) فَطَافَ عَلَيْهَا طَائِفٌ مِنْ رَبِّكَ وَهُمْ نَائِمُونَ a visitation from your Lord visited it while they were sleeping.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:44.560Z",
+      "refword": "2:255:12",
+      "lexword": "نَوْمٌ"
+    }
+  }
+}

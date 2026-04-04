@@ -1,0 +1,238 @@
+{
+  "root": "قبض",
+  "rootArabic": "قبض",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "قَبَضَ",
+      "count": 5
+    },
+    {
+      "form": "قَبْضَةٌ",
+      "count": 2
+    },
+    {
+      "form": "قَبْض",
+      "count": 1
+    },
+    {
+      "form": "مَقْبُوضةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَبَضَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "مَقْبُوضةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبَضَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَبَضَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "قَبْضَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَبَضَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "قَبْض",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْضَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبَضَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 245,
+      "text": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ يَقْبِضُ وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ <a class=\"highlight-text\">يَقْبِضُ</a> وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "قَبَضَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 283,
+      "text": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَٰنٌ فَرِهَٰنٌ فَرِهَٰنٌ مَّقْبُوضَةٌ ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ آثِمٌ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "highlightedHtml": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَٰنٌ فَرِهَٰنٌ فَرِهَٰنٌ <a class=\"highlight-text\">مَّقْبُوضَةٌ</a> ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ آثِمٌ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "derivedForms": [
+        "مَقْبُوضةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 67,
+      "text": "ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمُنكَرِ وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَٰفِقِينَ هُمُ ٱلْفَٰسِقُونَ",
+      "highlightedHtml": "ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمُنكَرِ وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ <a class=\"highlight-text\">وَيَقْبِضُونَ</a> أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَٰفِقِينَ هُمُ ٱلْفَٰسِقُونَ",
+      "derivedForms": [
+        "قَبَضَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 96,
+      "text": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
+      "highlightedHtml": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ <a class=\"highlight-text\">فَقَبَضْتُ</a> <a class=\"highlight-text\">قَبْضَةً</a> مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
+      "derivedForms": [
+        "قَبَضَ",
+        "قَبْضَةٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 46,
+      "text": "ثُمَّ قَبَضْنَٰهُ إِلَيْنَا قَبْضًا يَسِيرًا",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">قَبَضْنَٰهُ</a> إِلَيْنَا <a class=\"highlight-text\">قَبْضًا</a> يَسِيرًا",
+      "derivedForms": [
+        "قَبَضَ",
+        "قَبْض"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 67,
+      "text": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَٰمَةِ وَٱلسَّمَٰوَٰتُ مَطْوِيَّٰتٌۢ بِيَمِينِهِۦ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا <a class=\"highlight-text\">قَبْضَتُهُۥ</a> يَوْمَ ٱلْقِيَٰمَةِ وَٱلسَّمَٰوَٰتُ مَطْوِيَّٰتٌۢ بِيَمِينِهِۦ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "قَبْضَةٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 19,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍ <a class=\"highlight-text\">وَيَقْبِضْنَ</a> ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "derivedForms": [
+        "قَبَضَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:29.584Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَقْبِضُ is in the derivative form: قَبَضَ",
+    "rootDefinitionHtml": "ق/ب/ض   q–b–ḍ fist, handful, handhold, to take a handful<br>; to contract, to seize, to grab; to control; to depress; to fold up, to drive fast. <br><br>Of this root, 4 forms occur 9 times;<br> in the Qur’an: قَبَضَ qabaḍa 5 times; قَبْض qabḍ 1 time; قَبْضَةٌ qabḍatun 2 times and مَقْبُوََضةٌ maqbūḍatun 1 time.",
+    "mainDefinitionHtml": "قَبَضَ qabaḍa i [v. trans.] <br><br><strong>1 </strong>to seize, to take hold of <br><br>(20:96) فَقَبَضْتُ قَبْضَةً مِنْ أَثَرِ الرَّسُولِ so I took a handful from the footstep of the Messenger ‏<br><br><strong>2 </strong>to contract, to draw in <br><br>(25:46) ثُمَّ قَبَضْنَاهُ إِلَيْنَا قَبْضًا يَسِيرًا then We gradually draw it towards Us, little by little[lit. with a slight drawing] <br><br><strong>3 </strong>to fold up, to close <br><br>(67:19) أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ do they not see the birds above them spreading and closing [their wings]? <br><br><strong>4 </strong>to straiten, to hold back, to withhold <br><br>(2:245) وَاللَّهُ يَقْبِضُ وَيَبْسُطُ وَإِلَيْهِ تُرْجَعُونَ it is God who withholds and bestows, and it is to Him that you [will] return; *<br><br>(9:67) وَيَقْبِضُونَ أَيْدِيَهُمْ they are tight–fisted [lit. they close their hands].",
+    "mainEntryId": "wdef-ق-ب-ض.قَبَضَ",
+    "entries": [
+      {
+        "id": "wdef-ق-ب-ض",
+        "label": "ق-ب-ض",
+        "definitionHtml": "ق/ب/ض   q–b–ḍ fist, handful, handhold, to take a handful<br>; to contract, to seize, to grab; to control; to depress; to fold up, to drive fast. <br><br>Of this root, 4 forms occur 9 times;<br> in the Qur’an: قَبَضَ qabaḍa 5 times; قَبْض qabḍ 1 time; قَبْضَةٌ qabḍatun 2 times and مَقْبُوََضةٌ maqbūḍatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ض.قَبَضَ",
+        "label": "قَبَضَ",
+        "definitionHtml": "قَبَضَ qabaḍa i [v. trans.] <br><br><strong>1 </strong>to seize, to take hold of <br><br>(20:96) فَقَبَضْتُ قَبْضَةً مِنْ أَثَرِ الرَّسُولِ so I took a handful from the footstep of the Messenger ‏<br><br><strong>2 </strong>to contract, to draw in <br><br>(25:46) ثُمَّ قَبَضْنَاهُ إِلَيْنَا قَبْضًا يَسِيرًا then We gradually draw it towards Us, little by little[lit. with a slight drawing] <br><br><strong>3 </strong>to fold up, to close <br><br>(67:19) أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ do they not see the birds above them spreading and closing [their wings]? <br><br><strong>4 </strong>to straiten, to hold back, to withhold <br><br>(2:245) وَاللَّهُ يَقْبِضُ وَيَبْسُطُ وَإِلَيْهِ تُرْجَعُونَ it is God who withholds and bestows, and it is to Him that you [will] return; *<br><br>(9:67) وَيَقْبِضُونَ أَيْدِيَهُمْ they are tight–fisted [lit. they close their hands].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ب-ض.قَبْض",
+        "label": "قَبْض",
+        "definitionHtml": "قَبْض qabḍ [v. n.] contracting, drawing in <br><br>(25:46) ثُمَّ قَبَضْنَاهُ إِلَيْنَا قَبْضًا يَسِيرًا then We gradually draw it towards Us, little by little‏ [lit. with a slight drawing].‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ض.قَبْضَةٌ",
+        "label": "قَبْضَةٌ",
+        "definitionHtml": "قَبْضَةٌ qabḍatun I [unit. n.] a handful <br><br>(20:96) بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ فَقَبَضْتُ قَبْضَةً مِنْ أَثَرِ الرَّسُولِ I saw something they didn’t and so I took a handful [of dust] from the Messenger’s tracks II [v. n.] grasping, power <br><br>(39:67) وَالأَرْضُ جَمِيعًا قَبْضَتُهُ يَوْمَ الْقِيَامَةِ the whole earth will be His grasp (or, in the palm of His hand), on the Day of Resurrection. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ض.مَقْبُوضةٌ",
+        "label": "مَقْبُوضةٌ",
+        "definitionHtml": "مَقْبُوضةٌ maqbūḍatun [pass. part. fem.] (of securities, monies or the like) taken in hand, taken into possession <br><br>(2:283) وَإِنْ كُنْتُمْ عَلَى سَفَرٍ وَلَمْ تَجِدُوا كَاتِبًا فَرِهَانٌ مَقْبُوضَةٌ if you are on a journey, and cannot find a scribe, something should be handed over as security.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:39.027Z",
+      "refword": "2:245:13",
+      "lexword": "يَقْبِضُ"
+    }
+  }
+}

@@ -1,0 +1,418 @@
+{
+  "root": "رشد",
+  "rootArabic": "رشد",
+  "stats": {
+    "totalOccurrences": 19,
+    "derivativeCount": 7,
+    "surahCount": 9,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "رُشْدٌ",
+      "count": 6
+    },
+    {
+      "form": "رَشَدٌ",
+      "count": 5
+    },
+    {
+      "form": "رَشِيدٌ",
+      "count": 3
+    },
+    {
+      "form": "رَشَادٌ",
+      "count": 2
+    },
+    {
+      "form": "رَاشِدُون",
+      "count": 1
+    },
+    {
+      "form": "مُرْشِدٌ",
+      "count": 1
+    },
+    {
+      "form": "يَرْشُد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَرْشُد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَشِيدٌ",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "رَشَدٌ",
+          "count": 2,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "مُرْشِدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَشَادٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاشِدُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "رَشَدٌ",
+          "count": 3,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رُشْدٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 186,
+      "text": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ",
+      "highlightedHtml": "وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ <a class=\"highlight-text\">يَرْشُدُونَ</a>",
+      "derivedForms": [
+        "يَرْشُد"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 256,
+      "text": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ <a class=\"highlight-text\">ٱلرُّشْدُ</a> مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 6,
+      "text": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "highlightedHtml": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ <a class=\"highlight-text\">رُشْدًا</a> فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 146,
+      "text": "سَأَصْرِفُ سَأَصْرِفُ عَنْ آيَاتِيَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "highlightedHtml": "سَأَصْرِفُ سَأَصْرِفُ عَنْ آيَاتِيَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ <a class=\"highlight-text\">ٱلرُّشْدِ</a> لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 78,
+      "text": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ضَيْفِىٓ ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "highlightedHtml": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ضَيْفِىٓ ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ <a class=\"highlight-text\">رَّشِيدٌ</a>",
+      "derivedForms": [
+        "رَشِيدٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 87,
+      "text": "قَالُوا۟ يَٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَا أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ ٱلرَّشِيدُ",
+      "highlightedHtml": "قَالُوا۟ يَٰشُعَيْبُ أَصَلَوٰتُكَ تَأْمُرُكَ أَن نَّتْرُكَ مَا يَعْبُدُ ءَابَآؤُنَا أَوْ أَن نَّفْعَلَ فِىٓ أَمْوَٰلِنَا مَا نَشَٰٓؤُا۟ ۖ إِنَّكَ لَأَنتَ ٱلْحَلِيمُ <a class=\"highlight-text\">ٱلرَّشِيدُ</a>",
+      "derivedForms": [
+        "رَشِيدٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 97,
+      "text": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱتَّبَعُوٓا۟ أَمْرَ فِرْعَوْنَ ۖ وَمَآ أَمْرُ فِرْعَوْنَ بِرَشِيدٍ",
+      "highlightedHtml": "إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦ فَٱتَّبَعُوٓا۟ أَمْرَ فِرْعَوْنَ ۖ وَمَآ أَمْرُ فِرْعَوْنَ <a class=\"highlight-text\">بِرَشِيدٍ</a>",
+      "derivedForms": [
+        "رَشِيدٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 10,
+      "text": "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا",
+      "highlightedHtml": "إِذْ أَوَى ٱلْفِتْيَةُ إِلَى ٱلْكَهْفِ فَقَالُوا۟ رَبَّنَآ آتِنَا مِن لَّدُنكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا <a class=\"highlight-text\">رَشَدًا</a>",
+      "derivedForms": [
+        "رَشَدٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 17,
+      "text": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "highlightedHtml": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا <a class=\"highlight-text\">مُّرْشِدًا</a>",
+      "derivedForms": [
+        "مُرْشِدٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 24,
+      "text": "إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا رَشَدًا",
+      "highlightedHtml": "إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ وَٱذْكُر رَّبَّكَ إِذَا نَسِيتَ وَقُلْ عَسَىٰٓ أَن يَهْدِيَنِ رَبِّى لِأَقْرَبَ مِنْ هَٰذَا <a class=\"highlight-text\">رَشَدًا</a>",
+      "derivedForms": [
+        "رَشَدٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 66,
+      "text": "قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا",
+      "highlightedHtml": "قَالَ لَهُۥ مُوسَىٰ هَلْ أَتَّبِعُكَ عَلَىٰٓ أَن تُعَلِّمَنِ مِمَّا عُلِّمْتَ <a class=\"highlight-text\">رُشْدًا</a>",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 51,
+      "text": "وَلَقَدْ آتَيْنَا إِبْرَٰهِيمَ رُشْدَهُۥ مِن قَبْلُ وَكُنَّا بِهِۦ عَٰلِمِينَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا إِبْرَٰهِيمَ <a class=\"highlight-text\">رُشْدَهُۥ</a> مِن قَبْلُ وَكُنَّا بِهِۦ عَٰلِمِينَ",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 29,
+      "text": "يَٰقَوْمِ لَكُمُ ٱلْمُلْكُ ٱلْيَوْمَ ظَٰهِرِينَ فِى ٱلْأَرْضِ فَمَن يَنصُرُنَا مِنۢ بَأْسِ ٱللَّهِ إِن جَآءَنَا ۚ قَالَ فِرْعَوْنُ مَآ أُرِيكُمْ إِلَّا مَآ أَرَىٰ وَمَآ أَهْدِيكُمْ إِلَّا سَبِيلَ ٱلرَّشَادِ",
+      "highlightedHtml": "يَٰقَوْمِ لَكُمُ ٱلْمُلْكُ ٱلْيَوْمَ ظَٰهِرِينَ فِى ٱلْأَرْضِ فَمَن يَنصُرُنَا مِنۢ بَأْسِ ٱللَّهِ إِن جَآءَنَا ۚ قَالَ فِرْعَوْنُ مَآ أُرِيكُمْ إِلَّا مَآ أَرَىٰ وَمَآ أَهْدِيكُمْ إِلَّا سَبِيلَ <a class=\"highlight-text\">ٱلرَّشَادِ</a>",
+      "derivedForms": [
+        "رَشَادٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 38,
+      "text": "وَقَالَ ٱلَّذِىٓ آمَنَ يَٰقَوْمِ ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ ٱلرَّشَادِ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِىٓ آمَنَ يَٰقَوْمِ ٱتَّبِعُونِ أَهْدِكُمْ سَبِيلَ <a class=\"highlight-text\">ٱلرَّشَادِ</a>",
+      "derivedForms": [
+        "رَشَادٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 7,
+      "text": "وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلرَّٰشِدُونَ",
+      "highlightedHtml": "وَٱعْلَمُوٓا۟ أَنَّ فِيكُمْ رَسُولَ ٱللَّهِ ۚ لَوْ يُطِيعُكُمْ فِى كَثِيرٍ مِّنَ ٱلْأَمْرِ لَعَنِتُّمْ وَلَٰكِنَّ ٱللَّهَ حَبَّبَ إِلَيْكُمُ ٱلْإِيمَٰنَ وَزَيَّنَهُۥ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ ٱلْكُفْرَ وَٱلْفُسُوقَ وَٱلْعِصْيَانَ ۚ أُو۟لَٰٓئِكَ هُمُ <a class=\"highlight-text\">ٱلرَّٰشِدُونَ</a>",
+      "derivedForms": [
+        "رَاشِدُون"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 2,
+      "text": "يَهْدِىٓ إِلَى ٱلرُّشْدِ فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا",
+      "highlightedHtml": "يَهْدِىٓ إِلَى <a class=\"highlight-text\">ٱلرُّشْدِ</a> فَـَٔامَنَّا بِهِۦ ۖ وَلَن نُّشْرِكَ بِرَبِّنَآ أَحَدًا",
+      "derivedForms": [
+        "رُشْدٌ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 10,
+      "text": "وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا",
+      "highlightedHtml": "وَأَنَّا لَا نَدْرِىٓ أَشَرٌّ أُرِيدَ بِمَن فِى ٱلْأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ <a class=\"highlight-text\">رَشَدًا</a>",
+      "derivedForms": [
+        "رَشَدٌ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 14,
+      "text": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَٰٓئِكَ تَحَرَّوْا۟ رَشَدًا",
+      "highlightedHtml": "وَأَنَّا مِنَّا ٱلْمُسْلِمُونَ وَمِنَّا ٱلْقَٰسِطُونَ ۖ فَمَنْ أَسْلَمَ فَأُو۟لَٰٓئِكَ تَحَرَّوْا۟ <a class=\"highlight-text\">رَشَدًا</a>",
+      "derivedForms": [
+        "رَشَدٌ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 21,
+      "text": "قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّا وَلَا رَشَدًا",
+      "highlightedHtml": "قُلْ إِنِّى لَآ أَمْلِكُ لَكُمْ ضَرًّا وَلَا <a class=\"highlight-text\">رَشَدًا</a>",
+      "derivedForms": [
+        "رَشَدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:24.215Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَرْشُدُونَ is in the derivative form: يَرْشُد",
+    "rootDefinitionHtml": "ر/ش/د   r–sh–d guidance, reason, good sense, correctness, to be rightly guided, to lead to the correct path, to seek guidance, directions, landmark, guide. <br><br>Of this root, 7 forms occur 19 times in the Qur’an:<br> يَرْشُد yarshud 1 time; رُشْدٌ rushd 6 times; رَشَدٌ rashad 5 times; رَشَادٌ rashād 2 times; رَاشِدُون rāshidūn 1 time; رَشِيدٌ rashıd 3 times and مُرْشِدٌ murshid 1 time.",
+    "mainDefinitionHtml": "يَرْشُد yarshud [imperf. of v. رَشَدَ rashada, intrans.] to follow the correct path <br><br>(2:186) فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ so let them respond to Me, and believe in Me, so that they may follow the right path.",
+    "mainEntryId": "wdef-ر-ش-د.يَرْشُد",
+    "entries": [
+      {
+        "id": "wdef-ر-ش-د",
+        "label": "ر-ش-د",
+        "definitionHtml": "ر/ش/د   r–sh–d guidance, reason, good sense, correctness, to be rightly guided, to lead to the correct path, to seek guidance, directions, landmark, guide. <br><br>Of this root, 7 forms occur 19 times in the Qur’an:<br> يَرْشُد yarshud 1 time; رُشْدٌ rushd 6 times; رَشَدٌ rashad 5 times; رَشَادٌ rashād 2 times; رَاشِدُون rāshidūn 1 time; رَشِيدٌ rashıd 3 times and مُرْشِدٌ murshid 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.يَرْشُد",
+        "label": "يَرْشُد",
+        "definitionHtml": "يَرْشُد yarshud [imperf. of v. رَشَدَ rashada, intrans.] to follow the correct path <br><br>(2:186) فَلْيَسْتَجِيبُوا لِي وَلْيُؤْمِنُوا بِي لَعَلَّهُمْ يَرْشُدُونَ so let them respond to Me, and believe in Me, so that they may follow the right path.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ش-د.رَاشِدُون",
+        "label": "رَاشِدُون",
+        "definitionHtml": "رَاشِدُون rāshidūn [pl. of act. part. رَاشِدٌ rāshid] one who follows the correct path; one who is sensible <br><br>(49:7) وَلَكِنَّ اللَّهَ حَبَّبَ إِلَيْكُمُ الإِيمَانَ وَزَيَّنَهُ فِى قُلُوبِكُمْ وَكَرَّهَ إِلَيْكُمُ الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ أُولَئِكَ هُمُ الرَّاشِدُونَ but God has endeared to you belief and made it beautiful in your hearts and He has made hateful to you disbelief, mischief and disobedience, those are the rightly guided.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.رَشَادٌ",
+        "label": "رَشَادٌ",
+        "definitionHtml": "رَشَادٌ rashād [n.] guidance, enlightenment <br><br>(40:38) يَاقَوْمِ اتَّبِعُونِ أَهْدِكُمْ سَبِيلَ الرَّشَادِ My people, follow me! I will guide you to the path of enlightenment.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.رَشَدٌ",
+        "label": "رَشَدٌ",
+        "definitionHtml": "رَشَدٌ rashad [n.] <br><br><strong>1 </strong>guidance, enlightenment, correct judgement <br><br>(18:10) رَبَّنَا ءَاتِنَا مِنْ لَدُنْكَ رَحْمَةً وَهَيِّئْ لَنَا مِنْ أَمْرِنَا رَشَدًا our Lord, grant us from You mercy, and furnish for us, out of our situation, guidance <br><br><strong>2 </strong>well‐being, goodness <br><br>(72:10) وَأَنَّا لاَ نَدْرِي أَشَرٌّ أُرِيدَ بِمَنْ فِى الأَرْضِ أَمْ أَرَادَ بِهِمْ رَبُّهُمْ رَشَدًا and so we do not know whether evil is intended for those who are on the earth, or whether their Lord intends for them goodness <br><br><strong>3 </strong>benefit <br><br>(72:21) إِنِّي لاَ أَمْلِكُ لَكُمْ ضَرًّا وَلاَ رَشَدًا I have no control over any harm or benefit that may come to you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.رَشِيدٌ",
+        "label": "رَشِيدٌ",
+        "definitionHtml": "رَشِيدٌ rashıd [intens. act. part.] <br><br><strong>1 </strong>sensible, right‐minded, endowed with good judgement <br><br>(11:78) فَاتَّقُوا اللَّهَ وَلاَ تُخْزُونِ فِى ضَيْفِي أَلَيْسَ مِنْكُمْ رَجُلٌ رَشِيدٌ so have some fear of God and do not disgrace me before my guests; is there not a single right‐minded man among you? <br><br><strong>2 </strong>one who leads to the right way <br><br>(11:97) فَاتَّبَعُوا أَمْرَ فِرْعَوْنَ وَمَا أَمْرُ فِرْعَوْنَ بِرَشِيدٍ but they followed Pharaoh’s orders, and Pharaoh’s orders were not rightly‐guiding.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.رُشْدٌ",
+        "label": "رُشْدٌ",
+        "definitionHtml": "رُشْدٌ rushd [n.] <br><br><strong>1 </strong>good sense, good judgement <br><br>(4:6) وَابْتَلُوا الْيَتَامَى حَتَّى إِذَا بَلَغُوا النِّكَاحَ فَإِنْ ءَانَسْتُمْ مِنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ test the orphans until they reach marriageable age, then, if you find they have sound judgement, hand over their property to them <br><br><strong>2 </strong>the right path, guidance <br><br>(72:1–2) إِنَّا سَمِعْنَا قُرْءَانًا عَجَبًا يَهْدِي إِلَى الرُّشْدِ we have heard a wondrous recital that gives guidance to the right path <br><br><strong>3 </strong>learning, knowledge <br><br>(18:66) هَلْ أَتَّبِعُكَ عَلَى أَنْ تُعَلِّمَنِ مِمَّا عُلِّمْتَ رُشْدًا may I follow you so that you can teach me (or, for guidance) some of the learning you have been taught?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ش-د.مُرْشِدٌ",
+        "label": "مُرْشِدٌ",
+        "definitionHtml": "مُرْشِدٌ murshid [act. part.] one who leads to the right way, a guide <br><br>(18:17) مَنْ يَهْدِ اللَّهُ فَهُوَ الْمُهْتَدِ وَمَنْ يُضْلِلْ فَلَنْ تَجِدَ لَهُ وَلِيًّا مُرْشِدًا he whom God guides is the guided one, and he whom He leads astray–for him you will find no guiding protector.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:55.741Z",
+      "refword": "2:186:17",
+      "lexword": "يَرْشُدُونَ"
+    }
+  }
+}

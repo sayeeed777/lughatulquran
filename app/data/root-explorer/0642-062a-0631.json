@@ -1,0 +1,202 @@
+{
+  "root": "قتر",
+  "rootArabic": "قتر",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 5,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "قَتَر",
+      "count": 1
+    },
+    {
+      "form": "قَتَرَةٌ",
+      "count": 1
+    },
+    {
+      "form": "قُتُور",
+      "count": 1
+    },
+    {
+      "form": "مُقْتِر",
+      "count": 1
+    },
+    {
+      "form": "يَقْتُر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْتِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَتَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قُتُور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقْتُر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَتَرَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 236,
+      "text": "لَّا جُنَاحَ عَلَيْكُمْ إِن طَلَّقْتُمُ ٱلنِّسَآءَ مَا لَمْ تَمَسُّوهُنَّ أَوْ تَفْرِضُوا۟ لَهُنَّ فَرِيضَةً ۚ وَمَتِّعُوهُنَّ عَلَى ٱلْمُوسِعِ قَدَرُهُۥ وَعَلَى ٱلْمُقْتِرِ قَدَرُهُۥ مَتَٰعًۢا بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "لَّا جُنَاحَ عَلَيْكُمْ إِن طَلَّقْتُمُ ٱلنِّسَآءَ مَا لَمْ تَمَسُّوهُنَّ أَوْ تَفْرِضُوا۟ لَهُنَّ فَرِيضَةً ۚ وَمَتِّعُوهُنَّ عَلَى ٱلْمُوسِعِ قَدَرُهُۥ وَعَلَى <a class=\"highlight-text\">ٱلْمُقْتِرِ</a> قَدَرُهُۥ مَتَٰعًۢا بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "مُقْتِر"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 26,
+      "text": "لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا ذِلَّةٌ ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ <a class=\"highlight-text\">قَتَرٌ</a> وَلَا ذِلَّةٌ ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "قَتَر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 100,
+      "text": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ قَتُورًا",
+      "highlightedHtml": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَٰنُ <a class=\"highlight-text\">قَتُورًا</a>",
+      "derivedForms": [
+        "قُتُور"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 67,
+      "text": "وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ <a class=\"highlight-text\">يَقْتُرُوا۟</a> وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا",
+      "derivedForms": [
+        "يَقْتُر"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 41,
+      "text": "تَرْهَقُهَا قَتَرَةٌ",
+      "highlightedHtml": "تَرْهَقُهَا <a class=\"highlight-text\">قَتَرَةٌ</a>",
+      "derivedForms": [
+        "قَتَرَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:32.545Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form IV) active participle",
+    "derivativeNote": "ٱلْمُقْتِرِ is in the derivative form: مُقْتِر",
+    "rootDefinitionHtml": "ق/ت/ر   q–t–r smell or fumes of roasting meat, black smoke, darkness, depression<br>; to be stingy; to be poor; opening in a wall; to group things together. <br><br>Of this root, 5 forms occur 1 time each in the Qur’an:<br> يَقْتُر yaqtur; قَتَر qatar; قَتَرَة qataratun; قُتُور qutūr and مُقْتِر muqtir.",
+    "mainDefinitionHtml": "مُقْتِر muqtir [quasi-act. part.] one who is needy, one in strained circumstances <br><br>(2:236) وَمَتِّعُوهُنَّ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ and make provision for them [at the termination of marriage], the affluent according to his means and the strained one according to his.",
+    "mainEntryId": "wdef-ق-ت-ر.مُقْتِر",
+    "entries": [
+      {
+        "id": "wdef-ق-ت-ر",
+        "label": "ق-ت-ر",
+        "definitionHtml": "ق/ت/ر   q–t–r smell or fumes of roasting meat, black smoke, darkness, depression<br>; to be stingy; to be poor; opening in a wall; to group things together. <br><br>Of this root, 5 forms occur 1 time each in the Qur’an:<br> يَقْتُر yaqtur; قَتَر qatar; قَتَرَة qataratun; قُتُور qutūr and مُقْتِر muqtir.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ت-ر.مُقْتِر",
+        "label": "مُقْتِر",
+        "definitionHtml": "مُقْتِر muqtir [quasi-act. part.] one who is needy, one in strained circumstances <br><br>(2:236) وَمَتِّعُوهُنَّ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ and make provision for them [at the termination of marriage], the affluent according to his means and the strained one according to his.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ت-ر.قَتَر",
+        "label": "قَتَر",
+        "definitionHtml": "قَتَر qatar [n.] darkness, dejection, gloom, melancholy, distress <br><br>(10:26) لِلَّذِينَ أَحْسَنُوا الْحُسْنَى وَزِيَادَةٌ وَلاَ يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلاَ ذِلَّةٌ for those who do good is goodness [itself] and more besides is [a reward most fair], and neither darkness nor abasement shall besmirch their reputation [lit. cover their faces]. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ت-ر.قَتَرَةٌ",
+        "label": "قَتَرَةٌ",
+        "definitionHtml": "قَتَرَةٌ qataratun [n.] distress, dejection, gloom, melancholy, darkness <br><br>(80:41) تَرْهَقُهَا قَتَرَةٌ smothered in darkness.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ت-ر.قُتُور",
+        "label": "قُتُور",
+        "definitionHtml": "قُتُور qatūr [quasi-intens. act. part.] very stingy, given to meanness, miserly, very grudging <br><br>(17:100) لَوْ أَنْتُمْ تَمْلِكُونَ خَزَائِنَ رَحْمَةِ رَبِّي إِذًا لأََمْسَكْتُمْ خَشْيَةَ الإِنْفَاقِ وَكَانَ الإِنْسَانُ قَتُورًا if you possessed the coffers of mercy of my Lord, you would hold back for fear of spending– man is ever stingy. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ت-ر.يَقْتُر",
+        "label": "يَقْتُر",
+        "definitionHtml": "يَقْتُر yaqtur [imperf. v., intrans.] to be niggardly, stingy, miserly <br><br>(25:67) وَالَّذِينَ إِذَا أَنْفَقُوا لَمْ يُسْرِفُوا وَلَمْ يَقْتُرُوا and those who, when they spend, they neither squander nor become stingy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:43.457Z",
+      "refword": "2:236:19",
+      "lexword": "ٱلْمُقْتِرِ"
+    }
+  }
+}

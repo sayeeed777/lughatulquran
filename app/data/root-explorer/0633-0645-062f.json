@@ -1,0 +1,74 @@
+{
+  "root": "سمد",
+  "rootArabic": "سمد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "سامِد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سامِد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 53,
+      "ayah": 61,
+      "text": "وَأَنتُمْ سَٰمِدُونَ",
+      "highlightedHtml": "وَأَنتُمْ <a class=\"highlight-text\">سَٰمِدُونَ</a>",
+      "derivedForms": [
+        "سامِد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:23.746Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural active participle",
+    "derivativeNote": "سَٰمِدُونَ is in the derivative form: سامِد",
+    "rootDefinitionHtml": "س/م/د   s–m–d to be elevated, to raise the head and thrust out the chest in pride; to be heedless; to be playful; to be careless. Of this root, only سامِدون sāmidūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "سامِد sāmid [act. part.] (one who is) proud; playful; rejoicing; heedless <br><br>(53:59–61) أَفَمِنْ‏ ‏هَذَا‏ ‏الْحَدِيثِ‏ ‏تَعْجَبُونَ‏ وَتَضْحَكُونَ‏ ‏وَلاَ‏ ‏تَبْكُونَ‏ وَأَنْتُمْ‏ ‏سَامِدُونَ‏‏ do you marvel at this statement, laughing heedlessly instead of weeping, and playfully amusing yourselves?",
+    "mainEntryId": "wdef-س-م-د.سامِد",
+    "entries": [
+      {
+        "id": "wdef-س-م-د",
+        "label": "س-م-د",
+        "definitionHtml": "س/م/د   s–m–d to be elevated, to raise the head and thrust out the chest in pride; to be heedless; to be playful; to be careless. Of this root, only سامِدون sāmidūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-م-د.سامِد",
+        "label": "سامِد",
+        "definitionHtml": "سامِد sāmid [act. part.] (one who is) proud; playful; rejoicing; heedless <br><br>(53:59–61) أَفَمِنْ‏ ‏هَذَا‏ ‏الْحَدِيثِ‏ ‏تَعْجَبُونَ‏ وَتَضْحَكُونَ‏ ‏وَلاَ‏ ‏تَبْكُونَ‏ وَأَنْتُمْ‏ ‏سَامِدُونَ‏‏ do you marvel at this statement, laughing heedlessly instead of weeping, and playfully amusing yourselves?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:53.675Z",
+      "refword": "53:61:2",
+      "lexword": "سَٰمِدُونَ"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "root": "ميد",
+  "rootArabic": "ميد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "تَمِيد",
+      "count": 3
+    },
+    {
+      "form": "مَائِدَة",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَائِدَة",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمِيد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمِيد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمِيد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 112,
+      "text": "إِذْ قَالَ ٱلْحَوَارِيُّونَ يَٰعِيسَى ٱبْنَ مَرْيَمَ هَلْ يَسْتَطِيعُ رَبُّكَ أَن يُنَزِّلَ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ ۖ قَالَ ٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "إِذْ قَالَ ٱلْحَوَارِيُّونَ يَٰعِيسَى ٱبْنَ مَرْيَمَ هَلْ يَسْتَطِيعُ رَبُّكَ أَن يُنَزِّلَ عَلَيْنَا <a class=\"highlight-text\">مَآئِدَةً</a> مِّنَ ٱلسَّمَآءِ ۖ قَالَ ٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "مَائِدَة"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 114,
+      "text": "قَالَ عِيسَى ٱبْنُ مَرْيَمَ ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًا لِّأَوَّلِنَا وَآخِرِنَا وَءَايَةً مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ",
+      "highlightedHtml": "قَالَ عِيسَى ٱبْنُ مَرْيَمَ ٱللَّهُمَّ رَبَّنَآ أَنزِلْ عَلَيْنَا <a class=\"highlight-text\">مَآئِدَةً</a> مِّنَ ٱلسَّمَآءِ تَكُونُ لَنَا عِيدًا لِّأَوَّلِنَا وَآخِرِنَا وَءَايَةً مِّنكَ ۖ وَٱرْزُقْنَا وَأَنتَ خَيْرُ ٱلرَّٰزِقِينَ",
+      "derivedForms": [
+        "مَائِدَة"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 15,
+      "text": "وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَأَنْهَٰرًا وَسُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ",
+      "highlightedHtml": "وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن <a class=\"highlight-text\">تَمِيدَ</a> بِكُمْ وَأَنْهَٰرًا وَسُبُلًا لَّعَلَّكُمْ تَهْتَدُونَ",
+      "derivedForms": [
+        "تَمِيد"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 31,
+      "text": "وَجَعَلْنَا فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِهِمْ وَجَعَلْنَا فِيهَا فِجَاجًا سُبُلًا لَّعَلَّهُمْ يَهْتَدُونَ",
+      "highlightedHtml": "وَجَعَلْنَا فِى ٱلْأَرْضِ رَوَٰسِىَ أَن <a class=\"highlight-text\">تَمِيدَ</a> بِهِمْ وَجَعَلْنَا فِيهَا فِجَاجًا سُبُلًا لَّعَلَّهُمْ يَهْتَدُونَ",
+      "derivedForms": [
+        "تَمِيد"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 10,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن <a class=\"highlight-text\">تَمِيدَ</a> بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "derivedForms": [
+        "تَمِيد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:51.660Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "مَآئِدَةً is in the derivative form: مَائِدَة",
+    "rootDefinitionHtml": "م/ي/د   m–y–d to shake, to sway, to fluctuate; to feed, to provide for, banquet, table laden with food, to grant favours to someone; a square. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَمِيد tamıd 3 times and مَائِدَة māʾidatun 2 times.",
+    "mainDefinitionHtml": "مَائِدَة māʾidatun [n.] a table spread with food <br><br>(5:114) اللَّهُمَّ رَبَّنَا أَنْزِلْ عَلَيْنَا مَائِدَةً مِنَ السَّمَاءِ God, our Lord, send down to us a table [spread] from heaven; * المَائِدَةًname of Sura 5, Medinan sura, so-named because of the reference in verses 112–<br><br><strong>5 </strong>to the ‘Table’ demanded of Christ by the Disciples.",
+    "mainEntryId": "wdef-م-ي-د.مَائِدَة",
+    "entries": [
+      {
+        "id": "wdef-م-ي-د",
+        "label": "م-ي-د",
+        "definitionHtml": "م/ي/د   m–y–d to shake, to sway, to fluctuate; to feed, to provide for, banquet, table laden with food, to grant favours to someone; a square. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَمِيد tamıd 3 times and مَائِدَة māʾidatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-د.مَائِدَة",
+        "label": "مَائِدَة",
+        "definitionHtml": "مَائِدَة māʾidatun [n.] a table spread with food <br><br>(5:114) اللَّهُمَّ رَبَّنَا أَنْزِلْ عَلَيْنَا مَائِدَةً مِنَ السَّمَاءِ God, our Lord, send down to us a table [spread] from heaven; * المَائِدَةًname of Sura 5, Medinan sura, so-named because of the reference in verses 112–<br><br><strong>5 </strong>to the ‘Table’ demanded of Christ by the Disciples.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ي-د.تَمِيد",
+        "label": "تَمِيد",
+        "definitionHtml": "تَمِيد tamıd [imperf. of v. māda, intrans.] to sway, to tumble about <br><br>(31:10) وَأَلْقَى فِى الأَرْضِ رَوَاسِيَ أَنْ تَمِيدَ and He cast upon the earth firm mountains, lest it should sway with you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:00.199Z",
+      "refword": "5:112:13",
+      "lexword": "مَآئِدَةً"
+    }
+  }
+}

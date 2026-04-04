@@ -1,0 +1,74 @@
+{
+  "root": "صعر",
+  "rootArabic": "صعر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُصَعِّر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُصَعِّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 31,
+      "ayah": 18,
+      "text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تُصَعِّرْ</a> خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "derivedForms": [
+        "تُصَعِّر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:55.838Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form II) imperfect verb, jussive mood",
+    "derivativeNote": "تُصَعِّرْ is in the derivative form: تُصَعِّر",
+    "rootDefinitionHtml": "ص/ع/ر   ṣ–ʿ–r (in camels) a disease that causes a distortion and twisting of the neck to 1 side; to turn away one’s cheek from people out of contempt arising from pride. Of this root, 1 form, تُصَعِّر tuṣaʿʿir, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُصَعِّر tuṣaʿʿir [imperf. of v. II, trans.] to turn the cheek away, or toward, in pride <br><br>(31:18) وَلاَ تُصَعِّرْ خَدَّكَ لِلنَّاسِ do not arrogantly turn your cheek toward/away from people.",
+    "mainEntryId": "wdef-ص-ع-ر.تُصَعِّر",
+    "entries": [
+      {
+        "id": "wdef-ص-ع-ر",
+        "label": "ص-ع-ر",
+        "definitionHtml": "ص/ع/ر   ṣ–ʿ–r (in camels) a disease that causes a distortion and twisting of the neck to 1 side; to turn away one’s cheek from people out of contempt arising from pride. Of this root, 1 form, تُصَعِّر tuṣaʿʿir, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-ر.تُصَعِّر",
+        "label": "تُصَعِّر",
+        "definitionHtml": "تُصَعِّر tuṣaʿʿir [imperf. of v. II, trans.] to turn the cheek away, or toward, in pride <br><br>(31:18) وَلاَ تُصَعِّرْ خَدَّكَ لِلنَّاسِ do not arrogantly turn your cheek toward/away from people.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:52.279Z",
+      "refword": "31:18:2",
+      "lexword": "تُصَعِّرْ"
+    }
+  }
+}

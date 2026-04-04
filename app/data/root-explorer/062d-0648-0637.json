@@ -1,0 +1,550 @@
+{
+  "root": "حوط",
+  "rootArabic": "حوط",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 3,
+    "surahCount": 18,
+    "ayahCount": 27
+  },
+  "derivatives": [
+    {
+      "form": "أَحَاطَ",
+      "count": 14
+    },
+    {
+      "form": "مُحِيطٌ",
+      "count": 11
+    },
+    {
+      "form": "أُحِيطَ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        },
+        {
+          "form": "أُحِيطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أُحِيطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 3,
+          "totalInQuran": 14
+        },
+        {
+          "form": "أُحِيطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 3,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَاطَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحِيطٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 19,
+      "text": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ ۚ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+      "highlightedHtml": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ ۚ وَٱللَّهُ <a class=\"highlight-text\">مُحِيطٌۢ</a> بِٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 81,
+      "text": "بَلَىٰ مَن كَسَبَ سَيِّئَةً وَأَحَٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "بَلَىٰ مَن كَسَبَ سَيِّئَةً <a class=\"highlight-text\">وَأَحَٰطَتْ</a> بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 255,
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "highlightedHtml": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا <a class=\"highlight-text\">يُحِيطُونَ</a> بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 120,
+      "text": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ مُحِيطٌ",
+      "highlightedHtml": "إِن تَمْسَسْكُمْ حَسَنَةٌ تَسُؤْهُمْ وَإِن تُصِبْكُمْ سَيِّئَةٌ يَفْرَحُوا۟ بِهَا ۖ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ لَا يَضُرُّكُمْ كَيْدُهُمْ شَيْـًٔا ۗ إِنَّ ٱللَّهَ بِمَا يَعْمَلُونَ <a class=\"highlight-text\">مُحِيطٌ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 108,
+      "text": "يَسْتَخْفُونَ مِنَ ٱلنَّاسِ وَلَا يَسْتَخْفُونَ مِنَ ٱللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ ٱلْقَوْلِ ۚ وَكَانَ ٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطًا",
+      "highlightedHtml": "يَسْتَخْفُونَ مِنَ ٱلنَّاسِ وَلَا يَسْتَخْفُونَ مِنَ ٱللَّهِ وَهُوَ مَعَهُمْ إِذْ يُبَيِّتُونَ مَا لَا يَرْضَىٰ مِنَ ٱلْقَوْلِ ۚ وَكَانَ ٱللَّهُ بِمَا يَعْمَلُونَ <a class=\"highlight-text\">مُحِيطًا</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 126,
+      "text": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ مُّحِيطًا",
+      "highlightedHtml": "وَلِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ <a class=\"highlight-text\">مُّحِيطًا</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 47,
+      "text": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِم بَطَرًا وَرِئَآءَ ٱلنَّاسِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۚ وَٱللَّهُ بِمَا يَعْمَلُونَ مُحِيطٌ",
+      "highlightedHtml": "وَلَا تَكُونُوا۟ كَٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِم بَطَرًا وَرِئَآءَ ٱلنَّاسِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۚ وَٱللَّهُ بِمَا يَعْمَلُونَ <a class=\"highlight-text\">مُحِيطٌ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 49,
+      "text": "وَمِنْهُم مَّن يَقُولُ ٱئْذَن لِّى وَلَا تَفْتِنِّىٓ ۚ أَلَا فِى ٱلْفِتْنَةِ سَقَطُوا۟ ۗ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَقُولُ ٱئْذَن لِّى وَلَا تَفْتِنِّىٓ ۚ أَلَا فِى ٱلْفِتْنَةِ سَقَطُوا۟ ۗ وَإِنَّ جَهَنَّمَ <a class=\"highlight-text\">لَمُحِيطَةٌۢ</a> بِٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 22,
+      "text": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ <a class=\"highlight-text\">أُحِيطَ</a> بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "أُحِيطَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 39,
+      "text": "بَلْ كَذَّبُوا۟ بِمَا لَمْ يُحِيطُوا۟ بِعِلْمِهِۦ وَلَمَّا يَأْتِهِمْ تَأْوِيلُهُۥ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "بَلْ كَذَّبُوا۟ بِمَا لَمْ <a class=\"highlight-text\">يُحِيطُوا۟</a> بِعِلْمِهِۦ وَلَمَّا يَأْتِهِمْ تَأْوِيلُهُۥ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 84,
+      "text": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "highlightedHtml": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ <a class=\"highlight-text\">مُّحِيطٍ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 92,
+      "text": "قَالَ يَٰقَوْمِ أَرَهْطِىٓ أَعَزُّ عَلَيْكُم مِّنَ ٱللَّهِ وَٱتَّخَذْتُمُوهُ وَرَآءَكُمْ ظِهْرِيًّا ۖ إِنَّ رَبِّى بِمَا تَعْمَلُونَ مُحِيطٌ",
+      "highlightedHtml": "قَالَ يَٰقَوْمِ أَرَهْطِىٓ أَعَزُّ عَلَيْكُم مِّنَ ٱللَّهِ وَٱتَّخَذْتُمُوهُ وَرَآءَكُمْ ظِهْرِيًّا ۖ إِنَّ رَبِّى بِمَا تَعْمَلُونَ <a class=\"highlight-text\">مُحِيطٌ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 66,
+      "text": "قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن يُحَاطَ بِكُمْ ۖ فَلَمَّآ آتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌ",
+      "highlightedHtml": "قَالَ لَنْ أُرْسِلَهُۥ مَعَكُمْ حَتَّىٰ تُؤْتُونِ مَوْثِقًا مِّنَ ٱللَّهِ لَتَأْتُنَّنِى بِهِۦٓ إِلَّآ أَن <a class=\"highlight-text\">يُحَاطَ</a> بِكُمْ ۖ فَلَمَّآ آتَوْهُ مَوْثِقَهُمْ قَالَ ٱللَّهُ عَلَىٰ مَا نَقُولُ وَكِيلٌ",
+      "derivedForms": [
+        "أُحِيطَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 60,
+      "text": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًا كَبِيرًا",
+      "highlightedHtml": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ <a class=\"highlight-text\">أَحَاطَ</a> بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًا كَبِيرًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 29,
+      "text": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "highlightedHtml": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا <a class=\"highlight-text\">أَحَاطَ</a> بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 42,
+      "text": "وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأُحِيطَ</a> بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا",
+      "derivedForms": [
+        "أُحِيطَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 68,
+      "text": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ تُحِطْ بِهِۦ خُبْرًا",
+      "highlightedHtml": "وَكَيْفَ تَصْبِرُ عَلَىٰ مَا لَمْ <a class=\"highlight-text\">تُحِطْ</a> بِهِۦ خُبْرًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 91,
+      "text": "كَذَٰلِكَ وَقَدْ أَحَطْنَا بِمَا لَدَيْهِ خُبْرًا",
+      "highlightedHtml": "كَذَٰلِكَ وَقَدْ <a class=\"highlight-text\">أَحَطْنَا</a> بِمَا لَدَيْهِ خُبْرًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 110,
+      "text": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِهِۦ عِلْمًا",
+      "highlightedHtml": "يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا <a class=\"highlight-text\">يُحِيطُونَ</a> بِهِۦ عِلْمًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 22,
+      "text": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍ يَقِينٍ",
+      "highlightedHtml": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ <a class=\"highlight-text\">أَحَطتُ</a> بِمَا لَمْ <a class=\"highlight-text\">تُحِطْ</a> بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍ يَقِينٍ",
+      "derivedForms": [
+        "أَحَاطَ",
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 84,
+      "text": "حَتَّىٰٓ إِذَا جَآءُو قَالَ أَكَذَّبْتُم بِـَٔايَٰتِى وَلَمْ تُحِيطُوا۟ بِهَا عِلْمًا أَمَّاذَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا جَآءُو قَالَ أَكَذَّبْتُم بِـَٔايَٰتِى وَلَمْ <a class=\"highlight-text\">تُحِيطُوا۟</a> بِهَا عِلْمًا أَمَّاذَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 54,
+      "text": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَٰفِرِينَ",
+      "highlightedHtml": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ <a class=\"highlight-text\">لَمُحِيطَةٌۢ</a> بِٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 54,
+      "text": "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ",
+      "highlightedHtml": "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ <a class=\"highlight-text\">مُّحِيطٌۢ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 21,
+      "text": "وَأُخْرَى لَمْ تَقْدِرُوا۟ عَلَيْهَا قَدْ أَحَاطَ ٱللَّهُ بِهَا ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرًا",
+      "highlightedHtml": "وَأُخْرَى لَمْ تَقْدِرُوا۟ عَلَيْهَا قَدْ <a class=\"highlight-text\">أَحَاطَ</a> ٱللَّهُ بِهَا ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرًا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 12,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ <a class=\"highlight-text\">أَحَاطَ</a> بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 28,
+      "text": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَٰلَٰتِ رَبِّهِمْ وَأَحَاطَ بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا",
+      "highlightedHtml": "لِّيَعْلَمَ أَن قَدْ أَبْلَغُوا۟ رِسَٰلَٰتِ رَبِّهِمْ <a class=\"highlight-text\">وَأَحَاطَ</a> بِمَا لَدَيْهِمْ وَأَحْصَىٰ كُلَّ شَىْءٍ عَدَدًۢا",
+      "derivedForms": [
+        "أَحَاطَ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 20,
+      "text": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
+      "highlightedHtml": "وَٱللَّهُ مِن وَرَآئِهِم <a class=\"highlight-text\">مُّحِيطٌۢ</a>",
+      "derivedForms": [
+        "مُحِيطٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:49.226Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form IV) active participle",
+    "derivativeNote": "مُحِيطٌۢ is in the derivative form: مُحِيطٌ",
+    "rootDefinitionHtml": "ح/و/ط   ḥ–w–ṭ wall, fence, to encircle, to encompass, to protect<br>; to comprehend; to be careful, to guard against; to overwhelm, to overtake. <br><br>Of this root, 4 forms occur 28 times in the Qur’an:<br> أَحَاطَ ʾaḥāṭa 14 times, أُحِيطَ ʾuḥıṭa 3 times; مُحِيطٌ muḥıṭ 9 times and مُحِيطَةٌ muḥıṭatun 2 times.",
+    "mainDefinitionHtml": "مُحِيطٌ muḥıṭ [quasi‐act. part.; fem. مُحِيطَةٌ muḥıṭatun] <br><br><strong>1 </strong>that which/who encompasses or overtakes from all directions <br><br>(29:54) يَسْتَعْجِلُونَكَ بِالْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌ بِالْكَافِرِينَ they challenge you to hasten the punishment: Hell will encompass all those who deny the truth <br><br><strong>2 </strong>one who collects and gathers together (in an interpretation of verse 2:19) وَاللَّهُ مُحِيطٌ بِالْكَافِرِينَ but God will collect together the disbelievers [on the Day of Resurrection] (or, He will surround them) <br><br><strong>3 </strong>[an attribute of God] All‐Encompassing, All‐ Comprehending <br><br>(41:54) أَلاَ إِنَّهُ بِكُلِّ شَيْءٍ مُحِيطٌ truly He is encompassing everything.",
+    "mainEntryId": "wdef-ح-و-ط.مُحِيطٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-و-ط",
+        "label": "ح-و-ط",
+        "definitionHtml": "ح/و/ط   ḥ–w–ṭ wall, fence, to encircle, to encompass, to protect<br>; to comprehend; to be careful, to guard against; to overwhelm, to overtake. <br><br>Of this root, 4 forms occur 28 times in the Qur’an:<br> أَحَاطَ ʾaḥāṭa 14 times, أُحِيطَ ʾuḥıṭa 3 times; مُحِيطٌ muḥıṭ 9 times and مُحِيطَةٌ muḥıṭatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ط.مُحِيطٌ",
+        "label": "مُحِيطٌ",
+        "definitionHtml": "مُحِيطٌ muḥıṭ [quasi‐act. part.; fem. مُحِيطَةٌ muḥıṭatun] <br><br><strong>1 </strong>that which/who encompasses or overtakes from all directions <br><br>(29:54) يَسْتَعْجِلُونَكَ بِالْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌ بِالْكَافِرِينَ they challenge you to hasten the punishment: Hell will encompass all those who deny the truth <br><br><strong>2 </strong>one who collects and gathers together (in an interpretation of verse 2:19) وَاللَّهُ مُحِيطٌ بِالْكَافِرِينَ but God will collect together the disbelievers [on the Day of Resurrection] (or, He will surround them) <br><br><strong>3 </strong>[an attribute of God] All‐Encompassing, All‐ Comprehending <br><br>(41:54) أَلاَ إِنَّهُ بِكُلِّ شَيْءٍ مُحِيطٌ truly He is encompassing everything.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-و-ط.أَحَاطَ",
+        "label": "أَحَاطَ",
+        "definitionHtml": "أَحَاطَ ʾaḥāṭa [v. IV, intrans. with prep. بـ] <br><br><strong>1 </strong>to surround, to enclose, to envelop from all sides <br><br>(18:29) إِنَّا أَعْتَدْنَا لِلظَّالِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا We have prepared for the wrongdoers a Fire whose pavilion will surround them on all sides <br><br><strong>2 </strong>to learn, to comprehend, to gain full knowledge of <br><br>(27:22) أَحَطتُ بِمَا لَمْ تُحِطْ بِهِ وَجِئْتُكَ مِنْ سَبَإٍ بِنَبَإٍ يَقِينٍ I have learned something you did not know, and I have brought to you from Sheba a sure item of news <br><br><strong>3 </strong>to overwhelm, to engulf, to take control <br><br>(2:81) بَلَى مَنْ كَسَبَ سَيِّئَةً وَأَحَاطَتْ بِهِ خَطِيئَتُهُ truly those who do evil and whose sins have overwhelmed them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ط.أُحِيطَ",
+        "label": "أُحِيطَ",
+        "definitionHtml": "أُحِيطَ ʾuḥıṭa [pass. of v. IV, with prep. بـ] <br><br><strong>1 </strong>to be encircled from all directions, to become trapped, to be in mortal danger <br><br>(10:22) جَاءَتْهَا رِيحٌ عَاصِفٌ وَجَاءَهُمُ الْمَوْجُ مِنْ كُلِّ مَكَانٍ وَظَنُّوا أَنَّهُمْ أُحِيطَ بِهِمْ there comes upon them a stormy wind, and waves come at them from every side, and they think they are encompassed <br><br><strong>2 </strong>to be prevented, to be incapacitated, to be besieged <br><br>(12:66) قَالَ لَنْ أُرْسِلَهُ مَعَكُمْ حَتَّى تُؤْتُونِ مَوْثِقًا مِنَ اللَّهِ لَتَأْتُنَّنِي بِهِ إِلاَّ أَنْ يُحَاطَ بِكُمْ he said, ‘Never will I send him with you until you have given me a pledge by God that you will bring him back to me unless you are prevented.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:02.080Z",
+      "refword": "2:19:18",
+      "lexword": "مُحِيطٌۢ"
+    }
+  }
+}

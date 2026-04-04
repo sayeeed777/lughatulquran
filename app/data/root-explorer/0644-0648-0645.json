@@ -1,0 +1,359 @@
+{
+  "root": "لوم",
+  "rootArabic": "لوم",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 7,
+    "surahCount": 10,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "مَلُوم",
+      "count": 5
+    },
+    {
+      "form": "لامَ",
+      "count": 3
+    },
+    {
+      "form": "مُلِيم",
+      "count": 2
+    },
+    {
+      "form": "لائِم",
+      "count": 1
+    },
+    {
+      "form": "لَوَّامَةٌ",
+      "count": 1
+    },
+    {
+      "form": "لَوْمَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يَتَلاوَمُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لائِم",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "لَوْمَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لامَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لامَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَلُوم",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَلُوم",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُلِيم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَلُوم",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "مُلِيم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَلاوَمُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَلُوم",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَوَّامَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 54,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَن يَرْتَدَّ مِنكُمْ عَن دِينِهِۦ فَسَوْفَ يَأْتِى ٱللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُۥٓ أَذِلَّةٍ عَلَى ٱلْمُؤْمِنِينَ أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ يُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ لَوْمَةَ لَآئِمٍ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَن يَرْتَدَّ مِنكُمْ عَن دِينِهِۦ فَسَوْفَ يَأْتِى ٱللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُۥٓ أَذِلَّةٍ عَلَى ٱلْمُؤْمِنِينَ أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ يُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ <a class=\"highlight-text\">لَوْمَةَ</a> <a class=\"highlight-text\">لَآئِمٍ</a> ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "derivedForms": [
+        "لَوْمَةٌ",
+        "لائِم"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 32,
+      "text": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ آمُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ ٱلصَّٰغِرِينَ",
+      "highlightedHtml": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى <a class=\"highlight-text\">لُمْتُنَّنِى</a> فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ آمُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ ٱلصَّٰغِرِينَ",
+      "derivedForms": [
+        "لامَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 22,
+      "text": "وَقَالَ ٱلشَّيْطَٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلشَّيْطَٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا <a class=\"highlight-text\">تَلُومُونِى</a> <a class=\"highlight-text\">وَلُومُوٓا۟</a> أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "لامَ",
+        "لامَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 29,
+      "text": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ فَتَقْعُدَ مَلُومًا مَّحْسُورًا",
+      "highlightedHtml": "وَلَا تَجْعَلْ يَدَكَ مَغْلُولَةً إِلَىٰ عُنُقِكَ وَلَا تَبْسُطْهَا كُلَّ ٱلْبَسْطِ فَتَقْعُدَ <a class=\"highlight-text\">مَلُومًا</a> مَّحْسُورًا",
+      "derivedForms": [
+        "مَلُوم"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 39,
+      "text": "ذَٰلِكَ مِمَّآ أَوْحَىٰٓ إِلَيْكَ رَبُّكَ مِنَ ٱلْحِكْمَةِ ۗ وَلَا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتُلْقَىٰ فِى جَهَنَّمَ مَلُومًا مَّدْحُورًا",
+      "highlightedHtml": "ذَٰلِكَ مِمَّآ أَوْحَىٰٓ إِلَيْكَ رَبُّكَ مِنَ ٱلْحِكْمَةِ ۗ وَلَا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتُلْقَىٰ فِى جَهَنَّمَ <a class=\"highlight-text\">مَلُومًا</a> مَّدْحُورًا",
+      "derivedForms": [
+        "مَلُوم"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 6,
+      "text": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
+      "highlightedHtml": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ <a class=\"highlight-text\">مَلُومِينَ</a>",
+      "derivedForms": [
+        "مَلُوم"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 142,
+      "text": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌ",
+      "highlightedHtml": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ <a class=\"highlight-text\">مُلِيمٌ</a>",
+      "derivedForms": [
+        "مُلِيم"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 40,
+      "text": "فَأَخَذْنَٰهُ وَجُنُودَهُۥ فَنَبَذْنَٰهُمْ فِى ٱلْيَمِّ وَهُوَ مُلِيمٌ",
+      "highlightedHtml": "فَأَخَذْنَٰهُ وَجُنُودَهُۥ فَنَبَذْنَٰهُمْ فِى ٱلْيَمِّ وَهُوَ <a class=\"highlight-text\">مُلِيمٌ</a>",
+      "derivedForms": [
+        "مُلِيم"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 54,
+      "text": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ بِمَلُومٍ",
+      "highlightedHtml": "فَتَوَلَّ عَنْهُمْ فَمَآ أَنتَ <a class=\"highlight-text\">بِمَلُومٍ</a>",
+      "derivedForms": [
+        "مَلُوم"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 30,
+      "text": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ يَتَلَٰوَمُونَ",
+      "highlightedHtml": "فَأَقْبَلَ بَعْضُهُمْ عَلَىٰ بَعْضٍ <a class=\"highlight-text\">يَتَلَٰوَمُونَ</a>",
+      "derivedForms": [
+        "يَتَلاوَمُون"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 30,
+      "text": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
+      "highlightedHtml": "إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُمْ فَإِنَّهُمْ غَيْرُ <a class=\"highlight-text\">مَلُومِينَ</a>",
+      "derivedForms": [
+        "مَلُوم"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 2,
+      "text": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ ٱللَّوَّامَةِ",
+      "highlightedHtml": "وَلَآ أُقْسِمُ بِٱلنَّفْسِ <a class=\"highlight-text\">ٱللَّوَّامَةِ</a>",
+      "derivedForms": [
+        "لَوَّامَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:52.760Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine noun",
+    "derivativeNote": "لَوْمَةَ is in the derivative form: لَوْمَةٌ",
+    "rootDefinitionHtml": "ل/و/م   l–w–m to blame, to censure, to rebuke, to be deserving of blame<br>; to linger; need; hardship; person, silhouette. <br><br>Of this root, 8 forms occur 14 times in the Qur’an:<br> لامَ lāma 3 times; يَتَلاوَمُون yatalāwamūn 1 time; لَوْمَةٌ lawmatun 8 times; لائِم lāʾim 1 time;لَوَّامَةٌ lawwāmatun 1 time; مَلُوم malūm 3 times; مَلُومِين malūmın 2 times and مُلِيم mulım 2 times.",
+    "mainDefinitionHtml": "لَوْمَةٌ lawmatun [v. n., of instance] censure, reproof, rebuke <br><br>(5:54) لاَئِم‏ ‏وَلاَ‏ ‏يَخَافُونَ‏ ‏لَوْمَةَ and they do not fear the blame of any who may blame.",
+    "mainEntryId": "wdef-ل-و-م.لَوْمَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ل-و-م",
+        "label": "ل-و-م",
+        "definitionHtml": "ل/و/م   l–w–m to blame, to censure, to rebuke, to be deserving of blame<br>; to linger; need; hardship; person, silhouette. <br><br>Of this root, 8 forms occur 14 times in the Qur’an:<br> لامَ lāma 3 times; يَتَلاوَمُون yatalāwamūn 1 time; لَوْمَةٌ lawmatun 8 times; لائِم lāʾim 1 time;لَوَّامَةٌ lawwāmatun 1 time; مَلُوم malūm 3 times; مَلُومِين malūmın 2 times and مُلِيم mulım 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.لَوْمَةٌ",
+        "label": "لَوْمَةٌ",
+        "definitionHtml": "لَوْمَةٌ lawmatun [v. n., of instance] censure, reproof, rebuke <br><br>(5:54) لاَئِم‏ ‏وَلاَ‏ ‏يَخَافُونَ‏ ‏لَوْمَةَ and they do not fear the blame of any who may blame.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-و-م.لائِم",
+        "label": "لائِم",
+        "definitionHtml": "لائِم lāʾim [act. part.] one who censures, reproves, rebukes <br><br>(5:54) ِ‏ ‏وَلاَ‏ ‏يَخَافُونَ‏ ‏لَوْمَة لاَئِمٍ‏and they do not fear the blame of any who may blame.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.لامَ",
+        "label": "لامَ",
+        "definitionHtml": "لامَ lāma u [v. trans.] to censure, to blame, to scold, to rebuke <br><br>(12:32) قَالَتْ‏ ‏فَذَلِكُنَّ‏ ‏الَّذِي‏ ‏لُمْتُنَّنِي فِيهِ‏ she said, ‘That is the one you blamed me for.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.لَوَّامَةٌ",
+        "label": "لَوَّامَةٌ",
+        "definitionHtml": "لَوَّامَةٌ lawwāmatun [intens. fem. quasi‐act. part.] one given to censuring, reproaching, rebuking, blaming <br><br>(75:2)‏وَلاَ‏ ‏أُقْسِمُ‏ ‏بِالنَّفْسِ‏ ‏اللَّوَّامَةِ‏ and I do [lit. I do not] swear by the ever self‐reproaching soul.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.مَلُوم",
+        "label": "مَلُوم",
+        "definitionHtml": "مَلُوم malūm [pass. part., pl. مَلُومِين malūmın] blamed, censured, rebuked <br><br>(17:39)‏ ‏جَهَنَّمَ‏ ‏مَلُومًا‏ ‏مَدْحُورًا‏ وَلاَ‏ ‏تَجْعَلْ‏ ‏مَعَ‏ ‏اللَّهِ‏ ‏إِلَهًا‏ ‏ءَاخَرَ‏ ‏فَتُلْقَى‏ ‏فِي‏ do not set up another deity beside God, or you will be thrown into Hell, blamed, cast out.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.مُلِيم",
+        "label": "مُلِيم",
+        "definitionHtml": "مُلِيم mulım [quasi‐act. part.] deserving of blame, censure, rebuke <br><br>(37:142) فَالْتَقَمَهُ‏ ‏الْحُوتُ‏ ‏وَهُوَ‏ ‏مُلِيمٌ‏ so the great fish swallowed him while he was blameworthy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-م.يَتَلاوَمُون",
+        "label": "يَتَلاوَمُون",
+        "definitionHtml": "يَتَلاوَمُون yatalāwamūn [imperf. v. VI, intrans.] to exchange blame, to reproach one another <br><br>(68:30) ‏يَتَلاَوَمُونَ‏ فَأَقْبَلَ‏ ‏بَعْضُهُمْ‏ ‏عَلَى‏ ‏بَعْضٍ‏ and then they turned to each other in mutual reproach.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:06.432Z",
+      "refword": "5:54:27",
+      "lexword": "لَوْمَةَ"
+    }
+  }
+}

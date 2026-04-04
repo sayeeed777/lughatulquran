@@ -1,0 +1,179 @@
+{
+  "root": "شرع",
+  "rootArabic": "شرع",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "شَرَعَ",
+      "count": 2
+    },
+    {
+      "form": "شُرَّعًا",
+      "count": 1
+    },
+    {
+      "form": "شِرْعةً",
+      "count": 1
+    },
+    {
+      "form": "شَريعةٍ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِرْعةً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شُرَّعًا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شَرَعَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَريعةٍ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 48,
+      "text": "وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلْكِتَٰبِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "highlightedHtml": "وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلْكِتَٰبِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ <a class=\"highlight-text\">شِرْعَةً</a> وَمِنْهَاجًا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "derivedForms": [
+        "شِرْعةً"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 163,
+      "text": "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى ٱلسَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ",
+      "highlightedHtml": "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى ٱلسَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ <a class=\"highlight-text\">شُرَّعًا</a> وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ",
+      "derivedForms": [
+        "شُرَّعًا"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 13,
+      "text": "شَرَعَ لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ",
+      "highlightedHtml": "<a class=\"highlight-text\">شَرَعَ</a> لَكُم مِّنَ ٱلدِّينِ مَا وَصَّىٰ بِهِۦ نُوحًا وَٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَمَا وَصَّيْنَا بِهِۦٓ إِبْرَٰهِيمَ وَمُوسَىٰ وَعِيسَىٰٓ ۖ أَنْ أَقِيمُوا۟ ٱلدِّينَ وَلَا تَتَفَرَّقُوا۟ فِيهِ ۚ كَبُرَ عَلَى ٱلْمُشْرِكِينَ مَا تَدْعُوهُمْ إِلَيْهِ ۚ ٱللَّهُ يَجْتَبِىٓ إِلَيْهِ مَن يَشَآءُ وَيَهْدِىٓ إِلَيْهِ مَن يُنِيبُ",
+      "derivedForms": [
+        "شَرَعَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 21,
+      "text": "أَمْ لَهُمْ شُرَكَٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "أَمْ لَهُمْ شُرَكَٰٓؤُا۟ <a class=\"highlight-text\">شَرَعُوا۟</a> لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "شَرَعَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 18,
+      "text": "ثُمَّ جَعَلْنَٰكَ عَلَىٰ شَرِيعَةٍ مِّنَ ٱلْأَمْرِ فَٱتَّبِعْهَا وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ لَا يَعْلَمُونَ",
+      "highlightedHtml": "ثُمَّ جَعَلْنَٰكَ عَلَىٰ <a class=\"highlight-text\">شَرِيعَةٍ</a> مِّنَ ٱلْأَمْرِ فَٱتَّبِعْهَا وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "شَريعةٍ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:00.912Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "شِرْعَةً is in the derivative form: شِرْعةً",
+    "rootDefinitionHtml": "ش/ر/ع   sh–r–ʿ to enter into, to begin to do, (of cattle) to come to water to drink, paths leading to drinking spots, to drink with the hand<br>; (of houses) to have the door open; to make plain or manifest, to strip off; to be similar, to be equal; to reach for; ways; law. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> شَرَعَ sharaʿa 2 times; شُرَّعاً shurraʿan 1 time; شِرْعةً shirʿatan 1 time and شَريعةٍ sharıʿatin 1 time.",
+    "mainDefinitionHtml": "شِرْعةً shirʿatun [n.] a law, legislation from God, divine way of religion <br><br>(5:48) لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَمِنْهَاجًا to each of you We have assigned a law and a path.",
+    "mainEntryId": "wdef-ش-ر-ع.شِرْعةً",
+    "entries": [
+      {
+        "id": "wdef-ش-ر-ع",
+        "label": "ش-ر-ع",
+        "definitionHtml": "ش/ر/ع   sh–r–ʿ to enter into, to begin to do, (of cattle) to come to water to drink, paths leading to drinking spots, to drink with the hand<br>; (of houses) to have the door open; to make plain or manifest, to strip off; to be similar, to be equal; to reach for; ways; law. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> شَرَعَ sharaʿa 2 times; شُرَّعاً shurraʿan 1 time; شِرْعةً shirʿatan 1 time and شَريعةٍ sharıʿatin 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ر-ع.شِرْعةً",
+        "label": "شِرْعةً",
+        "definitionHtml": "شِرْعةً shirʿatun [n.] a law, legislation from God, divine way of religion <br><br>(5:48) لِكُلٍّ جَعَلْنَا مِنْكُمْ شِرْعَةً وَمِنْهَاجًا to each of you We have assigned a law and a path.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ر-ع.شَريعةٍ",
+        "label": "شَريعةٍ",
+        "definitionHtml": "شَريعةٍ sharıʿatun [n.] clear path, legislation from God <br><br>(45:18) ثُمَّ جَعَلْنَاكَ عَلَى شَرِيعَة مِنَ الأَمْرِ فَاتَّبِعْهَا now We have set you [Muḥammad] on a clear path, so follow it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ر-ع.شَرَعَ",
+        "label": "شَرَعَ",
+        "definitionHtml": "شَرَعَ sharaʿa a [v. trans.] to legislate, to lay down as part of the faith, to ordain <br><br>(42:13) شَرَعَ لَكُمْ مِنَ الدِّينِ مَا وَصَّى بِهِ نُوحًا He has ordained for you in matters of faith, what He commanded to Noah.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ر-ع.شُرَّعًا",
+        "label": "شُرَّعًا",
+        "definitionHtml": "شُرَّعًا shurraʿan [pl. of act. part. شارِع shāriʿ] visibly, openly for all to see <br><br>(7:163) إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا when their fish visibly come to them on their Sabbath day.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:05.220Z",
+      "refword": "5:48:28",
+      "lexword": "شِرْعَةً"
+    }
+  }
+}

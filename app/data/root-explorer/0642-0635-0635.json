@@ -1,0 +1,493 @@
+{
+  "root": "قصص",
+  "rootArabic": "قصص",
+  "stats": {
+    "totalOccurrences": 30,
+    "derivativeCount": 3,
+    "surahCount": 14,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "قَصَّ",
+      "count": 20
+    },
+    {
+      "form": "قَصَص",
+      "count": 6
+    },
+    {
+      "form": "قِصاَص",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قِصاَص",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصَص",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قِصاَص",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 4,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَصَص",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَصَص",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَصَص",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        },
+        {
+          "form": "قَصَص",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَصَّ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 178,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ <a class=\"highlight-text\">ٱلْقِصَاصُ</a> فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "قِصاَص"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 179,
+      "text": "وَلَكُمْ فِى ٱلْقِصَاصِ حَيَوٰةٌ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ لَعَلَّكُمْ تَتَّقُونَ",
+      "highlightedHtml": "وَلَكُمْ فِى <a class=\"highlight-text\">ٱلْقِصَاصِ</a> حَيَوٰةٌ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ لَعَلَّكُمْ تَتَّقُونَ",
+      "derivedForms": [
+        "قِصاَص"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 194,
+      "text": "ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ وَٱلْحُرُمَٰتُ قِصَاصٌ ۚ فَمَنِ ٱعْتَدَىٰ عَلَيْكُمْ فَٱعْتَدُوا۟ عَلَيْهِ بِمِثْلِ مَا ٱعْتَدَىٰ عَلَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
+      "highlightedHtml": "ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ وَٱلْحُرُمَٰتُ <a class=\"highlight-text\">قِصَاصٌ</a> ۚ فَمَنِ ٱعْتَدَىٰ عَلَيْكُمْ فَٱعْتَدُوا۟ عَلَيْهِ بِمِثْلِ مَا ٱعْتَدَىٰ عَلَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
+      "derivedForms": [
+        "قِصاَص"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 62,
+      "text": "إِنَّ هَٰذَا لَهُوَ ٱلْقَصَصُ ٱلْحَقُّ ۚ وَمَا مِنْ إِلَٰهٍ إِلَّا ٱللَّهُ ۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "إِنَّ هَٰذَا لَهُوَ <a class=\"highlight-text\">ٱلْقَصَصُ</a> ٱلْحَقُّ ۚ وَمَا مِنْ إِلَٰهٍ إِلَّا ٱللَّهُ ۚ وَإِنَّ ٱللَّهَ لَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 164,
+      "text": "وَرُسُلًا قَدْ قَصَصْنَٰهُمْ عَلَيْكَ مِن قَبْلُ وَرُسُلًا لَّمْ نَقْصُصْهُمْ عَلَيْكَ ۚ وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+      "highlightedHtml": "وَرُسُلًا قَدْ <a class=\"highlight-text\">قَصَصْنَٰهُمْ</a> عَلَيْكَ مِن قَبْلُ وَرُسُلًا لَّمْ <a class=\"highlight-text\">نَقْصُصْهُمْ</a> عَلَيْكَ ۚ وَكَلَّمَ ٱللَّهُ مُوسَىٰ تَكْلِيمًا",
+      "derivedForms": [
+        "قَصَّ",
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 45,
+      "text": "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ <a class=\"highlight-text\">قِصَاصٌ</a> ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "قِصاَص"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 57,
+      "text": "قُلْ إِنِّى عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَكَذَّبْتُم بِهِۦ ۚ مَا عِندِى مَا تَسْتَعْجِلُونَ بِهِۦٓ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ يَقُصُّ ٱلْحَقَّ ۖ وَهُوَ خَيْرُ ٱلْفَٰصِلِينَ",
+      "highlightedHtml": "قُلْ إِنِّى عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَكَذَّبْتُم بِهِۦ ۚ مَا عِندِى مَا تَسْتَعْجِلُونَ بِهِۦٓ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۖ <a class=\"highlight-text\">يَقُصُّ</a> ٱلْحَقَّ ۖ وَهُوَ خَيْرُ ٱلْفَٰصِلِينَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 130,
+      "text": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ آيَاتِي وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ شَهِدْنَا عَلَىٰٓ أَنفُسِنَا ۖ وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَٰفِرِينَ",
+      "highlightedHtml": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ <a class=\"highlight-text\">يَقُصُّونَ</a> عَلَيْكُمْ آيَاتِي وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ شَهِدْنَا عَلَىٰٓ أَنفُسِنَا ۖ وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَٰفِرِينَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 7,
+      "text": "فَلَنَقُصَّنَّ عَلَيْهِم بِعِلْمٍ ۖ وَمَا كُنَّا غَآئِبِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَلَنَقُصَّنَّ</a> عَلَيْهِم بِعِلْمٍ ۖ وَمَا كُنَّا غَآئِبِينَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 35,
+      "text": "يَٰبَنِىٓ آدَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌ مِّنكُمْ يَقُصُّونَ عَلَيْكُمْ آيَاتِي ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "highlightedHtml": "يَٰبَنِىٓ آدَمَ إِمَّا يَأْتِيَنَّكُمْ رُسُلٌ مِّنكُمْ <a class=\"highlight-text\">يَقُصُّونَ</a> عَلَيْكُمْ آيَاتِي ۙ فَمَنِ ٱتَّقَىٰ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 101,
+      "text": "تِلْكَ ٱلْقُرَىٰ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآئِهَا ۚ وَلَقَدْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبْلُ ۚ كَذَٰلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "تِلْكَ ٱلْقُرَىٰ <a class=\"highlight-text\">نَقُصُّ</a> عَلَيْكَ مِنْ أَنۢبَآئِهَا ۚ وَلَقَدْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ فَمَا كَانُوا۟ لِيُؤْمِنُوا۟ بِمَا كَذَّبُوا۟ مِن قَبْلُ ۚ كَذَٰلِكَ يَطْبَعُ ٱللَّهُ عَلَىٰ قُلُوبِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 176,
+      "text": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ <a class=\"highlight-text\">فَٱقْصُصِ</a> <a class=\"highlight-text\">ٱلْقَصَصَ</a> لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "قَصَّ",
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 100,
+      "text": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ",
+      "highlightedHtml": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ <a class=\"highlight-text\">نَقُصُّهُۥ</a> عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 120,
+      "text": "وَكُلًّا نَّقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَكُلًّا <a class=\"highlight-text\">نَّقُصُّ</a> عَلَيْكَ مِنْ أَنۢبَآءِ ٱلرُّسُلِ مَا نُثَبِّتُ بِهِۦ فُؤَادَكَ ۚ وَجَآءَكَ فِى هَٰذِهِ ٱلْحَقُّ وَمَوْعِظَةٌ وَذِكْرَىٰ لِلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 3,
+      "text": "نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ ٱلْقَصَصِ بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ",
+      "highlightedHtml": "نَحْنُ <a class=\"highlight-text\">نَقُصُّ</a> عَلَيْكَ أَحْسَنَ <a class=\"highlight-text\">ٱلْقَصَصِ</a> بِمَآ أَوْحَيْنَآ إِلَيْكَ هَٰذَا ٱلْقُرْءَانَ وَإِن كُنتَ مِن قَبْلِهِۦ لَمِنَ ٱلْغَٰفِلِينَ",
+      "derivedForms": [
+        "قَصَّ",
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 5,
+      "text": "قَالَ يَٰبُنَىَّ لَا تَقْصُصْ رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّ مُّبِينٌ",
+      "highlightedHtml": "قَالَ يَٰبُنَىَّ لَا <a class=\"highlight-text\">تَقْصُصْ</a> رُءْيَاكَ عَلَىٰٓ إِخْوَتِكَ فَيَكِيدُوا۟ لَكَ كَيْدًا ۖ إِنَّ ٱلشَّيْطَٰنَ لِلْإِنسَٰنِ عَدُوٌّ مُّبِينٌ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 111,
+      "text": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "لَقَدْ كَانَ فِى <a class=\"highlight-text\">قَصَصِهِمْ</a> عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 118,
+      "text": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا مَا قَصَصْنَا عَلَيْكَ مِن قَبْلُ ۖ وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا مَا <a class=\"highlight-text\">قَصَصْنَا</a> عَلَيْكَ مِن قَبْلُ ۖ وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 13,
+      "text": "نَّحْنُ نَقُصُّ عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ آمَنُوا بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًى",
+      "highlightedHtml": "نَّحْنُ <a class=\"highlight-text\">نَقُصُّ</a> عَلَيْكَ نَبَأَهُم بِٱلْحَقِّ ۚ إِنَّهُمْ فِتْيَةٌ آمَنُوا بِرَبِّهِمْ وَزِدْنَٰهُمْ هُدًى",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 64,
+      "text": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ آثَارِهِمَا قَصَصًا",
+      "highlightedHtml": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ آثَارِهِمَا <a class=\"highlight-text\">قَصَصًا</a>",
+      "derivedForms": [
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 99,
+      "text": "كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ سَبَقَ ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا",
+      "highlightedHtml": "كَذَٰلِكَ <a class=\"highlight-text\">نَقُصُّ</a> عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ سَبَقَ ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 76,
+      "text": "إِنَّ هَٰذَا ٱلْقُرْءَانَ يَقُصُّ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ",
+      "highlightedHtml": "إِنَّ هَٰذَا ٱلْقُرْءَانَ <a class=\"highlight-text\">يَقُصُّ</a> عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَكْثَرَ ٱلَّذِى هُمْ فِيهِ يَخْتَلِفُونَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 11,
+      "text": "وَقَالَتْ لِأُخْتِهِۦ قُصِّيهِ ۖ فَبَصُرَتْ بِهِۦ عَن جُنُبٍ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَقَالَتْ لِأُخْتِهِۦ <a class=\"highlight-text\">قُصِّيهِ</a> ۖ فَبَصُرَتْ بِهِۦ عَن جُنُبٍ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "قَصَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 25,
+      "text": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ <a class=\"highlight-text\">وَقَصَّ</a> عَلَيْهِ <a class=\"highlight-text\">ٱلْقَصَصَ</a> قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "قَصَّ",
+        "قَصَص"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 78,
+      "text": "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِّن قَبْلِكَ مِنْهُم مَّن قَصَصْنَا عَلَيْكَ وَمِنْهُم مَّن لَّمْ نَقْصُصْ عَلَيْكَ ۗ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَا رُسُلًا مِّن قَبْلِكَ مِنْهُم مَّن <a class=\"highlight-text\">قَصَصْنَا</a> عَلَيْكَ وَمِنْهُم مَّن لَّمْ <a class=\"highlight-text\">نَقْصُصْ</a> عَلَيْكَ ۗ وَمَا كَانَ لِرَسُولٍ أَن يَأْتِىَ بِـَٔايَةٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ فَإِذَا جَآءَ أَمْرُ ٱللَّهِ قُضِىَ بِٱلْحَقِّ وَخَسِرَ هُنَالِكَ ٱلْمُبْطِلُونَ",
+      "derivedForms": [
+        "قَصَّ",
+        "قَصَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:58.363Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلْقِصَاصُ is in the derivative form: قِصاَص",
+    "rootDefinitionHtml": "ق/ص/ص   q–ṣ–ṣ to cut, to clip, to cut off, to shear, to curtail, scissors, chips, cuttings<br>; to match, to retaliate, reprisal; to follow up, to settle accounts on both sides; to relate, story, narrative, tale; to track, tracker; breastbone. <br><br>Of this root, 3 forms occur 30 times in the Qur’an:<br> قَصَّ qaṣṣa 20 times; قَصَص qaṣaṣ 6 times and قِصاَص qiṣāṣ 4 times.",
+    "mainDefinitionHtml": "قِصاَص qiṣāṣ [v. n.; n.] <br><br><strong>1 </strong>retribution equal to the crime, just or fair retribution <br><br>(2:179) وَلَكُمْ فِى الْقِصَاصِ حَيَاةٌ يَاأُولِي الأَلْبَابِ in just retribution there is survival for you (as a just community), you who are endowed with insight <br><br><strong>2 </strong>[jur.] the law governing acts of retribution for killing <br><br>(2:178) يَاأَيُّهَا الَّذِينَ ءَامَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِى الْقَتْلَى you who believe, prescribed for you is just retribution in the [cases of] homicide.",
+    "mainEntryId": "wdef-ق-ص-ص.قِصاَص",
+    "entries": [
+      {
+        "id": "wdef-ق-ص-ص",
+        "label": "ق-ص-ص",
+        "definitionHtml": "ق/ص/ص   q–ṣ–ṣ to cut, to clip, to cut off, to shear, to curtail, scissors, chips, cuttings<br>; to match, to retaliate, reprisal; to follow up, to settle accounts on both sides; to relate, story, narrative, tale; to track, tracker; breastbone. <br><br>Of this root, 3 forms occur 30 times in the Qur’an:<br> قَصَّ qaṣṣa 20 times; قَصَص qaṣaṣ 6 times and قِصاَص qiṣāṣ 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ص.قِصاَص",
+        "label": "قِصاَص",
+        "definitionHtml": "قِصاَص qiṣāṣ [v. n.; n.] <br><br><strong>1 </strong>retribution equal to the crime, just or fair retribution <br><br>(2:179) وَلَكُمْ فِى الْقِصَاصِ حَيَاةٌ يَاأُولِي الأَلْبَابِ in just retribution there is survival for you (as a just community), you who are endowed with insight <br><br><strong>2 </strong>[jur.] the law governing acts of retribution for killing <br><br>(2:178) يَاأَيُّهَا الَّذِينَ ءَامَنُوا كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِى الْقَتْلَى you who believe, prescribed for you is just retribution in the [cases of] homicide.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ص-ص.قَصَص",
+        "label": "قَصَص",
+        "definitionHtml": "قَصَص qaṣaṣ I [coll. n.] <br><br><strong>1 </strong>narration, story, history <br><br>(12:3) نَحْنُ نَقُصُّ عَلَيْكَ أَحْسَنَ الْقَصَصِ We tell you [Prophet] the best of stories <br><br><strong>2 </strong>account, report <br><br>(28:25) فَلَمَّا جَاءَهُ وَقَصَّ عَلَيْهِ الْقَصَصَ قَالَ لاَ تَخَفْ so when he came to him and gave him an account [of what had been happening], he said, ‘Have no fear’; * الْقَصَصَname of Sura 28, Meccan sura, so‐named because of the reference in verses 3–<br><br><strong>46 </strong>to the ‘Story’ of Moses II [v. n.] (act of) following, tracking, retracing <br><br>(18:64) فَارْتَدَّا عَلَى ءَاثَارِهِمَا قَصَصًا so the two turned back, retracing [their footsteps].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-ص.قَصَّ",
+        "label": "قَصَّ",
+        "definitionHtml": "قَصَّ qaṣṣa u [v. trans.] <br><br><strong>1 </strong>to narrate, to relate <br><br>(7:101) تِلْكَ الْقُرَى نَقُصُّ عَلَيْكَ مِنْ أَنْبَائِهَا such were the towns whose annals We relate to you ‏<br><br><strong>2 </strong>to mention, to make mention of <br><br>(12:5) قَالَ يَابُنَيَّ لاَ تَقْصُصْ رُؤْيَاكَ عَلَى إِخْوَتِكَ he said, ‘My son, do not mention your dreams to your brothers’ <br><br><strong>3 </strong>to tell, to declare <br><br>(6:57) إِنِ الْحُكْمُ إِلاَّ لِلَّهِ يَقُصُّ الْحَقَّ وَهُوَ خَيْرُ الْفَاصِلِينَ‏ judgement is for God alone–He tells the truth, and He is the best of judges <br><br><strong>4 </strong>to clarify, to explain <br><br>(27:76) إِنَّ هَذَا الْقُرْءَانَ يَقُصُّ عَلَى بَنِي إِسْرَائِيلَ أَكْثَرَ الَّذِي هُمْ فِيهِ يَخْتَلِفُونَ the Qur’an clarifies to the children of Israel most of what they differ about <br><br><strong>5 </strong>to follow unobtrusively, to track, to shadow <br><br>(28:11) وَقَالَتْ لأُِخْتِهِ قُصِّيهِ فَبَصُرَتْ بِهِ عَنْ جُنُبٍ وَهُمْ لاَ يَشْعُرُونَ and she said to his sister, ‘Keep track of him’, so she watched him from the side [a vantage point], while they were unaware.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:30.528Z",
+      "refword": "2:178:6",
+      "lexword": "ٱلْقِصَاصُ"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "root": "خصف",
+  "rootArabic": "خصف",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَخْصِفُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْصِفُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْصِفُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 22,
+      "text": "فَدَلَّىٰهُمَا بِغُرُورٍ ۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۖ وَنَادَىٰهُمَا رَبُّهُمَآ أَلَمْ أَنْهَكُمَا عَن تِلْكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَآ إِنَّ ٱلشَّيْطَٰنَ لَكُمَا عَدُوٌّ مُّبِينٌ",
+      "highlightedHtml": "فَدَلَّىٰهُمَا بِغُرُورٍ ۚ فَلَمَّا ذَاقَا ٱلشَّجَرَةَ بَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا <a class=\"highlight-text\">يَخْصِفَانِ</a> عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۖ وَنَادَىٰهُمَا رَبُّهُمَآ أَلَمْ أَنْهَكُمَا عَن تِلْكُمَا ٱلشَّجَرَةِ وَأَقُل لَّكُمَآ إِنَّ ٱلشَّيْطَٰنَ لَكُمَا عَدُوٌّ مُّبِينٌ",
+      "derivedForms": [
+        "يَخْصِفُ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 121,
+      "text": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ آدَمُ رَبَّهُۥ فَغَوَىٰ",
+      "highlightedHtml": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا <a class=\"highlight-text\">يَخْصِفَانِ</a> عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ آدَمُ رَبَّهُۥ فَغَوَىٰ",
+      "derivedForms": [
+        "يَخْصِفُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:22.228Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine dual imperfect verb",
+    "derivativeNote": "يَخْصِفَانِ is in the derivative form: يَخْصِفُ",
+    "rootDefinitionHtml": "خ/ص/ف   kh–ṣ–f to stitch together, to lace together, to mend; to cover up, to stick on; to mix colours, to be of 2 colours. Of this root, يَخْصِفَانِ yakhṣifān occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَخْصِفُ yakhṣif [imperf. of v. خَصَفَ khaṣafa, trans.] to attach, to stick together, to cover <br><br>(20:121) فَأَكَلاَ مِنْهَا فَبَدَتْ لَهُمَا سَوْآتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِنْ وَرَقِ الْجَنَّة they both ate from it, so their shameful parts appeared to them and they began to stitch upon themselves leaves of the Garden.",
+    "mainEntryId": "wdef-خ-ص-ف.يَخْصِفُ",
+    "entries": [
+      {
+        "id": "wdef-خ-ص-ف",
+        "label": "خ-ص-ف",
+        "definitionHtml": "خ/ص/ف   kh–ṣ–f to stitch together, to lace together, to mend; to cover up, to stick on; to mix colours, to be of 2 colours. Of this root, يَخْصِفَانِ yakhṣifān occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-ف.يَخْصِفُ",
+        "label": "يَخْصِفُ",
+        "definitionHtml": "يَخْصِفُ yakhṣif [imperf. of v. خَصَفَ khaṣafa, trans.] to attach, to stick together, to cover <br><br>(20:121) فَأَكَلاَ مِنْهَا فَبَدَتْ لَهُمَا سَوْآتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِنْ وَرَقِ الْجَنَّة they both ate from it, so their shameful parts appeared to them and they began to stitch upon themselves leaves of the Garden.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:08.412Z",
+      "refword": "7:22:10",
+      "lexword": "يَخْصِفَانِ"
+    }
+  }
+}

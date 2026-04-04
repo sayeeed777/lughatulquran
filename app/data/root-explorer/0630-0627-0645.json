@@ -1,0 +1,74 @@
+{
+  "root": "ذام",
+  "rootArabic": "ذام",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَذْءُومٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَذْءُومٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 18,
+      "text": "قَالَ ٱخْرُجْ مِنْهَا مَذْءُومًا مَّدْحُورًا ۖ لَّمَن تَبِعَكَ مِنْهُمْ لَأَمْلَأَنَّ جَهَنَّمَ مِنكُمْ أَجْمَعِينَ",
+      "highlightedHtml": "قَالَ ٱخْرُجْ مِنْهَا <a class=\"highlight-text\">مَذْءُومًا</a> مَّدْحُورًا ۖ لَّمَن تَبِعَكَ مِنْهُمْ لَأَمْلَأَنَّ جَهَنَّمَ مِنكُمْ أَجْمَعِينَ",
+      "derivedForms": [
+        "مَذْءُومٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:37.817Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَذْءُومًا is in the derivative form: مَذْءُومٌ",
+    "rootDefinitionHtml": "ذ/أ/م   dh–ʾ–m to expel, to drive out; to insult, to compel, to humiliate, a fault. Of this root, only مَذْءُومٌ madhʾūm occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَذْءُومٌ madhʾūm [pass. part.] humiliated and despised <br><br>(7:18) قَالَ اخْرُجْ مِنها مَذْءُومًا مَدْحُورًاَ He said, ‘Get out!, you are disgraced and banished!’",
+    "mainEntryId": "wdef-ذ-أ-م.مَذْءُومٌ",
+    "entries": [
+      {
+        "id": "wdef-ذ-أ-م",
+        "label": "ذ-أ-م",
+        "definitionHtml": "ذ/أ/م   dh–ʾ–m to expel, to drive out; to insult, to compel, to humiliate, a fault. Of this root, only مَذْءُومٌ madhʾūm occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-أ-م.مَذْءُومٌ",
+        "label": "مَذْءُومٌ",
+        "definitionHtml": "مَذْءُومٌ madhʾūm [pass. part.] humiliated and despised <br><br>(7:18) قَالَ اخْرُجْ مِنها مَذْءُومًا مَدْحُورًاَ He said, ‘Get out!, you are disgraced and banished!’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:33.306Z",
+      "refword": "7:18:4",
+      "lexword": "مَذْءُومًا"
+    }
+  }
+}

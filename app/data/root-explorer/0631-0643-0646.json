@@ -1,0 +1,141 @@
+{
+  "root": "ركن",
+  "rootArabic": "ركن",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "تَرْكَنُ",
+      "count": 2
+    },
+    {
+      "form": "رُكْنٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْكَنُ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "رُكْنٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْكَنُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُكْنٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 80,
+      "text": "قَالَ لَوْ أَنَّ لِى بِكُمْ قُوَّةً قُوَّةً أَوْ آوِي إِلَىٰ رُكْنٍ شَدِيدٍ",
+      "highlightedHtml": "قَالَ لَوْ أَنَّ لِى بِكُمْ قُوَّةً قُوَّةً أَوْ آوِي إِلَىٰ <a class=\"highlight-text\">رُكْنٍ</a> شَدِيدٍ",
+      "derivedForms": [
+        "رُكْنٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 113,
+      "text": "وَلَا تَرْكَنُوٓا۟ إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَرْكَنُوٓا۟</a> إِلَى ٱلَّذِينَ ظَلَمُوا۟ فَتَمَسَّكُمُ ٱلنَّارُ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ثُمَّ لَا تُنصَرُونَ",
+      "derivedForms": [
+        "تَرْكَنُ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 74,
+      "text": "وَلَوْلَآ أَن ثَبَّتْنَٰكَ لَقَدْ كِدتَّ تَرْكَنُ إِلَيْهِمْ شَيْـًٔا قَلِيلًا",
+      "highlightedHtml": "وَلَوْلَآ أَن ثَبَّتْنَٰكَ لَقَدْ كِدتَّ <a class=\"highlight-text\">تَرْكَنُ</a> إِلَيْهِمْ شَيْـًٔا قَلِيلًا",
+      "derivedForms": [
+        "تَرْكَنُ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 39,
+      "text": "فَتَوَلَّىٰ بِرُكْنِهِۦ وَقَالَ سَٰحِرٌ أَوْ مَجْنُونٌ",
+      "highlightedHtml": "فَتَوَلَّىٰ <a class=\"highlight-text\">بِرُكْنِهِۦ</a> وَقَالَ سَٰحِرٌ أَوْ مَجْنُونٌ",
+      "derivedForms": [
+        "رُكْنٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:45.160Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "رُكْنٍ is in the derivative form: رُكْنٌ",
+    "rootDefinitionHtml": "ر/ك/ن   r–k–n corner; power, might, to be mighty, strong ally, support, to find support in, to lean upon, to rely upon; family; calm, confident. <br><br>Of this root, 2 words occur 2 times each in the Qur’an:<br> تَرْكَنُ tarkan and رُكْنٌ rukn.",
+    "mainDefinitionHtml": "رُكْنٌ rukn [n.] corner; support; might <br><br>(11:80) قَالَ لَوْ أَنَّ لِي بِكُمْ قُوَّةً أَوْ ءَاوِي إِلَى رُكْنٍ شَدِيدٍ he said, ‘If only I had power against you, or could rely on a strong support [lit. take refuge in a fortified corner]’; *<br><br>(51:39) فَتَوَلَّى بِرُكْنِهِ but he relied on his support [lit. turned away with his power].",
+    "mainEntryId": "wdef-ر-ك-ن.رُكْنٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ك-ن",
+        "label": "ر-ك-ن",
+        "definitionHtml": "ر/ك/ن   r–k–n corner; power, might, to be mighty, strong ally, support, to find support in, to lean upon, to rely upon; family; calm, confident. <br><br>Of this root, 2 words occur 2 times each in the Qur’an:<br> تَرْكَنُ tarkan and رُكْنٌ rukn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ن.رُكْنٌ",
+        "label": "رُكْنٌ",
+        "definitionHtml": "رُكْنٌ rukn [n.] corner; support; might <br><br>(11:80) قَالَ لَوْ أَنَّ لِي بِكُمْ قُوَّةً أَوْ ءَاوِي إِلَى رُكْنٍ شَدِيدٍ he said, ‘If only I had power against you, or could rely on a strong support [lit. take refuge in a fortified corner]’; *<br><br>(51:39) فَتَوَلَّى بِرُكْنِهِ but he relied on his support [lit. turned away with his power].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ك-ن.تَرْكَنُ",
+        "label": "تَرْكَنُ",
+        "definitionHtml": "تَرْكَنُ tarkan [imperf. of v. رَكَنَ rakana, intrans. with prep. إلَى] to incline towards, to seek support in <br><br>(17:74) وَلَوْلاَ أَنْ ثَبَّتْنَاكَ لَقَدْ كِدْتَ تَرْكَنُ إِلَيْهِمْ شَيْئًا قَلِيلا had We not made you stand firm, you would almost have inclined towards them a little.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:38.231Z",
+      "refword": "11:80:10",
+      "lexword": "رُكْنٍ"
+    }
+  }
+}

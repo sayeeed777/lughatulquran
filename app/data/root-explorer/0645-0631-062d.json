@@ -1,0 +1,127 @@
+{
+  "root": "مرح",
+  "rootArabic": "مرح",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَرَح",
+      "count": 2
+    },
+    {
+      "form": "تَمْرَح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرَح",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرَح",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمْرَح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 37,
+      "text": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "highlightedHtml": "وَلَا تَمْشِ فِى ٱلْأَرْضِ <a class=\"highlight-text\">مَرَحًا</a> ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "derivedForms": [
+        "مَرَح"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 18,
+      "text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "highlightedHtml": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ <a class=\"highlight-text\">مَرَحًا</a> ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "derivedForms": [
+        "مَرَح"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 75,
+      "text": "ذَٰلِكُم بِمَا كُنتُمْ تَفْرَحُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَبِمَا كُنتُمْ تَمْرَحُونَ",
+      "highlightedHtml": "ذَٰلِكُم بِمَا كُنتُمْ تَفْرَحُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَبِمَا كُنتُمْ <a class=\"highlight-text\">تَمْرَحُونَ</a>",
+      "derivedForms": [
+        "تَمْرَح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:12.319Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "مَرَحًا is in the derivative form: مَرَح",
+    "rootDefinitionHtml": "م/ر/ح   m–r–ḥ joy, merriment; arrogance, haughtiness, ungratefulness; mirth, to be active, to be playful, to be light‐hearted; intoxicating drink, resonating, precise bow; to bring out shoots. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَمْرَحُون tamraḥūn 1 time and مَرَح maraḥ 2 times.",
+    "mainDefinitionHtml": "مَرَح maraḥ [v. n./n.] gaiety; arrogance, pride <br><br>(31:18) وَلاَ‏ ‏تُصَعِّرْ‏ ‏خَدَّكَ‏ ‏لِلنَّاسِ‏ ‏وَلاَ‏ ‏تَمْشِ‏ ‏فِي‏ ‏الأَرْضِ‏ ‏مَرَحًا‏ do not turn your cheek away from people or walk around arrogantly.",
+    "mainEntryId": "wdef-م-ر-ح.مَرَح",
+    "entries": [
+      {
+        "id": "wdef-م-ر-ح",
+        "label": "م-ر-ح",
+        "definitionHtml": "م/ر/ح   m–r–ḥ joy, merriment; arrogance, haughtiness, ungratefulness; mirth, to be active, to be playful, to be light‐hearted; intoxicating drink, resonating, precise bow; to bring out shoots. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَمْرَحُون tamraḥūn 1 time and مَرَح maraḥ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ح.مَرَح",
+        "label": "مَرَح",
+        "definitionHtml": "مَرَح maraḥ [v. n./n.] gaiety; arrogance, pride <br><br>(31:18) وَلاَ‏ ‏تُصَعِّرْ‏ ‏خَدَّكَ‏ ‏لِلنَّاسِ‏ ‏وَلاَ‏ ‏تَمْشِ‏ ‏فِي‏ ‏الأَرْضِ‏ ‏مَرَحًا‏ do not turn your cheek away from people or walk around arrogantly.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ر-ح.تَمْرَح",
+        "label": "تَمْرَح",
+        "definitionHtml": "تَمْرَح tamraḥ [imperf. v., intrans.] to act arrogantly <br><br>(40:74–5)‏ ذَلِكُمْ‏ ‏بِمَا‏ ‏كُنْتُمْ‏ ‏تَفْرَحُونَ‏ ‏فِي‏ ‏الأَرْضِ‏ ‏بِغَيْرِ‏ ‏الْحَقِّ‏ ‏وَبِمَا‏ ‏كُنْتُمْ‏ ‏تَمْرَحُونَ‏ all because you revelled on earth without right and because you led a wanton life.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:44.357Z",
+      "refword": "17:37:5",
+      "lexword": "مَرَحًا"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "نوش",
+  "rootArabic": "نوش",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَنَاوُشٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَاوُشٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 34,
+      "ayah": 52,
+      "text": "وَقَالُوٓا۟ آمَنَّا بِهِۦ وَأَنَّىٰ لَهُمُ ٱلتَّنَاوُشُ مِن مَّكَانٍۭ بَعِيدٍ",
+      "highlightedHtml": "وَقَالُوٓا۟ آمَنَّا بِهِۦ وَأَنَّىٰ لَهُمُ <a class=\"highlight-text\">ٱلتَّنَاوُشُ</a> مِن مَّكَانٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "تَنَاوُشٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:17.162Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine (form VI) verbal noun",
+    "derivativeNote": "ٱلتَّنَاوُشُ is in the derivative form: تَنَاوُشٌ",
+    "rootDefinitionHtml": "ن/و/ش   n–w–sh skirmish; to seize; to hang on to, to receive; to save; to come face‐to‐face with. Of this root, تَنَاوُشٌ tanāwush, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَنَاوُشٌ tanāwush [v. n.] the act of attaining, reaching grasping, comprehending, embracing <br><br>(34:52) وَقَالُوا ءَامَنَّا بِهِ وَأَنَّى لَهُمُ التَّنَاوُشُ مِنْ مَكَانٍ بَعِيدٍ they will say, ‘Now we believe in it [the truth],’ but how can they attain [to faith] from such a distant place?",
+    "mainEntryId": "wdef-ن-و-ش.تَنَاوُشٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-و-ش",
+        "label": "ن-و-ش",
+        "definitionHtml": "ن/و/ش   n–w–sh skirmish; to seize; to hang on to, to receive; to save; to come face‐to‐face with. Of this root, تَنَاوُشٌ tanāwush, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-و-ش.تَنَاوُشٌ",
+        "label": "تَنَاوُشٌ",
+        "definitionHtml": "تَنَاوُشٌ tanāwush [v. n.] the act of attaining, reaching grasping, comprehending, embracing <br><br>(34:52) وَقَالُوا ءَامَنَّا بِهِ وَأَنَّى لَهُمُ التَّنَاوُشُ مِنْ مَكَانٍ بَعِيدٍ they will say, ‘Now we believe in it [the truth],’ but how can they attain [to faith] from such a distant place?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:42.333Z",
+      "refword": "34:52:6",
+      "lexword": "ٱلتَّنَاوُشُ"
+    }
+  }
+}

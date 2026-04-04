@@ -1,0 +1,261 @@
+{
+  "root": "زلف",
+  "rootArabic": "زلف",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "أزْلَفَ",
+      "count": 4
+    },
+    {
+      "form": "زُلْفى",
+      "count": 4
+    },
+    {
+      "form": "زُلْفةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُلْفةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أزْلَفَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُلْفى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زُلْفى",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُلْفى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أزْلَفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُلْفةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أزْلَفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 114,
+      "text": "وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
+      "highlightedHtml": "وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ <a class=\"highlight-text\">وَزُلَفًا</a> مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ",
+      "derivedForms": [
+        "زُلْفةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 64,
+      "text": "وَأَزْلَفْنَا ثَمَّ الْآخَرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَزْلَفْنَا</a> ثَمَّ الْآخَرِينَ",
+      "derivedForms": [
+        "أزْلَفَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 90,
+      "text": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأُزْلِفَتِ</a> ٱلْجَنَّةُ لِلْمُتَّقِينَ",
+      "derivedForms": [
+        "أزْلَفَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 37,
+      "text": "وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا زُلْفَىٰٓ إِلَّا مَنْ آمَنَ وَعَمِلَ صَٰلِحًا فَأُو۟لَٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَٰتِ آمِنُونَ",
+      "highlightedHtml": "وَمَآ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُم بِٱلَّتِى تُقَرِّبُكُمْ عِندَنَا <a class=\"highlight-text\">زُلْفَىٰٓ</a> إِلَّا مَنْ آمَنَ وَعَمِلَ صَٰلِحًا فَأُو۟لَٰٓئِكَ لَهُمْ جَزَآءُ ٱلضِّعْفِ بِمَا عَمِلُوا۟ وَهُمْ فِى ٱلْغُرُفَٰتِ آمِنُونَ",
+      "derivedForms": [
+        "زُلْفى"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 25,
+      "text": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+      "highlightedHtml": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا <a class=\"highlight-text\">لَزُلْفَىٰ</a> وَحُسْنَ مَـَٔابٍ",
+      "derivedForms": [
+        "زُلْفى"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 40,
+      "text": "وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+      "highlightedHtml": "وَإِنَّ لَهُۥ عِندَنَا <a class=\"highlight-text\">لَزُلْفَىٰ</a> وَحُسْنَ مَـَٔابٍ",
+      "derivedForms": [
+        "زُلْفى"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 3,
+      "text": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ زُلْفَىٰٓ إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌ كَفَّارٌ",
+      "highlightedHtml": "أَلَا لِلَّهِ ٱلدِّينُ ٱلْخَالِصُ ۚ وَٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ مَا نَعْبُدُهُمْ إِلَّا لِيُقَرِّبُونَآ إِلَى ٱللَّهِ <a class=\"highlight-text\">زُلْفَىٰٓ</a> إِنَّ ٱللَّهَ يَحْكُمُ بَيْنَهُمْ فِى مَا هُمْ فِيهِ يَخْتَلِفُونَ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى مَنْ هُوَ كَٰذِبٌ كَفَّارٌ",
+      "derivedForms": [
+        "زُلْفى"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 31,
+      "text": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأُزْلِفَتِ</a> ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ",
+      "derivedForms": [
+        "أزْلَفَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 27,
+      "text": "فَلَمَّا رَأَوْهُ زُلْفَةً سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ",
+      "highlightedHtml": "فَلَمَّا رَأَوْهُ <a class=\"highlight-text\">زُلْفَةً</a> سِيٓـَٔتْ وُجُوهُ ٱلَّذِينَ كَفَرُوا۟ وَقِيلَ هَٰذَا ٱلَّذِى كُنتُم بِهِۦ تَدَّعُونَ",
+      "derivedForms": [
+        "زُلْفةٌ"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 13,
+      "text": "وَإِذَا ٱلْجَنَّةُ أُزْلِفَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْجَنَّةُ <a class=\"highlight-text\">أُزْلِفَتْ</a>",
+      "derivedForms": [
+        "أزْلَفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:09.849Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural indefinite noun",
+    "derivativeNote": "وَزُلَفًا is in the derivative form: زُلْفةٌ",
+    "rootDefinitionHtml": "ز/ل/ف   z–l–f to approach, to draw near, to advance<br>; to crawl; to ingratiate oneself, to seek God’s pleasure; time span. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> أزْلَفَ ʾazlafa 1 time; أُزْلِف ʾuzlifa 3 times; زُلْفةٌ zulfatun 1 time; زُلَف zulaf 1 time andزُلْفى zulfā 4 times.",
+    "mainDefinitionHtml": "زُلْفةٌ zulfatun [v. n.] <br><br><strong>1 </strong>nearness (in respect to physical station, rank or degree), approaching, being close at hand <br><br>(67:27) فَلَمَّا رَأَوْهُ زُلْفَةً سِيئَتْ وُجُوهُ الَّذِينَ كَفَرُوا when they see it there, close at hand, the disbelievers’ faces will be grieved <br><br><strong>2 </strong>[n.; pl. زُلَف zulaf] span of time (in particular the first hours of the night) <br><br>(11:114) وَأَقِمِ الصَّلاَةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ undertake the prayer at both ends of the day, and during parts of the night.",
+    "mainEntryId": "wdef-ز-ل-ف.زُلْفةٌ",
+    "entries": [
+      {
+        "id": "wdef-ز-ل-ف",
+        "label": "ز-ل-ف",
+        "definitionHtml": "ز/ل/ف   z–l–f to approach, to draw near, to advance<br>; to crawl; to ingratiate oneself, to seek God’s pleasure; time span. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> أزْلَفَ ʾazlafa 1 time; أُزْلِف ʾuzlifa 3 times; زُلْفةٌ zulfatun 1 time; زُلَف zulaf 1 time andزُلْفى zulfā 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ل-ف.زُلْفةٌ",
+        "label": "زُلْفةٌ",
+        "definitionHtml": "زُلْفةٌ zulfatun [v. n.] <br><br><strong>1 </strong>nearness (in respect to physical station, rank or degree), approaching, being close at hand <br><br>(67:27) فَلَمَّا رَأَوْهُ زُلْفَةً سِيئَتْ وُجُوهُ الَّذِينَ كَفَرُوا when they see it there, close at hand, the disbelievers’ faces will be grieved <br><br><strong>2 </strong>[n.; pl. زُلَف zulaf] span of time (in particular the first hours of the night) <br><br>(11:114) وَأَقِمِ الصَّلاَةَ طَرَفَيِ النَّهَارِ وَزُلَفًا مِنَ اللَّيْلِ undertake the prayer at both ends of the day, and during parts of the night.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ل-ف.أزْلَفَ",
+        "label": "أزْلَفَ",
+        "definitionHtml": "أزْلَفَ ʾazlafa [v. IV, trans.; pass. أزْلَفَ ʾuzlifa] <br><br><strong>1 </strong>to bring near, to cause to be near, to be made approachable, to be made accessible <br><br>(50:31) وَأُزْلِفَتِ الْجَنَّةُ لِلْمُتَّقِينَ and Paradise is brought close to the righteous <br><br><strong>2 </strong>to cause to approach <br><br>(26:64) وَأَزْلَفْنَا ثَمَa الآخَرِينَ and We made the others approach the place.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ل-ف.زُلْفى",
+        "label": "زُلْفى",
+        "definitionHtml": "زُلْفى zulfā I [n./an irregular v. n. implying intensity] close proximity, closeness; a good deed sent in advance, an offering [to God] <br><br>(38:25) فَغَفَرْنَا لَهُ ذَلِكَ وَإِنَّ لَهُ عِنْدَنَا لَزُلْفَى وَحُسْنَ مَآبٍ We forgave him that, his reward with Us is closeness to Us, and a good place to return to (or, for indeed he has offered a good deed that brings him near to Us) II [v. n. used adverbially] bringing near; as a good deed <br><br>(34:37) وَمَا أَمْوَالُكُمْ وَلاَ أَوْلاَدُكُمْ بِالَّتِي تُقَرِّبُكُمْ عِنْدَنَا زُلْفَى neither your wealth nor your children to bring you nearer to Us.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:25.734Z",
+      "refword": "11:114:5",
+      "lexword": "وَزُلَفًا"
+    }
+  }
+}

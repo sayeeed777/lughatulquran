@@ -1,0 +1,307 @@
+{
+  "root": "طول",
+  "rootArabic": "طول",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 5,
+    "surahCount": 10,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "طَالَ",
+      "count": 3
+    },
+    {
+      "form": "طَوْل",
+      "count": 3
+    },
+    {
+      "form": "طَوِيل",
+      "count": 2
+    },
+    {
+      "form": "تَطَاوَلَ",
+      "count": 1
+    },
+    {
+      "form": "طُوْل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَوْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَوْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُوْل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَالَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَالَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَطَاوَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَوْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَالَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَوِيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَوِيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 25,
+      "text": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَٰتِ ٱلْمُؤْمِنَٰتِ فَمِن مَّا مَلَكَتْ أَيْمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلْمُؤْمِنَٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَٰتٍ غَيْرَ مُسَٰفِحَٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ <a class=\"highlight-text\">طَوْلًا</a> أَن يَنكِحَ ٱلْمُحْصَنَٰتِ ٱلْمُؤْمِنَٰتِ فَمِن مَّا مَلَكَتْ أَيْمَٰنُكُم مِّن فَتَيَٰتِكُمُ ٱلْمُؤْمِنَٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَٰتٍ غَيْرَ مُسَٰفِحَٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "طَوْل"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 86,
+      "text": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ ٱلطَّوْلِ مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَٰعِدِينَ",
+      "highlightedHtml": "وَإِذَآ أُنزِلَتْ سُورَةٌ أَنْ آمِنُوا بِٱللَّهِ وَجَٰهِدُوا۟ مَعَ رَسُولِهِ ٱسْتَـْٔذَنَكَ أُو۟لُوا۟ <a class=\"highlight-text\">ٱلطَّوْلِ</a> مِنْهُمْ وَقَالُوا۟ ذَرْنَا نَكُن مَّعَ ٱلْقَٰعِدِينَ",
+      "derivedForms": [
+        "طَوْل"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 37,
+      "text": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "highlightedHtml": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ <a class=\"highlight-text\">طُولًا</a>",
+      "derivedForms": [
+        "طُوْل"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 86,
+      "text": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
+      "highlightedHtml": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ <a class=\"highlight-text\">أَفَطَالَ</a> عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
+      "derivedForms": [
+        "طَالَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 44,
+      "text": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "highlightedHtml": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ <a class=\"highlight-text\">طَالَ</a> عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "derivedForms": [
+        "طَالَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 45,
+      "text": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "highlightedHtml": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا <a class=\"highlight-text\">فَتَطَاوَلَ</a> عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "derivedForms": [
+        "تَطَاوَلَ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 3,
+      "text": "غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوْبِ شَدِيدِ ٱلْعِقَابِ ذِى ٱلطَّوْلِ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ إِلَيْهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "غَافِرِ ٱلذَّنۢبِ وَقَابِلِ ٱلتَّوْبِ شَدِيدِ ٱلْعِقَابِ ذِى <a class=\"highlight-text\">ٱلطَّوْلِ</a> ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ إِلَيْهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "طَوْل"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 16,
+      "text": "أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ ٱللَّهِ وَمَا نَزَلَ مِنَ ٱلْحَقِّ وَلَا يَكُونُوا۟ كَٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلُ فَطَالَ عَلَيْهِمُ ٱلْأَمَدُ فَقَسَتْ قُلُوبُهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ ٱللَّهِ وَمَا نَزَلَ مِنَ ٱلْحَقِّ وَلَا يَكُونُوا۟ كَٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلُ <a class=\"highlight-text\">فَطَالَ</a> عَلَيْهِمُ ٱلْأَمَدُ فَقَسَتْ قُلُوبُهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "طَالَ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 7,
+      "text": "إِنَّ لَكَ فِى ٱلنَّهَارِ سَبْحًا طَوِيلًا",
+      "highlightedHtml": "إِنَّ لَكَ فِى ٱلنَّهَارِ سَبْحًا <a class=\"highlight-text\">طَوِيلًا</a>",
+      "derivedForms": [
+        "طَوِيل"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 26,
+      "text": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًا طَوِيلًا",
+      "highlightedHtml": "وَمِنَ ٱلَّيْلِ فَٱسْجُدْ لَهُۥ وَسَبِّحْهُ لَيْلًا <a class=\"highlight-text\">طَوِيلًا</a>",
+      "derivedForms": [
+        "طَوِيل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:05.606Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "طَوْلًا is in the derivative form: طَوْل",
+    "rootDefinitionHtml": "ط/و/ل   ṭ–w–l length, tallness, to grow long, to grow tall, to lengthen, to be elongated, long rope<br>; power, ability, means; to overcome, to outdo; to outlast. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> طَالَ ṭāla 3 times; تَطَاوَلَ taṭāwala 1 time; طَوْل ṭawl 3 times; طُوْل ṭūl 1 time and طَوِيل ṭawıl 2 times.",
+    "mainDefinitionHtml": "طَوْل ṭawl [n.] <br><br><strong>1 </strong>might, power; bounty <br><br>(40:3) ذِي‏ ‏الطَّوْلِ‏ ‏لاَ‏ ‏إِلَهَ‏ ‏إِلاَّ‏ ‏هُوَ‏‏ infinite in bounty–there is no God but He <br><br><strong>2 </strong>wealth, sufficiency of means <br><br>(4:25) وَمَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلا أَنْ يَنْكِحَ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ those of you who do not have the means to marry chaste, believing, free women; *<br><br>(9:86) ‏أُولُو‏ ‏الطَّوْلِ the wealthy, the affluent‏ [lit. the ones with the reach].",
+    "mainEntryId": "wdef-ط-و-ل.طَوْل",
+    "entries": [
+      {
+        "id": "wdef-ط-و-ل",
+        "label": "ط-و-ل",
+        "definitionHtml": "ط/و/ل   ṭ–w–l length, tallness, to grow long, to grow tall, to lengthen, to be elongated, long rope<br>; power, ability, means; to overcome, to outdo; to outlast. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> طَالَ ṭāla 3 times; تَطَاوَلَ taṭāwala 1 time; طَوْل ṭawl 3 times; طُوْل ṭūl 1 time and طَوِيل ṭawıl 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ل.طَوْل",
+        "label": "طَوْل",
+        "definitionHtml": "طَوْل ṭawl [n.] <br><br><strong>1 </strong>might, power; bounty <br><br>(40:3) ذِي‏ ‏الطَّوْلِ‏ ‏لاَ‏ ‏إِلَهَ‏ ‏إِلاَّ‏ ‏هُوَ‏‏ infinite in bounty–there is no God but He <br><br><strong>2 </strong>wealth, sufficiency of means <br><br>(4:25) وَمَنْ لَمْ يَسْتَطِعْ مِنْكُمْ طَوْلا أَنْ يَنْكِحَ الْمُحْصَنَاتِ الْمُؤْمِنَاتِ those of you who do not have the means to marry chaste, believing, free women; *<br><br>(9:86) ‏أُولُو‏ ‏الطَّوْلِ the wealthy, the affluent‏ [lit. the ones with the reach].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-و-ل.تَطَاوَلَ",
+        "label": "تَطَاوَلَ",
+        "definitionHtml": "تَطَاوَلَ taṭāwala [v. VI, intrans.] to become too, or very, prolonged, to become very extended <br><br>(28:45) وَلَكِنَّا أَنْشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ الْعُمُرُ but We have brought forth generations and time dragged on for them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ل.طَالَ",
+        "label": "طَالَ",
+        "definitionHtml": "طَالَ ṭāla u [v., intrans.] <br><br><strong>1 </strong>to become drawn out, to be protracted <br><br>(21:44) ‏حَتَّى‏ ‏طَالَ‏ ‏عَلَيْهِمُ‏ ‏الْعُمُرُ‏ بَلْ‏ ‏مَتَّعْنَا‏ ‏هَؤُلاَءِ‏ ‏وَءَابَاءَهُمْ‏ indeed, We have granted these and their forefathers power and longevity so that life has become extended for them <br><br><strong>2 </strong>to become part of the distant past (experiences/events); to seem long <br><br>(20:86) ‏أَفَطَالَ‏ ‏عَلَيْكُمُ الْعَهْدُ did the time of the Covenant seem too long for you? [also interpreted as: has it been too long since your received God’s assistance, or, since I [Moses] have been among you?].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ل.طَوِيل",
+        "label": "طَوِيل",
+        "definitionHtml": "طَوِيل ṭawıl [quasi-act. part.] long <br><br>(76:26) وَمِنَ اللَّيْلِ فَاسْجُدْ لَهُ وَسَبِّحْهُ لَيْلاً طَوِيلاً and in a portion of the night prostrate yourself before Him, and glorify Him throughout the long nights.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ل.طُوْل",
+        "label": "طُوْل",
+        "definitionHtml": "طُوْل ṭūl [v. n./n.] length, height <br><br>(17:37)‏إِنَّكَ‏ ‏لَنْ‏ ‏تَخْرِقَ‏ ‏الأَرْضَ‏ ‏وَلَنْ‏ ‏تَبْلُغَ‏ ‏الْجِبَالَ‏ ‏طُولا‏ you will never rend the earth open, nor attain the mountains in height.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:02.338Z",
+      "refword": "4:25:5",
+      "lexword": "طَوْلًا"
+    }
+  }
+}

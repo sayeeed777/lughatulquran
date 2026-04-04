@@ -1,0 +1,395 @@
+{
+  "root": "نقم",
+  "rootArabic": "نقم",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 4,
+    "surahCount": 12,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "انْتَقَمَ",
+      "count": 6
+    },
+    {
+      "form": "انْتِقَامٌ",
+      "count": 4
+    },
+    {
+      "form": "نَقَمَ",
+      "count": 4
+    },
+    {
+      "form": "مُنْتَقِمُون",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتِقَامٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "انْتِقَامٌ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "انْتَقَمَ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "نَقَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "انْتَقَمَ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "نَقَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتِقَامٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتَقَمَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتَقَمَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْتَقِمُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتِقَامٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "انْتَقَمَ",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "مُنْتَقِمُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْتَقِمُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 4,
+      "text": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "highlightedHtml": "مِن قَبْلُ هُدًى لِّلنَّاسِ وَأَنزَلَ ٱلْفُرْقَانَ ۗ إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ ٱللَّهِ لَهُمْ عَذَابٌ شَدِيدٌ ۗ وَٱللَّهُ عَزِيزٌ ذُو <a class=\"highlight-text\">ٱنتِقَامٍ</a>",
+      "derivedForms": [
+        "انْتِقَامٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 59,
+      "text": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ هَلْ تَنقِمُونَ مِنَّآ إِلَّآ أَنْ آمَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ مِن قَبْلُ وَأَنَّ أَكْثَرَكُمْ فَٰسِقُونَ",
+      "highlightedHtml": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ هَلْ <a class=\"highlight-text\">تَنقِمُونَ</a> مِنَّآ إِلَّآ أَنْ آمَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ مِن قَبْلُ وَأَنَّ أَكْثَرَكُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "نَقَمَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 95,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ <a class=\"highlight-text\">فَيَنتَقِمُ</a> ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو <a class=\"highlight-text\">ٱنتِقَامٍ</a>",
+      "derivedForms": [
+        "انْتَقَمَ",
+        "انْتِقَامٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 126,
+      "text": "وَمَا تَنقِمُ مِنَّآ إِلَّآ أَنْ آمَنَّا بِـَٔايَٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">تَنقِمُ</a> مِنَّآ إِلَّآ أَنْ آمَنَّا بِـَٔايَٰتِ رَبِّنَا لَمَّا جَآءَتْنَا ۚ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَتَوَفَّنَا مُسْلِمِينَ",
+      "derivedForms": [
+        "نَقَمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 136,
+      "text": "فَٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱنتَقَمْنَا</a> مِنْهُمْ فَأَغْرَقْنَٰهُمْ فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "derivedForms": [
+        "انْتَقَمَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 74,
+      "text": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا <a class=\"highlight-text\">نَقَمُوٓا۟</a> إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "نَقَمَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 47,
+      "text": "فَلَا تَحْسَبَنَّ ٱللَّهَ مُخْلِفَ وَعْدِهِۦ رُسُلَهُۥٓ ۗ إِنَّ ٱللَّهَ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "highlightedHtml": "فَلَا تَحْسَبَنَّ ٱللَّهَ مُخْلِفَ وَعْدِهِۦ رُسُلَهُۥٓ ۗ إِنَّ ٱللَّهَ عَزِيزٌ ذُو <a class=\"highlight-text\">ٱنتِقَامٍ</a>",
+      "derivedForms": [
+        "انْتِقَامٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 79,
+      "text": "فَٱنتَقَمْنَا مِنْهُمْ وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱنتَقَمْنَا</a> مِنْهُمْ وَإِنَّهُمَا لَبِإِمَامٍ مُّبِينٍ",
+      "derivedForms": [
+        "انْتَقَمَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 47,
+      "text": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَٰتِ فَٱنتَقَمْنَا مِنَ ٱلَّذِينَ أَجْرَمُوا۟ ۖ وَكَانَ حَقًّا عَلَيْنَا نَصْرُ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَٰتِ <a class=\"highlight-text\">فَٱنتَقَمْنَا</a> مِنَ ٱلَّذِينَ أَجْرَمُوا۟ ۖ وَكَانَ حَقًّا عَلَيْنَا نَصْرُ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "انْتَقَمَ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 22,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ ثُمَّ أَعْرَضَ عَنْهَآ ۚ إِنَّا مِنَ ٱلْمُجْرِمِينَ مُنتَقِمُونَ",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ ثُمَّ أَعْرَضَ عَنْهَآ ۚ إِنَّا مِنَ ٱلْمُجْرِمِينَ <a class=\"highlight-text\">مُنتَقِمُونَ</a>",
+      "derivedForms": [
+        "مُنْتَقِمُون"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 37,
+      "text": "وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ ۗ أَلَيْسَ ٱللَّهُ بِعَزِيزٍ ذِى ٱنتِقَامٍ",
+      "highlightedHtml": "وَمَن يَهْدِ ٱللَّهُ فَمَا لَهُۥ مِن مُّضِلٍّ ۗ أَلَيْسَ ٱللَّهُ بِعَزِيزٍ ذِى <a class=\"highlight-text\">ٱنتِقَامٍ</a>",
+      "derivedForms": [
+        "انْتِقَامٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 25,
+      "text": "فَٱنتَقَمْنَا مِنْهُمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱنتَقَمْنَا</a> مِنْهُمْ ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "derivedForms": [
+        "انْتَقَمَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 41,
+      "text": "فَإِمَّا نَذْهَبَنَّ بِكَ فَإِنَّا مِنْهُم مُّنتَقِمُونَ",
+      "highlightedHtml": "فَإِمَّا نَذْهَبَنَّ بِكَ فَإِنَّا مِنْهُم <a class=\"highlight-text\">مُّنتَقِمُونَ</a>",
+      "derivedForms": [
+        "مُنْتَقِمُون"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 55,
+      "text": "فَلَمَّآ آسَفُونَا ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "فَلَمَّآ آسَفُونَا <a class=\"highlight-text\">ٱنتَقَمْنَا</a> مِنْهُمْ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "derivedForms": [
+        "انْتَقَمَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 16,
+      "text": "يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰٓ إِنَّا مُنتَقِمُونَ",
+      "highlightedHtml": "يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰٓ إِنَّا <a class=\"highlight-text\">مُنتَقِمُونَ</a>",
+      "derivedForms": [
+        "مُنْتَقِمُون"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 8,
+      "text": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">نَقَمُوا۟</a> مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
+      "derivedForms": [
+        "نَقَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:00.228Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite (form VIII) verbal noun",
+    "derivativeNote": "ٱنتِقَامٍ is in the derivative form: انْتِقَامٌ",
+    "rootDefinitionHtml": "ن/ق/م   n–q–m punishment, denial, resentment, hatred, vengeance, to punish, to deny, to dislike, to reproach, to loathe, to take revenge. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> نَقَمَ naqama 4 times; انْتَقَمَ ʾintaqama 6 times; انْتِقَامٌ ʾintiqām 4 times and مُنْتَقِمُون muntaqimūn 3 times.",
+    "mainDefinitionHtml": "انْتِقَامٌ ʾintiqām [v. n./n.] punishment, retribution <br><br>(39:37) أَلَيْسَ اللَّهُ بِعَزِيزٍ ذِي انْتِقَامٍ is God not Almighty and capable of retribution?",
+    "mainEntryId": "wdef-ن-ق-م.انْتِقَامٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ق-م",
+        "label": "ن-ق-م",
+        "definitionHtml": "ن/ق/م   n–q–m punishment, denial, resentment, hatred, vengeance, to punish, to deny, to dislike, to reproach, to loathe, to take revenge. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> نَقَمَ naqama 4 times; انْتَقَمَ ʾintaqama 6 times; انْتِقَامٌ ʾintiqām 4 times and مُنْتَقِمُون muntaqimūn 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-م.انْتِقَامٌ",
+        "label": "انْتِقَامٌ",
+        "definitionHtml": "انْتِقَامٌ ʾintiqām [v. n./n.] punishment, retribution <br><br>(39:37) أَلَيْسَ اللَّهُ بِعَزِيزٍ ذِي انْتِقَامٍ is God not Almighty and capable of retribution?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ق-م.انْتَقَمَ",
+        "label": "انْتَقَمَ",
+        "definitionHtml": "انْتَقَمَ ʾintaqama [v. VIII intrans.] to punish, to take to task for, to take revenge, to take retribution; to exact a penalty <br><br>(5:95) وَمَنْ عَادَ فَيَنْتَقِمُ اللَّهُ مِنْهُ but whoever relapses, God will exact the penalty from him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-م.مُنْتَقِمُون",
+        "label": "مُنْتَقِمُون",
+        "definitionHtml": "مُنْتَقِمُون muntaqimūn [pl. of. act. part. مُنْتَقِمٌ muntaqim] ones inflicting punishment, taking to task, exacting retribution <br><br>(32:22) إِنَّا مِنَ الْمُجْرِمِينَ مُنْتَقِمُونَ We shall inflict retribution on the guilty.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-م.نَقَمَ",
+        "label": "نَقَمَ",
+        "definitionHtml": "نَقَمَ naqama i [v. intrans.] to resent, to disapprove of, to loathe <br><br>(5:59) هَلْ تَنْقِمُونَ مِنَّا إِلاَّ أَنْ ءَامَنَّا بِاللَّهِ do you disapprove of us for any reason other than that we believe in God?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:11.240Z",
+      "refword": "3:4:18",
+      "lexword": "ٱنتِقَامٍ"
+    }
+  }
+}

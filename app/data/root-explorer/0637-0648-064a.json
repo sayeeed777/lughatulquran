@@ -1,0 +1,176 @@
+{
+  "root": "طوي",
+  "rootArabic": "طوي",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "طُوَى",
+      "count": 2
+    },
+    {
+      "form": "طَىّ",
+      "count": 1
+    },
+    {
+      "form": "مَطْوِيّاتٌ",
+      "count": 1
+    },
+    {
+      "form": "نَطْوِى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُوَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَىّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نَطْوِى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَطْوِيّاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُوَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 12,
+      "text": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "highlightedHtml": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ <a class=\"highlight-text\">طُوًى</a>",
+      "derivedForms": [
+        "طُوَى"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 104,
+      "text": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">نَطْوِى</a> ٱلسَّمَآءَ <a class=\"highlight-text\">كَطَىِّ</a> ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "derivedForms": [
+        "نَطْوِى",
+        "طَىّ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 67,
+      "text": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَٰمَةِ وَٱلسَّمَٰوَٰتُ مَطْوِيَّٰتٌۢ بِيَمِينِهِۦ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦ وَٱلْأَرْضُ جَمِيعًا قَبْضَتُهُۥ يَوْمَ ٱلْقِيَٰمَةِ وَٱلسَّمَٰوَٰتُ <a class=\"highlight-text\">مَطْوِيَّٰتٌۢ</a> بِيَمِينِهِۦ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "مَطْوِيّاتٌ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 16,
+      "text": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "highlightedHtml": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ <a class=\"highlight-text\">طُوًى</a>",
+      "derivedForms": [
+        "طُوَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:06.557Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "طُوًى is in the derivative form: طُوَى",
+    "rootDefinitionHtml": "ط/و/ي ṭ–w–y to fold up, to roll, to line up with stones<br>; to hide, to conceal, folds, conscience, concealment; hunger. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> نَطْوِى naṭwı 1 time; طَىّ ṭayy 1 time; طَوَى ṭawı 2 times and مَطْوِيّات maṭwiyyāt 1 time.",
+    "mainDefinitionHtml": "طُوَى ṭuwā [n./v. n.] as a noun it is interpreted as: the name of a valley near Mt. Sinai, or ‘twice’ (the valley which is twice blessed); as a verbal noun it is interpreted as ‘folding’ (the valley which you have ‘folded up completely’ i.e. which you have travelled through from one end to the other <br><br>(20:12)‏إِنَّكَ‏ ‏بِالْوَادِ‏ ‏الْمُقَدَّسِ‏ ‏طُوًى you are in the sacred valley, Ṭuwā.‏",
+    "mainEntryId": "wdef-ط-و-ي.طُوَى",
+    "entries": [
+      {
+        "id": "wdef-ط-و-ي",
+        "label": "ط-و-ي",
+        "definitionHtml": "ط/و/ي ṭ–w–y to fold up, to roll, to line up with stones<br>; to hide, to conceal, folds, conscience, concealment; hunger. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> نَطْوِى naṭwı 1 time; طَىّ ṭayy 1 time; طَوَى ṭawı 2 times and مَطْوِيّات maṭwiyyāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ي.طُوَى",
+        "label": "طُوَى",
+        "definitionHtml": "طُوَى ṭuwā [n./v. n.] as a noun it is interpreted as: the name of a valley near Mt. Sinai, or ‘twice’ (the valley which is twice blessed); as a verbal noun it is interpreted as ‘folding’ (the valley which you have ‘folded up completely’ i.e. which you have travelled through from one end to the other <br><br>(20:12)‏إِنَّكَ‏ ‏بِالْوَادِ‏ ‏الْمُقَدَّسِ‏ ‏طُوًى you are in the sacred valley, Ṭuwā.‏",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-و-ي.طَىّ",
+        "label": "طَىّ",
+        "definitionHtml": "طَىّ ṭayy [v. n.] the act of folding up, the act of rolling up <br><br>(21:104) يَوْمَ نَطْوِي السَّمَاءَ كَطَيِّ السِّجِلِّ لِلْكُتُبِ on the Day, We roll up the skies the way a scribe rolls up written scrolls (or, the way a folded up scroll rolls in the writings).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ي.مَطْوِيّاتٌ",
+        "label": "مَطْوِيّاتٌ",
+        "definitionHtml": "مَطْوِيّاتٌ maṭwiyyātun [pl. of fem. pass. part. مَطْوِيّةٌ maṭwiyyatun] that which is folded up, that which is rolled up <br><br>(39:67)‏‏وَالسَّماوَاتُ‏ ‏مَطْوِيَّاتٌ‏ ‏بِيَمِينِهِ and the heavens are rolled up in His right hand.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-و-ي.نَطْوِى",
+        "label": "نَطْوِى",
+        "definitionHtml": "نَطْوِى naṭwı [imperf. of v. trans. طَوَى ṭawı] to fold up, to roll up <br><br>(21:104) ‏يَوْمَ نَطْوِي السَّمَاء كَطَيِّ السِّجِلِّ لِلْكُتُبِ on the Day We roll up the skies the way a scribe rolls up written scrolls (or, the way a folded up scroll rolls in the writings).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:04.836Z",
+      "refword": "20:12:9",
+      "lexword": "طُوًى"
+    }
+  }
+}

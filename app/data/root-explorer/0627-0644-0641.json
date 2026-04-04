@@ -1,0 +1,414 @@
+{
+  "root": "الف",
+  "rootArabic": "الف",
+  "stats": {
+    "totalOccurrences": 22,
+    "derivativeCount": 4,
+    "surahCount": 12,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "أَلْفٌ",
+      "count": 15
+    },
+    {
+      "form": "أَلَّفَ",
+      "count": 4
+    },
+    {
+      "form": "إِيلاَفٌ",
+      "count": 2
+    },
+    {
+      "form": "مُؤَلَّفَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 2,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 2,
+          "totalInQuran": 15
+        },
+        {
+          "form": "أَلَّفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 5,
+          "totalInQuran": 15
+        },
+        {
+          "form": "أَلَّفَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُؤَلَّفَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلَّفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 97,
+      "surahName": "Al-Qadr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلْفٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 106,
+      "surahName": "Al-Quraish",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إِيلاَفٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 96,
+      "text": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ <a class=\"highlight-text\">أَلْفَ</a> سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 243,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِمْ وَهُمْ أُلُوفٌ حَذَرَ ٱلْمَوْتِ فَقَالَ لَهُمُ ٱللَّهُ مُوتُوا۟ ثُمَّ أَحْيَٰهُمْ ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ خَرَجُوا۟ مِن دِيَٰرِهِمْ وَهُمْ <a class=\"highlight-text\">أُلُوفٌ</a> حَذَرَ ٱلْمَوْتِ فَقَالَ لَهُمُ ٱللَّهُ مُوتُوا۟ ثُمَّ أَحْيَٰهُمْ ۚ إِنَّ ٱللَّهَ لَذُو فَضْلٍ عَلَى ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 103,
+      "text": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
+      "highlightedHtml": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً <a class=\"highlight-text\">فَأَلَّفَ</a> بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
+      "derivedForms": [
+        "أَلَّفَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 124,
+      "text": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ",
+      "highlightedHtml": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ <a class=\"highlight-text\">آلَافٍ</a> مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 125,
+      "text": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "highlightedHtml": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ <a class=\"highlight-text\">آلَافٍ</a> مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 9,
+      "text": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "highlightedHtml": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم <a class=\"highlight-text\">بِأَلْفٍ</a> مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 63,
+      "text": "وَأَلَّفَ بَيْنَ قُلُوبِهِمْ ۚ لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًا مَّآ أَلَّفْتَ بَيْنَ قُلُوبِهِمْ وَلَٰكِنَّ ٱللَّهَ أَلَّفَ بَيْنَهُمْ ۚ إِنَّهُۥ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَلَّفَ</a> بَيْنَ قُلُوبِهِمْ ۚ لَوْ أَنفَقْتَ مَا فِى ٱلْأَرْضِ جَمِيعًا مَّآ <a class=\"highlight-text\">أَلَّفْتَ</a> بَيْنَ قُلُوبِهِمْ وَلَٰكِنَّ ٱللَّهَ <a class=\"highlight-text\">أَلَّفَ</a> بَيْنَهُمْ ۚ إِنَّهُۥ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "أَلَّفَ",
+        "أَلَّفَ",
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 65,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ حَرِّضِ ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌ يَغْلِبُوٓا۟ أَلْفًا مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ حَرِّضِ ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌ يَغْلِبُوٓا۟ <a class=\"highlight-text\">أَلْفًا</a> مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 66,
+      "text": "ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌ صَابِرَةٌ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ أَلْفٌ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌ صَابِرَةٌ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ <a class=\"highlight-text\">أَلْفٌ</a> يَغْلِبُوٓا۟ <a class=\"highlight-text\">أَلْفَيْنِ</a> بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "أَلْفٌ",
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 60,
+      "text": "إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "إِنَّمَا ٱلصَّدَقَٰتُ لِلْفُقَرَآءِ وَٱلْمَسَٰكِينِ وَٱلْعَٰمِلِينَ عَلَيْهَا <a class=\"highlight-text\">وَٱلْمُؤَلَّفَةِ</a> قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "مُؤَلَّفَةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 47,
+      "text": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ <a class=\"highlight-text\">كَأَلْفِ</a> سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 43,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ <a class=\"highlight-text\">يُؤَلِّفُ</a> بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "أَلَّفَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 14,
+      "text": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَٰلِمُونَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ <a class=\"highlight-text\">أَلْفَ</a> سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَٰلِمُونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 5,
+      "text": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ <a class=\"highlight-text\">أَلْفَ</a> سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 147,
+      "text": "وَأَرْسَلْنَٰهُ إِلَىٰ مِا۟ئَةِ أَلْفٍ أَوْ يَزِيدُونَ",
+      "highlightedHtml": "وَأَرْسَلْنَٰهُ إِلَىٰ مِا۟ئَةِ <a class=\"highlight-text\">أَلْفٍ</a> أَوْ يَزِيدُونَ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 4,
+      "text": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
+      "highlightedHtml": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ <a class=\"highlight-text\">أَلْفَ</a> سَنَةٍ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 97,
+      "ayah": 3,
+      "text": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
+      "highlightedHtml": "لَيْلَةُ ٱلْقَدْرِ خَيْرٌ مِّنْ <a class=\"highlight-text\">أَلْفِ</a> شَهْرٍ",
+      "derivedForms": [
+        "أَلْفٌ"
+      ]
+    },
+    {
+      "surah": 106,
+      "ayah": 1,
+      "text": "لِإِيلَٰفِ قُرَيْشٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">لِإِيلَٰفِ</a> قُرَيْشٍ",
+      "derivedForms": [
+        "إِيلاَفٌ"
+      ]
+    },
+    {
+      "surah": 106,
+      "ayah": 2,
+      "text": "إِۦلَٰفِهِمْ رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "highlightedHtml": "<a class=\"highlight-text\">إِۦلَٰفِهِمْ</a> رِحْلَةَ ٱلشِّتَآءِ وَٱلصَّيْفِ",
+      "derivedForms": [
+        "إِيلاَفٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:41.575Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "أَلْفَ is in the derivative form: أَلْفٌ",
+    "rootDefinitionHtml": "أ/ل/ف ʾ–l–f (1) thousand<br>; to put together, bring together; to habituate; to get accustomed; to soften up; intimate; mate. <br><br>Of this root, 7 forms occur 22 times in the Qur’an:<br> أَلَّفَ ʾallafa 5 times; مُؤَلَّفَةٌ muʾallafatun 1 time; إِيلاَفٌ ʾīlāf 2 times; أَلْفٌ ʾalf 10 times; أَلْفَيْنِ ʾalfayn 1 time; آلاَف ʾālāf 2 times and أُلُوف ʾulūf 1 time.",
+    "mainDefinitionHtml": "أَلْفٌ ʾalf [card. no.; dual ʾalfayn; pl. of paucity آلاَفٌ ʾālāf; pl. أُلُوف ʾulūf] <br><br><strong>1 </strong>one thousand <br><br>(29:14) وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَى قَوْمِهِ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلاَّ خَمْسِينَ عَامًا and We sent Noah out to his people, and he stayed among them for fifty years short of a thousand <br><br><strong>2 </strong>a great amount <br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ any of them would long to be granted longevity for a very long time [lit. a thousand years].",
+    "mainEntryId": "wdef-أ-ل-ف.أَلْفٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-ل-ف",
+        "label": "أ-ل-ف",
+        "definitionHtml": "أ/ل/ف ʾ–l–f (1) thousand<br>; to put together, bring together; to habituate; to get accustomed; to soften up; intimate; mate. <br><br>Of this root, 7 forms occur 22 times in the Qur’an:<br> أَلَّفَ ʾallafa 5 times; مُؤَلَّفَةٌ muʾallafatun 1 time; إِيلاَفٌ ʾīlāf 2 times; أَلْفٌ ʾalf 10 times; أَلْفَيْنِ ʾalfayn 1 time; آلاَف ʾālāf 2 times and أُلُوف ʾulūf 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-ف.أَلْفٌ",
+        "label": "أَلْفٌ",
+        "definitionHtml": "أَلْفٌ ʾalf [card. no.; dual ʾalfayn; pl. of paucity آلاَفٌ ʾālāf; pl. أُلُوف ʾulūf] <br><br><strong>1 </strong>one thousand <br><br>(29:14) وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَى قَوْمِهِ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلاَّ خَمْسِينَ عَامًا and We sent Noah out to his people, and he stayed among them for fifty years short of a thousand <br><br><strong>2 </strong>a great amount <br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ any of them would long to be granted longevity for a very long time [lit. a thousand years].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ل-ف.أَلَّفَ",
+        "label": "أَلَّفَ",
+        "definitionHtml": "أَلَّفَ ʾallafa [v. II, intrans. with adverb بين] <br><br><strong>1 </strong>to join together, to gather together, to compile <br><br>(24:43) أَلَمْ تَرَ أَنَّ اللَّهَ يُزْجِي سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُ ثُمَّ يَجْعَلُهُ رُكَامًا do you not see that God drives the clouds, then gathers them together, then makes them into a heap? <br><br><strong>2 </strong>to reconcile <br><br>(3:103) إِذْ كُنْتُمْ أَعْدَاءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُمْ بِنِعْمَتِهِ إِخْوَانًا when you were enemies, then He reconciled your hearts together and you, by His grace, became brothers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-ف.إِيلاَفٌ",
+        "label": "إِيلاَفٌ",
+        "definitionHtml": "إِيلاَفٌ ʾīlāf [v. n.] reconciling, habituating; composing; securing <br><br>(106:1) لإِِيلاَفِ قُرَيْشٍ [He did this] in order to make Quraysh secure (or, to keep Quraysh together as a cohesive unit, or, to help them continue with their summer and winter journeys).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-ف.مُؤَلَّفَةٌ",
+        "label": "مُؤَلَّفَةٌ",
+        "definitionHtml": "مُؤَلَّفَةٌ muʾallafatun [pass. part.] one who is softened up, reconciled *<br><br>(9:60) وَالْمُؤَلَّفَةِ قُلُوبُهُمْ new convert to the faith [lit. those whose hearts are being reconciled].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:31.043Z",
+      "refword": "2:96:13",
+      "lexword": "أَلْفَ"
+    }
+  }
+}

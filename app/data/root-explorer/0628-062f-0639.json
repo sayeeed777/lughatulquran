@@ -1,0 +1,159 @@
+{
+  "root": "بدع",
+  "rootArabic": "بدع",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "بَدِيعٌ",
+      "count": 2
+    },
+    {
+      "form": "ابْتَدَعَ",
+      "count": 1
+    },
+    {
+      "form": "بِدْعٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدِيعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدِيعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بِدْعٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ابْتَدَعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 117,
+      "text": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
+      "highlightedHtml": "<a class=\"highlight-text\">بَدِيعُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
+      "derivedForms": [
+        "بَدِيعٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 101,
+      "text": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌ ۖ وَخَلَقَ كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">بَدِيعُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌ ۖ وَخَلَقَ كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "بَدِيعٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 9,
+      "text": "قُلْ مَا كُنتُ بِدْعًا مِّنَ ٱلرُّسُلِ وَمَآ أَدْرِى مَا يُفْعَلُ بِى وَلَا بِكُمْ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ وَمَآ أَنَا۠ إِلَّا نَذِيرٌ مُّبِينٌ",
+      "highlightedHtml": "قُلْ مَا كُنتُ <a class=\"highlight-text\">بِدْعًا</a> مِّنَ ٱلرُّسُلِ وَمَآ أَدْرِى مَا يُفْعَلُ بِى وَلَا بِكُمْ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ وَمَآ أَنَا۠ إِلَّا نَذِيرٌ مُّبِينٌ",
+      "derivedForms": [
+        "بِدْعٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً <a class=\"highlight-text\">ٱبْتَدَعُوهَا</a> مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "ابْتَدَعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:18.204Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine singular noun",
+    "derivativeNote": "بَدِيعُ is in the derivative form: بَدِيعٌ",
+    "rootDefinitionHtml": "ب/د/ع   b–d–ʿ novelty, to produce something new, to originate, to contrive<br>; new fashion, heresy. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> ابْتَدَعَ ʾibtadaʿa 1 time; بِدْعٌ bidʿ 1 time and بَدِيعٌ badıʿ 2 times.",
+    "mainDefinitionHtml": "بَدِيعٌ badıʿ [act. part.] the originator, the initiator, also attribute of God <br><br>(6:101) بَدِيعُ السَّمَوَاتِ وَالأَرْضِ the Creator of the heavens and earth.",
+    "mainEntryId": "wdef-ب-د-ع.بَدِيعٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-د-ع",
+        "label": "ب-د-ع",
+        "definitionHtml": "ب/د/ع   b–d–ʿ novelty, to produce something new, to originate, to contrive<br>; new fashion, heresy. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> ابْتَدَعَ ʾibtadaʿa 1 time; بِدْعٌ bidʿ 1 time and بَدِيعٌ badıʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-د-ع.بَدِيعٌ",
+        "label": "بَدِيعٌ",
+        "definitionHtml": "بَدِيعٌ badıʿ [act. part.] the originator, the initiator, also attribute of God <br><br>(6:101) بَدِيعُ السَّمَوَاتِ وَالأَرْضِ the Creator of the heavens and earth.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-د-ع.ابْتَدَعَ",
+        "label": "ابْتَدَعَ",
+        "definitionHtml": "ابْتَدَعَ ʾibtadaʿa [v. VIII, trans.] to contrive, to invent, to dream up <br><br>(57:27) وَرَهْبَانِيَّةً ابْتَدَعُوهَا مَا كَتَبْنَاهَا عَلَيْهِمْ and [as for] monasticism they have invented it–We did not ordain it for them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-د-ع.بِدْعٌ",
+        "label": "بِدْعٌ",
+        "definitionHtml": "بِدْعٌ bidʿ [quasi‐act./pass. part.] innovation, first‐time phenomenon, novelty <br><br>(46:9) مَا كُنْتُ بِدْعًا مِنَ الرُّسُلِ I am not a novelty among the Messengers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:30.203Z",
+      "refword": "2:117:1",
+      "lexword": "بَدِيعُ"
+    }
+  }
+}

@@ -1,0 +1,790 @@
+{
+  "root": "فتح",
+  "rootArabic": "فتح",
+  "stats": {
+    "totalOccurrences": 38,
+    "derivativeCount": 9,
+    "surahCount": 25,
+    "ayahCount": 33
+  },
+  "derivatives": [
+    {
+      "form": "فَتَحَ",
+      "count": 12
+    },
+    {
+      "form": "فَتْح",
+      "count": 12
+    },
+    {
+      "form": "فُتِحَ",
+      "count": 4
+    },
+    {
+      "form": "اسْتَفْتَحَ",
+      "count": 3
+    },
+    {
+      "form": "مَفاتِح",
+      "count": 3
+    },
+    {
+      "form": "الفَتَّاح",
+      "count": 1
+    },
+    {
+      "form": "تُفَتَّحُ",
+      "count": 1
+    },
+    {
+      "form": "فاَتِحين",
+      "count": 1
+    },
+    {
+      "form": "مُفَتَّحة",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَفْتَحَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "مَفاتِح",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "تُفَتَّحُ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "فاَتِحين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَفْتَحَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَفْتَحَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُتِحَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَفاتِح",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَفاتِح",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الفَتَّاح",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُفَتَّحة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فُتِحَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 3,
+          "totalInQuran": 12
+        },
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتَحَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 61,
+      "surahName": "As-Saff",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُتِحَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 110,
+      "surahName": "An-Nasr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْح",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 76,
+      "text": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا <a class=\"highlight-text\">فَتَحَ</a> ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 89,
+      "text": "وَلَمَّا جَآءَهُمْ كِتَٰبٌ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ وَكَانُوا۟ مِن قَبْلُ يَسْتَفْتِحُونَ عَلَى ٱلَّذِينَ كَفَرُوا۟ فَلَمَّا جَآءَهُم مَّا عَرَفُوا۟ كَفَرُوا۟ بِهِۦ ۚ فَلَعْنَةُ ٱللَّهِ عَلَى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَلَمَّا جَآءَهُمْ كِتَٰبٌ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌ لِّمَا مَعَهُمْ وَكَانُوا۟ مِن قَبْلُ <a class=\"highlight-text\">يَسْتَفْتِحُونَ</a> عَلَى ٱلَّذِينَ كَفَرُوا۟ فَلَمَّا جَآءَهُم مَّا عَرَفُوا۟ كَفَرُوا۟ بِهِۦ ۚ فَلَعْنَةُ ٱللَّهِ عَلَى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "اسْتَفْتَحَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 141,
+      "text": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "highlightedHtml": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ <a class=\"highlight-text\">فَتْحٌ</a> مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 52,
+      "text": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+      "highlightedHtml": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ <a class=\"highlight-text\">بِٱلْفَتْحِ</a> أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 44,
+      "text": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦ فَتَحْنَا عَلَيْهِمْ أَبْوَٰبَ كُلِّ شَىْءٍ حَتَّىٰٓ إِذَا فَرِحُوا۟ بِمَآ أُوتُوٓا۟ أَخَذْنَٰهُم بَغْتَةً فَإِذَا هُم مُّبْلِسُونَ",
+      "highlightedHtml": "فَلَمَّا نَسُوا۟ مَا ذُكِّرُوا۟ بِهِۦ <a class=\"highlight-text\">فَتَحْنَا</a> عَلَيْهِمْ أَبْوَٰبَ كُلِّ شَىْءٍ حَتَّىٰٓ إِذَا فَرِحُوا۟ بِمَآ أُوتُوٓا۟ أَخَذْنَٰهُم بَغْتَةً فَإِذَا هُم مُّبْلِسُونَ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 59,
+      "text": "وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَعِندَهُۥ <a class=\"highlight-text\">مَفَاتِحُ</a> ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "مَفاتِح"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 40,
+      "text": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ يَلِجَ ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا <a class=\"highlight-text\">تُفَتَّحُ</a> لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ يَلِجَ ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
+      "derivedForms": [
+        "تُفَتَّحُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 89,
+      "text": "قَدِ ٱفْتَرَيْنَا عَلَى ٱللَّهِ كَذِبًا إِنْ عُدْنَا فِى مِلَّتِكُم بَعْدَ إِذْ نَجَّىٰنَا ٱللَّهُ مِنْهَا ۚ وَمَا يَكُونُ لَنَآ أَن نَّعُودَ فِيهَآ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّنَا ۚ وَسِعَ رَبُّنَا كُلَّ شَىْءٍ عِلْمًا ۚ عَلَى ٱللَّهِ تَوَكَّلْنَا ۚ رَبَّنَا ٱفْتَحْ بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ ٱلْفَٰتِحِينَ",
+      "highlightedHtml": "قَدِ ٱفْتَرَيْنَا عَلَى ٱللَّهِ كَذِبًا إِنْ عُدْنَا فِى مِلَّتِكُم بَعْدَ إِذْ نَجَّىٰنَا ٱللَّهُ مِنْهَا ۚ وَمَا يَكُونُ لَنَآ أَن نَّعُودَ فِيهَآ إِلَّآ أَن يَشَآءَ ٱللَّهُ رَبُّنَا ۚ وَسِعَ رَبُّنَا كُلَّ شَىْءٍ عِلْمًا ۚ عَلَى ٱللَّهِ تَوَكَّلْنَا ۚ رَبَّنَا <a class=\"highlight-text\">ٱفْتَحْ</a> بَيْنَنَا وَبَيْنَ قَوْمِنَا بِٱلْحَقِّ وَأَنتَ خَيْرُ <a class=\"highlight-text\">ٱلْفَٰتِحِينَ</a>",
+      "derivedForms": [
+        "فَتَحَ",
+        "فاَتِحين"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 96,
+      "text": "وَلَوْ أَنَّ أَهْلَ ٱلْقُرَىٰٓ آمَنُوا وَٱتَّقَوْا۟ لَفَتَحْنَا عَلَيْهِم بَرَكَٰتٍ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ وَلَٰكِن كَذَّبُوا۟ فَأَخَذْنَٰهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّ أَهْلَ ٱلْقُرَىٰٓ آمَنُوا وَٱتَّقَوْا۟ <a class=\"highlight-text\">لَفَتَحْنَا</a> عَلَيْهِم بَرَكَٰتٍ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ وَلَٰكِن كَذَّبُوا۟ فَأَخَذْنَٰهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 19,
+      "text": "إِن تَسْتَفْتِحُوا۟ فَقَدْ جَآءَكُمُ ٱلْفَتْحُ ۖ وَإِن تَنتَهُوا۟ فَهُوَ خَيْرٌ لَّكُمْ ۖ وَإِن تَعُودُوا۟ نَعُدْ وَلَن تُغْنِىَ عَنكُمْ فِئَتُكُمْ شَيْـًٔا وَلَوْ كَثُرَتْ وَأَنَّ ٱللَّهَ مَعَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "إِن <a class=\"highlight-text\">تَسْتَفْتِحُوا۟</a> فَقَدْ جَآءَكُمُ <a class=\"highlight-text\">ٱلْفَتْحُ</a> ۖ وَإِن تَنتَهُوا۟ فَهُوَ خَيْرٌ لَّكُمْ ۖ وَإِن تَعُودُوا۟ نَعُدْ وَلَن تُغْنِىَ عَنكُمْ فِئَتُكُمْ شَيْـًٔا وَلَوْ كَثُرَتْ وَأَنَّ ٱللَّهَ مَعَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "اسْتَفْتَحَ",
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 65,
+      "text": "وَلَمَّا فَتَحُوا۟ مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ۖ ذَٰلِكَ كَيْلٌ يَسِيرٌ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">فَتَحُوا۟</a> مَتَٰعَهُمْ وَجَدُوا۟ بِضَٰعَتَهُمْ رُدَّتْ إِلَيْهِمْ ۖ قَالُوا۟ يَٰٓأَبَانَا مَا نَبْغِى ۖ هَٰذِهِۦ بِضَٰعَتُنَا رُدَّتْ إِلَيْنَا ۖ وَنَمِيرُ أَهْلَنَا وَنَحْفَظُ أَخَانَا وَنَزْدَادُ كَيْلَ بَعِيرٍ ۖ ذَٰلِكَ كَيْلٌ يَسِيرٌ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 15,
+      "text": "وَٱسْتَفْتَحُوا۟ وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱسْتَفْتَحُوا۟</a> وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍ",
+      "derivedForms": [
+        "اسْتَفْتَحَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 14,
+      "text": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
+      "highlightedHtml": "وَلَوْ <a class=\"highlight-text\">فَتَحْنَا</a> عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 96,
+      "text": "حَتَّىٰٓ إِذَا فُتِحَتْ يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا <a class=\"highlight-text\">فُتِحَتْ</a> يَأْجُوجُ وَمَأْجُوجُ وَهُم مِّن كُلِّ حَدَبٍ يَنسِلُونَ",
+      "derivedForms": [
+        "فُتِحَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 77,
+      "text": "حَتَّىٰٓ إِذَا فَتَحْنَا عَلَيْهِم بَابًا ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا <a class=\"highlight-text\">فَتَحْنَا</a> عَلَيْهِم بَابًا ذَا عَذَابٍ شَدِيدٍ إِذَا هُمْ فِيهِ مُبْلِسُونَ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 61,
+      "text": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "highlightedHtml": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم <a class=\"highlight-text\">مَّفَاتِحَهُۥٓ</a> أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "مَفاتِح"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 118,
+      "text": "فَٱفْتَحْ بَيْنِى وَبَيْنَهُمْ فَتْحًا وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱفْتَحْ</a> بَيْنِى وَبَيْنَهُمْ <a class=\"highlight-text\">فَتْحًا</a> وَنَجِّنِى وَمَن مَّعِىَ مِنَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "فَتَحَ",
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 76,
+      "text": "إِنَّ قَٰرُونَ كَانَ مِن قَوْمِ مُوسَىٰ فَبَغَىٰ عَلَيْهِمْ ۖ وَءَاتَيْنَٰهُ مِنَ ٱلْكُنُوزِ مَآ إِنَّ مَفَاتِحَهُۥ لَتَنُوٓأُ بِٱلْعُصْبَةِ أُو۟لِى ٱلْقُوَّةِ ٱلْقُوَّةِ إِذْ قَالَ لَهُۥ قَوْمُهُۥ لَا تَفْرَحْ ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْفَرِحِينَ",
+      "highlightedHtml": "إِنَّ قَٰرُونَ كَانَ مِن قَوْمِ مُوسَىٰ فَبَغَىٰ عَلَيْهِمْ ۖ وَءَاتَيْنَٰهُ مِنَ ٱلْكُنُوزِ مَآ إِنَّ <a class=\"highlight-text\">مَفَاتِحَهُۥ</a> لَتَنُوٓأُ بِٱلْعُصْبَةِ أُو۟لِى ٱلْقُوَّةِ ٱلْقُوَّةِ إِذْ قَالَ لَهُۥ قَوْمُهُۥ لَا تَفْرَحْ ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْفَرِحِينَ",
+      "derivedForms": [
+        "مَفاتِح"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 28,
+      "text": "وَيَقُولُونَ مَتَىٰ هَٰذَا ٱلْفَتْحُ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "وَيَقُولُونَ مَتَىٰ هَٰذَا <a class=\"highlight-text\">ٱلْفَتْحُ</a> إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 29,
+      "text": "قُلْ يَوْمَ ٱلْفَتْحِ لَا يَنفَعُ ٱلَّذِينَ كَفَرُوٓا۟ إِيمَٰنُهُمْ وَلَا هُمْ يُنظَرُونَ",
+      "highlightedHtml": "قُلْ يَوْمَ <a class=\"highlight-text\">ٱلْفَتْحِ</a> لَا يَنفَعُ ٱلَّذِينَ كَفَرُوٓا۟ إِيمَٰنُهُمْ وَلَا هُمْ يُنظَرُونَ",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 26,
+      "text": "قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِٱلْحَقِّ وَهُوَ ٱلْفَتَّاحُ ٱلْعَلِيمُ",
+      "highlightedHtml": "قُلْ يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ <a class=\"highlight-text\">يَفْتَحُ</a> بَيْنَنَا بِٱلْحَقِّ وَهُوَ <a class=\"highlight-text\">ٱلْفَتَّاحُ</a> ٱلْعَلِيمُ",
+      "derivedForms": [
+        "فَتَحَ",
+        "الفَتَّاح"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 2,
+      "text": "مَّا يَفْتَحِ ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "مَّا <a class=\"highlight-text\">يَفْتَحِ</a> ٱللَّهُ لِلنَّاسِ مِن رَّحْمَةٍ فَلَا مُمْسِكَ لَهَا ۖ وَمَا يُمْسِكْ فَلَا مُرْسِلَ لَهُۥ مِنۢ بَعْدِهِۦ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 50,
+      "text": "جَنَّٰتِ عَدْنٍ مُّفَتَّحَةً لَّهُمُ ٱلْأَبْوَٰبُ",
+      "highlightedHtml": "جَنَّٰتِ عَدْنٍ <a class=\"highlight-text\">مُّفَتَّحَةً</a> لَّهُمُ ٱلْأَبْوَٰبُ",
+      "derivedForms": [
+        "مُفَتَّحة"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 71,
+      "text": "وَسِيقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا فُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ آيَاتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَسِيقَ ٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا <a class=\"highlight-text\">فُتِحَتْ</a> أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ رُسُلٌ مِّنكُمْ يَتْلُونَ عَلَيْكُمْ آيَاتِ رَبِّكُمْ وَيُنذِرُونَكُمْ لِقَآءَ يَوْمِكُمْ هَٰذَا ۚ قَالُوا۟ بَلَىٰ وَلَٰكِنْ حَقَّتْ كَلِمَةُ ٱلْعَذَابِ عَلَى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "فُتِحَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 73,
+      "text": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ",
+      "highlightedHtml": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا <a class=\"highlight-text\">وَفُتِحَتْ</a> أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَٰلِدِينَ",
+      "derivedForms": [
+        "فُتِحَ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 1,
+      "text": "إِنَّا فَتَحْنَا لَكَ فَتْحًا مُّبِينًا",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">فَتَحْنَا</a> لَكَ <a class=\"highlight-text\">فَتْحًا</a> مُّبِينًا",
+      "derivedForms": [
+        "فَتَحَ",
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 18,
+      "text": "لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ فَعَلِمَ مَا فِى قُلُوبِهِمْ فَأَنزَلَ ٱلسَّكِينَةَ عَلَيْهِمْ وَأَثَٰبَهُمْ فَتْحًا قَرِيبًا",
+      "highlightedHtml": "لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ فَعَلِمَ مَا فِى قُلُوبِهِمْ فَأَنزَلَ ٱلسَّكِينَةَ عَلَيْهِمْ وَأَثَٰبَهُمْ <a class=\"highlight-text\">فَتْحًا</a> قَرِيبًا",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 27,
+      "text": "لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ فَتْحًا قَرِيبًا",
+      "highlightedHtml": "لَّقَدْ صَدَقَ ٱللَّهُ رَسُولَهُ ٱلرُّءْيَا بِٱلْحَقِّ ۖ لَتَدْخُلُنَّ ٱلْمَسْجِدَ ٱلْحَرَامَ إِن شَآءَ ٱللَّهُ آمِنِينَ مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ لَا تَخَافُونَ ۖ فَعَلِمَ مَا لَمْ تَعْلَمُوا۟ فَجَعَلَ مِن دُونِ ذَٰلِكَ <a class=\"highlight-text\">فَتْحًا</a> قَرِيبًا",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 11,
+      "text": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ مُّنْهَمِرٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَفَتَحْنَآ</a> أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ مُّنْهَمِرٍ",
+      "derivedForms": [
+        "فَتَحَ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 10,
+      "text": "وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ وَقَٰتَلَ ۚ أُو۟لَٰٓئِكَ أَعْظَمُ دَرَجَةً مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَٰتَلُوا۟ ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ <a class=\"highlight-text\">ٱلْفَتْحِ</a> وَقَٰتَلَ ۚ أُو۟لَٰٓئِكَ أَعْظَمُ دَرَجَةً مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَٰتَلُوا۟ ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 61,
+      "ayah": 13,
+      "text": "وَأُخْرَى تُحِبُّونَهَا ۖ نَصْرٌ مِّنَ ٱللَّهِ وَفَتْحٌ قَرِيبٌ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَأُخْرَى تُحِبُّونَهَا ۖ نَصْرٌ مِّنَ ٱللَّهِ <a class=\"highlight-text\">وَفَتْحٌ</a> قَرِيبٌ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 19,
+      "text": "وَفُتِحَتِ ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَفُتِحَتِ</a> ٱلسَّمَآءُ فَكَانَتْ أَبْوَٰبًا",
+      "derivedForms": [
+        "فُتِحَ"
+      ]
+    },
+    {
+      "surah": 110,
+      "ayah": 1,
+      "text": "إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "highlightedHtml": "إِذَا جَآءَ نَصْرُ ٱللَّهِ <a class=\"highlight-text\">وَٱلْفَتْحُ</a>",
+      "derivedForms": [
+        "فَتْح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:27.835Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "فَتَحَ is in the derivative form: فَتَحَ",
+    "rootDefinitionHtml": "ف/ت/ح   f–t–ḥ aperture, space, to open<br>; to find a way, key; to conquer, conquest, victory; to initiate; to adjudicate, judgement. There is a degree of overlapping between the 2 senses of ‘seeking victory’ and ‘seeking judgement’ because victory in battle is regarded as a kind of judgement between the antagonists. <br><br>Of this root, 9 forms occur 38 times in the Qur’an:<br> فَتَحَ fataḥa 12 times; فُتِحَ futiḥa 4 times; تُفَتَّح tufattaḥ 1 time; اسْتَفْتَحَ ʾistaftaḥa 3 times; فَتْح fatḥ 12 times; فاَتِحين fātiḥın 1 time; الفَتَّاح ʾal‐fattāḥ 1 time; مُفَتَّحةٌ mufattaḥatun 1 time and مَفاتِح mafātiḥ 3 times.",
+    "mainDefinitionHtml": "فَتَحَ fataḥa a [v. trans.] <br><br><strong>1 </strong>to open, to open up <br><br>(15:14) وَلَوْ فَتَحْنَا عَلَيْهِمْ بَابًا مِنَ السَّمَاءِ ‏and even if we were to open for them a gateway into Heaven <br><br><strong>2 </strong>to bestow upon, to favour with, to reveal to <br><br>(2:76) أَتُحَدِّثُونَهُمْ بِمَا فَتَحَ اللَّهُ عَلَيْكُمْ how can you ever tell them what God has favoured you with? <br><br><strong>3 </strong>to adjudicate, to judge, to decide <br><br>(34:26) يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِالْحَقِّ our Lord will gather us together, then He will judge between us justly.",
+    "mainEntryId": "wdef-ف-ت-ح.فَتَحَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ت-ح",
+        "label": "ف-ت-ح",
+        "definitionHtml": "ف/ت/ح   f–t–ḥ aperture, space, to open<br>; to find a way, key; to conquer, conquest, victory; to initiate; to adjudicate, judgement. There is a degree of overlapping between the 2 senses of ‘seeking victory’ and ‘seeking judgement’ because victory in battle is regarded as a kind of judgement between the antagonists. <br><br>Of this root, 9 forms occur 38 times in the Qur’an:<br> فَتَحَ fataḥa 12 times; فُتِحَ futiḥa 4 times; تُفَتَّح tufattaḥ 1 time; اسْتَفْتَحَ ʾistaftaḥa 3 times; فَتْح fatḥ 12 times; فاَتِحين fātiḥın 1 time; الفَتَّاح ʾal‐fattāḥ 1 time; مُفَتَّحةٌ mufattaḥatun 1 time and مَفاتِح mafātiḥ 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.فَتَحَ",
+        "label": "فَتَحَ",
+        "definitionHtml": "فَتَحَ fataḥa a [v. trans.] <br><br><strong>1 </strong>to open, to open up <br><br>(15:14) وَلَوْ فَتَحْنَا عَلَيْهِمْ بَابًا مِنَ السَّمَاءِ ‏and even if we were to open for them a gateway into Heaven <br><br><strong>2 </strong>to bestow upon, to favour with, to reveal to <br><br>(2:76) أَتُحَدِّثُونَهُمْ بِمَا فَتَحَ اللَّهُ عَلَيْكُمْ how can you ever tell them what God has favoured you with? <br><br><strong>3 </strong>to adjudicate, to judge, to decide <br><br>(34:26) يَجْمَعُ بَيْنَنَا رَبُّنَا ثُمَّ يَفْتَحُ بَيْنَنَا بِالْحَقِّ our Lord will gather us together, then He will judge between us justly.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ت-ح.اسْتَفْتَحَ",
+        "label": "اسْتَفْتَحَ",
+        "definitionHtml": "اسْتَفْتَحَ ʾistaftaḥa [v. X, trans., with no direct object] <br><br><strong>1 </strong>to seek victory, to pray for victory <br><br>(8:19) إِنْ تَسْتَفْتِحُوا فَقَدْ جَاءَكُمُ الْفَتْحُ if you are seeking a victory, victory has already come to you [also interpreted as: if you seek judgement, judgement has already come to you] <br><br><strong>2 </strong>to seek adjudication <br><br>(14:15) وَاسْتَفْتَحُوا‏ ‏وَخَابَ‏ ‏كُلُّ‏ ‏جَبَّارٍ‏ ‏عَنِيدٍ they asked for God’s judgement/decision, but every obstinate tyrant failed [also interpreted as: they asked for victory through God’s help, but every obstinate tyrant failed] <br><br><strong>3 </strong>[with prep. عَلَي] to seek or ask for triumph over someone <br><br>(2:89)‏وَكَانُوا‏ ‏مِنْ‏ ‏قَبْلُ‏ ‏يَسْتَفْتِحُونَ‏ ‏عَلَى‏ ‏الَّذِينَ‏ ‏كَفَرُوا‏ although previously they had been seeking triumph over those who disbelieved.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.الفاتِحة",
+        "label": "الفاتِحة",
+        "definitionHtml": "الفاتِحة ʾal-fātiḥatu or فاتِحَة الكِتاب fātiḥatu’l-kitāb name of Sura 1, Meccan sura, so‐named because of its function as ‘the Opening’ sura of the Qur’an.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.الفَتَّاح",
+        "label": "الفَتَّاح",
+        "definitionHtml": "الفَتَّاح ʾal‐fattāḥ [intens. act. part.] the Best Judge, the Best Arbitrator, [an attribute of God] the Opener <br><br>(34:26) ‏وَهُوَ‏ ‏الْفَتَّاحُ‏ ‏الْعَلِيمُ He alone is the All‐Knowing Judge.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.تُفَتَّحُ",
+        "label": "تُفَتَّحُ",
+        "definitionHtml": "تُفَتَّحُ tufattaḥ [imperf. pass. v. II] to be opened up <br><br>(7:40) لاَ‏ ‏تُفَتَّحُ‏ ‏لَهُمْ‏ ‏أَبْوَابُ السَّمَاءِ ‏‏the gates of Heaven will not be opened up for them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.فاَتِحين",
+        "label": "فاَتِحين",
+        "definitionHtml": "فاَتِحين fātiḥın [pl. of act. part. فاتِح fātiḥ] those who are able to judge or to arbitrate; those who are capable of opening <br><br>(7:89) رَبَّنَا‏ ‏افْتَحْ‏ ‏بَيْنَنَا‏ ‏وَبَيْنَ‏ ‏قَوْمِنَا‏ ‏بِالْحَقِّ‏ ‏وَأَنْتَ‏ ‏خَيْرُ‏ ‏الْفَاتِحِين our Lord, judge between us and our people in truth, for You are the best of judges.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.فَتْح",
+        "label": "فَتْح",
+        "definitionHtml": "فَتْح fatḥ [n./v. n.] <br><br><strong>1 </strong>victory (particularly in battle), break‐ through <br><br>(61:13) ‏نَصْرٌ‏ ‏مِنَ‏ ‏اللَّهِ‏ ‏وَفَتْحٌ‏ ‏قَرِيبٌ‏ help from God and an imminent breakthrough; * َالْفَتْحُ‏ name of Sura 48, Medinan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Triumph’ accorded to the Prophet <br><br><strong>2 </strong>[with the definite article (الْفَتْحُ)‏] said to be the Opening of Mecca to the Muslims, upon its final surrender to the Prophet in <br><br><strong>10 </strong>A.H./<br><br><strong>631 </strong>A.D., having been forbidden to them by the disbelievers since their flight to Medina ten years earlier <br><br>(110:1) إِذَا‏ ‏جَاءَ‏ ‏نَصْرُ‏ ‏اللَّهِ‏ ‏وَالْفَتْحُ‏ when God’s help comes, and the Opening <br><br><strong>3 </strong>judgement, arbitration <br><br>(26:118) فَافْتَحْ‏ ‏بَيْنِي‏ ‏وَبَيْنَهُمْ‏ ‏فَتْحًا‏ so make a firm judgement between me and them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.فُتِحَ",
+        "label": "فُتِحَ",
+        "definitionHtml": "فُتِحَ futiḥa [pass. v.] <br><br><strong>1 </strong>to be opened <br><br>(39:71) ‏إِذَا‏ ‏جَاءُوهَا‏ ‏فُتِحَتْ‏ ‏أَبْوَابُهَا when they come to it, its gates are opened ‏<br><br><strong>2 </strong>to be let loose, to be loosened up <br><br>(21:96) حَتَّى‏ ‏إِذَا‏ ‏فُتِحَتْ‏ ‏يَأْجُوجُ‏ ‏وَمَأْجُوجُ‏ ‏وَهُمْ‏ ‏مِنْ‏ ‏كُلِّ‏ ‏حَدَبٍ‏ ‏يَنْسِلُونَ until such time as [the peoples of] Gog and Magog are let loose and they stream swiftly out of every highland.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.مَفاتِح",
+        "label": "مَفاتِح",
+        "definitionHtml": "مَفاتِح mafātiḥ [pl. of n. مِفْتاح miftāḥ] <br><br><strong>1 </strong>keys; responsibility *<br><br>(24:61) ‏أَوْ‏ ‏مَا‏ ‏مَلَكْتُمْ‏ ‏مَفَاتِحَهُ‏ that which you are responsible for, that which you have stewardship over [lit. or that for which you possess keys]; *<br><br>(6:59) وَعِنْدَهُ‏ ‏مَفَاتِحُ‏ ‏الْغَيْبِ‏‏ knowledge of the Unknown is His domain [lit. with Him are the keys to the Unknown/the Hidden] <br><br><strong>2 </strong>treasuring, storing, keeping (in an interpretation of verse 28:76) إِنَّ‏ ‏مَفَاتِحَهُ‏ ‏لَتَنُوءُ‏ ‏بِالْعُصْبَةِ‏ ‏أُولِي‏ ‏الْقُوَّةِ their keep would weigh down a whole company of powerful people.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ح.مُفَتَّحة",
+        "label": "مُفَتَّحة",
+        "definitionHtml": "مُفَتَّحة mufattaḥatun [pass. part. fem.] willingly opened, thrown open, opened wide <br><br>(38:50) جَنَّاتِ‏ ‏عَدْنٍ‏ ‏مُفَتَّحَةً‏ ‏لَهُمُ‏ ‏الأَبْوَابُ‏ gardens of lasting bliss, the gates [of which] are thrown open for them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:37.350Z",
+      "refword": "2:76:15",
+      "lexword": "فَتَحَ"
+    }
+  }
+}

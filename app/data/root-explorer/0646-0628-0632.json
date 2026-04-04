@@ -1,0 +1,74 @@
+{
+  "root": "نبز",
+  "rootArabic": "نبز",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَنَابَزَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنَابَزَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 49,
+      "ayah": 11,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًا مِّنْهُمْ وَلَا نِسَآءٌ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًا مِّنْهُمْ وَلَا نِسَآءٌ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا <a class=\"highlight-text\">تَنَابَزُوا۟</a> بِٱلْأَلْقَٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "تَنَابَزَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:01.006Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VI) imperfect verb, jussive mood",
+    "derivativeNote": "تَنَابَزُوا۟ is in the derivative form: تَنَابَزَ",
+    "rootDefinitionHtml": "ن/ب/ز   n–b–z title, nickname, derisive or insulting name, descriptive name (usually bad), to call 1 another names, to defame. Of this root, تَنَابَزُوا tanābazū, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَنَابَزَ tanābaza [elided form of تَتَنَابَزُوا tatanābazū, imperf. of v. VI تَنَابَزَ tanābaza, intrans.] to call one another names <br><br>(49:11) وَلاَ تَلْمِزُوا أَنْفُسَكُمْ وَلاَ تَنَابَزُوا بِالأَلْقَابِ do not defame one another, nor revile [one another] with nicknames.",
+    "mainEntryId": "wdef-ن-ب-ز.تَنَابَزَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ب-ز",
+        "label": "ن-ب-ز",
+        "definitionHtml": "ن/ب/ز   n–b–z title, nickname, derisive or insulting name, descriptive name (usually bad), to call 1 another names, to defame. Of this root, تَنَابَزُوا tanābazū, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ب-ز.تَنَابَزَ",
+        "label": "تَنَابَزَ",
+        "definitionHtml": "تَنَابَزَ tanābaza [elided form of تَتَنَابَزُوا tatanābazū, imperf. of v. VI تَنَابَزَ tanābaza, intrans.] to call one another names <br><br>(49:11) وَلاَ تَلْمِزُوا أَنْفُسَكُمْ وَلاَ تَنَابَزُوا بِالأَلْقَابِ do not defame one another, nor revile [one another] with nicknames.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:17.881Z",
+      "refword": "49:11:27",
+      "lexword": "تَنَابَزُوا۟"
+    }
+  }
+}

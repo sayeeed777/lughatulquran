@@ -1,0 +1,274 @@
+{
+  "root": "اصل",
+  "rootArabic": "اصل",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 2,
+    "surahCount": 10,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "أَصِيلٌ",
+      "count": 7
+    },
+    {
+      "form": "أَصْلٌ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصْلٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصِيلٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 205,
+      "text": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "highlightedHtml": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ <a class=\"highlight-text\">وَٱلْءَاصَالِ</a> وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 15,
+      "text": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم بِٱلْغُدُوِّ وَٱلْءَاصَالِ ۩",
+      "highlightedHtml": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم بِٱلْغُدُوِّ <a class=\"highlight-text\">وَٱلْءَاصَالِ</a> ۩",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 24,
+      "text": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ أَصْلُهَا ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ",
+      "highlightedHtml": "أَلَمْ تَرَ كَيْفَ ضَرَبَ ٱللَّهُ مَثَلًا كَلِمَةً طَيِّبَةً كَشَجَرَةٍ طَيِّبَةٍ <a class=\"highlight-text\">أَصْلُهَا</a> ثَابِتٌ وَفَرْعُهَا فِى ٱلسَّمَآءِ",
+      "derivedForms": [
+        "أَصْلٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 36,
+      "text": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ",
+      "highlightedHtml": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ <a class=\"highlight-text\">وَٱلْءَاصَالِ</a>",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 5,
+      "text": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً <a class=\"highlight-text\">وَأَصِيلًا</a>",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 42,
+      "text": "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَسَبِّحُوهُ بُكْرَةً <a class=\"highlight-text\">وَأَصِيلًا</a>",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 64,
+      "text": "إِنَّهَا شَجَرَةٌ تَخْرُجُ فِىٓ أَصْلِ ٱلْجَحِيمِ",
+      "highlightedHtml": "إِنَّهَا شَجَرَةٌ تَخْرُجُ فِىٓ <a class=\"highlight-text\">أَصْلِ</a> ٱلْجَحِيمِ",
+      "derivedForms": [
+        "أَصْلٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 9,
+      "text": "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ بُكْرَةً <a class=\"highlight-text\">وَأَصِيلًا</a>",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 5,
+      "text": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ أُصُولِهَا فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ <a class=\"highlight-text\">أُصُولِهَا</a> فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "أَصْلٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 25,
+      "text": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً <a class=\"highlight-text\">وَأَصِيلًا</a>",
+      "derivedForms": [
+        "أَصِيلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:34.646Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "وَٱلْءَاصَالِ is in the derivative form: أَصِيلٌ",
+    "rootDefinitionHtml": "أ/ص/ل ʾ–ṣ–l base, root, foundation<br>; to be deep-rooted; to eradicate; time before sunset. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> أَصْلٌ ʾaṣl 2 times; أُصُولٌ ʾuṣūl 1 time; أَصِيلٌ ʾaṣīl 4 times and آصَال ʾāṣāl 3 times.",
+    "mainDefinitionHtml": "أَصِيلٌ ʾaṣīl [n.; pl. آصَال ʾāṣāl] time before sunset, evening <br><br>(13:15) وَلِلَّهِ يَسْجُدُ مَنْ فِى السَّمَوَاتِ وَالأَرْضِ طَوْعًا وَكَرْهًا وَظِلاَلُهُمْ بِالْغُدُوِّ وَالآصَالِ everything that is in the heavens and the Earth prostrates to God in the mornings and in the evenings, as do their shadows, willingly or unwillingly; *<br><br>(33:42) وَسَبِّحُوهُ بُكْرَةً وَأَصِيلا and glorify Him [morning and evening] constantly, at all times.",
+    "mainEntryId": "wdef-أ-ص-ل.أَصِيلٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-ص-ل",
+        "label": "أ-ص-ل",
+        "definitionHtml": "أ/ص/ل ʾ–ṣ–l base, root, foundation<br>; to be deep-rooted; to eradicate; time before sunset. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> أَصْلٌ ʾaṣl 2 times; أُصُولٌ ʾuṣūl 1 time; أَصِيلٌ ʾaṣīl 4 times and آصَال ʾāṣāl 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ص-ل.أَصِيلٌ",
+        "label": "أَصِيلٌ",
+        "definitionHtml": "أَصِيلٌ ʾaṣīl [n.; pl. آصَال ʾāṣāl] time before sunset, evening <br><br>(13:15) وَلِلَّهِ يَسْجُدُ مَنْ فِى السَّمَوَاتِ وَالأَرْضِ طَوْعًا وَكَرْهًا وَظِلاَلُهُمْ بِالْغُدُوِّ وَالآصَالِ everything that is in the heavens and the Earth prostrates to God in the mornings and in the evenings, as do their shadows, willingly or unwillingly; *<br><br>(33:42) وَسَبِّحُوهُ بُكْرَةً وَأَصِيلا and glorify Him [morning and evening] constantly, at all times.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ص-ل.أَصْلٌ",
+        "label": "أَصْلٌ",
+        "definitionHtml": "أَصْلٌ ʾaṣl [n.] <br><br><strong>1 </strong>bottom, base <br><br>(37:64) إِنَّهَا شَجَرَةٌ تَخْرُجُ فِى أَصْلِ الْجَحِيمِ it is a tree that emerges in the bottom of the blazing Fire <br><br><strong>2 </strong>[pl. أُصُولٌ ʾuṣūl] root, stem <br><br>(59:5) مَا قَطَعْتُمْ مِنْ لِينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا فَبِإِذْنِ اللَّهِ whatever palm trees you have cut down or left standing on their roots–[it was done] by God’s leave.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:17.774Z",
+      "refword": "7:205:12",
+      "lexword": "وَٱلْءَاصَالِ"
+    }
+  }
+}

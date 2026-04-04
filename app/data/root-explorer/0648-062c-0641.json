@@ -1,0 +1,106 @@
+{
+  "root": "وجف",
+  "rootArabic": "وجف",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَوْجَفَ",
+      "count": 1
+    },
+    {
+      "form": "وَاجِفَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْجَفَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاجِفَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 59,
+      "ayah": 6,
+      "text": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَمَآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْهُمْ فَمَآ <a class=\"highlight-text\">أَوْجَفْتُمْ</a> عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَٰكِنَّ ٱللَّهَ يُسَلِّطُ رُسُلَهُۥ عَلَىٰ مَن يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "أَوْجَفَ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 8,
+      "text": "قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ",
+      "highlightedHtml": "قُلُوبٌ يَوْمَئِذٍ <a class=\"highlight-text\">وَاجِفَةٌ</a>",
+      "derivedForms": [
+        "وَاجِفَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:01.194Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) perfect verb",
+    "derivativeNote": "أَوْجَفْتُمْ is in the derivative form: أَوْجَفَ",
+    "rootDefinitionHtml": "و/ج/ف   w–j–f fast‐running, to move briskly, to be agitated; (of the heart) to beat strongly; to be seized with love or fear. Of this root, 2 forms, أَوْجَفَ ʾawjafa and وَاجِفَةٌ wājifatun, occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَوْجَفَ ʾawjafa [v. IV, trans.] to cause to run briskly *<br><br>(59:6) فَمَا أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلاَ رِكَابٍ you did not have [in the course of capturing these spoils] to spur on [also: you did not have to fight] horses or [other] mounts.",
+    "mainEntryId": "wdef-و-ج-ف.أَوْجَفَ",
+    "entries": [
+      {
+        "id": "wdef-و-ج-ف",
+        "label": "و-ج-ف",
+        "definitionHtml": "و/ج/ف   w–j–f fast‐running, to move briskly, to be agitated; (of the heart) to beat strongly; to be seized with love or fear. Of this root, 2 forms, أَوْجَفَ ʾawjafa and وَاجِفَةٌ wājifatun, occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ج-ف.أَوْجَفَ",
+        "label": "أَوْجَفَ",
+        "definitionHtml": "أَوْجَفَ ʾawjafa [v. IV, trans.] to cause to run briskly *<br><br>(59:6) فَمَا أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلاَ رِكَابٍ you did not have [in the course of capturing these spoils] to spur on [also: you did not have to fight] horses or [other] mounts.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ج-ف.وَاجِفَةٌ",
+        "label": "وَاجِفَةٌ",
+        "definitionHtml": "وَاجِفَةٌ wājifatun [act. part.] apprehensive, troubled, agitated, concerned, beating fast <br><br>(79:8) قُلُوبٌ يَوْمَئِذٍ وَاجِفَةٌ hearts on that Day will be fearful.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:10.570Z",
+      "refword": "59:6:8",
+      "lexword": "أَوْجَفْتُمْ"
+    }
+  }
+}

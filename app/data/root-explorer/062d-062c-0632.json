@@ -1,0 +1,106 @@
+{
+  "root": "حجز",
+  "rootArabic": "حجز",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "حَاجِز",
+      "count": 1
+    },
+    {
+      "form": "حَاجِزِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَاجِز",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَاجِزِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 61,
+      "text": "أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًا وَجَعَلَ خِلَٰلَهَآ أَنْهَٰرًا وَجَعَلَ لَهَا رَوَٰسِىَ وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ حَاجِزًا ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "أَمَّن جَعَلَ ٱلْأَرْضَ قَرَارًا وَجَعَلَ خِلَٰلَهَآ أَنْهَٰرًا وَجَعَلَ لَهَا رَوَٰسِىَ وَجَعَلَ بَيْنَ ٱلْبَحْرَيْنِ <a class=\"highlight-text\">حَاجِزًا</a> ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "حَاجِز"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 47,
+      "text": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ حَٰجِزِينَ",
+      "highlightedHtml": "فَمَا مِنكُم مِّنْ أَحَدٍ عَنْهُ <a class=\"highlight-text\">حَٰجِزِينَ</a>",
+      "derivedForms": [
+        "حَاجِزِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:47.872Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "حَاجِزًا is in the derivative form: حَاجِز",
+    "rootDefinitionHtml": "ح/ج/ز   ḥ–j–z barrier, dam, to separate, to put a stop to, to deny; to knot a belt, to truss up a camel in order to treat body sores. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حَاجِزٌ ḥājiz and حَاجِزِين ḥājizın.",
+    "mainDefinitionHtml": "حَاجِز ḥājiz [n.] barrier <br><br>(27:61) وَجَعَلَ بَيْنَ الْبَحْرَيْنِ حَاجِزًا and ordained a barrier between the two bodies of water.",
+    "mainEntryId": "wdef-ح-ج-ز.حَاجِز",
+    "entries": [
+      {
+        "id": "wdef-ح-ج-ز",
+        "label": "ح-ج-ز",
+        "definitionHtml": "ح/ج/ز   ḥ–j–z barrier, dam, to separate, to put a stop to, to deny; to knot a belt, to truss up a camel in order to treat body sores. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حَاجِزٌ ḥājiz and حَاجِزِين ḥājizın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ج-ز.حَاجِز",
+        "label": "حَاجِز",
+        "definitionHtml": "حَاجِز ḥājiz [n.] barrier <br><br>(27:61) وَجَعَلَ بَيْنَ الْبَحْرَيْنِ حَاجِزًا and ordained a barrier between the two bodies of water.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ج-ز.حَاجِزِين",
+        "label": "حَاجِزِين",
+        "definitionHtml": "حَاجِزِين ḥājizın [pl. of act. part. حَاجِزٌ ḥājiz] one who keeps back, one who prevents, one who shields <br><br>(69:47) فَمَا مِنْكُمْ مِنْ أَحَدٍ عَنْهُ حَاجِزِينَ and not one of you could have shielded (or, defended) him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:07.728Z",
+      "refword": "27:61:14",
+      "lexword": "حَاجِزًا"
+    }
+  }
+}

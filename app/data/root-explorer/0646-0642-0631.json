@@ -1,0 +1,132 @@
+{
+  "root": "نقر",
+  "rootArabic": "نقر",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَقِيرٌ",
+      "count": 2
+    },
+    {
+      "form": "نَاقُورٌ",
+      "count": 1
+    },
+    {
+      "form": "نُقِرَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَقِيرٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَاقُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نُقِرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 53,
+      "text": "أَمْ لَهُمْ نَصِيبٌ مِّنَ ٱلْمُلْكِ فَإِذًا لَّا يُؤْتُونَ ٱلنَّاسَ نَقِيرًا",
+      "highlightedHtml": "أَمْ لَهُمْ نَصِيبٌ مِّنَ ٱلْمُلْكِ فَإِذًا لَّا يُؤْتُونَ ٱلنَّاسَ <a class=\"highlight-text\">نَقِيرًا</a>",
+      "derivedForms": [
+        "نَقِيرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 124,
+      "text": "وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ نَقِيرًا",
+      "highlightedHtml": "وَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ مِن ذَكَرٍ أَوْ أُنثَىٰ وَهُوَ مُؤْمِنٌ فَأُو۟لَٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ <a class=\"highlight-text\">نَقِيرًا</a>",
+      "derivedForms": [
+        "نَقِيرٌ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 8,
+      "text": "فَإِذَا نُقِرَ فِى ٱلنَّاقُورِ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">نُقِرَ</a> فِى <a class=\"highlight-text\">ٱلنَّاقُورِ</a>",
+      "derivedForms": [
+        "نُقِرَ",
+        "نَاقُورٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:56.715Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "نَقِيرًا is in the derivative form: نَقِيرٌ",
+    "rootDefinitionHtml": "ن/ق/ر   n–q–r puddle, small hole in a date‐stone<br>; bird’s beak; click with the tongue or fingers; to chisel, to pierce; to abuse, infighting; to select; trumpet, horn. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> نُقِرَ nuqira 1 time; نَقِيرٌ naqır 2 times and نَاقُورٌ nāqūr 1 time.",
+    "mainDefinitionHtml": "نَقِيرٌ naqır [n.] a minute recess on a date‐stone <br><br>(4:53) فَإِذًا لاَ يُؤْتُونَ النَّاسَ نَقِيرًا if so, then they would not give to people [so much as] the groove on a date‐stone.",
+    "mainEntryId": "wdef-ن-ق-ر.نَقِيرٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ق-ر",
+        "label": "ن-ق-ر",
+        "definitionHtml": "ن/ق/ر   n–q–r puddle, small hole in a date‐stone<br>; bird’s beak; click with the tongue or fingers; to chisel, to pierce; to abuse, infighting; to select; trumpet, horn. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> نُقِرَ nuqira 1 time; نَقِيرٌ naqır 2 times and نَاقُورٌ nāqūr 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ر.نَقِيرٌ",
+        "label": "نَقِيرٌ",
+        "definitionHtml": "نَقِيرٌ naqır [n.] a minute recess on a date‐stone <br><br>(4:53) فَإِذًا لاَ يُؤْتُونَ النَّاسَ نَقِيرًا if so, then they would not give to people [so much as] the groove on a date‐stone.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ق-ر.نَاقُورٌ",
+        "label": "نَاقُورٌ",
+        "definitionHtml": "نَاقُورٌ nāqūr [n. of instrument] trumpet, horn <br><br>(74:8) فَإِذَا نُقِرَ فِى النَّاقُورِ when the Trumpet [heralding the Resurrection, (cf.) الصور ʾal‐ṣūr] is sounded.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ر.نُقِرَ",
+        "label": "نُقِرَ",
+        "definitionHtml": "نُقِرَ nuqira [pass. of v. نَقَرَ naqara] (of a horn or trumpet) to be blown, to be sounded <br><br>(74:8) فَإِذَا نُقِرَ فِى النَّاقُورِ when the Trumpet is sounded.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:04.575Z",
+      "refword": "4:53:10",
+      "lexword": "نَقِيرًا"
+    }
+  }
+}

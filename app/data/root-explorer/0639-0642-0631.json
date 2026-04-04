@@ -1,0 +1,220 @@
+{
+  "root": "عقر",
+  "rootArabic": "عقر",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "عَقَرَ",
+      "count": 5
+    },
+    {
+      "form": "عَاقِرٌ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاقِرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَقَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَقَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَاقِرٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَقَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَقَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَقَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 40,
+      "text": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى عَاقِرٌ ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ",
+      "highlightedHtml": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَقَدْ بَلَغَنِىَ ٱلْكِبَرُ وَٱمْرَأَتِى <a class=\"highlight-text\">عَاقِرٌ</a> ۖ قَالَ كَذَٰلِكَ ٱللَّهُ يَفْعَلُ مَا يَشَآءُ",
+      "derivedForms": [
+        "عَاقِرٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 77,
+      "text": "فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَٰصَٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَعَقَرُوا۟</a> ٱلنَّاقَةَ وَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَٰصَٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ",
+      "derivedForms": [
+        "عَقَرَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 65,
+      "text": "فَعَقَرُوهَا فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَٰثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَعَقَرُوهَا</a> فَقَالَ تَمَتَّعُوا۟ فِى دَارِكُمْ ثَلَٰثَةَ أَيَّامٍ ۖ ذَٰلِكَ وَعْدٌ غَيْرُ مَكْذُوبٍ",
+      "derivedForms": [
+        "عَقَرَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 5,
+      "text": "وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى عَاقِرًا فَهَبْ لِى مِن لَّدُنكَ وَلِيًّا",
+      "highlightedHtml": "وَإِنِّى خِفْتُ ٱلْمَوَٰلِىَ مِن وَرَآءِى وَكَانَتِ ٱمْرَأَتِى <a class=\"highlight-text\">عَاقِرًا</a> فَهَبْ لِى مِن لَّدُنكَ وَلِيًّا",
+      "derivedForms": [
+        "عَاقِرٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 8,
+      "text": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَكَانَتِ ٱمْرَأَتِى عَاقِرًا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّا",
+      "highlightedHtml": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَكَانَتِ ٱمْرَأَتِى <a class=\"highlight-text\">عَاقِرًا</a> وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّا",
+      "derivedForms": [
+        "عَاقِرٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 157,
+      "text": "فَعَقَرُوهَا فَأَصْبَحُوا۟ نَٰدِمِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَعَقَرُوهَا</a> فَأَصْبَحُوا۟ نَٰدِمِينَ",
+      "derivedForms": [
+        "عَقَرَ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 29,
+      "text": "فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ فَعَقَرَ",
+      "highlightedHtml": "فَنَادَوْا۟ صَاحِبَهُمْ فَتَعَاطَىٰ <a class=\"highlight-text\">فَعَقَرَ</a>",
+      "derivedForms": [
+        "عَقَرَ"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 14,
+      "text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا فَسَوَّىٰهَا",
+      "highlightedHtml": "فَكَذَّبُوهُ <a class=\"highlight-text\">فَعَقَرُوهَا</a> فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا فَسَوَّىٰهَا",
+      "derivedForms": [
+        "عَقَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:15.993Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "عَاقِرٌ is in the derivative form: عَاقِرٌ",
+    "rootDefinitionHtml": "ع/ق/ر   ʿ–q–r the main part of one’s dwelling, real estate, landed property, residence; furniture; to slay by stabbing, to wound, to be savaged by an animal; to be barren, to be sterile; to be alcoholic; medicine. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br> عَقَرَ ʿaqara 5 times and عَاقِرٌ ʿāqir 3 times.",
+    "mainDefinitionHtml": "عَاقِرٌ ʿāqir [quasi‐act. part.] barren, unable to bear a child <br><br>(3:40) ‏وَامْرَأَتِي‏ ‏عَاقِرٌ‏ and my wife is barren.",
+    "mainEntryId": "wdef-ع-ق-ر.عَاقِرٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ق-ر",
+        "label": "ع-ق-ر",
+        "definitionHtml": "ع/ق/ر   ʿ–q–r the main part of one’s dwelling, real estate, landed property, residence; furniture; to slay by stabbing, to wound, to be savaged by an animal; to be barren, to be sterile; to be alcoholic; medicine. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br> عَقَرَ ʿaqara 5 times and عَاقِرٌ ʿāqir 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ق-ر.عَاقِرٌ",
+        "label": "عَاقِرٌ",
+        "definitionHtml": "عَاقِرٌ ʿāqir [quasi‐act. part.] barren, unable to bear a child <br><br>(3:40) ‏وَامْرَأَتِي‏ ‏عَاقِرٌ‏ and my wife is barren.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ق-ر.عَقَرَ",
+        "label": "عَقَرَ",
+        "definitionHtml": "عَقَرَ ʿaqara i [v. trans.] to hamstring, to kill by stabbing <br><br>(7:77) فَعَقَرُوا‏ ‏النَّاقَةَ‏ and then they hamstrung the she‐camel.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:13.423Z",
+      "refword": "3:40:11",
+      "lexword": "عَاقِرٌ"
+    }
+  }
+}

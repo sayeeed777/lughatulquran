@@ -1,0 +1,321 @@
+{
+  "root": "وقد",
+  "rootArabic": "وقد",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 5,
+    "surahCount": 10,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "أَوْقَدَ",
+      "count": 4
+    },
+    {
+      "form": "وَقُودٌ",
+      "count": 4
+    },
+    {
+      "form": "اسْتَوْقَدَ",
+      "count": 1
+    },
+    {
+      "form": "مُوقَدَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يُوقَدُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَوْقَدَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "وَقُودٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقُودٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْقَدَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْقَدَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقَدُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْقَدَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْقَدَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقُودٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقُودٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوقَدَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 17,
+      "text": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "highlightedHtml": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى <a class=\"highlight-text\">ٱسْتَوْقَدَ</a> نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "derivedForms": [
+        "اسْتَوْقَدَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 24,
+      "text": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "highlightedHtml": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى <a class=\"highlight-text\">وَقُودُهَا</a> ٱلنَّاسُ وَٱلْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَٰفِرِينَ",
+      "derivedForms": [
+        "وَقُودٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 10,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَٰٓئِكَ هُمْ وَقُودُ ٱلنَّارِ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ لَن تُغْنِىَ عَنْهُمْ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ ٱللَّهِ شَيْـًٔا ۖ وَأُو۟لَٰٓئِكَ هُمْ <a class=\"highlight-text\">وَقُودُ</a> ٱلنَّارِ",
+      "derivedForms": [
+        "وَقُودٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 64,
+      "text": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ <a class=\"highlight-text\">أَوْقَدُوا۟</a> نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "أَوْقَدَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 17,
+      "text": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا رَّابِيًا ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "highlightedHtml": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا رَّابِيًا ۚ وَمِمَّا <a class=\"highlight-text\">يُوقِدُونَ</a> عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "derivedForms": [
+        "أَوْقَدَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 35,
+      "text": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ <a class=\"highlight-text\">يُوقَدُ</a> مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "يُوقَدُ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 38,
+      "text": "وَقَالَ فِرْعَوْنُ يَٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَٰهٍ غَيْرِى فَأَوْقِدْ لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًا صَرْحًا لَّعَلِّىٓ أَطَّلِعُ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَٰذِبِينَ",
+      "highlightedHtml": "وَقَالَ فِرْعَوْنُ يَٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَٰهٍ غَيْرِى <a class=\"highlight-text\">فَأَوْقِدْ</a> لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًا صَرْحًا لَّعَلِّىٓ أَطَّلِعُ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَٰذِبِينَ",
+      "derivedForms": [
+        "أَوْقَدَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 80,
+      "text": "ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًا فَإِذَآ أَنتُم مِّنْهُ تُوقِدُونَ",
+      "highlightedHtml": "ٱلَّذِى جَعَلَ لَكُم مِّنَ ٱلشَّجَرِ ٱلْأَخْضَرِ نَارًا فَإِذَآ أَنتُم مِّنْهُ <a class=\"highlight-text\">تُوقِدُونَ</a>",
+      "derivedForms": [
+        "أَوْقَدَ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا قُوٓا۟ أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا <a class=\"highlight-text\">وَقُودُهَا</a> ٱلنَّاسُ وَٱلْحِجَارَةُ عَلَيْهَا مَلَٰٓئِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ ٱللَّهَ مَآ أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
+      "derivedForms": [
+        "وَقُودٌ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 5,
+      "text": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
+      "highlightedHtml": "ٱلنَّارِ ذَاتِ <a class=\"highlight-text\">ٱلْوَقُودِ</a>",
+      "derivedForms": [
+        "وَقُودٌ"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 6,
+      "text": "نَارُ ٱللَّهِ ٱلْمُوقَدَةُ",
+      "highlightedHtml": "نَارُ ٱللَّهِ <a class=\"highlight-text\">ٱلْمُوقَدَةُ</a>",
+      "derivedForms": [
+        "مُوقَدَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:42.175Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form X) perfect verb",
+    "derivativeNote": "ٱسْتَوْقَدَ is in the derivative form: اسْتَوْقَدَ",
+    "rootDefinitionHtml": "و/ق/د   w–q–d firewood, fuel, extreme heat of day, to burn, to heat up, to kindle<br>; to shine, to glimmer; to be agile, to be alert, to be quick. <br><br>Of this root, 5 forms occur 11 times in the Qur’an:<br> أَوْقَدَ ʾawqada 4 times; يُوقَدُ yūqad 1 time; اسْتَوقَدَ ʾistawqada 1 time; وَقُودٌ waqūd 4 times and مُوقَدَةٌ mūqadatun 1 time.",
+    "mainDefinitionHtml": "اسْتَوْقَدَ ʾistawqada [v. X, trans.] (of a fire) to seek to kindle, to labour to light <br><br>(2:17) كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا like a [person] who has laboured in order to kindle a fire.",
+    "mainEntryId": "wdef-و-ق-د.اسْتَوْقَدَ",
+    "entries": [
+      {
+        "id": "wdef-و-ق-د",
+        "label": "و-ق-د",
+        "definitionHtml": "و/ق/د   w–q–d firewood, fuel, extreme heat of day, to burn, to heat up, to kindle<br>; to shine, to glimmer; to be agile, to be alert, to be quick. <br><br>Of this root, 5 forms occur 11 times in the Qur’an:<br> أَوْقَدَ ʾawqada 4 times; يُوقَدُ yūqad 1 time; اسْتَوقَدَ ʾistawqada 1 time; وَقُودٌ waqūd 4 times and مُوقَدَةٌ mūqadatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-د.اسْتَوْقَدَ",
+        "label": "اسْتَوْقَدَ",
+        "definitionHtml": "اسْتَوْقَدَ ʾistawqada [v. X, trans.] (of a fire) to seek to kindle, to labour to light <br><br>(2:17) كَمَثَلِ الَّذِي اسْتَوْقَدَ نَارًا like a [person] who has laboured in order to kindle a fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ق-د.أَوْقَدَ",
+        "label": "أَوْقَدَ",
+        "definitionHtml": "أَوْقَدَ ʾawqada [v. IV trans.] to kindle (a fire), to light (a fire) *<br><br>(5:64) كُلَّمَا أَوْقَدُوا نَارًا لِلْحَرْبِ أَطْفَأَهَا اللَّهُ whenever they kindle a fire of war, God puts it out.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-د.مُوقَدَةٌ",
+        "label": "مُوقَدَةٌ",
+        "definitionHtml": "مُوقَدَةٌ mūqadatun [pass. part.] kindled, made to rage <br><br>(104:6) نَارُ اللَّهِ الْمُوقَدَةُ [it is] God’s Fire, made to blaze.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-د.وَقُودٌ",
+        "label": "وَقُودٌ",
+        "definitionHtml": "وَقُودٌ waqūd I [n.] fuel <br><br>(3:10) هُمْ وَقُودُ النَّارِ they will be fuel for the fire II [v. n.] the act of burning, the act of fuelling <br><br>(85:5) النَّارِ ذَاتِ الْوَقُودِ the well‐fuelled fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-د.يُوقَدُ",
+        "label": "يُوقَدُ",
+        "definitionHtml": "يُوقَدُ yūqad [pass. imperf. of v. أُوقِدَ ʾūqida] to be kindled, to be lit, to be fuelled <br><br>(24:35) يُوقَدُ مِنْ شَجَرَةٍ مُبَارَكَةٍ fuelled from a blessed olive tree.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:28.162Z",
+      "refword": "2:17:4",
+      "lexword": "ٱسْتَوْقَدَ"
+    }
+  }
+}

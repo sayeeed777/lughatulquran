@@ -1,0 +1,171 @@
+{
+  "root": "صرخ",
+  "rootArabic": "صرخ",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "مُصْرِخ",
+      "count": 2
+    },
+    {
+      "form": "صَريخ",
+      "count": 1
+    },
+    {
+      "form": "يَسْتَصْرِخ",
+      "count": 1
+    },
+    {
+      "form": "يَصْطَرِخون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُصْرِخ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَصْرِخ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْطَرِخون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَريخ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 22,
+      "text": "وَقَالَ ٱلشَّيْطَٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلشَّيْطَٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ <a class=\"highlight-text\">بِمُصْرِخِكُمْ</a> وَمَآ أَنتُم <a class=\"highlight-text\">بِمُصْرِخِىَّ</a> ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "مُصْرِخ",
+        "مُصْرِخ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 18,
+      "text": "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّ مُّبِينٌ",
+      "highlightedHtml": "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ <a class=\"highlight-text\">يَسْتَصْرِخُهُۥ</a> ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّ مُّبِينٌ",
+      "derivedForms": [
+        "يَسْتَصْرِخ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 37,
+      "text": "وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ نُعَمِّرْكُم مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّٰلِمِينَ مِن نَّصِيرٍ",
+      "highlightedHtml": "وَهُمْ <a class=\"highlight-text\">يَصْطَرِخُونَ</a> فِيهَا رَبَّنَآ أَخْرِجْنَا نَعْمَلْ صَٰلِحًا غَيْرَ ٱلَّذِى كُنَّا نَعْمَلُ ۚ أَوَلَمْ نُعَمِّرْكُم مَّا يَتَذَكَّرُ فِيهِ مَن تَذَكَّرَ وَجَآءَكُمُ ٱلنَّذِيرُ ۖ فَذُوقُوا۟ فَمَا لِلظَّٰلِمِينَ مِن نَّصِيرٍ",
+      "derivedForms": [
+        "يَصْطَرِخون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 43,
+      "text": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "highlightedHtml": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا <a class=\"highlight-text\">صَرِيخَ</a> لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "derivedForms": [
+        "صَريخ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:50.558Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form IV) active participle",
+    "derivativeNote": "بِمُصْرِخِكُمْ is in the derivative form: مُصْرِخ",
+    "rootDefinitionHtml": "ص/ر/خ   ṣ–r–kh to scream, shriek, to call for help, yell, loud cry. <br><br>Of this root, 4 forms occur 25 times in the Qur’an:<br> يَسْتَصْرِخ yastaṣrikh 1 time; يَصْطَرِخون yaṣtarikhūn 11 times; صَريخ sarıkh 11 times and مُصْرِخ muṣrikh 2 times.",
+    "mainDefinitionHtml": "مُصْرِخ muṣrikh [act. part.] one who comes to the rescue in response to a cry of help <br><br>(14:22) مَا أَنَا بِمُصْرِخِكُمْ وَمَا أَنْتُمْ بِمُصْرِخِيَّ I cannot come to your rescue, nor can you help me.",
+    "mainEntryId": "wdef-ص-ر-خ.مُصْرِخ",
+    "entries": [
+      {
+        "id": "wdef-ص-ر-خ",
+        "label": "ص-ر-خ",
+        "definitionHtml": "ص/ر/خ   ṣ–r–kh to scream, shriek, to call for help, yell, loud cry. <br><br>Of this root, 4 forms occur 25 times in the Qur’an:<br> يَسْتَصْرِخ yastaṣrikh 1 time; يَصْطَرِخون yaṣtarikhūn 11 times; صَريخ sarıkh 11 times and مُصْرِخ muṣrikh 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-خ.مُصْرِخ",
+        "label": "مُصْرِخ",
+        "definitionHtml": "مُصْرِخ muṣrikh [act. part.] one who comes to the rescue in response to a cry of help <br><br>(14:22) مَا أَنَا بِمُصْرِخِكُمْ وَمَا أَنْتُمْ بِمُصْرِخِيَّ I cannot come to your rescue, nor can you help me.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ر-خ.صَريخ",
+        "label": "صَريخ",
+        "definitionHtml": "صَريخ ṣarıkh [v. n./act. part.] crying out for help; one who comes to the rescue in response <br><br>(36:43) وَإِنْ نَشَأْ نُغْرِقْهُمْ فَلاَ صَرِيخَ لَهُمْ وَلاَ هُمْ يُنْقَذُونَ and if We will, We will drown them, and there would be no help for them, (or, there will be no [time for them to utter a] cry for help) and they will not be rescued.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-خ.يَسْتَصْرِخ",
+        "label": "يَسْتَصْرِخ",
+        "definitionHtml": "يَسْتَصْرِخ yastaṣrikh [imperf. of v. X, trans.] to cry to someone for help <br><br>(28:18) فَإِذَا الَّذِي اسْتَنْصَرَهُ بِالأَمْسِ يَسْتَصْرِخُهُ and there it was, the one who had sought his help the day before, was [again] crying out to him for help.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-خ.يَصْطَرِخون",
+        "label": "يَصْطَرِخون",
+        "definitionHtml": "يَصْطَرِخون yaṣṭarikhūn [imper. of v. VIII, intrans.] to yell, to bellow, to scream, to call out in anguish <br><br>(35:37) وَهُمْ يَصْطَرِخُونَ فِيهَا رَبَّنَا أَخْرِجْنَا نَعْمَلْ صَالِحًا غَيْرَ لَّذِي كُنَّا نَعْمَلُ and there they will cry out loud, ‘Lord, let us out, and we will do righteous deeds, not what we were doing [before]’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:41.160Z",
+      "refword": "14:22:30",
+      "lexword": "بِمُصْرِخِكُمْ"
+    }
+  }
+}

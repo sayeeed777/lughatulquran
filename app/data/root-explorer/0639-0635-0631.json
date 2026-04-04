@@ -1,0 +1,179 @@
+{
+  "root": "عصر",
+  "rootArabic": "عصر",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "أَعْصِرُ",
+      "count": 2
+    },
+    {
+      "form": "إِعْصَارٌ",
+      "count": 1
+    },
+    {
+      "form": "المُعْصِرَاتُ",
+      "count": 1
+    },
+    {
+      "form": "عَصْرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِعْصَارٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَعْصِرُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المُعْصِرَاتُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 103,
+      "surahName": "Al-'Asr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَصْرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 266,
+      "text": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+      "highlightedHtml": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ <a class=\"highlight-text\">إِعْصَارٌ</a> فِيهِ نَارٌ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+      "derivedForms": [
+        "إِعْصَارٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 36,
+      "text": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًا ۖ وَقَالَ الْآخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ <a class=\"highlight-text\">أَعْصِرُ</a> خَمْرًا ۖ وَقَالَ الْآخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "أَعْصِرُ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 49,
+      "text": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
+      "highlightedHtml": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ <a class=\"highlight-text\">يَعْصِرُونَ</a>",
+      "derivedForms": [
+        "أَعْصِرُ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 14,
+      "text": "وَأَنزَلْنَا مِنَ ٱلْمُعْصِرَٰتِ مَآءً ثَجَّاجًا",
+      "highlightedHtml": "وَأَنزَلْنَا مِنَ <a class=\"highlight-text\">ٱلْمُعْصِرَٰتِ</a> مَآءً ثَجَّاجًا",
+      "derivedForms": [
+        "المُعْصِرَاتُ"
+      ]
+    },
+    {
+      "surah": 103,
+      "ayah": 1,
+      "text": "وَٱلْعَصْرِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْعَصْرِ</a>",
+      "derivedForms": [
+        "عَصْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:00.645Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form IV) verbal noun",
+    "derivativeNote": "إِعْصَارٌ is in the derivative form: إِعْصَارٌ",
+    "rootDefinitionHtml": "ع/ص/ر   ʿ–ṣ–r time, age, era, period, the afternoon<br>; to be a contemporary; to be of age; to squeeze, to wring; hurricane, whirlwind, cyclone, rain clouds. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> أَعْصِرُ ʾaʿṣir 2 times; عَصْرٌ ʿaṣr 1 time; إِعْصَارٌ ʾiʿṣār 1 time and مُعْصِرَاتٌ muʿṣirāt 1 time.",
+    "mainDefinitionHtml": "إِعْصَارٌ ʾiʿṣār [n.] hurricane, whirlwind <br><br>(2:266)‏فَأَصَابَهَا‏ ‏إِعْصَارٌ‏ ‏فِيهِ‏ ‏نَارٌ‏‏ then a fiery whirlwind struck it.",
+    "mainEntryId": "wdef-ع-ص-ر.إِعْصَارٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ص-ر",
+        "label": "ع-ص-ر",
+        "definitionHtml": "ع/ص/ر   ʿ–ṣ–r time, age, era, period, the afternoon<br>; to be a contemporary; to be of age; to squeeze, to wring; hurricane, whirlwind, cyclone, rain clouds. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> أَعْصِرُ ʾaʿṣir 2 times; عَصْرٌ ʿaṣr 1 time; إِعْصَارٌ ʾiʿṣār 1 time and مُعْصِرَاتٌ muʿṣirāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ص-ر.إِعْصَارٌ",
+        "label": "إِعْصَارٌ",
+        "definitionHtml": "إِعْصَارٌ ʾiʿṣār [n.] hurricane, whirlwind <br><br>(2:266)‏فَأَصَابَهَا‏ ‏إِعْصَارٌ‏ ‏فِيهِ‏ ‏نَارٌ‏‏ then a fiery whirlwind struck it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ص-ر.أَعْصِرُ",
+        "label": "أَعْصِرُ",
+        "definitionHtml": "أَعْصِرُ ʾaʿṣir [imperf. of v. عَصَرَ ʿaṣara, trans.] to press, to juice <br><br>(12:36) ‏إِنِّي‏ ‏أَرَانِي‏ ‏أَعْصِرُ‏ ‏خَمْرًا I saw myself pressing grapes.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ص-ر.المُعْصِرَاتُ",
+        "label": "المُعْصِرَاتُ",
+        "definitionHtml": "المُعْصِرَاتُ ʾal‐muʿṣirāt [pl. of n./act. part. مُعْصِر muʿṣir] either: wringers, strong wind that is said to wring rain out of clouds, or rain‐bearing clouds <br><br>(78:14) وَأَنْزَلْنَا‏ ‏مِنَ‏ ‏الْمُعْصِرَاتِ‏ ‏مَاءً‏ ‏ثَجَّاجًا‏ and We send down from the rain‐bearing clouds (or, by rain‐causing winds) cascading water.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ص-ر.عَصْرٌ",
+        "label": "عَصْرٌ",
+        "definitionHtml": "عَصْرٌ ʿaṣr [n.] <br><br><strong>1 </strong>age, time; afternoon; afternoon prayer <br><br>(103:1–2) وَالْعَصْرِ إِنَّ‏ ‏الإِنْسَانَ‏ ‏لَفِي‏ ‏خُسْرٍ I swear by the declining day [also interpreted as: by the passage of time, by the afternoon prayer or, by the time of the Prophet] that humankind are truly lost; * الْعَصْرِ name of Sura 103, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Declining Days’ or ‘the Passage of Time’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:44.598Z",
+      "refword": "2:266:25",
+      "lexword": "إِعْصَارٌ"
+    }
+  }
+}

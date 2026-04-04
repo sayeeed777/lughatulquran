@@ -1,0 +1,269 @@
+{
+  "root": "سود",
+  "rootArabic": "سود",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "مُسْوَدّ",
+      "count": 4
+    },
+    {
+      "form": "أسْوَد",
+      "count": 2
+    },
+    {
+      "form": "إسْوَدَّ",
+      "count": 2
+    },
+    {
+      "form": "سَيِّد",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْوَد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "إسْوَدَّ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مُسْوَدّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَيِّد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْوَدّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَيِّد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْوَد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْوَدّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْوَدّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 187,
+      "text": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ <a class=\"highlight-text\">ٱلْأَسْوَدِ</a> مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "أسْوَد"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 39,
+      "text": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ <a class=\"highlight-text\">وَسَيِّدًا</a> وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "مُسْوَدّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 106,
+      "text": "يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ ۚ فَأَمَّا ٱلَّذِينَ ٱسْوَدَّتْ وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "highlightedHtml": "يَوْمَ تَبْيَضُّ وُجُوهٌ <a class=\"highlight-text\">وَتَسْوَدُّ</a> وُجُوهٌ ۚ فَأَمَّا ٱلَّذِينَ <a class=\"highlight-text\">ٱسْوَدَّتْ</a> وُجُوهُهُمْ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "derivedForms": [
+        "إسْوَدَّ",
+        "إسْوَدَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا <a class=\"highlight-text\">سَيِّدَهَا</a> لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "سَيِّد"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 58,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ <a class=\"highlight-text\">مُسْوَدًّا</a> وَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "مُسْوَدّ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 67,
+      "text": "وَقَالُوا۟ رَبَّنَآ إِنَّآ أَطَعْنَا سَادَتَنَا وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠",
+      "highlightedHtml": "وَقَالُوا۟ رَبَّنَآ إِنَّآ أَطَعْنَا <a class=\"highlight-text\">سَادَتَنَا</a> وَكُبَرَآءَنَا فَأَضَلُّونَا ٱلسَّبِيلَا۠",
+      "derivedForms": [
+        "سَيِّد"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 27,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ سُودٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ ثَمَرَٰتٍ مُّخْتَلِفًا أَلْوَٰنُهَا ۚ وَمِنَ ٱلْجِبَالِ جُدَدٌۢ بِيضٌ بِيضٌ وَحُمْرٌ مُّخْتَلِفٌ أَلْوَٰنُهَا وَغَرَابِيبُ <a class=\"highlight-text\">سُودٌ</a>",
+      "derivedForms": [
+        "أسْوَد"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 60,
+      "text": "وَيَوْمَ ٱلْقِيَٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْمُتَكَبِّرِينَ",
+      "highlightedHtml": "وَيَوْمَ ٱلْقِيَٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم <a class=\"highlight-text\">مُّسْوَدَّةٌ</a> ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْمُتَكَبِّرِينَ",
+      "derivedForms": [
+        "مُسْوَدّ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 17,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ <a class=\"highlight-text\">مُسْوَدًّا</a> وَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "مُسْوَدّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:38.335Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine singular adjective",
+    "derivativeNote": "ٱلْأَسْوَدِ is in the derivative form: أسْوَد",
+    "rootDefinitionHtml": "س/و/د   s–w–d blackness, black, to blacken<br>; dark, darkness; master/lady, being a master/lady. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> اسْوَدَّ ʾiswadda 2 times; أسْوَد ʾaswad 1 time; سود sūd 1 time; مُسْوَدّ muswadd 3 times;سَيِّد sayyid 2 times andسادةٌ sādatun 1 time.",
+    "mainDefinitionHtml": "أسْوَد ʾaswad [n.; pl. سود sūd] black, dark *<br><br>(2:187) حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ until the dawn breaks [lit. the white thread of dawn becomes distinct for you from the black].",
+    "mainEntryId": "wdef-س-و-د.أسْوَد",
+    "entries": [
+      {
+        "id": "wdef-س-و-د",
+        "label": "س-و-د",
+        "definitionHtml": "س/و/د   s–w–d blackness, black, to blacken<br>; dark, darkness; master/lady, being a master/lady. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> اسْوَدَّ ʾiswadda 2 times; أسْوَد ʾaswad 1 time; سود sūd 1 time; مُسْوَدّ muswadd 3 times;سَيِّد sayyid 2 times andسادةٌ sādatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-د.أسْوَد",
+        "label": "أسْوَد",
+        "definitionHtml": "أسْوَد ʾaswad [n.; pl. سود sūd] black, dark *<br><br>(2:187) حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ until the dawn breaks [lit. the white thread of dawn becomes distinct for you from the black].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-و-د.إسْوَدَّ",
+        "label": "إسْوَدَّ",
+        "definitionHtml": "إسْوَدَّ ʾiswadda [v. IX, intrans.] to become black, to become dark <br><br>(3:106) يَوْمَ تَبْيَضُّ وُجُوهٌ وَتَسْوَدُّ وُجُوهٌ on the day when some faces become white and others become black [some will be delighted and others will be grieved].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-د.سَيِّد",
+        "label": "سَيِّد",
+        "definitionHtml": "سَيِّد sayyid [n.; pl. سادةٌ sādatun] master, notable person, leader <br><br>(33:67) رَبَّنَا إِنَّا أَطَعْنَا سَادَتَنَا Lord!, we obeyed our leaders.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-د.مُسْوَدّ",
+        "label": "مُسْوَدّ",
+        "definitionHtml": "مُسْوَدّ muswadd [pass./act. part.] blackened, darkened; acquiring black or dark colour <br><br>(16:58) وَإِذَا بُشِّرَ أَحَدُهُمْ بِالأُنْثَى ظَلَّ وَجْهُهُ مُسْوَدًّا وَهُوَ كَظِيمٌ when one of them is given the ‘good’ news of [the birth of] a baby girl, his face remains darkened and he is filled with gloom.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:20.308Z",
+      "refword": "2:187:40",
+      "lexword": "ٱلْأَسْوَدِ"
+    }
+  }
+}

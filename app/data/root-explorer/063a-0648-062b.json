@@ -1,0 +1,154 @@
+{
+  "root": "غوث",
+  "rootArabic": "غوث",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "اسْتَغَاثَ",
+      "count": 4
+    },
+    {
+      "form": "يُغاث",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَغَاثَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَغَاثَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "يُغاث",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَغَاثَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَغَاثَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 9,
+      "text": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">تَسْتَغِيثُونَ</a> رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "derivedForms": [
+        "اسْتَغَاثَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 29,
+      "text": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "highlightedHtml": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن <a class=\"highlight-text\">يَسْتَغِيثُوا۟</a> <a class=\"highlight-text\">يُغَاثُوا۟</a> بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "اسْتَغَاثَ",
+        "يُغاث"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 15,
+      "text": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "highlightedHtml": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ <a class=\"highlight-text\">فَٱسْتَغَٰثَهُ</a> ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "derivedForms": [
+        "اسْتَغَاثَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 17,
+      "text": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا <a class=\"highlight-text\">يَسْتَغِيثَانِ</a> ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "اسْتَغَاثَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:17.063Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form X) imperfect verb",
+    "derivativeNote": "تَسْتَغِيثُونَ is in the derivative form: اسْتَغَاثَ",
+    "rootDefinitionHtml": "غ/و/ث   gh–w–th to go to the aid of, to call for assistance, cry for assistance. Considering the uncertainty surrounding w (و) and y (ى) when they function as radicals, there is a connection and a degree of overlapping between this root and the rootث /ي/غ gh–w–th (q.v.) resulting in classifying يُغاث yughāth under غ/ي/ث gh–y–th but classifying يُغاثوا yughāthū here. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> يُغاثوا yughāthū 1 time andإسْتَغاث ʾistaghātha 4 times.",
+    "mainDefinitionHtml": "اسْتَغَاثَ ʾistaghātha [v. X] I [intrans.] to cry for help <br><br>(18:29) وَإِنْ يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ and if they call for relief they will be relieved with water like molten metal/tar, that scalds the faces II [trans.] to cry to someone for help <br><br>(28:15) فَاسْتَغَاثَهُ‏ ‏الَّذِي‏ ‏مِنْ‏ ‏شِيعَتِهِ‏‏ so one of his own people cried out to him for help.",
+    "mainEntryId": "wdef-غ-و-ث.اسْتَغَاثَ",
+    "entries": [
+      {
+        "id": "wdef-غ-و-ث",
+        "label": "غ-و-ث",
+        "definitionHtml": "غ/و/ث   gh–w–th to go to the aid of, to call for assistance, cry for assistance. Considering the uncertainty surrounding w (و) and y (ى) when they function as radicals, there is a connection and a degree of overlapping between this root and the rootث /ي/غ gh–w–th (q.v.) resulting in classifying يُغاث yughāth under غ/ي/ث gh–y–th but classifying يُغاثوا yughāthū here. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> يُغاثوا yughāthū 1 time andإسْتَغاث ʾistaghātha 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ث.اسْتَغَاثَ",
+        "label": "اسْتَغَاثَ",
+        "definitionHtml": "اسْتَغَاثَ ʾistaghātha [v. X] I [intrans.] to cry for help <br><br>(18:29) وَإِنْ يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ and if they call for relief they will be relieved with water like molten metal/tar, that scalds the faces II [trans.] to cry to someone for help <br><br>(28:15) فَاسْتَغَاثَهُ‏ ‏الَّذِي‏ ‏مِنْ‏ ‏شِيعَتِهِ‏‏ so one of his own people cried out to him for help.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-و-ث.يُغاث",
+        "label": "يُغاث",
+        "definitionHtml": "يُغاث yughāth [imperf. of the pass. v. IV أُغيثَ ʾughıtha] to be succoured, to be bailed out, to be relieved <br><br>(18:29) وَإِنْ يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ and if they cry for help they will be relieved with water like molten metal/tar, that scalds the faces.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:17.401Z",
+      "refword": "8:9:2",
+      "lexword": "تَسْتَغِيثُونَ"
+    }
+  }
+}

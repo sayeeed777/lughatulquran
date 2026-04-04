@@ -1,0 +1,74 @@
+{
+  "root": "نسر",
+  "rootArabic": "نسر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَسْرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 71,
+      "ayah": 23,
+      "text": "وَقَالُوا۟ لَا تَذَرُنَّ آلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ وَنَسْرًا",
+      "highlightedHtml": "وَقَالُوا۟ لَا تَذَرُنَّ آلِهَتَكُمْ وَلَا تَذَرُنَّ وَدًّا وَلَا سُوَاعًا وَلَا يَغُوثَ وَيَعُوقَ <a class=\"highlight-text\">وَنَسْرًا</a>",
+      "derivedForms": [
+        "نَسْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:17.856Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine proper noun",
+    "derivativeNote": "وَنَسْرًا is in the derivative form: نَسْرٌ",
+    "rootDefinitionHtml": "ن/س/<br>ر",
+    "mainDefinitionHtml": "نَسْرٌ nasr [proper name occurring once in the Qur’an] eagle, vulture; pre‐Islamic Arabian idol worshipped by the tribe of Hudhayl and said to have been in the shape of a vulture; the cult is thought to have come to Arabia from Syria and Babylonia <br><br>(71:23) وَقَالُوا لاَ تَذَرُنَّ ءَالِهَتَكُمْ وَلاَ تَذَرُنَّ وَدًّا وَلاَ سُوَاعًا وَلاَ يَغُوثَ وَيَعُوقَ وَنَسْرًا they say [to each other], ‘Do not renounce your gods–do not renounce Wadd, Suwāʿ, Yaghūth, Yaʿūq or Nasr.’",
+    "mainEntryId": "wdef-ن-س-ر.نَسْرٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-س-ر",
+        "label": "ن-س-ر",
+        "definitionHtml": "ن/س/<br>ر",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-ر.نَسْرٌ",
+        "label": "نَسْرٌ",
+        "definitionHtml": "نَسْرٌ nasr [proper name occurring once in the Qur’an] eagle, vulture; pre‐Islamic Arabian idol worshipped by the tribe of Hudhayl and said to have been in the shape of a vulture; the cult is thought to have come to Arabia from Syria and Babylonia <br><br>(71:23) وَقَالُوا لاَ تَذَرُنَّ ءَالِهَتَكُمْ وَلاَ تَذَرُنَّ وَدًّا وَلاَ سُوَاعًا وَلاَ يَغُوثَ وَيَعُوقَ وَنَسْرًا they say [to each other], ‘Do not renounce your gods–do not renounce Wadd, Suwāʿ, Yaghūth, Yaʿūq or Nasr.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:51.127Z",
+      "refword": "71:23:13",
+      "lexword": "وَنَسْرًا"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "root": "ادي",
+  "rootArabic": "ادي",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "يُؤَدِّي",
+      "count": 5
+    },
+    {
+      "form": "أَدَاءٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدَاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُؤَدِّي",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُؤَدِّي",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُؤَدِّي",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُؤَدِّي",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 178,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ <a class=\"highlight-text\">وَأَدَآءٌ</a> إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "أَدَاءٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 283,
+      "text": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَٰنٌ فَرِهَٰنٌ فَرِهَٰنٌ مَّقْبُوضَةٌ ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا فَلْيُؤَدِّ ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ آثِمٌ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "highlightedHtml": "وَإِن كُنتُمْ عَلَىٰ سَفَرٍ وَلَمْ تَجِدُوا۟ كَاتِبًا فَرِهَٰنٌ فَرِهَٰنٌ فَرِهَٰنٌ مَّقْبُوضَةٌ ۖ فَإِنْ أَمِنَ بَعْضُكُم بَعْضًا <a class=\"highlight-text\">فَلْيُؤَدِّ</a> ٱلَّذِى ٱؤْتُمِنَ أَمَٰنَتَهُۥ وَلْيَتَّقِ ٱللَّهَ رَبَّهُۥ ۗ وَلَا تَكْتُمُوا۟ ٱلشَّهَٰدَةَ ۚ وَمَن يَكْتُمْهَا فَإِنَّهُۥٓ آثِمٌ قَلْبُهُۥ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ عَلِيمٌ",
+      "derivedForms": [
+        "يُؤَدِّي"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 75,
+      "text": "وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ بِقِنطَارٍ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ بِقِنطَارٍ بِقِنطَارٍ <a class=\"highlight-text\">يُؤَدِّهِۦٓ</a> إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا <a class=\"highlight-text\">يُؤَدِّهِۦٓ</a> إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "يُؤَدِّي",
+        "يُؤَدِّي"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 58,
+      "text": "إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تُؤَدُّوا۟ ٱلْأَمَٰنَٰتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًا",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن <a class=\"highlight-text\">تُؤَدُّوا۟</a> ٱلْأَمَٰنَٰتِ إِلَىٰٓ أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ ٱلنَّاسِ أَن تَحْكُمُوا۟ بِٱلْعَدْلِ ۚ إِنَّ ٱللَّهَ نِعِمَّا يَعِظُكُم بِهِۦٓ ۗ إِنَّ ٱللَّهَ كَانَ سَمِيعًۢا بَصِيرًا",
+      "derivedForms": [
+        "يُؤَدِّي"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 18,
+      "text": "أَنْ أَدُّوٓا۟ إِلَىَّ عِبَادَ ٱللَّهِ ۖ إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
+      "highlightedHtml": "أَنْ <a class=\"highlight-text\">أَدُّوٓا۟</a> إِلَىَّ عِبَادَ ٱللَّهِ ۖ إِنِّى لَكُمْ رَسُولٌ أَمِينٌ",
+      "derivedForms": [
+        "يُؤَدِّي"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:23.077Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite verbal noun",
+    "derivativeNote": "وَأَدَآءٌ is in the derivative form: أَدَاءٌ",
+    "rootDefinitionHtml": "أ/د/ي ʾ–d–y to ripen, to become due; to snare, to prepare; to convey, to bring about; to pay. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يُؤَدِّي yuʾaddī 5 times and أَدَاءٌ ʾadāʾ 1 time.",
+    "mainDefinitionHtml": "أَدَاءٌ ʾadāʾ [v. n.] restitution, paying up, handing over <br><br>(2:178) فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ but if the culprit [lit. someone] is relieved from some [of the penalty] by his [aggrieved] brother [in humanity], then there shall be conformity [to his wish] in fair practice, and restitution [of the remaining part of the penalty] to him [the aggrieved] in a good way.",
+    "mainEntryId": "wdef-أ-د-ي.أَدَاءٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-د-ي",
+        "label": "أ-د-ي",
+        "definitionHtml": "أ/د/ي ʾ–d–y to ripen, to become due; to snare, to prepare; to convey, to bring about; to pay. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يُؤَدِّي yuʾaddī 5 times and أَدَاءٌ ʾadāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-د-ي.أَدَاءٌ",
+        "label": "أَدَاءٌ",
+        "definitionHtml": "أَدَاءٌ ʾadāʾ [v. n.] restitution, paying up, handing over <br><br>(2:178) فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ but if the culprit [lit. someone] is relieved from some [of the penalty] by his [aggrieved] brother [in humanity], then there shall be conformity [to his wish] in fair practice, and restitution [of the remaining part of the penalty] to him [the aggrieved] in a good way.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-د-ي.يُؤَدِّي",
+        "label": "يُؤَدِّي",
+        "definitionHtml": "يُؤَدِّي yuʾaddī [imperf. of v. II أَدَّى ʾaddā trans.] <br><br><strong>1 </strong>to pay up, to return <br><br>(4:58) إنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تُؤَدُّوا الأَمَانَاتِ إِلَى أَهْلِهَا God commands you to return trusts to their owners <br><br><strong>2 </strong>[with prep.الى ] <br><br>(44:18) أن أَدُّو اليَّ عِبَادَ الله [saying to them,] ‘Hand over to me the slaves of God’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:23:53.504Z",
+      "refword": "2:178:23",
+      "lexword": "وَأَدَآءٌ"
+    }
+  }
+}

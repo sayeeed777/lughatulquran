@@ -1,0 +1,573 @@
+{
+  "root": "سعي",
+  "rootArabic": "سعي",
+  "stats": {
+    "totalOccurrences": 30,
+    "derivativeCount": 2,
+    "surahCount": 20,
+    "ayahCount": 28
+  },
+  "derivatives": [
+    {
+      "form": "سَعى(1)",
+      "count": 20
+    },
+    {
+      "form": "سَعى",
+      "count": 10
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 2,
+          "totalInQuran": 20
+        },
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 3,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى(1)",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعى",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 114,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ <a class=\"highlight-text\">وَسَعَىٰ</a> فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 205,
+      "text": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "highlightedHtml": "وَإِذَا تَوَلَّىٰ <a class=\"highlight-text\">سَعَىٰ</a> فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 260,
+      "text": "وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطْمَئِنَّ قَلْبِى ۖ قَالَ فَخُذْ أَرْبَعَةً مِّنَ ٱلطَّيْرِ فَصُرْهُنَّ إِلَيْكَ ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِّنْهُنَّ جُزْءًا ثُمَّ ٱدْعُهُنَّ يَأْتِينَكَ سَعْيًا ۚ وَٱعْلَمْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطْمَئِنَّ قَلْبِى ۖ قَالَ فَخُذْ أَرْبَعَةً مِّنَ ٱلطَّيْرِ فَصُرْهُنَّ إِلَيْكَ ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِّنْهُنَّ جُزْءًا ثُمَّ ٱدْعُهُنَّ يَأْتِينَكَ <a class=\"highlight-text\">سَعْيًا</a> ۚ وَٱعْلَمْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 33,
+      "text": "إِنَّمَا جَزَٰٓؤُا۟ ٱلَّذِينَ يُحَارِبُونَ ٱللَّهَ وَرَسُولَهُۥ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا أَن يُقَتَّلُوٓا۟ أَوْ يُصَلَّبُوٓا۟ أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ أَوْ يُنفَوْا۟ مِنَ ٱلْأَرْضِ ۚ ذَٰلِكَ لَهُمْ خِزْىٌ فِى ٱلدُّنْيَا ۖ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "إِنَّمَا جَزَٰٓؤُا۟ ٱلَّذِينَ يُحَارِبُونَ ٱللَّهَ وَرَسُولَهُۥ <a class=\"highlight-text\">وَيَسْعَوْنَ</a> فِى ٱلْأَرْضِ فَسَادًا أَن يُقَتَّلُوٓا۟ أَوْ يُصَلَّبُوٓا۟ أَوْ تُقَطَّعَ أَيْدِيهِمْ وَأَرْجُلُهُم مِّنْ خِلَٰفٍ أَوْ يُنفَوْا۟ مِنَ ٱلْأَرْضِ ۚ ذَٰلِكَ لَهُمْ خِزْىٌ فِى ٱلدُّنْيَا ۖ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 64,
+      "text": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ <a class=\"highlight-text\">وَيَسْعَوْنَ</a> فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 19,
+      "text": "وَمَنْ أَرَادَ الْآخِرَةَ وَسَعَىٰ لَهَا سَعْيَهَا وَهُوَ مُؤْمِنٌ فَأُو۟لَٰٓئِكَ كَانَ سَعْيُهُم مَّشْكُورًا",
+      "highlightedHtml": "وَمَنْ أَرَادَ الْآخِرَةَ <a class=\"highlight-text\">وَسَعَىٰ</a> لَهَا <a class=\"highlight-text\">سَعْيَهَا</a> وَهُوَ مُؤْمِنٌ فَأُو۟لَٰٓئِكَ كَانَ <a class=\"highlight-text\">سَعْيُهُم</a> مَّشْكُورًا",
+      "derivedForms": [
+        "سَعى(1)",
+        "سَعى",
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 104,
+      "text": "ٱلَّذِينَ ضَلَّ سَعْيُهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+      "highlightedHtml": "ٱلَّذِينَ ضَلَّ <a class=\"highlight-text\">سَعْيُهُمْ</a> فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 15,
+      "text": "إِنَّ ٱلسَّاعَةَ آتِيَةٌ أَكَادُ أُخْفِيهَا لِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا تَسْعَىٰ",
+      "highlightedHtml": "إِنَّ ٱلسَّاعَةَ آتِيَةٌ أَكَادُ أُخْفِيهَا لِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا <a class=\"highlight-text\">تَسْعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 20,
+      "text": "فَأَلْقَىٰهَا فَإِذَا هِىَ حَيَّةٌ تَسْعَىٰ",
+      "highlightedHtml": "فَأَلْقَىٰهَا فَإِذَا هِىَ حَيَّةٌ <a class=\"highlight-text\">تَسْعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 66,
+      "text": "قَالَ بَلْ أَلْقُوا۟ ۖ فَإِذَا حِبَالُهُمْ وَعِصِيُّهُمْ يُخَيَّلُ إِلَيْهِ مِن سِحْرِهِمْ أَنَّهَا تَسْعَىٰ",
+      "highlightedHtml": "قَالَ بَلْ أَلْقُوا۟ ۖ فَإِذَا حِبَالُهُمْ وَعِصِيُّهُمْ يُخَيَّلُ إِلَيْهِ مِن سِحْرِهِمْ أَنَّهَا <a class=\"highlight-text\">تَسْعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 94,
+      "text": "فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌ فَلَا كُفْرَانَ لِسَعْيِهِۦ وَإِنَّا لَهُۥ كَٰتِبُونَ",
+      "highlightedHtml": "فَمَن يَعْمَلْ مِنَ ٱلصَّٰلِحَٰتِ وَهُوَ مُؤْمِنٌ فَلَا كُفْرَانَ <a class=\"highlight-text\">لِسَعْيِهِۦ</a> وَإِنَّا لَهُۥ كَٰتِبُونَ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 51,
+      "text": "وَٱلَّذِينَ سَعَوْا۟ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَحِيمِ",
+      "highlightedHtml": "وَٱلَّذِينَ <a class=\"highlight-text\">سَعَوْا۟</a> فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَحِيمِ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 20,
+      "text": "وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يَٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ ٱلنَّٰصِحِينَ",
+      "highlightedHtml": "وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ <a class=\"highlight-text\">يَسْعَىٰ</a> قَالَ يَٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ ٱلنَّٰصِحِينَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 5,
+      "text": "وَٱلَّذِينَ سَعَوْ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ <a class=\"highlight-text\">سَعَوْ</a> فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 38,
+      "text": "وَٱلَّذِينَ يَسْعَوْنَ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ <a class=\"highlight-text\">يَسْعَوْنَ</a> فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 20,
+      "text": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ يَسْعَىٰ قَالَ يَٰقَوْمِ ٱتَّبِعُوا۟ ٱلْمُرْسَلِينَ",
+      "highlightedHtml": "وَجَآءَ مِنْ أَقْصَا ٱلْمَدِينَةِ رَجُلٌ <a class=\"highlight-text\">يَسْعَىٰ</a> قَالَ يَٰقَوْمِ ٱتَّبِعُوا۟ ٱلْمُرْسَلِينَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 102,
+      "text": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "فَلَمَّا بَلَغَ مَعَهُ <a class=\"highlight-text\">ٱلسَّعْىَ</a> قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 39,
+      "text": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا سَعَىٰ",
+      "highlightedHtml": "وَأَن لَّيْسَ لِلْإِنسَٰنِ إِلَّا مَا <a class=\"highlight-text\">سَعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 40,
+      "text": "وَأَنَّ سَعْيَهُۥ سَوْفَ يُرَىٰ",
+      "highlightedHtml": "وَأَنَّ <a class=\"highlight-text\">سَعْيَهُۥ</a> سَوْفَ يُرَىٰ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 12,
+      "text": "يَوْمَ تَرَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ يَسْعَىٰ نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِم بُشْرَىٰكُمُ ٱلْيَوْمَ جَنَّٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "highlightedHtml": "يَوْمَ تَرَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ <a class=\"highlight-text\">يَسْعَىٰ</a> نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِم بُشْرَىٰكُمُ ٱلْيَوْمَ جَنَّٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَا ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 9,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ <a class=\"highlight-text\">فَٱسْعَوْا۟</a> إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 8,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةً نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ آمَنُوا مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةً نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ آمَنُوا مَعَهُۥ ۖ نُورُهُمْ <a class=\"highlight-text\">يَسْعَىٰ</a> بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 22,
+      "text": "إِنَّ هَٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
+      "highlightedHtml": "إِنَّ هَٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ <a class=\"highlight-text\">سَعْيُكُم</a> مَّشْكُورًا",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 22,
+      "text": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+      "highlightedHtml": "ثُمَّ أَدْبَرَ <a class=\"highlight-text\">يَسْعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 35,
+      "text": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا سَعَىٰ",
+      "highlightedHtml": "يَوْمَ يَتَذَكَّرُ ٱلْإِنسَٰنُ مَا <a class=\"highlight-text\">سَعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 8,
+      "text": "وَأَمَّا مَن جَآءَكَ يَسْعَىٰ",
+      "highlightedHtml": "وَأَمَّا مَن جَآءَكَ <a class=\"highlight-text\">يَسْعَىٰ</a>",
+      "derivedForms": [
+        "سَعى(1)"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 9,
+      "text": "لِّسَعْيِهَا رَاضِيَةٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">لِّسَعْيِهَا</a> رَاضِيَةٌ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 4,
+      "text": "إِنَّ سَعْيَكُمْ لَشَتَّىٰ",
+      "highlightedHtml": "إِنَّ <a class=\"highlight-text\">سَعْيَكُمْ</a> لَشَتَّىٰ",
+      "derivedForms": [
+        "سَعى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:00.851Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَسَعَىٰ is in the derivative form: سَعى(1)",
+    "rootDefinitionHtml": "س/ع/ي   s–ʿ–y time span; strife, work, effort, to go about (one’s livelihood), to go to; a portion. <br><br>Of this root, 2 forms occur 30 times in the Qur’an:<br> سَعى saʿā 20 times and سَعيْ saʿy 10 times.",
+    "mainDefinitionHtml": "سَعى saʿā a [v. intrans. with preps. إلىandعلى] <br><br><strong>1 </strong>to endeavour, to strive <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more inequitable than those who prohibit the mention of God’s name in His places of worship and strive to have them destroyed/deserted? <br><br><strong>2 </strong>move, walk, move about, run, hasten <br><br>(20:20) فَأَلْقَاهَا فَإِذَا هِيَ حَيَّةٌ تَسْعَى he threw it down and–lo and behold!–it was a moving snake <br><br><strong>3 </strong>to do purposefully, to act, to work for, to carry on one’s business <br><br>(53:39) وَأَنْ لَيْسَ لِلإِنْسَانِ إِلاَّ مَا سَعَى that man will only have what he has worked towards.",
+    "mainEntryId": "wdef-س-ع-ي.سَعى(1)",
+    "entries": [
+      {
+        "id": "wdef-س-ع-ي",
+        "label": "س-ع-ي",
+        "definitionHtml": "س/ع/ي   s–ʿ–y time span; strife, work, effort, to go about (one’s livelihood), to go to; a portion. <br><br>Of this root, 2 forms occur 30 times in the Qur’an:<br> سَعى saʿā 20 times and سَعيْ saʿy 10 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ع-ي.سَعى(1)",
+        "label": "سَعى(1)",
+        "definitionHtml": "سَعى saʿā a [v. intrans. with preps. إلىandعلى] <br><br><strong>1 </strong>to endeavour, to strive <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more inequitable than those who prohibit the mention of God’s name in His places of worship and strive to have them destroyed/deserted? <br><br><strong>2 </strong>move, walk, move about, run, hasten <br><br>(20:20) فَأَلْقَاهَا فَإِذَا هِيَ حَيَّةٌ تَسْعَى he threw it down and–lo and behold!–it was a moving snake <br><br><strong>3 </strong>to do purposefully, to act, to work for, to carry on one’s business <br><br>(53:39) وَأَنْ لَيْسَ لِلإِنْسَانِ إِلاَّ مَا سَعَى that man will only have what he has worked towards.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ع-ي.سَعى",
+        "label": "سَعى",
+        "definitionHtml": "سَعى saʿy I [n.] endeavour, strife, effort <br><br>(18:104) الَّذِينَ ضَلَّ سَعْيُهُمْ فِى الْحَيَاةِ الدُّنْيَا those whose efforts in this world go astray; *<br><br>(37:102) فَلَمَّا بَلَغَ مَعَهُ السَّعْيَ when he [the boy] reached the age of working with him [his father] (or when he reached the age of maturity) II [v. n. used adverbially] moving energetically <br><br>(2:260) ثُمَّ ادْعُهُنَّ يَأْتِينَكَ سَعْيًا then summon them, and they will come rushing to you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:06.924Z",
+      "refword": "2:114:11",
+      "lexword": "وَسَعَىٰ"
+    }
+  }
+}

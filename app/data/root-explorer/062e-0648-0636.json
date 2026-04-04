@@ -1,0 +1,253 @@
+{
+  "root": "خوض",
+  "rootArabic": "خوض",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "خَاضَ",
+      "count": 9
+    },
+    {
+      "form": "خَوْضٌ",
+      "count": 2
+    },
+    {
+      "form": "خَائِضُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاضَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَاضَ",
+          "count": 2,
+          "totalInQuran": 9
+        },
+        {
+          "form": "خَوْضٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَاضَ",
+          "count": 3,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاضَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَوْضٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاضَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَائِضُون",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "خَاضَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 140,
+      "text": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "highlightedHtml": "وَقَدْ نَزَّلَ عَلَيْكُمْ فِى ٱلْكِتَٰبِ أَنْ إِذَا سَمِعْتُمْ آيَاتِ ٱللَّهِ يُكْفَرُ بِهَا وَيُسْتَهْزَأُ بِهَا فَلَا تَقْعُدُوا۟ مَعَهُمْ حَتَّىٰ <a class=\"highlight-text\">يَخُوضُوا۟</a> فِى حَدِيثٍ غَيْرِهِۦٓ ۚ إِنَّكُمْ إِذًا مِّثْلُهُمْ ۗ إِنَّ ٱللَّهَ جَامِعُ ٱلْمُنَٰفِقِينَ وَٱلْكَٰفِرِينَ فِى جَهَنَّمَ جَمِيعًا",
+      "derivedForms": [
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 68,
+      "text": "وَإِذَا رَأَيْتَ ٱلَّذِينَ يَخُوضُونَ فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ يَخُوضُوا۟ فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَإِذَا رَأَيْتَ ٱلَّذِينَ <a class=\"highlight-text\">يَخُوضُونَ</a> فِىٓ آيَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّىٰ <a class=\"highlight-text\">يَخُوضُوا۟</a> فِى حَدِيثٍ غَيْرِهِۦ ۚ وَإِمَّا يُنسِيَنَّكَ ٱلشَّيْطَٰنُ فَلَا تَقْعُدْ بَعْدَ ٱلذِّكْرَىٰ مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "خَاضَ",
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 91,
+      "text": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍ مِّن شَىْءٍ ۗ قُلْ مَنْ أَنزَلَ ٱلْكِتَٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًا وَهُدًى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا ۖ وَعُلِّمْتُم مَّا لَمْ تَعْلَمُوٓا۟ أَنتُمْ وَلَآ ءَابَآؤُكُمْ ۖ قُلِ ٱللَّهُ ۖ ثُمَّ ذَرْهُمْ فِى خَوْضِهِمْ يَلْعَبُونَ",
+      "highlightedHtml": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍ مِّن شَىْءٍ ۗ قُلْ مَنْ أَنزَلَ ٱلْكِتَٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًا وَهُدًى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا ۖ وَعُلِّمْتُم مَّا لَمْ تَعْلَمُوٓا۟ أَنتُمْ وَلَآ ءَابَآؤُكُمْ ۖ قُلِ ٱللَّهُ ۖ ثُمَّ ذَرْهُمْ فِى <a class=\"highlight-text\">خَوْضِهِمْ</a> يَلْعَبُونَ",
+      "derivedForms": [
+        "خَوْضٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 65,
+      "text": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا <a class=\"highlight-text\">نَخُوضُ</a> وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
+      "derivedForms": [
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 69,
+      "text": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةً قُوَّةً وَأَكْثَرَ أَمْوَٰلًا وَأَوْلَٰدًا فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةً قُوَّةً وَأَكْثَرَ أَمْوَٰلًا وَأَوْلَٰدًا فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ <a class=\"highlight-text\">وَخُضْتُمْ</a> كَٱلَّذِى <a class=\"highlight-text\">خَاضُوٓا۟</a> ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "خَاضَ",
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 83,
+      "text": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "highlightedHtml": "فَذَرْهُمْ <a class=\"highlight-text\">يَخُوضُوا۟</a> وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "derivedForms": [
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 12,
+      "text": "ٱلَّذِينَ هُمْ فِى خَوْضٍ يَلْعَبُونَ",
+      "highlightedHtml": "ٱلَّذِينَ هُمْ فِى <a class=\"highlight-text\">خَوْضٍ</a> يَلْعَبُونَ",
+      "derivedForms": [
+        "خَوْضٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 42,
+      "text": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "highlightedHtml": "فَذَرْهُمْ <a class=\"highlight-text\">يَخُوضُوا۟</a> وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "derivedForms": [
+        "خَاضَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 45,
+      "text": "وَكُنَّا نَخُوضُ مَعَ ٱلْخَآئِضِينَ",
+      "highlightedHtml": "وَكُنَّا <a class=\"highlight-text\">نَخُوضُ</a> مَعَ <a class=\"highlight-text\">ٱلْخَآئِضِينَ</a>",
+      "derivedForms": [
+        "خَاضَ",
+        "خَائِضُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:49.308Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb, subjunctive mood",
+    "derivativeNote": "يَخُوضُوا۟ is in the derivative form: خَاضَ",
+    "rootDefinitionHtml": "خ/و/ض   kh–w–ḍ to wade, to ford, a ford<br>; to plunge into a subject heedlessly, to engage in discussion without much knowledge; ambiguity, confusion, to shake up. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> خَاضَ khāḍa 8 times; خَوْضٌ khawḍ 2 times and خَائِضُون khāʾiḍūn 1 time.",
+    "mainDefinitionHtml": "خَاضَ khāḍa u [v. intrans.] to indulge in idle talk, to plunge into malicious gossip, to talk abusively, speak evil of someone <br><br>(6:68) وَإِذَا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِى ءَايَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِى حَدِيثٍ غَيْرِهِ when you come across people who speak ill of Our revelations, turn away from them until they move on to another topic.",
+    "mainEntryId": "wdef-خ-و-ض.خَاضَ",
+    "entries": [
+      {
+        "id": "wdef-خ-و-ض",
+        "label": "خ-و-ض",
+        "definitionHtml": "خ/و/ض   kh–w–ḍ to wade, to ford, a ford<br>; to plunge into a subject heedlessly, to engage in discussion without much knowledge; ambiguity, confusion, to shake up. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> خَاضَ khāḍa 8 times; خَوْضٌ khawḍ 2 times and خَائِضُون khāʾiḍūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ض.خَاضَ",
+        "label": "خَاضَ",
+        "definitionHtml": "خَاضَ khāḍa u [v. intrans.] to indulge in idle talk, to plunge into malicious gossip, to talk abusively, speak evil of someone <br><br>(6:68) وَإِذَا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِى ءَايَاتِنَا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِى حَدِيثٍ غَيْرِهِ when you come across people who speak ill of Our revelations, turn away from them until they move on to another topic.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-و-ض.خَائِضُون",
+        "label": "خَائِضُون",
+        "definitionHtml": "خَائِضُون khāʾiḍūn [pl. of act. part. خَائِضٌ khāʾiḍ] one engaged in idle talk or vain discourse <br><br>(74:45) وَكُنَّا نَخُوضُ مَعَ الْخَائِضِينَ we indulged in vain talk with vain talkers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ض.خَوْضٌ",
+        "label": "خَوْضٌ",
+        "definitionHtml": "خَوْضٌ khawḍ [n./v. n.] idle talk, malicious gossip, abusive talk <br><br>(6:91) ذَرْهُمْ فِى خَوْضِهِمْ يَلْعَبُونَ leave them alone playing in their vain talk.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:59.559Z",
+      "refword": "4:140:19",
+      "lexword": "يَخُوضُوا۟"
+    }
+  }
+}

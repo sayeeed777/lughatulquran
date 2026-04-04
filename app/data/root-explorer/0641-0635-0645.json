@@ -1,0 +1,74 @@
+{
+  "root": "فصم",
+  "rootArabic": "فصم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "انْفِصام",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْفِصام",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 256,
+      "text": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا <a class=\"highlight-text\">ٱنفِصَامَ</a> لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "انْفِصام"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:57.502Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine (form VII) verbal noun",
+    "derivativeNote": "ٱنفِصَامَ is in the derivative form: انْفِصام",
+    "rootDefinitionHtml": "ف/ص/م   f–ṣ–m to crack, to subside, to split without completely separating, (of a house) to collapse; (of rain) to abate, (of a favour) to be withdrawn. Of this root, انْفِصام ʾinfiṣām, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "انْفِصام ʾinfiṣām [v. n.] breaking, separating <br><br>(2:256) فَمَنْ‏ ‏يَكْفُرْ‏ ‏بِالطَّاغُوتِ‏ ‏وَيُؤْمِنْ‏ ‏بِاللَّهِ‏ ‏فَقَدِ اسْتَمْسَكَ‏ ‏بِالْعُرْوَةِ‏ ‏الْوُثْقَى‏ ‏لاَ‏ ‏انْفِصَامَ‏ ‏لَهَا so whoever rejects false gods and believes in God has taken hold of the firmest handhold that will never break‏ [lit. for which there is no breaking].",
+    "mainEntryId": "wdef-ف-ص-م.انْفِصام",
+    "entries": [
+      {
+        "id": "wdef-ف-ص-م",
+        "label": "ف-ص-م",
+        "definitionHtml": "ف/ص/م   f–ṣ–m to crack, to subside, to split without completely separating, (of a house) to collapse; (of rain) to abate, (of a favour) to be withdrawn. Of this root, انْفِصام ʾinfiṣām, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ص-م.انْفِصام",
+        "label": "انْفِصام",
+        "definitionHtml": "انْفِصام ʾinfiṣām [v. n.] breaking, separating <br><br>(2:256) فَمَنْ‏ ‏يَكْفُرْ‏ ‏بِالطَّاغُوتِ‏ ‏وَيُؤْمِنْ‏ ‏بِاللَّهِ‏ ‏فَقَدِ اسْتَمْسَكَ‏ ‏بِالْعُرْوَةِ‏ ‏الْوُثْقَى‏ ‏لاَ‏ ‏انْفِصَامَ‏ ‏لَهَا so whoever rejects false gods and believes in God has taken hold of the firmest handhold that will never break‏ [lit. for which there is no breaking].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:34.979Z",
+      "refword": "2:256:20",
+      "lexword": "ٱنفِصَامَ"
+    }
+  }
+}

@@ -12,6 +12,10 @@ import {
   getPrimaryRootMeaningsLoadError,
   hasPrimaryRootMeanings
 } from "../../../../lib/lexicon/rootMeanings";
+import {
+  getRootExplorerLoadError,
+  getRootExplorerPayload
+} from "../../../../lib/lexicon/rootExplorer";
 
 export const revalidate = 86400;
 
@@ -59,13 +63,22 @@ export async function GET(request: Request, { params }: RouteContext) {
       laneAvailable: false,
       morphologyAvailable: false,
       morphologyError: null,
+      rootExplorerAvailable: false,
+      rootExplorerError: null,
+      rootExplorerSource: null,
+      stats: null,
+      derivatives: [],
+      surahOccurrences: [],
+      ayahOccurrences: [],
+      lexSnapshot: null,
       fullPayload: false
     });
   }
 
-  const [index, laneEntry] = await Promise.all([
+  const [index, laneEntry, rootExplorerPayload] = await Promise.all([
     getMorphologyIndex(),
-    getLaneEntry(root)
+    getLaneEntry(root),
+    getRootExplorerPayload(root)
   ]);
   const references = getRootReferences(index, root, 120);
   const lemmas = getRootLemmas(index, root, 20);
@@ -87,6 +100,14 @@ export async function GET(request: Request, { params }: RouteContext) {
     laneAvailable: await hasLaneLexicon(),
     morphologyAvailable: Boolean(index),
     morphologyError: index ? null : getMorphologyLoadError(),
+    rootExplorerAvailable: Boolean(rootExplorerPayload),
+    rootExplorerError: rootExplorerPayload ? null : getRootExplorerLoadError(),
+    rootExplorerSource: rootExplorerPayload?.source || null,
+    stats: rootExplorerPayload?.stats || null,
+    derivatives: rootExplorerPayload?.derivatives || [],
+    surahOccurrences: rootExplorerPayload?.surahOccurrences || [],
+    ayahOccurrences: rootExplorerPayload?.ayahOccurrences || [],
+    lexSnapshot: rootExplorerPayload?.lexSnapshot || null,
     fullPayload: true
   });
 }

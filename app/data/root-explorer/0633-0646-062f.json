@@ -1,0 +1,74 @@
+{
+  "root": "سند",
+  "rootArabic": "سند",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُسَنَّدةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 63,
+      "surahName": "Al-Munafiqun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسَنَّدةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 63,
+      "ayah": 4,
+      "text": "وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ ۖ وَإِن يَقُولُوا۟ تَسْمَعْ لِقَوْلِهِمْ ۖ كَأَنَّهُمْ خُشُبٌ <a class=\"highlight-text\">مُّسَنَّدَةٌ</a> ۖ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ ۚ هُمُ ٱلْعَدُوُّ فَٱحْذَرْهُمْ ۚ قَٰتَلَهُمُ ٱللَّهُ ۖ أَنَّىٰ يُؤْفَكُونَ",
+      "derivedForms": [
+        "مُسَنَّدةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:30.295Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite (form II) passive participle",
+    "derivativeNote": "مُّسَنَّدَةٌ is in the derivative form: مُسَنَّدةٌ",
+    "rootDefinitionHtml": "س/ن/د   s–n–d to support, to prop up, to recline. Of this root, onlyمُسَنَّدةٌ musannadatun occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُسَنَّدةٌ musannadatun [pass. part. fem. of v. II سَنَّدَ sannad] propped up, supported <br><br>(63:4) وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ وَإِنْ يَقُولُوا تَسْمَعْ لِقَوْلِهِمْ كَأَنَّهُمْ خُشُبٌ مُسَنَّدَةٌ when you see them, their outward appearance pleases you–when they speak, you listen to what they say–but they might as well be propped‐up timbers.",
+    "mainEntryId": "wdef-س-ن-د.مُسَنَّدةٌ",
+    "entries": [
+      {
+        "id": "wdef-س-ن-د",
+        "label": "س-ن-د",
+        "definitionHtml": "س/ن/د   s–n–d to support, to prop up, to recline. Of this root, onlyمُسَنَّدةٌ musannadatun occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ن-د.مُسَنَّدةٌ",
+        "label": "مُسَنَّدةٌ",
+        "definitionHtml": "مُسَنَّدةٌ musannadatun [pass. part. fem. of v. II سَنَّدَ sannad] propped up, supported <br><br>(63:4) وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ وَإِنْ يَقُولُوا تَسْمَعْ لِقَوْلِهِمْ كَأَنَّهُمْ خُشُبٌ مُسَنَّدَةٌ when you see them, their outward appearance pleases you–when they speak, you listen to what they say–but they might as well be propped‐up timbers.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:04.777Z",
+      "refword": "63:4:11",
+      "lexword": "مُّسَنَّدَةٌ"
+    }
+  }
+}

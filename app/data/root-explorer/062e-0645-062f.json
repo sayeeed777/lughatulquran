@@ -1,0 +1,95 @@
+{
+  "root": "خمد",
+  "rootArabic": "خمد",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "خَامِدُون",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَامِدُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَامِدُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 15,
+      "text": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا خَٰمِدِينَ",
+      "highlightedHtml": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا <a class=\"highlight-text\">خَٰمِدِينَ</a>",
+      "derivedForms": [
+        "خَامِدُون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 29,
+      "text": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ خَٰمِدُونَ",
+      "highlightedHtml": "إِن كَانَتْ إِلَّا صَيْحَةً وَٰحِدَةً فَإِذَا هُمْ <a class=\"highlight-text\">خَٰمِدُونَ</a>",
+      "derivedForms": [
+        "خَامِدُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:46.225Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "خَٰمِدِينَ is in the derivative form: خَامِدُون",
+    "rootDefinitionHtml": "خ/م/د   kh–m–d (of fire) to die out, to abate; to faint, to be silent, contemplative. Of this root, خَامِدُون khāmidūn occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "خَامِدُون khāmidūn [pl. of act. part. خَامِدٌ khāmid] spent, extinct, expired, dead <br><br>(36:29) إِنْ كَانَتْ إِلاَّ صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ it will be but one blast, and they will be expired.",
+    "mainEntryId": "wdef-خ-م-د.خَامِدُون",
+    "entries": [
+      {
+        "id": "wdef-خ-م-د",
+        "label": "خ-م-د",
+        "definitionHtml": "خ/م/د   kh–m–d (of fire) to die out, to abate; to faint, to be silent, contemplative. Of this root, خَامِدُون khāmidūn occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-م-د.خَامِدُون",
+        "label": "خَامِدُون",
+        "definitionHtml": "خَامِدُون khāmidūn [pl. of act. part. خَامِدٌ khāmid] spent, extinct, expired, dead <br><br>(36:29) إِنْ كَانَتْ إِلاَّ صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ it will be but one blast, and they will be expired.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:52.922Z",
+      "refword": "21:15:8",
+      "lexword": "خَٰمِدِينَ"
+    }
+  }
+}

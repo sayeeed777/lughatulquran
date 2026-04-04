@@ -1,0 +1,74 @@
+{
+  "root": "مسو",
+  "rootArabic": "مسو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُمْسِى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُمْسِى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 30,
+      "ayah": 17,
+      "text": "فَسُبْحَٰنَ ٱللَّهِ حِينَ تُمْسُونَ وَحِينَ تُصْبِحُونَ",
+      "highlightedHtml": "فَسُبْحَٰنَ ٱللَّهِ حِينَ <a class=\"highlight-text\">تُمْسُونَ</a> وَحِينَ تُصْبِحُونَ",
+      "derivedForms": [
+        "تُمْسِى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:24.696Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "تُمْسُونَ is in the derivative form: تُمْسِى",
+    "rootDefinitionHtml": "م/س/و-ي   m–s–w/y evening, to enter the evening time; to clear the uterus of a she‐camel by hand; to help someone; hardship; middle of the road. Of these 2 roots, only تُمْسُون tumsūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُمْسِى tumsı [imperf. of v. IV أمْسَى ʾamsā, intrans.] to enter into evening <br><br>(30:17) فَسُبْحَانَ‏ ‏اللَّهِ‏ ‏حِينَ‏ ‏تُمْسُونَ‏ ‏وَحِينَ‏ ‏تُصْبِحُونَ‏ celebrate God’s glory when you enter into the evening and rise in the morning (i.e., continuously).",
+    "mainEntryId": "wdef-م-س-و-ي.تُمْسِى",
+    "entries": [
+      {
+        "id": "wdef-م-س-و-ي",
+        "label": "م-س-و-ي",
+        "definitionHtml": "م/س/و-ي   m–s–w/y evening, to enter the evening time; to clear the uterus of a she‐camel by hand; to help someone; hardship; middle of the road. Of these 2 roots, only تُمْسُون tumsūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-س-و-ي.تُمْسِى",
+        "label": "تُمْسِى",
+        "definitionHtml": "تُمْسِى tumsı [imperf. of v. IV أمْسَى ʾamsā, intrans.] to enter into evening <br><br>(30:17) فَسُبْحَانَ‏ ‏اللَّهِ‏ ‏حِينَ‏ ‏تُمْسُونَ‏ ‏وَحِينَ‏ ‏تُصْبِحُونَ‏ celebrate God’s glory when you enter into the evening and rise in the morning (i.e., continuously).",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:08.292Z",
+      "refword": "30:17:4",
+      "lexword": "تُمْسُونَ"
+    }
+  }
+}

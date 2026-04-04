@@ -1,0 +1,74 @@
+{
+  "root": "فره",
+  "rootArabic": "فره",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "فارِه",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فارِه",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 149,
+      "text": "وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا فَٰرِهِينَ",
+      "highlightedHtml": "وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا <a class=\"highlight-text\">فَٰرِهِينَ</a>",
+      "derivedForms": [
+        "فارِه"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:46.050Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "فَٰرِهِينَ is in the derivative form: فارِه",
+    "rootDefinitionHtml": "ف/ر/ﻫ f–r–h to be good‐looking, to be accomplished, to be active. Of this root, فارِهين fārihın, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "فارِه fārih [quasi-act. part.] skillful; fine, comely <br><br>(26:149) وَتَنْحِتُونَ‏ ‏مِنَ‏ ‏الْجِبَالِ‏ ‏بُيُوتًا فَارِهِينَ and you carve out of the mountain [side] fine dwellings.",
+    "mainEntryId": "wdef-ف-ر-ﻫ.فارِه",
+    "entries": [
+      {
+        "id": "wdef-ف-ر-ﻫ",
+        "label": "ف-ر-ﻫ",
+        "definitionHtml": "ف/ر/ﻫ f–r–h to be good‐looking, to be accomplished, to be active. Of this root, فارِهين fārihın, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ﻫ.فارِه",
+        "label": "فارِه",
+        "definitionHtml": "فارِه fārih [quasi-act. part.] skillful; fine, comely <br><br>(26:149) وَتَنْحِتُونَ‏ ‏مِنَ‏ ‏الْجِبَالِ‏ ‏بُيُوتًا فَارِهِينَ and you carve out of the mountain [side] fine dwellings.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:12.854Z",
+      "refword": "26:149:5",
+      "lexword": "فَٰرِهِينَ"
+    }
+  }
+}

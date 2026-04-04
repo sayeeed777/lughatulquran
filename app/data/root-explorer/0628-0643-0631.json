@@ -1,0 +1,315 @@
+{
+  "root": "بكر",
+  "rootArabic": "بكر",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 3,
+    "surahCount": 11,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "بُكْرَةً",
+      "count": 7
+    },
+    {
+      "form": "بِكْرٌ",
+      "count": 3
+    },
+    {
+      "form": "إِبْكَارٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بِكْرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِبْكَارٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِبْكَارٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بِكْرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بِكْرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُكْرَةً",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 68,
+      "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+      "highlightedHtml": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا <a class=\"highlight-text\">بِكْرٌ</a> عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+      "derivedForms": [
+        "بِكْرٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 41,
+      "text": "قَالَ رَبِّ ٱجْعَل لِّىٓ آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "highlightedHtml": "قَالَ رَبِّ ٱجْعَل لِّىٓ آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ <a class=\"highlight-text\">وَٱلْإِبْكَٰرِ</a>",
+      "derivedForms": [
+        "إِبْكَارٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 11,
+      "text": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ بُكْرَةً وَعَشِيًّا",
+      "highlightedHtml": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ <a class=\"highlight-text\">بُكْرَةً</a> وَعَشِيًّا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 62,
+      "text": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
+      "highlightedHtml": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا <a class=\"highlight-text\">بُكْرَةً</a> وَعَشِيًّا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 5,
+      "text": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ <a class=\"highlight-text\">بُكْرَةً</a> وَأَصِيلًا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 42,
+      "text": "وَسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَسَبِّحُوهُ <a class=\"highlight-text\">بُكْرَةً</a> وَأَصِيلًا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 55,
+      "text": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "highlightedHtml": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ <a class=\"highlight-text\">وَٱلْإِبْكَٰرِ</a>",
+      "derivedForms": [
+        "إِبْكَارٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 9,
+      "text": "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "لِّتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَتُعَزِّرُوهُ وَتُوَقِّرُوهُ وَتُسَبِّحُوهُ <a class=\"highlight-text\">بُكْرَةً</a> وَأَصِيلًا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 38,
+      "text": "وَلَقَدْ صَبَّحَهُم بُكْرَةً عَذَابٌ مُّسْتَقِرٌّ",
+      "highlightedHtml": "وَلَقَدْ صَبَّحَهُم <a class=\"highlight-text\">بُكْرَةً</a> عَذَابٌ مُّسْتَقِرٌّ",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 36,
+      "text": "فَجَعَلْنَٰهُنَّ أَبْكَارًا",
+      "highlightedHtml": "فَجَعَلْنَٰهُنَّ <a class=\"highlight-text\">أَبْكَارًا</a>",
+      "derivedForms": [
+        "بِكْرٌ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 5,
+      "text": "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَٰتٍ مُّؤْمِنَٰتٍ قَٰنِتَٰتٍ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍ سَٰٓئِحَٰتٍ ثَيِّبَٰتٍ وَأَبْكَارًا",
+      "highlightedHtml": "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَٰتٍ مُّؤْمِنَٰتٍ قَٰنِتَٰتٍ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍ سَٰٓئِحَٰتٍ ثَيِّبَٰتٍ <a class=\"highlight-text\">وَأَبْكَارًا</a>",
+      "derivedForms": [
+        "بِكْرٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 25,
+      "text": "وَٱذْكُرِ ٱسْمَ رَبِّكَ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَٱذْكُرِ ٱسْمَ رَبِّكَ <a class=\"highlight-text\">بُكْرَةً</a> وَأَصِيلًا",
+      "derivedForms": [
+        "بُكْرَةً"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:56.602Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite adjective",
+    "derivativeNote": "بِكْرٌ is in the derivative form: بِكْرٌ",
+    "rootDefinitionHtml": "ب/ك/ر b–k–r morrow<br>; beginning of the day, early time, to do something early in the day; first fruits; virgin, firstborn, outstanding deed. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> بِكْرٌ bikr 1 time; أَبْكَارٌ ʾabkār 2 times; بُكْرَةٌ bukratun 7 times and إِبْكَارٌ ʾibkār 2 times.",
+    "mainDefinitionHtml": "بِكْرٌ bikr [quasi‐act. part., pl. أَبْكَارٌ ʾabkār] <br><br><strong>1 </strong>virgin <br><br>(56:35–6) إِنَّا أَنْشَأْنَاهُنَّ إِنْشآءً فَجَعَلْنَاهُنَّ أَبْكَارًا We have created them as a new creation, and made them virgins <br><br><strong>2 </strong>(of animals) young, having given birth only once <br><br>(2:68) إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لاَ فَارِضٌ وَلاَ بِكْرٌ عَوَانٌ بَيْنَ ذَلِكَ He says it is a cow which should be neither too old nor too young, but inbetween.",
+    "mainEntryId": "wdef-ب-ك-ر.بِكْرٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ك-ر",
+        "label": "ب-ك-ر",
+        "definitionHtml": "ب/ك/ر b–k–r morrow<br>; beginning of the day, early time, to do something early in the day; first fruits; virgin, firstborn, outstanding deed. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> بِكْرٌ bikr 1 time; أَبْكَارٌ ʾabkār 2 times; بُكْرَةٌ bukratun 7 times and إِبْكَارٌ ʾibkār 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ك-ر.بِكْرٌ",
+        "label": "بِكْرٌ",
+        "definitionHtml": "بِكْرٌ bikr [quasi‐act. part., pl. أَبْكَارٌ ʾabkār] <br><br><strong>1 </strong>virgin <br><br>(56:35–6) إِنَّا أَنْشَأْنَاهُنَّ إِنْشآءً فَجَعَلْنَاهُنَّ أَبْكَارًا We have created them as a new creation, and made them virgins <br><br><strong>2 </strong>(of animals) young, having given birth only once <br><br>(2:68) إِنَّهُ يَقُولُ إِنَّهَا بَقَرَةٌ لاَ فَارِضٌ وَلاَ بِكْرٌ عَوَانٌ بَيْنَ ذَلِكَ He says it is a cow which should be neither too old nor too young, but inbetween.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ك-ر.إِبْكَارٌ",
+        "label": "إِبْكَارٌ",
+        "definitionHtml": "إِبْكَارٌ ʾibkār [v. n./n.] act of beginning one’s day *<br><br>(3:41) بِالْعَشِيِّ وَالإِبْكَارِ in the evening and at dawn, at dusk and dawn (i.e., constantly).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ك-ر.بُكْرَةً",
+        "label": "بُكْرَةً",
+        "definitionHtml": "بُكْرَةً bukratan [n., used adverbially] in the early morning, at daybreak <br><br>(54:38) وَلَقَدْ صَبَّحَهُمْ بُكْرَةً عَذَابٌ مُسْتَقِرٌّ and a remaining chastisement came to them early in the morning; *<br><br>(25:5) بُكْرَةً وَأَصِيلا morning and evening; *<br><br>(19:11) بُكْرَةً وَعَشِيًّا day and night, constantly.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:44.420Z",
+      "refword": "2:68:17",
+      "lexword": "بِكْرٌ"
+    }
+  }
+}

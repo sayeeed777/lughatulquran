@@ -1,0 +1,74 @@
+{
+  "root": "رغم",
+  "rootArabic": "رغم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُرَاغَمٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُرَاغَمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 100,
+      "text": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ <a class=\"highlight-text\">مُرَٰغَمًا</a> كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "مُرَاغَمٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:31.707Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form III) passive participle",
+    "derivativeNote": "مُرَٰغَمًا is in the derivative form: مُرَاغَمٌ",
+    "rootDefinitionHtml": "ر/غ/م   r–gh–m nose, pride; to be angry, to reject, to dispute, aversion; to compel, compulsion; dust, soil; humiliation; escape, refuge, places of refuge. Of this verb, مُرَاغَمٌ murāgham occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُرَاغَمٌ murāgham [n. of place] places of escape, places of refuge, alternative places to one’s homes <br><br>(4:100) وَمَنْ يُهَاجِرْ فِى سَبِيلِ اللَّهِ يَجِدْ فِى الأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً whosoever emigrates in the cause of God will find in the land many alternative places in which to settle, and plenty.",
+    "mainEntryId": "wdef-ر-غ-م.مُرَاغَمٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-غ-م",
+        "label": "ر-غ-م",
+        "definitionHtml": "ر/غ/م   r–gh–m nose, pride; to be angry, to reject, to dispute, aversion; to compel, compulsion; dust, soil; humiliation; escape, refuge, places of refuge. Of this verb, مُرَاغَمٌ murāgham occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-غ-م.مُرَاغَمٌ",
+        "label": "مُرَاغَمٌ",
+        "definitionHtml": "مُرَاغَمٌ murāgham [n. of place] places of escape, places of refuge, alternative places to one’s homes <br><br>(4:100) وَمَنْ يُهَاجِرْ فِى سَبِيلِ اللَّهِ يَجِدْ فِى الأَرْضِ مُرَاغَمًا كَثِيرًا وَسَعَةً whosoever emigrates in the cause of God will find in the land many alternative places in which to settle, and plenty.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:11.384Z",
+      "refword": "4:100:9",
+      "lexword": "مُرَٰغَمًا"
+    }
+  }
+}

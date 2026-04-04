@@ -1,0 +1,106 @@
+{
+  "root": "حفف",
+  "rootArabic": "حفف",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "حَافِّين",
+      "count": 1
+    },
+    {
+      "form": "حَفَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَفَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَافِّين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 32,
+      "text": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍ وَحَفَفْنَٰهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا",
+      "highlightedHtml": "وَٱضْرِبْ لَهُم مَّثَلًا رَّجُلَيْنِ جَعَلْنَا لِأَحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَٰبٍ <a class=\"highlight-text\">وَحَفَفْنَٰهُمَا</a> بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا",
+      "derivedForms": [
+        "حَفَّ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 75,
+      "text": "وَتَرَى ٱلْمَلَٰٓئِكَةَ حَآفِّينَ مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "وَتَرَى ٱلْمَلَٰٓئِكَةَ <a class=\"highlight-text\">حَآفِّينَ</a> مِنْ حَوْلِ ٱلْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ ۖ وَقُضِىَ بَيْنَهُم بِٱلْحَقِّ وَقِيلَ ٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "حَافِّين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:27.559Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "وَحَفَفْنَٰهُمَا is in the derivative form: حَفَّ",
+    "rootDefinitionHtml": "ح/ف/ف   ḥ–f–f sides of a mountain; entourage; to surround, to encompass; to clip, to trim, edges; paucity of food. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حَفَفْنَا ḥafafnā and حَافِّين ḥāffın.",
+    "mainDefinitionHtml": "حَفَّ ḥaffa u [v. trans.] to encircle, to surround <br><br>(18:32) جَعَلْنَا لأَِحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَابٍ وَحَفَفْنَاهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا for one of them We made two gardens of grape vines, surrounded them with date palms and grew between them planted fields.",
+    "mainEntryId": "wdef-ح-ف-ف.حَفَّ",
+    "entries": [
+      {
+        "id": "wdef-ح-ف-ف",
+        "label": "ح-ف-ف",
+        "definitionHtml": "ح/ف/ف   ḥ–f–f sides of a mountain; entourage; to surround, to encompass; to clip, to trim, edges; paucity of food. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حَفَفْنَا ḥafafnā and حَافِّين ḥāffın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ف-ف.حَفَّ",
+        "label": "حَفَّ",
+        "definitionHtml": "حَفَّ ḥaffa u [v. trans.] to encircle, to surround <br><br>(18:32) جَعَلْنَا لأَِحَدِهِمَا جَنَّتَيْنِ مِنْ أَعْنَابٍ وَحَفَفْنَاهُمَا بِنَخْلٍ وَجَعَلْنَا بَيْنَهُمَا زَرْعًا for one of them We made two gardens of grape vines, surrounded them with date palms and grew between them planted fields.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ف-ف.حَافِّين",
+        "label": "حَافِّين",
+        "definitionHtml": "حَافِّين ḥāffın [pl. of act. part. حَاف ḥāff] encircling, surrounding <br><br>(39:75) وَتَرَى الْمَلاَئِكَةَ حَافِّينَ مِنْ حَوْلِ الْعَرْشِ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ and you see the angels encircling the Throne, proclaiming the praise of their Lord.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:21.630Z",
+      "refword": "18:32:10",
+      "lexword": "وَحَفَفْنَٰهُمَا"
+    }
+  }
+}

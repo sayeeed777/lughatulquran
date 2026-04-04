@@ -1,0 +1,236 @@
+{
+  "root": "ترف",
+  "rootArabic": "ترف",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "مُتْرَفُون",
+      "count": 5
+    },
+    {
+      "form": "أُتْرِفَ",
+      "count": 2
+    },
+    {
+      "form": "أَتْرَفَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أُتْرِفَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتْرَفُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أُتْرِفَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَتْرَفَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُتْرَفُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتْرَفُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتْرَفُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتْرَفُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 116,
+      "text": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "highlightedHtml": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ <a class=\"highlight-text\">أُتْرِفُوا۟</a> فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "derivedForms": [
+        "أُتْرِفَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 16,
+      "text": "وَإِذَآ أَرَدْنَآ أَن نُّهْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُوا۟ فِيهَا فَحَقَّ عَلَيْهَا ٱلْقَوْلُ فَدَمَّرْنَٰهَا تَدْمِيرًا",
+      "highlightedHtml": "وَإِذَآ أَرَدْنَآ أَن نُّهْلِكَ قَرْيَةً أَمَرْنَا <a class=\"highlight-text\">مُتْرَفِيهَا</a> فَفَسَقُوا۟ فِيهَا فَحَقَّ عَلَيْهَا ٱلْقَوْلُ فَدَمَّرْنَٰهَا تَدْمِيرًا",
+      "derivedForms": [
+        "مُتْرَفُون"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 13,
+      "text": "لَا تَرْكُضُوا۟ وَٱرْجِعُوٓا۟ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ",
+      "highlightedHtml": "لَا تَرْكُضُوا۟ وَٱرْجِعُوٓا۟ إِلَىٰ مَآ <a class=\"highlight-text\">أُتْرِفْتُمْ</a> فِيهِ وَمَسَٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ",
+      "derivedForms": [
+        "أُتْرِفَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 33,
+      "text": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ الْآخِرَةِ وَأَتْرَفْنَٰهُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِهِ ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِلِقَآءِ الْآخِرَةِ <a class=\"highlight-text\">وَأَتْرَفْنَٰهُمْ</a> فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا مَا هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ يَأْكُلُ مِمَّا تَأْكُلُونَ مِنْهُ وَيَشْرَبُ مِمَّا تَشْرَبُونَ",
+      "derivedForms": [
+        "أَتْرَفَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 64,
+      "text": "حَتَّىٰٓ إِذَآ أَخَذْنَا مُتْرَفِيهِم بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَآ أَخَذْنَا <a class=\"highlight-text\">مُتْرَفِيهِم</a> بِٱلْعَذَابِ إِذَا هُمْ يَجْـَٔرُونَ",
+      "derivedForms": [
+        "مُتْرَفُون"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 34,
+      "text": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَٰفِرُونَ",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ <a class=\"highlight-text\">مُتْرَفُوهَآ</a> إِنَّا بِمَآ أُرْسِلْتُم بِهِۦ كَٰفِرُونَ",
+      "derivedForms": [
+        "مُتْرَفُون"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 23,
+      "text": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ مُّقْتَدُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ <a class=\"highlight-text\">مُتْرَفُوهَآ</a> إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ مُّقْتَدُونَ",
+      "derivedForms": [
+        "مُتْرَفُون"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 45,
+      "text": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ مُتْرَفِينَ",
+      "highlightedHtml": "إِنَّهُمْ كَانُوا۟ قَبْلَ ذَٰلِكَ <a class=\"highlight-text\">مُتْرَفِينَ</a>",
+      "derivedForms": [
+        "مُتْرَفُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:22.323Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) passive perfect verb",
+    "derivativeNote": "أُتْرِفُوا۟ is in the derivative form: أُتْرِفَ",
+    "rootDefinitionHtml": "ت/ر/ف   t–r–f a watering place within easy access, (of plants) to be watered<br>; good food; to live in luxury, to provide with lavish means, affluence. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> أَتْرَفَ ʾatrafa 1 time; أُتْرِفَ ʾutrifa 2 times and مُتْرَفُون mutrafūn 5 times.",
+    "mainDefinitionHtml": "أُتْرِفَ ʾutrifa [pass. of v. IV] to be made opulent, to be corrupted by ease of living <br><br>(11:116) وَاتَّبَعَ الَّذِينَ ظَلَمُوا مَا أُتْرِفُوا فِيهِ while the evildoers revelled in pursuing the ease of living which was granted them.",
+    "mainEntryId": "wdef-ت-ر-ف.أُتْرِفَ",
+    "entries": [
+      {
+        "id": "wdef-ت-ر-ف",
+        "label": "ت-ر-ف",
+        "definitionHtml": "ت/ر/ف   t–r–f a watering place within easy access, (of plants) to be watered<br>; good food; to live in luxury, to provide with lavish means, affluence. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> أَتْرَفَ ʾatrafa 1 time; أُتْرِفَ ʾutrifa 2 times and مُتْرَفُون mutrafūn 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ر-ف.أُتْرِفَ",
+        "label": "أُتْرِفَ",
+        "definitionHtml": "أُتْرِفَ ʾutrifa [pass. of v. IV] to be made opulent, to be corrupted by ease of living <br><br>(11:116) وَاتَّبَعَ الَّذِينَ ظَلَمُوا مَا أُتْرِفُوا فِيهِ while the evildoers revelled in pursuing the ease of living which was granted them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ت-ر-ف.أَتْرَفَ",
+        "label": "أَتْرَفَ",
+        "definitionHtml": "أَتْرَفَ ʾatrafa [v. IV, trans.] to provide with the good things of this life, to cause to be opulent <br><br>(23:33) وَأَتْرَفْنَاهُمْ فِى الْحَيَاةِ الدُّنْيَا and We had granted them ease and plenty in this life.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ر-ف.مُتْرَفُون",
+        "label": "مُتْرَفُون",
+        "definitionHtml": "مُتْرَفُون mutrafūn [pl. of pass. part. مُتْرَفٌ mutraf] those endowed with the good things of this life, ones spoilt by wealth and easy living <br><br>(17:16) وَإِذَا أَرَدْنَا أَنْ نُهْلِكَ قَرْيَةً أَمَرْنَا مُتْرَفِيهَا فَفَسَقُوا فِيهَا فَحَقَّ عَلَيْهَا الْقَوْلُ فَدَمَّرْنَاهَا تَدْمِيرًا and if We desire to destroy a township, We command the affluent of its inhabitants, and they commit abominations in it, so the word [judgement] is passed against it and We destroy it utterly.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:28.941Z",
+      "refword": "11:116:23",
+      "lexword": "أُتْرِفُوا۟"
+    }
+  }
+}

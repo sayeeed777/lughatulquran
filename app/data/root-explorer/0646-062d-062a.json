@@ -1,0 +1,137 @@
+{
+  "root": "نحت",
+  "rootArabic": "نحت",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 1,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَنْحِت",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْحِت",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْحِت",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْحِت",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْحِت",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 74,
+      "text": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا <a class=\"highlight-text\">وَتَنْحِتُونَ</a> ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "يَنْحِت"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 82,
+      "text": "وَكَانُوا۟ يَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا آمِنِينَ",
+      "highlightedHtml": "وَكَانُوا۟ <a class=\"highlight-text\">يَنْحِتُونَ</a> مِنَ ٱلْجِبَالِ بُيُوتًا آمِنِينَ",
+      "derivedForms": [
+        "يَنْحِت"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 149,
+      "text": "وَتَنْحِتُونَ مِنَ ٱلْجِبَالِ بُيُوتًا فَٰرِهِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَتَنْحِتُونَ</a> مِنَ ٱلْجِبَالِ بُيُوتًا فَٰرِهِينَ",
+      "derivedForms": [
+        "يَنْحِت"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 95,
+      "text": "قَالَ أَتَعْبُدُونَ مَا تَنْحِتُونَ",
+      "highlightedHtml": "قَالَ أَتَعْبُدُونَ مَا <a class=\"highlight-text\">تَنْحِتُونَ</a>",
+      "derivedForms": [
+        "يَنْحِت"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:06.325Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "وَتَنْحِتُونَ is in the derivative form: يَنْحِت",
+    "rootDefinitionHtml": "ن/ح/ت   n–ḥ–t to hew, to carve, to quarry, to chisel, to hollow, splinters; disposition, character. Of this root, يَنْحِتُ yanḥit, appears 4 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَنْحِت yanḥit [imperf. of v. نَحَتَ naḥata, trans.] <br><br><strong>1 </strong>to hollow out, to hew out <br><br>(7:74) وَتَنْحِتُونَ الْجِبَالَ بُيُوتًا and hewing the mountains into houses <br><br><strong>2 </strong>to chisel, to carve into shape, to sculpt <br><br>(37:95) أَتَعْبُدُونَ مَا تَنْحِتُونَ do you worship what you carve [with your own hands]?",
+    "mainEntryId": "wdef-ن-ح-ت.يَنْحِت",
+    "entries": [
+      {
+        "id": "wdef-ن-ح-ت",
+        "label": "ن-ح-ت",
+        "definitionHtml": "ن/ح/ت   n–ḥ–t to hew, to carve, to quarry, to chisel, to hollow, splinters; disposition, character. Of this root, يَنْحِتُ yanḥit, appears 4 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ح-ت.يَنْحِت",
+        "label": "يَنْحِت",
+        "definitionHtml": "يَنْحِت yanḥit [imperf. of v. نَحَتَ naḥata, trans.] <br><br><strong>1 </strong>to hollow out, to hew out <br><br>(7:74) وَتَنْحِتُونَ الْجِبَالَ بُيُوتًا and hewing the mountains into houses <br><br><strong>2 </strong>to chisel, to carve into shape, to sculpt <br><br>(37:95) أَتَعْبُدُونَ مَا تَنْحِتُونَ do you worship what you carve [with your own hands]?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:28.940Z",
+      "refword": "7:74:15",
+      "lexword": "وَتَنْحِتُونَ"
+    }
+  }
+}

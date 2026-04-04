@@ -1,0 +1,91 @@
+{
+  "root": "زود",
+  "rootArabic": "زود",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَزَوَّد",
+      "count": 1
+    },
+    {
+      "form": "زاد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَزَوَّد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "زاد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 197,
+      "text": "ٱلْحَجُّ أَشْهُرٌ مَّعْلُومَٰتٌ ۚ فَمَن فَرَضَ فِيهِنَّ ٱلْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِى ٱلْحَجِّ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ يَعْلَمْهُ ٱللَّهُ ۗ وَتَزَوَّدُوا۟ فَإِنَّ خَيْرَ ٱلزَّادِ ٱلتَّقْوَىٰ ۚ وَٱتَّقُونِ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "ٱلْحَجُّ أَشْهُرٌ مَّعْلُومَٰتٌ ۚ فَمَن فَرَضَ فِيهِنَّ ٱلْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِى ٱلْحَجِّ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ يَعْلَمْهُ ٱللَّهُ ۗ <a class=\"highlight-text\">وَتَزَوَّدُوا۟</a> فَإِنَّ خَيْرَ <a class=\"highlight-text\">ٱلزَّادِ</a> ٱلتَّقْوَىٰ ۚ وَٱتَّقُونِ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "تَزَوَّد",
+        "زاد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:17.901Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form V) imperative verb",
+    "derivativeNote": "وَتَزَوَّدُوا۟ is in the derivative form: تَزَوَّد",
+    "rootDefinitionHtml": "ز/و/د   z–w–d provisions, to take provisions for a journey, food. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>تَزَوَّدوا tazawwadū and زاد zād.",
+    "mainDefinitionHtml": "تَزَوَّد tazawwad [imper. of v. V, intrans.] to take food and other provisions for a journey <br><br>(2:197) وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَى furnish yourselves with [the necessary] provisions: indeed, the best provision [to take with you in your journey to the Hereafter] is being mindful of God.",
+    "mainEntryId": "wdef-ز-و-د.تَزَوَّد",
+    "entries": [
+      {
+        "id": "wdef-ز-و-د",
+        "label": "ز-و-د",
+        "definitionHtml": "ز/و/د   z–w–d provisions, to take provisions for a journey, food. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>تَزَوَّدوا tazawwadū and زاد zād.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-و-د.تَزَوَّد",
+        "label": "تَزَوَّد",
+        "definitionHtml": "تَزَوَّد tazawwad [imper. of v. V, intrans.] to take food and other provisions for a journey <br><br>(2:197) وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَى furnish yourselves with [the necessary] provisions: indeed, the best provision [to take with you in your journey to the Hereafter] is being mindful of God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-و-د.زاد",
+        "label": "زاد",
+        "definitionHtml": "زاد zād [coll. n.] food provisions (in particular for a journey) <br><br>(2:197) وَتَزَوَّدُوا فَإِنَّ خَيْرَ الزَّادِ التَّقْوَى furnish yourselves with [the necessary] provisions–indeed, the best provision [to take with you in your journey to the Hereafter] is being mindful of God.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:43.441Z",
+      "refword": "2:197:22",
+      "lexword": "وَتَزَوَّدُوا۟"
+    }
+  }
+}

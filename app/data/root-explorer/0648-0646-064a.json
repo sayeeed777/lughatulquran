@@ -1,0 +1,74 @@
+{
+  "root": "وني",
+  "rootArabic": "وني",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَنِي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 42,
+      "text": "ٱذْهَبْ أَنتَ وَأَخُوكَ بِـَٔايَٰتِى وَلَا تَنِيَا فِى ذِكْرِى",
+      "highlightedHtml": "ٱذْهَبْ أَنتَ وَأَخُوكَ بِـَٔايَٰتِى وَلَا <a class=\"highlight-text\">تَنِيَا</a> فِى ذِكْرِى",
+      "derivedForms": [
+        "تَنِي"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T10:00:03.402Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person dual imperfect verb, jussive mood",
+    "derivativeNote": "تَنِيَا is in the derivative form: تَنِي",
+    "rootDefinitionHtml": "و/ن/ي   w–n–y place of rest, relaxation; slackness, weakness; to delay; shortcoming, delaying; docks. Of this root, تَنِيَا taniyā, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَنِي tanı [imperf. of وَنِيَ waniya, intrans.] to be slack, to be neg‐ ligent <br><br>(20:42) وَلاَ تَنِيَا فِى ذِكْرِي and never be lax in remembering Me.",
+    "mainEntryId": "wdef-و-ن-ي.تَنِي",
+    "entries": [
+      {
+        "id": "wdef-و-ن-ي",
+        "label": "و-ن-ي",
+        "definitionHtml": "و/ن/ي   w–n–y place of rest, relaxation; slackness, weakness; to delay; shortcoming, delaying; docks. Of this root, تَنِيَا taniyā, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ن-ي.تَنِي",
+        "label": "تَنِي",
+        "definitionHtml": "تَنِي tanı [imperf. of وَنِيَ waniya, intrans.] to be slack, to be neg‐ ligent <br><br>(20:42) وَلاَ تَنِيَا فِى ذِكْرِي and never be lax in remembering Me.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:57.022Z",
+      "refword": "20:42:6",
+      "lexword": "تَنِيَا"
+    }
+  }
+}

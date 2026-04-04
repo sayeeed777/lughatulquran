@@ -1,0 +1,74 @@
+{
+  "root": "خلع",
+  "rootArabic": "خلع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اخْلعٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْلعٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 12,
+      "text": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "highlightedHtml": "إِنِّىٓ أَنَا۠ رَبُّكَ <a class=\"highlight-text\">فَٱخْلَعْ</a> نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "derivedForms": [
+        "اخْلعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:40.004Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "فَٱخْلَعْ is in the derivative form: اخْلعٌ",
+    "rootDefinitionHtml": "خ/ل/ع   kh–l–ʿ to take off, to draw off, to draw out, to dislodge; to disown, to break a pledge; to be alone, to be mad, to be foolish; tattered garment. Of this root, اخْلعٌ ʾikhlaʿ, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اخْلعٌ ʾikhlaʿ [imper. of v. خَلَعَ khalaʿa, trans.] take off <br><br>(20:12) فَاخْلَعْ نَعْلَيْكَ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى so take off your shoes; you are in the sacred valley, ‡ūwā.",
+    "mainEntryId": "wdef-خ-ل-ع.اخْلعٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ل-ع",
+        "label": "خ-ل-ع",
+        "definitionHtml": "خ/ل/ع   kh–l–ʿ to take off, to draw off, to draw out, to dislodge; to disown, to break a pledge; to be alone, to be mad, to be foolish; tattered garment. Of this root, اخْلعٌ ʾikhlaʿ, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ع.اخْلعٌ",
+        "label": "اخْلعٌ",
+        "definitionHtml": "اخْلعٌ ʾikhlaʿ [imper. of v. خَلَعَ khalaʿa, trans.] take off <br><br>(20:12) فَاخْلَعْ نَعْلَيْكَ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى so take off your shoes; you are in the sacred valley, ‡ūwā.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:43.733Z",
+      "refword": "20:12:4",
+      "lexword": "فَٱخْلَعْ"
+    }
+  }
+}

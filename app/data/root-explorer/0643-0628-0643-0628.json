@@ -1,0 +1,74 @@
+{
+  "root": "كبكب",
+  "rootArabic": "كبكب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "كُبْكِبَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كُبْكِبَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 94,
+      "text": "فَكُبْكِبُوا۟ فِيهَا هُمْ وَٱلْغَاوُۥنَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَكُبْكِبُوا۟</a> فِيهَا هُمْ وَٱلْغَاوُۥنَ",
+      "derivedForms": [
+        "كُبْكِبَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:32.698Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive perfect verb",
+    "derivativeNote": "فَكُبْكِبُوا۟ is in the derivative form: كُبْكِبَ",
+    "rootDefinitionHtml": "ك/ب/ك/ب k–b–k–b (also see ب/ب/ ك k–b–b) to throw something face down, to throw in a pit, to throw on top of 1 another; to be wrapped up, to be mixed up, a great number. Of this root, كُبْكِبُوا kubkibū occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "كُبْكِبَ kubkiba [pass. quad. v.] to be gathered and thrown (into an abyss) on top of one another <br><br>(26:94) فَكُبْكِبُوا فِيهَا هُمْ وَالْغَاوُونَ and then they will all be thrown headlong into it [Hell], they and those who misled them.",
+    "mainEntryId": "wdef-ك-ب-ك-ب.كُبْكِبَ",
+    "entries": [
+      {
+        "id": "wdef-ك-ب-ك-ب",
+        "label": "ك-ب-ك-ب",
+        "definitionHtml": "ك/ب/ك/ب k–b–k–b (also see ب/ب/ ك k–b–b) to throw something face down, to throw in a pit, to throw on top of 1 another; to be wrapped up, to be mixed up, a great number. Of this root, كُبْكِبُوا kubkibū occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ب-ك-ب.كُبْكِبَ",
+        "label": "كُبْكِبَ",
+        "definitionHtml": "كُبْكِبَ kubkiba [pass. quad. v.] to be gathered and thrown (into an abyss) on top of one another <br><br>(26:94) فَكُبْكِبُوا فِيهَا هُمْ وَالْغَاوُونَ and then they will all be thrown headlong into it [Hell], they and those who misled them.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:33.601Z",
+      "refword": "26:94:1",
+      "lexword": "فَكُبْكِبُوا۟"
+    }
+  }
+}

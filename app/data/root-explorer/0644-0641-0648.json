@@ -1,0 +1,116 @@
+{
+  "root": "لفو",
+  "rootArabic": "لفو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "ألْفَى",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْفَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْفَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْفَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 170,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَآ أَلْفَيْنَا عَلَيْهِ ءَابَآءَنَا ۗ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْقِلُونَ شَيْـًٔا وَلَا يَهْتَدُونَ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَآ <a class=\"highlight-text\">أَلْفَيْنَا</a> عَلَيْهِ ءَابَآءَنَا ۗ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْقِلُونَ شَيْـًٔا وَلَا يَهْتَدُونَ",
+      "derivedForms": [
+        "ألْفَى"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ <a class=\"highlight-text\">وَأَلْفَيَا</a> سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "ألْفَى"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 69,
+      "text": "إِنَّهُمْ أَلْفَوْا۟ ءَابَآءَهُمْ ضَآلِّينَ",
+      "highlightedHtml": "إِنَّهُمْ <a class=\"highlight-text\">أَلْفَوْا۟</a> ءَابَآءَهُمْ ضَآلِّينَ",
+      "derivedForms": [
+        "ألْفَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:39.966Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) perfect verb",
+    "derivativeNote": "أَلْفَيْنَا is in the derivative form: ألْفَى",
+    "rootDefinitionHtml": "ل/ف/و   l–f–w to scrape meat off bones; to find; to avoid; to put right; to eliminate. Of this root, only ألْفَى ʾalfā occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "ألْفَى ʾalfā [v. IV trans.] to find <br><br>(2:170)‏بل نَتَّبِعُ مَا‏ ‏أَلْفَيْنَا‏ ‏عَلَيْهِ ءَابَاءَنَا rather, we [will] follow what we found our fathers following.",
+    "mainEntryId": "wdef-ل-ف-و.ألْفَى",
+    "entries": [
+      {
+        "id": "wdef-ل-ف-و",
+        "label": "ل-ف-و",
+        "definitionHtml": "ل/ف/و   l–f–w to scrape meat off bones; to find; to avoid; to put right; to eliminate. Of this root, only ألْفَى ʾalfā occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-و.ألْفَى",
+        "label": "ألْفَى",
+        "definitionHtml": "ألْفَى ʾalfā [v. IV trans.] to find <br><br>(2:170)‏بل نَتَّبِعُ مَا‏ ‏أَلْفَيْنَا‏ ‏عَلَيْهِ ءَابَاءَنَا rather, we [will] follow what we found our fathers following.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:40.102Z",
+      "refword": "2:170:12",
+      "lexword": "أَلْفَيْنَا"
+    }
+  }
+}

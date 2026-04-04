@@ -1,0 +1,145 @@
+{
+  "root": "ذمم",
+  "rootArabic": "ذمم",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "مَذْمُومٌ",
+      "count": 3
+    },
+    {
+      "form": "ذِمَّةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذِمَّةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَذْمُومٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَذْمُومٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 8,
+      "text": "كَيْفَ وَإِن يَظْهَرُوا۟ عَلَيْكُمْ لَا يَرْقُبُوا۟ فِيكُمْ إِلًّا وَلَا ذِمَّةً ۚ يُرْضُونَكُم بِأَفْوَٰهِهِمْ وَتَأْبَىٰ قُلُوبُهُمْ وَأَكْثَرُهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "كَيْفَ وَإِن يَظْهَرُوا۟ عَلَيْكُمْ لَا يَرْقُبُوا۟ فِيكُمْ إِلًّا وَلَا <a class=\"highlight-text\">ذِمَّةً</a> ۚ يُرْضُونَكُم بِأَفْوَٰهِهِمْ وَتَأْبَىٰ قُلُوبُهُمْ وَأَكْثَرُهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "ذِمَّةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 10,
+      "text": "لَا يَرْقُبُونَ فِى مُؤْمِنٍ إِلًّا وَلَا ذِمَّةً ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُعْتَدُونَ",
+      "highlightedHtml": "لَا يَرْقُبُونَ فِى مُؤْمِنٍ إِلًّا وَلَا <a class=\"highlight-text\">ذِمَّةً</a> ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُعْتَدُونَ",
+      "derivedForms": [
+        "ذِمَّةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 18,
+      "text": "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا مَذْمُومًا مَّدْحُورًا",
+      "highlightedHtml": "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا <a class=\"highlight-text\">مَذْمُومًا</a> مَّدْحُورًا",
+      "derivedForms": [
+        "مَذْمُومٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 22,
+      "text": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتَقْعُدَ مَذْمُومًا مَّخْذُولًا",
+      "highlightedHtml": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتَقْعُدَ <a class=\"highlight-text\">مَذْمُومًا</a> مَّخْذُولًا",
+      "derivedForms": [
+        "مَذْمُومٌ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 49,
+      "text": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ مَذْمُومٌ",
+      "highlightedHtml": "لَّوْلَآ أَن تَدَٰرَكَهُۥ نِعْمَةٌ مِّن رَّبِّهِۦ لَنُبِذَ بِٱلْعَرَآءِ وَهُوَ <a class=\"highlight-text\">مَذْمُومٌ</a>",
+      "derivedForms": [
+        "مَذْمُومٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:48.935Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "ذِمَّةً is in the derivative form: ذِمَّةٌ",
+    "rootDefinitionHtml": "ذ/م/م   dh–m–m pact, pledge, guarantee, protection; dirt, to revile, to abuse. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ذِمَّةٌ dhimmatun 2 times and مَذْمُومٌ madhmūm 3 times.",
+    "mainDefinitionHtml": "ذِمَّةٌ dhimmatun [n.] a pledge of protection, a covenant of mutual protection, personal undertaking, good faith <br><br>(9:10) لاَ يَرْقُبُونَ فِى مُؤْمِنٍ إِلا وَلاَ ذِمَّةً they respect, with regard to a believer, no tie of kinship or treaty.",
+    "mainEntryId": "wdef-ذ-م-م.ذِمَّةٌ",
+    "entries": [
+      {
+        "id": "wdef-ذ-م-م",
+        "label": "ذ-م-م",
+        "definitionHtml": "ذ/م/م   dh–m–m pact, pledge, guarantee, protection; dirt, to revile, to abuse. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ذِمَّةٌ dhimmatun 2 times and مَذْمُومٌ madhmūm 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-م-م.ذِمَّةٌ",
+        "label": "ذِمَّةٌ",
+        "definitionHtml": "ذِمَّةٌ dhimmatun [n.] a pledge of protection, a covenant of mutual protection, personal undertaking, good faith <br><br>(9:10) لاَ يَرْقُبُونَ فِى مُؤْمِنٍ إِلا وَلاَ ذِمَّةً they respect, with regard to a believer, no tie of kinship or treaty.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ذ-م-م.مَذْمُومٌ",
+        "label": "مَذْمُومٌ",
+        "definitionHtml": "مَذْمُومٌ madhmūm [pass. part.] discredited, blamed, reviled <br><br>(17:22) لاَ تَجْعَلْ مَعَ اللَّهِ إِلَهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًا مَخْذُولا do not set besides God another deity, lest you end up reproved and forsaken.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:55.676Z",
+      "refword": "9:8:10",
+      "lexword": "ذِمَّةً"
+    }
+  }
+}

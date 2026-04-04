@@ -1,0 +1,101 @@
+{
+  "root": "جهز",
+  "rootArabic": "جهز",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "جَِهَازٌ",
+      "count": 2
+    },
+    {
+      "form": "جَهَّزَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "جَِهَازٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "جَهَّزَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 59,
+      "text": "وَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ قَالَ ٱئْتُونِى بِأَخٍ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">جَهَّزَهُم</a> <a class=\"highlight-text\">بِجَهَازِهِمْ</a> قَالَ ٱئْتُونِى بِأَخٍ لَّكُم مِّنْ أَبِيكُمْ ۚ أَلَا تَرَوْنَ أَنِّىٓ أُوفِى ٱلْكَيْلَ وَأَنَا۠ خَيْرُ ٱلْمُنزِلِينَ",
+      "derivedForms": [
+        "جَهَّزَ",
+        "جَِهَازٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 70,
+      "text": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">جَهَّزَهُم</a> <a class=\"highlight-text\">بِجَهَازِهِمْ</a> جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+      "derivedForms": [
+        "جَهَّزَ",
+        "جَِهَازٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:28.743Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) perfect verb",
+    "derivativeNote": "جَهَّزَهُم is in the derivative form: جَهَّزَ",
+    "rootDefinitionHtml": "ج/هـ/ز   j–h–z equipment, gear, rig; to fit out, to prepare, to equip, to make ready; to finish off, to be quick and light‐footed. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> جَهَّزَ jahhaza and جِهَاز/جَِهَازٌ jihāz/jahāz.",
+    "mainDefinitionHtml": "جَهَّزَ jahhaza [v. II, trans.] to equip with necessary gear, to rig up, to provide with necessary provisions <br><br>(12:70) فَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ جَعَلَ السِّقَايَةَ فِى رَحْلِ أَخِيهِ and when he provided them with their provisions, he placed the drinking‐cup in the pack of his brother.",
+    "mainEntryId": "wdef-ج-هـ-ز.جَهَّزَ",
+    "entries": [
+      {
+        "id": "wdef-ج-هـ-ز",
+        "label": "ج-هـ-ز",
+        "definitionHtml": "ج/هـ/ز   j–h–z equipment, gear, rig; to fit out, to prepare, to equip, to make ready; to finish off, to be quick and light‐footed. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> جَهَّزَ jahhaza and جِهَاز/جَِهَازٌ jihāz/jahāz.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-هـ-ز.جَهَّزَ",
+        "label": "جَهَّزَ",
+        "definitionHtml": "جَهَّزَ jahhaza [v. II, trans.] to equip with necessary gear, to rig up, to provide with necessary provisions <br><br>(12:70) فَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ جَعَلَ السِّقَايَةَ فِى رَحْلِ أَخِيهِ and when he provided them with their provisions, he placed the drinking‐cup in the pack of his brother.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-هـ-ز.جَِهَازٌ",
+        "label": "جَِهَازٌ",
+        "definitionHtml": "جَِهَازٌ jihāz/jahāz[n.] gears, supplies, provisions <br><br>(12:59) وَلَمَّا جَهَّزَهُمْ بِجَهَازِهِمْ قَالَ ائْتُونِي بِأَخٍ لَكُمْ مِنْ أَبِيكُمْ and when he had provided them with their provisions, he said, ‘Bring me a [half] brother of yours from your father[’s side].’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:31.189Z",
+      "refword": "12:59:2",
+      "lexword": "جَهَّزَهُم"
+    }
+  }
+}

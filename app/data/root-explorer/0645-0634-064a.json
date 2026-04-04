@@ -1,0 +1,431 @@
+{
+  "root": "مشي",
+  "rootArabic": "مشي",
+  "stats": {
+    "totalOccurrences": 23,
+    "derivativeCount": 3,
+    "surahCount": 14,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "مْشَى",
+      "count": 21
+    },
+    {
+      "form": "مَشِّاء",
+      "count": 1
+    },
+    {
+      "form": "مَشْى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 2,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 2,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 3,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 3,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَشْى",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 1,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مْشَى",
+          "count": 3,
+          "totalInQuran": 21
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَشِّاء",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 20,
+      "text": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم <a class=\"highlight-text\">مَّشَوْا۟</a> فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 122,
+      "text": "أَوَمَن كَانَ مَيْتًا فَأَحْيَيْنَٰهُ وَجَعَلْنَا لَهُۥ نُورًا يَمْشِى بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَٰتِ لَيْسَ بِخَارِجٍ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "أَوَمَن كَانَ مَيْتًا فَأَحْيَيْنَٰهُ وَجَعَلْنَا لَهُۥ نُورًا <a class=\"highlight-text\">يَمْشِى</a> بِهِۦ فِى ٱلنَّاسِ كَمَن مَّثَلُهُۥ فِى ٱلظُّلُمَٰتِ لَيْسَ بِخَارِجٍ مِّنْهَا ۚ كَذَٰلِكَ زُيِّنَ لِلْكَٰفِرِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 195,
+      "text": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
+      "highlightedHtml": "أَلَهُمْ أَرْجُلٌ <a class=\"highlight-text\">يَمْشُونَ</a> بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 37,
+      "text": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَمْشِ</a> فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 95,
+      "text": "قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَٰٓئِكَةٌ يَمْشُونَ مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًا رَّسُولًا",
+      "highlightedHtml": "قُل لَّوْ كَانَ فِى ٱلْأَرْضِ مَلَٰٓئِكَةٌ <a class=\"highlight-text\">يَمْشُونَ</a> مُطْمَئِنِّينَ لَنَزَّلْنَا عَلَيْهِم مِّنَ ٱلسَّمَآءِ مَلَكًا رَّسُولًا",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 40,
+      "text": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">تَمْشِىٓ</a> أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 128,
+      "text": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "highlightedHtml": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ <a class=\"highlight-text\">يَمْشُونَ</a> فِى مَسَٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 45,
+      "text": "وَٱللَّهُ خَلَقَ كُلَّ دَآبَّةٍ مِّن مَّآءٍ ۖ فَمِنْهُم مَّن يَمْشِى عَلَىٰ بَطْنِهِۦ وَمِنْهُم مَّن يَمْشِى عَلَىٰ رِجْلَيْنِ وَمِنْهُم مَّن يَمْشِى عَلَىٰٓ أَرْبَعٍ ۚ يَخْلُقُ ٱللَّهُ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ خَلَقَ كُلَّ دَآبَّةٍ مِّن مَّآءٍ ۖ فَمِنْهُم مَّن <a class=\"highlight-text\">يَمْشِى</a> عَلَىٰ بَطْنِهِۦ وَمِنْهُم مَّن <a class=\"highlight-text\">يَمْشِى</a> عَلَىٰ رِجْلَيْنِ وَمِنْهُم مَّن <a class=\"highlight-text\">يَمْشِى</a> عَلَىٰٓ أَرْبَعٍ ۚ يَخْلُقُ ٱللَّهُ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "مْشَى",
+        "مْشَى",
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 7,
+      "text": "وَقَالُوا۟ مَالِ هَٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ وَيَمْشِى فِى ٱلْأَسْوَاقِ ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا",
+      "highlightedHtml": "وَقَالُوا۟ مَالِ هَٰذَا ٱلرَّسُولِ يَأْكُلُ ٱلطَّعَامَ <a class=\"highlight-text\">وَيَمْشِى</a> فِى ٱلْأَسْوَاقِ ۙ لَوْلَآ أُنزِلَ إِلَيْهِ مَلَكٌ فَيَكُونَ مَعَهُۥ نَذِيرًا",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 20,
+      "text": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ وَيَمْشُونَ فِى ٱلْأَسْوَاقِ ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا قَبْلَكَ مِنَ ٱلْمُرْسَلِينَ إِلَّآ إِنَّهُمْ لَيَأْكُلُونَ ٱلطَّعَامَ <a class=\"highlight-text\">وَيَمْشُونَ</a> فِى ٱلْأَسْوَاقِ ۗ وَجَعَلْنَا بَعْضَكُمْ لِبَعْضٍ فِتْنَةً أَتَصْبِرُونَ ۗ وَكَانَ رَبُّكَ بَصِيرًا",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 63,
+      "text": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ يَمْشُونَ عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "highlightedHtml": "وَعِبَادُ ٱلرَّحْمَٰنِ ٱلَّذِينَ <a class=\"highlight-text\">يَمْشُونَ</a> عَلَى ٱلْأَرْضِ هَوْنًا وَإِذَا خَاطَبَهُمُ ٱلْجَٰهِلُونَ قَالُوا۟ سَلَٰمًا",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 25,
+      "text": "فَجَآءَتْهُ إِحْدَىٰهُمَا تَمْشِى عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "فَجَآءَتْهُ إِحْدَىٰهُمَا <a class=\"highlight-text\">تَمْشِى</a> عَلَى ٱسْتِحْيَآءٍ قَالَتْ إِنَّ أَبِى يَدْعُوكَ لِيَجْزِيَكَ أَجْرَ مَا سَقَيْتَ لَنَا ۚ فَلَمَّا جَآءَهُۥ وَقَصَّ عَلَيْهِ ٱلْقَصَصَ قَالَ لَا تَخَفْ ۖ نَجَوْتَ مِنَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 18,
+      "text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "highlightedHtml": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا <a class=\"highlight-text\">تَمْشِ</a> فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 19,
+      "text": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "highlightedHtml": "وَٱقْصِدْ فِى <a class=\"highlight-text\">مَشْيِكَ</a> وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "derivedForms": [
+        "مَشْى"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 26,
+      "text": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ ۖ أَفَلَا يَسْمَعُونَ",
+      "highlightedHtml": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ ٱلْقُرُونِ <a class=\"highlight-text\">يَمْشُونَ</a> فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ ۖ أَفَلَا يَسْمَعُونَ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 6,
+      "text": "وَٱنطَلَقَ ٱلْمَلَأُ مِنْهُمْ أَنِ ٱمْشُوا۟ وَٱصْبِرُوا۟ عَلَىٰٓ آلِهَتِكُمْ ۖ إِنَّ هَٰذَا لَشَىْءٌ يُرَادُ",
+      "highlightedHtml": "وَٱنطَلَقَ ٱلْمَلَأُ مِنْهُمْ أَنِ <a class=\"highlight-text\">ٱمْشُوا۟</a> وَٱصْبِرُوا۟ عَلَىٰٓ آلِهَتِكُمْ ۖ إِنَّ هَٰذَا لَشَىْءٌ يُرَادُ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 28,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا <a class=\"highlight-text\">تَمْشُونَ</a> بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 15,
+      "text": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا <a class=\"highlight-text\">فَٱمْشُوا۟</a> فِى مَنَاكِبِهَا مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "derivedForms": [
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 22,
+      "text": "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "أَفَمَن <a class=\"highlight-text\">يَمْشِى</a> مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن <a class=\"highlight-text\">يَمْشِى</a> سَوِيًّا سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "مْشَى",
+        "مْشَى"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 11,
+      "text": "هَمَّازٍ مَّشَّآءٍۭ بِنَمِيمٍ",
+      "highlightedHtml": "هَمَّازٍ <a class=\"highlight-text\">مَّشَّآءٍۭ</a> بِنَمِيمٍ",
+      "derivedForms": [
+        "مَشِّاء"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:25.897Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "مَّشَوْا۟ is in the derivative form: مْشَى",
+    "rootDefinitionHtml": "م/ش/ى   m–sh–y to walk, to go, to proceed<br>; to increase, to prosper, to multiply; to backbite, to spread slanderous rumours; cattle. <br><br>Of this root, 3 forms occur 23 times in the Qur’an:<br> مَشَى mashā 21 times; مَشْى mashy 1 time and مَشِّاء mashshāʾ 1 time.",
+    "mainDefinitionHtml": "مْشَى mashā i [v. intrans.] <br><br><strong>1 </strong>to walk on foot <br><br>(7:195) أَلَهُمْ‏ ‏أَرْجُلٌ‏ ‏يَمْشُونَ‏ ‏بِهَا‏ have they feet to walk with?; *<br><br>(25:7)‏يَأْكُلُ‏ ‏الطَّعَامَ‏ ‏وَيَمْشِي‏ ‏فِى‏ ‏الأَسْوَاقِ‏ he behaves like an ordinary mortal [lit. he eats food and walks around the markets] <br><br><strong>2 </strong>to move about, to go about one’s business <br><br>(67:15) هُوَ‏ ‏الَّذِي‏ ‏جَعَلَ‏ ‏لَكُمُ‏ ‏الأَرْضَ‏ ‏ذَلُولا‏ ‏فَامْشُوا‏ ‏فِى‏ ‏مَنَاكِبِهَا‏ ‏وَكُلُوا‏ ‏مِنْ‏ ‏رِزْقِهِ it is He who made the earth accessible for you–so travel its regions and eat of His provision <br><br><strong>3 </strong>to go on, to move <br><br>(24:45) وَاللَّهُ‏ ‏خَلَقَ‏ ‏كُلَّ‏ ‏دَابَّةٍ‏ ‏مِنْ‏ ‏مَاءٍ‏ ‏فَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏بَطْنِهِ‏ ‏وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏رِجْلَيْنِ‏ ‏وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏أَرْبَعٍ‏ God created each living creature out of [a type of] water: some of them crawl on their bellies, some walk on two legs, and some on four.",
+    "mainEntryId": "wdef-م-ش-ى.مْشَى",
+    "entries": [
+      {
+        "id": "wdef-م-ش-ى",
+        "label": "م-ش-ى",
+        "definitionHtml": "م/ش/ى   m–sh–y to walk, to go, to proceed<br>; to increase, to prosper, to multiply; to backbite, to spread slanderous rumours; cattle. <br><br>Of this root, 3 forms occur 23 times in the Qur’an:<br> مَشَى mashā 21 times; مَشْى mashy 1 time and مَشِّاء mashshāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ش-ى.مْشَى",
+        "label": "مْشَى",
+        "definitionHtml": "مْشَى mashā i [v. intrans.] <br><br><strong>1 </strong>to walk on foot <br><br>(7:195) أَلَهُمْ‏ ‏أَرْجُلٌ‏ ‏يَمْشُونَ‏ ‏بِهَا‏ have they feet to walk with?; *<br><br>(25:7)‏يَأْكُلُ‏ ‏الطَّعَامَ‏ ‏وَيَمْشِي‏ ‏فِى‏ ‏الأَسْوَاقِ‏ he behaves like an ordinary mortal [lit. he eats food and walks around the markets] <br><br><strong>2 </strong>to move about, to go about one’s business <br><br>(67:15) هُوَ‏ ‏الَّذِي‏ ‏جَعَلَ‏ ‏لَكُمُ‏ ‏الأَرْضَ‏ ‏ذَلُولا‏ ‏فَامْشُوا‏ ‏فِى‏ ‏مَنَاكِبِهَا‏ ‏وَكُلُوا‏ ‏مِنْ‏ ‏رِزْقِهِ it is He who made the earth accessible for you–so travel its regions and eat of His provision <br><br><strong>3 </strong>to go on, to move <br><br>(24:45) وَاللَّهُ‏ ‏خَلَقَ‏ ‏كُلَّ‏ ‏دَابَّةٍ‏ ‏مِنْ‏ ‏مَاءٍ‏ ‏فَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏بَطْنِهِ‏ ‏وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏رِجْلَيْنِ‏ ‏وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَمْشِي‏ ‏عَلَى‏ ‏أَرْبَعٍ‏ God created each living creature out of [a type of] water: some of them crawl on their bellies, some walk on two legs, and some on four.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ش-ى.مَشِّاء",
+        "label": "مَشِّاء",
+        "definitionHtml": "مَشِّاء mashshāʾ [intens. act. part.] one who goes about constantly *<br><br>(68:11) ‏مَشَّاءٍ‏ ‏بِنَمِيمٍ backbiter, slander‐monger, rumour‐monger, one who excites discord or dissension, one who uses factual information in a mischievous manner.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ش-ى.مَشْى",
+        "label": "مَشْى",
+        "definitionHtml": "مَشْى mashy [v. n.] walking <br><br>(31:19) وَاقْصِدْ‏ ‏فِي‏ ‏مَشْيِكَ‏ do not walk proudly [lit. be moderate in your pace].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:10.487Z",
+      "refword": "2:20:8",
+      "lexword": "مَّشَوْا۟"
+    }
+  }
+}

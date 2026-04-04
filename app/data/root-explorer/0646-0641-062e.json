@@ -1,0 +1,453 @@
+{
+  "root": "نفخ",
+  "rootArabic": "نفخ",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 3,
+    "surahCount": 17,
+    "ayahCount": 18
+  },
+  "derivatives": [
+    {
+      "form": "نُفِخَ",
+      "count": 11
+    },
+    {
+      "form": "نَفَخَ",
+      "count": 8
+    },
+    {
+      "form": "نَفْخَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَخَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        },
+        {
+          "form": "نَفْخَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُفِخَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 49,
+      "text": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ <a class=\"highlight-text\">فَأَنفُخُ</a> فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 110,
+      "text": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى <a class=\"highlight-text\">فَتَنفُخُ</a> فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 73,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ <a class=\"highlight-text\">يُنفَخُ</a> فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 29,
+      "text": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "highlightedHtml": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ <a class=\"highlight-text\">وَنَفَخْتُ</a> فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 96,
+      "text": "آتُونِي زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "highlightedHtml": "آتُونِي زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ <a class=\"highlight-text\">ٱنفُخُوا۟</a> ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 99,
+      "text": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا",
+      "highlightedHtml": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ <a class=\"highlight-text\">وَنُفِخَ</a> فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 102,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يُنفَخُ</a> فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 91,
+      "text": "وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ آيَةً لِّلْعَٰلَمِينَ",
+      "highlightedHtml": "وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا <a class=\"highlight-text\">فَنَفَخْنَا</a> فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ آيَةً لِّلْعَٰلَمِينَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 101,
+      "text": "فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">نُفِخَ</a> فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 87,
+      "text": "وَيَوْمَ يُنفَخُ فِى ٱلصُّورِ فَفَزِعَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يُنفَخُ</a> فِى ٱلصُّورِ فَفَزِعَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 9,
+      "text": "ثُمَّ سَوَّىٰهُ سَوَّىٰهُ وَنَفَخَ فِيهِ مِن رُّوحِهِۦ ۖ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
+      "highlightedHtml": "ثُمَّ سَوَّىٰهُ سَوَّىٰهُ <a class=\"highlight-text\">وَنَفَخَ</a> فِيهِ مِن رُّوحِهِۦ ۖ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 51,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنُفِخَ</a> فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 72,
+      "text": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "highlightedHtml": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ <a class=\"highlight-text\">وَنَفَخْتُ</a> فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 68,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ فَصَعِقَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ نُفِخَ فِيهِ أُخْرَى فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنُفِخَ</a> فِى ٱلصُّورِ فَصَعِقَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ <a class=\"highlight-text\">نُفِخَ</a> فِيهِ أُخْرَى فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ",
+      "derivedForms": [
+        "نُفِخَ",
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 20,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنُفِخَ</a> فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 12,
+      "text": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَٰنِتِينَ",
+      "highlightedHtml": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا <a class=\"highlight-text\">فَنَفَخْنَا</a> فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَٰنِتِينَ",
+      "derivedForms": [
+        "نَفَخَ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 13,
+      "text": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">نُفِخَ</a> فِى ٱلصُّورِ <a class=\"highlight-text\">نَفْخَةٌ</a> وَٰحِدَةٌ",
+      "derivedForms": [
+        "نُفِخَ",
+        "نَفْخَةٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 18,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يُنفَخُ</a> فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+      "derivedForms": [
+        "نُفِخَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:43.565Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb",
+    "derivativeNote": "فَأَنفُخُ is in the derivative form: نَفَخَ",
+    "rootDefinitionHtml": "ن/ف/خ   n–f–kh puff, to blow, to blow into, to breathe in, to inflate, bellows<br>; haughtiness, arrogance. <br><br>Of this root, 3 forms, occur 20 times in the Qur’an:<br> نَفَخَ nafakha 8 times; نُفِخَ nufikha 11 times and نَفْخَةٌ nafkhatun 1 time.",
+    "mainDefinitionHtml": "نَفَخَ nafakha u I [v. trans.] to blow, to breathe into something <br><br>(66:12) فَنَفَخْنَا فِيهِ مِنْ رُوحِنَا so We breathed into it of Our spirit II [v. intrans.] to blow <br><br>(18:96) قَالَ انْفُخُوا حَتَّى إِذَا جَعَلَهُ نَارًا he said, ‘Blow!’–until he had made it a fire.",
+    "mainEntryId": "wdef-ن-ف-خ.نَفَخَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ف-خ",
+        "label": "ن-ف-خ",
+        "definitionHtml": "ن/ف/خ   n–f–kh puff, to blow, to blow into, to breathe in, to inflate, bellows<br>; haughtiness, arrogance. <br><br>Of this root, 3 forms, occur 20 times in the Qur’an:<br> نَفَخَ nafakha 8 times; نُفِخَ nufikha 11 times and نَفْخَةٌ nafkhatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ف-خ.نَفَخَ",
+        "label": "نَفَخَ",
+        "definitionHtml": "نَفَخَ nafakha u I [v. trans.] to blow, to breathe into something <br><br>(66:12) فَنَفَخْنَا فِيهِ مِنْ رُوحِنَا so We breathed into it of Our spirit II [v. intrans.] to blow <br><br>(18:96) قَالَ انْفُخُوا حَتَّى إِذَا جَعَلَهُ نَارًا he said, ‘Blow!’–until he had made it a fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ف-خ.نَفْخَةٌ",
+        "label": "نَفْخَةٌ",
+        "definitionHtml": "نَفْخَةٌ nafkhatun [unit n.] a single puff, a single blow, a single breath, a single blast <br><br>(69:13) فَإِذَا نُفِخَ فِى الصُّورِ نَفْخَةٌ وَاحِدَةٌ when the trumpet is sounded with one blast.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ف-خ.نُفِخَ",
+        "label": "نُفِخَ",
+        "definitionHtml": "نُفِخَ nufikha [pass. v.] to be blown <br><br>(39:68) وَنُفِخَ فِى الصُّورِ the trumpet is blown.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:40.145Z",
+      "refword": "3:49:18",
+      "lexword": "فَأَنفُخُ"
+    }
+  }
+}

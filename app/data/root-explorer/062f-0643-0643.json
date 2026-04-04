@@ -1,0 +1,183 @@
+{
+  "root": "دكك",
+  "rootArabic": "دكك",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "دَكٌّ",
+      "count": 3
+    },
+    {
+      "form": "دُكَّ",
+      "count": 2
+    },
+    {
+      "form": "دَكَّاءٌ",
+      "count": 1
+    },
+    {
+      "form": "دَكَّةً",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَكٌّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَكَّاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دُكَّ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "دَكَّةً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "دَكٌّ",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "دُكَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 143,
+      "text": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ <a class=\"highlight-text\">دَكًّا</a> وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "دَكٌّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 98,
+      "text": "قَالَ هَٰذَا رَحْمَةٌ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ دَكَّآءَ ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا",
+      "highlightedHtml": "قَالَ هَٰذَا رَحْمَةٌ مِّن رَّبِّى ۖ فَإِذَا جَآءَ وَعْدُ رَبِّى جَعَلَهُۥ <a class=\"highlight-text\">دَكَّآءَ</a> ۖ وَكَانَ وَعْدُ رَبِّى حَقًّا",
+      "derivedForms": [
+        "دَكَّاءٌ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 14,
+      "text": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ فَدُكَّتَا دَكَّةً وَٰحِدَةً",
+      "highlightedHtml": "وَحُمِلَتِ ٱلْأَرْضُ وَٱلْجِبَالُ <a class=\"highlight-text\">فَدُكَّتَا</a> <a class=\"highlight-text\">دَكَّةً</a> وَٰحِدَةً",
+      "derivedForms": [
+        "دُكَّ",
+        "دَكَّةً"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 21,
+      "text": "كَلَّآ إِذَا دُكَّتِ ٱلْأَرْضُ دَكًّا دَكًّا",
+      "highlightedHtml": "كَلَّآ إِذَا <a class=\"highlight-text\">دُكَّتِ</a> ٱلْأَرْضُ <a class=\"highlight-text\">دَكًّا</a> <a class=\"highlight-text\">دَكًّا</a>",
+      "derivedForms": [
+        "دُكَّ",
+        "دَكٌّ",
+        "دَكٌّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:20.214Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite verbal noun",
+    "derivativeNote": "دَكًّا is in the derivative form: دَكٌّ",
+    "rootDefinitionHtml": "د/ك/ك   d–k–k to pull down, to level up, level sand dunes, low banks of mud, short stout horses, humpless camel, to be stout and well built<br>; to fill in a pit with dirt; to weaken, to humiliate. <br><br>Of this root, 4 forms occur 7 times:<br> دُكَّ dukka 2 times; دَكٌّ dakk 3 times; دَكَّةً dakkatan 1 time and دَكَّاءٌ dakkāʾ 1 time.",
+    "mainDefinitionHtml": "دَكٌّ dakk [v. n.] <br><br><strong>1 </strong>(act of) crushing, levelling up, flattening out, pounded, pounding <br><br>(89:21) كَلاَّ إِذَا دُكَّتِ الأَرْضُ دَكًّا دَكًّا no indeed!, when the earth is pounded, pounded and [again] pounded <br><br><strong>2 </strong>[functioning as n.] an even or a level place; land, or ground, broken, and made even, flattened earth <br><br>(7:143) فَلَمَّا تَجَلَّى رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا and when his Lord revealed Himself to the mountain, He made it flattened earth.",
+    "mainEntryId": "wdef-د-ك-ك.دَكٌّ",
+    "entries": [
+      {
+        "id": "wdef-د-ك-ك",
+        "label": "د-ك-ك",
+        "definitionHtml": "د/ك/ك   d–k–k to pull down, to level up, level sand dunes, low banks of mud, short stout horses, humpless camel, to be stout and well built<br>; to fill in a pit with dirt; to weaken, to humiliate. <br><br>Of this root, 4 forms occur 7 times:<br> دُكَّ dukka 2 times; دَكٌّ dakk 3 times; دَكَّةً dakkatan 1 time and دَكَّاءٌ dakkāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ك-ك.دَكٌّ",
+        "label": "دَكٌّ",
+        "definitionHtml": "دَكٌّ dakk [v. n.] <br><br><strong>1 </strong>(act of) crushing, levelling up, flattening out, pounded, pounding <br><br>(89:21) كَلاَّ إِذَا دُكَّتِ الأَرْضُ دَكًّا دَكًّا no indeed!, when the earth is pounded, pounded and [again] pounded <br><br><strong>2 </strong>[functioning as n.] an even or a level place; land, or ground, broken, and made even, flattened earth <br><br>(7:143) فَلَمَّا تَجَلَّى رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا and when his Lord revealed Himself to the mountain, He made it flattened earth.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ك-ك.دَكَّاءٌ",
+        "label": "دَكَّاءٌ",
+        "definitionHtml": "دَكَّاءٌ dakkāʾ [quasi‐pass. fem. part.] flattened out, levelled <br><br>(18:98) فَإِذَا جَاءَ وَعْدُ رَبِّي جَعَلَهُ دَكَّاءَ but when my Lord’s promise is fulfilled, He will turn it [this barrier] into flattened out [ground].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ك-ك.دَكَّةً",
+        "label": "دَكَّةً",
+        "definitionHtml": "دَكَّةً dakkatan [n. of unit] a crushing <br><br>(69:14) وَحُمِلَتِ الأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً and the earth and the mountains are lifted up and crushed in a single crushing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ك-ك.دُكَّ",
+        "label": "دُكَّ",
+        "definitionHtml": "دُكَّ dukka [pass. of v. دَكَّ dakka, trans.] to be crushed, to be flattened out ‏<br><br>(69:14) وَحُمِلَتِ الأَرْضُ وَالْجِبَالُ فَدُكَّتَا دَكَّةً وَاحِدَةً and the earth and the mountains are lifted up and crushed in a single crush.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:00.244Z",
+      "refword": "7:143:29",
+      "lexword": "دَكًّا"
+    }
+  }
+}

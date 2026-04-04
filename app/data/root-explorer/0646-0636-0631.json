@@ -1,0 +1,127 @@
+{
+  "root": "نضر",
+  "rootArabic": "نضر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَضْرَةٌ",
+      "count": 2
+    },
+    {
+      "form": "نَاضِرَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَاضِرَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَضْرَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَضْرَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 75,
+      "ayah": 22,
+      "text": "وُجُوهٌ يَوْمَئِذٍ نَّاضِرَةٌ",
+      "highlightedHtml": "وُجُوهٌ يَوْمَئِذٍ <a class=\"highlight-text\">نَّاضِرَةٌ</a>",
+      "derivedForms": [
+        "نَاضِرَةٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 11,
+      "text": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا",
+      "highlightedHtml": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ <a class=\"highlight-text\">نَضْرَةً</a> وَسُرُورًا",
+      "derivedForms": [
+        "نَضْرَةٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 24,
+      "text": "تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ ٱلنَّعِيمِ",
+      "highlightedHtml": "تَعْرِفُ فِى وُجُوهِهِمْ <a class=\"highlight-text\">نَضْرَةَ</a> ٱلنَّعِيمِ",
+      "derivedForms": [
+        "نَضْرَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:36.117Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite active participle",
+    "derivativeNote": "نَّاضِرَةٌ is in the derivative form: نَاضِرَةٌ",
+    "rootDefinitionHtml": "ن/ض/ر   n–ḍ–r pure gold, good living; lushness, verdure, freshness, good looks; the upper crust of the society; purity. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَضْرَةٌ naḍratun 2 times and نَاضِرَةٌ nāḍiratun 1 time.",
+    "mainDefinitionHtml": "نَاضِرَةٌ nāḍiratun [fem. act. part.] radiant, glowing, shining <br><br>(75:22) وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ there will be radiant faces on that Day.",
+    "mainEntryId": "wdef-ن-ض-ر.نَاضِرَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ض-ر",
+        "label": "ن-ض-ر",
+        "definitionHtml": "ن/ض/ر   n–ḍ–r pure gold, good living; lushness, verdure, freshness, good looks; the upper crust of the society; purity. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَضْرَةٌ naḍratun 2 times and نَاضِرَةٌ nāḍiratun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ض-ر.نَاضِرَةٌ",
+        "label": "نَاضِرَةٌ",
+        "definitionHtml": "نَاضِرَةٌ nāḍiratun [fem. act. part.] radiant, glowing, shining <br><br>(75:22) وُجُوهٌ يَوْمَئِذٍ نَاضِرَةٌ there will be radiant faces on that Day.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ض-ر.نَضْرَةٌ",
+        "label": "نَضْرَةٌ",
+        "definitionHtml": "نَضْرَةٌ naḍratun [v. n.] freshness, radiance, glow <br><br>(83:24) تَعْرِفُ فِى وُجُوهِهِمْ نَضْرَةَ النَّعِيمِ you will recognise in their faces the radiance of bliss.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:26.839Z",
+      "refword": "75:22:3",
+      "lexword": "نَّاضِرَةٌ"
+    }
+  }
+}

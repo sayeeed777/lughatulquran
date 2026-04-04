@@ -1,0 +1,809 @@
+{
+  "root": "حشر",
+  "rootArabic": "حشر",
+  "stats": {
+    "totalOccurrences": 43,
+    "derivativeCount": 4,
+    "surahCount": 28,
+    "ayahCount": 43
+  },
+  "derivatives": [
+    {
+      "form": "حَشَر",
+      "count": 37
+    },
+    {
+      "form": "حاشِرِين",
+      "count": 3
+    },
+    {
+      "form": "حَشْرٌ",
+      "count": 2
+    },
+    {
+      "form": "مَحْشُورَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 6,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حاشِرِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 4,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حاشِرِين",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 2,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَحْشُورَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشْرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشْرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَشَر",
+          "count": 1,
+          "totalInQuran": 37
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 203,
+      "text": "وَٱذْكُرُوا۟ ٱللَّهَ فِىٓ أَيَّامٍ مَّعْدُودَٰتٍ ۚ فَمَن تَعَجَّلَ فِى يَوْمَيْنِ فَلَآ إِثْمَ عَلَيْهِ وَمَن تَأَخَّرَ فَلَآ إِثْمَ عَلَيْهِ ۚ لِمَنِ ٱتَّقَىٰ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُمْ إِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "وَٱذْكُرُوا۟ ٱللَّهَ فِىٓ أَيَّامٍ مَّعْدُودَٰتٍ ۚ فَمَن تَعَجَّلَ فِى يَوْمَيْنِ فَلَآ إِثْمَ عَلَيْهِ وَمَن تَأَخَّرَ فَلَآ إِثْمَ عَلَيْهِ ۚ لِمَنِ ٱتَّقَىٰ ۗ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُمْ إِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 12,
+      "text": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "قُل لِّلَّذِينَ كَفَرُوا۟ سَتُغْلَبُونَ <a class=\"highlight-text\">وَتُحْشَرُونَ</a> إِلَىٰ جَهَنَّمَ ۚ وَبِئْسَ ٱلْمِهَادُ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 158,
+      "text": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ تُحْشَرُونَ",
+      "highlightedHtml": "وَلَئِن مُّتُّمْ أَوْ قُتِلْتُمْ لَإِلَى ٱللَّهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 172,
+      "text": "لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
+      "highlightedHtml": "لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ <a class=\"highlight-text\">فَسَيَحْشُرُهُمْ</a> إِلَيْهِ جَمِيعًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 96,
+      "text": "أُحِلَّ لَكُمْ صَيْدُ ٱلْبَحْرِ وَطَعَامُهُۥ مَتَٰعًا لَّكُمْ وَلِلسَّيَّارَةِ ۖ وَحُرِّمَ عَلَيْكُمْ صَيْدُ ٱلْبَرِّ مَا دُمْتُمْ حُرُمًا ۗ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ صَيْدُ ٱلْبَحْرِ وَطَعَامُهُۥ مَتَٰعًا لَّكُمْ وَلِلسَّيَّارَةِ ۖ وَحُرِّمَ عَلَيْكُمْ صَيْدُ ٱلْبَرِّ مَا دُمْتُمْ حُرُمًا ۗ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 22,
+      "text": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">نَحْشُرُهُمْ</a> جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 38,
+      "text": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا فَرَّطْنَا فِى ٱلْكِتَٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
+      "highlightedHtml": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا فَرَّطْنَا فِى ٱلْكِتَٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ <a class=\"highlight-text\">يُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 51,
+      "text": "وَأَنذِرْ بِهِ ٱلَّذِينَ يَخَافُونَ أَن يُحْشَرُوٓا۟ إِلَىٰ رَبِّهِمْ ۙ لَيْسَ لَهُم مِّن دُونِهِۦ وَلِىٌّ وَلَا شَفِيعٌ لَّعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "وَأَنذِرْ بِهِ ٱلَّذِينَ يَخَافُونَ أَن <a class=\"highlight-text\">يُحْشَرُوٓا۟</a> إِلَىٰ رَبِّهِمْ ۙ لَيْسَ لَهُم مِّن دُونِهِۦ وَلِىٌّ وَلَا شَفِيعٌ لَّعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 72,
+      "text": "وَأَنْ أَقِيمُوا۟ ٱلصَّلَوٰةَ وَٱتَّقُوهُ ۚ وَهُوَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "وَأَنْ أَقِيمُوا۟ ٱلصَّلَوٰةَ وَٱتَّقُوهُ ۚ وَهُوَ ٱلَّذِىٓ إِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 111,
+      "text": "وَلَوْ أَنَّنَا نَزَّلْنَآ إِلَيْهِمُ ٱلْمَلَٰٓئِكَةَ وَكَلَّمَهُمُ ٱلْمَوْتَىٰ وَحَشَرْنَا عَلَيْهِمْ كُلَّ شَىْءٍ قُبُلًا مَّا كَانُوا۟ لِيُؤْمِنُوٓا۟ إِلَّآ أَن يَشَآءَ ٱللَّهُ وَلَٰكِنَّ أَكْثَرَهُمْ يَجْهَلُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّنَا نَزَّلْنَآ إِلَيْهِمُ ٱلْمَلَٰٓئِكَةَ وَكَلَّمَهُمُ ٱلْمَوْتَىٰ <a class=\"highlight-text\">وَحَشَرْنَا</a> عَلَيْهِمْ كُلَّ شَىْءٍ قُبُلًا مَّا كَانُوا۟ لِيُؤْمِنُوٓا۟ إِلَّآ أَن يَشَآءَ ٱللَّهُ وَلَٰكِنَّ أَكْثَرَهُمْ يَجْهَلُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 128,
+      "text": "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا يَٰمَعْشَرَ ٱلْجِنِّ قَدِ ٱسْتَكْثَرْتُم مِّنَ ٱلْإِنسِ ۖ وَقَالَ أَوْلِيَآؤُهُم مِّنَ ٱلْإِنسِ رَبَّنَا ٱسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَآ أَجَلَنَا ٱلَّذِىٓ أَجَّلْتَ لَنَا ۚ قَالَ ٱلنَّارُ مَثْوَىٰكُمْ خَٰلِدِينَ فِيهَآ إِلَّا مَا شَآءَ ٱللَّهُ ۗ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يَحْشُرُهُمْ</a> جَمِيعًا يَٰمَعْشَرَ ٱلْجِنِّ قَدِ ٱسْتَكْثَرْتُم مِّنَ ٱلْإِنسِ ۖ وَقَالَ أَوْلِيَآؤُهُم مِّنَ ٱلْإِنسِ رَبَّنَا ٱسْتَمْتَعَ بَعْضُنَا بِبَعْضٍ وَبَلَغْنَآ أَجَلَنَا ٱلَّذِىٓ أَجَّلْتَ لَنَا ۚ قَالَ ٱلنَّارُ مَثْوَىٰكُمْ خَٰلِدِينَ فِيهَآ إِلَّا مَا شَآءَ ٱللَّهُ ۗ إِنَّ رَبَّكَ حَكِيمٌ عَلِيمٌ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 111,
+      "text": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ <a class=\"highlight-text\">حَٰشِرِينَ</a>",
+      "derivedForms": [
+        "حاشِرِين"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 24,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ وَأَنَّهُۥٓ إِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱسْتَجِيبُوا۟ لِلَّهِ وَلِلرَّسُولِ إِذَا دَعَاكُمْ لِمَا يُحْيِيكُمْ ۖ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَحُولُ بَيْنَ ٱلْمَرْءِ وَقَلْبِهِۦ وَأَنَّهُۥٓ إِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 36,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةً ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةً ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ <a class=\"highlight-text\">يُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 28,
+      "text": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">نَحْشُرُهُمْ</a> جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 45,
+      "text": "وَيَوْمَ يَحْشُرُهُمْ كَأَن لَّمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّنَ ٱلنَّهَارِ يَتَعَارَفُونَ بَيْنَهُمْ ۚ قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ وَمَا كَانُوا۟ مُهْتَدِينَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يَحْشُرُهُمْ</a> كَأَن لَّمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّنَ ٱلنَّهَارِ يَتَعَارَفُونَ بَيْنَهُمْ ۚ قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ وَمَا كَانُوا۟ مُهْتَدِينَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 25,
+      "text": "وَإِنَّ رَبَّكَ هُوَ يَحْشُرُهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ هُوَ <a class=\"highlight-text\">يَحْشُرُهُمْ</a> ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 97,
+      "text": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "highlightedHtml": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ <a class=\"highlight-text\">وَنَحْشُرُهُمْ</a> يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 47,
+      "text": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةً وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا",
+      "highlightedHtml": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةً <a class=\"highlight-text\">وَحَشَرْنَٰهُمْ</a> فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 68,
+      "text": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا",
+      "highlightedHtml": "فَوَرَبِّكَ <a class=\"highlight-text\">لَنَحْشُرَنَّهُمْ</a> وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 85,
+      "text": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">نَحْشُرُ</a> ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 59,
+      "text": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ ضُحًى",
+      "highlightedHtml": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن <a class=\"highlight-text\">يُحْشَرَ</a> ٱلنَّاسُ ضُحًى",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 102,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "highlightedHtml": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ <a class=\"highlight-text\">وَنَحْشُرُ</a> ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 124,
+      "text": "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةً ضَنكًا وَنَحْشُرُهُۥ يَوْمَ ٱلْقِيَٰمَةِ أَعْمَىٰ",
+      "highlightedHtml": "وَمَنْ أَعْرَضَ عَن ذِكْرِى فَإِنَّ لَهُۥ مَعِيشَةً ضَنكًا <a class=\"highlight-text\">وَنَحْشُرُهُۥ</a> يَوْمَ ٱلْقِيَٰمَةِ أَعْمَىٰ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 125,
+      "text": "قَالَ رَبِّ لِمَ حَشَرْتَنِىٓ أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًا",
+      "highlightedHtml": "قَالَ رَبِّ لِمَ <a class=\"highlight-text\">حَشَرْتَنِىٓ</a> أَعْمَىٰ وَقَدْ كُنتُ بَصِيرًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 79,
+      "text": "وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 17,
+      "text": "وَيَوْمَ يَحْشُرُهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ فَيَقُولُ أَأَنْتُمْ أَضْلَلْتُمْ عِبَادِى هَٰٓؤُلَآءِ أَمْ هُمْ ضَلُّوا۟ ٱلسَّبِيلَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يَحْشُرُهُمْ</a> وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ فَيَقُولُ أَأَنْتُمْ أَضْلَلْتُمْ عِبَادِى هَٰٓؤُلَآءِ أَمْ هُمْ ضَلُّوا۟ ٱلسَّبِيلَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 34,
+      "text": "ٱلَّذِينَ يُحْشَرُونَ عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ أُو۟لَٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ سَبِيلًا",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يُحْشَرُونَ</a> عَلَىٰ وُجُوهِهِمْ إِلَىٰ جَهَنَّمَ أُو۟لَٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ سَبِيلًا",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 36,
+      "text": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَٱبْعَثْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَٱبْعَثْ فِى ٱلْمَدَآئِنِ <a class=\"highlight-text\">حَٰشِرِينَ</a>",
+      "derivedForms": [
+        "حاشِرِين"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 53,
+      "text": "فَأَرْسَلَ فِرْعَوْنُ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "highlightedHtml": "فَأَرْسَلَ فِرْعَوْنُ فِى ٱلْمَدَآئِنِ <a class=\"highlight-text\">حَٰشِرِينَ</a>",
+      "derivedForms": [
+        "حاشِرِين"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 17,
+      "text": "وَحُشِرَ لِسُلَيْمَٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَحُشِرَ</a> لِسُلَيْمَٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ يُوزَعُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 83,
+      "text": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَٰتِنَا فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">نَحْشُرُ</a> مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَٰتِنَا فَهُمْ يُوزَعُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 40,
+      "text": "وَيَوْمَ يَحْشُرُهُمْ جَمِيعًا ثُمَّ يَقُولُ لِلْمَلَٰٓئِكَةِ أَهَٰٓؤُلَآءِ إِيَّاكُمْ كَانُوا۟ يَعْبُدُونَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يَحْشُرُهُمْ</a> جَمِيعًا ثُمَّ يَقُولُ لِلْمَلَٰٓئِكَةِ أَهَٰٓؤُلَآءِ إِيَّاكُمْ كَانُوا۟ يَعْبُدُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 22,
+      "text": "ٱحْشُرُوا۟ ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱحْشُرُوا۟</a> ٱلَّذِينَ ظَلَمُوا۟ وَأَزْوَٰجَهُمْ وَمَا كَانُوا۟ يَعْبُدُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 19,
+      "text": "وَٱلطَّيْرَ مَحْشُورَةً ۖ كُلٌّ لَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "وَٱلطَّيْرَ <a class=\"highlight-text\">مَحْشُورَةً</a> ۖ كُلٌّ لَّهُۥٓ أَوَّابٌ",
+      "derivedForms": [
+        "مَحْشُورَةٌ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 19,
+      "text": "وَيَوْمَ يُحْشَرُ أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يُحْشَرُ</a> أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ يُوزَعُونَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 6,
+      "text": "وَإِذَا حُشِرَ ٱلنَّاسُ كَانُوا۟ لَهُمْ أَعْدَآءً وَكَانُوا۟ بِعِبَادَتِهِمْ كَٰفِرِينَ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">حُشِرَ</a> ٱلنَّاسُ كَانُوا۟ لَهُمْ أَعْدَآءً وَكَانُوا۟ بِعِبَادَتِهِمْ كَٰفِرِينَ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 44,
+      "text": "يَوْمَ تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
+      "highlightedHtml": "يَوْمَ تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ <a class=\"highlight-text\">حَشْرٌ</a> عَلَيْنَا يَسِيرٌ",
+      "derivedForms": [
+        "حَشْرٌ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 9,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا تَنَٰجَيْتُمْ فَلَا تَتَنَٰجَوْا۟ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَتَنَٰجَوْا۟ بِٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا تَنَٰجَيْتُمْ فَلَا تَتَنَٰجَوْا۟ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَتَنَٰجَوْا۟ بِٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ <a class=\"highlight-text\">ٱلْحَشْرِ</a> ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "حَشْرٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 24,
+      "text": "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ تُحْشَرُونَ",
+      "highlightedHtml": "قُلْ هُوَ ٱلَّذِى ذَرَأَكُمْ فِى ٱلْأَرْضِ وَإِلَيْهِ <a class=\"highlight-text\">تُحْشَرُونَ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 23,
+      "text": "فَحَشَرَ فَنَادَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَحَشَرَ</a> فَنَادَىٰ",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 5,
+      "text": "وَإِذَا ٱلْوُحُوشُ حُشِرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْوُحُوشُ <a class=\"highlight-text\">حُشِرَتْ</a>",
+      "derivedForms": [
+        "حَشَر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:13.849Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural passive imperfect verb",
+    "derivativeNote": "تُحْشَرُونَ is in the derivative form: حَشَر",
+    "rootDefinitionHtml": "ح/ش/ر   ḥ–sh–r insects<br>; yield of the land; to gather together, to assemble, to rally, to round up (of animals); to hone, to sharpen up; to ruin. <br><br>Of this root, 5 forms occur 43 times in the Qur’an:<br> حَشَرَ ḥashara 19 times; حُشِرَ ḥushira 18 times; حَشْر ḥashr 2 times; حَاشِرِين ḥāshirın 3 times and مَحْشُورَةٌ maḥshūratun 1 time.",
+    "mainDefinitionHtml": "حَشَر ḥashara u [v. trans.; pass. حُشِر ḥushira] <br><br><strong>1 </strong>to assemble, call up for a gathering <br><br>(79:23) فَقَالَ أَنَا رَبُّكُمُ الأَعْلَى فَحَشَرَ فَنَادَى so, he gathered [his people], proclaiming, I am your supreme lord <br><br><strong>2 </strong>to array, to muster, to bring together <br><br>(6:111) وَلَوْ أَنَّنَا نَزَّلْنَا إِلَيْهِمُ الْمَلاَئِكَةَ وَكَلَّمَهُمُ الْمَوْتَى وَحَشَرْنَا عَلَيْهِمْ كُلَّ شَيْءٍ قُبُلا مَا كَانُوا لِيُؤْمِنُوا إِلاَّ أَنْ يَشَاءَ اللَّهُ even if We sent the angels down to them, and the dead spoke to them, and We gathered all things right before them, they still would not believe, unless God so willed <br><br><strong>3 </strong>to marshal, to bring for the final Judgement <br><br>(17:97) وَنَحْشُرُهُمْ يَوْمَ الْقِيَامَةِ عَلَى وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا and We marshal them, on the Day of Resurrection, lying on their faces, blind, dumb and deaf.",
+    "mainEntryId": "wdef-ح-ش-ر.حَشَر",
+    "entries": [
+      {
+        "id": "wdef-ح-ش-ر",
+        "label": "ح-ش-ر",
+        "definitionHtml": "ح/ش/ر   ḥ–sh–r insects<br>; yield of the land; to gather together, to assemble, to rally, to round up (of animals); to hone, to sharpen up; to ruin. <br><br>Of this root, 5 forms occur 43 times in the Qur’an:<br> حَشَرَ ḥashara 19 times; حُشِرَ ḥushira 18 times; حَشْر ḥashr 2 times; حَاشِرِين ḥāshirın 3 times and مَحْشُورَةٌ maḥshūratun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ش-ر.حَشَر",
+        "label": "حَشَر",
+        "definitionHtml": "حَشَر ḥashara u [v. trans.; pass. حُشِر ḥushira] <br><br><strong>1 </strong>to assemble, call up for a gathering <br><br>(79:23) فَقَالَ أَنَا رَبُّكُمُ الأَعْلَى فَحَشَرَ فَنَادَى so, he gathered [his people], proclaiming, I am your supreme lord <br><br><strong>2 </strong>to array, to muster, to bring together <br><br>(6:111) وَلَوْ أَنَّنَا نَزَّلْنَا إِلَيْهِمُ الْمَلاَئِكَةَ وَكَلَّمَهُمُ الْمَوْتَى وَحَشَرْنَا عَلَيْهِمْ كُلَّ شَيْءٍ قُبُلا مَا كَانُوا لِيُؤْمِنُوا إِلاَّ أَنْ يَشَاءَ اللَّهُ even if We sent the angels down to them, and the dead spoke to them, and We gathered all things right before them, they still would not believe, unless God so willed <br><br><strong>3 </strong>to marshal, to bring for the final Judgement <br><br>(17:97) وَنَحْشُرُهُمْ يَوْمَ الْقِيَامَةِ عَلَى وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا and We marshal them, on the Day of Resurrection, lying on their faces, blind, dumb and deaf.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ش-ر.مَحْشُورَةٌ",
+        "label": "مَحْشُورَةٌ",
+        "definitionHtml": "مَحْشُورَةٌ maḥshūratun [pass. part. fem.] gathered together, assembled <br><br>(38:19) وَالطَّيْرَ مَحْشُورَةً كُلٌّ لَهُ أَوَّابٌ and the birds, gathered together; each to him reverting.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ش-ر.حاشِرِين",
+        "label": "حاشِرِين",
+        "definitionHtml": "حاشِرِين ḥāshirın [pl. of act. part. حاشِرَ ḥāshir] ones who call for assembly, summoners <br><br>(7:111) قَالُوا أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى الْمَدَائِنِ حَاشِرِينَ they said, ‘Delay him and his brother for a while and send, into the cities, summoners.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ش-ر.حَشْرٌ",
+        "label": "حَشْرٌ",
+        "definitionHtml": "حَشْرٌ ḥashr [v. n./ n.] <br><br><strong>1 </strong>assembly, gathering, raising from the dead <br><br>(50:44) يَوْمَ تَشَقَّقُ الأَرْضُ عَنْهُمْ سِرَاعًا ذَلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ on the Day when the earth is split asunder from about them, [emerging] in haste–that is a gathering easy for Us to muster; * الْحَشْرname of Sura 59, Medinan sura, so‐named because of the reference in verse <br><br><strong>2 </strong>to the ‘Gathering of Forces’ <br><br><strong>2 </strong>migration, evacuation, exile <br><br>(59:2) هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِنْ دِيَارِهِمْ لأَِوَّلِ الْحَشْرِ it was He who drove out those among the People of the Book who disbelieved from their homes at the first exile [also interpreted as: the first gathering of forces].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:52.585Z",
+      "refword": "2:203:25",
+      "lexword": "تُحْشَرُونَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "نعق",
+  "rootArabic": "نعق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَنْعِقُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْعِقُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 171,
+      "text": "وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَآءً وَنِدَآءً ۚ صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى <a class=\"highlight-text\">يَنْعِقُ</a> بِمَا لَا يَسْمَعُ إِلَّا دُعَآءً وَنِدَآءً ۚ صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "يَنْعِقُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:39.683Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَنْعِقُ is in the derivative form: يَنْعِقُ",
+    "rootDefinitionHtml": "ن/ع/ق   n–ʿ–q entrance to desert rat’s burrow; croaking, bleating, gibberish, to scream, to shout at herds of goats and sheep, (all) living things. Of this root, يَنْعِقُ yanʿiq, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَنْعِقُ yanʿiq [imperf of v. نَعَقَ naʿaqa, intrans.] to cry out, to shout, to bleat, to croak <br><br>(2:171) وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ بِمَا لاَ يَسْمَعُ إِلاَّ دُعَاءً وَنِدَاءً [calling to] those who disbelieve is like [the calling of one] who shrieks to a dumb animal [lit. one [a herdsman] calling to things that hear nothing but a shout and a cry].",
+    "mainEntryId": "wdef-ن-ع-ق.يَنْعِقُ",
+    "entries": [
+      {
+        "id": "wdef-ن-ع-ق",
+        "label": "ن-ع-ق",
+        "definitionHtml": "ن/ع/ق   n–ʿ–q entrance to desert rat’s burrow; croaking, bleating, gibberish, to scream, to shout at herds of goats and sheep, (all) living things. Of this root, يَنْعِقُ yanʿiq, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ع-ق.يَنْعِقُ",
+        "label": "يَنْعِقُ",
+        "definitionHtml": "يَنْعِقُ yanʿiq [imperf of v. نَعَقَ naʿaqa, intrans.] to cry out, to shout, to bleat, to croak <br><br>(2:171) وَمَثَلُ الَّذِينَ كَفَرُوا كَمَثَلِ الَّذِي يَنْعِقُ بِمَا لاَ يَسْمَعُ إِلاَّ دُعَاءً وَنِدَاءً [calling to] those who disbelieve is like [the calling of one] who shrieks to a dumb animal [lit. one [a herdsman] calling to things that hear nothing but a shout and a cry].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:33.515Z",
+      "refword": "2:171:6",
+      "lexword": "يَنْعِقُ"
+    }
+  }
+}

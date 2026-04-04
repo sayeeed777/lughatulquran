@@ -1,0 +1,74 @@
+{
+  "root": "محل",
+  "rootArabic": "محل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مِحَال",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِحَال",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 13,
+      "ayah": 13,
+      "text": "وَيُسَبِّحُ ٱلرَّعْدُ بِحَمْدِهِۦ وَٱلْمَلَٰٓئِكَةُ مِنْ خِيفَتِهِۦ وَيُرْسِلُ ٱلصَّوَٰعِقَ فَيُصِيبُ بِهَا مَن يَشَآءُ وَهُمْ يُجَٰدِلُونَ فِى ٱللَّهِ وَهُوَ شَدِيدُ ٱلْمِحَالِ",
+      "highlightedHtml": "وَيُسَبِّحُ ٱلرَّعْدُ بِحَمْدِهِۦ وَٱلْمَلَٰٓئِكَةُ مِنْ خِيفَتِهِۦ وَيُرْسِلُ ٱلصَّوَٰعِقَ فَيُصِيبُ بِهَا مَن يَشَآءُ وَهُمْ يُجَٰدِلُونَ فِى ٱللَّهِ وَهُوَ شَدِيدُ <a class=\"highlight-text\">ٱلْمِحَالِ</a>",
+      "derivedForms": [
+        "مِحَال"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:06.129Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine verbal noun",
+    "derivativeNote": "ٱلْمِحَالِ is in the derivative form: مِحَال",
+    "rootDefinitionHtml": "م/ح/ل   m–ḥ–l vertebra; might, to struggle; drought, hardship; to defend, to be antagonistic, to carry out intrigues, to plot; to shift from 1 situation to another. Of this root, مِحَال miḥāl, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مِحَال miḥāl [v. n./n./coll. n.] disputing, plotting; prowess, strength; vertebra <br><br>(13:13) ‏وَهُمْ‏ ‏يُجَادِلُونَ‏ ‏فِي‏ ‏اللَّهِ‏ ‏وَهُوَ‏ ‏شَدِيدُ‏ ‏الْمِحَالِ‏ they dispute about God yet He is Mighty in prowess.",
+    "mainEntryId": "wdef-م-ح-ل.مِحَال",
+    "entries": [
+      {
+        "id": "wdef-م-ح-ل",
+        "label": "م-ح-ل",
+        "definitionHtml": "م/ح/ل   m–ḥ–l vertebra; might, to struggle; drought, hardship; to defend, to be antagonistic, to carry out intrigues, to plot; to shift from 1 situation to another. Of this root, مِحَال miḥāl, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ح-ل.مِحَال",
+        "label": "مِحَال",
+        "definitionHtml": "مِحَال miḥāl [v. n./n./coll. n.] disputing, plotting; prowess, strength; vertebra <br><br>(13:13) ‏وَهُمْ‏ ‏يُجَادِلُونَ‏ ‏فِي‏ ‏اللَّهِ‏ ‏وَهُوَ‏ ‏شَدِيدُ‏ ‏الْمِحَالِ‏ they dispute about God yet He is Mighty in prowess.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:31.071Z",
+      "refword": "13:13:19",
+      "lexword": "ٱلْمِحَالِ"
+    }
+  }
+}

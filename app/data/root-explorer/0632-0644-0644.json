@@ -1,0 +1,152 @@
+{
+  "root": "زلل",
+  "rootArabic": "زلل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "زَلَّ",
+      "count": 2
+    },
+    {
+      "form": "أزَلَّ",
+      "count": 1
+    },
+    {
+      "form": "اسْتَزَلَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أزَلَّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "زَلَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَزَلَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَلَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 36,
+      "text": "فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَزَلَّهُمَا</a> ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ ۖ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "أزَلَّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 209,
+      "text": "فَإِن زَلَلْتُم مِّنۢ بَعْدِ مَا جَآءَتْكُمُ ٱلْبَيِّنَٰتُ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "فَإِن <a class=\"highlight-text\">زَلَلْتُم</a> مِّنۢ بَعْدِ مَا جَآءَتْكُمُ ٱلْبَيِّنَٰتُ فَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "زَلَّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 155,
+      "text": "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا ٱسْتَزَلَّهُمُ ٱلشَّيْطَٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ تَوَلَّوْا۟ مِنكُمْ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ إِنَّمَا <a class=\"highlight-text\">ٱسْتَزَلَّهُمُ</a> ٱلشَّيْطَٰنُ بِبَعْضِ مَا كَسَبُوا۟ ۖ وَلَقَدْ عَفَا ٱللَّهُ عَنْهُمْ ۗ إِنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "اسْتَزَلَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 94,
+      "text": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ قَدَمٌۢ بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ <a class=\"highlight-text\">فَتَزِلَّ</a> قَدَمٌۢ بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "زَلَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:11.722Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "فَأَزَلَّهُمَا is in the derivative form: أزَلَّ",
+    "rootDefinitionHtml": "ز/ل/ل   z–l–l to trip over, to slip, to cause to slip<br>; to remove. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> زَلَّ zalla 2 times; أزَلَّ ʾazalla 1 time and اسْتَزَلَّ ʾistazalla 11 times.",
+    "mainDefinitionHtml": "أزَلَّ ʾazalla [v. IV, trans.] to cause to slip (off), to cause to fall, to dislodge <br><br>(2:36) فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ but Satan dislodged them from it [the Garden] and removed them from what [the condition] they were in.",
+    "mainEntryId": "wdef-ز-ل-ل.أزَلَّ",
+    "entries": [
+      {
+        "id": "wdef-ز-ل-ل",
+        "label": "ز-ل-ل",
+        "definitionHtml": "ز/ل/ل   z–l–l to trip over, to slip, to cause to slip<br>; to remove. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> زَلَّ zalla 2 times; أزَلَّ ʾazalla 1 time and اسْتَزَلَّ ʾistazalla 11 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ل-ل.أزَلَّ",
+        "label": "أزَلَّ",
+        "definitionHtml": "أزَلَّ ʾazalla [v. IV, trans.] to cause to slip (off), to cause to fall, to dislodge <br><br>(2:36) فَأَزَلَّهُمَا الشَّيْطَانُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ but Satan dislodged them from it [the Garden] and removed them from what [the condition] they were in.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ل-ل.اسْتَزَلَّ",
+        "label": "اسْتَزَلَّ",
+        "definitionHtml": "اسْتَزَلَّ ʾistazalla [v. X, trans.] to cause to slip, to lead into temptation <br><br>(3:155) إِنَّمَا اسْتَزَلَّهُمُ الشَّيْطَانُ بِبَعْضِ مَا كَسَبُوا in fact, Satan made them slip by means of some of what they [themselves] had [previously] committed.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ل-ل.زَلَّ",
+        "label": "زَلَّ",
+        "definitionHtml": "زَلَّ zalla i [v. intrans.] to trip, to slip <br><br>(16:94) وَلاَ تَتَّخِذُوا أَيْمَانَكُمْ دَخَلا بَيْنَكُمْ فَتَزِلَّ قَدَمٌ بَعْدَ ثُبُوتِهَا do not use your oaths as a means of deceit between you, lest you lose your good standing within the community/with God [lit. a foot should slip after being firmly placed].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:30.157Z",
+      "refword": "2:36:1",
+      "lexword": "فَأَزَلَّهُمَا"
+    }
+  }
+}

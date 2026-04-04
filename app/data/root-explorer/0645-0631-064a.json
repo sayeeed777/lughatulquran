@@ -1,0 +1,487 @@
+{
+  "root": "مري",
+  "rootArabic": "مري",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 6,
+    "surahCount": 16,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "تَمْتَرِى",
+      "count": 5
+    },
+    {
+      "form": "مِرْيَةٌ",
+      "count": 5
+    },
+    {
+      "form": "مُمْتَرِين",
+      "count": 4
+    },
+    {
+      "form": "يُمَارِي",
+      "count": 3
+    },
+    {
+      "form": "تَمَارَى",
+      "count": 2
+    },
+    {
+      "form": "مِرَاء",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمْتَرِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمْتَرِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمْتَرِى",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "مُمْتَرِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمْتَرِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِرْيَةٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمْتَرِى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِرَاء",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُمَارِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمْتَرِى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِرْيَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِرْيَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِرْيَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُمَارِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمْتَرِى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمْتَرِى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمَارَى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يُمَارِي",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمَارَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 147,
+      "text": "ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
+      "highlightedHtml": "ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ <a class=\"highlight-text\">ٱلْمُمْتَرِينَ</a>",
+      "derivedForms": [
+        "مُمْتَرِين"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 60,
+      "text": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ ٱلْمُمْتَرِينَ",
+      "highlightedHtml": "ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُن مِّنَ <a class=\"highlight-text\">ٱلْمُمْتَرِينَ</a>",
+      "derivedForms": [
+        "مُمْتَرِين"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن طِينٍ ثُمَّ قَضَىٰٓ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُۥ ۖ ثُمَّ أَنتُمْ تَمْتَرُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَكُم مِّن طِينٍ ثُمَّ قَضَىٰٓ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُۥ ۖ ثُمَّ أَنتُمْ <a class=\"highlight-text\">تَمْتَرُونَ</a>",
+      "derivedForms": [
+        "تَمْتَرِى"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 114,
+      "text": "أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَٰبَ مُفَصَّلًا ۚ وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌ مِّن رَّبِّكَ بِٱلْحَقِّ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
+      "highlightedHtml": "أَفَغَيْرَ ٱللَّهِ أَبْتَغِى حَكَمًا وَهُوَ ٱلَّذِىٓ أَنزَلَ إِلَيْكُمُ ٱلْكِتَٰبَ مُفَصَّلًا ۚ وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَعْلَمُونَ أَنَّهُۥ مُنَزَّلٌ مِّن رَّبِّكَ بِٱلْحَقِّ ۖ فَلَا تَكُونَنَّ مِنَ <a class=\"highlight-text\">ٱلْمُمْتَرِينَ</a>",
+      "derivedForms": [
+        "مُمْتَرِين"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 94,
+      "text": "فَإِن كُنتَ فِى شَكٍّ مِّمَّآ أَنزَلْنَآ إِلَيْكَ فَسْـَٔلِ ٱلَّذِينَ يَقْرَءُونَ ٱلْكِتَٰبَ مِن قَبْلِكَ ۚ لَقَدْ جَآءَكَ ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ",
+      "highlightedHtml": "فَإِن كُنتَ فِى شَكٍّ مِّمَّآ أَنزَلْنَآ إِلَيْكَ فَسْـَٔلِ ٱلَّذِينَ يَقْرَءُونَ ٱلْكِتَٰبَ مِن قَبْلِكَ ۚ لَقَدْ جَآءَكَ ٱلْحَقُّ مِن رَّبِّكَ فَلَا تَكُونَنَّ مِنَ <a class=\"highlight-text\">ٱلْمُمْتَرِينَ</a>",
+      "derivedForms": [
+        "مُمْتَرِين"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 17,
+      "text": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى مِرْيَةٍ مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "أَفَمَن كَانَ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّهِۦ وَيَتْلُوهُ شَاهِدٌ مِّنْهُ وَمِن قَبْلِهِۦ كِتَٰبُ مُوسَىٰٓ إِمَامًا وَرَحْمَةً ۚ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۚ وَمَن يَكْفُرْ بِهِۦ مِنَ ٱلْأَحْزَابِ فَٱلنَّارُ مَوْعِدُهُۥ ۚ فَلَا تَكُ فِى <a class=\"highlight-text\">مِرْيَةٍ</a> مِّنْهُ ۚ إِنَّهُ ٱلْحَقُّ مِن رَّبِّكَ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "مِرْيَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 109,
+      "text": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُمْ مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ",
+      "highlightedHtml": "فَلَا تَكُ فِى <a class=\"highlight-text\">مِرْيَةٍ</a> مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُمْ مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ",
+      "derivedForms": [
+        "مِرْيَةٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 63,
+      "text": "قَالُوا۟ بَلْ جِئْنَٰكَ بِمَا كَانُوا۟ فِيهِ يَمْتَرُونَ",
+      "highlightedHtml": "قَالُوا۟ بَلْ جِئْنَٰكَ بِمَا كَانُوا۟ فِيهِ <a class=\"highlight-text\">يَمْتَرُونَ</a>",
+      "derivedForms": [
+        "تَمْتَرِى"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 22,
+      "text": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "highlightedHtml": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا <a class=\"highlight-text\">تُمَارِ</a> فِيهِمْ إِلَّا <a class=\"highlight-text\">مِرَآءً</a> ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "derivedForms": [
+        "يُمَارِي",
+        "مِرَاء"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 34,
+      "text": "ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ يَمْتَرُونَ",
+      "highlightedHtml": "ذَٰلِكَ عِيسَى ٱبْنُ مَرْيَمَ ۚ قَوْلَ ٱلْحَقِّ ٱلَّذِى فِيهِ <a class=\"highlight-text\">يَمْتَرُونَ</a>",
+      "derivedForms": [
+        "تَمْتَرِى"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 55,
+      "text": "وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ فِى مِرْيَةٍ مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
+      "highlightedHtml": "وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ فِى <a class=\"highlight-text\">مِرْيَةٍ</a> مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
+      "derivedForms": [
+        "مِرْيَةٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 23,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَلَا تَكُن فِى مِرْيَةٍ مِّن لِّقَآئِهِۦ ۖ وَجَعَلْنَٰهُ هُدًى لِّبَنِىٓ إِسْرَٰٓءِيلَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَلَا تَكُن فِى <a class=\"highlight-text\">مِرْيَةٍ</a> مِّن لِّقَآئِهِۦ ۖ وَجَعَلْنَٰهُ هُدًى لِّبَنِىٓ إِسْرَٰٓءِيلَ",
+      "derivedForms": [
+        "مِرْيَةٌ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 54,
+      "text": "أَلَآ إِنَّهُمْ فِى مِرْيَةٍ مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ",
+      "highlightedHtml": "أَلَآ إِنَّهُمْ فِى <a class=\"highlight-text\">مِرْيَةٍ</a> مِّن لِّقَآءِ رَبِّهِمْ ۗ أَلَآ إِنَّهُۥ بِكُلِّ شَىْءٍ مُّحِيطٌۢ",
+      "derivedForms": [
+        "مِرْيَةٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 18,
+      "text": "يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ آمَنُوا مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ يُمَارُونَ فِى ٱلسَّاعَةِ لَفِى ضَلَٰلٍۭ بَعِيدٍ",
+      "highlightedHtml": "يَسْتَعْجِلُ بِهَا ٱلَّذِينَ لَا يُؤْمِنُونَ بِهَا ۖ وَٱلَّذِينَ آمَنُوا مُشْفِقُونَ مِنْهَا وَيَعْلَمُونَ أَنَّهَا ٱلْحَقُّ ۗ أَلَآ إِنَّ ٱلَّذِينَ <a class=\"highlight-text\">يُمَارُونَ</a> فِى ٱلسَّاعَةِ لَفِى ضَلَٰلٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "يُمَارِي"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 61,
+      "text": "وَإِنَّهُۥ لَعِلْمٌ لِّلسَّاعَةِ فَلَا تَمْتَرُنَّ بِهَا وَٱتَّبِعُونِ ۚ هَٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
+      "highlightedHtml": "وَإِنَّهُۥ لَعِلْمٌ لِّلسَّاعَةِ فَلَا <a class=\"highlight-text\">تَمْتَرُنَّ</a> بِهَا وَٱتَّبِعُونِ ۚ هَٰذَا صِرَٰطٌ مُّسْتَقِيمٌ",
+      "derivedForms": [
+        "تَمْتَرِى"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 50,
+      "text": "إِنَّ هَٰذَا مَا كُنتُم بِهِۦ تَمْتَرُونَ",
+      "highlightedHtml": "إِنَّ هَٰذَا مَا كُنتُم بِهِۦ <a class=\"highlight-text\">تَمْتَرُونَ</a>",
+      "derivedForms": [
+        "تَمْتَرِى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 12,
+      "text": "أَفَتُمَٰرُونَهُۥ عَلَىٰ مَا يَرَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَفَتُمَٰرُونَهُۥ</a> عَلَىٰ مَا يَرَىٰ",
+      "derivedForms": [
+        "يُمَارِي"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 55,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ",
+      "highlightedHtml": "فَبِأَىِّ آلَاءِ رَبِّكَ <a class=\"highlight-text\">تَتَمَارَىٰ</a>",
+      "derivedForms": [
+        "تَمَارَى"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 36,
+      "text": "وَلَقَدْ أَنذَرَهُم بَطْشَتَنَا فَتَمَارَوْا۟ بِٱلنُّذُرِ",
+      "highlightedHtml": "وَلَقَدْ أَنذَرَهُم بَطْشَتَنَا <a class=\"highlight-text\">فَتَمَارَوْا۟</a> بِٱلنُّذُرِ",
+      "derivedForms": [
+        "تَمَارَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:18.232Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural (form VIII) active participle",
+    "derivativeNote": "ٱلْمُمْتَرِينَ is in the derivative form: مُمْتَرِين",
+    "rootDefinitionHtml": "م/ر/ى   m–r–y to rub the udder of a she‐camel before milking, (of a she camel) to give plenty of milk<br>; to cause blood to flow, to bring forth; to bring out all arguments in a dispute, to wrangle, to oppose, to doubt; to be bright; white antelope, the sweat of a running horse. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> يُمَارِي yumārı 3 times; تَمَارَوْا tamāraw 2 times; يَمْتَرُون yamtarūn 5 times; مُمْتَرِين mumtarın 4 times; مِرْيَةٌ miryatun 5 times and مِرَاء mirāʾ 1 time.",
+    "mainDefinitionHtml": "مُمْتَرِين mumtarın [pl. of act. part. مُمتَرِى mumtarı] those who dispute, those who reject, doubters <br><br>(10:94)‏لَقَدْ‏ ‏جَاءَكَ‏ ‏الْحَقُّ‏ ‏مِنْ‏ ‏رَبِّكَ‏ ‏فَلاَ‏ ‏تَكُونَنَّ‏ ‏مِنَ‏ ‏الْمُمْتَرِينَ‏ the Truth has come to you from your Lord, so do not be one of the doubters.",
+    "mainEntryId": "wdef-م-ر-ى.مُمْتَرِين",
+    "entries": [
+      {
+        "id": "wdef-م-ر-ى",
+        "label": "م-ر-ى",
+        "definitionHtml": "م/ر/ى   m–r–y to rub the udder of a she‐camel before milking, (of a she camel) to give plenty of milk<br>; to cause blood to flow, to bring forth; to bring out all arguments in a dispute, to wrangle, to oppose, to doubt; to be bright; white antelope, the sweat of a running horse. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> يُمَارِي yumārı 3 times; تَمَارَوْا tamāraw 2 times; يَمْتَرُون yamtarūn 5 times; مُمْتَرِين mumtarın 4 times; مِرْيَةٌ miryatun 5 times and مِرَاء mirāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ى.مُمْتَرِين",
+        "label": "مُمْتَرِين",
+        "definitionHtml": "مُمْتَرِين mumtarın [pl. of act. part. مُمتَرِى mumtarı] those who dispute, those who reject, doubters <br><br>(10:94)‏لَقَدْ‏ ‏جَاءَكَ‏ ‏الْحَقُّ‏ ‏مِنْ‏ ‏رَبِّكَ‏ ‏فَلاَ‏ ‏تَكُونَنَّ‏ ‏مِنَ‏ ‏الْمُمْتَرِينَ‏ the Truth has come to you from your Lord, so do not be one of the doubters.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ر-ى.تَمَارَى",
+        "label": "تَمَارَى",
+        "definitionHtml": "تَمَارَى tamārā [v. VI, intrans. with prep. ﺒ] to cast doubt on, to refute, to dismiss as baseless <br><br>(54:36) وَلَقَدْ‏ ‏أَنْذَرَهُمْ‏ ‏بَطْشَتَنَا‏ ‏فَتَمَارَوْا‏ ‏بِالنُّذُرِ he warned them of Our onslaught, but they doubted the warnings and dismissed them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ى.تَمْتَرِى",
+        "label": "تَمْتَرِى",
+        "definitionHtml": "تَمْتَرِى tamtarı [imperf. of v. VIII اِمْتَرَى ʾimtarā intrans.] to strongly cast doubt on, to dispute forcefully <br><br>(43:61) وَإِنَّهُ‏ ‏لَعِلْمٌ‏ ‏لِلسَّاعَةِ‏ ‏فَلاَ‏ ‏تَمْتَرُنَّ‏ ‏بِهَا‏ indeed, he [Jesus] is an indication of the coming of the Hour [also interpreted as: the Qur’an gives knowledge of the Hour] , do not cast doubt on it",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ى.مِرَاء",
+        "label": "مِرَاء",
+        "definitionHtml": "مِرَاء mirāʾ [v. n.] disputing, wrangling, arguing <br><br>(18:22)‏‏فَلاَ‏ ‏تُمَارِ‏ ‏فِيهِمْ‏ ‏إِلاَّ‏ ‏مِرَاءً‏ ‏ظَاهِرًا so do not argue concerning them, except with an unexacting argument.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ى.مِرْيَةٌ",
+        "label": "مِرْيَةٌ",
+        "definitionHtml": "مِرْيَةٌ miryatun [n.] deep doubt; dispute, wrangle <br><br>(41:54) أَلاَ‏ ‏إِنَّهُمْ‏ ‏فِي‏ ‏مِرْيَةٍ‏ ‏مِنْ‏ ‏لِقَاءِ‏ ‏رَبِّهِمْ‏‏ indeed, they are truly in doubt about the meeting with their Lord.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ى.يُمَارِي",
+        "label": "يُمَارِي",
+        "definitionHtml": "يُمَارِي yumārı [imperf. of v. III مَارَى mārā, trans.] <br><br><strong>1 </strong>to argue <br><br>(18:22) ‏فَلاَ‏ ‏تُمَارِ‏ ‏فِيهِمْ‏ ‏إِلاَّ‏ ‏مِرَاءً‏ ‏ظَاهِرًا‏‏ so do not argue about them, except with an unexacting argument <br><br><strong>2 </strong>to give the lie to, to refute, to dispute <br><br>(53:11–2) مَا‏ ‏كَذَبَ‏ ‏الْفُؤَادُ‏ ‏مَا‏ ‏رَأَى‏ أَفَتُمَارُونَهُ‏ ‏عَلَى‏ ‏مَا‏ ‏يَرَى‏ the [Prophet’s own] heart did not deny what he saw; are you going to dispute with him about what he saw?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:54.373Z",
+      "refword": "2:147:7",
+      "lexword": "ٱلْمُمْتَرِينَ"
+    }
+  }
+}

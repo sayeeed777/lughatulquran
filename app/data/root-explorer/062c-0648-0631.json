@@ -1,0 +1,342 @@
+{
+  "root": "جور",
+  "rootArabic": "جور",
+  "stats": {
+    "totalOccurrences": 13,
+    "derivativeCount": 7,
+    "surahCount": 10,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "يُجِيرُ",
+      "count": 4
+    },
+    {
+      "form": "جَارٌ",
+      "count": 3
+    },
+    {
+      "form": "مُتَجَاوِرَاتٌ",
+      "count": 2
+    },
+    {
+      "form": "اسْتَجَارَ",
+      "count": 1
+    },
+    {
+      "form": "جَائِرٌ",
+      "count": 1
+    },
+    {
+      "form": "يُجَار",
+      "count": 1
+    },
+    {
+      "form": "يُجَاوِرُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جَارٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَارٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَجَارَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُجِيرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَجَاوِرَاتٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَائِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُجَار",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُجِيرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُجَاوِرُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَجَاوِرَاتٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُجِيرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُجِيرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 36,
+      "text": "وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
+      "highlightedHtml": "وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ <a class=\"highlight-text\">وَٱلْجَارِ</a> ذِى ٱلْقُرْبَىٰ <a class=\"highlight-text\">وَٱلْجَارِ</a> ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
+      "derivedForms": [
+        "جَارٌ",
+        "جَارٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 48,
+      "text": "وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى جَارٌ لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَإِذْ زَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ أَعْمَٰلَهُمْ وَقَالَ لَا غَالِبَ لَكُمُ ٱلْيَوْمَ مِنَ ٱلنَّاسِ وَإِنِّى <a class=\"highlight-text\">جَارٌ</a> لَّكُمْ ۖ فَلَمَّا تَرَآءَتِ ٱلْفِئَتَانِ نَكَصَ عَلَىٰ عَقِبَيْهِ وَقَالَ إِنِّى بَرِىٓءٌ مِّنكُمْ إِنِّىٓ أَرَىٰ مَا لَا تَرَوْنَ إِنِّىٓ أَخَافُ ٱللَّهَ ۚ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "جَارٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 6,
+      "text": "وَإِنْ أَحَدٌ مِّنَ ٱلْمُشْرِكِينَ ٱسْتَجَارَكَ فَأَجِرْهُ حَتَّىٰ يَسْمَعَ كَلَٰمَ ٱللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُۥ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْلَمُونَ",
+      "highlightedHtml": "وَإِنْ أَحَدٌ مِّنَ ٱلْمُشْرِكِينَ <a class=\"highlight-text\">ٱسْتَجَارَكَ</a> <a class=\"highlight-text\">فَأَجِرْهُ</a> حَتَّىٰ يَسْمَعَ كَلَٰمَ ٱللَّهِ ثُمَّ أَبْلِغْهُ مَأْمَنَهُۥ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْلَمُونَ",
+      "derivedForms": [
+        "اسْتَجَارَ",
+        "يُجِيرُ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 4,
+      "text": "وَفِى ٱلْأَرْضِ قِطَعٌ مُّتَجَٰوِرَٰتٌ وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "وَفِى ٱلْأَرْضِ قِطَعٌ <a class=\"highlight-text\">مُّتَجَٰوِرَٰتٌ</a> وَجَنَّٰتٌ مِّنْ أَعْنَٰبٍ وَزَرْعٌ وَنَخِيلٌ صِنْوَانٌ وَغَيْرُ صِنْوَانٍ يُسْقَىٰ بِمَآءٍ وَٰحِدٍ وَنُفَضِّلُ بَعْضَهَا عَلَىٰ بَعْضٍ فِى ٱلْأُكُلِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "مُتَجَاوِرَاتٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 9,
+      "text": "وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ",
+      "highlightedHtml": "وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا <a class=\"highlight-text\">جَآئِرٌ</a> ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ",
+      "derivedForms": [
+        "جَائِرٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 88,
+      "text": "قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَهُوَ يُجِيرُ وَلَا يُجَارُ عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "قُلْ مَنۢ بِيَدِهِۦ مَلَكُوتُ كُلِّ شَىْءٍ وَهُوَ <a class=\"highlight-text\">يُجِيرُ</a> وَلَا <a class=\"highlight-text\">يُجَارُ</a> عَلَيْهِ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "يُجِيرُ",
+        "يُجَار"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 60,
+      "text": "لَّئِن لَّمْ يَنتَهِ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْمُرْجِفُونَ فِى ٱلْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَآ إِلَّا قَلِيلًا",
+      "highlightedHtml": "لَّئِن لَّمْ يَنتَهِ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْمُرْجِفُونَ فِى ٱلْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ ثُمَّ لَا <a class=\"highlight-text\">يُجَاوِرُونَكَ</a> فِيهَآ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "يُجَاوِرُ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 31,
+      "text": "يَٰقَوْمَنَآ أَجِيبُوا۟ دَاعِىَ ٱللَّهِ وَءَامِنُوا۟ بِهِۦ يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُجِرْكُم مِّنْ عَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "يَٰقَوْمَنَآ أَجِيبُوا۟ دَاعِىَ ٱللَّهِ وَءَامِنُوا۟ بِهِۦ يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ <a class=\"highlight-text\">وَيُجِرْكُم</a> مِّنْ عَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "مُتَجَاوِرَاتٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 28,
+      "text": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن يُجِيرُ ٱلْكَٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِنْ أَهْلَكَنِىَ ٱللَّهُ وَمَن مَّعِىَ أَوْ رَحِمَنَا فَمَن <a class=\"highlight-text\">يُجِيرُ</a> ٱلْكَٰفِرِينَ مِنْ عَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "يُجِيرُ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 22,
+      "text": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
+      "highlightedHtml": "قُلْ إِنِّى لَن <a class=\"highlight-text\">يُجِيرَنِى</a> مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
+      "derivedForms": [
+        "يُجِيرُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:33.433Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "وَٱلْجَارِ is in the derivative form: جَارٌ",
+    "rootDefinitionHtml": "ج/و/ر   j–w–r neighbour, adjacent<br>; to protect, to shelter, to give refuge, to seek refuge, protégé, spouse; to veer away, to tilt, to deviate; to be unjust, injustice. <br><br>Of this root, 7 forms occur 13 times in the Qur’an:<br> يُجَاوِرُ yujāwir 1 time; يُجِيرُ yujır 5 times; يُجَارُ yujār 1 time; اسْتَجَارَ ʾistajāra 1 time; جَارٌ jār 3 times; جَائِرٌ jāʾir 1 time and مُتَجَاوِرَاتٌ mutajāwirāt 1 time.",
+    "mainDefinitionHtml": "جَارٌ jār I [n.] neighbour <br><br>(4:36) وَالْجَارِ ذِي الْقُرْبَى and the neighbour who is of kin II [quasi‐act. part.] one who protects, one who provides asylum or sanctuary <br><br>(8:48) لاَ غَالِبَ لَكُمُ الْيَوْمَ مِنَ النَّاسِ وَإِنِّي جَارٌ لَكُمْ no man shall conquer you today for I am a protector for you.",
+    "mainEntryId": "wdef-ج-و-ر.جَارٌ",
+    "entries": [
+      {
+        "id": "wdef-ج-و-ر",
+        "label": "ج-و-ر",
+        "definitionHtml": "ج/و/ر   j–w–r neighbour, adjacent<br>; to protect, to shelter, to give refuge, to seek refuge, protégé, spouse; to veer away, to tilt, to deviate; to be unjust, injustice. <br><br>Of this root, 7 forms occur 13 times in the Qur’an:<br> يُجَاوِرُ yujāwir 1 time; يُجِيرُ yujır 5 times; يُجَارُ yujār 1 time; اسْتَجَارَ ʾistajāra 1 time; جَارٌ jār 3 times; جَائِرٌ jāʾir 1 time and مُتَجَاوِرَاتٌ mutajāwirāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.جَارٌ",
+        "label": "جَارٌ",
+        "definitionHtml": "جَارٌ jār I [n.] neighbour <br><br>(4:36) وَالْجَارِ ذِي الْقُرْبَى and the neighbour who is of kin II [quasi‐act. part.] one who protects, one who provides asylum or sanctuary <br><br>(8:48) لاَ غَالِبَ لَكُمُ الْيَوْمَ مِنَ النَّاسِ وَإِنِّي جَارٌ لَكُمْ no man shall conquer you today for I am a protector for you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-و-ر.اسْتَجَارَ",
+        "label": "اسْتَجَارَ",
+        "definitionHtml": "اسْتَجَارَ ʾistajāra [v. X, trans.] to ask for protection, to seek asylum, to seek sanctuary <br><br>(9:6) وَإِنْ أَحَدٌ مِنَ الْمُشْرِكِينَ اسْتَجَارَكَ فَأَجِرْهُ if any one of the polytheists should seek your protection [Prophet], grant it to him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.جَائِرٌ",
+        "label": "جَائِرٌ",
+        "definitionHtml": "جَائِرٌ jāʾir [act. part.] deviant, going the wrong way, straying away <br><br>(16:9) وَمِنْهَا جَائِرٌ وَلَوْ شَاءَ لَهَدَاكُمْ أَجْمَعِينَ for some of them [the roads] are going the wrong way: if He willed, He would have guided you all together.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.مُتَجَاوِرَاتٌ",
+        "label": "مُتَجَاوِرَاتٌ",
+        "definitionHtml": "مُتَجَاوِرَاتٌ mutajāwirāt [pl. of quasi act. part. fem. مُتَجَاوِرَة mutajāwiratun] adjacent, side by side, next to one another, bordering on one another, within easy reach of one another <br><br>(13:4) وَفِي الأَرْضِ قِطَعٌ مُتَجَاوِرَاتٌ and in the land there are neighbouring plots.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.يُجَار",
+        "label": "يُجَار",
+        "definitionHtml": "يُجَار yujār[imper. pass.of v. IV أجار ʾajāra, with prep. على] to be protected over/against something or someone, to be given sanctuary against <br><br>(23:88) قُلْ مَنْ بِيَدِهِ مَلَكُوتُ كُلِّ شَيْءٍ وَهُوَ يُجِيرُ وَلاَ يُجَارُ عَلَيْهِ إِنْ كُنْتُمْ تَعْلَمُونَ say, ‘Who holds in His hand the dominion of everything and protects while against Him there is no protection, [speak] if you know?’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.يُجَاوِرُ",
+        "label": "يُجَاوِرُ",
+        "definitionHtml": "يُجَاوِرُ yujāwir [imperf. of v. III جَاوَرَ jāwara, trans.] to dwell in the neighbourhood of, to be or become adjacent to, to be a neighbour of <br><br>(33:60) ثُمَّ لاَ يُجَاوِرُونَكَ فِيهَا إِلاَّ قَلِيلاً and then they will not be your neighbours in it but for a short time.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ر.يُجِيرُ",
+        "label": "يُجِيرُ",
+        "definitionHtml": "يُجِيرُ yujır [imperf. of v. IV أجار ʾajāra, trans. with prep. من] to protect, to grant asylum or sanctuary <br><br>(72:22) لَنْ يُجِيرَنِي مِنَ اللَّهِ أَحَدٌ no one will protect me against God.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:40.747Z",
+      "refword": "4:36:13",
+      "lexword": "وَٱلْجَارِ"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "root": "جوع",
+  "rootArabic": "جوع",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "جُوعٌ",
+      "count": 4
+    },
+    {
+      "form": "تَجُوعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جُوعٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جُوعٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَجُوعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جُوعٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 106,
+      "surahName": "Al-Quraish",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جُوعٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 155,
+      "text": "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ <a class=\"highlight-text\">وَٱلْجُوعِ</a> وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "جُوعٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 112,
+      "text": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ ٱلْجُوعِ وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "وَضَرَبَ ٱللَّهُ مَثَلًا قَرْيَةً كَانَتْ آمِنَةً مُّطْمَئِنَّةً يَأْتِيهَا رِزْقُهَا رَغَدًا مِّن كُلِّ مَكَانٍ فَكَفَرَتْ بِأَنْعُمِ ٱللَّهِ فَأَذَٰقَهَا ٱللَّهُ لِبَاسَ <a class=\"highlight-text\">ٱلْجُوعِ</a> وَٱلْخَوْفِ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "derivedForms": [
+        "جُوعٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 118,
+      "text": "إِنَّ لَكَ أَلَّا تَجُوعَ فِيهَا وَلَا تَعْرَىٰ",
+      "highlightedHtml": "إِنَّ لَكَ أَلَّا <a class=\"highlight-text\">تَجُوعَ</a> فِيهَا وَلَا تَعْرَىٰ",
+      "derivedForms": [
+        "تَجُوعُ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 7,
+      "text": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن جُوعٍ",
+      "highlightedHtml": "لَّا يُسْمِنُ وَلَا يُغْنِى مِن <a class=\"highlight-text\">جُوعٍ</a>",
+      "derivedForms": [
+        "جُوعٌ"
+      ]
+    },
+    {
+      "surah": 106,
+      "ayah": 4,
+      "text": "ٱلَّذِىٓ أَطْعَمَهُم مِّن جُوعٍ وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "highlightedHtml": "ٱلَّذِىٓ أَطْعَمَهُم مِّن <a class=\"highlight-text\">جُوعٍ</a> وَءَامَنَهُم مِّنْ خَوْفٍۭ",
+      "derivedForms": [
+        "جُوعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:36.266Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "وَٱلْجُوعِ is in the derivative form: جُوعٌ",
+    "rootDefinitionHtml": "ج/و/ع   j–w–ʿ hunger, to hunger, to yearn for something, to starve, starvation, famine. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَجُوعُ tajūʿ 1 time and جُوعٌ jūʿ 4 times.",
+    "mainDefinitionHtml": "جُوعٌ jūʿ [n./v. n.] hunger, starvation <br><br>(106:4) الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَءَامَنَهُمْ مِنْ خَوْفٍ He who has removed hunger from them [lit. fed them away from hunger], and made them safe [away] from fear.",
+    "mainEntryId": "wdef-ج-و-ع.جُوعٌ",
+    "entries": [
+      {
+        "id": "wdef-ج-و-ع",
+        "label": "ج-و-ع",
+        "definitionHtml": "ج/و/ع   j–w–ʿ hunger, to hunger, to yearn for something, to starve, starvation, famine. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَجُوعُ tajūʿ 1 time and جُوعٌ jūʿ 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ع.جُوعٌ",
+        "label": "جُوعٌ",
+        "definitionHtml": "جُوعٌ jūʿ [n./v. n.] hunger, starvation <br><br>(106:4) الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَءَامَنَهُمْ مِنْ خَوْفٍ He who has removed hunger from them [lit. fed them away from hunger], and made them safe [away] from fear.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-و-ع.تَجُوعُ",
+        "label": "تَجُوعُ",
+        "definitionHtml": "تَجُوعُ tajūʿ [imperf. of v. جَاعَ jāʿa, intrans.] to become or go hungry, to hunger <br><br>(20:118) إِنَّ لَكَ أَلاَّ تَجُوعَ فِيهَا وَلاَ تَعْرَى it is [granted] for you that in it [the Garden] you will not go hungry, or naked.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:47.454Z",
+      "refword": "2:155:5",
+      "lexword": "وَٱلْجُوعِ"
+    }
+  }
+}

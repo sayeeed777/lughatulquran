@@ -1,0 +1,3316 @@
+{
+  "root": "خلق",
+  "rootArabic": "خلق",
+  "stats": {
+    "totalOccurrences": 261,
+    "derivativeCount": 9,
+    "surahCount": 75,
+    "ayahCount": 218
+  },
+  "derivatives": [
+    {
+      "form": "خَلَقَ",
+      "count": 173
+    },
+    {
+      "form": "خَلْقٌ",
+      "count": 52
+    },
+    {
+      "form": "خَالِقٌ",
+      "count": 12
+    },
+    {
+      "form": "خُلِقَ",
+      "count": 11
+    },
+    {
+      "form": "خَلاَقٌ",
+      "count": 6
+    },
+    {
+      "form": "خَلاَّقٌ",
+      "count": 2
+    },
+    {
+      "form": "خُلُقٌ",
+      "count": 2
+    },
+    {
+      "form": "مُخَلَّقَةٌ",
+      "count": 2
+    },
+    {
+      "form": "اخْتِلاَقٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلاَقٌ",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَلاَقٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 6,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 11,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 8,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلاَقٌ",
+          "count": 3,
+          "totalInQuran": 6
+        },
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 3,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "خَلْقٌ",
+          "count": 3,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "خَلاَّقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 11,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 10,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 3,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "مُخَلَّقَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 7,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 5,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خُلُقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 6,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 4,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 6,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 3,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَلاَّقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        },
+        {
+          "form": "اخْتِلاَقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 5,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 4,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 5,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 2,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَالِقٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 3,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُلُقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        },
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلْقٌ",
+          "count": 1,
+          "totalInQuran": 52
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خُلِقَ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُلِقَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 95,
+      "surahName": "At-Tin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 2,
+          "totalInQuran": 173
+        }
+      ]
+    },
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَقَ",
+          "count": 1,
+          "totalInQuran": 173
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 21,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُمْ</a> وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 29,
+      "text": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ ۚ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ ۚ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 102,
+      "text": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ ۖ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ ۚ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ ۖ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ ۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ ۚ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى الْآخِرَةِ مِنْ خَلَٰقٍ ۚ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "highlightedHtml": "وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ ۖ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ ۚ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ ۖ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ ۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ ۚ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى الْآخِرَةِ مِنْ <a class=\"highlight-text\">خَلَٰقٍ</a> ۚ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلاَقٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 164,
+      "text": "إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ وَتَصْرِيفِ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "إِنَّ فِى <a class=\"highlight-text\">خَلْقِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ وَتَصْرِيفِ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 200,
+      "text": "فَإِذَا قَضَيْتُم مَّنَٰسِكَكُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَذِكْرِكُمْ ءَابَآءَكُمْ أَوْ أَشَدَّ ذِكْرًا ۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ آتِنَا فِى ٱلدُّنْيَا وَمَا لَهُۥ فِى الْآخِرَةِ مِنْ خَلَٰقٍ",
+      "highlightedHtml": "فَإِذَا قَضَيْتُم مَّنَٰسِكَكُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَذِكْرِكُمْ ءَابَآءَكُمْ أَوْ أَشَدَّ ذِكْرًا ۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ آتِنَا فِى ٱلدُّنْيَا وَمَا لَهُۥ فِى الْآخِرَةِ مِنْ <a class=\"highlight-text\">خَلَٰقٍ</a>",
+      "derivedForms": [
+        "خَلاَقٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 228,
+      "text": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 47,
+      "text": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌ وَلَمْ يَمْسَسْنِى بَشَرٌ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ يَخْلُقُ مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
+      "highlightedHtml": "قَالَتْ رَبِّ أَنَّىٰ يَكُونُ لِى وَلَدٌ وَلَمْ يَمْسَسْنِى بَشَرٌ ۖ قَالَ كَذَٰلِكِ ٱللَّهُ <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ ۚ إِذَا قَضَىٰٓ أَمْرًا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 49,
+      "text": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ <a class=\"highlight-text\">أَخْلُقُ</a> لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 59,
+      "text": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ آدَمَ ۖ خَلَقَهُۥ مِن تُرَابٍ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
+      "highlightedHtml": "إِنَّ مَثَلَ عِيسَىٰ عِندَ ٱللَّهِ كَمَثَلِ آدَمَ ۖ <a class=\"highlight-text\">خَلَقَهُۥ</a> مِن تُرَابٍ ثُمَّ قَالَ لَهُۥ كُن فَيَكُونُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 77,
+      "text": "إِنَّ ٱلَّذِينَ يَشْتَرُونَ بِعَهْدِ ٱللَّهِ وَأَيْمَٰنِهِمْ ثَمَنًا قَلِيلًا أُو۟لَٰٓئِكَ لَا خَلَٰقَ لَهُمْ فِى الْآخِرَةِ وَلَا يُكَلِّمُهُمُ ٱللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ ٱلْقِيَٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَشْتَرُونَ بِعَهْدِ ٱللَّهِ وَأَيْمَٰنِهِمْ ثَمَنًا قَلِيلًا أُو۟لَٰٓئِكَ لَا <a class=\"highlight-text\">خَلَٰقَ</a> لَهُمْ فِى الْآخِرَةِ وَلَا يُكَلِّمُهُمُ ٱللَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ ٱلْقِيَٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "خَلاَقٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 190,
+      "text": "إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍ لِّأُو۟لِى ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "إِنَّ فِى <a class=\"highlight-text\">خَلْقِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ لَءَايَٰتٍ لِّأُو۟لِى ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 191,
+      "text": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلًا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "highlightedHtml": "ٱلَّذِينَ يَذْكُرُونَ ٱللَّهَ قِيَٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِى <a class=\"highlight-text\">خَلْقِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبَّنَا مَا <a class=\"highlight-text\">خَلَقْتَ</a> هَٰذَا بَٰطِلًا سُبْحَٰنَكَ فَقِنَا عَذَابَ ٱلنَّارِ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُم</a> مِّن نَّفْسٍ وَٰحِدَةٍ <a class=\"highlight-text\">وَخَلَقَ</a> مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 28,
+      "text": "يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًا",
+      "highlightedHtml": "يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ <a class=\"highlight-text\">وَخُلِقَ</a> ٱلْإِنسَٰنُ ضَعِيفًا",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 119,
+      "text": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "highlightedHtml": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ <a class=\"highlight-text\">خَلْقَ</a> ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 17,
+      "text": "لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ هُوَ ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ ۚ قُلْ فَمَن يَمْلِكُ مِنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ أَن يُهْلِكَ ٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَأُمَّهُۥ وَمَن فِى ٱلْأَرْضِ جَمِيعًا ۗ وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۚ يَخْلُقُ مَا يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ هُوَ ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ ۚ قُلْ فَمَن يَمْلِكُ مِنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ أَن يُهْلِكَ ٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَأُمَّهُۥ وَمَن فِى ٱلْأَرْضِ جَمِيعًا ۗ وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۚ <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 18,
+      "text": "وَقَالَتِ ٱلْيَهُودُ وَٱلنَّصَٰرَىٰ نَحْنُ أَبْنَٰٓؤُا۟ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ ۚ قُلْ فَلِمَ يُعَذِّبُكُم بِذُنُوبِكُم ۖ بَلْ أَنتُم بَشَرٌ مِّمَّنْ خَلَقَ ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ وَٱلنَّصَٰرَىٰ نَحْنُ أَبْنَٰٓؤُا۟ ٱللَّهِ وَأَحِبَّٰٓؤُهُۥ ۚ قُلْ فَلِمَ يُعَذِّبُكُم بِذُنُوبِكُم ۖ بَلْ أَنتُم بَشَرٌ مِّمَّنْ <a class=\"highlight-text\">خَلَقَ</a> ۚ يَغْفِرُ لِمَن يَشَآءُ وَيُعَذِّبُ مَن يَشَآءُ ۚ وَلِلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 110,
+      "text": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ <a class=\"highlight-text\">تَخْلُقُ</a> مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 1,
+      "text": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ ۖ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ",
+      "highlightedHtml": "ٱلْحَمْدُ لِلَّهِ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَجَعَلَ ٱلظُّلُمَٰتِ وَٱلنُّورَ ۖ ثُمَّ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ يَعْدِلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن طِينٍ ثُمَّ قَضَىٰٓ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُۥ ۖ ثُمَّ أَنتُمْ تَمْتَرُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُم</a> مِّن طِينٍ ثُمَّ قَضَىٰٓ أَجَلًا ۖ وَأَجَلٌ مُّسَمًّى عِندَهُۥ ۖ ثُمَّ أَنتُمْ تَمْتَرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 73,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 94,
+      "text": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ",
+      "highlightedHtml": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 100,
+      "text": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ <a class=\"highlight-text\">وَخَلَقَهُمْ</a> ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 101,
+      "text": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌ ۖ وَخَلَقَ كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَٰحِبَةٌ ۖ <a class=\"highlight-text\">وَخَلَقَ</a> كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 102,
+      "text": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ خَٰلِقُ كُلِّ شَىْءٍ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
+      "highlightedHtml": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ <a class=\"highlight-text\">خَٰلِقُ</a> كُلِّ شَىْءٍ فَٱعْبُدُوهُ ۚ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 11,
+      "text": "وَلَقَدْ خَلَقْنَٰكُمْ ثُمَّ صَوَّرْنَٰكُمْ ثُمَّ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> ثُمَّ صَوَّرْنَٰكُمْ ثُمَّ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 12,
+      "text": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا۠ خَيْرٌ مِّنْهُ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
+      "highlightedHtml": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا۠ خَيْرٌ مِّنْهُ <a class=\"highlight-text\">خَلَقْتَنِى</a> مِن نَّارٍ <a class=\"highlight-text\">وَخَلَقْتَهُۥ</a> مِن طِينٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 54,
+      "text": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ <a class=\"highlight-text\">ٱلْخَلْقُ</a> وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 69,
+      "text": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى <a class=\"highlight-text\">ٱلْخَلْقِ</a> بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 181,
+      "text": "وَمِمَّنْ خَلَقْنَآ أُمَّةٌ يَهْدُونَ بِٱلْحَقِّ وَبِهِۦ يَعْدِلُونَ",
+      "highlightedHtml": "وَمِمَّنْ <a class=\"highlight-text\">خَلَقْنَآ</a> أُمَّةٌ يَهْدُونَ بِٱلْحَقِّ وَبِهِۦ يَعْدِلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 185,
+      "text": "أَوَلَمْ يَنظُرُوا۟ فِى مَلَكُوتِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا خَلَقَ ٱللَّهُ مِن شَىْءٍ وَأَنْ عَسَىٰٓ أَن يَكُونَ قَدِ ٱقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "highlightedHtml": "أَوَلَمْ يَنظُرُوا۟ فِى مَلَكُوتِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ مِن شَىْءٍ وَأَنْ عَسَىٰٓ أَن يَكُونَ قَدِ ٱقْتَرَبَ أَجَلُهُمْ ۖ فَبِأَىِّ حَدِيثٍۭ بَعْدَهُۥ يُؤْمِنُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 189,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُم</a> مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 191,
+      "text": "أَيُشْرِكُونَ مَا لَا يَخْلُقُ شَيْـًٔا وَهُمْ يُخْلَقُونَ",
+      "highlightedHtml": "أَيُشْرِكُونَ مَا لَا <a class=\"highlight-text\">يَخْلُقُ</a> شَيْـًٔا وَهُمْ <a class=\"highlight-text\">يُخْلَقُونَ</a>",
+      "derivedForms": [
+        "خَلَقَ",
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 36,
+      "text": "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِى كِتَٰبِ ٱللَّهِ يَوْمَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ مِنْهَآ أَرْبَعَةٌ حُرُمٌ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ ۚ فَلَا تَظْلِمُوا۟ فِيهِنَّ أَنفُسَكُمْ ۚ وَقَٰتِلُوا۟ ٱلْمُشْرِكِينَ كَآفَّةً كَمَا يُقَٰتِلُونَكُمْ كَآفَّةً ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
+      "highlightedHtml": "إِنَّ عِدَّةَ ٱلشُّهُورِ عِندَ ٱللَّهِ ٱثْنَا عَشَرَ شَهْرًا فِى كِتَٰبِ ٱللَّهِ يَوْمَ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ مِنْهَآ أَرْبَعَةٌ حُرُمٌ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ ۚ فَلَا تَظْلِمُوا۟ فِيهِنَّ أَنفُسَكُمْ ۚ وَقَٰتِلُوا۟ ٱلْمُشْرِكِينَ كَآفَّةً كَمَا يُقَٰتِلُونَكُمْ كَآفَّةً ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 69,
+      "text": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةً قُوَّةً وَأَكْثَرَ أَمْوَٰلًا وَأَوْلَٰدًا فَٱسْتَمْتَعُوا۟ بِخَلَٰقِهِمْ فَٱسْتَمْتَعْتُم بِخَلَٰقِكُمْ كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم بِخَلَٰقِهِمْ وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "كَٱلَّذِينَ مِن قَبْلِكُمْ كَانُوٓا۟ أَشَدَّ مِنكُمْ قُوَّةً قُوَّةً وَأَكْثَرَ أَمْوَٰلًا وَأَوْلَٰدًا فَٱسْتَمْتَعُوا۟ <a class=\"highlight-text\">بِخَلَٰقِهِمْ</a> فَٱسْتَمْتَعْتُم <a class=\"highlight-text\">بِخَلَٰقِكُمْ</a> كَمَا ٱسْتَمْتَعَ ٱلَّذِينَ مِن قَبْلِكُم <a class=\"highlight-text\">بِخَلَٰقِهِمْ</a> وَخُضْتُمْ كَٱلَّذِى خَاضُوٓا۟ ۚ أُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "خَلاَقٌ",
+        "خَلاَقٌ",
+        "خَلاَقٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 3,
+      "text": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ يُدَبِّرُ ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ يُدَبِّرُ ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 4,
+      "text": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "highlightedHtml": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 5,
+      "text": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 6,
+      "text": "إِنَّ فِى ٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَا خَلَقَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَءَايَٰتٍ لِّقَوْمٍ يَتَّقُونَ",
+      "highlightedHtml": "إِنَّ فِى ٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَمَا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَءَايَٰتٍ لِّقَوْمٍ يَتَّقُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 34,
+      "text": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 7,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۗ وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ وَكَانَ عَرْشُهُۥ عَلَى ٱلْمَآءِ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۗ وَلَئِن قُلْتَ إِنَّكُم مَّبْعُوثُونَ مِنۢ بَعْدِ ٱلْمَوْتِ لَيَقُولَنَّ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 119,
+      "text": "إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ خَلَقَهُمْ ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "highlightedHtml": "إِلَّا مَن رَّحِمَ رَبُّكَ ۚ وَلِذَٰلِكَ <a class=\"highlight-text\">خَلَقَهُمْ</a> ۗ وَتَمَّتْ كَلِمَةُ رَبِّكَ لَأَمْلَأَنَّ جَهَنَّمَ مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ أَجْمَعِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 5,
+      "text": "وَإِن تَعْجَبْ فَعَجَبٌ قَوْلُهُمْ أَءِذَا كُنَّا تُرَٰبًا أَءِنَّا لَفِى خَلْقٍ جَدِيدٍ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ وَأُو۟لَٰٓئِكَ ٱلْأَغْلَٰلُ فِىٓ أَعْنَاقِهِمْ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "وَإِن تَعْجَبْ فَعَجَبٌ قَوْلُهُمْ أَءِذَا كُنَّا تُرَٰبًا أَءِنَّا لَفِى <a class=\"highlight-text\">خَلْقٍ</a> جَدِيدٍ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ وَأُو۟لَٰٓئِكَ ٱلْأَغْلَٰلُ فِىٓ أَعْنَاقِهِمْ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 16,
+      "text": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ",
+      "highlightedHtml": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ <a class=\"highlight-text\">خَلَقُوا۟</a> <a class=\"highlight-text\">كَخَلْقِهِۦ</a> فَتَشَٰبَهَ <a class=\"highlight-text\">ٱلْخَلْقُ</a> عَلَيْهِمْ ۚ قُلِ ٱللَّهُ <a class=\"highlight-text\">خَٰلِقُ</a> كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ",
+        "خَلْقٌ",
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 19,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ <a class=\"highlight-text\">بِخَلْقٍ</a> جَدِيدٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 32,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ وَسَخَّرَ لَكُمُ ٱلْفُلْكَ لِتَجْرِىَ فِى ٱلْبَحْرِ بِأَمْرِهِۦ ۖ وَسَخَّرَ لَكُمُ ٱلْأَنْهَٰرَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ وَسَخَّرَ لَكُمُ ٱلْفُلْكَ لِتَجْرِىَ فِى ٱلْبَحْرِ بِأَمْرِهِۦ ۖ وَسَخَّرَ لَكُمُ ٱلْأَنْهَٰرَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 26,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 27,
+      "text": "وَٱلْجَآنَّ خَلَقْنَٰهُ مِن قَبْلُ مِن نَّارِ ٱلسَّمُومِ",
+      "highlightedHtml": "وَٱلْجَآنَّ <a class=\"highlight-text\">خَلَقْنَٰهُ</a> مِن قَبْلُ مِن نَّارِ ٱلسَّمُومِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 28,
+      "text": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى خَٰلِقٌۢ بَشَرًا مِّن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى <a class=\"highlight-text\">خَٰلِقٌۢ</a> بَشَرًا مِّن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 33,
+      "text": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ <a class=\"highlight-text\">خَلَقْتَهُۥ</a> مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 85,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ ۗ وَإِنَّ ٱلسَّاعَةَ لَءَاتِيَةٌ ۖ فَٱصْفَحِ فَٱصْفَحِ ٱلصَّفْحَ ٱلصَّفْحَ ٱلْجَمِيلَ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ ۗ وَإِنَّ ٱلسَّاعَةَ لَءَاتِيَةٌ ۖ فَٱصْفَحِ فَٱصْفَحِ ٱلصَّفْحَ ٱلصَّفْحَ ٱلْجَمِيلَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 86,
+      "text": "إِنَّ رَبَّكَ هُوَ ٱلْخَلَّٰقُ ٱلْعَلِيمُ",
+      "highlightedHtml": "إِنَّ رَبَّكَ هُوَ <a class=\"highlight-text\">ٱلْخَلَّٰقُ</a> ٱلْعَلِيمُ",
+      "derivedForms": [
+        "خَلاَّقٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 3,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ تَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ تَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 4,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلْإِنسَٰنَ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 5,
+      "text": "وَٱلْأَنْعَٰمَ خَلَقَهَا ۗ لَكُمْ فِيهَا دِفْءٌ وَمَنَٰفِعُ وَمِنْهَا تَأْكُلُونَ",
+      "highlightedHtml": "وَٱلْأَنْعَٰمَ <a class=\"highlight-text\">خَلَقَهَا</a> ۗ لَكُمْ فِيهَا دِفْءٌ وَمَنَٰفِعُ وَمِنْهَا تَأْكُلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 8,
+      "text": "وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ لِتَرْكَبُوهَا وَزِينَةً ۚ وَيَخْلُقُ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "وَٱلْخَيْلَ وَٱلْبِغَالَ وَٱلْحَمِيرَ لِتَرْكَبُوهَا وَزِينَةً ۚ <a class=\"highlight-text\">وَيَخْلُقُ</a> مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 17,
+      "text": "أَفَمَن يَخْلُقُ كَمَن لَّا يَخْلُقُ ۗ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "أَفَمَن <a class=\"highlight-text\">يَخْلُقُ</a> كَمَن لَّا <a class=\"highlight-text\">يَخْلُقُ</a> ۗ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 20,
+      "text": "وَٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ لَا يَخْلُقُونَ شَيْـًٔا وَهُمْ يُخْلَقُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ لَا <a class=\"highlight-text\">يَخْلُقُونَ</a> شَيْـًٔا وَهُمْ <a class=\"highlight-text\">يُخْلَقُونَ</a>",
+      "derivedForms": [
+        "خَلَقَ",
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 48,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 70,
+      "text": "وَٱللَّهُ خَلَقَكُمْ ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ <a class=\"highlight-text\">خَلَقَكُمْ</a> ثُمَّ يَتَوَفَّىٰكُمْ ۚ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَىْ لَا يَعْلَمَ بَعْدَ عِلْمٍ شَيْـًٔا ۚ إِنَّ ٱللَّهَ عَلِيمٌ قَدِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 81,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا <a class=\"highlight-text\">خَلَقَ</a> ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 49,
+      "text": "وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًا جَدِيدًا",
+      "highlightedHtml": "وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ <a class=\"highlight-text\">خَلْقًا</a> جَدِيدًا",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 51,
+      "text": "أَوْ خَلْقًا مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًا",
+      "highlightedHtml": "أَوْ <a class=\"highlight-text\">خَلْقًا</a> مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًا",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 61,
+      "text": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ قَالَ أَأَسْجُدُ لِمَنْ خَلَقْتَ طِينًا",
+      "highlightedHtml": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ قَالَ أَأَسْجُدُ لِمَنْ <a class=\"highlight-text\">خَلَقْتَ</a> طِينًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 70,
+      "text": "وَلَقَدْ كَرَّمْنَا بَنِىٓ آدَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍ مِّمَّنْ خَلَقْنَا تَفْضِيلًا",
+      "highlightedHtml": "وَلَقَدْ كَرَّمْنَا بَنِىٓ آدَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍ مِّمَّنْ <a class=\"highlight-text\">خَلَقْنَا</a> تَفْضِيلًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 98,
+      "text": "ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُوا۟ بِـَٔايَٰتِنَا وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ خَلْقًا جَدِيدًا",
+      "highlightedHtml": "ذَٰلِكَ جَزَآؤُهُم بِأَنَّهُمْ كَفَرُوا۟ بِـَٔايَٰتِنَا وَقَالُوٓا۟ أَءِذَا كُنَّا عِظَٰمًا وَرُفَٰتًا أَءِنَّا لَمَبْعُوثُونَ <a class=\"highlight-text\">خَلْقًا</a> جَدِيدًا",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 99,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًا",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ قَادِرٌ عَلَىٰٓ أَن <a class=\"highlight-text\">يَخْلُقَ</a> مِثْلَهُمْ وَجَعَلَ لَهُمْ أَجَلًا لَّا رَيْبَ فِيهِ فَأَبَى ٱلظَّٰلِمُونَ إِلَّا كُفُورًا",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 37,
+      "text": "قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّىٰكَ سَوَّىٰكَ رَجُلًا",
+      "highlightedHtml": "قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى <a class=\"highlight-text\">خَلَقَكَ</a> مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّىٰكَ سَوَّىٰكَ رَجُلًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 48,
+      "text": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "highlightedHtml": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 51,
+      "text": "مَّآ أَشْهَدتُّهُمْ خَلْقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَا خَلْقَ أَنفُسِهِمْ وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُدًا",
+      "highlightedHtml": "مَّآ أَشْهَدتُّهُمْ <a class=\"highlight-text\">خَلْقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَا <a class=\"highlight-text\">خَلْقَ</a> أَنفُسِهِمْ وَمَا كُنتُ مُتَّخِذَ ٱلْمُضِلِّينَ عَضُدًا",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 9,
+      "text": "قَالَ كَذَٰلِكَ قَالَ رَبُّكَ هُوَ عَلَىَّ هَيِّنٌ وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْـًٔا",
+      "highlightedHtml": "قَالَ كَذَٰلِكَ قَالَ رَبُّكَ هُوَ عَلَىَّ هَيِّنٌ وَقَدْ <a class=\"highlight-text\">خَلَقْتُكَ</a> مِن قَبْلُ وَلَمْ تَكُ شَيْـًٔا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 67,
+      "text": "أَوَلَا يَذْكُرُ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن قَبْلُ وَلَمْ يَكُ شَيْـًٔا",
+      "highlightedHtml": "أَوَلَا يَذْكُرُ ٱلْإِنسَٰنُ أَنَّا <a class=\"highlight-text\">خَلَقْنَٰهُ</a> مِن قَبْلُ وَلَمْ يَكُ شَيْـًٔا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 4,
+      "text": "تَنزِيلًا مِّمَّنْ خَلَقَ ٱلْأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى",
+      "highlightedHtml": "تَنزِيلًا مِّمَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلْأَرْضَ وَٱلسَّمَٰوَٰتِ ٱلْعُلَى",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 50,
+      "text": "قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ خَلْقَهُۥ ثُمَّ هَدَىٰ",
+      "highlightedHtml": "قَالَ رَبُّنَا ٱلَّذِىٓ أَعْطَىٰ كُلَّ شَىْءٍ <a class=\"highlight-text\">خَلْقَهُۥ</a> ثُمَّ هَدَىٰ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 55,
+      "text": "مِنْهَا خَلَقْنَٰكُمْ وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَى",
+      "highlightedHtml": "مِنْهَا <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> وَفِيهَا نُعِيدُكُمْ وَمِنْهَا نُخْرِجُكُمْ تَارَةً أُخْرَى",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 16,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 33,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلَّيْلَ وَٱلنَّهَارَ وَٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 37,
+      "text": "خُلِقَ ٱلْإِنسَٰنُ مِنْ عَجَلٍ ۚ سَأُو۟رِيكُمْ آيَاتِي فَلَا تَسْتَعْجِلُونِ",
+      "highlightedHtml": "<a class=\"highlight-text\">خُلِقَ</a> ٱلْإِنسَٰنُ مِنْ عَجَلٍ ۚ سَأُو۟رِيكُمْ آيَاتِي فَلَا تَسْتَعْجِلُونِ",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 104,
+      "text": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "highlightedHtml": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ <a class=\"highlight-text\">خَلْقٍ</a> نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا <a class=\"highlight-text\">خَلَقْنَٰكُم</a> مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ <a class=\"highlight-text\">مُّخَلَّقَةٍ</a> وَغَيْرِ <a class=\"highlight-text\">مُخَلَّقَةٍ</a> لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "مُخَلَّقَةٌ",
+        "مُخَلَّقَةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 73,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن <a class=\"highlight-text\">يَخْلُقُوا۟</a> ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 12,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن سُلَٰلَةٍ مِّن طِينٍ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ مِن سُلَٰلَةٍ مِّن طِينٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 14,
+      "text": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ أَنشَأْنَٰهُ خَلْقًا آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلنُّطْفَةَ عَلَقَةً <a class=\"highlight-text\">فَخَلَقْنَا</a> ٱلْعَلَقَةَ مُضْغَةً <a class=\"highlight-text\">فَخَلَقْنَا</a> ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ أَنشَأْنَٰهُ <a class=\"highlight-text\">خَلْقًا</a> آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ <a class=\"highlight-text\">ٱلْخَٰلِقِينَ</a>",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ",
+        "خَلَقَ",
+        "خَلْقٌ",
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 17,
+      "text": "وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَٰفِلِينَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ <a class=\"highlight-text\">ٱلْخَلْقِ</a> غَٰفِلِينَ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 91,
+      "text": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا <a class=\"highlight-text\">خَلَقَ</a> وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 115,
+      "text": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+      "highlightedHtml": "أَفَحَسِبْتُمْ أَنَّمَا <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 45,
+      "text": "وَٱللَّهُ خَلَقَ كُلَّ دَآبَّةٍ مِّن مَّآءٍ ۖ فَمِنْهُم مَّن يَمْشِى عَلَىٰ بَطْنِهِۦ وَمِنْهُم مَّن يَمْشِى عَلَىٰ رِجْلَيْنِ وَمِنْهُم مَّن يَمْشِى عَلَىٰٓ أَرْبَعٍ ۚ يَخْلُقُ ٱللَّهُ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ <a class=\"highlight-text\">خَلَقَ</a> كُلَّ دَآبَّةٍ مِّن مَّآءٍ ۖ فَمِنْهُم مَّن يَمْشِى عَلَىٰ بَطْنِهِۦ وَمِنْهُم مَّن يَمْشِى عَلَىٰ رِجْلَيْنِ وَمِنْهُم مَّن يَمْشِى عَلَىٰٓ أَرْبَعٍ ۚ <a class=\"highlight-text\">يَخْلُقُ</a> ٱللَّهُ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 2,
+      "text": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَخَلَقَ كُلَّ شَىْءٍ فَقَدَّرَهُۥ تَقْدِيرًا",
+      "highlightedHtml": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ <a class=\"highlight-text\">وَخَلَقَ</a> كُلَّ شَىْءٍ فَقَدَّرَهُۥ تَقْدِيرًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 3,
+      "text": "وَٱتَّخَذُوا۟ مِن دُونِهِۦٓ آلِهَةً لَّا يَخْلُقُونَ شَيْـًٔا وَهُمْ يُخْلَقُونَ وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَوٰةً وَلَا نُشُورًا",
+      "highlightedHtml": "وَٱتَّخَذُوا۟ مِن دُونِهِۦٓ آلِهَةً لَّا <a class=\"highlight-text\">يَخْلُقُونَ</a> شَيْـًٔا وَهُمْ <a class=\"highlight-text\">يُخْلَقُونَ</a> وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَوٰةً وَلَا نُشُورًا",
+      "derivedForms": [
+        "خَلَقَ",
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 49,
+      "text": "لِّنُحْۦِىَ بِهِۦ بَلْدَةً مَّيْتًا وَنُسْقِيَهُۥ مِمَّا خَلَقْنَآ أَنْعَٰمًا وَأَنَاسِىَّ كَثِيرًا",
+      "highlightedHtml": "لِّنُحْۦِىَ بِهِۦ بَلْدَةً مَّيْتًا وَنُسْقِيَهُۥ مِمَّا <a class=\"highlight-text\">خَلَقْنَآ</a> أَنْعَٰمًا وَأَنَاسِىَّ كَثِيرًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 54,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ مِنَ ٱلْمَآءِ بَشَرًا فَجَعَلَهُۥ نَسَبًا وَصِهْرًا ۗ وَكَانَ رَبُّكَ قَدِيرًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> مِنَ ٱلْمَآءِ بَشَرًا فَجَعَلَهُۥ نَسَبًا وَصِهْرًا ۗ وَكَانَ رَبُّكَ قَدِيرًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 59,
+      "text": "ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًا",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ ٱلرَّحْمَٰنُ فَسْـَٔلْ بِهِۦ خَبِيرًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 78,
+      "text": "ٱلَّذِى خَلَقَنِى فَهُوَ يَهْدِينِ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَنِى</a> فَهُوَ يَهْدِينِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 137,
+      "text": "إِنْ هَٰذَآ إِلَّا خُلُقُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "إِنْ هَٰذَآ إِلَّا <a class=\"highlight-text\">خُلُقُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "خُلُقٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 166,
+      "text": "وَتَذَرُونَ مَا خَلَقَ لَكُمْ رَبُّكُم مِّنْ أَزْوَٰجِكُم ۚ بَلْ أَنتُمْ قَوْمٌ عَادُونَ",
+      "highlightedHtml": "وَتَذَرُونَ مَا <a class=\"highlight-text\">خَلَقَ</a> لَكُمْ رَبُّكُم مِّنْ أَزْوَٰجِكُم ۚ بَلْ أَنتُمْ قَوْمٌ عَادُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 184,
+      "text": "وَٱتَّقُوا۟ ٱلَّذِى خَلَقَكُمْ وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَٱتَّقُوا۟ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُمْ</a> وَٱلْجِبِلَّةَ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 60,
+      "text": "أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
+      "highlightedHtml": "أَمَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 64,
+      "text": "أَمَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَمَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "أَمَّن يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ وَمَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 68,
+      "text": "وَرَبُّكَ يَخْلُقُ مَا يَشَآءُ وَيَخْتَارُ ۗ مَا كَانَ لَهُمُ ٱلْخِيَرَةُ ۚ سُبْحَٰنَ ٱللَّهِ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "وَرَبُّكَ <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ وَيَخْتَارُ ۗ مَا كَانَ لَهُمُ ٱلْخِيَرَةُ ۚ سُبْحَٰنَ ٱللَّهِ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 17,
+      "text": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَٰنًا <a class=\"highlight-text\">وَتَخْلُقُونَ</a> إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 19,
+      "text": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 20,
+      "text": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 44,
+      "text": "خَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّلْمُؤْمِنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 61,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 8,
+      "text": "أَوَلَمْ يَتَفَكَّرُوا۟ فِىٓ أَنفُسِهِم ۗ مَّا خَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍ مُّسَمًّى ۗ وَإِنَّ كَثِيرًا مِّنَ ٱلنَّاسِ بِلِقَآئِ رَبِّهِمْ لَكَٰفِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَتَفَكَّرُوا۟ فِىٓ أَنفُسِهِم ۗ مَّا <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍ مُّسَمًّى ۗ وَإِنَّ كَثِيرًا مِّنَ ٱلنَّاسِ بِلِقَآئِ رَبِّهِمْ لَكَٰفِرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 11,
+      "text": "ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "ٱللَّهُ يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 20,
+      "text": "وَمِنْ آيَاتِهِ أَنْ خَلَقَكُم مِّن تُرَابٍ ثُمَّ إِذَآ أَنتُم بَشَرٌ تَنتَشِرُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَنْ <a class=\"highlight-text\">خَلَقَكُم</a> مِّن تُرَابٍ ثُمَّ إِذَآ أَنتُم بَشَرٌ تَنتَشِرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 21,
+      "text": "وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَنْ <a class=\"highlight-text\">خَلَقَ</a> لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا لِّتَسْكُنُوٓا۟ إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 22,
+      "text": "وَمِنْ آيَاتِهِ خَلْقُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفُ أَلْسِنَتِكُمْ وَأَلْوَٰنِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّلْعَٰلِمِينَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ <a class=\"highlight-text\">خَلْقُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفُ أَلْسِنَتِكُمْ وَأَلْوَٰنِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّلْعَٰلِمِينَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 27,
+      "text": "وَهُوَ ٱلَّذِى يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ ٱلْمَثَلُ ٱلْأَعْلَىٰ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يَبْدَؤُا۟ <a class=\"highlight-text\">ٱلْخَلْقَ</a> ثُمَّ يُعِيدُهُۥ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ ٱلْمَثَلُ ٱلْأَعْلَىٰ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 30,
+      "text": "فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ <a class=\"highlight-text\">لِخَلْقِ</a> ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 40,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَكُمْ ثُمَّ رَزَقَكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۖ هَلْ مِن شُرَكَآئِكُم مَّن يَفْعَلُ مِن ذَٰلِكُم مِّن شَىْءٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُمْ</a> ثُمَّ رَزَقَكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۖ هَلْ مِن شُرَكَآئِكُم مَّن يَفْعَلُ مِن ذَٰلِكُم مِّن شَىْءٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 54,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَكُم مِّن ضَعْفٍ ثُمَّ جَعَلَ مِنۢ بَعْدِ ضَعْفٍ قُوَّةً قُوَّةً ثُمَّ جَعَلَ مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ ضَعْفًا وَشَيْبَةً ۚ يَخْلُقُ مَا يَشَآءُ ۖ وَهُوَ ٱلْعَلِيمُ ٱلْقَدِيرُ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُم</a> مِّن ضَعْفٍ ثُمَّ جَعَلَ مِنۢ بَعْدِ ضَعْفٍ قُوَّةً قُوَّةً ثُمَّ جَعَلَ مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ ضَعْفًا وَشَيْبَةً ۚ <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ ۖ وَهُوَ ٱلْعَلِيمُ ٱلْقَدِيرُ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 10,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 11,
+      "text": "هَٰذَا خَلْقُ ٱللَّهِ فَأَرُونِى مَاذَا خَلَقَ ٱلَّذِينَ مِن دُونِهِۦ ۚ بَلِ ٱلظَّٰلِمُونَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "هَٰذَا <a class=\"highlight-text\">خَلْقُ</a> ٱللَّهِ فَأَرُونِى مَاذَا <a class=\"highlight-text\">خَلَقَ</a> ٱلَّذِينَ مِن دُونِهِۦ ۚ بَلِ ٱلظَّٰلِمُونَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 25,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 28,
+      "text": "مَّا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍ وَٰحِدَةٍ ۗ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "highlightedHtml": "مَّا <a class=\"highlight-text\">خَلْقُكُمْ</a> وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍ وَٰحِدَةٍ ۗ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 4,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ مَا لَكُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا شَفِيعٍ ۚ أَفَلَا تَتَذَكَّرُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ مَا لَكُم مِّن دُونِهِۦ مِن وَلِىٍّ وَلَا شَفِيعٍ ۚ أَفَلَا تَتَذَكَّرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 7,
+      "text": "ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ خَلَقَهُۥ ۖ وَبَدَأَ خَلْقَ ٱلْإِنسَٰنِ مِن طِينٍ",
+      "highlightedHtml": "ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ <a class=\"highlight-text\">خَلَقَهُۥ</a> ۖ وَبَدَأَ <a class=\"highlight-text\">خَلْقَ</a> ٱلْإِنسَٰنِ مِن طِينٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 10,
+      "text": "وَقَالُوٓا۟ أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى خَلْقٍ جَدِيدٍۭ ۚ بَلْ هُم بِلِقَآءِ رَبِّهِمْ كَٰفِرُونَ",
+      "highlightedHtml": "وَقَالُوٓا۟ أَءِذَا ضَلَلْنَا فِى ٱلْأَرْضِ أَءِنَّا لَفِى <a class=\"highlight-text\">خَلْقٍ</a> جَدِيدٍۭ ۚ بَلْ هُم بِلِقَآءِ رَبِّهِمْ كَٰفِرُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 7,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِى خَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ هَلْ نَدُلُّكُمْ عَلَىٰ رَجُلٍ يُنَبِّئُكُمْ إِذَا مُزِّقْتُمْ كُلَّ مُمَزَّقٍ إِنَّكُمْ لَفِى <a class=\"highlight-text\">خَلْقٍ</a> جَدِيدٍ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 1,
+      "text": "ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍ مَّثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۚ يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍ مَّثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۚ يَزِيدُ فِى <a class=\"highlight-text\">ٱلْخَلْقِ</a> مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 3,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ خَٰلِقٍ غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ ۚ هَلْ مِنْ <a class=\"highlight-text\">خَٰلِقٍ</a> غَيْرُ ٱللَّهِ يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 11,
+      "text": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ <a class=\"highlight-text\">خَلَقَكُم</a> مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 16,
+      "text": "إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ بِخَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "إِن يَشَأْ يُذْهِبْكُمْ وَيَأْتِ <a class=\"highlight-text\">بِخَلْقٍ</a> جَدِيدٍ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 40,
+      "text": "قُلْ أَرَءَيْتُمْ شُرَكَآءَكُمُ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ أَمْ آتَيْنَاهُمْ كِتَٰبًا فَهُمْ عَلَىٰ بَيِّنَتٍ مِّنْهُ ۚ بَلْ إِن يَعِدُ ٱلظَّٰلِمُونَ بَعْضُهُم بَعْضًا إِلَّا غُرُورًا",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ شُرَكَآءَكُمُ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا <a class=\"highlight-text\">خَلَقُوا۟</a> مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ أَمْ آتَيْنَاهُمْ كِتَٰبًا فَهُمْ عَلَىٰ بَيِّنَتٍ مِّنْهُ ۚ بَلْ إِن يَعِدُ ٱلظَّٰلِمُونَ بَعْضُهُم بَعْضًا إِلَّا غُرُورًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 36,
+      "text": "سُبْحَٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+      "highlightedHtml": "سُبْحَٰنَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 42,
+      "text": "وَخَلَقْنَا لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَخَلَقْنَا</a> لَهُم مِّن مِّثْلِهِۦ مَا يَرْكَبُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 68,
+      "text": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى <a class=\"highlight-text\">ٱلْخَلْقِ</a> ۖ أَفَلَا يَعْقِلُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 71,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّا خَلَقْنَا لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًا فَهُمْ لَهَا مَٰلِكُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّا <a class=\"highlight-text\">خَلَقْنَا</a> لَهُم مِّمَّا عَمِلَتْ أَيْدِينَآ أَنْعَٰمًا فَهُمْ لَهَا مَٰلِكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 77,
+      "text": "أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا <a class=\"highlight-text\">خَلَقْنَٰهُ</a> مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 78,
+      "text": "وَضَرَبَ لَنَا مَثَلًا وَنَسِىَ خَلْقَهُۥ ۖ قَالَ مَن يُحْىِ ٱلْعِظَٰمَ وَهِىَ رَمِيمٌ",
+      "highlightedHtml": "وَضَرَبَ لَنَا مَثَلًا وَنَسِىَ <a class=\"highlight-text\">خَلْقَهُۥ</a> ۖ قَالَ مَن يُحْىِ ٱلْعِظَٰمَ وَهِىَ رَمِيمٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 79,
+      "text": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+      "highlightedHtml": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ <a class=\"highlight-text\">خَلْقٍ</a> عَلِيمٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 81,
+      "text": "أَوَلَيْسَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِقَٰدِرٍ عَلَىٰٓ أَن يَخْلُقَ مِثْلَهُم ۚ بَلَىٰ وَهُوَ ٱلْخَلَّٰقُ ٱلْعَلِيمُ",
+      "highlightedHtml": "أَوَلَيْسَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِقَٰدِرٍ عَلَىٰٓ أَن <a class=\"highlight-text\">يَخْلُقَ</a> مِثْلَهُم ۚ بَلَىٰ وَهُوَ <a class=\"highlight-text\">ٱلْخَلَّٰقُ</a> ٱلْعَلِيمُ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ",
+        "خَلاَّقٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 11,
+      "text": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ خَلْقًا أَم مَّنْ خَلَقْنَآ ۚ إِنَّا خَلَقْنَٰهُم مِّن طِينٍ لَّازِبٍۭ",
+      "highlightedHtml": "فَٱسْتَفْتِهِمْ أَهُمْ أَشَدُّ <a class=\"highlight-text\">خَلْقًا</a> أَم مَّنْ <a class=\"highlight-text\">خَلَقْنَآ</a> ۚ إِنَّا <a class=\"highlight-text\">خَلَقْنَٰهُم</a> مِّن طِينٍ لَّازِبٍۭ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 96,
+      "text": "وَٱللَّهُ خَلَقَكُمْ وَمَا تَعْمَلُونَ",
+      "highlightedHtml": "وَٱللَّهُ <a class=\"highlight-text\">خَلَقَكُمْ</a> وَمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 125,
+      "text": "أَتَدْعُونَ بَعْلًا وَتَذَرُونَ أَحْسَنَ ٱلْخَٰلِقِينَ",
+      "highlightedHtml": "أَتَدْعُونَ بَعْلًا وَتَذَرُونَ أَحْسَنَ <a class=\"highlight-text\">ٱلْخَٰلِقِينَ</a>",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 150,
+      "text": "أَمْ خَلَقْنَا ٱلْمَلَٰٓئِكَةَ إِنَٰثًا وَهُمْ شَٰهِدُونَ",
+      "highlightedHtml": "أَمْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْمَلَٰٓئِكَةَ إِنَٰثًا وَهُمْ شَٰهِدُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 7,
+      "text": "مَا سَمِعْنَا بِهَٰذَا فِى ٱلْمِلَّةِ الْآخِرَةِ إِنْ هَٰذَآ إِلَّا ٱخْتِلَٰقٌ",
+      "highlightedHtml": "مَا سَمِعْنَا بِهَٰذَا فِى ٱلْمِلَّةِ الْآخِرَةِ إِنْ هَٰذَآ إِلَّا <a class=\"highlight-text\">ٱخْتِلَٰقٌ</a>",
+      "derivedForms": [
+        "اخْتِلاَقٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 27,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا بَٰطِلًا ۚ ذَٰلِكَ ظَنُّ ٱلَّذِينَ كَفَرُوا۟ ۚ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِنَ ٱلنَّارِ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا بَٰطِلًا ۚ ذَٰلِكَ ظَنُّ ٱلَّذِينَ كَفَرُوا۟ ۚ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا۟ مِنَ ٱلنَّارِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 71,
+      "text": "إِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى خَٰلِقٌۢ بَشَرًا مِّن طِينٍ",
+      "highlightedHtml": "إِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى <a class=\"highlight-text\">خَٰلِقٌۢ</a> بَشَرًا مِّن طِينٍ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 75,
+      "text": "قَالَ يَٰٓإِبْلِيسُ مَا مَنَعَكَ أَن تَسْجُدَ لِمَا خَلَقْتُ بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ",
+      "highlightedHtml": "قَالَ يَٰٓإِبْلِيسُ مَا مَنَعَكَ أَن تَسْجُدَ لِمَا <a class=\"highlight-text\">خَلَقْتُ</a> بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 76,
+      "text": "قَالَ أَنَا۠ خَيْرٌ مِّنْهُ ۖ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
+      "highlightedHtml": "قَالَ أَنَا۠ خَيْرٌ مِّنْهُ ۖ <a class=\"highlight-text\">خَلَقْتَنِى</a> مِن نَّارٍ <a class=\"highlight-text\">وَخَلَقْتَهُۥ</a> مِن طِينٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 4,
+      "text": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا يَخْلُقُ مَا يَشَآءُ ۚ سُبْحَٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "highlightedHtml": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ ۚ سُبْحَٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 5,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّٰرُ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ يُكَوِّرُ ٱلَّيْلَ عَلَى ٱلنَّهَارِ وَيُكَوِّرُ ٱلنَّهَارَ عَلَى ٱلَّيْلِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۗ أَلَا هُوَ ٱلْعَزِيزُ ٱلْغَفَّٰرُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 6,
+      "text": "خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ ثُمَّ جَعَلَ مِنْهَا زَوْجَهَا وَأَنزَلَ لَكُم مِّنَ ٱلْأَنْعَٰمِ ثَمَٰنِيَةَ أَزْوَٰجٍ ۚ يَخْلُقُكُمْ فِى بُطُونِ أُمَّهَٰتِكُمْ خَلْقًا مِّنۢ بَعْدِ خَلْقٍ فِى ظُلُمَٰتٍ ثَلَٰثٍ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُصْرَفُونَ تُصْرَفُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَكُم</a> مِّن نَّفْسٍ وَٰحِدَةٍ ثُمَّ جَعَلَ مِنْهَا زَوْجَهَا وَأَنزَلَ لَكُم مِّنَ ٱلْأَنْعَٰمِ ثَمَٰنِيَةَ أَزْوَٰجٍ ۚ <a class=\"highlight-text\">يَخْلُقُكُمْ</a> فِى بُطُونِ أُمَّهَٰتِكُمْ <a class=\"highlight-text\">خَلْقًا</a> مِّنۢ بَعْدِ <a class=\"highlight-text\">خَلْقٍ</a> فِى ظُلُمَٰتٍ ثَلَٰثٍ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ لَهُ ٱلْمُلْكُ ۖ لَآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُصْرَفُونَ تُصْرَفُونَ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ",
+        "خَلْقٌ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 38,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 62,
+      "text": "ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
+      "highlightedHtml": "ٱللَّهُ <a class=\"highlight-text\">خَٰلِقُ</a> كُلِّ شَىْءٍ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ وَكِيلٌ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 57,
+      "text": "لَخَلْقُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَكْبَرُ مِنْ خَلْقِ ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">لَخَلْقُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَكْبَرُ مِنْ <a class=\"highlight-text\">خَلْقِ</a> ٱلنَّاسِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 62,
+      "text": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ خَٰلِقُ كُلِّ شَىْءٍ لَّآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ <a class=\"highlight-text\">خَٰلِقُ</a> كُلِّ شَىْءٍ لَّآ إِلَٰهَ إِلَّا هُوَ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 67,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ يُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ثُمَّ لِتَكُونُوا۟ شُيُوخًا ۚ وَمِنكُم مَّن يُتَوَفَّىٰ مِن قَبْلُ ۖ وَلِتَبْلُغُوٓا۟ أَجَلًا مُّسَمًّى وَلَعَلَّكُمْ تَعْقِلُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُم</a> مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ يُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ثُمَّ لِتَكُونُوا۟ شُيُوخًا ۚ وَمِنكُم مَّن يُتَوَفَّىٰ مِن قَبْلُ ۖ وَلِتَبْلُغُوٓا۟ أَجَلًا مُّسَمًّى وَلَعَلَّكُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 9,
+      "text": "قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى خَلَقَ ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًا ۚ ذَٰلِكَ رَبُّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "قُلْ أَئِنَّكُمْ لَتَكْفُرُونَ بِٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلْأَرْضَ فِى يَوْمَيْنِ وَتَجْعَلُونَ لَهُۥٓ أَندَادًا ۚ ذَٰلِكَ رَبُّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 15,
+      "text": "فَأَمَّا عَادٌ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُوا۟ مَنْ أَشَدُّ مِنَّا قُوَّةً قُوَّةً ۖ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَهُمْ هُوَ أَشَدُّ مِنْهُمْ قُوَّةً قُوَّةً ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "highlightedHtml": "فَأَمَّا عَادٌ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَقَالُوا۟ مَنْ أَشَدُّ مِنَّا قُوَّةً قُوَّةً ۖ أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَهُمْ</a> هُوَ أَشَدُّ مِنْهُمْ قُوَّةً قُوَّةً ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 21,
+      "text": "وَقَالُوا۟ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا ۖ قَالُوٓا۟ أَنطَقَنَا ٱللَّهُ ٱلَّذِىٓ أَنطَقَ كُلَّ شَىْءٍ وَهُوَ خَلَقَكُمْ أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "وَقَالُوا۟ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا ۖ قَالُوٓا۟ أَنطَقَنَا ٱللَّهُ ٱلَّذِىٓ أَنطَقَ كُلَّ شَىْءٍ وَهُوَ <a class=\"highlight-text\">خَلَقَكُمْ</a> أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 37,
+      "text": "وَمِنْ آيَاتِهِ ٱلَّيْلُ وَٱلنَّهَارُ وَٱلشَّمْسُ وَٱلْقَمَرُ ۚ لَا تَسْجُدُوا۟ لِلشَّمْسِ وَلَا لِلْقَمَرِ وَٱسْجُدُوا۟ لِلَّهِ ٱلَّذِى خَلَقَهُنَّ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ ٱلَّيْلُ وَٱلنَّهَارُ وَٱلشَّمْسُ وَٱلْقَمَرُ ۚ لَا تَسْجُدُوا۟ لِلشَّمْسِ وَلَا لِلْقَمَرِ وَٱسْجُدُوا۟ لِلَّهِ ٱلَّذِى <a class=\"highlight-text\">خَلَقَهُنَّ</a> إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 29,
+      "text": "وَمِنْ آيَاتِهِ خَلْقُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَثَّ فِيهِمَا مِن دَآبَّةٍ ۚ وَهُوَ عَلَىٰ جَمْعِهِمْ إِذَا يَشَآءُ قَدِيرٌ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ <a class=\"highlight-text\">خَلْقُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَثَّ فِيهِمَا مِن دَآبَّةٍ ۚ وَهُوَ عَلَىٰ جَمْعِهِمْ إِذَا يَشَآءُ قَدِيرٌ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 49,
+      "text": "لِّلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ يَخْلُقُ مَا يَشَآءُ ۚ يَهَبُ لِمَن يَشَآءُ إِنَٰثًا وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ",
+      "highlightedHtml": "لِّلَّهِ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ <a class=\"highlight-text\">يَخْلُقُ</a> مَا يَشَآءُ ۚ يَهَبُ لِمَن يَشَآءُ إِنَٰثًا وَيَهَبُ لِمَن يَشَآءُ ٱلذُّكُورَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 9,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ خَلَقَهُنَّ ٱلْعَزِيزُ ٱلْعَلِيمُ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ <a class=\"highlight-text\">خَلَقَهُنَّ</a> ٱلْعَزِيزُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 12,
+      "text": "وَٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَٰمِ مَا تَرْكَبُونَ",
+      "highlightedHtml": "وَٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلْأَزْوَٰجَ كُلَّهَا وَجَعَلَ لَكُم مِّنَ ٱلْفُلْكِ وَٱلْأَنْعَٰمِ مَا تَرْكَبُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 16,
+      "text": "أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍ وَأَصْفَىٰكُم بِٱلْبَنِينَ",
+      "highlightedHtml": "أَمِ ٱتَّخَذَ مِمَّا <a class=\"highlight-text\">يَخْلُقُ</a> بَنَاتٍ وَأَصْفَىٰكُم بِٱلْبَنِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 19,
+      "text": "وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ خَلْقَهُمْ ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ ٱلْمَلَٰٓئِكَةَ ٱلَّذِينَ هُمْ عِبَٰدُ ٱلرَّحْمَٰنِ إِنَٰثًا ۚ أَشَهِدُوا۟ <a class=\"highlight-text\">خَلْقَهُمْ</a> ۚ سَتُكْتَبُ شَهَٰدَتُهُمْ وَيُسْـَٔلُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 87,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَهُمْ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ <a class=\"highlight-text\">خَلَقَهُمْ</a> لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 38,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 39,
+      "text": "مَا خَلَقْنَٰهُمَآ إِلَّا بِٱلْحَقِّ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "مَا <a class=\"highlight-text\">خَلَقْنَٰهُمَآ</a> إِلَّا بِٱلْحَقِّ وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 4,
+      "text": "وَفِى خَلْقِكُمْ وَمَا يَبُثُّ مِن دَآبَّةٍ آيَاتٌ لِّقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "وَفِى <a class=\"highlight-text\">خَلْقِكُمْ</a> وَمَا يَبُثُّ مِن دَآبَّةٍ آيَاتٌ لِّقَوْمٍ يُوقِنُونَ",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 22,
+      "text": "وَخَلَقَ ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَلِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَخَلَقَ</a> ٱللَّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَلِتُجْزَىٰ كُلُّ نَفْسٍۭ بِمَا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 3,
+      "text": "مَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍ مُّسَمًّى ۚ وَٱلَّذِينَ كَفَرُوا۟ عَمَّآ أُنذِرُوا۟ مُعْرِضُونَ",
+      "highlightedHtml": "مَا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَآ إِلَّا بِٱلْحَقِّ وَأَجَلٍ مُّسَمًّى ۚ وَٱلَّذِينَ كَفَرُوا۟ عَمَّآ أُنذِرُوا۟ مُعْرِضُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 4,
+      "text": "قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ ۖ ٱئْتُونِى بِكِتَٰبٍ مِّن قَبْلِ هَٰذَآ أَوْ أَثَٰرَةٍ مِّنْ عِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا <a class=\"highlight-text\">خَلَقُوا۟</a> مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ ۖ ٱئْتُونِى بِكِتَٰبٍ مِّن قَبْلِ هَٰذَآ أَوْ أَثَٰرَةٍ مِّنْ عِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 33,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَلَمْ يَعْىَ بِخَلْقِهِنَّ بِقَٰدِرٍ عَلَىٰٓ أَن يُحْۦِىَ ٱلْمَوْتَىٰ ۚ بَلَىٰٓ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَلَمْ يَعْىَ <a class=\"highlight-text\">بِخَلْقِهِنَّ</a> بِقَٰدِرٍ عَلَىٰٓ أَن يُحْۦِىَ ٱلْمَوْتَىٰ ۚ بَلَىٰٓ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 13,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا <a class=\"highlight-text\">خَلَقْنَٰكُم</a> مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 15,
+      "text": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "أَفَعَيِينَا <a class=\"highlight-text\">بِٱلْخَلْقِ</a> ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ <a class=\"highlight-text\">خَلْقٍ</a> جَدِيدٍ",
+      "derivedForms": [
+        "خَلْقٌ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 16,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ وَنَعْلَمُ مَا تُوَسْوِسُ بِهِۦ نَفْسُهُۥ ۖ وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنْ حَبْلِ ٱلْوَرِيدِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 38,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِن لُّغُوبٍ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا فِى سِتَّةِ أَيَّامٍ وَمَا مَسَّنَا مِن لُّغُوبٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 49,
+      "text": "وَمِن كُلِّ شَىْءٍ خَلَقْنَا زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "وَمِن كُلِّ شَىْءٍ <a class=\"highlight-text\">خَلَقْنَا</a> زَوْجَيْنِ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 56,
+      "text": "وَمَا خَلَقْتُ ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقْتُ</a> ٱلْجِنَّ وَٱلْإِنسَ إِلَّا لِيَعْبُدُونِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 35,
+      "text": "أَمْ خُلِقُوا۟ مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ ٱلْخَٰلِقُونَ",
+      "highlightedHtml": "أَمْ <a class=\"highlight-text\">خُلِقُوا۟</a> مِنْ غَيْرِ شَىْءٍ أَمْ هُمُ <a class=\"highlight-text\">ٱلْخَٰلِقُونَ</a>",
+      "derivedForms": [
+        "خُلِقَ",
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 36,
+      "text": "أَمْ خَلَقُوا۟ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ",
+      "highlightedHtml": "أَمْ <a class=\"highlight-text\">خَلَقُوا۟</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 45,
+      "text": "وَأَنَّهُۥ خَلَقَ ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+      "highlightedHtml": "وَأَنَّهُۥ <a class=\"highlight-text\">خَلَقَ</a> ٱلزَّوْجَيْنِ ٱلذَّكَرَ وَٱلْأُنثَىٰ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 49,
+      "text": "إِنَّا كُلَّ شَىْءٍ خَلَقْنَٰهُ بِقَدَرٍ",
+      "highlightedHtml": "إِنَّا كُلَّ شَىْءٍ <a class=\"highlight-text\">خَلَقْنَٰهُ</a> بِقَدَرٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 3,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلْإِنسَٰنَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 14,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ كَٱلْفَخَّارِ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ كَٱلْفَخَّارِ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 15,
+      "text": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَخَلَقَ</a> ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 57,
+      "text": "نَحْنُ خَلَقْنَٰكُمْ فَلَوْلَا تُصَدِّقُونَ",
+      "highlightedHtml": "نَحْنُ <a class=\"highlight-text\">خَلَقْنَٰكُمْ</a> فَلَوْلَا تُصَدِّقُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 59,
+      "text": "أَأَنْتُمْ تَخْلُقُونَهُۥٓ أَمْ نَحْنُ ٱلْخَٰلِقُونَ",
+      "highlightedHtml": "أَأَنْتُمْ <a class=\"highlight-text\">تَخْلُقُونَهُۥٓ</a> أَمْ نَحْنُ <a class=\"highlight-text\">ٱلْخَٰلِقُونَ</a>",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 4,
+      "text": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 24,
+      "text": "هُوَ ٱللَّهُ ٱلْخَٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "هُوَ ٱللَّهُ <a class=\"highlight-text\">ٱلْخَٰلِقُ</a> ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "خَالِقٌ"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُمْ فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَكُمْ</a> فَمِنكُمْ كَافِرٌ وَمِنكُم مُّؤْمِنٌ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 3,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 12,
+      "text": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> سَبْعَ سَمَٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 2,
+      "text": "ٱلَّذِى خَلَقَ ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> ٱلْمَوْتَ وَٱلْحَيَوٰةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا ۚ وَهُوَ ٱلْعَزِيزُ ٱلْغَفُورُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 3,
+      "text": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى <a class=\"highlight-text\">خَلْقِ</a> ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "derivedForms": [
+        "خَلَقَ",
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 14,
+      "text": "أَلَا يَعْلَمُ مَنْ خَلَقَ وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+      "highlightedHtml": "أَلَا يَعْلَمُ مَنْ <a class=\"highlight-text\">خَلَقَ</a> وَهُوَ ٱللَّطِيفُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 4,
+      "text": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
+      "highlightedHtml": "وَإِنَّكَ لَعَلَىٰ <a class=\"highlight-text\">خُلُقٍ</a> عَظِيمٍ",
+      "derivedForms": [
+        "خُلُقٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 19,
+      "text": "إِنَّ ٱلْإِنسَٰنَ خُلِقَ هَلُوعًا",
+      "highlightedHtml": "إِنَّ ٱلْإِنسَٰنَ <a class=\"highlight-text\">خُلِقَ</a> هَلُوعًا",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 39,
+      "text": "كَلَّآ ۖ إِنَّا خَلَقْنَٰهُم مِّمَّا يَعْلَمُونَ",
+      "highlightedHtml": "كَلَّآ ۖ إِنَّا <a class=\"highlight-text\">خَلَقْنَٰهُم</a> مِّمَّا يَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 14,
+      "text": "وَقَدْ خَلَقَكُمْ أَطْوَارًا",
+      "highlightedHtml": "وَقَدْ <a class=\"highlight-text\">خَلَقَكُمْ</a> أَطْوَارًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 15,
+      "text": "أَلَمْ تَرَوْا۟ كَيْفَ خَلَقَ ٱللَّهُ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا",
+      "highlightedHtml": "أَلَمْ تَرَوْا۟ كَيْفَ <a class=\"highlight-text\">خَلَقَ</a> ٱللَّهُ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 11,
+      "text": "ذَرْنِى وَمَنْ خَلَقْتُ وَحِيدًا",
+      "highlightedHtml": "ذَرْنِى وَمَنْ <a class=\"highlight-text\">خَلَقْتُ</a> وَحِيدًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 38,
+      "text": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ فَسَوَّىٰ",
+      "highlightedHtml": "ثُمَّ كَانَ عَلَقَةً <a class=\"highlight-text\">فَخَلَقَ</a> فَسَوَّىٰ فَسَوَّىٰ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 2,
+      "text": "إِنَّا خَلَقْنَا ٱلْإِنسَٰنَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَٰهُ سَمِيعًۢا بَصِيرًا",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ مِن نُّطْفَةٍ أَمْشَاجٍ نَّبْتَلِيهِ فَجَعَلْنَٰهُ سَمِيعًۢا بَصِيرًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 28,
+      "text": "نَّحْنُ خَلَقْنَٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَٰلَهُمْ تَبْدِيلًا",
+      "highlightedHtml": "نَّحْنُ <a class=\"highlight-text\">خَلَقْنَٰهُمْ</a> وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَٰلَهُمْ تَبْدِيلًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 20,
+      "text": "أَلَمْ نَخْلُقكُّم مِّن مَّآءٍ مَّهِينٍ",
+      "highlightedHtml": "أَلَمْ <a class=\"highlight-text\">نَخْلُقكُّم</a> مِّن مَّآءٍ مَّهِينٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 8,
+      "text": "وَخَلَقْنَٰكُمْ أَزْوَٰجًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَخَلَقْنَٰكُمْ</a> أَزْوَٰجًا",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 27,
+      "text": "أَأَنْتُمْ أَشَدُّ خَلْقًا أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+      "highlightedHtml": "أَأَنْتُمْ أَشَدُّ <a class=\"highlight-text\">خَلْقًا</a> أَمِ ٱلسَّمَآءُ ۚ بَنَىٰهَا",
+      "derivedForms": [
+        "خَلْقٌ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 18,
+      "text": "مِنْ أَىِّ شَىْءٍ خَلَقَهُۥ",
+      "highlightedHtml": "مِنْ أَىِّ شَىْءٍ <a class=\"highlight-text\">خَلَقَهُۥ</a>",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 19,
+      "text": "مِن نُّطْفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "highlightedHtml": "مِن نُّطْفَةٍ <a class=\"highlight-text\">خَلَقَهُۥ</a> فَقَدَّرَهُۥ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 7,
+      "text": "ٱلَّذِى خَلَقَكَ فَسَوَّىٰكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَكَ</a> فَسَوَّىٰكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 5,
+      "text": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ خُلِقَ",
+      "highlightedHtml": "فَلْيَنظُرِ ٱلْإِنسَٰنُ مِمَّ <a class=\"highlight-text\">خُلِقَ</a>",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 6,
+      "text": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">خُلِقَ</a> مِن مَّآءٍ دَافِقٍ",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 2,
+      "text": "ٱلَّذِى خَلَقَ فَسَوَّىٰ فَسَوَّىٰ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a> فَسَوَّىٰ فَسَوَّىٰ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 17,
+      "text": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ خُلِقَتْ",
+      "highlightedHtml": "أَفَلَا يَنظُرُونَ إِلَى ٱلْإِبِلِ كَيْفَ <a class=\"highlight-text\">خُلِقَتْ</a>",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 8,
+      "text": "ٱلَّتِى لَمْ يُخْلَقْ مِثْلُهَا فِى ٱلْبِلَٰدِ",
+      "highlightedHtml": "ٱلَّتِى لَمْ <a class=\"highlight-text\">يُخْلَقْ</a> مِثْلُهَا فِى ٱلْبِلَٰدِ",
+      "derivedForms": [
+        "خُلِقَ"
+      ]
+    },
+    {
+      "surah": 90,
+      "ayah": 4,
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِى كَبَدٍ",
+      "highlightedHtml": "لَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ فِى كَبَدٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 3,
+      "text": "وَمَا خَلَقَ ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">خَلَقَ</a> ٱلذَّكَرَ وَٱلْأُنثَىٰٓ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 95,
+      "ayah": 4,
+      "text": "لَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "highlightedHtml": "لَقَدْ <a class=\"highlight-text\">خَلَقْنَا</a> ٱلْإِنسَٰنَ فِىٓ أَحْسَنِ تَقْوِيمٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 1,
+      "text": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى خَلَقَ",
+      "highlightedHtml": "ٱقْرَأْ بِٱسْمِ رَبِّكَ ٱلَّذِى <a class=\"highlight-text\">خَلَقَ</a>",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 2,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَلَقَ</a> ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    },
+    {
+      "surah": 113,
+      "ayah": 2,
+      "text": "مِن شَرِّ مَا خَلَقَ",
+      "highlightedHtml": "مِن شَرِّ مَا <a class=\"highlight-text\">خَلَقَ</a>",
+      "derivedForms": [
+        "خَلَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:44.021Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "خَلَقَكُمْ is in the derivative form: خَلَقَ",
+    "rootDefinitionHtml": "خ/ل/ق   kh–l–q to create, to originate, to design, creation, the entire creation, the human race<br>; natural disposition, innate nature; to be shapely, comely; to deal tactfully with others, to assume a certain disposition; to attribute falsely; to estimate; to be of good character; luck, share; to be capable; (of a garment) to wear out; a fragrant substance. <br><br>Of this root, 10 forms occur 239 times in the Qur’an:<br> خَلَقَ khalaqa 151 times; خُلِقَ khuliqa 11 times; خَلْقٌ khalq 52 times; خَالِقٌ khāliq 8 times; خَالِقُون khāliqūn 4 times; خَلاَّقٌ khallāq 2 times; مُخَلَّقَةٌ mukhallaqatun 2 times; اخْتِلاَقٌ ʾikhtilāq 1 time; خَلاَقٌ khalāq 6 times and خُلُقٌ khuluq 2 times.",
+    "mainDefinitionHtml": "خَلَقَ khalaqa u [v. trans.] <br><br><strong>1 </strong>to create anew, to bring into being <br><br>(25:54) وَهُوَ الَّذِي خَلَقَ مِنَ الْمَاءِ بَشَرًا and He it was who created from water a human being <br><br><strong>2 </strong>to form or to shape <br><br>(3:49) أَنِّي أَخْلُقُ لَكُمْ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنْفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ I will shape for you out of clay [a thing] like the form of birds, then I will breathe into it and it will become a bird by God’s will.",
+    "mainEntryId": "wdef-خ-ل-ق.خَلَقَ",
+    "entries": [
+      {
+        "id": "wdef-خ-ل-ق",
+        "label": "خ-ل-ق",
+        "definitionHtml": "خ/ل/ق   kh–l–q to create, to originate, to design, creation, the entire creation, the human race<br>; natural disposition, innate nature; to be shapely, comely; to deal tactfully with others, to assume a certain disposition; to attribute falsely; to estimate; to be of good character; luck, share; to be capable; (of a garment) to wear out; a fragrant substance. <br><br>Of this root, 10 forms occur 239 times in the Qur’an:<br> خَلَقَ khalaqa 151 times; خُلِقَ khuliqa 11 times; خَلْقٌ khalq 52 times; خَالِقٌ khāliq 8 times; خَالِقُون khāliqūn 4 times; خَلاَّقٌ khallāq 2 times; مُخَلَّقَةٌ mukhallaqatun 2 times; اخْتِلاَقٌ ʾikhtilāq 1 time; خَلاَقٌ khalāq 6 times and خُلُقٌ khuluq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خَلَقَ",
+        "label": "خَلَقَ",
+        "definitionHtml": "خَلَقَ khalaqa u [v. trans.] <br><br><strong>1 </strong>to create anew, to bring into being <br><br>(25:54) وَهُوَ الَّذِي خَلَقَ مِنَ الْمَاءِ بَشَرًا and He it was who created from water a human being <br><br><strong>2 </strong>to form or to shape <br><br>(3:49) أَنِّي أَخْلُقُ لَكُمْ مِنَ الطِّينِ كَهَيْئَةِ الطَّيْرِ فَأَنْفُخُ فِيهِ فَيَكُونُ طَيْرًا بِإِذْنِ اللَّهِ I will shape for you out of clay [a thing] like the form of birds, then I will breathe into it and it will become a bird by God’s will.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ل-ق.اخْتِلاَقٌ",
+        "label": "اخْتِلاَقٌ",
+        "definitionHtml": "اخْتِلاَقٌ ʾikhtilāq [v. n.] fabrication, lying, invention <br><br>(38:7) مَا سَمِعْنَا بِهَذَا فِى الْمِلَّةِ الآخِرَةِ إِنْ هَذَا إِلاَّ اخْتِلاَقٌ we did not hear of this in the former faith: this is nothing but invention.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خَالِقٌ",
+        "label": "خَالِقٌ",
+        "definitionHtml": "خَالِقٌ khāliq I [act. part., pl. خَالِقُون khāliqūn] one engaged in creating <br><br>(38:71) إِذْ قَالَ رَبُّكَ لِلْمَلاَئِكَةِ إِنِّي خَالِقٌ بَشَرًا مِنْ طِينٍ when your Lord said to the angels, ‘I am creating a human from clay’ II [n. with the definite article: an attribute of God] the Creator, the Maker <br><br>(59:24) هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ He is God, the Creator, the Originator.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خَلاَقٌ",
+        "label": "خَلاَقٌ",
+        "definitionHtml": "خَلاَقٌ khalāq [n.] share, portion; standing <br><br>(3:77) إِنَّ الَّذِينَ يَشْتَرُونَ بِعَهْدِ اللَّهِ وَأَيْمَانِهِمْ ثَمَنًا قَلِيلا أُولَئِكَ لاَ خَلاَقَ لَهُمْ فِى الآخِرَة those who sell out God’s covenant and their own oaths for a small price–those will have no share in the Hereafter.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خَلاَّقٌ",
+        "label": "خَلاَّقٌ",
+        "definitionHtml": "خَلاَّقٌ khallāq [intens. act. part.] the greatest creator <br><br>(15:86) إِنَّ رَبَّكَ هُوَ الْخَلاَّقُ الْعَلِيمُ your Lord is the Supreme Creator, the All Knowing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خَلْقٌ",
+        "label": "خَلْقٌ",
+        "definitionHtml": "خَلْقٌ khalq I [v. n.] the act of creating, <br><br>(3:190) إِنَّ فِى خَلْقِ السَّمَوَاتِ وَالأَرْضِ وَاخْتِلاَفِ اللَّيْلِ وَالنَّهَارِ لآَيَاتٍ لأُِولِي الأَلْبَابِ truly, in the creation of the heavens and earth, and in the alternation of night and day, are signs for those endowed with minds II [n.] <br><br><strong>1 </strong>creatures, all creation, human race <br><br>(31:11) هَذَا خَلْقُ اللَّهِ فَأَرُونِي مَاذَا خَلَقَ الَّذِينَ مِنْ دُونِهِ this is God’s creation. Now, show Me that which those besides Him have created <br><br><strong>2 </strong>design of creation, shape, stature <br><br>(7:69) وَاذْكُرُوا إِذْ جَعَلَكُمْ خُلَفَاءَ مِنْ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى الْخَلْقِ بَسْطَةً and remember when He made you successors after the people of Noah and increased you in stature <br><br><strong>3 </strong>stage of creation <br><br>(39:6) يَخْلُقُكُمْ فِى بُطُونِ أُمَّهَاتِكُمْ خَلْقًا مِنْ بَعْدِ خَلْقٍ فِى ظُلُمَاتٍ ثَلاَثٍ He creates you in your mothers’ wombs, one stage [of forms] after another in three‐fold [depths of] darkness <br><br><strong>4 </strong>lying, fabrication (according to one reading of verse 26:137) إِنْ هَذَا إِلاَّ خُلُق (خَلْق) الأَوَّلِين this is none but the fabrication of those gone past.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خُلُقٌ",
+        "label": "خُلُقٌ",
+        "definitionHtml": "خُلُقٌ khuluq [n.] interpreted as habit, custom, character, natural disposition, traits, manners, way of life <br><br>(68:4) وَإِنَّكَ لَعَلى خُلُقٍ عَظِيمٍ truly you are of great moral character.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.خُلِقَ",
+        "label": "خُلِقَ",
+        "definitionHtml": "خُلِقَ khuliqa [pass. v.] to be created <br><br>(25:3) وَاتَّخَذُوا مِنْ دُونِهِ ءَالِهَةً لاَ يَخْلُقُونَ شَيْئًا وَهُمْ يُخْلَقُونَ they take aside from Him gods that create nothing, and are themselves created.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ق.مُخَلَّقَةٌ",
+        "label": "مُخَلَّقَةٌ",
+        "definitionHtml": "مُخَلَّقَةٌ mukhallaqatun [fem. pass. part.] formed, shaped <br><br>(22:5) فَإِنَّا خَلَقْنَاكُمْ مِنْ تُرَابٍ ثُمَّ مِنْ نُطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِنْ مُضْغَةٍ مُخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ We created you from dust, then a drop of seed, then a clinging mass, then a lump of flesh, both shaped and unshaped.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:48.442Z",
+      "refword": "2:21:6",
+      "lexword": "خَلَقَكُمْ"
+    }
+  }
+}

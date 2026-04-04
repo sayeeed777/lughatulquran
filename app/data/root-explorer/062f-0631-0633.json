@@ -1,0 +1,190 @@
+{
+  "root": "درس",
+  "rootArabic": "درس",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "دَرَسَ",
+      "count": 5
+    },
+    {
+      "form": "دِرَاسَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَرَسَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دِرَاسَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "دَرَسَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَرَسَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَرَسَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَرَسَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 79,
+      "text": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَ",
+      "highlightedHtml": "مَا كَانَ لِبَشَرٍ أَن يُؤْتِيَهُ ٱللَّهُ ٱلْكِتَٰبَ وَٱلْحُكْمَ وَٱلنُّبُوَّةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُوا۟ عِبَادًا لِّى مِن دُونِ ٱللَّهِ وَلَٰكِن كُونُوا۟ رَبَّٰنِيِّۦنَ بِمَا كُنتُمْ تُعَلِّمُونَ ٱلْكِتَٰبَ وَبِمَا كُنتُمْ <a class=\"highlight-text\">تَدْرُسُونَ</a>",
+      "derivedForms": [
+        "دَرَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 105,
+      "text": "وَكَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ وَلِيَقُولُوا۟ دَرَسْتَ وَلِنُبَيِّنَهُۥ لِقَوْمٍ يَعْلَمُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ وَلِيَقُولُوا۟ <a class=\"highlight-text\">دَرَسْتَ</a> وَلِنُبَيِّنَهُۥ لِقَوْمٍ يَعْلَمُونَ",
+      "derivedForms": [
+        "دَرَسَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 156,
+      "text": "أَن تَقُولُوٓا۟ إِنَّمَآ أُنزِلَ ٱلْكِتَٰبُ عَلَىٰ طَآئِفَتَيْنِ مِن قَبْلِنَا وَإِن كُنَّا عَن دِرَاسَتِهِمْ لَغَٰفِلِينَ",
+      "highlightedHtml": "أَن تَقُولُوٓا۟ إِنَّمَآ أُنزِلَ ٱلْكِتَٰبُ عَلَىٰ طَآئِفَتَيْنِ مِن قَبْلِنَا وَإِن كُنَّا عَن <a class=\"highlight-text\">دِرَاسَتِهِمْ</a> لَغَٰفِلِينَ",
+      "derivedForms": [
+        "دِرَاسَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 169,
+      "text": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ وَرِثُوا۟ ٱلْكِتَٰبَ يَأْخُذُونَ عَرَضَ هَٰذَا ٱلْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌ مِّثْلُهُۥ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَٰقُ ٱلْكِتَٰبِ أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ وَدَرَسُوا۟ مَا فِيهِ ۗ وَٱلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ وَرِثُوا۟ ٱلْكِتَٰبَ يَأْخُذُونَ عَرَضَ هَٰذَا ٱلْأَدْنَىٰ وَيَقُولُونَ سَيُغْفَرُ لَنَا وَإِن يَأْتِهِمْ عَرَضٌ مِّثْلُهُۥ يَأْخُذُوهُ ۚ أَلَمْ يُؤْخَذْ عَلَيْهِم مِّيثَٰقُ ٱلْكِتَٰبِ أَن لَّا يَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ <a class=\"highlight-text\">وَدَرَسُوا۟</a> مَا فِيهِ ۗ وَٱلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "دَرَسَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 44,
+      "text": "وَمَآ آتَيْنَاهُمْ مِّن كُتُبٍ يَدْرُسُونَهَا ۖ وَمَآ أَرْسَلْنَآ إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍ",
+      "highlightedHtml": "وَمَآ آتَيْنَاهُمْ مِّن كُتُبٍ <a class=\"highlight-text\">يَدْرُسُونَهَا</a> ۖ وَمَآ أَرْسَلْنَآ إِلَيْهِمْ قَبْلَكَ مِن نَّذِيرٍ",
+      "derivedForms": [
+        "دَرَسَ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 37,
+      "text": "أَمْ لَكُمْ كِتَٰبٌ فِيهِ تَدْرُسُونَ",
+      "highlightedHtml": "أَمْ لَكُمْ كِتَٰبٌ فِيهِ <a class=\"highlight-text\">تَدْرُسُونَ</a>",
+      "derivedForms": [
+        "دَرَسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:10.304Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "تَدْرُسُونَ is in the derivative form: دَرَسَ",
+    "rootDefinitionHtml": "د/ر/س   d–r–s to fade away, to pale, to be obliterated<br>; to break in a camel, to separate the wheat from the chaff; to study a book, to learn, to examine carefully, to learn by heart, a learned person, a person who is constant in his studies. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> دَرَسَ darasa 5 times; دِرَاسَةٌ dirāsatun 1 time and إِدْرِيسُ ʾidrıs 2 times.",
+    "mainDefinitionHtml": "دَرَسَ darasa [v. trans.] <br><br><strong>1 </strong>to study, to learn, to read with great attention to the content <br><br>(7:169) أَلَمْ يُؤْخَذْ عَلَيْهِمْ مِيثَاقُ الْكِتَابِ أَنْ لاَ يَقُولُوا عَلَى اللَّهِ إِلاَّ الْحَقَّ وَدَرَسُوا مَا فِيهِ have they not been pledged through divine writ not to say anything about God but the truth?, and have they not studied its contents? <br><br><strong>2 </strong>(in a variant reading, دَرَسَتْ darasat) to fade away, to be erased, to become extinct, to be something of the forgotten past <br><br>(6:105) وَكَذَلِكَ نُصَرِّفُ الآيَاتِ وَلِيَقُولُوا دَرَسْتَ (دَرَسَتْ) thus We explain in various ways the revelations, lest they might say it [the revelation] has faded into obscurity (or, as in the canonical reading, though they will say, ‘You [Muḥammad] have been studying [learning them from somewhere]’).",
+    "mainEntryId": "wdef-د-ر-س.دَرَسَ",
+    "entries": [
+      {
+        "id": "wdef-د-ر-س",
+        "label": "د-ر-س",
+        "definitionHtml": "د/ر/س   d–r–s to fade away, to pale, to be obliterated<br>; to break in a camel, to separate the wheat from the chaff; to study a book, to learn, to examine carefully, to learn by heart, a learned person, a person who is constant in his studies. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> دَرَسَ darasa 5 times; دِرَاسَةٌ dirāsatun 1 time and إِدْرِيسُ ʾidrıs 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ر-س.دَرَسَ",
+        "label": "دَرَسَ",
+        "definitionHtml": "دَرَسَ darasa [v. trans.] <br><br><strong>1 </strong>to study, to learn, to read with great attention to the content <br><br>(7:169) أَلَمْ يُؤْخَذْ عَلَيْهِمْ مِيثَاقُ الْكِتَابِ أَنْ لاَ يَقُولُوا عَلَى اللَّهِ إِلاَّ الْحَقَّ وَدَرَسُوا مَا فِيهِ have they not been pledged through divine writ not to say anything about God but the truth?, and have they not studied its contents? <br><br><strong>2 </strong>(in a variant reading, دَرَسَتْ darasat) to fade away, to be erased, to become extinct, to be something of the forgotten past <br><br>(6:105) وَكَذَلِكَ نُصَرِّفُ الآيَاتِ وَلِيَقُولُوا دَرَسْتَ (دَرَسَتْ) thus We explain in various ways the revelations, lest they might say it [the revelation] has faded into obscurity (or, as in the canonical reading, though they will say, ‘You [Muḥammad] have been studying [learning them from somewhere]’).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ر-س.إِدْرِيسُ",
+        "label": "إِدْرِيسُ",
+        "definitionHtml": "إِدْرِيسُ ʾidrıs [proper name] Prophet ʾidrıs, so named because of his constant studying of the scripture. He is identified as either Enoch (Gen. V.18–<br><br><strong>19 </strong>& 21–24) or the Biblical Elijah, ʾilyās (إلياس) in Arabic (q.v.), (I Kings XVII.ff. and II Kings I–III). Some Egyptian scholars suggest that ʾidrıs ‘may be the Arabicised form of Osiris … said to have been a wise king and/or Prophet whom the Egyptians subsequently deified’ (Asad, p. 463) <br><br>(19:56–7) وَاذْكُرْ فِى الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَبِيًّا mention too, in the Book [the Qur’an], [the story of] ʾidrıs, he was a man of truth, a prophet. ʾibn Kathır states that he was the first individual to be awarded the status of prophethood following Adam. He also relates a report in which Idris is mentioned as the first person to use the pen. The Qur’an speaks of his being raised ‘to a high position’ (Q. 19:56–7).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ر-س.دِرَاسَةٌ",
+        "label": "دِرَاسَةٌ",
+        "definitionHtml": "دِرَاسَةٌ dirāsatun [v. n./n.] studying/teaching <br><br>(6:156) أَنْ تَقُولُوا إِنَّمَا أُنْزِلَ الْكِتَابُ عَلَى طَائِفَتَيْنِ مِنْ قَبْلِنَا وَإِنْ كُنَّا عَنْ دِرَاسَتِهِمْ لَغَافِلِينَ lest you say, ‘Scriptures were only sent down to two communities before us: we were not aware of what they read/their studying [of them].’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:39.990Z",
+      "refword": "3:79:28",
+      "lexword": "تَدْرُسُونَ"
+    }
+  }
+}

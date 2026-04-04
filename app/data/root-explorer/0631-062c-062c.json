@@ -1,0 +1,91 @@
+{
+  "root": "رجج",
+  "rootArabic": "رجج",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "رَجٌّ",
+      "count": 1
+    },
+    {
+      "form": "رُجَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَجٌّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "رُجَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 56,
+      "ayah": 4,
+      "text": "إِذَا رُجَّتِ ٱلْأَرْضُ رَجًّا",
+      "highlightedHtml": "إِذَا <a class=\"highlight-text\">رُجَّتِ</a> ٱلْأَرْضُ <a class=\"highlight-text\">رَجًّا</a>",
+      "derivedForms": [
+        "رُجَّ",
+        "رَجٌّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:05.455Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "رُجَّتِ is in the derivative form: رُجَّ",
+    "rootDefinitionHtml": "ر/ج/ج   r–j–j the dregs of society, the dregs in a drinking trough; to shake, to agitate, to rouse, (of the sea) to become tumultuous, turmoil, commotion, excitement, the sound of thunder. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> رُجَّ rujja and رَجّ rajj.",
+    "mainDefinitionHtml": "رُجَّ rujja [pass. of v. رَجَّ rajja, trans.] to be shaken, to be caused to quake <br><br>(56:4) إِذَا رُجَّتِ الأَرْضُ رَجًّا when the earth is shaken violently.",
+    "mainEntryId": "wdef-ر-ج-ج.رُجَّ",
+    "entries": [
+      {
+        "id": "wdef-ر-ج-ج",
+        "label": "ر-ج-ج",
+        "definitionHtml": "ر/ج/ج   r–j–j the dregs of society, the dregs in a drinking trough; to shake, to agitate, to rouse, (of the sea) to become tumultuous, turmoil, commotion, excitement, the sound of thunder. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> رُجَّ rujja and رَجّ rajj.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-ج.رُجَّ",
+        "label": "رُجَّ",
+        "definitionHtml": "رُجَّ rujja [pass. of v. رَجَّ rajja, trans.] to be shaken, to be caused to quake <br><br>(56:4) إِذَا رُجَّتِ الأَرْضُ رَجًّا when the earth is shaken violently.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ج-ج.رَجٌّ",
+        "label": "رَجٌّ",
+        "definitionHtml": "رَجٌّ rajj [v. n. used adverbially] the act of shaking, the act of quaking <br><br>(56:4) إِذَا رُجَّتِ الأَرْضُ رَجًّا when the earth is shaken violently.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:26.402Z",
+      "refword": "56:4:2",
+      "lexword": "رُجَّتِ"
+    }
+  }
+}

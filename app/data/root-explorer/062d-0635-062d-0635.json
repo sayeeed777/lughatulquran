@@ -1,0 +1,74 @@
+{
+  "root": "حصحص",
+  "rootArabic": "حصحص",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "حَصْحَصَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصْحَصَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 51,
+      "text": "قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ حَصْحَصَ ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "قَالَ مَا خَطْبُكُنَّ إِذْ رَٰوَدتُّنَّ يُوسُفَ عَن نَّفْسِهِۦ ۚ قُلْنَ حَٰشَ لِلَّهِ مَا عَلِمْنَا عَلَيْهِ مِن سُوٓءٍ ۚ قَالَتِ ٱمْرَأَتُ ٱلْعَزِيزِ ٱلْـَٰٔنَ <a class=\"highlight-text\">حَصْحَصَ</a> ٱلْحَقُّ أَنَا۠ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ وَإِنَّهُۥ لَمِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "حَصْحَصَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:15.752Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "حَصْحَصَ is in the derivative form: حَصْحَصَ",
+    "rootDefinitionHtml": "ح/ص/ح/ص   ḥ–ṣ–ḥ–ṣ stones, brisk walking; to (come to) settle, to fit in properly; to become manifest, (of the truth) to become clear (as in ‘the truth will out’). Of this root, حَصْحَصَ ḥaṣḥaṣa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "حَصْحَصَ ḥaṣḥaṣa [v. intrans.] to become manifest, to come out <br><br>(12:51) قَالَتِ امْرَأَةُ الْعَزِيزِ الآنَ حَصْحَصَ الْحَقُّ the governor’s wife said, ‘Now the truth has come out.’",
+    "mainEntryId": "wdef-ح-ص-ح-ص.حَصْحَصَ",
+    "entries": [
+      {
+        "id": "wdef-ح-ص-ح-ص",
+        "label": "ح-ص-ح-ص",
+        "definitionHtml": "ح/ص/ح/ص   ḥ–ṣ–ḥ–ṣ stones, brisk walking; to (come to) settle, to fit in properly; to become manifest, (of the truth) to become clear (as in ‘the truth will out’). Of this root, حَصْحَصَ ḥaṣḥaṣa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ح-ص.حَصْحَصَ",
+        "label": "حَصْحَصَ",
+        "definitionHtml": "حَصْحَصَ ḥaṣḥaṣa [v. intrans.] to become manifest, to come out <br><br>(12:51) قَالَتِ امْرَأَةُ الْعَزِيزِ الآنَ حَصْحَصَ الْحَقُّ the governor’s wife said, ‘Now the truth has come out.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:57.041Z",
+      "refword": "12:51:21",
+      "lexword": "حَصْحَصَ"
+    }
+  }
+}

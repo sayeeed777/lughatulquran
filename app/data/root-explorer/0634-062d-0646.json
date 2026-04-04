@@ -1,0 +1,116 @@
+{
+  "root": "شحن",
+  "rootArabic": "شحن",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَشْحُون",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَشْحُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَشْحُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَشْحُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 119,
+      "text": "فَأَنجَيْنَٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+      "highlightedHtml": "فَأَنجَيْنَٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ <a class=\"highlight-text\">ٱلْمَشْحُونِ</a>",
+      "derivedForms": [
+        "مَشْحُون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 41,
+      "text": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+      "highlightedHtml": "وَءَايَةٌ لَّهُمْ أَنَّا حَمَلْنَا ذُرِّيَّتَهُمْ فِى ٱلْفُلْكِ <a class=\"highlight-text\">ٱلْمَشْحُونِ</a>",
+      "derivedForms": [
+        "مَشْحُون"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 140,
+      "text": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+      "highlightedHtml": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ <a class=\"highlight-text\">ٱلْمَشْحُونِ</a>",
+      "derivedForms": [
+        "مَشْحُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:53.918Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine passive participle",
+    "derivativeNote": "ٱلْمَشْحُونِ is in the derivative form: مَشْحُون",
+    "rootDefinitionHtml": "ش/ح/ن sh–ḥ–n to fill, to equip; to drive, to drive away; to bear rancour, to quarrel; garrison. Of this root, only مَشْحُون mashḥūn occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَشْحُون mashḥūn [pass. part.] laden, full, overloaded <br><br>(37:140) إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ when he fled to the overloaded ship.",
+    "mainEntryId": "wdef-ش-ح-ن.مَشْحُون",
+    "entries": [
+      {
+        "id": "wdef-ش-ح-ن",
+        "label": "ش-ح-ن",
+        "definitionHtml": "ش/ح/ن sh–ḥ–n to fill, to equip; to drive, to drive away; to bear rancour, to quarrel; garrison. Of this root, only مَشْحُون mashḥūn occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ح-ن.مَشْحُون",
+        "label": "مَشْحُون",
+        "definitionHtml": "مَشْحُون mashḥūn [pass. part.] laden, full, overloaded <br><br>(37:140) إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ when he fled to the overloaded ship.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:51.798Z",
+      "refword": "26:119:6",
+      "lexword": "ٱلْمَشْحُونِ"
+    }
+  }
+}

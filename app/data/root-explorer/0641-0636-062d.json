@@ -1,0 +1,74 @@
+{
+  "root": "فضح",
+  "rootArabic": "فضح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تفضح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تفضح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 68,
+      "text": "قَالَ إِنَّ هَٰٓؤُلَآءِ ضَيْفِى ضَيْفِى فَلَا تَفْضَحُونِ",
+      "highlightedHtml": "قَالَ إِنَّ هَٰٓؤُلَآءِ ضَيْفِى ضَيْفِى فَلَا <a class=\"highlight-text\">تَفْضَحُونِ</a>",
+      "derivedForms": [
+        "تفضح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:58.442Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb, jussive mood",
+    "derivativeNote": "تَفْضَحُونِ is in the derivative form: تفضح",
+    "rootDefinitionHtml": "ف/ض/ح   f–ḍ–ḥ to expose, to uncover, to subject to shame, to scandalise, to give a bad name to, to defame. Of this root, تفضحون tafḍaḥūn, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تفضح tafḍaḥ [imperf. v., trans.] to put to shame, to disgrace <br><br>(15:68) ‏قالَ ‏إِنَّ‏ ‏هَؤُلاَءِ‏ ‏ضَيْفِي فَلاَ ‏تَفْضَحُونِ ‏he said, ‘These are my guests, so do not disgrace me.’",
+    "mainEntryId": "wdef-ف-ض-ح.تفضح",
+    "entries": [
+      {
+        "id": "wdef-ف-ض-ح",
+        "label": "ف-ض-ح",
+        "definitionHtml": "ف/ض/ح   f–ḍ–ḥ to expose, to uncover, to subject to shame, to scandalise, to give a bad name to, to defame. Of this root, تفضحون tafḍaḥūn, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ض-ح.تفضح",
+        "label": "تفضح",
+        "definitionHtml": "تفضح tafḍaḥ [imperf. v., trans.] to put to shame, to disgrace <br><br>(15:68) ‏قالَ ‏إِنَّ‏ ‏هَؤُلاَءِ‏ ‏ضَيْفِي فَلاَ ‏تَفْضَحُونِ ‏he said, ‘These are my guests, so do not disgrace me.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:37.187Z",
+      "refword": "15:68:6",
+      "lexword": "تَفْضَحُونِ"
+    }
+  }
+}

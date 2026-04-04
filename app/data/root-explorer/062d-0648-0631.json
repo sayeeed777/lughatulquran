@@ -1,0 +1,326 @@
+{
+  "root": "حور",
+  "rootArabic": "حور",
+  "stats": {
+    "totalOccurrences": 13,
+    "derivativeCount": 5,
+    "surahCount": 10,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "الحَوَّارِيُّون",
+      "count": 5
+    },
+    {
+      "form": "حُور",
+      "count": 4
+    },
+    {
+      "form": "يُحَاوِرُ",
+      "count": 2
+    },
+    {
+      "form": "تَحَاوُرٌ",
+      "count": 1
+    },
+    {
+      "form": "يَحُورُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الحَوَّارِيُّون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الحَوَّارِيُّون",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُحَاوِرُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحَاوُرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 61,
+      "surahName": "As-Saff",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الحَوَّارِيُّون",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحُورُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 52,
+      "text": "فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ آمَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
+      "highlightedHtml": "فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ <a class=\"highlight-text\">ٱلْحَوَارِيُّونَ</a> نَحْنُ أَنصَارُ ٱللَّهِ آمَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
+      "derivedForms": [
+        "الحَوَّارِيُّون"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 111,
+      "text": "وَإِذْ أَوْحَيْتُ إِلَى ٱلْحَوَارِيِّۦنَ أَنْ آمِنُوا بِى وَبِرَسُولِى قَالُوٓا۟ آمَنَّا وَٱشْهَدْ بِأَنَّنَا مُسْلِمُونَ",
+      "highlightedHtml": "وَإِذْ أَوْحَيْتُ إِلَى <a class=\"highlight-text\">ٱلْحَوَارِيِّۦنَ</a> أَنْ آمِنُوا بِى وَبِرَسُولِى قَالُوٓا۟ آمَنَّا وَٱشْهَدْ بِأَنَّنَا مُسْلِمُونَ",
+      "derivedForms": [
+        "الحَوَّارِيُّون"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 112,
+      "text": "إِذْ قَالَ ٱلْحَوَارِيُّونَ يَٰعِيسَى ٱبْنَ مَرْيَمَ هَلْ يَسْتَطِيعُ رَبُّكَ أَن يُنَزِّلَ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ ۖ قَالَ ٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "إِذْ قَالَ <a class=\"highlight-text\">ٱلْحَوَارِيُّونَ</a> يَٰعِيسَى ٱبْنَ مَرْيَمَ هَلْ يَسْتَطِيعُ رَبُّكَ أَن يُنَزِّلَ عَلَيْنَا مَآئِدَةً مِّنَ ٱلسَّمَآءِ ۖ قَالَ ٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "الحَوَّارِيُّون"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 34,
+      "text": "وَكَانَ لَهُۥ ثَمَرٌ فَقَالَ لِصَٰحِبِهِۦ وَهُوَ يُحَاوِرُهُۥٓ أَنَا۠ أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
+      "highlightedHtml": "وَكَانَ لَهُۥ ثَمَرٌ فَقَالَ لِصَٰحِبِهِۦ وَهُوَ <a class=\"highlight-text\">يُحَاوِرُهُۥٓ</a> أَنَا۠ أَكْثَرُ مِنكَ مَالًا وَأَعَزُّ نَفَرًا",
+      "derivedForms": [
+        "يُحَاوِرُ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 37,
+      "text": "قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ يُحَاوِرُهُۥٓ أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّىٰكَ سَوَّىٰكَ رَجُلًا",
+      "highlightedHtml": "قَالَ لَهُۥ صَاحِبُهُۥ وَهُوَ <a class=\"highlight-text\">يُحَاوِرُهُۥٓ</a> أَكَفَرْتَ بِٱلَّذِى خَلَقَكَ مِن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ سَوَّىٰكَ سَوَّىٰكَ رَجُلًا",
+      "derivedForms": [
+        "يُحَاوِرُ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 54,
+      "text": "كَذَٰلِكَ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "highlightedHtml": "كَذَٰلِكَ وَزَوَّجْنَٰهُم <a class=\"highlight-text\">بِحُورٍ</a> عِينٍ",
+      "derivedForms": [
+        "حُور"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 20,
+      "text": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "highlightedHtml": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَٰهُم <a class=\"highlight-text\">بِحُورٍ</a> عِينٍ",
+      "derivedForms": [
+        "حُور"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 72,
+      "text": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
+      "highlightedHtml": "<a class=\"highlight-text\">حُورٌ</a> مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ",
+      "derivedForms": [
+        "حُور"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 22,
+      "text": "وَحُورٌ عِينٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَحُورٌ</a> عِينٌ",
+      "derivedForms": [
+        "حُور"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 1,
+      "text": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "highlightedHtml": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ <a class=\"highlight-text\">تَحَاوُرَكُمَآ</a> ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "derivedForms": [
+        "تَحَاوُرٌ"
+      ]
+    },
+    {
+      "surah": 61,
+      "ayah": 14,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُونُوٓا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِيسَى ٱبْنُ مَرْيَمَ لِلْحَوَارِيِّۦنَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ ۖ فَـَٔامَنَت طَّآئِفَةٌ مِّنۢ بَنِىٓ إِسْرَٰٓءِيلَ وَكَفَرَت طَّآئِفَةٌ ۖ فَأَيَّدْنَا ٱلَّذِينَ آمَنُوا عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا۟ ظَٰهِرِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُونُوٓا۟ أَنصَارَ ٱللَّهِ كَمَا قَالَ عِيسَى ٱبْنُ مَرْيَمَ <a class=\"highlight-text\">لِلْحَوَارِيِّۦنَ</a> مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ <a class=\"highlight-text\">ٱلْحَوَارِيُّونَ</a> نَحْنُ أَنصَارُ ٱللَّهِ ۖ فَـَٔامَنَت طَّآئِفَةٌ مِّنۢ بَنِىٓ إِسْرَٰٓءِيلَ وَكَفَرَت طَّآئِفَةٌ ۖ فَأَيَّدْنَا ٱلَّذِينَ آمَنُوا عَلَىٰ عَدُوِّهِمْ فَأَصْبَحُوا۟ ظَٰهِرِينَ",
+      "derivedForms": [
+        "الحَوَّارِيُّون",
+        "الحَوَّارِيُّون"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 14,
+      "text": "إِنَّهُۥ ظَنَّ أَن لَّن يَحُورَ",
+      "highlightedHtml": "إِنَّهُۥ ظَنَّ أَن لَّن <a class=\"highlight-text\">يَحُورَ</a>",
+      "derivedForms": [
+        "يَحُورُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:47.112Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "ٱلْحَوَارِيُّونَ is in the derivative form: الحَوَّارِيُّون",
+    "rootDefinitionHtml": "ح/و/ر   ḥ–w–r circle, to encircle, to return to, to go away from<br>; to have a dialogue, entourage, disciples; discerning power; to decrease; marked contrast between black and white in a woman’s eye, fair skin; oyster shell. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> يَحُورُ yaḥūr 1 time; يُحَاوِرُ yuḥāwir 2 times; تَحَاوُرٌ taḥāwur 1 time; حُور ḥūr 4 times and حَوَارِيُّون ḥawāriyyūn 5 times.",
+    "mainDefinitionHtml": "الحَوَّارِيُّون ʾal‐ḥawāriyyūn [pl. of n./quasi‐act. part. حَوَارِيٌّ ḥawāriyy] the disciples of Christ <br><br>(61:14) كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّينَ مَنْ أَنْصَارِي إِلَى اللَّهِ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنْصَار اللَّهُِ as Jesus, son of Mary, said to the disciples, ‘Who will come with me to help God?’, the disciples said, ‘We shall be God’s helpers.’",
+    "mainEntryId": "wdef-ح-و-ر.الحَوَّارِيُّون",
+    "entries": [
+      {
+        "id": "wdef-ح-و-ر",
+        "label": "ح-و-ر",
+        "definitionHtml": "ح/و/ر   ḥ–w–r circle, to encircle, to return to, to go away from<br>; to have a dialogue, entourage, disciples; discerning power; to decrease; marked contrast between black and white in a woman’s eye, fair skin; oyster shell. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> يَحُورُ yaḥūr 1 time; يُحَاوِرُ yuḥāwir 2 times; تَحَاوُرٌ taḥāwur 1 time; حُور ḥūr 4 times and حَوَارِيُّون ḥawāriyyūn 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ر.الحَوَّارِيُّون",
+        "label": "الحَوَّارِيُّون",
+        "definitionHtml": "الحَوَّارِيُّون ʾal‐ḥawāriyyūn [pl. of n./quasi‐act. part. حَوَارِيٌّ ḥawāriyy] the disciples of Christ <br><br>(61:14) كَمَا قَالَ عِيسَى ابْنُ مَرْيَمَ لِلْحَوَارِيِّينَ مَنْ أَنْصَارِي إِلَى اللَّهِ قَالَ الْحَوَارِيُّونَ نَحْنُ أَنْصَار اللَّهُِ as Jesus, son of Mary, said to the disciples, ‘Who will come with me to help God?’, the disciples said, ‘We shall be God’s helpers.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-و-ر.تَحَاوُرٌ",
+        "label": "تَحَاوُرٌ",
+        "definitionHtml": "تَحَاوُرٌ taḥāwur [v. n.] debating, engaging in a dialogue, disputing <br><br>(58:1) قَدْ سَمِعَ اللَّهُ قَوْلَ الَّتِي تُجَادِلُكَ فِى زَوْجِهَا وَتَشْتَكِي إِلَى اللَّهِ وَاللَّهُ يَسْمَعُ تَحَاوُرَكُمَا God has heard the words of her who disputes with you [Prophet] concerning her husband and complains to God and God hears your dispute.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ر.حُور",
+        "label": "حُور",
+        "definitionHtml": "حُور ḥūr [pl. of quasi‐act. part. fem. حَوْرَاء ḥawrāʾ] pure, fair‐skinned (also said to mean: having eyes marked by contrast between the deep black and the pure white in them), pleasant <br><br>(44:54) كَذَلِكَ وَزَوَّجْنَاهُمْ بِحُورٍ عِينٍ so it will be, and We will wed them to wide‐eyed houris.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ر.يَحُورُ",
+        "label": "يَحُورُ",
+        "definitionHtml": "يَحُورُ yaḥūr [imperf. of v. حَارَ ḥāra, intrans.] to return, to go back <br><br>(84:14) إِنَّهُ ظَنَّ أَنْ لَنْ يَحُورَ and he thinks that he would not return [to his Lord].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ر.يُحَاوِرُ",
+        "label": "يُحَاوِرُ",
+        "definitionHtml": "يُحَاوِرُ yuḥāwir [imperf. of v. III حَاوَرَ ḥāwara, trans.] to debate with, to have a dialogue with <br><br>(18:34) فَقَالَ لِصَاحِبِهِ وَهُوَ يُحَاوِرُهُ أَنَا أَكْثَرُ مِنْكَ مَالا وَأَعَزُّ نَفَرًا so, he said to his friend, while disputing with him, ‘I am more than you in wealth, and mightier in respect of supporters.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:57.623Z",
+      "refword": "3:52:12",
+      "lexword": "ٱلْحَوَارِيُّونَ"
+    }
+  }
+}

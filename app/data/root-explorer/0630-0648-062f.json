@@ -1,0 +1,74 @@
+{
+  "root": "ذود",
+  "rootArabic": "ذود",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَذُودُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَذُودُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 28,
+      "ayah": 23,
+      "text": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ تَذُودَانِ ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "highlightedHtml": "وَلَمَّا وَرَدَ مَآءَ مَدْيَنَ وَجَدَ عَلَيْهِ أُمَّةً مِّنَ ٱلنَّاسِ يَسْقُونَ وَوَجَدَ مِن دُونِهِمُ ٱمْرَأَتَيْنِ <a class=\"highlight-text\">تَذُودَانِ</a> ۖ قَالَ مَا خَطْبُكُمَا ۖ قَالَتَا لَا نَسْقِى حَتَّىٰ يُصْدِرَ يُصْدِرَ ٱلرِّعَآءُ ۖ وَأَبُونَا شَيْخٌ كَبِيرٌ",
+      "derivedForms": [
+        "تَذُودُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:52.296Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person dual imperfect verb",
+    "derivativeNote": "تَذُودَانِ is in the derivative form: تَذُودُ",
+    "rootDefinitionHtml": "ذ/و/د   dh–w–d horns; tongue; to keep off, to drive off, to keep away, defender; a small herd of camels (between 2 and nine). Of this root, only تَذُودَانِ tadhūdān occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَذُودُ tadhūd [imperf. of v. ذَادَ dhāda, trans.] to keep back, to drive off <br><br>(28:23) وَوَجَدَ مِنْ دُونِهِمُ امْرَأتَيْنِ تَذُودَانِ and he found, at a distance from them, two women keeping back [their herd].",
+    "mainEntryId": "wdef-ذ-و-د.تَذُودُ",
+    "entries": [
+      {
+        "id": "wdef-ذ-و-د",
+        "label": "ذ-و-د",
+        "definitionHtml": "ذ/و/د   dh–w–d horns; tongue; to keep off, to drive off, to keep away, defender; a small herd of camels (between 2 and nine). Of this root, only تَذُودَانِ tadhūdān occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-و-د.تَذُودُ",
+        "label": "تَذُودُ",
+        "definitionHtml": "تَذُودُ tadhūd [imperf. of v. ذَادَ dhāda, trans.] to keep back, to drive off <br><br>(28:23) وَوَجَدَ مِنْ دُونِهِمُ امْرَأتَيْنِ تَذُودَانِ and he found, at a distance from them, two women keeping back [their herd].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:02.320Z",
+      "refword": "28:23:15",
+      "lexword": "تَذُودَانِ"
+    }
+  }
+}

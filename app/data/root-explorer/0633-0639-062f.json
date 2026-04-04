@@ -1,0 +1,99 @@
+{
+  "root": "سعد",
+  "rootArabic": "سعد",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "سُعِد",
+      "count": 1
+    },
+    {
+      "form": "سَعيد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُعِد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "سَعيد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 105,
+      "text": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّ وَسَعِيدٌ",
+      "highlightedHtml": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّ <a class=\"highlight-text\">وَسَعِيدٌ</a>",
+      "derivedForms": [
+        "سَعيد"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 108,
+      "text": "وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍ",
+      "highlightedHtml": "وَأَمَّا ٱلَّذِينَ <a class=\"highlight-text\">سُعِدُوا۟</a> فَفِى ٱلْجَنَّةِ خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍ",
+      "derivedForms": [
+        "سُعِد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:58.559Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine singular indefinite noun",
+    "derivativeNote": "وَسَعِيدٌ is in the derivative form: سَعيد",
+    "rootDefinitionHtml": "س/ع/د   s–ʿ–d happiness, fortune; assistance; arm, power. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> سُعِدوا suʿidū andسَعيد saʿıd.",
+    "mainDefinitionHtml": "سَعيد saʿıd [quasi‐act. part.] fortunate, blessed, happy <br><br>(11:105) فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ and some of them will be wretched and some happy.",
+    "mainEntryId": "wdef-س-ع-د.سَعيد",
+    "entries": [
+      {
+        "id": "wdef-س-ع-د",
+        "label": "س-ع-د",
+        "definitionHtml": "س/ع/د   s–ʿ–d happiness, fortune; assistance; arm, power. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> سُعِدوا suʿidū andسَعيد saʿıd.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ع-د.سَعيد",
+        "label": "سَعيد",
+        "definitionHtml": "سَعيد saʿıd [quasi‐act. part.] fortunate, blessed, happy <br><br>(11:105) فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ and some of them will be wretched and some happy.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ع-د.سُعِد",
+        "label": "سُعِد",
+        "definitionHtml": "سُعِد suʿid [pass. v. IV, with the initial أ omitted = اُسْعِدوا ʾusʿidū or in another reading سَعِدوا saʿidū, v. intrans.] to be made fortunate, to be blessed, to be made happy; to become fortunate, to become happy <br><br>(11:108) وَأَمَّا الَّذِينَ سُعِدُوا فَفِي الْجَنَّةِ as for those who were blessed with happiness (or, good fortune), they will be in Paradise.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:02.498Z",
+      "refword": "11:105:10",
+      "lexword": "وَسَعِيدٌ"
+    }
+  }
+}

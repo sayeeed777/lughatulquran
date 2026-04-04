@@ -1,0 +1,108 @@
+{
+  "root": "نكب",
+  "rootArabic": "نكب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَنَاكِبُ",
+      "count": 2
+    },
+    {
+      "form": "نَاكِبُون",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَاكِبُون",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنَاكِبُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 74,
+      "text": "وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ عَنِ ٱلصِّرَٰطِ لَنَٰكِبُونَ لَنَٰكِبُونَ",
+      "highlightedHtml": "وَإِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ عَنِ ٱلصِّرَٰطِ <a class=\"highlight-text\">لَنَٰكِبُونَ</a> <a class=\"highlight-text\">لَنَٰكِبُونَ</a>",
+      "derivedForms": [
+        "نَاكِبُون",
+        "نَاكِبُون"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 15,
+      "text": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى <a class=\"highlight-text\">مَنَاكِبِهَا</a> <a class=\"highlight-text\">مَنَاكِبِهَا</a> وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "derivedForms": [
+        "مَنَاكِبُ",
+        "مَنَاكِبُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:01.179Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural active participle",
+    "derivativeNote": "لَنَٰكِبُونَ is in the derivative form: نَاكِبُون",
+    "rootDefinitionHtml": "ن/ك/ب   n–k–b wind that brings no rain, disastrous wind, to be afflicted by disaster; the shoulder joint, disease that afflicts the joint, to veer off, to turn away from. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَاكِبُون nākibūn and مَنَاكِبُ manākib.",
+    "mainDefinitionHtml": "نَاكِبُون nākibūn [pl. of act. part. نَاكِبٌ nākib] one who veers away, a deviator, one who goes astray <br><br>(23:74) وَإِنَّ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ عَنِ الصِّرَاطِ لَنَاكِبُونَ and those who do not believe in the Hereafter will certainly veer off the Path.",
+    "mainEntryId": "wdef-ن-ك-ب.نَاكِبُون",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-ب",
+        "label": "ن-ك-ب",
+        "definitionHtml": "ن/ك/ب   n–k–b wind that brings no rain, disastrous wind, to be afflicted by disaster; the shoulder joint, disease that afflicts the joint, to veer off, to turn away from. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَاكِبُون nākibūn and مَنَاكِبُ manākib.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ب.نَاكِبُون",
+        "label": "نَاكِبُون",
+        "definitionHtml": "نَاكِبُون nākibūn [pl. of act. part. نَاكِبٌ nākib] one who veers away, a deviator, one who goes astray <br><br>(23:74) وَإِنَّ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ عَنِ الصِّرَاطِ لَنَاكِبُونَ and those who do not believe in the Hereafter will certainly veer off the Path.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ك-ب.مَنَاكِبُ",
+        "label": "مَنَاكِبُ",
+        "definitionHtml": "مَنَاكِبُ manākib [pl. of n. مَنْكِبٌ mankib] shoulder joints, whereabouts or regions (of the earth), tracts (of the earth) <br><br>(67:15) هُوَ الَّذِي جَعَلَ لَكُمُ الأَرْضَ ذَلُولاً فَامْشُوا فِى مَنَاكِبِهَا it is He who has made the earth stable for you–travel its regions.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:13.446Z",
+      "refword": "23:74:8",
+      "lexword": "لَنَٰكِبُونَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "فهم",
+  "rootArabic": "فهم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "فَهَّّمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَهَّّمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 79,
+      "text": "فَفَهَّمْنَٰهَا سُلَيْمَٰنَ ۚ وَكُلًّا آتَيْنَا حُكْمًا وَعِلْمًا ۚ وَسَخَّرْنَا مَعَ دَاوُۥدَ ٱلْجِبَالَ يُسَبِّحْنَ وَٱلطَّيْرَ ۚ وَكُنَّا فَٰعِلِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَفَهَّمْنَٰهَا</a> سُلَيْمَٰنَ ۚ وَكُلًّا آتَيْنَا حُكْمًا وَعِلْمًا ۚ وَسَخَّرْنَا مَعَ دَاوُۥدَ ٱلْجِبَالَ يُسَبِّحْنَ وَٱلطَّيْرَ ۚ وَكُنَّا فَٰعِلِينَ",
+      "derivedForms": [
+        "فَهَّّمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:17.965Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "فَفَهَّمْنَٰهَا is in the derivative form: فَهَّّمَ",
+    "rootDefinitionHtml": "ف/ﻫ/م f–h–m to understand, to comprehend. Of this root,فهم fahhama, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "فَهَّّمَ fahhama [v. II, doubly trans.] to cause someone to understand something, to cause someone to comprehend something <br><br>(21:79) فَفَهَّمْنَاهَا‏ ‏سُلَيْمَانَ‏ and We made Solomon understand it [the case]‏.",
+    "mainEntryId": "wdef-ف-ﻫ-م.فَهَّّمَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ﻫ-م",
+        "label": "ف-ﻫ-م",
+        "definitionHtml": "ف/ﻫ/م f–h–m to understand, to comprehend. Of this root,فهم fahhama, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ﻫ-م.فَهَّّمَ",
+        "label": "فَهَّّمَ",
+        "definitionHtml": "فَهَّّمَ fahhama [v. II, doubly trans.] to cause someone to understand something, to cause someone to comprehend something <br><br>(21:79) فَفَهَّمْنَاهَا‏ ‏سُلَيْمَانَ‏ and We made Solomon understand it [the case]‏.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:14.747Z",
+      "refword": "21:79:1",
+      "lexword": "فَفَهَّمْنَٰهَا"
+    }
+  }
+}

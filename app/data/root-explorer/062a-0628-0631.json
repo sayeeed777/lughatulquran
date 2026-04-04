@@ -1,0 +1,182 @@
+{
+  "root": "تبر",
+  "rootArabic": "تبر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "تَبَّرَ",
+      "count": 2
+    },
+    {
+      "form": "تَتْبِيرٌ",
+      "count": 2
+    },
+    {
+      "form": "تَبَارٌ",
+      "count": 1
+    },
+    {
+      "form": "مُتَبَّرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَبَّرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَبَّرَ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "تَتْبِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَبَّرَ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "تَتْبِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَبَارٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 139,
+      "text": "إِنَّ هَٰٓؤُلَآءِ مُتَبَّرٌ مَّا هُمْ فِيهِ وَبَٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "إِنَّ هَٰٓؤُلَآءِ <a class=\"highlight-text\">مُتَبَّرٌ</a> مَّا هُمْ فِيهِ وَبَٰطِلٌ مَّا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "مُتَبَّرٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 7,
+      "text": "إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ الْآخِرَةِ لِيَسُۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا",
+      "highlightedHtml": "إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ الْآخِرَةِ لِيَسُۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ <a class=\"highlight-text\">وَلِيُتَبِّرُوا۟</a> مَا عَلَوْا۟ <a class=\"highlight-text\">تَتْبِيرًا</a>",
+      "derivedForms": [
+        "تَبَّرَ",
+        "تَتْبِيرٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 39,
+      "text": "وَكُلًّا ضَرَبْنَا لَهُ ٱلْأَمْثَٰلَ ۖ وَكُلًّا تَبَّرْنَا تَتْبِيرًا",
+      "highlightedHtml": "وَكُلًّا ضَرَبْنَا لَهُ ٱلْأَمْثَٰلَ ۖ وَكُلًّا <a class=\"highlight-text\">تَبَّرْنَا</a> <a class=\"highlight-text\">تَتْبِيرًا</a>",
+      "derivedForms": [
+        "تَبَّرَ",
+        "تَتْبِيرٌ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 28,
+      "text": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا تَبَارًۢا",
+      "highlightedHtml": "رَّبِّ ٱغْفِرْ لِى وَلِوَٰلِدَىَّ وَلِمَن دَخَلَ بَيْتِىَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَلَا تَزِدِ ٱلظَّٰلِمِينَ إِلَّا <a class=\"highlight-text\">تَبَارًۢا</a>",
+      "derivedForms": [
+        "تَبَارٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:18.047Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form II) passive participle",
+    "derivativeNote": "مُتَبَّرٌ is in the derivative form: مُتَبَّرٌ",
+    "rootDefinitionHtml": "ت/ب/ر   t–b–r gold dust, raw metal, ore<br>; to fragment, to crush, to destroy, to annihilate. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَبَّرَ tabbara 2 times; تَتْبِيرٌ tatbır 2 times; مُتَبَّرٌ mutabbar 1 time and تَبَارٌ tabār 1 time.",
+    "mainDefinitionHtml": "مُتَبَّرٌ mutabbar [pass. part.] destroyed, crushed, eradicated <br><br>(7:139) إِنَّ هَؤُلاَءِ مُتَبَّرٌ مَا هُمْ فِيهِ these people are [doomed to have] what they are engaged in utterly destroyed.",
+    "mainEntryId": "wdef-ت-ب-ر.مُتَبَّرٌ",
+    "entries": [
+      {
+        "id": "wdef-ت-ب-ر",
+        "label": "ت-ب-ر",
+        "definitionHtml": "ت/ب/ر   t–b–r gold dust, raw metal, ore<br>; to fragment, to crush, to destroy, to annihilate. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَبَّرَ tabbara 2 times; تَتْبِيرٌ tatbır 2 times; مُتَبَّرٌ mutabbar 1 time and تَبَارٌ tabār 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ب-ر.مُتَبَّرٌ",
+        "label": "مُتَبَّرٌ",
+        "definitionHtml": "مُتَبَّرٌ mutabbar [pass. part.] destroyed, crushed, eradicated <br><br>(7:139) إِنَّ هَؤُلاَءِ مُتَبَّرٌ مَا هُمْ فِيهِ these people are [doomed to have] what they are engaged in utterly destroyed.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ت-ب-ر.تَبَارٌ",
+        "label": "تَبَارٌ",
+        "definitionHtml": "تَبَارٌ tabār [v. n./n.] ruin, destruction <br><br>(71:28) وَلاَ تَزِدِ الظَّالِمِينَ إِلاَّ تَبَارًا but bring nothing but ruin on the unjust ones!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ب-ر.تَبَّرَ",
+        "label": "تَبَّرَ",
+        "definitionHtml": "تَبَّرَ tabbara [v. II, trans.] to crush, to destroy <br><br>(25:39) وَكُلاَّ ضَرَبْنَا لَهُ الأَمْثَالَ وَكُلاًّ تَبَّرْنَا تَتْبِيرًا for each We struck similitudes, and each [of them] We destroyed completely.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ب-ر.تَتْبِيرٌ",
+        "label": "تَتْبِيرٌ",
+        "definitionHtml": "تَتْبِيرٌ tatbır [v. n.] destruction, annihilation <br><br>(17:7) وَلِيُتَبِّرُوا مَا عَلَوْا تَتْبِيرًا and to destroy utterly what they had overrun.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:22.525Z",
+      "refword": "7:139:3",
+      "lexword": "مُتَبَّرٌ"
+    }
+  }
+}

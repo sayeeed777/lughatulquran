@@ -1,0 +1,191 @@
+{
+  "root": "مرد",
+  "rootArabic": "مرد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "مَرِيد",
+      "count": 2
+    },
+    {
+      "form": "مَارِد",
+      "count": 1
+    },
+    {
+      "form": "مَرَدَ",
+      "count": 1
+    },
+    {
+      "form": "مُمَرَّد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرِيد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرَدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرِيد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمَرَّد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَارِد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 117,
+      "text": "إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثًا وَإِن يَدْعُونَ إِلَّا شَيْطَٰنًا مَّرِيدًا",
+      "highlightedHtml": "إِن يَدْعُونَ مِن دُونِهِۦٓ إِلَّآ إِنَٰثًا وَإِن يَدْعُونَ إِلَّا شَيْطَٰنًا <a class=\"highlight-text\">مَّرِيدًا</a>",
+      "derivedForms": [
+        "مَرِيد"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 101,
+      "text": "وَمِمَّنْ حَوْلَكُم مِّنَ ٱلْأَعْرَابِ مُنَٰفِقُونَ ۖ وَمِنْ أَهْلِ ٱلْمَدِينَةِ ۖ مَرَدُوا۟ عَلَى ٱلنِّفَاقِ لَا تَعْلَمُهُمْ ۖ نَحْنُ نَعْلَمُهُمْ ۚ سَنُعَذِّبُهُم مَّرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَىٰ عَذَابٍ عَظِيمٍ",
+      "highlightedHtml": "وَمِمَّنْ حَوْلَكُم مِّنَ ٱلْأَعْرَابِ مُنَٰفِقُونَ ۖ وَمِنْ أَهْلِ ٱلْمَدِينَةِ ۖ <a class=\"highlight-text\">مَرَدُوا۟</a> عَلَى ٱلنِّفَاقِ لَا تَعْلَمُهُمْ ۖ نَحْنُ نَعْلَمُهُمْ ۚ سَنُعَذِّبُهُم مَّرَّتَيْنِ ثُمَّ يُرَدُّونَ إِلَىٰ عَذَابٍ عَظِيمٍ",
+      "derivedForms": [
+        "مَرَدَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 3,
+      "text": "وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَٰنٍ مَّرِيدٍ",
+      "highlightedHtml": "وَمِنَ ٱلنَّاسِ مَن يُجَٰدِلُ فِى ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّبِعُ كُلَّ شَيْطَٰنٍ <a class=\"highlight-text\">مَّرِيدٍ</a>",
+      "derivedForms": [
+        "مَرِيد"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 44,
+      "text": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ <a class=\"highlight-text\">مُّمَرَّدٌ</a> مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "مُمَرَّد"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 7,
+      "text": "وَحِفْظًا مِّن كُلِّ شَيْطَٰنٍ مَّارِدٍ",
+      "highlightedHtml": "وَحِفْظًا مِّن كُلِّ شَيْطَٰنٍ <a class=\"highlight-text\">مَّارِدٍ</a>",
+      "derivedForms": [
+        "مَارِد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:13.280Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine singular indefinite adjective",
+    "derivativeNote": "مَّرِيدًا is in the derivative form: مَرِيد",
+    "rootDefinitionHtml": "م/ر/د   m–r–d to exceed the limits, to violate the norms, to mutiny, to be arrogant, to be insolent<br>; giant, devil, demon, evil spirit; to soften, to glaze, to plaster; to erect a very high building. Of this root, 4 forms occur 5 times in the Qur’an;<br> مَرَدَ marada 1 time; مَارِد mārid 1 time; مَرِيد marıd 2 times and مُمَرَّد mumarrad 1 time.",
+    "mainDefinitionHtml": "مَرِيد marıd [quasi‐intens. act. part.] obstinately or defiantly rebellious <br><br>(22:3) ‏وَيَتَّبِعُ‏ ‏كُلَّ‏ ‏شَيْطَانٍ‏ ‏مَرِيدٍ‏ and follows every defiantly rebellious devil.",
+    "mainEntryId": "wdef-م-ر-د.مَرِيد",
+    "entries": [
+      {
+        "id": "wdef-م-ر-د",
+        "label": "م-ر-د",
+        "definitionHtml": "م/ر/د   m–r–d to exceed the limits, to violate the norms, to mutiny, to be arrogant, to be insolent<br>; giant, devil, demon, evil spirit; to soften, to glaze, to plaster; to erect a very high building. Of this root, 4 forms occur 5 times in the Qur’an;<br> مَرَدَ marada 1 time; مَارِد mārid 1 time; مَرِيد marıd 2 times and مُمَرَّد mumarrad 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-د.مَرِيد",
+        "label": "مَرِيد",
+        "definitionHtml": "مَرِيد marıd [quasi‐intens. act. part.] obstinately or defiantly rebellious <br><br>(22:3) ‏وَيَتَّبِعُ‏ ‏كُلَّ‏ ‏شَيْطَانٍ‏ ‏مَرِيدٍ‏ and follows every defiantly rebellious devil.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ر-د.مَارِد",
+        "label": "مَارِد",
+        "definitionHtml": "مَارِد mārid [quasi‐act. part./n.] mutinous, rebellious <br><br>(37:7) وَحِفْظًا‏ ‏مِنْ‏ ‏كُلِّ‏ ‏شَيْطَانٍ‏ ‏مَارِدٍ and a safeguard against every rebellious devil.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-د.مَرَدَ",
+        "label": "مَرَدَ",
+        "definitionHtml": "مَرَدَ marada u [v., intrans.] to become well‐trained, to become well‐practised <br><br>(9:101)‏مَرَدُوا‏ ‏عَلَى‏ ‏النِّفَاقِ‏ they have become well‐practised in hypocrisy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-د.مُمَرَّد",
+        "label": "مُمَرَّد",
+        "definitionHtml": "مُمَرَّد mumarrad [pass. part. of v. II] glazed, made smooth <br><br>(27:44) ‏‏إِنَّهُ‏ ‏صَرْحٌ‏ ‏مُمَرَّدٌ‏ ‏مِنْ‏ ‏قَوَارِيرَ‏ it is a palace/a palace hall paved with glass.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:46.546Z",
+      "refword": "4:117:11",
+      "lexword": "مَّرِيدًا"
+    }
+  }
+}

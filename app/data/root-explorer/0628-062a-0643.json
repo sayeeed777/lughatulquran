@@ -1,0 +1,74 @@
+{
+  "root": "بتك",
+  "rootArabic": "بتك",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يُبَتِّكُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُبَتِّكُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 119,
+      "text": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ فَلَيُبَتِّكُنَّ آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "highlightedHtml": "وَلَأُضِلَّنَّهُمْ وَلَأُمَنِّيَنَّهُمْ وَلَءَامُرَنَّهُمْ <a class=\"highlight-text\">فَلَيُبَتِّكُنَّ</a> آذَانَ ٱلْأَنْعَٰمِ وَلَءَامُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ ٱللَّهِ ۚ وَمَن يَتَّخِذِ ٱلشَّيْطَٰنَ وَلِيًّا مِّن دُونِ ٱللَّهِ فَقَدْ خَسِرَ خُسْرَانًا مُّبِينًا",
+      "derivedForms": [
+        "يُبَتِّكُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:08.164Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form II) imperfect verb",
+    "derivativeNote": "فَلَيُبَتِّكُنَّ is in the derivative form: يُبَتِّكُ",
+    "rootDefinitionHtml": "ب/ت/ك   b–t–k to uproot, to cut off at the base; to dedicate an animal to a certain idol, as was the custom in pre‐Islamic Arabia, by cutting off, or slitting its ear; to be sharp. Of this root, يُبَتِّكُنَّ yubattikunna, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُبَتِّكُ yubattik [imperf. of v. II بَتَّكَ battaka, trans.] to cut off or to slit [the ear of an animal] <br><br>(4:119) وَلأَُضِلَّنَّهُمْ وَلأَُمَنِّيَنَّهُمْ وَلآَمُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ الأَنْعَامِ وَلآَمُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ اللَّهِ [Indeed] I will [certainly] mislead them and incite vain desires in them; I will command them to slit the ears of cattle and will command them and they will alter God’s creation.",
+    "mainEntryId": "wdef-ب-ت-ك.يُبَتِّكُ",
+    "entries": [
+      {
+        "id": "wdef-ب-ت-ك",
+        "label": "ب-ت-ك",
+        "definitionHtml": "ب/ت/ك   b–t–k to uproot, to cut off at the base; to dedicate an animal to a certain idol, as was the custom in pre‐Islamic Arabia, by cutting off, or slitting its ear; to be sharp. Of this root, يُبَتِّكُنَّ yubattikunna, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ت-ك.يُبَتِّكُ",
+        "label": "يُبَتِّكُ",
+        "definitionHtml": "يُبَتِّكُ yubattik [imperf. of v. II بَتَّكَ battaka, trans.] to cut off or to slit [the ear of an animal] <br><br>(4:119) وَلأَُضِلَّنَّهُمْ وَلأَُمَنِّيَنَّهُمْ وَلآَمُرَنَّهُمْ فَلَيُبَتِّكُنَّ ءَاذَانَ الأَنْعَامِ وَلآَمُرَنَّهُمْ فَلَيُغَيِّرُنَّ خَلْقَ اللَّهِ [Indeed] I will [certainly] mislead them and incite vain desires in them; I will command them to slit the ears of cattle and will command them and they will alter God’s creation.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:08.031Z",
+      "refword": "4:119:4",
+      "lexword": "فَلَيُبَتِّكُنَّ"
+    }
+  }
+}

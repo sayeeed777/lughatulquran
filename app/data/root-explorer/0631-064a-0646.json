@@ -1,0 +1,74 @@
+{
+  "root": "رين",
+  "rootArabic": "رين",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "رَانَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَانَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 83,
+      "ayah": 14,
+      "text": "كَلَّا ۖ بَلْ ۜ رَانَ عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "كَلَّا ۖ بَلْ ۜ <a class=\"highlight-text\">رَانَ</a> عَلَىٰ قُلُوبِهِم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "رَانَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:57.336Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "رَانَ is in the derivative form: رَانَ",
+    "rootDefinitionHtml": "ر/ي/ن   r–y–n filth, rust; to cover, to engulf, to seal, to overwhelm, to overpower, to prevail. Of this root, رَانَ rāna occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "رَانَ rāna ı [v. intrans.] to encrust, to rust, to engulf, to corrode, to stifle <br><br>(83:14) كَلاَّ بَلْ رَانَ عَلَى قُلُوبِهِمْ مَا كَانُوا يَكْسِبُونَ no indeed!, but what they have committed has corroded their hearts.",
+    "mainEntryId": "wdef-ر-ي-ن.رَانَ",
+    "entries": [
+      {
+        "id": "wdef-ر-ي-ن",
+        "label": "ر-ي-ن",
+        "definitionHtml": "ر/ي/ن   r–y–n filth, rust; to cover, to engulf, to seal, to overwhelm, to overpower, to prevail. Of this root, رَانَ rāna occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ي-ن.رَانَ",
+        "label": "رَانَ",
+        "definitionHtml": "رَانَ rāna ı [v. intrans.] to encrust, to rust, to engulf, to corrode, to stifle <br><br>(83:14) كَلاَّ بَلْ رَانَ عَلَى قُلُوبِهِمْ مَا كَانُوا يَكْسِبُونَ no indeed!, but what they have committed has corroded their hearts.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:59.048Z",
+      "refword": "83:14:3",
+      "lexword": "رَانَ"
+    }
+  }
+}

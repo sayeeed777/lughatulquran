@@ -1,0 +1,234 @@
+{
+  "root": "عزم",
+  "rootArabic": "عزم",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "عَزْمٌ",
+      "count": 5
+    },
+    {
+      "form": "عَزَمَ",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَزَمَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَزَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "عَزْمٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزْمٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزْمٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزْمٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزْمٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 227,
+      "text": "وَإِنْ عَزَمُوا۟ ٱلطَّلَٰقَ فَإِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِنْ <a class=\"highlight-text\">عَزَمُوا۟</a> ٱلطَّلَٰقَ فَإِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "عَزَمَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 235,
+      "text": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا <a class=\"highlight-text\">تَعْزِمُوا۟</a> عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "عَزَمَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 159,
+      "text": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "highlightedHtml": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا <a class=\"highlight-text\">عَزَمْتَ</a> فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "derivedForms": [
+        "عَزَمَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 186,
+      "text": "لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًى كَثِيرًا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+      "highlightedHtml": "لَتُبْلَوُنَّ فِىٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ ٱلَّذِينَ أَشْرَكُوٓا۟ أَذًى كَثِيرًا ۚ وَإِن تَصْبِرُوا۟ وَتَتَّقُوا۟ فَإِنَّ ذَٰلِكَ مِنْ <a class=\"highlight-text\">عَزْمِ</a> ٱلْأُمُورِ",
+      "derivedForms": [
+        "عَزْمٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 115,
+      "text": "وَلَقَدْ عَهِدْنَآ إِلَىٰٓ آدَمَ مِن قَبْلُ فَنَسِىَ وَلَمْ نَجِدْ لَهُۥ عَزْمًا",
+      "highlightedHtml": "وَلَقَدْ عَهِدْنَآ إِلَىٰٓ آدَمَ مِن قَبْلُ فَنَسِىَ وَلَمْ نَجِدْ لَهُۥ <a class=\"highlight-text\">عَزْمًا</a>",
+      "derivedForms": [
+        "عَزْمٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 17,
+      "text": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+      "highlightedHtml": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ <a class=\"highlight-text\">عَزْمِ</a> ٱلْأُمُورِ",
+      "derivedForms": [
+        "عَزْمٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 43,
+      "text": "وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ عَزْمِ ٱلْأُمُورِ",
+      "highlightedHtml": "وَلَمَن صَبَرَ وَغَفَرَ إِنَّ ذَٰلِكَ لَمِنْ <a class=\"highlight-text\">عَزْمِ</a> ٱلْأُمُورِ",
+      "derivedForms": [
+        "عَزْمٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 35,
+      "text": "فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ ٱلْعَزْمِ مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ ۚ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّن نَّهَارٍۭ ۚ بَلَٰغٌ ۚ فَهَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلْفَٰسِقُونَ",
+      "highlightedHtml": "فَٱصْبِرْ كَمَا صَبَرَ أُو۟لُوا۟ <a class=\"highlight-text\">ٱلْعَزْمِ</a> مِنَ ٱلرُّسُلِ وَلَا تَسْتَعْجِل لَّهُمْ ۚ كَأَنَّهُمْ يَوْمَ يَرَوْنَ مَا يُوعَدُونَ لَمْ يَلْبَثُوٓا۟ إِلَّا سَاعَةً مِّن نَّهَارٍۭ ۚ بَلَٰغٌ ۚ فَهَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلْفَٰسِقُونَ",
+      "derivedForms": [
+        "عَزْمٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 21,
+      "text": "طَاعَةٌ وَقَوْلٌ مَّعْرُوفٌ ۚ فَإِذَا عَزَمَ ٱلْأَمْرُ فَلَوْ صَدَقُوا۟ ٱللَّهَ لَكَانَ خَيْرًا لَّهُمْ",
+      "highlightedHtml": "طَاعَةٌ وَقَوْلٌ مَّعْرُوفٌ ۚ فَإِذَا <a class=\"highlight-text\">عَزَمَ</a> ٱلْأَمْرُ فَلَوْ صَدَقُوا۟ ٱللَّهَ لَكَانَ خَيْرًا لَّهُمْ",
+      "derivedForms": [
+        "عَزَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:53.425Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "عَزَمُوا۟ is in the derivative form: عَزَمَ",
+    "rootDefinitionHtml": "ع/ز/م ʿ–z–m to decide, to urge, to intend, decision, resolution, resolute and stalwart. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> عَزَمَ ʿazama 4 times and عَزْم ʿazm 5 times.",
+    "mainDefinitionHtml": "عَزَمَ ʿazama i I [v. intrans.] <br><br><strong>1 </strong>to become serious, to become earnest <br><br>(47:21) ‏فَإِذَا‏ ‏عَزَمَ‏ ‏الأَمْرُ so when things become serious <br><br><strong>2 </strong>to reach a decision (according to another interpretation of 47:21) فَإِذَا‏ ‏عَزَمَ‏ ‏الأَمْرُ so if the one in command reaches a decision II [v. trans.] <br><br><strong>1 </strong>to intend, to decide <br><br>(2:227) وَإِنْ‏ ‏عَزَمُوا‏ ‏الطَّلاَقَ‏ but if they intend/decide to divorce <br><br><strong>2 </strong>to solemnise, to conclude, to confirm <br><br>(2:235) ‏وَلاَ‏ ‏تَعْزِمُوا‏ ‏عُقْدَةَ‏ ‏النِّكَاحِ‏ but do not confirm the marriage tie.",
+    "mainEntryId": "wdef-ع-ز-م.عَزَمَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ز-م",
+        "label": "ع-ز-م",
+        "definitionHtml": "ع/ز/م ʿ–z–m to decide, to urge, to intend, decision, resolution, resolute and stalwart. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> عَزَمَ ʿazama 4 times and عَزْم ʿazm 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ز-م.عَزَمَ",
+        "label": "عَزَمَ",
+        "definitionHtml": "عَزَمَ ʿazama i I [v. intrans.] <br><br><strong>1 </strong>to become serious, to become earnest <br><br>(47:21) ‏فَإِذَا‏ ‏عَزَمَ‏ ‏الأَمْرُ so when things become serious <br><br><strong>2 </strong>to reach a decision (according to another interpretation of 47:21) فَإِذَا‏ ‏عَزَمَ‏ ‏الأَمْرُ so if the one in command reaches a decision II [v. trans.] <br><br><strong>1 </strong>to intend, to decide <br><br>(2:227) وَإِنْ‏ ‏عَزَمُوا‏ ‏الطَّلاَقَ‏ but if they intend/decide to divorce <br><br><strong>2 </strong>to solemnise, to conclude, to confirm <br><br>(2:235) ‏وَلاَ‏ ‏تَعْزِمُوا‏ ‏عُقْدَةَ‏ ‏النِّكَاحِ‏ but do not confirm the marriage tie.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ز-م.عَزْمٌ",
+        "label": "عَزْمٌ",
+        "definitionHtml": "عَزْمٌ ʿazm [v. n./n.] <br><br><strong>1 </strong>determination, resolution, resolve, willpower <br><br>(20:115) وَلَقَدْ عَهِدْنَا إِلَى ءَادَمَ مِنْ قَبْلُ فَنَسِيَ وَلَمْ نَجِدْ لَهُ عَزْمًا We also commanded Adam before [you], but he forgot and We found him lacking in willpower; *<br><br>(46:35) ‏أُولُو‏ ‏الْعَزْمِ‏ ‏مِنَ‏ ‏الرُّسُلِ‏ [lit. the messengers of firm resolve] (either those who suffered particular hardships with endurance, e.g. Noah, Abraham, Job, Jacob and Jesus, or those who brought new legislation and endured hardships in trying to propagate them, e.g. Abraham, Moses and Jesus. Also said to apply to all the prophets with no exception–in spite of the reference to Adam, in <br><br>(20:115), as lacking in willpower–on the ground that God would not select for the task of prophethood any but the resolute. See ʾal‐Rāzı) <br><br><strong>2 </strong>seriousness *<br><br>(3:186)‏‏عَزْمِ‏ ‏الأُمُور resoluteness of action(s)/undertakings, actions and modes of behaviour considered to be the mainstay of the teachings, worthy pious undertakings.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:31.287Z",
+      "refword": "2:227:2",
+      "lexword": "عَزَمُوا۟"
+    }
+  }
+}

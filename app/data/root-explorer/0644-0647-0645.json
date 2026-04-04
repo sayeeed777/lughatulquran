@@ -1,0 +1,74 @@
+{
+  "root": "لهم",
+  "rootArabic": "لهم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ألْهَمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْهَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 91,
+      "ayah": 8,
+      "text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَلْهَمَهَا</a> فُجُورَهَا وَتَقْوَىٰهَا",
+      "derivedForms": [
+        "ألْهَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:49.529Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "فَأَلْهَمَهَا is in the derivative form: ألْهَمَ",
+    "rootDefinitionHtml": "ل/ﻫ/ﻡ   l–h–m gulping, glutton; inspiration, to inspire; notable person; fast horse; vast army. Of this root, only ألْهَمَ ʾalhama occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ألْهَمَ ʾalhama [v. IV, doubly trans.] to instil something into, to inspire <br><br>(91:8) فَأَلْهَمَهَا‏ ‏فُجُورَهَا‏ ‏وَتَقْوَاهَا‏so He instilled into it [the capacity for] its lewdness (or, rebellion) and its piety.",
+    "mainEntryId": "wdef-ل-ﻫ-ﻡ.ألْهَمَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ﻫ-ﻡ",
+        "label": "ل-ﻫ-ﻡ",
+        "definitionHtml": "ل/ﻫ/ﻡ   l–h–m gulping, glutton; inspiration, to inspire; notable person; fast horse; vast army. Of this root, only ألْهَمَ ʾalhama occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ﻫ-ﻡ.ألْهَمَ",
+        "label": "ألْهَمَ",
+        "definitionHtml": "ألْهَمَ ʾalhama [v. IV, doubly trans.] to instil something into, to inspire <br><br>(91:8) فَأَلْهَمَهَا‏ ‏فُجُورَهَا‏ ‏وَتَقْوَاهَا‏so He instilled into it [the capacity for] its lewdness (or, rebellion) and its piety.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:59.972Z",
+      "refword": "91:8:1",
+      "lexword": "فَأَلْهَمَهَا"
+    }
+  }
+}

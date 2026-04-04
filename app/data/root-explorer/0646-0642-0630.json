@@ -1,0 +1,173 @@
+{
+  "root": "نقذ",
+  "rootArabic": "نقذ",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "أَنْقَذَ",
+      "count": 3
+    },
+    {
+      "form": "يَسْتَنْقِذُ",
+      "count": 1
+    },
+    {
+      "form": "يُنْقَذُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْقَذَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَنْقِذُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْقَذَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يُنْقَذُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْقَذَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 103,
+      "text": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ فَأَنقَذَكُم مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
+      "highlightedHtml": "وَٱعْتَصِمُوا۟ بِحَبْلِ ٱللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا۟ ۚ وَٱذْكُرُوا۟ نِعْمَتَ ٱللَّهِ عَلَيْكُمْ إِذْ كُنتُمْ أَعْدَآءً فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰنًا وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٍ مِّنَ ٱلنَّارِ <a class=\"highlight-text\">فَأَنقَذَكُم</a> مِّنْهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَهْتَدُونَ",
+      "derivedForms": [
+        "أَنْقَذَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 73,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا <a class=\"highlight-text\">يَسْتَنقِذُوهُ</a> مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "derivedForms": [
+        "يَسْتَنْقِذُ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 23,
+      "text": "أَأَتَّخِذُ مِن دُونِهِۦٓ آلِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًٔا وَلَا يُنقِذُونِ",
+      "highlightedHtml": "أَأَتَّخِذُ مِن دُونِهِۦٓ آلِهَةً إِن يُرِدْنِ ٱلرَّحْمَٰنُ بِضُرٍّ لَّا تُغْنِ عَنِّى شَفَٰعَتُهُمْ شَيْـًٔا وَلَا <a class=\"highlight-text\">يُنقِذُونِ</a>",
+      "derivedForms": [
+        "أَنْقَذَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 43,
+      "text": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "highlightedHtml": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ <a class=\"highlight-text\">يُنقَذُونَ</a>",
+      "derivedForms": [
+        "يُنْقَذُ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 19,
+      "text": "أَفَمَنْ حَقَّ عَلَيْهِ كَلِمَةُ ٱلْعَذَابِ أَفَأَنتَ تُنقِذُ مَن فِى ٱلنَّارِ",
+      "highlightedHtml": "أَفَمَنْ حَقَّ عَلَيْهِ كَلِمَةُ ٱلْعَذَابِ أَفَأَنتَ <a class=\"highlight-text\">تُنقِذُ</a> مَن فِى ٱلنَّارِ",
+      "derivedForms": [
+        "أَنْقَذَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:55.754Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "فَأَنقَذَكُم is in the derivative form: أَنْقَذَ",
+    "rootDefinitionHtml": "ن/ق/ذ   n–q–dh to escape, to save, to rescue, to deliver, to retrieve, a horse taken from the enemy. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> أَنْقَذَ ʾanqadha 3 times; يُنْقَذُ yunqadh 1 time and يَسْتَنْقِذُ yastanqidh 1 time.",
+    "mainDefinitionHtml": "أَنْقَذَ ʾanqadha [v. IV trans.] <br><br><strong>1 </strong>to spare, to protect from <br><br>(3:103) وَكُنْتُمْ عَلَى شَفَا حُفْرَةٍ مِنَ النَّارِ فَأَنْقَذَكُمْ مِنْهَا and you were on the brink of a pit of Fire and He saved you from it <br><br><strong>2 </strong>to bail (someone) out, to free, to release <br><br>(39:19) أَفَأَنْتَ تُنْقِذُ مَنْ فِى النَّارِ can you [Prophet] rescue those [already] in the Fire?",
+    "mainEntryId": "wdef-ن-ق-ذ.أَنْقَذَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ق-ذ",
+        "label": "ن-ق-ذ",
+        "definitionHtml": "ن/ق/ذ   n–q–dh to escape, to save, to rescue, to deliver, to retrieve, a horse taken from the enemy. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> أَنْقَذَ ʾanqadha 3 times; يُنْقَذُ yunqadh 1 time and يَسْتَنْقِذُ yastanqidh 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ذ.أَنْقَذَ",
+        "label": "أَنْقَذَ",
+        "definitionHtml": "أَنْقَذَ ʾanqadha [v. IV trans.] <br><br><strong>1 </strong>to spare, to protect from <br><br>(3:103) وَكُنْتُمْ عَلَى شَفَا حُفْرَةٍ مِنَ النَّارِ فَأَنْقَذَكُمْ مِنْهَا and you were on the brink of a pit of Fire and He saved you from it <br><br><strong>2 </strong>to bail (someone) out, to free, to release <br><br>(39:19) أَفَأَنْتَ تُنْقِذُ مَنْ فِى النَّارِ can you [Prophet] rescue those [already] in the Fire?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ق-ذ.يَسْتَنْقِذُ",
+        "label": "يَسْتَنْقِذُ",
+        "definitionHtml": "يَسْتَنْقِذُ yastanqidh [imperf. of v. X اسْتَنْقَذَ ʾistanqadha, trans.] to retrieve, to recover <br><br>(22:73) وَإِنْ يَسْلُبْهُمُ الذُّبَابُ شَيْئًا لاَ يَسْتَنْقِذُوهُ مِنْهُ and if the flies robbed them of something, they could not rescue it from them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ذ.يُنْقَذُ",
+        "label": "يُنْقَذُ",
+        "definitionHtml": "يُنْقَذُ yunqadh [imperf. pass. of v. IV] to be saved, to be rescued <br><br>(36:43) وَإِنْ نَشَأْ نُغْرِقْهُمْ فَلاَ صَرِيخَ لَهُمْ وَلاَ هُمْ يُنْقَذُونَ and if We willed, We would drown them, and there would be no help for them, and they would not be rescued.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:02.333Z",
+      "refword": "3:103:26",
+      "lexword": "فَأَنقَذَكُم"
+    }
+  }
+}

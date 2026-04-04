@@ -1,0 +1,106 @@
+{
+  "root": "زلق",
+  "rootArabic": "زلق",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "زَلَق",
+      "count": 1
+    },
+    {
+      "form": "يُزْلِق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَلَق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُزْلِق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 40,
+      "text": "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًا زَلَقًا",
+      "highlightedHtml": "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًا <a class=\"highlight-text\">زَلَقًا</a>",
+      "derivedForms": [
+        "زَلَق"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 51,
+      "text": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ لَيُزْلِقُونَكَ بِأَبْصَٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌ",
+      "highlightedHtml": "وَإِن يَكَادُ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">لَيُزْلِقُونَكَ</a> بِأَبْصَٰرِهِمْ لَمَّا سَمِعُوا۟ ٱلذِّكْرَ وَيَقُولُونَ إِنَّهُۥ لَمَجْنُونٌ",
+      "derivedForms": [
+        "يُزْلِق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:10.785Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "زَلَقًا is in the derivative form: زَلَق",
+    "rootDefinitionHtml": "ز/ل/ق   z–l–q to slip, to slide, to be slippery, to be smooth. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُزْلِقون yuzliqūn and زَلَق zalaq.",
+    "mainDefinitionHtml": "زَلَق zalaq [v. n. used adjectivally] slippery; barren <br><br>(18:40) فَعَسَى رَبِّي أَنْ يُؤْتِيَنِ خَيْرًا مِنْ جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِنَ السَّمَاءِ فَتُصْبِحَ صَعِيدًا زَلَقًا my Lord may well give me [something] better than your garden, and send down upon it a well‐aimed thunderbolt from the sky, so that it becomes [nothing but] smooth [barren] earth.",
+    "mainEntryId": "wdef-ز-ل-ق.زَلَق",
+    "entries": [
+      {
+        "id": "wdef-ز-ل-ق",
+        "label": "ز-ل-ق",
+        "definitionHtml": "ز/ل/ق   z–l–q to slip, to slide, to be slippery, to be smooth. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُزْلِقون yuzliqūn and زَلَق zalaq.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ل-ق.زَلَق",
+        "label": "زَلَق",
+        "definitionHtml": "زَلَق zalaq [v. n. used adjectivally] slippery; barren <br><br>(18:40) فَعَسَى رَبِّي أَنْ يُؤْتِيَنِ خَيْرًا مِنْ جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِنَ السَّمَاءِ فَتُصْبِحَ صَعِيدًا زَلَقًا my Lord may well give me [something] better than your garden, and send down upon it a well‐aimed thunderbolt from the sky, so that it becomes [nothing but] smooth [barren] earth.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ل-ق.يُزْلِق",
+        "label": "يُزْلِق",
+        "definitionHtml": "يُزْلِق yuzliq [imperf. of v. IV, trans.] to cause to slip, to dislodge, to strike down <br><br>(68:51) وَإِنْ يَكَادُ الَّذِينَ كَفَرُوا لَيُزْلِقُونَكَ بِأَبْصَارِهِمْ لَمَّا سَمِعُوا الذِّكْر the disbelievers almost strike you down with their looks when they hear the Qur’an.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:27.956Z",
+      "refword": "18:40:15",
+      "lexword": "زَلَقًا"
+    }
+  }
+}

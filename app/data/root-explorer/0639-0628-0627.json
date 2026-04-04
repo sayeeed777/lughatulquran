@@ -1,0 +1,74 @@
+{
+  "root": "عبا",
+  "rootArabic": "عبا",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَعْبَأ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَعْبَأ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 25,
+      "ayah": 77,
+      "text": "قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا",
+      "highlightedHtml": "قُلْ مَا <a class=\"highlight-text\">يَعْبَؤُا۟</a> بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا",
+      "derivedForms": [
+        "يَعْبَأ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:18.127Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَعْبَؤُا۟ is in the derivative form: يَعْبَأ",
+    "rootDefinitionHtml": "ع/ب/أ   ʿ–b–ʾ load, weight; to care, to get ready, to pack. Of this root,يَعْبَؤُ yaʿbaʾu, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَعْبَأ yaʿbaʾ [imperf. v., intrans.] to care, to concern oneself with, to be solicitous about <br><br>(25:77)‏مَا‏ ‏يَعْبَؤُ‏ ‏بِكُمْ‏ ‏رَبِّي‏ ‏لَوْلاَ‏ ‏دُعَاؤُكُمْ ‏ what weight have you in the estimation of my Lord [also interpreted as: what will my Lord do with you] if it were not for your supplication?",
+    "mainEntryId": "wdef-ع-ب-أ.يَعْبَأ",
+    "entries": [
+      {
+        "id": "wdef-ع-ب-أ",
+        "label": "ع-ب-أ",
+        "definitionHtml": "ع/ب/أ   ʿ–b–ʾ load, weight; to care, to get ready, to pack. Of this root,يَعْبَؤُ yaʿbaʾu, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-أ.يَعْبَأ",
+        "label": "يَعْبَأ",
+        "definitionHtml": "يَعْبَأ yaʿbaʾ [imperf. v., intrans.] to care, to concern oneself with, to be solicitous about <br><br>(25:77)‏مَا‏ ‏يَعْبَؤُ‏ ‏بِكُمْ‏ ‏رَبِّي‏ ‏لَوْلاَ‏ ‏دُعَاؤُكُمْ ‏ what weight have you in the estimation of my Lord [also interpreted as: what will my Lord do with you] if it were not for your supplication?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:24.978Z",
+      "refword": "25:77:3",
+      "lexword": "يَعْبَؤُا۟"
+    }
+  }
+}

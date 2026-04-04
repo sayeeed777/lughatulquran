@@ -1,0 +1,641 @@
+{
+  "root": "شقق",
+  "rootArabic": "شقق",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 9,
+    "surahCount": 21,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "شاقّ",
+      "count": 7
+    },
+    {
+      "form": "شِقاق",
+      "count": 7
+    },
+    {
+      "form": "إنشَقَّ",
+      "count": 5
+    },
+    {
+      "form": "يَتَشَقَّق",
+      "count": 3
+    },
+    {
+      "form": "شَقَّ",
+      "count": 2
+    },
+    {
+      "form": "أشَقّ",
+      "count": 1
+    },
+    {
+      "form": "شَقّ",
+      "count": 1
+    },
+    {
+      "form": "شِقّ",
+      "count": 1
+    },
+    {
+      "form": "شُقَّة",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "شِقاق",
+          "count": 2,
+          "totalInQuran": 7
+        },
+        {
+          "form": "يَتَشَقَّق",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاقّ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "شِقاق",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاقّ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شُقَّة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِقاق",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشَقّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاقّ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "شِقّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إنشَقَّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِقاق",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَشَقَّق",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَقَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِقاق",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِقاق",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شاقّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَشَقَّق",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إنشَقَّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إنشَقَّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاقّ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إنشَقَّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شَقَّ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "شَقّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إنشَقَّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 74,
+      "text": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "highlightedHtml": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا <a class=\"highlight-text\">يَشَّقَّقُ</a> فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "derivedForms": [
+        "يَتَشَقَّق"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 137,
+      "text": "فَإِنْ آمَنُوا بِمِثْلِ مَآ آمَنْتُمْ بِهِۦ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا هُمْ فِى شِقَاقٍ ۖ فَسَيَكْفِيكَهُمُ ٱللَّهُ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "فَإِنْ آمَنُوا بِمِثْلِ مَآ آمَنْتُمْ بِهِۦ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا هُمْ فِى <a class=\"highlight-text\">شِقَاقٍ</a> ۖ فَسَيَكْفِيكَهُمُ ٱللَّهُ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 176,
+      "text": "ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى <a class=\"highlight-text\">شِقَاقٍۭ</a> بَعِيدٍ",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 35,
+      "text": "وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًا مِّنْ أَهْلِهِۦ وَحَكَمًا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا خَبِيرًا",
+      "highlightedHtml": "وَإِنْ خِفْتُمْ <a class=\"highlight-text\">شِقَاقَ</a> بَيْنِهِمَا فَٱبْعَثُوا۟ حَكَمًا مِّنْ أَهْلِهِۦ وَحَكَمًا مِّنْ أَهْلِهَآ إِن يُرِيدَآ إِصْلَٰحًا يُوَفِّقِ ٱللَّهُ بَيْنَهُمَآ ۗ إِنَّ ٱللَّهَ كَانَ عَلِيمًا خَبِيرًا",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 115,
+      "text": "وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
+      "highlightedHtml": "وَمَن <a class=\"highlight-text\">يُشَاقِقِ</a> ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
+      "derivedForms": [
+        "شاقّ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 13,
+      "text": "ذَٰلِكَ بِأَنَّهُمْ شَآقُّوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَمَن يُشَاقِقِ ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّهُمْ <a class=\"highlight-text\">شَآقُّوا۟</a> ٱللَّهَ وَرَسُولَهُۥ ۚ وَمَن <a class=\"highlight-text\">يُشَاقِقِ</a> ٱللَّهَ وَرَسُولَهُۥ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "شاقّ",
+        "شاقّ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 42,
+      "text": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَّٱتَّبَعُوكَ وَلَٰكِنۢ بَعُدَتْ عَلَيْهِمُ ٱلشُّقَّةُ ۚ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَٰذِبُونَ",
+      "highlightedHtml": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَّٱتَّبَعُوكَ وَلَٰكِنۢ بَعُدَتْ عَلَيْهِمُ <a class=\"highlight-text\">ٱلشُّقَّةُ</a> ۚ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَٰذِبُونَ",
+      "derivedForms": [
+        "شُقَّة"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 89,
+      "text": "وَيَٰقَوْمِ لَا يَجْرِمَنَّكُمْ شِقَاقِىٓ أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍ ۚ وَمَا قَوْمُ لُوطٍ مِّنكُم بِبَعِيدٍ",
+      "highlightedHtml": "وَيَٰقَوْمِ لَا يَجْرِمَنَّكُمْ <a class=\"highlight-text\">شِقَاقِىٓ</a> أَن يُصِيبَكُم مِّثْلُ مَآ أَصَابَ قَوْمَ نُوحٍ أَوْ قَوْمَ هُودٍ أَوْ قَوْمَ صَٰلِحٍ ۚ وَمَا قَوْمُ لُوطٍ مِّنكُم بِبَعِيدٍ",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 34,
+      "text": "لَّهُمْ عَذَابٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ الْآخِرَةِ أَشَقُّ ۖ وَمَا لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
+      "highlightedHtml": "لَّهُمْ عَذَابٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ الْآخِرَةِ <a class=\"highlight-text\">أَشَقُّ</a> ۖ وَمَا لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
+      "derivedForms": [
+        "أشَقّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 7,
+      "text": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا بِشِقِّ ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَتَحْمِلُ أَثْقَالَكُمْ إِلَىٰ بَلَدٍ لَّمْ تَكُونُوا۟ بَٰلِغِيهِ إِلَّا <a class=\"highlight-text\">بِشِقِّ</a> ٱلْأَنفُسِ ۚ إِنَّ رَبَّكُمْ لَرَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "شِقّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 27,
+      "text": "ثُمَّ يَوْمَ ٱلْقِيَٰمَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تُشَٰٓقُّونَ فِيهِمْ ۚ قَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ إِنَّ ٱلْخِزْىَ ٱلْيَوْمَ وَٱلسُّوٓءَ عَلَى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "ثُمَّ يَوْمَ ٱلْقِيَٰمَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ <a class=\"highlight-text\">تُشَٰٓقُّونَ</a> فِيهِمْ ۚ قَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ إِنَّ ٱلْخِزْىَ ٱلْيَوْمَ وَٱلسُّوٓءَ عَلَى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "شاقّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 90,
+      "text": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
+      "highlightedHtml": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ <a class=\"highlight-text\">وَتَنشَقُّ</a> ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
+      "derivedForms": [
+        "إنشَقَّ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 53,
+      "text": "لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَٰنُ فِتْنَةً لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَفِى شِقَاقٍۭ بَعِيدٍ",
+      "highlightedHtml": "لِّيَجْعَلَ مَا يُلْقِى ٱلشَّيْطَٰنُ فِتْنَةً لِّلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْقَاسِيَةِ قُلُوبُهُمْ ۗ وَإِنَّ ٱلظَّٰلِمِينَ لَفِى <a class=\"highlight-text\">شِقَاقٍۭ</a> بَعِيدٍ",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 25,
+      "text": "وَيَوْمَ تَشَقَّقُ ٱلسَّمَآءُ بِٱلْغَمَٰمِ وَنُزِّلَ ٱلْمَلَٰٓئِكَةُ تَنزِيلًا",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">تَشَقَّقُ</a> ٱلسَّمَآءُ بِٱلْغَمَٰمِ وَنُزِّلَ ٱلْمَلَٰٓئِكَةُ تَنزِيلًا",
+      "derivedForms": [
+        "يَتَشَقَّق"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 27,
+      "text": "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَٰنِىَ حِجَجٍ ۖ فَإِنْ أَتْمَمْتَ عَشْرًا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "قَالَ إِنِّىٓ أُرِيدُ أَنْ أُنكِحَكَ إِحْدَى ٱبْنَتَىَّ هَٰتَيْنِ عَلَىٰٓ أَن تَأْجُرَنِى ثَمَٰنِىَ حِجَجٍ ۖ فَإِنْ أَتْمَمْتَ عَشْرًا فَمِنْ عِندِكَ ۖ وَمَآ أُرِيدُ أَنْ <a class=\"highlight-text\">أَشُقَّ</a> عَلَيْكَ ۚ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "شَقَّ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 2,
+      "text": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى عِزَّةٍ وَشِقَاقٍ",
+      "highlightedHtml": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى عِزَّةٍ <a class=\"highlight-text\">وَشِقَاقٍ</a>",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 52,
+      "text": "قُلْ أَرَءَيْتُمْ إِن كَانَ مِنْ عِندِ ٱللَّهِ ثُمَّ كَفَرْتُم بِهِۦ مَنْ أَضَلُّ مِمَّنْ هُوَ فِى شِقَاقٍۭ بَعِيدٍ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِن كَانَ مِنْ عِندِ ٱللَّهِ ثُمَّ كَفَرْتُم بِهِۦ مَنْ أَضَلُّ مِمَّنْ هُوَ فِى <a class=\"highlight-text\">شِقَاقٍۭ</a> بَعِيدٍ",
+      "derivedForms": [
+        "شِقاق"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 32,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ وَشَآقُّوا۟ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا وَسَيُحْبِطُ أَعْمَٰلَهُمْ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوا۟ عَن سَبِيلِ ٱللَّهِ <a class=\"highlight-text\">وَشَآقُّوا۟</a> ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَىٰ لَن يَضُرُّوا۟ ٱللَّهَ شَيْـًٔا وَسَيُحْبِطُ أَعْمَٰلَهُمْ",
+      "derivedForms": [
+        "شاقّ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 44,
+      "text": "يَوْمَ تَشَقَّقُ ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">تَشَقَّقُ</a> ٱلْأَرْضُ عَنْهُمْ سِرَاعًا ۚ ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
+      "derivedForms": [
+        "يَتَشَقَّق"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 1,
+      "text": "ٱقْتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلْقَمَرُ",
+      "highlightedHtml": "ٱقْتَرَبَتِ ٱلسَّاعَةُ <a class=\"highlight-text\">وَٱنشَقَّ</a> ٱلْقَمَرُ",
+      "derivedForms": [
+        "إنشَقَّ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 37,
+      "text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">ٱنشَقَّتِ</a> ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "derivedForms": [
+        "إنشَقَّ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 4,
+      "text": "ذَٰلِكَ بِأَنَّهُمْ شَآقُّوا۟ ٱللَّهَ وَرَسُولَهُۥ ۖ وَمَن يُشَآقِّ ٱللَّهَ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّهُمْ <a class=\"highlight-text\">شَآقُّوا۟</a> ٱللَّهَ وَرَسُولَهُۥ ۖ وَمَن <a class=\"highlight-text\">يُشَآقِّ</a> ٱللَّهَ فَإِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "شاقّ",
+        "شاقّ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 16,
+      "text": "وَٱنشَقَّتِ ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱنشَقَّتِ</a> ٱلسَّمَآءُ فَهِىَ يَوْمَئِذٍ وَاهِيَةٌ",
+      "derivedForms": [
+        "إنشَقَّ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 26,
+      "text": "ثُمَّ شَقَقْنَا ٱلْأَرْضَ شَقًّا",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">شَقَقْنَا</a> ٱلْأَرْضَ <a class=\"highlight-text\">شَقًّا</a>",
+      "derivedForms": [
+        "شَقَّ",
+        "شَقّ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 1,
+      "text": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتْ",
+      "highlightedHtml": "إِذَا ٱلسَّمَآءُ <a class=\"highlight-text\">ٱنشَقَّتْ</a>",
+      "derivedForms": [
+        "إنشَقَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:17.083Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form V) imperfect verb",
+    "derivativeNote": "يَشَّقَّقُ is in the derivative form: يَتَشَقَّق",
+    "rootDefinitionHtml": "ش/ق/ق   sh–q–q to split, to cleave, to slit, to rent, to rip<br>; fissure, crack; to come forth; to effect disunion, to act contrarily, dispute; hardship, difficulty, distress, to burden. <br><br>Of this root, 9 forms occur 28 times in the Qur’an:<br> شَقَّ shaqqa 2 times; شاقَّ shāqqa 7 times; يَتَشَقَّق yatashaqqaq 3 times; إنشَقَّ ʾinshaqqa 5 times; شَقّ shaqq 1 time; شِقّ shiqq 1 time; شُقَّة shuqqatun 1 time; أَشَقّ ʾashaqq 1 time and شِقاق shiqāq 7 times.",
+    "mainDefinitionHtml": "يَتَشَقَّق yatashaqqaq (also assimilated form يَشَّقَّقُ yashshaqqaq) [imperf. of v. V, intrans.] to split open, to crack, to cleave asunder <br><br>(2:74) وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ الْمَاءُ and some of them split open so that water comes out of them.",
+    "mainEntryId": "wdef-ش-ق-ق.يَتَشَقَّق",
+    "entries": [
+      {
+        "id": "wdef-ش-ق-ق",
+        "label": "ش-ق-ق",
+        "definitionHtml": "ش/ق/ق   sh–q–q to split, to cleave, to slit, to rent, to rip<br>; fissure, crack; to come forth; to effect disunion, to act contrarily, dispute; hardship, difficulty, distress, to burden. <br><br>Of this root, 9 forms occur 28 times in the Qur’an:<br> شَقَّ shaqqa 2 times; شاقَّ shāqqa 7 times; يَتَشَقَّق yatashaqqaq 3 times; إنشَقَّ ʾinshaqqa 5 times; شَقّ shaqq 1 time; شِقّ shiqq 1 time; شُقَّة shuqqatun 1 time; أَشَقّ ʾashaqq 1 time and شِقاق shiqāq 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.يَتَشَقَّق",
+        "label": "يَتَشَقَّق",
+        "definitionHtml": "يَتَشَقَّق yatashaqqaq (also assimilated form يَشَّقَّقُ yashshaqqaq) [imperf. of v. V, intrans.] to split open, to crack, to cleave asunder <br><br>(2:74) وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ الْمَاءُ and some of them split open so that water comes out of them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ق-ق.أشَقّ",
+        "label": "أشَقّ",
+        "definitionHtml": "أشَقّ ʾashaqq [elat.] harder, more difficult <br><br>(13:34) وَلَعَذَابُ الآخِرَةِ أَشَقُّ but surely the punishment of the Hereafter is harder.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.إنشَقَّ",
+        "label": "إنشَقَّ",
+        "definitionHtml": "إنشَقَّ ʾinshaqqa [v. VII, intrans.] to split up, to crack <br><br>(54:1) اقْتَرَبَتِ السَّاعَةُ وَانْشَقَّ الْقَمَرُ the Hour draws near and the moon is split in two.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شاقّ",
+        "label": "شاقّ",
+        "definitionHtml": "شاقّ shāqqa [v. III, trans.] to dispute rebelliously with, to argue in an antagonistic fashion, to cause/create dispute with <br><br>(4:115) وَمَنْ يُشَاقِقِ الرَّسُولَ مِنْ بَعْدِ مَا تَبَيَّنَ لَهُ الْهُدَى and whoever creates dispute with the Messenger, after the guidance has become clear to him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شَقّ",
+        "label": "شَقّ",
+        "definitionHtml": "شَقّ shaqq [v. n., used emphatically] fissuring, cracking, splitting up, breaking asunder <br><br>(80:26) ثُمَّ شَقَقْنَا الأَرْضَ شَقًّا then We split the earth asunder.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شَقَّ",
+        "label": "شَقَّ",
+        "definitionHtml": "شَقَّ shaqqa u I [v. intrans. with prep. عَلى] to cause hardship to, to place difficulty on <br><br>(28:27) وَمَا أُرِيدُ أَنْ أَشُقَّ عَلَيْكَ for I do not wish to place hardship on you II [v. trans.] to split, to cleave <br><br>(80:26) ثُمَّ شَقَقْنَا الأَرْضَ شَقًّا then We split the earth asunder.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شُقَّة",
+        "label": "شُقَّة",
+        "definitionHtml": "شُقَّة shuqqatun [n.] region, tract, quarter (towards which one travels), difficult journey, distance, trouble, toil <br><br>(9:42) لَكِنْ بَعُدَتْ عَلَيْهِمُ الشُّقَّةُ but the distance was too far for them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شِقاق",
+        "label": "شِقاق",
+        "definitionHtml": "شِقاق shiqāq I [n.] schism, contention, heresy, rebellious disputation <br><br>(2:176) وَإِنَّ الَّذِينَ اخْتَلَفُوا فِى الْكِتَابِ لَفِي شِقَاقٍ بَعِيدٍ those who differ about the Scripture are in deep schism II [v. n.] separating, breaking up <br><br>(4:35) وَإِنْ خِفْتُمْ شِقَاقَ بَيْنِهِمَا فَابْعَثُوا حَكَمًا مِنْ أَهْلِهِ وَحَكَمًا مِنْ أَهْلِهَا and if you fear a split between the two, appoint one arbiter from his family and one from hers. * الإنشِقاق name of Sura 84, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Splitting’ of the sky.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-ق.شِقّ",
+        "label": "شِقّ",
+        "definitionHtml": "شِقّ shiqq [n./v. n.] half; difficulty, hardship, distress *<br><br>(16:7) بِشِقِّ الأَنْفُسِ with extreme difficulty [lit. with splitting of the souls].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:36.358Z",
+      "refword": "2:74:22",
+      "lexword": "يَشَّقَّقُ"
+    }
+  }
+}

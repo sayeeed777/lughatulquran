@@ -1,0 +1,243 @@
+{
+  "root": "قبر",
+  "rootArabic": "قبر",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "قَبْر",
+      "count": 6
+    },
+    {
+      "form": "أَقْبَرَ",
+      "count": 1
+    },
+    {
+      "form": "مَقَابِر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْبَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 100,
+      "surahName": "Al-'Adiyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 102,
+      "surahName": "At-Takathur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَقَابِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 84,
+      "text": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ <a class=\"highlight-text\">قَبْرِهِۦٓ</a> ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 7,
+      "text": "وَأَنَّ ٱلسَّاعَةَ آتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ ٱللَّهَ يَبْعَثُ مَن فِى ٱلْقُبُورِ",
+      "highlightedHtml": "وَأَنَّ ٱلسَّاعَةَ آتِيَةٌ لَّا رَيْبَ فِيهَا وَأَنَّ ٱللَّهَ يَبْعَثُ مَن فِى <a class=\"highlight-text\">ٱلْقُبُورِ</a>",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 22,
+      "text": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْأَحْيَآءُ وَلَا ٱلْأَمْوَٰتُ ۚ إِنَّ ٱللَّهَ يُسْمِعُ مَن يَشَآءُ ۖ وَمَآ أَنتَ بِمُسْمِعٍ مَّن فِى ٱلْقُبُورِ",
+      "highlightedHtml": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْأَحْيَآءُ وَلَا ٱلْأَمْوَٰتُ ۚ إِنَّ ٱللَّهَ يُسْمِعُ مَن يَشَآءُ ۖ وَمَآ أَنتَ بِمُسْمِعٍ مَّن فِى <a class=\"highlight-text\">ٱلْقُبُورِ</a>",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 13,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا۟ مِنَ الْآخِرَةِ كَمَا يَئِسَ ٱلْكُفَّارُ مِنْ أَصْحَٰبِ ٱلْقُبُورِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَوَلَّوْا۟ قَوْمًا غَضِبَ ٱللَّهُ عَلَيْهِمْ قَدْ يَئِسُوا۟ مِنَ الْآخِرَةِ كَمَا يَئِسَ ٱلْكُفَّارُ مِنْ أَصْحَٰبِ <a class=\"highlight-text\">ٱلْقُبُورِ</a>",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 21,
+      "text": "ثُمَّ أَمَاتَهُۥ فَأَقْبَرَهُۥ",
+      "highlightedHtml": "ثُمَّ أَمَاتَهُۥ <a class=\"highlight-text\">فَأَقْبَرَهُۥ</a>",
+      "derivedForms": [
+        "أَقْبَرَ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 4,
+      "text": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">ٱلْقُبُورُ</a> بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 100,
+      "ayah": 9,
+      "text": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "highlightedHtml": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ مَا فِى <a class=\"highlight-text\">ٱلْقُبُورِ</a>",
+      "derivedForms": [
+        "قَبْر"
+      ]
+    },
+    {
+      "surah": 102,
+      "ayah": 2,
+      "text": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "highlightedHtml": "حَتَّىٰ زُرْتُمُ <a class=\"highlight-text\">ٱلْمَقَابِرَ</a>",
+      "derivedForms": [
+        "مَقَابِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:27.526Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "قَبْرِهِۦٓ is in the derivative form: قَبْر",
+    "rootDefinitionHtml": "ق/ب/ر   q–b–r grave, tomb, cemetery, to bury, to entomb. <br><br>Of this root, 4 forms occur in 8 places in the Qur’an:<br> أَقْبَرَ ʾaqbara 1 time; قَبْر qabr 1 time; قُبُور qubūr 5 times and مَقَابِر maqābir 1 time.",
+    "mainDefinitionHtml": "قَبْر qabr [n.; pl. قُبُور qubūr] tomb, grave <br><br>(22:7) وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِى الْقُبُورِ and surely God will raise those who are in the graves.",
+    "mainEntryId": "wdef-ق-ب-ر.قَبْر",
+    "entries": [
+      {
+        "id": "wdef-ق-ب-ر",
+        "label": "ق-ب-ر",
+        "definitionHtml": "ق/ب/ر   q–b–r grave, tomb, cemetery, to bury, to entomb. <br><br>Of this root, 4 forms occur in 8 places in the Qur’an:<br> أَقْبَرَ ʾaqbara 1 time; قَبْر qabr 1 time; قُبُور qubūr 5 times and مَقَابِر maqābir 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ر.قَبْر",
+        "label": "قَبْر",
+        "definitionHtml": "قَبْر qabr [n.; pl. قُبُور qubūr] tomb, grave <br><br>(22:7) وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِى الْقُبُورِ and surely God will raise those who are in the graves.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ب-ر.أَقْبَرَ",
+        "label": "أَقْبَرَ",
+        "definitionHtml": "أَقْبَرَ ʾaqbara [v. IV, trans.] to cause to be buried, to hand over someone for burial, to cause burying to be the norm <br><br>(80:21) ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ then He causes him to die and be buried (or, made burial the norm for humankind).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ر.مَقَابِر",
+        "label": "مَقَابِر",
+        "definitionHtml": "مَقَابِر maqābir [pl. of n. مَقْبَرَةٌ maqbaratun] graves, burying places; cemetery, graveyard *<br><br>(102:2) حَتَّى زُرْتُمُ الْمَقَابِرَ until you go into your graves [lit. until you visit the cemeteries].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:34.636Z",
+      "refword": "9:84:11",
+      "lexword": "قَبْرِهِۦٓ"
+    }
+  }
+}

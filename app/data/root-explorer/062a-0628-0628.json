@@ -1,0 +1,139 @@
+{
+  "root": "تبب",
+  "rootArabic": "تبب",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَبَّ",
+      "count": 2
+    },
+    {
+      "form": "تَبَابٌ",
+      "count": 1
+    },
+    {
+      "form": "تَتْبِيبٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَتْبِيبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَبَابٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 111,
+      "surahName": "Al-Lahab",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَبَّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 101,
+      "text": "وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن ظَلَمُوٓا۟ أَنفُسَهُمْ ۖ فَمَآ أَغْنَتْ عَنْهُمْ آلِهَتُهُمُ ٱلَّتِى يَدْعُونَ مِن دُونِ ٱللَّهِ مِن شَىْءٍ لَّمَّا جَآءَ أَمْرُ رَبِّكَ ۖ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ",
+      "highlightedHtml": "وَمَا ظَلَمْنَٰهُمْ وَلَٰكِن ظَلَمُوٓا۟ أَنفُسَهُمْ ۖ فَمَآ أَغْنَتْ عَنْهُمْ آلِهَتُهُمُ ٱلَّتِى يَدْعُونَ مِن دُونِ ٱللَّهِ مِن شَىْءٍ لَّمَّا جَآءَ أَمْرُ رَبِّكَ ۖ وَمَا زَادُوهُمْ غَيْرَ <a class=\"highlight-text\">تَتْبِيبٍ</a>",
+      "derivedForms": [
+        "تَتْبِيبٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 37,
+      "text": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "highlightedHtml": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى <a class=\"highlight-text\">تَبَابٍ</a>",
+      "derivedForms": [
+        "تَبَابٌ"
+      ]
+    },
+    {
+      "surah": 111,
+      "ayah": 1,
+      "text": "تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "highlightedHtml": "<a class=\"highlight-text\">تَبَّتْ</a> يَدَآ أَبِى لَهَبٍ <a class=\"highlight-text\">وَتَبَّ</a>",
+      "derivedForms": [
+        "تَبَّ",
+        "تَبَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:17.030Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite (form II) verbal noun",
+    "derivativeNote": "تَتْبِيبٍ is in the derivative form: تَتْبِيبٌ",
+    "rootDefinitionHtml": "ت/ب/ب   t–b–b to stamp down, to flatten, to crush, to ruin<br>; to cause to lose, to destroy; to become stable, to settle down, to become well‐ordered. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> تَبَّ tabba 2 times; تَبَابٌ tabāb 1 time and تَتْبِيبٌ tatbıb 1 time.",
+    "mainDefinitionHtml": "تَتْبِيبٌ tatbıb [v. n.] utter destruction, ruin <br><br>(11:101) فَمَا أَغْنَتْ عَنْهُمْ ءَالِهَتُهُمُ الَّتِي يَدْعُونَ مِنْ دُونِ اللَّهِ مِنْ شَيْءٍ لَمَّا جَاءَ أَمْرُ رَبِّكَ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ their gods, which they called on beside God, were of no use to them when what your Lord had ordained came about; they only increased their ruin.",
+    "mainEntryId": "wdef-ت-ب-ب.تَتْبِيبٌ",
+    "entries": [
+      {
+        "id": "wdef-ت-ب-ب",
+        "label": "ت-ب-ب",
+        "definitionHtml": "ت/ب/ب   t–b–b to stamp down, to flatten, to crush, to ruin<br>; to cause to lose, to destroy; to become stable, to settle down, to become well‐ordered. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> تَبَّ tabba 2 times; تَبَابٌ tabāb 1 time and تَتْبِيبٌ tatbıb 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ب-ب.تَتْبِيبٌ",
+        "label": "تَتْبِيبٌ",
+        "definitionHtml": "تَتْبِيبٌ tatbıb [v. n.] utter destruction, ruin <br><br>(11:101) فَمَا أَغْنَتْ عَنْهُمْ ءَالِهَتُهُمُ الَّتِي يَدْعُونَ مِنْ دُونِ اللَّهِ مِنْ شَيْءٍ لَمَّا جَاءَ أَمْرُ رَبِّكَ وَمَا زَادُوهُمْ غَيْرَ تَتْبِيبٍ their gods, which they called on beside God, were of no use to them when what your Lord had ordained came about; they only increased their ruin.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ت-ب-ب.تَبَابٌ",
+        "label": "تَبَابٌ",
+        "definitionHtml": "تَبَابٌ tabāb [v. n.] loss, ruin, failure <br><br>(40:37) وَمَا كَيْدُ فِرْعَوْنَ إِلاَّ فِى تَبَابٍ and Pharaoh’s scheming [ends] only in failure.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ب-ب.تَبَّ",
+        "label": "تَبَّ",
+        "definitionHtml": "تَبَّ tabba i [v. intrans. also trans.] to lose, to come to ruin, to perish <br><br>(111:1) تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ may the hands of ʾabū Lahab be ruined [paralysed]! May he come to ruin [too]; * تَبَّتْname of Sura 111, Meccan sura, so‐named because of the initial word ‘to be paralysed’ in the sura. It is also called أبو لهب (see ب/ه/ل l–h–b) and المَسَد (see د/س/م m–s–d).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:20.304Z",
+      "refword": "11:101:24",
+      "lexword": "تَتْبِيبٍ"
+    }
+  }
+}

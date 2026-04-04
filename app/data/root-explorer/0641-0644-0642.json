@@ -1,0 +1,147 @@
+{
+  "root": "فلق",
+  "rootArabic": "فلق",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "فالِق",
+      "count": 2
+    },
+    {
+      "form": "انْفَلَقَ",
+      "count": 1
+    },
+    {
+      "form": "فَلَق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فالِق",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْفَلَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَلَق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 95,
+      "text": "إِنَّ ٱللَّهَ فَالِقُ ٱلْحَبِّ وَٱلنَّوَىٰ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ <a class=\"highlight-text\">فَالِقُ</a> ٱلْحَبِّ وَٱلنَّوَىٰ وَٱلنَّوَىٰ ۖ يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَمُخْرِجُ ٱلْمَيِّتِ مِنَ ٱلْحَىِّ ۚ ذَٰلِكُمُ ٱللَّهُ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "derivedForms": [
+        "فالِق"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 96,
+      "text": "فَالِقُ ٱلْإِصْبَاحِ وَجَعَلَ ٱلَّيْلَ سَكَنًا وَٱلشَّمْسَ وَٱلْقَمَرَ حُسْبَانًا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَالِقُ</a> ٱلْإِصْبَاحِ وَجَعَلَ ٱلَّيْلَ سَكَنًا وَٱلشَّمْسَ وَٱلْقَمَرَ حُسْبَانًا ۚ ذَٰلِكَ تَقْدِيرُ ٱلْعَزِيزِ ٱلْعَلِيمِ",
+      "derivedForms": [
+        "فالِق"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 63,
+      "text": "فَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْبَحْرَ ۖ فَٱنفَلَقَ فَكَانَ كُلُّ فِرْقٍ كَٱلطَّوْدِ ٱلْعَظِيمِ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْبَحْرَ ۖ <a class=\"highlight-text\">فَٱنفَلَقَ</a> فَكَانَ كُلُّ فِرْقٍ كَٱلطَّوْدِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "انْفَلَقَ"
+      ]
+    },
+    {
+      "surah": 113,
+      "ayah": 1,
+      "text": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "highlightedHtml": "قُلْ أَعُوذُ بِرَبِّ <a class=\"highlight-text\">ٱلْفَلَقِ</a>",
+      "derivedForms": [
+        "فَلَق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:15.080Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine active participle",
+    "derivativeNote": "فَالِقُ is in the derivative form: فالِق",
+    "rootDefinitionHtml": "ف/ل/ق   f–l–q to split, to cleave, to crack, to open up<br>; fault, rift, cleft; section, part; (of light) to show through; (of seed) to sprout. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> انْفَلَقَ ʾinfalaqa 1 time; فَلَق falaq 1 time and فالِق fāliq 2 times.",
+    "mainDefinitionHtml": "فالِق fāliq [act. part.] one who splits something open, one who causes something to split open <br><br>(6:95) إِنَّ‏ ‏اللَّهَ‏ ‏فَالِقُ‏ ‏الْحَبِّ‏ ‏وَالنَّوَى it is God who causes the seed and the fruit-stone to split open [germinates them].",
+    "mainEntryId": "wdef-ف-ل-ق.فالِق",
+    "entries": [
+      {
+        "id": "wdef-ف-ل-ق",
+        "label": "ف-ل-ق",
+        "definitionHtml": "ف/ل/ق   f–l–q to split, to cleave, to crack, to open up<br>; fault, rift, cleft; section, part; (of light) to show through; (of seed) to sprout. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> انْفَلَقَ ʾinfalaqa 1 time; فَلَق falaq 1 time and فالِق fāliq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ل-ق.فالِق",
+        "label": "فالِق",
+        "definitionHtml": "فالِق fāliq [act. part.] one who splits something open, one who causes something to split open <br><br>(6:95) إِنَّ‏ ‏اللَّهَ‏ ‏فَالِقُ‏ ‏الْحَبِّ‏ ‏وَالنَّوَى it is God who causes the seed and the fruit-stone to split open [germinates them].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ل-ق.انْفَلَقَ",
+        "label": "انْفَلَقَ",
+        "definitionHtml": "انْفَلَقَ ʾinfalaqa [v. VII, intrans.] to divide, to open, to part <br><br>(26:63) ‏فَانْفَلَقَ‏ ‏فَكَانَ‏ ‏كُلُّ‏ ‏فِرْقٍ‏ ‏كَالطَّوْدِ‏ ‏الْعَظِيمِ‏ and it [the sea] parted, and each part was like a great mountain.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ل-ق.فَلَق",
+        "label": "فَلَق",
+        "definitionHtml": "فَلَق falaq [v. n./n.] fissuring, fissure; breaking of the dawn; Creation; the distinction between right and wrong, truth and falsehood <br><br>(113:1) قُلْ‏ ‏أَعُوذُ‏ ‏بِرَبِّ‏ ‏الْفَلَقِ say, ‘I seek refuge with the Lord of daybreak (or, creation)’; * الْفَلَقِname of Sura 113, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to the ‘Daybreak’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:08.134Z",
+      "refword": "6:95:3",
+      "lexword": "فَالِقُ"
+    }
+  }
+}

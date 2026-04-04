@@ -1,0 +1,257 @@
+{
+  "root": "شبه",
+  "rootArabic": "شبه",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "مُتَشابِه",
+      "count": 6
+    },
+    {
+      "form": "تَشابَهَ",
+      "count": 4
+    },
+    {
+      "form": "شُبِّهَ",
+      "count": 1
+    },
+    {
+      "form": "مُشْتَبِهاً",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَشابَهَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُتَشابِه",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَشابَهَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُتَشابِه",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شُبِّهَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مُتَشابِه",
+          "count": 3,
+          "totalInQuran": 6
+        },
+        {
+          "form": "مُشْتَبِهاً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَشابَهَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَشابِه",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 25,
+      "text": "وَبَشِّرِ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا ۖ وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "وَبَشِّرِ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا ۙ قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ ۖ وَأُتُوا۟ بِهِۦ <a class=\"highlight-text\">مُتَشَٰبِهًا</a> ۖ وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَهُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "مُتَشابِه"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 70,
+      "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ إِنَّ ٱلْبَقَرَ تَشَٰبَهَ عَلَيْنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهْتَدُونَ",
+      "highlightedHtml": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ إِنَّ ٱلْبَقَرَ <a class=\"highlight-text\">تَشَٰبَهَ</a> عَلَيْنَا وَإِنَّآ إِن شَآءَ ٱللَّهُ لَمُهْتَدُونَ",
+      "derivedForms": [
+        "تَشابَهَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 118,
+      "text": "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ آيَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْءَايَٰتِ لِقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ آيَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ <a class=\"highlight-text\">تَشَٰبَهَتْ</a> قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْءَايَٰتِ لِقَوْمٍ يُوقِنُونَ",
+      "derivedForms": [
+        "تَشابَهَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 7,
+      "text": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَٰبَ مِنْهُ آيَاتٌ مُّحْكَمَٰتٌ هُنَّ أُمُّ ٱلْكِتَٰبِ وَأُخَرُ مُتَشَٰبِهَٰتٌ ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا تَشَٰبَهَ مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ آمَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَنزَلَ عَلَيْكَ ٱلْكِتَٰبَ مِنْهُ آيَاتٌ مُّحْكَمَٰتٌ هُنَّ أُمُّ ٱلْكِتَٰبِ وَأُخَرُ <a class=\"highlight-text\">مُتَشَٰبِهَٰتٌ</a> ۖ فَأَمَّا ٱلَّذِينَ فِى قُلُوبِهِمْ زَيْغٌ فَيَتَّبِعُونَ مَا <a class=\"highlight-text\">تَشَٰبَهَ</a> مِنْهُ ٱبْتِغَآءَ ٱلْفِتْنَةِ وَٱبْتِغَآءَ تَأْوِيلِهِۦ ۗ وَمَا يَعْلَمُ تَأْوِيلَهُۥٓ إِلَّا ٱللَّهُ ۗ وَٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ يَقُولُونَ آمَنَّا بِهِۦ كُلٌّ مِّنْ عِندِ رَبِّنَا ۗ وَمَا يَذَّكَّرُ إِلَّآ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "مُتَشابِه",
+        "تَشابَهَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 157,
+      "text": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا",
+      "highlightedHtml": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن <a class=\"highlight-text\">شُبِّهَ</a> لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا",
+      "derivedForms": [
+        "شُبِّهَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 99,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ <a class=\"highlight-text\">مُشْتَبِهًا</a> وَغَيْرَ <a class=\"highlight-text\">مُتَشَٰبِهٍ</a> ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "مُشْتَبِهاً",
+        "مُتَشابِه"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 141,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ <a class=\"highlight-text\">مُتَشَٰبِهًا</a> وَغَيْرَ <a class=\"highlight-text\">مُتَشَٰبِهٍ</a> ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "derivedForms": [
+        "مُتَشابِه",
+        "مُتَشابِه"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 16,
+      "text": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ",
+      "highlightedHtml": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ <a class=\"highlight-text\">فَتَشَٰبَهَ</a> ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ",
+      "derivedForms": [
+        "تَشابَهَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 23,
+      "text": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًا مُّتَشَٰبِهًا مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "highlightedHtml": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًا <a class=\"highlight-text\">مُّتَشَٰبِهًا</a> مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "derivedForms": [
+        "مُتَشابِه"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:51.786Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form VI) active participle",
+    "derivativeNote": "مُتَشَٰبِهًا is in the derivative form: مُتَشابِه",
+    "rootDefinitionHtml": "ش/ب/ﻫ sh–b–h likeness or similarity between 2 objects, to resemble, to be or become like, to be assimilated, to compare<br>; confusion. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> شُبِّهَ shubbiha 1 time; تَشابَهَ tashābaha 4 times; مُتَشابِهون mutashābihūn 6 times and مُشْتَبِهاً mushtabihan 11 times.",
+    "mainDefinitionHtml": "مُتَشابِه mutashābih [act. part./quasi‐act. part., fem. pl. متشابهات mutashābihāt] <br><br><strong>1 </strong>looking alike, resembling each other, similar <br><br>(6:99) وَجَنَّاتٍ مِنْ أَعْنَابٍ وَالزَّيْتُونَ وَالرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَابِهٍ and gardens of grapes, olives and pomegranates, seeming alike and unlike; *<br><br>(39:23) كِتَابًا مُتَشَابِهًا a Book that is consistent [lit. its parts similar to one another] [in the message it conveys] <br><br><strong>2 </strong>[as opposed to المحكم ʾal‐muḥkam (q.v.) (in reference to verses of the Qur’an) variously interpreted as: allegorical, concerned with the unknown, abrogated, concerned with the single letters occurring in the beginning of certain suras (see الر ʾalif–lām–rā), admitting of more than one meaning <br><br>(3:7) هُوَ الّذِي أنْزَلَ عَلَيْكَ الكِتَابَ مِنْهُ ءَايَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَاب وَأُخَرُ مَتَشَابِهَاتٌ it is He who has sent this Book down to you, of which are verses definite in meaning–they are the essence of the Book–and others that are ambiguous/allegorical.",
+    "mainEntryId": "wdef-ش-ب-ﻫ.مُتَشابِه",
+    "entries": [
+      {
+        "id": "wdef-ش-ب-ﻫ",
+        "label": "ش-ب-ﻫ",
+        "definitionHtml": "ش/ب/ﻫ sh–b–h likeness or similarity between 2 objects, to resemble, to be or become like, to be assimilated, to compare<br>; confusion. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> شُبِّهَ shubbiha 1 time; تَشابَهَ tashābaha 4 times; مُتَشابِهون mutashābihūn 6 times and مُشْتَبِهاً mushtabihan 11 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ب-ﻫ.مُتَشابِه",
+        "label": "مُتَشابِه",
+        "definitionHtml": "مُتَشابِه mutashābih [act. part./quasi‐act. part., fem. pl. متشابهات mutashābihāt] <br><br><strong>1 </strong>looking alike, resembling each other, similar <br><br>(6:99) وَجَنَّاتٍ مِنْ أَعْنَابٍ وَالزَّيْتُونَ وَالرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَابِهٍ and gardens of grapes, olives and pomegranates, seeming alike and unlike; *<br><br>(39:23) كِتَابًا مُتَشَابِهًا a Book that is consistent [lit. its parts similar to one another] [in the message it conveys] <br><br><strong>2 </strong>[as opposed to المحكم ʾal‐muḥkam (q.v.) (in reference to verses of the Qur’an) variously interpreted as: allegorical, concerned with the unknown, abrogated, concerned with the single letters occurring in the beginning of certain suras (see الر ʾalif–lām–rā), admitting of more than one meaning <br><br>(3:7) هُوَ الّذِي أنْزَلَ عَلَيْكَ الكِتَابَ مِنْهُ ءَايَاتٌ مُحْكَمَاتٌ هُنَّ أُمُّ الْكِتَاب وَأُخَرُ مَتَشَابِهَاتٌ it is He who has sent this Book down to you, of which are verses definite in meaning–they are the essence of the Book–and others that are ambiguous/allegorical.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ب-ﻫ.تَشابَهَ",
+        "label": "تَشابَهَ",
+        "definitionHtml": "تَشابَهَ tashābaha [v. VI, intrans.] <br><br><strong>1 </strong>to resemble one another, to be alike <br><br>(2:118) تَشَابَهَتْ قُلُوبُهُمْ their hearts are all alike ‏<br><br><strong>2 </strong>[with prep. عَلَى] to appear confusingly as a lookalike, to be confusingly similar <br><br>(13:16) فَتَشَابَهَ الْخَلْقُ عَلَيْهِمْ so that [their] creation seems indistinguishable to them [from His]?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ب-ﻫ.شُبِّهَ",
+        "label": "شُبِّهَ",
+        "definitionHtml": "شُبِّهَ shubbiha [pass. v. II] (of an action or object) to be made to look like something else <br><br>(4:157) وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَكِنْ شُبِّهَ لَهُمْ they did not kill him, nor did they crucify him, but it [the crucifixion] [also interpreted as : he] was made to appear like that to them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ب-ﻫ.مُشْتَبِهاً",
+        "label": "مُشْتَبِهاً",
+        "definitionHtml": "مُشْتَبِهاً mushtabihan [act. part./quasi‐act. part.] to be confusingly similar, to seem to look alike <br><br>(6:99) وَجَنَّاتٍ مِنْ أَعْنَابٍ وَالزَّيْتُونَ وَالرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَابِهٍ and gardens of grapes, olives and pomegranates, seeming alike and unalike.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:47.371Z",
+      "refword": "2:25:27",
+      "lexword": "مُتَشَٰبِهًا"
+    }
+  }
+}

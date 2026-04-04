@@ -1,0 +1,136 @@
+{
+  "root": "لمز",
+  "rootArabic": "لمز",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَلْمِز",
+      "count": 3
+    },
+    {
+      "form": "لُمَزَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَلْمِز",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلْمِز",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لُمَزَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 58,
+      "text": "وَمِنْهُم مَّن يَلْمِزُكَ فِى ٱلصَّدَقَٰتِ فَإِنْ أُعْطُوا۟ مِنْهَا رَضُوا۟ وَإِن لَّمْ يُعْطَوْا۟ مِنْهَآ إِذَا هُمْ يَسْخَطُونَ",
+      "highlightedHtml": "وَمِنْهُم مَّن <a class=\"highlight-text\">يَلْمِزُكَ</a> فِى ٱلصَّدَقَٰتِ فَإِنْ أُعْطُوا۟ مِنْهَا رَضُوا۟ وَإِن لَّمْ يُعْطَوْا۟ مِنْهَآ إِذَا هُمْ يَسْخَطُونَ",
+      "derivedForms": [
+        "يَلْمِز"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 79,
+      "text": "ٱلَّذِينَ يَلْمِزُونَ ٱلْمُطَّوِّعِينَ مِنَ ٱلْمُؤْمِنِينَ فِى ٱلصَّدَقَٰتِ وَٱلَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ ۙ سَخِرَ ٱللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يَلْمِزُونَ</a> ٱلْمُطَّوِّعِينَ مِنَ ٱلْمُؤْمِنِينَ فِى ٱلصَّدَقَٰتِ وَٱلَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ ۙ سَخِرَ ٱللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "يَلْمِز"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 11,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًا مِّنْهُمْ وَلَا نِسَآءٌ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ ۖ وَلَا تَلْمِزُوٓا۟ أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا يَسْخَرْ قَوْمٌ مِّن قَوْمٍ عَسَىٰٓ أَن يَكُونُوا۟ خَيْرًا مِّنْهُمْ وَلَا نِسَآءٌ مِّن نِّسَآءٍ عَسَىٰٓ أَن يَكُنَّ خَيْرًا مِّنْهُنَّ ۖ وَلَا <a class=\"highlight-text\">تَلْمِزُوٓا۟</a> أَنفُسَكُمْ وَلَا تَنَابَزُوا۟ بِٱلْأَلْقَٰبِ ۖ بِئْسَ ٱلِٱسْمُ ٱلْفُسُوقُ بَعْدَ ٱلْإِيمَٰنِ ۚ وَمَن لَّمْ يَتُبْ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "يَلْمِز"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 1,
+      "text": "وَيْلٌ لِّكُلِّ هُمَزَةٍ لُّمَزَةٍ",
+      "highlightedHtml": "وَيْلٌ لِّكُلِّ هُمَزَةٍ <a class=\"highlight-text\">لُّمَزَةٍ</a>",
+      "derivedForms": [
+        "لُمَزَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:45.532Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَلْمِزُكَ is in the derivative form: يَلْمِز",
+    "rootDefinitionHtml": "ل/م/ز   l–m–z to nudge; to poke fun at, to defame, to speak ill of someone, to slander, a slanderer. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَلْمز yalmiz 3 times and لُمَزَةٌ lumazatun 1 time.",
+    "mainDefinitionHtml": "يَلْمِز yalmiz [imperf. v., trans.] to slander, to defame, to speak ill, to find faults with <br><br>(9:58) وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَلْمِزُكَ‏ ‏فِي الصَّدَقَاتِ‏ among them are some who speak ill of you [Prophet] regarding [the distribution of] alms.",
+    "mainEntryId": "wdef-ل-م-ز.يَلْمِز",
+    "entries": [
+      {
+        "id": "wdef-ل-م-ز",
+        "label": "ل-م-ز",
+        "definitionHtml": "ل/م/ز   l–m–z to nudge; to poke fun at, to defame, to speak ill of someone, to slander, a slanderer. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَلْمز yalmiz 3 times and لُمَزَةٌ lumazatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-م-ز.يَلْمِز",
+        "label": "يَلْمِز",
+        "definitionHtml": "يَلْمِز yalmiz [imperf. v., trans.] to slander, to defame, to speak ill, to find faults with <br><br>(9:58) وَمِنْهُمْ‏ ‏مَنْ‏ ‏يَلْمِزُكَ‏ ‏فِي الصَّدَقَاتِ‏ among them are some who speak ill of you [Prophet] regarding [the distribution of] alms.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-م-ز.لُمَزَةٌ",
+        "label": "لُمَزَةٌ",
+        "definitionHtml": "لُمَزَةٌ lumazatun [intens. masc./fem. quasi‐act. part.] one who slanders, backbites or defames frequently or strongly <br><br>(104:1) وَيْلٌ‏ ‏لِكُلِّ‏ ‏هُمَزَةٍ‏ ‏لُمَزَةٍ‏ woe to every backbiting slanderer.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:51.360Z",
+      "refword": "9:58:3",
+      "lexword": "يَلْمِزُكَ"
+    }
+  }
+}

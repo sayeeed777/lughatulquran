@@ -1,0 +1,106 @@
+{
+  "root": "قوت",
+  "rootArabic": "قوت",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَقْوَات",
+      "count": 1
+    },
+    {
+      "form": "مُقِيت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقِيت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْوَات",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 85,
+      "text": "مَّن يَشْفَعْ شَفَٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَٰعَةً سَيِّئَةً يَكُن لَّهُۥ كِفْلٌ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقِيتًا",
+      "highlightedHtml": "مَّن يَشْفَعْ شَفَٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَٰعَةً سَيِّئَةً يَكُن لَّهُۥ كِفْلٌ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ <a class=\"highlight-text\">مُّقِيتًا</a>",
+      "derivedForms": [
+        "مُقِيت"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 10,
+      "text": "وَجَعَلَ فِيهَا رَوَٰسِىَ مِن فَوْقِهَا وَبَٰرَكَ فِيهَا وَقَدَّرَ فِيهَآ أَقْوَٰتَهَا فِىٓ أَرْبَعَةِ أَيَّامٍ سَوَآءً سَوَآءً لِّلسَّآئِلِينَ",
+      "highlightedHtml": "وَجَعَلَ فِيهَا رَوَٰسِىَ مِن فَوْقِهَا وَبَٰرَكَ فِيهَا وَقَدَّرَ فِيهَآ <a class=\"highlight-text\">أَقْوَٰتَهَا</a> فِىٓ أَرْبَعَةِ أَيَّامٍ سَوَآءً سَوَآءً لِّلسَّآئِلِينَ",
+      "derivedForms": [
+        "أَقْوَات"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:19.906Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form IV) active participle",
+    "derivativeNote": "مُّقِيتًا is in the derivative form: مُقِيت",
+    "rootDefinitionHtml": "ق/و/ت q–w–t food, sustenance, to feed, to subsist; to sustain, to guard over. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أَقْوَات ʾaqwāt and مُقِيت muqıt.",
+    "mainDefinitionHtml": "مُقِيت muqıt [act. part.] sustainer, guardian, overseer <br><br>(4:85) وَكَانَ اللَّهُ عَلَى كُلِّ شَيْءٍ مُقِيتًا and God is ever watching/guarding over everything.",
+    "mainEntryId": "wdef-ق-و-ت.مُقِيت",
+    "entries": [
+      {
+        "id": "wdef-ق-و-ت",
+        "label": "ق-و-ت",
+        "definitionHtml": "ق/و/ت q–w–t food, sustenance, to feed, to subsist; to sustain, to guard over. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أَقْوَات ʾaqwāt and مُقِيت muqıt.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-و-ت.مُقِيت",
+        "label": "مُقِيت",
+        "definitionHtml": "مُقِيت muqıt [act. part.] sustainer, guardian, overseer <br><br>(4:85) وَكَانَ اللَّهُ عَلَى كُلِّ شَيْءٍ مُقِيتًا and God is ever watching/guarding over everything.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-و-ت.أَقْوَات",
+        "label": "أَقْوَات",
+        "definitionHtml": "أَقْوَات ʾaqwāt [pl. of n. قُوت qūt] food, nourishment, sustenance, provisions <br><br>(41:10) وَجَعَلَ فِيهَا رَوَاسِيَ مِنْ فَوْقِهَا وَبَارَكَ فِيهَا وَقَدَّرَ فِيهَا أَقْوَاتَهَا then He placed solid mountains on it, blessed it, and measured out its [various] provisions.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:12.817Z",
+      "refword": "4:85:22",
+      "lexword": "مُّقِيتًا"
+    }
+  }
+}

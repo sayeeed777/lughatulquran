@@ -1,0 +1,284 @@
+{
+  "root": "خبث",
+  "rootArabic": "خبث",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 3,
+    "surahCount": 9,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "خَبِيثٌ",
+      "count": 13
+    },
+    {
+      "form": "خَبَائِثُ",
+      "count": 2
+    },
+    {
+      "form": "خَبُثَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَبَائِثُ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَبُثَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَبَائِثُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "خَبِيثٌ",
+          "count": 4,
+          "totalInQuran": 13
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 267,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ <a class=\"highlight-text\">ٱلْخَبِيثَ</a> مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+      "derivedForms": [
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 179,
+      "text": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "highlightedHtml": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ <a class=\"highlight-text\">ٱلْخَبِيثَ</a> مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "derivedForms": [
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 2,
+      "text": "وَءَاتُوا۟ ٱلْيَتَٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا",
+      "highlightedHtml": "وَءَاتُوا۟ ٱلْيَتَٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ <a class=\"highlight-text\">ٱلْخَبِيثَ</a> بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا",
+      "derivedForms": [
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 100,
+      "text": "قُل لَّا يَسْتَوِى يَسْتَوِى ٱلْخَبِيثُ وَٱلطَّيِّبُ وَلَوْ أَعْجَبَكَ كَثْرَةُ ٱلْخَبِيثِ ۚ فَٱتَّقُوا۟ ٱللَّهَ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "قُل لَّا يَسْتَوِى يَسْتَوِى <a class=\"highlight-text\">ٱلْخَبِيثُ</a> وَٱلطَّيِّبُ وَلَوْ أَعْجَبَكَ كَثْرَةُ <a class=\"highlight-text\">ٱلْخَبِيثِ</a> ۚ فَٱتَّقُوا۟ ٱللَّهَ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "خَبِيثٌ",
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 58,
+      "text": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍ يَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى <a class=\"highlight-text\">خَبُثَ</a> لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍ يَشْكُرُونَ",
+      "derivedForms": [
+        "خَبُثَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 157,
+      "text": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ آمَنُوا بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ <a class=\"highlight-text\">ٱلْخَبَٰٓئِثَ</a> وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ آمَنُوا بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "خَبَائِثُ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 37,
+      "text": "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "لِيَمِيزَ ٱللَّهُ <a class=\"highlight-text\">ٱلْخَبِيثَ</a> مِنَ ٱلطَّيِّبِ وَيَجْعَلَ <a class=\"highlight-text\">ٱلْخَبِيثَ</a> بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "خَبِيثٌ",
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 26,
+      "text": "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ",
+      "highlightedHtml": "وَمَثَلُ كَلِمَةٍ <a class=\"highlight-text\">خَبِيثَةٍ</a> كَشَجَرَةٍ <a class=\"highlight-text\">خَبِيثَةٍ</a> ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ",
+      "derivedForms": [
+        "خَبِيثٌ",
+        "خَبِيثٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 74,
+      "text": "وَلُوطًا آتَيْنَاهُ حُكْمًا وَعِلْمًا وَنَجَّيْنَٰهُ مِنَ ٱلْقَرْيَةِ ٱلَّتِى كَانَت تَّعْمَلُ ٱلْخَبَٰٓئِثَ ۗ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَٰسِقِينَ",
+      "highlightedHtml": "وَلُوطًا آتَيْنَاهُ حُكْمًا وَعِلْمًا وَنَجَّيْنَٰهُ مِنَ ٱلْقَرْيَةِ ٱلَّتِى كَانَت تَّعْمَلُ <a class=\"highlight-text\">ٱلْخَبَٰٓئِثَ</a> ۗ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَٰسِقِينَ",
+      "derivedForms": [
+        "خَبَائِثُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 26,
+      "text": "ٱلْخَبِيثَٰتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَٰتِ ۖ وَٱلطَّيِّبَٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَٰتِ ۚ أُو۟لَٰٓئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلْخَبِيثَٰتُ</a> <a class=\"highlight-text\">لِلْخَبِيثِينَ</a> <a class=\"highlight-text\">وَٱلْخَبِيثُونَ</a> <a class=\"highlight-text\">لِلْخَبِيثَٰتِ</a> ۖ وَٱلطَّيِّبَٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَٰتِ ۚ أُو۟لَٰٓئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "derivedForms": [
+        "خَبِيثٌ",
+        "خَبِيثٌ",
+        "خَبِيثٌ",
+        "خَبِيثٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:01.572Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine singular noun",
+    "derivativeNote": "ٱلْخَبِيثَ is in the derivative form: خَبِيثٌ",
+    "rootDefinitionHtml": "خ/ب/ث   kh–b–th impurities, to be impure<br>; to be bad, to be wicked, to be corrupt, to be vicious; to be nauseated; bad deeds, crimes, sins, evil, adultery. <br><br>Of this root, 6 forms occur 16 times in the Qur’an:<br>خَبُثَ khabutha 1 time; خَبِيثٌ khabıth 6 times; خَبِيثُون khabıthūn 2 times; خَبِيثَةٌ khabıthatun 2 times; خَبِيثَاتٌ khabıthāt 2 times and خَبَائِثُ khabāʾith 2 times.",
+    "mainDefinitionHtml": "خَبِيثٌ khabıth [quasi‐act. part.; pl. خَبِيثُون khabıthūn; fem. خَبِيثَةٌ khabıthatun; pl. خَبِيثَاتٌ khabıthāt] bad, vicious, wicked, sinful, evil <br><br>(3:179) مَا كَانَ اللَّهُ لِيَذَرَ الْمُؤْمِنِينَ عَلَى مَا أَنْتُمْ عَلَيْهِ حَتَّى يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ God will not leave the believers in the state you are in until He distinguishes the bad from the good.",
+    "mainEntryId": "wdef-خ-ب-ث.خَبِيثٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ب-ث",
+        "label": "خ-ب-ث",
+        "definitionHtml": "خ/ب/ث   kh–b–th impurities, to be impure<br>; to be bad, to be wicked, to be corrupt, to be vicious; to be nauseated; bad deeds, crimes, sins, evil, adultery. <br><br>Of this root, 6 forms occur 16 times in the Qur’an:<br>خَبُثَ khabutha 1 time; خَبِيثٌ khabıth 6 times; خَبِيثُون khabıthūn 2 times; خَبِيثَةٌ khabıthatun 2 times; خَبِيثَاتٌ khabıthāt 2 times and خَبَائِثُ khabāʾith 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ب-ث.خَبِيثٌ",
+        "label": "خَبِيثٌ",
+        "definitionHtml": "خَبِيثٌ khabıth [quasi‐act. part.; pl. خَبِيثُون khabıthūn; fem. خَبِيثَةٌ khabıthatun; pl. خَبِيثَاتٌ khabıthāt] bad, vicious, wicked, sinful, evil <br><br>(3:179) مَا كَانَ اللَّهُ لِيَذَرَ الْمُؤْمِنِينَ عَلَى مَا أَنْتُمْ عَلَيْهِ حَتَّى يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ God will not leave the believers in the state you are in until He distinguishes the bad from the good.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ب-ث.خَبَائِثُ",
+        "label": "خَبَائِثُ",
+        "definitionHtml": "خَبَائِثُ khabāʾith [pl. of n. خَبِيثَةٌ khabıthatun] abominations, obscenities, wickedness, sins, evil deeds <br><br>(21:74) وَلُوطًا ءَاتَيْنَاهُ حُكْمًا وَعِلْمًا وَنَجَّيْنَاهُ مِنَ الْقَرْيَةِ الَّتِي كَانَتْ تَعْمَلُ الْخَبَائِثَ We gave Lot sound judgement and knowledge and saved him from the township that practised obscenities.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ب-ث.خَبُثَ",
+        "label": "خَبُثَ",
+        "definitionHtml": "خَبُثَ khabutha u [v. intrans.] to be or become bad, to be or become corrupt <br><br>(7:58) وَالْبَلَدُ الطَّيِّبُ يَخْرُجُ نَبَاتُهُ بِإِذْنِ رَبِّهِ وَالَّذِي خَبُثَ لاَ يَخْرُجُ إِلاَّ نَكِدًا as for the good land, its vegetation comes up by the will of its Lord, but [in] that [land] which has become corrupt it comes up only sparsely [stunted].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:26.369Z",
+      "refword": "2:267:16",
+      "lexword": "ٱلْخَبِيثَ"
+    }
+  }
+}

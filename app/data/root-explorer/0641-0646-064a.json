@@ -1,0 +1,74 @@
+{
+  "root": "فني",
+  "rootArabic": "فني",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "فانىِ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فانىِ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 55,
+      "ayah": 26,
+      "text": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+      "highlightedHtml": "كُلُّ مَنْ عَلَيْهَا <a class=\"highlight-text\">فَانٍ</a>",
+      "derivedForms": [
+        "فانىِ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:17.027Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "فَانٍ is in the derivative form: فانىِ",
+    "rootDefinitionHtml": "ف/ن/ى f–n–y to perish, to expire, to pass away, to come to an end; large, open courtyard. Of this root, فانٍ fānin, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "فانىِ fānı [act. part.] one that perishes, subject to death, mortal, perishable <br><br>(55:26) كُلُّ‏ ‏مَنْ‏ ‏عَلَيْهَا‏ ‏فَانٍ‏ everything on it [the Earth] will perish.",
+    "mainEntryId": "wdef-ف-ن-ى.فانىِ",
+    "entries": [
+      {
+        "id": "wdef-ف-ن-ى",
+        "label": "ف-ن-ى",
+        "definitionHtml": "ف/ن/ى f–n–y to perish, to expire, to pass away, to come to an end; large, open courtyard. Of this root, فانٍ fānin, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ن-ى.فانىِ",
+        "label": "فانىِ",
+        "definitionHtml": "فانىِ fānı [act. part.] one that perishes, subject to death, mortal, perishable <br><br>(55:26) كُلُّ‏ ‏مَنْ‏ ‏عَلَيْهَا‏ ‏فَانٍ‏ everything on it [the Earth] will perish.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:12.544Z",
+      "refword": "55:26:4",
+      "lexword": "فَانٍ"
+    }
+  }
+}

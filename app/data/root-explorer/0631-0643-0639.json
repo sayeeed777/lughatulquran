@@ -1,0 +1,284 @@
+{
+  "root": "ركع",
+  "rootArabic": "ركع",
+  "stats": {
+    "totalOccurrences": 13,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "رَاكِعٌ",
+      "count": 5
+    },
+    {
+      "form": "يَرْكَعُ",
+      "count": 5
+    },
+    {
+      "form": "رُكَّعٌ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَاكِعٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رُكَّعٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يَرْكَعُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَاكِعٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "يَرْكَعُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاكِعٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاكِعٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رُكَّعٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يَرْكَعُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاكِعٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُكَّعٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَرْكَعُ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 43,
+      "text": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ",
+      "highlightedHtml": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ <a class=\"highlight-text\">وَٱرْكَعُوا۟</a> مَعَ <a class=\"highlight-text\">ٱلرَّٰكِعِينَ</a>",
+      "derivedForms": [
+        "يَرْكَعُ",
+        "رَاكِعٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 125,
+      "text": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+      "highlightedHtml": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ <a class=\"highlight-text\">وَٱلرُّكَّعِ</a> ٱلسُّجُودِ",
+      "derivedForms": [
+        "رُكَّعٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 43,
+      "text": "يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ",
+      "highlightedHtml": "يَٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى <a class=\"highlight-text\">وَٱرْكَعِى</a> مَعَ <a class=\"highlight-text\">ٱلرَّٰكِعِينَ</a>",
+      "derivedForms": [
+        "يَرْكَعُ",
+        "رَاكِعٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 55,
+      "text": "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ آمَنُوا ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ",
+      "highlightedHtml": "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ آمَنُوا ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ <a class=\"highlight-text\">رَٰكِعُونَ</a>",
+      "derivedForms": [
+        "رَاكِعٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 112,
+      "text": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ <a class=\"highlight-text\">ٱلرَّٰكِعُونَ</a> ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "رَاكِعٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 26,
+      "text": "وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+      "highlightedHtml": "وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ <a class=\"highlight-text\">وَٱلرُّكَّعِ</a> ٱلسُّجُودِ",
+      "derivedForms": [
+        "رُكَّعٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 77,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا <a class=\"highlight-text\">ٱرْكَعُوا۟</a> وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩",
+      "derivedForms": [
+        "يَرْكَعُ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 24,
+      "text": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+      "highlightedHtml": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ <a class=\"highlight-text\">رَاكِعًا</a> وَأَنَابَ ۩",
+      "derivedForms": [
+        "رَاكِعٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ <a class=\"highlight-text\">رُكَّعًا</a> سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "رُكَّعٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 48,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱرْكَعُوا۟ لَا يَرْكَعُونَ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمُ <a class=\"highlight-text\">ٱرْكَعُوا۟</a> لَا <a class=\"highlight-text\">يَرْكَعُونَ</a>",
+      "derivedForms": [
+        "يَرْكَعُ",
+        "يَرْكَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:43.263Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "وَٱرْكَعُوا۟ is in the derivative form: يَرْكَعُ",
+    "rootDefinitionHtml": "ر/ك/ع   r–k–ʿ to bow, to kneel<br>; to submit, to surrender, to yield; to regress, to deteriorate in health, to fall on hard times, to become poor. <br><br>Of this root, 4 forms occur 13 times in the Qur’an:<br> يَرْكَعُ yarkaʿ 5 times; رَاكِعٌ rākiʿ 1 time; رَاكِعُون rākiʿūn 4 times and رُكَّعٌ rukkaʿ 3 times.",
+    "mainDefinitionHtml": "يَرْكَعُ yarkaʿ [imperf. of v. رَكَعَ rakaʿa, intrans.] <br><br><strong>1 </strong>to obey, to submit [to God] <br><br>(77:48) وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لاَ يَرْكَعُونَ and if it is said to them, ‘Submit [to God]’, they do not submit <br><br><strong>2 </strong>to worship <br><br>(3:43) وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ prostrate yourself and bow down in worship with those who worship <br><br><strong>3 </strong>[jur.] to perform the daily prayers in the prescribed manner <br><br>(22:77) يَاأَيُّهَا الَّذِينَ ءَامَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ you who believe, perform the daily prayers [lit. bow down and prostrate yourselves] and worship your Lord.",
+    "mainEntryId": "wdef-ر-ك-ع.يَرْكَعُ",
+    "entries": [
+      {
+        "id": "wdef-ر-ك-ع",
+        "label": "ر-ك-ع",
+        "definitionHtml": "ر/ك/ع   r–k–ʿ to bow, to kneel<br>; to submit, to surrender, to yield; to regress, to deteriorate in health, to fall on hard times, to become poor. <br><br>Of this root, 4 forms occur 13 times in the Qur’an:<br> يَرْكَعُ yarkaʿ 5 times; رَاكِعٌ rākiʿ 1 time; رَاكِعُون rākiʿūn 4 times and رُكَّعٌ rukkaʿ 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ع.يَرْكَعُ",
+        "label": "يَرْكَعُ",
+        "definitionHtml": "يَرْكَعُ yarkaʿ [imperf. of v. رَكَعَ rakaʿa, intrans.] <br><br><strong>1 </strong>to obey, to submit [to God] <br><br>(77:48) وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لاَ يَرْكَعُونَ and if it is said to them, ‘Submit [to God]’, they do not submit <br><br><strong>2 </strong>to worship <br><br>(3:43) وَاسْجُدِي وَارْكَعِي مَعَ الرَّاكِعِينَ prostrate yourself and bow down in worship with those who worship <br><br><strong>3 </strong>[jur.] to perform the daily prayers in the prescribed manner <br><br>(22:77) يَاأَيُّهَا الَّذِينَ ءَامَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ you who believe, perform the daily prayers [lit. bow down and prostrate yourselves] and worship your Lord.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ك-ع.رَاكِعٌ",
+        "label": "رَاكِعٌ",
+        "definitionHtml": "رَاكِعٌ rākiʿ [act. part., pl. رَاكِعُون rākiʿūn] <br><br><strong>1 </strong>one falling to his knees or prostrating himself <br><br>(38:24) فَاسْتَغْفَرَ رَبَّهُ وَخَرَّ رَاكِعًا وَأَنَابَ so he asked his Lord for forgiveness, falling down on his knees, and repented <br><br><strong>2 </strong>one who worships <br><br>(2:43) وَأَقِيمُوا الصَّلاَةَ وَءَاتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ maintain the prayer, pay the prescribed alms, and worship with the worshippers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ع.رُكَّعٌ",
+        "label": "رُكَّعٌ",
+        "definitionHtml": "رُكَّعٌ rukkaʿ [intens. pl.] ones who are constant at their bowing *<br><br>(22:26) الرُّكَّعِ السُّجُودِ constant worshippers [lit. those who are constantly bowing and prostrating themselves].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:33.765Z",
+      "refword": "2:43:5",
+      "lexword": "وَٱرْكَعُوا۟"
+    }
+  }
+}

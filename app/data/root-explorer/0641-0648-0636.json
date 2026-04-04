@@ -1,0 +1,74 @@
+{
+  "root": "فوض",
+  "rootArabic": "فوض",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أفَوِّض",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أفَوِّض",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 40,
+      "ayah": 44,
+      "text": "فَسَتَذْكُرُونَ مَآ أَقُولُ لَكُمْ ۚ وَأُفَوِّضُ أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
+      "highlightedHtml": "فَسَتَذْكُرُونَ مَآ أَقُولُ لَكُمْ ۚ <a class=\"highlight-text\">وَأُفَوِّضُ</a> أَمْرِىٓ إِلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ بَصِيرٌۢ بِٱلْعِبَادِ",
+      "derivedForms": [
+        "أفَوِّض"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:21.973Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular (form II) imperfect verb",
+    "derivativeNote": "وَأُفَوِّضُ is in the derivative form: أفَوِّض",
+    "rootDefinitionHtml": "ف/و/ض   f–w–ḍ to submit to, to authorise; confusion, to be disorderly, anarchy; negotiation, exchange of ideas, consultation; also said to include: making clear the discourse. Of this root, أفوِّض ʾufawwiḍ, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أفَوِّض ʾufawwiḍ [imperf. of v. II. trans., with prep. إلى] to submit something to, to entrust something to, to commit to <br><br>(40:44)‏ فَسَتَذْكُرُونَ‏ ‏مَا‏ ‏أَقُولُ‏ ‏لَكُمْ وَأُفَوِّضُ‏ ‏أَمْرِي‏ ‏إِلَى‏ ‏اللَّهِ ‏ [one day] you will remember what I am saying to you [now], so I commit my case to God.",
+    "mainEntryId": "wdef-ف-و-ض.أفَوِّض",
+    "entries": [
+      {
+        "id": "wdef-ف-و-ض",
+        "label": "ف-و-ض",
+        "definitionHtml": "ف/و/ض   f–w–ḍ to submit to, to authorise; confusion, to be disorderly, anarchy; negotiation, exchange of ideas, consultation; also said to include: making clear the discourse. Of this root, أفوِّض ʾufawwiḍ, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-و-ض.أفَوِّض",
+        "label": "أفَوِّض",
+        "definitionHtml": "أفَوِّض ʾufawwiḍ [imperf. of v. II. trans., with prep. إلى] to submit something to, to entrust something to, to commit to <br><br>(40:44)‏ فَسَتَذْكُرُونَ‏ ‏مَا‏ ‏أَقُولُ‏ ‏لَكُمْ وَأُفَوِّضُ‏ ‏أَمْرِي‏ ‏إِلَى‏ ‏اللَّهِ ‏ [one day] you will remember what I am saying to you [now], so I commit my case to God.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:23.590Z",
+      "refword": "40:44:5",
+      "lexword": "وَأُفَوِّضُ"
+    }
+  }
+}

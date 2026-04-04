@@ -1,0 +1,116 @@
+{
+  "root": "لقف",
+  "rootArabic": "لقف",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَلْقَف",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلْقَف",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلْقَف",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلْقَف",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 117,
+      "text": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
+      "highlightedHtml": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَلْقِ عَصَاكَ ۖ فَإِذَا هِىَ <a class=\"highlight-text\">تَلْقَفُ</a> مَا يَأْفِكُونَ",
+      "derivedForms": [
+        "تَلْقَف"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 69,
+      "text": "وَأَلْقِ مَا فِى يَمِينِكَ تَلْقَفْ مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "highlightedHtml": "وَأَلْقِ مَا فِى يَمِينِكَ <a class=\"highlight-text\">تَلْقَفْ</a> مَا صَنَعُوٓا۟ ۖ إِنَّمَا صَنَعُوا۟ كَيْدُ سَٰحِرٍ ۖ وَلَا يُفْلِحُ ٱلسَّاحِرُ حَيْثُ أَتَىٰ",
+      "derivedForms": [
+        "تَلْقَف"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 45,
+      "text": "فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِىَ تَلْقَفُ مَا يَأْفِكُونَ",
+      "highlightedHtml": "فَأَلْقَىٰ مُوسَىٰ عَصَاهُ فَإِذَا هِىَ <a class=\"highlight-text\">تَلْقَفُ</a> مَا يَأْفِكُونَ",
+      "derivedForms": [
+        "تَلْقَف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:41.877Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَلْقَفُ is in the derivative form: تَلْقَف",
+    "rootDefinitionHtml": "ل/ق/ف   l–q–f to catch up, to gulp up, to snatch up; to collapse, to crumple. Of this root, only تَلْقَف talqaf occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَلْقَف talqaf [imperf. of v. لَقِفَ laqifa, trans.] to gulp, to swallow down <br><br>(20:69) وَأَلْقِِ‏ ‏مَا‏ ‏فِى‏ ‏يَمِينِكَ‏ ‏تَلْقَفْ‏ ‏مَا صَنَعُوا‏‏ ‏throw down what is in your right hand; it will swallow up what they have produced.",
+    "mainEntryId": "wdef-ل-ق-ف.تَلْقَف",
+    "entries": [
+      {
+        "id": "wdef-ل-ق-ف",
+        "label": "ل-ق-ف",
+        "definitionHtml": "ل/ق/ف   l–q–f to catch up, to gulp up, to snatch up; to collapse, to crumple. Of this root, only تَلْقَف talqaf occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ق-ف.تَلْقَف",
+        "label": "تَلْقَف",
+        "definitionHtml": "تَلْقَف talqaf [imperf. of v. لَقِفَ laqifa, trans.] to gulp, to swallow down <br><br>(20:69) وَأَلْقِِ‏ ‏مَا‏ ‏فِى‏ ‏يَمِينِكَ‏ ‏تَلْقَفْ‏ ‏مَا صَنَعُوا‏‏ ‏throw down what is in your right hand; it will swallow up what they have produced.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:44.483Z",
+      "refword": "7:117:9",
+      "lexword": "تَلْقَفُ"
+    }
+  }
+}

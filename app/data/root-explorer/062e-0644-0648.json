@@ -1,0 +1,554 @@
+{
+  "root": "خلو",
+  "rootArabic": "خلو",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 4,
+    "surahCount": 18,
+    "ayahCount": 28
+  },
+  "derivatives": [
+    {
+      "form": "خَلَى",
+      "count": 25
+    },
+    {
+      "form": "تَخَلَّى",
+      "count": 1
+    },
+    {
+      "form": "خَالِيَةٌ",
+      "count": 1
+    },
+    {
+      "form": "خَلَّى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 5,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 3,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 2,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 2,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 3,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَى",
+          "count": 1,
+          "totalInQuran": 25
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَالِيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخَلَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 14,
+      "text": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَوْا۟ إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا۟ إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِءُونَ",
+      "highlightedHtml": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا <a class=\"highlight-text\">خَلَوْا۟</a> إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا۟ إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِءُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 76,
+      "text": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَإِذَا لَقُوا۟ ٱلَّذِينَ آمَنُوا قَالُوٓا۟ آمَنَّا وَإِذَا <a class=\"highlight-text\">خَلَا</a> بَعْضُهُمْ إِلَىٰ بَعْضٍ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 134,
+      "text": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "تِلْكَ أُمَّةٌ قَدْ <a class=\"highlight-text\">خَلَتْ</a> ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 141,
+      "text": "تِلْكَ أُمَّةٌ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "تِلْكَ أُمَّةٌ قَدْ <a class=\"highlight-text\">خَلَتْ</a> ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 214,
+      "text": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ آمَنُوا مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌ",
+      "highlightedHtml": "أَمْ حَسِبْتُمْ أَن تَدْخُلُوا۟ ٱلْجَنَّةَ وَلَمَّا يَأْتِكُم مَّثَلُ ٱلَّذِينَ <a class=\"highlight-text\">خَلَوْا۟</a> مِن قَبْلِكُم ۖ مَّسَّتْهُمُ ٱلْبَأْسَآءُ وَٱلضَّرَّآءُ وَزُلْزِلُوا۟ حَتَّىٰ يَقُولَ ٱلرَّسُولُ وَٱلَّذِينَ آمَنُوا مَعَهُۥ مَتَىٰ نَصْرُ ٱللَّهِ ۗ أَلَآ إِنَّ نَصْرَ ٱللَّهِ قَرِيبٌ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 119,
+      "text": "هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ آمَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ آمَنَّا وَإِذَا <a class=\"highlight-text\">خَلَوْا۟</a> عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 137,
+      "text": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "highlightedHtml": "قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 144,
+      "text": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهِ ٱلرُّسُلُ ۚ أَفَإِي۟ن مَّاتَ أَوْ قُتِلَ ٱنقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْ ۚ وَمَن يَنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَن يَضُرَّ ٱللَّهَ شَيْـًٔا ۗ وَسَيَجْزِى ٱللَّهُ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 75,
+      "text": "مَّا ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ خَلَتْ مِن قَبْلِهِ ٱلرُّسُلُ وَأُمُّهُۥ صِدِّيقَةٌ ۖ كَانَا يَأْكُلَانِ ٱلطَّعَامَ ۗ ٱنظُرْ كَيْفَ نُبَيِّنُ لَهُمُ ٱلْءَايَٰتِ ثُمَّ ٱنظُرْ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "مَّا ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ إِلَّا رَسُولٌ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهِ ٱلرُّسُلُ وَأُمُّهُۥ صِدِّيقَةٌ ۖ كَانَا يَأْكُلَانِ ٱلطَّعَامَ ۗ ٱنظُرْ كَيْفَ نُبَيِّنُ لَهُمُ ٱلْءَايَٰتِ ثُمَّ ٱنظُرْ أَنَّىٰ يُؤْفَكُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 38,
+      "text": "قَالَ ٱدْخُلُوا۟ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِكُم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ فِى ٱلنَّارِ ۖ كُلَّمَا دَخَلَتْ أُمَّةٌ لَّعَنَتْ أُخْتَهَا ۖ حَتَّىٰٓ إِذَا ٱدَّارَكُوا۟ فِيهَا جَمِيعًا قَالَتْ أُخْرَاهُمْ لِأُولَىٰهُمْ رَبَّنَا هَٰٓؤُلَآءِ أَضَلُّونَا فَـَٔاتِهِمْ عَذَابًا ضِعْفًا مِّنَ ٱلنَّارِ ۖ قَالَ لِكُلٍّ ضِعْفٌ وَلَٰكِن لَّا تَعْلَمُونَ",
+      "highlightedHtml": "قَالَ ٱدْخُلُوا۟ فِىٓ أُمَمٍ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِكُم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ فِى ٱلنَّارِ ۖ كُلَّمَا دَخَلَتْ أُمَّةٌ لَّعَنَتْ أُخْتَهَا ۖ حَتَّىٰٓ إِذَا ٱدَّارَكُوا۟ فِيهَا جَمِيعًا قَالَتْ أُخْرَاهُمْ لِأُولَىٰهُمْ رَبَّنَا هَٰٓؤُلَآءِ أَضَلُّونَا فَـَٔاتِهِمْ عَذَابًا ضِعْفًا مِّنَ ٱلنَّارِ ۖ قَالَ لِكُلٍّ ضِعْفٌ وَلَٰكِن لَّا تَعْلَمُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 5,
+      "text": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ <a class=\"highlight-text\">فَخَلُّوا۟</a> سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "خَلَّى"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 102,
+      "text": "فَهَلْ يَنتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِهِمْ ۚ قُلْ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
+      "highlightedHtml": "فَهَلْ يَنتَظِرُونَ إِلَّا مِثْلَ أَيَّامِ ٱلَّذِينَ <a class=\"highlight-text\">خَلَوْا۟</a> مِن قَبْلِهِمْ ۚ قُلْ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 9,
+      "text": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًا صَٰلِحِينَ",
+      "highlightedHtml": "ٱقْتُلُوا۟ يُوسُفَ أَوِ ٱطْرَحُوهُ أَرْضًا <a class=\"highlight-text\">يَخْلُ</a> لَكُمْ وَجْهُ أَبِيكُمْ وَتَكُونُوا۟ مِنۢ بَعْدِهِۦ قَوْمًا صَٰلِحِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 6,
+      "text": "وَيَسْتَعْجِلُونَكَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ وَقَدْ خَلَتْ مِن قَبْلِهِمُ ٱلْمَثُلَٰتُ ۗ وَإِنَّ رَبَّكَ لَذُو مَغْفِرَةٍ لِّلنَّاسِ عَلَىٰ ظُلْمِهِمْ ۖ وَإِنَّ رَبَّكَ لَشَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَيَسْتَعْجِلُونَكَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ وَقَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهِمُ ٱلْمَثُلَٰتُ ۗ وَإِنَّ رَبَّكَ لَذُو مَغْفِرَةٍ لِّلنَّاسِ عَلَىٰ ظُلْمِهِمْ ۖ وَإِنَّ رَبَّكَ لَشَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 30,
+      "text": "كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍ قَدْ خَلَتْ مِن قَبْلِهَآ أُمَمٌ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ",
+      "highlightedHtml": "كَذَٰلِكَ أَرْسَلْنَٰكَ فِىٓ أُمَّةٍ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهَآ أُمَمٌ لِّتَتْلُوَا۟ عَلَيْهِمُ ٱلَّذِىٓ أَوْحَيْنَآ إِلَيْكَ وَهُمْ يَكْفُرُونَ بِٱلرَّحْمَٰنِ ۚ قُلْ هُوَ رَبِّى لَآ إِلَٰهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَإِلَيْهِ مَتَابِ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 13,
+      "text": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ خَلَتْ سُنَّةُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ <a class=\"highlight-text\">خَلَتْ</a> سُنَّةُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 34,
+      "text": "وَلَقَدْ أَنزَلْنَآ إِلَيْكُمْ آيَاتٍ مُّبَيِّنَٰتٍ وَمَثَلًا مِّنَ ٱلَّذِينَ خَلَوْا۟ مِن قَبْلِكُمْ وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "highlightedHtml": "وَلَقَدْ أَنزَلْنَآ إِلَيْكُمْ آيَاتٍ مُّبَيِّنَٰتٍ وَمَثَلًا مِّنَ ٱلَّذِينَ <a class=\"highlight-text\">خَلَوْا۟</a> مِن قَبْلِكُمْ وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 38,
+      "text": "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا",
+      "highlightedHtml": "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ <a class=\"highlight-text\">خَلَوْا۟</a> مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 62,
+      "text": "سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "highlightedHtml": "سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ <a class=\"highlight-text\">خَلَوْا۟</a> مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 24,
+      "text": "إِنَّآ أَرْسَلْنَٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا ۚ وَإِن مِّنْ أُمَّةٍ إِلَّا خَلَا فِيهَا نَذِيرٌ",
+      "highlightedHtml": "إِنَّآ أَرْسَلْنَٰكَ بِٱلْحَقِّ بَشِيرًا وَنَذِيرًا ۚ وَإِن مِّنْ أُمَّةٍ إِلَّا <a class=\"highlight-text\">خَلَا</a> فِيهَا نَذِيرٌ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 85,
+      "text": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ <a class=\"highlight-text\">خَلَتْ</a> فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 25,
+      "text": "وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 17,
+      "text": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ <a class=\"highlight-text\">خَلَتِ</a> ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 18,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 21,
+      "text": "وَٱذْكُرْ أَخَا عَادٍ عَادٍ إِذْ أَنذَرَ قَوْمَهُۥ بِٱلْأَحْقَافِ وَقَدْ خَلَتِ ٱلنُّذُرُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦٓ أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
+      "highlightedHtml": "وَٱذْكُرْ أَخَا عَادٍ عَادٍ إِذْ أَنذَرَ قَوْمَهُۥ بِٱلْأَحْقَافِ وَقَدْ <a class=\"highlight-text\">خَلَتِ</a> ٱلنُّذُرُ مِنۢ بَيْنِ يَدَيْهِ وَمِنْ خَلْفِهِۦٓ أَلَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 23,
+      "text": "سُنَّةَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "highlightedHtml": "سُنَّةَ ٱللَّهِ ٱلَّتِى قَدْ <a class=\"highlight-text\">خَلَتْ</a> مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "derivedForms": [
+        "خَلَى"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 24,
+      "text": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ ٱلْخَالِيَةِ",
+      "highlightedHtml": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَآ أَسْلَفْتُمْ فِى ٱلْأَيَّامِ <a class=\"highlight-text\">ٱلْخَالِيَةِ</a>",
+      "derivedForms": [
+        "خَالِيَةٌ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 4,
+      "text": "وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ",
+      "highlightedHtml": "وَأَلْقَتْ مَا فِيهَا <a class=\"highlight-text\">وَتَخَلَّتْ</a>",
+      "derivedForms": [
+        "تَخَلَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:45.279Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "خَلَوْا۟ is in the derivative form: خَلَى",
+    "rootDefinitionHtml": "خ/ل/و   kh–l–w to be vacant, to be solitary, to vacate, to be vacated<br>; wide open space; to be set free, to divorce; to be alone or in seclusion with someone; a cell, a hive; to devote oneself to something; to go past in time, something of the past, passage of time; to produce herbage, pasture. <br><br>Of this root, 4 forms occur 28 times in the Qur’an:<br> خَلَى khalā 25 times; خَلَّى khallā 1 time; تَخَلَّى takhallā 1 time and خَالِيَةٌ khāliyatun 1 time.",
+    "mainDefinitionHtml": "خَلَى khalā ū [v. intrans.] <br><br><strong>1 </strong>to become of the past <br><br>(2:141) تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ this is a community that has become of the past; for them is what they earned <br><br><strong>2 </strong>to be alone, to be by oneself, to be in seclusion <br><br>(3:119) وَإِذَا خَلَوْا عَضُّوا عَلَيْكُمُ الأَنَامِلَ مِنَ الْغَيْظِ but when they are alone, they bite [their] fingertips in rage at you <br><br><strong>3 </strong>to become empty, to become free, to become clear *<br><br>(12:9) يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ your father’s undivided attention will be yours [lit. your father’s face becomes free for you] <br><br><strong>4 </strong>to become the norm, the practice, to become time‐honoured <br><br>(40:85) سُنَّةَ اللَّهِ الَّتِي قَدْ خَلَتْ فِى عِبَادِهِ this is God’s way which has become established as the norm for His creatures <br><br><strong>5 </strong>[also with prep. في] to come and go past [in time] <br><br>(35:24) وَإِنْ مِنْ أُمَّةٍ إِلاَّ خَلاَ فِيهَا نَذِيرٌ there is not a community, but a warner has come [lit. passed] among them <br><br><strong>6 </strong>[also with prep. إلى] to meet in seclusion with, to be alone with <br><br>(2:14) وَإِذَا خَلَوْا إِلَى شَيَاطِينِهِمْ قَالُوا إِنَّا مَعَكُمْ when they come to be secluded with their devils [devilish leaders], they say, ‘We’re [really] with you.’",
+    "mainEntryId": "wdef-خ-ل-و.خَلَى",
+    "entries": [
+      {
+        "id": "wdef-خ-ل-و",
+        "label": "خ-ل-و",
+        "definitionHtml": "خ/ل/و   kh–l–w to be vacant, to be solitary, to vacate, to be vacated<br>; wide open space; to be set free, to divorce; to be alone or in seclusion with someone; a cell, a hive; to devote oneself to something; to go past in time, something of the past, passage of time; to produce herbage, pasture. <br><br>Of this root, 4 forms occur 28 times in the Qur’an:<br> خَلَى khalā 25 times; خَلَّى khallā 1 time; تَخَلَّى takhallā 1 time and خَالِيَةٌ khāliyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-و.خَلَى",
+        "label": "خَلَى",
+        "definitionHtml": "خَلَى khalā ū [v. intrans.] <br><br><strong>1 </strong>to become of the past <br><br>(2:141) تِلْكَ أُمَّةٌ قَدْ خَلَتْ لَهَا مَا كَسَبَتْ this is a community that has become of the past; for them is what they earned <br><br><strong>2 </strong>to be alone, to be by oneself, to be in seclusion <br><br>(3:119) وَإِذَا خَلَوْا عَضُّوا عَلَيْكُمُ الأَنَامِلَ مِنَ الْغَيْظِ but when they are alone, they bite [their] fingertips in rage at you <br><br><strong>3 </strong>to become empty, to become free, to become clear *<br><br>(12:9) يَخْلُ لَكُمْ وَجْهُ أَبِيكُمْ your father’s undivided attention will be yours [lit. your father’s face becomes free for you] <br><br><strong>4 </strong>to become the norm, the practice, to become time‐honoured <br><br>(40:85) سُنَّةَ اللَّهِ الَّتِي قَدْ خَلَتْ فِى عِبَادِهِ this is God’s way which has become established as the norm for His creatures <br><br><strong>5 </strong>[also with prep. في] to come and go past [in time] <br><br>(35:24) وَإِنْ مِنْ أُمَّةٍ إِلاَّ خَلاَ فِيهَا نَذِيرٌ there is not a community, but a warner has come [lit. passed] among them <br><br><strong>6 </strong>[also with prep. إلى] to meet in seclusion with, to be alone with <br><br>(2:14) وَإِذَا خَلَوْا إِلَى شَيَاطِينِهِمْ قَالُوا إِنَّا مَعَكُمْ when they come to be secluded with their devils [devilish leaders], they say, ‘We’re [really] with you.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ل-و.خَلَّى",
+        "label": "خَلَّى",
+        "definitionHtml": "خَلَّى khallā [v. II, trans.] to let go *<br><br>(9:5) فَإِنْ تَابُوا وَأَقَامُوا الصَّلاَةَ وَءَاتَوُا الزَّكَاةَ فَخَلُّوا سَبِيلَهُمْ but if they repent, maintain prayer and pay the prescribed alms, let them go on their way.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-و.تَخَلَّى",
+        "label": "تَخَلَّى",
+        "definitionHtml": "تَخَلَّى takhallā [v. V, intrans.] to let go; to become vacant, to become free; to make oneself vacant or free <br><br>(84:4) وَأَلْقَتْ مَا فِيهَا وَتَخَلَّتْ and it casts out what is in it and becomes empty.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-و.خَالِيَةٌ",
+        "label": "خَالِيَةٌ",
+        "definitionHtml": "خَالِيَةٌ khāliyatun [fem. quasi‐act. part.] that which has gone past (in time), (of time) gone by <br><br>(69:24) كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا أَسْلَفْتُمْ فِى الأَيَّامِ الْخَالِيَةِ eat and drink with enjoyment as a reward for what you have done in days gone by.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:50.684Z",
+      "refword": "2:14:8",
+      "lexword": "خَلَوْا۟"
+    }
+  }
+}

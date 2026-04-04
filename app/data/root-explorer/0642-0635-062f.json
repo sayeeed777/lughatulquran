@@ -1,0 +1,205 @@
+{
+  "root": "قصد",
+  "rootArabic": "قصد",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "مُقْتَصِد",
+      "count": 3
+    },
+    {
+      "form": "اِقْصِد",
+      "count": 1
+    },
+    {
+      "form": "قَاصِد",
+      "count": 1
+    },
+    {
+      "form": "قَصْد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْتَصِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاصِد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصْد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اِقْصِد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُقْتَصِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْتَصِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 66,
+      "text": "وَلَوْ أَنَّهُمْ أَقَامُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْهِم مِّن رَّبِّهِمْ لَأَكَلُوا۟ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِم ۚ مِّنْهُمْ أُمَّةٌ مُّقْتَصِدَةٌ ۖ وَكَثِيرٌ مِّنْهُمْ سَآءَ مَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّهُمْ أَقَامُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْهِم مِّن رَّبِّهِمْ لَأَكَلُوا۟ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِم ۚ مِّنْهُمْ أُمَّةٌ <a class=\"highlight-text\">مُّقْتَصِدَةٌ</a> ۖ وَكَثِيرٌ مِّنْهُمْ سَآءَ مَا يَعْمَلُونَ",
+      "derivedForms": [
+        "مُقْتَصِد"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 42,
+      "text": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لَّٱتَّبَعُوكَ وَلَٰكِنۢ بَعُدَتْ عَلَيْهِمُ ٱلشُّقَّةُ ۚ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَٰذِبُونَ",
+      "highlightedHtml": "لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا <a class=\"highlight-text\">قَاصِدًا</a> لَّٱتَّبَعُوكَ وَلَٰكِنۢ بَعُدَتْ عَلَيْهِمُ ٱلشُّقَّةُ ۚ وَسَيَحْلِفُونَ بِٱللَّهِ لَوِ ٱسْتَطَعْنَا لَخَرَجْنَا مَعَكُمْ يُهْلِكُونَ أَنفُسَهُمْ وَٱللَّهُ يَعْلَمُ إِنَّهُمْ لَكَٰذِبُونَ",
+      "derivedForms": [
+        "قَاصِد"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 9,
+      "text": "وَعَلَى ٱللَّهِ قَصْدُ ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ",
+      "highlightedHtml": "وَعَلَى ٱللَّهِ <a class=\"highlight-text\">قَصْدُ</a> ٱلسَّبِيلِ وَمِنْهَا جَآئِرٌ ۚ وَلَوْ شَآءَ لَهَدَىٰكُمْ أَجْمَعِينَ",
+      "derivedForms": [
+        "قَصْد"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 19,
+      "text": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱقْصِدْ</a> فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "derivedForms": [
+        "اِقْصِد"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 32,
+      "text": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "highlightedHtml": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم <a class=\"highlight-text\">مُّقْتَصِدٌ</a> ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "derivedForms": [
+        "مُقْتَصِد"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 32,
+      "text": "ثُمَّ أَوْرَثْنَا ٱلْكِتَٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِۦ وَمِنْهُم مُّقْتَصِدٌ وَمِنْهُمْ سَابِقٌۢ بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "highlightedHtml": "ثُمَّ أَوْرَثْنَا ٱلْكِتَٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِۦ وَمِنْهُم <a class=\"highlight-text\">مُّقْتَصِدٌ</a> وَمِنْهُمْ سَابِقٌۢ بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "derivedForms": [
+        "مُقْتَصِد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:56.021Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite (form VIII) active participle",
+    "derivativeNote": "مُّقْتَصِدَةٌ is in the derivative form: مُقْتَصِد",
+    "rootDefinitionHtml": "ق/ص/د   q–ṣ–d to proceed straight away, to intend<br>; to be middle of the road; endeavour, intention, design; poem, to write a poem; bone marrow; wick; killing, to compel. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> اِقْصِد ʾiqṣid 1 time; قَصْد qaṣd 1 time; قَاصِد qāṣid 1 time; مُقْتَصِد muqtaṣid 2 times and مُقْتَصِدَةٌ muqtaṣidatun 1 time.",
+    "mainDefinitionHtml": "مُقْتَصِد muqtaṣid [act. part.] one who keeps to the middle of the road, one who is moderate <br><br>(35:32) فَمِنْهُمْ ظَالِمٌ لِنَفْسِهِ وَمِنْهُمْ مُقْتَصِدٌ وَمِنْهُمْ سَابِقٌ بِالْخَيْرَاتِ بإذن الله among them are [those] who wrong themselves and among them are those who middle [do the bare essentials], and those who are [far] ahead in good deeds, by God’s leave.",
+    "mainEntryId": "wdef-ق-ص-د.مُقْتَصِد",
+    "entries": [
+      {
+        "id": "wdef-ق-ص-د",
+        "label": "ق-ص-د",
+        "definitionHtml": "ق/ص/د   q–ṣ–d to proceed straight away, to intend<br>; to be middle of the road; endeavour, intention, design; poem, to write a poem; bone marrow; wick; killing, to compel. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> اِقْصِد ʾiqṣid 1 time; قَصْد qaṣd 1 time; قَاصِد qāṣid 1 time; مُقْتَصِد muqtaṣid 2 times and مُقْتَصِدَةٌ muqtaṣidatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-د.مُقْتَصِد",
+        "label": "مُقْتَصِد",
+        "definitionHtml": "مُقْتَصِد muqtaṣid [act. part.] one who keeps to the middle of the road, one who is moderate <br><br>(35:32) فَمِنْهُمْ ظَالِمٌ لِنَفْسِهِ وَمِنْهُمْ مُقْتَصِدٌ وَمِنْهُمْ سَابِقٌ بِالْخَيْرَاتِ بإذن الله among them are [those] who wrong themselves and among them are those who middle [do the bare essentials], and those who are [far] ahead in good deeds, by God’s leave.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ص-د.اِقْصِد",
+        "label": "اِقْصِد",
+        "definitionHtml": "اِقْصِد ʾiqṣid [imper. of v. قَصَدَ qaṣada, intrans.] be moderate, be judicious, be temperate <br><br>(31:19) وَاقْصِدْ فِى مَشْيِكَ وَاغْضُضْ مِنْ صَوْتِكَ إِنَّ أَنْكَرَ الأَصْوَاتِ لَصَوْتُ الْحَمِيرِ walk at a moderate pace and lower your voice, for the ugliest of all voices is the [loud] braying of asses. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-د.قَاصِد",
+        "label": "قَاصِد",
+        "definitionHtml": "قَاصِد qāṣid [quasi-act. part.] straight, moderate, trouble free <br><br>(9:42) لَوْ كَانَ عَرَضًا قَرِيبًا وَسَفَرًا قَاصِدًا لاَتَّبَعُوكَ had it been a gain near at hand and an easy journey, they would have followed you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-د.قَصْد",
+        "label": "قَصْد",
+        "definitionHtml": "قَصْد qaṣd [v. n.] straightening, directing, setting up; purpose, goal <br><br>(16:9) وَعَلَى اللَّهِ قَصْدُ السَّبِيلِ وَمِنْهَا جَائِرٌ it is for God to direct to the straight path (or, it is for God to straighten the path), for some of them [the paths] are crooked.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:26.099Z",
+      "refword": "5:66:19",
+      "lexword": "مُّقْتَصِدَةٌ"
+    }
+  }
+}

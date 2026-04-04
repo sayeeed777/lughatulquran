@@ -1,0 +1,106 @@
+{
+  "root": "عبث",
+  "rootArabic": "عبث",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَعْبَثُ",
+      "count": 1
+    },
+    {
+      "form": "عَبَثٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَبَثٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْبَثُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 115,
+      "text": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَٰكُمْ عَبَثًا وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+      "highlightedHtml": "أَفَحَسِبْتُمْ أَنَّمَا خَلَقْنَٰكُمْ <a class=\"highlight-text\">عَبَثًا</a> وَأَنَّكُمْ إِلَيْنَا لَا تُرْجَعُونَ",
+      "derivedForms": [
+        "عَبَثٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 128,
+      "text": "أَتَبْنُونَ بِكُلِّ رِيعٍ آيَةً تَعْبَثُونَ",
+      "highlightedHtml": "أَتَبْنُونَ بِكُلِّ رِيعٍ آيَةً <a class=\"highlight-text\">تَعْبَثُونَ</a>",
+      "derivedForms": [
+        "تَعْبَثُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:19.083Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "عَبَثًا is in the derivative form: عَبَثٌ",
+    "rootDefinitionHtml": "ع/ب/ث   ʿ–b–th a mix up of things, adulteration, folly, to waste time in useless activity; to commit a folly. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>تَعْبَثُون taʿbathūn and عَبَثاً ʿabathan.",
+    "mainDefinitionHtml": "عَبَثٌ ʿabath [v. n.] jest, frivolity, vain activity, absence of reason, lack of purpose <br><br>(23:115) أَفَحَسِبْتُمْ‏ ‏أَنَّمَا‏ ‏خَلَقْنَاكُمْ عَبَثًا did you think We created you in vain?",
+    "mainEntryId": "wdef-ع-ب-ث.عَبَثٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ب-ث",
+        "label": "ع-ب-ث",
+        "definitionHtml": "ع/ب/ث   ʿ–b–th a mix up of things, adulteration, folly, to waste time in useless activity; to commit a folly. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>تَعْبَثُون taʿbathūn and عَبَثاً ʿabathan.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-ث.عَبَثٌ",
+        "label": "عَبَثٌ",
+        "definitionHtml": "عَبَثٌ ʿabath [v. n.] jest, frivolity, vain activity, absence of reason, lack of purpose <br><br>(23:115) أَفَحَسِبْتُمْ‏ ‏أَنَّمَا‏ ‏خَلَقْنَاكُمْ عَبَثًا did you think We created you in vain?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ب-ث.تَعْبَثُ",
+        "label": "تَعْبَثُ",
+        "definitionHtml": "تَعْبَثُ taʿbath [imperf. v., intrans.] to act frivolously, to play around, to act in jest, to act in vanity <br><br>(26:128) أَتَبْنُونَ‏ ‏بِكُلِّ‏ ‏رِيعٍ‏ ‏ءَايَةً‏ ‏تَعْبَثُونَ do you set up monuments [also: altars, road signs or gathering places] on every height to satisfy your vanity? [also: jesting?]",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:27.248Z",
+      "refword": "23:115:4",
+      "lexword": "عَبَثًا"
+    }
+  }
+}

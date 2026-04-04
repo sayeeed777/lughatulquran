@@ -1,0 +1,124 @@
+{
+  "root": "سحت",
+  "rootArabic": "سحت",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "سُحُت",
+      "count": 3
+    },
+    {
+      "form": "يُسْحِت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سُحُت",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُسْحِت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 42,
+      "text": "سَمَّٰعُونَ لِلْكَذِبِ أَكَّٰلُونَ لِلسُّحْتِ ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+      "highlightedHtml": "سَمَّٰعُونَ لِلْكَذِبِ أَكَّٰلُونَ <a class=\"highlight-text\">لِلسُّحْتِ</a> ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+      "derivedForms": [
+        "سُحُت"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 62,
+      "text": "وَتَرَىٰ كَثِيرًا مِّنْهُمْ يُسَٰرِعُونَ فِى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَتَرَىٰ كَثِيرًا مِّنْهُمْ يُسَٰرِعُونَ فِى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَأَكْلِهِمُ <a class=\"highlight-text\">ٱلسُّحْتَ</a> ۚ لَبِئْسَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "سُحُت"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 63,
+      "text": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ <a class=\"highlight-text\">ٱلسُّحْتَ</a> ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+      "derivedForms": [
+        "سُحُت"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 61,
+      "text": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا فَيُسْحِتَكُم بِعَذَابٍ ۖ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ",
+      "highlightedHtml": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا <a class=\"highlight-text\">فَيُسْحِتَكُم</a> بِعَذَابٍ ۖ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ",
+      "derivedForms": [
+        "يُسْحِت"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:42.962Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "لِلسُّحْتِ is in the derivative form: سُحُت",
+    "rootDefinitionHtml": "س/ح/ت   s–ḥ–t to eradicate, to scrape off; unlawful gain, illicit earning. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يُسْحِت yusḥit 1 time and سُحْت suḥt 3 times.",
+    "mainDefinitionHtml": "سُحُت suḥt [n.] illicitly gained money, ill‐gotten property <br><br>(5:42) سَمَّاعُونَ لِلْكَذِبِ أَكَّالُونَ لِلسُّحْتِ eagerly listening to falsehood and greedily consuming ill‐gotten gains.",
+    "mainEntryId": "wdef-س-ح-ت.سُحُت",
+    "entries": [
+      {
+        "id": "wdef-س-ح-ت",
+        "label": "س-ح-ت",
+        "definitionHtml": "س/ح/ت   s–ḥ–t to eradicate, to scrape off; unlawful gain, illicit earning. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يُسْحِت yusḥit 1 time and سُحْت suḥt 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ح-ت.سُحُت",
+        "label": "سُحُت",
+        "definitionHtml": "سُحُت suḥt [n.] illicitly gained money, ill‐gotten property <br><br>(5:42) سَمَّاعُونَ لِلْكَذِبِ أَكَّالُونَ لِلسُّحْتِ eagerly listening to falsehood and greedily consuming ill‐gotten gains.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ح-ت.يُسْحِت",
+        "label": "يُسْحِت",
+        "definitionHtml": "يُسْحِت yusḥit [imperf. of v. IV, trans.] to eradicate, to destroy completely <br><br>(20:61) لاَ تَفْتَرُوا عَلَى اللَّهِ كَذِبًا فَيُسْحِتَكُمْ بِعَذَابٍ do not invent lies against God, lest He obliterate you with punishment.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:30.819Z",
+      "refword": "5:42:4",
+      "lexword": "لِلسُّحْتِ"
+    }
+  }
+}

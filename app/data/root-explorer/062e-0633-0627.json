@@ -1,0 +1,148 @@
+{
+  "root": "خسا",
+  "rootArabic": "خسا",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "خَاسِئ",
+      "count": 3
+    },
+    {
+      "form": "اخْسَئُوا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاسِئ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاسِئ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْسَئُوا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاسِئ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 65,
+      "text": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى ٱلسَّبْتِ فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "highlightedHtml": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى ٱلسَّبْتِ فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً <a class=\"highlight-text\">خَٰسِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاسِئ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 166,
+      "text": "فَلَمَّا عَتَوْا۟ عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "highlightedHtml": "فَلَمَّا عَتَوْا۟ عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً <a class=\"highlight-text\">خَٰسِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاسِئ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 108,
+      "text": "قَالَ ٱخْسَـُٔوا۟ فِيهَا وَلَا تُكَلِّمُونِ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">ٱخْسَـُٔوا۟</a> فِيهَا وَلَا تُكَلِّمُونِ",
+      "derivedForms": [
+        "اخْسَئُوا"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 4,
+      "text": "ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ",
+      "highlightedHtml": "ثُمَّ ٱرْجِعِ ٱلْبَصَرَ كَرَّتَيْنِ يَنقَلِبْ إِلَيْكَ ٱلْبَصَرُ <a class=\"highlight-text\">خَاسِئًا</a> وَهُوَ حَسِيرٌ",
+      "derivedForms": [
+        "خَاسِئ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:15.396Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "خَٰسِـِٔينَ is in the derivative form: خَاسِئ",
+    "rootDefinitionHtml": "خ/س/أ   kh–s–ʾ to drive away, to chase out<br>; to cast out; to humble; rejected, spurned; to defeat, to impair; to confuse, to dull, to frustrate. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> اخْسَئُوا ʾikhsaʾū 1 time; خَاسِئ khāsiʾ 1 time and خَاسِئُون khāsiʾūn 2 times.",
+    "mainDefinitionHtml": "خَاسِئ khāsiʾ [act. part.; pl. khāsiʾūn] <br><br><strong>1 </strong>chased away, driven away, rejected, cut off, forsaken, outcasts <br><br>(7:166) فَلَمَّا عَتَوْا عَنْ مَا نُهُوا عَنْهُ قُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ but when they became too proud to abandon that which they were forbidden [to do], We said to them, ‘Be [like] apes!, outcasts!’ <br><br><strong>2 </strong>unsuccessful, in vain, frustrated, unable <br><br>(67:4) ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ Look again and again! Your sight will return to you frustrated and dimmed.",
+    "mainEntryId": "wdef-خ-س-أ.خَاسِئ",
+    "entries": [
+      {
+        "id": "wdef-خ-س-أ",
+        "label": "خ-س-أ",
+        "definitionHtml": "خ/س/أ   kh–s–ʾ to drive away, to chase out<br>; to cast out; to humble; rejected, spurned; to defeat, to impair; to confuse, to dull, to frustrate. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> اخْسَئُوا ʾikhsaʾū 1 time; خَاسِئ khāsiʾ 1 time and خَاسِئُون khāsiʾūn 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-س-أ.خَاسِئ",
+        "label": "خَاسِئ",
+        "definitionHtml": "خَاسِئ khāsiʾ [act. part.; pl. khāsiʾūn] <br><br><strong>1 </strong>chased away, driven away, rejected, cut off, forsaken, outcasts <br><br>(7:166) فَلَمَّا عَتَوْا عَنْ مَا نُهُوا عَنْهُ قُلْنَا لَهُمْ كُونُوا قِرَدَةً خَاسِئِينَ but when they became too proud to abandon that which they were forbidden [to do], We said to them, ‘Be [like] apes!, outcasts!’ <br><br><strong>2 </strong>unsuccessful, in vain, frustrated, unable <br><br>(67:4) ثُمَّ ارْجِعِ الْبَصَرَ كَرَّتَيْنِ يَنْقَلِبْ إِلَيْكَ الْبَصَرُ خَاسِئًا وَهُوَ حَسِيرٌ Look again and again! Your sight will return to you frustrated and dimmed.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-س-أ.اخْسَئُوا",
+        "label": "اخْسَئُوا",
+        "definitionHtml": "اخْسَئُوا ʾikhsaʾū [imper. of v. خَسَأَ khasaʾa, intrans.] to chase, to shame, to scorn <br><br>(23:108) قَالَ اخْسَئُوا فِيهَا وَلاَ تُكَلِّمُونِ He will say, ‘Away with you!, in you go!, do not speak to Me!’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:55.179Z",
+      "refword": "2:65:12",
+      "lexword": "خَٰسِـِٔينَ"
+    }
+  }
+}

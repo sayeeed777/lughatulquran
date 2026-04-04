@@ -1,0 +1,74 @@
+{
+  "root": "لفظ",
+  "rootArabic": "لفظ",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَلْفِظ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلْفِظ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 50,
+      "ayah": 18,
+      "text": "مَّا يَلْفِظُ مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+      "highlightedHtml": "مَّا <a class=\"highlight-text\">يَلْفِظُ</a> مِن قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ",
+      "derivedForms": [
+        "يَلْفِظ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:38.071Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَلْفِظُ is in the derivative form: يَلْفِظ",
+    "rootDefinitionHtml": "ل/ف/ظ   l–f–ẓ to spit out, to emit, to cast out; to enunciate, to utter, to speak, utterance; to expire. Of this root, only يَلْفِظ yalfiẓ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَلْفِظ yalfiẓ [imperf. of v. trans.] to utter, to enunciate <br><br>(50:18) مَا‏ ‏يَلْفِظُ‏ ‏مِنْ‏ ‏قَوْلٍ‏ ‏إِلاَّ لَدَيْهِ‏ ‏رَقِيبٌ‏ ‏عَتِيدٌ ‏‏not an utterance does he utter without, [there being] beside him, an observer at the ready.",
+    "mainEntryId": "wdef-ل-ف-ظ.يَلْفِظ",
+    "entries": [
+      {
+        "id": "wdef-ل-ف-ظ",
+        "label": "ل-ف-ظ",
+        "definitionHtml": "ل/ف/ظ   l–f–ẓ to spit out, to emit, to cast out; to enunciate, to utter, to speak, utterance; to expire. Of this root, only يَلْفِظ yalfiẓ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-ظ.يَلْفِظ",
+        "label": "يَلْفِظ",
+        "definitionHtml": "يَلْفِظ yalfiẓ [imperf. of v. trans.] to utter, to enunciate <br><br>(50:18) مَا‏ ‏يَلْفِظُ‏ ‏مِنْ‏ ‏قَوْلٍ‏ ‏إِلاَّ لَدَيْهِ‏ ‏رَقِيبٌ‏ ‏عَتِيدٌ ‏‏not an utterance does he utter without, [there being] beside him, an observer at the ready.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:35.687Z",
+      "refword": "50:18:2",
+      "lexword": "يَلْفِظُ"
+    }
+  }
+}

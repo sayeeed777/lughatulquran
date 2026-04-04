@@ -1,0 +1,74 @@
+{
+  "root": "غطش",
+  "rootArabic": "غطش",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أغْطَشَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْطَشَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 79,
+      "ayah": 29,
+      "text": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَغْطَشَ</a> لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "derivedForms": [
+        "أغْطَشَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:01.824Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "وَأَغْطَشَ is in the derivative form: أغْطَشَ",
+    "rootDefinitionHtml": "غ/ط/ش   gh–ṭ–sh weak eye sight; (of night) to be dark, to cause to be dark; to be difficult; to travel through the land. Of this root, only أغْطَشَ ʾaghṭasha occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أغْطَشَ ʾaghṭasha [v. IV trans.] to make dark <br><br>(79:29) وَأَغْطَشَ‏ ‏لَيْلَهَا‏ ‏وَأَخْرَجَ‏ ‏ضُحَاهَا‏ giving darkness to its night and bringing out its morning brightness.",
+    "mainEntryId": "wdef-غ-ط-ش.أغْطَشَ",
+    "entries": [
+      {
+        "id": "wdef-غ-ط-ش",
+        "label": "غ-ط-ش",
+        "definitionHtml": "غ/ط/ش   gh–ṭ–sh weak eye sight; (of night) to be dark, to cause to be dark; to be difficult; to travel through the land. Of this root, only أغْطَشَ ʾaghṭasha occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ط-ش.أغْطَشَ",
+        "label": "أغْطَشَ",
+        "definitionHtml": "أغْطَشَ ʾaghṭasha [v. IV trans.] to make dark <br><br>(79:29) وَأَغْطَشَ‏ ‏لَيْلَهَا‏ ‏وَأَخْرَجَ‏ ‏ضُحَاهَا‏ giving darkness to its night and bringing out its morning brightness.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:48.515Z",
+      "refword": "79:29:1",
+      "lexword": "وَأَغْطَشَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "هيل",
+  "rootArabic": "هيل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَهِيلٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهِيلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 73,
+      "ayah": 14,
+      "text": "يَوْمَ تَرْجُفُ ٱلْأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيبًا مَّهِيلًا",
+      "highlightedHtml": "يَوْمَ تَرْجُفُ ٱلْأَرْضُ وَٱلْجِبَالُ وَكَانَتِ ٱلْجِبَالُ كَثِيبًا <a class=\"highlight-text\">مَّهِيلًا</a>",
+      "derivedForms": [
+        "مَهِيلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:51.195Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَّهِيلًا is in the derivative form: مَهِيلٌ",
+    "rootDefinitionHtml": "هـ/ي/ل   h–y–l to pour down, to slide down, (of sand or earth in a pit) to trickle down, to heap up (sand or earth), to cause to pour down, avalanching sand dunes, to gang up; a halo. Of this root, مَهِيلٌ mahıl occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَهِيلٌ mahıl [quasi‐pass. part.] made to avalanche, caused to slide down, made to collapse <br><br>(73:14) يَوْمَ تَرْجُفُ الأَرْضُ وَالْجِبَالُ وَكَانَتِ الْجِبَالُ كَثِيبًا مَهِيلاً on the Day when the earth and the mountains will tremble and the mountains will become collapsing sand dunes.",
+    "mainEntryId": "wdef-هـ-ي-ل.مَهِيلٌ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ي-ل",
+        "label": "هـ-ي-ل",
+        "definitionHtml": "هـ/ي/ل   h–y–l to pour down, to slide down, (of sand or earth in a pit) to trickle down, to heap up (sand or earth), to cause to pour down, avalanching sand dunes, to gang up; a halo. Of this root, مَهِيلٌ mahıl occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ي-ل.مَهِيلٌ",
+        "label": "مَهِيلٌ",
+        "definitionHtml": "مَهِيلٌ mahıl [quasi‐pass. part.] made to avalanche, caused to slide down, made to collapse <br><br>(73:14) يَوْمَ تَرْجُفُ الأَرْضُ وَالْجِبَالُ وَكَانَتِ الْجِبَالُ كَثِيبًا مَهِيلاً on the Day when the earth and the mountains will tremble and the mountains will become collapsing sand dunes.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:47.781Z",
+      "refword": "73:14:8",
+      "lexword": "مَّهِيلًا"
+    }
+  }
+}

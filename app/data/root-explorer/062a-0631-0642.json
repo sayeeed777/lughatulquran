@@ -1,0 +1,74 @@
+{
+  "root": "ترق",
+  "rootArabic": "ترق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَرَاقِي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرَاقِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 75,
+      "ayah": 26,
+      "text": "كَلَّآ إِذَا بَلَغَتِ ٱلتَّرَاقِىَ",
+      "highlightedHtml": "كَلَّآ إِذَا بَلَغَتِ <a class=\"highlight-text\">ٱلتَّرَاقِىَ</a>",
+      "derivedForms": [
+        "تَرَاقِي"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:23.288Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine (form VI) verbal noun",
+    "derivativeNote": "ٱلتَّرَاقِىَ is in the derivative form: تَرَاقِي",
+    "rootDefinitionHtml": "ت/ر/ق   t–r–q (no evidence of verbal root) collarbone, the uppermost of the chest. Of this root, only تَرَاقِي tarāqı occurs 1 time<br>.",
+    "mainDefinitionHtml": "تَرَاقِي tarāqı (read as تَرَاق tarāq, with the final ı elided, for rhyming harmony with following verses) [pl. of n. تَرْقُوَةٌ tarquwatun] collarbone, the uppermost part of the chest *<br><br>(75:26) إِذَا بَلَغَتِ التَّرَاقِيَ when life is about to abandon the body; when a person is on the point of expiring [lit. when it [the soul, life, last breath] reaches the collarbone].",
+    "mainEntryId": "wdef-ت-ر-ق.تَرَاقِي",
+    "entries": [
+      {
+        "id": "wdef-ت-ر-ق",
+        "label": "ت-ر-ق",
+        "definitionHtml": "ت/ر/ق   t–r–q (no evidence of verbal root) collarbone, the uppermost of the chest. Of this root, only تَرَاقِي tarāqı occurs 1 time<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ت-ر-ق.تَرَاقِي",
+        "label": "تَرَاقِي",
+        "definitionHtml": "تَرَاقِي tarāqı (read as تَرَاق tarāq, with the final ı elided, for rhyming harmony with following verses) [pl. of n. تَرْقُوَةٌ tarquwatun] collarbone, the uppermost part of the chest *<br><br>(75:26) إِذَا بَلَغَتِ التَّرَاقِيَ when life is about to abandon the body; when a person is on the point of expiring [lit. when it [the soul, life, last breath] reaches the collarbone].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:31.162Z",
+      "refword": "75:26:4",
+      "lexword": "ٱلتَّرَاقِىَ"
+    }
+  }
+}

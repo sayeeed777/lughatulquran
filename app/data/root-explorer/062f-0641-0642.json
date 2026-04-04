@@ -1,0 +1,74 @@
+{
+  "root": "دفق",
+  "rootArabic": "دفق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "دَافِقٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَافِقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 86,
+      "ayah": 6,
+      "text": "خُلِقَ مِن مَّآءٍ دَافِقٍ",
+      "highlightedHtml": "خُلِقَ مِن مَّآءٍ <a class=\"highlight-text\">دَافِقٍ</a>",
+      "derivedForms": [
+        "دَافِقٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:19.233Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite active participle",
+    "derivativeNote": "دَافِقٍ is in the derivative form: دَافِقٌ",
+    "rootDefinitionHtml": "د/ف/ق   d–f–q to gush forth; (of a valley) to fill up with flood water, (of a river) to breach its banks; to stampede; to act rashly. Of this root, دَافِقٌ dāfiq occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "دَافِقٌ dāfiq [act. part.] gushing forth, jetting out, spurting ‏<br><br>(86:6) خُلِقَ مِنْ مَاءٍ دَافِقٍ He is created from gushing fluid.",
+    "mainEntryId": "wdef-د-ف-ق.دَافِقٌ",
+    "entries": [
+      {
+        "id": "wdef-د-ف-ق",
+        "label": "د-ف-ق",
+        "definitionHtml": "د/ف/ق   d–f–q to gush forth; (of a valley) to fill up with flood water, (of a river) to breach its banks; to stampede; to act rashly. Of this root, دَافِقٌ dāfiq occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ف-ق.دَافِقٌ",
+        "label": "دَافِقٌ",
+        "definitionHtml": "دَافِقٌ dāfiq [act. part.] gushing forth, jetting out, spurting ‏<br><br>(86:6) خُلِقَ مِنْ مَاءٍ دَافِقٍ He is created from gushing fluid.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:57.990Z",
+      "refword": "86:6:4",
+      "lexword": "دَافِقٍ"
+    }
+  }
+}

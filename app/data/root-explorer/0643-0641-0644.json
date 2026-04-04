@@ -1,0 +1,304 @@
+{
+  "root": "كفل",
+  "rootArabic": "كفل",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 6,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "كِفْل",
+      "count": 3
+    },
+    {
+      "form": "يَكْفُل",
+      "count": 3
+    },
+    {
+      "form": "أكْفَلَ",
+      "count": 1
+    },
+    {
+      "form": "كَفَّلَ",
+      "count": 1
+    },
+    {
+      "form": "كِفْلَيْن",
+      "count": 1
+    },
+    {
+      "form": "كَفِيل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَفَّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَكْفُل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كِفْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَفِيل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَكْفُل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كِفْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَكْفُل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أكْفَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "كِفْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كِفْلَيْن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 37,
+      "text": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنۢبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "highlightedHtml": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنۢبَتَهَا نَبَاتًا حَسَنًا <a class=\"highlight-text\">وَكَفَّلَهَا</a> زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "derivedForms": [
+        "كَفَّلَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 44,
+      "text": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
+      "highlightedHtml": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ <a class=\"highlight-text\">يَكْفُلُ</a> مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
+      "derivedForms": [
+        "يَكْفُل"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 85,
+      "text": "مَّن يَشْفَعْ شَفَٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَٰعَةً سَيِّئَةً يَكُن لَّهُۥ كِفْلٌ مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقِيتًا",
+      "highlightedHtml": "مَّن يَشْفَعْ شَفَٰعَةً حَسَنَةً يَكُن لَّهُۥ نَصِيبٌ مِّنْهَا ۖ وَمَن يَشْفَعْ شَفَٰعَةً سَيِّئَةً يَكُن لَّهُۥ <a class=\"highlight-text\">كِفْلٌ</a> مِّنْهَا ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقِيتًا",
+      "derivedForms": [
+        "كِفْل"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 91,
+      "text": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "highlightedHtml": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ <a class=\"highlight-text\">كَفِيلًا</a> ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "derivedForms": [
+        "كَفِيل"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 40,
+      "text": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "highlightedHtml": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن <a class=\"highlight-text\">يَكْفُلُهُۥ</a> ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "derivedForms": [
+        "يَكْفُل"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 85,
+      "text": "وَإِسْمَٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّ مِّنَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "وَإِسْمَٰعِيلَ وَإِدْرِيسَ وَذَا <a class=\"highlight-text\">ٱلْكِفْلِ</a> ۖ كُلٌّ مِّنَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "كِفْل"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 12,
+      "text": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَٰصِحُونَ",
+      "highlightedHtml": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ <a class=\"highlight-text\">يَكْفُلُونَهُۥ</a> لَكُمْ وَهُمْ لَهُۥ نَٰصِحُونَ",
+      "derivedForms": [
+        "يَكْفُل"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 23,
+      "text": "إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ أَكْفِلْنِيهَا وَعَزَّنِى فِى ٱلْخِطَابِ",
+      "highlightedHtml": "إِنَّ هَٰذَآ أَخِى لَهُۥ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِىَ نَعْجَةٌ وَٰحِدَةٌ فَقَالَ <a class=\"highlight-text\">أَكْفِلْنِيهَا</a> وَعَزَّنِى فِى ٱلْخِطَابِ",
+      "derivedForms": [
+        "أكْفَلَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 48,
+      "text": "وَٱذْكُرْ إِسْمَٰعِيلَ وَٱلْيَسَعَ وَذَا ٱلْكِفْلِ ۖ وَكُلٌّ مِّنَ ٱلْأَخْيَارِ",
+      "highlightedHtml": "وَٱذْكُرْ إِسْمَٰعِيلَ وَٱلْيَسَعَ وَذَا <a class=\"highlight-text\">ٱلْكِفْلِ</a> ۖ وَكُلٌّ مِّنَ ٱلْأَخْيَارِ",
+      "derivedForms": [
+        "كِفْل"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 28,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَءَامِنُوا۟ بِرَسُولِهِۦ يُؤْتِكُمْ <a class=\"highlight-text\">كِفْلَيْنِ</a> مِن رَّحْمَتِهِۦ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِۦ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "كِفْلَيْن"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:56.623Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) perfect verb",
+    "derivativeNote": "وَكَفَّلَهَا is in the derivative form: كَفَّلَ",
+    "rootDefinitionHtml": "ك/ف/ل   k–f–l posterior, rump, buttocks<br>; to undertake, to guarantee, to provide for, to sponsor, guardian; share, equal amount. كِفْلَيْن kiflayn; ‘twice the amount’; is considered by some philologists to be a borrowing from Ethiopic. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> يَكْفُل yakful 3 times; كَفَّلَ kaffala 1 time; أكْفَلَ ʾakfala 1 time; كِفْل kifl 3 times; كِفْلَيْن kiflayn 1 time and كَفِيل kafıl 1 time.",
+    "mainDefinitionHtml": "كَفَّلَ kaffala [v.II doubly transitive] to place someone under the guardianship of another, to entrust someone to the charge of another <br><br>(3:37) فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا so her Lord received her with gracious favour and made her grow in goodness and placed her under the guardianship of Zachariah.",
+    "mainEntryId": "wdef-ك-ف-ل.كَفَّلَ",
+    "entries": [
+      {
+        "id": "wdef-ك-ف-ل",
+        "label": "ك-ف-ل",
+        "definitionHtml": "ك/ف/ل   k–f–l posterior, rump, buttocks<br>; to undertake, to guarantee, to provide for, to sponsor, guardian; share, equal amount. كِفْلَيْن kiflayn; ‘twice the amount’; is considered by some philologists to be a borrowing from Ethiopic. <br><br>Of this root, 6 forms occur 10 times in the Qur’an:<br> يَكْفُل yakful 3 times; كَفَّلَ kaffala 1 time; أكْفَلَ ʾakfala 1 time; كِفْل kifl 3 times; كِفْلَيْن kiflayn 1 time and كَفِيل kafıl 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ل.كَفَّلَ",
+        "label": "كَفَّلَ",
+        "definitionHtml": "كَفَّلَ kaffala [v.II doubly transitive] to place someone under the guardianship of another, to entrust someone to the charge of another <br><br>(3:37) فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا so her Lord received her with gracious favour and made her grow in goodness and placed her under the guardianship of Zachariah.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ف-ل.أكْفَلَ",
+        "label": "أكْفَلَ",
+        "definitionHtml": "أكْفَلَ ʾakfala [v. IV, doubly trans.] to transfer the responsibility of something/someone to another <br><br>(38:23) إِنَّ هَذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً وَلِيَ نَعْجَةٌ وَاحِدَةٌ فَقَالَ أَكْفِلْنِيهَا this my brother has ninety‐nine ewes and I have one ewe, so he said, ‘Put her in my charge.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ل.كَفِيل",
+        "label": "كَفِيل",
+        "definitionHtml": "كَفِيل kafıl [n.] guarantor, surety <br><br>(16:91) وَلاَ تَنْقُضُوا الأَيْمَانَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ اللَّهَ عَلَيْكُمْ كَفِيلا and do not break oaths after their being confirmed, when you have made God your surety [over them] (reference to the practice of concluding agreements, written or verbal, by the invocation <br><br>(28:28) والله على ما نقول وكيل and God is witness over what we say).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ل.كِفْل",
+        "label": "كِفْل",
+        "definitionHtml": "كِفْل kifl [n.] part, portion, share <br><br>(4:85) وَمَنْ يَشْفَعْ شَفَاعَةً سَيِّئَةً يَكُنْ لَهُ كِفْلٌ مِنْهاَ and whoever intercedes with a bad intercession will have a share of it; *<br><br>(21:85) ذَا الْكِفْلِ Dhā’l‐Kifl; according to the commentators this is the name of a particular prophet whom they name as Elijah, Joshua, Zachariah or Ezekiel. He was so‐named because he undertook to take responsibility either for some people or for some charitable work and he fulfilled his promise.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ل.كِفْلَيْن",
+        "label": "كِفْلَيْن",
+        "definitionHtml": "كِفْلَيْن kiflayn [dual of n. كِفْل kifl] two shares, double share, large share <br><br>(57:28) يَاأَيُّهَا الَّذِينَ ءَامَنُوا اتَّقُوا اللَّهَ وَءَامِنُوا بِرَسُولِهِ يُؤْتِكُمْ كِفْلَيْنِ مِنْ رَحْمَتِهِ believers, be mindful of God and have faith in His Messenger–He will give you generously [lit. a double share] of His mercy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ل.يَكْفُل",
+        "label": "يَكْفُل",
+        "definitionHtml": "يَكْفُل yakful [imperf. of v. كَفَلَ kafala] to foster, to take responsibility for a child <br><br>(3:44) وَمَا كُنْتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلاَمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ you were not present among them when they cast lots to see which of them should become guardian of Mary.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:16.350Z",
+      "refword": "3:37:8",
+      "lexword": "وَكَفَّلَهَا"
+    }
+  }
+}

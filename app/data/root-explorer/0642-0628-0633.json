@@ -1,0 +1,127 @@
+{
+  "root": "قبس",
+  "rootArabic": "قبس",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "قَبَس",
+      "count": 2
+    },
+    {
+      "form": "نَقْتَبِس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبَس",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَبَس",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقْتَبِس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 10,
+      "text": "إِذْ رَءَا نَارًا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ آنَسْتُ نَارًا لَّعَلِّىٓ آتِيكُمْ مِّنْهَا بِقَبَسٍ أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًى",
+      "highlightedHtml": "إِذْ رَءَا نَارًا فَقَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ آنَسْتُ نَارًا لَّعَلِّىٓ آتِيكُمْ مِّنْهَا <a class=\"highlight-text\">بِقَبَسٍ</a> أَوْ أَجِدُ عَلَى ٱلنَّارِ هُدًى",
+      "derivedForms": [
+        "قَبَس"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 7,
+      "text": "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ آنَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ آتِيكُمْ بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ تَصْطَلُونَ",
+      "highlightedHtml": "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ آنَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ آتِيكُمْ بِشِهَابٍ <a class=\"highlight-text\">قَبَسٍ</a> لَّعَلَّكُمْ تَصْطَلُونَ",
+      "derivedForms": [
+        "قَبَس"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 13,
+      "text": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "highlightedHtml": "يَوْمَ يَقُولُ ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ لِلَّذِينَ آمَنُوا ٱنظُرُونَا <a class=\"highlight-text\">نَقْتَبِسْ</a> مِن نُّورِكُمْ قِيلَ ٱرْجِعُوا۟ وَرَآءَكُمْ فَٱلْتَمِسُوا۟ نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُۥ بَابٌۢ بَاطِنُهُۥ فِيهِ ٱلرَّحْمَةُ وَظَٰهِرُهُۥ مِن قِبَلِهِ ٱلْعَذَابُ",
+      "derivedForms": [
+        "نَقْتَبِس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:28.465Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "بِقَبَسٍ is in the derivative form: قَبَس",
+    "rootDefinitionHtml": "ق/ب/س   q–b–s flame, fire, firebrand, live coal, to try to aquire fire; to seek knowledge, to acquire knowledge; to adopt; good countenance. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَقْتَبِس naqtabis 1 time and قَبَس qabas 2 times.",
+    "mainDefinitionHtml": "قَبَس qabas [n.] firebrand taken from fire, a lit kindling switch <br><br>(20:10) إِنِّي ءَانَسْتُ نَارًا لَعَلِّي ءَاتِيكُمْ مِنْهَا بِقَبَسٍ I perceive a fire, perhaps I may bring you a lit piece of kindling from it.",
+    "mainEntryId": "wdef-ق-ب-س.قَبَس",
+    "entries": [
+      {
+        "id": "wdef-ق-ب-س",
+        "label": "ق-ب-س",
+        "definitionHtml": "ق/ب/س   q–b–s flame, fire, firebrand, live coal, to try to aquire fire; to seek knowledge, to acquire knowledge; to adopt; good countenance. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَقْتَبِس naqtabis 1 time and قَبَس qabas 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-س.قَبَس",
+        "label": "قَبَس",
+        "definitionHtml": "قَبَس qabas [n.] firebrand taken from fire, a lit kindling switch <br><br>(20:10) إِنِّي ءَانَسْتُ نَارًا لَعَلِّي ءَاتِيكُمْ مِنْهَا بِقَبَسٍ I perceive a fire, perhaps I may bring you a lit piece of kindling from it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ب-س.نَقْتَبِس",
+        "label": "نَقْتَبِس",
+        "definitionHtml": "نَقْتَبِس naqtabis [imperf. of v. VIII, intrans.] to seek or acquire fire or light from a live fire source <br><br>(57:13) يَوْمَ يَقُولُ الْمُنَافِقُونَ وَالْمُنَافِقَاتُ لِلَّذِينَ ءَامَنُوا انْظُرُونَا نَقْتَبِسْ مِنْ نُورِكُمْ on the day the hypocrites, men and women, will say to those who believe, ‘Wait for us! Let us kindle [light for ourselves] from your light!’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:36.809Z",
+      "refword": "20:10:13",
+      "lexword": "بِقَبَسٍ"
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "root": "خيب",
+  "rootArabic": "خيب",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "خَابَ",
+      "count": 4
+    },
+    {
+      "form": "خَائِبُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَائِبُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَابَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَابَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَابَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 127,
+      "text": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ خَآئِبِينَ",
+      "highlightedHtml": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ <a class=\"highlight-text\">خَآئِبِينَ</a>",
+      "derivedForms": [
+        "خَائِبُون"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 15,
+      "text": "وَٱسْتَفْتَحُوا۟ وَخَابَ كُلُّ جَبَّارٍ عَنِيدٍ",
+      "highlightedHtml": "وَٱسْتَفْتَحُوا۟ <a class=\"highlight-text\">وَخَابَ</a> كُلُّ جَبَّارٍ عَنِيدٍ",
+      "derivedForms": [
+        "خَابَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 61,
+      "text": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا فَيُسْحِتَكُم بِعَذَابٍ ۖ وَقَدْ خَابَ مَنِ ٱفْتَرَىٰ",
+      "highlightedHtml": "قَالَ لَهُم مُّوسَىٰ وَيْلَكُمْ لَا تَفْتَرُوا۟ عَلَى ٱللَّهِ كَذِبًا فَيُسْحِتَكُم بِعَذَابٍ ۖ وَقَدْ <a class=\"highlight-text\">خَابَ</a> مَنِ ٱفْتَرَىٰ",
+      "derivedForms": [
+        "خَابَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 111,
+      "text": "وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا",
+      "highlightedHtml": "وَعَنَتِ ٱلْوُجُوهُ لِلْحَىِّ ٱلْقَيُّومِ ۖ وَقَدْ <a class=\"highlight-text\">خَابَ</a> مَنْ حَمَلَ ظُلْمًا",
+      "derivedForms": [
+        "خَابَ"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 10,
+      "text": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "highlightedHtml": "وَقَدْ <a class=\"highlight-text\">خَابَ</a> مَن دَسَّىٰهَا",
+      "derivedForms": [
+        "خَابَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:55.168Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "خَآئِبِينَ is in the derivative form: خَائِبُون",
+    "rootDefinitionHtml": "خ/ي/ب kh–y–b the losing arrow in a game of fortune<br>; to fail, to be disappointed; to go wrong; frustration, failure. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> خَابَ khāba 4 times; and خَائِبُون khāʾibūn 1 time.",
+    "mainDefinitionHtml": "خَائِبُون khāʾibūn [pl. of quasi‐act. part. خَائِبٌ khāʾib] (one who is) losing, failing, disappointed, a failure <br><br>(3:127) لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ فَيَنْقَلِبُوا خَائِبِينَ and that He might cut off a part of the disbelievers’ [army] or frustrate them so that they turn on their heels, losers.",
+    "mainEntryId": "wdef-خ-ي-ب.خَائِبُون",
+    "entries": [
+      {
+        "id": "wdef-خ-ي-ب",
+        "label": "خ-ي-ب",
+        "definitionHtml": "خ/ي/ب kh–y–b the losing arrow in a game of fortune<br>; to fail, to be disappointed; to go wrong; frustration, failure. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> خَابَ khāba 4 times; and خَائِبُون khāʾibūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ي-ب.خَائِبُون",
+        "label": "خَائِبُون",
+        "definitionHtml": "خَائِبُون khāʾibūn [pl. of quasi‐act. part. خَائِبٌ khāʾib] (one who is) losing, failing, disappointed, a failure <br><br>(3:127) لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ فَيَنْقَلِبُوا خَائِبِينَ and that He might cut off a part of the disbelievers’ [army] or frustrate them so that they turn on their heels, losers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ي-ب.خَابَ",
+        "label": "خَابَ",
+        "definitionHtml": "خَابَ khāba i [v. intrans.] to lose, to fail, to come to nothing <br><br>(20:111) وَقَدْ خَابَ مَنْ حَمَلَ ظُلْمًا and those who carry [the burden of having committed] injustice will meet with failure.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:10.921Z",
+      "refword": "3:127:9",
+      "lexword": "خَآئِبِينَ"
+    }
+  }
+}

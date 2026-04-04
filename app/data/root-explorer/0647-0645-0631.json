@@ -1,0 +1,74 @@
+{
+  "root": "همر",
+  "rootArabic": "همر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُنْهَمِرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْهَمِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 54,
+      "ayah": 11,
+      "text": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ مُّنْهَمِرٍ",
+      "highlightedHtml": "فَفَتَحْنَآ أَبْوَٰبَ ٱلسَّمَآءِ بِمَآءٍ <a class=\"highlight-text\">مُّنْهَمِرٍ</a>",
+      "derivedForms": [
+        "مُنْهَمِرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:40.360Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite (form VII) active participle",
+    "derivativeNote": "مُّنْهَمِرٍ is in the derivative form: مُنْهَمِرٌ",
+    "rootDefinitionHtml": "هـ/م/ر   h–m–r to pour down, to shed, a shower of rain, rain clouds; to talk too much, a talkative person; to give generously. Of this root, مُنْهَمِرٌ munhamir occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُنْهَمِرٌ munhamir [act. part. of v. VII انْهَمَرَ ʾinhamara] pouring down profusely <br><br>(54:11) فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ مُنْهَمِرٍ so We opened the gates of the sky with torrential water.",
+    "mainEntryId": "wdef-هـ-م-ر.مُنْهَمِرٌ",
+    "entries": [
+      {
+        "id": "wdef-هـ-م-ر",
+        "label": "هـ-م-ر",
+        "definitionHtml": "هـ/م/ر   h–m–r to pour down, to shed, a shower of rain, rain clouds; to talk too much, a talkative person; to give generously. Of this root, مُنْهَمِرٌ munhamir occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-م-ر.مُنْهَمِرٌ",
+        "label": "مُنْهَمِرٌ",
+        "definitionHtml": "مُنْهَمِرٌ munhamir [act. part. of v. VII انْهَمَرَ ʾinhamara] pouring down profusely <br><br>(54:11) فَفَتَحْنَا أَبْوَابَ السَّمَاءِ بِمَاءٍ مُنْهَمِرٍ so We opened the gates of the sky with torrential water.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:25.877Z",
+      "refword": "54:11:5",
+      "lexword": "مُّنْهَمِرٍ"
+    }
+  }
+}

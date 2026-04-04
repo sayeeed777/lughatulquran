@@ -1,0 +1,363 @@
+{
+  "root": "رهب",
+  "rootArabic": "رهب",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 8,
+    "surahCount": 10,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "رُهْبَانٌ",
+      "count": 3
+    },
+    {
+      "form": "يَرْهَبُ",
+      "count": 3
+    },
+    {
+      "form": "اسْتَرْهَبَ",
+      "count": 1
+    },
+    {
+      "form": "تُرْهِبُ",
+      "count": 1
+    },
+    {
+      "form": "رَهَبٌ",
+      "count": 1
+    },
+    {
+      "form": "رَهْبٌ",
+      "count": 1
+    },
+    {
+      "form": "رَهْبَانِيَّةٌ",
+      "count": 1
+    },
+    {
+      "form": "رَهْبَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْهَبُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُهْبَانٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَرْهَبَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَرْهَبُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُرْهِبُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رُهْبَانٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْهَبُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَهَبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَهْبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَهْبَانِيَّةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَهْبَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 40,
+      "text": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّٰىَ فَٱرْهَبُونِ",
+      "highlightedHtml": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّٰىَ <a class=\"highlight-text\">فَٱرْهَبُونِ</a>",
+      "derivedForms": [
+        "يَرْهَبُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 82,
+      "text": "لَتَجِدَنَّ أَشَدَّ ٱلنَّاسِ عَدَٰوَةً لِّلَّذِينَ آمَنُوا ٱلْيَهُودَ وَٱلَّذِينَ أَشْرَكُوا۟ ۖ وَلَتَجِدَنَّ أَقْرَبَهُم مَّوَدَّةً لِّلَّذِينَ آمَنُوا ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰ ۚ ذَٰلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ وَرُهْبَانًا وَأَنَّهُمْ لَا يَسْتَكْبِرُونَ",
+      "highlightedHtml": "لَتَجِدَنَّ أَشَدَّ ٱلنَّاسِ عَدَٰوَةً لِّلَّذِينَ آمَنُوا ٱلْيَهُودَ وَٱلَّذِينَ أَشْرَكُوا۟ ۖ وَلَتَجِدَنَّ أَقْرَبَهُم مَّوَدَّةً لِّلَّذِينَ آمَنُوا ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰ ۚ ذَٰلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ <a class=\"highlight-text\">وَرُهْبَانًا</a> وَأَنَّهُمْ لَا يَسْتَكْبِرُونَ",
+      "derivedForms": [
+        "رُهْبَانٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 116,
+      "text": "قَالَ أَلْقُوا۟ ۖ فَلَمَّآ أَلْقَوْا۟ سَحَرُوٓا۟ أَعْيُنَ ٱلنَّاسِ وَٱسْتَرْهَبُوهُمْ وَجَآءُو بِسِحْرٍ عَظِيمٍ",
+      "highlightedHtml": "قَالَ أَلْقُوا۟ ۖ فَلَمَّآ أَلْقَوْا۟ سَحَرُوٓا۟ أَعْيُنَ ٱلنَّاسِ <a class=\"highlight-text\">وَٱسْتَرْهَبُوهُمْ</a> وَجَآءُو بِسِحْرٍ عَظِيمٍ",
+      "derivedForms": [
+        "اسْتَرْهَبَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 154,
+      "text": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "highlightedHtml": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ <a class=\"highlight-text\">يَرْهَبُونَ</a>",
+      "derivedForms": [
+        "يَرْهَبُ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 60,
+      "text": "وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍ قُوَّةٍ وَمِن رِّبَاطِ ٱلْخَيْلِ تُرْهِبُونَ بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَآخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
+      "highlightedHtml": "وَأَعِدُّوا۟ لَهُم مَّا ٱسْتَطَعْتُم مِّن قُوَّةٍ قُوَّةٍ وَمِن رِّبَاطِ ٱلْخَيْلِ <a class=\"highlight-text\">تُرْهِبُونَ</a> بِهِۦ عَدُوَّ ٱللَّهِ وَعَدُوَّكُمْ وَآخَرِينَ مِن دُونِهِمْ لَا تَعْلَمُونَهُمُ ٱللَّهُ يَعْلَمُهُمْ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فِى سَبِيلِ ٱللَّهِ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
+      "derivedForms": [
+        "تُرْهِبُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 31,
+      "text": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًا وَٰحِدًا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ <a class=\"highlight-text\">وَرُهْبَٰنَهُمْ</a> أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًا وَٰحِدًا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "رُهْبَانٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 34,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ <a class=\"highlight-text\">وَٱلرُّهْبَانِ</a> لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "رُهْبَانٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 51,
+      "text": "وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَٰهٌ وَٰحِدٌ ۖ فَإِيَّٰىَ فَٱرْهَبُونِ",
+      "highlightedHtml": "وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَٰهٌ وَٰحِدٌ ۖ فَإِيَّٰىَ <a class=\"highlight-text\">فَٱرْهَبُونِ</a>",
+      "derivedForms": [
+        "يَرْهَبُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 90,
+      "text": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+      "highlightedHtml": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًا <a class=\"highlight-text\">وَرَهَبًا</a> ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+      "derivedForms": [
+        "رَهَبٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 32,
+      "text": "ٱسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ وَٱضْمُمْ إِلَيْكَ جَنَاحَكَ مِنَ ٱلرَّهْبِ ۖ فَذَٰنِكَ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ مِن رَّبِّكَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "highlightedHtml": "ٱسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ وَٱضْمُمْ إِلَيْكَ جَنَاحَكَ مِنَ <a class=\"highlight-text\">ٱلرَّهْبِ</a> ۖ فَذَٰنِكَ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ مِن رَّبِّكَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "derivedForms": [
+        "رَهْبٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً <a class=\"highlight-text\">وَرَهْبَانِيَّةً</a> ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "رَهْبَانِيَّةٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 13,
+      "text": "لَأَنتُمْ أَشَدُّ رَهْبَةً فِى صُدُورِهِم صُدُورِهِم مِّنَ ٱللَّهِ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "highlightedHtml": "لَأَنتُمْ أَشَدُّ <a class=\"highlight-text\">رَهْبَةً</a> فِى صُدُورِهِم صُدُورِهِم مِّنَ ٱللَّهِ ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "derivedForms": [
+        "رَهْبَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:49.253Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "فَٱرْهَبُونِ is in the derivative form: يَرْهَبُ",
+    "rootDefinitionHtml": "ر/هـ/ب   r–h–b emaciated or fatigued she‐camel<br>; to fear, to dread, to frighten, to threaten; monk, the state of being a monk, monasticism; small bone in the breast opposite the arm (the ensiform cartilage); sleeve. <br><br>Of this root, 8 forms occur 13 times in the Qur’an:<br> يَرْهَبُ yarhab 3 times; تُرْهِبُون turhibūn 1 time; اسْتَرْهَبَ ʾistarhaba 1 time; رَهْبٌ rahb 1 time; رَهْبَةٌ rahbatun 1 time; رَهَبٌ rahab 1 time; رُهْبَانٌ ruhbān 3 times and رَهْبَانِيَّةٌ rahbāniyyatun 2 times.",
+    "mainDefinitionHtml": "يَرْهَبُ yarhab [imperf. of v. رَهِبَ rahiba, trans.] to fear, to stand in awe of <br><br>(7:154) أَخَذَ الأَلْوَاحَ وَفِي نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ he picked up the Tablets, in whose inscription were guidance and mercy for those who stood in awe of their Lord.",
+    "mainEntryId": "wdef-ر-هـ-ب.يَرْهَبُ",
+    "entries": [
+      {
+        "id": "wdef-ر-هـ-ب",
+        "label": "ر-هـ-ب",
+        "definitionHtml": "ر/هـ/ب   r–h–b emaciated or fatigued she‐camel<br>; to fear, to dread, to frighten, to threaten; monk, the state of being a monk, monasticism; small bone in the breast opposite the arm (the ensiform cartilage); sleeve. <br><br>Of this root, 8 forms occur 13 times in the Qur’an:<br> يَرْهَبُ yarhab 3 times; تُرْهِبُون turhibūn 1 time; اسْتَرْهَبَ ʾistarhaba 1 time; رَهْبٌ rahb 1 time; رَهْبَةٌ rahbatun 1 time; رَهَبٌ rahab 1 time; رُهْبَانٌ ruhbān 3 times and رَهْبَانِيَّةٌ rahbāniyyatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.يَرْهَبُ",
+        "label": "يَرْهَبُ",
+        "definitionHtml": "يَرْهَبُ yarhab [imperf. of v. رَهِبَ rahiba, trans.] to fear, to stand in awe of <br><br>(7:154) أَخَذَ الأَلْوَاحَ وَفِي نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ he picked up the Tablets, in whose inscription were guidance and mercy for those who stood in awe of their Lord.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-هـ-ب.اسْتَرْهَبَ",
+        "label": "اسْتَرْهَبَ",
+        "definitionHtml": "اسْتَرْهَبَ ʾistarhaba [v. X, trans.] to seek to frighten, to strike with awe <br><br>(7:116) سَحَرُوا أَعْيُنَ النَّاسِ وَاسْتَرْهَبُوهُمْ وَجَاءُوا بِسِحْرٍ عَظِيمٍ they cast a spell on the eyes of the crowd and endeavoured to frighten them, and brought about work of great sorcery.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.تُرْهِبُ",
+        "label": "تُرْهِبُ",
+        "definitionHtml": "تُرْهِبُ turhib [imperf. of v. IV أَرْهَبَ ʾarhaba, trans.] to deter, to frighten off <br><br>(8:60) وَأَعِدُّوا لَهُمْ مَا اسْتَطَعْتُمْ مِنْ قُوَّةٍ وَمِنْ رِبَاطِ الْخَيْلِ تُرْهِبُونَ بِهِ عَدُوَّ اللَّهِ وَعَدُوَّكُمْ and prepare against them whatever forces you can muster, including warhorses, by which you frighten off the enemies of God and your own.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.رَهَبٌ",
+        "label": "رَهَبٌ",
+        "definitionHtml": "رَهَبٌ rahab [v. n./n.] fear, awe <br><br>(21:90) وَيَدْعُونَنَا رَغَبًا وَرَهَبًا they called upon Us out of longing and awe.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.رَهْبٌ",
+        "label": "رَهْبٌ",
+        "definitionHtml": "رَهْبٌ rahb [n.] awe, fear; sleeve; bone in the breast opposite the arm <br><br>(28:32) اسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ وَاضْمُمْ إِلَيْكَ جَنَاحَكَ مِنَ الرَّهْبِ put your hand inside your shirt and it will come out white without a blemish, and hold your arm close to your side, [to free yourself] from fear (or, tightly against the bones of your chest).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.رَهْبَانِيَّةٌ",
+        "label": "رَهْبَانِيَّةٌ",
+        "definitionHtml": "رَهْبَانِيَّةٌ rahbāniyyatun [v. n.; n.] excessive fear (of God); monasticism <br><br>(57:27) وَرَهْبَانِيَّةً ابْتَدَعُوهَا مَا كَتَبْنَاهَا عَلَيْهِمْ إِلاَّ ابْتِغَاءَ رِضْوَانِ اللَّهِ and monasticism they have invented–We did not ordain it for them, only seeking God’s pleasure.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.رَهْبَةٌ",
+        "label": "رَهْبَةٌ",
+        "definitionHtml": "رَهْبَةٌ rahbatun [n.] fear, awe <br><br>(59:13) لأََنْتُمْ أَشَدُّ رَهْبَةً فِى صُدُورِهِمْ مِنَ اللَّهِ indeed, you are [an object] of more fear in their hearts than God is.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-هـ-ب.رُهْبَانٌ",
+        "label": "رُهْبَانٌ",
+        "definitionHtml": "رُهْبَانٌ ruhbān [pl. of n. رَاهِبٌ rāhib] monk, ascetic <br><br>(5:82) وَلَتَجِدَنَّ أَقْرَبَهُمْ مَوَدَّةً لِلَّذِينَ ءَامَنُوا الَّذِينَ قَالُوا إِنَّا نَصَارَى ذَلِكَ بِأَنَّ مِنْهُمْ قِسِّيسِينَ وَرُهْبَانًا وَأَنَّهُمْ لاَ يَسْتَكْبِرُونَ and you are sure to find that the closest of them in affection towards those who believe are those who say, ‘We are Christians,’ for some of them are priests and monks and they are not given to arrogance.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:45.785Z",
+      "refword": "2:40:13",
+      "lexword": "فَٱرْهَبُونِ"
+    }
+  }
+}

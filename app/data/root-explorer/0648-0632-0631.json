@@ -1,0 +1,428 @@
+{
+  "root": "وزر",
+  "rootArabic": "وزر",
+  "stats": {
+    "totalOccurrences": 27,
+    "derivativeCount": 5,
+    "surahCount": 11,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "وِزْرٌ",
+      "count": 12
+    },
+    {
+      "form": "تَزِرُ",
+      "count": 7
+    },
+    {
+      "form": "وَازِرَةٌ",
+      "count": 5
+    },
+    {
+      "form": "وَزِيرٌ",
+      "count": 2
+    },
+    {
+      "form": "وَزَرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "تَزِرُ",
+          "count": 2,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وِزْرٌ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "وَازِرَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "وِزْرٌ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "تَزِرُ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَزِرُ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وَازِرَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "وِزْرٌ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "وَزِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَزِرُ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وَازِرَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَزِرُ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وَازِرَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَزِرُ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وَازِرَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزَرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "surahName": "Al-Inshirah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وِزْرٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 31,
+      "text": "قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ",
+      "highlightedHtml": "قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ <a class=\"highlight-text\">أَوْزَارَهُمْ</a> عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا <a class=\"highlight-text\">يَزِرُونَ</a>",
+      "derivedForms": [
+        "وِزْرٌ",
+        "تَزِرُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 164,
+      "text": "قُلْ أَغَيْرَ ٱللَّهِ أَبْغِى رَبًّا وَهُوَ رَبُّ كُلِّ شَىْءٍ ۚ وَلَا تَكْسِبُ كُلُّ نَفْسٍ إِلَّا عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۚ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "highlightedHtml": "قُلْ أَغَيْرَ ٱللَّهِ أَبْغِى رَبًّا وَهُوَ رَبُّ كُلِّ شَىْءٍ ۚ وَلَا تَكْسِبُ كُلُّ نَفْسٍ إِلَّا عَلَيْهَا ۚ وَلَا <a class=\"highlight-text\">تَزِرُ</a> <a class=\"highlight-text\">وَازِرَةٌ</a> <a class=\"highlight-text\">وِزْرَ</a> أُخْرَى ۚ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "derivedForms": [
+        "تَزِرُ",
+        "وَازِرَةٌ",
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 25,
+      "text": "لِيَحْمِلُوٓا۟ أَوْزَارَهُمْ كَامِلَةً يَوْمَ ٱلْقِيَٰمَةِ ۙ وَمِنْ أَوْزَارِ ٱلَّذِينَ يُضِلُّونَهُم بِغَيْرِ عِلْمٍ ۗ أَلَا سَآءَ مَا يَزِرُونَ",
+      "highlightedHtml": "لِيَحْمِلُوٓا۟ <a class=\"highlight-text\">أَوْزَارَهُمْ</a> كَامِلَةً يَوْمَ ٱلْقِيَٰمَةِ ۙ وَمِنْ <a class=\"highlight-text\">أَوْزَارِ</a> ٱلَّذِينَ يُضِلُّونَهُم بِغَيْرِ عِلْمٍ ۗ أَلَا سَآءَ مَا <a class=\"highlight-text\">يَزِرُونَ</a>",
+      "derivedForms": [
+        "وِزْرٌ",
+        "وِزْرٌ",
+        "تَزِرُ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 15,
+      "text": "مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًا",
+      "highlightedHtml": "مَّنِ ٱهْتَدَىٰ فَإِنَّمَا يَهْتَدِى لِنَفْسِهِۦ ۖ وَمَن ضَلَّ فَإِنَّمَا يَضِلُّ عَلَيْهَا ۚ وَلَا <a class=\"highlight-text\">تَزِرُ</a> <a class=\"highlight-text\">وَازِرَةٌ</a> <a class=\"highlight-text\">وِزْرَ</a> أُخْرَى ۗ وَمَا كُنَّا مُعَذِّبِينَ حَتَّىٰ نَبْعَثَ رَسُولًا",
+      "derivedForms": [
+        "تَزِرُ",
+        "وَازِرَةٌ",
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 29,
+      "text": "وَٱجْعَل لِّى وَزِيرًا مِّنْ أَهْلِى",
+      "highlightedHtml": "وَٱجْعَل لِّى <a class=\"highlight-text\">وَزِيرًا</a> مِّنْ أَهْلِى",
+      "derivedForms": [
+        "وَزِيرٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 87,
+      "text": "قَالُوا۟ مَآ أَخْلَفْنَا مَوْعِدَكَ بِمَلْكِنَا وَلَٰكِنَّا حُمِّلْنَآ أَوْزَارًا مِّن زِينَةِ ٱلْقَوْمِ فَقَذَفْنَٰهَا فَكَذَٰلِكَ أَلْقَى ٱلسَّامِرِىُّ",
+      "highlightedHtml": "قَالُوا۟ مَآ أَخْلَفْنَا مَوْعِدَكَ بِمَلْكِنَا وَلَٰكِنَّا حُمِّلْنَآ <a class=\"highlight-text\">أَوْزَارًا</a> مِّن زِينَةِ ٱلْقَوْمِ فَقَذَفْنَٰهَا فَكَذَٰلِكَ أَلْقَى ٱلسَّامِرِىُّ",
+      "derivedForms": [
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 100,
+      "text": "مَّنْ أَعْرَضَ عَنْهُ فَإِنَّهُۥ يَحْمِلُ يَوْمَ ٱلْقِيَٰمَةِ وِزْرًا",
+      "highlightedHtml": "مَّنْ أَعْرَضَ عَنْهُ فَإِنَّهُۥ يَحْمِلُ يَوْمَ ٱلْقِيَٰمَةِ <a class=\"highlight-text\">وِزْرًا</a>",
+      "derivedForms": [
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 35,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ وَجَعَلْنَا مَعَهُۥٓ أَخَاهُ هَٰرُونَ وَزِيرًا",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ وَجَعَلْنَا مَعَهُۥٓ أَخَاهُ هَٰرُونَ <a class=\"highlight-text\">وَزِيرًا</a>",
+      "derivedForms": [
+        "وَزِيرٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 18,
+      "text": "وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۚ وَإِن تَدْعُ مُثْقَلَةٌ إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَزِرُ</a> <a class=\"highlight-text\">وَازِرَةٌ</a> <a class=\"highlight-text\">وِزْرَ</a> أُخْرَى ۚ وَإِن تَدْعُ مُثْقَلَةٌ إِلَىٰ حِمْلِهَا لَا يُحْمَلْ مِنْهُ شَىْءٌ وَلَوْ كَانَ ذَا قُرْبَىٰٓ ۗ إِنَّمَا تُنذِرُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُم بِٱلْغَيْبِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ ۚ وَمَن تَزَكَّىٰ فَإِنَّمَا يَتَزَكَّىٰ لِنَفْسِهِۦ ۚ وَإِلَى ٱللَّهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "تَزِرُ",
+        "وَازِرَةٌ",
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 7,
+      "text": "إِن تَكْفُرُوا۟ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنكُمْ ۖ وَلَا يَرْضَىٰ لِعِبَادِهِ ٱلْكُفْرَ ۖ وَإِن تَشْكُرُوا۟ يَرْضَهُ لَكُمْ ۗ وَلَا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى ۗ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "إِن تَكْفُرُوا۟ فَإِنَّ ٱللَّهَ غَنِىٌّ عَنكُمْ ۖ وَلَا يَرْضَىٰ لِعِبَادِهِ ٱلْكُفْرَ ۖ وَإِن تَشْكُرُوا۟ يَرْضَهُ لَكُمْ ۗ وَلَا <a class=\"highlight-text\">تَزِرُ</a> <a class=\"highlight-text\">وَازِرَةٌ</a> <a class=\"highlight-text\">وِزْرَ</a> أُخْرَى ۗ ثُمَّ إِلَىٰ رَبِّكُم مَّرْجِعُكُمْ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "تَزِرُ",
+        "وَازِرَةٌ",
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 4,
+      "text": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا مَنًّۢا بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ أَوْزَارَهَا ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَٰلَهُمْ",
+      "highlightedHtml": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا مَنًّۢا بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ <a class=\"highlight-text\">أَوْزَارَهَا</a> ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَٰلَهُمْ",
+      "derivedForms": [
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 38,
+      "text": "أَلَّا تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى",
+      "highlightedHtml": "أَلَّا <a class=\"highlight-text\">تَزِرُ</a> <a class=\"highlight-text\">وَازِرَةٌ</a> <a class=\"highlight-text\">وِزْرَ</a> أُخْرَى",
+      "derivedForms": [
+        "تَزِرُ",
+        "وَازِرَةٌ",
+        "وِزْرٌ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 11,
+      "text": "كَلَّا لَا وَزَرَ",
+      "highlightedHtml": "كَلَّا لَا <a class=\"highlight-text\">وَزَرَ</a>",
+      "derivedForms": [
+        "وَزَرٌ"
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 2,
+      "text": "وَوَضَعْنَا عَنكَ وِزْرَكَ",
+      "highlightedHtml": "وَوَضَعْنَا عَنكَ <a class=\"highlight-text\">وِزْرَكَ</a>",
+      "derivedForms": [
+        "وِزْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:14.175Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine plural noun",
+    "derivativeNote": "أَوْزَارَهُمْ is in the derivative form: وِزْرٌ",
+    "rootDefinitionHtml": "و/ز/ر   w–z–r impregnable mountain, refuge, armament<br>; support, counsellor; to bear, to back up; to carry, heavy load, crime, sin. The word وَزَرٌ wazar, meaning mountain or refuge, is said to be of Nabatean origin and وَزِيرٌ wazır is said to be originally Persian. <br><br>Of this root, 6 forms occur 27 times in the Qur’an:<br> تَزِر tazir 7 times; وِزْرٌ wizr 7 times; أَوْزَارٌ ʾawzār 5 times; وَازِرَةٌ wāziratun 5 times; وَزَرٌ wazar 1 time and وَزِيرٌ wazır 2 times.",
+    "mainDefinitionHtml": "وِزْرٌ wizr [n. pl. أَوْزَارٌ ʾawzār] <br><br><strong>1 </strong>load, burden, heavy weight <br><br>(20:87) وَلَكِنَّا حُمِّلْنَا أَوْزَارًا مِنْ زِينَةِ الْقَوْمِ فَقَذَفْنَاهَا but we were laden with burdens from the people’s ornaments, so we threw them [into the fire]; *<br><br>(47:4) حَتَّى تَضَعَ الْحَرْبُ أَوْزَارَهَا until the war comes to an end [lit. lays down its burdens] <br><br><strong>2 </strong>guilt, crime, sin, responsibility <br><br>(20:100) مَنْ أَعْرَضَ عَنْهُ فَإِنَّهُ يَحْمِلُ يَوْمَ الْقِيَامَةِ وِزْرًا whoever turns away from it will bear a heavy responsibility on the Day of Resurrection.",
+    "mainEntryId": "wdef-و-ز-ر.وِزْرٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ز-ر",
+        "label": "و-ز-ر",
+        "definitionHtml": "و/ز/ر   w–z–r impregnable mountain, refuge, armament<br>; support, counsellor; to bear, to back up; to carry, heavy load, crime, sin. The word وَزَرٌ wazar, meaning mountain or refuge, is said to be of Nabatean origin and وَزِيرٌ wazır is said to be originally Persian. <br><br>Of this root, 6 forms occur 27 times in the Qur’an:<br> تَزِر tazir 7 times; وِزْرٌ wizr 7 times; أَوْزَارٌ ʾawzār 5 times; وَازِرَةٌ wāziratun 5 times; وَزَرٌ wazar 1 time and وَزِيرٌ wazır 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ر.وِزْرٌ",
+        "label": "وِزْرٌ",
+        "definitionHtml": "وِزْرٌ wizr [n. pl. أَوْزَارٌ ʾawzār] <br><br><strong>1 </strong>load, burden, heavy weight <br><br>(20:87) وَلَكِنَّا حُمِّلْنَا أَوْزَارًا مِنْ زِينَةِ الْقَوْمِ فَقَذَفْنَاهَا but we were laden with burdens from the people’s ornaments, so we threw them [into the fire]; *<br><br>(47:4) حَتَّى تَضَعَ الْحَرْبُ أَوْزَارَهَا until the war comes to an end [lit. lays down its burdens] <br><br><strong>2 </strong>guilt, crime, sin, responsibility <br><br>(20:100) مَنْ أَعْرَضَ عَنْهُ فَإِنَّهُ يَحْمِلُ يَوْمَ الْقِيَامَةِ وِزْرًا whoever turns away from it will bear a heavy responsibility on the Day of Resurrection.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ز-ر.تَزِرُ",
+        "label": "تَزِرُ",
+        "definitionHtml": "تَزِرُ tazir [imp. of v. وَزَرَ wazara, trans.] to bear, to shoulder (responsibility) <br><br>(53:38) أَلاَّ تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى that no [responsible] soul shall shoulder the responsibility of another.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ر.وَازِرَةٌ",
+        "label": "وَازِرَةٌ",
+        "definitionHtml": "وَازِرَةٌ wāziratun [fem. act. part.] a person (soul) having the capacity to be responsible for his/her actions, a legal entity <br><br>(6:164) وَلاَ تَزِرُ وَازِرَةٌ وِزْرَ أُخْرَى no soul capable of carrying responsibility shall bear the guilt of another.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ر.وَزَرٌ",
+        "label": "وَزَرٌ",
+        "definitionHtml": "وَزَرٌ wazar [n.] refuge, place of refuge <br><br>(75:11) كَلاَّ لاَ وَزَرَ truly, there will be no refuge.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ر.وَزِيرٌ",
+        "label": "وَزِيرٌ",
+        "definitionHtml": "وَزِيرٌ wazır [n.] counsellor, helper, supporter <br><br>(20:29) وَاجْعَلْ لِي وَزِيرًا مِنْ أَهْلِي and provide for me a helper from my family.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:32.789Z",
+      "refword": "6:31:20",
+      "lexword": "أَوْزَارَهُمْ"
+    }
+  }
+}

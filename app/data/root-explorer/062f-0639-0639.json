@@ -1,0 +1,112 @@
+{
+  "root": "دعع",
+  "rootArabic": "دعع",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَدُعُّ",
+      "count": 2
+    },
+    {
+      "form": "دَعّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دَعّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَدُعُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 107,
+      "surahName": "Al-Ma'un",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدُعُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 52,
+      "ayah": 13,
+      "text": "يَوْمَ يُدَعُّونَ إِلَىٰ نَارِ جَهَنَّمَ دَعًّا",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يُدَعُّونَ</a> إِلَىٰ نَارِ جَهَنَّمَ <a class=\"highlight-text\">دَعًّا</a>",
+      "derivedForms": [
+        "يَدُعُّ",
+        "دَعّ"
+      ]
+    },
+    {
+      "surah": 107,
+      "ayah": 2,
+      "text": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+      "highlightedHtml": "فَذَٰلِكَ ٱلَّذِى <a class=\"highlight-text\">يَدُعُّ</a> ٱلْيَتِيمَ",
+      "derivedForms": [
+        "يَدُعُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:15.437Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive imperfect verb",
+    "derivativeNote": "يُدَعُّونَ is in the derivative form: يَدُعُّ",
+    "rootDefinitionHtml": "د/ع/ع   d–ʿ–ʿ to push violently, to shove, to drive away<br>; barren stony land; to fill up, to walk with a limp. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَدُعُّ yaduʿʿ; يُدَعُّونَ yudaʿʿūn and دَعٌّ daʿʿ.",
+    "mainDefinitionHtml": "يَدُعُّ yaduʿʿ [imperf. of v. دَعَّ daʿʿa, trans.; pas. V. يُدَعُّ yudaʿʿ] to push violently, to shove <br><br>(107:2) فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ it is he who pushes aside the orphan.",
+    "mainEntryId": "wdef-د-ع-ع.يَدُعُّ",
+    "entries": [
+      {
+        "id": "wdef-د-ع-ع",
+        "label": "د-ع-ع",
+        "definitionHtml": "د/ع/ع   d–ʿ–ʿ to push violently, to shove, to drive away<br>; barren stony land; to fill up, to walk with a limp. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَدُعُّ yaduʿʿ; يُدَعُّونَ yudaʿʿūn and دَعٌّ daʿʿ.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ع-ع.يَدُعُّ",
+        "label": "يَدُعُّ",
+        "definitionHtml": "يَدُعُّ yaduʿʿ [imperf. of v. دَعَّ daʿʿa, trans.; pas. V. يُدَعُّ yudaʿʿ] to push violently, to shove <br><br>(107:2) فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ it is he who pushes aside the orphan.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ع-ع.دَعّ",
+        "label": "دَعّ",
+        "definitionHtml": "دَعّ daʿʿ [v. n. used adverbially for emphasis] pushing or thrusting, shoving in <br><br>(52:13) يَوْمَ يُدَعُّونَ إِلَى نَارِ جَهَنَّمَ دَعًّا on that Day they will be thrust into the Fire of Hell violently.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:51.117Z",
+      "refword": "52:13:2",
+      "lexword": "يُدَعُّونَ"
+    }
+  }
+}

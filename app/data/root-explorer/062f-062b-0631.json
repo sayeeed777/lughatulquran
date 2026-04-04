@@ -1,0 +1,74 @@
+{
+  "root": "دثر",
+  "rootArabic": "دثر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَُدَّثِّرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَُدَّثِّرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 74,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلْمُدَّثِّرُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا <a class=\"highlight-text\">ٱلْمُدَّثِّرُ</a>",
+      "derivedForms": [
+        "مَُدَّثِّرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:01.456Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine (form V) active participle",
+    "derivativeNote": "ٱلْمُدَّثِّرُ is in the derivative form: مَُدَّثِّرٌ",
+    "rootDefinitionHtml": "د/ث/ر   d–th–r to become blotted out, to be forgotten; to become cold, to rust; to be covered, to be wrapped up, an outer garment. Of this root, مُدَثِّرٌ muddaththir occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَُدَّثِّرٌ muddaththir [an assimilated form of act. part. مُتَدَثِّر mutadaththir of v. V تَدَّثَّرَ taddaththara] <br><br><strong>1 </strong>one who is wrapping himself up <br><br>(74:1–2) قُمْ فَأَنْذِرْ يَاأَيُّهَا الْمُدَّثِّرُ you, the one wrapping yourself [in your cloak], arise and give warning; * الْمُدَّثِّرُ name of Sura 74, Meccan sura, so‐named because of reference in verse <br><br><strong>1 </strong>to ‘the Wrapped One’.",
+    "mainEntryId": "wdef-د-ث-ر.مَُدَّثِّرٌ",
+    "entries": [
+      {
+        "id": "wdef-د-ث-ر",
+        "label": "د-ث-ر",
+        "definitionHtml": "د/ث/ر   d–th–r to become blotted out, to be forgotten; to become cold, to rust; to be covered, to be wrapped up, an outer garment. Of this root, مُدَثِّرٌ muddaththir occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ث-ر.مَُدَّثِّرٌ",
+        "label": "مَُدَّثِّرٌ",
+        "definitionHtml": "مَُدَّثِّرٌ muddaththir [an assimilated form of act. part. مُتَدَثِّر mutadaththir of v. V تَدَّثَّرَ taddaththara] <br><br><strong>1 </strong>one who is wrapping himself up <br><br>(74:1–2) قُمْ فَأَنْذِرْ يَاأَيُّهَا الْمُدَّثِّرُ you, the one wrapping yourself [in your cloak], arise and give warning; * الْمُدَّثِّرُ name of Sura 74, Meccan sura, so‐named because of reference in verse <br><br><strong>1 </strong>to ‘the Wrapped One’.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:22.292Z",
+      "refword": "74:1:2",
+      "lexword": "ٱلْمُدَّثِّرُ"
+    }
+  }
+}

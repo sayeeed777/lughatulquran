@@ -1,0 +1,714 @@
+{
+  "root": "مدد",
+  "rootArabic": "مدد",
+  "stats": {
+    "totalOccurrences": 32,
+    "derivativeCount": 10,
+    "surahCount": 24,
+    "ayahCount": 29
+  },
+  "derivatives": [
+    {
+      "form": "مَدَّ",
+      "count": 12
+    },
+    {
+      "form": "أَمَدَّ",
+      "count": 10
+    },
+    {
+      "form": "مَدّ",
+      "count": 2
+    },
+    {
+      "form": "مَمْدُود",
+      "count": 2
+    },
+    {
+      "form": "مُدَّ",
+      "count": 1
+    },
+    {
+      "form": "مِدَاد",
+      "count": 1
+    },
+    {
+      "form": "مُدَّةٌ",
+      "count": 1
+    },
+    {
+      "form": "مَدَد",
+      "count": 1
+    },
+    {
+      "form": "مُمِدّ",
+      "count": 1
+    },
+    {
+      "form": "مُمَدََّد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمِدّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدَّةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِدَاد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَدَد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "مَدّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَدَّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْدُود",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمَدَّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْدُود",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُمَدََّد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 15,
+      "text": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ <a class=\"highlight-text\">وَيَمُدُّهُمْ</a> فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 124,
+      "text": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن يُمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ",
+      "highlightedHtml": "إِذْ تَقُولُ لِلْمُؤْمِنِينَ أَلَن يَكْفِيَكُمْ أَن <a class=\"highlight-text\">يُمِدَّكُمْ</a> رَبُّكُم بِثَلَٰثَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُنزَلِينَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 125,
+      "text": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "highlightedHtml": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا <a class=\"highlight-text\">يُمْدِدْكُمْ</a> رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 202,
+      "text": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ",
+      "highlightedHtml": "وَإِخْوَٰنُهُمْ <a class=\"highlight-text\">يَمُدُّونَهُمْ</a> فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 9,
+      "text": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "highlightedHtml": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى <a class=\"highlight-text\">مُمِدُّكُم</a> بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "derivedForms": [
+        "مُمِدّ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 4,
+      "text": "إِلَّا ٱلَّذِينَ عَٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ عَٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ <a class=\"highlight-text\">مُدَّتِهِمْ</a> ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
+      "derivedForms": [
+        "مُدَّةٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 3,
+      "text": "وَهُوَ ٱلَّذِى مَدَّ ٱلْأَرْضَ وَجَعَلَ فِيهَا رَوَٰسِىَ وَأَنْهَٰرًا ۖ وَمِن كُلِّ ٱلثَّمَرَٰتِ جَعَلَ فِيهَا زَوْجَيْنِ ٱثْنَيْنِ ۖ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">مَدَّ</a> ٱلْأَرْضَ وَجَعَلَ فِيهَا رَوَٰسِىَ وَأَنْهَٰرًا ۖ وَمِن كُلِّ ٱلثَّمَرَٰتِ جَعَلَ فِيهَا زَوْجَيْنِ ٱثْنَيْنِ ۖ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 19,
+      "text": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "highlightedHtml": "وَٱلْأَرْضَ <a class=\"highlight-text\">مَدَدْنَٰهَا</a> وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 88,
+      "text": "لَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تَمُدَّنَّ</a> عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 6,
+      "text": "ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ وَأَمْدَدْنَٰكُم بِأَمْوَٰلٍ وَبَنِينَ وَجَعَلْنَٰكُمْ أَكْثَرَ نَفِيرًا",
+      "highlightedHtml": "ثُمَّ رَدَدْنَا لَكُمُ ٱلْكَرَّةَ عَلَيْهِمْ <a class=\"highlight-text\">وَأَمْدَدْنَٰكُم</a> بِأَمْوَٰلٍ وَبَنِينَ وَجَعَلْنَٰكُمْ أَكْثَرَ نَفِيرًا",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 20,
+      "text": "كُلًّا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا",
+      "highlightedHtml": "كُلًّا <a class=\"highlight-text\">نُّمِدُّ</a> هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 109,
+      "text": "قُل لَّوْ كَانَ ٱلْبَحْرُ مِدَادًا لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ مَدَدًا",
+      "highlightedHtml": "قُل لَّوْ كَانَ ٱلْبَحْرُ <a class=\"highlight-text\">مِدَادًا</a> لِّكَلِمَٰتِ رَبِّى لَنَفِدَ ٱلْبَحْرُ قَبْلَ أَن تَنفَدَ كَلِمَٰتُ رَبِّى وَلَوْ جِئْنَا بِمِثْلِهِۦ <a class=\"highlight-text\">مَدَدًا</a>",
+      "derivedForms": [
+        "مِدَاد",
+        "مَدَد"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 75,
+      "text": "قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ فَلْيَمْدُدْ لَهُ ٱلرَّحْمَٰنُ مَدًّا ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
+      "highlightedHtml": "قُلْ مَن كَانَ فِى ٱلضَّلَٰلَةِ <a class=\"highlight-text\">فَلْيَمْدُدْ</a> لَهُ ٱلرَّحْمَٰنُ <a class=\"highlight-text\">مَدًّا</a> ۚ حَتَّىٰٓ إِذَا رَأَوْا۟ مَا يُوعَدُونَ إِمَّا ٱلْعَذَابَ وَإِمَّا ٱلسَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
+      "derivedForms": [
+        "مَدَّ",
+        "مَدّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 79,
+      "text": "كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّا",
+      "highlightedHtml": "كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ <a class=\"highlight-text\">وَنَمُدُّ</a> لَهُۥ مِنَ ٱلْعَذَابِ <a class=\"highlight-text\">مَدًّا</a>",
+      "derivedForms": [
+        "مَدَّ",
+        "مَدّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 131,
+      "text": "وَلَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ وَأَبْقَىٰ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَمُدَّنَّ</a> عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ زَهْرَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا لِنَفْتِنَهُمْ فِيهِ ۚ وَرِزْقُ رَبِّكَ خَيْرٌ وَأَبْقَىٰ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 15,
+      "text": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
+      "highlightedHtml": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ <a class=\"highlight-text\">فَلْيَمْدُدْ</a> بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 55,
+      "text": "أَيَحْسَبُونَ أَنَّمَا نُمِدُّهُم بِهِۦ مِن مَّالٍ وَبَنِينَ",
+      "highlightedHtml": "أَيَحْسَبُونَ أَنَّمَا <a class=\"highlight-text\">نُمِدُّهُم</a> بِهِۦ مِن مَّالٍ وَبَنِينَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 45,
+      "text": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًا",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ <a class=\"highlight-text\">مَدَّ</a> ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًا",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 132,
+      "text": "وَٱتَّقُوا۟ ٱلَّذِىٓ أَمَدَّكُم بِمَا تَعْلَمُونَ",
+      "highlightedHtml": "وَٱتَّقُوا۟ ٱلَّذِىٓ <a class=\"highlight-text\">أَمَدَّكُم</a> بِمَا تَعْلَمُونَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 133,
+      "text": "أَمَدَّكُم بِأَنْعَٰمٍ وَبَنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَمَدَّكُم</a> بِأَنْعَٰمٍ وَبَنِينَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 36,
+      "text": "فَلَمَّا جَآءَ سُلَيْمَٰنَ قَالَ أَتُمِدُّونَنِ بِمَالٍ فَمَآ آتَانِيَ ٱللَّهُ خَيْرٌ مِّمَّآ آتَاكُمْ بَلْ أَنتُم بِهَدِيَّتِكُمْ تَفْرَحُونَ",
+      "highlightedHtml": "فَلَمَّا جَآءَ سُلَيْمَٰنَ قَالَ <a class=\"highlight-text\">أَتُمِدُّونَنِ</a> بِمَالٍ فَمَآ آتَانِيَ ٱللَّهُ خَيْرٌ مِّمَّآ آتَاكُمْ بَلْ أَنتُم بِهَدِيَّتِكُمْ تَفْرَحُونَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 27,
+      "text": "وَلَوْ أَنَّمَا فِى ٱلْأَرْضِ مِن شَجَرَةٍ أَقْلَٰمٌ وَٱلْبَحْرُ يَمُدُّهُۥ مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍ مَّا نَفِدَتْ كَلِمَٰتُ ٱللَّهِ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَلَوْ أَنَّمَا فِى ٱلْأَرْضِ مِن شَجَرَةٍ أَقْلَٰمٌ وَٱلْبَحْرُ <a class=\"highlight-text\">يَمُدُّهُۥ</a> مِنۢ بَعْدِهِۦ سَبْعَةُ أَبْحُرٍ مَّا نَفِدَتْ كَلِمَٰتُ ٱللَّهِ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 7,
+      "text": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "وَٱلْأَرْضَ <a class=\"highlight-text\">مَدَدْنَٰهَا</a> وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "مَدَّ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 22,
+      "text": "وَأَمْدَدْنَٰهُم بِفَٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَمْدَدْنَٰهُم</a> بِفَٰكِهَةٍ وَلَحْمٍ مِّمَّا يَشْتَهُونَ",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 30,
+      "text": "وَظِلٍّ مَّمْدُودٍ",
+      "highlightedHtml": "وَظِلٍّ <a class=\"highlight-text\">مَّمْدُودٍ</a>",
+      "derivedForms": [
+        "مَمْدُود"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 12,
+      "text": "وَيُمْدِدْكُم بِأَمْوَٰلٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍ وَيَجْعَل لَّكُمْ أَنْهَٰرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيُمْدِدْكُم</a> بِأَمْوَٰلٍ وَبَنِينَ وَيَجْعَل لَّكُمْ جَنَّٰتٍ وَيَجْعَل لَّكُمْ أَنْهَٰرًا",
+      "derivedForms": [
+        "أَمَدَّ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 12,
+      "text": "وَجَعَلْتُ لَهُۥ مَالًا مَّمْدُودًا",
+      "highlightedHtml": "وَجَعَلْتُ لَهُۥ مَالًا <a class=\"highlight-text\">مَّمْدُودًا</a>",
+      "derivedForms": [
+        "مَمْدُود"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 3,
+      "text": "وَإِذَا ٱلْأَرْضُ مُدَّتْ",
+      "highlightedHtml": "وَإِذَا ٱلْأَرْضُ <a class=\"highlight-text\">مُدَّتْ</a>",
+      "derivedForms": [
+        "مُدَّ"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 9,
+      "text": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "highlightedHtml": "فِى عَمَدٍ <a class=\"highlight-text\">مُّمَدَّدَةٍۭ</a>",
+      "derivedForms": [
+        "مُمَدََّد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:09.217Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "وَيَمُدُّهُمْ is in the derivative form: مَدَّ",
+    "rootDefinitionHtml": "م/د/د   m–d–d to pull, to stretch, elongation, to be tall, to give rope, to lend, to unfold<br>; to enrich, to support, to reinforce, to supply; fodder; ink; to be at high tide, to rise; to fester, pus; duration, period, time span; a dry measure. <br><br>Of this root, 10 forms occur 32 times in the Qur’an:<br> مَدَّ madda 12 times; مُدَّ mudda 1 time; أَمَدَّ ʾamadda 10 times; مَدّ madd 2 times; مَدَد madad 1 time; مَمْدُود mamdūd 2 times; مُمَدََّد mumaddad 1 time;مُمِدَّ mumidd 1 time; مُدَّةٌ muddatun 1 time and مِدَاد midād 1 time.",
+    "mainDefinitionHtml": "مَدَّ madda u [v. trans.] <br><br><strong>1 </strong>to spread out <br><br>(13:3) وَهُوَ‏ ‏الَّذِي‏ ‏مَدَّ‏ ‏الأَرْضَ‏ ‏وَجَعَلَ‏ ‏فِيهَا‏ ‏رَوَاسِيَ‏ ‏وَأَنْهَارًا‏ it is He who spread out the earth and set on it firm mountains and rivers; *<br><br>(15:88) لاَ‏ ‏تَمُدَّنَّ‏ ‏عَيْنَيْكَ do not crave for/envy/covet/long for‏ [lit. do not stretch your eyes towards] <br><br><strong>2 </strong>to add to, to supply, to replenish <br><br>(31:27)‏وَالْبَحْرُ‏ ‏يَمُدُّهُ‏ ‏مِنْ‏ ‏بَعْدِهِ‏ ‏سَبْعَةُ‏ ‏أَبْحُرٍ‏ ‏‏ and the sea, with seven more seas, over and above it, to replenish it <br><br><strong>3 </strong>to extend, to elongate <br><br>(25:45) أَلَمْ‏ ‏تَرَ‏ ‏إِلَى‏ ‏رَبِّكَ‏ ‏كَيْفَ‏ ‏مَدَّ‏ ‏الظِّلَّ‏‏ have you not considered the way of your Lord, how He lengthens the shadow? <br><br><strong>4 </strong>to reach out, to reach up <br><br>(22:15) ‏فَلْيَمْدُدْ‏ ‏بِسَبَبٍ‏ ‏إِلَى‏ ‏السَّمَاءِ‏ let him reach up to the sky with the means of a rope/ladder (or, let him stretch a rope/ladder to the sky) <br><br><strong>5 </strong>to grant a respite to <br><br>(19:75) ‏‏مَنْ‏ ‏كَانَ‏ ‏فِي‏ ‏الضَّلاَلَةِ‏ ‏فَلْيَمْدُدْ‏ ‏لَهُ‏ ‏الرَّحْمَنُ ‏‏مَدًّا‏ whosoever is in error, may the Lord of Mercy grant him respite <br><br><strong>6 </strong>to give rope to <br><br>(2:15) اللَّهُ‏ ‏يَسْتَهْزِئُ‏ ‏بِهِمْ‏ ‏وَيَمُدُّهُمْ‏ ‏فِي‏ ‏طُغْيَانِهِمْ‏ ‏يَعْمَهُونَ‏ God is mocking them, and allowing them more slack to wander blindly in their insolence.",
+    "mainEntryId": "wdef-م-د-د.مَدَّ",
+    "entries": [
+      {
+        "id": "wdef-م-د-د",
+        "label": "م-د-د",
+        "definitionHtml": "م/د/د   m–d–d to pull, to stretch, elongation, to be tall, to give rope, to lend, to unfold<br>; to enrich, to support, to reinforce, to supply; fodder; ink; to be at high tide, to rise; to fester, pus; duration, period, time span; a dry measure. <br><br>Of this root, 10 forms occur 32 times in the Qur’an:<br> مَدَّ madda 12 times; مُدَّ mudda 1 time; أَمَدَّ ʾamadda 10 times; مَدّ madd 2 times; مَدَد madad 1 time; مَمْدُود mamdūd 2 times; مُمَدََّد mumaddad 1 time;مُمِدَّ mumidd 1 time; مُدَّةٌ muddatun 1 time and مِدَاد midād 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مَدَّ",
+        "label": "مَدَّ",
+        "definitionHtml": "مَدَّ madda u [v. trans.] <br><br><strong>1 </strong>to spread out <br><br>(13:3) وَهُوَ‏ ‏الَّذِي‏ ‏مَدَّ‏ ‏الأَرْضَ‏ ‏وَجَعَلَ‏ ‏فِيهَا‏ ‏رَوَاسِيَ‏ ‏وَأَنْهَارًا‏ it is He who spread out the earth and set on it firm mountains and rivers; *<br><br>(15:88) لاَ‏ ‏تَمُدَّنَّ‏ ‏عَيْنَيْكَ do not crave for/envy/covet/long for‏ [lit. do not stretch your eyes towards] <br><br><strong>2 </strong>to add to, to supply, to replenish <br><br>(31:27)‏وَالْبَحْرُ‏ ‏يَمُدُّهُ‏ ‏مِنْ‏ ‏بَعْدِهِ‏ ‏سَبْعَةُ‏ ‏أَبْحُرٍ‏ ‏‏ and the sea, with seven more seas, over and above it, to replenish it <br><br><strong>3 </strong>to extend, to elongate <br><br>(25:45) أَلَمْ‏ ‏تَرَ‏ ‏إِلَى‏ ‏رَبِّكَ‏ ‏كَيْفَ‏ ‏مَدَّ‏ ‏الظِّلَّ‏‏ have you not considered the way of your Lord, how He lengthens the shadow? <br><br><strong>4 </strong>to reach out, to reach up <br><br>(22:15) ‏فَلْيَمْدُدْ‏ ‏بِسَبَبٍ‏ ‏إِلَى‏ ‏السَّمَاءِ‏ let him reach up to the sky with the means of a rope/ladder (or, let him stretch a rope/ladder to the sky) <br><br><strong>5 </strong>to grant a respite to <br><br>(19:75) ‏‏مَنْ‏ ‏كَانَ‏ ‏فِي‏ ‏الضَّلاَلَةِ‏ ‏فَلْيَمْدُدْ‏ ‏لَهُ‏ ‏الرَّحْمَنُ ‏‏مَدًّا‏ whosoever is in error, may the Lord of Mercy grant him respite <br><br><strong>6 </strong>to give rope to <br><br>(2:15) اللَّهُ‏ ‏يَسْتَهْزِئُ‏ ‏بِهِمْ‏ ‏وَيَمُدُّهُمْ‏ ‏فِي‏ ‏طُغْيَانِهِمْ‏ ‏يَعْمَهُونَ‏ God is mocking them, and allowing them more slack to wander blindly in their insolence.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-د-د.أَمَدَّ",
+        "label": "أَمَدَّ",
+        "definitionHtml": "أَمَدَّ ʾamadda [v. IV, trans.] <br><br><strong>1 </strong>to supply, to provide <br><br>(52:22) وَأَمْدَدْنَاهُمْ‏ ‏بِفَاكِهَةٍ‏ ‏وَلَحْمٍ‏ ‏مِمَّا‏ ‏يَشْتَهُونَ‏ We provide them with any fruit or meat they desire <br><br><strong>2 </strong>to reinforce, to assist with <br><br>(3:124)‏‏أَلَنْ‏ ‏يَكْفِيَكُمْ‏ ‏أَنْ‏ ‏يُمِدَّكُمْ‏ ‏رَبُّكُمْ‏ ‏بِثَلاَثَةِ‏ ‏ءَالاَفٍ‏ ‏مِنَ‏ ‏الْمَلاَئِكَةِ‏ ‏مُنْزَلِينَ‏‏ will it not suffice you if your Lord reinforces you with three thousand angels sent down [for you]? <br><br><strong>3 </strong>to bestow <br><br>(17:20) كُلا‏ ‏نُمِدُّ‏ ‏هَؤُلاَءِ‏ ‏وَهَؤُلاَءِ‏ ‏مِنْ‏ ‏عَطَاءِ‏ ‏رَبِّكَ‏ ‏ to both [the latter and the former], We give of your Lord’s bounty.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مَدَد",
+        "label": "مَدَد",
+        "definitionHtml": "مَدَد madad [n.] supply <br><br>(18:109) ‏وَلَوْ‏ ‏جِئْنَا‏ ‏بِمِثْلِهِ‏ ‏مَدَدًا‏ even if We were to bring the like of it as a supply.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مَدّ",
+        "label": "مَدّ",
+        "definitionHtml": "مَدّ madd [v. n.] <br><br><strong>1 </strong>the act of granting respite <br><br>(19:75) مَنْ كَانَ فِى الضَّلاَلَةِ فَلْيَمْدُدْ لَهُ الرَّحْمَنُ مَدًّا whosoever is in error, may the Lord of Mercy grant him respite <br><br><strong>2 </strong>the act of increasing or prolonging <br><br>(19:79) كَلاَّ‏ ‏سَنَكْتُبُ‏ ‏مَا‏ ‏يَقُولُ‏ ‏وَنَمُدُّ‏ ‏لَهُ‏ ‏مِنَ‏ ‏الْعَذَابِ‏ ‏مَدًّا‏ no indeed, We shall record what he says and shall assuredly prolong for him the chastisement!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مَمْدُود",
+        "label": "مَمْدُود",
+        "definitionHtml": "مَمْدُود mamdūd [pass. part.] <br><br><strong>1 </strong>outstretched, extended <br><br>(56:30) وَظِلٍّ‏ ‏مَمْدُودٍ‏‏ and outstretched shade <br><br><strong>2 </strong>vastly increased, extensive, vast <br><br>(74:12) وَجَعَلْتُ‏ ‏لَهُ‏ ‏مَالا‏ ‏مَمْدُودًا‏ then I granted him vast wealth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مُدَّ",
+        "label": "مُدَّ",
+        "definitionHtml": "مُدَّ mudda [pass. v.] to be spread out, to be stretched out <br><br>(84:3) وَإِذَا‏ ‏الأَرْضُ‏ ‏مُدَّتْ‏ when the earth is stretched out.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مُدَّةٌ",
+        "label": "مُدَّةٌ",
+        "definitionHtml": "مُدَّةٌ muddatun [n.] period of time, time duration, term <br><br>(9:4)‏فَأَتِمُّوا‏ ‏إِلَيْهِمْ‏ ‏عَهْدَهُمْ‏ ‏إِلَى‏ ‏مُدَّتِهِمْ‏ ‏ so fulfil their treaty to them till their term.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مُمَدََّد",
+        "label": "مُمَدََّد",
+        "definitionHtml": "مُمَدََّد mumaddad [pass. part. of v. II مَدَّد maddada] vastly extended <br><br>(104:8–9) إِنَّهَا‏ ‏عَلَيْهِمْ‏ ‏مُؤْصَدَةٌ‏ فِى ‏عَمَدٍ‏ ‏مُمَدَّدَةٍ‏ it is closed in on them with greatly extended columns.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مُمِدّ",
+        "label": "مُمِدّ",
+        "definitionHtml": "مُمِدّ mumidd [act. part. of v. IV] the one who supplies, reinforces, assists <br><br>(8:9)‏ ‏أَنِّي‏ ‏مُمِدُّكُمْ‏ ‏بِأَلْفٍ‏ ‏مِنَ‏ ‏الْمَلاَئِكَةِ ‏I am reinforcing you with a thousand [of the] angels.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-د-د.مِدَاد",
+        "label": "مِدَاد",
+        "definitionHtml": "مِدَاد midād [n.] ink <br><br>(18:109)‏لَوْ‏ ‏كَانَ‏ ‏الْبَحْرُ‏ ‏مِدَادًا‏ ‏لِكَلِمَاتِ‏ ‏رَبِّي‏ ‏ if the ocean were as ink for [writing] the words of my Lord.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:37.730Z",
+      "refword": "2:15:4",
+      "lexword": "وَيَمُدُّهُمْ"
+    }
+  }
+}

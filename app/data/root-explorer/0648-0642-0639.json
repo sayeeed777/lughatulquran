@@ -1,0 +1,522 @@
+{
+  "root": "وقع",
+  "rootArabic": "وقع",
+  "stats": {
+    "totalOccurrences": 24,
+    "derivativeCount": 6,
+    "surahCount": 16,
+    "ayahCount": 22
+  },
+  "derivatives": [
+    {
+      "form": "وَقَعَ",
+      "count": 14
+    },
+    {
+      "form": "وَاقِعٌ",
+      "count": 6
+    },
+    {
+      "form": "مَوَاقِعُ",
+      "count": 1
+    },
+    {
+      "form": "مُوَاقِعون",
+      "count": 1
+    },
+    {
+      "form": "وَقْعَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يُوقِعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 3,
+          "totalInQuran": 14
+        },
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوَاقِعون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 2,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "مَوَاقِعُ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "وَقْعَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَقَعَ",
+          "count": 2,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاقِعٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 100,
+      "text": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ وَقَعَ أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَمَن يُهَاجِرْ فِى سَبِيلِ ٱللَّهِ يَجِدْ فِى ٱلْأَرْضِ مُرَٰغَمًا كَثِيرًا وَسَعَةً ۚ وَمَن يَخْرُجْ مِنۢ بَيْتِهِۦ مُهَاجِرًا إِلَى ٱللَّهِ وَرَسُولِهِۦ ثُمَّ يُدْرِكْهُ ٱلْمَوْتُ فَقَدْ <a class=\"highlight-text\">وَقَعَ</a> أَجْرُهُۥ عَلَى ٱللَّهِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 91,
+      "text": "إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ",
+      "highlightedHtml": "إِنَّمَا يُرِيدُ ٱلشَّيْطَٰنُ أَن <a class=\"highlight-text\">يُوقِعَ</a> بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ",
+      "derivedForms": [
+        "يُوقِعُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 71,
+      "text": "قَالَ قَدْ وَقَعَ عَلَيْكُم مِّن رَّبِّكُمْ رِجْسٌ وَغَضَبٌ ۖ أَتُجَٰدِلُونَنِى فِىٓ أَسْمَآءٍ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّا نَزَّلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
+      "highlightedHtml": "قَالَ قَدْ <a class=\"highlight-text\">وَقَعَ</a> عَلَيْكُم مِّن رَّبِّكُمْ رِجْسٌ وَغَضَبٌ ۖ أَتُجَٰدِلُونَنِى فِىٓ أَسْمَآءٍ سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّا نَزَّلَ ٱللَّهُ بِهَا مِن سُلْطَٰنٍ ۚ فَٱنتَظِرُوٓا۟ إِنِّى مَعَكُم مِّنَ ٱلْمُنتَظِرِينَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 118,
+      "text": "فَوَقَعَ ٱلْحَقُّ وَبَطَلَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَوَقَعَ</a> ٱلْحَقُّ وَبَطَلَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 134,
+      "text": "وَلَمَّا وَقَعَ عَلَيْهِمُ ٱلرِّجْزُ قَالُوا۟ يَٰمُوسَى ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ ۖ لَئِن كَشَفْتَ عَنَّا ٱلرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">وَقَعَ</a> عَلَيْهِمُ ٱلرِّجْزُ قَالُوا۟ يَٰمُوسَى ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ ۖ لَئِن كَشَفْتَ عَنَّا ٱلرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 171,
+      "text": "وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "highlightedHtml": "وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ <a class=\"highlight-text\">وَاقِعٌۢ</a> بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 51,
+      "text": "أَثُمَّ إِذَا مَا وَقَعَ آمَنْتُمْ بِهِۦٓ ۚ آلْآنَ وَقَدْ كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
+      "highlightedHtml": "أَثُمَّ إِذَا مَا <a class=\"highlight-text\">وَقَعَ</a> آمَنْتُمْ بِهِۦٓ ۚ آلْآنَ وَقَدْ كُنتُم بِهِۦ تَسْتَعْجِلُونَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 29,
+      "text": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "highlightedHtml": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى <a class=\"highlight-text\">فَقَعُوا۟</a> لَهُۥ سَٰجِدِينَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 53,
+      "text": "وَرَءَا ٱلْمُجْرِمُونَ ٱلنَّارَ فَظَنُّوٓا۟ أَنَّهُم مُّوَاقِعُوهَا وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًا مَصْرِفًا",
+      "highlightedHtml": "وَرَءَا ٱلْمُجْرِمُونَ ٱلنَّارَ فَظَنُّوٓا۟ أَنَّهُم <a class=\"highlight-text\">مُّوَاقِعُوهَا</a> وَلَمْ يَجِدُوا۟ عَنْهَا مَصْرِفًا مَصْرِفًا",
+      "derivedForms": [
+        "مُوَاقِعون"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 65,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن تَقَعَ عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ سَخَّرَ لَكُم مَّا فِى ٱلْأَرْضِ وَٱلْفُلْكَ تَجْرِى فِى ٱلْبَحْرِ بِأَمْرِهِۦ وَيُمْسِكُ ٱلسَّمَآءَ أَن <a class=\"highlight-text\">تَقَعَ</a> عَلَى ٱلْأَرْضِ إِلَّا بِإِذْنِهِۦٓ ۗ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 82,
+      "text": "وَإِذَا وَقَعَ ٱلْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَآبَّةً مِّنَ ٱلْأَرْضِ تُكَلِّمُهُمْ أَنَّ ٱلنَّاسَ كَانُوا۟ بِـَٔايَٰتِنَا لَا يُوقِنُونَ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">وَقَعَ</a> ٱلْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَآبَّةً مِّنَ ٱلْأَرْضِ تُكَلِّمُهُمْ أَنَّ ٱلنَّاسَ كَانُوا۟ بِـَٔايَٰتِنَا لَا يُوقِنُونَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 85,
+      "text": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَوَقَعَ</a> ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 72,
+      "text": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى فَقَعُوا۟ لَهُۥ سَٰجِدِينَ",
+      "highlightedHtml": "فَإِذَا سَوَّيْتُهُۥ سَوَّيْتُهُۥ وَنَفَخْتُ فِيهِ مِن رُّوحِى <a class=\"highlight-text\">فَقَعُوا۟</a> لَهُۥ سَٰجِدِينَ",
+      "derivedForms": [
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 22,
+      "text": "تَرَى ٱلظَّٰلِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا۟ وَهُوَ وَاقِعٌۢ بِهِمْ ۗ وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "highlightedHtml": "تَرَى ٱلظَّٰلِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا۟ وَهُوَ <a class=\"highlight-text\">وَاقِعٌۢ</a> بِهِمْ ۗ وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فِى رَوْضَاتِ ٱلْجَنَّاتِ ۖ لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 6,
+      "text": "وَإِنَّ ٱلدِّينَ لَوَٰقِعٌ",
+      "highlightedHtml": "وَإِنَّ ٱلدِّينَ <a class=\"highlight-text\">لَوَٰقِعٌ</a>",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 7,
+      "text": "إِنَّ عَذَابَ رَبِّكَ لَوَٰقِعٌ",
+      "highlightedHtml": "إِنَّ عَذَابَ رَبِّكَ <a class=\"highlight-text\">لَوَٰقِعٌ</a>",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 1,
+      "text": "إِذَا وَقَعَتِ ٱلْوَاقِعَةُ",
+      "highlightedHtml": "إِذَا <a class=\"highlight-text\">وَقَعَتِ</a> <a class=\"highlight-text\">ٱلْوَاقِعَةُ</a>",
+      "derivedForms": [
+        "وَقَعَ",
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 2,
+      "text": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+      "highlightedHtml": "لَيْسَ <a class=\"highlight-text\">لِوَقْعَتِهَا</a> كَاذِبَةٌ",
+      "derivedForms": [
+        "وَقْعَةٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 75,
+      "text": "فَلَآ أُقْسِمُ بِمَوَٰقِعِ ٱلنُّجُومِ",
+      "highlightedHtml": "فَلَآ أُقْسِمُ <a class=\"highlight-text\">بِمَوَٰقِعِ</a> ٱلنُّجُومِ",
+      "derivedForms": [
+        "مَوَاقِعُ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 15,
+      "text": "فَيَوْمَئِذٍ وَقَعَتِ ٱلْوَاقِعَةُ",
+      "highlightedHtml": "فَيَوْمَئِذٍ <a class=\"highlight-text\">وَقَعَتِ</a> <a class=\"highlight-text\">ٱلْوَاقِعَةُ</a>",
+      "derivedForms": [
+        "وَقَعَ",
+        "وَقَعَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 1,
+      "text": "سَأَلَ سَآئِلٌۢ بِعَذَابٍ وَاقِعٍ",
+      "highlightedHtml": "سَأَلَ سَآئِلٌۢ بِعَذَابٍ <a class=\"highlight-text\">وَاقِعٍ</a>",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 7,
+      "text": "إِنَّمَا تُوعَدُونَ لَوَٰقِعٌ",
+      "highlightedHtml": "إِنَّمَا تُوعَدُونَ <a class=\"highlight-text\">لَوَٰقِعٌ</a>",
+      "derivedForms": [
+        "وَاقِعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:45.262Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَقَعَ is in the derivative form: وَقَعَ",
+    "rootDefinitionHtml": "و/ق/ع   w–q–ʿ calamity, war, battle<br>; to fall, to befall, to occur; to alight upon, to guess, to expect, to gossip, to come face‐to‐face with; (of rain) to fall sporadically. <br><br>Of this root, 7 forms occur 24 times in the Qur’an:<br> وَقَعَ waqaʿa 12 times; يُوقِعُ yūqiʿ 1 time; وَاقِعٌ wāqiʿ 6 times; وَاقِعَةٌ wāqiʿatun 2 times; وَقْعَةٌ waqʿatun 1 time; مَوَاقِعُ mawāqiʿ 1 time and مُوَاقِعُون muwāqiʿūn 1 time.",
+    "mainDefinitionHtml": "وَقَعَ waqaʿa a [v. intrans.] <br><br><strong>1 </strong>to collapse <br><br>(22:65) وَيُمْسِكُ السَّمَاءَ أَنْ تَقَعَ عَلَى الأَرْضِ إِلاَّ بِإِذْنِهِ and He sustains the heavens lest they collapse upon the earth, save by His leave <br><br><strong>2 </strong>to fall down <br><br>(38:72) فَقَعُوا لَهُ سَاجِدِينَ so fall down before him in prostration <br><br><strong>3 </strong>to take place, to happen <br><br>(56:1) إِذَا وَقَعَتِ الْوَاقِعَةُ when the Coming Event takes place <br><br><strong>4 </strong>[with prep. عَلَى] to befall <br><br>(7:71) قَدْ وَقَعَ عَلَيْكُمْ مِنْ رَبِّكُمْ رِجْسٌ وَغَضَبٌ punishment and wrath are to befall you from your Lord <br><br><strong>5 </strong>to be confirmed, to become established <br><br>(7:118) فَوَقَعَ الْحَقُّ and the truth was confirmed <br><br><strong>6 </strong>to fall due <br><br>(4:100) فَقَدْ وَقَعَ أَجْرُهُ عَلَى اللَّهِ his reward from God falls due.",
+    "mainEntryId": "wdef-و-ق-ع.وَقَعَ",
+    "entries": [
+      {
+        "id": "wdef-و-ق-ع",
+        "label": "و-ق-ع",
+        "definitionHtml": "و/ق/ع   w–q–ʿ calamity, war, battle<br>; to fall, to befall, to occur; to alight upon, to guess, to expect, to gossip, to come face‐to‐face with; (of rain) to fall sporadically. <br><br>Of this root, 7 forms occur 24 times in the Qur’an:<br> وَقَعَ waqaʿa 12 times; يُوقِعُ yūqiʿ 1 time; وَاقِعٌ wāqiʿ 6 times; وَاقِعَةٌ wāqiʿatun 2 times; وَقْعَةٌ waqʿatun 1 time; مَوَاقِعُ mawāqiʿ 1 time and مُوَاقِعُون muwāqiʿūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.وَقَعَ",
+        "label": "وَقَعَ",
+        "definitionHtml": "وَقَعَ waqaʿa a [v. intrans.] <br><br><strong>1 </strong>to collapse <br><br>(22:65) وَيُمْسِكُ السَّمَاءَ أَنْ تَقَعَ عَلَى الأَرْضِ إِلاَّ بِإِذْنِهِ and He sustains the heavens lest they collapse upon the earth, save by His leave <br><br><strong>2 </strong>to fall down <br><br>(38:72) فَقَعُوا لَهُ سَاجِدِينَ so fall down before him in prostration <br><br><strong>3 </strong>to take place, to happen <br><br>(56:1) إِذَا وَقَعَتِ الْوَاقِعَةُ when the Coming Event takes place <br><br><strong>4 </strong>[with prep. عَلَى] to befall <br><br>(7:71) قَدْ وَقَعَ عَلَيْكُمْ مِنْ رَبِّكُمْ رِجْسٌ وَغَضَبٌ punishment and wrath are to befall you from your Lord <br><br><strong>5 </strong>to be confirmed, to become established <br><br>(7:118) فَوَقَعَ الْحَقُّ and the truth was confirmed <br><br><strong>6 </strong>to fall due <br><br>(4:100) فَقَدْ وَقَعَ أَجْرُهُ عَلَى اللَّهِ his reward from God falls due.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ق-ع.الوَاقِعَة",
+        "label": "الوَاقِعَة",
+        "definitionHtml": "الوَاقِعَة ʾal‐wāqiʿatu [fem. n.] the coming event (epithet for the Resurrection) <br><br>(56:1) إِذَا وَقَعَتِ الْوَاقِعَةُ when the Coming Event takes place * الوَاقِعَةname of Sura 56, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Happening’, ‘Occurrence’, ‘That which is Coming’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.مَوَاقِعُ",
+        "label": "مَوَاقِعُ",
+        "definitionHtml": "مَوَاقِعُ mawāqiʿ [pl. of n. of time or place مَوْقِعٌ mawqiʿ] positions, stations, place or time of falling or setting <br><br>(56:75) فَلاَ أُقْسِمُ بِمَوَاقِعِ النُّجُومِ I swear by the positions of the stars.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.مُوَاقِعون",
+        "label": "مُوَاقِعون",
+        "definitionHtml": "مُوَاقِعون muwāqiʿūn [pl. of act. part. of v. III وَاقَعَ wāqaʿa] ones who embrace, collide with, fall into <br><br>(18:53) وَرَأَى الْمُجْرِمُونَ النَّارَ فَظَنُّوا أَنَّهُمْ مُوَاقِعُوهَا the evil‐doers will see the Fire and deem that they are about to fall into it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.وَاقِعٌ",
+        "label": "وَاقِعٌ",
+        "definitionHtml": "وَاقِعٌ wāqiʿ [act. part.] <br><br><strong>1 </strong>that which occurs, happening, coming to pass, taking place <br><br>(52:7) إِنَّ عَذَابَ رَبِّكَ لَوَاقِعٌ your Lord’s punishment is surely coming <br><br><strong>2 </strong>falling upon <br><br>(7:171) وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ وَظَنُّوا أَنَّهُ وَاقِعٌ بِهِمْ and [remember] when We hoisted the mountain high above them as if it were a canopy and they feared it would fall on them <br><br><strong>3 </strong>befalling, coming to <br><br>(42:22) تَرَى الظَّالِمِينَ مُشْفِقِينَ مِمَّا كَسَبُوا وَهُوَ وَاقِعٌ بِهِمْ you will see the wrongdoers fearful of what they have earned–it [the punishment] will surely befall them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.وَقْعَةٌ",
+        "label": "وَقْعَةٌ",
+        "definitionHtml": "وَقْعَةٌ waqʿatun [v. n.] the act of occurring, coming to pass, happening, occurrence <br><br>(56:2) لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ [then] none shall deny its occurrence.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ق-ع.يُوقِعُ",
+        "label": "يُوقِعُ",
+        "definitionHtml": "يُوقِعُ yūqiʿ [imperf. of v. IV أَوْقَعَ ʾawqaʿa, trans.] to incite, to cause to occur, to bring about <br><br>(5:91) إِنَّمَا يُرِيدُ الشَّيْطَانُ أَنْ يُوقِعَ بَيْنَكُمُ الْعَدَاوَةَ وَالْبَغْضَاءَ Satan seeks only to incite enmity and hatred among you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:34.807Z",
+      "refword": "4:100:24",
+      "lexword": "وَقَعَ"
+    }
+  }
+}

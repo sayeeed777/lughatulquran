@@ -1,0 +1,74 @@
+{
+  "root": "خضد",
+  "rootArabic": "خضد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَخْضُودٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَخْضُودٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 56,
+      "ayah": 28,
+      "text": "فِى سِدْرٍ مَّخْضُودٍ",
+      "highlightedHtml": "فِى سِدْرٍ <a class=\"highlight-text\">مَّخْضُودٍ</a>",
+      "derivedForms": [
+        "مَخْضُودٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:24.351Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite passive participle",
+    "derivativeNote": "مَّخْضُودٍ is in the derivative form: مَخْضُودٌ",
+    "rootDefinitionHtml": "خ/ض/د   kh–ḍ–d to twist, to crack, to cut the thorns off a branch; to become stale, to become shrivelled; to munch on soft fruit; to be a glutton. Of this root, مَخْضُودٌ makhḍūd occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَخْضُودٌ makhḍūd [pass. part.] one with its thorns cut off, thornless, laden with fruit <br><br>(56:28) فِى سِدْرٍ مَخْضُودٍ among thornless lote trees.",
+    "mainEntryId": "wdef-خ-ض-د.مَخْضُودٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ض-د",
+        "label": "خ-ض-د",
+        "definitionHtml": "خ/ض/د   kh–ḍ–d to twist, to crack, to cut the thorns off a branch; to become stale, to become shrivelled; to munch on soft fruit; to be a glutton. Of this root, مَخْضُودٌ makhḍūd occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ض-د.مَخْضُودٌ",
+        "label": "مَخْضُودٌ",
+        "definitionHtml": "مَخْضُودٌ makhḍūd [pass. part.] one with its thorns cut off, thornless, laden with fruit <br><br>(56:28) فِى سِدْرٍ مَخْضُودٍ among thornless lote trees.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:12.816Z",
+      "refword": "56:28:3",
+      "lexword": "مَّخْضُودٍ"
+    }
+  }
+}

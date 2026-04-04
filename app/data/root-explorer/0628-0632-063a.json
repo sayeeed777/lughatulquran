@@ -1,0 +1,83 @@
+{
+  "root": "بزغ",
+  "rootArabic": "بزغ",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "بَازِغٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَازِغٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 77,
+      "text": "فَلَمَّا رَءَا ٱلْقَمَرَ بَازِغًا قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ",
+      "highlightedHtml": "فَلَمَّا رَءَا ٱلْقَمَرَ <a class=\"highlight-text\">بَازِغًا</a> قَالَ هَٰذَا رَبِّى ۖ فَلَمَّآ أَفَلَ قَالَ لَئِن لَّمْ يَهْدِنِى رَبِّى لَأَكُونَنَّ مِنَ ٱلْقَوْمِ ٱلضَّآلِّينَ",
+      "derivedForms": [
+        "بَازِغٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 78,
+      "text": "فَلَمَّا رَءَا ٱلشَّمْسَ بَازِغَةً قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "highlightedHtml": "فَلَمَّا رَءَا ٱلشَّمْسَ <a class=\"highlight-text\">بَازِغَةً</a> قَالَ هَٰذَا رَبِّى هَٰذَآ أَكْبَرُ ۖ فَلَمَّآ أَفَلَتْ قَالَ يَٰقَوْمِ إِنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "derivedForms": [
+        "بَازِغٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:32.652Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite active participle",
+    "derivativeNote": "بَازِغًا is in the derivative form: بَازِغٌ",
+    "rootDefinitionHtml": "ب/ز/غ   b–z–gh crack, laceration, to slash; to show through, to break forth, to come out. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> بَازِغٌ bāzigh and بَازِغَةٌ bāzighatun.",
+    "mainDefinitionHtml": "بَازِغٌ bāzigh [act. part.; fem بَازِغَةٌ bāzighatun] rising, breaking forth <br><br>(6:78) فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً then when he saw the sun rising.",
+    "mainEntryId": "wdef-ب-ز-غ.بَازِغٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ز-غ",
+        "label": "ب-ز-غ",
+        "definitionHtml": "ب/ز/غ   b–z–gh crack, laceration, to slash; to show through, to break forth, to come out. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> بَازِغٌ bāzigh and بَازِغَةٌ bāzighatun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ز-غ.بَازِغٌ",
+        "label": "بَازِغٌ",
+        "definitionHtml": "بَازِغٌ bāzigh [act. part.; fem بَازِغَةٌ bāzighatun] rising, breaking forth <br><br>(6:78) فَلَمَّا رَأَى الشَّمْسَ بَازِغَةً then when he saw the sun rising.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:59.167Z",
+      "refword": "6:77:4",
+      "lexword": "بَازِغًا"
+    }
+  }
+}

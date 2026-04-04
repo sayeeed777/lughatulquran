@@ -1,0 +1,74 @@
+{
+  "root": "جفو",
+  "rootArabic": "جفو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَتَجَافَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَتَجَافَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 32,
+      "ayah": 16,
+      "text": "تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">تَتَجَافَىٰ</a> جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "derivedForms": [
+        "تَتَجَافَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:09.549Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَتَجَافَىٰ is in the derivative form: تَتَجَافَى",
+    "rootDefinitionHtml": "ج/ف/و   j–f–w separation, to move away, to keep a distance; to shun, to dislike, to be antagonistic, to be coarse in manner. Of this root, تَتَجَافَى tatajāfā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَتَجَافَى tatajāfā [imperf. of v. VI, intrans. with prep. عَن] to stay away from, to keep off, to shun *<br><br>(32:16) تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا they forsake their beds [lit. their sides keep off the beds] praying to their Lord in fear and hope.",
+    "mainEntryId": "wdef-ج-ف-و.تَتَجَافَى",
+    "entries": [
+      {
+        "id": "wdef-ج-ف-و",
+        "label": "ج-ف-و",
+        "definitionHtml": "ج/ف/و   j–f–w separation, to move away, to keep a distance; to shun, to dislike, to be antagonistic, to be coarse in manner. Of this root, تَتَجَافَى tatajāfā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ف-و.تَتَجَافَى",
+        "label": "تَتَجَافَى",
+        "definitionHtml": "تَتَجَافَى tatajāfā [imperf. of v. VI, intrans. with prep. عَن] to stay away from, to keep off, to shun *<br><br>(32:16) تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا they forsake their beds [lit. their sides keep off the beds] praying to their Lord in fear and hope.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:00.929Z",
+      "refword": "32:16:1",
+      "lexword": "تَتَجَافَىٰ"
+    }
+  }
+}

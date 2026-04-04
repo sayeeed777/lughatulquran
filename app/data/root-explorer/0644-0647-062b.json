@@ -1,0 +1,75 @@
+{
+  "root": "لهث",
+  "rootArabic": "لهث",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَلْهَث",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَلْهَث",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 176,
+      "text": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ <a class=\"highlight-text\">يَلْهَثْ</a> أَوْ تَتْرُكْهُ <a class=\"highlight-text\">يَلْهَث</a> ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "يَلْهَث",
+        "يَلْهَث"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:48.578Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَلْهَثْ is in the derivative form: يَلْهَث",
+    "rootDefinitionHtml": "ل/ﻫ/ﺙ   l–h–th the physical sensation of thirst, panting with thirst, panting; to loll the tongue; fatigue. Of this root, only يَلْهَث yalhath occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَلْهَث yalhath [imperf. v., intrans.] to pant with thirst, to hang one’s tongue out, panting <br><br>(7:176) أَوْ‏ ‏فَمَثَلُهُ‏ ‏كَمَثَلِ‏ ‏الْكَلْبِ‏ ‏إِنْ‏ ‏تَحْمِلْ‏ ‏عَلَيْهِ‏ ‏يَلْهَثْ‏ ‏‏تَتْرُكْهُ‏ ‏يَلْهَثْ so his likeness is that of a dog: attack him, and he pants [with his tongue out]; leave him alone, and he pants [with his tongue out].",
+    "mainEntryId": "wdef-ل-ﻫ-ﺙ.يَلْهَث",
+    "entries": [
+      {
+        "id": "wdef-ل-ﻫ-ﺙ",
+        "label": "ل-ﻫ-ﺙ",
+        "definitionHtml": "ل/ﻫ/ﺙ   l–h–th the physical sensation of thirst, panting with thirst, panting; to loll the tongue; fatigue. Of this root, only يَلْهَث yalhath occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ﻫ-ﺙ.يَلْهَث",
+        "label": "يَلْهَث",
+        "definitionHtml": "يَلْهَث yalhath [imperf. v., intrans.] to pant with thirst, to hang one’s tongue out, panting <br><br>(7:176) أَوْ‏ ‏فَمَثَلُهُ‏ ‏كَمَثَلِ‏ ‏الْكَلْبِ‏ ‏إِنْ‏ ‏تَحْمِلْ‏ ‏عَلَيْهِ‏ ‏يَلْهَثْ‏ ‏‏تَتْرُكْهُ‏ ‏يَلْهَثْ so his likeness is that of a dog: attack him, and he pants [with his tongue out]; leave him alone, and he pants [with his tongue out].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:57.759Z",
+      "refword": "7:176:17",
+      "lexword": "يَلْهَثْ"
+    }
+  }
+}

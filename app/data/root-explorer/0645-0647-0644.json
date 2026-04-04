@@ -1,0 +1,186 @@
+{
+  "root": "مهل",
+  "rootArabic": "مهل",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "مُهْل",
+      "count": 3
+    },
+    {
+      "form": "مَهَّلَ",
+      "count": 2
+    },
+    {
+      "form": "أَمْهَلَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْل",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَهَّلَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمْهَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَهَّلَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 29,
+      "text": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "highlightedHtml": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ <a class=\"highlight-text\">كَٱلْمُهْلِ</a> يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "مُهْل"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 45,
+      "text": "كَٱلْمُهْلِ يَغْلِى فِى ٱلْبُطُونِ",
+      "highlightedHtml": "<a class=\"highlight-text\">كَٱلْمُهْلِ</a> يَغْلِى فِى ٱلْبُطُونِ",
+      "derivedForms": [
+        "مُهْل"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 8,
+      "text": "يَوْمَ تَكُونُ ٱلسَّمَآءُ كَٱلْمُهْلِ",
+      "highlightedHtml": "يَوْمَ تَكُونُ ٱلسَّمَآءُ <a class=\"highlight-text\">كَٱلْمُهْلِ</a>",
+      "derivedForms": [
+        "مُهْل"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 11,
+      "text": "وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ وَمَهِّلْهُمْ قَلِيلًا",
+      "highlightedHtml": "وَذَرْنِى وَٱلْمُكَذِّبِينَ أُو۟لِى ٱلنَّعْمَةِ <a class=\"highlight-text\">وَمَهِّلْهُمْ</a> قَلِيلًا",
+      "derivedForms": [
+        "مَهَّلَ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 17,
+      "text": "فَمَهِّلِ ٱلْكَٰفِرِينَ أَمْهِلْهُمْ رُوَيْدًۢا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَمَهِّلِ</a> ٱلْكَٰفِرِينَ <a class=\"highlight-text\">أَمْهِلْهُمْ</a> رُوَيْدًۢا",
+      "derivedForms": [
+        "مَهَّلَ",
+        "أَمْهَلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:47.061Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "كَٱلْمُهْلِ is in the derivative form: مُهْل",
+    "rootDefinitionHtml": "م/ﻫ/ل   m–h–l molten copper, a generic name for all metals, tar, heated dirty oil<br>; ease of manner, self recollection, to act or proceed in a deliberate manner, to tarry, to give respite; to collapse, avalanche. ʾal‐Suyūtı attributes مُهْل muhl, oil dregs, to a borrowing from Berber. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> مَهَّلَ mahhala 2 times; أَمْهَلَ ʾamhala 1 time and مُهْل muhl 3 times.",
+    "mainDefinitionHtml": "مُهْل muhl [n.] molten brass; boiled oil dregs, molten tar <br><br>(44:45) كَالْمُهْلِ يَغْلِي فِى الْبُطُونِ like molten tar, boiling in [their] bellies.",
+    "mainEntryId": "wdef-م-ﻫ-ل.مُهْل",
+    "entries": [
+      {
+        "id": "wdef-م-ﻫ-ل",
+        "label": "م-ﻫ-ل",
+        "definitionHtml": "م/ﻫ/ل   m–h–l molten copper, a generic name for all metals, tar, heated dirty oil<br>; ease of manner, self recollection, to act or proceed in a deliberate manner, to tarry, to give respite; to collapse, avalanche. ʾal‐Suyūtı attributes مُهْل muhl, oil dregs, to a borrowing from Berber. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> مَهَّلَ mahhala 2 times; أَمْهَلَ ʾamhala 1 time and مُهْل muhl 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-ل.مُهْل",
+        "label": "مُهْل",
+        "definitionHtml": "مُهْل muhl [n.] molten brass; boiled oil dregs, molten tar <br><br>(44:45) كَالْمُهْلِ يَغْلِي فِى الْبُطُونِ like molten tar, boiling in [their] bellies.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ﻫ-ل.أَمْهَلَ",
+        "label": "أَمْهَلَ",
+        "definitionHtml": "أَمْهَلَ ʾamhala [v. IV, trans.] to let be, to give respite to, to be patient with <br><br>(86:17) فَمَهِّلِ الْكَافِرِينَ أَمْهِلْهُمْ رُوَيْدًا so give respite to the disbelievers, let them be for a short while.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ﻫ-ل.مَهَّلَ",
+        "label": "مَهَّلَ",
+        "definitionHtml": "مَهَّلَ mahhala [v. II, trans.] to grant a delay, to give respite to, to bear with <br><br>(73:11) وَمَهِّلْهُمْ قَلِيلا and grant them some respite.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:50.247Z",
+      "refword": "18:29:22",
+      "lexword": "كَٱلْمُهْلِ"
+    }
+  }
+}

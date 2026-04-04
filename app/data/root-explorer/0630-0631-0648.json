@@ -1,0 +1,123 @@
+{
+  "root": "ذرو",
+  "rootArabic": "ذرو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَذْرُو",
+      "count": 1
+    },
+    {
+      "form": "ذَارِيَاتٌ",
+      "count": 1
+    },
+    {
+      "form": "ذَرْوٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَذْرُو",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذَارِيَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ذَرْوٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 45,
+      "text": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "highlightedHtml": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا <a class=\"highlight-text\">تَذْرُوهُ</a> ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "derivedForms": [
+        "تَذْرُو"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 1,
+      "text": "وَٱلذَّٰرِيَٰتِ ذَرْوًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلذَّٰرِيَٰتِ</a> <a class=\"highlight-text\">ذَرْوًا</a>",
+      "derivedForms": [
+        "ذَارِيَاتٌ",
+        "ذَرْوٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:42.900Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَذْرُوهُ is in the derivative form: تَذْرُو",
+    "rootDefinitionHtml": "ذ/ر/و–ي dh–r–w/y summit, top<br>; to cause to multiply, to create; to scatter, to blow away, to winnow; shelter, to shelter. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> تَذْرُو tadhrū; ذَرْوٌ dharw and ذَارِيَاتٌ dhāriyāt.",
+    "mainDefinitionHtml": "تَذْرُو tadhrū [imperf. of v. ذَرَا dharā, trans.] to scatter something, to blow away <br><br>(18:45) فَأَصْبَحَ هَشِيمًا تَذْرُوهُ الرِّيَاحُ and becomes dry stubble that the winds blow away.",
+    "mainEntryId": "wdef-ذ-ر-و–ي.تَذْرُو",
+    "entries": [
+      {
+        "id": "wdef-ذ-ر-و–ي",
+        "label": "ذ-ر-و–ي",
+        "definitionHtml": "ذ/ر/و–ي dh–r–w/y summit, top<br>; to cause to multiply, to create; to scatter, to blow away, to winnow; shelter, to shelter. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> تَذْرُو tadhrū; ذَرْوٌ dharw and ذَارِيَاتٌ dhāriyāt.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ر-و–ي.تَذْرُو",
+        "label": "تَذْرُو",
+        "definitionHtml": "تَذْرُو tadhrū [imperf. of v. ذَرَا dharā, trans.] to scatter something, to blow away <br><br>(18:45) فَأَصْبَحَ هَشِيمًا تَذْرُوهُ الرِّيَاحُ and becomes dry stubble that the winds blow away.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ذ-ر-و–ي.ذَارِيَاتٌ",
+        "label": "ذَارِيَاتٌ",
+        "definitionHtml": "ذَارِيَاتٌ dhāriyāt [pl. of act. part. fem.ذَارِيَة dhāriyatun] that which scatters, that which blows away <br><br>(51:1) وَالذَّارِيَاتِ ذَرْوًا by those [winds] that scatter far and wide; * الذَّارِيَاتِ name of Sura 51, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Scattering Winds’ as a sign in nature illustrating the coming of the Day of Resurrection.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ر-و–ي.ذَرْوٌ",
+        "label": "ذَرْوٌ",
+        "definitionHtml": "ذَرْوٌ dharw [v. n.] scattering, dispersing, the act of blowing away <br><br>(51:1) وَالذَّارِيَاتِ ذَرْوًا by those [winds] that scatter far and wide.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:44.324Z",
+      "refword": "18:45:16",
+      "lexword": "تَذْرُوهُ"
+    }
+  }
+}

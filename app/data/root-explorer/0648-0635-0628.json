@@ -1,0 +1,95 @@
+{
+  "root": "وصب",
+  "rootArabic": "وصب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "وَاصِبٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاصِبٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَاصِبٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 16,
+      "ayah": 52,
+      "text": "وَلَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَهُ ٱلدِّينُ وَاصِبًا ۚ أَفَغَيْرَ ٱللَّهِ تَتَّقُونَ",
+      "highlightedHtml": "وَلَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلَهُ ٱلدِّينُ <a class=\"highlight-text\">وَاصِبًا</a> ۚ أَفَغَيْرَ ٱللَّهِ تَتَّقُونَ",
+      "derivedForms": [
+        "وَاصِبٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 9,
+      "text": "دُحُورًا ۖ وَلَهُمْ عَذَابٌ وَاصِبٌ",
+      "highlightedHtml": "دُحُورًا ۖ وَلَهُمْ عَذَابٌ <a class=\"highlight-text\">وَاصِبٌ</a>",
+      "derivedForms": [
+        "وَاصِبٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:22.498Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite active participle",
+    "derivativeNote": "وَاصِبًا is in the derivative form: وَاصِبٌ",
+    "rootDefinitionHtml": "و/ص/ب   w–ṣ–b pain, illness, extreme fatigue; lasting, permanent; to nurse; to persist. Of this root, وَاصِبٌ wāṣib, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَاصِبٌ wāṣib [act. part.] lasting, constant, forever <br><br>(37:9) وَلَهُمْ عَذَابٌ وَاصِبٌ for them will be perpetual torment.",
+    "mainEntryId": "wdef-و-ص-ب.وَاصِبٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ص-ب",
+        "label": "و-ص-ب",
+        "definitionHtml": "و/ص/ب   w–ṣ–b pain, illness, extreme fatigue; lasting, permanent; to nurse; to persist. Of this root, وَاصِبٌ wāṣib, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ص-ب.وَاصِبٌ",
+        "label": "وَاصِبٌ",
+        "definitionHtml": "وَاصِبٌ wāṣib [act. part.] lasting, constant, forever <br><br>(37:9) وَلَهُمْ عَذَابٌ وَاصِبٌ for them will be perpetual torment.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:50.487Z",
+      "refword": "16:52:8",
+      "lexword": "وَاصِبًا"
+    }
+  }
+}

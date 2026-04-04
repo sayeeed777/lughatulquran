@@ -1,0 +1,138 @@
+{
+  "root": "سجر",
+  "rootArabic": "سجر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "سُجِّر",
+      "count": 1
+    },
+    {
+      "form": "مَسْجور",
+      "count": 1
+    },
+    {
+      "form": "يُسْجَرون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُسْجَرون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْجور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُجِّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 40,
+      "ayah": 72,
+      "text": "فِى ٱلْحَمِيمِ ثُمَّ فِى ٱلنَّارِ يُسْجَرُونَ",
+      "highlightedHtml": "فِى ٱلْحَمِيمِ ثُمَّ فِى ٱلنَّارِ <a class=\"highlight-text\">يُسْجَرُونَ</a>",
+      "derivedForms": [
+        "يُسْجَرون"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 6,
+      "text": "وَٱلْبَحْرِ ٱلْمَسْجُورِ",
+      "highlightedHtml": "وَٱلْبَحْرِ <a class=\"highlight-text\">ٱلْمَسْجُورِ</a>",
+      "derivedForms": [
+        "مَسْجور"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 6,
+      "text": "وَإِذَا ٱلْبِحَارُ سُجِّرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْبِحَارُ <a class=\"highlight-text\">سُجِّرَتْ</a>",
+      "derivedForms": [
+        "سُجِّر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:38.846Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive imperfect verb",
+    "derivativeNote": "يُسْجَرُونَ is in the derivative form: يُسْجَرون",
+    "rootDefinitionHtml": "س/ج/ر   s–j–r to fill, to flow, to overflow<br>; to stretch, to elongate; to set on fire, fuel. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يُسْجَرون yusjarūn; سُجِِّرَت sujjirat and مَسْجور masjūr.",
+    "mainDefinitionHtml": "يُسْجَرون yusjarūn [imperf. of pass. v. سُجِر sujira] to be stuffed, to be packed in, to be thrust <br><br>(40:72)‏فِي‏ ‏الْحَمِيمِ‏ ‏ثُمَّ‏ ‏فِي‏ ‏النَّارِ‏ ‏يُسْجَرُونَ‏ ‏ into scalding water, and then into the Fire, they are thrust.",
+    "mainEntryId": "wdef-س-ج-ر.يُسْجَرون",
+    "entries": [
+      {
+        "id": "wdef-س-ج-ر",
+        "label": "س-ج-ر",
+        "definitionHtml": "س/ج/ر   s–j–r to fill, to flow, to overflow<br>; to stretch, to elongate; to set on fire, fuel. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يُسْجَرون yusjarūn; سُجِِّرَت sujjirat and مَسْجور masjūr.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ج-ر.يُسْجَرون",
+        "label": "يُسْجَرون",
+        "definitionHtml": "يُسْجَرون yusjarūn [imperf. of pass. v. سُجِر sujira] to be stuffed, to be packed in, to be thrust <br><br>(40:72)‏فِي‏ ‏الْحَمِيمِ‏ ‏ثُمَّ‏ ‏فِي‏ ‏النَّارِ‏ ‏يُسْجَرُونَ‏ ‏ into scalding water, and then into the Fire, they are thrust.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ج-ر.سُجِّر",
+        "label": "سُجِّر",
+        "definitionHtml": "سُجِّر sujjir [pass. of v. II] to be filled to the point of overflowing; to be set on fire <br><br>(81:6) وَإِذَا الْبِحَارُ سُجِّرَتْ when the seas boil over (or, when they are set on fire, or, when they are joined together in one overflowing mass).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ج-ر.مَسْجور",
+        "label": "مَسْجور",
+        "definitionHtml": "مَسْجور masjūr [pass. part.] the one which is filled, the one which is set on fire <br><br>(52:6) وَالْبَحْرِ الْمَسْجُورِ and by the ocean ever‐filled.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:21.991Z",
+      "refword": "40:72:6",
+      "lexword": "يُسْجَرُونَ"
+    }
+  }
+}

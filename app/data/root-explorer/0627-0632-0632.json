@@ -1,0 +1,75 @@
+{
+  "root": "ازز",
+  "rootArabic": "ازز",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَؤُزُّ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَؤُزُّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 19,
+      "ayah": 83,
+      "text": "أَلَمْ تَرَ أَنَّآ أَرْسَلْنَا ٱلشَّيَٰطِينَ عَلَى ٱلْكَٰفِرِينَ تَؤُزُّهُمْ أَزًّا",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّآ أَرْسَلْنَا ٱلشَّيَٰطِينَ عَلَى ٱلْكَٰفِرِينَ <a class=\"highlight-text\">تَؤُزُّهُمْ</a> <a class=\"highlight-text\">أَزًّا</a>",
+      "derivedForms": [
+        "تَؤُزُّ",
+        "تَؤُزُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:27.841Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَؤُزُّهُمْ is in the derivative form: تَؤُزُّ",
+    "rootDefinitionHtml": "أ/ز/ز ʾ–z–z to whiz, to buzz, to hum; to agitate, to shake up, to incite, to stir up. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَؤُزُّ taʾuzz and أَزٌّ ʾazz.",
+    "mainDefinitionHtml": "تَؤُزُّ taʾuzz [imperf. of v. أَزَّ ʾazza, trans.; v. n. أَزٌّ ʾazz] to set in confusion, to stampede, to confuse <br><br>(19:83) أَلَمْ تَرَ أَنَّا أَرْسَلْنَا الشَّيَاطِينَ عَلَى الْكَافِرِينَ تَؤُزُّهُمْ أَزًّا have you not considered that We let the devils loose on the disbelievers to confuse and incite them [to sin].",
+    "mainEntryId": "wdef-أ-ز-ز.تَؤُزُّ",
+    "entries": [
+      {
+        "id": "wdef-أ-ز-ز",
+        "label": "أ-ز-ز",
+        "definitionHtml": "أ/ز/ز ʾ–z–z to whiz, to buzz, to hum; to agitate, to shake up, to incite, to stir up. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَؤُزُّ taʾuzz and أَزٌّ ʾazz.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ز-ز.تَؤُزُّ",
+        "label": "تَؤُزُّ",
+        "definitionHtml": "تَؤُزُّ taʾuzz [imperf. of v. أَزَّ ʾazza, trans.; v. n. أَزٌّ ʾazz] to set in confusion, to stampede, to confuse <br><br>(19:83) أَلَمْ تَرَ أَنَّا أَرْسَلْنَا الشَّيَاطِينَ عَلَى الْكَافِرِينَ تَؤُزُّهُمْ أَزًّا have you not considered that We let the devils loose on the disbelievers to confuse and incite them [to sin].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:02.299Z",
+      "refword": "19:83:8",
+      "lexword": "تَؤُزُّهُمْ"
+    }
+  }
+}

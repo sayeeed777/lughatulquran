@@ -1,0 +1,106 @@
+{
+  "root": "حقب",
+  "rootArabic": "حقب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَحْقَابٌ",
+      "count": 1
+    },
+    {
+      "form": "حُقُب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُقُب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْقَابٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 60,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًا",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ <a class=\"highlight-text\">حُقُبًا</a>",
+      "derivedForms": [
+        "حُقُب"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 23,
+      "text": "لَّٰبِثِينَ فِيهَآ أَحْقَابًا",
+      "highlightedHtml": "لَّٰبِثِينَ فِيهَآ <a class=\"highlight-text\">أَحْقَابًا</a>",
+      "derivedForms": [
+        "أَحْقَابٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:29.515Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "حُقُبًا is in the derivative form: حُقُب",
+    "rootDefinitionHtml": "ح/ق/ب   ḥ–q–b retention of urine; to store, to collect; saddlebag; long space of time, year, span of eighty years. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حُقُب ḥuqub and أَحْقَابٌ ʾaḥqāb.",
+    "mainDefinitionHtml": "حُقُب ḥuqub [either a variant of sing. n. حُقْبٌ ḥuqb or its plural] a year/years <br><br>(18:60) لاَ أَبْرَحُ حَتَّى أَبْلُغَ مَجْمَعَ الْبَحْرَيْنِ أَوْ أَمْضِيَ حُقُبًا I will not desist [from journeying] until I reach the place where the two seas meet, even if I go on for ages.",
+    "mainEntryId": "wdef-ح-ق-ب.حُقُب",
+    "entries": [
+      {
+        "id": "wdef-ح-ق-ب",
+        "label": "ح-ق-ب",
+        "definitionHtml": "ح/ق/ب   ḥ–q–b retention of urine; to store, to collect; saddlebag; long space of time, year, span of eighty years. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> حُقُب ḥuqub and أَحْقَابٌ ʾaḥqāb.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ق-ب.حُقُب",
+        "label": "حُقُب",
+        "definitionHtml": "حُقُب ḥuqub [either a variant of sing. n. حُقْبٌ ḥuqb or its plural] a year/years <br><br>(18:60) لاَ أَبْرَحُ حَتَّى أَبْلُغَ مَجْمَعَ الْبَحْرَيْنِ أَوْ أَمْضِيَ حُقُبًا I will not desist [from journeying] until I reach the place where the two seas meet, even if I go on for ages.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ق-ب.أَحْقَابٌ",
+        "label": "أَحْقَابٌ",
+        "definitionHtml": "أَحْقَابٌ ʾaḥqāb [pl. of n. حُقْبٌ ḥuqb] long period of time, years, eighty years <br><br>(78:23) لاَبِثِينَ فِيهَا أَحْقَابًا to stay in it for a long, long time.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:26.047Z",
+      "refword": "18:60:13",
+      "lexword": "حُقُبًا"
+    }
+  }
+}

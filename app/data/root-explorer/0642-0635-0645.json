@@ -1,0 +1,74 @@
+{
+  "root": "قصم",
+  "rootArabic": "قصم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "قَصَمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَصَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 11,
+      "text": "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْمًا آخَرِينَ",
+      "highlightedHtml": "وَكَمْ <a class=\"highlight-text\">قَصَمْنَا</a> مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْمًا آخَرِينَ",
+      "derivedForms": [
+        "قَصَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:00.803Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "قَصَمْنَا is in the derivative form: قَصَمَ",
+    "rootDefinitionHtml": "ق/ص/م   q–ṣ–m to break, to shatter, to snap; to be brittle; catastrophe. Of this root, قَصَمَ qaṣama occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "قَصَمَ qaṣama i [v. trans.] to totally demolish, to shatter <br><br>(21:11) وَكَمْ قَصَمْنَا مِنْ قَرْيَةٍ كَانَتْ ظَالِمَةً how many a community of evildoers We have shattered.",
+    "mainEntryId": "wdef-ق-ص-م.قَصَمَ",
+    "entries": [
+      {
+        "id": "wdef-ق-ص-م",
+        "label": "ق-ص-م",
+        "definitionHtml": "ق/ص/م   q–ṣ–m to break, to shatter, to snap; to be brittle; catastrophe. Of this root, قَصَمَ qaṣama occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ص-م.قَصَمَ",
+        "label": "قَصَمَ",
+        "definitionHtml": "قَصَمَ qaṣama i [v. trans.] to totally demolish, to shatter <br><br>(21:11) وَكَمْ قَصَمْنَا مِنْ قَرْيَةٍ كَانَتْ ظَالِمَةً how many a community of evildoers We have shattered.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:34.970Z",
+      "refword": "21:11:2",
+      "lexword": "قَصَمْنَا"
+    }
+  }
+}

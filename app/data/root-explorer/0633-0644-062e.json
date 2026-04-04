@@ -1,0 +1,127 @@
+{
+  "root": "سلخ",
+  "rootArabic": "سلخ",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "انْسَلَخَ",
+      "count": 2
+    },
+    {
+      "form": "نَسْلَخ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْسَلَخَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْسَلَخَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْلَخ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 175,
+      "text": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ آتَيْنَاهُ آيَاتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ",
+      "highlightedHtml": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ آتَيْنَاهُ آيَاتِنَا <a class=\"highlight-text\">فَٱنسَلَخَ</a> مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ",
+      "derivedForms": [
+        "انْسَلَخَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 5,
+      "text": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِذَا <a class=\"highlight-text\">ٱنسَلَخَ</a> ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "انْسَلَخَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 37,
+      "text": "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ نَسْلَخُ مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
+      "highlightedHtml": "وَءَايَةٌ لَّهُمُ ٱلَّيْلُ <a class=\"highlight-text\">نَسْلَخُ</a> مِنْهُ ٱلنَّهَارَ فَإِذَا هُم مُّظْلِمُونَ",
+      "derivedForms": [
+        "نَسْلَخ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:15.510Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VII) perfect verb",
+    "derivativeNote": "فَٱنسَلَخَ is in the derivative form: انْسَلَخَ",
+    "rootDefinitionHtml": "س/ل/خ   s–l–kh to strip off the hide, or skin, of an animal, to pull off; to bone, to extricate; (of months) to pass away, to depart. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br>نَسْلَخ naslakh 1 time and انْسَلَخَ ʾinsalakha 2 times.",
+    "mainDefinitionHtml": "انْسَلَخَ ʾinsalakha [v. VII, intrans.] <br><br><strong>1 </strong>to pass away, to become detached <br><br>(9:5) فَإِذَا انْسَلَخَ الأَشْهُرُ الْحُرُمُ when the [four] forbidden months have passed <br><br><strong>2 </strong>to cast off, to abandon, to forsake <br><br>(7:175) وَاتْلُ عَلَيْهِمْ نَبَأَ الَّذِي ءَاتَيْنَاهُ ءَايَاتِنَا فَانْسَلَخَ مِنْهَا and recite to them the story of the one We gave Our messages, yet he tore himself away from them.",
+    "mainEntryId": "wdef-س-ل-خ.انْسَلَخَ",
+    "entries": [
+      {
+        "id": "wdef-س-ل-خ",
+        "label": "س-ل-خ",
+        "definitionHtml": "س/ل/خ   s–l–kh to strip off the hide, or skin, of an animal, to pull off; to bone, to extricate; (of months) to pass away, to depart. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br>نَسْلَخ naslakh 1 time and انْسَلَخَ ʾinsalakha 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ل-خ.انْسَلَخَ",
+        "label": "انْسَلَخَ",
+        "definitionHtml": "انْسَلَخَ ʾinsalakha [v. VII, intrans.] <br><br><strong>1 </strong>to pass away, to become detached <br><br>(9:5) فَإِذَا انْسَلَخَ الأَشْهُرُ الْحُرُمُ when the [four] forbidden months have passed <br><br><strong>2 </strong>to cast off, to abandon, to forsake <br><br>(7:175) وَاتْلُ عَلَيْهِمْ نَبَأَ الَّذِي ءَاتَيْنَاهُ ءَايَاتِنَا فَانْسَلَخَ مِنْهَا and recite to them the story of the one We gave Our messages, yet he tore himself away from them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ل-خ.نَسْلَخ",
+        "label": "نَسْلَخ",
+        "definitionHtml": "نَسْلَخ naslakh [imperf. of v. سَلَخَ salkha, trans.] to extricate, to peel off, to strip away <br><br>(36:37) وَءَايَةٌ لَهُمُ اللَّيْلُ نَسْلَخُ مِنْهُ النَّهَارَ فَإِذَا هُمْ مُظْلِمُونَ and a sign for them is the night, from which We strip the daylight, and–lo and behold!–they are in darkness.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:37.909Z",
+      "refword": "7:175:7",
+      "lexword": "فَٱنسَلَخَ"
+    }
+  }
+}

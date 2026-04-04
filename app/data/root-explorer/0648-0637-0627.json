@@ -1,0 +1,190 @@
+{
+  "root": "وطا",
+  "rootArabic": "وطا",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "تَطَأُ",
+      "count": 3
+    },
+    {
+      "form": "مَوْطِئٌ",
+      "count": 1
+    },
+    {
+      "form": "وَطْءٌ",
+      "count": 1
+    },
+    {
+      "form": "يُوَاطِئُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَطَأُ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "مَوْطِئٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُوَاطِئُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَطَأُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَطَأُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَطْءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 37,
+      "text": "إِنَّمَا ٱلنَّسِىٓءُ زِيَادَةٌ فِى ٱلْكُفْرِ ۖ يُضَلُّ بِهِ ٱلَّذِينَ كَفَرُوا۟ يُحِلُّونَهُۥ عَامًا وَيُحَرِّمُونَهُۥ عَامًا لِّيُوَاطِـُٔوا۟ عِدَّةَ مَا حَرَّمَ ٱللَّهُ فَيُحِلُّوا۟ مَا حَرَّمَ ٱللَّهُ ۚ زُيِّنَ لَهُمْ سُوٓءُ أَعْمَٰلِهِمْ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "إِنَّمَا ٱلنَّسِىٓءُ زِيَادَةٌ فِى ٱلْكُفْرِ ۖ يُضَلُّ بِهِ ٱلَّذِينَ كَفَرُوا۟ يُحِلُّونَهُۥ عَامًا وَيُحَرِّمُونَهُۥ عَامًا <a class=\"highlight-text\">لِّيُوَاطِـُٔوا۟</a> عِدَّةَ مَا حَرَّمَ ٱللَّهُ فَيُحِلُّوا۟ مَا حَرَّمَ ٱللَّهُ ۚ زُيِّنَ لَهُمْ سُوٓءُ أَعْمَٰلِهِمْ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "يُوَاطِئُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 120,
+      "text": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا <a class=\"highlight-text\">يَطَـُٔونَ</a> <a class=\"highlight-text\">مَوْطِئًا</a> يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "تَطَأُ",
+        "مَوْطِئٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 27,
+      "text": "وَأَوْرَثَكُمْ أَرْضَهُمْ وَدِيَٰرَهُمْ وَأَمْوَٰلَهُمْ وَأَرْضًا لَّمْ تَطَـُٔوهَا ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرًا",
+      "highlightedHtml": "وَأَوْرَثَكُمْ أَرْضَهُمْ وَدِيَٰرَهُمْ وَأَمْوَٰلَهُمْ وَأَرْضًا لَّمْ <a class=\"highlight-text\">تَطَـُٔوهَا</a> ۚ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرًا",
+      "derivedForms": [
+        "تَطَأُ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 25,
+      "text": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن <a class=\"highlight-text\">تَطَـُٔوهُمْ</a> فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "تَطَأُ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 6,
+      "text": "إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا",
+      "highlightedHtml": "إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ <a class=\"highlight-text\">وَطْـًٔا</a> وَأَقْوَمُ قِيلًا",
+      "derivedForms": [
+        "وَطْءٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:29.563Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form III) imperfect verb, subjunctive mood",
+    "derivativeNote": "لِّيُوَاطِـُٔوا۟ is in the derivative form: يُوَاطِئُ",
+    "rootDefinitionHtml": "و/ط/أ   w–ṭ–ʾ low land<br>; force, gravity, pressure, to tread underfoot, to defeat, to raid; to have sexual intercourse; to facilitate, to be approachable, to agree with, to match, to synchronise. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَطَأُ taṭaʾ 3 times; يُوَاطِئُ yuwāṭiʾ 1 time; وَطْءٌ waṭʾ 1 time and مَوْطِئٌ mawṭiʾ 1 time.",
+    "mainDefinitionHtml": "يُوَاطِئُ yuwāṭiʾ [imperf. of v. III وَاطَأَ wāṭaʾa, trans.] to cause to match up, to cause to agree, to cause to conform with <br><br>(9:37) يُحِلُّونَهُ عَامًا وَيُحَرِّمُونَهُ عَامًا لِيُوَاطِئُوا عِدَّةَ مَا حَرَّمَ اللَّهُ they will allow it one year–and forbid it one year–in order to conform with the number of what God has forbidden.",
+    "mainEntryId": "wdef-و-ط-أ.يُوَاطِئُ",
+    "entries": [
+      {
+        "id": "wdef-و-ط-أ",
+        "label": "و-ط-أ",
+        "definitionHtml": "و/ط/أ   w–ṭ–ʾ low land<br>; force, gravity, pressure, to tread underfoot, to defeat, to raid; to have sexual intercourse; to facilitate, to be approachable, to agree with, to match, to synchronise. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَطَأُ taṭaʾ 3 times; يُوَاطِئُ yuwāṭiʾ 1 time; وَطْءٌ waṭʾ 1 time and مَوْطِئٌ mawṭiʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ط-أ.يُوَاطِئُ",
+        "label": "يُوَاطِئُ",
+        "definitionHtml": "يُوَاطِئُ yuwāṭiʾ [imperf. of v. III وَاطَأَ wāṭaʾa, trans.] to cause to match up, to cause to agree, to cause to conform with <br><br>(9:37) يُحِلُّونَهُ عَامًا وَيُحَرِّمُونَهُ عَامًا لِيُوَاطِئُوا عِدَّةَ مَا حَرَّمَ اللَّهُ they will allow it one year–and forbid it one year–in order to conform with the number of what God has forbidden.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ط-أ.تَطَأُ",
+        "label": "تَطَأُ",
+        "definitionHtml": "تَطَأُ taṭaʾu [imperf. v. وَطَأَ waṭaʾa, trans.] <br><br><strong>1 </strong>to step on, to set foot on, to tread <br><br>(33:27) وَأَرْضًا لَمْ تَطَئُوهَا [He will give you] a land you have never trodden <br><br><strong>2 </strong>to trample underfoot, to harm *<br><br>(48:25) وَلَوْلاَ رِجَالٌ مُؤْمِنُونَ وَنِسَاءٌ مُؤْمِنَاتٌ لَمْ تَعْلَمُوهُمْ أَنْ تَطَئُوهُمْ and if there had not been believing men and believing women [among them], whom you did not know, you would have harmed [lit. trampled underfoot] them [the disbelivers].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ط-أ.مَوْطِئٌ",
+        "label": "مَوْطِئٌ",
+        "definitionHtml": "مَوْطِئٌ mawṭiʾ [n. of place] a place where the foot steps, foothold <br><br>(9:120) وَلاَ يَطَئُونَ مَوْطِئًا يَغِيظُ الْكُفَّارَ they do not step in a place that angers the disbelievers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ط-أ.وَطْءٌ",
+        "label": "وَطْءٌ",
+        "definitionHtml": "وَطْءٌ watʾ [v. n.] trampling, pressure, compulsion, force, impression <br><br>(73:6) إِنَّ نَاشِئَةَ اللَّيْلِ هِيَ أَشَدُّ وَطْئًا indeed, night prayers make a deeper impression.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:03.815Z",
+      "refword": "9:37:14",
+      "lexword": "لِّيُوَاطِـُٔوا۟"
+    }
+  }
+}

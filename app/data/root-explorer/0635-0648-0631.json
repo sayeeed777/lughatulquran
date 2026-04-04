@@ -1,0 +1,466 @@
+{
+  "root": "صور",
+  "rootArabic": "صور",
+  "stats": {
+    "totalOccurrences": 19,
+    "derivativeCount": 5,
+    "surahCount": 17,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "صُور",
+      "count": 10
+    },
+    {
+      "form": "صَوَّر",
+      "count": 4
+    },
+    {
+      "form": "صُورَة",
+      "count": 3
+    },
+    {
+      "form": "المُصَوِّر",
+      "count": 1
+    },
+    {
+      "form": "صُرْ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُرْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَوَّر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَوَّر",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَوَّر",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "صُورَة",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المُصَوِّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَوَّر",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "صُورَة",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُور",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُورَة",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 260,
+      "text": "وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطْمَئِنَّ قَلْبِى ۖ قَالَ فَخُذْ أَرْبَعَةً مِّنَ ٱلطَّيْرِ فَصُرْهُنَّ إِلَيْكَ ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِّنْهُنَّ جُزْءًا ثُمَّ ٱدْعُهُنَّ يَأْتِينَكَ سَعْيًا ۚ وَٱعْلَمْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ أَرِنِى كَيْفَ تُحْىِ ٱلْمَوْتَىٰ ۖ قَالَ أَوَلَمْ تُؤْمِن ۖ قَالَ بَلَىٰ وَلَٰكِن لِّيَطْمَئِنَّ قَلْبِى ۖ قَالَ فَخُذْ أَرْبَعَةً مِّنَ ٱلطَّيْرِ <a class=\"highlight-text\">فَصُرْهُنَّ</a> إِلَيْكَ ثُمَّ ٱجْعَلْ عَلَىٰ كُلِّ جَبَلٍ مِّنْهُنَّ جُزْءًا ثُمَّ ٱدْعُهُنَّ يَأْتِينَكَ سَعْيًا ۚ وَٱعْلَمْ أَنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "صُرْ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 6,
+      "text": "هُوَ ٱلَّذِى يُصَوِّرُكُمْ فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "هُوَ ٱلَّذِى <a class=\"highlight-text\">يُصَوِّرُكُمْ</a> فِى ٱلْأَرْحَامِ كَيْفَ يَشَآءُ ۚ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "صَوَّر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 73,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۖ وَيَوْمَ يَقُولُ كُن فَيَكُونُ ۚ قَوْلُهُ ٱلْحَقُّ ۚ وَلَهُ ٱلْمُلْكُ يَوْمَ يُنفَخُ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> ۚ عَٰلِمُ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 11,
+      "text": "وَلَقَدْ خَلَقْنَٰكُمْ ثُمَّ صَوَّرْنَٰكُمْ ثُمَّ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ",
+      "highlightedHtml": "وَلَقَدْ خَلَقْنَٰكُمْ ثُمَّ <a class=\"highlight-text\">صَوَّرْنَٰكُمْ</a> ثُمَّ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ لَمْ يَكُن مِّنَ ٱلسَّٰجِدِينَ",
+      "derivedForms": [
+        "صَوَّر"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 99,
+      "text": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا",
+      "highlightedHtml": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ وَنُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَجَمَعْنَٰهُمْ جَمْعًا",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 102,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "highlightedHtml": "يَوْمَ يُنفَخُ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> ۚ وَنَحْشُرُ ٱلْمُجْرِمِينَ يَوْمَئِذٍ زُرْقًا",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 101,
+      "text": "فَإِذَا نُفِخَ فِى ٱلصُّورِ فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
+      "highlightedHtml": "فَإِذَا نُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَلَآ أَنسَابَ بَيْنَهُمْ يَوْمَئِذٍ وَلَا يَتَسَآءَلُونَ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 87,
+      "text": "وَيَوْمَ يُنفَخُ فِى ٱلصُّورِ فَفَزِعَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "highlightedHtml": "وَيَوْمَ يُنفَخُ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَفَزِعَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۚ وَكُلٌّ أَتَوْهُ دَٰخِرِينَ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 51,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "highlightedHtml": "وَنُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَإِذَا هُم مِّنَ ٱلْأَجْدَاثِ إِلَىٰ رَبِّهِمْ يَنسِلُونَ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 68,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ فَصَعِقَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ نُفِخَ فِيهِ أُخْرَى فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ",
+      "highlightedHtml": "وَنُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَصَعِقَ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ إِلَّا مَن شَآءَ ٱللَّهُ ۖ ثُمَّ نُفِخَ فِيهِ أُخْرَى فَإِذَا هُمْ قِيَامٌ يَنظُرُونَ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 64,
+      "text": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًا وَٱلسَّمَآءَ بِنَآءً وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ فَتَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ قَرَارًا وَٱلسَّمَآءَ بِنَآءً <a class=\"highlight-text\">وَصَوَّرَكُمْ</a> فَأَحْسَنَ <a class=\"highlight-text\">صُوَرَكُمْ</a> وَرَزَقَكُم مِّنَ ٱلطَّيِّبَٰتِ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ ۖ فَتَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "صَوَّر",
+        "صُورَة"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 20,
+      "text": "وَنُفِخَ فِى ٱلصُّورِ ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
+      "highlightedHtml": "وَنُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> ۚ ذَٰلِكَ يَوْمُ ٱلْوَعِيدِ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 24,
+      "text": "هُوَ ٱللَّهُ ٱلْخَٰلِقُ ٱلْبَارِئُ ٱلْمُصَوِّرُ ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "هُوَ ٱللَّهُ ٱلْخَٰلِقُ ٱلْبَارِئُ <a class=\"highlight-text\">ٱلْمُصَوِّرُ</a> ۖ لَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ يُسَبِّحُ لَهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "المُصَوِّر"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 3,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ <a class=\"highlight-text\">وَصَوَّرَكُمْ</a> فَأَحْسَنَ <a class=\"highlight-text\">صُوَرَكُمْ</a> ۖ وَإِلَيْهِ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "صَوَّر",
+        "صُورَة"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 13,
+      "text": "فَإِذَا نُفِخَ فِى ٱلصُّورِ نَفْخَةٌ وَٰحِدَةٌ",
+      "highlightedHtml": "فَإِذَا نُفِخَ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> نَفْخَةٌ وَٰحِدَةٌ",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 18,
+      "text": "يَوْمَ يُنفَخُ فِى ٱلصُّورِ فَتَأْتُونَ أَفْوَاجًا",
+      "highlightedHtml": "يَوْمَ يُنفَخُ فِى <a class=\"highlight-text\">ٱلصُّورِ</a> فَتَأْتُونَ أَفْوَاجًا",
+      "derivedForms": [
+        "صُور"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 8,
+      "text": "فِىٓ أَىِّ صُورَةٍ مَّا شَآءَ رَكَّبَكَ",
+      "highlightedHtml": "فِىٓ أَىِّ <a class=\"highlight-text\">صُورَةٍ</a> مَّا شَآءَ رَكَّبَكَ",
+      "derivedForms": [
+        "صُورَة"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:19.753Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "فَصُرْهُنَّ is in the derivative form: صُرْ",
+    "rootDefinitionHtml": "ص/و/ر   ṣ–w–r to cause to incline or lean towards, to incline to<br>; to shape, to form, to fashion, to represent; sculpture, picture; to imagine, to conceive; to cut into pieces; to disperse; to prepare; trumpet. صُرْهُنَّ ṣurhunna is classified under this root, although some philologists and commentators derive it from the root ص/ي/ر ṣ–y–r and still others derive it from ص/ر/ى ṣ–r–y. <br><br>Of this root, 6 forms occur 19 times in the Qur’an:<br> صُرْهُنَّ ṣurhunna 1 time; صَوَّر ṣawwara 4 times; صُورَة ṣūratun 1 time; صُوَر ṣuwar 2 times; مُُصَوِّر muṣawwir 1 time and صُور ṣūr 10 times.",
+    "mainDefinitionHtml": "صُرْ ṣur (variant reading صِر ṣir, imperf. يَصُور yaṣūr) [imper. v., imperf. يَصِير yaṣır] interpreted as: have them familiarised with yourself; cut them into pieces; have them inclined to you <br><br>(2:260) فَخُذْ أَرْبَعَةً مِنَ الطَّيْرِ فَصُرْهُنَّ إِلَيْكَ take four of the birds and train them to come back to you (or, cut them into pieces).",
+    "mainEntryId": "wdef-ص-و-ر.صُرْ",
+    "entries": [
+      {
+        "id": "wdef-ص-و-ر",
+        "label": "ص-و-ر",
+        "definitionHtml": "ص/و/ر   ṣ–w–r to cause to incline or lean towards, to incline to<br>; to shape, to form, to fashion, to represent; sculpture, picture; to imagine, to conceive; to cut into pieces; to disperse; to prepare; trumpet. صُرْهُنَّ ṣurhunna is classified under this root, although some philologists and commentators derive it from the root ص/ي/ر ṣ–y–r and still others derive it from ص/ر/ى ṣ–r–y. <br><br>Of this root, 6 forms occur 19 times in the Qur’an:<br> صُرْهُنَّ ṣurhunna 1 time; صَوَّر ṣawwara 4 times; صُورَة ṣūratun 1 time; صُوَر ṣuwar 2 times; مُُصَوِّر muṣawwir 1 time and صُور ṣūr 10 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-و-ر.صُرْ",
+        "label": "صُرْ",
+        "definitionHtml": "صُرْ ṣur (variant reading صِر ṣir, imperf. يَصُور yaṣūr) [imper. v., imperf. يَصِير yaṣır] interpreted as: have them familiarised with yourself; cut them into pieces; have them inclined to you <br><br>(2:260) فَخُذْ أَرْبَعَةً مِنَ الطَّيْرِ فَصُرْهُنَّ إِلَيْكَ take four of the birds and train them to come back to you (or, cut them into pieces).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-و-ر.المُصَوِّر",
+        "label": "المُصَوِّر",
+        "definitionHtml": "المُصَوِّر ʾal-muṣawwir [n./act. part.] [an attribute of God] the Fashioner <br><br>(59:24) هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ He is God the Creator, the Originator, the Fashioner.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-و-ر.صَوَّر",
+        "label": "صَوَّر",
+        "definitionHtml": "صَوَّر ṣawwara [v. II, trans.] to form, to give shape to, to fashion <br><br>(40:64) وَصَوَّرَكُمْ فَأَحْسَنَ صُوَرَكُمْ He shaped you, and shaped you well.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-و-ر.صُور",
+        "label": "صُور",
+        "definitionHtml": "صُور ṣūr [n.] trumpet [heralding the Resurrection, cf. الناقور ], horn <br><br>(50:20) وَنُفِخَ فِى الصُّورِ ذَلِكَ يَوْمُ الْوَعِيدِ the Trumpet will be sounded–this is the Threatened Day.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-و-ر.صُورَة",
+        "label": "صُورَة",
+        "definitionHtml": "صُورَة ṣūratun [n.; pl.صُوَر ṣuwar] shape, form, image <br><br>(82:8) فِى أَيِّ صُورَةٍ مَا شَاءَ رَكَّبَكَ in whatever form He wills, He composes you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:34.481Z",
+      "refword": "2:260:22",
+      "lexword": "فَصُرْهُنَّ"
+    }
+  }
+}

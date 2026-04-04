@@ -1,0 +1,74 @@
+{
+  "root": "غمض",
+  "rootArabic": "غمض",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُغْمِض",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُغْمِض",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 267,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا أَنفِقُوا۟ مِن طَيِّبَٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن <a class=\"highlight-text\">تُغْمِضُوا۟</a> فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+      "derivedForms": [
+        "تُغْمِض"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:13.512Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperfect verb, subjunctive mood",
+    "derivativeNote": "تُغْمِضُوا۟ is in the derivative form: تُغْمِض",
+    "rootDefinitionHtml": "غ/م/ض   gh–m–ḍ to sleep, to close one’s eyes; to let go; to be obscure; to travel through unchartered land; to lower the price of goods because of their inferior quality; to ignore; to examine carefully. Of this root, only تُغْمِضوا tughmiḍū occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُغْمِض tughmiḍ [imperf. of v. trans. with prep. فى] to have the price of an article brought down because of its inferior quality <br><br>(2:267) ‏وَلاَ‏ ‏تَيَمَّمُوا‏ ‏الْخَبِيثَ‏ ‏مِنْهُ‏ ‏تُنْفِقُونَ ‏وَلَسْتُمْ‏ ‏بِآخِذِيهِ‏ ‏إِلاَّ‏ ‏أَنْ‏ ‏تُغْمِضُوا‏ ‏فِيهِ‏do not select the bad things from it [your property] for charity when you yourselves would not take it [if you were buying it] without having its price brought down.",
+    "mainEntryId": "wdef-غ-م-ض.تُغْمِض",
+    "entries": [
+      {
+        "id": "wdef-غ-م-ض",
+        "label": "غ-م-ض",
+        "definitionHtml": "غ/م/ض   gh–m–ḍ to sleep, to close one’s eyes; to let go; to be obscure; to travel through unchartered land; to lower the price of goods because of their inferior quality; to ignore; to examine carefully. Of this root, only تُغْمِضوا tughmiḍū occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-م-ض.تُغْمِض",
+        "label": "تُغْمِض",
+        "definitionHtml": "تُغْمِض tughmiḍ [imperf. of v. trans. with prep. فى] to have the price of an article brought down because of its inferior quality <br><br>(2:267) ‏وَلاَ‏ ‏تَيَمَّمُوا‏ ‏الْخَبِيثَ‏ ‏مِنْهُ‏ ‏تُنْفِقُونَ ‏وَلَسْتُمْ‏ ‏بِآخِذِيهِ‏ ‏إِلاَّ‏ ‏أَنْ‏ ‏تُغْمِضُوا‏ ‏فِيهِ‏do not select the bad things from it [your property] for charity when you yourselves would not take it [if you were buying it] without having its price brought down.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:10.728Z",
+      "refword": "2:267:23",
+      "lexword": "تُغْمِضُوا۟"
+    }
+  }
+}

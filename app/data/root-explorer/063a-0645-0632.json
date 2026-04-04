@@ -1,0 +1,74 @@
+{
+  "root": "غمز",
+  "rootArabic": "غمز",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَتَغامَز",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَغامَز",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 83,
+      "ayah": 30,
+      "text": "وَإِذَا مَرُّوا۟ بِهِمْ يَتَغَامَزُونَ",
+      "highlightedHtml": "وَإِذَا مَرُّوا۟ بِهِمْ <a class=\"highlight-text\">يَتَغَامَزُونَ</a>",
+      "derivedForms": [
+        "يَتَغامَز"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:12.501Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form VI) imperfect verb",
+    "derivativeNote": "يَتَغَامَزُونَ is in the derivative form: يَتَغامَز",
+    "rootDefinitionHtml": "غ/م/ز gh–m–z nudge, wink; squeeze; dimple; to examine, to probe an animal for defects, weakness, faults. Of this root, onlyيَتَغامَزون yataghāmazūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَتَغامَز yataghāmaz [imperf. of v. VI, intrans.] to wink at one another, to nudge one another <br><br>(83:30) وَإِذَا‏ ‏مَرُّوا‏ ‏بِهِمْ‏ ‏يَتَغَامَزُونَ‏and when they pass by them they nudge one another.",
+    "mainEntryId": "wdef-غ-م-ز.يَتَغامَز",
+    "entries": [
+      {
+        "id": "wdef-غ-م-ز",
+        "label": "غ-م-ز",
+        "definitionHtml": "غ/م/ز gh–m–z nudge, wink; squeeze; dimple; to examine, to probe an animal for defects, weakness, faults. Of this root, onlyيَتَغامَزون yataghāmazūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-م-ز.يَتَغامَز",
+        "label": "يَتَغامَز",
+        "definitionHtml": "يَتَغامَز yataghāmaz [imperf. of v. VI, intrans.] to wink at one another, to nudge one another <br><br>(83:30) وَإِذَا‏ ‏مَرُّوا‏ ‏بِهِمْ‏ ‏يَتَغَامَزُونَ‏and when they pass by them they nudge one another.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:08.511Z",
+      "refword": "83:30:4",
+      "lexword": "يَتَغَامَزُونَ"
+    }
+  }
+}

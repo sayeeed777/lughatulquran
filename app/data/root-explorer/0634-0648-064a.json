@@ -1,0 +1,106 @@
+{
+  "root": "شوي",
+  "rootArabic": "شوي",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "شَوَى",
+      "count": 1
+    },
+    {
+      "form": "يَشْوي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَشْوي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَوَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 29,
+      "text": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "highlightedHtml": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ <a class=\"highlight-text\">يَشْوِى</a> ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "derivedForms": [
+        "يَشْوي"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 16,
+      "text": "نَزَّاعَةً لِّلشَّوَىٰ",
+      "highlightedHtml": "نَزَّاعَةً <a class=\"highlight-text\">لِّلشَّوَىٰ</a>",
+      "derivedForms": [
+        "شَوَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:30.071Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَشْوِى is in the derivative form: يَشْوي",
+    "rootDefinitionHtml": "ش/و/ي   sh–w–y to roast, to scald, to fry (meat), to boil water; exterior of the scalp, or of skin in general, limbs, extremities. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>يَشْوي yashwı andشَوَى shawā.",
+    "mainDefinitionHtml": "يَشْوي yashwı [imperf. v., trans.] to scald, to roast <br><br>(18:29) وَإِنْ يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ if they call for relief, they will be relieved with water like molten tar [also rendered as: lead, copper, oil dredges] that scalds [their] faces.",
+    "mainEntryId": "wdef-ش-و-ي.يَشْوي",
+    "entries": [
+      {
+        "id": "wdef-ش-و-ي",
+        "label": "ش-و-ي",
+        "definitionHtml": "ش/و/ي   sh–w–y to roast, to scald, to fry (meat), to boil water; exterior of the scalp, or of skin in general, limbs, extremities. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>يَشْوي yashwı andشَوَى shawā.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-و-ي.يَشْوي",
+        "label": "يَشْوي",
+        "definitionHtml": "يَشْوي yashwı [imperf. v., trans.] to scald, to roast <br><br>(18:29) وَإِنْ يَسْتَغِيثُوا يُغَاثُوا بِمَاءٍ كَالْمُهْلِ يَشْوِي الْوُجُوهَ if they call for relief, they will be relieved with water like molten tar [also rendered as: lead, copper, oil dredges] that scalds [their] faces.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-و-ي.شَوَى",
+        "label": "شَوَى",
+        "definitionHtml": "شَوَى shawā [pl. of n. شَواةٌ shawātun] scalps, skins, limbs, extremities <br><br>(70:16) نَزَّاعَةً لِلشَّوَى stripper of scalps (or, limbs).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:03.238Z",
+      "refword": "18:29:23",
+      "lexword": "يَشْوِى"
+    }
+  }
+}

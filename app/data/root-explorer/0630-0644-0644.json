@@ -1,0 +1,584 @@
+{
+  "root": "ذلل",
+  "rootArabic": "ذلل",
+  "stats": {
+    "totalOccurrences": 24,
+    "derivativeCount": 10,
+    "surahCount": 17,
+    "ayahCount": 23
+  },
+  "derivatives": [
+    {
+      "form": "ذِلَّةٌ",
+      "count": 7
+    },
+    {
+      "form": "أَذِلَّةٌ",
+      "count": 4
+    },
+    {
+      "form": "ذُلٌّ",
+      "count": 3
+    },
+    {
+      "form": "ذَلُولٌ",
+      "count": 3
+    },
+    {
+      "form": "أَذَلُّ",
+      "count": 2
+    },
+    {
+      "form": "تُذِلُّ",
+      "count": 1
+    },
+    {
+      "form": "تَذْلِيلٌ",
+      "count": 1
+    },
+    {
+      "form": "ذَلَّلَ",
+      "count": 1
+    },
+    {
+      "form": "ذُلِّل",
+      "count": 1
+    },
+    {
+      "form": "نَذِلُّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "ذَلُولٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "تُذِلُّ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذِلَّةٌ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذَلُولٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذُلٌّ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَذِلُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَذِلَّةٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذَلَّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذُلٌّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَذَلُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 63,
+      "surahName": "Al-Munafiqun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَذَلُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذَلُولٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذِلَّةٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَذْلِيلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ذُلِّل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 61,
+      "text": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "highlightedHtml": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ <a class=\"highlight-text\">ٱلذِّلَّةُ</a> وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 71,
+      "text": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا <a class=\"highlight-text\">ذَلُولٌ</a> تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "ذَلُولٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 26,
+      "text": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلْمُلْكِ تُؤْتِى ٱلْمُلْكَ مَن تَشَآءُ وَتَنزِعُ ٱلْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ <a class=\"highlight-text\">وَتُذِلُّ</a> مَن تَشَآءُ ۖ بِيَدِكَ ٱلْخَيْرُ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "تُذِلُّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 112,
+      "text": "ضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍ مِّنَ ٱللَّهِ وَحَبْلٍ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "highlightedHtml": "ضُرِبَتْ عَلَيْهِمُ <a class=\"highlight-text\">ٱلذِّلَّةُ</a> أَيْنَ مَا ثُقِفُوٓا۟ إِلَّا بِحَبْلٍ مِّنَ ٱللَّهِ وَحَبْلٍ مِّنَ ٱلنَّاسِ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ وَضُرِبَتْ عَلَيْهِمُ ٱلْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 123,
+      "text": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍ وَأَنتُمْ أَذِلَّةٌ ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَلَقَدْ نَصَرَكُمُ ٱللَّهُ بِبَدْرٍ وَأَنتُمْ <a class=\"highlight-text\">أَذِلَّةٌ</a> ۖ فَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "أَذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 54,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَن يَرْتَدَّ مِنكُمْ عَن دِينِهِۦ فَسَوْفَ يَأْتِى ٱللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُۥٓ أَذِلَّةٍ عَلَى ٱلْمُؤْمِنِينَ أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ يُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ لَوْمَةَ لَآئِمٍ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا مَن يَرْتَدَّ مِنكُمْ عَن دِينِهِۦ فَسَوْفَ يَأْتِى ٱللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُۥٓ <a class=\"highlight-text\">أَذِلَّةٍ</a> عَلَى ٱلْمُؤْمِنِينَ أَعِزَّةٍ عَلَى ٱلْكَٰفِرِينَ يُجَٰهِدُونَ فِى سَبِيلِ ٱللَّهِ وَلَا يَخَافُونَ لَوْمَةَ لَآئِمٍ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "derivedForms": [
+        "أَذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 152,
+      "text": "إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِّن رَّبِّهِمْ وَذِلَّةٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِّن رَّبِّهِمْ <a class=\"highlight-text\">وَذِلَّةٌ</a> فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 26,
+      "text": "لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا ذِلَّةٌ ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "لِّلَّذِينَ أَحْسَنُوا۟ ٱلْحُسْنَىٰ وَزِيَادَةٌ ۖ وَلَا يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلَا <a class=\"highlight-text\">ذِلَّةٌ</a> ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 27,
+      "text": "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ <a class=\"highlight-text\">ذِلَّةٌ</a> ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 69,
+      "text": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ ذُلُلًا ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "ثُمَّ كُلِى مِن كُلِّ ٱلثَّمَرَٰتِ فَٱسْلُكِى سُبُلَ رَبِّكِ <a class=\"highlight-text\">ذُلُلًا</a> ۚ يَخْرُجُ مِنۢ بُطُونِهَا شَرَابٌ مُّخْتَلِفٌ أَلْوَٰنُهُۥ فِيهِ شِفَآءٌ لِّلنَّاسِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "ذَلُولٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 24,
+      "text": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "highlightedHtml": "وَٱخْفِضْ لَهُمَا جَنَاحَ <a class=\"highlight-text\">ٱلذُّلِّ</a> مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "derivedForms": [
+        "ذُلٌّ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 111,
+      "text": "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+      "highlightedHtml": "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّ مِّنَ <a class=\"highlight-text\">ٱلذُّلِّ</a> ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+      "derivedForms": [
+        "ذُلٌّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 134,
+      "text": "وَلَوْ أَنَّآ أَهْلَكْنَٰهُم بِعَذَابٍ مِّن قَبْلِهِۦ لَقَالُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ آيَاتِكَ مِن قَبْلِ أَن نَّذِلَّ وَنَخْزَىٰ",
+      "highlightedHtml": "وَلَوْ أَنَّآ أَهْلَكْنَٰهُم بِعَذَابٍ مِّن قَبْلِهِۦ لَقَالُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ آيَاتِكَ مِن قَبْلِ أَن <a class=\"highlight-text\">نَّذِلَّ</a> وَنَخْزَىٰ",
+      "derivedForms": [
+        "نَذِلُّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 34,
+      "text": "قَالَتْ إِنَّ ٱلْمُلُوكَ إِذَا دَخَلُوا۟ قَرْيَةً أَفْسَدُوهَا وَجَعَلُوٓا۟ أَعِزَّةَ أَهْلِهَآ أَذِلَّةً ۖ وَكَذَٰلِكَ يَفْعَلُونَ",
+      "highlightedHtml": "قَالَتْ إِنَّ ٱلْمُلُوكَ إِذَا دَخَلُوا۟ قَرْيَةً أَفْسَدُوهَا وَجَعَلُوٓا۟ أَعِزَّةَ أَهْلِهَآ <a class=\"highlight-text\">أَذِلَّةً</a> ۖ وَكَذَٰلِكَ يَفْعَلُونَ",
+      "derivedForms": [
+        "أَذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 37,
+      "text": "ٱرْجِعْ إِلَيْهِمْ فَلَنَأْتِيَنَّهُم بِجُنُودٍ لَّا قِبَلَ لَهُم بِهَا وَلَنُخْرِجَنَّهُم مِّنْهَآ أَذِلَّةً وَهُمْ صَٰغِرُونَ",
+      "highlightedHtml": "ٱرْجِعْ إِلَيْهِمْ فَلَنَأْتِيَنَّهُم بِجُنُودٍ لَّا قِبَلَ لَهُم بِهَا وَلَنُخْرِجَنَّهُم مِّنْهَآ <a class=\"highlight-text\">أَذِلَّةً</a> وَهُمْ صَٰغِرُونَ",
+      "derivedForms": [
+        "أَذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 72,
+      "text": "وَذَلَّلْنَٰهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَذَلَّلْنَٰهَا</a> لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ",
+      "derivedForms": [
+        "ذَلَّلَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 45,
+      "text": "وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ ٱلذُّلِّ يَنظُرُونَ مِن طَرْفٍ خَفِىٍّ ۗ وَقَالَ ٱلَّذِينَ آمَنُوا إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّٰلِمِينَ فِى عَذَابٍ مُّقِيمٍ",
+      "highlightedHtml": "وَتَرَىٰهُمْ يُعْرَضُونَ عَلَيْهَا خَٰشِعِينَ مِنَ <a class=\"highlight-text\">ٱلذُّلِّ</a> يَنظُرُونَ مِن طَرْفٍ خَفِىٍّ ۗ وَقَالَ ٱلَّذِينَ آمَنُوا إِنَّ ٱلْخَٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ أَلَآ إِنَّ ٱلظَّٰلِمِينَ فِى عَذَابٍ مُّقِيمٍ",
+      "derivedForms": [
+        "ذُلٌّ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 20,
+      "text": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَٰٓئِكَ فِى ٱلْأَذَلِّينَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥٓ أُو۟لَٰٓئِكَ فِى <a class=\"highlight-text\">ٱلْأَذَلِّينَ</a>",
+      "derivedForms": [
+        "أَذَلُّ"
+      ]
+    },
+    {
+      "surah": 63,
+      "ayah": 8,
+      "text": "يَقُولُونَ لَئِن رَّجَعْنَآ إِلَى ٱلْمَدِينَةِ لَيُخْرِجَنَّ ٱلْأَعَزُّ مِنْهَا ٱلْأَذَلَّ ۚ وَلِلَّهِ ٱلْعِزَّةُ وَلِرَسُولِهِۦ وَلِلْمُؤْمِنِينَ وَلَٰكِنَّ ٱلْمُنَٰفِقِينَ لَا يَعْلَمُونَ",
+      "highlightedHtml": "يَقُولُونَ لَئِن رَّجَعْنَآ إِلَى ٱلْمَدِينَةِ لَيُخْرِجَنَّ ٱلْأَعَزُّ مِنْهَا <a class=\"highlight-text\">ٱلْأَذَلَّ</a> ۚ وَلِلَّهِ ٱلْعِزَّةُ وَلِرَسُولِهِۦ وَلِلْمُؤْمِنِينَ وَلَٰكِنَّ ٱلْمُنَٰفِقِينَ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "أَذَلُّ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 15,
+      "text": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ ذَلُولًا فَٱمْشُوا۟ فِى مَنَاكِبِهَا مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ <a class=\"highlight-text\">ذَلُولًا</a> فَٱمْشُوا۟ فِى مَنَاكِبِهَا مَنَاكِبِهَا وَكُلُوا۟ مِن رِّزْقِهِۦ ۖ وَإِلَيْهِ ٱلنُّشُورُ",
+      "derivedForms": [
+        "ذَلُولٌ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 43,
+      "text": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَٰلِمُونَ",
+      "highlightedHtml": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ <a class=\"highlight-text\">ذِلَّةٌ</a> ۖ وَقَدْ كَانُوا۟ يُدْعَوْنَ إِلَى ٱلسُّجُودِ وَهُمْ سَٰلِمُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 44,
+      "text": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+      "highlightedHtml": "خَٰشِعَةً أَبْصَٰرُهُمْ تَرْهَقُهُمْ <a class=\"highlight-text\">ذِلَّةٌ</a> ۚ ذَٰلِكَ ٱلْيَوْمُ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+      "derivedForms": [
+        "ذِلَّةٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 14,
+      "text": "وَدَانِيَةً عَلَيْهِمْ ظِلَٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
+      "highlightedHtml": "وَدَانِيَةً عَلَيْهِمْ ظِلَٰلُهَا <a class=\"highlight-text\">وَذُلِّلَتْ</a> قُطُوفُهَا <a class=\"highlight-text\">تَذْلِيلًا</a>",
+      "derivedForms": [
+        "ذُلِّل",
+        "تَذْلِيلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:47.986Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine noun",
+    "derivativeNote": "ٱلذِّلَّةُ is in the derivative form: ذِلَّةٌ",
+    "rootDefinitionHtml": "ذ/ل/ل   dh–l–l mercy, kindness<br>; to become humbled, to become humiliated; to be tamed, to become docile; to be within easy reach. <br><br>Of this root, 12 forms occur 24 times in the Qur’an:<br> نَذِلُّ nadhill 1 time; ذَلَّلَ dhallala 1 time; ذُلِّلَ dhullila 1 time; تُذِلُّ tudhill 1 time; تَذْلِيلٌ tadhlıl 1 time; ذُلٌّ dhull 3 times; ذِلَّةٌ dhillatun 7 times; أَذِلَّةٌ ʾadhillatun 4 times; أَذَلُّ ʾadhall 1 time; أَذَلُّون ʾadhallūn 1 time; ذَلُولٌ dhalūl 2 times and ذُلُلٌ dhulul 1 time.",
+    "mainDefinitionHtml": "ذِلَّةٌ dhillatun [n.] humiliation, disgrace, shame, abasement <br><br>(10:26) وَلاَ يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلاَ ذِلَّةٌ and neither darkness nor humiliation shall cover their faces.",
+    "mainEntryId": "wdef-ذ-ل-ل.ذِلَّةٌ",
+    "entries": [
+      {
+        "id": "wdef-ذ-ل-ل",
+        "label": "ذ-ل-ل",
+        "definitionHtml": "ذ/ل/ل   dh–l–l mercy, kindness<br>; to become humbled, to become humiliated; to be tamed, to become docile; to be within easy reach. <br><br>Of this root, 12 forms occur 24 times in the Qur’an:<br> نَذِلُّ nadhill 1 time; ذَلَّلَ dhallala 1 time; ذُلِّلَ dhullila 1 time; تُذِلُّ tudhill 1 time; تَذْلِيلٌ tadhlıl 1 time; ذُلٌّ dhull 3 times; ذِلَّةٌ dhillatun 7 times; أَذِلَّةٌ ʾadhillatun 4 times; أَذَلُّ ʾadhall 1 time; أَذَلُّون ʾadhallūn 1 time; ذَلُولٌ dhalūl 2 times and ذُلُلٌ dhulul 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.ذِلَّةٌ",
+        "label": "ذِلَّةٌ",
+        "definitionHtml": "ذِلَّةٌ dhillatun [n.] humiliation, disgrace, shame, abasement <br><br>(10:26) وَلاَ يَرْهَقُ وُجُوهَهُمْ قَتَرٌ وَلاَ ذِلَّةٌ and neither darkness nor humiliation shall cover their faces.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ذ-ل-ل.نَذِلُّ",
+        "label": "نَذِلُّ",
+        "definitionHtml": "نَذِلُّ nadhill [imperf. of ذَلَّ dhalla, intrans.] to be humiliated, to be abject, to become humbled <br><br>(20:134) رَبَّنَا لَوْلاَ أَرْسَلْتَ إِلَيْنَا رَسُولا فَنَتَّبِعَ ءَايَاتِكَ مِنْ قَبْلِ أَنْ نَذِلَّ وَنَخْزَى Lord, if only You had sent us a messenger we could have followed Your revelations before we suffered humiliation and disgrace!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.أَذَلُّ",
+        "label": "أَذَلُّ",
+        "definitionHtml": "أَذَلُّ ʾadhall [elat., pl. أَذَلُّون ʾadhallūn] weaker, more/most debased, humiliated, humble, comtemptible <br><br>(63:8) لَيُخْرِجَنَّ الأَعَزُّ مِنْهَا الأَذَلَّ the mighty will drive the contemptible out of it [the town].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.أَذِلَّةٌ",
+        "label": "أَذِلَّةٌ",
+        "definitionHtml": "أَذِلَّةٌ ʾadhillatun [pl. of quasi‐pass. part. ذَلِيلٌ dhalıl] <br><br><strong>1 </strong>weak <br><br>(3:123) وَلَقَدْ نَصَرَكُمُ اللَّهُ بِبَدْرٍ وَأَنْتُمْ أَذِلَّةٌ and God indeed helped you at Badr when you were weak <br><br><strong>2 </strong>humble <br><br>(5:54) فَسَوْفَ يَأْتِي اللَّهُ بِقَوْمٍ يُحِبُّهُمْ وَيُحِبُّونَهُ أَذِلَّةٍ عَلَى الْمُؤْمِنِينَ God will assuredly bring forth a people He loves and who love Him, humble towards the believers <br><br><strong>3 </strong>abased, humiliated <br><br>(27:37) فَلَنَأْتِيَنَّهُمْ بِجُنُودٍ لاَ قِبَلَ لَهُمْ بِهَا وَلَنُخْرِجَنَّهُمْ مِنْهَا أَذِلَّةً وَهُمْ صَاغِرُونَ we will certainly come upon them with forces they have no power to face and we will drive them out of it, abased and humbled <br><br><strong>4 </strong>subjugated, demoted <br><br>(27:34) قَالَتْ إِنَّ الْمُلُوكَ إِذَا دَخَلُوا قَرْيَةً أَفْسَدُوهَا وَجَعَلُوا أَعِزَّةَ أَهْلِهَا أَذِلَّةً she said, ‘Whenever kings/wealthy people go into a city, they corrupt it and make the notables of its inhabitants lowly.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.تَذْلِيلٌ",
+        "label": "تَذْلِيلٌ",
+        "definitionHtml": "تَذْلِيلٌ tadhlıl [v. n.] the act of facilitating, placing within easy reach <br><br>(76:14) وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلا and its fruit‐clusters are made to hang low within easy reach.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.تُذِلُّ",
+        "label": "تُذِلُّ",
+        "definitionHtml": "تُذِلُّ tudhill [imperf. of v. IV ʾadhalla, trans.] to humiliate, to humble, to abase <br><br>(3:26) وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ You elevate whomsoever You will and humble whomsoever You will.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.ذَلُولٌ",
+        "label": "ذَلُولٌ",
+        "definitionHtml": "ذَلُولٌ dhalūl [quasi‐act. part., pl. ذُلُلٌ dhulul] <br><br><strong>1 </strong>broken in, trained, docile, domesticated <br><br>(2:71) إِنَّهَا بَقَرَةٌ لاَ ذَلُولٌ تُثِيرُ الأَرْضَ وَلاَ تَسْقِي الْحَرْثَ it is a cow, not broken to plough the earth or water the tillage/fields <br><br><strong>2 </strong>accessible, stable, manageable <br><br>(67:15) هُوَ الَّذِي جَعَلَ لَكُمُ الأَرْضَ ذَلُولا فَامْشُوا فِى مَنَاكِبِهَا it is He who has made the earth accessible/manageable for you; so, travel its regions.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.ذَلَّلَ",
+        "label": "ذَلَّلَ",
+        "definitionHtml": "ذَلَّلَ dhallala [v. II, trans.] to tame, to cause to be docile, to cause to be manageable <br><br>(36:72) وَذَلَّلْنَاهَا لَهُمْ فَمِنْهَا رَكُوبُهُمْ وَمِنْهَا يَأْكُلُونَ and We have made [livestock] manageable for them, so that some [can be used] for riding and some they [can] eat.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.ذُلٌّ",
+        "label": "ذُلٌّ",
+        "definitionHtml": "ذُلٌّ dhull [n./v. n.] <br><br><strong>1 </strong>humility, humbleness <br><br>(17:24) وَاخْفِضْ لَهُمَا جَنَاحَ الذُّلِّ مِنَ الرَّحْمَةِ and humble yourself, be tender to them [lit. lower for them, the wing of humbleness], out of mercy <br><br><strong>2 </strong>abasement, humiliation <br><br>(42:45) وَتَرَاهُمْ يُعْرَضُونَ عَلَيْهَا خَاشِعِينَ مِنَ الذُّلِّ you will see them exposed to it, [made] humble by humiliation.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ل-ل.ذُلِّل",
+        "label": "ذُلِّل",
+        "definitionHtml": "ذُلِّل dhullila [pass. of v. II] to be positioned within easy reach, to be made accessible <br><br>(76:14) وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلا and its fruit‐clusters are made to hang low within easy reach.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:53.487Z",
+      "refword": "2:61:39",
+      "lexword": "ٱلذِّلَّةُ"
+    }
+  }
+}

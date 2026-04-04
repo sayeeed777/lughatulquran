@@ -1,0 +1,260 @@
+{
+  "root": "سري",
+  "rootArabic": "سري",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "أسْرى",
+      "count": 6
+    },
+    {
+      "form": "أَسِيرٌ",
+      "count": 1
+    },
+    {
+      "form": "سَرِيّاً",
+      "count": 1
+    },
+    {
+      "form": "يَسْري",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "أَسِيرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَرِيّاً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْري",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 81,
+      "text": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ <a class=\"highlight-text\">فَأَسْرِ</a> بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "derivedForms": [
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 65,
+      "text": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَسْرِ</a> بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "derivedForms": [
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 1,
+      "text": "سُبْحَٰنَ ٱلَّذِىٓ أَسْرَىٰ أَسْرَىٰ بِعَبْدِهِۦ لَيْلًا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ آيَاتِنَا ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "highlightedHtml": "سُبْحَٰنَ ٱلَّذِىٓ <a class=\"highlight-text\">أَسْرَىٰ</a> <a class=\"highlight-text\">أَسْرَىٰ</a> بِعَبْدِهِۦ لَيْلًا مِّنَ ٱلْمَسْجِدِ ٱلْحَرَامِ إِلَى ٱلْمَسْجِدِ ٱلْأَقْصَا ٱلَّذِى بَٰرَكْنَا حَوْلَهُۥ لِنُرِيَهُۥ مِنْ آيَاتِنَا ۚ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "derivedForms": [
+        "أسْرى",
+        "أَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 24,
+      "text": "فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا",
+      "highlightedHtml": "فَنَادَىٰهَا مِن تَحْتِهَآ أَلَّا تَحْزَنِى قَدْ جَعَلَ رَبُّكِ تَحْتَكِ <a class=\"highlight-text\">سَرِيًّا</a>",
+      "derivedForms": [
+        "سَرِيّاً"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 77,
+      "text": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "highlightedHtml": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ <a class=\"highlight-text\">أَسْرِ</a> بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "derivedForms": [
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 52,
+      "text": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِىٓ إِنَّكُم مُّتَّبَعُونَ",
+      "highlightedHtml": "وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ <a class=\"highlight-text\">أَسْرِ</a> بِعِبَادِىٓ إِنَّكُم مُّتَّبَعُونَ",
+      "derivedForms": [
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 23,
+      "text": "فَأَسْرِ بِعِبَادِى لَيْلًا إِنَّكُم مُّتَّبَعُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَسْرِ</a> بِعِبَادِى لَيْلًا إِنَّكُم مُّتَّبَعُونَ",
+      "derivedForms": [
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 4,
+      "text": "وَٱلَّيْلِ إِذَا يَسْرِ",
+      "highlightedHtml": "وَٱلَّيْلِ إِذَا <a class=\"highlight-text\">يَسْرِ</a>",
+      "derivedForms": [
+        "يَسْري"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:54.627Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form IV) imperative verb",
+    "derivativeNote": "فَأَسْرِ is in the derivative form: أسْرى",
+    "rootDefinitionHtml": "س/ر/ي s–r–y to seep, (of liquids) to spread unobtrusively<br>; to remove; to travel by night. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> يَسْري yasrı 1 time; أسْرى ʾasrā 6 times andسَرِيّاً sariyyan 1 time.",
+    "mainDefinitionHtml": "أسْرى ʾasrā [v. IV, intrans.] to travel by night; [with prep. ﺒ] to cause or enable to travel by night, to transport someone by night <br><br>(17:1) سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلا Glory be to Him who made His servant travel by night.",
+    "mainEntryId": "wdef-س-ر-ي.أسْرى",
+    "entries": [
+      {
+        "id": "wdef-س-ر-ي",
+        "label": "س-ر-ي",
+        "definitionHtml": "س/ر/ي s–r–y to seep, (of liquids) to spread unobtrusively<br>; to remove; to travel by night. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> يَسْري yasrı 1 time; أسْرى ʾasrā 6 times andسَرِيّاً sariyyan 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ي.أسْرى",
+        "label": "أسْرى",
+        "definitionHtml": "أسْرى ʾasrā [v. IV, intrans.] to travel by night; [with prep. ﺒ] to cause or enable to travel by night, to transport someone by night <br><br>(17:1) سُبْحَانَ الَّذِي أَسْرَى بِعَبْدِهِ لَيْلا Glory be to Him who made His servant travel by night.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ر-ي.الإسراء",
+        "label": "الإسراء",
+        "definitionHtml": "الإسراء name of Sura 17, Meccan sura, so‐named because of the mention in verse <br><br><strong>1 </strong>of the ‘night journey’ of the Prophet. Also called بَني إسرائيل (see إسرائيل ʾisrāʾıl).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ي.سَرِيّاً",
+        "label": "سَرِيّاً",
+        "definitionHtml": "سَرِيّاً sariyyan [n./act. part.] running stream of water, rivulet (or person of note and importance [from the root س/ر/و s–r–w], as suggested by some commentators) <br><br>(19:24) فَنَادَاهَا مِنْ تَحْتِهَا أَلاَّ تَحْزَنِي قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا but a voice cried to her from below, ‘Do not sorrow (or, do not fret), your Lord has provided a stream (or, a person of consequence, that is the infant Jesus) under you.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ي.يَسْري",
+        "label": "يَسْري",
+        "definitionHtml": "يَسْري yasrı [imperf. of v. intrans.] to seep, to spread, to travel by night <br><br>(89:4) وَاللَّيْلِ‏ ‏إِذَا‏ ‏يَسْر by the night when it passes through/runs its course.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:53.390Z",
+      "refword": "11:81:9",
+      "lexword": "فَأَسْرِ"
+    }
+  }
+}

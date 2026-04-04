@@ -1,0 +1,155 @@
+{
+  "root": "طلب",
+  "rootArabic": "طلب",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 4,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "طاَلِب",
+      "count": 1
+    },
+    {
+      "form": "طَلَب",
+      "count": 1
+    },
+    {
+      "form": "مَطْلُوب",
+      "count": 1
+    },
+    {
+      "form": "يَطْلُب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَطْلُب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَلَب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طاَلِب",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَطْلُوب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 54,
+      "text": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ <a class=\"highlight-text\">يَطْلُبُهُۥ</a> حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "يَطْلُب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 41,
+      "text": "أَوْ يُصْبِحَ مَآؤُهَا غَوْرًا فَلَن تَسْتَطِيعَ لَهُۥ طَلَبًا",
+      "highlightedHtml": "أَوْ يُصْبِحَ مَآؤُهَا غَوْرًا فَلَن تَسْتَطِيعَ لَهُۥ <a class=\"highlight-text\">طَلَبًا</a>",
+      "derivedForms": [
+        "طَلَب"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 73,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ <a class=\"highlight-text\">ٱلطَّالِبُ</a> <a class=\"highlight-text\">وَٱلْمَطْلُوبُ</a>",
+      "derivedForms": [
+        "طاَلِب",
+        "مَطْلُوب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:52.900Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَطْلُبُهُۥ is in the derivative form: يَطْلُب",
+    "rootDefinitionHtml": "ط/ل/ب   ṭ–l–b to seek, to search, to set out, to go after, to pursue, to request. <br><br>Of this root, 4 forms occur 1 time each in the Qur’an:<br> يَطْلُب yaṭlub; طَلَب ṭalab; طاَلِب ṭālib and مَطْلُوب maṭlūb.",
+    "mainDefinitionHtml": "يَطْلُب yaṭlub [imperf. v., trans.] to pursue, to go after <br><br>(7:54) يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا‏ He makes the night cover the day, pursuing it swiftly.",
+    "mainEntryId": "wdef-ط-ل-ب.يَطْلُب",
+    "entries": [
+      {
+        "id": "wdef-ط-ل-ب",
+        "label": "ط-ل-ب",
+        "definitionHtml": "ط/ل/ب   ṭ–l–b to seek, to search, to set out, to go after, to pursue, to request. <br><br>Of this root, 4 forms occur 1 time each in the Qur’an:<br> يَطْلُب yaṭlub; طَلَب ṭalab; طاَلِب ṭālib and مَطْلُوب maṭlūb.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ب.يَطْلُب",
+        "label": "يَطْلُب",
+        "definitionHtml": "يَطْلُب yaṭlub [imperf. v., trans.] to pursue, to go after <br><br>(7:54) يُغْشِي اللَّيْلَ النَّهَارَ يَطْلُبُهُ حَثِيثًا‏ He makes the night cover the day, pursuing it swiftly.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-ل-ب.طاَلِب",
+        "label": "طاَلِب",
+        "definitionHtml": "طاَلِب ṭālib [act. part.] one who pursues, one who seeks, one who petitions <br><br>(22:73) وَإِنْ يَسْلُبْهُمُ الذُّبَابُ شَيْئًا لاَ يَسْتَنْقِذُوهُ مِنْهُ ضَعُفَ الطَّالِبُ وَالْمَطْلُوبُ and if the flies rob them of something, they would not be able to retrieve it from them. Feeble are the petitioners and feeble are those they petition.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ب.طَلَب",
+        "label": "طَلَب",
+        "definitionHtml": "طَلَب ṭalab [v. n.] searching for, prospecting <br><br>(18:41) أَوْ يُصْبِحَ مَاؤُهَا غَوْرًا فَلَنْ تَسْتَطِيعَ لَهُ طَلَبًا or its water may sink so deep [into the ground] that you cannot search for it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ب.مَطْلُوب",
+        "label": "مَطْلُوب",
+        "definitionHtml": "مَطْلُوب maṭlūb [pass. part.] one who is pursued, one who is sought, one who is petitioned <br><br>(22:73)‏وَإِنْ‏ ‏يَسْلُبْهُمُ‏ ‏الذُّبَابُ‏ ‏شَيْئًا‏ ‏لاَ‏ ‏يَسْتَنْقِذُوهُ‏ ‏مِنْهُ‏ ‏ضَعُفَ‏ ‏الطَّالِبُ‏ ‏وَالْمَطْلُوبُ‏ and if the flies rob them of something, they would not be able to retrieve it from them. Feeble are the petitioners and feeble are those they petition.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:39.151Z",
+      "refword": "7:54:18",
+      "lexword": "يَطْلُبُهُۥ"
+    }
+  }
+}

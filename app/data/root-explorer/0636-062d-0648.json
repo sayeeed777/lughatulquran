@@ -1,0 +1,192 @@
+{
+  "root": "ضحو",
+  "rootArabic": "ضحو",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "ضُحَى",
+      "count": 6
+    },
+    {
+      "form": "تَضْحَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضُحَى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَضْحَى",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ضُحَى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ضُحَى",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضُحَى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضُحَى",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 98,
+      "text": "أَوَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا ضُحًى وَهُمْ يَلْعَبُونَ",
+      "highlightedHtml": "أَوَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا <a class=\"highlight-text\">ضُحًى</a> وَهُمْ يَلْعَبُونَ",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 59,
+      "text": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ ضُحًى",
+      "highlightedHtml": "قَالَ مَوْعِدُكُمْ يَوْمُ ٱلزِّينَةِ وَأَن يُحْشَرَ ٱلنَّاسُ <a class=\"highlight-text\">ضُحًى</a>",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 119,
+      "text": "وَأَنَّكَ لَا تَظْمَؤُا۟ فِيهَا وَلَا تَضْحَىٰ",
+      "highlightedHtml": "وَأَنَّكَ لَا تَظْمَؤُا۟ فِيهَا وَلَا <a class=\"highlight-text\">تَضْحَىٰ</a>",
+      "derivedForms": [
+        "تَضْحَى"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 29,
+      "text": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ ضُحَىٰهَا",
+      "highlightedHtml": "وَأَغْطَشَ لَيْلَهَا وَأَخْرَجَ <a class=\"highlight-text\">ضُحَىٰهَا</a>",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 46,
+      "text": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+      "highlightedHtml": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ <a class=\"highlight-text\">ضُحَىٰهَا</a>",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 1,
+      "text": "وَٱلشَّمْسِ وَضُحَىٰهَا",
+      "highlightedHtml": "وَٱلشَّمْسِ <a class=\"highlight-text\">وَضُحَىٰهَا</a>",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 1,
+      "text": "وَٱلضُّحَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلضُّحَىٰ</a>",
+      "derivedForms": [
+        "ضُحَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:25.144Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": null,
+    "derivativeNote": "ضُحًى is in the derivative form: ضُحَى",
+    "rootDefinitionHtml": "ض/ح/و   ḍ–ḥ–w the breaking of day, daylight, the brief time of mid‐morning, to enter at the time of mid‐morning, to expose oneself to the sun; to appear, to appear conspicuously; suburb and surroundings; sacrificial animal, to sacrifice. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> تَضْحَى taḍḥā 1 time and ضُحَى ḍuḥā 6 times.",
+    "mainDefinitionHtml": "ضُحَى ḍuḥā [n.] <br><br><strong>1 </strong>mid‐morning, forenoon <br><br>(20:59)‏وَأَنْ‏ ‏يُحْشَرَ‏ ‏النَّاسُ‏ ‏ضُحًى‏ and that people be assembled at forenoon; *<br><br>(79:46)‏لَمْ‏ ‏يَلْبَثُوا‏ ‏إِلاَّ‏ ‏عَشِيَّةً‏ ‏أَوْ‏ ‏ضُحَاهَا they have not tarried but a very short time [lit. an evening or the mid‐morning following it]; * الضُحَىname of Sura 91, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to ‘Mid‐Morning Brightness’ <br><br><strong>2 </strong>sunlight <br><br>(91:1) وَالشَّمْسِ‏ ‏وَضُحَاهَا‏ ‏ by the sun and its light <br><br><strong>3 </strong>daylight ‏<br><br>(79:29) ‏وَأَغْطَشَ‏ ‏لَيْلَهَا‏ ‏وَأَخْرَجَ‏ ‏ضُحَاهَا and He gave darkness to its [the sky’s] night, and brought out its daylight.",
+    "mainEntryId": "wdef-ض-ح-و.ضُحَى",
+    "entries": [
+      {
+        "id": "wdef-ض-ح-و",
+        "label": "ض-ح-و",
+        "definitionHtml": "ض/ح/و   ḍ–ḥ–w the breaking of day, daylight, the brief time of mid‐morning, to enter at the time of mid‐morning, to expose oneself to the sun; to appear, to appear conspicuously; suburb and surroundings; sacrificial animal, to sacrifice. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> تَضْحَى taḍḥā 1 time and ضُحَى ḍuḥā 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ح-و.ضُحَى",
+        "label": "ضُحَى",
+        "definitionHtml": "ضُحَى ḍuḥā [n.] <br><br><strong>1 </strong>mid‐morning, forenoon <br><br>(20:59)‏وَأَنْ‏ ‏يُحْشَرَ‏ ‏النَّاسُ‏ ‏ضُحًى‏ and that people be assembled at forenoon; *<br><br>(79:46)‏لَمْ‏ ‏يَلْبَثُوا‏ ‏إِلاَّ‏ ‏عَشِيَّةً‏ ‏أَوْ‏ ‏ضُحَاهَا they have not tarried but a very short time [lit. an evening or the mid‐morning following it]; * الضُحَىname of Sura 91, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to ‘Mid‐Morning Brightness’ <br><br><strong>2 </strong>sunlight <br><br>(91:1) وَالشَّمْسِ‏ ‏وَضُحَاهَا‏ ‏ by the sun and its light <br><br><strong>3 </strong>daylight ‏<br><br>(79:29) ‏وَأَغْطَشَ‏ ‏لَيْلَهَا‏ ‏وَأَخْرَجَ‏ ‏ضُحَاهَا and He gave darkness to its [the sky’s] night, and brought out its daylight.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ض-ح-و.تَضْحَى",
+        "label": "تَضْحَى",
+        "definitionHtml": "تَضْحَى taḍḥā [imperf. v., intrans.] to be exposed to the heat of the sun <br><br>(20:119)‏ وَأَنَّكَ‏ ‏لاَ‏ ‏تَظْمَأُ‏ ‏فِيهَا‏ولا تَضْحَى‏‏ and you will never [in the Garden] suffer thirst nor the heat of the sun.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:45.552Z",
+      "refword": "7:98:7",
+      "lexword": "ضُحًى"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "root": "غلي",
+  "rootArabic": "غلي",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "غَلى",
+      "count": 1
+    },
+    {
+      "form": "يَغْلى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غَلى",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَغْلى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 44,
+      "ayah": 45,
+      "text": "كَٱلْمُهْلِ يَغْلِى فِى ٱلْبُطُونِ",
+      "highlightedHtml": "كَٱلْمُهْلِ <a class=\"highlight-text\">يَغْلِى</a> فِى ٱلْبُطُونِ",
+      "derivedForms": [
+        "يَغْلى"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 46,
+      "text": "كَغَلْىِ ٱلْحَمِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">كَغَلْىِ</a> ٱلْحَمِيمِ",
+      "derivedForms": [
+        "غَلى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:11.498Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَغْلِى is in the derivative form: يَغْلى",
+    "rootDefinitionHtml": "غ/ل/ي gh–l–y to boil; type of perfume. <br><br>Of this root, 2 forms occur in a single place each in the Qur’an:<br> يَغْلىِ yaghlı and غَلى ghaly.",
+    "mainDefinitionHtml": "يَغْلى yaghlı [imperf. of غَلا ghalā] to boil <br><br>(44:45) كالمهل يَغْلِي‏ ‏فِي‏ ‏الْبُطُونِ ‏like molten tar boiling in the bellies.",
+    "mainEntryId": "wdef-غ-ل-ي.يَغْلى",
+    "entries": [
+      {
+        "id": "wdef-غ-ل-ي",
+        "label": "غ-ل-ي",
+        "definitionHtml": "غ/ل/ي gh–l–y to boil; type of perfume. <br><br>Of this root, 2 forms occur in a single place each in the Qur’an:<br> يَغْلىِ yaghlı and غَلى ghaly.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ل-ي.يَغْلى",
+        "label": "يَغْلى",
+        "definitionHtml": "يَغْلى yaghlı [imperf. of غَلا ghalā] to boil <br><br>(44:45) كالمهل يَغْلِي‏ ‏فِي‏ ‏الْبُطُونِ ‏like molten tar boiling in the bellies.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ل-ي.غَلى",
+        "label": "غَلى",
+        "definitionHtml": "غَلى ghaly [v. n.] act of boiling <br><br>(44:46) كَغَلْىِ ‏الْحَمِيمِ like the boiling of hot water.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:06.294Z",
+      "refword": "44:45:2",
+      "lexword": "يَغْلِى"
+    }
+  }
+}

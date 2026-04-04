@@ -1,0 +1,133 @@
+{
+  "root": "قدد",
+  "rootArabic": "قدد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "قَدَّ",
+      "count": 4
+    },
+    {
+      "form": "قِدَد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "قَدَّ",
+          "count": 4,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قِدَد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱسْتَبَقَا ٱلْبَابَ <a class=\"highlight-text\">وَقَدَّتْ</a> قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "قَدَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 26,
+      "text": "قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ قُدَّ مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَٰذِبِينَ",
+      "highlightedHtml": "قَالَ هِىَ رَٰوَدَتْنِى عَن نَّفْسِى ۚ وَشَهِدَ شَاهِدٌ مِّنْ أَهْلِهَآ إِن كَانَ قَمِيصُهُۥ <a class=\"highlight-text\">قُدَّ</a> مِن قُبُلٍ فَصَدَقَتْ وَهُوَ مِنَ ٱلْكَٰذِبِينَ",
+      "derivedForms": [
+        "قَدَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 27,
+      "text": "وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "وَإِن كَانَ قَمِيصُهُۥ <a class=\"highlight-text\">قُدَّ</a> مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "قَدَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 28,
+      "text": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "highlightedHtml": "فَلَمَّا رَءَا قَمِيصَهُۥ <a class=\"highlight-text\">قُدَّ</a> مِن دُبُرٍ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "derivedForms": [
+        "قَدَّ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 11,
+      "text": "وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًا",
+      "highlightedHtml": "وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ <a class=\"highlight-text\">قِدَدًا</a>",
+      "derivedForms": [
+        "قِدَد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:36.197Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "وَقَدَّتْ is in the derivative form: قَدَّ",
+    "rootDefinitionHtml": "ق/د/د q–d–d to cut lengthwise, to split up, to carve out<br>; faction; dried meat; leather strap; height, stature, figure. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> قَدَّ qadda 1 time; قُدَّ qudda 3 times and قِدَد qidad 1 time.",
+    "mainDefinitionHtml": "قَدَّ qadda u [v. trans.; pass. v. قُدَّ qudda ] to rip, to rend, to split apart or asunder <br><br>(12:25) وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ so they raced for the door–and she ripped his shirt from behind.",
+    "mainEntryId": "wdef-ق-د-د.قَدَّ",
+    "entries": [
+      {
+        "id": "wdef-ق-د-د",
+        "label": "ق-د-د",
+        "definitionHtml": "ق/د/د q–d–d to cut lengthwise, to split up, to carve out<br>; faction; dried meat; leather strap; height, stature, figure. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> قَدَّ qadda 1 time; قُدَّ qudda 3 times and قِدَد qidad 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-د.قَدَّ",
+        "label": "قَدَّ",
+        "definitionHtml": "قَدَّ qadda u [v. trans.; pass. v. قُدَّ qudda ] to rip, to rend, to split apart or asunder <br><br>(12:25) وَاسْتَبَقَا الْبَابَ وَقَدَّتْ قَمِيصَهُ مِنْ دُبُرٍ so they raced for the door–and she ripped his shirt from behind.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-د-د.قِدَد",
+        "label": "قِدَد",
+        "definitionHtml": "قِدَد qidad [pl. of n. قُدَّةٌ quddatun, used adjectivally] cut (in pieces), separate, fragmented, divergent <br><br>(72:11) وَأَنَّا مِنَّا الصَّالِحُونَ وَمِنَّا دُونَ ذَلِكَ كُنَّا طَرَائِقَ قِدَدًا and among us there are the righteous and there are those less so–we are divergent factions.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:50.119Z",
+      "refword": "12:25:3",
+      "lexword": "وَقَدَّتْ"
+    }
+  }
+}

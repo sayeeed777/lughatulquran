@@ -1,0 +1,74 @@
+{
+  "root": "زمل",
+  "rootArabic": "زمل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "المُزَّمِّل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المُزَّمِّل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 73,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلْمُزَّمِّلُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا <a class=\"highlight-text\">ٱلْمُزَّمِّلُ</a>",
+      "derivedForms": [
+        "المُزَّمِّل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:12.671Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine (form V) active participle",
+    "derivativeNote": "ٱلْمُزَّمِّلُ is in the derivative form: المُزَّمِّل",
+    "rootDefinitionHtml": "ز/م/ل   z–m–l to run fast while veering to 1 side, to limp; to ride behind another person, a companion; to hide, to wrap oneself. Of this root, المُزَّمِّل ʾal‐muzzammil occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "المُزَّمِّل ʾal‐muzzammil [an assimilated form of act. part. مُتَزَمِّل mutazammil] the wrapped‐up one <br><br>(73:1) يَاأَيُّهَا الْمُزَّمِّل ُyou [Prophet], enfolded in your cloak!; * الْمُزَّمِّلُname of Sura 73, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the One Enfolded in his Cloak’, denoting the Prophet.",
+    "mainEntryId": "wdef-ز-م-ل.المُزَّمِّل",
+    "entries": [
+      {
+        "id": "wdef-ز-م-ل",
+        "label": "ز-م-ل",
+        "definitionHtml": "ز/م/ل   z–m–l to run fast while veering to 1 side, to limp; to ride behind another person, a companion; to hide, to wrap oneself. Of this root, المُزَّمِّل ʾal‐muzzammil occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-م-ل.المُزَّمِّل",
+        "label": "المُزَّمِّل",
+        "definitionHtml": "المُزَّمِّل ʾal‐muzzammil [an assimilated form of act. part. مُتَزَمِّل mutazammil] the wrapped‐up one <br><br>(73:1) يَاأَيُّهَا الْمُزَّمِّل ُyou [Prophet], enfolded in your cloak!; * الْمُزَّمِّلُname of Sura 73, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the One Enfolded in his Cloak’, denoting the Prophet.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:32.387Z",
+      "refword": "73:1:2",
+      "lexword": "ٱلْمُزَّمِّلُ"
+    }
+  }
+}

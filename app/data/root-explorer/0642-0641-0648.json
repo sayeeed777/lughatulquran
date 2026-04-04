@@ -1,0 +1,149 @@
+{
+  "root": "قفو",
+  "rootArabic": "قفو",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "قَفَّى",
+      "count": 4
+    },
+    {
+      "form": "تَقْفوُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَفَّى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَفَّى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقْفوُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَفَّى",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 87,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ <a class=\"highlight-text\">وَقَفَّيْنَا</a> مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "derivedForms": [
+        "قَفَّى"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 46,
+      "text": "وَقَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِعِيسَى ٱبْنِ مَرْيَمَ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ ۖ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ فِيهِ هُدًى وَنُورٌ وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ وَهُدًى وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَقَفَّيْنَا</a> عَلَىٰٓ آثَارِهِمْ بِعِيسَى ٱبْنِ مَرْيَمَ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ ۖ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ فِيهِ هُدًى وَنُورٌ وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ وَهُدًى وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "derivedForms": [
+        "قَفَّى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 36,
+      "text": "وَلَا تَقْفُ مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًا",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَقْفُ</a> مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ ۚ إِنَّ ٱلسَّمْعَ وَٱلْبَصَرَ وَٱلْفُؤَادَ كُلُّ أُو۟لَٰٓئِكَ كَانَ عَنْهُ مَسْـُٔولًا",
+      "derivedForms": [
+        "تَقْفوُ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">قَفَّيْنَا</a> عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا <a class=\"highlight-text\">وَقَفَّيْنَا</a> بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "قَفَّى",
+        "قَفَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:07.787Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "وَقَفَّيْنَا is in the derivative form: قَفَّى",
+    "rootDefinitionHtml": "ق/ف/و q–f–w back of the neck, nape, back of the head, the reverse; to follow, to track, to send after; to rhyme, poem; to slander, slander; advantage, hospitality. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَقْفُ taqfū 1 time and قَفَّينا qaffaynā 4 times.",
+    "mainDefinitionHtml": "قَفَّى qaffā [v. II, intrans.] to cause to follow, to cause to come after <br><br>(5:46) وَقَفَّيْنَا عَلَى ءَاثَارِهِمْ بِعِيسَى ابْنِ مَرْيَمَ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ مِنَ التَّوْرَاةِ We caused Jesus, son of Mary, to follow in their footsteps, confirming the Torah [that had come] before him.",
+    "mainEntryId": "wdef-ق-ف-و.قَفَّى",
+    "entries": [
+      {
+        "id": "wdef-ق-ف-و",
+        "label": "ق-ف-و",
+        "definitionHtml": "ق/ف/و q–f–w back of the neck, nape, back of the head, the reverse; to follow, to track, to send after; to rhyme, poem; to slander, slander; advantage, hospitality. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> تَقْفُ taqfū 1 time and قَفَّينا qaffaynā 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ف-و.قَفَّى",
+        "label": "قَفَّى",
+        "definitionHtml": "قَفَّى qaffā [v. II, intrans.] to cause to follow, to cause to come after <br><br>(5:46) وَقَفَّيْنَا عَلَى ءَاثَارِهِمْ بِعِيسَى ابْنِ مَرْيَمَ مُصَدِّقًا لِمَا بَيْنَ يَدَيْهِ مِنَ التَّوْرَاةِ We caused Jesus, son of Mary, to follow in their footsteps, confirming the Torah [that had come] before him.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ف-و.تَقْفوُ",
+        "label": "تَقْفوُ",
+        "definitionHtml": "تَقْفوُ taqfū [imperf. of v. قفا qafā, trans.] to pursue, to follow, to track, to seek <br><br>(17:36) وَلاَ تَقْفُ مَا لَيْسَ لَكَ بِهِ عِلْمٌ and do not pry into that which you are not supposed to know [lit. and do not seek that of which you have no knowledge].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:48.467Z",
+      "refword": "2:87:5",
+      "lexword": "وَقَفَّيْنَا"
+    }
+  }
+}

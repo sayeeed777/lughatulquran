@@ -1,0 +1,74 @@
+{
+  "root": "كدي",
+  "rootArabic": "كدي",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أكْدَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكْدَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 53,
+      "ayah": 34,
+      "text": "وَأَعْطَىٰ قَلِيلًا وَأَكْدَىٰٓ",
+      "highlightedHtml": "وَأَعْطَىٰ قَلِيلًا <a class=\"highlight-text\">وَأَكْدَىٰٓ</a>",
+      "derivedForms": [
+        "أكْدَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:40.486Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "وَأَكْدَىٰٓ is in the derivative form: أكْدَى",
+    "rootDefinitionHtml": "ك/د/ي   k–d–y big boulder; obstacle; to deny assistance, to be mean, (of water or plants) to cease to give, to be sluggish. Of this root, أكْدىَ ʾakdā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أكْدَى ʾakdā [v. IV, intrans.] to hold back, to cease to act, to dry up <br><br>(53:34) وَأَعْطَى قَلِيلا وَأَكْدَى and he only gave a little and then he ceased.",
+    "mainEntryId": "wdef-ك-د-ي.أكْدَى",
+    "entries": [
+      {
+        "id": "wdef-ك-د-ي",
+        "label": "ك-د-ي",
+        "definitionHtml": "ك/د/ي   k–d–y big boulder; obstacle; to deny assistance, to be mean, (of water or plants) to cease to give, to be sluggish. Of this root, أكْدىَ ʾakdā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-د-ي.أكْدَى",
+        "label": "أكْدَى",
+        "definitionHtml": "أكْدَى ʾakdā [v. IV, intrans.] to hold back, to cease to act, to dry up <br><br>(53:34) وَأَعْطَى قَلِيلا وَأَكْدَى and he only gave a little and then he ceased.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:47.236Z",
+      "refword": "53:34:3",
+      "lexword": "وَأَكْدَىٰٓ"
+    }
+  }
+}

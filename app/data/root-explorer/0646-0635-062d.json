@@ -1,0 +1,269 @@
+{
+  "root": "نصح",
+  "rootArabic": "نصح",
+  "stats": {
+    "totalOccurrences": 13,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "نَاصِحٌ",
+      "count": 6
+    },
+    {
+      "form": "نَصَحَ",
+      "count": 5
+    },
+    {
+      "form": "نُصْحٌ",
+      "count": 1
+    },
+    {
+      "form": "نَصُوحٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "نَاصِحٌ",
+          "count": 3,
+          "totalInQuran": 6
+        },
+        {
+          "form": "نَصَحَ",
+          "count": 3,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَصَحَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَصَحَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "نُصْحٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَاصِحٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَاصِحٌ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَصُوحٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 21,
+      "text": "وَقَاسَمَهُمَآ إِنِّى لَكُمَا لَمِنَ ٱلنَّٰصِحِينَ",
+      "highlightedHtml": "وَقَاسَمَهُمَآ إِنِّى لَكُمَا لَمِنَ <a class=\"highlight-text\">ٱلنَّٰصِحِينَ</a>",
+      "derivedForms": [
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 62,
+      "text": "أُبَلِّغُكُمْ رِسَٰلَٰتِ رَبِّى وَأَنصَحُ لَكُمْ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "أُبَلِّغُكُمْ رِسَٰلَٰتِ رَبِّى <a class=\"highlight-text\">وَأَنصَحُ</a> لَكُمْ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "نَصَحَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 68,
+      "text": "أُبَلِّغُكُمْ رِسَٰلَٰتِ رَبِّى وَأَنَا۠ لَكُمْ نَاصِحٌ أَمِينٌ",
+      "highlightedHtml": "أُبَلِّغُكُمْ رِسَٰلَٰتِ رَبِّى وَأَنَا۠ لَكُمْ <a class=\"highlight-text\">نَاصِحٌ</a> أَمِينٌ",
+      "derivedForms": [
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 79,
+      "text": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَالَةَ رَبِّى وَنَصَحْتُ لَكُمْ وَلَٰكِن لَّا تُحِبُّونَ ٱلنَّٰصِحِينَ",
+      "highlightedHtml": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَالَةَ رَبِّى <a class=\"highlight-text\">وَنَصَحْتُ</a> لَكُمْ وَلَٰكِن لَّا تُحِبُّونَ <a class=\"highlight-text\">ٱلنَّٰصِحِينَ</a>",
+      "derivedForms": [
+        "نَصَحَ",
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 93,
+      "text": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَٰلَٰتِ رَبِّى وَنَصَحْتُ لَكُمْ ۖ فَكَيْفَ آسَى عَلَىٰ قَوْمٍ كَٰفِرِينَ",
+      "highlightedHtml": "فَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰقَوْمِ لَقَدْ أَبْلَغْتُكُمْ رِسَٰلَٰتِ رَبِّى <a class=\"highlight-text\">وَنَصَحْتُ</a> لَكُمْ ۖ فَكَيْفَ آسَى عَلَىٰ قَوْمٍ كَٰفِرِينَ",
+      "derivedForms": [
+        "نَصَحَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 91,
+      "text": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا نَصَحُوا۟ لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لَّيْسَ عَلَى ٱلضُّعَفَآءِ وَلَا عَلَى ٱلْمَرْضَىٰ وَلَا عَلَى ٱلَّذِينَ لَا يَجِدُونَ مَا يُنفِقُونَ حَرَجٌ إِذَا <a class=\"highlight-text\">نَصَحُوا۟</a> لِلَّهِ وَرَسُولِهِۦ ۚ مَا عَلَى ٱلْمُحْسِنِينَ مِن سَبِيلٍ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "نَصَحَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 34,
+      "text": "وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "وَلَا يَنفَعُكُمْ <a class=\"highlight-text\">نُصْحِىٓ</a> إِنْ أَرَدتُّ أَنْ <a class=\"highlight-text\">أَنصَحَ</a> لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "نُصْحٌ",
+        "نَصَحَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 11,
+      "text": "قَالُوا۟ يَٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ لَنَٰصِحُونَ",
+      "highlightedHtml": "قَالُوا۟ يَٰٓأَبَانَا مَا لَكَ لَا تَأْمَ۫نَّا عَلَىٰ يُوسُفَ وَإِنَّا لَهُۥ <a class=\"highlight-text\">لَنَٰصِحُونَ</a>",
+      "derivedForms": [
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 12,
+      "text": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَٰصِحُونَ",
+      "highlightedHtml": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ <a class=\"highlight-text\">نَٰصِحُونَ</a>",
+      "derivedForms": [
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 20,
+      "text": "وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يَٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ ٱلنَّٰصِحِينَ",
+      "highlightedHtml": "وَجَآءَ رَجُلٌ مِّنْ أَقْصَا ٱلْمَدِينَةِ يَسْعَىٰ قَالَ يَٰمُوسَىٰٓ إِنَّ ٱلْمَلَأَ يَأْتَمِرُونَ بِكَ لِيَقْتُلُوكَ فَٱخْرُجْ إِنِّى لَكَ مِنَ <a class=\"highlight-text\">ٱلنَّٰصِحِينَ</a>",
+      "derivedForms": [
+        "نَاصِحٌ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 8,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةً نَّصُوحًا عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ آمَنُوا مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا تُوبُوٓا۟ إِلَى ٱللَّهِ تَوْبَةً <a class=\"highlight-text\">نَّصُوحًا</a> عَسَىٰ رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّـَٔاتِكُمْ وَيُدْخِلَكُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يَوْمَ لَا يُخْزِى ٱللَّهُ ٱلنَّبِىَّ وَٱلَّذِينَ آمَنُوا مَعَهُۥ ۖ نُورُهُمْ يَسْعَىٰ بَيْنَ أَيْدِيهِمْ وَبِأَيْمَٰنِهِمْ يَقُولُونَ رَبَّنَآ أَتْمِمْ لَنَا نُورَنَا وَٱغْفِرْ لَنَآ ۖ إِنَّكَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "نَصُوحٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:30.098Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلنَّٰصِحِينَ is in the derivative form: نَاصِحٌ",
+    "rootDefinitionHtml": "ن/ص/ح   n–ṣ–ḥ a needle, to patch up, to stitch up<br>; rain falling on arid land, to quench the thirst of animals or land; purity, sincerity, sincere advisor; advice, counsel, to be good‐hearted, to act in good faith. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> نَصَحَ naṣaḥa 5 times; نُصْحٌ nuṣḥ 1 time; نَاصِحٌ nāṣiḥ 1 time; نَاصِحُون nāṣiḥūn 5 times and نَصُوحٌ naṣūḥ 1 time.",
+    "mainDefinitionHtml": "نَاصِحٌ nāṣiḥ [act. part., pl. نَاصِحُون nāṣiḥūn] <br><br><strong>1 </strong>one who gives advice or counsel <br><br>(7:68) وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ and I am an honest adviser to you <br><br><strong>2 </strong>one taking good care, one who takes the role of mentor <br><br>(28:12) هَلْ أَدُلُّكُمْ عَلَى أَهْلِ بَيْتٍ يَكْفُلُونَهُ لَكُمْ وَهُمْ لَهُ نَاصِحُونَ shall I guide you to the people of a household who could rear him for you and be to him [good] mentors?",
+    "mainEntryId": "wdef-ن-ص-ح.نَاصِحٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ص-ح",
+        "label": "ن-ص-ح",
+        "definitionHtml": "ن/ص/ح   n–ṣ–ḥ a needle, to patch up, to stitch up<br>; rain falling on arid land, to quench the thirst of animals or land; purity, sincerity, sincere advisor; advice, counsel, to be good‐hearted, to act in good faith. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> نَصَحَ naṣaḥa 5 times; نُصْحٌ nuṣḥ 1 time; نَاصِحٌ nāṣiḥ 1 time; نَاصِحُون nāṣiḥūn 5 times and نَصُوحٌ naṣūḥ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ص-ح.نَاصِحٌ",
+        "label": "نَاصِحٌ",
+        "definitionHtml": "نَاصِحٌ nāṣiḥ [act. part., pl. نَاصِحُون nāṣiḥūn] <br><br><strong>1 </strong>one who gives advice or counsel <br><br>(7:68) وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ and I am an honest adviser to you <br><br><strong>2 </strong>one taking good care, one who takes the role of mentor <br><br>(28:12) هَلْ أَدُلُّكُمْ عَلَى أَهْلِ بَيْتٍ يَكْفُلُونَهُ لَكُمْ وَهُمْ لَهُ نَاصِحُونَ shall I guide you to the people of a household who could rear him for you and be to him [good] mentors?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ص-ح.نَصَحَ",
+        "label": "نَصَحَ",
+        "definitionHtml": "نَصَحَ naṣaḥa a I [v. trans. with prep. ﻠ for emphasis] <br><br><strong>1 </strong>to give good advice, to counsel <br><br>(7:93) لَقَدْ أَبْلَغْتُكُمْ رِسَالاَتِ رَبِّي وَنَصَحْتُ لَكُمَْ I have delivered to you the messages of my Lord and have done my best in advising you II [v. intrans.with prep. ﻠ] to act sincerely and faithfully, to be true <br><br>(9:91) لَيْسَ عَلَى الضُّعَفَاءِ وَلاَ عَلَى الْمَرْضَى وَلاَ عَلَى الَّذِينَ لاَ يَجِدُونَ مَا يُنْفِقُونَ حَرَجٌ إِذَا نَصَحُوا لِلَّهِ وَرَسُولِهِ but there is no blame attached to the weak, the sick and those who have no means to spend, provided they are true to God and His Messenger.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ص-ح.نَصُوحٌ",
+        "label": "نَصُوحٌ",
+        "definitionHtml": "نَصُوحٌ naṣūḥ [quasi‐act. part.] sincere, true <br><br>(66:8) تُوبُوا إِلَى اللَّهِ تَوْبَةً نَصُوحًا turn to God in sincere repentance.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ص-ح.نُصْحٌ",
+        "label": "نُصْحٌ",
+        "definitionHtml": "نُصْحٌ nuṣḥ [v. n./n.] advice, admonishment <br><br>(11:34) وَلاَ يَنْفَعُكُمْ نُصْحِي إِنْ أَرَدْتُ أَنْ أَنْصَحَ لَكُمْ my advice will be of no use to you, much as I desire to give you good counsel.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:15.811Z",
+      "refword": "7:21:5",
+      "lexword": "ٱلنَّٰصِحِينَ"
+    }
+  }
+}

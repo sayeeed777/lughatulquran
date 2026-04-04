@@ -1,0 +1,74 @@
+{
+  "root": "ثرب",
+  "rootArabic": "ثرب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَثْرِيبٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَثْرِيبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 92,
+      "text": "قَالَ لَا تَثْرِيبَ عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "highlightedHtml": "قَالَ لَا <a class=\"highlight-text\">تَثْرِيبَ</a> عَلَيْكُمُ ٱلْيَوْمَ ۖ يَغْفِرُ ٱللَّهُ لَكُمْ ۖ وَهُوَ أَرْحَمُ ٱلرَّٰحِمِينَ",
+      "derivedForms": [
+        "تَثْرِيبٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:36.887Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine (form II) verbal noun",
+    "derivativeNote": "تَثْرِيبَ is in the derivative form: تَثْرِيبٌ",
+    "rootDefinitionHtml": "ث/ر/ب   th–r–b thin layer of fat over the stomach; fingers; to point out faults, to blame, to abuse, to reproach, to upbraid. Of this root, تَثْرِيبٌ tathrıb occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَثْرِيبٌ tathrıb [v. n.] blame, reproof, reproach <br><br>(12:92) قَالَ لاَ تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ [but] he said, ‘You will hear no reproaches today.’",
+    "mainEntryId": "wdef-ث-ر-ب.تَثْرِيبٌ",
+    "entries": [
+      {
+        "id": "wdef-ث-ر-ب",
+        "label": "ث-ر-ب",
+        "definitionHtml": "ث/ر/ب   th–r–b thin layer of fat over the stomach; fingers; to point out faults, to blame, to abuse, to reproach, to upbraid. Of this root, تَثْرِيبٌ tathrıb occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ث-ر-ب.تَثْرِيبٌ",
+        "label": "تَثْرِيبٌ",
+        "definitionHtml": "تَثْرِيبٌ tathrıb [v. n.] blame, reproof, reproach <br><br>(12:92) قَالَ لاَ تَثْرِيبَ عَلَيْكُمُ الْيَوْمَ [but] he said, ‘You will hear no reproaches today.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:58.666Z",
+      "refword": "12:92:3",
+      "lexword": "تَثْرِيبَ"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "root": "سبب",
+  "rootArabic": "سبب",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 2,
+    "surahCount": 6,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "سَبَب",
+      "count": 9
+    },
+    {
+      "form": "سَبَّ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَب",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "سَبَب",
+          "count": 4,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَب",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَب",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَب",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 166,
+      "text": "إِذْ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُوا۟ مِنَ ٱلَّذِينَ ٱتَّبَعُوا۟ وَرَأَوُا۟ ٱلْعَذَابَ وَتَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ",
+      "highlightedHtml": "إِذْ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُوا۟ مِنَ ٱلَّذِينَ ٱتَّبَعُوا۟ وَرَأَوُا۟ ٱلْعَذَابَ وَتَقَطَّعَتْ بِهِمُ <a class=\"highlight-text\">ٱلْأَسْبَابُ</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 108,
+      "text": "وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَسُبُّوا۟</a> ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ <a class=\"highlight-text\">فَيَسُبُّوا۟</a> ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "سَبَّ",
+        "سَبَّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 84,
+      "text": "إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍ سَبَبًا",
+      "highlightedHtml": "إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍ <a class=\"highlight-text\">سَبَبًا</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 85,
+      "text": "فَأَتْبَعَ سَبَبًا",
+      "highlightedHtml": "فَأَتْبَعَ <a class=\"highlight-text\">سَبَبًا</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 89,
+      "text": "ثُمَّ أَتْبَعَ سَبَبًا",
+      "highlightedHtml": "ثُمَّ أَتْبَعَ <a class=\"highlight-text\">سَبَبًا</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 92,
+      "text": "ثُمَّ أَتْبَعَ سَبَبًا",
+      "highlightedHtml": "ثُمَّ أَتْبَعَ <a class=\"highlight-text\">سَبَبًا</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 15,
+      "text": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
+      "highlightedHtml": "مَن كَانَ يَظُنُّ أَن لَّن يَنصُرَهُ ٱللَّهُ فِى ٱلدُّنْيَا وَالْآخِرَةِ فَلْيَمْدُدْ <a class=\"highlight-text\">بِسَبَبٍ</a> إِلَى ٱلسَّمَآءِ ثُمَّ لْيَقْطَعْ فَلْيَنظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُۥ مَا يَغِيظُ",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 10,
+      "text": "أَمْ لَهُم مُّلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۖ فَلْيَرْتَقُوا۟ فِى ٱلْأَسْبَٰبِ",
+      "highlightedHtml": "أَمْ لَهُم مُّلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَا ۖ فَلْيَرْتَقُوا۟ فِى <a class=\"highlight-text\">ٱلْأَسْبَٰبِ</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 36,
+      "text": "وَقَالَ فِرْعَوْنُ يَٰهَٰمَٰنُ ٱبْنِ لِى صَرْحًا صَرْحًا لَّعَلِّىٓ أَبْلُغُ ٱلْأَسْبَٰبَ",
+      "highlightedHtml": "وَقَالَ فِرْعَوْنُ يَٰهَٰمَٰنُ ٱبْنِ لِى صَرْحًا صَرْحًا لَّعَلِّىٓ أَبْلُغُ <a class=\"highlight-text\">ٱلْأَسْبَٰبَ</a>",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 37,
+      "text": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَسْبَٰبَ</a> ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "derivedForms": [
+        "سَبَب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:29.634Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "ٱلْأَسْبَابُ is in the derivative form: سَبَب",
+    "rootDefinitionHtml": "س/ب/ب   s–b–b reason; ladder, connection, rope; to revile; severance. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br>سَبَّ sabba 2 times,,سَبَب sabab 5 times and أسباب ʾasbāb 4 times.",
+    "mainDefinitionHtml": "سَبَب sabab [n.; pl. أسباب ʾasbāb] <br><br><strong>1 </strong>rope, ladder <br><br>(22:15) مَنْ كَانَ يَظُنُّ أَنْ لَن يَنْصُرَهُ اللهُ فِى الدُّنْيَا وَالأَخِرةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى السَّمَاءِ ثُمَّ لِيَقْطَعْ فَلْيَنْظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُ مَا يَغِيظُ whoever thinks that God will not grant him assistance/aid/victory in this world and the next, let him stretch a rope/ladder up to the sky, [then climb all the way up] then let him sever [it], then let him see whether his guile does away with what enrages [him] <br><br><strong>2 </strong>means by which things may be accomplished, a way <br><br>(18:84) إِنَّا مَكَّنَّا لَهُ فِى الأَرْضِ وَءَاتَيْنَاهُ مِنْ كُلِّ شَيْءٍ سَبَبًا We established him in the land, and gave him of everything a way/some means [to achieve them]; *<br><br>(2:166) وَتَقَطَّعَتْ بِهِمُ الأَسْبَابُ all bonds between them became severed (or, they became completely lost).",
+    "mainEntryId": "wdef-س-ب-ب.سَبَب",
+    "entries": [
+      {
+        "id": "wdef-س-ب-ب",
+        "label": "س-ب-ب",
+        "definitionHtml": "س/ب/ب   s–b–b reason; ladder, connection, rope; to revile; severance. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br>سَبَّ sabba 2 times,,سَبَب sabab 5 times and أسباب ʾasbāb 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ب.سَبَب",
+        "label": "سَبَب",
+        "definitionHtml": "سَبَب sabab [n.; pl. أسباب ʾasbāb] <br><br><strong>1 </strong>rope, ladder <br><br>(22:15) مَنْ كَانَ يَظُنُّ أَنْ لَن يَنْصُرَهُ اللهُ فِى الدُّنْيَا وَالأَخِرةِ فَلْيَمْدُدْ بِسَبَبٍ إِلَى السَّمَاءِ ثُمَّ لِيَقْطَعْ فَلْيَنْظُرْ هَلْ يُذْهِبَنَّ كَيْدُهُ مَا يَغِيظُ whoever thinks that God will not grant him assistance/aid/victory in this world and the next, let him stretch a rope/ladder up to the sky, [then climb all the way up] then let him sever [it], then let him see whether his guile does away with what enrages [him] <br><br><strong>2 </strong>means by which things may be accomplished, a way <br><br>(18:84) إِنَّا مَكَّنَّا لَهُ فِى الأَرْضِ وَءَاتَيْنَاهُ مِنْ كُلِّ شَيْءٍ سَبَبًا We established him in the land, and gave him of everything a way/some means [to achieve them]; *<br><br>(2:166) وَتَقَطَّعَتْ بِهِمُ الأَسْبَابُ all bonds between them became severed (or, they became completely lost).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ب-ب.سَبَّ",
+        "label": "سَبَّ",
+        "definitionHtml": "سَبَّ sabba u [v., trans.] to revile, to abuse <br><br>(6:108) وَلاَ تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْوًا بِغَيْرِ عِلْمٍ do not revile the [deities] they [the disbelievers] call on beside God, lest they in hostility/revenge revile God without knowledge.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:04.301Z",
+      "refword": "2:166:12",
+      "lexword": "ٱلْأَسْبَابُ"
+    }
+  }
+}

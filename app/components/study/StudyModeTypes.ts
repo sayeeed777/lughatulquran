@@ -25,6 +25,62 @@ export type SelectedWordDetails = {
   rootArabic?: string;
 };
 
+export type RootLexiconDerivative = {
+  form: string;
+  count: number;
+  totalInQuran?: number;
+};
+
+export type RootLexiconSurahOccurrence = {
+  surah: number;
+  surahName: string;
+  totalRootInSurah: number;
+  derivatives: RootLexiconDerivative[];
+};
+
+export type RootLexiconAyahOccurrence = {
+  surah: number;
+  ayah: number;
+  text: string;
+  highlightedHtml?: string;
+  derivedForms: string[];
+};
+
+export type RootLexiconLexEntry = {
+  id: string;
+  label: string;
+  definitionHtml: string;
+  isRoot?: boolean;
+  isMain?: boolean;
+};
+
+export type RootLexiconLexSnapshot = {
+  wordGrammar?: string | null;
+  derivativeNote?: string | null;
+  rootDefinitionHtml?: string | null;
+  mainDefinitionHtml?: string | null;
+  mainEntryId?: string | null;
+  entries: RootLexiconLexEntry[];
+  source?: {
+    provider?: string;
+    fetchedAt?: string | null;
+    refword?: string | null;
+    lexword?: string | null;
+  } | null;
+};
+
+export type RootLexiconStats = {
+  totalOccurrences: number;
+  derivativeCount: number;
+  surahCount: number;
+  ayahCount: number;
+};
+
+export type RootLexiconSource = {
+  provider?: string;
+  fetchedAt?: string | null;
+};
+
 export type RootLexiconPayload = {
   root: string;
   rootArabic?: string;
@@ -39,6 +95,14 @@ export type RootLexiconPayload = {
   laneAvailable?: boolean;
   morphologyAvailable?: boolean;
   morphologyError?: string | null;
+  rootExplorerAvailable?: boolean;
+  rootExplorerError?: string | null;
+  rootExplorerSource?: RootLexiconSource | null;
+  stats?: RootLexiconStats | null;
+  derivatives?: RootLexiconDerivative[];
+  surahOccurrences?: RootLexiconSurahOccurrence[];
+  ayahOccurrences?: RootLexiconAyahOccurrence[];
+  lexSnapshot?: RootLexiconLexSnapshot | null;
   fullPayload?: boolean;
 };
 

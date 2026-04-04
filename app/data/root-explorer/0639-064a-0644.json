@@ -1,0 +1,113 @@
+{
+  "root": "عيل",
+  "rootArabic": "عيل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "عَائِلٌ",
+      "count": 1
+    },
+    {
+      "form": "عَيْلَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَيْلَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَائِلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 28,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ بَعْدَ عَامِهِمْ هَٰذَا ۚ وَإِنْ خِفْتُمْ عَيْلَةً فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ إِن شَآءَ ۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّمَا ٱلْمُشْرِكُونَ نَجَسٌ فَلَا يَقْرَبُوا۟ ٱلْمَسْجِدَ ٱلْحَرَامَ بَعْدَ عَامِهِمْ هَٰذَا ۚ وَإِنْ خِفْتُمْ <a class=\"highlight-text\">عَيْلَةً</a> فَسَوْفَ يُغْنِيكُمُ ٱللَّهُ مِن فَضْلِهِۦٓ إِن شَآءَ ۚ إِنَّ ٱللَّهَ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "عَيْلَةٌ"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 8,
+      "text": "وَوَجَدَكَ عَآئِلًا فَأَغْنَىٰ",
+      "highlightedHtml": "وَوَجَدَكَ <a class=\"highlight-text\">عَآئِلًا</a> فَأَغْنَىٰ",
+      "derivedForms": [
+        "عَائِلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:44.166Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "عَيْلَةً is in the derivative form: عَيْلَةٌ",
+    "rootDefinitionHtml": "ع/ي/ل ʿ–y–l children, family, to have many children<br>; to be underfed, to be dependent, to be poor; to deviate; to be conceited, to walk with a conceited gait. There is a certain degree of overlapping between this root and the root ع/و/ل ʿ–w–l (q.v.), whereby the sense of ‘to have many children’ might be derived from either. <br><br>Of this root, 2 forms, maybe three, occur 1 time each in the Qur’an:<br> عَائِلاً ʿāʾilan; عَيْلَةٌ ʿaylatan (and, possibly, تَعُولُوا taʿūlū).",
+    "mainDefinitionHtml": "عَيْلَةٌ ʿaylatun [v. n./n.] being in straitened conditions, poverty, want <br><br>(9:28) ‏وَإِنْ‏ ‏خِفْتُمْ‏ ‏عَيْلَةً‏ ‏فَسَوْفَ‏ ‏يُغْنِيكُمُ‏ ‏اللَّهُ‏ ‏مِنْ‏ ‏فَضْلِهِ‏ ‏إِنْ‏ ‏شَاءَ‏ and if you fear want, God will enrich you of His bounty, if He wishes.",
+    "mainEntryId": "wdef-ع-ي-ل.عَيْلَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ي-ل",
+        "label": "ع-ي-ل",
+        "definitionHtml": "ع/ي/ل ʿ–y–l children, family, to have many children<br>; to be underfed, to be dependent, to be poor; to deviate; to be conceited, to walk with a conceited gait. There is a certain degree of overlapping between this root and the root ع/و/ل ʿ–w–l (q.v.), whereby the sense of ‘to have many children’ might be derived from either. <br><br>Of this root, 2 forms, maybe three, occur 1 time each in the Qur’an:<br> عَائِلاً ʿāʾilan; عَيْلَةٌ ʿaylatan (and, possibly, تَعُولُوا taʿūlū).",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ي-ل.عَيْلَةٌ",
+        "label": "عَيْلَةٌ",
+        "definitionHtml": "عَيْلَةٌ ʿaylatun [v. n./n.] being in straitened conditions, poverty, want <br><br>(9:28) ‏وَإِنْ‏ ‏خِفْتُمْ‏ ‏عَيْلَةً‏ ‏فَسَوْفَ‏ ‏يُغْنِيكُمُ‏ ‏اللَّهُ‏ ‏مِنْ‏ ‏فَضْلِهِ‏ ‏إِنْ‏ ‏شَاءَ‏ and if you fear want, God will enrich you of His bounty, if He wishes.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ي-ل.تَعُولُ",
+        "label": "تَعُولُ",
+        "definitionHtml": "تَعُولُ taʿūl [imperf. of v. intrans. عالَ ʿāla] to have too many children (in an interpretation of 4:3) ‏ذَلِكَ‏ ‏أَدْنَى‏ ‏أَلاَّ‏ ‏تَعُولُوا that is nearer (i.e., more likely) [cause] for your not having [too] many children (see ع/و/ل ʿ–w–l).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ي-ل.عَائِلٌ",
+        "label": "عَائِلٌ",
+        "definitionHtml": "عَائِلٌ ʿāʾil [act. part.] one who is in straitened circumstances, one who is needy, impoverished <br><br>(93:8) وَوَجَدَكَ‏ ‏عَائِلا‏ ‏فَأَغْنَى‏ and did He not find you in need and make you self‐sufficient?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:06.037Z",
+      "refword": "9:28:16",
+      "lexword": "عَيْلَةً"
+    }
+  }
+}

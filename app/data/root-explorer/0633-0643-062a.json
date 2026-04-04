@@ -1,0 +1,74 @@
+{
+  "root": "سكت",
+  "rootArabic": "سكت",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "سَكَتَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَكَتَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 154,
+      "text": "وَلَمَّا سَكَتَ عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">سَكَتَ</a> عَن مُّوسَى ٱلْغَضَبُ أَخَذَ ٱلْأَلْوَاحَ ۖ وَفِى نُسْخَتِهَا هُدًى وَرَحْمَةٌ لِّلَّذِينَ هُمْ لِرَبِّهِمْ يَرْهَبُونَ",
+      "derivedForms": [
+        "سَكَتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:11.235Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "سَكَتَ is in the derivative form: سَكَتَ",
+    "rootDefinitionHtml": "س/ك/ت   s–k–t being silent, becoming silent, silence, to stop talking, to stop moving; to abate. Of this root, only سَكَت sakat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "سَكَتَ sakata u [v. intrans. with prep. عَنْ] to let go of, to calm down, to abate <br><br>(7:154) وَلَمَّا سَكَتَ عَنْ مُوسَى الْغَضَبُ أَخَذَ الأَلْوَاحَ then when anger let go of Moses, he picked up the Tablets.",
+    "mainEntryId": "wdef-س-ك-ت.سَكَتَ",
+    "entries": [
+      {
+        "id": "wdef-س-ك-ت",
+        "label": "س-ك-ت",
+        "definitionHtml": "س/ك/ت   s–k–t being silent, becoming silent, silence, to stop talking, to stop moving; to abate. Of this root, only سَكَت sakat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ك-ت.سَكَتَ",
+        "label": "سَكَتَ",
+        "definitionHtml": "سَكَتَ sakata u [v. intrans. with prep. عَنْ] to let go of, to calm down, to abate <br><br>(7:154) وَلَمَّا سَكَتَ عَنْ مُوسَى الْغَضَبُ أَخَذَ الأَلْوَاحَ then when anger let go of Moses, he picked up the Tablets.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:29.076Z",
+      "refword": "7:154:2",
+      "lexword": "سَكَتَ"
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "root": "وصف",
+  "rootArabic": "وصف",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "يَصِفُ",
+      "count": 13
+    },
+    {
+      "form": "وَصْفٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَصْفٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَصِفُ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 3,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصِفُ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 100,
+      "text": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 139,
+      "text": "وَقَالُوا۟ مَا فِى بُطُونِ هَٰذِهِ ٱلْأَنْعَٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "highlightedHtml": "وَقَالُوا۟ مَا فِى بُطُونِ هَٰذِهِ ٱلْأَنْعَٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ <a class=\"highlight-text\">وَصْفَهُمْ</a> ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+      "derivedForms": [
+        "وَصْفٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 18,
+      "text": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "highlightedHtml": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا <a class=\"highlight-text\">تَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 77,
+      "text": "قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+      "highlightedHtml": "قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا <a class=\"highlight-text\">تَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 62,
+      "text": "وَيَجْعَلُونَ لِلَّهِ مَا يَكْرَهُونَ وَتَصِفُ أَلْسِنَتُهُمُ ٱلْكَذِبَ أَنَّ لَهُمُ ٱلْحُسْنَىٰ ۖ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم مُّفْرَطُونَ",
+      "highlightedHtml": "وَيَجْعَلُونَ لِلَّهِ مَا يَكْرَهُونَ <a class=\"highlight-text\">وَتَصِفُ</a> أَلْسِنَتُهُمُ ٱلْكَذِبَ أَنَّ لَهُمُ ٱلْحُسْنَىٰ ۖ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم مُّفْرَطُونَ",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 116,
+      "text": "وَلَا تَقُولُوا۟ لِمَا تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ هَٰذَا حَلَٰلٌ وَهَٰذَا حَرَامٌ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ ۚ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ",
+      "highlightedHtml": "وَلَا تَقُولُوا۟ لِمَا <a class=\"highlight-text\">تَصِفُ</a> أَلْسِنَتُكُمُ ٱلْكَذِبَ هَٰذَا حَلَٰلٌ وَهَٰذَا حَرَامٌ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ ۚ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 18,
+      "text": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
+      "highlightedHtml": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا <a class=\"highlight-text\">تَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 22,
+      "text": "لَوْ كَانَ فِيهِمَآ آلِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا ۚ فَسُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "لَوْ كَانَ فِيهِمَآ آلِهَةٌ إِلَّا ٱللَّهُ لَفَسَدَتَا ۚ فَسُبْحَٰنَ ٱللَّهِ رَبِّ ٱلْعَرْشِ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 112,
+      "text": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "highlightedHtml": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا <a class=\"highlight-text\">تَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 91,
+      "text": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 96,
+      "text": "ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ",
+      "highlightedHtml": "ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 159,
+      "text": "سُبْحَٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "سُبْحَٰنَ ٱللَّهِ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 180,
+      "text": "سُبْحَٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "سُبْحَٰنَ رَبِّكَ رَبِّ ٱلْعِزَّةِ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 82,
+      "text": "سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "سُبْحَٰنَ رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ رَبِّ ٱلْعَرْشِ عَمَّا <a class=\"highlight-text\">يَصِفُونَ</a>",
+      "derivedForms": [
+        "يَصِفُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:23.623Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَصِفُونَ is in the derivative form: يَصِفُ",
+    "rootDefinitionHtml": "و/ص/ف   w–ṣ–f attributes; to describe, to detail, to become describable; a serving boy or a girl; to ornament, to make something seem attractive; to be youthful. <br><br>Of this root, 2 forms occur 14 times in the Qur’an:<br> يَصِفُ yaṣif 13 times and وَصْفٌ waṣf 1 time.",
+    "mainDefinitionHtml": "يَصِفُ yaṣif [imperf. v. , trans.] to detail, to relate, to describe, to attribute, to ascribe <br><br>(16:116) وَلاَ تَقُولُوا لِمَا تَصِفُ أَلْسِنَتُكُمُ الْكَذِبَ هَذَا حَلاَلٌ وَهَذَا حَرَامٌ do not designate what your tongues falsely describe [saying]: ‘This is permissible and this is forbidden.’",
+    "mainEntryId": "wdef-و-ص-ف.يَصِفُ",
+    "entries": [
+      {
+        "id": "wdef-و-ص-ف",
+        "label": "و-ص-ف",
+        "definitionHtml": "و/ص/ف   w–ṣ–f attributes; to describe, to detail, to become describable; a serving boy or a girl; to ornament, to make something seem attractive; to be youthful. <br><br>Of this root, 2 forms occur 14 times in the Qur’an:<br> يَصِفُ yaṣif 13 times and وَصْفٌ waṣf 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ص-ف.يَصِفُ",
+        "label": "يَصِفُ",
+        "definitionHtml": "يَصِفُ yaṣif [imperf. v. , trans.] to detail, to relate, to describe, to attribute, to ascribe <br><br>(16:116) وَلاَ تَقُولُوا لِمَا تَصِفُ أَلْسِنَتُكُمُ الْكَذِبَ هَذَا حَلاَلٌ وَهَذَا حَرَامٌ do not designate what your tongues falsely describe [saying]: ‘This is permissible and this is forbidden.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ص-ف.وَصْفٌ",
+        "label": "وَصْفٌ",
+        "definitionHtml": "وَصْفٌ waṣf [n./v. n.] attribute, act of attributing, ascribing <br><br>(6:139) سَيَجْزِيهِمْ وَصْفَهُمْ He will punish them for their [falsely] attributing [commands to Him].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:52.708Z",
+      "refword": "6:100:15",
+      "lexword": "يَصِفُونَ"
+    }
+  }
+}

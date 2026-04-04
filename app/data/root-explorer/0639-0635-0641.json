@@ -1,0 +1,207 @@
+{
+  "root": "عصف",
+  "rootArabic": "عصف",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "عَصْفٌ",
+      "count": 3
+    },
+    {
+      "form": "عَاصِفٌ",
+      "count": 2
+    },
+    {
+      "form": "عَاضِفَةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاصِفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاصِفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاضِفَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَصْفٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَاضِفَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "عَصْفٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 105,
+      "surahName": "Al-Fil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَصْفٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 10,
+      "ayah": 22,
+      "text": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ <a class=\"highlight-text\">عَاصِفٌ</a> وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "عَاصِفٌ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 18,
+      "text": "مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ عَاصِفٍ ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍ ۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ",
+      "highlightedHtml": "مَّثَلُ ٱلَّذِينَ كَفَرُوا۟ بِرَبِّهِمْ ۖ أَعْمَٰلُهُمْ كَرَمَادٍ ٱشْتَدَّتْ بِهِ ٱلرِّيحُ فِى يَوْمٍ <a class=\"highlight-text\">عَاصِفٍ</a> ۖ لَّا يَقْدِرُونَ مِمَّا كَسَبُوا۟ عَلَىٰ شَىْءٍ ۚ ذَٰلِكَ هُوَ ٱلضَّلَٰلُ ٱلْبَعِيدُ",
+      "derivedForms": [
+        "عَاصِفٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 81,
+      "text": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ عَاصِفَةً تَجْرِى بِأَمْرِهِۦٓ إِلَى ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَىْءٍ عَٰلِمِينَ",
+      "highlightedHtml": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ <a class=\"highlight-text\">عَاصِفَةً</a> تَجْرِى بِأَمْرِهِۦٓ إِلَى ٱلْأَرْضِ ٱلَّتِى بَٰرَكْنَا فِيهَا ۚ وَكُنَّا بِكُلِّ شَىْءٍ عَٰلِمِينَ",
+      "derivedForms": [
+        "عَاضِفَةٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 12,
+      "text": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ",
+      "highlightedHtml": "وَٱلْحَبُّ ذُو <a class=\"highlight-text\">ٱلْعَصْفِ</a> وَٱلرَّيْحَانُ",
+      "derivedForms": [
+        "عَصْفٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 2,
+      "text": "فَٱلْعَٰصِفَٰتِ عَصْفًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلْعَٰصِفَٰتِ</a> <a class=\"highlight-text\">عَصْفًا</a>",
+      "derivedForms": [
+        "عَاضِفَةٌ",
+        "عَصْفٌ"
+      ]
+    },
+    {
+      "surah": 105,
+      "ayah": 5,
+      "text": "فَجَعَلَهُمْ كَعَصْفٍ مَّأْكُولٍۭ",
+      "highlightedHtml": "فَجَعَلَهُمْ <a class=\"highlight-text\">كَعَصْفٍ</a> مَّأْكُولٍۭ",
+      "derivedForms": [
+        "عَصْفٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:01.705Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "عَاصِفٌ is in the derivative form: عَاصِفٌ",
+    "rootDefinitionHtml": "ع/ص/ف   ʿ–ṣ–f chaff, straw, dried herbage, ears of corn<br>; to ripen; storm, to storm, to blow away, (of wind) to blow. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> عَصْفٌ ʿaṣf 3 times; عَاصِفٌ ʿāṣif 2 times; عاضِفةٌ ʿāṣifatun 1 time and عَاصِفَات ʿāṣifāt 1 time.",
+    "mainDefinitionHtml": "عَاصِفٌ ʿāṣif [quasi‐act. part.] stormy <br><br>(10:22) ‏جَاءَتْهَا‏ ‏رِيحٌ‏ ‏عَاصِفٌ there comes upon them a stormy wind.",
+    "mainEntryId": "wdef-ع-ص-ف.عَاصِفٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ص-ف",
+        "label": "ع-ص-ف",
+        "definitionHtml": "ع/ص/ف   ʿ–ṣ–f chaff, straw, dried herbage, ears of corn<br>; to ripen; storm, to storm, to blow away, (of wind) to blow. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> عَصْفٌ ʿaṣf 3 times; عَاصِفٌ ʿāṣif 2 times; عاضِفةٌ ʿāṣifatun 1 time and عَاصِفَات ʿāṣifāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ص-ف.عَاصِفٌ",
+        "label": "عَاصِفٌ",
+        "definitionHtml": "عَاصِفٌ ʿāṣif [quasi‐act. part.] stormy <br><br>(10:22) ‏جَاءَتْهَا‏ ‏رِيحٌ‏ ‏عَاصِفٌ there comes upon them a stormy wind.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ص-ف.عَاضِفَةٌ",
+        "label": "عَاضِفَةٌ",
+        "definitionHtml": "عَاضِفَةٌ ʿāṣifatun [fem. quasi‐act. part., pl. عاصِفات ʿāṣifāt] stormy, stormy [wind]; storm <br><br>(21:81) وَلِسُلَيْمَانَ‏ ‏الرِّيحَ‏ ‏عَاصِفَةً‏ and for Solomon [We] [harnessed] the stormy wind.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ص-ف.عَصْفٌ",
+        "label": "عَصْفٌ",
+        "definitionHtml": "عَصْفٌ ʿaṣf I [coll n.] dry leaves, dry blades <br><br>(55:12) وَالْحَبُّ‏ ‏ذُو‏ ‏الْعَصْفِ‏ and grain in dry blades II [v. n. used adverbially] storming <br><br>(77:2) فَالْعَاصِفَاتِ‏ ‏عَصْفًا and winds violently storming.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:46.790Z",
+      "refword": "10:22:20",
+      "lexword": "عَاصِفٌ"
+    }
+  }
+}

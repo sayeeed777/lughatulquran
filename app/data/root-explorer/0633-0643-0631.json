@@ -1,0 +1,206 @@
+{
+  "root": "سكر",
+  "rootArabic": "سكر",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "سُكْارى",
+      "count": 3
+    },
+    {
+      "form": "سَكْرةٌ",
+      "count": 2
+    },
+    {
+      "form": "سَكَر",
+      "count": 1
+    },
+    {
+      "form": "سُكِّرِ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُكْارى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُكِّرِ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "سَكْرةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَكَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُكْارى",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَكْرةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 43,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ <a class=\"highlight-text\">سُكَٰرَىٰ</a> حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "derivedForms": [
+        "سُكْارى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 15,
+      "text": "لَقَالُوٓا۟ إِنَّمَا سُكِّرَتْ أَبْصَٰرُنَا بَلْ نَحْنُ قَوْمٌ مَّسْحُورُونَ",
+      "highlightedHtml": "لَقَالُوٓا۟ إِنَّمَا <a class=\"highlight-text\">سُكِّرَتْ</a> أَبْصَٰرُنَا بَلْ نَحْنُ قَوْمٌ مَّسْحُورُونَ",
+      "derivedForms": [
+        "سُكِّرِ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 72,
+      "text": "لَعَمْرُكَ إِنَّهُمْ لَفِى سَكْرَتِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "لَعَمْرُكَ إِنَّهُمْ لَفِى <a class=\"highlight-text\">سَكْرَتِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "سَكْرةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 67,
+      "text": "وَمِن ثَمَرَٰتِ ٱلنَّخِيلِ وَٱلْأَعْنَٰبِ تَتَّخِذُونَ مِنْهُ سَكَرًا وَرِزْقًا حَسَنًا ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "وَمِن ثَمَرَٰتِ ٱلنَّخِيلِ وَٱلْأَعْنَٰبِ تَتَّخِذُونَ مِنْهُ <a class=\"highlight-text\">سَكَرًا</a> وَرِزْقًا حَسَنًا ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "سَكَر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 2,
+      "text": "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ سُكَٰرَىٰ وَمَا هُم بِسُكَٰرَىٰ وَلَٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ",
+      "highlightedHtml": "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ <a class=\"highlight-text\">سُكَٰرَىٰ</a> وَمَا هُم <a class=\"highlight-text\">بِسُكَٰرَىٰ</a> وَلَٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ",
+      "derivedForms": [
+        "سُكْارى",
+        "سُكْارى"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 19,
+      "text": "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ",
+      "highlightedHtml": "وَجَآءَتْ <a class=\"highlight-text\">سَكْرَةُ</a> ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ",
+      "derivedForms": [
+        "سَكْرةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:12.175Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "سُكَٰرَىٰ is in the derivative form: سُكْارى",
+    "rootDefinitionHtml": "س/ك/ر   s–k–r intoxicating drinks, intoxication, drowsiness, un-consciousness<br>; blocking a gap, corking a bottle. It has been suggested that intoxication, along with its derivatives, are borrowings from either Ethiopic or Aramaic. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> سُكِّرَ sukkira 1 time;سَكَر sakar 1 time; سَكْرَة sakratun 2 times and سُكارى sukārā 3 times.",
+    "mainDefinitionHtml": "سُكْارى sukārā [pl. of n. and quasi‐act. part سَكران sakrān] one who is drunk or intoxicated <br><br>(22:2) وَتَرَى النَّاسَ سُكَارَى وَمَا هُمْ بِسُكَارَى and you will see people as if they are drunken–though they are not drunk.",
+    "mainEntryId": "wdef-س-ك-ر.سُكْارى",
+    "entries": [
+      {
+        "id": "wdef-س-ك-ر",
+        "label": "س-ك-ر",
+        "definitionHtml": "س/ك/ر   s–k–r intoxicating drinks, intoxication, drowsiness, un-consciousness<br>; blocking a gap, corking a bottle. It has been suggested that intoxication, along with its derivatives, are borrowings from either Ethiopic or Aramaic. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> سُكِّرَ sukkira 1 time;سَكَر sakar 1 time; سَكْرَة sakratun 2 times and سُكارى sukārā 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ك-ر.سُكْارى",
+        "label": "سُكْارى",
+        "definitionHtml": "سُكْارى sukārā [pl. of n. and quasi‐act. part سَكران sakrān] one who is drunk or intoxicated <br><br>(22:2) وَتَرَى النَّاسَ سُكَارَى وَمَا هُمْ بِسُكَارَى and you will see people as if they are drunken–though they are not drunk.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ك-ر.سَكَر",
+        "label": "سَكَر",
+        "definitionHtml": "سَكَر sakar [n.] intoxicating drink, alcoholic drink; sweet juice <br><br>(16:67) وَمِنْ ثَمَرَاتِ النَّخِيلِ وَالأَعْنَابِ تَتَّخِذُونَ مِنْهُ سَكَرًا وَرِزْقًا حَسَنًا from the fruits of date palms and grapes you take intoxicants and wholesome provisions.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ك-ر.سَكْرةٌ",
+        "label": "سَكْرةٌ",
+        "definitionHtml": "سَكْرةٌ sakratun [v. n.; n.] delirium, intoxication, tipsiness <br><br>(15:72) لَعَمْرُكَ إِنَّهُمْ لَفِي سَكْرَتِهِمْ يَعْمَهُونَ by your life, they are wandering on in their wild delirium; *<br><br>(50:19) سَكْرَةُ الْمَوْتِ throes of death [lit. the intoxication/confusion of death].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ك-ر.سُكِّرِ",
+        "label": "سُكِّرِ",
+        "definitionHtml": "سُكِّرِ sukkira [pass. of v. II] to be blocked up; to be intoxicated <br><br>(15:14–15) وَلَوْ‏ ‏فَتَحْنَا‏ ‏عَلَيْهِمْ‏ ‏بَابًا‏ ‏مِنَ‏ ‏السَّمَاءِ‏ ‏فَظَلُّوا‏ ‏فِيهِ‏ ‏يَعْرُجُونَ‏ لَقَالُوا‏ ‏إِنَّمَا‏ ‏سُكِّرَتْ‏ ‏أَبْصَارُنَا‏ and even if We opened a gateway into Heaven for them and they rose through it, higher and higher, they would still say, ‘Our eyes are hallucinating/our sight is blurred.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:31.276Z",
+      "refword": "4:43:8",
+      "lexword": "سُكَٰرَىٰ"
+    }
+  }
+}

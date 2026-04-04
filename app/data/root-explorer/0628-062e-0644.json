@@ -1,0 +1,209 @@
+{
+  "root": "بخل",
+  "rootArabic": "بخل",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 2,
+    "surahCount": 6,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "بَخِلَ",
+      "count": 7
+    },
+    {
+      "form": "بُخْلٌ",
+      "count": 5
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَخِلَ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "بُخْلٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بُخْلٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَخِلَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "بَخِلَ",
+          "count": 4,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بُخْلٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَخِلَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 180,
+      "text": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ <a class=\"highlight-text\">يَبْخَلُونَ</a> بِمَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا <a class=\"highlight-text\">بَخِلُوا۟</a> بِهِۦ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "بُخْلٌ",
+        "بَخِلَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 37,
+      "text": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَيَكْتُمُونَ مَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يَبْخَلُونَ</a> وَيَأْمُرُونَ ٱلنَّاسَ <a class=\"highlight-text\">بِٱلْبُخْلِ</a> وَيَكْتُمُونَ مَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا",
+      "derivedForms": [
+        "بُخْلٌ",
+        "بُخْلٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 76,
+      "text": "فَلَمَّآ آتَاهُمْ مِّن فَضْلِهِۦ بَخِلُوا۟ بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ",
+      "highlightedHtml": "فَلَمَّآ آتَاهُمْ مِّن فَضْلِهِۦ <a class=\"highlight-text\">بَخِلُوا۟</a> بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ",
+      "derivedForms": [
+        "بَخِلَ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 37,
+      "text": "إِن يَسْـَٔلْكُمُوهَا فَيُحْفِكُمْ تَبْخَلُوا۟ وَيُخْرِجْ أَضْغَٰنَكُمْ",
+      "highlightedHtml": "إِن يَسْـَٔلْكُمُوهَا فَيُحْفِكُمْ <a class=\"highlight-text\">تَبْخَلُوا۟</a> وَيُخْرِجْ أَضْغَٰنَكُمْ",
+      "derivedForms": [
+        "بَخِلَ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 38,
+      "text": "هَٰٓأَنتُمْ هَٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَٰلَكُم",
+      "highlightedHtml": "هَٰٓأَنتُمْ هَٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن <a class=\"highlight-text\">يَبْخَلُ</a> ۖ وَمَن <a class=\"highlight-text\">يَبْخَلْ</a> فَإِنَّمَا <a class=\"highlight-text\">يَبْخَلُ</a> عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَٰلَكُم",
+      "derivedForms": [
+        "بَخِلَ",
+        "بَخِلَ",
+        "بَخِلَ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 24,
+      "text": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يَبْخَلُونَ</a> وَيَأْمُرُونَ ٱلنَّاسَ <a class=\"highlight-text\">بِٱلْبُخْلِ</a> ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+      "derivedForms": [
+        "بُخْلٌ",
+        "بُخْلٌ"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 8,
+      "text": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+      "highlightedHtml": "وَأَمَّا مَنۢ <a class=\"highlight-text\">بَخِلَ</a> وَٱسْتَغْنَىٰ",
+      "derivedForms": [
+        "بَخِلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:15.086Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَبْخَلُونَ is in the derivative form: بُخْلٌ",
+    "rootDefinitionHtml": "ب/خ/ل   b–kh–l to be stingy, to be covetous; to be grudging, meanness. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> بَخِلَ bakhila 10 times and بُخْلٌ bukhl 2 times.",
+    "mainDefinitionHtml": "بُخْلٌ bukhl [n./v. n.] miserliness, niggardliness, meanness, stinginess <br><br>(57:24) الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ those who are miserly and urge miserliness on others.",
+    "mainEntryId": "wdef-ب-خ-ل.بُخْلٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-خ-ل",
+        "label": "ب-خ-ل",
+        "definitionHtml": "ب/خ/ل   b–kh–l to be stingy, to be covetous; to be grudging, meanness. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> بَخِلَ bakhila 10 times and بُخْلٌ bukhl 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-خ-ل.بُخْلٌ",
+        "label": "بُخْلٌ",
+        "definitionHtml": "بُخْلٌ bukhl [n./v. n.] miserliness, niggardliness, meanness, stinginess <br><br>(57:24) الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ those who are miserly and urge miserliness on others.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-خ-ل.بَخِلَ",
+        "label": "بَخِلَ",
+        "definitionHtml": "بَخِلَ bakhila a [v. intrans.] <br><br><strong>1 </strong>to be or act in a niggardly or miserly way <br><br>(47:38) هَاأَنْتُمْ هَؤُلاَءِ تُدْعَوْنَ لِتُنْفِقُوا فِى سَبِيلِ اللَّهِ فَمِنْكُمْ مَنْ يَبْخَلُ here you are, called upon to spend in the cause of God, but some of you will be niggardly <br><br><strong>2 </strong>[with prep. بـ] to deny something meanly, to begrudge <br><br>(9:76) فَلَمَّا ءَاتَاهُمْ مِنْ فَضْلِهِ بَخِلُوا بِهِ yet when He did give them some of His bounty, they begrudged it [to others] <br><br><strong>3 </strong>[with prep. عن] to be niggardly towards <br><br>(47:38) وَمَنْ يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَنْ نَفْسِهِ whoever is niggardly is niggardly against himself.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:23.514Z",
+      "refword": "3:180:4",
+      "lexword": "يَبْخَلُونَ"
+    }
+  }
+}

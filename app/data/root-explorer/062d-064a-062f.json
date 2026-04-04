@@ -1,0 +1,74 @@
+{
+  "root": "حيد",
+  "rootArabic": "حيد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَحِيدُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحِيدُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 50,
+      "ayah": 19,
+      "text": "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ تَحِيدُ",
+      "highlightedHtml": "وَجَآءَتْ سَكْرَةُ ٱلْمَوْتِ بِٱلْحَقِّ ۖ ذَٰلِكَ مَا كُنتَ مِنْهُ <a class=\"highlight-text\">تَحِيدُ</a>",
+      "derivedForms": [
+        "تَحِيدُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:52.490Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb",
+    "derivativeNote": "تَحِيدُ is in the derivative form: تَحِيدُ",
+    "rootDefinitionHtml": "ح/ي/د ḥ–y–d protrusions, to project; sides; to twist, to bend, to deviate from, to stray, to swerve, to avoid. Of this root, تَحِيدُ taḥıd occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَحِيدُ taḥıd [imperf. of v. حَادَ ḥāda, intrans.] to swerve, to turn away, to avoid <br><br>(50:19) وَجَاءَتْ سَكْرَةُ الْمَوْتِ بِالْحَقِّ ذَلِكَ مَا كُنْتَ مِنْهُ تَحِيدُ the throes of death will bring the truth with them (or, they come in truth), ‘This is what you have been trying to evade.’",
+    "mainEntryId": "wdef-ح-ي-د.تَحِيدُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ي-د",
+        "label": "ح-ي-د",
+        "definitionHtml": "ح/ي/د ḥ–y–d protrusions, to project; sides; to twist, to bend, to deviate from, to stray, to swerve, to avoid. Of this root, تَحِيدُ taḥıd occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ي-د.تَحِيدُ",
+        "label": "تَحِيدُ",
+        "definitionHtml": "تَحِيدُ taḥıd [imperf. of v. حَادَ ḥāda, intrans.] to swerve, to turn away, to avoid <br><br>(50:19) وَجَاءَتْ سَكْرَةُ الْمَوْتِ بِالْحَقِّ ذَلِكَ مَا كُنْتَ مِنْهُ تَحِيدُ the throes of death will bring the truth with them (or, they come in truth), ‘This is what you have been trying to evade.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:08.745Z",
+      "refword": "50:19:9",
+      "lexword": "تَحِيدُ"
+    }
+  }
+}

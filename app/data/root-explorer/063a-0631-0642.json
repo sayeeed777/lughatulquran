@@ -1,0 +1,514 @@
+{
+  "root": "غرق",
+  "rootArabic": "غرق",
+  "stats": {
+    "totalOccurrences": 23,
+    "derivativeCount": 4,
+    "surahCount": 18,
+    "ayahCount": 23
+  },
+  "derivatives": [
+    {
+      "form": "أغْرَقَ",
+      "count": 17
+    },
+    {
+      "form": "مُغْرَقون",
+      "count": 4
+    },
+    {
+      "form": "غَرَق",
+      "count": 1
+    },
+    {
+      "form": "غَرْق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        },
+        {
+          "form": "غَرَق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُغْرَقون",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُغْرَقون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 2,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُغْرَقون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرَقَ",
+          "count": 1,
+          "totalInQuran": 17
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَرْق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 50,
+      "text": "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَٰكُمْ وَأَغْرَقْنَآ آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ",
+      "highlightedHtml": "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَٰكُمْ <a class=\"highlight-text\">وَأَغْرَقْنَآ</a> آلَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 64,
+      "text": "فَكَذَّبُوهُ فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ فِى ٱلْفُلْكِ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا عَمِينَ",
+      "highlightedHtml": "فَكَذَّبُوهُ فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ فِى ٱلْفُلْكِ <a class=\"highlight-text\">وَأَغْرَقْنَا</a> ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا عَمِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 136,
+      "text": "فَٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "highlightedHtml": "فَٱنتَقَمْنَا مِنْهُمْ <a class=\"highlight-text\">فَأَغْرَقْنَٰهُمْ</a> فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 54,
+      "text": "كَدَأْبِ آلِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَٰتِ رَبِّهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَغْرَقْنَآ آلَ فِرْعَوْنَ ۚ وَكُلٌّ كَانُوا۟ ظَٰلِمِينَ",
+      "highlightedHtml": "كَدَأْبِ آلِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَٰتِ رَبِّهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ <a class=\"highlight-text\">وَأَغْرَقْنَآ</a> آلَ فِرْعَوْنَ ۚ وَكُلٌّ كَانُوا۟ ظَٰلِمِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 73,
+      "text": "فَكَذَّبُوهُ فَنَجَّيْنَٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ وَجَعَلْنَٰهُمْ خَلَٰٓئِفَ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ",
+      "highlightedHtml": "فَكَذَّبُوهُ فَنَجَّيْنَٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ وَجَعَلْنَٰهُمْ خَلَٰٓئِفَ <a class=\"highlight-text\">وَأَغْرَقْنَا</a> ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُنذَرِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 90,
+      "text": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ آمَنْتُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱلَّذِىٓ آمَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ",
+      "highlightedHtml": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ <a class=\"highlight-text\">ٱلْغَرَقُ</a> قَالَ آمَنْتُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱلَّذِىٓ آمَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ",
+      "derivedForms": [
+        "غَرَق"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 37,
+      "text": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "وَٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۚ إِنَّهُم <a class=\"highlight-text\">مُّغْرَقُونَ</a>",
+      "derivedForms": [
+        "مُغْرَقون"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 43,
+      "text": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "highlightedHtml": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ <a class=\"highlight-text\">ٱلْمُغْرَقِينَ</a>",
+      "derivedForms": [
+        "مُغْرَقون"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 69,
+      "text": "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَى فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِّنَ ٱلرِّيحِ فَيُغْرِقَكُم بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا",
+      "highlightedHtml": "أَمْ أَمِنتُمْ أَن يُعِيدَكُمْ فِيهِ تَارَةً أُخْرَى فَيُرْسِلَ عَلَيْكُمْ قَاصِفًا مِّنَ ٱلرِّيحِ <a class=\"highlight-text\">فَيُغْرِقَكُم</a> بِمَا كَفَرْتُمْ ۙ ثُمَّ لَا تَجِدُوا۟ لَكُمْ عَلَيْنَا بِهِۦ تَبِيعًا",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 103,
+      "text": "فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ فَأَغْرَقْنَٰهُ وَمَن مَّعَهُۥ جَمِيعًا",
+      "highlightedHtml": "فَأَرَادَ أَن يَسْتَفِزَّهُم مِّنَ ٱلْأَرْضِ <a class=\"highlight-text\">فَأَغْرَقْنَٰهُ</a> وَمَن مَّعَهُۥ جَمِيعًا",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 71,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا <a class=\"highlight-text\">لِتُغْرِقَ</a> أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 77,
+      "text": "وَنَصَرْنَٰهُ مِنَ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "وَنَصَرْنَٰهُ مِنَ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ <a class=\"highlight-text\">فَأَغْرَقْنَٰهُمْ</a> أَجْمَعِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 27,
+      "text": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم <a class=\"highlight-text\">مُّغْرَقُونَ</a>",
+      "derivedForms": [
+        "مُغْرَقون"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 37,
+      "text": "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ أَغْرَقْنَٰهُمْ وَجَعَلْنَٰهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّٰلِمِينَ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ <a class=\"highlight-text\">أَغْرَقْنَٰهُمْ</a> وَجَعَلْنَٰهُمْ لِلنَّاسِ آيَةً ۖ وَأَعْتَدْنَا لِلظَّٰلِمِينَ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 66,
+      "text": "ثُمَّ أَغْرَقْنَا الْآخَرِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَغْرَقْنَا</a> الْآخَرِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 120,
+      "text": "ثُمَّ أَغْرَقْنَا بَعْدُ ٱلْبَاقِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَغْرَقْنَا</a> بَعْدُ ٱلْبَاقِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 40,
+      "text": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ <a class=\"highlight-text\">أَغْرَقْنَا</a> ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 43,
+      "text": "وَإِن نَّشَأْ نُغْرِقْهُمْ فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "highlightedHtml": "وَإِن نَّشَأْ <a class=\"highlight-text\">نُغْرِقْهُمْ</a> فَلَا صَرِيخَ لَهُمْ وَلَا هُمْ يُنقَذُونَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 82,
+      "text": "ثُمَّ أَغْرَقْنَا الْآخَرِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَغْرَقْنَا</a> الْآخَرِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 55,
+      "text": "فَلَمَّآ آسَفُونَا ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "فَلَمَّآ آسَفُونَا ٱنتَقَمْنَا مِنْهُمْ <a class=\"highlight-text\">فَأَغْرَقْنَٰهُمْ</a> أَجْمَعِينَ",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 24,
+      "text": "وَٱتْرُكِ ٱلْبَحْرَ رَهْوًا ۖ إِنَّهُمْ جُندٌ مُّغْرَقُونَ",
+      "highlightedHtml": "وَٱتْرُكِ ٱلْبَحْرَ رَهْوًا ۖ إِنَّهُمْ جُندٌ <a class=\"highlight-text\">مُّغْرَقُونَ</a>",
+      "derivedForms": [
+        "مُغْرَقون"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 25,
+      "text": "مِّمَّا خَطِيٓـَٰٔتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
+      "highlightedHtml": "مِّمَّا خَطِيٓـَٰٔتِهِمْ <a class=\"highlight-text\">أُغْرِقُوا۟</a> فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
+      "derivedForms": [
+        "أغْرَقَ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 1,
+      "text": "وَٱلنَّٰزِعَٰتِ غَرْقًا",
+      "highlightedHtml": "وَٱلنَّٰزِعَٰتِ <a class=\"highlight-text\">غَرْقًا</a>",
+      "derivedForms": [
+        "غَرْق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:53.689Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) perfect verb",
+    "derivativeNote": "وَأَغْرَقْنَآ is in the derivative form: أغْرَقَ",
+    "rootDefinitionHtml": "غ/ر/ق   gh–r–q to sink, to be submerged, to drown<br>; to go to the extreme; to be preoccupied, to engross. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> أغْرَقَ ʾaghraqa 16 times; أُغْرِقوا ʾughriqū 1 time; غَرْق gharq 1 time;غَرَق gharaq 1 time and مُغْرَقون mughraqūn 4 times.",
+    "mainDefinitionHtml": "أغْرَقَ ʾaghraqa [v. IV, trans.; pass. v. أُغْرِقَ ʾughriqa] to cause to drown <br><br>(26:120) ثُمَّ‏ ‏أَغْرَقْنَا‏ ‏بَعْدُ‏ ‏الْبَاقِينَ‏then We drowned the rest.",
+    "mainEntryId": "wdef-غ-ر-ق.أغْرَقَ",
+    "entries": [
+      {
+        "id": "wdef-غ-ر-ق",
+        "label": "غ-ر-ق",
+        "definitionHtml": "غ/ر/ق   gh–r–q to sink, to be submerged, to drown<br>; to go to the extreme; to be preoccupied, to engross. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> أغْرَقَ ʾaghraqa 16 times; أُغْرِقوا ʾughriqū 1 time; غَرْق gharq 1 time;غَرَق gharaq 1 time and مُغْرَقون mughraqūn 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ق.أغْرَقَ",
+        "label": "أغْرَقَ",
+        "definitionHtml": "أغْرَقَ ʾaghraqa [v. IV, trans.; pass. v. أُغْرِقَ ʾughriqa] to cause to drown <br><br>(26:120) ثُمَّ‏ ‏أَغْرَقْنَا‏ ‏بَعْدُ‏ ‏الْبَاقِينَ‏then We drowned the rest.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ر-ق.غَرَق",
+        "label": "غَرَق",
+        "definitionHtml": "غَرَق gharaq [n./v. n.] drowning <br><br>(10:90)‏حَتَّى‏ ‏إِذَا‏ ‏أَدْرَكَهُ‏ ‏الْغَرَقُ‏ ‏قَالَ‏ ‏ءَامَنْتُ till when drowning overtook him he said, ‘I believe.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ق.غَرْق",
+        "label": "غَرْق",
+        "definitionHtml": "غَرْق gharq [v. n.] going to the extreme, all the way, violently, strongly, energetically (in an interpretation of 79:1) وَالنَّازِعَاتِ‏ ‏غَرْقًا‏ by those pulling out forcefully.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-ق.مُغْرَقون",
+        "label": "مُغْرَقون",
+        "definitionHtml": "مُغْرَقون mughraqūn [pl. of pass. part. مُغْرَق mughraq] one who is drowned <br><br>(11:43) ‏وَحَالَ‏ ‏بَيْنَهُمَا‏ ‏الْمَوْجُ‏ ‏فَكَانَ‏ ‏مِنَ‏ ‏الْمُغْرَقين and the waves came between them and he was among the drowned.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:25.936Z",
+      "refword": "2:50:6",
+      "lexword": "وَأَغْرَقْنَآ"
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "root": "ربص",
+  "rootArabic": "ربص",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "تَرَبَّص",
+      "count": 13
+    },
+    {
+      "form": "مُتَرَبِّصُون",
+      "count": 3
+    },
+    {
+      "form": "تَرَبُّصٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 2,
+          "totalInQuran": 13
+        },
+        {
+          "form": "تَرَبُّصٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 5,
+          "totalInQuran": 13
+        },
+        {
+          "form": "مُتَرَبِّصُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 1,
+          "totalInQuran": 13
+        },
+        {
+          "form": "مُتَرَبِّصُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 2,
+          "totalInQuran": 13
+        },
+        {
+          "form": "مُتَرَبِّصُون",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرَبَّص",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 226,
+      "text": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ <a class=\"highlight-text\">تَرَبُّصُ</a> أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "تَرَبُّصٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 228,
+      "text": "وَٱلْمُطَلَّقَٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُطَلَّقَٰتُ <a class=\"highlight-text\">يَتَرَبَّصْنَ</a> بِأَنفُسِهِنَّ ثَلَٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 234,
+      "text": "وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًا يَتَرَبَّصْنَ بِأَنفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ۖ فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ بِٱلْمَعْرُوفِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "وَٱلَّذِينَ يُتَوَفَّوْنَ مِنكُمْ وَيَذَرُونَ أَزْوَٰجًا <a class=\"highlight-text\">يَتَرَبَّصْنَ</a> بِأَنفُسِهِنَّ أَرْبَعَةَ أَشْهُرٍ وَعَشْرًا ۖ فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَلَا جُنَاحَ عَلَيْكُمْ فِيمَا فَعَلْنَ فِىٓ أَنفُسِهِنَّ بِٱلْمَعْرُوفِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 141,
+      "text": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يَتَرَبَّصُونَ</a> بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 24,
+      "text": "قُلْ إِن كَانَ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ وَإِخْوَٰنُكُمْ وَأَزْوَٰجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَٰلٌ ٱقْتَرَفْتُمُوهَا وَتِجَٰرَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَٰكِنُ تَرْضَوْنَهَآ أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍ فِى سَبِيلِهِۦ فَتَرَبَّصُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "قُلْ إِن كَانَ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ وَإِخْوَٰنُكُمْ وَأَزْوَٰجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَٰلٌ ٱقْتَرَفْتُمُوهَا وَتِجَٰرَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَٰكِنُ تَرْضَوْنَهَآ أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍ فِى سَبِيلِهِۦ <a class=\"highlight-text\">فَتَرَبَّصُوا۟</a> حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 52,
+      "text": "قُلْ هَلْ تَرَبَّصُونَ بِنَآ إِلَّآ إِحْدَى ٱلْحُسْنَيَيْنِ ۖ وَنَحْنُ نَتَرَبَّصُ بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا ۖ فَتَرَبَّصُوٓا۟ إِنَّا مَعَكُم مُّتَرَبِّصُونَ",
+      "highlightedHtml": "قُلْ هَلْ <a class=\"highlight-text\">تَرَبَّصُونَ</a> بِنَآ إِلَّآ إِحْدَى ٱلْحُسْنَيَيْنِ ۖ وَنَحْنُ <a class=\"highlight-text\">نَتَرَبَّصُ</a> بِكُمْ أَن يُصِيبَكُمُ ٱللَّهُ بِعَذَابٍ مِّنْ عِندِهِۦٓ أَوْ بِأَيْدِينَا ۖ <a class=\"highlight-text\">فَتَرَبَّصُوٓا۟</a> إِنَّا مَعَكُم <a class=\"highlight-text\">مُّتَرَبِّصُونَ</a>",
+      "derivedForms": [
+        "تَرَبَّص",
+        "تَرَبَّص",
+        "تَرَبَّص",
+        "مُتَرَبِّصُون"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 98,
+      "text": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا <a class=\"highlight-text\">وَيَتَرَبَّصُ</a> بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 135,
+      "text": "قُلْ كُلٌّ مُّتَرَبِّصٌ فَتَرَبَّصُوا۟ ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ",
+      "highlightedHtml": "قُلْ كُلٌّ <a class=\"highlight-text\">مُّتَرَبِّصٌ</a> <a class=\"highlight-text\">فَتَرَبَّصُوا۟</a> ۖ فَسَتَعْلَمُونَ مَنْ أَصْحَٰبُ ٱلصِّرَٰطِ ٱلسَّوِىِّ ٱلسَّوِىِّ وَمَنِ ٱهْتَدَىٰ",
+      "derivedForms": [
+        "مُتَرَبِّصُون",
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 25,
+      "text": "إِنْ هُوَ إِلَّا رَجُلٌۢ بِهِۦ جِنَّةٌ فَتَرَبَّصُوا۟ بِهِۦ حَتَّىٰ حِينٍ",
+      "highlightedHtml": "إِنْ هُوَ إِلَّا رَجُلٌۢ بِهِۦ جِنَّةٌ <a class=\"highlight-text\">فَتَرَبَّصُوا۟</a> بِهِۦ حَتَّىٰ حِينٍ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 30,
+      "text": "أَمْ يَقُولُونَ شَاعِرٌ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
+      "highlightedHtml": "أَمْ يَقُولُونَ شَاعِرٌ شَاعِرٌ <a class=\"highlight-text\">نَّتَرَبَّصُ</a> بِهِۦ رَيْبَ ٱلْمَنُونِ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 31,
+      "text": "قُلْ تَرَبَّصُوا۟ فَإِنِّى مَعَكُم مِّنَ ٱلْمُتَرَبِّصِينَ",
+      "highlightedHtml": "قُلْ <a class=\"highlight-text\">تَرَبَّصُوا۟</a> فَإِنِّى مَعَكُم مِّنَ <a class=\"highlight-text\">ٱلْمُتَرَبِّصِينَ</a>",
+      "derivedForms": [
+        "تَرَبَّص",
+        "مُتَرَبِّصُون"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 14,
+      "text": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
+      "highlightedHtml": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ ۖ قَالُوا۟ بَلَىٰ وَلَٰكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ <a class=\"highlight-text\">وَتَرَبَّصْتُمْ</a> وَٱرْتَبْتُمْ وَغَرَّتْكُمُ ٱلْأَمَانِىُّ حَتَّىٰ جَآءَ أَمْرُ ٱللَّهِ وَغَرَّكُم بِٱللَّهِ ٱلْغَرُورُ",
+      "derivedForms": [
+        "تَرَبَّص"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:58.982Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine (form V) verbal noun",
+    "derivativeNote": "تَرَبُّصُ is in the derivative form: تَرَبُّصٌ",
+    "rootDefinitionHtml": "ر/ب/ص   r–b–ṣ to sit in waiting, to bide one’s time, to be on the look‐out<br>; to lurk, to waylay, to ambush, to wait for something to befall someone, to await a chance to act. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> تَرَبَّصَ tarabbaṣa 13 times; تَرَبُّصٌ tarabbuṣ 1 time; مُتَرَبِّصٌ mutarabbiṣ 1 time and مُتَرَبِّصُون mutarabbiṣūn 2 times.",
+    "mainDefinitionHtml": "تَرَبُّصٌ tarabbuṣ [v. n.] [jur.] refraining from certain actions for a prescribed period <br><br>(2:226) لِلَّذِينَ يُؤْلُونَ مِنْ نِسَائِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ for those who vow not to have sexual relations with their wives, there is a waiting period of four months [before a final decision is made].",
+    "mainEntryId": "wdef-ر-ب-ص.تَرَبُّصٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ب-ص",
+        "label": "ر-ب-ص",
+        "definitionHtml": "ر/ب/ص   r–b–ṣ to sit in waiting, to bide one’s time, to be on the look‐out<br>; to lurk, to waylay, to ambush, to wait for something to befall someone, to await a chance to act. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> تَرَبَّصَ tarabbaṣa 13 times; تَرَبُّصٌ tarabbuṣ 1 time; مُتَرَبِّصٌ mutarabbiṣ 1 time and مُتَرَبِّصُون mutarabbiṣūn 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-ص.تَرَبُّصٌ",
+        "label": "تَرَبُّصٌ",
+        "definitionHtml": "تَرَبُّصٌ tarabbuṣ [v. n.] [jur.] refraining from certain actions for a prescribed period <br><br>(2:226) لِلَّذِينَ يُؤْلُونَ مِنْ نِسَائِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ for those who vow not to have sexual relations with their wives, there is a waiting period of four months [before a final decision is made].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ب-ص.تَرَبَّص",
+        "label": "تَرَبَّص",
+        "definitionHtml": "تَرَبَّص tarabbaṣa [v. V] I [intrans.] <br><br><strong>1 </strong>to await, to be on the look‐out <br><br>(9:24) فَتَرَبَّصُوا حَتَّى يَأْتِيَ اللَّهُ بِأَمْرِهِ so be on the look‐out till God brings about His command <br><br><strong>2 </strong>to play for time, to sit on the fence <br><br>(57:14) وَلَكِنَّكُمْ فَتَنْتُمْ أَنْفُسَكُمْ وَتَرَبَّصْتُمْ وَارْتَبْتُمْ وَغَرَّتْكُمُ الأَمَانِيُّ but you allowed yourselves to be tempted, you played for time, you doubted and were lulled by [false] hopes <br><br><strong>3 </strong>[with prep. ﺒ] to bear with, to give time for a possible outcome <br><br>(23:25) إِنْ هُوَ إِلاَّ رَجُلٌ بِهِ جِنَّةٌ فَتَرَبَّصُوا بِهِ حَتَّى حِينٍ he is merely a man with a touch of madness in him, so bear with him for a while [he might sober up] <br><br><strong>4 </strong>[with prep. ﺒ] [jur.] (of women whose marriage becomes terminated either by divorce or death of husbands) to refrain from marrying for a prescribed period while looking out for signs of pregnancy <br><br>(2:228) وَالْمُطَلَّقَاتُ يَتَرَبَّصْنَ بِأَنْفُسِهِنَّ ثَلاَثَةَ قُرُوءٍ divorced women [must] keep an eye on themselves [and look out for any sign of pregnancy] for three monthly periods [before remarrying] II [trans. with prep. ﺒ] to lie in wait for, to sit in ambush, to await evil happening to others <br><br>(9:98) وَيَتَرَبَّصُ بِكُمُ الدَّوَائِرَ they await [hoping for] turns of misfortune to befall you; *<br><br>(52:30) نَتَرَبَّصُ بِهِ رَيْبَ الْمَنُونِ we are awaiting his death/the evil turns of fate.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-ص.مُتَرَبِّصُون",
+        "label": "مُتَرَبِّصُون",
+        "definitionHtml": "مُتَرَبِّصُون mutarabbiṣūn [pl. of act. part. مُتَرَبِّصٌ mutarabbiṣ] one who sits in wait, one who sits back expecting something, usually bad, to happen to others <br><br>(52:31) قُلْ تَرَبَّصُوا فَإِنِّي مَعَكُمْ مِنَ الْمُتَرَبِّصِينَ say, ‘Wait [if you must], I too am, along with you, one of those waiting.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:13.357Z",
+      "refword": "2:226:5",
+      "lexword": "تَرَبُّصُ"
+    }
+  }
+}

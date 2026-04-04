@@ -1,0 +1,285 @@
+{
+  "root": "صعد",
+  "rootArabic": "صعد",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 6,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "صَعِيد",
+      "count": 4
+    },
+    {
+      "form": "تُصْعِد",
+      "count": 1
+    },
+    {
+      "form": "صَعَد",
+      "count": 1
+    },
+    {
+      "form": "صَعُود",
+      "count": 1
+    },
+    {
+      "form": "يصَّعَّد",
+      "count": 1
+    },
+    {
+      "form": "يَصْعَد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُصْعِد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَعِيد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَعِيد",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يصَّعَّد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَعِيد",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْعَد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَعَد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَعُود",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 153,
+      "text": "إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">تُصْعِدُونَ</a> وَلَا تَلْوُۥنَ تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "تُصْعِد"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 43,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ <a class=\"highlight-text\">صَعِيدًا</a> طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "derivedForms": [
+        "صَعِيد"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ <a class=\"highlight-text\">صَعِيدًا</a> طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "صَعِيد"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 125,
+      "text": "فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ صَدْرَهُۥ ضَيِّقًا حَرَجًا كَأَنَّمَا يَصَّعَّدُ فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "فَمَن يُرِدِ ٱللَّهُ أَن يَهْدِيَهُۥ يَشْرَحْ صَدْرَهُۥ صَدْرَهُۥ لِلْإِسْلَٰمِ ۖ وَمَن يُرِدْ أَن يُضِلَّهُۥ يَجْعَلْ صَدْرَهُۥ صَدْرَهُۥ ضَيِّقًا حَرَجًا كَأَنَّمَا <a class=\"highlight-text\">يَصَّعَّدُ</a> فِى ٱلسَّمَآءِ ۚ كَذَٰلِكَ يَجْعَلُ ٱللَّهُ ٱلرِّجْسَ عَلَى ٱلَّذِينَ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "يصَّعَّد"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 8,
+      "text": "وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا صَعِيدًا جُرُزًا",
+      "highlightedHtml": "وَإِنَّا لَجَٰعِلُونَ مَا عَلَيْهَا <a class=\"highlight-text\">صَعِيدًا</a> جُرُزًا",
+      "derivedForms": [
+        "صَعِيد"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 40,
+      "text": "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ صَعِيدًا زَلَقًا",
+      "highlightedHtml": "فَعَسَىٰ رَبِّىٓ أَن يُؤْتِيَنِ خَيْرًا مِّن جَنَّتِكَ وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِّنَ ٱلسَّمَآءِ فَتُصْبِحَ <a class=\"highlight-text\">صَعِيدًا</a> زَلَقًا",
+      "derivedForms": [
+        "صَعِيد"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 10,
+      "text": "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ يَصْعَدُ ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ يَبُورُ",
+      "highlightedHtml": "مَن كَانَ يُرِيدُ ٱلْعِزَّةَ فَلِلَّهِ ٱلْعِزَّةُ جَمِيعًا ۚ إِلَيْهِ <a class=\"highlight-text\">يَصْعَدُ</a> ٱلْكَلِمُ ٱلطَّيِّبُ وَٱلْعَمَلُ ٱلصَّٰلِحُ يَرْفَعُهُۥ ۚ وَٱلَّذِينَ يَمْكُرُونَ ٱلسَّيِّـَٔاتِ لَهُمْ عَذَابٌ شَدِيدٌ ۖ وَمَكْرُ أُو۟لَٰٓئِكَ هُوَ يَبُورُ",
+      "derivedForms": [
+        "يَصْعَد"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 17,
+      "text": "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا صَعَدًا",
+      "highlightedHtml": "لِّنَفْتِنَهُمْ فِيهِ ۚ وَمَن يُعْرِضْ عَن ذِكْرِ رَبِّهِۦ يَسْلُكْهُ عَذَابًا <a class=\"highlight-text\">صَعَدًا</a>",
+      "derivedForms": [
+        "صَعَد"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 17,
+      "text": "سَأُرْهِقُهُۥ صَعُودًا",
+      "highlightedHtml": "سَأُرْهِقُهُۥ <a class=\"highlight-text\">صَعُودًا</a>",
+      "derivedForms": [
+        "صَعُود"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:54.910Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "تُصْعِدُونَ is in the derivative form: تُصْعِد",
+    "rootDefinitionHtml": "ص/ع/د   ṣ–ʿ–d to climb up, to ascend, to surface<br>; high land, the upper crust of the earth, clean soil; (of breath) to labour, to undergo difficulty, distress. <br><br>Of this root, 6 forms occur 9 times in the Qur’an:<br> يَصْعَد yaṣʿad 1 time; يُصْعِد yuṣʿid 1 time; يصّعّد yaṣṣaʿʿad 1 time; صَعُدًا ṣaʿudan 1 time; صَعُودًا ṣaʿūdan 1 time and صََعِيد ṣaʿıd 4 times.",
+    "mainDefinitionHtml": "تُصْعِد tuṣʿid [imperf. of v. IV, intrans.] to move off briskly, to climb up in a hurry <br><br>(3:153) إِذْ تُصْعِدُونَ وَلاَ تَلْوُونَ عَلَى أَحَدٍ وَالرَّسُولُ يَدْعُوكُمْ فِى أُخْرَاكُمْ when you fled in mindless panic [lit. not paying heed to anyone] while the Messenger was calling out to you from behind you.",
+    "mainEntryId": "wdef-ص-ع-د.تُصْعِد",
+    "entries": [
+      {
+        "id": "wdef-ص-ع-د",
+        "label": "ص-ع-د",
+        "definitionHtml": "ص/ع/د   ṣ–ʿ–d to climb up, to ascend, to surface<br>; high land, the upper crust of the earth, clean soil; (of breath) to labour, to undergo difficulty, distress. <br><br>Of this root, 6 forms occur 9 times in the Qur’an:<br> يَصْعَد yaṣʿad 1 time; يُصْعِد yuṣʿid 1 time; يصّعّد yaṣṣaʿʿad 1 time; صَعُدًا ṣaʿudan 1 time; صَعُودًا ṣaʿūdan 1 time and صََعِيد ṣaʿıd 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-د.تُصْعِد",
+        "label": "تُصْعِد",
+        "definitionHtml": "تُصْعِد tuṣʿid [imperf. of v. IV, intrans.] to move off briskly, to climb up in a hurry <br><br>(3:153) إِذْ تُصْعِدُونَ وَلاَ تَلْوُونَ عَلَى أَحَدٍ وَالرَّسُولُ يَدْعُوكُمْ فِى أُخْرَاكُمْ when you fled in mindless panic [lit. not paying heed to anyone] while the Messenger was calling out to you from behind you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ع-د.صَعَد",
+        "label": "صَعَد",
+        "definitionHtml": "صَعَد ṣaʿad [v. n.] ascending, overpowering, severe <br><br>(72:17) وَمَنْ يُعْرِضْ عَنْ ذِكْرِ رَبِّهِ يَسْلُكْهُ عَذَابًا صَعَدًا but anyone who turns away from his Lord’s Revelation, He will send him into ascending/spiralling torment.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-د.صَعُود",
+        "label": "صَعُود",
+        "definitionHtml": "صَعُود ṣaʿūd [quasi-act. part.] insurmountable difficulty, great torment (or a name of a mountain of fire in Hell) <br><br>(74:16–17) كَلاَّ إِنَّهُ كَانَ لآِيَاتِنَا عَنِيدًا سَأُرْهِقُهُ صَعُودًا no!–he has been stubbornly hostile to Our revelation; I will inflict a spiralling torment on him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-د.صَعِيد",
+        "label": "صَعِيد",
+        "definitionHtml": "صَعِيد ṣaʿıd [n.] <br><br><strong>1 </strong>clean soil, dust <br><br>(4:43) فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ but if you cannot find water, then find clean earth and wipe over your faces and hands [with it] <br><br><strong>2 </strong>(elevated) flat land; barren land <br><br>(18:40) وَيُرْسِلَ عَلَيْهَا حُسْبَانًا مِنَ السَّمَاءِ فَتُصْبِحَ صَعِيدًا زَلَقًا and He will send on it a measured thunderbolt from the sky, so it will become slippery barren earth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-د.يصَّعَّد",
+        "label": "يصَّعَّد",
+        "definitionHtml": "يصَّعَّد yaṣṣaʿʿad (assimilated form of يَتَصَعَّد yataṣaʿʿad) [imperf. of v. VIII, intrans. with prep. فى] to laboriously ascend or climb <br><br>(6:125) وَمَنْ يُرِدْ أَنْ يُضِلَّهُ يَجْعَلْ صَدْرَهُ ضَيِّقًا حَرَجًا كَأَنَّمَا يَصَّعَّدُ فِى السَّمَاءِ but whomsoever He wishes to lead astray, He will make his chest tight, constricted as if he were ascending into the sky (some contemporary interpreters link this verse with the observable phenomenon of the loss of breath as we go up in the sky).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ع-د.يَصْعَد",
+        "label": "يَصْعَد",
+        "definitionHtml": "يَصْعَد yaṣʿad [imperf. v. intrans.] to go up, to rise up, to climb up, to ascend <br><br>(35:10) إِلَيْهِ يَصْعَدُ الْكَلِمُ الطَّيِّبُ وَالْعَمَلُ الصَّالِحُ يَرْفَعُهُ to Him ascend the good words and righteous deeds He raises [to Himself] [also interpreted as: the good work exalts the doer].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:50.030Z",
+      "refword": "3:153:2",
+      "lexword": "تُصْعِدُونَ"
+    }
+  }
+}

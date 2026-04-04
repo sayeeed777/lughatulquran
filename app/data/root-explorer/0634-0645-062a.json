@@ -1,0 +1,74 @@
+{
+  "root": "شمت",
+  "rootArabic": "شمت",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُشْمِت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُشْمِت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 150,
+      "text": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا <a class=\"highlight-text\">تُشْمِتْ</a> بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "تُشْمِت"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:22.314Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form IV) imperfect verb, jussive mood",
+    "derivativeNote": "تُشْمِتْ is in the derivative form: تُشْمِت",
+    "rootDefinitionHtml": "ش/م/ت   sh–m–t gloating, rejoicing over the misfortune of someone, particularly an adversary; to disappoint. Of this root, onlyتُشْمِت tushmit occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُشْمِت tushmit [imperf. of v. IV, trans.] to give someone cause to gloat over the bad lot of another <br><br>(7:150) إِنَّ الْقَوْمَ اسْتَضْعَفُونِي وَكَادُوا يَقْتُلُونَنِي فَلاَ تُشْمِتْ بِيَ الأَعْدَاءَ the people deemed me weak, and almost killed me!, do not give the enemies a chance to gloat over me!",
+    "mainEntryId": "wdef-ش-م-ت.تُشْمِت",
+    "entries": [
+      {
+        "id": "wdef-ش-م-ت",
+        "label": "ش-م-ت",
+        "definitionHtml": "ش/م/ت   sh–m–t gloating, rejoicing over the misfortune of someone, particularly an adversary; to disappoint. Of this root, onlyتُشْمِت tushmit occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-م-ت.تُشْمِت",
+        "label": "تُشْمِت",
+        "definitionHtml": "تُشْمِت tushmit [imperf. of v. IV, trans.] to give someone cause to gloat over the bad lot of another <br><br>(7:150) إِنَّ الْقَوْمَ اسْتَضْعَفُونِي وَكَادُوا يَقْتُلُونَنِي فَلاَ تُشْمِتْ بِيَ الأَعْدَاءَ the people deemed me weak, and almost killed me!, do not give the enemies a chance to gloat over me!",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:47.461Z",
+      "refword": "7:150:32",
+      "lexword": "تُشْمِتْ"
+    }
+  }
+}

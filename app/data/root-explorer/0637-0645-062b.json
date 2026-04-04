@@ -1,0 +1,83 @@
+{
+  "root": "طمث",
+  "rootArabic": "طمث",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَطْمِث",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَطْمِث",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 55,
+      "ayah": 56,
+      "text": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "highlightedHtml": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ <a class=\"highlight-text\">يَطْمِثْهُنَّ</a> إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "derivedForms": [
+        "يَطْمِث"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 74,
+      "text": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "highlightedHtml": "لَمْ <a class=\"highlight-text\">يَطْمِثْهُنَّ</a> إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ",
+      "derivedForms": [
+        "يَطْمِث"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:57.151Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَطْمِثْهُنَّ is in the derivative form: يَطْمِث",
+    "rootDefinitionHtml": "ط/م/ث   ṭ–m–th to place a halter on a horse or camel for the first time, to graze a piece of land for the first time; to deflower; to menstruate. Of this root, only 1 form, يَطْمِث yaṭmith, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَطْمِث yaṭmith [imperf. v., trans.] to deflower <br><br>(55:56)‏فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلاَ جَانٌّ in them [the Gardens] there will be maidens with modest gaze, whom none before them, neither man nor jinn, has touched.",
+    "mainEntryId": "wdef-ط-م-ث.يَطْمِث",
+    "entries": [
+      {
+        "id": "wdef-ط-م-ث",
+        "label": "ط-م-ث",
+        "definitionHtml": "ط/م/ث   ṭ–m–th to place a halter on a horse or camel for the first time, to graze a piece of land for the first time; to deflower; to menstruate. Of this root, only 1 form, يَطْمِث yaṭmith, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-م-ث.يَطْمِث",
+        "label": "يَطْمِث",
+        "definitionHtml": "يَطْمِث yaṭmith [imperf. v., trans.] to deflower <br><br>(55:56)‏فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنْسٌ قَبْلَهُمْ وَلاَ جَانٌّ in them [the Gardens] there will be maidens with modest gaze, whom none before them, neither man nor jinn, has touched.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:46.678Z",
+      "refword": "55:56:5",
+      "lexword": "يَطْمِثْهُنَّ"
+    }
+  }
+}

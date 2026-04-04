@@ -1,0 +1,74 @@
+{
+  "root": "بيد",
+  "rootArabic": "بيد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَبِيدُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَبِيدُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 35,
+      "text": "وَدَخَلَ جَنَّتَهُۥ وَهُوَ ظَالِمٌ لِّنَفْسِهِۦ قَالَ مَآ أَظُنُّ أَن تَبِيدَ هَٰذِهِۦٓ أَبَدًا",
+      "highlightedHtml": "وَدَخَلَ جَنَّتَهُۥ وَهُوَ ظَالِمٌ لِّنَفْسِهِۦ قَالَ مَآ أَظُنُّ أَن <a class=\"highlight-text\">تَبِيدَ</a> هَٰذِهِۦٓ أَبَدًا",
+      "derivedForms": [
+        "تَبِيدُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:11.567Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "تَبِيدَ is in the derivative form: تَبِيدُ",
+    "rootDefinitionHtml": "ب/ي/د b–y–d desert; to vanish, to be cut off; to perish, to become extinct. Of this root, تَبِيدُ tabıd occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَبِيدُ tabıd [imperf. of v. بَادَ bāda, intrans.] to perish, to become extinct <br><br>(18:35) مَا أَظُنُّ أَنْ تَبِيدَ هَذِهِ أَبَدًا I do not think that this will ever perish.",
+    "mainEntryId": "wdef-ب-ي-د.تَبِيدُ",
+    "entries": [
+      {
+        "id": "wdef-ب-ي-د",
+        "label": "ب-ي-د",
+        "definitionHtml": "ب/ي/د b–y–d desert; to vanish, to be cut off; to perish, to become extinct. Of this root, تَبِيدُ tabıd occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ي-د.تَبِيدُ",
+        "label": "تَبِيدُ",
+        "definitionHtml": "تَبِيدُ tabıd [imperf. of v. بَادَ bāda, intrans.] to perish, to become extinct <br><br>(18:35) مَا أَظُنُّ أَنْ تَبِيدَ هَذِهِ أَبَدًا I do not think that this will ever perish.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:11.173Z",
+      "refword": "18:35:10",
+      "lexword": "تَبِيدَ"
+    }
+  }
+}

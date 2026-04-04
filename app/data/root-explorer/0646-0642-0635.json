@@ -1,0 +1,289 @@
+{
+  "root": "نقص",
+  "rootArabic": "نقص",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 9,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "نَقَصَ",
+      "count": 6
+    },
+    {
+      "form": "نَقْصٌ",
+      "count": 2
+    },
+    {
+      "form": "مَنْقُوصٌ",
+      "count": 1
+    },
+    {
+      "form": "يُنْقَصُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقْصٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقْصٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنْقُوصٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنْقَصُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَصَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 155,
+      "text": "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ <a class=\"highlight-text\">وَنَقْصٍ</a> مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "نَقْصٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 130,
+      "text": "وَلَقَدْ أَخَذْنَآ آلَ فِرْعَوْنَ بِٱلسِّنِينَ وَنَقْصٍ مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ أَخَذْنَآ آلَ فِرْعَوْنَ بِٱلسِّنِينَ <a class=\"highlight-text\">وَنَقْصٍ</a> مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "derivedForms": [
+        "نَقْصٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 4,
+      "text": "إِلَّا ٱلَّذِينَ عَٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ يَنقُصُوكُمْ شَيْـًٔا وَلَمْ يُظَٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ عَٰهَدتُّم مِّنَ ٱلْمُشْرِكِينَ ثُمَّ لَمْ <a class=\"highlight-text\">يَنقُصُوكُمْ</a> شَيْـًٔا وَلَمْ يُظَٰهِرُوا۟ عَلَيْكُمْ أَحَدًا فَأَتِمُّوٓا۟ إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَّقِينَ",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 84,
+      "text": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "highlightedHtml": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا <a class=\"highlight-text\">تَنقُصُوا۟</a> ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 109,
+      "text": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُمْ مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنقُوصٍ",
+      "highlightedHtml": "فَلَا تَكُ فِى مِرْيَةٍ مِّمَّا يَعْبُدُ هَٰٓؤُلَآءِ ۚ مَا يَعْبُدُونَ إِلَّا كَمَا يَعْبُدُ ءَابَآؤُهُمْ مِّن قَبْلُ ۚ وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ <a class=\"highlight-text\">مَنقُوصٍ</a>",
+      "derivedForms": [
+        "مَنْقُوصٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 41,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَا ۚ وَٱللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِۦ ۚ وَهُوَ سَرِيعُ ٱلْحِسَابِ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّا نَأْتِى ٱلْأَرْضَ <a class=\"highlight-text\">نَنقُصُهَا</a> مِنْ أَطْرَافِهَا ۚ وَٱللَّهُ يَحْكُمُ لَا مُعَقِّبَ لِحُكْمِهِۦ ۚ وَهُوَ سَرِيعُ ٱلْحِسَابِ",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 44,
+      "text": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ نَنقُصُهَا مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "highlightedHtml": "بَلْ مَتَّعْنَا هَٰٓؤُلَآءِ وَءَابَآءَهُمْ حَتَّىٰ طَالَ عَلَيْهِمُ ٱلْعُمُرُ ۗ أَفَلَا يَرَوْنَ أَنَّا نَأْتِى ٱلْأَرْضَ <a class=\"highlight-text\">نَنقُصُهَا</a> مِنْ أَطْرَافِهَآ ۚ أَفَهُمُ ٱلْغَٰلِبُونَ",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 11,
+      "text": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا يُنقَصُ مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "وَٱللَّهُ خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ جَعَلَكُمْ أَزْوَٰجًا ۚ وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَمَا يُعَمَّرُ مِن مُّعَمَّرٍ وَلَا <a class=\"highlight-text\">يُنقَصُ</a> مِنْ عُمُرِهِۦٓ إِلَّا فِى كِتَٰبٍ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "يُنْقَصُ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 4,
+      "text": "قَدْ عَلِمْنَا مَا تَنقُصُ ٱلْأَرْضُ مِنْهُمْ ۖ وَعِندَنَا كِتَٰبٌ حَفِيظٌۢ",
+      "highlightedHtml": "قَدْ عَلِمْنَا مَا <a class=\"highlight-text\">تَنقُصُ</a> ٱلْأَرْضُ مِنْهُمْ ۖ وَعِندَنَا كِتَٰبٌ حَفِيظٌۢ",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 3,
+      "text": "نِّصْفَهُۥٓ أَوِ ٱنقُصْ مِنْهُ قَلِيلًا",
+      "highlightedHtml": "نِّصْفَهُۥٓ أَوِ <a class=\"highlight-text\">ٱنقُصْ</a> مِنْهُ قَلِيلًا",
+      "derivedForms": [
+        "نَقَصَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:57.861Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "وَنَقْصٍ is in the derivative form: نَقْصٌ",
+    "rootDefinitionHtml": "ن/ق/ص   n–q–ṣ to decrease, to diminish, loss<br>; to disparage; weakness in the mind, shortcomings, faults. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> تَنْقُصُ tanquṣ 6 times; يُنْقَصُ yunqaṣ 1 time; نَقْصٌ naqṣ 2 times and مَنْقُوصٌ manqūṣ 1 time.",
+    "mainDefinitionHtml": "نَقْصٌ naqṣ [v. n./n.] the act of reducing, diminishing, loss <br><br>(2:155) وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الأَمْوَالِ وَالأَنْفُسِ وَالثَّمَرَاتِ We will certainly test you with a measure of fear and hunger, and reduction of property, lives and crops.",
+    "mainEntryId": "wdef-ن-ق-ص.نَقْصٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ق-ص",
+        "label": "ن-ق-ص",
+        "definitionHtml": "ن/ق/ص   n–q–ṣ to decrease, to diminish, loss<br>; to disparage; weakness in the mind, shortcomings, faults. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> تَنْقُصُ tanquṣ 6 times; يُنْقَصُ yunqaṣ 1 time; نَقْصٌ naqṣ 2 times and مَنْقُوصٌ manqūṣ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ص.نَقْصٌ",
+        "label": "نَقْصٌ",
+        "definitionHtml": "نَقْصٌ naqṣ [v. n./n.] the act of reducing, diminishing, loss <br><br>(2:155) وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ وَالْجُوعِ وَنَقْصٍ مِنَ الأَمْوَالِ وَالأَنْفُسِ وَالثَّمَرَاتِ We will certainly test you with a measure of fear and hunger, and reduction of property, lives and crops.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ق-ص.مَنْقُوصٌ",
+        "label": "مَنْقُوصٌ",
+        "definitionHtml": "مَنْقُوصٌ manqūṣ [pass. part.] that which is diminished, reduced <br><br>(11:109) وَإِنَّا لَمُوَفُّوهُمْ نَصِيبَهُمْ غَيْرَ مَنْقُوصٍ We will certainly give to them their share undiminished.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ص.نَقَصَ",
+        "label": "نَقَصَ",
+        "definitionHtml": "نَقَصَ naqaṣa u I [v. trans.] <br><br><strong>1 </strong>to shorten, to reduce, to lessen <br><br>(21:44) أَفَلاَ يَرَوْنَ أَنَّا نَأْتِي الأَرْضَ نَنْقُصُهَا مِنْ أَطْرَافِهَا do they not see that We visit the land and diminish it at its edges? (the reference here is traditionally taken to be to the steady shrinking of the land under the control of the unbelievers at the time of the Prophet; ‘contemporary scientific’ interpreters of the Qur’an, however, see in this verse a reference to the geographical fact that the Earth’s sphere looks as if it has been clipped at the edges) <br><br><strong>2 </strong>to consume, to dismember <br><br>(50:4) قَدْ عَلِمْنَا مَا تَنْقُصُ الأَرْضُ مِنْهُمْ We know what the earth consumes of them II [v. doubly trans.] to short‐change, to give less than is due, to leave wanting, to leave short of <br><br>(9:4) ثُمَّ لَمْ يَنْقُصُوكُمْ شَيْئًا and they have not fallen short in anything [that is due to you].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ص.يُنْقَصُ",
+        "label": "يُنْقَصُ",
+        "definitionHtml": "يُنْقَصُ yunqaṣ [imperf. pass. v.] to be lessened, to be reduced <br><br>(35:11) وَمَا يُعَمَّرُ مِنْ مُعَمَّرٍ وَلاَ يُنْقَصُ مِنْ عُمُرِهِ إِلاَّ فِى كِتَابٍ no person is granted longevity nor is aught taken away from his life‐span, but it is in a Record/Book.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:06.794Z",
+      "refword": "2:155:6",
+      "lexword": "وَنَقْصٍ"
+    }
+  }
+}

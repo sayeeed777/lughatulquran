@@ -1,0 +1,74 @@
+{
+  "root": "فسر",
+  "rootArabic": "فسر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَفْسير",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفْسير",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 25,
+      "ayah": 33,
+      "text": "وَلَا يَأْتُونَكَ بِمَثَلٍ إِلَّا جِئْنَٰكَ بِٱلْحَقِّ وَأَحْسَنَ تَفْسِيرًا",
+      "highlightedHtml": "وَلَا يَأْتُونَكَ بِمَثَلٍ إِلَّا جِئْنَٰكَ بِٱلْحَقِّ وَأَحْسَنَ <a class=\"highlight-text\">تَفْسِيرًا</a>",
+      "derivedForms": [
+        "تَفْسير"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:52.749Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form II) verbal noun",
+    "derivativeNote": "تَفْسِيرًا is in the derivative form: تَفْسير",
+    "rootDefinitionHtml": "ف/س/ر   f–s–r to explain, to interpret, to explicate, to elucidate. Of this root, تَفْسير tafsır occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَفْسير tafsır [v. n. of v. II] explanation, interpretation, elucidation <br><br>(25:33)‏ ‏جِئْنَاكَ‏ ‏بِالْحَقِّ‏ ‏وَأَحْسَنَ‏ ‏تَفْسِيرًا‏ يَأْتُونَكَ‏ ‏بِمَثَلٍ‏ ‏إِلاَّ‏‏ وَلاَ they never offer an argument to you without Our bringing you the truth and a better explanation.",
+    "mainEntryId": "wdef-ف-س-ر.تَفْسير",
+    "entries": [
+      {
+        "id": "wdef-ف-س-ر",
+        "label": "ف-س-ر",
+        "definitionHtml": "ف/س/ر   f–s–r to explain, to interpret, to explicate, to elucidate. Of this root, تَفْسير tafsır occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-س-ر.تَفْسير",
+        "label": "تَفْسير",
+        "definitionHtml": "تَفْسير tafsır [v. n. of v. II] explanation, interpretation, elucidation <br><br>(25:33)‏ ‏جِئْنَاكَ‏ ‏بِالْحَقِّ‏ ‏وَأَحْسَنَ‏ ‏تَفْسِيرًا‏ يَأْتُونَكَ‏ ‏بِمَثَلٍ‏ ‏إِلاَّ‏‏ وَلاَ they never offer an argument to you without Our bringing you the truth and a better explanation.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:26.143Z",
+      "refword": "25:33:8",
+      "lexword": "تَفْسِيرًا"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "root": "وصل",
+  "rootArabic": "وصل",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "تَصِلُ",
+      "count": 7
+    },
+    {
+      "form": "يُوصَلُ",
+      "count": 3
+    },
+    {
+      "form": "وَصَّلَ",
+      "count": 1
+    },
+    {
+      "form": "وَصِيلَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوصَلُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَصِلُ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَصِيلَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَصِلُ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَصِلُ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يُوصَلُ",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "تَصِلُ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَصِلُ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "وَصَّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 27,
+      "text": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن <a class=\"highlight-text\">يُوصَلَ</a> وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "يُوصَلُ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 90,
+      "text": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ <a class=\"highlight-text\">يَصِلُونَ</a> إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "derivedForms": [
+        "تَصِلُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 103,
+      "text": "مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍ وَلَا سَآئِبَةٍ وَلَا وَصِيلَةٍ وَلَا حَامٍ ۙ وَلَٰكِنَّ ٱلَّذِينَ كَفَرُوا۟ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "highlightedHtml": "مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍ وَلَا سَآئِبَةٍ وَلَا <a class=\"highlight-text\">وَصِيلَةٍ</a> وَلَا حَامٍ ۙ وَلَٰكِنَّ ٱلَّذِينَ كَفَرُوا۟ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "وَصِيلَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 136,
+      "text": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا <a class=\"highlight-text\">يَصِلُ</a> إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ <a class=\"highlight-text\">يَصِلُ</a> إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "derivedForms": [
+        "تَصِلُ",
+        "تَصِلُ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 70,
+      "text": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
+      "highlightedHtml": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا <a class=\"highlight-text\">تَصِلُ</a> إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
+      "derivedForms": [
+        "تَصِلُ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 81,
+      "text": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن <a class=\"highlight-text\">يَصِلُوٓا۟</a> إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "derivedForms": [
+        "تَصِلُ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 21,
+      "text": "وَٱلَّذِينَ يَصِلُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيَخْشَوْنَ رَبَّهُمْ وَيَخَافُونَ سُوٓءَ ٱلْحِسَابِ",
+      "highlightedHtml": "وَٱلَّذِينَ <a class=\"highlight-text\">يَصِلُونَ</a> مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن <a class=\"highlight-text\">يُوصَلَ</a> وَيَخْشَوْنَ رَبَّهُمْ وَيَخَافُونَ سُوٓءَ ٱلْحِسَابِ",
+      "derivedForms": [
+        "تَصِلُ",
+        "يُوصَلُ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 25,
+      "text": "وَٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۙ أُو۟لَٰٓئِكَ لَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "highlightedHtml": "وَٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن <a class=\"highlight-text\">يُوصَلَ</a> وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۙ أُو۟لَٰٓئِكَ لَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "derivedForms": [
+        "يُوصَلُ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 35,
+      "text": "قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ وَنَجْعَلُ لَكُمَا سُلْطَٰنًا فَلَا يَصِلُونَ إِلَيْكُمَا ۚ بِـَٔايَٰتِنَآ أَنتُمَا وَمَنِ ٱتَّبَعَكُمَا ٱلْغَٰلِبُونَ",
+      "highlightedHtml": "قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ وَنَجْعَلُ لَكُمَا سُلْطَٰنًا فَلَا <a class=\"highlight-text\">يَصِلُونَ</a> إِلَيْكُمَا ۚ بِـَٔايَٰتِنَآ أَنتُمَا وَمَنِ ٱتَّبَعَكُمَا ٱلْغَٰلِبُونَ",
+      "derivedForms": [
+        "تَصِلُ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 51,
+      "text": "وَلَقَدْ وَصَّلْنَا لَهُمُ ٱلْقَوْلَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">وَصَّلْنَا</a> لَهُمُ ٱلْقَوْلَ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+      "derivedForms": [
+        "وَصَّلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:24.772Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive imperfect verb, subjunctive mood",
+    "derivativeNote": "يُوصَلَ is in the derivative form: يُوصَلُ",
+    "rootDefinitionHtml": "و/ص/ل   w–ṣ–l joint<br>; link, large expanse of land; prosperity, (of land) fertility; to arrive at, to reach; to deliver, to relate; to be kin; to deny one’s ancestors. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> تَصِلُ taṣil 7 times; وَصَّلَ waṣṣala 1 time; يُوصَلُ yūṣal 3 times and وَصِيلَةٌ waṣılatun 1 time.",
+    "mainDefinitionHtml": "يُوصَلُ yūṣal [pass. imperf. of v. IV أَوْصَلَ ʾawṣala] to be joined together <br><br>(13:25) وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ and they sever what God has commanded should be joined.",
+    "mainEntryId": "wdef-و-ص-ل.يُوصَلُ",
+    "entries": [
+      {
+        "id": "wdef-و-ص-ل",
+        "label": "و-ص-ل",
+        "definitionHtml": "و/ص/ل   w–ṣ–l joint<br>; link, large expanse of land; prosperity, (of land) fertility; to arrive at, to reach; to deliver, to relate; to be kin; to deny one’s ancestors. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> تَصِلُ taṣil 7 times; وَصَّلَ waṣṣala 1 time; يُوصَلُ yūṣal 3 times and وَصِيلَةٌ waṣılatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ص-ل.يُوصَلُ",
+        "label": "يُوصَلُ",
+        "definitionHtml": "يُوصَلُ yūṣal [pass. imperf. of v. IV أَوْصَلَ ʾawṣala] to be joined together <br><br>(13:25) وَيَقْطَعُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ and they sever what God has commanded should be joined.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ص-ل.تَصِلُ",
+        "label": "تَصِلُ",
+        "definitionHtml": "تَصِلُ taṣil [imperf. of v. وَصَلَ waṣala] I [intrans.] <br><br><strong>1 </strong>to reach for <br><br>(11:70) فَلَمَّا رَأَى أَيْدِيَهُمْ لاَ تَصِلُ إِلَيْهِ نَكِرَهُمْ when he saw that their hands did not go for it [the food], he became doubtful about their identity <br><br><strong>2 </strong>to associate with, to go to for refuge <br><br>(4:90) إِلاَّ الَّذِينَ يَصِلُونَ إِلَى قَوْمٍ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ but those who seek refuge with people with whom you have a treaty II [trans] to join together <br><br>(13:21) وَالَّذِينَ يَصِلُونَ مَا أَمَرَ اللَّهُ بِهِ أَنْ يُوصَلَ and those who join together what God has commanded should be joined.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ص-ل.وَصِيلَةٌ",
+        "label": "وَصِيلَةٌ",
+        "definitionHtml": "وَصِيلَةٌ waṣılatun [n.] term denoting a female sheep, goat or a camel born with a male twin, both having been preceded by five, six or seven births by their mother. In pre‐Islamic practice the male twin would not be slaughtered and his twin sister’s milk would be denied to women; such practices were said to have been ordained by deities <br><br>(5:103) مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلاَ سَائِبَةٍ وَلاَ وَصِيلَةٍ وَلاَ حَامٍ God did not institute such [practices] as the dedication of baḥıratun, sāʾibatun, waṣılatun or ḥām (q.v.) [to idols].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ص-ل.وَصَّلَ",
+        "label": "وَصَّلَ",
+        "definitionHtml": "وَصَّلَ waṣṣala [v. II, trans.] to cause to join together, to cause to be in a sequence <br><br>(28:51) وَلَقَدْ وَصَّلْنَا لَهُمُ الْقَوْلَ لَعَلَّهُمْ يَتَذَكَّرُونَ We have caused Our Word to come to them in sequence with no interruption so that they may keep it in mind.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:54.938Z",
+      "refword": "2:27:14",
+      "lexword": "يُوصَلَ"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "root": "لزم",
+  "rootArabic": "لزم",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "ألْزَمَ",
+      "count": 3
+    },
+    {
+      "form": "لِزَام",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْزَمَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْزَمَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِزَام",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِزَام",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْزَمَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 28,
+      "text": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةً مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ أَنُلْزِمُكُمُوهَا وَأَنتُمْ لَهَا كَٰرِهُونَ",
+      "highlightedHtml": "قَالَ يَٰقَوْمِ أَرَءَيْتُمْ إِن كُنتُ عَلَىٰ بَيِّنَةٍ مِّن رَّبِّى وَءَاتَىٰنِى رَحْمَةً مِّنْ عِندِهِۦ فَعُمِّيَتْ عَلَيْكُمْ <a class=\"highlight-text\">أَنُلْزِمُكُمُوهَا</a> وَأَنتُمْ لَهَا كَٰرِهُونَ",
+      "derivedForms": [
+        "ألْزَمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 13,
+      "text": "وَكُلَّ إِنسَٰنٍ أَلْزَمْنَٰهُ طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًا يَلْقَىٰهُ مَنشُورًا",
+      "highlightedHtml": "وَكُلَّ إِنسَٰنٍ <a class=\"highlight-text\">أَلْزَمْنَٰهُ</a> طَٰٓئِرَهُۥ فِى عُنُقِهِۦ ۖ وَنُخْرِجُ لَهُۥ يَوْمَ ٱلْقِيَٰمَةِ كِتَٰبًا يَلْقَىٰهُ مَنشُورًا",
+      "derivedForms": [
+        "ألْزَمَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 129,
+      "text": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَكَانَ لِزَامًا وَأَجَلٌ مُّسَمًّى",
+      "highlightedHtml": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَكَانَ <a class=\"highlight-text\">لِزَامًا</a> وَأَجَلٌ مُّسَمًّى",
+      "derivedForms": [
+        "لِزَام"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 77,
+      "text": "قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ لِزَامًۢا",
+      "highlightedHtml": "قُلْ مَا يَعْبَؤُا۟ بِكُمْ رَبِّى لَوْلَا دُعَآؤُكُمْ ۖ فَقَدْ كَذَّبْتُمْ فَسَوْفَ يَكُونُ <a class=\"highlight-text\">لِزَامًۢا</a>",
+      "derivedForms": [
+        "لِزَام"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 26,
+      "text": "إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "highlightedHtml": "إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ <a class=\"highlight-text\">وَأَلْزَمَهُمْ</a> كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "derivedForms": [
+        "ألْزَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:29.367Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) imperfect verb",
+    "derivativeNote": "أَنُلْزِمُكُمُوهَا is in the derivative form: ألْزَمَ",
+    "rootDefinitionHtml": "ل/ز/م   l–z–m to cling, to adhere; to accompany; to persist, to force, to impose as a duty, necessity, obligation, compulsory. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ألْزَمَ ʾalzama 3 times and لِزَام lizām 2 times.",
+    "mainDefinitionHtml": "ألْزَمَ ʾalzama [v. IV. doubly trans.] <br><br><strong>1 </strong>to fasten or bind to *<br><br>(17:13) وَكُلَّ‏ ‏إِنْسَانٍ‏ ‏أَلْزَمْنَاهُ‏ ‏طَائِرَهُ فِى ‏عُنُقِهِ‏‏‏ and every human–We have bound his destiny to his neck (or, made him responsible for his deeds) <br><br><strong>2 </strong>to compel someone to, to assign something as a duty to <br><br>(11:28) أَنُلْزِمُكُمُوهَا وَأَنْتُمْ لَهَا كَارِهُونَ shall we compel you to it while you are averse to it?",
+    "mainEntryId": "wdef-ل-ز-م.ألْزَمَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ز-م",
+        "label": "ل-ز-م",
+        "definitionHtml": "ل/ز/م   l–z–m to cling, to adhere; to accompany; to persist, to force, to impose as a duty, necessity, obligation, compulsory. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> ألْزَمَ ʾalzama 3 times and لِزَام lizām 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ز-م.ألْزَمَ",
+        "label": "ألْزَمَ",
+        "definitionHtml": "ألْزَمَ ʾalzama [v. IV. doubly trans.] <br><br><strong>1 </strong>to fasten or bind to *<br><br>(17:13) وَكُلَّ‏ ‏إِنْسَانٍ‏ ‏أَلْزَمْنَاهُ‏ ‏طَائِرَهُ فِى ‏عُنُقِهِ‏‏‏ and every human–We have bound his destiny to his neck (or, made him responsible for his deeds) <br><br><strong>2 </strong>to compel someone to, to assign something as a duty to <br><br>(11:28) أَنُلْزِمُكُمُوهَا وَأَنْتُمْ لَهَا كَارِهُونَ shall we compel you to it while you are averse to it?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ز-م.لِزَام",
+        "label": "لِزَام",
+        "definitionHtml": "لِزَام lizām [v. n.] inevitable judgement <br><br>(25:77) فَقَدْ‏ ‏كَذَّبْتُمْ ‏‏‏فَسَوْفَ‏ ‏يَكُونُ‏ ‏لِزَامًا‏ now you have denied [the truth], the [punishment] will be inevitable. ‏",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:17.946Z",
+      "refword": "11:28:16",
+      "lexword": "أَنُلْزِمُكُمُوهَا"
+    }
+  }
+}

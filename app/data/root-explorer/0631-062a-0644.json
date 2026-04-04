@@ -1,0 +1,122 @@
+{
+  "root": "رتل",
+  "rootArabic": "رتل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَرْتِيلٌ",
+      "count": 4
+    },
+    {
+      "form": "رَتَّلَ",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "تَرْتِيلٌ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "رَتَّلَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "تَرْتِيلٌ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "رَتَّلَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 25,
+      "ayah": 32,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ٱلْقُرْءَانُ جُمْلَةً وَٰحِدَةً ۚ كَذَٰلِكَ لِنُثَبِّتَ بِهِۦ فُؤَادَكَ ۖ وَرَتَّلْنَٰهُ وَرَتَّلْنَٰهُ تَرْتِيلًا تَرْتِيلًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَوْلَا نُزِّلَ عَلَيْهِ ٱلْقُرْءَانُ جُمْلَةً وَٰحِدَةً ۚ كَذَٰلِكَ لِنُثَبِّتَ بِهِۦ فُؤَادَكَ ۖ <a class=\"highlight-text\">وَرَتَّلْنَٰهُ</a> <a class=\"highlight-text\">وَرَتَّلْنَٰهُ</a> <a class=\"highlight-text\">تَرْتِيلًا</a> <a class=\"highlight-text\">تَرْتِيلًا</a>",
+      "derivedForms": [
+        "رَتَّلَ",
+        "رَتَّلَ",
+        "تَرْتِيلٌ",
+        "تَرْتِيلٌ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 4,
+      "text": "أَوْ زِدْ عَلَيْهِ وَرَتِّلِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا تَرْتِيلًا",
+      "highlightedHtml": "أَوْ زِدْ عَلَيْهِ <a class=\"highlight-text\">وَرَتِّلِ</a> <a class=\"highlight-text\">وَرَتِّلِ</a> ٱلْقُرْءَانَ <a class=\"highlight-text\">تَرْتِيلًا</a> <a class=\"highlight-text\">تَرْتِيلًا</a>",
+      "derivedForms": [
+        "رَتَّلَ",
+        "رَتَّلَ",
+        "تَرْتِيلٌ",
+        "تَرْتِيلٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:04.504Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "وَرَتَّلْنَٰهُ is in the derivative form: رَتَّلَ",
+    "rootDefinitionHtml": "ر/ت/ل   r–t–l to have well‐formed and neatly spaced teeth; to be symmetrical, to be neatly arranged; to enunciate clearly and deliberately; the good of everything. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> رَتَّلَ rattala and تَرْتِيلٌ tartıl.",
+    "mainDefinitionHtml": "رَتَّلَ rattala [v. II, trans.] <br><br><strong>1 </strong>to arrange neatly, to give in successively distinct parts <br><br>(25:32) وَقَالَ الَّذِينَ كَفَرُوا لَوْلاَ نُزِّلَ عَلَيْهِ الْقُرْءَانُ جُمْلَةً وَاحِدَةً كَذَلِكَ لِنُثَبِّتَ بِهِ فُؤَادَكَ وَرَتَّلْنَاهُ تَرْتِيلا those who disbelieve say, ‘If only the Qur’an was sent down to him in one body!’, thus [We sent it] to strengthen your heart, and We have given it in successive, distinct parts <br><br><strong>2 </strong>to enunciate clearly, deliberately and distinctly <br><br>(73:4) وَرَتِّلِ الْقُرْءَانَ تَرْتِيلا and recite the Qur’an distinctly.",
+    "mainEntryId": "wdef-ر-ت-ل.رَتَّلَ",
+    "entries": [
+      {
+        "id": "wdef-ر-ت-ل",
+        "label": "ر-ت-ل",
+        "definitionHtml": "ر/ت/ل   r–t–l to have well‐formed and neatly spaced teeth; to be symmetrical, to be neatly arranged; to enunciate clearly and deliberately; the good of everything. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> رَتَّلَ rattala and تَرْتِيلٌ tartıl.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ت-ل.رَتَّلَ",
+        "label": "رَتَّلَ",
+        "definitionHtml": "رَتَّلَ rattala [v. II, trans.] <br><br><strong>1 </strong>to arrange neatly, to give in successively distinct parts <br><br>(25:32) وَقَالَ الَّذِينَ كَفَرُوا لَوْلاَ نُزِّلَ عَلَيْهِ الْقُرْءَانُ جُمْلَةً وَاحِدَةً كَذَلِكَ لِنُثَبِّتَ بِهِ فُؤَادَكَ وَرَتَّلْنَاهُ تَرْتِيلا those who disbelieve say, ‘If only the Qur’an was sent down to him in one body!’, thus [We sent it] to strengthen your heart, and We have given it in successive, distinct parts <br><br><strong>2 </strong>to enunciate clearly, deliberately and distinctly <br><br>(73:4) وَرَتِّلِ الْقُرْءَانَ تَرْتِيلا and recite the Qur’an distinctly.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ت-ل.تَرْتِيلٌ",
+        "label": "تَرْتِيلٌ",
+        "definitionHtml": "تَرْتِيلٌ tartıl [v. n. used adverbially] <br><br><strong>1 </strong>in a neat and orderly arrangement, distinct <br><br>(25:32) وَرَتَّلْنَاهُ تَرْتِيلا and We have given it in successive, distinct parts <br><br><strong>2 </strong>reciting distinctly <br><br>(73:4) وَرَتِّلِ الْقُرْءَانَ تَرْتِيلا and recite the Qur’an slowly and distinctly.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:24.419Z",
+      "refword": "25:32:14",
+      "lexword": "وَرَتَّلْنَٰهُ"
+    }
+  }
+}

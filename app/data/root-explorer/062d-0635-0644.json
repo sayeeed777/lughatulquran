@@ -1,0 +1,74 @@
+{
+  "root": "حصل",
+  "rootArabic": "حصل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "حُصِّلَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 100,
+      "surahName": "Al-'Adiyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُصِّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 100,
+      "ayah": 10,
+      "text": "وَحُصِّلَ مَا فِى ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَحُصِّلَ</a> مَا فِى ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "حُصِّلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:18.768Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) passive perfect verb",
+    "derivativeNote": "وَحُصِّلَ is in the derivative form: حُصِّلَ",
+    "rootDefinitionHtml": "ح/ص/ل   ḥ–ṣ–l residue, yield, crop; result, to come out, reject, waste; to collect. Of this root, حُصِّلَ ḥuṣṣila occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "حُصِّلَ ḥuṣṣila [pass. of v. II] to be collected, to be made manifest <br><br>(100:10) وَحُصِّلَ مَا فِى الصُّدُورِ when what is in the bosoms (or, the minds) is brought out (or, gathered/scrutinized).",
+    "mainEntryId": "wdef-ح-ص-ل.حُصِّلَ",
+    "entries": [
+      {
+        "id": "wdef-ح-ص-ل",
+        "label": "ح-ص-ل",
+        "definitionHtml": "ح/ص/ل   ḥ–ṣ–l residue, yield, crop; result, to come out, reject, waste; to collect. Of this root, حُصِّلَ ḥuṣṣila occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ل.حُصِّلَ",
+        "label": "حُصِّلَ",
+        "definitionHtml": "حُصِّلَ ḥuṣṣila [pass. of v. II] to be collected, to be made manifest <br><br>(100:10) وَحُصِّلَ مَا فِى الصُّدُورِ when what is in the bosoms (or, the minds) is brought out (or, gathered/scrutinized).",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:03.791Z",
+      "refword": "100:10:1",
+      "lexword": "وَحُصِّلَ"
+    }
+  }
+}

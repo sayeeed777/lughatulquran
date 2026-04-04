@@ -1,0 +1,180 @@
+{
+  "root": "اسف",
+  "rootArabic": "اسف",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "أَسَف",
+      "count": 2
+    },
+    {
+      "form": "أَسِفٌ",
+      "count": 2
+    },
+    {
+      "form": "آسَفَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَسِفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَسَف",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَسَف",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَسِفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "آسَفَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 150,
+      "text": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ <a class=\"highlight-text\">أَسِفًا</a> قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَسِفٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 84,
+      "text": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ <a class=\"highlight-text\">يَٰٓأَسَفَىٰ</a> عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "أَسَف"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 6,
+      "text": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "highlightedHtml": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ <a class=\"highlight-text\">أَسَفًا</a>",
+      "derivedForms": [
+        "أَسَف"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 86,
+      "text": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
+      "highlightedHtml": "فَرَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ <a class=\"highlight-text\">أَسِفًا</a> ۚ قَالَ يَٰقَوْمِ أَلَمْ يَعِدْكُمْ رَبُّكُمْ وَعْدًا حَسَنًا ۚ أَفَطَالَ عَلَيْكُمُ ٱلْعَهْدُ أَمْ أَرَدتُّمْ أَن يَحِلَّ عَلَيْكُمْ غَضَبٌ مِّن رَّبِّكُمْ فَأَخْلَفْتُم مَّوْعِدِى",
+      "derivedForms": [
+        "أَسِفٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 55,
+      "text": "فَلَمَّآ آسَفُونَا ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "فَلَمَّآ <a class=\"highlight-text\">آسَفُونَا</a> ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَٰهُمْ أَجْمَعِينَ",
+      "derivedForms": [
+        "آسَفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:31.625Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "أَسِفًا is in the derivative form: أَسِفٌ",
+    "rootDefinitionHtml": "أ/س/ف ʾ–s–f sadness, anger, sorrow, to offend. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> آسَفَ ʾāsafa 1 time; أَسَفٌ ʾasaf 2 times and أَسِفٌ ʾasif 2 times.",
+    "mainDefinitionHtml": "أَسِفٌ ʾasif [quasi-intens. act. part.] very angry, most indignant, aggrieved, grieving, very sad <br><br>(7:150) وَلَمَّا رَجَعَ مُوسَى إِلَى قَوْمِهِ غَضْبَانَ أَسِفًا and when Moses returned to his people, angry and aggrieved.",
+    "mainEntryId": "wdef-أ-س-ف.أَسِفٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-س-ف",
+        "label": "أ-س-ف",
+        "definitionHtml": "أ/س/ف ʾ–s–f sadness, anger, sorrow, to offend. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> آسَفَ ʾāsafa 1 time; أَسَفٌ ʾasaf 2 times and أَسِفٌ ʾasif 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-ف.أَسِفٌ",
+        "label": "أَسِفٌ",
+        "definitionHtml": "أَسِفٌ ʾasif [quasi-intens. act. part.] very angry, most indignant, aggrieved, grieving, very sad <br><br>(7:150) وَلَمَّا رَجَعَ مُوسَى إِلَى قَوْمِهِ غَضْبَانَ أَسِفًا and when Moses returned to his people, angry and aggrieved.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-س-ف.آسَفَ",
+        "label": "آسَفَ",
+        "definitionHtml": "آسَفَ ʾāsafa [v. IV, trans.] to be offensive, to act in an offensive manner, to challenge, to be contentious <br><br>(43:55) فَلَمَّا ءَاسَفُونَا انْتَقَمْنَا مِنْهُمْ when they became contentious with Us, We punished them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-ف.أَسَف",
+        "label": "أَسَف",
+        "definitionHtml": "أَسَف ʾasaf [n./v. n. used adverbially] sorrow, grief; in sorrow, grieving <br><br>(18:6) فَلَعَلَّكَ بَاخِعٌ نَفْسَكَ عَلَى ءَاثَارِهِمْ إِنْ لَمْ يُؤْمِنُوا بِهَذَا الْحَدِيثِ أَسَفًا are you [Prophet] going to torment yourself to death grieving over them if they do not believe in this message?; *<br><br>(12:84) يَاأَسَفَى عَلَى يُوسُفَ ah!, my terrible grief for Joseph! (with the open long vowel /ā/ replacing the 1st person sing. pronominal suffix ī for emphasis يَا أَسَفِي ... yā ʾasafī … ! > ... يَا أَسَفَا yā ʾasafā … !).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:11.125Z",
+      "refword": "7:150:7",
+      "lexword": "أَسِفًا"
+    }
+  }
+}

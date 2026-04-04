@@ -1,0 +1,202 @@
+{
+  "root": "برج",
+  "rootArabic": "برج",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "بُرُوجٌ",
+      "count": 4
+    },
+    {
+      "form": "تَبَرَّجْنَ",
+      "count": 2
+    },
+    {
+      "form": "مُتَبَرِّجَاتٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرُوجٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرُوجٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَبَرِّجَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرُوجٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَبَرَّجْنَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرُوجٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 78,
+      "text": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "highlightedHtml": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى <a class=\"highlight-text\">بُرُوجٍ</a> مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "derivedForms": [
+        "بُرُوجٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 16,
+      "text": "وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ بُرُوجًا وَزَيَّنَّٰهَا لِلنَّٰظِرِينَ",
+      "highlightedHtml": "وَلَقَدْ جَعَلْنَا فِى ٱلسَّمَآءِ <a class=\"highlight-text\">بُرُوجًا</a> وَزَيَّنَّٰهَا لِلنَّٰظِرِينَ",
+      "derivedForms": [
+        "بُرُوجٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 60,
+      "text": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ <a class=\"highlight-text\">مُتَبَرِّجَٰتٍۭ</a> بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "مُتَبَرِّجَاتٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 61,
+      "text": "تَبَارَكَ ٱلَّذِى جَعَلَ فِى ٱلسَّمَآءِ بُرُوجًا وَجَعَلَ فِيهَا سِرَٰجًا وَقَمَرًا مُّنِيرًا",
+      "highlightedHtml": "تَبَارَكَ ٱلَّذِى جَعَلَ فِى ٱلسَّمَآءِ <a class=\"highlight-text\">بُرُوجًا</a> وَجَعَلَ فِيهَا سِرَٰجًا وَقَمَرًا مُّنِيرًا",
+      "derivedForms": [
+        "بُرُوجٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 33,
+      "text": "وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا",
+      "highlightedHtml": "وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا <a class=\"highlight-text\">تَبَرَّجْنَ</a> <a class=\"highlight-text\">تَبَرُّجَ</a> ٱلْجَٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا",
+      "derivedForms": [
+        "تَبَرَّجْنَ",
+        "تَبَرَّجْنَ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 1,
+      "text": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+      "highlightedHtml": "وَٱلسَّمَآءِ ذَاتِ <a class=\"highlight-text\">ٱلْبُرُوجِ</a>",
+      "derivedForms": [
+        "بُرُوجٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:24.241Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural indefinite noun",
+    "derivativeNote": "بُرُوجٍ is in the derivative form: بُرُوجٌ",
+    "rootDefinitionHtml": "ب/ر/ج   b–r–j height<br>; prominence; beauty of the eyes; tower; signs of the zodiac; fortification; (of women) to display their charm. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> تَبَرَّجْنَ tabarrajna 2 times; مُتَبَرِّجَاتٌ mutabarrijāt 1 time and بُرُوجٌ burūj 4 times.",
+    "mainDefinitionHtml": "بُرُوجٌ burūj [pl. of بُرْجٌ burj] <br><br><strong>1 </strong>tower, castle <br><br>(4:78) أَيْنَمَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِى بُرُوجٍ مُشَيَّدَةٍ wherever you may be, death will overtake you, even if you are inside lofty towers <br><br><strong>2 </strong>positions of the sun, moon and planets, constellations; signs of the zodiac <br><br>(15:16) وَلَقَدْ جَعَلْنَا فِى السَّمَاءِ بُرُوجًا وَزَيَّنَّاهَا لِلنَّاظِرِينَ We have set constellations up in the sky and made it beautiful for the beholders; * البُرُوجٍ name of Sura 85, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Constellations’.",
+    "mainEntryId": "wdef-ب-ر-ج.بُرُوجٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ر-ج",
+        "label": "ب-ر-ج",
+        "definitionHtml": "ب/ر/ج   b–r–j height<br>; prominence; beauty of the eyes; tower; signs of the zodiac; fortification; (of women) to display their charm. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> تَبَرَّجْنَ tabarrajna 2 times; مُتَبَرِّجَاتٌ mutabarrijāt 1 time and بُرُوجٌ burūj 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-ج.بُرُوجٌ",
+        "label": "بُرُوجٌ",
+        "definitionHtml": "بُرُوجٌ burūj [pl. of بُرْجٌ burj] <br><br><strong>1 </strong>tower, castle <br><br>(4:78) أَيْنَمَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِى بُرُوجٍ مُشَيَّدَةٍ wherever you may be, death will overtake you, even if you are inside lofty towers <br><br><strong>2 </strong>positions of the sun, moon and planets, constellations; signs of the zodiac <br><br>(15:16) وَلَقَدْ جَعَلْنَا فِى السَّمَاءِ بُرُوجًا وَزَيَّنَّاهَا لِلنَّاظِرِينَ We have set constellations up in the sky and made it beautiful for the beholders; * البُرُوجٍ name of Sura 85, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to ‘the Constellations’.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ر-ج.تَبَرَّجْنَ",
+        "label": "تَبَرَّجْنَ",
+        "definitionHtml": "تَبَرَّجْنَ tabarrajna [imperf. of v. V تَبَرَّجْنَ tabarrajna with the imperfect prefix ﺘَ elided, intrans.] (said only of women) to adorn themselves in an enticing way, in a lust‐causing way; to expose themselves in an alluring way <br><br>(33:33) وَقَرْنَ فِى بُيُوتِكُنَّ وَلاَ تَبَرَّجْنَ تَبَرُّجَ الْجَاهِلِيَّةِ الأُولَى stay in your houses, and do not display your finery in the way of the pagans of old.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-ج.مُتَبَرِّجَاتٌ",
+        "label": "مُتَبَرِّجَاتٌ",
+        "definitionHtml": "مُتَبَرِّجَاتٌ mutabarrijāt [pl. of act. part. fem. مُتَبَرِّجَةٌ mutabarrijatun] (said only of women) those who flaunt their bodies in an alluring way, display their adornment enticingly <br><br>(24:60) وَالْقَوَاعِدُ مِنَ النِّسَاءِ اللاَّتِي لاَ يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَنْ يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَاتٍ بِزِينَةٍ such women as are past childbearing who have no hope of marriage, there is no blame on them if they take off their [outer] garments, without however, flaunting their charms.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:41.411Z",
+      "refword": "4:78:8",
+      "lexword": "بُرُوجٍ"
+    }
+  }
+}

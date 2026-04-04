@@ -1,0 +1,393 @@
+{
+  "root": "جهر",
+  "rootArabic": "جهر",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 4,
+    "surahCount": 13,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "جَهْرٌ",
+      "count": 7
+    },
+    {
+      "form": "جَهَرَ",
+      "count": 5
+    },
+    {
+      "form": "جَهْرَةًًًً",
+      "count": 3
+    },
+    {
+      "form": "جِهَاراً",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهْرَةًًًً",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "جَهْرَةًًًً",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "جَهْرَةًًًً",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جَهَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهَرَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جِهَاراً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَهْرٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 55,
+      "text": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهْرَةً فَأَخَذَتْكُمُ ٱلصَّٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
+      "highlightedHtml": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ <a class=\"highlight-text\">جَهْرَةً</a> فَأَخَذَتْكُمُ ٱلصَّٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
+      "derivedForms": [
+        "جَهْرَةًًًً"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 148,
+      "text": "لَّا يُحِبُّ ٱللَّهُ ٱلْجَهْرَ بِٱلسُّوٓءِ مِنَ ٱلْقَوْلِ إِلَّا مَن ظُلِمَ ۚ وَكَانَ ٱللَّهُ سَمِيعًا عَلِيمًا",
+      "highlightedHtml": "لَّا يُحِبُّ ٱللَّهُ <a class=\"highlight-text\">ٱلْجَهْرَ</a> بِٱلسُّوٓءِ مِنَ ٱلْقَوْلِ إِلَّا مَن ظُلِمَ ۚ وَكَانَ ٱللَّهُ سَمِيعًا عَلِيمًا",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 153,
+      "text": "يَسْـَٔلُكَ أَهْلُ ٱلْكِتَٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَٰبًا مِّنَ ٱلسَّمَآءِ ۚ فَقَدْ سَأَلُوا۟ مُوسَىٰٓ أَكْبَرَ مِن ذَٰلِكَ فَقَالُوٓا۟ أَرِنَا ٱللَّهَ جَهْرَةً فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ ٱتَّخَذُوا۟ ٱلْعِجْلَ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ فَعَفَوْنَا عَن ذَٰلِكَ ۚ وَءَاتَيْنَا مُوسَىٰ سُلْطَٰنًا مُّبِينًا",
+      "highlightedHtml": "يَسْـَٔلُكَ أَهْلُ ٱلْكِتَٰبِ أَن تُنَزِّلَ عَلَيْهِمْ كِتَٰبًا مِّنَ ٱلسَّمَآءِ ۚ فَقَدْ سَأَلُوا۟ مُوسَىٰٓ أَكْبَرَ مِن ذَٰلِكَ فَقَالُوٓا۟ أَرِنَا ٱللَّهَ <a class=\"highlight-text\">جَهْرَةً</a> فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ بِظُلْمِهِمْ ۚ ثُمَّ ٱتَّخَذُوا۟ ٱلْعِجْلَ مِنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ فَعَفَوْنَا عَن ذَٰلِكَ ۚ وَءَاتَيْنَا مُوسَىٰ سُلْطَٰنًا مُّبِينًا",
+      "derivedForms": [
+        "جَهْرَةًًًً"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 3,
+      "text": "وَهُوَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَفِى ٱلْأَرْضِ ۖ يَعْلَمُ سِرَّكُمْ وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ",
+      "highlightedHtml": "وَهُوَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَفِى ٱلْأَرْضِ ۖ يَعْلَمُ سِرَّكُمْ <a class=\"highlight-text\">وَجَهْرَكُمْ</a> وَيَعْلَمُ مَا تَكْسِبُونَ",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 47,
+      "text": "قُلْ أَرَءَيْتَكُمْ إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ بَغْتَةً أَوْ جَهْرَةً هَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتَكُمْ إِنْ أَتَىٰكُمْ عَذَابُ ٱللَّهِ بَغْتَةً أَوْ <a class=\"highlight-text\">جَهْرَةً</a> هَلْ يُهْلَكُ إِلَّا ٱلْقَوْمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "جَهْرَةًًًً"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 205,
+      "text": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "highlightedHtml": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ <a class=\"highlight-text\">ٱلْجَهْرِ</a> مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 10,
+      "text": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ",
+      "highlightedHtml": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن <a class=\"highlight-text\">جَهَرَ</a> بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ",
+      "derivedForms": [
+        "جَهَرَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 75,
+      "text": "ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًا فَهُوَ يُنفِقُ مِنْهُ سِرًّا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًا فَهُوَ يُنفِقُ مِنْهُ سِرًّا <a class=\"highlight-text\">وَجَهْرًا</a> ۖ هَلْ يَسْتَوُۥنَ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 110,
+      "text": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا <a class=\"highlight-text\">تَجْهَرْ</a> بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "derivedForms": [
+        "جَهَرَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 7,
+      "text": "وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى",
+      "highlightedHtml": "وَإِن <a class=\"highlight-text\">تَجْهَرْ</a> بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى",
+      "derivedForms": [
+        "جَهَرَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 110,
+      "text": "إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ مِنَ ٱلْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ",
+      "highlightedHtml": "إِنَّهُۥ يَعْلَمُ <a class=\"highlight-text\">ٱلْجَهْرَ</a> مِنَ ٱلْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 2,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا تَجْهَرُوا۟ لَهُۥ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَٰلُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ تَشْعُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا <a class=\"highlight-text\">تَجْهَرُوا۟</a> لَهُۥ بِٱلْقَوْلِ <a class=\"highlight-text\">كَجَهْرِ</a> بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَٰلُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ تَشْعُرُونَ",
+      "derivedForms": [
+        "جَهَرَ",
+        "جَهْرٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 13,
+      "text": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ <a class=\"highlight-text\">ٱجْهَرُوا۟</a> بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "جَهَرَ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 8,
+      "text": "ثُمَّ إِنِّى دَعَوْتُهُمْ جِهَارًا",
+      "highlightedHtml": "ثُمَّ إِنِّى دَعَوْتُهُمْ <a class=\"highlight-text\">جِهَارًا</a>",
+      "derivedForms": [
+        "جِهَاراً"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 7,
+      "text": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ ٱلْجَهْرَ وَمَا يَخْفَىٰ",
+      "highlightedHtml": "إِلَّا مَا شَآءَ ٱللَّهُ ۚ إِنَّهُۥ يَعْلَمُ <a class=\"highlight-text\">ٱلْجَهْرَ</a> وَمَا يَخْفَىٰ",
+      "derivedForms": [
+        "جَهْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:27.799Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "جَهْرَةً is in the derivative form: جَهْرَةًًًً",
+    "rootDefinitionHtml": "ج/هـ/ر   j–h–r plain treeless land<br>; the outer appearance of a person, appearance; to declare, to say openly, to be loud, to be open, a loud voice; to be pure. <br><br>Of this root, 4 forms occur 16 times in the Qur’an:<br> جَهَرَ jahara 5 times; جَهْرٌ jahr 7 times; جَهْرَةًًًً jahratan 3 times and جِهَاراً jihāran 1 time.",
+    "mainDefinitionHtml": "جَهْرَةًًًً jahratan [v. n. used adverbially] <br><br><strong>1 </strong>openly, visibly <br><br>(2:55) لَنْ نُؤْمِنَ لَكَ حَتَّى نَرَى اللَّهَ جَهْرَةً we will not believe you until we see God visibly <br><br><strong>2 </strong>expectedly, after a warning <br><br>(6:47) إِنْ أَتَاكُمْ عَذَابُ اللَّهِ بَغْتَةً أَوْ جَهْرَةً if the punishment of God should come to you suddenly or with warning.",
+    "mainEntryId": "wdef-ج-هـ-ر.جَهْرَةًًًً",
+    "entries": [
+      {
+        "id": "wdef-ج-هـ-ر",
+        "label": "ج-هـ-ر",
+        "definitionHtml": "ج/هـ/ر   j–h–r plain treeless land<br>; the outer appearance of a person, appearance; to declare, to say openly, to be loud, to be open, a loud voice; to be pure. <br><br>Of this root, 4 forms occur 16 times in the Qur’an:<br> جَهَرَ jahara 5 times; جَهْرٌ jahr 7 times; جَهْرَةًًًً jahratan 3 times and جِهَاراً jihāran 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-هـ-ر.جَهْرَةًًًً",
+        "label": "جَهْرَةًًًً",
+        "definitionHtml": "جَهْرَةًًًً jahratan [v. n. used adverbially] <br><br><strong>1 </strong>openly, visibly <br><br>(2:55) لَنْ نُؤْمِنَ لَكَ حَتَّى نَرَى اللَّهَ جَهْرَةً we will not believe you until we see God visibly <br><br><strong>2 </strong>expectedly, after a warning <br><br>(6:47) إِنْ أَتَاكُمْ عَذَابُ اللَّهِ بَغْتَةً أَوْ جَهْرَةً if the punishment of God should come to you suddenly or with warning.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-هـ-ر.جِهَاراً",
+        "label": "جِهَاراً",
+        "definitionHtml": "جِهَاراً jihāran [v. n. used adverbially] openly <br><br>(71:8) إِنِّي دَعَوْتُهُمْ جِهَارًا I have called them openly/aloud.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-هـ-ر.جَهَرَ",
+        "label": "جَهَرَ",
+        "definitionHtml": "جَهَرَ jahara a [v. intrans. with prep. بِـ] <br><br><strong>1 </strong>to speak loudly <br><br>(17:110) وَلاَ تَجْهَرْ بِصَلاَتِكَ وَلاَ تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَلِكَ سَبِيلاً and do not be loud in your prayer, or too quiet, but seek between this a way <br><br><strong>2 </strong>to speak openly <br><br>(13:10) سَوَاءٌ مِنْكُمْ مَنْ أَسَرَّ الْقَوْلَ وَمَنْ جَهَرَ بِهِ alike among you is the one who conceals his words and the one who speaks them openly.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-هـ-ر.جَهْرٌ",
+        "label": "جَهْرٌ",
+        "definitionHtml": "جَهْرٌ jahr [n./v. n.] I speaking loudly, raising the voice <br><br>(7:205) وَاذْكُرْ رَبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ and remember your Lord, in your soul imploringly and in awe, and in subdued tones [lit. without loudness] <br><br><strong>2 </strong>speaking openly <br><br>(21:110) إِنَّهُ يَعْلَمُ الْجَهْرَ مِنَ الْقَوْلِ وَيَعْلَمُ مَا تَكْتُمُونَ but He knows what is said openly and He knows what you conceal <br><br><strong>3 </strong>divulging, announcing, declaring, disclosure, telling <br><br>(4:148) لاَ يُحِبُّ اللَّهُ الْجَهْرَ بِالسُّوءِ مِنَ الْقَوْلِ إِلاَّ مَنْ ظُلِمَ God does not like the publicising of evil except [by] someone who has been wronged.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:28.994Z",
+      "refword": "2:55:10",
+      "lexword": "جَهْرَةً"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "سلب",
+  "rootArabic": "سلب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَسْلُب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْلُب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 73,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن يَسْلُبْهُمُ ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ ضُرِبَ مَثَلٌ فَٱسْتَمِعُوا۟ لَهُۥٓ ۚ إِنَّ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَن يَخْلُقُوا۟ ذُبَابًا وَلَوِ ٱجْتَمَعُوا۟ لَهُۥ ۖ وَإِن <a class=\"highlight-text\">يَسْلُبْهُمُ</a> ٱلذُّبَابُ شَيْـًٔا لَّا يَسْتَنقِذُوهُ مِنْهُ ۚ ضَعُفَ ٱلطَّالِبُ وَٱلْمَطْلُوبُ",
+      "derivedForms": [
+        "يَسْلُب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:14.572Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَسْلُبْهُمُ is in the derivative form: يَسْلُب",
+    "rootDefinitionHtml": "س/ل/ب   s–l–b to strip, to peel off; to plunder, to carry off by force; a row of palm trees, road. Of this root, only يَسْلُبهُم yaslubhum occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَسْلُب yaslub [imperf. of v. سَلَبَ salaba, doubly trans.] to plunder, to snatch away, to rob, to carry off <br><br>(22:73) وَإِنْ يَسْلُبْهُمُ الذُّبَابُ شَيْئًا لاَ يَسْتَنْقِذُوهُ مِنْهُ and if the flies rob them of something, they can not rescue it from them.",
+    "mainEntryId": "wdef-س-ل-ب.يَسْلُب",
+    "entries": [
+      {
+        "id": "wdef-س-ل-ب",
+        "label": "س-ل-ب",
+        "definitionHtml": "س/ل/ب   s–l–b to strip, to peel off; to plunder, to carry off by force; a row of palm trees, road. Of this root, only يَسْلُبهُم yaslubhum occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ل-ب.يَسْلُب",
+        "label": "يَسْلُب",
+        "definitionHtml": "يَسْلُب yaslub [imperf. of v. سَلَبَ salaba, doubly trans.] to plunder, to snatch away, to rob, to carry off <br><br>(22:73) وَإِنْ يَسْلُبْهُمُ الذُّبَابُ شَيْئًا لاَ يَسْتَنْقِذُوهُ مِنْهُ and if the flies rob them of something, they can not rescue it from them.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:35.706Z",
+      "refword": "22:73:20",
+      "lexword": "يَسْلُبْهُمُ"
+    }
+  }
+}

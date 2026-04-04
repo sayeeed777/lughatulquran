@@ -1,0 +1,74 @@
+{
+  "root": "زهد",
+  "rootArabic": "زهد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "زاهِدين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زاهِدين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 20,
+      "text": "وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍ دَرَٰهِمَ مَعْدُودَةٍ وَكَانُوا۟ فِيهِ مِنَ ٱلزَّٰهِدِينَ",
+      "highlightedHtml": "وَشَرَوْهُ بِثَمَنٍۭ بَخْسٍ دَرَٰهِمَ مَعْدُودَةٍ وَكَانُوا۟ فِيهِ مِنَ <a class=\"highlight-text\">ٱلزَّٰهِدِينَ</a>",
+      "derivedForms": [
+        "زاهِدين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:14.571Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلزَّٰهِدِينَ is in the derivative form: زاهِدين",
+    "rootDefinitionHtml": "ز/ﻫ/د   z–h–d to abstain, to renounce, to abandon, to forsake (pleasures and wealth), to withdraw. Of this root,زاهِدين zāhidın occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "زاهِدين zāhidın [pl. of n./act. part. زاهِد zāhid] abstemious, abstinent, one who has no interest in worldly pleasures, one who has little or no interest in something <br><br>(12:20) وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ and they sold him for a lowly price, a few dirhams, and they were not interested in him.",
+    "mainEntryId": "wdef-ز-ﻫ-د.زاهِدين",
+    "entries": [
+      {
+        "id": "wdef-ز-ﻫ-د",
+        "label": "ز-ﻫ-د",
+        "definitionHtml": "ز/ﻫ/د   z–h–d to abstain, to renounce, to abandon, to forsake (pleasures and wealth), to withdraw. Of this root,زاهِدين zāhidın occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ﻫ-د.زاهِدين",
+        "label": "زاهِدين",
+        "definitionHtml": "زاهِدين zāhidın [pl. of n./act. part. زاهِد zāhid] abstemious, abstinent, one who has no interest in worldly pleasures, one who has little or no interest in something <br><br>(12:20) وَشَرَوْهُ بِثَمَنٍ بَخْسٍ دَرَاهِمَ مَعْدُودَةٍ وَكَانُوا فِيهِ مِنَ الزَّاهِدِينَ and they sold him for a lowly price, a few dirhams, and they were not interested in him.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:36.839Z",
+      "refword": "12:20:9",
+      "lexword": "ٱلزَّٰهِدِينَ"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "root": "فرش",
+  "rootArabic": "فرش",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "فِراش",
+      "count": 3
+    },
+    {
+      "form": "فَراش",
+      "count": 1
+    },
+    {
+      "form": "فَرَشَ",
+      "count": 1
+    },
+    {
+      "form": "فَرْش",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فِراش",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْش",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرَشَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فِراش",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فِراش",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَراش",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 22,
+      "text": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ <a class=\"highlight-text\">فِرَٰشًا</a> وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "فِراش"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 142,
+      "text": "وَمِنَ ٱلْأَنْعَٰمِ حَمُولَةً وَفَرْشًا ۚ كُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+      "highlightedHtml": "وَمِنَ ٱلْأَنْعَٰمِ حَمُولَةً <a class=\"highlight-text\">وَفَرْشًا</a> ۚ كُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+      "derivedForms": [
+        "فَرْش"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 48,
+      "text": "وَٱلْأَرْضَ فَرَشْنَٰهَا فَنِعْمَ ٱلْمَٰهِدُونَ",
+      "highlightedHtml": "وَٱلْأَرْضَ <a class=\"highlight-text\">فَرَشْنَٰهَا</a> فَنِعْمَ ٱلْمَٰهِدُونَ",
+      "derivedForms": [
+        "فَرَشَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 54,
+      "text": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ",
+      "highlightedHtml": "مُتَّكِـِٔينَ عَلَىٰ <a class=\"highlight-text\">فُرُشٍۭ</a> بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ ۚ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ",
+      "derivedForms": [
+        "فِراش"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 34,
+      "text": "وَفُرُشٍ مَّرْفُوعَةٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَفُرُشٍ</a> مَّرْفُوعَةٍ",
+      "derivedForms": [
+        "فِراش"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 4,
+      "text": "يَوْمَ يَكُونُ ٱلنَّاسُ كَٱلْفَرَاشِ ٱلْمَبْثُوثِ",
+      "highlightedHtml": "يَوْمَ يَكُونُ ٱلنَّاسُ <a class=\"highlight-text\">كَٱلْفَرَاشِ</a> ٱلْمَبْثُوثِ",
+      "derivedForms": [
+        "فَراش"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:40.273Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "فِرَٰشًا is in the derivative form: فِراش",
+    "rootDefinitionHtml": "ف/ر/ش   f–r–sh beating of wings, spreading of wings, butterfly<br>; to spread, to lay out; bedding, nest, bed; wife, husband. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> فَرَشَ farasha 1 time; فَرْش farsh 1 time; فِراش firāsh 1 time; فُرُش furush 2 times and فَراش farāsh 1 time.",
+    "mainDefinitionHtml": "فِراش firāsh [n.; pl. فُرُش furush] <br><br><strong>1 </strong>spread, expanse <br><br>(2:22) الَّذِي‏ ‏جَعَلَ‏ ‏لَكُمُ‏ ‏الأَرْضَ‏ ‏فِرَاشًا He Who made the Earth an expanse for you <br><br><strong>2 </strong>bedding, furnishings, couches <br><br>(55:54) مُتَّكِئِينَ‏ ‏عَلَى‏ ‏فُرُشٍ‏ ‏بَطَائِنُهَا مِنْ‏ ‏إِسْتَبْرَقٍ‏ ‏‏reclining on couches lined with brocade ‏<br><br><strong>3 </strong>wife, mate (in one interpretation of verse 56:34–5) وَفُرُشٍ‏ ‏مَرْفُوعَةٍ‏ ‏إِنَّا‏ ‏أَنْشَأْنَاهُنَّ‏ ‏إِنْشَاءً‏‏with honoured wives/companions (or, raised couches)–We have fashioned [created] them anew.",
+    "mainEntryId": "wdef-ف-ر-ش.فِراش",
+    "entries": [
+      {
+        "id": "wdef-ف-ر-ش",
+        "label": "ف-ر-ش",
+        "definitionHtml": "ف/ر/ش   f–r–sh beating of wings, spreading of wings, butterfly<br>; to spread, to lay out; bedding, nest, bed; wife, husband. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> فَرَشَ farasha 1 time; فَرْش farsh 1 time; فِراش firāsh 1 time; فُرُش furush 2 times and فَراش farāsh 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ش.فِراش",
+        "label": "فِراش",
+        "definitionHtml": "فِراش firāsh [n.; pl. فُرُش furush] <br><br><strong>1 </strong>spread, expanse <br><br>(2:22) الَّذِي‏ ‏جَعَلَ‏ ‏لَكُمُ‏ ‏الأَرْضَ‏ ‏فِرَاشًا He Who made the Earth an expanse for you <br><br><strong>2 </strong>bedding, furnishings, couches <br><br>(55:54) مُتَّكِئِينَ‏ ‏عَلَى‏ ‏فُرُشٍ‏ ‏بَطَائِنُهَا مِنْ‏ ‏إِسْتَبْرَقٍ‏ ‏‏reclining on couches lined with brocade ‏<br><br><strong>3 </strong>wife, mate (in one interpretation of verse 56:34–5) وَفُرُشٍ‏ ‏مَرْفُوعَةٍ‏ ‏إِنَّا‏ ‏أَنْشَأْنَاهُنَّ‏ ‏إِنْشَاءً‏‏with honoured wives/companions (or, raised couches)–We have fashioned [created] them anew.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ر-ش.فَراش",
+        "label": "فَراش",
+        "definitionHtml": "فَراش farāsh [coll. n.] butterflies, moths <br><br>(101:4) يَوْمَ‏ ‏يَكُونُ‏ ‏النَّاسُ‏ كَالْفَرَاشِ الْمَبْثُوثِ‏‏ the Day when people will be like scattered moths.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ش.فَرَشَ",
+        "label": "فَرَشَ",
+        "definitionHtml": "فَرَشَ farasha u [v. trans.] to spread out, to lay out, to expand something <br><br>(51:48) وَالأَرْضَ‏ ‏فَرَشْنَاهَا‏ ‏فَنِعْم‏َ الْمَاهِدُون‏ and the Earth We spread out–how excellent is the paver! [lit. are the pavers!]",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ش.فَرْش",
+        "label": "فَرْش",
+        "definitionHtml": "فَرْش farsh [n./v. n.; used also in the sense of pass. part.] furnishings, beddings [also interpreted in the following verse as ‘thrown down and slaughtered as sources of food’] <br><br>(6:142) وَمِنَ الأَنْعَامِ حَمُولَةً وَفَرْشًا كُلُوا مِمَّا رَزَقَكُمُ اللَّهُ‏ and of the livestock, [He gave you] beasts of burden and [beasts] as [the source of material for your] furnishing [also interpreted as to be sources of food]–so eat of what God has provided for you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:01.748Z",
+      "refword": "2:22:5",
+      "lexword": "فِرَٰشًا"
+    }
+  }
+}

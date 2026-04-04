@@ -1,0 +1,272 @@
+{
+  "root": "شمل",
+  "rootArabic": "شمل",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 2,
+    "surahCount": 9,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "شِمَال",
+      "count": 10
+    },
+    {
+      "form": "اشْتَمَل",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اشْتَمَل",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِمَال",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 143,
+      "text": "ثَمَٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "ثَمَٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا <a class=\"highlight-text\">ٱشْتَمَلَتْ</a> عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "اشْتَمَل"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 144,
+      "text": "وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَمِنَ ٱلْإِبِلِ ٱثْنَيْنِ وَمِنَ ٱلْبَقَرِ ٱثْنَيْنِ ۗ قُلْ آلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا <a class=\"highlight-text\">ٱشْتَمَلَتْ</a> عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ أَمْ كُنتُمْ شُهَدَآءَ إِذْ وَصَّىٰكُمُ ٱللَّهُ بِهَٰذَا ۚ فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا لِّيُضِلَّ ٱلنَّاسَ بِغَيْرِ عِلْمٍ ۗ إِنَّ ٱللَّهَ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "اشْتَمَل"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 17,
+      "text": "ثُمَّ لَءَاتِيَنَّهُم مِّنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ وَعَنْ أَيْمَٰنِهِمْ وَعَن شَمَآئِلِهِمْ ۖ وَلَا تَجِدُ أَكْثَرَهُمْ شَٰكِرِينَ",
+      "highlightedHtml": "ثُمَّ لَءَاتِيَنَّهُم مِّنۢ بَيْنِ أَيْدِيهِمْ وَمِنْ خَلْفِهِمْ وَعَنْ أَيْمَٰنِهِمْ وَعَن <a class=\"highlight-text\">شَمَآئِلِهِمْ</a> ۖ وَلَا تَجِدُ أَكْثَرَهُمْ شَٰكِرِينَ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 48,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ <a class=\"highlight-text\">وَٱلشَّمَآئِلِ</a> سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 17,
+      "text": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "highlightedHtml": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ <a class=\"highlight-text\">ٱلشِّمَالِ</a> وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 18,
+      "text": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "highlightedHtml": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ <a class=\"highlight-text\">ٱلشِّمَالِ</a> ۖ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 15,
+      "text": "لَقَدْ كَانَ لِسَبَإٍ فِى مَسْكَنِهِمْ آيَةٌ ۖ جَنَّتَانِ عَن يَمِينٍ وَشِمَالٍ ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ",
+      "highlightedHtml": "لَقَدْ كَانَ لِسَبَإٍ فِى مَسْكَنِهِمْ آيَةٌ ۖ جَنَّتَانِ عَن يَمِينٍ <a class=\"highlight-text\">وَشِمَالٍ</a> ۖ كُلُوا۟ مِن رِّزْقِ رَبِّكُمْ وَٱشْكُرُوا۟ لَهُۥ ۚ بَلْدَةٌ طَيِّبَةٌ وَرَبٌّ غَفُورٌ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 17,
+      "text": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ قَعِيدٌ",
+      "highlightedHtml": "إِذْ يَتَلَقَّى ٱلْمُتَلَقِّيَانِ عَنِ ٱلْيَمِينِ وَعَنِ <a class=\"highlight-text\">ٱلشِّمَالِ</a> قَعِيدٌ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 41,
+      "text": "وَأَصْحَٰبُ ٱلشِّمَالِ مَآ أَصْحَٰبُ ٱلشِّمَالِ",
+      "highlightedHtml": "وَأَصْحَٰبُ <a class=\"highlight-text\">ٱلشِّمَالِ</a> مَآ أَصْحَٰبُ <a class=\"highlight-text\">ٱلشِّمَالِ</a>",
+      "derivedForms": [
+        "شِمَال",
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 25,
+      "text": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ بِشِمَالِهِۦ فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ",
+      "highlightedHtml": "وَأَمَّا مَنْ أُوتِىَ كِتَٰبَهُۥ <a class=\"highlight-text\">بِشِمَالِهِۦ</a> فَيَقُولُ يَٰلَيْتَنِى لَمْ أُوتَ كِتَٰبِيَهْ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 37,
+      "text": "عَنِ ٱلْيَمِينِ وَعَنِ ٱلشِّمَالِ عِزِينَ",
+      "highlightedHtml": "عَنِ ٱلْيَمِينِ وَعَنِ <a class=\"highlight-text\">ٱلشِّمَالِ</a> عِزِينَ",
+      "derivedForms": [
+        "شِمَال"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:24.372Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VIII) perfect verb",
+    "derivativeNote": "ٱشْتَمَلَتْ is in the derivative form: اشْتَمَل",
+    "rootDefinitionHtml": "ش/م/ل   sh–m–l the left hand, the left‐hand side<br>; bad omens, affliction; to contain, to include, to possess, containment. <br><br>Of this root, 3 forms occur 12 times in the Qur’an:<br> اشْتَمَل ʾishtamala 2 times;شِمَال shimāl 8 times and شَمَائِل shamāʾil 2 times.",
+    "mainDefinitionHtml": "اشْتَمَل ʾishtamala [v. VIII, intrans.] to contain, to envelop <br><br>(6:143) ءَالذَّكَرَيْنِ حَرَّمَ أَمِ الأُنْثَيَيْنِ أَمَّا اشْتَمَلَتْ عَلَيْهِ أَرْحَامُ الأُنْثَيَيْنِ is it the two males He has forbidden, or the two females, or what the wombs of the two females contained?",
+    "mainEntryId": "wdef-ش-م-ل.اشْتَمَل",
+    "entries": [
+      {
+        "id": "wdef-ش-م-ل",
+        "label": "ش-م-ل",
+        "definitionHtml": "ش/م/ل   sh–m–l the left hand, the left‐hand side<br>; bad omens, affliction; to contain, to include, to possess, containment. <br><br>Of this root, 3 forms occur 12 times in the Qur’an:<br> اشْتَمَل ʾishtamala 2 times;شِمَال shimāl 8 times and شَمَائِل shamāʾil 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-م-ل.اشْتَمَل",
+        "label": "اشْتَمَل",
+        "definitionHtml": "اشْتَمَل ʾishtamala [v. VIII, intrans.] to contain, to envelop <br><br>(6:143) ءَالذَّكَرَيْنِ حَرَّمَ أَمِ الأُنْثَيَيْنِ أَمَّا اشْتَمَلَتْ عَلَيْهِ أَرْحَامُ الأُنْثَيَيْنِ is it the two males He has forbidden, or the two females, or what the wombs of the two females contained?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-م-ل.شِمَال",
+        "label": "شِمَال",
+        "definitionHtml": "شِمَال shimāl [n., pl.شَمَائِل shamāʾil] <br><br><strong>1 </strong>the left‐hand side *<br><br>(56:41) وَأَصْحَابُ الشِّمَالِ (epithet for the lost) evil‐doers [lit. people of the left]; *<br><br>(18:17) ذَاتَ الشِّمَالِ leftward, to the left, by the left side [lit. the one with the left]; *<br><br>(50:17) عَنِ الشِّمَالِ on the left, by the left side <br><br><strong>2 </strong>the left hand <br><br>(69:25) وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِشِمَالِهِ فَيَقُولُ يَالَيْتَنِي لَمْ أُوتَ كِتَابِيَهْ but he who is given his Record in his left hand will say, ‘If only I had never been given any Record.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:51.892Z",
+      "refword": "6:143:15",
+      "lexword": "ٱشْتَمَلَتْ"
+    }
+  }
+}

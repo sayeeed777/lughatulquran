@@ -1,0 +1,336 @@
+{
+  "root": "حرر",
+  "rootArabic": "حرر",
+  "stats": {
+    "totalOccurrences": 15,
+    "derivativeCount": 6,
+    "surahCount": 10,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "تَحْرِيرٌ",
+      "count": 5
+    },
+    {
+      "form": "حَرٌّ",
+      "count": 3
+    },
+    {
+      "form": "حَرِيرٌ",
+      "count": 3
+    },
+    {
+      "form": "حُرٌّ",
+      "count": 2
+    },
+    {
+      "form": "حَرُورٌ",
+      "count": 1
+    },
+    {
+      "form": "مُحَرَّرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حُرٌّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحَرَّرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَحْرِيرٌ",
+          "count": 3,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحْرِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَرٌّ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرٌّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِيرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَرُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "حَرِيرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحْرِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِيرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 178,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ <a class=\"highlight-text\">ٱلْحُرُّ</a> <a class=\"highlight-text\">بِٱلْحُرِّ</a> وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "حُرٌّ",
+        "حُرٌّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 35,
+      "text": "إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى مُحَرَّرًا فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "إِذْ قَالَتِ ٱمْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّى نَذَرْتُ لَكَ مَا فِى بَطْنِى <a class=\"highlight-text\">مُحَرَّرًا</a> فَتَقَبَّلْ مِنِّىٓ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "مُحَرَّرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 92,
+      "text": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًٔا فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "highlightedHtml": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًٔا <a class=\"highlight-text\">فَتَحْرِيرُ</a> رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ <a class=\"highlight-text\">فَتَحْرِيرُ</a> رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ <a class=\"highlight-text\">وَتَحْرِيرُ</a> رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "derivedForms": [
+        "تَحْرِيرٌ",
+        "تَحْرِيرٌ",
+        "تَحْرِيرٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 89,
+      "text": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ <a class=\"highlight-text\">تَحْرِيرُ</a> رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "تَحْرِيرٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 81,
+      "text": "فَرِحَ ٱلْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى ٱلْحَرِّ ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ",
+      "highlightedHtml": "فَرِحَ ٱلْمُخَلَّفُونَ بِمَقْعَدِهِمْ خِلَٰفَ رَسُولِ ٱللَّهِ وَكَرِهُوٓا۟ أَن يُجَٰهِدُوا۟ بِأَمْوَٰلِهِمْ وَأَنفُسِهِمْ فِى سَبِيلِ ٱللَّهِ وَقَالُوا۟ لَا تَنفِرُوا۟ فِى <a class=\"highlight-text\">ٱلْحَرِّ</a> ۗ قُلْ نَارُ جَهَنَّمَ أَشَدُّ <a class=\"highlight-text\">حَرًّا</a> ۚ لَّوْ كَانُوا۟ يَفْقَهُونَ",
+      "derivedForms": [
+        "حَرٌّ",
+        "حَرٌّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 81,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ <a class=\"highlight-text\">ٱلْحَرَّ</a> وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "derivedForms": [
+        "حَرٌّ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 23,
+      "text": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُدْخِلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا <a class=\"highlight-text\">حَرِيرٌ</a>",
+      "derivedForms": [
+        "حَرِيرٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 21,
+      "text": "وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ",
+      "highlightedHtml": "وَلَا ٱلظِّلُّ وَلَا <a class=\"highlight-text\">ٱلْحَرُورُ</a>",
+      "derivedForms": [
+        "حَرُورٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 33,
+      "text": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا حَرِيرٌ",
+      "highlightedHtml": "جَنَّٰتُ عَدْنٍ يَدْخُلُونَهَا يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَلُؤْلُؤًا ۖ وَلِبَاسُهُمْ فِيهَا <a class=\"highlight-text\">حَرِيرٌ</a>",
+      "derivedForms": [
+        "حَرِيرٌ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 3,
+      "text": "وَٱلَّذِينَ يُظَٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ فَتَحْرِيرُ رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "وَٱلَّذِينَ يُظَٰهِرُونَ مِن نِّسَآئِهِمْ ثُمَّ يَعُودُونَ لِمَا قَالُوا۟ <a class=\"highlight-text\">فَتَحْرِيرُ</a> رَقَبَةٍ مِّن قَبْلِ أَن يَتَمَآسَّا ۚ ذَٰلِكُمْ تُوعَظُونَ بِهِۦ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "تَحْرِيرٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 12,
+      "text": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً وَحَرِيرًا",
+      "highlightedHtml": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً <a class=\"highlight-text\">وَحَرِيرًا</a>",
+      "derivedForms": [
+        "حَرِيرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:55.254Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلْحُرُّ is in the derivative form: حُرٌّ",
+    "rootDefinitionHtml": "ح/ر/ر   ḥ–r–r heat, thirst, to become hot, to intensify<br>; volcanic rocky land; free person, to liberate, to set free; the best of anything, to dedicate to the service of God; silk, to set right. <br><br>Of this root, 6 forms occur 15 times in the Qur’an:<br> تَحْرِيرٌ taḥrır 5 times; مُحَرَّرٌ muḥarrar 1 time; حُرٌّ ḥurr 2 times; حَرٌّ ḥarr 3 times; حَرُورٌ ḥarūr 1 time and حَرِيرٌ ḥarır 3 times.",
+    "mainDefinitionHtml": "حُرٌّ ḥurr [quasi‐act. part.] a free man (as opposed to a slave) <br><br>(2:178) كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِى الْقَتْلَى الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ fair retribution is prescribed for you in cases of the slain: freeman for freeman, slave for a slave.",
+    "mainEntryId": "wdef-ح-ر-ر.حُرٌّ",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ر",
+        "label": "ح-ر-ر",
+        "definitionHtml": "ح/ر/ر   ḥ–r–r heat, thirst, to become hot, to intensify<br>; volcanic rocky land; free person, to liberate, to set free; the best of anything, to dedicate to the service of God; silk, to set right. <br><br>Of this root, 6 forms occur 15 times in the Qur’an:<br> تَحْرِيرٌ taḥrır 5 times; مُحَرَّرٌ muḥarrar 1 time; حُرٌّ ḥurr 2 times; حَرٌّ ḥarr 3 times; حَرُورٌ ḥarūr 1 time and حَرِيرٌ ḥarır 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ر.حُرٌّ",
+        "label": "حُرٌّ",
+        "definitionHtml": "حُرٌّ ḥurr [quasi‐act. part.] a free man (as opposed to a slave) <br><br>(2:178) كُتِبَ عَلَيْكُمُ الْقِصَاصُ فِى الْقَتْلَى الْحُرُّ بِالْحُرِّ وَالْعَبْدُ بِالْعَبْدِ fair retribution is prescribed for you in cases of the slain: freeman for freeman, slave for a slave.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ر-ر.تَحْرِيرٌ",
+        "label": "تَحْرِيرٌ",
+        "definitionHtml": "تَحْرِيرٌ taḥrır [v. n.] liberating, setting free *<br><br>(4:92) تَحْرِيرُ رَقَبَةٍ setting a slave free [lit. liberating a neck].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ر.حَرُورٌ",
+        "label": "حَرُورٌ",
+        "definitionHtml": "حَرُورٌ ḥarūr [n.] heat of the sun, intense heat <br><br>(35:21) وَلاَ الظِّلُّ وَلاَ الْحَرُورُ neither the shade, nor the heat [alike].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ر.حَرِيرٌ",
+        "label": "حَرِيرٌ",
+        "definitionHtml": "حَرِيرٌ ḥarır [n.] silk, silk material <br><br>(35:33) وَلِبَاسُهُمْ فِيهَا حَرِيرٌ and their clothes therein will be [of] silk.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ر.حَرٌّ",
+        "label": "حَرٌّ",
+        "definitionHtml": "حَرٌّ ḥarr [n.] heat <br><br>(9:81) وَقَالُوا لاَ تَنْفِرُوا فِى الْحَرِّ قُلْ نَارُ جَهَنَّمَ أَشَدُّ حَرًّا and they said, ‘Don’t go to war in the heat’, say, ‘Hellfire is more intense in heat.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ر.مُحَرَّرٌ",
+        "label": "مُحَرَّرٌ",
+        "definitionHtml": "مُحَرَّرٌ muḥarrar [pass. part.] person dedicated, or consecrated, to the service of God <br><br>(3:35) إِذْ قَالَتِ امْرَأَةُ عِمْرَانَ رَبِّ إِنِّي نَذَرْتُ لَكَ مَا فِى بَطْنِي مُحَرَّرًا فَتَقَبَّلْ مِنِّي and remember when a woman of [the house of] ʿimrān said, ‘Lord, I vow in dedication what is in my womb entirely to you; so accept [this] from me.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:21.074Z",
+      "refword": "2:178:9",
+      "lexword": "ٱلْحُرُّ"
+    }
+  }
+}

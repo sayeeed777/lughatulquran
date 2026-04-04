@@ -1,0 +1,138 @@
+{
+  "root": "فتر",
+  "rootArabic": "فتر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "فَتْرةٌ",
+      "count": 1
+    },
+    {
+      "form": "يَفْتَر",
+      "count": 1
+    },
+    {
+      "form": "يُفَتَّر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَتْرةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَفْتَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُفَتَّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 19,
+      "text": "يَٰٓأَهْلَ ٱلْكِتَٰبِ قَدْ جَآءَكُمْ رَسُولُنَا يُبَيِّنُ لَكُمْ عَلَىٰ فَتْرَةٍ مِّنَ ٱلرُّسُلِ أَن تَقُولُوا۟ مَا جَآءَنَا مِنۢ بَشِيرٍ وَلَا نَذِيرٍ ۖ فَقَدْ جَآءَكُم بَشِيرٌ وَنَذِيرٌ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَٰٓأَهْلَ ٱلْكِتَٰبِ قَدْ جَآءَكُمْ رَسُولُنَا يُبَيِّنُ لَكُمْ عَلَىٰ <a class=\"highlight-text\">فَتْرَةٍ</a> مِّنَ ٱلرُّسُلِ أَن تَقُولُوا۟ مَا جَآءَنَا مِنۢ بَشِيرٍ وَلَا نَذِيرٍ ۖ فَقَدْ جَآءَكُم بَشِيرٌ وَنَذِيرٌ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "فَتْرةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 20,
+      "text": "يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ لَا يَفْتُرُونَ",
+      "highlightedHtml": "يُسَبِّحُونَ ٱلَّيْلَ وَٱلنَّهَارَ لَا <a class=\"highlight-text\">يَفْتُرُونَ</a>",
+      "derivedForms": [
+        "يَفْتَر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 75,
+      "text": "لَا يُفَتَّرُ عَنْهُمْ وَهُمْ فِيهِ مُبْلِسُونَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">يُفَتَّرُ</a> عَنْهُمْ وَهُمْ فِيهِ مُبْلِسُونَ",
+      "derivedForms": [
+        "يُفَتَّر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:28.784Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite noun",
+    "derivativeNote": "فَتْرَةٍ is in the derivative form: فَتْرةٌ",
+    "rootDefinitionHtml": "ف/ت/ر   f–t–r to abate, to weaken, to slacken<br>; weakness; period between 2 events; onset of intoxication, to be tipsy. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَفْتُرون yafturūn; يُفَتَّر yufattar and فَتْرةٌ fatratun.",
+    "mainDefinitionHtml": "فَتْرةٌ fatratun [n.] interval, period; interruption, break *<br><br>(5:19) ‏عَلَى‏ ‏فَتْرَةٍ‏ ‏مِنَ‏ ‏الرُّسُلِ‏ after a break [in the sequence] of messengers, after an interruption [in the sending] of prophets.",
+    "mainEntryId": "wdef-ف-ت-ر.فَتْرةٌ",
+    "entries": [
+      {
+        "id": "wdef-ف-ت-ر",
+        "label": "ف-ت-ر",
+        "definitionHtml": "ف/ت/ر   f–t–r to abate, to weaken, to slacken<br>; weakness; period between 2 events; onset of intoxication, to be tipsy. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَفْتُرون yafturūn; يُفَتَّر yufattar and فَتْرةٌ fatratun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ر.فَتْرةٌ",
+        "label": "فَتْرةٌ",
+        "definitionHtml": "فَتْرةٌ fatratun [n.] interval, period; interruption, break *<br><br>(5:19) ‏عَلَى‏ ‏فَتْرَةٍ‏ ‏مِنَ‏ ‏الرُّسُلِ‏ after a break [in the sequence] of messengers, after an interruption [in the sending] of prophets.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ت-ر.يَفْتَر",
+        "label": "يَفْتَر",
+        "definitionHtml": "يَفْتَر yafturūn [imperf. of v. فَتَرَ fatara, intrans.] to tire, to slacken, to let up, to desist <br><br>(21:20) يُسَبِّحُونَ‏ ‏اللَّيْلَ‏ ‏وَالنَّهَارَ‏ ‏لاَ‏ ‏يَفْتُرُونَ they glorify [Him] night and day and they do not tire [of it].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-ر.يُفَتَّر",
+        "label": "يُفَتَّر",
+        "definitionHtml": "يُفَتَّر yufattar [pass. imperf. of v. II] to be relaxed, to be weakened, to be alleviated <br><br>(43:75) لاَ يُفَتَّرُ عَنْهُمْ وَهُمْ فِيهِ مُبْلِسُونَ it will never be alleviated from them–they [will remain] in utter despair therein.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:39.570Z",
+      "refword": "5:19:9",
+      "lexword": "فَتْرَةٍ"
+    }
+  }
+}

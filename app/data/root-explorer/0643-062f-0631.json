@@ -1,0 +1,74 @@
+{
+  "root": "كدر",
+  "rootArabic": "كدر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اِنْكَدَرَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِنْكَدَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 81,
+      "ayah": 2,
+      "text": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلنُّجُومُ <a class=\"highlight-text\">ٱنكَدَرَتْ</a>",
+      "derivedForms": [
+        "اِنْكَدَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:39.520Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VII) perfect verb",
+    "derivativeNote": "ٱنكَدَرَتْ is in the derivative form: اِنْكَدَرَ",
+    "rootDefinitionHtml": "ك/د/ر   k–d–r to be muddy, grimy, dreary; to be troubled; cloud of dust; to assail, to scatter. Of this root, اِنْكَدَرَت ʾinkadarat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اِنْكَدَرَ ʾinkadara [v. VII, intrans.] to become murky, to become dim <br><br>(81:2) وَإِذَا النُّجُومُ انْكَدَرَتْ when the stars are dimmed.",
+    "mainEntryId": "wdef-ك-د-ر.اِنْكَدَرَ",
+    "entries": [
+      {
+        "id": "wdef-ك-د-ر",
+        "label": "ك-د-ر",
+        "definitionHtml": "ك/د/ر   k–d–r to be muddy, grimy, dreary; to be troubled; cloud of dust; to assail, to scatter. Of this root, اِنْكَدَرَت ʾinkadarat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-د-ر.اِنْكَدَرَ",
+        "label": "اِنْكَدَرَ",
+        "definitionHtml": "اِنْكَدَرَ ʾinkadara [v. VII, intrans.] to become murky, to become dim <br><br>(81:2) وَإِذَا النُّجُومُ انْكَدَرَتْ when the stars are dimmed.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:45.029Z",
+      "refword": "81:2:3",
+      "lexword": "ٱنكَدَرَتْ"
+    }
+  }
+}

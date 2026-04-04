@@ -1,0 +1,74 @@
+{
+  "root": "ذهل",
+  "rootArabic": "ذهل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَذْهَلُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَذْهَلُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 2,
+      "text": "يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ سُكَٰرَىٰ وَمَا هُم بِسُكَٰرَىٰ وَلَٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ",
+      "highlightedHtml": "يَوْمَ تَرَوْنَهَا <a class=\"highlight-text\">تَذْهَلُ</a> كُلُّ مُرْضِعَةٍ عَمَّآ أَرْضَعَتْ وَتَضَعُ كُلُّ ذَاتِ حَمْلٍ حَمْلَهَا وَتَرَى ٱلنَّاسَ سُكَٰرَىٰ وَمَا هُم بِسُكَٰرَىٰ وَلَٰكِنَّ عَذَابَ ٱللَّهِ شَدِيدٌ",
+      "derivedForms": [
+        "تَذْهَلُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:51.349Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَذْهَلُ is in the derivative form: تَذْهَلُ",
+    "rootDefinitionHtml": "ذ/هـ/ل   dh–h–l part of the night; to become distracted, to be bewildered, to forget. Of this root, only تَذْهَلُ tadhhal occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَذْهَلُ tadhhal [imperf. of v. ذَهَلَ dhahala, intrans.] to be distracted, to be oblivious <br><br>(22:2) يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّا أَرْضَعَتْ on the Day you see it, every suckling woman will be oblivious to that which she suckles.",
+    "mainEntryId": "wdef-ذ-هـ-ل.تَذْهَلُ",
+    "entries": [
+      {
+        "id": "wdef-ذ-هـ-ل",
+        "label": "ذ-هـ-ل",
+        "definitionHtml": "ذ/هـ/ل   dh–h–l part of the night; to become distracted, to be bewildered, to forget. Of this root, only تَذْهَلُ tadhhal occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-هـ-ل.تَذْهَلُ",
+        "label": "تَذْهَلُ",
+        "definitionHtml": "تَذْهَلُ tadhhal [imperf. of v. ذَهَلَ dhahala, intrans.] to be distracted, to be oblivious <br><br>(22:2) يَوْمَ تَرَوْنَهَا تَذْهَلُ كُلُّ مُرْضِعَةٍ عَمَّا أَرْضَعَتْ on the Day you see it, every suckling woman will be oblivious to that which she suckles.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:00.093Z",
+      "refword": "22:2:3",
+      "lexword": "تَذْهَلُ"
+    }
+  }
+}

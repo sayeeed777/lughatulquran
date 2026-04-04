@@ -1,0 +1,74 @@
+{
+  "root": "دمدم",
+  "rootArabic": "دمدم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "دَمْدَمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَمْدَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 91,
+      "ayah": 14,
+      "text": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا فَسَوَّىٰهَا",
+      "highlightedHtml": "فَكَذَّبُوهُ فَعَقَرُوهَا <a class=\"highlight-text\">فَدَمْدَمَ</a> عَلَيْهِمْ رَبُّهُم بِذَنۢبِهِمْ فَسَوَّىٰهَا فَسَوَّىٰهَا",
+      "derivedForms": [
+        "دَمْدَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:24.177Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "فَدَمْدَمَ is in the derivative form: دَمْدَمَ",
+    "rootDefinitionHtml": "د/م/د/م   d–m–d–m anger, to shake up violently; to inflict great punishment; to bury; to smother. Of this root, دَمْدَمَ damdama occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "دَمْدَمَ damdama [quadriliteral v., intrans. with prep. عَلَى] to crush, to destroy, to visit with great punishment <br><br>(91:14) فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا but they called him a liar and hamstrung her, so their Lord crushed them for their sin and flattened it [their town].",
+    "mainEntryId": "wdef-د-م-د-م.دَمْدَمَ",
+    "entries": [
+      {
+        "id": "wdef-د-م-د-م",
+        "label": "د-م-د-م",
+        "definitionHtml": "د/م/د/م   d–m–d–m anger, to shake up violently; to inflict great punishment; to bury; to smother. Of this root, دَمْدَمَ damdama occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-م-د-م.دَمْدَمَ",
+        "label": "دَمْدَمَ",
+        "definitionHtml": "دَمْدَمَ damdama [quadriliteral v., intrans. with prep. عَلَى] to crush, to destroy, to visit with great punishment <br><br>(91:14) فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمْدَمَ عَلَيْهِمْ رَبُّهُمْ بِذَنْبِهِمْ فَسَوَّاهَا but they called him a liar and hamstrung her, so their Lord crushed them for their sin and flattened it [their town].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:09.122Z",
+      "refword": "91:14:3",
+      "lexword": "فَدَمْدَمَ"
+    }
+  }
+}

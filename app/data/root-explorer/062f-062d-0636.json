@@ -1,0 +1,159 @@
+{
+  "root": "دحض",
+  "rootArabic": "دحض",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يُدْحِضُ",
+      "count": 2
+    },
+    {
+      "form": "دَاحِضَةٌ",
+      "count": 1
+    },
+    {
+      "form": "مُدْحَضُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُدْحِضُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدْحَضُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُدْحِضُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَاحِضَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 56,
+      "text": "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۚ وَيُجَٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ ۖ وَٱتَّخَذُوٓا۟ آيَاتِي وَمَآ أُنذِرُوا۟ هُزُوًا",
+      "highlightedHtml": "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۚ وَيُجَٰدِلُ ٱلَّذِينَ كَفَرُوا۟ بِٱلْبَٰطِلِ <a class=\"highlight-text\">لِيُدْحِضُوا۟</a> بِهِ ٱلْحَقَّ ۖ وَٱتَّخَذُوٓا۟ آيَاتِي وَمَآ أُنذِرُوا۟ هُزُوًا",
+      "derivedForms": [
+        "يُدْحِضُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 141,
+      "text": "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+      "highlightedHtml": "فَسَاهَمَ فَكَانَ مِنَ <a class=\"highlight-text\">ٱلْمُدْحَضِينَ</a>",
+      "derivedForms": [
+        "مُدْحَضُون"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 5,
+      "text": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ وَهَمَّتْ كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَٰدَلُوا۟ بِٱلْبَٰطِلِ لِيُدْحِضُوا۟ بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "highlightedHtml": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ وَٱلْأَحْزَابُ مِنۢ بَعْدِهِمْ ۖ وَهَمَّتْ كُلُّ أُمَّةٍۭ بِرَسُولِهِمْ لِيَأْخُذُوهُ ۖ وَجَٰدَلُوا۟ بِٱلْبَٰطِلِ <a class=\"highlight-text\">لِيُدْحِضُوا۟</a> بِهِ ٱلْحَقَّ فَأَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "derivedForms": [
+        "يُدْحِضُ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 16,
+      "text": "وَٱلَّذِينَ يُحَآجُّونَ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ٱسْتُجِيبَ لَهُۥ حُجَّتُهُمْ دَاحِضَةٌ عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ",
+      "highlightedHtml": "وَٱلَّذِينَ يُحَآجُّونَ فِى ٱللَّهِ مِنۢ بَعْدِ مَا ٱسْتُجِيبَ لَهُۥ حُجَّتُهُمْ <a class=\"highlight-text\">دَاحِضَةٌ</a> عِندَ رَبِّهِمْ وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ",
+      "derivedForms": [
+        "دَاحِضَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:03.470Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb, subjunctive mood",
+    "derivativeNote": "لِيُدْحِضُوا۟ is in the derivative form: يُدْحِضُ",
+    "rootDefinitionHtml": "د/ح/ض   d–ḥ–ḍ to slip, to become slippery, to lose one’s footing<br>; to weaken, to lose one’s grip; to refute, to invalidate, to argue down, prove wrong, (of the sun) to move away from the middle of the sky. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يُدْحِضُون yudḥiḍūn 2 times; دَاحِضَةٌ dāḥiḍatun 1 time and مُدْحَضُون mudḥaḍūn 1 time.",
+    "mainDefinitionHtml": "يُدْحِضُ yudḥiḍ [imperf. of v. أَدْحَضَ ʾadḥaḍa, trans.] to refute, to invalidate, to argue down <br><br>(18:56) وَيُجَادِلُ الَّذِينَ كَفَرُوا بِالْبَاطِلِ لِيُدْحِضُوا بِهِ الْحَقَّ yet those who disbelieve seek to refute the truth with false arguments.",
+    "mainEntryId": "wdef-د-ح-ض.يُدْحِضُ",
+    "entries": [
+      {
+        "id": "wdef-د-ح-ض",
+        "label": "د-ح-ض",
+        "definitionHtml": "د/ح/ض   d–ḥ–ḍ to slip, to become slippery, to lose one’s footing<br>; to weaken, to lose one’s grip; to refute, to invalidate, to argue down, prove wrong, (of the sun) to move away from the middle of the sky. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يُدْحِضُون yudḥiḍūn 2 times; دَاحِضَةٌ dāḥiḍatun 1 time and مُدْحَضُون mudḥaḍūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ح-ض.يُدْحِضُ",
+        "label": "يُدْحِضُ",
+        "definitionHtml": "يُدْحِضُ yudḥiḍ [imperf. of v. أَدْحَضَ ʾadḥaḍa, trans.] to refute, to invalidate, to argue down <br><br>(18:56) وَيُجَادِلُ الَّذِينَ كَفَرُوا بِالْبَاطِلِ لِيُدْحِضُوا بِهِ الْحَقَّ yet those who disbelieve seek to refute the truth with false arguments.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ح-ض.دَاحِضَةٌ",
+        "label": "دَاحِضَةٌ",
+        "definitionHtml": "دَاحِضَةٌ dāḥiḍatun [quasi‐act. part.] refutable, baseless, null and void <br><br>(42:16) وَالَّذِينَ يُحَاجُّونَ فِى اللَّهِ مِنْ بَعْدِ مَا اسْتُجِيبَ لَهُ حُجَّتُهُمْ دَاحِضَةٌ عِنْدَ رَبِّهِمْ and those who argue about God after He has been acknowledged [by others], their argument is null and void with their Lord.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ح-ض.مُدْحَضُون",
+        "label": "مُدْحَضُون",
+        "definitionHtml": "مُدْحَضُون mudḥaḍūn [pl. of pass. part. مُدْحَضٌ mudḥaḍ] defeated, vanquished <br><br>(37:141) فَسَاهَمَ فَكَانَ مِنَ الْمُدْحَضِينَ he cast lots and was one of the defeated.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:26.718Z",
+      "refword": "18:56:11",
+      "lexword": "لِيُدْحِضُوا۟"
+    }
+  }
+}

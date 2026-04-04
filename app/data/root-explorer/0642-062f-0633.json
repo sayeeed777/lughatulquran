@@ -1,0 +1,270 @@
+{
+  "root": "قدس",
+  "rootArabic": "قدس",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "رُوحُ",
+      "count": 4
+    },
+    {
+      "form": "مُقَدَّس",
+      "count": 3
+    },
+    {
+      "form": "القُدُّوس",
+      "count": 2
+    },
+    {
+      "form": "نُقَدِّس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رُوحُ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "نُقَدِّس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رُوحُ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُقَدَّس",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُوحُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقَدَّس",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القُدُّوس",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القُدُّوس",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقَدَّس",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 30,
+      "text": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً ۖ قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ <a class=\"highlight-text\">وَنُقَدِّسُ</a> لَكَ ۖ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "نُقَدِّس"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 87,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ <a class=\"highlight-text\">ٱلْقُدُسِ</a> ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+      "derivedForms": [
+        "رُوحُ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 253,
+      "text": "تِلْكَ ٱلرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ ۘ مِّنْهُم مَّن كَلَّمَ ٱللَّهُ ۖ وَرَفَعَ بَعْضَهُمْ دَرَجَٰتٍ ۚ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ ۗ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلَ ٱلَّذِينَ مِنۢ بَعْدِهِم مِّنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ وَلَٰكِنِ ٱخْتَلَفُوا۟ فَمِنْهُم مَّنْ آمَنَ وَمِنْهُم مَّن كَفَرَ ۚ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلُوا۟ وَلَٰكِنَّ ٱللَّهَ يَفْعَلُ مَا يُرِيدُ",
+      "highlightedHtml": "تِلْكَ ٱلرُّسُلُ فَضَّلْنَا بَعْضَهُمْ عَلَىٰ بَعْضٍ ۘ مِّنْهُم مَّن كَلَّمَ ٱللَّهُ ۖ وَرَفَعَ بَعْضَهُمْ دَرَجَٰتٍ ۚ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ <a class=\"highlight-text\">ٱلْقُدُسِ</a> ۗ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلَ ٱلَّذِينَ مِنۢ بَعْدِهِم مِّنۢ بَعْدِ مَا جَآءَتْهُمُ ٱلْبَيِّنَٰتُ وَلَٰكِنِ ٱخْتَلَفُوا۟ فَمِنْهُم مَّنْ آمَنَ وَمِنْهُم مَّن كَفَرَ ۚ وَلَوْ شَآءَ ٱللَّهُ مَا ٱقْتَتَلُوا۟ وَلَٰكِنَّ ٱللَّهَ يَفْعَلُ مَا يُرِيدُ",
+      "derivedForms": [
+        "رُوحُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 21,
+      "text": "يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ <a class=\"highlight-text\">ٱلْمُقَدَّسَةَ</a> ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "مُقَدَّس"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 110,
+      "text": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ ٱلْقُدُسِ تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "highlightedHtml": "إِذْ قَالَ ٱللَّهُ يَٰعِيسَى ٱبْنَ مَرْيَمَ ٱذْكُرْ نِعْمَتِى عَلَيْكَ وَعَلَىٰ وَٰلِدَتِكَ إِذْ أَيَّدتُّكَ بِرُوحِ <a class=\"highlight-text\">ٱلْقُدُسِ</a> تُكَلِّمُ ٱلنَّاسَ فِى ٱلْمَهْدِ وَكَهْلًا ۖ وَإِذْ عَلَّمْتُكَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ ۖ وَإِذْ تَخْلُقُ مِنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ بِإِذْنِى فَتَنفُخُ فِيهَا فَتَكُونُ طَيْرًۢا بِإِذْنِى ۖ وَتُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ بِإِذْنِى ۖ وَإِذْ تُخْرِجُ ٱلْمَوْتَىٰ بِإِذْنِى ۖ وَإِذْ كَفَفْتُ بَنِىٓ إِسْرَٰٓءِيلَ عَنكَ إِذْ جِئْتَهُم بِٱلْبَيِّنَٰتِ فَقَالَ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ إِنْ هَٰذَآ إِلَّا سِحْرٌ مُّبِينٌ",
+      "derivedForms": [
+        "رُوحُ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 102,
+      "text": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ آمَنُوا وَهُدًى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "highlightedHtml": "قُلْ نَزَّلَهُۥ رُوحُ <a class=\"highlight-text\">ٱلْقُدُسِ</a> مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ آمَنُوا وَهُدًى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+      "derivedForms": [
+        "رُوحُ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 12,
+      "text": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "highlightedHtml": "إِنِّىٓ أَنَا۠ رَبُّكَ فَٱخْلَعْ نَعْلَيْكَ ۖ إِنَّكَ بِٱلْوَادِ <a class=\"highlight-text\">ٱلْمُقَدَّسِ</a> طُوًى",
+      "derivedForms": [
+        "مُقَدَّس"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 23,
+      "text": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ٱلْمَلِكُ ٱلْقُدُّوسُ ٱلسَّلَٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "هُوَ ٱللَّهُ ٱلَّذِى لَآ إِلَٰهَ إِلَّا هُوَ ٱلْمَلِكُ <a class=\"highlight-text\">ٱلْقُدُّوسُ</a> ٱلسَّلَٰمُ ٱلْمُؤْمِنُ ٱلْمُهَيْمِنُ ٱلْعَزِيزُ ٱلْجَبَّارُ ٱلْمُتَكَبِّرُ ۚ سُبْحَٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "القُدُّوس"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 1,
+      "text": "يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ٱلْمَلِكِ ٱلْقُدُّوسِ ٱلْعَزِيزِ ٱلْحَكِيمِ",
+      "highlightedHtml": "يُسَبِّحُ لِلَّهِ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ٱلْمَلِكِ <a class=\"highlight-text\">ٱلْقُدُّوسِ</a> ٱلْعَزِيزِ ٱلْحَكِيمِ",
+      "derivedForms": [
+        "القُدُّوس"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 16,
+      "text": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ ٱلْمُقَدَّسِ طُوًى",
+      "highlightedHtml": "إِذْ نَادَىٰهُ رَبُّهُۥ بِٱلْوَادِ <a class=\"highlight-text\">ٱلْمُقَدَّسِ</a> طُوًى",
+      "derivedForms": [
+        "مُقَدَّس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:38.997Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) imperfect verb",
+    "derivativeNote": "وَنُقَدِّسُ is in the derivative form: نُقَدِّس",
+    "rootDefinitionHtml": "ق/د/س q–d–s to go far in the land<br>; holiness, to be holy, blessed, or sacred; to venerate, to be pure, cleanliness. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> نُقَدِّس nuqaddis 1 time; القُدُس ʾal-qudus 4 times; القُدُّوس ʾal-quddūs 2 times; المُقَدَّس ʾal-muqaddas 2 times and المُقَدَّسَةُ ʾal-muqaddasatu 1 time.",
+    "mainDefinitionHtml": "نُقَدِّس nuqaddis [imperf. v. II, trans.] to sanctify, to extol, to hallow <br><br>(2:30) قَالُوا أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّس لكُ they said, ‘How can You place on it someone who will cause damage and bloodshed there, whereas we sing Your praise and sanctify You?’",
+    "mainEntryId": "wdef-ق-د-س.نُقَدِّس",
+    "entries": [
+      {
+        "id": "wdef-ق-د-س",
+        "label": "ق-د-س",
+        "definitionHtml": "ق/د/س q–d–s to go far in the land<br>; holiness, to be holy, blessed, or sacred; to venerate, to be pure, cleanliness. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> نُقَدِّس nuqaddis 1 time; القُدُس ʾal-qudus 4 times; القُدُّوس ʾal-quddūs 2 times; المُقَدَّس ʾal-muqaddas 2 times and المُقَدَّسَةُ ʾal-muqaddasatu 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-س.نُقَدِّس",
+        "label": "نُقَدِّس",
+        "definitionHtml": "نُقَدِّس nuqaddis [imperf. v. II, trans.] to sanctify, to extol, to hallow <br><br>(2:30) قَالُوا أَتَجْعَلُ فِيهَا مَنْ يُفْسِدُ فِيهَا وَيَسْفِكُ الدِّمَاءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّس لكُ they said, ‘How can You place on it someone who will cause damage and bloodshed there, whereas we sing Your praise and sanctify You?’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-د-س.القُدُّوس",
+        "label": "القُدُّوس",
+        "definitionHtml": "القُدُّوس ʾal-quddūs [n.] [an attribute of God] the Holy One <br><br>(59:23) الْمَلِكُ الْقُدُّوسُ السَّلاَمُ the King, the Holy One, Source of Peace.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-س.رُوحُ",
+        "label": "رُوحُ",
+        "definitionHtml": "رُوحُ القُدُس rūḥ ʾal-qudus [v. n.; n. in construct (إضافة)] the essence of purity, the spirit of holiness, interpreted as <br><br><strong>1 </strong>epithet of the Archangel Gabriel (q.v.) <br><br>(16:102) نَزَّلَهُ رُوحُ الْقُدُسِ مِنْ رَبِّكَ بِالْحَقِّ the Holy Spirit has brought it with the Truth (q.v.) from your Lord <br><br><strong>2 </strong>the spirit that God sent to the Virgin Mary as a substitute for procreation through a father, or the power by which Jesus raised the dead <br><br>(2:253) وَءَاتَيْنَا عِيسَى ابْنَ مَرْيَمَ الْبَيِّنَاتِ وَأَيَّدْنَاهُ بِرُوحِ الْقُدُسِ We gave Jesus, son of Mary, Our clear signs and strengthened him with the Holy Spirit.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-س.مُقَدَّس",
+        "label": "مُقَدَّس",
+        "definitionHtml": "مُقَدَّس muqaddas [quasi-pass. part.; fem مُقَدَّسَة muqaddasatun] blessed, made sacred <br><br>(20:12) فَاخْلَعْ نَعْلَيْكَ إِنَّكَ بِالْوَادِ الْمُقَدَّسِ طُوًى so take off both your shoes; you are in the sacred valley, ‡uwā.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:54.526Z",
+      "refword": "2:30:21",
+      "lexword": "وَنُقَدِّسُ"
+    }
+  }
+}

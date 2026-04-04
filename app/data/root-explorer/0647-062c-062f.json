@@ -1,0 +1,74 @@
+{
+  "root": "هجد",
+  "rootArabic": "هجد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَهَجَّدْ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَهَجَّدْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 79,
+      "text": "وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةً لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا",
+      "highlightedHtml": "وَمِنَ ٱلَّيْلِ <a class=\"highlight-text\">فَتَهَجَّدْ</a> بِهِۦ نَافِلَةً لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا",
+      "derivedForms": [
+        "تَهَجَّدْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:23.493Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form V) imperative verb",
+    "derivativeNote": "فَتَهَجَّدْ is in the derivative form: تَهَجَّدْ",
+    "rootDefinitionHtml": "هـ/ج/د   h–j–d to sleep in the night or in the latter part of the night; to stay awake at night; (of a camel) to rest the fore part of the neck upon the ground. Of this root, تَهَجَّد tahajjad occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَهَجَّدْ tahajjad [imper. of v. V تَهَجَّدَ tahajjada, intrans.] to perform voluntary prayers in the depths of night <br><br>(17:79) وَمِنَ اللَّيْلِ فَتَهَجَّدْ بِهِ نَافِلَةً لَكَ and in some part of the night, pray, as an extra offering of your own [for your own benefit].",
+    "mainEntryId": "wdef-هـ-ج-د.تَهَجَّدْ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ج-د",
+        "label": "هـ-ج-د",
+        "definitionHtml": "هـ/ج/د   h–j–d to sleep in the night or in the latter part of the night; to stay awake at night; (of a camel) to rest the fore part of the neck upon the ground. Of this root, تَهَجَّد tahajjad occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ج-د.تَهَجَّدْ",
+        "label": "تَهَجَّدْ",
+        "definitionHtml": "تَهَجَّدْ tahajjad [imper. of v. V تَهَجَّدَ tahajjada, intrans.] to perform voluntary prayers in the depths of night <br><br>(17:79) وَمِنَ اللَّيْلِ فَتَهَجَّدْ بِهِ نَافِلَةً لَكَ and in some part of the night, pray, as an extra offering of your own [for your own benefit].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:53.007Z",
+      "refword": "17:79:3",
+      "lexword": "فَتَهَجَّدْ"
+    }
+  }
+}

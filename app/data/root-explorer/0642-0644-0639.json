@@ -1,0 +1,74 @@
+{
+  "root": "قلع",
+  "rootArabic": "قلع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَقْلَعَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْلَعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 44,
+      "text": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ <a class=\"highlight-text\">أَقْلِعِى</a> وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَقْلَعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:10.475Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person feminine singular (form IV) imperative verb",
+    "derivativeNote": "أَقْلِعِى is in the derivative form: أَقْلَعَ",
+    "rootDefinitionHtml": "ق/ل/ع   q–l–ʿ to pull out, to uproot, to remove; castle, stronghold; to cease, to desist, to abstain, to abandon; sail, to sail; fever, ulcerated stomach. Of this root, أَقْلِعِي ʾaqliʿı occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَقْلَعَ ʾaqlaʿa [v. IV, intrans.] to cease action, to abate <br><br>(11:44) وَقِيلَ يَاأَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي then it was said, ‘Earth, swallow up your water, and sky, cease [raining].’",
+    "mainEntryId": "wdef-ق-ل-ع.أَقْلَعَ",
+    "entries": [
+      {
+        "id": "wdef-ق-ل-ع",
+        "label": "ق-ل-ع",
+        "definitionHtml": "ق/ل/ع   q–l–ʿ to pull out, to uproot, to remove; castle, stronghold; to cease, to desist, to abstain, to abandon; sail, to sail; fever, ulcerated stomach. Of this root, أَقْلِعِي ʾaqliʿı occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ل-ع.أَقْلَعَ",
+        "label": "أَقْلَعَ",
+        "definitionHtml": "أَقْلَعَ ʾaqlaʿa [v. IV, intrans.] to cease action, to abate <br><br>(11:44) وَقِيلَ يَاأَرْضُ ابْلَعِي مَاءَكِ وَيَا سَمَاءُ أَقْلِعِي then it was said, ‘Earth, swallow up your water, and sky, cease [raining].’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:52.899Z",
+      "refword": "11:44:6",
+      "lexword": "أَقْلِعِى"
+    }
+  }
+}

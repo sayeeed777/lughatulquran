@@ -1,0 +1,95 @@
+{
+  "root": "بخع",
+  "rootArabic": "بخع",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "بَاخِعٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاخِعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاخِعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 6,
+      "text": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "highlightedHtml": "فَلَعَلَّكَ <a class=\"highlight-text\">بَٰخِعٌ</a> نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "derivedForms": [
+        "بَاخِعٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 3,
+      "text": "لَعَلَّكَ بَٰخِعٌ نَّفْسَكَ أَلَّا يَكُونُوا۟ مُؤْمِنِينَ",
+      "highlightedHtml": "لَعَلَّكَ <a class=\"highlight-text\">بَٰخِعٌ</a> نَّفْسَكَ أَلَّا يَكُونُوا۟ مُؤْمِنِينَ",
+      "derivedForms": [
+        "بَاخِعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:14.059Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "بَٰخِعٌ is in the derivative form: بَاخِعٌ",
+    "rootDefinitionHtml": "ب/خ/ع   b–kh–ʿ tendon that runs close to the neck, to cut such tendon, to cut the throat; to show humility; to be docile. Of this root, بَاخِعٌ bākhiʿ occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "بَاخِعٌ bākhiʿ [act. part.] tormenting, killing (oneself with sorrow or worry) <br><br>(26:3) فلعَلَّكَ بَاخِعٌ نَفْسَكَ أَلاَّ يَكُونُوا مُؤْمِنِينَ it may be that you [Prophet] are going to kill yourself [with worry] because they will not become believers!",
+    "mainEntryId": "wdef-ب-خ-ع.بَاخِعٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-خ-ع",
+        "label": "ب-خ-ع",
+        "definitionHtml": "ب/خ/ع   b–kh–ʿ tendon that runs close to the neck, to cut such tendon, to cut the throat; to show humility; to be docile. Of this root, بَاخِعٌ bākhiʿ occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-خ-ع.بَاخِعٌ",
+        "label": "بَاخِعٌ",
+        "definitionHtml": "بَاخِعٌ bākhiʿ [act. part.] tormenting, killing (oneself with sorrow or worry) <br><br>(26:3) فلعَلَّكَ بَاخِعٌ نَفْسَكَ أَلاَّ يَكُونُوا مُؤْمِنِينَ it may be that you [Prophet] are going to kill yourself [with worry] because they will not become believers!",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:21.291Z",
+      "refword": "18:6:2",
+      "lexword": "بَٰخِعٌ"
+    }
+  }
+}

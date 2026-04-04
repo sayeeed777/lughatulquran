@@ -1,0 +1,127 @@
+{
+  "root": "لفت",
+  "rootArabic": "لفت",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يَلْتَفِت",
+      "count": 2
+    },
+    {
+      "form": "تَلْفِت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلْفِت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلْتَفِت",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَلْتَفِت",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 10,
+      "ayah": 78,
+      "text": "قَالُوٓا۟ أَجِئْتَنَا لِتَلْفِتَنَا عَمَّا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا وَتَكُونَ لَكُمَا ٱلْكِبْرِيَآءُ فِى ٱلْأَرْضِ وَمَا نَحْنُ لَكُمَا بِمُؤْمِنِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَجِئْتَنَا <a class=\"highlight-text\">لِتَلْفِتَنَا</a> عَمَّا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا وَتَكُونَ لَكُمَا ٱلْكِبْرِيَآءُ فِى ٱلْأَرْضِ وَمَا نَحْنُ لَكُمَا بِمُؤْمِنِينَ",
+      "derivedForms": [
+        "تَلْفِت"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 81,
+      "text": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰلُوطُ إِنَّا رُسُلُ رَبِّكَ لَن يَصِلُوٓا۟ إِلَيْكَ ۖ فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَلَا <a class=\"highlight-text\">يَلْتَفِتْ</a> مِنكُمْ أَحَدٌ إِلَّا ٱمْرَأَتَكَ ۖ إِنَّهُۥ مُصِيبُهَا مَآ أَصَابَهُمْ ۚ إِنَّ مَوْعِدَهُمُ ٱلصُّبْحُ ۚ أَلَيْسَ ٱلصُّبْحُ بِقَرِيبٍ",
+      "derivedForms": [
+        "يَلْتَفِت"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 65,
+      "text": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "highlightedHtml": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا <a class=\"highlight-text\">يَلْتَفِتْ</a> مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "derivedForms": [
+        "يَلْتَفِت"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:36.167Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "لِتَلْفِتَنَا is in the derivative form: تَلْفِت",
+    "rootDefinitionHtml": "ل/ف/ت   l–f–t to turn to 1 side, to turn back, to look back, to divert; to distract, to dissuade; to twist; to take care; gesture. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَلْفِت talfit 1 time and يَلْتَفِت yaltafit 2 times.",
+    "mainDefinitionHtml": "تَلْفِت talfit [imperf. of v. لَفَتَ lafata, trans.] to distract, to divert, to cause someone to turn away from <br><br>(10:78) قَالُوا‏ ‏أَجِئْتَنَا‏ ‏لِتَلْفِتَنَا‏ ‏عَمَّا وَجَدْنَا‏ ‏عَلَيْهِ‏ ‏ءَابَاءَنَا they said, ‘Have you come to turn us away from that [the faith] which we found our fathers upholding?’",
+    "mainEntryId": "wdef-ل-ف-ت.تَلْفِت",
+    "entries": [
+      {
+        "id": "wdef-ل-ف-ت",
+        "label": "ل-ف-ت",
+        "definitionHtml": "ل/ف/ت   l–f–t to turn to 1 side, to turn back, to look back, to divert; to distract, to dissuade; to twist; to take care; gesture. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَلْفِت talfit 1 time and يَلْتَفِت yaltafit 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-ت.تَلْفِت",
+        "label": "تَلْفِت",
+        "definitionHtml": "تَلْفِت talfit [imperf. of v. لَفَتَ lafata, trans.] to distract, to divert, to cause someone to turn away from <br><br>(10:78) قَالُوا‏ ‏أَجِئْتَنَا‏ ‏لِتَلْفِتَنَا‏ ‏عَمَّا وَجَدْنَا‏ ‏عَلَيْهِ‏ ‏ءَابَاءَنَا they said, ‘Have you come to turn us away from that [the faith] which we found our fathers upholding?’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ف-ت.يَلْتَفِت",
+        "label": "يَلْتَفِت",
+        "definitionHtml": "يَلْتَفِت yaltafit [imperf. of v. VIII, intrans.] to turn to the side, to look back <br><br>(11:81) ‏فَأَسْرِ‏ ‏بِأَهْلِكَ‏ ‏بِقِطْعٍ‏ ‏مِنَ‏ ‏اللَّيْلِ‏ ‏وَلاَ‏ ‏يَلْتَفِتْ مِنْكُمْ‏ ‏أَحَدٌ so, travel with your household in the dead of night, and let none of you look behind.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:31.268Z",
+      "refword": "10:78:3",
+      "lexword": "لِتَلْفِتَنَا"
+    }
+  }
+}

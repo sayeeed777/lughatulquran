@@ -1,0 +1,106 @@
+{
+  "root": "عطل",
+  "rootArabic": "عطل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "عُطِّلَ",
+      "count": 1
+    },
+    {
+      "form": "مُعَطَّلَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعَطَّلَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُطِّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 45,
+      "text": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ",
+      "highlightedHtml": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ <a class=\"highlight-text\">مُّعَطَّلَةٍ</a> وَقَصْرٍ مَّشِيدٍ",
+      "derivedForms": [
+        "مُعَطَّلَةٌ"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 4,
+      "text": "وَإِذَا ٱلْعِشَارُ عُطِّلَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْعِشَارُ <a class=\"highlight-text\">عُطِّلَتْ</a>",
+      "derivedForms": [
+        "عُطِّلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:07.190Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite (form II) passive participle",
+    "derivativeNote": "مُّعَطَّلَةٍ is in the derivative form: مُعَطَّلَةٌ",
+    "rootDefinitionHtml": "ع/ط/ل   ʿ–ṭ–l to be without jewellery, to be without ornaments, to be featureless, to be without arms, to be idle, to be without work, to be without a leader, to be unattached, to make someone idle, to cause to be dysfunctional. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> عُطِّلَتْ ʿuṭṭilat and مُعَطَّلَةٌ muʿaṭṭalatun.",
+    "mainDefinitionHtml": "مُعَطَّلَةٌ muʿaṭṭalatun [pass. part.] abandoned, deserted, ruined, caused to be dysfunctional <br><br>(22:45)‏فَهِيَ خَاوِيَةٌ عَلَى عُرُوشِهَا وَبِئْرٍ مُعَطَّلَةٍ وَقَصْرٍ مَشِيدٍ and now it has fallen in upon its turrets, and [how many] a deserted well, and [how many] a lofty palace.",
+    "mainEntryId": "wdef-ع-ط-ل.مُعَطَّلَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ط-ل",
+        "label": "ع-ط-ل",
+        "definitionHtml": "ع/ط/ل   ʿ–ṭ–l to be without jewellery, to be without ornaments, to be featureless, to be without arms, to be idle, to be without work, to be without a leader, to be unattached, to make someone idle, to cause to be dysfunctional. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> عُطِّلَتْ ʿuṭṭilat and مُعَطَّلَةٌ muʿaṭṭalatun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ط-ل.مُعَطَّلَةٌ",
+        "label": "مُعَطَّلَةٌ",
+        "definitionHtml": "مُعَطَّلَةٌ muʿaṭṭalatun [pass. part.] abandoned, deserted, ruined, caused to be dysfunctional <br><br>(22:45)‏فَهِيَ خَاوِيَةٌ عَلَى عُرُوشِهَا وَبِئْرٍ مُعَطَّلَةٍ وَقَصْرٍ مَشِيدٍ and now it has fallen in upon its turrets, and [how many] a deserted well, and [how many] a lofty palace.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ط-ل.عُطِّلَ",
+        "label": "عُطِّلَ",
+        "definitionHtml": "عُطِّلَ ʿuṭṭila [pass. v. II] to be rendered dysfunctional, to be ignored <br><br>(81:4) وَإِذَا‏ ‏الْعِشَارُ‏ ‏عُطِّلَتْ when people become too distracted to carry out the most urgent tasks‏ [literally interpreted as either: when pregnant she‐camels in their tenth month are abandoned (out of a twelve month term, and so valuable and in need of constant attention) or, when clouds heavily laden with life‐giving rain are ignored].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:57.831Z",
+      "refword": "22:45:12",
+      "lexword": "مُّعَطَّلَةٍ"
+    }
+  }
+}

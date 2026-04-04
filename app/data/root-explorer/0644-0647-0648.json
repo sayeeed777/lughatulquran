@@ -1,0 +1,383 @@
+{
+  "root": "لهو",
+  "rootArabic": "لهو",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 4,
+    "surahCount": 13,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "لَهْو",
+      "count": 10
+    },
+    {
+      "form": "ألْهَى",
+      "count": 4
+    },
+    {
+      "form": "تَلَهَّى",
+      "count": 1
+    },
+    {
+      "form": "لاهِيةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْهَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لاهِيةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْهَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لَهْو",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 63,
+      "surahName": "Al-Munafiqun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْهَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلَهَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 102,
+      "surahName": "At-Takathur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألْهَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 32,
+      "text": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَعِبٌ وَلَهْوٌ ۖ وَلَلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَعِبٌ <a class=\"highlight-text\">وَلَهْوٌ</a> ۖ وَلَلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 70,
+      "text": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "highlightedHtml": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا <a class=\"highlight-text\">وَلَهْوًا</a> وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 51,
+      "text": "ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَهْوًا وَلَعِبًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "highlightedHtml": "ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ <a class=\"highlight-text\">لَهْوًا</a> وَلَعِبًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 3,
+      "text": "ذَرْهُمْ يَأْكُلُوا۟ وَيَتَمَتَّعُوا۟ وَيُلْهِهِمُ ٱلْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ",
+      "highlightedHtml": "ذَرْهُمْ يَأْكُلُوا۟ وَيَتَمَتَّعُوا۟ <a class=\"highlight-text\">وَيُلْهِهِمُ</a> ٱلْأَمَلُ ۖ فَسَوْفَ يَعْلَمُونَ",
+      "derivedForms": [
+        "ألْهَى"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 3,
+      "text": "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا۟ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">لَاهِيَةً</a> قُلُوبُهُمْ ۗ وَأَسَرُّوا۟ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ",
+      "derivedForms": [
+        "لاهِيةٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 17,
+      "text": "لَوْ أَرَدْنَآ أَن نَّتَّخِذَ لَهْوًا لَّٱتَّخَذْنَٰهُ مِن لَّدُنَّآ إِن كُنَّا فَٰعِلِينَ",
+      "highlightedHtml": "لَوْ أَرَدْنَآ أَن نَّتَّخِذَ <a class=\"highlight-text\">لَهْوًا</a> لَّٱتَّخَذْنَٰهُ مِن لَّدُنَّآ إِن كُنَّا فَٰعِلِينَ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 37,
+      "text": "رِجَالٌ لَّا تُلْهِيهِمْ تِجَٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَٰرُ",
+      "highlightedHtml": "رِجَالٌ لَّا <a class=\"highlight-text\">تُلْهِيهِمْ</a> تِجَٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَٰرُ",
+      "derivedForms": [
+        "ألْهَى"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 64,
+      "text": "وَمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ ٱلدَّارَ الْآخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "highlightedHtml": "وَمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا <a class=\"highlight-text\">لَهْوٌ</a> وَلَعِبٌ ۚ وَإِنَّ ٱلدَّارَ الْآخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 6,
+      "text": "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى لَهْوَ ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
+      "highlightedHtml": "وَمِنَ ٱلنَّاسِ مَن يَشْتَرِى <a class=\"highlight-text\">لَهْوَ</a> ٱلْحَدِيثِ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ بِغَيْرِ عِلْمٍ وَيَتَّخِذَهَا هُزُوًا ۚ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 36,
+      "text": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
+      "highlightedHtml": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ <a class=\"highlight-text\">وَلَهْوٌ</a> ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 20,
+      "text": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ <a class=\"highlight-text\">وَلَهْوٌ</a> وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 11,
+      "text": "وَإِذَا رَأَوْا۟ تِجَٰرَةً أَوْ لَهْوًا ٱنفَضُّوٓا۟ إِلَيْهَا وَتَرَكُوكَ قَآئِمًا ۚ قُلْ مَا عِندَ ٱللَّهِ خَيْرٌ مِّنَ ٱللَّهْوِ وَمِنَ ٱلتِّجَٰرَةِ ۚ وَٱللَّهُ خَيْرُ ٱلرَّٰزِقِينَ",
+      "highlightedHtml": "وَإِذَا رَأَوْا۟ تِجَٰرَةً أَوْ <a class=\"highlight-text\">لَهْوًا</a> ٱنفَضُّوٓا۟ إِلَيْهَا وَتَرَكُوكَ قَآئِمًا ۚ قُلْ مَا عِندَ ٱللَّهِ خَيْرٌ مِّنَ <a class=\"highlight-text\">ٱللَّهْوِ</a> وَمِنَ ٱلتِّجَٰرَةِ ۚ وَٱللَّهُ خَيْرُ ٱلرَّٰزِقِينَ",
+      "derivedForms": [
+        "لَهْو",
+        "لَهْو"
+      ]
+    },
+    {
+      "surah": 63,
+      "ayah": 9,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُلْهِكُمْ أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا <a class=\"highlight-text\">تُلْهِكُمْ</a> أَمْوَٰلُكُمْ وَلَآ أَوْلَٰدُكُمْ عَن ذِكْرِ ٱللَّهِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "ألْهَى"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 10,
+      "text": "فَأَنتَ عَنْهُ تَلَهَّىٰ",
+      "highlightedHtml": "فَأَنتَ عَنْهُ <a class=\"highlight-text\">تَلَهَّىٰ</a>",
+      "derivedForms": [
+        "تَلَهَّى"
+      ]
+    },
+    {
+      "surah": 102,
+      "ayah": 1,
+      "text": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَلْهَىٰكُمُ</a> ٱلتَّكَاثُرُ",
+      "derivedForms": [
+        "ألْهَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:50.671Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite noun",
+    "derivativeNote": "وَلَهْوٌ is in the derivative form: لَهْو",
+    "rootDefinitionHtml": "ل/ﻫ/و   l–h–w amusement, distraction, diversion, pastime, time-wasting, to amuse oneself, to have fun, to distract<br>; to turn one’s attention to; mouthful; uvula, gullet. <br><br>Of this root, 4 forms occur 16 times in the Qur’an:<br> ألْهَى ʾalhā 4 times; تَلَهَّى talahhā 1 time; لَهْو lahw 10 times and لاهِيةُ lāhiyatun 1 time.",
+    "mainDefinitionHtml": "لَهْو lahw [v. n; n.] <br><br><strong>1 </strong>diversion, distraction <br><br>(29:64) وَمَا‏ ‏هَذِهِ‏ ‏الْحَيَاةُ الدُّنْيَا ‏إِلاَّ لَهْوٌ وَلَعِبٌ ‏‏‏the life of this world is nothing but distraction and amusement <br><br><strong>2 </strong>amusement, sport <br><br>(62:11) وَإِذَا‏ ‏رَأَوْا‏ ‏تِجَارَةً‏ ‏أَوْ‏ ‏لَهْوًا‏ ‏انْفَضُّوا‏ ‏إِلَيْهَا‏ ‏وَتَرَكُوكَ‏ ‏قَائِمًا‏ yet whenever they see [a chance for] trade or amusement they scatter towards it, and leave you [Prophet] standing [alone] <br><br><strong>3 </strong>a plaything, a pastime <br><br>(21:17) لَوْ أَرَدْنَا أَنْ نَتَّخِذَ لَهْوًا لاَتَّخَذْنَاهُ مِنْ لَدُنَّا had We wished to indulge in a pastime, We would, indeed, have produced it from Ourselves; *<br><br>(31:6) لَهْوَ الْحَدِيثِ idle talk, distracting tales.",
+    "mainEntryId": "wdef-ل-ﻫ-و.لَهْو",
+    "entries": [
+      {
+        "id": "wdef-ل-ﻫ-و",
+        "label": "ل-ﻫ-و",
+        "definitionHtml": "ل/ﻫ/و   l–h–w amusement, distraction, diversion, pastime, time-wasting, to amuse oneself, to have fun, to distract<br>; to turn one’s attention to; mouthful; uvula, gullet. <br><br>Of this root, 4 forms occur 16 times in the Qur’an:<br> ألْهَى ʾalhā 4 times; تَلَهَّى talahhā 1 time; لَهْو lahw 10 times and لاهِيةُ lāhiyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ﻫ-و.لَهْو",
+        "label": "لَهْو",
+        "definitionHtml": "لَهْو lahw [v. n; n.] <br><br><strong>1 </strong>diversion, distraction <br><br>(29:64) وَمَا‏ ‏هَذِهِ‏ ‏الْحَيَاةُ الدُّنْيَا ‏إِلاَّ لَهْوٌ وَلَعِبٌ ‏‏‏the life of this world is nothing but distraction and amusement <br><br><strong>2 </strong>amusement, sport <br><br>(62:11) وَإِذَا‏ ‏رَأَوْا‏ ‏تِجَارَةً‏ ‏أَوْ‏ ‏لَهْوًا‏ ‏انْفَضُّوا‏ ‏إِلَيْهَا‏ ‏وَتَرَكُوكَ‏ ‏قَائِمًا‏ yet whenever they see [a chance for] trade or amusement they scatter towards it, and leave you [Prophet] standing [alone] <br><br><strong>3 </strong>a plaything, a pastime <br><br>(21:17) لَوْ أَرَدْنَا أَنْ نَتَّخِذَ لَهْوًا لاَتَّخَذْنَاهُ مِنْ لَدُنَّا had We wished to indulge in a pastime, We would, indeed, have produced it from Ourselves; *<br><br>(31:6) لَهْوَ الْحَدِيثِ idle talk, distracting tales.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ﻫ-و.ألْهَى",
+        "label": "ألْهَى",
+        "definitionHtml": "ألْهَى ʾalhā [v. IV, trans.] to divert, to distract <br><br>(24:37) رِجَالٌ‏ ‏لاَ‏ ‏تُلْهِيهِمْ‏ ‏تِجَارَةٌ‏ ‏وَلاَ ‏بَيْعٌ‏ ‏عَنْ‏ ‏ذِكْرِ‏ ‏اللَّهِ‏ men whom neither goods nor trading divert from the remembrance of God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ﻫ-و.تَلَهَّى",
+        "label": "تَلَهَّى",
+        "definitionHtml": "تَلَهَّى talahhā [imperf. (with elided prefix ﺘَ ta‐) of v. V, intrans. with prep. عَن] to be distracted or diverted away from, to occupy oneself away from. <br><br>(80:8–10) وَأَمَّا‏ ‏مَنْ‏ ‏جَاءَكَ‏ ‏يَسْعَى‏ وَهُوَ‏ ‏يَخْشَى‏ فَأَنْتَ‏ ‏عَنْهُ‏ ‏تَلَهَّى‏ as for the one who has come to you full of eagerness and awe, you allow yourself to be distracted from him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ﻫ-و.لاهِيةٌ",
+        "label": "لاهِيةٌ",
+        "definitionHtml": "لاهِيةٌ lāhiyatun [fem. act. part.] preoccupied, distracted; jesting <br><br>(21:2–3)‏ ‏رَبِّهِمْ‏ ‏مُحْدَثٍ‏ ‏إِلاَّ‏ ‏اسْتَمَعُوهُ‏ ‏وَهُمْ‏ ‏يَلْعَبُونَ‏ لاَهِيَةً‏ ‏قُلُوبُهُمْ‏ مَا‏ ‏يَأْتِيهِمْ‏ ‏مِنْ‏ ‏ذِكْرٍ‏ ‏مِنْ whenever any fresh revelation comes to them from their Lord, they listen to it while they play with frivolous hearts.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:02.225Z",
+      "refword": "6:32:6",
+      "lexword": "وَلَهْوٌ"
+    }
+  }
+}

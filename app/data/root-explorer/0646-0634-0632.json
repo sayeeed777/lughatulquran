@@ -1,0 +1,148 @@
+{
+  "root": "نشز",
+  "rootArabic": "نشز",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "انْشُز",
+      "count": 2
+    },
+    {
+      "form": "نُشُوزٌ",
+      "count": 2
+    },
+    {
+      "form": "نُنْشِِِز",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُنْشِِِز",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نُشُوزٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "انْشُز",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 259,
+      "text": "أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا ۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍ ثُمَّ بَعَثَهُۥ ۖ قَالَ كَمْ لَبِثْتَ ۖ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍ ۖ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ ۖ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ آيَةً لِّلنَّاسِ ۖ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ نُنشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًا ۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "أَوْ كَٱلَّذِى مَرَّ عَلَىٰ قَرْيَةٍ وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا قَالَ أَنَّىٰ يُحْىِۦ هَٰذِهِ ٱللَّهُ بَعْدَ مَوْتِهَا ۖ فَأَمَاتَهُ ٱللَّهُ مِا۟ئَةَ عَامٍ ثُمَّ بَعَثَهُۥ ۖ قَالَ كَمْ لَبِثْتَ ۖ قَالَ لَبِثْتُ يَوْمًا أَوْ بَعْضَ يَوْمٍ ۖ قَالَ بَل لَّبِثْتَ مِا۟ئَةَ عَامٍ فَٱنظُرْ إِلَىٰ طَعَامِكَ وَشَرَابِكَ لَمْ يَتَسَنَّهْ ۖ وَٱنظُرْ إِلَىٰ حِمَارِكَ وَلِنَجْعَلَكَ آيَةً لِّلنَّاسِ ۖ وَٱنظُرْ إِلَى ٱلْعِظَامِ كَيْفَ <a class=\"highlight-text\">نُنشِزُهَا</a> ثُمَّ نَكْسُوهَا لَحْمًا ۚ فَلَمَّا تَبَيَّنَ لَهُۥ قَالَ أَعْلَمُ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "نُنْشِِِز"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 34,
+      "text": "ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّٰتِى تَخَافُونَ نُشُوزَهُنَّ فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا",
+      "highlightedHtml": "ٱلرِّجَالُ قَوَّٰمُونَ عَلَى ٱلنِّسَآءِ بِمَا فَضَّلَ ٱللَّهُ بَعْضَهُمْ عَلَىٰ بَعْضٍ وَبِمَآ أَنفَقُوا۟ مِنْ أَمْوَٰلِهِمْ ۚ فَٱلصَّٰلِحَٰتُ قَٰنِتَٰتٌ حَٰفِظَٰتٌ لِّلْغَيْبِ بِمَا حَفِظَ ٱللَّهُ ۚ وَٱلَّٰتِى تَخَافُونَ <a class=\"highlight-text\">نُشُوزَهُنَّ</a> فَعِظُوهُنَّ وَٱهْجُرُوهُنَّ فِى ٱلْمَضَاجِعِ وَٱضْرِبُوهُنَّ ۖ فَإِنْ أَطَعْنَكُمْ فَلَا تَبْغُوا۟ عَلَيْهِنَّ سَبِيلًا ۗ إِنَّ ٱللَّهَ كَانَ عَلِيًّا كَبِيرًا",
+      "derivedForms": [
+        "نُشُوزٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 128,
+      "text": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَٱلصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "highlightedHtml": "وَإِنِ ٱمْرَأَةٌ خَافَتْ مِنۢ بَعْلِهَا <a class=\"highlight-text\">نُشُوزًا</a> أَوْ إِعْرَاضًا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يُصْلِحَا بَيْنَهُمَا صُلْحًا ۚ وَٱلصُّلْحُ خَيْرٌ ۗ وَأُحْضِرَتِ ٱلْأَنفُسُ ٱلشُّحَّ ۚ وَإِن تُحْسِنُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "derivedForms": [
+        "نُشُوزٌ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 11,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ <a class=\"highlight-text\">ٱنشُزُوا۟</a> <a class=\"highlight-text\">فَٱنشُزُوا۟</a> يَرْفَعِ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "انْشُز",
+        "انْشُز"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:25.842Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) imperfect verb",
+    "derivativeNote": "نُنشِزُهَا is in the derivative form: نُنْشِِِز",
+    "rootDefinitionHtml": "ن/ش/ز   n–sh–z high ground, elevation, protrusion, to stand out, to be discordant, to be rebellious<br>; to be perverted. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br>انْشُز ʾunshuz 2 times; أَنْشَزَ ʾanshaza 1 time and نُشُوزٌ nushūz 2 times.",
+    "mainDefinitionHtml": "نُنْشِِِز nunshiz [imperf. of v. IV أنْشَزَ ʾanshaza, trans.] to raise, to retrieve, to reassemble, to bring back to life <br><br>(2:259) وَانْظُرْ إِلَى الْعِظَامِ كَيْفَ نُنْشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًاٌ and look at the bones: [see] how We retrieve them and clothe them with flesh!",
+    "mainEntryId": "wdef-ن-ش-ز.نُنْشِِِز",
+    "entries": [
+      {
+        "id": "wdef-ن-ش-ز",
+        "label": "ن-ش-ز",
+        "definitionHtml": "ن/ش/ز   n–sh–z high ground, elevation, protrusion, to stand out, to be discordant, to be rebellious<br>; to be perverted. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br>انْشُز ʾunshuz 2 times; أَنْشَزَ ʾanshaza 1 time and نُشُوزٌ nushūz 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-ز.نُنْشِِِز",
+        "label": "نُنْشِِِز",
+        "definitionHtml": "نُنْشِِِز nunshiz [imperf. of v. IV أنْشَزَ ʾanshaza, trans.] to raise, to retrieve, to reassemble, to bring back to life <br><br>(2:259) وَانْظُرْ إِلَى الْعِظَامِ كَيْفَ نُنْشِزُهَا ثُمَّ نَكْسُوهَا لَحْمًاٌ and look at the bones: [see] how We retrieve them and clothe them with flesh!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ش-ز.انْشُز",
+        "label": "انْشُز",
+        "definitionHtml": "انْشُز ʾunshuz [imper. of v. نَشَزَ nashaza] rise up, give up your place <br><br>(58:11) يَاأَيُّهَا الَّذِينَ ءَامَنُوا إِذَا قِيلَ لَكُمْ تَفَسَّحُوا فِى الْمَجَالِسِ فَافْسَحُوا يَفْسَحِ اللَّهُ لَكُمْ وَإِذَا قِيلَ انْشُزُوا فَانْشُزُوا you who believe!–if it is said to you, ‘Make room!’ in assemblies, then make room, and God will make room for you, and if it is said, ‘Give up your seat!’, then give up your seat.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-ز.نُشُوزٌ",
+        "label": "نُشُوزٌ",
+        "definitionHtml": "نُشُوزٌ nushūz [v. n.] [jur.] discordant behaviour towards a spouse, being contrary or antagonistic in dealing with a spouse <br><br>(4:128) وَإِنِ امْرَأَةٌ خَافَتْ مِنْ بَعْلِهَا نُشُوزًا أَوْ إِعْرَاضًا and if a woman fears/experiences from her husband antagonism, discord or alienation.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:06.854Z",
+      "refword": "2:259:53",
+      "lexword": "نُنشِزُهَا"
+    }
+  }
+}

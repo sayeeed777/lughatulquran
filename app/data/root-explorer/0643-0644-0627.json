@@ -1,0 +1,74 @@
+{
+  "root": "كلا",
+  "rootArabic": "كلا",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَكْلأ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَكْلأ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 42,
+      "text": "قُلْ مَن يَكْلَؤُكُم بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ",
+      "highlightedHtml": "قُلْ مَن <a class=\"highlight-text\">يَكْلَؤُكُم</a> بِٱلَّيْلِ وَٱلنَّهَارِ مِنَ ٱلرَّحْمَٰنِ ۗ بَلْ هُمْ عَن ذِكْرِ رَبِّهِم مُّعْرِضُونَ",
+      "derivedForms": [
+        "يَكْلأ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:58.748Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَكْلَؤُكُم is in the derivative form: يَكْلأ",
+    "rootDefinitionHtml": "ك/ل/أ   k–l–ʾ pasture, vegetation, herbage; to guard over; to stay awake at night; shore, to bring a boat in to port. Of this root, يَكْلَؤكُم yaklaʾukum occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَكْلأ yaklaʾ [imperf. of v. كَلأَ kalaʾa, trans.] to shelter, defend, protect, to give sanctuary to <br><br>(21:42) قُلْ مَنْ يَكْلَؤُكُمْ بِاللَّيْلِ وَالنَّهَارِ مِنَ الرَّحْمَنِ say, ‘Who could shelter you night and day other than [lit. away from] the Lord of Mercy?’",
+    "mainEntryId": "wdef-ك-ل-أ.يَكْلأ",
+    "entries": [
+      {
+        "id": "wdef-ك-ل-أ",
+        "label": "ك-ل-أ",
+        "definitionHtml": "ك/ل/أ   k–l–ʾ pasture, vegetation, herbage; to guard over; to stay awake at night; shore, to bring a boat in to port. Of this root, يَكْلَؤكُم yaklaʾukum occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ل-أ.يَكْلأ",
+        "label": "يَكْلأ",
+        "definitionHtml": "يَكْلأ yaklaʾ [imperf. of v. كَلأَ kalaʾa, trans.] to shelter, defend, protect, to give sanctuary to <br><br>(21:42) قُلْ مَنْ يَكْلَؤُكُمْ بِاللَّيْلِ وَالنَّهَارِ مِنَ الرَّحْمَنِ say, ‘Who could shelter you night and day other than [lit. away from] the Lord of Mercy?’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:20.781Z",
+      "refword": "21:42:3",
+      "lexword": "يَكْلَؤُكُم"
+    }
+  }
+}

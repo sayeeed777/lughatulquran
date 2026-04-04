@@ -1,0 +1,74 @@
+{
+  "root": "بجس",
+  "rootArabic": "بجس",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "انْبَجَسَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْبَجَسَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 160,
+      "text": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ <a class=\"highlight-text\">فَٱنۢبَجَسَتْ</a> مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "انْبَجَسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:11.006Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VII) perfect verb",
+    "derivativeNote": "فَٱنۢبَجَسَتْ is in the derivative form: انْبَجَسَ",
+    "rootDefinitionHtml": "ب/ج/س   b–j–s to cause water to gush out; to come upon, to be full of, to boil over. Of this root, انْبَجَسَ ʾinbajasa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "انْبَجَسَ ʾinbajasa [v. VII. intrans.] to gush out <br><br>(7:160) اضْرِبْ بِعَصَاكَ الْحَجَرَ فَانْبَجَسَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيناْ ‘strike with your staff the rock’, and so there gushed out from it twelve springs.",
+    "mainEntryId": "wdef-ب-ج-س.انْبَجَسَ",
+    "entries": [
+      {
+        "id": "wdef-ب-ج-س",
+        "label": "ب-ج-س",
+        "definitionHtml": "ب/ج/س   b–j–s to cause water to gush out; to come upon, to be full of, to boil over. Of this root, انْبَجَسَ ʾinbajasa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ج-س.انْبَجَسَ",
+        "label": "انْبَجَسَ",
+        "definitionHtml": "انْبَجَسَ ʾinbajasa [v. VII. intrans.] to gush out <br><br>(7:160) اضْرِبْ بِعَصَاكَ الْحَجَرَ فَانْبَجَسَتْ مِنْهُ اثْنَتَا عَشْرَةَ عَيناْ ‘strike with your staff the rock’, and so there gushed out from it twelve springs.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:14.675Z",
+      "refword": "7:160:16",
+      "lexword": "فَٱنۢبَجَسَتْ"
+    }
+  }
+}

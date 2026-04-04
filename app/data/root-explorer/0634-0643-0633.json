@@ -1,0 +1,74 @@
+{
+  "root": "شكس",
+  "rootArabic": "شكس",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُتَشاكِسون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَشاكِسون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 39,
+      "ayah": 29,
+      "text": "ضَرَبَ ٱللَّهُ مَثَلًا رَّجُلًا فِيهِ شُرَكَآءُ مُتَشَٰكِسُونَ وَرَجُلًا سَلَمًا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "ضَرَبَ ٱللَّهُ مَثَلًا رَّجُلًا فِيهِ شُرَكَآءُ <a class=\"highlight-text\">مُتَشَٰكِسُونَ</a> وَرَجُلًا سَلَمًا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "مُتَشاكِسون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:20.449Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural (form VI) active participle",
+    "derivativeNote": "مُتَشَٰكِسُونَ is in the derivative form: مُتَشاكِسون",
+    "rootDefinitionHtml": "ش/ك/س   sh–k–s to be stubborn in disputing, to be perverse, ill‐natured, cross and quarrelsome. Of this root, onlyمُتَشاكِسون mutashākisūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُتَشاكِسون mutashākisūn [pl. of act. part.مُتَشاكِس mutashākis] quarrelsome, spitefully at variance with one another, in malicious disharmony with one another <br><br>(39:29) ضَرَبَ اللَّهُ مَثَلا رَجُلا فِيهِ شُرَكَاءُ مُتَشَاكِسُونَ God strikes a similitude of a man in whom [several] partners at odds with each other [as masters].",
+    "mainEntryId": "wdef-ش-ك-س.مُتَشاكِسون",
+    "entries": [
+      {
+        "id": "wdef-ش-ك-س",
+        "label": "ش-ك-س",
+        "definitionHtml": "ش/ك/س   sh–k–s to be stubborn in disputing, to be perverse, ill‐natured, cross and quarrelsome. Of this root, onlyمُتَشاكِسون mutashākisūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ك-س.مُتَشاكِسون",
+        "label": "مُتَشاكِسون",
+        "definitionHtml": "مُتَشاكِسون mutashākisūn [pl. of act. part.مُتَشاكِس mutashākis] quarrelsome, spitefully at variance with one another, in malicious disharmony with one another <br><br>(39:29) ضَرَبَ اللَّهُ مَثَلا رَجُلا فِيهِ شُرَكَاءُ مُتَشَاكِسُونَ God strikes a similitude of a man in whom [several] partners at odds with each other [as masters].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:43.056Z",
+      "refword": "39:29:7",
+      "lexword": "مُتَشَٰكِسُونَ"
+    }
+  }
+}

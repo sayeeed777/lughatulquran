@@ -1,0 +1,106 @@
+{
+  "root": "جذذ",
+  "rootArabic": "جذذ",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "جُذَاذٌ",
+      "count": 1
+    },
+    {
+      "form": "مَجْذُوذٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَجْذُوذٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جُذَاذٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 108,
+      "text": "وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ مَجْذُوذٍ",
+      "highlightedHtml": "وَأَمَّا ٱلَّذِينَ سُعِدُوا۟ فَفِى ٱلْجَنَّةِ خَٰلِدِينَ فِيهَا مَا دَامَتِ ٱلسَّمَٰوَٰتُ وَٱلْأَرْضُ إِلَّا مَا شَآءَ رَبُّكَ ۖ عَطَآءً غَيْرَ <a class=\"highlight-text\">مَجْذُوذٍ</a>",
+      "derivedForms": [
+        "مَجْذُوذٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 58,
+      "text": "فَجَعَلَهُمْ جُذَٰذًا إِلَّا كَبِيرًا لَّهُمْ لَعَلَّهُمْ إِلَيْهِ يَرْجِعُونَ",
+      "highlightedHtml": "فَجَعَلَهُمْ <a class=\"highlight-text\">جُذَٰذًا</a> إِلَّا كَبِيرًا لَّهُمْ لَعَلَّهُمْ إِلَيْهِ يَرْجِعُونَ",
+      "derivedForms": [
+        "جُذَاذٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:57.353Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite passive participle",
+    "derivativeNote": "مَجْذُوذٍ is in the derivative form: مَجْذُوذٌ",
+    "rootDefinitionHtml": "ج/ذ/ذ   j–dh–dh to sever, to cut off, to break off; to hinder; fragments, breakage, shreds, chippings. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> مَجْذُوذٌ majdhūdh and جُذَاذٌ judhādh.",
+    "mainDefinitionHtml": "مَجْذُوذٌ majdhūdh [pass. part.] cut off, discontinued, interrupted, hindered <br><br>(11:108) خَالِدِينَ فِيهَا مَا دَامَتِ السَّمَوَاتُ وَالأَرْضُ إِلاَّ مَا شَاءَ رَبُّكَ عَطَاءً غَيْرَ مَجْذُوذٍ there to remain as long as the heavens and earth endure, unless your Lord wills otherwise–a gift unhindered.",
+    "mainEntryId": "wdef-ج-ذ-ذ.مَجْذُوذٌ",
+    "entries": [
+      {
+        "id": "wdef-ج-ذ-ذ",
+        "label": "ج-ذ-ذ",
+        "definitionHtml": "ج/ذ/ذ   j–dh–dh to sever, to cut off, to break off; to hinder; fragments, breakage, shreds, chippings. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> مَجْذُوذٌ majdhūdh and جُذَاذٌ judhādh.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ذ-ذ.مَجْذُوذٌ",
+        "label": "مَجْذُوذٌ",
+        "definitionHtml": "مَجْذُوذٌ majdhūdh [pass. part.] cut off, discontinued, interrupted, hindered <br><br>(11:108) خَالِدِينَ فِيهَا مَا دَامَتِ السَّمَوَاتُ وَالأَرْضُ إِلاَّ مَا شَاءَ رَبُّكَ عَطَاءً غَيْرَ مَجْذُوذٍ there to remain as long as the heavens and earth endure, unless your Lord wills otherwise–a gift unhindered.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-ذ-ذ.جُذَاذٌ",
+        "label": "جُذَاذٌ",
+        "definitionHtml": "جُذَاذٌ judhādh [coll. n./pl. of quasi pass. part. جَذِيذٌ jadhıdh] breakage, wreckage, pieces, fragments <br><br>(21:58) فَجَعَلَهُمْ جُذَاذًا إِلاَّ كَبِيرًا لَهُمْ he broke them into pieces, except for a great one of them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:38.742Z",
+      "refword": "11:108:18",
+      "lexword": "مَجْذُوذٍ"
+    }
+  }
+}

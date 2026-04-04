@@ -1,0 +1,303 @@
+{
+  "root": "عذر",
+  "rootArabic": "عذر",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 5,
+    "surahCount": 8,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "يَعْتَذِرُ",
+      "count": 5
+    },
+    {
+      "form": "مَعْذِرَةٌ",
+      "count": 3
+    },
+    {
+      "form": "عُذْرٌ",
+      "count": 2
+    },
+    {
+      "form": "مَعَاذِير",
+      "count": 1
+    },
+    {
+      "form": "مُعَذِّرُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْذِرَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يَعْتَذِرُ",
+          "count": 3,
+          "totalInQuran": 5
+        },
+        {
+          "form": "مُعَذِّرُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُذْرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْذِرَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْذِرَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَعْتَذِرُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعَاذِير",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عُذْرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يَعْتَذِرُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 164,
+      "text": "وَإِذْ قَالَتْ أُمَّةٌ مِّنْهُمْ لِمَ تَعِظُونَ قَوْمًا ۙ ٱللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا ۖ قَالُوا۟ مَعْذِرَةً إِلَىٰ رَبِّكُمْ وَلَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "وَإِذْ قَالَتْ أُمَّةٌ مِّنْهُمْ لِمَ تَعِظُونَ قَوْمًا ۙ ٱللَّهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ عَذَابًا شَدِيدًا ۖ قَالُوا۟ <a class=\"highlight-text\">مَعْذِرَةً</a> إِلَىٰ رَبِّكُمْ وَلَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "مَعْذِرَةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 66,
+      "text": "لَا تَعْتَذِرُوا۟ قَدْ كَفَرْتُم بَعْدَ إِيمَٰنِكُمْ ۚ إِن نَّعْفُ عَن طَآئِفَةٍ مِّنكُمْ نُعَذِّبْ طَآئِفَةًۢ بِأَنَّهُمْ كَانُوا۟ مُجْرِمِينَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تَعْتَذِرُوا۟</a> قَدْ كَفَرْتُم بَعْدَ إِيمَٰنِكُمْ ۚ إِن نَّعْفُ عَن طَآئِفَةٍ مِّنكُمْ نُعَذِّبْ طَآئِفَةًۢ بِأَنَّهُمْ كَانُوا۟ مُجْرِمِينَ",
+      "derivedForms": [
+        "يَعْتَذِرُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 90,
+      "text": "وَجَآءَ ٱلْمُعَذِّرُونَ مِنَ ٱلْأَعْرَابِ لِيُؤْذَنَ لَهُمْ وَقَعَدَ ٱلَّذِينَ كَذَبُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ سَيُصِيبُ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَجَآءَ <a class=\"highlight-text\">ٱلْمُعَذِّرُونَ</a> مِنَ ٱلْأَعْرَابِ لِيُؤْذَنَ لَهُمْ وَقَعَدَ ٱلَّذِينَ كَذَبُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ سَيُصِيبُ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "مُعَذِّرُون"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 94,
+      "text": "يَعْتَذِرُونَ إِلَيْكُمْ إِذَا رَجَعْتُمْ إِلَيْهِمْ ۚ قُل لَّا تَعْتَذِرُوا۟ لَن نُّؤْمِنَ لَكُمْ قَدْ نَبَّأَنَا ٱللَّهُ مِنْ أَخْبَارِكُمْ ۚ وَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَعْتَذِرُونَ</a> إِلَيْكُمْ إِذَا رَجَعْتُمْ إِلَيْهِمْ ۚ قُل لَّا <a class=\"highlight-text\">تَعْتَذِرُوا۟</a> لَن نُّؤْمِنَ لَكُمْ قَدْ نَبَّأَنَا ٱللَّهُ مِنْ أَخْبَارِكُمْ ۚ وَسَيَرَى ٱللَّهُ عَمَلَكُمْ وَرَسُولُهُۥ ثُمَّ تُرَدُّونَ إِلَىٰ عَٰلِمِ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ فَيُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "يَعْتَذِرُ",
+        "يَعْتَذِرُ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 76,
+      "text": "قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَٰحِبْنِى ۖ قَدْ بَلَغْتَ مِن لَّدُنِّى عُذْرًا",
+      "highlightedHtml": "قَالَ إِن سَأَلْتُكَ عَن شَىْءٍۭ بَعْدَهَا فَلَا تُصَٰحِبْنِى ۖ قَدْ بَلَغْتَ مِن لَّدُنِّى <a class=\"highlight-text\">عُذْرًا</a>",
+      "derivedForms": [
+        "عُذْرٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 57,
+      "text": "فَيَوْمَئِذٍ لَّا يَنفَعُ ٱلَّذِينَ ظَلَمُوا۟ مَعْذِرَتُهُمْ وَلَا هُمْ يُسْتَعْتَبُونَ",
+      "highlightedHtml": "فَيَوْمَئِذٍ لَّا يَنفَعُ ٱلَّذِينَ ظَلَمُوا۟ <a class=\"highlight-text\">مَعْذِرَتُهُمْ</a> وَلَا هُمْ يُسْتَعْتَبُونَ",
+      "derivedForms": [
+        "مَعْذِرَةٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 52,
+      "text": "يَوْمَ لَا يَنفَعُ ٱلظَّٰلِمِينَ مَعْذِرَتُهُمْ ۖ وَلَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "highlightedHtml": "يَوْمَ لَا يَنفَعُ ٱلظَّٰلِمِينَ <a class=\"highlight-text\">مَعْذِرَتُهُمْ</a> ۖ وَلَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "derivedForms": [
+        "مَعْذِرَةٌ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 7,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ كَفَرُوا۟ لَا تَعْتَذِرُوا۟ ٱلْيَوْمَ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ كَفَرُوا۟ لَا <a class=\"highlight-text\">تَعْتَذِرُوا۟</a> ٱلْيَوْمَ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "يَعْتَذِرُ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 15,
+      "text": "وَلَوْ أَلْقَىٰ مَعَاذِيرَهُۥ",
+      "highlightedHtml": "وَلَوْ أَلْقَىٰ <a class=\"highlight-text\">مَعَاذِيرَهُۥ</a>",
+      "derivedForms": [
+        "مَعَاذِير"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 6,
+      "text": "عُذْرًا أَوْ نُذْرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">عُذْرًا</a> أَوْ نُذْرًا",
+      "derivedForms": [
+        "عُذْرٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 36,
+      "text": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
+      "highlightedHtml": "وَلَا يُؤْذَنُ لَهُمْ <a class=\"highlight-text\">فَيَعْتَذِرُونَ</a>",
+      "derivedForms": [
+        "يَعْتَذِرُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:40.308Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "مَعْذِرَةً is in the derivative form: مَعْذِرَةٌ",
+    "rootDefinitionHtml": "ع/ذ/ر   ʿ–dh–r courtyard<br>; a refuse dump; faeces; to cleanse; to excuse, justification; to forgive; virginity, modesty; hair growing on the cheeks; to become difficult; landmark. <br><br>Of this root, 5 forms occur 12 times in the Qur’an:<br> يَعْتَذِرُون yaʿtadhirūn 5 times;عُذْرٌ ʿudhr 2 times; مُعَذِّرُون muʿadhdhirūn 1 time; مَعْذِرَةٌ maʿdhiratun 3 times andمَعَاذِير maʿādhır 1 time.",
+    "mainDefinitionHtml": "مَعْذِرَةٌ maʿdhiratun <br><br><strong>1 </strong>[v. n./n.] excusing; excuse, apology <br><br>(30:57) فَيَوْمَئِذٍ‏ ‏لاَ‏ ‏يَنْفَعُ‏ ‏الَّذِينَ‏ ‏ظَلَمُوا‏ ‏مَعْذِرَتُهُمْ ‏‏on that Day the excuses of the unjust ones will be of no avail to them <br><br><strong>2 </strong>[adverbially] seeking pardon, exonerating oneself <br><br>(7:164) مَعْذِرَةً إِلَى رَبِّكُمْ [we did what we have done] in order to exonerate ourselves before your Lord.",
+    "mainEntryId": "wdef-ع-ذ-ر.مَعْذِرَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ذ-ر",
+        "label": "ع-ذ-ر",
+        "definitionHtml": "ع/ذ/ر   ʿ–dh–r courtyard<br>; a refuse dump; faeces; to cleanse; to excuse, justification; to forgive; virginity, modesty; hair growing on the cheeks; to become difficult; landmark. <br><br>Of this root, 5 forms occur 12 times in the Qur’an:<br> يَعْتَذِرُون yaʿtadhirūn 5 times;عُذْرٌ ʿudhr 2 times; مُعَذِّرُون muʿadhdhirūn 1 time; مَعْذِرَةٌ maʿdhiratun 3 times andمَعَاذِير maʿādhır 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ذ-ر.مَعْذِرَةٌ",
+        "label": "مَعْذِرَةٌ",
+        "definitionHtml": "مَعْذِرَةٌ maʿdhiratun <br><br><strong>1 </strong>[v. n./n.] excusing; excuse, apology <br><br>(30:57) فَيَوْمَئِذٍ‏ ‏لاَ‏ ‏يَنْفَعُ‏ ‏الَّذِينَ‏ ‏ظَلَمُوا‏ ‏مَعْذِرَتُهُمْ ‏‏on that Day the excuses of the unjust ones will be of no avail to them <br><br><strong>2 </strong>[adverbially] seeking pardon, exonerating oneself <br><br>(7:164) مَعْذِرَةً إِلَى رَبِّكُمْ [we did what we have done] in order to exonerate ourselves before your Lord.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ذ-ر.عُذْرٌ",
+        "label": "عُذْرٌ",
+        "definitionHtml": "عُذْرٌ ʿudhr [v. n./n.] apologising, excusing; apology, excuse <br><br>(18:76) ‏قَدْ‏ ‏بَلَغْتَ‏ ‏مِنْ‏ ‏لَدُنِّي‏ ‏عُذْرًا you have put up with enough excuse(s) from me.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ذ-ر.مَعَاذِير",
+        "label": "مَعَاذِير",
+        "definitionHtml": "مَعَاذِير maʿādhır [pl. of مِعْذَار miʿdhār] veils, screens; excuses; disputing <br><br>(75:14–15) بَلِ‏ ‏الإِنْسَانُ‏ ‏عَلَى‏ ‏نَفْسِهِ‏ ‏بَصِيرَةٌ وَلَوْ‏ ‏أَلْقَى‏ ‏مَعَاذِيرَهُ ‏truly, man is a clear witness against himself [in another interpretation: there is an observer observing him] despite all the excuses he may put forward [also interpreted as: despite the veils he may place over his offences or, despite all his disputing respecting his offences].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ذ-ر.مُعَذِّرُون",
+        "label": "مُعَذِّرُون",
+        "definitionHtml": "مُعَذِّرُون muʿadhdhirūn [pl. of act. part. مُعَذِّرٌ muʿadhdhir ] those who give false excuses <br><br>(9:90) وَجَاءَ‏ ‏الْمُعَذِّرُونَ‏ ‏مِنَ‏ ‏الأَعْرَابِ‏ ‏لِيُؤْذَنَ‏ ‏لَهُمْ‏ and those of the desert Arabs with false excuses came in order to be permitted [to stay behind].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ذ-ر.يَعْتَذِرُ",
+        "label": "يَعْتَذِرُ",
+        "definitionHtml": "يَعْتَذِرُ yaʿtadhir [imperf. of v. VIII intrans.] to apologise, to make excuses, to explain oneself <br><br>(9:94)‏قُلْ‏ ‏لاَ‏ ‏تَعْتَذِرُوا‏ say, ‘Do not make excuses.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:06.673Z",
+      "refword": "7:164:15",
+      "lexword": "مَعْذِرَةً"
+    }
+  }
+}

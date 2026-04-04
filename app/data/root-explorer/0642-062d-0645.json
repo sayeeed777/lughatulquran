@@ -1,0 +1,106 @@
+{
+  "root": "قحم",
+  "rootArabic": "قحم",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اِقْتَحَمَ",
+      "count": 1
+    },
+    {
+      "form": "مُقْتَحِم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْتَحِم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِقْتَحَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 38,
+      "ayah": 59,
+      "text": "هَٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
+      "highlightedHtml": "هَٰذَا فَوْجٌ <a class=\"highlight-text\">مُّقْتَحِمٌ</a> مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
+      "derivedForms": [
+        "مُقْتَحِم"
+      ]
+    },
+    {
+      "surah": 90,
+      "ayah": 11,
+      "text": "فَلَا ٱقْتَحَمَ ٱلْعَقَبَةَ",
+      "highlightedHtml": "فَلَا <a class=\"highlight-text\">ٱقْتَحَمَ</a> ٱلْعَقَبَةَ",
+      "derivedForms": [
+        "اِقْتَحَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:35.246Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form VIII) active participle",
+    "derivativeNote": "مُّقْتَحِمٌ is in the derivative form: مُقْتَحِم",
+    "rootDefinitionHtml": "ق/ح/م q–ḥ–m to rush, to plunge, to burst into, to embark boldly; hardship; to scorn; to pass over; to be aged. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> اِقْتَحَمَ ʾiqtaḥama and مُقْتَحِم muqtaḥim.",
+    "mainDefinitionHtml": "مُقْتَحِم muqtaḥim [act. part.] one who is rushing in headlong <br><br>(38:59) هَذَا فَوْجٌ مُقْتَحِمٌ مَعَكُمْ this is a group rushing in headlong with you.",
+    "mainEntryId": "wdef-ق-ح-م.مُقْتَحِم",
+    "entries": [
+      {
+        "id": "wdef-ق-ح-م",
+        "label": "ق-ح-م",
+        "definitionHtml": "ق/ح/م q–ḥ–m to rush, to plunge, to burst into, to embark boldly; hardship; to scorn; to pass over; to be aged. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> اِقْتَحَمَ ʾiqtaḥama and مُقْتَحِم muqtaḥim.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ح-م.مُقْتَحِم",
+        "label": "مُقْتَحِم",
+        "definitionHtml": "مُقْتَحِم muqtaḥim [act. part.] one who is rushing in headlong <br><br>(38:59) هَذَا فَوْجٌ مُقْتَحِمٌ مَعَكُمْ this is a group rushing in headlong with you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ح-م.اِقْتَحَمَ",
+        "label": "اِقْتَحَمَ",
+        "definitionHtml": "اِقْتَحَمَ ʾiqtaḥama [v. VIII, trans.] to take on, to set upon, to fall upon, to assault <br><br>(90:11) فَلاَ اقْتَحَمَ الْعَقَبَةَ will he not attempt the steep path?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:47.882Z",
+      "refword": "38:59:3",
+      "lexword": "مُّقْتَحِمٌ"
+    }
+  }
+}

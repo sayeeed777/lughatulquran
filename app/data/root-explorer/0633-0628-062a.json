@@ -1,0 +1,217 @@
+{
+  "root": "سبت",
+  "rootArabic": "سبت",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "السَبْت",
+      "count": 6
+    },
+    {
+      "form": "سُبات",
+      "count": 2
+    },
+    {
+      "form": "يَسْبِتون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "السَبْت",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "السَبْت",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "السَبْت",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَسْبِتون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "السَبْت",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُبات",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُبات",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 65,
+      "text": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى ٱلسَّبْتِ فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "highlightedHtml": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى <a class=\"highlight-text\">ٱلسَّبْتِ</a> فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "derivedForms": [
+        "السَبْت"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 47,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰٓ أَدْبَارِهَآ أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَٰبَ ٱلسَّبْتِ ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰٓ أَدْبَارِهَآ أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَٰبَ <a class=\"highlight-text\">ٱلسَّبْتِ</a> ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
+      "derivedForms": [
+        "السَبْت"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 154,
+      "text": "وَرَفَعْنَا فَوْقَهُمُ ٱلطُّورَ بِمِيثَٰقِهِمْ وَقُلْنَا لَهُمُ ٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى ٱلسَّبْتِ وَأَخَذْنَا مِنْهُم مِّيثَٰقًا غَلِيظًا",
+      "highlightedHtml": "وَرَفَعْنَا فَوْقَهُمُ ٱلطُّورَ بِمِيثَٰقِهِمْ وَقُلْنَا لَهُمُ ٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُلْنَا لَهُمْ لَا تَعْدُوا۟ فِى <a class=\"highlight-text\">ٱلسَّبْتِ</a> وَأَخَذْنَا مِنْهُم مِّيثَٰقًا غَلِيظًا",
+      "derivedForms": [
+        "السَبْت"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 163,
+      "text": "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى ٱلسَّبْتِ إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لَا يَسْبِتُونَ ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ",
+      "highlightedHtml": "وَسْـَٔلْهُمْ عَنِ ٱلْقَرْيَةِ ٱلَّتِى كَانَتْ حَاضِرَةَ ٱلْبَحْرِ إِذْ يَعْدُونَ فِى <a class=\"highlight-text\">ٱلسَّبْتِ</a> إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ <a class=\"highlight-text\">سَبْتِهِمْ</a> شُرَّعًا وَيَوْمَ لَا <a class=\"highlight-text\">يَسْبِتُونَ</a> ۙ لَا تَأْتِيهِمْ ۚ كَذَٰلِكَ نَبْلُوهُم بِمَا كَانُوا۟ يَفْسُقُونَ",
+      "derivedForms": [
+        "السَبْت",
+        "السَبْت",
+        "يَسْبِتون"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 124,
+      "text": "إِنَّمَا جُعِلَ ٱلسَّبْتُ عَلَى ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ ۚ وَإِنَّ رَبَّكَ لَيَحْكُمُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+      "highlightedHtml": "إِنَّمَا جُعِلَ <a class=\"highlight-text\">ٱلسَّبْتُ</a> عَلَى ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ ۚ وَإِنَّ رَبَّكَ لَيَحْكُمُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+      "derivedForms": [
+        "السَبْت"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 47,
+      "text": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا وَٱلنَّوْمَ سُبَاتًا وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى جَعَلَ لَكُمُ ٱلَّيْلَ لِبَاسًا وَٱلنَّوْمَ <a class=\"highlight-text\">سُبَاتًا</a> وَجَعَلَ ٱلنَّهَارَ نُشُورًا",
+      "derivedForms": [
+        "سُبات"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 9,
+      "text": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
+      "highlightedHtml": "وَجَعَلْنَا نَوْمَكُمْ <a class=\"highlight-text\">سُبَاتًا</a>",
+      "derivedForms": [
+        "سُبات"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:30.589Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "ٱلسَّبْتِ is in the derivative form: السَبْت",
+    "rootDefinitionHtml": "س/ب/ت   s–b–t resting, keeping the Sabbath. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> يَسْبِتون yasbitūn 1 time; السَبْت ʾal‐sabt 6 times and سُبات subāt 2 times.",
+    "mainDefinitionHtml": "السَبْت ʾal‐sabt [n.] the Sabbath <br><br>(4:154) لاَ تَعْدُوا فِى السَّبْتِ do not break the Sabbath.",
+    "mainEntryId": "wdef-س-ب-ت.السَبْت",
+    "entries": [
+      {
+        "id": "wdef-س-ب-ت",
+        "label": "س-ب-ت",
+        "definitionHtml": "س/ب/ت   s–b–t resting, keeping the Sabbath. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> يَسْبِتون yasbitūn 1 time; السَبْت ʾal‐sabt 6 times and سُبات subāt 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ت.السَبْت",
+        "label": "السَبْت",
+        "definitionHtml": "السَبْت ʾal‐sabt [n.] the Sabbath <br><br>(4:154) لاَ تَعْدُوا فِى السَّبْتِ do not break the Sabbath.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ب-ت.سُبات",
+        "label": "سُبات",
+        "definitionHtml": "سُبات subāt [v. n.] resting <br><br>(25:47) وَهُوَ الَّذِي جَعَلَ لَكُمُ اللَّيْلَ لِبَاسًا وَالنَّوْمَ سُبَاتًا He it is who made the night a covering for you, and sleep as rest.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ت.يَسْبِتون",
+        "label": "يَسْبِتون",
+        "definitionHtml": "يَسْبِتون yasbitūn [imperf. of. v.سَبَتَ sabata., intrans.] to come into the Sabbath day, to keep the Sabbath <br><br>(7:163) إِذْ تَأْتِيهِمْ حِيتَانُهُمْ يَوْمَ سَبْتِهِمْ شُرَّعًا وَيَوْمَ لاَ يَسْبِتُونَ لاَ تَأْتِيهِمْ how their fish came visibly to them on their Sabbath day, but on the day when they did not have the Sabbath they did not come.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:06.504Z",
+      "refword": "2:65:7",
+      "lexword": "ٱلسَّبْتِ"
+    }
+  }
+}

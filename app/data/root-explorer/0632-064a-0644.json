@@ -1,0 +1,285 @@
+{
+  "root": "زيل",
+  "rootArabic": "زيل",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 3,
+    "surahCount": 10,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "لا",
+      "count": 8
+    },
+    {
+      "form": "تَزَيَّلَ",
+      "count": 1
+    },
+    {
+      "form": "زَيَّلَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَيَّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لا",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَزَيَّلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 217,
+      "text": "يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ ۖ قُلْ قِتَالٌ فِيهِ كَبِيرٌ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا يَزَالُونَ يُقَٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌ فَأُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ ۖ قُلْ قِتَالٌ فِيهِ كَبِيرٌ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا <a class=\"highlight-text\">يَزَالُونَ</a> يُقَٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌ فَأُو۟لَٰٓئِكَ حَبِطَتْ أَعْمَٰلُهُمْ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ وَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 13,
+      "text": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا <a class=\"highlight-text\">تَزَالُ</a> تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 110,
+      "text": "لَا يَزَالُ بُنْيَٰنُهُمُ ٱلَّذِى بَنَوْا۟ رِيبَةً فِى قُلُوبِهِمْ إِلَّآ أَن تَقَطَّعَ قُلُوبُهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">يَزَالُ</a> بُنْيَٰنُهُمُ ٱلَّذِى بَنَوْا۟ رِيبَةً فِى قُلُوبِهِمْ إِلَّآ أَن تَقَطَّعَ قُلُوبُهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 28,
+      "text": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
+      "highlightedHtml": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ <a class=\"highlight-text\">فَزَيَّلْنَا</a> بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
+      "derivedForms": [
+        "زَيَّلَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 118,
+      "text": "وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةً وَٰحِدَةً ۖ وَلَا يَزَالُونَ مُخْتَلِفِينَ",
+      "highlightedHtml": "وَلَوْ شَآءَ رَبُّكَ لَجَعَلَ ٱلنَّاسَ أُمَّةً وَٰحِدَةً ۖ وَلَا <a class=\"highlight-text\">يَزَالُونَ</a> مُخْتَلِفِينَ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 31,
+      "text": "وَلَوْ أَنَّ قُرْءَانًا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ ۗ بَل لِّلَّهِ ٱلْأَمْرُ جَمِيعًا ۗ أَفَلَمْ يَا۟يْـَٔسِ ٱلَّذِينَ آمَنُوا أَن لَّوْ يَشَآءُ ٱللَّهُ لَهَدَى ٱلنَّاسَ جَمِيعًا ۗ وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ تُصِيبُهُم بِمَا صَنَعُوا۟ قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًا مِّن دَارِهِمْ حَتَّىٰ يَأْتِىَ وَعْدُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+      "highlightedHtml": "وَلَوْ أَنَّ قُرْءَانًا سُيِّرَتْ بِهِ ٱلْجِبَالُ أَوْ قُطِّعَتْ بِهِ ٱلْأَرْضُ أَوْ كُلِّمَ بِهِ ٱلْمَوْتَىٰ ۗ بَل لِّلَّهِ ٱلْأَمْرُ جَمِيعًا ۗ أَفَلَمْ يَا۟يْـَٔسِ ٱلَّذِينَ آمَنُوا أَن لَّوْ يَشَآءُ ٱللَّهُ لَهَدَى ٱلنَّاسَ جَمِيعًا ۗ وَلَا <a class=\"highlight-text\">يَزَالُ</a> ٱلَّذِينَ كَفَرُوا۟ تُصِيبُهُم بِمَا صَنَعُوا۟ قَارِعَةٌ أَوْ تَحُلُّ قَرِيبًا مِّن دَارِهِمْ حَتَّىٰ يَأْتِىَ وَعْدُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ لَا يُخْلِفُ ٱلْمِيعَادَ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 15,
+      "text": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا خَٰمِدِينَ",
+      "highlightedHtml": "فَمَا <a class=\"highlight-text\">زَالَت</a> تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا خَٰمِدِينَ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 55,
+      "text": "وَلَا يَزَالُ ٱلَّذِينَ كَفَرُوا۟ فِى مِرْيَةٍ مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">يَزَالُ</a> ٱلَّذِينَ كَفَرُوا۟ فِى مِرْيَةٍ مِّنْهُ حَتَّىٰ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً أَوْ يَأْتِيَهُمْ عَذَابُ يَوْمٍ عَقِيمٍ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 34,
+      "text": "وَلَقَدْ جَآءَكُمْ يُوسُفُ مِن قَبْلُ بِٱلْبَيِّنَٰتِ فَمَا زِلْتُمْ فِى شَكٍّ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌ مُّرْتَابٌ",
+      "highlightedHtml": "وَلَقَدْ جَآءَكُمْ يُوسُفُ مِن قَبْلُ بِٱلْبَيِّنَٰتِ فَمَا <a class=\"highlight-text\">زِلْتُمْ</a> فِى شَكٍّ مِّمَّا جَآءَكُم بِهِۦ ۖ حَتَّىٰٓ إِذَا هَلَكَ قُلْتُمْ لَن يَبْعَثَ ٱللَّهُ مِنۢ بَعْدِهِۦ رَسُولًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَنْ هُوَ مُسْرِفٌ مُّرْتَابٌ",
+      "derivedForms": [
+        "لا"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 25,
+      "text": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ <a class=\"highlight-text\">تَزَيَّلُوا۟</a> لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "تَزَيَّلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:23.538Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَزَالُونَ is in the derivative form: لا",
+    "rootDefinitionHtml": "ز/ي/ل   z–y–l separation, sorting out, distinguishing between; disappearance. Two different verbs are classified under this root: زالَ zāla [imperf. يَزالَ yazālu which, with preceding negative particles مَا or لاَ, means ‘still’ or ‘continuing to be’] and زالَ zāla [imperf. يَزِل yazilu which means ‘to sort out’] يَزالُ/زالَ zāla/yazālu occurs 8 times in the Qur’an (six of which are with لا) and 2 derivatives of the other form of the verb occur 1 time each: زَيَّلْنا zayyalana and تَزَيّّلوا tazayyalū<br>.",
+    "mainDefinitionHtml": "لا يَزالُ/ما زالَ mā zāla/lā yazālu [sister of كانَq.v.] it does not cease to, it is still, it remains, it continues <br><br>(11:118) وَلَوْ شَاءَ رَبُّكَ لَجَعَلَ النَّاسَ أُمَّةً وَاحِدَةً وَلاَ يَزَالُونَ مُخْتَلِفِينَ had your Lord willed, He would have made humankind one nation, but they continue to be different; <br><br>(21:15) فَمَا زَالَتْ تِلْكَ دَعْوَاهُمْ حَتَّى جَعَلْنَاهُمْ حَصِيدًا خَامِدِينَ so, that did not cease to be their cry, until We made them like a mown field, silent.",
+    "mainEntryId": "wdef-ز-ي-ل.لا",
+    "entries": [
+      {
+        "id": "wdef-ز-ي-ل",
+        "label": "ز-ي-ل",
+        "definitionHtml": "ز/ي/ل   z–y–l separation, sorting out, distinguishing between; disappearance. Two different verbs are classified under this root: زالَ zāla [imperf. يَزالَ yazālu which, with preceding negative particles مَا or لاَ, means ‘still’ or ‘continuing to be’] and زالَ zāla [imperf. يَزِل yazilu which means ‘to sort out’] يَزالُ/زالَ zāla/yazālu occurs 8 times in the Qur’an (six of which are with لا) and 2 derivatives of the other form of the verb occur 1 time each: زَيَّلْنا zayyalana and تَزَيّّلوا tazayyalū<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ي-ل.لا",
+        "label": "لا",
+        "definitionHtml": "لا يَزالُ/ما زالَ mā zāla/lā yazālu [sister of كانَq.v.] it does not cease to, it is still, it remains, it continues <br><br>(11:118) وَلَوْ شَاءَ رَبُّكَ لَجَعَلَ النَّاسَ أُمَّةً وَاحِدَةً وَلاَ يَزَالُونَ مُخْتَلِفِينَ had your Lord willed, He would have made humankind one nation, but they continue to be different; <br><br>(21:15) فَمَا زَالَتْ تِلْكَ دَعْوَاهُمْ حَتَّى جَعَلْنَاهُمْ حَصِيدًا خَامِدِينَ so, that did not cease to be their cry, until We made them like a mown field, silent.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ي-ل.تَزَيَّلَ",
+        "label": "تَزَيَّلَ",
+        "definitionHtml": "تَزَيَّلَ tazayyala [v. V, intrans.] to become separated, to be sorted out, to become distinct <br><br>(48:25) لَوْ تَزَيَّلُوا لَعَذَّبْنَا الَّذِينَ كَفَرُوا مِنْهُمْ عَذَابًا أَلِيمًا had they been clearly separated, We would have chastised the disbelievers among them with a painful chastisement.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ي-ل.زَيَّلَ",
+        "label": "زَيَّلَ",
+        "definitionHtml": "زَيَّلَ zayyala [v. II, intrans. with adverb بَيْنَ bayna] to separate one from the other, to sort out, to make distinct <br><br>(10:28) وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا مَكَانَكُمْ أَنْتُمْ وَشُرَكَاؤُكُمْ فَزَيَّلْنَابَيْنَهُمْ on the Day We gather them all together, We will say to those who associate partners with God, ‘[Stay in] your place, you and your partner–gods!’ Then We will separate them, the one from the other.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:54.534Z",
+      "refword": "2:217:30",
+      "lexword": "يَزَالُونَ"
+    }
+  }
+}

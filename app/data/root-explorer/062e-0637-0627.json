@@ -1,0 +1,445 @@
+{
+  "root": "خطا",
+  "rootArabic": "خطا",
+  "stats": {
+    "totalOccurrences": 22,
+    "derivativeCount": 5,
+    "surahCount": 13,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "خَطِيئَةٌ",
+      "count": 10
+    },
+    {
+      "form": "خَاطِئُون",
+      "count": 7
+    },
+    {
+      "form": "أَخْطَأَ",
+      "count": 2
+    },
+    {
+      "form": "خَطَأٌ",
+      "count": 2
+    },
+    {
+      "form": "خِطْأٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "أَخْطَأَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَطَأٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَاطِئُون",
+          "count": 3,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خِطْأٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاطِئُون",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَخْطَأَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَاطِئُون",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَطِيئَةٌ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاطِئُون",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 58,
+      "text": "وَإِذْ قُلْنَا ٱدْخُلُوا۟ هَٰذِهِ ٱلْقَرْيَةَ فَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ رَغَدًا وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُولُوا۟ حِطَّةٌ نَّغْفِرْ لَكُمْ خَطَٰيَٰكُمْ ۚ وَسَنَزِيدُ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَإِذْ قُلْنَا ٱدْخُلُوا۟ هَٰذِهِ ٱلْقَرْيَةَ فَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ رَغَدًا وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُولُوا۟ حِطَّةٌ نَّغْفِرْ لَكُمْ <a class=\"highlight-text\">خَطَٰيَٰكُمْ</a> ۚ وَسَنَزِيدُ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 81,
+      "text": "بَلَىٰ مَن كَسَبَ سَيِّئَةً وَأَحَٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "بَلَىٰ مَن كَسَبَ سَيِّئَةً وَأَحَٰطَتْ بِهِۦ <a class=\"highlight-text\">خَطِيٓـَٔتُهُۥ</a> فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 286,
+      "text": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا ٱكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَآ إِن نَّسِينَآ أَوْ <a class=\"highlight-text\">أَخْطَأْنَا</a> ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ إِصْرًا كَمَا حَمَلْتَهُۥ عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ وَٱعْفُ عَنَّا وَٱغْفِرْ لَنَا وَٱرْحَمْنَآ ۚ أَنتَ مَوْلَىٰنَا فَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "أَخْطَأَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 92,
+      "text": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًٔا فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "highlightedHtml": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا <a class=\"highlight-text\">خَطَـًٔا</a> ۚ وَمَن قَتَلَ مُؤْمِنًا <a class=\"highlight-text\">خَطَـًٔا</a> فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "derivedForms": [
+        "خَطَأٌ",
+        "خَطَأٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 112,
+      "text": "وَمَن يَكْسِبْ خَطِيٓـَٔةً أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًٔا فَقَدِ ٱحْتَمَلَ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "highlightedHtml": "وَمَن يَكْسِبْ <a class=\"highlight-text\">خَطِيٓـَٔةً</a> أَوْ إِثْمًا ثُمَّ يَرْمِ بِهِۦ بَرِيٓـًٔا فَقَدِ ٱحْتَمَلَ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 161,
+      "text": "وَإِذْ قِيلَ لَهُمُ ٱسْكُنُوا۟ هَٰذِهِ ٱلْقَرْيَةَ وَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا۟ حِطَّةٌ وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا نَّغْفِرْ لَكُمْ خَطِيٓـَٰٔتِكُمْ ۚ سَنَزِيدُ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَإِذْ قِيلَ لَهُمُ ٱسْكُنُوا۟ هَٰذِهِ ٱلْقَرْيَةَ وَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ وَقُولُوا۟ حِطَّةٌ وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا نَّغْفِرْ لَكُمْ <a class=\"highlight-text\">خَطِيٓـَٰٔتِكُمْ</a> ۚ سَنَزِيدُ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 29,
+      "text": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ ٱلْخَاطِـِٔينَ",
+      "highlightedHtml": "يُوسُفُ أَعْرِضْ عَنْ هَٰذَا ۚ وَٱسْتَغْفِرِى لِذَنۢبِكِ ۖ إِنَّكِ كُنتِ مِنَ <a class=\"highlight-text\">ٱلْخَاطِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 91,
+      "text": "قَالُوا۟ تَٱللَّهِ لَقَدْ آثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ لَقَدْ آثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا <a class=\"highlight-text\">لَخَٰطِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 97,
+      "text": "قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا خَٰطِـِٔينَ",
+      "highlightedHtml": "قَالُوا۟ يَٰٓأَبَانَا ٱسْتَغْفِرْ لَنَا ذُنُوبَنَآ إِنَّا كُنَّا <a class=\"highlight-text\">خَٰطِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 31,
+      "text": "وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُمْ خَشْيَةَ إِمْلَٰقٍ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا",
+      "highlightedHtml": "وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُمْ خَشْيَةَ إِمْلَٰقٍ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ <a class=\"highlight-text\">خِطْـًٔا</a> كَبِيرًا",
+      "derivedForms": [
+        "خِطْأٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 73,
+      "text": "إِنَّآ آمَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا خَطَٰيَٰنَا وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ وَأَبْقَىٰٓ",
+      "highlightedHtml": "إِنَّآ آمَنَّا بِرَبِّنَا لِيَغْفِرَ لَنَا <a class=\"highlight-text\">خَطَٰيَٰنَا</a> وَمَآ أَكْرَهْتَنَا عَلَيْهِ مِنَ ٱلسِّحْرِ ۗ وَٱللَّهُ خَيْرٌ وَأَبْقَىٰٓ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 51,
+      "text": "إِنَّا نَطْمَعُ أَن يَغْفِرَ لَنَا رَبُّنَا خَطَٰيَٰنَآ أَن كُنَّآ أَوَّلَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "إِنَّا نَطْمَعُ أَن يَغْفِرَ لَنَا رَبُّنَا <a class=\"highlight-text\">خَطَٰيَٰنَآ</a> أَن كُنَّآ أَوَّلَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 82,
+      "text": "وَٱلَّذِىٓ أَطْمَعُ أَن يَغْفِرَ لِى خَطِيٓـَٔتِى يَوْمَ ٱلدِّينِ",
+      "highlightedHtml": "وَٱلَّذِىٓ أَطْمَعُ أَن يَغْفِرَ لِى <a class=\"highlight-text\">خَطِيٓـَٔتِى</a> يَوْمَ ٱلدِّينِ",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 8,
+      "text": "فَٱلْتَقَطَهُۥٓ آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا ۗ إِنَّ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا كَانُوا۟ خَٰطِـِٔينَ",
+      "highlightedHtml": "فَٱلْتَقَطَهُۥٓ آلُ فِرْعَوْنَ لِيَكُونَ لَهُمْ عَدُوًّا وَحَزَنًا ۗ إِنَّ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا كَانُوا۟ <a class=\"highlight-text\">خَٰطِـِٔينَ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 12,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَٰيَٰكُمْ وَمَا هُم بِحَٰمِلِينَ مِنْ خَطَٰيَٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَٰذِبُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ <a class=\"highlight-text\">خَطَٰيَٰكُمْ</a> وَمَا هُم بِحَٰمِلِينَ مِنْ <a class=\"highlight-text\">خَطَٰيَٰهُم</a> مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَٰذِبُونَ",
+      "derivedForms": [
+        "خَطِيئَةٌ",
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 5,
+      "text": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ <a class=\"highlight-text\">أَخْطَأْتُم</a> بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "أَخْطَأَ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 9,
+      "text": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ بِٱلْخَاطِئَةِ",
+      "highlightedHtml": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَٰتُ <a class=\"highlight-text\">بِٱلْخَاطِئَةِ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 37,
+      "text": "لَّا يَأْكُلُهُۥٓ إِلَّا ٱلْخَٰطِـُٔونَ",
+      "highlightedHtml": "لَّا يَأْكُلُهُۥٓ إِلَّا <a class=\"highlight-text\">ٱلْخَٰطِـُٔونَ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 25,
+      "text": "مِّمَّا خَطِيٓـَٰٔتِهِمْ أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
+      "highlightedHtml": "مِّمَّا <a class=\"highlight-text\">خَطِيٓـَٰٔتِهِمْ</a> أُغْرِقُوا۟ فَأُدْخِلُوا۟ نَارًا فَلَمْ يَجِدُوا۟ لَهُم مِّن دُونِ ٱللَّهِ أَنصَارًا",
+      "derivedForms": [
+        "خَطِيئَةٌ"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 16,
+      "text": "نَاصِيَةٍ كَٰذِبَةٍ خَاطِئَةٍ",
+      "highlightedHtml": "نَاصِيَةٍ كَٰذِبَةٍ <a class=\"highlight-text\">خَاطِئَةٍ</a>",
+      "derivedForms": [
+        "خَاطِئُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:27.634Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative plural noun",
+    "derivativeNote": "خَطَٰيَٰكُمْ is in the derivative form: خَطِيئَةٌ",
+    "rootDefinitionHtml": "خ/ط/أ   kh–ṭ–ʾ to miss the target, to veer away from the correct path, to err, to commit a crime, to sin<br>; a mistake, a crime, a sin. <br><br>Of this root, 8 forms occur 22 times in the Qur’an:<br> أَخْطَأَ ʾakhṭaʾa 2 times; خَطَأٌ khaṭaʾ 2 times; خِطْأٌ khiṭʾ 1 time; خَاطِئُون khāṭiʾūn 5 times; خَاطِئَةٌ khāṭiʾatun 2 times; خَطِيئَةٌ khaṭıʾatun 3 times; خَطِيئَاتٌ khaṭıʾāt 2 times and خَطَايَا khaṭāyā 5 times.",
+    "mainDefinitionHtml": "خَطِيئَةٌ khaṭıʾatun [n., pl. خَطِيئات khaṭıʾāt and خَطَايَا khaṭāyā] evildoing, sin, crime <br><br>(71:25) مِمَّا خَطِيئَاتِهِمْ أُغْرِقُوا فَأُدْخِلُوا نَارًا because of their sins they were drowned and then made to enter a Fire.",
+    "mainEntryId": "wdef-خ-ط-أ.خَطِيئَةٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ط-أ",
+        "label": "خ-ط-أ",
+        "definitionHtml": "خ/ط/أ   kh–ṭ–ʾ to miss the target, to veer away from the correct path, to err, to commit a crime, to sin<br>; a mistake, a crime, a sin. <br><br>Of this root, 8 forms occur 22 times in the Qur’an:<br> أَخْطَأَ ʾakhṭaʾa 2 times; خَطَأٌ khaṭaʾ 2 times; خِطْأٌ khiṭʾ 1 time; خَاطِئُون khāṭiʾūn 5 times; خَاطِئَةٌ khāṭiʾatun 2 times; خَطِيئَةٌ khaṭıʾatun 3 times; خَطِيئَاتٌ khaṭıʾāt 2 times and خَطَايَا khaṭāyā 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-أ.خَطِيئَةٌ",
+        "label": "خَطِيئَةٌ",
+        "definitionHtml": "خَطِيئَةٌ khaṭıʾatun [n., pl. خَطِيئات khaṭıʾāt and خَطَايَا khaṭāyā] evildoing, sin, crime <br><br>(71:25) مِمَّا خَطِيئَاتِهِمْ أُغْرِقُوا فَأُدْخِلُوا نَارًا because of their sins they were drowned and then made to enter a Fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ط-أ.أَخْطَأَ",
+        "label": "أَخْطَأَ",
+        "definitionHtml": "أَخْطَأَ ʾakhṭaʾa [v. IV, intrans.] to err, to be mistaken <br><br>(33:5) وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَا أَخْطَأْتُمْ بِهِ وَلَكِنْ مَا تَعَمَّدَتْ قُلُوبُكُمْ and there is no blame on you regarding the mistakes you make, only [you are blamed] for what your hearts deliberately intend.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-أ.خَاطِئُون",
+        "label": "خَاطِئُون",
+        "definitionHtml": "خَاطِئُون khāṭiʾūn [pl. of act. part. خَاطِئٌ khāṭiʾ; fem. خَاطِئَةٌ khāṭiʾatun] <br><br><strong>1 </strong>those who sin, sinners <br><br>(12:97) قَالُوا يَاأَبَانَا اسْتَغْفِرْ لَنَا ذُنُوبَنَا إِنَّا كُنَّا خَاطِئِينَ they said, ‘Father, ask God to forgive us our sins–we were indeed sinners’ <br><br><strong>2 </strong>[of deeds] sinful, erroneous <br><br>(69:9) وَجَاءَ فِرْعَوْنُ وَمَنْ قَبْلَهُ وَالْمُؤْتَفِكَاتُ بِالْخَاطِئَةِ Pharaoh, those before him, and the ruined cities–[all] committed sinful [deeds].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-أ.خَطَأٌ",
+        "label": "خَطَأٌ",
+        "definitionHtml": "خَطَأٌ khaṭaʾ [v. n./n., adverbially used] by mistake, in error <br><br>(4:92) وَمَا كَانَ لِمُؤْمِنٍ أَنْ يَقْتُلَ مُؤْمِنًا إِلاَّ خَطَأً it is not [conceivable] for a believer to kill another believer, except by mistake.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ط-أ.خِطْأٌ",
+        "label": "خِطْأٌ",
+        "definitionHtml": "خِطْأٌ khiṭʾ [n./v. n. implying intensity] mistake, sin, crime, an act of disobedience <br><br>(17:31) وَلاَ تَقْتُلُوا أَوْلاَدَكُمْ خَشْيَةَ إِمْلاَقٍ نَحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ إِنَّ قَتْلَهُمْ كَانَ خِطْئًا كَبِيرًا do not kill your children for fear of poverty–We shall provide for them and for you–killing them is a great sin.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:19.403Z",
+      "refword": "2:58:18",
+      "lexword": "خَطَٰيَٰكُمْ"
+    }
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "root": "عكف",
+  "rootArabic": "عكف",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "عَاكِفٌ",
+      "count": 7
+    },
+    {
+      "form": "مَعْكُوفٌ",
+      "count": 1
+    },
+    {
+      "form": "يَعْكُفُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَاكِفٌ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَعْكُفُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَاكِفٌ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاكِفٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاكِفٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاكِفٌ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْكُوفٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 125,
+      "text": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+      "highlightedHtml": "وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ <a class=\"highlight-text\">وَٱلْعَٰكِفِينَ</a> وَٱلرُّكَّعِ ٱلسُّجُودِ",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 187,
+      "text": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ <a class=\"highlight-text\">عَٰكِفُونَ</a> فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 138,
+      "text": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتَوْا۟ عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰٓ أَصْنَامٍ لَّهُمْ ۚ قَالُوا۟ يَٰمُوسَى ٱجْعَل لَّنَآ إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
+      "highlightedHtml": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتَوْا۟ عَلَىٰ قَوْمٍ <a class=\"highlight-text\">يَعْكُفُونَ</a> عَلَىٰٓ أَصْنَامٍ لَّهُمْ ۚ قَالُوا۟ يَٰمُوسَى ٱجْعَل لَّنَآ إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
+      "derivedForms": [
+        "يَعْكُفُ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 91,
+      "text": "قَالُوا۟ لَن نَّبْرَحَ عَلَيْهِ عَٰكِفِينَ حَتَّىٰ يَرْجِعَ إِلَيْنَا مُوسَىٰ",
+      "highlightedHtml": "قَالُوا۟ لَن نَّبْرَحَ عَلَيْهِ <a class=\"highlight-text\">عَٰكِفِينَ</a> حَتَّىٰ يَرْجِعَ إِلَيْنَا مُوسَىٰ",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 97,
+      "text": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "highlightedHtml": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ <a class=\"highlight-text\">عَاكِفًا</a> ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 52,
+      "text": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا عَٰكِفُونَ",
+      "highlightedHtml": "إِذْ قَالَ لِأَبِيهِ وَقَوْمِهِۦ مَا هَٰذِهِ ٱلتَّمَاثِيلُ ٱلَّتِىٓ أَنتُمْ لَهَا <a class=\"highlight-text\">عَٰكِفُونَ</a>",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 25,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَٰهُ لِلنَّاسِ سَوَآءً سَوَآءً ٱلْعَٰكِفُ فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَٰهُ لِلنَّاسِ سَوَآءً سَوَآءً <a class=\"highlight-text\">ٱلْعَٰكِفُ</a> فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 71,
+      "text": "قَالُوا۟ نَعْبُدُ أَصْنَامًا فَنَظَلُّ لَهَا عَٰكِفِينَ",
+      "highlightedHtml": "قَالُوا۟ نَعْبُدُ أَصْنَامًا فَنَظَلُّ لَهَا <a class=\"highlight-text\">عَٰكِفِينَ</a>",
+      "derivedForms": [
+        "عَاكِفٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 25,
+      "text": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ مَعْكُوفًا أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "هُمُ ٱلَّذِينَ كَفَرُوا۟ وَصَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ وَٱلْهَدْىَ <a class=\"highlight-text\">مَعْكُوفًا</a> أَن يَبْلُغَ مَحِلَّهُۥ ۚ وَلَوْلَا رِجَالٌ مُّؤْمِنُونَ وَنِسَآءٌ مُّؤْمِنَٰتٌ لَّمْ تَعْلَمُوهُمْ أَن تَطَـُٔوهُمْ فَتُصِيبَكُم مِّنْهُم مَّعَرَّةٌۢ بِغَيْرِ عِلْمٍ ۖ لِّيُدْخِلَ ٱللَّهُ فِى رَحْمَتِهِۦ مَن يَشَآءُ ۚ لَوْ تَزَيَّلُوا۟ لَعَذَّبْنَا ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "مَعْكُوفٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:18.569Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "وَٱلْعَٰكِفِينَ is in the derivative form: عَاكِفٌ",
+    "rootDefinitionHtml": "ع/ك/ف ʿ–k–f to be curled or twisted, to cling to, to be constant, to devote oneself to, to apply oneself singlemindedly to<br>; to isolate, to bar, to turn away from. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> يَعْكُفُون yaʿkufūn 1 time; عَاكِفٌ ʿākif 7 times and مَعْكُوفٌ maʿkūf 1 time.",
+    "mainDefinitionHtml": "عَاكِفٌ ʿākif [act. part.] <br><br><strong>1 </strong>one who devotes himself to something <br><br>(20:91)‏لَنْ‏ ‏نَبْرَحَ‏ ‏عَلَيْهِ‏ ‏عَاكِفِينَ‏ ‏ we will never give up our devotion to it <br><br><strong>2 </strong>one who is in seclusion [in a mosque], one who is in retreat <br><br>(2:187) ‏‏‏وَأَنْتُمْ‏ ‏عَاكِفُونَ‏ ‏فِي‏ ‏الْمَسَاجِدِ while you are in retreat in mosques.",
+    "mainEntryId": "wdef-ع-ك-ف.عَاكِفٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ك-ف",
+        "label": "ع-ك-ف",
+        "definitionHtml": "ع/ك/ف ʿ–k–f to be curled or twisted, to cling to, to be constant, to devote oneself to, to apply oneself singlemindedly to<br>; to isolate, to bar, to turn away from. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> يَعْكُفُون yaʿkufūn 1 time; عَاكِفٌ ʿākif 7 times and مَعْكُوفٌ maʿkūf 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ك-ف.عَاكِفٌ",
+        "label": "عَاكِفٌ",
+        "definitionHtml": "عَاكِفٌ ʿākif [act. part.] <br><br><strong>1 </strong>one who devotes himself to something <br><br>(20:91)‏لَنْ‏ ‏نَبْرَحَ‏ ‏عَلَيْهِ‏ ‏عَاكِفِينَ‏ ‏ we will never give up our devotion to it <br><br><strong>2 </strong>one who is in seclusion [in a mosque], one who is in retreat <br><br>(2:187) ‏‏‏وَأَنْتُمْ‏ ‏عَاكِفُونَ‏ ‏فِي‏ ‏الْمَسَاجِدِ while you are in retreat in mosques.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ك-ف.مَعْكُوفٌ",
+        "label": "مَعْكُوفٌ",
+        "definitionHtml": "مَعْكُوفٌ maʿkūf [pass. part.] one who is barred, prevented, restrained <br><br>(48:25) ‏‏وَالْهَدْيَ‏ ‏مَعْكُوفًا‏ ‏أَنْ‏ ‏يَبْلُغَ‏ ‏مَحِلَّهُ‏ and the sacrificial offering detained from reaching its place of sacrifice.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ك-ف.يَعْكُفُ",
+        "label": "يَعْكُفُ",
+        "definitionHtml": "يَعْكُفُ yaʿkuf [imperf. v. intrans.] to devote oneself to, to cleave to <br><br>(7:138) ‏‏قَوْمٍ‏ ‏يَعْكُفُونَ‏ ‏عَلَى‏ ‏أَصْنَامٍ‏ ‏لَهُمْ‏ a people devoted to the worship of idols of theirs.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:17.862Z",
+      "refword": "2:125:20",
+      "lexword": "وَٱلْعَٰكِفِينَ"
+    }
+  }
+}

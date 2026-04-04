@@ -1,0 +1,288 @@
+{
+  "root": "نطق",
+  "rootArabic": "نطق",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 3,
+    "surahCount": 9,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "يَنْطِقُ",
+      "count": 9
+    },
+    {
+      "form": "أَنْطَقَ",
+      "count": 2
+    },
+    {
+      "form": "مَنْطِقٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنْطِقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْطَقَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنْطِقُ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 63,
+      "text": "قَالَ بَلْ فَعَلَهُۥ كَبِيرُهُمْ هَٰذَا فَسْـَٔلُوهُمْ إِن كَانُوا۟ يَنطِقُونَ",
+      "highlightedHtml": "قَالَ بَلْ فَعَلَهُۥ كَبِيرُهُمْ هَٰذَا فَسْـَٔلُوهُمْ إِن كَانُوا۟ <a class=\"highlight-text\">يَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 65,
+      "text": "ثُمَّ نُكِسُوا۟ عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَٰٓؤُلَآءِ يَنطِقُونَ",
+      "highlightedHtml": "ثُمَّ نُكِسُوا۟ عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَٰٓؤُلَآءِ <a class=\"highlight-text\">يَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 62,
+      "text": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَٰبٌ يَنطِقُ بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "highlightedHtml": "وَلَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَلَدَيْنَا كِتَٰبٌ <a class=\"highlight-text\">يَنطِقُ</a> بِٱلْحَقِّ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 16,
+      "text": "وَوَرِثَ سُلَيْمَٰنُ دَاوُۥدَ ۖ وَقَالَ يَٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا مَنطِقَ ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ",
+      "highlightedHtml": "وَوَرِثَ سُلَيْمَٰنُ دَاوُۥدَ ۖ وَقَالَ يَٰٓأَيُّهَا ٱلنَّاسُ عُلِّمْنَا <a class=\"highlight-text\">مَنطِقَ</a> ٱلطَّيْرِ وَأُوتِينَا مِن كُلِّ شَىْءٍ ۖ إِنَّ هَٰذَا لَهُوَ ٱلْفَضْلُ ٱلْمُبِينُ",
+      "derivedForms": [
+        "مَنْطِقٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 85,
+      "text": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ",
+      "highlightedHtml": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا <a class=\"highlight-text\">يَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 92,
+      "text": "مَا لَكُمْ لَا تَنطِقُونَ",
+      "highlightedHtml": "مَا لَكُمْ لَا <a class=\"highlight-text\">تَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 21,
+      "text": "وَقَالُوا۟ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا ۖ قَالُوٓا۟ أَنطَقَنَا ٱللَّهُ ٱلَّذِىٓ أَنطَقَ كُلَّ شَىْءٍ وَهُوَ خَلَقَكُمْ أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "وَقَالُوا۟ لِجُلُودِهِمْ لِمَ شَهِدتُّمْ عَلَيْنَا ۖ قَالُوٓا۟ <a class=\"highlight-text\">أَنطَقَنَا</a> ٱللَّهُ ٱلَّذِىٓ <a class=\"highlight-text\">أَنطَقَ</a> كُلَّ شَىْءٍ وَهُوَ خَلَقَكُمْ أَوَّلَ مَرَّةٍ وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "أَنْطَقَ",
+        "أَنْطَقَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 29,
+      "text": "هَٰذَا كِتَٰبُنَا يَنطِقُ عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا نَسْتَنسِخُ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "هَٰذَا كِتَٰبُنَا <a class=\"highlight-text\">يَنطِقُ</a> عَلَيْكُم بِٱلْحَقِّ ۚ إِنَّا كُنَّا نَسْتَنسِخُ مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 23,
+      "text": "فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّ مِّثْلَ مَآ أَنَّكُمْ تَنطِقُونَ",
+      "highlightedHtml": "فَوَرَبِّ ٱلسَّمَآءِ وَٱلْأَرْضِ إِنَّهُۥ لَحَقٌّ مِّثْلَ مَآ أَنَّكُمْ <a class=\"highlight-text\">تَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 3,
+      "text": "وَمَا يَنطِقُ عَنِ ٱلْهَوَىٰٓ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">يَنطِقُ</a> عَنِ ٱلْهَوَىٰٓ",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 35,
+      "text": "هَٰذَا يَوْمُ لَا يَنطِقُونَ",
+      "highlightedHtml": "هَٰذَا يَوْمُ لَا <a class=\"highlight-text\">يَنطِقُونَ</a>",
+      "derivedForms": [
+        "يَنْطِقُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:37.064Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَنطِقُونَ is in the derivative form: يَنْطِقُ",
+    "rootDefinitionHtml": "ن/ط/ق   n–ṭ–q belt, girdle, waist<br>; speech, language, to speak, signal, to express oneself; living animal. <br><br>Of this root, 3 forms occur 12 times in the Qur’an:<br> يَنْطِقُ yanṭiq 9 times; أَنْطَقَ ʾanṭaqa 2 times; and مَنْطِقٌ manṭiq 1 time.",
+    "mainDefinitionHtml": "يَنْطِقُ yanṭiq [imperf. of v.نَطَق naṭaqa, intrans.] to speak <br><br>(37:92) مَا لَكُمْ لاَ تَنْطِقُونَ what is [the matter] with you [that] you don’t speak?; *<br><br>(45:29) يَنْطِقُ عَلَيْكُمْ testifies against you.",
+    "mainEntryId": "wdef-ن-ط-ق.يَنْطِقُ",
+    "entries": [
+      {
+        "id": "wdef-ن-ط-ق",
+        "label": "ن-ط-ق",
+        "definitionHtml": "ن/ط/ق   n–ṭ–q belt, girdle, waist<br>; speech, language, to speak, signal, to express oneself; living animal. <br><br>Of this root, 3 forms occur 12 times in the Qur’an:<br> يَنْطِقُ yanṭiq 9 times; أَنْطَقَ ʾanṭaqa 2 times; and مَنْطِقٌ manṭiq 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ط-ق.يَنْطِقُ",
+        "label": "يَنْطِقُ",
+        "definitionHtml": "يَنْطِقُ yanṭiq [imperf. of v.نَطَق naṭaqa, intrans.] to speak <br><br>(37:92) مَا لَكُمْ لاَ تَنْطِقُونَ what is [the matter] with you [that] you don’t speak?; *<br><br>(45:29) يَنْطِقُ عَلَيْكُمْ testifies against you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ط-ق.أَنْطَقَ",
+        "label": "أَنْطَقَ",
+        "definitionHtml": "أَنْطَقَ ʾanṭaqa [v. IV trans.] to cause to speak, to enable to speak, to give the faculty of speech to <br><br>(41:21) أَنْطَقَنَا اللَّهُ الَّذِي أَنْطَقَ كُلَّ شَيْءٍ God, who gave speech to everything, has given us speech.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ط-ق.مَنْطِقٌ",
+        "label": "مَنْطِقٌ",
+        "definitionHtml": "مَنْطِقٌ manṭiq [v. n./n.] speech, language, idiom <br><br>(27:16) عُلِّمْنَا مَنْطِقَ الطَّيْرِ we have been taught the speech of birds.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:29.061Z",
+      "refword": "21:63:9",
+      "lexword": "يَنطِقُونَ"
+    }
+  }
+}

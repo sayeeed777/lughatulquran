@@ -1,0 +1,431 @@
+{
+  "root": "لعب",
+  "rootArabic": "لعب",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 3,
+    "surahCount": 13,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "لَعِب",
+      "count": 10
+    },
+    {
+      "form": "نَلْعَب",
+      "count": 7
+    },
+    {
+      "form": "لاعِبِين",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        },
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "لاعِبِين",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لاعِبِين",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَلْعَب",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَعِب",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 57,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَكُمْ هُزُوًا وَلَعِبًا مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَٱلْكُفَّارَ أَوْلِيَآءَ ۚ وَٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَكُمْ هُزُوًا <a class=\"highlight-text\">وَلَعِبًا</a> مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ مِن قَبْلِكُمْ وَٱلْكُفَّارَ أَوْلِيَآءَ ۚ وَٱتَّقُوا۟ ٱللَّهَ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 58,
+      "text": "وَإِذَا نَادَيْتُمْ إِلَى ٱلصَّلَوٰةِ ٱتَّخَذُوهَا هُزُوًا وَلَعِبًا ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ",
+      "highlightedHtml": "وَإِذَا نَادَيْتُمْ إِلَى ٱلصَّلَوٰةِ ٱتَّخَذُوهَا هُزُوًا <a class=\"highlight-text\">وَلَعِبًا</a> ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 32,
+      "text": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَعِبٌ وَلَهْوٌ ۖ وَلَلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا <a class=\"highlight-text\">لَعِبٌ</a> وَلَهْوٌ ۖ وَلَلدَّارُ الْآخِرَةُ خَيْرٌ لِّلَّذِينَ يَتَّقُونَ ۗ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 70,
+      "text": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "highlightedHtml": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ <a class=\"highlight-text\">لَعِبًا</a> وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 91,
+      "text": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍ مِّن شَىْءٍ ۗ قُلْ مَنْ أَنزَلَ ٱلْكِتَٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًا وَهُدًى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا ۖ وَعُلِّمْتُم مَّا لَمْ تَعْلَمُوٓا۟ أَنتُمْ وَلَآ ءَابَآؤُكُمْ ۖ قُلِ ٱللَّهُ ۖ ثُمَّ ذَرْهُمْ فِى خَوْضِهِمْ يَلْعَبُونَ",
+      "highlightedHtml": "وَمَا قَدَرُوا۟ ٱللَّهَ حَقَّ قَدْرِهِۦٓ إِذْ قَالُوا۟ مَآ أَنزَلَ ٱللَّهُ عَلَىٰ بَشَرٍ مِّن شَىْءٍ ۗ قُلْ مَنْ أَنزَلَ ٱلْكِتَٰبَ ٱلَّذِى جَآءَ بِهِۦ مُوسَىٰ نُورًا وَهُدًى لِّلنَّاسِ ۖ تَجْعَلُونَهُۥ قَرَاطِيسَ تُبْدُونَهَا وَتُخْفُونَ كَثِيرًا ۖ وَعُلِّمْتُم مَّا لَمْ تَعْلَمُوٓا۟ أَنتُمْ وَلَآ ءَابَآؤُكُمْ ۖ قُلِ ٱللَّهُ ۖ ثُمَّ ذَرْهُمْ فِى خَوْضِهِمْ <a class=\"highlight-text\">يَلْعَبُونَ</a>",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 51,
+      "text": "ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَهْوًا وَلَعِبًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "highlightedHtml": "ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَهْوًا <a class=\"highlight-text\">وَلَعِبًا</a> وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ نَنسَىٰهُمْ كَمَا نَسُوا۟ لِقَآءَ يَوْمِهِمْ هَٰذَا وَمَا كَانُوا۟ بِـَٔايَٰتِنَا يَجْحَدُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 98,
+      "text": "أَوَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا ضُحًى وَهُمْ يَلْعَبُونَ",
+      "highlightedHtml": "أَوَأَمِنَ أَهْلُ ٱلْقُرَىٰٓ أَن يَأْتِيَهُم بَأْسُنَا ضُحًى وَهُمْ <a class=\"highlight-text\">يَلْعَبُونَ</a>",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 65,
+      "text": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ <a class=\"highlight-text\">وَنَلْعَبُ</a> ۚ قُلْ أَبِٱللَّهِ وَءَايَٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 12,
+      "text": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "highlightedHtml": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ <a class=\"highlight-text\">وَيَلْعَبْ</a> وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 2,
+      "text": "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا ٱسْتَمَعُوهُ وَهُمْ يَلْعَبُونَ",
+      "highlightedHtml": "مَا يَأْتِيهِم مِّن ذِكْرٍ مِّن رَّبِّهِم مُّحْدَثٍ إِلَّا ٱسْتَمَعُوهُ وَهُمْ <a class=\"highlight-text\">يَلْعَبُونَ</a>",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 16,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "highlightedHtml": "وَمَا خَلَقْنَا ٱلسَّمَآءَ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا <a class=\"highlight-text\">لَٰعِبِينَ</a>",
+      "derivedForms": [
+        "لاعِبِين"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 55,
+      "text": "قَالُوٓا۟ أَجِئْتَنَا بِٱلْحَقِّ أَمْ أَنتَ مِنَ ٱللَّٰعِبِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَجِئْتَنَا بِٱلْحَقِّ أَمْ أَنتَ مِنَ <a class=\"highlight-text\">ٱللَّٰعِبِينَ</a>",
+      "derivedForms": [
+        "لاعِبِين"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 64,
+      "text": "وَمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ ٱلدَّارَ الْآخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "highlightedHtml": "وَمَا هَٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ <a class=\"highlight-text\">وَلَعِبٌ</a> ۚ وَإِنَّ ٱلدَّارَ الْآخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 83,
+      "text": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "highlightedHtml": "فَذَرْهُمْ يَخُوضُوا۟ <a class=\"highlight-text\">وَيَلْعَبُوا۟</a> حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 9,
+      "text": "بَلْ هُمْ فِى شَكٍّ يَلْعَبُونَ",
+      "highlightedHtml": "بَلْ هُمْ فِى شَكٍّ <a class=\"highlight-text\">يَلْعَبُونَ</a>",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 38,
+      "text": "وَمَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا لَٰعِبِينَ",
+      "highlightedHtml": "وَمَا خَلَقْنَا ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَمَا بَيْنَهُمَا <a class=\"highlight-text\">لَٰعِبِينَ</a>",
+      "derivedForms": [
+        "لاعِبِين"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 36,
+      "text": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
+      "highlightedHtml": "إِنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا <a class=\"highlight-text\">لَعِبٌ</a> وَلَهْوٌ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ يُؤْتِكُمْ أُجُورَكُمْ وَلَا يَسْـَٔلْكُمْ أَمْوَٰلَكُمْ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 12,
+      "text": "ٱلَّذِينَ هُمْ فِى خَوْضٍ يَلْعَبُونَ",
+      "highlightedHtml": "ٱلَّذِينَ هُمْ فِى خَوْضٍ <a class=\"highlight-text\">يَلْعَبُونَ</a>",
+      "derivedForms": [
+        "نَلْعَب"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 20,
+      "text": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا <a class=\"highlight-text\">لَعِبٌ</a> وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 42,
+      "text": "فَذَرْهُمْ يَخُوضُوا۟ وَيَلْعَبُوا۟ حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "highlightedHtml": "فَذَرْهُمْ يَخُوضُوا۟ <a class=\"highlight-text\">وَيَلْعَبُوا۟</a> حَتَّىٰ يُلَٰقُوا۟ يَوْمَهُمُ ٱلَّذِى يُوعَدُونَ",
+      "derivedForms": [
+        "لَعِب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:32.658Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "وَلَعِبًا is in the derivative form: لَعِب",
+    "rootDefinitionHtml": "ل/ع/ب   l–ʿ–b to play, to jest, to trick<br>; pastime, amusement; flirtatious, coquettish. <br><br>Of this root, 3 forms occur 20 times in the Qur’an:<br> نَلْعَب nalʿab 9 times; لَعِب laʿib 8 times and لاعِبِين lāʿibın 3 times.",
+    "mainDefinitionHtml": "لَعِب laʿib [v. n./n.] <br><br><strong>1 </strong>diversion, pastime <br><br>(57:20) اعْلَمُوا‏ ‏أَنَّمَا‏ ‏الْحَيَاةُ‏ ‏الدُّنْيَا لَعِبٌ‏ ‏وَلَهْوٌ‏ know that the present life is only play, and a diversion <br><br><strong>2 </strong>jesting, game <br><br>(6:70) وَذَرِ الَّذِينَ اتَّخَذُوا دِينَهُمْ لَعِبًا وَلَهْوًا leave to themselves those who take their religion for a mere game and a diversion <br><br><strong>3 </strong>mocking, scorning <br><br>(5:57) الَّذِينَ اتَّخَذُوا دِينَكُمْ هُزُوًا وَلَعِبًا those who poke fun at and make light of your religion.",
+    "mainEntryId": "wdef-ل-ع-ب.لَعِب",
+    "entries": [
+      {
+        "id": "wdef-ل-ع-ب",
+        "label": "ل-ع-ب",
+        "definitionHtml": "ل/ع/ب   l–ʿ–b to play, to jest, to trick<br>; pastime, amusement; flirtatious, coquettish. <br><br>Of this root, 3 forms occur 20 times in the Qur’an:<br> نَلْعَب nalʿab 9 times; لَعِب laʿib 8 times and لاعِبِين lāʿibın 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ع-ب.لَعِب",
+        "label": "لَعِب",
+        "definitionHtml": "لَعِب laʿib [v. n./n.] <br><br><strong>1 </strong>diversion, pastime <br><br>(57:20) اعْلَمُوا‏ ‏أَنَّمَا‏ ‏الْحَيَاةُ‏ ‏الدُّنْيَا لَعِبٌ‏ ‏وَلَهْوٌ‏ know that the present life is only play, and a diversion <br><br><strong>2 </strong>jesting, game <br><br>(6:70) وَذَرِ الَّذِينَ اتَّخَذُوا دِينَهُمْ لَعِبًا وَلَهْوًا leave to themselves those who take their religion for a mere game and a diversion <br><br><strong>3 </strong>mocking, scorning <br><br>(5:57) الَّذِينَ اتَّخَذُوا دِينَكُمْ هُزُوًا وَلَعِبًا those who poke fun at and make light of your religion.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ع-ب.لاعِبِين",
+        "label": "لاعِبِين",
+        "definitionHtml": "لاعِبِين lāʿibın [pl. of act. part. لاعِب lāʿib] <br><br><strong>1 </strong>jesting, those who jest <br><br>(21:55)‏قَالُوا أَجِئْتَنَا بِالْحَقِّ أَمْ أَنتَ مِنَ اللَّاعِبِينَ ‏ they asked, ‘Have you brought us the truth or are you from those who jest?’ <br><br><strong>2 </strong>one who engages in the idle passing of time <br><br>(21:16) وَمَا‏ ‏خَلَقْنَا‏ ‏السَّمَاءَ‏ ‏وَالأَرْضَ وَمَا‏ ‏بَيْنَهُمَا‏ ‏لاَعِبِينَ‏‏ ‏We did not create the heavens and the earth and everything between them in play.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ع-ب.نَلْعَب",
+        "label": "نَلْعَب",
+        "definitionHtml": "نَلْعَب nalʿab [imperf. of v. intrans.] <br><br><strong>1 </strong>to play, to amuse oneself. <br><br>(12:12) أَرْسِلْهُ‏ ‏مَعَنَا‏ ‏غَدًا‏ ‏يَرْتَعْ وَيَلْعَبْ‏‏ send him with us tomorrow to run about and play <br><br><strong>2 </strong>to jest, to joke <br><br>(9:65) وَلَئِنْ‏ ‏سَأَلْتَهُمْ‏ ‏لَيَقُولُنَّ‏ ‏إِنَّمَا كُنَّا‏ ‏نَخُوضُ‏ ‏وَنَلْعَبُ‏ yet if you question them, they would say, ‘We were just chatting, just jesting’ <br><br><strong>3 </strong>to engage in the idle passing of time, to play about <br><br>(7:98) أَوَأَمِنَ أَهْلُ الْقُرَى أَنْ يَأْتِيَهُمْ بَأْسُنَا ضُحًى وَهُمْ يَلْعَبُونَ do the people of those towns feel secure that Our punishment will not come upon them one morning while they are playing about?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:24.600Z",
+      "refword": "5:57:10",
+      "lexword": "وَلَعِبًا"
+    }
+  }
+}

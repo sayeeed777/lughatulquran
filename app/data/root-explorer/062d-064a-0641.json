@@ -1,0 +1,74 @@
+{
+  "root": "حيف",
+  "rootArabic": "حيف",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَحِيفُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحِيفُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 24,
+      "ayah": 50,
+      "text": "أَفِى قُلُوبِهِم مَّرَضٌ أَمِ ٱرْتَابُوٓا۟ أَمْ يَخَافُونَ أَن يَحِيفَ ٱللَّهُ عَلَيْهِمْ وَرَسُولُهُۥ ۚ بَلْ أُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "أَفِى قُلُوبِهِم مَّرَضٌ أَمِ ٱرْتَابُوٓا۟ أَمْ يَخَافُونَ أَن <a class=\"highlight-text\">يَحِيفَ</a> ٱللَّهُ عَلَيْهِمْ وَرَسُولُهُۥ ۚ بَلْ أُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "يَحِيفُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:55.329Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "يَحِيفَ is in the derivative form: يَحِيفُ",
+    "rootDefinitionHtml": "ح/ي/ف ḥ–y–f deviation, to veer away; to be unjust, to wrong; to curtail, to impair. Of this root, يَحِيفُ yaḥıf occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَحِيفُ yaḥıf [imperf. of v. حَافَ ḥāfa, intrans. with prep. على] to make incursions into, to deal unjustly with, to lean heavily on <br><br>(24:50) أَمْ يَخَافُونَ أَنْ يَحِيفَ اللَّهُ عَلَيْهِمْ ورسوله or do they fear that God and His Messenger might deal with them unjustly?",
+    "mainEntryId": "wdef-ح-ي-ف.يَحِيفُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ي-ف",
+        "label": "ح-ي-ف",
+        "definitionHtml": "ح/ي/ف ḥ–y–f deviation, to veer away; to be unjust, to wrong; to curtail, to impair. Of this root, يَحِيفُ yaḥıf occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ي-ف.يَحِيفُ",
+        "label": "يَحِيفُ",
+        "definitionHtml": "يَحِيفُ yaḥıf [imperf. of v. حَافَ ḥāfa, intrans. with prep. على] to make incursions into, to deal unjustly with, to lean heavily on <br><br>(24:50) أَمْ يَخَافُونَ أَنْ يَحِيفَ اللَّهُ عَلَيْهِمْ ورسوله or do they fear that God and His Messenger might deal with them unjustly?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:15.113Z",
+      "refword": "24:50:9",
+      "lexword": "يَحِيفَ"
+    }
+  }
+}

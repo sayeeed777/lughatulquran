@@ -1,0 +1,74 @@
+{
+  "root": "قبح",
+  "rootArabic": "قبح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَقْبُوحِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَقْبُوحِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 28,
+      "ayah": 42,
+      "text": "وَأَتْبَعْنَٰهُمْ فِى هَٰذِهِ ٱلدُّنْيَا لَعْنَةً ۖ وَيَوْمَ ٱلْقِيَٰمَةِ هُم مِّنَ ٱلْمَقْبُوحِينَ",
+      "highlightedHtml": "وَأَتْبَعْنَٰهُمْ فِى هَٰذِهِ ٱلدُّنْيَا لَعْنَةً ۖ وَيَوْمَ ٱلْقِيَٰمَةِ هُم مِّنَ <a class=\"highlight-text\">ٱلْمَقْبُوحِينَ</a>",
+      "derivedForms": [
+        "مَقْبُوحِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:26.589Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural passive participle",
+    "derivativeNote": "ٱلْمَقْبُوحِينَ is in the derivative form: مَقْبُوحِين",
+    "rootDefinitionHtml": "ق/ب/ح q–b–ḥ to be or become bad, evil, foul, ugly, unseemly; to chase away, to repulse, to curse. Of this root, مَقْبُوحِين maqbūḥın occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَقْبُوحِين maqbūḥın [pl. of pass. part. مَقْبُوح maqbūḥ] one who is removed from all that is good; driven away; cursed; made ugly <br><br>(28:42) وَأَتْبَعْنَاهُمْ فِى هَذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ هُمْ مِنَ الْمَقْبُوحِينَ in this world We sent after them a curse, and on the Day of Resurrection they will be among those removed from all that is good.",
+    "mainEntryId": "wdef-ق-ب-ح.مَقْبُوحِين",
+    "entries": [
+      {
+        "id": "wdef-ق-ب-ح",
+        "label": "ق-ب-ح",
+        "definitionHtml": "ق/ب/ح q–b–ḥ to be or become bad, evil, foul, ugly, unseemly; to chase away, to repulse, to curse. Of this root, مَقْبُوحِين maqbūḥın occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ب-ح.مَقْبُوحِين",
+        "label": "مَقْبُوحِين",
+        "definitionHtml": "مَقْبُوحِين maqbūḥın [pl. of pass. part. مَقْبُوح maqbūḥ] one who is removed from all that is good; driven away; cursed; made ugly <br><br>(28:42) وَأَتْبَعْنَاهُمْ فِى هَذِهِ الدُّنْيَا لَعْنَةً وَيَوْمَ الْقِيَامَةِ هُمْ مِنَ الْمَقْبُوحِينَ in this world We sent after them a curse, and on the Day of Resurrection they will be among those removed from all that is good.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:32.428Z",
+      "refword": "28:42:10",
+      "lexword": "ٱلْمَقْبُوحِينَ"
+    }
+  }
+}

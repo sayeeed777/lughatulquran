@@ -1,0 +1,81 @@
+{
+  "root": "دسس",
+  "rootArabic": "دسس",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَدُسُّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدُسُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 16,
+      "ayah": 59,
+      "text": "يَتَوَٰرَىٰ مِنَ ٱلْقَوْمِ مِن سُوٓءِ مَا بُشِّرَ بِهِۦٓ ۚ أَيُمْسِكُهُۥ عَلَىٰ هُونٍ أَمْ يَدُسُّهُۥ فِى ٱلتُّرَابِ ۗ أَلَا سَآءَ مَا يَحْكُمُونَ",
+      "highlightedHtml": "يَتَوَٰرَىٰ مِنَ ٱلْقَوْمِ مِن سُوٓءِ مَا بُشِّرَ بِهِۦٓ ۚ أَيُمْسِكُهُۥ عَلَىٰ هُونٍ أَمْ <a class=\"highlight-text\">يَدُسُّهُۥ</a> فِى ٱلتُّرَابِ ۗ أَلَا سَآءَ مَا يَحْكُمُونَ",
+      "derivedForms": [
+        "يَدُسُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:13.570Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَدُسُّهُۥ is in the derivative form: يَدُسُّ",
+    "rootDefinitionHtml": "د/س/س   d–s–s to shove in, to infiltrate, to hide in, to adulterate, to bury; a spy, a plot, intrigue; sand adder. Of this root, يَدُسُّ yaduss occurs 11 times in the Qur’an. (Qur’anic word دَسَّاهَا dassāhā is not considered here, as it is viewed by a number of philologists as an elongated form of دَسّىَ dassā)<br>.",
+    "mainDefinitionHtml": "يَدُسُّ yaduss [imperf. of v. دَسَّ dassa, trans.] to bury, to shove in <br><br>(16:59) أَيُمْسِكُهُ عَلَى هُونٍ أَمْ يَدُسُّهُ فِى التُّرَابِ should he keep it [the newborn girl] in humiliation (or, and suffer humiliation himself) or bury her in the dust?",
+    "mainEntryId": "wdef-د-س-س.يَدُسُّ",
+    "entries": [
+      {
+        "id": "wdef-د-س-س",
+        "label": "د-س-س",
+        "definitionHtml": "د/س/س   d–s–s to shove in, to infiltrate, to hide in, to adulterate, to bury; a spy, a plot, intrigue; sand adder. Of this root, يَدُسُّ yaduss occurs 11 times in the Qur’an. (Qur’anic word دَسَّاهَا dassāhā is not considered here, as it is viewed by a number of philologists as an elongated form of دَسّىَ dassā)<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-س-س.يَدُسُّ",
+        "label": "يَدُسُّ",
+        "definitionHtml": "يَدُسُّ yaduss [imperf. of v. دَسَّ dassa, trans.] to bury, to shove in <br><br>(16:59) أَيُمْسِكُهُ عَلَى هُونٍ أَمْ يَدُسُّهُ فِى التُّرَابِ should he keep it [the newborn girl] in humiliation (or, and suffer humiliation himself) or bury her in the dust?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-س-س.دَسَّاهَا",
+        "label": "دَسَّاهَا",
+        "definitionHtml": "دَسَّاهَا dassāhā (see د/س/ي d–s–y).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:46.664Z",
+      "refword": "16:59:13",
+      "lexword": "يَدُسُّهُۥ"
+    }
+  }
+}

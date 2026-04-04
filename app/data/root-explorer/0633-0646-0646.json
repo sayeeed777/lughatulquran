@@ -1,0 +1,353 @@
+{
+  "root": "سنن",
+  "rootArabic": "سنن",
+  "stats": {
+    "totalOccurrences": 21,
+    "derivativeCount": 3,
+    "surahCount": 11,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "سُنّةٌ",
+      "count": 16
+    },
+    {
+      "form": "مَسْنون",
+      "count": 3
+    },
+    {
+      "form": "سِنّ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سِنّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مَسْنون",
+          "count": 3,
+          "totalInQuran": 3
+        },
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 3,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 3,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُنّةٌ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 137,
+      "text": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٌ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "highlightedHtml": "قَدْ خَلَتْ مِن قَبْلِكُمْ <a class=\"highlight-text\">سُنَنٌ</a> فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 26,
+      "text": "يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ سُنَنَ ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "يُرِيدُ ٱللَّهُ لِيُبَيِّنَ لَكُمْ وَيَهْدِيَكُمْ <a class=\"highlight-text\">سُنَنَ</a> ٱلَّذِينَ مِن قَبْلِكُمْ وَيَتُوبَ عَلَيْكُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 45,
+      "text": "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ <a class=\"highlight-text\">وَٱلسِّنَّ</a> <a class=\"highlight-text\">بِٱلسِّنِّ</a> وَٱلْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "سِنّ",
+        "سِنّ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 38,
+      "text": "قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ مَضَتْ سُنَّتُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ مَضَتْ <a class=\"highlight-text\">سُنَّتُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 13,
+      "text": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ خَلَتْ سُنَّةُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "لَا يُؤْمِنُونَ بِهِۦ ۖ وَقَدْ خَلَتْ <a class=\"highlight-text\">سُنَّةُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 26,
+      "text": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "وَلَقَدْ خَلَقْنَا ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ <a class=\"highlight-text\">مَّسْنُونٍ</a>",
+      "derivedForms": [
+        "مَسْنون"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 28,
+      "text": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى خَٰلِقٌۢ بَشَرًا مِّن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى خَٰلِقٌۢ بَشَرًا مِّن صَلْصَٰلٍ مِّنْ حَمَإٍ <a class=\"highlight-text\">مَّسْنُونٍ</a>",
+      "derivedForms": [
+        "مَسْنون"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 33,
+      "text": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ مَّسْنُونٍ",
+      "highlightedHtml": "قَالَ لَمْ أَكُن لِّأَسْجُدَ لِبَشَرٍ خَلَقْتَهُۥ مِن صَلْصَٰلٍ مِّنْ حَمَإٍ <a class=\"highlight-text\">مَّسْنُونٍ</a>",
+      "derivedForms": [
+        "مَسْنون"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 77,
+      "text": "سُنَّةَ مَن قَدْ أَرْسَلْنَا قَبْلَكَ مِن رُّسُلِنَا ۖ وَلَا تَجِدُ لِسُنَّتِنَا تَحْوِيلًا",
+      "highlightedHtml": "<a class=\"highlight-text\">سُنَّةَ</a> مَن قَدْ أَرْسَلْنَا قَبْلَكَ مِن رُّسُلِنَا ۖ وَلَا تَجِدُ <a class=\"highlight-text\">لِسُنَّتِنَا</a> تَحْوِيلًا",
+      "derivedForms": [
+        "سُنّةٌ",
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 55,
+      "text": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا",
+      "highlightedHtml": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ <a class=\"highlight-text\">سُنَّةُ</a> ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 38,
+      "text": "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا",
+      "highlightedHtml": "مَّا كَانَ عَلَى ٱلنَّبِىِّ مِنْ حَرَجٍ فِيمَا فَرَضَ ٱللَّهُ لَهُۥ ۖ <a class=\"highlight-text\">سُنَّةَ</a> ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۚ وَكَانَ أَمْرُ ٱللَّهِ قَدَرًا مَّقْدُورًا",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 62,
+      "text": "سُنَّةَ ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "highlightedHtml": "<a class=\"highlight-text\">سُنَّةَ</a> ٱللَّهِ فِى ٱلَّذِينَ خَلَوْا۟ مِن قَبْلُ ۖ وَلَن تَجِدَ <a class=\"highlight-text\">لِسُنَّةِ</a> ٱللَّهِ تَبْدِيلًا",
+      "derivedForms": [
+        "سُنّةٌ",
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 43,
+      "text": "ٱسْتِكْبَارًا فِى ٱلْأَرْضِ وَمَكْرَ ٱلسَّيِّئِ ۚ وَلَا يَحِيقُ ٱلْمَكْرُ ٱلسَّيِّئُ إِلَّا بِأَهْلِهِۦ ۚ فَهَلْ يَنظُرُونَ إِلَّا سُنَّتَ ٱلْأَوَّلِينَ ۚ فَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَبْدِيلًا ۖ وَلَن تَجِدَ لِسُنَّتِ ٱللَّهِ تَحْوِيلًا",
+      "highlightedHtml": "ٱسْتِكْبَارًا فِى ٱلْأَرْضِ وَمَكْرَ ٱلسَّيِّئِ ۚ وَلَا يَحِيقُ ٱلْمَكْرُ ٱلسَّيِّئُ إِلَّا بِأَهْلِهِۦ ۚ فَهَلْ يَنظُرُونَ إِلَّا <a class=\"highlight-text\">سُنَّتَ</a> ٱلْأَوَّلِينَ ۚ فَلَن تَجِدَ <a class=\"highlight-text\">لِسُنَّتِ</a> ٱللَّهِ تَبْدِيلًا ۖ وَلَن تَجِدَ <a class=\"highlight-text\">لِسُنَّتِ</a> ٱللَّهِ تَحْوِيلًا",
+      "derivedForms": [
+        "سُنّةٌ",
+        "سُنّةٌ",
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 85,
+      "text": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ <a class=\"highlight-text\">سُنَّتَ</a> ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "سُنّةٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 23,
+      "text": "سُنَّةَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ مِن قَبْلُ ۖ وَلَن تَجِدَ لِسُنَّةِ ٱللَّهِ تَبْدِيلًا",
+      "highlightedHtml": "<a class=\"highlight-text\">سُنَّةَ</a> ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ مِن قَبْلُ ۖ وَلَن تَجِدَ <a class=\"highlight-text\">لِسُنَّةِ</a> ٱللَّهِ تَبْدِيلًا",
+      "derivedForms": [
+        "سُنّةٌ",
+        "سُنّةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:31.432Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine plural indefinite noun",
+    "derivativeNote": "سُنَنٌ is in the derivative form: سُنّةٌ",
+    "rootDefinitionHtml": "س/ن/ن   s–n–n tooth, teething<br>; age, year; blade, sharpening; handsome face; legislating; method of doing things; precedent. There is a degree of overlapping between this root and roots س/ن/ه s–n–h and س/ن/و s–n–w. <br><br>Of this root, 4 forms occur 21 times in the Qur’an:<br> سِنّ sinn 2 times;سُنّةٌ sunnatun 14 times; سُنَن sunan 2 times and مَسْنون masnūn 3 times.",
+    "mainDefinitionHtml": "سُنّةٌ sunnatun [n.; pl. سُنَن sunan] <br><br><strong>1 </strong>modes or manners or customs of life and living, norms, established practices <br><br>(3:137) قَدْ خَلَتْ مِنْ قَبْلِكُمْ سُنَنٌ فَسِيرُوا فِى الأَرْضِ فَانْظُروا كَيْفَ كَانَ عَاقِبَةُ الْمُكَذِّبِينَ ways of life have been established before your time–travel through the land and see how those who disbelieved ended up; *<br><br>(35:43) سُنَّةُ الأَوَّلِينَ the ways or the practices (or, the norms governing the life) of previous cultures <br><br><strong>2 </strong>practice, law, way <br><br>(33:62) سُنَّةَ اللَّهِ فِى الَّذِينَ خَلَوْا مِنْ قَبْلُ وَلَنْ تَجِدَ لِسُنَّةِ اللَّهِ تَبْدِيلاً this has been God’s way with those who went before; you will find no change in God’s way.",
+    "mainEntryId": "wdef-س-ن-ن.سُنّةٌ",
+    "entries": [
+      {
+        "id": "wdef-س-ن-ن",
+        "label": "س-ن-ن",
+        "definitionHtml": "س/ن/ن   s–n–n tooth, teething<br>; age, year; blade, sharpening; handsome face; legislating; method of doing things; precedent. There is a degree of overlapping between this root and roots س/ن/ه s–n–h and س/ن/و s–n–w. <br><br>Of this root, 4 forms occur 21 times in the Qur’an:<br> سِنّ sinn 2 times;سُنّةٌ sunnatun 14 times; سُنَن sunan 2 times and مَسْنون masnūn 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ن-ن.سُنّةٌ",
+        "label": "سُنّةٌ",
+        "definitionHtml": "سُنّةٌ sunnatun [n.; pl. سُنَن sunan] <br><br><strong>1 </strong>modes or manners or customs of life and living, norms, established practices <br><br>(3:137) قَدْ خَلَتْ مِنْ قَبْلِكُمْ سُنَنٌ فَسِيرُوا فِى الأَرْضِ فَانْظُروا كَيْفَ كَانَ عَاقِبَةُ الْمُكَذِّبِينَ ways of life have been established before your time–travel through the land and see how those who disbelieved ended up; *<br><br>(35:43) سُنَّةُ الأَوَّلِينَ the ways or the practices (or, the norms governing the life) of previous cultures <br><br><strong>2 </strong>practice, law, way <br><br>(33:62) سُنَّةَ اللَّهِ فِى الَّذِينَ خَلَوْا مِنْ قَبْلُ وَلَنْ تَجِدَ لِسُنَّةِ اللَّهِ تَبْدِيلاً this has been God’s way with those who went before; you will find no change in God’s way.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ن-ن.سِنّ",
+        "label": "سِنّ",
+        "definitionHtml": "سِنّ sinn [n.] tooth <br><br>(5:45) وَالسِّنَّ بِالسِّنِّ and a tooth for a tooth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ن-ن.مَسْنون",
+        "label": "مَسْنون",
+        "definitionHtml": "مَسْنون masnūn [pass. part.] honed, formed, shaped, cast <br><br>(15:26) وَلَقَدْ خَلَقْنَا الإِنْسَانَ مِنْ صَلْصَالٍ مِنْ حَمَإٍ مَسْنُونٍ We created man out of dried clay taken from shaped dark mud.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:06.984Z",
+      "refword": "3:137:5",
+      "lexword": "سُنَنٌ"
+    }
+  }
+}

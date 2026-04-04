@@ -1,0 +1,251 @@
+{
+  "root": "طرق",
+  "rootArabic": "طرق",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "طَرِيقةٌ",
+      "count": 5
+    },
+    {
+      "form": "طَرِيق",
+      "count": 4
+    },
+    {
+      "form": "طاَرِق",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَرِيق",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "طَرِيقةٌ",
+          "count": 2,
+          "totalInQuran": 5
+        },
+        {
+          "form": "طَرِيق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَرِيقةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَرِيق",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَرِيقةٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طاَرِق",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 168,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَظَلَمُوا۟ لَمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ طَرِيقًا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَظَلَمُوا۟ لَمْ يَكُنِ ٱللَّهُ لِيَغْفِرَ لَهُمْ وَلَا لِيَهْدِيَهُمْ <a class=\"highlight-text\">طَرِيقًا</a>",
+      "derivedForms": [
+        "طَرِيق"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 169,
+      "text": "إِلَّا طَرِيقَ جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "highlightedHtml": "إِلَّا <a class=\"highlight-text\">طَرِيقَ</a> جَهَنَّمَ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "derivedForms": [
+        "طَرِيق"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 63,
+      "text": "قَالُوٓا۟ إِنْ هَٰذَٰنِ لَسَٰحِرَٰنِ يُرِيدَانِ أَن يُخْرِجَاكُم مِّنْ أَرْضِكُم بِسِحْرِهِمَا وَيَذْهَبَا بِطَرِيقَتِكُمُ ٱلْمُثْلَىٰ",
+      "highlightedHtml": "قَالُوٓا۟ إِنْ هَٰذَٰنِ لَسَٰحِرَٰنِ يُرِيدَانِ أَن يُخْرِجَاكُم مِّنْ أَرْضِكُم بِسِحْرِهِمَا وَيَذْهَبَا <a class=\"highlight-text\">بِطَرِيقَتِكُمُ</a> ٱلْمُثْلَىٰ",
+      "derivedForms": [
+        "طَرِيقةٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 77,
+      "text": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ طَرِيقًا فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "highlightedHtml": "وَلَقَدْ أَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ أَنْ أَسْرِ بِعِبَادِى فَٱضْرِبْ لَهُمْ <a class=\"highlight-text\">طَرِيقًا</a> فِى ٱلْبَحْرِ يَبَسًا لَّا تَخَٰفُ دَرَكًا وَلَا تَخْشَىٰ",
+      "derivedForms": [
+        "طَرِيق"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 104,
+      "text": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ إِذْ يَقُولُ أَمْثَلُهُمْ طَرِيقَةً إِن لَّبِثْتُمْ إِلَّا يَوْمًا",
+      "highlightedHtml": "نَّحْنُ أَعْلَمُ بِمَا يَقُولُونَ إِذْ يَقُولُ أَمْثَلُهُمْ <a class=\"highlight-text\">طَرِيقَةً</a> إِن لَّبِثْتُمْ إِلَّا يَوْمًا",
+      "derivedForms": [
+        "طَرِيقةٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 17,
+      "text": "وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَآئِقَ وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَٰفِلِينَ",
+      "highlightedHtml": "وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ <a class=\"highlight-text\">طَرَآئِقَ</a> وَمَا كُنَّا عَنِ ٱلْخَلْقِ غَٰفِلِينَ",
+      "derivedForms": [
+        "طَرِيقةٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 30,
+      "text": "قَالُوا۟ يَٰقَوْمَنَآ إِنَّا سَمِعْنَا كِتَٰبًا أُنزِلَ مِنۢ بَعْدِ مُوسَىٰ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ يَهْدِىٓ إِلَى ٱلْحَقِّ وَإِلَىٰ طَرِيقٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰقَوْمَنَآ إِنَّا سَمِعْنَا كِتَٰبًا أُنزِلَ مِنۢ بَعْدِ مُوسَىٰ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ يَهْدِىٓ إِلَى ٱلْحَقِّ وَإِلَىٰ <a class=\"highlight-text\">طَرِيقٍ</a> مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "طَرِيق"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 11,
+      "text": "وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا طَرَآئِقَ قِدَدًا",
+      "highlightedHtml": "وَأَنَّا مِنَّا ٱلصَّٰلِحُونَ وَمِنَّا دُونَ ذَٰلِكَ ۖ كُنَّا <a class=\"highlight-text\">طَرَآئِقَ</a> قِدَدًا",
+      "derivedForms": [
+        "طَرِيقةٌ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 16,
+      "text": "وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى ٱلطَّرِيقَةِ لَأَسْقَيْنَٰهُم مَّآءً غَدَقًا",
+      "highlightedHtml": "وَأَلَّوِ ٱسْتَقَٰمُوا۟ عَلَى <a class=\"highlight-text\">ٱلطَّرِيقَةِ</a> لَأَسْقَيْنَٰهُم مَّآءً غَدَقًا",
+      "derivedForms": [
+        "طَرِيقةٌ"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 1,
+      "text": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "highlightedHtml": "وَٱلسَّمَآءِ <a class=\"highlight-text\">وَٱلطَّارِقِ</a>",
+      "derivedForms": [
+        "طاَرِق"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 2,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلطَّارِقُ",
+      "highlightedHtml": "وَمَآ أَدْرَىٰكَ مَا <a class=\"highlight-text\">ٱلطَّارِقُ</a>",
+      "derivedForms": [
+        "طاَرِق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:45.528Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "طَرِيقًا is in the derivative form: طَرِيق",
+    "rootDefinitionHtml": "ط/ر/ق   ṭ–r–q road, way, method<br>; to strike, to knock, to divine (by knocking stones or shells together); to arrive at night; to happen; mating of cattle. <br><br>Of this root, 4 forms occur in 11 places in the Qur’an:<br> طاَرِق ṭāriq 2 times; طَرِيق ṭarıq 4 times; طَرِيقةٌ ṭarıqatun 3 times and طَرائِق ṭarāʾiq 2 times.",
+    "mainDefinitionHtml": "طَرِيق ṭarıq [n.] road, way, path <br><br>(46:30)‏يَهْدِي‏ ‏إِلَى‏ ‏الْحَقِّ‏ ‏وَإِلَى طَرِيقٍ ‏مُسْتَقِيمٍ‏ ‏guiding to the Truth and to a straight path.",
+    "mainEntryId": "wdef-ط-ر-ق.طَرِيق",
+    "entries": [
+      {
+        "id": "wdef-ط-ر-ق",
+        "label": "ط-ر-ق",
+        "definitionHtml": "ط/ر/ق   ṭ–r–q road, way, method<br>; to strike, to knock, to divine (by knocking stones or shells together); to arrive at night; to happen; mating of cattle. <br><br>Of this root, 4 forms occur in 11 places in the Qur’an:<br> طاَرِق ṭāriq 2 times; طَرِيق ṭarıq 4 times; طَرِيقةٌ ṭarıqatun 3 times and طَرائِق ṭarāʾiq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ر-ق.طَرِيق",
+        "label": "طَرِيق",
+        "definitionHtml": "طَرِيق ṭarıq [n.] road, way, path <br><br>(46:30)‏يَهْدِي‏ ‏إِلَى‏ ‏الْحَقِّ‏ ‏وَإِلَى طَرِيقٍ ‏مُسْتَقِيمٍ‏ ‏guiding to the Truth and to a straight path.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-ر-ق.طاَرِق",
+        "label": "طاَرِق",
+        "definitionHtml": "طاَرِق ṭāriq [act. part.] one who strikes, one who knocks; one who arrives at night; one who divines <br><br>(86:1–3) وَالسَّمَاءِ‏ ‏وَالطَّارِقِ وَمَا‏ ‏أَدْرَاكَ‏ ‏مَا‏ ‏الطَّارِقُ النَّجْمُ‏ ‏الثَّاقِبُ‏ by the sky and the night-comer!, How will you come to understand what the night-comer is?, The piercing star!; * ‏الطَّارِقُ name of Sura 86, Meccan Sura, so-named because of the reference in verse <br><br><strong>1 </strong>to ‘the Night‐Comer’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ر-ق.طَرِيقةٌ",
+        "label": "طَرِيقةٌ",
+        "definitionHtml": "طَرِيقةٌ ṭarıqatun [n.; pl. طَرائِق ṭarāʾiq] <br><br><strong>1 </strong>path, tract; layer, fold, level <br><br>(23:17) وَلَقَدْ خَلَقْنَا فَوْقَكُمْ سَبْعَ طَرَائِقَ and We created above you seven levels [heavens] [also interpreted as: tracts] <br><br><strong>2 </strong>faction, sect, creed <br><br>(72:11) وَأَنَّا مِنَّا الصَّالِحُونَ وَمِنَّا دُونَ ذَلِكَ كُنَّا طَرَائِقَ قِدَدًا and some of us are righteous and some of us are less so–we are of various sects [also interpreted as: we follow different paths] <br><br><strong>3 </strong>mode of behaviour, line of conduct <br><br>(72:16) وَأَنْ لَوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لأََسْقَيْنَاهُمْ مَاءً غَدَقًا had they taken to the [right] way We would have given them abundant water to drink; *<br><br>(20:104) ‏أَمْثَلُهُمْ‏ ‏طَرِيقَةً‏ the best of them in deeds and/or in conviction <br><br><strong>4 </strong>(in an interpretation of verse 20:63) notable person, leader, dignitary‏‏‏وَيَذْهَبَا‏ ‏بِطَرِيقَتِكُمُ‏ ‏الْمُثْلَى and take away your most excellent body of learned people [who make a shining example for all to follow] [also interpreted as: way of life, your religion, or your skills].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:23.612Z",
+      "refword": "4:168:12",
+      "lexword": "طَرِيقًا"
+    }
+  }
+}

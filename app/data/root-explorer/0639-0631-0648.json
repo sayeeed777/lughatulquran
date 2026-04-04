@@ -1,0 +1,127 @@
+{
+  "root": "عرو",
+  "rootArabic": "عرو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "عُرْوَةٌ",
+      "count": 2
+    },
+    {
+      "form": "اعْتَرَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُرْوَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اعْتَرَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُرْوَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 256,
+      "text": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ <a class=\"highlight-text\">بِٱلْعُرْوَةِ</a> ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "عُرْوَةٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 54,
+      "text": "إِن نَّقُولُ إِلَّا ٱعْتَرَىٰكَ بَعْضُ آلِهَتِنَا بِسُوٓءٍ ۗ قَالَ إِنِّىٓ أُشْهِدُ ٱللَّهَ وَٱشْهَدُوٓا۟ أَنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "highlightedHtml": "إِن نَّقُولُ إِلَّا <a class=\"highlight-text\">ٱعْتَرَىٰكَ</a> بَعْضُ آلِهَتِنَا بِسُوٓءٍ ۗ قَالَ إِنِّىٓ أُشْهِدُ ٱللَّهَ وَٱشْهَدُوٓا۟ أَنِّى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+      "derivedForms": [
+        "اعْتَرَى"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 22,
+      "text": "وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "highlightedHtml": "وَمَن يُسْلِمْ وَجْهَهُۥٓ إِلَى ٱللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ ٱسْتَمْسَكَ <a class=\"highlight-text\">بِٱلْعُرْوَةِ</a> ٱلْوُثْقَىٰ ۗ وَإِلَى ٱللَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "derivedForms": [
+        "عُرْوَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:46.687Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine noun",
+    "derivativeNote": "بِٱلْعُرْوَةِ is in the derivative form: عُرْوَةٌ",
+    "rootDefinitionHtml": "ع/ر/و   ʿ–r–w loop, handle, hold, grip, link, buttonhole and the like; to grip, to seize; to befall, to afflict, to come over; to desert, to let down; extreme coldness; forlorn camels. A degree of overlappping between this root and the root ع/ر/ي ʿ–r–y exists, as might be expected of corresponding و and ي radicals. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> اعْتَرَى ʾiʿtarā 1 time and عُرْوَةٌ ʿurwatun 2 times.",
+    "mainDefinitionHtml": "عُرْوَةٌ ʿurwatun [n.] link, handle, bond, loop <br><br>(31:22) وَمَنْ‏ ‏يُسْلِمْ‏ ‏وَجْهَهُ‏ ‏إِلَى‏ ‏اللَّهِ‏ ‏وَهُوَ‏ ‏مُحْسِنٌ‏ ‏فَقَدِ‏ ‏اسْتَمْسَكَ‏ ‏بِالْعُرْوَةِ‏ ‏الْوُثْقَى whoever surrenders his face [himself] to God while doing good work, has grasped the firmest handhold.",
+    "mainEntryId": "wdef-ع-ر-و.عُرْوَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ر-و",
+        "label": "ع-ر-و",
+        "definitionHtml": "ع/ر/و   ʿ–r–w loop, handle, hold, grip, link, buttonhole and the like; to grip, to seize; to befall, to afflict, to come over; to desert, to let down; extreme coldness; forlorn camels. A degree of overlappping between this root and the root ع/ر/ي ʿ–r–y exists, as might be expected of corresponding و and ي radicals. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> اعْتَرَى ʾiʿtarā 1 time and عُرْوَةٌ ʿurwatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ر-و.عُرْوَةٌ",
+        "label": "عُرْوَةٌ",
+        "definitionHtml": "عُرْوَةٌ ʿurwatun [n.] link, handle, bond, loop <br><br>(31:22) وَمَنْ‏ ‏يُسْلِمْ‏ ‏وَجْهَهُ‏ ‏إِلَى‏ ‏اللَّهِ‏ ‏وَهُوَ‏ ‏مُحْسِنٌ‏ ‏فَقَدِ‏ ‏اسْتَمْسَكَ‏ ‏بِالْعُرْوَةِ‏ ‏الْوُثْقَى whoever surrenders his face [himself] to God while doing good work, has grasped the firmest handhold.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ر-و.اعْتَرَى",
+        "label": "اعْتَرَى",
+        "definitionHtml": "اعْتَرَى ʾiʿtarā [v. VIII trans.] to come over, to visit someone with something, to overcome with, to afflict, to possess <br><br>(11:54) إِنْ‏ ‏نَقُولُ‏ ‏إِلاَّ‏ ‏اعْتَرَاكَ‏ ‏بَعْضُ‏ ‏ءَالِهَتِنَا‏ ‏بِسُوءٍ‏ we say nothing but that some of our gods have visited you with evil.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:17.928Z",
+      "refword": "2:256:17",
+      "lexword": "بِٱلْعُرْوَةِ"
+    }
+  }
+}

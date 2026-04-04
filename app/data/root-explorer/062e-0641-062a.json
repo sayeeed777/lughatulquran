@@ -1,0 +1,127 @@
+{
+  "root": "خفت",
+  "rootArabic": "خفت",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يَتَخَافَتُ",
+      "count": 2
+    },
+    {
+      "form": "تُخَافِتُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُخَافِتُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَخَافَتُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَخَافَتُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 110,
+      "text": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا <a class=\"highlight-text\">تُخَافِتْ</a> بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا",
+      "derivedForms": [
+        "تُخَافِتُ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 103,
+      "text": "يَتَخَٰفَتُونَ بَيْنَهُمْ إِن لَّبِثْتُمْ إِلَّا عَشْرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">يَتَخَٰفَتُونَ</a> بَيْنَهُمْ إِن لَّبِثْتُمْ إِلَّا عَشْرًا",
+      "derivedForms": [
+        "يَتَخَافَتُ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 23,
+      "text": "فَٱنطَلَقُوا۟ وَهُمْ يَتَخَٰفَتُونَ",
+      "highlightedHtml": "فَٱنطَلَقُوا۟ وَهُمْ <a class=\"highlight-text\">يَتَخَٰفَتُونَ</a>",
+      "derivedForms": [
+        "يَتَخَافَتُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:31.766Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form III) imperfect verb, jussive mood",
+    "derivativeNote": "تُخَافِتْ is in the derivative form: تُخَافِتُ",
+    "rootDefinitionHtml": "خ/ف/ت   kh–f–t weakness caused by hunger, to become feeble<br>; to become inaudible, to die down, to become soft, (of voice) to become subdued, to become still, to die suddenly. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تُخَافِتُ tukhāfit 1 time; and يَتَخَافَتُ yatakhāfat 2 times.",
+    "mainDefinitionHtml": "تُخَافِتُ tukhāfit [imperf. of v. III خَافَتَ khāfata, intrans.] to endeavour to muffle one’s voice, to keep one’s voice inaudible <br><br>(17:110) وَلاَ تَجْهَرْ بِصَلاَتِكَ وَلاَ تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَلِكَ سَبِيلا and do not be loud in your prayer, or too quiet, but seek between these [lit. this] a way.",
+    "mainEntryId": "wdef-خ-ف-ت.تُخَافِتُ",
+    "entries": [
+      {
+        "id": "wdef-خ-ف-ت",
+        "label": "خ-ف-ت",
+        "definitionHtml": "خ/ف/ت   kh–f–t weakness caused by hunger, to become feeble<br>; to become inaudible, to die down, to become soft, (of voice) to become subdued, to become still, to die suddenly. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تُخَافِتُ tukhāfit 1 time; and يَتَخَافَتُ yatakhāfat 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ف-ت.تُخَافِتُ",
+        "label": "تُخَافِتُ",
+        "definitionHtml": "تُخَافِتُ tukhāfit [imperf. of v. III خَافَتَ khāfata, intrans.] to endeavour to muffle one’s voice, to keep one’s voice inaudible <br><br>(17:110) وَلاَ تَجْهَرْ بِصَلاَتِكَ وَلاَ تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَلِكَ سَبِيلا and do not be loud in your prayer, or too quiet, but seek between these [lit. this] a way.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ف-ت.يَتَخَافَتُ",
+        "label": "يَتَخَافَتُ",
+        "definitionHtml": "يَتَخَافَتُ yatakhāfat [imperf. of v. VI تَخَافَتَ takhāfata, intrans.] to enjoin quietness on one another, to hold an exchange in low voices, to whisper <br><br>(68:23) فَانْطَلَقُوا وَهُمْ يَتَخَافَتُونَ so they went off, speaking to each other in whispers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:28.234Z",
+      "refword": "17:110:17",
+      "lexword": "تُخَافِتْ"
+    }
+  }
+}

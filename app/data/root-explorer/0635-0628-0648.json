@@ -1,0 +1,115 @@
+{
+  "root": "صبو",
+  "rootArabic": "صبو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "صَبيّاً",
+      "count": 2
+    },
+    {
+      "form": "أَصْبُو",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصْبُو",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَبيّاً",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 33,
+      "text": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى كَيْدَهُنَّ <a class=\"highlight-text\">أَصْبُ</a> إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "أَصْبُو"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 12,
+      "text": "يَٰيَحْيَىٰ خُذِ ٱلْكِتَٰبَ بِقُوَّةٍ بِقُوَّةٍ ۖ وَءَاتَيْنَٰهُ ٱلْحُكْمَ صَبِيًّا",
+      "highlightedHtml": "يَٰيَحْيَىٰ خُذِ ٱلْكِتَٰبَ بِقُوَّةٍ بِقُوَّةٍ ۖ وَءَاتَيْنَٰهُ ٱلْحُكْمَ <a class=\"highlight-text\">صَبِيًّا</a>",
+      "derivedForms": [
+        "صَبيّاً"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 29,
+      "text": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ صَبِيًّا",
+      "highlightedHtml": "فَأَشَارَتْ إِلَيْهِ ۖ قَالُوا۟ كَيْفَ نُكَلِّمُ مَن كَانَ فِى ٱلْمَهْدِ <a class=\"highlight-text\">صَبِيًّا</a>",
+      "derivedForms": [
+        "صَبيّاً"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:39.792Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb, jussive mood",
+    "derivativeNote": "أَصْبُ is in the derivative form: أَصْبُو",
+    "rootDefinitionHtml": "ص/ب/و   ṣ–b–w youth, youthfulness, youthful propensity. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> أَصْبُو ʾaṣbū 1 time and صبيّاًً sabiyyan 2 times.",
+    "mainDefinitionHtml": "أَصْبُو ʾaṣbū [imperf. of v. صبا ṣabā, intrans.] to feel sensual desire towards, to yearn for, to incline towards, to lust for <br><br>(12:33) وَإِلاَّ تَصْرِفْ عَنِّي كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُنْ مِنَ الْجَاهِلِينَ but if you do not avert from me their guile, I shall incline to them and become one of the ignorant.",
+    "mainEntryId": "wdef-ص-ب-و.أَصْبُو",
+    "entries": [
+      {
+        "id": "wdef-ص-ب-و",
+        "label": "ص-ب-و",
+        "definitionHtml": "ص/ب/و   ṣ–b–w youth, youthfulness, youthful propensity. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> أَصْبُو ʾaṣbū 1 time and صبيّاًً sabiyyan 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ب-و.أَصْبُو",
+        "label": "أَصْبُو",
+        "definitionHtml": "أَصْبُو ʾaṣbū [imperf. of v. صبا ṣabā, intrans.] to feel sensual desire towards, to yearn for, to incline towards, to lust for <br><br>(12:33) وَإِلاَّ تَصْرِفْ عَنِّي كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُنْ مِنَ الْجَاهِلِينَ but if you do not avert from me their guile, I shall incline to them and become one of the ignorant.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ب-و.صَبيّاً",
+        "label": "صَبيّاً",
+        "definitionHtml": "صَبيّاً ṣabiyyan [n./quasi-act. part.] <br><br><strong>1 </strong>a youth; youthful <br><br>(19:12) يَايَحْيَى خُذِ الْكِتَابَ بِقُوَّةٍ وَءَاتَيْنَاهُ الْحُكْمَ صَبِيًّا ‘John, hold on to the Scripture resolutely’, We granted him wisdom [also interpreted as: good judgement or prophethood] while he was still a youth <br><br><strong>2 </strong>infant <br><br>(19:29) فَأَشَارَتْ إِلَيْهِ قَالُوا كَيْفَ نُكَلِّمُ مَنْ كَانَ فِى الْمَهْدِ صَبِيًّا she pointed towards him, but they said, ‘How can we converse with one who is [still] in the cradle, a [mere] baby boy?’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:21.189Z",
+      "refword": "12:33:13",
+      "lexword": "أَصْبُ"
+    }
+  }
+}

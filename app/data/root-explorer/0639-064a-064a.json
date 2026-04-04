@@ -1,0 +1,95 @@
+{
+  "root": "عيي",
+  "rootArabic": "عيي",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "عَيِىَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَيِىَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَيِىَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 46,
+      "ayah": 33,
+      "text": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَلَمْ يَعْىَ بِخَلْقِهِنَّ بِقَٰدِرٍ عَلَىٰٓ أَن يُحْۦِىَ ٱلْمَوْتَىٰ ۚ بَلَىٰٓ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ أَنَّ ٱللَّهَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَلَمْ <a class=\"highlight-text\">يَعْىَ</a> بِخَلْقِهِنَّ بِقَٰدِرٍ عَلَىٰٓ أَن يُحْۦِىَ ٱلْمَوْتَىٰ ۚ بَلَىٰٓ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "عَيِىَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 15,
+      "text": "أَفَعَيِينَا بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَفَعَيِينَا</a> بِٱلْخَلْقِ ٱلْأَوَّلِ ۚ بَلْ هُمْ فِى لَبْسٍ مِّنْ خَلْقٍ جَدِيدٍ",
+      "derivedForms": [
+        "عَيِىَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:45.123Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَعْىَ is in the derivative form: عَيِىَ",
+    "rootDefinitionHtml": "ع/ي/ي ʿ–y–y incurable disease, fatigue, to be ineffectual, to lack the ability or the strength to complete a task; riddle, inability to express oneself, to become dumbfounded. Of this root, only عَيِىَ ʿayiya occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "عَيِىَ ʿayiya ā [v. intrans.] to be incapable of doing something, to be incapable of acting in a certain way <br><br>(50:15) أَفَعَيِينَا‏ ‏بِالْخَلْقِ‏ ‏الأَوَّلِ‏ ‏ were We incapable of the first creation?",
+    "mainEntryId": "wdef-ع-ي-ي.عَيِىَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ي-ي",
+        "label": "ع-ي-ي",
+        "definitionHtml": "ع/ي/ي ʿ–y–y incurable disease, fatigue, to be ineffectual, to lack the ability or the strength to complete a task; riddle, inability to express oneself, to become dumbfounded. Of this root, only عَيِىَ ʿayiya occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ي-ي.عَيِىَ",
+        "label": "عَيِىَ",
+        "definitionHtml": "عَيِىَ ʿayiya ā [v. intrans.] to be incapable of doing something, to be incapable of acting in a certain way <br><br>(50:15) أَفَعَيِينَا‏ ‏بِالْخَلْقِ‏ ‏الأَوَّلِ‏ ‏ were We incapable of the first creation?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:08.276Z",
+      "refword": "46:33:10",
+      "lexword": "يَعْىَ"
+    }
+  }
+}

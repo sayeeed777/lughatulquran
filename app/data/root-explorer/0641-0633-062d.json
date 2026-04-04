@@ -1,0 +1,92 @@
+{
+  "root": "فسح",
+  "rootArabic": "فسح",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَفْسَح",
+      "count": 2
+    },
+    {
+      "form": "تَفَسَّح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يَفْسَح",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "تَفَسَّح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 58,
+      "ayah": 11,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قِيلَ لَكُمْ تَفَسَّحُوا۟ فِى ٱلْمَجَٰلِسِ فَٱفْسَحُوا۟ يَفْسَحِ ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قِيلَ لَكُمْ <a class=\"highlight-text\">تَفَسَّحُوا۟</a> فِى ٱلْمَجَٰلِسِ <a class=\"highlight-text\">فَٱفْسَحُوا۟</a> <a class=\"highlight-text\">يَفْسَحِ</a> ٱللَّهُ لَكُمْ ۖ وَإِذَا قِيلَ ٱنشُزُوا۟ فَٱنشُزُوا۟ يَرْفَعِ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ دَرَجَٰتٍ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+      "derivedForms": [
+        "تَفَسَّح",
+        "يَفْسَح",
+        "يَفْسَح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:50.335Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form V) imperative verb",
+    "derivativeNote": "تَفَسَّحُوا۟ is in the derivative form: تَفَسَّح",
+    "rootDefinitionHtml": "ف/س/ح   f–s–ḥ to be wide, to be spacious, to be roomy, to make room, clear open space. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَفْسَح yafsaḥ 2 times and تَفَسَّح tafassaḥ 1 time.",
+    "mainDefinitionHtml": "تَفَسَّح tafassaḥ [imper. of v. V, intrans.] make room for one another <br><br>(58:11)‏ ‏قِيلَ‏ ‏لَكُمْ‏ ‏تَفَسَّحُوا‏ ‏فِى‏ ‏الْمَجَالِسِ‏ ‏فَافْسَحُوا يَاأَيُّهَا‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏إِذَا you who believe, if it is said to you, ‘Make room for one another!’ in assemblies, then make room.",
+    "mainEntryId": "wdef-ف-س-ح.تَفَسَّح",
+    "entries": [
+      {
+        "id": "wdef-ف-س-ح",
+        "label": "ف-س-ح",
+        "definitionHtml": "ف/س/ح   f–s–ḥ to be wide, to be spacious, to be roomy, to make room, clear open space. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَفْسَح yafsaḥ 2 times and تَفَسَّح tafassaḥ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-س-ح.تَفَسَّح",
+        "label": "تَفَسَّح",
+        "definitionHtml": "تَفَسَّح tafassaḥ [imper. of v. V, intrans.] make room for one another <br><br>(58:11)‏ ‏قِيلَ‏ ‏لَكُمْ‏ ‏تَفَسَّحُوا‏ ‏فِى‏ ‏الْمَجَالِسِ‏ ‏فَافْسَحُوا يَاأَيُّهَا‏ ‏الَّذِينَ‏ ‏ءَامَنُوا‏ ‏إِذَا you who believe, if it is said to you, ‘Make room for one another!’ in assemblies, then make room.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-س-ح.يَفْسَح",
+        "label": "يَفْسَح",
+        "definitionHtml": "يَفْسَح yafsaḥ [imperf. of v. trans.] to make room, to make space <br><br>(58:11) ‏‏إِذَا قِيلَ لَكُمْ تَفَسَّحُوا فِى الْمَجَالِسِ فَافْسَحُوا يَفْسَحِ اللَّهُ لَكُم if it is said to you, ‘Make room for one another!’ in assemblies, then make room, and God will make room for you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:21.709Z",
+      "refword": "58:11:7",
+      "lexword": "تَفَسَّحُوا۟"
+    }
+  }
+}

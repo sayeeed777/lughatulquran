@@ -1,0 +1,144 @@
+{
+  "root": "زهق",
+  "rootArabic": "زهق",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "زَهَقَ",
+      "count": 4
+    },
+    {
+      "form": "زاهِق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زَهَقَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زَهَقَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زاهِق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 55,
+      "text": "فَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُعَذِّبَهُم بِهَا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَتَزْهَقَ أَنفُسُهُمْ وَهُمْ كَٰفِرُونَ",
+      "highlightedHtml": "فَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُعَذِّبَهُم بِهَا فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا <a class=\"highlight-text\">وَتَزْهَقَ</a> أَنفُسُهُمْ وَهُمْ كَٰفِرُونَ",
+      "derivedForms": [
+        "زَهَقَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 85,
+      "text": "وَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَأَوْلَٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ أَن يُعَذِّبَهُم بِهَا فِى ٱلدُّنْيَا وَتَزْهَقَ أَنفُسُهُمْ وَهُمْ كَٰفِرُونَ",
+      "highlightedHtml": "وَلَا تُعْجِبْكَ أَمْوَٰلُهُمْ وَأَوْلَٰدُهُمْ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ أَن يُعَذِّبَهُم بِهَا فِى ٱلدُّنْيَا <a class=\"highlight-text\">وَتَزْهَقَ</a> أَنفُسُهُمْ وَهُمْ كَٰفِرُونَ",
+      "derivedForms": [
+        "زَهَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 81,
+      "text": "وَقُلْ جَآءَ ٱلْحَقُّ وَزَهَقَ ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ زَهُوقًا",
+      "highlightedHtml": "وَقُلْ جَآءَ ٱلْحَقُّ <a class=\"highlight-text\">وَزَهَقَ</a> ٱلْبَٰطِلُ ۚ إِنَّ ٱلْبَٰطِلَ كَانَ <a class=\"highlight-text\">زَهُوقًا</a>",
+      "derivedForms": [
+        "زَهَقَ",
+        "زَهَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 18,
+      "text": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
+      "highlightedHtml": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ <a class=\"highlight-text\">زَاهِقٌ</a> ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
+      "derivedForms": [
+        "زاهِق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:15.506Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "وَتَزْهَقَ is in the derivative form: زَهَقَ",
+    "rootDefinitionHtml": "ز/ﻫ/ق   z–h–q to expire, to run out, to pass away<br>; to be fat; to be emaciated. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> زَهَقَ zahaqa 3 times; زاهِق zāhiq 1 time and زَهوق zahūq 1 time.",
+    "mainDefinitionHtml": "زَهَقَ zahaqa a [v. intrans.] <br><br><strong>1 </strong>to pass away, to die, to expire <br><br>(9:85) وَتَزْهَقَ أَنْفُسُهُمْ وَهُمْ كَافِرُونَ and their souls depart while they disbelieve <br><br><strong>2 </strong>to vanish, to disappear, to meet defeat <br><br>(17:81) وَقُلْ جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ and say, ‘The truth has come, and falsehood has vanished.’",
+    "mainEntryId": "wdef-ز-ﻫ-ق.زَهَقَ",
+    "entries": [
+      {
+        "id": "wdef-ز-ﻫ-ق",
+        "label": "ز-ﻫ-ق",
+        "definitionHtml": "ز/ﻫ/ق   z–h–q to expire, to run out, to pass away<br>; to be fat; to be emaciated. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> زَهَقَ zahaqa 3 times; زاهِق zāhiq 1 time and زَهوق zahūq 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ﻫ-ق.زَهَقَ",
+        "label": "زَهَقَ",
+        "definitionHtml": "زَهَقَ zahaqa a [v. intrans.] <br><br><strong>1 </strong>to pass away, to die, to expire <br><br>(9:85) وَتَزْهَقَ أَنْفُسُهُمْ وَهُمْ كَافِرُونَ and their souls depart while they disbelieve <br><br><strong>2 </strong>to vanish, to disappear, to meet defeat <br><br>(17:81) وَقُلْ جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ and say, ‘The truth has come, and falsehood has vanished.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ﻫ-ق.زاهِق",
+        "label": "زاهِق",
+        "definitionHtml": "زاهِق zāhiq [act. part.] one who vanishes, dies, expires <br><br>(21:18) بَلْ نَقْذِفُ بِالْحَقِّ عَلَى الْبَاطِلِ فَيَدْمَغُهُ فَإِذَا هُوَ زَاهِقٌ no! We hurl the truth against falsehood, and it triumphs [lit. breaks its head] and–lo, and behold–it [falsehood] expires!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ﻫ-ق.زَهوق",
+        "label": "زَهوق",
+        "definitionHtml": "زَهوق zahūq [intens. act. part.] one who is given, or much susceptible to vanishing <br><br>(17:81) وَقُلْ جَاءَ الْحَقُّ وَزَهَقَ الْبَاطِلُ إِنَّ الْبَاطِلَ كَانَ زَهُوقًا and say, ‘The truth has come, and falsehood has vanished–falsehood is bound to vanish.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:39.027Z",
+      "refword": "9:55:14",
+      "lexword": "وَتَزْهَقَ"
+    }
+  }
+}

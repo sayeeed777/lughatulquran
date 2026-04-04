@@ -1,0 +1,335 @@
+{
+  "root": "بدا",
+  "rootArabic": "بدا",
+  "stats": {
+    "totalOccurrences": 15,
+    "derivativeCount": 2,
+    "surahCount": 11,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "بَدَأَ",
+      "count": 12
+    },
+    {
+      "form": "يُبْدِئُ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 3,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "يُبْدِئُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَدَأَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُبْدِئُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُبْدِئُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 29,
+      "text": "قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا بَدَأَكُمْ تَعُودُونَ",
+      "highlightedHtml": "قُلْ أَمَرَ رَبِّى بِٱلْقِسْطِ ۖ وَأَقِيمُوا۟ وُجُوهَكُمْ عِندَ كُلِّ مَسْجِدٍ وَٱدْعُوهُ مُخْلِصِينَ لَهُ ٱلدِّينَ ۚ كَمَا <a class=\"highlight-text\">بَدَأَكُمْ</a> تَعُودُونَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 13,
+      "text": "أَلَا تُقَٰتِلُونَ قَوْمًا نَّكَثُوٓا۟ أَيْمَٰنَهُمْ وَهَمُّوا۟ بِإِخْرَاجِ ٱلرَّسُولِ وَهُم بَدَءُوكُمْ أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "أَلَا تُقَٰتِلُونَ قَوْمًا نَّكَثُوٓا۟ أَيْمَٰنَهُمْ وَهَمُّوا۟ بِإِخْرَاجِ ٱلرَّسُولِ وَهُم <a class=\"highlight-text\">بَدَءُوكُمْ</a> أَوَّلَ مَرَّةٍ ۚ أَتَخْشَوْنَهُمْ ۚ فَٱللَّهُ أَحَقُّ أَن تَخْشَوْهُ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 4,
+      "text": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "highlightedHtml": "إِلَيْهِ مَرْجِعُكُمْ جَمِيعًا ۖ وَعْدَ ٱللَّهِ حَقًّا ۚ إِنَّهُۥ <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ لِيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ بِٱلْقِسْطِ ۚ وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 34,
+      "text": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "highlightedHtml": "قُلْ هَلْ مِن شُرَكَآئِكُم مَّن <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۚ قُلِ ٱللَّهُ <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ۖ فَأَنَّىٰ تُؤْفَكُونَ",
+      "derivedForms": [
+        "بَدَأَ",
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 76,
+      "text": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَبَدَأَ</a> بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 104,
+      "text": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا بَدَأْنَآ أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "highlightedHtml": "يَوْمَ نَطْوِى ٱلسَّمَآءَ كَطَىِّ ٱلسِّجِلِّ لِلْكُتُبِ ۚ كَمَا <a class=\"highlight-text\">بَدَأْنَآ</a> أَوَّلَ خَلْقٍ نُّعِيدُهُۥ ۚ وَعْدًا عَلَيْنَآ ۚ إِنَّا كُنَّا فَٰعِلِينَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 64,
+      "text": "أَمَّن يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَمَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "أَمَّن <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَمَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 19,
+      "text": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ كَيْفَ <a class=\"highlight-text\">يُبْدِئُ</a> ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+      "derivedForms": [
+        "يُبْدِئُ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 20,
+      "text": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ <a class=\"highlight-text\">بَدَأَ</a> ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 11,
+      "text": "ٱللَّهُ يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "ٱللَّهُ <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 27,
+      "text": "وَهُوَ ٱلَّذِى يَبْدَؤُا۟ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ ٱلْمَثَلُ ٱلْأَعْلَىٰ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">يَبْدَؤُا۟</a> ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥ وَهُوَ أَهْوَنُ عَلَيْهِ ۚ وَلَهُ ٱلْمَثَلُ ٱلْأَعْلَىٰ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 7,
+      "text": "ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ خَلَقَهُۥ ۖ وَبَدَأَ خَلْقَ ٱلْإِنسَٰنِ مِن طِينٍ",
+      "highlightedHtml": "ٱلَّذِىٓ أَحْسَنَ كُلَّ شَىْءٍ خَلَقَهُۥ ۖ <a class=\"highlight-text\">وَبَدَأَ</a> خَلْقَ ٱلْإِنسَٰنِ مِن طِينٍ",
+      "derivedForms": [
+        "بَدَأَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 49,
+      "text": "قُلْ جَآءَ ٱلْحَقُّ وَمَا يُبْدِئُ ٱلْبَٰطِلُ وَمَا يُعِيدُ",
+      "highlightedHtml": "قُلْ جَآءَ ٱلْحَقُّ وَمَا <a class=\"highlight-text\">يُبْدِئُ</a> ٱلْبَٰطِلُ وَمَا يُعِيدُ",
+      "derivedForms": [
+        "يُبْدِئُ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 13,
+      "text": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
+      "highlightedHtml": "إِنَّهُۥ هُوَ <a class=\"highlight-text\">يُبْدِئُ</a> وَيُعِيدُ",
+      "derivedForms": [
+        "يُبْدِئُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:16.241Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "بَدَأَكُمْ is in the derivative form: بَدَأَ",
+    "rootDefinitionHtml": "ب/د/أ   b–d–ʾ to begin, to initiate, the beginning, the lead<br>; chief, exceptional person. <br><br>Of this root, 3 forms occur 16 times in the Qur’an:<br> بَدَأ badaʾa 12 times; يُبْدِئُ yubdiʾ 3 times and بَادِئٌ bādiʾonce.",
+    "mainDefinitionHtml": "بَدَأَ badaʾa a I [v. intrans. with prep. بـ] to start with or by, to begin with <br><br>(12:76) فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيه so, he began with their packs, before the pack of his brother II [trans.] <br><br><strong>1 </strong>to initiate, to innovate, to do for the first time <br><br>(10:34) هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ can any of your partner‐gods originate creation?, then bring it back to life again? <br><br><strong>2 </strong>[with prep. بـ] to be first in doing something to someone <br><br>(9:13) وَهُمْ بَدَءُوكُمْ أَوَّلَ مَرَّةٍ and they were the ones to [attack] you first.",
+    "mainEntryId": "wdef-ب-د-أ.بَدَأَ",
+    "entries": [
+      {
+        "id": "wdef-ب-د-أ",
+        "label": "ب-د-أ",
+        "definitionHtml": "ب/د/أ   b–d–ʾ to begin, to initiate, the beginning, the lead<br>; chief, exceptional person. <br><br>Of this root, 3 forms occur 16 times in the Qur’an:<br> بَدَأ badaʾa 12 times; يُبْدِئُ yubdiʾ 3 times and بَادِئٌ bādiʾonce.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-د-أ.بَدَأَ",
+        "label": "بَدَأَ",
+        "definitionHtml": "بَدَأَ badaʾa a I [v. intrans. with prep. بـ] to start with or by, to begin with <br><br>(12:76) فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيه so, he began with their packs, before the pack of his brother II [trans.] <br><br><strong>1 </strong>to initiate, to innovate, to do for the first time <br><br>(10:34) هَلْ مِنْ شُرَكَائِكُمْ مَنْ يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ can any of your partner‐gods originate creation?, then bring it back to life again? <br><br><strong>2 </strong>[with prep. بـ] to be first in doing something to someone <br><br>(9:13) وَهُمْ بَدَءُوكُمْ أَوَّلَ مَرَّةٍ and they were the ones to [attack] you first.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-د-أ.بَادِئٌ",
+        "label": "بَادِئٌ",
+        "definitionHtml": "بَادِئٌ bādiʾ (in one reading بَادِي bādı) [act. part.] one that begins, comes first *<br><br>(11:27) بَادِئُ الرَّأْيِ without thinking, on the spur of the moment, without reflection [lit. the first opinion that occurs to one].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-د-أ.يُبْدِئُ",
+        "label": "يُبْدِئُ",
+        "definitionHtml": "يُبْدِئُ yubdiʾ [imperf. of v. IV أَبْدَأَ ʾabdaʾa, trans.] to initiate, to start something <br><br>(29:19) أَوَلَمْ يَرَوْا كَيْفَ يُبْدِئُ اللَّهُ الْخَلْقَ ثُمَّ يُعِيدُهُ do they not see how God initiates creation and then reproduces it; *<br><br>(34:49) جَاءَ الْحَقُّ وَمَا يُبْدِئُ الْبَاطِلُ وَمَا يُعِيدُ the truth has come and falsehood is dumbfounded (or, vanquished) [lit. neither begins nor repeats [an utterance]].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:25.740Z",
+      "refword": "7:29:15",
+      "lexword": "بَدَأَكُمْ"
+    }
+  }
+}

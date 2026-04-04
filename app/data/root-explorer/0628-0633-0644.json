@@ -1,0 +1,75 @@
+{
+  "root": "بسل",
+  "rootArabic": "بسل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أُبْسِلَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أُبْسِلَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 70,
+      "text": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن تُبْسَلَ نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ أُبْسِلُوا۟ بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "highlightedHtml": "وَذَرِ ٱلَّذِينَ ٱتَّخَذُوا۟ دِينَهُمْ لَعِبًا وَلَهْوًا وَغَرَّتْهُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ وَذَكِّرْ بِهِۦٓ أَن <a class=\"highlight-text\">تُبْسَلَ</a> نَفْسٌۢ بِمَا كَسَبَتْ لَيْسَ لَهَا مِن دُونِ ٱللَّهِ وَلِىٌّ وَلَا شَفِيعٌ وَإِن تَعْدِلْ كُلَّ عَدْلٍ لَّا يُؤْخَذْ مِنْهَآ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ <a class=\"highlight-text\">أُبْسِلُوا۟</a> بِمَا كَسَبُوا۟ ۖ لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ وَعَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْفُرُونَ",
+      "derivedForms": [
+        "أُبْسِلَ",
+        "أُبْسِلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:36.671Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form IV) passive imperfect verb, subjunctive mood",
+    "derivativeNote": "تُبْسَلَ is in the derivative form: أُبْسِلَ",
+    "rootDefinitionHtml": "ب/س/ل   b–s–l hardship; ugly countenance; to be reckless, to dare death, to fight fiercely; to be made responsible for one’s bad deeds; imprisoning; courage. Of this root, أُبْسِلَ ʾubsila occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "أُبْسِلَ ʾubsila [pass. v. IV] to be given over to the consequences of the bad deeds committed, to be held responsible for one’s bad deeds, to be damned <br><br>(6:70) وَذَكِّرْ بِهِ أَنْ تُبْسَلَ نَفْسٌ بِمَا كَسَبَتْ but continue to remind with it [the Qur’an], lest any soul be damned for what it has done.",
+    "mainEntryId": "wdef-ب-س-ل.أُبْسِلَ",
+    "entries": [
+      {
+        "id": "wdef-ب-س-ل",
+        "label": "ب-س-ل",
+        "definitionHtml": "ب/س/ل   b–s–l hardship; ugly countenance; to be reckless, to dare death, to fight fiercely; to be made responsible for one’s bad deeds; imprisoning; courage. Of this root, أُبْسِلَ ʾubsila occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-س-ل.أُبْسِلَ",
+        "label": "أُبْسِلَ",
+        "definitionHtml": "أُبْسِلَ ʾubsila [pass. v. IV] to be given over to the consequences of the bad deeds committed, to be held responsible for one’s bad deeds, to be damned <br><br>(6:70) وَذَكِّرْ بِهِ أَنْ تُبْسَلَ نَفْسٌ بِمَا كَسَبَتْ but continue to remind with it [the Qur’an], lest any soul be damned for what it has done.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:08.182Z",
+      "refword": "6:70:13",
+      "lexword": "تُبْسَلَ"
+    }
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "root": "لين",
+  "rootArabic": "لين",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "لانَ",
+      "count": 2
+    },
+    {
+      "form": "ألانَ",
+      "count": 1
+    },
+    {
+      "form": "لَيِّن",
+      "count": 1
+    },
+    {
+      "form": "لِيْنَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَيِّن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ألانَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لِيْنَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 159,
+      "text": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ لِنتَ لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "highlightedHtml": "فَبِمَا رَحْمَةٍ مِّنَ ٱللَّهِ <a class=\"highlight-text\">لِنتَ</a> لَهُمْ ۖ وَلَوْ كُنتَ فَظًّا غَلِيظَ ٱلْقَلْبِ لَٱنفَضُّوا۟ مِنْ حَوْلِكَ ۖ فَٱعْفُ عَنْهُمْ وَٱسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِى ٱلْأَمْرِ ۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى ٱللَّهِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُتَوَكِّلِينَ",
+      "derivedForms": [
+        "لانَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 44,
+      "text": "فَقُولَا لَهُۥ قَوْلًا لَّيِّنًا لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
+      "highlightedHtml": "فَقُولَا لَهُۥ قَوْلًا <a class=\"highlight-text\">لَّيِّنًا</a> لَّعَلَّهُۥ يَتَذَكَّرُ أَوْ يَخْشَىٰ",
+      "derivedForms": [
+        "لَيِّن"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 10,
+      "text": "وَلَقَدْ آتَيْنَا دَاوُۥدَ مِنَّا فَضْلًا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا دَاوُۥدَ مِنَّا فَضْلًا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ <a class=\"highlight-text\">وَأَلَنَّا</a> لَهُ ٱلْحَدِيدَ",
+      "derivedForms": [
+        "ألانَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 23,
+      "text": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًا مُّتَشَٰبِهًا مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "highlightedHtml": "ٱللَّهُ نَزَّلَ أَحْسَنَ ٱلْحَدِيثِ كِتَٰبًا مُّتَشَٰبِهًا مَّثَانِىَ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ تَقْشَعِرُّ مِنْهُ جُلُودُ ٱلَّذِينَ يَخْشَوْنَ رَبَّهُمْ ثُمَّ <a class=\"highlight-text\">تَلِينُ</a> جُلُودُهُمْ وَقُلُوبُهُمْ إِلَىٰ ذِكْرِ ٱللَّهِ ۚ ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ ۚ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "derivedForms": [
+        "لانَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 5,
+      "text": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ أُصُولِهَا فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "مَا قَطَعْتُم مِّن <a class=\"highlight-text\">لِّينَةٍ</a> أَوْ تَرَكْتُمُوهَا قَآئِمَةً عَلَىٰٓ أُصُولِهَا فَبِإِذْنِ ٱللَّهِ وَلِيُخْزِىَ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "لِيْنَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:59.003Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular passive perfect verb",
+    "derivativeNote": "لِنتَ is in the derivative form: لانَ",
+    "rootDefinitionHtml": "ل/ي/ن   l–y–n to be soft, to be tender, to be mild<br>; to be amiable, to be lenient, to relax, to become at ease; to be affluent, ease of living; kind of palm tree. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> لان lāna 2 times, ألانَ ʾalāna 1 time; لِيْنَةٌ lınatun 1 time andلَيِّن layyin 1 time.",
+    "mainDefinitionHtml": "لانَ lāna i [v. intrans.] to soften up, to become tender, to relax <br><br>(39:23) ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَى ذِكْرِ اللَّهِ then their skins and their hearts soften to the words of God.",
+    "mainEntryId": "wdef-ل-ي-ن.لانَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ي-ن",
+        "label": "ل-ي-ن",
+        "definitionHtml": "ل/ي/ن   l–y–n to be soft, to be tender, to be mild<br>; to be amiable, to be lenient, to relax, to become at ease; to be affluent, ease of living; kind of palm tree. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> لان lāna 2 times, ألانَ ʾalāna 1 time; لِيْنَةٌ lınatun 1 time andلَيِّن layyin 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ي-ن.لانَ",
+        "label": "لانَ",
+        "definitionHtml": "لانَ lāna i [v. intrans.] to soften up, to become tender, to relax <br><br>(39:23) ثُمَّ تَلِينُ جُلُودُهُمْ وَقُلُوبُهُمْ إِلَى ذِكْرِ اللَّهِ then their skins and their hearts soften to the words of God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ي-ن.لَيِّن",
+        "label": "لَيِّن",
+        "definitionHtml": "لَيِّن layyin [quasi‐act. part.] soft, pliable; gentle, kind <br><br>(20:44) فَقُولاَ‏ ‏لَهُ‏ ‏قَوْلا‏ ‏لَيِّنًا‏ ‏‏ so speak to him a gentle word.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ي-ن.ألانَ",
+        "label": "ألانَ",
+        "definitionHtml": "ألانَ ʾalāna [v. IV, trans.] to cause to become soft, pliable <br><br>(34:10)‏وَأَلَنَّا‏ ‏لَهُ‏ ‏الْحَدِيدَ ‏ ‏and We softened for him iron.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ي-ن.لِيْنَةٌ",
+        "label": "لِيْنَةٌ",
+        "definitionHtml": "لِيْنَةٌ lınatun [n.] palm tree <br><br>(59:5) مَا‏ ‏قَطَعْتُمْ‏ ‏مِنْ‏ ‏لِينَةٍ‏ ‏أَوْ تَرَكْتُمُوهَا‏ ‏قَائِمَةً‏ ‏عَلَى‏ ‏أُصُولِهَا‏ ‏فَبِإِذْنِ‏ ‏اللَّهِ‏‏ ‏whatever palm trees you have cut down or left standing on their trunks–[was done] by God’s leave.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:17.514Z",
+      "refword": "3:159:5",
+      "lexword": "لِنتَ"
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "root": "ركض",
+  "rootArabic": "ركض",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يَرْكُضُ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَرْكُضُ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْكُضُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 12,
+      "text": "فَلَمَّآ أَحَسُّوا۟ بَأْسَنَآ إِذَا هُم مِّنْهَا يَرْكُضُونَ",
+      "highlightedHtml": "فَلَمَّآ أَحَسُّوا۟ بَأْسَنَآ إِذَا هُم مِّنْهَا <a class=\"highlight-text\">يَرْكُضُونَ</a>",
+      "derivedForms": [
+        "يَرْكُضُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 13,
+      "text": "لَا تَرْكُضُوا۟ وَٱرْجِعُوٓا۟ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">تَرْكُضُوا۟</a> وَٱرْجِعُوٓا۟ إِلَىٰ مَآ أُتْرِفْتُمْ فِيهِ وَمَسَٰكِنِكُمْ لَعَلَّكُمْ تُسْـَٔلُونَ",
+      "derivedForms": [
+        "يَرْكُضُ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 42,
+      "text": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌ بَارِدٌ وَشَرَابٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱرْكُضْ</a> بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌ بَارِدٌ وَشَرَابٌ",
+      "derivedForms": [
+        "يَرْكُضُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:42.095Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَرْكُضُونَ is in the derivative form: يَرْكُضُ",
+    "rootDefinitionHtml": "ر/ك/ض r–k–ḍ to beat, to hit with legs or feet; the sides of an animal, to urge an animal to run by beating its sides with one’s legs; (of birds) to beat wings in flight, to beat the ground with one’s feet, to run fast, to run away; to quiver. Of this root, يَرْكُضُ yarkuḍ occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَرْكُضُ yarkuḍ [imperf. of v. رَكَضَ rakaḍa, intrans.] <br><br><strong>1 </strong>to beat with one’s feet, to kick, to stamp on the ground <br><br>(38:42) ارْكُضْ بِرِجْلِكَ هَذَا مُغْتَسَلٌ بَارِدٌ وَشَرَابٌ stamp with your foot!, this is cool [water] for bathing and drinking <br><br><strong>2 </strong>to run away, to escape, to take flight <br><br>(21:12) فَلَمَّا أَحَسُّوا بَأْسَنَا إِذَا هُمْ مِنْهَا يَرْكُضُونَ when they felt Our might [coming upon them], how they ran away from it!",
+    "mainEntryId": "wdef-ر-ك-ض.يَرْكُضُ",
+    "entries": [
+      {
+        "id": "wdef-ر-ك-ض",
+        "label": "ر-ك-ض",
+        "definitionHtml": "ر/ك/ض r–k–ḍ to beat, to hit with legs or feet; the sides of an animal, to urge an animal to run by beating its sides with one’s legs; (of birds) to beat wings in flight, to beat the ground with one’s feet, to run fast, to run away; to quiver. Of this root, يَرْكُضُ yarkuḍ occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-ض.يَرْكُضُ",
+        "label": "يَرْكُضُ",
+        "definitionHtml": "يَرْكُضُ yarkuḍ [imperf. of v. رَكَضَ rakaḍa, intrans.] <br><br><strong>1 </strong>to beat with one’s feet, to kick, to stamp on the ground <br><br>(38:42) ارْكُضْ بِرِجْلِكَ هَذَا مُغْتَسَلٌ بَارِدٌ وَشَرَابٌ stamp with your foot!, this is cool [water] for bathing and drinking <br><br><strong>2 </strong>to run away, to escape, to take flight <br><br>(21:12) فَلَمَّا أَحَسُّوا بَأْسَنَا إِذَا هُمْ مِنْهَا يَرْكُضُونَ when they felt Our might [coming upon them], how they ran away from it!",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:31.577Z",
+      "refword": "21:12:7",
+      "lexword": "يَرْكُضُونَ"
+    }
+  }
+}

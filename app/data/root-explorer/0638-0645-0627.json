@@ -1,0 +1,138 @@
+{
+  "root": "ظما",
+  "rootArabic": "ظما",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَظْمَأ",
+      "count": 1
+    },
+    {
+      "form": "ظَمأ",
+      "count": 1
+    },
+    {
+      "form": "ظَمآن",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَمأ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَظْمَأ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَمآن",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 120,
+      "text": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ <a class=\"highlight-text\">ظَمَأٌ</a> وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "ظَمأ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 119,
+      "text": "وَأَنَّكَ لَا تَظْمَؤُا۟ فِيهَا وَلَا تَضْحَىٰ",
+      "highlightedHtml": "وَأَنَّكَ لَا <a class=\"highlight-text\">تَظْمَؤُا۟</a> فِيهَا وَلَا تَضْحَىٰ",
+      "derivedForms": [
+        "تَظْمَأ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 39,
+      "text": "وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ كَسَرَابٍۭ بِقِيعَةٍ يَحْسَبُهُ ٱلظَّمْـَٔانُ مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
+      "highlightedHtml": "وَٱلَّذِينَ كَفَرُوٓا۟ أَعْمَٰلُهُمْ كَسَرَابٍۭ بِقِيعَةٍ يَحْسَبُهُ <a class=\"highlight-text\">ٱلظَّمْـَٔانُ</a> مَآءً حَتَّىٰٓ إِذَا جَآءَهُۥ لَمْ يَجِدْهُ شَيْـًٔا وَوَجَدَ ٱللَّهَ عِندَهُۥ فَوَفَّىٰهُ حِسَابَهُۥ ۗ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ",
+      "derivedForms": [
+        "ظَمآن"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:14.289Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite noun",
+    "derivativeNote": "ظَمَأٌ is in the derivative form: ظَمأ",
+    "rootDefinitionHtml": "ظ/م/أ   ẓ–m–ʾ thirst, to be thirsty, to cause to be thirsty<br>; span of time, to be mean, to be unjust. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> تَظْمَأ taẓmaʾ; ظََمَأ ẓamaʾ and ظََمْآن ẓamʾān.",
+    "mainDefinitionHtml": "ظَمأ ẓamaʾ [n.] thirst <br><br>(9:120) لاَ يُصِيبُهُمْ ظَمَأٌ وَلاَ نَصَبٌ they do not suffer any thirst or weariness.",
+    "mainEntryId": "wdef-ظ-م-أ.ظَمأ",
+    "entries": [
+      {
+        "id": "wdef-ظ-م-أ",
+        "label": "ظ-م-أ",
+        "definitionHtml": "ظ/م/أ   ẓ–m–ʾ thirst, to be thirsty, to cause to be thirsty<br>; span of time, to be mean, to be unjust. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> تَظْمَأ taẓmaʾ; ظََمَأ ẓamaʾ and ظََمْآن ẓamʾān.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-م-أ.ظَمأ",
+        "label": "ظَمأ",
+        "definitionHtml": "ظَمأ ẓamaʾ [n.] thirst <br><br>(9:120) لاَ يُصِيبُهُمْ ظَمَأٌ وَلاَ نَصَبٌ they do not suffer any thirst or weariness.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ظ-م-أ.تَظْمَأ",
+        "label": "تَظْمَأ",
+        "definitionHtml": "تَظْمَأ taẓmaʾ [imperf. of v. intrans.] to become thirsty, to thirst <br><br>(20:119) وَأَنَّكَ لاَ تَظْمَأُ فِيهَا وَلاَ تَضْحَى and [that] in it you will not become thirsty nor suffer the heat of the sun.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-م-أ.ظَمآن",
+        "label": "ظَمآن",
+        "definitionHtml": "ظَمآن ẓamaʾān [quasi‐act. part.] thirsty <br><br>(24:39) يَحْسَبُهُ الظَّمْآنُ مَاءً the thirsty [one] thinks it to be water.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:18.266Z",
+      "refword": "9:120:23",
+      "lexword": "ظَمَأٌ"
+    }
+  }
+}

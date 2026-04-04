@@ -1,0 +1,918 @@
+{
+  "root": "كرم",
+  "rootArabic": "كرم",
+  "stats": {
+    "totalOccurrences": 47,
+    "derivativeCount": 8,
+    "surahCount": 29,
+    "ayahCount": 46
+  },
+  "derivatives": [
+    {
+      "form": "كَرِيم",
+      "count": 30
+    },
+    {
+      "form": "مُكْرَمُون",
+      "count": 5
+    },
+    {
+      "form": "أكْرَمَ",
+      "count": 4
+    },
+    {
+      "form": "إكْرَام",
+      "count": 2
+    },
+    {
+      "form": "أكْرَم",
+      "count": 2
+    },
+    {
+      "form": "كَرَّمَ",
+      "count": 2
+    },
+    {
+      "form": "مُكَرَّم",
+      "count": 1
+    },
+    {
+      "form": "مُكْرِم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أكْرَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "كَرَّمَ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكْرَمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        },
+        {
+          "form": "مُكْرِم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        },
+        {
+          "form": "مُكْرَمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكْرَمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 3,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكْرَم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكْرَمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إكْرَام",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكْرَمُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        },
+        {
+          "form": "مُكَرَّم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 1,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَرِيم",
+          "count": 2,
+          "totalInQuran": 30
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أكْرَمَ",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكْرَم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 31,
+      "text": "إِن تَجْتَنِبُوا۟ كَبَآئِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًا كَرِيمًا",
+      "highlightedHtml": "إِن تَجْتَنِبُوا۟ كَبَآئِرَ مَا تُنْهَوْنَ عَنْهُ نُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَنُدْخِلْكُم مُّدْخَلًا <a class=\"highlight-text\">كَرِيمًا</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 4,
+      "text": "أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا ۚ لَّهُمْ دَرَجَٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا ۚ لَّهُمْ دَرَجَٰتٌ عِندَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 74,
+      "text": "وَٱلَّذِينَ آمَنُوا وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ آوَوْا وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا ۚ لَّهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ آمَنُوا وَهَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ آوَوْا وَّنَصَرُوٓا۟ أُو۟لَٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا ۚ لَّهُم مَّغْفِرَةٌ وَرِزْقٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 21,
+      "text": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ <a class=\"highlight-text\">أَكْرِمِى</a> مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "أكْرَمَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 31,
+      "text": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍ مِّنْهُنَّ سِكِّينًا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَٰشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَآ إِلَّا مَلَكٌ كَرِيمٌ",
+      "highlightedHtml": "فَلَمَّا سَمِعَتْ بِمَكْرِهِنَّ أَرْسَلَتْ إِلَيْهِنَّ وَأَعْتَدَتْ لَهُنَّ مُتَّكَـًٔا وَءَاتَتْ كُلَّ وَٰحِدَةٍ مِّنْهُنَّ سِكِّينًا وَقَالَتِ ٱخْرُجْ عَلَيْهِنَّ ۖ فَلَمَّا رَأَيْنَهُۥٓ أَكْبَرْنَهُۥ وَقَطَّعْنَ أَيْدِيَهُنَّ وَقُلْنَ حَٰشَ لِلَّهِ مَا هَٰذَا بَشَرًا إِنْ هَٰذَآ إِلَّا مَلَكٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 23,
+      "text": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+      "highlightedHtml": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا <a class=\"highlight-text\">كَرِيمًا</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 62,
+      "text": "قَالَ أَرَءَيْتَكَ هَٰذَا ٱلَّذِى كَرَّمْتَ عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًا",
+      "highlightedHtml": "قَالَ أَرَءَيْتَكَ هَٰذَا ٱلَّذِى <a class=\"highlight-text\">كَرَّمْتَ</a> عَلَىَّ لَئِنْ أَخَّرْتَنِ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ لَأَحْتَنِكَنَّ ذُرِّيَّتَهُۥٓ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "كَرَّمَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 70,
+      "text": "وَلَقَدْ كَرَّمْنَا بَنِىٓ آدَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍ مِّمَّنْ خَلَقْنَا تَفْضِيلًا",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">كَرَّمْنَا</a> بَنِىٓ آدَمَ وَحَمَلْنَٰهُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ وَرَزَقْنَٰهُم مِّنَ ٱلطَّيِّبَٰتِ وَفَضَّلْنَٰهُمْ عَلَىٰ كَثِيرٍ مِّمَّنْ خَلَقْنَا تَفْضِيلًا",
+      "derivedForms": [
+        "كَرَّمَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 26,
+      "text": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌ مُّكْرَمُونَ",
+      "highlightedHtml": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَٰنُ وَلَدًا ۗ سُبْحَٰنَهُۥ ۚ بَلْ عِبَادٌ <a class=\"highlight-text\">مُّكْرَمُونَ</a>",
+      "derivedForms": [
+        "مُكْرَمُون"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 18,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٌ مِّنَ ٱلنَّاسِ ۖ وَكَثِيرٌ حَقَّ عَلَيْهِ ٱلْعَذَابُ ۗ وَمَن يُهِنِ ٱللَّهُ فَمَا لَهُۥ مِن مُّكْرِمٍ ۚ إِنَّ ٱللَّهَ يَفْعَلُ مَا يَشَآءُ ۩",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يَسْجُدُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَمَن فِى ٱلْأَرْضِ وَٱلشَّمْسُ وَٱلْقَمَرُ وَٱلنُّجُومُ وَٱلْجِبَالُ وَٱلشَّجَرُ وَٱلدَّوَآبُّ وَكَثِيرٌ مِّنَ ٱلنَّاسِ ۖ وَكَثِيرٌ حَقَّ عَلَيْهِ ٱلْعَذَابُ ۗ وَمَن يُهِنِ ٱللَّهُ فَمَا لَهُۥ مِن <a class=\"highlight-text\">مُّكْرِمٍ</a> ۚ إِنَّ ٱللَّهَ يَفْعَلُ مَا يَشَآءُ ۩",
+      "derivedForms": [
+        "مُكْرِم"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 50,
+      "text": "فَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "فَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُم مَّغْفِرَةٌ وَرِزْقٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 116,
+      "text": "فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ ٱلْكَرِيمِ",
+      "highlightedHtml": "فَتَعَٰلَى ٱللَّهُ ٱلْمَلِكُ ٱلْحَقُّ ۖ لَآ إِلَٰهَ إِلَّا هُوَ رَبُّ ٱلْعَرْشِ <a class=\"highlight-text\">ٱلْكَرِيمِ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 26,
+      "text": "ٱلْخَبِيثَٰتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَٰتِ ۖ وَٱلطَّيِّبَٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَٰتِ ۚ أُو۟لَٰٓئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "ٱلْخَبِيثَٰتُ لِلْخَبِيثِينَ وَٱلْخَبِيثُونَ لِلْخَبِيثَٰتِ ۖ وَٱلطَّيِّبَٰتُ لِلطَّيِّبِينَ وَٱلطَّيِّبُونَ لِلطَّيِّبَٰتِ ۚ أُو۟لَٰٓئِكَ مُبَرَّءُونَ مِمَّا يَقُولُونَ ۖ لَهُم مَّغْفِرَةٌ وَرِزْقٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 72,
+      "text": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ <a class=\"highlight-text\">كِرَامًا</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 7,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ أَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ أَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 58,
+      "text": "وَكُنُوزٍ وَمَقَامٍ كَرِيمٍ",
+      "highlightedHtml": "وَكُنُوزٍ وَمَقَامٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 29,
+      "text": "قَالَتْ يَٰٓأَيُّهَا ٱلْمَلَؤُا۟ إِنِّىٓ أُلْقِىَ إِلَىَّ كِتَٰبٌ كَرِيمٌ",
+      "highlightedHtml": "قَالَتْ يَٰٓأَيُّهَا ٱلْمَلَؤُا۟ إِنِّىٓ أُلْقِىَ إِلَىَّ كِتَٰبٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 40,
+      "text": "قَالَ ٱلَّذِى عِندَهُۥ عِلْمٌ مِّنَ ٱلْكِتَٰبِ أَنَا۠ آتِيكَ بِهِۦ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ ۚ فَلَمَّا رَءَاهُ مُسْتَقِرًّا عِندَهُۥ قَالَ هَٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ أَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ كَرِيمٌ",
+      "highlightedHtml": "قَالَ ٱلَّذِى عِندَهُۥ عِلْمٌ مِّنَ ٱلْكِتَٰبِ أَنَا۠ آتِيكَ بِهِۦ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ ۚ فَلَمَّا رَءَاهُ مُسْتَقِرًّا عِندَهُۥ قَالَ هَٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ أَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 10,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 31,
+      "text": "وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَٰلِحًا نُّؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًا كَرِيمًا",
+      "highlightedHtml": "وَمَن يَقْنُتْ مِنكُنَّ لِلَّهِ وَرَسُولِهِۦ وَتَعْمَلْ صَٰلِحًا نُّؤْتِهَآ أَجْرَهَا مَرَّتَيْنِ وَأَعْتَدْنَا لَهَا رِزْقًا <a class=\"highlight-text\">كَرِيمًا</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 44,
+      "text": "تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُۥ سَلَٰمٌ ۚ وَأَعَدَّ لَهُمْ أَجْرًا كَرِيمًا",
+      "highlightedHtml": "تَحِيَّتُهُمْ يَوْمَ يَلْقَوْنَهُۥ سَلَٰمٌ ۚ وَأَعَدَّ لَهُمْ أَجْرًا <a class=\"highlight-text\">كَرِيمًا</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 4,
+      "text": "لِّيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۚ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
+      "highlightedHtml": "لِّيَجْزِىَ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۚ أُو۟لَٰٓئِكَ لَهُم مَّغْفِرَةٌ وَرِزْقٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 11,
+      "text": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ كَرِيمٍ",
+      "highlightedHtml": "إِنَّمَا تُنذِرُ مَنِ ٱتَّبَعَ ٱلذِّكْرَ وَخَشِىَ ٱلرَّحْمَٰنَ بِٱلْغَيْبِ ۖ فَبَشِّرْهُ بِمَغْفِرَةٍ وَأَجْرٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 27,
+      "text": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ",
+      "highlightedHtml": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ <a class=\"highlight-text\">ٱلْمُكْرَمِينَ</a>",
+      "derivedForms": [
+        "مُكْرَمُون"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 42,
+      "text": "فَوَٰكِهُ ۖ وَهُم مُّكْرَمُونَ",
+      "highlightedHtml": "فَوَٰكِهُ ۖ وَهُم <a class=\"highlight-text\">مُّكْرَمُونَ</a>",
+      "derivedForms": [
+        "مُكْرَمُون"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 17,
+      "text": "وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ فِرْعَوْنَ وَجَآءَهُمْ رَسُولٌ كَرِيمٌ",
+      "highlightedHtml": "وَلَقَدْ فَتَنَّا قَبْلَهُمْ قَوْمَ فِرْعَوْنَ وَجَآءَهُمْ رَسُولٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 26,
+      "text": "وَزُرُوعٍ وَمَقَامٍ كَرِيمٍ",
+      "highlightedHtml": "وَزُرُوعٍ وَمَقَامٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 49,
+      "text": "ذُقْ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْكَرِيمُ",
+      "highlightedHtml": "ذُقْ إِنَّكَ أَنتَ ٱلْعَزِيزُ <a class=\"highlight-text\">ٱلْكَرِيمُ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 13,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ أَكْرَمَكُمْ عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِنَّا خَلَقْنَٰكُم مِّن ذَكَرٍ وَأُنثَىٰ وَجَعَلْنَٰكُمْ شُعُوبًا وَقَبَآئِلَ لِتَعَارَفُوٓا۟ ۚ إِنَّ <a class=\"highlight-text\">أَكْرَمَكُمْ</a> عِندَ ٱللَّهِ أَتْقَىٰكُمْ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌ",
+      "derivedForms": [
+        "أكْرَم"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 24,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ <a class=\"highlight-text\">ٱلْمُكْرَمِينَ</a>",
+      "derivedForms": [
+        "مُكْرَمُون"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 27,
+      "text": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+      "highlightedHtml": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ <a class=\"highlight-text\">وَٱلْإِكْرَامِ</a>",
+      "derivedForms": [
+        "إكْرَام"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 78,
+      "text": "تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ",
+      "highlightedHtml": "تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ <a class=\"highlight-text\">وَٱلْإِكْرَامِ</a>",
+      "derivedForms": [
+        "إكْرَام"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 44,
+      "text": "لَّا بَارِدٍ بَارِدٍ وَلَا كَرِيمٍ",
+      "highlightedHtml": "لَّا بَارِدٍ بَارِدٍ وَلَا <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 77,
+      "text": "إِنَّهُۥ لَقُرْءَانٌ كَرِيمٌ",
+      "highlightedHtml": "إِنَّهُۥ لَقُرْءَانٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 11,
+      "text": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَٰعِفَهُۥ لَهُۥ وَلَهُۥٓ أَجْرٌ كَرِيمٌ",
+      "highlightedHtml": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَٰعِفَهُۥ لَهُۥ وَلَهُۥٓ أَجْرٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 18,
+      "text": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ <a class=\"highlight-text\">كَرِيمٌ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 40,
+      "text": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "highlightedHtml": "إِنَّهُۥ لَقَوْلُ رَسُولٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 35,
+      "text": "أُو۟لَٰٓئِكَ فِى جَنَّٰتٍ مُّكْرَمُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ فِى جَنَّٰتٍ <a class=\"highlight-text\">مُّكْرَمُونَ</a>",
+      "derivedForms": [
+        "مُكْرَمُون"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 13,
+      "text": "فِى صُحُفٍ مُّكَرَّمَةٍ",
+      "highlightedHtml": "فِى صُحُفٍ <a class=\"highlight-text\">مُّكَرَّمَةٍ</a>",
+      "derivedForms": [
+        "مُكَرَّم"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 16,
+      "text": "كِرَامٍۭ بَرَرَةٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">كِرَامٍۭ</a> بَرَرَةٍ",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 19,
+      "text": "إِنَّهُۥ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+      "highlightedHtml": "إِنَّهُۥ لَقَوْلُ رَسُولٍ <a class=\"highlight-text\">كَرِيمٍ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلْكَرِيمِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ <a class=\"highlight-text\">ٱلْكَرِيمِ</a>",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 11,
+      "text": "كِرَامًا كَٰتِبِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">كِرَامًا</a> كَٰتِبِينَ",
+      "derivedForms": [
+        "كَرِيم"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 15,
+      "text": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ فَأَكْرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ أَكْرَمَنِ",
+      "highlightedHtml": "فَأَمَّا ٱلْإِنسَٰنُ إِذَا مَا ٱبْتَلَىٰهُ رَبُّهُۥ <a class=\"highlight-text\">فَأَكْرَمَهُۥ</a> وَنَعَّمَهُۥ فَيَقُولُ رَبِّىٓ <a class=\"highlight-text\">أَكْرَمَنِ</a>",
+      "derivedForms": [
+        "أكْرَمَ",
+        "أكْرَمَ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 17,
+      "text": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+      "highlightedHtml": "كَلَّا ۖ بَل لَّا <a class=\"highlight-text\">تُكْرِمُونَ</a> ٱلْيَتِيمَ",
+      "derivedForms": [
+        "أكْرَمَ"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 3,
+      "text": "ٱقْرَأْ وَرَبُّكَ ٱلْأَكْرَمُ",
+      "highlightedHtml": "ٱقْرَأْ وَرَبُّكَ <a class=\"highlight-text\">ٱلْأَكْرَمُ</a>",
+      "derivedForms": [
+        "أكْرَم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:43.433Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine singular indefinite adjective",
+    "derivativeNote": "كَرِيمًا is in the derivative form: كَرِيم",
+    "rootDefinitionHtml": "ك/ر/م   k–r–m to be generous, to be high‐minded, to be noble‐hearted, to honour, to do favours, to treat with hospitality, obliging, beneficent, precious<br>; (of land) to be fertile; thoroughbred, noble; vine and grapes. <br><br>Of this root, 9 forms occur 47 times in the Qur’an:<br> كَرَّمَ karrama 2 times; أكْرَمَ ʾakrama 4 times; كَرِيم karım 27 times; كِرَام kirām 3 times; أكْرَم ʾakram 2 times; إكْرَام ʾikrām 2 times; مُكَرَّمَةٌ mukarramatun 1 time; مُكْرِم mukrim 1 time and مُكْرَمِين mukramın 2 times.",
+    "mainDefinitionHtml": "كَرِيم karım [quasi‐act. part.; pl. كِرَام kirām] <br><br><strong>1 </strong>generous <br><br>(27:40) فَإِنَّ رَبِّي غَنِيٌّ كَرِيمٌ then my Lord is All‐sufficient, All‐generous; *<br><br>(23:116) الْكَرِيمِ [an attribute of God] the Most Generous <br><br><strong>2 </strong>plentiful <br><br>(8:4) وَرِزْقٌ كَرِيمٌ and plentiful provision <br><br><strong>3 </strong>noble <br><br>(26:58) وَكُنُوزٍ وَمَقَامٍ كَرِيمٍ treasures and a noble dwelling/station/position <br><br><strong>4 </strong>dignified, one who behaves with dignity, one who behaves with self‐respect <br><br>(25:72) وَإِذَا مَرُّوا بِاللَّغْوِ مَرُّوا كِرَامًا and when they come across some frivolity, they pass on with dignity.",
+    "mainEntryId": "wdef-ك-ر-م.كَرِيم",
+    "entries": [
+      {
+        "id": "wdef-ك-ر-م",
+        "label": "ك-ر-م",
+        "definitionHtml": "ك/ر/م   k–r–m to be generous, to be high‐minded, to be noble‐hearted, to honour, to do favours, to treat with hospitality, obliging, beneficent, precious<br>; (of land) to be fertile; thoroughbred, noble; vine and grapes. <br><br>Of this root, 9 forms occur 47 times in the Qur’an:<br> كَرَّمَ karrama 2 times; أكْرَمَ ʾakrama 4 times; كَرِيم karım 27 times; كِرَام kirām 3 times; أكْرَم ʾakram 2 times; إكْرَام ʾikrām 2 times; مُكَرَّمَةٌ mukarramatun 1 time; مُكْرِم mukrim 1 time and مُكْرَمِين mukramın 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.كَرِيم",
+        "label": "كَرِيم",
+        "definitionHtml": "كَرِيم karım [quasi‐act. part.; pl. كِرَام kirām] <br><br><strong>1 </strong>generous <br><br>(27:40) فَإِنَّ رَبِّي غَنِيٌّ كَرِيمٌ then my Lord is All‐sufficient, All‐generous; *<br><br>(23:116) الْكَرِيمِ [an attribute of God] the Most Generous <br><br><strong>2 </strong>plentiful <br><br>(8:4) وَرِزْقٌ كَرِيمٌ and plentiful provision <br><br><strong>3 </strong>noble <br><br>(26:58) وَكُنُوزٍ وَمَقَامٍ كَرِيمٍ treasures and a noble dwelling/station/position <br><br><strong>4 </strong>dignified, one who behaves with dignity, one who behaves with self‐respect <br><br>(25:72) وَإِذَا مَرُّوا بِاللَّغْوِ مَرُّوا كِرَامًا and when they come across some frivolity, they pass on with dignity.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ر-م.أكْرَم",
+        "label": "أكْرَم",
+        "definitionHtml": "أكْرَم ʾakram [elat.] <br><br><strong>1 </strong>the most honoured, the noblest <br><br>(49:13) إِنَّ أَكْرَمَكُمْ عِنْدَ اللَّهِ أَتْقَاكُمْ the most noble among you with God are the most God‐fearing among you <br><br><strong>2 </strong>[attribute of God] the Most Exalted, the Most Bountiful <br><br>(96:3) اقْرَأْ وَرَبُّكَ الأَكْرَمُ read!, your Lord is the Most Bountiful One.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.أكْرَمَ",
+        "label": "أكْرَمَ",
+        "definitionHtml": "أكْرَمَ ʾakrama [v. IV trans.] <br><br><strong>1 </strong>to treat with generosity, to honour <br><br>(89:15) فَأَمَّا الإِنْسَانُ إِذَا مَا ابْتَلاَهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ as for man, whenever his Lord puts him to the test by honouring him and granting him ease of living <br><br><strong>2 </strong>to treat with kindness <br><br>(89:17) كَلاَّ بَل لاَ تُكْرِمُونَ الْيَتِيمَ no indeed!, you [people] do not show kindness to the orphan; *<br><br>(12:21) ِأَكْرِمِي مَثْوَاهُ look after him well, treat him hospitably [lit. honour his abode].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.إكْرَام",
+        "label": "إكْرَام",
+        "definitionHtml": "إكْرَام ʾikrām [v. n.] exalting, honouring <br><br>(55:78) تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلاَلِ وَالإِكْرَامِ blessed is the name of your Lord, the Lord of Majesty and Honour‐giving.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.كَرَّمَ",
+        "label": "كَرَّمَ",
+        "definitionHtml": "كَرَّمَ karrama [v. II, trans.] <br><br><strong>1 </strong>to honour <br><br>(17:70) وَلَقَدْ كَرَّمْنَا بَنِي ءَادَمَ We have honoured the children of Adam <br><br><strong>2 </strong>to favour, to single out for favour <br><br>(17:62) قَالَ أَرَأَيْتَكَ هَذَا الَّذِي كَرَّمْتَ عَلَيَّ he said, ‘Do You see this one whom You have honoured above me?’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.مُكَرَّم",
+        "label": "مُكَرَّم",
+        "definitionHtml": "مُكَرَّم mukarram [pass. part. of v. II] honoured, venerated <br><br>(80:13) فِى صُحُفٍ مُكَرَّمَةٍ on honoured leaves.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.مُكْرَمُون",
+        "label": "مُكْرَمُون",
+        "definitionHtml": "مُكْرَمُون mukramūn [pl. of pass. part. مُكْرَم mukram] those who are honoured <br><br>(21:26) بَلْ عِبَادٌ مُكْرَمُونَ no!, they are only [His] honoured servants.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ر-م.مُكْرِم",
+        "label": "مُكْرِم",
+        "definitionHtml": "مُكْرِم mukrim [act. part.] one who honours <br><br>(22:18) وَمَنْ يُهِنِ اللَّهُ فَمَا لَهُ مِنْ مُكْرِمٍ as for the one God disgraces, he has no one to honour him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:51.703Z",
+      "refword": "4:31:12",
+      "lexword": "كَرِيمًا"
+    }
+  }
+}

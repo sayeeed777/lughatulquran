@@ -1,0 +1,178 @@
+{
+  "root": "ضوا",
+  "rootArabic": "ضوا",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أَضَاءَ",
+      "count": 3
+    },
+    {
+      "form": "ضِيَاءٌ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَضَاءَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضِيَاءٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضِيَاءٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَضَاءَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضِيَاءٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 17,
+      "text": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "highlightedHtml": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ <a class=\"highlight-text\">أَضَآءَتْ</a> مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+      "derivedForms": [
+        "أَضَاءَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 20,
+      "text": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ ۖ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ ۖ كُلَّمَآ <a class=\"highlight-text\">أَضَآءَ</a> لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ ۚ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "أَضَاءَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 5,
+      "text": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ <a class=\"highlight-text\">ضِيَآءً</a> وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "derivedForms": [
+        "ضِيَاءٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 48,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَىٰ وَهَٰرُونَ ٱلْفُرْقَانَ وَضِيَآءً وَذِكْرًا لِّلْمُتَّقِينَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَىٰ وَهَٰرُونَ ٱلْفُرْقَانَ <a class=\"highlight-text\">وَضِيَآءً</a> وَذِكْرًا لِّلْمُتَّقِينَ",
+      "derivedForms": [
+        "ضِيَاءٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 35,
+      "text": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا <a class=\"highlight-text\">يُضِىٓءُ</a> وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "أَضَاءَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 71,
+      "text": "قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلَّيْلَ سَرْمَدًا سَرْمَدًا سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِضِيَآءٍ ۖ أَفَلَا تَسْمَعُونَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِن جَعَلَ ٱللَّهُ عَلَيْكُمُ ٱلَّيْلَ سَرْمَدًا سَرْمَدًا سَرْمَدًا إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم <a class=\"highlight-text\">بِضِيَآءٍ</a> ۖ أَفَلَا تَسْمَعُونَ",
+      "derivedForms": [
+        "ضِيَاءٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:37.194Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form IV) perfect verb",
+    "derivativeNote": "أَضَآءَتْ is in the derivative form: أَضَاءَ",
+    "rootDefinitionHtml": "ض/و/أ   ḍ–w–ʾ intensive light, to light up, to shine, to illuminate, to beam, to enlighten. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> أضاَء ʾaḍāʾa 3 times and ضيِاء ḍiyāʾ 3 times.",
+    "mainDefinitionHtml": "أَضَاءَ ʾadāʾa [v. IV] I [intrans.] to glow <br><br>(24:35)‏يَكَادُ‏ ‏زَيْتُهَا‏ ‏يُضِيءُ‏ ‏وَلَوْ‏ ‏لَمْ‏ ‏تَمْسَسْهُ نار‏ its oil almost glows, though no fire touches it II [trans.] to illuminate, to light up, to shed light upon <br><br>(2:17)‏فَلَمَّا‏ ‏أَضَاءَتْ‏ ‏مَا‏ ‏حَوْلَهُ‏ ‏ذَهَبَ‏ ‏اللَّهُ‏ ‏بِنُورِهِمْ‏ when it lit up everything around him, God took away their light.",
+    "mainEntryId": "wdef-ض-و-أ.أَضَاءَ",
+    "entries": [
+      {
+        "id": "wdef-ض-و-أ",
+        "label": "ض-و-أ",
+        "definitionHtml": "ض/و/أ   ḍ–w–ʾ intensive light, to light up, to shine, to illuminate, to beam, to enlighten. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> أضاَء ʾaḍāʾa 3 times and ضيِاء ḍiyāʾ 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-و-أ.أَضَاءَ",
+        "label": "أَضَاءَ",
+        "definitionHtml": "أَضَاءَ ʾadāʾa [v. IV] I [intrans.] to glow <br><br>(24:35)‏يَكَادُ‏ ‏زَيْتُهَا‏ ‏يُضِيءُ‏ ‏وَلَوْ‏ ‏لَمْ‏ ‏تَمْسَسْهُ نار‏ its oil almost glows, though no fire touches it II [trans.] to illuminate, to light up, to shed light upon <br><br>(2:17)‏فَلَمَّا‏ ‏أَضَاءَتْ‏ ‏مَا‏ ‏حَوْلَهُ‏ ‏ذَهَبَ‏ ‏اللَّهُ‏ ‏بِنُورِهِمْ‏ when it lit up everything around him, God took away their light.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ض-و-أ.ضِيَاءٌ",
+        "label": "ضِيَاءٌ",
+        "definitionHtml": "ضِيَاءٌ ḍiyāʾa [v. n./n.] illuminating; illumination, brilliance, radiance <br><br>(10:5) هُوَ‏ ‏الَّذِي‏ ‏جَعَلَ‏ ‏الشَّمْسَ‏ ‏ضِيَاءً‏ ‏وَالْقَمَرَ‏ ‏نُورًا‏ He it is who made the sun a shining radiance and the moon a light.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:05.972Z",
+      "refword": "2:17:7",
+      "lexword": "أَضَآءَتْ"
+    }
+  }
+}

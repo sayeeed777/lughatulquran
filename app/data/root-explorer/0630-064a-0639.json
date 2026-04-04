@@ -1,0 +1,74 @@
+{
+  "root": "ذيع",
+  "rootArabic": "ذيع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَذَاعَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَذَاعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 83,
+      "text": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ <a class=\"highlight-text\">أَذَاعُوا۟</a> بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "أَذَاعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:54.763Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) perfect verb",
+    "derivativeNote": "أَذَاعُوا۟ is in the derivative form: أَذَاعَ",
+    "rootDefinitionHtml": "ذ/ي/ع   dh–y–ʿ to declare, to announce, to divulge, a telltale; to take away. Of this root, only أَذَاعَ ʾadhāʿa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَذَاعَ ʾadhāʿa [v. IV, trans., with prep. ﺒfor emphasis] to spread around, to broadcast <br><br>(4:83) وَإِذَا جَاءَهُمْ أَمْرٌ مِنَ الأَمْنِ أَوِ الْخَوْفِ أَذَاعُوا بِهِ whenever there comes to them [news of any] matter concerning safety or peril, they spread it around.",
+    "mainEntryId": "wdef-ذ-ي-ع.أَذَاعَ",
+    "entries": [
+      {
+        "id": "wdef-ذ-ي-ع",
+        "label": "ذ-ي-ع",
+        "definitionHtml": "ذ/ي/ع   dh–y–ʿ to declare, to announce, to divulge, a telltale; to take away. Of this root, only أَذَاعَ ʾadhāʿa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ي-ع.أَذَاعَ",
+        "label": "أَذَاعَ",
+        "definitionHtml": "أَذَاعَ ʾadhāʿa [v. IV, trans., with prep. ﺒfor emphasis] to spread around, to broadcast <br><br>(4:83) وَإِذَا جَاءَهُمْ أَمْرٌ مِنَ الأَمْنِ أَوِ الْخَوْفِ أَذَاعُوا بِهِ whenever there comes to them [news of any] matter concerning safety or peril, they spread it around.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:06.707Z",
+      "refword": "4:83:8",
+      "lexword": "أَذَاعُوا۟"
+    }
+  }
+}

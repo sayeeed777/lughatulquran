@@ -1,0 +1,241 @@
+{
+  "root": "فرج",
+  "rootArabic": "فرج",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 2,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "فَرْج",
+      "count": 8
+    },
+    {
+      "form": "فُرِجَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرْج",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُرِجَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 91,
+      "text": "وَٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ آيَةً لِّلْعَٰلَمِينَ",
+      "highlightedHtml": "وَٱلَّتِىٓ أَحْصَنَتْ <a class=\"highlight-text\">فَرْجَهَا</a> فَنَفَخْنَا فِيهَا مِن رُّوحِنَا وَجَعَلْنَٰهَا وَٱبْنَهَآ آيَةً لِّلْعَٰلَمِينَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 5,
+      "text": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُمْ <a class=\"highlight-text\">لِفُرُوجِهِمْ</a> حَٰفِظُونَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 30,
+      "text": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+      "highlightedHtml": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ <a class=\"highlight-text\">فُرُوجَهُمْ</a> ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 31,
+      "text": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ <a class=\"highlight-text\">فُرُوجَهُنَّ</a> وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 35,
+      "text": "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ وَٱلْخَٰشِعِينَ وَٱلْخَٰشِعَٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ وَٱلصَّٰٓئِمِينَ وَٱلصَّٰٓئِمَٰتِ وَٱلْحَٰفِظِينَ فُرُوجَهُمْ وَٱلْحَٰفِظَٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
+      "highlightedHtml": "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ وَٱلْقَٰنِتِينَ وَٱلْقَٰنِتَٰتِ وَٱلصَّٰدِقِينَ وَٱلصَّٰدِقَٰتِ وَٱلصَّٰبِرِينَ وَٱلصَّٰبِرَٰتِ وَٱلْخَٰشِعِينَ وَٱلْخَٰشِعَٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَٰتِ وَٱلصَّٰٓئِمِينَ وَٱلصَّٰٓئِمَٰتِ وَٱلْحَٰفِظِينَ <a class=\"highlight-text\">فُرُوجَهُمْ</a> وَٱلْحَٰفِظَٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 6,
+      "text": "أَفَلَمْ يَنظُرُوٓا۟ إِلَى ٱلسَّمَآءِ فَوْقَهُمْ كَيْفَ بَنَيْنَٰهَا وَزَيَّنَّٰهَا وَمَا لَهَا مِن فُرُوجٍ",
+      "highlightedHtml": "أَفَلَمْ يَنظُرُوٓا۟ إِلَى ٱلسَّمَآءِ فَوْقَهُمْ كَيْفَ بَنَيْنَٰهَا وَزَيَّنَّٰهَا وَمَا لَهَا مِن <a class=\"highlight-text\">فُرُوجٍ</a>",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 12,
+      "text": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَٰنِتِينَ",
+      "highlightedHtml": "وَمَرْيَمَ ٱبْنَتَ عِمْرَٰنَ ٱلَّتِىٓ أَحْصَنَتْ <a class=\"highlight-text\">فَرْجَهَا</a> فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَٰتِ رَبِّهَا وَكُتُبِهِۦ وَكَانَتْ مِنَ ٱلْقَٰنِتِينَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 29,
+      "text": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَٰفِظُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُمْ <a class=\"highlight-text\">لِفُرُوجِهِمْ</a> حَٰفِظُونَ",
+      "derivedForms": [
+        "فَرْج"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 9,
+      "text": "وَإِذَا ٱلسَّمَآءُ فُرِجَتْ",
+      "highlightedHtml": "وَإِذَا ٱلسَّمَآءُ <a class=\"highlight-text\">فُرِجَتْ</a>",
+      "derivedForms": [
+        "فُرِجَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:36.908Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "فَرْجَهَا is in the derivative form: فَرْج",
+    "rootDefinitionHtml": "ف/ر/ج   f–r–j that which is between the legs of a human and the hind legs of an animal, opening, cleavage, euphemesim for the sexual organs of the 2 sexes<br>; hole; to open, to split, to cleave a way; to relieve; to set free. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> فُرِجَ furija 1 time; فَرْج farj 2 times and فُروج furūj 6 times.",
+    "mainDefinitionHtml": "فَرْج farj [n.; pl. فُروج furūj] <br><br><strong>1 </strong>gap, rift, cleavage, hole; flaw <br><br>(50:6) أَفَلَمْ‏ ‏يَنْظُرُوا‏ ‏إِلَى‏ ‏السَّمَاءِ‏ ‏فَوْقَهُمْ‏ ‏كَيْفَ‏ ‏بَنَيْنَاهَا‏ ‏وَزَيَّنَّاهَا‏ ‏وَمَا‏ ‏لَهَا‏ ‏مِنْ فُرُوجٍ do they not look upon the sky above them [and wonder at] how We have built and adorned it, with no splits in it? <br><br><strong>2 </strong>the sexual organ, the private parts <br><br>(23:5) وَالَّذِينَ‏ ‏هُمْ‏ ‏لِفُرُوجِهِمْ‏ ‏حَافِظُونَ those who guard their chastity [lit. sexual organs]; *<br><br>(21:91) الَّتِي‏ ‏أَحْصَنَتْ‏ ‏فَرْجَهَا the one who guarded her chastity [lit. genitalia] (reference to the Virgin Mary).",
+    "mainEntryId": "wdef-ف-ر-ج.فَرْج",
+    "entries": [
+      {
+        "id": "wdef-ف-ر-ج",
+        "label": "ف-ر-ج",
+        "definitionHtml": "ف/ر/ج   f–r–j that which is between the legs of a human and the hind legs of an animal, opening, cleavage, euphemesim for the sexual organs of the 2 sexes<br>; hole; to open, to split, to cleave a way; to relieve; to set free. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> فُرِجَ furija 1 time; فَرْج farj 2 times and فُروج furūj 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ج.فَرْج",
+        "label": "فَرْج",
+        "definitionHtml": "فَرْج farj [n.; pl. فُروج furūj] <br><br><strong>1 </strong>gap, rift, cleavage, hole; flaw <br><br>(50:6) أَفَلَمْ‏ ‏يَنْظُرُوا‏ ‏إِلَى‏ ‏السَّمَاءِ‏ ‏فَوْقَهُمْ‏ ‏كَيْفَ‏ ‏بَنَيْنَاهَا‏ ‏وَزَيَّنَّاهَا‏ ‏وَمَا‏ ‏لَهَا‏ ‏مِنْ فُرُوجٍ do they not look upon the sky above them [and wonder at] how We have built and adorned it, with no splits in it? <br><br><strong>2 </strong>the sexual organ, the private parts <br><br>(23:5) وَالَّذِينَ‏ ‏هُمْ‏ ‏لِفُرُوجِهِمْ‏ ‏حَافِظُونَ those who guard their chastity [lit. sexual organs]; *<br><br>(21:91) الَّتِي‏ ‏أَحْصَنَتْ‏ ‏فَرْجَهَا the one who guarded her chastity [lit. genitalia] (reference to the Virgin Mary).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ر-ج.فُرِجَ",
+        "label": "فُرِجَ",
+        "definitionHtml": "فُرِجَ furija [pass. v.] to be split asunder <br><br>(77:9) إِذَا‏ ‏السَّمَاءُ‏ ‏فُرِجَتْ‏ ‏ when the sky is split asunder.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:55.106Z",
+      "refword": "21:91:3",
+      "lexword": "فَرْجَهَا"
+    }
+  }
+}

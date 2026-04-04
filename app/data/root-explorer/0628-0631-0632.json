@@ -1,0 +1,263 @@
+{
+  "root": "برز",
+  "rootArabic": "برز",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "بَرَزَ",
+      "count": 5
+    },
+    {
+      "form": "بُرِّزَ",
+      "count": 2
+    },
+    {
+      "form": "بَارِزَةٌ",
+      "count": 1
+    },
+    {
+      "form": "بَارِزُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَرَزَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَرَزَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَرَزَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَرَزَ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَارِزَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرِّزَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَارِزُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بُرِّزَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 250,
+      "text": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">بَرَزُوا۟</a> لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "بَرَزَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 154,
+      "text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ <a class=\"highlight-text\">لَبَرَزَ</a> ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "بَرَزَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 81,
+      "text": "وَيَقُولُونَ طَاعَةٌ فَإِذَا بَرَزُوا۟ مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ ۖ وَٱللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ ۖ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
+      "highlightedHtml": "وَيَقُولُونَ طَاعَةٌ فَإِذَا <a class=\"highlight-text\">بَرَزُوا۟</a> مِنْ عِندِكَ بَيَّتَ طَآئِفَةٌ مِّنْهُمْ غَيْرَ ٱلَّذِى تَقُولُ ۖ وَٱللَّهُ يَكْتُبُ مَا يُبَيِّتُونَ ۖ فَأَعْرِضْ عَنْهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
+      "derivedForms": [
+        "بَرَزَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 21,
+      "text": "وَبَرَزُوا۟ لِلَّهِ جَمِيعًا فَقَالَ ٱلضُّعَفَٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَٰكُمْ ۖ سَوَآءٌ سَوَآءٌ عَلَيْنَآ أَجَزِعْنَآ أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَبَرَزُوا۟</a> لِلَّهِ جَمِيعًا فَقَالَ ٱلضُّعَفَٰٓؤُا۟ لِلَّذِينَ ٱسْتَكْبَرُوٓا۟ إِنَّا كُنَّا لَكُمْ تَبَعًا فَهَلْ أَنتُم مُّغْنُونَ عَنَّا مِنْ عَذَابِ ٱللَّهِ مِن شَىْءٍ ۚ قَالُوا۟ لَوْ هَدَىٰنَا ٱللَّهُ لَهَدَيْنَٰكُمْ ۖ سَوَآءٌ سَوَآءٌ عَلَيْنَآ أَجَزِعْنَآ أَمْ صَبَرْنَا مَا لَنَا مِن مَّحِيصٍ",
+      "derivedForms": [
+        "بَرَزَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 48,
+      "text": "يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "highlightedHtml": "يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ <a class=\"highlight-text\">وَبَرَزُوا۟</a> لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "derivedForms": [
+        "بَرَزَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 47,
+      "text": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ بَارِزَةً وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا",
+      "highlightedHtml": "وَيَوْمَ نُسَيِّرُ ٱلْجِبَالَ وَتَرَى ٱلْأَرْضَ <a class=\"highlight-text\">بَارِزَةً</a> وَحَشَرْنَٰهُمْ فَلَمْ نُغَادِرْ مِنْهُمْ أَحَدًا",
+      "derivedForms": [
+        "بَارِزَةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 91,
+      "text": "وَبُرِّزَتِ ٱلْجَحِيمُ لِلْغَاوِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَبُرِّزَتِ</a> ٱلْجَحِيمُ لِلْغَاوِينَ",
+      "derivedForms": [
+        "بُرِّزَ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 16,
+      "text": "يَوْمَ هُم بَٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "highlightedHtml": "يَوْمَ هُم <a class=\"highlight-text\">بَٰرِزُونَ</a> ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "derivedForms": [
+        "بَارِزُون"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 36,
+      "text": "وَبُرِّزَتِ ٱلْجَحِيمُ لِمَن يَرَىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَبُرِّزَتِ</a> ٱلْجَحِيمُ لِمَن يَرَىٰ",
+      "derivedForms": [
+        "بُرِّزَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:28.444Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "بَرَزُوا۟ is in the derivative form: بَرَزَ",
+    "rootDefinitionHtml": "ب/ر/ز   b–r–z open land<br>; to go out in the open, to be prominent; to outdo others; to duel; to evacuate the bowels. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> بَرَزَ baraza 5 times; بُرِّزَ burriza 2 times; بَارِزَةٌ bārizatun 1 time and بَارِزُون bārizūn 1 time.",
+    "mainDefinitionHtml": "بَرَزَ baraza u [v. intrans.] <br><br><strong>1 </strong>to go forth, to come out <br><br>(3:154) لَوْ كُنْتُمْ فِى بُيُوتِكُمْ لَبَرَزَ الَّذِينَ كُتِبَ عَلَيْهِمُ الْقَتْلُ إِلَى مَضَاجِعِهِمْ even if you were at home, those who were destined to be killed would still have gone out to the place of their deaths <br><br><strong>2 </strong>to become manifest, to appear <br><br>(14:21) وَبَرَزُوا لِلَّهِ جَمِيعًا and they will appear before God, all together.",
+    "mainEntryId": "wdef-ب-ر-ز.بَرَزَ",
+    "entries": [
+      {
+        "id": "wdef-ب-ر-ز",
+        "label": "ب-ر-ز",
+        "definitionHtml": "ب/ر/ز   b–r–z open land<br>; to go out in the open, to be prominent; to outdo others; to duel; to evacuate the bowels. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> بَرَزَ baraza 5 times; بُرِّزَ burriza 2 times; بَارِزَةٌ bārizatun 1 time and بَارِزُون bārizūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-ز.بَرَزَ",
+        "label": "بَرَزَ",
+        "definitionHtml": "بَرَزَ baraza u [v. intrans.] <br><br><strong>1 </strong>to go forth, to come out <br><br>(3:154) لَوْ كُنْتُمْ فِى بُيُوتِكُمْ لَبَرَزَ الَّذِينَ كُتِبَ عَلَيْهِمُ الْقَتْلُ إِلَى مَضَاجِعِهِمْ even if you were at home, those who were destined to be killed would still have gone out to the place of their deaths <br><br><strong>2 </strong>to become manifest, to appear <br><br>(14:21) وَبَرَزُوا لِلَّهِ جَمِيعًا and they will appear before God, all together.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ر-ز.بَارِزَةٌ",
+        "label": "بَارِزَةٌ",
+        "definitionHtml": "بَارِزَةٌ bārizatun [act. part. fem.] bare, levelled plain with nothing to cover its surface <br><br>(18:47) وَيَوْمَ نُسَيِّرُ الْجِبَالَ وَتَرَى الأَرْضَ بَارِزَةً and on the day We set the mountains in motion, and you [will] see the earth as an open plain.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-ز.بَارِزُون",
+        "label": "بَارِزُون",
+        "definitionHtml": "بَارِزُون bārizūn [pl. of act. part. بَارِزٌ bāriz] one who is completely in view, one who stands out <br><br>(40:16) يَوْمَ هُمْ بَارِزُونَ لاَ يَخْفَى عَلَى اللَّهِ مِنْهُمْ شَيْءٌ the Day when they are out in the open, and nothing about them is concealed from God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-ز.بُرِّزَ",
+        "label": "بُرِّزَ",
+        "definitionHtml": "بُرِّزَ burriza [pass of v. II] to be made manifest, to be shown <br><br>(26:91) وَبُرِّزَتِ الْجَحِيمُ لِلْغَاوِينَ and the Fire is placed in full view of the misguided.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:50.300Z",
+      "refword": "2:250:2",
+      "lexword": "بَرَزُوا۟"
+    }
+  }
+}

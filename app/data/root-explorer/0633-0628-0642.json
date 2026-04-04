@@ -1,0 +1,738 @@
+{
+  "root": "سبق",
+  "rootArabic": "سبق",
+  "stats": {
+    "totalOccurrences": 37,
+    "derivativeCount": 6,
+    "surahCount": 24,
+    "ayahCount": 35
+  },
+  "derivatives": [
+    {
+      "form": "سَبَقَ",
+      "count": 20
+    },
+    {
+      "form": "سابِق",
+      "count": 8
+    },
+    {
+      "form": "اسْتَبَقَ",
+      "count": 5
+    },
+    {
+      "form": "مسبوق",
+      "count": 2
+    },
+    {
+      "form": "سابِقوا",
+      "count": 1
+    },
+    {
+      "form": "سَبْق",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَبَقَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَبَقَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَبَقَ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        },
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 2,
+          "totalInQuran": 20
+        },
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَبَقَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سابِق",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "مسبوق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سابِقوا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَبَقَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مسبوق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سابِق",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "سَبْق",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 148,
+      "text": "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا ۖ <a class=\"highlight-text\">فَٱسْتَبِقُوا۟</a> ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "اسْتَبَقَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 48,
+      "text": "وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلْكِتَٰبِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "highlightedHtml": "وَأَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلْكِتَٰبِ وَمُهَيْمِنًا عَلَيْهِ ۖ فَٱحْكُم بَيْنَهُم بِمَآ أَنزَلَ ٱللَّهُ ۖ وَلَا تَتَّبِعْ أَهْوَآءَهُمْ عَمَّا جَآءَكَ مِنَ ٱلْحَقِّ ۚ لِكُلٍّ جَعَلْنَا مِنكُمْ شِرْعَةً وَمِنْهَاجًا ۚ وَلَوْ شَآءَ ٱللَّهُ لَجَعَلَكُمْ أُمَّةً وَٰحِدَةً وَلَٰكِن لِّيَبْلُوَكُمْ فِى مَآ آتَاكُمْ ۖ <a class=\"highlight-text\">فَٱسْتَبِقُوا۟</a> ٱلْخَيْرَٰتِ ۚ إِلَى ٱللَّهِ مَرْجِعُكُمْ جَمِيعًا فَيُنَبِّئُكُم بِمَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "derivedForms": [
+        "اسْتَبَقَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 80,
+      "text": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَٰحِشَةَ مَا <a class=\"highlight-text\">سَبَقَكُم</a> بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 59,
+      "text": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ سَبَقُوٓا۟ ۚ إِنَّهُمْ لَا يُعْجِزُونَ",
+      "highlightedHtml": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">سَبَقُوٓا۟</a> ۚ إِنَّهُمْ لَا يُعْجِزُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 68,
+      "text": "لَّوْلَا كِتَٰبٌ مِّنَ ٱللَّهِ سَبَقَ لَمَسَّكُمْ فِيمَآ أَخَذْتُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "لَّوْلَا كِتَٰبٌ مِّنَ ٱللَّهِ <a class=\"highlight-text\">سَبَقَ</a> لَمَسَّكُمْ فِيمَآ أَخَذْتُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 100,
+      "text": "وَٱلسَّٰبِقُونَ ٱلْأَوَّلُونَ مِنَ ٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّٰتٍ تَجْرِى تَحْتَهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلسَّٰبِقُونَ</a> ٱلْأَوَّلُونَ مِنَ ٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ وَٱلَّذِينَ ٱتَّبَعُوهُم بِإِحْسَٰنٍ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ وَأَعَدَّ لَهُمْ جَنَّٰتٍ تَجْرِى تَحْتَهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 19,
+      "text": "وَمَا كَانَ ٱلنَّاسُ إِلَّآ أُمَّةً وَٰحِدَةً فَٱخْتَلَفُوا۟ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
+      "highlightedHtml": "وَمَا كَانَ ٱلنَّاسُ إِلَّآ أُمَّةً وَٰحِدَةً فَٱخْتَلَفُوا۟ ۚ وَلَوْلَا كَلِمَةٌ <a class=\"highlight-text\">سَبَقَتْ</a> مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 40,
+      "text": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ آمَنَ ۚ وَمَآ آمَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن <a class=\"highlight-text\">سَبَقَ</a> عَلَيْهِ ٱلْقَوْلُ وَمَنْ آمَنَ ۚ وَمَآ آمَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 110,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَٱخْتُلِفَ فِيهِ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَٱخْتُلِفَ فِيهِ ۚ وَلَوْلَا كَلِمَةٌ <a class=\"highlight-text\">سَبَقَتْ</a> مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 17,
+      "text": "قَالُوا۟ يَٰٓأَبَانَآ إِنَّا ذَهَبْنَا نَسْتَبِقُ وَتَرَكْنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍ لَّنَا وَلَوْ كُنَّا صَٰدِقِينَ",
+      "highlightedHtml": "قَالُوا۟ يَٰٓأَبَانَآ إِنَّا ذَهَبْنَا <a class=\"highlight-text\">نَسْتَبِقُ</a> وَتَرَكْنَا يُوسُفَ عِندَ مَتَٰعِنَا فَأَكَلَهُ ٱلذِّئْبُ ۖ وَمَآ أَنتَ بِمُؤْمِنٍ لَّنَا وَلَوْ كُنَّا صَٰدِقِينَ",
+      "derivedForms": [
+        "اسْتَبَقَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱسْتَبَقَا</a> ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "اسْتَبَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 5,
+      "text": "مَّا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَأْخِرُونَ",
+      "highlightedHtml": "مَّا <a class=\"highlight-text\">تَسْبِقُ</a> مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَأْخِرُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 99,
+      "text": "كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ سَبَقَ ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا",
+      "highlightedHtml": "كَذَٰلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنۢبَآءِ مَا قَدْ <a class=\"highlight-text\">سَبَقَ</a> ۚ وَقَدْ آتَيْنَاكَ مِن لَّدُنَّا ذِكْرًا",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 129,
+      "text": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَكَانَ لِزَامًا وَأَجَلٌ مُّسَمًّى",
+      "highlightedHtml": "وَلَوْلَا كَلِمَةٌ <a class=\"highlight-text\">سَبَقَتْ</a> مِن رَّبِّكَ لَكَانَ لِزَامًا وَأَجَلٌ مُّسَمًّى",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 27,
+      "text": "لَا يَسْبِقُونَهُۥ بِٱلْقَوْلِ وَهُم بِأَمْرِهِۦ يَعْمَلُونَ",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">يَسْبِقُونَهُۥ</a> بِٱلْقَوْلِ وَهُم بِأَمْرِهِۦ يَعْمَلُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 101,
+      "text": "إِنَّ ٱلَّذِينَ سَبَقَتْ لَهُم مِّنَّا ٱلْحُسْنَىٰٓ أُو۟لَٰٓئِكَ عَنْهَا مُبْعَدُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ <a class=\"highlight-text\">سَبَقَتْ</a> لَهُم مِّنَّا ٱلْحُسْنَىٰٓ أُو۟لَٰٓئِكَ عَنْهَا مُبْعَدُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 27,
+      "text": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن <a class=\"highlight-text\">سَبَقَ</a> عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 43,
+      "text": "مَا تَسْبِقُ مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَأْخِرُونَ",
+      "highlightedHtml": "مَا <a class=\"highlight-text\">تَسْبِقُ</a> مِنْ أُمَّةٍ أَجَلَهَا وَمَا يَسْتَأْخِرُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 61,
+      "text": "أُو۟لَٰٓئِكَ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَهُمْ لَهَا سَٰبِقُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَهُمْ لَهَا <a class=\"highlight-text\">سَٰبِقُونَ</a>",
+      "derivedForms": [
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 4,
+      "text": "أَمْ حَسِبَ ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ أَن يَسْبِقُونَا ۚ سَآءَ مَا يَحْكُمُونَ",
+      "highlightedHtml": "أَمْ حَسِبَ ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ أَن <a class=\"highlight-text\">يَسْبِقُونَا</a> ۚ سَآءَ مَا يَحْكُمُونَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 28,
+      "text": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَٰحِشَةَ مَا <a class=\"highlight-text\">سَبَقَكُم</a> بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 39,
+      "text": "وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ سَٰبِقِينَ",
+      "highlightedHtml": "وَقَٰرُونَ وَفِرْعَوْنَ وَهَٰمَٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ <a class=\"highlight-text\">سَٰبِقِينَ</a>",
+      "derivedForms": [
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 32,
+      "text": "ثُمَّ أَوْرَثْنَا ٱلْكِتَٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِۦ وَمِنْهُم مُّقْتَصِدٌ وَمِنْهُمْ سَابِقٌۢ بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "highlightedHtml": "ثُمَّ أَوْرَثْنَا ٱلْكِتَٰبَ ٱلَّذِينَ ٱصْطَفَيْنَا مِنْ عِبَادِنَا ۖ فَمِنْهُمْ ظَالِمٌ لِّنَفْسِهِۦ وَمِنْهُم مُّقْتَصِدٌ وَمِنْهُمْ <a class=\"highlight-text\">سَابِقٌۢ</a> بِٱلْخَيْرَٰتِ بِإِذْنِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَضْلُ ٱلْكَبِيرُ",
+      "derivedForms": [
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 40,
+      "text": "لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ سَابِقُ ٱلنَّهَارِ ۚ وَكُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+      "highlightedHtml": "لَا ٱلشَّمْسُ يَنۢبَغِى لَهَآ أَن تُدْرِكَ ٱلْقَمَرَ وَلَا ٱلَّيْلُ <a class=\"highlight-text\">سَابِقُ</a> ٱلنَّهَارِ ۚ وَكُلٌّ فِى فَلَكٍ يَسْبَحُونَ",
+      "derivedForms": [
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 66,
+      "text": "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ فَٱسْتَبَقُوا۟ ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ",
+      "highlightedHtml": "وَلَوْ نَشَآءُ لَطَمَسْنَا عَلَىٰٓ أَعْيُنِهِمْ <a class=\"highlight-text\">فَٱسْتَبَقُوا۟</a> ٱلصِّرَٰطَ فَأَنَّىٰ يُبْصِرُونَ",
+      "derivedForms": [
+        "اسْتَبَقَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 171,
+      "text": "وَلَقَدْ سَبَقَتْ كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">سَبَقَتْ</a> كَلِمَتُنَا لِعِبَادِنَا ٱلْمُرْسَلِينَ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 45,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَٱخْتُلِفَ فِيهِ ۗ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ فَٱخْتُلِفَ فِيهِ ۗ وَلَوْلَا كَلِمَةٌ <a class=\"highlight-text\">سَبَقَتْ</a> مِن رَّبِّكَ لَقُضِىَ بَيْنَهُمْ ۚ وَإِنَّهُمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 14,
+      "text": "وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِن رَّبِّكَ إِلَىٰٓ أَجَلٍ مُّسَمًّى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "highlightedHtml": "وَمَا تَفَرَّقُوٓا۟ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ ٱلْعِلْمُ بَغْيًۢا بَيْنَهُمْ ۚ وَلَوْلَا كَلِمَةٌ <a class=\"highlight-text\">سَبَقَتْ</a> مِن رَّبِّكَ إِلَىٰٓ أَجَلٍ مُّسَمًّى لَّقُضِىَ بَيْنَهُمْ ۚ وَإِنَّ ٱلَّذِينَ أُورِثُوا۟ ٱلْكِتَٰبَ مِنۢ بَعْدِهِمْ لَفِى شَكٍّ مِّنْهُ مُرِيبٍ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 11,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا سَبَقُونَآ إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ قَدِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا <a class=\"highlight-text\">سَبَقُونَآ</a> إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ قَدِيمٌ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 10,
+      "text": "وَٱلسَّٰبِقُونَ ٱلسَّٰبِقُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلسَّٰبِقُونَ</a> <a class=\"highlight-text\">ٱلسَّٰبِقُونَ</a>",
+      "derivedForms": [
+        "سابِق",
+        "سابِق"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 60,
+      "text": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "highlightedHtml": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ ٱلْمَوْتَ وَمَا نَحْنُ <a class=\"highlight-text\">بِمَسْبُوقِينَ</a>",
+      "derivedForms": [
+        "مسبوق"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 21,
+      "text": "سَابِقُوٓا۟ إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ آمَنُوا بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">سَابِقُوٓا۟</a> إِلَىٰ مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ ٱلسَّمَآءِ وَٱلْأَرْضِ أُعِدَّتْ لِلَّذِينَ آمَنُوا بِٱللَّهِ وَرُسُلِهِۦ ۚ ذَٰلِكَ فَضْلُ ٱللَّهِ يُؤْتِيهِ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "سابِقوا"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 10,
+      "text": "وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ سَبَقُونَا بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَآ إِنَّكَ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ جَآءُو مِنۢ بَعْدِهِمْ يَقُولُونَ رَبَّنَا ٱغْفِرْ لَنَا وَلِإِخْوَٰنِنَا ٱلَّذِينَ <a class=\"highlight-text\">سَبَقُونَا</a> بِٱلْإِيمَٰنِ وَلَا تَجْعَلْ فِى قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَآ إِنَّكَ رَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "سَبَقَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 41,
+      "text": "عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+      "highlightedHtml": "عَلَىٰٓ أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ <a class=\"highlight-text\">بِمَسْبُوقِينَ</a>",
+      "derivedForms": [
+        "مسبوق"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 4,
+      "text": "فَٱلسَّٰبِقَٰتِ سَبْقًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلسَّٰبِقَٰتِ</a> <a class=\"highlight-text\">سَبْقًا</a>",
+      "derivedForms": [
+        "سابِق",
+        "سَبْق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:35.330Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VIII) imperative verb",
+    "derivativeNote": "فَٱسْتَبِقُوا۟ is in the derivative form: اسْتَبَقَ",
+    "rootDefinitionHtml": "س/ب/ق   s–b–q being ahead, in front, outpacing, outstripping. <br><br>Of this root, 6 forms occur 37 times in the Qur’an:<br>سَبَقَ sabaqa 2 times;اسْتَبَق ʾistabaqa 5 times; سَبْق sabq 1 time; سابِق sābiq 8 times and مَسْبوق masbūq 2 times.",
+    "mainDefinitionHtml": "اسْتَبَقَ ʾistabaqa [v. VIII, trans.] to race for, to compete for <br><br>(12:25) وَاسْتَبَقَا الْبَابَ and they raced for the door.",
+    "mainEntryId": "wdef-س-ب-ق.اسْتَبَقَ",
+    "entries": [
+      {
+        "id": "wdef-س-ب-ق",
+        "label": "س-ب-ق",
+        "definitionHtml": "س/ب/ق   s–b–q being ahead, in front, outpacing, outstripping. <br><br>Of this root, 6 forms occur 37 times in the Qur’an:<br>سَبَقَ sabaqa 2 times;اسْتَبَق ʾistabaqa 5 times; سَبْق sabq 1 time; سابِق sābiq 8 times and مَسْبوق masbūq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ق.اسْتَبَقَ",
+        "label": "اسْتَبَقَ",
+        "definitionHtml": "اسْتَبَقَ ʾistabaqa [v. VIII, trans.] to race for, to compete for <br><br>(12:25) وَاسْتَبَقَا الْبَابَ and they raced for the door.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ب-ق.سابِق",
+        "label": "سابِق",
+        "definitionHtml": "سابِق sābiq [act. part.] one who precedes or gets ahead of others in a race, outstripping <br><br>(35:32) وَمِنْهُمْ سَابِقٌ بِالْخَيْرَاتِ بِإِذْنِ اللَّهِ and of them some are outstripping [others] in good deeds, by God’s leave.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ق.سابِقوا",
+        "label": "سابِقوا",
+        "definitionHtml": "سابِقوا sābiqū [imper. v. III, intrans.] to vie or race with one another <br><br>(57:21) سَابِقُوا إِلَى مَغْفِرَةٍ مِنْ رَبِّكُمْ vie for forgiveness from your Lord.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ق.سَبَقَ",
+        "label": "سَبَقَ",
+        "definitionHtml": "سَبَقَ sabaqa i I [v. intrans.] <br><br><strong>1 </strong>to go past, to go before <br><br>(20:99) كَذَلِكَ نَقُصُّ عَلَيْكَ مِنْ أَنْبَاءِ مَا قَدْ سَبَقَ in this way We relate to you [Prophet] stories of what went on before; *<br><br>(8:68) لَوْلاَ كِتَابٌ مِنَ اللَّهِ سَبَقَ had it not been for a decree from God that had already been issued; *<br><br>(11:40) إِلاَّ مَنْ سَبَقَ عَلَيْهِ الْقَوْلُ except those against whom the sentence has already been passed [lit. the word has passed against them] II [v. trans.] <br><br><strong>1 </strong>to do something before others <br><br>(7:80) أَتَأْتُونَ الْفَاحِشَةَ مَا سَبَقَكُمْ بِهَا مِنْ أَحَدٍ مِنَ الْعَالَمِينَ how can you practise the obscenity which not one community before you has ever committed? <br><br><strong>2 </strong>to outrace, to outstrip, to beat someone to <br><br>(46:11) وَقَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ ءَامَنُوا لَوْ كَانَ خَيْرًا مَا سَبَقُونَا إِلَيْهِ and those who disbelieve say, concerning the believers, ‘If it [the new faith] were good, they [the believers] would not have beaten us to [embracing] it’ <br><br><strong>3 </strong>[with no obj.] to go beyond reach, to be ahead, to outstrip, to win <br><br>(8:59) وَلاَ يَحْسَبَنَّ الَّذِينَ كَفَرُوا سَبَقُوا the disbelievers should not think they have won.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ق.سَبْق",
+        "label": "سَبْق",
+        "definitionHtml": "سَبْق sabq [v. n., used adverbially for intensification] getting ahead of others, outracing, overtaking <br><br>(79:4) فَالسَّابِقَاتِ سَبْقًا overtaking swiftly.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ب-ق.مسبوق",
+        "label": "مسبوق",
+        "definitionHtml": "مسبوق masbūq [pass. part.] one who is outstripped, overtaken, outdone, outrun; one who is stopped, prevented <br><br>(56:60) نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ We ordained death among you, and we are not to be outrun [also: stopped].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:15.370Z",
+      "refword": "2:148:5",
+      "lexword": "فَٱسْتَبِقُوا۟"
+    }
+  }
+}

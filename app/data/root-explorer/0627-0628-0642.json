@@ -1,0 +1,74 @@
+{
+  "root": "ابق",
+  "rootArabic": "ابق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَبَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَبَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 140,
+      "text": "إِذْ أَبَقَ إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">أَبَقَ</a> إِلَى ٱلْفُلْكِ ٱلْمَشْحُونِ",
+      "derivedForms": [
+        "أَبَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:07.341Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "أَبَقَ is in the derivative form: أَبَقَ",
+    "rootDefinitionHtml": "أ/ب/ق ʾ–b–q ʾ–b–q (of a slave) to flee from one’s master, to bolt; to mutiny; to hide; (of a she-camel) to deny its milk. Of this root, أَبَقَ ʾabaqa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَبَقَ ʾabaqa a/u [v. intrans.] to run away from one’s master <br><br>(37:140) إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ when he fled [from his Master] to the overloaded ship.",
+    "mainEntryId": "wdef-أ-ب-ق.أَبَقَ",
+    "entries": [
+      {
+        "id": "wdef-أ-ب-ق",
+        "label": "أ-ب-ق",
+        "definitionHtml": "أ/ب/ق ʾ–b–q ʾ–b–q (of a slave) to flee from one’s master, to bolt; to mutiny; to hide; (of a she-camel) to deny its milk. Of this root, أَبَقَ ʾabaqa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ب-ق.أَبَقَ",
+        "label": "أَبَقَ",
+        "definitionHtml": "أَبَقَ ʾabaqa a/u [v. intrans.] to run away from one’s master <br><br>(37:140) إِذْ أَبَقَ إِلَى الْفُلْكِ الْمَشْحُونِ when he fled [from his Master] to the overloaded ship.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:23:32.506Z",
+      "refword": "37:140:2",
+      "lexword": "أَبَقَ"
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "root": "رجم",
+  "rootArabic": "رجم",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 5,
+    "surahCount": 12,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "رَجِيمٌ",
+      "count": 6
+    },
+    {
+      "form": "رَجَمَ",
+      "count": 5
+    },
+    {
+      "form": "رَجْمٌ",
+      "count": 1
+    },
+    {
+      "form": "رُجُومٌ",
+      "count": 1
+    },
+    {
+      "form": "مَرْجُومُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجِيمٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجَمَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَجِيمٌ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجِيمٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَجَمَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "رَجْمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجَمَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْجُومُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجَمَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجِيمٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجَمَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُجُومٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَجِيمٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 36,
+      "text": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "highlightedHtml": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ <a class=\"highlight-text\">ٱلرَّجِيمِ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 91,
+      "text": "قَالُوا۟ يَٰشُعَيْبُ مَا نَفْقَهُ كَثِيرًا مِّمَّا تَقُولُ وَإِنَّا لَنَرَىٰكَ فِينَا ضَعِيفًا ۖ وَلَوْلَا رَهْطُكَ لَرَجَمْنَٰكَ ۖ وَمَآ أَنتَ عَلَيْنَا بِعَزِيزٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰشُعَيْبُ مَا نَفْقَهُ كَثِيرًا مِّمَّا تَقُولُ وَإِنَّا لَنَرَىٰكَ فِينَا ضَعِيفًا ۖ وَلَوْلَا رَهْطُكَ <a class=\"highlight-text\">لَرَجَمْنَٰكَ</a> ۖ وَمَآ أَنتَ عَلَيْنَا بِعَزِيزٍ",
+      "derivedForms": [
+        "رَجَمَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 17,
+      "text": "وَحَفِظْنَٰهَا مِن كُلِّ شَيْطَٰنٍ رَّجِيمٍ",
+      "highlightedHtml": "وَحَفِظْنَٰهَا مِن كُلِّ شَيْطَٰنٍ <a class=\"highlight-text\">رَّجِيمٍ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 34,
+      "text": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
+      "highlightedHtml": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ <a class=\"highlight-text\">رَجِيمٌ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 98,
+      "text": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "highlightedHtml": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ <a class=\"highlight-text\">ٱلرَّجِيمِ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 20,
+      "text": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ يَرْجُمُوكُمْ أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًا",
+      "highlightedHtml": "إِنَّهُمْ إِن يَظْهَرُوا۟ عَلَيْكُمْ <a class=\"highlight-text\">يَرْجُمُوكُمْ</a> أَوْ يُعِيدُوكُمْ فِى مِلَّتِهِمْ وَلَن تُفْلِحُوٓا۟ إِذًا أَبَدًا",
+      "derivedForms": [
+        "رَجَمَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 22,
+      "text": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "highlightedHtml": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ <a class=\"highlight-text\">رَجْمًۢا</a> بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "derivedForms": [
+        "رَجْمٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 46,
+      "text": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا",
+      "highlightedHtml": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ <a class=\"highlight-text\">لَأَرْجُمَنَّكَ</a> ۖ وَٱهْجُرْنِى مَلِيًّا",
+      "derivedForms": [
+        "رَجَمَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 116,
+      "text": "قَالُوا۟ لَئِن لَّمْ تَنتَهِ يَٰنُوحُ لَتَكُونَنَّ مِنَ ٱلْمَرْجُومِينَ",
+      "highlightedHtml": "قَالُوا۟ لَئِن لَّمْ تَنتَهِ يَٰنُوحُ لَتَكُونَنَّ مِنَ <a class=\"highlight-text\">ٱلْمَرْجُومِينَ</a>",
+      "derivedForms": [
+        "مَرْجُومُون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 18,
+      "text": "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ لَنَرْجُمَنَّكُمْ وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "قَالُوٓا۟ إِنَّا تَطَيَّرْنَا بِكُمْ ۖ لَئِن لَّمْ تَنتَهُوا۟ <a class=\"highlight-text\">لَنَرْجُمَنَّكُمْ</a> وَلَيَمَسَّنَّكُم مِّنَّا عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "رَجَمَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 77,
+      "text": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ رَجِيمٌ",
+      "highlightedHtml": "قَالَ فَٱخْرُجْ مِنْهَا فَإِنَّكَ <a class=\"highlight-text\">رَجِيمٌ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 20,
+      "text": "وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ",
+      "highlightedHtml": "وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن <a class=\"highlight-text\">تَرْجُمُونِ</a>",
+      "derivedForms": [
+        "رَجَمَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 5,
+      "text": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا رُجُومًا لِّلشَّيَٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا <a class=\"highlight-text\">رُجُومًا</a> لِّلشَّيَٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+      "derivedForms": [
+        "رُجُومٌ"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 25,
+      "text": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍ رَّجِيمٍ",
+      "highlightedHtml": "وَمَا هُوَ بِقَوْلِ شَيْطَٰنٍ <a class=\"highlight-text\">رَّجِيمٍ</a>",
+      "derivedForms": [
+        "رَجِيمٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:09.158Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine singular adjective",
+    "derivativeNote": "ٱلرَّجِيمِ is in the derivative form: رَجِيمٌ",
+    "rootDefinitionHtml": "ر/ج/م   r–j–m stones, to stone, to kill by stoning, to heap up stones (on a grave), to heap abuse (on)<br>; to curse, to drive out, to expel; doubt, conjecture; boycotting; shooting stars; to gauge the level of water in a well. <br><br>Of this root, 5 forms occur 14 times in the Qur’an:<br> رَجَمَ rajama 5 times; رَجْمٌ rajm 1 time; رُجُومٌ rujūm 1 time; رَجِيمٌ rajım 6 times and مَرْجُومُون marjūmūn 1 time.",
+    "mainDefinitionHtml": "رَجِيمٌ rajım [quasi‐pass. part.] stoned, cast out <br><br>(15:17) وَحَفِظْنَاهَا مِنْ كُلِّ شَيْطَانٍ رَجِيمٍ and guarded it from every outcast devil; *<br><br>(16:98) الرَّجِيمِ (epithet of Satan) the outcast, the stoned.",
+    "mainEntryId": "wdef-ر-ج-م.رَجِيمٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ج-م",
+        "label": "ر-ج-م",
+        "definitionHtml": "ر/ج/م   r–j–m stones, to stone, to kill by stoning, to heap up stones (on a grave), to heap abuse (on)<br>; to curse, to drive out, to expel; doubt, conjecture; boycotting; shooting stars; to gauge the level of water in a well. <br><br>Of this root, 5 forms occur 14 times in the Qur’an:<br> رَجَمَ rajama 5 times; رَجْمٌ rajm 1 time; رُجُومٌ rujūm 1 time; رَجِيمٌ rajım 6 times and مَرْجُومُون marjūmūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-م.رَجِيمٌ",
+        "label": "رَجِيمٌ",
+        "definitionHtml": "رَجِيمٌ rajım [quasi‐pass. part.] stoned, cast out <br><br>(15:17) وَحَفِظْنَاهَا مِنْ كُلِّ شَيْطَانٍ رَجِيمٍ and guarded it from every outcast devil; *<br><br>(16:98) الرَّجِيمِ (epithet of Satan) the outcast, the stoned.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ج-م.رُجُومٌ",
+        "label": "رُجُومٌ",
+        "definitionHtml": "رُجُومٌ rujūm [pl. of n. رَجْم rajm] materials for stoning, rocks, projectiles, missiles <br><br>(67:5) وَجَعَلْنَاهَا رُجُومًا لِلشَّيَاطِينِ and We have made them [the stars] rocks for stoning the devils.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-م.رَجَمَ",
+        "label": "رَجَمَ",
+        "definitionHtml": "رَجَمَ rajama u [v. trans.] to stone <br><br>(18:20) إِنْ يَظْهَرُوا عَلَيْكُمْ يَرْجُمُوكُمْ if they should discover you, they will stone you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-م.رَجْمٌ",
+        "label": "رَجْمٌ",
+        "definitionHtml": "رَجْمٌ rajm [v. n.] the act of stoning *<br><br>(18:22) رَجْمًا بِالْغَيْبِ conjecturing, guessing in the dark, guessing at what is being kept hidden, shooting in the dark [lit. throwing stones without seeing, blindly].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-م.مَرْجُومُون",
+        "label": "مَرْجُومُون",
+        "definitionHtml": "مَرْجُومُون marjūmūn [pl. of pass. part. مَرْجُومٌ marjūm] stoned, castaway, outcast <br><br>(26:116) لَتَكُونَنَّ مِنَ الْمَرْجُومِينَ you will be among those stoned.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:33.060Z",
+      "refword": "3:36:24",
+      "lexword": "ٱلرَّجِيمِ"
+    }
+  }
+}

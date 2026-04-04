@@ -1,0 +1,106 @@
+{
+  "root": "غوص",
+  "rootArabic": "غوص",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "غَوّاص",
+      "count": 1
+    },
+    {
+      "form": "يَغوص",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَغوص",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَوّاص",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 82,
+      "text": "وَمِنَ ٱلشَّيَٰطِينِ مَن يَغُوصُونَ لَهُۥ وَيَعْمَلُونَ عَمَلًا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَٰفِظِينَ",
+      "highlightedHtml": "وَمِنَ ٱلشَّيَٰطِينِ مَن <a class=\"highlight-text\">يَغُوصُونَ</a> لَهُۥ وَيَعْمَلُونَ عَمَلًا دُونَ ذَٰلِكَ ۖ وَكُنَّا لَهُمْ حَٰفِظِينَ",
+      "derivedForms": [
+        "يَغوص"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 37,
+      "text": "وَٱلشَّيَٰطِينَ كُلَّ بَنَّآءٍ وَغَوَّاصٍ",
+      "highlightedHtml": "وَٱلشَّيَٰطِينَ كُلَّ بَنَّآءٍ <a class=\"highlight-text\">وَغَوَّاصٍ</a>",
+      "derivedForms": [
+        "غَوّاص"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:18.005Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَغُوصُونَ is in the derivative form: يَغوص",
+    "rootDefinitionHtml": "غ/و/ص   gh–w–ṣ to dive under water, to dive for pearls, diver, a dive. Of this root, يَغوصون yaghūṣūn and غَوّاص ghawwāṣ occur 1 time each in the Qur’a<br>n",
+    "mainDefinitionHtml": "يَغوص yaghūṣ [imperf. of v. غَاصَ ghāṣa, intrans.] to dive <br><br>(21:82) وَمِنَ‏ ‏الشَّيَاطِينِ‏ ‏مَنْ‏ ‏يَغُوصُونَ‏ ‏لَه and of the devils there are some who dive for him.",
+    "mainEntryId": "wdef-غ-و-ص.يَغوص",
+    "entries": [
+      {
+        "id": "wdef-غ-و-ص",
+        "label": "غ-و-ص",
+        "definitionHtml": "غ/و/ص   gh–w–ṣ to dive under water, to dive for pearls, diver, a dive. Of this root, يَغوصون yaghūṣūn and غَوّاص ghawwāṣ occur 1 time each in the Qur’a<br>n",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ص.يَغوص",
+        "label": "يَغوص",
+        "definitionHtml": "يَغوص yaghūṣ [imperf. of v. غَاصَ ghāṣa, intrans.] to dive <br><br>(21:82) وَمِنَ‏ ‏الشَّيَاطِينِ‏ ‏مَنْ‏ ‏يَغُوصُونَ‏ ‏لَه and of the devils there are some who dive for him.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-و-ص.غَوّاص",
+        "label": "غَوّاص",
+        "definitionHtml": "غَوّاص ghawwāṣ [intrans. act. part./n.] a diver, one who dives <br><br>(38:37) وَالشَّيَاطِينَ‏ ‏كُلَّ‏ ‏بَنَّاءٍ‏ ‏وَغَوَّاصٍ‏and of the devils, we have [subjected to him] every builder and diver.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:19.584Z",
+      "refword": "21:82:4",
+      "lexword": "يَغُوصُونَ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "رتع",
+  "rootArabic": "رتع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَرْتَعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْتَعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 12,
+      "text": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "highlightedHtml": "أَرْسِلْهُ مَعَنَا غَدًا <a class=\"highlight-text\">يَرْتَعْ</a> وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "derivedForms": [
+        "يَرْتَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:03.568Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَرْتَعْ is in the derivative form: يَرْتَعُ",
+    "rootDefinitionHtml": "ر/ت/ع   r–t–ʿ to pasture in lush grass, to be in fertile land, to have plenty to eat and drink, to live in great affluence; to lark about in a carefree manner. Of this root, يَرْتَعُ yartaʿ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَرْتَعُ yartaʿ [imperf. of v. رَتَعَ rataʿa, intrans.] to enjoy oneself playing in the open, to run about enjoying oneself <br><br>(12:12) أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ send him with us tomorrow to run about and play.",
+    "mainEntryId": "wdef-ر-ت-ع.يَرْتَعُ",
+    "entries": [
+      {
+        "id": "wdef-ر-ت-ع",
+        "label": "ر-ت-ع",
+        "definitionHtml": "ر/ت/ع   r–t–ʿ to pasture in lush grass, to be in fertile land, to have plenty to eat and drink, to live in great affluence; to lark about in a carefree manner. Of this root, يَرْتَعُ yartaʿ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ت-ع.يَرْتَعُ",
+        "label": "يَرْتَعُ",
+        "definitionHtml": "يَرْتَعُ yartaʿ [imperf. of v. رَتَعَ rataʿa, intrans.] to enjoy oneself playing in the open, to run about enjoying oneself <br><br>(12:12) أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ send him with us tomorrow to run about and play.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:22.173Z",
+      "refword": "12:12:4",
+      "lexword": "يَرْتَعْ"
+    }
+  }
+}

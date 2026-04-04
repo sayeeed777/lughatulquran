@@ -297,7 +297,8 @@ export default function StudyModeView({
     wordAudioRef,
     wordAudioUrl,
     selectedWordDetails,
-    isRootModalOpen,
+    isLaneModalOpen,
+    isRootDetailsModalOpen,
     rootLexicon,
     rootLexiconLoading,
     rootLexiconError,
@@ -307,8 +308,10 @@ export default function StudyModeView({
     handleWordAudio,
     handleWordSelect,
     closeWordDetails,
+    openLaneLexicon,
+    closeLaneModal,
     openRootDetails,
-    closeRootModal,
+    closeRootDetailsModal,
     selectedRoot,
     selectedRootArabic,
     rootMeaningSummary,
@@ -640,7 +643,8 @@ export default function StudyModeView({
       {!showMemorizationPreview ? (
         <StudyLexiconModals
           selectedWordDetails={selectedWordDetails}
-          isRootModalOpen={isRootModalOpen}
+          isLaneModalOpen={isLaneModalOpen}
+          isRootDetailsModalOpen={isRootDetailsModalOpen}
           selectedRoot={selectedRoot}
           selectedRootArabic={selectedRootArabic}
           rootMeaningSummary={rootMeaningSummary}
@@ -649,7 +653,9 @@ export default function StudyModeView({
           rootLexiconLoading={rootLexiconLoading}
           rootLexicon={rootLexicon}
           onCloseWordDetails={closeWordDetails}
-          onCloseRootModal={closeRootModal}
+          onCloseLaneModal={closeLaneModal}
+          onCloseRootDetailsModal={closeRootDetailsModal}
+          onOpenLaneLexicon={openLaneLexicon}
           onOpenRootDetails={openRootDetails}
           onPlayWordAudio={handleWordAudio}
           onJumpToAyah={jumpToStudyAyah}

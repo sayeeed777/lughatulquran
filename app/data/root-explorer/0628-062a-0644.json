@@ -1,0 +1,84 @@
+{
+  "root": "بتل",
+  "rootArabic": "بتل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَبَتَّلْ",
+      "count": 1
+    },
+    {
+      "form": "X",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَبَتَّلْ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 73,
+      "ayah": 8,
+      "text": "وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا",
+      "highlightedHtml": "وَٱذْكُرِ ٱسْمَ رَبِّكَ <a class=\"highlight-text\">وَتَبَتَّلْ</a> إِلَيْهِ <a class=\"highlight-text\">تَبْتِيلًا</a>",
+      "derivedForms": [
+        "تَبَتَّلْ",
+        "X"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:09.108Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form V) imperative verb",
+    "derivativeNote": "وَتَبَتَّلْ is in the derivative form: تَبَتَّلْ",
+    "rootDefinitionHtml": "ب/ت/ل   b–t–l to cut off, to separate, to stay away from others; to give up pleasures; to be celibate. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَبَتَّلْ tabattal and تَبْتِيلٌ tabtıl.",
+    "mainDefinitionHtml": "تَبَتَّلْ tabattal [imperat. of v. V تَبَتَّلَ tabattala, intrans. with prep. إلى, v. n. تَبْتِيل tabtıl] to devote oneself entirely [to God’s service] <br><br>(73:8) وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلاً so celebrate the name of your Lord and devote yourself wholeheartedly to Him.",
+    "mainEntryId": "wdef-ب-ت-ل.تَبَتَّلْ",
+    "entries": [
+      {
+        "id": "wdef-ب-ت-ل",
+        "label": "ب-ت-ل",
+        "definitionHtml": "ب/ت/ل   b–t–l to cut off, to separate, to stay away from others; to give up pleasures; to be celibate. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَبَتَّلْ tabattal and تَبْتِيلٌ tabtıl.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ت-ل.تَبَتَّلْ",
+        "label": "تَبَتَّلْ",
+        "definitionHtml": "تَبَتَّلْ tabattal [imperat. of v. V تَبَتَّلَ tabattala, intrans. with prep. إلى, v. n. تَبْتِيل tabtıl] to devote oneself entirely [to God’s service] <br><br>(73:8) وَاذْكُرِ اسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلاً so celebrate the name of your Lord and devote yourself wholeheartedly to Him.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:10.247Z",
+      "refword": "73:8:4",
+      "lexword": "وَتَبَتَّلْ"
+    }
+  }
+}

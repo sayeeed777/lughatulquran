@@ -1,0 +1,95 @@
+{
+  "root": "حوذ",
+  "rootArabic": "حوذ",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اِسْتَحْوَذَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِسْتَحْوَذَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِسْتَحْوَذَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 141,
+      "text": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "highlightedHtml": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ <a class=\"highlight-text\">نَسْتَحْوِذْ</a> عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "derivedForms": [
+        "اِسْتَحْوَذَ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 19,
+      "text": "ٱسْتَحْوَذَ عَلَيْهِمُ ٱلشَّيْطَٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ ۚ أُو۟لَٰٓئِكَ حِزْبُ ٱلشَّيْطَٰنِ ۚ أَلَآ إِنَّ حِزْبَ ٱلشَّيْطَٰنِ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱسْتَحْوَذَ</a> عَلَيْهِمُ ٱلشَّيْطَٰنُ فَأَنسَىٰهُمْ ذِكْرَ ٱللَّهِ ۚ أُو۟لَٰٓئِكَ حِزْبُ ٱلشَّيْطَٰنِ ۚ أَلَآ إِنَّ حِزْبَ ٱلشَّيْطَٰنِ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "اِسْتَحْوَذَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:45.981Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form X) imperfect verb, jussive mood",
+    "derivativeNote": "نَسْتَحْوِذْ is in the derivative form: اِسْتَحْوَذَ",
+    "rootDefinitionHtml": "ح/و/ذ   ḥ–w–dh the back of an animal’s thighs where the tail begins; to contain, to take possession, property; to seize; to urge, agility. Of this root, اِسْتَحْوَذَ ʾistaḥwadha occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "اِسْتَحْوَذَ ʾistaḥwadha [v. X, intrans. with prep. على] to seize, to prevail over, to gain mastery over, to take complete control <br><br>(58:19) اسْتَحْوَذَ عَلَيْهِمُ الشَّيْطَانُ فَأَنْسَاهُمْ ذِكْرَ اللَّهِ Satan has gained control over them and made them forget God.",
+    "mainEntryId": "wdef-ح-و-ذ.اِسْتَحْوَذَ",
+    "entries": [
+      {
+        "id": "wdef-ح-و-ذ",
+        "label": "ح-و-ذ",
+        "definitionHtml": "ح/و/ذ   ḥ–w–dh the back of an animal’s thighs where the tail begins; to contain, to take possession, property; to seize; to urge, agility. Of this root, اِسْتَحْوَذَ ʾistaḥwadha occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ذ.اِسْتَحْوَذَ",
+        "label": "اِسْتَحْوَذَ",
+        "definitionHtml": "اِسْتَحْوَذَ ʾistaḥwadha [v. X, intrans. with prep. على] to seize, to prevail over, to gain mastery over, to take complete control <br><br>(58:19) اسْتَحْوَذَ عَلَيْهِمُ الشَّيْطَانُ فَأَنْسَاهُمْ ذِكْرَ اللَّهِ Satan has gained control over them and made them forget God.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:55.414Z",
+      "refword": "4:141:20",
+      "lexword": "نَسْتَحْوِذْ"
+    }
+  }
+}

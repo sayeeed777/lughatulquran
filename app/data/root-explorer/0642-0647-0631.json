@@ -1,0 +1,273 @@
+{
+  "root": "قهر",
+  "rootArabic": "قهر",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 3,
+    "surahCount": 9,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "القَهَّار",
+      "count": 6
+    },
+    {
+      "form": "قَاهِر",
+      "count": 3
+    },
+    {
+      "form": "تَقْهَر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَاهِر",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَاهِر",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "القَهَّار",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقْهَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 18,
+      "text": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَهُوَ <a class=\"highlight-text\">ٱلْقَاهِرُ</a> فَوْقَ عِبَادِهِۦ ۚ وَهُوَ ٱلْحَكِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "قَاهِر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 61,
+      "text": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ",
+      "highlightedHtml": "وَهُوَ <a class=\"highlight-text\">ٱلْقَاهِرُ</a> فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ",
+      "derivedForms": [
+        "قَاهِر"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 127,
+      "text": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُۥ لِيُفْسِدُوا۟ فِى ٱلْأَرْضِ وَيَذَرَكَ وَءَالِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ وَإِنَّا فَوْقَهُمْ قَٰهِرُونَ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلَأُ مِن قَوْمِ فِرْعَوْنَ أَتَذَرُ مُوسَىٰ وَقَوْمَهُۥ لِيُفْسِدُوا۟ فِى ٱلْأَرْضِ وَيَذَرَكَ وَءَالِهَتَكَ ۚ قَالَ سَنُقَتِّلُ أَبْنَآءَهُمْ وَنَسْتَحْىِۦ نِسَآءَهُمْ وَإِنَّا فَوْقَهُمْ <a class=\"highlight-text\">قَٰهِرُونَ</a>",
+      "derivedForms": [
+        "قَاهِر"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 39,
+      "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "highlightedHtml": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ <a class=\"highlight-text\">ٱلْقَهَّارُ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 16,
+      "text": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّٰرُ",
+      "highlightedHtml": "قُلْ مَن رَّبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى تَسْتَوِى ٱلظُّلُمَٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ <a class=\"highlight-text\">ٱلْقَهَّٰرُ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 48,
+      "text": "يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "highlightedHtml": "يَوْمَ تُبَدَّلُ ٱلْأَرْضُ غَيْرَ ٱلْأَرْضِ وَٱلسَّمَٰوَٰتُ ۖ وَبَرَزُوا۟ لِلَّهِ ٱلْوَٰحِدِ <a class=\"highlight-text\">ٱلْقَهَّارِ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 65,
+      "text": "قُلْ إِنَّمَآ أَنَا۠ مُنذِرٌ ۖ وَمَا مِنْ إِلَٰهٍ إِلَّا ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "highlightedHtml": "قُلْ إِنَّمَآ أَنَا۠ مُنذِرٌ ۖ وَمَا مِنْ إِلَٰهٍ إِلَّا ٱللَّهُ ٱلْوَٰحِدُ <a class=\"highlight-text\">ٱلْقَهَّارُ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 4,
+      "text": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا يَخْلُقُ مَا يَشَآءُ ۚ سُبْحَٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "highlightedHtml": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا يَخْلُقُ مَا يَشَآءُ ۚ سُبْحَٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ <a class=\"highlight-text\">ٱلْقَهَّارُ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 16,
+      "text": "يَوْمَ هُم بَٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ ٱلْقَهَّارِ",
+      "highlightedHtml": "يَوْمَ هُم بَٰرِزُونَ ۖ لَا يَخْفَىٰ عَلَى ٱللَّهِ مِنْهُمْ شَىْءٌ ۚ لِّمَنِ ٱلْمُلْكُ ٱلْيَوْمَ ۖ لِلَّهِ ٱلْوَٰحِدِ <a class=\"highlight-text\">ٱلْقَهَّارِ</a>",
+      "derivedForms": [
+        "القَهَّار"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 9,
+      "text": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+      "highlightedHtml": "فَأَمَّا ٱلْيَتِيمَ فَلَا <a class=\"highlight-text\">تَقْهَرْ</a>",
+      "derivedForms": [
+        "تَقْهَر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:18.964Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine active participle",
+    "derivativeNote": "ٱلْقَاهِرُ is in the derivative form: قَاهِر",
+    "rootDefinitionHtml": "ق/ﻫ/ر   q–h–r to conquer, to subjugate, to compel, to subdue<br>; to be scanty. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> تَقْهَر taqhar 1 time; قَاهِر qāhir 2 times; قَاهِرُون qāhirūn 1 time and قَهَّار qahhār 6 times.",
+    "mainDefinitionHtml": "قَاهِر qāhir I [act. part.; pl. قَاهِرُون qāhirūn] one who subdues, one prevailing, one who compels <br><br>(7:127) وَإِنَّا فَوْقَهُمْ قَاهِرُونَ indeed we have complete power over them II [with the definite article, القَاهِر ʾal-qāhir, nominalised act. part.] [an attribute of God] the One in indisputable control, the Master <br><br>(6:18) الْقَاهِرُ فَوْقَ عِبَادِهِ the Supreme Master over His servants.",
+    "mainEntryId": "wdef-ق-ﻫ-ر.قَاهِر",
+    "entries": [
+      {
+        "id": "wdef-ق-ﻫ-ر",
+        "label": "ق-ﻫ-ر",
+        "definitionHtml": "ق/ﻫ/ر   q–h–r to conquer, to subjugate, to compel, to subdue<br>; to be scanty. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> تَقْهَر taqhar 1 time; قَاهِر qāhir 2 times; قَاهِرُون qāhirūn 1 time and قَهَّار qahhār 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ﻫ-ر.قَاهِر",
+        "label": "قَاهِر",
+        "definitionHtml": "قَاهِر qāhir I [act. part.; pl. قَاهِرُون qāhirūn] one who subdues, one prevailing, one who compels <br><br>(7:127) وَإِنَّا فَوْقَهُمْ قَاهِرُونَ indeed we have complete power over them II [with the definite article, القَاهِر ʾal-qāhir, nominalised act. part.] [an attribute of God] the One in indisputable control, the Master <br><br>(6:18) الْقَاهِرُ فَوْقَ عِبَادِهِ the Supreme Master over His servants.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ﻫ-ر.القَهَّار",
+        "label": "القَهَّار",
+        "definitionHtml": "القَهَّار ʾal-qahhār [nominalised intens. act. part.] [attribute of God] the One who holds absolute power over all <br><br>(12:39) الْوَاحِدُ الْقَهَّارُ the One, the All‐powerful.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ﻫ-ر.تَقْهَر",
+        "label": "تَقْهَر",
+        "definitionHtml": "تَقْهَر taqhar [imperf. of v. trans.] to oppress <br><br>(93:9) فَأَمَّا الْيَتِيمَ فَلاَ تَقْهَرْ as for the the orphan, never oppress him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:10.637Z",
+      "refword": "6:18:2",
+      "lexword": "ٱلْقَاهِرُ"
+    }
+  }
+}

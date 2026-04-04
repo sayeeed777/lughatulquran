@@ -1,0 +1,84 @@
+{
+  "root": "اسس",
+  "rootArabic": "اسس",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَسَّسَ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَسَّسَ",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 108,
+      "text": "لَا تَقُمْ فِيهِ أَبَدًا ۚ لَّمَسْجِدٌ أُسِّسَ عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ",
+      "highlightedHtml": "لَا تَقُمْ فِيهِ أَبَدًا ۚ لَّمَسْجِدٌ <a class=\"highlight-text\">أُسِّسَ</a> عَلَى ٱلتَّقْوَىٰ مِنْ أَوَّلِ يَوْمٍ أَحَقُّ أَن تَقُومَ فِيهِ ۚ فِيهِ رِجَالٌ يُحِبُّونَ أَن يَتَطَهَّرُوا۟ ۚ وَٱللَّهُ يُحِبُّ ٱلْمُطَّهِّرِينَ",
+      "derivedForms": [
+        "أَسَّسَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 109,
+      "text": "أَفَمَنْ أَسَّسَ بُنْيَٰنَهُۥ عَلَىٰ تَقْوَىٰ مِنَ ٱللَّهِ وَرِضْوَٰنٍ خَيْرٌ أَم مَّنْ أَسَّسَ بُنْيَٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٍ فَٱنْهَارَ بِهِۦ فِى نَارِ جَهَنَّمَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "أَفَمَنْ <a class=\"highlight-text\">أَسَّسَ</a> بُنْيَٰنَهُۥ عَلَىٰ تَقْوَىٰ مِنَ ٱللَّهِ وَرِضْوَٰنٍ خَيْرٌ أَم مَّنْ <a class=\"highlight-text\">أَسَّسَ</a> بُنْيَٰنَهُۥ عَلَىٰ شَفَا جُرُفٍ هَارٍ فَٱنْهَارَ بِهِۦ فِى نَارِ جَهَنَّمَ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "أَسَّسَ",
+        "أَسَّسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:30.680Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) passive perfect verb",
+    "derivativeNote": "أُسِّسَ is in the derivative form: أَسَّسَ",
+    "rootDefinitionHtml": "أ/س/س ʾ–s–s beginning, root, foundation, to found. Of this root, أَسَّسَ ʾassasa occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَسَّسَ ʾassasa [v. II trans.] to found, to establish, to base <br><br>(9:109) أَفَمَنْ أَسَّسَ بُنْيَانَهُ عَلَى تَقْوَى مِنَ اللَّهِ وَرِضْوَانٍ خَيْرٌ أَمْ مَنْ أَسَّسَ بُنْيَانَهُ عَلَى شَفَا جُرُفٍ هَارٍ is he who founds his building on consciousness of God and desire for His good pleasure better, or the one who founds his building on the brink of a crumbling precipice?",
+    "mainEntryId": "wdef-أ-س-س.أَسَّسَ",
+    "entries": [
+      {
+        "id": "wdef-أ-س-س",
+        "label": "أ-س-س",
+        "definitionHtml": "أ/س/س ʾ–s–s beginning, root, foundation, to found. Of this root, أَسَّسَ ʾassasa occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-س.أَسَّسَ",
+        "label": "أَسَّسَ",
+        "definitionHtml": "أَسَّسَ ʾassasa [v. II trans.] to found, to establish, to base <br><br>(9:109) أَفَمَنْ أَسَّسَ بُنْيَانَهُ عَلَى تَقْوَى مِنَ اللَّهِ وَرِضْوَانٍ خَيْرٌ أَمْ مَنْ أَسَّسَ بُنْيَانَهُ عَلَى شَفَا جُرُفٍ هَارٍ is he who founds his building on consciousness of God and desire for His good pleasure better, or the one who founds his building on the brink of a crumbling precipice?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:08.931Z",
+      "refword": "9:108:6",
+      "lexword": "أُسِّسَ"
+    }
+  }
+}

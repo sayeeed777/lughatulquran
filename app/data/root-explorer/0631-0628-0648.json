@@ -1,0 +1,409 @@
+{
+  "root": "ربو",
+  "rootArabic": "ربو",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 6,
+    "surahCount": 12,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "رِبَا",
+      "count": 7
+    },
+    {
+      "form": "رَبَى",
+      "count": 5
+    },
+    {
+      "form": "أَرْبَى",
+      "count": 2
+    },
+    {
+      "form": "رَابِى",
+      "count": 2
+    },
+    {
+      "form": "رَبْوَةٌ",
+      "count": 2
+    },
+    {
+      "form": "رَبَّى",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "رِبَا",
+          "count": 5,
+          "totalInQuran": 7
+        },
+        {
+          "form": "أَرْبَى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "رَبْوَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رِبَا",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رِبَا",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَابِى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْبَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَّى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبْوَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَّى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "رَبَى",
+          "count": 3,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَابِى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 265,
+      "text": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ <a class=\"highlight-text\">بِرَبْوَةٍ</a> أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "رَبْوَةٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 275,
+      "text": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يَأْكُلُونَ <a class=\"highlight-text\">ٱلرِّبَوٰا۟</a> لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ <a class=\"highlight-text\">ٱلرِّبَوٰا۟</a> ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ <a class=\"highlight-text\">ٱلرِّبَوٰا۟</a> ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "رِبَا",
+        "رِبَا",
+        "رِبَا"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 276,
+      "text": "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+      "highlightedHtml": "يَمْحَقُ ٱللَّهُ <a class=\"highlight-text\">ٱلرِّبَوٰا۟</a> <a class=\"highlight-text\">وَيُرْبِى</a> ٱلصَّدَقَٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+      "derivedForms": [
+        "رِبَا",
+        "أَرْبَى"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 278,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا بَقِىَ مِنَ ٱلرِّبَوٰٓا۟ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا بَقِىَ مِنَ <a class=\"highlight-text\">ٱلرِّبَوٰٓا۟</a> إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "رِبَا"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 130,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَٰفًا مُّضَٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَأْكُلُوا۟ <a class=\"highlight-text\">ٱلرِّبَوٰٓا۟</a> أَضْعَٰفًا مُّضَٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "رِبَا"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 161,
+      "text": "وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "وَأَخْذِهِمُ <a class=\"highlight-text\">ٱلرِّبَوٰا۟</a> وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "رِبَا"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 17,
+      "text": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا رَّابِيًا ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "highlightedHtml": "أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَالَتْ أَوْدِيَةٌۢ بِقَدَرِهَا فَٱحْتَمَلَ ٱلسَّيْلُ زَبَدًا <a class=\"highlight-text\">رَّابِيًا</a> ۚ وَمِمَّا يُوقِدُونَ عَلَيْهِ فِى ٱلنَّارِ ٱبْتِغَآءَ حِلْيَةٍ أَوْ مَتَٰعٍ زَبَدٌ مِّثْلُهُۥ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْحَقَّ وَٱلْبَٰطِلَ ۚ فَأَمَّا ٱلزَّبَدُ فَيَذْهَبُ جُفَآءً ۖ وَأَمَّا مَا يَنفَعُ ٱلنَّاسَ فَيَمْكُثُ فِى ٱلْأَرْضِ ۚ كَذَٰلِكَ يَضْرِبُ ٱللَّهُ ٱلْأَمْثَالَ",
+      "derivedForms": [
+        "رَابِى"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 92,
+      "text": "وَلَا تَكُونُوا۟ كَٱلَّتِى نَقَضَتْ غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ أَنكَٰثًا تَتَّخِذُونَ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ أَرْبَىٰ مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "highlightedHtml": "وَلَا تَكُونُوا۟ كَٱلَّتِى نَقَضَتْ غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ أَنكَٰثًا تَتَّخِذُونَ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ <a class=\"highlight-text\">أَرْبَىٰ</a> مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "derivedForms": [
+        "أَرْبَى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 24,
+      "text": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "highlightedHtml": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا <a class=\"highlight-text\">رَبَّيَانِى</a> صَغِيرًا",
+      "derivedForms": [
+        "رَبَّى"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ <a class=\"highlight-text\">وَرَبَتْ</a> وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "رَبَى"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 50,
+      "text": "وَجَعَلْنَا ٱبْنَ مَرْيَمَ وَأُمَّهُۥٓ آيَةً وَءَاوَيْنَٰهُمَآ إِلَىٰ رَبْوَةٍ ذَاتِ قَرَارٍ وَمَعِينٍ",
+      "highlightedHtml": "وَجَعَلْنَا ٱبْنَ مَرْيَمَ وَأُمَّهُۥٓ آيَةً وَءَاوَيْنَٰهُمَآ إِلَىٰ <a class=\"highlight-text\">رَبْوَةٍ</a> ذَاتِ قَرَارٍ وَمَعِينٍ",
+      "derivedForms": [
+        "رَبْوَةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 18,
+      "text": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
+      "highlightedHtml": "قَالَ أَلَمْ <a class=\"highlight-text\">نُرَبِّكَ</a> فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
+      "derivedForms": [
+        "رَبَّى"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 39,
+      "text": "وَمَآ آتَيْتُمْ مِّن رِّبًا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ آتَيْتُمْ مِّن زَكَوٰةٍ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ",
+      "highlightedHtml": "وَمَآ آتَيْتُمْ مِّن <a class=\"highlight-text\">رِّبًا</a> <a class=\"highlight-text\">لِّيَرْبُوَا۟</a> فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا <a class=\"highlight-text\">يَرْبُوا۟</a> عِندَ ٱللَّهِ ۖ وَمَآ آتَيْتُمْ مِّن زَكَوٰةٍ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ",
+      "derivedForms": [
+        "رَبَى",
+        "رَبَى",
+        "رَبَى"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 39,
+      "text": "وَمِنْ آيَاتِهِ أَنَّكَ تَرَى ٱلْأَرْضَ خَٰشِعَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ أَنَّكَ تَرَى ٱلْأَرْضَ خَٰشِعَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ <a class=\"highlight-text\">وَرَبَتْ</a> ۚ إِنَّ ٱلَّذِىٓ أَحْيَاهَا لَمُحْىِ ٱلْمَوْتَىٰٓ ۚ إِنَّهُۥ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "رَبَى"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 10,
+      "text": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
+      "highlightedHtml": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً <a class=\"highlight-text\">رَّابِيَةً</a>",
+      "derivedForms": [
+        "رَابِى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:02.540Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite noun",
+    "derivativeNote": "بِرَبْوَةٍ is in the derivative form: رَبْوَةٌ",
+    "rootDefinitionHtml": "ر/ب/و   r–b–w hill, elevated part of the land, to go on the top of a hill<br>; growth, to increase; usury; to be out of breath, to have asthma; to raise, to grow under someone’s care, to educate, to cultivate; a group of 10 thousand people. <br><br>Of this root, 8 forms occur 20 times in the Qur’an:<br> رَبَى rabā 4 times; رَبَّى rabbā 2 times; أَرْبَى ʾarbā (1) 1 time; رَابِي rābı 1 time; رَابِيَةٌ rābiyatun 1 time; أَرْبَى ʾarbā (2) 1 time; رِبَا ribā 8 times and رَبْوَةٌ rabwatun 2 times.",
+    "mainDefinitionHtml": "رَبْوَةٌ rabwatun [n.] hill, elevated land, height <br><br>(2:265) كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ like a garden on a hill.",
+    "mainEntryId": "wdef-ر-ب-و.رَبْوَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ب-و",
+        "label": "ر-ب-و",
+        "definitionHtml": "ر/ب/و   r–b–w hill, elevated part of the land, to go on the top of a hill<br>; growth, to increase; usury; to be out of breath, to have asthma; to raise, to grow under someone’s care, to educate, to cultivate; a group of 10 thousand people. <br><br>Of this root, 8 forms occur 20 times in the Qur’an:<br> رَبَى rabā 4 times; رَبَّى rabbā 2 times; أَرْبَى ʾarbā (1) 1 time; رَابِي rābı 1 time; رَابِيَةٌ rābiyatun 1 time; أَرْبَى ʾarbā (2) 1 time; رِبَا ribā 8 times and رَبْوَةٌ rabwatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.رَبْوَةٌ",
+        "label": "رَبْوَةٌ",
+        "definitionHtml": "رَبْوَةٌ rabwatun [n.] hill, elevated land, height <br><br>(2:265) كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ like a garden on a hill.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ب-و.أَرْبَى",
+        "label": "أَرْبَى",
+        "definitionHtml": "أَرْبَى ʾarbā [elat.] more, higher, greater <br><br>(16:92) أَنْ تَكُونَ أُمَّةٌ هِيَ أَرْبَى مِنْ أُمَّةٍ just because one party may be more numerous than another.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.رَابِى",
+        "label": "رَابِى",
+        "definitionHtml": "رَابِى rābı [quasi‐act. part., fem. رَابِيَة rābiyatun] <br><br><strong>1 </strong>high, mounting up, swelling <br><br>(13:17) فَاحْتَمَلَ السَّيْلُ زَبَدًا رَابِيًا and the flood carries with it a swelling froth <br><br><strong>2 </strong>severe, harsh, ever-tightening <br><br>(69:10) فَعَصَوْا رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَابِيَةً but they disobeyed the messenger of their Lord, so He seized them with an ever‐tightening grip.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.رَبَى",
+        "label": "رَبَى",
+        "definitionHtml": "رَبَى rabā ū [v. intrans.] <br><br><strong>1 </strong>to increase, to grow <br><br>(30:39) وَمَا ءَاتَيْتُمْ مِنْ رِبًا لِيَرْبُوَ فِى أَمْوَالِ النَّاسِ فَلاَ يَرْبُو عِنْدَ اللَّهِ whatever you give out in usury to increase in value through [other] people’s wealth will not increase with God <br><br><strong>2 </strong>to swell up, to come to life <br><br>(22:5) وَتَرَى الأَرْضَ هَامِدَةً فَإِذَا أَنْزَلْنَا عَلَيْهَا الْمَاءَ اهْتَزَّتْ وَرَبَتْ you perceive the earth lifeless, yet when We send down upon it water, it stirs and swells.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.رَبَّى",
+        "label": "رَبَّى",
+        "definitionHtml": "رَبَّى rabbā [v. II, trans.] to bring up, to raise, to rear <br><br>(17:24) وَقُلْ رَبِّ ارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا and say, ‘Lord, have mercy on them both, just as they reared me when I was little.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.رِبَا",
+        "label": "رِبَا",
+        "definitionHtml": "رِبَا ribā [n.] usury <br><br>(2:275) الَّذِينَ يَأْكُلُونَ الرِّبَا لاَ يَقُومُونَ إِلاَّ كَمَا يَقُومُ الَّذِي يَتَخَبَّطُهُ الشَّيْطَانُ مِنَ الْمَسِّ those who consume usury will not rise [up on the Day of Resurrection] except like someone confounded by Satan’s touch.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-و.يُرْبِي",
+        "label": "يُرْبِي",
+        "definitionHtml": "يُرْبِي yurbı [imperf. of v. IV أَرْبَى ʾarbā, trans.] to cause to increase, to cause to grow <br><br>(2:276) يمْحَقُ اللَّهُ الرِّبَا وَيُرْبِي الصَّدَقَاتِ God blights usury, but blesses charitable deeds with multiple increase.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:19.973Z",
+      "refword": "2:265:13",
+      "lexword": "بِرَبْوَةٍ"
+    }
+  }
+}

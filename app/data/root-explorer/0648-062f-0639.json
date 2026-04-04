@@ -1,0 +1,159 @@
+{
+  "root": "ودع",
+  "rootArabic": "ودع",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "مُسْتَوْدَعٌ",
+      "count": 2
+    },
+    {
+      "form": "دَعْ",
+      "count": 1
+    },
+    {
+      "form": "وَدَّعَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتَوْدَعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتَوْدَعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَعْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَدَّعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 98,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَكُم مِّن نَّفْسٍ وَٰحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍ يَفْقَهُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنشَأَكُم مِّن نَّفْسٍ وَٰحِدَةٍ فَمُسْتَقَرٌّ <a class=\"highlight-text\">وَمُسْتَوْدَعٌ</a> ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍ يَفْقَهُونَ",
+      "derivedForms": [
+        "مُسْتَوْدَعٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 6,
+      "text": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا وَمُسْتَوْدَعَهَا ۚ كُلٌّ فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ إِلَّا عَلَى ٱللَّهِ رِزْقُهَا وَيَعْلَمُ مُسْتَقَرَّهَا <a class=\"highlight-text\">وَمُسْتَوْدَعَهَا</a> ۚ كُلٌّ فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "مُسْتَوْدَعٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 48,
+      "text": "وَلَا تُطِعِ ٱلْكَٰفِرِينَ وَٱلْمُنَٰفِقِينَ وَدَعْ أَذَىٰهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
+      "highlightedHtml": "وَلَا تُطِعِ ٱلْكَٰفِرِينَ وَٱلْمُنَٰفِقِينَ <a class=\"highlight-text\">وَدَعْ</a> أَذَىٰهُمْ وَتَوَكَّلْ عَلَى ٱللَّهِ ۚ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
+      "derivedForms": [
+        "دَعْ"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 3,
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "highlightedHtml": "مَا <a class=\"highlight-text\">وَدَّعَكَ</a> رَبُّكَ وَمَا قَلَىٰ",
+      "derivedForms": [
+        "وَدَّعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:07.482Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite (form X) passive participle",
+    "derivativeNote": "وَمُسْتَوْدَعٌ is in the derivative form: مُسْتَوْدَعٌ",
+    "rootDefinitionHtml": "و/د/ع   w–d–ʿ a safe place, a depository<br>; comfort, serenity, to place in good keeping; to bid farewell, to see off, to leave behind; to leave alone, to cease hostility with, to exchange pledges of mutual peace. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> دَعْ daʿ 1 time; وَدَّعَ waddaʿa 1 time and مُسْتَوْدَعٌ mustawdaʿ 2 times.",
+    "mainDefinitionHtml": "مُسْتَوْدَعٌ mustawdaʿ [n. of place] a place of deposit [interpreted as either the womb or the grave] <br><br>(6:98) وَهُوَ الَّذِي أَنْشَأَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ and He it is who produced you from a single soul, then [gave you] a residing place [while you lived] and a repository [after death]‏.",
+    "mainEntryId": "wdef-و-د-ع.مُسْتَوْدَعٌ",
+    "entries": [
+      {
+        "id": "wdef-و-د-ع",
+        "label": "و-د-ع",
+        "definitionHtml": "و/د/ع   w–d–ʿ a safe place, a depository<br>; comfort, serenity, to place in good keeping; to bid farewell, to see off, to leave behind; to leave alone, to cease hostility with, to exchange pledges of mutual peace. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> دَعْ daʿ 1 time; وَدَّعَ waddaʿa 1 time and مُسْتَوْدَعٌ mustawdaʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-د-ع.مُسْتَوْدَعٌ",
+        "label": "مُسْتَوْدَعٌ",
+        "definitionHtml": "مُسْتَوْدَعٌ mustawdaʿ [n. of place] a place of deposit [interpreted as either the womb or the grave] <br><br>(6:98) وَهُوَ الَّذِي أَنْشَأَكُمْ مِنْ نَفْسٍ وَاحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ and He it is who produced you from a single soul, then [gave you] a residing place [while you lived] and a repository [after death]‏.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-د-ع.دَعْ",
+        "label": "دَعْ",
+        "definitionHtml": "دَعْ daʿ [imper. of the rarely used وَدَعَ wadaʿa, v. trans.] to ignore, to dismiss; to stop, to refrain from doing <br><br>(33:48) وَلاَ تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ do not give in to the disbelievers and the hypocrites: ignore the harm they cause you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-د-ع.وَدَّعَ",
+        "label": "وَدَّعَ",
+        "definitionHtml": "وَدَّعَ waddaʿa [v. II, trans.] to abandon, to leave behind, to forsake <br><br>(93:3) مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى your Lord has neither forsaken you [Prophet], nor has He come to hate [you].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:21.636Z",
+      "refword": "6:98:8",
+      "lexword": "وَمُسْتَوْدَعٌ"
+    }
+  }
+}

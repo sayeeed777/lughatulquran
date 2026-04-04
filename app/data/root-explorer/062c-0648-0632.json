@@ -1,0 +1,156 @@
+{
+  "root": "جوز",
+  "rootArabic": "جوز",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "جَاوَزَ",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَاوَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَاوَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَاوَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَاوَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 249,
+      "text": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًا مِّنْهُمْ ۚ فَلَمَّا جَاوَزَهُۥ هُوَ وَٱلَّذِينَ آمَنُوا مَعَهُۥ قَالُوا۟ لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "فَلَمَّا فَصَلَ طَالُوتُ بِٱلْجُنُودِ قَالَ إِنَّ ٱللَّهَ مُبْتَلِيكُم بِنَهَرٍ فَمَن شَرِبَ مِنْهُ فَلَيْسَ مِنِّى وَمَن لَّمْ يَطْعَمْهُ فَإِنَّهُۥ مِنِّىٓ إِلَّا مَنِ ٱغْتَرَفَ غُرْفَةًۢ بِيَدِهِۦ ۚ فَشَرِبُوا۟ مِنْهُ إِلَّا قَلِيلًا مِّنْهُمْ ۚ فَلَمَّا <a class=\"highlight-text\">جَاوَزَهُۥ</a> هُوَ وَٱلَّذِينَ آمَنُوا مَعَهُۥ قَالُوا۟ لَا طَاقَةَ لَنَا ٱلْيَوْمَ بِجَالُوتَ وَجُنُودِهِۦ ۚ قَالَ ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ ٱللَّهِ كَم مِّن فِئَةٍ قَلِيلَةٍ غَلَبَتْ فِئَةً كَثِيرَةًۢ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "جَاوَزَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 138,
+      "text": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتَوْا۟ عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰٓ أَصْنَامٍ لَّهُمْ ۚ قَالُوا۟ يَٰمُوسَى ٱجْعَل لَّنَآ إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَجَٰوَزْنَا</a> بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتَوْا۟ عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰٓ أَصْنَامٍ لَّهُمْ ۚ قَالُوا۟ يَٰمُوسَى ٱجْعَل لَّنَآ إِلَٰهًا كَمَا لَهُمْ آلِهَةٌ ۚ قَالَ إِنَّكُمْ قَوْمٌ تَجْهَلُونَ",
+      "derivedForms": [
+        "جَاوَزَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 90,
+      "text": "وَجَٰوَزْنَا بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ آمَنْتُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱلَّذِىٓ آمَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَجَٰوَزْنَا</a> بِبَنِىٓ إِسْرَٰٓءِيلَ ٱلْبَحْرَ فَأَتْبَعَهُمْ فِرْعَوْنُ وَجُنُودُهُۥ بَغْيًا وَعَدْوًا ۖ حَتَّىٰٓ إِذَآ أَدْرَكَهُ ٱلْغَرَقُ قَالَ آمَنْتُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا ٱلَّذِىٓ آمَنَتْ بِهِۦ بَنُوٓا۟ إِسْرَٰٓءِيلَ وَأَنَا۠ مِنَ ٱلْمُسْلِمِينَ",
+      "derivedForms": [
+        "جَاوَزَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 62,
+      "text": "فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ آتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">جَاوَزَا</a> قَالَ لِفَتَىٰهُ آتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا",
+      "derivedForms": [
+        "جَاوَزَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 16,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ نَتَقَبَّلُ عَنْهُمْ أَحْسَنَ مَا عَمِلُوا۟ وَنَتَجَاوَزُ عَن سَيِّـَٔاتِهِمْ فِىٓ أَصْحَٰبِ ٱلْجَنَّةِ ۖ وَعْدَ ٱلصِّدْقِ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ نَتَقَبَّلُ عَنْهُمْ أَحْسَنَ مَا عَمِلُوا۟ <a class=\"highlight-text\">وَنَتَجَاوَزُ</a> عَن سَيِّـَٔاتِهِمْ فِىٓ أَصْحَٰبِ ٱلْجَنَّةِ ۖ وَعْدَ ٱلصِّدْقِ ٱلَّذِى كَانُوا۟ يُوعَدُونَ",
+      "derivedForms": []
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:34.381Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form III) perfect verb",
+    "derivativeNote": "جَاوَزَهُۥ is in the derivative form: جَاوَزَ",
+    "rootDefinitionHtml": "ج/و/ز   j–w–z beam; to cross, to traverse, road, crossing; to allow, to pass off, to help to cross; to pardon, to disregard; to reward, prize. Of this root, جَاوَزَ jāwaza, occurs 5 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "جَاوَزَ jāwaza [v. III, trans.] <br><br><strong>1 </strong>to cross, to traverse <br><br>(2:249) فَلَمَّا جَاوَزَهُ هُوَ وَالَّذِينَ ءَامَنُوا مَعَهُِ when he crossed it with those who had kept faith with him <br><br><strong>2 </strong>to pass by, to leave behind, to go further <br><br>(18:62) فَلَمَّا جَاوَزَا قَالَ لِفَتَاهُ ءَاتِنَا غَدَاءَنَا then when they had gone past the appointed time/place, he said to his servant, ‘Fetch us our lunch!’ <br><br><strong>3 </strong>[with prep. عن] to forgo, to overlook, to pass over <br><br>(46:16) وَنَتَجاوَزُ عَنْ سَيِّئَاتِهِمْ and We forgo their bad deeds.",
+    "mainEntryId": "wdef-ج-و-ز.جَاوَزَ",
+    "entries": [
+      {
+        "id": "wdef-ج-و-ز",
+        "label": "ج-و-ز",
+        "definitionHtml": "ج/و/ز   j–w–z beam; to cross, to traverse, road, crossing; to allow, to pass off, to help to cross; to pardon, to disregard; to reward, prize. Of this root, جَاوَزَ jāwaza, occurs 5 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-و-ز.جَاوَزَ",
+        "label": "جَاوَزَ",
+        "definitionHtml": "جَاوَزَ jāwaza [v. III, trans.] <br><br><strong>1 </strong>to cross, to traverse <br><br>(2:249) فَلَمَّا جَاوَزَهُ هُوَ وَالَّذِينَ ءَامَنُوا مَعَهُِ when he crossed it with those who had kept faith with him <br><br><strong>2 </strong>to pass by, to leave behind, to go further <br><br>(18:62) فَلَمَّا جَاوَزَا قَالَ لِفَتَاهُ ءَاتِنَا غَدَاءَنَا then when they had gone past the appointed time/place, he said to his servant, ‘Fetch us our lunch!’ <br><br><strong>3 </strong>[with prep. عن] to forgo, to overlook, to pass over <br><br>(46:16) وَنَتَجاوَزُ عَنْ سَيِّئَاتِهِمْ and We forgo their bad deeds.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:42.985Z",
+      "refword": "2:249:31",
+      "lexword": "جَاوَزَهُۥ"
+    }
+  }
+}

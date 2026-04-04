@@ -1,0 +1,74 @@
+{
+  "root": "اود",
+  "rootArabic": "اود",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَؤُودُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَؤُودُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 255,
+      "text": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا يَـُٔودُهُۥ حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "highlightedHtml": "ٱللَّهُ لَآ إِلَٰهَ إِلَّا هُوَ ٱلْحَىُّ ٱلْقَيُّومُ ۚ لَا تَأْخُذُهُۥ سِنَةٌ وَلَا نَوْمٌ ۚ لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ مَن ذَا ٱلَّذِى يَشْفَعُ عِندَهُۥٓ إِلَّا بِإِذْنِهِۦ ۚ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَىْءٍ مِّنْ عِلْمِهِۦٓ إِلَّا بِمَا شَآءَ ۚ وَسِعَ كُرْسِيُّهُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۖ وَلَا <a class=\"highlight-text\">يَـُٔودُهُۥ</a> حِفْظُهُمَا ۚ وَهُوَ ٱلْعَلِىُّ ٱلْعَظِيمُ",
+      "derivedForms": [
+        "يَؤُودُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:58.169Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَـُٔودُهُۥ is in the derivative form: يَؤُودُ",
+    "rootDefinitionHtml": "أ/و/د ʾ–w–d weight; effort, hardship; to weigh down; crookedness; to wriggle; to be kind. Of this root, يَؤُودُ yaʾūd occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَؤُودُ yaʾūd [imperf. of v. آدَ ʾāda, trans.] to weigh down, to trouble, to wear down <br><br>(2:255) وَسِعَ كُرْسِيُّهُ السَّمَوَاتِ وَالأَرْضَ وَلاَ يَئُودُهُ حِفْظُهُمَا His throne extends over the heavens and the Earth; preserving them both does not weigh Him down.",
+    "mainEntryId": "wdef-أ-و-د.يَؤُودُ",
+    "entries": [
+      {
+        "id": "wdef-أ-و-د",
+        "label": "أ-و-د",
+        "definitionHtml": "أ/و/د ʾ–w–d weight; effort, hardship; to weigh down; crookedness; to wriggle; to be kind. Of this root, يَؤُودُ yaʾūd occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-و-د.يَؤُودُ",
+        "label": "يَؤُودُ",
+        "definitionHtml": "يَؤُودُ yaʾūd [imperf. of v. آدَ ʾāda, trans.] to weigh down, to trouble, to wear down <br><br>(2:255) وَسِعَ كُرْسِيُّهُ السَّمَوَاتِ وَالأَرْضَ وَلاَ يَئُودُهُ حِفْظُهُمَا His throne extends over the heavens and the Earth; preserving them both does not weigh Him down.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:53.161Z",
+      "refword": "2:255:46",
+      "lexword": "يَـُٔودُهُۥ"
+    }
+  }
+}

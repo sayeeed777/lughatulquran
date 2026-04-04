@@ -1,0 +1,106 @@
+{
+  "root": "فكك",
+  "rootArabic": "فكك",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "فَكّ",
+      "count": 1
+    },
+    {
+      "form": "مُنْفَكّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 90,
+      "surahName": "Al-Balad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَكّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 98,
+      "surahName": "Al-Bayyinah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْفَكّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 90,
+      "ayah": 13,
+      "text": "فَكُّ رَقَبَةٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَكُّ</a> رَقَبَةٍ",
+      "derivedForms": [
+        "فَكّ"
+      ]
+    },
+    {
+      "surah": 98,
+      "ayah": 1,
+      "text": "لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ مُنفَكِّينَ حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+      "highlightedHtml": "لَمْ يَكُنِ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَٱلْمُشْرِكِينَ <a class=\"highlight-text\">مُنفَكِّينَ</a> حَتَّىٰ تَأْتِيَهُمُ ٱلْبَيِّنَةُ",
+      "derivedForms": [
+        "مُنْفَكّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:11.609Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "فَكُّ is in the derivative form: فَكّ",
+    "rootDefinitionHtml": "ف/ك/ك f–k–k to dissemble, to dismantle, to separate, to free from bondage; to be weak; jaw. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> فَكّ fakk and مُنْفَكّين munfakkın.",
+    "mainDefinitionHtml": "فَكّ fakk [v. n.] freeing, setting free, untying *<br><br>(90:13) فَكُّ‏ ‏رَقَبَةٍ freeing of a slave‏ [lit. untying of a neck].",
+    "mainEntryId": "wdef-ف-ك-ك.فَكّ",
+    "entries": [
+      {
+        "id": "wdef-ف-ك-ك",
+        "label": "ف-ك-ك",
+        "definitionHtml": "ف/ك/ك f–k–k to dissemble, to dismantle, to separate, to free from bondage; to be weak; jaw. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> فَكّ fakk and مُنْفَكّين munfakkın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ك-ك.فَكّ",
+        "label": "فَكّ",
+        "definitionHtml": "فَكّ fakk [v. n.] freeing, setting free, untying *<br><br>(90:13) فَكُّ‏ ‏رَقَبَةٍ freeing of a slave‏ [lit. untying of a neck].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ك-ك.مُنْفَكّ",
+        "label": "مُنْفَكّ",
+        "definitionHtml": "مُنْفَكّ munfakk [act./pass. part.] one who ceases an action, one who desists, one who leaves off, one who lets go of; something untied <br><br>(98:1)‏لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنْفَكِّينَ حَتَّى تَأْتِيَهُمُ الْبَيِّنَةُ those who denied [the truth] of the People of the Book and the idolaters would never desist till the Clear Sign came to them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:01.470Z",
+      "refword": "90:13:1",
+      "lexword": "فَكُّ"
+    }
+  }
+}

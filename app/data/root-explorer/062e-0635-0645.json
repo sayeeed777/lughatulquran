@@ -1,0 +1,447 @@
+{
+  "root": "خصم",
+  "rootArabic": "خصم",
+  "stats": {
+    "totalOccurrences": 18,
+    "derivativeCount": 7,
+    "surahCount": 12,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "اخْتَصَمَ",
+      "count": 8
+    },
+    {
+      "form": "خَصِيمٌ",
+      "count": 3
+    },
+    {
+      "form": "خِصَامٌ",
+      "count": 2
+    },
+    {
+      "form": "خَصْمَانِ",
+      "count": 2
+    },
+    {
+      "form": "تَخَاصُمٌ",
+      "count": 1
+    },
+    {
+      "form": "خَصْمٌ",
+      "count": 1
+    },
+    {
+      "form": "خَصِمُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خِصَامٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَصِيمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَصِيمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "خَصْمَانِ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "خَصِيمٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "تَخَاصُمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "خَصْمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "خَصْمَانِ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خِصَامٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَصِمُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَصَمَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 204,
+      "text": "وَمِنَ ٱلنَّاسِ مَن يُعْجِبُكَ قَوْلُهُۥ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيُشْهِدُ ٱللَّهَ عَلَىٰ مَا فِى قَلْبِهِۦ وَهُوَ أَلَدُّ ٱلْخِصَامِ",
+      "highlightedHtml": "وَمِنَ ٱلنَّاسِ مَن يُعْجِبُكَ قَوْلُهُۥ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَيُشْهِدُ ٱللَّهَ عَلَىٰ مَا فِى قَلْبِهِۦ وَهُوَ أَلَدُّ <a class=\"highlight-text\">ٱلْخِصَامِ</a>",
+      "derivedForms": [
+        "خِصَامٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 44,
+      "text": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ",
+      "highlightedHtml": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْغَيْبِ نُوحِيهِ إِلَيْكَ ۚ وَمَا كُنتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلَٰمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنتَ لَدَيْهِمْ إِذْ <a class=\"highlight-text\">يَخْتَصِمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 105,
+      "text": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًا",
+      "highlightedHtml": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ <a class=\"highlight-text\">خَصِيمًا</a>",
+      "derivedForms": [
+        "خَصِيمٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 4,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "highlightedHtml": "خَلَقَ ٱلْإِنسَٰنَ مِن نُّطْفَةٍ فَإِذَا هُوَ <a class=\"highlight-text\">خَصِيمٌ</a> مُّبِينٌ",
+      "derivedForms": [
+        "خَصِيمٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 19,
+      "text": "هَٰذَانِ خَصْمَانِ ٱخْتَصَمُوا۟ فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ",
+      "highlightedHtml": "هَٰذَانِ <a class=\"highlight-text\">خَصْمَانِ</a> <a class=\"highlight-text\">ٱخْتَصَمُوا۟</a> فِى رَبِّهِمْ ۖ فَٱلَّذِينَ كَفَرُوا۟ قُطِّعَتْ لَهُمْ ثِيَابٌ مِّن نَّارٍ يُصَبُّ مِن فَوْقِ رُءُوسِهِمُ ٱلْحَمِيمُ",
+      "derivedForms": [
+        "خَصْمَانِ",
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 96,
+      "text": "قَالُوا۟ وَهُمْ فِيهَا يَخْتَصِمُونَ",
+      "highlightedHtml": "قَالُوا۟ وَهُمْ فِيهَا <a class=\"highlight-text\">يَخْتَصِمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 45,
+      "text": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ فَإِذَا هُمْ فَرِيقَانِ يَخْتَصِمُونَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ فَإِذَا هُمْ فَرِيقَانِ <a class=\"highlight-text\">يَخْتَصِمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 49,
+      "text": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَٰحِدَةً تَأْخُذُهُمْ وَهُمْ يَخِصِّمُونَ",
+      "highlightedHtml": "مَا يَنظُرُونَ إِلَّا صَيْحَةً وَٰحِدَةً تَأْخُذُهُمْ وَهُمْ <a class=\"highlight-text\">يَخِصِّمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 77,
+      "text": "أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُّبِينٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَ ٱلْإِنسَٰنُ أَنَّا خَلَقْنَٰهُ مِن نُّطْفَةٍ فَإِذَا هُوَ <a class=\"highlight-text\">خَصِيمٌ</a> مُّبِينٌ",
+      "derivedForms": [
+        "خَصِيمٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 21,
+      "text": "وَهَلْ أَتَىٰكَ نَبَؤُا۟ ٱلْخَصْمِ إِذْ تَسَوَّرُوا۟ ٱلْمِحْرَابَ",
+      "highlightedHtml": "وَهَلْ أَتَىٰكَ نَبَؤُا۟ <a class=\"highlight-text\">ٱلْخَصْمِ</a> إِذْ تَسَوَّرُوا۟ ٱلْمِحْرَابَ",
+      "derivedForms": [
+        "خَصْمٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 22,
+      "text": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "highlightedHtml": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ <a class=\"highlight-text\">خَصْمَانِ</a> بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "derivedForms": [
+        "خَصْمَانِ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 64,
+      "text": "إِنَّ ذَٰلِكَ لَحَقٌّ تَخَاصُمُ أَهْلِ ٱلنَّارِ",
+      "highlightedHtml": "إِنَّ ذَٰلِكَ لَحَقٌّ <a class=\"highlight-text\">تَخَاصُمُ</a> أَهْلِ ٱلنَّارِ",
+      "derivedForms": [
+        "تَخَاصُمٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 69,
+      "text": "مَا كَانَ لِىَ مِنْ عِلْمٍۭ بِٱلْمَلَإِ ٱلْأَعْلَىٰٓ إِذْ يَخْتَصِمُونَ",
+      "highlightedHtml": "مَا كَانَ لِىَ مِنْ عِلْمٍۭ بِٱلْمَلَإِ ٱلْأَعْلَىٰٓ إِذْ <a class=\"highlight-text\">يَخْتَصِمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 31,
+      "text": "ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَٰمَةِ عِندَ رَبِّكُمْ تَخْتَصِمُونَ",
+      "highlightedHtml": "ثُمَّ إِنَّكُمْ يَوْمَ ٱلْقِيَٰمَةِ عِندَ رَبِّكُمْ <a class=\"highlight-text\">تَخْتَصِمُونَ</a>",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 18,
+      "text": "أَوَمَن يُنَشَّؤُا۟ فِى ٱلْحِلْيَةِ وَهُوَ فِى ٱلْخِصَامِ غَيْرُ مُبِينٍ",
+      "highlightedHtml": "أَوَمَن يُنَشَّؤُا۟ فِى ٱلْحِلْيَةِ وَهُوَ فِى <a class=\"highlight-text\">ٱلْخِصَامِ</a> غَيْرُ مُبِينٍ",
+      "derivedForms": [
+        "خِصَامٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 58,
+      "text": "وَقَالُوٓا۟ أَآلِهَتُنَا خَيْرٌ أَمْ هُوَ ۚ مَا ضَرَبُوهُ لَكَ إِلَّا جَدَلًۢا ۚ بَلْ هُمْ قَوْمٌ خَصِمُونَ",
+      "highlightedHtml": "وَقَالُوٓا۟ أَآلِهَتُنَا خَيْرٌ أَمْ هُوَ ۚ مَا ضَرَبُوهُ لَكَ إِلَّا جَدَلًۢا ۚ بَلْ هُمْ قَوْمٌ <a class=\"highlight-text\">خَصِمُونَ</a>",
+      "derivedForms": [
+        "خَصِمُون"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 28,
+      "text": "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ",
+      "highlightedHtml": "قَالَ لَا <a class=\"highlight-text\">تَخْتَصِمُوا۟</a> لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ",
+      "derivedForms": [
+        "اخْتَصَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:23.373Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "ٱلْخِصَامِ is in the derivative form: خِصَامٌ",
+    "rootDefinitionHtml": "خ/ص/م   kh–ṣ–m opposite side of a cloud<br>; corners/edges of a sack; handles; to dispute, to argue, to defeat in an argument, to quarrel; antagonist, opponent, opposing party; defendant; to claim. <br><br>Of this root, 8 forms occur 18 times:<br> اخْتَصَمَ ʾikhtaṣama 7 times; يَخِصِّمُون yakhiṣṣimūn 1 time; تَخَاصُمٌ takhāṣum 1 time; خَصْمٌ khaṣm 1 time; خَصْمَانِ khaṣmān 2 times; خَصِمُون khaṣimūn 1 time; خَصِيمٌ khaṣım 3 times and خِصَامٌ khiṣām 2 times.",
+    "mainDefinitionHtml": "خِصَامٌ khiṣām [n./v. n.] contention, animosity (in one interpretation of 2:204) وَمِنَ النَّاسِ مَنْ يُعْجِبُكَ قَوْلُهُ فِى الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللَّهَ عَلَى مَا فِى قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ there is the man whose views on the life of this world may please you, he [even] calls on God to witness what is in his heart, yet it is the most bitter of contentions.",
+    "mainEntryId": "wdef-خ-ص-م.خِصَامٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ص-م",
+        "label": "خ-ص-م",
+        "definitionHtml": "خ/ص/م   kh–ṣ–m opposite side of a cloud<br>; corners/edges of a sack; handles; to dispute, to argue, to defeat in an argument, to quarrel; antagonist, opponent, opposing party; defendant; to claim. <br><br>Of this root, 8 forms occur 18 times:<br> اخْتَصَمَ ʾikhtaṣama 7 times; يَخِصِّمُون yakhiṣṣimūn 1 time; تَخَاصُمٌ takhāṣum 1 time; خَصْمٌ khaṣm 1 time; خَصْمَانِ khaṣmān 2 times; خَصِمُون khaṣimūn 1 time; خَصِيمٌ khaṣım 3 times and خِصَامٌ khiṣām 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.خِصَامٌ",
+        "label": "خِصَامٌ",
+        "definitionHtml": "خِصَامٌ khiṣām [n./v. n.] contention, animosity (in one interpretation of 2:204) وَمِنَ النَّاسِ مَنْ يُعْجِبُكَ قَوْلُهُ فِى الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللَّهَ عَلَى مَا فِى قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ there is the man whose views on the life of this world may please you, he [even] calls on God to witness what is in his heart, yet it is the most bitter of contentions.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ص-م.اخْتَصَمَ",
+        "label": "اخْتَصَمَ",
+        "definitionHtml": "اخْتَصَمَ ʾikhtaṣama [v. VIII, no object (imperf. يَخِصِّمُون yakhiṣṣimūn at <br><br>(36:49) is a geminated, perhaps a more emphatic, form of the regular يَخْتصِمُون yakhtaṣimūn occurring elsewhere)] <br><br><strong>1 </strong>to dispute with, to disagree over <br><br>(22:19) هَذَانِ خَصْمَانِ اخْتَصَمُوا فِى رَبِّهِمْ these two opposing camps are in disagreement about their Lord <br><br><strong>2 </strong>to recriminate, to make counter accusations <br><br>(50:28) قَالَ لاَ تَخْتَصِمُوا لَدَيَّ وَقَدْ قَدَّمْتُ إِلَيْكُمْ بِالْوَعِيدِ He said, ‘Do not accuse one another in my presence; I gave you advance warnings’ <br><br><strong>3 </strong>to argue, to contend <br><br>(3:44) وَمَا كُنْتَ لَدَيْهِمْ إِذْ يُلْقُونَ أَقْلاَمَهُمْ أَيُّهُمْ يَكْفُلُ مَرْيَمَ وَمَا كُنْتَ لَدَيْهِمْ إِذْ يَخْتَصِمُونَ you were not present among them when they cast lots to see which of them should become guardian of Mary; you were not present with them when they argued [about her].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.تَخَاصُمٌ",
+        "label": "تَخَاصُمٌ",
+        "definitionHtml": "تَخَاصُمٌ takhāṣum [v. n.] mutual recrimination, disputing, wrangling <br><br>(38:64) إِنَّ ذَلِكَ لَحَقٌّ تَخَاصُمُ أَهْلِ النَّارِ that is real, the wrangling of the inhabitants of Hellfire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.خَصِمُون",
+        "label": "خَصِمُون",
+        "definitionHtml": "خَصِمُون khaṣimūn [pl. of intens. act. part. خَصِمٌ khaṣim] one given to disputing, contentious person <br><br>(43:58) وَقَالُوا أَآلِهَتُنَا خَيْرٌ أَمْ هُوَ مَا ضَرَبُوهُ لَكَ إِلاَّ جَدَلا بَلْ هُمْ قَوْمٌ خَصِمُونَ saying, ‘Are our gods better or him?’–they cite him only to provoke you, they are a contentious people.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.خَصِيمٌ",
+        "label": "خَصِيمٌ",
+        "definitionHtml": "خَصِيمٌ khaṣım [intens. act. part.] <br><br><strong>1 </strong>one given to antagonism, a contentious person <br><br>(16:4) خَلَقَ الإِنْسَانَ مِنْ نُطْفَةٍ فَإِذَا هُوَ خَصِيمٌ مُبِينٌ He created man from a drop of fluid, and behold the same man becomes an open contentious person <br><br><strong>2 </strong>defendant, advocate <br><br>(4:105) وَلاَ تَكُنْ لِلْخَائِنِينَ خَصِيمًا do not be an advocate for the treacherous.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.خَصْمٌ",
+        "label": "خَصْمٌ",
+        "definitionHtml": "خَصْمٌ khaṣm I [coll. n.] disputants, litigants <br><br>(38:21) وَهَلْ أَتَاكَ نَبَأُ الْخَصْمِ إِذْ تَسَوَّرُوا الْمِحْرَابَ has the story come to you of the litigants, when they climbed into the private quarters? II [n., pl. خِصَامٌ khiṣām] disputant, litigant, opponent (in one interpretation of 2:204) وَمِنَ النَّاسِ مَن يُعْجِبُكَ قَوْلُهُ فِى الْحَيَاةِ الدُّنْيَا وَيُشْهِدُ اللّهَ عَلَى مَا فِى قَلْبِهِ وَهُوَ أَلَدُّ الْخِصَامِ there is the man whose views on the life of this world may please you, he [even] calls on God to witness what is in his heart, yet, he is the most bitter of opponents.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ص-م.خَصْمَانِ",
+        "label": "خَصْمَانِ",
+        "definitionHtml": "خَصْمَانِ khaṣmān [dual n.] <br><br><strong>1 </strong>two litigating/antagonistic parties/persons <br><br>(38:22) قَالُوا لاَ تَخَفْ خَصْمَانِ بَغَى بَعْضُنَا عَلَى بَعْضٍ فَاحْكُمْ بَيْنَنَا بِالْحَقِّ they said, ‘Do not fear, [We are] two litigants, one of us has wronged the other, so judge between us fairly’ <br><br><strong>2 </strong>adversaries <br><br>(22:19) هَذَانِ خَصْمَانِ اخْتَصَمُوا فِى رَبِّهِمْ these are two opposing camps in disagreement about their Lord.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:10.620Z",
+      "refword": "2:204:17",
+      "lexword": "ٱلْخِصَامِ"
+    }
+  }
+}

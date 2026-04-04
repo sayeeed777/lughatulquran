@@ -1,0 +1,277 @@
+{
+  "root": "ضحك",
+  "rootArabic": "ضحك",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "ضَحِكَ",
+      "count": 7
+    },
+    {
+      "form": "أَضْحَكَ",
+      "count": 1
+    },
+    {
+      "form": "ضَاحِكٌ",
+      "count": 1
+    },
+    {
+      "form": "ضَاحِكَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَحِكَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَحِكَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَحِكَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَاحِكٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَحِكَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَضْحَكَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "ضَحِكَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَاحِكَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ضَحِكَ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 82,
+      "text": "فَلْيَضْحَكُوا۟ قَلِيلًا وَلْيَبْكُوا۟ كَثِيرًا جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَلْيَضْحَكُوا۟</a> قَلِيلًا وَلْيَبْكُوا۟ كَثِيرًا جَزَآءًۢ بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 71,
+      "text": "وَٱمْرَأَتُهُۥ قَآئِمَةٌ فَضَحِكَتْ فَبَشَّرْنَٰهَا بِإِسْحَٰقَ وَمِن وَرَآءِ إِسْحَٰقَ يَعْقُوبَ",
+      "highlightedHtml": "وَٱمْرَأَتُهُۥ قَآئِمَةٌ <a class=\"highlight-text\">فَضَحِكَتْ</a> فَبَشَّرْنَٰهَا بِإِسْحَٰقَ وَمِن وَرَآءِ إِسْحَٰقَ يَعْقُوبَ",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 110,
+      "text": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ",
+      "highlightedHtml": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ <a class=\"highlight-text\">تَضْحَكُونَ</a>",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 19,
+      "text": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "فَتَبَسَّمَ <a class=\"highlight-text\">ضَاحِكًا</a> مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "ضَاحِكٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 47,
+      "text": "فَلَمَّا جَآءَهُم بِـَٔايَٰتِنَآ إِذَا هُم مِّنْهَا يَضْحَكُونَ",
+      "highlightedHtml": "فَلَمَّا جَآءَهُم بِـَٔايَٰتِنَآ إِذَا هُم مِّنْهَا <a class=\"highlight-text\">يَضْحَكُونَ</a>",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 43,
+      "text": "وَأَنَّهُۥ هُوَ أَضْحَكَ وَأَبْكَىٰ",
+      "highlightedHtml": "وَأَنَّهُۥ هُوَ <a class=\"highlight-text\">أَضْحَكَ</a> وَأَبْكَىٰ",
+      "derivedForms": [
+        "أَضْحَكَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 60,
+      "text": "وَتَضْحَكُونَ وَلَا تَبْكُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَتَضْحَكُونَ</a> وَلَا تَبْكُونَ",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 39,
+      "text": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">ضَاحِكَةٌ</a> مُّسْتَبْشِرَةٌ",
+      "derivedForms": [
+        "ضَاحِكَةٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 29,
+      "text": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ آمَنُوا يَضْحَكُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ أَجْرَمُوا۟ كَانُوا۟ مِنَ ٱلَّذِينَ آمَنُوا <a class=\"highlight-text\">يَضْحَكُونَ</a>",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 34,
+      "text": "فَٱلْيَوْمَ ٱلَّذِينَ آمَنُوا مِنَ ٱلْكُفَّارِ يَضْحَكُونَ",
+      "highlightedHtml": "فَٱلْيَوْمَ ٱلَّذِينَ آمَنُوا مِنَ ٱلْكُفَّارِ <a class=\"highlight-text\">يَضْحَكُونَ</a>",
+      "derivedForms": [
+        "ضَحِكَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:24.210Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb, jussive mood",
+    "derivativeNote": "فَلْيَضْحَكُوا۟ is in the derivative form: ضَحِكَ",
+    "rootDefinitionHtml": "ض/ح/ك ḍ–ḥ–k laughing matter, object of scorn<br>; to laugh, to ridicule, to jeer; (of the earth) to bring forth plants and flowers. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> ضَحِكَ ḍaḥika 7 times; أَضْحَكَ ʾaḍḥaka 1 time; ضَاحِكٌ ḍāḥik 1 time and ضَاحِكَةٌ ḍāḥikatun 1 time.",
+    "mainDefinitionHtml": "ضَحِكَ ḍaḥika a [v. intrans.] <br><br><strong>1 </strong>to laugh <br><br>(9:82) فَلْيَضْحَكُوا‏ ‏قَلِيلا‏ ‏وَلْيَبْكُوا‏ ‏كَثِيرًا‏‏ let them laugh a little; they will weep a lot <br><br><strong>2 </strong>to laugh at, to ridicule <br><br>(43:47) فَلَمَّا‏ ‏جَاءَهُمْ‏ ‏بِآيَاتِنَا‏ ‏إِذَا‏ ‏هُمْ‏ ‏مِنْهَا‏ ‏يَضْحَكُونَ‏ but when he presented Our signs to them, they laughed at them <br><br><strong>3 </strong>to menstruate (this sense of the word is contested by several commentators) <br><br>(11:71) وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ his wife, standing by, menstruated (or, laughed), and We gave her glad tidings of Isaac and, after Isaac, of [his son] Jacob.",
+    "mainEntryId": "wdef-ض-ح-ك.ضَحِكَ",
+    "entries": [
+      {
+        "id": "wdef-ض-ح-ك",
+        "label": "ض-ح-ك",
+        "definitionHtml": "ض/ح/ك ḍ–ḥ–k laughing matter, object of scorn<br>; to laugh, to ridicule, to jeer; (of the earth) to bring forth plants and flowers. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> ضَحِكَ ḍaḥika 7 times; أَضْحَكَ ʾaḍḥaka 1 time; ضَاحِكٌ ḍāḥik 1 time and ضَاحِكَةٌ ḍāḥikatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ح-ك.ضَحِكَ",
+        "label": "ضَحِكَ",
+        "definitionHtml": "ضَحِكَ ḍaḥika a [v. intrans.] <br><br><strong>1 </strong>to laugh <br><br>(9:82) فَلْيَضْحَكُوا‏ ‏قَلِيلا‏ ‏وَلْيَبْكُوا‏ ‏كَثِيرًا‏‏ let them laugh a little; they will weep a lot <br><br><strong>2 </strong>to laugh at, to ridicule <br><br>(43:47) فَلَمَّا‏ ‏جَاءَهُمْ‏ ‏بِآيَاتِنَا‏ ‏إِذَا‏ ‏هُمْ‏ ‏مِنْهَا‏ ‏يَضْحَكُونَ‏ but when he presented Our signs to them, they laughed at them <br><br><strong>3 </strong>to menstruate (this sense of the word is contested by several commentators) <br><br>(11:71) وَامْرَأَتُهُ قَائِمَةٌ فَضَحِكَتْ فَبَشَّرْنَاهَا بِإِسْحَاقَ وَمِنْ وَرَاءِ إِسْحَاقَ يَعْقُوبَ his wife, standing by, menstruated (or, laughed), and We gave her glad tidings of Isaac and, after Isaac, of [his son] Jacob.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ض-ح-ك.أَضْحَكَ",
+        "label": "أَضْحَكَ",
+        "definitionHtml": "أَضْحَكَ ʾaḍḥaka [v. IV, trans.] to cause to laugh <br><br>(53:43) وَأَنَّهُ‏ ‏هُوَ‏ ‏أَضْحَكَ‏ ‏وَأَبْكَى and He it is who causes to laugh, and causes to weep.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ح-ك.ضَاحِكٌ",
+        "label": "ضَاحِكٌ",
+        "definitionHtml": "ضَاحِكٌ ḍāḥik [act. part.] one who laughs <br><br>(27:19) فَتَبَسَّمَ‏ ‏ضَاحِكًا‏ ‏مِنْ‏ ‏قَوْلِهَا‏ so he smiled, laughing at its words.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ح-ك.ضَاحِكَةٌ",
+        "label": "ضَاحِكَةٌ",
+        "definitionHtml": "ضَاحِكَةٌ ḍāḥikatun [quasi‐act. part. fem.] laughing <br><br>(80:38–9) وُجُوهٌ‏ ‏يَوْمَئِذٍ‏ ‏مُسْفِرَةٌ‏ ‏ضَاحِكَةٌ‏ ‏مُسْتَبْشِرَةٌ some faces on that day will be beaming, laughing and rejoicing.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:43.350Z",
+      "refword": "9:82:1",
+      "lexword": "فَلْيَضْحَكُوا۟"
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "root": "رفق",
+  "rootArabic": "رفق",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "مُرْتَفَقٌ",
+      "count": 2
+    },
+    {
+      "form": "مِرْفَقٌ",
+      "count": 2
+    },
+    {
+      "form": "رَفِيقٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَفِيقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِرْفَقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُرْتَفَقٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مِرْفَقٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 69,
+      "text": "وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ رَفِيقًا",
+      "highlightedHtml": "وَمَن يُطِعِ ٱللَّهَ وَٱلرَّسُولَ فَأُو۟لَٰٓئِكَ مَعَ ٱلَّذِينَ أَنْعَمَ ٱللَّهُ عَلَيْهِم مِّنَ ٱلنَّبِيِّۦنَ وَٱلصِّدِّيقِينَ وَٱلشُّهَدَآءِ وَٱلصَّٰلِحِينَ ۚ وَحَسُنَ أُو۟لَٰٓئِكَ <a class=\"highlight-text\">رَفِيقًا</a>",
+      "derivedForms": [
+        "رَفِيقٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى <a class=\"highlight-text\">ٱلْمَرَافِقِ</a> وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "مِرْفَقٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 16,
+      "text": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
+      "highlightedHtml": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم <a class=\"highlight-text\">مِّرْفَقًا</a>",
+      "derivedForms": [
+        "مِرْفَقٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 29,
+      "text": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ مُرْتَفَقًا",
+      "highlightedHtml": "وَقُلِ ٱلْحَقُّ مِن رَّبِّكُمْ ۖ فَمَن شَآءَ فَلْيُؤْمِن وَمَن شَآءَ فَلْيَكْفُرْ ۚ إِنَّآ أَعْتَدْنَا لِلظَّٰلِمِينَ نَارًا أَحَاطَ بِهِمْ سُرَادِقُهَا ۚ وَإِن يَسْتَغِيثُوا۟ يُغَاثُوا۟ بِمَآءٍ كَٱلْمُهْلِ يَشْوِى ٱلْوُجُوهَ ۚ بِئْسَ ٱلشَّرَابُ وَسَآءَتْ <a class=\"highlight-text\">مُرْتَفَقًا</a>",
+      "derivedForms": [
+        "مُرْتَفَقٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 31,
+      "text": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ لَهُمْ جَنَّٰتُ عَدْنٍ تَجْرِى مِن تَحْتِهِمُ ٱلْأَنْهَٰرُ يُحَلَّوْنَ فِيهَا مِنْ أَسَاوِرَ مِن ذَهَبٍ وَيَلْبَسُونَ ثِيَابًا خُضْرًا مِّن سُندُسٍ وَإِسْتَبْرَقٍ مُّتَّكِـِٔينَ فِيهَا عَلَى ٱلْأَرَآئِكِ ۚ نِعْمَ ٱلثَّوَابُ وَحَسُنَتْ <a class=\"highlight-text\">مُرْتَفَقًا</a>",
+      "derivedForms": [
+        "مُرْتَفَقٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:34.958Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "رَفِيقًا is in the derivative form: رَفِيقٌ",
+    "rootDefinitionHtml": "ر/ف/ق   r–f–q elbow, to lean on, to seek support, to support oneself<br>; companion, husband, wife, to accompany; utilities, victuals; kind, to be kind, to be gentle and compassionate. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> رَفِيقٌ rafıq 1 time; مِرْفَقٌ mirfaq 1 time; مَرَافِقُ marāfiq 1 time and مُرْتَفَقٌ murtafaq 2 times.",
+    "mainDefinitionHtml": "رَفِيقٌ rafıq [quasi‐act. part./pass. part., also coll. n.] companion <br><br>(4:69) وَحَسُنَ أُولَئِكَ رَفِيقًا what excellent companions these are!",
+    "mainEntryId": "wdef-ر-ف-ق.رَفِيقٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ف-ق",
+        "label": "ر-ف-ق",
+        "definitionHtml": "ر/ف/ق   r–f–q elbow, to lean on, to seek support, to support oneself<br>; companion, husband, wife, to accompany; utilities, victuals; kind, to be kind, to be gentle and compassionate. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> رَفِيقٌ rafıq 1 time; مِرْفَقٌ mirfaq 1 time; مَرَافِقُ marāfiq 1 time and مُرْتَفَقٌ murtafaq 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ف-ق.رَفِيقٌ",
+        "label": "رَفِيقٌ",
+        "definitionHtml": "رَفِيقٌ rafıq [quasi‐act. part./pass. part., also coll. n.] companion <br><br>(4:69) وَحَسُنَ أُولَئِكَ رَفِيقًا what excellent companions these are!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ف-ق.مُرْتَفَقٌ",
+        "label": "مُرْتَفَقٌ",
+        "definitionHtml": "مُرْتَفَقٌ murtafaq [n. of place] something upon which one leans, such as a couch, an armchair, or a cushion, a comfortable place <br><br>(18:31) مُتَّكِئِينَ فِيهَا عَلَى الأَرَائِكِ نِعْمَ الثَّوَابُ وَحَسُنَتْ مُرْتَفَقًا therein they will recline on couches; what a blessed reward!, what a pleasant resting place!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ف-ق.مِرْفَقٌ",
+        "label": "مِرْفَقٌ",
+        "definitionHtml": "مِرْفَقٌ mirfaq I [v. n.; n. of place] assistance, aid, solution; way out <br><br>(18:16) فَأْوُوا إِلَى الْكَهْفِ يَنْشُرْ لَكُمْ رَبُّكُمْ مِنْ رَحْمَتِهِ وَيُهَيِّئْ لَكُمْ مِنْ أَمْرِكُمْ مِرفَقًا take refuge in the cave. God will unfold of His mercy to you, and furnish for you, out of your situation, a solution (or, a way out) II [pl. n. مَرَافِقُ marāfiq] elbows <br><br>(5:6) فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ wash your faces and hands up to [also interpreted as: including] the elbows.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:18.262Z",
+      "refword": "4:69:18",
+      "lexword": "رَفِيقًا"
+    }
+  }
+}

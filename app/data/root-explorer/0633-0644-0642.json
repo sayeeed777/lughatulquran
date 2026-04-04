@@ -1,0 +1,74 @@
+{
+  "root": "سلق",
+  "rootArabic": "سلق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "سَلَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَلَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 33,
+      "ayah": 19,
+      "text": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى يُغْشَىٰ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ سَلَقُوكُم بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "highlightedHtml": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى يُغْشَىٰ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ <a class=\"highlight-text\">سَلَقُوكُم</a> بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "derivedForms": [
+        "سَلَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:18.977Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "سَلَقُوكُم is in the derivative form: سَلَقَ",
+    "rootDefinitionHtml": "س/ل/ق   s–l–q to throw on the back, to flay with a whip; to insult; to scald; to lacerate the skin; boiling, cooking lightly by boiling; intrinsic nature. Of this root, onlyسَلَقوكُم salaqūkum occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "سَلَقَ salaqa u [v. trans.] to hurt, to insult, to lacerate <br><br>(33:19) فَإِذَا ذَهَبَ الْخَوْفُ سَلَقُوكُمْ بِأَلْسِنَةٍ حِدَادٍ but when fear has passed, they lash at you with sharp tongues.",
+    "mainEntryId": "wdef-س-ل-ق.سَلَقَ",
+    "entries": [
+      {
+        "id": "wdef-س-ل-ق",
+        "label": "س-ل-ق",
+        "definitionHtml": "س/ل/ق   s–l–q to throw on the back, to flay with a whip; to insult; to scald; to lacerate the skin; boiling, cooking lightly by boiling; intrinsic nature. Of this root, onlyسَلَقوكُم salaqūkum occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ل-ق.سَلَقَ",
+        "label": "سَلَقَ",
+        "definitionHtml": "سَلَقَ salaqa u [v. trans.] to hurt, to insult, to lacerate <br><br>(33:19) فَإِذَا ذَهَبَ الْخَوْفُ سَلَقُوكُمْ بِأَلْسِنَةٍ حِدَادٍ but when fear has passed, they lash at you with sharp tongues.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:44.538Z",
+      "refword": "33:19:19",
+      "lexword": "سَلَقُوكُم"
+    }
+  }
+}

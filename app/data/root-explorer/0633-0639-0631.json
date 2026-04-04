@@ -1,0 +1,426 @@
+{
+  "root": "سعر",
+  "rootArabic": "سعر",
+  "stats": {
+    "totalOccurrences": 19,
+    "derivativeCount": 3,
+    "surahCount": 15,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "سَعير",
+      "count": 16
+    },
+    {
+      "form": "سُعُر",
+      "count": 2
+    },
+    {
+      "form": "سُعِّر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سُعُر",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 3,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُعِّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَعير",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 10,
+      "text": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 55,
+      "text": "فَمِنْهُم مَّنْ آمَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا",
+      "highlightedHtml": "فَمِنْهُم مَّنْ آمَنَ بِهِۦ وَمِنْهُم مَّن صَدَّ عَنْهُ ۚ وَكَفَىٰ بِجَهَنَّمَ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 97,
+      "text": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "highlightedHtml": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 4,
+      "text": "كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
+      "highlightedHtml": "كُتِبَ عَلَيْهِ أَنَّهُۥ مَن تَوَلَّاهُ فَأَنَّهُۥ يُضِلُّهُۥ وَيَهْدِيهِ إِلَىٰ عَذَابِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 11,
+      "text": "بَلْ كَذَّبُوا۟ بِٱلسَّاعَةِ ۖ وَأَعْتَدْنَا لِمَن كَذَّبَ بِٱلسَّاعَةِ سَعِيرًا",
+      "highlightedHtml": "بَلْ كَذَّبُوا۟ بِٱلسَّاعَةِ ۖ وَأَعْتَدْنَا لِمَن كَذَّبَ بِٱلسَّاعَةِ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 21,
+      "text": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا ۚ أَوَلَوْ كَانَ ٱلشَّيْطَٰنُ يَدْعُوهُمْ إِلَىٰ عَذَابِ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَا وَجَدْنَا عَلَيْهِ ءَابَآءَنَا ۚ أَوَلَوْ كَانَ ٱلشَّيْطَٰنُ يَدْعُوهُمْ إِلَىٰ عَذَابِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 64,
+      "text": "إِنَّ ٱللَّهَ لَعَنَ ٱلْكَٰفِرِينَ وَأَعَدَّ لَهُمْ سَعِيرًا",
+      "highlightedHtml": "إِنَّ ٱللَّهَ لَعَنَ ٱلْكَٰفِرِينَ وَأَعَدَّ لَهُمْ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 12,
+      "text": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 6,
+      "text": "إِنَّ ٱلشَّيْطَٰنَ لَكُمْ عَدُوٌّ فَٱتَّخِذُوهُ عَدُوًّا ۚ إِنَّمَا يَدْعُوا۟ حِزْبَهُۥ لِيَكُونُوا۟ مِنْ أَصْحَٰبِ ٱلسَّعِيرِ",
+      "highlightedHtml": "إِنَّ ٱلشَّيْطَٰنَ لَكُمْ عَدُوٌّ فَٱتَّخِذُوهُ عَدُوًّا ۚ إِنَّمَا يَدْعُوا۟ حِزْبَهُۥ لِيَكُونُوا۟ مِنْ أَصْحَٰبِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 7,
+      "text": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌ فِى ٱلْجَنَّةِ وَفَرِيقٌ فِى ٱلسَّعِيرِ",
+      "highlightedHtml": "وَكَذَٰلِكَ أَوْحَيْنَآ إِلَيْكَ قُرْءَانًا عَرَبِيًّا لِّتُنذِرَ أُمَّ ٱلْقُرَىٰ وَمَنْ حَوْلَهَا وَتُنذِرَ يَوْمَ ٱلْجَمْعِ لَا رَيْبَ فِيهِ ۚ فَرِيقٌ فِى ٱلْجَنَّةِ وَفَرِيقٌ فِى <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 13,
+      "text": "وَمَن لَّمْ يُؤْمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ سَعِيرًا",
+      "highlightedHtml": "وَمَن لَّمْ يُؤْمِنۢ بِٱللَّهِ وَرَسُولِهِۦ فَإِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 24,
+      "text": "فَقَالُوٓا۟ أَبَشَرًا مِّنَّا وَٰحِدًا نَّتَّبِعُهُۥٓ إِنَّآ إِذًا لَّفِى ضَلَٰلٍ وَسُعُرٍ",
+      "highlightedHtml": "فَقَالُوٓا۟ أَبَشَرًا مِّنَّا وَٰحِدًا نَّتَّبِعُهُۥٓ إِنَّآ إِذًا لَّفِى ضَلَٰلٍ <a class=\"highlight-text\">وَسُعُرٍ</a>",
+      "derivedForms": [
+        "سُعُر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 47,
+      "text": "إِنَّ ٱلْمُجْرِمِينَ فِى ضَلَٰلٍ وَسُعُرٍ",
+      "highlightedHtml": "إِنَّ ٱلْمُجْرِمِينَ فِى ضَلَٰلٍ <a class=\"highlight-text\">وَسُعُرٍ</a>",
+      "derivedForms": [
+        "سُعُر"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 5,
+      "text": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا رُجُومًا لِّلشَّيَٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَلَقَدْ زَيَّنَّا ٱلسَّمَآءَ ٱلدُّنْيَا بِمَصَٰبِيحَ وَجَعَلْنَٰهَا رُجُومًا لِّلشَّيَٰطِينِ ۖ وَأَعْتَدْنَا لَهُمْ عَذَابَ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 10,
+      "text": "وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَٰبِ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَقَالُوا۟ لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِىٓ أَصْحَٰبِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 11,
+      "text": "فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًا لِّأَصْحَٰبِ ٱلسَّعِيرِ",
+      "highlightedHtml": "فَٱعْتَرَفُوا۟ بِذَنۢبِهِمْ فَسُحْقًا لِّأَصْحَٰبِ <a class=\"highlight-text\">ٱلسَّعِيرِ</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 4,
+      "text": "إِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ سَلَٰسِلَا۟ وَأَغْلَٰلًا وَسَعِيرًا",
+      "highlightedHtml": "إِنَّآ أَعْتَدْنَا لِلْكَٰفِرِينَ سَلَٰسِلَا۟ وَأَغْلَٰلًا <a class=\"highlight-text\">وَسَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 12,
+      "text": "وَإِذَا ٱلْجَحِيمُ سُعِّرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْجَحِيمُ <a class=\"highlight-text\">سُعِّرَتْ</a>",
+      "derivedForms": [
+        "سُعِّر"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 12,
+      "text": "وَيَصْلَىٰ سَعِيرًا",
+      "highlightedHtml": "وَيَصْلَىٰ <a class=\"highlight-text\">سَعِيرًا</a>",
+      "derivedForms": [
+        "سَعير"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:59.662Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "سَعِيرًا is in the derivative form: سَعير",
+    "rootDefinitionHtml": "س/ع/ر   s–ʿ–r intense burning of fire, to kindle a fire, intensity of thirst<br>; madness; to fix a price to; fatigue, distress. <br><br>Of this root, 3 forms occur 20 times in the Qur’an:<br> سُعِّرَت suʿʿirat 1 time; سَعير saʿır 17 times and سُعُر suʿur 2 times.",
+    "mainDefinitionHtml": "سَعير saʿır I [n.] blazing intense fire <br><br>(25:11) وَأَعْتَدْنَا لِمَنْ كَذِبَ بِالسَّاعَةِ سَعِيرًا and We have prepared for him who denies the Hour, a blazing fire; * السَّعِير [with the definite article] Hellfire <br><br>(42:7) فَرِيقٌ فِى الْجَنَّةِ وَفَرِيقٌ فِى السَّعِيرِ a group shall be in the Garden and a group in Hellfire II [v. n., also used adverbially] flaming, burning, firing <br><br>(17:97) مَأْوَاهُمْ جَهَنَّمُ كُلَّمَا خَبَتْ زِدْنَاهُمْ سَعِيرًا Hell is their home, whenever it abates, we increase them in burning.",
+    "mainEntryId": "wdef-س-ع-ر.سَعير",
+    "entries": [
+      {
+        "id": "wdef-س-ع-ر",
+        "label": "س-ع-ر",
+        "definitionHtml": "س/ع/ر   s–ʿ–r intense burning of fire, to kindle a fire, intensity of thirst<br>; madness; to fix a price to; fatigue, distress. <br><br>Of this root, 3 forms occur 20 times in the Qur’an:<br> سُعِّرَت suʿʿirat 1 time; سَعير saʿır 17 times and سُعُر suʿur 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ع-ر.سَعير",
+        "label": "سَعير",
+        "definitionHtml": "سَعير saʿır I [n.] blazing intense fire <br><br>(25:11) وَأَعْتَدْنَا لِمَنْ كَذِبَ بِالسَّاعَةِ سَعِيرًا and We have prepared for him who denies the Hour, a blazing fire; * السَّعِير [with the definite article] Hellfire <br><br>(42:7) فَرِيقٌ فِى الْجَنَّةِ وَفَرِيقٌ فِى السَّعِيرِ a group shall be in the Garden and a group in Hellfire II [v. n., also used adverbially] flaming, burning, firing <br><br>(17:97) مَأْوَاهُمْ جَهَنَّمُ كُلَّمَا خَبَتْ زِدْنَاهُمْ سَعِيرًا Hell is their home, whenever it abates, we increase them in burning.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ع-ر.سُعُر",
+        "label": "سُعُر",
+        "definitionHtml": "سُعُر suʿur [either v. n. of v. سُعِرَ suʿira; or pl. of سَعير saʿır] madness; ranks of fire <br><br>(54:24) فَقَالُوا أَبَشَرًا مِنَّا وَاحِدًا نَتَّبِعُهُ إِنَّا إِذًا لَفِي ضَلاَلٍ وَسُعُرٍ they said, ‘What?, a mortal, from amongst ourselves, a single person, we should follow?, then we would be in error and madness.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ع-ر.سُعِّر",
+        "label": "سُعِّر",
+        "definitionHtml": "سُعِّر suʿʿir [pass. of v. II] to be inflamed, to be set alight <br><br>(81:12) وَإِذَا الْجَحِيمُ سُعِّرَتْ when Hell is set alight.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:04.713Z",
+      "refword": "4:10:13",
+      "lexword": "سَعِيرًا"
+    }
+  }
+}

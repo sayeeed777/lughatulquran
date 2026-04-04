@@ -1,0 +1,127 @@
+{
+  "root": "سوغ",
+  "rootArabic": "سوغ",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "سائغ",
+      "count": 2
+    },
+    {
+      "form": "يُسيغ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُسيغ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سائغ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سائغ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 17,
+      "text": "يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ",
+      "highlightedHtml": "يَتَجَرَّعُهُۥ وَلَا يَكَادُ <a class=\"highlight-text\">يُسِيغُهُۥ</a> وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ",
+      "derivedForms": [
+        "يُسيغ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 66,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا <a class=\"highlight-text\">سَآئِغًا</a> لِّلشَّٰرِبِينَ",
+      "derivedForms": [
+        "سائغ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 12,
+      "text": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌ فُرَاتٌ سَآئِغٌ شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌ ۖ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً تَلْبَسُونَهَا ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَمَا يَسْتَوِى يَسْتَوِى ٱلْبَحْرَانِ هَٰذَا عَذْبٌ فُرَاتٌ <a class=\"highlight-text\">سَآئِغٌ</a> شَرَابُهُۥ وَهَٰذَا مِلْحٌ أُجَاجٌ ۖ وَمِن كُلٍّ تَأْكُلُونَ لَحْمًا طَرِيًّا وَتَسْتَخْرِجُونَ حِلْيَةً تَلْبَسُونَهَا ۖ وَتَرَى ٱلْفُلْكَ فِيهِ مَوَاخِرَ لِتَبْتَغُوا۟ مِن فَضْلِهِۦ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "سائغ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:41.827Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) imperfect verb",
+    "derivativeNote": "يُسِيغُهُۥ is in the derivative form: يُسيغ",
+    "rootDefinitionHtml": "س/و/غ   s–w–gh to swallow easily, to go down the throat pleasantly, to be easy and agreeable to swallow; to travel at large; to follow 1 another in birth. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُسِيغ yusıgh 1 time and سائغ sāʾigh 2 times.",
+    "mainDefinitionHtml": "يُسيغ yusıgh [imperf. of v. IV, trans.] to find palatable, to swallow <br><br>(14:17) يَتَجَرَّعُهُ وَلاَ يَكَادُ يُسِيغُهُ he gulps it, although scarcely able to swallow (or, palate) it.",
+    "mainEntryId": "wdef-س-و-غ.يُسيغ",
+    "entries": [
+      {
+        "id": "wdef-س-و-غ",
+        "label": "س-و-غ",
+        "definitionHtml": "س/و/غ   s–w–gh to swallow easily, to go down the throat pleasantly, to be easy and agreeable to swallow; to travel at large; to follow 1 another in birth. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يُسِيغ yusıgh 1 time and سائغ sāʾigh 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-غ.يُسيغ",
+        "label": "يُسيغ",
+        "definitionHtml": "يُسيغ yusıgh [imperf. of v. IV, trans.] to find palatable, to swallow <br><br>(14:17) يَتَجَرَّعُهُ وَلاَ يَكَادُ يُسِيغُهُ he gulps it, although scarcely able to swallow (or, palate) it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-و-غ.سائغ",
+        "label": "سائغ",
+        "definitionHtml": "سائغ sāʾigh [act. part.] easy and pleasant to swallow, palatable; permissible <br><br>(35:12) هَذَا عَذْبٌ فُرَاتٌ سَائِغٌ شَرَابُهُ this one is palatable, sweet, and pleasant to drink.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:27.223Z",
+      "refword": "14:17:4",
+      "lexword": "يُسِيغُهُۥ"
+    }
+  }
+}

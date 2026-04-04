@@ -1,0 +1,233 @@
+{
+  "root": "عمد",
+  "rootArabic": "عمد",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "عَمَدٌ",
+      "count": 3
+    },
+    {
+      "form": "مُتَعَمِّدٌ",
+      "count": 2
+    },
+    {
+      "form": "تَعَمَّدَ",
+      "count": 1
+    },
+    {
+      "form": "عِمَادٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَعَمِّدٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَعَمِّدٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَمَدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَمَدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعَمَّدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِمَادٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَمَدٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 93,
+      "text": "وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَآؤُهُۥ جَهَنَّمُ خَٰلِدًا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًا",
+      "highlightedHtml": "وَمَن يَقْتُلْ مُؤْمِنًا <a class=\"highlight-text\">مُّتَعَمِّدًا</a> فَجَزَآؤُهُۥ جَهَنَّمُ خَٰلِدًا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًا",
+      "derivedForms": [
+        "مُتَعَمِّدٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 95,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم <a class=\"highlight-text\">مُّتَعَمِّدًا</a> فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "derivedForms": [
+        "مُتَعَمِّدٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 2,
+      "text": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ <a class=\"highlight-text\">عَمَدٍ</a> تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ",
+      "derivedForms": [
+        "عَمَدٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 10,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ <a class=\"highlight-text\">عَمَدٍ</a> تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "derivedForms": [
+        "عَمَدٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 5,
+      "text": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "ٱدْعُوهُمْ لِءَابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَٰكِن مَّا <a class=\"highlight-text\">تَعَمَّدَتْ</a> قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "تَعَمَّدَ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 7,
+      "text": "إِرَمَ ذَاتِ ٱلْعِمَادِ",
+      "highlightedHtml": "إِرَمَ ذَاتِ <a class=\"highlight-text\">ٱلْعِمَادِ</a>",
+      "derivedForms": [
+        "عِمَادٌ"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 9,
+      "text": "فِى عَمَدٍ مُّمَدَّدَةٍۭ",
+      "highlightedHtml": "فِى <a class=\"highlight-text\">عَمَدٍ</a> مُّمَدَّدَةٍۭ",
+      "derivedForms": [
+        "عَمَدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:25.478Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form V) active participle",
+    "derivativeNote": "مُّتَعَمِّدًا is in the derivative form: مُتَعَمِّدٌ",
+    "rootDefinitionHtml": "ع/م/د   ʿ–m–d pillar, support, to support, to stab in the part calledعمود البطن ‘the pillar of the stomach’<br>; chief, master, to depend upon; to intend; to approach, to undertake; to afflict with illness, to be severely ill. Some scholars attribute the word عِمَاد ʿimād to an early borrowing from Aramaic. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> تَعَمَّدَ taʿammada 1 time; عَمَدٌ ʿamad 3 times; عِمَادٌ ʿimād 1 time and مُتَعَمِّدٌ mutaʿammid 2 times.",
+    "mainDefinitionHtml": "مُتَعَمِّدٌ mutaʿammid [act. part. of v. V.] one who acts with full intention <br><br>(5:95)‏وَمَنْ‏ ‏قَتَلَهُ‏ ‏مِنْكُمْ‏ ‏مُتَعَمِّدًا‏ and whoever of you kills it intentionally.",
+    "mainEntryId": "wdef-ع-م-د.مُتَعَمِّدٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-م-د",
+        "label": "ع-م-د",
+        "definitionHtml": "ع/م/د   ʿ–m–d pillar, support, to support, to stab in the part calledعمود البطن ‘the pillar of the stomach’<br>; chief, master, to depend upon; to intend; to approach, to undertake; to afflict with illness, to be severely ill. Some scholars attribute the word عِمَاد ʿimād to an early borrowing from Aramaic. <br><br>Of this root, 4 forms occur 7 times in the Qur’an:<br> تَعَمَّدَ taʿammada 1 time; عَمَدٌ ʿamad 3 times; عِمَادٌ ʿimād 1 time and مُتَعَمِّدٌ mutaʿammid 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-د.مُتَعَمِّدٌ",
+        "label": "مُتَعَمِّدٌ",
+        "definitionHtml": "مُتَعَمِّدٌ mutaʿammid [act. part. of v. V.] one who acts with full intention <br><br>(5:95)‏وَمَنْ‏ ‏قَتَلَهُ‏ ‏مِنْكُمْ‏ ‏مُتَعَمِّدًا‏ and whoever of you kills it intentionally.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-م-د.تَعَمَّدَ",
+        "label": "تَعَمَّدَ",
+        "definitionHtml": "تَعَمَّدَ taʿammada [v. VI trans.] to act purposefully, to act intentionally <br><br>(33:5) ‏ ‏وَلَكِنْ‏ ‏مَا‏ ‏تَعَمَّدَتْ‏ ‏قُلُوبُكُمْ ‏[you will be blamed] only for what your hearts deliberately intend.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-د.عَمَدٌ",
+        "label": "عَمَدٌ",
+        "definitionHtml": "عَمَدٌ ʿamad [coll. n.] columns, pillars, poles, supports; lofty structures <br><br>(13:2) ‏رَفَعَ‏ ‏السَّمَوَاتِ‏ ‏بِغَيْرِ‏ ‏عَمَدٍ‏ ‏تَرَوْنَهَا He raised up the heavens without [any] pillars you can see (or, without [any] pillars, as you can see).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-م-د.عِمَادٌ",
+        "label": "عِمَادٌ",
+        "definitionHtml": "عِمَادٌ ʿimād [n./coll. n.] pole, pillar, colonnade, support; lofty structure, building supported on a colonnade <br><br>(89:7) إِرَمَ‏ ‏ذَاتِ‏ ‏الْعِمَادِ ʾiram, [the city] with pillars/lofty structures [also said to mean: with tent‐poles, enabling the dwellers to travel in search of pasture].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:28.938Z",
+      "refword": "4:93:4",
+      "lexword": "مُّتَعَمِّدًا"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "root": "كبت",
+  "rootArabic": "كبت",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "كُبِتَ",
+      "count": 2
+    },
+    {
+      "form": "يَكْبِت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَكْبِت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كُبِتَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 127,
+      "text": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُوا۟ خَآئِبِينَ",
+      "highlightedHtml": "لِيَقْطَعَ طَرَفًا مِّنَ ٱلَّذِينَ كَفَرُوٓا۟ أَوْ <a class=\"highlight-text\">يَكْبِتَهُمْ</a> فَيَنقَلِبُوا۟ خَآئِبِينَ",
+      "derivedForms": [
+        "يَكْبِت"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 5,
+      "text": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥ كُبِتُوا۟ كَمَا كُبِتَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ وَقَدْ أَنزَلْنَآ آيَاتٍ بَيِّنَٰتٍ ۚ وَلِلْكَٰفِرِينَ عَذَابٌ مُّهِينٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يُحَآدُّونَ ٱللَّهَ وَرَسُولَهُۥ <a class=\"highlight-text\">كُبِتُوا۟</a> كَمَا <a class=\"highlight-text\">كُبِتَ</a> ٱلَّذِينَ مِن قَبْلِهِمْ ۚ وَقَدْ أَنزَلْنَآ آيَاتٍ بَيِّنَٰتٍ ۚ وَلِلْكَٰفِرِينَ عَذَابٌ مُّهِينٌ",
+      "derivedForms": [
+        "كُبِتَ",
+        "كُبِتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:30.043Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "يَكْبِتَهُمْ is in the derivative form: يَكْبِت",
+    "rootDefinitionHtml": "ك/ب/ت   k–b–t knocking down, to crush, to humiliate, to suppress. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَكْبِت yakbit 1 time and كُبِتَ kubita 2 times.",
+    "mainDefinitionHtml": "يَكْبِت yakbit [imperf. of v. كَبَتَ kabata, trans.] to suppress, to frustrate, to overwhelm, to crush <br><br>(3:127) لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ and that He might cut off a part of the disbelievers’ [army] or overwhelm them.",
+    "mainEntryId": "wdef-ك-ب-ت.يَكْبِت",
+    "entries": [
+      {
+        "id": "wdef-ك-ب-ت",
+        "label": "ك-ب-ت",
+        "definitionHtml": "ك/ب/ت   k–b–t knocking down, to crush, to humiliate, to suppress. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَكْبِت yakbit 1 time and كُبِتَ kubita 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ب-ت.يَكْبِت",
+        "label": "يَكْبِت",
+        "definitionHtml": "يَكْبِت yakbit [imperf. of v. كَبَتَ kabata, trans.] to suppress, to frustrate, to overwhelm, to crush <br><br>(3:127) لِيَقْطَعَ طَرَفًا مِنَ الَّذِينَ كَفَرُوا أَوْ يَكْبِتَهُمْ and that He might cut off a part of the disbelievers’ [army] or overwhelm them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ب-ت.كُبِتَ",
+        "label": "كُبِتَ",
+        "definitionHtml": "كُبِتَ kubita [pass. v.] to be suppressed, to be overwhelmed, to be brought low <br><br>(58:5) إِنَّ الَّذِينَ يُحَادُّونَ اللَّهَ وَرَسُولَهُ كُبِتُوا كَمَا كُبِتَ الَّذِينَ مِنْ قَبْلِهِمْ those who oppose God and His Messenger will be brought low, as the ones before them were brought low.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:28.559Z",
+      "refword": "3:127:7",
+      "lexword": "يَكْبِتَهُمْ"
+    }
+  }
+}

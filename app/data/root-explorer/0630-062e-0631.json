@@ -1,0 +1,74 @@
+{
+  "root": "ذخر",
+  "rootArabic": "ذخر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَدَّخِرُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَدَّخِرُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 49,
+      "text": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "وَرَسُولًا إِلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنِّى قَدْ جِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ ۖ أَنِّىٓ أَخْلُقُ لَكُم مِّنَ ٱلطِّينِ كَهَيْـَٔةِ ٱلطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَيْرًۢا بِإِذْنِ ٱللَّهِ ۖ وَأُبْرِئُ ٱلْأَكْمَهَ وَٱلْأَبْرَصَ وَأُحْىِ ٱلْمَوْتَىٰ بِإِذْنِ ٱللَّهِ ۖ وَأُنَبِّئُكُم بِمَا تَأْكُلُونَ وَمَا <a class=\"highlight-text\">تَدَّخِرُونَ</a> فِى بُيُوتِكُمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "تَدَّخِرُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:40.837Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VIII) imperfect verb",
+    "derivativeNote": "تَدَّخِرُونَ is in the derivative form: تَدَّخِرُ",
+    "rootDefinitionHtml": "ذ/خ/ر   dh–kh–r the lower section of the stomach, stored provisions, treasure, to select, to store up, to treasure. Of this root, only تَدَّخِرُون taddakhirūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَدَّخِرُ taddakhir [imperf. of v. VIII ادَّخَرَ ʾiddakhara, an assimilated form of اذْتَخَرَ ʾidhtakhara, trans.] to store up <br><br>(3:49) وَأُنَبِّئُكُمْ بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ... and I tell you what you eat (or, what you may eat) and what you store (or, what you may store) in your houses ….",
+    "mainEntryId": "wdef-ذ-خ-ر.تَدَّخِرُ",
+    "entries": [
+      {
+        "id": "wdef-ذ-خ-ر",
+        "label": "ذ-خ-ر",
+        "definitionHtml": "ذ/خ/ر   dh–kh–r the lower section of the stomach, stored provisions, treasure, to select, to store up, to treasure. Of this root, only تَدَّخِرُون taddakhirūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-خ-ر.تَدَّخِرُ",
+        "label": "تَدَّخِرُ",
+        "definitionHtml": "تَدَّخِرُ taddakhir [imperf. of v. VIII ادَّخَرَ ʾiddakhara, an assimilated form of اذْتَخَرَ ʾidhtakhara, trans.] to store up <br><br>(3:49) وَأُنَبِّئُكُمْ بِمَا تَأْكُلُونَ وَمَا تَدَّخِرُونَ فِى بُيُوتِكُمْ ... and I tell you what you eat (or, what you may eat) and what you store (or, what you may store) in your houses ….",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:39.890Z",
+      "refword": "3:49:35",
+      "lexword": "تَدَّخِرُونَ"
+    }
+  }
+}

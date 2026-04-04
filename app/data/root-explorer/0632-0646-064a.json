@@ -1,0 +1,172 @@
+{
+  "root": "زني",
+  "rootArabic": "زني",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "زاني",
+      "count": 6
+    },
+    {
+      "form": "يَزْنِي",
+      "count": 2
+    },
+    {
+      "form": "زِنَا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زِنَا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "زاني",
+          "count": 6,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَزْنِي",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَزْنِي",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 32,
+      "text": "وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَٰحِشَةً وَسَآءَ سَبِيلًا",
+      "highlightedHtml": "وَلَا تَقْرَبُوا۟ <a class=\"highlight-text\">ٱلزِّنَىٰٓ</a> ۖ إِنَّهُۥ كَانَ فَٰحِشَةً وَسَآءَ سَبِيلًا",
+      "derivedForms": [
+        "زِنَا"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 2,
+      "text": "ٱلزَّانِيَةُ وَٱلزَّانِى فَٱجْلِدُوا۟ كُلَّ وَٰحِدٍ مِّنْهُمَا مِا۟ئَةَ جَلْدَةٍ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِى دِينِ ٱللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَآئِفَةٌ مِّنَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلزَّانِيَةُ</a> <a class=\"highlight-text\">وَٱلزَّانِى</a> فَٱجْلِدُوا۟ كُلَّ وَٰحِدٍ مِّنْهُمَا مِا۟ئَةَ جَلْدَةٍ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِى دِينِ ٱللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَآئِفَةٌ مِّنَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "زاني",
+        "زاني"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 3,
+      "text": "ٱلزَّانِى لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَٱلزَّانِيَةُ لَا يَنكِحُهَآ إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱلزَّانِى</a> لَا يَنكِحُ إِلَّا <a class=\"highlight-text\">زَانِيَةً</a> أَوْ مُشْرِكَةً <a class=\"highlight-text\">وَٱلزَّانِيَةُ</a> لَا يَنكِحُهَآ إِلَّا <a class=\"highlight-text\">زَانٍ</a> أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "زاني",
+        "زاني",
+        "زاني",
+        "زاني"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 68,
+      "text": "وَٱلَّذِينَ لَا يَدْعُونَ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ وَلَا يَقْتُلُونَ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ وَلَا يَزْنُونَ ۚ وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ لَا يَدْعُونَ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ وَلَا يَقْتُلُونَ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ وَلَا <a class=\"highlight-text\">يَزْنُونَ</a> ۚ وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
+      "derivedForms": [
+        "يَزْنِي"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا <a class=\"highlight-text\">يَزْنِينَ</a> وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يَزْنِي"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:13.620Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine verbal noun",
+    "derivativeNote": "ٱلزِّنَىٰٓ is in the derivative form: زِنَا",
+    "rootDefinitionHtml": "ز/ن/ي   z–n–y to fornicate, to commit adultery, fornication, adultery<br>; to be in a tight place, (of something) to be narrow. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> يَزْنون yaznūn 2 times; زِنَا zinā 1 time; زانِي zānı 3 times and زاَنِيةٌ zāniyatun 3 times.",
+    "mainDefinitionHtml": "زِنَا zinā [n.] adultery, fornication <br><br>(17:32) وَلاَ تَقْرَبُوا الزِّنَا إِنَّهُ كَانَ فَاحِشَةً وَسَاءَ سَبِيلاً and do not go near fornication–it is an abomination, and an evil path [to take].",
+    "mainEntryId": "wdef-ز-ن-ي.زِنَا",
+    "entries": [
+      {
+        "id": "wdef-ز-ن-ي",
+        "label": "ز-ن-ي",
+        "definitionHtml": "ز/ن/ي   z–n–y to fornicate, to commit adultery, fornication, adultery<br>; to be in a tight place, (of something) to be narrow. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> يَزْنون yaznūn 2 times; زِنَا zinā 1 time; زانِي zānı 3 times and زاَنِيةٌ zāniyatun 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ن-ي.زِنَا",
+        "label": "زِنَا",
+        "definitionHtml": "زِنَا zinā [n.] adultery, fornication <br><br>(17:32) وَلاَ تَقْرَبُوا الزِّنَا إِنَّهُ كَانَ فَاحِشَةً وَسَاءَ سَبِيلاً and do not go near fornication–it is an abomination, and an evil path [to take].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ن-ي.زاني",
+        "label": "زاني",
+        "definitionHtml": "زاني zānı [n./act. part.; fem. زاَنِيةٌ zāniyatun] fornicator (outside wedlock), adulterer <br><br>(24:3) الزَّانِي لاَ يَنْكِحُ إلاَّ زَانِيَةً أَوْ مُشْرِكَةً the fornicating male/adulterer is only [fit to] marry [also: only fornicates with] a fornicating female/adulteress or an idolatress.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ن-ي.يَزْنِي",
+        "label": "يَزْنِي",
+        "definitionHtml": "يَزْنِي yaznı [imperf. of v. زَنا zanā, intrans.] to commit adultery, to fornicate <br><br>(60:12) يَاأَيُّهَا النَّبِيُّ إِذَا جَاءَكَ الْمُؤْمِنَاتُ يُبَايِعْنَكَ عَلَى أَنْ لاَ يُشْرِكْنَ بِاللَّهِ شَيْئًا وَلاَ يَسْرِقْنَ وَلاَ يَزْنِينَ ... Prophet, when believing women come to pledge to you that they will not ascribe God any partner, nor steal, nor commit adultery …",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:34.601Z",
+      "refword": "17:32:3",
+      "lexword": "ٱلزِّنَىٰٓ"
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "root": "زبر",
+  "rootArabic": "زبر",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 3,
+    "surahCount": 10,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "زُبُر",
+      "count": 7
+    },
+    {
+      "form": "زَبور",
+      "count": 3
+    },
+    {
+      "form": "زُبَر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَبور",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَبور",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَبور",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زُبُر",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 184,
+      "text": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ وَٱلْكِتَٰبِ ٱلْمُنِيرِ",
+      "highlightedHtml": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِّن قَبْلِكَ جَآءُو بِٱلْبَيِّنَٰتِ <a class=\"highlight-text\">وَٱلزُّبُرِ</a> وَٱلْكِتَٰبِ ٱلْمُنِيرِ",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 163,
+      "text": "إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍ وَٱلنَّبِيِّۦنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَٰرُونَ وَسُلَيْمَٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ زَبُورًا",
+      "highlightedHtml": "إِنَّآ أَوْحَيْنَآ إِلَيْكَ كَمَآ أَوْحَيْنَآ إِلَىٰ نُوحٍ وَٱلنَّبِيِّۦنَ مِنۢ بَعْدِهِۦ ۚ وَأَوْحَيْنَآ إِلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَعِيسَىٰ وَأَيُّوبَ وَيُونُسَ وَهَٰرُونَ وَسُلَيْمَٰنَ ۚ وَءَاتَيْنَا دَاوُۥدَ <a class=\"highlight-text\">زَبُورًا</a>",
+      "derivedForms": [
+        "زَبور"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 44,
+      "text": "بِٱلْبَيِّنَٰتِ وَٱلزُّبُرِ ۗ وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "highlightedHtml": "بِٱلْبَيِّنَٰتِ <a class=\"highlight-text\">وَٱلزُّبُرِ</a> ۗ وَأَنزَلْنَآ إِلَيْكَ ٱلذِّكْرَ لِتُبَيِّنَ لِلنَّاسِ مَا نُزِّلَ إِلَيْهِمْ وَلَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 55,
+      "text": "وَرَبُّكَ أَعْلَمُ بِمَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَلَقَدْ فَضَّلْنَا بَعْضَ ٱلنَّبِيِّۦنَ عَلَىٰ بَعْضٍ ۖ وَءَاتَيْنَا دَاوُۥدَ زَبُورًا",
+      "highlightedHtml": "وَرَبُّكَ أَعْلَمُ بِمَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَلَقَدْ فَضَّلْنَا بَعْضَ ٱلنَّبِيِّۦنَ عَلَىٰ بَعْضٍ ۖ وَءَاتَيْنَا دَاوُۥدَ <a class=\"highlight-text\">زَبُورًا</a>",
+      "derivedForms": [
+        "زَبور"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 96,
+      "text": "آتُونِي زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "highlightedHtml": "آتُونِي <a class=\"highlight-text\">زُبَرَ</a> ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "derivedForms": [
+        "زُبَر"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 105,
+      "text": "وَلَقَدْ كَتَبْنَا فِى ٱلزَّبُورِ مِنۢ بَعْدِ ٱلذِّكْرِ أَنَّ ٱلْأَرْضَ يَرِثُهَا عِبَادِىَ ٱلصَّٰلِحُونَ",
+      "highlightedHtml": "وَلَقَدْ كَتَبْنَا فِى <a class=\"highlight-text\">ٱلزَّبُورِ</a> مِنۢ بَعْدِ ٱلذِّكْرِ أَنَّ ٱلْأَرْضَ يَرِثُهَا عِبَادِىَ ٱلصَّٰلِحُونَ",
+      "derivedForms": [
+        "زَبور"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 53,
+      "text": "فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ زُبُرًا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
+      "highlightedHtml": "فَتَقَطَّعُوٓا۟ أَمْرَهُم بَيْنَهُمْ <a class=\"highlight-text\">زُبُرًا</a> ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 196,
+      "text": "وَإِنَّهُۥ لَفِى زُبُرِ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَإِنَّهُۥ لَفِى <a class=\"highlight-text\">زُبُرِ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 25,
+      "text": "وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ وَبِٱلزُّبُرِ وَبِٱلْكِتَٰبِ ٱلْمُنِيرِ",
+      "highlightedHtml": "وَإِن يُكَذِّبُوكَ فَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ جَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ <a class=\"highlight-text\">وَبِٱلزُّبُرِ</a> وَبِٱلْكِتَٰبِ ٱلْمُنِيرِ",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 43,
+      "text": "أَكُفَّارُكُمْ خَيْرٌ مِّنْ أُو۟لَٰٓئِكُمْ أَمْ لَكُم بَرَآءَةٌ فِى ٱلزُّبُرِ",
+      "highlightedHtml": "أَكُفَّارُكُمْ خَيْرٌ مِّنْ أُو۟لَٰٓئِكُمْ أَمْ لَكُم بَرَآءَةٌ فِى <a class=\"highlight-text\">ٱلزُّبُرِ</a>",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 52,
+      "text": "وَكُلُّ شَىْءٍ فَعَلُوهُ فِى ٱلزُّبُرِ",
+      "highlightedHtml": "وَكُلُّ شَىْءٍ فَعَلُوهُ فِى <a class=\"highlight-text\">ٱلزُّبُرِ</a>",
+      "derivedForms": [
+        "زُبُر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:58.464Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "وَٱلزُّبُرِ is in the derivative form: زُبُر",
+    "rootDefinitionHtml": "ز/ب/ر   z–b–r stone, to line the inside of a well with stone<br>; inscribing on stone, reading, writing, written record; stamina, patience, intelligence. The word زَبور zabūr, meaning Psalter, which is conveniently classified under this root, is a borrowing either from Syriac or Hebrew. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> زَبور zabūr 3 times; زُبُر zubur 7 times andزُبَر zubar 1 time.",
+    "mainDefinitionHtml": "زُبُر zubur (2) [pl. of n. زُبْرةٌ zubratun] lumps, large pieces, fractions <br><br>(23:53) فَتَقَطَّعُوا أَمْرَهُمْ بَيْنَهُمْ زُبُرًا كُلُّ حِزْبٍ بِمَا لَدَيْهِمْ فَرِحُونَ but they split their community (or, teachings) [lit. affair] into sects, each faction rejoicing in what they have.",
+    "mainEntryId": "wdef-ز-ب-ر.زُبُر",
+    "entries": [
+      {
+        "id": "wdef-ز-ب-ر",
+        "label": "ز-ب-ر",
+        "definitionHtml": "ز/ب/ر   z–b–r stone, to line the inside of a well with stone<br>; inscribing on stone, reading, writing, written record; stamina, patience, intelligence. The word زَبور zabūr, meaning Psalter, which is conveniently classified under this root, is a borrowing either from Syriac or Hebrew. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> زَبور zabūr 3 times; زُبُر zubur 7 times andزُبَر zubar 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ب-ر.زُبُر",
+        "label": "زُبُر",
+        "definitionHtml": "زُبُر zubur (2) [pl. of n. زُبْرةٌ zubratun] lumps, large pieces, fractions <br><br>(23:53) فَتَقَطَّعُوا أَمْرَهُمْ بَيْنَهُمْ زُبُرًا كُلُّ حِزْبٍ بِمَا لَدَيْهِمْ فَرِحُونَ but they split their community (or, teachings) [lit. affair] into sects, each faction rejoicing in what they have.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ب-ر.زَبور",
+        "label": "زَبور",
+        "definitionHtml": "زَبور zabūr [n. pl. زُبُر zubur (1)] <br><br><strong>1 </strong>[ الزَبور ʾal‐zabūr] Book of Psalms <br><br>(21:105) وَلَقَدْ كَتَبْنَا فِى الزَّبُورِ مِنْ بَعْدِ الذِّكْرِ أَنَّ الأَرْضَ يَرِثُهَا عِبَادِيَ الصَّالِحُونَ We wrote/decreed in the Psalms, in addition to/after the [earlier] Scripture/Remembrance that, ‘The earth shall be the inheritance of My righteous servants’ <br><br><strong>2 </strong>generic name for all revealed books, revealed book of divine wisdom, scripture <br><br>(3:184) فَإِنْ كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٌ مِنْ قَبْلِكَ جَاءُوا بِالْبَيِّنَاتِ وَالزُّبُرِ وَالْكِتَابِ الْمُنِيرِ if they reject you, so have other messengers been rejected before you, even though they came with clear evidence, revealed written texts, and the enlightening Scripture <br><br><strong>3 </strong>divine record <br><br>(54:52) وَكُلُّ شَيْءٍ فَعَلُوهُ فِى الزُّبُرِ all that they do is [noted] in the divine record.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ب-ر.زُبَر",
+        "label": "زُبَر",
+        "definitionHtml": "زُبَر zubar [pl. of n.زُبْرةٌ zubratun] lump, large piece <br><br>(18:96) ءَاتُونِي زُبَرَ الْحَدِيدِ bring me lumps of iron!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:01.230Z",
+      "refword": "3:184:10",
+      "lexword": "وَٱلزُّبُرِ"
+    }
+  }
+}

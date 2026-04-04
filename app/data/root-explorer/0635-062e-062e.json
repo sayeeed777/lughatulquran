@@ -1,0 +1,74 @@
+{
+  "root": "صخخ",
+  "rootArabic": "صخخ",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "صَاخَّة",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَاخَّة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 80,
+      "ayah": 33,
+      "text": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+      "highlightedHtml": "فَإِذَا جَآءَتِ <a class=\"highlight-text\">ٱلصَّآخَّةُ</a>",
+      "derivedForms": [
+        "صَاخَّة"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:42.183Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine active participle",
+    "derivativeNote": "ٱلصَّآخَّةُ is in the derivative form: صَاخَّة",
+    "rootDefinitionHtml": "ص/خ/خ   ṣ–kh–kh deafening sound, a cry that deafens by its vehemence; to pierce; calamity. Of this root, 1 form, صاخّة ṣākhkhatun, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "صَاخَّة ṣākhkhatun [act. part./n.] that which deafens by its vehemence; the cry on the occasion of which the Resurrection will take place, the calamity of the Resurrection <br><br>(80:33–4) فَإِذَا جَاءَتِ الصَّاخَّةُ يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ when the Deafening Blast comes–the Day when one will flee from one’s own brother.",
+    "mainEntryId": "wdef-ص-خ-خ.صَاخَّة",
+    "entries": [
+      {
+        "id": "wdef-ص-خ-خ",
+        "label": "ص-خ-خ",
+        "definitionHtml": "ص/خ/خ   ṣ–kh–kh deafening sound, a cry that deafens by its vehemence; to pierce; calamity. Of this root, 1 form, صاخّة ṣākhkhatun, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-خ-خ.صَاخَّة",
+        "label": "صَاخَّة",
+        "definitionHtml": "صَاخَّة ṣākhkhatun [act. part./n.] that which deafens by its vehemence; the cry on the occasion of which the Resurrection will take place, the calamity of the Resurrection <br><br>(80:33–4) فَإِذَا جَاءَتِ الصَّاخَّةُ يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ when the Deafening Blast comes–the Day when one will flee from one’s own brother.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:25.668Z",
+      "refword": "80:33:3",
+      "lexword": "ٱلصَّآخَّةُ"
+    }
+  }
+}

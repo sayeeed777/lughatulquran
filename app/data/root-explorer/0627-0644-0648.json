@@ -1,0 +1,491 @@
+{
+  "root": "الو",
+  "rootArabic": "الو",
+  "stats": {
+    "totalOccurrences": 37,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 37
+  },
+  "derivatives": [
+    {
+      "form": "آلاَءٌ",
+      "count": 34
+    },
+    {
+      "form": "يَأْتَلِي",
+      "count": 1
+    },
+    {
+      "form": "يَأْلُون",
+      "count": 1
+    },
+    {
+      "form": "يُؤْلُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُؤْلُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَأْلُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "آلاَءٌ",
+          "count": 2,
+          "totalInQuran": 34
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَأْتَلِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "آلاَءٌ",
+          "count": 1,
+          "totalInQuran": 34
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 31,
+      "derivatives": [
+        {
+          "form": "آلاَءٌ",
+          "count": 31,
+          "totalInQuran": 34
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 226,
+      "text": "لِّلَّذِينَ يُؤْلُونَ مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "لِّلَّذِينَ <a class=\"highlight-text\">يُؤْلُونَ</a> مِن نِّسَآئِهِمْ تَرَبُّصُ أَرْبَعَةِ أَشْهُرٍ ۖ فَإِن فَآءُو فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يُؤْلُون"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 118,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ بِطَانَةً مِّن دُونِكُمْ لَا يَأْلُونَكُمْ خَبَالًا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ صُدُورُهُمْ أَكْبَرُ ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْءَايَٰتِ ۖ إِن كُنتُمْ تَعْقِلُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ بِطَانَةً مِّن دُونِكُمْ لَا <a class=\"highlight-text\">يَأْلُونَكُمْ</a> خَبَالًا وَدُّوا۟ مَا عَنِتُّمْ قَدْ بَدَتِ ٱلْبَغْضَآءُ مِنْ أَفْوَٰهِهِمْ وَمَا تُخْفِى صُدُورُهُمْ صُدُورُهُمْ أَكْبَرُ ۚ قَدْ بَيَّنَّا لَكُمُ ٱلْءَايَٰتِ ۖ إِن كُنتُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "يَأْلُون"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 69,
+      "text": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ <a class=\"highlight-text\">آلَاءَ</a> ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 74,
+      "text": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ آلَاءَ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ عَادٍ عَادٍ وَبَوَّأَكُمْ فِى ٱلْأَرْضِ تَتَّخِذُونَ مِن سُهُولِهَا قُصُورًا وَتَنْحِتُونَ ٱلْجِبَالَ بُيُوتًا ۖ فَٱذْكُرُوٓا۟ <a class=\"highlight-text\">آلَاءَ</a> ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 22,
+      "text": "وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">يَأْتَلِ</a> أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَٰكِينَ وَٱلْمُهَٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يَأْتَلِي"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 55,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكَ تَتَمَارَىٰ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكَ تَتَمَارَىٰ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 13,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 16,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 18,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 21,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 23,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 25,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 28,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 30,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 32,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 34,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 36,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 38,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 40,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 42,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 45,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 47,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 49,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 51,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 53,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 55,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 57,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 59,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 61,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 63,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 65,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 67,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 69,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 71,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 73,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 75,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 77,
+      "text": "فَبِأَىِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "highlightedHtml": "فَبِأَىِّ <a class=\"highlight-text\">آلَاءِ</a> رَبِّكُمَا تُكَذِّبَانِ",
+      "derivedForms": [
+        "آلاَءٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:47.474Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "يُؤْلُونَ is in the derivative form: يُؤْلُون",
+    "rootDefinitionHtml": "أ/ل/و-ي ʾ–l–w/y shortcoming, to be remiss<br>; oath, to swear; to shine; favour. Favour, however, could also, on the basis of meaning and structure, be connected with the root أ/ل/ل ʾ–l–l (q.v.). <br><br>Of this root, 4 forms occur 37 times in the Qur’an:<br> يَأْلُون yaʾlūn 1 time; يُؤْلُون yuʾlūn 1 time; يَأْتَلِي yaʾtalī 1 time and آلاءٌ ʾālāʾ 34 times.",
+    "mainDefinitionHtml": "يُؤْلُون yuʾlūn [imperf. of v. IV (أَأْلَى ʾaʾlā) orthographically > آلَى ʾālā intrans.] to swear, to vow *<br><br>(2:226) يُؤْلُونَ مِنْ نِسَائِهِمْ they swear/vow never to have sexual relations with their wives.",
+    "mainEntryId": "wdef-أ-ل-و-ي.يُؤْلُون",
+    "entries": [
+      {
+        "id": "wdef-أ-ل-و-ي",
+        "label": "أ-ل-و-ي",
+        "definitionHtml": "أ/ل/و-ي ʾ–l–w/y shortcoming, to be remiss<br>; oath, to swear; to shine; favour. Favour, however, could also, on the basis of meaning and structure, be connected with the root أ/ل/ل ʾ–l–l (q.v.). <br><br>Of this root, 4 forms occur 37 times in the Qur’an:<br> يَأْلُون yaʾlūn 1 time; يُؤْلُون yuʾlūn 1 time; يَأْتَلِي yaʾtalī 1 time and آلاءٌ ʾālāʾ 34 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-و-ي.يُؤْلُون",
+        "label": "يُؤْلُون",
+        "definitionHtml": "يُؤْلُون yuʾlūn [imperf. of v. IV (أَأْلَى ʾaʾlā) orthographically > آلَى ʾālā intrans.] to swear, to vow *<br><br>(2:226) يُؤْلُونَ مِنْ نِسَائِهِمْ they swear/vow never to have sexual relations with their wives.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ل-و-ي.آلاَءٌ",
+        "label": "آلاَءٌ",
+        "definitionHtml": "آلاَءٌ ʾālāʾ [pl. of n. أَلىً ʾalan, إِلىً ʾilan or إِلْيٌ ʾilyun] favour, blessing <br><br>(53:55) فَبِأَيِّ ءَالاَءِ رَبِّكَ تَتَمَارَى so which of your Lord’s blessings do you doubt?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-و-ي.يَأْتَلِي",
+        "label": "يَأْتَلِي",
+        "definitionHtml": "يَأْتَلِي yaʾtalī [imperf. of v. VIII اأْتَلَى ʾiʾtalā, intrans.] to swear <br><br>(24:22) وَلاَ يَأْتَلِ أُولُو الْفَضْلِ مِنْكُمْ وَالسَّعَةِ أَنْ يُؤْتُوا أُولِي الْقُرْبَى وَالْمَسَاكِينَ وَالْمُهَاجِرِينَ فِى سَبِيلِ اللَّهِ and let not those of you who possess bounty and plenty forswear giving to kinsmen, the poor, and those who emigrate in God’s cause.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-و-ي.يَأْلُون",
+        "label": "يَأْلُون",
+        "definitionHtml": "يَأْلُون yaʾlūn [imperf. of v. أَلاَ ʾalā, trans./intrans.; this verb usually takes a negative particle and together they function as a single unit] to be reticent towards someone, fall short of doing what should be done; to flag; to be remiss <br><br>(3:118) لاَ تَتَّخِذُوا بِطَانَةً مِنْ دُونِكُمْ لاَ يَأْلُونَكُمْ خَبَالاً do not take for your intimates such outsiders as are unflagging in their efforts to ruin you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:37.667Z",
+      "refword": "2:226:2",
+      "lexword": "يُؤْلُونَ"
+    }
+  }
+}

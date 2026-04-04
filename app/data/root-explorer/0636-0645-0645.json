@@ -1,0 +1,95 @@
+{
+  "root": "ضمم",
+  "rootArabic": "ضمم",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اضْمُمْ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اضْمُمْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اضْمُمْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 22,
+      "text": "وَٱضْمُمْ يَدَكَ إِلَىٰ جَنَاحِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ آيَةً أُخْرَى",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱضْمُمْ</a> يَدَكَ إِلَىٰ جَنَاحِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ آيَةً أُخْرَى",
+      "derivedForms": [
+        "اضْمُمْ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 32,
+      "text": "ٱسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ وَٱضْمُمْ إِلَيْكَ جَنَاحَكَ مِنَ ٱلرَّهْبِ ۖ فَذَٰنِكَ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ مِن رَّبِّكَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "highlightedHtml": "ٱسْلُكْ يَدَكَ فِى جَيْبِكَ تَخْرُجْ بَيْضَآءَ مِنْ غَيْرِ سُوٓءٍ <a class=\"highlight-text\">وَٱضْمُمْ</a> إِلَيْكَ جَنَاحَكَ مِنَ ٱلرَّهْبِ ۖ فَذَٰنِكَ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ بُرْهَٰنَانِ مِن رَّبِّكَ إِلَىٰ فِرْعَوْنَ وَمَلَإِي۟هِۦٓ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "derivedForms": [
+        "اضْمُمْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:35.303Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "وَٱضْمُمْ is in the derivative form: اضْمُمْ",
+    "rootDefinitionHtml": "ض/م/م   ḍ–m–m group of people of different lineage, to draw together, to hug, to draw close to oneself, to combine, to gather, to join; devious; glutton. Of this root, اضْمُمْ ʾuḍmum, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "اضْمُمْ ʾuḍmum [imper. of v. ضَمَّ ḍamma, trans.] to draw in close, to embrace <br><br>(20:22) وَاضْمُمْ يَدَكَ إِلَى جَنَاحِكَ تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ draw your hand in to your side (or, place your hand tightly under your armpit) it will come out white without a blemish.",
+    "mainEntryId": "wdef-ض-م-م.اضْمُمْ",
+    "entries": [
+      {
+        "id": "wdef-ض-م-م",
+        "label": "ض-م-م",
+        "definitionHtml": "ض/م/م   ḍ–m–m group of people of different lineage, to draw together, to hug, to draw close to oneself, to combine, to gather, to join; devious; glutton. Of this root, اضْمُمْ ʾuḍmum, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-م-م.اضْمُمْ",
+        "label": "اضْمُمْ",
+        "definitionHtml": "اضْمُمْ ʾuḍmum [imper. of v. ضَمَّ ḍamma, trans.] to draw in close, to embrace <br><br>(20:22) وَاضْمُمْ يَدَكَ إِلَى جَنَاحِكَ تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ draw your hand in to your side (or, place your hand tightly under your armpit) it will come out white without a blemish.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:01.323Z",
+      "refword": "20:22:1",
+      "lexword": "وَٱضْمُمْ"
+    }
+  }
+}

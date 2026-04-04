@@ -1,0 +1,179 @@
+{
+  "root": "موج",
+  "rootArabic": "موج",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "مَوْج",
+      "count": 6
+    },
+    {
+      "form": "يَمُوج",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْج",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَوْج",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَمُوج",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَوْج",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْج",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 10,
+      "ayah": 22,
+      "text": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ ٱلْمَوْجُ مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُسَيِّرُكُمْ فِى ٱلْبَرِّ وَٱلْبَحْرِ ۖ حَتَّىٰٓ إِذَا كُنتُمْ فِى ٱلْفُلْكِ وَجَرَيْنَ بِهِم بِرِيحٍ طَيِّبَةٍ وَفَرِحُوا۟ بِهَا جَآءَتْهَا رِيحٌ عَاصِفٌ وَجَآءَهُمُ <a class=\"highlight-text\">ٱلْمَوْجُ</a> مِن كُلِّ مَكَانٍ وَظَنُّوٓا۟ أَنَّهُمْ أُحِيطَ بِهِمْ ۙ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ لَئِنْ أَنجَيْتَنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "مَوْج"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 42,
+      "text": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَهِىَ تَجْرِى بِهِمْ فِى <a class=\"highlight-text\">مَوْجٍ</a> كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مَوْج"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 43,
+      "text": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا ٱلْمَوْجُ فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "highlightedHtml": "قَالَ سَـَٔاوِىٓ إِلَىٰ جَبَلٍ يَعْصِمُنِى مِنَ ٱلْمَآءِ ۚ قَالَ لَا عَاصِمَ ٱلْيَوْمَ مِنْ أَمْرِ ٱللَّهِ إِلَّا مَن رَّحِمَ ۚ وَحَالَ بَيْنَهُمَا <a class=\"highlight-text\">ٱلْمَوْجُ</a> فَكَانَ مِنَ ٱلْمُغْرَقِينَ",
+      "derivedForms": [
+        "مَوْج"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 99,
+      "text": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا",
+      "highlightedHtml": "وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ <a class=\"highlight-text\">يَمُوجُ</a> فِى بَعْضٍ ۖ وَنُفِخَ فِى ٱلصُّورِ فَجَمَعْنَٰهُمْ جَمْعًا",
+      "derivedForms": [
+        "يَمُوج"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 40,
+      "text": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ لُّجِّىٍّ يَغْشَىٰهُ مَوْجٌ مِّن فَوْقِهِۦ مَوْجٌ مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "highlightedHtml": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ لُّجِّىٍّ يَغْشَىٰهُ <a class=\"highlight-text\">مَوْجٌ</a> مِّن فَوْقِهِۦ <a class=\"highlight-text\">مَوْجٌ</a> مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "derivedForms": [
+        "مَوْج",
+        "مَوْج"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 32,
+      "text": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "highlightedHtml": "وَإِذَا غَشِيَهُم <a class=\"highlight-text\">مَّوْجٌ</a> كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "derivedForms": [
+        "مَوْج"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:49.765Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine noun",
+    "derivativeNote": "ٱلْمَوْجُ is in the derivative form: مَوْج",
+    "rootDefinitionHtml": "م/و/ج   m–w–j wave, swell, surge, to swell, to heave, to roll, to be excited, to be agitated, to flood, to be stormy, (of sea) to be high; to intermingle. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> يَمُوج yamūj 1 time and مَوْج mawj 6 times.",
+    "mainDefinitionHtml": "مَوْج mawj [n.] waves, breakers <br><br>(31:32) وَإِذَا غَشِيَهُمْ مَوْجٌ كَالظُّلَلِ دَعَوُا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ when waves enshroud them like canopies, they call on God, devoting their religion sincerely to Him.",
+    "mainEntryId": "wdef-م-و-ج.مَوْج",
+    "entries": [
+      {
+        "id": "wdef-م-و-ج",
+        "label": "م-و-ج",
+        "definitionHtml": "م/و/ج   m–w–j wave, swell, surge, to swell, to heave, to roll, to be excited, to be agitated, to flood, to be stormy, (of sea) to be high; to intermingle. <br><br>Of this root, 2 forms occur 7 times in the Qur’an:<br> يَمُوج yamūj 1 time and مَوْج mawj 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-و-ج.مَوْج",
+        "label": "مَوْج",
+        "definitionHtml": "مَوْج mawj [n.] waves, breakers <br><br>(31:32) وَإِذَا غَشِيَهُمْ مَوْجٌ كَالظُّلَلِ دَعَوُا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ when waves enshroud them like canopies, they call on God, devoting their religion sincerely to Him.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-و-ج.يَمُوج",
+        "label": "يَمُوج",
+        "definitionHtml": "يَمُوج yamūj [imperf. of v. مَاجَ māja intrans.] to surge up, to swell up, to be tumultuous <br><br>(18:99) وَتَرَكْنَا بَعْضَهُمْ يَوْمَئِذٍ يَمُوجُ فِى بَعْضٍ We will let them, on that day, surge against each other.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:54.676Z",
+      "refword": "10:22:22",
+      "lexword": "ٱلْمَوْجُ"
+    }
+  }
+}

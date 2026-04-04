@@ -1,0 +1,74 @@
+{
+  "root": "دحو",
+  "rootArabic": "دحو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "دَحَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَحَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 79,
+      "ayah": 30,
+      "text": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ دَحَىٰهَآ",
+      "highlightedHtml": "وَٱلْأَرْضَ بَعْدَ ذَٰلِكَ <a class=\"highlight-text\">دَحَىٰهَآ</a>",
+      "derivedForms": [
+        "دَحَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:04.403Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "دَحَىٰهَآ is in the derivative form: دَحَى",
+    "rootDefinitionHtml": "د/ح/و-ي   d–ḥ–w/y to spread out, to level up, to widen, to enlarge, to relax. Of this root, دَحَا daḥā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "دَحَى daḥā ū [v. trans.] to roll out, to spread out, to expand, to widen up <br><br>(79:30) وَالأَرْضَ بَعْدَ ذَلِكَ دَحَاهَا and the Earth, after that, He spread [it] out.",
+    "mainEntryId": "wdef-د-ح-و-ي.دَحَى",
+    "entries": [
+      {
+        "id": "wdef-د-ح-و-ي",
+        "label": "د-ح-و-ي",
+        "definitionHtml": "د/ح/و-ي   d–ḥ–w/y to spread out, to level up, to widen, to enlarge, to relax. Of this root, دَحَا daḥā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ح-و-ي.دَحَى",
+        "label": "دَحَى",
+        "definitionHtml": "دَحَى daḥā ū [v. trans.] to roll out, to spread out, to expand, to widen up <br><br>(79:30) وَالأَرْضَ بَعْدَ ذَلِكَ دَحَاهَا and the Earth, after that, He spread [it] out.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:28.922Z",
+      "refword": "79:30:4",
+      "lexword": "دَحَىٰهَآ"
+    }
+  }
+}

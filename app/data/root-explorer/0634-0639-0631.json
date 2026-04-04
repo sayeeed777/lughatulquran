@@ -1,0 +1,831 @@
+{
+  "root": "شعر",
+  "rootArabic": "شعر",
+  "stats": {
+    "totalOccurrences": 40,
+    "derivativeCount": 8,
+    "surahCount": 23,
+    "ayahCount": 40
+  },
+  "derivatives": [
+    {
+      "form": "يَشْعُر",
+      "count": 50
+    },
+    {
+      "form": "شاعِر",
+      "count": 10
+    },
+    {
+      "form": "شَعائر",
+      "count": 8
+    },
+    {
+      "form": "يُشْعِر",
+      "count": 4
+    },
+    {
+      "form": "أشْعار",
+      "count": 2
+    },
+    {
+      "form": "الشِّعرَى",
+      "count": 2
+    },
+    {
+      "form": "شِعْر",
+      "count": 2
+    },
+    {
+      "form": "مَشْعَر",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 10,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 6,
+          "totalInQuran": 50
+        },
+        {
+          "form": "شَعائر",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "مَشْعَر",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شَعائر",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 4,
+          "totalInQuran": 50
+        },
+        {
+          "form": "يُشْعِر",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 4,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 6,
+          "totalInQuran": 50
+        },
+        {
+          "form": "أشْعار",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُشْعِر",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاعِر",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "شَعائر",
+          "count": 4,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 4,
+          "totalInQuran": 50
+        },
+        {
+          "form": "شاعِر",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 6,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 4,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شِعْر",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاعِر",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 4,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَشْعُر",
+          "count": 2,
+          "totalInQuran": 50
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاعِر",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "الشِّعرَى",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شاعِر",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 9,
+      "text": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 12,
+      "text": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 154,
+      "text": "وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌ وَلَٰكِن لَّا تَشْعُرُونَ تَشْعُرُونَ",
+      "highlightedHtml": "وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌ وَلَٰكِن لَّا <a class=\"highlight-text\">تَشْعُرُونَ</a> <a class=\"highlight-text\">تَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 158,
+      "text": "إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن <a class=\"highlight-text\">شَعَآئِرِ</a> <a class=\"highlight-text\">شَعَآئِرِ</a> ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ",
+      "derivedForms": [
+        "شَعائر",
+        "شَعائر"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 198,
+      "text": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+      "highlightedHtml": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ <a class=\"highlight-text\">ٱلْمَشْعَرِ</a> <a class=\"highlight-text\">ٱلْمَشْعَرِ</a> ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+      "derivedForms": [
+        "مَشْعَر",
+        "مَشْعَر"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 69,
+      "text": "وَدَّت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَدَّت طَّآئِفَةٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يُضِلُّونَكُمْ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 2,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُحِلُّوا۟ شَعَٰٓئِرَ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ آمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَٰنًا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُحِلُّوا۟ <a class=\"highlight-text\">شَعَٰٓئِرَ</a> <a class=\"highlight-text\">شَعَٰٓئِرَ</a> ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ آمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَٰنًا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "شَعائر",
+        "شَعائر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 26,
+      "text": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَهُمْ يَنْهَوْنَ عَنْهُ وَيَنْـَٔوْنَ عَنْهُ ۖ وَإِن يُهْلِكُونَ إِلَّآ أَنفُسَهُمْ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 109,
+      "text": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَتْهُمْ آيَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ ۖ وَمَا يُشْعِرُكُمْ يُشْعِرُكُمْ أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ",
+      "highlightedHtml": "وَأَقْسَمُوا۟ بِٱللَّهِ جَهْدَ أَيْمَٰنِهِمْ لَئِن جَآءَتْهُمْ آيَةٌ لَّيُؤْمِنُنَّ بِهَا ۚ قُلْ إِنَّمَا ٱلْءَايَٰتُ عِندَ ٱللَّهِ ۖ وَمَا <a class=\"highlight-text\">يُشْعِرُكُمْ</a> <a class=\"highlight-text\">يُشْعِرُكُمْ</a> أَنَّهَآ إِذَا جَآءَتْ لَا يُؤْمِنُونَ",
+      "derivedForms": [
+        "يُشْعِر",
+        "يُشْعِر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 123,
+      "text": "وَكَذَٰلِكَ جَعَلْنَا فِى كُلِّ قَرْيَةٍ أَكَٰبِرَ مُجْرِمِيهَا لِيَمْكُرُوا۟ فِيهَا ۖ وَمَا يَمْكُرُونَ إِلَّا بِأَنفُسِهِمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ جَعَلْنَا فِى كُلِّ قَرْيَةٍ أَكَٰبِرَ مُجْرِمِيهَا لِيَمْكُرُوا۟ فِيهَا ۖ وَمَا يَمْكُرُونَ إِلَّا بِأَنفُسِهِمْ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 95,
+      "text": "ثُمَّ بَدَّلْنَا مَكَانَ ٱلسَّيِّئَةِ ٱلْحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدْ مَسَّ ءَابَآءَنَا ٱلضَّرَّآءُ وَٱلسَّرَّآءُ فَأَخَذْنَٰهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "ثُمَّ بَدَّلْنَا مَكَانَ ٱلسَّيِّئَةِ ٱلْحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدْ مَسَّ ءَابَآءَنَا ٱلضَّرَّآءُ وَٱلسَّرَّآءُ فَأَخَذْنَٰهُم بَغْتَةً وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 15,
+      "text": "فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "فَلَمَّا ذَهَبُوا۟ بِهِۦ وَأَجْمَعُوٓا۟ أَن يَجْعَلُوهُ فِى غَيَٰبَتِ ٱلْجُبِّ ۚ وَأَوْحَيْنَآ إِلَيْهِ لَتُنَبِّئَنَّهُم بِأَمْرِهِمْ هَٰذَا وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 107,
+      "text": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 21,
+      "text": "أَمْوَٰتٌ غَيْرُ أَحْيَآءٍ ۖ وَمَا يَشْعُرُونَ يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ",
+      "highlightedHtml": "أَمْوَٰتٌ غَيْرُ أَحْيَآءٍ ۖ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a> أَيَّانَ يُبْعَثُونَ",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 26,
+      "text": "قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "قَدْ مَكَرَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَى ٱللَّهُ بُنْيَٰنَهُم مِّنَ ٱلْقَوَاعِدِ فَخَرَّ عَلَيْهِمُ ٱلسَّقْفُ مِن فَوْقِهِمْ وَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 45,
+      "text": "أَفَأَمِنَ ٱلَّذِينَ مَكَرُوا۟ ٱلسَّيِّـَٔاتِ أَن يَخْسِفَ ٱللَّهُ بِهِمُ ٱلْأَرْضَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "أَفَأَمِنَ ٱلَّذِينَ مَكَرُوا۟ ٱلسَّيِّـَٔاتِ أَن يَخْسِفَ ٱللَّهُ بِهِمُ ٱلْأَرْضَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 80,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَٰمِ بُيُوتًا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ وَأَشْعَارِهَآ أَثَٰثًا أَثَٰثًا أَثَٰثًا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَٰمِ بُيُوتًا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا <a class=\"highlight-text\">وَأَشْعَارِهَآ</a> <a class=\"highlight-text\">وَأَشْعَارِهَآ</a> أَثَٰثًا أَثَٰثًا أَثَٰثًا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "أشْعار",
+        "أشْعار"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 19,
+      "text": "وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا يُشْعِرَنَّ يُشْعِرَنَّ بِكُمْ أَحَدًا",
+      "highlightedHtml": "وَكَذَٰلِكَ بَعَثْنَٰهُمْ لِيَتَسَآءَلُوا۟ بَيْنَهُمْ ۚ قَالَ قَآئِلٌ مِّنْهُمْ كَمْ لَبِثْتُمْ ۖ قَالُوا۟ لَبِثْنَا يَوْمًا أَوْ بَعْضَ يَوْمٍ ۚ قَالُوا۟ رَبُّكُمْ أَعْلَمُ بِمَا لَبِثْتُمْ فَٱبْعَثُوٓا۟ أَحَدَكُم بِوَرِقِكُمْ هَٰذِهِۦٓ إِلَى ٱلْمَدِينَةِ فَلْيَنظُرْ أَيُّهَآ أَزْكَىٰ طَعَامًا فَلْيَأْتِكُم بِرِزْقٍ مِّنْهُ وَلْيَتَلَطَّفْ وَلَا <a class=\"highlight-text\">يُشْعِرَنَّ</a> <a class=\"highlight-text\">يُشْعِرَنَّ</a> بِكُمْ أَحَدًا",
+      "derivedForms": [
+        "يُشْعِر",
+        "يُشْعِر"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 5,
+      "text": "بَلْ قَالُوٓا۟ أَضْغَٰثُ أَحْلَٰمٍۭ بَلِ ٱفْتَرَىٰهُ بَلْ هُوَ شَاعِرٌ شَاعِرٌ فَلْيَأْتِنَا بِـَٔايَةٍ كَمَآ أُرْسِلَ ٱلْأَوَّلُونَ",
+      "highlightedHtml": "بَلْ قَالُوٓا۟ أَضْغَٰثُ أَحْلَٰمٍۭ بَلِ ٱفْتَرَىٰهُ بَلْ هُوَ <a class=\"highlight-text\">شَاعِرٌ</a> <a class=\"highlight-text\">شَاعِرٌ</a> فَلْيَأْتِنَا بِـَٔايَةٍ كَمَآ أُرْسِلَ ٱلْأَوَّلُونَ",
+      "derivedForms": [
+        "شاعِر",
+        "شاعِر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 32,
+      "text": "ذَٰلِكَ وَمَن يُعَظِّمْ شَعَٰٓئِرَ شَعَٰٓئِرَ ٱللَّهِ فَإِنَّهَا مِن تَقْوَى ٱلْقُلُوبِ",
+      "highlightedHtml": "ذَٰلِكَ وَمَن يُعَظِّمْ <a class=\"highlight-text\">شَعَٰٓئِرَ</a> <a class=\"highlight-text\">شَعَٰٓئِرَ</a> ٱللَّهِ فَإِنَّهَا مِن تَقْوَى ٱلْقُلُوبِ",
+      "derivedForms": [
+        "شَعائر",
+        "شَعائر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 36,
+      "text": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن <a class=\"highlight-text\">شَعَٰٓئِرِ</a> <a class=\"highlight-text\">شَعَٰٓئِرِ</a> ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "شَعائر",
+        "شَعائر"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 56,
+      "text": "نُسَارِعُ لَهُمْ فِى ٱلْخَيْرَٰتِ ۚ بَل لَّا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "نُسَارِعُ لَهُمْ فِى ٱلْخَيْرَٰتِ ۚ بَل لَّا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 113,
+      "text": "إِنْ حِسَابُهُمْ إِلَّا عَلَىٰ رَبِّى ۖ لَوْ تَشْعُرُونَ تَشْعُرُونَ",
+      "highlightedHtml": "إِنْ حِسَابُهُمْ إِلَّا عَلَىٰ رَبِّى ۖ لَوْ <a class=\"highlight-text\">تَشْعُرُونَ</a> <a class=\"highlight-text\">تَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 202,
+      "text": "فَيَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "فَيَأْتِيَهُم بَغْتَةً وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 224,
+      "text": "وَٱلشُّعَرَآءُ وَٱلشُّعَرَآءُ يَتَّبِعُهُمُ ٱلْغَاوُۥنَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلشُّعَرَآءُ</a> <a class=\"highlight-text\">وَٱلشُّعَرَآءُ</a> يَتَّبِعُهُمُ ٱلْغَاوُۥنَ",
+      "derivedForms": [
+        "شاعِر",
+        "شاعِر"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 18,
+      "text": "حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يَٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يَٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَٰنُ وَجُنُودُهُۥ وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 50,
+      "text": "وَمَكَرُوا۟ مَكْرًا وَمَكَرْنَا مَكْرًا وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَمَكَرُوا۟ مَكْرًا وَمَكَرْنَا مَكْرًا وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 65,
+      "text": "قُل لَّا يَعْلَمُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا يَشْعُرُونَ يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ",
+      "highlightedHtml": "قُل لَّا يَعْلَمُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلْغَيْبَ إِلَّا ٱللَّهُ ۚ وَمَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a> أَيَّانَ يُبْعَثُونَ",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 9,
+      "text": "وَقَالَتِ ٱمْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّى وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَقَالَتِ ٱمْرَأَتُ فِرْعَوْنَ قُرَّتُ عَيْنٍ لِّى وَلَكَ ۖ لَا تَقْتُلُوهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 11,
+      "text": "وَقَالَتْ لِأُخْتِهِۦ قُصِّيهِ ۖ فَبَصُرَتْ بِهِۦ عَن جُنُبٍ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَقَالَتْ لِأُخْتِهِۦ قُصِّيهِ ۖ فَبَصُرَتْ بِهِۦ عَن جُنُبٍ وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 53,
+      "text": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 69,
+      "text": "وَمَا عَلَّمْنَٰهُ ٱلشِّعْرَ ٱلشِّعْرَ وَمَا يَنۢبَغِى لَهُۥٓ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْءَانٌ مُّبِينٌ",
+      "highlightedHtml": "وَمَا عَلَّمْنَٰهُ <a class=\"highlight-text\">ٱلشِّعْرَ</a> <a class=\"highlight-text\">ٱلشِّعْرَ</a> وَمَا يَنۢبَغِى لَهُۥٓ ۚ إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْءَانٌ مُّبِينٌ",
+      "derivedForms": [
+        "شِعْر",
+        "شِعْر"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 36,
+      "text": "وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ آلِهَتِنَا لِشَاعِرٍ لِشَاعِرٍ مَّجْنُونٍۭ",
+      "highlightedHtml": "وَيَقُولُونَ أَئِنَّا لَتَارِكُوٓا۟ آلِهَتِنَا <a class=\"highlight-text\">لِشَاعِرٍ</a> <a class=\"highlight-text\">لِشَاعِرٍ</a> مَّجْنُونٍۭ",
+      "derivedForms": [
+        "شاعِر",
+        "شاعِر"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 25,
+      "text": "كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَأَتَىٰهُمُ ٱلْعَذَابُ مِنْ حَيْثُ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 55,
+      "text": "وَٱتَّبِعُوٓا۟ أَحْسَنَ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُم مِّن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ بَغْتَةً وَأَنتُمْ لَا تَشْعُرُونَ تَشْعُرُونَ",
+      "highlightedHtml": "وَٱتَّبِعُوٓا۟ أَحْسَنَ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُم مِّن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ بَغْتَةً وَأَنتُمْ لَا <a class=\"highlight-text\">تَشْعُرُونَ</a> <a class=\"highlight-text\">تَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 66,
+      "text": "هَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "هَلْ يَنظُرُونَ إِلَّا ٱلسَّاعَةَ أَن تَأْتِيَهُم بَغْتَةً وَهُمْ لَا <a class=\"highlight-text\">يَشْعُرُونَ</a> <a class=\"highlight-text\">يَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 2,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا تَجْهَرُوا۟ لَهُۥ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَٰلُكُمْ وَأَنتُمْ لَا تَشْعُرُونَ تَشْعُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَرْفَعُوٓا۟ أَصْوَٰتَكُمْ فَوْقَ صَوْتِ ٱلنَّبِىِّ وَلَا تَجْهَرُوا۟ لَهُۥ بِٱلْقَوْلِ كَجَهْرِ بَعْضِكُمْ لِبَعْضٍ أَن تَحْبَطَ أَعْمَٰلُكُمْ وَأَنتُمْ لَا <a class=\"highlight-text\">تَشْعُرُونَ</a> <a class=\"highlight-text\">تَشْعُرُونَ</a>",
+      "derivedForms": [
+        "يَشْعُر",
+        "يَشْعُر"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 30,
+      "text": "أَمْ يَقُولُونَ شَاعِرٌ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
+      "highlightedHtml": "أَمْ يَقُولُونَ <a class=\"highlight-text\">شَاعِرٌ</a> <a class=\"highlight-text\">شَاعِرٌ</a> نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
+      "derivedForms": [
+        "شاعِر",
+        "شاعِر"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 49,
+      "text": "وَأَنَّهُۥ هُوَ رَبُّ ٱلشِّعْرَىٰ ٱلشِّعْرَىٰ",
+      "highlightedHtml": "وَأَنَّهُۥ هُوَ رَبُّ <a class=\"highlight-text\">ٱلشِّعْرَىٰ</a> <a class=\"highlight-text\">ٱلشِّعْرَىٰ</a>",
+      "derivedForms": [
+        "الشِّعرَى",
+        "الشِّعرَى"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 41,
+      "text": "وَمَا هُوَ بِقَوْلِ شَاعِرٍ شَاعِرٍ ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
+      "highlightedHtml": "وَمَا هُوَ بِقَوْلِ <a class=\"highlight-text\">شَاعِرٍ</a> <a class=\"highlight-text\">شَاعِرٍ</a> ۚ قَلِيلًا مَّا تُؤْمِنُونَ",
+      "derivedForms": [
+        "شاعِر",
+        "شاعِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:09.852Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَشْعُرُونَ is in the derivative form: يَشْعُر",
+    "rootDefinitionHtml": "ش/ع/ر   sh–ʿ–r to know, to be cognisant of, to perceive by means of any of the senses<br>; poetry, to write poetry; hair, wool, fur, to be covered in hair; innermost garment; sign, rites. الشِّعرَى ʾal‐shiʿrā is said to be a corrupted borrowing from Greek. <br><br>Of this root, 9 forms occur 40 times in the Qur’an:<br> يَشْعُر yashʿur 25 times; يُشْعِر yushʿir 2 times; أشْعار ʾashʿār 1 time; الشِعْر ʾal‐shiʿr 1 time; شاعِر shāʿir 4 times; شُعَرَاء shuʿarāʾ 1 time; الشِّعرَى ʾal‐shiʿrā 1 time; شَعَائِر shaʿāʾir 4 times and المَشْعَر ʾal‐mashʿar 1 time.",
+    "mainDefinitionHtml": "يَشْعُر yashʿur [imperf. v., intrans.] <br><br><strong>1 </strong>to feel, to perceive <br><br>(16:26) وَأَتَاهُمُ الْعَذَابُ مِنْ حَيْثُ لاَ يَشْعُرُونَ punishment came upon them from directions that they had not perceived/expected <br><br><strong>2 </strong>to realise, to be aware <br><br>(2:9) يُخَادِعُونَ اللَّهَ وَالَّذِينَ ءَامَنُوا وَمَا يَخْدَعُونَ إِلاَّ أَنْفُسَهُمْ وَمَا يَشْعُرُونَ they seek to deceive God and the believers but they only deceive themselves, though they do not realise.",
+    "mainEntryId": "wdef-ش-ع-ر.يَشْعُر",
+    "entries": [
+      {
+        "id": "wdef-ش-ع-ر",
+        "label": "ش-ع-ر",
+        "definitionHtml": "ش/ع/ر   sh–ʿ–r to know, to be cognisant of, to perceive by means of any of the senses<br>; poetry, to write poetry; hair, wool, fur, to be covered in hair; innermost garment; sign, rites. الشِّعرَى ʾal‐shiʿrā is said to be a corrupted borrowing from Greek. <br><br>Of this root, 9 forms occur 40 times in the Qur’an:<br> يَشْعُر yashʿur 25 times; يُشْعِر yushʿir 2 times; أشْعار ʾashʿār 1 time; الشِعْر ʾal‐shiʿr 1 time; شاعِر shāʿir 4 times; شُعَرَاء shuʿarāʾ 1 time; الشِّعرَى ʾal‐shiʿrā 1 time; شَعَائِر shaʿāʾir 4 times and المَشْعَر ʾal‐mashʿar 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.يَشْعُر",
+        "label": "يَشْعُر",
+        "definitionHtml": "يَشْعُر yashʿur [imperf. v., intrans.] <br><br><strong>1 </strong>to feel, to perceive <br><br>(16:26) وَأَتَاهُمُ الْعَذَابُ مِنْ حَيْثُ لاَ يَشْعُرُونَ punishment came upon them from directions that they had not perceived/expected <br><br><strong>2 </strong>to realise, to be aware <br><br>(2:9) يُخَادِعُونَ اللَّهَ وَالَّذِينَ ءَامَنُوا وَمَا يَخْدَعُونَ إِلاَّ أَنْفُسَهُمْ وَمَا يَشْعُرُونَ they seek to deceive God and the believers but they only deceive themselves, though they do not realise.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ع-ر.أشْعار",
+        "label": "أشْعار",
+        "definitionHtml": "أشْعار ʾashʿār [pl. of coll. n. شَعْر shaʿr and شَعَر shaʿar] hair, bristles (of humans and goats in particular) <br><br>(16:80) وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَا أَثَاثًا وَمَتَاعًا إِلَى حِينٍ and of their wool, their fur and of their hairs, [He made for you] furnishings and comfort for a while.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.الشِّعرَى",
+        "label": "الشِّعرَى",
+        "definitionHtml": "الشِّعرَى ʾal‐shiʿrā [proper n.] Sirius/Dog star, the star widely worshipped in pre‐Islamic Arabia <br><br>(53:49) وَأَنَّهُ هُوَ رَبُّ الشِّعْرَى that He is the Lord of Sirius.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.شاعِر",
+        "label": "شاعِر",
+        "definitionHtml": "شاعِر shāʿir [n., pl. شُعَراء shuʿarāʾ] poet <br><br>(69:41) وَمَا هُوَ بِقَوْلِ شَاعِرٍ and it [the Qur’an] is not the words of a poet; * الشُّعراء name of Sura 26, Meccan sura, so‐named because of the reference in verses <br><br><strong>244 </strong>ff. to ‘the Poets’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.شَعائر",
+        "label": "شَعائر",
+        "definitionHtml": "شَعائر shaʿāʾir [pl. of n. شَعيرةٌ shaʿıratun] rituals, particularly those involving the Pilgrimage <br><br>(2:158) إِنَّ الصَّفَا وَالْمَرْوَةَ مِنْ شَعَائِرِ اللَّهِ Safa and Marwa are among the rites of God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.شِعْر",
+        "label": "شِعْر",
+        "definitionHtml": "شِعْر shiʿr [n.] poetry, the art of poetry, poetic skill <br><br>(36:69) وَمَا عَلَّمْنَاهُ الشِّعْرَ وَمَا يَنْبَغِي لَهُ We have not taught him [the Prophet] the art of poetry, nor is it fitting for him (or, nor does it fall within his ability) to be a poet.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.مَشْعَر",
+        "label": "مَشْعَر",
+        "definitionHtml": "مَشْعَر mashʿar [n. of place] a place where a religious ritual may be performed, a holy landmark, a sacred place *<br><br>(2:198) الْمَشْعَرِ الْحَرَام ِ the Holy Sacred Place, one of the sites of the pilgrimage between ʿarafāt and Mina–a plain called Muzdalifa, or an area on the mountain of Quzaḥ at the extreme end of Muzdalifa <br><br>(2:198) فَإِذَا أَفَضْتُمْ مِنْ عَرَفَاتٍ فَاذْكُرُوا اللَّهَ عِنْدَ الْمَشْعَرِ الْحَرَامِ when you surge down from Arafat remember God at the Sacred Place.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ر.يُشْعِر",
+        "label": "يُشْعِر",
+        "definitionHtml": "يُشْعِر yushʿir [imperf. v. IV, trans.] <br><br><strong>1 </strong>to cause to know, to cause to become aware, to alert, to draw attention to <br><br>(18:19) وَلْيَتَلَطَّفْ وَلاَ يُشْعِرَنَّ بِكُمْ أَحَدًا and let him be unobtrusive and not cause anyone to become aware of you <br><br><strong>2 </strong>to cause to feel, to cause to suppose <br><br>(6:109) وَمَا يُشْعِرُكُمْ أَنَّهَا إِذَا جَاءَتْ لاَ يُؤْمِنُون what makes you suppose that if [a sign from God] came [to them] they still would not believe?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:20.872Z",
+      "refword": "2:9:10",
+      "lexword": "يَشْعُرُونَ"
+    }
+  }
+}

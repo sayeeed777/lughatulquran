@@ -1,0 +1,138 @@
+{
+  "root": "ردف",
+  "rootArabic": "ردف",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "رَادِفَة",
+      "count": 1
+    },
+    {
+      "form": "رَدَفَ",
+      "count": 1
+    },
+    {
+      "form": "مُرْدِفِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُرْدِفِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَدَفَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَادِفَة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 9,
+      "text": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُرْدِفِينَ",
+      "highlightedHtml": "إِذْ تَسْتَغِيثُونَ رَبَّكُمْ فَٱسْتَجَابَ لَكُمْ أَنِّى مُمِدُّكُم بِأَلْفٍ مِّنَ ٱلْمَلَٰٓئِكَةِ <a class=\"highlight-text\">مُرْدِفِينَ</a>",
+      "derivedForms": [
+        "مُرْدِفِين"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 72,
+      "text": "قُلْ عَسَىٰٓ أَن يَكُونَ رَدِفَ لَكُم بَعْضُ ٱلَّذِى تَسْتَعْجِلُونَ",
+      "highlightedHtml": "قُلْ عَسَىٰٓ أَن يَكُونَ <a class=\"highlight-text\">رَدِفَ</a> لَكُم بَعْضُ ٱلَّذِى تَسْتَعْجِلُونَ",
+      "derivedForms": [
+        "رَدَفَ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 7,
+      "text": "تَتْبَعُهَا ٱلرَّادِفَةُ",
+      "highlightedHtml": "تَتْبَعُهَا <a class=\"highlight-text\">ٱلرَّادِفَةُ</a>",
+      "derivedForms": [
+        "رَادِفَة"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:16.134Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form IV) active participle",
+    "derivativeNote": "مُرْدِفِينَ is in the derivative form: مُرْدِفِين",
+    "rootDefinitionHtml": "ر/د/ف   r–d–f backside, posterior, rump<br>; to come after, to follow, to come from the back, to come in succession, to ride behind someone; to stand in for, a ruler’s substitute; entourage. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> رَدِفَ radifa; رَادِفَة rādifatun and مُرْدِفِين murdifın.",
+    "mainDefinitionHtml": "مُرْدِفِين murdifın [pl. of act. part. مُرْدِف murdif] coming one after the other, in succession; causing others to come one after the other, or in succession <br><br>(8:9) أَنِّي مُمِدُّكُمْ بِأَلْفٍ مِنَ الْمَلاَئِكَةِ مُرْدِفِينَ I will reinforce you with a thousand angels, coming in succession.",
+    "mainEntryId": "wdef-ر-د-ف.مُرْدِفِين",
+    "entries": [
+      {
+        "id": "wdef-ر-د-ف",
+        "label": "ر-د-ف",
+        "definitionHtml": "ر/د/ف   r–d–f backside, posterior, rump<br>; to come after, to follow, to come from the back, to come in succession, to ride behind someone; to stand in for, a ruler’s substitute; entourage. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> رَدِفَ radifa; رَادِفَة rādifatun and مُرْدِفِين murdifın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-د-ف.مُرْدِفِين",
+        "label": "مُرْدِفِين",
+        "definitionHtml": "مُرْدِفِين murdifın [pl. of act. part. مُرْدِف murdif] coming one after the other, in succession; causing others to come one after the other, or in succession <br><br>(8:9) أَنِّي مُمِدُّكُمْ بِأَلْفٍ مِنَ الْمَلاَئِكَةِ مُرْدِفِينَ I will reinforce you with a thousand angels, coming in succession.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-د-ف.رَادِفَة",
+        "label": "رَادِفَة",
+        "definitionHtml": "رَادِفَة rādifatun [act. part. fem.] that which follows <br><br>(79:6–7) يَوْمَ تَرْجُفُ الرَّاجِفَة تَتْبَعُهَا الرَّادِفَةُ on the Day when the blast of the Trumpet reverberates and the second blast follows it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-د-ف.رَدَفَ",
+        "label": "رَدَفَ",
+        "definitionHtml": "رَدَفَ or رَدِفَ radifa/radafa a [v. intrans.] to come behind, to draw near, to be near at hand <br><br>(27:72) عَسَى أَنْ يَكُونَ رَدِفَ لَكُمْ بَعْضُ الَّذِي تَسْتَعْجِلُونَ maybe some of what you seek to hasten is near at hand.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:41.888Z",
+      "refword": "8:9:11",
+      "lexword": "مُرْدِفِينَ"
+    }
+  }
+}

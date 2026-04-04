@@ -1,0 +1,202 @@
+{
+  "root": "علق",
+  "rootArabic": "علق",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "عَلَقَةٌ",
+      "count": 5
+    },
+    {
+      "form": "عَلَقٌ",
+      "count": 1
+    },
+    {
+      "form": "مُعَلَّقَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعَلَّقَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَلَقَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَلَقَةٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَلَقَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَلَقَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَلَقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 129,
+      "text": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا <a class=\"highlight-text\">كَٱلْمُعَلَّقَةِ</a> ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "مُعَلَّقَةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ <a class=\"highlight-text\">عَلَقَةٍ</a> ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "عَلَقَةٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 14,
+      "text": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ أَنشَأْنَٰهُ خَلْقًا آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ",
+      "highlightedHtml": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ <a class=\"highlight-text\">عَلَقَةً</a> فَخَلَقْنَا <a class=\"highlight-text\">ٱلْعَلَقَةَ</a> مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ أَنشَأْنَٰهُ خَلْقًا آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ",
+      "derivedForms": [
+        "عَلَقَةٌ",
+        "عَلَقَةٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 67,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ يُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ثُمَّ لِتَكُونُوا۟ شُيُوخًا ۚ وَمِنكُم مَّن يُتَوَفَّىٰ مِن قَبْلُ ۖ وَلِتَبْلُغُوٓا۟ أَجَلًا مُّسَمًّى وَلَعَلَّكُمْ تَعْقِلُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ <a class=\"highlight-text\">عَلَقَةٍ</a> ثُمَّ يُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ثُمَّ لِتَكُونُوا۟ شُيُوخًا ۚ وَمِنكُم مَّن يُتَوَفَّىٰ مِن قَبْلُ ۖ وَلِتَبْلُغُوٓا۟ أَجَلًا مُّسَمًّى وَلَعَلَّكُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "عَلَقَةٌ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 38,
+      "text": "ثُمَّ كَانَ عَلَقَةً فَخَلَقَ فَسَوَّىٰ فَسَوَّىٰ",
+      "highlightedHtml": "ثُمَّ كَانَ <a class=\"highlight-text\">عَلَقَةً</a> فَخَلَقَ فَسَوَّىٰ فَسَوَّىٰ",
+      "derivedForms": [
+        "عَلَقَةٌ"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 2,
+      "text": "خَلَقَ ٱلْإِنسَٰنَ مِنْ عَلَقٍ",
+      "highlightedHtml": "خَلَقَ ٱلْإِنسَٰنَ مِنْ <a class=\"highlight-text\">عَلَقٍ</a>",
+      "derivedForms": [
+        "عَلَقٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:19.506Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine (form II) passive participle",
+    "derivativeNote": "كَٱلْمُعَلَّقَةِ is in the derivative form: مُعَلَّقَةٌ",
+    "rootDefinitionHtml": "ع/ل/ق   ʿ–l–q clinging, to adhere, to be suspended, to hang<br>; to be attached, creeper, blood clot; morsel of food; treasure. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> عَلَقٌ ʿalaq 1 time; عَلَقَةٌ ʿalaqatun 5 times and مُعَلَّقَةٌ muʿallaqatun 1 time.",
+    "mainDefinitionHtml": "مُعَلَّقَةٌ muʿallaqatun [pass. part.] suspended <br><br>(4:129) ‏فَتَذَرُوهَا‏ ‏كَالْمُعَلَّقَةِ‏ leaving her, as it were, suspended.",
+    "mainEntryId": "wdef-ع-ل-ق.مُعَلَّقَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ل-ق",
+        "label": "ع-ل-ق",
+        "definitionHtml": "ع/ل/ق   ʿ–l–q clinging, to adhere, to be suspended, to hang<br>; to be attached, creeper, blood clot; morsel of food; treasure. <br><br>Of this root, 3 forms occur 7 times in the Qur’an:<br> عَلَقٌ ʿalaq 1 time; عَلَقَةٌ ʿalaqatun 5 times and مُعَلَّقَةٌ muʿallaqatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ل-ق.مُعَلَّقَةٌ",
+        "label": "مُعَلَّقَةٌ",
+        "definitionHtml": "مُعَلَّقَةٌ muʿallaqatun [pass. part.] suspended <br><br>(4:129) ‏فَتَذَرُوهَا‏ ‏كَالْمُعَلَّقَةِ‏ leaving her, as it were, suspended.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ل-ق.عَلَقٌ",
+        "label": "عَلَقٌ",
+        "definitionHtml": "عَلَقٌ ʿalaq [mass. n.] clinging clotted mass <br><br>(96:2) خَلَقَ‏ ‏الإِنْسَانَ‏ ‏مِنْ‏ ‏عَلَقٍ He created man from a clinging clotted mass; * العَلَقٌname of Sura 96, Meccan sura, so‐named because of the reference in verse <br><br><strong>2 </strong>to the creation of Humans from a ‘Clinging Mass’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ل-ق.عَلَقَةٌ",
+        "label": "عَلَقَةٌ",
+        "definitionHtml": "عَلَقَةٌ ʿalaqatun [unit n.] a lump of clinging clotted mass <br><br>(23:14) ثُمَّ‏ ‏خَلَقْنَا‏ ‏النُّطْفَةَ‏ ‏عَلَقَةً‏ then We fashioned the seminal fluid into a clinging clotted mass.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:20.063Z",
+      "refword": "4:129:14",
+      "lexword": "كَٱلْمُعَلَّقَةِ"
+    }
+  }
+}

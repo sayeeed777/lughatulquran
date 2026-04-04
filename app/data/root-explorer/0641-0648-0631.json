@@ -1,0 +1,148 @@
+{
+  "root": "فور",
+  "rootArabic": "فور",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "فارَ",
+      "count": 3
+    },
+    {
+      "form": "فَوْر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَوْر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فارَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فارَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فارَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 125,
+      "text": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "highlightedHtml": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن <a class=\"highlight-text\">فَوْرِهِمْ</a> هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "derivedForms": [
+        "فَوْر"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 40,
+      "text": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ آمَنَ ۚ وَمَآ آمَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا جَآءَ أَمْرُنَا <a class=\"highlight-text\">وَفَارَ</a> ٱلتَّنُّورُ قُلْنَا ٱحْمِلْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ وَمَنْ آمَنَ ۚ وَمَآ آمَنَ مَعَهُۥٓ إِلَّا قَلِيلٌ",
+      "derivedForms": [
+        "فارَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 27,
+      "text": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا وَفَارَ ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "highlightedHtml": "فَأَوْحَيْنَآ إِلَيْهِ أَنِ ٱصْنَعِ ٱلْفُلْكَ بِأَعْيُنِنَا وَوَحْيِنَا فَإِذَا جَآءَ أَمْرُنَا <a class=\"highlight-text\">وَفَارَ</a> ٱلتَّنُّورُ ۙ فَٱسْلُكْ فِيهَا مِن كُلٍّ زَوْجَيْنِ ٱثْنَيْنِ وَأَهْلَكَ إِلَّا مَن سَبَقَ عَلَيْهِ ٱلْقَوْلُ مِنْهُمْ ۖ وَلَا تُخَٰطِبْنِى فِى ٱلَّذِينَ ظَلَمُوٓا۟ ۖ إِنَّهُم مُّغْرَقُونَ",
+      "derivedForms": [
+        "فارَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 7,
+      "text": "إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًا وَهِىَ تَفُورُ",
+      "highlightedHtml": "إِذَآ أُلْقُوا۟ فِيهَا سَمِعُوا۟ لَهَا شَهِيقًا وَهِىَ <a class=\"highlight-text\">تَفُورُ</a>",
+      "derivedForms": [
+        "فارَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:19.850Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "فَوْرِهِمْ is in the derivative form: فَوْر",
+    "rootDefinitionHtml": "ف/و/ر   f–w–r to boil over, to gush out; to spread smells; to erupt with anger; (of heat) rising, to increase in intensity, swelling; immediacy. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> فارَ fāra 3 times and فَوْر fawr 1 time.",
+    "mainDefinitionHtml": "فَوْر fawr [n.; v. n.] the present time (in which there is no tarrying), immediacy, haste *<br><br>(3:125) وَيَأْتُوكُمْ‏ ‏مِنْ‏ ‏فَوْرِهِمْ‏‏ they come to you instantly [lit. in their haste/immediacy].",
+    "mainEntryId": "wdef-ف-و-ر.فَوْر",
+    "entries": [
+      {
+        "id": "wdef-ف-و-ر",
+        "label": "ف-و-ر",
+        "definitionHtml": "ف/و/ر   f–w–r to boil over, to gush out; to spread smells; to erupt with anger; (of heat) rising, to increase in intensity, swelling; immediacy. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> فارَ fāra 3 times and فَوْر fawr 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-و-ر.فَوْر",
+        "label": "فَوْر",
+        "definitionHtml": "فَوْر fawr [n.; v. n.] the present time (in which there is no tarrying), immediacy, haste *<br><br>(3:125) وَيَأْتُوكُمْ‏ ‏مِنْ‏ ‏فَوْرِهِمْ‏‏ they come to you instantly [lit. in their haste/immediacy].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-و-ر.فارَ",
+        "label": "فارَ",
+        "definitionHtml": "فارَ fāra ū [v. intrans.] <br><br><strong>1 </strong>to boil over, to erupt <br><br>(11:40) حَتَّى‏ ‏إِذَا‏ ‏جَاءَ‏ ‏أَمْرُنَا‏ ‏وَفَارَ التَّنُّورُ‏ until such time as Our command came to pass, and the earth’s surface (or, the furnace, or, the spring of water) erupted <br><br><strong>2 </strong>to boil, to heave, to blaze forth <br><br>(67:7)‏‏سَمِعُوا لَهَا شَهِيقًا‏ ‏وَهِيَ‏ ‏تَفُورُ‏ ‏they will hear from it a deep inhaling as it boils up.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:19.160Z",
+      "refword": "3:125:7",
+      "lexword": "فَوْرِهِمْ"
+    }
+  }
+}

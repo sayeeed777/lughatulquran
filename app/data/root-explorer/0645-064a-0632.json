@@ -1,0 +1,159 @@
+{
+  "root": "ميز",
+  "rootArabic": "ميز",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَمِيز",
+      "count": 2
+    },
+    {
+      "form": "امْتَازوا",
+      "count": 1
+    },
+    {
+      "form": "تَمَيَّز",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَمِيز",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَمِيز",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "امْتَازوا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمَيَّز",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 179,
+      "text": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "highlightedHtml": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ <a class=\"highlight-text\">يَمِيزَ</a> ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "derivedForms": [
+        "يَمِيز"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 37,
+      "text": "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">لِيَمِيزَ</a> ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "يَمِيز"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 59,
+      "text": "وَٱمْتَٰزُوا۟ ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱمْتَٰزُوا۟</a> ٱلْيَوْمَ أَيُّهَا ٱلْمُجْرِمُونَ",
+      "derivedForms": [
+        "امْتَازوا"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 8,
+      "text": "تَكَادُ تَمَيَّزُ مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌ",
+      "highlightedHtml": "تَكَادُ <a class=\"highlight-text\">تَمَيَّزُ</a> مِنَ ٱلْغَيْظِ ۖ كُلَّمَآ أُلْقِىَ فِيهَا فَوْجٌ سَأَلَهُمْ خَزَنَتُهَآ أَلَمْ يَأْتِكُمْ نَذِيرٌ",
+      "derivedForms": [
+        "تَمَيَّز"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:53.575Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "يَمِيزَ is in the derivative form: يَمِيز",
+    "rootDefinitionHtml": "م/ي/ز   m–y–z to sort out, to separate, to mark out, to distinguish<br>; to weed out; to stand out; to fall apart; to fall into factions. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَمِيز yamız 2 times; تَمَيَّز tamayyaz 1 time and امْتَازوا ʾimtāzū 1 time.",
+    "mainDefinitionHtml": "يَمِيز yamız [imperf. of v. مَازَ māza, trans.] to separate, to sort out, to discriminate, to distinguish <br><br>(3:179) يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ He distinguishes the bad from the good.",
+    "mainEntryId": "wdef-م-ي-ز.يَمِيز",
+    "entries": [
+      {
+        "id": "wdef-م-ي-ز",
+        "label": "م-ي-ز",
+        "definitionHtml": "م/ي/ز   m–y–z to sort out, to separate, to mark out, to distinguish<br>; to weed out; to stand out; to fall apart; to fall into factions. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> يَمِيز yamız 2 times; تَمَيَّز tamayyaz 1 time and امْتَازوا ʾimtāzū 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-ز.يَمِيز",
+        "label": "يَمِيز",
+        "definitionHtml": "يَمِيز yamız [imperf. of v. مَازَ māza, trans.] to separate, to sort out, to discriminate, to distinguish <br><br>(3:179) يَمِيزَ الْخَبِيثَ مِنَ الطَّيِّبِ He distinguishes the bad from the good.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ي-ز.امْتَازوا",
+        "label": "امْتَازوا",
+        "definitionHtml": "امْتَازوا ʾimtāzū [ imper. of v. VIII, intrans.] stand out, separate, become marked out, stand aside <br><br>(36:59) وَامْتَازُوا الْيَوْمَ أَيُّهَا الْمُجْرِمُونَ but step aside/be marked out today, you guilty ones.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-ز.تَمَيَّز",
+        "label": "تَمَيَّز",
+        "definitionHtml": "تَمَيَّز tamayyaz [imperf. of v. V تَمَيَّزَ tamayyaza, with the prefix ﺘ of the imperfect تَتَمَيَّز tatamayyaz, elided, intrans.] to split up, to tear up, to burst <br><br>(67:8) تَكَادُ تَمَيَّزُ مِنَ الْغَيْظِ it almost bursts with rage.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:04.636Z",
+      "refword": "3:179:11",
+      "lexword": "يَمِيزَ"
+    }
+  }
+}

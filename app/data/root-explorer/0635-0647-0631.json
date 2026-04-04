@@ -1,0 +1,106 @@
+{
+  "root": "صهر",
+  "rootArabic": "صهر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "صِهْر",
+      "count": 1
+    },
+    {
+      "form": "يُصْهَر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُصْهَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صِهْر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 20,
+      "text": "يُصْهَرُ بِهِۦ مَا فِى بُطُونِهِمْ وَٱلْجُلُودُ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُصْهَرُ</a> بِهِۦ مَا فِى بُطُونِهِمْ وَٱلْجُلُودُ",
+      "derivedForms": [
+        "يُصْهَر"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 54,
+      "text": "وَهُوَ ٱلَّذِى خَلَقَ مِنَ ٱلْمَآءِ بَشَرًا فَجَعَلَهُۥ نَسَبًا وَصِهْرًا ۗ وَكَانَ رَبُّكَ قَدِيرًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى خَلَقَ مِنَ ٱلْمَآءِ بَشَرًا فَجَعَلَهُۥ نَسَبًا <a class=\"highlight-text\">وَصِهْرًا</a> ۗ وَكَانَ رَبُّكَ قَدِيرًا",
+      "derivedForms": [
+        "صِهْر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:17.093Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive imperfect verb",
+    "derivativeNote": "يُصْهَرُ is in the derivative form: يُصْهَر",
+    "rootDefinitionHtml": "ص/هـ/ر   ṣ–h–r to melt down, to heat up, to roast; to bring near; to marry into (a family), in-laws. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُصْهَر yuṣhar and صِهْر ṣihr.",
+    "mainDefinitionHtml": "يُصْهَر yuṣhar [pass. imperf. v.] to be melted down, to be scorched <br><br>(22:20) يُصْهَرُ بِهِ مَا فِى بُطُونِهِمْ وَالْجُلُودُ what is in their insides as well as their skins will be melted by it.",
+    "mainEntryId": "wdef-ص-هـ-ر.يُصْهَر",
+    "entries": [
+      {
+        "id": "wdef-ص-هـ-ر",
+        "label": "ص-هـ-ر",
+        "definitionHtml": "ص/هـ/ر   ṣ–h–r to melt down, to heat up, to roast; to bring near; to marry into (a family), in-laws. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يُصْهَر yuṣhar and صِهْر ṣihr.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-هـ-ر.يُصْهَر",
+        "label": "يُصْهَر",
+        "definitionHtml": "يُصْهَر yuṣhar [pass. imperf. v.] to be melted down, to be scorched <br><br>(22:20) يُصْهَرُ بِهِ مَا فِى بُطُونِهِمْ وَالْجُلُودُ what is in their insides as well as their skins will be melted by it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-هـ-ر.صِهْر",
+        "label": "صِهْر",
+        "definitionHtml": "صِهْر ṣihr [n./quasi-act. part.] an in-law/being related through marriage <br><br>(25:54) وَهُوَ الَّذِي خَلَقَ مِنَ الْمَاءِ بَشَرًا فَجَعَلَهُ نَسَبًا وَصِهْرًا and He it is who created from water a human being, then made him kin by blood and by marriage.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:30.014Z",
+      "refword": "22:20:1",
+      "lexword": "يُصْهَرُ"
+    }
+  }
+}

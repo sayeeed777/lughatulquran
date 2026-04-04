@@ -1,0 +1,240 @@
+{
+  "root": "نقض",
+  "rootArabic": "نقض",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "نَقَضَ",
+      "count": 6
+    },
+    {
+      "form": "نَقْضٌ",
+      "count": 2
+    },
+    {
+      "form": "أَنْقَضَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَضَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقْضٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقْضٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَقَضَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَقَضَ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَقَضَ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "surahName": "Al-Inshirah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْقَضَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 27,
+      "text": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">يَنقُضُونَ</a> عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 155,
+      "text": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ وَكُفْرِهِم بِـَٔايَٰتِ ٱللَّهِ وَقَتْلِهِمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌۢ ۚ بَلْ طَبَعَ ٱللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "فَبِمَا <a class=\"highlight-text\">نَقْضِهِم</a> مِّيثَٰقَهُمْ وَكُفْرِهِم بِـَٔايَٰتِ ٱللَّهِ وَقَتْلِهِمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَقَوْلِهِمْ قُلُوبُنَا غُلْفٌۢ ۚ بَلْ طَبَعَ ٱللَّهُ عَلَيْهَا بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "نَقْضٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 13,
+      "text": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "فَبِمَا <a class=\"highlight-text\">نَقْضِهِم</a> مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "نَقْضٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 56,
+      "text": "ٱلَّذِينَ عَٰهَدتَّ مِنْهُمْ ثُمَّ يَنقُضُونَ عَهْدَهُمْ فِى كُلِّ مَرَّةٍ وَهُمْ لَا يَتَّقُونَ",
+      "highlightedHtml": "ٱلَّذِينَ عَٰهَدتَّ مِنْهُمْ ثُمَّ <a class=\"highlight-text\">يَنقُضُونَ</a> عَهْدَهُمْ فِى كُلِّ مَرَّةٍ وَهُمْ لَا يَتَّقُونَ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 20,
+      "text": "ٱلَّذِينَ يُوفُونَ بِعَهْدِ ٱللَّهِ وَلَا يَنقُضُونَ ٱلْمِيثَٰقَ",
+      "highlightedHtml": "ٱلَّذِينَ يُوفُونَ بِعَهْدِ ٱللَّهِ وَلَا <a class=\"highlight-text\">يَنقُضُونَ</a> ٱلْمِيثَٰقَ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 25,
+      "text": "وَٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۙ أُو۟لَٰٓئِكَ لَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "highlightedHtml": "وَٱلَّذِينَ <a class=\"highlight-text\">يَنقُضُونَ</a> عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ ۙ أُو۟لَٰٓئِكَ لَهُمُ ٱللَّعْنَةُ وَلَهُمْ سُوٓءُ ٱلدَّارِ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 91,
+      "text": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا تَنقُضُوا۟ ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "highlightedHtml": "وَأَوْفُوا۟ بِعَهْدِ ٱللَّهِ إِذَا عَٰهَدتُّمْ وَلَا <a class=\"highlight-text\">تَنقُضُوا۟</a> ٱلْأَيْمَٰنَ بَعْدَ تَوْكِيدِهَا وَقَدْ جَعَلْتُمُ ٱللَّهَ عَلَيْكُمْ كَفِيلًا ۚ إِنَّ ٱللَّهَ يَعْلَمُ مَا تَفْعَلُونَ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 92,
+      "text": "وَلَا تَكُونُوا۟ كَٱلَّتِى نَقَضَتْ غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ أَنكَٰثًا تَتَّخِذُونَ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ أَرْبَىٰ مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "highlightedHtml": "وَلَا تَكُونُوا۟ كَٱلَّتِى <a class=\"highlight-text\">نَقَضَتْ</a> غَزْلَهَا مِنۢ بَعْدِ قُوَّةٍ قُوَّةٍ أَنكَٰثًا تَتَّخِذُونَ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ أَن تَكُونَ أُمَّةٌ هِىَ أَرْبَىٰ مِنْ أُمَّةٍ ۚ إِنَّمَا يَبْلُوكُمُ ٱللَّهُ بِهِۦ ۚ وَلَيُبَيِّنَنَّ لَكُمْ يَوْمَ ٱلْقِيَٰمَةِ مَا كُنتُمْ فِيهِ تَخْتَلِفُونَ",
+      "derivedForms": [
+        "نَقَضَ"
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 3,
+      "text": "ٱلَّذِىٓ أَنقَضَ ظَهْرَكَ",
+      "highlightedHtml": "ٱلَّذِىٓ <a class=\"highlight-text\">أَنقَضَ</a> ظَهْرَكَ",
+      "derivedForms": [
+        "أَنْقَضَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:59.020Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَنقُضُونَ is in the derivative form: نَقَضَ",
+    "rootDefinitionHtml": "ن/ق/ض   n–q–ḍ to annul, to dismantle, to revoke, to violate, to dispute with<br>; contrary, opposite; to overburden, to weaken. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نَقَضَ naqaḍa 6 times; أَنْقَضَ ʾanqaḍa 1 time and نَقْضٌ naqḍ 2 times.",
+    "mainDefinitionHtml": "نَقَضَ naqaḍa u [v. trans.] to unravel, to undo, to annul, to revoke <br><br>(16:92) وَلاَ تَكُونُوا كَالَّتِي نَقَضَتْ غَزْلَهَا مِنْ بَعْدِ قُوَّةٍ أَنْكَاثًا do not be like a woman who unravels her yarn into fibres, after it has become strong, [falling thus into complete disintegration/losing your unity].",
+    "mainEntryId": "wdef-ن-ق-ض.نَقَضَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ق-ض",
+        "label": "ن-ق-ض",
+        "definitionHtml": "ن/ق/ض   n–q–ḍ to annul, to dismantle, to revoke, to violate, to dispute with<br>; contrary, opposite; to overburden, to weaken. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نَقَضَ naqaḍa 6 times; أَنْقَضَ ʾanqaḍa 1 time and نَقْضٌ naqḍ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ض.نَقَضَ",
+        "label": "نَقَضَ",
+        "definitionHtml": "نَقَضَ naqaḍa u [v. trans.] to unravel, to undo, to annul, to revoke <br><br>(16:92) وَلاَ تَكُونُوا كَالَّتِي نَقَضَتْ غَزْلَهَا مِنْ بَعْدِ قُوَّةٍ أَنْكَاثًا do not be like a woman who unravels her yarn into fibres, after it has become strong, [falling thus into complete disintegration/losing your unity].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ق-ض.أَنْقَضَ",
+        "label": "أَنْقَضَ",
+        "definitionHtml": "أَنْقَضَ ʾanqaḍa [v. IV trans.] to overburden, to weigh down <br><br>(94:2–3) وَوَضَعْنَا عَنْكَ وِزْرَكَ الَّذِي أَنْقَضَ ظَهْرَكَ and We removed from you the burden that weighed heavily on you [lit. weighed down your back].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ق-ض.نَقْضٌ",
+        "label": "نَقْضٌ",
+        "definitionHtml": "نَقْضٌ naqḍ [v. n.] the act of revoking, violating, breaking (a covenant or treaty) <br><br>(4:155) فَبِمَا نَقْضِهِمْ مِيثَاقَهُمْ وَكُفْرِهِمْ بِآيَاتِ اللَّهِ and so for breaking their pledge and rejecting God’s revelations.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:09.026Z",
+      "refword": "2:27:2",
+      "lexword": "يَنقُضُونَ"
+    }
+  }
+}

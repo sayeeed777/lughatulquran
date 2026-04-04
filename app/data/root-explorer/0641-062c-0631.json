@@ -1,0 +1,549 @@
+{
+  "root": "فجر",
+  "rootArabic": "فجر",
+  "stats": {
+    "totalOccurrences": 24,
+    "derivativeCount": 8,
+    "surahCount": 16,
+    "ayahCount": 21
+  },
+  "derivatives": [
+    {
+      "form": "فَجَّرَ",
+      "count": 6
+    },
+    {
+      "form": "فَجْر",
+      "count": 6
+    },
+    {
+      "form": "فاجِر",
+      "count": 5
+    },
+    {
+      "form": "تَفْجُر",
+      "count": 2
+    },
+    {
+      "form": "تَفْجيِر",
+      "count": 2
+    },
+    {
+      "form": "انْفَجَرَ",
+      "count": 1
+    },
+    {
+      "form": "فُجور",
+      "count": 1
+    },
+    {
+      "form": "يَتَفَجَّر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "انْفَجَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "فَجْر",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَتَفَجَّر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "فَجْر",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "تَفْجُر",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "تَفْجيِر",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاجِر",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاجِر",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفْجُر",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَفْجيِر",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاجِر",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فاجِر",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "فَجَّرَ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاجِر",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُجور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 97,
+      "surahName": "Al-Qadr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَجْر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 60,
+      "text": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ <a class=\"highlight-text\">فَٱنفَجَرَتْ</a> مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۖ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "انْفَجَرَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 74,
+      "text": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا يَتَفَجَّرُ مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "highlightedHtml": "ثُمَّ قَسَتْ قُلُوبُكُم مِّنۢ بَعْدِ ذَٰلِكَ فَهِىَ كَٱلْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً ۚ وَإِنَّ مِنَ ٱلْحِجَارَةِ لَمَا <a class=\"highlight-text\">يَتَفَجَّرُ</a> مِنْهُ ٱلْأَنْهَٰرُ ۚ وَإِنَّ مِنْهَا لَمَا يَشَّقَّقُ فَيَخْرُجُ مِنْهُ ٱلْمَآءُ ۚ وَإِنَّ مِنْهَا لَمَا يَهْبِطُ مِنْ خَشْيَةِ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "derivedForms": [
+        "يَتَفَجَّر"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 187,
+      "text": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ <a class=\"highlight-text\">ٱلْفَجْرِ</a> ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "فَجْر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 78,
+      "text": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
+      "highlightedHtml": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ <a class=\"highlight-text\">ٱلْفَجْرِ</a> ۖ إِنَّ قُرْءَانَ <a class=\"highlight-text\">ٱلْفَجْرِ</a> كَانَ مَشْهُودًا",
+      "derivedForms": [
+        "فَجْر",
+        "فَجْر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 90,
+      "text": "وَقَالُوا۟ لَن نُّؤْمِنَ لَكَ حَتَّىٰ تَفْجُرَ لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا",
+      "highlightedHtml": "وَقَالُوا۟ لَن نُّؤْمِنَ لَكَ حَتَّىٰ <a class=\"highlight-text\">تَفْجُرَ</a> لَنَا مِنَ ٱلْأَرْضِ يَنۢبُوعًا",
+      "derivedForms": [
+        "تَفْجُر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 91,
+      "text": "أَوْ تَكُونَ لَكَ جَنَّةٌ مِّن نَّخِيلٍ وَعِنَبٍ فَتُفَجِّرَ ٱلْأَنْهَٰرَ خِلَٰلَهَا تَفْجِيرًا",
+      "highlightedHtml": "أَوْ تَكُونَ لَكَ جَنَّةٌ مِّن نَّخِيلٍ وَعِنَبٍ <a class=\"highlight-text\">فَتُفَجِّرَ</a> ٱلْأَنْهَٰرَ خِلَٰلَهَا <a class=\"highlight-text\">تَفْجِيرًا</a>",
+      "derivedForms": [
+        "فَجَّرَ",
+        "تَفْجيِر"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 33,
+      "text": "كِلْتَا ٱلْجَنَّتَيْنِ آتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ شَيْـًٔا ۚ وَفَجَّرْنَا خِلَٰلَهُمَا نَهَرًا",
+      "highlightedHtml": "كِلْتَا ٱلْجَنَّتَيْنِ آتَتْ أُكُلَهَا وَلَمْ تَظْلِم مِّنْهُ شَيْـًٔا ۚ <a class=\"highlight-text\">وَفَجَّرْنَا</a> خِلَٰلَهُمَا نَهَرًا",
+      "derivedForms": [
+        "فَجَّرَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 58,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ۚ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ <a class=\"highlight-text\">ٱلْفَجْرِ</a> وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ۚ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "فَجْر"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 34,
+      "text": "وَجَعَلْنَا فِيهَا جَنَّٰتٍ مِّن نَّخِيلٍ وَأَعْنَٰبٍ وَفَجَّرْنَا فِيهَا مِنَ ٱلْعُيُونِ",
+      "highlightedHtml": "وَجَعَلْنَا فِيهَا جَنَّٰتٍ مِّن نَّخِيلٍ وَأَعْنَٰبٍ <a class=\"highlight-text\">وَفَجَّرْنَا</a> فِيهَا مِنَ ٱلْعُيُونِ",
+      "derivedForms": [
+        "فَجَّرَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 28,
+      "text": "أَمْ نَجْعَلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَٱلْمُفْسِدِينَ فِى ٱلْأَرْضِ أَمْ نَجْعَلُ ٱلْمُتَّقِينَ كَٱلْفُجَّارِ",
+      "highlightedHtml": "أَمْ نَجْعَلُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ كَٱلْمُفْسِدِينَ فِى ٱلْأَرْضِ أَمْ نَجْعَلُ ٱلْمُتَّقِينَ <a class=\"highlight-text\">كَٱلْفُجَّارِ</a>",
+      "derivedForms": [
+        "فاجِر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 12,
+      "text": "وَفَجَّرْنَا ٱلْأَرْضَ عُيُونًا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍ قَدْ قُدِرَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَفَجَّرْنَا</a> ٱلْأَرْضَ عُيُونًا فَٱلْتَقَى ٱلْمَآءُ عَلَىٰٓ أَمْرٍ قَدْ قُدِرَ",
+      "derivedForms": [
+        "فَجَّرَ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 27,
+      "text": "إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا فَاجِرًا كَفَّارًا",
+      "highlightedHtml": "إِنَّكَ إِن تَذَرْهُمْ يُضِلُّوا۟ عِبَادَكَ وَلَا يَلِدُوٓا۟ إِلَّا <a class=\"highlight-text\">فَاجِرًا</a> كَفَّارًا",
+      "derivedForms": [
+        "فاجِر"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 5,
+      "text": "بَلْ يُرِيدُ ٱلْإِنسَٰنُ لِيَفْجُرَ أَمَامَهُۥ",
+      "highlightedHtml": "بَلْ يُرِيدُ ٱلْإِنسَٰنُ <a class=\"highlight-text\">لِيَفْجُرَ</a> أَمَامَهُۥ",
+      "derivedForms": [
+        "تَفْجُر"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 6,
+      "text": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ يُفَجِّرُونَهَا تَفْجِيرًا",
+      "highlightedHtml": "عَيْنًا يَشْرَبُ بِهَا عِبَادُ ٱللَّهِ <a class=\"highlight-text\">يُفَجِّرُونَهَا</a> <a class=\"highlight-text\">تَفْجِيرًا</a>",
+      "derivedForms": [
+        "فَجَّرَ",
+        "تَفْجيِر"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 42,
+      "text": "أُو۟لَٰٓئِكَ هُمُ ٱلْكَفَرَةُ ٱلْفَجَرَةُ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ هُمُ ٱلْكَفَرَةُ <a class=\"highlight-text\">ٱلْفَجَرَةُ</a>",
+      "derivedForms": [
+        "فاجِر"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 3,
+      "text": "وَإِذَا ٱلْبِحَارُ فُجِّرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْبِحَارُ <a class=\"highlight-text\">فُجِّرَتْ</a>",
+      "derivedForms": [
+        "فَجَّرَ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 14,
+      "text": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
+      "highlightedHtml": "وَإِنَّ <a class=\"highlight-text\">ٱلْفُجَّارَ</a> لَفِى جَحِيمٍ",
+      "derivedForms": [
+        "فاجِر"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 7,
+      "text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+      "highlightedHtml": "كَلَّآ إِنَّ كِتَٰبَ <a class=\"highlight-text\">ٱلْفُجَّارِ</a> لَفِى سِجِّينٍ",
+      "derivedForms": [
+        "فاجِر"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 1,
+      "text": "وَٱلْفَجْرِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْفَجْرِ</a>",
+      "derivedForms": [
+        "فَجْر"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 8,
+      "text": "فَأَلْهَمَهَا فُجُورَهَا وَتَقْوَىٰهَا",
+      "highlightedHtml": "فَأَلْهَمَهَا <a class=\"highlight-text\">فُجُورَهَا</a> وَتَقْوَىٰهَا",
+      "derivedForms": [
+        "فُجور"
+      ]
+    },
+    {
+      "surah": 97,
+      "ayah": 5,
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "highlightedHtml": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ <a class=\"highlight-text\">ٱلْفَجْرِ</a>",
+      "derivedForms": [
+        "فَجْر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:33.556Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VII) perfect verb",
+    "derivativeNote": "فَٱنفَجَرَتْ is in the derivative form: انْفَجَرَ",
+    "rootDefinitionHtml": "ف/ج/ر   f–j–r to gush forth, to explode<br>; dawn, (of dawn) to appear; to cut, to divide, to cleave; to incline; to violate social or religious norms, to commit adultery. <br><br>Of this root, 11 forms occur 23 times in the Qur’an:<br>تَفْجُر tafjur 2 times; فَجَّرَ fajjara 5 times; فُجِّرَ fujjira 1 time; يَتَفَجَّر yatafajjar 1 time; انْفَجَرَ ʾinfajara 1 time; فاجِر fājir 1 time; فَجَرةٌ fajaratun 1 time; فُجّار fujjār 3 times; فُجور fujūr 1 time; تَفْجير tafjır 1 time and فَجْر fajr 6 times.",
+    "mainDefinitionHtml": "انْفَجَرَ ʾinfajara [v. VII, intrans.] to explode, to rush out <br><br>(2:60) ‏فَانْفَجَرَتْ‏ ‏مِنْهُ اثْنَتَا‏ ‏عَشْرَةَ‏ ‏عَيْنًا‏ ‏so twelve springs gushed out of it.",
+    "mainEntryId": "wdef-ف-ج-ر.انْفَجَرَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ج-ر",
+        "label": "ف-ج-ر",
+        "definitionHtml": "ف/ج/ر   f–j–r to gush forth, to explode<br>; dawn, (of dawn) to appear; to cut, to divide, to cleave; to incline; to violate social or religious norms, to commit adultery. <br><br>Of this root, 11 forms occur 23 times in the Qur’an:<br>تَفْجُر tafjur 2 times; فَجَّرَ fajjara 5 times; فُجِّرَ fujjira 1 time; يَتَفَجَّر yatafajjar 1 time; انْفَجَرَ ʾinfajara 1 time; فاجِر fājir 1 time; فَجَرةٌ fajaratun 1 time; فُجّار fujjār 3 times; فُجور fujūr 1 time; تَفْجير tafjır 1 time and فَجْر fajr 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.انْفَجَرَ",
+        "label": "انْفَجَرَ",
+        "definitionHtml": "انْفَجَرَ ʾinfajara [v. VII, intrans.] to explode, to rush out <br><br>(2:60) ‏فَانْفَجَرَتْ‏ ‏مِنْهُ اثْنَتَا‏ ‏عَشْرَةَ‏ ‏عَيْنًا‏ ‏so twelve springs gushed out of it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ج-ر.تَفْجيِر",
+        "label": "تَفْجيِر",
+        "definitionHtml": "تَفْجيِر tafjır [v. n.] (act of) gushing out, exploding, bursting <br><br>(17:91) ‏فَتُفَجِّرَ‏ ‏الأَنْهَارَ‏ ‏خِلاَلَهَا‏ ‏تَفْجِيرًا and you cause rivers to gush forth through them forcefully.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.تَفْجُر",
+        "label": "تَفْجُر",
+        "definitionHtml": "تَفْجُر tafjur [imperf. of v. فَجَرَ fajara] I [intrans.] to incline; to gush forth; to commit a foul deed, to sin, to behave in an outrageous manner <br><br>(75:5) ‏بَلْ‏ ‏يُرِيدُ‏ ‏الإِنْسَانُ‏ ‏لِيَفْجُرَ أَمَامَهُ ‏yet man wishes to continue in his outrageous denial of what is before him (or, that which is yet to come, namely the Resurrection, Reckoning and Retribution or, he wishes to continue in his vice, immorality and unrighteousness in days to come) II [trans.] to bring forth, to cause to spring forth, to let gush forth <br><br>(17:90)‏لَنْ‏ ‏نُؤْمِنَ‏ ‏لَكَ‏ ‏حَتَّى‏ ‏تَفْجُرَ‏ ‏لَنَا‏ مِنَ‏ الأَرْضِ ِيَنْبُوعاً‏ we will not follow you [go along with what you say] until you cause a spring to gush forth for us from the Earth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.فاجِر",
+        "label": "فاجِر",
+        "definitionHtml": "فاجِر fājir [act. part.; pl. فَجَرة fajaratun, فُجّار fujjār] one acting wickedly, and outrageously, libertine, sinner, violator of religious teachings <br><br>(71:27)‏ ‏ ‏وَلاَ‏ ‏يَلِدُوا‏ ‏إِلاَّ‏ ‏فَاجِرًا‏ ‏كَفَّارًا‏and only beget sinners and disbelievers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.فَجَّرَ",
+        "label": "فَجَّرَ",
+        "definitionHtml": "فَجَّرَ fajjara [v. II, trans.; pass. فُجِّرَ fujjira] to cause to gush forth <br><br>(36:34)‏وَفَجَّرْنَا‏ ‏فِيهَا‏ ‏مِنَ‏ ‏الْعُيُونِ ‏ and We have made to gush out of it springs of water.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.فَجْر",
+        "label": "فَجْر",
+        "definitionHtml": "فَجْر fajr [n.] <br><br><strong>1 </strong>dawn <br><br>(24:58) مِنْ قَبْلِ صَلاَةِ الْفَجْرِ before the dawn prayer; *الْفَجْر name of Sura 89, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to the ‘Dawn’ <br><br><strong>2 </strong>dawn light <br><br>(2:187) حَتَّى يَتَبَيَّنَ لَكُمُ الْخَيْطُ الأَبْيَضُ مِنَ الْخَيْطِ الأَسْوَدِ مِنَ الْفَجْرِ until the white streak of dawn light becomes distinct for you from the black [lit. the white thread of dawn becomes distinct from the black].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.فُجور",
+        "label": "فُجور",
+        "definitionHtml": "فُجور fujūr [v. n./n.] violating God’s commands; vice, wickedness, immorality, unrighteousness <br><br>(91:8) فَأَلْهَمَهَا‏ ‏فُجُورَهَا‏ ‏وَتَقْوَاهَا so He instilled into it [the capacity/conciousness for] its wickedness (or, rebellion) and its piety.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ج-ر.يَتَفَجَّر",
+        "label": "يَتَفَجَّر",
+        "definitionHtml": "يَتَفَجَّر yatafajjar [imperf. of v. V, intrans.] to gush forth <br><br>(2:74) وَإِنَّ‏ ‏مِنَ‏ ‏الْحِجَارَةِ‏ ‏لَمَا‏ ‏يَتَفَجَّرُ‏ ‏مِنْهُ‏ ‏الأَنْهَارُ and from the rocks there are [some] from which streams gush forth.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:48.492Z",
+      "refword": "2:60:9",
+      "lexword": "فَٱنفَجَرَتْ"
+    }
+  }
+}

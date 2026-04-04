@@ -1,0 +1,74 @@
+{
+  "root": "شعل",
+  "rootArabic": "شعل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اشْتَعَل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اشْتَعَل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 19,
+      "ayah": 4,
+      "text": "قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّا",
+      "highlightedHtml": "قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى <a class=\"highlight-text\">وَٱشْتَعَلَ</a> ٱلرَّأْسُ شَيْبًا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّا",
+      "derivedForms": [
+        "اشْتَعَل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:10.796Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VIII) perfect verb",
+    "derivativeNote": "وَٱشْتَعَلَ is in the derivative form: اشْتَعَل",
+    "rootDefinitionHtml": "ش/ع/ل   sh–ʿ–l to set on fire, to inflame, to kindle, to blaze, to burn brightly. Of this root, اشْتَعَل ʾishtaʿala occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اشْتَعَل ʾishtaʿala [v. VIII, intrans.] to catch fire, to blaze, to be aflame *<br><br>(19:4) وَاشْتَعَلَ الرَّأْسُ شَيْبًا and [my] head has become aflame with greyness.",
+    "mainEntryId": "wdef-ش-ع-ل.اشْتَعَل",
+    "entries": [
+      {
+        "id": "wdef-ش-ع-ل",
+        "label": "ش-ع-ل",
+        "definitionHtml": "ش/ع/ل   sh–ʿ–l to set on fire, to inflame, to kindle, to blaze, to burn brightly. Of this root, اشْتَعَل ʾishtaʿala occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ع-ل.اشْتَعَل",
+        "label": "اشْتَعَل",
+        "definitionHtml": "اشْتَعَل ʾishtaʿala [v. VIII, intrans.] to catch fire, to blaze, to be aflame *<br><br>(19:4) وَاشْتَعَلَ الرَّأْسُ شَيْبًا and [my] head has become aflame with greyness.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:23.086Z",
+      "refword": "19:4:7",
+      "lexword": "وَٱشْتَعَلَ"
+    }
+  }
+}

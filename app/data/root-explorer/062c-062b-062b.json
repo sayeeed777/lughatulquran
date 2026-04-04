@@ -1,0 +1,74 @@
+{
+  "root": "جثث",
+  "rootArabic": "جثث",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اجْتُثَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اجْتُثَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 26,
+      "text": "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ ٱجْتُثَّتْ مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ",
+      "highlightedHtml": "وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ <a class=\"highlight-text\">ٱجْتُثَّتْ</a> مِن فَوْقِ ٱلْأَرْضِ مَا لَهَا مِن قَرَارٍ",
+      "derivedForms": [
+        "اجْتُثَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:51.662Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VIII) passive perfect verb",
+    "derivativeNote": "ٱجْتُثَّتْ is in the derivative form: اجْتُثَّ",
+    "rootDefinitionHtml": "ج/ث/ث   j–th–th seedling, to transplant; to uproot, to eradicate; body, corpse; impurities. Of this root, اجْتُثَّ ʾijtuththa, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اجْتُثَّ ʾijtuththa [pass. of v. VIII] to be uprooted, pulled out <br><br>(14:26) وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ اجْتُثَّتْ مِنْ فَوْقِ الأَرْضِ مَا لَهَا مِنْ قَرَارٍ and the likeness of an evil word is as an evil tree, uprooted from the surface of the earth, with no power to endure.",
+    "mainEntryId": "wdef-ج-ث-ث.اجْتُثَّ",
+    "entries": [
+      {
+        "id": "wdef-ج-ث-ث",
+        "label": "ج-ث-ث",
+        "definitionHtml": "ج/ث/ث   j–th–th seedling, to transplant; to uproot, to eradicate; body, corpse; impurities. Of this root, اجْتُثَّ ʾijtuththa, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ث-ث.اجْتُثَّ",
+        "label": "اجْتُثَّ",
+        "definitionHtml": "اجْتُثَّ ʾijtuththa [pass. of v. VIII] to be uprooted, pulled out <br><br>(14:26) وَمَثَلُ كَلِمَةٍ خَبِيثَةٍ كَشَجَرَةٍ خَبِيثَةٍ اجْتُثَّتْ مِنْ فَوْقِ الأَرْضِ مَا لَهَا مِنْ قَرَارٍ and the likeness of an evil word is as an evil tree, uprooted from the surface of the earth, with no power to endure.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:27.643Z",
+      "refword": "14:26:6",
+      "lexword": "ٱجْتُثَّتْ"
+    }
+  }
+}

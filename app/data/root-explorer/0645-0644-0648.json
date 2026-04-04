@@ -1,0 +1,253 @@
+{
+  "root": "ملو",
+  "rootArabic": "ملو",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "أَمْلَى",
+      "count": 8
+    },
+    {
+      "form": "تُمْلَى",
+      "count": 1
+    },
+    {
+      "form": "مَلِيًّا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَلِيًّا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُمْلَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَمْلَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 178,
+      "text": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا نُمْلِى لَهُمْ خَيْرٌ لِّأَنفُسِهِمْ ۚ إِنَّمَا نُمْلِى لَهُمْ لِيَزْدَادُوٓا۟ إِثْمًا ۚ وَلَهُمْ عَذَابٌ مُّهِينٌ",
+      "highlightedHtml": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوٓا۟ أَنَّمَا <a class=\"highlight-text\">نُمْلِى</a> لَهُمْ خَيْرٌ لِّأَنفُسِهِمْ ۚ إِنَّمَا <a class=\"highlight-text\">نُمْلِى</a> لَهُمْ لِيَزْدَادُوٓا۟ إِثْمًا ۚ وَلَهُمْ عَذَابٌ مُّهِينٌ",
+      "derivedForms": [
+        "أَمْلَى",
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 183,
+      "text": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأُمْلِى</a> لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 32,
+      "text": "وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍ مِّن قَبْلِكَ فَأَمْلَيْتُ لِلَّذِينَ كَفَرُوا۟ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "highlightedHtml": "وَلَقَدِ ٱسْتُهْزِئَ بِرُسُلٍ مِّن قَبْلِكَ <a class=\"highlight-text\">فَأَمْلَيْتُ</a> لِلَّذِينَ كَفَرُوا۟ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ عِقَابِ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 46,
+      "text": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا",
+      "highlightedHtml": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى <a class=\"highlight-text\">مَلِيًّا</a>",
+      "derivedForms": [
+        "مَلِيًّا"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 44,
+      "text": "وَأَصْحَٰبُ مَدْيَنَ ۖ وَكُذِّبَ مُوسَىٰ فَأَمْلَيْتُ لِلْكَٰفِرِينَ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "highlightedHtml": "وَأَصْحَٰبُ مَدْيَنَ ۖ وَكُذِّبَ مُوسَىٰ <a class=\"highlight-text\">فَأَمْلَيْتُ</a> لِلْكَٰفِرِينَ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 48,
+      "text": "وَكَأَيِّن مِّن قَرْيَةٍ أَمْلَيْتُ لَهَا وَهِىَ ظَالِمَةٌ ثُمَّ أَخَذْتُهَا وَإِلَىَّ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَكَأَيِّن مِّن قَرْيَةٍ <a class=\"highlight-text\">أَمْلَيْتُ</a> لَهَا وَهِىَ ظَالِمَةٌ ثُمَّ أَخَذْتُهَا وَإِلَىَّ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 5,
+      "text": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ <a class=\"highlight-text\">تُمْلَىٰ</a> عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "derivedForms": [
+        "تُمْلَى"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 25,
+      "text": "إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ <a class=\"highlight-text\">وَأَمْلَىٰ</a> لَهُمْ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 45,
+      "text": "وَأُمْلِى لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأُمْلِى</a> لَهُمْ ۚ إِنَّ كَيْدِى مَتِينٌ",
+      "derivedForms": [
+        "أَمْلَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:41.136Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) imperfect verb",
+    "derivativeNote": "نُمْلِى is in the derivative form: أَمْلَى",
+    "rootDefinitionHtml": "م/ل/و   m–l–w an expanse of empty land<br>; a period of time, to prolong life for someone, prosperity; to give rein to; to dictate (a text). Of this root, 3 forms occur 6 times in the Qur’an أَمْلى ʾamlā 4 times;<br> تُمْلَى tumlā 1 time and مَلِيًّا maliyyan 1 time.",
+    "mainDefinitionHtml": "أَمْلَى ʾamlā [v. IV, intrans. with prep. ﻠ] to give rein (to), to grant respite (to) <br><br>(3:178) وَلاَ يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ لأَِنْفُسِهِمْ إِنَّمَا نُمْلِي لَهُمْ لِيَزْدَادُوا إِثْمًا and those who disbelieve should not imagine that We give them free rein for their own good; We give them rein so that they become more sinful.",
+    "mainEntryId": "wdef-م-ل-و.أَمْلَى",
+    "entries": [
+      {
+        "id": "wdef-م-ل-و",
+        "label": "م-ل-و",
+        "definitionHtml": "م/ل/و   m–l–w an expanse of empty land<br>; a period of time, to prolong life for someone, prosperity; to give rein to; to dictate (a text). Of this root, 3 forms occur 6 times in the Qur’an أَمْلى ʾamlā 4 times;<br> تُمْلَى tumlā 1 time and مَلِيًّا maliyyan 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ل-و.أَمْلَى",
+        "label": "أَمْلَى",
+        "definitionHtml": "أَمْلَى ʾamlā [v. IV, intrans. with prep. ﻠ] to give rein (to), to grant respite (to) <br><br>(3:178) وَلاَ يَحْسَبَنَّ الَّذِينَ كَفَرُوا أَنَّمَا نُمْلِي لَهُمْ خَيْرٌ لأَِنْفُسِهِمْ إِنَّمَا نُمْلِي لَهُمْ لِيَزْدَادُوا إِثْمًا and those who disbelieve should not imagine that We give them free rein for their own good; We give them rein so that they become more sinful.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ل-و.تُمْلَى",
+        "label": "تُمْلَى",
+        "definitionHtml": "تُمْلَى tumlā [imperf. pass. of v. IV, trans.] (of a text) to be dictated <br><br>(25:5) فَهِيَ تُمْلَى عَلَيْهِ بُكْرَةً وَأَصِيلا so they are continuously dictated to him [lit. morning and evening].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ل-و.مَلِيًّا",
+        "label": "مَلِيًّا",
+        "definitionHtml": "مَلِيًّا maliyyan [adverbial] a considerably long time <br><br>(19:46) وَاهْجُرْنِي مَلِيًّا keep out of my way for good [lit. for a long while]!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:39.133Z",
+      "refword": "3:178:6",
+      "lexword": "نُمْلِى"
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "root": "عزل",
+  "rootArabic": "عزل",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "اعْتَزَلَ",
+      "count": 7
+    },
+    {
+      "form": "عَزَلَ",
+      "count": 1
+    },
+    {
+      "form": "مَعْزِِلٌ",
+      "count": 1
+    },
+    {
+      "form": "مَعْزُولُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اعْتَزَلَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اعْتَزَلَ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْزِِلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اعْتَزَلَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اعْتَزَلَ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعْزُولُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَزَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اعْتَزَلَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 222,
+      "text": "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
+      "highlightedHtml": "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى <a class=\"highlight-text\">فَٱعْتَزِلُوا۟</a> ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 90,
+      "text": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ <a class=\"highlight-text\">ٱعْتَزَلُوكُمْ</a> فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 91,
+      "text": "سَتَجِدُونَ آخَرِينَ يُرِيدُونَ أَن يَأْمَنُوكُمْ وَيَأْمَنُوا۟ قَوْمَهُمْ كُلَّ مَا رُدُّوٓا۟ إِلَى ٱلْفِتْنَةِ أُرْكِسُوا۟ فِيهَا ۚ فَإِن لَّمْ يَعْتَزِلُوكُمْ وَيُلْقُوٓا۟ إِلَيْكُمُ ٱلسَّلَمَ وَيَكُفُّوٓا۟ أَيْدِيَهُمْ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ ۚ وَأُو۟لَٰٓئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَٰنًا مُّبِينًا",
+      "highlightedHtml": "سَتَجِدُونَ آخَرِينَ يُرِيدُونَ أَن يَأْمَنُوكُمْ وَيَأْمَنُوا۟ قَوْمَهُمْ كُلَّ مَا رُدُّوٓا۟ إِلَى ٱلْفِتْنَةِ أُرْكِسُوا۟ فِيهَا ۚ فَإِن لَّمْ <a class=\"highlight-text\">يَعْتَزِلُوكُمْ</a> وَيُلْقُوٓا۟ إِلَيْكُمُ ٱلسَّلَمَ وَيَكُفُّوٓا۟ أَيْدِيَهُمْ فَخُذُوهُمْ وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ ۚ وَأُو۟لَٰٓئِكُمْ جَعَلْنَا لَكُمْ عَلَيْهِمْ سُلْطَٰنًا مُّبِينًا",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 42,
+      "text": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى مَعْزِلٍ يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَهِىَ تَجْرِى بِهِمْ فِى مَوْجٍ كَٱلْجِبَالِ وَنَادَىٰ نُوحٌ ٱبْنَهُۥ وَكَانَ فِى <a class=\"highlight-text\">مَعْزِلٍ</a> يَٰبُنَىَّ ٱرْكَب مَّعَنَا وَلَا تَكُن مَّعَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مَعْزِِلٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 16,
+      "text": "وَإِذِ ٱعْتَزَلْتُمُوهُمْ وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
+      "highlightedHtml": "وَإِذِ <a class=\"highlight-text\">ٱعْتَزَلْتُمُوهُمْ</a> وَمَا يَعْبُدُونَ إِلَّا ٱللَّهَ فَأْوُۥٓا۟ إِلَى ٱلْكَهْفِ يَنشُرْ لَكُمْ رَبُّكُم مِّن رَّحْمَتِهِۦ وَيُهَيِّئْ لَكُم مِّنْ أَمْرِكُم مِّرْفَقًا",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 48,
+      "text": "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَعْتَزِلُكُمْ</a> وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّا",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 49,
+      "text": "فَلَمَّا ٱعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۖ وَكُلًّا جَعَلْنَا نَبِيًّا",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">ٱعْتَزَلَهُمْ</a> وَمَا يَعْبُدُونَ مِن دُونِ ٱللَّهِ وَهَبْنَا لَهُۥٓ إِسْحَٰقَ وَيَعْقُوبَ ۖ وَكُلًّا جَعَلْنَا نَبِيًّا",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 212,
+      "text": "إِنَّهُمْ عَنِ ٱلسَّمْعِ لَمَعْزُولُونَ",
+      "highlightedHtml": "إِنَّهُمْ عَنِ ٱلسَّمْعِ <a class=\"highlight-text\">لَمَعْزُولُونَ</a>",
+      "derivedForms": [
+        "مَعْزُولُون"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 51,
+      "text": "تُرْجِى مَن تَشَآءُ مِنْهُنَّ وَتُـْٔوِىٓ إِلَيْكَ مَن تَشَآءُ ۖ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَآ آتَيْتَهُنَّ كُلُّهُنَّ ۚ وَٱللَّهُ يَعْلَمُ مَا فِى قُلُوبِكُمْ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَلِيمًا",
+      "highlightedHtml": "تُرْجِى مَن تَشَآءُ مِنْهُنَّ وَتُـْٔوِىٓ إِلَيْكَ مَن تَشَآءُ ۖ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ <a class=\"highlight-text\">عَزَلْتَ</a> فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَآ آتَيْتَهُنَّ كُلُّهُنَّ ۚ وَٱللَّهُ يَعْلَمُ مَا فِى قُلُوبِكُمْ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَلِيمًا",
+      "derivedForms": [
+        "عَزَلَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 21,
+      "text": "وَإِن لَّمْ تُؤْمِنُوا۟ لِى فَٱعْتَزِلُونِ",
+      "highlightedHtml": "وَإِن لَّمْ تُؤْمِنُوا۟ لِى <a class=\"highlight-text\">فَٱعْتَزِلُونِ</a>",
+      "derivedForms": [
+        "اعْتَزَلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:52.266Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VIII) imperative verb",
+    "derivativeNote": "فَٱعْتَزِلُوا۟ is in the derivative form: اعْتَزَلَ",
+    "rootDefinitionHtml": "ع/ز/ل ʿ–z–l to remove, to set aside, to isolate, to boycott, to part from<br>; unarmed person, loner, weakness. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> عَزَلَ ʿazala 1 time; اعْتَزَلَ ʾiʿtazala 7 times; مَعْزُولُون maʿzūlūn 1 time and مَعْزِلٌ maʿzil 1 time.",
+    "mainDefinitionHtml": "اعْتَزَلَ ʾiʿtazala [v. VIII trans.] to separate oneself from, to stand apart from, to abandon, to distance oneself from, to boycott <br><br>(18:16) وَإِذِ‏ ‏اعْتَزَلْتُمُوهُمْ‏ ‏وَمَا‏ ‏يَعْبُدُونَ‏ ‏ now that you have distanced yourself from them and from what they worship; *<br><br>(2:222)‏فَاعْتَزِلُوا‏ ‏النِّسَاءَ‏ ‏فِي‏ ‏الْمَحِيضِ‏ so do not have intercourse with [lit. keep away from] women during menstruation.",
+    "mainEntryId": "wdef-ع-ز-ل.اعْتَزَلَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ز-ل",
+        "label": "ع-ز-ل",
+        "definitionHtml": "ع/ز/ل ʿ–z–l to remove, to set aside, to isolate, to boycott, to part from<br>; unarmed person, loner, weakness. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> عَزَلَ ʿazala 1 time; اعْتَزَلَ ʾiʿtazala 7 times; مَعْزُولُون maʿzūlūn 1 time and مَعْزِلٌ maʿzil 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ز-ل.اعْتَزَلَ",
+        "label": "اعْتَزَلَ",
+        "definitionHtml": "اعْتَزَلَ ʾiʿtazala [v. VIII trans.] to separate oneself from, to stand apart from, to abandon, to distance oneself from, to boycott <br><br>(18:16) وَإِذِ‏ ‏اعْتَزَلْتُمُوهُمْ‏ ‏وَمَا‏ ‏يَعْبُدُونَ‏ ‏ now that you have distanced yourself from them and from what they worship; *<br><br>(2:222)‏فَاعْتَزِلُوا‏ ‏النِّسَاءَ‏ ‏فِي‏ ‏الْمَحِيضِ‏ so do not have intercourse with [lit. keep away from] women during menstruation.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ز-ل.عَزَلَ",
+        "label": "عَزَلَ",
+        "definitionHtml": "عَزَلَ ʿazala i [v. trans.] to separate, to set apart, to keep away <br><br>(33:51) ‏وَمَنِ‏ ‏ابْتَغَيْتَ‏ ‏مِمَّنْ‏ ‏عَزَلْتَ‏ and whomsoever you wish of the ones you have [previously] set apart.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ز-ل.مَعْزُولُون",
+        "label": "مَعْزُولُون",
+        "definitionHtml": "مَعْزُولُون maʿzūlūn [pl. of pass. part. مَعْزول maʿzūl] segregated, shut off, removed, barred <br><br>(26:212) إِنَّهُمْ‏ ‏عَنِ‏ ‏السَّمْعِ‏ ‏لَمَعْزُولُونَ‏ indeed they are barred from [over] hearing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ز-ل.مَعْزِِلٌ",
+        "label": "مَعْزِِلٌ",
+        "definitionHtml": "مَعْزِِلٌ maʿzil [v. n./adv. of place.] separation; a place far removed from the rest <br><br>(11:42) ‏وَنَادَى‏ ‏نُوحٌ‏ ‏ابْنَهُ‏ ‏وَكَانَ‏ ‏فِي‏ ‏مَعْزِلٍ‏ and Noah called to his son, who was [standing] apart.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:29.056Z",
+      "refword": "2:222:7",
+      "lexword": "فَٱعْتَزِلُوا۟"
+    }
+  }
+}

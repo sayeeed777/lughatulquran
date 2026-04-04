@@ -1,0 +1,95 @@
+{
+  "root": "غرو",
+  "rootArabic": "غرو",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أغْرى",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْرى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 14,
+      "text": "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰٓ أَخَذْنَا مِيثَٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ فَأَغْرَيْنَا بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "وَمِنَ ٱلَّذِينَ قَالُوٓا۟ إِنَّا نَصَٰرَىٰٓ أَخَذْنَا مِيثَٰقَهُمْ فَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ <a class=\"highlight-text\">فَأَغْرَيْنَا</a> بَيْنَهُمُ ٱلْعَدَاوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ وَسَوْفَ يُنَبِّئُهُمُ ٱللَّهُ بِمَا كَانُوا۟ يَصْنَعُونَ",
+      "derivedForms": [
+        "أغْرى"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 60,
+      "text": "لَّئِن لَّمْ يَنتَهِ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْمُرْجِفُونَ فِى ٱلْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَآ إِلَّا قَلِيلًا",
+      "highlightedHtml": "لَّئِن لَّمْ يَنتَهِ ٱلْمُنَٰفِقُونَ وَٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْمُرْجِفُونَ فِى ٱلْمَدِينَةِ <a class=\"highlight-text\">لَنُغْرِيَنَّكَ</a> بِهِمْ ثُمَّ لَا يُجَاوِرُونَكَ فِيهَآ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "أغْرى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:55.561Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) perfect verb",
+    "derivativeNote": "فَأَغْرَيْنَا is in the derivative form: أغْرى",
+    "rootDefinitionHtml": "غ/ر/و gh–r–w to glue, to stick; wonder, allurement, to tempt; to incite, to rouse against, to stir up. Of this root, only أغْرّينا ʾaghraynā occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "أغْرى ʾaghrā [v. IV, trans. with prep. ﺒ] <br><br><strong>1 </strong>to incite, to rouse, to tempt, to encourage someone to take action against <br><br>(33:60) لَئِنْ لَمْ يَنْتَهِ الْمُنَافِقُونَ وَالَّذِينَ فِى قُلُوبِهِمْ مَرَضٌ وَالْمُرْجِفُونَ فِى الْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ if the hypocrites do not desist, nor the ones in whose hearts is sickness, nor those who cause unrest in the city, We will rouse you against them <br><br><strong>2 </strong>to stir up <br><br>(5:14) ‏فَأَغْرَيْنَا‏ ‏بَيْنَهُمُ‏ ‏الْعَدَاوَةَ‏ ‏وَالْبَغضاء so We stirred up enmity and hatred among them .",
+    "mainEntryId": "wdef-غ-ر-و.أغْرى",
+    "entries": [
+      {
+        "id": "wdef-غ-ر-و",
+        "label": "غ-ر-و",
+        "definitionHtml": "غ/ر/و gh–r–w to glue, to stick; wonder, allurement, to tempt; to incite, to rouse against, to stir up. Of this root, only أغْرّينا ʾaghraynā occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ر-و.أغْرى",
+        "label": "أغْرى",
+        "definitionHtml": "أغْرى ʾaghrā [v. IV, trans. with prep. ﺒ] <br><br><strong>1 </strong>to incite, to rouse, to tempt, to encourage someone to take action against <br><br>(33:60) لَئِنْ لَمْ يَنْتَهِ الْمُنَافِقُونَ وَالَّذِينَ فِى قُلُوبِهِمْ مَرَضٌ وَالْمُرْجِفُونَ فِى الْمَدِينَةِ لَنُغْرِيَنَّكَ بِهِمْ if the hypocrites do not desist, nor the ones in whose hearts is sickness, nor those who cause unrest in the city, We will rouse you against them <br><br><strong>2 </strong>to stir up <br><br>(5:14) ‏فَأَغْرَيْنَا‏ ‏بَيْنَهُمُ‏ ‏الْعَدَاوَةَ‏ ‏وَالْبَغضاء so We stirred up enmity and hatred among them .",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:30.372Z",
+      "refword": "5:14:13",
+      "lexword": "فَأَغْرَيْنَا"
+    }
+  }
+}

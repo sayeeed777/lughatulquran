@@ -28,7 +28,8 @@ export default function useWordLexicon({
 
   const [wordAudioUrl, setWordAudioUrl] = useState<string | null>(null);
   const [selectedWordDetails, setSelectedWordDetails] = useState<SelectedWordDetails | null>(null);
-  const [isRootModalOpen, setIsRootModalOpen] = useState(false);
+  const [isLaneModalOpen, setIsLaneModalOpen] = useState(false);
+  const [isRootDetailsModalOpen, setIsRootDetailsModalOpen] = useState(false);
   const [rootLexicon, setRootLexicon] = useState<RootLexiconPayload | null>(null);
   const [rootLexiconLoading, setRootLexiconLoading] = useState(false);
   const [rootLexiconError, setRootLexiconError] = useState<string | null>(null);
@@ -164,7 +165,7 @@ export default function useWordLexicon({
     setRootLexiconError(null);
     try {
       const payload = await fetchJSON<RootLexiconPayload>(
-        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}?v=2&mode=${mode}`,
+        `/api/lexicon/root/${encodeURIComponent(normalizedRoot)}?v=3&mode=${mode}`,
         { ttl: 24 * 60 * 60 * 1000, retries: 1, retryDelay: 250, persist: true }
       );
       if (rootLookupRequestRef.current !== requestId) return null;
@@ -208,7 +209,8 @@ export default function useWordLexicon({
         root: word.root,
         rootArabic: word.rootArabic
       });
-      setIsRootModalOpen(false);
+      setIsLaneModalOpen(false);
+      setIsRootDetailsModalOpen(false);
       setRootLexicon(null);
       setRootLexiconError(null);
 
@@ -249,27 +251,54 @@ export default function useWordLexicon({
   const closeWordDetails = useCallback(() => {
     rootLookupRequestRef.current += 1;
     setSelectedWordDetails(null);
-    setIsRootModalOpen(false);
+    setIsLaneModalOpen(false);
+    setIsRootDetailsModalOpen(false);
     setRootLexicon(null);
     setRootLexiconError(null);
     setRootLexiconLoading(false);
+  }, []);
+
+  const ensureFullRootLexicon = useCallback(
+    async (root?: string) => {
+      const normalizedRoot = (root || "").trim();
+      if (!normalizedRoot) return false;
+      if (rootLexicon?.root === normalizedRoot && rootLexicon?.fullPayload && !rootLexiconError) {
+        return true;
+      }
+      const payload = await fetchRootLexicon(normalizedRoot, "full");
+      return Boolean(payload);
+    },
+    [fetchRootLexicon, rootLexicon?.fullPayload, rootLexicon?.root, rootLexiconError]
+  );
+
+  const openLaneLexicon = useCallback(
+    async (root?: string) => {
+      const normalizedRoot = (root || "").trim();
+      if (!normalizedRoot) return;
+      setIsRootDetailsModalOpen(false);
+      setIsLaneModalOpen(true);
+      await ensureFullRootLexicon(normalizedRoot);
+    },
+    [ensureFullRootLexicon]
+  );
+
+  const closeLaneModal = useCallback(() => {
+    setIsLaneModalOpen(false);
   }, []);
 
   const openRootDetails = useCallback(
     async (root?: string) => {
       const normalizedRoot = (root || "").trim();
       if (!normalizedRoot) return;
-      setIsRootModalOpen(true);
-      if (rootLexicon?.root === normalizedRoot && rootLexicon?.fullPayload && !rootLexiconError) {
-        return;
-      }
-      await fetchRootLexicon(normalizedRoot, "full");
+      setIsLaneModalOpen(false);
+      setIsRootDetailsModalOpen(true);
+      await ensureFullRootLexicon(normalizedRoot);
     },
-    [fetchRootLexicon, rootLexicon?.fullPayload, rootLexicon?.root, rootLexiconError]
+    [ensureFullRootLexicon]
   );
 
-  const closeRootModal = useCallback(() => {
-    setIsRootModalOpen(false);
+  const closeRootDetailsModal = useCallback(() => {
+    setIsRootDetailsModalOpen(false);
   }, []);
 
   const selectedRoot = (selectedWordDetails?.root || "").trim();
@@ -314,7 +343,8 @@ export default function useWordLexicon({
     wordAudioRef,
     wordAudioUrl,
     selectedWordDetails,
-    isRootModalOpen,
+    isLaneModalOpen,
+    isRootDetailsModalOpen,
     rootLexicon,
     rootLexiconLoading,
     rootLexiconError,
@@ -324,8 +354,10 @@ export default function useWordLexicon({
     handleWordAudio,
     handleWordSelect,
     closeWordDetails,
+    openLaneLexicon,
+    closeLaneModal,
     openRootDetails,
-    closeRootModal,
+    closeRootDetailsModal,
     selectedRoot,
     selectedRootArabic,
     rootMeaningSummary,

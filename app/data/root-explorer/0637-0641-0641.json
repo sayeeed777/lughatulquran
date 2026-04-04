@@ -1,0 +1,74 @@
+{
+  "root": "طفف",
+  "rootArabic": "طفف",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُطَفِّفين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُطَفِّفين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 83,
+      "ayah": 1,
+      "text": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+      "highlightedHtml": "وَيْلٌ <a class=\"highlight-text\">لِّلْمُطَفِّفِينَ</a>",
+      "derivedForms": [
+        "مُطَفِّفين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:51.030Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural (form II) active participle",
+    "derivativeNote": "لِّلْمُطَفِّفِينَ is in the derivative form: مُطَفِّفين",
+    "rootDefinitionHtml": "ط/ف/ف   ṭ–f–f a small measure, trivial matter; to be deficient; to be miserly; to become near, to become due. Of this root, المُطَفِّفين ʾal-muṭaffifın occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُطَفِّفين muṭaffifın [pl. of act. part. مُطَفِّف muṭaffif] one who does not give full measure, one who gives less than is due, swindler <br><br>(83:1–3) وَيْلٌ‏ ‏لِلْمُطَفِّفِينَ‏الَّذِينَ‏ ‏إِذَا‏ ‏اكْتَالُوا‏ ‏عَلَى‏ ‏النَّاسِ يَسْتَوْفُونَ وَإِذَا‏ ‏كَالُوهُمْ‏ ‏أَوْ‏ ‏وَزَنُوهُمْ‏‏ ‏‏يُخْسِرُونَ‏ woe to those who give short measure, who demand of other people full measure for themselves, but give less than they should when it is they who weigh or measure for others!; * المُطَفِّفين name of Sura 83, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to ‘those who give short measure’.",
+    "mainEntryId": "wdef-ط-ف-ف.مُطَفِّفين",
+    "entries": [
+      {
+        "id": "wdef-ط-ف-ف",
+        "label": "ط-ف-ف",
+        "definitionHtml": "ط/ف/ف   ṭ–f–f a small measure, trivial matter; to be deficient; to be miserly; to become near, to become due. Of this root, المُطَفِّفين ʾal-muṭaffifın occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ف-ف.مُطَفِّفين",
+        "label": "مُطَفِّفين",
+        "definitionHtml": "مُطَفِّفين muṭaffifın [pl. of act. part. مُطَفِّف muṭaffif] one who does not give full measure, one who gives less than is due, swindler <br><br>(83:1–3) وَيْلٌ‏ ‏لِلْمُطَفِّفِينَ‏الَّذِينَ‏ ‏إِذَا‏ ‏اكْتَالُوا‏ ‏عَلَى‏ ‏النَّاسِ يَسْتَوْفُونَ وَإِذَا‏ ‏كَالُوهُمْ‏ ‏أَوْ‏ ‏وَزَنُوهُمْ‏‏ ‏‏يُخْسِرُونَ‏ woe to those who give short measure, who demand of other people full measure for themselves, but give less than they should when it is they who weigh or measure for others!; * المُطَفِّفين name of Sura 83, Meccan sura, so-named because of the reference in verse <br><br><strong>1 </strong>to ‘those who give short measure’.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:34.721Z",
+      "refword": "83:1:2",
+      "lexword": "لِّلْمُطَفِّفِينَ"
+    }
+  }
+}

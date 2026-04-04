@@ -1,0 +1,74 @@
+{
+  "root": "بطا",
+  "rootArabic": "بطا",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يُبَطِّئُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُبَطِّئُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 72,
+      "text": "وَإِنَّ مِنكُمْ لَمَن لَّيُبَطِّئَنَّ فَإِنْ أَصَٰبَتْكُم مُّصِيبَةٌ قَالَ قَدْ أَنْعَمَ ٱللَّهُ عَلَىَّ إِذْ لَمْ أَكُن مَّعَهُمْ شَهِيدًا",
+      "highlightedHtml": "وَإِنَّ مِنكُمْ لَمَن <a class=\"highlight-text\">لَّيُبَطِّئَنَّ</a> فَإِنْ أَصَٰبَتْكُم مُّصِيبَةٌ قَالَ قَدْ أَنْعَمَ ٱللَّهُ عَلَىَّ إِذْ لَمْ أَكُن مَّعَهُمْ شَهِيدًا",
+      "derivedForms": [
+        "يُبَطِّئُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:42.280Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) imperfect verb",
+    "derivativeNote": "لَّيُبَطِّئَنَّ is in the derivative form: يُبَطِّئُ",
+    "rootDefinitionHtml": "ب/ط/أ   b–ṭ–ʾ this root denotes the single concept of slowness, of which only يُبَطِّئُ yubaṭṭiʾ occurs 11 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُبَطِّئُ yubaṭṭiʾ [imperf. of v. II بَطَّأَ baṭṭaʾa, intrans./trans.] to hold back, to lag behind, also to cause someone to lag behind or hold back <br><br>(4:72) مِنْكُمْ لَمَنْ لَيُبَطِّئَنَّ وَإِنَّ and among you are the ones who lag behind [also interpreted as: who urge others to lag behind].",
+    "mainEntryId": "wdef-ب-ط-أ.يُبَطِّئُ",
+    "entries": [
+      {
+        "id": "wdef-ب-ط-أ",
+        "label": "ب-ط-أ",
+        "definitionHtml": "ب/ط/أ   b–ṭ–ʾ this root denotes the single concept of slowness, of which only يُبَطِّئُ yubaṭṭiʾ occurs 11 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ط-أ.يُبَطِّئُ",
+        "label": "يُبَطِّئُ",
+        "definitionHtml": "يُبَطِّئُ yubaṭṭiʾ [imperf. of v. II بَطَّأَ baṭṭaʾa, intrans./trans.] to hold back, to lag behind, also to cause someone to lag behind or hold back <br><br>(4:72) مِنْكُمْ لَمَنْ لَيُبَطِّئَنَّ وَإِنَّ and among you are the ones who lag behind [also interpreted as: who urge others to lag behind].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:18.119Z",
+      "refword": "4:72:4",
+      "lexword": "لَّيُبَطِّئَنَّ"
+    }
+  }
+}

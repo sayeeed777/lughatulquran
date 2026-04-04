@@ -1,0 +1,74 @@
+{
+  "root": "فقع",
+  "rootArabic": "فقع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "فاقِع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاقِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 69,
+      "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
+      "highlightedHtml": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ <a class=\"highlight-text\">فَاقِعٌ</a> لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
+      "derivedForms": [
+        "فاقِع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:08.149Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative indefinite active participle",
+    "derivativeNote": "فَاقِعٌ is in the derivative form: فاقِع",
+    "rootDefinitionHtml": "ف/ق/ع   f–q–ʿ truffle; brightness of white or yellow; to pop, to explode, bubbles; devastating calamity; poverty. Of this root, فاقِع fāqiʿ, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "فاقِع fāqiʿ [quasi-act. part.] bright (of yellow) <br><br>(2:69)‏‏بَقَرَةٌ‏ ‏صَفْرَاءُ‏ ‏فَاقِعٌ لَوْنُهَا‏ a yellow cow of bright hue‏.",
+    "mainEntryId": "wdef-ف-ق-ع.فاقِع",
+    "entries": [
+      {
+        "id": "wdef-ف-ق-ع",
+        "label": "ف-ق-ع",
+        "definitionHtml": "ف/ق/ع   f–q–ʿ truffle; brightness of white or yellow; to pop, to explode, bubbles; devastating calamity; poverty. Of this root, فاقِع fāqiʿ, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ق-ع.فاقِع",
+        "label": "فاقِع",
+        "definitionHtml": "فاقِع fāqiʿ [quasi-act. part.] bright (of yellow) <br><br>(2:69)‏‏بَقَرَةٌ‏ ‏صَفْرَاءُ‏ ‏فَاقِعٌ لَوْنُهَا‏ a yellow cow of bright hue‏.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:54.843Z",
+      "refword": "2:69:15",
+      "lexword": "فَاقِعٌ"
+    }
+  }
+}

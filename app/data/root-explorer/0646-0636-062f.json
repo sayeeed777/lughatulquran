@@ -1,0 +1,127 @@
+{
+  "root": "نضد",
+  "rootArabic": "نضد",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَنْضُودٌ",
+      "count": 2
+    },
+    {
+      "form": "نَضِيدٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنْضُودٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَضِيدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنْضُودٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 82,
+      "text": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
+      "highlightedHtml": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ <a class=\"highlight-text\">مَّنضُودٍ</a>",
+      "derivedForms": [
+        "مَنْضُودٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 10,
+      "text": "وَٱلنَّخْلَ بَاسِقَٰتٍ لَّهَا طَلْعٌ نَّضِيدٌ",
+      "highlightedHtml": "وَٱلنَّخْلَ بَاسِقَٰتٍ لَّهَا طَلْعٌ <a class=\"highlight-text\">نَّضِيدٌ</a>",
+      "derivedForms": [
+        "نَضِيدٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 29,
+      "text": "وَطَلْحٍ مَّنضُودٍ",
+      "highlightedHtml": "وَطَلْحٍ <a class=\"highlight-text\">مَّنضُودٍ</a>",
+      "derivedForms": [
+        "مَنْضُودٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:35.166Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite passive participle",
+    "derivativeNote": "مَّنضُودٍ is in the derivative form: مَنْضُودٌ",
+    "rootDefinitionHtml": "ن/ض/د   n–ḍ–d pile of things, bunches of fruit growing in rows over 1 another, layers of clouds, stack of stones; the family elders. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَضِيدٌ naḍıd 1 time and مَنْضُودٌ manḍūd 2 times.",
+    "mainDefinitionHtml": "مَنْضُودٌ manḍūd [pass. part.] <br><br><strong>1 </strong>arranged in rows, clustered, piled up <br><br>(56:29) وَطَلْحٍ مَنْضُودٍ and clustered acacia <br><br><strong>2 </strong>sequenced, one after the other <br><br>(11:82) وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِنْ سِجِّيلٍ مَنْضُودٍ and we rained upon it stones of baked clay, layer after layer.",
+    "mainEntryId": "wdef-ن-ض-د.مَنْضُودٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ض-د",
+        "label": "ن-ض-د",
+        "definitionHtml": "ن/ض/د   n–ḍ–d pile of things, bunches of fruit growing in rows over 1 another, layers of clouds, stack of stones; the family elders. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> نَضِيدٌ naḍıd 1 time and مَنْضُودٌ manḍūd 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ض-د.مَنْضُودٌ",
+        "label": "مَنْضُودٌ",
+        "definitionHtml": "مَنْضُودٌ manḍūd [pass. part.] <br><br><strong>1 </strong>arranged in rows, clustered, piled up <br><br>(56:29) وَطَلْحٍ مَنْضُودٍ and clustered acacia <br><br><strong>2 </strong>sequenced, one after the other <br><br>(11:82) وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِنْ سِجِّيلٍ مَنْضُودٍ and we rained upon it stones of baked clay, layer after layer.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ض-د.نَضِيدٌ",
+        "label": "نَضِيدٌ",
+        "definitionHtml": "نَضِيدٌ naḍıd [pass. part.] arranged in rows, stacked up on top of each other <br><br>(50:10) وَالنَّخْلَ بَاسِقَاتٍ لَهَا طَلْعٌ نَضِيدٌ and palm trees, lofty and laden with fruit.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:24.619Z",
+      "refword": "11:82:12",
+      "lexword": "مَّنضُودٍ"
+    }
+  }
+}

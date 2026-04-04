@@ -1,0 +1,162 @@
+{
+  "root": "وجل",
+  "rootArabic": "وجل",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "وَجِلَ",
+      "count": 3
+    },
+    {
+      "form": "وَجِلَةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَجِلَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "وَجِلَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "وَجِلَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَجِلَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَجِلَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 2,
+      "text": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ آيَاتُهُ زَادَتْهُمْ إِيمَٰنًا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "highlightedHtml": "إِنَّمَا ٱلْمُؤْمِنُونَ ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ <a class=\"highlight-text\">وَجِلَتْ</a> قُلُوبُهُمْ وَإِذَا تُلِيَتْ عَلَيْهِمْ آيَاتُهُ زَادَتْهُمْ إِيمَٰنًا وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+      "derivedForms": [
+        "وَجِلَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 52,
+      "text": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَٰمًا قَالَ إِنَّا مِنكُمْ وَجِلُونَ",
+      "highlightedHtml": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَٰمًا قَالَ إِنَّا مِنكُمْ <a class=\"highlight-text\">وَجِلُونَ</a>",
+      "derivedForms": [
+        "وَجِلَةٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 53,
+      "text": "قَالُوا۟ لَا تَوْجَلْ إِنَّا نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٍ",
+      "highlightedHtml": "قَالُوا۟ لَا <a class=\"highlight-text\">تَوْجَلْ</a> إِنَّا نُبَشِّرُكَ بِغُلَٰمٍ عَلِيمٍ",
+      "derivedForms": [
+        "وَجِلَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 35,
+      "text": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَٱلصَّٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِى ٱلصَّلَوٰةِ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "highlightedHtml": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ <a class=\"highlight-text\">وَجِلَتْ</a> قُلُوبُهُمْ وَٱلصَّٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِى ٱلصَّلَوٰةِ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "derivedForms": [
+        "وَجِلَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 60,
+      "text": "وَٱلَّذِينَ يُؤْتُونَ مَآ آتَوْا وَّقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَٰجِعُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ يُؤْتُونَ مَآ آتَوْا وَّقُلُوبُهُمْ <a class=\"highlight-text\">وَجِلَةٌ</a> أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَٰجِعُونَ",
+      "derivedForms": [
+        "وَجِلَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:02.169Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "وَجِلَتْ is in the derivative form: وَجِلَ",
+    "rootDefinitionHtml": "و/ج/ل   w–j–l fear, dread, to be scared, to be apprehensive. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> وَجِلَ wajila 3 times; وَجِلَةٌ wajilatun 1 time and وَجِلُون wajilūn 1 time.",
+    "mainDefinitionHtml": "وَجِلَ wajila [v. intrans., imperf. يَوْجَلُ yawjalu] to be seized with awe <br><br>(8:2) الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ those whose hearts tremble with awe when God is mentioned.",
+    "mainEntryId": "wdef-و-ج-ل.وَجِلَ",
+    "entries": [
+      {
+        "id": "wdef-و-ج-ل",
+        "label": "و-ج-ل",
+        "definitionHtml": "و/ج/ل   w–j–l fear, dread, to be scared, to be apprehensive. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> وَجِلَ wajila 3 times; وَجِلَةٌ wajilatun 1 time and وَجِلُون wajilūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ج-ل.وَجِلَ",
+        "label": "وَجِلَ",
+        "definitionHtml": "وَجِلَ wajila [v. intrans., imperf. يَوْجَلُ yawjalu] to be seized with awe <br><br>(8:2) الَّذِينَ إِذَا ذُكِرَ اللَّهُ وَجِلَتْ قُلُوبُهُمْ those whose hearts tremble with awe when God is mentioned.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ج-ل.وَجِلَةٌ",
+        "label": "وَجِلَةٌ",
+        "definitionHtml": "وَجِلَةٌ wajilatun [quasi‐fem. act. part., masc. pl. وَجِلُون wajilūn] trembling, quaking, seized with awe <br><br>(23:60) وَالَّذِينَ يُؤْتُونَ مَا ءَاتَوْا وَقُلُوبُهُمْ وَجِلَةٌ أَنَّهُمْ إِلَى رَبِّهِمْ رَاجِعُونَ those who always give, with hearts that tremble [at the thought] that they must return to Him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:12.767Z",
+      "refword": "8:2:7",
+      "lexword": "وَجِلَتْ"
+    }
+  }
+}

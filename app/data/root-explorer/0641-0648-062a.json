@@ -1,0 +1,180 @@
+{
+  "root": "فوت",
+  "rootArabic": "فوت",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "فاتَ",
+      "count": 3
+    },
+    {
+      "form": "تَفاوُت",
+      "count": 1
+    },
+    {
+      "form": "فَوت",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاتَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَوت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاتَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاتَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفاوُت",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 153,
+      "text": "إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا <a class=\"highlight-text\">فَاتَكُمْ</a> وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "فاتَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 51,
+      "text": "وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا فَوْتَ وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذْ فَزِعُوا۟ فَلَا <a class=\"highlight-text\">فَوْتَ</a> وَأُخِذُوا۟ مِن مَّكَانٍ قَرِيبٍ",
+      "derivedForms": [
+        "فَوت"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 23,
+      "text": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ آتَاكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "highlightedHtml": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا <a class=\"highlight-text\">فَاتَكُمْ</a> وَلَا تَفْرَحُوا۟ بِمَآ آتَاكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+      "derivedForms": [
+        "فاتَ"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 11,
+      "text": "وَإِن فَاتَكُمْ شَىْءٌ مِّنْ أَزْوَٰجِكُمْ إِلَى ٱلْكُفَّارِ فَعَاقَبْتُمْ فَـَٔاتُوا۟ ٱلَّذِينَ ذَهَبَتْ أَزْوَٰجُهُم مِّثْلَ مَآ أَنفَقُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ",
+      "highlightedHtml": "وَإِن <a class=\"highlight-text\">فَاتَكُمْ</a> شَىْءٌ مِّنْ أَزْوَٰجِكُمْ إِلَى ٱلْكُفَّارِ فَعَاقَبْتُمْ فَـَٔاتُوا۟ ٱلَّذِينَ ذَهَبَتْ أَزْوَٰجُهُم مِّثْلَ مَآ أَنفَقُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ",
+      "derivedForms": [
+        "فاتَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 3,
+      "text": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "highlightedHtml": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن <a class=\"highlight-text\">تَفَٰوُتٍ</a> ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "derivedForms": [
+        "تَفاوُت"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:18.907Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "فَاتَكُمْ is in the derivative form: فاتَ",
+    "rootDefinitionHtml": "ف/و/ت   f–w–t to bypass, to miss, to escape the notice of, to ignore<br>; to accuse falsely; to vary greatly, to be flawed; to be inadequate. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> فاتَ fāta 3 times; فَوت fawt 1 time and تَفاوُت tafāwut 1 time.",
+    "mainDefinitionHtml": "فاتَ fāta ū [v. trans.] to bypass, to miss, to pass away from, to escape someone or something <br><br>(57:23)‏‏لِكَيْ‏ ‏لاَ‏ ‏تَأْسَوْا‏ ‏عَلَى‏ ‏مَا فَاتَكُمْ‏ ‏وَلاَ‏ ‏تَفْرَحُوا‏ ‏بِمَا‏ ‏ءَاتَاكُمْ‏ so that you do not grieve for that [benefit] which escapes you nor exult in what [gain] He gives you.",
+    "mainEntryId": "wdef-ف-و-ت.فاتَ",
+    "entries": [
+      {
+        "id": "wdef-ف-و-ت",
+        "label": "ف-و-ت",
+        "definitionHtml": "ف/و/ت   f–w–t to bypass, to miss, to escape the notice of, to ignore<br>; to accuse falsely; to vary greatly, to be flawed; to be inadequate. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> فاتَ fāta 3 times; فَوت fawt 1 time and تَفاوُت tafāwut 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-و-ت.فاتَ",
+        "label": "فاتَ",
+        "definitionHtml": "فاتَ fāta ū [v. trans.] to bypass, to miss, to pass away from, to escape someone or something <br><br>(57:23)‏‏لِكَيْ‏ ‏لاَ‏ ‏تَأْسَوْا‏ ‏عَلَى‏ ‏مَا فَاتَكُمْ‏ ‏وَلاَ‏ ‏تَفْرَحُوا‏ ‏بِمَا‏ ‏ءَاتَاكُمْ‏ so that you do not grieve for that [benefit] which escapes you nor exult in what [gain] He gives you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-و-ت.تَفاوُت",
+        "label": "تَفاوُت",
+        "definitionHtml": "تَفاوُت tafāwut [v. n.] disparity <br><br>(67:3)‏مَا‏ ‏تَرَى‏ ‏فِى‏ ‏خَلْقِ‏ ‏الرَّحْمَنِ‏ ‏مِنْ‏ ‏تَفَاوُتٍ‏ ‏you will not see any disparity in the creation of the Lord of Mercy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-و-ت.فَوت",
+        "label": "فَوت",
+        "definitionHtml": "فَوت fawt [v. n.] escape <br><br>(34:51) وَلَوْ‏ ‏تَرَى‏ ‏إِذْ‏ ‏فَزِعُوا‏ ‏فَلاَ‏ ‏فَوْتَ ‏‏if you could only see when they become terrified [by death/ resurrection?], there will be no escape.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:16.950Z",
+      "refword": "3:153:18",
+      "lexword": "فَاتَكُمْ"
+    }
+  }
+}

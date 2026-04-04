@@ -1,0 +1,95 @@
+{
+  "root": "هرع",
+  "rootArabic": "هرع",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يُهْرَعُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُهْرَعُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُهْرَعُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 78,
+      "text": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ضَيْفِىٓ ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "highlightedHtml": "وَجَآءَهُۥ قَوْمُهُۥ <a class=\"highlight-text\">يُهْرَعُونَ</a> إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ضَيْفِىٓ ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "derivedForms": [
+        "يُهْرَعُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 70,
+      "text": "فَهُمْ عَلَىٰٓ آثَارِهِمْ يُهْرَعُونَ",
+      "highlightedHtml": "فَهُمْ عَلَىٰٓ آثَارِهِمْ <a class=\"highlight-text\">يُهْرَعُونَ</a>",
+      "derivedForms": [
+        "يُهْرَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:29.746Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive imperfect verb",
+    "derivativeNote": "يُهْرَعُونَ is in the derivative form: يُهْرَعُ",
+    "rootDefinitionHtml": "هـ/ر/ع   h–r–ʿ to go in haste, to hurry, haste, hasty, to walk briskly; to flow; a weak person. Of this root, يُهْرَعُ yuhraʿ occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُهْرَعُ yuhraʿ [pass. imperf. v., no active form] to go in haste, to speed up <br><br>(37:70) فَهُمْ عَلَى ءَاثَارِهِمْ يُهْرَعُونَ so they hastily follow in their footsteps.",
+    "mainEntryId": "wdef-هـ-ر-ع.يُهْرَعُ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ر-ع",
+        "label": "هـ-ر-ع",
+        "definitionHtml": "هـ/ر/ع   h–r–ʿ to go in haste, to hurry, haste, hasty, to walk briskly; to flow; a weak person. Of this root, يُهْرَعُ yuhraʿ occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ر-ع.يُهْرَعُ",
+        "label": "يُهْرَعُ",
+        "definitionHtml": "يُهْرَعُ yuhraʿ [pass. imperf. v., no active form] to go in haste, to speed up <br><br>(37:70) فَهُمْ عَلَى ءَاثَارِهِمْ يُهْرَعُونَ so they hastily follow in their footsteps.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:04.153Z",
+      "refword": "11:78:3",
+      "lexword": "يُهْرَعُونَ"
+    }
+  }
+}

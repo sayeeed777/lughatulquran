@@ -1,0 +1,405 @@
+{
+  "root": "خفف",
+  "rootArabic": "خفف",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 4,
+    "surahCount": 13,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "خَفَّفَ",
+      "count": 9
+    },
+    {
+      "form": "اسْتَخَفَّ",
+      "count": 3
+    },
+    {
+      "form": "خَفَّ",
+      "count": 3
+    },
+    {
+      "form": "خَفِيفٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 3,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "خَفِيفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفِيفٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَخَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَخَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّفَ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَخَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَفَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 86,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِالْآخِرَةِ ۖ فَلَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنصَرُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِالْآخِرَةِ ۖ فَلَا <a class=\"highlight-text\">يُخَفَّفُ</a> عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنصَرُونَ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 162,
+      "text": "خَٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
+      "highlightedHtml": "خَٰلِدِينَ فِيهَا ۖ لَا <a class=\"highlight-text\">يُخَفَّفُ</a> عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 178,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍ ۗ ذَٰلِكَ <a class=\"highlight-text\">تَخْفِيفٌ</a> مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 88,
+      "text": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
+      "highlightedHtml": "خَٰلِدِينَ فِيهَا لَا <a class=\"highlight-text\">يُخَفَّفُ</a> عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 28,
+      "text": "يُرِيدُ ٱللَّهُ أَن يُخَفِّفَ عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًا",
+      "highlightedHtml": "يُرِيدُ ٱللَّهُ أَن <a class=\"highlight-text\">يُخَفِّفَ</a> عَنكُمْ ۚ وَخُلِقَ ٱلْإِنسَٰنُ ضَعِيفًا",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 9,
+      "text": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ",
+      "highlightedHtml": "وَمَنْ <a class=\"highlight-text\">خَفَّتْ</a> مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ",
+      "derivedForms": [
+        "خَفَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 189,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا <a class=\"highlight-text\">خَفِيفًا</a> فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "خَفِيفٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 66,
+      "text": "ٱلْـَٰٔنَ خَفَّفَ ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌ صَابِرَةٌ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ أَلْفٌ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "ٱلْـَٰٔنَ <a class=\"highlight-text\">خَفَّفَ</a> ٱللَّهُ عَنكُمْ وَعَلِمَ أَنَّ فِيكُمْ ضَعْفًا ۚ فَإِن يَكُن مِّنكُم مِّا۟ئَةٌ صَابِرَةٌ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُمْ أَلْفٌ يَغْلِبُوٓا۟ أَلْفَيْنِ بِإِذْنِ ٱللَّهِ ۗ وَٱللَّهُ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 41,
+      "text": "ٱنفِرُوا۟ خِفَافًا وَثِقَالًا وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "ٱنفِرُوا۟ <a class=\"highlight-text\">خِفَافًا</a> وَثِقَالًا وَجَٰهِدُوا۟ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ فِى سَبِيلِ ٱللَّهِ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "خَفِيفٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 80,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَٰمِ بُيُوتًا تَسْتَخِفُّونَهَا يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ وَأَشْعَارِهَآ أَثَٰثًا أَثَٰثًا أَثَٰثًا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّنۢ بُيُوتِكُمْ سَكَنًا وَجَعَلَ لَكُم مِّن جُلُودِ ٱلْأَنْعَٰمِ بُيُوتًا <a class=\"highlight-text\">تَسْتَخِفُّونَهَا</a> يَوْمَ ظَعْنِكُمْ وَيَوْمَ إِقَامَتِكُمْ ۙ وَمِنْ أَصْوَافِهَا وَأَوْبَارِهَا وَأَشْعَارِهَآ وَأَشْعَارِهَآ أَثَٰثًا أَثَٰثًا أَثَٰثًا وَمَتَٰعًا إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "اسْتَخَفَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 85,
+      "text": "وَإِذَا رَءَا ٱلَّذِينَ ظَلَمُوا۟ ٱلْعَذَابَ فَلَا يُخَفَّفُ عَنْهُمْ وَلَا هُمْ يُنظَرُونَ",
+      "highlightedHtml": "وَإِذَا رَءَا ٱلَّذِينَ ظَلَمُوا۟ ٱلْعَذَابَ فَلَا <a class=\"highlight-text\">يُخَفَّفُ</a> عَنْهُمْ وَلَا هُمْ يُنظَرُونَ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 103,
+      "text": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ",
+      "highlightedHtml": "وَمَنْ <a class=\"highlight-text\">خَفَّتْ</a> مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ",
+      "derivedForms": [
+        "خَفَّ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 60,
+      "text": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ",
+      "highlightedHtml": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ وَلَا <a class=\"highlight-text\">يَسْتَخِفَّنَّكَ</a> ٱلَّذِينَ لَا يُوقِنُونَ",
+      "derivedForms": [
+        "اسْتَخَفَّ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 36,
+      "text": "وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ نَارُ جَهَنَّمَ لَا يُقْضَىٰ عَلَيْهِمْ فَيَمُوتُوا۟ وَلَا يُخَفَّفُ عَنْهُم مِّنْ عَذَابِهَا ۚ كَذَٰلِكَ نَجْزِى كُلَّ كَفُورٍ",
+      "highlightedHtml": "وَٱلَّذِينَ كَفَرُوا۟ لَهُمْ نَارُ جَهَنَّمَ لَا يُقْضَىٰ عَلَيْهِمْ فَيَمُوتُوا۟ وَلَا <a class=\"highlight-text\">يُخَفَّفُ</a> عَنْهُم مِّنْ عَذَابِهَا ۚ كَذَٰلِكَ نَجْزِى كُلَّ كَفُورٍ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 49,
+      "text": "وَقَالَ ٱلَّذِينَ فِى ٱلنَّارِ لِخَزَنَةِ جَهَنَّمَ ٱدْعُوا۟ رَبَّكُمْ يُخَفِّفْ عَنَّا يَوْمًا مِّنَ ٱلْعَذَابِ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ فِى ٱلنَّارِ لِخَزَنَةِ جَهَنَّمَ ٱدْعُوا۟ رَبَّكُمْ <a class=\"highlight-text\">يُخَفِّفْ</a> عَنَّا يَوْمًا مِّنَ ٱلْعَذَابِ",
+      "derivedForms": [
+        "خَفَّفَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 54,
+      "text": "فَٱسْتَخَفَّ قَوْمَهُۥ فَأَطَاعُوهُ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱسْتَخَفَّ</a> قَوْمَهُۥ فَأَطَاعُوهُ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَٰسِقِينَ",
+      "derivedForms": [
+        "اسْتَخَفَّ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 8,
+      "text": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "highlightedHtml": "وَأَمَّا مَنْ <a class=\"highlight-text\">خَفَّتْ</a> مَوَٰزِينُهُۥ",
+      "derivedForms": [
+        "خَفَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:33.850Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form II) passive imperfect verb",
+    "derivativeNote": "يُخَفَّفُ is in the derivative form: خَفَّفَ",
+    "rootDefinitionHtml": "خ/ف/ف   kh–f–f light load, a small group of people<br>; camel’s foot, to travel at ease, (of camels) to travel in single file; to be light, to be light‐hearted, to move quickly, to be quick‐witted; to take lightly, to treat with contempt, to consider as easily influenced, to die. <br><br>Of this root, 7 forms occur 17 times in the Qur’an:<br> خَفَّ khaffa 3 times; خَفَّفَ khaffafa 3 times; يُخَفَّفُ yukhaffaf 5 times;اسْتَخَفَّ ʾistakhaffa 3 times; تَخْفِيفٌ takhfıf 1 time; خَفِيفٌ khafıf 1 time and خِفَافٌ khifāf 1 time.",
+    "mainDefinitionHtml": "خَفَّفَ khaffafa [v. II, trans.; pass. yukhaffaf imperf. ofخُفِّفَ khuffifa] to lighten, to lessen <br><br>(40:49) ادْعُوا رَبَّكُمْ يُخَفِّفْ عَنَّا يَوْمًا مِنَ الْعَذَابِ ask your Lord to lighten our suffering [even] for one day.",
+    "mainEntryId": "wdef-خ-ف-ف.خَفَّفَ",
+    "entries": [
+      {
+        "id": "wdef-خ-ف-ف",
+        "label": "خ-ف-ف",
+        "definitionHtml": "خ/ف/ف   kh–f–f light load, a small group of people<br>; camel’s foot, to travel at ease, (of camels) to travel in single file; to be light, to be light‐hearted, to move quickly, to be quick‐witted; to take lightly, to treat with contempt, to consider as easily influenced, to die. <br><br>Of this root, 7 forms occur 17 times in the Qur’an:<br> خَفَّ khaffa 3 times; خَفَّفَ khaffafa 3 times; يُخَفَّفُ yukhaffaf 5 times;اسْتَخَفَّ ʾistakhaffa 3 times; تَخْفِيفٌ takhfıf 1 time; خَفِيفٌ khafıf 1 time and خِفَافٌ khifāf 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ف-ف.خَفَّفَ",
+        "label": "خَفَّفَ",
+        "definitionHtml": "خَفَّفَ khaffafa [v. II, trans.; pass. yukhaffaf imperf. ofخُفِّفَ khuffifa] to lighten, to lessen <br><br>(40:49) ادْعُوا رَبَّكُمْ يُخَفِّفْ عَنَّا يَوْمًا مِنَ الْعَذَابِ ask your Lord to lighten our suffering [even] for one day.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ف-ف.اسْتَخَفَّ",
+        "label": "اسْتَخَفَّ",
+        "definitionHtml": "اسْتَخَفَّ ʾistakhaffa [v. X, trans.] <br><br><strong>1 </strong>to consider as light, to consider light enough to carry or handle, to take lightly, to make light of <br><br>(16:80) وَجَعَلَ لَكُمْ مِنْ جُلُودِ الأَنْعَامِ بُيُوتًا تَسْتَخِفُّونَهَا and He provided for you from the hides of cattle houses [tents] you find light <br><br><strong>2 </strong>to consider as easy to influence, to consider as rash and incapable of serious thoughts <br><br>(43:54) فَاسْتَخَفَّ قَوْمَهُ فَأَطَاعُوهُ so, He deemed his people easy to influence and they obeyed him <br><br><strong>3 </strong>to urge, to hasten (in one interpretation of 43:54) فَاسْتَخَفَّ قَوْمَهُ فَأَطَاعُوهُ so, He urged his people [to disobey Moses] and they obeyed him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ف-ف.خَفِيفٌ",
+        "label": "خَفِيفٌ",
+        "definitionHtml": "خَفِيفٌ khafıf [quasi‐act. part., pl. خِفَافٌ khifāf] <br><br><strong>1 </strong>light <br><br>(7:189) فَلَمَّا تَغَشَّاهَا حَمَلَتْ حَمْلا خَفِيفًا and when he mated with [lit. covered] her she conceived a light pregnancy <br><br><strong>2 </strong>lightly armed, lightly equipped; easy moving <br><br>(9:41) اِنْفِرُوا خِفَافًا وَثِقَالا وَجَاهِدُوا بِأَمْوَالِكُمْ وَأَنْفُسِكُمْ فِى سَبِيلِ اللَّهِ so go forth, lightly and heavily [armed], and struggle for the way of God with your possessions and your persons.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ف-ف.خَفَّ",
+        "label": "خَفَّ",
+        "definitionHtml": "خَفَّ khaffa i [v. intrans.] to be, become or prove to be light or scanty *<br><br>(7:9) وَمَنْ خَفَّتْ مَوَازِينُهُ the one whose scales are light, the one who brought little to the weighing, the one whose good deeds did not weigh much.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:32.618Z",
+      "refword": "2:86:8",
+      "lexword": "يُخَفَّفُ"
+    }
+  }
+}

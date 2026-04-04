@@ -1,0 +1,358 @@
+{
+  "root": "صمم",
+  "rootArabic": "صمم",
+  "stats": {
+    "totalOccurrences": 15,
+    "derivativeCount": 3,
+    "surahCount": 13,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "صُمٌّ",
+      "count": 12
+    },
+    {
+      "form": "صَمّ",
+      "count": 2
+    },
+    {
+      "form": "أَصَمَّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَمّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صُمٌّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَصَمَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 18,
+      "text": "صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَرْجِعُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">صُمٌّۢ</a> بُكْمٌ عُمْىٌ فَهُمْ لَا يَرْجِعُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 171,
+      "text": "وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَآءً وَنِدَآءً ۚ صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَآءً وَنِدَآءً ۚ <a class=\"highlight-text\">صُمٌّۢ</a> بُكْمٌ عُمْىٌ فَهُمْ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 71,
+      "text": "وَحَسِبُوٓا۟ أَلَّا تَكُونَ فِتْنَةٌ فَعَمُوا۟ وَصَمُّوا۟ ثُمَّ تَابَ ٱللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا۟ وَصَمُّوا۟ كَثِيرٌ مِّنْهُمْ ۚ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَحَسِبُوٓا۟ أَلَّا تَكُونَ فِتْنَةٌ فَعَمُوا۟ <a class=\"highlight-text\">وَصَمُّوا۟</a> ثُمَّ تَابَ ٱللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا۟ <a class=\"highlight-text\">وَصَمُّوا۟</a> كَثِيرٌ مِّنْهُمْ ۚ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "صَمّ",
+        "صَمّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 39,
+      "text": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا صُمٌّ وَبُكْمٌ فِى ٱلظُّلُمَٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا <a class=\"highlight-text\">صُمٌّ</a> وَبُكْمٌ فِى ٱلظُّلُمَٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 22,
+      "text": "إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ ٱلصُّمُّ ٱلْبُكْمُ ٱلَّذِينَ لَا يَعْقِلُونَ",
+      "highlightedHtml": "إِنَّ شَرَّ ٱلدَّوَآبِّ عِندَ ٱللَّهِ <a class=\"highlight-text\">ٱلصُّمُّ</a> ٱلْبُكْمُ ٱلَّذِينَ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 42,
+      "text": "وَمِنْهُم مَّن يَسْتَمِعُونَ إِلَيْكَ ۚ أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ وَلَوْ كَانُوا۟ لَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَسْتَمِعُونَ إِلَيْكَ ۚ أَفَأَنتَ تُسْمِعُ <a class=\"highlight-text\">ٱلصُّمَّ</a> وَلَوْ كَانُوا۟ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 24,
+      "text": "مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ وَٱلْأَصَمِّ وَٱلْبَصِيرِ وَٱلسَّمِيعِ ۚ هَلْ يَسْتَوِيَانِ يَسْتَوِيَانِ مَثَلًا ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "مَثَلُ ٱلْفَرِيقَيْنِ كَٱلْأَعْمَىٰ <a class=\"highlight-text\">وَٱلْأَصَمِّ</a> وَٱلْبَصِيرِ وَٱلسَّمِيعِ ۚ هَلْ يَسْتَوِيَانِ يَسْتَوِيَانِ مَثَلًا ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 97,
+      "text": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "highlightedHtml": "وَمَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُمْ أَوْلِيَآءَ مِن دُونِهِۦ ۖ وَنَحْشُرُهُمْ يَوْمَ ٱلْقِيَٰمَةِ عَلَىٰ وُجُوهِهِمْ عُمْيًا وَبُكْمًا <a class=\"highlight-text\">وَصُمًّا</a> ۖ مَّأْوَىٰهُمْ جَهَنَّمُ ۖ كُلَّمَا خَبَتْ زِدْنَٰهُمْ سَعِيرًا",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 45,
+      "text": "قُلْ إِنَّمَآ أُنذِرُكُم بِٱلْوَحْىِ ۚ وَلَا يَسْمَعُ ٱلصُّمُّ ٱلدُّعَآءَ إِذَا مَا يُنذَرُونَ",
+      "highlightedHtml": "قُلْ إِنَّمَآ أُنذِرُكُم بِٱلْوَحْىِ ۚ وَلَا يَسْمَعُ <a class=\"highlight-text\">ٱلصُّمُّ</a> ٱلدُّعَآءَ إِذَا مَا يُنذَرُونَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 73,
+      "text": "وَٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ لَمْ يَخِرُّوا۟ عَلَيْهَا صُمًّا وَعُمْيَانًا",
+      "highlightedHtml": "وَٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ لَمْ يَخِرُّوا۟ عَلَيْهَا <a class=\"highlight-text\">صُمًّا</a> وَعُمْيَانًا",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 80,
+      "text": "إِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "highlightedHtml": "إِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ <a class=\"highlight-text\">ٱلصُّمَّ</a> ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 52,
+      "text": "فَإِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "highlightedHtml": "فَإِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ <a class=\"highlight-text\">ٱلصُّمَّ</a> ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 40,
+      "text": "أَفَأَنتَ تُسْمِعُ ٱلصُّمَّ أَوْ تَهْدِى ٱلْعُمْىَ وَمَن كَانَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "أَفَأَنتَ تُسْمِعُ <a class=\"highlight-text\">ٱلصُّمَّ</a> أَوْ تَهْدِى ٱلْعُمْىَ وَمَن كَانَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "صُمٌّ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 23,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ فَأَصَمَّهُمْ وَأَعْمَىٰٓ أَبْصَٰرَهُمْ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ <a class=\"highlight-text\">فَأَصَمَّهُمْ</a> وَأَعْمَىٰٓ أَبْصَٰرَهُمْ",
+      "derivedForms": [
+        "أَصَمَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:14.971Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative plural indefinite noun",
+    "derivativeNote": "صُمٌّۢ is in the derivative form: صُمٌّ",
+    "rootDefinitionHtml": "ص/م/م   ṣ–m–m to be solid, compact, dense<br>; to close, to seal; to be deaf; to be determined. <br><br>Of this root, 4 forms occur 15 times in the Qur’an:<br> صَمّوا ṣammū 2 times; أَصَمَّ ʾaṣamma 1 time; صُمٌّ ṣumm 11 times and أَصَمّ ʾaṣamm 1 time.",
+    "mainDefinitionHtml": "صُمٌّ ṣumm [pl. of n./quasi-act. part. أَصَمّ ʾaṣamm] deaf ones <br><br>(17:97) وَنَحْشُرُهُمْ يَوْمَ الْقِيَامَةِ عَلَى وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا We gather them, on the Day of Resurrection, [lying] on their faces, blind, dumb and deaf.",
+    "mainEntryId": "wdef-ص-م-م.صُمٌّ",
+    "entries": [
+      {
+        "id": "wdef-ص-م-م",
+        "label": "ص-م-م",
+        "definitionHtml": "ص/م/م   ṣ–m–m to be solid, compact, dense<br>; to close, to seal; to be deaf; to be determined. <br><br>Of this root, 4 forms occur 15 times in the Qur’an:<br> صَمّوا ṣammū 2 times; أَصَمَّ ʾaṣamma 1 time; صُمٌّ ṣumm 11 times and أَصَمّ ʾaṣamm 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-م-م.صُمٌّ",
+        "label": "صُمٌّ",
+        "definitionHtml": "صُمٌّ ṣumm [pl. of n./quasi-act. part. أَصَمّ ʾaṣamm] deaf ones <br><br>(17:97) وَنَحْشُرُهُمْ يَوْمَ الْقِيَامَةِ عَلَى وُجُوهِهِمْ عُمْيًا وَبُكْمًا وَصُمًّا We gather them, on the Day of Resurrection, [lying] on their faces, blind, dumb and deaf.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-م-م.أَصَمَّ",
+        "label": "أَصَمَّ",
+        "definitionHtml": "أَصَمَّ ʾaṣamma [v. IV, trans.] to cause to become deaf, to make deaf <br><br>(47:23) أُولَئِكَ الَّذِينَ لَعَنَهُمُ اللَّهُ فَأَصَمَّهُمْ وَأَعْمَى أَبْصَارَهُمْ those are the ones God has cursed, and so made deaf and blinded their sight.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-م-م.صَمّ",
+        "label": "صَمّ",
+        "definitionHtml": "صَمّ samma u [v. intrans.] to be or become deaf, to close one’s ears, to refuse to listen <br><br>(5:71) وَحَسِبُوا أَلاَّ تَكُونَ فِتْنَةٌ فَعَمُوا وَصَمُّوا ثُمَّ تَابَ اللَّهُ عَلَيْهِمْ ثُمَّ عَمُوا وَصَمُّوا كَثِيرٌ مِنْهُمْ and they thought no harm could afflict them and so they closed their eyes and ears [lit. were blind and deaf], then God turned [in mercy] towards them, but [again] they closed their eyes and ears, many of them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:25.594Z",
+      "refword": "2:18:1",
+      "lexword": "صُمٌّۢ"
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "root": "قرف",
+  "rootArabic": "قرف",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "اِقْتَرَفَ",
+      "count": 4
+    },
+    {
+      "form": "مُقْتَرِف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "اِقْتَرَفَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُقْتَرِف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِقْتَرَفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِقْتَرَفَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 113,
+      "text": "وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَلِيَرْضَوْهُ وَلِيَقْتَرِفُوا۟ مَا هُم مُّقْتَرِفُونَ",
+      "highlightedHtml": "وَلِتَصْغَىٰٓ إِلَيْهِ أَفْـِٔدَةُ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ وَلِيَرْضَوْهُ <a class=\"highlight-text\">وَلِيَقْتَرِفُوا۟</a> مَا هُم <a class=\"highlight-text\">مُّقْتَرِفُونَ</a>",
+      "derivedForms": [
+        "اِقْتَرَفَ",
+        "مُقْتَرِف"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 120,
+      "text": "وَذَرُوا۟ ظَٰهِرَ ٱلْإِثْمِ وَبَاطِنَهُۥٓ ۚ إِنَّ ٱلَّذِينَ يَكْسِبُونَ ٱلْإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا۟ يَقْتَرِفُونَ",
+      "highlightedHtml": "وَذَرُوا۟ ظَٰهِرَ ٱلْإِثْمِ وَبَاطِنَهُۥٓ ۚ إِنَّ ٱلَّذِينَ يَكْسِبُونَ ٱلْإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا۟ <a class=\"highlight-text\">يَقْتَرِفُونَ</a>",
+      "derivedForms": [
+        "اِقْتَرَفَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 24,
+      "text": "قُلْ إِن كَانَ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ وَإِخْوَٰنُكُمْ وَأَزْوَٰجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَٰلٌ ٱقْتَرَفْتُمُوهَا وَتِجَٰرَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَٰكِنُ تَرْضَوْنَهَآ أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍ فِى سَبِيلِهِۦ فَتَرَبَّصُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "قُلْ إِن كَانَ ءَابَآؤُكُمْ وَأَبْنَآؤُكُمْ وَإِخْوَٰنُكُمْ وَأَزْوَٰجُكُمْ وَعَشِيرَتُكُمْ وَأَمْوَٰلٌ <a class=\"highlight-text\">ٱقْتَرَفْتُمُوهَا</a> وَتِجَٰرَةٌ تَخْشَوْنَ كَسَادَهَا وَمَسَٰكِنُ تَرْضَوْنَهَآ أَحَبَّ إِلَيْكُم مِّنَ ٱللَّهِ وَرَسُولِهِۦ وَجِهَادٍ فِى سَبِيلِهِۦ فَتَرَبَّصُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "اِقْتَرَفَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 23,
+      "text": "ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةً نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌ شَكُورٌ",
+      "highlightedHtml": "ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن <a class=\"highlight-text\">يَقْتَرِفْ</a> حَسَنَةً نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌ شَكُورٌ",
+      "derivedForms": [
+        "اِقْتَرَفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:49.557Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form VIII) imperfect verb, subjunctive mood",
+    "derivativeNote": "وَلِيَقْتَرِفُوا۟ is in the derivative form: اِقْتَرَفَ",
+    "rootDefinitionHtml": "ق/ر/ف   q–r–f tree bark, to peel off the bark; to kill, to eradicate; to earn, earnings; to commit a sin, to commit a crime, to slander, to accuse; to be worthy of something; to be loathsome. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> اِقْتَرَفَ ʾiqtarafa 4 times and مُقْتَرِفُون muqtarifūn 1 time.",
+    "mainDefinitionHtml": "اِقْتَرَفَ ʾiqtarafa [v. VIII, trans.] <br><br><strong>1 </strong>to earn, to acquire <br><br>(42:23) وَمَنْ يَقْتَرِفْ حَسَنَةً نَزِدْ لَهُ فِيهَا حُسْنًا whoever does good, We shall increase it for him‏ in goodness <br><br><strong>2 </strong>to commit <br><br>(6:120) إِنَّ الَّذِينَ يَكْسِبُونَ الإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا يَقْتَرِفُونَ those who earn the wages of sin, surely will be repaid for what they commit.",
+    "mainEntryId": "wdef-ق-ر-ف.اِقْتَرَفَ",
+    "entries": [
+      {
+        "id": "wdef-ق-ر-ف",
+        "label": "ق-ر-ف",
+        "definitionHtml": "ق/ر/ف   q–r–f tree bark, to peel off the bark; to kill, to eradicate; to earn, earnings; to commit a sin, to commit a crime, to slander, to accuse; to be worthy of something; to be loathsome. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> اِقْتَرَفَ ʾiqtarafa 4 times and مُقْتَرِفُون muqtarifūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ف.اِقْتَرَفَ",
+        "label": "اِقْتَرَفَ",
+        "definitionHtml": "اِقْتَرَفَ ʾiqtarafa [v. VIII, trans.] <br><br><strong>1 </strong>to earn, to acquire <br><br>(42:23) وَمَنْ يَقْتَرِفْ حَسَنَةً نَزِدْ لَهُ فِيهَا حُسْنًا whoever does good, We shall increase it for him‏ in goodness <br><br><strong>2 </strong>to commit <br><br>(6:120) إِنَّ الَّذِينَ يَكْسِبُونَ الإِثْمَ سَيُجْزَوْنَ بِمَا كَانُوا يَقْتَرِفُونَ those who earn the wages of sin, surely will be repaid for what they commit.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ر-ف.مُقْتَرِف",
+        "label": "مُقْتَرِف",
+        "definitionHtml": "مُقْتَرِف muqtarif [act. part.] one who perpetrates, earns, or commits (a bad deed) <br><br>(6:113) وَلِيَقْتَرِفُوا مَا هُمْ مُقْتَرِفُونَ and let them perpetrate whatever they [the evil ones] perpetrate.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:13.086Z",
+      "refword": "6:113:9",
+      "lexword": "وَلِيَقْتَرِفُوا۟"
+    }
+  }
+}

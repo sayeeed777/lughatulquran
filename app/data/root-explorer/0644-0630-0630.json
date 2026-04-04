@@ -1,0 +1,127 @@
+{
+  "root": "لذذ",
+  "rootArabic": "لذذ",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "لَذَّةٌ",
+      "count": 2
+    },
+    {
+      "form": "تَلَذّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَذَّةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلَذّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَذَّةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 46,
+      "text": "بَيْضَآءَ لَذَّةٍ لِّلشَّٰرِبِينَ",
+      "highlightedHtml": "بَيْضَآءَ <a class=\"highlight-text\">لَذَّةٍ</a> لِّلشَّٰرِبِينَ",
+      "derivedForms": [
+        "لَذَّةٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 71,
+      "text": "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا تَشْتَهِيهِ ٱلْأَنفُسُ وَتَلَذُّ ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "يُطَافُ عَلَيْهِم بِصِحَافٍ مِّن ذَهَبٍ وَأَكْوَابٍ ۖ وَفِيهَا مَا تَشْتَهِيهِ ٱلْأَنفُسُ <a class=\"highlight-text\">وَتَلَذُّ</a> ٱلْأَعْيُنُ ۖ وَأَنتُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "تَلَذّ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 15,
+      "text": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ آسِنٍ وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "highlightedHtml": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ آسِنٍ وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ <a class=\"highlight-text\">لَّذَّةٍ</a> لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "derivedForms": [
+        "لَذَّةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:27.465Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine singular indefinite adjective",
+    "derivativeNote": "لَذَّةٍ is in the derivative form: لَذَّةٌ",
+    "rootDefinitionHtml": "ل/ذ/ذ   l–dh–dh pleasure, sweetness, to be delicious, to enjoy; speed, to be nimble. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَلَذّ taladhdh 1 time and لَذَّةٌ ladhdhatun 2 times.",
+    "mainDefinitionHtml": "لَذَّةٌ ladhdhatun [v. n./n. adjectivally used] pleasing, delightful, delicious <br><br>(37:45–6) يُطَافُ‏ ‏عَلَيْهِمْ‏ ‏بِكَأْسٍ‏ ‏مِنْ‏ ‏مَعِينٍ‏ بَيْضَاءَ‏ ‏لَذَّةٍ‏ ‏لِلشَّارِبِينَ‏ a cup from a gushing spring will be passed around for them, white, delicious to the drinkers.",
+    "mainEntryId": "wdef-ل-ذ-ذ.لَذَّةٌ",
+    "entries": [
+      {
+        "id": "wdef-ل-ذ-ذ",
+        "label": "ل-ذ-ذ",
+        "definitionHtml": "ل/ذ/ذ   l–dh–dh pleasure, sweetness, to be delicious, to enjoy; speed, to be nimble. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَلَذّ taladhdh 1 time and لَذَّةٌ ladhdhatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ذ-ذ.لَذَّةٌ",
+        "label": "لَذَّةٌ",
+        "definitionHtml": "لَذَّةٌ ladhdhatun [v. n./n. adjectivally used] pleasing, delightful, delicious <br><br>(37:45–6) يُطَافُ‏ ‏عَلَيْهِمْ‏ ‏بِكَأْسٍ‏ ‏مِنْ‏ ‏مَعِينٍ‏ بَيْضَاءَ‏ ‏لَذَّةٍ‏ ‏لِلشَّارِبِينَ‏ a cup from a gushing spring will be passed around for them, white, delicious to the drinkers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ذ-ذ.تَلَذّ",
+        "label": "تَلَذّ",
+        "definitionHtml": "تَلَذّ taladhdh [imperf. of v. لَذَّ ladhdha, intrans.] to enjoy, to savour, to find enjoyment in, to find pleasing <br><br>(43:71)‏وَفِيهَا‏ ‏مَا‏ ‏تَشْتَهِيهِ‏ ‏الأَنْفُسُ‏ ‏وَتَلَذُّ‏ ‏الأَعْيُنُ in it is all that souls desire and eyes delight in.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:13.501Z",
+      "refword": "37:46:2",
+      "lexword": "لَذَّةٍ"
+    }
+  }
+}

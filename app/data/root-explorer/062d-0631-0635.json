@@ -1,0 +1,180 @@
+{
+  "root": "حرص",
+  "rootArabic": "حرص",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "حَرَص",
+      "count": 3
+    },
+    {
+      "form": "أَحْرص",
+      "count": 1
+    },
+    {
+      "form": "حَريص",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحْرص",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرَص",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَريص",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرَص",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرَص",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 96,
+      "text": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَتَجِدَنَّهُمْ <a class=\"highlight-text\">أَحْرَصَ</a> ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "أَحْرص"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 129,
+      "text": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ <a class=\"highlight-text\">حَرَصْتُمْ</a> ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "حَرَص"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 128,
+      "text": "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "لَقَدْ جَآءَكُمْ رَسُولٌ مِّنْ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ <a class=\"highlight-text\">حَرِيصٌ</a> عَلَيْكُم بِٱلْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "حَريص"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 103,
+      "text": "وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ حَرَصْتَ بِمُؤْمِنِينَ",
+      "highlightedHtml": "وَمَآ أَكْثَرُ ٱلنَّاسِ وَلَوْ <a class=\"highlight-text\">حَرَصْتَ</a> بِمُؤْمِنِينَ",
+      "derivedForms": [
+        "حَرَص"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 37,
+      "text": "إِن تَحْرِصْ عَلَىٰ هُدَىٰهُمْ فَإِنَّ ٱللَّهَ لَا يَهْدِى مَن يُضِلُّ ۖ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+      "highlightedHtml": "إِن <a class=\"highlight-text\">تَحْرِصْ</a> عَلَىٰ هُدَىٰهُمْ فَإِنَّ ٱللَّهَ لَا يَهْدِى مَن يُضِلُّ ۖ وَمَا لَهُم مِّن نَّٰصِرِينَ",
+      "derivedForms": [
+        "حَرَص"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:56.201Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "أَحْرَصَ is in the derivative form: أَحْرص",
+    "rootDefinitionHtml": "ح/ر/ص   ḥ–r–ṣ to peel off<br>; to split, to rip open; intense desire, greed, to covet; to show concern for, to take great care of. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> حَرَصَ ḥaraṣa 3 times; حَرِيصٌ ḥarıṣ 1 time and أَحْرَصُ ʾaḥraṣ 1 time.",
+    "mainDefinitionHtml": "أَحْرص ʾaḥraṣ [elat.] more/most covetous, more/most attached to <br><br>(2:96) وَلَتَجِدَنَّهُمْ أَحْرَصَ النَّاسِ عَلَي حَيَاةٍ and of all other people you are sure to find them, most attached to life.",
+    "mainEntryId": "wdef-ح-ر-ص.أَحْرص",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ص",
+        "label": "ح-ر-ص",
+        "definitionHtml": "ح/ر/ص   ḥ–r–ṣ to peel off<br>; to split, to rip open; intense desire, greed, to covet; to show concern for, to take great care of. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> حَرَصَ ḥaraṣa 3 times; حَرِيصٌ ḥarıṣ 1 time and أَحْرَصُ ʾaḥraṣ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ص.أَحْرص",
+        "label": "أَحْرص",
+        "definitionHtml": "أَحْرص ʾaḥraṣ [elat.] more/most covetous, more/most attached to <br><br>(2:96) وَلَتَجِدَنَّهُمْ أَحْرَصَ النَّاسِ عَلَي حَيَاةٍ and of all other people you are sure to find them, most attached to life.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ر-ص.حَريص",
+        "label": "حَريص",
+        "definitionHtml": "حَريص ḥarıṣ [intens. act. part.] full of concern, solicitous, caring <br><br>(9:128) لَقَدْ جَاءَكُمْ رَسُولٌ مِنْ أَنْفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُمْ a Messenger has come to you from among yourselves–distressing to him is your suffering; he is deeply concerned for you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ص.حَرَص",
+        "label": "حَرَص",
+        "definitionHtml": "حَرَص ḥaraṣa i [v. intrans.] <br><br><strong>1 </strong>to take extra care, to be meticulously on your guard <br><br>(4:129) وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ النِّسَاءِ وَلَوْ حَرَصْتُمْ you will never be able to deal equally between [your] wives, no matter how much care you take <br><br><strong>2 </strong>[with prep. على] to show concern for, to be anxious about <br><br>(16:37) إِنْ تَحْرِصْ عَلَى هُدَاهُمْ فَإِنَّ اللَّهَ لاَ يَهْدِي مَنْ يُضِلُّ even if you [Prophet] are anxious for their guidance, God does not guide those who misguide others.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:23.280Z",
+      "refword": "2:96:2",
+      "lexword": "أَحْرَصَ"
+    }
+  }
+}

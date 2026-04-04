@@ -1,0 +1,106 @@
+{
+  "root": "غيض",
+  "rootArabic": "غيض",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَغيض",
+      "count": 1
+    },
+    {
+      "form": "غيضَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غيضَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَغيض",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 44,
+      "text": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى وَغِيضَ ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَقِيلَ يَٰٓأَرْضُ ٱبْلَعِى مَآءَكِ وَيَٰسَمَآءُ أَقْلِعِى <a class=\"highlight-text\">وَغِيضَ</a> ٱلْمَآءُ وَقُضِىَ ٱلْأَمْرُ وَٱسْتَوَتْ وَٱسْتَوَتْ عَلَى ٱلْجُودِىِّ ۖ وَقِيلَ بُعْدًا لِّلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "غيضَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 8,
+      "text": "ٱللَّهُ يَعْلَمُ مَا تَحْمِلُ كُلُّ أُنثَىٰ وَمَا تَغِيضُ ٱلْأَرْحَامُ وَمَا تَزْدَادُ ۖ وَكُلُّ شَىْءٍ عِندَهُۥ بِمِقْدَارٍ",
+      "highlightedHtml": "ٱللَّهُ يَعْلَمُ مَا تَحْمِلُ كُلُّ أُنثَىٰ وَمَا <a class=\"highlight-text\">تَغِيضُ</a> ٱلْأَرْحَامُ وَمَا تَزْدَادُ ۖ وَكُلُّ شَىْءٍ عِندَهُۥ بِمِقْدَارٍ",
+      "derivedForms": [
+        "تَغيض"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:24.347Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive perfect verb",
+    "derivativeNote": "وَغِيضَ is in the derivative form: غيضَ",
+    "rootDefinitionHtml": "غ/ي/ض gh–y–ḍ den, thicket, bush, to disappear (by water into the soil), to recede, to dwindle, to abate, to diminish. Of this root,تَغيض taghıḍ and غيضَ ghıḍa occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "غيضَ ghıḍa [pass. v] to be absorbed, to be made to sink into the earth, to be made to subside <br><br>(11:44)‏‏‏وَقِيلَ‏ ‏يَاأَرْضُ‏ ‏ابْلَعِي‏ ‏مَاءَكِ‏ ‏وَيَا ‏سَمَاءُ‏ ‏أَقْلِعِي‏ ‏وَغِيضَ‏ ‏الْمَاءُ‏ then it was said, ‘Earth, swallow up your water, and sky, cease [raining]’, and the water was absorbed.",
+    "mainEntryId": "wdef-غ-ي-ض.غيضَ",
+    "entries": [
+      {
+        "id": "wdef-غ-ي-ض",
+        "label": "غ-ي-ض",
+        "definitionHtml": "غ/ي/ض gh–y–ḍ den, thicket, bush, to disappear (by water into the soil), to recede, to dwindle, to abate, to diminish. Of this root,تَغيض taghıḍ and غيضَ ghıḍa occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ي-ض.غيضَ",
+        "label": "غيضَ",
+        "definitionHtml": "غيضَ ghıḍa [pass. v] to be absorbed, to be made to sink into the earth, to be made to subside <br><br>(11:44)‏‏‏وَقِيلَ‏ ‏يَاأَرْضُ‏ ‏ابْلَعِي‏ ‏مَاءَكِ‏ ‏وَيَا ‏سَمَاءُ‏ ‏أَقْلِعِي‏ ‏وَغِيضَ‏ ‏الْمَاءُ‏ then it was said, ‘Earth, swallow up your water, and sky, cease [raining]’, and the water was absorbed.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ي-ض.تَغيض",
+        "label": "تَغيض",
+        "definitionHtml": "تَغيض taghıḍ [imperf. of v.غَاضَ ghāḍa, trans.] to diminish, to shrink, to fall short of, to fail to grow <br><br>(13:8) اللَّهُ‏ ‏يَعْلَمُ‏ ‏مَا‏ ‏تَحْمِلُ‏ ‏كُلُّ ‏أُنْثَى‏ ‏وَمَا‏ ‏تَغِيضُ‏ ‏الأَرْحَامُ‏ ‏وَمَا‏ ‏تَزْدَادُ‏ God knows what every female bears, and that of which the wombs fall short of completion and that which they grow.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:30.715Z",
+      "refword": "11:44:7",
+      "lexword": "وَغِيضَ"
+    }
+  }
+}

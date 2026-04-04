@@ -1,0 +1,449 @@
+{
+  "root": "كشف",
+  "rootArabic": "كشف",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 4,
+    "surahCount": 14,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "كَشَفَ",
+      "count": 13
+    },
+    {
+      "form": "كَاشِف",
+      "count": 5
+    },
+    {
+      "form": "كَشْف",
+      "count": 1
+    },
+    {
+      "form": "يُكْشَف",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَاشِف",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 2,
+          "totalInQuran": 13
+        },
+        {
+          "form": "كَاشِف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشْف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَاشِف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كَاشِف",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَشَفَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَاشِف",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُكْشَف",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 17,
+      "text": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا <a class=\"highlight-text\">كَاشِفَ</a> لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يَمْسَسْكَ بِخَيْرٍ فَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "كَاشِف"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 41,
+      "text": "بَلْ إِيَّاهُ تَدْعُونَ فَيَكْشِفُ مَا تَدْعُونَ إِلَيْهِ إِن شَآءَ وَتَنسَوْنَ مَا تُشْرِكُونَ",
+      "highlightedHtml": "بَلْ إِيَّاهُ تَدْعُونَ <a class=\"highlight-text\">فَيَكْشِفُ</a> مَا تَدْعُونَ إِلَيْهِ إِن شَآءَ وَتَنسَوْنَ مَا تُشْرِكُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 134,
+      "text": "وَلَمَّا وَقَعَ عَلَيْهِمُ ٱلرِّجْزُ قَالُوا۟ يَٰمُوسَى ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ ۖ لَئِن كَشَفْتَ عَنَّا ٱلرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "highlightedHtml": "وَلَمَّا وَقَعَ عَلَيْهِمُ ٱلرِّجْزُ قَالُوا۟ يَٰمُوسَى ٱدْعُ لَنَا رَبَّكَ بِمَا عَهِدَ عِندَكَ ۖ لَئِن <a class=\"highlight-text\">كَشَفْتَ</a> عَنَّا ٱلرِّجْزَ لَنُؤْمِنَنَّ لَكَ وَلَنُرْسِلَنَّ مَعَكَ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 135,
+      "text": "فَلَمَّا كَشَفْنَا عَنْهُمُ ٱلرِّجْزَ إِلَىٰٓ أَجَلٍ هُم بَٰلِغُوهُ إِذَا هُمْ يَنكُثُونَ",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">كَشَفْنَا</a> عَنْهُمُ ٱلرِّجْزَ إِلَىٰٓ أَجَلٍ هُم بَٰلِغُوهُ إِذَا هُمْ يَنكُثُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 12,
+      "text": "وَإِذَا مَسَّ ٱلْإِنسَٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ قَاعِدًا أَوْ قَآئِمًا فَلَمَّا كَشَفْنَا عَنْهُ ضُرَّهُۥ مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّ مَّسَّهُۥ ۚ كَذَٰلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَإِذَا مَسَّ ٱلْإِنسَٰنَ ٱلضُّرُّ دَعَانَا لِجَنۢبِهِۦٓ أَوْ قَاعِدًا أَوْ قَآئِمًا فَلَمَّا <a class=\"highlight-text\">كَشَفْنَا</a> عَنْهُ ضُرَّهُۥ مَرَّ كَأَن لَّمْ يَدْعُنَآ إِلَىٰ ضُرٍّ مَّسَّهُۥ ۚ كَذَٰلِكَ زُيِّنَ لِلْمُسْرِفِينَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 98,
+      "text": "فَلَوْلَا كَانَتْ قَرْيَةٌ آمَنَتْ فَنَفَعَهَآ إِيمَٰنُهَآ إِلَّا قَوْمَ يُونُسَ لَمَّآ آمَنُوا كَشَفْنَا عَنْهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍ",
+      "highlightedHtml": "فَلَوْلَا كَانَتْ قَرْيَةٌ آمَنَتْ فَنَفَعَهَآ إِيمَٰنُهَآ إِلَّا قَوْمَ يُونُسَ لَمَّآ آمَنُوا <a class=\"highlight-text\">كَشَفْنَا</a> عَنْهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَتَّعْنَٰهُمْ إِلَىٰ حِينٍ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 107,
+      "text": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا كَاشِفَ لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَإِن يَمْسَسْكَ ٱللَّهُ بِضُرٍّ فَلَا <a class=\"highlight-text\">كَاشِفَ</a> لَهُۥٓ إِلَّا هُوَ ۖ وَإِن يُرِدْكَ بِخَيْرٍ فَلَا رَآدَّ لِفَضْلِهِۦ ۚ يُصِيبُ بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "derivedForms": [
+        "كَاشِف"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 54,
+      "text": "ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ",
+      "highlightedHtml": "ثُمَّ إِذَا <a class=\"highlight-text\">كَشَفَ</a> ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 56,
+      "text": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ كَشْفَ ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا",
+      "highlightedHtml": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِهِۦ فَلَا يَمْلِكُونَ <a class=\"highlight-text\">كَشْفَ</a> ٱلضُّرِّ عَنكُمْ وَلَا تَحْوِيلًا",
+      "derivedForms": [
+        "كَشْف"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 84,
+      "text": "فَٱسْتَجَبْنَا لَهُۥ فَكَشَفْنَا مَا بِهِۦ مِن ضُرٍّ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ",
+      "highlightedHtml": "فَٱسْتَجَبْنَا لَهُۥ <a class=\"highlight-text\">فَكَشَفْنَا</a> مَا بِهِۦ مِن ضُرٍّ ۖ وَءَاتَيْنَٰهُ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنْ عِندِنَا وَذِكْرَىٰ لِلْعَٰبِدِينَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 75,
+      "text": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ رَحِمْنَٰهُمْ <a class=\"highlight-text\">وَكَشَفْنَا</a> مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 44,
+      "text": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً <a class=\"highlight-text\">وَكَشَفَتْ</a> عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 62,
+      "text": "أَمَّن يُجِيبُ ٱلْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ ٱلسُّوٓءَ وَيَجْعَلُكُمْ خُلَفَآءَ ٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
+      "highlightedHtml": "أَمَّن يُجِيبُ ٱلْمُضْطَرَّ إِذَا دَعَاهُ <a class=\"highlight-text\">وَيَكْشِفُ</a> ٱلسُّوٓءَ وَيَجْعَلُكُمْ خُلَفَآءَ ٱلْأَرْضِ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ قَلِيلًا مَّا تَذَكَّرُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 38,
+      "text": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ كَٰشِفَٰتُ ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "highlightedHtml": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ لَيَقُولُنَّ ٱللَّهُ ۚ قُلْ أَفَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ إِنْ أَرَادَنِىَ ٱللَّهُ بِضُرٍّ هَلْ هُنَّ <a class=\"highlight-text\">كَٰشِفَٰتُ</a> ضُرِّهِۦٓ أَوْ أَرَادَنِى بِرَحْمَةٍ هَلْ هُنَّ مُمْسِكَٰتُ رَحْمَتِهِۦ ۚ قُلْ حَسْبِىَ ٱللَّهُ ۖ عَلَيْهِ يَتَوَكَّلُ ٱلْمُتَوَكِّلُونَ",
+      "derivedForms": [
+        "كَاشِف"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 50,
+      "text": "فَلَمَّا كَشَفْنَا عَنْهُمُ ٱلْعَذَابَ إِذَا هُمْ يَنكُثُونَ",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">كَشَفْنَا</a> عَنْهُمُ ٱلْعَذَابَ إِذَا هُمْ يَنكُثُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 12,
+      "text": "رَّبَّنَا ٱكْشِفْ عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
+      "highlightedHtml": "رَّبَّنَا <a class=\"highlight-text\">ٱكْشِفْ</a> عَنَّا ٱلْعَذَابَ إِنَّا مُؤْمِنُونَ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 15,
+      "text": "إِنَّا كَاشِفُوا۟ ٱلْعَذَابِ قَلِيلًا ۚ إِنَّكُمْ عَآئِدُونَ",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">كَاشِفُوا۟</a> ٱلْعَذَابِ قَلِيلًا ۚ إِنَّكُمْ عَآئِدُونَ",
+      "derivedForms": [
+        "كَاشِف"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 22,
+      "text": "لَّقَدْ كُنتَ فِى غَفْلَةٍ مِّنْ هَٰذَا فَكَشَفْنَا عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌ",
+      "highlightedHtml": "لَّقَدْ كُنتَ فِى غَفْلَةٍ مِّنْ هَٰذَا <a class=\"highlight-text\">فَكَشَفْنَا</a> عَنكَ غِطَآءَكَ فَبَصَرُكَ ٱلْيَوْمَ حَدِيدٌ",
+      "derivedForms": [
+        "كَشَفَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 58,
+      "text": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ كَاشِفَةٌ",
+      "highlightedHtml": "لَيْسَ لَهَا مِن دُونِ ٱللَّهِ <a class=\"highlight-text\">كَاشِفَةٌ</a>",
+      "derivedForms": [
+        "كَاشِف"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 42,
+      "text": "يَوْمَ يُكْشَفُ عَن سَاقٍ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يُكْشَفُ</a> عَن سَاقٍ وَيُدْعَوْنَ إِلَى ٱلسُّجُودِ فَلَا يَسْتَطِيعُونَ",
+      "derivedForms": [
+        "يُكْشَف"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:49.344Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine active participle",
+    "derivativeNote": "كَاشِفَ is in the derivative form: كَاشِف",
+    "rootDefinitionHtml": "ك/ش/ف   k–sh–f to uncover, to remove, to bare, to reveal, to disclose<br>; to have a receding hairline; to weaken in battle. <br><br>Of this root, 7 forms occur 20 times in the Qur’an:<br> كَشَفَ kashafa 13 times; يُكْشَف yukshaf 1 time; كَشْف kashf 1 time; كَاشِف kāshif 2 times; كَاشِفوا kāshifū 1 time; كَاشِفَةٌ kāshifatun 1 time and كَاشِفَاتٌ kāshifātun 1 time.",
+    "mainDefinitionHtml": "كَاشِف kāshif [act. part.; pl. كَاشِفُون kāshifūn; fem. كَاشِفَةٌ kāshifatun; pl. كَشِفَات kāshifāt] one who removes, takes away, bares <br><br>(39:38) إِنْ أَرَادَنِيَ اللَّهُ بِضُرٍّ هَلْ هُنَّ كَاشِفَاتُ ضُرِّهِ if God desires harm for me, are they able to remove His harm?",
+    "mainEntryId": "wdef-ك-ش-ف.كَاشِف",
+    "entries": [
+      {
+        "id": "wdef-ك-ش-ف",
+        "label": "ك-ش-ف",
+        "definitionHtml": "ك/ش/ف   k–sh–f to uncover, to remove, to bare, to reveal, to disclose<br>; to have a receding hairline; to weaken in battle. <br><br>Of this root, 7 forms occur 20 times in the Qur’an:<br> كَشَفَ kashafa 13 times; يُكْشَف yukshaf 1 time; كَشْف kashf 1 time; كَاشِف kāshif 2 times; كَاشِفوا kāshifū 1 time; كَاشِفَةٌ kāshifatun 1 time and كَاشِفَاتٌ kāshifātun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ش-ف.كَاشِف",
+        "label": "كَاشِف",
+        "definitionHtml": "كَاشِف kāshif [act. part.; pl. كَاشِفُون kāshifūn; fem. كَاشِفَةٌ kāshifatun; pl. كَشِفَات kāshifāt] one who removes, takes away, bares <br><br>(39:38) إِنْ أَرَادَنِيَ اللَّهُ بِضُرٍّ هَلْ هُنَّ كَاشِفَاتُ ضُرِّهِ if God desires harm for me, are they able to remove His harm?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ش-ف.كَشَفَ",
+        "label": "كَشَفَ",
+        "definitionHtml": "كَشَفَ kashafa i [v. trans.] <br><br><strong>1 </strong>to bare, to uncover <br><br>(27:44) حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَنْ سَاقَيْهَا she took it to be a deep pool of water, and bared her legs <br><br><strong>2 </strong>to relieve from <br><br>(23:75) وَلَوْ رَحِمْنَاهُمْ وَكَشَفْنَا مَا بِهِمْ مِنْ ضُرٍّ even if We had showed them mercy and removed the affliction that is upon them <br><br><strong>3 </strong>to take off, to remove <br><br>(50:22) فَكَشَفْنَا عَنْكَ غِطَاءَكَ فَبَصَرُكَ الْيَوْمَ حَدِيدٌ We have removed from you your covering, so your sight today is sharp,",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ش-ف.كَشْف",
+        "label": "كَشْف",
+        "definitionHtml": "كَشْف kashf [v. n.] (the act of) removing, taking away <br><br>(17:56) فَلاَ يَمْلِكُونَ كَشْفَ الضُّرِّ عَنْكُمْ وَلاَ تَحْوِيلا they have no power of removing harm from you nor of averting [it].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ش-ف.يُكْشَف",
+        "label": "يُكْشَف",
+        "definitionHtml": "يُكْشَف yukshaf [imperf. pass. v.] to be bared, to be exposed *<br><br>(68:42) يَوْمَ يُكْشَفُ عَنْ سَاقٍ on the Day when matters become dire, the Day of Judgement [lit. the Day when legs are bared],",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:02.818Z",
+      "refword": "6:17:6",
+      "lexword": "كَاشِفَ"
+    }
+  }
+}

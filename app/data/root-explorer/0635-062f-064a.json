@@ -1,0 +1,106 @@
+{
+  "root": "صدي",
+  "rootArabic": "صدي",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَصَدَّى",
+      "count": 1
+    },
+    {
+      "form": "تَصْدية",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَصْدية",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَصَدَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 35,
+      "text": "وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً وَتَصْدِيَةً ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "highlightedHtml": "وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً <a class=\"highlight-text\">وَتَصْدِيَةً</a> ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "derivedForms": [
+        "تَصْدية"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 6,
+      "text": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+      "highlightedHtml": "فَأَنتَ لَهُۥ <a class=\"highlight-text\">تَصَدَّىٰ</a>",
+      "derivedForms": [
+        "تَصَدَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:49.598Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite (form II) verbal noun",
+    "derivativeNote": "وَتَصْدِيَةً is in the derivative form: تَصْدية",
+    "rootDefinitionHtml": "ص/د/ى   ṣ–d–y intense thirst, to become thirsty; clapping of the hands, echo; to soothe, to coax; to endeavour; human corpse, skull. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَصَدّى taṣaddā and تَصْدية taṣdiyatun.",
+    "mainDefinitionHtml": "تَصْدية taṣdiyatan [v. n.] clapping of the hands <br><br>(8:35) وَمَا كَانَ صَلاَتُهُمْ عِنْدَ الْبَيْتِ إِلاَّ مُكَاءً وَتَصْدِيَةً their prayer at the House is nothing but a whistling and a clapping of hands.",
+    "mainEntryId": "wdef-ص-د-ى.تَصْدية",
+    "entries": [
+      {
+        "id": "wdef-ص-د-ى",
+        "label": "ص-د-ى",
+        "definitionHtml": "ص/د/ى   ṣ–d–y intense thirst, to become thirsty; clapping of the hands, echo; to soothe, to coax; to endeavour; human corpse, skull. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَصَدّى taṣaddā and تَصْدية taṣdiyatun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ى.تَصْدية",
+        "label": "تَصْدية",
+        "definitionHtml": "تَصْدية taṣdiyatan [v. n.] clapping of the hands <br><br>(8:35) وَمَا كَانَ صَلاَتُهُمْ عِنْدَ الْبَيْتِ إِلاَّ مُكَاءً وَتَصْدِيَةً their prayer at the House is nothing but a whistling and a clapping of hands.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-د-ى.تَصَدَّى",
+        "label": "تَصَدَّى",
+        "definitionHtml": "تَصَدَّى taṣaddā [imperf. of v. V (with the prefix ﺘ elided), intrans.] to accost, to confront, to give full attention <br><br>(80:5–6) أَمَّا مَنِ اسْتَغْنَى فَأَنْتَ لَهُ تَصَدَّى as for the self-satisfied one (i.e., one who has no need [for God, for you [Prophet] or for the Truth]), you give full attention to him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:38.948Z",
+      "refword": "8:35:8",
+      "lexword": "وَتَصْدِيَةً"
+    }
+  }
+}

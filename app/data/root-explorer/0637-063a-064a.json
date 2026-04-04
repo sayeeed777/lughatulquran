@@ -1,0 +1,825 @@
+{
+  "root": "طغي",
+  "rootArabic": "طغي",
+  "stats": {
+    "totalOccurrences": 39,
+    "derivativeCount": 8,
+    "surahCount": 27,
+    "ayahCount": 39
+  },
+  "derivatives": [
+    {
+      "form": "طَغَى",
+      "count": 12
+    },
+    {
+      "form": "طُغْيَان",
+      "count": 9
+    },
+    {
+      "form": "طاَغُوت",
+      "count": 8
+    },
+    {
+      "form": "طاَغُون",
+      "count": 6
+    },
+    {
+      "form": "أطْغَى",
+      "count": 1
+    },
+    {
+      "form": "أَطْغَى",
+      "count": 1
+    },
+    {
+      "form": "طاَغِيةٌ",
+      "count": 1
+    },
+    {
+      "form": "طَغْوَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "طاَغُوت",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "طاَغُوت",
+          "count": 3,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 2,
+          "totalInQuran": 9
+        },
+        {
+          "form": "طاَغُوت",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُوت",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 4,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُغْيَان",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُوت",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أطْغَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَطْغَى",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طاَغِيةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طاَغُون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَغْوَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَغَى",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 15,
+      "text": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى <a class=\"highlight-text\">طُغْيَٰنِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 256,
+      "text": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ <a class=\"highlight-text\">بِٱلطَّٰغُوتِ</a> وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 257,
+      "text": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ ٱلطَّٰغُوتُ يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِ ۗ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "ٱللَّهُ وَلِىُّ ٱلَّذِينَ آمَنُوا يُخْرِجُهُم مِّنَ ٱلظُّلُمَٰتِ إِلَى ٱلنُّورِ ۖ وَٱلَّذِينَ كَفَرُوٓا۟ أَوْلِيَآؤُهُمُ <a class=\"highlight-text\">ٱلطَّٰغُوتُ</a> يُخْرِجُونَهُم مِّنَ ٱلنُّورِ إِلَى ٱلظُّلُمَٰتِ ۗ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 51,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَٰبِ يُؤْمِنُونَ بِٱلْجِبْتِ وَٱلطَّٰغُوتِ وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ آمَنُوا سَبِيلًا",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ أُوتُوا۟ نَصِيبًا مِّنَ ٱلْكِتَٰبِ يُؤْمِنُونَ بِٱلْجِبْتِ <a class=\"highlight-text\">وَٱلطَّٰغُوتِ</a> وَيَقُولُونَ لِلَّذِينَ كَفَرُوا۟ هَٰٓؤُلَآءِ أَهْدَىٰ مِنَ ٱلَّذِينَ آمَنُوا سَبِيلًا",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 60,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى ٱلطَّٰغُوتِ وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًا",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ يَزْعُمُونَ أَنَّهُمْ آمَنُوا بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ يُرِيدُونَ أَن يَتَحَاكَمُوٓا۟ إِلَى <a class=\"highlight-text\">ٱلطَّٰغُوتِ</a> وَقَدْ أُمِرُوٓا۟ أَن يَكْفُرُوا۟ بِهِۦ وَيُرِيدُ ٱلشَّيْطَٰنُ أَن يُضِلَّهُمْ ضَلَٰلًۢا بَعِيدًا",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 76,
+      "text": "ٱلَّذِينَ آمَنُوا يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ ٱلطَّٰغُوتِ فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا",
+      "highlightedHtml": "ٱلَّذِينَ آمَنُوا يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ وَٱلَّذِينَ كَفَرُوا۟ يُقَٰتِلُونَ فِى سَبِيلِ <a class=\"highlight-text\">ٱلطَّٰغُوتِ</a> فَقَٰتِلُوٓا۟ أَوْلِيَآءَ ٱلشَّيْطَٰنِ ۖ إِنَّ كَيْدَ ٱلشَّيْطَٰنِ كَانَ ضَعِيفًا",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 60,
+      "text": "قُلْ هَلْ أُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكَ مَثُوبَةً عِندَ ٱللَّهِ ۚ مَن لَّعَنَهُ ٱللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ ٱلْقِرَدَةَ وَٱلْخَنَازِيرَ وَعَبَدَ ٱلطَّٰغُوتَ ۚ أُو۟لَٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ عَن سَوَآءِ سَوَآءِ ٱلسَّبِيلِ",
+      "highlightedHtml": "قُلْ هَلْ أُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكَ مَثُوبَةً عِندَ ٱللَّهِ ۚ مَن لَّعَنَهُ ٱللَّهُ وَغَضِبَ عَلَيْهِ وَجَعَلَ مِنْهُمُ ٱلْقِرَدَةَ وَٱلْخَنَازِيرَ وَعَبَدَ <a class=\"highlight-text\">ٱلطَّٰغُوتَ</a> ۚ أُو۟لَٰٓئِكَ شَرٌّ مَّكَانًا وَأَضَلُّ عَن سَوَآءِ سَوَآءِ ٱلسَّبِيلِ",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 64,
+      "text": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ يَدُ ٱللَّهِ مَغْلُولَةٌ ۚ غُلَّتْ أَيْدِيهِمْ وَلُعِنُوا۟ بِمَا قَالُوا۟ ۘ بَلْ يَدَاهُ مَبْسُوطَتَانِ يُنفِقُ كَيْفَ يَشَآءُ ۚ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ <a class=\"highlight-text\">طُغْيَٰنًا</a> وَكُفْرًا ۚ وَأَلْقَيْنَا بَيْنَهُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ ۚ كُلَّمَآ أَوْقَدُوا۟ نَارًا لِّلْحَرْبِ أَطْفَأَهَا ٱللَّهُ ۚ وَيَسْعَوْنَ فِى ٱلْأَرْضِ فَسَادًا ۚ وَٱللَّهُ لَا يُحِبُّ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 68,
+      "text": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ ۗ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ طُغْيَٰنًا وَكُفْرًا ۖ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "قُلْ يَٰٓأَهْلَ ٱلْكِتَٰبِ لَسْتُمْ عَلَىٰ شَىْءٍ حَتَّىٰ تُقِيمُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ ۗ وَلَيَزِيدَنَّ كَثِيرًا مِّنْهُم مَّآ أُنزِلَ إِلَيْكَ مِن رَّبِّكَ <a class=\"highlight-text\">طُغْيَٰنًا</a> وَكُفْرًا ۖ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 110,
+      "text": "وَنُقَلِّبُ أَفْـِٔدَتَهُمْ وَأَبْصَٰرَهُمْ كَمَا لَمْ يُؤْمِنُوا۟ بِهِۦٓ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَنُقَلِّبُ أَفْـِٔدَتَهُمْ وَأَبْصَٰرَهُمْ كَمَا لَمْ يُؤْمِنُوا۟ بِهِۦٓ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى <a class=\"highlight-text\">طُغْيَٰنِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 186,
+      "text": "مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ ۚ وَيَذَرُهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "مَن يُضْلِلِ ٱللَّهُ فَلَا هَادِىَ لَهُۥ ۚ وَيَذَرُهُمْ فِى <a class=\"highlight-text\">طُغْيَٰنِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 11,
+      "text": "وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ ۖ فَنَذَرُ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ ۖ فَنَذَرُ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا فِى <a class=\"highlight-text\">طُغْيَٰنِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 112,
+      "text": "فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا تَطْغَوْا۟ ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "فَٱسْتَقِمْ كَمَآ أُمِرْتَ وَمَن تَابَ مَعَكَ وَلَا <a class=\"highlight-text\">تَطْغَوْا۟</a> ۚ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 36,
+      "text": "وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "highlightedHtml": "وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ <a class=\"highlight-text\">ٱلطَّٰغُوتَ</a> ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُكَذِّبِينَ",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 60,
+      "text": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا طُغْيَٰنًا كَبِيرًا",
+      "highlightedHtml": "وَإِذْ قُلْنَا لَكَ إِنَّ رَبَّكَ أَحَاطَ بِٱلنَّاسِ ۚ وَمَا جَعَلْنَا ٱلرُّءْيَا ٱلَّتِىٓ أَرَيْنَٰكَ إِلَّا فِتْنَةً لِّلنَّاسِ وَٱلشَّجَرَةَ ٱلْمَلْعُونَةَ فِى ٱلْقُرْءَانِ ۚ وَنُخَوِّفُهُمْ فَمَا يَزِيدُهُمْ إِلَّا <a class=\"highlight-text\">طُغْيَٰنًا</a> كَبِيرًا",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 80,
+      "text": "وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا طُغْيَٰنًا وَكُفْرًا",
+      "highlightedHtml": "وَأَمَّا ٱلْغُلَٰمُ فَكَانَ أَبَوَاهُ مُؤْمِنَيْنِ فَخَشِينَآ أَن يُرْهِقَهُمَا <a class=\"highlight-text\">طُغْيَٰنًا</a> وَكُفْرًا",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 24,
+      "text": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "highlightedHtml": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ <a class=\"highlight-text\">طَغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 43,
+      "text": "ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "highlightedHtml": "ٱذْهَبَآ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ <a class=\"highlight-text\">طَغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 45,
+      "text": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ",
+      "highlightedHtml": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن <a class=\"highlight-text\">يَطْغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 81,
+      "text": "كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ",
+      "highlightedHtml": "كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَلَا <a class=\"highlight-text\">تَطْغَوْا۟</a> فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 75,
+      "text": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى <a class=\"highlight-text\">طُغْيَٰنِهِمْ</a> يَعْمَهُونَ",
+      "derivedForms": [
+        "طُغْيَان"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 30,
+      "text": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًا طَٰغِينَ",
+      "highlightedHtml": "وَمَا كَانَ لَنَا عَلَيْكُم مِّن سُلْطَٰنٍۭ ۖ بَلْ كُنتُمْ قَوْمًا <a class=\"highlight-text\">طَٰغِينَ</a>",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 55,
+      "text": "هَٰذَا ۚ وَإِنَّ لِلطَّٰغِينَ لَشَرَّ مَـَٔابٍ",
+      "highlightedHtml": "هَٰذَا ۚ وَإِنَّ <a class=\"highlight-text\">لِلطَّٰغِينَ</a> لَشَرَّ مَـَٔابٍ",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 17,
+      "text": "وَٱلَّذِينَ ٱجْتَنَبُوا۟ ٱلطَّٰغُوتَ أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ",
+      "highlightedHtml": "وَٱلَّذِينَ ٱجْتَنَبُوا۟ <a class=\"highlight-text\">ٱلطَّٰغُوتَ</a> أَن يَعْبُدُوهَا وَأَنَابُوٓا۟ إِلَى ٱللَّهِ لَهُمُ ٱلْبُشْرَىٰ ۚ فَبَشِّرْ عِبَادِ",
+      "derivedForms": [
+        "طاَغُوت"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 27,
+      "text": "قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍ",
+      "highlightedHtml": "قَالَ قَرِينُهُۥ رَبَّنَا مَآ <a class=\"highlight-text\">أَطْغَيْتُهُۥ</a> وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "أطْغَى"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 53,
+      "text": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌ طَاغُونَ",
+      "highlightedHtml": "أَتَوَاصَوْا۟ بِهِۦ ۚ بَلْ هُمْ قَوْمٌ <a class=\"highlight-text\">طَاغُونَ</a>",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 32,
+      "text": "أَمْ تَأْمُرُهُمْ أَحْلَٰمُهُم بِهَٰذَآ ۚ أَمْ هُمْ قَوْمٌ طَاغُونَ",
+      "highlightedHtml": "أَمْ تَأْمُرُهُمْ أَحْلَٰمُهُم بِهَٰذَآ ۚ أَمْ هُمْ قَوْمٌ <a class=\"highlight-text\">طَاغُونَ</a>",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 17,
+      "text": "مَا زَاغَ ٱلْبَصَرُ وَمَا طَغَىٰ",
+      "highlightedHtml": "مَا زَاغَ ٱلْبَصَرُ وَمَا <a class=\"highlight-text\">طَغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 52,
+      "text": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ وَأَطْغَىٰ",
+      "highlightedHtml": "وَقَوْمَ نُوحٍ مِّن قَبْلُ ۖ إِنَّهُمْ كَانُوا۟ هُمْ أَظْلَمَ <a class=\"highlight-text\">وَأَطْغَىٰ</a>",
+      "derivedForms": [
+        "أَطْغَى"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 8,
+      "text": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+      "highlightedHtml": "أَلَّا <a class=\"highlight-text\">تَطْغَوْا۟</a> فِى ٱلْمِيزَانِ",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 31,
+      "text": "قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا طَٰغِينَ",
+      "highlightedHtml": "قَالُوا۟ يَٰوَيْلَنَآ إِنَّا كُنَّا <a class=\"highlight-text\">طَٰغِينَ</a>",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 5,
+      "text": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ بِٱلطَّاغِيَةِ",
+      "highlightedHtml": "فَأَمَّا ثَمُودُ فَأُهْلِكُوا۟ <a class=\"highlight-text\">بِٱلطَّاغِيَةِ</a>",
+      "derivedForms": [
+        "طاَغِيةٌ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 11,
+      "text": "إِنَّا لَمَّا طَغَا ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ",
+      "highlightedHtml": "إِنَّا لَمَّا <a class=\"highlight-text\">طَغَا</a> ٱلْمَآءُ حَمَلْنَٰكُمْ فِى ٱلْجَارِيَةِ",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 22,
+      "text": "لِّلطَّٰغِينَ مَـَٔابًا",
+      "highlightedHtml": "<a class=\"highlight-text\">لِّلطَّٰغِينَ</a> مَـَٔابًا",
+      "derivedForms": [
+        "طاَغُون"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 17,
+      "text": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ طَغَىٰ",
+      "highlightedHtml": "ٱذْهَبْ إِلَىٰ فِرْعَوْنَ إِنَّهُۥ <a class=\"highlight-text\">طَغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 37,
+      "text": "فَأَمَّا مَن طَغَىٰ",
+      "highlightedHtml": "فَأَمَّا مَن <a class=\"highlight-text\">طَغَىٰ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 11,
+      "text": "ٱلَّذِينَ طَغَوْا۟ فِى ٱلْبِلَٰدِ",
+      "highlightedHtml": "ٱلَّذِينَ <a class=\"highlight-text\">طَغَوْا۟</a> فِى ٱلْبِلَٰدِ",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 11,
+      "text": "كَذَّبَتْ ثَمُودُ بِطَغْوَىٰهَآ",
+      "highlightedHtml": "كَذَّبَتْ ثَمُودُ <a class=\"highlight-text\">بِطَغْوَىٰهَآ</a>",
+      "derivedForms": [
+        "طَغْوَى"
+      ]
+    },
+    {
+      "surah": 96,
+      "ayah": 6,
+      "text": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ لَيَطْغَىٰٓ",
+      "highlightedHtml": "كَلَّآ إِنَّ ٱلْإِنسَٰنَ <a class=\"highlight-text\">لَيَطْغَىٰٓ</a>",
+      "derivedForms": [
+        "طَغَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:49.139Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine verbal noun",
+    "derivativeNote": "طُغْيَٰنِهِمْ is in the derivative form: طُغْيَان",
+    "rootDefinitionHtml": "ط/غ/و-ى   ṭ–gh–w/y (of a liquid) to overflow, to transgress, to exceed the limits, to be excessive, to violate established norms, to be tyrannical, tyranny. The word طَغُوت ṭaghūt, which is classified under this root, is recognised by ʾal-Suyūṭī as a borrowing from Ethiopian, meaning كَاهِن kāhin (diviner, priest), while the majority of Arab philologists, however, consider it to be a genuine Arabic word. Western scholars generally regard it as a loan from either Hebrew or Aramaic. <br><br>Of this root, 8 forms occur 39 times in the Qur’an:<br> طَغَى ṭaghā 12 times; أطْغَى ʾaṭghā (1) 1 time; طاَغُون ṭāghūn 6 times; أطْغَى ʾaṭghā (2) 1 time; طاَغِيةٌ ṭāghiyatun 1 time;طَغْوَى ṭaghwā 1 time; طُغْيَان ṭughyān 9 times and طاَغُوت ṭāghūt 8 times.",
+    "mainDefinitionHtml": "طُغْيَان ṭughyān [v. n./n.] <br><br><strong>1 </strong>transgressing, acting wickedly; tyranny, rebellion <br><br>(17:60) ‏وَنُخَوِّفُهُمْ‏ ‏فَمَا‏ ‏يَزِيدُهُمْ‏ ‏إِلاَّ‏ ‏طُغْيَانًا‏ ‏كَبِيرًا‏ We warn them, but it only increases them in great rebellion <br><br><strong>2 </strong>obstinacy <br><br>(6:110) وَنُقَلِّبُ أَفْئِدَتَهُمْ وَأَبْصَارَهُمْ كَمَا لَمْ يُؤْمِنُوا بِهِ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى طُغْيَانِهِمْ يَعْمَهُونَ We will make their hearts and their eyes waver, just as they did not believe in it the first time, and leave them to flounder in their obstinacy.",
+    "mainEntryId": "wdef-ط-غ-و-ى.طُغْيَان",
+    "entries": [
+      {
+        "id": "wdef-ط-غ-و-ى",
+        "label": "ط-غ-و-ى",
+        "definitionHtml": "ط/غ/و-ى   ṭ–gh–w/y (of a liquid) to overflow, to transgress, to exceed the limits, to be excessive, to violate established norms, to be tyrannical, tyranny. The word طَغُوت ṭaghūt, which is classified under this root, is recognised by ʾal-Suyūṭī as a borrowing from Ethiopian, meaning كَاهِن kāhin (diviner, priest), while the majority of Arab philologists, however, consider it to be a genuine Arabic word. Western scholars generally regard it as a loan from either Hebrew or Aramaic. <br><br>Of this root, 8 forms occur 39 times in the Qur’an:<br> طَغَى ṭaghā 12 times; أطْغَى ʾaṭghā (1) 1 time; طاَغُون ṭāghūn 6 times; أطْغَى ʾaṭghā (2) 1 time; طاَغِيةٌ ṭāghiyatun 1 time;طَغْوَى ṭaghwā 1 time; طُغْيَان ṭughyān 9 times and طاَغُوت ṭāghūt 8 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طُغْيَان",
+        "label": "طُغْيَان",
+        "definitionHtml": "طُغْيَان ṭughyān [v. n./n.] <br><br><strong>1 </strong>transgressing, acting wickedly; tyranny, rebellion <br><br>(17:60) ‏وَنُخَوِّفُهُمْ‏ ‏فَمَا‏ ‏يَزِيدُهُمْ‏ ‏إِلاَّ‏ ‏طُغْيَانًا‏ ‏كَبِيرًا‏ We warn them, but it only increases them in great rebellion <br><br><strong>2 </strong>obstinacy <br><br>(6:110) وَنُقَلِّبُ أَفْئِدَتَهُمْ وَأَبْصَارَهُمْ كَمَا لَمْ يُؤْمِنُوا بِهِ أَوَّلَ مَرَّةٍ وَنَذَرُهُمْ فِى طُغْيَانِهِمْ يَعْمَهُونَ We will make their hearts and their eyes waver, just as they did not believe in it the first time, and leave them to flounder in their obstinacy.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.أطْغَى",
+        "label": "أطْغَى",
+        "definitionHtml": "أطْغَى ʾaṭghā (1) [v. IV, trans.] to cause to violate the norms of goodness <br><br>(50:27) ‏‏رَبَّنَا‏ ‏مَا‏ ‏أَطْغَيْتُهُ‏ our Lord, I did not make him transgress.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.أَطْغَى",
+        "label": "أَطْغَى",
+        "definitionHtml": "أَطْغَى ʾaṭghā (2) [elat.] more/most tyrannical <br><br>(53:52)‏كَانُوا‏ ‏هُمْ‏ ‏أَظْلَمَ‏ ‏وَأَطْغَى‏ they themselves were even more unjust and more tyrannical‏.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طاَغُوت",
+        "label": "طاَغُوت",
+        "definitionHtml": "طاَغُوت ṭāghūt [n.] <br><br><strong>1 </strong>[generic for] false deity/deities <br><br>(2:256)‏ فَمَنْ يَكْفُرْ بِالطَّاغُوتِ وَيُؤْمِنْ بِاللَّهِ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَى so whoever rejects false gods and believes in God has taken grasp of the firmest link <br><br><strong>2 </strong>[generic for] evil powers; variously named by the interpreters as: the Devil, diviners, enchanters, any head or leader in error, the idol ʾal‐lāt (q.v.) or Kaʿb ʾibn ʾal-ʾashraf, a Jewish man who directed hostilities against the new religion <br><br>(4:60) يُرِيدُونَ أَنْ يَتَحَاكَمُوا إِلَى الطَّاغُوتِ وَقَدْ أُمِرُوا أَنْ يَكْفُرُوا بِهِ they desire to seek the arbitration of false idols (or, leaders of disbelievers) when they have been ordered to reject them?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طاَغُون",
+        "label": "طاَغُون",
+        "definitionHtml": "طاَغُون ṭāghūn [pl. of act. part. طاَغِى ṭāghı] those who transgress the limits in wickedness, those who behave tyrannically <br><br>(37:30) وَمَا‏ ‏كَانَ‏ ‏لَنَا‏ ‏عَلَيْكُمْ‏ ‏مِنْ سُلْطَانٍ‏ ‏بَلْ‏ ‏كُنْتُمْ‏ ‏قَوْمًا‏ ‏طَاغِينَ‏‏ we had no power over you, but you were people [already] exceeding the limits.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طاَغِيةٌ",
+        "label": "طاَغِيةٌ",
+        "definitionHtml": "طاَغِيةٌ ṭāghiyatun [quasi-act. part./n.] overpowering calamity <br><br>(69:5) فَأَمَّا ثَمُودُ فَأُهْلِكُوا بِالطَّاغِيَةِ as for Thamūd they were destroyed by an overpowering calamity.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طَغَى",
+        "label": "طَغَى",
+        "definitionHtml": "طَغَى ṭaghā a [v. intrans.] <br><br><strong>1 </strong>(of water) to overflow, to be tumultuous <br><br>(69:11) إِنَّا لَمَّا طَغَى الْمَاءُ حَمَلْنَاكُمْ فِى الْجَارِيَةِ when the water flooded We carried you in the sailing vessel <br><br><strong>2 </strong>to violate the established norms of justice <br><br>(55:8) أَلاَّ‏ ‏تَطْغَوْا‏ ‏فِي‏ ‏الْمِيزَانِ‏ so that you do not transgress [the norms of justice] in weighing [judgement] <br><br><strong>3 </strong>to become tyrannical <br><br>(20:24) اذْهَبْ‏ ‏إِلَى‏ ‏فِرْعَوْنَ‏ ‏إِنَّهُ‏ ‏طَغَى go to Pharaoh, for he has truly become tyrannical <br><br><strong>4 </strong>to veer away, to wander off, to quit, to go off the mark <br><br>(53:17) مَا‏ ‏زَاغَ‏ ‏الْبَصَرُ‏ ‏وَمَا‏ ‏طَغَى‏ [his] sight never wavered, nor did it wander.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-غ-و-ى.طَغْوَى",
+        "label": "طَغْوَى",
+        "definitionHtml": "طَغْوَى ṭaghwā [n.] transgression, wickedness, rebellion <br><br>(91:11) كَذَّبَتْ‏ ‏ثَمُودُ‏ ‏بِطَغْوَاهَا‏ the people of Thamūd called [their messenger] a liar, because of their transgression.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:30.259Z",
+      "refword": "2:15:6",
+      "lexword": "طُغْيَٰنِهِمْ"
+    }
+  }
+}

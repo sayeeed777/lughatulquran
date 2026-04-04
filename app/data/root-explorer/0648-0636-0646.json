@@ -1,0 +1,74 @@
+{
+  "root": "وضن",
+  "rootArabic": "وضن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَوْضُونَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْضُونَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 56,
+      "ayah": 15,
+      "text": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
+      "highlightedHtml": "عَلَىٰ سُرُرٍ <a class=\"highlight-text\">مَّوْضُونَةٍ</a>",
+      "derivedForms": [
+        "مَوْضُونَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:28.612Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite passive participle",
+    "derivativeNote": "مَّوْضُونَةٍ is in the derivative form: مَوْضُونَةٌ",
+    "rootDefinitionHtml": "و/ض/ن   w–ḍ–n to plait, to braid, to interweave, to trim with gold and precious stones; to bring close together; to ingratiate oneself. Of this root, مَوْضُونَةٌ mawḍūnatun, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَوْضُونَةٌ mawḍūnatun [fem. pass. part.] richly woven/trimmed with gold and precious stones <br><br>(56:15) عَلَى سُرُرٍ مَوْضُونَةٍ on couches of beautifully ornamented cloth.",
+    "mainEntryId": "wdef-و-ض-ن.مَوْضُونَةٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ض-ن",
+        "label": "و-ض-ن",
+        "definitionHtml": "و/ض/ن   w–ḍ–n to plait, to braid, to interweave, to trim with gold and precious stones; to bring close together; to ingratiate oneself. Of this root, مَوْضُونَةٌ mawḍūnatun, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ض-ن.مَوْضُونَةٌ",
+        "label": "مَوْضُونَةٌ",
+        "definitionHtml": "مَوْضُونَةٌ mawḍūnatun [fem. pass. part.] richly woven/trimmed with gold and precious stones <br><br>(56:15) عَلَى سُرُرٍ مَوْضُونَةٍ on couches of beautifully ornamented cloth.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:01.593Z",
+      "refword": "56:15:3",
+      "lexword": "مَّوْضُونَةٍ"
+    }
+  }
+}

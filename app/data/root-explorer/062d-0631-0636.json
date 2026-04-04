@@ -1,0 +1,127 @@
+{
+  "root": "حرض",
+  "rootArabic": "حرض",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "حَرِّض",
+      "count": 2
+    },
+    {
+      "form": "حَرَضٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِّض",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِّض",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرَضٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 84,
+      "text": "فَقَٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنكِيلًا",
+      "highlightedHtml": "فَقَٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ <a class=\"highlight-text\">وَحَرِّضِ</a> ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنكِيلًا",
+      "derivedForms": [
+        "حَرِّض"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 65,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ حَرِّضِ ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌ يَغْلِبُوٓا۟ أَلْفًا مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ <a class=\"highlight-text\">حَرِّضِ</a> ٱلْمُؤْمِنِينَ عَلَى ٱلْقِتَالِ ۚ إِن يَكُن مِّنكُمْ عِشْرُونَ صَٰبِرُونَ يَغْلِبُوا۟ مِا۟ئَتَيْنِ ۚ وَإِن يَكُن مِّنكُم مِّا۟ئَةٌ يَغْلِبُوٓا۟ أَلْفًا مِّنَ ٱلَّذِينَ كَفَرُوا۟ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
+      "derivedForms": [
+        "حَرِّض"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 85,
+      "text": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ <a class=\"highlight-text\">حَرَضًا</a> أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
+      "derivedForms": [
+        "حَرَضٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:57.149Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form II) imperative verb",
+    "derivativeNote": "وَحَرِّضِ is in the derivative form: حَرِّض",
+    "rootDefinitionHtml": "ح/ر/ض   ḥ–r–ḍ base person, corruption, to corrupt; to perish, to be in danger of death, to be mentally and physically degenerate; to urge, to spur on, to rouse, foolish person. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> حَرِّض ḥarriḍ 2 times and حَرَض ḥaraḍ 1 time.",
+    "mainDefinitionHtml": "حَرِّض ḥarriḍ [imper. of v. حَرَّضَ ḥarraḍa, trans.] to urge, to spur on, to exhort <br><br>(8:65) يَاأَيُّهَا النَّبِيُّ حَرِّضِ الْمُؤْمِنِينَ عَلَى الْقِتَالِ Prophet, exhort the believers to fight.",
+    "mainEntryId": "wdef-ح-ر-ض.حَرِّض",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ض",
+        "label": "ح-ر-ض",
+        "definitionHtml": "ح/ر/ض   ḥ–r–ḍ base person, corruption, to corrupt; to perish, to be in danger of death, to be mentally and physically degenerate; to urge, to spur on, to rouse, foolish person. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> حَرِّض ḥarriḍ 2 times and حَرَض ḥaraḍ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ض.حَرِّض",
+        "label": "حَرِّض",
+        "definitionHtml": "حَرِّض ḥarriḍ [imper. of v. حَرَّضَ ḥarraḍa, trans.] to urge, to spur on, to exhort <br><br>(8:65) يَاأَيُّهَا النَّبِيُّ حَرِّضِ الْمُؤْمِنِينَ عَلَى الْقِتَالِ Prophet, exhort the believers to fight.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ر-ض.حَرَضٌ",
+        "label": "حَرَضٌ",
+        "definitionHtml": "حَرَضٌ ḥaraḍ [v. n. functioning as a quasi‐act/pass. part.] one who is mentally and physically degenerate, emaciated <br><br>(12:85) قَالُوا تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ حَتَّى تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ الْهَالِكِينَ they said, ‘By God!, you will continue remembering/mentioning Joseph until you become extremely emaciated, or become of the dead.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:25.502Z",
+      "refword": "4:84:9",
+      "lexword": "وَحَرِّضِ"
+    }
+  }
+}

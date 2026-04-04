@@ -1,0 +1,166 @@
+{
+  "root": "حبر",
+  "rootArabic": "حبر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أَحْبَارٌ",
+      "count": 4
+    },
+    {
+      "form": "يُحْبَرُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحْبَارٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحْبَارٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُحْبَرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُحْبَرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 44,
+      "text": "إِنَّآ أَنزَلْنَا ٱلتَّوْرَىٰةَ فِيهَا هُدًى وَنُورٌ ۚ يَحْكُمُ بِهَا ٱلنَّبِيُّونَ ٱلَّذِينَ أَسْلَمُوا۟ لِلَّذِينَ هَادُوا۟ وَٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ بِمَا ٱسْتُحْفِظُوا۟ مِن كِتَٰبِ ٱللَّهِ وَكَانُوا۟ عَلَيْهِ شُهَدَآءَ ۚ فَلَا تَخْشَوُا۟ ٱلنَّاسَ وَٱخْشَوْنِ وَلَا تَشْتَرُوا۟ بِـَٔايَٰتِى ثَمَنًا قَلِيلًا ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "إِنَّآ أَنزَلْنَا ٱلتَّوْرَىٰةَ فِيهَا هُدًى وَنُورٌ ۚ يَحْكُمُ بِهَا ٱلنَّبِيُّونَ ٱلَّذِينَ أَسْلَمُوا۟ لِلَّذِينَ هَادُوا۟ وَٱلرَّبَّٰنِيُّونَ <a class=\"highlight-text\">وَٱلْأَحْبَارُ</a> بِمَا ٱسْتُحْفِظُوا۟ مِن كِتَٰبِ ٱللَّهِ وَكَانُوا۟ عَلَيْهِ شُهَدَآءَ ۚ فَلَا تَخْشَوُا۟ ٱلنَّاسَ وَٱخْشَوْنِ وَلَا تَشْتَرُوا۟ بِـَٔايَٰتِى ثَمَنًا قَلِيلًا ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَٰٓئِكَ هُمُ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "أَحْبَارٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 63,
+      "text": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+      "highlightedHtml": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّٰنِيُّونَ <a class=\"highlight-text\">وَٱلْأَحْبَارُ</a> عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+      "derivedForms": [
+        "أَحْبَارٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 31,
+      "text": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَٰنَهُمْ أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًا وَٰحِدًا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ",
+      "highlightedHtml": "ٱتَّخَذُوٓا۟ <a class=\"highlight-text\">أَحْبَارَهُمْ</a> وَرُهْبَٰنَهُمْ أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَٰهًا وَٰحِدًا ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ۚ سُبْحَٰنَهُۥ عَمَّا يُشْرِكُونَ",
+      "derivedForms": [
+        "أَحْبَارٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 34,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِنَّ كَثِيرًا مِّنَ <a class=\"highlight-text\">ٱلْأَحْبَارِ</a> وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "أَحْبَارٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 15,
+      "text": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَهُمْ فِى رَوْضَةٍ يُحْبَرُونَ",
+      "highlightedHtml": "فَأَمَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَهُمْ فِى رَوْضَةٍ <a class=\"highlight-text\">يُحْبَرُونَ</a>",
+      "derivedForms": [
+        "يُحْبَرُ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 70,
+      "text": "ٱدْخُلُوا۟ ٱلْجَنَّةَ أَنتُمْ وَأَزْوَٰجُكُمْ تُحْبَرُونَ",
+      "highlightedHtml": "ٱدْخُلُوا۟ ٱلْجَنَّةَ أَنتُمْ وَأَزْوَٰجُكُمْ <a class=\"highlight-text\">تُحْبَرُونَ</a>",
+      "derivedForms": [
+        "يُحْبَرُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:40.904Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "وَٱلْأَحْبَارُ is in the derivative form: أَحْبَارٌ",
+    "rootDefinitionHtml": "ح/ب/ر   ḥ–b–r trace of an old mound, striped cloth made in the Yemen; embroidery, to embroider, silken material; to make beautiful, to make happy, to make pleasant; ink, writing; learned person, priest, rabbi, an authority in matters of faith. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يُحْبَرُون yuḥbarūn 2 times and أَحْبَارٌ ʾaḥbār 4 times.",
+    "mainDefinitionHtml": "أَحْبَارٌ ʾaḥbār [pl. of n. حَِبْرٌ ḥabr/ḥibr] variously interpreted as a learned person, an authority in matters of faith, a priest, a rabbi <br><br>(5:44) إِنَّا أَنْزَلْنَا التَّوْرَاةَ فِيهَا هُدًى وَنُورٌ يَحْكُمُ بِهَا النَّبِيُّونَ الَّذِينَ أَسْلَمُوا لِلَّذِينَ هَادُوا وَالرَّبَّانِيُّونَ وَالأَحْبَارُ We revealed the Torah, with guidance and light in it, by which the prophets, who had submitted [to God], made judgement for the Jews, and [so did] the rabbis and the scholars.",
+    "mainEntryId": "wdef-ح-ب-ر.أَحْبَارٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-ب-ر",
+        "label": "ح-ب-ر",
+        "definitionHtml": "ح/ب/ر   ḥ–b–r trace of an old mound, striped cloth made in the Yemen; embroidery, to embroider, silken material; to make beautiful, to make happy, to make pleasant; ink, writing; learned person, priest, rabbi, an authority in matters of faith. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> يُحْبَرُون yuḥbarūn 2 times and أَحْبَارٌ ʾaḥbār 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ب-ر.أَحْبَارٌ",
+        "label": "أَحْبَارٌ",
+        "definitionHtml": "أَحْبَارٌ ʾaḥbār [pl. of n. حَِبْرٌ ḥabr/ḥibr] variously interpreted as a learned person, an authority in matters of faith, a priest, a rabbi <br><br>(5:44) إِنَّا أَنْزَلْنَا التَّوْرَاةَ فِيهَا هُدًى وَنُورٌ يَحْكُمُ بِهَا النَّبِيُّونَ الَّذِينَ أَسْلَمُوا لِلَّذِينَ هَادُوا وَالرَّبَّانِيُّونَ وَالأَحْبَارُ We revealed the Torah, with guidance and light in it, by which the prophets, who had submitted [to God], made judgement for the Jews, and [so did] the rabbis and the scholars.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ب-ر.يُحْبَرُ",
+        "label": "يُحْبَرُ",
+        "definitionHtml": "يُحْبَرُ yuḥbar [imperf. of pass. v. حُبِر ḥubira] to be made happy <br><br>(30:15) فَأَمَّا الَّذِينَ ءَامَنُوا وَعَمِلُوا الصَّالِحَاتِ فَهُمْ فِى رَوْضَةٍ يُحْبَرُونَ as for those who believed and did good deeds, they will be in a Garden, made happy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:54.154Z",
+      "refword": "5:44:15",
+      "lexword": "وَٱلْأَحْبَارُ"
+    }
+  }
+}

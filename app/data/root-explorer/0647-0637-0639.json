@@ -1,0 +1,116 @@
+{
+  "root": "هطع",
+  "rootArabic": "هطع",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مُهْطِعِين",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْطِعِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْطِعِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُهْطِعِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 43,
+      "text": "مُهْطِعِينَ مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">مُهْطِعِينَ</a> مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ",
+      "derivedForms": [
+        "مُهْطِعِين"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 8,
+      "text": "مُّهْطِعِينَ إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَٰفِرُونَ هَٰذَا يَوْمٌ عَسِرٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">مُّهْطِعِينَ</a> إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَٰفِرُونَ هَٰذَا يَوْمٌ عَسِرٌ",
+      "derivedForms": [
+        "مُهْطِعِين"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 36,
+      "text": "فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ مُهْطِعِينَ",
+      "highlightedHtml": "فَمَالِ ٱلَّذِينَ كَفَرُوا۟ قِبَلَكَ <a class=\"highlight-text\">مُهْطِعِينَ</a>",
+      "derivedForms": [
+        "مُهْطِعِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:34.843Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form IV) active participle",
+    "derivativeNote": "مُهْطِعِينَ is in the derivative form: مُهْطِعِين",
+    "rootDefinitionHtml": "هـ/ط/ع   h–ṭ–ʿ to come rushing in fear, to stretch the neck and head in agitation, to transfix the eyes in horror, to cower in fear; a wide road. Of this root, مُهْطِعِين muhṭiʿın occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُهْطِعِين muhṭiʿın [pl. of act. part. مُهْطِعٌ muhṭiʿ] mindlessly rushing with outstretched necks, hastening in anxiety <br><br>(54:8) مُهْطِعِينَ إِلَى الدَّاعِ يَقُولُ الْكَافِرُونَ هَذَا يَوْمٌ عَسِرٌ rushing with outstretched necks towards the Summoner, the disbelievers saying ‘This is a hard day.’",
+    "mainEntryId": "wdef-هـ-ط-ع.مُهْطِعِين",
+    "entries": [
+      {
+        "id": "wdef-هـ-ط-ع",
+        "label": "هـ-ط-ع",
+        "definitionHtml": "هـ/ط/ع   h–ṭ–ʿ to come rushing in fear, to stretch the neck and head in agitation, to transfix the eyes in horror, to cower in fear; a wide road. Of this root, مُهْطِعِين muhṭiʿın occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ط-ع.مُهْطِعِين",
+        "label": "مُهْطِعِين",
+        "definitionHtml": "مُهْطِعِين muhṭiʿın [pl. of act. part. مُهْطِعٌ muhṭiʿ] mindlessly rushing with outstretched necks, hastening in anxiety <br><br>(54:8) مُهْطِعِينَ إِلَى الدَّاعِ يَقُولُ الْكَافِرُونَ هَذَا يَوْمٌ عَسِرٌ rushing with outstretched necks towards the Summoner, the disbelievers saying ‘This is a hard day.’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:15.188Z",
+      "refword": "14:43:1",
+      "lexword": "مُهْطِعِينَ"
+    }
+  }
+}

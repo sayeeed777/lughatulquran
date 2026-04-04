@@ -1,0 +1,198 @@
+{
+  "root": "حسس",
+  "rootArabic": "حسس",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أَحَسَّ",
+      "count": 3
+    },
+    {
+      "form": "تَحُسُّ",
+      "count": 1
+    },
+    {
+      "form": "تَحَسَّسَ",
+      "count": 1
+    },
+    {
+      "form": "حَسِيس",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحَسَّ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "تَحُسُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحَسَّسَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَحَسَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَحَسَّ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "حَسِيس",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 52,
+      "text": "فَلَمَّآ أَحَسَّ عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ آمَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
+      "highlightedHtml": "فَلَمَّآ <a class=\"highlight-text\">أَحَسَّ</a> عِيسَىٰ مِنْهُمُ ٱلْكُفْرَ قَالَ مَنْ أَنصَارِىٓ إِلَى ٱللَّهِ ۖ قَالَ ٱلْحَوَارِيُّونَ نَحْنُ أَنصَارُ ٱللَّهِ آمَنَّا بِٱللَّهِ وَٱشْهَدْ بِأَنَّا مُسْلِمُونَ",
+      "derivedForms": [
+        "أَحَسَّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 152,
+      "text": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ الْآخِرَةَ ۚ ثُمَّ صَرَفَكُمْ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَقَدْ صَدَقَكُمُ ٱللَّهُ وَعْدَهُۥٓ إِذْ <a class=\"highlight-text\">تَحُسُّونَهُم</a> بِإِذْنِهِۦ ۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِى ٱلْأَمْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَرَىٰكُم مَّا تُحِبُّونَ ۚ مِنكُم مَّن يُرِيدُ ٱلدُّنْيَا وَمِنكُم مَّن يُرِيدُ الْآخِرَةَ ۚ ثُمَّ صَرَفَكُمْ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْ ۖ وَلَقَدْ عَفَا عَنكُمْ ۗ وَٱللَّهُ ذُو فَضْلٍ عَلَى ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "تَحُسُّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 87,
+      "text": "يَٰبَنِىَّ ٱذْهَبُوا۟ فَتَحَسَّسُوا۟ مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "يَٰبَنِىَّ ٱذْهَبُوا۟ <a class=\"highlight-text\">فَتَحَسَّسُوا۟</a> مِن يُوسُفَ وَأَخِيهِ وَلَا تَا۟يْـَٔسُوا۟ مِن رَّوْحِ ٱللَّهِ ۖ إِنَّهُۥ لَا يَا۟يْـَٔسُ مِن رَّوْحِ ٱللَّهِ إِلَّا ٱلْقَوْمُ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "تَحَسَّسَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 98,
+      "text": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ <a class=\"highlight-text\">تُحِسُّ</a> مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا",
+      "derivedForms": [
+        "أَحَسَّ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 12,
+      "text": "فَلَمَّآ أَحَسُّوا۟ بَأْسَنَآ إِذَا هُم مِّنْهَا يَرْكُضُونَ",
+      "highlightedHtml": "فَلَمَّآ <a class=\"highlight-text\">أَحَسُّوا۟</a> بَأْسَنَآ إِذَا هُم مِّنْهَا يَرْكُضُونَ",
+      "derivedForms": [
+        "أَحَسَّ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 102,
+      "text": "لَا يَسْمَعُونَ حَسِيسَهَا ۖ وَهُمْ فِى مَا ٱشْتَهَتْ أَنفُسُهُمْ خَٰلِدُونَ",
+      "highlightedHtml": "لَا يَسْمَعُونَ <a class=\"highlight-text\">حَسِيسَهَا</a> ۖ وَهُمْ فِى مَا ٱشْتَهَتْ أَنفُسُهُمْ خَٰلِدُونَ",
+      "derivedForms": [
+        "حَسِيس"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:09.182Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) perfect verb",
+    "derivativeNote": "أَحَسَّ is in the derivative form: أَحَسَّ",
+    "rootDefinitionHtml": "ح/س/س   ḥ–s–s faint noise, hissing sound, whispering sound, concealed gentle sound<br>; to feel, to perceive through the senses, to find out, to probe, to spy; to kill, to rout, to strike hard; movement; to remove the dust. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> تَحُسُّون taḥussūn 1 time; أَحَسَّ ʾaḥassa 3 times; تَحَسَّسُوا taḥassasū 1 time and حسيس ḥasıs 1 time.",
+    "mainDefinitionHtml": "أَحَسَّ ʾaḥassa [v. IV, trans.] <br><br><strong>1 </strong>to find, to become conscious of, to become aware of <br><br>(3:52) فَلَمَّا أَحَسَّ عِيسَى مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنْصَارِي إِلَى اللَّه when Jesus became aware of their disbelief, he said, ‘Who will be my helpers in God’s cause?’ <br><br><strong>2 </strong>to see, to perceive <br><br>(19:98) وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِنْ قَرْنٍ هَلْ تُحِسُّ مِنْهُمْ مِنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًا how many generations We have destroyed before them!, do you perceive a single one of them [now], or hear from them as much as a whisper?",
+    "mainEntryId": "wdef-ح-س-س.أَحَسَّ",
+    "entries": [
+      {
+        "id": "wdef-ح-س-س",
+        "label": "ح-س-س",
+        "definitionHtml": "ح/س/س   ḥ–s–s faint noise, hissing sound, whispering sound, concealed gentle sound<br>; to feel, to perceive through the senses, to find out, to probe, to spy; to kill, to rout, to strike hard; movement; to remove the dust. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> تَحُسُّون taḥussūn 1 time; أَحَسَّ ʾaḥassa 3 times; تَحَسَّسُوا taḥassasū 1 time and حسيس ḥasıs 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-س-س.أَحَسَّ",
+        "label": "أَحَسَّ",
+        "definitionHtml": "أَحَسَّ ʾaḥassa [v. IV, trans.] <br><br><strong>1 </strong>to find, to become conscious of, to become aware of <br><br>(3:52) فَلَمَّا أَحَسَّ عِيسَى مِنْهُمُ الْكُفْرَ قَالَ مَنْ أَنْصَارِي إِلَى اللَّه when Jesus became aware of their disbelief, he said, ‘Who will be my helpers in God’s cause?’ <br><br><strong>2 </strong>to see, to perceive <br><br>(19:98) وَكَمْ أَهْلَكْنَا قَبْلَهُمْ مِنْ قَرْنٍ هَلْ تُحِسُّ مِنْهُمْ مِنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًا how many generations We have destroyed before them!, do you perceive a single one of them [now], or hear from them as much as a whisper?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-س-س.تَحَسَّسَ",
+        "label": "تَحَسَّسَ",
+        "definitionHtml": "تَحَسَّسَ taḥassasa [v. V, trans. with prep. مِن] to probe, to gather intelligence about, to collect information discreetly about <br><br>(12:87) يَابَنِيَّ اذْهَبُوا فَتَحَسَّسُوا مِنْ يُوسُفَ وَأَخِيهِ وَلاَ تَيْئَسُوا مِنْ رَوْحِ اللَّهِ my sons, go and seek news of Joseph and his brother, and do not despair of God’s mercy.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-س-س.تَحُسُّ",
+        "label": "تَحُسُّ",
+        "definitionHtml": "تَحُسُّ taḥuss [imperf. of v. حَسَّ ḥassa, trans.] to slay, to eradicate, to destroy, to rout <br><br>(3:152) وَلَقَدْ صَدَقَكُمُ اللَّهُ وَعْدَهُ إِذْ تَحُسُّونَهُمْ بِإِذْنِهِ and indeed God fulfilled His promise to you when you were routing them by His permission.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-س-س.حَسِيس",
+        "label": "حَسِيس",
+        "definitionHtml": "حَسِيس ḥasıs [v. n.; n.] sound, hissing sound, churning sound, murmur <br><br>(21:102) لاَ يَسْمَعُونَ حَسِيسَهَا وَهُمْ فِى مَا اشْتَهَتْ أَنْفُسُهُمْ خَالِدُونَ they will not hear a murmur from it–and they will stay forever in everything their souls desire.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:48.103Z",
+      "refword": "3:52:2",
+      "lexword": "أَحَسَّ"
+    }
+  }
+}

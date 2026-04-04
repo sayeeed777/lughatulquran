@@ -1,0 +1,138 @@
+{
+  "root": "ركم",
+  "rootArabic": "ركم",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "رُكَامٌ",
+      "count": 1
+    },
+    {
+      "form": "مَرْكُومٌ",
+      "count": 1
+    },
+    {
+      "form": "يَرْكُمُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْكُمُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رُكَامٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْكُومٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 37,
+      "text": "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ فَيَرْكُمَهُۥ جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "highlightedHtml": "لِيَمِيزَ ٱللَّهُ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ وَيَجْعَلَ ٱلْخَبِيثَ بَعْضَهُۥ عَلَىٰ بَعْضٍ <a class=\"highlight-text\">فَيَرْكُمَهُۥ</a> جَمِيعًا فَيَجْعَلَهُۥ فِى جَهَنَّمَ ۚ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+      "derivedForms": [
+        "يَرْكُمُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 43,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ <a class=\"highlight-text\">رُكَامًا</a> فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "رُكَامٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 44,
+      "text": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ سَاقِطًا يَقُولُوا۟ سَحَابٌ مَّرْكُومٌ",
+      "highlightedHtml": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ سَاقِطًا يَقُولُوا۟ سَحَابٌ <a class=\"highlight-text\">مَّرْكُومٌ</a>",
+      "derivedForms": [
+        "مَرْكُومٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:44.207Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, subjunctive mood",
+    "derivativeNote": "فَيَرْكُمَهُۥ is in the derivative form: يَرْكُمُ",
+    "rootDefinitionHtml": "ر/ك/م   r–k–m heap, to heap up, to gather, to hoard, to pile up<br>; large herd; middle of the road. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَرْكُمُ yarkum; مَرْكُومٌ markūm and رُكَامٌ rukām.",
+    "mainDefinitionHtml": "يَرْكُمُ yarkum [imperf. of v. رَكَمَ rakama, trans.] to pile up, to heap up, to gather together <br><br>(8:37) وَيَجْعَلَ الْخَبِيثَ بَعْضَهُ عَلَى بَعْضٍ فَيَرْكُمَهُ جَمِيعًا فَيَجْعَلَهُ فِى جَهَنَّمَ and He places the bad on top of one another–heaps them all up together–and puts them in Hell.",
+    "mainEntryId": "wdef-ر-ك-م.يَرْكُمُ",
+    "entries": [
+      {
+        "id": "wdef-ر-ك-م",
+        "label": "ر-ك-م",
+        "definitionHtml": "ر/ك/م   r–k–m heap, to heap up, to gather, to hoard, to pile up<br>; large herd; middle of the road. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَرْكُمُ yarkum; مَرْكُومٌ markūm and رُكَامٌ rukām.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-م.يَرْكُمُ",
+        "label": "يَرْكُمُ",
+        "definitionHtml": "يَرْكُمُ yarkum [imperf. of v. رَكَمَ rakama, trans.] to pile up, to heap up, to gather together <br><br>(8:37) وَيَجْعَلَ الْخَبِيثَ بَعْضَهُ عَلَى بَعْضٍ فَيَرْكُمَهُ جَمِيعًا فَيَجْعَلَهُ فِى جَهَنَّمَ and He places the bad on top of one another–heaps them all up together–and puts them in Hell.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ك-م.رُكَامٌ",
+        "label": "رُكَامٌ",
+        "definitionHtml": "رُكَامٌ rukām [quasi‐act./pass. part.] something in piles or in layers; heaped <br><br>(24:43) أَلَمْ تَرَ أَنَّ اللَّهَ يُزْجِي سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُ ثُمَّ يَجْعَلُهُ رُكَامًا do you not see that God drives the clouds, then gathers them together, then makes them into a heap …?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ك-م.مَرْكُومٌ",
+        "label": "مَرْكُومٌ",
+        "definitionHtml": "مَرْكُومٌ markūm [pass. part.] heaped up, piled up, stacked up <br><br>(52:44) وَإِنْ يَرَوْا كِسْفًا مِنَ السَّمَاءِ سَاقِطًا يَقُولُوا سَحَابٌ مَرْكُومٌ and [even] if they were to see a piece of heaven falling down, they would say, ‘[Just] stacked‐up layers of clouds.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:35.986Z",
+      "refword": "8:37:11",
+      "lexword": "فَيَرْكُمَهُۥ"
+    }
+  }
+}

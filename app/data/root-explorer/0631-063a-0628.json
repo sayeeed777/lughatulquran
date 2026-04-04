@@ -1,0 +1,236 @@
+{
+  "root": "رغب",
+  "rootArabic": "رغب",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "يَرْغَبُ",
+      "count": 4
+    },
+    {
+      "form": "رَاغِبٌ",
+      "count": 3
+    },
+    {
+      "form": "رَغَبٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْغَبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْغَبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَاغِبٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يَرْغَبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاغِبٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَغَبٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَاغِبٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "surahName": "Al-Inshirah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَرْغَبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 130,
+      "text": "وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِۦمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ ۚ وَلَقَدِ ٱصْطَفَيْنَٰهُ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى الْآخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "وَمَن <a class=\"highlight-text\">يَرْغَبُ</a> عَن مِّلَّةِ إِبْرَٰهِۦمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ ۚ وَلَقَدِ ٱصْطَفَيْنَٰهُ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى الْآخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "يَرْغَبُ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 127,
+      "text": "وَيَسْتَفْتُونَكَ فِى ٱلنِّسَآءِ ۖ قُلِ ٱللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِى ٱلْكِتَٰبِ فِى يَتَٰمَى ٱلنِّسَآءِ ٱلَّٰتِى لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَن تَنكِحُوهُنَّ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلْوِلْدَٰنِ وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ ۚ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ كَانَ بِهِۦ عَلِيمًا",
+      "highlightedHtml": "وَيَسْتَفْتُونَكَ فِى ٱلنِّسَآءِ ۖ قُلِ ٱللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِى ٱلْكِتَٰبِ فِى يَتَٰمَى ٱلنِّسَآءِ ٱلَّٰتِى لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ <a class=\"highlight-text\">وَتَرْغَبُونَ</a> أَن تَنكِحُوهُنَّ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلْوِلْدَٰنِ وَأَن تَقُومُوا۟ لِلْيَتَٰمَىٰ بِٱلْقِسْطِ ۚ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ كَانَ بِهِۦ عَلِيمًا",
+      "derivedForms": [
+        "يَرْغَبُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 59,
+      "text": "وَلَوْ أَنَّهُمْ رَضُوا۟ مَآ آتَاهُمُ ٱللَّهُ وَرَسُولُهُۥ وَقَالُوا۟ حَسْبُنَا ٱللَّهُ سَيُؤْتِينَا ٱللَّهُ مِن فَضْلِهِۦ وَرَسُولُهُۥٓ إِنَّآ إِلَى ٱللَّهِ رَٰغِبُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّهُمْ رَضُوا۟ مَآ آتَاهُمُ ٱللَّهُ وَرَسُولُهُۥ وَقَالُوا۟ حَسْبُنَا ٱللَّهُ سَيُؤْتِينَا ٱللَّهُ مِن فَضْلِهِۦ وَرَسُولُهُۥٓ إِنَّآ إِلَى ٱللَّهِ <a class=\"highlight-text\">رَٰغِبُونَ</a>",
+      "derivedForms": [
+        "رَاغِبٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 120,
+      "text": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا <a class=\"highlight-text\">يَرْغَبُوا۟</a> بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "يَرْغَبُ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 46,
+      "text": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">أَرَاغِبٌ</a> أَنتَ عَنْ آلِهَتِي يَٰٓإِبْرَٰهِيمُ ۖ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ ۖ وَٱهْجُرْنِى مَلِيًّا",
+      "derivedForms": [
+        "رَاغِبٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 90,
+      "text": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا رَغَبًا وَرَهَبًا ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+      "highlightedHtml": "فَٱسْتَجَبْنَا لَهُۥ وَوَهَبْنَا لَهُۥ يَحْيَىٰ وَأَصْلَحْنَا لَهُۥ زَوْجَهُۥٓ ۚ إِنَّهُمْ كَانُوا۟ يُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَيَدْعُونَنَا <a class=\"highlight-text\">رَغَبًا</a> وَرَهَبًا ۖ وَكَانُوا۟ لَنَا خَٰشِعِينَ",
+      "derivedForms": [
+        "رَغَبٌ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 32,
+      "text": "عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا رَٰغِبُونَ",
+      "highlightedHtml": "عَسَىٰ رَبُّنَآ أَن يُبْدِلَنَا خَيْرًا مِّنْهَآ إِنَّآ إِلَىٰ رَبِّنَا <a class=\"highlight-text\">رَٰغِبُونَ</a>",
+      "derivedForms": [
+        "رَاغِبٌ"
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 8,
+      "text": "وَإِلَىٰ رَبِّكَ فَٱرْغَب",
+      "highlightedHtml": "وَإِلَىٰ رَبِّكَ <a class=\"highlight-text\">فَٱرْغَب</a>",
+      "derivedForms": [
+        "يَرْغَبُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:30.756Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَرْغَبُ is in the derivative form: يَرْغَبُ",
+    "rootDefinitionHtml": "ر/غ/ب   r–gh–b desire, wish, to ask for something, to covet, a request<br>; gluttony, a heavy load; a soft load. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> يَرْغَبُ yarghab 4 times; رَغَبٌ raghab 1 time; رَاغِبٌ rāghib 1 time and رَاغِبُون rāghibūn 2 times.",
+    "mainDefinitionHtml": "يَرْغَبُ yarghab [imperf. of v. رَغِبَ raghiba] I [intrans.] <br><br><strong>1 </strong>[with prep. إلى] to ask humbly, to implore, to petition <br><br>(94:8) وَإِلَى رَبِّكَ فَارْغَبْ and turn humbly to your Lord with your requests <br><br><strong>2 </strong>[with prep. عَن] to reject, to disdain, to shun <br><br>(2:130) وَمَنْ يَرْغَبُ عَنْ مِلَّةِ إِبْرَاهِيمَ إِلاَّ مَنْ سَفِهَ نَفْسَهُ who but someone fooling himself, would shun the religion of Abraham? <br><br><strong>3 </strong>[with prep. ﺒ ] to consider oneself too good for <br><br>(9:120) وَلاَ يَرْغَبُوا بِأَنْفُسِهِمْ عَنْ نَفْسِهِ they should not consider themselves too good for him, or, they should not put themselves before or above him II [trans.] to wish, to desire <br><br>(4:127) وَتَرْغَبُونَ أَنْ تَنْكِحُوهُنَّ and you wish to marry them.",
+    "mainEntryId": "wdef-ر-غ-ب.يَرْغَبُ",
+    "entries": [
+      {
+        "id": "wdef-ر-غ-ب",
+        "label": "ر-غ-ب",
+        "definitionHtml": "ر/غ/ب   r–gh–b desire, wish, to ask for something, to covet, a request<br>; gluttony, a heavy load; a soft load. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> يَرْغَبُ yarghab 4 times; رَغَبٌ raghab 1 time; رَاغِبٌ rāghib 1 time and رَاغِبُون rāghibūn 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-غ-ب.يَرْغَبُ",
+        "label": "يَرْغَبُ",
+        "definitionHtml": "يَرْغَبُ yarghab [imperf. of v. رَغِبَ raghiba] I [intrans.] <br><br><strong>1 </strong>[with prep. إلى] to ask humbly, to implore, to petition <br><br>(94:8) وَإِلَى رَبِّكَ فَارْغَبْ and turn humbly to your Lord with your requests <br><br><strong>2 </strong>[with prep. عَن] to reject, to disdain, to shun <br><br>(2:130) وَمَنْ يَرْغَبُ عَنْ مِلَّةِ إِبْرَاهِيمَ إِلاَّ مَنْ سَفِهَ نَفْسَهُ who but someone fooling himself, would shun the religion of Abraham? <br><br><strong>3 </strong>[with prep. ﺒ ] to consider oneself too good for <br><br>(9:120) وَلاَ يَرْغَبُوا بِأَنْفُسِهِمْ عَنْ نَفْسِهِ they should not consider themselves too good for him, or, they should not put themselves before or above him II [trans.] to wish, to desire <br><br>(4:127) وَتَرْغَبُونَ أَنْ تَنْكِحُوهُنَّ and you wish to marry them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-غ-ب.رَاغِبٌ",
+        "label": "رَاغِبٌ",
+        "definitionHtml": "رَاغِبٌ rāghib [act. part., pl. رَاغِبُون rāghibūn] hoping, desiring, wishing for, eager to <br><br>(9:59) إِنَّا إِلَى اللَّهِ رَاغِبُونَ to God alone we turn in hope, towards God [we look] desiring Him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-غ-ب.رَغَبٌ",
+        "label": "رَغَبٌ",
+        "definitionHtml": "رَغَبٌ raghab [v. n.] coveting, desire, wish, longing <br><br>(21:90) وَيَدْعُونَنَا رَغَبًا وَرَهَبًا and they called upon Us out of longing and awe.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:09.184Z",
+      "refword": "2:130:2",
+      "lexword": "يَرْغَبُ"
+    }
+  }
+}

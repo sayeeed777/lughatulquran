@@ -1,0 +1,176 @@
+{
+  "root": "ضيف",
+  "rootArabic": "ضيف",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "ضَيْفٌ",
+      "count": 10
+    },
+    {
+      "form": "X",
+      "count": 4
+    },
+    {
+      "form": "يُضَيِّفُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ضَيْفٌ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "ضَيْفٌ",
+          "count": 4,
+          "totalInQuran": 10
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُضَيِّفُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ضَيْفٌ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ضَيْفٌ",
+          "count": 2,
+          "totalInQuran": 10
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 78,
+      "text": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى ضَيْفِىٓ ضَيْفِىٓ ضَيْفِىٓ ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "highlightedHtml": "وَجَآءَهُۥ قَوْمُهُۥ يُهْرَعُونَ إِلَيْهِ وَمِن قَبْلُ كَانُوا۟ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ ۚ قَالَ يَٰقَوْمِ هَٰٓؤُلَآءِ بَنَاتِى هُنَّ أَطْهَرُ لَكُمْ ۖ فَٱتَّقُوا۟ ٱللَّهَ وَلَا تُخْزُونِ فِى <a class=\"highlight-text\">ضَيْفِىٓ</a> <a class=\"highlight-text\">ضَيْفِىٓ</a> <a class=\"highlight-text\">ضَيْفِىٓ</a> ۖ أَلَيْسَ مِنكُمْ رَجُلٌ رَّشِيدٌ",
+      "derivedForms": [
+        "X",
+        "ضَيْفٌ",
+        "ضَيْفٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 51,
+      "text": "وَنَبِّئْهُمْ عَن ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ",
+      "highlightedHtml": "وَنَبِّئْهُمْ عَن <a class=\"highlight-text\">ضَيْفِ</a> <a class=\"highlight-text\">ضَيْفِ</a> <a class=\"highlight-text\">ضَيْفِ</a> إِبْرَٰهِيمَ",
+      "derivedForms": [
+        "ضَيْفٌ",
+        "X",
+        "ضَيْفٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 68,
+      "text": "قَالَ إِنَّ هَٰٓؤُلَآءِ ضَيْفِى ضَيْفِى فَلَا تَفْضَحُونِ",
+      "highlightedHtml": "قَالَ إِنَّ هَٰٓؤُلَآءِ <a class=\"highlight-text\">ضَيْفِى</a> <a class=\"highlight-text\">ضَيْفِى</a> فَلَا تَفْضَحُونِ",
+      "derivedForms": [
+        "ضَيْفٌ",
+        "ضَيْفٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 77,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن يُضَيِّفُوهُمَا يُضَيِّفُوهُمَا فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَآ أَتَيَآ أَهْلَ قَرْيَةٍ ٱسْتَطْعَمَآ أَهْلَهَا فَأَبَوْا۟ أَن <a class=\"highlight-text\">يُضَيِّفُوهُمَا</a> <a class=\"highlight-text\">يُضَيِّفُوهُمَا</a> فَوَجَدَا فِيهَا جِدَارًا يُرِيدُ أَن يَنقَضَّ فَأَقَامَهُۥ ۖ قَالَ لَوْ شِئْتَ لَتَّخَذْتَ عَلَيْهِ أَجْرًا",
+      "derivedForms": [
+        "يُضَيِّفُ",
+        "يُضَيِّفُ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 24,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ضَيْفِ ضَيْفِ ضَيْفِ إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ حَدِيثُ <a class=\"highlight-text\">ضَيْفِ</a> <a class=\"highlight-text\">ضَيْفِ</a> <a class=\"highlight-text\">ضَيْفِ</a> إِبْرَٰهِيمَ ٱلْمُكْرَمِينَ",
+      "derivedForms": [
+        "X",
+        "ضَيْفٌ",
+        "ضَيْفٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 37,
+      "text": "وَلَقَدْ رَٰوَدُوهُ عَن ضَيْفِهِۦ ضَيْفِهِۦ ضَيْفِهِۦ فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
+      "highlightedHtml": "وَلَقَدْ رَٰوَدُوهُ عَن <a class=\"highlight-text\">ضَيْفِهِۦ</a> <a class=\"highlight-text\">ضَيْفِهِۦ</a> <a class=\"highlight-text\">ضَيْفِهِۦ</a> فَطَمَسْنَآ أَعْيُنَهُمْ فَذُوقُوا۟ عَذَابِى وَنُذُرِ",
+      "derivedForms": [
+        "X",
+        "ضَيْفٌ",
+        "ضَيْفٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:39.248Z"
+  }
+}

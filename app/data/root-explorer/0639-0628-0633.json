@@ -1,0 +1,127 @@
+{
+  "root": "عبس",
+  "rootArabic": "عبس",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "عَبَسَ",
+      "count": 2
+    },
+    {
+      "form": "عَبُوسٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَبَسَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَبُوسٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَبَسَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 74,
+      "ayah": 22,
+      "text": "ثُمَّ عَبَسَ وَبَسَرَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">عَبَسَ</a> وَبَسَرَ",
+      "derivedForms": [
+        "عَبَسَ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 10,
+      "text": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا عَبُوسًا قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا",
+      "highlightedHtml": "إِنَّا نَخَافُ مِن رَّبِّنَا يَوْمًا <a class=\"highlight-text\">عَبُوسًا</a> قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا قَمْطَرِيرًا",
+      "derivedForms": [
+        "عَبُوسٌ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 1,
+      "text": "عَبَسَ وَتَوَلَّىٰٓ",
+      "highlightedHtml": "<a class=\"highlight-text\">عَبَسَ</a> وَتَوَلَّىٰٓ",
+      "derivedForms": [
+        "عَبَسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:23.054Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "عَبَسَ is in the derivative form: عَبَسَ",
+    "rootDefinitionHtml": "ع/ب/س   ʿ–b–s dung, to be soiled, to be dismal; to frown, to look stern, to be austere. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br>عَبَسَ ʿabasa 2 times and عَبُوساً ʿabūsan 1 time.",
+    "mainDefinitionHtml": "عَبَسَ ʿabasa a [v. intrans.] to frown <br><br>(80:1–2) عَبَسَ‏ ‏وَتَوَلَّى‏ أَنْ‏ ‏جَاءَهُ‏ ‏الأَعْمَى‏ he frowned and turned away because the blind man came to him; * عَبَسَname of Sura 80, Meccan sura, so-named because of the reference in verses 1–<br><br><strong>16 </strong>to the story of the Prophet’s ‘Frowning’ at the blind man.",
+    "mainEntryId": "wdef-ع-ب-س.عَبَسَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ب-س",
+        "label": "ع-ب-س",
+        "definitionHtml": "ع/ب/س   ʿ–b–s dung, to be soiled, to be dismal; to frown, to look stern, to be austere. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br>عَبَسَ ʿabasa 2 times and عَبُوساً ʿabūsan 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-س.عَبَسَ",
+        "label": "عَبَسَ",
+        "definitionHtml": "عَبَسَ ʿabasa a [v. intrans.] to frown <br><br>(80:1–2) عَبَسَ‏ ‏وَتَوَلَّى‏ أَنْ‏ ‏جَاءَهُ‏ ‏الأَعْمَى‏ he frowned and turned away because the blind man came to him; * عَبَسَname of Sura 80, Meccan sura, so-named because of the reference in verses 1–<br><br><strong>16 </strong>to the story of the Prophet’s ‘Frowning’ at the blind man.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ب-س.عَبُوسٌ",
+        "label": "عَبُوسٌ",
+        "definitionHtml": "عَبُوسٌ ʿabūs [quasi‐act. part.] stern, dismal, frowning <br><br>(76:10) إِنَّا‏ ‏نَخَافُ‏ ‏مِنْ‏ ‏رَبِّنَا‏ ‏يَوْمًا‏ عَبُوسًا‏ ‏قَمْطَرِيرًا‏ we fear from our Lord a frowning grim Day.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:34.213Z",
+      "refword": "74:22:2",
+      "lexword": "عَبَسَ"
+    }
+  }
+}

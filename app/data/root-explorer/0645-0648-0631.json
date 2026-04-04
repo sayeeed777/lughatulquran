@@ -1,0 +1,112 @@
+{
+  "root": "مور",
+  "rootArabic": "مور",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَمُور",
+      "count": 2
+    },
+    {
+      "form": "مَوْر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَمُور",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مَوْر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَمُور",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 52,
+      "ayah": 9,
+      "text": "يَوْمَ تَمُورُ ٱلسَّمَآءُ مَوْرًا",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">تَمُورُ</a> ٱلسَّمَآءُ <a class=\"highlight-text\">مَوْرًا</a>",
+      "derivedForms": [
+        "تَمُور",
+        "مَوْر"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 16,
+      "text": "أَأَمِنْتُمْ مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ تَمُورُ",
+      "highlightedHtml": "أَأَمِنْتُمْ مَّن فِى ٱلسَّمَآءِ أَن يَخْسِفَ بِكُمُ ٱلْأَرْضَ فَإِذَا هِىَ <a class=\"highlight-text\">تَمُورُ</a>",
+      "derivedForms": [
+        "تَمُور"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:50.712Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَمُورُ is in the derivative form: تَمُور",
+    "rootDefinitionHtml": "م/و/ر   m–w–r to move briskly to and fro, to swell, to boil, to churn; high waves, dusty wind; to spill over, (of liquids) to run; (of stars) to set and rise in succession; to contradict, to contest; to pluck out. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَمُور tamūr 2 times and مَوْر mawr 1 time.",
+    "mainDefinitionHtml": "تَمُور tamūr [imperf. of v. مَارَ māra, intrans.] to churn, to convulse, to roll, to quake, to avalanche <br><br>(67:16) أَنْ يَخْسِفَ بِكُمُ الأَرْضَ فَإِذَا هِيَ تَمُورُ to make the earth swallow you up, quaking violently.",
+    "mainEntryId": "wdef-م-و-ر.تَمُور",
+    "entries": [
+      {
+        "id": "wdef-م-و-ر",
+        "label": "م-و-ر",
+        "definitionHtml": "م/و/ر   m–w–r to move briskly to and fro, to swell, to boil, to churn; high waves, dusty wind; to spill over, (of liquids) to run; (of stars) to set and rise in succession; to contradict, to contest; to pluck out. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تَمُور tamūr 2 times and مَوْر mawr 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-و-ر.تَمُور",
+        "label": "تَمُور",
+        "definitionHtml": "تَمُور tamūr [imperf. of v. مَارَ māra, intrans.] to churn, to convulse, to roll, to quake, to avalanche <br><br>(67:16) أَنْ يَخْسِفَ بِكُمُ الأَرْضَ فَإِذَا هِيَ تَمُورُ to make the earth swallow you up, quaking violently.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-و-ر.مَوْر",
+        "label": "مَوْر",
+        "definitionHtml": "مَوْر mawr [v. n. used adverbially] the act of churning, convulsing, quaking <br><br>(52:9) يَوْمَ تَمُورُ السَّمَاءُ مَوْرًا upon the Day when the sky will quake violently.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:58.013Z",
+      "refword": "52:9:2",
+      "lexword": "تَمُورُ"
+    }
+  }
+}

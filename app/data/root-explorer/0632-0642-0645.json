@@ -1,0 +1,116 @@
+{
+  "root": "زقم",
+  "rootArabic": "زقم",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "زَقّوم",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَقّوم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَقّوم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَقّوم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 62,
+      "text": "أَذَٰلِكَ خَيْرٌ نُّزُلًا أَمْ شَجَرَةُ ٱلزَّقُّومِ",
+      "highlightedHtml": "أَذَٰلِكَ خَيْرٌ نُّزُلًا أَمْ شَجَرَةُ <a class=\"highlight-text\">ٱلزَّقُّومِ</a>",
+      "derivedForms": [
+        "زَقّوم"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 43,
+      "text": "إِنَّ شَجَرَتَ ٱلزَّقُّومِ",
+      "highlightedHtml": "إِنَّ شَجَرَتَ <a class=\"highlight-text\">ٱلزَّقُّومِ</a>",
+      "derivedForms": [
+        "زَقّوم"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 52,
+      "text": "لَءَاكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+      "highlightedHtml": "لَءَاكِلُونَ مِن شَجَرٍ مِّن <a class=\"highlight-text\">زَقُّومٍ</a>",
+      "derivedForms": [
+        "زَقّوم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:06.536Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine proper noun",
+    "derivativeNote": "ٱلزَّقُّومِ is in the derivative form: زَقّوم",
+    "rootDefinitionHtml": "ز/ق/م   z–q–m to swallow fast, to drink too much milk; fresh butter with dates; plague; a certain foul‐tasting, stinking tree said to grow in the Arabian region of Tihāmah. Of this root, only زَقّوم zaqqūm occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "زَقّوم zaqqūm [proper n.] Zaqqūm, a certain foul tree growing in the bottom of Hell with fruits like the heads of devils or of terrible serpents <br><br>(44:43–4) ِأنَّ شَجَرَةَ الزَّقُّوم طَعَامُ الأَثِيمِِ the tree of Zaqqūm will be food for the sinners.",
+    "mainEntryId": "wdef-ز-ق-م.زَقّوم",
+    "entries": [
+      {
+        "id": "wdef-ز-ق-م",
+        "label": "ز-ق-م",
+        "definitionHtml": "ز/ق/م   z–q–m to swallow fast, to drink too much milk; fresh butter with dates; plague; a certain foul‐tasting, stinking tree said to grow in the Arabian region of Tihāmah. Of this root, only زَقّوم zaqqūm occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ق-م.زَقّوم",
+        "label": "زَقّوم",
+        "definitionHtml": "زَقّوم zaqqūm [proper n.] Zaqqūm, a certain foul tree growing in the bottom of Hell with fruits like the heads of devils or of terrible serpents <br><br>(44:43–4) ِأنَّ شَجَرَةَ الزَّقُّوم طَعَامُ الأَثِيمِِ the tree of Zaqqūm will be food for the sinners.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:19.055Z",
+      "refword": "37:62:6",
+      "lexword": "ٱلزَّقُّومِ"
+    }
+  }
+}

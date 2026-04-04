@@ -1,0 +1,106 @@
+{
+  "root": "كبب",
+  "rootArabic": "كبب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "كُبَّ",
+      "count": 1
+    },
+    {
+      "form": "مُكِبّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كُبَّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكِبّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 90,
+      "text": "وَمَن جَآءَ بِٱلسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِى ٱلنَّارِ هَلْ تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "وَمَن جَآءَ بِٱلسَّيِّئَةِ <a class=\"highlight-text\">فَكُبَّتْ</a> وُجُوهُهُمْ فِى ٱلنَّارِ هَلْ تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "كُبَّ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 22,
+      "text": "أَفَمَن يَمْشِى مُكِبًّا عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "highlightedHtml": "أَفَمَن يَمْشِى <a class=\"highlight-text\">مُكِبًّا</a> عَلَىٰ وَجْهِهِۦٓ أَهْدَىٰٓ أَمَّن يَمْشِى سَوِيًّا سَوِيًّا عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+      "derivedForms": [
+        "مُكِبّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:29.092Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "فَكُبَّتْ is in the derivative form: كُبَّ",
+    "rootDefinitionHtml": "ك/ب/ب   k–b–b (see also: ك/ب/ك/ب k–b–k–b) to overthrow, to topple, to knock to the ground; to apply oneself; skein of wool; detachment of horses; crowdedness; hillock of rippled, moist sand. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> كُبَّت kubbat and مُكِبّ mukibb.",
+    "mainDefinitionHtml": "كُبَّ kubba [pass. v.] to be flung down (on one’s face) <br><br>(27:90) وَمَنْ جَاءَ بِالسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِى النَّارِ and whoever comes with evil deeds; their faces will be cast into the fire.",
+    "mainEntryId": "wdef-ك-ب-ب.كُبَّ",
+    "entries": [
+      {
+        "id": "wdef-ك-ب-ب",
+        "label": "ك-ب-ب",
+        "definitionHtml": "ك/ب/ب   k–b–b (see also: ك/ب/ك/ب k–b–k–b) to overthrow, to topple, to knock to the ground; to apply oneself; skein of wool; detachment of horses; crowdedness; hillock of rippled, moist sand. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> كُبَّت kubbat and مُكِبّ mukibb.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ب-ب.كُبَّ",
+        "label": "كُبَّ",
+        "definitionHtml": "كُبَّ kubba [pass. v.] to be flung down (on one’s face) <br><br>(27:90) وَمَنْ جَاءَ بِالسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِى النَّارِ and whoever comes with evil deeds; their faces will be cast into the fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ب-ب.مُكِبّ",
+        "label": "مُكِبّ",
+        "definitionHtml": "مُكِبّ mukibb [act. part.] one who is prone to looking down, keeping his sight turned downwards <br><br>(67:22) أَفَمَنْ يَمْشِي مُكِبًّا عَلَى وَجْهِهِ أَهْدَى أَمَّنْ يَمْشِي سَوِيًّا عَلَى صِرَاطٍ مُسْتَقِيمٍ is he who goes along grovelling on his face better able to find his way, or the one who goes upright on a straight path?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:26.325Z",
+      "refword": "27:90:4",
+      "lexword": "فَكُبَّتْ"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "root": "خلط",
+  "rootArabic": "خلط",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "اخْتَلَطَ",
+      "count": 3
+    },
+    {
+      "form": "تُخَالِطُ",
+      "count": 1
+    },
+    {
+      "form": "خَلَطَ",
+      "count": 1
+    },
+    {
+      "form": "خُلَطَاءٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُخَالِطُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَلَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَلَطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَلَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْتَلَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خُلَطَاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 220,
+      "text": "فِى ٱلدُّنْيَا وَالْآخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَٰمَىٰ ۖ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ ۖ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "فِى ٱلدُّنْيَا وَالْآخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَٰمَىٰ ۖ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ ۖ وَإِن <a class=\"highlight-text\">تُخَالِطُوهُمْ</a> فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "تُخَالِطُ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 146,
+      "text": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "highlightedHtml": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا <a class=\"highlight-text\">ٱخْتَلَطَ</a> بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "derivedForms": [
+        "اخْتَلَطَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 102,
+      "text": "وَآخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ خَلَطُوا۟ عَمَلًا صَٰلِحًا وَآخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَآخَرُونَ ٱعْتَرَفُوا۟ بِذُنُوبِهِمْ <a class=\"highlight-text\">خَلَطُوا۟</a> عَمَلًا صَٰلِحًا وَآخَرَ سَيِّئًا عَسَى ٱللَّهُ أَن يَتُوبَ عَلَيْهِمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "خَلَطَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 24,
+      "text": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ <a class=\"highlight-text\">فَٱخْتَلَطَ</a> بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "اخْتَلَطَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 45,
+      "text": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "highlightedHtml": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ <a class=\"highlight-text\">فَٱخْتَلَطَ</a> بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "derivedForms": [
+        "اخْتَلَطَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 24,
+      "text": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+      "highlightedHtml": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ <a class=\"highlight-text\">ٱلْخُلَطَآءِ</a> لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+      "derivedForms": [
+        "خُلَطَاءٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:39.064Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form III) imperfect verb, jussive mood",
+    "derivativeNote": "تُخَالِطُوهُمْ is in the derivative form: تُخَالِطُ",
+    "rootDefinitionHtml": "خ/ل/ط   kh–l–ṭ to mix, to blend, a mixture, a component, the 4 humours<br>; base people, common people; to intermingle, to associate, to be familiar with; partnership, partners; husband, cousin, neighbour; to confuse, to be mad. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> خَلَطَ khalaṭa 1 time; تُخَالِطُ tukhāliṭ 1 time; اخْتَلَطَ ʾikhtalaṭa 3 times and خُلَطَاءٌ khulaṭāʾ 1 time.",
+    "mainDefinitionHtml": "تُخَالِطُ tukhāliṭ [imperf. of v. III خَالَطَ khālaṭa, trans.] to associate with, to mix with, to intermingle with, to combine with <br><br>(2:220) وَيَسْأَلُونَكَ عَنِ الْيَتَامَى قُلْ إِصْلاَحٌ لَهُمْ خَيْرٌ وَإِنْ تُخَالِطُوهُمْ فَإِخْوَانُكُمْ and they ask you about the orphans, say, ‘It is good to set things right for them, if you mix their affairs with yours [lit. mix with them] [also interpreted as: if you intermingle with them] [remember] they are your brothers and sisters.’",
+    "mainEntryId": "wdef-خ-ل-ط.تُخَالِطُ",
+    "entries": [
+      {
+        "id": "wdef-خ-ل-ط",
+        "label": "خ-ل-ط",
+        "definitionHtml": "خ/ل/ط   kh–l–ṭ to mix, to blend, a mixture, a component, the 4 humours<br>; base people, common people; to intermingle, to associate, to be familiar with; partnership, partners; husband, cousin, neighbour; to confuse, to be mad. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> خَلَطَ khalaṭa 1 time; تُخَالِطُ tukhāliṭ 1 time; اخْتَلَطَ ʾikhtalaṭa 3 times and خُلَطَاءٌ khulaṭāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ط.تُخَالِطُ",
+        "label": "تُخَالِطُ",
+        "definitionHtml": "تُخَالِطُ tukhāliṭ [imperf. of v. III خَالَطَ khālaṭa, trans.] to associate with, to mix with, to intermingle with, to combine with <br><br>(2:220) وَيَسْأَلُونَكَ عَنِ الْيَتَامَى قُلْ إِصْلاَحٌ لَهُمْ خَيْرٌ وَإِنْ تُخَالِطُوهُمْ فَإِخْوَانُكُمْ and they ask you about the orphans, say, ‘It is good to set things right for them, if you mix their affairs with yours [lit. mix with them] [also interpreted as: if you intermingle with them] [remember] they are your brothers and sisters.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ل-ط.اخْتَلَطَ",
+        "label": "اخْتَلَطَ",
+        "definitionHtml": "اخْتَلَطَ ʾikhtalaṭa [v. VIII, intrans.] to become mixed/mingled with, to be combined with <br><br>(18:45) كَمَاءٍ أَنْزَلْنَاهُ مِنَ السَّمَاءِ فَاخْتَلَطَ بِهِ نَبَاتُ الأَرْضِ like water We send down from the sky, so the vegetation of the earth combines with it [absorbs it].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ط.خَلَطَ",
+        "label": "خَلَطَ",
+        "definitionHtml": "خَلَطَ khalaṭa i [v. trans.] to mix <br><br>(9:102) وَءَاخَرُونَ اعْتَرَفُوا بِذُنُوبِهِمْ خَلَطُوا عَمَلا صَالِحًا وَءَاخَرَ سَيِّئًا and others confessed their sins, they mixed a righteous deed with another evil one.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ل-ط.خُلَطَاءٌ",
+        "label": "خُلَطَاءٌ",
+        "definitionHtml": "خُلَطَاءٌ khulaṭāʾ [pl. of n. خَلِيطٌ khalıṭ] partners, business associates, kinfolk <br><br>(38:24) لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَى نِعَاجِهِ وَإِنَّ كَثِيرًا مِنَ الْخُلَطَاءِ لَيَبْغِي بَعْضُهُمْ عَلَى بَعْضٍ he has done you wrong by demanding your ewe in addition to his ewes, and many partners transgress against one another.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:41.525Z",
+      "refword": "2:220:12",
+      "lexword": "تُخَالِطُوهُمْ"
+    }
+  }
+}

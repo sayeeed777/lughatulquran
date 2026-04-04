@@ -1,0 +1,120 @@
+{
+  "root": "سيح",
+  "rootArabic": "سيح",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "سائحون",
+      "count": 2
+    },
+    {
+      "form": "سيحوا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سائحون",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "سيحوا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سائحون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 2,
+      "text": "فَسِيحُوا۟ فِى ٱلْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۙ وَأَنَّ ٱللَّهَ مُخْزِى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَسِيحُوا۟</a> فِى ٱلْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۙ وَأَنَّ ٱللَّهَ مُخْزِى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "سيحوا"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 112,
+      "text": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ <a class=\"highlight-text\">ٱلسَّٰٓئِحُونَ</a> ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "سائحون"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 5,
+      "text": "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَٰتٍ مُّؤْمِنَٰتٍ قَٰنِتَٰتٍ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍ سَٰٓئِحَٰتٍ ثَيِّبَٰتٍ وَأَبْكَارًا",
+      "highlightedHtml": "عَسَىٰ رَبُّهُۥٓ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُۥٓ أَزْوَٰجًا خَيْرًا مِّنكُنَّ مُسْلِمَٰتٍ مُّؤْمِنَٰتٍ قَٰنِتَٰتٍ تَٰٓئِبَٰتٍ عَٰبِدَٰتٍ <a class=\"highlight-text\">سَٰٓئِحَٰتٍ</a> ثَيِّبَٰتٍ وَأَبْكَارًا",
+      "derivedForms": [
+        "سائحون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:48.460Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "فَسِيحُوا۟ is in the derivative form: سيحوا",
+    "rootDefinitionHtml": "س/ى/ح s–y–ḥ water flowing above ground, people travelling freely from 1 place to another<br>; devoting oneself to the worship of God, particularly through fasting. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> سيحوا sıḥū; سائحون sāʾiḥūn and سائحات sāʾiḥāt.",
+    "mainDefinitionHtml": "سيحوا sıḥū [imper. of v. intrans.] go about in the land, travel about, travel freely <br><br>(9:2) فَسِيحُوا فِى الأَرْضِ أَرْبَعَةَ أَشْهُرٍ so you may move freely in the land for four months.",
+    "mainEntryId": "wdef-س-ى-ح.سيحوا",
+    "entries": [
+      {
+        "id": "wdef-س-ى-ح",
+        "label": "س-ى-ح",
+        "definitionHtml": "س/ى/ح s–y–ḥ water flowing above ground, people travelling freely from 1 place to another<br>; devoting oneself to the worship of God, particularly through fasting. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> سيحوا sıḥū; سائحون sāʾiḥūn and سائحات sāʾiḥāt.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ى-ح.سيحوا",
+        "label": "سيحوا",
+        "definitionHtml": "سيحوا sıḥū [imper. of v. intrans.] go about in the land, travel about, travel freely <br><br>(9:2) فَسِيحُوا فِى الأَرْضِ أَرْبَعَةَ أَشْهُرٍ so you may move freely in the land for four months.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ى-ح.سائحون",
+        "label": "سائحون",
+        "definitionHtml": "سائحون sāʾiḥūn [pl. of act. part. سائح sāʾiḥ; fem. pl. سائحات sāʾiḥāt] those who travel about, as for reasons of faith, those who fast as a way of purifying themselves, the devout <br><br>(66:5) أَزْوَاجًا خَيْرًا مِنْكُنَّ مُسْلِمَاتٍ ... سَائِحَاتٍ better wives than yourselves, wives who submit themselves to God … given to fasting ….",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:40.773Z",
+      "refword": "9:2:1",
+      "lexword": "فَسِيحُوا۟"
+    }
+  }
+}

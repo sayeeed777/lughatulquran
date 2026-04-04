@@ -1,0 +1,74 @@
+{
+  "root": "واد",
+  "rootArabic": "واد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَوْءُودَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْءُودَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 81,
+      "ayah": 8,
+      "text": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">ٱلْمَوْءُۥدَةُ</a> سُئِلَتْ",
+      "derivedForms": [
+        "مَوْءُودَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:53.115Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine passive participle",
+    "derivativeNote": "ٱلْمَوْءُۥدَةُ is in the derivative form: مَوْءُودَةٌ",
+    "rootDefinitionHtml": "و/أ/د   w–ʾ–d loud thudding sound, sound of heavy steps on the ground; to be swallowed by the earth; to bury alive, particularly a newborn girl; to be deliberate, solemnity. Of this root, only مَوْءُودَةٌ mawʾūdatun, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَوْءُودَةٌ mawʾūdatun [pass. part.] a female infant buried alive. The live burial of baby girls was a fairly common practice in pre‐Islamic Arabia, particularly amongst the Bedouin poor <br><br>(81:8–9) وَإِذَا الْمَوْءُودَةُ سُئِلَتْ بِأَيِّ ذَنْبٍ قُتِلَتْ [on the day] when the baby girl buried alive is asked for what crime she was killed.",
+    "mainEntryId": "wdef-و-أ-د.مَوْءُودَةٌ",
+    "entries": [
+      {
+        "id": "wdef-و-أ-د",
+        "label": "و-أ-د",
+        "definitionHtml": "و/أ/د   w–ʾ–d loud thudding sound, sound of heavy steps on the ground; to be swallowed by the earth; to bury alive, particularly a newborn girl; to be deliberate, solemnity. Of this root, only مَوْءُودَةٌ mawʾūdatun, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-أ-د.مَوْءُودَةٌ",
+        "label": "مَوْءُودَةٌ",
+        "definitionHtml": "مَوْءُودَةٌ mawʾūdatun [pass. part.] a female infant buried alive. The live burial of baby girls was a fairly common practice in pre‐Islamic Arabia, particularly amongst the Bedouin poor <br><br>(81:8–9) وَإِذَا الْمَوْءُودَةُ سُئِلَتْ بِأَيِّ ذَنْبٍ قُتِلَتْ [on the day] when the baby girl buried alive is asked for what crime she was killed.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:52.917Z",
+      "refword": "81:8:2",
+      "lexword": "ٱلْمَوْءُۥدَةُ"
+    }
+  }
+}

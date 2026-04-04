@@ -1,0 +1,119 @@
+{
+  "root": "بعثر",
+  "rootArabic": "بعثر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "بُعْثِرَ",
+      "count": 8
+    },
+    {
+      "form": "X",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "بُعْثِرَ",
+          "count": 4,
+          "totalInQuran": 8
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 100,
+      "surahName": "Al-'Adiyat",
+      "totalRootInSurah": 7,
+      "derivatives": [
+        {
+          "form": "بُعْثِرَ",
+          "count": 4,
+          "totalInQuran": 8
+        },
+        {
+          "form": "X",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 82,
+      "ayah": 4,
+      "text": "وَإِذَا ٱلْقُبُورُ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ بُعْثِرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْقُبُورُ <a class=\"highlight-text\">بُعْثِرَتْ</a> <a class=\"highlight-text\">بُعْثِرَتْ</a> <a class=\"highlight-text\">بُعْثِرَتْ</a> <a class=\"highlight-text\">بُعْثِرَتْ</a> <a class=\"highlight-text\">بُعْثِرَتْ</a>",
+      "derivedForms": [
+        "بُعْثِرَ",
+        "بُعْثِرَ",
+        "X",
+        "بُعْثِرَ",
+        "بُعْثِرَ"
+      ]
+    },
+    {
+      "surah": 100,
+      "ayah": 9,
+      "text": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ بُعْثِرَ مَا فِى ٱلْقُبُورِ",
+      "highlightedHtml": "أَفَلَا يَعْلَمُ إِذَا <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> <a class=\"highlight-text\">بُعْثِرَ</a> مَا فِى ٱلْقُبُورِ",
+      "derivedForms": [
+        "بُعْثِرَ",
+        "X",
+        "X",
+        "X",
+        "بُعْثِرَ",
+        "بُعْثِرَ",
+        "بُعْثِرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:49.239Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "بُعْثِرَتْ is in the derivative form: بُعْثِرَ",
+    "rootDefinitionHtml": "ب/ع/ث/ر   b–ʿ–th–r to scatter, to strew about; to squander; to disarrange, to turn inside out. Of this root, بُعْثِرَ buʿthira occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "بُعْثِرَ buʿthira [pass. quad. v.] to be strewn about, to be scattered all over; to be turned inside out <br><br>(82:4) وَإِذَا الْقُبُورُ بُعْثِرَتْ when graves are turned inside out.",
+    "mainEntryId": "wdef-ب-ع-ث-ر.بُعْثِرَ",
+    "entries": [
+      {
+        "id": "wdef-ب-ع-ث-ر",
+        "label": "ب-ع-ث-ر",
+        "definitionHtml": "ب/ع/ث/ر   b–ʿ–th–r to scatter, to strew about; to squander; to disarrange, to turn inside out. Of this root, بُعْثِرَ buʿthira occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ع-ث-ر.بُعْثِرَ",
+        "label": "بُعْثِرَ",
+        "definitionHtml": "بُعْثِرَ buʿthira [pass. quad. v.] to be strewn about, to be scattered all over; to be turned inside out <br><br>(82:4) وَإِذَا الْقُبُورُ بُعْثِرَتْ when graves are turned inside out.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:31.194Z",
+      "refword": "82:4:3",
+      "lexword": "بُعْثِرَتْ"
+    }
+  }
+}

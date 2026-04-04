@@ -1,0 +1,74 @@
+{
+  "root": "كوي",
+  "rootArabic": "كوي",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُكْوَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُكْوَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 35,
+      "text": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+      "highlightedHtml": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ <a class=\"highlight-text\">فَتُكْوَىٰ</a> بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+      "derivedForms": [
+        "تُكْوَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:14.403Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "فَتُكْوَىٰ is in the derivative form: تُكْوَى",
+    "rootDefinitionHtml": "ك/و/ي   k–w–y to burn, to brand, to cauterise, to sting; hot iron; aperture, small round window. Of this root, تُكْوَى tukwā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُكْوَى tukwā [pass. imperf. of v. كَوَىَ kawā] to be seared, to be branded, to be cauterised <br><br>(9:35) يَوْمَ يُحْمَى عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَى بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ on the day when it [the hoarded gold and silver] will be heated in the fire of Hell, and their foreheads, sides and backs will be branded by them.",
+    "mainEntryId": "wdef-ك-و-ي.تُكْوَى",
+    "entries": [
+      {
+        "id": "wdef-ك-و-ي",
+        "label": "ك-و-ي",
+        "definitionHtml": "ك/و/ي   k–w–y to burn, to brand, to cauterise, to sting; hot iron; aperture, small round window. Of this root, تُكْوَى tukwā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-و-ي.تُكْوَى",
+        "label": "تُكْوَى",
+        "definitionHtml": "تُكْوَى tukwā [pass. imperf. of v. كَوَىَ kawā] to be seared, to be branded, to be cauterised <br><br>(9:35) يَوْمَ يُحْمَى عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَى بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ on the day when it [the hoarded gold and silver] will be heated in the fire of Hell, and their foreheads, sides and backs will be branded by them.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:47.021Z",
+      "refword": "9:35:7",
+      "lexword": "فَتُكْوَىٰ"
+    }
+  }
+}

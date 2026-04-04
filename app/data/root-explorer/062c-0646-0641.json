@@ -1,0 +1,106 @@
+{
+  "root": "جنف",
+  "rootArabic": "جنف",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "جَنَفٌ",
+      "count": 1
+    },
+    {
+      "form": "مُتَجَانِفٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَنَفٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَجَانِفٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 182,
+      "text": "فَمَنْ خَافَ مِن مُّوصٍ جَنَفًا أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَمَنْ خَافَ مِن مُّوصٍ <a class=\"highlight-text\">جَنَفًا</a> أَوْ إِثْمًا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "جَنَفٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 3,
+      "text": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ <a class=\"highlight-text\">مُتَجَانِفٍ</a> لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "مُتَجَانِفٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:23.537Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "جَنَفًا is in the derivative form: جَنَفٌ",
+    "rootDefinitionHtml": "ج/ن/ف   j–n–f hunchback, to incline, to deviate, to go over, to be crooked, crookedness. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> جَنَفٌ janaf and مُتَجَانِفٌ mutajānif.",
+    "mainDefinitionHtml": "جَنَفٌ janaf [n./v. n.] unfairness, straying away from the right path, deviation, mistake <br><br>(2:182) فَمَنْ خَافَ مِنْ مُوصٍ جَنَفًا أَوْ إِثْمًا but if anyone has reason to suspect that the testator has made a mistake, or done wrong.",
+    "mainEntryId": "wdef-ج-ن-ف.جَنَفٌ",
+    "entries": [
+      {
+        "id": "wdef-ج-ن-ف",
+        "label": "ج-ن-ف",
+        "definitionHtml": "ج/ن/ف   j–n–f hunchback, to incline, to deviate, to go over, to be crooked, crookedness. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> جَنَفٌ janaf and مُتَجَانِفٌ mutajānif.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ن-ف.جَنَفٌ",
+        "label": "جَنَفٌ",
+        "definitionHtml": "جَنَفٌ janaf [n./v. n.] unfairness, straying away from the right path, deviation, mistake <br><br>(2:182) فَمَنْ خَافَ مِنْ مُوصٍ جَنَفًا أَوْ إِثْمًا but if anyone has reason to suspect that the testator has made a mistake, or done wrong.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-ن-ف.مُتَجَانِفٌ",
+        "label": "مُتَجَانِفٌ",
+        "definitionHtml": "مُتَجَانِفٌ mutajānif[act. part.] one who inclines towards <br><br>(5:3) فَمَنِ اضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لإِِثْمٍ فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ but if any one is forced by hunger [to eat such food], with no inclination to sin, then God is most forgiving and merciful.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:22.331Z",
+      "refword": "2:182:5",
+      "lexword": "جَنَفًا"
+    }
+  }
+}

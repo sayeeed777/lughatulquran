@@ -1,0 +1,591 @@
+{
+  "root": "عجز",
+  "rootArabic": "عجز",
+  "stats": {
+    "totalOccurrences": 26,
+    "derivativeCount": 6,
+    "surahCount": 21,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "مُعْجِزٌ",
+      "count": 12
+    },
+    {
+      "form": "أَعْجَزَ",
+      "count": 4
+    },
+    {
+      "form": "عَجُوزٌ",
+      "count": 4
+    },
+    {
+      "form": "مُعَاجِزِين",
+      "count": 3
+    },
+    {
+      "form": "أَعْجَازٌ",
+      "count": 2
+    },
+    {
+      "form": "عَجَزَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَجَزَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْجَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "عَجُوزٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعَاجِزِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَجُوزٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُعَاجِزِين",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْجَزَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَجُوزٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعْجِزٌ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَجُوزٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْجَازٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْجَازٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَعْجَزَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 31,
+      "text": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ أَعَجَزْتُ أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "highlightedHtml": "فَبَعَثَ ٱللَّهُ غُرَابًا يَبْحَثُ فِى ٱلْأَرْضِ لِيُرِيَهُۥ كَيْفَ يُوَٰرِى سَوْءَةَ أَخِيهِ ۚ قَالَ يَٰوَيْلَتَىٰٓ <a class=\"highlight-text\">أَعَجَزْتُ</a> أَنْ أَكُونَ مِثْلَ هَٰذَا ٱلْغُرَابِ فَأُوَٰرِىَ سَوْءَةَ أَخِى ۖ فَأَصْبَحَ مِنَ ٱلنَّٰدِمِينَ",
+      "derivedForms": [
+        "عَجَزَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 134,
+      "text": "إِنَّ مَا تُوعَدُونَ لَءَاتٍ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ",
+      "highlightedHtml": "إِنَّ مَا تُوعَدُونَ لَءَاتٍ ۖ وَمَآ أَنتُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a>",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 59,
+      "text": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ سَبَقُوٓا۟ ۚ إِنَّهُمْ لَا يُعْجِزُونَ",
+      "highlightedHtml": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ سَبَقُوٓا۟ ۚ إِنَّهُمْ لَا <a class=\"highlight-text\">يُعْجِزُونَ</a>",
+      "derivedForms": [
+        "أَعْجَزَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 2,
+      "text": "فَسِيحُوا۟ فِى ٱلْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۙ وَأَنَّ ٱللَّهَ مُخْزِى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "فَسِيحُوا۟ فِى ٱلْأَرْضِ أَرْبَعَةَ أَشْهُرٍ وَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ <a class=\"highlight-text\">مُعْجِزِى</a> ٱللَّهِ ۙ وَأَنَّ ٱللَّهَ مُخْزِى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 3,
+      "text": "وَأَذَٰنٌ مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى ٱلنَّاسِ يَوْمَ ٱلْحَجِّ ٱلْأَكْبَرِ أَنَّ ٱللَّهَ بَرِىٓءٌ مِّنَ ٱلْمُشْرِكِينَ ۙ وَرَسُولُهُۥ ۚ فَإِن تُبْتُمْ فَهُوَ خَيْرٌ لَّكُمْ ۖ وَإِن تَوَلَّيْتُمْ فَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ مُعْجِزِى ٱللَّهِ ۗ وَبَشِّرِ ٱلَّذِينَ كَفَرُوا۟ بِعَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "وَأَذَٰنٌ مِّنَ ٱللَّهِ وَرَسُولِهِۦٓ إِلَى ٱلنَّاسِ يَوْمَ ٱلْحَجِّ ٱلْأَكْبَرِ أَنَّ ٱللَّهَ بَرِىٓءٌ مِّنَ ٱلْمُشْرِكِينَ ۙ وَرَسُولُهُۥ ۚ فَإِن تُبْتُمْ فَهُوَ خَيْرٌ لَّكُمْ ۖ وَإِن تَوَلَّيْتُمْ فَٱعْلَمُوٓا۟ أَنَّكُمْ غَيْرُ <a class=\"highlight-text\">مُعْجِزِى</a> ٱللَّهِ ۗ وَبَشِّرِ ٱلَّذِينَ كَفَرُوا۟ بِعَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 53,
+      "text": "وَيَسْتَنۢبِـُٔونَكَ أَحَقٌّ هُوَ ۖ قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّ ۖ وَمَآ أَنتُم بِمُعْجِزِينَ",
+      "highlightedHtml": "وَيَسْتَنۢبِـُٔونَكَ أَحَقٌّ هُوَ ۖ قُلْ إِى وَرَبِّىٓ إِنَّهُۥ لَحَقٌّ ۖ وَمَآ أَنتُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a>",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 20,
+      "text": "أُو۟لَٰٓئِكَ لَمْ يَكُونُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ وَمَا كَانَ لَهُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ۘ يُضَٰعَفُ لَهُمُ ٱلْعَذَابُ ۚ مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ لَمْ يَكُونُوا۟ <a class=\"highlight-text\">مُعْجِزِينَ</a> فِى ٱلْأَرْضِ وَمَا كَانَ لَهُم مِّن دُونِ ٱللَّهِ مِنْ أَوْلِيَآءَ ۘ يُضَٰعَفُ لَهُمُ ٱلْعَذَابُ ۚ مَا كَانُوا۟ يَسْتَطِيعُونَ ٱلسَّمْعَ وَمَا كَانُوا۟ يُبْصِرُونَ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 33,
+      "text": "قَالَ إِنَّمَا يَأْتِيكُم بِهِ ٱللَّهُ إِن شَآءَ وَمَآ أَنتُم بِمُعْجِزِينَ",
+      "highlightedHtml": "قَالَ إِنَّمَا يَأْتِيكُم بِهِ ٱللَّهُ إِن شَآءَ وَمَآ أَنتُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a>",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 72,
+      "text": "قَالَتْ يَٰوَيْلَتَىٰٓ أَأَلِدُ وَأَنَا۠ عَجُوزٌ وَهَٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَٰذَا لَشَىْءٌ عَجِيبٌ",
+      "highlightedHtml": "قَالَتْ يَٰوَيْلَتَىٰٓ أَأَلِدُ وَأَنَا۠ <a class=\"highlight-text\">عَجُوزٌ</a> وَهَٰذَا بَعْلِى شَيْخًا ۖ إِنَّ هَٰذَا لَشَىْءٌ عَجِيبٌ",
+      "derivedForms": [
+        "عَجُوزٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 46,
+      "text": "أَوْ يَأْخُذَهُمْ فِى تَقَلُّبِهِمْ فَمَا هُم بِمُعْجِزِينَ",
+      "highlightedHtml": "أَوْ يَأْخُذَهُمْ فِى تَقَلُّبِهِمْ فَمَا هُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a>",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 51,
+      "text": "وَٱلَّذِينَ سَعَوْا۟ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَحِيمِ",
+      "highlightedHtml": "وَٱلَّذِينَ سَعَوْا۟ فِىٓ آيَاتِنَا <a class=\"highlight-text\">مُعَٰجِزِينَ</a> أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَحِيمِ",
+      "derivedForms": [
+        "مُعَاجِزِين"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 57,
+      "text": "لَا تَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ مُعْجِزِينَ فِى ٱلْأَرْضِ ۚ وَمَأْوَىٰهُمُ ٱلنَّارُ ۖ وَلَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "لَا تَحْسَبَنَّ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">مُعْجِزِينَ</a> فِى ٱلْأَرْضِ ۚ وَمَأْوَىٰهُمُ ٱلنَّارُ ۖ وَلَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 171,
+      "text": "إِلَّا عَجُوزًا فِى ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "إِلَّا <a class=\"highlight-text\">عَجُوزًا</a> فِى ٱلْغَٰبِرِينَ",
+      "derivedForms": [
+        "عَجُوزٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 22,
+      "text": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "وَمَآ أَنتُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a> فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 5,
+      "text": "وَٱلَّذِينَ سَعَوْ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+      "highlightedHtml": "وَٱلَّذِينَ سَعَوْ فِىٓ آيَاتِنَا <a class=\"highlight-text\">مُعَٰجِزِينَ</a> أُو۟لَٰٓئِكَ لَهُمْ عَذَابٌ مِّن رِّجْزٍ أَلِيمٌ",
+      "derivedForms": [
+        "مُعَاجِزِين"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 38,
+      "text": "وَٱلَّذِينَ يَسْعَوْنَ فِىٓ آيَاتِنَا مُعَٰجِزِينَ أُو۟لَٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ يَسْعَوْنَ فِىٓ آيَاتِنَا <a class=\"highlight-text\">مُعَٰجِزِينَ</a> أُو۟لَٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+      "derivedForms": [
+        "مُعَاجِزِين"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 44,
+      "text": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً ۚ وَمَا كَانَ ٱللَّهُ لِيُعْجِزَهُۥ مِن شَىْءٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ عَلِيمًا قَدِيرًا",
+      "highlightedHtml": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ وَكَانُوٓا۟ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً ۚ وَمَا كَانَ ٱللَّهُ <a class=\"highlight-text\">لِيُعْجِزَهُۥ</a> مِن شَىْءٍ فِى ٱلسَّمَٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ عَلِيمًا قَدِيرًا",
+      "derivedForms": [
+        "أَعْجَزَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 135,
+      "text": "إِلَّا عَجُوزًا فِى ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "إِلَّا <a class=\"highlight-text\">عَجُوزًا</a> فِى ٱلْغَٰبِرِينَ",
+      "derivedForms": [
+        "عَجُوزٌ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 51,
+      "text": "فَأَصَابَهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ ۚ وَٱلَّذِينَ ظَلَمُوا۟ مِنْ هَٰٓؤُلَآءِ سَيُصِيبُهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ وَمَا هُم بِمُعْجِزِينَ",
+      "highlightedHtml": "فَأَصَابَهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ ۚ وَٱلَّذِينَ ظَلَمُوا۟ مِنْ هَٰٓؤُلَآءِ سَيُصِيبُهُمْ سَيِّـَٔاتُ مَا كَسَبُوا۟ وَمَا هُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a>",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 31,
+      "text": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "وَمَآ أَنتُم <a class=\"highlight-text\">بِمُعْجِزِينَ</a> فِى ٱلْأَرْضِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 32,
+      "text": "وَمَن لَّا يُجِبْ دَاعِىَ ٱللَّهِ فَلَيْسَ بِمُعْجِزٍ فِى ٱلْأَرْضِ وَلَيْسَ لَهُۥ مِن دُونِهِۦٓ أَوْلِيَآءُ ۚ أُو۟لَٰٓئِكَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "وَمَن لَّا يُجِبْ دَاعِىَ ٱللَّهِ فَلَيْسَ <a class=\"highlight-text\">بِمُعْجِزٍ</a> فِى ٱلْأَرْضِ وَلَيْسَ لَهُۥ مِن دُونِهِۦٓ أَوْلِيَآءُ ۚ أُو۟لَٰٓئِكَ فِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "مُعْجِزٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 29,
+      "text": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+      "highlightedHtml": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ <a class=\"highlight-text\">عَجُوزٌ</a> عَقِيمٌ",
+      "derivedForms": [
+        "عَجُوزٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 20,
+      "text": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ مُّنقَعِرٍ",
+      "highlightedHtml": "تَنزِعُ ٱلنَّاسَ كَأَنَّهُمْ <a class=\"highlight-text\">أَعْجَازُ</a> نَخْلٍ مُّنقَعِرٍ",
+      "derivedForms": [
+        "أَعْجَازٌ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 7,
+      "text": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ أَعْجَازُ نَخْلٍ خَاوِيَةٍ",
+      "highlightedHtml": "سَخَّرَهَا عَلَيْهِمْ سَبْعَ لَيَالٍ وَثَمَٰنِيَةَ أَيَّامٍ حُسُومًا فَتَرَى ٱلْقَوْمَ فِيهَا صَرْعَىٰ كَأَنَّهُمْ <a class=\"highlight-text\">أَعْجَازُ</a> نَخْلٍ خَاوِيَةٍ",
+      "derivedForms": [
+        "أَعْجَازٌ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 12,
+      "text": "وَأَنَّا ظَنَنَّآ أَن لَّن نُّعْجِزَ ٱللَّهَ فِى ٱلْأَرْضِ وَلَن نُّعْجِزَهُۥ هَرَبًا",
+      "highlightedHtml": "وَأَنَّا ظَنَنَّآ أَن لَّن <a class=\"highlight-text\">نُّعْجِزَ</a> ٱللَّهَ فِى ٱلْأَرْضِ وَلَن <a class=\"highlight-text\">نُّعْجِزَهُۥ</a> هَرَبًا",
+      "derivedForms": [
+        "أَعْجَزَ",
+        "أَعْجَزَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:31.315Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular perfect verb",
+    "derivativeNote": "أَعَجَزْتُ is in the derivative form: عَجَزَ",
+    "rootDefinitionHtml": "ع/ج/ز   ʿ–j–z posteriors, buttocks, (of palm trees) stumps<br>; to hang back, to fail to perform, lack of strength, lack of ability, failure, to grow old; miracle, to out‐perform. <br><br>Of this root, 7 forms occur 26 times in the Qur’an:<br> عَجَزَ ʿajaza 1 time; أعْجَزَ ʾaʿjaza 4 times; عَجُوزٌ ʿajūz 4 times; أَعْجَازٌ ʾaʿjāz 2 times; مُعَاجِزِين muʿājizın 3 times;مُعْجِزٌ muʿjiz 1 time and مُعْجِزِين muʿjizın 11 times.",
+    "mainDefinitionHtml": "عَجَزَ ʿajaza i (also عَجِز ʿajiza a) [v. intrans.] to fail to act, to be or become incapable of, to become powerless, impotent or unable to carry out something, to weaken <br><br>(5:31)‏أَعَجَزْتُ‏ ‏أَنْ‏ ‏أَكُونَ‏ ‏مِثْلَ‏ ‏هَذَا‏ ‏الْغُرَابِ‏ ‏فَأُوَارِيَ‏ ‏سَوْأَةَ‏ ‏أَخِي‏ am I not [even] able to be like this raven and cover up my brother’s exposed body?",
+    "mainEntryId": "wdef-ع-ج-ز.عَجَزَ",
+    "entries": [
+      {
+        "id": "wdef-ع-ج-ز",
+        "label": "ع-ج-ز",
+        "definitionHtml": "ع/ج/ز   ʿ–j–z posteriors, buttocks, (of palm trees) stumps<br>; to hang back, to fail to perform, lack of strength, lack of ability, failure, to grow old; miracle, to out‐perform. <br><br>Of this root, 7 forms occur 26 times in the Qur’an:<br> عَجَزَ ʿajaza 1 time; أعْجَزَ ʾaʿjaza 4 times; عَجُوزٌ ʿajūz 4 times; أَعْجَازٌ ʾaʿjāz 2 times; مُعَاجِزِين muʿājizın 3 times;مُعْجِزٌ muʿjiz 1 time and مُعْجِزِين muʿjizın 11 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ج-ز.عَجَزَ",
+        "label": "عَجَزَ",
+        "definitionHtml": "عَجَزَ ʿajaza i (also عَجِز ʿajiza a) [v. intrans.] to fail to act, to be or become incapable of, to become powerless, impotent or unable to carry out something, to weaken <br><br>(5:31)‏أَعَجَزْتُ‏ ‏أَنْ‏ ‏أَكُونَ‏ ‏مِثْلَ‏ ‏هَذَا‏ ‏الْغُرَابِ‏ ‏فَأُوَارِيَ‏ ‏سَوْأَةَ‏ ‏أَخِي‏ am I not [even] able to be like this raven and cover up my brother’s exposed body?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ج-ز.أَعْجَازٌ",
+        "label": "أَعْجَازٌ",
+        "definitionHtml": "أَعْجَازٌ ʾaʿjāz [pl. of n. عَجُزٌ ʿajuz] stems, stumps, trunks (of palm trees) <br><br>(69:7) ‏فَتَرَى‏ ‏الْقَوْمَ‏ ‏فِيهَا‏ ‏صَرْعَى‏ ‏كَأَنَّهُمْ‏ ‏أَعْجَازُ‏ ‏نَخْلٍ‏ ‏خَاوِيَةٍ‏ so you could have seen the people lying dead as if they were hollow palmtree trunks.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ج-ز.أَعْجَزَ",
+        "label": "أَعْجَزَ",
+        "definitionHtml": "أَعْجَزَ ʾaʿjaza [v. IV trans.] <br><br><strong>1 </strong>to prove incapable of, to outsrip someone, to frustrate someone <br><br>(72:12) وَأَنَّا ظَنَنَّا أَن لَّن نُّعجِزَ اللَّهَ فِى الأَرْضِ وَلَن نُّعْجِزَهُ هَرَبًا and we came to know that we can never outstrip God on earth and can never escape beyond His reach <br><br><strong>2 </strong>to fall outside the capability of, to out‐class someone <br><br>(35:44) ‏وَمَا‏ ‏كَانَ‏ ‏اللَّهُ‏ ‏لِيُعْجِزَهُ‏ ‏مِنْ‏ ‏شَيْءٍ‏ ‏فِي‏ ‏السَّمَوَاتِ‏ ‏وَلاَ‏ ‏فِى‏ ‏الأَرْضِ God is not such that anything in the heavens or on earth is beyond Him.‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ج-ز.عَجُوزٌ",
+        "label": "عَجُوزٌ",
+        "definitionHtml": "عَجُوزٌ ʿajūz [quasi‐act. part., fem. of شَيْخ shaykh] very old woman <br><br>(11:72) ‏ءَأَلِدُ‏ ‏وَأَنَا‏ ‏عَجُوزٌ‏ ‏وَهَذَا‏ ‏بَعْلِي‏ ‏شَيْخًا‏ am I to bear [a child] when I am an old woman, and this my husband is an old man?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ج-ز.مُعَاجِزِين",
+        "label": "مُعَاجِزِين",
+        "definitionHtml": "مُعَاجِزِين muʿājizın [pl. of act. part. مُعَاجِز muʿājiz of v. III] one who fights and contests with another in order to prove him less capable or incapable altogether, contentious <br><br>(22:51) وَالَّذِينَ‏ ‏سَعَوْا‏ ‏فِى‏ ‏ءَايَاتِنَا‏ ‏مُعَاجِزِينَ but those who strive to oppose Our messages and act contentiously.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ج-ز.مُعْجِزٌ",
+        "label": "مُعْجِزٌ",
+        "definitionHtml": "مُعْجِزٌ muʿjiz [act. part., pl. مُعْجِزِين muʿjizın] <br><br><strong>1 </strong>one who proves others to be weak or incapable, one who outdoes someone else <br><br>(9:3) ‏وَإِنْ‏ ‏تَوَلَّيْتُمْ‏ ‏فَاعْلَمُوا‏ ‏أَنَّكُمْ‏ ‏غَيْرُ‏ ‏مُعْجِزِي‏ ‏اللَّهِ‏‏ if you turn away, know that you cannot outdo God <br><br><strong>2 </strong>one who is beyond reach <br><br>(11:33) قَالَ‏ ‏إِنَّمَا‏ ‏يَأْتِيكُمْ‏ ‏بِهِ‏ ‏اللَّهُ‏ ‏إِنْ‏ ‏شَاءَ‏ ‏وَمَا‏ ‏أَنْتُمْ‏ ‏بِمُعْجِزِينَ‏ he said, ‘It is God who will bring it upon you, if He wishes, and you are not beyond reach.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:52.766Z",
+      "refword": "5:31:14",
+      "lexword": "أَعَجَزْتُ"
+    }
+  }
+}

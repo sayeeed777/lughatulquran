@@ -1,0 +1,127 @@
+{
+  "root": "نثر",
+  "rootArabic": "نثر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَنْثُورٌ",
+      "count": 2
+    },
+    {
+      "form": "انْتَثَرَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنْثُورٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنْثُورٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْتَثَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 25,
+      "ayah": 23,
+      "text": "وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَٰهُ هَبَآءً مَّنثُورًا",
+      "highlightedHtml": "وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَٰهُ هَبَآءً <a class=\"highlight-text\">مَّنثُورًا</a>",
+      "derivedForms": [
+        "مَنْثُورٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 19,
+      "text": "وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا مَّنثُورًا",
+      "highlightedHtml": "وَيَطُوفُ عَلَيْهِمْ وِلْدَٰنٌ مُّخَلَّدُونَ إِذَا رَأَيْتَهُمْ حَسِبْتَهُمْ لُؤْلُؤًا <a class=\"highlight-text\">مَّنثُورًا</a>",
+      "derivedForms": [
+        "مَنْثُورٌ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 2,
+      "text": "وَإِذَا ٱلْكَوَاكِبُ ٱنتَثَرَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْكَوَاكِبُ <a class=\"highlight-text\">ٱنتَثَرَتْ</a>",
+      "derivedForms": [
+        "انْتَثَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:03.894Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَّنثُورًا is in the derivative form: مَنْثُورٌ",
+    "rootDefinitionHtml": "ن/ث/ر   n–th–r to strew, to scatter, to sprinkle, spillage. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> انْتَثَرَ ʾintathara 1 time and مَنْثُورٌ manthūr 2 times.",
+    "mainDefinitionHtml": "مَنْثُورٌ manthūr [pass. part.] strewn, scattered, dispersed <br><br>(76:19) حَسِبْتَهُمْ لُؤْلُؤًا مَنْثُورًا you would think they were scattered pearls.",
+    "mainEntryId": "wdef-ن-ث-ر.مَنْثُورٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ث-ر",
+        "label": "ن-ث-ر",
+        "definitionHtml": "ن/ث/ر   n–th–r to strew, to scatter, to sprinkle, spillage. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> انْتَثَرَ ʾintathara 1 time and مَنْثُورٌ manthūr 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ث-ر.مَنْثُورٌ",
+        "label": "مَنْثُورٌ",
+        "definitionHtml": "مَنْثُورٌ manthūr [pass. part.] strewn, scattered, dispersed <br><br>(76:19) حَسِبْتَهُمْ لُؤْلُؤًا مَنْثُورًا you would think they were scattered pearls.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ث-ر.انْتَثَرَ",
+        "label": "انْتَثَرَ",
+        "definitionHtml": "انْتَثَرَ ʾintathara [v. VIII intrans.] to disperse, to go in different directions <br><br>(82:2) وَإِذَا الْكَوَاكِبُ انْتَثَرَتْ and when the stars shall disperse.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:24.528Z",
+      "refword": "25:23:9",
+      "lexword": "مَّنثُورًا"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "root": "مضي",
+  "rootArabic": "مضي",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "مَضَى",
+      "count": 4
+    },
+    {
+      "form": "مُضِىّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَضَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَضَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَضَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُضِىّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَضَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 38,
+      "text": "قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ مَضَتْ سُنَّتُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ <a class=\"highlight-text\">مَضَتْ</a> سُنَّتُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "مَضَى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 65,
+      "text": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "highlightedHtml": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ <a class=\"highlight-text\">وَٱمْضُوا۟</a> حَيْثُ تُؤْمَرُونَ",
+      "derivedForms": [
+        "مَضَى"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 60,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ أَمْضِىَ حُقُبًا",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِفَتَىٰهُ لَآ أَبْرَحُ حَتَّىٰٓ أَبْلُغَ مَجْمَعَ ٱلْبَحْرَيْنِ أَوْ <a class=\"highlight-text\">أَمْضِىَ</a> حُقُبًا",
+      "derivedForms": [
+        "مَضَى"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 67,
+      "text": "وَلَوْ نَشَآءُ لَمَسَخْنَٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
+      "highlightedHtml": "وَلَوْ نَشَآءُ لَمَسَخْنَٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَٰعُوا۟ <a class=\"highlight-text\">مُضِيًّا</a> وَلَا يَرْجِعُونَ",
+      "derivedForms": [
+        "مُضِىّ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 8,
+      "text": "فَأَهْلَكْنَآ أَشَدَّ مِنْهُم بَطْشًا وَمَضَىٰ مَثَلُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "فَأَهْلَكْنَآ أَشَدَّ مِنْهُم بَطْشًا <a class=\"highlight-text\">وَمَضَىٰ</a> مَثَلُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "مَضَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:27.995Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "مَضَتْ is in the derivative form: مَضَى",
+    "rootDefinitionHtml": "م/ض/ى   m–ḍ–y to go, to leave, to pass; to continue, to go by; to execute a task; to expire, to die; to be sharp; to come to pass; to complete a deal. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> مَضَىَ maḍā 4 times and مُضِىّ muḍiyy 1 time.",
+    "mainDefinitionHtml": "مَضَى maḍā i [v. intrans.] <br><br><strong>1 </strong>to go, to keep going; to spend (time) <br><br>(18:60) وَإِذْ‏ ‏قَالَ‏ ‏مُوسَى‏ ‏لِفَتَاهُ‏ ‏لاَ‏ ‏أَبْرَحُ‏ ‏حَتَّى‏ ‏أَبْلُغَ‏ ‏مَجْمَعَ‏ ‏الْبَحْرَيْنِ‏ ‏أَوْ‏ ‏أَمْضِيَ‏ ‏حُقُبًا‏ and when Moses said to his servant, ‘I will not desist [from journeying] until I reach the place where the two seas meet, even if I go on for years <br><br><strong>2 </strong>to pass by; to come to pass, to become a norm, to become established <br><br>(8:38) قُلْ‏ ‏لِلَّذِينَ‏ ‏كَفَرُوا‏ ‏إِنْ‏ ‏يَنْتَهُوا‏ ‏يُغْفَرْ‏ ‏لَهُمْ‏ ‏مَا‏ ‏قَدْ‏ ‏سَلَفَ‏ ‏وَإِنْ‏ ‏يَعُودُوا‏ ‏فَقَدْ‏ ‏مَضَتْ‏ ‏سُنَّةُ‏ ‏الأَوَّلِينَ‏ tell those who disbelieve that if they desist, what went before will be forgiven them, but if they return [to their disbelief], then [they should know what to expect because] the example of [dealing with] those who went before has already been established.",
+    "mainEntryId": "wdef-م-ض-ى.مَضَى",
+    "entries": [
+      {
+        "id": "wdef-م-ض-ى",
+        "label": "م-ض-ى",
+        "definitionHtml": "م/ض/ى   m–ḍ–y to go, to leave, to pass; to continue, to go by; to execute a task; to expire, to die; to be sharp; to come to pass; to complete a deal. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> مَضَىَ maḍā 4 times and مُضِىّ muḍiyy 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ض-ى.مَضَى",
+        "label": "مَضَى",
+        "definitionHtml": "مَضَى maḍā i [v. intrans.] <br><br><strong>1 </strong>to go, to keep going; to spend (time) <br><br>(18:60) وَإِذْ‏ ‏قَالَ‏ ‏مُوسَى‏ ‏لِفَتَاهُ‏ ‏لاَ‏ ‏أَبْرَحُ‏ ‏حَتَّى‏ ‏أَبْلُغَ‏ ‏مَجْمَعَ‏ ‏الْبَحْرَيْنِ‏ ‏أَوْ‏ ‏أَمْضِيَ‏ ‏حُقُبًا‏ and when Moses said to his servant, ‘I will not desist [from journeying] until I reach the place where the two seas meet, even if I go on for years <br><br><strong>2 </strong>to pass by; to come to pass, to become a norm, to become established <br><br>(8:38) قُلْ‏ ‏لِلَّذِينَ‏ ‏كَفَرُوا‏ ‏إِنْ‏ ‏يَنْتَهُوا‏ ‏يُغْفَرْ‏ ‏لَهُمْ‏ ‏مَا‏ ‏قَدْ‏ ‏سَلَفَ‏ ‏وَإِنْ‏ ‏يَعُودُوا‏ ‏فَقَدْ‏ ‏مَضَتْ‏ ‏سُنَّةُ‏ ‏الأَوَّلِينَ‏ tell those who disbelieve that if they desist, what went before will be forgiven them, but if they return [to their disbelief], then [they should know what to expect because] the example of [dealing with] those who went before has already been established.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ض-ى.مُضِىّ",
+        "label": "مُضِىّ",
+        "definitionHtml": "مُضِىّ muḍiyy [v. n.] the act of proceeding, going on, moving forward <br><br>(36:67) وَلَوْ‏ ‏نَشَاءُ‏ ‏لَمَسَخْنَاهُمْ‏ ‏عَلَى‏ ‏مَكَانَتِهِمْ‏ ‏فَمَا‏ ‏اسْتَطَاعُوا‏ ‏مُضِيًّا‏ ‏وَلاَ‏ ‏يَرْجِعُونَ ‏and had We willed, We would have transmuted them in their places, so that they could not move forward or back.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:14.876Z",
+      "refword": "8:38:14",
+      "lexword": "مَضَتْ"
+    }
+  }
+}

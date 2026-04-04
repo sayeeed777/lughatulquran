@@ -1,0 +1,74 @@
+{
+  "root": "لفح",
+  "rootArabic": "لفح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَلْفَح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلْفَح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 104,
+      "text": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">تَلْفَحُ</a> وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ",
+      "derivedForms": [
+        "تَلْفَح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:37.118Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَلْفَحُ is in the derivative form: تَلْفَح",
+    "rootDefinitionHtml": "ل/ف/ح   l–f–ḥ heat of a fire, fire, glare of a fire; to scorch, to burn, to sear, to tan; to strike lightly. Of this root, only تَلْفَح talfaḥ occurs 1 time in the Qu’ran<br>.",
+    "mainDefinitionHtml": "تَلْفَح talfaḥ [imperf. of v., trans.] to scorch, to burn <br><br>(23:104) تَلْفَحُ‏ ‏وُجُوهَهُمُ‏ ‏النَّارُ the Fire will scorch their faces.",
+    "mainEntryId": "wdef-ل-ف-ح.تَلْفَح",
+    "entries": [
+      {
+        "id": "wdef-ل-ف-ح",
+        "label": "ل-ف-ح",
+        "definitionHtml": "ل/ف/ح   l–f–ḥ heat of a fire, fire, glare of a fire; to scorch, to burn, to sear, to tan; to strike lightly. Of this root, only تَلْفَح talfaḥ occurs 1 time in the Qu’ran<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ف-ح.تَلْفَح",
+        "label": "تَلْفَح",
+        "definitionHtml": "تَلْفَح talfaḥ [imperf. of v., trans.] to scorch, to burn <br><br>(23:104) تَلْفَحُ‏ ‏وُجُوهَهُمُ‏ ‏النَّارُ the Fire will scorch their faces.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:33.479Z",
+      "refword": "23:104:1",
+      "lexword": "تَلْفَحُ"
+    }
+  }
+}

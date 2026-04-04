@@ -1,0 +1,289 @@
+{
+  "root": "عون",
+  "rootArabic": "عون",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 5,
+    "surahCount": 8,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "نَسْتَعِينُ",
+      "count": 4
+    },
+    {
+      "form": "أَعَانَ",
+      "count": 2
+    },
+    {
+      "form": "تَعَاوَنُ",
+      "count": 2
+    },
+    {
+      "form": "مُسْتَعَانٌ",
+      "count": 2
+    },
+    {
+      "form": "عَوَانٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 1,
+      "surahName": "Al-Fatihah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْتَعِينُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "نَسْتَعِينُ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "عَوَانٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَعَاوَنُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسْتَعِينُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتَعَانٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعَانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتَعَانٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعَانَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 1,
+      "ayah": 5,
+      "text": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ",
+      "highlightedHtml": "إِيَّاكَ نَعْبُدُ وَإِيَّاكَ <a class=\"highlight-text\">نَسْتَعِينُ</a>",
+      "derivedForms": [
+        "نَسْتَعِينُ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 45,
+      "text": "وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱسْتَعِينُوا۟</a> بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ",
+      "derivedForms": [
+        "نَسْتَعِينُ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 68,
+      "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+      "highlightedHtml": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ <a class=\"highlight-text\">عَوَانٌۢ</a> بَيْنَ ذَٰلِكَ ۖ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+      "derivedForms": [
+        "عَوَانٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 153,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا <a class=\"highlight-text\">ٱسْتَعِينُوا۟</a> بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "نَسْتَعِينُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 2,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُحِلُّوا۟ شَعَٰٓئِرَ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ آمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَٰنًا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُحِلُّوا۟ شَعَٰٓئِرَ شَعَٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَٰٓئِدَ وَلَآ آمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَٰنًا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ <a class=\"highlight-text\">وَتَعَاوَنُوا۟</a> عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا <a class=\"highlight-text\">تَعَاوَنُوا۟</a> عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "تَعَاوَنُ",
+        "تَعَاوَنُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 128,
+      "text": "قَالَ مُوسَىٰ لِقَوْمِهِ ٱسْتَعِينُوا۟ بِٱللَّهِ وَٱصْبِرُوٓا۟ ۖ إِنَّ ٱلْأَرْضَ لِلَّهِ يُورِثُهَا مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَٱلْعَٰقِبَةُ لِلْمُتَّقِينَ",
+      "highlightedHtml": "قَالَ مُوسَىٰ لِقَوْمِهِ <a class=\"highlight-text\">ٱسْتَعِينُوا۟</a> بِٱللَّهِ وَٱصْبِرُوٓا۟ ۖ إِنَّ ٱلْأَرْضَ لِلَّهِ يُورِثُهَا مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَٱلْعَٰقِبَةُ لِلْمُتَّقِينَ",
+      "derivedForms": [
+        "نَسْتَعِينُ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 18,
+      "text": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "highlightedHtml": "وَجَآءُو عَلَىٰ قَمِيصِهِۦ بِدَمٍ كَذِبٍ ۚ قَالَ بَلْ سَوَّلَتْ لَكُمْ أَنفُسُكُمْ أَمْرًا ۖ فَصَبْرٌ جَمِيلٌ ۖ وَٱللَّهُ <a class=\"highlight-text\">ٱلْمُسْتَعَانُ</a> عَلَىٰ مَا تَصِفُونَ",
+      "derivedForms": [
+        "مُسْتَعَانٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 95,
+      "text": "قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌ فَأَعِينُونِى بِقُوَّةٍ بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا",
+      "highlightedHtml": "قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌ <a class=\"highlight-text\">فَأَعِينُونِى</a> بِقُوَّةٍ بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا",
+      "derivedForms": [
+        "أَعَانَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 112,
+      "text": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ ٱلْمُسْتَعَانُ عَلَىٰ مَا تَصِفُونَ",
+      "highlightedHtml": "قَٰلَ رَبِّ ٱحْكُم بِٱلْحَقِّ ۗ وَرَبُّنَا ٱلرَّحْمَٰنُ <a class=\"highlight-text\">ٱلْمُسْتَعَانُ</a> عَلَىٰ مَا تَصِفُونَ",
+      "derivedForms": [
+        "مُسْتَعَانٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 4,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ <a class=\"highlight-text\">وَأَعَانَهُۥ</a> عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
+      "derivedForms": [
+        "أَعَانَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:42.287Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form X) imperfect verb",
+    "derivativeNote": "نَسْتَعِينُ is in the derivative form: نَسْتَعِينُ",
+    "rootDefinitionHtml": "ع/و/ن   ʿ–w–n herd of zebras<br>; to be in a middle state, being middle‐aged; tall palm tree; helper, backer, to assist. <br><br>Of this root, 5 forms occur 11 times in the Qur’an:<br> أَعَانَ ʾaʿāna 2 times; تَعَاوَنَ taʿāwana 2 times; نَسْتَعِينُ nastaʿīn 4 times; مُسْتَعَانٌ mustaʿān 2 times and عَوَانٌ ʿawān 1 time.",
+    "mainDefinitionHtml": "نَسْتَعِينُ nastaʿīn [imperf. of v. X intrans.] to seek assistance <br><br>(2:153) ‏اسْتَعِينُوا‏ ‏بِالصَّبْرِ‏ ‏وَالصَّلاَةِ‏‏ seek help through steadfastness and prayer.",
+    "mainEntryId": "wdef-ع-و-ن.نَسْتَعِينُ",
+    "entries": [
+      {
+        "id": "wdef-ع-و-ن",
+        "label": "ع-و-ن",
+        "definitionHtml": "ع/و/ن   ʿ–w–n herd of zebras<br>; to be in a middle state, being middle‐aged; tall palm tree; helper, backer, to assist. <br><br>Of this root, 5 forms occur 11 times in the Qur’an:<br> أَعَانَ ʾaʿāna 2 times; تَعَاوَنَ taʿāwana 2 times; نَسْتَعِينُ nastaʿīn 4 times; مُسْتَعَانٌ mustaʿān 2 times and عَوَانٌ ʿawān 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ن.نَسْتَعِينُ",
+        "label": "نَسْتَعِينُ",
+        "definitionHtml": "نَسْتَعِينُ nastaʿīn [imperf. of v. X intrans.] to seek assistance <br><br>(2:153) ‏اسْتَعِينُوا‏ ‏بِالصَّبْرِ‏ ‏وَالصَّلاَةِ‏‏ seek help through steadfastness and prayer.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-و-ن.أَعَانَ",
+        "label": "أَعَانَ",
+        "definitionHtml": "أَعَانَ ʾaʿāna [v. IV trans.] to assist <br><br>(25:4) ‏وَأَعَانَهُ‏ ‏عَلَيْهِ‏ ‏قَوْمٌ‏ ‏ءَاخَرُونَ‏ and other people helped him with it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ن.تَعَاوَنُ",
+        "label": "تَعَاوَنُ",
+        "definitionHtml": "تَعَاوَنُ taʿāwan [imper. of v. VI intrans.] help one another, cooperate with one another <br><br>(5:2) ‏وَتَعَاوَنُوا‏ ‏عَلَى‏ ‏الْبِرِّ‏ ‏وَالتَّقْوَى and assist each other in charity and pious actions.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ن.عَوَانٌ",
+        "label": "عَوَانٌ",
+        "definitionHtml": "عَوَانٌ ʿawān [quasi‐act. part.] (of an animal) neither young nor old, middle‐aged <br><br>(2:68) ‏إِنَّهَا‏ ‏بَقَرَةٌ‏ ‏لاَ‏ ‏فَارِضٌ‏ ‏وَلاَ‏ ‏بِكْرٌ‏ ‏عَوَانٌ‏ ‏بَيْنَ‏ ‏ذَلِكَ it is a cow [which should be] neither too old nor too young, but in‐ between.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ن.مُسْتَعَانٌ",
+        "label": "مُسْتَعَانٌ",
+        "definitionHtml": "مُسْتَعَانٌ mustaʿān [pass. part.] one whose assistance is sought, one who is beseeched <br><br>(12:18) ‏‏وَاللَّهُ‏ ‏الْمُسْتَعَانُ‏ ‏عَلَى‏ ‏مَا‏ ‏تَصِفُونَ‏ and it is God whose help is sought in [overcoming] what you describe.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:01.596Z",
+      "refword": "1:5:4",
+      "lexword": "نَسْتَعِينُ"
+    }
+  }
+}

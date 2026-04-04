@@ -1,0 +1,113 @@
+{
+  "root": "حيض",
+  "rootArabic": "حيض",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَحِيضٌ",
+      "count": 3
+    },
+    {
+      "form": "يَحِيضُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَحِيضٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَحِيضٌ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يَحِيضُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 222,
+      "text": "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
+      "highlightedHtml": "وَيَسْـَٔلُونَكَ عَنِ <a class=\"highlight-text\">ٱلْمَحِيضِ</a> ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى <a class=\"highlight-text\">ٱلْمَحِيضِ</a> ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
+      "derivedForms": [
+        "مَحِيضٌ",
+        "مَحِيضٌ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 4,
+      "text": "وَٱلَّٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَٰثَةُ أَشْهُرٍ وَٱلَّٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+      "highlightedHtml": "وَٱلَّٰٓـِٔى يَئِسْنَ مِنَ <a class=\"highlight-text\">ٱلْمَحِيضِ</a> مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَٰثَةُ أَشْهُرٍ وَٱلَّٰٓـِٔى لَمْ <a class=\"highlight-text\">يَحِضْنَ</a> ۚ وَأُو۟لَٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+      "derivedForms": [
+        "مَحِيضٌ",
+        "يَحِيضُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:54.365Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine passive participle",
+    "derivativeNote": "ٱلْمَحِيضِ is in the derivative form: مَحِيضٌ",
+    "rootDefinitionHtml": "ح/ي/ض ḥ–y–ḍ flooding, to flood; to menstruate, menstruation. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَحِضْن yaḥiḍn 1 time and مَحِيضٌ maḥıḍ 3 times.",
+    "mainDefinitionHtml": "مَحِيضٌ maḥıḍ [v. n.;n. of time] menstruating/period of menstruating <br><br>(2:222) فَاعْتَزِلُوا النِّسَاءَ فِى الْمَحِيضِ so keep away from [do not have intercourse with] women during menstruation.",
+    "mainEntryId": "wdef-ح-ي-ض.مَحِيضٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-ي-ض",
+        "label": "ح-ي-ض",
+        "definitionHtml": "ح/ي/ض ḥ–y–ḍ flooding, to flood; to menstruate, menstruation. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَحِضْن yaḥiḍn 1 time and مَحِيضٌ maḥıḍ 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ي-ض.مَحِيضٌ",
+        "label": "مَحِيضٌ",
+        "definitionHtml": "مَحِيضٌ maḥıḍ [v. n.;n. of time] menstruating/period of menstruating <br><br>(2:222) فَاعْتَزِلُوا النِّسَاءَ فِى الْمَحِيضِ so keep away from [do not have intercourse with] women during menstruation.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ي-ض.يَحِيضُ",
+        "label": "يَحِيضُ",
+        "definitionHtml": "يَحِيضُ taḥıḍ [imperf. of v. حَاضَتْ ḥāḍat, intrans.] to menstruate <br><br>(65:4) وَاللاَّئِي لَمْ يَحِضْنَ and for those who have not [yet] menstruated.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:12.885Z",
+      "refword": "2:222:3",
+      "lexword": "ٱلْمَحِيضِ"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "root": "اسن",
+  "rootArabic": "اسن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ءَاسِنٍ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ءَاسِنٍ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 47,
+      "ayah": 15,
+      "text": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ آسِنٍ وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "highlightedHtml": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ فِيهَآ أَنْهَٰرٌ مِّن مَّآءٍ غَيْرِ <a class=\"highlight-text\">آسِنٍ</a> وَأَنْهَٰرٌ مِّن لَّبَنٍ لَّمْ يَتَغَيَّرْ طَعْمُهُۥ وَأَنْهَٰرٌ مِّنْ خَمْرٍ لَّذَّةٍ لِّلشَّٰرِبِينَ وَأَنْهَٰرٌ مِّنْ عَسَلٍ مُّصَفًّى ۖ وَلَهُمْ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ ۖ كَمَنْ هُوَ خَٰلِدٌ فِى ٱلنَّارِ وَسُقُوا۟ مَآءً حَمِيمًا فَقَطَّعَ أَمْعَآءَهُمْ",
+      "derivedForms": [
+        "ءَاسِنٍ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:32.576Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite active participle",
+    "derivativeNote": "آسِنٍ is in the derivative form: ءَاسِنٍ",
+    "rootDefinitionHtml": "أ/س/ن ʾ–s–n relic; (of water) to become putrid, to be overcome with fumes from such water; to take after one’s father. Of this root, ءَاسِنٍ ʾāsin occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ءَاسِنٍ ʾāsin [quasi-act. part.] polluted, putrid, stinking <br><br>(47:15) فِيهَا أَنْهَارٌ مِنْ مَاءٍ غَيْرِ ءَاسِنٍ in it there are rivers of water unpolluted.",
+    "mainEntryId": "wdef-أ-س-ن.ءَاسِنٍ",
+    "entries": [
+      {
+        "id": "wdef-أ-س-ن",
+        "label": "أ-س-ن",
+        "definitionHtml": "أ/س/ن ʾ–s–n relic; (of water) to become putrid, to be overcome with fumes from such water; to take after one’s father. Of this root, ءَاسِنٍ ʾāsin occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-ن.ءَاسِنٍ",
+        "label": "ءَاسِنٍ",
+        "definitionHtml": "ءَاسِنٍ ʾāsin [quasi-act. part.] polluted, putrid, stinking <br><br>(47:15) فِيهَا أَنْهَارٌ مِنْ مَاءٍ غَيْرِ ءَاسِنٍ in it there are rivers of water unpolluted.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:13.335Z",
+      "refword": "47:15:11",
+      "lexword": "آسِنٍ"
+    }
+  }
+}

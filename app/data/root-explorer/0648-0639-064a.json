@@ -1,0 +1,178 @@
+{
+  "root": "وعي",
+  "rootArabic": "وعي",
+  "stats": {
+    "totalOccurrences": 7,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "وِعَاءٌ",
+      "count": 3
+    },
+    {
+      "form": "أَوْعَى",
+      "count": 2
+    },
+    {
+      "form": "تَعِي",
+      "count": 1
+    },
+    {
+      "form": "وَاعِيَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "وِعَاءٌ",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَعِي",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "وَاعِيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْعَى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 76,
+      "text": "فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَآءِ أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن وِعَآءِ أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "highlightedHtml": "فَبَدَأَ <a class=\"highlight-text\">بِأَوْعِيَتِهِمْ</a> قَبْلَ <a class=\"highlight-text\">وِعَآءِ</a> أَخِيهِ ثُمَّ ٱسْتَخْرَجَهَا مِن <a class=\"highlight-text\">وِعَآءِ</a> أَخِيهِ ۚ كَذَٰلِكَ كِدْنَا لِيُوسُفَ ۖ مَا كَانَ لِيَأْخُذَ أَخَاهُ فِى دِينِ ٱلْمَلِكِ إِلَّآ أَن يَشَآءَ ٱللَّهُ ۚ نَرْفَعُ دَرَجَٰتٍ مَّن نَّشَآءُ ۗ وَفَوْقَ كُلِّ ذِى عِلْمٍ عَلِيمٌ",
+      "derivedForms": [
+        "وِعَاءٌ",
+        "وِعَاءٌ",
+        "وِعَاءٌ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 12,
+      "text": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً وَتَعِيَهَآ أُذُنٌ وَٰعِيَةٌ",
+      "highlightedHtml": "لِنَجْعَلَهَا لَكُمْ تَذْكِرَةً <a class=\"highlight-text\">وَتَعِيَهَآ</a> أُذُنٌ <a class=\"highlight-text\">وَٰعِيَةٌ</a>",
+      "derivedForms": [
+        "تَعِي",
+        "وَاعِيَةٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 18,
+      "text": "وَجَمَعَ فَأَوْعَىٰٓ",
+      "highlightedHtml": "وَجَمَعَ <a class=\"highlight-text\">فَأَوْعَىٰٓ</a>",
+      "derivedForms": [
+        "أَوْعَى"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 23,
+      "text": "وَٱللَّهُ أَعْلَمُ بِمَا يُوعُونَ",
+      "highlightedHtml": "وَٱللَّهُ أَعْلَمُ بِمَا <a class=\"highlight-text\">يُوعُونَ</a>",
+      "derivedForms": [
+        "أَوْعَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:33.509Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "بِأَوْعِيَتِهِمْ is in the derivative form: وِعَاءٌ",
+    "rootDefinitionHtml": "و/ع/ي   w–ʿ–y vessel, container<br>; awareness, comprehension; noise; to collect, to gather, to comprise; to comprehend, to be aware, to be alert; (of a wound) to secrete; to exhaust. <br><br>Of this root, 5 forms occur 7 times in the Qur’an:<br> تَعِي taʿı 1 time; أَوْعَى ʾawʿā 2 times; وَاعِيَةٌ wāʿiyatun 1 time; وِعَاءٌ wiʿāʾ 2 times and أَوْعِيَةٌ ʾawʿiyatun 1 time.",
+    "mainDefinitionHtml": "وِعَاءٌ wiʿāʾ [n. pl. أَوْعِيَةٌ ʾawʿiyatun] baggage, pack, travel gear <br><br>(12:76) فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيهِ so he began with their packs before the pack of his brother.",
+    "mainEntryId": "wdef-و-ع-ي.وِعَاءٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ع-ي",
+        "label": "و-ع-ي",
+        "definitionHtml": "و/ع/ي   w–ʿ–y vessel, container<br>; awareness, comprehension; noise; to collect, to gather, to comprise; to comprehend, to be aware, to be alert; (of a wound) to secrete; to exhaust. <br><br>Of this root, 5 forms occur 7 times in the Qur’an:<br> تَعِي taʿı 1 time; أَوْعَى ʾawʿā 2 times; وَاعِيَةٌ wāʿiyatun 1 time; وِعَاءٌ wiʿāʾ 2 times and أَوْعِيَةٌ ʾawʿiyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ع-ي.وِعَاءٌ",
+        "label": "وِعَاءٌ",
+        "definitionHtml": "وِعَاءٌ wiʿāʾ [n. pl. أَوْعِيَةٌ ʾawʿiyatun] baggage, pack, travel gear <br><br>(12:76) فَبَدَأَ بِأَوْعِيَتِهِمْ قَبْلَ وِعَاءِ أَخِيهِ so he began with their packs before the pack of his brother.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ع-ي.أَوْعَى",
+        "label": "أَوْعَى",
+        "definitionHtml": "أَوْعَى ʾawʿā [v. IV, trans.] <br><br><strong>1 </strong>to keep from others, to hoard, <br><br>(70:18) وَجَمَعَ فَأَوْعَى amasses [wealth] and hoards it <br><br><strong>2 </strong>to hide in one’s heart, to harbour <br><br>(84:23) وَاللَّهُ أَعْلَمُ بِمَا يُوعُونَ God knows best what they keep hidden inside [their hearts].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ع-ي.تَعِي",
+        "label": "تَعِي",
+        "definitionHtml": "تَعِي taʿı [imperf. of v. وَعَى waʿā, trans.] to grasp, to perceive, to retain, to take in <br><br>(69:12) وَتَعِيَهَا أُذُنٌ وَاعِيَةٌ and attentive ears might take it in.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ع-ي.وَاعِيَةٌ",
+        "label": "وَاعِيَةٌ",
+        "definitionHtml": "وَاعِيَةٌ wāʿiyatun [fem. act. part.] perceptive, attentive, grasping <br><br>(69:12) وَتَعِيَهَا أُذُنٌ وَاعِيَةٌ and attentive ears might take it in.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:10.420Z",
+      "refword": "12:76:2",
+      "lexword": "بِأَوْعِيَتِهِمْ"
+    }
+  }
+}

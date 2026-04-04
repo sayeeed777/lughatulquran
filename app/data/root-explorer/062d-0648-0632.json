@@ -1,0 +1,74 @@
+{
+  "root": "حوز",
+  "rootArabic": "حوز",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُتَحَيِّزٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَحَيِّزٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 16,
+      "text": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍ فَقَدْ بَآءَ بِغَضَبٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ <a class=\"highlight-text\">مُتَحَيِّزًا</a> إِلَىٰ فِئَةٍ فَقَدْ بَآءَ بِغَضَبٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "مُتَحَيِّزٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:48.048Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form V) active participle",
+    "derivativeNote": "مُتَحَيِّزًا is in the derivative form: مُتَحَيِّزٌ",
+    "rootDefinitionHtml": "ح/و/ز   ḥ–w–z area, domain, holding; to incline, to side with, to press together. Of this root, مُتَحَيِّزٌ mutaḥayyiz occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُتَحَيِّزٌ mutaḥayyiz [act. part.] one siding with a faction, one who abandons his position for another <br><br>(8:16) وَمَنْ يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُ إِلاَّ مُتَحَرِّفًا لِقِتَالٍ أَوْ مُتَحَيِّزًا إِلَى فِئَةٍ فَقَدْ بَاءَ بِغَضَبٍ مِنَ اللَّهِ and whoever on that day turns his back on them–unless manoeuvring for battle or to side with a [fighting] group–he incurs wrath from God.",
+    "mainEntryId": "wdef-ح-و-ز.مُتَحَيِّزٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-و-ز",
+        "label": "ح-و-ز",
+        "definitionHtml": "ح/و/ز   ḥ–w–z area, domain, holding; to incline, to side with, to press together. Of this root, مُتَحَيِّزٌ mutaḥayyiz occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-و-ز.مُتَحَيِّزٌ",
+        "label": "مُتَحَيِّزٌ",
+        "definitionHtml": "مُتَحَيِّزٌ mutaḥayyiz [act. part.] one siding with a faction, one who abandons his position for another <br><br>(8:16) وَمَنْ يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُ إِلاَّ مُتَحَرِّفًا لِقِتَالٍ أَوْ مُتَحَيِّزًا إِلَى فِئَةٍ فَقَدْ بَاءَ بِغَضَبٍ مِنَ اللَّهِ and whoever on that day turns his back on them–unless manoeuvring for battle or to side with a [fighting] group–he incurs wrath from God.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:59.835Z",
+      "refword": "8:16:9",
+      "lexword": "مُتَحَيِّزًا"
+    }
+  }
+}

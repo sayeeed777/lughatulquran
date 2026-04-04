@@ -1,0 +1,283 @@
+{
+  "root": "شقو",
+  "rootArabic": "شقو",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "شَقِىَ",
+      "count": 4
+    },
+    {
+      "form": "شَقيٌ",
+      "count": 4
+    },
+    {
+      "form": "أشْقى",
+      "count": 3
+    },
+    {
+      "form": "شِقْوةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شَقِىَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "شَقيٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "شَقيٌ",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "شَقِىَ",
+          "count": 3,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شِقْوةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْقى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْقى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْقى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 11,
+      "ayah": 105,
+      "text": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ شَقِىٌّ وَسَعِيدٌ",
+      "highlightedHtml": "يَوْمَ يَأْتِ لَا تَكَلَّمُ نَفْسٌ إِلَّا بِإِذْنِهِۦ ۚ فَمِنْهُمْ <a class=\"highlight-text\">شَقِىٌّ</a> وَسَعِيدٌ",
+      "derivedForms": [
+        "شَقيٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 106,
+      "text": "فَأَمَّا ٱلَّذِينَ شَقُوا۟ فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ",
+      "highlightedHtml": "فَأَمَّا ٱلَّذِينَ <a class=\"highlight-text\">شَقُوا۟</a> فَفِى ٱلنَّارِ لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ",
+      "derivedForms": [
+        "شَقِىَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 4,
+      "text": "قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ شَقِيًّا",
+      "highlightedHtml": "قَالَ رَبِّ إِنِّى وَهَنَ ٱلْعَظْمُ مِنِّى وَٱشْتَعَلَ ٱلرَّأْسُ شَيْبًا وَلَمْ أَكُنۢ بِدُعَآئِكَ رَبِّ <a class=\"highlight-text\">شَقِيًّا</a>",
+      "derivedForms": [
+        "شَقيٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 32,
+      "text": "وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًا شَقِيًّا",
+      "highlightedHtml": "وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًا <a class=\"highlight-text\">شَقِيًّا</a>",
+      "derivedForms": [
+        "شَقيٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 48,
+      "text": "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى شَقِيًّا",
+      "highlightedHtml": "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ ٱللَّهِ وَأَدْعُوا۟ رَبِّى عَسَىٰٓ أَلَّآ أَكُونَ بِدُعَآءِ رَبِّى <a class=\"highlight-text\">شَقِيًّا</a>",
+      "derivedForms": [
+        "شَقيٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 2,
+      "text": "مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ لِتَشْقَىٰٓ",
+      "highlightedHtml": "مَآ أَنزَلْنَا عَلَيْكَ ٱلْقُرْءَانَ <a class=\"highlight-text\">لِتَشْقَىٰٓ</a>",
+      "derivedForms": [
+        "شَقِىَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 117,
+      "text": "فَقُلْنَا يَٰٓـَٔادَمُ إِنَّ هَٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ فَتَشْقَىٰٓ",
+      "highlightedHtml": "فَقُلْنَا يَٰٓـَٔادَمُ إِنَّ هَٰذَا عَدُوٌّ لَّكَ وَلِزَوْجِكَ فَلَا يُخْرِجَنَّكُمَا مِنَ ٱلْجَنَّةِ <a class=\"highlight-text\">فَتَشْقَىٰٓ</a>",
+      "derivedForms": [
+        "شَقِىَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 123,
+      "text": "قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ",
+      "highlightedHtml": "قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا <a class=\"highlight-text\">يَشْقَىٰ</a>",
+      "derivedForms": [
+        "شَقِىَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 106,
+      "text": "قَالُوا۟ رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَآلِّينَ",
+      "highlightedHtml": "قَالُوا۟ رَبَّنَا غَلَبَتْ عَلَيْنَا <a class=\"highlight-text\">شِقْوَتُنَا</a> وَكُنَّا قَوْمًا ضَآلِّينَ",
+      "derivedForms": [
+        "شِقْوةٌ"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 11,
+      "text": "وَيَتَجَنَّبُهَا ٱلْأَشْقَى",
+      "highlightedHtml": "وَيَتَجَنَّبُهَا <a class=\"highlight-text\">ٱلْأَشْقَى</a>",
+      "derivedForms": [
+        "أشْقى"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 12,
+      "text": "إِذِ ٱنۢبَعَثَ أَشْقَىٰهَا",
+      "highlightedHtml": "إِذِ ٱنۢبَعَثَ <a class=\"highlight-text\">أَشْقَىٰهَا</a>",
+      "derivedForms": [
+        "أشْقى"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 15,
+      "text": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "highlightedHtml": "لَا يَصْلَىٰهَآ إِلَّا <a class=\"highlight-text\">ٱلْأَشْقَى</a>",
+      "derivedForms": [
+        "أشْقى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:18.026Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine singular indefinite noun",
+    "derivativeNote": "شَقِىٌّ is in the derivative form: شَقيٌ",
+    "rootDefinitionHtml": "ش/ق/و-ي   sh–q–w/y to be, or become, in a state of distress, adversity, straits, difficulty, misery<br>; to struggle, or labour, alongside; wretchedness, misery. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> َشَقِي shaqiya 4 times; شَقِيّ shaqiyy 4 times; أشْقى ʾashqā 3 times and شِقْوَة shiqwatun 1 time.",
+    "mainDefinitionHtml": "شَقيٌ shaqiyy [ quasi‐act. part./n.] <br><br><strong>1 </strong>wretched <br><br>(11:105) يَوْمَ يَأْتِ لاَ تَكَلَّمُ نَفْسٌ إِلاَّ بِإِذْنِهِ فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ and on the day when it [the Day of Resurrection] comes, no soul will speak except by His permission, and some of them will be wretched and [some] happy <br><br><strong>2 </strong>evil‐doer <br><br>(19:32) وَبَرًّا بِوَالِدَتِي وَلَمْ يَجْعَلْنِي جَبَّارًا شَقِيًّا and cherishing my mother–He did not make me an evil tyrant <br><br><strong>3 </strong>rejected, dismissed, unprosperous <br><br>(19:4) وَلَمْ أَكُنْ بِدُعَائِكَ رَبِّ شَقِيًّا but never, My Lord, have I, in praying to You, been rejected.",
+    "mainEntryId": "wdef-ش-ق-و-ي.شَقيٌ",
+    "entries": [
+      {
+        "id": "wdef-ش-ق-و-ي",
+        "label": "ش-ق-و-ي",
+        "definitionHtml": "ش/ق/و-ي   sh–q–w/y to be, or become, in a state of distress, adversity, straits, difficulty, misery<br>; to struggle, or labour, alongside; wretchedness, misery. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> َشَقِي shaqiya 4 times; شَقِيّ shaqiyy 4 times; أشْقى ʾashqā 3 times and شِقْوَة shiqwatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-و-ي.شَقيٌ",
+        "label": "شَقيٌ",
+        "definitionHtml": "شَقيٌ shaqiyy [ quasi‐act. part./n.] <br><br><strong>1 </strong>wretched <br><br>(11:105) يَوْمَ يَأْتِ لاَ تَكَلَّمُ نَفْسٌ إِلاَّ بِإِذْنِهِ فَمِنْهُمْ شَقِيٌّ وَسَعِيدٌ and on the day when it [the Day of Resurrection] comes, no soul will speak except by His permission, and some of them will be wretched and [some] happy <br><br><strong>2 </strong>evil‐doer <br><br>(19:32) وَبَرًّا بِوَالِدَتِي وَلَمْ يَجْعَلْنِي جَبَّارًا شَقِيًّا and cherishing my mother–He did not make me an evil tyrant <br><br><strong>3 </strong>rejected, dismissed, unprosperous <br><br>(19:4) وَلَمْ أَكُنْ بِدُعَائِكَ رَبِّ شَقِيًّا but never, My Lord, have I, in praying to You, been rejected.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ق-و-ي.أشْقى",
+        "label": "أشْقى",
+        "definitionHtml": "أشْقى ʾashqā [elat.] more/most wretched, more/most condemned <br><br>(92:15) لاَ يَصْلاَهَا إِلاَّ الأَشْقَى in which none but the most wretched will burn.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-و-ي.شَقِىَ",
+        "label": "شَقِىَ",
+        "definitionHtml": "شَقِىَ shaqiya a [v. intrans.] <br><br><strong>1 </strong>to be, or become, miserable, wretched, distressed, unhappy <br><br>(20:2) مَا أَنْزَلْنَا عَلَيْكَ الْقُرْءَانَ لِتَشْقَى We have not sent down the Qur’an to you [Prophet] so that you may become unhappy <br><br><strong>2 </strong>to be condemned, to be out of God’s grace (possibly in 11:106) فَأَمَّا الَّذِينَ شَقُوا فَفِي النَّارِ as for the wretched, they shall be in the Fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ق-و-ي.شِقْوةٌ",
+        "label": "شِقْوةٌ",
+        "definitionHtml": "شِقْوةٌ shiqwatun [n.] misfortune, wretchedness, misery, condemnation, adversity <br><br>(23:106) رَبَّنَا غَلَبَتْ عَلَيْنَا شِقْوَتُنَا وَكُنَّا قَوْمًا ضَالِّينَ our Lord, our misfortune has overwhelmed us!, indeed, we were people gone astray.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:38.587Z",
+      "refword": "11:105:9",
+      "lexword": "شَقِىٌّ"
+    }
+  }
+}

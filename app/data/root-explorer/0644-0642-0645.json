@@ -1,0 +1,81 @@
+{
+  "root": "لقم",
+  "rootArabic": "لقم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اِلْتَقَمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْتَقَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 142,
+      "text": "فَٱلْتَقَمَهُ ٱلْحُوتُ وَهُوَ مُلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلْتَقَمَهُ</a> ٱلْحُوتُ وَهُوَ مُلِيمٌ",
+      "derivedForms": [
+        "اِلْتَقَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:42.840Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form VIII) perfect verb",
+    "derivativeNote": "فَٱلْتَقَمَهُ is in the derivative form: اِلْتَقَمَ",
+    "rootDefinitionHtml": "ل/ق/م   l–q–m to swallow, to gobble up; morsel, mouthful of food, to hand-feed; to obstruct. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> اِلْتَقَمَ ʾiltaqama 1 time and لُقْمَان Luqmān 2 times.",
+    "mainDefinitionHtml": "اِلْتَقَمَ ʾiltaqama [v. VIII. trans.] to gobble up, to swallow up <br><br>(37:142) فَالْتَقَمَهُ‏ ‏الْحُوتُ‏ ‏وَهُوَ‏ ‏مُلِيمٌ‏ so the great fish swallowed him while he was blameworthy.",
+    "mainEntryId": "wdef-ل-ق-م.اِلْتَقَمَ",
+    "entries": [
+      {
+        "id": "wdef-ل-ق-م",
+        "label": "ل-ق-م",
+        "definitionHtml": "ل/ق/م   l–q–m to swallow, to gobble up; morsel, mouthful of food, to hand-feed; to obstruct. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> اِلْتَقَمَ ʾiltaqama 1 time and لُقْمَان Luqmān 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ق-م.اِلْتَقَمَ",
+        "label": "اِلْتَقَمَ",
+        "definitionHtml": "اِلْتَقَمَ ʾiltaqama [v. VIII. trans.] to gobble up, to swallow up <br><br>(37:142) فَالْتَقَمَهُ‏ ‏الْحُوتُ‏ ‏وَهُوَ‏ ‏مُلِيمٌ‏ so the great fish swallowed him while he was blameworthy.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ق-م.لُقْمَان",
+        "label": "لُقْمَان",
+        "definitionHtml": "لُقْمَان Luqmān [proper n.] a man whom the Qur’an describes as someone whom God has endowed with wisdom. He is said to have been a prophet, pious man or man of wisdom <br><br>(31:13)‏وَإِذْ‏ قَالَ‏ ‏لُقْمَانُ‏ ‏لاِبْنِهِ‏ ‏وَهُوَ يَعِظُهُ‏ ‏يَابُنَيَّ‏ ‏لاَ‏ ‏تُشْرِكْ‏ بِاللَّهِ and when Luqmān counselled his son, ‘My son, do not attribute partners to God‏’; * لُقْمَان name of Sura 31, Meccan sura, so-named because of the reference in verses 12–<br><br><strong>19 </strong>to ‘Luqmān’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:46.677Z",
+      "refword": "37:142:1",
+      "lexword": "فَٱلْتَقَمَهُ"
+    }
+  }
+}

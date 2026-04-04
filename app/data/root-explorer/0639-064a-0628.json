@@ -1,0 +1,74 @@
+{
+  "root": "عيب",
+  "rootArabic": "عيب",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَعِيبُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعِيبُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 79,
+      "text": "أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ فَأَرَدتُّ أَنْ أَعِيبَهَا وَكَانَ وَرَآءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا",
+      "highlightedHtml": "أَمَّا ٱلسَّفِينَةُ فَكَانَتْ لِمَسَٰكِينَ يَعْمَلُونَ فِى ٱلْبَحْرِ فَأَرَدتُّ أَنْ <a class=\"highlight-text\">أَعِيبَهَا</a> وَكَانَ وَرَآءَهُم مَّلِكٌ يَأْخُذُ كُلَّ سَفِينَةٍ غَصْبًا",
+      "derivedForms": [
+        "أَعِيبُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:43.246Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb, subjunctive mood",
+    "derivativeNote": "أَعِيبَهَا is in the derivative form: أَعِيبُ",
+    "rootDefinitionHtml": "ع/ي/ب ʿ–y–b large sack, bag for holding clothes and other belongings, bosom, confidant; to cause to be defective, to damage, to slander. Of this root, only أَعِيبُ ʾaʿīb occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَعِيبُ ʾaʿīb [imperf. of v. عابَ ʿāba trans.] to render defective, to damage <br><br>(18:79) ‏فَأَرَدْتُ‏ ‏أَنْ‏ ‏أَعِيبَهَا‏ and I sought to damage it.",
+    "mainEntryId": "wdef-ع-ي-ب.أَعِيبُ",
+    "entries": [
+      {
+        "id": "wdef-ع-ي-ب",
+        "label": "ع-ي-ب",
+        "definitionHtml": "ع/ي/ب ʿ–y–b large sack, bag for holding clothes and other belongings, bosom, confidant; to cause to be defective, to damage, to slander. Of this root, only أَعِيبُ ʾaʿīb occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ي-ب.أَعِيبُ",
+        "label": "أَعِيبُ",
+        "definitionHtml": "أَعِيبُ ʾaʿīb [imperf. of v. عابَ ʿāba trans.] to render defective, to damage <br><br>(18:79) ‏فَأَرَدْتُ‏ ‏أَنْ‏ ‏أَعِيبَهَا‏ and I sought to damage it.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:03.845Z",
+      "refword": "18:79:10",
+      "lexword": "أَعِيبَهَا"
+    }
+  }
+}

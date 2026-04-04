@@ -1,0 +1,138 @@
+{
+  "root": "وتر",
+  "rootArabic": "وتر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَتْرَى",
+      "count": 1
+    },
+    {
+      "form": "وَتْرٌ",
+      "count": 1
+    },
+    {
+      "form": "يَتِرُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَتْرَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتِرُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَتْرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 44,
+      "text": "ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَا ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
+      "highlightedHtml": "ثُمَّ أَرْسَلْنَا رُسُلَنَا <a class=\"highlight-text\">تَتْرَا</a> ۖ كُلَّ مَا جَآءَ أُمَّةً رَّسُولُهَا كَذَّبُوهُ ۚ فَأَتْبَعْنَا بَعْضَهُم بَعْضًا وَجَعَلْنَٰهُمْ أَحَادِيثَ ۚ فَبُعْدًا لِّقَوْمٍ لَّا يُؤْمِنُونَ",
+      "derivedForms": [
+        "تَتْرَى"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 35,
+      "text": "فَلَا تَهِنُوا۟ وَتَدْعُوٓا۟ إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلْأَعْلَوْنَ وَٱللَّهُ مَعَكُمْ وَلَن يَتِرَكُمْ أَعْمَٰلَكُمْ",
+      "highlightedHtml": "فَلَا تَهِنُوا۟ وَتَدْعُوٓا۟ إِلَى ٱلسَّلْمِ وَأَنتُمُ ٱلْأَعْلَوْنَ وَٱللَّهُ مَعَكُمْ وَلَن <a class=\"highlight-text\">يَتِرَكُمْ</a> أَعْمَٰلَكُمْ",
+      "derivedForms": [
+        "يَتِرُ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 3,
+      "text": "وَٱلشَّفْعِ وَٱلْوَتْرِ",
+      "highlightedHtml": "وَٱلشَّفْعِ <a class=\"highlight-text\">وَٱلْوَتْرِ</a>",
+      "derivedForms": [
+        "وَتْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:55.026Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine noun",
+    "derivativeNote": "تَتْرَا is in the derivative form: تَتْرَى",
+    "rootDefinitionHtml": "و/ت/ر   w–t–r string of a bow<br>; tendon; tension; injustice; odd number, individual mode, fashion, method; to detract, to give less than is due; to follow in an uninterrupted manner, to be in a sequence, 1 at a time; to avenge oneself. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَتِرُ yatir; تَتْرَى tatrā and وَتْرٌ watr.",
+    "mainDefinitionHtml": "تَتْرَى tatrā [quasi‐act. part.] slow and steady succession <br><br>(23:44) ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَى then We sent Our messengers in succession.",
+    "mainEntryId": "wdef-و-ت-ر.تَتْرَى",
+    "entries": [
+      {
+        "id": "wdef-و-ت-ر",
+        "label": "و-ت-ر",
+        "definitionHtml": "و/ت/ر   w–t–r string of a bow<br>; tendon; tension; injustice; odd number, individual mode, fashion, method; to detract, to give less than is due; to follow in an uninterrupted manner, to be in a sequence, 1 at a time; to avenge oneself. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَتِرُ yatir; تَتْرَى tatrā and وَتْرٌ watr.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ت-ر.تَتْرَى",
+        "label": "تَتْرَى",
+        "definitionHtml": "تَتْرَى tatrā [quasi‐act. part.] slow and steady succession <br><br>(23:44) ثُمَّ أَرْسَلْنَا رُسُلَنَا تَتْرَى then We sent Our messengers in succession.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ت-ر.وَتْرٌ",
+        "label": "وَتْرٌ",
+        "definitionHtml": "وَتْرٌ watr [n.] odd number, one, individual [also interpreted as the one, as distinguished from the many, or creation] <br><br>(89:1–3) وَالفَجْرِ وَ لَيَالٍ عَشْرٍ وَالشَفعِ وَالوَتْر by the daybreak; by the Ten Nights; by the even; by the odd/the one.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ت-ر.يَتِرُ",
+        "label": "يَتِرُ",
+        "definitionHtml": "يَتِرُ yatir [imperf. of v. وَتَرَ watara] to deny someone the reward of his toil <br><br>(47:35) وَاللَّهُ مَعَكُمْ وَلَنْ يَتِرَكُمْ أَعْمَالَكُمْ God is with you: He will not deny you the reward of your (good) deeds.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:57.634Z",
+      "refword": "23:44:4",
+      "lexword": "تَتْرَا"
+    }
+  }
+}

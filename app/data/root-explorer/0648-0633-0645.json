@@ -1,0 +1,113 @@
+{
+  "root": "وسم",
+  "rootArabic": "وسم",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مُتَوَسِّمِين",
+      "count": 1
+    },
+    {
+      "form": "نَسِمُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَوَسِّمِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَسِمُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 75,
+      "text": "إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّلْمُتَوَسِّمِينَ",
+      "highlightedHtml": "إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ <a class=\"highlight-text\">لِّلْمُتَوَسِّمِينَ</a>",
+      "derivedForms": [
+        "مُتَوَسِّمِين"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 16,
+      "text": "سَنَسِمُهُۥ عَلَى ٱلْخُرْطُومِ",
+      "highlightedHtml": "<a class=\"highlight-text\">سَنَسِمُهُۥ</a> عَلَى ٱلْخُرْطُومِ",
+      "derivedForms": [
+        "نَسِمُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:20.604Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural (form V) active participle",
+    "derivativeNote": "لِّلْمُتَوَسِّمِينَ is in the derivative form: مُتَوَسِّمِين",
+    "rootDefinitionHtml": "و/س/م   w–s–m brand, sign, branding iron; to cauterise; good looks; seasons, returning occasions, spring rain; to see signs of certain traits in someone, to gauge; to ornament. Of this root, 2 forms, نَسِمُ nasim and مُتَوَسِّمُون mutawassimūn, occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُتَوَسِّمِين mutawassimın [pl. of act. part. مُتَوَسِّم mutawassim] one who infers, uses clues to read the signs <br><br>(15:75) إِنَّ فِى ذَلِكَ لآَيَاتٍ لِلْمُتَوَسِّمِينَ there is truly a lesson in this for those who read the signs.",
+    "mainEntryId": "wdef-و-س-م.مُتَوَسِّمِين",
+    "entries": [
+      {
+        "id": "wdef-و-س-م",
+        "label": "و-س-م",
+        "definitionHtml": "و/س/م   w–s–m brand, sign, branding iron; to cauterise; good looks; seasons, returning occasions, spring rain; to see signs of certain traits in someone, to gauge; to ornament. Of this root, 2 forms, نَسِمُ nasim and مُتَوَسِّمُون mutawassimūn, occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-س-م.مُتَوَسِّمِين",
+        "label": "مُتَوَسِّمِين",
+        "definitionHtml": "مُتَوَسِّمِين mutawassimın [pl. of act. part. مُتَوَسِّم mutawassim] one who infers, uses clues to read the signs <br><br>(15:75) إِنَّ فِى ذَلِكَ لآَيَاتٍ لِلْمُتَوَسِّمِينَ there is truly a lesson in this for those who read the signs.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-س-م.أَسْمَاء",
+        "label": "أَسْمَاء",
+        "definitionHtml": "أَسْمَاء ʾasmāʾ (see س/م/و s–m–w).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-س-م.نَسِمُ",
+        "label": "نَسِمُ",
+        "definitionHtml": "نَسِمُ nasim [imperf. of v. وَسَمَ wasama, trans.] to brand <br><br>(68:16) سَنَسِمُهُ عَلَى الْخُرْطُومِ We will brand him on the snout.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:46.061Z",
+      "refword": "15:75:5",
+      "lexword": "لِّلْمُتَوَسِّمِينَ"
+    }
+  }
+}

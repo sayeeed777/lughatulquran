@@ -1,0 +1,333 @@
+{
+  "root": "صفف",
+  "rootArabic": "صفف",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 4,
+    "surahCount": 11,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "صَفّ",
+      "count": 7
+    },
+    {
+      "form": "صافَّات",
+      "count": 4
+    },
+    {
+      "form": "مَصْفوفة",
+      "count": 2
+    },
+    {
+      "form": "صَوافّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَفّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَفّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَوافّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صافَّات",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "صافَّات",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "صَفّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَصْفوفة",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 61,
+      "surahName": "As-Saff",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَفّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صافَّات",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَفّ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَصْفوفة",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَفّ",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 48,
+      "text": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ صَفًّا لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "highlightedHtml": "وَعُرِضُوا۟ عَلَىٰ رَبِّكَ <a class=\"highlight-text\">صَفًّا</a> لَّقَدْ جِئْتُمُونَا كَمَا خَلَقْنَٰكُمْ أَوَّلَ مَرَّةٍۭ ۚ بَلْ زَعَمْتُمْ أَلَّن نَّجْعَلَ لَكُم مَّوْعِدًا",
+      "derivedForms": [
+        "صَفّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 64,
+      "text": "فَأَجْمِعُوا۟ كَيْدَكُمْ ثُمَّ ٱئْتُوا۟ صَفًّا ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
+      "highlightedHtml": "فَأَجْمِعُوا۟ كَيْدَكُمْ ثُمَّ ٱئْتُوا۟ <a class=\"highlight-text\">صَفًّا</a> ۚ وَقَدْ أَفْلَحَ ٱلْيَوْمَ مَنِ ٱسْتَعْلَىٰ",
+      "derivedForms": [
+        "صَفّ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 36,
+      "text": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا <a class=\"highlight-text\">صَوَآفَّ</a> ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "صَوافّ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 41,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ صَٰٓفَّٰتٍ ۖ كُلٌّ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ ۗ وَٱللَّهُ عَلِيمٌۢ بِمَا يَفْعَلُونَ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ <a class=\"highlight-text\">صَٰٓفَّٰتٍ</a> ۖ كُلٌّ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ ۗ وَٱللَّهُ عَلِيمٌۢ بِمَا يَفْعَلُونَ",
+      "derivedForms": [
+        "صافَّات"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 1,
+      "text": "وَٱلصَّٰٓفَّٰتِ صَفًّا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلصَّٰٓفَّٰتِ</a> <a class=\"highlight-text\">صَفًّا</a>",
+      "derivedForms": [
+        "صافَّات",
+        "صَفّ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 165,
+      "text": "وَإِنَّا لَنَحْنُ ٱلصَّآفُّونَ",
+      "highlightedHtml": "وَإِنَّا لَنَحْنُ <a class=\"highlight-text\">ٱلصَّآفُّونَ</a>",
+      "derivedForms": [
+        "صافَّات"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 20,
+      "text": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "highlightedHtml": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ <a class=\"highlight-text\">مَّصْفُوفَةٍ</a> ۖ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "derivedForms": [
+        "مَصْفوفة"
+      ]
+    },
+    {
+      "surah": 61,
+      "ayah": 4,
+      "text": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِى سَبِيلِهِۦ صَفًّا كَأَنَّهُم بُنْيَٰنٌ مَّرْصُوصٌ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُحِبُّ ٱلَّذِينَ يُقَٰتِلُونَ فِى سَبِيلِهِۦ <a class=\"highlight-text\">صَفًّا</a> كَأَنَّهُم بُنْيَٰنٌ مَّرْصُوصٌ",
+      "derivedForms": [
+        "صَفّ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 19,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ صَٰٓفَّٰتٍ وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلطَّيْرِ فَوْقَهُمْ <a class=\"highlight-text\">صَٰٓفَّٰتٍ</a> وَيَقْبِضْنَ ۚ مَا يُمْسِكُهُنَّ إِلَّا ٱلرَّحْمَٰنُ ۚ إِنَّهُۥ بِكُلِّ شَىْءٍۭ بَصِيرٌ",
+      "derivedForms": [
+        "صافَّات"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 38,
+      "text": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ صَفًّا ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًا",
+      "highlightedHtml": "يَوْمَ يَقُومُ ٱلرُّوحُ وَٱلْمَلَٰٓئِكَةُ <a class=\"highlight-text\">صَفًّا</a> ۖ لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ ٱلرَّحْمَٰنُ وَقَالَ صَوَابًا",
+      "derivedForms": [
+        "صَفّ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 15,
+      "text": "وَنَمَارِقُ مَصْفُوفَةٌ",
+      "highlightedHtml": "وَنَمَارِقُ <a class=\"highlight-text\">مَصْفُوفَةٌ</a>",
+      "derivedForms": [
+        "مَصْفوفة"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 22,
+      "text": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ صَفًّا صَفًّا",
+      "highlightedHtml": "وَجَآءَ رَبُّكَ وَٱلْمَلَكُ <a class=\"highlight-text\">صَفًّا</a> <a class=\"highlight-text\">صَفًّا</a>",
+      "derivedForms": [
+        "صَفّ",
+        "صَفّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:04.047Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite verbal noun",
+    "derivativeNote": "صَفًّا is in the derivative form: صَفّ",
+    "rootDefinitionHtml": "ص/ف/ف   ṣ–f–f to arrange in ranks, lines, or rows, to set side by side, to arrange in a straight line<br>; to stand in ranks, to line up. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> صَفّاً ṣaffan 7 times; صافّات ṣāffāt 2 times; صافّون ṣāffūn 1 time; صَوافّ ṣawāff 1 time and مَصْفوفة maṣfūfatun 2 times.",
+    "mainDefinitionHtml": "صَفّ ṣaff [v. n./n.] forming into rows or lines; a row or line, ranks <br><br>(61:4) إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِى سَبِيلِهِ صَفًّا كَأَنَّهُمْ بُنْيَانٌ مَرْصُوصٌ God truly loves those who fight in solid ranks for His cause, like a well-compacted wall; * الصَّفّ name of Sura 61, Meccan sura, so‐named because of the mention in verse <br><br><strong>4 </strong>of the urging of those who strive in His cause to stand together in solid ‘Ranks’.",
+    "mainEntryId": "wdef-ص-ف-ف.صَفّ",
+    "entries": [
+      {
+        "id": "wdef-ص-ف-ف",
+        "label": "ص-ف-ف",
+        "definitionHtml": "ص/ف/ف   ṣ–f–f to arrange in ranks, lines, or rows, to set side by side, to arrange in a straight line<br>; to stand in ranks, to line up. <br><br>Of this root, 5 forms occur 13 times in the Qur’an:<br> صَفّاً ṣaffan 7 times; صافّات ṣāffāt 2 times; صافّون ṣāffūn 1 time; صَوافّ ṣawāff 1 time and مَصْفوفة maṣfūfatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ف-ف.صَفّ",
+        "label": "صَفّ",
+        "definitionHtml": "صَفّ ṣaff [v. n./n.] forming into rows or lines; a row or line, ranks <br><br>(61:4) إِنَّ اللَّهَ يُحِبُّ الَّذِينَ يُقَاتِلُونَ فِى سَبِيلِهِ صَفًّا كَأَنَّهُمْ بُنْيَانٌ مَرْصُوصٌ God truly loves those who fight in solid ranks for His cause, like a well-compacted wall; * الصَّفّ name of Sura 61, Meccan sura, so‐named because of the mention in verse <br><br><strong>4 </strong>of the urging of those who strive in His cause to stand together in solid ‘Ranks’.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ف-ف.صافَّات",
+        "label": "صافَّات",
+        "definitionHtml": "صافَّات ṣāffāt [pl. of act. part. صَافّة ṣāffatun] <br><br><strong>1 </strong>those standing in or forming a rank, line or a row <br><br>(37:1) وَالصَّافَّاتِ صَفًّا by those [angels] ranged in rows; * الصَّافَّاتِ name of Sura 37, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to the angels being ‘Ranged in Rows’ <br><br><strong>2 </strong>(of birds in flight) extending their wings in a straight line (gliding) <br><br>(67:19) أَوَلَمْ يَرَوْا إِلَى الطَّيْرِ فَوْقَهُمْ صَافَّاتٍ وَيَقْبِضْنَ مَا يُمْسِكُهُنَّ إِلاَّ الرَّحْمَنُ do they not see the birds above them spreading their wings, gliding and closing [them, beating the air], with nothing to hold them up save for the Merciful?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ف-ف.صَوافّ",
+        "label": "صَوافّ",
+        "definitionHtml": "صَوافّ ṣawāff [pl. of act. part. صَافّة ṣāffatun] lining up in rows or lining up their feet <br><br>(22:36) وَالْبُدْنَ جَعَلْنَاهَا لَكُمْ مِنْ شَعَائِرِ اللَّهِ لَكُمْ فِيهَا خَيْرٌ فَاذْكُرُوا اسْمَ اللَّهِ عَلَيْهَا صَوَافَّ and We have appointed camels for you as part of God’s sacred rites, in them there is goodness for you, so invoke God’s name over them as they stand in line [for sacrifice].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ف-ف.مَصْفوفة",
+        "label": "مَصْفوفة",
+        "definitionHtml": "مَصْفوفة maṣfūfatun [pass. part.] arranged in rows <br><br>(88:15) وَنَمَارِقُ مَصْفُوفَةٌ and cushions set in rows.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:05.392Z",
+      "refword": "18:48:4",
+      "lexword": "صَفًّا"
+    }
+  }
+}

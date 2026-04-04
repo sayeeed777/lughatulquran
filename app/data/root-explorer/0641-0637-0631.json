@@ -1,0 +1,495 @@
+{
+  "root": "فطر",
+  "rootArabic": "فطر",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 7,
+    "surahCount": 17,
+    "ayahCount": 19
+  },
+  "derivatives": [
+    {
+      "form": "فَطَرَ",
+      "count": 8
+    },
+    {
+      "form": "فاطِر",
+      "count": 6
+    },
+    {
+      "form": "انْفَطَرَ",
+      "count": 1
+    },
+    {
+      "form": "فِطْرةٌ",
+      "count": 1
+    },
+    {
+      "form": "فُطور",
+      "count": 1
+    },
+    {
+      "form": "مُنْفَطِر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "فِطْرةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "فاطِر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَطَرَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُطور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْفَطِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انْفَطَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 14,
+      "text": "قُلْ أَغَيْرَ ٱللَّهِ أَتَّخِذُ وَلِيًّا فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ ۗ قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
+      "highlightedHtml": "قُلْ أَغَيْرَ ٱللَّهِ أَتَّخِذُ وَلِيًّا <a class=\"highlight-text\">فَاطِرِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ ۗ قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 79,
+      "text": "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى فَطَرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ حَنِيفًا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
+      "highlightedHtml": "إِنِّى وَجَّهْتُ وَجْهِىَ لِلَّذِى <a class=\"highlight-text\">فَطَرَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ حَنِيفًا ۖ وَمَآ أَنَا۠ مِنَ ٱلْمُشْرِكِينَ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 51,
+      "text": "يَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱلَّذِى فَطَرَنِىٓ ۚ أَفَلَا تَعْقِلُونَ",
+      "highlightedHtml": "يَٰقَوْمِ لَآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ أَجْرِىَ إِلَّا عَلَى ٱلَّذِى <a class=\"highlight-text\">فَطَرَنِىٓ</a> ۚ أَفَلَا تَعْقِلُونَ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 101,
+      "text": "رَبِّ قَدْ آتَيْتَنِي مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ تَوَفَّنِى مُسْلِمًا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
+      "highlightedHtml": "رَبِّ قَدْ آتَيْتَنِي مِنَ ٱلْمُلْكِ وَعَلَّمْتَنِى مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ <a class=\"highlight-text\">فَاطِرَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ أَنتَ وَلِىِّۦ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۖ تَوَفَّنِى مُسْلِمًا وَأَلْحِقْنِى بِٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 10,
+      "text": "قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَٰنٍ مُّبِينٍ",
+      "highlightedHtml": "قَالَتْ رُسُلُهُمْ أَفِى ٱللَّهِ شَكٌّ <a class=\"highlight-text\">فَاطِرِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ يَدْعُوكُمْ لِيَغْفِرَ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرَكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ قَالُوٓا۟ إِنْ أَنتُمْ إِلَّا بَشَرٌ مِّثْلُنَا تُرِيدُونَ أَن تَصُدُّونَا عَمَّا كَانَ يَعْبُدُ ءَابَآؤُنَا فَأْتُونَا بِسُلْطَٰنٍ مُّبِينٍ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 51,
+      "text": "أَوْ خَلْقًا مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى فَطَرَكُمْ أَوَّلَ مَرَّةٍ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًا",
+      "highlightedHtml": "أَوْ خَلْقًا مِّمَّا يَكْبُرُ فِى صُدُورِكُمْ صُدُورِكُمْ ۚ فَسَيَقُولُونَ مَن يُعِيدُنَا ۖ قُلِ ٱلَّذِى <a class=\"highlight-text\">فَطَرَكُمْ</a> أَوَّلَ مَرَّةٍ ۚ فَسَيُنْغِضُونَ إِلَيْكَ رُءُوسَهُمْ وَيَقُولُونَ مَتَىٰ هُوَ ۖ قُلْ عَسَىٰٓ أَن يَكُونَ قَرِيبًا",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 90,
+      "text": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
+      "highlightedHtml": "تَكَادُ ٱلسَّمَٰوَٰتُ <a class=\"highlight-text\">يَتَفَطَّرْنَ</a> مِنْهُ وَتَنشَقُّ ٱلْأَرْضُ وَتَخِرُّ ٱلْجِبَالُ هَدًّا",
+      "derivedForms": []
+    },
+    {
+      "surah": 20,
+      "ayah": 72,
+      "text": "قَالُوا۟ لَن نُّؤْثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلَّذِى فَطَرَنَا ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
+      "highlightedHtml": "قَالُوا۟ لَن نُّؤْثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلَّذِى <a class=\"highlight-text\">فَطَرَنَا</a> ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 56,
+      "text": "قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى فَطَرَهُنَّ وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّٰهِدِينَ",
+      "highlightedHtml": "قَالَ بَل رَّبُّكُمْ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ٱلَّذِى <a class=\"highlight-text\">فَطَرَهُنَّ</a> وَأَنَا۠ عَلَىٰ ذَٰلِكُم مِّنَ ٱلشَّٰهِدِينَ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 30,
+      "text": "فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ فِطْرَتَ ٱللَّهِ ٱلَّتِى فَطَرَ ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "فَأَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا ۚ <a class=\"highlight-text\">فِطْرَتَ</a> ٱللَّهِ ٱلَّتِى <a class=\"highlight-text\">فَطَرَ</a> ٱلنَّاسَ عَلَيْهَا ۚ لَا تَبْدِيلَ لِخَلْقِ ٱللَّهِ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "فِطْرةٌ",
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 1,
+      "text": "ٱلْحَمْدُ لِلَّهِ فَاطِرِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍ مَّثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۚ يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "ٱلْحَمْدُ لِلَّهِ <a class=\"highlight-text\">فَاطِرِ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ جَاعِلِ ٱلْمَلَٰٓئِكَةِ رُسُلًا أُو۟لِىٓ أَجْنِحَةٍ مَّثْنَىٰ وَثُلَٰثَ وَرُبَٰعَ ۚ يَزِيدُ فِى ٱلْخَلْقِ مَا يَشَآءُ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 22,
+      "text": "وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى فَطَرَنِى وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "وَمَا لِىَ لَآ أَعْبُدُ ٱلَّذِى <a class=\"highlight-text\">فَطَرَنِى</a> وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 46,
+      "text": "قُلِ ٱللَّهُمَّ فَاطِرَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ عَٰلِمَ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+      "highlightedHtml": "قُلِ ٱللَّهُمَّ <a class=\"highlight-text\">فَاطِرَ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ عَٰلِمَ ٱلْغَيْبِ وَٱلشَّهَٰدَةِ أَنتَ تَحْكُمُ بَيْنَ عِبَادِكَ فِى مَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 5,
+      "text": "تَكَادُ ٱلسَّمَٰوَٰتُ يَتَفَطَّرْنَ مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "تَكَادُ ٱلسَّمَٰوَٰتُ <a class=\"highlight-text\">يَتَفَطَّرْنَ</a> مِن فَوْقِهِنَّ ۚ وَٱلْمَلَٰٓئِكَةُ يُسَبِّحُونَ بِحَمْدِ رَبِّهِمْ وَيَسْتَغْفِرُونَ لِمَن فِى ٱلْأَرْضِ ۗ أَلَآ إِنَّ ٱللَّهَ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "derivedForms": []
+    },
+    {
+      "surah": 42,
+      "ayah": 11,
+      "text": "فَاطِرُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا وَمِنَ ٱلْأَنْعَٰمِ أَزْوَٰجًا ۖ يَذْرَؤُكُمْ فِيهِ ۚ لَيْسَ كَمِثْلِهِۦ شَىْءٌ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَاطِرُ</a> ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ جَعَلَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَٰجًا وَمِنَ ٱلْأَنْعَٰمِ أَزْوَٰجًا ۖ يَذْرَؤُكُمْ فِيهِ ۚ لَيْسَ كَمِثْلِهِۦ شَىْءٌ ۖ وَهُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "derivedForms": [
+        "فاطِر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 27,
+      "text": "إِلَّا ٱلَّذِى فَطَرَنِى فَإِنَّهُۥ سَيَهْدِينِ",
+      "highlightedHtml": "إِلَّا ٱلَّذِى <a class=\"highlight-text\">فَطَرَنِى</a> فَإِنَّهُۥ سَيَهْدِينِ",
+      "derivedForms": [
+        "فَطَرَ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 3,
+      "text": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن فُطُورٍ",
+      "highlightedHtml": "ٱلَّذِى خَلَقَ سَبْعَ سَمَٰوَٰتٍ طِبَاقًا ۖ مَّا تَرَىٰ فِى خَلْقِ ٱلرَّحْمَٰنِ مِن تَفَٰوُتٍ ۖ فَٱرْجِعِ ٱلْبَصَرَ هَلْ تَرَىٰ مِن <a class=\"highlight-text\">فُطُورٍ</a>",
+      "derivedForms": [
+        "فُطور"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 18,
+      "text": "ٱلسَّمَآءُ مُنفَطِرٌۢ بِهِۦ ۚ كَانَ وَعْدُهُۥ مَفْعُولًا",
+      "highlightedHtml": "ٱلسَّمَآءُ <a class=\"highlight-text\">مُنفَطِرٌۢ</a> بِهِۦ ۚ كَانَ وَعْدُهُۥ مَفْعُولًا",
+      "derivedForms": [
+        "مُنْفَطِر"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 1,
+      "text": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتْ",
+      "highlightedHtml": "إِذَا ٱلسَّمَآءُ <a class=\"highlight-text\">ٱنفَطَرَتْ</a>",
+      "derivedForms": [
+        "انْفَطَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:03.392Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine active participle",
+    "derivativeNote": "فَاطِرِ is in the derivative form: فاطِر",
+    "rootDefinitionHtml": "ف/ط/ر   f–ṭ–r fungi<br>; nature, instinct; to crack open, to rend, to split; to bring out; to fashion; to break the fast. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> فَطَرَ faṭara 10 times; انْفَطَرَ ʾinfaṭara 1 time; فاطِر fāṭir 6 times; فِطْرةٌ fiṭratun 1 time; فُطور fuṭūr 1 time and مُنْفَطِر munfaṭir 1 time.",
+    "mainDefinitionHtml": "فاطِر fāṭir [n.; act. part.] creator ‏<br><br>(12:101)‏فَاطِرَ‏ ‏السَّمَوَاتِ‏ ‏وَالأَرْضِ‏ ‏ Creator of the Heavens and the Earth; * الفاطرَ name of Sura 35, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to the ‘Creator of the Heavens and Earth’, also called الملائِكة (see ك/ل/م m–l–k).",
+    "mainEntryId": "wdef-ف-ط-ر.فاطِر",
+    "entries": [
+      {
+        "id": "wdef-ف-ط-ر",
+        "label": "ف-ط-ر",
+        "definitionHtml": "ف/ط/ر   f–ṭ–r fungi<br>; nature, instinct; to crack open, to rend, to split; to bring out; to fashion; to break the fast. <br><br>Of this root, 6 forms occur 20 times in the Qur’an:<br> فَطَرَ faṭara 10 times; انْفَطَرَ ʾinfaṭara 1 time; فاطِر fāṭir 6 times; فِطْرةٌ fiṭratun 1 time; فُطور fuṭūr 1 time and مُنْفَطِر munfaṭir 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ط-ر.فاطِر",
+        "label": "فاطِر",
+        "definitionHtml": "فاطِر fāṭir [n.; act. part.] creator ‏<br><br>(12:101)‏فَاطِرَ‏ ‏السَّمَوَاتِ‏ ‏وَالأَرْضِ‏ ‏ Creator of the Heavens and the Earth; * الفاطرَ name of Sura 35, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to the ‘Creator of the Heavens and Earth’, also called الملائِكة (see ك/ل/م m–l–k).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ط-ر.انْفَطَرَ",
+        "label": "انْفَطَرَ",
+        "definitionHtml": "انْفَطَرَ ʾinfaṭara [v. VII, intrans.] to split apart <br><br>(82:1) إِذَا‏ ‏السَّمَاءُ‏ ‏انْفَطَرَتْ when the sky splits apart.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ط-ر.فَطَرَ",
+        "label": "فَطَرَ",
+        "definitionHtml": "فَطَرَ faṭara u [v. trans.] to create, to fashion <br><br>(6:79) إِنِّي‏ ‏وَجَّهْتُ‏ ‏وَجْهِيَ‏ ‏لِلَّذِي‏ ‏فَطَرَ السَّمَوَاتِ‏ ‏وَالأَرْضَ‏‏ I turn my face towards Him who created the heavens and the Earth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ط-ر.فُطور",
+        "label": "فُطور",
+        "definitionHtml": "فُطور fuṭūr [v. n.] flaw, inadequacy, defect <br><br>(67:3) الَّذِي‏ ‏خَلَقَ‏ ‏سَبْعَ‏ ‏سَمَوَاتٍ‏ ‏طِبَاقًا مَا‏ ‏تَرَى‏ ‏فِى‏ ‏خَلْقِ‏ ‏الرَّحْمَنِ مِنْ‏ ‏تَفَاوُتٍ‏ ‏فَارْجِعِ الْبَصَرَ ‏هَلْ‏ ‏تَرَى‏ ‏مِنْ‏ ‏فُطُورٍ He who created the seven heavens one above the other; you will see no disparity in the creation of the Beneficent, so look around you–can you see any flaw?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ط-ر.فِطْرةٌ",
+        "label": "فِطْرةٌ",
+        "definitionHtml": "فِطْرةٌ fiṭratun [n.] creation * فِطْرةَ الله the genesis of creation, the original unadulterated nature of things, natural disposition <br><br>(30:30) فَأَقِمْ‏ ‏وَجْهَكَ‏ ‏لِلدِّينِ‏ ‏حَنِيفًا فِطْرَةَ‏ ‏اللَّهِ‏ ‏الَّتِي‏ ‏فَطَرَ‏ ‏النَّاسَ‏ ‏عَلَيْهَا so set up your face [set your purpose] to the religion, upright–[this is] the natural disposition God instilled in humankind. *الإنفِطار ʾal-ʾinfiṭār name of Sura 82, Meccan sura, so‐named because of the reference in verse <br><br><strong>1 </strong>to the sky being ‘Split Apart’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ط-ر.مُنْفَطِر",
+        "label": "مُنْفَطِر",
+        "definitionHtml": "مُنْفَطِر munfaṭir [quasi-act. part.] split, rent apart <br><br>(73:17-18) يَوْمًا يَجْعَلُ الْوِلْدَانَ شِيبًا السَّمَاءُ‏ ‏مُنْفَطِرٌ‏ ‏بِهِ‏‏ a Day that will turn children grey-haired, [a Day] in which the sky will be split apart.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:46.000Z",
+      "refword": "6:14:6",
+      "lexword": "فَاطِرِ"
+    }
+  }
+}

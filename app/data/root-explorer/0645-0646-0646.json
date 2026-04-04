@@ -1,0 +1,563 @@
+{
+  "root": "منن",
+  "rootArabic": "منن",
+  "stats": {
+    "totalOccurrences": 27,
+    "derivativeCount": 4,
+    "surahCount": 20,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "مَنَّ",
+      "count": 16
+    },
+    {
+      "form": "مَنّ",
+      "count": 6
+    },
+    {
+      "form": "مَمْنُون",
+      "count": 4
+    },
+    {
+      "form": "مَنُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مَنّ",
+          "count": 3,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنّ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        },
+        {
+          "form": "مَنّ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنّ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 3,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        },
+        {
+          "form": "مَنُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 95,
+      "surahName": "At-Tin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 57,
+      "text": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ <a class=\"highlight-text\">ٱلْمَنَّ</a> وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 262,
+      "text": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّا وَلَآ أَذًى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ <a class=\"highlight-text\">مَنًّا</a> وَلَآ أَذًى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 264,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُبْطِلُوا۟ صَدَقَٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُۥ وَابِلٌ فَتَرَكَهُۥ صَلْدًا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُبْطِلُوا۟ صَدَقَٰتِكُم <a class=\"highlight-text\">بِٱلْمَنِّ</a> وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُۥ وَابِلٌ فَتَرَكَهُۥ صَلْدًا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 164,
+      "text": "لَقَدْ مَنَّ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِّنْ أَنفُسِهِمْ يَتْلُوا۟ عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "لَقَدْ <a class=\"highlight-text\">مَنَّ</a> ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولًا مِّنْ أَنفُسِهِمْ يَتْلُوا۟ عَلَيْهِمْ آيَاتِهِ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَإِن كَانُوا۟ مِن قَبْلُ لَفِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 94,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ فَمَنَّ ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا ضَرَبْتُمْ فِى سَبِيلِ ٱللَّهِ فَتَبَيَّنُوا۟ وَلَا تَقُولُوا۟ لِمَنْ أَلْقَىٰٓ إِلَيْكُمُ ٱلسَّلَٰمَ لَسْتَ مُؤْمِنًا تَبْتَغُونَ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا فَعِندَ ٱللَّهِ مَغَانِمُ كَثِيرَةٌ ۚ كَذَٰلِكَ كُنتُم مِّن قَبْلُ <a class=\"highlight-text\">فَمَنَّ</a> ٱللَّهُ عَلَيْكُمْ فَتَبَيَّنُوٓا۟ ۚ إِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 53,
+      "text": "وَكَذَٰلِكَ فَتَنَّا بَعْضَهُم بِبَعْضٍ لِّيَقُولُوٓا۟ أَهَٰٓؤُلَآءِ مَنَّ ٱللَّهُ عَلَيْهِم مِّنۢ بَيْنِنَآ ۗ أَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِٱلشَّٰكِرِينَ",
+      "highlightedHtml": "وَكَذَٰلِكَ فَتَنَّا بَعْضَهُم بِبَعْضٍ لِّيَقُولُوٓا۟ أَهَٰٓؤُلَآءِ <a class=\"highlight-text\">مَنَّ</a> ٱللَّهُ عَلَيْهِم مِّنۢ بَيْنِنَآ ۗ أَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 160,
+      "text": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ <a class=\"highlight-text\">ٱلْمَنَّ</a> وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 90,
+      "text": "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَٰذَآ أَخِى ۖ قَدْ <a class=\"highlight-text\">مَنَّ</a> ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 11,
+      "text": "قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌ مِّثْلُكُمْ وَلَٰكِنَّ ٱللَّهَ يَمُنُّ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "highlightedHtml": "قَالَتْ لَهُمْ رُسُلُهُمْ إِن نَّحْنُ إِلَّا بَشَرٌ مِّثْلُكُمْ وَلَٰكِنَّ ٱللَّهَ <a class=\"highlight-text\">يَمُنُّ</a> عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ وَمَا كَانَ لَنَآ أَن نَّأْتِيَكُم بِسُلْطَٰنٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 37,
+      "text": "وَلَقَدْ مَنَنَّا عَلَيْكَ مَرَّةً أُخْرَى",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">مَنَنَّا</a> عَلَيْكَ مَرَّةً أُخْرَى",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 80,
+      "text": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ",
+      "highlightedHtml": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ قَدْ أَنجَيْنَٰكُم مِّنْ عَدُوِّكُمْ وَوَٰعَدْنَٰكُمْ جَانِبَ ٱلطُّورِ ٱلْأَيْمَنَ وَنَزَّلْنَا عَلَيْكُمُ <a class=\"highlight-text\">ٱلْمَنَّ</a> وَٱلسَّلْوَىٰ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 22,
+      "text": "وَتِلْكَ نِعْمَةٌ تَمُنُّهَا عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "highlightedHtml": "وَتِلْكَ نِعْمَةٌ <a class=\"highlight-text\">تَمُنُّهَا</a> عَلَىَّ أَنْ عَبَّدتَّ بَنِىٓ إِسْرَٰٓءِيلَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 5,
+      "text": "وَنُرِيدُ أَن نَّمُنَّ عَلَى ٱلَّذِينَ ٱسْتُضْعِفُوا۟ فِى ٱلْأَرْضِ وَنَجْعَلَهُمْ أَئِمَّةً وَنَجْعَلَهُمُ ٱلْوَٰرِثِينَ",
+      "highlightedHtml": "وَنُرِيدُ أَن <a class=\"highlight-text\">نَّمُنَّ</a> عَلَى ٱلَّذِينَ ٱسْتُضْعِفُوا۟ فِى ٱلْأَرْضِ وَنَجْعَلَهُمْ أَئِمَّةً وَنَجْعَلَهُمُ ٱلْوَٰرِثِينَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 82,
+      "text": "وَأَصْبَحَ ٱلَّذِينَ تَمَنَّوْا۟ مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن مَّنَّ ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "وَأَصْبَحَ ٱلَّذِينَ تَمَنَّوْا۟ مَكَانَهُۥ بِٱلْأَمْسِ يَقُولُونَ وَيْكَأَنَّ ٱللَّهَ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ ۖ لَوْلَآ أَن <a class=\"highlight-text\">مَّنَّ</a> ٱللَّهُ عَلَيْنَا لَخَسَفَ بِنَا ۖ وَيْكَأَنَّهُۥ لَا يُفْلِحُ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 114,
+      "text": "وَلَقَدْ مَنَنَّا عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">مَنَنَّا</a> عَلَىٰ مُوسَىٰ وَهَٰرُونَ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 39,
+      "text": "هَٰذَا عَطَآؤُنَا فَٱمْنُنْ أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍ",
+      "highlightedHtml": "هَٰذَا عَطَآؤُنَا <a class=\"highlight-text\">فَٱمْنُنْ</a> أَوْ أَمْسِكْ بِغَيْرِ حِسَابٍ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 8,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ <a class=\"highlight-text\">مَمْنُونٍ</a>",
+      "derivedForms": [
+        "مَمْنُون"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 4,
+      "text": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا مَنًّۢا بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ أَوْزَارَهَا ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَٰلَهُمْ",
+      "highlightedHtml": "فَإِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ فَضَرْبَ ٱلرِّقَابِ حَتَّىٰٓ إِذَآ أَثْخَنتُمُوهُمْ فَشُدُّوا۟ ٱلْوَثَاقَ فَإِمَّا <a class=\"highlight-text\">مَنًّۢا</a> بَعْدُ وَإِمَّا فِدَآءً حَتَّىٰ تَضَعَ ٱلْحَرْبُ أَوْزَارَهَا ۚ ذَٰلِكَ وَلَوْ يَشَآءُ ٱللَّهُ لَٱنتَصَرَ مِنْهُمْ وَلَٰكِن لِّيَبْلُوَا۟ بَعْضَكُم بِبَعْضٍ ۗ وَٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ فَلَن يُضِلَّ أَعْمَٰلَهُمْ",
+      "derivedForms": [
+        "مَنّ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 17,
+      "text": "يَمُنُّونَ عَلَيْكَ أَنْ أَسْلَمُوا۟ ۖ قُل لَّا تَمُنُّوا۟ عَلَىَّ إِسْلَٰمَكُم ۖ بَلِ ٱللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَدَىٰكُمْ لِلْإِيمَٰنِ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَمُنُّونَ</a> عَلَيْكَ أَنْ أَسْلَمُوا۟ ۖ قُل لَّا <a class=\"highlight-text\">تَمُنُّوا۟</a> عَلَىَّ إِسْلَٰمَكُم ۖ بَلِ ٱللَّهُ <a class=\"highlight-text\">يَمُنُّ</a> عَلَيْكُمْ أَنْ هَدَىٰكُمْ لِلْإِيمَٰنِ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "مَنَّ",
+        "مَنَّ",
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 27,
+      "text": "فَمَنَّ ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَمَنَّ</a> ٱللَّهُ عَلَيْنَا وَوَقَىٰنَا عَذَابَ ٱلسَّمُومِ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 30,
+      "text": "أَمْ يَقُولُونَ شَاعِرٌ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ ٱلْمَنُونِ",
+      "highlightedHtml": "أَمْ يَقُولُونَ شَاعِرٌ شَاعِرٌ نَّتَرَبَّصُ بِهِۦ رَيْبَ <a class=\"highlight-text\">ٱلْمَنُونِ</a>",
+      "derivedForms": [
+        "مَنُون"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 3,
+      "text": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ مَمْنُونٍ",
+      "highlightedHtml": "وَإِنَّ لَكَ لَأَجْرًا غَيْرَ <a class=\"highlight-text\">مَمْنُونٍ</a>",
+      "derivedForms": [
+        "مَمْنُون"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 6,
+      "text": "وَلَا تَمْنُن تَسْتَكْثِرُ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَمْنُن</a> تَسْتَكْثِرُ",
+      "derivedForms": [
+        "مَنَّ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 25,
+      "text": "إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَهُمْ أَجْرٌ غَيْرُ <a class=\"highlight-text\">مَمْنُونٍۭ</a>",
+      "derivedForms": [
+        "مَمْنُون"
+      ]
+    },
+    {
+      "surah": 95,
+      "ayah": 6,
+      "text": "إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ فَلَهُمْ أَجْرٌ غَيْرُ <a class=\"highlight-text\">مَمْنُونٍ</a>",
+      "derivedForms": [
+        "مَمْنُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:43.714Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "ٱلْمَنَّ is in the derivative form: مَنّ",
+    "rootDefinitionHtml": "م/ن/ن   m–n–n to cut<br>; a weak rope, a tattered garment, fatigue; vigour, strength of heart; death, eventualities, passage of time; to grant a favour, to remind someone of favours you have done for them; honey‐like substance; a certain weight. مَنّ mann, honey‐like substance, is classified under this root, although it appears to be a borrowing from either Syriac or Hebrew. <br><br>Of this root, 4 forms occur 27 times in the Qur’an:<br> مَنَّ manna 16 times; مَنّ mann 6 times; مَمْنُون mamnūn 4 times and مَنُون manūn 1 time.",
+    "mainDefinitionHtml": "مَنّ mann I [v. n.] <br><br><strong>1 </strong>the act of freely bestowing favours <br><br>(47:4) حَتَّى إِذَا أَثْخَنْتُمُوهُمْ فَشُدُّوا الْوَثَاقَ فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً until you have routed them, then tie fast the bonds, thereafter releasing [them] by grace or ransoming [them] <br><br><strong>2 </strong>the act of reminding someone of favours freely given wishing to put him under obligation <br><br>(2:264) لاَ تُبْطِلُوا صَدَقَاتِكُمْ بِالْمَنِّ وَالأَذَى do not negate your charitable deeds with reminders and hurtful words/actions II [n,] manna, honey‐like substance, food given as a gift from God <br><br>(2:57) وَأَنْزَلْنَا عَلَيْكُمُ الْمَنَّ وَالسَّلْوَى and We sent manna and quails down to you.",
+    "mainEntryId": "wdef-م-ن-ن.مَنّ",
+    "entries": [
+      {
+        "id": "wdef-م-ن-ن",
+        "label": "م-ن-ن",
+        "definitionHtml": "م/ن/ن   m–n–n to cut<br>; a weak rope, a tattered garment, fatigue; vigour, strength of heart; death, eventualities, passage of time; to grant a favour, to remind someone of favours you have done for them; honey‐like substance; a certain weight. مَنّ mann, honey‐like substance, is classified under this root, although it appears to be a borrowing from either Syriac or Hebrew. <br><br>Of this root, 4 forms occur 27 times in the Qur’an:<br> مَنَّ manna 16 times; مَنّ mann 6 times; مَمْنُون mamnūn 4 times and مَنُون manūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ن.مَنّ",
+        "label": "مَنّ",
+        "definitionHtml": "مَنّ mann I [v. n.] <br><br><strong>1 </strong>the act of freely bestowing favours <br><br>(47:4) حَتَّى إِذَا أَثْخَنْتُمُوهُمْ فَشُدُّوا الْوَثَاقَ فَإِمَّا مَنًّا بَعْدُ وَإِمَّا فِدَاءً until you have routed them, then tie fast the bonds, thereafter releasing [them] by grace or ransoming [them] <br><br><strong>2 </strong>the act of reminding someone of favours freely given wishing to put him under obligation <br><br>(2:264) لاَ تُبْطِلُوا صَدَقَاتِكُمْ بِالْمَنِّ وَالأَذَى do not negate your charitable deeds with reminders and hurtful words/actions II [n,] manna, honey‐like substance, food given as a gift from God <br><br>(2:57) وَأَنْزَلْنَا عَلَيْكُمُ الْمَنَّ وَالسَّلْوَى and We sent manna and quails down to you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ن-ن.مَمْنُون",
+        "label": "مَمْنُون",
+        "definitionHtml": "مَمْنُون mamnūn [pass. part.] something grudged, interrupted, decreased <br><br>(41:8) إِنَّ الَّذِينَ ءَامَنُوا وَعَمِلُوا الصَّالِحَاتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ those who believe and do good deeds will have a reward that is never interrupted/grudged.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ن.مَنُون",
+        "label": "مَنُون",
+        "definitionHtml": "مَنُون manūn [n.] bad turns of events, death *<br><br>(52:30) رَيْبَ الْمَنُونِ misfortune [lit. accident of death].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ن.مَنَّ",
+        "label": "مَنَّ",
+        "definitionHtml": "مَنَّ manna u [v. intrans.] <br><br><strong>1 </strong>to bestow favours from a position of strength or higher rank <br><br>(3:164) لَقَدْ مَنَّ اللَّهُ عَلَى الْمُؤْمِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولا مِنْ أَنْفُسِهِمْ truly God was gracious to the believers when He sent to them a Messenger from themselves; *<br><br>(38:39) هَذَا عَطَاؤُنَا فَامْنُنْ أَوْ أَمْسِكْ this is Our gift; do as you wish with it [lit. so bestow or withhold] <br><br><strong>2 </strong>to remind someone of a favour, freely given, wishing to put him/her under obligation, to recount one’s favours to someone <br><br>(49:17) يَمُنُّونَ عَلَيْكَ أَنْ أَسْلَمُوا قُلْ لاَ تَمُنُّوا عَلَيَّ إِسْلاَمَكُمْ بَلِ اللَّهُ يَمُنُّ عَلَيْكُمْ أَنْ هَدَاكُمْ لِلإِيمَانِ إِنْ كُنْتُمْ صَادِقِينَ they count it as a favour to you [Prophet] that they have become Muslims. Say, ‘Do not count your being Muslims as a favour to me–it is God who reminds you of the favour of his having guided you to the faith’ <br><br><strong>3 </strong>to weaken, to knuckle under (in an interpretation of 74:6) وَلاَ تَمْنُنْ تَسْتَكْثِرُ and never weaken, considering as too much [what you so far has been commanded to do] (or, do not bestow favours seeking increased returns).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:43.593Z",
+      "refword": "2:57:6",
+      "lexword": "ٱلْمَنَّ"
+    }
+  }
+}

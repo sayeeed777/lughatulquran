@@ -1,0 +1,74 @@
+{
+  "root": "مسخ",
+  "rootArabic": "مسخ",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مَسَخَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسَخَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 36,
+      "ayah": 67,
+      "text": "وَلَوْ نَشَآءُ لَمَسَخْنَٰهُمْ عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
+      "highlightedHtml": "وَلَوْ نَشَآءُ <a class=\"highlight-text\">لَمَسَخْنَٰهُمْ</a> عَلَىٰ مَكَانَتِهِمْ فَمَا ٱسْتَطَٰعُوا۟ مُضِيًّا وَلَا يَرْجِعُونَ",
+      "derivedForms": [
+        "مَسَخَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:21.075Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "لَمَسَخْنَٰهُمْ is in the derivative form: مَسَخَ",
+    "rootDefinitionHtml": "م/س/خ   m–s–kh to distort, to transmute, to transform into an ugly shape or ugly character, to disfigure; tasteless food, a plain person; to wear an animal thin by too much work. Of this root, only مَسَخْنَاهُم masakhnāhum, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَسَخَ masakha a [v. trans.] to transmute, to transform, to change the nature of something for the worse, to disfigure <br><br>(36:67) وَلَوْ‏ ‏نَشَاءُ‏ ‏لَمَسَخْنَاهُمْ‏ ‏عَلَى‏ ‏مَكَانَتِهِمْ‏‏ and had We willed, We would have transmuted them in their places.",
+    "mainEntryId": "wdef-م-س-خ.مَسَخَ",
+    "entries": [
+      {
+        "id": "wdef-م-س-خ",
+        "label": "م-س-خ",
+        "definitionHtml": "م/س/خ   m–s–kh to distort, to transmute, to transform into an ugly shape or ugly character, to disfigure; tasteless food, a plain person; to wear an animal thin by too much work. Of this root, only مَسَخْنَاهُم masakhnāhum, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-س-خ.مَسَخَ",
+        "label": "مَسَخَ",
+        "definitionHtml": "مَسَخَ masakha a [v. trans.] to transmute, to transform, to change the nature of something for the worse, to disfigure <br><br>(36:67) وَلَوْ‏ ‏نَشَاءُ‏ ‏لَمَسَخْنَاهُمْ‏ ‏عَلَى‏ ‏مَكَانَتِهِمْ‏‏ and had We willed, We would have transmuted them in their places.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:01.625Z",
+      "refword": "36:67:3",
+      "lexword": "لَمَسَخْنَٰهُمْ"
+    }
+  }
+}

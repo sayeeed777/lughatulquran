@@ -1,0 +1,115 @@
+{
+  "root": "جثو",
+  "rootArabic": "جثو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "جِثِيٌّ",
+      "count": 2
+    },
+    {
+      "form": "جَاثِيَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "جِثِيٌّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَاثِيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 19,
+      "ayah": 68,
+      "text": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا",
+      "highlightedHtml": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَٱلشَّيَٰطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ <a class=\"highlight-text\">جِثِيًّا</a>",
+      "derivedForms": [
+        "جِثِيٌّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 72,
+      "text": "ثُمَّ نُنَجِّى ٱلَّذِينَ ٱتَّقَوا۟ وَّنَذَرُ ٱلظَّٰلِمِينَ فِيهَا جِثِيًّا",
+      "highlightedHtml": "ثُمَّ نُنَجِّى ٱلَّذِينَ ٱتَّقَوا۟ وَّنَذَرُ ٱلظَّٰلِمِينَ فِيهَا <a class=\"highlight-text\">جِثِيًّا</a>",
+      "derivedForms": [
+        "جِثِيٌّ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 28,
+      "text": "وَتَرَىٰ كُلَّ أُمَّةٍ جَاثِيَةً ۚ كُلُّ أُمَّةٍ تُدْعَىٰٓ إِلَىٰ كِتَٰبِهَا ٱلْيَوْمَ تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "وَتَرَىٰ كُلَّ أُمَّةٍ <a class=\"highlight-text\">جَاثِيَةً</a> ۚ كُلُّ أُمَّةٍ تُدْعَىٰٓ إِلَىٰ كِتَٰبِهَا ٱلْيَوْمَ تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "جَاثِيَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:53.546Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural indefinite verbal noun",
+    "derivativeNote": "جِثِيًّا is in the derivative form: جِثِيٌّ",
+    "rootDefinitionHtml": "ج/ث/و-ي   j–th–w/y rock‐pile, mound, a small hill; to kneel; body; a grave mound. <br><br>Of this root, 2 words occur 3 times in the Qur’an:<br> جَاثِيَةٌ jāthiyatun 1 time and جِثِيٌّ jithiyy 2 times.",
+    "mainDefinitionHtml": "جِثِيٌّ jithiyy[pl. of act. part. جَاثِى jāthı] kneeling down, humbled, vanquished <br><br>(19:68) فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَالشَّيَاطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا so by your Lord We shall gather them together with the devils, and then set them around Hell, kneeling.",
+    "mainEntryId": "wdef-ج-ث-و-ي.جِثِيٌّ",
+    "entries": [
+      {
+        "id": "wdef-ج-ث-و-ي",
+        "label": "ج-ث-و-ي",
+        "definitionHtml": "ج/ث/و-ي   j–th–w/y rock‐pile, mound, a small hill; to kneel; body; a grave mound. <br><br>Of this root, 2 words occur 3 times in the Qur’an:<br> جَاثِيَةٌ jāthiyatun 1 time and جِثِيٌّ jithiyy 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ث-و-ي.جِثِيٌّ",
+        "label": "جِثِيٌّ",
+        "definitionHtml": "جِثِيٌّ jithiyy[pl. of act. part. جَاثِى jāthı] kneeling down, humbled, vanquished <br><br>(19:68) فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَالشَّيَاطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا so by your Lord We shall gather them together with the devils, and then set them around Hell, kneeling.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-ث-و-ي.جَاثِيَةٌ",
+        "label": "جَاثِيَةٌ",
+        "definitionHtml": "جَاثِيَةٌ jāthiyatun[fem. act. part.] kneeling alert and ready to be called; kneeling down in humility <br><br>(45:28) وَتَرَى كُلَّ أُمَّةٍ جَاثِيَةً كُلُّ أُمَّةٍ تُدْعَى إِلَى كِتَابِهَا you will see every community kneeling: every community will be summoned to its record; * الجَاثِيَةٌname of Sura 45, Meccan sura, so‐named because of the reference in verse <br><br><strong>28 </strong>to the ‘kneeling posture’ of all on the Day of Judgement.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:32.101Z",
+      "refword": "19:68:8",
+      "lexword": "جِثِيًّا"
+    }
+  }
+}

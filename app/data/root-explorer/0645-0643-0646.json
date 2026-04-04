@@ -1,0 +1,370 @@
+{
+  "root": "مكن",
+  "rootArabic": "مكن",
+  "stats": {
+    "totalOccurrences": 18,
+    "derivativeCount": 3,
+    "surahCount": 12,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "مَكَّنَ",
+      "count": 13
+    },
+    {
+      "form": "مَكِين",
+      "count": 4
+    },
+    {
+      "form": "أمْكَنَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أمْكَنَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 2,
+          "totalInQuran": 13
+        },
+        {
+          "form": "مَكِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَكَّنَ",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكِين",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 6,
+      "text": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "highlightedHtml": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ <a class=\"highlight-text\">مَّكَّنَّٰهُمْ</a> فِى ٱلْأَرْضِ مَا لَمْ <a class=\"highlight-text\">نُمَكِّن</a> لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "derivedForms": [
+        "مَكَّنَ",
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 10,
+      "text": "وَلَقَدْ مَكَّنَّٰكُمْ فِى ٱلْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَٰيِشَ ۗ قَلِيلًا مَّا تَشْكُرُونَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">مَكَّنَّٰكُمْ</a> فِى ٱلْأَرْضِ وَجَعَلْنَا لَكُمْ فِيهَا مَعَٰيِشَ ۗ قَلِيلًا مَّا تَشْكُرُونَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 71,
+      "text": "وَإِن يُرِيدُوا۟ خِيَانَتَكَ فَقَدْ خَانُوا۟ ٱللَّهَ مِن قَبْلُ فَأَمْكَنَ مِنْهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَإِن يُرِيدُوا۟ خِيَانَتَكَ فَقَدْ خَانُوا۟ ٱللَّهَ مِن قَبْلُ <a class=\"highlight-text\">فَأَمْكَنَ</a> مِنْهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "أمْكَنَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 21,
+      "text": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِى ٱشْتَرَىٰهُ مِن مِّصْرَ لِٱمْرَأَتِهِۦٓ أَكْرِمِى مَثْوَىٰهُ عَسَىٰٓ أَن يَنفَعَنَآ أَوْ نَتَّخِذَهُۥ وَلَدًا ۚ وَكَذَٰلِكَ <a class=\"highlight-text\">مَكَّنَّا</a> لِيُوسُفَ فِى ٱلْأَرْضِ وَلِنُعَلِّمَهُۥ مِن تَأْوِيلِ ٱلْأَحَادِيثِ ۚ وَٱللَّهُ غَالِبٌ عَلَىٰٓ أَمْرِهِۦ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 54,
+      "text": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا مَكِينٌ أَمِينٌ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلِكُ ٱئْتُونِى بِهِۦٓ أَسْتَخْلِصْهُ لِنَفْسِى ۖ فَلَمَّا كَلَّمَهُۥ قَالَ إِنَّكَ ٱلْيَوْمَ لَدَيْنَا <a class=\"highlight-text\">مَكِينٌ</a> أَمِينٌ",
+      "derivedForms": [
+        "مَكِين"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 56,
+      "text": "وَكَذَٰلِكَ مَكَّنَّا لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَكَذَٰلِكَ <a class=\"highlight-text\">مَكَّنَّا</a> لِيُوسُفَ فِى ٱلْأَرْضِ يَتَبَوَّأُ مِنْهَا حَيْثُ يَشَآءُ ۚ نُصِيبُ بِرَحْمَتِنَا مَن نَّشَآءُ ۖ وَلَا نُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 84,
+      "text": "إِنَّا مَكَّنَّا لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍ سَبَبًا",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">مَكَّنَّا</a> لَهُۥ فِى ٱلْأَرْضِ وَءَاتَيْنَٰهُ مِن كُلِّ شَىْءٍ سَبَبًا",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 95,
+      "text": "قَالَ مَا مَكَّنِّى فِيهِ رَبِّى خَيْرٌ فَأَعِينُونِى بِقُوَّةٍ بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا",
+      "highlightedHtml": "قَالَ مَا <a class=\"highlight-text\">مَكَّنِّى</a> فِيهِ رَبِّى خَيْرٌ فَأَعِينُونِى بِقُوَّةٍ بِقُوَّةٍ أَجْعَلْ بَيْنَكُمْ وَبَيْنَهُمْ رَدْمًا",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 41,
+      "text": "ٱلَّذِينَ إِن مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ ٱلْمُنكَرِ ۗ وَلِلَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "highlightedHtml": "ٱلَّذِينَ إِن <a class=\"highlight-text\">مَّكَّنَّٰهُمْ</a> فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ ٱلْمُنكَرِ ۗ وَلِلَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 13,
+      "text": "ثُمَّ جَعَلْنَٰهُ نُطْفَةً فِى قَرَارٍ مَّكِينٍ",
+      "highlightedHtml": "ثُمَّ جَعَلْنَٰهُ نُطْفَةً فِى قَرَارٍ <a class=\"highlight-text\">مَّكِينٍ</a>",
+      "derivedForms": [
+        "مَكِين"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 55,
+      "text": "وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَيَسْتَخْلِفَنَّهُمْ فِى ٱلْأَرْضِ كَمَا ٱسْتَخْلَفَ ٱلَّذِينَ مِن قَبْلِهِمْ وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ ٱلَّذِى ٱرْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًا ۚ يَعْبُدُونَنِى لَا يُشْرِكُونَ بِى شَيْـًٔا ۚ وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ",
+      "highlightedHtml": "وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا مِنكُمْ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ لَيَسْتَخْلِفَنَّهُمْ فِى ٱلْأَرْضِ كَمَا ٱسْتَخْلَفَ ٱلَّذِينَ مِن قَبْلِهِمْ <a class=\"highlight-text\">وَلَيُمَكِّنَنَّ</a> لَهُمْ دِينَهُمُ ٱلَّذِى ٱرْتَضَىٰ لَهُمْ وَلَيُبَدِّلَنَّهُم مِّنۢ بَعْدِ خَوْفِهِمْ أَمْنًا ۚ يَعْبُدُونَنِى لَا يُشْرِكُونَ بِى شَيْـًٔا ۚ وَمَن كَفَرَ بَعْدَ ذَٰلِكَ فَأُو۟لَٰٓئِكَ هُمُ ٱلْفَٰسِقُونَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 6,
+      "text": "وَنُمَكِّنَ لَهُمْ فِى ٱلْأَرْضِ وَنُرِىَ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا مِنْهُم مَّا كَانُوا۟ يَحْذَرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَنُمَكِّنَ</a> لَهُمْ فِى ٱلْأَرْضِ وَنُرِىَ فِرْعَوْنَ وَهَٰمَٰنَ وَجُنُودَهُمَا مِنْهُم مَّا كَانُوا۟ يَحْذَرُونَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 57,
+      "text": "وَقَالُوٓا۟ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ ۚ أَوَلَمْ نُمَكِّن لَّهُمْ حَرَمًا آمِنًا يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍ رِّزْقًا مِّن لَّدُنَّا وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "وَقَالُوٓا۟ إِن نَّتَّبِعِ ٱلْهُدَىٰ مَعَكَ نُتَخَطَّفْ مِنْ أَرْضِنَآ ۚ أَوَلَمْ <a class=\"highlight-text\">نُمَكِّن</a> لَّهُمْ حَرَمًا آمِنًا يُجْبَىٰٓ إِلَيْهِ ثَمَرَٰتُ كُلِّ شَىْءٍ رِّزْقًا مِّن لَّدُنَّا وَلَٰكِنَّ أَكْثَرَهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 26,
+      "text": "وَلَقَدْ مَكَّنَّٰهُمْ فِيمَآ إِن مَّكَّنَّٰكُمْ فِيهِ وَجَعَلْنَا لَهُمْ سَمْعًا وَأَبْصَٰرًا وَأَفْـِٔدَةً فَمَآ أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَآ أَبْصَٰرُهُمْ وَلَآ أَفْـِٔدَتُهُم مِّن شَىْءٍ إِذْ كَانُوا۟ يَجْحَدُونَ بِـَٔايَٰتِ ٱللَّهِ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "highlightedHtml": "وَلَقَدْ <a class=\"highlight-text\">مَكَّنَّٰهُمْ</a> فِيمَآ إِن <a class=\"highlight-text\">مَّكَّنَّٰكُمْ</a> فِيهِ وَجَعَلْنَا لَهُمْ سَمْعًا وَأَبْصَٰرًا وَأَفْـِٔدَةً فَمَآ أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَآ أَبْصَٰرُهُمْ وَلَآ أَفْـِٔدَتُهُم مِّن شَىْءٍ إِذْ كَانُوا۟ يَجْحَدُونَ بِـَٔايَٰتِ ٱللَّهِ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "derivedForms": [
+        "مَكَّنَ",
+        "مَكَّنَ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 21,
+      "text": "فَجَعَلْنَٰهُ فِى قَرَارٍ مَّكِينٍ",
+      "highlightedHtml": "فَجَعَلْنَٰهُ فِى قَرَارٍ <a class=\"highlight-text\">مَّكِينٍ</a>",
+      "derivedForms": [
+        "مَكِين"
+      ]
+    },
+    {
+      "surah": 81,
+      "ayah": 20,
+      "text": "ذِى قُوَّةٍ قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ مَكِينٍ",
+      "highlightedHtml": "ذِى قُوَّةٍ قُوَّةٍ عِندَ ذِى ٱلْعَرْشِ <a class=\"highlight-text\">مَكِينٍ</a>",
+      "derivedForms": [
+        "مَكِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:33.645Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "مَّكَّنَّٰهُمْ is in the derivative form: مَكَّنَ",
+    "rootDefinitionHtml": "م/ك/ن   m–k–n lizard and locust eggs<br>; bird’s nest; to be exalted in position; to be calm; to be firmly established, to consolidate, to gain influence; to become possible. <br><br>Of this root, 3 forms occur 18 times in the Qur’an:<br> مَكَّنَ makkana 13 times; أمْكَنَ ʾamkana 1 time and مَكِين makın 4 times.",
+    "mainDefinitionHtml": "مَكَّنَ makkana [v. II, trans.] <br><br><strong>1 </strong>to establish, to strengthen <br><br>(24:55) وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ الَّذِي ارْتَضَى لَهُمْ and He will surely establish for them their religion which He had approved for them <br><br><strong>2 </strong>[with prep. فِى] to settle in, to secure in <br><br>(7:10) وَلَقَدْ‏ ‏مَكَّنَّاكُمْ‏ ‏فِي‏ ‏الأَرْضِ‏ ‏وَجَعَلْنَا‏ ‏لَكُمْ‏ ‏فِيهَا‏ ‏مَعَايِشَ‏ and We have indeed settled you [people] on the earth and provided you with a means of livelihood there <br><br><strong>3 </strong>[with prep. ﻠ] to give authority to, to give power to, to give a firm position to <br><br>(28:6) وَنُمَكِّنَ‏ ‏لَهُمْ‏ ‏فِى‏ ‏الأَرْضِ ‏ to give them power in/over the land.",
+    "mainEntryId": "wdef-م-ك-ن.مَكَّنَ",
+    "entries": [
+      {
+        "id": "wdef-م-ك-ن",
+        "label": "م-ك-ن",
+        "definitionHtml": "م/ك/ن   m–k–n lizard and locust eggs<br>; bird’s nest; to be exalted in position; to be calm; to be firmly established, to consolidate, to gain influence; to become possible. <br><br>Of this root, 3 forms occur 18 times in the Qur’an:<br> مَكَّنَ makkana 13 times; أمْكَنَ ʾamkana 1 time and مَكِين makın 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ك-ن.مَكَّنَ",
+        "label": "مَكَّنَ",
+        "definitionHtml": "مَكَّنَ makkana [v. II, trans.] <br><br><strong>1 </strong>to establish, to strengthen <br><br>(24:55) وَلَيُمَكِّنَنَّ لَهُمْ دِينَهُمُ الَّذِي ارْتَضَى لَهُمْ and He will surely establish for them their religion which He had approved for them <br><br><strong>2 </strong>[with prep. فِى] to settle in, to secure in <br><br>(7:10) وَلَقَدْ‏ ‏مَكَّنَّاكُمْ‏ ‏فِي‏ ‏الأَرْضِ‏ ‏وَجَعَلْنَا‏ ‏لَكُمْ‏ ‏فِيهَا‏ ‏مَعَايِشَ‏ and We have indeed settled you [people] on the earth and provided you with a means of livelihood there <br><br><strong>3 </strong>[with prep. ﻠ] to give authority to, to give power to, to give a firm position to <br><br>(28:6) وَنُمَكِّنَ‏ ‏لَهُمْ‏ ‏فِى‏ ‏الأَرْضِ ‏ to give them power in/over the land.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ك-ن.أمْكَنَ",
+        "label": "أمْكَنَ",
+        "definitionHtml": "أمْكَنَ ʾamkana [v. IV, intrans./trans.] (with no notional subject) to become possible, to enable *<br><br>(8:71) أمْكَنَ مِنْهُمَ He had them caught, put them in the power of their adversaries [lit. He enabled over them].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ك-ن.مَكِين",
+        "label": "مَكِين",
+        "definitionHtml": "مَكِين makın [quasi‐act. part.] <br><br><strong>1 </strong>secure, safe <br><br>(23:13) ثُمَّ‏ ‏جَعَلْنَاهُ‏ ‏نُطْفَةً‏ ‏فِى‏ ‏قَرَارٍ‏ ‏مَكِينٍ‏ then We placed him as a drop of seed in a secure lodging <br><br><strong>2 </strong>well established <br><br>(12:54) ‏‏إِنَّكَ‏ ‏الْيَوْمَ‏ ‏لَدَيْنَا‏ ‏مَكِينٌ أَمِينٌ‏ you are now well established with us and trusted.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:25.887Z",
+      "refword": "6:6:9",
+      "lexword": "مَّكَّنَّٰهُمْ"
+    }
+  }
+}

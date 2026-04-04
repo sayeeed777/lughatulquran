@@ -1,0 +1,205 @@
+{
+  "root": "ضرع",
+  "rootArabic": "ضرع",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "تَضَرَّعَ",
+      "count": 4
+    },
+    {
+      "form": "تَضَرُّعٌ",
+      "count": 3
+    },
+    {
+      "form": "ضَرِيعٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَضَرَّعَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "تَضَرُّعٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَضَرُّعٌ",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "تَضَرَّعَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَضَرَّعَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ضَرِيعٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 42,
+      "text": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰٓ أُمَمٍ مِّن قَبْلِكَ فَأَخَذْنَٰهُم بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ يَتَضَرَّعُونَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَآ إِلَىٰٓ أُمَمٍ مِّن قَبْلِكَ فَأَخَذْنَٰهُم بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ <a class=\"highlight-text\">يَتَضَرَّعُونَ</a>",
+      "derivedForms": [
+        "تَضَرَّعَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 43,
+      "text": "فَلَوْلَآ إِذْ جَآءَهُم بَأْسُنَا تَضَرَّعُوا۟ وَلَٰكِن قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "فَلَوْلَآ إِذْ جَآءَهُم بَأْسُنَا <a class=\"highlight-text\">تَضَرَّعُوا۟</a> وَلَٰكِن قَسَتْ قُلُوبُهُمْ وَزَيَّنَ لَهُمُ ٱلشَّيْطَٰنُ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "تَضَرَّعَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 63,
+      "text": "قُلْ مَن يُنَجِّيكُم مِّن ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ تَدْعُونَهُۥ تَضَرُّعًا وَخُفْيَةً لَّئِنْ أَنجَىٰنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "قُلْ مَن يُنَجِّيكُم مِّن ظُلُمَٰتِ ٱلْبَرِّ وَٱلْبَحْرِ تَدْعُونَهُۥ <a class=\"highlight-text\">تَضَرُّعًا</a> وَخُفْيَةً لَّئِنْ أَنجَىٰنَا مِنْ هَٰذِهِۦ لَنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "تَضَرُّعٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 55,
+      "text": "ٱدْعُوا۟ رَبَّكُمْ تَضَرُّعًا وَخُفْيَةً ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
+      "highlightedHtml": "ٱدْعُوا۟ رَبَّكُمْ <a class=\"highlight-text\">تَضَرُّعًا</a> وَخُفْيَةً ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
+      "derivedForms": [
+        "تَضَرُّعٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 94,
+      "text": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّبِىٍّ إِلَّآ أَخَذْنَآ أَهْلَهَا بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ يَضَّرَّعُونَ",
+      "highlightedHtml": "وَمَآ أَرْسَلْنَا فِى قَرْيَةٍ مِّن نَّبِىٍّ إِلَّآ أَخَذْنَآ أَهْلَهَا بِٱلْبَأْسَآءِ وَٱلضَّرَّآءِ لَعَلَّهُمْ <a class=\"highlight-text\">يَضَّرَّعُونَ</a>",
+      "derivedForms": [
+        "تَضَرَّعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 205,
+      "text": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "highlightedHtml": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ <a class=\"highlight-text\">تَضَرُّعًا</a> وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "derivedForms": [
+        "تَضَرُّعٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 76,
+      "text": "وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا يَتَضَرَّعُونَ",
+      "highlightedHtml": "وَلَقَدْ أَخَذْنَٰهُم بِٱلْعَذَابِ فَمَا ٱسْتَكَانُوا۟ لِرَبِّهِمْ وَمَا <a class=\"highlight-text\">يَتَضَرَّعُونَ</a>",
+      "derivedForms": [
+        "تَضَرَّعَ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 6,
+      "text": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن ضَرِيعٍ",
+      "highlightedHtml": "لَّيْسَ لَهُمْ طَعَامٌ إِلَّا مِن <a class=\"highlight-text\">ضَرِيعٍ</a>",
+      "derivedForms": [
+        "ضَرِيعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:29.283Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form V) imperfect verb",
+    "derivativeNote": "يَتَضَرَّعُونَ is in the derivative form: تَضَرَّعَ",
+    "rootDefinitionHtml": "ض/ر/ع   ḍ–r–ʿ udder, teat, stream of milk from an udder<br>; to worship, to humble oneself, to call for help; similarity, to be similar, to approach; the present time. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> تَضَرَّعُوا taḍarraʿū 4 times; تَضَرُّعٌ taḍarruʿ 3 times and ضَرِيعٌ ḍarıʿ 1 time.",
+    "mainDefinitionHtml": "تَضَرَّعَ taḍarraʿa [v. V, intrans.] to implore humbly, to plead with, to supplicate <br><br>(6:43) فَلَوْلاَ‏ ‏إِذْ‏ ‏جَاءَهُمْ‏ ‏بَأْسُنَا‏ ‏تَضَرَّعُوا‏ if only when Our chastisement came to them, they had pleaded [with Us]!",
+    "mainEntryId": "wdef-ض-ر-ع.تَضَرَّعَ",
+    "entries": [
+      {
+        "id": "wdef-ض-ر-ع",
+        "label": "ض-ر-ع",
+        "definitionHtml": "ض/ر/ع   ḍ–r–ʿ udder, teat, stream of milk from an udder<br>; to worship, to humble oneself, to call for help; similarity, to be similar, to approach; the present time. <br><br>Of this root, 3 forms occur 8 times in the Qur’an:<br> تَضَرَّعُوا taḍarraʿū 4 times; تَضَرُّعٌ taḍarruʿ 3 times and ضَرِيعٌ ḍarıʿ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ر-ع.تَضَرَّعَ",
+        "label": "تَضَرَّعَ",
+        "definitionHtml": "تَضَرَّعَ taḍarraʿa [v. V, intrans.] to implore humbly, to plead with, to supplicate <br><br>(6:43) فَلَوْلاَ‏ ‏إِذْ‏ ‏جَاءَهُمْ‏ ‏بَأْسُنَا‏ ‏تَضَرَّعُوا‏ if only when Our chastisement came to them, they had pleaded [with Us]!",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ض-ر-ع.تَضَرُّعٌ",
+        "label": "تَضَرُّعٌ",
+        "definitionHtml": "تَضَرُّعٌ taḍarruʿ [v. n.] pleading humbly, supplicating <br><br>(7:205) وَاذْكُرْ‏ ‏رَبَّكَ‏ ‏فِي‏ ‏نَفْسِكَ‏ ‏تَضَرُّعًا‏ ‏وَخِيفَةً‏ and remember your Lord in your soul, imploringly and in awe.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-ر-ع.ضَرِيعٌ",
+        "label": "ضَرِيعٌ",
+        "definitionHtml": "ضَرِيعٌ ḍarıʿ [n.] poisonous thorns; putrid stinking food <br><br>(88:6) لَيْسَ‏ ‏لَهُمْ‏ ‏طَعَامٌ‏ ‏إِلاَّ‏ ‏مِنْ‏ ‏ضَرِيعٍ‏ with no food for them but bitter, dry thorns.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:52.202Z",
+      "refword": "6:42:11",
+      "lexword": "يَتَضَرَّعُونَ"
+    }
+  }
+}

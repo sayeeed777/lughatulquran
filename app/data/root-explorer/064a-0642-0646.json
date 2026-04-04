@@ -1,0 +1,602 @@
+{
+  "root": "يقن",
+  "rootArabic": "يقن",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 5,
+    "surahCount": 19,
+    "ayahCount": 28
+  },
+  "derivatives": [
+    {
+      "form": "يُوقِن",
+      "count": 12
+    },
+    {
+      "form": "يَقِين",
+      "count": 8
+    },
+    {
+      "form": "مُوقِنُون",
+      "count": 5
+    },
+    {
+      "form": "اسْتيَقَن",
+      "count": 2
+    },
+    {
+      "form": "مُسْتيَقِنون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوقِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوقِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "اسْتيَقَن",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُوقِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوقِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "مُسْتيَقِنون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُوقِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوقِن",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتيَقَن",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يَقِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 102,
+      "surahName": "At-Takathur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَقِين",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 4,
+      "text": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِالْآخِرَةِ هُمْ يُوقِنُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِالْآخِرَةِ هُمْ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 118,
+      "text": "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ آيَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْءَايَٰتِ لِقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ آيَةٌ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْءَايَٰتِ لِقَوْمٍ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 157,
+      "text": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ يَقِينًۢا",
+      "highlightedHtml": "وَقَوْلِهِمْ إِنَّا قَتَلْنَا ٱلْمَسِيحَ عِيسَى ٱبْنَ مَرْيَمَ رَسُولَ ٱللَّهِ وَمَا قَتَلُوهُ وَمَا صَلَبُوهُ وَلَٰكِن شُبِّهَ لَهُمْ ۚ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِيهِ لَفِى شَكٍّ مِّنْهُ ۚ مَا لَهُم بِهِۦ مِنْ عِلْمٍ إِلَّا ٱتِّبَاعَ ٱلظَّنِّ ۚ وَمَا قَتَلُوهُ <a class=\"highlight-text\">يَقِينًۢا</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 50,
+      "text": "أَفَحُكْمَ ٱلْجَٰهِلِيَّةِ يَبْغُونَ ۚ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ حُكْمًا لِّقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "أَفَحُكْمَ ٱلْجَٰهِلِيَّةِ يَبْغُونَ ۚ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ حُكْمًا لِّقَوْمٍ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 75,
+      "text": "وَكَذَٰلِكَ نُرِىٓ إِبْرَٰهِيمَ مَلَكُوتَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلِيَكُونَ مِنَ ٱلْمُوقِنِينَ",
+      "highlightedHtml": "وَكَذَٰلِكَ نُرِىٓ إِبْرَٰهِيمَ مَلَكُوتَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَلِيَكُونَ مِنَ <a class=\"highlight-text\">ٱلْمُوقِنِينَ</a>",
+      "derivedForms": [
+        "مُوقِنُون"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 2,
+      "text": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ <a class=\"highlight-text\">تُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 99,
+      "text": "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ ٱلْيَقِينُ",
+      "highlightedHtml": "وَٱعْبُدْ رَبَّكَ حَتَّىٰ يَأْتِيَكَ <a class=\"highlight-text\">ٱلْيَقِينُ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 24,
+      "text": "قَالَ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ",
+      "highlightedHtml": "قَالَ رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم <a class=\"highlight-text\">مُّوقِنِينَ</a>",
+      "derivedForms": [
+        "مُوقِنُون"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 3,
+      "text": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِالْآخِرَةِ هُمْ يُوقِنُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِالْآخِرَةِ هُمْ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 14,
+      "text": "وَجَحَدُوا۟ بِهَا وَٱسْتَيْقَنَتْهَآ أَنفُسُهُمْ ظُلْمًا وَعُلُوًّا ۚ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "وَجَحَدُوا۟ بِهَا <a class=\"highlight-text\">وَٱسْتَيْقَنَتْهَآ</a> أَنفُسُهُمْ ظُلْمًا وَعُلُوًّا ۚ فَٱنظُرْ كَيْفَ كَانَ عَٰقِبَةُ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "اسْتيَقَن"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 22,
+      "text": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍ يَقِينٍ",
+      "highlightedHtml": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِۦ وَجِئْتُكَ مِن سَبَإٍۭ بِنَبَإٍ <a class=\"highlight-text\">يَقِينٍ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 82,
+      "text": "وَإِذَا وَقَعَ ٱلْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَآبَّةً مِّنَ ٱلْأَرْضِ تُكَلِّمُهُمْ أَنَّ ٱلنَّاسَ كَانُوا۟ بِـَٔايَٰتِنَا لَا يُوقِنُونَ",
+      "highlightedHtml": "وَإِذَا وَقَعَ ٱلْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَآبَّةً مِّنَ ٱلْأَرْضِ تُكَلِّمُهُمْ أَنَّ ٱلنَّاسَ كَانُوا۟ بِـَٔايَٰتِنَا لَا <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 60,
+      "text": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا يُوقِنُونَ",
+      "highlightedHtml": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ ۖ وَلَا يَسْتَخِفَّنَّكَ ٱلَّذِينَ لَا <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 4,
+      "text": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِالْآخِرَةِ هُمْ يُوقِنُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِالْآخِرَةِ هُمْ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 12,
+      "text": "وَلَوْ تَرَىٰٓ إِذِ ٱلْمُجْرِمُونَ نَاكِسُوا۟ رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَآ أَبْصَرْنَا وَسَمِعْنَا فَٱرْجِعْنَا نَعْمَلْ صَٰلِحًا إِنَّا مُوقِنُونَ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذِ ٱلْمُجْرِمُونَ نَاكِسُوا۟ رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَآ أَبْصَرْنَا وَسَمِعْنَا فَٱرْجِعْنَا نَعْمَلْ صَٰلِحًا إِنَّا <a class=\"highlight-text\">مُوقِنُونَ</a>",
+      "derivedForms": [
+        "مُوقِنُون"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 24,
+      "text": "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا يُوقِنُونَ",
+      "highlightedHtml": "وَجَعَلْنَا مِنْهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا لَمَّا صَبَرُوا۟ ۖ وَكَانُوا۟ بِـَٔايَٰتِنَا <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 7,
+      "text": "رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم مُّوقِنِينَ",
+      "highlightedHtml": "رَبِّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَمَا بَيْنَهُمَآ ۖ إِن كُنتُم <a class=\"highlight-text\">مُّوقِنِينَ</a>",
+      "derivedForms": [
+        "مُوقِنُون"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 4,
+      "text": "وَفِى خَلْقِكُمْ وَمَا يَبُثُّ مِن دَآبَّةٍ آيَاتٌ لِّقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "وَفِى خَلْقِكُمْ وَمَا يَبُثُّ مِن دَآبَّةٍ آيَاتٌ لِّقَوْمٍ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 20,
+      "text": "هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ يُوقِنُونَ",
+      "highlightedHtml": "هَٰذَا بَصَٰٓئِرُ لِلنَّاسِ وَهُدًى وَرَحْمَةٌ لِّقَوْمٍ <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 32,
+      "text": "وَإِذَا قِيلَ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لَا رَيْبَ فِيهَا قُلْتُم مَّا نَدْرِى مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنًّا وَمَا نَحْنُ بِمُسْتَيْقِنِينَ",
+      "highlightedHtml": "وَإِذَا قِيلَ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱلسَّاعَةُ لَا رَيْبَ فِيهَا قُلْتُم مَّا نَدْرِى مَا ٱلسَّاعَةُ إِن نَّظُنُّ إِلَّا ظَنًّا وَمَا نَحْنُ <a class=\"highlight-text\">بِمُسْتَيْقِنِينَ</a>",
+      "derivedForms": [
+        "مُسْتيَقِنون"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 20,
+      "text": "وَفِى ٱلْأَرْضِ آيَاتٌ لِّلْمُوقِنِينَ",
+      "highlightedHtml": "وَفِى ٱلْأَرْضِ آيَاتٌ <a class=\"highlight-text\">لِّلْمُوقِنِينَ</a>",
+      "derivedForms": [
+        "مُوقِنُون"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 36,
+      "text": "أَمْ خَلَقُوا۟ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا يُوقِنُونَ",
+      "highlightedHtml": "أَمْ خَلَقُوا۟ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ ۚ بَل لَّا <a class=\"highlight-text\">يُوقِنُونَ</a>",
+      "derivedForms": [
+        "يُوقِن"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 95,
+      "text": "إِنَّ هَٰذَا لَهُوَ حَقُّ ٱلْيَقِينِ",
+      "highlightedHtml": "إِنَّ هَٰذَا لَهُوَ حَقُّ <a class=\"highlight-text\">ٱلْيَقِينِ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 51,
+      "text": "وَإِنَّهُۥ لَحَقُّ ٱلْيَقِينِ",
+      "highlightedHtml": "وَإِنَّهُۥ لَحَقُّ <a class=\"highlight-text\">ٱلْيَقِينِ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 31,
+      "text": "وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ لِيَسْتَيْقِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ آمَنُوا إِيمَٰنًا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
+      "highlightedHtml": "وَمَا جَعَلْنَآ أَصْحَٰبَ ٱلنَّارِ إِلَّا مَلَٰٓئِكَةً ۙ وَمَا جَعَلْنَا عِدَّتَهُمْ إِلَّا فِتْنَةً لِّلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">لِيَسْتَيْقِنَ</a> ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَيَزْدَادَ ٱلَّذِينَ آمَنُوا إِيمَٰنًا ۙ وَلَا يَرْتَابَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ وَٱلْمُؤْمِنُونَ ۙ وَلِيَقُولَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ وَٱلْكَٰفِرُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ مَن يَشَآءُ وَيَهْدِى مَن يَشَآءُ ۚ وَمَا يَعْلَمُ جُنُودَ رَبِّكَ إِلَّا هُوَ ۚ وَمَا هِىَ إِلَّا ذِكْرَىٰ لِلْبَشَرِ",
+      "derivedForms": [
+        "اسْتيَقَن"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 47,
+      "text": "حَتَّىٰٓ أَتَىٰنَا ٱلْيَقِينُ",
+      "highlightedHtml": "حَتَّىٰٓ أَتَىٰنَا <a class=\"highlight-text\">ٱلْيَقِينُ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 102,
+      "ayah": 5,
+      "text": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ ٱلْيَقِينِ",
+      "highlightedHtml": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ <a class=\"highlight-text\">ٱلْيَقِينِ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    },
+    {
+      "surah": 102,
+      "ayah": 7,
+      "text": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ ٱلْيَقِينِ",
+      "highlightedHtml": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ <a class=\"highlight-text\">ٱلْيَقِينِ</a>",
+      "derivedForms": [
+        "يَقِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T10:00:11.548Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "يُوقِنُونَ is in the derivative form: يُوقِن",
+    "rootDefinitionHtml": "ي/ق/ن   y–q–n to be certain, to verify<br>; conviction, unshakeable belief. <br><br>Of this root, 5 forms occur 28 times in the Qur’an:<br> يَوقِن yūqin 12 times; اسْتيَقَن ʾistayqana 2 times; يَقِين yaqın 8 times; مُوقِنوُن mūqinūn 5 times and مُسْتَيْقِنُون mustayqinūn 1 time.",
+    "mainDefinitionHtml": "يُوقِن yūqin [imperf. of v. IV أَيْقَن ʾayqana, intrans.] to firmly believe <br><br>(2:4) وَبِالآخِرَةِ هُمْ يُوقِنُونَ and in the Hereafter they firmly believe.",
+    "mainEntryId": "wdef-ي-ق-ن.يُوقِن",
+    "entries": [
+      {
+        "id": "wdef-ي-ق-ن",
+        "label": "ي-ق-ن",
+        "definitionHtml": "ي/ق/ن   y–q–n to be certain, to verify<br>; conviction, unshakeable belief. <br><br>Of this root, 5 forms occur 28 times in the Qur’an:<br> يَوقِن yūqin 12 times; اسْتيَقَن ʾistayqana 2 times; يَقِين yaqın 8 times; مُوقِنوُن mūqinūn 5 times and مُسْتَيْقِنُون mustayqinūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ي-ق-ن.يُوقِن",
+        "label": "يُوقِن",
+        "definitionHtml": "يُوقِن yūqin [imperf. of v. IV أَيْقَن ʾayqana, intrans.] to firmly believe <br><br>(2:4) وَبِالآخِرَةِ هُمْ يُوقِنُونَ and in the Hereafter they firmly believe.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ي-ق-ن.اسْتيَقَن",
+        "label": "اسْتيَقَن",
+        "definitionHtml": "اسْتيَقَن ʾistayqana [v. X ] I [intrans.] to reach a firm belief <br><br>(74:31) لِيَسْتَيْقِنَ الَّذِينَ أُوتُوا الْكِتَابَ that those who were given the Book become certain II [trans.] to find something absolutely certain, to ascertain, to verify <br><br>(27:14) وَجَحَدُوا بِهَا وَاسْتَيْقَنَتْهَا أَنْفُسُهُمْ ظُلْمًا وَعُلُوًّا they denied them, even though their souls acknowledged them as true, out of wickedness and arrogance.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ي-ق-ن.مُسْتيَقِنون",
+        "label": "مُسْتيَقِنون",
+        "definitionHtml": "مُسْتيَقِنون mustayqinūn [pl. of act. part. مُسْتيَقِن mustayqin] one who has verified his beliefs, one who is absolutely certain, assured <br><br>(45:32) إِنْ نَظُنُّ إِلاَّ ظَنًّا وَمَا نَحْنُ بِمُسْتَيْقِنِينَ we only hazard a guess; we are not unshakably certain.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ي-ق-ن.مُوقِنُون",
+        "label": "مُوقِنُون",
+        "definitionHtml": "مُوقِنُون mūqinūn [pl. of act. part. مُوقِن mūqin] one who firmly believes, one who is certain, sure <br><br>(6:75) وَلِيَكُونَ مِنَ الْمُوقِنِينَ that he might be one of the firm believers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ي-ق-ن.يَقِين",
+        "label": "يَقِين",
+        "definitionHtml": "يَقِين yaqın I [n.] a certainty <br><br>(74:47) حَتَّى أَتَانَا الْيَقِينُ until the Certainty [death] came upon us II [quasi‐act. part.] certain, sure <br><br>(27:22) وَجِئْتُكَ مِنْ سَبَإٍ بِنَبَإٍ يَقِينٍ and I came to you from Sheba with a sure item of news.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:05:12.582Z",
+      "refword": "2:4:12",
+      "lexword": "يُوقِنُونَ"
+    }
+  }
+}

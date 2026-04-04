@@ -1,0 +1,147 @@
+{
+  "root": "عتب",
+  "rootArabic": "عتب",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَسْتَعْتِبُ",
+      "count": 4
+    },
+    {
+      "form": "X",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْتِبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْتِبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْتِبُ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْتِبُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 16,
+      "ayah": 84,
+      "text": "وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيدًا ثُمَّ لَا يُؤْذَنُ لِلَّذِينَ كَفَرُوا۟ وَلَا هُمْ يُسْتَعْتَبُونَ",
+      "highlightedHtml": "وَيَوْمَ نَبْعَثُ مِن كُلِّ أُمَّةٍ شَهِيدًا ثُمَّ لَا يُؤْذَنُ لِلَّذِينَ كَفَرُوا۟ وَلَا هُمْ <a class=\"highlight-text\">يُسْتَعْتَبُونَ</a>",
+      "derivedForms": [
+        "يَسْتَعْتِبُ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 57,
+      "text": "فَيَوْمَئِذٍ لَّا يَنفَعُ ٱلَّذِينَ ظَلَمُوا۟ مَعْذِرَتُهُمْ وَلَا هُمْ يُسْتَعْتَبُونَ",
+      "highlightedHtml": "فَيَوْمَئِذٍ لَّا يَنفَعُ ٱلَّذِينَ ظَلَمُوا۟ مَعْذِرَتُهُمْ وَلَا هُمْ <a class=\"highlight-text\">يُسْتَعْتَبُونَ</a>",
+      "derivedForms": [
+        "يَسْتَعْتِبُ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 24,
+      "text": "فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًى لَّهُمْ ۖ وَإِن يَسْتَعْتِبُوا۟ فَمَا هُم مِّنَ ٱلْمُعْتَبِينَ",
+      "highlightedHtml": "فَإِن يَصْبِرُوا۟ فَٱلنَّارُ مَثْوًى لَّهُمْ ۖ وَإِن <a class=\"highlight-text\">يَسْتَعْتِبُوا۟</a> فَمَا هُم مِّنَ <a class=\"highlight-text\">ٱلْمُعْتَبِينَ</a>",
+      "derivedForms": [
+        "يَسْتَعْتِبُ",
+        "X"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 35,
+      "text": "ذَٰلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ آيَاتِ ٱللَّهِ هُزُوًا وَغَرَّتْكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ يُسْتَعْتَبُونَ",
+      "highlightedHtml": "ذَٰلِكُم بِأَنَّكُمُ ٱتَّخَذْتُمْ آيَاتِ ٱللَّهِ هُزُوًا وَغَرَّتْكُمُ ٱلْحَيَوٰةُ ٱلدُّنْيَا ۚ فَٱلْيَوْمَ لَا يُخْرَجُونَ مِنْهَا وَلَا هُمْ <a class=\"highlight-text\">يُسْتَعْتَبُونَ</a>",
+      "derivedForms": [
+        "يَسْتَعْتِبُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:23.993Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form X) passive imperfect verb",
+    "derivativeNote": "يُسْتَعْتَبُونَ is in the derivative form: يَسْتَعْتِبُ",
+    "rootDefinitionHtml": "ع/ت/ب   ʿ–t–b flight of levelled stone steps up a mountain, threshold, lintel, stairs<br>; anger, to be angry, to reprove, to have a bone to pick with someone, to reproach a friend amicably because of an alleged hurtful action committed by him, to explain oneself, to seek forgiveness. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَسْتَعْتِبوا yastaʿtibū 1 time; يُسْتَعْتَبون yustaʿtabūn 3 times and المُعْتَبين ʾal‐muʿtabın 1 time.",
+    "mainDefinitionHtml": "يَسْتَعْتِبُ yastaʿtib [imperf. of v. X, intrans.] to ask for a chance to explain oneself, to seek permission to make amends <br><br>(41:24)‏وَإِنْ‏ ‏يَسْتَعْتِبُوا‏ ‏فَمَا‏ ‏هُمْ‏ ‏مِنَ‏ ‏الْمُعْتَبِينَ‏ and even if they ask permission to make amends, they will not be among those granted such permission.",
+    "mainEntryId": "wdef-ع-ت-ب.يَسْتَعْتِبُ",
+    "entries": [
+      {
+        "id": "wdef-ع-ت-ب",
+        "label": "ع-ت-ب",
+        "definitionHtml": "ع/ت/ب   ʿ–t–b flight of levelled stone steps up a mountain, threshold, lintel, stairs<br>; anger, to be angry, to reprove, to have a bone to pick with someone, to reproach a friend amicably because of an alleged hurtful action committed by him, to explain oneself, to seek forgiveness. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَسْتَعْتِبوا yastaʿtibū 1 time; يُسْتَعْتَبون yustaʿtabūn 3 times and المُعْتَبين ʾal‐muʿtabın 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ت-ب.يَسْتَعْتِبُ",
+        "label": "يَسْتَعْتِبُ",
+        "definitionHtml": "يَسْتَعْتِبُ yastaʿtib [imperf. of v. X, intrans.] to ask for a chance to explain oneself, to seek permission to make amends <br><br>(41:24)‏وَإِنْ‏ ‏يَسْتَعْتِبُوا‏ ‏فَمَا‏ ‏هُمْ‏ ‏مِنَ‏ ‏الْمُعْتَبِينَ‏ and even if they ask permission to make amends, they will not be among those granted such permission.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:36.423Z",
+      "refword": "16:84:14",
+      "lexword": "يُسْتَعْتَبُونَ"
+    }
+  }
+}

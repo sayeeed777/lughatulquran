@@ -1,0 +1,221 @@
+{
+  "root": "فيض",
+  "rootArabic": "فيض",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "أَفَاضَ",
+      "count": 7
+    },
+    {
+      "form": "تَفِيض",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَفَاضَ",
+          "count": 3,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفِيض",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَفَاضَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفِيض",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَفَاضَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَفَاضَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَفَاضَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 198,
+      "text": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+      "highlightedHtml": "لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ ۚ فَإِذَآ <a class=\"highlight-text\">أَفَضْتُم</a> مِّنْ عَرَفَٰتٍ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ",
+      "derivedForms": [
+        "أَفَاضَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 199,
+      "text": "ثُمَّ أَفِيضُوا۟ مِنْ حَيْثُ أَفَاضَ ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَفِيضُوا۟</a> مِنْ حَيْثُ <a class=\"highlight-text\">أَفَاضَ</a> ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "أَفَاضَ",
+        "أَفَاضَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 83,
+      "text": "وَإِذَا سَمِعُوا۟ مَآ أُنزِلَ إِلَى ٱلرَّسُولِ تَرَىٰٓ أَعْيُنَهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ مِمَّا عَرَفُوا۟ مِنَ ٱلْحَقِّ ۖ يَقُولُونَ رَبَّنَآ آمَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّٰهِدِينَ",
+      "highlightedHtml": "وَإِذَا سَمِعُوا۟ مَآ أُنزِلَ إِلَى ٱلرَّسُولِ تَرَىٰٓ أَعْيُنَهُمْ <a class=\"highlight-text\">تَفِيضُ</a> مِنَ ٱلدَّمْعِ مِمَّا عَرَفُوا۟ مِنَ ٱلْحَقِّ ۖ يَقُولُونَ رَبَّنَآ آمَنَّا فَٱكْتُبْنَا مَعَ ٱلشَّٰهِدِينَ",
+      "derivedForms": [
+        "تَفِيض"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 50,
+      "text": "وَنَادَىٰٓ أَصْحَٰبُ ٱلنَّارِ أَصْحَٰبَ ٱلْجَنَّةِ أَنْ أَفِيضُوا۟ عَلَيْنَا مِنَ ٱلْمَآءِ أَوْ مِمَّا رَزَقَكُمُ ٱللَّهُ ۚ قَالُوٓا۟ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَنَادَىٰٓ أَصْحَٰبُ ٱلنَّارِ أَصْحَٰبَ ٱلْجَنَّةِ أَنْ <a class=\"highlight-text\">أَفِيضُوا۟</a> عَلَيْنَا مِنَ ٱلْمَآءِ أَوْ مِمَّا رَزَقَكُمُ ٱللَّهُ ۚ قَالُوٓا۟ إِنَّ ٱللَّهَ حَرَّمَهُمَا عَلَى ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "أَفَاضَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 92,
+      "text": "وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ تَفِيضُ مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ",
+      "highlightedHtml": "وَلَا عَلَى ٱلَّذِينَ إِذَا مَآ أَتَوْكَ لِتَحْمِلَهُمْ قُلْتَ لَآ أَجِدُ مَآ أَحْمِلُكُمْ عَلَيْهِ تَوَلَّوا۟ وَّأَعْيُنُهُمْ <a class=\"highlight-text\">تَفِيضُ</a> مِنَ ٱلدَّمْعِ حَزَنًا أَلَّا يَجِدُوا۟ مَا يُنفِقُونَ",
+      "derivedForms": [
+        "تَفِيض"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 61,
+      "text": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن مِّثْقَالِ ذَرَّةٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَمَا تَكُونُ فِى شَأْنٍ وَمَا تَتْلُوا۟ مِنْهُ مِن قُرْءَانٍ وَلَا تَعْمَلُونَ مِنْ عَمَلٍ إِلَّا كُنَّا عَلَيْكُمْ شُهُودًا إِذْ <a class=\"highlight-text\">تُفِيضُونَ</a> فِيهِ ۚ وَمَا يَعْزُبُ عَن رَّبِّكَ مِن مِّثْقَالِ ذَرَّةٍ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ وَلَآ أَصْغَرَ مِن ذَٰلِكَ وَلَآ أَكْبَرَ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "أَفَاضَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 14,
+      "text": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ فِى ٱلدُّنْيَا وَالْآخِرَةِ لَمَسَّكُمْ فِى مَآ أَفَضْتُمْ فِيهِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ فِى ٱلدُّنْيَا وَالْآخِرَةِ لَمَسَّكُمْ فِى مَآ <a class=\"highlight-text\">أَفَضْتُمْ</a> فِيهِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "أَفَاضَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 8,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا تُفِيضُونَ فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰهُ ۖ قُلْ إِنِ ٱفْتَرَيْتُهُۥ فَلَا تَمْلِكُونَ لِى مِنَ ٱللَّهِ شَيْـًٔا ۖ هُوَ أَعْلَمُ بِمَا <a class=\"highlight-text\">تُفِيضُونَ</a> فِيهِ ۖ كَفَىٰ بِهِۦ شَهِيدًۢا بَيْنِى وَبَيْنَكُمْ ۖ وَهُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "derivedForms": [
+        "أَفَاضَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:25.654Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) perfect verb",
+    "derivativeNote": "أَفَضْتُم is in the derivative form: أَفَاضَ",
+    "rootDefinitionHtml": "ف/ي/ض f–y–ḍ large mass of water, people moving in great numbers, to overflow; to speak at length. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> تَفِيض tafıḍ 2 times and أَفَضْتُم ʾafaḍtum 7 times.",
+    "mainDefinitionHtml": "أَفَاضَ ʾafāḍa [v. IV] I [intrans.] <br><br><strong>1 </strong>[jur.] to surge, to move en masse *<br><br>(2:198) فَإِذَا‏ ‏أَفَضْتُمْ‏ ‏مِنْ‏ ‏عَرَفَاتٍ‏ ‏ when you [the pilgrims] surge down all together from ʿarafāt (at the sunset of the 9th day of the month of Dhū’l-˘ijjati on the way back to Mecca, where the annual Pilgrimage is eventually concluded three days later) <br><br><strong>2 </strong>[with prep. فِي] to actively engage in <br><br>(10:61)‏إِلاَّ كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ but We are witnesses over you when you are engaged in it II [trans.] to pour, to bestow, to grant <br><br>(7:50) أَفِيضُوا عَلَيْنَا مِنَ الْمَاءِ أَوْ مِمَّا رَزَقَكُمُ اللَّهُ‏ grant us some of the water, or some of the sustenance God has granted you.",
+    "mainEntryId": "wdef-ف-ي-ض.أَفَاضَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ي-ض",
+        "label": "ف-ي-ض",
+        "definitionHtml": "ف/ي/ض f–y–ḍ large mass of water, people moving in great numbers, to overflow; to speak at length. <br><br>Of this root, 2 forms occur 9 times in the Qur’an:<br> تَفِيض tafıḍ 2 times and أَفَضْتُم ʾafaḍtum 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ي-ض.أَفَاضَ",
+        "label": "أَفَاضَ",
+        "definitionHtml": "أَفَاضَ ʾafāḍa [v. IV] I [intrans.] <br><br><strong>1 </strong>[jur.] to surge, to move en masse *<br><br>(2:198) فَإِذَا‏ ‏أَفَضْتُمْ‏ ‏مِنْ‏ ‏عَرَفَاتٍ‏ ‏ when you [the pilgrims] surge down all together from ʿarafāt (at the sunset of the 9th day of the month of Dhū’l-˘ijjati on the way back to Mecca, where the annual Pilgrimage is eventually concluded three days later) <br><br><strong>2 </strong>[with prep. فِي] to actively engage in <br><br>(10:61)‏إِلاَّ كُنَّا عَلَيْكُمْ شُهُودًا إِذْ تُفِيضُونَ فِيهِ but We are witnesses over you when you are engaged in it II [trans.] to pour, to bestow, to grant <br><br>(7:50) أَفِيضُوا عَلَيْنَا مِنَ الْمَاءِ أَوْ مِمَّا رَزَقَكُمُ اللَّهُ‏ grant us some of the water, or some of the sustenance God has granted you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ي-ض.تَفِيض",
+        "label": "تَفِيض",
+        "definitionHtml": "تَفِيض tafıḍ [imperf. v. intrans.] to overflow <br><br>(5:83)‏تَرَى‏ ‏أَعْيُنَهُمْ‏ ‏تَفِيضُ‏ ‏مِنَ‏ ‏الدَّمْعِ‏ ‏مِمَّا‏ ‏عَرَفُوا‏ ‏مِنَ الْحَقِّ‏ you will see their eyes overflowing with tears because of the truth they recognise [in it].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:30.214Z",
+      "refword": "2:198:10",
+      "lexword": "أَفَضْتُم"
+    }
+  }
+}

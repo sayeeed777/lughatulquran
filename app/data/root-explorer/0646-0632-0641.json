@@ -1,0 +1,95 @@
+{
+  "root": "نزف",
+  "rootArabic": "نزف",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يُنْزَفُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنْزَفُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنْزَفُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 47,
+      "text": "لَا فِيهَا غَوْلٌ وَلَا هُمْ عَنْهَا يُنزَفُونَ",
+      "highlightedHtml": "لَا فِيهَا غَوْلٌ وَلَا هُمْ عَنْهَا <a class=\"highlight-text\">يُنزَفُونَ</a>",
+      "derivedForms": [
+        "يُنْزَفُ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 19,
+      "text": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+      "highlightedHtml": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا <a class=\"highlight-text\">يُنزِفُونَ</a>",
+      "derivedForms": [
+        "يُنْزَفُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:13.922Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "يُنزَفُونَ is in the derivative form: يُنْزَفُ",
+    "rootDefinitionHtml": "ن/ز/ف   n–z–f haemorrhage, to bleed; to drain, to exhaust; (of drinks and arguments) to run out; to be intoxicated. Of this root, يُنْزَفُ yunzaf, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُنْزَفُ yunzaf [pass. imperf. of v. نَزَفَ nazafa] to be intoxicated, to be made drunk (also read as يُنْزِفُون yunzifūn, imperf. of v. IV أنْزَفَ ʾanzafa, which can also mean to run out of drinks) <br><br>(37:47) لاَ فِيهَا غَوْلٌ وَلاَ هُمْ عَنْهَا يُنْزَفُونَ it neither impairs the reason nor are they therein intoxicated (or, run out of drinks).",
+    "mainEntryId": "wdef-ن-ز-ف.يُنْزَفُ",
+    "entries": [
+      {
+        "id": "wdef-ن-ز-ف",
+        "label": "ن-ز-ف",
+        "definitionHtml": "ن/ز/ف   n–z–f haemorrhage, to bleed; to drain, to exhaust; (of drinks and arguments) to run out; to be intoxicated. Of this root, يُنْزَفُ yunzaf, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-ف.يُنْزَفُ",
+        "label": "يُنْزَفُ",
+        "definitionHtml": "يُنْزَفُ yunzaf [pass. imperf. of v. نَزَفَ nazafa] to be intoxicated, to be made drunk (also read as يُنْزِفُون yunzifūn, imperf. of v. IV أنْزَفَ ʾanzafa, which can also mean to run out of drinks) <br><br>(37:47) لاَ فِيهَا غَوْلٌ وَلاَ هُمْ عَنْهَا يُنْزَفُونَ it neither impairs the reason nor are they therein intoxicated (or, run out of drinks).",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:43.121Z",
+      "refword": "37:47:7",
+      "lexword": "يُنزَفُونَ"
+    }
+  }
+}

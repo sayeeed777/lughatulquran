@@ -1,0 +1,124 @@
+{
+  "root": "رحب",
+  "rootArabic": "رحب",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "رَحُبَ",
+      "count": 2
+    },
+    {
+      "form": "مَرْحَباَ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "رَحُبَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَرْحَباَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 25,
+      "text": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ",
+      "highlightedHtml": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا <a class=\"highlight-text\">رَحُبَتْ</a> ثُمَّ وَلَّيْتُم مُّدْبِرِينَ",
+      "derivedForms": [
+        "رَحُبَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 118,
+      "text": "وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا رَحُبَتْ وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "highlightedHtml": "وَعَلَى ٱلثَّلَٰثَةِ ٱلَّذِينَ خُلِّفُوا۟ حَتَّىٰٓ إِذَا ضَاقَتْ عَلَيْهِمُ ٱلْأَرْضُ بِمَا <a class=\"highlight-text\">رَحُبَتْ</a> وَضَاقَتْ عَلَيْهِمْ أَنفُسُهُمْ وَظَنُّوٓا۟ أَن لَّا مَلْجَأَ مِنَ ٱللَّهِ إِلَّآ إِلَيْهِ ثُمَّ تَابَ عَلَيْهِمْ لِيَتُوبُوٓا۟ ۚ إِنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+      "derivedForms": [
+        "رَحُبَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 59,
+      "text": "هَٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
+      "highlightedHtml": "هَٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا <a class=\"highlight-text\">مَرْحَبًۢا</a> بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
+      "derivedForms": [
+        "مَرْحَباَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 60,
+      "text": "قَالُوا۟ بَلْ أَنتُمْ لَا مَرْحَبًۢا بِكُمْ ۖ أَنتُمْ قَدَّمْتُمُوهُ لَنَا ۖ فَبِئْسَ ٱلْقَرَارُ",
+      "highlightedHtml": "قَالُوا۟ بَلْ أَنتُمْ لَا <a class=\"highlight-text\">مَرْحَبًۢا</a> بِكُمْ ۖ أَنتُمْ قَدَّمْتُمُوهُ لَنَا ۖ فَبِئْسَ ٱلْقَرَارُ",
+      "derivedForms": [
+        "مَرْحَباَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:11.286Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "رَحُبَتْ is in the derivative form: رَحُبَ",
+    "rootDefinitionHtml": "ر/ح/ب   r–ḥ–b to be wide, to be spacious, to be ample; to welcome; courtyard, flood channels in a valley, spacious fertile lands. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> رَحُبَ raḥuba and مَرْحَباَ marḥaban.",
+    "mainDefinitionHtml": "رَحُبَ raḥuba u [v. intrans.] to be wide, to be spacious <br><br>(9:25) وَضَاقَتْ عَلَيْكُمُ الأَرْضُ بِمَا رَحُبَتْ and the earth, vast as it is, [despite what it encompassed] was straitened for you.",
+    "mainEntryId": "wdef-ر-ح-ب.رَحُبَ",
+    "entries": [
+      {
+        "id": "wdef-ر-ح-ب",
+        "label": "ر-ح-ب",
+        "definitionHtml": "ر/ح/ب   r–ḥ–b to be wide, to be spacious, to be ample; to welcome; courtyard, flood channels in a valley, spacious fertile lands. <br><br>Of this root, 2 forms occur 2 times each in the Qur’an:<br> رَحُبَ raḥuba and مَرْحَباَ marḥaban.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ح-ب.رَحُبَ",
+        "label": "رَحُبَ",
+        "definitionHtml": "رَحُبَ raḥuba u [v. intrans.] to be wide, to be spacious <br><br>(9:25) وَضَاقَتْ عَلَيْكُمُ الأَرْضُ بِمَا رَحُبَتْ and the earth, vast as it is, [despite what it encompassed] was straitened for you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ح-ب.مَرْحَباَ",
+        "label": "مَرْحَباَ",
+        "definitionHtml": "مَرْحَباَ marḥaban [v. n. used interjectionally] welcome <br><br>(38:59) لاَ مَرْحَبًا بِهِمْ no welcome to them!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:37.476Z",
+      "refword": "9:25:20",
+      "lexword": "رَحُبَتْ"
+    }
+  }
+}

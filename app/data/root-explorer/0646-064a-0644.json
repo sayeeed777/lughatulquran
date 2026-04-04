@@ -1,0 +1,245 @@
+{
+  "root": "نيل",
+  "rootArabic": "نيل",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 10
+  },
+  "derivatives": [
+    {
+      "form": "يَنَالُ",
+      "count": 11
+    },
+    {
+      "form": "نَيْلٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 3,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 2,
+          "totalInQuran": 11
+        },
+        {
+          "form": "نَيْلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَنَالُ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 124,
+      "text": "وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِۦمَ رَبُّهُۥ بِكَلِمَٰتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِن ذُرِّيَّتِى ۖ قَالَ لَا يَنَالُ عَهْدِى ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِۦمَ رَبُّهُۥ بِكَلِمَٰتٍ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًا ۖ قَالَ وَمِن ذُرِّيَّتِى ۖ قَالَ لَا <a class=\"highlight-text\">يَنَالُ</a> عَهْدِى ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 92,
+      "text": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "highlightedHtml": "لَن <a class=\"highlight-text\">تَنَالُوا۟</a> ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 94,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَيَبْلُوَنَّكُمُ ٱللَّهُ بِشَىْءٍ مِّنَ ٱلصَّيْدِ تَنَالُهُۥٓ أَيْدِيكُمْ وَرِمَاحُكُمْ لِيَعْلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلْغَيْبِ ۚ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَيَبْلُوَنَّكُمُ ٱللَّهُ بِشَىْءٍ مِّنَ ٱلصَّيْدِ <a class=\"highlight-text\">تَنَالُهُۥٓ</a> أَيْدِيكُمْ وَرِمَاحُكُمْ لِيَعْلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلْغَيْبِ ۚ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 37,
+      "text": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَٰتِهِۦٓ ۚ أُو۟لَٰٓئِكَ يَنَالُهُمْ نَصِيبُهُم مِّنَ ٱلْكِتَٰبِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمْ رُسُلُنَا يَتَوَفَّوْنَهُمْ قَالُوٓا۟ أَيْنَ مَا كُنتُمْ تَدْعُونَ مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَٰفِرِينَ",
+      "highlightedHtml": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَٰتِهِۦٓ ۚ أُو۟لَٰٓئِكَ <a class=\"highlight-text\">يَنَالُهُمْ</a> نَصِيبُهُم مِّنَ ٱلْكِتَٰبِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمْ رُسُلُنَا يَتَوَفَّوْنَهُمْ قَالُوٓا۟ أَيْنَ مَا كُنتُمْ تَدْعُونَ مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَٰفِرِينَ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 49,
+      "text": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا يَنَالُهُمُ ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "highlightedHtml": "أَهَٰٓؤُلَآءِ ٱلَّذِينَ أَقْسَمْتُمْ لَا <a class=\"highlight-text\">يَنَالُهُمُ</a> ٱللَّهُ بِرَحْمَةٍ ۚ ٱدْخُلُوا۟ ٱلْجَنَّةَ لَا خَوْفٌ عَلَيْكُمْ وَلَآ أَنتُمْ تَحْزَنُونَ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 152,
+      "text": "إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ سَيَنَالُهُمْ غَضَبٌ مِّن رَّبِّهِمْ وَذِلَّةٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ ٱتَّخَذُوا۟ ٱلْعِجْلَ <a class=\"highlight-text\">سَيَنَالُهُمْ</a> غَضَبٌ مِّن رَّبِّهِمْ وَذِلَّةٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُفْتَرِينَ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 74,
+      "text": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ يَنَالُوا۟ ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "highlightedHtml": "يَحْلِفُونَ بِٱللَّهِ مَا قَالُوا۟ وَلَقَدْ قَالُوا۟ كَلِمَةَ ٱلْكُفْرِ وَكَفَرُوا۟ بَعْدَ إِسْلَٰمِهِمْ وَهَمُّوا۟ بِمَا لَمْ <a class=\"highlight-text\">يَنَالُوا۟</a> ۚ وَمَا نَقَمُوٓا۟ إِلَّآ أَنْ أَغْنَىٰهُمُ ٱللَّهُ وَرَسُولُهُۥ مِن فَضْلِهِۦ ۚ فَإِن يَتُوبُوا۟ يَكُ خَيْرًا لَّهُمْ ۖ وَإِن يَتَوَلَّوْا۟ يُعَذِّبْهُمُ ٱللَّهُ عَذَابًا أَلِيمًا فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَمَا لَهُمْ فِى ٱلْأَرْضِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 120,
+      "text": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا يَنَالُونَ مِنْ عَدُوٍّ نَّيْلًا إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "مَا كَانَ لِأَهْلِ ٱلْمَدِينَةِ وَمَنْ حَوْلَهُم مِّنَ ٱلْأَعْرَابِ أَن يَتَخَلَّفُوا۟ عَن رَّسُولِ ٱللَّهِ وَلَا يَرْغَبُوا۟ بِأَنفُسِهِمْ عَن نَّفْسِهِۦ ۚ ذَٰلِكَ بِأَنَّهُمْ لَا يُصِيبُهُمْ ظَمَأٌ وَلَا نَصَبٌ وَلَا مَخْمَصَةٌ فِى سَبِيلِ ٱللَّهِ وَلَا يَطَـُٔونَ مَوْطِئًا يَغِيظُ ٱلْكُفَّارَ وَلَا <a class=\"highlight-text\">يَنَالُونَ</a> مِنْ عَدُوٍّ <a class=\"highlight-text\">نَّيْلًا</a> إِلَّا كُتِبَ لَهُم بِهِۦ عَمَلٌ صَٰلِحٌ ۚ إِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "يَنَالُ",
+        "نَيْلٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 37,
+      "text": "لَن يَنَالَ ٱللَّهَ لُحُومُهَا وَلَا دِمَآؤُهَا وَلَٰكِن يَنَالُهُ ٱلتَّقْوَىٰ مِنكُمْ ۚ كَذَٰلِكَ سَخَّرَهَا لَكُمْ لِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ ۗ وَبَشِّرِ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "لَن <a class=\"highlight-text\">يَنَالَ</a> ٱللَّهَ لُحُومُهَا وَلَا دِمَآؤُهَا وَلَٰكِن <a class=\"highlight-text\">يَنَالُهُ</a> ٱلتَّقْوَىٰ مِنكُمْ ۚ كَذَٰلِكَ سَخَّرَهَا لَكُمْ لِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ ۗ وَبَشِّرِ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "يَنَالُ",
+        "يَنَالُ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 25,
+      "text": "وَرَدَّ ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ بِغَيْظِهِمْ لَمْ يَنَالُوا۟ خَيْرًا ۚ وَكَفَى ٱللَّهُ ٱلْمُؤْمِنِينَ ٱلْقِتَالَ ۚ وَكَانَ ٱللَّهُ قَوِيًّا قَوِيًّا عَزِيزًا",
+      "highlightedHtml": "وَرَدَّ ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ بِغَيْظِهِمْ لَمْ <a class=\"highlight-text\">يَنَالُوا۟</a> خَيْرًا ۚ وَكَفَى ٱللَّهُ ٱلْمُؤْمِنِينَ ٱلْقِتَالَ ۚ وَكَانَ ٱللَّهُ قَوِيًّا قَوِيًّا عَزِيزًا",
+      "derivedForms": [
+        "يَنَالُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:19.527Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَنَالُ is in the derivative form: يَنَالُ",
+    "rootDefinitionHtml": "ن/ي/ل   n–y–l gift, a favour bestowed, a gracious act conferred, benefit; to obtain, to enable to have, to let have; to reach; to harm, to bear upon, to insult. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> يَنَالُ yanāl 11 times and نَيْلٌ nayl 1 time.",
+    "mainDefinitionHtml": "يَنَالُ yanāl [imperf. of v. نَالَ nāla, trans.] <br><br><strong>1 </strong>to obtain, to get hold of, to lay one’s hands on <br><br>(5:94) لَيَبْلُوَنَّكُمُ اللَّهُ بِشَيْءٍ مِنَ الصَّيْدِ تَنَالُهُ أَيْدِيكُمْ وَرِمَاحُكُمْ God is sure to test you with some game your hands and spears [can] take <br><br><strong>2 </strong>to include, to cover, to embrace <br><br>(2:124) لاَ يَنَالُ عَهْدِي الظَّالِمِينَ My pledge does not embrace the unjust <br><br><strong>3 </strong>to reach <br><br>(22:37) لَنْ يَنَالَ اللَّهَ لُحُومُهَا وَلاَ دِمَاؤُهَا وَلَكِنْ يَنَالُهُ التَّقْوَى it is neither their meat nor their blood but your piety that reaches God <br><br><strong>4 </strong>to attain to <br><br>(3:92) لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ you will never attain [true] piety until you give out of what you cherish <br><br><strong>5 </strong>to overtake <br><br>(7:152) سَيَنَالُهُمْ غَضَبٌ مِنْ رَبِّهِمْ wrath from their Lord will overtake them <br><br><strong>6 </strong>[with prep. مِنْ] to afflict, to inflict harm on, to insult <br><br>(9:120) وَلاَ يَنَالُونَ مِنْ عَدُوٍّ نَيْلاً إِلاَّ كُتِبَ لَهُمْ بِهِ عَمَلٌ صَالِحٌ and they do not inflict any harm on an enemy without a good deed being recorded for them.",
+    "mainEntryId": "wdef-ن-ي-ل.يَنَالُ",
+    "entries": [
+      {
+        "id": "wdef-ن-ي-ل",
+        "label": "ن-ي-ل",
+        "definitionHtml": "ن/ي/ل   n–y–l gift, a favour bestowed, a gracious act conferred, benefit; to obtain, to enable to have, to let have; to reach; to harm, to bear upon, to insult. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> يَنَالُ yanāl 11 times and نَيْلٌ nayl 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ي-ل.يَنَالُ",
+        "label": "يَنَالُ",
+        "definitionHtml": "يَنَالُ yanāl [imperf. of v. نَالَ nāla, trans.] <br><br><strong>1 </strong>to obtain, to get hold of, to lay one’s hands on <br><br>(5:94) لَيَبْلُوَنَّكُمُ اللَّهُ بِشَيْءٍ مِنَ الصَّيْدِ تَنَالُهُ أَيْدِيكُمْ وَرِمَاحُكُمْ God is sure to test you with some game your hands and spears [can] take <br><br><strong>2 </strong>to include, to cover, to embrace <br><br>(2:124) لاَ يَنَالُ عَهْدِي الظَّالِمِينَ My pledge does not embrace the unjust <br><br><strong>3 </strong>to reach <br><br>(22:37) لَنْ يَنَالَ اللَّهَ لُحُومُهَا وَلاَ دِمَاؤُهَا وَلَكِنْ يَنَالُهُ التَّقْوَى it is neither their meat nor their blood but your piety that reaches God <br><br><strong>4 </strong>to attain to <br><br>(3:92) لَنْ تَنَالُوا الْبِرَّ حَتَّى تُنْفِقُوا مِمَّا تُحِبُّونَ you will never attain [true] piety until you give out of what you cherish <br><br><strong>5 </strong>to overtake <br><br>(7:152) سَيَنَالُهُمْ غَضَبٌ مِنْ رَبِّهِمْ wrath from their Lord will overtake them <br><br><strong>6 </strong>[with prep. مِنْ] to afflict, to inflict harm on, to insult <br><br>(9:120) وَلاَ يَنَالُونَ مِنْ عَدُوٍّ نَيْلاً إِلاَّ كُتِبَ لَهُمْ بِهِ عَمَلٌ صَالِحٌ and they do not inflict any harm on an enemy without a good deed being recorded for them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ي-ل.نَيْلٌ",
+        "label": "نَيْلٌ",
+        "definitionHtml": "نَيْلٌ nayl [v. n.] obtaining, the act of inflicting harm <br><br>(9:120) وَلاَ يَنَالُونَ مِنْ عَدُوٍw نَيْلاً إِلاَّ كُتِبَ لَهُمْ بِهِ عَمَلٌ صَالِحٌ and they do not inflict harm on an enemy without a good deed being recorded for them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:46.773Z",
+      "refword": "2:124:17",
+      "lexword": "يَنَالُ"
+    }
+  }
+}

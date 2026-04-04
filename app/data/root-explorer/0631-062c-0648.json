@@ -1,0 +1,580 @@
+{
+  "root": "رجو",
+  "rootArabic": "رجو",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 4,
+    "surahCount": 21,
+    "ayahCount": 27
+  },
+  "derivatives": [
+    {
+      "form": "تَرْجُو",
+      "count": 22
+    },
+    {
+      "form": "X",
+      "count": 4
+    },
+    {
+      "form": "أَرْجَاءٌ",
+      "count": 1
+    },
+    {
+      "form": "مَرْجُوٌّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 2,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 3,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرْجُوٌّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 2,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 2,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 2,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْجَاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْجُو",
+          "count": 1,
+          "totalInQuran": 22
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 218,
+      "text": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ يَرْجُونَ رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ آمَنُوا وَٱلَّذِينَ هَاجَرُوا۟ وَجَٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ أُو۟لَٰٓئِكَ <a class=\"highlight-text\">يَرْجُونَ</a> رَحْمَتَ ٱللَّهِ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 104,
+      "text": "وَلَا تَهِنُوا۟ فِى ٱبْتِغَآءِ ٱلْقَوْمِ ۖ إِن تَكُونُوا۟ تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ وَتَرْجُونَ مِنَ ٱللَّهِ مَا لَا يَرْجُونَ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "highlightedHtml": "وَلَا تَهِنُوا۟ فِى ٱبْتِغَآءِ ٱلْقَوْمِ ۖ إِن تَكُونُوا۟ تَأْلَمُونَ فَإِنَّهُمْ يَأْلَمُونَ كَمَا تَأْلَمُونَ ۖ <a class=\"highlight-text\">وَتَرْجُونَ</a> مِنَ ٱللَّهِ مَا لَا <a class=\"highlight-text\">يَرْجُونَ</a> ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+      "derivedForms": [
+        "تَرْجُو",
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 111,
+      "text": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "highlightedHtml": "قَالُوٓا۟ <a class=\"highlight-text\">أَرْجِهْ</a> وَأَخَاهُ وَأَرْسِلْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 106,
+      "text": "وَآخَرُونَ مُرْجَوْنَ لِأَمْرِ ٱللَّهِ إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَآخَرُونَ <a class=\"highlight-text\">مُرْجَوْنَ</a> لِأَمْرِ ٱللَّهِ إِمَّا يُعَذِّبُهُمْ وَإِمَّا يَتُوبُ عَلَيْهِمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 7,
+      "text": "إِنَّ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا وَرَضُوا۟ بِٱلْحَيَوٰةِ ٱلدُّنْيَا وَٱطْمَأَنُّوا۟ بِهَا وَٱلَّذِينَ هُمْ عَنْ آيَاتِنَا غَٰفِلُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ لَا <a class=\"highlight-text\">يَرْجُونَ</a> لِقَآءَنَا وَرَضُوا۟ بِٱلْحَيَوٰةِ ٱلدُّنْيَا وَٱطْمَأَنُّوا۟ بِهَا وَٱلَّذِينَ هُمْ عَنْ آيَاتِنَا غَٰفِلُونَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 11,
+      "text": "وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ ۖ فَنَذَرُ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ يُعَجِّلُ ٱللَّهُ لِلنَّاسِ ٱلشَّرَّ ٱسْتِعْجَالَهُم بِٱلْخَيْرِ لَقُضِىَ إِلَيْهِمْ أَجَلُهُمْ ۖ فَنَذَرُ ٱلَّذِينَ لَا <a class=\"highlight-text\">يَرْجُونَ</a> لِقَآءَنَا فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 15,
+      "text": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ ۙ قَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ أَوْ بَدِّلْهُ ۚ قُلْ مَا يَكُونُ لِىٓ أَنْ أُبَدِّلَهُۥ مِن تِلْقَآئِ نَفْسِىٓ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۖ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍ",
+      "highlightedHtml": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ ۙ قَالَ ٱلَّذِينَ لَا <a class=\"highlight-text\">يَرْجُونَ</a> لِقَآءَنَا ٱئْتِ بِقُرْءَانٍ غَيْرِ هَٰذَآ أَوْ بَدِّلْهُ ۚ قُلْ مَا يَكُونُ لِىٓ أَنْ أُبَدِّلَهُۥ مِن تِلْقَآئِ نَفْسِىٓ ۖ إِنْ أَتَّبِعُ إِلَّا مَا يُوحَىٰٓ إِلَىَّ ۖ إِنِّىٓ أَخَافُ إِنْ عَصَيْتُ رَبِّى عَذَابَ يَوْمٍ عَظِيمٍ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 62,
+      "text": "قَالُوا۟ يَٰصَٰلِحُ قَدْ كُنتَ فِينَا مَرْجُوًّا قَبْلَ هَٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍ",
+      "highlightedHtml": "قَالُوا۟ يَٰصَٰلِحُ قَدْ كُنتَ فِينَا <a class=\"highlight-text\">مَرْجُوًّا</a> قَبْلَ هَٰذَآ ۖ أَتَنْهَىٰنَآ أَن نَّعْبُدَ مَا يَعْبُدُ ءَابَآؤُنَا وَإِنَّنَا لَفِى شَكٍّ مِّمَّا تَدْعُونَآ إِلَيْهِ مُرِيبٍ",
+      "derivedForms": [
+        "مَرْجُوٌّ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 28,
+      "text": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ تَرْجُوهَا فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا",
+      "highlightedHtml": "وَإِمَّا تُعْرِضَنَّ عَنْهُمُ ٱبْتِغَآءَ رَحْمَةٍ مِّن رَّبِّكَ <a class=\"highlight-text\">تَرْجُوهَا</a> فَقُل لَّهُمْ قَوْلًا مَّيْسُورًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 57,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ وَيَرْجُونَ رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ يَدْعُونَ يَبْتَغُونَ إِلَىٰ رَبِّهِمُ ٱلْوَسِيلَةَ أَيُّهُمْ أَقْرَبُ <a class=\"highlight-text\">وَيَرْجُونَ</a> رَحْمَتَهُۥ وَيَخَافُونَ عَذَابَهُۥٓ ۚ إِنَّ عَذَابَ رَبِّكَ كَانَ مَحْذُورًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 110,
+      "text": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا",
+      "highlightedHtml": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۖ فَمَن كَانَ <a class=\"highlight-text\">يَرْجُوا۟</a> لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 60,
+      "text": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا <a class=\"highlight-text\">يَرْجُونَ</a> نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 21,
+      "text": "وَقَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا لَوْلَآ أُنزِلَ عَلَيْنَا ٱلْمَلَٰٓئِكَةُ أَوْ نَرَىٰ رَبَّنَا ۗ لَقَدِ ٱسْتَكْبَرُوا۟ فِىٓ أَنفُسِهِمْ وَعَتَوْ عُتُوًّا كَبِيرًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ لَا <a class=\"highlight-text\">يَرْجُونَ</a> لِقَآءَنَا لَوْلَآ أُنزِلَ عَلَيْنَا ٱلْمَلَٰٓئِكَةُ أَوْ نَرَىٰ رَبَّنَا ۗ لَقَدِ ٱسْتَكْبَرُوا۟ فِىٓ أَنفُسِهِمْ وَعَتَوْ عُتُوًّا كَبِيرًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 40,
+      "text": "وَلَقَدْ أَتَوْا۟ عَلَى ٱلْقَرْيَةِ ٱلَّتِىٓ أُمْطِرَتْ أُمْطِرَتْ مَطَرَ مَطَرَ ٱلسَّوْءِ ۚ أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًا",
+      "highlightedHtml": "وَلَقَدْ أَتَوْا۟ عَلَى ٱلْقَرْيَةِ ٱلَّتِىٓ أُمْطِرَتْ أُمْطِرَتْ مَطَرَ مَطَرَ ٱلسَّوْءِ ۚ أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا <a class=\"highlight-text\">يَرْجُونَ</a> نُشُورًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 36,
+      "text": "قَالُوٓا۟ أَرْجِهْ وَأَخَاهُ وَٱبْعَثْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "highlightedHtml": "قَالُوٓا۟ <a class=\"highlight-text\">أَرْجِهْ</a> وَأَخَاهُ وَٱبْعَثْ فِى ٱلْمَدَآئِنِ حَٰشِرِينَ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 86,
+      "text": "وَمَا كُنتَ تَرْجُوٓا۟ أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةً مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمَا كُنتَ <a class=\"highlight-text\">تَرْجُوٓا۟</a> أَن يُلْقَىٰٓ إِلَيْكَ ٱلْكِتَٰبُ إِلَّا رَحْمَةً مِّن رَّبِّكَ ۖ فَلَا تَكُونَنَّ ظَهِيرًا لِّلْكَٰفِرِينَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 5,
+      "text": "مَن كَانَ يَرْجُوا۟ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَءَاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "مَن كَانَ <a class=\"highlight-text\">يَرْجُوا۟</a> لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَءَاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 36,
+      "text": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ الْآخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا فَقَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ <a class=\"highlight-text\">وَٱرْجُوا۟</a> ٱلْيَوْمَ الْآخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 21,
+      "text": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ الْآخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًا",
+      "highlightedHtml": "لَّقَدْ كَانَ لَكُمْ فِى رَسُولِ ٱللَّهِ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ <a class=\"highlight-text\">يَرْجُوا۟</a> ٱللَّهَ وَٱلْيَوْمَ الْآخِرَ وَذَكَرَ ٱللَّهَ كَثِيرًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 51,
+      "text": "تُرْجِى مَن تَشَآءُ مِنْهُنَّ وَتُـْٔوِىٓ إِلَيْكَ مَن تَشَآءُ ۖ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَآ آتَيْتَهُنَّ كُلُّهُنَّ ۚ وَٱللَّهُ يَعْلَمُ مَا فِى قُلُوبِكُمْ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَلِيمًا",
+      "highlightedHtml": "<a class=\"highlight-text\">تُرْجِى</a> مَن تَشَآءُ مِنْهُنَّ وَتُـْٔوِىٓ إِلَيْكَ مَن تَشَآءُ ۖ وَمَنِ ٱبْتَغَيْتَ مِمَّنْ عَزَلْتَ فَلَا جُنَاحَ عَلَيْكَ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن تَقَرَّ أَعْيُنُهُنَّ وَلَا يَحْزَنَّ وَيَرْضَيْنَ بِمَآ آتَيْتَهُنَّ كُلُّهُنَّ ۚ وَٱللَّهُ يَعْلَمُ مَا فِى قُلُوبِكُمْ ۚ وَكَانَ ٱللَّهُ عَلِيمًا حَلِيمًا",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 29,
+      "text": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَٰرَةً لَّن تَبُورَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً <a class=\"highlight-text\">يَرْجُونَ</a> تِجَٰرَةً لَّن تَبُورَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 9,
+      "text": "أَمَّنْ هُوَ قَٰنِتٌ آنَاءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ الْآخِرَةَ وَيَرْجُوا۟ رَحْمَةَ رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "أَمَّنْ هُوَ قَٰنِتٌ آنَاءَ ٱلَّيْلِ سَاجِدًا وَقَآئِمًا يَحْذَرُ الْآخِرَةَ <a class=\"highlight-text\">وَيَرْجُوا۟</a> رَحْمَةَ رَبِّهِۦ ۗ قُلْ هَلْ يَسْتَوِى يَسْتَوِى ٱلَّذِينَ يَعْلَمُونَ وَٱلَّذِينَ لَا يَعْلَمُونَ ۗ إِنَّمَا يَتَذَكَّرُ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 14,
+      "text": "قُل لِّلَّذِينَ آمَنُوا يَغْفِرُوا۟ لِلَّذِينَ لَا يَرْجُونَ أَيَّامَ ٱللَّهِ لِيَجْزِىَ قَوْمًۢا بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "قُل لِّلَّذِينَ آمَنُوا يَغْفِرُوا۟ لِلَّذِينَ لَا <a class=\"highlight-text\">يَرْجُونَ</a> أَيَّامَ ٱللَّهِ لِيَجْزِىَ قَوْمًۢا بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 6,
+      "text": "لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ يَرْجُوا۟ ٱللَّهَ وَٱلْيَوْمَ الْآخِرَ ۚ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+      "highlightedHtml": "لَقَدْ كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ لِّمَن كَانَ <a class=\"highlight-text\">يَرْجُوا۟</a> ٱللَّهَ وَٱلْيَوْمَ الْآخِرَ ۚ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 17,
+      "text": "وَٱلْمَلَكُ عَلَىٰٓ أَرْجَآئِهَا ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَٰنِيَةٌ",
+      "highlightedHtml": "وَٱلْمَلَكُ عَلَىٰٓ <a class=\"highlight-text\">أَرْجَآئِهَا</a> ۚ وَيَحْمِلُ عَرْشَ رَبِّكَ فَوْقَهُمْ يَوْمَئِذٍ ثَمَٰنِيَةٌ",
+      "derivedForms": [
+        "أَرْجَاءٌ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 13,
+      "text": "مَّا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+      "highlightedHtml": "مَّا لَكُمْ لَا <a class=\"highlight-text\">تَرْجُونَ</a> لِلَّهِ وَقَارًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 27,
+      "text": "إِنَّهُمْ كَانُوا۟ لَا يَرْجُونَ حِسَابًا",
+      "highlightedHtml": "إِنَّهُمْ كَانُوا۟ لَا <a class=\"highlight-text\">يَرْجُونَ</a> حِسَابًا",
+      "derivedForms": [
+        "تَرْجُو"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:10.346Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَرْجُونَ is in the derivative form: تَرْجُو",
+    "rootDefinitionHtml": "ر/ج/و   r–j–w hope, to hope, to look forward to, to anticipate, to expect<br>; to fear, to be apprehensive about; areas covered by (e.g. a room, a house, a town), directions, sides. <br><br>Of this root, 3 forms occur 24 times in the Qur’an:<br> تَرْجُو tarjū 22 times; مَرْجُوٌّ marjūww 1 time and أَرْجَاءٌ ʾarjāʾ 1 time.",
+    "mainDefinitionHtml": "تَرْجُو tarjū [imperf. of v. رَجَا rajā, trans.] <br><br><strong>1 </strong>to hope, to hope for <br><br>(28:86) وَمَا كُنْتَ تَرْجُو أَنْ يُلْقَى إِلَيْكَ الْكِتَابُ you could not have hoped that the Book be sent to you; *<br><br>(24:60) النِّسَاءِ اللاَّتِي لاَ يَرْجُونَ نِكَاحًا old women [the women who have no expectations of marriage] <br><br><strong>2 </strong>to fear <br><br>(71:13) مَا لَكُمْ لاَ تَرْجُونَ لِلَّهِ وَقَارًا what is it with you that you do not fear God’s majesty? <br><br><strong>3 </strong>to be concerned with <br><br>(10:7) إِنَّ الَّذِينَ لاَ يَرْجُونَ لِقَاءَنَا وَرَضُوا بِالْحَيَاةِ الدُّنْيَا those who are not concerned with meeting Us and are satisfied with the life of this world <br><br><strong>4 </strong>to believe in, to expect <br><br>(45:14) قُلْ لِلَّذِينَ ءَامَنُوا يَغْفِرُوا لِلَّذِينَ لاَ يَرْجُونَ أَيَّامَ اللَّهِ tell those who believe to forgive those who do not expect/believe in God’s days [of punishment].",
+    "mainEntryId": "wdef-ر-ج-و.تَرْجُو",
+    "entries": [
+      {
+        "id": "wdef-ر-ج-و",
+        "label": "ر-ج-و",
+        "definitionHtml": "ر/ج/و   r–j–w hope, to hope, to look forward to, to anticipate, to expect<br>; to fear, to be apprehensive about; areas covered by (e.g. a room, a house, a town), directions, sides. <br><br>Of this root, 3 forms occur 24 times in the Qur’an:<br> تَرْجُو tarjū 22 times; مَرْجُوٌّ marjūww 1 time and أَرْجَاءٌ ʾarjāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-و.تَرْجُو",
+        "label": "تَرْجُو",
+        "definitionHtml": "تَرْجُو tarjū [imperf. of v. رَجَا rajā, trans.] <br><br><strong>1 </strong>to hope, to hope for <br><br>(28:86) وَمَا كُنْتَ تَرْجُو أَنْ يُلْقَى إِلَيْكَ الْكِتَابُ you could not have hoped that the Book be sent to you; *<br><br>(24:60) النِّسَاءِ اللاَّتِي لاَ يَرْجُونَ نِكَاحًا old women [the women who have no expectations of marriage] <br><br><strong>2 </strong>to fear <br><br>(71:13) مَا لَكُمْ لاَ تَرْجُونَ لِلَّهِ وَقَارًا what is it with you that you do not fear God’s majesty? <br><br><strong>3 </strong>to be concerned with <br><br>(10:7) إِنَّ الَّذِينَ لاَ يَرْجُونَ لِقَاءَنَا وَرَضُوا بِالْحَيَاةِ الدُّنْيَا those who are not concerned with meeting Us and are satisfied with the life of this world <br><br><strong>4 </strong>to believe in, to expect <br><br>(45:14) قُلْ لِلَّذِينَ ءَامَنُوا يَغْفِرُوا لِلَّذِينَ لاَ يَرْجُونَ أَيَّامَ اللَّهِ tell those who believe to forgive those who do not expect/believe in God’s days [of punishment].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ج-و.أَرْجَاءٌ",
+        "label": "أَرْجَاءٌ",
+        "definitionHtml": "أَرْجَاءٌ ʾarjāʾ [pl. of n. رَجَا rajā] sides, areas covered by e.g. a town, a country, a house and the like, quarters <br><br>(69:17) وَالْمَلَكُ عَلَى أَرْجَائِهَا the angels will be at its sides.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ج-و.مَرْجُوٌّ",
+        "label": "مَرْجُوٌّ",
+        "definitionHtml": "مَرْجُوٌّ marjuww [pass. part.] one who is the object of hope, one who has great hopes placed in him <br><br>(11:62) يَاصَالِحُ قَدْ كُنْتَ فِينَا مَرْجُوًّا قَبْلَ هَذَا ∑āliḥ, you have been a person amongst us in whom great hopes had been placed, before this.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:35.273Z",
+      "refword": "2:218:11",
+      "lexword": "يَرْجُونَ"
+    }
+  }
+}

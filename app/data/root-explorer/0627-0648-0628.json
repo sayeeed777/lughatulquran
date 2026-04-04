@@ -1,0 +1,340 @@
+{
+  "root": "اوب",
+  "rootArabic": "اوب",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "مَآبٌ",
+      "count": 9
+    },
+    {
+      "form": "أَوَّابٌ",
+      "count": 6
+    },
+    {
+      "form": "أَوِّبِي",
+      "count": 1
+    },
+    {
+      "form": "إِيَابٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَآبٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَآبٌ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوَّابٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوِّبِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 8,
+      "derivatives": [
+        {
+          "form": "أَوَّابٌ",
+          "count": 4,
+          "totalInQuran": 6
+        },
+        {
+          "form": "مَآبٌ",
+          "count": 4,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوَّابٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَآبٌ",
+          "count": 2,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِيَابٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 14,
+      "text": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "highlightedHtml": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ <a class=\"highlight-text\">ٱلْمَـَٔابِ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 29,
+      "text": "ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ طُوبَىٰ لَهُمْ وَحُسْنُ مَـَٔابٍ",
+      "highlightedHtml": "ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ طُوبَىٰ لَهُمْ وَحُسْنُ <a class=\"highlight-text\">مَـَٔابٍ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 36,
+      "text": "وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن يُنكِرُ بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ مَـَٔابِ",
+      "highlightedHtml": "وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن يُنكِرُ بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ <a class=\"highlight-text\">مَـَٔابِ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 25,
+      "text": "رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ ۚ إِن تَكُونُوا۟ صَٰلِحِينَ فَإِنَّهُۥ كَانَ لِلْأَوَّٰبِينَ غَفُورًا",
+      "highlightedHtml": "رَّبُّكُمْ أَعْلَمُ بِمَا فِى نُفُوسِكُمْ ۚ إِن تَكُونُوا۟ صَٰلِحِينَ فَإِنَّهُۥ كَانَ <a class=\"highlight-text\">لِلْأَوَّٰبِينَ</a> غَفُورًا",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 10,
+      "text": "وَلَقَدْ آتَيْنَا دَاوُۥدَ مِنَّا فَضْلًا ۖ يَٰجِبَالُ أَوِّبِى مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا دَاوُۥدَ مِنَّا فَضْلًا ۖ يَٰجِبَالُ <a class=\"highlight-text\">أَوِّبِى</a> مَعَهُۥ وَٱلطَّيْرَ ۖ وَأَلَنَّا لَهُ ٱلْحَدِيدَ",
+      "derivedForms": [
+        "أَوِّبِي"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 17,
+      "text": "ٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱذْكُرْ عَبْدَنَا دَاوُۥدَ ذَا ٱلْأَيْدِ ۖ إِنَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "ٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَٱذْكُرْ عَبْدَنَا دَاوُۥدَ ذَا ٱلْأَيْدِ ۖ إِنَّهُۥٓ <a class=\"highlight-text\">أَوَّابٌ</a>",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 19,
+      "text": "وَٱلطَّيْرَ مَحْشُورَةً ۖ كُلٌّ لَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "وَٱلطَّيْرَ مَحْشُورَةً ۖ كُلٌّ لَّهُۥٓ <a class=\"highlight-text\">أَوَّابٌ</a>",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 25,
+      "text": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+      "highlightedHtml": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ <a class=\"highlight-text\">مَـَٔابٍ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 30,
+      "text": "وَوَهَبْنَا لِدَاوُۥدَ سُلَيْمَٰنَ ۚ نِعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "وَوَهَبْنَا لِدَاوُۥدَ سُلَيْمَٰنَ ۚ نِعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ <a class=\"highlight-text\">أَوَّابٌ</a>",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 40,
+      "text": "وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+      "highlightedHtml": "وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ <a class=\"highlight-text\">مَـَٔابٍ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 44,
+      "text": "وَخُذْ بِيَدِكَ ضِغْثًا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَٰهُ صَابِرًا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "وَخُذْ بِيَدِكَ ضِغْثًا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَٰهُ صَابِرًا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ <a class=\"highlight-text\">أَوَّابٌ</a>",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 49,
+      "text": "هَٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ مَـَٔابٍ",
+      "highlightedHtml": "هَٰذَا ذِكْرٌ ۚ وَإِنَّ لِلْمُتَّقِينَ لَحُسْنَ <a class=\"highlight-text\">مَـَٔابٍ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 55,
+      "text": "هَٰذَا ۚ وَإِنَّ لِلطَّٰغِينَ لَشَرَّ مَـَٔابٍ",
+      "highlightedHtml": "هَٰذَا ۚ وَإِنَّ لِلطَّٰغِينَ لَشَرَّ <a class=\"highlight-text\">مَـَٔابٍ</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 32,
+      "text": "هَٰذَا مَا تُوعَدُونَ لِكُلِّ أَوَّابٍ حَفِيظٍ",
+      "highlightedHtml": "هَٰذَا مَا تُوعَدُونَ لِكُلِّ <a class=\"highlight-text\">أَوَّابٍ</a> حَفِيظٍ",
+      "derivedForms": [
+        "أَوَّابٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 22,
+      "text": "لِّلطَّٰغِينَ مَـَٔابًا",
+      "highlightedHtml": "لِّلطَّٰغِينَ <a class=\"highlight-text\">مَـَٔابًا</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 39,
+      "text": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ مَـَٔابًا",
+      "highlightedHtml": "ذَٰلِكَ ٱلْيَوْمُ ٱلْحَقُّ ۖ فَمَن شَآءَ ٱتَّخَذَ إِلَىٰ رَبِّهِۦ <a class=\"highlight-text\">مَـَٔابًا</a>",
+      "derivedForms": [
+        "مَآبٌ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 25,
+      "text": "إِنَّ إِلَيْنَآ إِيَابَهُمْ",
+      "highlightedHtml": "إِنَّ إِلَيْنَآ <a class=\"highlight-text\">إِيَابَهُمْ</a>",
+      "derivedForms": [
+        "إِيَابٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:57.221Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "ٱلْمَـَٔابِ is in the derivative form: مَآبٌ",
+    "rootDefinitionHtml": "أ/و/ب ʾ–w–b ditch in which water collects, place to which people return<br>; to return; to repeat; to be swift, to be agile; custom. <br><br>Of this root, 5 forms occur 17 times in the Qur’an:<br> أَوِّبِي ʾawwibī 1 time; إِيَابٌ ʾiyāb 1 time; أَوَّابٌ ʾawwāb 5 times; أَوَّابِين ʾawwābīn 1 time and مَآب maʾāb 9 times.",
+    "mainDefinitionHtml": "مَآبٌ maʾāb [n. of place or time/v. n.] place of return, final abode/act of returning <br><br>(78:39) ذَلِكَ الْيَوْمُ الْحَقُّ فَمَنْ شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا that is the True Day, so whoever wishes to, should take a path returning to his Lord.",
+    "mainEntryId": "wdef-أ-و-ب.مَآبٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-و-ب",
+        "label": "أ-و-ب",
+        "definitionHtml": "أ/و/ب ʾ–w–b ditch in which water collects, place to which people return<br>; to return; to repeat; to be swift, to be agile; custom. <br><br>Of this root, 5 forms occur 17 times in the Qur’an:<br> أَوِّبِي ʾawwibī 1 time; إِيَابٌ ʾiyāb 1 time; أَوَّابٌ ʾawwāb 5 times; أَوَّابِين ʾawwābīn 1 time and مَآب maʾāb 9 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-و-ب.مَآبٌ",
+        "label": "مَآبٌ",
+        "definitionHtml": "مَآبٌ maʾāb [n. of place or time/v. n.] place of return, final abode/act of returning <br><br>(78:39) ذَلِكَ الْيَوْمُ الْحَقُّ فَمَنْ شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا that is the True Day, so whoever wishes to, should take a path returning to his Lord.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-و-ب.أَوَّابٌ",
+        "label": "أَوَّابٌ",
+        "definitionHtml": "أَوَّابٌ ʾawwāb [intens. act. part.; pl. أَوَّابِين ʾawwābīn] <br><br><strong>1 </strong>one given to going back, one who sincerely repents and goes back to God <br><br>(38:30) وَوَهَبْنَا لِدَاوُدَ سُلَيْمَانَ نِعْمَ الْعَبْدُ إِنَّهُ أَوَّابٌ and We gave to David Solomon, an excellent servant who always turned to God <br><br><strong>2 </strong>(possibly) one who strongly enumerates, echoes or repeats [praise of God] (in one interpretation of 38:19) وَالطَّيْرَ مَحْشُورَةً كُلٌّ لَهُ أَوَّابٌ and the birds, gathered together; each enumerating His praise <br><br><strong>3 </strong>obedient, submitting (in another interpretation of 38:19) وَالطَّيْرَ مَحْشُورَةً كُلٌّ لَهُ أَوَّابٌ and the birds, gathered together; each submitting to him [Solomon].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-و-ب.أَوِّبِي",
+        "label": "أَوِّبِي",
+        "definitionHtml": "أَوِّبِي ʾawwibī [imper. of v. II أَوَّبَ ʾawwaba, intrans.] to repeat, to echo <br><br>(34:10) وَلَقَدْ ءَاتَيْنَا دَاوُدَ مِنَّا فَضْلاً يَاجِبَالُ أَوِّبِي مَعَهُ We graced David with a favour from us, [We said], ‘Mountains, echo God’s praises with him.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-و-ب.إِيَابٌ",
+        "label": "إِيَابٌ",
+        "definitionHtml": "إِيَابٌ ʾiyāb [v. n.] returning, coming/going back <br><br>(88:25) إِنَّ إِلَيْنَا إِيَابَهُمْ to Us will be their returning.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:50.965Z",
+      "refword": "3:14:24",
+      "lexword": "ٱلْمَـَٔابِ"
+    }
+  }
+}

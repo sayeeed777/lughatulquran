@@ -1,0 +1,99 @@
+{
+  "root": "جلب",
+  "rootArabic": "جلب",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَجْلِبْ",
+      "count": 1
+    },
+    {
+      "form": "X",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَجْلِبْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 64,
+      "text": "وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ وَأَجْلِبْ عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا",
+      "highlightedHtml": "وَٱسْتَفْزِزْ مَنِ ٱسْتَطَعْتَ مِنْهُم بِصَوْتِكَ <a class=\"highlight-text\">وَأَجْلِبْ</a> عَلَيْهِم بِخَيْلِكَ وَرَجِلِكَ وَشَارِكْهُمْ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ وَعِدْهُمْ ۚ وَمَا يَعِدُهُمُ ٱلشَّيْطَٰنُ إِلَّا غُرُورًا",
+      "derivedForms": [
+        "أَجْلِبْ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 59,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن جَلَٰبِيبِهِنَّ ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّأَزْوَٰجِكَ وَبَنَاتِكَ وَنِسَآءِ ٱلْمُؤْمِنِينَ يُدْنِينَ عَلَيْهِنَّ مِن <a class=\"highlight-text\">جَلَٰبِيبِهِنَّ</a> ۚ ذَٰلِكَ أَدْنَىٰٓ أَن يُعْرَفْنَ فَلَا يُؤْذَيْنَ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "X"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:10.491Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form IV) imperative verb",
+    "derivativeNote": "وَأَجْلِبْ is in the derivative form: أَجْلِبْ",
+    "rootDefinitionHtml": "ج/ل/ب   j–l–b commotion, raised and mixed voices, excitement; to attack, to assail; to fetch, to earn, to seek pasture. Of this root, أَجْلِبْ ʾajlib occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَجْلِبْ ʾajlib[imperat. of v. IV, intrans. with على] to urge a horse with noise and shouting to run, to assail with noise and shouting, to overwhelm, to overpower <br><br>(17:64) وَأَجْلِبْ عَلَيْهِمْ بِخَيْلِكَ ورجلك and assail them with the noise of your cavalry and infantry.",
+    "mainEntryId": "wdef-ج-ل-ب.أَجْلِبْ",
+    "entries": [
+      {
+        "id": "wdef-ج-ل-ب",
+        "label": "ج-ل-ب",
+        "definitionHtml": "ج/ل/ب   j–l–b commotion, raised and mixed voices, excitement; to attack, to assail; to fetch, to earn, to seek pasture. Of this root, أَجْلِبْ ʾajlib occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ل-ب.أَجْلِبْ",
+        "label": "أَجْلِبْ",
+        "definitionHtml": "أَجْلِبْ ʾajlib[imperat. of v. IV, intrans. with على] to urge a horse with noise and shouting to run, to assail with noise and shouting, to overwhelm, to overpower <br><br>(17:64) وَأَجْلِبْ عَلَيْهِمْ بِخَيْلِكَ ورجلك and assail them with the noise of your cavalry and infantry.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:03.158Z",
+      "refword": "17:64:6",
+      "lexword": "وَأَجْلِبْ"
+    }
+  }
+}

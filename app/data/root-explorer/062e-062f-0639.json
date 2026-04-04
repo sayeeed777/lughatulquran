@@ -1,0 +1,150 @@
+{
+  "root": "خدع",
+  "rootArabic": "خدع",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يُخَادِعُون",
+      "count": 2
+    },
+    {
+      "form": "يَخْدَعُ",
+      "count": 2
+    },
+    {
+      "form": "خَادِعٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُخَادِعُون",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يَخْدَعُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَادِعٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "يُخَادِعُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْدَعُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 9,
+      "text": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ آمَنُوا وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُخَٰدِعُونَ</a> ٱللَّهَ وَٱلَّذِينَ آمَنُوا وَمَا <a class=\"highlight-text\">يَخْدَعُونَ</a> إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "يُخَادِعُون",
+        "يَخْدَعُ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 142,
+      "text": "إِنَّ ٱلْمُنَٰفِقِينَ يُخَٰدِعُونَ ٱللَّهَ وَهُوَ خَٰدِعُهُمْ وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "إِنَّ ٱلْمُنَٰفِقِينَ <a class=\"highlight-text\">يُخَٰدِعُونَ</a> ٱللَّهَ وَهُوَ <a class=\"highlight-text\">خَٰدِعُهُمْ</a> وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "يُخَادِعُون",
+        "خَادِعٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 62,
+      "text": "وَإِن يُرِيدُوٓا۟ أَن يَخْدَعُوكَ فَإِنَّ حَسْبَكَ ٱللَّهُ ۚ هُوَ ٱلَّذِىٓ أَيَّدَكَ بِنَصْرِهِۦ وَبِٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَإِن يُرِيدُوٓا۟ أَن <a class=\"highlight-text\">يَخْدَعُوكَ</a> فَإِنَّ حَسْبَكَ ٱللَّهُ ۚ هُوَ ٱلَّذِىٓ أَيَّدَكَ بِنَصْرِهِۦ وَبِٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "يَخْدَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:05.334Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form III) imperfect verb",
+    "derivativeNote": "يُخَٰدِعُونَ is in the derivative form: يُخَادِعُون",
+    "rootDefinitionHtml": "خ/د/ع   kh–d–ʿ to cover up, to cover, to hide<br>; an inner room, bed chamber; to cheat, to deceive, to delude; to take precautions; to become bad, to become stagnant; the jugular veins. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَخْدَعُ yakhdaʿ 2 times; يُخَادِعُ yukhādiʿ 2 times and خَادِعٌ khādiʿ 1 time.",
+    "mainDefinitionHtml": "يُخَادِعُون yukhādiʿūn [imperf. of v. III خَادَعَ khādaʿa, trans.] to seek to deceive, to engage in deception, to try to double‐cross <br><br>(2:9) يُخَادِعُونَ اللَّهَ وَالَّذِينَ ءَامَنُوا وَمَا يَخْدَعُونَ إِلاَّ أَنْفُسَهُمْ they seek to deceive God and the believers but they only deceive themselves.",
+    "mainEntryId": "wdef-خ-د-ع.يُخَادِعُون",
+    "entries": [
+      {
+        "id": "wdef-خ-د-ع",
+        "label": "خ-د-ع",
+        "definitionHtml": "خ/د/ع   kh–d–ʿ to cover up, to cover, to hide<br>; an inner room, bed chamber; to cheat, to deceive, to delude; to take precautions; to become bad, to become stagnant; the jugular veins. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَخْدَعُ yakhdaʿ 2 times; يُخَادِعُ yukhādiʿ 2 times and خَادِعٌ khādiʿ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-د-ع.يُخَادِعُون",
+        "label": "يُخَادِعُون",
+        "definitionHtml": "يُخَادِعُون yukhādiʿūn [imperf. of v. III خَادَعَ khādaʿa, trans.] to seek to deceive, to engage in deception, to try to double‐cross <br><br>(2:9) يُخَادِعُونَ اللَّهَ وَالَّذِينَ ءَامَنُوا وَمَا يَخْدَعُونَ إِلاَّ أَنْفُسَهُمْ they seek to deceive God and the believers but they only deceive themselves.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-د-ع.خَادِعٌ",
+        "label": "خَادِعٌ",
+        "definitionHtml": "خَادِعٌ khādiʿ [act. part.] one who deceives, one who causes others to be deceived <br><br>(4:142) إِنَّ الْمُنَافِقِينَ يُخَادِعُونَ اللَّهَ وَهُوَ خَادِعُهُمْ the hypocrites try to deceive God, but it is He who causes them to be deceived.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-د-ع.يَخْدَعُ",
+        "label": "يَخْدَعُ",
+        "definitionHtml": "يَخْدَعُ yakhdaʿ [imperf. of v. خَدَعَ khadaʿa, trans.] to cheat, to deceive <br><br>(8:62) وَإِنْ يُرِيدُوا أَنْ يَخْدَعُوكَ فَإِنَّ حَسْبَكَ اللَّهُ if they intend to deceive you, surely God is sufficient [as protector] for you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:35.232Z",
+      "refword": "2:9:1",
+      "lexword": "يُخَٰدِعُونَ"
+    }
+  }
+}

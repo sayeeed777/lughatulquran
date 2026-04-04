@@ -1,0 +1,117 @@
+{
+  "root": "خرق",
+  "rootArabic": "خرق",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "خَرَقَ",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَرَقَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَرَقَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَرَقَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 100,
+      "text": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ <a class=\"highlight-text\">وَخَرَقُوا۟</a> لَهُۥ بَنِينَ وَبَنَٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَٰنَهُۥ وَتَعَٰلَىٰ عَمَّا يَصِفُونَ",
+      "derivedForms": [
+        "خَرَقَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 37,
+      "text": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن تَخْرِقَ ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "highlightedHtml": "وَلَا تَمْشِ فِى ٱلْأَرْضِ مَرَحًا ۖ إِنَّكَ لَن <a class=\"highlight-text\">تَخْرِقَ</a> ٱلْأَرْضَ وَلَن تَبْلُغَ ٱلْجِبَالَ طُولًا",
+      "derivedForms": [
+        "خَرَقَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 71,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ خَرَقَهَا ۖ قَالَ أَخَرَقْتَهَا لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا رَكِبَا فِى ٱلسَّفِينَةِ <a class=\"highlight-text\">خَرَقَهَا</a> ۖ قَالَ <a class=\"highlight-text\">أَخَرَقْتَهَا</a> لِتُغْرِقَ أَهْلَهَا لَقَدْ جِئْتَ شَيْـًٔا إِمْرًا",
+      "derivedForms": [
+        "خَرَقَ",
+        "خَرَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:12.137Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "وَخَرَقُوا۟ is in the derivative form: خَرَقَ",
+    "rootDefinitionHtml": "خ/ر/ق   kh–r–q gap, hole, perforation; rag; to pierce; to invent, to feign; to lie; to be foolish, to be ignorant, to be confused. Of this root, خَرَقَ kharaqa occurs 4 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "خَرَقَ kharaqa i [v. trans.] <br><br><strong>1 </strong>to pierce, to make a hole in <br><br>(18:71) فَانْطَلَقَا حَتَّى إِذَا رَكِبَا فِى السَّفِينَةِ خَرَقَهَا so they proceeded until, when they boarded a boat, he made a hole in it <br><br><strong>2 </strong>to falsely attribute, to invent <br><br>(6:100) وَجَعَلُوا لِلَّهِ شُرَكَاءَ الْجِنَّ وَخَلَقَهُمْ وَخَرَقُوا لَهُ بَنِينَ وَبَنَاتٍ بِغَيْرِ عِلْمٍ and they ascribe as partners to God, the jinn, though He created them, and they invent sons and daughters for Him without any true knowledge.",
+    "mainEntryId": "wdef-خ-ر-ق.خَرَقَ",
+    "entries": [
+      {
+        "id": "wdef-خ-ر-ق",
+        "label": "خ-ر-ق",
+        "definitionHtml": "خ/ر/ق   kh–r–q gap, hole, perforation; rag; to pierce; to invent, to feign; to lie; to be foolish, to be ignorant, to be confused. Of this root, خَرَقَ kharaqa occurs 4 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ر-ق.خَرَقَ",
+        "label": "خَرَقَ",
+        "definitionHtml": "خَرَقَ kharaqa i [v. trans.] <br><br><strong>1 </strong>to pierce, to make a hole in <br><br>(18:71) فَانْطَلَقَا حَتَّى إِذَا رَكِبَا فِى السَّفِينَةِ خَرَقَهَا so they proceeded until, when they boarded a boat, he made a hole in it <br><br><strong>2 </strong>to falsely attribute, to invent <br><br>(6:100) وَجَعَلُوا لِلَّهِ شُرَكَاءَ الْجِنَّ وَخَلَقَهُمْ وَخَرَقُوا لَهُ بَنِينَ وَبَنَاتٍ بِغَيْرِ عِلْمٍ and they ascribe as partners to God, the jinn, though He created them, and they invent sons and daughters for Him without any true knowledge.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:48.480Z",
+      "refword": "6:100:6",
+      "lexword": "وَخَرَقُوا۟"
+    }
+  }
+}

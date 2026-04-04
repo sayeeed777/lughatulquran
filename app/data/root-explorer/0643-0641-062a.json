@@ -1,0 +1,74 @@
+{
+  "root": "كفت",
+  "rootArabic": "كفت",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "كِفَات",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كِفَات",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 77,
+      "ayah": 25,
+      "text": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ كِفَاتًا",
+      "highlightedHtml": "أَلَمْ نَجْعَلِ ٱلْأَرْضَ <a class=\"highlight-text\">كِفَاتًا</a>",
+      "derivedForms": [
+        "كِفَات"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:52.142Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite (form III) verbal noun",
+    "derivativeNote": "كِفَاتًا is in the derivative form: كِفَات",
+    "rootDefinitionHtml": "ك/ف/ت   k–f–t to alter, to change; to detain, hiding place, place for burying things/people; to compete; difficulty; livelihood; small cooking pot, to sheathe; death. Of this root, كِفَات kifāt occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "كِفَات kifāt [v. n. as n. of place] terrain, territory, holding place, home, habitat, environment <br><br>(77:25–6) أَحْيَاءً وَأَمْوَاتًا كِفَاتًا أَلَمْ نَجْعَلِ الأَرْضَ did We not make the earth a home for the living and the dead?",
+    "mainEntryId": "wdef-ك-ف-ت.كِفَات",
+    "entries": [
+      {
+        "id": "wdef-ك-ف-ت",
+        "label": "ك-ف-ت",
+        "definitionHtml": "ك/ف/ت   k–f–t to alter, to change; to detain, hiding place, place for burying things/people; to compete; difficulty; livelihood; small cooking pot, to sheathe; death. Of this root, كِفَات kifāt occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ف-ت.كِفَات",
+        "label": "كِفَات",
+        "definitionHtml": "كِفَات kifāt [v. n. as n. of place] terrain, territory, holding place, home, habitat, environment <br><br>(77:25–6) أَحْيَاءً وَأَمْوَاتًا كِفَاتًا أَلَمْ نَجْعَلِ الأَرْضَ did We not make the earth a home for the living and the dead?",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:09.449Z",
+      "refword": "77:25:4",
+      "lexword": "كِفَاتًا"
+    }
+  }
+}

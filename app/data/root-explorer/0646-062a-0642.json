@@ -1,0 +1,74 @@
+{
+  "root": "نتق",
+  "rootArabic": "نتق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَتَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَتَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 171,
+      "text": "وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "highlightedHtml": "وَإِذْ <a class=\"highlight-text\">نَتَقْنَا</a> ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "derivedForms": [
+        "نَتَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:02.963Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "نَتَقْنَا is in the derivative form: نَتَقَ",
+    "rootDefinitionHtml": "ن/ت/ق   n–t–q to shake; to raise, to lift up, to overturn, to pour out by overturning; (of a camel’s rigging) to become loose. Of this root, نَتَقَ nataqa, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَتَقَ nataqa i [v. trans.] to raise, to hoist <br><br>(7:171) وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ and [remember] when We hoisted the mountain [high] above them as if it were a canopy.",
+    "mainEntryId": "wdef-ن-ت-ق.نَتَقَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ت-ق",
+        "label": "ن-ت-ق",
+        "definitionHtml": "ن/ت/ق   n–t–q to shake; to raise, to lift up, to overturn, to pour out by overturning; (of a camel’s rigging) to become loose. Of this root, نَتَقَ nataqa, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ت-ق.نَتَقَ",
+        "label": "نَتَقَ",
+        "definitionHtml": "نَتَقَ nataqa i [v. trans.] to raise, to hoist <br><br>(7:171) وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ and [remember] when We hoisted the mountain [high] above them as if it were a canopy.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:22.301Z",
+      "refword": "7:171:2",
+      "lexword": "نَتَقْنَا"
+    }
+  }
+}

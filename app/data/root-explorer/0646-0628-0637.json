@@ -1,0 +1,74 @@
+{
+  "root": "نبط",
+  "rootArabic": "نبط",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "اسْتَنْبَطَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَنْبَطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 83,
+      "text": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ يَسْتَنۢبِطُونَهُۥ مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "وَإِذَا جَآءَهُمْ أَمْرٌ مِّنَ ٱلْأَمْنِ أَوِ ٱلْخَوْفِ أَذَاعُوا۟ بِهِۦ ۖ وَلَوْ رَدُّوهُ إِلَى ٱلرَّسُولِ وَإِلَىٰٓ أُو۟لِى ٱلْأَمْرِ مِنْهُمْ لَعَلِمَهُ ٱلَّذِينَ <a class=\"highlight-text\">يَسْتَنۢبِطُونَهُۥ</a> مِنْهُمْ ۗ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَٱتَّبَعْتُمُ ٱلشَّيْطَٰنَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "اسْتَنْبَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:02.007Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form X) imperfect verb",
+    "derivativeNote": "يَسْتَنۢبِطُونَهُۥ is in the derivative form: اسْتَنْبَطَ",
+    "rootDefinitionHtml": "ن/ب/ط   n–b–ṭ first water obtained from a newly dug well; to elicit, to deduce; to well out, to issue; the innermost part; Nabateans, to live like, or to claim to be, a Nabatean. Of this root, اسْتَنْبَطَ ʾistanbaṭa, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "اسْتَنْبَطَ ʾistanbaṭa [v. X, trans.] to deduce, to interpret <br><br>(4:83) وَلَوْ رَدُّوهُ إِلَى الرَّسُولِ وَإِلَى أُولِي الأَمْرِ مِنْهُمْ لَعَلِمَهُ الَّذِينَ يَسْتَنْبِطُونَهُ مِنْهُمْ had they referred it to the Messenger and those in authority among them, those [capable of] interpreting it would have comprehended it.",
+    "mainEntryId": "wdef-ن-ب-ط.اسْتَنْبَطَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ب-ط",
+        "label": "ن-ب-ط",
+        "definitionHtml": "ن/ب/ط   n–b–ṭ first water obtained from a newly dug well; to elicit, to deduce; to well out, to issue; the innermost part; Nabateans, to live like, or to claim to be, a Nabatean. Of this root, اسْتَنْبَطَ ʾistanbaṭa, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ب-ط.اسْتَنْبَطَ",
+        "label": "اسْتَنْبَطَ",
+        "definitionHtml": "اسْتَنْبَطَ ʾistanbaṭa [v. X, trans.] to deduce, to interpret <br><br>(4:83) وَلَوْ رَدُّوهُ إِلَى الرَّسُولِ وَإِلَى أُولِي الأَمْرِ مِنْهُمْ لَعَلِمَهُ الَّذِينَ يَسْتَنْبِطُونَهُ مِنْهُمْ had they referred it to the Messenger and those in authority among them, those [capable of] interpreting it would have comprehended it.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:20.073Z",
+      "refword": "4:83:20",
+      "lexword": "يَسْتَنۢبِطُونَهُۥ"
+    }
+  }
+}

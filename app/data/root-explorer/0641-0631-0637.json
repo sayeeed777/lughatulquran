@@ -1,0 +1,230 @@
+{
+  "root": "فرط",
+  "rootArabic": "فرط",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "فَرَّطَ",
+      "count": 5
+    },
+    {
+      "form": "فُرُط",
+      "count": 1
+    },
+    {
+      "form": "مُفْرَطون",
+      "count": 1
+    },
+    {
+      "form": "يَفْرُط",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "فَرَّطَ",
+          "count": 3,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرَّطَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُفْرَطون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فُرُط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَفْرُط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "فَرَّطَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 31,
+      "text": "قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا فَرَّطْنَا فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ",
+      "highlightedHtml": "قَدْ خَسِرَ ٱلَّذِينَ كَذَّبُوا۟ بِلِقَآءِ ٱللَّهِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمُ ٱلسَّاعَةُ بَغْتَةً قَالُوا۟ يَٰحَسْرَتَنَا عَلَىٰ مَا <a class=\"highlight-text\">فَرَّطْنَا</a> فِيهَا وَهُمْ يَحْمِلُونَ أَوْزَارَهُمْ عَلَىٰ ظُهُورِهِمْ ۚ أَلَا سَآءَ مَا يَزِرُونَ",
+      "derivedForms": [
+        "فَرَّطَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 38,
+      "text": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا فَرَّطْنَا فِى ٱلْكِتَٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
+      "highlightedHtml": "وَمَا مِن دَآبَّةٍ فِى ٱلْأَرْضِ وَلَا طَٰٓئِرٍ يَطِيرُ بِجَنَاحَيْهِ إِلَّآ أُمَمٌ أَمْثَالُكُم ۚ مَّا <a class=\"highlight-text\">فَرَّطْنَا</a> فِى ٱلْكِتَٰبِ مِن شَىْءٍ ۚ ثُمَّ إِلَىٰ رَبِّهِمْ يُحْشَرُونَ",
+      "derivedForms": [
+        "فَرَّطَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 61,
+      "text": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا يُفَرِّطُونَ",
+      "highlightedHtml": "وَهُوَ ٱلْقَاهِرُ فَوْقَ عِبَادِهِۦ ۖ وَيُرْسِلُ عَلَيْكُمْ حَفَظَةً حَتَّىٰٓ إِذَا جَآءَ أَحَدَكُمُ ٱلْمَوْتُ تَوَفَّتْهُ رُسُلُنَا وَهُمْ لَا <a class=\"highlight-text\">يُفَرِّطُونَ</a>",
+      "derivedForms": [
+        "فَرَّطَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 80,
+      "text": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا فَرَّطتُمْ فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
+      "highlightedHtml": "فَلَمَّا ٱسْتَيْـَٔسُوا۟ مِنْهُ خَلَصُوا۟ نَجِيًّا ۖ قَالَ كَبِيرُهُمْ أَلَمْ تَعْلَمُوٓا۟ أَنَّ أَبَاكُمْ قَدْ أَخَذَ عَلَيْكُم مَّوْثِقًا مِّنَ ٱللَّهِ وَمِن قَبْلُ مَا <a class=\"highlight-text\">فَرَّطتُمْ</a> فِى يُوسُفَ ۖ فَلَنْ أَبْرَحَ ٱلْأَرْضَ حَتَّىٰ يَأْذَنَ لِىٓ أَبِىٓ أَوْ يَحْكُمَ ٱللَّهُ لِى ۖ وَهُوَ خَيْرُ ٱلْحَٰكِمِينَ",
+      "derivedForms": [
+        "فَرَّطَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 62,
+      "text": "وَيَجْعَلُونَ لِلَّهِ مَا يَكْرَهُونَ وَتَصِفُ أَلْسِنَتُهُمُ ٱلْكَذِبَ أَنَّ لَهُمُ ٱلْحُسْنَىٰ ۖ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم مُّفْرَطُونَ",
+      "highlightedHtml": "وَيَجْعَلُونَ لِلَّهِ مَا يَكْرَهُونَ وَتَصِفُ أَلْسِنَتُهُمُ ٱلْكَذِبَ أَنَّ لَهُمُ ٱلْحُسْنَىٰ ۖ لَا جَرَمَ أَنَّ لَهُمُ ٱلنَّارَ وَأَنَّهُم <a class=\"highlight-text\">مُّفْرَطُونَ</a>",
+      "derivedForms": [
+        "مُفْرَطون"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 28,
+      "text": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
+      "highlightedHtml": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ <a class=\"highlight-text\">فُرُطًا</a>",
+      "derivedForms": [
+        "فُرُط"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 45,
+      "text": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن يَفْرُطَ عَلَيْنَآ أَوْ أَن يَطْغَىٰ",
+      "highlightedHtml": "قَالَا رَبَّنَآ إِنَّنَا نَخَافُ أَن <a class=\"highlight-text\">يَفْرُطَ</a> عَلَيْنَآ أَوْ أَن يَطْغَىٰ",
+      "derivedForms": [
+        "يَفْرُط"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 56,
+      "text": "أَن تَقُولَ نَفْسٌ يَٰحَسْرَتَىٰ عَلَىٰ مَا فَرَّطتُ فِى جَنۢبِ ٱللَّهِ وَإِن كُنتُ لَمِنَ ٱلسَّٰخِرِينَ",
+      "highlightedHtml": "أَن تَقُولَ نَفْسٌ يَٰحَسْرَتَىٰ عَلَىٰ مَا <a class=\"highlight-text\">فَرَّطتُ</a> فِى جَنۢبِ ٱللَّهِ وَإِن كُنتُ لَمِنَ ٱلسَّٰخِرِينَ",
+      "derivedForms": [
+        "فَرَّطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:42.594Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "فَرَّطْنَا is in the derivative form: فَرَّطَ",
+    "rootDefinitionHtml": "ف/ر/ط   f–r–ṭ to precede, to be at the fore<br>; to be in excess; to neglect, to inadvertently allow to escape; to compete. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> يَفْرُط yafruṭ 1 time; فَرَّطَ farraṭa 5 times; مُفْرَطون mufraṭūn 1 time and فُرُط furuṭ 1 time.",
+    "mainDefinitionHtml": "فَرَّطَ farraṭa [v. II] I [intrans. with prep. فِي] <br><br><strong>1 </strong>to be remiss, to be careless <br><br>(39:56)‏‏مَا‏ ‏فَرَّطْتُ‏ ‏فِي‏ ‏جَنْبِ‏ ‏اللَّهِ‏ ‏ ‏يَاحَسْرَتَا‏ ‏عَلَى woe is me for having neglected what is due to God <br><br><strong>2 </strong>to be wasteful with; to fail to act in the proper way, to be wanting as regards carrying out one’s duties <br><br>(12:80‏) وَمِنْ‏ ‏قَبْلُ‏ ‏مَا‏ ‏فَرَّطْتُمْ‏ فِى ‏يُوسُفَ and before that you were careless of [your duty to] Joseph II [trans.] to leave out, to overlook, to neglect <br><br>(6:38) مَا فَرَّطْنَا فِى الْكِتَابِ مِنْ شَيْءٍ‏ We have not overlooked anything in the Book.",
+    "mainEntryId": "wdef-ف-ر-ط.فَرَّطَ",
+    "entries": [
+      {
+        "id": "wdef-ف-ر-ط",
+        "label": "ف-ر-ط",
+        "definitionHtml": "ف/ر/ط   f–r–ṭ to precede, to be at the fore<br>; to be in excess; to neglect, to inadvertently allow to escape; to compete. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> يَفْرُط yafruṭ 1 time; فَرَّطَ farraṭa 5 times; مُفْرَطون mufraṭūn 1 time and فُرُط furuṭ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ط.فَرَّطَ",
+        "label": "فَرَّطَ",
+        "definitionHtml": "فَرَّطَ farraṭa [v. II] I [intrans. with prep. فِي] <br><br><strong>1 </strong>to be remiss, to be careless <br><br>(39:56)‏‏مَا‏ ‏فَرَّطْتُ‏ ‏فِي‏ ‏جَنْبِ‏ ‏اللَّهِ‏ ‏ ‏يَاحَسْرَتَا‏ ‏عَلَى woe is me for having neglected what is due to God <br><br><strong>2 </strong>to be wasteful with; to fail to act in the proper way, to be wanting as regards carrying out one’s duties <br><br>(12:80‏) وَمِنْ‏ ‏قَبْلُ‏ ‏مَا‏ ‏فَرَّطْتُمْ‏ فِى ‏يُوسُفَ and before that you were careless of [your duty to] Joseph II [trans.] to leave out, to overlook, to neglect <br><br>(6:38) مَا فَرَّطْنَا فِى الْكِتَابِ مِنْ شَيْءٍ‏ We have not overlooked anything in the Book.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ف-ر-ط.فُرُط",
+        "label": "فُرُط",
+        "definitionHtml": "فُرُط furuṭ [v. n.] excess, neglect, failing, abandoning, shortcoming <br><br>(18:28) وَكَانَ‏ ‏أَمْرُهُ‏ ‏فُرُطًا and his doings have become rife with shortcomings.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ط.مُفْرَطون",
+        "label": "مُفْرَطون",
+        "definitionHtml": "مُفْرَطون mufraṭūn [pl. of pass. part. مُفْرَط mufraṭ] abandoned, wasted <br><br>(16:62) ‏‏لاَ‏ ‏جَرَمَ‏ ‏أَنَّ‏ ‏لَهُمُ‏ ‏النَّارَ وَأَنَّهُمْ‏ ‏مُفْرَطُونَ‏ ‏there is no doubt that the Fire is theirs–and that they will be abandoned [there]!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ر-ط.يَفْرُط",
+        "label": "يَفْرُط",
+        "definitionHtml": "يَفْرُط yafruṭ [imperf. v., intrans. with prep.عَلَى] to hasten and do an evil action, to do a bad thing before reflection *<br><br>(20:45) إِنَّنَا نَخَافُ أَنْ يَفْرُطَ عَلَيْنَا we fear he may hasten to punish us.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:51:06.188Z",
+      "refword": "6:31:16",
+      "lexword": "فَرَّطْنَا"
+    }
+  }
+}

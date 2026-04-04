@@ -1,0 +1,934 @@
+{
+  "root": "دبر",
+  "rootArabic": "دبر",
+  "stats": {
+    "totalOccurrences": 44,
+    "derivativeCount": 9,
+    "surahCount": 31,
+    "ayahCount": 44
+  },
+  "derivatives": [
+    {
+      "form": "دُبُرٌ",
+      "count": 18
+    },
+    {
+      "form": "مُدبِرٌ",
+      "count": 8
+    },
+    {
+      "form": "أَدْبَرَ",
+      "count": 4
+    },
+    {
+      "form": "دَابِرٌ",
+      "count": 4
+    },
+    {
+      "form": "يُدَبِّرُ",
+      "count": 4
+    },
+    {
+      "form": "يَتَدَبَّرُ",
+      "count": 2
+    },
+    {
+      "form": "يَدَّبَّرُ",
+      "count": 2
+    },
+    {
+      "form": "إِدْبَارٌ",
+      "count": 1
+    },
+    {
+      "form": "مُدَبِّرَاتٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "يَتَدَبَّرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَابِرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَابِرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 3,
+          "totalInQuran": 18
+        },
+        {
+          "form": "دَابِرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يُدَبِّرُ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 3,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُدَبِّرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دَابِرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدَّبَّرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُدَبِّرُ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدَّبَّرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدبِرٌ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 2,
+          "totalInQuran": 18
+        },
+        {
+          "form": "يَتَدَبَّرُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِدْبَارٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُبُرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَدْبَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْبَرَ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَدْبَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُدَبِّرَاتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 111,
+      "text": "لَن يَضُرُّوكُمْ إِلَّآ أَذًى ۖ وَإِن يُقَٰتِلُوكُمْ يُوَلُّوكُمُ ٱلْأَدْبَارَ ثُمَّ لَا يُنصَرُونَ",
+      "highlightedHtml": "لَن يَضُرُّوكُمْ إِلَّآ أَذًى ۖ وَإِن يُقَٰتِلُوكُمْ يُوَلُّوكُمُ <a class=\"highlight-text\">ٱلْأَدْبَارَ</a> ثُمَّ لَا يُنصَرُونَ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 47,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰٓ أَدْبَارِهَآ أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَٰبَ ٱلسَّبْتِ ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ آمِنُوا بِمَا نَزَّلْنَا مُصَدِّقًا لِّمَا مَعَكُم مِّن قَبْلِ أَن نَّطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَىٰٓ <a class=\"highlight-text\">أَدْبَارِهَآ</a> أَوْ نَلْعَنَهُمْ كَمَا لَعَنَّآ أَصْحَٰبَ ٱلسَّبْتِ ۚ وَكَانَ أَمْرُ ٱللَّهِ مَفْعُولًا",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 82,
+      "text": "أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُوا۟ فِيهِ ٱخْتِلَٰفًا كَثِيرًا",
+      "highlightedHtml": "أَفَلَا <a class=\"highlight-text\">يَتَدَبَّرُونَ</a> ٱلْقُرْءَانَ ۚ وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُوا۟ فِيهِ ٱخْتِلَٰفًا كَثِيرًا",
+      "derivedForms": [
+        "يَتَدَبَّرُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 21,
+      "text": "يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ أَدْبَارِكُمْ فَتَنقَلِبُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "يَٰقَوْمِ ٱدْخُلُوا۟ ٱلْأَرْضَ ٱلْمُقَدَّسَةَ ٱلَّتِى كَتَبَ ٱللَّهُ لَكُمْ وَلَا تَرْتَدُّوا۟ عَلَىٰٓ <a class=\"highlight-text\">أَدْبَارِكُمْ</a> فَتَنقَلِبُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 45,
+      "text": "فَقُطِعَ دَابِرُ ٱلْقَوْمِ ٱلَّذِينَ ظَلَمُوا۟ ۚ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "فَقُطِعَ <a class=\"highlight-text\">دَابِرُ</a> ٱلْقَوْمِ ٱلَّذِينَ ظَلَمُوا۟ ۚ وَٱلْحَمْدُ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "دَابِرٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 72,
+      "text": "فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
+      "highlightedHtml": "فَأَنجَيْنَٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَقَطَعْنَا <a class=\"highlight-text\">دَابِرَ</a> ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
+      "derivedForms": [
+        "دَابِرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 7,
+      "text": "وَإِذْ يَعِدُكُمُ ٱللَّهُ إِحْدَى ٱلطَّآئِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ ٱلشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَيَقْطَعَ دَابِرَ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَإِذْ يَعِدُكُمُ ٱللَّهُ إِحْدَى ٱلطَّآئِفَتَيْنِ أَنَّهَا لَكُمْ وَتَوَدُّونَ أَنَّ غَيْرَ ذَاتِ ٱلشَّوْكَةِ تَكُونُ لَكُمْ وَيُرِيدُ ٱللَّهُ أَن يُحِقَّ ٱلْحَقَّ بِكَلِمَٰتِهِۦ وَيَقْطَعَ <a class=\"highlight-text\">دَابِرَ</a> ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "دَابِرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 15,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ زَحْفًا فَلَا تُوَلُّوهُمُ ٱلْأَدْبَارَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا لَقِيتُمُ ٱلَّذِينَ كَفَرُوا۟ زَحْفًا فَلَا تُوَلُّوهُمُ <a class=\"highlight-text\">ٱلْأَدْبَارَ</a>",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 16,
+      "text": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ دُبُرَهُۥٓ إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍ فَقَدْ بَآءَ بِغَضَبٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَمَن يُوَلِّهِمْ يَوْمَئِذٍ <a class=\"highlight-text\">دُبُرَهُۥٓ</a> إِلَّا مُتَحَرِّفًا لِّقِتَالٍ أَوْ مُتَحَيِّزًا إِلَىٰ فِئَةٍ فَقَدْ بَآءَ بِغَضَبٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 50,
+      "text": "وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ <a class=\"highlight-text\">وَأَدْبَٰرَهُمْ</a> وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 25,
+      "text": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم مُّدْبِرِينَ",
+      "highlightedHtml": "لَقَدْ نَصَرَكُمُ ٱللَّهُ فِى مَوَاطِنَ كَثِيرَةٍ ۙ وَيَوْمَ حُنَيْنٍ ۙ إِذْ أَعْجَبَتْكُمْ كَثْرَتُكُمْ فَلَمْ تُغْنِ عَنكُمْ شَيْـًٔا وَضَاقَتْ عَلَيْكُمُ ٱلْأَرْضُ بِمَا رَحُبَتْ ثُمَّ وَلَّيْتُم <a class=\"highlight-text\">مُّدْبِرِينَ</a>",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 3,
+      "text": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ يُدَبِّرُ ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ <a class=\"highlight-text\">يُدَبِّرُ</a> ٱلْأَمْرَ ۖ مَا مِن شَفِيعٍ إِلَّا مِنۢ بَعْدِ إِذْنِهِۦ ۚ ذَٰلِكُمُ ٱللَّهُ رَبُّكُمْ فَٱعْبُدُوهُ ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "يُدَبِّرُ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 31,
+      "text": "قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ أَمَّن يَمْلِكُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَمَن يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَمَن يُدَبِّرُ ٱلْأَمْرَ ۚ فَسَيَقُولُونَ ٱللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ",
+      "highlightedHtml": "قُلْ مَن يَرْزُقُكُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ أَمَّن يَمْلِكُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَمَن يُخْرِجُ ٱلْحَىَّ مِنَ ٱلْمَيِّتِ وَيُخْرِجُ ٱلْمَيِّتَ مِنَ ٱلْحَىِّ وَمَن <a class=\"highlight-text\">يُدَبِّرُ</a> ٱلْأَمْرَ ۚ فَسَيَقُولُونَ ٱللَّهُ ۚ فَقُلْ أَفَلَا تَتَّقُونَ",
+      "derivedForms": [
+        "يُدَبِّرُ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن <a class=\"highlight-text\">دُبُرٍ</a> وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 27,
+      "text": "وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "وَإِن كَانَ قَمِيصُهُۥ قُدَّ مِن <a class=\"highlight-text\">دُبُرٍ</a> فَكَذَبَتْ وَهُوَ مِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 28,
+      "text": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن دُبُرٍ قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "highlightedHtml": "فَلَمَّا رَءَا قَمِيصَهُۥ قُدَّ مِن <a class=\"highlight-text\">دُبُرٍ</a> قَالَ إِنَّهُۥ مِن كَيْدِكُنَّ ۖ إِنَّ كَيْدَكُنَّ عَظِيمٌ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 2,
+      "text": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ يُدَبِّرُ ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِى رَفَعَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۖ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ ۖ كُلٌّ يَجْرِى لِأَجَلٍ مُّسَمًّى ۚ <a class=\"highlight-text\">يُدَبِّرُ</a> ٱلْأَمْرَ يُفَصِّلُ ٱلْءَايَٰتِ لَعَلَّكُم بِلِقَآءِ رَبِّكُمْ تُوقِنُونَ",
+      "derivedForms": [
+        "يُدَبِّرُ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 65,
+      "text": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ أَدْبَٰرَهُمْ وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "highlightedHtml": "فَأَسْرِ بِأَهْلِكَ بِقِطْعٍ مِّنَ ٱلَّيْلِ وَٱتَّبِعْ <a class=\"highlight-text\">أَدْبَٰرَهُمْ</a> وَلَا يَلْتَفِتْ مِنكُمْ أَحَدٌ وَٱمْضُوا۟ حَيْثُ تُؤْمَرُونَ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 66,
+      "text": "وَقَضَيْنَآ إِلَيْهِ ذَٰلِكَ ٱلْأَمْرَ أَنَّ دَابِرَ هَٰٓؤُلَآءِ مَقْطُوعٌ مُّصْبِحِينَ",
+      "highlightedHtml": "وَقَضَيْنَآ إِلَيْهِ ذَٰلِكَ ٱلْأَمْرَ أَنَّ <a class=\"highlight-text\">دَابِرَ</a> هَٰٓؤُلَآءِ مَقْطُوعٌ مُّصْبِحِينَ",
+      "derivedForms": [
+        "دَابِرٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 46,
+      "text": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًا",
+      "highlightedHtml": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ <a class=\"highlight-text\">أَدْبَٰرِهِمْ</a> نُفُورًا",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 57,
+      "text": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم بَعْدَ أَن تُوَلُّوا۟ مُدْبِرِينَ",
+      "highlightedHtml": "وَتَٱللَّهِ لَأَكِيدَنَّ أَصْنَٰمَكُم بَعْدَ أَن تُوَلُّوا۟ <a class=\"highlight-text\">مُدْبِرِينَ</a>",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 68,
+      "text": "أَفَلَمْ يَدَّبَّرُوا۟ ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "أَفَلَمْ <a class=\"highlight-text\">يَدَّبَّرُوا۟</a> ٱلْقَوْلَ أَمْ جَآءَهُم مَّا لَمْ يَأْتِ ءَابَآءَهُمُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "يَدَّبَّرُ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 10,
+      "text": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ",
+      "highlightedHtml": "وَأَلْقِ عَصَاكَ ۚ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ <a class=\"highlight-text\">مُدْبِرًا</a> وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰ لَا تَخَفْ إِنِّى لَا يَخَافُ لَدَىَّ ٱلْمُرْسَلُونَ",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 80,
+      "text": "إِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "highlightedHtml": "إِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ <a class=\"highlight-text\">مُدْبِرِينَ</a>",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 31,
+      "text": "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ مُدْبِرًا وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْءَامِنِينَ",
+      "highlightedHtml": "وَأَنْ أَلْقِ عَصَاكَ ۖ فَلَمَّا رَءَاهَا تَهْتَزُّ كَأَنَّهَا جَآنٌّ وَلَّىٰ <a class=\"highlight-text\">مُدْبِرًا</a> وَلَمْ يُعَقِّبْ ۚ يَٰمُوسَىٰٓ أَقْبِلْ وَلَا تَخَفْ ۖ إِنَّكَ مِنَ ٱلْءَامِنِينَ",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 52,
+      "text": "فَإِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ مُدْبِرِينَ",
+      "highlightedHtml": "فَإِنَّكَ لَا تُسْمِعُ ٱلْمَوْتَىٰ وَلَا تُسْمِعُ ٱلصُّمَّ ٱلدُّعَآءَ إِذَا وَلَّوْا۟ <a class=\"highlight-text\">مُدْبِرِينَ</a>",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 5,
+      "text": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُدَبِّرُ</a> ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "يُدَبِّرُ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 15,
+      "text": "وَلَقَدْ كَانُوا۟ عَٰهَدُوا۟ ٱللَّهَ مِن قَبْلُ لَا يُوَلُّونَ ٱلْأَدْبَٰرَ ۚ وَكَانَ عَهْدُ ٱللَّهِ مَسْـُٔولًا",
+      "highlightedHtml": "وَلَقَدْ كَانُوا۟ عَٰهَدُوا۟ ٱللَّهَ مِن قَبْلُ لَا يُوَلُّونَ <a class=\"highlight-text\">ٱلْأَدْبَٰرَ</a> ۚ وَكَانَ عَهْدُ ٱللَّهِ مَسْـُٔولًا",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 90,
+      "text": "فَتَوَلَّوْا۟ عَنْهُ مُدْبِرِينَ",
+      "highlightedHtml": "فَتَوَلَّوْا۟ عَنْهُ <a class=\"highlight-text\">مُدْبِرِينَ</a>",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 29,
+      "text": "كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ مُبَٰرَكٌ لِّيَدَّبَّرُوٓا۟ آيَاتِهِ وَلِيَتَذَكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "كِتَٰبٌ أَنزَلْنَٰهُ إِلَيْكَ مُبَٰرَكٌ <a class=\"highlight-text\">لِّيَدَّبَّرُوٓا۟</a> آيَاتِهِ وَلِيَتَذَكَّرَ أُو۟لُوا۟ ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "يَدَّبَّرُ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 33,
+      "text": "يَوْمَ تُوَلُّونَ مُدْبِرِينَ مَا لَكُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "highlightedHtml": "يَوْمَ تُوَلُّونَ <a class=\"highlight-text\">مُدْبِرِينَ</a> مَا لَكُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+      "derivedForms": [
+        "مُدبِرٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 24,
+      "text": "أَفَلَا يَتَدَبَّرُونَ ٱلْقُرْءَانَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَآ",
+      "highlightedHtml": "أَفَلَا <a class=\"highlight-text\">يَتَدَبَّرُونَ</a> ٱلْقُرْءَانَ أَمْ عَلَىٰ قُلُوبٍ أَقْفَالُهَآ",
+      "derivedForms": [
+        "يَتَدَبَّرُ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 25,
+      "text": "إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ أَدْبَٰرِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ ٱرْتَدُّوا۟ عَلَىٰٓ <a class=\"highlight-text\">أَدْبَٰرِهِم</a> مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْهُدَى ۙ ٱلشَّيْطَٰنُ سَوَّلَ لَهُمْ وَأَمْلَىٰ لَهُمْ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 27,
+      "text": "فَكَيْفَ إِذَا تَوَفَّتْهُمُ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ",
+      "highlightedHtml": "فَكَيْفَ إِذَا تَوَفَّتْهُمُ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ <a class=\"highlight-text\">وَأَدْبَٰرَهُمْ</a>",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 22,
+      "text": "وَلَوْ قَٰتَلَكُمُ ٱلَّذِينَ كَفَرُوا۟ لَوَلَّوُا۟ ٱلْأَدْبَٰرَ ثُمَّ لَا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا",
+      "highlightedHtml": "وَلَوْ قَٰتَلَكُمُ ٱلَّذِينَ كَفَرُوا۟ لَوَلَّوُا۟ <a class=\"highlight-text\">ٱلْأَدْبَٰرَ</a> ثُمَّ لَا يَجِدُونَ وَلِيًّا وَلَا نَصِيرًا",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 40,
+      "text": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَأَدْبَٰرَ ٱلسُّجُودِ",
+      "highlightedHtml": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ <a class=\"highlight-text\">وَأَدْبَٰرَ</a> ٱلسُّجُودِ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 49,
+      "text": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَإِدْبَٰرَ ٱلنُّجُومِ",
+      "highlightedHtml": "وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ <a class=\"highlight-text\">وَإِدْبَٰرَ</a> ٱلنُّجُومِ",
+      "derivedForms": [
+        "إِدْبَارٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 45,
+      "text": "سَيُهْزَمُ ٱلْجَمْعُ وَيُوَلُّونَ ٱلدُّبُرَ",
+      "highlightedHtml": "سَيُهْزَمُ ٱلْجَمْعُ وَيُوَلُّونَ <a class=\"highlight-text\">ٱلدُّبُرَ</a>",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 12,
+      "text": "لَئِنْ أُخْرِجُوا۟ لَا يَخْرُجُونَ مَعَهُمْ وَلَئِن قُوتِلُوا۟ لَا يَنصُرُونَهُمْ وَلَئِن نَّصَرُوهُمْ لَيُوَلُّنَّ ٱلْأَدْبَٰرَ ثُمَّ لَا يُنصَرُونَ",
+      "highlightedHtml": "لَئِنْ أُخْرِجُوا۟ لَا يَخْرُجُونَ مَعَهُمْ وَلَئِن قُوتِلُوا۟ لَا يَنصُرُونَهُمْ وَلَئِن نَّصَرُوهُمْ لَيُوَلُّنَّ <a class=\"highlight-text\">ٱلْأَدْبَٰرَ</a> ثُمَّ لَا يُنصَرُونَ",
+      "derivedForms": [
+        "دُبُرٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 17,
+      "text": "تَدْعُوا۟ مَنْ أَدْبَرَ وَتَوَلَّىٰ",
+      "highlightedHtml": "تَدْعُوا۟ مَنْ <a class=\"highlight-text\">أَدْبَرَ</a> وَتَوَلَّىٰ",
+      "derivedForms": [
+        "أَدْبَرَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 23,
+      "text": "ثُمَّ أَدْبَرَ وَٱسْتَكْبَرَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَدْبَرَ</a> وَٱسْتَكْبَرَ",
+      "derivedForms": [
+        "أَدْبَرَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 33,
+      "text": "وَٱلَّيْلِ إِذْ أَدْبَرَ",
+      "highlightedHtml": "وَٱلَّيْلِ إِذْ <a class=\"highlight-text\">أَدْبَرَ</a>",
+      "derivedForms": [
+        "أَدْبَرَ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 5,
+      "text": "فَٱلْمُدَبِّرَٰتِ أَمْرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلْمُدَبِّرَٰتِ</a> أَمْرًا",
+      "derivedForms": [
+        "مُدَبِّرَاتٌ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 22,
+      "text": "ثُمَّ أَدْبَرَ يَسْعَىٰ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَدْبَرَ</a> يَسْعَىٰ",
+      "derivedForms": [
+        "أَدْبَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:00.445Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural noun",
+    "derivativeNote": "ٱلْأَدْبَارَ is in the derivative form: دُبُرٌ",
+    "rootDefinitionHtml": "د/ب/ر   d–b–r back, backside, buttocks, the tail end, to turn one’s back<br>; to boycott; to plan, to arrange, to organise, to prepare; to depart, to die; root, origin. <br><br>Of this root, 11 forms occur 44 times in the Qur’an:<br> يُدَبِّرُ yudabbir 4 times; يَتَدَبَّرُ yatadabbar 2 times; يَدَّبَّرُ yaddabbar 2 times; أَدْبَرَ ʾadbara 4 times; مُدَبِّرَاتٌ mudabbirāt 1 time; مُدْبِرٌ mudbir 2 times; مُدْبِرُون mudbirūn 6 times; إِدْبَارٌ ʾidbār 1 time; دَابِرٌ dābir 4 times; دُبُرٌ dubur 5 times and أَدْبَارٌ ʾadbār 13 times.",
+    "mainDefinitionHtml": "دُبُرٌ dubur I [n., pl. ʾadbār] back, backside, end part, the last part <br><br>(12:27) وَإِنْ كَانَ قَمِيصُهُ قُدَّ مِنْ دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ but if his shirt has been torn from the back, then she has lied and he is one of the truthful; *<br><br>(33:15) يُوَلُّونَ الأَدْبَارَ they turn tail; *<br><br>(15:65) اتَّبِعْ أَدْبَارَهُمْ walk behind them [lit. follow their backs]; *<br><br>(4:47) نَطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَى أَدْبَارِهَا We deprive a [few] people of [Our] direction, turning them on their heels, or, We shame them and frustrate their hopes [lit. We obliterate faces and turn them upon their backs] II [adverbially] at the end, closely after <br><br>(50:40) وَمِنَ اللَّيْلِ فَسَبِّحْهُ وَأَدْبَارَ السُّجُودِ proclaim His praise in the night and at the end of every prayer [lit. prostration].",
+    "mainEntryId": "wdef-د-ب-ر.دُبُرٌ",
+    "entries": [
+      {
+        "id": "wdef-د-ب-ر",
+        "label": "د-ب-ر",
+        "definitionHtml": "د/ب/ر   d–b–r back, backside, buttocks, the tail end, to turn one’s back<br>; to boycott; to plan, to arrange, to organise, to prepare; to depart, to die; root, origin. <br><br>Of this root, 11 forms occur 44 times in the Qur’an:<br> يُدَبِّرُ yudabbir 4 times; يَتَدَبَّرُ yatadabbar 2 times; يَدَّبَّرُ yaddabbar 2 times; أَدْبَرَ ʾadbara 4 times; مُدَبِّرَاتٌ mudabbirāt 1 time; مُدْبِرٌ mudbir 2 times; مُدْبِرُون mudbirūn 6 times; إِدْبَارٌ ʾidbār 1 time; دَابِرٌ dābir 4 times; دُبُرٌ dubur 5 times and أَدْبَارٌ ʾadbār 13 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.دُبُرٌ",
+        "label": "دُبُرٌ",
+        "definitionHtml": "دُبُرٌ dubur I [n., pl. ʾadbār] back, backside, end part, the last part <br><br>(12:27) وَإِنْ كَانَ قَمِيصُهُ قُدَّ مِنْ دُبُرٍ فَكَذَبَتْ وَهُوَ مِنَ الصَّادِقِينَ but if his shirt has been torn from the back, then she has lied and he is one of the truthful; *<br><br>(33:15) يُوَلُّونَ الأَدْبَارَ they turn tail; *<br><br>(15:65) اتَّبِعْ أَدْبَارَهُمْ walk behind them [lit. follow their backs]; *<br><br>(4:47) نَطْمِسَ وُجُوهًا فَنَرُدَّهَا عَلَى أَدْبَارِهَا We deprive a [few] people of [Our] direction, turning them on their heels, or, We shame them and frustrate their hopes [lit. We obliterate faces and turn them upon their backs] II [adverbially] at the end, closely after <br><br>(50:40) وَمِنَ اللَّيْلِ فَسَبِّحْهُ وَأَدْبَارَ السُّجُودِ proclaim His praise in the night and at the end of every prayer [lit. prostration].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ب-ر.دَابِرٌ",
+        "label": "دَابِرٌ",
+        "definitionHtml": "دَابِرٌ dābir [n.] origin, root, the last part, the end part <br><br>(7:72) وَقَطَعْنَا دَابِرَ الَّذِينَ كَذَّبُوا بِآيَاتِنَا We cut the roots of those who denied Our revelations.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.إِدْبَارٌ",
+        "label": "إِدْبَارٌ",
+        "definitionHtml": "إِدْبَارٌ ʾidbār [v. n.] (act of) retreating, setting, fading [of stars] <br><br>(52:49) وَمِنَ اللَّيْلِ فَسَبِّحْهُ وَإِدْبَارَ النُّجُوم ِ glorify Him at night and at the fading of the stars.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.أَدْبَرَ",
+        "label": "أَدْبَرَ",
+        "definitionHtml": "أَدْبَرَ ʾadbara [v. IV, intrans.] <br><br><strong>1 </strong>to turn one’s back on, to turn down <br><br>(70:17) تَدْعُوا مَنْ أَدْبَرَ وَتَوَلَّى it will call [claim] the one who turns his back [on the truth] and runs away <br><br><strong>2 </strong>to retreat, to recede <br><br>(74:33) وَاللَّيْلِ إِذْ أَدْبَرَ by the night when it recedes!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.مُدبِرٌ",
+        "label": "مُدبِرٌ",
+        "definitionHtml": "مُدبِرٌ mudbir [act. part., pl. مُدْبِرُون mudbirūn] turning one’s back, turning away, running away, taking to one’s heels <br><br>(27:10) وَأَلْقِ عَصَاكَ فَلَمَّا رَآهَا تَهْتَزُّ كَأَنَّهَا جَانٌّ وَلَّى مُدْبِرًا وَلَمْ يُعَقِّبْ ‘And throw down your staff,’ but when he saw it writhing like a snake (or, a demon), he turned tail and fled, and did not come back.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.مُدَبِّرَاتٌ",
+        "label": "مُدَبِّرَاتٌ",
+        "definitionHtml": "مُدَبِّرَاتٌ mudabbirāt [pl. of fem. act. part. مُدَبِّرَةٌ mudabbiratun] those planning, carrying out, managing, executing <br><br>(79:5) فَالْمُدَبِّرَاتِ أَمْرًا and those bringing the matter to an end!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.يَتَدَبَّرُ",
+        "label": "يَتَدَبَّرُ",
+        "definitionHtml": "يَتَدَبَّرُ yatadabbar [imperf. of v. V تَدَبَّرَ tadabbara, trans.] to contemplate, to ponder upon, to meditate on <br><br>(47:24) أَفَلاَ يَتَدَبَّرُونَ الْقُرْءَانَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا do they not contemplate the Qur’an?, or is it that hearts [still] have their own locks placed upon them?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.يَدَّبَّرُ",
+        "label": "يَدَّبَّرُ",
+        "definitionHtml": "يَدَّبَّرُ yaddabbar [imperf. of v. VIII ادَّبَّرَ ʾiddabbara, an assimilated form of v. اتْدَبَّرَ ʾitdabbara, trans.] to contemplate, to ponder upon, to examine carefully <br><br>(23:68) أَفَلَمْ يَدَّبَّرُوا الْقَوْلَ أَمْ جَاءَهُمْ مَا لَمْ يَأْتِ ءَابَاءَهُمُ الأَوَّلِينَ have they not contemplated the Word [of God]?, or has there come to them something that did not come to their forefathers?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ب-ر.يُدَبِّرُ",
+        "label": "يُدَبِّرُ",
+        "definitionHtml": "يُدَبِّرُ yudabbir [imperf. of v. II دَبَّرَ dabbara, trans.] to manage, to govern, to execute <br><br>(10:31) ... وَمَنْ يُدَبِّرُ الأَمْرَ فَسَيَقُولُونَ اللَّهُ ‘… and who governs everything?’, they are sure to say, ‘God.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:20.075Z",
+      "refword": "3:111:8",
+      "lexword": "ٱلْأَدْبَارَ"
+    }
+  }
+}

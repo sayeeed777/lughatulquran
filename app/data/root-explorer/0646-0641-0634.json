@@ -1,0 +1,106 @@
+{
+  "root": "نفش",
+  "rootArabic": "نفش",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَنْفُوشٌ",
+      "count": 1
+    },
+    {
+      "form": "نَفَشَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَفَشَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنْفُوشٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 78,
+      "text": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "highlightedHtml": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ <a class=\"highlight-text\">نَفَشَتْ</a> فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "derivedForms": [
+        "نَفَشَ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 5,
+      "text": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ ٱلْمَنفُوشِ",
+      "highlightedHtml": "وَتَكُونُ ٱلْجِبَالُ كَٱلْعِهْنِ <a class=\"highlight-text\">ٱلْمَنفُوشِ</a>",
+      "derivedForms": [
+        "مَنْفُوشٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:49.573Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "نَفَشَتْ is in the derivative form: نَفَشَ",
+    "rootDefinitionHtml": "ن/ف/ش   n–f–sh wool, to tease out, to ruffle the feathers, to bristle up, to swell, to scatter over a large area. Some scholars attribute an Aramaic origin to the form مَنْفُوشٌ manfūsh. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَفَشَ nafasha and مَنْفُوشٌ manfūsh.",
+    "mainDefinitionHtml": "نَفَشَ nafasha u [v. intrans.] to disperse, (of animals) to stray into a piece of land for grazing <br><br>(21:78) وَدَاوُدَ وَسُلَيْمَانَ إِذْ يَحْكُمَانِ فِى الْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ الْقَوْمِ and [remember] David and Solomon, when they arbitrated regarding the field into which the sheep of some people strayed [by night] to graze.",
+    "mainEntryId": "wdef-ن-ف-ش.نَفَشَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ف-ش",
+        "label": "ن-ف-ش",
+        "definitionHtml": "ن/ف/ش   n–f–sh wool, to tease out, to ruffle the feathers, to bristle up, to swell, to scatter over a large area. Some scholars attribute an Aramaic origin to the form مَنْفُوشٌ manfūsh. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نَفَشَ nafasha and مَنْفُوشٌ manfūsh.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ف-ش.نَفَشَ",
+        "label": "نَفَشَ",
+        "definitionHtml": "نَفَشَ nafasha u [v. intrans.] to disperse, (of animals) to stray into a piece of land for grazing <br><br>(21:78) وَدَاوُدَ وَسُلَيْمَانَ إِذْ يَحْكُمَانِ فِى الْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ الْقَوْمِ and [remember] David and Solomon, when they arbitrated regarding the field into which the sheep of some people strayed [by night] to graze.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ف-ش.مَنْفُوشٌ",
+        "label": "مَنْفُوشٌ",
+        "definitionHtml": "مَنْفُوشٌ manfūsh [pass. part.] teased out, rarefied, carded, tufted <br><br>(101:5) وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنْفُوشِ and the mountains will be like carded wool.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:51.232Z",
+      "refword": "21:78:8",
+      "lexword": "نَفَشَتْ"
+    }
+  }
+}

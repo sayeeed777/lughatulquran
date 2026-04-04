@@ -1,0 +1,127 @@
+{
+  "root": "حضض",
+  "rootArabic": "حضض",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "يَحُضُّ",
+      "count": 2
+    },
+    {
+      "form": "تَحَاضُّون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحُضُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحَاضُّون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 107,
+      "surahName": "Al-Ma'un",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحُضُّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 69,
+      "ayah": 34,
+      "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">يَحُضُّ</a> عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "derivedForms": [
+        "يَحُضُّ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 18,
+      "text": "وَلَا تَحَٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">تَحَٰٓضُّونَ</a> عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "derivedForms": [
+        "تَحَاضُّون"
+      ]
+    },
+    {
+      "surah": 107,
+      "ayah": 3,
+      "text": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">يَحُضُّ</a> عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+      "derivedForms": [
+        "يَحُضُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:23.298Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَحُضُّ is in the derivative form: يَحُضُّ",
+    "rootDefinitionHtml": "ح/ض/ض   ḥ–ḍ–ḍ foot of a mountain, depth, bottom of a valley; to incite, to encourage, to urge. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَحُضُّ yaḥuḍḍ 2 times and تَحَاضُّون taḥāḍḍūn 1 time.",
+    "mainDefinitionHtml": "يَحُضُّ yaḥuḍḍ [imperf. of v. حَضَّ ḥaḍḍa, trans.] to urge, to instigate, to encourage <br><br>(69:34) وَلاَ يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ he never encouraged feeding the poor.",
+    "mainEntryId": "wdef-ح-ض-ض.يَحُضُّ",
+    "entries": [
+      {
+        "id": "wdef-ح-ض-ض",
+        "label": "ح-ض-ض",
+        "definitionHtml": "ح/ض/ض   ḥ–ḍ–ḍ foot of a mountain, depth, bottom of a valley; to incite, to encourage, to urge. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> يَحُضُّ yaḥuḍḍ 2 times and تَحَاضُّون taḥāḍḍūn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ض-ض.يَحُضُّ",
+        "label": "يَحُضُّ",
+        "definitionHtml": "يَحُضُّ yaḥuḍḍ [imperf. of v. حَضَّ ḥaḍḍa, trans.] to urge, to instigate, to encourage <br><br>(69:34) وَلاَ يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ he never encouraged feeding the poor.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ض-ض.تَحَاضُّون",
+        "label": "تَحَاضُّون",
+        "definitionHtml": "تَحَاضُّون taḥāḍḍūn [imperf. of v. VI تَحَاضَّ taḥāḍḍa, with prefix تـ elided] to urge one another, to encourage one another <br><br>(89:18) وَلاَ تَحَاضُّونَ عَلَى طَعَامِ الْمِسْكِينِ and you do not urge one another to feed the poor.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:12.725Z",
+      "refword": "69:34:2",
+      "lexword": "يَحُضُّ"
+    }
+  }
+}

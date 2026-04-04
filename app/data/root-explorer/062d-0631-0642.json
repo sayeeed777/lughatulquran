@@ -1,0 +1,252 @@
+{
+  "root": "حرق",
+  "rootArabic": "حرق",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "حَرِيقٌ",
+      "count": 5
+    },
+    {
+      "form": "نُحَرِّقُ",
+      "count": 3
+    },
+    {
+      "form": "احْتَرَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "احْتَرَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِيقٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِيقٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُحَرِّقُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُحَرِّقُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَرِيقٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُحَرِّقُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرِيقٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 266,
+      "text": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ فَٱحْتَرَقَتْ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+      "highlightedHtml": "أَيَوَدُّ أَحَدُكُمْ أَن تَكُونَ لَهُۥ جَنَّةٌ مِّن نَّخِيلٍ وَأَعْنَابٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ لَهُۥ فِيهَا مِن كُلِّ ٱلثَّمَرَٰتِ وَأَصَابَهُ ٱلْكِبَرُ وَلَهُۥ ذُرِّيَّةٌ ضُعَفَآءُ فَأَصَابَهَآ إِعْصَارٌ فِيهِ نَارٌ <a class=\"highlight-text\">فَٱحْتَرَقَتْ</a> ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+      "derivedForms": [
+        "احْتَرَقَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 181,
+      "text": "لَّقَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَآءُ ۘ سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "highlightedHtml": "لَّقَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ فَقِيرٌ وَنَحْنُ أَغْنِيَآءُ ۘ سَنَكْتُبُ مَا قَالُوا۟ وَقَتْلَهُمُ ٱلْأَنۢبِيَآءَ بِغَيْرِ حَقٍّ وَنَقُولُ ذُوقُوا۟ عَذَابَ <a class=\"highlight-text\">ٱلْحَرِيقِ</a>",
+      "derivedForms": [
+        "حَرِيقٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 50,
+      "text": "وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذْ يَتَوَفَّى ٱلَّذِينَ كَفَرُوا۟ ۙ ٱلْمَلَٰٓئِكَةُ يَضْرِبُونَ وُجُوهَهُمْ وَأَدْبَٰرَهُمْ وَذُوقُوا۟ عَذَابَ <a class=\"highlight-text\">ٱلْحَرِيقِ</a>",
+      "derivedForms": [
+        "حَرِيقٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 97,
+      "text": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "highlightedHtml": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ <a class=\"highlight-text\">لَّنُحَرِّقَنَّهُۥ</a> ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "derivedForms": [
+        "نُحَرِّقُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 68,
+      "text": "قَالُوا۟ حَرِّقُوهُ وَٱنصُرُوٓا۟ آلِهَتَكُمْ إِن كُنتُمْ فَٰعِلِينَ",
+      "highlightedHtml": "قَالُوا۟ <a class=\"highlight-text\">حَرِّقُوهُ</a> وَٱنصُرُوٓا۟ آلِهَتَكُمْ إِن كُنتُمْ فَٰعِلِينَ",
+      "derivedForms": [
+        "نُحَرِّقُ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 9,
+      "text": "ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌ ۖ وَنُذِيقُهُۥ يَوْمَ ٱلْقِيَٰمَةِ عَذَابَ ٱلْحَرِيقِ",
+      "highlightedHtml": "ثَانِىَ عِطْفِهِۦ لِيُضِلَّ عَن سَبِيلِ ٱللَّهِ ۖ لَهُۥ فِى ٱلدُّنْيَا خِزْىٌ ۖ وَنُذِيقُهُۥ يَوْمَ ٱلْقِيَٰمَةِ عَذَابَ <a class=\"highlight-text\">ٱلْحَرِيقِ</a>",
+      "derivedForms": [
+        "حَرِيقٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 22,
+      "text": "كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَا مِنْ غَمٍّ أُعِيدُوا۟ فِيهَا وَذُوقُوا۟ عَذَابَ ٱلْحَرِيقِ",
+      "highlightedHtml": "كُلَّمَآ أَرَادُوٓا۟ أَن يَخْرُجُوا۟ مِنْهَا مِنْ غَمٍّ أُعِيدُوا۟ فِيهَا وَذُوقُوا۟ عَذَابَ <a class=\"highlight-text\">ٱلْحَرِيقِ</a>",
+      "derivedForms": [
+        "حَرِيقٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 24,
+      "text": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ <a class=\"highlight-text\">حَرِّقُوهُ</a> فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "نُحَرِّقُ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 10,
+      "text": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ <a class=\"highlight-text\">ٱلْحَرِيقِ</a>",
+      "derivedForms": [
+        "حَرِيقٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:59.409Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VIII) perfect verb",
+    "derivativeNote": "فَٱحْتَرَقَتْ is in the derivative form: احْتَرَقَ",
+    "rootDefinitionHtml": "ح/ر/ق   ḥ–r–q fire, flame, to burn, to scorch<br>; to eradicate; to erode, to file away; to be bad‐tempered; to long for; palm‐tree pollen. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نُحَرِّقُ nuḥarriq 3 times; احْتَرَقَ ʾiḥtaraqa 11 times and حَرِيق ḥarıq 5 times.",
+    "mainDefinitionHtml": "احْتَرَقَ ʾiḥtaraqa [v. VIII, intrans.] to burn away <br><br>(2:266) فَأَصَابَهَا إِعْصَارٌ فِيهِ نَارٌ فَاحْتَرَقَتْ then a fiery whirlwind struck it and it burnt away.",
+    "mainEntryId": "wdef-ح-ر-ق.احْتَرَقَ",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ق",
+        "label": "ح-ر-ق",
+        "definitionHtml": "ح/ر/ق   ḥ–r–q fire, flame, to burn, to scorch<br>; to eradicate; to erode, to file away; to be bad‐tempered; to long for; palm‐tree pollen. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> نُحَرِّقُ nuḥarriq 3 times; احْتَرَقَ ʾiḥtaraqa 11 times and حَرِيق ḥarıq 5 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ق.احْتَرَقَ",
+        "label": "احْتَرَقَ",
+        "definitionHtml": "احْتَرَقَ ʾiḥtaraqa [v. VIII, intrans.] to burn away <br><br>(2:266) فَأَصَابَهَا إِعْصَارٌ فِيهِ نَارٌ فَاحْتَرَقَتْ then a fiery whirlwind struck it and it burnt away.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ر-ق.حَرِيقٌ",
+        "label": "حَرِيقٌ",
+        "definitionHtml": "حَرِيقٌ ḥarıq [v. n./n.] the act of burning/fire <br><br>(85:10) وَلَهُمْ عَذَابُ الْحَرِيقِ and for them is the chastisement of burning.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ق.نُحَرِّقُ",
+        "label": "نُحَرِّقُ",
+        "definitionHtml": "نُحَرِّقُ nuḥarriq [imperf. of v. II حَرَّق ḥarraqa, trans.] <br><br><strong>1 </strong>to torch, to burn <br><br>(21:68) قَالُوا حَرِّقُوهُ وَانْصُرُوا ءَالِهَتَكُمْ they said, ‘Burn him and avenge your gods’ <br><br><strong>2 </strong>(possibly) to abrade, to wear down by rubbing, to scrape away, to rub away into powder <br><br>(20:97) وَانْظُرْ إِلَى إِلَهِكَ الَّذِي ظَلْتَ عَلَيْهِ عَاكِفًا لَنُحَرِّقَنَّهُ ثُمَّ لَنَنْسِفَنَّهُ فِى الْيَمِّ نَسْفًا and look at your god to which you have remained devoted–we will grind it down and blow its dust into the sea.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:30.242Z",
+      "refword": "2:266:28",
+      "lexword": "فَٱحْتَرَقَتْ"
+    }
+  }
+}

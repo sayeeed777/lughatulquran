@@ -1,0 +1,121 @@
+{
+  "root": "زول",
+  "rootArabic": "زول",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "زالَ",
+      "count": 3
+    },
+    {
+      "form": "زَوال",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زالَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "زَوال",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زالَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 44,
+      "text": "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَا إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن زَوَالٍ",
+      "highlightedHtml": "وَأَنذِرِ ٱلنَّاسَ يَوْمَ يَأْتِيهِمُ ٱلْعَذَابُ فَيَقُولُ ٱلَّذِينَ ظَلَمُوا۟ رَبَّنَآ أَخِّرْنَا إِلَىٰٓ أَجَلٍ قَرِيبٍ نُّجِبْ دَعْوَتَكَ وَنَتَّبِعِ ٱلرُّسُلَ ۗ أَوَلَمْ تَكُونُوٓا۟ أَقْسَمْتُم مِّن قَبْلُ مَا لَكُم مِّن <a class=\"highlight-text\">زَوَالٍ</a>",
+      "derivedForms": [
+        "زَوال"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 46,
+      "text": "وَقَدْ مَكَرُوا۟ مَكْرَهُمْ وَعِندَ ٱللَّهِ مَكْرُهُمْ وَإِن كَانَ مَكْرُهُمْ لِتَزُولَ مِنْهُ ٱلْجِبَالُ",
+      "highlightedHtml": "وَقَدْ مَكَرُوا۟ مَكْرَهُمْ وَعِندَ ٱللَّهِ مَكْرُهُمْ وَإِن كَانَ مَكْرُهُمْ <a class=\"highlight-text\">لِتَزُولَ</a> مِنْهُ ٱلْجِبَالُ",
+      "derivedForms": [
+        "زالَ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 41,
+      "text": "إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ أَن تَزُولَا ۚ وَلَئِن زَالَتَآ إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّنۢ بَعْدِهِۦٓ ۚ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُمْسِكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ أَن <a class=\"highlight-text\">تَزُولَا</a> ۚ وَلَئِن <a class=\"highlight-text\">زَالَتَآ</a> إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِّنۢ بَعْدِهِۦٓ ۚ إِنَّهُۥ كَانَ حَلِيمًا غَفُورًا",
+      "derivedForms": [
+        "زالَ",
+        "زالَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:19.768Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "زَوَالٍ is in the derivative form: زَوال",
+    "rootDefinitionHtml": "ز/و/ل   z–w–l to disappear, to go away, to cease, to vanish; to abate, to calm down; to practise. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> زالَ zāla 3 times and زَوال zawāl 1 time.",
+    "mainDefinitionHtml": "زَوال zawāl [v. n.] vanishing, extinction, end, ending <br><br>(14:44) أَوَلَمْ تَكُونُوا أَقْسَمْتُمْ مِنْ قَبْلُ مَا لَكُمْ مِنْ زَوَالٍ did you not swear before that there would be no ending for you?",
+    "mainEntryId": "wdef-ز-و-ل.زَوال",
+    "entries": [
+      {
+        "id": "wdef-ز-و-ل",
+        "label": "ز-و-ل",
+        "definitionHtml": "ز/و/ل   z–w–l to disappear, to go away, to cease, to vanish; to abate, to calm down; to practise. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> زالَ zāla 3 times and زَوال zawāl 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-و-ل.زَوال",
+        "label": "زَوال",
+        "definitionHtml": "زَوال zawāl [v. n.] vanishing, extinction, end, ending <br><br>(14:44) أَوَلَمْ تَكُونُوا أَقْسَمْتُمْ مِنْ قَبْلُ مَا لَكُمْ مِنْ زَوَالٍ did you not swear before that there would be no ending for you?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-و-ل.زالَ",
+        "label": "زالَ",
+        "definitionHtml": "زالَ zāla u [v. intrans.] to disappear, to vanish, to collapse <br><br>(35:41) إِنَّ اللَّهَ يُمْسِكُ السَّمَوَاتِ وَالأَرْضَ أَنْ تَزُولاَ وَلَئِنْ زَالَتَا إِنْ أَمْسَكَهُمَا مِنْ أَحَدٍ مِنْ بَعْدِهِ God keeps/holds the heavens and earth lest they vanish; if they did vanish, no one else thereafter could keep/hold them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:47.860Z",
+      "refword": "14:44:26",
+      "lexword": "زَوَالٍ"
+    }
+  }
+}

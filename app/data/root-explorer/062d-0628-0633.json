@@ -1,0 +1,95 @@
+{
+  "root": "حبس",
+  "rootArabic": "حبس",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "يَحْبِسُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحْبِسُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحْبِسُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 106,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ آخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ تَحْبِسُونَهُمَا مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْءَاثِمِينَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا شَهَٰدَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ حِينَ ٱلْوَصِيَّةِ ٱثْنَانِ ذَوَا عَدْلٍ مِّنكُمْ أَوْ آخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنتُمْ ضَرَبْتُمْ فِى ٱلْأَرْضِ فَأَصَٰبَتْكُم مُّصِيبَةُ ٱلْمَوْتِ ۚ <a class=\"highlight-text\">تَحْبِسُونَهُمَا</a> مِنۢ بَعْدِ ٱلصَّلَوٰةِ فَيُقْسِمَانِ بِٱللَّهِ إِنِ ٱرْتَبْتُمْ لَا نَشْتَرِى بِهِۦ ثَمَنًا وَلَوْ كَانَ ذَا قُرْبَىٰ ۙ وَلَا نَكْتُمُ شَهَٰدَةَ ٱللَّهِ إِنَّآ إِذًا لَّمِنَ ٱلْءَاثِمِينَ",
+      "derivedForms": [
+        "يَحْبِسُ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 8,
+      "text": "وَلَئِنْ أَخَّرْنَا عَنْهُمُ ٱلْعَذَابَ إِلَىٰٓ أُمَّةٍ مَّعْدُودَةٍ لَّيَقُولُنَّ مَا يَحْبِسُهُۥٓ ۗ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "highlightedHtml": "وَلَئِنْ أَخَّرْنَا عَنْهُمُ ٱلْعَذَابَ إِلَىٰٓ أُمَّةٍ مَّعْدُودَةٍ لَّيَقُولُنَّ مَا <a class=\"highlight-text\">يَحْبِسُهُۥٓ</a> ۗ أَلَا يَوْمَ يَأْتِيهِمْ لَيْسَ مَصْرُوفًا مَصْرُوفًا عَنْهُمْ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
+      "derivedForms": [
+        "يَحْبِسُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:41.901Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "تَحْبِسُونَهُمَا is in the derivative form: يَحْبِسُ",
+    "rootDefinitionHtml": "ح/ب/س   ḥ–b–s to detain, to restrict, to confine, prison; to endow. Of this root, يَحْبِسُ yaḥbis occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَحْبِسُ yaḥbis [imperf. of v. حَبَس ḥabasa, trans.] <br><br><strong>1 </strong>to delay, to stop from happening <br><br>(11:8) وَلَئِنْ أَخَّرْنَا عَنْهُمُ الْعَذَابَ إِلَى أُمَّةٍ مَعْدُودَةٍ لَيَقُولُنَّ مَا يَحْبِسُهُ and if We delay the chastisement till a reckoned time they are sure to say, ‘What is delaying it?’ <br><br><strong>2 </strong>[jur.] to detain, to keep back <br><br>(5:106) يَاأَيُّهَا الَّذِينَ ءَامَنُوا شَهَادَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ الْمَوْتُ حِينَ الْوَصِيَّةِ اثْنَانِ ذَوَا عَدْلٍ مِنْكُمْ أَوْ ءَاخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنْتُمْ ضَرَبْتُمْ فِى الأَرْضِ فَأَصَابَتْكُمْ مُصِيبَةُ الْمَوْتِ تَحْبِسُونَهُمَا مِنْ بَعْدِ الصَّلاَةِ you who believe, the method of testifying among you when death approaches any of you and you are making a bequest, is to let two just men of your own people act as witnesses, or let two men from another people, if you are journeying in the land and the calamity of death afflicts you–you should keep back the two witnesses after prayer.",
+    "mainEntryId": "wdef-ح-ب-س.يَحْبِسُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ب-س",
+        "label": "ح-ب-س",
+        "definitionHtml": "ح/ب/س   ḥ–b–s to detain, to restrict, to confine, prison; to endow. Of this root, يَحْبِسُ yaḥbis occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ب-س.يَحْبِسُ",
+        "label": "يَحْبِسُ",
+        "definitionHtml": "يَحْبِسُ yaḥbis [imperf. of v. حَبَس ḥabasa, trans.] <br><br><strong>1 </strong>to delay, to stop from happening <br><br>(11:8) وَلَئِنْ أَخَّرْنَا عَنْهُمُ الْعَذَابَ إِلَى أُمَّةٍ مَعْدُودَةٍ لَيَقُولُنَّ مَا يَحْبِسُهُ and if We delay the chastisement till a reckoned time they are sure to say, ‘What is delaying it?’ <br><br><strong>2 </strong>[jur.] to detain, to keep back <br><br>(5:106) يَاأَيُّهَا الَّذِينَ ءَامَنُوا شَهَادَةُ بَيْنِكُمْ إِذَا حَضَرَ أَحَدَكُمُ الْمَوْتُ حِينَ الْوَصِيَّةِ اثْنَانِ ذَوَا عَدْلٍ مِنْكُمْ أَوْ ءَاخَرَانِ مِنْ غَيْرِكُمْ إِنْ أَنْتُمْ ضَرَبْتُمْ فِى الأَرْضِ فَأَصَابَتْكُمْ مُصِيبَةُ الْمَوْتِ تَحْبِسُونَهُمَا مِنْ بَعْدِ الصَّلاَةِ you who believe, the method of testifying among you when death approaches any of you and you are making a bequest, is to let two just men of your own people act as witnesses, or let two men from another people, if you are journeying in the land and the calamity of death afflicts you–you should keep back the two witnesses after prayer.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:56.409Z",
+      "refword": "5:106:28",
+      "lexword": "تَحْبِسُونَهُمَا"
+    }
+  }
+}

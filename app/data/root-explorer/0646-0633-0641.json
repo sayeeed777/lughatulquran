@@ -1,0 +1,133 @@
+{
+  "root": "نسف",
+  "rootArabic": "نسف",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَسَفَ",
+      "count": 2
+    },
+    {
+      "form": "نَسْفٌ",
+      "count": 2
+    },
+    {
+      "form": "نُسِفَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "نَسَفَ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "نَسْفٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُسِفَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 97,
+      "text": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "highlightedHtml": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ <a class=\"highlight-text\">لَنَنسِفَنَّهُۥ</a> فِى ٱلْيَمِّ <a class=\"highlight-text\">نَسْفًا</a>",
+      "derivedForms": [
+        "نَسَفَ",
+        "نَسْفٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 105,
+      "text": "وَيَسْـَٔلُونَكَ عَنِ ٱلْجِبَالِ فَقُلْ يَنسِفُهَا رَبِّى نَسْفًا",
+      "highlightedHtml": "وَيَسْـَٔلُونَكَ عَنِ ٱلْجِبَالِ فَقُلْ <a class=\"highlight-text\">يَنسِفُهَا</a> رَبِّى <a class=\"highlight-text\">نَسْفًا</a>",
+      "derivedForms": [
+        "نَسَفَ",
+        "نَسْفٌ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 10,
+      "text": "وَإِذَا ٱلْجِبَالُ نُسِفَتْ",
+      "highlightedHtml": "وَإِذَا ٱلْجِبَالُ <a class=\"highlight-text\">نُسِفَتْ</a>",
+      "derivedForms": [
+        "نُسِفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:18.805Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural imperfect verb",
+    "derivativeNote": "لَنَنسِفَنَّهُۥ is in the derivative form: نَسَفَ",
+    "rootDefinitionHtml": "ن/س/ف   n–s–f to obliterate, to erase, to scatter, to uproot, to cause to collapse<br>; to sift, to sieve, to winnow. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> نَسَفَ nasafa 2 times; نُسِفَ nusifa 1 time and نَسْفٌ nasf 2 times.",
+    "mainDefinitionHtml": "نَسَفَ nasafa i [v. trans.] to pulverise, to eradicate, to scatter <br><br>(20:97) لَنُحَرِّقَنَّهُ ثُمَّ لَنَنْسِفَنَّهُ فِى الْيَمِّ نَسْفًا we will grind it [into dust] and scatter it into the sea.",
+    "mainEntryId": "wdef-ن-س-ف.نَسَفَ",
+    "entries": [
+      {
+        "id": "wdef-ن-س-ف",
+        "label": "ن-س-ف",
+        "definitionHtml": "ن/س/ف   n–s–f to obliterate, to erase, to scatter, to uproot, to cause to collapse<br>; to sift, to sieve, to winnow. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> نَسَفَ nasafa 2 times; نُسِفَ nusifa 1 time and نَسْفٌ nasf 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-ف.نَسَفَ",
+        "label": "نَسَفَ",
+        "definitionHtml": "نَسَفَ nasafa i [v. trans.] to pulverise, to eradicate, to scatter <br><br>(20:97) لَنُحَرِّقَنَّهُ ثُمَّ لَنَنْسِفَنَّهُ فِى الْيَمِّ نَسْفًا we will grind it [into dust] and scatter it into the sea.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-س-ف.نَسْفٌ",
+        "label": "نَسْفٌ",
+        "definitionHtml": "نَسْفٌ nasf [v. n.] (the act of) obliterating, reducing to dust, scattering around <br><br>(20:105) وَيَسْأَلُونَكَ عَنِ الْجِبَالِ فَقُلْ يَنْسِفُهَا رَبِّي نَسْفًا they will ask you [Prophet] about the mountains: say, ‘[On that Day] my Lord will blast them to dust.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-س-ف.نُسِفَ",
+        "label": "نُسِفَ",
+        "definitionHtml": "نُسِفَ nusifa [pass. v.] to be pulverised, to be obliterated, to be uprooted, to be reduced to dust, to be scattered around <br><br>(77:10) وَإِذَا الْجِبَالُ نُسِفَتْ when the mountains are turned to dust.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:53.340Z",
+      "refword": "20:97:25",
+      "lexword": "لَنَنسِفَنَّهُۥ"
+    }
+  }
+}

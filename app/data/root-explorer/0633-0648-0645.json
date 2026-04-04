@@ -1,0 +1,367 @@
+{
+  "root": "سوم",
+  "rootArabic": "سوم",
+  "stats": {
+    "totalOccurrences": 15,
+    "derivativeCount": 5,
+    "surahCount": 10,
+    "ayahCount": 15
+  },
+  "derivatives": [
+    {
+      "form": "سيما",
+      "count": 6
+    },
+    {
+      "form": "يَسوم",
+      "count": 4
+    },
+    {
+      "form": "مُسَوَّم",
+      "count": 3
+    },
+    {
+      "form": "تُسيمون",
+      "count": 1
+    },
+    {
+      "form": "مُسَوِّم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سيما",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَسوم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُسَوَّم",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "مُسَوِّم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "سيما",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَسوم",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسَوَّم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسوم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُسيمون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سيما",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سيما",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسَوَّم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سيما",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 49,
+      "text": "وَإِذْ نَجَّيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "highlightedHtml": "وَإِذْ نَجَّيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ <a class=\"highlight-text\">يَسُومُونَكُمْ</a> سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "derivedForms": [
+        "يَسوم"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 273,
+      "text": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "highlightedHtml": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم <a class=\"highlight-text\">بِسِيمَٰهُمْ</a> لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "derivedForms": [
+        "سيما"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 14,
+      "text": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "highlightedHtml": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ <a class=\"highlight-text\">ٱلْمُسَوَّمَةِ</a> وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "derivedForms": [
+        "مُسَوَّم"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 125,
+      "text": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ مُسَوِّمِينَ",
+      "highlightedHtml": "بَلَىٰٓ ۚ إِن تَصْبِرُوا۟ وَتَتَّقُوا۟ وَيَأْتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ آلَافٍ مِّنَ ٱلْمَلَٰٓئِكَةِ <a class=\"highlight-text\">مُسَوِّمِينَ</a>",
+      "derivedForms": [
+        "مُسَوِّم"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 46,
+      "text": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّۢا بِسِيمَىٰهُمْ ۚ وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ",
+      "highlightedHtml": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّۢا <a class=\"highlight-text\">بِسِيمَىٰهُمْ</a> ۚ وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ",
+      "derivedForms": [
+        "سيما"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 48,
+      "text": "وَنَادَىٰٓ أَصْحَٰبُ ٱلْأَعْرَافِ رِجَالًا يَعْرِفُونَهُم بِسِيمَىٰهُمْ قَالُوا۟ مَآ أَغْنَىٰ عَنكُمْ جَمْعُكُمْ وَمَا كُنتُمْ تَسْتَكْبِرُونَ",
+      "highlightedHtml": "وَنَادَىٰٓ أَصْحَٰبُ ٱلْأَعْرَافِ رِجَالًا يَعْرِفُونَهُم <a class=\"highlight-text\">بِسِيمَىٰهُمْ</a> قَالُوا۟ مَآ أَغْنَىٰ عَنكُمْ جَمْعُكُمْ وَمَا كُنتُمْ تَسْتَكْبِرُونَ",
+      "derivedForms": [
+        "سيما"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 141,
+      "text": "وَإِذْ أَنجَيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ ۖ يُقَتِّلُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "highlightedHtml": "وَإِذْ أَنجَيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ <a class=\"highlight-text\">يَسُومُونَكُمْ</a> سُوٓءَ ٱلْعَذَابِ ۖ يُقَتِّلُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "derivedForms": [
+        "يَسوم"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 167,
+      "text": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَن يَسُومُهُمْ سُوٓءَ ٱلْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ ٱلْعِقَابِ ۖ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "وَإِذْ تَأَذَّنَ رَبُّكَ لَيَبْعَثَنَّ عَلَيْهِمْ إِلَىٰ يَوْمِ ٱلْقِيَٰمَةِ مَن <a class=\"highlight-text\">يَسُومُهُمْ</a> سُوٓءَ ٱلْعَذَابِ ۗ إِنَّ رَبَّكَ لَسَرِيعُ ٱلْعِقَابِ ۖ وَإِنَّهُۥ لَغَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يَسوم"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 83,
+      "text": "مُّسَوَّمَةً عِندَ رَبِّكَ ۖ وَمَا هِىَ مِنَ ٱلظَّٰلِمِينَ بِبَعِيدٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">مُّسَوَّمَةً</a> عِندَ رَبِّكَ ۖ وَمَا هِىَ مِنَ ٱلظَّٰلِمِينَ بِبَعِيدٍ",
+      "derivedForms": [
+        "مُسَوَّم"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 6,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ آلِ فِرْعَوْنَ <a class=\"highlight-text\">يَسُومُونَكُمْ</a> سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "derivedForms": [
+        "يَسوم"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 10,
+      "text": "هُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً ۖ لَّكُم مِّنْهُ شَرَابٌ وَمِنْهُ شَجَرٌ فِيهِ تُسِيمُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً ۖ لَّكُم مِّنْهُ شَرَابٌ وَمِنْهُ شَجَرٌ فِيهِ <a class=\"highlight-text\">تُسِيمُونَ</a>",
+      "derivedForms": [
+        "تُسيمون"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 30,
+      "text": "وَلَوْ نَشَآءُ لَأَرَيْنَٰكَهُمْ فَلَعَرَفْتَهُم بِسِيمَٰهُمْ ۚ وَلَتَعْرِفَنَّهُمْ فِى لَحْنِ ٱلْقَوْلِ ۚ وَٱللَّهُ يَعْلَمُ أَعْمَٰلَكُمْ",
+      "highlightedHtml": "وَلَوْ نَشَآءُ لَأَرَيْنَٰكَهُمْ فَلَعَرَفْتَهُم <a class=\"highlight-text\">بِسِيمَٰهُمْ</a> ۚ وَلَتَعْرِفَنَّهُمْ فِى لَحْنِ ٱلْقَوْلِ ۚ وَٱللَّهُ يَعْلَمُ أَعْمَٰلَكُمْ",
+      "derivedForms": [
+        "سيما"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ <a class=\"highlight-text\">سِيمَاهُمْ</a> فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "سيما"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 34,
+      "text": "مُّسَوَّمَةً عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">مُّسَوَّمَةً</a> عِندَ رَبِّكَ لِلْمُسْرِفِينَ",
+      "derivedForms": [
+        "مُسَوَّم"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 41,
+      "text": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+      "highlightedHtml": "يُعْرَفُ ٱلْمُجْرِمُونَ <a class=\"highlight-text\">بِسِيمَٰهُمْ</a> فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+      "derivedForms": [
+        "سيما"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:45.130Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَسُومُونَكُمْ is in the derivative form: يَسوم",
+    "rootDefinitionHtml": "س/و/م   s–w–m to offer goods for sale, to estimate the value of goods<br>; to push along; to graze; to hover, to circle around; to brand. The philologist’s deriving of سيما sımā, mark, from this root in connection with وَسْم wasm, to brand, has been contested. Instead a foreign origin, Greek through Persian, has been suggested for it. <br><br>Of this root, 5 forms occur 15 times in the Qur’an:<br> يَسوم yasūm 4 times; تُسيمون tusımūn 1 time; مُسَوِّمين musawwimın 1 time; مُسَوَّمَةٌ musawwamatun 3 times and سيماهُم sımāhum 6 times.",
+    "mainDefinitionHtml": "يَسوم yasūm [imperf. of v. trans.] to torment, to inflict <br><br>(7:167) لَيَبْعَثَنَّ عَلَيْهِمْ إِلَى يَوْمِ الْقِيَامَةِ مَنْ يَسُومُهُمْ سُوءَ الْعَذَابِ He would place over them until the Day of Resurrection someone who would inflict on them terrible punishment.",
+    "mainEntryId": "wdef-س-و-م.يَسوم",
+    "entries": [
+      {
+        "id": "wdef-س-و-م",
+        "label": "س-و-م",
+        "definitionHtml": "س/و/م   s–w–m to offer goods for sale, to estimate the value of goods<br>; to push along; to graze; to hover, to circle around; to brand. The philologist’s deriving of سيما sımā, mark, from this root in connection with وَسْم wasm, to brand, has been contested. Instead a foreign origin, Greek through Persian, has been suggested for it. <br><br>Of this root, 5 forms occur 15 times in the Qur’an:<br> يَسوم yasūm 4 times; تُسيمون tusımūn 1 time; مُسَوِّمين musawwimın 1 time; مُسَوَّمَةٌ musawwamatun 3 times and سيماهُم sımāhum 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-م.يَسوم",
+        "label": "يَسوم",
+        "definitionHtml": "يَسوم yasūm [imperf. of v. trans.] to torment, to inflict <br><br>(7:167) لَيَبْعَثَنَّ عَلَيْهِمْ إِلَى يَوْمِ الْقِيَامَةِ مَنْ يَسُومُهُمْ سُوءَ الْعَذَابِ He would place over them until the Day of Resurrection someone who would inflict on them terrible punishment.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-و-م.تُسيمون",
+        "label": "تُسيمون",
+        "definitionHtml": "تُسيمون tusımūn [imperf. of v. IV, trans] to turn out to graze <br><br>(16:10) وَمِنْهُ شَجَرٌ فِيهِ تُسِيمُونَ and the trees in which you send your animals to graze.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-م.سيما",
+        "label": "سيما",
+        "definitionHtml": "سيما sımā [n.] a distinguishing mark <br><br>(7:48) وَنَادَى أَصْحَابُ الأَعْرَافِ رِجَالا يَعْرِفُونَهُمْ بِسِيمَاهُمْ and the people of the heights will call out to [certain] men they recognise by their marks.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-م.مُسَوَّم",
+        "label": "مُسَوَّم",
+        "definitionHtml": "مُسَوَّم musawwam [pass. part. of v. II] marked out, specified, singled out <br><br>(51:34) مُسَوَّمَةً عِنْدَ رَبِّكَ لِلْمُسْرِفِينَ selected by your Lord for those who exceed all bounds.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-و-م.مُسَوِّم",
+        "label": "مُسَوِّم",
+        "definitionHtml": "مُسَوِّم musawwim [act. part. of v. II] (one) marking out (something or someone) for distinction; swooping down <br><br>(3:125) يُمْدِدْكُمْ رَبُّكُمْ بِخَمْسَةِ ءَالاَفٍ مِنَ الْمَلاَئِكَةِ مُسَوِّمِينَ your Lord will reinforce you with five thousand angels [coming] swooping down.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:34.124Z",
+      "refword": "2:49:6",
+      "lexword": "يَسُومُونَكُمْ"
+    }
+  }
+}

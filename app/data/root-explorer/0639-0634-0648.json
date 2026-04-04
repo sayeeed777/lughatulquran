@@ -1,0 +1,351 @@
+{
+  "root": "عشو",
+  "rootArabic": "عشو",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 4,
+    "surahCount": 11,
+    "ayahCount": 14
+  },
+  "derivatives": [
+    {
+      "form": "عَشِيٌّ",
+      "count": 10
+    },
+    {
+      "form": "عِشَاءٌ",
+      "count": 2
+    },
+    {
+      "form": "عَشِيَّةٌ",
+      "count": 1
+    },
+    {
+      "form": "يَعْشُو",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِشَاءٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِشَاءٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَشِيٌّ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَعْشُو",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَشِيَّةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 41,
+      "text": "قَالَ رَبِّ ٱجْعَل لِّىٓ آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "highlightedHtml": "قَالَ رَبِّ ٱجْعَل لِّىٓ آيَةً ۖ قَالَ آيَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ <a class=\"highlight-text\">بِٱلْعَشِىِّ</a> وَٱلْإِبْكَٰرِ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 52,
+      "text": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ <a class=\"highlight-text\">وَٱلْعَشِىِّ</a> يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 16,
+      "text": "وَجَآءُوٓ أَبَاهُمْ عِشَآءً يَبْكُونَ",
+      "highlightedHtml": "وَجَآءُوٓ أَبَاهُمْ <a class=\"highlight-text\">عِشَآءً</a> يَبْكُونَ",
+      "derivedForms": [
+        "عِشَاءٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 28,
+      "text": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
+      "highlightedHtml": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ <a class=\"highlight-text\">وَٱلْعَشِىِّ</a> يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 11,
+      "text": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ بُكْرَةً وَعَشِيًّا",
+      "highlightedHtml": "فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ بُكْرَةً <a class=\"highlight-text\">وَعَشِيًّا</a>",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 62,
+      "text": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
+      "highlightedHtml": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً <a class=\"highlight-text\">وَعَشِيًّا</a>",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 58,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ۚ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ <a class=\"highlight-text\">ٱلْعِشَآءِ</a> ۚ ثَلَٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "عِشَاءٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 18,
+      "text": "وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَعَشِيًّا وَحِينَ تُظْهِرُونَ",
+      "highlightedHtml": "وَلَهُ ٱلْحَمْدُ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ <a class=\"highlight-text\">وَعَشِيًّا</a> وَحِينَ تُظْهِرُونَ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 18,
+      "text": "إِنَّا سَخَّرْنَا ٱلْجِبَالَ مَعَهُۥ يُسَبِّحْنَ بِٱلْعَشِىِّ وَٱلْإِشْرَاقِ",
+      "highlightedHtml": "إِنَّا سَخَّرْنَا ٱلْجِبَالَ مَعَهُۥ يُسَبِّحْنَ <a class=\"highlight-text\">بِٱلْعَشِىِّ</a> وَٱلْإِشْرَاقِ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 31,
+      "text": "إِذْ عُرِضَ عَلَيْهِ بِٱلْعَشِىِّ ٱلصَّٰفِنَٰتُ ٱلْجِيَادُ ٱلْجِيَادُ",
+      "highlightedHtml": "إِذْ عُرِضَ عَلَيْهِ <a class=\"highlight-text\">بِٱلْعَشِىِّ</a> ٱلصَّٰفِنَٰتُ ٱلْجِيَادُ ٱلْجِيَادُ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 46,
+      "text": "ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا غُدُوًّا وَعَشِيًّا ۖ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوٓا۟ آلَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ",
+      "highlightedHtml": "ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا غُدُوًّا <a class=\"highlight-text\">وَعَشِيًّا</a> ۖ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوٓا۟ آلَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 55,
+      "text": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ بِٱلْعَشِىِّ وَٱلْإِبْكَٰرِ",
+      "highlightedHtml": "فَٱصْبِرْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ وَٱسْتَغْفِرْ لِذَنۢبِكَ وَسَبِّحْ بِحَمْدِ رَبِّكَ <a class=\"highlight-text\">بِٱلْعَشِىِّ</a> وَٱلْإِبْكَٰرِ",
+      "derivedForms": [
+        "عَشِيٌّ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 36,
+      "text": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "highlightedHtml": "وَمَن <a class=\"highlight-text\">يَعْشُ</a> عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "derivedForms": [
+        "يَعْشُو"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 46,
+      "text": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا عَشِيَّةً أَوْ ضُحَىٰهَا",
+      "highlightedHtml": "كَأَنَّهُمْ يَوْمَ يَرَوْنَهَا لَمْ يَلْبَثُوٓا۟ إِلَّا <a class=\"highlight-text\">عَشِيَّةً</a> أَوْ ضُحَىٰهَا",
+      "derivedForms": [
+        "عَشِيَّةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:59.708Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "بِٱلْعَشِىِّ is in the derivative form: عَشِيٌّ",
+    "rootDefinitionHtml": "ع/ش/و-ي ʿ–sh–w/y bad eyesight, inability to see at night, to be dim‐sighted, to feel around aimlessly, to veer away from<br>; evening, darkness, to make a distant light at night, to give a night meal. <br><br>Of this root, 4 forms occur 14 times in the Qur’an:<br> يَعْشُو yaʿshū 1 time; عِشَاءٌ ʿishāʾ 2 times; عَشِيٌّ ʿashiyy 10 times (in 1 reading عُشِىّ ʿushiyy 1 time) and عَشِيَّةٌ ʿashiyyatun 1 time.",
+    "mainDefinitionHtml": "عَشِيٌّ ʿashiyy [n.] evening <br><br>(38:18) يُسَبِّحْنَ‏ ‏بِالْعَشِيِّ‏ ‏وَالإِشْرَاقِ‏ to sing the praises at evening and sunrise.",
+    "mainEntryId": "wdef-ع-ش-و-ي.عَشِيٌّ",
+    "entries": [
+      {
+        "id": "wdef-ع-ش-و-ي",
+        "label": "ع-ش-و-ي",
+        "definitionHtml": "ع/ش/و-ي ʿ–sh–w/y bad eyesight, inability to see at night, to be dim‐sighted, to feel around aimlessly, to veer away from<br>; evening, darkness, to make a distant light at night, to give a night meal. <br><br>Of this root, 4 forms occur 14 times in the Qur’an:<br> يَعْشُو yaʿshū 1 time; عِشَاءٌ ʿishāʾ 2 times; عَشِيٌّ ʿashiyy 10 times (in 1 reading عُشِىّ ʿushiyy 1 time) and عَشِيَّةٌ ʿashiyyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ش-و-ي.عَشِيٌّ",
+        "label": "عَشِيٌّ",
+        "definitionHtml": "عَشِيٌّ ʿashiyy [n.] evening <br><br>(38:18) يُسَبِّحْنَ‏ ‏بِالْعَشِيِّ‏ ‏وَالإِشْرَاقِ‏ to sing the praises at evening and sunrise.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ش-و-ي.عَشِيَّةٌ",
+        "label": "عَشِيَّةٌ",
+        "definitionHtml": "عَشِيَّةٌ ʿashiyyatun [n.] an evening <br><br>(79:46) ‏لَمْ‏ ‏يَلْبَثُوا‏ ‏إِلاَّ‏ ‏عَشِيَّةً‏ ‏أَوْ‏ ‏ضُحَاهَا they had not tarried but an evening or the mid‐morning following it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ش-و-ي.عُشِىّ",
+        "label": "عُشِىّ",
+        "definitionHtml": "عُشِىّ ʿushiyy [dimin. of عُشَى ‏ʿushā, pl. of quasi‐act. part. عَشَاء ʿashāʾ] blind, dim‐sighted (in a reading of 12:16) وَجَاءُوا‏ ‏أَبَاهُمْ‏ ‏عُشِيّا ‏يَبْكُونَ‏ and they came to their father [almost] blinded with tears.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ش-و-ي.عِشَاءٌ",
+        "label": "عِشَاءٌ",
+        "definitionHtml": "عِشَاءٌ ʿishāʾ [n., used adverbially] the first part of the night marked by the disappearing of the twilight, evening <br><br>(12:16) وَجَاءُوا‏ ‏أَبَاهُمْ‏ ‏عِشَاءً‏ ‏يَبْكُونَ‏ and they came to their father after nightfall weeping; *<br><br>(24:58) ‏‏ ‏صَلاَةِ‏ ‏الْعِشَاءِ‏the night prayer.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ش-و-ي.يَعْشُو",
+        "label": "يَعْشُو",
+        "definitionHtml": "يَعْشُو yaʿshū [imperf. of v. عَشَى ʿashā intrans., with prep. عَن] to fail to see, to be blinded to <br><br>(43:36) وَمَنْ‏ ‏يَعْشُ‏ ‏عَنْ‏ ‏ذِكْرِ‏ ‏الرَّحْمَنِ‏ and whoever is blind to the remembrance of the Lord of Mercy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:42.394Z",
+      "refword": "3:41:19",
+      "lexword": "بِٱلْعَشِىِّ"
+    }
+  }
+}

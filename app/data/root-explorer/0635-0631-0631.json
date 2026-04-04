@@ -1,0 +1,194 @@
+{
+  "root": "صرر",
+  "rootArabic": "صرر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أصَرَّ",
+      "count": 4
+    },
+    {
+      "form": "صِرّ",
+      "count": 1
+    },
+    {
+      "form": "صَرَّة",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أصَرَّ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "صِرّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أصَرَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَرَّة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أصَرَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أصَرَّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 117,
+      "text": "مَثَلُ مَا يُنفِقُونَ فِى هَٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "مَثَلُ مَا يُنفِقُونَ فِى هَٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا <a class=\"highlight-text\">صِرٌّ</a> أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "صِرّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 135,
+      "text": "وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ ذَكَرُوا۟ ٱللَّهَ فَٱسْتَغْفَرُوا۟ لِذُنُوبِهِمْ وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ وَلَمْ يُصِرُّوا۟ عَلَىٰ مَا فَعَلُوا۟ وَهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ إِذَا فَعَلُوا۟ فَٰحِشَةً أَوْ ظَلَمُوٓا۟ أَنفُسَهُمْ ذَكَرُوا۟ ٱللَّهَ فَٱسْتَغْفَرُوا۟ لِذُنُوبِهِمْ وَمَن يَغْفِرُ ٱلذُّنُوبَ إِلَّا ٱللَّهُ وَلَمْ <a class=\"highlight-text\">يُصِرُّوا۟</a> عَلَىٰ مَا فَعَلُوا۟ وَهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "أصَرَّ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 8,
+      "text": "يَسْمَعُ آيَاتِ ٱللَّهِ تُتْلَىٰ عَلَيْهِ ثُمَّ يُصِرُّ مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "يَسْمَعُ آيَاتِ ٱللَّهِ تُتْلَىٰ عَلَيْهِ ثُمَّ <a class=\"highlight-text\">يُصِرُّ</a> مُسْتَكْبِرًا كَأَن لَّمْ يَسْمَعْهَا ۖ فَبَشِّرْهُ بِعَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "أصَرَّ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 29,
+      "text": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+      "highlightedHtml": "فَأَقْبَلَتِ ٱمْرَأَتُهُۥ فِى <a class=\"highlight-text\">صَرَّةٍ</a> فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ",
+      "derivedForms": [
+        "صَرَّة"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 46,
+      "text": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+      "highlightedHtml": "وَكَانُوا۟ <a class=\"highlight-text\">يُصِرُّونَ</a> عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+      "derivedForms": [
+        "أصَرَّ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 7,
+      "text": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
+      "highlightedHtml": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ <a class=\"highlight-text\">وَأَصَرُّوا۟</a> وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
+      "derivedForms": [
+        "أصَرَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:51.531Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite noun",
+    "derivativeNote": "صِرٌّ is in the derivative form: صِرّ",
+    "rootDefinitionHtml": "ص/ر/ر   ṣ–r–r freezing cold, frost<br>; (sound) screeching, grating, creaking; (of a buzzard) to cry; to tie up, to purse, to constrict; to persist. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> أصَرَّ ʾaṣarra 4 times; صِرّ ṣirr 1 time and صَرَّة ṣarratin 1 time.",
+    "mainDefinitionHtml": "صِرّ ṣirr [n.] extreme coldness (also extreme heat) <br><br>(3:117) كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوا أَنْفُسَهُمْ فَأَهْلَكَتْهُ like a wind full of biting cold that strikes and destroys the harvest of a people who have wronged themselves.",
+    "mainEntryId": "wdef-ص-ر-ر.صِرّ",
+    "entries": [
+      {
+        "id": "wdef-ص-ر-ر",
+        "label": "ص-ر-ر",
+        "definitionHtml": "ص/ر/ر   ṣ–r–r freezing cold, frost<br>; (sound) screeching, grating, creaking; (of a buzzard) to cry; to tie up, to purse, to constrict; to persist. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> أصَرَّ ʾaṣarra 4 times; صِرّ ṣirr 1 time and صَرَّة ṣarratin 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-ر.صِرّ",
+        "label": "صِرّ",
+        "definitionHtml": "صِرّ ṣirr [n.] extreme coldness (also extreme heat) <br><br>(3:117) كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوا أَنْفُسَهُمْ فَأَهْلَكَتْهُ like a wind full of biting cold that strikes and destroys the harvest of a people who have wronged themselves.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ر-ر.أصَرَّ",
+        "label": "أصَرَّ",
+        "definitionHtml": "أصَرَّ ʾaṣarra [v. IV, intrans.] to insist, persist <br><br>(45:8) يَسْمَعُ ءَايَاتِ اللَّهِ تُتْلَى عَلَيْهِ ثُمَّ يُصِرُّ مُسْتَكْبِرًا who hears God’s revelations being recited to him, yet persists in his arrogance.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ر-ر.صَرَّة",
+        "label": "صَرَّة",
+        "definitionHtml": "صَرَّة ṣarratin [v. n.] loud cry, great commotion <br><br>(51:29) فَأَقْبَلَتِ امْرَأَتُهُ فِى صَرَّةٍ فَصَكَّتْ وَجْهَهَا وَقَالَتْ عَجُوزٌ عَقِيمٌ then his wife entered with a loud cry, struck her [own] face and said, ‘[I am only] a barren old woman!’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:43.373Z",
+      "refword": "3:117:11",
+      "lexword": "صِرٌّ"
+    }
+  }
+}

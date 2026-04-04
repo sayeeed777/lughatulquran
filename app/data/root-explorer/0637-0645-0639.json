@@ -1,0 +1,297 @@
+{
+  "root": "طمع",
+  "rootArabic": "طمع",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 2,
+    "surahCount": 10,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "طَمِعَ",
+      "count": 8
+    },
+    {
+      "form": "طَمَع",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَمَع",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمَع",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمَع",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمَع",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَمِعَ",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 75,
+      "text": "أَفَتَطْمَعُونَ أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِّنْهُمْ يَسْمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَفَتَطْمَعُونَ</a> أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌ مِّنْهُمْ يَسْمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 84,
+      "text": "وَمَا لَنَا لَا نُؤْمِنُ بِٱللَّهِ وَمَا جَآءَنَا مِنَ ٱلْحَقِّ وَنَطْمَعُ أَن يُدْخِلَنَا رَبُّنَا مَعَ ٱلْقَوْمِ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "وَمَا لَنَا لَا نُؤْمِنُ بِٱللَّهِ وَمَا جَآءَنَا مِنَ ٱلْحَقِّ <a class=\"highlight-text\">وَنَطْمَعُ</a> أَن يُدْخِلَنَا رَبُّنَا مَعَ ٱلْقَوْمِ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 46,
+      "text": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّۢا بِسِيمَىٰهُمْ ۚ وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ يَطْمَعُونَ",
+      "highlightedHtml": "وَبَيْنَهُمَا حِجَابٌ ۚ وَعَلَى ٱلْأَعْرَافِ رِجَالٌ يَعْرِفُونَ كُلًّۢا بِسِيمَىٰهُمْ ۚ وَنَادَوْا۟ أَصْحَٰبَ ٱلْجَنَّةِ أَن سَلَٰمٌ عَلَيْكُمْ ۚ لَمْ يَدْخُلُوهَا وَهُمْ <a class=\"highlight-text\">يَطْمَعُونَ</a>",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 56,
+      "text": "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًا وَطَمَعًا ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا وَٱدْعُوهُ خَوْفًا <a class=\"highlight-text\">وَطَمَعًا</a> ۚ إِنَّ رَحْمَتَ ٱللَّهِ قَرِيبٌ مِّنَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "طَمَع"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 12,
+      "text": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنشِئُ ٱلسَّحَابَ ٱلثِّقَالَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا <a class=\"highlight-text\">وَطَمَعًا</a> وَيُنشِئُ ٱلسَّحَابَ ٱلثِّقَالَ",
+      "derivedForms": [
+        "طَمَع"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 51,
+      "text": "إِنَّا نَطْمَعُ أَن يَغْفِرَ لَنَا رَبُّنَا خَطَٰيَٰنَآ أَن كُنَّآ أَوَّلَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "إِنَّا <a class=\"highlight-text\">نَطْمَعُ</a> أَن يَغْفِرَ لَنَا رَبُّنَا خَطَٰيَٰنَآ أَن كُنَّآ أَوَّلَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 82,
+      "text": "وَٱلَّذِىٓ أَطْمَعُ أَن يَغْفِرَ لِى خَطِيٓـَٔتِى يَوْمَ ٱلدِّينِ",
+      "highlightedHtml": "وَٱلَّذِىٓ <a class=\"highlight-text\">أَطْمَعُ</a> أَن يَغْفِرَ لِى خَطِيٓـَٔتِى يَوْمَ ٱلدِّينِ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 24,
+      "text": "وَمِنْ آيَاتِهِ يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءً فَيُحْىِۦ بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "highlightedHtml": "وَمِنْ آيَاتِهِ يُرِيكُمُ ٱلْبَرْقَ خَوْفًا <a class=\"highlight-text\">وَطَمَعًا</a> وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مَآءً فَيُحْىِۦ بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَعْقِلُونَ",
+      "derivedForms": [
+        "طَمَع"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 16,
+      "text": "تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "highlightedHtml": "تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا <a class=\"highlight-text\">وَطَمَعًا</a> وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+      "derivedForms": [
+        "طَمَع"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 32,
+      "text": "يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا",
+      "highlightedHtml": "يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ <a class=\"highlight-text\">فَيَطْمَعَ</a> ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 38,
+      "text": "أَيَطْمَعُ كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَيَطْمَعُ</a> كُلُّ ٱمْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 15,
+      "text": "ثُمَّ يَطْمَعُ أَنْ أَزِيدَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">يَطْمَعُ</a> أَنْ أَزِيدَ",
+      "derivedForms": [
+        "طَمِعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:59.219Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb",
+    "derivativeNote": "أَفَتَطْمَعُونَ is in the derivative form: طَمِعَ",
+    "rootDefinitionHtml": "ط/م/ع   ṭ–m–ʿ to hope, to desire, to crave; to expect; to covet; greed. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> طَمِعَ ṭamiʿa 8 times and طَمَع ṭamaʿ 4 times.",
+    "mainDefinitionHtml": "طَمِعَ ṭamiʿa a [v., intrans.] <br><br><strong>1 </strong>to hope, to expect <br><br>(2:75)‏‏أَفَتَطْمَعُونَ‏ ‏أَنْ‏ ‏يُؤْمِنُوا‏ ‏لَكُمْ ‏can you hope that they will believe in what you say <br><br><strong>2 </strong>to desire, to crave, to yearn <br><br>(33:32) إِنِ اتَّقَيْتُنَّ فَلاَ تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِى قَلْبِهِ مَرَضٌ if you show piety, do not be submissive in your speech, lest he in whose heart is sickness should [be moved to] desire/ covet [you].",
+    "mainEntryId": "wdef-ط-م-ع.طَمِعَ",
+    "entries": [
+      {
+        "id": "wdef-ط-م-ع",
+        "label": "ط-م-ع",
+        "definitionHtml": "ط/م/ع   ṭ–m–ʿ to hope, to desire, to crave; to expect; to covet; greed. <br><br>Of this root, 2 forms occur 12 times in the Qur’an:<br> طَمِعَ ṭamiʿa 8 times and طَمَع ṭamaʿ 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-م-ع.طَمِعَ",
+        "label": "طَمِعَ",
+        "definitionHtml": "طَمِعَ ṭamiʿa a [v., intrans.] <br><br><strong>1 </strong>to hope, to expect <br><br>(2:75)‏‏أَفَتَطْمَعُونَ‏ ‏أَنْ‏ ‏يُؤْمِنُوا‏ ‏لَكُمْ ‏can you hope that they will believe in what you say <br><br><strong>2 </strong>to desire, to crave, to yearn <br><br>(33:32) إِنِ اتَّقَيْتُنَّ فَلاَ تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِى قَلْبِهِ مَرَضٌ if you show piety, do not be submissive in your speech, lest he in whose heart is sickness should [be moved to] desire/ covet [you].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-م-ع.طَمَع",
+        "label": "طَمَع",
+        "definitionHtml": "طَمَع tamaʿ [v. n./n.] the act of hoping, hope; greed <br><br>(32:16) يَدْعُونَ‏ ‏رَبَّهُمْ‏ خَوْفًا ِ‏‏وَ طَمَعًا‏ praying to their Lord in fear and hope.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:51.149Z",
+      "refword": "2:75:1",
+      "lexword": "أَفَتَطْمَعُونَ"
+    }
+  }
+}

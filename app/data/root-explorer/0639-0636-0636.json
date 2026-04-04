@@ -1,0 +1,95 @@
+{
+  "root": "عضض",
+  "rootArabic": "عضض",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "عَضَّ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَضَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَضَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 119,
+      "text": "هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ آمَنَّا وَإِذَا خَلَوْا۟ عَضُّوا۟ عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "هَٰٓأَنتُمْ أُو۟لَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُؤْمِنُونَ بِٱلْكِتَٰبِ كُلِّهِۦ وَإِذَا لَقُوكُمْ قَالُوٓا۟ آمَنَّا وَإِذَا خَلَوْا۟ <a class=\"highlight-text\">عَضُّوا۟</a> عَلَيْكُمُ ٱلْأَنَامِلَ مِنَ ٱلْغَيْظِ ۚ قُلْ مُوتُوا۟ بِغَيْظِكُمْ ۗ إِنَّ ٱللَّهَ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "عَضَّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 27,
+      "text": "وَيَوْمَ يَعَضُّ ٱلظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَٰلَيْتَنِى ٱتَّخَذْتُ مَعَ ٱلرَّسُولِ سَبِيلًا",
+      "highlightedHtml": "وَيَوْمَ <a class=\"highlight-text\">يَعَضُّ</a> ٱلظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَٰلَيْتَنِى ٱتَّخَذْتُ مَعَ ٱلرَّسُولِ سَبِيلًا",
+      "derivedForms": [
+        "عَضَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:05.182Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "عَضُّوا۟ is in the derivative form: عَضَّ",
+    "rootDefinitionHtml": "ع/ض/ض   ʿ–ḍ–ḍ to hold with the teeth, to bite, to bite into; food, fodder; to adhere to. Of this root, only عَضَّ ʿaḍḍa occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "عَضَّ ʿaḍḍa a [v. trans. with prep. عَلَى] to bite, to bite on *<br><br>(25:27) وَيَوْمَ‏ ‏يَعَضُّ‏ ‏الظَّالِمُ‏ ‏عَلَى‏ ‏يَدَيْهِ‏ ‏ on the Day the unjust will become very remorseful [lit. bite on his own hand]; *<br><br>(3:119) عَضُّوا عَلَيْكُمُ الأَنَامِلَ مِنَ الْغَيْظِ they bite [their] fingertips in rage at you.",
+    "mainEntryId": "wdef-ع-ض-ض.عَضَّ",
+    "entries": [
+      {
+        "id": "wdef-ع-ض-ض",
+        "label": "ع-ض-ض",
+        "definitionHtml": "ع/ض/ض   ʿ–ḍ–ḍ to hold with the teeth, to bite, to bite into; food, fodder; to adhere to. Of this root, only عَضَّ ʿaḍḍa occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ض-ض.عَضَّ",
+        "label": "عَضَّ",
+        "definitionHtml": "عَضَّ ʿaḍḍa a [v. trans. with prep. عَلَى] to bite, to bite on *<br><br>(25:27) وَيَوْمَ‏ ‏يَعَضُّ‏ ‏الظَّالِمُ‏ ‏عَلَى‏ ‏يَدَيْهِ‏ ‏ on the Day the unjust will become very remorseful [lit. bite on his own hand]; *<br><br>(3:119) عَضُّوا عَلَيْكُمُ الأَنَامِلَ مِنَ الْغَيْظِ they bite [their] fingertips in rage at you.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:53.418Z",
+      "refword": "3:119:15",
+      "lexword": "عَضُّوا۟"
+    }
+  }
+}

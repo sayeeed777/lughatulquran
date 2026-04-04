@@ -1,0 +1,74 @@
+{
+  "root": "غلق",
+  "rootArabic": "غلق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "غَلَّقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَلَّقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 23,
+      "text": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ <a class=\"highlight-text\">وَغَلَّقَتِ</a> ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "غَلَّقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:08.431Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form II) perfect verb",
+    "derivativeNote": "وَغَلَّقَتِ is in the derivative form: غَلَّقَ",
+    "rootDefinitionHtml": "غ/ل/ق   gh–l–q to close, to shut, to lock, to bolt; to be impatient, to be dumbfounded. Of this root, only غَلَّقَت ghallaqat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "غَلَّقَ ghallaqa [v. II, trans.] to shut tightly, to shut several things <br><br>(12:23) وَغَلَّقَتِ‏ ‏الأَبْوَابَ‏ ‏ she bolted the doors.",
+    "mainEntryId": "wdef-غ-ل-ق.غَلَّقَ",
+    "entries": [
+      {
+        "id": "wdef-غ-ل-ق",
+        "label": "غ-ل-ق",
+        "definitionHtml": "غ/ل/ق   gh–l–q to close, to shut, to lock, to bolt; to be impatient, to be dumbfounded. Of this root, only غَلَّقَت ghallaqat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ل-ق.غَلَّقَ",
+        "label": "غَلَّقَ",
+        "definitionHtml": "غَلَّقَ ghallaqa [v. II, trans.] to shut tightly, to shut several things <br><br>(12:23) وَغَلَّقَتِ‏ ‏الأَبْوَابَ‏ ‏ she bolted the doors.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:59.602Z",
+      "refword": "12:23:8",
+      "lexword": "وَغَلَّقَتِ"
+    }
+  }
+}

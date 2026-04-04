@@ -1,0 +1,106 @@
+{
+  "root": "قدو",
+  "rootArabic": "قدو",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "اِقْتَدِى",
+      "count": 1
+    },
+    {
+      "form": "مُقْتَدُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِقْتَدِى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْتَدُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 90,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَى ٱللَّهُ ۖ فَبِهُدَىٰهُمُ ٱقْتَدِهْ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ هُوَ إِلَّا ذِكْرَىٰ لِلْعَٰلَمِينَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ هَدَى ٱللَّهُ ۖ فَبِهُدَىٰهُمُ <a class=\"highlight-text\">ٱقْتَدِهْ</a> ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا ۖ إِنْ هُوَ إِلَّا ذِكْرَىٰ لِلْعَٰلَمِينَ",
+      "derivedForms": [
+        "اِقْتَدِى"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 23,
+      "text": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ مُّقْتَدُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ <a class=\"highlight-text\">مُّقْتَدُونَ</a>",
+      "derivedForms": [
+        "مُقْتَدُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:41.327Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular (form VIII) imperative verb",
+    "derivativeNote": "ٱقْتَدِهْ is in the derivative form: اِقْتَدِى",
+    "rootDefinitionHtml": "ق/د/و q–d–w example, model, pattern; to follow the example, to imitate, to use as a guide; to be in the forefront; to go straight, to follow the right path; to be near. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> اِقْتَدِه ʾiqtadih and مُقْتَدُون muqtadūn.",
+    "mainDefinitionHtml": "اِقْتَدِى ʾiqtadi [imper. of v. VIII اِقْتَدى ʾiqtadā, intrans.] follow the example of, use as guidance, imitate, emulate <br><br>(6:90) أُولَئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهِ these are they whom God has guided, so follow their guidance.",
+    "mainEntryId": "wdef-ق-د-و.اِقْتَدِى",
+    "entries": [
+      {
+        "id": "wdef-ق-د-و",
+        "label": "ق-د-و",
+        "definitionHtml": "ق/د/و q–d–w example, model, pattern; to follow the example, to imitate, to use as a guide; to be in the forefront; to go straight, to follow the right path; to be near. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> اِقْتَدِه ʾiqtadih and مُقْتَدُون muqtadūn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-و.اِقْتَدِى",
+        "label": "اِقْتَدِى",
+        "definitionHtml": "اِقْتَدِى ʾiqtadi [imper. of v. VIII اِقْتَدى ʾiqtadā, intrans.] follow the example of, use as guidance, imitate, emulate <br><br>(6:90) أُولَئِكَ الَّذِينَ هَدَى اللَّهُ فَبِهُدَاهُمُ اقْتَدِهِ these are they whom God has guided, so follow their guidance.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-د-و.مُقْتَدُون",
+        "label": "مُقْتَدُون",
+        "definitionHtml": "مُقْتَدُون muqtadūn [pl. of act. part. مُقْتَدِي muqtadı] those who follow the steps of others, those who emulate others, followers <br><br>(43:23) إِنَّا وَجَدْنَا ءَابَاءَنَا عَلَى أُمَّةٍ وَإِنَّا عَلَى ءَاثَارِهِمْ مُقْتَدُونَ We saw our fathers following a tradition; we are only following in their footsteps‏.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:58.948Z",
+      "refword": "6:90:6",
+      "lexword": "ٱقْتَدِهْ"
+    }
+  }
+}

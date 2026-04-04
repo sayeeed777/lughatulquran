@@ -1,0 +1,272 @@
+{
+  "root": "شيع",
+  "rootArabic": "شيع",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 2,
+    "surahCount": 9,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "شيعةٌ",
+      "count": 11
+    },
+    {
+      "form": "تَشيع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَشيع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 3,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شيعةٌ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 65,
+      "text": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
+      "highlightedHtml": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ <a class=\"highlight-text\">شِيَعًا</a> وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 159,
+      "text": "إِنَّ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ شِيَعًا لَّسْتَ مِنْهُمْ فِى شَىْءٍ ۚ إِنَّمَآ أَمْرُهُمْ إِلَى ٱللَّهِ ثُمَّ يُنَبِّئُهُم بِمَا كَانُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ <a class=\"highlight-text\">شِيَعًا</a> لَّسْتَ مِنْهُمْ فِى شَىْءٍ ۚ إِنَّمَآ أَمْرُهُمْ إِلَى ٱللَّهِ ثُمَّ يُنَبِّئُهُم بِمَا كَانُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 10,
+      "text": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ فِى شِيَعِ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ فِى <a class=\"highlight-text\">شِيَعِ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 69,
+      "text": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "highlightedHtml": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ <a class=\"highlight-text\">شِيعَةٍ</a> أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 19,
+      "text": "إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَٰحِشَةُ فِى ٱلَّذِينَ آمَنُوا لَهُمْ عَذَابٌ أَلِيمٌ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن <a class=\"highlight-text\">تَشِيعَ</a> ٱلْفَٰحِشَةُ فِى ٱلَّذِينَ آمَنُوا لَهُمْ عَذَابٌ أَلِيمٌ فِى ٱلدُّنْيَا وَالْآخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "تَشيع"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 4,
+      "text": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا <a class=\"highlight-text\">شِيَعًا</a> يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 15,
+      "text": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن شِيعَتِهِۦ وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن شِيعَتِهِۦ عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "highlightedHtml": "وَدَخَلَ ٱلْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِّنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلَانِ هَٰذَا مِن <a class=\"highlight-text\">شِيعَتِهِۦ</a> وَهَٰذَا مِنْ عَدُوِّهِۦ ۖ فَٱسْتَغَٰثَهُ ٱلَّذِى مِن <a class=\"highlight-text\">شِيعَتِهِۦ</a> عَلَى ٱلَّذِى مِنْ عَدُوِّهِۦ فَوَكَزَهُۥ مُوسَىٰ فَقَضَىٰ عَلَيْهِ ۖ قَالَ هَٰذَا مِنْ عَمَلِ ٱلشَّيْطَٰنِ ۖ إِنَّهُۥ عَدُوٌّ مُّضِلٌّ مُّبِينٌ",
+      "derivedForms": [
+        "شيعةٌ",
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 32,
+      "text": "مِنَ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ شِيَعًا ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
+      "highlightedHtml": "مِنَ ٱلَّذِينَ فَرَّقُوا۟ دِينَهُمْ وَكَانُوا۟ <a class=\"highlight-text\">شِيَعًا</a> ۖ كُلُّ حِزْبٍۭ بِمَا لَدَيْهِمْ فَرِحُونَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 54,
+      "text": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ بِأَشْيَاعِهِم مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ",
+      "highlightedHtml": "وَحِيلَ بَيْنَهُمْ وَبَيْنَ مَا يَشْتَهُونَ كَمَا فُعِلَ <a class=\"highlight-text\">بِأَشْيَاعِهِم</a> مِّن قَبْلُ ۚ إِنَّهُمْ كَانُوا۟ فِى شَكٍّ مُّرِيبٍۭ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 83,
+      "text": "وَإِنَّ مِن شِيعَتِهِۦ لَإِبْرَٰهِيمَ",
+      "highlightedHtml": "وَإِنَّ مِن <a class=\"highlight-text\">شِيعَتِهِۦ</a> لَإِبْرَٰهِيمَ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 51,
+      "text": "وَلَقَدْ أَهْلَكْنَآ أَشْيَاعَكُمْ فَهَلْ مِن مُّدَّكِرٍ",
+      "highlightedHtml": "وَلَقَدْ أَهْلَكْنَآ <a class=\"highlight-text\">أَشْيَاعَكُمْ</a> فَهَلْ مِن مُّدَّكِرٍ",
+      "derivedForms": [
+        "شيعةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:34.305Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural indefinite noun",
+    "derivativeNote": "شِيَعًا is in the derivative form: شيعةٌ",
+    "rootDefinitionHtml": "ش/ي/ع   sh–y–ʿ to spread, to scatter, to disperse<br>; to become widely known; to make 1 thing follow another, to follow a guest to bid him farewell; to approximate, in number/quantity, to another; to go along with the ideas of another, to be of the same persuasion; bias, partisan, sect, sectarianism. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br>تَشيع tashıʿ 1 time;شيعةٌ shıʿatun 4 times;شِيع shiyaʿ 5 times andأشْياع ʾashyāʿ 2 times.",
+    "mainDefinitionHtml": "شيعةٌ shıʿatun [n., pl.شِيع shiyaʿ, pl. of paucityأشْياع ʾashyāʿ] <br><br><strong>1 </strong>people of like persuasion, conviction or opinion, sect, party <br><br>(28:15) فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلاَنِ هَذَا مِنْ شِيعَتِهِ وَهَذَا مِنْ عَدُوِّهِ and he found in it two men fighting–one from his own people/conviction, the other from his enemy <br><br><strong>2 </strong>caste, social class, faction <br><br>(28:4) إِنَّ فِرْعَوْنَ عَلاَ فِى الأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا Pharaoh has exalted himself in the land and made its people into castes <br><br><strong>3 </strong>kind, type <br><br>(34:54) كَمَا فُعِلَ بِأَشْيَاعِهِمْ مِنْ قَبْلُ as was done to those of their kind before [them].",
+    "mainEntryId": "wdef-ش-ي-ع.شيعةٌ",
+    "entries": [
+      {
+        "id": "wdef-ش-ي-ع",
+        "label": "ش-ي-ع",
+        "definitionHtml": "ش/ي/ع   sh–y–ʿ to spread, to scatter, to disperse<br>; to become widely known; to make 1 thing follow another, to follow a guest to bid him farewell; to approximate, in number/quantity, to another; to go along with the ideas of another, to be of the same persuasion; bias, partisan, sect, sectarianism. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br>تَشيع tashıʿ 1 time;شيعةٌ shıʿatun 4 times;شِيع shiyaʿ 5 times andأشْياع ʾashyāʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ي-ع.شيعةٌ",
+        "label": "شيعةٌ",
+        "definitionHtml": "شيعةٌ shıʿatun [n., pl.شِيع shiyaʿ, pl. of paucityأشْياع ʾashyāʿ] <br><br><strong>1 </strong>people of like persuasion, conviction or opinion, sect, party <br><br>(28:15) فَوَجَدَ فِيهَا رَجُلَيْنِ يَقْتَتِلاَنِ هَذَا مِنْ شِيعَتِهِ وَهَذَا مِنْ عَدُوِّهِ and he found in it two men fighting–one from his own people/conviction, the other from his enemy <br><br><strong>2 </strong>caste, social class, faction <br><br>(28:4) إِنَّ فِرْعَوْنَ عَلاَ فِى الأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا Pharaoh has exalted himself in the land and made its people into castes <br><br><strong>3 </strong>kind, type <br><br>(34:54) كَمَا فُعِلَ بِأَشْيَاعِهِمْ مِنْ قَبْلُ as was done to those of their kind before [them].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ي-ع.تَشيع",
+        "label": "تَشيع",
+        "definitionHtml": "تَشيع tashıʿ [imperf. v. intrans.] to become widely spread <br><br>(24:19) إِنَّ الَّذِينَ يُحِبُّونَ أَنْ تَشِيعَ الْفَاحِشَةُ فِى الَّذِينَ ءَامَنُوا لَهُمْ عَذَابٌ أَلِيمٌ those who like to see immorality spread amongst the believers‏ will have a painful punishment.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:10.100Z",
+      "refword": "6:65:17",
+      "lexword": "شِيَعًا"
+    }
+  }
+}

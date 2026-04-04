@@ -1,0 +1,189 @@
+{
+  "root": "حطم",
+  "rootArabic": "حطم",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "حُطَامٌ",
+      "count": 3
+    },
+    {
+      "form": "حُطَمَةٌ",
+      "count": 2
+    },
+    {
+      "form": "يَحْطِمُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَحْطِمُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُطَامٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُطَامٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حُطَامٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حُطَمَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 18,
+      "text": "حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يَٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَٰكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَآ أَتَوْا۟ عَلَىٰ وَادِ ٱلنَّمْلِ قَالَتْ نَمْلَةٌ يَٰٓأَيُّهَا ٱلنَّمْلُ ٱدْخُلُوا۟ مَسَٰكِنَكُمْ لَا <a class=\"highlight-text\">يَحْطِمَنَّكُمْ</a> سُلَيْمَٰنُ وَجُنُودُهُۥ وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "يَحْطِمُ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 21,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ زَرْعًا مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ حُطَٰمًا ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَسَلَكَهُۥ يَنَٰبِيعَ فِى ٱلْأَرْضِ ثُمَّ يُخْرِجُ بِهِۦ زَرْعًا مُّخْتَلِفًا أَلْوَٰنُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَجْعَلُهُۥ <a class=\"highlight-text\">حُطَٰمًا</a> ۚ إِنَّ فِى ذَٰلِكَ لَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَٰبِ",
+      "derivedForms": [
+        "حُطَامٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 65,
+      "text": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
+      "highlightedHtml": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ <a class=\"highlight-text\">حُطَٰمًا</a> فَظَلْتُمْ تَفَكَّهُونَ",
+      "derivedForms": [
+        "حُطَامٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 20,
+      "text": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ <a class=\"highlight-text\">حُطَٰمًا</a> ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "حُطَامٌ"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 4,
+      "text": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى ٱلْحُطَمَةِ",
+      "highlightedHtml": "كَلَّا ۖ لَيُنۢبَذَنَّ فِى <a class=\"highlight-text\">ٱلْحُطَمَةِ</a>",
+      "derivedForms": [
+        "حُطَمَةٌ"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 5,
+      "text": "وَمَآ أَدْرَىٰكَ مَا ٱلْحُطَمَةُ",
+      "highlightedHtml": "وَمَآ أَدْرَىٰكَ مَا <a class=\"highlight-text\">ٱلْحُطَمَةُ</a>",
+      "derivedForms": [
+        "حُطَمَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:24.251Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَحْطِمَنَّكُمْ is in the derivative form: يَحْطِمُ",
+    "rootDefinitionHtml": "ح/ط/م   ḥ–ṭ–m to break, to shatter, to crush<br>; fragment, piece; wreckage, debris; a cruel person; a glutton; severe. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> يَحْطِمُ yaḥṭim 1 time; حُطَامٌ ḥuṭām 3 times and حُطَمَةٌ ḥuṭamatun 2 times.",
+    "mainDefinitionHtml": "يَحْطِمُ yaḥṭim [imperf. v., trans.] to crush, smash up, break into small pieces <br><br>(27:18) يَاأَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لاَ يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لاَ يَشْعُرُونَ ants!, go into your homes, lest Solomon and his hosts crush you while they are unaware.",
+    "mainEntryId": "wdef-ح-ط-م.يَحْطِمُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ط-م",
+        "label": "ح-ط-م",
+        "definitionHtml": "ح/ط/م   ḥ–ṭ–m to break, to shatter, to crush<br>; fragment, piece; wreckage, debris; a cruel person; a glutton; severe. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> يَحْطِمُ yaḥṭim 1 time; حُطَامٌ ḥuṭām 3 times and حُطَمَةٌ ḥuṭamatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ط-م.يَحْطِمُ",
+        "label": "يَحْطِمُ",
+        "definitionHtml": "يَحْطِمُ yaḥṭim [imperf. v., trans.] to crush, smash up, break into small pieces <br><br>(27:18) يَاأَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لاَ يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لاَ يَشْعُرُونَ ants!, go into your homes, lest Solomon and his hosts crush you while they are unaware.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ط-م.حُطَامٌ",
+        "label": "حُطَامٌ",
+        "definitionHtml": "حُطَامٌ ḥuṭām [coll. n.; pl. of. n. حَطْمَةٌ ḥuṭmatun] wreckage, debris, smithereens <br><br>(56:65) لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ if We willed, We could turn it [your harvest] into debris, and leave you wailing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ط-م.حُطَمَةٌ",
+        "label": "حُطَمَةٌ",
+        "definitionHtml": "حُطَمَةٌ ḥuṭamatun [intens. act. part.] crusher, smasher, an epithet of Hellfire <br><br>(104:4) كَلاَّ لَيُنْبَذَنَّ فِى الْحُطَمَةِ no indeed!, he will be thrust into the Crusher!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:14.947Z",
+      "refword": "27:18:14",
+      "lexword": "يَحْطِمَنَّكُمْ"
+    }
+  }
+}

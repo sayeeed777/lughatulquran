@@ -1,0 +1,228 @@
+{
+  "root": "سجن",
+  "rootArabic": "سجن",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 3,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "X",
+      "count": 6
+    },
+    {
+      "form": "يَسْجُن",
+      "count": 3
+    },
+    {
+      "form": "سِجّين",
+      "count": 2
+    },
+    {
+      "form": "مَسْجونين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 9,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 6,
+          "totalInQuran": 6
+        },
+        {
+          "form": "يَسْجُن",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْجونين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سِجّين",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 25,
+      "text": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن يُسْجَنَ أَوْ عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "وَٱسْتَبَقَا ٱلْبَابَ وَقَدَّتْ قَمِيصَهُۥ مِن دُبُرٍ وَأَلْفَيَا سَيِّدَهَا لَدَا ٱلْبَابِ ۚ قَالَتْ مَا جَزَآءُ مَنْ أَرَادَ بِأَهْلِكَ سُوٓءًا إِلَّآ أَن <a class=\"highlight-text\">يُسْجَنَ</a> أَوْ عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "يَسْجُن"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 32,
+      "text": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ آمُرُهُ لَيُسْجَنَنَّ وَلَيَكُونًا مِّنَ ٱلصَّٰغِرِينَ",
+      "highlightedHtml": "قَالَتْ فَذَٰلِكُنَّ ٱلَّذِى لُمْتُنَّنِى فِيهِ ۖ وَلَقَدْ رَٰوَدتُّهُۥ عَن نَّفْسِهِۦ فَٱسْتَعْصَمَ ۖ وَلَئِن لَّمْ يَفْعَلْ مَآ آمُرُهُ <a class=\"highlight-text\">لَيُسْجَنَنَّ</a> وَلَيَكُونًا مِّنَ ٱلصَّٰغِرِينَ",
+      "derivedForms": [
+        "يَسْجُن"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 33,
+      "text": "قَالَ رَبِّ ٱلسِّجْنُ أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "قَالَ رَبِّ <a class=\"highlight-text\">ٱلسِّجْنُ</a> أَحَبُّ إِلَىَّ مِمَّا يَدْعُونَنِىٓ إِلَيْهِ ۖ وَإِلَّا تَصْرِفْ تَصْرِفْ عَنِّى كَيْدَهُنَّ أَصْبُ إِلَيْهِنَّ وَأَكُن مِّنَ ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 35,
+      "text": "ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْءَايَٰتِ لَيَسْجُنُنَّهُۥ حَتَّىٰ حِينٍ",
+      "highlightedHtml": "ثُمَّ بَدَا لَهُم مِّنۢ بَعْدِ مَا رَأَوُا۟ ٱلْءَايَٰتِ <a class=\"highlight-text\">لَيَسْجُنُنَّهُۥ</a> حَتَّىٰ حِينٍ",
+      "derivedForms": [
+        "يَسْجُن"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 36,
+      "text": "وَدَخَلَ مَعَهُ ٱلسِّجْنَ فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًا ۖ وَقَالَ الْآخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "وَدَخَلَ مَعَهُ <a class=\"highlight-text\">ٱلسِّجْنَ</a> فَتَيَانِ ۖ قَالَ أَحَدُهُمَآ إِنِّىٓ أَرَىٰنِىٓ أَعْصِرُ خَمْرًا ۖ وَقَالَ الْآخَرُ إِنِّىٓ أَرَىٰنِىٓ أَحْمِلُ فَوْقَ رَأْسِى خُبْزًا تَأْكُلُ ٱلطَّيْرُ مِنْهُ ۖ نَبِّئْنَا بِتَأْوِيلِهِۦٓ ۖ إِنَّا نَرَىٰكَ مِنَ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 39,
+      "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "highlightedHtml": "يَٰصَىٰحِبَىِ <a class=\"highlight-text\">ٱلسِّجْنِ</a> أَأَرْبَابٌ مُّتَفَرِّقُونَ خَيْرٌ أَمِ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 41,
+      "text": "يَٰصَىٰحِبَىِ ٱلسِّجْنِ أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًا ۖ وَأَمَّا الْآخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
+      "highlightedHtml": "يَٰصَىٰحِبَىِ <a class=\"highlight-text\">ٱلسِّجْنِ</a> أَمَّآ أَحَدُكُمَا فَيَسْقِى رَبَّهُۥ خَمْرًا ۖ وَأَمَّا الْآخَرُ فَيُصْلَبُ فَتَأْكُلُ ٱلطَّيْرُ مِن رَّأْسِهِۦ ۚ قُضِىَ ٱلْأَمْرُ ٱلَّذِى فِيهِ تَسْتَفْتِيَانِ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 42,
+      "text": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ",
+      "highlightedHtml": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى <a class=\"highlight-text\">ٱلسِّجْنِ</a> بِضْعَ سِنِينَ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 100,
+      "text": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "highlightedHtml": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ <a class=\"highlight-text\">ٱلسِّجْنِ</a> وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 29,
+      "text": "قَالَ لَئِنِ ٱتَّخَذْتَ إِلَٰهًا غَيْرِى لَأَجْعَلَنَّكَ مِنَ ٱلْمَسْجُونِينَ",
+      "highlightedHtml": "قَالَ لَئِنِ ٱتَّخَذْتَ إِلَٰهًا غَيْرِى لَأَجْعَلَنَّكَ مِنَ <a class=\"highlight-text\">ٱلْمَسْجُونِينَ</a>",
+      "derivedForms": [
+        "مَسْجونين"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 7,
+      "text": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى سِجِّينٍ",
+      "highlightedHtml": "كَلَّآ إِنَّ كِتَٰبَ ٱلْفُجَّارِ لَفِى <a class=\"highlight-text\">سِجِّينٍ</a>",
+      "derivedForms": [
+        "سِجّين"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 8,
+      "text": "وَمَآ أَدْرَىٰكَ مَا سِجِّينٌ",
+      "highlightedHtml": "وَمَآ أَدْرَىٰكَ مَا <a class=\"highlight-text\">سِجِّينٌ</a>",
+      "derivedForms": [
+        "سِجّين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:39.977Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular passive imperfect verb, subjunctive mood",
+    "derivativeNote": "يُسْجَنَ is in the derivative form: يَسْجُن",
+    "rootDefinitionHtml": "س/ج/ن   s–j–n prison, imprisonment, confinement, detention. Philologists who derive the Qur’anic word سِجيِّن sijjın from this root suggest ‘containment’ as the semantic link between the two, but it has also been suggested that it could be a borrowing from Latin ‘insignia’, the Roman emperor’s stamp which used to be affixed to important records. Also it has been suggested that this root was borrowed from Persian or Ethiopic. <br><br>Of this root, 5 forms occur 12 times in the Qur’an:<br>يَسْجُن yasjun 1 time;يُسْجَن yusjan 2 times; مَسْجونين masjūnın 1 time; سِجْن sijn 6 times andسِجيِّن sijjın 2 times.",
+    "mainDefinitionHtml": "يَسْجُن yasjun [imperf. of v. trans.; pass. v. يُسْجَن yusjan] to imprison, to detain <br><br>(12:35) ثُمَّ بَدَا لَهُمْ مِنْ بَعْدِ مَا رَأَوُا الآيَاتِ لَيَسْجُنُنَّهُ حَتَّى حِينٍ but it occurred to them, [even] after seeing the evidence [for his innocence], that they should imprison him for a while.",
+    "mainEntryId": "wdef-س-ج-ن.يَسْجُن",
+    "entries": [
+      {
+        "id": "wdef-س-ج-ن",
+        "label": "س-ج-ن",
+        "definitionHtml": "س/ج/ن   s–j–n prison, imprisonment, confinement, detention. Philologists who derive the Qur’anic word سِجيِّن sijjın from this root suggest ‘containment’ as the semantic link between the two, but it has also been suggested that it could be a borrowing from Latin ‘insignia’, the Roman emperor’s stamp which used to be affixed to important records. Also it has been suggested that this root was borrowed from Persian or Ethiopic. <br><br>Of this root, 5 forms occur 12 times in the Qur’an:<br>يَسْجُن yasjun 1 time;يُسْجَن yusjan 2 times; مَسْجونين masjūnın 1 time; سِجْن sijn 6 times andسِجيِّن sijjın 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ج-ن.يَسْجُن",
+        "label": "يَسْجُن",
+        "definitionHtml": "يَسْجُن yasjun [imperf. of v. trans.; pass. v. يُسْجَن yusjan] to imprison, to detain <br><br>(12:35) ثُمَّ بَدَا لَهُمْ مِنْ بَعْدِ مَا رَأَوُا الآيَاتِ لَيَسْجُنُنَّهُ حَتَّى حِينٍ but it occurred to them, [even] after seeing the evidence [for his innocence], that they should imprison him for a while.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ج-ن.سِجّين",
+        "label": "سِجّين",
+        "definitionHtml": "سِجّين sijjın [n.] a written record enumerating the bad deeds of the wicked <br><br>(83:7–9)‏إِنَّ‏ ‏كِتَابَ‏ ‏الْفُجَّارِ‏ ‏لَفِي‏ ‏سِجِّينٍ‏ ‏وَمَا‏ ‏أَدْرَاكَ‏ ‏مَا‏ ‏سِجِّين كِتَابٌ مَرْقُومٌ ‏the list of the wicked is in Sijjın, what will explain to you what Sijjın is?–a clearly numbered list.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ج-ن.مَسْجونين",
+        "label": "مَسْجونين",
+        "definitionHtml": "مَسْجونين masjūnın [pl. of pas. part. masjūn] one imprisoned <br><br>(26:29) لَئِنِ اتَّخَذْتَ إِلَهًا غَيْرِي لأََجْعَلَنَّكَ مِنَ الْمَسْجُونِينَ if you take any god other than me, I will make you among the prisoners.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:24.184Z",
+      "refword": "12:25:20",
+      "lexword": "يُسْجَنَ"
+    }
+  }
+}

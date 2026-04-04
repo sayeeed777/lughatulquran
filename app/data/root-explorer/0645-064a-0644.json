@@ -1,0 +1,127 @@
+{
+  "root": "ميل",
+  "rootArabic": "ميل",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 1,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَمِيل",
+      "count": 3
+    },
+    {
+      "form": "مَيْل",
+      "count": 2
+    },
+    {
+      "form": "مَيْلَة",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "تَمِيل",
+          "count": 3,
+          "totalInQuran": 3
+        },
+        {
+          "form": "مَيْل",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مَيْلَة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 27,
+      "text": "وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن تَمِيلُوا۟ مَيْلًا عَظِيمًا",
+      "highlightedHtml": "وَٱللَّهُ يُرِيدُ أَن يَتُوبَ عَلَيْكُمْ وَيُرِيدُ ٱلَّذِينَ يَتَّبِعُونَ ٱلشَّهَوَٰتِ أَن <a class=\"highlight-text\">تَمِيلُوا۟</a> <a class=\"highlight-text\">مَيْلًا</a> عَظِيمًا",
+      "derivedForms": [
+        "تَمِيل",
+        "مَيْل"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 102,
+      "text": "وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَى لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَٰحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا",
+      "highlightedHtml": "وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَى لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ <a class=\"highlight-text\">فَيَمِيلُونَ</a> عَلَيْكُم <a class=\"highlight-text\">مَّيْلَةً</a> وَٰحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَٰفِرِينَ عَذَابًا مُّهِينًا",
+      "derivedForms": [
+        "تَمِيل",
+        "مَيْلَة"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 129,
+      "text": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا تَمِيلُوا۟ كُلَّ ٱلْمَيْلِ فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "وَلَن تَسْتَطِيعُوٓا۟ أَن تَعْدِلُوا۟ بَيْنَ ٱلنِّسَآءِ وَلَوْ حَرَصْتُمْ ۖ فَلَا <a class=\"highlight-text\">تَمِيلُوا۟</a> كُلَّ <a class=\"highlight-text\">ٱلْمَيْلِ</a> فَتَذَرُوهَا كَٱلْمُعَلَّقَةِ ۚ وَإِن تُصْلِحُوا۟ وَتَتَّقُوا۟ فَإِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "تَمِيل",
+        "مَيْل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:54.599Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb, subjunctive mood",
+    "derivativeNote": "تَمِيلُوا۟ is in the derivative form: تَمِيل",
+    "rootDefinitionHtml": "م/ي/ل   m–y–l to incline, to lean towards, to tilt, to bend, to lean over, to take sides, to deviate<br>; to attack; to be crooked; to swagger; to waver, to be in doubt, to win someone over. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> تَمِيل tamıl 3 times; مَيْل mayl 2 times and مَيْلَة maylatun 1 time.",
+    "mainDefinitionHtml": "تَمِيل tamīl [imperf. of v. مَالَ māla, intrans.] <br><br><strong>1 </strong>to deviate, to transgress, to go astray <br><br>(4:27) وَيُرِيدُ الَّذِينَ يَتَّبِعُونَ الشَّهَوَاتِ أَنْ تَمِيلُوا مَيْلا عَظِيمًا but those who follow their lusts want you to go far astray <br><br><strong>2 </strong>to incline towards, to act favourably towards <br><br>(4:129) وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ النِّسَاءِ وَلَوْ حَرَصْتُمْ فَلاَ تَمِيلُوا كُلَّ الْمَيْلِ you will never be able to deal equally between [your] wives, no matter how much care you take, yet do not be altogether partial.",
+    "mainEntryId": "wdef-م-ي-ل.تَمِيل",
+    "entries": [
+      {
+        "id": "wdef-م-ي-ل",
+        "label": "م-ي-ل",
+        "definitionHtml": "م/ي/ل   m–y–l to incline, to lean towards, to tilt, to bend, to lean over, to take sides, to deviate<br>; to attack; to be crooked; to swagger; to waver, to be in doubt, to win someone over. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> تَمِيل tamıl 3 times; مَيْل mayl 2 times and مَيْلَة maylatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-ل.تَمِيل",
+        "label": "تَمِيل",
+        "definitionHtml": "تَمِيل tamīl [imperf. of v. مَالَ māla, intrans.] <br><br><strong>1 </strong>to deviate, to transgress, to go astray <br><br>(4:27) وَيُرِيدُ الَّذِينَ يَتَّبِعُونَ الشَّهَوَاتِ أَنْ تَمِيلُوا مَيْلا عَظِيمًا but those who follow their lusts want you to go far astray <br><br><strong>2 </strong>to incline towards, to act favourably towards <br><br>(4:129) وَلَنْ تَسْتَطِيعُوا أَنْ تَعْدِلُوا بَيْنَ النِّسَاءِ وَلَوْ حَرَصْتُمْ فَلاَ تَمِيلُوا كُلَّ الْمَيْلِ you will never be able to deal equally between [your] wives, no matter how much care you take, yet do not be altogether partial.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ي-ل.مَيْل",
+        "label": "مَيْل",
+        "definitionHtml": "مَيْل mayl [v. n.] inclination, tilting, leaning to <br><br>(4:129) و فَلاَ تَمِيلُوا كُلَّ الْمَيْلِ yet do not be altogether partial.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ي-ل.مَيْلَة",
+        "label": "مَيْلَة",
+        "definitionHtml": "مَيْلَة maylatun [unit n.] an act of attacking, an assault <br><br>(4:102) فَيَمِيلُونَ عَلَيْكُمْ مَيْلَةً وَاحِدَةً [in order for them] to fall upon you in a single orchestrated assault.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:06.834Z",
+      "refword": "4:27:11",
+      "lexword": "تَمِيلُوا۟"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "root": "وزع",
+  "rootArabic": "وزع",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "يُوزَعُ",
+      "count": 3
+    },
+    {
+      "form": "أَوْزِعْ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يُوزَعُ",
+          "count": 2,
+          "totalInQuran": 3
+        },
+        {
+          "form": "أَوْزِعْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوزَعُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَوْزِعْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 27,
+      "ayah": 17,
+      "text": "وَحُشِرَ لِسُلَيْمَٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "وَحُشِرَ لِسُلَيْمَٰنَ جُنُودُهُۥ مِنَ ٱلْجِنِّ وَٱلْإِنسِ وَٱلطَّيْرِ فَهُمْ <a class=\"highlight-text\">يُوزَعُونَ</a>",
+      "derivedForms": [
+        "يُوزَعُ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 19,
+      "text": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ <a class=\"highlight-text\">أَوْزِعْنِىٓ</a> أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "أَوْزِعْ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 83,
+      "text": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَٰتِنَا فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَٰتِنَا فَهُمْ <a class=\"highlight-text\">يُوزَعُونَ</a>",
+      "derivedForms": [
+        "يُوزَعُ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 19,
+      "text": "وَيَوْمَ يُحْشَرُ أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ يُوزَعُونَ",
+      "highlightedHtml": "وَيَوْمَ يُحْشَرُ أَعْدَآءُ ٱللَّهِ إِلَى ٱلنَّارِ فَهُمْ <a class=\"highlight-text\">يُوزَعُونَ</a>",
+      "derivedForms": [
+        "يُوزَعُ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 15,
+      "text": "وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًا وَوَضَعَتْهُ كُرْهًا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةً قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+      "highlightedHtml": "وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًا وَوَضَعَتْهُ كُرْهًا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةً قَالَ رَبِّ <a class=\"highlight-text\">أَوْزِعْنِىٓ</a> أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+      "derivedForms": [
+        "أَوْزِعْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:15.127Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive imperfect verb",
+    "derivativeNote": "يُوزَعُونَ is in the derivative form: يُوزَعُ",
+    "rootDefinitionHtml": "و/ز/ع   w–z–ʿ to restrain, to keep in line; to urge, to encourage; 1 responsible for keeping the troops in line in battle, to marshall factions, groups; to distribute. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> أَوْزِع ʾawziʿ 2 times and يُوزَعُ yūzaʿ 3 times.",
+    "mainDefinitionHtml": "يُوزَعُ yūzaʿ [imperf. pass. of v. IV] to be driven, to be herded <br><br>(41:19) وَيَوْمَ يُحْشَرُ أَعْدَاءُ اللَّهِ إِلَى النَّارِ فَهُمْ يُوزَعُونَ on the Day that God’s enemies are gathered up for the Fire and marshalled in herds.",
+    "mainEntryId": "wdef-و-ز-ع.يُوزَعُ",
+    "entries": [
+      {
+        "id": "wdef-و-ز-ع",
+        "label": "و-ز-ع",
+        "definitionHtml": "و/ز/ع   w–z–ʿ to restrain, to keep in line; to urge, to encourage; 1 responsible for keeping the troops in line in battle, to marshall factions, groups; to distribute. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> أَوْزِع ʾawziʿ 2 times and يُوزَعُ yūzaʿ 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ع.يُوزَعُ",
+        "label": "يُوزَعُ",
+        "definitionHtml": "يُوزَعُ yūzaʿ [imperf. pass. of v. IV] to be driven, to be herded <br><br>(41:19) وَيَوْمَ يُحْشَرُ أَعْدَاءُ اللَّهِ إِلَى النَّارِ فَهُمْ يُوزَعُونَ on the Day that God’s enemies are gathered up for the Fire and marshalled in herds.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ز-ع.أَوْزِعْ",
+        "label": "أَوْزِعْ",
+        "definitionHtml": "أَوْزِعْ ʾawziʿ [imper. of v. IV أَوْزَعَ ʾawzaʿa, trans.] to urge, to inspire, to impress upon <br><br>(27:19) رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ my Lord, inspire me to acknowledge your blessing.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:35.026Z",
+      "refword": "27:17:9",
+      "lexword": "يُوزَعُونَ"
+    }
+  }
+}

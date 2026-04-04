@@ -1,0 +1,166 @@
+{
+  "root": "لوي",
+  "rootArabic": "لوي",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "يَلْوونَ",
+      "count": 6
+    },
+    {
+      "form": "لَوَّوْا",
+      "count": 2
+    },
+    {
+      "form": "لَىّ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "يَلْوونَ",
+          "count": 4,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "لَىّ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يَلْوونَ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 63,
+      "surahName": "Al-Munafiqun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "لَوَّوْا",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 78,
+      "text": "وَإِنَّ مِنْهُمْ لَفَرِيقًا يَلْوُۥنَ يَلْوُۥنَ أَلْسِنَتَهُم بِٱلْكِتَٰبِ لِتَحْسَبُوهُ مِنَ ٱلْكِتَٰبِ وَمَا هُوَ مِنَ ٱلْكِتَٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ ٱللَّهِ وَمَا هُوَ مِنْ عِندِ ٱللَّهِ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "وَإِنَّ مِنْهُمْ لَفَرِيقًا <a class=\"highlight-text\">يَلْوُۥنَ</a> <a class=\"highlight-text\">يَلْوُۥنَ</a> أَلْسِنَتَهُم بِٱلْكِتَٰبِ لِتَحْسَبُوهُ مِنَ ٱلْكِتَٰبِ وَمَا هُوَ مِنَ ٱلْكِتَٰبِ وَيَقُولُونَ هُوَ مِنْ عِندِ ٱللَّهِ وَمَا هُوَ مِنْ عِندِ ٱللَّهِ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "يَلْوونَ",
+        "يَلْوونَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 153,
+      "text": "إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ تَلْوُۥنَ عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "إِذْ تُصْعِدُونَ وَلَا <a class=\"highlight-text\">تَلْوُۥنَ</a> <a class=\"highlight-text\">تَلْوُۥنَ</a> عَلَىٰٓ أَحَدٍ وَٱلرَّسُولُ يَدْعُوكُمْ فِىٓ أُخْرَاكُمْ فَأَثَٰبَكُمْ غَمًّۢا بِغَمٍّ لِّكَيْلَا تَحْزَنُوا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْ ۗ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "يَلْوونَ",
+        "يَلْوونَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 46,
+      "text": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا لَيًّۢا لَيًّۢا بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "مِّنَ ٱلَّذِينَ هَادُوا۟ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ وَيَقُولُونَ سَمِعْنَا وَعَصَيْنَا وَٱسْمَعْ غَيْرَ مُسْمَعٍ وَرَٰعِنَا <a class=\"highlight-text\">لَيًّۢا</a> <a class=\"highlight-text\">لَيًّۢا</a> بِأَلْسِنَتِهِمْ وَطَعْنًا فِى ٱلدِّينِ ۚ وَلَوْ أَنَّهُمْ قَالُوا۟ سَمِعْنَا وَأَطَعْنَا وَٱسْمَعْ وَٱنظُرْنَا لَكَانَ خَيْرًا لَّهُمْ وَأَقْوَمَ وَلَٰكِن لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَلَا يُؤْمِنُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "لَىّ",
+        "لَىّ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 135,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن تَلْوُۥٓا۟ تَلْوُۥٓا۟ أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا كُونُوا۟ قَوَّٰمِينَ بِٱلْقِسْطِ شُهَدَآءَ لِلَّهِ وَلَوْ عَلَىٰٓ أَنفُسِكُمْ أَوِ ٱلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ ۚ إِن يَكُنْ غَنِيًّا أَوْ فَقِيرًا فَٱللَّهُ أَوْلَىٰ بِهِمَا ۖ فَلَا تَتَّبِعُوا۟ ٱلْهَوَىٰٓ أَن تَعْدِلُوا۟ ۚ وَإِن <a class=\"highlight-text\">تَلْوُۥٓا۟</a> <a class=\"highlight-text\">تَلْوُۥٓا۟</a> أَوْ تُعْرِضُوا۟ فَإِنَّ ٱللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا",
+      "derivedForms": [
+        "يَلْوونَ",
+        "يَلْوونَ"
+      ]
+    },
+    {
+      "surah": 63,
+      "ayah": 5,
+      "text": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ يَسْتَغْفِرْ لَكُمْ رَسُولُ ٱللَّهِ لَوَّوْا۟ لَوَّوْا۟ رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا۟ يَسْتَغْفِرْ لَكُمْ رَسُولُ ٱللَّهِ <a class=\"highlight-text\">لَوَّوْا۟</a> <a class=\"highlight-text\">لَوَّوْا۟</a> رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ",
+      "derivedForms": [
+        "لَوَّوْا",
+        "لَوَّوْا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:53.923Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَلْوُۥنَ is in the derivative form: يَلْوونَ",
+    "rootDefinitionHtml": "ل/و/ي   l–w–y to twist, to intertwine, to bend, to coil up<br>; to tarry; to wither away; to dispute hotly; banner. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَلْوونَ yalwūna 3 times; لَوَّوْا lawwaw 1 time and لَىّ layy 1 time.",
+    "mainDefinitionHtml": "يَلْوونَ yalwūna [imperf. of v. لَوَى lawā, trans.] <br><br><strong>1 </strong>to twist, <br><br>(4:135) ‏ وَإِنْ تَلْوُوا أَوْ تُعْرِضُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا‏ if you twist or neglect [justice], God is fully aware of what you do; *<br><br>(3:78)‏يَلْوُونَ‏ ‏أَلْسِنَتَهُمْ‏ ‏بِالْكِتَابِ‏ they distort and pervert the Book [lit. they twist the Book with their tongues] <br><br><strong>2 </strong>to turn, to bend *<br><br>(3:153) لاَتَلْوُون عَلَى أحَد you do not turn to anyone, you do not pay heed to anyone, you are not concerned for anyone, being in a state of disarray or panic.",
+    "mainEntryId": "wdef-ل-و-ي.يَلْوونَ",
+    "entries": [
+      {
+        "id": "wdef-ل-و-ي",
+        "label": "ل-و-ي",
+        "definitionHtml": "ل/و/ي   l–w–y to twist, to intertwine, to bend, to coil up<br>; to tarry; to wither away; to dispute hotly; banner. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> يَلْوونَ yalwūna 3 times; لَوَّوْا lawwaw 1 time and لَىّ layy 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-ي.يَلْوونَ",
+        "label": "يَلْوونَ",
+        "definitionHtml": "يَلْوونَ yalwūna [imperf. of v. لَوَى lawā, trans.] <br><br><strong>1 </strong>to twist, <br><br>(4:135) ‏ وَإِنْ تَلْوُوا أَوْ تُعْرِضُوا فَإِنَّ اللَّهَ كَانَ بِمَا تَعْمَلُونَ خَبِيرًا‏ if you twist or neglect [justice], God is fully aware of what you do; *<br><br>(3:78)‏يَلْوُونَ‏ ‏أَلْسِنَتَهُمْ‏ ‏بِالْكِتَابِ‏ they distort and pervert the Book [lit. they twist the Book with their tongues] <br><br><strong>2 </strong>to turn, to bend *<br><br>(3:153) لاَتَلْوُون عَلَى أحَد you do not turn to anyone, you do not pay heed to anyone, you are not concerned for anyone, being in a state of disarray or panic.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-و-ي.لَوَّوْا",
+        "label": "لَوَّوْا",
+        "definitionHtml": "لَوَّوْا lawwaw [v. II, trans.] to twist several times, to cause to be crooked *<br><br>(63:5) ‏لَوَّوْا‏ ‏رُءُوسَهُمْ they resisted, they showed disdain [lit. they twisted their heads].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-و-ي.لَىّ",
+        "label": "لَىّ",
+        "definitionHtml": "لَىّ layy [v. n. used adverbially] twisting *<br><br>(4:46) ‏لَيًّا ‏ ‏بِأَلْسِنَتِهِم distorting with their tongues, distorting the words.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:08.648Z",
+      "refword": "3:78:4",
+      "lexword": "يَلْوُۥنَ"
+    }
+  }
+}

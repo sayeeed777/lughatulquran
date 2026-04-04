@@ -1,0 +1,159 @@
+{
+  "root": "لجج",
+  "rootArabic": "لجج",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "لَجَّ",
+      "count": 2
+    },
+    {
+      "form": "لُجَّةُ",
+      "count": 1
+    },
+    {
+      "form": "لُجِّىّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَجَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لُجِّىّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لُجَّةُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَجَّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 75,
+      "text": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ لَّلَجُّوا۟ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "highlightedHtml": "وَلَوْ رَحِمْنَٰهُمْ وَكَشَفْنَا مَا بِهِم مِّن ضُرٍّ <a class=\"highlight-text\">لَّلَجُّوا۟</a> فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+      "derivedForms": [
+        "لَجَّ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 40,
+      "text": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ لُّجِّىٍّ يَغْشَىٰهُ مَوْجٌ مِّن فَوْقِهِۦ مَوْجٌ مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "highlightedHtml": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ <a class=\"highlight-text\">لُّجِّىٍّ</a> يَغْشَىٰهُ مَوْجٌ مِّن فَوْقِهِۦ مَوْجٌ مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "derivedForms": [
+        "لُجِّىّ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 44,
+      "text": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "قِيلَ لَهَا ٱدْخُلِى ٱلصَّرْحَ ٱلصَّرْحَ ۖ فَلَمَّا رَأَتْهُ حَسِبَتْهُ <a class=\"highlight-text\">لُجَّةً</a> وَكَشَفَتْ عَن سَاقَيْهَا ۚ قَالَ إِنَّهُۥ صَرْحٌ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ ۗ قَالَتْ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى وَأَسْلَمْتُ مَعَ سُلَيْمَٰنَ لِلَّهِ رَبِّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "لُجَّةُ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 21,
+      "text": "أَمَّنْ هَٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّ وَنُفُورٍ",
+      "highlightedHtml": "أَمَّنْ هَٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل <a class=\"highlight-text\">لَّجُّوا۟</a> فِى عُتُوٍّ وَنُفُورٍ",
+      "derivedForms": [
+        "لَجَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:22.517Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "لَّلَجُّوا۟ is in the derivative form: لَجَّ",
+    "rootDefinitionHtml": "ل/ج/ج   l–j–j depths of the sea, abyss<br>; noise; to roar; to continue to argue or dispute obstinately; stammering; convoluted thick herbage. <br><br>Of this root, 3 forms occur in 4 places in the Qur’an:<br> لَجَّ lajja 2 times; لُجَّةُ lujjatun 1 time and لُجِّىّ lujjiyy 1 time.",
+    "mainDefinitionHtml": "لَجَّ lajja i/a [v. intrans.] to persist obstinately <br><br>(23:75)‏ ‏وَلَوْ‏ ‏رَحِمْنَاهُمْ‏ ‏وَكَشَفْنَا مَا‏‏ بِهِمْ ‏مِنْ‏ ‏ضُرٍّ‏ ‏لَلَجُّوا‏ ‏فِي‏ ‏طُغْيَانِهِمْ‏ ‏يَعْمَهُونَ‏ even if We were to show them mercy and remove the affliction that is upon them, they would obstinately persist in their transgression.",
+    "mainEntryId": "wdef-ل-ج-ج.لَجَّ",
+    "entries": [
+      {
+        "id": "wdef-ل-ج-ج",
+        "label": "ل-ج-ج",
+        "definitionHtml": "ل/ج/ج   l–j–j depths of the sea, abyss<br>; noise; to roar; to continue to argue or dispute obstinately; stammering; convoluted thick herbage. <br><br>Of this root, 3 forms occur in 4 places in the Qur’an:<br> لَجَّ lajja 2 times; لُجَّةُ lujjatun 1 time and لُجِّىّ lujjiyy 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ج-ج.لَجَّ",
+        "label": "لَجَّ",
+        "definitionHtml": "لَجَّ lajja i/a [v. intrans.] to persist obstinately <br><br>(23:75)‏ ‏وَلَوْ‏ ‏رَحِمْنَاهُمْ‏ ‏وَكَشَفْنَا مَا‏‏ بِهِمْ ‏مِنْ‏ ‏ضُرٍّ‏ ‏لَلَجُّوا‏ ‏فِي‏ ‏طُغْيَانِهِمْ‏ ‏يَعْمَهُونَ‏ even if We were to show them mercy and remove the affliction that is upon them, they would obstinately persist in their transgression.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ج-ج.لُجَّةُ",
+        "label": "لُجَّةُ",
+        "definitionHtml": "لُجَّةُ lujjatun [n.] body of water, pool <br><br>(27:44) قِيلَ‏ ‏لَهَا‏ ‏ادْخُلِي الصَّرْحَ‏ ‏فَلَمَّا رَأَتْهُ‏‏ حَسِبَتْهُ‏ ‏لُجَّةً‏ ‏وَكَشَفَتْ‏ ‏عَنْ‏ ‏سَاقَيْهَا‏ it was said to her, ‘Enter the palace/palace hall,’ but when she saw it, she took it to be a deep pool of water, and bared her legs.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ج-ج.لُجِّىّ",
+        "label": "لُجِّىّ",
+        "definitionHtml": "لُجِّىّ lujjiyy [quas‐act.part.] (of the sea) tumultuous and deep, turbulent, fathomless <br><br>(24:40) أَوْ‏ ‏كَظُلُمَاتٍ‏ ‏فِى‏ ‏بَحْرٍ‏ ‏لُجِّيٍّ يَغْشَاهُ‏ ‏مَوْجٌ‏ ‏مِنْ‏ ‏فَوْقِهِ‏ ‏مَوْجٌ‏ ‏مِنْ‏ ‏فَوْقِهِ‏ ‏سَحَابٌ‏ ‏or like darkness on a tumultuous sea, topped by wave(s) upon wave(s), above them are clouds.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:02.479Z",
+      "refword": "23:75:8",
+      "lexword": "لَّلَجُّوا۟"
+    }
+  }
+}

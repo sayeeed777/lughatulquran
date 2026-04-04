@@ -1,0 +1,135 @@
+{
+  "root": "مسح",
+  "rootArabic": "مسح",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَسَحَ",
+      "count": 3
+    },
+    {
+      "form": "مَسْح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسَحَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَسَحَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 43,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا <a class=\"highlight-text\">فَٱمْسَحُوا۟</a> بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "derivedForms": [
+        "مَسَحَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ <a class=\"highlight-text\">وَٱمْسَحُوا۟</a> بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا <a class=\"highlight-text\">فَٱمْسَحُوا۟</a> بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "مَسَحَ",
+        "مَسَحَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 33,
+      "text": "رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ مَسْحًۢا بِٱلسُّوقِ وَٱلْأَعْنَاقِ",
+      "highlightedHtml": "رُدُّوهَا عَلَىَّ ۖ فَطَفِقَ <a class=\"highlight-text\">مَسْحًۢا</a> بِٱلسُّوقِ وَٱلْأَعْنَاقِ",
+      "derivedForms": [
+        "مَسْح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:20.134Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperative verb",
+    "derivativeNote": "فَٱمْسَحُوا۟ is in the derivative form: مَسَحَ",
+    "rootDefinitionHtml": "م/س/ح   m–s–ḥ to wipe off, to caress<br>; to anoint; to shake hands over a deal; flat barren land; to deceive by insincere words, insincere person, a lie; to travel in the land; to cut off, to smite. Some philologists classify المَسِيح ʾal‐Masıḥ under this root, while others recognise it as a borrowing from Hebrew. <br><br>Of this root, 3 forms occur 15 times in the Qur’an:<br> اِمْسَحوا ʾimsaḥū 3 times; مَسْح masḥ 1 time and المَسِيح ʾal‐Masıḥ 11 times.",
+    "mainDefinitionHtml": "مَسَحَ masaḥa a [v. trans. with prep. ﺒ] to wipe, to caress, to run the palm of the hand along or over <br><br>(5:6)‏فَتَيَمَّمُوا‏ ‏صَعِيدًا‏ ‏طَيِّبًا‏ ‏فَامْسَحُوا‏ ‏بِوُجُوهِكُمْ‏ ‏وَأَيْدِيكُمْ‏ ‏مِنْهُ‏ so find some clean earth and wipe your face and hands with it.",
+    "mainEntryId": "wdef-م-س-ح.مَسَحَ",
+    "entries": [
+      {
+        "id": "wdef-م-س-ح",
+        "label": "م-س-ح",
+        "definitionHtml": "م/س/ح   m–s–ḥ to wipe off, to caress<br>; to anoint; to shake hands over a deal; flat barren land; to deceive by insincere words, insincere person, a lie; to travel in the land; to cut off, to smite. Some philologists classify المَسِيح ʾal‐Masıḥ under this root, while others recognise it as a borrowing from Hebrew. <br><br>Of this root, 3 forms occur 15 times in the Qur’an:<br> اِمْسَحوا ʾimsaḥū 3 times; مَسْح masḥ 1 time and المَسِيح ʾal‐Masıḥ 11 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-س-ح.مَسَحَ",
+        "label": "مَسَحَ",
+        "definitionHtml": "مَسَحَ masaḥa a [v. trans. with prep. ﺒ] to wipe, to caress, to run the palm of the hand along or over <br><br>(5:6)‏فَتَيَمَّمُوا‏ ‏صَعِيدًا‏ ‏طَيِّبًا‏ ‏فَامْسَحُوا‏ ‏بِوُجُوهِكُمْ‏ ‏وَأَيْدِيكُمْ‏ ‏مِنْهُ‏ so find some clean earth and wipe your face and hands with it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-س-ح.المَسِيح",
+        "label": "المَسِيح",
+        "definitionHtml": "المَسِيح ʾal‐Masıḥ [proper name] literally, the anointed; the traveller; the one who cures by caressing; the Messiah <br><br>(3:45)‏يَامَرْيَمُ‏ ‏إِنَّ‏ ‏اللَّهَ‏ ‏يُبَشِّرُكِ‏ ‏بِكَلِمَةٍ‏ ‏مِنْهُ‏ ‏اسْمُهُ‏ ‏الْمَسِيحُ‏ ‏عِيسَى‏ ‏ابْنُ‏ ‏مَرْيَمَ‏‏ Mary, God gives you good tidings of a Word from Him, whose name will be the Messiah, Jesus, son of Mary. The character of Jesus features very prominently in the Qur’an, being referred to over <br><br><strong>25 </strong>times in the text. He is identified as a Prophet sent to the Children of Israel and a recipient of sacred scripture <br><br>(61:6; 3:45–59). Particular emphasis is placed upon his human qualities <br><br>(43:59; 9:30). The Qur’an refers to the miraculous nature of his conception, describing his mother, Mary, as a chaste woman <br><br>(5:75). Reference is also made to his being bestowed with the ability to heal ‘the blind and the leper’ and to raise the dead <br><br>(5:110). The Qur’an emphatically refutes the Christian doctrine of the Trinity at a number of junctures, referring to Jesus in the same vein as venerated Prophets of the Old Testament <br><br>(5:75; 4:163). Indeed, it uses the account of the creation of Adam to highlight parallels regarding Jesus’s status and conception <br><br>(3:55); in a number of instances Jesus is described as being supported with the ‘Holy Spirit’ <br><br>(2:87). Critically, the Qur’an refutes the notion of Jesus’s crucifixion, stating that he ‘was not killed, nor was he crucified, but it appeared to them so’ <br><br>(4:155; 3:55).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-س-ح.مَسْح",
+        "label": "مَسْح",
+        "definitionHtml": "مَسْح masḥ [v. n.] the commentators’ opinions vary greatly as to which of the senses covered by the root م/س/ح m–s–ḥ this verbal noun belongs: the act of wiping, the act of caressing, or smiting [with a sword] <br><br>(38:33) رُدُّوهَا‏ ‏عَلَيَّ‏ ‏فَطَفِقَ‏ ‏مَسْحًا‏ ‏بِالسُّوقِ‏ ‏وَالأَعْنَاقِ‏‏ ‘Bring them back to me!’ [he said], and started stroking [their] legs and necks (or, as in another interpretation: started to smite them, necks and legs, with the sword).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:59.389Z",
+      "refword": "4:43:41",
+      "lexword": "فَٱمْسَحُوا۟"
+    }
+  }
+}

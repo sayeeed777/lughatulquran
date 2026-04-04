@@ -1,0 +1,407 @@
+{
+  "root": "غدو",
+  "rootArabic": "غدو",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 5,
+    "surahCount": 13,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "غَد",
+      "count": 5
+    },
+    {
+      "form": "غُدُوّ",
+      "count": 5
+    },
+    {
+      "form": "غَدا",
+      "count": 3
+    },
+    {
+      "form": "الغَداةُ",
+      "count": 2
+    },
+    {
+      "form": "غَداء",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَدا",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الغَداةُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُدُوّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُدُوّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "الغَداةُ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "غَد",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "غَداء",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُدُوّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُدُوّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غُدُوّ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَد",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غَدا",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 121,
+      "text": "وَإِذْ غَدَوْتَ مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِذْ <a class=\"highlight-text\">غَدَوْتَ</a> مِنْ أَهْلِكَ تُبَوِّئُ ٱلْمُؤْمِنِينَ مَقَٰعِدَ لِلْقِتَالِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "غَدا"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 52,
+      "text": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَا تَطْرُدِ ٱلَّذِينَ يَدْعُونَ رَبَّهُم <a class=\"highlight-text\">بِٱلْغَدَوٰةِ</a> وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ مَا عَلَيْكَ مِنْ حِسَابِهِم مِّن شَىْءٍ وَمَا مِنْ حِسَابِكَ عَلَيْهِم مِّن شَىْءٍ فَتَطْرُدَهُمْ فَتَكُونَ مِنَ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "الغَداةُ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 205,
+      "text": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ بِٱلْغُدُوِّ وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "highlightedHtml": "وَٱذْكُر رَّبَّكَ فِى نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ ٱلْجَهْرِ مِنَ ٱلْقَوْلِ <a class=\"highlight-text\">بِٱلْغُدُوِّ</a> وَٱلْءَاصَالِ وَلَا تَكُن مِّنَ ٱلْغَٰفِلِينَ",
+      "derivedForms": [
+        "غُدُوّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 12,
+      "text": "أَرْسِلْهُ مَعَنَا غَدًا يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "highlightedHtml": "أَرْسِلْهُ مَعَنَا <a class=\"highlight-text\">غَدًا</a> يَرْتَعْ وَيَلْعَبْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "derivedForms": [
+        "غَد"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 15,
+      "text": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم بِٱلْغُدُوِّ وَٱلْءَاصَالِ ۩",
+      "highlightedHtml": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم <a class=\"highlight-text\">بِٱلْغُدُوِّ</a> وَٱلْءَاصَالِ ۩",
+      "derivedForms": [
+        "غُدُوّ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 23,
+      "text": "وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ غَدًا",
+      "highlightedHtml": "وَلَا تَقُولَنَّ لِشَا۟ىْءٍ إِنِّى فَاعِلٌ ذَٰلِكَ <a class=\"highlight-text\">غَدًا</a>",
+      "derivedForms": [
+        "غَد"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 28,
+      "text": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم بِٱلْغَدَوٰةِ وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
+      "highlightedHtml": "وَٱصْبِرْ نَفْسَكَ مَعَ ٱلَّذِينَ يَدْعُونَ رَبَّهُم <a class=\"highlight-text\">بِٱلْغَدَوٰةِ</a> وَٱلْعَشِىِّ يُرِيدُونَ وَجْهَهُۥ ۖ وَلَا تَعْدُ عَيْنَاكَ عَنْهُمْ تُرِيدُ زِينَةَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَا تُطِعْ مَنْ أَغْفَلْنَا قَلْبَهُۥ عَن ذِكْرِنَا وَٱتَّبَعَ هَوَىٰهُ وَكَانَ أَمْرُهُۥ فُرُطًا",
+      "derivedForms": [
+        "الغَداةُ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 62,
+      "text": "فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ آتِنَا غَدَآءَنَا لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا",
+      "highlightedHtml": "فَلَمَّا جَاوَزَا قَالَ لِفَتَىٰهُ آتِنَا <a class=\"highlight-text\">غَدَآءَنَا</a> لَقَدْ لَقِينَا مِن سَفَرِنَا هَٰذَا نَصَبًا",
+      "derivedForms": [
+        "غَداء"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 36,
+      "text": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْءَاصَالِ",
+      "highlightedHtml": "فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا <a class=\"highlight-text\">بِٱلْغُدُوِّ</a> وَٱلْءَاصَالِ",
+      "derivedForms": [
+        "غُدُوّ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 34,
+      "text": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ <a class=\"highlight-text\">غَدًا</a> ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "derivedForms": [
+        "غَد"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 12,
+      "text": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ غُدُوُّهَا شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
+      "highlightedHtml": "وَلِسُلَيْمَٰنَ ٱلرِّيحَ <a class=\"highlight-text\">غُدُوُّهَا</a> شَهْرٌ وَرَوَاحُهَا شَهْرٌ ۖ وَأَسَلْنَا لَهُۥ عَيْنَ ٱلْقِطْرِ ۖ وَمِنَ ٱلْجِنِّ مَن يَعْمَلُ بَيْنَ يَدَيْهِ بِإِذْنِ رَبِّهِۦ ۖ وَمَن يَزِغْ مِنْهُمْ عَنْ أَمْرِنَا نُذِقْهُ مِنْ عَذَابِ ٱلسَّعِيرِ",
+      "derivedForms": [
+        "غُدُوّ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 46,
+      "text": "ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا غُدُوًّا وَعَشِيًّا ۖ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوٓا۟ آلَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ",
+      "highlightedHtml": "ٱلنَّارُ يُعْرَضُونَ عَلَيْهَا <a class=\"highlight-text\">غُدُوًّا</a> وَعَشِيًّا ۖ وَيَوْمَ تَقُومُ ٱلسَّاعَةُ أَدْخِلُوٓا۟ آلَ فِرْعَوْنَ أَشَدَّ ٱلْعَذَابِ",
+      "derivedForms": [
+        "غُدُوّ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 26,
+      "text": "سَيَعْلَمُونَ غَدًا مَّنِ ٱلْكَذَّابُ ٱلْأَشِرُ",
+      "highlightedHtml": "سَيَعْلَمُونَ <a class=\"highlight-text\">غَدًا</a> مَّنِ ٱلْكَذَّابُ ٱلْأَشِرُ",
+      "derivedForms": [
+        "غَد"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 18,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ <a class=\"highlight-text\">لِغَدٍ</a> ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "غَد"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 22,
+      "text": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+      "highlightedHtml": "أَنِ <a class=\"highlight-text\">ٱغْدُوا۟</a> عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+      "derivedForms": [
+        "غَدا"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 25,
+      "text": "وَغَدَوْا۟ عَلَىٰ حَرْدٍ قَٰدِرِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَغَدَوْا۟</a> عَلَىٰ حَرْدٍ قَٰدِرِينَ",
+      "derivedForms": [
+        "غَدا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:49.149Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular perfect verb",
+    "derivativeNote": "غَدَوْتَ is in the derivative form: غَدا",
+    "rootDefinitionHtml": "غ/د/و   gh–d–w time between the break of dawn and the rising of the sun, to do things during such time<br>; the morrow, future. <br><br>Of this root, 5 forms occur 16 times in the Qur’an:<br> غَدا ghadā 3 times; غَد ghad 5 times; غُدُوّ ghuduww 5 times; غَداةٌ ghadātun 2 times and غَداء ghadāʾ 1 time.",
+    "mainDefinitionHtml": "غَدا ghadā u [v. intrans.] to go in the early hours of the morning <br><br>(68:25) وَغَدَوْا عَلَى حَرْدٍ قَادِرِينَ they left early, bent on their purpose [of depriving the poor].",
+    "mainEntryId": "wdef-غ-د-و.غَدا",
+    "entries": [
+      {
+        "id": "wdef-غ-د-و",
+        "label": "غ-د-و",
+        "definitionHtml": "غ/د/و   gh–d–w time between the break of dawn and the rising of the sun, to do things during such time<br>; the morrow, future. <br><br>Of this root, 5 forms occur 16 times in the Qur’an:<br> غَدا ghadā 3 times; غَد ghad 5 times; غُدُوّ ghuduww 5 times; غَداةٌ ghadātun 2 times and غَداء ghadāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-د-و.غَدا",
+        "label": "غَدا",
+        "definitionHtml": "غَدا ghadā u [v. intrans.] to go in the early hours of the morning <br><br>(68:25) وَغَدَوْا عَلَى حَرْدٍ قَادِرِينَ they left early, bent on their purpose [of depriving the poor].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-د-و.الغَداةُ",
+        "label": "الغَداةُ",
+        "definitionHtml": "الغَداةُ ʾal‐ghadātu [n.] the morning *<br><br>(18:28) بِالغَداة‏ ‏وَالْعَشِيِّ morning and evening, constantly, all the time.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-د-و.غَد",
+        "label": "غَد",
+        "definitionHtml": "غَد ghad I [n.] tomorrow, the future <br><br>(59:18) وَلْتَنْظُرْ نَفْسٌ مَا قَدَّمَتْ لِغَدٍ and let every soul consider carefully what it sends ahead for tomorrow II [adv. of time] <br><br><strong>1 </strong>tomorrow, on the day after today <br><br>(12:12) ‏وَيَلْعَبْ‏ ‏ أَرْسِلْهُ‏ ‏مَعَنَا‏ ‏غَدًا‏ ‏يَرْتَعْ send him with us tomorrow to run about and play <br><br><strong>2 </strong>in the future <br><br>(31:34) وَمَا‏ ‏تَدْرِي‏ ‏نَفْسٌ‏ ‏مَاذَا‏ ‏تَكْسِبُ‏ ‏غَدًا and no soul knows what it will reap in the future [lit. tomorrow].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-د-و.غَداء",
+        "label": "غَداء",
+        "definitionHtml": "غَداء ghadāʾ [n.] midday meal <br><br>(18:62) ‏قَالَ‏ ‏لِفَتَاهُ ءَاتِنَا‏ ‏غَدَاءَنَا‏he said to his servant, ‘Fetch us our lunch!’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-د-و.غُدُوّ",
+        "label": "غُدُوّ",
+        "definitionHtml": "غُدُوّ ghuduww [v. n/n.] <br><br><strong>1 </strong>the early hours *<br><br>(24:36–7)‏يُسَبِّحُ‏ ‏لَهُ‏ ‏فِيهَا‏ ‏بِالْغُدُوِّ‏ ‏وَالآصَال رِجَالٌ لاَ تُلْهِيهِمْ تِجَارَةٌ وَلاَ بَيْعٌ عَنْ ذِكْرِ اللَّهِ‏‏ِ people who are not distracted from the remembrance of God by either merchandise or sale offer praise to Him constantly [lit. morning and evening] in them [houses of worship] <br><br><strong>2 </strong>the act of going out, the outward trip <br><br>(34:12) وَلِسُلَيْمَانَ الرِّيحَ غُدُوُّهَا شَهْرٌ and [We subjected] the wind to Solomon; its outward journey [took] a month.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:17.112Z",
+      "refword": "3:121:2",
+      "lexword": "غَدَوْتَ"
+    }
+  }
+}

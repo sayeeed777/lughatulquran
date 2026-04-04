@@ -1,0 +1,257 @@
+{
+  "root": "عرج",
+  "rootArabic": "عرج",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "تَعْرُجُ",
+      "count": 5
+    },
+    {
+      "form": "أَعْرَجُ",
+      "count": 2
+    },
+    {
+      "form": "مَعَارِجُ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْرُجُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْرَجُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْرُجُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْرُجُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَعَارِجُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَعْرَجُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعْرُجُ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَعْرُجُ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "مَعَارِجُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 14,
+      "text": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
+      "highlightedHtml": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ <a class=\"highlight-text\">يَعْرُجُونَ</a>",
+      "derivedForms": [
+        "تَعْرُجُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 61,
+      "text": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "highlightedHtml": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى <a class=\"highlight-text\">ٱلْأَعْرَجِ</a> حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَٰمِكُمْ أَوْ بُيُوتِ عَمَّٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَٰلَٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْءَايَٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "أَعْرَجُ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 5,
+      "text": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ <a class=\"highlight-text\">يَعْرُجُ</a> إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "تَعْرُجُ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 2,
+      "text": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
+      "highlightedHtml": "يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا <a class=\"highlight-text\">يَعْرُجُ</a> فِيهَا ۚ وَهُوَ ٱلرَّحِيمُ ٱلْغَفُورُ",
+      "derivedForms": [
+        "تَعْرُجُ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 33,
+      "text": "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ بِٱلرَّحْمَٰنِ لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ وَمَعَارِجَ عَلَيْهَا يَظْهَرُونَ",
+      "highlightedHtml": "وَلَوْلَآ أَن يَكُونَ ٱلنَّاسُ أُمَّةً وَٰحِدَةً لَّجَعَلْنَا لِمَن يَكْفُرُ بِٱلرَّحْمَٰنِ لِبُيُوتِهِمْ سُقُفًا مِّن فِضَّةٍ <a class=\"highlight-text\">وَمَعَارِجَ</a> عَلَيْهَا يَظْهَرُونَ",
+      "derivedForms": [
+        "مَعَارِجُ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 17,
+      "text": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ وَمَن يَتَوَلَّ يُعَذِّبْهُ عَذَابًا أَلِيمًا",
+      "highlightedHtml": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى <a class=\"highlight-text\">ٱلْأَعْرَجِ</a> حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ وَمَن يَتَوَلَّ يُعَذِّبْهُ عَذَابًا أَلِيمًا",
+      "derivedForms": [
+        "أَعْرَجُ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 4,
+      "text": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا يَعْرُجُ فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ ۚ يَعْلَمُ مَا يَلِجُ فِى ٱلْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ ٱلسَّمَآءِ وَمَا <a class=\"highlight-text\">يَعْرُجُ</a> فِيهَا ۖ وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "تَعْرُجُ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 3,
+      "text": "مِّنَ ٱللَّهِ ذِى ٱلْمَعَارِجِ",
+      "highlightedHtml": "مِّنَ ٱللَّهِ ذِى <a class=\"highlight-text\">ٱلْمَعَارِجِ</a>",
+      "derivedForms": [
+        "مَعَارِجُ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 4,
+      "text": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">تَعْرُجُ</a> ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
+      "derivedForms": [
+        "تَعْرُجُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:41.430Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَعْرُجُونَ is in the derivative form: تَعْرُجُ",
+    "rootDefinitionHtml": "ع/ر/ج   ʿ–r–j to be lame, to walk with a limp<br>; to ascend, flight of steps; zigzagging road, to zigzag; to call upon. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> تَعْرُجُ taʿruj 5 times; الأَعْرَجُ ʾal‐ʾaʿraj 2 times and مَعَارِجُ maʿārij 2 times.",
+    "mainDefinitionHtml": "تَعْرُجُ taʿruj [imperf. of v. عَرَجَ ʿaraja, intrans.] to ascend <br><br>(57:4) ‏‏وَمَا‏ ‏يَنْزِلُ‏ ‏مِنَ‏ ‏السَّمَاءِ‏ ‏وَمَا‏ ‏يَعْرُجُ‏ ‏فِيهَا and that which descends from the sky and that which ascends to it.",
+    "mainEntryId": "wdef-ع-ر-ج.تَعْرُجُ",
+    "entries": [
+      {
+        "id": "wdef-ع-ر-ج",
+        "label": "ع-ر-ج",
+        "definitionHtml": "ع/ر/ج   ʿ–r–j to be lame, to walk with a limp<br>; to ascend, flight of steps; zigzagging road, to zigzag; to call upon. <br><br>Of this root, 3 forms occur 9 times in the Qur’an:<br> تَعْرُجُ taʿruj 5 times; الأَعْرَجُ ʾal‐ʾaʿraj 2 times and مَعَارِجُ maʿārij 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ر-ج.تَعْرُجُ",
+        "label": "تَعْرُجُ",
+        "definitionHtml": "تَعْرُجُ taʿruj [imperf. of v. عَرَجَ ʿaraja, intrans.] to ascend <br><br>(57:4) ‏‏وَمَا‏ ‏يَنْزِلُ‏ ‏مِنَ‏ ‏السَّمَاءِ‏ ‏وَمَا‏ ‏يَعْرُجُ‏ ‏فِيهَا and that which descends from the sky and that which ascends to it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ر-ج.أَعْرَجُ",
+        "label": "أَعْرَجُ",
+        "definitionHtml": "أَعْرَجُ ʾaʿraj [quasi‐act. part.] lame <br><br>(24:61) ‏وَلاَ‏ ‏عَلَى‏ ‏الأَعْرَجِ‏ ‏حَرَجٌ‏ nor any blame upon the lame.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ر-ج.مَعَارِجُ",
+        "label": "مَعَارِجُ",
+        "definitionHtml": "مَعَارِجُ maʿārij [pl. of n. of place/instrument مَعْرَج maʿraj] ladders, stairs, ascending roads <br><br>(43:33) ‏ ‏وَمَعَارِجَ‏ ‏عَلَيْهَا‏ ‏يَظْهَرُون َand staircases upon which they ascend; * المَعَارِجُname of Sura 70, Meccan sura, so-named because of the reference in verse <br><br><strong>3 </strong>to ‘the Ways of Ascent’.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:08.911Z",
+      "refword": "15:14:9",
+      "lexword": "يَعْرُجُونَ"
+    }
+  }
+}

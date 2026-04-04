@@ -1,0 +1,192 @@
+{
+  "root": "اسر",
+  "rootArabic": "اسر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أَسِيرٌ",
+      "count": 4
+    },
+    {
+      "form": "أَسْرٌ",
+      "count": 1
+    },
+    {
+      "form": "أسْرى",
+      "count": 1
+    },
+    {
+      "form": "تَأْسِرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَسِيرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَسِيرٌ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "أسْرى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَأْسِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَسْرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "أَسِيرٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 85,
+      "text": "ثُمَّ أَنتُمْ هَٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِّنكُم مِّن دِيَٰرِهِمْ تَظَٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ أُسَٰرَىٰ تُفَٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ ۚ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَٰبِ وَتَكْفُرُونَ بِبَعْضٍ ۚ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَيَوْمَ ٱلْقِيَٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "highlightedHtml": "ثُمَّ أَنتُمْ هَٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِّنكُم مِّن دِيَٰرِهِمْ تَظَٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ <a class=\"highlight-text\">أُسَٰرَىٰ</a> تُفَٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ ۚ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَٰبِ وَتَكْفُرُونَ بِبَعْضٍ ۚ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَيَوْمَ ٱلْقِيَٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ",
+      "derivedForms": [
+        "أَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 67,
+      "text": "مَا كَانَ لِنَبِىٍّ أَن يَكُونَ لَهُۥٓ أَسْرَىٰ أَسْرَىٰ حَتَّىٰ يُثْخِنَ فِى ٱلْأَرْضِ ۚ تُرِيدُونَ عَرَضَ ٱلدُّنْيَا وَٱللَّهُ يُرِيدُ الْآخِرَةَ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "مَا كَانَ لِنَبِىٍّ أَن يَكُونَ لَهُۥٓ <a class=\"highlight-text\">أَسْرَىٰ</a> <a class=\"highlight-text\">أَسْرَىٰ</a> حَتَّىٰ يُثْخِنَ فِى ٱلْأَرْضِ ۚ تُرِيدُونَ عَرَضَ ٱلدُّنْيَا وَٱللَّهُ يُرِيدُ الْآخِرَةَ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "أَسِيرٌ",
+        "أسْرى"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 70,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ <a class=\"highlight-text\">ٱلْأَسْرَىٰٓ</a> إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "أَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 26,
+      "text": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنْ أَهْلِ ٱلْكِتَٰبِ مِن صَيَاصِيهِمْ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا",
+      "highlightedHtml": "وَأَنزَلَ ٱلَّذِينَ ظَٰهَرُوهُم مِّنْ أَهْلِ ٱلْكِتَٰبِ مِن صَيَاصِيهِمْ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ فَرِيقًا تَقْتُلُونَ <a class=\"highlight-text\">وَتَأْسِرُونَ</a> فَرِيقًا",
+      "derivedForms": [
+        "تَأْسِرٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 8,
+      "text": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
+      "highlightedHtml": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا <a class=\"highlight-text\">وَأَسِيرًا</a>",
+      "derivedForms": [
+        "أَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 28,
+      "text": "نَّحْنُ خَلَقْنَٰهُمْ وَشَدَدْنَآ أَسْرَهُمْ ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَٰلَهُمْ تَبْدِيلًا",
+      "highlightedHtml": "نَّحْنُ خَلَقْنَٰهُمْ وَشَدَدْنَآ <a class=\"highlight-text\">أَسْرَهُمْ</a> ۖ وَإِذَا شِئْنَا بَدَّلْنَآ أَمْثَٰلَهُمْ تَبْدِيلًا",
+      "derivedForms": [
+        "أَسْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:29.733Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural noun",
+    "derivativeNote": "أُسَٰرَىٰ is in the derivative form: أَسِيرٌ",
+    "rootDefinitionHtml": "أ/س/ر ʾ–s–r shield, shackles, bondage, to shackle, to capture<br>; captive; family, limbs, physique, body structure. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> تَأْسِرُون taʾsirūn 1 time; أَسْرٌ ʾasr 1 time; أَسِيرٌ ʾasīr 1 time; أَسْرَى ʾasrā 2 times and أُسَارَى ʾusārā 1 time.",
+    "mainDefinitionHtml": "أَسِيرٌ ʾasīr [n./quasi-pass. part.; pl. أَسْرَى ʾasrā and أُسَارَى ʾusārā] prisoner of war <br><br>(8:70) يَاأَيُّهَا النَّبِيُّ قُلْ لِمَنْ فِى أَيْدِيكُمْ مِنَ الأَسْرَى إِنْ يَعْلَمِ اللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِمَّا أُخِذَ مِنْكُمْ Prophet, tell the war captives in your hands, ‘If God knows of any good in your hearts, He will give you better than what has been taken from you.’",
+    "mainEntryId": "wdef-أ-س-ر.أَسِيرٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-س-ر",
+        "label": "أ-س-ر",
+        "definitionHtml": "أ/س/ر ʾ–s–r shield, shackles, bondage, to shackle, to capture<br>; captive; family, limbs, physique, body structure. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> تَأْسِرُون taʾsirūn 1 time; أَسْرٌ ʾasr 1 time; أَسِيرٌ ʾasīr 1 time; أَسْرَى ʾasrā 2 times and أُسَارَى ʾusārā 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-ر.أَسِيرٌ",
+        "label": "أَسِيرٌ",
+        "definitionHtml": "أَسِيرٌ ʾasīr [n./quasi-pass. part.; pl. أَسْرَى ʾasrā and أُسَارَى ʾusārā] prisoner of war <br><br>(8:70) يَاأَيُّهَا النَّبِيُّ قُلْ لِمَنْ فِى أَيْدِيكُمْ مِنَ الأَسْرَى إِنْ يَعْلَمِ اللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِمَّا أُخِذَ مِنْكُمْ Prophet, tell the war captives in your hands, ‘If God knows of any good in your hearts, He will give you better than what has been taken from you.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-س-ر.أَسْرٌ",
+        "label": "أَسْرٌ",
+        "definitionHtml": "أَسْرٌ ʾasr [n.] physique, build, bodily structure; constitution <br><br>(76:28) نَحْنُ خَلَقْنَاهُمْ وَشَدَدْنَا أَسْرَهُمْ We it is who have fashioned them and strengthened their constitution.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-س-ر.تَأْسِرٌ",
+        "label": "تَأْسِرٌ",
+        "definitionHtml": "تَأْسِرٌ taʾsir [imperf. of v. أَسَرَ ʾasara, trans.] to take as prisoner of war, to take as captive <br><br>(33:26) فَرِيقًا تَقْتُلُونَ وَتَأْسِرُونَ فَرِيقًا some of them you killed and some you took captive.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:06.722Z",
+      "refword": "2:85:17",
+      "lexword": "أُسَٰرَىٰ"
+    }
+  }
+}

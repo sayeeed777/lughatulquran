@@ -1,0 +1,106 @@
+{
+  "root": "زحزح",
+  "rootArabic": "زحزح",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "زُحْزِحَ",
+      "count": 1
+    },
+    {
+      "form": "مُزَحْزِح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُزَحْزِح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زُحْزِحَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 96,
+      "text": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ <a class=\"highlight-text\">بِمُزَحْزِحِهِۦ</a> مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "مُزَحْزِح"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 185,
+      "text": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۖ فَمَن زُحْزِحَ عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۗ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۖ فَمَن <a class=\"highlight-text\">زُحْزِحَ</a> عَنِ ٱلنَّارِ وَأُدْخِلَ ٱلْجَنَّةَ فَقَدْ فَازَ ۗ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "زُحْزِحَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:01.306Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form II) active participle",
+    "derivativeNote": "بِمُزَحْزِحِهِۦ is in the derivative form: مُزَحْزِح",
+    "rootDefinitionHtml": "ز/ح/ز/ح   z–ḥ–z–ḥ to budge, to dislodge, to shift, to push away. This root can be regarded as a further derivative of the root ز/ح/ح z–ḥ–ḥ. Of this root, زُحْزِحَ zuḥziḥa and مُزَحْزِح muzaḥziḥ occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُزَحْزِح muzaḥziḥ [act. part.] one who causes something or someone to be shifted or removed <br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِ مِنَ الْعَذَابِ أَنْ يُعَمَّرَ any of them would long to be granted longevity for ever [lit. a thousand years], even though being granted longevity would not shift them from the torment.",
+    "mainEntryId": "wdef-ز-ح-ز-ح.مُزَحْزِح",
+    "entries": [
+      {
+        "id": "wdef-ز-ح-ز-ح",
+        "label": "ز-ح-ز-ح",
+        "definitionHtml": "ز/ح/ز/ح   z–ḥ–z–ḥ to budge, to dislodge, to shift, to push away. This root can be regarded as a further derivative of the root ز/ح/ح z–ḥ–ḥ. Of this root, زُحْزِحَ zuḥziḥa and مُزَحْزِح muzaḥziḥ occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ح-ز-ح.مُزَحْزِح",
+        "label": "مُزَحْزِح",
+        "definitionHtml": "مُزَحْزِح muzaḥziḥ [act. part.] one who causes something or someone to be shifted or removed <br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِ مِنَ الْعَذَابِ أَنْ يُعَمَّرَ any of them would long to be granted longevity for ever [lit. a thousand years], even though being granted longevity would not shift them from the torment.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ح-ز-ح.زُحْزِحَ",
+        "label": "زُحْزِحَ",
+        "definitionHtml": "زُحْزِحَ zuḥziḥa [pass. v.] moved away, shifted away <br><br>(3:185) فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ whoever is shifted away from the Fire and admitted to the Garden will have triumphed.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:07.965Z",
+      "refword": "2:96:17",
+      "lexword": "بِمُزَحْزِحِهِۦ"
+    }
+  }
+}

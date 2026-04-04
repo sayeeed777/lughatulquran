@@ -1,0 +1,455 @@
+{
+  "root": "وزن",
+  "rootArabic": "وزن",
+  "stats": {
+    "totalOccurrences": 23,
+    "derivativeCount": 4,
+    "surahCount": 14,
+    "ayahCount": 21
+  },
+  "derivatives": [
+    {
+      "form": "مِيزَانٌ",
+      "count": 16
+    },
+    {
+      "form": "وَزَنَ",
+      "count": 3
+    },
+    {
+      "form": "وَزْنٌ",
+      "count": 3
+    },
+    {
+      "form": "مَوْزُونٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 3,
+          "totalInQuran": 16
+        },
+        {
+          "form": "وَزْنٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْزُونٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزَنَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزْنٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزَنَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 3,
+          "totalInQuran": 16
+        },
+        {
+          "form": "وَزْنٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَزَنَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مِيزَانٌ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 152,
+      "text": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 8,
+      "text": "وَٱلْوَزْنُ يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلْوَزْنُ</a> يَوْمَئِذٍ ٱلْحَقُّ ۚ فَمَن ثَقُلَتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a> فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "وَزْنٌ",
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 9,
+      "text": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ",
+      "highlightedHtml": "وَمَنْ خَفَّتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a> فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُم بِمَا كَانُوا۟ بِـَٔايَٰتِنَا يَظْلِمُونَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 85,
+      "text": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "highlightedHtml": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 84,
+      "text": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "highlightedHtml": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 85,
+      "text": "وَيَٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "highlightedHtml": "وَيَٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 19,
+      "text": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "highlightedHtml": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ <a class=\"highlight-text\">مَّوْزُونٍ</a>",
+      "derivedForms": [
+        "مَوْزُونٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 35,
+      "text": "وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+      "highlightedHtml": "وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ <a class=\"highlight-text\">وَزِنُوا۟</a> بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+      "derivedForms": [
+        "وَزَنَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 105,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَٰمَةِ وَزْنًا",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِ رَبِّهِمْ وَلِقَآئِهِۦ فَحَبِطَتْ أَعْمَٰلُهُمْ فَلَا نُقِيمُ لَهُمْ يَوْمَ ٱلْقِيَٰمَةِ <a class=\"highlight-text\">وَزْنًا</a>",
+      "derivedForms": [
+        "وَزْنٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 47,
+      "text": "وَنَضَعُ ٱلْمَوَٰزِينَ ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْـًٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ",
+      "highlightedHtml": "وَنَضَعُ <a class=\"highlight-text\">ٱلْمَوَٰزِينَ</a> ٱلْقِسْطَ لِيَوْمِ ٱلْقِيَٰمَةِ فَلَا تُظْلَمُ نَفْسٌ شَيْـًٔا ۖ وَإِن كَانَ مِثْقَالَ حَبَّةٍ مِّنْ خَرْدَلٍ أَتَيْنَا بِهَا ۗ وَكَفَىٰ بِنَا حَٰسِبِينَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 102,
+      "text": "فَمَن ثَقُلَتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "فَمَن ثَقُلَتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a> فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 103,
+      "text": "وَمَنْ خَفَّتْ مَوَٰزِينُهُۥ فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ",
+      "highlightedHtml": "وَمَنْ خَفَّتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a> فَأُو۟لَٰٓئِكَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ فِى جَهَنَّمَ خَٰلِدُونَ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 182,
+      "text": "وَزِنُوا۟ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَزِنُوا۟</a> بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+      "derivedForms": [
+        "وَزَنَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 17,
+      "text": "ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ وَٱلْمِيزَانَ ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌ",
+      "highlightedHtml": "ٱللَّهُ ٱلَّذِىٓ أَنزَلَ ٱلْكِتَٰبَ بِٱلْحَقِّ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> ۗ وَمَا يُدْرِيكَ لَعَلَّ ٱلسَّاعَةَ قَرِيبٌ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 7,
+      "text": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ",
+      "highlightedHtml": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ <a class=\"highlight-text\">ٱلْمِيزَانَ</a>",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 8,
+      "text": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+      "highlightedHtml": "أَلَّا تَطْغَوْا۟ فِى <a class=\"highlight-text\">ٱلْمِيزَانِ</a>",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 9,
+      "text": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+      "highlightedHtml": "وَأَقِيمُوا۟ <a class=\"highlight-text\">ٱلْوَزْنَ</a> بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ <a class=\"highlight-text\">ٱلْمِيزَانَ</a>",
+      "derivedForms": [
+        "وَزْنٌ",
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 25,
+      "text": "لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ وَٱلْمِيزَانَ لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ وَمَنَٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ قَوِىٌّ عَزِيزٌ",
+      "highlightedHtml": "لَقَدْ أَرْسَلْنَا رُسُلَنَا بِٱلْبَيِّنَٰتِ وَأَنزَلْنَا مَعَهُمُ ٱلْكِتَٰبَ <a class=\"highlight-text\">وَٱلْمِيزَانَ</a> لِيَقُومَ ٱلنَّاسُ بِٱلْقِسْطِ ۖ وَأَنزَلْنَا ٱلْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ وَمَنَٰفِعُ لِلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ مَن يَنصُرُهُۥ وَرُسُلَهُۥ بِٱلْغَيْبِ ۚ إِنَّ ٱللَّهَ قَوِىٌّ قَوِىٌّ عَزِيزٌ",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 3,
+      "text": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+      "highlightedHtml": "وَإِذَا كَالُوهُمْ أَو <a class=\"highlight-text\">وَّزَنُوهُمْ</a> يُخْسِرُونَ",
+      "derivedForms": [
+        "وَزَنَ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 6,
+      "text": "فَأَمَّا مَن ثَقُلَتْ مَوَٰزِينُهُۥ",
+      "highlightedHtml": "فَأَمَّا مَن ثَقُلَتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a>",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 8,
+      "text": "وَأَمَّا مَنْ خَفَّتْ مَوَٰزِينُهُۥ",
+      "highlightedHtml": "وَأَمَّا مَنْ خَفَّتْ <a class=\"highlight-text\">مَوَٰزِينُهُۥ</a>",
+      "derivedForms": [
+        "مِيزَانٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:16.345Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "وَٱلْمِيزَانَ is in the derivative form: مِيزَانٌ",
+    "rootDefinitionHtml": "و/ز/ن   w–z–n weight, measure<br>; scales; to weigh, to weigh out, to estimate, to compare; justice; to be wise; to be parallel with, to be equal or equivalent to. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> وَزَنَ wazana 3 times; وَزْنٌ wazn 3 times; مَوْزُونٌ mawzūn 1 time; مِيزَانٌ mızān 9 times and مَوَازِين mawāzın 7 times.",
+    "mainDefinitionHtml": "مِيزَانٌ mızān [v. n./n. of instrument, pl. مَوَازِين mawāzın] <br><br><strong>1 </strong>weighing/weight; scales <br><br>(7:85) فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ so give full measure and weight <br><br><strong>2 </strong>principles of justice <br><br>(21:47) وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ and We set up fair scales for the Day of Resurrection.",
+    "mainEntryId": "wdef-و-ز-ن.مِيزَانٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ز-ن",
+        "label": "و-ز-ن",
+        "definitionHtml": "و/ز/ن   w–z–n weight, measure<br>; scales; to weigh, to weigh out, to estimate, to compare; justice; to be wise; to be parallel with, to be equal or equivalent to. <br><br>Of this root, 5 forms occur 23 times in the Qur’an:<br> وَزَنَ wazana 3 times; وَزْنٌ wazn 3 times; مَوْزُونٌ mawzūn 1 time; مِيزَانٌ mızān 9 times and مَوَازِين mawāzın 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ن.مِيزَانٌ",
+        "label": "مِيزَانٌ",
+        "definitionHtml": "مِيزَانٌ mızān [v. n./n. of instrument, pl. مَوَازِين mawāzın] <br><br><strong>1 </strong>weighing/weight; scales <br><br>(7:85) فَأَوْفُوا الْكَيْلَ وَالْمِيزَانَ so give full measure and weight <br><br><strong>2 </strong>principles of justice <br><br>(21:47) وَنَضَعُ الْمَوَازِينَ الْقِسْطَ لِيَوْمِ الْقِيَامَةِ and We set up fair scales for the Day of Resurrection.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ز-ن.مَوْزُونٌ",
+        "label": "مَوْزُونٌ",
+        "definitionHtml": "مَوْزُونٌ mawzūn [pass. part.] balanced, well‐proportioned <br><br>(15:19) وَأَنْبَتْنَا فِيهَا مِنْ كُلِّ شَيْءٍ مَوْزُونٍ and We have caused to grow on [the earth] [some] of everything that is in good balance.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ن.وَزَنَ",
+        "label": "وَزَنَ",
+        "definitionHtml": "وَزَنَ wazana [v. trans.] <br><br><strong>1 </strong>to weigh <br><br>(17:35) وَزِنُوا بِالْقِسْطَاسِ الْمُسْتَقِيمِ weigh with [correctly] balanced scales <br><br><strong>2 </strong>[v. doubly trans.] to weigh out something for someone <br><br>(83:3) وَإِذَا كَالُوهُمْ أَوْ وَزَنُوهُمْ يُخْسِرُونَ but when they measure or weigh [goods] for others, they give less than they should.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ز-ن.وَزْنٌ",
+        "label": "وَزْنٌ",
+        "definitionHtml": "وَزْنٌ wazn [v. n./n.] weighing, weight <br><br>(7:8) وَالْوَزْنُ يَوْمَئِذٍ الْحَقُّ On that Day the weighing [of deeds] will be true and just; *<br><br>(18:105) فَلاَ نُقِيمُ لَهُمْ يَوْمَ الْقِيَامَةِ وَزْنًا We shall not show them any consideration [lit. We will not set up for them, on the Day of Resurrection, any weighing up (or, We shall not owe any weight to them)].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:03:37.233Z",
+      "refword": "6:152:14",
+      "lexword": "وَٱلْمِيزَانَ"
+    }
+  }
+}

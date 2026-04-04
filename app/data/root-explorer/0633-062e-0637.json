@@ -1,0 +1,159 @@
+{
+  "root": "سخط",
+  "rootArabic": "سخط",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "سَخِطَ",
+      "count": 2
+    },
+    {
+      "form": "أسْخَطَ",
+      "count": 1
+    },
+    {
+      "form": "سَخَط",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَخَط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَخِطَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَخِطَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْخَطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 162,
+      "text": "أَفَمَنِ ٱتَّبَعَ رِضْوَٰنَ ٱللَّهِ كَمَنۢ بَآءَ بِسَخَطٍ مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "أَفَمَنِ ٱتَّبَعَ رِضْوَٰنَ ٱللَّهِ كَمَنۢ بَآءَ <a class=\"highlight-text\">بِسَخَطٍ</a> مِّنَ ٱللَّهِ وَمَأْوَىٰهُ جَهَنَّمُ ۚ وَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "سَخَط"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 80,
+      "text": "تَرَىٰ كَثِيرًا مِّنْهُمْ يَتَوَلَّوْنَ ٱلَّذِينَ كَفَرُوا۟ ۚ لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنفُسُهُمْ أَن سَخِطَ ٱللَّهُ عَلَيْهِمْ وَفِى ٱلْعَذَابِ هُمْ خَٰلِدُونَ",
+      "highlightedHtml": "تَرَىٰ كَثِيرًا مِّنْهُمْ يَتَوَلَّوْنَ ٱلَّذِينَ كَفَرُوا۟ ۚ لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنفُسُهُمْ أَن <a class=\"highlight-text\">سَخِطَ</a> ٱللَّهُ عَلَيْهِمْ وَفِى ٱلْعَذَابِ هُمْ خَٰلِدُونَ",
+      "derivedForms": [
+        "سَخِطَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 58,
+      "text": "وَمِنْهُم مَّن يَلْمِزُكَ فِى ٱلصَّدَقَٰتِ فَإِنْ أُعْطُوا۟ مِنْهَا رَضُوا۟ وَإِن لَّمْ يُعْطَوْا۟ مِنْهَآ إِذَا هُمْ يَسْخَطُونَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَلْمِزُكَ فِى ٱلصَّدَقَٰتِ فَإِنْ أُعْطُوا۟ مِنْهَا رَضُوا۟ وَإِن لَّمْ يُعْطَوْا۟ مِنْهَآ إِذَا هُمْ <a class=\"highlight-text\">يَسْخَطُونَ</a>",
+      "derivedForms": [
+        "سَخِطَ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 28,
+      "text": "ذَٰلِكَ بِأَنَّهُمُ ٱتَّبَعُوا۟ مَآ أَسْخَطَ ٱللَّهَ وَكَرِهُوا۟ رِضْوَٰنَهُۥ فَأَحْبَطَ أَعْمَٰلَهُمْ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّهُمُ ٱتَّبَعُوا۟ مَآ <a class=\"highlight-text\">أَسْخَطَ</a> ٱللَّهَ وَكَرِهُوا۟ رِضْوَٰنَهُۥ فَأَحْبَطَ أَعْمَٰلَهُمْ",
+      "derivedForms": [
+        "أسْخَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:46.708Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "بِسَخَطٍ is in the derivative form: سَخَط",
+    "rootDefinitionHtml": "س/خ/ط   s–kh–ṭ wrath, anger, displeasure. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سَخِطَ sakhiṭa 2 times; أسْخطَ ʾaskhaṭa 1 time and سَخَط sakhaṭ 1 time.",
+    "mainDefinitionHtml": "سَخَط sakhaṭ [n./v. n.] anger, wrath, rage, condemnation <br><br>(3:162) أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ مِنَ اللَّهِ is the one who pursues God’s good pleasure like the one who has incurred God’s wrath?",
+    "mainEntryId": "wdef-س-خ-ط.سَخَط",
+    "entries": [
+      {
+        "id": "wdef-س-خ-ط",
+        "label": "س-خ-ط",
+        "definitionHtml": "س/خ/ط   s–kh–ṭ wrath, anger, displeasure. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> سَخِطَ sakhiṭa 2 times; أسْخطَ ʾaskhaṭa 1 time and سَخَط sakhaṭ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-خ-ط.سَخَط",
+        "label": "سَخَط",
+        "definitionHtml": "سَخَط sakhaṭ [n./v. n.] anger, wrath, rage, condemnation <br><br>(3:162) أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ مِنَ اللَّهِ is the one who pursues God’s good pleasure like the one who has incurred God’s wrath?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-خ-ط.أسْخَطَ",
+        "label": "أسْخَطَ",
+        "definitionHtml": "أسْخَطَ ʾaskhaṭa [v. IV, intrans.] to cause to be angry, to incur wrath, to cause displeasure <br><br>(47:28) اتَّبَعُوا مَا أَسْخَطَ اللَّهَ وَكَرِهُوا رِضْوَانَهُ they practised things that incurred God’s wrath, and disdained to please Him.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-خ-ط.سَخِطَ",
+        "label": "سَخِطَ",
+        "definitionHtml": "سَخِطَ sakhiṭa a [v. intrans.] <br><br><strong>1 </strong>to become angry, to condemn, to become wrathful <br><br>(5:80) لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنْفُسُهُمْ أَنْ سَخِطَ اللَّهُ عَلَيْهِمْ so vile is what their souls have put forward for them that God has condemned them <br><br><strong>2 </strong>to be dissatisfied, to grumble <br><br>(9:58) وَإِنْ لَمْ يُعْطَوْا مِنْهَا إِذَا هُمْ يَسْخَطُونَ but if they are not given [a share] of it, they become angry.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:37.457Z",
+      "refword": "3:162:7",
+      "lexword": "بِسَخَطٍ"
+    }
+  }
+}

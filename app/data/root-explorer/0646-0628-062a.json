@@ -1,0 +1,547 @@
+{
+  "root": "نبت",
+  "rootArabic": "نبت",
+  "stats": {
+    "totalOccurrences": 26,
+    "derivativeCount": 3,
+    "surahCount": 21,
+    "ayahCount": 23
+  },
+  "derivatives": [
+    {
+      "form": "أَنْبَتَ",
+      "count": 16
+    },
+    {
+      "form": "نَبَاتٌ",
+      "count": 9
+    },
+    {
+      "form": "نَبَتَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        },
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَتَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 2,
+          "totalInQuran": 16
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        },
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبَاتٌ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْبَتَ",
+          "count": 1,
+          "totalInQuran": 16
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 61,
+      "text": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "highlightedHtml": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا <a class=\"highlight-text\">تُنۢبِتُ</a> ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 261,
+      "text": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "highlightedHtml": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ <a class=\"highlight-text\">أَنۢبَتَتْ</a> سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 37,
+      "text": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنۢبَتَهَا نَبَاتًا حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "highlightedHtml": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ <a class=\"highlight-text\">وَأَنۢبَتَهَا</a> <a class=\"highlight-text\">نَبَاتًا</a> حَسَنًا وَكَفَّلَهَا زَكَرِيَّا ۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّا ٱلْمِحْرَابَ وَجَدَ عِندَهَا رِزْقًا ۖ قَالَ يَٰمَرْيَمُ أَنَّىٰ لَكِ هَٰذَا ۖ قَالَتْ هُوَ مِنْ عِندِ ٱللَّهِ ۖ إِنَّ ٱللَّهَ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+      "derivedForms": [
+        "أَنْبَتَ",
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 99,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ <a class=\"highlight-text\">نَبَاتَ</a> كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 58,
+      "text": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ نَبَاتُهُۥ بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍ يَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبَلَدُ ٱلطَّيِّبُ يَخْرُجُ <a class=\"highlight-text\">نَبَاتُهُۥ</a> بِإِذْنِ رَبِّهِۦ ۖ وَٱلَّذِى خَبُثَ لَا يَخْرُجُ إِلَّا نَكِدًا ۚ كَذَٰلِكَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ لِقَوْمٍ يَشْكُرُونَ",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 24,
+      "text": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ <a class=\"highlight-text\">نَبَاتُ</a> ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 19,
+      "text": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "highlightedHtml": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ <a class=\"highlight-text\">وَأَنۢبَتْنَا</a> فِيهَا مِن كُلِّ شَىْءٍ مَّوْزُونٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 11,
+      "text": "يُنۢبِتُ لَكُم بِهِ ٱلزَّرْعَ وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلْأَعْنَٰبَ وَمِن كُلِّ ٱلثَّمَرَٰتِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">يُنۢبِتُ</a> لَكُم بِهِ ٱلزَّرْعَ وَٱلزَّيْتُونَ وَٱلنَّخِيلَ وَٱلْأَعْنَٰبَ وَمِن كُلِّ ٱلثَّمَرَٰتِ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 45,
+      "text": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "highlightedHtml": "وَٱضْرِبْ لَهُم مَّثَلَ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ <a class=\"highlight-text\">نَبَاتُ</a> ٱلْأَرْضِ فَأَصْبَحَ هَشِيمًا تَذْرُوهُ ٱلرِّيَٰحُ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ مُّقْتَدِرًا",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 53,
+      "text": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن نَّبَاتٍ شَتَّىٰ",
+      "highlightedHtml": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ مَهْدًا وَسَلَكَ لَكُمْ فِيهَا سُبُلًا وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦٓ أَزْوَٰجًا مِّن <a class=\"highlight-text\">نَّبَاتٍ</a> شَتَّىٰ",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 5,
+      "text": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ وَأَنۢبَتَتْ مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّاسُ إِن كُنتُمْ فِى رَيْبٍ مِّنَ ٱلْبَعْثِ فَإِنَّا خَلَقْنَٰكُم مِّن تُرَابٍ ثُمَّ مِن نُّطْفَةٍ ثُمَّ مِنْ عَلَقَةٍ ثُمَّ مِن مُّضْغَةٍ مُّخَلَّقَةٍ وَغَيْرِ مُخَلَّقَةٍ لِّنُبَيِّنَ لَكُمْ ۚ وَنُقِرُّ فِى ٱلْأَرْحَامِ مَا نَشَآءُ إِلَىٰٓ أَجَلٍ مُّسَمًّى ثُمَّ نُخْرِجُكُمْ طِفْلًا ثُمَّ لِتَبْلُغُوٓا۟ أَشُدَّكُمْ ۖ وَمِنكُم مَّن يُتَوَفَّىٰ وَمِنكُم مَّن يُرَدُّ إِلَىٰٓ أَرْذَلِ ٱلْعُمُرِ لِكَيْلَا يَعْلَمَ مِنۢ بَعْدِ عِلْمٍ شَيْـًٔا ۚ وَتَرَى ٱلْأَرْضَ هَامِدَةً فَإِذَآ أَنزَلْنَا عَلَيْهَا ٱلْمَآءَ ٱهْتَزَّتْ وَرَبَتْ <a class=\"highlight-text\">وَأَنۢبَتَتْ</a> مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 20,
+      "text": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ بِٱلدُّهْنِ وَصِبْغٍ لِّلْءَاكِلِينَ",
+      "highlightedHtml": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ <a class=\"highlight-text\">تَنۢبُتُ</a> بِٱلدُّهْنِ وَصِبْغٍ لِّلْءَاكِلِينَ",
+      "derivedForms": [
+        "نَبَتَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 7,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ أَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَى ٱلْأَرْضِ كَمْ <a class=\"highlight-text\">أَنۢبَتْنَا</a> فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 60,
+      "text": "أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن تُنۢبِتُوا۟ شَجَرَهَآ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
+      "highlightedHtml": "أَمَّنْ خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ وَأَنزَلَ لَكُم مِّنَ ٱلسَّمَآءِ مَآءً <a class=\"highlight-text\">فَأَنۢبَتْنَا</a> بِهِۦ حَدَآئِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن <a class=\"highlight-text\">تُنۢبِتُوا۟</a> شَجَرَهَآ ۗ أَءِلَٰهٌ مَّعَ ٱللَّهِ ۚ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
+      "derivedForms": [
+        "أَنْبَتَ",
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 10,
+      "text": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً فَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "highlightedHtml": "خَلَقَ ٱلسَّمَٰوَٰتِ بِغَيْرِ عَمَدٍ تَرَوْنَهَا ۖ وَأَلْقَىٰ فِى ٱلْأَرْضِ رَوَٰسِىَ أَن تَمِيدَ بِكُمْ وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍ ۚ وَأَنزَلْنَا مِنَ ٱلسَّمَآءِ مَآءً <a class=\"highlight-text\">فَأَنۢبَتْنَا</a> فِيهَا مِن كُلِّ زَوْجٍ كَرِيمٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 36,
+      "text": "سُبْحَٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+      "highlightedHtml": "سُبْحَٰنَ ٱلَّذِى خَلَقَ ٱلْأَزْوَٰجَ كُلَّهَا مِمَّا <a class=\"highlight-text\">تُنۢبِتُ</a> ٱلْأَرْضُ وَمِنْ أَنفُسِهِمْ وَمِمَّا لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 146,
+      "text": "وَأَنۢبَتْنَا عَلَيْهِ شَجَرَةً مِّن يَقْطِينٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَنۢبَتْنَا</a> عَلَيْهِ شَجَرَةً مِّن يَقْطِينٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 7,
+      "text": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ وَأَنۢبَتْنَا فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "highlightedHtml": "وَٱلْأَرْضَ مَدَدْنَٰهَا وَأَلْقَيْنَا فِيهَا رَوَٰسِىَ <a class=\"highlight-text\">وَأَنۢبَتْنَا</a> فِيهَا مِن كُلِّ زَوْجٍۭ بَهِيجٍ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 9,
+      "text": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَٰرَكًا فَأَنۢبَتْنَا بِهِۦ جَنَّٰتٍ وَحَبَّ ٱلْحَصِيدِ",
+      "highlightedHtml": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَٰرَكًا <a class=\"highlight-text\">فَأَنۢبَتْنَا</a> بِهِۦ جَنَّٰتٍ وَحَبَّ ٱلْحَصِيدِ",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 20,
+      "text": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ <a class=\"highlight-text\">نَبَاتُهُۥ</a> ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 17,
+      "text": "وَٱللَّهُ أَنۢبَتَكُم مِّنَ ٱلْأَرْضِ نَبَاتًا",
+      "highlightedHtml": "وَٱللَّهُ <a class=\"highlight-text\">أَنۢبَتَكُم</a> مِّنَ ٱلْأَرْضِ <a class=\"highlight-text\">نَبَاتًا</a>",
+      "derivedForms": [
+        "أَنْبَتَ",
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 15,
+      "text": "لِّنُخْرِجَ بِهِۦ حَبًّا وَنَبَاتًا",
+      "highlightedHtml": "لِّنُخْرِجَ بِهِۦ حَبًّا <a class=\"highlight-text\">وَنَبَاتًا</a>",
+      "derivedForms": [
+        "نَبَاتٌ"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 27,
+      "text": "فَأَنۢبَتْنَا فِيهَا حَبًّا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَنۢبَتْنَا</a> فِيهَا حَبًّا",
+      "derivedForms": [
+        "أَنْبَتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:59.121Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form IV) imperfect verb",
+    "derivativeNote": "تُنۢبِتُ is in the derivative form: أَنْبَتَ",
+    "rootDefinitionHtml": "ن/ب/ت   n–b–t plant, vegetation, seedling, to sprout, to germinate, (of plants) to shoot out, to grow, to bring forth, to plant, to cultivate, to cause to grow<br>; the young, to breed, to raise, to become of age. <br><br>Of this root, 3 forms occur 26 times in the Qur’an:<br> نَبَتَ nabata 1 time; أَنْبَتَ ʾanbata 16 times and نَبَاتٌ nabāt 9 times.",
+    "mainDefinitionHtml": "أَنْبَتَ ʾanbata [v. IV trans.] <br><br><strong>1 </strong>to make cultivable, to [enable to] grow, to bring into life <br><br>(15:19) وَالأَرْضَ مَدَدْنَاهَا وَأَلْقَيْنَا فِيهَا رَوَاسِيَ وَأَنْبَتْنَا فِيهَا مِنْ كُلِّ شَيْءٍ مَوْزُونٍ and the earth–We have spread it out, set firm mountains on it and enabled [life of all kinds] to grow on it in good balance <br><br><strong>2 </strong>to cause to germinate, to cause to grow <br><br>(27:60) وَأَنْزَلَ لَكُمْ مِنَ السَّمَاءِ مَاءً فَأَنْبَتْنَا بِهِ حَدَائِقَ ذَاتَ بَهْجَةٍ and He sent down water from the sky for you, with which We caused gardens of delight to grow <br><br><strong>3 </strong>to cultivate <br><br>(27:60) مَا كَانَ لَكُمْ أَنْ تُنْبِتُوا شَجَرَهَا it could not have been for you [within your power] to cultivate its trees <br><br><strong>4 </strong>to yield <br><br>(2:261) كَمَثَلِ حَبَّةٍ أَنْبَتَتْ سَبْعَ سَنَابِلَ like [a grain] of corn that produces seven ears <br><br><strong>5 </strong>to bring forth <br><br>(71:17) وَاللَّهُ أَنْبَتَكُمْ مِنَ الأَرْضِ نَبَاتًا God made you spring forth from the earth like a plant <br><br><strong>6 </strong>to facilitate the rearing of, to help the bringing up of <br><br>(3:37) فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنْبَتَهَا نَبَاتًا حَسَنًا her Lord received her [the child] with gracious favour, and provided for her a goodly upbringing.",
+    "mainEntryId": "wdef-ن-ب-ت.أَنْبَتَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ب-ت",
+        "label": "ن-ب-ت",
+        "definitionHtml": "ن/ب/ت   n–b–t plant, vegetation, seedling, to sprout, to germinate, (of plants) to shoot out, to grow, to bring forth, to plant, to cultivate, to cause to grow<br>; the young, to breed, to raise, to become of age. <br><br>Of this root, 3 forms occur 26 times in the Qur’an:<br> نَبَتَ nabata 1 time; أَنْبَتَ ʾanbata 16 times and نَبَاتٌ nabāt 9 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ب-ت.أَنْبَتَ",
+        "label": "أَنْبَتَ",
+        "definitionHtml": "أَنْبَتَ ʾanbata [v. IV trans.] <br><br><strong>1 </strong>to make cultivable, to [enable to] grow, to bring into life <br><br>(15:19) وَالأَرْضَ مَدَدْنَاهَا وَأَلْقَيْنَا فِيهَا رَوَاسِيَ وَأَنْبَتْنَا فِيهَا مِنْ كُلِّ شَيْءٍ مَوْزُونٍ and the earth–We have spread it out, set firm mountains on it and enabled [life of all kinds] to grow on it in good balance <br><br><strong>2 </strong>to cause to germinate, to cause to grow <br><br>(27:60) وَأَنْزَلَ لَكُمْ مِنَ السَّمَاءِ مَاءً فَأَنْبَتْنَا بِهِ حَدَائِقَ ذَاتَ بَهْجَةٍ and He sent down water from the sky for you, with which We caused gardens of delight to grow <br><br><strong>3 </strong>to cultivate <br><br>(27:60) مَا كَانَ لَكُمْ أَنْ تُنْبِتُوا شَجَرَهَا it could not have been for you [within your power] to cultivate its trees <br><br><strong>4 </strong>to yield <br><br>(2:261) كَمَثَلِ حَبَّةٍ أَنْبَتَتْ سَبْعَ سَنَابِلَ like [a grain] of corn that produces seven ears <br><br><strong>5 </strong>to bring forth <br><br>(71:17) وَاللَّهُ أَنْبَتَكُمْ مِنَ الأَرْضِ نَبَاتًا God made you spring forth from the earth like a plant <br><br><strong>6 </strong>to facilitate the rearing of, to help the bringing up of <br><br>(3:37) فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنْبَتَهَا نَبَاتًا حَسَنًا her Lord received her [the child] with gracious favour, and provided for her a goodly upbringing.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ب-ت.نَبَاتٌ",
+        "label": "نَبَاتٌ",
+        "definitionHtml": "نَبَاتٌ nabāt I [coll. n.] <br><br><strong>1 </strong>plants, vegetation <br><br>(10:24) كَمَاءٍ أَنْزَلْنَاهُ مِنَ السَّمَاءِ فَاخْتَلَطَ بِهِ نَبَاتُ الأَرْضِ it is like water which We bring down from the skies, then the earth’s vegetation absorbs it … <br><br><strong>2 </strong>buds, germs, embryos, sprouts, shoots <br><br>(6:99) وَهُوَ الَّذِي أَنْزَلَ مِنَ السَّمَاءِ مَاءً فَأَخْرَجْنَا بِهِ نَبَاتَ كُلِّ شَيْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُخْرِجُ مِنْهُ حَبًّا مُتَرَاكِبًا He it is who sends down water from the sky, then with it We produce the shoots of everything [every plant], then from it We bring out greenery, from which We produce grains in close‐packed rows II [v. n.] <br><br><strong>1 </strong>the act of raising, rearing <br><br>(3:37) فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٍ وَأَنْبَتَهَا نَبَاتًا حَسَنًا her Lord received her [the child] with gracious favour, and provided for her a goodly upbringing <br><br><strong>2 </strong>growing power, growth (in a possible interpretation of نَبَاتُه nabātuhu as v. n. in 57:20) كَمَثَلِ غَيْثٍ أَعْجَبَ الْكُفَّارَ نَبَاتُهُ like a rain, the growing power of which delights the sowers.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ب-ت.نَبَتَ",
+        "label": "نَبَتَ",
+        "definitionHtml": "نَبَتَ nabata u [v. intrans.] to germinate, to take root, to grow *<br><br>(23:20) وَشَجَرَةً تَخْرُجُ مِنْ طُورِ سَيْنَاءَ تَنْبُتُ بِالدُّهْنِ and a tree, emerging from Mount Sinai, that produces oil [also: grows carrying oil].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:13.477Z",
+      "refword": "2:61:15",
+      "lexword": "تُنۢبِتُ"
+    }
+  }
+}

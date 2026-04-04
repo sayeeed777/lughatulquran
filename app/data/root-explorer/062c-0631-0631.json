@@ -1,0 +1,74 @@
+{
+  "root": "جرر",
+  "rootArabic": "جرر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَجُرُّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَجُرُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 150,
+      "text": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُۥٓ إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَمَّا رَجَعَ مُوسَىٰٓ إِلَىٰ قَوْمِهِۦ غَضْبَٰنَ أَسِفًا قَالَ بِئْسَمَا خَلَفْتُمُونِى مِنۢ بَعْدِىٓ ۖ أَعَجِلْتُمْ أَمْرَ رَبِّكُمْ ۖ وَأَلْقَى ٱلْأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ <a class=\"highlight-text\">يَجُرُّهُۥٓ</a> إِلَيْهِ ۚ قَالَ ٱبْنَ أُمَّ إِنَّ ٱلْقَوْمَ ٱسْتَضْعَفُونِى وَكَادُوا۟ يَقْتُلُونَنِى فَلَا تُشْمِتْ بِىَ ٱلْأَعْدَآءَ وَلَا تَجْعَلْنِى مَعَ ٱلْقَوْمِ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "يَجُرُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:59.281Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَجُرُّهُۥٓ is in the derivative form: يَجُرُّ",
+    "rootDefinitionHtml": "ج/ر/ر   j–r–r to draw, to pull, to drag along; track, trail, galaxy; crime, guilt; to ruminate. Of this root, يَجُرُّ yajurr occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَجُرُّ yajurr [imperf. of v. جَرَّ jarra, trans.] to drag, to pull, to draw <br><br>(7:150) وَأَلْقَى الأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ he threw the tablets and took hold of the head of his brother, dragging him to him.",
+    "mainEntryId": "wdef-ج-ر-ر.يَجُرُّ",
+    "entries": [
+      {
+        "id": "wdef-ج-ر-ر",
+        "label": "ج-ر-ر",
+        "definitionHtml": "ج/ر/ر   j–r–r to draw, to pull, to drag along; track, trail, galaxy; crime, guilt; to ruminate. Of this root, يَجُرُّ yajurr occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ر-ر.يَجُرُّ",
+        "label": "يَجُرُّ",
+        "definitionHtml": "يَجُرُّ yajurr [imperf. of v. جَرَّ jarra, trans.] to drag, to pull, to draw <br><br>(7:150) وَأَلْقَى الأَلْوَاحَ وَأَخَذَ بِرَأْسِ أَخِيهِ يَجُرُّهُ إِلَيْهِ he threw the tablets and took hold of the head of his brother, dragging him to him.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:42.945Z",
+      "refword": "7:150:21",
+      "lexword": "يَجُرُّهُۥٓ"
+    }
+  }
+}

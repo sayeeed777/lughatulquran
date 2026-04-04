@@ -1,0 +1,269 @@
+{
+  "root": "دفع",
+  "rootArabic": "دفع",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "دَفَعَ",
+      "count": 5
+    },
+    {
+      "form": "دَافِعٌ",
+      "count": 2
+    },
+    {
+      "form": "دَفْعٌ",
+      "count": 2
+    },
+    {
+      "form": "يُدَافِعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَفْعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَفَعَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دَفَعَ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "دَفْعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "يُدَافِعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَفَعَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَفَعَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَافِعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَافِعٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 251,
+      "text": "فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "فَهَزَمُوهُم بِإِذْنِ ٱللَّهِ وَقَتَلَ دَاوُۥدُ جَالُوتَ وَءَاتَىٰهُ ٱللَّهُ ٱلْمُلْكَ وَٱلْحِكْمَةَ وَعَلَّمَهُۥ مِمَّا يَشَآءُ ۗ وَلَوْلَا <a class=\"highlight-text\">دَفْعُ</a> ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّفَسَدَتِ ٱلْأَرْضُ وَلَٰكِنَّ ٱللَّهَ ذُو فَضْلٍ عَلَى ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "دَفْعٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 167,
+      "text": "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ ٱدْفَعُوا۟ ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًا لَّٱتَّبَعْنَٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
+      "highlightedHtml": "وَلِيَعْلَمَ ٱلَّذِينَ نَافَقُوا۟ ۚ وَقِيلَ لَهُمْ تَعَالَوْا۟ قَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَوِ <a class=\"highlight-text\">ٱدْفَعُوا۟</a> ۖ قَالُوا۟ لَوْ نَعْلَمُ قِتَالًا لَّٱتَّبَعْنَٰكُمْ ۗ هُمْ لِلْكُفْرِ يَوْمَئِذٍ أَقْرَبُ مِنْهُمْ لِلْإِيمَٰنِ ۚ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۗ وَٱللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَ",
+      "derivedForms": [
+        "دَفَعَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 6,
+      "text": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "highlightedHtml": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ رُشْدًا <a class=\"highlight-text\">فَٱدْفَعُوٓا۟</a> إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا <a class=\"highlight-text\">دَفَعْتُمْ</a> إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "derivedForms": [
+        "دَفَعَ",
+        "دَفَعَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 38,
+      "text": "إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ آمَنُوا ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٍ كَفُورٍ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ <a class=\"highlight-text\">يُدَٰفِعُ</a> عَنِ ٱلَّذِينَ آمَنُوا ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٍ كَفُورٍ",
+      "derivedForms": [
+        "يُدَافِعُ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 40,
+      "text": "ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَٰرِهِم بِغَيْرِ حَقٍّ إِلَّآ أَن يَقُولُوا۟ رَبُّنَا ٱللَّهُ ۗ وَلَوْلَا دَفْعُ ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌ وَصَلَوَٰتٌ وَمَسَٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًا ۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ لَقَوِىٌّ عَزِيزٌ",
+      "highlightedHtml": "ٱلَّذِينَ أُخْرِجُوا۟ مِن دِيَٰرِهِم بِغَيْرِ حَقٍّ إِلَّآ أَن يَقُولُوا۟ رَبُّنَا ٱللَّهُ ۗ وَلَوْلَا <a class=\"highlight-text\">دَفْعُ</a> ٱللَّهِ ٱلنَّاسَ بَعْضَهُم بِبَعْضٍ لَّهُدِّمَتْ صَوَٰمِعُ وَبِيَعٌ وَصَلَوَٰتٌ وَمَسَٰجِدُ يُذْكَرُ فِيهَا ٱسْمُ ٱللَّهِ كَثِيرًا ۗ وَلَيَنصُرَنَّ ٱللَّهُ مَن يَنصُرُهُۥٓ ۗ إِنَّ ٱللَّهَ لَقَوِىٌّ لَقَوِىٌّ عَزِيزٌ",
+      "derivedForms": [
+        "دَفْعٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 96,
+      "text": "ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱدْفَعْ</a> بِٱلَّتِى هِىَ أَحْسَنُ ٱلسَّيِّئَةَ ۚ نَحْنُ أَعْلَمُ بِمَا يَصِفُونَ",
+      "derivedForms": [
+        "دَفَعَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 34,
+      "text": "وَلَا تَسْتَوِى تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ ۚ ٱدْفَعْ بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱلَّذِى بَيْنَكَ وَبَيْنَهُۥ عَدَٰوَةٌ كَأَنَّهُۥ وَلِىٌّ حَمِيمٌ",
+      "highlightedHtml": "وَلَا تَسْتَوِى تَسْتَوِى ٱلْحَسَنَةُ وَلَا ٱلسَّيِّئَةُ ۚ <a class=\"highlight-text\">ٱدْفَعْ</a> بِٱلَّتِى هِىَ أَحْسَنُ فَإِذَا ٱلَّذِى بَيْنَكَ وَبَيْنَهُۥ عَدَٰوَةٌ كَأَنَّهُۥ وَلِىٌّ حَمِيمٌ",
+      "derivedForms": [
+        "دَفَعَ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 8,
+      "text": "مَّا لَهُۥ مِن دَافِعٍ",
+      "highlightedHtml": "مَّا لَهُۥ مِن <a class=\"highlight-text\">دَافِعٍ</a>",
+      "derivedForms": [
+        "دَافِعٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 2,
+      "text": "لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ دَافِعٌ",
+      "highlightedHtml": "لِّلْكَٰفِرِينَ لَيْسَ لَهُۥ <a class=\"highlight-text\">دَافِعٌ</a>",
+      "derivedForms": [
+        "دَافِعٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:18.294Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine verbal noun",
+    "derivativeNote": "دَفْعُ is in the derivative form: دَفْعٌ",
+    "rootDefinitionHtml": "د/ف/ع   d–f‐ʿ to push forcefully, a forceful person, to gush, a great flood<br>; to defend, a defence; to rush about, to run fast, to stall. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> دَفَعَ dafaʿa 5 times; يُدَافِعُ yudāfiʿ 1 time; دَفْعٌ dafʿ 2 times and دَافِعٌ dā fiʿ 2 times.",
+    "mainDefinitionHtml": "دَفْعٌ dafʿ [v. n.] (act of) repelling, driving back <br><br>(2:251) وَلَوْلاَ دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الأَرْضُ had it not been for God’s repelling some by means of others the Earth would have become corrupted.",
+    "mainEntryId": "wdef-د-ف-ع.دَفْعٌ",
+    "entries": [
+      {
+        "id": "wdef-د-ف-ع",
+        "label": "د-ف-ع",
+        "definitionHtml": "د/ف/ع   d–f‐ʿ to push forcefully, a forceful person, to gush, a great flood<br>; to defend, a defence; to rush about, to run fast, to stall. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> دَفَعَ dafaʿa 5 times; يُدَافِعُ yudāfiʿ 1 time; دَفْعٌ dafʿ 2 times and دَافِعٌ dā fiʿ 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ف-ع.دَفْعٌ",
+        "label": "دَفْعٌ",
+        "definitionHtml": "دَفْعٌ dafʿ [v. n.] (act of) repelling, driving back <br><br>(2:251) وَلَوْلاَ دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَفَسَدَتِ الأَرْضُ had it not been for God’s repelling some by means of others the Earth would have become corrupted.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-ف-ع.دَفَعَ",
+        "label": "دَفَعَ",
+        "definitionHtml": "دَفَعَ dafaʿa a [v. trans.] <br><br><strong>1 </strong>to pay up, to hand over ‏<br><br>(4:6) فَإِنْ ءَانَسْتُمْ مِنْهُمْ رُشْدًا فَادْفَعُوا إِلَيْهِمْ أَمْوَالَهُمْ if you sense they have sound judgement, hand over their property to them <br><br><strong>2 </strong>to respond, retaliate, repel <br><br>(41:34) وَلاَ تَسْتَوِي الْحَسَنَةُ وَلاَ السَّيِّئَةُ ادْفَعْ بِالَّتِي هِيَ أَحْسَنُ they are not equal–good and evil–repel [evil] with what is better <br><br><strong>3 </strong>to defend oneself ‏<br><br>(3:167) وَقِيلَ لَهُمْ تَعَالَوْا قَاتِلُوا فِى سَبِيلِ اللَّهِ أَوِادْفَعُوا [when] it was said to them, ‘Come, fight in God’s cause, or [at least] defend.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ف-ع.دَافِعٌ",
+        "label": "دَافِعٌ",
+        "definitionHtml": "دَافِعٌ dāfiʿ [act. part.] one who repels, averts, deflects <br><br>(70:1–2) سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِع لِلْكَافِرينَ لَيْسَ لَهُ دَافِعٌ a man [mockingly] demanded punishment that would fall upon the disbelievers with none to avert it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ف-ع.يُدَافِعُ",
+        "label": "يُدَافِعُ",
+        "definitionHtml": "يُدَافِعُ yudāfiʿ [imperf. of v. III, intrans.] to defend ‏<br><br>(22:38) إِنَّ اللَّهَ يُدَافِعُ عَنِ الَّذِينَ ءَامَنُوا God defends the believers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:55.792Z",
+      "refword": "2:251:15",
+      "lexword": "دَفْعُ"
+    }
+  }
+}

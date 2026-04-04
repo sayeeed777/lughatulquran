@@ -1,0 +1,170 @@
+{
+  "root": "غسل",
+  "rootArabic": "غسل",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "اغْسِل",
+      "count": 1
+    },
+    {
+      "form": "تَغْتَسِل",
+      "count": 1
+    },
+    {
+      "form": "غِسْلين",
+      "count": 1
+    },
+    {
+      "form": "مُغْتَسَل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَغْتَسِل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اغْسِل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُغْتَسَل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غِسْلين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 43,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ <a class=\"highlight-text\">تَغْتَسِلُوا۟</a> ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "derivedForms": [
+        "تَغْتَسِل"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ <a class=\"highlight-text\">فَٱغْسِلُوا۟</a> وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "اغْسِل"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 42,
+      "text": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌ بَارِدٌ وَشَرَابٌ",
+      "highlightedHtml": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا <a class=\"highlight-text\">مُغْتَسَلٌۢ</a> بَارِدٌ بَارِدٌ وَشَرَابٌ",
+      "derivedForms": [
+        "مُغْتَسَل"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 36,
+      "text": "وَلَا طَعَامٌ إِلَّا مِنْ غِسْلِينٍ",
+      "highlightedHtml": "وَلَا طَعَامٌ إِلَّا مِنْ <a class=\"highlight-text\">غِسْلِينٍ</a>",
+      "derivedForms": [
+        "غِسْلين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:57.459Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VIII) imperfect verb, subjunctive mood",
+    "derivativeNote": "تَغْتَسِلُوا۟ is in the derivative form: تَغْتَسِل",
+    "rootDefinitionHtml": "غ/س/ل   gh–s–l washing, dirty water left after washing, to wash, to bathe, washed clothes, bath, washing place, filth. <br><br>Of this root, 4 forms occur 1 time each in the Qur’an:<br> إغْسِلوا ʾighsilū;تَغْتَسِلوا taghtasilū; مُغْتَسَل mughtasal and غِسْلين ghislın.",
+    "mainDefinitionHtml": "تَغْتَسِل taghtasil [imperf. of v. IV. intrans.] [jur.] to wash oneself, to perform ritual body washing in the prescribed manner <br><br>(4:43) ‏وَلاَ‏ ‏جُنُبًا ‏[...] ‏حَتَّى‏ ‏تَغْتَسِلُوا nor [should you pray] when you are in the state of being junub (q.v.) […] until you have bathed.",
+    "mainEntryId": "wdef-غ-س-ل.تَغْتَسِل",
+    "entries": [
+      {
+        "id": "wdef-غ-س-ل",
+        "label": "غ-س-ل",
+        "definitionHtml": "غ/س/ل   gh–s–l washing, dirty water left after washing, to wash, to bathe, washed clothes, bath, washing place, filth. <br><br>Of this root, 4 forms occur 1 time each in the Qur’an:<br> إغْسِلوا ʾighsilū;تَغْتَسِلوا taghtasilū; مُغْتَسَل mughtasal and غِسْلين ghislın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-س-ل.تَغْتَسِل",
+        "label": "تَغْتَسِل",
+        "definitionHtml": "تَغْتَسِل taghtasil [imperf. of v. IV. intrans.] [jur.] to wash oneself, to perform ritual body washing in the prescribed manner <br><br>(4:43) ‏وَلاَ‏ ‏جُنُبًا ‏[...] ‏حَتَّى‏ ‏تَغْتَسِلُوا nor [should you pray] when you are in the state of being junub (q.v.) […] until you have bathed.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-س-ل.اغْسِل",
+        "label": "اغْسِل",
+        "definitionHtml": "اغْسِل ʾighsil [imper. of v. trans.] [jur.] wash, carry out the ablution in the prescribed manner <br><br>(5:6)‏فَاغْسِلُوا‏ ‏وُجُوهَكُمْ‏ ‏وَأَيْدِيَكُمْ‏ ‏إِلَى‏ ‏الْمَرَافِقِ‏ wash your faces and your arms [lit. hands].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-س-ل.غِسْلين",
+        "label": "غِسْلين",
+        "definitionHtml": "غِسْلين ghislın [n.] filth, pus <br><br>(69:36)‏ وَلاَ‏ ‏طَعَامٌ‏ ‏إِلاَّ‏ ‏مِنْ‏ ‏غِسْلِينٍ‏ and no food [for him] but of filth.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-س-ل.مُغْتَسَل",
+        "label": "مُغْتَسَل",
+        "definitionHtml": "مُغْتَسَل mughtasal [n. of place/n.] a place for washing or bathing, water in which to bathe <br><br>(38:42) هَذَا مُغْتَسَلٌ بَارِدٌ وَشَرَابٌ this is cool [water] for bathing in and for drinking/as a drink.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:34.816Z",
+      "refword": "4:43:19",
+      "lexword": "تَغْتَسِلُوا۟"
+    }
+  }
+}

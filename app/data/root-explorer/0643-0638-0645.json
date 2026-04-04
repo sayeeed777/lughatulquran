@@ -1,0 +1,201 @@
+{
+  "root": "كظم",
+  "rootArabic": "كظم",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "كَظِيم",
+      "count": 3
+    },
+    {
+      "form": "كَاظِمِين",
+      "count": 2
+    },
+    {
+      "form": "مَكْظُوم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَاظِمِين",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَظِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَظِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَاظِمِين",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَظِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكْظُوم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 134,
+      "text": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ <a class=\"highlight-text\">وَٱلْكَٰظِمِينَ</a> ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "كَاظِمِين"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 84,
+      "text": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَتَوَلَّىٰ عَنْهُمْ وَقَالَ يَٰٓأَسَفَىٰ عَلَىٰ يُوسُفَ وَٱبْيَضَّتْ عَيْنَاهُ مِنَ ٱلْحُزْنِ فَهُوَ <a class=\"highlight-text\">كَظِيمٌ</a>",
+      "derivedForms": [
+        "كَظِيم"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 58,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ <a class=\"highlight-text\">كَظِيمٌ</a>",
+      "derivedForms": [
+        "كَظِيم"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 18,
+      "text": "وَأَنذِرْهُمْ يَوْمَ ٱلْءَازِفَةِ إِذِ ٱلْقُلُوبُ لَدَى ٱلْحَنَاجِرِ كَٰظِمِينَ ۚ مَا لِلظَّٰلِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+      "highlightedHtml": "وَأَنذِرْهُمْ يَوْمَ ٱلْءَازِفَةِ إِذِ ٱلْقُلُوبُ لَدَى ٱلْحَنَاجِرِ <a class=\"highlight-text\">كَٰظِمِينَ</a> ۚ مَا لِلظَّٰلِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+      "derivedForms": [
+        "كَاظِمِين"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 17,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ <a class=\"highlight-text\">كَظِيمٌ</a>",
+      "derivedForms": [
+        "كَظِيم"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 48,
+      "text": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ مَكْظُومٌ",
+      "highlightedHtml": "فَٱصْبِرْ لِحُكْمِ رَبِّكَ وَلَا تَكُن كَصَاحِبِ ٱلْحُوتِ إِذْ نَادَىٰ وَهُوَ <a class=\"highlight-text\">مَكْظُومٌ</a>",
+      "derivedForms": [
+        "مَكْظُوم"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:50.281Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "وَٱلْكَٰظِمِينَ is in the derivative form: كَاظِمِين",
+    "rootDefinitionHtml": "ك/ظ/م   k–ẓ–m to suppress, to conceal, to keep silent<br>; to be oppressed, to put a stop to; breathing tract. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> كَاظِمِين kāẓimın 2 times; كَظِيم kaẓım 3 times and مَكْظُوم makẓūm 1 time.",
+    "mainDefinitionHtml": "كَاظِمِين kāẓimın [pl. of act. part. كَاظِم kāẓim] <br><br><strong>1 </strong>one who suppresses, one who keeps a very tight control <br><br>(3:134) وَالْكَاظِمِينَ الْغَيْظَ those who restrain [their] anger <br><br><strong>2 </strong>that which blocks, chokes, firmly obstructs <br><br>(40:18) وَأَنْذِرْهُم يَومَ الأَزِفَة إِذِ الْقُلُوبُ لَدَى الْحَنَاجِرِ كَاظِمِينَ and warn them of the Day of the approaching doom, when hearts come next to the throats, choking [them] [also interpreted as: keeping silent or grieving silently].",
+    "mainEntryId": "wdef-ك-ظ-م.كَاظِمِين",
+    "entries": [
+      {
+        "id": "wdef-ك-ظ-م",
+        "label": "ك-ظ-م",
+        "definitionHtml": "ك/ظ/م   k–ẓ–m to suppress, to conceal, to keep silent<br>; to be oppressed, to put a stop to; breathing tract. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> كَاظِمِين kāẓimın 2 times; كَظِيم kaẓım 3 times and مَكْظُوم makẓūm 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ظ-م.كَاظِمِين",
+        "label": "كَاظِمِين",
+        "definitionHtml": "كَاظِمِين kāẓimın [pl. of act. part. كَاظِم kāẓim] <br><br><strong>1 </strong>one who suppresses, one who keeps a very tight control <br><br>(3:134) وَالْكَاظِمِينَ الْغَيْظَ those who restrain [their] anger <br><br><strong>2 </strong>that which blocks, chokes, firmly obstructs <br><br>(40:18) وَأَنْذِرْهُم يَومَ الأَزِفَة إِذِ الْقُلُوبُ لَدَى الْحَنَاجِرِ كَاظِمِينَ and warn them of the Day of the approaching doom, when hearts come next to the throats, choking [them] [also interpreted as: keeping silent or grieving silently].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ظ-م.كَظِيم",
+        "label": "كَظِيم",
+        "definitionHtml": "كَظِيم kaẓım [quasi‐act./pass. part.] suppressing the feelings, keeping feelings under tight control; choked with grief, distressed, grieved, grief stricken <br><br>(12:84) وَابْيَضَّتْ عَيْنَاهُ مِنَ الْحُزْنِ فَهُوَ كَظِيمٌ and his eyes went blind (or, became flooded with tears) and he was grief stricken.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ظ-م.مَكْظُوم",
+        "label": "مَكْظُوم",
+        "definitionHtml": "مَكْظُوم makẓūm [quasi‐pass. part.] distressed <br><br>(68:48) وَلاَ تَكُنْ كَصَاحِبِ الْحُوتِ إِذْ نَادَى وَهُوَ مَكْظُومٌ and do not be like the fellow of the whale, when he called out [only] when he was in distress.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:05.048Z",
+      "refword": "3:134:6",
+      "lexword": "وَٱلْكَٰظِمِينَ"
+    }
+  }
+}

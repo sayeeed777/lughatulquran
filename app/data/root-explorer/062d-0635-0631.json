@@ -1,0 +1,200 @@
+{
+  "root": "حصر",
+  "rootArabic": "حصر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أُحْصِرَ",
+      "count": 2
+    },
+    {
+      "form": "حَصَرَ",
+      "count": 2
+    },
+    {
+      "form": "حَصُورٌ",
+      "count": 1
+    },
+    {
+      "form": "حَصِير",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أُحْصِرَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصَرَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصَرَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصِير",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 196,
+      "text": "وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًى مِّن رَّأْسِهِۦ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌ كَامِلَةٌ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ <a class=\"highlight-text\">أُحْصِرْتُمْ</a> فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًى مِّن رَّأْسِهِۦ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌ كَامِلَةٌ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "أُحْصِرَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 273,
+      "text": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "highlightedHtml": "لِلْفُقَرَآءِ ٱلَّذِينَ <a class=\"highlight-text\">أُحْصِرُوا۟</a> فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "derivedForms": [
+        "أُحْصِرَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 39,
+      "text": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "فَنَادَتْهُ ٱلْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا <a class=\"highlight-text\">وَحَصُورًا</a> وَنَبِيًّا مِّنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "حَصُورٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 90,
+      "text": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ حَصِرَتْ صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "highlightedHtml": "إِلَّا ٱلَّذِينَ يَصِلُونَ إِلَىٰ قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَٰقٌ أَوْ جَآءُوكُمْ <a class=\"highlight-text\">حَصِرَتْ</a> صُدُورُهُمْ صُدُورُهُمْ أَن يُقَٰتِلُوكُمْ أَوْ يُقَٰتِلُوا۟ قَوْمَهُمْ ۚ وَلَوْ شَآءَ ٱللَّهُ لَسَلَّطَهُمْ عَلَيْكُمْ فَلَقَٰتَلُوكُمْ ۚ فَإِنِ ٱعْتَزَلُوكُمْ فَلَمْ يُقَٰتِلُوكُمْ وَأَلْقَوْا۟ إِلَيْكُمُ ٱلسَّلَمَ فَمَا جَعَلَ ٱللَّهُ لَكُمْ عَلَيْهِمْ سَبِيلًا",
+      "derivedForms": [
+        "حَصَرَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 5,
+      "text": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ <a class=\"highlight-text\">وَٱحْصُرُوهُمْ</a> وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "حَصَرَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 8,
+      "text": "عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ حَصِيرًا",
+      "highlightedHtml": "عَسَىٰ رَبُّكُمْ أَن يَرْحَمَكُمْ ۚ وَإِنْ عُدتُّمْ عُدْنَا ۘ وَجَعَلْنَا جَهَنَّمَ لِلْكَٰفِرِينَ <a class=\"highlight-text\">حَصِيرًا</a>",
+      "derivedForms": [
+        "حَصِير"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:17.818Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) passive perfect verb",
+    "derivativeNote": "أُحْصِرْتُمْ is in the derivative form: أُحْصِرَ",
+    "rootDefinitionHtml": "ح/ص/ر   ḥ–ṣ–r to encircle, to blockade, to forbid, to constrict, to confine<br>; timid person, abstemious person (particularly concerning women), celibate person; miserly person; reed mat. <br><br>Of this root, 4 forms occur 6 times:<br> حَصِرَ ḥaṣira 2 times; أُحْصِرَ ʾuḥṣira 2 times; حَصُورٌ ḥaṣūr 1 time and حَصِير ḥaṣır 1 time.",
+    "mainDefinitionHtml": "أُحْصِرَ ʾuḥṣira [pass. of v. IV] <br><br><strong>1 </strong>to be prevented, confined, besieged, to be made destitute <br><br>(2:196) وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ فَإِنْ أُحْصِرْتُمْ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ perform the pilgrimages, major and minor, for the sake of God. If you are prevented [from doing so], then [send] whatever offering for sacrifice that is affordable to you <br><br><strong>2 </strong>to be incapacitated; to be straitened; to be destitute (also to be devoted to a certain task) <br><br>(2:273) لِلْفُقَرَاءِ الَّذِينَ أُحْصِرُوا فِى سَبِيلِ اللَّهِ لاَ يَسْتَطِيعُونَ ضَرْبًا فِى الأَرْضِ [give] to those needy who are wholly occupied (or, who are straitened, or, who are incapacitated) in God’s way and cannot travel [lit. hit the road] in the land [for earning a living].",
+    "mainEntryId": "wdef-ح-ص-ر.أُحْصِرَ",
+    "entries": [
+      {
+        "id": "wdef-ح-ص-ر",
+        "label": "ح-ص-ر",
+        "definitionHtml": "ح/ص/ر   ḥ–ṣ–r to encircle, to blockade, to forbid, to constrict, to confine<br>; timid person, abstemious person (particularly concerning women), celibate person; miserly person; reed mat. <br><br>Of this root, 4 forms occur 6 times:<br> حَصِرَ ḥaṣira 2 times; أُحْصِرَ ʾuḥṣira 2 times; حَصُورٌ ḥaṣūr 1 time and حَصِير ḥaṣır 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ر.أُحْصِرَ",
+        "label": "أُحْصِرَ",
+        "definitionHtml": "أُحْصِرَ ʾuḥṣira [pass. of v. IV] <br><br><strong>1 </strong>to be prevented, confined, besieged, to be made destitute <br><br>(2:196) وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ فَإِنْ أُحْصِرْتُمْ فَمَا اسْتَيْسَرَ مِنَ الْهَدْيِ perform the pilgrimages, major and minor, for the sake of God. If you are prevented [from doing so], then [send] whatever offering for sacrifice that is affordable to you <br><br><strong>2 </strong>to be incapacitated; to be straitened; to be destitute (also to be devoted to a certain task) <br><br>(2:273) لِلْفُقَرَاءِ الَّذِينَ أُحْصِرُوا فِى سَبِيلِ اللَّهِ لاَ يَسْتَطِيعُونَ ضَرْبًا فِى الأَرْضِ [give] to those needy who are wholly occupied (or, who are straitened, or, who are incapacitated) in God’s way and cannot travel [lit. hit the road] in the land [for earning a living].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ص-ر.حَصَرَ",
+        "label": "حَصَرَ",
+        "definitionHtml": "حَصَرَ ḥaṣara I [(imperf. يَحْصُرُ yaḥṣur) v. trans.] to besiege, confine, restrict <br><br>(9:5) وَخُذُوهُمْ وَاحْصُرُوهُمْ وَاقْعُدُوا لَهُمْ كُلَّ مَرْصَدٍ take them, besiege them and ambush them at every post II [(imperf. يَحْصَرُ yaḥṣar) v. intrans.] to become constricted, to shrink from, to abhor <br><br>(4:90) أَوْ جَاءُوكُمْ حَصِرَتْ صُدُورُهُمْ أَنْ يُقَاتِلُوكُمْ أَوْ يُقَاتِلُوا قَوْمَهُمْ or [those] who come to you because their hearts shrink from fighting against you or against their own people.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ر.حَصُورٌ",
+        "label": "حَصُورٌ",
+        "definitionHtml": "حَصُورٌ ḥaṣūr [intens. act. part.] celibate, ascetic, abstemious, chaste <br><br>(3:39) أَنَّ اللَّهَ يُبَشِّرُكَ بِيَحْيَى مُصَدِّقًا بِكَلِمَةٍ مِنَ اللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِنَ الصَّالِحِينَ God gives you the good tidings of John, who will confirm a word of God, a chief, and chaste, a prophet, one of the righteous.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-ر.حَصِير",
+        "label": "حَصِير",
+        "definitionHtml": "حَصِير ḥaṣır [n.] prison, confinement <br><br>(17:8) وَجَعَلْنَا جَهَنَّم لِلْكَافِرِينَ حَصِيرًا We have made Hell a prison for those who deny God.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:01.528Z",
+      "refword": "2:196:6",
+      "lexword": "أُحْصِرْتُمْ"
+    }
+  }
+}

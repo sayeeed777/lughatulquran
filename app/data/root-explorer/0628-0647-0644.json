@@ -1,0 +1,74 @@
+{
+  "root": "بهل",
+  "rootArabic": "بهل",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَبْتَهِلْ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَبْتَهِلْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 61,
+      "text": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ فَقُلْ تَعَالَوْا۟ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَٰذِبِينَ",
+      "highlightedHtml": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ فَقُلْ تَعَالَوْا۟ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ <a class=\"highlight-text\">نَبْتَهِلْ</a> فَنَجْعَل لَّعْنَتَ ٱللَّهِ عَلَى ٱلْكَٰذِبِينَ",
+      "derivedForms": [
+        "نَبْتَهِلْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:40:06.985Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form VIII) imperfect verb, jussive mood",
+    "derivativeNote": "نَبْتَهِلْ is in the derivative form: نَبْتَهِلْ",
+    "rootDefinitionHtml": "ب/هـ/ل b–h–l to leave an animal unattended, to neglect; to be without a husband; to chase out; to curse, to invoke God’s wrath; to swear one’s innocence; to pray eagerly. Of this root, نَبْتَهِلْ nabtahil occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَبْتَهِلْ nabtahil [imperf. of v. VIII ابْتَهَلَ ʾibtahala, intrans. with no prep.] to pray earnestly, reference to مُبَاهَلَة mubāhala a traditional form of ‘trial by prayer’ practised in Arabia in which two antagonists debate a disputed subject in public with one another and end by invoking God’s curse upon the lying party <br><br>(3:61) ثُمَّ نَبْتَهِلْ فَنَجْعَلْ لَعْنَةَ اللَّهِ عَلَى الْكَاذِبِينَ and let us pray earnestly and then invoke God’s curse on those who are lying.",
+    "mainEntryId": "wdef-ب-هـ-ل.نَبْتَهِلْ",
+    "entries": [
+      {
+        "id": "wdef-ب-هـ-ل",
+        "label": "ب-هـ-ل",
+        "definitionHtml": "ب/هـ/ل b–h–l to leave an animal unattended, to neglect; to be without a husband; to chase out; to curse, to invoke God’s wrath; to swear one’s innocence; to pray eagerly. Of this root, نَبْتَهِلْ nabtahil occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-هـ-ل.نَبْتَهِلْ",
+        "label": "نَبْتَهِلْ",
+        "definitionHtml": "نَبْتَهِلْ nabtahil [imperf. of v. VIII ابْتَهَلَ ʾibtahala, intrans. with no prep.] to pray earnestly, reference to مُبَاهَلَة mubāhala a traditional form of ‘trial by prayer’ practised in Arabia in which two antagonists debate a disputed subject in public with one another and end by invoking God’s curse upon the lying party <br><br>(3:61) ثُمَّ نَبْتَهِلْ فَنَجْعَلْ لَعْنَةَ اللَّهِ عَلَى الْكَاذِبِينَ and let us pray earnestly and then invoke God’s curse on those who are lying.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:27:02.293Z",
+      "refword": "3:61:20",
+      "lexword": "نَبْتَهِلْ"
+    }
+  }
+}

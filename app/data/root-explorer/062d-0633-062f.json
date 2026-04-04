@@ -1,0 +1,165 @@
+{
+  "root": "حسد",
+  "rootArabic": "حسد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "حَسَدَ",
+      "count": 3
+    },
+    {
+      "form": "حَاسِد",
+      "count": 1
+    },
+    {
+      "form": "حَسَد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَسَد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَسَدَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَسَدَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَاسِد",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "حَسَدَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 109,
+      "text": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًا مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ ۖ فَٱعْفُوا۟ وَٱصْفَحُوا۟ وَٱصْفَحُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "وَدَّ كَثِيرٌ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَٰنِكُمْ كُفَّارًا <a class=\"highlight-text\">حَسَدًا</a> مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ ۖ فَٱعْفُوا۟ وَٱصْفَحُوا۟ وَٱصْفَحُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "حَسَد"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 54,
+      "text": "أَمْ يَحْسُدُونَ ٱلنَّاسَ عَلَىٰ مَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ آتَيْنَا آلَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًا",
+      "highlightedHtml": "أَمْ <a class=\"highlight-text\">يَحْسُدُونَ</a> ٱلنَّاسَ عَلَىٰ مَآ آتَاهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۖ فَقَدْ آتَيْنَا آلَ إِبْرَٰهِيمَ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَءَاتَيْنَٰهُم مُّلْكًا عَظِيمًا",
+      "derivedForms": [
+        "حَسَدَ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 15,
+      "text": "سَيَقُولُ ٱلْمُخَلَّفُونَ إِذَا ٱنطَلَقْتُمْ إِلَىٰ مَغَانِمَ لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا۟ كَلَٰمَ ٱللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ ٱللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ تَحْسُدُونَنَا ۚ بَلْ كَانُوا۟ لَا يَفْقَهُونَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "سَيَقُولُ ٱلْمُخَلَّفُونَ إِذَا ٱنطَلَقْتُمْ إِلَىٰ مَغَانِمَ لِتَأْخُذُوهَا ذَرُونَا نَتَّبِعْكُمْ ۖ يُرِيدُونَ أَن يُبَدِّلُوا۟ كَلَٰمَ ٱللَّهِ ۚ قُل لَّن تَتَّبِعُونَا كَذَٰلِكُمْ قَالَ ٱللَّهُ مِن قَبْلُ ۖ فَسَيَقُولُونَ بَلْ <a class=\"highlight-text\">تَحْسُدُونَنَا</a> ۚ بَلْ كَانُوا۟ لَا يَفْقَهُونَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "حَسَدَ"
+      ]
+    },
+    {
+      "surah": 113,
+      "ayah": 5,
+      "text": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "highlightedHtml": "وَمِن شَرِّ <a class=\"highlight-text\">حَاسِدٍ</a> إِذَا <a class=\"highlight-text\">حَسَدَ</a>",
+      "derivedForms": [
+        "حَاسِد",
+        "حَسَدَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:07.050Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "حَسَدًا is in the derivative form: حَسَد",
+    "rootDefinitionHtml": "ح/س/د   ḥ–s–d to peel off, to scrape off<br>; to envy, to grudge. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> حَسَدَ ḥasada 3 times; حَسَدٌ ḥasad 1 time and حَاسِدٌ ḥāsid 1 time.",
+    "mainDefinitionHtml": "حَسَد ḥasad [v. n.] the act of envying <br><br>(2:109) وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ many of the People of the Book wish they could revert you to disbelief after you have believed, out of their own envy.",
+    "mainEntryId": "wdef-ح-س-د.حَسَد",
+    "entries": [
+      {
+        "id": "wdef-ح-س-د",
+        "label": "ح-س-د",
+        "definitionHtml": "ح/س/د   ḥ–s–d to peel off, to scrape off<br>; to envy, to grudge. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> حَسَدَ ḥasada 3 times; حَسَدٌ ḥasad 1 time and حَاسِدٌ ḥāsid 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-س-د.حَسَد",
+        "label": "حَسَد",
+        "definitionHtml": "حَسَد ḥasad [v. n.] the act of envying <br><br>(2:109) وَدَّ كَثِيرٌ مِنْ أَهْلِ الْكِتَابِ لَوْ يَرُدُّونَكُمْ مِنْ بَعْدِ إِيمَانِكُمْ كُفَّارًا حَسَدًا مِنْ عِنْدِ أَنْفُسِهِمْ many of the People of the Book wish they could revert you to disbelief after you have believed, out of their own envy.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-س-د.حَاسِد",
+        "label": "حَاسِد",
+        "definitionHtml": "حَاسِد ḥāsid [act. part.] one who envies, one who harms with envy <br><br>(113:5) وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ and from the evil of the envier when he envies.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-س-د.حَسَدَ",
+        "label": "حَسَدَ",
+        "definitionHtml": "حَسَدَ ḥasada u [v. trans.] to envy <br><br>(4:54) أَمْ يَحْسُدُونَ النَّاسَ عَلَى مَا ءَاتَاهُمُ اللَّهُ مِنْ فَضْلِهِ do they envy [other] people for the bounty God has granted them?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:43.622Z",
+      "refword": "2:109:12",
+      "lexword": "حَسَدًا"
+    }
+  }
+}

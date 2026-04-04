@@ -1,0 +1,138 @@
+{
+  "root": "ستر",
+  "rootArabic": "ستر",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "تَسْتَتِر",
+      "count": 1
+    },
+    {
+      "form": "سِتْر",
+      "count": 1
+    },
+    {
+      "form": "مَسْتُور",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْتُور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِتْر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَسْتَتِر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 45,
+      "text": "وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ حِجَابًا مَّسْتُورًا",
+      "highlightedHtml": "وَإِذَا قَرَأْتَ ٱلْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ ٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ حِجَابًا <a class=\"highlight-text\">مَّسْتُورًا</a>",
+      "derivedForms": [
+        "مَسْتُور"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 90,
+      "text": "حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا <a class=\"highlight-text\">سِتْرًا</a>",
+      "derivedForms": [
+        "سِتْر"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 22,
+      "text": "وَمَا كُنتُمْ تَسْتَتِرُونَ أَن يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلَآ أَبْصَٰرُكُمْ وَلَا جُلُودُكُمْ وَلَٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًا مِّمَّا تَعْمَلُونَ",
+      "highlightedHtml": "وَمَا كُنتُمْ <a class=\"highlight-text\">تَسْتَتِرُونَ</a> أَن يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلَآ أَبْصَٰرُكُمْ وَلَا جُلُودُكُمْ وَلَٰكِن ظَنَنتُمْ أَنَّ ٱللَّهَ لَا يَعْلَمُ كَثِيرًا مِّمَّا تَعْمَلُونَ",
+      "derivedForms": [
+        "تَسْتَتِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:36.267Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَّسْتُورًا is in the derivative form: مَسْتُور",
+    "rootDefinitionHtml": "س/ت/ر s–t–r to cover, to conceal, to hide<br>; to take cover; veil, covering. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br>تَسْتَتِرون tastatirūn; سِتْر sitr and مَسْتُور mastūr.",
+    "mainDefinitionHtml": "مَسْتُور mastūr [pass. part.] hidden, invisible (some grammatically‐orientated commentators consider the passive participle here in this context to convey the meaning of the active one سَاتِر sātir) <br><br>(17:45) وَإِذَا قَرَأْتَ الْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ حِجَابًا مَسْتُورًا when you recite the Qur’an, We place between you and those who do not believe in the life to come a hidden barrier (or, a covering).",
+    "mainEntryId": "wdef-س-ت-ر.مَسْتُور",
+    "entries": [
+      {
+        "id": "wdef-س-ت-ر",
+        "label": "س-ت-ر",
+        "definitionHtml": "س/ت/ر s–t–r to cover, to conceal, to hide<br>; to take cover; veil, covering. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br>تَسْتَتِرون tastatirūn; سِتْر sitr and مَسْتُور mastūr.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ت-ر.مَسْتُور",
+        "label": "مَسْتُور",
+        "definitionHtml": "مَسْتُور mastūr [pass. part.] hidden, invisible (some grammatically‐orientated commentators consider the passive participle here in this context to convey the meaning of the active one سَاتِر sātir) <br><br>(17:45) وَإِذَا قَرَأْتَ الْقُرْءَانَ جَعَلْنَا بَيْنَكَ وَبَيْنَ الَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ حِجَابًا مَسْتُورًا when you recite the Qur’an, We place between you and those who do not believe in the life to come a hidden barrier (or, a covering).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ت-ر.تَسْتَتِر",
+        "label": "تَسْتَتِر",
+        "definitionHtml": "تَسْتَتِر tastatir [imperf. of v. VIII] to cover oneself, to hide oneself <br><br>(41:22) وَمَا كُنْتُمْ تَسْتَتِرُونَ أَنْ يَشْهَدَ عَلَيْكُمْ سَمْعُكُمْ وَلاَ أَبْصَارُكُمْ وَلاَ جُلُودُكُمْ yet you did not try to hide [your bad actions] lest your ears, your eyes and your skin testify against you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ت-ر.سِتْر",
+        "label": "سِتْر",
+        "definitionHtml": "سِتْر sitr [v. n./n.] covering, veiling, sheltering; veil, shelter <br><br>(18:90) حَتَّى إِذَا بَلَغَ مَطْلِعَ الشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَى قَوْمٍ لَمْ نَجْعَلْ لَهُمْ مِنْ دُونِهَا سِتْرًا until he reached [the time/place of] sunrise, he found that it rises on a people for whom We had not provided shelter from it.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:17.559Z",
+      "refword": "17:45:12",
+      "lexword": "مَّسْتُورًا"
+    }
+  }
+}

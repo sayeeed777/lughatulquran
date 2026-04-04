@@ -1,0 +1,189 @@
+{
+  "root": "زور",
+  "rootArabic": "زور",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "زور",
+      "count": 4
+    },
+    {
+      "form": "تَزَّاوَر",
+      "count": 1
+    },
+    {
+      "form": "زارَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَزَّاوَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "زور",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زور",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 102,
+      "surahName": "At-Takathur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زارَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 17,
+      "text": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "highlightedHtml": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت <a class=\"highlight-text\">تَّزَٰوَرُ</a> عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "derivedForms": [
+        "تَزَّاوَر"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 30,
+      "text": "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ",
+      "highlightedHtml": "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَٰنِ وَٱجْتَنِبُوا۟ قَوْلَ <a class=\"highlight-text\">ٱلزُّورِ</a>",
+      "derivedForms": [
+        "زور"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 4,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا وَزُورًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ إِفْكٌ ٱفْتَرَىٰهُ وَأَعَانَهُۥ عَلَيْهِ قَوْمٌ آخَرُونَ ۖ فَقَدْ جَآءُو ظُلْمًا <a class=\"highlight-text\">وَزُورًا</a>",
+      "derivedForms": [
+        "زور"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 72,
+      "text": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ لَا يَشْهَدُونَ <a class=\"highlight-text\">ٱلزُّورَ</a> وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًا",
+      "derivedForms": [
+        "زور"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 2,
+      "text": "ٱلَّذِينَ يُظَٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَٰتِهِمْ ۖ إِنْ أُمَّهَٰتُهُمْ إِلَّا ٱلَّٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ وَزُورًا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
+      "highlightedHtml": "ٱلَّذِينَ يُظَٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَٰتِهِمْ ۖ إِنْ أُمَّهَٰتُهُمْ إِلَّا ٱلَّٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ <a class=\"highlight-text\">وَزُورًا</a> ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
+      "derivedForms": [
+        "زور"
+      ]
+    },
+    {
+      "surah": 102,
+      "ayah": 2,
+      "text": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
+      "highlightedHtml": "حَتَّىٰ <a class=\"highlight-text\">زُرْتُمُ</a> ٱلْمَقَابِرَ",
+      "derivedForms": [
+        "زارَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:18.845Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form VI) imperfect verb",
+    "derivativeNote": "تَّزَٰوَرُ is in the derivative form: تَزَّاوَر",
+    "rootDefinitionHtml": "ز/و/ر   z–w–r whole, centre or upper part of the chest, cleavage<br>; twist; leaning towards; paying a visit, visitor; perjuring oneself. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> زُرْتُم zurtum 1 time; تَزَّاوَر tazāwar 1 time and زور zūr 4 times.",
+    "mainDefinitionHtml": "تَزَّاوَر tazzāwar [imperf. of v. VI with pref.ﺘ elided, تَتَزَاوَر tatazāwar, intrans. with prep. عنْ] to swerve away from, to bypass, to steer clear of, to veer away from <br><br>(18:17) وَتَرَى الشَّمْسَ إِذَا طَلَعَتْ تَزَاوَرُ عَنْ كَهْفِهِمْ ذَاتَ الْيَمِينِ you could see the sun, as it rose, veering away from their cave towards the right.",
+    "mainEntryId": "wdef-ز-و-ر.تَزَّاوَر",
+    "entries": [
+      {
+        "id": "wdef-ز-و-ر",
+        "label": "ز-و-ر",
+        "definitionHtml": "ز/و/ر   z–w–r whole, centre or upper part of the chest, cleavage<br>; twist; leaning towards; paying a visit, visitor; perjuring oneself. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> زُرْتُم zurtum 1 time; تَزَّاوَر tazāwar 1 time and زور zūr 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-و-ر.تَزَّاوَر",
+        "label": "تَزَّاوَر",
+        "definitionHtml": "تَزَّاوَر tazzāwar [imperf. of v. VI with pref.ﺘ elided, تَتَزَاوَر tatazāwar, intrans. with prep. عنْ] to swerve away from, to bypass, to steer clear of, to veer away from <br><br>(18:17) وَتَرَى الشَّمْسَ إِذَا طَلَعَتْ تَزَاوَرُ عَنْ كَهْفِهِمْ ذَاتَ الْيَمِينِ you could see the sun, as it rose, veering away from their cave towards the right.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-و-ر.زارَ",
+        "label": "زارَ",
+        "definitionHtml": "زارَ zāra u [v. trans.] to visit, to come to *<br><br>(102:1–2) أَلْهَاكُمُ التَّكَاثُرُ حَتَّى زُرْتُمُ الْمَقَابِرَ striving for more distracts you until you die [lit. visit the graves].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-و-ر.زور",
+        "label": "زور",
+        "definitionHtml": "زور zūr [n.] falsehood, perjury, false testimony <br><br>(58:2) وَإِنَّهُمْ لَيَقُولُونَ مُنْكَرًا مِنَ الْقَوْلِ وَزُورًا indeed they utter abominable (or, blameworthy) words and falsehood.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:45.656Z",
+      "refword": "18:17:5",
+      "lexword": "تَّزَٰوَرُ"
+    }
+  }
+}

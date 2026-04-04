@@ -1,0 +1,131 @@
+{
+  "root": "شكو",
+  "rootArabic": "شكو",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "أشْكو",
+      "count": 1
+    },
+    {
+      "form": "تَشْتَكِى",
+      "count": 1
+    },
+    {
+      "form": "X",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أشْكو",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَشْتَكِى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 86,
+      "text": "قَالَ إِنَّمَآ أَشْكُوا۟ بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "قَالَ إِنَّمَآ <a class=\"highlight-text\">أَشْكُوا۟</a> بَثِّى وَحُزْنِىٓ إِلَى ٱللَّهِ وَأَعْلَمُ مِنَ ٱللَّهِ مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "أشْكو"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 35,
+      "text": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ كَمِشْكَوٰةٍ فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "ٱللَّهُ نُورُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ مَثَلُ نُورِهِۦ <a class=\"highlight-text\">كَمِشْكَوٰةٍ</a> فِيهَا مِصْبَاحٌ ۖ ٱلْمِصْبَاحُ فِى زُجَاجَةٍ ۖ ٱلزُّجَاجَةُ كَأَنَّهَا كَوْكَبٌ دُرِّىٌّ يُوقَدُ مِن شَجَرَةٍ مُّبَٰرَكَةٍ زَيْتُونَةٍ لَّا شَرْقِيَّةٍ وَلَا غَرْبِيَّةٍ يَكَادُ زَيْتُهَا يُضِىٓءُ وَلَوْ لَمْ تَمْسَسْهُ نَارٌ ۚ نُّورٌ عَلَىٰ نُورٍ ۗ يَهْدِى ٱللَّهُ لِنُورِهِۦ مَن يَشَآءُ ۚ وَيَضْرِبُ ٱللَّهُ ٱلْأَمْثَٰلَ لِلنَّاسِ ۗ وَٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "X"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 1,
+      "text": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا وَتَشْتَكِىٓ إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "highlightedHtml": "قَدْ سَمِعَ ٱللَّهُ قَوْلَ ٱلَّتِى تُجَٰدِلُكَ فِى زَوْجِهَا <a class=\"highlight-text\">وَتَشْتَكِىٓ</a> إِلَى ٱللَّهِ وَٱللَّهُ يَسْمَعُ تَحَاوُرَكُمَآ ۚ إِنَّ ٱللَّهَ سَمِيعٌۢ بَصِيرٌ",
+      "derivedForms": [
+        "تَشْتَكِى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:21.388Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb",
+    "derivativeNote": "أَشْكُوا۟ is in the derivative form: أشْكو",
+    "rootDefinitionHtml": "ش/ك/و   sh–k–w to grieve, to show, or reveal, one’s grief or sorrow, to complain. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أشْكو ʾashkū and تَشْتَكِى tashtakı.",
+    "mainDefinitionHtml": "أشْكو ʾashkū [imperf. of v.شَكا shakā, trans.] to complain, to submit a complaint <br><br>(12:86) إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ I only make complaint of my anguish and grief to God.",
+    "mainEntryId": "wdef-ش-ك-و.أشْكو",
+    "entries": [
+      {
+        "id": "wdef-ش-ك-و",
+        "label": "ش-ك-و",
+        "definitionHtml": "ش/ك/و   sh–k–w to grieve, to show, or reveal, one’s grief or sorrow, to complain. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أشْكو ʾashkū and تَشْتَكِى tashtakı.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ك-و.أشْكو",
+        "label": "أشْكو",
+        "definitionHtml": "أشْكو ʾashkū [imperf. of v.شَكا shakā, trans.] to complain, to submit a complaint <br><br>(12:86) إِنَّمَا أَشْكُو بَثِّي وَحُزْنِي إِلَى اللَّهِ I only make complaint of my anguish and grief to God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ك-و.تَشْتَكِى",
+        "label": "تَشْتَكِى",
+        "definitionHtml": "تَشْتَكِى tashtakı [imperf. of v. VIII, trans. with no object] to complain vigorously <br><br>(58:1) قَدْ سَمِعَ اللَّهُ قَوْلَ الَّتِي تُجَادِلُكَ فِى زَوْجِهَا وَتَشْتَكِي إِلَى اللَّهِ God has heard the words of she who disputes with you [Prophet] concerning her husband and complains to God.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:45.238Z",
+      "refword": "12:86:3",
+      "lexword": "أَشْكُوا۟"
+    }
+  }
+}

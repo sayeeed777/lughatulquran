@@ -1,0 +1,419 @@
+{
+  "root": "سطر",
+  "rootArabic": "سطر",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 5,
+    "surahCount": 14,
+    "ayahCount": 16
+  },
+  "derivatives": [
+    {
+      "form": "أساطير",
+      "count": 9
+    },
+    {
+      "form": "مَسْطور",
+      "count": 3
+    },
+    {
+      "form": "مُصَيطِر",
+      "count": 2
+    },
+    {
+      "form": "مُسْتطَر",
+      "count": 1
+    },
+    {
+      "form": "يَسْطُرون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْطور",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَسْطور",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَسْطور",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "مُصَيطِر",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتطَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        },
+        {
+          "form": "يَسْطُرون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أساطير",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُصَيطِر",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 25,
+      "text": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ ۖ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا ۚ حَتَّىٰٓ إِذَا جَآءُوكَ يُجَٰدِلُونَكَ يَقُولُ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ ۖ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا ۚ حَتَّىٰٓ إِذَا جَآءُوكَ يُجَٰدِلُونَكَ يَقُولُ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 31,
+      "text": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا قَالُوا۟ قَدْ سَمِعْنَا لَوْ نَشَآءُ لَقُلْنَا مِثْلَ هَٰذَآ ۙ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا قَالُوا۟ قَدْ سَمِعْنَا لَوْ نَشَآءُ لَقُلْنَا مِثْلَ هَٰذَآ ۙ إِنْ هَٰذَآ إِلَّآ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 24,
+      "text": "وَإِذَا قِيلَ لَهُم مَّاذَآ أَنزَلَ رَبُّكُمْ ۙ قَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَإِذَا قِيلَ لَهُم مَّاذَآ أَنزَلَ رَبُّكُمْ ۙ قَالُوٓا۟ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 58,
+      "text": "وَإِن مِّن قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَٰمَةِ أَوْ مُعَذِّبُوهَا عَذَابًا شَدِيدًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًا",
+      "highlightedHtml": "وَإِن مِّن قَرْيَةٍ إِلَّا نَحْنُ مُهْلِكُوهَا قَبْلَ يَوْمِ ٱلْقِيَٰمَةِ أَوْ مُعَذِّبُوهَا عَذَابًا شَدِيدًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ <a class=\"highlight-text\">مَسْطُورًا</a>",
+      "derivedForms": [
+        "مَسْطور"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 83,
+      "text": "لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَٰذَا مِن قَبْلُ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "لَقَدْ وُعِدْنَا نَحْنُ وَءَابَآؤُنَا هَٰذَا مِن قَبْلُ إِنْ هَٰذَآ إِلَّآ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 5,
+      "text": "وَقَالُوٓا۟ أَسَٰطِيرُ ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "highlightedHtml": "وَقَالُوٓا۟ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ ٱكْتَتَبَهَا فَهِىَ تُمْلَىٰ عَلَيْهِ بُكْرَةً وَأَصِيلًا",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 68,
+      "text": "لَقَدْ وُعِدْنَا هَٰذَا نَحْنُ وَءَابَآؤُنَا مِن قَبْلُ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "لَقَدْ وُعِدْنَا هَٰذَا نَحْنُ وَءَابَآؤُنَا مِن قَبْلُ إِنْ هَٰذَآ إِلَّآ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 6,
+      "text": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ مَسْطُورًا",
+      "highlightedHtml": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَٰبِ <a class=\"highlight-text\">مَسْطُورًا</a>",
+      "derivedForms": [
+        "مَسْطور"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 17,
+      "text": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 2,
+      "text": "وَكِتَٰبٍ مَّسْطُورٍ",
+      "highlightedHtml": "وَكِتَٰبٍ <a class=\"highlight-text\">مَّسْطُورٍ</a>",
+      "derivedForms": [
+        "مَسْطور"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 37,
+      "text": "أَمْ عِندَهُمْ خَزَآئِنُ رَبِّكَ أَمْ هُمُ ٱلْمُصَۣيْطِرُونَ",
+      "highlightedHtml": "أَمْ عِندَهُمْ خَزَآئِنُ رَبِّكَ أَمْ هُمُ <a class=\"highlight-text\">ٱلْمُصَۣيْطِرُونَ</a>",
+      "derivedForms": [
+        "مُصَيطِر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 53,
+      "text": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُّسْتَطَرٌ",
+      "highlightedHtml": "وَكُلُّ صَغِيرٍ وَكَبِيرٍ <a class=\"highlight-text\">مُّسْتَطَرٌ</a>",
+      "derivedForms": [
+        "مُسْتطَر"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 1,
+      "text": "نٓ ۚ وَٱلْقَلَمِ وَمَا يَسْطُرُونَ",
+      "highlightedHtml": "نٓ ۚ وَٱلْقَلَمِ وَمَا <a class=\"highlight-text\">يَسْطُرُونَ</a>",
+      "derivedForms": [
+        "يَسْطُرون"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 15,
+      "text": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 13,
+      "text": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "إِذَا تُتْلَىٰ عَلَيْهِ آيَاتُنَا قَالَ <a class=\"highlight-text\">أَسَٰطِيرُ</a> ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أساطير"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 22,
+      "text": "لَّسْتَ عَلَيْهِم بِمُصَيْطِرٍ",
+      "highlightedHtml": "لَّسْتَ عَلَيْهِم <a class=\"highlight-text\">بِمُصَيْطِرٍ</a>",
+      "derivedForms": [
+        "مُصَيطِر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:56.694Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural noun",
+    "derivativeNote": "أَسَٰطِيرُ is in the derivative form: أساطير",
+    "rootDefinitionHtml": "س/ط/ر   s–ṭ–r row of trees, palm trees, objects arranged in a sequence<br>; written words in rows; falsehood; stories with no foundations. It has, however, been suggested that the root originated from a borrowing either from Greek or Persian. <br><br>Of this root, 5 forms occur 16 times in the Qur’an:<br> يَسْطُرون yasṭurūn 1 time; مَسْطور masṭūr 3 times;مُسْتَطَر mustaṭar 1 time; أساطير ʾasāṭır 9 times and مُصيطِِر muṣayṭir 2 times.",
+    "mainDefinitionHtml": "أساطير ʾasāṭır [pl. of either n. اُسْطورة ʾusṭūratun or of pl. أسْطار ʾasṭār] fables <br><br>(16:24) وَإِذَا قِيلَ لَهُمْ مَاذَا أَنْزَلَ رَبُّكُمْ قَالُوا أَسَاطِيرُ الأَوَّلِينَ when they are asked, ‘What has your Lord sent down?’ they say, ‘Fables of the ancients.’",
+    "mainEntryId": "wdef-س-ط-ر.أساطير",
+    "entries": [
+      {
+        "id": "wdef-س-ط-ر",
+        "label": "س-ط-ر",
+        "definitionHtml": "س/ط/ر   s–ṭ–r row of trees, palm trees, objects arranged in a sequence<br>; written words in rows; falsehood; stories with no foundations. It has, however, been suggested that the root originated from a borrowing either from Greek or Persian. <br><br>Of this root, 5 forms occur 16 times in the Qur’an:<br> يَسْطُرون yasṭurūn 1 time; مَسْطور masṭūr 3 times;مُسْتَطَر mustaṭar 1 time; أساطير ʾasāṭır 9 times and مُصيطِِر muṣayṭir 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-ر.أساطير",
+        "label": "أساطير",
+        "definitionHtml": "أساطير ʾasāṭır [pl. of either n. اُسْطورة ʾusṭūratun or of pl. أسْطار ʾasṭār] fables <br><br>(16:24) وَإِذَا قِيلَ لَهُمْ مَاذَا أَنْزَلَ رَبُّكُمْ قَالُوا أَسَاطِيرُ الأَوَّلِينَ when they are asked, ‘What has your Lord sent down?’ they say, ‘Fables of the ancients.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ط-ر.مُصَيطِر",
+        "label": "مُصَيطِر",
+        "definitionHtml": "مُصَيطِر muṣayṭir (also مُسَيْطِر musayṭir) [act. part., spelled with a ص (ṣ) but pronounced as a س (s)] one in control <br><br>(88:22) لَسْتَ عَلَيْهِمْ بِمُصَيْطِرٍ you are not in control over them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-ر.مَسْطور",
+        "label": "مَسْطور",
+        "definitionHtml": "مَسْطور masṭūr [pass. part.] <br><br><strong>1 </strong>written, inscribed <br><br>(52:2) وَكِتَابٍ مَسْطُورٍ by a Book inscribed <br><br><strong>2 </strong>recorded, laid down, detailed <br><br>(33:6) كَانَ ذَلِكَ فِى الْكِتَابِ مَسْطُورًا all that is in the Book, detailed.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-ر.مُسْتطَر",
+        "label": "مُسْتطَر",
+        "definitionHtml": "مُسْتطَر mustaṭar [pass. part. of v. VIII] carefully recorded in writing <br><br>(54:53) وَكُلُّ صَغِيرٍ وَكَبِيرٍ مُسْتَطَرٌ every action, great or small, is recorded in writing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-ر.يَسْطُرون",
+        "label": "يَسْطُرون",
+        "definitionHtml": "يَسْطُرون yasṭurūn [imperf. v., trans.] to write, inscribe <br><br>(68:1) وَالْقَلَمِ وَمَا يَسْطُرُونَ by the pen!, and by what they [the scribes] write!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:58.072Z",
+      "refword": "6:25:31",
+      "lexword": "أَسَٰطِيرُ"
+    }
+  }
+}

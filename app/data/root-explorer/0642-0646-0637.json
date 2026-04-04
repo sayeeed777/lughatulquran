@@ -1,0 +1,194 @@
+{
+  "root": "قنط",
+  "rootArabic": "قنط",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "قَنَطَ",
+      "count": 4
+    },
+    {
+      "form": "قَانِطُون",
+      "count": 1
+    },
+    {
+      "form": "قَنُوط",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَانِطُون",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "قَنَطَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَنَطَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَنَطَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَنُوط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَنَطَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 55,
+      "text": "قَالُوا۟ بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ ٱلْقَٰنِطِينَ",
+      "highlightedHtml": "قَالُوا۟ بَشَّرْنَٰكَ بِٱلْحَقِّ فَلَا تَكُن مِّنَ <a class=\"highlight-text\">ٱلْقَٰنِطِينَ</a>",
+      "derivedForms": [
+        "قَانِطُون"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 56,
+      "text": "قَالَ وَمَن يَقْنَطُ مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
+      "highlightedHtml": "قَالَ وَمَن <a class=\"highlight-text\">يَقْنَطُ</a> مِن رَّحْمَةِ رَبِّهِۦٓ إِلَّا ٱلضَّآلُّونَ",
+      "derivedForms": [
+        "قَنَطَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 36,
+      "text": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ",
+      "highlightedHtml": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ <a class=\"highlight-text\">يَقْنَطُونَ</a>",
+      "derivedForms": [
+        "قَنَطَ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 53,
+      "text": "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "highlightedHtml": "قُلْ يَٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا <a class=\"highlight-text\">تَقْنَطُوا۟</a> مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+      "derivedForms": [
+        "قَنَطَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 49,
+      "text": "لَّا يَسْـَٔمُ ٱلْإِنسَٰنُ مِن دُعَآءِ ٱلْخَيْرِ وَإِن مَّسَّهُ ٱلشَّرُّ فَيَـُٔوسٌ قَنُوطٌ",
+      "highlightedHtml": "لَّا يَسْـَٔمُ ٱلْإِنسَٰنُ مِن دُعَآءِ ٱلْخَيْرِ وَإِن مَّسَّهُ ٱلشَّرُّ فَيَـُٔوسٌ <a class=\"highlight-text\">قَنُوطٌ</a>",
+      "derivedForms": [
+        "قَنُوط"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 28,
+      "text": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا <a class=\"highlight-text\">قَنَطُوا۟</a> وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "derivedForms": [
+        "قَنَطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:15.935Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلْقَٰنِطِينَ is in the derivative form: قَانِطُون",
+    "rootDefinitionHtml": "ق/ن/ط   q–n–ṭ despair, to fall into despair, to be despondent. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> قَنَطَ qanaṭa 4 times; قَانِطِين qāniṭın 1 time and قَنُوط qanūṭ 1 time.",
+    "mainDefinitionHtml": "قَانِطُون qāniṭūn [pl. of act. part. قَانِط qāniṭ] one who is in despair <br><br>(15:55) قَالُوا بَشَّرْنَاكَ بِالْحَقِّ فَلاَ تَكُنْ مِنَ الْقَانِطِينَ they said, ‘We have given you the good news in truth, so do not be one of the despairing.’",
+    "mainEntryId": "wdef-ق-ن-ط.قَانِطُون",
+    "entries": [
+      {
+        "id": "wdef-ق-ن-ط",
+        "label": "ق-ن-ط",
+        "definitionHtml": "ق/ن/ط   q–n–ṭ despair, to fall into despair, to be despondent. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> قَنَطَ qanaṭa 4 times; قَانِطِين qāniṭın 1 time and قَنُوط qanūṭ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ن-ط.قَانِطُون",
+        "label": "قَانِطُون",
+        "definitionHtml": "قَانِطُون qāniṭūn [pl. of act. part. قَانِط qāniṭ] one who is in despair <br><br>(15:55) قَالُوا بَشَّرْنَاكَ بِالْحَقِّ فَلاَ تَكُنْ مِنَ الْقَانِطِينَ they said, ‘We have given you the good news in truth, so do not be one of the despairing.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ن-ط.قَنَطَ",
+        "label": "قَنَطَ",
+        "definitionHtml": "قَنَطَ qanaṭa a [v. intrans.] to despair <br><br>(39:53) قُلْ يَاعِبَادِيَ الَّذِينَ أَسْرَفُوا عَلَى أَنْفُسِهِمْ لاَ تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ say, ‘[God says] My servants, who have been excessive [in sinning] against themselves, do not despair of God’s mercy.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ن-ط.قَنُوط",
+        "label": "قَنُوط",
+        "definitionHtml": "قَنُوط qanūṭ [intens. act. part.] one who is in utter despair, in utter despondence <br><br>(41:49) لاَ يَسْأَمُ الإِنْسَانُ مِنْ دُعَاءِ الْخَيْرِ وَإِنْ مَسَّهُ الشَّرُّ فَيَئُوسٌ قَنُوطٌ man never tires of praying for good, but if evil touches him, then he is hopeless, despondent.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:04.056Z",
+      "refword": "15:55:7",
+      "lexword": "ٱلْقَٰنِطِينَ"
+    }
+  }
+}

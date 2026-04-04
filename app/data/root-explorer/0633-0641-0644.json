@@ -1,0 +1,254 @@
+{
+  "root": "سفل",
+  "rootArabic": "سفل",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 2,
+    "surahCount": 9,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "سافِل",
+      "count": 6
+    },
+    {
+      "form": "أسْفَل",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْفَل",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سافِل",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْفَل",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سافِل",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سافِل",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سافِل",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْفَل",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسْفَل",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 95,
+      "surahName": "At-Tin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سافِل",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 145,
+      "text": "إِنَّ ٱلْمُنَٰفِقِينَ فِى ٱلدَّرْكِ ٱلْأَسْفَلِ مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا",
+      "highlightedHtml": "إِنَّ ٱلْمُنَٰفِقِينَ فِى ٱلدَّرْكِ <a class=\"highlight-text\">ٱلْأَسْفَلِ</a> مِنَ ٱلنَّارِ وَلَن تَجِدَ لَهُمْ نَصِيرًا",
+      "derivedForms": [
+        "أسْفَل"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 42,
+      "text": "إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ وَٱلرَّكْبُ أَسْفَلَ مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَٰدِ ۙ وَلَٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "إِذْ أَنتُم بِٱلْعُدْوَةِ ٱلدُّنْيَا وَهُم بِٱلْعُدْوَةِ ٱلْقُصْوَىٰ وَٱلرَّكْبُ <a class=\"highlight-text\">أَسْفَلَ</a> مِنكُمْ ۚ وَلَوْ تَوَاعَدتُّمْ لَٱخْتَلَفْتُمْ فِى ٱلْمِيعَٰدِ ۙ وَلَٰكِن لِّيَقْضِىَ ٱللَّهُ أَمْرًا كَانَ مَفْعُولًا لِّيَهْلِكَ مَنْ هَلَكَ عَنۢ بَيِّنَةٍ وَيَحْيَىٰ مَنْ حَىَّ عَنۢ بَيِّنَةٍ ۗ وَإِنَّ ٱللَّهَ لَسَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "سافِل"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 40,
+      "text": "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍ لَّمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُوا۟ ٱلسُّفْلَىٰ ۗ وَكَلِمَةُ ٱللَّهِ هِىَ ٱلْعُلْيَا ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "إِلَّا تَنصُرُوهُ فَقَدْ نَصَرَهُ ٱللَّهُ إِذْ أَخْرَجَهُ ٱلَّذِينَ كَفَرُوا۟ ثَانِىَ ٱثْنَيْنِ إِذْ هُمَا فِى ٱلْغَارِ إِذْ يَقُولُ لِصَٰحِبِهِۦ لَا تَحْزَنْ إِنَّ ٱللَّهَ مَعَنَا ۖ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَيْهِ وَأَيَّدَهُۥ بِجُنُودٍ لَّمْ تَرَوْهَا وَجَعَلَ كَلِمَةَ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">ٱلسُّفْلَىٰ</a> ۗ وَكَلِمَةُ ٱللَّهِ هِىَ ٱلْعُلْيَا ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "أسْفَل"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 82,
+      "text": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
+      "highlightedHtml": "فَلَمَّا جَآءَ أَمْرُنَا جَعَلْنَا عَٰلِيَهَا <a class=\"highlight-text\">سَافِلَهَا</a> وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهَا حِجَارَةً مِّن سِجِّيلٍ مَّنضُودٍ",
+      "derivedForms": [
+        "سافِل"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 74,
+      "text": "فَجَعَلْنَا عَٰلِيَهَا سَافِلَهَا وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+      "highlightedHtml": "فَجَعَلْنَا عَٰلِيَهَا <a class=\"highlight-text\">سَافِلَهَا</a> وَأَمْطَرْنَا وَأَمْطَرْنَا عَلَيْهِمْ حِجَارَةً مِّن سِجِّيلٍ",
+      "derivedForms": [
+        "سافِل"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 10,
+      "text": "إِذْ جَآءُوكُم مِّن فَوْقِكُمْ وَمِنْ أَسْفَلَ مِنكُمْ وَإِذْ زَاغَتِ ٱلْأَبْصَٰرُ وَبَلَغَتِ ٱلْقُلُوبُ ٱلْحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠",
+      "highlightedHtml": "إِذْ جَآءُوكُم مِّن فَوْقِكُمْ وَمِنْ <a class=\"highlight-text\">أَسْفَلَ</a> مِنكُمْ وَإِذْ زَاغَتِ ٱلْأَبْصَٰرُ وَبَلَغَتِ ٱلْقُلُوبُ ٱلْحَنَاجِرَ وَتَظُنُّونَ بِٱللَّهِ ٱلظُّنُونَا۠",
+      "derivedForms": [
+        "سافِل"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 98,
+      "text": "فَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَٰهُمُ ٱلْأَسْفَلِينَ",
+      "highlightedHtml": "فَأَرَادُوا۟ بِهِۦ كَيْدًا فَجَعَلْنَٰهُمُ <a class=\"highlight-text\">ٱلْأَسْفَلِينَ</a>",
+      "derivedForms": [
+        "أسْفَل"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 29,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ ٱلْأَسْفَلِينَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ <a class=\"highlight-text\">ٱلْأَسْفَلِينَ</a>",
+      "derivedForms": [
+        "أسْفَل"
+      ]
+    },
+    {
+      "surah": 95,
+      "ayah": 5,
+      "text": "ثُمَّ رَدَدْنَٰهُ أَسْفَلَ سَٰفِلِينَ",
+      "highlightedHtml": "ثُمَّ رَدَدْنَٰهُ <a class=\"highlight-text\">أَسْفَلَ</a> <a class=\"highlight-text\">سَٰفِلِينَ</a>",
+      "derivedForms": [
+        "سافِل",
+        "سافِل"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:06.115Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine singular adjective",
+    "derivativeNote": "ٱلْأَسْفَلِ is in the derivative form: أسْفَل",
+    "rootDefinitionHtml": "س/ف/ل   s–f–l to be low, to go low<br>; to be base, to be vile. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> سافِل sāfil 2 times;سافِلين sāfilın 1 time; أسْفَل ʾasfal 4 times; أَسْفَلين ʾasfalın 2 times and سُفلى suflā 1 time.",
+    "mainDefinitionHtml": "أسْفَل ʾasfal [elat; fem. سُفْلى suflā] <br><br><strong>1 </strong>lower/lowest position, part, level <br><br>(4:145) إِنَّ الْمُنَافِقِينَ فِى الدَّرْكِ الأَسْفَلِ مِنَ النَّارِ the hypocrites will be in the lowest depths of Hell <br><br><strong>2 </strong>more debased, more degraded, more vanquished <br><br>(41:29) وَقَالَ الَّذِينَ كَفَرُوا رَبَّنَا أَرِنَا الَّذَيْنِ أَضَلاَّنَا مِنَ الْجِنِّ وَالإِنْسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ الأَسْفَلِينَ the disbelievers will say, ‘Our Lord, show us those of the jinn and the humans who led us astray, that we may put them under our feet, and they be among the lowest of the low.",
+    "mainEntryId": "wdef-س-ف-ل.أسْفَل",
+    "entries": [
+      {
+        "id": "wdef-س-ف-ل",
+        "label": "س-ف-ل",
+        "definitionHtml": "س/ف/ل   s–f–l to be low, to go low<br>; to be base, to be vile. <br><br>Of this root, 5 forms occur 10 times in the Qur’an:<br> سافِل sāfil 2 times;سافِلين sāfilın 1 time; أسْفَل ʾasfal 4 times; أَسْفَلين ʾasfalın 2 times and سُفلى suflā 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ف-ل.أسْفَل",
+        "label": "أسْفَل",
+        "definitionHtml": "أسْفَل ʾasfal [elat; fem. سُفْلى suflā] <br><br><strong>1 </strong>lower/lowest position, part, level <br><br>(4:145) إِنَّ الْمُنَافِقِينَ فِى الدَّرْكِ الأَسْفَلِ مِنَ النَّارِ the hypocrites will be in the lowest depths of Hell <br><br><strong>2 </strong>more debased, more degraded, more vanquished <br><br>(41:29) وَقَالَ الَّذِينَ كَفَرُوا رَبَّنَا أَرِنَا الَّذَيْنِ أَضَلاَّنَا مِنَ الْجِنِّ وَالإِنْسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ الأَسْفَلِينَ the disbelievers will say, ‘Our Lord, show us those of the jinn and the humans who led us astray, that we may put them under our feet, and they be among the lowest of the low.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ف-ل.سافِل",
+        "label": "سافِل",
+        "definitionHtml": "سافِل sāfil [act. part.; pl. سافِلين sāfilın] <br><br><strong>1 </strong>lower part of an object, low positions <br><br>(11:82) فَلَمَّا جَاءَ أَمْرُنَا جَعَلْنَا عَالِيَهَا سَافِلَهَا and so when Our command came, We turned it [the town] upside down <br><br><strong>2 </strong>base, abject; dilapidated, shrivelled <br><br>(95:5) ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ then We reduce (or, restore, return) him to the lowest of the low.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:18.022Z",
+      "refword": "4:145:5",
+      "lexword": "ٱلْأَسْفَلِ"
+    }
+  }
+}

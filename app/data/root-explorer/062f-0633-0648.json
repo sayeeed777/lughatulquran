@@ -1,0 +1,74 @@
+{
+  "root": "دسو",
+  "rootArabic": "دسو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "دَسَّى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دَسَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 91,
+      "ayah": 10,
+      "text": "وَقَدْ خَابَ مَن دَسَّىٰهَا",
+      "highlightedHtml": "وَقَدْ خَابَ مَن <a class=\"highlight-text\">دَسَّىٰهَا</a>",
+      "derivedForms": [
+        "دَسَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:14.516Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "دَسَّىٰهَا is in the derivative form: دَسَّى",
+    "rootDefinitionHtml": "د/س/ي   d–s–y to corrupt, to soil, to let down, to tempt. Of this root, دَسَّى dassā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "دَسَّى dassā [v. II, trans.] to corrupt, to tarnish ‏<br><br>(91:7–10) قَدْ أَفْلَحَ مَنْ زَكَّاهَا وَقَدْ خَابَ مَنْ دَسَّاهَا the one who purifies it [his soul] succeeds and the one who corrupts it fails.",
+    "mainEntryId": "wdef-د-س-ي.دَسَّى",
+    "entries": [
+      {
+        "id": "wdef-د-س-ي",
+        "label": "د-س-ي",
+        "definitionHtml": "د/س/ي   d–s–y to corrupt, to soil, to let down, to tempt. Of this root, دَسَّى dassā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-س-ي.دَسَّى",
+        "label": "دَسَّى",
+        "definitionHtml": "دَسَّى dassā [v. II, trans.] to corrupt, to tarnish ‏<br><br>(91:7–10) قَدْ أَفْلَحَ مَنْ زَكَّاهَا وَقَدْ خَابَ مَنْ دَسَّاهَا the one who purifies it [his soul] succeeds and the one who corrupts it fails.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:48.898Z",
+      "refword": "91:10:4",
+      "lexword": "دَسَّىٰهَا"
+    }
+  }
+}

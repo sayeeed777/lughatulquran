@@ -1,0 +1,74 @@
+{
+  "root": "عوق",
+  "rootArabic": "عوق",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُعَوِّقِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُعَوِّقِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 33,
+      "ayah": 18,
+      "text": "قَدْ يَعْلَمُ ٱللَّهُ ٱلْمُعَوِّقِينَ مِنكُمْ وَٱلْقَآئِلِينَ لِإِخْوَٰنِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ ٱلْبَأْسَ إِلَّا قَلِيلًا",
+      "highlightedHtml": "قَدْ يَعْلَمُ ٱللَّهُ <a class=\"highlight-text\">ٱلْمُعَوِّقِينَ</a> مِنكُمْ وَٱلْقَآئِلِينَ لِإِخْوَٰنِهِمْ هَلُمَّ إِلَيْنَا ۖ وَلَا يَأْتُونَ ٱلْبَأْسَ إِلَّا قَلِيلًا",
+      "derivedForms": [
+        "مُعَوِّقِين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:40.232Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form II) active participle",
+    "derivativeNote": "ٱلْمُعَوِّقِينَ is in the derivative form: مُعَوِّقِين",
+    "rootDefinitionHtml": "ع/و/ق   ʿ–w–q obstacle, obstruction, impediment, to obstruct, to delay, to hinder, to incapacitate. Of this root, only المُعَوِّقِين ʾal‐muʿawwiqın occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُعَوِّقِين muʿawwiqīn [pl. of act. part. مُعَوِّقٌ muʿawwiq] one who hinders, one who obstructs <br><br>(33:18) قَدْ‏ ‏يَعْلَمُ‏ ‏اللَّهُ‏ ‏الْمُعَوِّقِينَ‏ ‏مِنْكُمْ‏ ‏ God may know [take to task] the hinderers among you.",
+    "mainEntryId": "wdef-ع-و-ق.مُعَوِّقِين",
+    "entries": [
+      {
+        "id": "wdef-ع-و-ق",
+        "label": "ع-و-ق",
+        "definitionHtml": "ع/و/ق   ʿ–w–q obstacle, obstruction, impediment, to obstruct, to delay, to hinder, to incapacitate. Of this root, only المُعَوِّقِين ʾal‐muʿawwiqın occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ق.مُعَوِّقِين",
+        "label": "مُعَوِّقِين",
+        "definitionHtml": "مُعَوِّقِين muʿawwiqīn [pl. of act. part. مُعَوِّقٌ muʿawwiq] one who hinders, one who obstructs <br><br>(33:18) قَدْ‏ ‏يَعْلَمُ‏ ‏اللَّهُ‏ ‏الْمُعَوِّقِينَ‏ ‏مِنْكُمْ‏ ‏ God may know [take to task] the hinderers among you.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:56.848Z",
+      "refword": "33:18:4",
+      "lexword": "ٱلْمُعَوِّقِينَ"
+    }
+  }
+}

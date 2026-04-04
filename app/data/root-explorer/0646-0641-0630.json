@@ -1,0 +1,76 @@
+{
+  "root": "نفذ",
+  "rootArabic": "نفذ",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَنْفُذُ",
+      "count": 3
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "يَنْفُذُ",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 55,
+      "ayah": 33,
+      "text": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ ۚ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍ",
+      "highlightedHtml": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن <a class=\"highlight-text\">تَنفُذُوا۟</a> مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ <a class=\"highlight-text\">فَٱنفُذُوا۟</a> ۚ لَا <a class=\"highlight-text\">تَنفُذُونَ</a> إِلَّا بِسُلْطَٰنٍ",
+      "derivedForms": [
+        "يَنْفُذُ",
+        "يَنْفُذُ",
+        "يَنْفُذُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:45.469Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural imperfect verb, subjunctive mood",
+    "derivativeNote": "تَنفُذُوا۟ is in the derivative form: يَنْفُذُ",
+    "rootDefinitionHtml": "ن/ف/ذ   n–f–dh vent, opening, exit, to go through, to penetrate; to carry out, arbitration. Of this root, نَفَذَ nafadha, occurs 3 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَنْفُذُ yanfudh [imperf. of v. نَفَذَ nafadha, intrans. with prep. مِنْ] to pass beyond, to break through, to pull away from <br><br>(55:33) يَامَعْشَرَ الْجِنِّ وَالإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَوَاتِ وَالأَرْضِ فَانْفُذُوا لاَ تَنْفُذُونَ إِلاَّ بِسُلْطَانٍ members of jinn and humankind, if you can pass through the regions of heaven and earth, then pass–you will not pass except with an authority (‘scientific’ interpreters of the Qur’an see in this verse a prophecy foretelling space travel).",
+    "mainEntryId": "wdef-ن-ف-ذ.يَنْفُذُ",
+    "entries": [
+      {
+        "id": "wdef-ن-ف-ذ",
+        "label": "ن-ف-ذ",
+        "definitionHtml": "ن/ف/ذ   n–f–dh vent, opening, exit, to go through, to penetrate; to carry out, arbitration. Of this root, نَفَذَ nafadha, occurs 3 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ف-ذ.يَنْفُذُ",
+        "label": "يَنْفُذُ",
+        "definitionHtml": "يَنْفُذُ yanfudh [imperf. of v. نَفَذَ nafadha, intrans. with prep. مِنْ] to pass beyond, to break through, to pull away from <br><br>(55:33) يَامَعْشَرَ الْجِنِّ وَالإِنْسِ إِنِ اسْتَطَعْتُمْ أَنْ تَنْفُذُوا مِنْ أَقْطَارِ السَّمَوَاتِ وَالأَرْضِ فَانْفُذُوا لاَ تَنْفُذُونَ إِلاَّ بِسُلْطَانٍ members of jinn and humankind, if you can pass through the regions of heaven and earth, then pass–you will not pass except with an authority (‘scientific’ interpreters of the Qur’an see in this verse a prophecy foretelling space travel).",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:44.598Z",
+      "refword": "55:33:7",
+      "lexword": "تَنفُذُوا۟"
+    }
+  }
+}

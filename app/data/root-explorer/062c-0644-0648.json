@@ -1,0 +1,173 @@
+{
+  "root": "جلو",
+  "rootArabic": "جلو",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "تَجَلَّى",
+      "count": 2
+    },
+    {
+      "form": "جَلَّى",
+      "count": 2
+    },
+    {
+      "form": "جَلاَءَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَجَلَّى",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "جَلَّى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَلاَءَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "جَلَّى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَجَلَّى",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 143,
+      "text": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا تَجَلَّىٰ رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَمَّا جَآءَ مُوسَىٰ لِمِيقَٰتِنَا وَكَلَّمَهُۥ رَبُّهُۥ قَالَ رَبِّ أَرِنِىٓ أَنظُرْ إِلَيْكَ ۚ قَالَ لَن تَرَىٰنِى وَلَٰكِنِ ٱنظُرْ إِلَى ٱلْجَبَلِ فَإِنِ ٱسْتَقَرَّ مَكَانَهُۥ فَسَوْفَ تَرَىٰنِى ۚ فَلَمَّا <a class=\"highlight-text\">تَجَلَّىٰ</a> رَبُّهُۥ لِلْجَبَلِ جَعَلَهُۥ دَكًّا وَخَرَّ مُوسَىٰ صَعِقًا ۚ فَلَمَّآ أَفَاقَ قَالَ سُبْحَٰنَكَ تُبْتُ إِلَيْكَ وَأَنَا۠ أَوَّلُ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "تَجَلَّى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 187,
+      "text": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا يُجَلِّيهَا لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "highlightedHtml": "يَسْـَٔلُونَكَ عَنِ ٱلسَّاعَةِ أَيَّانَ مُرْسَىٰهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ رَبِّى ۖ لَا <a class=\"highlight-text\">يُجَلِّيهَا</a> لِوَقْتِهَآ إِلَّا هُوَ ۚ ثَقُلَتْ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ لَا تَأْتِيكُمْ إِلَّا بَغْتَةً ۗ يَسْـَٔلُونَكَ كَأَنَّكَ حَفِىٌّ عَنْهَا ۖ قُلْ إِنَّمَا عِلْمُهَا عِندَ ٱللَّهِ وَلَٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "جَلَّى"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 3,
+      "text": "وَلَوْلَآ أَن كَتَبَ ٱللَّهُ عَلَيْهِمُ ٱلْجَلَآءَ لَعَذَّبَهُمْ فِى ٱلدُّنْيَا ۖ وَلَهُمْ فِى الْآخِرَةِ عَذَابُ ٱلنَّارِ",
+      "highlightedHtml": "وَلَوْلَآ أَن كَتَبَ ٱللَّهُ عَلَيْهِمُ <a class=\"highlight-text\">ٱلْجَلَآءَ</a> لَعَذَّبَهُمْ فِى ٱلدُّنْيَا ۖ وَلَهُمْ فِى الْآخِرَةِ عَذَابُ ٱلنَّارِ",
+      "derivedForms": [
+        "جَلاَءَ"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 3,
+      "text": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "highlightedHtml": "وَٱلنَّهَارِ إِذَا <a class=\"highlight-text\">جَلَّىٰهَا</a>",
+      "derivedForms": [
+        "جَلَّى"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 2,
+      "text": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ",
+      "highlightedHtml": "وَٱلنَّهَارِ إِذَا <a class=\"highlight-text\">تَجَلَّىٰ</a>",
+      "derivedForms": [
+        "تَجَلَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:12.627Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "تَجَلَّىٰ is in the derivative form: تَجَلَّى",
+    "rootDefinitionHtml": "ج/ل/و-ى   j–l–w/y evacuation, to evacuate, to clear away<br>; to manifest, to clarify, to appear; to polish, to remove; to go away. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> جَلَّى jallā 2 times; تَجَلَّى tajallā 2 times and جَلاَءٌ jalāʾ 1 time.",
+    "mainDefinitionHtml": "تَجَلَّى tajallā [v. V, intrans.] to appear in full glory, to come in full view <br><br>(7:143) فَلَمَّا تَجَلَّى رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا and when his Lord revealed Himself to the mountain, He made it crumble to dust.",
+    "mainEntryId": "wdef-ج-ل-و-ى.تَجَلَّى",
+    "entries": [
+      {
+        "id": "wdef-ج-ل-و-ى",
+        "label": "ج-ل-و-ى",
+        "definitionHtml": "ج/ل/و-ى   j–l–w/y evacuation, to evacuate, to clear away<br>; to manifest, to clarify, to appear; to polish, to remove; to go away. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> جَلَّى jallā 2 times; تَجَلَّى tajallā 2 times and جَلاَءٌ jalāʾ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ل-و-ى.تَجَلَّى",
+        "label": "تَجَلَّى",
+        "definitionHtml": "تَجَلَّى tajallā [v. V, intrans.] to appear in full glory, to come in full view <br><br>(7:143) فَلَمَّا تَجَلَّى رَبُّهُ لِلْجَبَلِ جَعَلَهُ دَكًّا and when his Lord revealed Himself to the mountain, He made it crumble to dust.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ج-ل-و-ى.جَلاَءَ",
+        "label": "جَلاَءَ",
+        "definitionHtml": "جَلاَءَ jalāʾ [n./v. n.] evacuation, banishment, immigration being dispersed, exile <br><br>(59:3) وَلَوْلاَ أَنْ كَتَبَ اللَّهُ عَلَيْهِمُ الْجَلاَءَ لَعَذَّبَهُمْ فِى الدُّنْيَا had God not decreed banishment for them, He would have chastised them [even more severely] in this world.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ل-و-ى.جَلَّى",
+        "label": "جَلَّى",
+        "definitionHtml": "جَلَّى jallā[v. II, trans.] to manifest, to disclose, to bring to light, to reveal <br><br>(7:187) قُلْ إِنَّمَا عِلْمُهَا عِنْدَ رَبِّي لاَ يُجَلِّيهَا لِوَقْتِهَا إِلاَّ هُوَ say, ‘The knowledge of it is only with My Lord: none but He will manifest it at its due time.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:29:07.605Z",
+      "refword": "7:143:25",
+      "lexword": "تَجَلَّىٰ"
+    }
+  }
+}

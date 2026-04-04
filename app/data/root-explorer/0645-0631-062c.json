@@ -1,0 +1,186 @@
+{
+  "root": "مرج",
+  "rootArabic": "مرج",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 3,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "مَرَجَ",
+      "count": 2
+    },
+    {
+      "form": "مَرْجَان",
+      "count": 2
+    },
+    {
+      "form": "مَارِج",
+      "count": 1
+    },
+    {
+      "form": "مَرِيج",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرَجَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَرِيج",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "مَرْجَان",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "مَارِج",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَرَجَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 25,
+      "ayah": 53,
+      "text": "وَهُوَ ٱلَّذِى مَرَجَ ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا وَحِجْرًا مَّحْجُورًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى <a class=\"highlight-text\">مَرَجَ</a> ٱلْبَحْرَيْنِ هَٰذَا عَذْبٌ فُرَاتٌ وَهَٰذَا مِلْحٌ أُجَاجٌ وَجَعَلَ بَيْنَهُمَا بَرْزَخًا وَحِجْرًا مَّحْجُورًا",
+      "derivedForms": [
+        "مَرَجَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 5,
+      "text": "بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِىٓ أَمْرٍ مَّرِيجٍ",
+      "highlightedHtml": "بَلْ كَذَّبُوا۟ بِٱلْحَقِّ لَمَّا جَآءَهُمْ فَهُمْ فِىٓ أَمْرٍ <a class=\"highlight-text\">مَّرِيجٍ</a>",
+      "derivedForms": [
+        "مَرِيج"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 15,
+      "text": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ",
+      "highlightedHtml": "وَخَلَقَ ٱلْجَآنَّ مِن <a class=\"highlight-text\">مَّارِجٍ</a> مِّن نَّارٍ",
+      "derivedForms": [
+        "مَارِج"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 19,
+      "text": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "highlightedHtml": "<a class=\"highlight-text\">مَرَجَ</a> ٱلْبَحْرَيْنِ يَلْتَقِيَانِ",
+      "derivedForms": [
+        "مَرَجَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 22,
+      "text": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ",
+      "highlightedHtml": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ <a class=\"highlight-text\">وَٱلْمَرْجَانُ</a>",
+      "derivedForms": [
+        "مَرْجَان"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 58,
+      "text": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ",
+      "highlightedHtml": "كَأَنَّهُنَّ ٱلْيَاقُوتُ <a class=\"highlight-text\">وَٱلْمَرْجَانُ</a>",
+      "derivedForms": [
+        "مَرْجَان"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:11.361Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "مَرَجَ is in the derivative form: مَرَجَ",
+    "rootDefinitionHtml": "م/ر/ج   m–r–j open space, pasture land, to pasture<br>; to shoot out, branches, to be convoluted, to be obscure; bright, smokeless flame, a bright tongue of fire, to exaggerate; coral; small pearls. The word مَرْجَان marjān, which philologists classify under this root, is an early borrowing into Arabic from Persian, perhaps through Aramaic. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> مَرَجَ maraja 2 times; مَارِج mārij 1 time; مَرِيج marıj 1 time and مَرْجَان marjān 2 times.",
+    "mainDefinitionHtml": "مَرَجَ maraja u [v. trans.] to cause to flow, to cause to run freely <br><br>(55:19) مَرَجَ‏ ‏الْبَحْرَيْنِ‏ ‏يَلْتَقِيَانِ‏ He made the two bodies of [fresh and salt] water flow freely, meeting one another.",
+    "mainEntryId": "wdef-م-ر-ج.مَرَجَ",
+    "entries": [
+      {
+        "id": "wdef-م-ر-ج",
+        "label": "م-ر-ج",
+        "definitionHtml": "م/ر/ج   m–r–j open space, pasture land, to pasture<br>; to shoot out, branches, to be convoluted, to be obscure; bright, smokeless flame, a bright tongue of fire, to exaggerate; coral; small pearls. The word مَرْجَان marjān, which philologists classify under this root, is an early borrowing into Arabic from Persian, perhaps through Aramaic. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> مَرَجَ maraja 2 times; مَارِج mārij 1 time; مَرِيج marıj 1 time and مَرْجَان marjān 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ج.مَرَجَ",
+        "label": "مَرَجَ",
+        "definitionHtml": "مَرَجَ maraja u [v. trans.] to cause to flow, to cause to run freely <br><br>(55:19) مَرَجَ‏ ‏الْبَحْرَيْنِ‏ ‏يَلْتَقِيَانِ‏ He made the two bodies of [fresh and salt] water flow freely, meeting one another.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ر-ج.مَارِج",
+        "label": "مَارِج",
+        "definitionHtml": "مَارِج mārij [act. part.] a shooting out [flame of smokeless fire] <br><br>(55:15) وَخَلَقَ‏ ‏الْجَانَّ‏ ‏مِنْ‏ ‏مَارِجٍ‏ ‏مِنْ‏ ‏نَارٍ‏ and He created the jinn out of a smokeless flame of fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ج.مَرِيج",
+        "label": "مَرِيج",
+        "definitionHtml": "مَرِيج marıj [quasi‐act. part.] confusing, obscure <br><br>(50:5) بَلْ‏ ‏كَذَّبُوا‏ ‏بِالْحَقِّ‏ ‏لَمَّا‏ ‏جَاءَهُمْ‏ ‏فَهُمْ‏ ‏فِي‏ ‏أَمْرٍ‏ ‏مَرِيجٍ‏ indeed, they denied the truth when it came to them; they are in a state of confusion.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ر-ج.مَرْجَان",
+        "label": "مَرْجَان",
+        "definitionHtml": "مَرْجَان marjān [n.] coral, also said to mean small pearls <br><br>(55:22) يَخْرُجُ‏ ‏مِنْهُمَا‏ ‏اللُّؤْلُؤُ‏ ‏وَالْمَرْجَانُ‏ pearls and coral come forth from both of them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:57:42.136Z",
+      "refword": "25:53:3",
+      "lexword": "مَرَجَ"
+    }
+  }
+}

@@ -1,0 +1,949 @@
+{
+  "root": "سرر",
+  "rootArabic": "سرر",
+  "stats": {
+    "totalOccurrences": 44,
+    "derivativeCount": 8,
+    "surahCount": 33,
+    "ayahCount": 43
+  },
+  "derivatives": [
+    {
+      "form": "أسَرَّ",
+      "count": 18
+    },
+    {
+      "form": "سِرّ",
+      "count": 12
+    },
+    {
+      "form": "سُرُر",
+      "count": 6
+    },
+    {
+      "form": "إسْرار",
+      "count": 2
+    },
+    {
+      "form": "السَرّاء",
+      "count": 2
+    },
+    {
+      "form": "مَسْرور",
+      "count": 2
+    },
+    {
+      "form": "تَسُرُّ",
+      "count": 1
+    },
+    {
+      "form": "سُرور",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "تَسُرُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "السَرّاء",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "السَرّاء",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 2,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 2,
+          "totalInQuran": 18
+        },
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        },
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إسْرار",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 64,
+      "surahName": "At-Taghabun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أسَرَّ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "إسْرار",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرور",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَسْرور",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سِرّ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سُرُر",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 69,
+      "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
+      "highlightedHtml": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا ۚ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا <a class=\"highlight-text\">تَسُرُّ</a> ٱلنَّٰظِرِينَ",
+      "derivedForms": [
+        "تَسُرُّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 77,
+      "text": "أَوَلَا يَعْلَمُونَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+      "highlightedHtml": "أَوَلَا يَعْلَمُونَ أَنَّ ٱللَّهَ يَعْلَمُ مَا <a class=\"highlight-text\">يُسِرُّونَ</a> وَمَا يُعْلِنُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 235,
+      "text": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ <a class=\"highlight-text\">سِرًّا</a> إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 274,
+      "text": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّا وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ <a class=\"highlight-text\">سِرًّا</a> وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 134,
+      "text": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "ٱلَّذِينَ يُنفِقُونَ فِى <a class=\"highlight-text\">ٱلسَّرَّآءِ</a> وَٱلضَّرَّآءِ وَٱلْكَٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "السَرّاء"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 52,
+      "text": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ أَسَرُّوا۟ فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+      "highlightedHtml": "فَتَرَى ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يُسَٰرِعُونَ فِيهِمْ يَقُولُونَ نَخْشَىٰٓ أَن تُصِيبَنَا دَآئِرَةٌ ۚ فَعَسَى ٱللَّهُ أَن يَأْتِىَ بِٱلْفَتْحِ أَوْ أَمْرٍ مِّنْ عِندِهِۦ فَيُصْبِحُوا۟ عَلَىٰ مَآ <a class=\"highlight-text\">أَسَرُّوا۟</a> فِىٓ أَنفُسِهِمْ نَٰدِمِينَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 3,
+      "text": "وَهُوَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَفِى ٱلْأَرْضِ ۖ يَعْلَمُ سِرَّكُمْ وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ",
+      "highlightedHtml": "وَهُوَ ٱللَّهُ فِى ٱلسَّمَٰوَٰتِ وَفِى ٱلْأَرْضِ ۖ يَعْلَمُ <a class=\"highlight-text\">سِرَّكُمْ</a> وَجَهْرَكُمْ وَيَعْلَمُ مَا تَكْسِبُونَ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 95,
+      "text": "ثُمَّ بَدَّلْنَا مَكَانَ ٱلسَّيِّئَةِ ٱلْحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدْ مَسَّ ءَابَآءَنَا ٱلضَّرَّآءُ وَٱلسَّرَّآءُ فَأَخَذْنَٰهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "ثُمَّ بَدَّلْنَا مَكَانَ ٱلسَّيِّئَةِ ٱلْحَسَنَةَ حَتَّىٰ عَفَوا۟ وَّقَالُوا۟ قَدْ مَسَّ ءَابَآءَنَا ٱلضَّرَّآءُ <a class=\"highlight-text\">وَٱلسَّرَّآءُ</a> فَأَخَذْنَٰهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "السَرّاء"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 78,
+      "text": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ سِرَّهُمْ وَنَجْوَىٰهُمْ وَأَنَّ ٱللَّهَ عَلَّٰمُ ٱلْغُيُوبِ",
+      "highlightedHtml": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ <a class=\"highlight-text\">سِرَّهُمْ</a> وَنَجْوَىٰهُمْ وَأَنَّ ٱللَّهَ عَلَّٰمُ ٱلْغُيُوبِ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 54,
+      "text": "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "highlightedHtml": "وَلَوْ أَنَّ لِكُلِّ نَفْسٍ ظَلَمَتْ مَا فِى ٱلْأَرْضِ لَٱفْتَدَتْ بِهِۦ ۗ <a class=\"highlight-text\">وَأَسَرُّوا۟</a> ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ ۖ وَقُضِىَ بَيْنَهُم بِٱلْقِسْطِ ۚ وَهُمْ لَا يُظْلَمُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 5,
+      "text": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا <a class=\"highlight-text\">يُسِرُّونَ</a> وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 19,
+      "text": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ وَأَسَرُّوهُ بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَجَآءَتْ سَيَّارَةٌ فَأَرْسَلُوا۟ وَارِدَهُمْ فَأَدْلَىٰ دَلْوَهُۥ ۖ قَالَ يَٰبُشْرَىٰ هَٰذَا غُلَٰمٌ ۚ <a class=\"highlight-text\">وَأَسَرُّوهُ</a> بِضَٰعَةً ۚ وَٱللَّهُ عَلِيمٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 77,
+      "text": "قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+      "highlightedHtml": "قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ <a class=\"highlight-text\">فَأَسَرَّهَا</a> يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 10,
+      "text": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ أَسَرَّ ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ",
+      "highlightedHtml": "سَوَآءٌ سَوَآءٌ مِّنكُم مَّنْ <a class=\"highlight-text\">أَسَرَّ</a> ٱلْقَوْلَ وَمَن جَهَرَ بِهِۦ وَمَنْ هُوَ مُسْتَخْفٍۭ بِٱلَّيْلِ وَسَارِبٌۢ بِٱلنَّهَارِ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 22,
+      "text": "وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ",
+      "highlightedHtml": "وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ <a class=\"highlight-text\">سِرًّا</a> وَعَلَانِيَةً وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 31,
+      "text": "قُل لِّعِبَادِىَ ٱلَّذِينَ آمَنُوا يُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُنفِقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خِلَٰلٌ",
+      "highlightedHtml": "قُل لِّعِبَادِىَ ٱلَّذِينَ آمَنُوا يُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُنفِقُوا۟ مِمَّا رَزَقْنَٰهُمْ <a class=\"highlight-text\">سِرًّا</a> وَعَلَانِيَةً مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خِلَٰلٌ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 47,
+      "text": "وَنَزَعْنَا مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ سُرُرٍ مُّتَقَٰبِلِينَ",
+      "highlightedHtml": "وَنَزَعْنَا مَا فِى صُدُورِهِم صُدُورِهِم مِّنْ غِلٍّ إِخْوَٰنًا عَلَىٰ <a class=\"highlight-text\">سُرُرٍ</a> مُّتَقَٰبِلِينَ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 19,
+      "text": "وَٱللَّهُ يَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ",
+      "highlightedHtml": "وَٱللَّهُ يَعْلَمُ مَا <a class=\"highlight-text\">تُسِرُّونَ</a> وَمَا تُعْلِنُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 23,
+      "text": "لَا جَرَمَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْتَكْبِرِينَ",
+      "highlightedHtml": "لَا جَرَمَ أَنَّ ٱللَّهَ يَعْلَمُ مَا <a class=\"highlight-text\">يُسِرُّونَ</a> وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْتَكْبِرِينَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 75,
+      "text": "ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًا فَهُوَ يُنفِقُ مِنْهُ سِرًّا وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "highlightedHtml": "ضَرَبَ ٱللَّهُ مَثَلًا عَبْدًا مَّمْلُوكًا لَّا يَقْدِرُ عَلَىٰ شَىْءٍ وَمَن رَّزَقْنَٰهُ مِنَّا رِزْقًا حَسَنًا فَهُوَ يُنفِقُ مِنْهُ <a class=\"highlight-text\">سِرًّا</a> وَجَهْرًا ۖ هَلْ يَسْتَوُۥنَ يَسْتَوُۥنَ ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 7,
+      "text": "وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ ٱلسِّرَّ وَأَخْفَى",
+      "highlightedHtml": "وَإِن تَجْهَرْ بِٱلْقَوْلِ فَإِنَّهُۥ يَعْلَمُ <a class=\"highlight-text\">ٱلسِّرَّ</a> وَأَخْفَى",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 62,
+      "text": "فَتَنَٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ وَأَسَرُّوا۟ ٱلنَّجْوَىٰ",
+      "highlightedHtml": "فَتَنَٰزَعُوٓا۟ أَمْرَهُم بَيْنَهُمْ <a class=\"highlight-text\">وَأَسَرُّوا۟</a> ٱلنَّجْوَىٰ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 3,
+      "text": "لَاهِيَةً قُلُوبُهُمْ ۗ وَأَسَرُّوا۟ ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ",
+      "highlightedHtml": "لَاهِيَةً قُلُوبُهُمْ ۗ <a class=\"highlight-text\">وَأَسَرُّوا۟</a> ٱلنَّجْوَى ٱلَّذِينَ ظَلَمُوا۟ هَلْ هَٰذَآ إِلَّا بَشَرٌ مِّثْلُكُمْ ۖ أَفَتَأْتُونَ ٱلسِّحْرَ وَأَنتُمْ تُبْصِرُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 6,
+      "text": "قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ ٱلسِّرَّ فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًا رَّحِيمًا",
+      "highlightedHtml": "قُلْ أَنزَلَهُ ٱلَّذِى يَعْلَمُ <a class=\"highlight-text\">ٱلسِّرَّ</a> فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۚ إِنَّهُۥ كَانَ غَفُورًا رَّحِيمًا",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 33,
+      "text": "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ وَأَسَرُّوا۟ ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ ٱسْتُضْعِفُوا۟ لِلَّذِينَ ٱسْتَكْبَرُوا۟ بَلْ مَكْرُ ٱلَّيْلِ وَٱلنَّهَارِ إِذْ تَأْمُرُونَنَآ أَن نَّكْفُرَ بِٱللَّهِ وَنَجْعَلَ لَهُۥٓ أَندَادًا ۚ <a class=\"highlight-text\">وَأَسَرُّوا۟</a> ٱلنَّدَامَةَ لَمَّا رَأَوُا۟ ٱلْعَذَابَ وَجَعَلْنَا ٱلْأَغْلَٰلَ فِىٓ أَعْنَاقِ ٱلَّذِينَ كَفَرُوا۟ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 29,
+      "text": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَٰرَةً لَّن تَبُورَ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَٰهُمْ <a class=\"highlight-text\">سِرًّا</a> وَعَلَانِيَةً يَرْجُونَ تِجَٰرَةً لَّن تَبُورَ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 76,
+      "text": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ",
+      "highlightedHtml": "فَلَا يَحْزُنكَ قَوْلُهُمْ ۘ إِنَّا نَعْلَمُ مَا <a class=\"highlight-text\">يُسِرُّونَ</a> وَمَا يُعْلِنُونَ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 44,
+      "text": "عَلَىٰ سُرُرٍ مُّتَقَٰبِلِينَ",
+      "highlightedHtml": "عَلَىٰ <a class=\"highlight-text\">سُرُرٍ</a> مُّتَقَٰبِلِينَ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 34,
+      "text": "وَلِبُيُوتِهِمْ أَبْوَٰبًا وَسُرُرًا عَلَيْهَا يَتَّكِـُٔونَ",
+      "highlightedHtml": "وَلِبُيُوتِهِمْ أَبْوَٰبًا <a class=\"highlight-text\">وَسُرُرًا</a> عَلَيْهَا يَتَّكِـُٔونَ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 80,
+      "text": "أَمْ يَحْسَبُونَ أَنَّا لَا نَسْمَعُ سِرَّهُمْ وَنَجْوَىٰهُم ۚ بَلَىٰ وَرُسُلُنَا لَدَيْهِمْ يَكْتُبُونَ",
+      "highlightedHtml": "أَمْ يَحْسَبُونَ أَنَّا لَا نَسْمَعُ <a class=\"highlight-text\">سِرَّهُمْ</a> وَنَجْوَىٰهُم ۚ بَلَىٰ وَرُسُلُنَا لَدَيْهِمْ يَكْتُبُونَ",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 26,
+      "text": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لِلَّذِينَ كَرِهُوا۟ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ ۖ وَٱللَّهُ يَعْلَمُ إِسْرَارَهُمْ",
+      "highlightedHtml": "ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لِلَّذِينَ كَرِهُوا۟ مَا نَزَّلَ ٱللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ ٱلْأَمْرِ ۖ وَٱللَّهُ يَعْلَمُ <a class=\"highlight-text\">إِسْرَارَهُمْ</a>",
+      "derivedForms": [
+        "إسْرار"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 20,
+      "text": "مُتَّكِـِٔينَ عَلَىٰ سُرُرٍ مَّصْفُوفَةٍ ۖ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "highlightedHtml": "مُتَّكِـِٔينَ عَلَىٰ <a class=\"highlight-text\">سُرُرٍ</a> مَّصْفُوفَةٍ ۖ وَزَوَّجْنَٰهُم بِحُورٍ عِينٍ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 15,
+      "text": "عَلَىٰ سُرُرٍ مَّوْضُونَةٍ",
+      "highlightedHtml": "عَلَىٰ <a class=\"highlight-text\">سُرُرٍ</a> مَّوْضُونَةٍ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ عَدُوِّى وَعَدُوَّكُمْ أَوْلِيَآءَ تُلْقُونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَقَدْ كَفَرُوا۟ بِمَا جَآءَكُم مِّنَ ٱلْحَقِّ يُخْرِجُونَ ٱلرَّسُولَ وَإِيَّاكُمْ ۙ أَن تُؤْمِنُوا۟ بِٱللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَٰدًا فِى سَبِيلِى وَٱبْتِغَآءَ مَرْضَاتِى ۚ تُسِرُّونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَأَنَا۠ أَعْلَمُ بِمَآ أَخْفَيْتُمْ وَمَآ أَعْلَنتُمْ ۚ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ سَوَآءَ ٱلسَّبِيلِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّخِذُوا۟ عَدُوِّى وَعَدُوَّكُمْ أَوْلِيَآءَ تُلْقُونَ إِلَيْهِم بِٱلْمَوَدَّةِ وَقَدْ كَفَرُوا۟ بِمَا جَآءَكُم مِّنَ ٱلْحَقِّ يُخْرِجُونَ ٱلرَّسُولَ وَإِيَّاكُمْ ۙ أَن تُؤْمِنُوا۟ بِٱللَّهِ رَبِّكُمْ إِن كُنتُمْ خَرَجْتُمْ جِهَٰدًا فِى سَبِيلِى وَٱبْتِغَآءَ مَرْضَاتِى ۚ <a class=\"highlight-text\">تُسِرُّونَ</a> إِلَيْهِم بِٱلْمَوَدَّةِ وَأَنَا۠ أَعْلَمُ بِمَآ أَخْفَيْتُمْ وَمَآ أَعْلَنتُمْ ۚ وَمَن يَفْعَلْهُ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ سَوَآءَ ٱلسَّبِيلِ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 64,
+      "ayah": 4,
+      "text": "يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا تُسِرُّونَ وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَيَعْلَمُ مَا <a class=\"highlight-text\">تُسِرُّونَ</a> وَمَا تُعْلِنُونَ ۚ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 3,
+      "text": "وَإِذْ أَسَرَّ ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ",
+      "highlightedHtml": "وَإِذْ <a class=\"highlight-text\">أَسَرَّ</a> ٱلنَّبِىُّ إِلَىٰ بَعْضِ أَزْوَٰجِهِۦ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِۦ وَأَظْهَرَهُ ٱللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُۥ وَأَعْرَضَ عَنۢ بَعْضٍ ۖ فَلَمَّا نَبَّأَهَا بِهِۦ قَالَتْ مَنْ أَنۢبَأَكَ هَٰذَا ۖ قَالَ نَبَّأَنِىَ ٱلْعَلِيمُ ٱلْخَبِيرُ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 13,
+      "text": "وَأَسِرُّوا۟ قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَسِرُّوا۟</a> قَوْلَكُمْ أَوِ ٱجْهَرُوا۟ بِهِۦٓ ۖ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "أسَرَّ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 9,
+      "text": "ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا",
+      "highlightedHtml": "ثُمَّ إِنِّىٓ أَعْلَنتُ لَهُمْ <a class=\"highlight-text\">وَأَسْرَرْتُ</a> لَهُمْ <a class=\"highlight-text\">إِسْرَارًا</a>",
+      "derivedForms": [
+        "أسَرَّ",
+        "إسْرار"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 11,
+      "text": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً وَسُرُورًا",
+      "highlightedHtml": "فَوَقَىٰهُمُ ٱللَّهُ شَرَّ ذَٰلِكَ ٱلْيَوْمِ وَلَقَّىٰهُمْ نَضْرَةً <a class=\"highlight-text\">وَسُرُورًا</a>",
+      "derivedForms": [
+        "سُرور"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 9,
+      "text": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
+      "highlightedHtml": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ <a class=\"highlight-text\">مَسْرُورًا</a>",
+      "derivedForms": [
+        "مَسْرور"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 13,
+      "text": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ مَسْرُورًا",
+      "highlightedHtml": "إِنَّهُۥ كَانَ فِىٓ أَهْلِهِۦ <a class=\"highlight-text\">مَسْرُورًا</a>",
+      "derivedForms": [
+        "مَسْرور"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 9,
+      "text": "يَوْمَ تُبْلَى ٱلسَّرَآئِرُ",
+      "highlightedHtml": "يَوْمَ تُبْلَى <a class=\"highlight-text\">ٱلسَّرَآئِرُ</a>",
+      "derivedForms": [
+        "سِرّ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 13,
+      "text": "فِيهَا سُرُرٌ مَّرْفُوعَةٌ",
+      "highlightedHtml": "فِيهَا <a class=\"highlight-text\">سُرُرٌ</a> مَّرْفُوعَةٌ",
+      "derivedForms": [
+        "سُرُر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:50.150Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَسُرُّ is in the derivative form: تَسُرُّ",
+    "rootDefinitionHtml": "س/ر/ر   s–r–r the inside, base (e.g. of the head or the navel), innermost part of an object<br>; secrecy, secrets; seat, bed; pleasure, to please, to delight. <br><br>Of this root, 9 forms occur 44 times in the Qur’an:<br> تَسُرّ tasurr 1 time;أسَرَّ ʾasarra 18 times; إسْرار ʾisrār 2 times;سَرّ sirr 11 times; سُرور surūr 1 time; مَسْرور masrūr 2 times; سَرائر sarāʾir 1 time; سَرّاء sarrāʾ 2 times and سُرُر surur 6 times.",
+    "mainDefinitionHtml": "تَسُرُّ tasurr [imperf. of v. II, trans.] to delight, to please, to make happy <br><br>(2:69) إِنَّهَا بَقَرَةٌ صَفْرَاءُ فَاقِعٌ لَوْنُهَا تَسُرُّ النَّاظِرِينَ it should be a bright yellow cow, that delights the onlookers.",
+    "mainEntryId": "wdef-س-ر-ر.تَسُرُّ",
+    "entries": [
+      {
+        "id": "wdef-س-ر-ر",
+        "label": "س-ر-ر",
+        "definitionHtml": "س/ر/ر   s–r–r the inside, base (e.g. of the head or the navel), innermost part of an object<br>; secrecy, secrets; seat, bed; pleasure, to please, to delight. <br><br>Of this root, 9 forms occur 44 times in the Qur’an:<br> تَسُرّ tasurr 1 time;أسَرَّ ʾasarra 18 times; إسْرار ʾisrār 2 times;سَرّ sirr 11 times; سُرور surūr 1 time; مَسْرور masrūr 2 times; سَرائر sarāʾir 1 time; سَرّاء sarrāʾ 2 times and سُرُر surur 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.تَسُرُّ",
+        "label": "تَسُرُّ",
+        "definitionHtml": "تَسُرُّ tasurr [imperf. of v. II, trans.] to delight, to please, to make happy <br><br>(2:69) إِنَّهَا بَقَرَةٌ صَفْرَاءُ فَاقِعٌ لَوْنُهَا تَسُرُّ النَّاظِرِينَ it should be a bright yellow cow, that delights the onlookers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ر-ر.أسَرَّ",
+        "label": "أسَرَّ",
+        "definitionHtml": "أسَرَّ ʾasarra [v. IV, trans.] <br><br><strong>1 </strong>to conceal, to keep as a secret <br><br>(12:77) فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِ وَلَمْ يُبْدِهَا لَهُمْ but Joseph kept it [secret] to himself and did not reveal it to them <br><br><strong>2 </strong>to convey in secrecy, to tell in confidence <br><br>(66:3) وَإِذْ أَسَرَّ النَّبِيُّ إِلَى بَعْضِ أَزْوَاجِهِ حَدِيثًا and when the Prophet told something in confidence to one of his wives; *<br><br>(20:62) أَسَرُّوا النَّجْوَى so they conferred secretly <br><br><strong>3 </strong>to treasure, to hide <br><br>(12:19) يَابُشْرَى هَذَا غُلاَمٌ وَأَسَرُّوهُ بِضَاعَةً ‘Good news! Here is a boy!,’ and they treasured him as merchandise <br><br><strong>4 </strong>(possibly, according to an opposite meaning of أَسَرَّ ʾasarr) to reveal, to declare, to manifest <br><br>(10:54) وَأَسَرُّوا النَّدَامَةَ لَمَّا رَأَوُا الْعَذَابَ and they will be openly remorseful when they see the chastisement (or, according to the more popular interpretation, secretly).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.إسْرار",
+        "label": "إسْرار",
+        "definitionHtml": "إسْرار ʾisrār [v. n.] <br><br><strong>1 </strong>concealing, conning, scheming <br><br>(47:26) ذَلِكَ بِأَنَّهُمْ قَالُوا لِلَّذِينَ كَرِهُوا مَا نَزَّلَ اللَّهُ سَنُطِيعُكُمْ فِى بَعْضِ الأَمْرِ وَاللَّهُ يَعْلَمُ إِسْرَارَهُمْ that was so because they said to those who hate what God has sent down, ‘We will obey you in some matters’, but God knows their secret scheming <br><br><strong>2 </strong>[adverbially] confidentially, secretly, privately <br><br>(71:9) ثُمَّ إِنِّي أَعْلَنْتُ لَهُمْ وَأَسْرَرْتُ لَهُمْ إِسْرَارًا then I have tried preaching to them in public and speaking to them in private.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.السَرّاء",
+        "label": "السَرّاء",
+        "definitionHtml": "السَرّاء ʾal‐sarrāʾ [n.] (in opposition to الضَّرَّاءِ ʾal‐ḍarrāʾ, q.v.) happy state of life, freedom from adversity, happiness <br><br>(3:134) الَّذِينَ يُنْفِقُونَ فِى السَّرَّاءِ وَالضَّرَّاءِ those who give both in prosperity and adversity; *<br><br>(7:95) وَقَالُوا قَدْ مَسَّ ءَابَاءَنَا الضَّرَّاءُ وَالسَّرَّاءُ and they said, ‘Hardship and affluence befell our forefathers’ (or, they had a mixture of good and bad–they led a normal life).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.سُرور",
+        "label": "سُرور",
+        "definitionHtml": "سُرور surūr [n.] pleasure, happiness <br><br>(76:11) وَلَقَّاهُمْ نَضْرَةً وَسُرُورًا and He accorded them radiance and gladness.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.سُرُر",
+        "label": "سُرُر",
+        "definitionHtml": "سُرُر surur [pl. of n. سَرير sarır] couch, throne <br><br>(43:34) وَلِبُيُوتِهِمْ أَبْوَابًا وَسُرُرًا عَلَيْهَا يَتَّكِئُونَ and [would have made] for their houses gates [of silver], and couches upon which they recline.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.سِرّ",
+        "label": "سِرّ",
+        "definitionHtml": "سِرّ sirr I [n.; pl. أسْرار ʾasrār] <br><br><strong>1 </strong>secret <br><br>(43:80) أَمْ يَحْسَبُونَ أَنَّا لاَ نَسْمَعُ سِرَّهُمْ وَنَجْوَاهُمْ do they think We cannot hear their secret talk and their private counsel? <br><br><strong>2 </strong>mystery <br><br>(25:6) قُلْ أَنْزَلَهُ الَّذِي يَعْلَمُ السِّرَّ فِى السَّمَوَاتِ وَالأَرْضِ say ‘It was sent down by Him who knows the secrets/mystery of the heavens and earth’ II [adverb.] in private, secretly, furtively <br><br>(2:235) وَلَكِنْ لاَ تُوَاعِدُوهُنَّ سِرًّا but do not make agreements with them secretly.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ر.مَسْرور",
+        "label": "مَسْرور",
+        "definitionHtml": "مَسْرور masrūr [pass. part.] well‐pleased, rejoicing <br><br>(84:9) وَيَنْقَلِبُ إِلَى أَهْلِهِ مَسْرُورًا and return to his people well‐pleased.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:44.327Z",
+      "refword": "2:69:17",
+      "lexword": "تَسُرُّ"
+    }
+  }
+}

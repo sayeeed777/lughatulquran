@@ -1,0 +1,448 @@
+{
+  "root": "سنو",
+  "rootArabic": "سنو",
+  "stats": {
+    "totalOccurrences": 20,
+    "derivativeCount": 2,
+    "surahCount": 17,
+    "ayahCount": 20
+  },
+  "derivatives": [
+    {
+      "form": "سَنةٌ",
+      "count": 19
+    },
+    {
+      "form": "سَنا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 2,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 2,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 2,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَنةٌ",
+          "count": 1,
+          "totalInQuran": 19
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 96,
+      "text": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "highlightedHtml": "وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ <a class=\"highlight-text\">سَنَةٍ</a> وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 26,
+      "text": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ ۛ أَرْبَعِينَ سَنَةً ۛ يَتِيهُونَ فِى ٱلْأَرْضِ ۚ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْفَٰسِقِينَ",
+      "highlightedHtml": "قَالَ فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ ۛ أَرْبَعِينَ <a class=\"highlight-text\">سَنَةً</a> ۛ يَتِيهُونَ فِى ٱلْأَرْضِ ۚ فَلَا تَأْسَ عَلَى ٱلْقَوْمِ ٱلْفَٰسِقِينَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 130,
+      "text": "وَلَقَدْ أَخَذْنَآ آلَ فِرْعَوْنَ بِٱلسِّنِينَ وَنَقْصٍ مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ أَخَذْنَآ آلَ فِرْعَوْنَ <a class=\"highlight-text\">بِٱلسِّنِينَ</a> وَنَقْصٍ مِّنَ ٱلثَّمَرَٰتِ لَعَلَّهُمْ يَذَّكَّرُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 5,
+      "text": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى جَعَلَ ٱلشَّمْسَ ضِيَآءً وَٱلْقَمَرَ نُورًا وَقَدَّرَهُۥ مَنَازِلَ لِتَعْلَمُوا۟ عَدَدَ <a class=\"highlight-text\">ٱلسِّنِينَ</a> وَٱلْحِسَابَ ۚ مَا خَلَقَ ٱللَّهُ ذَٰلِكَ إِلَّا بِٱلْحَقِّ ۚ يُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَعْلَمُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 42,
+      "text": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ سِنِينَ",
+      "highlightedHtml": "وَقَالَ لِلَّذِى ظَنَّ أَنَّهُۥ نَاجٍ مِّنْهُمَا ٱذْكُرْنِى عِندَ رَبِّكَ فَأَنسَىٰهُ ٱلشَّيْطَٰنُ ذِكْرَ رَبِّهِۦ فَلَبِثَ فِى ٱلسِّجْنِ بِضْعَ <a class=\"highlight-text\">سِنِينَ</a>",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 47,
+      "text": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "highlightedHtml": "قَالَ تَزْرَعُونَ سَبْعَ <a class=\"highlight-text\">سِنِينَ</a> دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 12,
+      "text": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ آيَتَيْنِ ۖ فَمَحَوْنَآ آيَةَ ٱلَّيْلِ وَجَعَلْنَآ آيَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ ٱلسِّنِينَ وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَٰهُ تَفْصِيلًا",
+      "highlightedHtml": "وَجَعَلْنَا ٱلَّيْلَ وَٱلنَّهَارَ آيَتَيْنِ ۖ فَمَحَوْنَآ آيَةَ ٱلَّيْلِ وَجَعَلْنَآ آيَةَ ٱلنَّهَارِ مُبْصِرَةً لِّتَبْتَغُوا۟ فَضْلًا مِّن رَّبِّكُمْ وَلِتَعْلَمُوا۟ عَدَدَ <a class=\"highlight-text\">ٱلسِّنِينَ</a> وَٱلْحِسَابَ ۚ وَكُلَّ شَىْءٍ فَصَّلْنَٰهُ تَفْصِيلًا",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 11,
+      "text": "فَضَرَبْنَا عَلَىٰٓ آذَانِهِمْ فِى ٱلْكَهْفِ سِنِينَ عَدَدًا",
+      "highlightedHtml": "فَضَرَبْنَا عَلَىٰٓ آذَانِهِمْ فِى ٱلْكَهْفِ <a class=\"highlight-text\">سِنِينَ</a> عَدَدًا",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 25,
+      "text": "وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَٰثَ مِا۟ئَةٍ سِنِينَ وَٱزْدَادُوا۟ تِسْعًا",
+      "highlightedHtml": "وَلَبِثُوا۟ فِى كَهْفِهِمْ ثَلَٰثَ مِا۟ئَةٍ <a class=\"highlight-text\">سِنِينَ</a> وَٱزْدَادُوا۟ تِسْعًا",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 40,
+      "text": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ سِنِينَ فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "highlightedHtml": "إِذْ تَمْشِىٓ أُخْتُكَ فَتَقُولُ هَلْ أَدُلُّكُمْ عَلَىٰ مَن يَكْفُلُهُۥ ۖ فَرَجَعْنَٰكَ إِلَىٰٓ أُمِّكَ كَىْ تَقَرَّ عَيْنُهَا وَلَا تَحْزَنَ ۚ وَقَتَلْتَ نَفْسًا فَنَجَّيْنَٰكَ مِنَ ٱلْغَمِّ وَفَتَنَّٰكَ فُتُونًا ۚ فَلَبِثْتَ <a class=\"highlight-text\">سِنِينَ</a> فِىٓ أَهْلِ مَدْيَنَ ثُمَّ جِئْتَ عَلَىٰ قَدَرٍ يَٰمُوسَىٰ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 47,
+      "text": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَلَن يُخْلِفَ ٱللَّهُ وَعْدَهُۥ ۚ وَإِنَّ يَوْمًا عِندَ رَبِّكَ كَأَلْفِ <a class=\"highlight-text\">سَنَةٍ</a> مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 112,
+      "text": "قَٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ سِنِينَ",
+      "highlightedHtml": "قَٰلَ كَمْ لَبِثْتُمْ فِى ٱلْأَرْضِ عَدَدَ <a class=\"highlight-text\">سِنِينَ</a>",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 43,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ <a class=\"highlight-text\">سَنَا</a> بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "سَنا"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 18,
+      "text": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ سِنِينَ",
+      "highlightedHtml": "قَالَ أَلَمْ نُرَبِّكَ فِينَا وَلِيدًا وَلَبِثْتَ فِينَا مِنْ عُمُرِكَ <a class=\"highlight-text\">سِنِينَ</a>",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 205,
+      "text": "أَفَرَءَيْتَ إِن مَّتَّعْنَٰهُمْ سِنِينَ",
+      "highlightedHtml": "أَفَرَءَيْتَ إِن مَّتَّعْنَٰهُمْ <a class=\"highlight-text\">سِنِينَ</a>",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 14,
+      "text": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَٰلِمُونَ",
+      "highlightedHtml": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ <a class=\"highlight-text\">سَنَةٍ</a> إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَٰلِمُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 4,
+      "text": "فِى بِضْعِ سِنِينَ ۗ لِلَّهِ ٱلْأَمْرُ مِن قَبْلُ وَمِنۢ بَعْدُ ۚ وَيَوْمَئِذٍ يَفْرَحُ ٱلْمُؤْمِنُونَ",
+      "highlightedHtml": "فِى بِضْعِ <a class=\"highlight-text\">سِنِينَ</a> ۗ لِلَّهِ ٱلْأَمْرُ مِن قَبْلُ وَمِنۢ بَعْدُ ۚ وَيَوْمَئِذٍ يَفْرَحُ ٱلْمُؤْمِنُونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 5,
+      "text": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ سَنَةٍ مِّمَّا تَعُدُّونَ",
+      "highlightedHtml": "يُدَبِّرُ ٱلْأَمْرَ مِنَ ٱلسَّمَآءِ إِلَى ٱلْأَرْضِ ثُمَّ يَعْرُجُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥٓ أَلْفَ <a class=\"highlight-text\">سَنَةٍ</a> مِّمَّا تَعُدُّونَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 15,
+      "text": "وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًا وَوَضَعَتْهُ كُرْهًا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةً قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+      "highlightedHtml": "وَوَصَّيْنَا ٱلْإِنسَٰنَ بِوَٰلِدَيْهِ إِحْسَٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًا وَوَضَعَتْهُ كُرْهًا ۖ وَحَمْلُهُۥ وَفِصَٰلُهُۥ ثَلَٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ <a class=\"highlight-text\">سَنَةً</a> قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَٰلِحًا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 4,
+      "text": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ سَنَةٍ",
+      "highlightedHtml": "تَعْرُجُ ٱلْمَلَٰٓئِكَةُ وَٱلرُّوحُ إِلَيْهِ فِى يَوْمٍ كَانَ مِقْدَارُهُۥ خَمْسِينَ أَلْفَ <a class=\"highlight-text\">سَنَةٍ</a>",
+      "derivedForms": [
+        "سَنةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:33.567Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite noun",
+    "derivativeNote": "سَنَةٍ is in the derivative form: سَنةٌ",
+    "rootDefinitionHtml": "س/ن/و   s–n–w shining, glittering, lightning<br>; high rank, climbing; irrigation, watering. سَنةٌ sanatun, year, may be a derivative <br><br>of this root if its third radical is considered to be و (w). There is a degree of uncertainty about and overlapping between the roots س/ن/ن s–n–n and س/ن/هـ s–n–h. Of this root, 3 forms occur 20 times in the Qur’an:<br> سَنا sanā 1 time; سَنةٌ sanatun 7 times; and سِنين sinın 12 times.",
+    "mainDefinitionHtml": "سَنةٌ sanatun [n., pl. سِنين sinın] year <br><br>(46:15) وَبَلَغَ أَرْبَعِينَ سَنَةً and reached forty years; *<br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ any of them would long to be granted longevity forever [lit. a thousand years]; *<br><br>(7:130) وَلَقَدْ أَخَذْنَا ءَالَ فِرْعَوْنَ بِالسِّنِينَ We tried Pharaoh’s people with the passage of time [lit. the years]; *<br><br>(26:205) أَفَرَأَيْتَ إِنْ مَتَّعْنَاهُمْ سِنِينَ have you considered, if we let them enjoy this life for a while [lit. some years]; *<br><br>(18:11) سِنِينَ عَدَدًا a great number of years [lit. years by counting].",
+    "mainEntryId": "wdef-س-ن-و.سَنةٌ",
+    "entries": [
+      {
+        "id": "wdef-س-ن-و",
+        "label": "س-ن-و",
+        "definitionHtml": "س/ن/و   s–n–w shining, glittering, lightning<br>; high rank, climbing; irrigation, watering. سَنةٌ sanatun, year, may be a derivative <br><br>of this root if its third radical is considered to be و (w). There is a degree of uncertainty about and overlapping between the roots س/ن/ن s–n–n and س/ن/هـ s–n–h. Of this root, 3 forms occur 20 times in the Qur’an:<br> سَنا sanā 1 time; سَنةٌ sanatun 7 times; and سِنين sinın 12 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ن-و.سَنةٌ",
+        "label": "سَنةٌ",
+        "definitionHtml": "سَنةٌ sanatun [n., pl. سِنين sinın] year <br><br>(46:15) وَبَلَغَ أَرْبَعِينَ سَنَةً and reached forty years; *<br><br>(2:96) يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍ any of them would long to be granted longevity forever [lit. a thousand years]; *<br><br>(7:130) وَلَقَدْ أَخَذْنَا ءَالَ فِرْعَوْنَ بِالسِّنِينَ We tried Pharaoh’s people with the passage of time [lit. the years]; *<br><br>(26:205) أَفَرَأَيْتَ إِنْ مَتَّعْنَاهُمْ سِنِينَ have you considered, if we let them enjoy this life for a while [lit. some years]; *<br><br>(18:11) سِنِينَ عَدَدًا a great number of years [lit. years by counting].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ن-و.سَنا",
+        "label": "سَنا",
+        "definitionHtml": "سَنا sanā [n.] flashing, radiance, gleam <br><br>(24:43) يَكَادُ سَنَا بَرْقِهِ يَذْهَبُ بِالأَبْصَارِ the flash of its lightning almost snatches away [eye] sights.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:11.390Z",
+      "refword": "2:96:14",
+      "lexword": "سَنَةٍ"
+    }
+  }
+}

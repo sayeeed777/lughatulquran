@@ -72,7 +72,8 @@ export default function MemorizationSessionCard({
   const {
     wordAudioRef,
     selectedWordDetails,
-    isRootModalOpen,
+    isLaneModalOpen,
+    isRootDetailsModalOpen,
     rootLexicon,
     rootLexiconLoading,
     rootLexiconError,
@@ -80,8 +81,10 @@ export default function MemorizationSessionCard({
     handleWordAudio,
     handleWordSelect,
     closeWordDetails,
+    openLaneLexicon,
+    closeLaneModal,
     openRootDetails,
-    closeRootModal,
+    closeRootDetailsModal,
     selectedRoot,
     selectedRootArabic,
     rootMeaningSummary,
@@ -387,7 +390,8 @@ export default function MemorizationSessionCard({
 
       <StudyLexiconModals
         selectedWordDetails={selectedWordDetails}
-        isRootModalOpen={isRootModalOpen}
+        isLaneModalOpen={isLaneModalOpen}
+        isRootDetailsModalOpen={isRootDetailsModalOpen}
         selectedRoot={selectedRoot}
         selectedRootArabic={selectedRootArabic}
         rootMeaningSummary={rootMeaningSummary}
@@ -396,7 +400,9 @@ export default function MemorizationSessionCard({
         rootLexiconLoading={rootLexiconLoading}
         rootLexicon={rootLexicon}
         onCloseWordDetails={closeWordDetails}
-        onCloseRootModal={closeRootModal}
+        onCloseLaneModal={closeLaneModal}
+        onCloseRootDetailsModal={closeRootDetailsModal}
+        onOpenLaneLexicon={openLaneLexicon}
         onOpenRootDetails={openRootDetails}
         onPlayWordAudio={handleWordAudio}
         onJumpToAyah={jumpToAyah}

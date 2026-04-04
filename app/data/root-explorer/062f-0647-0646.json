@@ -1,0 +1,171 @@
+{
+  "root": "دهن",
+  "rootArabic": "دهن",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 4,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "تُدْهِنُ",
+      "count": 2
+    },
+    {
+      "form": "دِهَانٌ",
+      "count": 1
+    },
+    {
+      "form": "دُهْنٌ",
+      "count": 1
+    },
+    {
+      "form": "مُدْهِنُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُهْنٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دِهَانٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُدْهِنُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تُدْهِنُ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 20,
+      "text": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ بِٱلدُّهْنِ وَصِبْغٍ لِّلْءَاكِلِينَ",
+      "highlightedHtml": "وَشَجَرَةً تَخْرُجُ مِن طُورِ سَيْنَآءَ تَنۢبُتُ <a class=\"highlight-text\">بِٱلدُّهْنِ</a> وَصِبْغٍ لِّلْءَاكِلِينَ",
+      "derivedForms": [
+        "دُهْنٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 37,
+      "text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ",
+      "highlightedHtml": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً <a class=\"highlight-text\">كَٱلدِّهَانِ</a>",
+      "derivedForms": [
+        "دِهَانٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 81,
+      "text": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+      "highlightedHtml": "أَفَبِهَٰذَا ٱلْحَدِيثِ أَنتُم <a class=\"highlight-text\">مُّدْهِنُونَ</a>",
+      "derivedForms": [
+        "مُدْهِنُون"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 9,
+      "text": "وَدُّوا۟ لَوْ تُدْهِنُ فَيُدْهِنُونَ",
+      "highlightedHtml": "وَدُّوا۟ لَوْ <a class=\"highlight-text\">تُدْهِنُ</a> <a class=\"highlight-text\">فَيُدْهِنُونَ</a>",
+      "derivedForms": [
+        "تُدْهِنُ",
+        "تُدْهِنُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:29.665Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "بِٱلدُّهْنِ is in the derivative form: دُهْنٌ",
+    "rootDefinitionHtml": "د/هـ/ن   d–h–n fat, grease, oil, to be oily, to anoint<br>; to act hypocritically, to act insincerely; a sprinkle of rain, to wet, to look sprightly; red leather, affluence; desert. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> تُدْهِنُ tudhin 2 times; مُدْهِنُون mudhinūn 1 time; دُهْنٌ duhn 1 time and دِهَانٌ dihān 1 time.",
+    "mainDefinitionHtml": "دُهْنٌ duhn [n.] oil <br><br>(23:20) وَشَجَرَةً تَخْرُجُ مِنْ طُورِ سَيْنَاءَ تَنْبُتُ بِالدُّهْنِ وَصِبْغٍ لِلآكِلِينَ and a tree, springing out from Mount Sinai, that produces oil and relish for the eaters.",
+    "mainEntryId": "wdef-د-هـ-ن.دُهْنٌ",
+    "entries": [
+      {
+        "id": "wdef-د-هـ-ن",
+        "label": "د-هـ-ن",
+        "definitionHtml": "د/هـ/ن   d–h–n fat, grease, oil, to be oily, to anoint<br>; to act hypocritically, to act insincerely; a sprinkle of rain, to wet, to look sprightly; red leather, affluence; desert. <br><br>Of this root, 4 forms occur 5 times in the Qur’an:<br> تُدْهِنُ tudhin 2 times; مُدْهِنُون mudhinūn 1 time; دُهْنٌ duhn 1 time and دِهَانٌ dihān 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-هـ-ن.دُهْنٌ",
+        "label": "دُهْنٌ",
+        "definitionHtml": "دُهْنٌ duhn [n.] oil <br><br>(23:20) وَشَجَرَةً تَخْرُجُ مِنْ طُورِ سَيْنَاءَ تَنْبُتُ بِالدُّهْنِ وَصِبْغٍ لِلآكِلِينَ and a tree, springing out from Mount Sinai, that produces oil and relish for the eaters.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-هـ-ن.تُدْهِنُ",
+        "label": "تُدْهِنُ",
+        "definitionHtml": "تُدْهِنُ tudhin [imperf. of v. IV أَدْهَنَ ʾadhana, intrans.] to sweet‐talk, to be sycophantic; to be hypocritical; to compromise, to be reconciliatory <br><br>(68:9) وَدُّوا لَوْ تُدْهِنُ فَيُدْهِنُونَ they wish you would talk sweet‐talk [to them] and then they will talk sweet‐talk [to you] (or, you would compromise in matters of the religion and then they would compromise in matters of the religion).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-هـ-ن.دِهَانٌ",
+        "label": "دِهَانٌ",
+        "definitionHtml": "دِهَانٌ dihān [n./pl. of n. دُهْنٌ duhn] red‐painted leather; fat <br><br>(55:37) فَإِذَا انْشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ when the sky is torn apart and becomes rose‐red, like red leather (or, like molten/melted fat).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-هـ-ن.مُدْهِنُون",
+        "label": "مُدْهِنُون",
+        "definitionHtml": "مُدْهِنُون mudhinūn [pl. of act. part. مُدْهِن mudhin] (ones acting) hypocritically; compromising, taking things lightly <br><br>(56:81) أَفَبِهَذَا الْحَدِيثِ أَنْتُمْ مُدْهِنُونَ do you hold this discourse in little esteem? (or, are you being hypocritical in your attitude towards it?, or, how can you scorn this statement?).",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:20.221Z",
+      "refword": "23:20:7",
+      "lexword": "بِٱلدُّهْنِ"
+    }
+  }
+}

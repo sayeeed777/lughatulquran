@@ -1,0 +1,74 @@
+{
+  "root": "دمغ",
+  "rootArabic": "دمغ",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَدْمَغُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَدْمَغُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 18,
+      "text": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ فَيَدْمَغُهُۥ فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
+      "highlightedHtml": "بَلْ نَقْذِفُ بِٱلْحَقِّ عَلَى ٱلْبَٰطِلِ <a class=\"highlight-text\">فَيَدْمَغُهُۥ</a> فَإِذَا هُوَ زَاهِقٌ ۚ وَلَكُمُ ٱلْوَيْلُ مِمَّا تَصِفُونَ",
+      "derivedForms": [
+        "يَدْمَغُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:26.057Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "فَيَدْمَغُهُۥ is in the derivative form: يَدْمَغُ",
+    "rootDefinitionHtml": "د/م/غ   d–m–gh brain, a concussion, to fracture a skull, to kill by a blow to the head; sunstroke; to vanquish, to destroy. Of this root, يَدْمَغُ yadmagh occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَدْمَغُ yadmagh [imperf. of v. دَمَغَ damagha, trans.] to break the head of, to cause great damage, to annihilate; to vanquish <br><br>(21:18) بَلْ نَقْذِفُ بِالْحَقِّ عَلَى الْبَاطِلِ فَيَدْمَغُهُ فَإِذَا هُوَ زَاهِقٌ no! We hurl the truth against falsehood, so it [the truth] crushes it [falsehood] [lit. smashed its [falsehood’s] head] and it [falsehood] becomes vanquished!",
+    "mainEntryId": "wdef-د-م-غ.يَدْمَغُ",
+    "entries": [
+      {
+        "id": "wdef-د-م-غ",
+        "label": "د-م-غ",
+        "definitionHtml": "د/م/غ   d–m–gh brain, a concussion, to fracture a skull, to kill by a blow to the head; sunstroke; to vanquish, to destroy. Of this root, يَدْمَغُ yadmagh occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-م-غ.يَدْمَغُ",
+        "label": "يَدْمَغُ",
+        "definitionHtml": "يَدْمَغُ yadmagh [imperf. of v. دَمَغَ damagha, trans.] to break the head of, to cause great damage, to annihilate; to vanquish <br><br>(21:18) بَلْ نَقْذِفُ بِالْحَقِّ عَلَى الْبَاطِلِ فَيَدْمَغُهُ فَإِذَا هُوَ زَاهِقٌ no! We hurl the truth against falsehood, so it [the truth] crushes it [falsehood] [lit. smashed its [falsehood’s] head] and it [falsehood] becomes vanquished!",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:13.536Z",
+      "refword": "21:18:6",
+      "lexword": "فَيَدْمَغُهُۥ"
+    }
+  }
+}

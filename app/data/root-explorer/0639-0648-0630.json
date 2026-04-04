@@ -1,0 +1,412 @@
+{
+  "root": "عوذ",
+  "rootArabic": "عوذ",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 4,
+    "surahCount": 14,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "عَاذَ",
+      "count": 10
+    },
+    {
+      "form": "اسْتَعِذْ",
+      "count": 4
+    },
+    {
+      "form": "مَعَاذَ",
+      "count": 2
+    },
+    {
+      "form": "أُعِيذ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أُعِيذ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَعِذْ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَعَاذَ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَعِذْ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 2,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "اسْتَعِذْ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَعِذْ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 113,
+      "surahName": "Al-Falaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    },
+    {
+      "surah": 114,
+      "surahName": "An-Nas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاذَ",
+          "count": 1,
+          "totalInQuran": 10
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 67,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً ۖ قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا ۖ قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً ۖ قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا ۖ قَالَ <a class=\"highlight-text\">أَعُوذُ</a> بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 36,
+      "text": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "highlightedHtml": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّى وَضَعْتُهَآ أُنثَىٰ وَٱللَّهُ أَعْلَمُ بِمَا وَضَعَتْ وَلَيْسَ ٱلذَّكَرُ كَٱلْأُنثَىٰ ۖ وَإِنِّى سَمَّيْتُهَا مَرْيَمَ وَإِنِّىٓ <a class=\"highlight-text\">أُعِيذُهَا</a> بِكَ وَذُرِّيَّتَهَا مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "derivedForms": [
+        "أُعِيذ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 200,
+      "text": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ <a class=\"highlight-text\">فَٱسْتَعِذْ</a> بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "اسْتَعِذْ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 47,
+      "text": "قَالَ رَبِّ إِنِّىٓ أَعُوذُ بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "قَالَ رَبِّ إِنِّىٓ <a class=\"highlight-text\">أَعُوذُ</a> بِكَ أَنْ أَسْـَٔلَكَ مَا لَيْسَ لِى بِهِۦ عِلْمٌ ۖ وَإِلَّا تَغْفِرْ لِى وَتَرْحَمْنِىٓ أَكُن مِّنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 23,
+      "text": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ مَعَاذَ ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
+      "highlightedHtml": "وَرَٰوَدَتْهُ ٱلَّتِى هُوَ فِى بَيْتِهَا عَن نَّفْسِهِۦ وَغَلَّقَتِ ٱلْأَبْوَٰبَ وَقَالَتْ هَيْتَ لَكَ ۚ قَالَ <a class=\"highlight-text\">مَعَاذَ</a> ٱللَّهِ ۖ إِنَّهُۥ رَبِّىٓ أَحْسَنَ مَثْوَاىَ ۖ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّٰلِمُونَ",
+      "derivedForms": [
+        "مَعَاذَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 79,
+      "text": "قَالَ مَعَاذَ ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًا لَّظَٰلِمُونَ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">مَعَاذَ</a> ٱللَّهِ أَن نَّأْخُذَ إِلَّا مَن وَجَدْنَا مَتَٰعَنَا عِندَهُۥٓ إِنَّآ إِذًا لَّظَٰلِمُونَ",
+      "derivedForms": [
+        "مَعَاذَ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 98,
+      "text": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ فَٱسْتَعِذْ بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "highlightedHtml": "فَإِذَا قَرَأْتَ ٱلْقُرْءَانَ <a class=\"highlight-text\">فَٱسْتَعِذْ</a> بِٱللَّهِ مِنَ ٱلشَّيْطَٰنِ ٱلرَّجِيمِ",
+      "derivedForms": [
+        "اسْتَعِذْ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 18,
+      "text": "قَالَتْ إِنِّىٓ أَعُوذُ بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّا",
+      "highlightedHtml": "قَالَتْ إِنِّىٓ <a class=\"highlight-text\">أَعُوذُ</a> بِٱلرَّحْمَٰنِ مِنكَ إِن كُنتَ تَقِيًّا",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 97,
+      "text": "وَقُل رَّبِّ أَعُوذُ بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَٰطِينِ",
+      "highlightedHtml": "وَقُل رَّبِّ <a class=\"highlight-text\">أَعُوذُ</a> بِكَ مِنْ هَمَزَٰتِ ٱلشَّيَٰطِينِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 98,
+      "text": "وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُونِ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَأَعُوذُ</a> بِكَ رَبِّ أَن يَحْضُرُونِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 27,
+      "text": "وَقَالَ مُوسَىٰٓ إِنِّى عُذْتُ بِرَبِّى وَرَبِّكُم مِّن كُلِّ مُتَكَبِّرٍ لَّا يُؤْمِنُ بِيَوْمِ ٱلْحِسَابِ",
+      "highlightedHtml": "وَقَالَ مُوسَىٰٓ إِنِّى <a class=\"highlight-text\">عُذْتُ</a> بِرَبِّى وَرَبِّكُم مِّن كُلِّ مُتَكَبِّرٍ لَّا يُؤْمِنُ بِيَوْمِ ٱلْحِسَابِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 56,
+      "text": "إِنَّ ٱلَّذِينَ يُجَٰدِلُونَ فِىٓ آيَاتِ ٱللَّهِ بِغَيْرِ سُلْطَٰنٍ أَتَىٰهُمْ ۙ إِن فِى صُدُورِهِمْ صُدُورِهِمْ إِلَّا كِبْرٌ مَّا هُم بِبَٰلِغِيهِ ۚ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يُجَٰدِلُونَ فِىٓ آيَاتِ ٱللَّهِ بِغَيْرِ سُلْطَٰنٍ أَتَىٰهُمْ ۙ إِن فِى صُدُورِهِمْ صُدُورِهِمْ إِلَّا كِبْرٌ مَّا هُم بِبَٰلِغِيهِ ۚ <a class=\"highlight-text\">فَٱسْتَعِذْ</a> بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْبَصِيرُ",
+      "derivedForms": [
+        "اسْتَعِذْ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 36,
+      "text": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ <a class=\"highlight-text\">فَٱسْتَعِذْ</a> بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "اسْتَعِذْ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 20,
+      "text": "وَإِنِّى عُذْتُ بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ",
+      "highlightedHtml": "وَإِنِّى <a class=\"highlight-text\">عُذْتُ</a> بِرَبِّى وَرَبِّكُمْ أَن تَرْجُمُونِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 6,
+      "text": "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ يَعُوذُونَ بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا",
+      "highlightedHtml": "وَأَنَّهُۥ كَانَ رِجَالٌ مِّنَ ٱلْإِنسِ <a class=\"highlight-text\">يَعُوذُونَ</a> بِرِجَالٍ مِّنَ ٱلْجِنِّ فَزَادُوهُمْ رَهَقًا",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 113,
+      "ayah": 1,
+      "text": "قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "highlightedHtml": "قُلْ <a class=\"highlight-text\">أَعُوذُ</a> بِرَبِّ ٱلْفَلَقِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    },
+    {
+      "surah": 114,
+      "ayah": 1,
+      "text": "قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "highlightedHtml": "قُلْ <a class=\"highlight-text\">أَعُوذُ</a> بِرَبِّ ٱلنَّاسِ",
+      "derivedForms": [
+        "عَاذَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:39.298Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb",
+    "derivativeNote": "أَعُوذُ is in the derivative form: عَاذَ",
+    "rootDefinitionHtml": "ع/و/ذ   ʿ–w–dh refuge, protection, curtain, hideout, to seek refuge, to invoke the protection of<br>; amulet, charm, incantation, tight circle. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> عَاذَ ʿādha 10 times; أُعِيذ ʾuʿīdh 1 time; اسْتَعِذْ ʾistaʿidh 4 times and مَعَاذَ maʿādha 2 times.",
+    "mainDefinitionHtml": "عَاذَ ʿādha ū [v. intrans.] to seek refuge, to seek protection <br><br>(72:6) وَأَنَّهُ‏ ‏كَانَ‏ ‏رِجَالٌ‏ ‏مِنَ‏ ‏الإِنْسِ‏ ‏يَعُوذُونَ‏ ‏بِرِجَالٍ‏ ‏مِنَ‏ ‏الْجِنِّ‏ and that there have been [certain] members of the human race seeking protection with [certain] of the jinn; *<br><br>(114:1) أَعُوذُ‏ ‏بِرَبِّ‏ ‏النَّاسِ [an invocation seeking God’s protection] I seek refuge with the Lord of people.",
+    "mainEntryId": "wdef-ع-و-ذ.عَاذَ",
+    "entries": [
+      {
+        "id": "wdef-ع-و-ذ",
+        "label": "ع-و-ذ",
+        "definitionHtml": "ع/و/ذ   ʿ–w–dh refuge, protection, curtain, hideout, to seek refuge, to invoke the protection of<br>; amulet, charm, incantation, tight circle. <br><br>Of this root, 4 forms occur 17 times in the Qur’an:<br> عَاذَ ʿādha 10 times; أُعِيذ ʾuʿīdh 1 time; اسْتَعِذْ ʾistaʿidh 4 times and مَعَاذَ maʿādha 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ذ.عَاذَ",
+        "label": "عَاذَ",
+        "definitionHtml": "عَاذَ ʿādha ū [v. intrans.] to seek refuge, to seek protection <br><br>(72:6) وَأَنَّهُ‏ ‏كَانَ‏ ‏رِجَالٌ‏ ‏مِنَ‏ ‏الإِنْسِ‏ ‏يَعُوذُونَ‏ ‏بِرِجَالٍ‏ ‏مِنَ‏ ‏الْجِنِّ‏ and that there have been [certain] members of the human race seeking protection with [certain] of the jinn; *<br><br>(114:1) أَعُوذُ‏ ‏بِرَبِّ‏ ‏النَّاسِ [an invocation seeking God’s protection] I seek refuge with the Lord of people.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-و-ذ.أُعِيذ",
+        "label": "أُعِيذ",
+        "definitionHtml": "أُعِيذ ʾuʿīdh [imperf. of v. IV أعاذَ ʾaʿādha, trans.] to place under the protection of, to commend to the protection of God <br><br>(3:36)‏‏وَإِنِّي‏ ‏أُعِيذُهَا‏ ‏بِكَ‏ ‏وَذُرِّيَّتَهَا‏ ‏مِنَ‏ ‏الشَّيْطَانِ‏ ‏الرَّجِيمِ‏‏ and I commend her and her descendants to Your protection from Satan, the accursed.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ذ.اسْتَعِذْ",
+        "label": "اسْتَعِذْ",
+        "definitionHtml": "اسْتَعِذْ ʾistaʿidh [imper. v. X, intrans.] seek refuge, invoke the protection of [God] <br><br>(41:36) ‏فَاسْتَعِذْ‏ ‏بِاللَّهِ‏ then seek refuge with God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-و-ذ.مَعَاذَ",
+        "label": "مَعَاذَ",
+        "definitionHtml": "مَعَاذَ maʿādh [v. n. used adverbially] being in the refuge of, being in the protection of *<br><br>(12:79)‏مَعَاذَ‏ ‏اللَّهِ‏ ‏أَنْ‏ ‏نَأْخُذَ‏ ‏إِلاَّ‏ ‏مَنْ‏ ‏وَجَدْنَا‏ ‏مَتَاعَنَا‏ ‏عِنْدَهُ‏‏ God forbid that [lit. [we seek] God’s protection lest] we should take [anyone] other than the one with whom we found our property.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:54.638Z",
+      "refword": "2:67:15",
+      "lexword": "أَعُوذُ"
+    }
+  }
+}

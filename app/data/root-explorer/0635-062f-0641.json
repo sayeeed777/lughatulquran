@@ -1,0 +1,117 @@
+{
+  "root": "صدف",
+  "rootArabic": "صدف",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "صَدَفَ",
+      "count": 4
+    },
+    {
+      "form": "صَدَفَين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "صَدَفَ",
+          "count": 4,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَدَفَين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 46,
+      "text": "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ ثُمَّ هُمْ يَصْدِفُونَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ ثُمَّ هُمْ <a class=\"highlight-text\">يَصْدِفُونَ</a>",
+      "derivedForms": [
+        "صَدَفَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 157,
+      "text": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ آيَاتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ",
+      "highlightedHtml": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَٰتِ ٱللَّهِ <a class=\"highlight-text\">وَصَدَفَ</a> عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ <a class=\"highlight-text\">يَصْدِفُونَ</a> عَنْ آيَاتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ <a class=\"highlight-text\">يَصْدِفُونَ</a>",
+      "derivedForms": [
+        "صَدَفَ",
+        "صَدَفَ",
+        "صَدَفَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 96,
+      "text": "آتُونِي زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ ٱلصَّدَفَيْنِ قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "highlightedHtml": "آتُونِي زُبَرَ ٱلْحَدِيدِ ۖ حَتَّىٰٓ إِذَا سَاوَىٰ سَاوَىٰ بَيْنَ <a class=\"highlight-text\">ٱلصَّدَفَيْنِ</a> قَالَ ٱنفُخُوا۟ ۖ حَتَّىٰٓ إِذَا جَعَلَهُۥ نَارًا قَالَ آتُونِي أُفْرِغْ عَلَيْهِ قِطْرًا",
+      "derivedForms": [
+        "صَدَفَين"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:46.902Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَصْدِفُونَ is in the derivative form: صَدَفَ",
+    "rootDefinitionHtml": "ص/د/ف   ṣ–d–f side of a mountain, 2 mountains meeting together; 1 side of an oyster shell; to find to be equal; to lean to 1 side, to turn away, to shun; to encounter, to come upon. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> صَدَفَ ṣadafa 4 times and صَدَفَين ṣadafayn 1 time.",
+    "mainDefinitionHtml": "صَدَفَ ṣadafa i [v. intrans.] to turn aside, to turn away from <br><br>(6:157) فَمَنْ أَظْلَمُ مِمَّنْ كَذَّبَ بِآيَاتِ اللَّهِ وَصَدَفَ عَنْهَا who could be more unjust than someone who rejects God’s revelations and turns away from them?",
+    "mainEntryId": "wdef-ص-د-ف.صَدَفَ",
+    "entries": [
+      {
+        "id": "wdef-ص-د-ف",
+        "label": "ص-د-ف",
+        "definitionHtml": "ص/د/ف   ṣ–d–f side of a mountain, 2 mountains meeting together; 1 side of an oyster shell; to find to be equal; to lean to 1 side, to turn away, to shun; to encounter, to come upon. <br><br>Of this root, 2 forms occur 5 times in the Qur’an:<br> صَدَفَ ṣadafa 4 times and صَدَفَين ṣadafayn 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ف.صَدَفَ",
+        "label": "صَدَفَ",
+        "definitionHtml": "صَدَفَ ṣadafa i [v. intrans.] to turn aside, to turn away from <br><br>(6:157) فَمَنْ أَظْلَمُ مِمَّنْ كَذَّبَ بِآيَاتِ اللَّهِ وَصَدَفَ عَنْهَا who could be more unjust than someone who rejects God’s revelations and turns away from them?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-د-ف.صَدَفَين",
+        "label": "صَدَفَين",
+        "definitionHtml": "صَدَفَين ṣadafayn [dual of n. صَدَفٌ ṣadaf] two parallel sides, two sides of a ravine, two parallel close mountains <br><br>(18:96) سَاوَى بَيْنَ الصَّدَفَيْنِ he had evened out the space between [the sides] of the two mountains.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:34.531Z",
+      "refword": "6:46:23",
+      "lexword": "يَصْدِفُونَ"
+    }
+  }
+}

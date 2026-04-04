@@ -1,0 +1,125 @@
+{
+  "root": "غضض",
+  "rootArabic": "غضض",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 1,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَغُضّ",
+      "count": 4
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَغُضّ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَغُضّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَغُضّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 24,
+      "ayah": 30,
+      "text": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+      "highlightedHtml": "قُل لِّلْمُؤْمِنِينَ <a class=\"highlight-text\">يَغُضُّوا۟</a> مِنْ أَبْصَٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+      "derivedForms": [
+        "يَغُضّ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 31,
+      "text": "وَقُل لِّلْمُؤْمِنَٰتِ يَغْضُضْنَ مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "highlightedHtml": "وَقُل لِّلْمُؤْمِنَٰتِ <a class=\"highlight-text\">يَغْضُضْنَ</a> مِنْ أَبْصَٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَٰنُهُنَّ أَوِ ٱلتَّٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+      "derivedForms": [
+        "يَغُضّ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 19,
+      "text": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "highlightedHtml": "وَٱقْصِدْ فِى مَشْيِكَ <a class=\"highlight-text\">وَٱغْضُضْ</a> مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "derivedForms": [
+        "يَغُضّ"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 3,
+      "text": "إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصْوَٰتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ ۚ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ <a class=\"highlight-text\">يَغُضُّونَ</a> أَصْوَٰتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ ۚ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ",
+      "derivedForms": [
+        "يَغُضّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:00.785Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb, jussive mood",
+    "derivativeNote": "يَغُضُّوا۟ is in the derivative form: يَغُضّ",
+    "rootDefinitionHtml": "غ/ض/ض   gh–ḍ–ḍ to be tender, to be young; to be affluent; to cast one’s eyes down, to show humility, to be modest, to check. Of this root, only يَغُضّ yaghuḍḍ occurs 4 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَغُضّ yaghuḍḍ [imperf. v. trans.] <br><br><strong>1 </strong>to lower (one’s voice) <br><br>(31:19) ‏وَاقْصِدْ فِى مَشْيِكَ وَاغْضُضْ مِنْ صَوْتِكَ إِنَّ أَنْكَرَ الأَصْوَاتِ لَصَوْتُ الْحَمِيرِ go at a moderate pace and lower your voice, for the ugliest of all voices is the braying of asses <br><br><strong>2 </strong>to cast down (the gaze) <br><br>(24:31) وَقُلْ لِلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ and tell believing women that they should lower their gaze [be modest].",
+    "mainEntryId": "wdef-غ-ض-ض.يَغُضّ",
+    "entries": [
+      {
+        "id": "wdef-غ-ض-ض",
+        "label": "غ-ض-ض",
+        "definitionHtml": "غ/ض/ض   gh–ḍ–ḍ to be tender, to be young; to be affluent; to cast one’s eyes down, to show humility, to be modest, to check. Of this root, only يَغُضّ yaghuḍḍ occurs 4 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ض-ض.يَغُضّ",
+        "label": "يَغُضّ",
+        "definitionHtml": "يَغُضّ yaghuḍḍ [imperf. v. trans.] <br><br><strong>1 </strong>to lower (one’s voice) <br><br>(31:19) ‏وَاقْصِدْ فِى مَشْيِكَ وَاغْضُضْ مِنْ صَوْتِكَ إِنَّ أَنْكَرَ الأَصْوَاتِ لَصَوْتُ الْحَمِيرِ go at a moderate pace and lower your voice, for the ugliest of all voices is the braying of asses <br><br><strong>2 </strong>to cast down (the gaze) <br><br>(24:31) وَقُلْ لِلْمُؤْمِنَاتِ يَغْضُضْنَ مِنْ أَبْصَارِهِنَّ and tell believing women that they should lower their gaze [be modest].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:44.156Z",
+      "refword": "24:30:3",
+      "lexword": "يَغُضُّوا۟"
+    }
+  }
+}

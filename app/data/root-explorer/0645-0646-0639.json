@@ -1,0 +1,453 @@
+{
+  "root": "منع",
+  "rootArabic": "منع",
+  "stats": {
+    "totalOccurrences": 17,
+    "derivativeCount": 6,
+    "surahCount": 16,
+    "ayahCount": 17
+  },
+  "derivatives": [
+    {
+      "form": "مَنَعَ",
+      "count": 11
+    },
+    {
+      "form": "مَنَّاع",
+      "count": 2
+    },
+    {
+      "form": "مَانِع",
+      "count": 1
+    },
+    {
+      "form": "مَمْنُوعَة",
+      "count": 1
+    },
+    {
+      "form": "مُنِعَ",
+      "count": 1
+    },
+    {
+      "form": "مَنُوع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنِعَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 2,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّاع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَمْنُوعَة",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَانِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَّاع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 70,
+      "surahName": "Al-Ma'arij",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنُوع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 107,
+      "surahName": "Al-Ma'un",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَنَعَ",
+          "count": 1,
+          "totalInQuran": 11
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 114,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن <a class=\"highlight-text\">مَّنَعَ</a> مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌ وَلَهُمْ فِى الْآخِرَةِ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 141,
+      "text": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ وَنَمْنَعْكُم مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "highlightedHtml": "ٱلَّذِينَ يَتَرَبَّصُونَ بِكُمْ فَإِن كَانَ لَكُمْ فَتْحٌ مِّنَ ٱللَّهِ قَالُوٓا۟ أَلَمْ نَكُن مَّعَكُمْ وَإِن كَانَ لِلْكَٰفِرِينَ نَصِيبٌ قَالُوٓا۟ أَلَمْ نَسْتَحْوِذْ عَلَيْكُمْ <a class=\"highlight-text\">وَنَمْنَعْكُم</a> مِّنَ ٱلْمُؤْمِنِينَ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَكُمْ يَوْمَ ٱلْقِيَٰمَةِ ۗ وَلَن يَجْعَلَ ٱللَّهُ لِلْكَٰفِرِينَ عَلَى ٱلْمُؤْمِنِينَ سَبِيلًا",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 12,
+      "text": "قَالَ مَا مَنَعَكَ أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا۠ خَيْرٌ مِّنْهُ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
+      "highlightedHtml": "قَالَ مَا <a class=\"highlight-text\">مَنَعَكَ</a> أَلَّا تَسْجُدَ إِذْ أَمَرْتُكَ ۖ قَالَ أَنَا۠ خَيْرٌ مِّنْهُ خَلَقْتَنِى مِن نَّارٍ وَخَلَقْتَهُۥ مِن طِينٍ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 54,
+      "text": "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">مَنَعَهُمْ</a> أَن تُقْبَلَ مِنْهُمْ نَفَقَٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَٰرِهُونَ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 63,
+      "text": "فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا مُنِعَ مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "highlightedHtml": "فَلَمَّا رَجَعُوٓا۟ إِلَىٰٓ أَبِيهِمْ قَالُوا۟ يَٰٓأَبَانَا <a class=\"highlight-text\">مُنِعَ</a> مِنَّا ٱلْكَيْلُ فَأَرْسِلْ مَعَنَآ أَخَانَا نَكْتَلْ وَإِنَّا لَهُۥ لَحَٰفِظُونَ",
+      "derivedForms": [
+        "مُنِعَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 59,
+      "text": "وَمَا مَنَعَنَآ أَن نُّرْسِلَ بِٱلْءَايَٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلْأَوَّلُونَ ۚ وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةً فَظَلَمُوا۟ بِهَا ۚ وَمَا نُرْسِلُ بِٱلْءَايَٰتِ إِلَّا تَخْوِيفًا",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">مَنَعَنَآ</a> أَن نُّرْسِلَ بِٱلْءَايَٰتِ إِلَّآ أَن كَذَّبَ بِهَا ٱلْأَوَّلُونَ ۚ وَءَاتَيْنَا ثَمُودَ ٱلنَّاقَةَ مُبْصِرَةً فَظَلَمُوا۟ بِهَا ۚ وَمَا نُرْسِلُ بِٱلْءَايَٰتِ إِلَّا تَخْوِيفًا",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 94,
+      "text": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰٓ إِلَّآ أَن قَالُوٓا۟ أَبَعَثَ ٱللَّهُ بَشَرًا رَّسُولًا",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">مَنَعَ</a> ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰٓ إِلَّآ أَن قَالُوٓا۟ أَبَعَثَ ٱللَّهُ بَشَرًا رَّسُولًا",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 55,
+      "text": "وَمَا مَنَعَ ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا",
+      "highlightedHtml": "وَمَا <a class=\"highlight-text\">مَنَعَ</a> ٱلنَّاسَ أَن يُؤْمِنُوٓا۟ إِذْ جَآءَهُمُ ٱلْهُدَىٰ وَيَسْتَغْفِرُوا۟ رَبَّهُمْ إِلَّآ أَن تَأْتِيَهُمْ سُنَّةُ ٱلْأَوَّلِينَ أَوْ يَأْتِيَهُمُ ٱلْعَذَابُ قُبُلًا",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 92,
+      "text": "قَالَ يَٰهَٰرُونُ مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوٓا۟",
+      "highlightedHtml": "قَالَ يَٰهَٰرُونُ مَا <a class=\"highlight-text\">مَنَعَكَ</a> إِذْ رَأَيْتَهُمْ ضَلُّوٓا۟",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 43,
+      "text": "أَمْ لَهُمْ آلِهَةٌ تَمْنَعُهُم مِّن دُونِنَا ۚ لَا يَسْتَطِيعُونَ نَصْرَ أَنفُسِهِمْ وَلَا هُم مِّنَّا يُصْحَبُونَ",
+      "highlightedHtml": "أَمْ لَهُمْ آلِهَةٌ <a class=\"highlight-text\">تَمْنَعُهُم</a> مِّن دُونِنَا ۚ لَا يَسْتَطِيعُونَ نَصْرَ أَنفُسِهِمْ وَلَا هُم مِّنَّا يُصْحَبُونَ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 75,
+      "text": "قَالَ يَٰٓإِبْلِيسُ مَا مَنَعَكَ أَن تَسْجُدَ لِمَا خَلَقْتُ بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ",
+      "highlightedHtml": "قَالَ يَٰٓإِبْلِيسُ مَا <a class=\"highlight-text\">مَنَعَكَ</a> أَن تَسْجُدَ لِمَا خَلَقْتُ بِيَدَىَّ ۖ أَسْتَكْبَرْتَ أَمْ كُنتَ مِنَ ٱلْعَالِينَ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 25,
+      "text": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ مُّرِيبٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">مَّنَّاعٍ</a> لِّلْخَيْرِ مُعْتَدٍ مُّرِيبٍ",
+      "derivedForms": [
+        "مَنَّاع"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 33,
+      "text": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+      "highlightedHtml": "لَّا مَقْطُوعَةٍ وَلَا <a class=\"highlight-text\">مَمْنُوعَةٍ</a>",
+      "derivedForms": [
+        "مَمْنُوعَة"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم <a class=\"highlight-text\">مَّانِعَتُهُمْ</a> حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "مَانِع"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 12,
+      "text": "مَّنَّاعٍ لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">مَّنَّاعٍ</a> لِّلْخَيْرِ مُعْتَدٍ أَثِيمٍ",
+      "derivedForms": [
+        "مَنَّاع"
+      ]
+    },
+    {
+      "surah": 70,
+      "ayah": 21,
+      "text": "وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا",
+      "highlightedHtml": "وَإِذَا مَسَّهُ ٱلْخَيْرُ <a class=\"highlight-text\">مَنُوعًا</a>",
+      "derivedForms": [
+        "مَنُوع"
+      ]
+    },
+    {
+      "surah": 107,
+      "ayah": 7,
+      "text": "وَيَمْنَعُونَ ٱلْمَاعُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيَمْنَعُونَ</a> ٱلْمَاعُونَ",
+      "derivedForms": [
+        "مَنَعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:42.294Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "مَّنَعَ is in the derivative form: مَنَعَ",
+    "rootDefinitionHtml": "م/ن/ع   m–n–ʿ to prevent, to refuse, to hold back, to hinder, to prohibit, to restrain, to refrain, to deprive<br>; to protect, to guard over; to be difficult, to defy, to be impregnable, to be impenetrable, to be insurmountable; to be mighty, to be wealthy; to be miserly. <br><br>Of this root, 6 forms occur 17 times in the Qur’an:<br> مَنَعَ manaʿa 11 times; مُنِعَ muniʿa 1 time; مَانِع māniʿ 1 time; مَنُوع manūʿ 1 time; مَنَّاع mannāʿ 2 times and مَمْنُوعَة mamnūʿatun 1 time.",
+    "mainDefinitionHtml": "مَنَعَ manaʿa a I [v. trans.] <br><br><strong>1 </strong>to prohibit; to hold back, to deny <br><br>(107:7) وَيَمْنَعُونَ الْمَاعُونَ and deny [to others] common kindnesses <br><br><strong>2 </strong>to protect, to shield from <br><br>(21:43) أَمْ لَهُمْ ءَالِهَةٌ تَمْنَعُهُمْ مِنْ دُونِنَا or do they have gods other than Ourselves that can defend them? II [doubly trans.] <br><br><strong>1 </strong>to prevent someone from something <br><br>(20:92–3) مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوا أَلاَّ تَتَّبِعَنِ what prevented you, having seen that they had gone astray, from following me? <br><br><strong>2 </strong>to deny someone something, to prevent someone from something <br><br>(9:54) وَمَا مَنَعَهُمْ أَنْ تُقْبَلَ مِنْهُمْ نَفَقَاتُهُمْ إِلاَّ أَنَّهُمْ كَفَرُوا بِاللَّهِ وَبِرَسُولِهِ and nothing hinders their contributions from being accepted but the fact that they denied God and His Messenger <br><br><strong>3 </strong>to bar from, to stand between something and something else <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more wicked than those who bar God’s places of worship from having His name glorified in them and strive to have them destroyed/deserted?",
+    "mainEntryId": "wdef-م-ن-ع.مَنَعَ",
+    "entries": [
+      {
+        "id": "wdef-م-ن-ع",
+        "label": "م-ن-ع",
+        "definitionHtml": "م/ن/ع   m–n–ʿ to prevent, to refuse, to hold back, to hinder, to prohibit, to restrain, to refrain, to deprive<br>; to protect, to guard over; to be difficult, to defy, to be impregnable, to be impenetrable, to be insurmountable; to be mighty, to be wealthy; to be miserly. <br><br>Of this root, 6 forms occur 17 times in the Qur’an:<br> مَنَعَ manaʿa 11 times; مُنِعَ muniʿa 1 time; مَانِع māniʿ 1 time; مَنُوع manūʿ 1 time; مَنَّاع mannāʿ 2 times and مَمْنُوعَة mamnūʿatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ع.مَنَعَ",
+        "label": "مَنَعَ",
+        "definitionHtml": "مَنَعَ manaʿa a I [v. trans.] <br><br><strong>1 </strong>to prohibit; to hold back, to deny <br><br>(107:7) وَيَمْنَعُونَ الْمَاعُونَ and deny [to others] common kindnesses <br><br><strong>2 </strong>to protect, to shield from <br><br>(21:43) أَمْ لَهُمْ ءَالِهَةٌ تَمْنَعُهُمْ مِنْ دُونِنَا or do they have gods other than Ourselves that can defend them? II [doubly trans.] <br><br><strong>1 </strong>to prevent someone from something <br><br>(20:92–3) مَا مَنَعَكَ إِذْ رَأَيْتَهُمْ ضَلُّوا أَلاَّ تَتَّبِعَنِ what prevented you, having seen that they had gone astray, from following me? <br><br><strong>2 </strong>to deny someone something, to prevent someone from something <br><br>(9:54) وَمَا مَنَعَهُمْ أَنْ تُقْبَلَ مِنْهُمْ نَفَقَاتُهُمْ إِلاَّ أَنَّهُمْ كَفَرُوا بِاللَّهِ وَبِرَسُولِهِ and nothing hinders their contributions from being accepted but the fact that they denied God and His Messenger <br><br><strong>3 </strong>to bar from, to stand between something and something else <br><br>(2:114) وَمَنْ أَظْلَمُ مِمَّنْ مَنَعَ مَسَاجِدَ اللَّهِ أَنْ يُذْكَرَ فِيهَا اسْمُهُ وَسَعَى فِى خَرَابِهَا who could be more wicked than those who bar God’s places of worship from having His name glorified in them and strive to have them destroyed/deserted?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-م-ن-ع.مَانِع",
+        "label": "مَانِع",
+        "definitionHtml": "مَانِع māniʿ [act. part.] one which causes to be impregnable, protector <br><br>(59:2) وَظَنُّوا أَنَّهُمْ مَانِعَتُهُمْ حُصُونُهُمْ and they thought their fortifications would protect them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ع.مَمْنُوعَة",
+        "label": "مَمْنُوعَة",
+        "definitionHtml": "مَمْنُوعَة mamnʿūatun [pass. part.] forbidden, denied <br><br>(56:33) لاَ مَقْطُوعَةٍ وَلاَ مَمْنُوعَةٍ [abundant fruits] neither cut off, nor forbidden.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ع.مَنُوع",
+        "label": "مَنُوع",
+        "definitionHtml": "مَنُوع manūʿ [intens. act. part.] one given to denying assistance, niggardly person <br><br>(70:21) وَإِذَا مَسَّهُ الْخَيْرُ مَنُوعًا but tight‐fisted when good fortune comes his way.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ع.مَنَّاع",
+        "label": "مَنَّاع",
+        "definitionHtml": "مَنَّاع mannāʿ [intens. act. part.] one who often stands in the way of doing good, or denies assistance <br><br>(50:25) مَنَّاعٍ لِلْخَيْرِ hinderer of the good.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ن-ع.مُنِعَ",
+        "label": "مُنِعَ",
+        "definitionHtml": "مُنِعَ muniʿa [v. pass.] to be denied (to) <br><br>(12:63) يَاأَبَانَا مُنِعَ مِنَّا الْكَيْلُ father, we have been denied [any more] buying [of corn].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:41.373Z",
+      "refword": "2:114:4",
+      "lexword": "مَّنَعَ"
+    }
+  }
+}

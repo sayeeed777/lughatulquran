@@ -1,0 +1,1052 @@
+{
+  "root": "قدم",
+  "rootArabic": "قدم",
+  "stats": {
+    "totalOccurrences": 48,
+    "derivativeCount": 9,
+    "surahCount": 37,
+    "ayahCount": 48
+  },
+  "derivatives": [
+    {
+      "form": "قَدَّمَ",
+      "count": 27
+    },
+    {
+      "form": "قَدَم",
+      "count": 8
+    },
+    {
+      "form": "يَسْتَقْدِم",
+      "count": 4
+    },
+    {
+      "form": "قَدِيم",
+      "count": 3
+    },
+    {
+      "form": "تَقَدَّم",
+      "count": 2
+    },
+    {
+      "form": "أَقْدَمُون",
+      "count": 1
+    },
+    {
+      "form": "قَدِمَ",
+      "count": 1
+    },
+    {
+      "form": "مُسْتَقْدِمِين",
+      "count": 1
+    },
+    {
+      "form": "يَقْدُم",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 3,
+          "totalInQuran": 27
+        },
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَقْدِم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "يَسْتَقْدِم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَقْدُم",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        },
+        {
+          "form": "قَدِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُسْتَقْدِمِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "يَسْتَقْدِم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدِمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَقْدَمُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَقْدِم",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        },
+        {
+          "form": "قَدِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 2,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدِيم",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقَدَّم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 49,
+      "surahName": "Al-Hujurat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَم",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 2,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 62,
+      "surahName": "Al-Jumu'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَقَدَّم",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    },
+    {
+      "surah": 89,
+      "surahName": "Al-Fajr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَدَّمَ",
+          "count": 1,
+          "totalInQuran": 27
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 95,
+      "text": "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 110,
+      "text": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا <a class=\"highlight-text\">تُقَدِّمُوا۟</a> لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 223,
+      "text": "نِسَآؤُكُمْ حَرْثٌ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ ۖ وَقَدِّمُوا۟ لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "نِسَآؤُكُمْ حَرْثٌ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ ۖ <a class=\"highlight-text\">وَقَدِّمُوا۟</a> لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 250,
+      "text": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَلَمَّا بَرَزُوا۟ لِجَالُوتَ وَجُنُودِهِۦ قَالُوا۟ رَبَّنَآ أَفْرِغْ عَلَيْنَا صَبْرًا وَثَبِّتْ <a class=\"highlight-text\">أَقْدَامَنَا</a> وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 147,
+      "text": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ أَقْدَامَنَا وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمَا كَانَ قَوْلَهُمْ إِلَّآ أَن قَالُوا۟ رَبَّنَا ٱغْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِىٓ أَمْرِنَا وَثَبِّتْ <a class=\"highlight-text\">أَقْدَامَنَا</a> وَٱنصُرْنَا عَلَى ٱلْقَوْمِ ٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 182,
+      "text": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ",
+      "highlightedHtml": "ذَٰلِكَ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّامٍ لِّلْعَبِيدِ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 62,
+      "text": "فَكَيْفَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَٰنًا وَتَوْفِيقًا",
+      "highlightedHtml": "فَكَيْفَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۢ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ ثُمَّ جَآءُوكَ يَحْلِفُونَ بِٱللَّهِ إِنْ أَرَدْنَآ إِلَّآ إِحْسَٰنًا وَتَوْفِيقًا",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 80,
+      "text": "تَرَىٰ كَثِيرًا مِّنْهُمْ يَتَوَلَّوْنَ ٱلَّذِينَ كَفَرُوا۟ ۚ لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنفُسُهُمْ أَن سَخِطَ ٱللَّهُ عَلَيْهِمْ وَفِى ٱلْعَذَابِ هُمْ خَٰلِدُونَ",
+      "highlightedHtml": "تَرَىٰ كَثِيرًا مِّنْهُمْ يَتَوَلَّوْنَ ٱلَّذِينَ كَفَرُوا۟ ۚ لَبِئْسَ مَا <a class=\"highlight-text\">قَدَّمَتْ</a> لَهُمْ أَنفُسُهُمْ أَن سَخِطَ ٱللَّهُ عَلَيْهِمْ وَفِى ٱلْعَذَابِ هُمْ خَٰلِدُونَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 34,
+      "text": "وَلِكُلِّ أُمَّةٍ أَجَلٌ ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
+      "highlightedHtml": "وَلِكُلِّ أُمَّةٍ أَجَلٌ ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا <a class=\"highlight-text\">يَسْتَقْدِمُونَ</a>",
+      "derivedForms": [
+        "يَسْتَقْدِم"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 11,
+      "text": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "highlightedHtml": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ <a class=\"highlight-text\">ٱلْأَقْدَامَ</a>",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 51,
+      "text": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍ لِّلْعَبِيدِ",
+      "highlightedHtml": "ذَٰلِكَ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيكُمْ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍ لِّلْعَبِيدِ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 2,
+      "text": "أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَآ إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ ٱلنَّاسَ وَبَشِّرِ ٱلَّذِينَ آمَنُوا أَنَّ لَهُمْ قَدَمَ صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ ٱلْكَٰفِرُونَ إِنَّ هَٰذَا لَسَٰحِرٌ مُّبِينٌ",
+      "highlightedHtml": "أَكَانَ لِلنَّاسِ عَجَبًا أَنْ أَوْحَيْنَآ إِلَىٰ رَجُلٍ مِّنْهُمْ أَنْ أَنذِرِ ٱلنَّاسَ وَبَشِّرِ ٱلَّذِينَ آمَنُوا أَنَّ لَهُمْ <a class=\"highlight-text\">قَدَمَ</a> صِدْقٍ عِندَ رَبِّهِمْ ۗ قَالَ ٱلْكَٰفِرُونَ إِنَّ هَٰذَا لَسَٰحِرٌ مُّبِينٌ",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 49,
+      "text": "قُل لَّآ أَمْلِكُ لِنَفْسِى ضَرًّا وَلَا نَفْعًا إِلَّا مَا شَآءَ ٱللَّهُ ۗ لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
+      "highlightedHtml": "قُل لَّآ أَمْلِكُ لِنَفْسِى ضَرًّا وَلَا نَفْعًا إِلَّا مَا شَآءَ ٱللَّهُ ۗ لِكُلِّ أُمَّةٍ أَجَلٌ ۚ إِذَا جَآءَ أَجَلُهُمْ فَلَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا <a class=\"highlight-text\">يَسْتَقْدِمُونَ</a>",
+      "derivedForms": [
+        "يَسْتَقْدِم"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 98,
+      "text": "يَقْدُمُ قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَقْدُمُ</a> قَوْمَهُۥ يَوْمَ ٱلْقِيَٰمَةِ فَأَوْرَدَهُمُ ٱلنَّارَ ۖ وَبِئْسَ ٱلْوِرْدُ ٱلْمَوْرُودُ",
+      "derivedForms": [
+        "يَقْدُم"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 48,
+      "text": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا قَدَّمْتُمْ لَهُنَّ إِلَّا قَلِيلًا مِّمَّا تُحْصِنُونَ",
+      "highlightedHtml": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ سَبْعٌ شِدَادٌ يَأْكُلْنَ مَا <a class=\"highlight-text\">قَدَّمْتُمْ</a> لَهُنَّ إِلَّا قَلِيلًا مِّمَّا تُحْصِنُونَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 95,
+      "text": "قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ ٱلْقَدِيمِ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ إِنَّكَ لَفِى ضَلَٰلِكَ <a class=\"highlight-text\">ٱلْقَدِيمِ</a>",
+      "derivedForms": [
+        "قَدِيم"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 24,
+      "text": "وَلَقَدْ عَلِمْنَا ٱلْمُسْتَقْدِمِينَ مِنكُمْ وَلَقَدْ عَلِمْنَا الْمُسْتَأْخِرِينَ",
+      "highlightedHtml": "وَلَقَدْ عَلِمْنَا <a class=\"highlight-text\">ٱلْمُسْتَقْدِمِينَ</a> مِنكُمْ وَلَقَدْ عَلِمْنَا الْمُسْتَأْخِرِينَ",
+      "derivedForms": [
+        "مُسْتَقْدِمِين"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 61,
+      "text": "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا يَسْتَقْدِمُونَ",
+      "highlightedHtml": "وَلَوْ يُؤَاخِذُ ٱللَّهُ ٱلنَّاسَ بِظُلْمِهِم مَّا تَرَكَ عَلَيْهَا مِن دَآبَّةٍ وَلَٰكِن يُؤَخِّرُهُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۖ فَإِذَا جَآءَ أَجَلُهُمْ لَا يَسْتَأْخِرُونَ سَاعَةً ۖ وَلَا <a class=\"highlight-text\">يَسْتَقْدِمُونَ</a>",
+      "derivedForms": [
+        "يَسْتَقْدِم"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 94,
+      "text": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ قَدَمٌۢ بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "وَلَا تَتَّخِذُوٓا۟ أَيْمَٰنَكُمْ دَخَلًۢا بَيْنَكُمْ فَتَزِلَّ <a class=\"highlight-text\">قَدَمٌۢ</a> بَعْدَ ثُبُوتِهَا وَتَذُوقُوا۟ ٱلسُّوٓءَ بِمَا صَدَدتُّمْ عَن سَبِيلِ ٱللَّهِ ۖ وَلَكُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 57,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا <a class=\"highlight-text\">قَدَّمَتْ</a> يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 10,
+      "text": "ذَٰلِكَ بِمَا قَدَّمَتْ يَدَاكَ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍ لِّلْعَبِيدِ",
+      "highlightedHtml": "ذَٰلِكَ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> يَدَاكَ وَأَنَّ ٱللَّهَ لَيْسَ بِظَلَّٰمٍ لِّلْعَبِيدِ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 23,
+      "text": "وَقَدِمْنَآ إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَٰهُ هَبَآءً مَّنثُورًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَقَدِمْنَآ</a> إِلَىٰ مَا عَمِلُوا۟ مِنْ عَمَلٍ فَجَعَلْنَٰهُ هَبَآءً مَّنثُورًا",
+      "derivedForms": [
+        "قَدِمَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 76,
+      "text": "أَنتُمْ وَءَابَآؤُكُمُ ٱلْأَقْدَمُونَ",
+      "highlightedHtml": "أَنتُمْ وَءَابَآؤُكُمُ <a class=\"highlight-text\">ٱلْأَقْدَمُونَ</a>",
+      "derivedForms": [
+        "أَقْدَمُون"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 47,
+      "text": "وَلَوْلَآ أَن تُصِيبَهُم مُّصِيبَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَيَقُولُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ آيَاتِكَ وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "وَلَوْلَآ أَن تُصِيبَهُم مُّصِيبَةٌۢ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ فَيَقُولُوا۟ رَبَّنَا لَوْلَآ أَرْسَلْتَ إِلَيْنَا رَسُولًا فَنَتَّبِعَ آيَاتِكَ وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 36,
+      "text": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ",
+      "highlightedHtml": "وَإِذَآ أَذَقْنَا ٱلنَّاسَ رَحْمَةً فَرِحُوا۟ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ إِذَا هُمْ يَقْنَطُونَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 30,
+      "text": "قُل لَّكُم مِّيعَادُ يَوْمٍ لَّا تَسْتَأْخِرُونَ عَنْهُ سَاعَةً وَلَا تَسْتَقْدِمُونَ",
+      "highlightedHtml": "قُل لَّكُم مِّيعَادُ يَوْمٍ لَّا تَسْتَأْخِرُونَ عَنْهُ سَاعَةً وَلَا <a class=\"highlight-text\">تَسْتَقْدِمُونَ</a>",
+      "derivedForms": [
+        "يَسْتَقْدِم"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 12,
+      "text": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+      "highlightedHtml": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا <a class=\"highlight-text\">قَدَّمُوا۟</a> وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 39,
+      "text": "وَٱلْقَمَرَ قَدَّرْنَٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ كَٱلْعُرْجُونِ كَٱلْعُرْجُونِ ٱلْقَدِيمِ",
+      "highlightedHtml": "وَٱلْقَمَرَ قَدَّرْنَٰهُ مَنَازِلَ حَتَّىٰ عَادَ كَٱلْعُرْجُونِ كَٱلْعُرْجُونِ كَٱلْعُرْجُونِ <a class=\"highlight-text\">ٱلْقَدِيمِ</a>",
+      "derivedForms": [
+        "قَدِيم"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 60,
+      "text": "قَالُوا۟ بَلْ أَنتُمْ لَا مَرْحَبًۢا بِكُمْ ۖ أَنتُمْ قَدَّمْتُمُوهُ لَنَا ۖ فَبِئْسَ ٱلْقَرَارُ",
+      "highlightedHtml": "قَالُوا۟ بَلْ أَنتُمْ لَا مَرْحَبًۢا بِكُمْ ۖ أَنتُمْ <a class=\"highlight-text\">قَدَّمْتُمُوهُ</a> لَنَا ۖ فَبِئْسَ ٱلْقَرَارُ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 61,
+      "text": "قَالُوا۟ رَبَّنَا مَن قَدَّمَ لَنَا هَٰذَا فَزِدْهُ عَذَابًا ضِعْفًا فِى ٱلنَّارِ",
+      "highlightedHtml": "قَالُوا۟ رَبَّنَا مَن <a class=\"highlight-text\">قَدَّمَ</a> لَنَا هَٰذَا فَزِدْهُ عَذَابًا ضِعْفًا فِى ٱلنَّارِ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 29,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنسِ نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا لِيَكُونَا مِنَ ٱلْأَسْفَلِينَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ رَبَّنَآ أَرِنَا ٱلَّذَيْنِ أَضَلَّانَا مِنَ ٱلْجِنِّ وَٱلْإِنسِ نَجْعَلْهُمَا تَحْتَ <a class=\"highlight-text\">أَقْدَامِنَا</a> لِيَكُونَا مِنَ ٱلْأَسْفَلِينَ",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 48,
+      "text": "فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا قَدَّمَتْ أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌ",
+      "highlightedHtml": "فَإِنْ أَعْرَضُوا۟ فَمَآ أَرْسَلْنَٰكَ عَلَيْهِمْ حَفِيظًا ۖ إِنْ عَلَيْكَ إِلَّا ٱلْبَلَٰغُ ۗ وَإِنَّآ إِذَآ أَذَقْنَا ٱلْإِنسَٰنَ مِنَّا رَحْمَةً فَرِحَ بِهَا ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌۢ بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ فَإِنَّ ٱلْإِنسَٰنَ كَفُورٌ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 11,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا سَبَقُونَآ إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ قَدِيمٌ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ آمَنُوا لَوْ كَانَ خَيْرًا مَّا سَبَقُونَآ إِلَيْهِ ۚ وَإِذْ لَمْ يَهْتَدُوا۟ بِهِۦ فَسَيَقُولُونَ هَٰذَآ إِفْكٌ <a class=\"highlight-text\">قَدِيمٌ</a>",
+      "derivedForms": [
+        "قَدِيم"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 7,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ أَقْدَامَكُمْ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِن تَنصُرُوا۟ ٱللَّهَ يَنصُرْكُمْ وَيُثَبِّتْ <a class=\"highlight-text\">أَقْدَامَكُمْ</a>",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 2,
+      "text": "لِّيَغْفِرَ لَكَ ٱللَّهُ مَا تَقَدَّمَ مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًا مُّسْتَقِيمًا",
+      "highlightedHtml": "لِّيَغْفِرَ لَكَ ٱللَّهُ مَا <a class=\"highlight-text\">تَقَدَّمَ</a> مِن ذَنۢبِكَ وَمَا تَأَخَّرَ وَيُتِمَّ نِعْمَتَهُۥ عَلَيْكَ وَيَهْدِيَكَ صِرَٰطًا مُّسْتَقِيمًا",
+      "derivedForms": [
+        "تَقَدَّم"
+      ]
+    },
+    {
+      "surah": 49,
+      "ayah": 1,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تُقَدِّمُوا۟ بَيْنَ يَدَىِ ٱللَّهِ وَرَسُولِهِۦ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا <a class=\"highlight-text\">تُقَدِّمُوا۟</a> بَيْنَ يَدَىِ ٱللَّهِ وَرَسُولِهِۦ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 28,
+      "text": "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ قَدَّمْتُ إِلَيْكُم بِٱلْوَعِيدِ",
+      "highlightedHtml": "قَالَ لَا تَخْتَصِمُوا۟ لَدَىَّ وَقَدْ <a class=\"highlight-text\">قَدَّمْتُ</a> إِلَيْكُم بِٱلْوَعِيدِ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 41,
+      "text": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ",
+      "highlightedHtml": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى <a class=\"highlight-text\">وَٱلْأَقْدَامِ</a>",
+      "derivedForms": [
+        "قَدَم"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا نَٰجَيْتُمُ ٱلرَّسُولَ <a class=\"highlight-text\">فَقَدِّمُوا۟</a> بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 13,
+      "text": "أَأَشْفَقْتُمْ أَن تُقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "أَأَشْفَقْتُمْ أَن <a class=\"highlight-text\">تُقَدِّمُوا۟</a> بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 18,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا ٱتَّقُوا۟ ٱللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا <a class=\"highlight-text\">قَدَّمَتْ</a> لِغَدٍ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 62,
+      "ayah": 7,
+      "text": "وَلَا يَتَمَنَّوْنَهُۥٓ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۚ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "highlightedHtml": "وَلَا يَتَمَنَّوْنَهُۥٓ أَبَدًۢا بِمَا <a class=\"highlight-text\">قَدَّمَتْ</a> أَيْدِيهِمْ ۚ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 20,
+      "text": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+      "highlightedHtml": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَآخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَآخَرُونَ يُقَٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا <a class=\"highlight-text\">تُقَدِّمُوا۟</a> لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 37,
+      "text": "لِمَن شَآءَ مِنكُمْ أَن يَتَقَدَّمَ أَوْ يَتَأَخَّرَ",
+      "highlightedHtml": "لِمَن شَآءَ مِنكُمْ أَن <a class=\"highlight-text\">يَتَقَدَّمَ</a> أَوْ يَتَأَخَّرَ",
+      "derivedForms": [
+        "تَقَدَّم"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 13,
+      "text": "يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا قَدَّمَ وَأَخَّرَ",
+      "highlightedHtml": "يُنَبَّؤُا۟ ٱلْإِنسَٰنُ يَوْمَئِذٍۭ بِمَا <a class=\"highlight-text\">قَدَّمَ</a> وَأَخَّرَ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 40,
+      "text": "إِنَّآ أَنذَرْنَٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+      "highlightedHtml": "إِنَّآ أَنذَرْنَٰكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ ٱلْمَرْءُ مَا <a class=\"highlight-text\">قَدَّمَتْ</a> يَدَاهُ وَيَقُولُ ٱلْكَافِرُ يَٰلَيْتَنِى كُنتُ تُرَٰبًۢا",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 5,
+      "text": "عَلِمَتْ نَفْسٌ مَّا قَدَّمَتْ وَأَخَّرَتْ",
+      "highlightedHtml": "عَلِمَتْ نَفْسٌ مَّا <a class=\"highlight-text\">قَدَّمَتْ</a> وَأَخَّرَتْ",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    },
+    {
+      "surah": 89,
+      "ayah": 24,
+      "text": "يَقُولُ يَٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
+      "highlightedHtml": "يَقُولُ يَٰلَيْتَنِى <a class=\"highlight-text\">قَدَّمْتُ</a> لِحَيَاتِى",
+      "derivedForms": [
+        "قَدَّمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:40.387Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular (form II) perfect verb",
+    "derivativeNote": "قَدَّمَتْ is in the derivative form: قَدَّمَ",
+    "rootDefinitionHtml": "ق/د/م q–d–m foot<br>; position, rank, leader, to lead; to come, to arrive; front, to advance, fore, in the front; brave, courageous; to precede, to be old, ancient, eternal; to submit. <br><br>Of this root, 10 forms occur 48 times in the Qur’an:<br> قَدِمَ qadima 1 time; يَقْدُم yaqdum 1 time; قَدَّمَ qaddama 27 times; تَقَدَّمَ taqaddama 2 times; تَسْتَقْدِمُون tastaqdimūn 4 times; قَدَم qadam 2 times; أَقْدَام ʾaqdām 6 times; قَدِيم qadım 3 times; أَقْدَمُون ʾaqdamūn 1 time and مُسْتَقْدِمِين mustaqdimın 1 time.",
+    "mainDefinitionHtml": "قَدَّمَ qaddama [v. II, trans.] <br><br><strong>1 </strong>to advance, to put forward, to offer <br><br>(58:13) ءَأَشْفَقْتُمْ أَنْ تُقَدِّمُوا بَيْنَ يَدَيْ نَجْوَاكُمْ صَدَقَاتٍ have you found it burdensome to give alms before your private consultation [with the Prophet]? <br><br><strong>2 </strong>[with an elliptical object] to work for, to show concern, to provide <br><br>(89:24) يَقُولُ يَالَيْتَنِي قَدَّمْتُ لِحَيَاتِي he will say, ‘Would that I had provided for my life [here]!’ <br><br><strong>3 </strong>to offer, to make available, to bring upon <br><br>(38:60) أَنْتُمْ قَدَّمْتُمُوهُ لَنَا it was you who brought this on us <br><br><strong>4 </strong>to tempt, to entice, to allure, to beguile <br><br>(5:80) لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنْفُسُهُمْ أَنْ سَخِطَ اللَّهُ عَلَيْهِمْ how vile is what their souls have beguiled them into! God is wroth with them as a result ‏‏<br><br><strong>5 </strong>to commit, to perpetrate, to incur <br><br>(3:18–2) ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلاَّمٍ لِلْعَبِيدِ this is on account of what you have committed with your own hands: God is never unjust to [His] servants.",
+    "mainEntryId": "wdef-ق-د-م.قَدَّمَ",
+    "entries": [
+      {
+        "id": "wdef-ق-د-م",
+        "label": "ق-د-م",
+        "definitionHtml": "ق/د/م q–d–m foot<br>; position, rank, leader, to lead; to come, to arrive; front, to advance, fore, in the front; brave, courageous; to precede, to be old, ancient, eternal; to submit. <br><br>Of this root, 10 forms occur 48 times in the Qur’an:<br> قَدِمَ qadima 1 time; يَقْدُم yaqdum 1 time; قَدَّمَ qaddama 27 times; تَقَدَّمَ taqaddama 2 times; تَسْتَقْدِمُون tastaqdimūn 4 times; قَدَم qadam 2 times; أَقْدَام ʾaqdām 6 times; قَدِيم qadım 3 times; أَقْدَمُون ʾaqdamūn 1 time and مُسْتَقْدِمِين mustaqdimın 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.قَدَّمَ",
+        "label": "قَدَّمَ",
+        "definitionHtml": "قَدَّمَ qaddama [v. II, trans.] <br><br><strong>1 </strong>to advance, to put forward, to offer <br><br>(58:13) ءَأَشْفَقْتُمْ أَنْ تُقَدِّمُوا بَيْنَ يَدَيْ نَجْوَاكُمْ صَدَقَاتٍ have you found it burdensome to give alms before your private consultation [with the Prophet]? <br><br><strong>2 </strong>[with an elliptical object] to work for, to show concern, to provide <br><br>(89:24) يَقُولُ يَالَيْتَنِي قَدَّمْتُ لِحَيَاتِي he will say, ‘Would that I had provided for my life [here]!’ <br><br><strong>3 </strong>to offer, to make available, to bring upon <br><br>(38:60) أَنْتُمْ قَدَّمْتُمُوهُ لَنَا it was you who brought this on us <br><br><strong>4 </strong>to tempt, to entice, to allure, to beguile <br><br>(5:80) لَبِئْسَ مَا قَدَّمَتْ لَهُمْ أَنْفُسُهُمْ أَنْ سَخِطَ اللَّهُ عَلَيْهِمْ how vile is what their souls have beguiled them into! God is wroth with them as a result ‏‏<br><br><strong>5 </strong>to commit, to perpetrate, to incur <br><br>(3:18–2) ذَلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلاَّمٍ لِلْعَبِيدِ this is on account of what you have committed with your own hands: God is never unjust to [His] servants.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-د-م.أَقْدَمُون",
+        "label": "أَقْدَمُون",
+        "definitionHtml": "أَقْدَمُون ʾaqdamūn [pl. of elat. أَقْدَم ʾaqdam] older/oldest, more/most ancient *<br><br>(26:76) ءَابَاؤُكُمُ الأَقْدَمُونَ your forefathers, ‏your ancestors, your predecessors.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.تَقَدَّم",
+        "label": "تَقَدَّم",
+        "definitionHtml": "تَقَدَّم taqaddama [v. V, intrans.] <br><br><strong>1 </strong>to go before <br><br>(48:2) لِيَغْفِرَ لَكَ اللَّهُ مَا تَقَدَّمَ مِنْ ذَنْبِكَ وَمَا تَأَخَّرَ that God may forgive you those of your sins that are past [lit. long gone] and those yet to come <br><br><strong>2 </strong>to go forward, to advance <br><br>(74:37) لِمَنْ شَاءَ مِنْكُمْ أَنْ يَتَقَدَّمَ أَوْ يَتَأَخَّرَ to those of you who choose to go ahead or lag behind.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.قَدَم",
+        "label": "قَدَم",
+        "definitionHtml": "قَدَم qadam [n.; pl. أَقْدَام ʾaqdām] foot, foothold *<br><br>(16:94) فَتَزِلَّ قَدَمٌ بَعْدَ ثُبُوتِهَا lest you sin after having attained to faith [lit. lest a foot should slip after it has been firmly placed]; *<br><br>(10:2) قَدَمَ صِدْقٍ عِنْدَ رَبِّهِمْ in good standing (or, on a sure footing) with their Lord; *‏<br><br>(55:41) فَيُؤْخَذُ بِالنَّوَاصِي وَالأَقْدَامِ and will be seized by the forelocks and the feet‏; *<br><br>(41:29) نَجْعَلْهُمَا تَحْتَ أَقْدَامِنَا so we may ‏humiliate them [lit. so we may put them under our feet]; *<br><br>(8:11) وَيُثَبِّتَ بِهِ الأَقْدَامَ and with which to strengthen the resolution [lit. and with which to make feet firm].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.قَدِمَ",
+        "label": "قَدِمَ",
+        "definitionHtml": "قَدِمَ qadima a [v. intrans.] to come to, to apply oneself to, to turn to <br><br>(25:23) وَقَدِمْنَا إِلَى مَا عَمِلُوا مِنْ عَمَلٍ فَجَعَلْنَاهُ هَبَاءً مَنْثُورًا and We will turn to whatever [good] deeds they have done and scatter them like dust.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.قَدِيم",
+        "label": "قَدِيم",
+        "definitionHtml": "قَدِيم qadım [quasi-act. part.] <br><br><strong>1 </strong>ancient <br><br>(46:11) وَإِذْ لَمْ يَهْتَدُوا بِهِ فَسَيَقُولُونَ هَذَا إِفْكٌ قَدِيمٌ and, since they will not be guided by it, they say, ‘This is an ancient fabrication’ <br><br><strong>2 </strong>old, shrivelled <br><br>(36:39) وَالْقَمَرَ قَدَّرْنَاهُ مَنَازِلَ حَتَّى عَادَ كَالْعُرْجُونِ الْقَدِيمِ and the moon, We have determined it by stations until it becomes like a shrivelled, old date-palm stalk <br><br><strong>3 </strong>customary, familiar, same old (thing) <br><br>(12:95) قَالُوا تَاللَّهِ إِنَّكَ لَفِى ضَلاَلِكَ الْقَدِيمِ they said, ‘By God, you are still in your old delusions!’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.مُسْتَقْدِمِين",
+        "label": "مُسْتَقْدِمِين",
+        "definitionHtml": "مُسْتَقْدِمِين mustaqdimın [pl. of act. part. مُسْتَقْدِم mustaqdim] past generations; those who lead others in good work; the vanguard <br><br>(15:24) وَلَقَدْ عَلِمْنَا الْمُسْتَقْدِمِينَ مِنْكُمْ وَلَقَدْ عَلِمْنَا الْمُسْتَأْخِرِينَ and We have come to know those of you who press forward and We know the laggards.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.يَسْتَقْدِم",
+        "label": "يَسْتَقْدِم",
+        "definitionHtml": "يَسْتَقْدِم yastaqdim [imperf. of v. X, trans.] to seek to advance, to seek to bring forward <br><br>(16:61) فَإِذَا جَاءَ أَجَلُهُمْ لاَ يَسْتَأْخِرُونَ سَاعَةً وَلاَ يَسْتَقْدِمُونَ and when their time comes they are unable to put it off for an hour nor [can they] bring it forward [for an hour].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-د-م.يَقْدُم",
+        "label": "يَقْدُم",
+        "definitionHtml": "يَقْدُم yaqdum [imperf. of v. قَدَمَ qadama, trans.] to precede <br><br>(11:98) يَقْدُمُ قَوْمَهُ يَوْمَ الْقِيَامَةَ he will be at the forefront of his people on the Day of Resurrection.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:56.750Z",
+      "refword": "2:95:5",
+      "lexword": "قَدَّمَتْ"
+    }
+  }
+}

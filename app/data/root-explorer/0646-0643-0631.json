@@ -1,0 +1,813 @@
+{
+  "root": "نكر",
+  "rootArabic": "نكر",
+  "stats": {
+    "totalOccurrences": 37,
+    "derivativeCount": 9,
+    "surahCount": 26,
+    "ayahCount": 37
+  },
+  "derivatives": [
+    {
+      "form": "مُنْكَرٌ",
+      "count": 18
+    },
+    {
+      "form": "نَكِيرٌ",
+      "count": 5
+    },
+    {
+      "form": "مُنْكِرُون",
+      "count": 4
+    },
+    {
+      "form": "نُكْرٌ",
+      "count": 3
+    },
+    {
+      "form": "يُنكِر",
+      "count": 3
+    },
+    {
+      "form": "أَنْكَرُ",
+      "count": 1
+    },
+    {
+      "form": "نَكَّرَ",
+      "count": 1
+    },
+    {
+      "form": "نَكِرَ",
+      "count": 1
+    },
+    {
+      "form": "نُكُرٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 3,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 3,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكِرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكِرُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنكِر",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        },
+        {
+          "form": "مُنْكِرُون",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "يُنكِر",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نُكْرٌ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكِرُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 2,
+          "totalInQuran": 18
+        },
+        {
+          "form": "نَكِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكِرُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَّرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 2,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْكَرُ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنكِر",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُكُرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْكَرٌ",
+          "count": 1,
+          "totalInQuran": 18
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُكْرٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكِيرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 104,
+      "text": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "وَلْتَكُن مِّنكُمْ أُمَّةٌ يَدْعُونَ إِلَى ٱلْخَيْرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> ۚ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 110,
+      "text": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ آمَنَ أَهْلُ ٱلْكِتَٰبِ لَكَانَ خَيْرًا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَٰسِقُونَ",
+      "highlightedHtml": "كُنتُمْ خَيْرَ أُمَّةٍ أُخْرِجَتْ لِلنَّاسِ تَأْمُرُونَ بِٱلْمَعْرُوفِ وَتَنْهَوْنَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَتُؤْمِنُونَ بِٱللَّهِ ۗ وَلَوْ آمَنَ أَهْلُ ٱلْكِتَٰبِ لَكَانَ خَيْرًا لَّهُم ۚ مِّنْهُمُ ٱلْمُؤْمِنُونَ وَأَكْثَرُهُمُ ٱلْفَٰسِقُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 114,
+      "text": "يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ",
+      "highlightedHtml": "يُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ الْآخِرِ وَيَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَيُسَٰرِعُونَ فِى ٱلْخَيْرَٰتِ وَأُو۟لَٰٓئِكَ مِنَ ٱلصَّٰلِحِينَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 79,
+      "text": "كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍ فَعَلُوهُ ۚ لَبِئْسَ مَا كَانُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "كَانُوا۟ لَا يَتَنَاهَوْنَ عَن <a class=\"highlight-text\">مُّنكَرٍ</a> فَعَلُوهُ ۚ لَبِئْسَ مَا كَانُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 157,
+      "text": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ آمَنُوا بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَيُحِلُّ لَهُمُ ٱلطَّيِّبَٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ آمَنُوا بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 67,
+      "text": "ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمُنكَرِ وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَٰفِقِينَ هُمُ ٱلْفَٰسِقُونَ",
+      "highlightedHtml": "ٱلْمُنَٰفِقُونَ وَٱلْمُنَٰفِقَٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ <a class=\"highlight-text\">بِٱلْمُنكَرِ</a> وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَٰفِقِينَ هُمُ ٱلْفَٰسِقُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 71,
+      "text": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 112,
+      "text": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ ٱلْمُنكَرِ وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "ٱلتَّٰٓئِبُونَ ٱلْعَٰبِدُونَ ٱلْحَٰمِدُونَ ٱلسَّٰٓئِحُونَ ٱلرَّٰكِعُونَ ٱلسَّٰجِدُونَ ٱلْءَامِرُونَ بِٱلْمَعْرُوفِ وَٱلنَّاهُونَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَٱلْحَٰفِظُونَ لِحُدُودِ ٱللَّهِ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 70,
+      "text": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
+      "highlightedHtml": "فَلَمَّا رَءَآ أَيْدِيَهُمْ لَا تَصِلُ إِلَيْهِ <a class=\"highlight-text\">نَكِرَهُمْ</a> وَأَوْجَسَ مِنْهُمْ خِيفَةً ۚ قَالُوا۟ لَا تَخَفْ إِنَّآ أُرْسِلْنَآ إِلَىٰ قَوْمِ لُوطٍ",
+      "derivedForms": [
+        "نَكِرَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 58,
+      "text": "وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ مُنكِرُونَ",
+      "highlightedHtml": "وَجَآءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا۟ عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُۥ <a class=\"highlight-text\">مُنكِرُونَ</a>",
+      "derivedForms": [
+        "مُنْكِرُون"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 36,
+      "text": "وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن يُنكِرُ بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ مَـَٔابِ",
+      "highlightedHtml": "وَٱلَّذِينَ آتَيْنَاهُمُ ٱلْكِتَٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن <a class=\"highlight-text\">يُنكِرُ</a> بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ مَـَٔابِ",
+      "derivedForms": [
+        "يُنكِر"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 62,
+      "text": "قَالَ إِنَّكُمْ قَوْمٌ مُّنكَرُونَ",
+      "highlightedHtml": "قَالَ إِنَّكُمْ قَوْمٌ <a class=\"highlight-text\">مُّنكَرُونَ</a>",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 22,
+      "text": "إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۚ فَٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ قُلُوبُهُم مُّنكِرَةٌ وَهُم مُّسْتَكْبِرُونَ",
+      "highlightedHtml": "إِلَٰهُكُمْ إِلَٰهٌ وَٰحِدٌ ۚ فَٱلَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ قُلُوبُهُم <a class=\"highlight-text\">مُّنكِرَةٌ</a> وَهُم مُّسْتَكْبِرُونَ",
+      "derivedForms": [
+        "مُنْكِرُون"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 83,
+      "text": "يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ يُنكِرُونَهَا وَأَكْثَرُهُمُ ٱلْكَٰفِرُونَ",
+      "highlightedHtml": "يَعْرِفُونَ نِعْمَتَ ٱللَّهِ ثُمَّ <a class=\"highlight-text\">يُنكِرُونَهَا</a> وَأَكْثَرُهُمُ ٱلْكَٰفِرُونَ",
+      "derivedForms": [
+        "يُنكِر"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 90,
+      "text": "إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ <a class=\"highlight-text\">وَٱلْمُنكَرِ</a> وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 74,
+      "text": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةًۢ بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْـًٔا نُّكْرًا",
+      "highlightedHtml": "فَٱنطَلَقَا حَتَّىٰٓ إِذَا لَقِيَا غُلَٰمًا فَقَتَلَهُۥ قَالَ أَقَتَلْتَ نَفْسًا زَكِيَّةًۢ بِغَيْرِ نَفْسٍ لَّقَدْ جِئْتَ شَيْـًٔا <a class=\"highlight-text\">نُّكْرًا</a>",
+      "derivedForms": [
+        "نُكْرٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 87,
+      "text": "قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًا نُّكْرًا",
+      "highlightedHtml": "قَالَ أَمَّا مَن ظَلَمَ فَسَوْفَ نُعَذِّبُهُۥ ثُمَّ يُرَدُّ إِلَىٰ رَبِّهِۦ فَيُعَذِّبُهُۥ عَذَابًا <a class=\"highlight-text\">نُّكْرًا</a>",
+      "derivedForms": [
+        "نُكْرٌ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 50,
+      "text": "وَهَٰذَا ذِكْرٌ مُّبَارَكٌ أَنزَلْنَٰهُ ۚ أَفَأَنتُمْ لَهُۥ مُنكِرُونَ",
+      "highlightedHtml": "وَهَٰذَا ذِكْرٌ مُّبَارَكٌ أَنزَلْنَٰهُ ۚ أَفَأَنتُمْ لَهُۥ <a class=\"highlight-text\">مُنكِرُونَ</a>",
+      "derivedForms": [
+        "مُنْكِرُون"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 41,
+      "text": "ٱلَّذِينَ إِن مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ ٱلْمُنكَرِ ۗ وَلِلَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "highlightedHtml": "ٱلَّذِينَ إِن مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> ۗ وَلِلَّهِ عَٰقِبَةُ ٱلْأُمُورِ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 44,
+      "text": "وَأَصْحَٰبُ مَدْيَنَ ۖ وَكُذِّبَ مُوسَىٰ فَأَمْلَيْتُ لِلْكَٰفِرِينَ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "highlightedHtml": "وَأَصْحَٰبُ مَدْيَنَ ۖ وَكُذِّبَ مُوسَىٰ فَأَمْلَيْتُ لِلْكَٰفِرِينَ ثُمَّ أَخَذْتُهُمْ ۖ فَكَيْفَ كَانَ <a class=\"highlight-text\">نَكِيرِ</a>",
+      "derivedForms": [
+        "نَكِيرٌ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 72,
+      "text": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ ٱلْمُنكَرَ ۖ يَكَادُونَ يَسْطُونَ بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ آيَاتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ <a class=\"highlight-text\">ٱلْمُنكَرَ</a> ۖ يَكَادُونَ يَسْطُونَ بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ آيَاتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 69,
+      "text": "أَمْ لَمْ يَعْرِفُوا۟ رَسُولَهُمْ فَهُمْ لَهُۥ مُنكِرُونَ",
+      "highlightedHtml": "أَمْ لَمْ يَعْرِفُوا۟ رَسُولَهُمْ فَهُمْ لَهُۥ <a class=\"highlight-text\">مُنكِرُونَ</a>",
+      "derivedForms": [
+        "مُنْكِرُون"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 21,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ <a class=\"highlight-text\">وَٱلْمُنكَرِ</a> ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 41,
+      "text": "قَالَ نَكِّرُوا۟ لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِىٓ أَمْ تَكُونُ مِنَ ٱلَّذِينَ لَا يَهْتَدُونَ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">نَكِّرُوا۟</a> لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِىٓ أَمْ تَكُونُ مِنَ ٱلَّذِينَ لَا يَهْتَدُونَ",
+      "derivedForms": [
+        "نَكَّرَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 29,
+      "text": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ <a class=\"highlight-text\">ٱلْمُنكَرَ</a> ۖ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 45,
+      "text": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "highlightedHtml": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ <a class=\"highlight-text\">وَٱلْمُنكَرِ</a> ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 17,
+      "text": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ ٱلْمُنكَرِ وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+      "highlightedHtml": "يَٰبُنَىَّ أَقِمِ ٱلصَّلَوٰةَ وَأْمُرْ بِٱلْمَعْرُوفِ وَٱنْهَ عَنِ <a class=\"highlight-text\">ٱلْمُنكَرِ</a> وَٱصْبِرْ عَلَىٰ مَآ أَصَابَكَ ۖ إِنَّ ذَٰلِكَ مِنْ عَزْمِ ٱلْأُمُورِ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 19,
+      "text": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ أَنكَرَ ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "highlightedHtml": "وَٱقْصِدْ فِى مَشْيِكَ وَٱغْضُضْ مِن صَوْتِكَ ۚ إِنَّ <a class=\"highlight-text\">أَنكَرَ</a> ٱلْأَصْوَٰتِ لَصَوْتُ ٱلْحَمِيرِ",
+      "derivedForms": [
+        "أَنْكَرُ"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 45,
+      "text": "وَكَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ وَمَا بَلَغُوا۟ مِعْشَارَ مَآ آتَيْنَاهُمْ فَكَذَّبُوا۟ رُسُلِى ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "highlightedHtml": "وَكَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ وَمَا بَلَغُوا۟ مِعْشَارَ مَآ آتَيْنَاهُمْ فَكَذَّبُوا۟ رُسُلِى ۖ فَكَيْفَ كَانَ <a class=\"highlight-text\">نَكِيرِ</a>",
+      "derivedForms": [
+        "نَكِيرٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 26,
+      "text": "ثُمَّ أَخَذْتُ ٱلَّذِينَ كَفَرُوا۟ ۖ فَكَيْفَ كَانَ نَكِيرِ",
+      "highlightedHtml": "ثُمَّ أَخَذْتُ ٱلَّذِينَ كَفَرُوا۟ ۖ فَكَيْفَ كَانَ <a class=\"highlight-text\">نَكِيرِ</a>",
+      "derivedForms": [
+        "نَكِيرٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 81,
+      "text": "وَيُرِيكُمْ آيَاتِهِ فَأَىَّ آيَاتِ ٱللَّهِ تُنكِرُونَ",
+      "highlightedHtml": "وَيُرِيكُمْ آيَاتِهِ فَأَىَّ آيَاتِ ٱللَّهِ <a class=\"highlight-text\">تُنكِرُونَ</a>",
+      "derivedForms": [
+        "يُنكِر"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 47,
+      "text": "ٱسْتَجِيبُوا۟ لِرَبِّكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۚ مَا لَكُم مِّن مَّلْجَإٍ يَوْمَئِذٍ وَمَا لَكُم مِّن نَّكِيرٍ",
+      "highlightedHtml": "ٱسْتَجِيبُوا۟ لِرَبِّكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۚ مَا لَكُم مِّن مَّلْجَإٍ يَوْمَئِذٍ وَمَا لَكُم مِّن <a class=\"highlight-text\">نَّكِيرٍ</a>",
+      "derivedForms": [
+        "نَكِيرٌ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 25,
+      "text": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَٰمًا ۖ قَالَ سَلَٰمٌ قَوْمٌ مُّنكَرُونَ",
+      "highlightedHtml": "إِذْ دَخَلُوا۟ عَلَيْهِ فَقَالُوا۟ سَلَٰمًا ۖ قَالَ سَلَٰمٌ قَوْمٌ <a class=\"highlight-text\">مُّنكَرُونَ</a>",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 6,
+      "text": "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ نُّكُرٍ",
+      "highlightedHtml": "فَتَوَلَّ عَنْهُمْ ۘ يَوْمَ يَدْعُ ٱلدَّاعِ إِلَىٰ شَىْءٍ <a class=\"highlight-text\">نُّكُرٍ</a>",
+      "derivedForms": [
+        "نُكُرٌ"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 2,
+      "text": "ٱلَّذِينَ يُظَٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَٰتِهِمْ ۖ إِنْ أُمَّهَٰتُهُمْ إِلَّا ٱلَّٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ مُنكَرًا مِّنَ ٱلْقَوْلِ وَزُورًا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
+      "highlightedHtml": "ٱلَّذِينَ يُظَٰهِرُونَ مِنكُم مِّن نِّسَآئِهِم مَّا هُنَّ أُمَّهَٰتِهِمْ ۖ إِنْ أُمَّهَٰتُهُمْ إِلَّا ٱلَّٰٓـِٔى وَلَدْنَهُمْ ۚ وَإِنَّهُمْ لَيَقُولُونَ <a class=\"highlight-text\">مُنكَرًا</a> مِّنَ ٱلْقَوْلِ وَزُورًا ۚ وَإِنَّ ٱللَّهَ لَعَفُوٌّ غَفُورٌ",
+      "derivedForms": [
+        "مُنْكَرٌ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 8,
+      "text": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَٰهَا عَذَابًا نُّكْرًا",
+      "highlightedHtml": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَٰهَا عَذَابًا <a class=\"highlight-text\">نُّكْرًا</a>",
+      "derivedForms": [
+        "نُكْرٌ"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 18,
+      "text": "وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ نَكِيرِ",
+      "highlightedHtml": "وَلَقَدْ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ فَكَيْفَ كَانَ <a class=\"highlight-text\">نَكِيرِ</a>",
+      "derivedForms": [
+        "نَكِيرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:05.109Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form IV) passive participle",
+    "derivativeNote": "ٱلْمُنكَرِ is in the derivative form: مُنْكَرٌ",
+    "rootDefinitionHtml": "ن/ك/ر   n–k–r hardship, serious matters<br>; cunning; to be discerning; denial, to disown; to dispute with, fighting; to be ignorant of something, to fail to recognise, to refuse to acknowledge; to seek to clarify; to censure, to blame; detestable, abominable, loathsome. <br><br>Of this root, 11 forms (in addition to a variant reading, نُكِرَ nukira) occur 37 times in the Qur’an:<br> نَكِرَ nakira 1 time; نَكَّرَ nakkara 1 time; أَنْكَرَ ʾankara 3 times; نُكْرٌ nukr 3 times; نُكُرٌ nukur 1 time; نَكِيرٌ nakır 5 times; أَنْكَرُ ʾankar 1 time; مُنْكِرَة munkiratun 1 time; مُنْكِرُون munkirūn 3 times; مُنْكَرٌ munkar 16 times and مُنْكَرُون munkarūn 2 times.",
+    "mainDefinitionHtml": "مُنْكَرٌ munkar I [pass. part.] <br><br><strong>1 </strong>false, untrue, blameworthy <br><br>(58:2) وَإِنَّهُمْ لَيَقُولُونَ مُنْكَرًا مِنَ الْقَوْلِ وَزُورًا indeed they utter blameworthy (or, abominable) words and a falsehood <br><br><strong>2 </strong>[pl. مُنْكَرُون munkarūn] unrecognisable, unidentifiable, unknown <br><br>(15:62) إِنَّكُمْ قَوْمٌ مُنْكَرُونَ you are a strange [lit. unidentifiable] people II [n.] wickedness, abomination <br><br>(5:79) كَانُوا لاَ يَتَنَاهَوْنَ عَنْ مُنْكَرٍ فَعَلُوهُ they did not prevent one another from any abomination they committed III [coll. n., with generic definite article (اﻠ الجِنْسِيَّة), المنكر ʾal‐munkar] what are commonly recognised, particularly from a religious standpoint, as wrong‐doings, wrongs (in contrast to المَعْرُوف ʾal‐maʿrūf, (q.v.)) <br><br>(3:104) وَلْتَكُنْ مِنْكُمْ أُمَّةٌ يَدْعُونَ إِلَى الْخَيْرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ and be a community (or, let there be from among you a party that) calls for good, (or, commands goodness), and forbids what is wrong.",
+    "mainEntryId": "wdef-ن-ك-ر.مُنْكَرٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-ر",
+        "label": "ن-ك-ر",
+        "definitionHtml": "ن/ك/ر   n–k–r hardship, serious matters<br>; cunning; to be discerning; denial, to disown; to dispute with, fighting; to be ignorant of something, to fail to recognise, to refuse to acknowledge; to seek to clarify; to censure, to blame; detestable, abominable, loathsome. <br><br>Of this root, 11 forms (in addition to a variant reading, نُكِرَ nukira) occur 37 times in the Qur’an:<br> نَكِرَ nakira 1 time; نَكَّرَ nakkara 1 time; أَنْكَرَ ʾankara 3 times; نُكْرٌ nukr 3 times; نُكُرٌ nukur 1 time; نَكِيرٌ nakır 5 times; أَنْكَرُ ʾankar 1 time; مُنْكِرَة munkiratun 1 time; مُنْكِرُون munkirūn 3 times; مُنْكَرٌ munkar 16 times and مُنْكَرُون munkarūn 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.مُنْكَرٌ",
+        "label": "مُنْكَرٌ",
+        "definitionHtml": "مُنْكَرٌ munkar I [pass. part.] <br><br><strong>1 </strong>false, untrue, blameworthy <br><br>(58:2) وَإِنَّهُمْ لَيَقُولُونَ مُنْكَرًا مِنَ الْقَوْلِ وَزُورًا indeed they utter blameworthy (or, abominable) words and a falsehood <br><br><strong>2 </strong>[pl. مُنْكَرُون munkarūn] unrecognisable, unidentifiable, unknown <br><br>(15:62) إِنَّكُمْ قَوْمٌ مُنْكَرُونَ you are a strange [lit. unidentifiable] people II [n.] wickedness, abomination <br><br>(5:79) كَانُوا لاَ يَتَنَاهَوْنَ عَنْ مُنْكَرٍ فَعَلُوهُ they did not prevent one another from any abomination they committed III [coll. n., with generic definite article (اﻠ الجِنْسِيَّة), المنكر ʾal‐munkar] what are commonly recognised, particularly from a religious standpoint, as wrong‐doings, wrongs (in contrast to المَعْرُوف ʾal‐maʿrūf, (q.v.)) <br><br>(3:104) وَلْتَكُنْ مِنْكُمْ أُمَّةٌ يَدْعُونَ إِلَى الْخَيْرِ وَيَأْمُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ الْمُنْكَرِ and be a community (or, let there be from among you a party that) calls for good, (or, commands goodness), and forbids what is wrong.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ك-ر.نُكْرٌ",
+        "label": "نُكْرٌ",
+        "definitionHtml": "نُكْرٌ nukr [v. n./quasi‐pass. part.] <br><br><strong>1 </strong>abominable <br><br>(18:74) لَقَدْ جِئْتَ شَيْئًا نُكْرًا you have committed an abominable thing <br><br><strong>2 </strong>severe, beyond imagination, immeasurable in its severity, out of this world <br><br>(18:87) فَيُعَذِّبُهُ عَذَابًا نُكْرًا He will punish him [even more] severely.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.أَنْكَرُ",
+        "label": "أَنْكَرُ",
+        "definitionHtml": "أَنْكَرُ ʾankar [elat.] uglier/the ugliest; more/most offensive <br><br>(31:19) إِنَّ أَنْكَرَ الأَصْوَاتِ لَصَوْتُ الْحَمِيرِ for the ugliest of all sounds is the braying of asses.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.مُنْكِرُون",
+        "label": "مُنْكِرُون",
+        "definitionHtml": "مُنْكِرُون munkirūn [pl. of act. part. مُنْكِرٌ munkir, fem. مُنْكِرَة munkiratun] <br><br><strong>1 </strong>those who deny <br><br>(21:50) أَفَأَنْتُمْ لَهُ مُنْكِرُونَ are you going to deny it? <br><br><strong>2 </strong>those who refuse to admit <br><br>(16:22) فَالَّذِينَ لاَ يُؤْمِنُونَ بِالآخِرَةِ قُلُوبُهُمْ مُنْكِرَةٌ as for those who do not believe the life to come, their hearts refuse to admit [the truth] <br><br><strong>3 </strong>those who fail to recognise or identify <br><br>(12:58) وَجَاءَ إِخْوَةُ يُوسُفَ فَدَخَلُوا عَلَيْهِ فَعَرَفَهُمْ وَهُمْ لَهُ مُنْكِرُونَ and Joseph’s brothers came and entered before him; he recognised them while they were oblivious to his identity.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.نَكِرَ",
+        "label": "نَكِرَ",
+        "definitionHtml": "نَكِرَ nakira u [v. trans.] to be unable to recognise something or someone, to fail to place or identify, to be mystified <br><br>(11:70) فَلَمَّا رَأَى أَيْدِيَهُمْ لاَ تَصِلُ إِلَيْهِ نَكِرَهُمْ وَأَوْجَسَ مِنْهُمْ خِيفَةً when he saw that their hands did not reach towards it [the food], he became doubtful about their identity and conceived a fear of them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.نَكِيرٌ",
+        "label": "نَكِيرٌ",
+        "definitionHtml": "نَكِيرٌ nakır [v. n.; n.] <br><br><strong>1 </strong>denying ; denial <br><br>(42:47) مَا لَكُمْ مِنْ مَلْجَأٍ يَوْمَئِذٍ وَمَا لَكُمْ مِنْ نَكِيرٍ you will have no refuge on that Day, and there will be no denying [your sins] <br><br><strong>2 </strong>[with 1st pers. sing. pron. suffixي ı elided in the following verse] punishment <br><br>(22:44) فَأَمْلَيْتُ لِلْكَافِرِينَ ثُمَّ أَخَذْتُهُمْ فَكَيْفَ كَانَ نَكِير I gave the disbelievers time, but in the end I took them to task–how [awesome] was My punishment!",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.نَكَّرَ",
+        "label": "نَكَّرَ",
+        "definitionHtml": "نَكَّرَ nakkara [v. II trans.] to disguise, to camouflage <br><br>(27:41) قَالَ نَكِّرُوا لَهَا عَرْشَهَا he said, ‘Disguise her throne for her.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.نُكُرٌ",
+        "label": "نُكُرٌ",
+        "definitionHtml": "نُكُرٌ nukur (variant reading نُكِرَ nukira) [quasi‐act. part.] horrific <br><br>(54:6) يَوْمَ يَدْعُ الدَّاعِ إِلَى شَيْءٍ نُكُرٍ on a Day the Summoner will summon them to a horrific event.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.نُكِرَ",
+        "label": "نُكِرَ",
+        "definitionHtml": "نُكِرَ nukira (variant reading نُكُرٌ nukur) [pass. v.] to be denied (in a variant reading of verse 54:6) يَوْمَ يَدْعُ الدَّاعِ إِلَى شَيْءٍ نُكِرٍَ the Day the Summoner will summon them to a denied event.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ر.يُنكِر",
+        "label": "يُنكِر",
+        "definitionHtml": "يُنكِر yunkir [imperf. v. IV, trans.] <br><br><strong>1 </strong>to deny, to refuse to accept, to disclaim <br><br>(13:36) وَمِنَ الأَحْزَابِ مَنْ يُنْكِرُ بَعْضَهُ and of the factions there are some who deny parts of it <br><br><strong>2 </strong>to ignore, to fail to acknowledge <br><br>(16:83) يَعْرِفُونَ نِعْمَةَ اللَّهِ ثُمَّ يُنْكِرُونَهَا they recognise God’s blessings, [but] then refuse to acknowledge them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:20.168Z",
+      "refword": "3:104:11",
+      "lexword": "ٱلْمُنكَرِ"
+    }
+  }
+}

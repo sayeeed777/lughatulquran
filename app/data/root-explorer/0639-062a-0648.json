@@ -1,0 +1,257 @@
+{
+  "root": "عتو",
+  "rootArabic": "عتو",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "عَتَى",
+      "count": 5
+    },
+    {
+      "form": "عُتُوٌّ",
+      "count": 2
+    },
+    {
+      "form": "عِتِىٌّ",
+      "count": 2
+    },
+    {
+      "form": "عَاتِى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عَتَى",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عِتِىٌّ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عُتُوٌّ",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "عَتَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَتَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَتَى",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُتُوٌّ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَاتِى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 77,
+      "text": "فَعَقَرُوا۟ ٱلنَّاقَةَ وَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَٰصَٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ",
+      "highlightedHtml": "فَعَقَرُوا۟ ٱلنَّاقَةَ <a class=\"highlight-text\">وَعَتَوْا۟</a> عَنْ أَمْرِ رَبِّهِمْ وَقَالُوا۟ يَٰصَٰلِحُ ٱئْتِنَا بِمَا تَعِدُنَآ إِن كُنتَ مِنَ ٱلْمُرْسَلِينَ",
+      "derivedForms": [
+        "عَتَى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 166,
+      "text": "فَلَمَّا عَتَوْا۟ عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "highlightedHtml": "فَلَمَّا <a class=\"highlight-text\">عَتَوْا۟</a> عَن مَّا نُهُوا۟ عَنْهُ قُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+      "derivedForms": [
+        "عَتَى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 8,
+      "text": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَكَانَتِ ٱمْرَأَتِى عَاقِرًا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ عِتِيًّا",
+      "highlightedHtml": "قَالَ رَبِّ أَنَّىٰ يَكُونُ لِى غُلَٰمٌ وَكَانَتِ ٱمْرَأَتِى عَاقِرًا وَقَدْ بَلَغْتُ مِنَ ٱلْكِبَرِ <a class=\"highlight-text\">عِتِيًّا</a>",
+      "derivedForms": [
+        "عِتِىٌّ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 69,
+      "text": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ عِتِيًّا",
+      "highlightedHtml": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى ٱلرَّحْمَٰنِ <a class=\"highlight-text\">عِتِيًّا</a>",
+      "derivedForms": [
+        "عِتِىٌّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 21,
+      "text": "وَقَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا لَوْلَآ أُنزِلَ عَلَيْنَا ٱلْمَلَٰٓئِكَةُ أَوْ نَرَىٰ رَبَّنَا ۗ لَقَدِ ٱسْتَكْبَرُوا۟ فِىٓ أَنفُسِهِمْ وَعَتَوْ عُتُوًّا كَبِيرًا",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ لَا يَرْجُونَ لِقَآءَنَا لَوْلَآ أُنزِلَ عَلَيْنَا ٱلْمَلَٰٓئِكَةُ أَوْ نَرَىٰ رَبَّنَا ۗ لَقَدِ ٱسْتَكْبَرُوا۟ فِىٓ أَنفُسِهِمْ <a class=\"highlight-text\">وَعَتَوْ</a> <a class=\"highlight-text\">عُتُوًّا</a> كَبِيرًا",
+      "derivedForms": [
+        "عَتَى",
+        "عُتُوٌّ"
+      ]
+    },
+    {
+      "surah": 51,
+      "ayah": 44,
+      "text": "فَعَتَوْا۟ عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَعَتَوْا۟</a> عَنْ أَمْرِ رَبِّهِمْ فَأَخَذَتْهُمُ ٱلصَّٰعِقَةُ وَهُمْ يَنظُرُونَ",
+      "derivedForms": [
+        "عَتَى"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 8,
+      "text": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَٰهَا عَذَابًا نُّكْرًا",
+      "highlightedHtml": "وَكَأَيِّن مِّن قَرْيَةٍ <a class=\"highlight-text\">عَتَتْ</a> عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَٰهَا عَذَابًا نُّكْرًا",
+      "derivedForms": [
+        "عَتَى"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 21,
+      "text": "أَمَّنْ هَٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى عُتُوٍّ وَنُفُورٍ",
+      "highlightedHtml": "أَمَّنْ هَٰذَا ٱلَّذِى يَرْزُقُكُمْ إِنْ أَمْسَكَ رِزْقَهُۥ ۚ بَل لَّجُّوا۟ فِى <a class=\"highlight-text\">عُتُوٍّ</a> وَنُفُورٍ",
+      "derivedForms": [
+        "عُتُوٌّ"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 6,
+      "text": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ عَاتِيَةٍ",
+      "highlightedHtml": "وَأَمَّا عَادٌ فَأُهْلِكُوا۟ بِرِيحٍ صَرْصَرٍ <a class=\"highlight-text\">عَاتِيَةٍ</a>",
+      "derivedForms": [
+        "عَاتِى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:27.054Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural perfect verb",
+    "derivativeNote": "وَعَتَوْا۟ is in the derivative form: عَتَى",
+    "rootDefinitionHtml": "ع/ت/و-ي ʿ–t–w/y to be excessively fierce, arrogant, violent, aggressive, to be disobedient, to offer mutinous opposition<br>; (of tree branches) to dry up; to reach very old age, to be infirm. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> عَتَى ʿatā 5 times; عُتُوٌّ ʿutuww 2 times; عِتِىٌّ ʿitiyy 2 times and عَاتِيةٌ ʿātiyatun 1 time.",
+    "mainDefinitionHtml": "عَتَى ʿatā ū [v. intrans.] <br><br><strong>1 </strong>to behave arrogantly, to violate the bounds of propriety, to become excessive <br><br>(25:21) لَقَدِ‏ ‏اسْتَكْبَرُوا‏ ‏فِى‏ ‏أَنْفُسِهِمْ‏ ‏وَعَتَوْا‏ ‏عُتُوًّا‏ ‏كَبِيرًا‏ they have become too proud of themselves, and flagrantly violated all bounds of propriety <br><br><strong>2 </strong>[with prep.عَن ] to rebel against, to turn with disdain from obeying <br><br>(51:44) فَعَتَوْا‏ ‏عَنْ‏ ‏أَمْرِ‏ ‏رَبِّهِمْ‏ ‏فَأَخَذَتْهُمُ‏ ‏الصَّاعِقَةُ‏ but they rebelled against their Lord’s command, so the blast took them.",
+    "mainEntryId": "wdef-ع-ت-و-ي.عَتَى",
+    "entries": [
+      {
+        "id": "wdef-ع-ت-و-ي",
+        "label": "ع-ت-و-ي",
+        "definitionHtml": "ع/ت/و-ي ʿ–t–w/y to be excessively fierce, arrogant, violent, aggressive, to be disobedient, to offer mutinous opposition<br>; (of tree branches) to dry up; to reach very old age, to be infirm. <br><br>Of this root, 4 forms occur 10 times in the Qur’an:<br> عَتَى ʿatā 5 times; عُتُوٌّ ʿutuww 2 times; عِتِىٌّ ʿitiyy 2 times and عَاتِيةٌ ʿātiyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ت-و-ي.عَتَى",
+        "label": "عَتَى",
+        "definitionHtml": "عَتَى ʿatā ū [v. intrans.] <br><br><strong>1 </strong>to behave arrogantly, to violate the bounds of propriety, to become excessive <br><br>(25:21) لَقَدِ‏ ‏اسْتَكْبَرُوا‏ ‏فِى‏ ‏أَنْفُسِهِمْ‏ ‏وَعَتَوْا‏ ‏عُتُوًّا‏ ‏كَبِيرًا‏ they have become too proud of themselves, and flagrantly violated all bounds of propriety <br><br><strong>2 </strong>[with prep.عَن ] to rebel against, to turn with disdain from obeying <br><br>(51:44) فَعَتَوْا‏ ‏عَنْ‏ ‏أَمْرِ‏ ‏رَبِّهِمْ‏ ‏فَأَخَذَتْهُمُ‏ ‏الصَّاعِقَةُ‏ but they rebelled against their Lord’s command, so the blast took them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ت-و-ي.عَاتِى",
+        "label": "عَاتِى",
+        "definitionHtml": "عَاتِى ʿātı [act. part.] violent, fierce, raging <br><br>(69:6) وَأَمَّا‏ ‏عَادٌ‏ ‏فَأُهْلِكُوا‏ ‏بِرِيحٍ‏ ‏صَرْصَرٍ‏ ‏عَاتِيَةٍ‏ as for the people of ʿād, they were destroyed by a violent roaring wind.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ت-و-ي.عُتُوٌّ",
+        "label": "عُتُوٌّ",
+        "definitionHtml": "عُتُوٌّ ʿutuww [v. n.] violating all bounds of propriety, insurrection, arrogance <br><br>(25:21) ‏لَقَدِ‏ ‏اسْتَكْبَرُوا‏ ‏فِى‏ ‏أَنْفُسِهِمْ‏ ‏وَعَتَوْا‏ ‏عُتُوًّا‏ ‏كَبِيرًا‏ they have become too proud of themselves and flagrantly violated all bounds of propriety.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ت-و-ي.عِتِىٌّ",
+        "label": "عِتِىٌّ",
+        "definitionHtml": "عِتِىٌّ ʿitiyy [v. n.] <br><br><strong>1 </strong>being dried up, becoming too old, infirmity <br><br>(19:8) ‏وَقَدْ‏ ‏بَلَغْتُ‏ ‏مِنَ‏ ‏الْكِبَرِ‏ ‏عِتِيًّا‏ and I have reached the infirmity of old age <br><br><strong>2 </strong>unruliness, being rebellious, brutality <br><br>(19:69) ثُمَّ‏ ‏لَنَنْزِعَنَّ‏ ‏مِنْ‏ ‏كُلِّ‏ ‏شِيعَةٍ‏ ‏أَيُّهُمْ‏ ‏أَشَدُّ‏ ‏عَلَى‏ ‏الرَّحْمَنِ‏ ‏عِتِيًّا‏ then will We seize out of each group those who were most disobedient towards the Lord of Mercy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:43.353Z",
+      "refword": "7:77:3",
+      "lexword": "وَعَتَوْا۟"
+    }
+  }
+}

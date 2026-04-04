@@ -1,0 +1,254 @@
+{
+  "root": "سقط",
+  "rootArabic": "سقط",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "تُسْقِط",
+      "count": 3
+    },
+    {
+      "form": "سَقَطَ",
+      "count": 3
+    },
+    {
+      "form": "تُساقِط",
+      "count": 1
+    },
+    {
+      "form": "ساقِط",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَقَطَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُسْقِط",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُساقِط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُسْقِط",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 34,
+      "surahName": "Al-Saba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُسْقِط",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساقِط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 59,
+      "text": "وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا تَسْقُطُ مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "highlightedHtml": "وَعِندَهُۥ مَفَاتِحُ ٱلْغَيْبِ لَا يَعْلَمُهَآ إِلَّا هُوَ ۚ وَيَعْلَمُ مَا فِى ٱلْبَرِّ وَٱلْبَحْرِ ۚ وَمَا <a class=\"highlight-text\">تَسْقُطُ</a> مِن وَرَقَةٍ إِلَّا يَعْلَمُهَا وَلَا حَبَّةٍ فِى ظُلُمَٰتِ ٱلْأَرْضِ وَلَا رَطْبٍ وَلَا يَابِسٍ إِلَّا فِى كِتَٰبٍ مُّبِينٍ",
+      "derivedForms": [
+        "سَقَطَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 149,
+      "text": "وَلَمَّا سُقِطَ فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "وَلَمَّا <a class=\"highlight-text\">سُقِطَ</a> فِىٓ أَيْدِيهِمْ وَرَأَوْا۟ أَنَّهُمْ قَدْ ضَلُّوا۟ قَالُوا۟ لَئِن لَّمْ يَرْحَمْنَا رَبُّنَا وَيَغْفِرْ لَنَا لَنَكُونَنَّ مِنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "سَقَطَ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 49,
+      "text": "وَمِنْهُم مَّن يَقُولُ ٱئْذَن لِّى وَلَا تَفْتِنِّىٓ ۚ أَلَا فِى ٱلْفِتْنَةِ سَقَطُوا۟ ۗ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَٰفِرِينَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَقُولُ ٱئْذَن لِّى وَلَا تَفْتِنِّىٓ ۚ أَلَا فِى ٱلْفِتْنَةِ <a class=\"highlight-text\">سَقَطُوا۟</a> ۗ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَٰفِرِينَ",
+      "derivedForms": [
+        "سَقَطَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 92,
+      "text": "أَوْ تُسْقِطَ ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا",
+      "highlightedHtml": "أَوْ <a class=\"highlight-text\">تُسْقِطَ</a> ٱلسَّمَآءَ كَمَا زَعَمْتَ عَلَيْنَا كِسَفًا أَوْ تَأْتِىَ بِٱللَّهِ وَٱلْمَلَٰٓئِكَةِ قَبِيلًا",
+      "derivedForms": [
+        "تُسْقِط"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 25,
+      "text": "وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ تُسَٰقِطْ عَلَيْكِ رُطَبًا جَنِيًّا",
+      "highlightedHtml": "وَهُزِّىٓ إِلَيْكِ بِجِذْعِ ٱلنَّخْلَةِ <a class=\"highlight-text\">تُسَٰقِطْ</a> عَلَيْكِ رُطَبًا جَنِيًّا",
+      "derivedForms": [
+        "تُساقِط"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 187,
+      "text": "فَأَسْقِطْ عَلَيْنَا كِسَفًا مِّنَ ٱلسَّمَآءِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَسْقِطْ</a> عَلَيْنَا كِسَفًا مِّنَ ٱلسَّمَآءِ إِن كُنتَ مِنَ ٱلصَّٰدِقِينَ",
+      "derivedForms": [
+        "تُسْقِط"
+      ]
+    },
+    {
+      "surah": 34,
+      "ayah": 9,
+      "text": "أَفَلَمْ يَرَوْا۟ إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ إِن نَّشَأْ نَخْسِفْ بِهِمُ ٱلْأَرْضَ أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِّنَ ٱلسَّمَآءِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّكُلِّ عَبْدٍ مُّنِيبٍ",
+      "highlightedHtml": "أَفَلَمْ يَرَوْا۟ إِلَىٰ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُم مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ ۚ إِن نَّشَأْ نَخْسِفْ بِهِمُ ٱلْأَرْضَ أَوْ <a class=\"highlight-text\">نُسْقِطْ</a> عَلَيْهِمْ كِسَفًا مِّنَ ٱلسَّمَآءِ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَةً لِّكُلِّ عَبْدٍ مُّنِيبٍ",
+      "derivedForms": [
+        "تُسْقِط"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 44,
+      "text": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ سَاقِطًا يَقُولُوا۟ سَحَابٌ مَّرْكُومٌ",
+      "highlightedHtml": "وَإِن يَرَوْا۟ كِسْفًا مِّنَ ٱلسَّمَآءِ <a class=\"highlight-text\">سَاقِطًا</a> يَقُولُوا۟ سَحَابٌ مَّرْكُومٌ",
+      "derivedForms": [
+        "ساقِط"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:08.174Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَسْقُطُ is in the derivative form: سَقَطَ",
+    "rootDefinitionHtml": "س/ق/ط   s–q–ṭ falling, falling down, falling off<br>; to stumble upon; to deviate from; the low, base, reject. <br><br>Of this root, 5 forms occur 8 times in the Qur’an:<br> سَقَطَ saqaṭa 2 times; سُقِطَ suqiṭa 1 time; تُساقِط tusāqiṭ 1 time; تُسقِط tusqiṭ 3 times and ساقِط sāqiṭ 1 time.",
+    "mainDefinitionHtml": "سَقَطَ saqaṭa u [v. intrans.; pass. v. سُقِطَ suqiṭa] to fall, to fall down <br><br>(6:59) وَمَا تَسْقُطُ مِنْ وَرَقَةٍ إِلاَّ يَعْلَمُهَا and not a leaf falls, but He knows it; *<br><br>(7:149) سُقِطَ فِى أَيْدِيهِمْ they came to wring their hands in remorse, became regretful, or, confounded [lit. it was made to fall into their hands, a reference, perhaps, to the striking of hands together as a sign of helplessness].",
+    "mainEntryId": "wdef-س-ق-ط.سَقَطَ",
+    "entries": [
+      {
+        "id": "wdef-س-ق-ط",
+        "label": "س-ق-ط",
+        "definitionHtml": "س/ق/ط   s–q–ṭ falling, falling down, falling off<br>; to stumble upon; to deviate from; the low, base, reject. <br><br>Of this root, 5 forms occur 8 times in the Qur’an:<br> سَقَطَ saqaṭa 2 times; سُقِطَ suqiṭa 1 time; تُساقِط tusāqiṭ 1 time; تُسقِط tusqiṭ 3 times and ساقِط sāqiṭ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ط.سَقَطَ",
+        "label": "سَقَطَ",
+        "definitionHtml": "سَقَطَ saqaṭa u [v. intrans.; pass. v. سُقِطَ suqiṭa] to fall, to fall down <br><br>(6:59) وَمَا تَسْقُطُ مِنْ وَرَقَةٍ إِلاَّ يَعْلَمُهَا and not a leaf falls, but He knows it; *<br><br>(7:149) سُقِطَ فِى أَيْدِيهِمْ they came to wring their hands in remorse, became regretful, or, confounded [lit. it was made to fall into their hands, a reference, perhaps, to the striking of hands together as a sign of helplessness].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ق-ط.تُساقِط",
+        "label": "تُساقِط",
+        "definitionHtml": "تُساقِط tusāqiṭ [imperf. of v. III, trans.] to drop in a sequence, one after another, to cause to trail, to shower <br><br>(19:25) وَهُزِّي إِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسَاقِطْ عَلَيْكِ رُطَبًا جَنِيًّا and shake the trunk of the palm tree towards you, it will shower upon you ripe dates.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ط.تُسْقِط",
+        "label": "تُسْقِط",
+        "definitionHtml": "تُسْقِط tusqiṭ [imperf. of v. IV, trans.] to cause to fall down, to drop <br><br>(34:9) أَوْ نُسْقِطْ عَلَيْهِمْ كِسَفًا مِنَ السَّمَاءِ or make fragments from the heavens fall down upon them.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ق-ط.ساقِط",
+        "label": "ساقِط",
+        "definitionHtml": "ساقِط sāqiṭ [act. part.] falling down <br><br>(52:44) وَإِنْ يَرَوْا كِسْفًا مِنَ السَّمَاءِ سَاقِطًا يَقُولُوا سَحَابٌ مَرْكُومٌ and [even] if they were to see a piece of heaven falling down, they would say, ‘[A mere] heap of clouds.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:22.444Z",
+      "refword": "6:59:14",
+      "lexword": "تَسْقُطُ"
+    }
+  }
+}

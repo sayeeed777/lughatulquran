@@ -1,0 +1,148 @@
+{
+  "root": "غيث",
+  "rootArabic": "غيث",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "الغيث",
+      "count": 3
+    },
+    {
+      "form": "يُغاث",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُغاث",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الغيث",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الغيث",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الغيث",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 49,
+      "text": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ يُغَاثُ ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
+      "highlightedHtml": "ثُمَّ يَأْتِى مِنۢ بَعْدِ ذَٰلِكَ عَامٌ فِيهِ <a class=\"highlight-text\">يُغَاثُ</a> ٱلنَّاسُ وَفِيهِ يَعْصِرُونَ",
+      "derivedForms": [
+        "يُغاث"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 34,
+      "text": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ ٱلْغَيْثَ وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ عِندَهُۥ عِلْمُ ٱلسَّاعَةِ وَيُنَزِّلُ <a class=\"highlight-text\">ٱلْغَيْثَ</a> وَيَعْلَمُ مَا فِى ٱلْأَرْحَامِ ۖ وَمَا تَدْرِى نَفْسٌ مَّاذَا تَكْسِبُ غَدًا ۖ وَمَا تَدْرِى نَفْسٌۢ بِأَىِّ أَرْضٍ تَمُوتُ ۚ إِنَّ ٱللَّهَ عَلِيمٌ خَبِيرٌۢ",
+      "derivedForms": [
+        "الغيث"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 28,
+      "text": "وَهُوَ ٱلَّذِى يُنَزِّلُ ٱلْغَيْثَ مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى يُنَزِّلُ <a class=\"highlight-text\">ٱلْغَيْثَ</a> مِنۢ بَعْدِ مَا قَنَطُوا۟ وَيَنشُرُ رَحْمَتَهُۥ ۚ وَهُوَ ٱلْوَلِىُّ ٱلْحَمِيدُ",
+      "derivedForms": [
+        "الغيث"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 20,
+      "text": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ غَيْثٍ أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "highlightedHtml": "ٱعْلَمُوٓا۟ أَنَّمَا ٱلْحَيَوٰةُ ٱلدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌۢ بَيْنَكُمْ وَتَكَاثُرٌ فِى ٱلْأَمْوَٰلِ وَٱلْأَوْلَٰدِ ۖ كَمَثَلِ <a class=\"highlight-text\">غَيْثٍ</a> أَعْجَبَ ٱلْكُفَّارَ نَبَاتُهُۥ ثُمَّ يَهِيجُ فَتَرَىٰهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَٰمًا ۖ وَفِى الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ ٱللَّهِ وَرِضْوَٰنٌ ۚ وَمَا ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا مَتَٰعُ ٱلْغُرُورِ",
+      "derivedForms": [
+        "الغيث"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:21.560Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) passive imperfect verb",
+    "derivativeNote": "يُغَاثُ is in the derivative form: يُغاث",
+    "rootDefinitionHtml": "غ/ي/ث gh–y–th rain, to rain, to be given rain; herbage, pasture. Considering the uncertainty surrounding w (و) and y (ى) when they function as radicals, there is a connection and a degree of overlapping between this root and the rootث /و/غ gh–w–th (q.v.) resulting in classifying يُغاث yughāth here but classifyingيُغاثوا yughāthū under ث/و/غ gh–w–th. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يُغاث yughāth 1 time and الغَيث ʾal‐ghayth 3 times.",
+    "mainDefinitionHtml": "يُغاث yughāth [imperf. pass. v.] to be relieved [with rain and pasture] <br><br>(12:49) عَامٌ فِيهِ‏ ‏يُغَاثُ‏ ‏النَّاسُ‏ ‏a year when the people will be relieved with abundant rain.",
+    "mainEntryId": "wdef-غ-ي-ث.يُغاث",
+    "entries": [
+      {
+        "id": "wdef-غ-ي-ث",
+        "label": "غ-ي-ث",
+        "definitionHtml": "غ/ي/ث gh–y–th rain, to rain, to be given rain; herbage, pasture. Considering the uncertainty surrounding w (و) and y (ى) when they function as radicals, there is a connection and a degree of overlapping between this root and the rootث /و/غ gh–w–th (q.v.) resulting in classifying يُغاث yughāth here but classifyingيُغاثوا yughāthū under ث/و/غ gh–w–th. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يُغاث yughāth 1 time and الغَيث ʾal‐ghayth 3 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ي-ث.يُغاث",
+        "label": "يُغاث",
+        "definitionHtml": "يُغاث yughāth [imperf. pass. v.] to be relieved [with rain and pasture] <br><br>(12:49) عَامٌ فِيهِ‏ ‏يُغَاثُ‏ ‏النَّاسُ‏ ‏a year when the people will be relieved with abundant rain.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ي-ث.الغيث",
+        "label": "الغيث",
+        "definitionHtml": "الغيث ʾal‐ghayth [n.] rain (particularly at the time of drought) <br><br>(42:28) وَهُوَ الَّذِي يُنَزِّلُ الْغَيْثَ مِنْ بَعْدِ مَا قَنَطُوا وَيَنْشُرُ رَحْمَتَهُ He it is who sends rain after they have lost hope, and spreads His Mercy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:26.232Z",
+      "refword": "12:49:8",
+      "lexword": "يُغَاثُ"
+    }
+  }
+}

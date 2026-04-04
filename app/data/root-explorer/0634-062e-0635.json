@@ -1,0 +1,106 @@
+{
+  "root": "شخص",
+  "rootArabic": "شخص",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَشْخَصُ",
+      "count": 1
+    },
+    {
+      "form": "شاخِصةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَشْخَصُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شاخِصةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 42,
+      "text": "وَلَا تَحْسَبَنَّ ٱللَّهَ غَٰفِلًا عَمَّا يَعْمَلُ ٱلظَّٰلِمُونَ ۚ إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ تَشْخَصُ فِيهِ ٱلْأَبْصَٰرُ",
+      "highlightedHtml": "وَلَا تَحْسَبَنَّ ٱللَّهَ غَٰفِلًا عَمَّا يَعْمَلُ ٱلظَّٰلِمُونَ ۚ إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ <a class=\"highlight-text\">تَشْخَصُ</a> فِيهِ ٱلْأَبْصَٰرُ",
+      "derivedForms": [
+        "تَشْخَصُ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 97,
+      "text": "وَٱقْتَرَبَ ٱلْوَعْدُ ٱلْحَقُّ فَإِذَا هِىَ شَٰخِصَةٌ أَبْصَٰرُ ٱلَّذِينَ كَفَرُوا۟ يَٰوَيْلَنَا قَدْ كُنَّا فِى غَفْلَةٍ مِّنْ هَٰذَا بَلْ كُنَّا ظَٰلِمِينَ",
+      "highlightedHtml": "وَٱقْتَرَبَ ٱلْوَعْدُ ٱلْحَقُّ فَإِذَا هِىَ <a class=\"highlight-text\">شَٰخِصَةٌ</a> أَبْصَٰرُ ٱلَّذِينَ كَفَرُوا۟ يَٰوَيْلَنَا قَدْ كُنَّا فِى غَفْلَةٍ مِّنْ هَٰذَا بَلْ كُنَّا ظَٰلِمِينَ",
+      "derivedForms": [
+        "شاخِصةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:54.852Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَشْخَصُ is in the derivative form: تَشْخَصُ",
+    "rootDefinitionHtml": "ش/خ/ص   sh–kh–ṣ the body of a being, prominently elevated entity; to materialise; (of eyes) to be transfixed, to be fixedly open (in terror); to raise; to go forth. <br><br>Of this root, 2 forms occur, 1 time each in the Qur’an:<br> تَشْخَصُ tashkhaṣ and شاخِصةٌ shākhiṣatun.",
+    "mainDefinitionHtml": "تَشْخَصُ tashkhaṣ [imperf. of v. شَخَصَ shakhaṣa] (of eyes) to be transfixed, glazed, staring in horror <br><br>(14:42) إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ تَشْخَصُ فِيهِ الأَبْصَارُ He is only delaying them for a Day when eyes will stare in stupor [in terror].",
+    "mainEntryId": "wdef-ش-خ-ص.تَشْخَصُ",
+    "entries": [
+      {
+        "id": "wdef-ش-خ-ص",
+        "label": "ش-خ-ص",
+        "definitionHtml": "ش/خ/ص   sh–kh–ṣ the body of a being, prominently elevated entity; to materialise; (of eyes) to be transfixed, to be fixedly open (in terror); to raise; to go forth. <br><br>Of this root, 2 forms occur, 1 time each in the Qur’an:<br> تَشْخَصُ tashkhaṣ and شاخِصةٌ shākhiṣatun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-خ-ص.تَشْخَصُ",
+        "label": "تَشْخَصُ",
+        "definitionHtml": "تَشْخَصُ tashkhaṣ [imperf. of v. شَخَصَ shakhaṣa] (of eyes) to be transfixed, glazed, staring in horror <br><br>(14:42) إِنَّمَا يُؤَخِّرُهُمْ لِيَوْمٍ تَشْخَصُ فِيهِ الأَبْصَارُ He is only delaying them for a Day when eyes will stare in stupor [in terror].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-خ-ص.شاخِصةٌ",
+        "label": "شاخِصةٌ",
+        "definitionHtml": "شاخِصةٌ shākhiṣatun [quasi‐act. part.] staring in horror <br><br>(21:97) وَاقْتَرَبَ الْوَعْدُ الْحَقُّ فَإِذَا هِيَ شَاخِصَةٌ أَبْصَارُ الَّذِينَ كَفَرُوا and the True Promise draws near, and there, staring [in terror], are the eyes of the disbelievers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:54.009Z",
+      "refword": "14:42:11",
+      "lexword": "تَشْخَصُ"
+    }
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "root": "لحد",
+  "rootArabic": "لحد",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "يُلْحِد",
+      "count": 3
+    },
+    {
+      "form": "مُلْتَحَد",
+      "count": 2
+    },
+    {
+      "form": "إلْحَاد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُلْحِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُلْحِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُلْتَحَد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إلْحَاد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُلْحِد",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُلْتَحَد",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 180,
+      "text": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ يُلْحِدُونَ فِىٓ أَسْمَٰٓئِهِۦ ۚ سَيُجْزَوْنَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "highlightedHtml": "وَلِلَّهِ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ فَٱدْعُوهُ بِهَا ۖ وَذَرُوا۟ ٱلَّذِينَ <a class=\"highlight-text\">يُلْحِدُونَ</a> فِىٓ أَسْمَٰٓئِهِۦ ۚ سَيُجْزَوْنَ مَا كَانُوا۟ يَعْمَلُونَ",
+      "derivedForms": [
+        "يُلْحِد"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 103,
+      "text": "وَلَقَدْ نَعْلَمُ أَنَّهُمْ يَقُولُونَ إِنَّمَا يُعَلِّمُهُۥ بَشَرٌ ۗ لِّسَانُ ٱلَّذِى يُلْحِدُونَ إِلَيْهِ أَعْجَمِىٌّ وَهَٰذَا لِسَانٌ عَرَبِىٌّ مُّبِينٌ",
+      "highlightedHtml": "وَلَقَدْ نَعْلَمُ أَنَّهُمْ يَقُولُونَ إِنَّمَا يُعَلِّمُهُۥ بَشَرٌ ۗ لِّسَانُ ٱلَّذِى <a class=\"highlight-text\">يُلْحِدُونَ</a> إِلَيْهِ أَعْجَمِىٌّ وَهَٰذَا لِسَانٌ عَرَبِىٌّ مُّبِينٌ",
+      "derivedForms": [
+        "يُلْحِد"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 27,
+      "text": "وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
+      "highlightedHtml": "وَٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِن كِتَابِ رَبِّكَ ۖ لَا مُبَدِّلَ لِكَلِمَٰتِهِۦ وَلَن تَجِدَ مِن دُونِهِۦ <a class=\"highlight-text\">مُلْتَحَدًا</a>",
+      "derivedForms": [
+        "مُلْتَحَد"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 25,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَٰهُ لِلنَّاسِ سَوَآءً سَوَآءً ٱلْعَٰكِفُ فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ بِإِلْحَادٍۭ بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ وَٱلْمَسْجِدِ ٱلْحَرَامِ ٱلَّذِى جَعَلْنَٰهُ لِلنَّاسِ سَوَآءً سَوَآءً ٱلْعَٰكِفُ فِيهِ وَٱلْبَادِ ۚ وَمَن يُرِدْ فِيهِ <a class=\"highlight-text\">بِإِلْحَادٍۭ</a> بِظُلْمٍ نُّذِقْهُ مِنْ عَذَابٍ أَلِيمٍ",
+      "derivedForms": [
+        "إلْحَاد"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 40,
+      "text": "إِنَّ ٱلَّذِينَ يُلْحِدُونَ فِىٓ آيَاتِنَا لَا يَخْفَوْنَ عَلَيْنَآ ۗ أَفَمَن يُلْقَىٰ فِى ٱلنَّارِ خَيْرٌ أَم مَّن يَأْتِىٓ آمِنًا يَوْمَ ٱلْقِيَٰمَةِ ۚ ٱعْمَلُوا۟ مَا شِئْتُمْ ۖ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ <a class=\"highlight-text\">يُلْحِدُونَ</a> فِىٓ آيَاتِنَا لَا يَخْفَوْنَ عَلَيْنَآ ۗ أَفَمَن يُلْقَىٰ فِى ٱلنَّارِ خَيْرٌ أَم مَّن يَأْتِىٓ آمِنًا يَوْمَ ٱلْقِيَٰمَةِ ۚ ٱعْمَلُوا۟ مَا شِئْتُمْ ۖ إِنَّهُۥ بِمَا تَعْمَلُونَ بَصِيرٌ",
+      "derivedForms": [
+        "يُلْحِد"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 22,
+      "text": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ مُلْتَحَدًا",
+      "highlightedHtml": "قُلْ إِنِّى لَن يُجِيرَنِى مِنَ ٱللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِۦ <a class=\"highlight-text\">مُلْتَحَدًا</a>",
+      "derivedForms": [
+        "مُلْتَحَد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:23.465Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) imperfect verb",
+    "derivativeNote": "يُلْحِدُونَ is in the derivative form: يُلْحِد",
+    "rootDefinitionHtml": "ل/ح/د   l–ḥ–d shelf in 1 side of a grave, to bury on such a shelf<br>; to deviate, to stray from the straight course, deviant; to object to, to contradict, to profane, to violate; place of refuge, to seek refuge. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> يُلْحِدُون yulḥidūn 3 times; إلْحَاد ʾilḥād 1 time andمُلْتَحَد multaḥad 2 times.",
+    "mainDefinitionHtml": "يُلْحِد yulḥid [imperf. of v. IV ʾalḥada, intrans.] <br><br><strong>1 </strong>to allude to, to insinuate <br><br>(16:103) أَعْجَمِيٌّ‏ ‏ ‏لِسَانُ‏ ‏الَّذِي‏ ‏يُلْحِدُونَ‏ ‏إِلَيْهِ‏the language of the person they allude to is foreign <br><br><strong>2 </strong>to distort, to pervert <br><br>(41:40)‏إِنَّ‏ ‏الَّذِينَ‏ ‏يُلْحِدُونَ‏ ‏فِى ءَايَاتِنَا‏ ‏لاَ ‏يَخْفَوْنَ‏ ‏عَلَيْنَا‏ those who distort Our revelations are not hidden from Us.",
+    "mainEntryId": "wdef-ل-ح-د.يُلْحِد",
+    "entries": [
+      {
+        "id": "wdef-ل-ح-د",
+        "label": "ل-ح-د",
+        "definitionHtml": "ل/ح/د   l–ḥ–d shelf in 1 side of a grave, to bury on such a shelf<br>; to deviate, to stray from the straight course, deviant; to object to, to contradict, to profane, to violate; place of refuge, to seek refuge. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> يُلْحِدُون yulḥidūn 3 times; إلْحَاد ʾilḥād 1 time andمُلْتَحَد multaḥad 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ح-د.يُلْحِد",
+        "label": "يُلْحِد",
+        "definitionHtml": "يُلْحِد yulḥid [imperf. of v. IV ʾalḥada, intrans.] <br><br><strong>1 </strong>to allude to, to insinuate <br><br>(16:103) أَعْجَمِيٌّ‏ ‏ ‏لِسَانُ‏ ‏الَّذِي‏ ‏يُلْحِدُونَ‏ ‏إِلَيْهِ‏the language of the person they allude to is foreign <br><br><strong>2 </strong>to distort, to pervert <br><br>(41:40)‏إِنَّ‏ ‏الَّذِينَ‏ ‏يُلْحِدُونَ‏ ‏فِى ءَايَاتِنَا‏ ‏لاَ ‏يَخْفَوْنَ‏ ‏عَلَيْنَا‏ those who distort Our revelations are not hidden from Us.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ح-د.إلْحَاد",
+        "label": "إلْحَاد",
+        "definitionHtml": "إلْحَاد ʾilḥād [v. n./n.] profaning, desecrating, violating <br><br>(22:25) ‏‏وَمَنْ‏ ‏يُرِدْ‏ ‏فِيهِ‏ ‏بِإِلْحَادٍ بِظُلْمٍ‏ and whoever intends to violate it [the Sacred Mosque] with wrongdoing.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ح-د.مُلْتَحَد",
+        "label": "مُلْتَحَد",
+        "definitionHtml": "مُلْتَحَد multaḥad [n. of place] place of refuge, sanctuary <br><br>(72:22) قُلْ إِنِّي لَن يُجِيرَنِي مِنَ اللَّهِ أَحَدٌ وَلَنْ أَجِدَ مِن دُونِهِ مُلْتَحَدًا‏ say, ‘No one will protect me from God, and I will not find away from Him any refuge.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:04.681Z",
+      "refword": "7:180:8",
+      "lexword": "يُلْحِدُونَ"
+    }
+  }
+}

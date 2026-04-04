@@ -1,0 +1,326 @@
+{
+  "root": "كنن",
+  "rootArabic": "كنن",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 4,
+    "surahCount": 11,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "أكِْنَّةٌ",
+      "count": 4
+    },
+    {
+      "form": "مَكْنُون",
+      "count": 4
+    },
+    {
+      "form": "أكَْنَّ",
+      "count": 3
+    },
+    {
+      "form": "أكْنَان",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكَْنَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكِْنَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكْنَان",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكِْنَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكِْنَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكَْنَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكَْنَّ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أكِْنَّةٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَكْنُون",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَكْنُون",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 235,
+      "text": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ <a class=\"highlight-text\">أَكْنَنتُمْ</a> فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "أكَْنَّ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 25,
+      "text": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ ۖ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا ۚ حَتَّىٰٓ إِذَا جَآءُوكَ يُجَٰدِلُونَكَ يَقُولُ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَمِنْهُم مَّن يَسْتَمِعُ إِلَيْكَ ۖ وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ <a class=\"highlight-text\">أَكِنَّةً</a> أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا ۚ حَتَّىٰٓ إِذَا جَآءُوكَ يُجَٰدِلُونَكَ يَقُولُ ٱلَّذِينَ كَفَرُوٓا۟ إِنْ هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "أكِْنَّةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 81,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ <a class=\"highlight-text\">أَكْنَٰنًا</a> وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "derivedForms": [
+        "أكْنَان"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 46,
+      "text": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًا",
+      "highlightedHtml": "وَجَعَلْنَا عَلَىٰ قُلُوبِهِمْ <a class=\"highlight-text\">أَكِنَّةً</a> أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۚ وَإِذَا ذَكَرْتَ رَبَّكَ فِى ٱلْقُرْءَانِ وَحْدَهُۥ وَلَّوْا۟ عَلَىٰٓ أَدْبَٰرِهِمْ نُفُورًا",
+      "derivedForms": [
+        "أكِْنَّةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 57,
+      "text": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ أَكِنَّةً أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا",
+      "highlightedHtml": "وَمَنْ أَظْلَمُ مِمَّن ذُكِّرَ بِـَٔايَٰتِ رَبِّهِۦ فَأَعْرَضَ عَنْهَا وَنَسِىَ مَا قَدَّمَتْ يَدَاهُ ۚ إِنَّا جَعَلْنَا عَلَىٰ قُلُوبِهِمْ <a class=\"highlight-text\">أَكِنَّةً</a> أَن يَفْقَهُوهُ وَفِىٓ آذَانِهِمْ وَقْرًا ۖ وَإِن تَدْعُهُمْ إِلَى ٱلْهُدَىٰ فَلَن يَهْتَدُوٓا۟ إِذًا أَبَدًا",
+      "derivedForms": [
+        "أكِْنَّةٌ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 74,
+      "text": "وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
+      "highlightedHtml": "وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا <a class=\"highlight-text\">تُكِنُّ</a> صُدُورُهُمْ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
+      "derivedForms": [
+        "أكَْنَّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 69,
+      "text": "وَرَبُّكَ يَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
+      "highlightedHtml": "وَرَبُّكَ يَعْلَمُ مَا <a class=\"highlight-text\">تُكِنُّ</a> صُدُورُهُمْ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
+      "derivedForms": [
+        "أكَْنَّ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 49,
+      "text": "كَأَنَّهُنَّ بَيْضٌ مَّكْنُونٌ",
+      "highlightedHtml": "كَأَنَّهُنَّ بَيْضٌ <a class=\"highlight-text\">مَّكْنُونٌ</a>",
+      "derivedForms": [
+        "مَكْنُون"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 5,
+      "text": "وَقَالُوا۟ قُلُوبُنَا فِىٓ أَكِنَّةٍ مِّمَّا تَدْعُونَآ إِلَيْهِ وَفِىٓ آذَانِنَا وَقْرٌ وَمِنۢ بَيْنِنَا وَبَيْنِكَ حِجَابٌ فَٱعْمَلْ إِنَّنَا عَٰمِلُونَ",
+      "highlightedHtml": "وَقَالُوا۟ قُلُوبُنَا فِىٓ <a class=\"highlight-text\">أَكِنَّةٍ</a> مِّمَّا تَدْعُونَآ إِلَيْهِ وَفِىٓ آذَانِنَا وَقْرٌ وَمِنۢ بَيْنِنَا وَبَيْنِكَ حِجَابٌ فَٱعْمَلْ إِنَّنَا عَٰمِلُونَ",
+      "derivedForms": [
+        "أكِْنَّةٌ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 24,
+      "text": "وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ لَّهُمْ كَأَنَّهُمْ لُؤْلُؤٌ مَّكْنُونٌ",
+      "highlightedHtml": "وَيَطُوفُ عَلَيْهِمْ غِلْمَانٌ لَّهُمْ كَأَنَّهُمْ لُؤْلُؤٌ <a class=\"highlight-text\">مَّكْنُونٌ</a>",
+      "derivedForms": [
+        "مَكْنُون"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 23,
+      "text": "كَأَمْثَٰلِ ٱللُّؤْلُؤِ ٱلْمَكْنُونِ",
+      "highlightedHtml": "كَأَمْثَٰلِ ٱللُّؤْلُؤِ <a class=\"highlight-text\">ٱلْمَكْنُونِ</a>",
+      "derivedForms": [
+        "مَكْنُون"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 78,
+      "text": "فِى كِتَٰبٍ مَّكْنُونٍ",
+      "highlightedHtml": "فِى كِتَٰبٍ <a class=\"highlight-text\">مَّكْنُونٍ</a>",
+      "derivedForms": [
+        "مَكْنُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:08.854Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) perfect verb",
+    "derivativeNote": "أَكْنَنتُمْ is in the derivative form: أكَْنَّ",
+    "rootDefinitionHtml": "ك/ن/ن   k–n–n to conceal, to shelter, to protect<br>; to value; quiver (for arrows); daughter‐in‐law; shelter, hide‐out, nest; to abate; awning. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> أكَْنَّ ʾakanna 3 times; أكْنَان ʾaknān 1 time; أكِْنَّةٌ ʾakinnatun 4 times and مَكْنُون maknūn 4 times.",
+    "mainDefinitionHtml": "أكَْنَّ ʾakanna [v. IV, trans] to conceal, to hide <br><br>(27:74) وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ and indeed, your Lord knows what their hearts conceal and what they reveal.",
+    "mainEntryId": "wdef-ك-ن-ن.أكَْنَّ",
+    "entries": [
+      {
+        "id": "wdef-ك-ن-ن",
+        "label": "ك-ن-ن",
+        "definitionHtml": "ك/ن/ن   k–n–n to conceal, to shelter, to protect<br>; to value; quiver (for arrows); daughter‐in‐law; shelter, hide‐out, nest; to abate; awning. <br><br>Of this root, 4 forms occur 12 times in the Qur’an:<br> أكَْنَّ ʾakanna 3 times; أكْنَان ʾaknān 1 time; أكِْنَّةٌ ʾakinnatun 4 times and مَكْنُون maknūn 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ن-ن.أكَْنَّ",
+        "label": "أكَْنَّ",
+        "definitionHtml": "أكَْنَّ ʾakanna [v. IV, trans] to conceal, to hide <br><br>(27:74) وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ and indeed, your Lord knows what their hearts conceal and what they reveal.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ن-ن.أكْنَان",
+        "label": "أكْنَان",
+        "definitionHtml": "أكْنَان ʾaknān [pl. of n. كِنّ kinn] shelters, hide‐outs, places of refuge <br><br>(16:81) وَجَعَلَ لَكُمْ مِنَ الْجِبَالِ أَكْنَانًا and He has made for you from the mountains places of shelter.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ن-ن.أكِْنَّةٌ",
+        "label": "أكِْنَّةٌ",
+        "definitionHtml": "أكِْنَّةٌ ʾakinnatun [pl. of n. كِنّ kinn] concealments, coverings, encasings <br><br>(41:5) وَقَالُوا قُلُوبُنَا فِى أَكِنَّةٍ مِمَّا تَدْعُونَا إِلَيْهِ and they say, ‘Our hearts are encased against what [the faith] you call us to.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ن-ن.مَكْنُون",
+        "label": "مَكْنُون",
+        "definitionHtml": "مَكْنُون maknūn [quasi‐act. part.] closely kept, treasured, hidden, well‐guarded, highly valued <br><br>(56:23) كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ like treasured pearls.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:38.207Z",
+      "refword": "2:235:11",
+      "lexword": "أَكْنَنتُمْ"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "root": "حظر",
+  "rootArabic": "حظر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مُحْتَظِرٌ",
+      "count": 1
+    },
+    {
+      "form": "مَحْظُورٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَحْظُورٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُحْتَظِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 20,
+      "text": "كُلًّا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ مَحْظُورًا",
+      "highlightedHtml": "كُلًّا نُّمِدُّ هَٰٓؤُلَآءِ وَهَٰٓؤُلَآءِ مِنْ عَطَآءِ رَبِّكَ ۚ وَمَا كَانَ عَطَآءُ رَبِّكَ <a class=\"highlight-text\">مَحْظُورًا</a>",
+      "derivedForms": [
+        "مَحْظُورٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 31,
+      "text": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَٰحِدَةً فَكَانُوا۟ كَهَشِيمِ ٱلْمُحْتَظِرِ",
+      "highlightedHtml": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَٰحِدَةً فَكَانُوا۟ كَهَشِيمِ <a class=\"highlight-text\">ٱلْمُحْتَظِرِ</a>",
+      "derivedForms": [
+        "مُحْتَظِرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:25.193Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite passive participle",
+    "derivativeNote": "مَحْظُورًا is in the derivative form: مَحْظُورٌ",
+    "rootDefinitionHtml": "ح/ظ/ر   ḥ–ẓ–r enclosure, animal pen, barn, to fence in; to prohibit; ban. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> مَحْظُورٌ maḥẓūr and مُحْتَظِرٌ muḥtaẓir.",
+    "mainDefinitionHtml": "مَحْظُورٌ maḥẓūr [pass. part.] limited, prevented, stopped, restricted <br><br>(17:20) كُلا نُمِدُّ هَؤُلاَءِ وَهَؤُلاَءِ مِنْ عَطَاءِ رَبِّكَ وَمَا كَانَ عَطَاءُ رَبِّكَ مَحْظُورًا to both, We give of your Lord’s bounty, your Lord’s bounty is not restricted.",
+    "mainEntryId": "wdef-ح-ظ-ر.مَحْظُورٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-ظ-ر",
+        "label": "ح-ظ-ر",
+        "definitionHtml": "ح/ظ/ر   ḥ–ẓ–r enclosure, animal pen, barn, to fence in; to prohibit; ban. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> مَحْظُورٌ maḥẓūr and مُحْتَظِرٌ muḥtaẓir.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ظ-ر.مَحْظُورٌ",
+        "label": "مَحْظُورٌ",
+        "definitionHtml": "مَحْظُورٌ maḥẓūr [pass. part.] limited, prevented, stopped, restricted <br><br>(17:20) كُلا نُمِدُّ هَؤُلاَءِ وَهَؤُلاَءِ مِنْ عَطَاءِ رَبِّكَ وَمَا كَانَ عَطَاءُ رَبِّكَ مَحْظُورًا to both, We give of your Lord’s bounty, your Lord’s bounty is not restricted.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ظ-ر.مُحْتَظِرٌ",
+        "label": "مُحْتَظِرٌ",
+        "definitionHtml": "مُحْتَظِرٌ muḥtaẓir [act. part.] one who has/takes/constructs an enclosure for animals; animal fodder <br><br>(54:31) إِنَّا أَرْسَلْنَا عَلَيْهِمْ صَيْحَةً وَاحِدَةً فَكَانُوا كَهَشِيمِ الْمُحْتَظِرِ We sent a single cry against them, and they became like dry sticks of a pen‐builder.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:17.170Z",
+      "refword": "17:20:12",
+      "lexword": "مَحْظُورًا"
+    }
+  }
+}

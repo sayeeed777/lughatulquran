@@ -1,0 +1,74 @@
+{
+  "root": "سفع",
+  "rootArabic": "سفع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نسفع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 96,
+      "surahName": "Al-'Alaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نسفع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 96,
+      "ayah": 15,
+      "text": "كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ",
+      "highlightedHtml": "كَلَّا لَئِن لَّمْ يَنتَهِ <a class=\"highlight-text\">لَنَسْفَعًۢا</a> بِٱلنَّاصِيَةِ",
+      "derivedForms": [
+        "نسفع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:04.041Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural imperfect verb",
+    "derivativeNote": "لَنَسْفَعًۢا is in the derivative form: نسفع",
+    "rootDefinitionHtml": "س/ف/ع   s–f–ʿ to taint black with other colours (in particular white), to slap with the open hand or (of a bird) with a wing; to drag along. Of this root, only نَسْفَع nasfaʿ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "نسفع nasfaʿ [imperf. of v. سَفِع safiʿa, intrans.] to drag, to seize, to grab <br><br>(96:15) كَلاَّ لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعَنْ بِالنَّاصِيَةِ no indeed!, if he does not desist, We shall seize [him] by the forelock (or, smack him on the forehead).",
+    "mainEntryId": "wdef-س-ف-ع.نسفع",
+    "entries": [
+      {
+        "id": "wdef-س-ف-ع",
+        "label": "س-ف-ع",
+        "definitionHtml": "س/ف/ع   s–f–ʿ to taint black with other colours (in particular white), to slap with the open hand or (of a bird) with a wing; to drag along. Of this root, only نَسْفَع nasfaʿ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ف-ع.نسفع",
+        "label": "نسفع",
+        "definitionHtml": "نسفع nasfaʿ [imperf. of v. سَفِع safiʿa, intrans.] to drag, to seize, to grab <br><br>(96:15) كَلاَّ لَئِنْ لَمْ يَنْتَهِ لَنَسْفَعَنْ بِالنَّاصِيَةِ no indeed!, if he does not desist, We shall seize [him] by the forelock (or, smack him on the forehead).",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:13.587Z",
+      "refword": "96:15:5",
+      "lexword": "لَنَسْفَعًۢا"
+    }
+  }
+}

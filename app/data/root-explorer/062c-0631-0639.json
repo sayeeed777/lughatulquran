@@ -1,0 +1,74 @@
+{
+  "root": "جرع",
+  "rootArabic": "جرع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَتَجَرَّعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَجَرَّعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 17,
+      "text": "يَتَجَرَّعُهُۥ وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَتَجَرَّعُهُۥ</a> وَلَا يَكَادُ يُسِيغُهُۥ وَيَأْتِيهِ ٱلْمَوْتُ مِن كُلِّ مَكَانٍ وَمَا هُوَ بِمَيِّتٍ ۖ وَمِن وَرَآئِهِۦ عَذَابٌ غَلِيظٌ",
+      "derivedForms": [
+        "يَتَجَرَّعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:00.222Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form V) imperfect verb",
+    "derivativeNote": "يَتَجَرَّعُهُۥ is in the derivative form: يَتَجَرَّعُ",
+    "rootDefinitionHtml": "ج/ر/ع   j–r–ʿ barren land that does not hold water; to drink, to sip, to gulp down, a mouthful of drink. Of this root, يَتَجَرَّعُ yatajarraʿ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَتَجَرَّعُ yatajarraʿ [imperf. of v. V, trans.] to make oneself drink, or gulp down, particularly something unpleasant, in small amounts or one after the other <br><br>(14:17) يَتَجَرَّعُهُ وَلاَ يَكَادُ يُسِيغُهُ he [forces himself to] gulp it down, although scarcely able to swallow it.",
+    "mainEntryId": "wdef-ج-ر-ع.يَتَجَرَّعُ",
+    "entries": [
+      {
+        "id": "wdef-ج-ر-ع",
+        "label": "ج-ر-ع",
+        "definitionHtml": "ج/ر/ع   j–r–ʿ barren land that does not hold water; to drink, to sip, to gulp down, a mouthful of drink. Of this root, يَتَجَرَّعُ yatajarraʿ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ج-ر-ع.يَتَجَرَّعُ",
+        "label": "يَتَجَرَّعُ",
+        "definitionHtml": "يَتَجَرَّعُ yatajarraʿ [imperf. of v. V, trans.] to make oneself drink, or gulp down, particularly something unpleasant, in small amounts or one after the other <br><br>(14:17) يَتَجَرَّعُهُ وَلاَ يَكَادُ يُسِيغُهُ he [forces himself to] gulp it down, although scarcely able to swallow it.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:28:45.159Z",
+      "refword": "14:17:1",
+      "lexword": "يَتَجَرَّعُهُۥ"
+    }
+  }
+}

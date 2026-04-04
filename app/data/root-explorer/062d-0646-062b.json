@@ -1,0 +1,106 @@
+{
+  "root": "حنث",
+  "rootArabic": "حنث",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَحْنَثُ",
+      "count": 1
+    },
+    {
+      "form": "حِنْث",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحْنَثُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حِنْث",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 38,
+      "ayah": 44,
+      "text": "وَخُذْ بِيَدِكَ ضِغْثًا فَٱضْرِب بِّهِۦ وَلَا تَحْنَثْ ۗ إِنَّا وَجَدْنَٰهُ صَابِرًا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
+      "highlightedHtml": "وَخُذْ بِيَدِكَ ضِغْثًا فَٱضْرِب بِّهِۦ وَلَا <a class=\"highlight-text\">تَحْنَثْ</a> ۗ إِنَّا وَجَدْنَٰهُ صَابِرًا ۚ نِّعْمَ ٱلْعَبْدُ ۖ إِنَّهُۥٓ أَوَّابٌ",
+      "derivedForms": [
+        "تَحْنَثُ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 46,
+      "text": "وَكَانُوا۟ يُصِرُّونَ عَلَى ٱلْحِنثِ ٱلْعَظِيمِ",
+      "highlightedHtml": "وَكَانُوا۟ يُصِرُّونَ عَلَى <a class=\"highlight-text\">ٱلْحِنثِ</a> ٱلْعَظِيمِ",
+      "derivedForms": [
+        "حِنْث"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:44.095Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "تَحْنَثْ is in the derivative form: تَحْنَثُ",
+    "rootDefinitionHtml": "ح/ن/ث   ḥ–n–th manhood, maturity; sin, blasphemy, denial of God, wickedness; breaking an oath, perjury; to purify oneself, to worship, responsibility. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَحْنَثُ taḥnath and حِنْث ḥinth.",
+    "mainDefinitionHtml": "تَحْنَثُ taḥnath [imperf. of v. حَنِثَ ḥanitha, intrans. with prep. فى] to break one’s oath, to fail to honour one’s oath <br><br>(38:44) وَخُذْ بِيَدِكَ ضِغْثًا فَاضْرِبْ بِهِ وَلاَ تَحْنَثْ and take in your hand a small bunch of grass, and strike with it, so as not to break your oath.",
+    "mainEntryId": "wdef-ح-ن-ث.تَحْنَثُ",
+    "entries": [
+      {
+        "id": "wdef-ح-ن-ث",
+        "label": "ح-ن-ث",
+        "definitionHtml": "ح/ن/ث   ḥ–n–th manhood, maturity; sin, blasphemy, denial of God, wickedness; breaking an oath, perjury; to purify oneself, to worship, responsibility. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَحْنَثُ taḥnath and حِنْث ḥinth.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ن-ث.تَحْنَثُ",
+        "label": "تَحْنَثُ",
+        "definitionHtml": "تَحْنَثُ taḥnath [imperf. of v. حَنِثَ ḥanitha, intrans. with prep. فى] to break one’s oath, to fail to honour one’s oath <br><br>(38:44) وَخُذْ بِيَدِكَ ضِغْثًا فَاضْرِبْ بِهِ وَلاَ تَحْنَثْ and take in your hand a small bunch of grass, and strike with it, so as not to break your oath.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ن-ث.حِنْث",
+        "label": "حِنْث",
+        "definitionHtml": "حِنْث ḥinth [v. n.; n.] abomination, sinning, breaking one’s oath, denial of God <br><br>(56:46) وَكَانُوا يُصِرُّونَ عَلَى الْحِنْثِ الْعَظِيمِ and they always persisted in great sin.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:50.961Z",
+      "refword": "38:44:7",
+      "lexword": "تَحْنَثْ"
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "root": "زجر",
+  "rootArabic": "زجر",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 5,
+    "surahCount": 3,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "زَجْرةٌ",
+      "count": 2
+    },
+    {
+      "form": "إزْدُجِر",
+      "count": 1
+    },
+    {
+      "form": "زاجِرات",
+      "count": 1
+    },
+    {
+      "form": "زَجْر",
+      "count": 1
+    },
+    {
+      "form": "مُزْدَجَر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "زاجِرات",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "زَجْر",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "زَجْرةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "إزْدُجِر",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُزْدَجَر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "زَجْرةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 2,
+      "text": "فَٱلزَّٰجِرَٰتِ زَجْرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱلزَّٰجِرَٰتِ</a> <a class=\"highlight-text\">زَجْرًا</a>",
+      "derivedForms": [
+        "زاجِرات",
+        "زَجْر"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 19,
+      "text": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ فَإِذَا هُمْ يَنظُرُونَ",
+      "highlightedHtml": "فَإِنَّمَا هِىَ <a class=\"highlight-text\">زَجْرَةٌ</a> وَٰحِدَةٌ فَإِذَا هُمْ يَنظُرُونَ",
+      "derivedForms": [
+        "زَجْرةٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 4,
+      "text": "وَلَقَدْ جَآءَهُم مِّنَ ٱلْأَنۢبَآءِ مَا فِيهِ مُزْدَجَرٌ",
+      "highlightedHtml": "وَلَقَدْ جَآءَهُم مِّنَ ٱلْأَنۢبَآءِ مَا فِيهِ <a class=\"highlight-text\">مُزْدَجَرٌ</a>",
+      "derivedForms": [
+        "مُزْدَجَر"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 9,
+      "text": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا۟ عَبْدَنَا وَقَالُوا۟ مَجْنُونٌ وَٱزْدُجِرَ",
+      "highlightedHtml": "كَذَّبَتْ قَبْلَهُمْ قَوْمُ نُوحٍ فَكَذَّبُوا۟ عَبْدَنَا وَقَالُوا۟ مَجْنُونٌ <a class=\"highlight-text\">وَٱزْدُجِرَ</a>",
+      "derivedForms": [
+        "إزْدُجِر"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 13,
+      "text": "فَإِنَّمَا هِىَ زَجْرَةٌ وَٰحِدَةٌ",
+      "highlightedHtml": "فَإِنَّمَا هِىَ <a class=\"highlight-text\">زَجْرَةٌ</a> وَٰحِدَةٌ",
+      "derivedForms": [
+        "زَجْرةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:59.410Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine plural active participle",
+    "derivativeNote": "فَٱلزَّٰجِرَٰتِ is in the derivative form: زاجِرات",
+    "rootDefinitionHtml": "ز/ج/ر   z–j–r to scold, to rebuke<br>; to forbid, to restrain, to prohibit; to drive away. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> إزْدُجِر ʾizdujir 1 time; مُزْدَجِر muzdajar 1 time; زَجْر zajr 1 time; زَجْرةٌ zajratun 2 times and زاجِرات zājirāt 1 time.",
+    "mainDefinitionHtml": "زاجِرات zājirāt [pl. of act. part. fem. زاجِرةٌ zājiratun] admonisher, one who rebukes, one who repels <br><br>(37:1–2) وَالصَّافَّاتِ صَفًّا فَالزَّاجِرَاتِ زَجْرًا by those ranged in rows, who rebuke reproachfully.",
+    "mainEntryId": "wdef-ز-ج-ر.زاجِرات",
+    "entries": [
+      {
+        "id": "wdef-ز-ج-ر",
+        "label": "ز-ج-ر",
+        "definitionHtml": "ز/ج/ر   z–j–r to scold, to rebuke<br>; to forbid, to restrain, to prohibit; to drive away. <br><br>Of this root, 5 forms occur 6 times in the Qur’an:<br> إزْدُجِر ʾizdujir 1 time; مُزْدَجِر muzdajar 1 time; زَجْر zajr 1 time; زَجْرةٌ zajratun 2 times and زاجِرات zājirāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ج-ر.زاجِرات",
+        "label": "زاجِرات",
+        "definitionHtml": "زاجِرات zājirāt [pl. of act. part. fem. زاجِرةٌ zājiratun] admonisher, one who rebukes, one who repels <br><br>(37:1–2) وَالصَّافَّاتِ صَفًّا فَالزَّاجِرَاتِ زَجْرًا by those ranged in rows, who rebuke reproachfully.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ز-ج-ر.إزْدُجِر",
+        "label": "إزْدُجِر",
+        "definitionHtml": "إزْدُجِر ʾizdujir [pass. of v. VIII] to be rebuked, to be repulsed, to be driven away <br><br>(54:9) فَكَذَّبُوا عَبْدَنَا وَقَالُوا مَجْنُونٌ وَازْدُجِرَ they rejected Our servant, saying, ‘He is possessed!’ and he was repulsed.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ج-ر.زَجْر",
+        "label": "زَجْر",
+        "definitionHtml": "زَجْر zajr [v. n.] scolding, reproaching, repelling <br><br>(37:1–2) وَالصَّافَّاتِ صَفًّا فَالزَّاجِرَاتِ زَجْرًا by those ranged in rows, who rebuke reproachfully.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ج-ر.زَجْرةٌ",
+        "label": "زَجْرةٌ",
+        "definitionHtml": "زَجْرةٌ zajratun [unit. n.] a chasing away; a scolding; a cry <br><br>(37:19) فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ فَإِذَا هُمْ يَنْظُرُونَ it is but a single call and–lo and behold!–they will be [alive] looking around.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ز-ج-ر.مُزْدَجَر",
+        "label": "مُزْدَجَر",
+        "definitionHtml": "مُزْدَجَر muzdajar [v. n.; n. of place] deterring, restraining; lesson to be learned <br><br>(54:4) وَلَقَدْ جَاءَهُمْ مِنَ الأَنْبَاءِ مَا فِيهِ مُزْدَجَرٌ and there have come to them some tidings [of past generations] in which [they should find] a deterrent.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:38:03.546Z",
+      "refword": "37:2:1",
+      "lexword": "فَٱلزَّٰجِرَٰتِ"
+    }
+  }
+}

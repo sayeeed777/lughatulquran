@@ -1,0 +1,653 @@
+{
+  "root": "ظلل",
+  "rootArabic": "ظلل",
+  "stats": {
+    "totalOccurrences": 33,
+    "derivativeCount": 5,
+    "surahCount": 20,
+    "ayahCount": 31
+  },
+  "derivatives": [
+    {
+      "form": "ظِلَّ",
+      "count": 14
+    },
+    {
+      "form": "ظَلَّ",
+      "count": 9
+    },
+    {
+      "form": "ظُلَّةٌ",
+      "count": 6
+    },
+    {
+      "form": "ظَلَّلَ",
+      "count": 2
+    },
+    {
+      "form": "ظَلِيل",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ظُلَّةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "ظَلَّلَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        },
+        {
+          "form": "ظَلِيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ظُلَّةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        },
+        {
+          "form": "ظَلَّلَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 2,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 2,
+          "totalInQuran": 9
+        },
+        {
+          "form": "ظُلَّةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظُلَّةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 35,
+      "surahName": "Al-Fatir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 39,
+      "surahName": "Az-Zumar",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ظُلَّةٌ",
+          "count": 2,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "ظَلَّ",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 76,
+      "surahName": "Al-Insan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 1,
+          "totalInQuran": 14
+        }
+      ]
+    },
+    {
+      "surah": 77,
+      "surahName": "Al-Mursalat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ظِلَّ",
+          "count": 2,
+          "totalInQuran": 14
+        },
+        {
+          "form": "ظَلِيل",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 57,
+      "text": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَظَلَّلْنَا</a> عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "ظَلَّلَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 210,
+      "text": "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى ظُلَلٍ مِّنَ ٱلْغَمَامِ وَٱلْمَلَٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
+      "highlightedHtml": "هَلْ يَنظُرُونَ إِلَّآ أَن يَأْتِيَهُمُ ٱللَّهُ فِى <a class=\"highlight-text\">ظُلَلٍ</a> مِّنَ ٱلْغَمَامِ وَٱلْمَلَٰٓئِكَةُ وَقُضِىَ ٱلْأَمْرُ ۚ وَإِلَى ٱللَّهِ تُرْجَعُ ٱلْأُمُورُ",
+      "derivedForms": [
+        "ظُلَّةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 57,
+      "text": "وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۖ لَّهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ ظِلًّا ظَلِيلًا",
+      "highlightedHtml": "وَٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ سَنُدْخِلُهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ خَٰلِدِينَ فِيهَآ أَبَدًا ۖ لَّهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ ۖ وَنُدْخِلُهُمْ <a class=\"highlight-text\">ظِلًّا</a> <a class=\"highlight-text\">ظَلِيلًا</a>",
+      "derivedForms": [
+        "ظِلَّ",
+        "ظَلِيل"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 160,
+      "text": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "وَقَطَّعْنَٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ <a class=\"highlight-text\">وَظَلَّلْنَا</a> عَلَيْهِمُ ٱلْغَمَٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "ظَلَّلَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 171,
+      "text": "وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ ظُلَّةٌ وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "highlightedHtml": "وَإِذْ نَتَقْنَا ٱلْجَبَلَ فَوْقَهُمْ كَأَنَّهُۥ <a class=\"highlight-text\">ظُلَّةٌ</a> وَظَنُّوٓا۟ أَنَّهُۥ وَاقِعٌۢ بِهِمْ خُذُوا۟ مَآ آتَيْنَاكُمْ بِقُوَّةٍ بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+      "derivedForms": [
+        "ظُلَّةٌ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 15,
+      "text": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا وَظِلَٰلُهُم بِٱلْغُدُوِّ وَٱلْءَاصَالِ ۩",
+      "highlightedHtml": "وَلِلَّهِ يَسْجُدُ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ طَوْعًا وَكَرْهًا <a class=\"highlight-text\">وَظِلَٰلُهُم</a> بِٱلْغُدُوِّ وَٱلْءَاصَالِ ۩",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 35,
+      "text": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ أُكُلُهَا دَآئِمٌ وَظِلُّهَا ۚ تِلْكَ عُقْبَى ٱلَّذِينَ ٱتَّقَوا۟ ۖ وَّعُقْبَى ٱلْكَٰفِرِينَ ٱلنَّارُ",
+      "highlightedHtml": "مَّثَلُ ٱلْجَنَّةِ ٱلَّتِى وُعِدَ ٱلْمُتَّقُونَ ۖ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ ۖ أُكُلُهَا دَآئِمٌ <a class=\"highlight-text\">وَظِلُّهَا</a> ۚ تِلْكَ عُقْبَى ٱلَّذِينَ ٱتَّقَوا۟ ۖ وَّعُقْبَى ٱلْكَٰفِرِينَ ٱلنَّارُ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 14,
+      "text": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ فَظَلُّوا۟ فِيهِ يَعْرُجُونَ",
+      "highlightedHtml": "وَلَوْ فَتَحْنَا عَلَيْهِم بَابًا مِّنَ ٱلسَّمَآءِ <a class=\"highlight-text\">فَظَلُّوا۟</a> فِيهِ يَعْرُجُونَ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 48,
+      "text": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ ظِلَٰلُهُۥ عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "highlightedHtml": "أَوَلَمْ يَرَوْا۟ إِلَىٰ مَا خَلَقَ ٱللَّهُ مِن شَىْءٍ يَتَفَيَّؤُا۟ <a class=\"highlight-text\">ظِلَٰلُهُۥ</a> عَنِ ٱلْيَمِينِ وَٱلشَّمَآئِلِ سُجَّدًا لِّلَّهِ وَهُمْ دَٰخِرُونَ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 58,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ <a class=\"highlight-text\">ظَلَّ</a> وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 81,
+      "text": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ ظِلَٰلًا وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "highlightedHtml": "وَٱللَّهُ جَعَلَ لَكُم مِّمَّا خَلَقَ <a class=\"highlight-text\">ظِلَٰلًا</a> وَجَعَلَ لَكُم مِّنَ ٱلْجِبَالِ أَكْنَٰنًا وَجَعَلَ لَكُمْ سَرَٰبِيلَ سَرَٰبِيلَ سَرَٰبِيلَ تَقِيكُمُ ٱلْحَرَّ وَسَرَٰبِيلَ تَقِيكُم بَأْسَكُمْ ۚ كَذَٰلِكَ يُتِمُّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تُسْلِمُونَ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 97,
+      "text": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "highlightedHtml": "قَالَ فَٱذْهَبْ فَإِنَّ لَكَ فِى ٱلْحَيَوٰةِ أَن تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَّن تُخْلَفَهُۥ ۖ وَٱنظُرْ إِلَىٰٓ إِلَٰهِكَ ٱلَّذِى <a class=\"highlight-text\">ظَلْتَ</a> عَلَيْهِ عَاكِفًا ۖ لَّنُحَرِّقَنَّهُۥ ثُمَّ لَنَنسِفَنَّهُۥ فِى ٱلْيَمِّ نَسْفًا",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 45,
+      "text": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ ٱلظِّلَّ وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًا",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَىٰ رَبِّكَ كَيْفَ مَدَّ <a class=\"highlight-text\">ٱلظِّلَّ</a> وَلَوْ شَآءَ لَجَعَلَهُۥ سَاكِنًا ثُمَّ جَعَلْنَا ٱلشَّمْسَ عَلَيْهِ دَلِيلًا",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 4,
+      "text": "إِن نَّشَأْ نُنَزِّلْ عَلَيْهِم مِّنَ ٱلسَّمَآءِ آيَةً فَظَلَّتْ أَعْنَٰقُهُمْ لَهَا خَٰضِعِينَ",
+      "highlightedHtml": "إِن نَّشَأْ نُنَزِّلْ عَلَيْهِم مِّنَ ٱلسَّمَآءِ آيَةً <a class=\"highlight-text\">فَظَلَّتْ</a> أَعْنَٰقُهُمْ لَهَا خَٰضِعِينَ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 71,
+      "text": "قَالُوا۟ نَعْبُدُ أَصْنَامًا فَنَظَلُّ لَهَا عَٰكِفِينَ",
+      "highlightedHtml": "قَالُوا۟ نَعْبُدُ أَصْنَامًا <a class=\"highlight-text\">فَنَظَلُّ</a> لَهَا عَٰكِفِينَ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 189,
+      "text": "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ ٱلظُّلَّةِ ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ",
+      "highlightedHtml": "فَكَذَّبُوهُ فَأَخَذَهُمْ عَذَابُ يَوْمِ <a class=\"highlight-text\">ٱلظُّلَّةِ</a> ۚ إِنَّهُۥ كَانَ عَذَابَ يَوْمٍ عَظِيمٍ",
+      "derivedForms": [
+        "ظُلَّةٌ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 24,
+      "text": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى ٱلظِّلِّ فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "highlightedHtml": "فَسَقَىٰ لَهُمَا ثُمَّ تَوَلَّىٰٓ إِلَى <a class=\"highlight-text\">ٱلظِّلِّ</a> فَقَالَ رَبِّ إِنِّى لِمَآ أَنزَلْتَ إِلَىَّ مِنْ خَيْرٍ فَقِيرٌ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 51,
+      "text": "وَلَئِنْ أَرْسَلْنَا رِيحًا فَرَأَوْهُ مُصْفَرًّا لَّظَلُّوا۟ مِنۢ بَعْدِهِۦ يَكْفُرُونَ",
+      "highlightedHtml": "وَلَئِنْ أَرْسَلْنَا رِيحًا فَرَأَوْهُ مُصْفَرًّا <a class=\"highlight-text\">لَّظَلُّوا۟</a> مِنۢ بَعْدِهِۦ يَكْفُرُونَ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 32,
+      "text": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "highlightedHtml": "وَإِذَا غَشِيَهُم مَّوْجٌ <a class=\"highlight-text\">كَٱلظُّلَلِ</a> دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "derivedForms": [
+        "ظُلَّةٌ"
+      ]
+    },
+    {
+      "surah": 35,
+      "ayah": 21,
+      "text": "وَلَا ٱلظِّلُّ وَلَا ٱلْحَرُورُ",
+      "highlightedHtml": "وَلَا <a class=\"highlight-text\">ٱلظِّلُّ</a> وَلَا ٱلْحَرُورُ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 56,
+      "text": "هُمْ وَأَزْوَٰجُهُمْ فِى ظِلَٰلٍ عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ",
+      "highlightedHtml": "هُمْ وَأَزْوَٰجُهُمْ فِى <a class=\"highlight-text\">ظِلَٰلٍ</a> عَلَى ٱلْأَرَآئِكِ مُتَّكِـُٔونَ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 39,
+      "ayah": 16,
+      "text": "لَهُم مِّن فَوْقِهِمْ ظُلَلٌ مِّنَ ٱلنَّارِ وَمِن تَحْتِهِمْ ظُلَلٌ ۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥ ۚ يَٰعِبَادِ فَٱتَّقُونِ",
+      "highlightedHtml": "لَهُم مِّن فَوْقِهِمْ <a class=\"highlight-text\">ظُلَلٌ</a> مِّنَ ٱلنَّارِ وَمِن تَحْتِهِمْ <a class=\"highlight-text\">ظُلَلٌ</a> ۚ ذَٰلِكَ يُخَوِّفُ ٱللَّهُ بِهِۦ عِبَادَهُۥ ۚ يَٰعِبَادِ فَٱتَّقُونِ",
+      "derivedForms": [
+        "ظُلَّةٌ",
+        "ظُلَّةٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 33,
+      "text": "إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "highlightedHtml": "إِن يَشَأْ يُسْكِنِ ٱلرِّيحَ <a class=\"highlight-text\">فَيَظْلَلْنَ</a> رَوَاكِدَ عَلَىٰ ظَهْرِهِۦٓ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 17,
+      "text": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "highlightedHtml": "وَإِذَا بُشِّرَ أَحَدُهُم بِمَا ضَرَبَ لِلرَّحْمَٰنِ مَثَلًا <a class=\"highlight-text\">ظَلَّ</a> وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 30,
+      "text": "وَظِلٍّ مَّمْدُودٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَظِلٍّ</a> مَّمْدُودٍ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 43,
+      "text": "وَظِلٍّ مِّن يَحْمُومٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَظِلٍّ</a> مِّن يَحْمُومٍ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 65,
+      "text": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًا فَظَلْتُمْ تَفَكَّهُونَ",
+      "highlightedHtml": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًا <a class=\"highlight-text\">فَظَلْتُمْ</a> تَفَكَّهُونَ",
+      "derivedForms": [
+        "ظَلَّ"
+      ]
+    },
+    {
+      "surah": 76,
+      "ayah": 14,
+      "text": "وَدَانِيَةً عَلَيْهِمْ ظِلَٰلُهَا وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
+      "highlightedHtml": "وَدَانِيَةً عَلَيْهِمْ <a class=\"highlight-text\">ظِلَٰلُهَا</a> وَذُلِّلَتْ قُطُوفُهَا تَذْلِيلًا",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 30,
+      "text": "ٱنطَلِقُوٓا۟ إِلَىٰ ظِلٍّ ذِى ثَلَٰثِ شُعَبٍ",
+      "highlightedHtml": "ٱنطَلِقُوٓا۟ إِلَىٰ <a class=\"highlight-text\">ظِلٍّ</a> ذِى ثَلَٰثِ شُعَبٍ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 31,
+      "text": "لَّا ظَلِيلٍ وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+      "highlightedHtml": "لَّا <a class=\"highlight-text\">ظَلِيلٍ</a> وَلَا يُغْنِى مِنَ ٱللَّهَبِ",
+      "derivedForms": [
+        "ظَلِيل"
+      ]
+    },
+    {
+      "surah": 77,
+      "ayah": 41,
+      "text": "إِنَّ ٱلْمُتَّقِينَ فِى ظِلَٰلٍ وَعُيُونٍ",
+      "highlightedHtml": "إِنَّ ٱلْمُتَّقِينَ فِى <a class=\"highlight-text\">ظِلَٰلٍ</a> وَعُيُونٍ",
+      "derivedForms": [
+        "ظِلَّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:11.364Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form II) perfect verb",
+    "derivativeNote": "وَظَلَّلْنَا is in the derivative form: ظَلَّلَ",
+    "rootDefinitionHtml": "ظ/ل/ل   ẓ–l–l shadow, shade, parasol<br>; shelter, protection, patronage; to seek the shade; to seek protection; to continue doing something by day, to remain. <br><br>Of this root, 7 forms occur 33 times in the Qur’an:<br> ظَلَّ ẓalla 9 times; ظَلَّلَ ẓallala 2 times; ظِلَ ẓill 8 times; ظِلال ẓilāl 6 times; ظُلَّةٌ ẓullatun 2 times; ظُلَل ẓulal 4 times and ظَلِيل ẓalıl 2 times.",
+    "mainDefinitionHtml": "ظَلَّلَ ẓallala [v. II, trans. with prep. عَلَي] to cause something to shade (something) from sunlight <br><br>(2:57) وَظَلَّلْنَا عَلَيْكُمُ الْغَمَامَ and We caused the clouds to shade you.",
+    "mainEntryId": "wdef-ظ-ل-ل.ظَلَّلَ",
+    "entries": [
+      {
+        "id": "wdef-ظ-ل-ل",
+        "label": "ظ-ل-ل",
+        "definitionHtml": "ظ/ل/ل   ẓ–l–l shadow, shade, parasol<br>; shelter, protection, patronage; to seek the shade; to seek protection; to continue doing something by day, to remain. <br><br>Of this root, 7 forms occur 33 times in the Qur’an:<br> ظَلَّ ẓalla 9 times; ظَلَّلَ ẓallala 2 times; ظِلَ ẓill 8 times; ظِلال ẓilāl 6 times; ظُلَّةٌ ẓullatun 2 times; ظُلَل ẓulal 4 times and ظَلِيل ẓalıl 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-ل-ل.ظَلَّلَ",
+        "label": "ظَلَّلَ",
+        "definitionHtml": "ظَلَّلَ ẓallala [v. II, trans. with prep. عَلَي] to cause something to shade (something) from sunlight <br><br>(2:57) وَظَلَّلْنَا عَلَيْكُمُ الْغَمَامَ and We caused the clouds to shade you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ظ-ل-ل.ظَلِيل",
+        "label": "ظَلِيل",
+        "definitionHtml": "ظَلِيل ẓalıl [quasi‐act. part.] shady <br><br>(77:31)‏ لاَ ظَلِيلٍ وَلاَ يُغْنِي مِنَ اللَّهَبِ it is neither shady, nor does it give relief from the flame.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-ل-ل.ظَلَّ",
+        "label": "ظَلَّ",
+        "definitionHtml": "ظَلَّ ẓalla a [one of the verb sisters of كانَ (من أخوات كان) (q.v.), originally meaning ‘to continue doing something all throughout the day’] <br><br><strong>1 </strong>to remain, to continue <br><br>(42:33) إِنْ يَشَأْ يُسْكِنِ الرِّيحَ فَيَظْلَلْنَ رَوَاكِدَ عَلَى ظَهْرِهِ if He wills, He stills the wind, so they stay motionless on its [the sea’s] back <br><br><strong>2 </strong>to become <br><br>(16:58) وَإِذَا بُشِّرَ أَحَدُهُمْ بِالأُنْثَى ظَلَّ وَجْهُهُ مُسْوَدًّا وَهُوَ كَظِيمٌ when one of them is given the [bad] news [lit. good news] of [the birth of] a baby girl, his face becomes dark and he is filled with gloom.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-ل-ل.ظُلَّةٌ",
+        "label": "ظُلَّةٌ",
+        "definitionHtml": "ظُلَّةٌ ẓullatun [n.; pl. ظُلَل ẓulal, also ظُلَّةٌ ẓullatun] <br><br><strong>1 </strong>canopy, awning, an overhead covering <br><br>(7:171) وَإِذْ نَتَقْنَا الْجَبَلَ فَوْقَهُمْ كَأَنَّهُ ظُلَّةٌ and [remember] when We hoisted the mountain high above them as if it were a canopy <br><br><strong>2 </strong>surrounding, entourage <br><br>(2:210) هَلْ يَنْظُرُونَ إِلاَّ أَنْ يَأْتِيَهُمُ اللَّهُ فِى ظُلَلٍ مِنَ الْغَمَامِ وَالْمَلاَئِكَةُ are they awaiting for [anything] other than God )or, His chastisement) to come to them under canopies of clouds and in an entourage of angels.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-ل-ل.ظِلَّ",
+        "label": "ظِلَّ",
+        "definitionHtml": "ظِلَّ ẓill [n.; pl. ظِلال ẓilāl] <br><br><strong>1 </strong>shade <br><br>(28:24) فَسَقَى‏ ‏لَهُمَا‏ ‏ثُمَّ‏ ‏تَوَلَّى‏ ‏إِلَى الظِّلِّ he watered [their flock] for them then withdrew into the shade <br><br><strong>2 </strong>shadow <br><br>(16:48) أَوَلَمْ يَرَوْا إِلَى مَا خَلَقَ اللَّهُ مِنْ شَيْءٍ يَتَفَيَّأُ ظِلاَلُهُ عَنِ الْيَمِينِ وَالشَّمَائِلِ سُجَّدًا لِلَّهِ do they not ponder the fact that whatever things God has created that cast shadows all around [lit. to the right and to the left]–all submit to God [lit. prostrate themselves] <br><br><strong>3 </strong>[also pl. of ظُلَّةٌ ẓullatun] shaded areas; canopies <br><br>(36:56) هُمْ وَأَزْوَاجُهُمْ فِى ظِلاَلٍ عَلَى الأَرَائِكِ مُتَّكِئُونَ they and their spouses will be in shaded areas (or, under canopies)], reclining on couches <br><br><strong>4 </strong>shelter, protection, barrier <br><br>(16:81)‏ وَاللَّهُ جَعَلَ لَكُمْ مِمَّا خَلَقَ ظِلاَلا God has made for you shelters out of what He has created <br><br><strong>5 </strong>an amount of, a touch of (in an interpretation of 56:43) وَظِلٍّ مِنْ يَحْمُومٍ and [in] a touch of black smoke.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:13.736Z",
+      "refword": "2:57:1",
+      "lexword": "وَظَلَّلْنَا"
+    }
+  }
+}

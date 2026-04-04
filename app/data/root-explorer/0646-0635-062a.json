@@ -1,0 +1,95 @@
+{
+  "root": "نصت",
+  "rootArabic": "نصت",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أَنْصِتْ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْصِتْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْصِتْ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 204,
+      "text": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ وَأَنصِتُوا۟ لَعَلَّكُمْ تُرْحَمُونَ",
+      "highlightedHtml": "وَإِذَا قُرِئَ ٱلْقُرْءَانُ فَٱسْتَمِعُوا۟ لَهُۥ <a class=\"highlight-text\">وَأَنصِتُوا۟</a> لَعَلَّكُمْ تُرْحَمُونَ",
+      "derivedForms": [
+        "أَنْصِتْ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 29,
+      "text": "وَإِذْ صَرَفْنَآ صَرَفْنَآ إِلَيْكَ نَفَرًا مِّنَ ٱلْجِنِّ يَسْتَمِعُونَ ٱلْقُرْءَانَ فَلَمَّا حَضَرُوهُ قَالُوٓا۟ أَنصِتُوا۟ ۖ فَلَمَّا قُضِىَ وَلَّوْا۟ إِلَىٰ قَوْمِهِم مُّنذِرِينَ",
+      "highlightedHtml": "وَإِذْ صَرَفْنَآ صَرَفْنَآ إِلَيْكَ نَفَرًا مِّنَ ٱلْجِنِّ يَسْتَمِعُونَ ٱلْقُرْءَانَ فَلَمَّا حَضَرُوهُ قَالُوٓا۟ <a class=\"highlight-text\">أَنصِتُوا۟</a> ۖ فَلَمَّا قُضِىَ وَلَّوْا۟ إِلَىٰ قَوْمِهِم مُّنذِرِينَ",
+      "derivedForms": [
+        "أَنْصِتْ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:28.954Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form IV) imperative verb",
+    "derivativeNote": "وَأَنصِتُوا۟ is in the derivative form: أَنْصِتْ",
+    "rootDefinitionHtml": "ن/ص/ت   n–ṣ–t to listen, to lend an ear to, to accept advice; to be silent, to silence. Of this root, أَنْصِتْ ʾanṣit, occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَنْصِتْ ʾanṣit [imper. of v. IV أَنْصَتَ ʾanṣata] listen, lend an ear, listen in silence <br><br>(7:204) وَإِذَا قُرِئَ الْقُرْءَانُ فَاسْتَمِعُوا لَهُ وَأَنْصِتُواَ when the Qur’an is recited, give ear to it and listen in silence.",
+    "mainEntryId": "wdef-ن-ص-ت.أَنْصِتْ",
+    "entries": [
+      {
+        "id": "wdef-ن-ص-ت",
+        "label": "ن-ص-ت",
+        "definitionHtml": "ن/ص/ت   n–ṣ–t to listen, to lend an ear to, to accept advice; to be silent, to silence. Of this root, أَنْصِتْ ʾanṣit, occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ص-ت.أَنْصِتْ",
+        "label": "أَنْصِتْ",
+        "definitionHtml": "أَنْصِتْ ʾanṣit [imper. of v. IV أَنْصَتَ ʾanṣata] listen, lend an ear, listen in silence <br><br>(7:204) وَإِذَا قُرِئَ الْقُرْءَانُ فَاسْتَمِعُوا لَهُ وَأَنْصِتُواَ when the Qur’an is recited, give ear to it and listen in silence.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:13.563Z",
+      "refword": "7:204:6",
+      "lexword": "وَأَنصِتُوا۟"
+    }
+  }
+}

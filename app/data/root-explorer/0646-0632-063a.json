@@ -1,0 +1,160 @@
+{
+  "root": "نزغ",
+  "rootArabic": "نزغ",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "نَزَغَ",
+      "count": 4
+    },
+    {
+      "form": "نَزْغٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَزَغَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "نَزْغٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَغَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَزَغَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "نَزَغَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "نَزْغٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 200,
+      "text": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَإِمَّا <a class=\"highlight-text\">يَنزَغَنَّكَ</a> مِنَ ٱلشَّيْطَٰنِ <a class=\"highlight-text\">نَزْغٌ</a> فَٱسْتَعِذْ بِٱللَّهِ ۚ إِنَّهُۥ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "نَزَغَ",
+        "نَزْغٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 100,
+      "text": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن نَّزَغَ ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "highlightedHtml": "وَرَفَعَ أَبَوَيْهِ عَلَى ٱلْعَرْشِ وَخَرُّوا۟ لَهُۥ سُجَّدًا ۖ وَقَالَ يَٰٓأَبَتِ هَٰذَا تَأْوِيلُ رُءْيَٰىَ مِن قَبْلُ قَدْ جَعَلَهَا رَبِّى حَقًّا ۖ وَقَدْ أَحْسَنَ بِىٓ إِذْ أَخْرَجَنِى مِنَ ٱلسِّجْنِ وَجَآءَ بِكُم مِّنَ ٱلْبَدْوِ مِنۢ بَعْدِ أَن <a class=\"highlight-text\">نَّزَغَ</a> ٱلشَّيْطَٰنُ بَيْنِى وَبَيْنَ إِخْوَتِىٓ ۚ إِنَّ رَبِّى لَطِيفٌ لِّمَا يَشَآءُ ۚ إِنَّهُۥ هُوَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+      "derivedForms": [
+        "نَزَغَ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 53,
+      "text": "وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَٰنَ يَنزَغُ بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلْإِنسَٰنِ عَدُوًّا مُّبِينًا",
+      "highlightedHtml": "وَقُل لِّعِبَادِى يَقُولُوا۟ ٱلَّتِى هِىَ أَحْسَنُ ۚ إِنَّ ٱلشَّيْطَٰنَ <a class=\"highlight-text\">يَنزَغُ</a> بَيْنَهُمْ ۚ إِنَّ ٱلشَّيْطَٰنَ كَانَ لِلْإِنسَٰنِ عَدُوًّا مُّبِينًا",
+      "derivedForms": [
+        "نَزَغَ"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 36,
+      "text": "وَإِمَّا يَنزَغَنَّكَ مِنَ ٱلشَّيْطَٰنِ نَزْغٌ فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "highlightedHtml": "وَإِمَّا <a class=\"highlight-text\">يَنزَغَنَّكَ</a> مِنَ ٱلشَّيْطَٰنِ <a class=\"highlight-text\">نَزْغٌ</a> فَٱسْتَعِذْ بِٱللَّهِ ۖ إِنَّهُۥ هُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+      "derivedForms": [
+        "نَزَغَ",
+        "نَزْغٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:12.963Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb",
+    "derivativeNote": "يَنزَغَنَّكَ is in the derivative form: نَزَغَ",
+    "rootDefinitionHtml": "ن/ز/غ   n–z–gh jab, nudge, to poke someone (with a finger or a spear); to sow dissension, to incite hatred, to insinuate, to defame. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> نَزَغَ nazagha 4 times and نَزْغٌ nazgh 2 times.",
+    "mainDefinitionHtml": "نَزَغَ nazagha a I [v. intrans. with بين] to sow dissension, to plant hatred <br><br>(12:100) مِنْ بَعْدِ أَنْ نَزَغَ الشَّيْطَانُ بَيْنِي وَبَيْنَ إِخْوَتِي after Satan sowed discord between me and my brothers II [v. trans.] to insinuate evil thoughts <br><br>(7:200) وَإِمَّا يَنْزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللَّهٌِ if an evil prompting from Satan should touch you, seek refuge with God.",
+    "mainEntryId": "wdef-ن-ز-غ.نَزَغَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ز-غ",
+        "label": "ن-ز-غ",
+        "definitionHtml": "ن/ز/غ   n–z–gh jab, nudge, to poke someone (with a finger or a spear); to sow dissension, to incite hatred, to insinuate, to defame. <br><br>Of this root, 2 forms occur 6 times in the Qur’an:<br> نَزَغَ nazagha 4 times and نَزْغٌ nazgh 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ز-غ.نَزَغَ",
+        "label": "نَزَغَ",
+        "definitionHtml": "نَزَغَ nazagha a I [v. intrans. with بين] to sow dissension, to plant hatred <br><br>(12:100) مِنْ بَعْدِ أَنْ نَزَغَ الشَّيْطَانُ بَيْنِي وَبَيْنَ إِخْوَتِي after Satan sowed discord between me and my brothers II [v. trans.] to insinuate evil thoughts <br><br>(7:200) وَإِمَّا يَنْزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللَّهٌِ if an evil prompting from Satan should touch you, seek refuge with God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ز-غ.نَزْغٌ",
+        "label": "نَزْغٌ",
+        "definitionHtml": "نَزْغٌ nazgh [v. n.] act of insinuating evil in the hearts of people, planting evil thoughts <br><br>(41:36) وَإِمَّا يَنْزَغَنَّكَ مِنَ الشَّيْطَانِ نَزْغٌ فَاسْتَعِذْ بِاللَّهِ if an evil prompting from Satan should touch you, seek refuge with God.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:40.892Z",
+      "refword": "7:200:2",
+      "lexword": "يَنزَغَنَّكَ"
+    }
+  }
+}

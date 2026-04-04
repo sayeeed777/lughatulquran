@@ -1,0 +1,106 @@
+{
+  "root": "بسر",
+  "rootArabic": "بسر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "بَاسِرَةٌ",
+      "count": 1
+    },
+    {
+      "form": "بَسَرَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَسَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَاسِرَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 74,
+      "ayah": 22,
+      "text": "ثُمَّ عَبَسَ وَبَسَرَ",
+      "highlightedHtml": "ثُمَّ عَبَسَ <a class=\"highlight-text\">وَبَسَرَ</a>",
+      "derivedForms": [
+        "بَسَرَ"
+      ]
+    },
+    {
+      "surah": 75,
+      "ayah": 24,
+      "text": "وَوُجُوهٌ يَوْمَئِذٍۭ بَاسِرَةٌ",
+      "highlightedHtml": "وَوُجُوهٌ يَوْمَئِذٍۭ <a class=\"highlight-text\">بَاسِرَةٌ</a>",
+      "derivedForms": [
+        "بَاسِرَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:33.581Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "وَبَسَرَ is in the derivative form: بَسَرَ",
+    "rootDefinitionHtml": "ب/س/ر   b–s–r unripe green date; to do something prematurely; to scowl, to frown, to be gloomy. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> بَسَرَ basara and بَاسِرَةٌ bāsiratun.",
+    "mainDefinitionHtml": "بَسَرَ basara u [v. intrans./trans.] to scowl, to look sour <br><br>(74:22) ثُمَّ عَبَسَ وَبَسَرَ then he frowned and looked sour.",
+    "mainEntryId": "wdef-ب-س-ر.بَسَرَ",
+    "entries": [
+      {
+        "id": "wdef-ب-س-ر",
+        "label": "ب-س-ر",
+        "definitionHtml": "ب/س/ر   b–s–r unripe green date; to do something prematurely; to scowl, to frown, to be gloomy. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> بَسَرَ basara and بَاسِرَةٌ bāsiratun.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-س-ر.بَسَرَ",
+        "label": "بَسَرَ",
+        "definitionHtml": "بَسَرَ basara u [v. intrans./trans.] to scowl, to look sour <br><br>(74:22) ثُمَّ عَبَسَ وَبَسَرَ then he frowned and looked sour.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-س-ر.بَاسِرَةٌ",
+        "label": "بَاسِرَةٌ",
+        "definitionHtml": "بَاسِرَةٌ bāsiratun [act. part. fem.] scowling, frowning, despondent, sour <br><br>(75:24) وَوُجُوهٌ يَوْمَئِذٍ بَاسِرَةٌ and some faces on that day will look sour.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:01.425Z",
+      "refword": "74:22:3",
+      "lexword": "وَبَسَرَ"
+    }
+  }
+}

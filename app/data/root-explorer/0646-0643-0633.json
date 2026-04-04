@@ -1,0 +1,138 @@
+{
+  "root": "نكس",
+  "rootArabic": "نكس",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "نَاكِسُون",
+      "count": 1
+    },
+    {
+      "form": "نَكَّسَ",
+      "count": 1
+    },
+    {
+      "form": "نُكِسَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُكِسَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَاكِسُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَّسَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 65,
+      "text": "ثُمَّ نُكِسُوا۟ عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَٰٓؤُلَآءِ يَنطِقُونَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">نُكِسُوا۟</a> عَلَىٰ رُءُوسِهِمْ لَقَدْ عَلِمْتَ مَا هَٰٓؤُلَآءِ يَنطِقُونَ",
+      "derivedForms": [
+        "نُكِسَ"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 12,
+      "text": "وَلَوْ تَرَىٰٓ إِذِ ٱلْمُجْرِمُونَ نَاكِسُوا۟ رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَآ أَبْصَرْنَا وَسَمِعْنَا فَٱرْجِعْنَا نَعْمَلْ صَٰلِحًا إِنَّا مُوقِنُونَ",
+      "highlightedHtml": "وَلَوْ تَرَىٰٓ إِذِ ٱلْمُجْرِمُونَ <a class=\"highlight-text\">نَاكِسُوا۟</a> رُءُوسِهِمْ عِندَ رَبِّهِمْ رَبَّنَآ أَبْصَرْنَا وَسَمِعْنَا فَٱرْجِعْنَا نَعْمَلْ صَٰلِحًا إِنَّا مُوقِنُونَ",
+      "derivedForms": [
+        "نَاكِسُون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 68,
+      "text": "وَمَن نُّعَمِّرْهُ نُنَكِّسْهُ فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "highlightedHtml": "وَمَن نُّعَمِّرْهُ <a class=\"highlight-text\">نُنَكِّسْهُ</a> فِى ٱلْخَلْقِ ۖ أَفَلَا يَعْقِلُونَ",
+      "derivedForms": [
+        "نَكَّسَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:06.045Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural passive perfect verb",
+    "derivativeNote": "نُكِسُوا۟ is in the derivative form: نُكِسَ",
+    "rootDefinitionHtml": "ن/ك/س   n–k–s to turn upside down, to turn down, to reverse, to hang one’s head in shame, to be weak<br>; to relapse, degeneration. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> نُكِسَ nukisa; نَكَّسَ nakkasa and نَاكِسُون nākisūn.",
+    "mainDefinitionHtml": "نُكِسَ nukisa [pass. v.] to be caused to relapse, to be caused to revert, to be turned upside down *<br><br>(21:65) نُكِسُوا عَلَى رُءُوسِهِمْ they went back to their stubbornness, became obstinate [lit. they were turned upside down on their heads].",
+    "mainEntryId": "wdef-ن-ك-س.نُكِسَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-س",
+        "label": "ن-ك-س",
+        "definitionHtml": "ن/ك/س   n–k–s to turn upside down, to turn down, to reverse, to hang one’s head in shame, to be weak<br>; to relapse, degeneration. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> نُكِسَ nukisa; نَكَّسَ nakkasa and نَاكِسُون nākisūn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-س.نُكِسَ",
+        "label": "نُكِسَ",
+        "definitionHtml": "نُكِسَ nukisa [pass. v.] to be caused to relapse, to be caused to revert, to be turned upside down *<br><br>(21:65) نُكِسُوا عَلَى رُءُوسِهِمْ they went back to their stubbornness, became obstinate [lit. they were turned upside down on their heads].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ك-س.نَاكِسُون",
+        "label": "نَاكِسُون",
+        "definitionHtml": "نَاكِسُون nākisūn [pl. of act. part. نَاكِسٌ nākis] those who bend something down *<br><br>(32:12) نَاكِسُوا رُءُوسِهِمْ hanging their heads [in shame].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-س.نَكَّسَ",
+        "label": "نَكَّسَ",
+        "definitionHtml": "نَكَّسَ nakkasa [v. II trans.] to cause to reverse, to turn upside down <br><br>(36:68) وَمَنْ نُعَمِّرْهُ نُنَكِّسْهُ فِى الْخَلْقِ he whom We bring into very old age We reverse him in constitution [from strength to weakness].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:22.373Z",
+      "refword": "21:65:2",
+      "lexword": "نُكِسُوا۟"
+    }
+  }
+}

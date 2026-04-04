@@ -1,0 +1,115 @@
+{
+  "root": "رقم",
+  "rootArabic": "رقم",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "مَرْقُومٌ",
+      "count": 2
+    },
+    {
+      "form": "رَقِيمٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَقِيمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "مَرْقُومٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 9,
+      "text": "أَمْ حَسِبْتَ أَنَّ أَصْحَٰبَ ٱلْكَهْفِ وَٱلرَّقِيمِ كَانُوا۟ مِنْ آيَاتِنَا عَجَبًا",
+      "highlightedHtml": "أَمْ حَسِبْتَ أَنَّ أَصْحَٰبَ ٱلْكَهْفِ <a class=\"highlight-text\">وَٱلرَّقِيمِ</a> كَانُوا۟ مِنْ آيَاتِنَا عَجَبًا",
+      "derivedForms": [
+        "رَقِيمٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 9,
+      "text": "كِتَٰبٌ مَّرْقُومٌ",
+      "highlightedHtml": "كِتَٰبٌ <a class=\"highlight-text\">مَّرْقُومٌ</a>",
+      "derivedForms": [
+        "مَرْقُومٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 20,
+      "text": "كِتَٰبٌ مَّرْقُومٌ",
+      "highlightedHtml": "كِتَٰبٌ <a class=\"highlight-text\">مَّرْقُومٌ</a>",
+      "derivedForms": [
+        "مَرْقُومٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:37.066Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "وَٱلرَّقِيمِ is in the derivative form: رَقِيمٌ",
+    "rootDefinitionHtml": "ر/ق/م   r–q–m speckles, speckled snake, markings, stripes, writings, dotting, to mark, to dot, to write; a great number; side of the valley, place where flood waters gather. الرَّقِيمُ ʾal‐raqım, classified under this root, is considered by some philologists to be a borrowing from Greek. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> رَقِيمٌ raqım 1 time and مَرْقُومٌ marqūm 2 times.",
+    "mainDefinitionHtml": "رَقِيمٌ raqım [n.; quasi‐pass. part.] variously interpreted as the name of the town from which the Men of the Cave came; a plate of lead or stone upon which the name of those men were recorded, or the name of their dog <br><br>(18:9) أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ ءَايَاتِنَا عَجَبًا did you find the Companions in the Cave and ʾal‐Raqım, among all Our other signs, so wondrous?",
+    "mainEntryId": "wdef-ر-ق-م.رَقِيمٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-ق-م",
+        "label": "ر-ق-م",
+        "definitionHtml": "ر/ق/م   r–q–m speckles, speckled snake, markings, stripes, writings, dotting, to mark, to dot, to write; a great number; side of the valley, place where flood waters gather. الرَّقِيمُ ʾal‐raqım, classified under this root, is considered by some philologists to be a borrowing from Greek. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> رَقِيمٌ raqım 1 time and مَرْقُومٌ marqūm 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ق-م.رَقِيمٌ",
+        "label": "رَقِيمٌ",
+        "definitionHtml": "رَقِيمٌ raqım [n.; quasi‐pass. part.] variously interpreted as the name of the town from which the Men of the Cave came; a plate of lead or stone upon which the name of those men were recorded, or the name of their dog <br><br>(18:9) أَمْ حَسِبْتَ أَنَّ أَصْحَابَ الْكَهْفِ وَالرَّقِيمِ كَانُوا مِنْ ءَايَاتِنَا عَجَبًا did you find the Companions in the Cave and ʾal‐Raqım, among all Our other signs, so wondrous?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-ق-م.مَرْقُومٌ",
+        "label": "مَرْقُومٌ",
+        "definitionHtml": "مَرْقُومٌ marqūm [pass. part.] inscribed, written <br><br>(83:9) كِتَابٌ مَرْقُومٌ a clearly inscribed record.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:37:22.690Z",
+      "refword": "18:9:6",
+      "lexword": "وَٱلرَّقِيمِ"
+    }
+  }
+}

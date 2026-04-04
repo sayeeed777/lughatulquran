@@ -1,0 +1,474 @@
+{
+  "root": "طلع",
+  "rootArabic": "طلع",
+  "stats": {
+    "totalOccurrences": 19,
+    "derivativeCount": 8,
+    "surahCount": 13,
+    "ayahCount": 18
+  },
+  "derivatives": [
+    {
+      "form": "اِطَّلَعَ",
+      "count": 7
+    },
+    {
+      "form": "طَلْع",
+      "count": 4
+    },
+    {
+      "form": "طَلَعَ",
+      "count": 2
+    },
+    {
+      "form": "طُلُوع",
+      "count": 2
+    },
+    {
+      "form": "مَطْلَع",
+      "count": 1
+    },
+    {
+      "form": "مَطْلِع",
+      "count": 1
+    },
+    {
+      "form": "مُطَّلِعُون",
+      "count": 1
+    },
+    {
+      "form": "يُطْلِع",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُطْلِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَلْع",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "طَلَعَ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "مَطْلِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طُلُوع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَلْع",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        },
+        {
+          "form": "طَلْع",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُطَّلِعُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "طَلْع",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "طُلُوع",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 97,
+      "surahName": "Al-Qadr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَطْلَع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 104,
+      "surahName": "Al-Humazah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِطَّلَعَ",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 179,
+      "text": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ لِيُطْلِعَكُمْ عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "highlightedHtml": "مَّا كَانَ ٱللَّهُ لِيَذَرَ ٱلْمُؤْمِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ ٱلْخَبِيثَ مِنَ ٱلطَّيِّبِ ۗ وَمَا كَانَ ٱللَّهُ <a class=\"highlight-text\">لِيُطْلِعَكُمْ</a> عَلَى ٱلْغَيْبِ وَلَٰكِنَّ ٱللَّهَ يَجْتَبِى مِن رُّسُلِهِۦ مَن يَشَآءُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۚ وَإِن تُؤْمِنُوا۟ وَتَتَّقُوا۟ فَلَكُمْ أَجْرٌ عَظِيمٌ",
+      "derivedForms": [
+        "يُطْلِع"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 13,
+      "text": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ <a class=\"highlight-text\">تَطَّلِعُ</a> عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 99,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن طَلْعِهَا قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجْنَا بِهِۦ نَبَاتَ كُلِّ شَىْءٍ فَأَخْرَجْنَا مِنْهُ خَضِرًا نُّخْرِجُ مِنْهُ حَبًّا مُّتَرَاكِبًا وَمِنَ ٱلنَّخْلِ مِن <a class=\"highlight-text\">طَلْعِهَا</a> قِنْوَانٌ دَانِيَةٌ وَجَنَّٰتٍ مِّنْ أَعْنَابٍ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُشْتَبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۗ ٱنظُرُوٓا۟ إِلَىٰ ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَيَنْعِهِۦٓ ۚ إِنَّ فِى ذَٰلِكُمْ لَءَايَٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "طَلْع"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 17,
+      "text": "وَتَرَى ٱلشَّمْسَ إِذَا طَلَعَت تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "highlightedHtml": "وَتَرَى ٱلشَّمْسَ إِذَا <a class=\"highlight-text\">طَلَعَت</a> تَّزَٰوَرُ عَن كَهْفِهِمْ ذَاتَ ٱلْيَمِينِ وَإِذَا غَرَبَت تَّقْرِضُهُمْ ذَاتَ ٱلشِّمَالِ وَهُمْ فِى فَجْوَةٍ مِّنْهُ ۚ ذَٰلِكَ مِنْ آيَاتِ ٱللَّهِ ۗ مَن يَهْدِ ٱللَّهُ فَهُوَ ٱلْمُهْتَدِ ۖ وَمَن يُضْلِلْ فَلَن تَجِدَ لَهُۥ وَلِيًّا مُّرْشِدًا",
+      "derivedForms": [
+        "طَلَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 18,
+      "text": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "highlightedHtml": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ <a class=\"highlight-text\">ٱطَّلَعْتَ</a> عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 90,
+      "text": "حَتَّىٰٓ إِذَا بَلَغَ مَطْلِعَ ٱلشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا بَلَغَ <a class=\"highlight-text\">مَطْلِعَ</a> ٱلشَّمْسِ وَجَدَهَا <a class=\"highlight-text\">تَطْلُعُ</a> عَلَىٰ قَوْمٍ لَّمْ نَجْعَل لَّهُم مِّن دُونِهَا سِتْرًا",
+      "derivedForms": [
+        "مَطْلِع",
+        "طَلَعَ"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 78,
+      "text": "أَطَّلَعَ ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا",
+      "highlightedHtml": "<a class=\"highlight-text\">أَطَّلَعَ</a> ٱلْغَيْبَ أَمِ ٱتَّخَذَ عِندَ ٱلرَّحْمَٰنِ عَهْدًا",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 130,
+      "text": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "highlightedHtml": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ <a class=\"highlight-text\">طُلُوعِ</a> ٱلشَّمْسِ وَقَبْلَ غُرُوبِهَا ۖ وَمِنْ ءَانَآئِ ٱلَّيْلِ فَسَبِّحْ وَأَطْرَافَ ٱلنَّهَارِ لَعَلَّكَ تَرْضَىٰ",
+      "derivedForms": [
+        "طُلُوع"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 148,
+      "text": "وَزُرُوعٍ وَنَخْلٍ طَلْعُهَا هَضِيمٌ",
+      "highlightedHtml": "وَزُرُوعٍ وَنَخْلٍ <a class=\"highlight-text\">طَلْعُهَا</a> هَضِيمٌ",
+      "derivedForms": [
+        "طَلْع"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 38,
+      "text": "وَقَالَ فِرْعَوْنُ يَٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَٰهٍ غَيْرِى فَأَوْقِدْ لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًا صَرْحًا لَّعَلِّىٓ أَطَّلِعُ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَٰذِبِينَ",
+      "highlightedHtml": "وَقَالَ فِرْعَوْنُ يَٰٓأَيُّهَا ٱلْمَلَأُ مَا عَلِمْتُ لَكُم مِّنْ إِلَٰهٍ غَيْرِى فَأَوْقِدْ لِى يَٰهَٰمَٰنُ عَلَى ٱلطِّينِ فَٱجْعَل لِّى صَرْحًا صَرْحًا لَّعَلِّىٓ <a class=\"highlight-text\">أَطَّلِعُ</a> إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ مِنَ ٱلْكَٰذِبِينَ",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 54,
+      "text": "قَالَ هَلْ أَنتُم مُّطَّلِعُونَ",
+      "highlightedHtml": "قَالَ هَلْ أَنتُم <a class=\"highlight-text\">مُّطَّلِعُونَ</a>",
+      "derivedForms": [
+        "مُطَّلِعُون"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 55,
+      "text": "فَٱطَّلَعَ فَرَءَاهُ فِى سَوَآءِ سَوَآءِ ٱلْجَحِيمِ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱطَّلَعَ</a> فَرَءَاهُ فِى سَوَآءِ سَوَآءِ ٱلْجَحِيمِ",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 65,
+      "text": "طَلْعُهَا كَأَنَّهُۥ رُءُوسُ ٱلشَّيَٰطِينِ",
+      "highlightedHtml": "<a class=\"highlight-text\">طَلْعُهَا</a> كَأَنَّهُۥ رُءُوسُ ٱلشَّيَٰطِينِ",
+      "derivedForms": [
+        "طَلْع"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 37,
+      "text": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ فَأَطَّلِعَ إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "highlightedHtml": "أَسْبَٰبَ ٱلسَّمَٰوَٰتِ <a class=\"highlight-text\">فَأَطَّلِعَ</a> إِلَىٰٓ إِلَٰهِ مُوسَىٰ وَإِنِّى لَأَظُنُّهُۥ كَٰذِبًا ۚ وَكَذَٰلِكَ زُيِّنَ لِفِرْعَوْنَ سُوٓءُ عَمَلِهِۦ وَصُدَّ عَنِ ٱلسَّبِيلِ ۚ وَمَا كَيْدُ فِرْعَوْنَ إِلَّا فِى تَبَابٍ",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 10,
+      "text": "وَٱلنَّخْلَ بَاسِقَٰتٍ لَّهَا طَلْعٌ نَّضِيدٌ",
+      "highlightedHtml": "وَٱلنَّخْلَ بَاسِقَٰتٍ لَّهَا <a class=\"highlight-text\">طَلْعٌ</a> نَّضِيدٌ",
+      "derivedForms": [
+        "طَلْع"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 39,
+      "text": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ طُلُوعِ ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ",
+      "highlightedHtml": "فَٱصْبِرْ عَلَىٰ مَا يَقُولُونَ وَسَبِّحْ بِحَمْدِ رَبِّكَ قَبْلَ <a class=\"highlight-text\">طُلُوعِ</a> ٱلشَّمْسِ وَقَبْلَ ٱلْغُرُوبِ",
+      "derivedForms": [
+        "طُلُوع"
+      ]
+    },
+    {
+      "surah": 97,
+      "ayah": 5,
+      "text": "سَلَٰمٌ هِىَ حَتَّىٰ مَطْلَعِ ٱلْفَجْرِ",
+      "highlightedHtml": "سَلَٰمٌ هِىَ حَتَّىٰ <a class=\"highlight-text\">مَطْلَعِ</a> ٱلْفَجْرِ",
+      "derivedForms": [
+        "مَطْلَع"
+      ]
+    },
+    {
+      "surah": 104,
+      "ayah": 7,
+      "text": "ٱلَّتِى تَطَّلِعُ عَلَى ٱلْأَفْـِٔدَةِ",
+      "highlightedHtml": "ٱلَّتِى <a class=\"highlight-text\">تَطَّلِعُ</a> عَلَى ٱلْأَفْـِٔدَةِ",
+      "derivedForms": [
+        "اِطَّلَعَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:54.095Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form IV) imperfect verb, subjunctive mood",
+    "derivativeNote": "لِيُطْلِعَكُمْ is in the derivative form: يُطْلِع",
+    "rootDefinitionHtml": "ط/ل/ع   ṭ–l–ʿ spadix or inflorescence of the palm tree, pollen<br>; to ascend, to rise, to come up, to come into view, to emerge, to break forth; to become acquainted with, to inspect, to become aware; to consult. <br><br>Of this root, 8 forms occur 19 times in the Qur’an:<br> طَلَعَ ṭalaʿa 2 times; يُطْلِع yuṭliʿ 1 time; اِطَّلَعَ ʾiṭṭalaʿa 7 times; طُلُوع ṭulūʿ 2 times; مَطْلَع maṭlaʿ 1 time; مَطْلِع maṭliʿ 1 time; مُطَّلِعُون muṭṭaliʿūn 1 time and طَلْع ṭalʿ 4 times.",
+    "mainDefinitionHtml": "يُطْلِع yuṭliʿ [imperf. of v. IV, أطْلَع ʾaṭlaʿa trans.] to apprise, to show, to give knowledge of, to disclose to <br><br>(3:179)‏وَمَا‏ ‏كَانَ‏ ‏اللَّهُ‏ ‏لِيُطْلِعَكُمْ‏ ‏عَلَى‏ ‏الْغَيْبِ‏ God would not give you knowledge of what is hidden.",
+    "mainEntryId": "wdef-ط-ل-ع.يُطْلِع",
+    "entries": [
+      {
+        "id": "wdef-ط-ل-ع",
+        "label": "ط-ل-ع",
+        "definitionHtml": "ط/ل/ع   ṭ–l–ʿ spadix or inflorescence of the palm tree, pollen<br>; to ascend, to rise, to come up, to come into view, to emerge, to break forth; to become acquainted with, to inspect, to become aware; to consult. <br><br>Of this root, 8 forms occur 19 times in the Qur’an:<br> طَلَعَ ṭalaʿa 2 times; يُطْلِع yuṭliʿ 1 time; اِطَّلَعَ ʾiṭṭalaʿa 7 times; طُلُوع ṭulūʿ 2 times; مَطْلَع maṭlaʿ 1 time; مَطْلِع maṭliʿ 1 time; مُطَّلِعُون muṭṭaliʿūn 1 time and طَلْع ṭalʿ 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.يُطْلِع",
+        "label": "يُطْلِع",
+        "definitionHtml": "يُطْلِع yuṭliʿ [imperf. of v. IV, أطْلَع ʾaṭlaʿa trans.] to apprise, to show, to give knowledge of, to disclose to <br><br>(3:179)‏وَمَا‏ ‏كَانَ‏ ‏اللَّهُ‏ ‏لِيُطْلِعَكُمْ‏ ‏عَلَى‏ ‏الْغَيْبِ‏ God would not give you knowledge of what is hidden.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ط-ل-ع.اِطَّلَعَ",
+        "label": "اِطَّلَعَ",
+        "definitionHtml": "اِطَّلَعَ ʾiṭṭalaʿa [v. VIII] I [intrans.] <br><br><strong>1 </strong>[with prep. ‏عَلَى‏] to come to look at, to behold, to come upon <br><br>(18:18)‏ لَوِ‏اطَّلَعْتَ‏ ‏عَلَيْهِمْ‏ ‏لَوَلَّيْتَ‏ ‏مِنْهُمْ‏ ‏فِرَارًا‏ ‏had you come upon them, you would have turned from them and run away <br><br><strong>2 </strong>[with prep. إِلَى] to gain a vantage point for observing, to climb up to <br><br>(28:38) فَاجْعَلْ لِي صَرْحًا لَعَلِّي أَطَّلِعُ إِلَى إِلَهِ مُوسَى‏ then build me a tall building so that I may climb up to Moses’ God (or, that I may look at the God of Moses) II [trans.] to come to know, to gain knowledge, to penetrate [the unknown] <br><br>(19:77–8) أَفَرَأَيْتَ‏ ‏الَّذِي‏ ‏كَفَرَ‏ ‏بِآيَاتِنَا وَقَالَ‏ ‏لأَُوتَيَنَّ‏ ‏مَالا‏ ‏وَوَلَدًا أَطَّلَعَ‏ الْغَيْبَ‏‏ have you considered the man who rejects Our revelation, and says, ‘I will certainly be given wealth and children.’ Has he penetrated the unknown!?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.طَلَعَ",
+        "label": "طَلَعَ",
+        "definitionHtml": "طَلَعَ ṭalaʿa u [v. intrans.] to rise, to ascend <br><br>(18:17) وَتَرَى‏ ‏الشَّمْسَ‏ ‏إِذَا‏ ‏طَلَعَتْ ‏‏ you could see the sun, as it rose.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.طَلْع",
+        "label": "طَلْع",
+        "definitionHtml": "طَلْع ṭalʿ [common n.] fruit, sproutings, sheaths within which palm tree pollen and spadices are enclosed <br><br>(26:148) وَزُرُوعٍ‏ ‏وَنَخْلٍ‏ ‏طَلْعُهَا‏ ‏هَضِيمٌ‏ and tilled fields and palm trees with fine delicate fruit )or, plentiful pollen).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.طُلُوع",
+        "label": "طُلُوع",
+        "definitionHtml": "طُلُوع ṭulūʿ [v. n.] the act of rising, the act of ascending <br><br>(50:39) ‏‏وَسَبِّحْ‏ ‏بِحَمْدِ‏ ‏رَبِّكَ‏ ‏قَبْلَ‏ ‏طُلُوعِ‏ الشَّمْسِ and celebrate in praise of your Lord before the rising of the sun.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.مَطْلَع",
+        "label": "مَطْلَع",
+        "definitionHtml": "مَطْلَع maṭlaʿ I [v. n./n. of time] the act/time of rising, the act/time of breaking through <br><br>(97:5) سَلاَمٌ‏ ‏هِيَ‏ ‏حَتَّى‏ ‏مَطْلَعِ‏ ‏الْفَجْرِ‏ peace it is till the rising of dawn.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.مَطْلِع",
+        "label": "مَطْلِع",
+        "definitionHtml": "مَطْلِع maṭliʿ [n. of time/place] the place where the sun rises <br><br>(18:90) حَتَّى إِذَا بَلَغَ مَطْلِعَ الشَّمْسِ وَجَدَهَا تَطْلُعُ عَلَى قَوْمٍ لَمْ نَجْعَلْ لَهُمْ مِنْ دُونِهَا سِتْرًا until when he reached the time/place of sunrise, he found it rising on a people for whom We had not provided a shelter from it.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ل-ع.مُطَّلِعُون",
+        "label": "مُطَّلِعُون",
+        "definitionHtml": "مُطَّلِعُون muṭṭaliʿūn [pl. of act. part. مُطَّلِع muṭṭaliʿ] one who beholds, one who observes, one who looks at something <br><br>(37:54) هَلْ‏ ‏أَنْتُمْ‏ ‏مُطَّلِعُونَ‏ would you [like to] look?",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:41.360Z",
+      "refword": "3:179:18",
+      "lexword": "لِيُطْلِعَكُمْ"
+    }
+  }
+}

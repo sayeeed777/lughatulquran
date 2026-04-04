@@ -1,0 +1,432 @@
+{
+  "root": "غوي",
+  "rootArabic": "غوي",
+  "stats": {
+    "totalOccurrences": 22,
+    "derivativeCount": 5,
+    "surahCount": 11,
+    "ayahCount": 18
+  },
+  "derivatives": [
+    {
+      "form": "أغْوَى",
+      "count": 8
+    },
+    {
+      "form": "غاوون",
+      "count": 6
+    },
+    {
+      "form": "غَىّ",
+      "count": 4
+    },
+    {
+      "form": "غَوَى",
+      "count": 3
+    },
+    {
+      "form": "غَوِىّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَىّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "غَىّ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "أغْوَى",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "غاوون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْوَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أغْوَى",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "غاوون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَىّ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَوَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "غاوون",
+          "count": 3,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أغْوَى",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "غَوَى",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "غَوِىّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أغْوَى",
+          "count": 1,
+          "totalInQuran": 8
+        },
+        {
+          "form": "غاوون",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْوَى",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَوَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 256,
+      "text": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ <a class=\"highlight-text\">ٱلْغَىِّ</a> ۚ فَمَن يَكْفُرْ بِٱلطَّٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "غَىّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 16,
+      "text": "قَالَ فَبِمَآ أَغْوَيْتَنِى لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ",
+      "highlightedHtml": "قَالَ فَبِمَآ <a class=\"highlight-text\">أَغْوَيْتَنِى</a> لَأَقْعُدَنَّ لَهُمْ صِرَٰطَكَ ٱلْمُسْتَقِيمَ",
+      "derivedForms": [
+        "أغْوَى"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 146,
+      "text": "سَأَصْرِفُ سَأَصْرِفُ عَنْ آيَاتِيَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "highlightedHtml": "سَأَصْرِفُ سَأَصْرِفُ عَنْ آيَاتِيَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ آيَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ <a class=\"highlight-text\">ٱلْغَىِّ</a> يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَٰتِنَا وَكَانُوا۟ عَنْهَا غَٰفِلِينَ",
+      "derivedForms": [
+        "غَىّ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 175,
+      "text": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ آتَيْنَاهُ آيَاتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ ٱلْغَاوِينَ",
+      "highlightedHtml": "وَٱتْلُ عَلَيْهِمْ نَبَأَ ٱلَّذِىٓ آتَيْنَاهُ آيَاتِنَا فَٱنسَلَخَ مِنْهَا فَأَتْبَعَهُ ٱلشَّيْطَٰنُ فَكَانَ مِنَ <a class=\"highlight-text\">ٱلْغَاوِينَ</a>",
+      "derivedForms": [
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 202,
+      "text": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى ٱلْغَىِّ ثُمَّ لَا يُقْصِرُونَ",
+      "highlightedHtml": "وَإِخْوَٰنُهُمْ يَمُدُّونَهُمْ فِى <a class=\"highlight-text\">ٱلْغَىِّ</a> ثُمَّ لَا يُقْصِرُونَ",
+      "derivedForms": [
+        "غَىّ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 34,
+      "text": "وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن يُغْوِيَكُمْ ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+      "highlightedHtml": "وَلَا يَنفَعُكُمْ نُصْحِىٓ إِنْ أَرَدتُّ أَنْ أَنصَحَ لَكُمْ إِن كَانَ ٱللَّهُ يُرِيدُ أَن <a class=\"highlight-text\">يُغْوِيَكُمْ</a> ۚ هُوَ رَبُّكُمْ وَإِلَيْهِ تُرْجَعُونَ",
+      "derivedForms": [
+        "أغْوَى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 39,
+      "text": "قَالَ رَبِّ بِمَآ أَغْوَيْتَنِى لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ وَلَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "قَالَ رَبِّ بِمَآ <a class=\"highlight-text\">أَغْوَيْتَنِى</a> لَأُزَيِّنَنَّ لَهُمْ فِى ٱلْأَرْضِ <a class=\"highlight-text\">وَلَأُغْوِيَنَّهُمْ</a> أَجْمَعِينَ",
+      "derivedForms": [
+        "أغْوَى",
+        "أغْوَى"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 42,
+      "text": "إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ ٱلْغَاوِينَ",
+      "highlightedHtml": "إِنَّ عِبَادِى لَيْسَ لَكَ عَلَيْهِمْ سُلْطَٰنٌ إِلَّا مَنِ ٱتَّبَعَكَ مِنَ <a class=\"highlight-text\">ٱلْغَاوِينَ</a>",
+      "derivedForms": [
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 59,
+      "text": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا",
+      "highlightedHtml": "فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ <a class=\"highlight-text\">غَيًّا</a>",
+      "derivedForms": [
+        "غَىّ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 121,
+      "text": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ آدَمُ رَبَّهُۥ فَغَوَىٰ",
+      "highlightedHtml": "فَأَكَلَا مِنْهَا فَبَدَتْ لَهُمَا سَوْءَٰتُهُمَا وَطَفِقَا يَخْصِفَانِ عَلَيْهِمَا مِن وَرَقِ ٱلْجَنَّةِ ۚ وَعَصَىٰٓ آدَمُ رَبَّهُۥ <a class=\"highlight-text\">فَغَوَىٰ</a>",
+      "derivedForms": [
+        "غَوَى"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 91,
+      "text": "وَبُرِّزَتِ ٱلْجَحِيمُ لِلْغَاوِينَ",
+      "highlightedHtml": "وَبُرِّزَتِ ٱلْجَحِيمُ <a class=\"highlight-text\">لِلْغَاوِينَ</a>",
+      "derivedForms": [
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 94,
+      "text": "فَكُبْكِبُوا۟ فِيهَا هُمْ وَٱلْغَاوُۥنَ",
+      "highlightedHtml": "فَكُبْكِبُوا۟ فِيهَا هُمْ <a class=\"highlight-text\">وَٱلْغَاوُۥنَ</a>",
+      "derivedForms": [
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 224,
+      "text": "وَٱلشُّعَرَآءُ وَٱلشُّعَرَآءُ يَتَّبِعُهُمُ ٱلْغَاوُۥنَ",
+      "highlightedHtml": "وَٱلشُّعَرَآءُ وَٱلشُّعَرَآءُ يَتَّبِعُهُمُ <a class=\"highlight-text\">ٱلْغَاوُۥنَ</a>",
+      "derivedForms": [
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 18,
+      "text": "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ لَغَوِىٌّ مُّبِينٌ",
+      "highlightedHtml": "فَأَصْبَحَ فِى ٱلْمَدِينَةِ خَآئِفًا يَتَرَقَّبُ فَإِذَا ٱلَّذِى ٱسْتَنصَرَهُۥ بِٱلْأَمْسِ يَسْتَصْرِخُهُۥ ۚ قَالَ لَهُۥ مُوسَىٰٓ إِنَّكَ <a class=\"highlight-text\">لَغَوِىٌّ</a> مُّبِينٌ",
+      "derivedForms": [
+        "غَوِىّ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 63,
+      "text": "قَالَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ رَبَّنَا هَٰٓؤُلَآءِ ٱلَّذِينَ أَغْوَيْنَآ أَغْوَيْنَٰهُمْ كَمَا غَوَيْنَا ۖ تَبَرَّأْنَآ إِلَيْكَ ۖ مَا كَانُوٓا۟ إِيَّانَا يَعْبُدُونَ",
+      "highlightedHtml": "قَالَ ٱلَّذِينَ حَقَّ عَلَيْهِمُ ٱلْقَوْلُ رَبَّنَا هَٰٓؤُلَآءِ ٱلَّذِينَ <a class=\"highlight-text\">أَغْوَيْنَآ</a> <a class=\"highlight-text\">أَغْوَيْنَٰهُمْ</a> كَمَا <a class=\"highlight-text\">غَوَيْنَا</a> ۖ تَبَرَّأْنَآ إِلَيْكَ ۖ مَا كَانُوٓا۟ إِيَّانَا يَعْبُدُونَ",
+      "derivedForms": [
+        "أغْوَى",
+        "أغْوَى",
+        "غَوَى"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 32,
+      "text": "فَأَغْوَيْنَٰكُمْ إِنَّا كُنَّا غَٰوِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَغْوَيْنَٰكُمْ</a> إِنَّا كُنَّا <a class=\"highlight-text\">غَٰوِينَ</a>",
+      "derivedForms": [
+        "أغْوَى",
+        "غاوون"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 82,
+      "text": "قَالَ فَبِعِزَّتِكَ لَأُغْوِيَنَّهُمْ أَجْمَعِينَ",
+      "highlightedHtml": "قَالَ فَبِعِزَّتِكَ <a class=\"highlight-text\">لَأُغْوِيَنَّهُمْ</a> أَجْمَعِينَ",
+      "derivedForms": [
+        "أغْوَى"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 2,
+      "text": "مَا ضَلَّ صَاحِبُكُمْ وَمَا غَوَىٰ",
+      "highlightedHtml": "مَا ضَلَّ صَاحِبُكُمْ وَمَا <a class=\"highlight-text\">غَوَىٰ</a>",
+      "derivedForms": [
+        "غَوَى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:19.115Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "ٱلْغَىِّ is in the derivative form: غَىّ",
+    "rootDefinitionHtml": "غ/و/ي gh–w–y darkness, hole in the ground dug up as a trap for wolves, to lure, to mislead, to seduce<br>; to err, to stray from the right path; (of young camels) to become bloated from drinking too much milk. <br><br>Of this root, 5 forms occur 22 times in the Qur’an:<br> غَوَى ghawā 3 times; أغْوَى ʾaghwā 8 times;غَىّ ghayy 4 times; غَوِىّ ghawiyy 1 time and غاوون ghāwūn 6 times.",
+    "mainDefinitionHtml": "غَىّ ghayy [v. n./n.] <br><br><strong>1 </strong>misguidedness, delusion, error <br><br>(2:256) لاَ‏ ‏إِكْرَاهَ‏ ‏فِي‏ ‏الدِّينِ قَدْ تَبَيَّنَ‏ ‏الرُّشْدُ‏ ‏مِنَ‏ ‏الْغَيِّ‏‏‏ [there should be] no compulsion in religion–true guidance has become distinct from error <br><br><strong>2 </strong>evil; punishment <br><br>(19:59) ‏‏فَسَوْفَ‏ ‏يَلْقَوْنَ‏ ‏غَيًّا so they will meet with evil.",
+    "mainEntryId": "wdef-غ-و-ي.غَىّ",
+    "entries": [
+      {
+        "id": "wdef-غ-و-ي",
+        "label": "غ-و-ي",
+        "definitionHtml": "غ/و/ي gh–w–y darkness, hole in the ground dug up as a trap for wolves, to lure, to mislead, to seduce<br>; to err, to stray from the right path; (of young camels) to become bloated from drinking too much milk. <br><br>Of this root, 5 forms occur 22 times in the Qur’an:<br> غَوَى ghawā 3 times; أغْوَى ʾaghwā 8 times;غَىّ ghayy 4 times; غَوِىّ ghawiyy 1 time and غاوون ghāwūn 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ي.غَىّ",
+        "label": "غَىّ",
+        "definitionHtml": "غَىّ ghayy [v. n./n.] <br><br><strong>1 </strong>misguidedness, delusion, error <br><br>(2:256) لاَ‏ ‏إِكْرَاهَ‏ ‏فِي‏ ‏الدِّينِ قَدْ تَبَيَّنَ‏ ‏الرُّشْدُ‏ ‏مِنَ‏ ‏الْغَيِّ‏‏‏ [there should be] no compulsion in religion–true guidance has become distinct from error <br><br><strong>2 </strong>evil; punishment <br><br>(19:59) ‏‏فَسَوْفَ‏ ‏يَلْقَوْنَ‏ ‏غَيًّا so they will meet with evil.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-و-ي.غَوَى(1)",
+        "label": "غَوَى(1)",
+        "definitionHtml": "غَوَى ghawā ı [v. intrans.] to go astray <br><br>(20:121) وَعَصَى‏ ‏ءَادَمُ‏ ‏رَبَّهُ‏ ‏فَغَوَى‏ and Adam disobeyed his Lord and went astray. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ي.أغْوَى",
+        "label": "أغْوَى",
+        "definitionHtml": "أغْوَى ʾaghwā [v. IV, trans.] to cause to go astray, to lead away from the right path, to tempt into doing wrong <br><br>(38:82–3) قَالَ‏ ‏فَبِعِزَّتِكَ‏ ‏لأَُغْوِيَنَّهُمْ‏ ‏أَجْمَعِينَ‏ ‏إِلاَّ‏ ‏عِبَادَكَ‏ ‏مِنْهُمُ‏ ‏الْمُخْلَصِينَ‏ he said, ‘I swear by Your might! I will lead astray all of them, save for Your true servants.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ي.غاوون",
+        "label": "غاوون",
+        "definitionHtml": "غاوون ghāwūn [pl. of act. part. غاوِى ghāwı] those who are in error, those who have gone astray <br><br>(26:224) وَالشُّعَرَاءُ‏ ‏يَتَّبِعُهُمُ‏ ‏الْغَاوُونَ‏as for the poets the erring ones follow them [their whims].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ي.غَوَى",
+        "label": "غَوَى",
+        "definitionHtml": "غَوَى ghawiya ā/ غَوَى ghawā ı [v. intrans.] to suffer from stomach troubles (in one interpretation of 20:121) وَعَصَى‏ ‏ءَادَمُ‏ ‏رَبَّهُ‏ ‏فَغَوَى and Adam disobeyed his Lord and suffered stomach troubles [as a result of eating from the forbidden tree].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-و-ي.غَوِىّ",
+        "label": "غَوِىّ",
+        "definitionHtml": "غَوِىّ ghawiyy [quasi‐intens. act. part.] one who has completely gone astray, an erring person ‏<br><br>(28:18) قَالَ‏ ‏لَهُ‏ ‏مُوسَى‏ ‏إِنَّكَ‏ ‏لَغَوِيٌّ‏ ‏مُبِينٌ Moses said to him, ‘You are clearly far astray.’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:21.787Z",
+      "refword": "2:256:9",
+      "lexword": "ٱلْغَىِّ"
+    }
+  }
+}

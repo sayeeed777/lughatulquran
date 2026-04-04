@@ -1,0 +1,74 @@
+{
+  "root": "هجع",
+  "rootArabic": "هجع",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَهْجَعُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَهْجَعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 51,
+      "ayah": 17,
+      "text": "كَانُوا۟ قَلِيلًا مِّنَ ٱلَّيْلِ مَا يَهْجَعُونَ",
+      "highlightedHtml": "كَانُوا۟ قَلِيلًا مِّنَ ٱلَّيْلِ مَا <a class=\"highlight-text\">يَهْجَعُونَ</a>",
+      "derivedForms": [
+        "يَهْجَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:25.862Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَهْجَعُونَ is in the derivative form: يَهْجَعُ",
+    "rootDefinitionHtml": "هـ/ج/ع   h–j–ʿ part of the night; to sleep at night, to lie down peacefully at night; slumber; to abate; foolish person. Of this root, يَهْجَعُون yahjaʿūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَهْجَعُ yahjaʿ [imperf. of v. intrans.] to sleep at night without any concerns <br><br>(51:17) كَانُوا قَلِيلاً مِنَ اللَّيْلِ مَا يَهْجَعُونَ little of the night would they [lie down] to sleep unconcerned.",
+    "mainEntryId": "wdef-هـ-ج-ع.يَهْجَعُ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ج-ع",
+        "label": "هـ-ج-ع",
+        "definitionHtml": "هـ/ج/ع   h–j–ʿ part of the night; to sleep at night, to lie down peacefully at night; slumber; to abate; foolish person. Of this root, يَهْجَعُون yahjaʿūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ج-ع.يَهْجَعُ",
+        "label": "يَهْجَعُ",
+        "definitionHtml": "يَهْجَعُ yahjaʿ [imperf. of v. intrans.] to sleep at night without any concerns <br><br>(51:17) كَانُوا قَلِيلاً مِنَ اللَّيْلِ مَا يَهْجَعُونَ little of the night would they [lie down] to sleep unconcerned.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:57.465Z",
+      "refword": "51:17:6",
+      "lexword": "يَهْجَعُونَ"
+    }
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "root": "خون",
+  "rootArabic": "خون",
+  "stats": {
+    "totalOccurrences": 16,
+    "derivativeCount": 5,
+    "surahCount": 8,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "خَائِنُون",
+      "count": 5
+    },
+    {
+      "form": "خَانَ",
+      "count": 5
+    },
+    {
+      "form": "تَخْتَانُون",
+      "count": 2
+    },
+    {
+      "form": "خَوَّانٌ",
+      "count": 2
+    },
+    {
+      "form": "خِيَانَةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخْتَانُون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "تَخْتَانُون",
+          "count": 1,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَائِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "خَوَّانٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَائِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "خَانَ",
+          "count": 3,
+          "totalInQuran": 5
+        },
+        {
+          "form": "خِيَانَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "خَائِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خَائِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "خَانَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَوَّانٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَائِنُون",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 66,
+      "surahName": "At-Tahrim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَانَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 187,
+      "text": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "highlightedHtml": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ <a class=\"highlight-text\">تَخْتَانُونَ</a> أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ آيَاتِهِ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+      "derivedForms": [
+        "تَخْتَانُون"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 105,
+      "text": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن لِّلْخَآئِنِينَ خَصِيمًا",
+      "highlightedHtml": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَٰبَ بِٱلْحَقِّ لِتَحْكُمَ بَيْنَ ٱلنَّاسِ بِمَآ أَرَىٰكَ ٱللَّهُ ۚ وَلَا تَكُن <a class=\"highlight-text\">لِّلْخَآئِنِينَ</a> خَصِيمًا",
+      "derivedForms": [
+        "خَائِنُون"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 107,
+      "text": "وَلَا تُجَٰدِلْ عَنِ ٱلَّذِينَ يَخْتَانُونَ أَنفُسَهُمْ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ خَوَّانًا أَثِيمًا",
+      "highlightedHtml": "وَلَا تُجَٰدِلْ عَنِ ٱلَّذِينَ <a class=\"highlight-text\">يَخْتَانُونَ</a> أَنفُسَهُمْ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ <a class=\"highlight-text\">خَوَّانًا</a> أَثِيمًا",
+      "derivedForms": [
+        "تَخْتَانُون",
+        "خَوَّانٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 13,
+      "text": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ خَآئِنَةٍ مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "highlightedHtml": "فَبِمَا نَقْضِهِم مِّيثَٰقَهُمْ لَعَنَّٰهُمْ وَجَعَلْنَا قُلُوبَهُمْ قَٰسِيَةً ۖ يُحَرِّفُونَ ٱلْكَلِمَ عَن مَّوَاضِعِهِۦ ۙ وَنَسُوا۟ حَظًّا مِّمَّا ذُكِّرُوا۟ بِهِۦ ۚ وَلَا تَزَالُ تَطَّلِعُ عَلَىٰ <a class=\"highlight-text\">خَآئِنَةٍ</a> مِّنْهُمْ إِلَّا قَلِيلًا مِّنْهُمْ ۖ فَٱعْفُ عَنْهُمْ وَٱصْفَحْ وَٱصْفَحْ وَٱصْفَحْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+      "derivedForms": [
+        "خَائِنُون"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 27,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَخُونُوا۟ ٱللَّهَ وَٱلرَّسُولَ وَتَخُونُوٓا۟ أَمَٰنَٰتِكُمْ وَأَنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا <a class=\"highlight-text\">تَخُونُوا۟</a> ٱللَّهَ وَٱلرَّسُولَ <a class=\"highlight-text\">وَتَخُونُوٓا۟</a> أَمَٰنَٰتِكُمْ وَأَنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "خَانَ",
+        "خَانَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 58,
+      "text": "وَإِمَّا تَخَافَنَّ مِن قَوْمٍ خِيَانَةً فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ سَوَآءٍ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْخَآئِنِينَ",
+      "highlightedHtml": "وَإِمَّا تَخَافَنَّ مِن قَوْمٍ <a class=\"highlight-text\">خِيَانَةً</a> فَٱنۢبِذْ إِلَيْهِمْ عَلَىٰ سَوَآءٍ سَوَآءٍ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ <a class=\"highlight-text\">ٱلْخَآئِنِينَ</a>",
+      "derivedForms": [
+        "خِيَانَةٌ",
+        "خَائِنُون"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 71,
+      "text": "وَإِن يُرِيدُوا۟ خِيَانَتَكَ فَقَدْ خَانُوا۟ ٱللَّهَ مِن قَبْلُ فَأَمْكَنَ مِنْهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "highlightedHtml": "وَإِن يُرِيدُوا۟ <a class=\"highlight-text\">خِيَانَتَكَ</a> فَقَدْ <a class=\"highlight-text\">خَانُوا۟</a> ٱللَّهَ مِن قَبْلُ فَأَمْكَنَ مِنْهُمْ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+      "derivedForms": [
+        "خِيَانَةٌ",
+        "خَانَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 52,
+      "text": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ أَخُنْهُ بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ ٱلْخَآئِنِينَ",
+      "highlightedHtml": "ذَٰلِكَ لِيَعْلَمَ أَنِّى لَمْ <a class=\"highlight-text\">أَخُنْهُ</a> بِٱلْغَيْبِ وَأَنَّ ٱللَّهَ لَا يَهْدِى كَيْدَ <a class=\"highlight-text\">ٱلْخَآئِنِينَ</a>",
+      "derivedForms": [
+        "خَانَ",
+        "خَائِنُون"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 38,
+      "text": "إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ آمَنُوا ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ خَوَّانٍ كَفُورٍ",
+      "highlightedHtml": "إِنَّ ٱللَّهَ يُدَٰفِعُ عَنِ ٱلَّذِينَ آمَنُوا ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ كُلَّ <a class=\"highlight-text\">خَوَّانٍ</a> كَفُورٍ",
+      "derivedForms": [
+        "خَوَّانٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 19,
+      "text": "يَعْلَمُ خَآئِنَةَ ٱلْأَعْيُنِ وَمَا تُخْفِى ٱلصُّدُورُ ٱلصُّدُورُ",
+      "highlightedHtml": "يَعْلَمُ <a class=\"highlight-text\">خَآئِنَةَ</a> ٱلْأَعْيُنِ وَمَا تُخْفِى ٱلصُّدُورُ ٱلصُّدُورُ",
+      "derivedForms": [
+        "خَائِنُون"
+      ]
+    },
+    {
+      "surah": 66,
+      "ayah": 10,
+      "text": "ضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍ وَٱمْرَأَتَ لُوطٍ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ",
+      "highlightedHtml": "ضَرَبَ ٱللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا۟ ٱمْرَأَتَ نُوحٍ وَٱمْرَأَتَ لُوطٍ ۖ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَٰلِحَيْنِ <a class=\"highlight-text\">فَخَانَتَاهُمَا</a> فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ ٱللَّهِ شَيْـًٔا وَقِيلَ ٱدْخُلَا ٱلنَّارَ مَعَ ٱلدَّٰخِلِينَ",
+      "derivedForms": [
+        "خَانَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:53.303Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form VIII) imperfect verb",
+    "derivativeNote": "تَخْتَانُونَ is in the derivative form: تَخْتَانُون",
+    "rootDefinitionHtml": "خ/و/ن   kh–w–n treachery, falsehood, disloyalty<br>; to betray, to let down; to give false advice; to shortchange; a furtive glance, to glance furtively; to look after; to fall on hard times. <br><br>Of this root, 6 forms occur 16 times in the Qur’an:<br> خَانَ khāna 5 times; يَخْتَانَ yakhtān 2 times; خِيَانَةٌ khiyānatun 2 times; خَائِنُون khāʾinūn 3 times; خَائِنَةٌ khāʾinatun 2 times and خَوَّانٌ khawwān 2 times.",
+    "mainDefinitionHtml": "تَخْتَانُون takhtānūn [imperf. of v. VIII اخْتَانَ ʾikhtān, trans.] to deceive, to defraud, to cheat <br><br>(4:107) وَلاَ تُجَادِلْ عَنِ الَّذِينَ يَخْتَانُونَ أَنْفُسَهُمْ do not argue for those who betray their own souls (or, who are false to themselves, or, who betray one another).",
+    "mainEntryId": "wdef-خ-و-ن.تَخْتَانُون",
+    "entries": [
+      {
+        "id": "wdef-خ-و-ن",
+        "label": "خ-و-ن",
+        "definitionHtml": "خ/و/ن   kh–w–n treachery, falsehood, disloyalty<br>; to betray, to let down; to give false advice; to shortchange; a furtive glance, to glance furtively; to look after; to fall on hard times. <br><br>Of this root, 6 forms occur 16 times in the Qur’an:<br> خَانَ khāna 5 times; يَخْتَانَ yakhtān 2 times; خِيَانَةٌ khiyānatun 2 times; خَائِنُون khāʾinūn 3 times; خَائِنَةٌ khāʾinatun 2 times and خَوَّانٌ khawwān 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ن.تَخْتَانُون",
+        "label": "تَخْتَانُون",
+        "definitionHtml": "تَخْتَانُون takhtānūn [imperf. of v. VIII اخْتَانَ ʾikhtān, trans.] to deceive, to defraud, to cheat <br><br>(4:107) وَلاَ تُجَادِلْ عَنِ الَّذِينَ يَخْتَانُونَ أَنْفُسَهُمْ do not argue for those who betray their own souls (or, who are false to themselves, or, who betray one another).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-و-ن.خَائِنُون",
+        "label": "خَائِنُون",
+        "definitionHtml": "خَائِنُون khāʾinūn [pl. of act. part. خَائِنٌ khāʾin; fem. خَائِنَةٌ khāʾinatun] a treacherous person, a cheat <br><br>(4:105) وَلاَ تَكُنْ لِلْخَائِنِينَ خَصِيمًا and do not be an advocate for the treacherous; *<br><br>(40:19) خَائِنَةَ الأَعْيُنِ furtive glances, stealthy glances, furtive looks.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ن.خَانَ",
+        "label": "خَانَ",
+        "definitionHtml": "خَانَ khāna u [v. trans.] <br><br><strong>1 </strong>to betray <br><br>(8:71) وَإِنْ يُرِيدُوا خِيَانَتَكَ فَقَدْ خَانُوا اللَّهَ مِنْ قَبْلُ but if they mean to betray you, they have betrayed God before <br><br><strong>2 </strong>to fail a trust <br><br>(12:52) ذَلِكَ لِيَعْلَمَ أَنِّي لَمْ أَخُنْهُ بِالْغَيْبِ that [testimony should be enough proof] that I did not betray his [the master’s] trust behind his back <br><br><strong>3 </strong>to break a pledge, to violate an agreement <br><br>(8:27) وَتَخُونُوا أَمَانَاتِكُمْ وَأَنْتُمْ تَعْلَمُونَ and [do not] knowingly break your pledges.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ن.خَوَّانٌ",
+        "label": "خَوَّانٌ",
+        "definitionHtml": "خَوَّانٌ khawwān [intens. act. part.] one given to treachery, a vicious traitor <br><br>(4:107) إِنَّ اللَّهَ لاَ يُحِبُّ مَنْ كَانَ خَوَّانًا أَثِيمًا God does not love anyone given to treachery and sin.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-و-ن.خِيَانَةٌ",
+        "label": "خِيَانَةٌ",
+        "definitionHtml": "خِيَانَةٌ khiyānatun I [v. n.] breaking of a covenant, betraying <br><br>(8:71) وَإِنْ يُرِيدُوا خِيَانَتَكَ فَقَدْ خَانُوا اللَّهَ مِنْ قَبْلُ but if they mean to betray you, they have betrayed God before II [n.] treachery, betrayal, <br><br>(8:58) وَإِمَّا تَخَافَنَّ مِنْ قَوْمٍ خِيَانَةً فَانْبِذْ إِلَيْهِمْ عَلَى سَوَاءٍ and if you fear treachery on the part of any people, throw it [their treaty] back at them equally/openly.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:34:06.506Z",
+      "refword": "2:187:18",
+      "lexword": "تَخْتَانُونَ"
+    }
+  }
+}

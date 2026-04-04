@@ -1,0 +1,95 @@
+{
+  "root": "ملق",
+  "rootArabic": "ملق",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "إِمْلاق",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِمْلاق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إِمْلاق",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 151,
+      "text": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُم مِّنْ إِمْلَٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+      "highlightedHtml": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُم مِّنْ <a class=\"highlight-text\">إِمْلَٰقٍ</a> ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+      "derivedForms": [
+        "إِمْلاق"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 31,
+      "text": "وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُمْ خَشْيَةَ إِمْلَٰقٍ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا",
+      "highlightedHtml": "وَلَا تَقْتُلُوٓا۟ أَوْلَٰدَكُمْ خَشْيَةَ <a class=\"highlight-text\">إِمْلَٰقٍ</a> ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا",
+      "derivedForms": [
+        "إِمْلاق"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:36.966Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite (form IV) verbal noun",
+    "derivativeNote": "إِمْلَٰقٍ is in the derivative form: إِمْلاق",
+    "rootDefinitionHtml": "م/ل/ق   m–l–q smooth, solid rock, to smooth; to flatter; to become impoverished, to become destitute; to erase, to level up. Of this root, only إِمْلاق ʾimlāq occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "إِمْلاق ʾimlāq [n./v. n. of v. IV أمْلَقَ ʾamlaqa] poverty, destitution <br><br>(6:151)‏وَلاَ‏ ‏تَقْتُلُوا‏ ‏أَوْلاَدَكُمْ‏ ‏مِنْ‏ ‏إِمْلاَقٍ ‏ and do not kill your children because of poverty.",
+    "mainEntryId": "wdef-م-ل-ق.إِمْلاق",
+    "entries": [
+      {
+        "id": "wdef-م-ل-ق",
+        "label": "م-ل-ق",
+        "definitionHtml": "م/ل/ق   m–l–q smooth, solid rock, to smooth; to flatter; to become impoverished, to become destitute; to erase, to level up. Of this root, only إِمْلاق ʾimlāq occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ل-ق.إِمْلاق",
+        "label": "إِمْلاق",
+        "definitionHtml": "إِمْلاق ʾimlāq [n./v. n. of v. IV أمْلَقَ ʾamlaqa] poverty, destitution <br><br>(6:151)‏وَلاَ‏ ‏تَقْتُلُوا‏ ‏أَوْلاَدَكُمْ‏ ‏مِنْ‏ ‏إِمْلاَقٍ ‏ and do not kill your children because of poverty.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:32.484Z",
+      "refword": "6:151:18",
+      "lexword": "إِمْلَٰقٍ"
+    }
+  }
+}

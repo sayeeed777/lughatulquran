@@ -1,0 +1,74 @@
+{
+  "root": "كشط",
+  "rootArabic": "كشط",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "كُشِطَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 81,
+      "surahName": "At-Takwir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كُشِطَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 81,
+      "ayah": 11,
+      "text": "وَإِذَا ٱلسَّمَآءُ كُشِطَتْ",
+      "highlightedHtml": "وَإِذَا ٱلسَّمَآءُ <a class=\"highlight-text\">كُشِطَتْ</a>",
+      "derivedForms": [
+        "كُشِطَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:48.161Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular passive perfect verb",
+    "derivativeNote": "كُشِطَتْ is in the derivative form: كُشِطَ",
+    "rootDefinitionHtml": "ك/ش/ط   k–sh–ṭ to peel away, to peel off, to flay, to scratch off. Of this root, كُشِطَت kushiṭat occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "كُشِطَ kushiṭa [pass. v.] to be peeled off, to be stripped off, to be peeled away <br><br>(81:11) وَإِذَا السَّمَاءُ كُشِطَتْ when the sky is peeled away.",
+    "mainEntryId": "wdef-ك-ش-ط.كُشِطَ",
+    "entries": [
+      {
+        "id": "wdef-ك-ش-ط",
+        "label": "ك-ش-ط",
+        "definitionHtml": "ك/ش/ط   k–sh–ṭ to peel away, to peel off, to flay, to scratch off. Of this root, كُشِطَت kushiṭat occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ش-ط.كُشِطَ",
+        "label": "كُشِطَ",
+        "definitionHtml": "كُشِطَ kushiṭa [pass. v.] to be peeled off, to be stripped off, to be peeled away <br><br>(81:11) وَإِذَا السَّمَاءُ كُشِطَتْ when the sky is peeled away.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:00.556Z",
+      "refword": "81:11:3",
+      "lexword": "كُشِطَتْ"
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "root": "بطش",
+  "rootArabic": "بطش",
+  "stats": {
+    "totalOccurrences": 10,
+    "derivativeCount": 2,
+    "surahCount": 8,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "بَطَشَ",
+      "count": 5
+    },
+    {
+      "form": "بَطْشَةٌ",
+      "count": 5
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطَشَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَطَشَ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطَشَ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطْشَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَطَشَ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "بَطْشَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطْشَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطْشَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 85,
+      "surahName": "Al-Buruj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "بَطْشَةٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 195,
+      "text": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ يَبْطِشُونَ بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
+      "highlightedHtml": "أَلَهُمْ أَرْجُلٌ يَمْشُونَ بِهَآ ۖ أَمْ لَهُمْ أَيْدٍ <a class=\"highlight-text\">يَبْطِشُونَ</a> بِهَآ ۖ أَمْ لَهُمْ أَعْيُنٌ يُبْصِرُونَ بِهَآ ۖ أَمْ لَهُمْ آذَانٌ يَسْمَعُونَ بِهَا ۗ قُلِ ٱدْعُوا۟ شُرَكَآءَكُمْ ثُمَّ كِيدُونِ فَلَا تُنظِرُونِ",
+      "derivedForms": [
+        "بَطَشَ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 130,
+      "text": "وَإِذَا بَطَشْتُم بَطَشْتُمْ جَبَّارِينَ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">بَطَشْتُم</a> <a class=\"highlight-text\">بَطَشْتُمْ</a> جَبَّارِينَ",
+      "derivedForms": [
+        "بَطَشَ",
+        "بَطَشَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 19,
+      "text": "فَلَمَّآ أَنْ أَرَادَ أَن يَبْطِشَ بِٱلَّذِى هُوَ عَدُوٌّ لَّهُمَا قَالَ يَٰمُوسَىٰٓ أَتُرِيدُ أَن تَقْتُلَنِى كَمَا قَتَلْتَ نَفْسًۢا بِٱلْأَمْسِ ۖ إِن تُرِيدُ إِلَّآ أَن تَكُونَ جَبَّارًا فِى ٱلْأَرْضِ وَمَا تُرِيدُ أَن تَكُونَ مِنَ ٱلْمُصْلِحِينَ",
+      "highlightedHtml": "فَلَمَّآ أَنْ أَرَادَ أَن <a class=\"highlight-text\">يَبْطِشَ</a> بِٱلَّذِى هُوَ عَدُوٌّ لَّهُمَا قَالَ يَٰمُوسَىٰٓ أَتُرِيدُ أَن تَقْتُلَنِى كَمَا قَتَلْتَ نَفْسًۢا بِٱلْأَمْسِ ۖ إِن تُرِيدُ إِلَّآ أَن تَكُونَ جَبَّارًا فِى ٱلْأَرْضِ وَمَا تُرِيدُ أَن تَكُونَ مِنَ ٱلْمُصْلِحِينَ",
+      "derivedForms": [
+        "بَطَشَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 8,
+      "text": "فَأَهْلَكْنَآ أَشَدَّ مِنْهُم بَطْشًا وَمَضَىٰ مَثَلُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "فَأَهْلَكْنَآ أَشَدَّ مِنْهُم <a class=\"highlight-text\">بَطْشًا</a> وَمَضَىٰ مَثَلُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "بَطْشَةٌ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 16,
+      "text": "يَوْمَ نَبْطِشُ ٱلْبَطْشَةَ ٱلْكُبْرَىٰٓ إِنَّا مُنتَقِمُونَ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">نَبْطِشُ</a> <a class=\"highlight-text\">ٱلْبَطْشَةَ</a> ٱلْكُبْرَىٰٓ إِنَّا مُنتَقِمُونَ",
+      "derivedForms": [
+        "بَطَشَ",
+        "بَطْشَةٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 36,
+      "text": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم <a class=\"highlight-text\">بَطْشًا</a> فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ",
+      "derivedForms": [
+        "بَطْشَةٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 36,
+      "text": "وَلَقَدْ أَنذَرَهُم بَطْشَتَنَا فَتَمَارَوْا۟ بِٱلنُّذُرِ",
+      "highlightedHtml": "وَلَقَدْ أَنذَرَهُم <a class=\"highlight-text\">بَطْشَتَنَا</a> فَتَمَارَوْا۟ بِٱلنُّذُرِ",
+      "derivedForms": [
+        "بَطْشَةٌ"
+      ]
+    },
+    {
+      "surah": 85,
+      "ayah": 12,
+      "text": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
+      "highlightedHtml": "إِنَّ <a class=\"highlight-text\">بَطْشَ</a> رَبِّكَ لَشَدِيدٌ",
+      "derivedForms": [
+        "بَطْشَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:44.205Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَبْطِشُونَ is in the derivative form: بَطَشَ",
+    "rootDefinitionHtml": "ب/ط/ش   b–ṭ–sh force, attack, to seize with violence, to assault, to batter. <br><br>Of this root, 3 forms occur 10 times in the Qur’an:<br> بَطَشَ baṭasha 5 times; بَطْشٌ baṭsh 3 times and بَطْشَةٌ baṭshatun 2 times.",
+    "mainDefinitionHtml": "بَطَشَ baṭasha i/u [v. intrans. with prep. ﺒ; v. n. بَطْشٌ baṭsh] to strike down, to assault <br><br>(28:19) فَلَمَّا أَنْ أَرَادَ أَنْ يَبْطِشَ بِالَّذِي هُوَ عَدُوٌّ لَهُمَا as he was about to assault the one who was an enemy to both of them.",
+    "mainEntryId": "wdef-ب-ط-ش.بَطَشَ",
+    "entries": [
+      {
+        "id": "wdef-ب-ط-ش",
+        "label": "ب-ط-ش",
+        "definitionHtml": "ب/ط/ش   b–ṭ–sh force, attack, to seize with violence, to assault, to batter. <br><br>Of this root, 3 forms occur 10 times in the Qur’an:<br> بَطَشَ baṭasha 5 times; بَطْشٌ baṭsh 3 times and بَطْشَةٌ baṭshatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ط-ش.بَطَشَ",
+        "label": "بَطَشَ",
+        "definitionHtml": "بَطَشَ baṭasha i/u [v. intrans. with prep. ﺒ; v. n. بَطْشٌ baṭsh] to strike down, to assault <br><br>(28:19) فَلَمَّا أَنْ أَرَادَ أَنْ يَبْطِشَ بِالَّذِي هُوَ عَدُوٌّ لَهُمَا as he was about to assault the one who was an enemy to both of them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ط-ش.بَطْشَةٌ",
+        "label": "بَطْشَةٌ",
+        "definitionHtml": "بَطْشَةٌ baṭshatun [n. of unit] onslaught, a fierce attack <br><br>(44:16) يَوْمَ نَبْطِشُ الْبَطْشَةَ الْكُبْرَى إِنَّا مُنْتَقِمُونَ and [We will exact retribution] on the Day We inflict the mightiest onslaught.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:26:22.302Z",
+      "refword": "7:195:8",
+      "lexword": "يَبْطِشُونَ"
+    }
+  }
+}

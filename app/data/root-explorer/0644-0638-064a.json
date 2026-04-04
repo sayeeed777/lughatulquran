@@ -1,0 +1,81 @@
+{
+  "root": "لظي",
+  "rootArabic": "لظي",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَلَظَّى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَلَظَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 92,
+      "ayah": 14,
+      "text": "فَأَنذَرْتُكُمْ نَارًا تَلَظَّىٰ",
+      "highlightedHtml": "فَأَنذَرْتُكُمْ نَارًا <a class=\"highlight-text\">تَلَظَّىٰ</a>",
+      "derivedForms": [
+        "تَلَظَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:31.467Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular imperfect verb",
+    "derivativeNote": "تَلَظَّىٰ is in the derivative form: تَلَظَّى",
+    "rootDefinitionHtml": "ل/ظ/ي   l–ẓ–y fire, raging fire, to burn brightly; to be mad with anger. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> تَلَظَّى talaẓẓā and لَظَى laẓā.",
+    "mainDefinitionHtml": "تَلَظَّى talaẓẓā [imperf., with elided initial ﺘَ, of v. V intrans.] to blaze, to burn fiercely <br><br>(92:14) فَأَنْذَرْتُكُمْ‏ ‏نَارًا‏ ‏تَلَظَّى‏ so I have warned you about a raging Fire.",
+    "mainEntryId": "wdef-ل-ظ-ي.تَلَظَّى",
+    "entries": [
+      {
+        "id": "wdef-ل-ظ-ي",
+        "label": "ل-ظ-ي",
+        "definitionHtml": "ل/ظ/ي   l–ẓ–y fire, raging fire, to burn brightly; to be mad with anger. <br><br>Of this root, 2 words occur 1 time each in the Qur’an:<br> تَلَظَّى talaẓẓā and لَظَى laẓā.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-ظ-ي.تَلَظَّى",
+        "label": "تَلَظَّى",
+        "definitionHtml": "تَلَظَّى talaẓẓā [imperf., with elided initial ﺘَ, of v. V intrans.] to blaze, to burn fiercely <br><br>(92:14) فَأَنْذَرْتُكُمْ‏ ‏نَارًا‏ ‏تَلَظَّى‏ so I have warned you about a raging Fire.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-ظ-ي.لَظَى",
+        "label": "لَظَى",
+        "definitionHtml": "لَظَى laẓā [n.] a raging fire <br><br>(70:15) كَلاَّ‏ ‏إِنَّهَا‏ ‏لَظَى ‏ indeed, it [Hell] is truly a raging fire.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:22.417Z",
+      "refword": "92:14:3",
+      "lexword": "تَلَظَّىٰ"
+    }
+  }
+}

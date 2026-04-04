@@ -1,0 +1,180 @@
+{
+  "root": "نكل",
+  "rootArabic": "نكل",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "نَكَالٌ",
+      "count": 3
+    },
+    {
+      "form": "أَنْكَالٌ",
+      "count": 1
+    },
+    {
+      "form": "تَنْكِيلٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَالٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَنْكِيلٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَالٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْكَالٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَكَالٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 66,
+      "text": "فَجَعَلْنَٰهَا نَكَٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "highlightedHtml": "فَجَعَلْنَٰهَا <a class=\"highlight-text\">نَكَٰلًا</a> لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "derivedForms": [
+        "نَكَالٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 84,
+      "text": "فَقَٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنكِيلًا",
+      "highlightedHtml": "فَقَٰتِلْ فِى سَبِيلِ ٱللَّهِ لَا تُكَلَّفُ إِلَّا نَفْسَكَ ۚ وَحَرِّضِ ٱلْمُؤْمِنِينَ ۖ عَسَى ٱللَّهُ أَن يَكُفَّ بَأْسَ ٱلَّذِينَ كَفَرُوا۟ ۚ وَٱللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ <a class=\"highlight-text\">تَنكِيلًا</a>",
+      "derivedForms": [
+        "تَنْكِيلٌ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 38,
+      "text": "وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا جَزَآءًۢ بِمَا كَسَبَا نَكَٰلًا مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا جَزَآءًۢ بِمَا كَسَبَا <a class=\"highlight-text\">نَكَٰلًا</a> مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "نَكَالٌ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 12,
+      "text": "إِنَّ لَدَيْنَآ أَنكَالًا وَجَحِيمًا",
+      "highlightedHtml": "إِنَّ لَدَيْنَآ <a class=\"highlight-text\">أَنكَالًا</a> وَجَحِيمًا",
+      "derivedForms": [
+        "أَنْكَالٌ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 25,
+      "text": "فَأَخَذَهُ ٱللَّهُ نَكَالَ الْآخِرَةِ وَٱلْأُولَىٰٓ",
+      "highlightedHtml": "فَأَخَذَهُ ٱللَّهُ <a class=\"highlight-text\">نَكَالَ</a> الْآخِرَةِ وَٱلْأُولَىٰٓ",
+      "derivedForms": [
+        "نَكَالٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:08.885Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "نَكَٰلًا is in the derivative form: نَكَالٌ",
+    "rootDefinitionHtml": "ن/ك/ل   n–k–l shackles, chains<br>; to punish severely, to torture; to force back, to rebel; to recoil, to evade, to be cowardly in the face of the enemy; courageous and experienced person. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> أَنْكَالٌ ʾankāl 1 time; نَكَالٌ nakāl 3 times and تَنْكِيلٌ tankıl 1 time.",
+    "mainDefinitionHtml": "نَكَالٌ nakāl [v. n.; n.] warning, lesson, example <br><br>(2:66) فَجَعَلْنَاهَا نَكَالاً لِمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِلْمُتَّقِينَ so We made it a warning to those people who were there at the time and to those who came after them, and a lesson to those who are mindful of God.",
+    "mainEntryId": "wdef-ن-ك-ل.نَكَالٌ",
+    "entries": [
+      {
+        "id": "wdef-ن-ك-ل",
+        "label": "ن-ك-ل",
+        "definitionHtml": "ن/ك/ل   n–k–l shackles, chains<br>; to punish severely, to torture; to force back, to rebel; to recoil, to evade, to be cowardly in the face of the enemy; courageous and experienced person. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> أَنْكَالٌ ʾankāl 1 time; نَكَالٌ nakāl 3 times and تَنْكِيلٌ tankıl 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ل.نَكَالٌ",
+        "label": "نَكَالٌ",
+        "definitionHtml": "نَكَالٌ nakāl [v. n.; n.] warning, lesson, example <br><br>(2:66) فَجَعَلْنَاهَا نَكَالاً لِمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِلْمُتَّقِينَ so We made it a warning to those people who were there at the time and to those who came after them, and a lesson to those who are mindful of God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ك-ل.أَنْكَالٌ",
+        "label": "أَنْكَالٌ",
+        "definitionHtml": "أَنْكَالٌ ʾankāl [pl. of n. نِكْلٌ nikl] shackles, fetters <br><br>(73:12) إِنَّ لَدَيْنَا أَنْكَالاً وَجَحِيمًا indeed, We have fetters and a blazing fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ك-ل.تَنْكِيلٌ",
+        "label": "تَنْكِيلٌ",
+        "definitionHtml": "تَنْكِيلٌ tankıl [v. n.] punishment, retribution <br><br>(4:84) وَاللَّهُ أَشَدُّ بَأْسًا وَأَشَدُّ تَنْكِيلاً God is stronger in might and more terrible in punishment.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:01:28.982Z",
+      "refword": "2:66:2",
+      "lexword": "نَكَٰلًا"
+    }
+  }
+}

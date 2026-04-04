@@ -1,0 +1,74 @@
+{
+  "root": "سهم",
+  "rootArabic": "سهم",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "ساهَمَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساهَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 37,
+      "ayah": 141,
+      "text": "فَسَاهَمَ فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَسَاهَمَ</a> فَكَانَ مِنَ ٱلْمُدْحَضِينَ",
+      "derivedForms": [
+        "ساهَمَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:34.513Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form III) perfect verb",
+    "derivativeNote": "فَسَاهَمَ is in the derivative form: ساهَمَ",
+    "rootDefinitionHtml": "س/هـ/م s–h–m share, luck; arrow; area of land, drawing lots, haggardness of face. Of this root, only ساهَمَ sāhama occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "ساهَمَ sāhama [v. III, intrans.] to draw lots <br><br>(37:140-1) إِذْ‏ ‏أَبَقَ‏ ‏إِلَى‏ ‏الْفُلْكِ‏ ‏الْمَشْحُونِ‏ ‏فَسَاهَمَ‏ ‏فَكَانَ‏ ‏مِنَ‏ ‏الْمُدْحَضِينَ he fled to the overloaded ship, cast lots, and suffered defeat.",
+    "mainEntryId": "wdef-س-هـ-م.ساهَمَ",
+    "entries": [
+      {
+        "id": "wdef-س-هـ-م",
+        "label": "س-هـ-م",
+        "definitionHtml": "س/هـ/م s–h–m share, luck; arrow; area of land, drawing lots, haggardness of face. Of this root, only ساهَمَ sāhama occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-هـ-م.ساهَمَ",
+        "label": "ساهَمَ",
+        "definitionHtml": "ساهَمَ sāhama [v. III, intrans.] to draw lots <br><br>(37:140-1) إِذْ‏ ‏أَبَقَ‏ ‏إِلَى‏ ‏الْفُلْكِ‏ ‏الْمَشْحُونِ‏ ‏فَسَاهَمَ‏ ‏فَكَانَ‏ ‏مِنَ‏ ‏الْمُدْحَضِينَ he fled to the overloaded ship, cast lots, and suffered defeat.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:13.601Z",
+      "refword": "37:141:1",
+      "lexword": "فَسَاهَمَ"
+    }
+  }
+}

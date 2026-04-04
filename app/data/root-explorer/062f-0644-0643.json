@@ -1,0 +1,74 @@
+{
+  "root": "دلك",
+  "rootArabic": "دلك",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "دُلُوكٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُلُوكٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 17,
+      "ayah": 78,
+      "text": "أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
+      "highlightedHtml": "أَقِمِ ٱلصَّلَوٰةَ <a class=\"highlight-text\">لِدُلُوكِ</a> ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا",
+      "derivedForms": [
+        "دُلُوكٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:21.190Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine verbal noun",
+    "derivativeNote": "لِدُلُوكِ is in the derivative form: دُلُوكٌ",
+    "rootDefinitionHtml": "د/ل/ك   d–l–k to rub; to try, to gain experience, a well‐travelled camel, to be hard up; (of the sun) to pass the meridian, to set, to rise. Of this root, دُلُوكٌ dulūk occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "دُلُوكٌ dulūk [v. n./n.] (of the sun) interpreted as: setting, inclining over the meridian, or rising ‏<br><br>(17:78) أَقِمِ الصَّلاَةَ لِدُلُوكِ الشَّمْسِ إِلَى غَسَقِ اللَّيْلِ establish the prayer at the going down of the sun (or, at its crossing the zenith) until the darkness of the night.",
+    "mainEntryId": "wdef-د-ل-ك.دُلُوكٌ",
+    "entries": [
+      {
+        "id": "wdef-د-ل-ك",
+        "label": "د-ل-ك",
+        "definitionHtml": "د/ل/ك   d–l–k to rub; to try, to gain experience, a well‐travelled camel, to be hard up; (of the sun) to pass the meridian, to set, to rise. Of this root, دُلُوكٌ dulūk occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-ل-ك.دُلُوكٌ",
+        "label": "دُلُوكٌ",
+        "definitionHtml": "دُلُوكٌ dulūk [v. n./n.] (of the sun) interpreted as: setting, inclining over the meridian, or rising ‏<br><br>(17:78) أَقِمِ الصَّلاَةَ لِدُلُوكِ الشَّمْسِ إِلَى غَسَقِ اللَّيْلِ establish the prayer at the going down of the sun (or, at its crossing the zenith) until the darkness of the night.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:02.444Z",
+      "refword": "17:78:3",
+      "lexword": "لِدُلُوكِ"
+    }
+  }
+}

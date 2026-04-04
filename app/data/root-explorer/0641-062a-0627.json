@@ -1,0 +1,74 @@
+{
+  "root": "فتا",
+  "rootArabic": "فتا",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تَفْتَؤ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَفْتَؤ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 85,
+      "text": "قَالُوا۟ تَٱللَّهِ تَفْتَؤُا۟ تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ <a class=\"highlight-text\">تَفْتَؤُا۟</a> تَذْكُرُ يُوسُفَ حَتَّىٰ تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ ٱلْهَٰلِكِينَ",
+      "derivedForms": [
+        "تَفْتَؤ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:52:26.418Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperfect verb",
+    "derivativeNote": "تَفْتَؤُا۟ is in the derivative form: تَفْتَؤ",
+    "rootDefinitionHtml": "ف/ت/أ   f–t–ʾ to cease, to quieten, to become still. Of this root, تَفْتَؤ taftaʾu, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تَفْتَؤ taftaʾu [imperf. of فَتِىء fatiʾa, a sister of kāna (من أخوات كَانَ) (q.v.), with the negative particle مَا or لاَ omitted], to continue <br><br>(12:85) ‏تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ حَتَّى تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ الْهَالِكِينَ by God!–you will continue remembering/mentioning [lit. not cease to remember] Joseph until you become extremely ill, or are of the dead.",
+    "mainEntryId": "wdef-ف-ت-أ.تَفْتَؤ",
+    "entries": [
+      {
+        "id": "wdef-ف-ت-أ",
+        "label": "ف-ت-أ",
+        "definitionHtml": "ف/ت/أ   f–t–ʾ to cease, to quieten, to become still. Of this root, تَفْتَؤ taftaʾu, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ت-أ.تَفْتَؤ",
+        "label": "تَفْتَؤ",
+        "definitionHtml": "تَفْتَؤ taftaʾu [imperf. of فَتِىء fatiʾa, a sister of kāna (من أخوات كَانَ) (q.v.), with the negative particle مَا or لاَ omitted], to continue <br><br>(12:85) ‏تَاللَّهِ تَفْتَأُ تَذْكُرُ يُوسُفَ حَتَّى تَكُونَ حَرَضًا أَوْ تَكُونَ مِنَ الْهَالِكِينَ by God!–you will continue remembering/mentioning [lit. not cease to remember] Joseph until you become extremely ill, or are of the dead.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:50:35.152Z",
+      "refword": "12:85:3",
+      "lexword": "تَفْتَؤُا۟"
+    }
+  }
+}

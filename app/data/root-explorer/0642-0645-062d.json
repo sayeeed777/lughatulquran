@@ -1,0 +1,74 @@
+{
+  "root": "قمح",
+  "rootArabic": "قمح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُقْمَحُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْمَحُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 36,
+      "ayah": 8,
+      "text": "إِنَّا جَعَلْنَا فِىٓ أَعْنَٰقِهِمْ أَغْلَٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم مُّقْمَحُونَ",
+      "highlightedHtml": "إِنَّا جَعَلْنَا فِىٓ أَعْنَٰقِهِمْ أَغْلَٰلًا فَهِىَ إِلَى ٱلْأَذْقَانِ فَهُم <a class=\"highlight-text\">مُّقْمَحُونَ</a>",
+      "derivedForms": [
+        "مُقْمَحُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:13.877Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural (form IV) passive participle",
+    "derivativeNote": "مُّقْمَحُونَ is in the derivative form: مُقْمَحُون",
+    "rootDefinitionHtml": "ق/م/ح   q–m–ḥ to twist the neck; to be humbled, debased or forced into submission; (said of animals) to refuse to drink, to drink one’s fill. Of this root, مُقْمَحُون muqmaḥūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُقْمَحُون muqmaḥūn [pl. of pass. part. مُقْمَحُ muqmaḥ] those who raise the head in refusal of what is being offered, shun assistance, shun guidance; ones who cannot see <br><br>(36:8) إِنَّا جَعَلْنَا فِى أَعْنَاقِهِمْ أَغْلاَلا فَهِيَ إِلَى الأَذْقَانِ فَهُمْ مُقْمَحُونَ We have placed fetters on their necks, right up to their chins, so they have their heads forced up.",
+    "mainEntryId": "wdef-ق-م-ح.مُقْمَحُون",
+    "entries": [
+      {
+        "id": "wdef-ق-م-ح",
+        "label": "ق-م-ح",
+        "definitionHtml": "ق/م/ح   q–m–ḥ to twist the neck; to be humbled, debased or forced into submission; (said of animals) to refuse to drink, to drink one’s fill. Of this root, مُقْمَحُون muqmaḥūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-م-ح.مُقْمَحُون",
+        "label": "مُقْمَحُون",
+        "definitionHtml": "مُقْمَحُون muqmaḥūn [pl. of pass. part. مُقْمَحُ muqmaḥ] those who raise the head in refusal of what is being offered, shun assistance, shun guidance; ones who cannot see <br><br>(36:8) إِنَّا جَعَلْنَا فِى أَعْنَاقِهِمْ أَغْلاَلا فَهِيَ إِلَى الأَذْقَانِ فَهُمْ مُقْمَحُونَ We have placed fetters on their necks, right up to their chins, so they have their heads forced up.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:59.530Z",
+      "refword": "36:8:10",
+      "lexword": "مُّقْمَحُونَ"
+    }
+  }
+}

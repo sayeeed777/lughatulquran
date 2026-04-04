@@ -1,0 +1,202 @@
+{
+  "root": "صدع",
+  "rootArabic": "صدع",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 5,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "إصْدَع",
+      "count": 1
+    },
+    {
+      "form": "صَدْع",
+      "count": 1
+    },
+    {
+      "form": "مُتَصَدِّع",
+      "count": 1
+    },
+    {
+      "form": "يَصَّدَّعون",
+      "count": 1
+    },
+    {
+      "form": "يُصَدَّعون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "إصْدَع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصَّدَّعون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُصَدَّعون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَصَدِّع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 86,
+      "surahName": "At-Tariq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَدْع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 94,
+      "text": "فَٱصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَٱصْدَعْ</a> بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
+      "derivedForms": [
+        "إصْدَع"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 43,
+      "text": "فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ مِن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۖ يَوْمَئِذٍ يَصَّدَّعُونَ",
+      "highlightedHtml": "فَأَقِمْ وَجْهَكَ لِلدِّينِ ٱلْقَيِّمِ مِن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا مَرَدَّ لَهُۥ مِنَ ٱللَّهِ ۖ يَوْمَئِذٍ <a class=\"highlight-text\">يَصَّدَّعُونَ</a>",
+      "derivedForms": [
+        "يَصَّدَّعون"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 19,
+      "text": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+      "highlightedHtml": "لَّا <a class=\"highlight-text\">يُصَدَّعُونَ</a> عَنْهَا وَلَا يُنزِفُونَ",
+      "derivedForms": [
+        "يُصَدَّعون"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 21,
+      "text": "لَوْ أَنزَلْنَا هَٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُۥ خَٰشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ ٱللَّهِ ۚ وَتِلْكَ ٱلْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "highlightedHtml": "لَوْ أَنزَلْنَا هَٰذَا ٱلْقُرْءَانَ عَلَىٰ جَبَلٍ لَّرَأَيْتَهُۥ خَٰشِعًا <a class=\"highlight-text\">مُّتَصَدِّعًا</a> مِّنْ خَشْيَةِ ٱللَّهِ ۚ وَتِلْكَ ٱلْأَمْثَٰلُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "مُتَصَدِّع"
+      ]
+    },
+    {
+      "surah": 86,
+      "ayah": 12,
+      "text": "وَٱلْأَرْضِ ذَاتِ ٱلصَّدْعِ",
+      "highlightedHtml": "وَٱلْأَرْضِ ذَاتِ <a class=\"highlight-text\">ٱلصَّدْعِ</a>",
+      "derivedForms": [
+        "صَدْع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:45.963Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "فَٱصْدَعْ is in the derivative form: إصْدَع",
+    "rootDefinitionHtml": "ص/د/ع   ṣ–d–ʿ to cleave, to split<br>; to cause a headache; to disperse, to scatter; to traverse, to cross from 1 side to the other, to journey; crack, fissure, cleavage; scattering, standing out; to comply with, to attain to. <br><br>Of this root, 5 forms occur 1 time each in the Qur’an:<br> اصْدَعْ ʾiṣdaʿ; يَصَّدَّعون yaṣṣaddaʿūn; يُصَدَّعون yuṣaddaʿūn; مُتَصَدِّع mutaṣaddiʿ and صدع ṣadʿ.",
+    "mainDefinitionHtml": "إصْدَع ʾiṣdaʿ [imper. v. with prep. ﺒ] attain to, comply with; reveal, distinguish between; disperse <br><br>(15:94) فَاصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ الْمُشْرِكِينَ so proclaim openly what you have been commanded [to say], and ignore the polytheists.",
+    "mainEntryId": "wdef-ص-د-ع.إصْدَع",
+    "entries": [
+      {
+        "id": "wdef-ص-د-ع",
+        "label": "ص-د-ع",
+        "definitionHtml": "ص/د/ع   ṣ–d–ʿ to cleave, to split<br>; to cause a headache; to disperse, to scatter; to traverse, to cross from 1 side to the other, to journey; crack, fissure, cleavage; scattering, standing out; to comply with, to attain to. <br><br>Of this root, 5 forms occur 1 time each in the Qur’an:<br> اصْدَعْ ʾiṣdaʿ; يَصَّدَّعون yaṣṣaddaʿūn; يُصَدَّعون yuṣaddaʿūn; مُتَصَدِّع mutaṣaddiʿ and صدع ṣadʿ.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ع.إصْدَع",
+        "label": "إصْدَع",
+        "definitionHtml": "إصْدَع ʾiṣdaʿ [imper. v. with prep. ﺒ] attain to, comply with; reveal, distinguish between; disperse <br><br>(15:94) فَاصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ الْمُشْرِكِينَ so proclaim openly what you have been commanded [to say], and ignore the polytheists.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-د-ع.صَدْع",
+        "label": "صَدْع",
+        "definitionHtml": "صَدْع ṣadʿ [n./v. n.] crack, split, fault <br><br>(86:12) وَالأَرْضِ ذَاتِ الصَّدْعِ by the earth splitting open [with the sprouting of trees and herbage, or with fissures and faults].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ع.مُتَصَدِّع",
+        "label": "مُتَصَدِّع",
+        "definitionHtml": "مُتَصَدِّع mutaṣaddiʿ [act. part.] cracking, collapsing, splitting asunder <br><br>(59:21) لَوْ أَنْزَلْنَا هَذَا الْقُرْءَانَ عَلَى جَبَلٍ لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ if We had sent this Qur’an down upon a mountain, you would have seen it humbled, split asunder out of the fear of God.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ع.يَصَّدَّعون",
+        "label": "يَصَّدَّعون",
+        "definitionHtml": "يَصَّدَّعون yaṣṣaddaʿūn (assimilated form of يَتَصَدَّعُون yataṣaddaʿūn) [imperf. v. VIII, intrans.] to crack up, to scatter away, to separate, to fragment <br><br>(30:43) فَأَقِمْ وَجْهَكَ لِلدِّينِ الْقَيِّمِ مِنْ قَبْلِ أَنْ يَأْتِيَ يَوْمٌ لاَ مَرَدَّ لَهُ مِنَ اللَّهِ يَوْمَئِذٍ يَصَّدَّعُونَ set your face [stand firm in your devotion] to the upright religion, before there comes, from God, a day which cannot be averted–on that Day, they [humankind] will fall.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-د-ع.يُصَدَّعون",
+        "label": "يُصَدَّعون",
+        "definitionHtml": "يُصَدَّعون yuṣaddaʿūn [pass. imperf. of v. II] to be separated, to be caused to have a headache, hangover <br><br>(56:19) لاَ يُصَدَّعُونَ عَنْهَا وَلاَ يُنْزِفُونَ from which they are caused neither headache nor intoxication.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:32.313Z",
+      "refword": "15:94:1",
+      "lexword": "فَٱصْدَعْ"
+    }
+  }
+}

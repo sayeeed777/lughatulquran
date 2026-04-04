@@ -1,0 +1,74 @@
+{
+  "root": "ضها",
+  "rootArabic": "ضها",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يُضَاهِئُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُضَاهِئُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 9,
+      "ayah": 30,
+      "text": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ",
+      "highlightedHtml": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ <a class=\"highlight-text\">يُضَٰهِـُٔونَ</a> قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ",
+      "derivedForms": [
+        "يُضَاهِئُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:36.263Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form III) imperfect verb",
+    "derivativeNote": "يُضَٰهِـُٔونَ is in the derivative form: يُضَاهِئُ",
+    "rootDefinitionHtml": "ض/هـ/أ   ḍ–h–ʾ to be kind, to treat gently; to be similar, to resemble, to imitate. Of this root, يُضَاهِئُون yuḍāhiʾūn, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يُضَاهِئُ yuḍāhiʾ [imperf. of v. III ضاهأ ḍāhaʾa, trans.] to imitate, to resemble <br><br>(9:30) ذَلِكَ قَوْلُهُمْ بِأَفْوَاهِهِمْ يُضَاهِئُونَ قَوْلَ الَّذِينَ كَفَرُوا مِنْ قَبْلُ that is what they say with their own mouths, imitating the sayings of those who disbelieved before.",
+    "mainEntryId": "wdef-ض-هـ-أ.يُضَاهِئُ",
+    "entries": [
+      {
+        "id": "wdef-ض-هـ-أ",
+        "label": "ض-هـ-أ",
+        "definitionHtml": "ض/هـ/أ   ḍ–h–ʾ to be kind, to treat gently; to be similar, to resemble, to imitate. Of this root, يُضَاهِئُون yuḍāhiʾūn, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ض-هـ-أ.يُضَاهِئُ",
+        "label": "يُضَاهِئُ",
+        "definitionHtml": "يُضَاهِئُ yuḍāhiʾ [imperf. of v. III ضاهأ ḍāhaʾa, trans.] to imitate, to resemble <br><br>(9:30) ذَلِكَ قَوْلُهُمْ بِأَفْوَاهِهِمْ يُضَاهِئُونَ قَوْلَ الَّذِينَ كَفَرُوا مِنْ قَبْلُ that is what they say with their own mouths, imitating the sayings of those who disbelieved before.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:03.756Z",
+      "refword": "9:30:14",
+      "lexword": "يُضَٰهِـُٔونَ"
+    }
+  }
+}

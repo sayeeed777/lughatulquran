@@ -1,0 +1,74 @@
+{
+  "root": "وفد",
+  "rootArabic": "وفد",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "وَفْدٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "وَفْدٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 19,
+      "ayah": 85,
+      "text": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ وَفْدًا",
+      "highlightedHtml": "يَوْمَ نَحْشُرُ ٱلْمُتَّقِينَ إِلَى ٱلرَّحْمَٰنِ <a class=\"highlight-text\">وَفْدًا</a>",
+      "derivedForms": [
+        "وَفْدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:59:34.467Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite verbal noun",
+    "derivativeNote": "وَفْدًا is in the derivative form: وَفْدٌ",
+    "rootDefinitionHtml": "و/ف/د   w–f–d the fastest camel in a caravan; distinguished group of travellers, honoured group arriving at the residence of a high‐ranking person, an envoy between high‐ranking people; to arrive. Of this root, وَفْدٌ wafd, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "وَفْدٌ wafd [coll. n.] honoured company, a group who come into the presence of a high‐ranking person <br><br>(19:85) يَوْمَ نَحْشُرُ الْمُتَّقِينَ إِلَى الرَّحْمَنِ وَفْدًا on the Day We gather the righteous as an honoured company before the Lord of Mercy.",
+    "mainEntryId": "wdef-و-ف-د.وَفْدٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ف-د",
+        "label": "و-ف-د",
+        "definitionHtml": "و/ف/د   w–f–d the fastest camel in a caravan; distinguished group of travellers, honoured group arriving at the residence of a high‐ranking person, an envoy between high‐ranking people; to arrive. Of this root, وَفْدٌ wafd, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ف-د.وَفْدٌ",
+        "label": "وَفْدٌ",
+        "definitionHtml": "وَفْدٌ wafd [coll. n.] honoured company, a group who come into the presence of a high‐ranking person <br><br>(19:85) يَوْمَ نَحْشُرُ الْمُتَّقِينَ إِلَى الرَّحْمَنِ وَفْدًا on the Day We gather the righteous as an honoured company before the Lord of Mercy.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:04:12.632Z",
+      "refword": "19:85:6",
+      "lexword": "وَفْدًا"
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "root": "قنطر",
+  "rootArabic": "قنطر",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "قِنْطَار",
+      "count": 6
+    },
+    {
+      "form": "X",
+      "count": 4
+    },
+    {
+      "form": "مُقَنْطَرَةٌ",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 9,
+      "derivatives": [
+        {
+          "form": "قِنْطَار",
+          "count": 4,
+          "totalInQuran": 6
+        },
+        {
+          "form": "X",
+          "count": 3,
+          "totalInQuran": 4
+        },
+        {
+          "form": "مُقَنْطَرَةٌ",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قِنْطَار",
+          "count": 2,
+          "totalInQuran": 6
+        },
+        {
+          "form": "X",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 14,
+      "text": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "highlightedHtml": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ <a class=\"highlight-text\">وَٱلْقَنَٰطِيرِ</a> <a class=\"highlight-text\">وَٱلْقَنَٰطِيرِ</a> <a class=\"highlight-text\">وَٱلْقَنَٰطِيرِ</a> <a class=\"highlight-text\">ٱلْمُقَنطَرَةِ</a> <a class=\"highlight-text\">ٱلْمُقَنطَرَةِ</a> <a class=\"highlight-text\">ٱلْمُقَنطَرَةِ</a> مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "derivedForms": [
+        "قِنْطَار",
+        "X",
+        "قِنْطَار",
+        "X",
+        "مُقَنْطَرَةٌ",
+        "مُقَنْطَرَةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 75,
+      "text": "وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ بِقِنطَارٍ بِقِنطَارٍ بِقِنطَارٍ يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "highlightedHtml": "وَمِنْ أَهْلِ ٱلْكِتَٰبِ مَنْ إِن تَأْمَنْهُ <a class=\"highlight-text\">بِقِنطَارٍ</a> <a class=\"highlight-text\">بِقِنطَارٍ</a> <a class=\"highlight-text\">بِقِنطَارٍ</a> يُؤَدِّهِۦٓ إِلَيْكَ وَمِنْهُم مَّنْ إِن تَأْمَنْهُ بِدِينَارٍ لَّا يُؤَدِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِمًا ۗ ذَٰلِكَ بِأَنَّهُمْ قَالُوا۟ لَيْسَ عَلَيْنَا فِى ٱلْأُمِّيِّۦنَ سَبِيلٌ وَيَقُولُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ وَهُمْ يَعْلَمُونَ",
+      "derivedForms": [
+        "X",
+        "قِنْطَار",
+        "قِنْطَار"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 20,
+      "text": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ قِنطَارًا قِنطَارًا قِنطَارًا فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "highlightedHtml": "وَإِنْ أَرَدتُّمُ ٱسْتِبْدَالَ زَوْجٍ مَّكَانَ زَوْجٍ وَءَاتَيْتُمْ إِحْدَىٰهُنَّ <a class=\"highlight-text\">قِنطَارًا</a> <a class=\"highlight-text\">قِنطَارًا</a> <a class=\"highlight-text\">قِنطَارًا</a> فَلَا تَأْخُذُوا۟ مِنْهُ شَيْـًٔا ۚ أَتَأْخُذُونَهُۥ بُهْتَٰنًا وَإِثْمًا مُّبِينًا",
+      "derivedForms": [
+        "قِنْطَار",
+        "X",
+        "قِنْطَار"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:16.883Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "وَٱلْقَنَٰطِيرِ is in the derivative form: قِنْطَار",
+    "rootDefinitionHtml": "ق/ن/ط/ر   q–n–ṭ–r to tie together, to arch<br>; to leave the desert and live in urbanised areas; large amounts of money, sums and/or weights of various measures; cunning person. Philologists recognise قِنْطَار qinṭār as a borrowing. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> قِنْطَار qinṭār 2 times; قَنَاطِير qanāṭır 1 time and مُقَنْطَرَةٌ muqanṭaratun 1 time.",
+    "mainDefinitionHtml": "قِنْطَار qinṭār [n.; pl. قَنَاطِير qanāṭır] measure of weight and/or measure of number, regarding the exact amount of which the sources differ significantly. Given the particular contexts in which the two words are used in the Qur’an, it is appropriate to render them simply as ‘a great amount’ or ‘a fortune’ <br><br>(3:75) وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ of the people of the Book there is he who, if you trust him with a ton of gold, he will return it to you.",
+    "mainEntryId": "wdef-ق-ن-ط-ر.قِنْطَار",
+    "entries": [
+      {
+        "id": "wdef-ق-ن-ط-ر",
+        "label": "ق-ن-ط-ر",
+        "definitionHtml": "ق/ن/ط/ر   q–n–ṭ–r to tie together, to arch<br>; to leave the desert and live in urbanised areas; large amounts of money, sums and/or weights of various measures; cunning person. Philologists recognise قِنْطَار qinṭār as a borrowing. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> قِنْطَار qinṭār 2 times; قَنَاطِير qanāṭır 1 time and مُقَنْطَرَةٌ muqanṭaratun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ن-ط-ر.قِنْطَار",
+        "label": "قِنْطَار",
+        "definitionHtml": "قِنْطَار qinṭār [n.; pl. قَنَاطِير qanāṭır] measure of weight and/or measure of number, regarding the exact amount of which the sources differ significantly. Given the particular contexts in which the two words are used in the Qur’an, it is appropriate to render them simply as ‘a great amount’ or ‘a fortune’ <br><br>(3:75) وَمِنْ أَهْلِ الْكِتَابِ مَنْ إِنْ تَأْمَنْهُ بِقِنْطَارٍ يُؤَدِّهِ إِلَيْكَ of the people of the Book there is he who, if you trust him with a ton of gold, he will return it to you.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ن-ط-ر.مُقَنْطَرَةٌ",
+        "label": "مُقَنْطَرَةٌ",
+        "definitionHtml": "مُقَنْطَرَةٌ muqanṭaratun [pass. part.] stacked up in heaps <br><br>(3:14) زُيِّنَ لِلنَّاسِ حُبُّ الشَّهَوَاتِ مِنَ النِّسَاءِ وَالْبَنِينَ وَالْقَنَاطِيرِ الْمُقَنْطَرَةِ مِنَ الذَّهَبِ وَالْفِضَّةِ made alluring to humankind is the love of passions–women, sons, heaped piles of gold and silver.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:06.250Z",
+      "refword": "3:14:8",
+      "lexword": "وَٱلْقَنَٰطِيرِ"
+    }
+  }
+}

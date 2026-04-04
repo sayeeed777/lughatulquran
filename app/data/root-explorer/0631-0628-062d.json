@@ -1,0 +1,74 @@
+{
+  "root": "ربح",
+  "rootArabic": "ربح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "رَبِحَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "رَبِحَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 16,
+      "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ فَمَا رَبِحَت تِّجَٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ",
+      "highlightedHtml": "أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ فَمَا <a class=\"highlight-text\">رَبِحَت</a> تِّجَٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ",
+      "derivedForms": [
+        "رَبِحَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:57.788Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "رَبِحَت is in the derivative form: رَبِحَ",
+    "rootDefinitionHtml": "ر/ب/ح   r–b–ḥ growth, gain, to profit, to earn, to win; trade, goods kept for trading; young sheep and camels. Of this root, رَبِحَ rabiḥa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "رَبِحَ rabiḥa a [v. intrans.] to be profitable, to prosper <br><br>(2:16) فَمَا رَبِحَتْ تِجَارَتُهُمْ so their trade brings no gain.",
+    "mainEntryId": "wdef-ر-ب-ح.رَبِحَ",
+    "entries": [
+      {
+        "id": "wdef-ر-ب-ح",
+        "label": "ر-ب-ح",
+        "definitionHtml": "ر/ب/ح   r–b–ḥ growth, gain, to profit, to earn, to win; trade, goods kept for trading; young sheep and camels. Of this root, رَبِحَ rabiḥa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-ب-ح.رَبِحَ",
+        "label": "رَبِحَ",
+        "definitionHtml": "رَبِحَ rabiḥa a [v. intrans.] to be profitable, to prosper <br><br>(2:16) فَمَا رَبِحَتْ تِجَارَتُهُمْ so their trade brings no gain.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:11.136Z",
+      "refword": "2:16:7",
+      "lexword": "رَبِحَت"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "root": "شغل",
+  "rootArabic": "شغل",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "شَغَلَ",
+      "count": 1
+    },
+    {
+      "form": "شُغُل",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شُغُل",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَغَلَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 36,
+      "ayah": 55,
+      "text": "إِنَّ أَصْحَٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى شُغُلٍ فَٰكِهُونَ",
+      "highlightedHtml": "إِنَّ أَصْحَٰبَ ٱلْجَنَّةِ ٱلْيَوْمَ فِى <a class=\"highlight-text\">شُغُلٍ</a> فَٰكِهُونَ",
+      "derivedForms": [
+        "شُغُل"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 11,
+      "text": "سَيَقُولُ لَكَ ٱلْمُخَلَّفُونَ مِنَ ٱلْأَعْرَابِ شَغَلَتْنَآ أَمْوَٰلُنَا وَأَهْلُونَا فَٱسْتَغْفِرْ لَنَا ۚ يَقُولُونَ بِأَلْسِنَتِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۚ قُلْ فَمَن يَمْلِكُ لَكُم مِّنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ بِكُمْ ضَرًّا أَوْ أَرَادَ بِكُمْ نَفْعًۢا ۚ بَلْ كَانَ ٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرًۢا",
+      "highlightedHtml": "سَيَقُولُ لَكَ ٱلْمُخَلَّفُونَ مِنَ ٱلْأَعْرَابِ <a class=\"highlight-text\">شَغَلَتْنَآ</a> أَمْوَٰلُنَا وَأَهْلُونَا فَٱسْتَغْفِرْ لَنَا ۚ يَقُولُونَ بِأَلْسِنَتِهِم مَّا لَيْسَ فِى قُلُوبِهِمْ ۚ قُلْ فَمَن يَمْلِكُ لَكُم مِّنَ ٱللَّهِ شَيْـًٔا إِنْ أَرَادَ بِكُمْ ضَرًّا أَوْ أَرَادَ بِكُمْ نَفْعًۢا ۚ بَلْ كَانَ ٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرًۢا",
+      "derivedForms": [
+        "شَغَلَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:12.673Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "شُغُلٍ is in the derivative form: شُغُل",
+    "rootDefinitionHtml": "ش/غ/ل   sh–gh–l to occupy, to employ, to make busy, engagement, toil, occupation, concern; to divert; to occupy (a place). <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> شَغَل shaghala and شُغُل shughul",
+    "mainDefinitionHtml": "شُغُل shughul [v. n./n.] occupation, business, employment; preoccupation <br><br>(36:55) إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِى شُغُلٍ فَاكِهُونَ today the people of Paradise are happily occupied.",
+    "mainEntryId": "wdef-ش-غ-ل.شُغُل",
+    "entries": [
+      {
+        "id": "wdef-ش-غ-ل",
+        "label": "ش-غ-ل",
+        "definitionHtml": "ش/غ/ل   sh–gh–l to occupy, to employ, to make busy, engagement, toil, occupation, concern; to divert; to occupy (a place). <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> شَغَل shaghala and شُغُل shughul",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-غ-ل.شُغُل",
+        "label": "شُغُل",
+        "definitionHtml": "شُغُل shughul [v. n./n.] occupation, business, employment; preoccupation <br><br>(36:55) إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِى شُغُلٍ فَاكِهُونَ today the people of Paradise are happily occupied.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-غ-ل.شَغَلَ",
+        "label": "شَغَلَ",
+        "definitionHtml": "شَغَلَ shaghala [v. trans.] to busy, to engage, to occupy; to preoccupy, to distract <br><br>(48:11) شَغَلَتْنَا أَمْوَالُنَا وَأَهْلُونَا our property and our families occupied us.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:27.494Z",
+      "refword": "36:55:6",
+      "lexword": "شُغُلٍ"
+    }
+  }
+}

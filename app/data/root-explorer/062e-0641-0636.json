@@ -1,0 +1,148 @@
+{
+  "root": "خفض",
+  "rootArabic": "خفض",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 4,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "اخْفِضْ",
+      "count": 3
+    },
+    {
+      "form": "خَافِضَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْفِضْ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْفِضْ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اخْفِضْ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَافِضَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 15,
+      "ayah": 88,
+      "text": "لَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ وَٱخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ",
+      "highlightedHtml": "لَا تَمُدَّنَّ عَيْنَيْكَ إِلَىٰ مَا مَتَّعْنَا بِهِۦٓ أَزْوَٰجًا مِّنْهُمْ وَلَا تَحْزَنْ عَلَيْهِمْ <a class=\"highlight-text\">وَٱخْفِضْ</a> جَنَاحَكَ لِلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "اخْفِضْ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 24,
+      "text": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱخْفِضْ</a> لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+      "derivedForms": [
+        "اخْفِضْ"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 215,
+      "text": "وَٱخْفِضْ جَنَاحَكَ لِمَنِ ٱتَّبَعَكَ مِنَ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱخْفِضْ</a> جَنَاحَكَ لِمَنِ ٱتَّبَعَكَ مِنَ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "اخْفِضْ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 3,
+      "text": "خَافِضَةٌ رَّافِعَةٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَافِضَةٌ</a> رَّافِعَةٌ",
+      "derivedForms": [
+        "خَافِضَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:32.706Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "وَٱخْفِضْ is in the derivative form: اخْفِضْ",
+    "rootDefinitionHtml": "خ/ف/ض   kh–f–ḍ low flat land, a low flat hill; to lower; to be affluent, affluence, easy, relaxing situation; to take it easy, to walk at ease; to die. <br><br>Of this root, 2 forms occur 4 times:<br> اخْفِضْ ʾikhfiḍ 3 times and خَافِضَةٌ khāfiḍatun 1 time.",
+    "mainDefinitionHtml": "اخْفِضْ ʾikhfiḍ [imper. of v. خَفَضَ khafaḍa, trans.] keep low, lower, bring down *<br><br>(15:88) وَاخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ be accommodating, be friendly, be tender [lit. lower your wing] to the believers; *<br><br>(17:24) وَاخْفِضْ لَهُمَا جَنَاحَ الذُّل ِّand humble yourself to them, be tender to them [lit. lower to them the wing of humbleness].",
+    "mainEntryId": "wdef-خ-ف-ض.اخْفِضْ",
+    "entries": [
+      {
+        "id": "wdef-خ-ف-ض",
+        "label": "خ-ف-ض",
+        "definitionHtml": "خ/ف/ض   kh–f–ḍ low flat land, a low flat hill; to lower; to be affluent, affluence, easy, relaxing situation; to take it easy, to walk at ease; to die. <br><br>Of this root, 2 forms occur 4 times:<br> اخْفِضْ ʾikhfiḍ 3 times and خَافِضَةٌ khāfiḍatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ف-ض.اخْفِضْ",
+        "label": "اخْفِضْ",
+        "definitionHtml": "اخْفِضْ ʾikhfiḍ [imper. of v. خَفَضَ khafaḍa, trans.] keep low, lower, bring down *<br><br>(15:88) وَاخْفِضْ جَنَاحَكَ لِلْمُؤْمِنِينَ be accommodating, be friendly, be tender [lit. lower your wing] to the believers; *<br><br>(17:24) وَاخْفِضْ لَهُمَا جَنَاحَ الذُّل ِّand humble yourself to them, be tender to them [lit. lower to them the wing of humbleness].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ف-ض.خَافِضَةٌ",
+        "label": "خَافِضَةٌ",
+        "definitionHtml": "خَافِضَةٌ khāfiḍatun [fem. act. part.] bringing down, humbling, debasing, demoting *<br><br>(56:3) خَافِضَةٌ رَافِعَةٌ abasing [some] and exalting [others].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:30.446Z",
+      "refword": "15:88:13",
+      "lexword": "وَٱخْفِضْ"
+    }
+  }
+}

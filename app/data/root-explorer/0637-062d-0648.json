@@ -1,0 +1,74 @@
+{
+  "root": "طحو",
+  "rootArabic": "طحو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "طَحا",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "طَحا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 91,
+      "ayah": 6,
+      "text": "وَٱلْأَرْضِ وَمَا طَحَىٰهَا",
+      "highlightedHtml": "وَٱلْأَرْضِ وَمَا <a class=\"highlight-text\">طَحَىٰهَا</a>",
+      "derivedForms": [
+        "طَحا"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:42.435Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "طَحَىٰهَا is in the derivative form: طَحا",
+    "rootDefinitionHtml": "ط/ح/و-ى   ṭ–ḥ–w/y wide, expansive, level land, to stretch out, to expand, to spread out. Of this root, طَحا ṭaḥā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "طَحا ṭaḥā ū [v. trans.] to spread out, to stretch out <br><br>(91:6) وَالأَرْضِ‏ ‏وَمَا‏ ‏طَحَاهَا and by the earth and how He spread it.",
+    "mainEntryId": "wdef-ط-ح-و-ى.طَحا",
+    "entries": [
+      {
+        "id": "wdef-ط-ح-و-ى",
+        "label": "ط-ح-و-ى",
+        "definitionHtml": "ط/ح/و-ى   ṭ–ḥ–w/y wide, expansive, level land, to stretch out, to expand, to spread out. Of this root, طَحا ṭaḥā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ط-ح-و-ى.طَحا",
+        "label": "طَحا",
+        "definitionHtml": "طَحا ṭaḥā ū [v. trans.] to spread out, to stretch out <br><br>(91:6) وَالأَرْضِ‏ ‏وَمَا‏ ‏طَحَاهَا and by the earth and how He spread it.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:45:17.007Z",
+      "refword": "91:6:3",
+      "lexword": "طَحَىٰهَا"
+    }
+  }
+}

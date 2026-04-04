@@ -1,0 +1,606 @@
+{
+  "root": "صلي",
+  "rootArabic": "صلي",
+  "stats": {
+    "totalOccurrences": 25,
+    "derivativeCount": 7,
+    "surahCount": 21,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "يَصْلى",
+      "count": 13
+    },
+    {
+      "form": "أصْلَى",
+      "count": 4
+    },
+    {
+      "form": "صَالٍ",
+      "count": 3
+    },
+    {
+      "form": "يصْطَلَون",
+      "count": 2
+    },
+    {
+      "form": "تَصْلية",
+      "count": 1
+    },
+    {
+      "form": "صَلَُّوا",
+      "count": 1
+    },
+    {
+      "form": "صِلِيّاً",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أصْلَى",
+          "count": 3,
+          "totalInQuran": 4
+        },
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صِلِيّاً",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يصْطَلَون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يصْطَلَون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَالٍ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "صَالٍ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَصْلية",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 58,
+      "surahName": "Al-Mujadilah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 69,
+      "surahName": "Al-Haqqah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَلَُّوا",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أصْلَى",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 82,
+      "surahName": "Al-Infitar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "صَالٍ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 111,
+      "surahName": "Al-Lahab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَصْلى",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 10,
+      "text": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ <a class=\"highlight-text\">وَسَيَصْلَوْنَ</a> سَعِيرًا",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 30,
+      "text": "وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَٰنًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "highlightedHtml": "وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَٰنًا وَظُلْمًا فَسَوْفَ <a class=\"highlight-text\">نُصْلِيهِ</a> نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "derivedForms": [
+        "أصْلَى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 56,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُم بَدَّلْنَٰهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا سَوْفَ <a class=\"highlight-text\">نُصْلِيهِمْ</a> نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُم بَدَّلْنَٰهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+      "derivedForms": [
+        "أصْلَى"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 115,
+      "text": "وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ وَنُصْلِهِۦ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
+      "highlightedHtml": "وَمَن يُشَاقِقِ ٱلرَّسُولَ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُ ٱلْهُدَىٰ وَيَتَّبِعْ غَيْرَ سَبِيلِ ٱلْمُؤْمِنِينَ نُوَلِّهِۦ مَا تَوَلَّىٰ <a class=\"highlight-text\">وَنُصْلِهِۦ</a> جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
+      "derivedForms": [
+        "أصْلَى"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 29,
+      "text": "جَهَنَّمَ يَصْلَوْنَهَا ۖ وَبِئْسَ ٱلْقَرَارُ",
+      "highlightedHtml": "جَهَنَّمَ <a class=\"highlight-text\">يَصْلَوْنَهَا</a> ۖ وَبِئْسَ ٱلْقَرَارُ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 18,
+      "text": "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ يَصْلَىٰهَا مَذْمُومًا مَّدْحُورًا",
+      "highlightedHtml": "مَّن كَانَ يُرِيدُ ٱلْعَاجِلَةَ عَجَّلْنَا لَهُۥ فِيهَا مَا نَشَآءُ لِمَن نُّرِيدُ ثُمَّ جَعَلْنَا لَهُۥ جَهَنَّمَ <a class=\"highlight-text\">يَصْلَىٰهَا</a> مَذْمُومًا مَّدْحُورًا",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 70,
+      "text": "ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا صِلِيًّا",
+      "highlightedHtml": "ثُمَّ لَنَحْنُ أَعْلَمُ بِٱلَّذِينَ هُمْ أَوْلَىٰ بِهَا <a class=\"highlight-text\">صِلِيًّا</a>",
+      "derivedForms": [
+        "صِلِيّاً"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 7,
+      "text": "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ آنَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ آتِيكُمْ بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ تَصْطَلُونَ",
+      "highlightedHtml": "إِذْ قَالَ مُوسَىٰ لِأَهْلِهِۦٓ إِنِّىٓ آنَسْتُ نَارًا سَـَٔاتِيكُم مِّنْهَا بِخَبَرٍ أَوْ آتِيكُمْ بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ <a class=\"highlight-text\">تَصْطَلُونَ</a>",
+      "derivedForms": [
+        "يصْطَلَون"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 29,
+      "text": "فَلَمَّا قَضَىٰ مُوسَى ٱلْأَجَلَ وَسَارَ بِأَهْلِهِۦٓ آنَسَ مِن جَانِبِ ٱلطُّورِ نَارًا قَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ آنَسْتُ نَارًا لَّعَلِّىٓ آتِيكُمْ مِّنْهَا بِخَبَرٍ أَوْ جَذْوَةٍ مِّنَ ٱلنَّارِ لَعَلَّكُمْ تَصْطَلُونَ",
+      "highlightedHtml": "فَلَمَّا قَضَىٰ مُوسَى ٱلْأَجَلَ وَسَارَ بِأَهْلِهِۦٓ آنَسَ مِن جَانِبِ ٱلطُّورِ نَارًا قَالَ لِأَهْلِهِ ٱمْكُثُوٓا۟ إِنِّىٓ آنَسْتُ نَارًا لَّعَلِّىٓ آتِيكُمْ مِّنْهَا بِخَبَرٍ أَوْ جَذْوَةٍ مِّنَ ٱلنَّارِ لَعَلَّكُمْ <a class=\"highlight-text\">تَصْطَلُونَ</a>",
+      "derivedForms": [
+        "يصْطَلَون"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 64,
+      "text": "ٱصْلَوْهَا ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱصْلَوْهَا</a> ٱلْيَوْمَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 163,
+      "text": "إِلَّا مَنْ هُوَ صَالِ ٱلْجَحِيمِ",
+      "highlightedHtml": "إِلَّا مَنْ هُوَ <a class=\"highlight-text\">صَالِ</a> ٱلْجَحِيمِ",
+      "derivedForms": [
+        "صَالٍ"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 56,
+      "text": "جَهَنَّمَ يَصْلَوْنَهَا فَبِئْسَ ٱلْمِهَادُ",
+      "highlightedHtml": "جَهَنَّمَ <a class=\"highlight-text\">يَصْلَوْنَهَا</a> فَبِئْسَ ٱلْمِهَادُ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 59,
+      "text": "هَٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ صَالُوا۟ ٱلنَّارِ",
+      "highlightedHtml": "هَٰذَا فَوْجٌ مُّقْتَحِمٌ مَّعَكُمْ ۖ لَا مَرْحَبًۢا بِهِمْ ۚ إِنَّهُمْ <a class=\"highlight-text\">صَالُوا۟</a> ٱلنَّارِ",
+      "derivedForms": [
+        "صَالٍ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 16,
+      "text": "ٱصْلَوْهَا فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">ٱصْلَوْهَا</a> فَٱصْبِرُوٓا۟ أَوْ لَا تَصْبِرُوا۟ سَوَآءٌ سَوَآءٌ عَلَيْكُمْ ۖ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 94,
+      "text": "وَتَصْلِيَةُ جَحِيمٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَتَصْلِيَةُ</a> جَحِيمٍ",
+      "derivedForms": [
+        "تَصْلية"
+      ]
+    },
+    {
+      "surah": 58,
+      "ayah": 8,
+      "text": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ يَصْلَوْنَهَا ۖ فَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ نُهُوا۟ عَنِ ٱلنَّجْوَىٰ ثُمَّ يَعُودُونَ لِمَا نُهُوا۟ عَنْهُ وَيَتَنَٰجَوْنَ بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَمَعْصِيَتِ ٱلرَّسُولِ وَإِذَا جَآءُوكَ حَيَّوْكَ بِمَا لَمْ يُحَيِّكَ بِهِ ٱللَّهُ وَيَقُولُونَ فِىٓ أَنفُسِهِمْ لَوْلَا يُعَذِّبُنَا ٱللَّهُ بِمَا نَقُولُ ۚ حَسْبُهُمْ جَهَنَّمُ <a class=\"highlight-text\">يَصْلَوْنَهَا</a> ۖ فَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 69,
+      "ayah": 31,
+      "text": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+      "highlightedHtml": "ثُمَّ ٱلْجَحِيمَ <a class=\"highlight-text\">صَلُّوهُ</a>",
+      "derivedForms": [
+        "صَلَُّوا"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 26,
+      "text": "سَأُصْلِيهِ سَقَرَ",
+      "highlightedHtml": "<a class=\"highlight-text\">سَأُصْلِيهِ</a> سَقَرَ",
+      "derivedForms": [
+        "أصْلَى"
+      ]
+    },
+    {
+      "surah": 82,
+      "ayah": 15,
+      "text": "يَصْلَوْنَهَا يَوْمَ ٱلدِّينِ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَصْلَوْنَهَا</a> يَوْمَ ٱلدِّينِ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 16,
+      "text": "ثُمَّ إِنَّهُمْ لَصَالُوا۟ ٱلْجَحِيمِ",
+      "highlightedHtml": "ثُمَّ إِنَّهُمْ <a class=\"highlight-text\">لَصَالُوا۟</a> ٱلْجَحِيمِ",
+      "derivedForms": [
+        "صَالٍ"
+      ]
+    },
+    {
+      "surah": 84,
+      "ayah": 12,
+      "text": "وَيَصْلَىٰ سَعِيرًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَيَصْلَىٰ</a> سَعِيرًا",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 12,
+      "text": "ٱلَّذِى يَصْلَى ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "highlightedHtml": "ٱلَّذِى <a class=\"highlight-text\">يَصْلَى</a> ٱلنَّارَ ٱلْكُبْرَىٰ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 4,
+      "text": "تَصْلَىٰ نَارًا حَامِيَةً",
+      "highlightedHtml": "<a class=\"highlight-text\">تَصْلَىٰ</a> نَارًا حَامِيَةً",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 15,
+      "text": "لَا يَصْلَىٰهَآ إِلَّا ٱلْأَشْقَى",
+      "highlightedHtml": "لَا <a class=\"highlight-text\">يَصْلَىٰهَآ</a> إِلَّا ٱلْأَشْقَى",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    },
+    {
+      "surah": 111,
+      "ayah": 3,
+      "text": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "highlightedHtml": "<a class=\"highlight-text\">سَيَصْلَىٰ</a> نَارًا ذَاتَ لَهَبٍ",
+      "derivedForms": [
+        "يَصْلى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:49:12.894Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "وَسَيَصْلَوْنَ is in the derivative form: يَصْلى",
+    "rootDefinitionHtml": "ص/ل/ى   ṣ–l–y to roast, to broil, to fry (meat, flesh), to burn<br>; to cause to suffer; to slander; to delude; to warm oneself before a fire; suffering, hardship. <br><br>Of this root, 7 forms occur 25 times in the Qur’an:<br> يَصْلى yaṣlı 13 times; صَلَّوا ṣallū 1 time; أصْلَى ʾuṣlı 4 times; يصْطَلَون yaṣṭalūn 2 times; صَالِ ṣālin 1 time; صَالُون ṣālūn 2 times; صِلِّي ṣiliyy 1 time and تَصْلية taṣliyatun 1 time.",
+    "mainDefinitionHtml": "يَصْلى yaṣlı (variant reading يَصْلى yaṣlı) [imperf. of v. صَلِىَ ṣaliya, intrans.] to roast, to burn <br><br>(4:10) إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَى ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا وَسَيَصْلَوْنَ سَعِيرًا those who consume the property of orphans unjustly, they surely consume fire in their bellies and they will burn in a blazing flame.",
+    "mainEntryId": "wdef-ص-ل-ى.يَصْلى",
+    "entries": [
+      {
+        "id": "wdef-ص-ل-ى",
+        "label": "ص-ل-ى",
+        "definitionHtml": "ص/ل/ى   ṣ–l–y to roast, to broil, to fry (meat, flesh), to burn<br>; to cause to suffer; to slander; to delude; to warm oneself before a fire; suffering, hardship. <br><br>Of this root, 7 forms occur 25 times in the Qur’an:<br> يَصْلى yaṣlı 13 times; صَلَّوا ṣallū 1 time; أصْلَى ʾuṣlı 4 times; يصْطَلَون yaṣṭalūn 2 times; صَالِ ṣālin 1 time; صَالُون ṣālūn 2 times; صِلِّي ṣiliyy 1 time and تَصْلية taṣliyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.يَصْلى",
+        "label": "يَصْلى",
+        "definitionHtml": "يَصْلى yaṣlı (variant reading يَصْلى yaṣlı) [imperf. of v. صَلِىَ ṣaliya, intrans.] to roast, to burn <br><br>(4:10) إِنَّ الَّذِينَ يَأْكُلُونَ أَمْوَالَ الْيَتَامَى ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا وَسَيَصْلَوْنَ سَعِيرًا those who consume the property of orphans unjustly, they surely consume fire in their bellies and they will burn in a blazing flame.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ص-ل-ى.أصْلَى",
+        "label": "أصْلَى",
+        "definitionHtml": "أصْلَى ʾuṣlı [imperf. of v. IV, trans.] to cause to suffer burning, to cause to burn up, to roast to the point of burning completely <br><br>(4:56) إِنَّ الَّذِينَ كَفَرُوا بِآيَاتِنَا سَوْفَ نُصْلِيهِمْ نَارًا those who reject Our revelations, We will burn them up by Fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.تَصْلية",
+        "label": "تَصْلية",
+        "definitionHtml": "تَصْلية taṣliyatun [v. n. of v. II] burning in the fire, roasting to the point of being burnt up <br><br>(56:94) وَتَصْلِيَةُ جَحِيمٍ and a roasting in Hell.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.صَالٍ",
+        "label": "صَالٍ",
+        "definitionHtml": "صَالٍ ṣālin [act. part.; pl. صَالُون ṣālūn] one who suffers the heat of a scorching fire <br><br>(38:59) لاَ مَرْحَبًا بِهِمْ إِنَّهُمْ صَالُوا النَّارِ no welcome for them–they shall be scorched by the Fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.صَلَُّوا",
+        "label": "صَلَُّوا",
+        "definitionHtml": "صَلَُّوا ṣallū [imper. of v. II, trans.] burn up before or in the fire, lead into the fire <br><br>(69:31) ثُمَّ الْجَحِيمَ صَلُّوهُ then lead him to burn in the Fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.صِلِيّاً",
+        "label": "صِلِيّاً",
+        "definitionHtml": "صِلِيّاً ṣiliyyan [v. n. of v. I صَلِي ṣaliya] scorching, roasting <br><br>(19:70) ثُمَّ لَنَحْنُ أَعْلَمُ بِالَّذِينَ هُمْ أَوْلَى بِهَا صِلِيًّا then We know best who is most deserving of burning in it [Hell].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ص-ل-ى.يصْطَلَون",
+        "label": "يصْطَلَون",
+        "definitionHtml": "يصْطَلَون yaṣṭalūn [imperf. of v. VIII, intrans.] to warm up before an open fire <br><br>(28:29) إِنِّي ءَانَسْتُ نَارًا لَعَلِّي ءَاتِيكُمْ مِنْهَا بِخَبَرٍ أَوْ جَذْوَةٍ مِنَ النَّارِ لَعَلَّكُمْ تَصْطَلُونَ I have caught sight of a fire–I may bring you news from there, or a burning brand that you may warm yourselves.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:44:20.959Z",
+      "refword": "4:10:12",
+      "lexword": "وَسَيَصْلَوْنَ"
+    }
+  }
+}

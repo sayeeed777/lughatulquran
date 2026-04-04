@@ -1,0 +1,140 @@
+{
+  "root": "كعب",
+  "rootArabic": "كعب",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 3,
+    "surahCount": 2,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "الكَعْبَةُ",
+      "count": 2
+    },
+    {
+      "form": "كَعْبَين",
+      "count": 1
+    },
+    {
+      "form": "كَوَاعِب",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "الكَعْبَةُ",
+          "count": 2,
+          "totalInQuran": 2
+        },
+        {
+          "form": "كَعْبَين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَوَاعِب",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى <a class=\"highlight-text\">ٱلْكَعْبَيْنِ</a> ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "كَعْبَين"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 95,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَٰلِغَ <a class=\"highlight-text\">ٱلْكَعْبَةِ</a> أَوْ كَفَّٰرَةٌ طَعَامُ مَسَٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+      "derivedForms": [
+        "الكَعْبَةُ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 97,
+      "text": "جَعَلَ ٱللَّهُ ٱلْكَعْبَةَ ٱلْبَيْتَ ٱلْحَرَامَ قِيَٰمًا لِّلنَّاسِ وَٱلشَّهْرَ ٱلْحَرَامَ وَٱلْهَدْىَ وَٱلْقَلَٰٓئِدَ ۚ ذَٰلِكَ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "highlightedHtml": "جَعَلَ ٱللَّهُ <a class=\"highlight-text\">ٱلْكَعْبَةَ</a> ٱلْبَيْتَ ٱلْحَرَامَ قِيَٰمًا لِّلنَّاسِ وَٱلشَّهْرَ ٱلْحَرَامَ وَٱلْهَدْىَ وَٱلْقَلَٰٓئِدَ ۚ ذَٰلِكَ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِى ٱلسَّمَٰوَٰتِ وَمَا فِى ٱلْأَرْضِ وَأَنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+      "derivedForms": [
+        "الكَعْبَةُ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 33,
+      "text": "وَكَوَاعِبَ أَتْرَابًا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَكَوَاعِبَ</a> أَتْرَابًا",
+      "derivedForms": [
+        "كَوَاعِب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:51.217Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine dual noun",
+    "derivativeNote": "ٱلْكَعْبَيْنِ is in the derivative form: كَعْبَين",
+    "rootDefinitionHtml": "ك/ع/ب   k–ʿ–b ankle, ankle bone, heel<br>; cube, dice, to fold in a square shape, square building; honour; the Ka‘ba; busty, (of women) well‐formed; to speed up. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> كَعْبَين kaʿbayn 1 time; الكَعْبَةُ ʾal‐kaʿbatu 2 times and كَوَاعِب kawāʿib 1 time.",
+    "mainDefinitionHtml": "كَعْبَين kaʿbayn [dual of n. كَعْب kaʿb] [jur.] ankle bones (also said to mean heels) <br><br>(5:6) وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ wipe your heads and your feet up to [also interpreted as: including] the ankles/heels.",
+    "mainEntryId": "wdef-ك-ع-ب.كَعْبَين",
+    "entries": [
+      {
+        "id": "wdef-ك-ع-ب",
+        "label": "ك-ع-ب",
+        "definitionHtml": "ك/ع/ب   k–ʿ–b ankle, ankle bone, heel<br>; cube, dice, to fold in a square shape, square building; honour; the Ka‘ba; busty, (of women) well‐formed; to speed up. <br><br>Of this root, 3 forms occur 4 times in the Qur’an:<br> كَعْبَين kaʿbayn 1 time; الكَعْبَةُ ʾal‐kaʿbatu 2 times and كَوَاعِب kawāʿib 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ع-ب.كَعْبَين",
+        "label": "كَعْبَين",
+        "definitionHtml": "كَعْبَين kaʿbayn [dual of n. كَعْب kaʿb] [jur.] ankle bones (also said to mean heels) <br><br>(5:6) وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ wipe your heads and your feet up to [also interpreted as: including] the ankles/heels.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ع-ب.الكَعْبَةُ",
+        "label": "الكَعْبَةُ",
+        "definitionHtml": "الكَعْبَةُ ʾal‐kaʿbatu [proper n.] the Ka‘ba, the Sacred House in Mecca <br><br>(5:97) جَعَلَ اللَّهُ الْكَعْبَةَ الْبَيْتَ الْحَرَامَ قِيَامًا لِلنَّاسِ God has made the Ka‘ba–the Sacred House–a standard for humankind.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ع-ب.كَوَاعِب",
+        "label": "كَوَاعِب",
+        "definitionHtml": "كَوَاعِب kawāʿib [pl. of fem. n. كَاعِب kāʿib] well‐formed maidens, women whose breasts have formed <br><br>(78:33) وَكَوَاعِبَ أَتْرَابًا nubile companions.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:07.237Z",
+      "refword": "5:6:17",
+      "lexword": "ٱلْكَعْبَيْنِ"
+    }
+  }
+}

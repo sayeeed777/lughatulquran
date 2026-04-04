@@ -1,0 +1,112 @@
+{
+  "root": "ازف",
+  "rootArabic": "ازف",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "الآزِفَةُ",
+      "count": 2
+    },
+    {
+      "form": "أَزِفَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "الآزِفَةُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَزِفَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "الآزِفَةُ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 40,
+      "ayah": 18,
+      "text": "وَأَنذِرْهُمْ يَوْمَ ٱلْءَازِفَةِ إِذِ ٱلْقُلُوبُ لَدَى ٱلْحَنَاجِرِ كَٰظِمِينَ ۚ مَا لِلظَّٰلِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+      "highlightedHtml": "وَأَنذِرْهُمْ يَوْمَ <a class=\"highlight-text\">ٱلْءَازِفَةِ</a> إِذِ ٱلْقُلُوبُ لَدَى ٱلْحَنَاجِرِ كَٰظِمِينَ ۚ مَا لِلظَّٰلِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ يُطَاعُ",
+      "derivedForms": [
+        "الآزِفَةُ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 57,
+      "text": "أَزِفَتِ ٱلْءَازِفَةُ",
+      "highlightedHtml": "<a class=\"highlight-text\">أَزِفَتِ</a> <a class=\"highlight-text\">ٱلْءَازِفَةُ</a>",
+      "derivedForms": [
+        "أَزِفَ",
+        "الآزِفَةُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:28.794Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine active participle",
+    "derivativeNote": "ٱلْءَازِفَةِ is in the derivative form: الآزِفَةُ",
+    "rootDefinitionHtml": "أ/ز/ف ʾ–z–f to draw near, to be in a hurry, to be cowardly. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> أَزِفَ ʾazifa 1 time and الآزِفَة ʾal-ʾāzifatu 2 times.",
+    "mainDefinitionHtml": "الآزِفَةُ ʾal-ʾāzifatu [act. part./n.] that which is approaching, an epithet of the Day of Judgement <br><br>(40:18) وَأَنْذِرْهُمْ يَوْمَ الآزِفَةِ إِذِ الْقُلُوبُ لَدَى الْحَنَاجِرِ and warn them of the ever-approaching Day, when the hearts are next to the throats.",
+    "mainEntryId": "wdef-أ-ز-ف.الآزِفَةُ",
+    "entries": [
+      {
+        "id": "wdef-أ-ز-ف",
+        "label": "أ-ز-ف",
+        "definitionHtml": "أ/ز/ف ʾ–z–f to draw near, to be in a hurry, to be cowardly. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> أَزِفَ ʾazifa 1 time and الآزِفَة ʾal-ʾāzifatu 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ز-ف.الآزِفَةُ",
+        "label": "الآزِفَةُ",
+        "definitionHtml": "الآزِفَةُ ʾal-ʾāzifatu [act. part./n.] that which is approaching, an epithet of the Day of Judgement <br><br>(40:18) وَأَنْذِرْهُمْ يَوْمَ الآزِفَةِ إِذِ الْقُلُوبُ لَدَى الْحَنَاجِرِ and warn them of the ever-approaching Day, when the hearts are next to the throats.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ز-ف.أَزِفَ",
+        "label": "أَزِفَ",
+        "definitionHtml": "أَزِفَ ʾazifa a [v. intrans.] to draw near <br><br>(53:57) أَزِفَتِ الآزِفَةُ the imminent Hour draws near.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:04.536Z",
+      "refword": "40:18:3",
+      "lexword": "ٱلْءَازِفَةِ"
+    }
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "root": "غشو",
+  "rootArabic": "غشو",
+  "stats": {
+    "totalOccurrences": 29,
+    "derivativeCount": 10,
+    "surahCount": 23,
+    "ayahCount": 26
+  },
+  "derivatives": [
+    {
+      "form": "غَشِىَ",
+      "count": 12
+    },
+    {
+      "form": "أغْشىَ",
+      "count": 3
+    },
+    {
+      "form": "غاشِية",
+      "count": 3
+    },
+    {
+      "form": "غَشّىَ",
+      "count": 3
+    },
+    {
+      "form": "اسْتَغْشىَ",
+      "count": 2
+    },
+    {
+      "form": "غِشاوةٌ",
+      "count": 2
+    },
+    {
+      "form": "أُغْشِىَ",
+      "count": 1
+    },
+    {
+      "form": "المَغْشِيِّ",
+      "count": 1
+    },
+    {
+      "form": "تَغَشّىَ",
+      "count": 1
+    },
+    {
+      "form": "يُغْشىَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غِشاوةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أغْشىَ",
+          "count": 1,
+          "totalInQuran": 3
+        },
+        {
+          "form": "تَغَشّىَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "غاشِية",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشّىَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أُغْشِىَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَغْشىَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غاشِية",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْشىَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 2,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 31,
+      "surahName": "Luqman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُغْشىَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أغْشىَ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 44,
+      "surahName": "Ad-Dukhan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غِشاوةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 47,
+      "surahName": "Muhammad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "المَغْشِيِّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 2,
+          "totalInQuran": 12
+        },
+        {
+          "form": "غَشّىَ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 71,
+      "surahName": "Nuh",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَغْشىَ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غاشِية",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 91,
+      "surahName": "Ash-Shams",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غَشِىَ",
+          "count": 1,
+          "totalInQuran": 12
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 7,
+      "text": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَٰرِهِمْ <a class=\"highlight-text\">غِشَٰوَةٌ</a> ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "غِشاوةٌ"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 154,
+      "text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا يَغْشَىٰ طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ ٱلْغَمِّ أَمَنَةً نُّعَاسًا <a class=\"highlight-text\">يَغْشَىٰ</a> طَآئِفَةً مِّنكُمْ ۖ وَطَآئِفَةٌ قَدْ أَهَمَّتْهُمْ أَنفُسُهُمْ يَظُنُّونَ بِٱللَّهِ غَيْرَ ٱلْحَقِّ ظَنَّ ٱلْجَٰهِلِيَّةِ ۖ يَقُولُونَ هَل لَّنَا مِنَ ٱلْأَمْرِ مِن شَىْءٍ ۗ قُلْ إِنَّ ٱلْأَمْرَ كُلَّهُۥ لِلَّهِ ۗ يُخْفُونَ فِىٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَ ۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ ٱلْأَمْرِ شَىْءٌ مَّا قُتِلْنَا هَٰهُنَا ۗ قُل لَّوْ كُنتُمْ فِى بُيُوتِكُمْ لَبَرَزَ ٱلَّذِينَ كُتِبَ عَلَيْهِمُ ٱلْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ ۖ وَلِيَبْتَلِىَ ٱللَّهُ مَا فِى صُدُورِكُمْ صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِى قُلُوبِكُمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 41,
+      "text": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ <a class=\"highlight-text\">غَوَاشٍ</a> ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "غاشِية"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 54,
+      "text": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "highlightedHtml": "إِنَّ رَبَّكُمُ ٱللَّهُ ٱلَّذِى خَلَقَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضَ فِى سِتَّةِ أَيَّامٍ ثُمَّ ٱسْتَوَىٰ ٱسْتَوَىٰ عَلَى ٱلْعَرْشِ <a class=\"highlight-text\">يُغْشِى</a> ٱلَّيْلَ ٱلنَّهَارَ يَطْلُبُهُۥ حَثِيثًا وَٱلشَّمْسَ وَٱلْقَمَرَ وَٱلنُّجُومَ مُسَخَّرَٰتٍۭ بِأَمْرِهِۦٓ ۗ أَلَا لَهُ ٱلْخَلْقُ وَٱلْأَمْرُ ۗ تَبَارَكَ ٱللَّهُ رَبُّ ٱلْعَٰلَمِينَ",
+      "derivedForms": [
+        "أغْشىَ"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 189,
+      "text": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا تَغَشَّىٰهَا حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَجَعَلَ مِنْهَا زَوْجَهَا لِيَسْكُنَ إِلَيْهَا ۖ فَلَمَّا <a class=\"highlight-text\">تَغَشَّىٰهَا</a> حَمَلَتْ حَمْلًا خَفِيفًا فَمَرَّتْ بِهِۦ ۖ فَلَمَّآ أَثْقَلَت دَّعَوَا ٱللَّهَ رَبَّهُمَا لَئِنْ آتَيْتَنَا صَٰلِحًا لَّنَكُونَنَّ مِنَ ٱلشَّٰكِرِينَ",
+      "derivedForms": [
+        "تَغَشّىَ"
+      ]
+    },
+    {
+      "surah": 8,
+      "ayah": 11,
+      "text": "إِذْ يُغَشِّيكُمُ ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">يُغَشِّيكُمُ</a> ٱلنُّعَاسَ أَمَنَةً مِّنْهُ وَيُنَزِّلُ عَلَيْكُم مِّنَ ٱلسَّمَآءِ مَآءً لِّيُطَهِّرَكُم بِهِۦ وَيُذْهِبَ عَنكُمْ رِجْزَ ٱلشَّيْطَٰنِ وَلِيَرْبِطَ عَلَىٰ قُلُوبِكُمْ وَيُثَبِّتَ بِهِ ٱلْأَقْدَامَ",
+      "derivedForms": [
+        "غَشّىَ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 27,
+      "text": "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ أُغْشِيَتْ وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ كَسَبُوا۟ ٱلسَّيِّـَٔاتِ جَزَآءُ سَيِّئَةٍۭ بِمِثْلِهَا وَتَرْهَقُهُمْ ذِلَّةٌ ۖ مَّا لَهُم مِّنَ ٱللَّهِ مِنْ عَاصِمٍ ۖ كَأَنَّمَآ <a class=\"highlight-text\">أُغْشِيَتْ</a> وُجُوهُهُمْ قِطَعًا مِّنَ ٱلَّيْلِ مُظْلِمًا ۚ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ",
+      "derivedForms": [
+        "أُغْشِىَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 5,
+      "text": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "أَلَآ إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ صُدُورَهُمْ لِيَسْتَخْفُوا۟ مِنْهُ ۚ أَلَا حِينَ <a class=\"highlight-text\">يَسْتَغْشُونَ</a> ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "اسْتَغْشىَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 107,
+      "text": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ غَٰشِيَةٌ مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "highlightedHtml": "أَفَأَمِنُوٓا۟ أَن تَأْتِيَهُمْ <a class=\"highlight-text\">غَٰشِيَةٌ</a> مِّنْ عَذَابِ ٱللَّهِ أَوْ تَأْتِيَهُمُ ٱلسَّاعَةُ بَغْتَةً وَهُمْ لَا يَشْعُرُونَ يَشْعُرُونَ",
+      "derivedForms": [
+        "غاشِية"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 3,
+      "text": "وَهُوَ ٱلَّذِى مَدَّ ٱلْأَرْضَ وَجَعَلَ فِيهَا رَوَٰسِىَ وَأَنْهَٰرًا ۖ وَمِن كُلِّ ٱلثَّمَرَٰتِ جَعَلَ فِيهَا زَوْجَيْنِ ٱثْنَيْنِ ۖ يُغْشِى ٱلَّيْلَ ٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى مَدَّ ٱلْأَرْضَ وَجَعَلَ فِيهَا رَوَٰسِىَ وَأَنْهَٰرًا ۖ وَمِن كُلِّ ٱلثَّمَرَٰتِ جَعَلَ فِيهَا زَوْجَيْنِ ٱثْنَيْنِ ۖ <a class=\"highlight-text\">يُغْشِى</a> ٱلَّيْلَ ٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "أغْشىَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 50,
+      "text": "سَرَابِيلُهُم سَرَابِيلُهُم سَرَابِيلُهُم مِّن قَطِرَانٍ وَتَغْشَىٰ وُجُوهَهُمُ ٱلنَّارُ",
+      "highlightedHtml": "سَرَابِيلُهُم سَرَابِيلُهُم سَرَابِيلُهُم مِّن قَطِرَانٍ <a class=\"highlight-text\">وَتَغْشَىٰ</a> وُجُوهَهُمُ ٱلنَّارُ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 78,
+      "text": "فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِۦ فَغَشِيَهُم مِّنَ ٱلْيَمِّ مَا غَشِيَهُمْ",
+      "highlightedHtml": "فَأَتْبَعَهُمْ فِرْعَوْنُ بِجُنُودِهِۦ <a class=\"highlight-text\">فَغَشِيَهُم</a> مِّنَ ٱلْيَمِّ مَا <a class=\"highlight-text\">غَشِيَهُمْ</a>",
+      "derivedForms": [
+        "غَشِىَ",
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 40,
+      "text": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ لُّجِّىٍّ يَغْشَىٰهُ مَوْجٌ مِّن فَوْقِهِۦ مَوْجٌ مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "highlightedHtml": "أَوْ كَظُلُمَٰتٍ فِى بَحْرٍ لُّجِّىٍّ <a class=\"highlight-text\">يَغْشَىٰهُ</a> مَوْجٌ مِّن فَوْقِهِۦ مَوْجٌ مِّن فَوْقِهِۦ سَحَابٌ ۚ ظُلُمَٰتٌۢ بَعْضُهَا فَوْقَ بَعْضٍ إِذَآ أَخْرَجَ يَدَهُۥ لَمْ يَكَدْ يَرَىٰهَا ۗ وَمَن لَّمْ يَجْعَلِ ٱللَّهُ لَهُۥ نُورًا فَمَا لَهُۥ مِن نُّورٍ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 55,
+      "text": "يَوْمَ يَغْشَىٰهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُوا۟ مَا كُنتُمْ تَعْمَلُونَ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يَغْشَىٰهُمُ</a> ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُوا۟ مَا كُنتُمْ تَعْمَلُونَ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 31,
+      "ayah": 32,
+      "text": "وَإِذَا غَشِيَهُم مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "highlightedHtml": "وَإِذَا <a class=\"highlight-text\">غَشِيَهُم</a> مَّوْجٌ كَٱلظُّلَلِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ فَمِنْهُم مُّقْتَصِدٌ ۚ وَمَا يَجْحَدُ بِـَٔايَٰتِنَآ إِلَّا كُلُّ خَتَّارٍ كَفُورٍ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 19,
+      "text": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى يُغْشَىٰ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ سَلَقُوكُم بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "highlightedHtml": "أَشِحَّةً عَلَيْكُمْ ۖ فَإِذَا جَآءَ ٱلْخَوْفُ رَأَيْتَهُمْ يَنظُرُونَ إِلَيْكَ تَدُورُ أَعْيُنُهُمْ كَٱلَّذِى <a class=\"highlight-text\">يُغْشَىٰ</a> عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَإِذَا ذَهَبَ ٱلْخَوْفُ سَلَقُوكُم بِأَلْسِنَةٍ حِدَادٍ أَشِحَّةً عَلَى ٱلْخَيْرِ ۚ أُو۟لَٰٓئِكَ لَمْ يُؤْمِنُوا۟ فَأَحْبَطَ ٱللَّهُ أَعْمَٰلَهُمْ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+      "derivedForms": [
+        "يُغْشىَ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 9,
+      "text": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا فَأَغْشَيْنَٰهُمْ فَهُمْ لَا يُبْصِرُونَ",
+      "highlightedHtml": "وَجَعَلْنَا مِنۢ بَيْنِ أَيْدِيهِمْ سَدًّا وَمِنْ خَلْفِهِمْ سَدًّا <a class=\"highlight-text\">فَأَغْشَيْنَٰهُمْ</a> فَهُمْ لَا يُبْصِرُونَ",
+      "derivedForms": [
+        "أغْشىَ"
+      ]
+    },
+    {
+      "surah": 44,
+      "ayah": 11,
+      "text": "يَغْشَى ٱلنَّاسَ ۖ هَٰذَا عَذَابٌ أَلِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">يَغْشَى</a> ٱلنَّاسَ ۖ هَٰذَا عَذَابٌ أَلِيمٌ",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 23,
+      "text": "أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَٰوَةً فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ <a class=\"highlight-text\">غِشَٰوَةً</a> فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "غِشاوةٌ"
+      ]
+    },
+    {
+      "surah": 47,
+      "ayah": 20,
+      "text": "وَيَقُولُ ٱلَّذِينَ آمَنُوا لَوْلَا نُزِّلَتْ سُورَةٌ ۖ فَإِذَآ أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ ٱلْمَغْشِىِّ عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ",
+      "highlightedHtml": "وَيَقُولُ ٱلَّذِينَ آمَنُوا لَوْلَا نُزِّلَتْ سُورَةٌ ۖ فَإِذَآ أُنزِلَتْ سُورَةٌ مُّحْكَمَةٌ وَذُكِرَ فِيهَا ٱلْقِتَالُ ۙ رَأَيْتَ ٱلَّذِينَ فِى قُلُوبِهِم مَّرَضٌ يَنظُرُونَ إِلَيْكَ نَظَرَ <a class=\"highlight-text\">ٱلْمَغْشِىِّ</a> عَلَيْهِ مِنَ ٱلْمَوْتِ ۖ فَأَوْلَىٰ لَهُمْ",
+      "derivedForms": [
+        "المَغْشِيِّ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 16,
+      "text": "إِذْ يَغْشَى ٱلسِّدْرَةَ مَا يَغْشَىٰ",
+      "highlightedHtml": "إِذْ <a class=\"highlight-text\">يَغْشَى</a> ٱلسِّدْرَةَ مَا <a class=\"highlight-text\">يَغْشَىٰ</a>",
+      "derivedForms": [
+        "غَشِىَ",
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 54,
+      "text": "فَغَشَّىٰهَا مَا غَشَّىٰ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَغَشَّىٰهَا</a> مَا <a class=\"highlight-text\">غَشَّىٰ</a>",
+      "derivedForms": [
+        "غَشّىَ",
+        "غَشّىَ"
+      ]
+    },
+    {
+      "surah": 71,
+      "ayah": 7,
+      "text": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ وَٱسْتَغْشَوْا۟ ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
+      "highlightedHtml": "وَإِنِّى كُلَّمَا دَعَوْتُهُمْ لِتَغْفِرَ لَهُمْ جَعَلُوٓا۟ أَصَٰبِعَهُمْ فِىٓ آذَانِهِمْ <a class=\"highlight-text\">وَٱسْتَغْشَوْا۟</a> ثِيَابَهُمْ وَأَصَرُّوا۟ وَٱسْتَكْبَرُوا۟ ٱسْتِكْبَارًا",
+      "derivedForms": [
+        "اسْتَغْشىَ"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 1,
+      "text": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْغَٰشِيَةِ",
+      "highlightedHtml": "هَلْ أَتَىٰكَ حَدِيثُ <a class=\"highlight-text\">ٱلْغَٰشِيَةِ</a>",
+      "derivedForms": [
+        "غاشِية"
+      ]
+    },
+    {
+      "surah": 91,
+      "ayah": 4,
+      "text": "وَٱلَّيْلِ إِذَا يَغْشَىٰهَا",
+      "highlightedHtml": "وَٱلَّيْلِ إِذَا <a class=\"highlight-text\">يَغْشَىٰهَا</a>",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 1,
+      "text": "وَٱلَّيْلِ إِذَا يَغْشَىٰ",
+      "highlightedHtml": "وَٱلَّيْلِ إِذَا <a class=\"highlight-text\">يَغْشَىٰ</a>",
+      "derivedForms": [
+        "غَشِىَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:58.703Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine indefinite noun",
+    "derivativeNote": "غِشَٰوَةٌ is in the derivative form: غِشاوةٌ",
+    "rootDefinitionHtml": "غ/ش/و   gh–sh–w to cover, to seek cover, to conceal<br>; to overcome; to faint; to visit frequently. <br><br>Of this root, 11 forms occur 29 times in the Qur’an:<br> غَشِىَ ghashiya 12 times; يُغْشىَ yughshā 1 time; غَشّىَ ghashshā 3 times; أغْشىَ ʾaghshā 3 times; أُغْشِىَ ʾughshiya 1 time; تَغَشّىَ taghashshā 1 time; إسْتَغْشىَ ʾistaghshā 2 times; غاشِيةٌ ghāshiyatun 2 times; غَواش ghawāsh 1 time; غِشاوةٌ ghishāwatun 2 times and مَغْشِىّ maghshiyy 1 time.",
+    "mainDefinitionHtml": "غِشاوةٌ ghishāwatun [n.] covering, veil <br><br>(2:7) ‏وَعَلَى‏ ‏أَبْصَارِهِمْ‏ ‏غِشَاوَةٌ and on their eyes there is a covering.",
+    "mainEntryId": "wdef-غ-ش-و.غِشاوةٌ",
+    "entries": [
+      {
+        "id": "wdef-غ-ش-و",
+        "label": "غ-ش-و",
+        "definitionHtml": "غ/ش/و   gh–sh–w to cover, to seek cover, to conceal<br>; to overcome; to faint; to visit frequently. <br><br>Of this root, 11 forms occur 29 times in the Qur’an:<br> غَشِىَ ghashiya 12 times; يُغْشىَ yughshā 1 time; غَشّىَ ghashshā 3 times; أغْشىَ ʾaghshā 3 times; أُغْشِىَ ʾughshiya 1 time; تَغَشّىَ taghashshā 1 time; إسْتَغْشىَ ʾistaghshā 2 times; غاشِيةٌ ghāshiyatun 2 times; غَواش ghawāsh 1 time; غِشاوةٌ ghishāwatun 2 times and مَغْشِىّ maghshiyy 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.غِشاوةٌ",
+        "label": "غِشاوةٌ",
+        "definitionHtml": "غِشاوةٌ ghishāwatun [n.] covering, veil <br><br>(2:7) ‏وَعَلَى‏ ‏أَبْصَارِهِمْ‏ ‏غِشَاوَةٌ and on their eyes there is a covering.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ش-و.أغْشىَ",
+        "label": "أغْشىَ",
+        "definitionHtml": "أغْشىَ ʾaghshā I [v. IV trans.] to completely cover up <br><br>(36:9) فَأَغْشَيْنَاهُمْ‏ ‏فَهُمْ‏ ‏لاَ‏ ‏يُبْصِرُونَ‏ and so We have covered them, that they cannot see II [doubly trans.] to cause something to cover something else <br><br>(7:54) يُغْشِي‏ ‏اللَّيْلَ‏ ‏النَّهَارَ‏ ‏يَطْلُبُهُ‏ ‏حَثِيثًا He makes the night cover the day, going after it swiftly.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.أُغْشِىَ",
+        "label": "أُغْشِىَ",
+        "definitionHtml": "أُغْشِىَ ʾughshiya [pass. v. V] to be completely covered <br><br>(10:27) كَأَنَّمَا‏ ‏أُغْشِيَتْ‏ ‏وُجُوهُهُمْ‏ ‏قِطَعًا‏ ‏مِنَ‏ ‏اللَّيْلِ‏ ‏مُظْلِمًا‏ as though their faces were covered with bits of the darkening night.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.اسْتَغْشىَ",
+        "label": "اسْتَغْشىَ",
+        "definitionHtml": "اسْتَغْشىَ ʾistaghshā [v. X, trans.] to search or reach for some means of covering or wrapping oneself up <br><br>(71:7) جَعَلُوا‏ ‏أَصَابِعَهُمْ‏ ‏فِى‏ ‏ءَاذَانِهِمْ‏ ‏وَاسْتَغْشَوْا‏ ‏ثِيَابَهُمْ‏‏ they put their fingers in their ears and pulled their clothes over themselves.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.المَغْشِيِّ",
+        "label": "المَغْشِيِّ",
+        "definitionHtml": "المَغْشِيِّ عليَهِ ʾal‐maghshiyyi ʿalayhi [pass. part. with prep عَلَيَ] one who is caused to lose consciousness <br><br>(47:20)‏يَنْظُرُونَ إِلَيْكَ نَظَرَ الْمَغْشِيِّ عَلَيْهِ مِنَ الْمَوْتِ looking at you [Prophet] with the look of one fainting because of [the approach of] the throes of death.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.تَغَشّىَ",
+        "label": "تَغَشّىَ",
+        "definitionHtml": "تَغَشّىَ taghashshā [v. V trans.] to cover, euphemism for mating (with a female) <br><br>(7:189) فَلَمَّا‏ ‏تَغَشَّاهَا‏ ‏حَمَلَتْ‏ ‏حَمْلاً‏ ‏خَفِيفًا‏ when he covered her she bore a light pregnancy [lit. load].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.غاشِية",
+        "label": "غاشِية",
+        "definitionHtml": "غاشِية ghāshiyatun [act. part.; fem./n., pl. غَواش ghawāsh] something that covers or overwhelms; a covering, an overwhelming calamity <br><br>(12:107) أَفَأَمِنُوا‏ ‏أَنْ‏ ‏تَأْتِيَهُمْ‏ ‏غَاشِيَةٌ مِنْ‏ ‏عَذَابِ‏ ‏اللَّهِ‏ ‏do they feel secure that an overwhelming calamity from God will not fall on them?; <br><br>(88:1) الغاَشِية the Day of Resurrection [lit. the one that overwhelms];‏ * الغاَشِيةname of Sura 88, Meccan sura, so‐ named because of the reference in verse <br><br><strong>1 </strong>to ‘the Overwhelming Event.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.غَشِىَ",
+        "label": "غَشِىَ",
+        "definitionHtml": "غَشِىَ ghashiya a [v., trans.] <br><br><strong>1 </strong>to cover up, to enshroud, to envelop <br><br>(14:50)‏ ‏وَتَغْشَى وُجُوهَهُمُ‏ ‏النَّارُ fire will cover their faces <br><br><strong>2 </strong>to envelop <br><br>(44:10–11) يَوْمَ‏ ‏تَأْتِي‏ ‏السَّماء بِِدُخَانٍ مُبِينٍ يَغْشَى‏ ‏النَّاس the Day when the sky brings forth visible smoke that will envelop people <br><br><strong>3 </strong>to overpower, to overtake <br><br>(3:154) ‏نُعَاسًا‏ ‏يَغْشَى‏ ‏طَائِفَةً‏ ‏مِنْكُمْ‏a sleep which overtook a group of you.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.غَشّىَ",
+        "label": "غَشّىَ",
+        "definitionHtml": "غَشّىَ ghashshā I [v. II, trans.] to completely cover, to envelop (in one interpretation of verse 53:54)‏ فَغَشَّاهَا‏ ‏مَا‏ ‏غَشَّى‏ and so He enveloped them in whatever enveloped them [He had them engulfed in disaster] II [doubly trans] to cause something to cover or to overcome something else <br><br>(8:11) ‏إذْ ‏يُغَشِّيكُمُ‏ ‏النُّعَاسَ‏ ‏أَمَنَةً‏ مِنهُ remember when He made slumber overcome you, [bringing] inner peace from Him; (in one interpretation of 53:54) فَغَشَّاهَا‏ ‏مَا‏ ‏غَشَّى ‏He caused to envelop them [by means of] whatever he used. ‏",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ش-و.يُغْشىَ",
+        "label": "يُغْشىَ",
+        "definitionHtml": "يُغْشىَ yughshā [imperf. pass. v.] to be covered, to be enveloped, to be overcome; to faint, to lose consciousness *<br><br>(33:19) يُغْشَى عَلَيْهِ مِنَ الْمَوْت‏ fainting because of [the approach of] death [lit. to be enveloped by the approaching death].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:37.020Z",
+      "refword": "2:7:9",
+      "lexword": "غِشَٰوَةٌ"
+    }
+  }
+}

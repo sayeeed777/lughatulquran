@@ -1,0 +1,472 @@
+{
+  "root": "اثر",
+  "rootArabic": "اثر",
+  "stats": {
+    "totalOccurrences": 21,
+    "derivativeCount": 4,
+    "surahCount": 16,
+    "ayahCount": 21
+  },
+  "derivatives": [
+    {
+      "form": "أَثَرٌ",
+      "count": 15
+    },
+    {
+      "form": "آثَرَ",
+      "count": 4
+    },
+    {
+      "form": "أَثَارَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يُؤْثَرُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "آثَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 2,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 2,
+          "totalInQuran": 15
+        },
+        {
+          "form": "آثَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 30,
+      "surahName": "Ar-Rum",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 40,
+      "surahName": "Al-Mu'min",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 2,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 2,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَارَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 57,
+      "surahName": "Al-Hadid",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "آثَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُؤْثَرُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَثَرٌ",
+          "count": 1,
+          "totalInQuran": 15
+        }
+      ]
+    },
+    {
+      "surah": 87,
+      "surahName": "Al-A'la",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "آثَرَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 46,
+      "text": "وَقَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِعِيسَى ٱبْنِ مَرْيَمَ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ ۖ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ فِيهِ هُدًى وَنُورٌ وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ وَهُدًى وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "highlightedHtml": "وَقَفَّيْنَا عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> بِعِيسَى ٱبْنِ مَرْيَمَ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ ۖ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ فِيهِ هُدًى وَنُورٌ وَمُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ مِنَ ٱلتَّوْرَىٰةِ وَهُدًى وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 91,
+      "text": "قَالُوا۟ تَٱللَّهِ لَقَدْ آثَرَكَ ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ لَقَدْ <a class=\"highlight-text\">آثَرَكَ</a> ٱللَّهُ عَلَيْنَا وَإِن كُنَّا لَخَٰطِـِٔينَ",
+      "derivedForms": [
+        "آثَرَ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 6,
+      "text": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ آثَارِهِمْ إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "highlightedHtml": "فَلَعَلَّكَ بَٰخِعٌ نَّفْسَكَ عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> إِن لَّمْ يُؤْمِنُوا۟ بِهَٰذَا ٱلْحَدِيثِ أَسَفًا",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 64,
+      "text": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ آثَارِهِمَا قَصَصًا",
+      "highlightedHtml": "قَالَ ذَٰلِكَ مَا كُنَّا نَبْغِ ۚ فَٱرْتَدَّا عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمَا</a> قَصَصًا",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 72,
+      "text": "قَالُوا۟ لَن نُّؤْثِرَكَ عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلَّذِى فَطَرَنَا ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
+      "highlightedHtml": "قَالُوا۟ لَن <a class=\"highlight-text\">نُّؤْثِرَكَ</a> عَلَىٰ مَا جَآءَنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلَّذِى فَطَرَنَا ۖ فَٱقْضِ مَآ أَنتَ قَاضٍ ۖ إِنَّمَا تَقْضِى هَٰذِهِ ٱلْحَيَوٰةَ ٱلدُّنْيَآ",
+      "derivedForms": [
+        "آثَرَ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 84,
+      "text": "قَالَ هُمْ أُو۟لَآءِ عَلَىٰٓ أَثَرِى وَعَجِلْتُ إِلَيْكَ رَبِّ لِتَرْضَىٰ",
+      "highlightedHtml": "قَالَ هُمْ أُو۟لَآءِ عَلَىٰٓ <a class=\"highlight-text\">أَثَرِى</a> وَعَجِلْتُ إِلَيْكَ رَبِّ لِتَرْضَىٰ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 96,
+      "text": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ أَثَرِ ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
+      "highlightedHtml": "قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا۟ بِهِۦ فَقَبَضْتُ قَبْضَةً مِّنْ <a class=\"highlight-text\">أَثَرِ</a> ٱلرَّسُولِ فَنَبَذْتُهَا وَكَذَٰلِكَ سَوَّلَتْ لِى نَفْسِى",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 30,
+      "ayah": 50,
+      "text": "فَٱنظُرْ إِلَىٰٓ آثَارِ رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "فَٱنظُرْ إِلَىٰٓ <a class=\"highlight-text\">آثَارِ</a> رَحْمَتِ ٱللَّهِ كَيْفَ يُحْىِ ٱلْأَرْضَ بَعْدَ مَوْتِهَآ ۚ إِنَّ ذَٰلِكَ لَمُحْىِ ٱلْمَوْتَىٰ ۖ وَهُوَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 12,
+      "text": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ وَءَاثَٰرَهُمْ ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+      "highlightedHtml": "إِنَّا نَحْنُ نُحْىِ ٱلْمَوْتَىٰ وَنَكْتُبُ مَا قَدَّمُوا۟ <a class=\"highlight-text\">وَءَاثَٰرَهُمْ</a> ۚ وَكُلَّ شَىْءٍ أَحْصَيْنَٰهُ فِىٓ إِمَامٍ مُّبِينٍ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 70,
+      "text": "فَهُمْ عَلَىٰٓ آثَارِهِمْ يُهْرَعُونَ",
+      "highlightedHtml": "فَهُمْ عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> يُهْرَعُونَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 21,
+      "text": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ كَانُوا۟ مِن قَبْلِهِمْ ۚ كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً وَءَاثَارًا فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ وَمَا كَانَ لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
+      "highlightedHtml": "أَوَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ كَانُوا۟ مِن قَبْلِهِمْ ۚ كَانُوا۟ هُمْ أَشَدَّ مِنْهُمْ قُوَّةً قُوَّةً <a class=\"highlight-text\">وَءَاثَارًا</a> فِى ٱلْأَرْضِ فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ وَمَا كَانَ لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 40,
+      "ayah": 82,
+      "text": "أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةً قُوَّةً وَءَاثَارًا فِى ٱلْأَرْضِ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "أَفَلَمْ يَسِيرُوا۟ فِى ٱلْأَرْضِ فَيَنظُرُوا۟ كَيْفَ كَانَ عَٰقِبَةُ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَانُوٓا۟ أَكْثَرَ مِنْهُمْ وَأَشَدَّ قُوَّةً قُوَّةً <a class=\"highlight-text\">وَءَاثَارًا</a> فِى ٱلْأَرْضِ فَمَآ أَغْنَىٰ عَنْهُم مَّا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 22,
+      "text": "بَلْ قَالُوٓا۟ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ مُّهْتَدُونَ",
+      "highlightedHtml": "بَلْ قَالُوٓا۟ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> مُّهْتَدُونَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 23,
+      "text": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ آثَارِهِمْ مُّقْتَدُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ مَآ أَرْسَلْنَا مِن قَبْلِكَ فِى قَرْيَةٍ مِّن نَّذِيرٍ إِلَّا قَالَ مُتْرَفُوهَآ إِنَّا وَجَدْنَآ ءَابَآءَنَا عَلَىٰٓ أُمَّةٍ وَإِنَّا عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> مُّقْتَدُونَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 4,
+      "text": "قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ ۖ ٱئْتُونِى بِكِتَٰبٍ مِّن قَبْلِ هَٰذَآ أَوْ أَثَٰرَةٍ مِّنْ عِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَٰوَٰتِ ۖ ٱئْتُونِى بِكِتَٰبٍ مِّن قَبْلِ هَٰذَآ أَوْ <a class=\"highlight-text\">أَثَٰرَةٍ</a> مِّنْ عِلْمٍ إِن كُنتُمْ صَٰدِقِينَ",
+      "derivedForms": [
+        "أَثَارَةٌ"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 29,
+      "text": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "highlightedHtml": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ <a class=\"highlight-text\">أَثَرِ</a> ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 57,
+      "ayah": 27,
+      "text": "ثُمَّ قَفَّيْنَا عَلَىٰٓ آثَارِهِمْ بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "highlightedHtml": "ثُمَّ قَفَّيْنَا عَلَىٰٓ <a class=\"highlight-text\">آثَارِهِمْ</a> بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ٱبْنِ مَرْيَمَ وَءَاتَيْنَٰهُ ٱلْإِنجِيلَ وَجَعَلْنَا فِى قُلُوبِ ٱلَّذِينَ ٱتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ٱبْتَدَعُوهَا مَا كَتَبْنَٰهَا عَلَيْهِمْ إِلَّا ٱبْتِغَآءَ رِضْوَٰنِ ٱللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا ۖ فَـَٔاتَيْنَا ٱلَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ ۖ وَكَثِيرٌ مِّنْهُمْ فَٰسِقُونَ",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 9,
+      "text": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ <a class=\"highlight-text\">وَيُؤْثِرُونَ</a> عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+      "derivedForms": [
+        "آثَرَ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 24,
+      "text": "فَقَالَ إِنْ هَٰذَآ إِلَّا سِحْرٌ يُؤْثَرُ",
+      "highlightedHtml": "فَقَالَ إِنْ هَٰذَآ إِلَّا سِحْرٌ <a class=\"highlight-text\">يُؤْثَرُ</a>",
+      "derivedForms": [
+        "يُؤْثَرُ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 38,
+      "text": "وَءَاثَرَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "highlightedHtml": "<a class=\"highlight-text\">وَءَاثَرَ</a> ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "derivedForms": [
+        "أَثَرٌ"
+      ]
+    },
+    {
+      "surah": 87,
+      "ayah": 16,
+      "text": "بَلْ تُؤْثِرُونَ ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "highlightedHtml": "بَلْ <a class=\"highlight-text\">تُؤْثِرُونَ</a> ٱلْحَيَوٰةَ ٱلدُّنْيَا",
+      "derivedForms": [
+        "آثَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:12.315Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural noun",
+    "derivativeNote": "آثَارِهِمْ is in the derivative form: أَثَرٌ",
+    "rootDefinitionHtml": "أ/ث/ر ʾ–th–r ʾ–th–r trace, mark, track, remnants, remains<br>; landmarks, monuments; authority, favour; to mark; deeds; to pass along, to transmit; to favour, to prefer. <br><br>Of this root, 5 forms occur 21 times in the Qur’an:<br> يُؤْثَرُ yuʾthar 1 time; آثَرَ ʾāthara 5 times; أَثَرٌ ʾathar 3 times; آثَارٌ ʾāthār 11 times and أَثَارَةٌ ʾathāratun 1 time.",
+    "mainDefinitionHtml": "أَثَرٌ ʾathar [n., pl. آثَارٌ ʾāthār] <br><br><strong>1 </strong>trace, mark, impression <br><br>(48:29) سِيمَاهُمْ فِى وُجُوهِهِمْ مِنْ أَثَرِ السُّجُودِ their mark is on their faces from the traces of prostration <br><br><strong>2 </strong>sign, manifestation, evidence <br><br>(30:50) فَانْظُرْ إِلَى ءَاثَارِ رَحْمَةِ اللَّهِ كَيْفَ يُحْيِِي الأَرْضَ بَعْدَ مَوْتِهَا look, then, at the manifestations of God’s mercy, how He restores the earth to life after death <br><br><strong>3 </strong>deeds, impact, relics <br><br>(40:21) كَانُوا هُمْ أَشَدَّ مِنْهُمْ قُوَّةً وَءَاثَارًا فِى الأَرْضِ they were stronger than them and made a more impressive impact upon the land; *<br><br>(20:84) هُمْ أُولاَءِ عَلَى أَثَرِي they are there following in my footsteps <br><br><strong>4 </strong>teachings, as in one interpretation, preferred by ʾal-Rāzī, of <br><br>(20:96) قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ فَقَبَضْتُ قَبْضَةً مِنْ أَثَرِ الرَّسُولِ he said, ‘I saw what they did not see, so I took in some of the teachings of the Messenger’ [according to the other, and more popular, interpretation: ‘I took a handful from the footstep of the Messenger’].",
+    "mainEntryId": "wdef-أ-ث-ر.أَثَرٌ",
+    "entries": [
+      {
+        "id": "wdef-أ-ث-ر",
+        "label": "أ-ث-ر",
+        "definitionHtml": "أ/ث/ر ʾ–th–r ʾ–th–r trace, mark, track, remnants, remains<br>; landmarks, monuments; authority, favour; to mark; deeds; to pass along, to transmit; to favour, to prefer. <br><br>Of this root, 5 forms occur 21 times in the Qur’an:<br> يُؤْثَرُ yuʾthar 1 time; آثَرَ ʾāthara 5 times; أَثَرٌ ʾathar 3 times; آثَارٌ ʾāthār 11 times and أَثَارَةٌ ʾathāratun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ث-ر.أَثَرٌ",
+        "label": "أَثَرٌ",
+        "definitionHtml": "أَثَرٌ ʾathar [n., pl. آثَارٌ ʾāthār] <br><br><strong>1 </strong>trace, mark, impression <br><br>(48:29) سِيمَاهُمْ فِى وُجُوهِهِمْ مِنْ أَثَرِ السُّجُودِ their mark is on their faces from the traces of prostration <br><br><strong>2 </strong>sign, manifestation, evidence <br><br>(30:50) فَانْظُرْ إِلَى ءَاثَارِ رَحْمَةِ اللَّهِ كَيْفَ يُحْيِِي الأَرْضَ بَعْدَ مَوْتِهَا look, then, at the manifestations of God’s mercy, how He restores the earth to life after death <br><br><strong>3 </strong>deeds, impact, relics <br><br>(40:21) كَانُوا هُمْ أَشَدَّ مِنْهُمْ قُوَّةً وَءَاثَارًا فِى الأَرْضِ they were stronger than them and made a more impressive impact upon the land; *<br><br>(20:84) هُمْ أُولاَءِ عَلَى أَثَرِي they are there following in my footsteps <br><br><strong>4 </strong>teachings, as in one interpretation, preferred by ʾal-Rāzī, of <br><br>(20:96) قَالَ بَصُرْتُ بِمَا لَمْ يَبْصُرُوا بِهِ فَقَبَضْتُ قَبْضَةً مِنْ أَثَرِ الرَّسُولِ he said, ‘I saw what they did not see, so I took in some of the teachings of the Messenger’ [according to the other, and more popular, interpretation: ‘I took a handful from the footstep of the Messenger’].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-أ-ث-ر.آثَرَ",
+        "label": "آثَرَ",
+        "definitionHtml": "آثَرَ ʾāthara [v. IV, could also be v. III, see discussion under آتَى ʾātā, trans.] to prefer, to put ahead of, to favour <br><br>(87:16) بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا yet you [people] prefer the life of this world; *<br><br>(59:9) يُؤْثِرُونَ عَلَى أَنْفُسِهِمْ they give [others] preference over themselves [they are self-denying].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ث-ر.أَثَارَةٌ",
+        "label": "أَثَارَةٌ",
+        "definitionHtml": "أَثَارَةٌ ʾathāratun [n./v. n.] a trace, vestige, remnant, relic <br><br>(46:4) اِئْتُونِي بِكِتَابٍ مِنْ قَبْلِ هَذَا أَوْ أَثَارَةٍ مِنْ عِلْمٍ bring me a previous scripture or some vestige of handed down knowledge.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ث-ر.يُؤْثَرُ",
+        "label": "يُؤْثَرُ",
+        "definitionHtml": "يُؤْثَرُ yuʾthar [imperf. of pass. v. أُثِرَ ʾuthira] to be handed down from one generation to the next <br><br>(74:24) فَقَالَ إِنْ هَذَا إِلاَّ سِحْرٌ يُؤْثَرُ and he said, ‘This is just ancient sorcery [learned from previous generations].’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:23:39.355Z",
+      "refword": "5:46:3",
+      "lexword": "آثَارِهِمْ"
+    }
+  }
+}

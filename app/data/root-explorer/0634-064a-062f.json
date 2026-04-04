@@ -1,0 +1,106 @@
+{
+  "root": "شيد",
+  "rootArabic": "شيد",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَشيد",
+      "count": 1
+    },
+    {
+      "form": "مُشَيَّدةٍ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُشَيَّدةٍ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَشيد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 78,
+      "text": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ مُّشَيَّدَةٍ ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "highlightedHtml": "أَيْنَمَا تَكُونُوا۟ يُدْرِككُّمُ ٱلْمَوْتُ وَلَوْ كُنتُمْ فِى بُرُوجٍ <a class=\"highlight-text\">مُّشَيَّدَةٍ</a> ۗ وَإِن تُصِبْهُمْ حَسَنَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِ ٱللَّهِ ۖ وَإِن تُصِبْهُمْ سَيِّئَةٌ يَقُولُوا۟ هَٰذِهِۦ مِنْ عِندِكَ ۚ قُلْ كُلٌّ مِّنْ عِندِ ٱللَّهِ ۖ فَمَالِ هَٰٓؤُلَآءِ ٱلْقَوْمِ لَا يَكَادُونَ يَفْقَهُونَ حَدِيثًا",
+      "derivedForms": [
+        "مُشَيَّدةٍ"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 45,
+      "text": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ مَّشِيدٍ",
+      "highlightedHtml": "فَكَأَيِّن مِّن قَرْيَةٍ أَهْلَكْنَٰهَا وَهِىَ ظَالِمَةٌ فَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَبِئْرٍ مُّعَطَّلَةٍ وَقَصْرٍ <a class=\"highlight-text\">مَّشِيدٍ</a>",
+      "derivedForms": [
+        "مَشيد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:33.172Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive feminine indefinite (form II) passive participle",
+    "derivativeNote": "مُّشَيَّدَةٍ is in the derivative form: مُشَيَّدةٍ",
+    "rootDefinitionHtml": "ش/ي/د   sh–y–d plaster, gypsum, to plaster (a wall) with gypsum or the like; to erect a building, or raise a building, high, tall constructions; to strengthen, to acclaim, to proclaim. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>مَشيد mashıd andمُشَيَّدةٍ mushayyadatin.",
+    "mainDefinitionHtml": "مُشَيَّدةٍ mushayyadatin [pass. part. of v. II, trans.] plastered, loftily erected <br><br>(4:78) أَيْنَمَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِى بُرُوجٍ مُشَيَّدَةٍ wherever you may be death will overtake you, even if you were inside lofty towers.",
+    "mainEntryId": "wdef-ش-ي-د.مُشَيَّدةٍ",
+    "entries": [
+      {
+        "id": "wdef-ش-ي-د",
+        "label": "ش-ي-د",
+        "definitionHtml": "ش/ي/د   sh–y–d plaster, gypsum, to plaster (a wall) with gypsum or the like; to erect a building, or raise a building, high, tall constructions; to strengthen, to acclaim, to proclaim. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br>مَشيد mashıd andمُشَيَّدةٍ mushayyadatin.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ي-د.مُشَيَّدةٍ",
+        "label": "مُشَيَّدةٍ",
+        "definitionHtml": "مُشَيَّدةٍ mushayyadatin [pass. part. of v. II, trans.] plastered, loftily erected <br><br>(4:78) أَيْنَمَا تَكُونُوا يُدْرِكُكُمُ الْمَوْتُ وَلَوْ كُنْتُمْ فِى بُرُوجٍ مُشَيَّدَةٍ wherever you may be death will overtake you, even if you were inside lofty towers.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ي-د.مَشيد",
+        "label": "مَشيد",
+        "definitionHtml": "مَشيد mashıd [pass. part. of v. trans.شادَ shāda] plastered, loftily erected <br><br>(22:45) فَكَأَيِّنْ مِنْ قَرْيَةٍ أَهْلَكْنَاهَا وَهِيَ ظَالِمَةٌ فَهِيَ خَاوِيَةٌ عَلَى عُرُوشِهَا وَبِئْرٍ مُعَطَّلَةٍ وَقَصْرٍ مَشِيدٍ how many a town We have destroyed, while it is doing wrong, and now it is fallen upon its roofs; and [how many] a deserted well; and [how many] a lofty palace.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:43:07.887Z",
+      "refword": "4:78:9",
+      "lexword": "مُّشَيَّدَةٍ"
+    }
+  }
+}

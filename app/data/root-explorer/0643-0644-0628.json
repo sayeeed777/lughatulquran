@@ -1,0 +1,138 @@
+{
+  "root": "كلب",
+  "rootArabic": "كلب",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "كَلْب",
+      "count": 5
+    },
+    {
+      "form": "مُكَلِّبِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكَلِّبِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَلْب",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "كَلْب",
+          "count": 4,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 4,
+      "text": "يَسْـَٔلُونَكَ مَاذَآ أُحِلَّ لَهُمْ ۖ قُلْ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ ۙ وَمَا عَلَّمْتُم مِّنَ ٱلْجَوَارِحِ مُكَلِّبِينَ تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ ٱللَّهُ ۖ فَكُلُوا۟ مِمَّآ أَمْسَكْنَ عَلَيْكُمْ وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهِ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
+      "highlightedHtml": "يَسْـَٔلُونَكَ مَاذَآ أُحِلَّ لَهُمْ ۖ قُلْ أُحِلَّ لَكُمُ ٱلطَّيِّبَٰتُ ۙ وَمَا عَلَّمْتُم مِّنَ ٱلْجَوَارِحِ <a class=\"highlight-text\">مُكَلِّبِينَ</a> تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ ٱللَّهُ ۖ فَكُلُوا۟ مِمَّآ أَمْسَكْنَ عَلَيْكُمْ وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهِ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
+      "derivedForms": [
+        "مُكَلِّبِين"
+      ]
+    },
+    {
+      "surah": 7,
+      "ayah": 176,
+      "text": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ ٱلْكَلْبِ إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "highlightedHtml": "وَلَوْ شِئْنَا لَرَفَعْنَٰهُ بِهَا وَلَٰكِنَّهُۥٓ أَخْلَدَ إِلَى ٱلْأَرْضِ وَٱتَّبَعَ هَوَىٰهُ ۚ فَمَثَلُهُۥ كَمَثَلِ <a class=\"highlight-text\">ٱلْكَلْبِ</a> إِن تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَث ۚ ذَّٰلِكَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَٰتِنَا ۚ فَٱقْصُصِ ٱلْقَصَصَ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "كَلْب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 18,
+      "text": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ وَكَلْبُهُم بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "highlightedHtml": "وَتَحْسَبُهُمْ أَيْقَاظًا وَهُمْ رُقُودٌ ۚ وَنُقَلِّبُهُمْ ذَاتَ ٱلْيَمِينِ وَذَاتَ ٱلشِّمَالِ ۖ <a class=\"highlight-text\">وَكَلْبُهُم</a> بَٰسِطٌ ذِرَاعَيْهِ بِٱلْوَصِيدِ ۚ لَوِ ٱطَّلَعْتَ عَلَيْهِمْ لَوَلَّيْتَ مِنْهُمْ فِرَارًا وَلَمُلِئْتَ مِنْهُمْ رُعْبًا",
+      "derivedForms": [
+        "كَلْب"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 22,
+      "text": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "highlightedHtml": "سَيَقُولُونَ ثَلَٰثَةٌ رَّابِعُهُمْ <a class=\"highlight-text\">كَلْبُهُمْ</a> وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ <a class=\"highlight-text\">كَلْبُهُمْ</a> رَجْمًۢا بِٱلْغَيْبِ ۖ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ <a class=\"highlight-text\">كَلْبُهُمْ</a> ۚ قُل رَّبِّىٓ أَعْلَمُ بِعِدَّتِهِم مَّا يَعْلَمُهُمْ إِلَّا قَلِيلٌ ۗ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَآءً ظَٰهِرًا وَلَا تَسْتَفْتِ فِيهِم مِّنْهُمْ أَحَدًا",
+      "derivedForms": [
+        "كَلْب",
+        "كَلْب",
+        "كَلْب"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:59.687Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form II) active participle",
+    "derivativeNote": "مُكَلِّبِينَ is in the derivative form: مُكَلِّبِين",
+    "rootDefinitionHtml": "ك/ل/ب   k–l–b dog, any wild animal, to train animals and birds for hunting; to become fierce; rabies; to fight over; hanging hook; gluttony. <br><br>Of this root, 2 words occur 6 times in the Qur’an:<br> كَلْب kalb 5 times and مُكَلِّبِين mukallibın 1 time.",
+    "mainDefinitionHtml": "مُكَلِّبِين mukallibın [pl. of act. part. مُكَلِّب mukallib] one who trains animals or birds or keeps them for hunting <br><br>(5:4) أُحِلَّ لَكُمُ الطَّيِّبَاتُ وَمَا عَلَّمْتُمْ مِنَ الْجَوَارِحِ مُكَلِّبِينَ permitted to you [for food] are all good things and [the catch of] such predatory creatures as you train to hunt.",
+    "mainEntryId": "wdef-ك-ل-ب.مُكَلِّبِين",
+    "entries": [
+      {
+        "id": "wdef-ك-ل-ب",
+        "label": "ك-ل-ب",
+        "definitionHtml": "ك/ل/ب   k–l–b dog, any wild animal, to train animals and birds for hunting; to become fierce; rabies; to fight over; hanging hook; gluttony. <br><br>Of this root, 2 words occur 6 times in the Qur’an:<br> كَلْب kalb 5 times and مُكَلِّبِين mukallibın 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ل-ب.مُكَلِّبِين",
+        "label": "مُكَلِّبِين",
+        "definitionHtml": "مُكَلِّبِين mukallibın [pl. of act. part. مُكَلِّب mukallib] one who trains animals or birds or keeps them for hunting <br><br>(5:4) أُحِلَّ لَكُمُ الطَّيِّبَاتُ وَمَا عَلَّمْتُمْ مِنَ الْجَوَارِحِ مُكَلِّبِينَ permitted to you [for food] are all good things and [the catch of] such predatory creatures as you train to hunt.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-ل-ب.كَلْب",
+        "label": "كَلْب",
+        "definitionHtml": "كَلْب kalb [n.] dog <br><br>(7:176) فَمَثَلُهُ كَمَثَلِ الْكَلْبِ إِنْ تَحْمِلْ عَلَيْهِ يَلْهَثْ أَوْ تَتْرُكْهُ يَلْهَثْ so his likeness is as the likeness of a dog, if you attack him, he pants [with his tongue out] and if you leave him alone, he pants [with his tongue out].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:22.976Z",
+      "refword": "5:4:13",
+      "lexword": "مُكَلِّبِينَ"
+    }
+  }
+}

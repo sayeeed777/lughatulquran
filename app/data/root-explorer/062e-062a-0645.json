@@ -1,0 +1,247 @@
+{
+  "root": "ختم",
+  "rootArabic": "ختم",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 4,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "خَتَمَ",
+      "count": 4
+    },
+    {
+      "form": "خَاتَمٌ",
+      "count": 2
+    },
+    {
+      "form": "خِتَامٌ",
+      "count": 1
+    },
+    {
+      "form": "مَخْتُومٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاتَمٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَتَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاتَمٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَتَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَتَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 45,
+      "surahName": "Al-Jathiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَتَمَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 83,
+      "surahName": "At-Tatfif",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "خِتَامٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مَخْتُومٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 7,
+      "text": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">خَتَمَ</a> ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ ۖ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ ۖ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+      "derivedForms": [
+        "خَاتَمٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 46,
+      "text": "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَٰرَكُمْ وَخَتَمَ عَلَىٰ قُلُوبِكُم مَّنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ ثُمَّ هُمْ يَصْدِفُونَ",
+      "highlightedHtml": "قُلْ أَرَءَيْتُمْ إِنْ أَخَذَ ٱللَّهُ سَمْعَكُمْ وَأَبْصَٰرَكُمْ <a class=\"highlight-text\">وَخَتَمَ</a> عَلَىٰ قُلُوبِكُم مَّنْ إِلَٰهٌ غَيْرُ ٱللَّهِ يَأْتِيكُم بِهِ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ نُصَرِّفُ ٱلْءَايَٰتِ ثُمَّ هُمْ يَصْدِفُونَ",
+      "derivedForms": [
+        "خَتَمَ"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 40,
+      "text": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ وَخَاتَمَ ٱلنَّبِيِّۦنَ ۗ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "highlightedHtml": "مَّا كَانَ مُحَمَّدٌ أَبَآ أَحَدٍ مِّن رِّجَالِكُمْ وَلَٰكِن رَّسُولَ ٱللَّهِ <a class=\"highlight-text\">وَخَاتَمَ</a> ٱلنَّبِيِّۦنَ ۗ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "derivedForms": [
+        "خَاتَمٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 65,
+      "text": "ٱلْيَوْمَ نَخْتِمُ عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "highlightedHtml": "ٱلْيَوْمَ <a class=\"highlight-text\">نَخْتِمُ</a> عَلَىٰٓ أَفْوَٰهِهِمْ وَتُكَلِّمُنَآ أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+      "derivedForms": [
+        "خَتَمَ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 24,
+      "text": "أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۖ فَإِن يَشَإِ ٱللَّهُ يَخْتِمْ عَلَىٰ قَلْبِكَ ۗ وَيَمْحُ ٱللَّهُ ٱلْبَٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "highlightedHtml": "أَمْ يَقُولُونَ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا ۖ فَإِن يَشَإِ ٱللَّهُ <a class=\"highlight-text\">يَخْتِمْ</a> عَلَىٰ قَلْبِكَ ۗ وَيَمْحُ ٱللَّهُ ٱلْبَٰطِلَ وَيُحِقُّ ٱلْحَقَّ بِكَلِمَٰتِهِۦٓ ۚ إِنَّهُۥ عَلِيمٌۢ بِذَاتِ ٱلصُّدُورِ ٱلصُّدُورِ",
+      "derivedForms": [
+        "خَتَمَ"
+      ]
+    },
+    {
+      "surah": 45,
+      "ayah": 23,
+      "text": "أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ وَخَتَمَ عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَٰوَةً فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ",
+      "highlightedHtml": "أَفَرَءَيْتَ مَنِ ٱتَّخَذَ إِلَٰهَهُۥ هَوَىٰهُ وَأَضَلَّهُ ٱللَّهُ عَلَىٰ عِلْمٍ <a class=\"highlight-text\">وَخَتَمَ</a> عَلَىٰ سَمْعِهِۦ وَقَلْبِهِۦ وَجَعَلَ عَلَىٰ بَصَرِهِۦ غِشَٰوَةً فَمَن يَهْدِيهِ مِنۢ بَعْدِ ٱللَّهِ ۚ أَفَلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "خَتَمَ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 25,
+      "text": "يُسْقَوْنَ مِن رَّحِيقٍ مَّخْتُومٍ",
+      "highlightedHtml": "يُسْقَوْنَ مِن رَّحِيقٍ <a class=\"highlight-text\">مَّخْتُومٍ</a>",
+      "derivedForms": [
+        "مَخْتُومٌ"
+      ]
+    },
+    {
+      "surah": 83,
+      "ayah": 26,
+      "text": "خِتَٰمُهُۥ مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">خِتَٰمُهُۥ</a> مِسْكٌ ۚ وَفِى ذَٰلِكَ فَلْيَتَنَافَسِ ٱلْمُتَنَٰفِسُونَ",
+      "derivedForms": [
+        "خِتَامٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:04.399Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "خَتَمَ is in the derivative form: خَاتَمٌ",
+    "rootDefinitionHtml": "خ/ت/م   kh–t–m a seal, sealing material, to seal up, to enclose, to block, to secure, to cover up, to brand, to mark, a ring, to wear a ring<br>; to complete, to conclude, the end part, the concluding one, conclusion. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> خَتَمَ khatama 5 times; خَاتَمٌ khātam 1 time; خِتَامٌ khitām 1 time and مَخْتُومٌ makhtūm 1 time.",
+    "mainDefinitionHtml": "خَاتَمٌ khātam [act. part./n.] concluding one, final seal <br><br>(33:40) مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ Muḥammad is not the father of any one of your men; he is God’s Messenger and the seal of the prophets.",
+    "mainEntryId": "wdef-خ-ت-م.خَاتَمٌ",
+    "entries": [
+      {
+        "id": "wdef-خ-ت-م",
+        "label": "خ-ت-م",
+        "definitionHtml": "خ/ت/م   kh–t–m a seal, sealing material, to seal up, to enclose, to block, to secure, to cover up, to brand, to mark, a ring, to wear a ring<br>; to complete, to conclude, the end part, the concluding one, conclusion. <br><br>Of this root, 4 forms occur 8 times in the Qur’an:<br> خَتَمَ khatama 5 times; خَاتَمٌ khātam 1 time; خِتَامٌ khitām 1 time and مَخْتُومٌ makhtūm 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ت-م.خَاتَمٌ",
+        "label": "خَاتَمٌ",
+        "definitionHtml": "خَاتَمٌ khātam [act. part./n.] concluding one, final seal <br><br>(33:40) مَا كَانَ مُحَمَّدٌ أَبَا أَحَدٍ مِنْ رِجَالِكُمْ وَلَكِنْ رَسُولَ اللَّهِ وَخَاتَمَ النَّبِيِّينَ Muḥammad is not the father of any one of your men; he is God’s Messenger and the seal of the prophets.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ت-م.خَتَمَ",
+        "label": "خَتَمَ",
+        "definitionHtml": "خَتَمَ khatama i [v. trans. with prep. عَلَى] to seal up <br><br>(36:65) الْيَوْمَ نَخْتِمُ عَلَى أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ on this day We will seal up their mouths, but their hands will speak to Us.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ت-م.خِتَامٌ",
+        "label": "خِتَامٌ",
+        "definitionHtml": "خِتَامٌ khitām [v. n./n.] concluding/conclusion, end part, seal/ sealing; crowning touch <br><br>(83:26) خِتَامُهُ مِسْكٌ whose seal (or, end part, conclusion) is musk.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ت-م.مَخْتُومٌ",
+        "label": "مَخْتُومٌ",
+        "definitionHtml": "مَخْتُومٌ makhtūm [pass. part.] that which is sealed, concluded, ended <br><br>(83:25) يُسْقَوْنَ مِنْ رَحِيقٍ مَخْتُومٍ they are given to drink of pure wine, sealed.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:33.019Z",
+      "refword": "2:7:1",
+      "lexword": "خَتَمَ"
+    }
+  }
+}

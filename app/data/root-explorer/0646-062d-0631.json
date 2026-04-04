@@ -1,0 +1,74 @@
+{
+  "root": "نحر",
+  "rootArabic": "نحر",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "انحر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 108,
+      "surahName": "Al-Kauthar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "انحر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 108,
+      "ayah": 2,
+      "text": "فَصَلِّ لِرَبِّكَ وَٱنْحَرْ",
+      "highlightedHtml": "فَصَلِّ لِرَبِّكَ <a class=\"highlight-text\">وَٱنْحَرْ</a>",
+      "derivedForms": [
+        "انحر"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:07.275Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine singular imperative verb",
+    "derivativeNote": "وَٱنْحَرْ is in the derivative form: انحر",
+    "rootDefinitionHtml": "ن/ح/ر   n–ḥ–r chest, the upper part of the chest, the throat, to slaughter; to strive; to pour down heavily. Of this root, انْحَرْ ʾinḥar, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "انحر ʾinḥar [imper. of v. نحَر naḥara, trans.] <br><br><strong>1 </strong>to stand upright; to fulfil one’s duties as they become due (in one interpretation of 108:2) فَصَلِّ لِرَبِّكَ وَانْحَرْ so Pray to your Lord and be upright [in your prayer] (or, and fulfil your prayer as early/as soon as it becomes due) <br><br><strong>2 </strong>slaughter, kill a sacrificial animal (in another interpretation of 108:2) فَصَلِّ لِرَبِّكَ وَانْحَرْ so pray to your Lord and make your sacrifice.",
+    "mainEntryId": "wdef-ن-ح-ر.انحر",
+    "entries": [
+      {
+        "id": "wdef-ن-ح-ر",
+        "label": "ن-ح-ر",
+        "definitionHtml": "ن/ح/ر   n–ḥ–r chest, the upper part of the chest, the throat, to slaughter; to strive; to pour down heavily. Of this root, انْحَرْ ʾinḥar, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ح-ر.انحر",
+        "label": "انحر",
+        "definitionHtml": "انحر ʾinḥar [imper. of v. نحَر naḥara, trans.] <br><br><strong>1 </strong>to stand upright; to fulfil one’s duties as they become due (in one interpretation of 108:2) فَصَلِّ لِرَبِّكَ وَانْحَرْ so Pray to your Lord and be upright [in your prayer] (or, and fulfil your prayer as early/as soon as it becomes due) <br><br><strong>2 </strong>slaughter, kill a sacrificial animal (in another interpretation of 108:2) فَصَلِّ لِرَبِّكَ وَانْحَرْ so pray to your Lord and make your sacrifice.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:59:31.155Z",
+      "refword": "108:2:3",
+      "lexword": "وَٱنْحَرْ"
+    }
+  }
+}

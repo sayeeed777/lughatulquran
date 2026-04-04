@@ -1,0 +1,74 @@
+{
+  "root": "كلح",
+  "rootArabic": "كلح",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "كَالِحُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "كَالِحُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 23,
+      "ayah": 104,
+      "text": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَٰلِحُونَ",
+      "highlightedHtml": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا <a class=\"highlight-text\">كَٰلِحُونَ</a>",
+      "derivedForms": [
+        "كَالِحُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:00.618Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural active participle",
+    "derivativeNote": "كَٰلِحُونَ is in the derivative form: كَالِحُون",
+    "rootDefinitionHtml": "ك/ل/ح   k–l–ḥ scowling, frowning, to be grave, austere; hardship, famine; succession of thunderbolts. Of this root, كَالِحُون kāliḥūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "كَالِحُون kāliḥūn [pl. of act. part. كَالِح kāliḥ] scowling, glowering, gloomy <br><br>(23:104) تَلْفَحُ وُجُوهَهُمُ النَّارُ وَهُمْ فِيهَا كَالِحُونَ the Fire will scorch their faces and they will abide in it scowling [in pain].",
+    "mainEntryId": "wdef-ك-ل-ح.كَالِحُون",
+    "entries": [
+      {
+        "id": "wdef-ك-ل-ح",
+        "label": "ك-ل-ح",
+        "definitionHtml": "ك/ل/ح   k–l–ḥ scowling, frowning, to be grave, austere; hardship, famine; succession of thunderbolts. Of this root, كَالِحُون kāliḥūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-ل-ح.كَالِحُون",
+        "label": "كَالِحُون",
+        "definitionHtml": "كَالِحُون kāliḥūn [pl. of act. part. كَالِح kāliḥ] scowling, glowering, gloomy <br><br>(23:104) تَلْفَحُ وُجُوهَهُمُ النَّارُ وَهُمْ فِيهَا كَالِحُونَ the Fire will scorch their faces and they will abide in it scowling [in pain].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:55:25.155Z",
+      "refword": "23:104:6",
+      "lexword": "كَٰلِحُونَ"
+    }
+  }
+}

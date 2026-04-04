@@ -1,0 +1,220 @@
+{
+  "root": "غبر",
+  "rootArabic": "غبر",
+  "stats": {
+    "totalOccurrences": 8,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 8
+  },
+  "derivatives": [
+    {
+      "form": "غابِرين",
+      "count": 7
+    },
+    {
+      "form": "غبِرةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 7,
+      "surahName": "Al-A'raf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 2,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غابِرين",
+          "count": 1,
+          "totalInQuran": 7
+        }
+      ]
+    },
+    {
+      "surah": 80,
+      "surahName": "Abasa",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "غبِرةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 7,
+      "ayah": 83,
+      "text": "فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 60,
+      "text": "إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَآ ۙ إِنَّهَا لَمِنَ ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَآ ۙ إِنَّهَا لَمِنَ <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 26,
+      "ayah": 171,
+      "text": "إِلَّا عَجُوزًا فِى ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "إِلَّا عَجُوزًا فِى <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 57,
+      "text": "فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَٰهَا مِنَ ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "فَأَنجَيْنَٰهُ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ قَدَّرْنَٰهَا مِنَ <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 32,
+      "text": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 33,
+      "text": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 135,
+      "text": "إِلَّا عَجُوزًا فِى ٱلْغَٰبِرِينَ",
+      "highlightedHtml": "إِلَّا عَجُوزًا فِى <a class=\"highlight-text\">ٱلْغَٰبِرِينَ</a>",
+      "derivedForms": [
+        "غابِرين"
+      ]
+    },
+    {
+      "surah": 80,
+      "ayah": 40,
+      "text": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
+      "highlightedHtml": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا <a class=\"highlight-text\">غَبَرَةٌ</a>",
+      "derivedForms": [
+        "غبِرةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:46.055Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلْغَٰبِرِينَ is in the derivative form: غابِرين",
+    "rootDefinitionHtml": "غ/ب/ر   gh–b–r dust, earth, to gather dust, to remain, to depart, previous time; devastation, famine, poverty. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br> غبرةٌ ghabaratun 1 time and غابِرين ghābirın 7 times.",
+    "mainDefinitionHtml": "غابِرين ghābirın [pl. of act. part. غابِر ghābir] those who remain, who stay behind <br><br>(29:33) إِنَّا‏ ‏مُنَجُّوكَ‏ ‏وَأَهْلَكَ‏ ‏إِلاَّ‏ ‏امْرَأَتَكَ‏ ‏كَانَتْ‏ ‏مِنَ الْغَابِرِينَ We shall save you and your household, except for your wife–she will be among those who stay behind.",
+    "mainEntryId": "wdef-غ-ب-ر.غابِرين",
+    "entries": [
+      {
+        "id": "wdef-غ-ب-ر",
+        "label": "غ-ب-ر",
+        "definitionHtml": "غ/ب/ر   gh–b–r dust, earth, to gather dust, to remain, to depart, previous time; devastation, famine, poverty. <br><br>Of this root, 2 forms occur 8 times in the Qur’an:<br> غبرةٌ ghabaratun 1 time and غابِرين ghābirın 7 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-غ-ب-ر.غابِرين",
+        "label": "غابِرين",
+        "definitionHtml": "غابِرين ghābirın [pl. of act. part. غابِر ghābir] those who remain, who stay behind <br><br>(29:33) إِنَّا‏ ‏مُنَجُّوكَ‏ ‏وَأَهْلَكَ‏ ‏إِلاَّ‏ ‏امْرَأَتَكَ‏ ‏كَانَتْ‏ ‏مِنَ الْغَابِرِينَ We shall save you and your household, except for your wife–she will be among those who stay behind.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-غ-ب-ر.غبِرةٌ",
+        "label": "غبِرةٌ",
+        "definitionHtml": "غبِرةٌ ghabaratun [n.] dust covering, layer of dust *<br><br>(80:40) وَوُجُوهٌ‏ ‏يَوْمَئِذٍ‏ ‏عَلَيْهَا ‏غَبَرَةٌ‏ but some faces will have a layer of dust on them, will be very gloomy.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:49:10.487Z",
+      "refword": "7:83:7",
+      "lexword": "ٱلْغَٰبِرِينَ"
+    }
+  }
+}

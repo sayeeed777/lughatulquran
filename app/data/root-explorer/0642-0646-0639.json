@@ -1,0 +1,106 @@
+{
+  "root": "قنع",
+  "rootArabic": "قنع",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "قَانِع",
+      "count": 1
+    },
+    {
+      "form": "مُقْنِعِي",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقْنِعِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَانِع",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 14,
+      "ayah": 43,
+      "text": "مُهْطِعِينَ مُقْنِعِى رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ",
+      "highlightedHtml": "مُهْطِعِينَ <a class=\"highlight-text\">مُقْنِعِى</a> رُءُوسِهِمْ لَا يَرْتَدُّ إِلَيْهِمْ طَرْفُهُمْ ۖ وَأَفْـِٔدَتُهُمْ هَوَآءٌ",
+      "derivedForms": [
+        "مُقْنِعِي"
+      ]
+    },
+    {
+      "surah": 22,
+      "ayah": 36,
+      "text": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْقَانِعَ وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "وَٱلْبُدْنَ جَعَلْنَٰهَا لَكُم مِّن شَعَٰٓئِرِ شَعَٰٓئِرِ ٱللَّهِ لَكُمْ فِيهَا خَيْرٌ ۖ فَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهَا صَوَآفَّ ۖ فَإِذَا وَجَبَتْ جُنُوبُهَا فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ <a class=\"highlight-text\">ٱلْقَانِعَ</a> وَٱلْمُعْتَرَّ ۚ كَذَٰلِكَ سَخَّرْنَٰهَا لَكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "قَانِع"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:17.830Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural noun",
+    "derivativeNote": "مُقْنِعِى is in the derivative form: مُقْنِعِي",
+    "rootDefinitionHtml": "ق/ن/ع   q–n–ʿ to be content; to be convinced, to persuade, temperance; greed; to crane the neck in submission; camel hump; mask, veil, to mask. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> قَانِع qāniʿ and مُقْنِعِي muqniʿı.",
+    "mainDefinitionHtml": "مُقْنِعِي muqniʿı [pl. of act. part. ‏مُقْنِعِي muqniʿı [pl. of act. part. مُقْنِع muqniʿ, in construct (إضافة)] one who lifts up the head <br><br>(14:43) مُهْطِعِينَ مُقْنِعِي رُءُوسِهِمْ rushing forward, craning their necks.",
+    "mainEntryId": "wdef-ق-ن-ع.مُقْنِعِي",
+    "entries": [
+      {
+        "id": "wdef-ق-ن-ع",
+        "label": "ق-ن-ع",
+        "definitionHtml": "ق/ن/ع   q–n–ʿ to be content; to be convinced, to persuade, temperance; greed; to crane the neck in submission; camel hump; mask, veil, to mask. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> قَانِع qāniʿ and مُقْنِعِي muqniʿı.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ن-ع.مُقْنِعِي",
+        "label": "مُقْنِعِي",
+        "definitionHtml": "مُقْنِعِي muqniʿı [pl. of act. part. ‏مُقْنِعِي muqniʿı [pl. of act. part. مُقْنِع muqniʿ, in construct (إضافة)] one who lifts up the head <br><br>(14:43) مُهْطِعِينَ مُقْنِعِي رُءُوسِهِمْ rushing forward, craning their necks.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ن-ع.قَانِع",
+        "label": "قَانِع",
+        "definitionHtml": "قَانِع qāniʿ [act. part.] one who is content with his meagre lot, one who asks for alms gently <br><br>(22:36) فَكُلُوا مِنْهَا وَأَطْعِمُوا الْقَانِعَ وَالْمُعْتَرَّ so eat of it and feed the one who does not ask, and the one who begs.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:08.443Z",
+      "refword": "14:43:2",
+      "lexword": "مُقْنِعِى"
+    }
+  }
+}

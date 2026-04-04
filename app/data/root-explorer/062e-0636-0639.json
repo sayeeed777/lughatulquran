@@ -1,0 +1,106 @@
+{
+  "root": "خضع",
+  "rootArabic": "خضع",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "تَخْضَعُ",
+      "count": 1
+    },
+    {
+      "form": "خَاضِعُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَاضِعُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 33,
+      "surahName": "Al-Ahzab",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَخْضَعُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 4,
+      "text": "إِن نَّشَأْ نُنَزِّلْ عَلَيْهِم مِّنَ ٱلسَّمَآءِ آيَةً فَظَلَّتْ أَعْنَٰقُهُمْ لَهَا خَٰضِعِينَ",
+      "highlightedHtml": "إِن نَّشَأْ نُنَزِّلْ عَلَيْهِم مِّنَ ٱلسَّمَآءِ آيَةً فَظَلَّتْ أَعْنَٰقُهُمْ لَهَا <a class=\"highlight-text\">خَٰضِعِينَ</a>",
+      "derivedForms": [
+        "خَاضِعُون"
+      ]
+    },
+    {
+      "surah": 33,
+      "ayah": 32,
+      "text": "يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا تَخْضَعْنَ بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا",
+      "highlightedHtml": "يَٰنِسَآءَ ٱلنَّبِىِّ لَسْتُنَّ كَأَحَدٍ مِّنَ ٱلنِّسَآءِ ۚ إِنِ ٱتَّقَيْتُنَّ فَلَا <a class=\"highlight-text\">تَخْضَعْنَ</a> بِٱلْقَوْلِ فَيَطْمَعَ ٱلَّذِى فِى قَلْبِهِۦ مَرَضٌ وَقُلْنَ قَوْلًا مَّعْرُوفًا",
+      "derivedForms": [
+        "تَخْضَعُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:26.437Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural active participle",
+    "derivativeNote": "خَٰضِعِينَ is in the derivative form: خَاضِعُون",
+    "rootDefinitionHtml": "خ/ض/ع   kh–ḍ–ʿ downward inclination of the neck, to lower one’s head; to be submissive; to be lonely; to abase oneself; sound of battle; rumbling in the stomach. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَخْضَعُ takhḍaʿ and خَاضِعُون khāḍiʿūn.",
+    "mainDefinitionHtml": "خَاضِعُون khāḍiʿūn [pl. of act. part. خَاضِعٌ khāḍiʿ] those bowing, those showing submission, those humbling themselves <br><br>(26:4) إِنْ نَشَأْ نُنَزِّلْ عَلَيْهِمْ مِنَ السَّمَاءِ ءَايَةً فَظَلَّتْ أَعْنَاقُهُمْ لَهَا خَاضِعِينَ if We wish, We can send down upon them from heaven a sign, so that their nobility (or, necks) would [become humble to it] bow [humbly] to it.",
+    "mainEntryId": "wdef-خ-ض-ع.خَاضِعُون",
+    "entries": [
+      {
+        "id": "wdef-خ-ض-ع",
+        "label": "خ-ض-ع",
+        "definitionHtml": "خ/ض/ع   kh–ḍ–ʿ downward inclination of the neck, to lower one’s head; to be submissive; to be lonely; to abase oneself; sound of battle; rumbling in the stomach. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> تَخْضَعُ takhḍaʿ and خَاضِعُون khāḍiʿūn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ض-ع.خَاضِعُون",
+        "label": "خَاضِعُون",
+        "definitionHtml": "خَاضِعُون khāḍiʿūn [pl. of act. part. خَاضِعٌ khāḍiʿ] those bowing, those showing submission, those humbling themselves <br><br>(26:4) إِنْ نَشَأْ نُنَزِّلْ عَلَيْهِمْ مِنَ السَّمَاءِ ءَايَةً فَظَلَّتْ أَعْنَاقُهُمْ لَهَا خَاضِعِينَ if We wish, We can send down upon them from heaven a sign, so that their nobility (or, necks) would [become humble to it] bow [humbly] to it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ض-ع.تَخْضَعُ",
+        "label": "تَخْضَعُ",
+        "definitionHtml": "تَخْضَعُ ʿtakhḍa [imperf. of v. خَضَعَ khaḍaʿa both trans. and intrans.] to be meek, to be submissive; to be yielding <br><br>(33:32) يَانِسَاءَ النَّبِيِّ لَسْتُنَّ كَأَحَدٍ مِنَ النِّسَاءِ إِنِ اتَّقَيْتُنَّ فَلاَ تَخْضَعْنَ بِالْقَوْلِ فَيَطْمَعَ الَّذِي فِى قَلْبِهِ مَرَضٌ wives of the Prophet, you are not like any of the other women, if you show piety, do not be yielding in your speech, lest he in whose heart is sickness should [be moved to] desire/covet [you].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:33:17.216Z",
+      "refword": "26:4:11",
+      "lexword": "خَٰضِعِينَ"
+    }
+  }
+}

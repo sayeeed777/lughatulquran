@@ -1,0 +1,193 @@
+{
+  "root": "سرق",
+  "rootArabic": "سرق",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 3,
+    "surahCount": 4,
+    "ayahCount": 7
+  },
+  "derivatives": [
+    {
+      "form": "سارِق",
+      "count": 4
+    },
+    {
+      "form": "سَرَقَ",
+      "count": 4
+    },
+    {
+      "form": "اسْتَرَقَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "سارِق",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "سَرَقَ",
+          "count": 3,
+          "totalInQuran": 4
+        },
+        {
+          "form": "سارِق",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 15,
+      "surahName": "Al-Hijr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اسْتَرَقَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 60,
+      "surahName": "Al-Mumtahanah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "سَرَقَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 38,
+      "text": "وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا جَزَآءًۢ بِمَا كَسَبَا نَكَٰلًا مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَٱلسَّارِقُ</a> <a class=\"highlight-text\">وَٱلسَّارِقَةُ</a> فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا جَزَآءًۢ بِمَا كَسَبَا نَكَٰلًا مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+      "derivedForms": [
+        "سارِق",
+        "سارِق"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 70,
+      "text": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ لَسَٰرِقُونَ",
+      "highlightedHtml": "فَلَمَّا جَهَّزَهُم بِجَهَازِهِمْ جَعَلَ ٱلسِّقَايَةَ فِى رَحْلِ أَخِيهِ ثُمَّ أَذَّنَ مُؤَذِّنٌ أَيَّتُهَا ٱلْعِيرُ إِنَّكُمْ <a class=\"highlight-text\">لَسَٰرِقُونَ</a>",
+      "derivedForms": [
+        "سارِق"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 73,
+      "text": "قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا سَٰرِقِينَ",
+      "highlightedHtml": "قَالُوا۟ تَٱللَّهِ لَقَدْ عَلِمْتُم مَّا جِئْنَا لِنُفْسِدَ فِى ٱلْأَرْضِ وَمَا كُنَّا <a class=\"highlight-text\">سَٰرِقِينَ</a>",
+      "derivedForms": [
+        "سارِق"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 77,
+      "text": "قَالُوٓا۟ إِن يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+      "highlightedHtml": "قَالُوٓا۟ إِن <a class=\"highlight-text\">يَسْرِقْ</a> فَقَدْ <a class=\"highlight-text\">سَرَقَ</a> أَخٌ لَّهُۥ مِن قَبْلُ ۚ فَأَسَرَّهَا يُوسُفُ فِى نَفْسِهِۦ وَلَمْ يُبْدِهَا لَهُمْ ۚ قَالَ أَنتُمْ شَرٌّ مَّكَانًا ۖ وَٱللَّهُ أَعْلَمُ بِمَا تَصِفُونَ",
+      "derivedForms": [
+        "سَرَقَ",
+        "سَرَقَ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 81,
+      "text": "ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ سَرَقَ وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ",
+      "highlightedHtml": "ٱرْجِعُوٓا۟ إِلَىٰٓ أَبِيكُمْ فَقُولُوا۟ يَٰٓأَبَانَآ إِنَّ ٱبْنَكَ <a class=\"highlight-text\">سَرَقَ</a> وَمَا شَهِدْنَآ إِلَّا بِمَا عَلِمْنَا وَمَا كُنَّا لِلْغَيْبِ حَٰفِظِينَ",
+      "derivedForms": [
+        "سَرَقَ"
+      ]
+    },
+    {
+      "surah": 15,
+      "ayah": 18,
+      "text": "إِلَّا مَنِ ٱسْتَرَقَ ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ",
+      "highlightedHtml": "إِلَّا مَنِ <a class=\"highlight-text\">ٱسْتَرَقَ</a> ٱلسَّمْعَ فَأَتْبَعَهُۥ شِهَابٌ مُّبِينٌ",
+      "derivedForms": [
+        "اسْتَرَقَ"
+      ]
+    },
+    {
+      "surah": 60,
+      "ayah": 12,
+      "text": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا <a class=\"highlight-text\">يَسْرِقْنَ</a> وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "سَرَقَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:53.671Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine active participle",
+    "derivativeNote": "وَٱلسَّارِقُ is in the derivative form: سارِق",
+    "rootDefinitionHtml": "س/ر/ق   s–r–q to steal, pilfer and to take away by stealth. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> سَرَقَ saraqa 4 times; اسْتَرَقَ ʾistaraqa 1 time; سارِق sāriq 2 times and سارِقون sāriqūn 2 times.",
+    "mainDefinitionHtml": "سارِق sāriq I [n.] thief, burglar, filcher <br><br>(5:38) وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا as for the thief, male and female, cut off their hands II [act. part.; pl. سارِقون sāriqūn] thieving, burglars <br><br>(12:70) ثُمَّ‏ ‏أَذَّنَ‏ ‏مُؤَذِّنٌ‏ ‏أَيَّتُهَا‏ ‏الْعِيرُ‏ ‏إِنَّكُمْ‏ ‏لَسَارِقُونَ‏ then a crier called, ‘People of the caravan! You are a thieving people!’",
+    "mainEntryId": "wdef-س-ر-ق.سارِق",
+    "entries": [
+      {
+        "id": "wdef-س-ر-ق",
+        "label": "س-ر-ق",
+        "definitionHtml": "س/ر/ق   s–r–q to steal, pilfer and to take away by stealth. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> سَرَقَ saraqa 4 times; اسْتَرَقَ ʾistaraqa 1 time; سارِق sāriq 2 times and سارِقون sāriqūn 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ق.سارِق",
+        "label": "سارِق",
+        "definitionHtml": "سارِق sāriq I [n.] thief, burglar, filcher <br><br>(5:38) وَالسَّارِقُ وَالسَّارِقَةُ فَاقْطَعُوا أَيْدِيَهُمَا as for the thief, male and female, cut off their hands II [act. part.; pl. سارِقون sāriqūn] thieving, burglars <br><br>(12:70) ثُمَّ‏ ‏أَذَّنَ‏ ‏مُؤَذِّنٌ‏ ‏أَيَّتُهَا‏ ‏الْعِيرُ‏ ‏إِنَّكُمْ‏ ‏لَسَارِقُونَ‏ then a crier called, ‘People of the caravan! You are a thieving people!’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-س-ر-ق.اسْتَرَقَ",
+        "label": "اسْتَرَقَ",
+        "definitionHtml": "اسْتَرَقَ ʾistaraqa [v. VIII, trans.] to endeavour to take away by stealth *<br><br>(15:18) مَنِ اسْتَرَقَ السَّمْعَ he who eavesdrops [lit. steals the hearing].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ر-ق.سَرَقَ",
+        "label": "سَرَقَ",
+        "definitionHtml": "سَرَقَ saraqa i [v. trans.] to steal, to burgle <br><br>(12:77) قَالُوا إِنْ يَسْرِقْ فَقَدْ سَرَقَ أَخٌ لَهُ مِنْ قَبْلُ they said, ‘If he steals, [there should be no surprise], for a brother of his stole before [him] [lit. they said, ‘If he steals, then a brother of his stole before [him]].’",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:39:51.181Z",
+      "refword": "5:38:1",
+      "lexword": "وَٱلسَّارِقُ"
+    }
+  }
+}

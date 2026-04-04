@@ -1,0 +1,91 @@
+{
+  "root": "كدح",
+  "rootArabic": "كدح",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "كاَدِح",
+      "count": 1
+    },
+    {
+      "form": "كَدْح",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 84,
+      "surahName": "Al-Inshiqaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "كاَدِح",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "كَدْح",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 84,
+      "ayah": 6,
+      "text": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ كَادِحٌ إِلَىٰ رَبِّكَ كَدْحًا فَمُلَٰقِيهِ",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلْإِنسَٰنُ إِنَّكَ <a class=\"highlight-text\">كَادِحٌ</a> إِلَىٰ رَبِّكَ <a class=\"highlight-text\">كَدْحًا</a> فَمُلَٰقِيهِ",
+      "derivedForms": [
+        "كاَدِح",
+        "كَدْح"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:38.567Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine indefinite active participle",
+    "derivativeNote": "كَادِحٌ is in the derivative form: كاَدِح",
+    "rootDefinitionHtml": "ك/د/ح   k–d–ḥ to scratch or scrape off the skin; to bite; to scratch a living; hardship; drudgery. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> كَدْح kadḥ and كاَدِح kādiḥ.",
+    "mainDefinitionHtml": "كاَدِح kādiḥ [act. part.] one who strives hard, labours after, toils, applies himself diligently <br><br>(84:6) يَاأَيُّهَا الإِنْسَانُ إِنَّكَ كَادِحٌ إِلَى رَبِّكَ كَدْحًا فَمُلاَقِيهِ Humankind, you are laboriously toiling towards your Lord, and you will meet Him.",
+    "mainEntryId": "wdef-ك-د-ح.كاَدِح",
+    "entries": [
+      {
+        "id": "wdef-ك-د-ح",
+        "label": "ك-د-ح",
+        "definitionHtml": "ك/د/ح   k–d–ḥ to scratch or scrape off the skin; to bite; to scratch a living; hardship; drudgery. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> كَدْح kadḥ and كاَدِح kādiḥ.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ك-د-ح.كاَدِح",
+        "label": "كاَدِح",
+        "definitionHtml": "كاَدِح kādiḥ [act. part.] one who strives hard, labours after, toils, applies himself diligently <br><br>(84:6) يَاأَيُّهَا الإِنْسَانُ إِنَّكَ كَادِحٌ إِلَى رَبِّكَ كَدْحًا فَمُلاَقِيهِ Humankind, you are laboriously toiling towards your Lord, and you will meet Him.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ك-د-ح.كَدْح",
+        "label": "كَدْح",
+        "definitionHtml": "كَدْح kadḥ [v. n.] applying oneself diligently, striving hard, labouring after <br><br>(84:6) يَاأَيُّهَا الإِنْسَانُ إِنَّكَ كَادِحٌ إِلَى رَبِّكَ كَدْحًا فَمُلاَقِيهِ Humankind, you are laboriously toiling towards your Lord, and you will meet Him.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:54:42.754Z",
+      "refword": "84:6:4",
+      "lexword": "كَادِحٌ"
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "root": "شطط",
+  "rootArabic": "شطط",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "شَطَطً",
+      "count": 2
+    },
+    {
+      "form": "تُشْطِط",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَطَطً",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُشْطِط",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 72,
+      "surahName": "Al-Jinn",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَطَطً",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 14,
+      "text": "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا شَطَطًا",
+      "highlightedHtml": "وَرَبَطْنَا عَلَىٰ قُلُوبِهِمْ إِذْ قَامُوا۟ فَقَالُوا۟ رَبُّنَا رَبُّ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ لَن نَّدْعُوَا۟ مِن دُونِهِۦٓ إِلَٰهًا ۖ لَّقَدْ قُلْنَآ إِذًا <a class=\"highlight-text\">شَطَطًا</a>",
+      "derivedForms": [
+        "شَطَطً"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 22,
+      "text": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا تُشْطِطْ وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "highlightedHtml": "إِذْ دَخَلُوا۟ عَلَىٰ دَاوُۥدَ فَفَزِعَ مِنْهُمْ ۖ قَالُوا۟ لَا تَخَفْ ۖ خَصْمَانِ بَغَىٰ بَعْضُنَا عَلَىٰ بَعْضٍ فَٱحْكُم بَيْنَنَا بِٱلْحَقِّ وَلَا <a class=\"highlight-text\">تُشْطِطْ</a> وَٱهْدِنَآ إِلَىٰ سَوَآءِ سَوَآءِ ٱلصِّرَٰطِ",
+      "derivedForms": [
+        "تُشْطِط"
+      ]
+    },
+    {
+      "surah": 72,
+      "ayah": 4,
+      "text": "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ شَطَطًا",
+      "highlightedHtml": "وَأَنَّهُۥ كَانَ يَقُولُ سَفِيهُنَا عَلَى ٱللَّهِ <a class=\"highlight-text\">شَطَطًا</a>",
+      "derivedForms": [
+        "شَطَطً"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:06.986Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "شَطَطًا is in the derivative form: شَطَطً",
+    "rootDefinitionHtml": "ش/ط/ط   sh–ṭ–ṭ to be remote, far off, or beyond the acceptable limits; to act unjustly; side of a camel’s hump; bank or side of a river. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تُشْطِط tushṭiṭ 1 time and شَطَطاً shaṭaṭan 2 times.",
+    "mainDefinitionHtml": "شَطَطً shaṭaṭan [v. n./n.] acting extravagantly or outrageously, deviation <br><br>(18:14) لَنْ نَدْعُوَ مِنْ دُونِهِ إِلَهًا لَقَدْ قُلْنَا إِذًا شَطَطًا We will never call upon any god other than Him, for then we would have uttered an outrageous thing.",
+    "mainEntryId": "wdef-ش-ط-ط.شَطَطً",
+    "entries": [
+      {
+        "id": "wdef-ش-ط-ط",
+        "label": "ش-ط-ط",
+        "definitionHtml": "ش/ط/ط   sh–ṭ–ṭ to be remote, far off, or beyond the acceptable limits; to act unjustly; side of a camel’s hump; bank or side of a river. <br><br>Of this root, 2 forms occur 3 times in the Qur’an:<br> تُشْطِط tushṭiṭ 1 time and شَطَطاً shaṭaṭan 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-ط-ط.شَطَطً",
+        "label": "شَطَطً",
+        "definitionHtml": "شَطَطً shaṭaṭan [v. n./n.] acting extravagantly or outrageously, deviation <br><br>(18:14) لَنْ نَدْعُوَ مِنْ دُونِهِ إِلَهًا لَقَدْ قُلْنَا إِذًا شَطَطًا We will never call upon any god other than Him, for then we would have uttered an outrageous thing.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ش-ط-ط.تُشْطِط",
+        "label": "تُشْطِط",
+        "definitionHtml": "تُشْطِط tushṭiṭ [imperf. v., intrans.] to go off the mark, to be far off, to digress, to exceed due bounds <br><br>(38:22) فَاحْكُمْ بَيْنَنَا بِالْحَقِّ وَلاَ تُشْطِطْ so judge between us fairly, and do not exceed the due bounds.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:16.377Z",
+      "refword": "18:14:19",
+      "lexword": "شَطَطًا"
+    }
+  }
+}

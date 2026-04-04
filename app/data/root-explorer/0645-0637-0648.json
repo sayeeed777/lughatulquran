@@ -1,0 +1,74 @@
+{
+  "root": "مطو",
+  "rootArabic": "مطو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَتَمَطَّى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 75,
+      "surahName": "Al-Qiyamah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَتَمَطَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 75,
+      "ayah": 33,
+      "text": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ يَتَمَطَّىٰٓ",
+      "highlightedHtml": "ثُمَّ ذَهَبَ إِلَىٰٓ أَهْلِهِۦ <a class=\"highlight-text\">يَتَمَطَّىٰٓ</a>",
+      "derivedForms": [
+        "يَتَمَطَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:30.076Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular (form V) imperfect verb",
+    "derivativeNote": "يَتَمَطَّىٰٓ is in the derivative form: يَتَمَطَّى",
+    "rootDefinitionHtml": "م/ط/و   m–ṭ–w to go fast; to open one’s eyes; limbs, to stretch one’s limbs; to swagger; back of an animal, to mount, riding animals. Of this root, يَتَمَطَّى yatamaṭṭā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَتَمَطَّى yatamaṭṭā [imperf. of v. V تَمَطَّى tamaṭṭā, intrans.] to swagger, to strut <br><br>(75:33) ثُمَّ‏ ‏ذَهَبَ‏ ‏إِلَى‏ ‏أَهْلِهِ‏ ‏يَتَمَطَّى then he walked back to his people swaggering.",
+    "mainEntryId": "wdef-م-ط-و.يَتَمَطَّى",
+    "entries": [
+      {
+        "id": "wdef-م-ط-و",
+        "label": "م-ط-و",
+        "definitionHtml": "م/ط/و   m–ṭ–w to go fast; to open one’s eyes; limbs, to stretch one’s limbs; to swagger; back of an animal, to mount, riding animals. Of this root, يَتَمَطَّى yatamaṭṭā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ط-و.يَتَمَطَّى",
+        "label": "يَتَمَطَّى",
+        "definitionHtml": "يَتَمَطَّى yatamaṭṭā [imperf. of v. V تَمَطَّى tamaṭṭā, intrans.] to swagger, to strut <br><br>(75:33) ثُمَّ‏ ‏ذَهَبَ‏ ‏إِلَى‏ ‏أَهْلِهِ‏ ‏يَتَمَطَّى then he walked back to his people swaggering.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:19.287Z",
+      "refword": "75:33:5",
+      "lexword": "يَتَمَطَّىٰٓ"
+    }
+  }
+}

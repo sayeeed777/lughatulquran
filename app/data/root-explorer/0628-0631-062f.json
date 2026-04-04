@@ -1,0 +1,185 @@
+{
+  "root": "برد",
+  "rootArabic": "برد",
+  "stats": {
+    "totalOccurrences": 5,
+    "derivativeCount": 3,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "بَارِدٌ",
+      "count": 4
+    },
+    {
+      "form": "بَرْدٌ",
+      "count": 4
+    },
+    {
+      "form": "بَرَد",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَرْدٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَرَد",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَارِدٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَارِدٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "بَرْدٌ",
+          "count": 2,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 21,
+      "ayah": 69,
+      "text": "قُلْنَا يَٰنَارُ كُونِى بَرْدًا بَرْدًا وَسَلَٰمًا عَلَىٰٓ إِبْرَٰهِيمَ",
+      "highlightedHtml": "قُلْنَا يَٰنَارُ كُونِى <a class=\"highlight-text\">بَرْدًا</a> <a class=\"highlight-text\">بَرْدًا</a> وَسَلَٰمًا عَلَىٰٓ إِبْرَٰهِيمَ",
+      "derivedForms": [
+        "بَرْدٌ",
+        "بَرْدٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 43,
+      "text": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ بَرَدٍ بَرَدٍ فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّ ٱللَّهَ يُزْجِى سَحَابًا ثُمَّ يُؤَلِّفُ بَيْنَهُۥ ثُمَّ يَجْعَلُهُۥ رُكَامًا فَتَرَى ٱلْوَدْقَ يَخْرُجُ مِنْ خِلَٰلِهِۦ وَيُنَزِّلُ مِنَ ٱلسَّمَآءِ مِن جِبَالٍ فِيهَا مِنۢ <a class=\"highlight-text\">بَرَدٍ</a> <a class=\"highlight-text\">بَرَدٍ</a> فَيُصِيبُ بِهِۦ مَن يَشَآءُ وَيَصْرِفُهُۥ وَيَصْرِفُهُۥ عَن مَّن يَشَآءُ ۖ يَكَادُ سَنَا بَرْقِهِۦ يَذْهَبُ بِٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "بَرَد",
+        "بَرَد"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 42,
+      "text": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ بَارِدٌ بَارِدٌ وَشَرَابٌ",
+      "highlightedHtml": "ٱرْكُضْ بِرِجْلِكَ ۖ هَٰذَا مُغْتَسَلٌۢ <a class=\"highlight-text\">بَارِدٌ</a> <a class=\"highlight-text\">بَارِدٌ</a> وَشَرَابٌ",
+      "derivedForms": [
+        "بَارِدٌ",
+        "بَارِدٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 44,
+      "text": "لَّا بَارِدٍ بَارِدٍ وَلَا كَرِيمٍ",
+      "highlightedHtml": "لَّا <a class=\"highlight-text\">بَارِدٍ</a> <a class=\"highlight-text\">بَارِدٍ</a> وَلَا كَرِيمٍ",
+      "derivedForms": [
+        "بَارِدٌ",
+        "بَارِدٌ"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 24,
+      "text": "لَّا يَذُوقُونَ فِيهَا بَرْدًا بَرْدًا وَلَا شَرَابًا",
+      "highlightedHtml": "لَّا يَذُوقُونَ فِيهَا <a class=\"highlight-text\">بَرْدًا</a> <a class=\"highlight-text\">بَرْدًا</a> وَلَا شَرَابًا",
+      "derivedForms": [
+        "بَرْدٌ",
+        "بَرْدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:26.125Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "بَرْدًا is in the derivative form: بَرْدٌ",
+    "rootDefinitionHtml": "ب/ر/د   b–r–d coldness, to cool, to abate<br>; to alleviate, to die. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> بَرْدٌ bard 2 times; بَرَدٌ barad 1 time and بَارِد bārid 2 times.",
+    "mainDefinitionHtml": "بَرْدٌ bard [v. n./n.] <br><br><strong>1 </strong>coolness [also interpreted as: sleep] in verse <br><br>(78:24) لاَ يَذُوقُونَ فِيهَا بَرْدًا وَلاَ شَرَابًا there they will feel no coolness nor will they have any drink <br><br><strong>2 </strong>[used adjectivally] cool <br><br>(21:69) قُلْنَا يَانَارُ كُونِي بَرْدًا وَسَلاَمًا عَلَى إِبْرَاهِيمَ We said, ‘Fire, be cool and safe for Abraham.’",
+    "mainEntryId": "wdef-ب-ر-د.بَرْدٌ",
+    "entries": [
+      {
+        "id": "wdef-ب-ر-د",
+        "label": "ب-ر-د",
+        "definitionHtml": "ب/ر/د   b–r–d coldness, to cool, to abate<br>; to alleviate, to die. <br><br>Of this root, 3 forms occur 5 times in the Qur’an:<br> بَرْدٌ bard 2 times; بَرَدٌ barad 1 time and بَارِد bārid 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-د.بَرْدٌ",
+        "label": "بَرْدٌ",
+        "definitionHtml": "بَرْدٌ bard [v. n./n.] <br><br><strong>1 </strong>coolness [also interpreted as: sleep] in verse <br><br>(78:24) لاَ يَذُوقُونَ فِيهَا بَرْدًا وَلاَ شَرَابًا there they will feel no coolness nor will they have any drink <br><br><strong>2 </strong>[used adjectivally] cool <br><br>(21:69) قُلْنَا يَانَارُ كُونِي بَرْدًا وَسَلاَمًا عَلَى إِبْرَاهِيمَ We said, ‘Fire, be cool and safe for Abraham.’",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ر-د.بَارِدٌ",
+        "label": "بَارِدٌ",
+        "definitionHtml": "بَارِدٌ bārid [quasi‐act. part.] cool, cold, refreshing <br><br>(56:44) لاَ بَارِدٍ وَلاَ كَرِيمٍ neither cool nor hospitable.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-د.بَرَد",
+        "label": "بَرَد",
+        "definitionHtml": "بَرَد ٌ barad [coll. n.] hail <br><br>(24:43) وَيُنَزِّلُ مِنَ السَّمَاءِ مِنْ جِبَالٍ فِيهَا مِنْ بَرَدٍ and He sends down from the sky, mountainous clouds [lit. mountains] in which is hail.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:45.853Z",
+      "refword": "21:69:4",
+      "lexword": "بَرْدًا"
+    }
+  }
+}

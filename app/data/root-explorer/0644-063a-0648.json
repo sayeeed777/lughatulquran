@@ -1,0 +1,306 @@
+{
+  "root": "لغو",
+  "rootArabic": "لغو",
+  "stats": {
+    "totalOccurrences": 11,
+    "derivativeCount": 3,
+    "surahCount": 11,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "لَغْو",
+      "count": 9
+    },
+    {
+      "form": "اِلْغَواْ",
+      "count": 1
+    },
+    {
+      "form": "لاَغِيَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اِلْغَواْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 78,
+      "surahName": "An-Naba'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لَغْو",
+          "count": 1,
+          "totalInQuran": 9
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "لاَغِيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 225,
+      "text": "لَّا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا كَسَبَتْ قُلُوبُكُمْ ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌ",
+      "highlightedHtml": "لَّا يُؤَاخِذُكُمُ ٱللَّهُ <a class=\"highlight-text\">بِٱللَّغْوِ</a> فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا كَسَبَتْ قُلُوبُكُمْ ۗ وَٱللَّهُ غَفُورٌ حَلِيمٌ",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 89,
+      "text": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "لَا يُؤَاخِذُكُمُ ٱللَّهُ <a class=\"highlight-text\">بِٱللَّغْوِ</a> فِىٓ أَيْمَٰنِكُمْ وَلَٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَٰنَ ۖ فَكَفَّٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّٰرَةُ أَيْمَٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ آيَاتِهِ لَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 62,
+      "text": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
+      "highlightedHtml": "لَّا يَسْمَعُونَ فِيهَا <a class=\"highlight-text\">لَغْوًا</a> إِلَّا سَلَٰمًا ۖ وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 3,
+      "text": "وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ",
+      "highlightedHtml": "وَٱلَّذِينَ هُمْ عَنِ <a class=\"highlight-text\">ٱللَّغْوِ</a> مُعْرِضُونَ",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 72,
+      "text": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ بِٱللَّغْوِ مَرُّوا۟ كِرَامًا",
+      "highlightedHtml": "وَٱلَّذِينَ لَا يَشْهَدُونَ ٱلزُّورَ وَإِذَا مَرُّوا۟ <a class=\"highlight-text\">بِٱللَّغْوِ</a> مَرُّوا۟ كِرَامًا",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 55,
+      "text": "وَإِذَا سَمِعُوا۟ ٱللَّغْوَ أَعْرَضُوا۟ عَنْهُ وَقَالُوا۟ لَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ سَلَٰمٌ عَلَيْكُمْ لَا نَبْتَغِى ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "وَإِذَا سَمِعُوا۟ <a class=\"highlight-text\">ٱللَّغْوَ</a> أَعْرَضُوا۟ عَنْهُ وَقَالُوا۟ لَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ سَلَٰمٌ عَلَيْكُمْ لَا نَبْتَغِى ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 26,
+      "text": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَسْمَعُوا۟ لِهَٰذَا ٱلْقُرْءَانِ وَٱلْغَوْا۟ فِيهِ لَعَلَّكُمْ تَغْلِبُونَ",
+      "highlightedHtml": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لَا تَسْمَعُوا۟ لِهَٰذَا ٱلْقُرْءَانِ <a class=\"highlight-text\">وَٱلْغَوْا۟</a> فِيهِ لَعَلَّكُمْ تَغْلِبُونَ",
+      "derivedForms": [
+        "اِلْغَواْ"
+      ]
+    },
+    {
+      "surah": 52,
+      "ayah": 23,
+      "text": "يَتَنَٰزَعُونَ فِيهَا كَأْسًا لَّا لَغْوٌ فِيهَا وَلَا تَأْثِيمٌ",
+      "highlightedHtml": "يَتَنَٰزَعُونَ فِيهَا كَأْسًا لَّا <a class=\"highlight-text\">لَغْوٌ</a> فِيهَا وَلَا تَأْثِيمٌ",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 25,
+      "text": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+      "highlightedHtml": "لَا يَسْمَعُونَ فِيهَا <a class=\"highlight-text\">لَغْوًا</a> وَلَا تَأْثِيمًا",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 78,
+      "ayah": 35,
+      "text": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّٰبًا",
+      "highlightedHtml": "لَّا يَسْمَعُونَ فِيهَا <a class=\"highlight-text\">لَغْوًا</a> وَلَا كِذَّٰبًا",
+      "derivedForms": [
+        "لَغْو"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 11,
+      "text": "لَّا تَسْمَعُ فِيهَا لَٰغِيَةً",
+      "highlightedHtml": "لَّا تَسْمَعُ فِيهَا <a class=\"highlight-text\">لَٰغِيَةً</a>",
+      "derivedForms": [
+        "لاَغِيَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:55:35.204Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "بِٱللَّغْوِ is in the derivative form: لَغْو",
+    "rootDefinitionHtml": "ل/غ/و   l–gh–w to speak, language, dialect, idiom, useless idle talk, chatter, nonsense, outrageous talk<br>; to cancel, void; to digress. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> اِلْغَواْ ʾilghaw 1 time; لَغْو laghw 9 times and لاَغِيَةٌ lāghiyatun 1 time.",
+    "mainDefinitionHtml": "لَغْو laghw [n.] <br><br><strong>1 </strong>void, unintended utterance <br><br>(5:89) لاَ‏ ‏يُؤَاخِذُكُمُ‏ ‏اللَّهُ‏ ‏بِاللَّغْوِ‏ ‏فِي ‏أَيْمَانِكُمْ‏ God does not take you to task for what is unintentional in your oaths <br><br><strong>2 </strong>vain, idle talk, frivolity <br><br>(25:72) وَإِذَا‏ ‏مَرُّوا‏ ‏بِاللَّغْوِ‏ ‏مَرُّوا‏ ‏كِرَامًا‏‏ and when they come across some frivolity, they pass on with dignity <br><br><strong>3 </strong>intoxication, mind corruption <br><br>(52:23) يَتَنَازَعُونَ‏ ‏فِيهَا‏ ‏كَأْسًا‏ ‏لاَ‏ ‏لَغْوٌ فِيهَا‏ ‏وَلاَ‏ ‏تَأْثِيمٌ ‏ in it [the Garden] they exchange cups of wine, in which there is neither intoxication nor a cause of sin.",
+    "mainEntryId": "wdef-ل-غ-و.لَغْو",
+    "entries": [
+      {
+        "id": "wdef-ل-غ-و",
+        "label": "ل-غ-و",
+        "definitionHtml": "ل/غ/و   l–gh–w to speak, language, dialect, idiom, useless idle talk, chatter, nonsense, outrageous talk<br>; to cancel, void; to digress. <br><br>Of this root, 3 forms occur 11 times in the Qur’an:<br> اِلْغَواْ ʾilghaw 1 time; لَغْو laghw 9 times and لاَغِيَةٌ lāghiyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-غ-و.لَغْو",
+        "label": "لَغْو",
+        "definitionHtml": "لَغْو laghw [n.] <br><br><strong>1 </strong>void, unintended utterance <br><br>(5:89) لاَ‏ ‏يُؤَاخِذُكُمُ‏ ‏اللَّهُ‏ ‏بِاللَّغْوِ‏ ‏فِي ‏أَيْمَانِكُمْ‏ God does not take you to task for what is unintentional in your oaths <br><br><strong>2 </strong>vain, idle talk, frivolity <br><br>(25:72) وَإِذَا‏ ‏مَرُّوا‏ ‏بِاللَّغْوِ‏ ‏مَرُّوا‏ ‏كِرَامًا‏‏ and when they come across some frivolity, they pass on with dignity <br><br><strong>3 </strong>intoxication, mind corruption <br><br>(52:23) يَتَنَازَعُونَ‏ ‏فِيهَا‏ ‏كَأْسًا‏ ‏لاَ‏ ‏لَغْوٌ فِيهَا‏ ‏وَلاَ‏ ‏تَأْثِيمٌ ‏ in it [the Garden] they exchange cups of wine, in which there is neither intoxication nor a cause of sin.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ل-غ-و.اِلْغَواْ",
+        "label": "اِلْغَواْ",
+        "definitionHtml": "اِلْغَواْ ʾilghaw [imper. of v. laghā intrans.] to speak; to chatter, to utter meaningless sounds <br><br>(41:26) وَقَالَ‏ ‏الَّذِينَ‏ ‏كَفَرُوا‏ ‏لاَ‏ ‏تَسْمَعُوا لِهَذَا‏ ‏الْقُرْءَانِ‏ ‏وَالْغَوْا‏ ‏فِيهِ‏ the disbelievers say, ‘Do not give ear to this Qur’an; and speak frivolously [while it is being recited]‏.’",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ل-غ-و.لاَغِيَةٌ",
+        "label": "لاَغِيَةٌ",
+        "definitionHtml": "لاَغِيَةٌ lāghiyatun [n./fem. act. part. used adjectivally] vain, idle talk, obscenity; (of talk) offensive, idle, frivolous <br><br>(88:10–11) فِى‏ ‏جَنَّةٍ‏ ‏عَالِيَةٍ‏ لاَ‏ ‏تَسْمَعُ‏ ‏فِيهَا‏ ‏لاَغِيَةً‏ in a lofty garden in which none will hear a vain [word].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:56:29.067Z",
+      "refword": "2:225:4",
+      "lexword": "بِٱللَّغْوِ"
+    }
+  }
+}

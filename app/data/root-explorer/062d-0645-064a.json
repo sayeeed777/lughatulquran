@@ -1,0 +1,192 @@
+{
+  "root": "حمي",
+  "rootArabic": "حمي",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 5,
+    "ayahCount": 5
+  },
+  "derivatives": [
+    {
+      "form": "حَامِيَةٌ",
+      "count": 2
+    },
+    {
+      "form": "حَمِيَّة",
+      "count": 2
+    },
+    {
+      "form": "حَامِي",
+      "count": 1
+    },
+    {
+      "form": "يُحْمَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَامِي",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُحْمَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَمِيَّة",
+          "count": 2,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 88,
+      "surahName": "Al-Ghashiyah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَامِيَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 101,
+      "surahName": "Al-Qari'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَامِيَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 103,
+      "text": "مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍ وَلَا سَآئِبَةٍ وَلَا وَصِيلَةٍ وَلَا حَامٍ ۙ وَلَٰكِنَّ ٱلَّذِينَ كَفَرُوا۟ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "highlightedHtml": "مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍ وَلَا سَآئِبَةٍ وَلَا وَصِيلَةٍ وَلَا <a class=\"highlight-text\">حَامٍ</a> ۙ وَلَٰكِنَّ ٱلَّذِينَ كَفَرُوا۟ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
+      "derivedForms": [
+        "حَامِي"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 35,
+      "text": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+      "highlightedHtml": "يَوْمَ <a class=\"highlight-text\">يُحْمَىٰ</a> عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+      "derivedForms": [
+        "يُحْمَى"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 26,
+      "text": "إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ ٱلْحَمِيَّةَ حَمِيَّةَ ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "highlightedHtml": "إِذْ جَعَلَ ٱلَّذِينَ كَفَرُوا۟ فِى قُلُوبِهِمُ <a class=\"highlight-text\">ٱلْحَمِيَّةَ</a> <a class=\"highlight-text\">حَمِيَّةَ</a> ٱلْجَٰهِلِيَّةِ فَأَنزَلَ ٱللَّهُ سَكِينَتَهُۥ عَلَىٰ رَسُولِهِۦ وَعَلَى ٱلْمُؤْمِنِينَ وَأَلْزَمَهُمْ كَلِمَةَ ٱلتَّقْوَىٰ وَكَانُوٓا۟ أَحَقَّ بِهَا وَأَهْلَهَا ۚ وَكَانَ ٱللَّهُ بِكُلِّ شَىْءٍ عَلِيمًا",
+      "derivedForms": [
+        "حَمِيَّة",
+        "حَمِيَّة"
+      ]
+    },
+    {
+      "surah": 88,
+      "ayah": 4,
+      "text": "تَصْلَىٰ نَارًا حَامِيَةً",
+      "highlightedHtml": "تَصْلَىٰ نَارًا <a class=\"highlight-text\">حَامِيَةً</a>",
+      "derivedForms": [
+        "حَامِيَةٌ"
+      ]
+    },
+    {
+      "surah": 101,
+      "ayah": 11,
+      "text": "نَارٌ حَامِيَةٌۢ",
+      "highlightedHtml": "نَارٌ <a class=\"highlight-text\">حَامِيَةٌۢ</a>",
+      "derivedForms": [
+        "حَامِيَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:43.145Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive indefinite noun",
+    "derivativeNote": "حَامٍ is in the derivative form: حَامِي",
+    "rootDefinitionHtml": "ح/م/و-ي ḥ–m–w/y sanctuary, protection, to protect, to rebel, to avoid<br>; in‐laws; to heat up, to become angry, hot‐headedness, zeal, fervour, impetuosity. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> يُحْمَى yuḥmā 1 time; حَامِي ḥāmı 1 time; حَامِيَةٌ ḥāmiyatun 2 times and حَمِيَّة ḥamiyyatun 2 times.",
+    "mainDefinitionHtml": "حَامِي ḥāmı [nominalised act. part.] an old stud‐camel left by pagan Arabs to spend the rest of its life in peace and tranquillity <br><br>(5:103) مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلاَ سَائِبَةٍ وَلاَ وَصِيلَةٍ وَلاَ حَامٍ وَلَكِنَّ الَّذِينَ كَفَرُوا يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ God did not institute the dedication of such as bahiratun, sāʾibatun, waṣilatun (q.v.) or ḥām [to idols]; but the disbelievers invent lies about God.",
+    "mainEntryId": "wdef-ح-م-و-ي.حَامِي",
+    "entries": [
+      {
+        "id": "wdef-ح-م-و-ي",
+        "label": "ح-م-و-ي",
+        "definitionHtml": "ح/م/و-ي ḥ–m–w/y sanctuary, protection, to protect, to rebel, to avoid<br>; in‐laws; to heat up, to become angry, hot‐headedness, zeal, fervour, impetuosity. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> يُحْمَى yuḥmā 1 time; حَامِي ḥāmı 1 time; حَامِيَةٌ ḥāmiyatun 2 times and حَمِيَّة ḥamiyyatun 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-م-و-ي.حَامِي",
+        "label": "حَامِي",
+        "definitionHtml": "حَامِي ḥāmı [nominalised act. part.] an old stud‐camel left by pagan Arabs to spend the rest of its life in peace and tranquillity <br><br>(5:103) مَا جَعَلَ اللَّهُ مِنْ بَحِيرَةٍ وَلاَ سَائِبَةٍ وَلاَ وَصِيلَةٍ وَلاَ حَامٍ وَلَكِنَّ الَّذِينَ كَفَرُوا يَفْتَرُونَ عَلَى اللَّهِ الْكَذِبَ God did not institute the dedication of such as bahiratun, sāʾibatun, waṣilatun (q.v.) or ḥām [to idols]; but the disbelievers invent lies about God.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-م-و-ي.حَامِيَةٌ",
+        "label": "حَامِيَةٌ",
+        "definitionHtml": "حَامِيَةٌ ḥāmiyatun [act. part. fem.] burning hot, blazing <br><br>(88:4) تَصْلَى نَارًا حَامِيَةً scorched by a blazing fire.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-م-و-ي.حَمِيَّة",
+        "label": "حَمِيَّة",
+        "definitionHtml": "حَمِيَّة ḥamiyyatun [v. n./n.] fiery fervour, high spirits, eagerness, passion, rashness, zeal, impetuousness <br><br>(48:26) إِذْ جَعَلَ الَّذِينَ كَفَرُوا فِى قُلُوبِهِمُ الْحَمِيَّةَ حَمِيَّةَ الْجَاهِلِيَّةِ while the disbelievers had excited fervour in their hearts–the fervour of ignorance.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-م-و-ي.يُحْمَى",
+        "label": "يُحْمَى",
+        "definitionHtml": "يُحْمَى yuḥmā [imperf. of pass. v. حُمِيَ ḥumiya, with prep. على] to be heated, to be burnt, to be brought to a hot condition <br><br>(9:35) يَوْمَ يُحْمَى عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَى بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ on the day when they will be heated in the fire of Hell, and their foreheads, sides and backs will be branded by them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:31:48.754Z",
+      "refword": "5:103:11",
+      "lexword": "حَامٍ"
+    }
+  }
+}

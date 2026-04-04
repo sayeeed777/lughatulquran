@@ -1,0 +1,95 @@
+{
+  "root": "سهو",
+  "rootArabic": "سهو",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 1,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "ساهون",
+      "count": 2
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 51,
+      "surahName": "Ad-Dhariyat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساهون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 107,
+      "surahName": "Al-Ma'un",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ساهون",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 51,
+      "ayah": 11,
+      "text": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍ سَاهُونَ",
+      "highlightedHtml": "ٱلَّذِينَ هُمْ فِى غَمْرَةٍ <a class=\"highlight-text\">سَاهُونَ</a>",
+      "derivedForms": [
+        "ساهون"
+      ]
+    },
+    {
+      "surah": 107,
+      "ayah": 5,
+      "text": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ",
+      "highlightedHtml": "ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ <a class=\"highlight-text\">سَاهُونَ</a>",
+      "derivedForms": [
+        "ساهون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:47:35.440Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative masculine plural active participle",
+    "derivativeNote": "سَاهُونَ is in the derivative form: ساهون",
+    "rootDefinitionHtml": "س/هـ/و s–h–w to be inattentive, absent‐minded, distracted; well‐disposed. Of this root, onlyساهون sāhūn occurs 2 times in the Qur’an<br>.",
+    "mainDefinitionHtml": "ساهون sāhūn [pl. of act. part. ساه sāhin] inattentive, heedless, forgetful, neglectful <br><br>(107:5) الَّذِينَ هُمْ عَنْ صَلاَتِهِمْ سَاهُونَ those who are heedless of their prayer.",
+    "mainEntryId": "wdef-س-هـ-و.ساهون",
+    "entries": [
+      {
+        "id": "wdef-س-هـ-و",
+        "label": "س-هـ-و",
+        "definitionHtml": "س/هـ/و s–h–w to be inattentive, absent‐minded, distracted; well‐disposed. Of this root, onlyساهون sāhūn occurs 2 times in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-هـ-و.ساهون",
+        "label": "ساهون",
+        "definitionHtml": "ساهون sāhūn [pl. of act. part. ساه sāhin] inattentive, heedless, forgetful, neglectful <br><br>(107:5) الَّذِينَ هُمْ عَنْ صَلاَتِهِمْ سَاهُونَ those who are heedless of their prayer.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:41:15.864Z",
+      "refword": "51:11:5",
+      "lexword": "سَاهُونَ"
+    }
+  }
+}

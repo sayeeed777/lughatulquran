@@ -1,0 +1,74 @@
+{
+  "root": "نضج",
+  "rootArabic": "نضج",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "نَضِجَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَضِجَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 56,
+      "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا نَضِجَتْ جُلُودُهُم بَدَّلْنَٰهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+      "highlightedHtml": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ بِـَٔايَٰتِنَا سَوْفَ نُصْلِيهِمْ نَارًا كُلَّمَا <a class=\"highlight-text\">نَضِجَتْ</a> جُلُودُهُم بَدَّلْنَٰهُمْ جُلُودًا غَيْرَهَا لِيَذُوقُوا۟ ٱلْعَذَابَ ۗ إِنَّ ٱللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+      "derivedForms": [
+        "نَضِجَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:34.197Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person feminine singular perfect verb",
+    "derivativeNote": "نَضِجَتْ is in the derivative form: نَضِجَ",
+    "rootDefinitionHtml": "ن/ض/ج   n–ḍ–j to be cooked, to be done, to ripen, to mature, maturity, to be wise, to attain wisdom, to be overdue in giving birth. Of this root, نَضِجَ naḍija, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "نَضِجَ naḍija a [v. intrans.] to be well cooked, to become tender through cooking <br><br>(4:56) كُلَّمَا نَضِجَتْ جُلُودُهُمْ بَدَّلْنَاهُمْ جُلُودًا غَيْرَهَا as soon as their skins are cooked through, We will give them in exchange other skins.",
+    "mainEntryId": "wdef-ن-ض-ج.نَضِجَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ض-ج",
+        "label": "ن-ض-ج",
+        "definitionHtml": "ن/ض/ج   n–ḍ–j to be cooked, to be done, to ripen, to mature, maturity, to be wise, to attain wisdom, to be overdue in giving birth. Of this root, نَضِجَ naḍija, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ض-ج.نَضِجَ",
+        "label": "نَضِجَ",
+        "definitionHtml": "نَضِجَ naḍija a [v. intrans.] to be well cooked, to become tender through cooking <br><br>(4:56) كُلَّمَا نَضِجَتْ جُلُودُهُمْ بَدَّلْنَاهُمْ جُلُودًا غَيْرَهَا as soon as their skins are cooked through, We will give them in exchange other skins.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:22.411Z",
+      "refword": "4:56:9",
+      "lexword": "نَضِجَتْ"
+    }
+  }
+}

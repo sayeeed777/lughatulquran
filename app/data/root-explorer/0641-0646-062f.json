@@ -1,0 +1,74 @@
+{
+  "root": "فند",
+  "rootArabic": "فند",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "تُفَنِّد",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تُفَنِّد",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 94,
+      "text": "وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن تُفَنِّدُونِ",
+      "highlightedHtml": "وَلَمَّا فَصَلَتِ ٱلْعِيرُ قَالَ أَبُوهُمْ إِنِّى لَأَجِدُ رِيحَ يُوسُفَ ۖ لَوْلَآ أَن <a class=\"highlight-text\">تُفَنِّدُونِ</a>",
+      "derivedForms": [
+        "تُفَنِّد"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:16.018Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "2nd person masculine plural (form II) imperfect verb, subjunctive mood",
+    "derivativeNote": "تُفَنِّدُونِ is in the derivative form: تُفَنِّد",
+    "rootDefinitionHtml": "ف/ن/د   f–n–d branch, to branch out, faction; to be weak of mind or body, to become senile; to lie; to refute, to dispute; to err; to fall into factions, to take refuge. Of this root, تُفَنِّدون tufannidūn, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "تُفَنِّد tufannid [imperf. of v. II, trans.] to refute, to deny; to describe as senile <br><br>(12:94) إِنِّي‏ ‏لأََجِدُ‏ ‏رِيحَ‏ ‏يُوسُفَ‏ ‏لَوْلاَ‏ ‏أَنْ تُفَنِّدُونِ I sense [find] Joseph’s scent, even though you may think I am senile.",
+    "mainEntryId": "wdef-ف-ن-د.تُفَنِّد",
+    "entries": [
+      {
+        "id": "wdef-ف-ن-د",
+        "label": "ف-ن-د",
+        "definitionHtml": "ف/ن/د   f–n–d branch, to branch out, faction; to be weak of mind or body, to become senile; to lie; to refute, to dispute; to err; to fall into factions, to take refuge. Of this root, تُفَنِّدون tufannidūn, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ف-ن-د.تُفَنِّد",
+        "label": "تُفَنِّد",
+        "definitionHtml": "تُفَنِّد tufannid [imperf. of v. II, trans.] to refute, to deny; to describe as senile <br><br>(12:94) إِنِّي‏ ‏لأََجِدُ‏ ‏رِيحَ‏ ‏يُوسُفَ‏ ‏لَوْلاَ‏ ‏أَنْ تُفَنِّدُونِ I sense [find] Joseph’s scent, even though you may think I am senile.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:52:10.331Z",
+      "refword": "12:94:12",
+      "lexword": "تُفَنِّدُونِ"
+    }
+  }
+}

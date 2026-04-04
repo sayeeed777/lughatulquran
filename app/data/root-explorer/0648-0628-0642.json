@@ -1,0 +1,106 @@
+{
+  "root": "وبق",
+  "rootArabic": "وبق",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "مَوْبِقٌ",
+      "count": 1
+    },
+    {
+      "form": "يُوبِقُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَوْبِقٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُوبِقُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 18,
+      "ayah": 52,
+      "text": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا",
+      "highlightedHtml": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم <a class=\"highlight-text\">مَّوْبِقًا</a>",
+      "derivedForms": [
+        "مَوْبِقٌ"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 34,
+      "text": "أَوْ يُوبِقْهُنَّ بِمَا كَسَبُوا۟ وَيَعْفُ عَن كَثِيرٍ",
+      "highlightedHtml": "أَوْ <a class=\"highlight-text\">يُوبِقْهُنَّ</a> بِمَا كَسَبُوا۟ وَيَعْفُ عَن كَثِيرٍ",
+      "derivedForms": [
+        "يُوبِقُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:54.076Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "مَّوْبِقًا is in the derivative form: مَوْبِقٌ",
+    "rootDefinitionHtml": "و/ب/ق   w–b–q shameful act, grave offence; to humiliate, to destroy, to end in ruin; to detain. Of this root, 2 forms, يُوبِقُ yūbiq and مَوْبِقٌ mawbiq, occur 1 time each in the Qur’an<br>.",
+    "mainDefinitionHtml": "مَوْبِقٌ mawbiq [v. n.; n. of place] separation, unbridgeable gulf; a place of destruction <br><br>(18:52) وَيَوْمَ يَقُولُ نَادُوا شُرَكَائِيَ الَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا لَهُمْ وَجَعَلْنَا بَيْنَهُمْ مَوْبِقًا on the Day when He says, ‘Call on those you claimed were My partners,’ and they will call on them but they will not answer: We shall set a perilous gulf between them.",
+    "mainEntryId": "wdef-و-ب-ق.مَوْبِقٌ",
+    "entries": [
+      {
+        "id": "wdef-و-ب-ق",
+        "label": "و-ب-ق",
+        "definitionHtml": "و/ب/ق   w–b–q shameful act, grave offence; to humiliate, to destroy, to end in ruin; to detain. Of this root, 2 forms, يُوبِقُ yūbiq and مَوْبِقٌ mawbiq, occur 1 time each in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-و-ب-ق.مَوْبِقٌ",
+        "label": "مَوْبِقٌ",
+        "definitionHtml": "مَوْبِقٌ mawbiq [v. n.; n. of place] separation, unbridgeable gulf; a place of destruction <br><br>(18:52) وَيَوْمَ يَقُولُ نَادُوا شُرَكَائِيَ الَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا لَهُمْ وَجَعَلْنَا بَيْنَهُمْ مَوْبِقًا on the Day when He says, ‘Call on those you claimed were My partners,’ and they will call on them but they will not answer: We shall set a perilous gulf between them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-و-ب-ق.يُوبِقُ",
+        "label": "يُوبِقُ",
+        "definitionHtml": "يُوبِقُ yūbiq [imperf. of v. IV] to cause to perish, to destroy, to ruin <br><br>(42:34) أَوْ يُوبِقْهُنَّ بِمَا كَسَبُوا or He ruins them for what they have earned.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:55.120Z",
+      "refword": "18:52:13",
+      "lexword": "مَّوْبِقًا"
+    }
+  }
+}

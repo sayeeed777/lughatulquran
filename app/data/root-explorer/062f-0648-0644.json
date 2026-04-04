@@ -1,0 +1,106 @@
+{
+  "root": "دول",
+  "rootArabic": "دول",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "دُولَةٌ",
+      "count": 1
+    },
+    {
+      "form": "نُدَاوِلُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نُدَاوِلُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "دُولَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 140,
+      "text": "إِن يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ نُدَاوِلُهَا بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ",
+      "highlightedHtml": "إِن يَمْسَسْكُمْ قَرْحٌ فَقَدْ مَسَّ ٱلْقَوْمَ قَرْحٌ مِّثْلُهُۥ ۚ وَتِلْكَ ٱلْأَيَّامُ <a class=\"highlight-text\">نُدَاوِلُهَا</a> بَيْنَ ٱلنَّاسِ وَلِيَعْلَمَ ٱللَّهُ ٱلَّذِينَ آمَنُوا وَيَتَّخِذَ مِنكُمْ شُهَدَآءَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلظَّٰلِمِينَ",
+      "derivedForms": [
+        "نُدَاوِلُ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 7,
+      "text": "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ آتَاكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "highlightedHtml": "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ <a class=\"highlight-text\">دُولَةًۢ</a> بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ آتَاكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+      "derivedForms": [
+        "دُولَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:32.174Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form III) imperfect verb",
+    "derivativeNote": "نُدَاوِلُهَا is in the derivative form: نُدَاوِلُ",
+    "rootDefinitionHtml": "د/و/ل   d–w–l to circulate, to go from 1 situation to its opposite, to be a bone of contention; to work in turns; to exchange opinions; defeat, a great setback, a calamity. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نُدَاوِلُ nudāwil and دُولَةً dūlatan.",
+    "mainDefinitionHtml": "نُدَاوِلُ nudāwil [imperf. of v. III دَاوَلَ dāwala, trans.] to alternate, to rotate, to cause to succeed by turns <br><br>(3:140) وَتِلْكَ الأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ such days [of victory and defeat] We deal out in turn among people (or, such are the days of victory and defeat, We deal them out in turn among people).",
+    "mainEntryId": "wdef-د-و-ل.نُدَاوِلُ",
+    "entries": [
+      {
+        "id": "wdef-د-و-ل",
+        "label": "د-و-ل",
+        "definitionHtml": "د/و/ل   d–w–l to circulate, to go from 1 situation to its opposite, to be a bone of contention; to work in turns; to exchange opinions; defeat, a great setback, a calamity. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> نُدَاوِلُ nudāwil and دُولَةً dūlatan.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-د-و-ل.نُدَاوِلُ",
+        "label": "نُدَاوِلُ",
+        "definitionHtml": "نُدَاوِلُ nudāwil [imperf. of v. III دَاوَلَ dāwala, trans.] to alternate, to rotate, to cause to succeed by turns <br><br>(3:140) وَتِلْكَ الأَيَّامُ نُدَاوِلُهَا بَيْنَ النَّاسِ such days [of victory and defeat] We deal out in turn among people (or, such are the days of victory and defeat, We deal them out in turn among people).",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-د-و-ل.دُولَةٌ",
+        "label": "دُولَةٌ",
+        "definitionHtml": "دُولَةٌ dūlatan [v. n./n.] something taken in turns, going from one to the other, circulating among a restricted group <br><br>(59:7) كَيْ لاَ يَكُونَ دُولَةً بَيْنَ الأَغْنِيَاءِ مِنْكُمْ [this is ordained] so that it [wealth] may not become [a commodity] circulating just between the rich among you.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:24.649Z",
+      "refword": "3:140:11",
+      "lexword": "نُدَاوِلُهَا"
+    }
+  }
+}

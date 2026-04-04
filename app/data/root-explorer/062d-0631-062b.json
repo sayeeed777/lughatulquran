@@ -1,0 +1,250 @@
+{
+  "root": "حرث",
+  "rootArabic": "حرث",
+  "stats": {
+    "totalOccurrences": 14,
+    "derivativeCount": 2,
+    "surahCount": 7,
+    "ayahCount": 11
+  },
+  "derivatives": [
+    {
+      "form": "حَرْث",
+      "count": 13
+    },
+    {
+      "form": "تَحْرُثُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 4,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 2,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 42,
+      "surahName": "Ash-Shura",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 3,
+          "totalInQuran": 13
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَحْرُثُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 68,
+      "surahName": "Al-Qalam",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَرْث",
+          "count": 1,
+          "totalInQuran": 13
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 71,
+      "text": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى <a class=\"highlight-text\">ٱلْحَرْثَ</a> مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 205,
+      "text": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ ٱلْحَرْثَ وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "highlightedHtml": "وَإِذَا تَوَلَّىٰ سَعَىٰ فِى ٱلْأَرْضِ لِيُفْسِدَ فِيهَا وَيُهْلِكَ <a class=\"highlight-text\">ٱلْحَرْثَ</a> وَٱلنَّسْلَ ۗ وَٱللَّهُ لَا يُحِبُّ ٱلْفَسَادَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 223,
+      "text": "نِسَآؤُكُمْ حَرْثٌ لَّكُمْ فَأْتُوا۟ حَرْثَكُمْ أَنَّىٰ شِئْتُمْ ۖ وَقَدِّمُوا۟ لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "highlightedHtml": "نِسَآؤُكُمْ <a class=\"highlight-text\">حَرْثٌ</a> لَّكُمْ فَأْتُوا۟ <a class=\"highlight-text\">حَرْثَكُمْ</a> أَنَّىٰ شِئْتُمْ ۖ وَقَدِّمُوا۟ لِأَنفُسِكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّكُم مُّلَٰقُوهُ ۗ وَبَشِّرِ ٱلْمُؤْمِنِينَ",
+      "derivedForms": [
+        "حَرْث",
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 14,
+      "text": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ وَٱلْحَرْثِ ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "highlightedHtml": "زُيِّنَ لِلنَّاسِ حُبُّ ٱلشَّهَوَٰتِ مِنَ ٱلنِّسَآءِ وَٱلْبَنِينَ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ وَٱلْقَنَٰطِيرِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ ٱلْمُقَنطَرَةِ مِنَ ٱلذَّهَبِ وَٱلْفِضَّةِ وَٱلْخَيْلِ ٱلْمُسَوَّمَةِ وَٱلْأَنْعَٰمِ <a class=\"highlight-text\">وَٱلْحَرْثِ</a> ۗ ذَٰلِكَ مَتَٰعُ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَٱللَّهُ عِندَهُۥ حُسْنُ ٱلْمَـَٔابِ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 3,
+      "ayah": 117,
+      "text": "مَثَلُ مَا يُنفِقُونَ فِى هَٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "highlightedHtml": "مَثَلُ مَا يُنفِقُونَ فِى هَٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ <a class=\"highlight-text\">حَرْثَ</a> قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 136,
+      "text": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "highlightedHtml": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ <a class=\"highlight-text\">ٱلْحَرْثِ</a> وَٱلْأَنْعَٰمِ نَصِيبًا فَقَالُوا۟ هَٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 138,
+      "text": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "highlightedHtml": "وَقَالُوا۟ هَٰذِهِۦٓ أَنْعَٰمٌ <a class=\"highlight-text\">وَحَرْثٌ</a> حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 78,
+      "text": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى ٱلْحَرْثِ إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "highlightedHtml": "وَدَاوُۥدَ وَسُلَيْمَٰنَ إِذْ يَحْكُمَانِ فِى <a class=\"highlight-text\">ٱلْحَرْثِ</a> إِذْ نَفَشَتْ فِيهِ غَنَمُ ٱلْقَوْمِ وَكُنَّا لِحُكْمِهِمْ شَٰهِدِينَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 42,
+      "ayah": 20,
+      "text": "مَن كَانَ يُرِيدُ حَرْثَ الْآخِرَةِ نَزِدْ لَهُۥ فِى حَرْثِهِۦ ۖ وَمَن كَانَ يُرِيدُ حَرْثَ ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَا لَهُۥ فِى الْآخِرَةِ مِن نَّصِيبٍ",
+      "highlightedHtml": "مَن كَانَ يُرِيدُ <a class=\"highlight-text\">حَرْثَ</a> الْآخِرَةِ نَزِدْ لَهُۥ فِى <a class=\"highlight-text\">حَرْثِهِۦ</a> ۖ وَمَن كَانَ يُرِيدُ <a class=\"highlight-text\">حَرْثَ</a> ٱلدُّنْيَا نُؤْتِهِۦ مِنْهَا وَمَا لَهُۥ فِى الْآخِرَةِ مِن نَّصِيبٍ",
+      "derivedForms": [
+        "حَرْث",
+        "حَرْث",
+        "حَرْث"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 63,
+      "text": "أَفَرَءَيْتُم مَّا تَحْرُثُونَ",
+      "highlightedHtml": "أَفَرَءَيْتُم مَّا <a class=\"highlight-text\">تَحْرُثُونَ</a>",
+      "derivedForms": [
+        "تَحْرُثُ"
+      ]
+    },
+    {
+      "surah": 68,
+      "ayah": 22,
+      "text": "أَنِ ٱغْدُوا۟ عَلَىٰ حَرْثِكُمْ إِن كُنتُمْ صَٰرِمِينَ",
+      "highlightedHtml": "أَنِ ٱغْدُوا۟ عَلَىٰ <a class=\"highlight-text\">حَرْثِكُمْ</a> إِن كُنتُمْ صَٰرِمِينَ",
+      "derivedForms": [
+        "حَرْث"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:41:54.098Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "ٱلْحَرْثَ is in the derivative form: حَرْث",
+    "rootDefinitionHtml": "ح/ر/ث   ḥ–r–th plantation, cultivated land; plough, to plough, to sow seeds, to till, tillage; earnings, to earn, to work for one’s living; to study footprints. <br><br>Of this root, 2 forms occur 14 times in the Qur’an:<br> تَحْرُثُون taḥruthūn 1 time and حَرْثٌ ḥarth 13 times.",
+    "mainDefinitionHtml": "حَرْث ḥarth [n.] <br><br><strong>1 </strong>field, planted land <br><br>(2:71) إِنَّهَا بَقَرَةٌ لاَ ذَلُولٌ تُثِيرُ الأَرْضَ وَلاَ تَسْقِي الْحَرْثَ مُسَلَّمَةٌ لاَ شِيَةَ فِيهَا it is a cow, not broken to plough the earth or water the tillage, perfect and unblemished <br><br><strong>2 </strong>crops, yields of agricultural land <br><br>(6:138) وَقَالُوا هَذِهِ أَنْعَامٌ وَحَرْثٌ حِجْرٌ لاَ يَطْعَمُهَا إِلاَّ مَنْ نَشَاءُ بِزَعْمِهِمْ they [also] say, ‘These are sacrosanct cattle and tillage [crops]; none but those we wish may eat them’–so they claim! <br><br><strong>3 </strong>reward, recompense, harvest <br><br>(42:20) مَنْ كَانَ يُرِيدُ حَرْثَ الآخِرَةِ نَزِدْ لَهُ فِى حَرْثِهِ anyone who desires the harvest of the life to come, We shall increase his harvest for him <br><br><strong>4 </strong>tillage, land prepared for sowing seeds <br><br>(2:223) نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ your women are fields for you, so go into your fields [whenever, however or whichever way] you like.",
+    "mainEntryId": "wdef-ح-ر-ث.حَرْث",
+    "entries": [
+      {
+        "id": "wdef-ح-ر-ث",
+        "label": "ح-ر-ث",
+        "definitionHtml": "ح/ر/ث   ḥ–r–th plantation, cultivated land; plough, to plough, to sow seeds, to till, tillage; earnings, to earn, to work for one’s living; to study footprints. <br><br>Of this root, 2 forms occur 14 times in the Qur’an:<br> تَحْرُثُون taḥruthūn 1 time and حَرْثٌ ḥarth 13 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ر-ث.حَرْث",
+        "label": "حَرْث",
+        "definitionHtml": "حَرْث ḥarth [n.] <br><br><strong>1 </strong>field, planted land <br><br>(2:71) إِنَّهَا بَقَرَةٌ لاَ ذَلُولٌ تُثِيرُ الأَرْضَ وَلاَ تَسْقِي الْحَرْثَ مُسَلَّمَةٌ لاَ شِيَةَ فِيهَا it is a cow, not broken to plough the earth or water the tillage, perfect and unblemished <br><br><strong>2 </strong>crops, yields of agricultural land <br><br>(6:138) وَقَالُوا هَذِهِ أَنْعَامٌ وَحَرْثٌ حِجْرٌ لاَ يَطْعَمُهَا إِلاَّ مَنْ نَشَاءُ بِزَعْمِهِمْ they [also] say, ‘These are sacrosanct cattle and tillage [crops]; none but those we wish may eat them’–so they claim! <br><br><strong>3 </strong>reward, recompense, harvest <br><br>(42:20) مَنْ كَانَ يُرِيدُ حَرْثَ الآخِرَةِ نَزِدْ لَهُ فِى حَرْثِهِ anyone who desires the harvest of the life to come, We shall increase his harvest for him <br><br><strong>4 </strong>tillage, land prepared for sowing seeds <br><br>(2:223) نِسَاؤُكُمْ حَرْثٌ لَكُمْ فَأْتُوا حَرْثَكُمْ أَنَّى شِئْتُمْ your women are fields for you, so go into your fields [whenever, however or whichever way] you like.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ر-ث.تَحْرُثُ",
+        "label": "تَحْرُثُ",
+        "definitionHtml": "تَحْرُثُ taḥruth [imperf. of حَرَث ḥaratha, trans.] to till, to cultivate, to sow seeds, to plant <br><br>(56:63–4) أَفَرَأَيْتُمْ مَا تَحْرُثُونَ ءَأَنْتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ have you considered what you till?, is it you who cause it to grow or are We the grower?!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:18.855Z",
+      "refword": "2:71:12",
+      "lexword": "ٱلْحَرْثَ"
+    }
+  }
+}

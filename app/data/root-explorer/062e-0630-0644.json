@@ -1,0 +1,138 @@
+{
+  "root": "خذل",
+  "rootArabic": "خذل",
+  "stats": {
+    "totalOccurrences": 3,
+    "derivativeCount": 3,
+    "surahCount": 3,
+    "ayahCount": 3
+  },
+  "derivatives": [
+    {
+      "form": "خَذُولٌ",
+      "count": 1
+    },
+    {
+      "form": "مَخْذُولٌ",
+      "count": 1
+    },
+    {
+      "form": "يَخْذُلُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَخْذُلُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مَخْذُولٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "خَذُولٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 160,
+      "text": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن يَخْذُلْكُمْ فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "highlightedHtml": "إِن يَنصُرْكُمُ ٱللَّهُ فَلَا غَالِبَ لَكُمْ ۖ وَإِن <a class=\"highlight-text\">يَخْذُلْكُمْ</a> فَمَن ذَا ٱلَّذِى يَنصُرُكُم مِّنۢ بَعْدِهِۦ ۗ وَعَلَى ٱللَّهِ فَلْيَتَوَكَّلِ ٱلْمُؤْمِنُونَ",
+      "derivedForms": [
+        "يَخْذُلُ"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 22,
+      "text": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتَقْعُدَ مَذْمُومًا مَّخْذُولًا",
+      "highlightedHtml": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَٰهًا آخَرَ فَتَقْعُدَ مَذْمُومًا <a class=\"highlight-text\">مَّخْذُولًا</a>",
+      "derivedForms": [
+        "مَخْذُولٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 29,
+      "text": "لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ خَذُولًا",
+      "highlightedHtml": "لَّقَدْ أَضَلَّنِى عَنِ ٱلذِّكْرِ بَعْدَ إِذْ جَآءَنِى ۗ وَكَانَ ٱلشَّيْطَٰنُ لِلْإِنسَٰنِ <a class=\"highlight-text\">خَذُولًا</a>",
+      "derivedForms": [
+        "خَذُولٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:43:06.289Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular imperfect verb, jussive mood",
+    "derivativeNote": "يَخْذُلْكُمْ is in the derivative form: يَخْذُلُ",
+    "rootDefinitionHtml": "خ/ذ/ل   kh–dh–l straggler<br>; to stay behind, to be left behind; to fail to support; to weaken, to stay put. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَخْذُلُ yakhdhul; خَذُولٌ khadhūl and مَخْذُولٌ makhdhūl.",
+    "mainDefinitionHtml": "يَخْذُلُ yakhdhul [imperf. of v. خَذَلَ khadhala, trans.] to let down, to deny one’s assistance to, to forsake <br><br>(3:160) إِنْ يَنْصُرْكُمُ اللَّهُ فَلاَ غَالِبَ لَكُمْ وَإِنْ يَخْذُلْكُمْ فَمَنْ ذَا الَّذِي يَنْصُرُكُمْ مِنْ بَعْدِهِ if God helps you, no one can overcome you; if He forsakes you, who is it that will help you other than [lit. after] Him?",
+    "mainEntryId": "wdef-خ-ذ-ل.يَخْذُلُ",
+    "entries": [
+      {
+        "id": "wdef-خ-ذ-ل",
+        "label": "خ-ذ-ل",
+        "definitionHtml": "خ/ذ/ل   kh–dh–l straggler<br>; to stay behind, to be left behind; to fail to support; to weaken, to stay put. <br><br>Of this root, 3 forms occur 1 time each in the Qur’an:<br> يَخْذُلُ yakhdhul; خَذُولٌ khadhūl and مَخْذُولٌ makhdhūl.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ذ-ل.يَخْذُلُ",
+        "label": "يَخْذُلُ",
+        "definitionHtml": "يَخْذُلُ yakhdhul [imperf. of v. خَذَلَ khadhala, trans.] to let down, to deny one’s assistance to, to forsake <br><br>(3:160) إِنْ يَنْصُرْكُمُ اللَّهُ فَلاَ غَالِبَ لَكُمْ وَإِنْ يَخْذُلْكُمْ فَمَنْ ذَا الَّذِي يَنْصُرُكُمْ مِنْ بَعْدِهِ if God helps you, no one can overcome you; if He forsakes you, who is it that will help you other than [lit. after] Him?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-خ-ذ-ل.خَذُولٌ",
+        "label": "خَذُولٌ",
+        "definitionHtml": "خَذُولٌ khadhūl [intens. act. part.] one given to letting others down, one characterised by forsaking friends, a deserter in the time of need <br><br>(25:29) وَكَانَ الشَّيْطَانُ لِلإِنْسَانِ خَذُولاً Satan has always let humankind down.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-خ-ذ-ل.مَخْذُولٌ",
+        "label": "مَخْذُولٌ",
+        "definitionHtml": "مَخْذُولٌ makhdhūl [pass. part.] one who is let down, forsaken, deserted, abandoned <br><br>(17:22) ولاَ تَجْعَلْ مَعَ اللَّهِ إِلَهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًا مَخْذُولاً do not set up with God another god, lest you end up reproved and forsaken.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:32:37.455Z",
+      "refword": "3:160:8",
+      "lexword": "يَخْذُلْكُمْ"
+    }
+  }
+}

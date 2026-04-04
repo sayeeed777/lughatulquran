@@ -1,0 +1,74 @@
+{
+  "root": "هشش",
+  "rootArabic": "هشش",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَهُشُّ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَهُشُّ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 20,
+      "ayah": 18,
+      "text": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا وَأَهُشُّ بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَى",
+      "highlightedHtml": "قَالَ هِىَ عَصَاىَ أَتَوَكَّؤُا۟ عَلَيْهَا <a class=\"highlight-text\">وَأَهُشُّ</a> بِهَا عَلَىٰ غَنَمِى وَلِىَ فِيهَا مَـَٔارِبُ أُخْرَى",
+      "derivedForms": [
+        "أَهُشُّ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:33.896Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person singular imperfect verb",
+    "derivativeNote": "وَأَهُشُّ is in the derivative form: أَهُشُّ",
+    "rootDefinitionHtml": "هـ/ش/ش   h–sh–sh to be brittle; to be pliant, (of bread etc.) to be thin, to be soft; to be welcoming, to wear a welcoming smile; to drive away; to beat down tree leaves with a stick; a horse that perspires too much. Of this root, أَهُشُّ ʾahushshu occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَهُشُّ ʾahushshu [imperf. of v. هَشَّ hashsha] to beat down tree leaves; to drive away, to restrain <br><br>(20:18) قَالَ هِيَ عَصَايَ أَتَوَكَّأُ عَلَيْهَا وَأَهُشُّ بِهَا عَلَى غَنَمِي he said, ‘It is my staff; I lean on it and I beat down leaves with it for my sheep (or, I restrain my sheep with it).’",
+    "mainEntryId": "wdef-هـ-ش-ش.أَهُشُّ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ش-ش",
+        "label": "هـ-ش-ش",
+        "definitionHtml": "هـ/ش/ش   h–sh–sh to be brittle; to be pliant, (of bread etc.) to be thin, to be soft; to be welcoming, to wear a welcoming smile; to drive away; to beat down tree leaves with a stick; a horse that perspires too much. Of this root, أَهُشُّ ʾahushshu occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ش-ش.أَهُشُّ",
+        "label": "أَهُشُّ",
+        "definitionHtml": "أَهُشُّ ʾahushshu [imperf. of v. هَشَّ hashsha] to beat down tree leaves; to drive away, to restrain <br><br>(20:18) قَالَ هِيَ عَصَايَ أَتَوَكَّأُ عَلَيْهَا وَأَهُشُّ بِهَا عَلَى غَنَمِي he said, ‘It is my staff; I lean on it and I beat down leaves with it for my sheep (or, I restrain my sheep with it).’",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:12.972Z",
+      "refword": "20:18:6",
+      "lexword": "وَأَهُشُّ"
+    }
+  }
+}

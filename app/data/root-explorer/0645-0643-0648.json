@@ -1,0 +1,74 @@
+{
+  "root": "مكو",
+  "rootArabic": "مكو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُكاء",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 8,
+      "surahName": "Al-Anfal",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُكاء",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 8,
+      "ayah": 35,
+      "text": "وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً وَتَصْدِيَةً ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "highlightedHtml": "وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا <a class=\"highlight-text\">مُكَآءً</a> وَتَصْدِيَةً ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ",
+      "derivedForms": [
+        "مُكاء"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:56:34.599Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite verbal noun",
+    "derivativeNote": "مُكَآءً is in the derivative form: مُكاء",
+    "rootDefinitionHtml": "م/ك/و   m–k–w to whistle, a certain bird with a long whistling sound; buttocks; animal furrows, to wash, (of a horse) to sweat. Of this root, only مُكِاء mukāʾ occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُكاء mukāʾ [v. n.] whistling <br><br>(8:35) وَمَا‏ ‏كَانَ‏ ‏صَلاَتُهُمْ‏ ‏عِنْدَ‏ ‏الْبَيْتِ‏ ‏إِلاَّ‏ ‏مُكَاءً‏ ‏وَتَصْدِيَةً‏ their prayer at the House is nothing but a whistling and a clapping of hands.",
+    "mainEntryId": "wdef-م-ك-و.مُكاء",
+    "entries": [
+      {
+        "id": "wdef-م-ك-و",
+        "label": "م-ك-و",
+        "definitionHtml": "م/ك/و   m–k–w to whistle, a certain bird with a long whistling sound; buttocks; animal furrows, to wash, (of a horse) to sweat. Of this root, only مُكِاء mukāʾ occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-م-ك-و.مُكاء",
+        "label": "مُكاء",
+        "definitionHtml": "مُكاء mukāʾ [v. n.] whistling <br><br>(8:35) وَمَا‏ ‏كَانَ‏ ‏صَلاَتُهُمْ‏ ‏عِنْدَ‏ ‏الْبَيْتِ‏ ‏إِلاَّ‏ ‏مُكَاءً‏ ‏وَتَصْدِيَةً‏ their prayer at the House is nothing but a whistling and a clapping of hands.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:58:28.081Z",
+      "refword": "8:35:7",
+      "lexword": "مُكَآءً"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "root": "ردي",
+  "rootArabic": "ردي",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "أَرْدَى",
+      "count": 3
+    },
+    {
+      "form": "تَرَدَّى",
+      "count": 1
+    },
+    {
+      "form": "تَرْدَى",
+      "count": 1
+    },
+    {
+      "form": "مُتَرَدِّيَةٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُتَرَدِّيَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْدَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرْدَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْدَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَرْدَى",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَرَدَّى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 5,
+      "ayah": 3,
+      "text": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ <a class=\"highlight-text\">وَٱلْمُتَرَدِّيَةُ</a> وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "مُتَرَدِّيَةٌ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 137,
+      "text": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+      "highlightedHtml": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَٰدِهِمْ شُرَكَآؤُهُمْ <a class=\"highlight-text\">لِيُرْدُوهُمْ</a> وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+      "derivedForms": [
+        "أَرْدَى"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 16,
+      "text": "فَلَا يَصُدَّنَّكَ عَنْهَا مَن لَّا يُؤْمِنُ بِهَا وَٱتَّبَعَ هَوَىٰهُ فَتَرْدَىٰ",
+      "highlightedHtml": "فَلَا يَصُدَّنَّكَ عَنْهَا مَن لَّا يُؤْمِنُ بِهَا وَٱتَّبَعَ هَوَىٰهُ <a class=\"highlight-text\">فَتَرْدَىٰ</a>",
+      "derivedForms": [
+        "تَرْدَى"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 56,
+      "text": "قَالَ تَٱللَّهِ إِن كِدتَّ لَتُرْدِينِ",
+      "highlightedHtml": "قَالَ تَٱللَّهِ إِن كِدتَّ <a class=\"highlight-text\">لَتُرْدِينِ</a>",
+      "derivedForms": [
+        "أَرْدَى"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 23,
+      "text": "وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ أَرْدَىٰكُمْ فَأَصْبَحْتُم مِّنَ ٱلْخَٰسِرِينَ",
+      "highlightedHtml": "وَذَٰلِكُمْ ظَنُّكُمُ ٱلَّذِى ظَنَنتُم بِرَبِّكُمْ <a class=\"highlight-text\">أَرْدَىٰكُمْ</a> فَأَصْبَحْتُم مِّنَ ٱلْخَٰسِرِينَ",
+      "derivedForms": [
+        "أَرْدَى"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 11,
+      "text": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا تَرَدَّىٰٓ",
+      "highlightedHtml": "وَمَا يُغْنِى عَنْهُ مَالُهُۥٓ إِذَا <a class=\"highlight-text\">تَرَدَّىٰٓ</a>",
+      "derivedForms": [
+        "تَرَدَّى"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:45:17.060Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "nominative feminine (form V) active participle",
+    "derivativeNote": "وَٱلْمُتَرَدِّيَةُ is in the derivative form: مُتَرَدِّيَةٌ",
+    "rootDefinitionHtml": "ر/د/ي   r–d–y death, destruction, demise, to perish, to kill, to cause death, to die by falling, animal killed by falling, to bring to the ground, to ruin<br>; garment, cloak, to wear; to increase. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَرْدَى tardā 1 time; أَرْدَى ʾardā 3 times; تَرَدَّى taraddā 1 time and مُتَرَدِّيَةٌ mutaraddiyatun 1 time.",
+    "mainDefinitionHtml": "مُتَرَدِّيَةٌ mutaraddiyatun [act. part. fem.] animal killed by falling <br><br>(5:3) …حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ ... وَالْمُتَرَدِّيَةُ forbidden to you [for food] are dead un‐slaughtered animals; … animals killed by falling ….",
+    "mainEntryId": "wdef-ر-د-ي.مُتَرَدِّيَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ر-د-ي",
+        "label": "ر-د-ي",
+        "definitionHtml": "ر/د/ي   r–d–y death, destruction, demise, to perish, to kill, to cause death, to die by falling, animal killed by falling, to bring to the ground, to ruin<br>; garment, cloak, to wear; to increase. <br><br>Of this root, 4 forms occur 6 times in the Qur’an:<br> تَرْدَى tardā 1 time; أَرْدَى ʾardā 3 times; تَرَدَّى taraddā 1 time and مُتَرَدِّيَةٌ mutaraddiyatun 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-د-ي.مُتَرَدِّيَةٌ",
+        "label": "مُتَرَدِّيَةٌ",
+        "definitionHtml": "مُتَرَدِّيَةٌ mutaraddiyatun [act. part. fem.] animal killed by falling <br><br>(5:3) …حُرِّمَتْ عَلَيْكُمُ الْمَيْتَةُ ... وَالْمُتَرَدِّيَةُ forbidden to you [for food] are dead un‐slaughtered animals; … animals killed by falling ….",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ر-د-ي.تَرَدَّى",
+        "label": "تَرَدَّى",
+        "definitionHtml": "تَرَدَّى taraddā [v. V, intrans.] to come to ruin, to meet with destruction, to fall to one’s death <br><br>(92:11) وَمَا يُغْنِي عَنْهُ مَالُهُ إِذَا تَرَدَّى and what use to him would be his wealth if he falls [into Hell]?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-د-ي.تَرْدَى",
+        "label": "تَرْدَى",
+        "definitionHtml": "تَرْدَى tardā [imperf. of v. رَدِيَ radiya, intrans.] to perish, meet with ruin <br><br>(20:16) فَلاَ يَصُدَّنَّكَ عَنْهَا مَنْ لاَ يُؤْمِنُ بِهَا وَاتَّبَعَ هَوَاهُ فَتَرْدَى do not let anyone who does not believe in it and who follows his own whimsical desires distract you from it, for you will come to ruin.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ر-د-ي.أَرْدَى",
+        "label": "أَرْدَى",
+        "definitionHtml": "أَرْدَى ʾardā [v. IV, trans.] to cause the demise of, to ruin <br><br>(37:56) تَاللَّهِ إِنْ كِدْتَ لَتُرْدِينِ by God, you almost brought me to ruin!",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:36:44.170Z",
+      "refword": "5:3:14",
+      "lexword": "وَٱلْمُتَرَدِّيَةُ"
+    }
+  }
+}

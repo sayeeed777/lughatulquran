@@ -1,0 +1,74 @@
+{
+  "root": "ذعن",
+  "rootArabic": "ذعن",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "مُذْعِنُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُذْعِنُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 24,
+      "ayah": 49,
+      "text": "وَإِن يَكُن لَّهُمُ ٱلْحَقُّ يَأْتُوٓا۟ إِلَيْهِ مُذْعِنِينَ",
+      "highlightedHtml": "وَإِن يَكُن لَّهُمُ ٱلْحَقُّ يَأْتُوٓا۟ إِلَيْهِ <a class=\"highlight-text\">مُذْعِنِينَ</a>",
+      "derivedForms": [
+        "مُذْعِنُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:43.841Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine plural (form IV) active participle",
+    "derivativeNote": "مُذْعِنِينَ is in the derivative form: مُذْعِنُون",
+    "rootDefinitionHtml": "ذ/ع/ن   dh–ʿ–n to submit, to give in; to hurry up; to confess. Of this root, only مُذْعِنُون mudhʿinūn, occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "مُذْعِنُون mudhʿinūn [pl. of act. part. مُذْعِنٌ mudhʿin] one who submits, one who yields <br><br>(24:49) وَإِنْ يَكُنْ لَهُمُ الْحَقُّ يَأْتُوا إِلَيْهِ مُذْعِنِينَ but if they have a just claim, they come to him in submission.",
+    "mainEntryId": "wdef-ذ-ع-ن.مُذْعِنُون",
+    "entries": [
+      {
+        "id": "wdef-ذ-ع-ن",
+        "label": "ذ-ع-ن",
+        "definitionHtml": "ذ/ع/ن   dh–ʿ–n to submit, to give in; to hurry up; to confess. Of this root, only مُذْعِنُون mudhʿinūn, occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ع-ن.مُذْعِنُون",
+        "label": "مُذْعِنُون",
+        "definitionHtml": "مُذْعِنُون mudhʿinūn [pl. of act. part. مُذْعِنٌ mudhʿin] one who submits, one who yields <br><br>(24:49) وَإِنْ يَكُنْ لَهُمُ الْحَقُّ يَأْتُوا إِلَيْهِ مُذْعِنِينَ but if they have a just claim, they come to him in submission.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:46.565Z",
+      "refword": "24:49:7",
+      "lexword": "مُذْعِنِينَ"
+    }
+  }
+}

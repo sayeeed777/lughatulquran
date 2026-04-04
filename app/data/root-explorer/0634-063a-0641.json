@@ -1,0 +1,74 @@
+{
+  "root": "شغف",
+  "rootArabic": "شغف",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "شَغَفَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "شَغَفَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 12,
+      "ayah": 30,
+      "text": "وَقَالَ نِسْوَةٌ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ شَغَفَهَا حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍ مُّبِينٍ",
+      "highlightedHtml": "وَقَالَ نِسْوَةٌ فِى ٱلْمَدِينَةِ ٱمْرَأَتُ ٱلْعَزِيزِ تُرَٰوِدُ فَتَىٰهَا عَن نَّفْسِهِۦ ۖ قَدْ <a class=\"highlight-text\">شَغَفَهَا</a> حُبًّا ۖ إِنَّا لَنَرَىٰهَا فِى ضَلَٰلٍ مُّبِينٍ",
+      "derivedForms": [
+        "شَغَفَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:48:11.729Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine singular perfect verb",
+    "derivativeNote": "شَغَفَهَا is in the derivative form: شَغَفَ",
+    "rootDefinitionHtml": "ش/غ/ف   sh–gh–f the membrane enclosing the heart (the pericardium); the centre; to smite, to pierce; to infatuate, to be smitten with love, ardent love, passion. Of this root, only شَغَفَ shaghafa occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "شَغَفَ shaghafa a [v. trans.] to penetrate the innermost part [of the heart], to smite <br><br>(12:30) امْرَأَةُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَنْ نَفْسِهِ قَدْ شَغَفَهَا حُبًّا the governor’s wife is trying to seduce her slave!, he has smitten her heart with love [lit. penetrated the core of her heart].",
+    "mainEntryId": "wdef-ش-غ-ف.شَغَفَ",
+    "entries": [
+      {
+        "id": "wdef-ش-غ-ف",
+        "label": "ش-غ-ف",
+        "definitionHtml": "ش/غ/ف   sh–gh–f the membrane enclosing the heart (the pericardium); the centre; to smite, to pierce; to infatuate, to be smitten with love, ardent love, passion. Of this root, only شَغَفَ shaghafa occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ش-غ-ف.شَغَفَ",
+        "label": "شَغَفَ",
+        "definitionHtml": "شَغَفَ shaghafa a [v. trans.] to penetrate the innermost part [of the heart], to smite <br><br>(12:30) امْرَأَةُ الْعَزِيزِ تُرَاوِدُ فَتَاهَا عَنْ نَفْسِهِ قَدْ شَغَفَهَا حُبًّا the governor’s wife is trying to seduce her slave!, he has smitten her heart with love [lit. penetrated the core of her heart].",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:42:25.280Z",
+      "refword": "12:30:12",
+      "lexword": "شَغَفَهَا"
+    }
+  }
+}

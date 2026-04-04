@@ -1,0 +1,268 @@
+{
+  "root": "عبر",
+  "rootArabic": "عبر",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 4,
+    "surahCount": 8,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "عِِبْرَةٌ",
+      "count": 6
+    },
+    {
+      "form": "اعْتَبِرْ",
+      "count": 1
+    },
+    {
+      "form": "تَعْبُر",
+      "count": 1
+    },
+    {
+      "form": "عَابرِينِ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 3,
+      "surahName": "Al-'Imran",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَابرِينِ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَعْبُر",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 16,
+      "surahName": "An-Nahl",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    },
+    {
+      "surah": 59,
+      "surahName": "Al-Hashr",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "اعْتَبِرْ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 79,
+      "surahName": "An-Nazi'at",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عِِبْرَةٌ",
+          "count": 1,
+          "totalInQuran": 6
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 3,
+      "ayah": 13,
+      "text": "قَدْ كَانَ لَكُمْ آيَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا ۖ فِئَةٌ تُقَٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَى كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ ۗ إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "قَدْ كَانَ لَكُمْ آيَةٌ فِى فِئَتَيْنِ ٱلْتَقَتَا ۖ فِئَةٌ تُقَٰتِلُ فِى سَبِيلِ ٱللَّهِ وَأُخْرَى كَافِرَةٌ يَرَوْنَهُم مِّثْلَيْهِمْ رَأْىَ ٱلْعَيْنِ ۚ وَٱللَّهُ يُؤَيِّدُ بِنَصْرِهِۦ مَن يَشَآءُ ۗ إِنَّ فِى ذَٰلِكَ <a class=\"highlight-text\">لَعِبْرَةً</a> لِّأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 43,
+      "text": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "highlightedHtml": "يَٰٓأَيُّهَا ٱلَّذِينَ آمَنُوا لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا <a class=\"highlight-text\">عَابِرِى</a> سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+      "derivedForms": [
+        "عَابرِينِ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 43,
+      "text": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا تَعْبُرُونَ",
+      "highlightedHtml": "وَقَالَ ٱلْمَلِكُ إِنِّىٓ أَرَىٰ سَبْعَ بَقَرَٰتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنۢبُلَٰتٍ خُضْرٍ وَأُخَرَ يَابِسَٰتٍ ۖ يَٰٓأَيُّهَا ٱلْمَلَأُ أَفْتُونِى فِى رُءْيَٰىَ إِن كُنتُمْ لِلرُّءْيَا <a class=\"highlight-text\">تَعْبُرُونَ</a>",
+      "derivedForms": [
+        "تَعْبُر"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 111,
+      "text": "لَقَدْ كَانَ فِى قَصَصِهِمْ عِبْرَةٌ لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "highlightedHtml": "لَقَدْ كَانَ فِى قَصَصِهِمْ <a class=\"highlight-text\">عِبْرَةٌ</a> لِّأُو۟لِى ٱلْأَلْبَٰبِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ ٱلَّذِى بَيْنَ يَدَيْهِ وَتَفْصِيلَ كُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً لِّقَوْمٍ يُؤْمِنُونَ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    },
+    {
+      "surah": 16,
+      "ayah": 66,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ <a class=\"highlight-text\">لَعِبْرَةً</a> ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهِۦ مِنۢ بَيْنِ فَرْثٍ وَدَمٍ لَّبَنًا خَالِصًا سَآئِغًا لِّلشَّٰرِبِينَ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 21,
+      "text": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ لَعِبْرَةً ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "highlightedHtml": "وَإِنَّ لَكُمْ فِى ٱلْأَنْعَٰمِ <a class=\"highlight-text\">لَعِبْرَةً</a> ۖ نُّسْقِيكُم مِّمَّا فِى بُطُونِهَا وَلَكُمْ فِيهَا مَنَٰفِعُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 44,
+      "text": "يُقَلِّبُ ٱللَّهُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "يُقَلِّبُ ٱللَّهُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ إِنَّ فِى ذَٰلِكَ <a class=\"highlight-text\">لَعِبْرَةً</a> لِّأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    },
+    {
+      "surah": 59,
+      "ayah": 2,
+      "text": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ فَٱعْتَبِرُوا۟ يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "highlightedHtml": "هُوَ ٱلَّذِىٓ أَخْرَجَ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ مِن دِيَٰرِهِمْ لِأَوَّلِ ٱلْحَشْرِ ۚ مَا ظَنَنتُمْ أَن يَخْرُجُوا۟ ۖ وَظَنُّوٓا۟ أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ ٱللَّهِ فَأَتَىٰهُمُ ٱللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا۟ ۖ وَقَذَفَ فِى قُلُوبِهِمُ ٱلرُّعْبَ ۚ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِى ٱلْمُؤْمِنِينَ <a class=\"highlight-text\">فَٱعْتَبِرُوا۟</a> يَٰٓأُو۟لِى ٱلْأَبْصَٰرِ",
+      "derivedForms": [
+        "اعْتَبِرْ"
+      ]
+    },
+    {
+      "surah": 79,
+      "ayah": 26,
+      "text": "إِنَّ فِى ذَٰلِكَ لَعِبْرَةً لِّمَن يَخْشَىٰٓ",
+      "highlightedHtml": "إِنَّ فِى ذَٰلِكَ <a class=\"highlight-text\">لَعِبْرَةً</a> لِّمَن يَخْشَىٰٓ",
+      "derivedForms": [
+        "عِِبْرَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:22.124Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative feminine indefinite noun",
+    "derivativeNote": "لَعِبْرَةً is in the derivative form: عِِبْرَةٌ",
+    "rootDefinitionHtml": "ع/ب/ر   ʿ–b–r 1 side of the valley, to traverse, passer‐by<br>; to interpret a dream; contemplation, a lesson; tear; plenty, group of people; mixture of perfumes. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> تَعْبُرُون taʿburūn 1 time; اِعْتَبِرُوا ʾiʿtabirū 1 time;عَابِرِي ʿābirı 1 time and عِبْرَةٌ ʿibratun 6 times.",
+    "mainDefinitionHtml": "عِِبْرَةٌ ʿibratun [n.] a lesson to be learned <br><br>(12:111) لَقَدْ‏ ‏كَانَ‏ ‏فِى‏ ‏قَصَصِهِمْ‏ ‏عِبْرَةٌ‏ ‏لأُِولِي‏ ‏الأَلْبَابِ‏ in their stories is surely a lesson for those possessed of minds.",
+    "mainEntryId": "wdef-ع-ب-ر.عِِبْرَةٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ب-ر",
+        "label": "ع-ب-ر",
+        "definitionHtml": "ع/ب/ر   ʿ–b–r 1 side of the valley, to traverse, passer‐by<br>; to interpret a dream; contemplation, a lesson; tear; plenty, group of people; mixture of perfumes. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> تَعْبُرُون taʿburūn 1 time; اِعْتَبِرُوا ʾiʿtabirū 1 time;عَابِرِي ʿābirı 1 time and عِبْرَةٌ ʿibratun 6 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-ر.عِِبْرَةٌ",
+        "label": "عِِبْرَةٌ",
+        "definitionHtml": "عِِبْرَةٌ ʿibratun [n.] a lesson to be learned <br><br>(12:111) لَقَدْ‏ ‏كَانَ‏ ‏فِى‏ ‏قَصَصِهِمْ‏ ‏عِبْرَةٌ‏ ‏لأُِولِي‏ ‏الأَلْبَابِ‏ in their stories is surely a lesson for those possessed of minds.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ب-ر.اعْتَبِرْ",
+        "label": "اعْتَبِرْ",
+        "definitionHtml": "اعْتَبِرْ ʾiʿtabir [imper. v. VIII, intrans.] take heed, learn a lesson, consider <br><br>(59:2) فَاعْتَبِرُوا‏ ‏يَاأُولِي‏ الأَبْصَارِ so learn a lesson, you who have eyes.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-ر.تَعْبُر",
+        "label": "تَعْبُر",
+        "definitionHtml": "تَعْبُر taʿbur [imperf. v., trans.] to traverse; to interpret (a dream) <br><br>(12:43) ‏‏إِنْ‏ ‏كُنْتُمْ‏ ‏لِلرُّؤْيَا‏ ‏تَعْبُرُونَ‏ if you are [ones who] interpret dreams.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ب-ر.عَابرِينِ",
+        "label": "عَابرِينِ",
+        "definitionHtml": "عَابرِينِ ʿābirın [pl. of act. part. عابر ʿābir] one who passes by or through, one who traverses <br><br>(4:43)‏إِلاَّ‏ ‏عَابِرِي‏ ‏سَبِيلٍ‏ unless you are passing through [the mosque].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:31.897Z",
+      "refword": "3:13:27",
+      "lexword": "لَعِبْرَةً"
+    }
+  }
+}

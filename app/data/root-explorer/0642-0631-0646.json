@@ -1,0 +1,688 @@
+{
+  "root": "قرن",
+  "rootArabic": "قرن",
+  "stats": {
+    "totalOccurrences": 36,
+    "derivativeCount": 6,
+    "surahCount": 20,
+    "ayahCount": 34
+  },
+  "derivatives": [
+    {
+      "form": "قَرْن",
+      "count": 20
+    },
+    {
+      "form": "قَرِين",
+      "count": 8
+    },
+    {
+      "form": "قَرْنَين",
+      "count": 3
+    },
+    {
+      "form": "مُقَرَّنِين",
+      "count": 3
+    },
+    {
+      "form": "مُقْتَرِنِين",
+      "count": 1
+    },
+    {
+      "form": "مُقْرِنِين",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرِين",
+          "count": 2,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُقَرَّنِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 17,
+      "surahName": "Bani Isra'il",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قَرْنَين",
+          "count": 3,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 19,
+      "surahName": "Maryam",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 20,
+      "surahName": "Ta Ha",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 2,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "مُقَرَّنِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 3,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 32,
+      "surahName": "As-Sajdah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 38,
+      "surahName": "Sad",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "مُقَرَّنِين",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 41,
+      "surahName": "Ha Mim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرِين",
+          "count": 1,
+          "totalInQuran": 8
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "قَرِين",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "مُقْتَرِنِين",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُقْرِنِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 46,
+      "surahName": "Al-Ahqaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "قَرِين",
+          "count": 2,
+          "totalInQuran": 8
+        },
+        {
+          "form": "قَرْن",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 4,
+      "ayah": 38,
+      "text": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ الْآخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَٰنُ لَهُۥ قَرِينًا فَسَآءَ قَرِينًا",
+      "highlightedHtml": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ الْآخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَٰنُ لَهُۥ <a class=\"highlight-text\">قَرِينًا</a> فَسَآءَ <a class=\"highlight-text\">قَرِينًا</a>",
+      "derivedForms": [
+        "قَرِين",
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 6,
+      "text": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "highlightedHtml": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن <a class=\"highlight-text\">قَرْنٍ</a> مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ <a class=\"highlight-text\">قَرْنًا</a> آخَرِينَ",
+      "derivedForms": [
+        "قَرْن",
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 13,
+      "text": "وَلَقَدْ أَهْلَكْنَا ٱلْقُرُونَ مِن قَبْلِكُمْ لَمَّا ظَلَمُوا۟ ۙ وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ وَمَا كَانُوا۟ لِيُؤْمِنُوا۟ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ",
+      "highlightedHtml": "وَلَقَدْ أَهْلَكْنَا <a class=\"highlight-text\">ٱلْقُرُونَ</a> مِن قَبْلِكُمْ لَمَّا ظَلَمُوا۟ ۙ وَجَآءَتْهُمْ رُسُلُهُم بِٱلْبَيِّنَٰتِ وَمَا كَانُوا۟ لِيُؤْمِنُوا۟ ۚ كَذَٰلِكَ نَجْزِى ٱلْقَوْمَ ٱلْمُجْرِمِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 116,
+      "text": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "highlightedHtml": "فَلَوْلَا كَانَ مِنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 49,
+      "text": "وَتَرَى ٱلْمُجْرِمِينَ يَوْمَئِذٍ مُّقَرَّنِينَ فِى ٱلْأَصْفَادِ",
+      "highlightedHtml": "وَتَرَى ٱلْمُجْرِمِينَ يَوْمَئِذٍ <a class=\"highlight-text\">مُّقَرَّنِينَ</a> فِى ٱلْأَصْفَادِ",
+      "derivedForms": [
+        "مُقَرَّنِين"
+      ]
+    },
+    {
+      "surah": 17,
+      "ayah": 17,
+      "text": "وَكَمْ أَهْلَكْنَا مِنَ ٱلْقُرُونِ مِنۢ بَعْدِ نُوحٍ ۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۢا بَصِيرًا",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا مِنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> مِنۢ بَعْدِ نُوحٍ ۗ وَكَفَىٰ بِرَبِّكَ بِذُنُوبِ عِبَادِهِۦ خَبِيرًۢا بَصِيرًا",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 83,
+      "text": "وَيَسْـَٔلُونَكَ عَن ذِى ٱلْقَرْنَيْنِ ۖ قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا",
+      "highlightedHtml": "وَيَسْـَٔلُونَكَ عَن ذِى <a class=\"highlight-text\">ٱلْقَرْنَيْنِ</a> ۖ قُلْ سَأَتْلُوا۟ عَلَيْكُم مِّنْهُ ذِكْرًا",
+      "derivedForms": [
+        "قَرْنَين"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 86,
+      "text": "حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا ٱلْقَرْنَيْنِ إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا بَلَغَ مَغْرِبَ ٱلشَّمْسِ وَجَدَهَا تَغْرُبُ فِى عَيْنٍ حَمِئَةٍ وَوَجَدَ عِندَهَا قَوْمًا ۗ قُلْنَا يَٰذَا <a class=\"highlight-text\">ٱلْقَرْنَيْنِ</a> إِمَّآ أَن تُعَذِّبَ وَإِمَّآ أَن تَتَّخِذَ فِيهِمْ حُسْنًا",
+      "derivedForms": [
+        "قَرْنَين"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 94,
+      "text": "قَالُوا۟ يَٰذَا ٱلْقَرْنَيْنِ إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّا",
+      "highlightedHtml": "قَالُوا۟ يَٰذَا <a class=\"highlight-text\">ٱلْقَرْنَيْنِ</a> إِنَّ يَأْجُوجَ وَمَأْجُوجَ مُفْسِدُونَ فِى ٱلْأَرْضِ فَهَلْ نَجْعَلُ لَكَ خَرْجًا عَلَىٰٓ أَن تَجْعَلَ بَيْنَنَا وَبَيْنَهُمْ سَدًّا",
+      "derivedForms": [
+        "قَرْنَين"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 74,
+      "text": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَٰثًا أَثَٰثًا أَثَٰثًا وَرِءْيًا",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن <a class=\"highlight-text\">قَرْنٍ</a> هُمْ أَحْسَنُ أَثَٰثًا أَثَٰثًا أَثَٰثًا وَرِءْيًا",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 19,
+      "ayah": 98,
+      "text": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن <a class=\"highlight-text\">قَرْنٍ</a> هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًۢا",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 51,
+      "text": "قَالَ فَمَا بَالُ ٱلْقُرُونِ ٱلْأُولَىٰ",
+      "highlightedHtml": "قَالَ فَمَا بَالُ <a class=\"highlight-text\">ٱلْقُرُونِ</a> ٱلْأُولَىٰ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 20,
+      "ayah": 128,
+      "text": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "highlightedHtml": "أَفَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> يَمْشُونَ فِى مَسَٰكِنِهِمْ ۗ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ لِّأُو۟لِى ٱلنُّهَىٰ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 31,
+      "text": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "highlightedHtml": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ <a class=\"highlight-text\">قَرْنًا</a> آخَرِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 42,
+      "text": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قُرُونًا آخَرِينَ",
+      "highlightedHtml": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ <a class=\"highlight-text\">قُرُونًا</a> آخَرِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 13,
+      "text": "وَإِذَآ أُلْقُوا۟ مِنْهَا مَكَانًا ضَيِّقًا مُّقَرَّنِينَ دَعَوْا۟ هُنَالِكَ ثُبُورًا",
+      "highlightedHtml": "وَإِذَآ أُلْقُوا۟ مِنْهَا مَكَانًا ضَيِّقًا <a class=\"highlight-text\">مُّقَرَّنِينَ</a> دَعَوْا۟ هُنَالِكَ ثُبُورًا",
+      "derivedForms": [
+        "مُقَرَّنِين"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 38,
+      "text": "وَعَادًا وَثَمُودَا۟ وَأَصْحَٰبَ ٱلرَّسِّ وَقُرُونًۢا بَيْنَ ذَٰلِكَ كَثِيرًا",
+      "highlightedHtml": "وَعَادًا وَثَمُودَا۟ وَأَصْحَٰبَ ٱلرَّسِّ <a class=\"highlight-text\">وَقُرُونًۢا</a> بَيْنَ ذَٰلِكَ كَثِيرًا",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 43,
+      "text": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا ٱلْقُرُونَ ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى وَرَحْمَةً لَّعَلَّهُمْ يَتَذَكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ آتَيْنَا مُوسَى ٱلْكِتَٰبَ مِنۢ بَعْدِ مَآ أَهْلَكْنَا <a class=\"highlight-text\">ٱلْقُرُونَ</a> ٱلْأُولَىٰ بَصَآئِرَ لِلنَّاسِ وَهُدًى وَرَحْمَةً لَّعَلَّهُمْ يَتَذَكَّرُونَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 45,
+      "text": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "highlightedHtml": "وَلَٰكِنَّآ أَنشَأْنَا <a class=\"highlight-text\">قُرُونًا</a> فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 78,
+      "text": "قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ أَهْلَكَ مِن قَبْلِهِۦ مِنَ ٱلْقُرُونِ مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةً قُوَّةً وَأَكْثَرُ جَمْعًا ۚ وَلَا يُسْـَٔلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ",
+      "highlightedHtml": "قَالَ إِنَّمَآ أُوتِيتُهُۥ عَلَىٰ عِلْمٍ عِندِىٓ ۚ أَوَلَمْ يَعْلَمْ أَنَّ ٱللَّهَ قَدْ أَهْلَكَ أَهْلَكَ مِن قَبْلِهِۦ مِنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> مَنْ هُوَ أَشَدُّ مِنْهُ قُوَّةً قُوَّةً وَأَكْثَرُ جَمْعًا ۚ وَلَا يُسْـَٔلُ عَن ذُنُوبِهِمُ ٱلْمُجْرِمُونَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 32,
+      "ayah": 26,
+      "text": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ ٱلْقُرُونِ يَمْشُونَ فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ ۖ أَفَلَا يَسْمَعُونَ",
+      "highlightedHtml": "أَوَلَمْ يَهْدِ لَهُمْ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> يَمْشُونَ فِى مَسَٰكِنِهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَءَايَٰتٍ ۖ أَفَلَا يَسْمَعُونَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 31,
+      "text": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ ٱلْقُرُونِ أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
+      "highlightedHtml": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا قَبْلَهُم مِّنَ <a class=\"highlight-text\">ٱلْقُرُونِ</a> أَنَّهُمْ إِلَيْهِمْ لَا يَرْجِعُونَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 51,
+      "text": "قَالَ قَآئِلٌ مِّنْهُمْ إِنِّى كَانَ لِى قَرِينٌ",
+      "highlightedHtml": "قَالَ قَآئِلٌ مِّنْهُمْ إِنِّى كَانَ لِى <a class=\"highlight-text\">قَرِينٌ</a>",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 3,
+      "text": "كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ فَنَادَوا۟ وَّلَاتَ حِينَ مَنَاصٍ",
+      "highlightedHtml": "كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن <a class=\"highlight-text\">قَرْنٍ</a> فَنَادَوا۟ وَّلَاتَ حِينَ مَنَاصٍ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 38,
+      "ayah": 38,
+      "text": "وَآخَرِينَ مُقَرَّنِينَ فِى ٱلْأَصْفَادِ",
+      "highlightedHtml": "وَآخَرِينَ <a class=\"highlight-text\">مُقَرَّنِينَ</a> فِى ٱلْأَصْفَادِ",
+      "derivedForms": [
+        "مُقَرَّنِين"
+      ]
+    },
+    {
+      "surah": 41,
+      "ayah": 25,
+      "text": "وَقَيَّضْنَا لَهُمْ قُرَنَآءَ فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "highlightedHtml": "وَقَيَّضْنَا لَهُمْ <a class=\"highlight-text\">قُرَنَآءَ</a> فَزَيَّنُوا۟ لَهُم مَّا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَحَقَّ عَلَيْهِمُ ٱلْقَوْلُ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِهِم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ ۖ إِنَّهُمْ كَانُوا۟ خَٰسِرِينَ",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 13,
+      "text": "لِتَسْتَوُۥا۟ لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ ٱسْتَوَيْتُمْ عَلَيْهِ وَتَقُولُوا۟ سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ مُقْرِنِينَ",
+      "highlightedHtml": "لِتَسْتَوُۥا۟ لِتَسْتَوُۥا۟ عَلَىٰ ظُهُورِهِۦ ثُمَّ تَذْكُرُوا۟ نِعْمَةَ رَبِّكُمْ إِذَا ٱسْتَوَيْتُمْ ٱسْتَوَيْتُمْ عَلَيْهِ وَتَقُولُوا۟ سُبْحَٰنَ ٱلَّذِى سَخَّرَ لَنَا هَٰذَا وَمَا كُنَّا لَهُۥ <a class=\"highlight-text\">مُقْرِنِينَ</a>",
+      "derivedForms": [
+        "مُقْرِنِين"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 36,
+      "text": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ قَرِينٌ",
+      "highlightedHtml": "وَمَن يَعْشُ عَن ذِكْرِ ٱلرَّحْمَٰنِ نُقَيِّضْ لَهُۥ شَيْطَٰنًا فَهُوَ لَهُۥ <a class=\"highlight-text\">قَرِينٌ</a>",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 38,
+      "text": "حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ ٱلْقَرِينُ",
+      "highlightedHtml": "حَتَّىٰٓ إِذَا جَآءَنَا قَالَ يَٰلَيْتَ بَيْنِى وَبَيْنَكَ بُعْدَ ٱلْمَشْرِقَيْنِ فَبِئْسَ <a class=\"highlight-text\">ٱلْقَرِينُ</a>",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 53,
+      "text": "فَلَوْلَآ أُلْقِىَ عَلَيْهِ أَسْوِرَةٌ مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَٰٓئِكَةُ مُقْتَرِنِينَ",
+      "highlightedHtml": "فَلَوْلَآ أُلْقِىَ عَلَيْهِ أَسْوِرَةٌ مِّن ذَهَبٍ أَوْ جَآءَ مَعَهُ ٱلْمَلَٰٓئِكَةُ <a class=\"highlight-text\">مُقْتَرِنِينَ</a>",
+      "derivedForms": [
+        "مُقْتَرِنِين"
+      ]
+    },
+    {
+      "surah": 46,
+      "ayah": 17,
+      "text": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ ٱلْقُرُونُ مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "highlightedHtml": "وَٱلَّذِى قَالَ لِوَٰلِدَيْهِ أُفٍّ لَّكُمَآ أَتَعِدَانِنِىٓ أَنْ أُخْرَجَ وَقَدْ خَلَتِ <a class=\"highlight-text\">ٱلْقُرُونُ</a> مِن قَبْلِى وَهُمَا يَسْتَغِيثَانِ ٱللَّهَ وَيْلَكَ آمِنْ إِنَّ وَعْدَ ٱللَّهِ حَقٌّ فَيَقُولُ مَا هَٰذَآ إِلَّآ أَسَٰطِيرُ ٱلْأَوَّلِينَ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 23,
+      "text": "وَقَالَ قَرِينُهُۥ هَٰذَا مَا لَدَىَّ عَتِيدٌ",
+      "highlightedHtml": "وَقَالَ <a class=\"highlight-text\">قَرِينُهُۥ</a> هَٰذَا مَا لَدَىَّ عَتِيدٌ",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 27,
+      "text": "قَالَ قَرِينُهُۥ رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍ",
+      "highlightedHtml": "قَالَ <a class=\"highlight-text\">قَرِينُهُۥ</a> رَبَّنَا مَآ أَطْغَيْتُهُۥ وَلَٰكِن كَانَ فِى ضَلَٰلٍۭ بَعِيدٍ",
+      "derivedForms": [
+        "قَرِين"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 36,
+      "text": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ",
+      "highlightedHtml": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن <a class=\"highlight-text\">قَرْنٍ</a> هُمْ أَشَدُّ مِنْهُم بَطْشًا فَنَقَّبُوا۟ فِى ٱلْبِلَٰدِ هَلْ مِن مَّحِيصٍ",
+      "derivedForms": [
+        "قَرْن"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:53:50.760Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine indefinite noun",
+    "derivativeNote": "قَرِينًا is in the derivative form: قَرِين",
+    "rootDefinitionHtml": "ق/ر/ن   q–r–n horns, feelers<br>; pods; summit of a mountain; first rays of the rising sun; generation, number of years; blade; prisoner of war, shackles; to join together, peer, companion, equal, wife, to wed; circumstance. <br><br>Of this root, 8 forms occur 40 times in the Qur’an:<br> قَرْن qarn 7 times; قَرْنَين qarnayn 3 times; قُرُون qurūn 13 times; قَرِين qarın 7 times; قُرَناء quranāʾ 1 time; مُقَرَّنِين muqarranın 3 times; مُقْرِنِين muqrinın 1 time; مُقْتَرِنِين muqtarinın 1 time and قَارُون qārūn 4 times.",
+    "mainDefinitionHtml": "قَرِين qarın [quasi-act. part.; pl. قُرَناء quranāʾ] close companion <br><br>(41:25) وَقَيَّضْنَا لَهُمْ قُرَنَاءَ فَزَيَّنُوا لَهُمْ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ We have appointed for them companions, and they made their present and their past [seem] fair to them.",
+    "mainEntryId": "wdef-ق-ر-ن.قَرِين",
+    "entries": [
+      {
+        "id": "wdef-ق-ر-ن",
+        "label": "ق-ر-ن",
+        "definitionHtml": "ق/ر/ن   q–r–n horns, feelers<br>; pods; summit of a mountain; first rays of the rising sun; generation, number of years; blade; prisoner of war, shackles; to join together, peer, companion, equal, wife, to wed; circumstance. <br><br>Of this root, 8 forms occur 40 times in the Qur’an:<br> قَرْن qarn 7 times; قَرْنَين qarnayn 3 times; قُرُون qurūn 13 times; قَرِين qarın 7 times; قُرَناء quranāʾ 1 time; مُقَرَّنِين muqarranın 3 times; مُقْرِنِين muqrinın 1 time; مُقْتَرِنِين muqtarinın 1 time and قَارُون qārūn 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.قَرِين",
+        "label": "قَرِين",
+        "definitionHtml": "قَرِين qarın [quasi-act. part.; pl. قُرَناء quranāʾ] close companion <br><br>(41:25) وَقَيَّضْنَا لَهُمْ قُرَنَاءَ فَزَيَّنُوا لَهُمْ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ We have appointed for them companions, and they made their present and their past [seem] fair to them.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ر-ن.قَارُون",
+        "label": "قَارُون",
+        "definitionHtml": "قَارُون qārūn (see alphabetically).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.قَرْن",
+        "label": "قَرْن",
+        "definitionHtml": "قَرْن qarn [n.; pl. قُرُون qurūn] a generation (variously said to cover 10, 20, 30, 60, <br><br><strong>70 </strong>or <br><br><strong>80 </strong>years) <br><br>(6:6) أَلَمْ يَرَوْا كَمْ أَهْلَكْنَا مِنْ قَبْلِهِمْ مِنْ قَرْنٍ do they not realise how many a generation before them We destroyed?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.قَرْنَين",
+        "label": "قَرْنَين",
+        "definitionHtml": "قَرْنَين qarnayn [dual. n.] two horns *<br><br>(18:83) ذِي الْقَرْنَيْنِ the one with the two horns; said by some to be an epithet of Alexander the Great since, in a Syrian legend, Alexander says to God, ‘I know that thou hast caused horns to grow upon my head’, a theory which is rejected by orthodox scholars. The Qur’an merely refers to him as a man ‘established in the land’ and given ‘the means to achieve everything’.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.مُقَرَّنِين",
+        "label": "مُقَرَّنِين",
+        "definitionHtml": "مُقَرَّنِين muqarranın [pl. of pass. part. مُقَرَّن muqarran] shackled, bound together <br><br>(14:49) وَتَرَى الْمُجْرِمِينَ يَوْمَئِذٍ مُقَرَّنِينَ فِى الأَصْفَادِ you will see the sinners on that Day, bound in fetters.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.مُقْتَرِنِين",
+        "label": "مُقْتَرِنِين",
+        "definitionHtml": "مُقْتَرِنِين muqtarinın [pl. of act. part. مُقْتَرِن muqtarin] joined together <br><br>(43:53) فَلَوْلاَ أُلْقِيَ عَلَيْهِ أَسْوِرَةٌ مِنْ ذَهَبٍ أَوْ جَاءَ مَعَهُ الْمَلاَئِكَةُ مُقْتَرِنِينَ if only bracelets of gold had been cast upon him, or angels had come in company with him?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ر-ن.مُقْرِنِين",
+        "label": "مُقْرِنِين",
+        "definitionHtml": "مُقْرِنِين muqrinın [pl. of act. part. مُقْرِن muqrin] those who shackle, subdue, subordinate, or control <br><br>(43:13) سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ glory be to Him who has subjugated this to us; we could not have controlled it [by ourselves]. ‏",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:15.314Z",
+      "refword": "4:38:16",
+      "lexword": "قَرِينًا"
+    }
+  }
+}

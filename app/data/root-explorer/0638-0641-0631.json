@@ -1,0 +1,106 @@
+{
+  "root": "ظفر",
+  "rootArabic": "ظفر",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "أظْفَرَ",
+      "count": 1
+    },
+    {
+      "form": "ظُفْر",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ظُفْر",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 48,
+      "surahName": "Al-Fath",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أظْفَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 146,
+      "text": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "highlightedHtml": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى <a class=\"highlight-text\">ظُفُرٍ</a> ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَٰدِقُونَ",
+      "derivedForms": [
+        "ظُفْر"
+      ]
+    },
+    {
+      "surah": 48,
+      "ayah": 24,
+      "text": "وَهُوَ ٱلَّذِى كَفَّ أَيْدِيَهُمْ عَنكُمْ وَأَيْدِيَكُمْ عَنْهُم بِبَطْنِ مَكَّةَ مِنۢ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
+      "highlightedHtml": "وَهُوَ ٱلَّذِى كَفَّ أَيْدِيَهُمْ عَنكُمْ وَأَيْدِيَكُمْ عَنْهُم بِبَطْنِ مَكَّةَ مِنۢ بَعْدِ أَنْ <a class=\"highlight-text\">أَظْفَرَكُمْ</a> عَلَيْهِمْ ۚ وَكَانَ ٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرًا",
+      "derivedForms": [
+        "أظْفَرَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:10.174Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine indefinite noun",
+    "derivativeNote": "ظُفُرٍ is in the derivative form: ظُفْر",
+    "rootDefinitionHtml": "ظ/ف/ر   ẓ–f–r fingernails, toenails, claws, talons; to capture; victory, triumph, to succeed, to win. <br><br>Of this root, 2 forms occur 1 time in the Qur’an:<br> أظْفَرَ ʾaẓfara and ظُفْر ẓufr.",
+    "mainDefinitionHtml": "ظُفْر ẓufr [n., coll. n.] fingernail, toenail, claw, talon <br><br>(6:146) وَعَلَى الَّذِينَ هَادُواْ حَرَّمْنَا كُلَّ ذِي ظُفُرٍ and to those who followed the Jewish faith We forbade all [animals] that have claws.",
+    "mainEntryId": "wdef-ظ-ف-ر.ظُفْر",
+    "entries": [
+      {
+        "id": "wdef-ظ-ف-ر",
+        "label": "ظ-ف-ر",
+        "definitionHtml": "ظ/ف/ر   ẓ–f–r fingernails, toenails, claws, talons; to capture; victory, triumph, to succeed, to win. <br><br>Of this root, 2 forms occur 1 time in the Qur’an:<br> أظْفَرَ ʾaẓfara and ظُفْر ẓufr.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ظ-ف-ر.ظُفْر",
+        "label": "ظُفْر",
+        "definitionHtml": "ظُفْر ẓufr [n., coll. n.] fingernail, toenail, claw, talon <br><br>(6:146) وَعَلَى الَّذِينَ هَادُواْ حَرَّمْنَا كُلَّ ذِي ظُفُرٍ and to those who followed the Jewish faith We forbade all [animals] that have claws.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ظ-ف-ر.أظْفَرَ",
+        "label": "أظْفَرَ",
+        "definitionHtml": "أظْفَرَ ʾaẓfara [v. IV, trans.] to cause to be victorious <br><br>(48:24) مِنْ بَعْدِ أَنْ أَظْفَرَكُمْ عَلَيْهِمْ after He had made you victors over them.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:46:11.518Z",
+      "refword": "6:146:7",
+      "lexword": "ظُفُرٍ"
+    }
+  }
+}

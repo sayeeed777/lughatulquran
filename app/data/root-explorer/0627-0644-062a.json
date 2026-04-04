@@ -1,0 +1,74 @@
+{
+  "root": "الت",
+  "rootArabic": "الت",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَلَتَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 52,
+      "surahName": "At-Tur",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَلَتَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 52,
+      "ayah": 21,
+      "text": "وَٱلَّذِينَ آمَنُوا وَٱتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَٰنٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَآ أَلَتْنَٰهُم مِّنْ عَمَلِهِم مِّن شَىْءٍ ۚ كُلُّ ٱمْرِئٍۭ بِمَا كَسَبَ رَهِينٌ رَهِينٌ",
+      "highlightedHtml": "وَٱلَّذِينَ آمَنُوا وَٱتَّبَعَتْهُمْ ذُرِّيَّتُهُم بِإِيمَٰنٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَآ <a class=\"highlight-text\">أَلَتْنَٰهُم</a> مِّنْ عَمَلِهِم مِّن شَىْءٍ ۚ كُلُّ ٱمْرِئٍۭ بِمَا كَسَبَ رَهِينٌ رَهِينٌ",
+      "derivedForms": [
+        "أَلَتَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:38:40.373Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural perfect verb",
+    "derivativeNote": "أَلَتْنَٰهُم is in the derivative form: أَلَتَ",
+    "rootDefinitionHtml": "أ/ل/ت ʾ–l–t oath; decrease, to decrease, to reduce; to prevent, to deny. Of this root, أَلَتْنَا ʾalatnā occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "أَلَتَ ʾalata i [v. trans.] to reduce, to suffer someone, to deny, to receive less than their dues <br><br>(52:21) وَالَّذِينَ ءَامَنُوا وَاتَّبَعَتْهُمْ ذُرِّيَّتُهُمْ بِإِيمَانٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَا أَلَتْنَاهُمْ مِنْ عَمَلِهِمْ مِنْ شَيْءٍ and those who believe and whose descendants follow them in the faith, We cause their descendants to join them, and We do not deny them any of [the reward for] their deeds.",
+    "mainEntryId": "wdef-أ-ل-ت.أَلَتَ",
+    "entries": [
+      {
+        "id": "wdef-أ-ل-ت",
+        "label": "أ-ل-ت",
+        "definitionHtml": "أ/ل/ت ʾ–l–t oath; decrease, to decrease, to reduce; to prevent, to deny. Of this root, أَلَتْنَا ʾalatnā occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-أ-ل-ت.أَلَتَ",
+        "label": "أَلَتَ",
+        "definitionHtml": "أَلَتَ ʾalata i [v. trans.] to reduce, to suffer someone, to deny, to receive less than their dues <br><br>(52:21) وَالَّذِينَ ءَامَنُوا وَاتَّبَعَتْهُمْ ذُرِّيَّتُهُمْ بِإِيمَانٍ أَلْحَقْنَا بِهِمْ ذُرِّيَّتَهُمْ وَمَا أَلَتْنَاهُمْ مِنْ عَمَلِهِمْ مِنْ شَيْءٍ and those who believe and whose descendants follow them in the faith, We cause their descendants to join them, and We do not deny them any of [the reward for] their deeds.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:24:28.832Z",
+      "refword": "52:21:10",
+      "lexword": "أَلَتْنَٰهُم"
+    }
+  }
+}

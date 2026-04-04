@@ -1,0 +1,334 @@
+{
+  "root": "عسر",
+  "rootArabic": "عسر",
+  "stats": {
+    "totalOccurrences": 12,
+    "derivativeCount": 6,
+    "surahCount": 9,
+    "ayahCount": 12
+  },
+  "derivatives": [
+    {
+      "form": "عُسْرٌ",
+      "count": 5
+    },
+    {
+      "form": "عُسْرَةٌ",
+      "count": 2
+    },
+    {
+      "form": "عَسِيرٌ",
+      "count": 2
+    },
+    {
+      "form": "تَعَاسَرَ",
+      "count": 1
+    },
+    {
+      "form": "عَسِرٌ",
+      "count": 1
+    },
+    {
+      "form": "عُسْرَى",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عُسْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        },
+        {
+          "form": "عُسْرَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 9,
+      "surahName": "At-Tauba",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُسْرَةٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 18,
+      "surahName": "Al-Kahf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُسْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 25,
+      "surahName": "Al-Furqan",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَسِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 54,
+      "surahName": "Al-Qamar",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَسِرٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 65,
+      "surahName": "At-Talaq",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "تَعَاسَرَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "عُسْرٌ",
+          "count": 1,
+          "totalInQuran": 5
+        }
+      ]
+    },
+    {
+      "surah": 74,
+      "surahName": "Al-Muddaththir",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عَسِيرٌ",
+          "count": 1,
+          "totalInQuran": 2
+        }
+      ]
+    },
+    {
+      "surah": 92,
+      "surahName": "Al-Lail",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "عُسْرَى",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 94,
+      "surahName": "Al-Inshirah",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "عُسْرٌ",
+          "count": 2,
+          "totalInQuran": 5
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 185,
+      "text": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "highlightedHtml": "شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًى لِّلنَّاسِ وَبَيِّنَٰتٍ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ <a class=\"highlight-text\">ٱلْعُسْرَ</a> وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ",
+      "derivedForms": [
+        "عُسْرٌ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 280,
+      "text": "وَإِن كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+      "highlightedHtml": "وَإِن كَانَ ذُو <a class=\"highlight-text\">عُسْرَةٍ</a> فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+      "derivedForms": [
+        "عُسْرَةٌ"
+      ]
+    },
+    {
+      "surah": 9,
+      "ayah": 117,
+      "text": "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ ٱلْعُسْرَةِ مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+      "highlightedHtml": "لَّقَد تَّابَ ٱللَّهُ عَلَى ٱلنَّبِىِّ وَٱلْمُهَٰجِرِينَ وَٱلْأَنصَارِ ٱلَّذِينَ ٱتَّبَعُوهُ فِى سَاعَةِ <a class=\"highlight-text\">ٱلْعُسْرَةِ</a> مِنۢ بَعْدِ مَا كَادَ يَزِيغُ قُلُوبُ فَرِيقٍ مِّنْهُمْ ثُمَّ تَابَ عَلَيْهِمْ ۚ إِنَّهُۥ بِهِمْ رَءُوفٌ رَّحِيمٌ",
+      "derivedForms": [
+        "عُسْرَةٌ"
+      ]
+    },
+    {
+      "surah": 18,
+      "ayah": 73,
+      "text": "قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى عُسْرًا",
+      "highlightedHtml": "قَالَ لَا تُؤَاخِذْنِى بِمَا نَسِيتُ وَلَا تُرْهِقْنِى مِنْ أَمْرِى <a class=\"highlight-text\">عُسْرًا</a>",
+      "derivedForms": [
+        "عُسْرٌ"
+      ]
+    },
+    {
+      "surah": 25,
+      "ayah": 26,
+      "text": "ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ عَسِيرًا",
+      "highlightedHtml": "ٱلْمُلْكُ يَوْمَئِذٍ ٱلْحَقُّ لِلرَّحْمَٰنِ ۚ وَكَانَ يَوْمًا عَلَى ٱلْكَٰفِرِينَ <a class=\"highlight-text\">عَسِيرًا</a>",
+      "derivedForms": [
+        "عَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 54,
+      "ayah": 8,
+      "text": "مُّهْطِعِينَ إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَٰفِرُونَ هَٰذَا يَوْمٌ عَسِرٌ",
+      "highlightedHtml": "مُّهْطِعِينَ إِلَى ٱلدَّاعِ ۖ يَقُولُ ٱلْكَٰفِرُونَ هَٰذَا يَوْمٌ <a class=\"highlight-text\">عَسِرٌ</a>",
+      "derivedForms": [
+        "عَسِرٌ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 6,
+      "text": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَى",
+      "highlightedHtml": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن <a class=\"highlight-text\">تَعَاسَرْتُمْ</a> فَسَتُرْضِعُ لَهُۥٓ أُخْرَى",
+      "derivedForms": [
+        "تَعَاسَرَ"
+      ]
+    },
+    {
+      "surah": 65,
+      "ayah": 7,
+      "text": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ آتَاهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ آتَاهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+      "highlightedHtml": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ آتَاهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ آتَاهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ <a class=\"highlight-text\">عُسْرٍ</a> يُسْرًا",
+      "derivedForms": [
+        "عُسْرٌ"
+      ]
+    },
+    {
+      "surah": 74,
+      "ayah": 9,
+      "text": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ عَسِيرٌ",
+      "highlightedHtml": "فَذَٰلِكَ يَوْمَئِذٍ يَوْمٌ <a class=\"highlight-text\">عَسِيرٌ</a>",
+      "derivedForms": [
+        "عَسِيرٌ"
+      ]
+    },
+    {
+      "surah": 92,
+      "ayah": 10,
+      "text": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+      "highlightedHtml": "فَسَنُيَسِّرُهُۥ <a class=\"highlight-text\">لِلْعُسْرَىٰ</a>",
+      "derivedForms": [
+        "عُسْرَى"
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 5,
+      "text": "فَإِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "highlightedHtml": "فَإِنَّ مَعَ <a class=\"highlight-text\">ٱلْعُسْرِ</a> يُسْرًا",
+      "derivedForms": [
+        "عُسْرٌ"
+      ]
+    },
+    {
+      "surah": 94,
+      "ayah": 6,
+      "text": "إِنَّ مَعَ ٱلْعُسْرِ يُسْرًا",
+      "highlightedHtml": "إِنَّ مَعَ <a class=\"highlight-text\">ٱلْعُسْرِ</a> يُسْرًا",
+      "derivedForms": [
+        "عُسْرٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:50:54.799Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "accusative masculine noun",
+    "derivativeNote": "ٱلْعُسْرَ is in the derivative form: عُسْرٌ",
+    "rootDefinitionHtml": "ع/س/ر   ʿ–s–r left‐handedness, pecuniary hardship, to be difficult, to disagree, to dispute<br>; to be stuck; to be untamed. <br><br>Of this root, 6 forms occur 12 times in the Qur’an:<br> تَعَاسَرَ taʿāsara 1 time; عَسِر ʿasir 1 time; عُسْرٌ ʿusr 5 times; عُسْرَةٌ ʿusratun 2 times; عُسْرَى ʿusrā 1 time; and عَسِيرٌ ʿasır 2 times.",
+    "mainDefinitionHtml": "عُسْرٌ ʿusr [v. n./n.] hardship, difficulty <br><br>(94:6) إِنَّ‏ ‏مَعَ‏ ‏الْعُسْرِ‏ ‏يُسْرًا‏ with difficulty shall be ease.",
+    "mainEntryId": "wdef-ع-س-ر.عُسْرٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-س-ر",
+        "label": "ع-س-ر",
+        "definitionHtml": "ع/س/ر   ʿ–s–r left‐handedness, pecuniary hardship, to be difficult, to disagree, to dispute<br>; to be stuck; to be untamed. <br><br>Of this root, 6 forms occur 12 times in the Qur’an:<br> تَعَاسَرَ taʿāsara 1 time; عَسِر ʿasir 1 time; عُسْرٌ ʿusr 5 times; عُسْرَةٌ ʿusratun 2 times; عُسْرَى ʿusrā 1 time; and عَسِيرٌ ʿasır 2 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-س-ر.عُسْرٌ",
+        "label": "عُسْرٌ",
+        "definitionHtml": "عُسْرٌ ʿusr [v. n./n.] hardship, difficulty <br><br>(94:6) إِنَّ‏ ‏مَعَ‏ ‏الْعُسْرِ‏ ‏يُسْرًا‏ with difficulty shall be ease.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-س-ر.عُسْرَى",
+        "label": "عُسْرَى",
+        "definitionHtml": "عُسْرَى ʿusrā [n.] adversity, hardship, wretchedness; stinginess <br><br>(92:10) فَسَنُيَسِّرُهُ‏ ‏لِلْعُسْرَى We will smooth his way towards hardship (or, We shall make him more easily inclined towards meanness, We shall make it much easier for him to be stingy).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-س-ر.عُسْرَةٌ",
+        "label": "عُسْرَةٌ",
+        "definitionHtml": "عُسْرَةٌ ʿusratun [n.] <br><br><strong>1 </strong>difficulty, hardship, adversity <br><br>(9:117) الَّذِينَ اتَّبَعُوهُ فِى سَاعَةِ الْعُسْرَةِ those who followed him in the hour of adversity <br><br><strong>2 </strong>financial *<br><br>(2:280) ذُو‏ ‏عُسْرَةٍ someone in strained financial circumstances, short of money.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-س-ر.تَعَاسَرَ",
+        "label": "تَعَاسَرَ",
+        "definitionHtml": "تَعَاسَرَ taʿāsara [v. VI intrans.] to be too difficult for one another, to block each other’s way, to make it difficult for each other to come to an agreement <br><br>(65:6) ‏ ‏وَإِنْ‏ ‏تَعَاسَرْتُمْ‏ ‏فَسَتُرْضِعُ‏ ‏لَهُ‏ ‏أُخْرَى if you become too difficult with one another [and you do not come to an agreement] then another woman may suckle [the child] for him [the father].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-س-ر.عَسِرٌ",
+        "label": "عَسِرٌ",
+        "definitionHtml": "عَسِرٌ ʿasir [quasi‐act. part.] hard, difficult, distressing, trying <br><br>(54:8) ‏هَذَا‏ ‏يَوْمٌ‏ ‏عَسِرٌ‏ this is a hard day.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-س-ر.عَسِيرٌ",
+        "label": "عَسِيرٌ",
+        "definitionHtml": "عَسِيرٌ ʿasır [quasi‐act. part.] hard, grim, grievous <br><br>(25:26)‏وَكَانَ‏ ‏يَوْمًا‏ ‏عَلَى‏ ‏الْكَافِرِينَ‏ ‏عَسِيرًا‏ it will be a grievous day for the disbelievers.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:47:33.495Z",
+      "refword": "2:185:35",
+      "lexword": "ٱلْعُسْرَ"
+    }
+  }
+}

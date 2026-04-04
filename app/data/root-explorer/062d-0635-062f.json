@@ -1,0 +1,201 @@
+{
+  "root": "حصد",
+  "rootArabic": "حصد",
+  "stats": {
+    "totalOccurrences": 6,
+    "derivativeCount": 3,
+    "surahCount": 6,
+    "ayahCount": 6
+  },
+  "derivatives": [
+    {
+      "form": "حَصِيدٌ",
+      "count": 4
+    },
+    {
+      "form": "حَصَادٌ",
+      "count": 1
+    },
+    {
+      "form": "حَصَدَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصَادٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 10,
+      "surahName": "Yunus",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصِيدٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصِيدٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 12,
+      "surahName": "Yusuf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصَدَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصِيدٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 50,
+      "surahName": "Qaf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "حَصِيدٌ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 141,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ <a class=\"highlight-text\">حَصَادِهِۦ</a> ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "derivedForms": [
+        "حَصَادٌ"
+      ]
+    },
+    {
+      "surah": 10,
+      "ayah": 24,
+      "text": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا حَصِيدًا كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "highlightedHtml": "إِنَّمَا مَثَلُ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَآءٍ أَنزَلْنَٰهُ مِنَ ٱلسَّمَآءِ فَٱخْتَلَطَ بِهِۦ نَبَاتُ ٱلْأَرْضِ مِمَّا يَأْكُلُ ٱلنَّاسُ وَٱلْأَنْعَٰمُ حَتَّىٰٓ إِذَآ أَخَذَتِ ٱلْأَرْضُ زُخْرُفَهَا وَٱزَّيَّنَتْ وَظَنَّ أَهْلُهَآ أَنَّهُمْ قَٰدِرُونَ عَلَيْهَآ أَتَىٰهَآ أَمْرُنَا لَيْلًا أَوْ نَهَارًا فَجَعَلْنَٰهَا <a class=\"highlight-text\">حَصِيدًا</a> كَأَن لَّمْ تَغْنَ بِٱلْأَمْسِ ۚ كَذَٰلِكَ نُفَصِّلُ ٱلْءَايَٰتِ لِقَوْمٍ يَتَفَكَّرُونَ",
+      "derivedForms": [
+        "حَصِيدٌ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 100,
+      "text": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ وَحَصِيدٌ",
+      "highlightedHtml": "ذَٰلِكَ مِنْ أَنۢبَآءِ ٱلْقُرَىٰ نَقُصُّهُۥ عَلَيْكَ ۖ مِنْهَا قَآئِمٌ <a class=\"highlight-text\">وَحَصِيدٌ</a>",
+      "derivedForms": [
+        "حَصِيدٌ"
+      ]
+    },
+    {
+      "surah": 12,
+      "ayah": 47,
+      "text": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا حَصَدتُّمْ فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "highlightedHtml": "قَالَ تَزْرَعُونَ سَبْعَ سِنِينَ دَأَبًا فَمَا <a class=\"highlight-text\">حَصَدتُّمْ</a> فَذَرُوهُ فِى سُنۢبُلِهِۦٓ إِلَّا قَلِيلًا مِّمَّا تَأْكُلُونَ",
+      "derivedForms": [
+        "حَصَدَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 15,
+      "text": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ حَصِيدًا خَٰمِدِينَ",
+      "highlightedHtml": "فَمَا زَالَت تِّلْكَ دَعْوَىٰهُمْ حَتَّىٰ جَعَلْنَٰهُمْ <a class=\"highlight-text\">حَصِيدًا</a> خَٰمِدِينَ",
+      "derivedForms": [
+        "حَصِيدٌ"
+      ]
+    },
+    {
+      "surah": 50,
+      "ayah": 9,
+      "text": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَٰرَكًا فَأَنۢبَتْنَا بِهِۦ جَنَّٰتٍ وَحَبَّ ٱلْحَصِيدِ",
+      "highlightedHtml": "وَنَزَّلْنَا مِنَ ٱلسَّمَآءِ مَآءً مُّبَٰرَكًا فَأَنۢبَتْنَا بِهِۦ جَنَّٰتٍ وَحَبَّ <a class=\"highlight-text\">ٱلْحَصِيدِ</a>",
+      "derivedForms": [
+        "حَصِيدٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:42:16.695Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine noun",
+    "derivativeNote": "حَصَادِهِۦ is in the derivative form: حَصَادٌ",
+    "rootDefinitionHtml": "ح/ص/د   ḥ–ṣ–d to reap, to harvest, yield<br>; to twist a rope tightly, to do something with exactitude; to become angry. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> حَصَدَ ḥaṣada 1 time; حَصَادٌ ḥaṣād 1 time and حَصِيدٌ ḥaṣıd 4 times.",
+    "mainDefinitionHtml": "حَصَادٌ ḥaṣād [v. n.] the act of reaping, harvesting <br><br>(6:141) كُلُوا مِنْ ثَمَرِهِ إِذَا أَثْمَرَ وَءَاتُوا حَقَّهُ يَوْمَ حَصَادِهِ so eat of their fruit, when they bear fruit, but pay its dues [the Poor’s share] on the day of harvesting it.",
+    "mainEntryId": "wdef-ح-ص-د.حَصَادٌ",
+    "entries": [
+      {
+        "id": "wdef-ح-ص-د",
+        "label": "ح-ص-د",
+        "definitionHtml": "ح/ص/د   ḥ–ṣ–d to reap, to harvest, yield<br>; to twist a rope tightly, to do something with exactitude; to become angry. <br><br>Of this root, 3 forms occur 6 times in the Qur’an:<br> حَصَدَ ḥaṣada 1 time; حَصَادٌ ḥaṣād 1 time and حَصِيدٌ ḥaṣıd 4 times.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-د.حَصَادٌ",
+        "label": "حَصَادٌ",
+        "definitionHtml": "حَصَادٌ ḥaṣād [v. n.] the act of reaping, harvesting <br><br>(6:141) كُلُوا مِنْ ثَمَرِهِ إِذَا أَثْمَرَ وَءَاتُوا حَقَّهُ يَوْمَ حَصَادِهِ so eat of their fruit, when they bear fruit, but pay its dues [the Poor’s share] on the day of harvesting it.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ح-ص-د.حَصَدَ",
+        "label": "حَصَدَ",
+        "definitionHtml": "حَصَدَ ḥaṣada u [v. trans.] to reap, to harvest <br><br>(12:47) فَمَا حَصَدْتُمْ فَذَرُوهُ فِى سُنْبُلِهِ إِلاَّ قَلِيلًا مِمَّا تَأْكُلُونَ whatever [grain] you reap leave in its ears apart from the little you eat.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ح-ص-د.حَصِيدٌ",
+        "label": "حَصِيدٌ",
+        "definitionHtml": "حَصِيدٌ ḥaṣıd [quasi‐pass. part./n.] <br><br><strong>1 </strong>harvest <br><br>(50:9) وَانَزَّلْنَا مِنَ السَّمَاءِ مَاءً مُبَارَكًا فَأَنْبَتْنَا بِهِ جَنَّاتٍ وَحَبَّ الْحَصِيدِ We send down from the sky blessed water, and with it grow gardens and grain of harvested crops <br><br><strong>2 </strong>cut down, mown down, destroyed, levelled <br><br>(11:100) ذَلِكَ مِنْ أَنْبَاءِ الْقُرَى نَقُصُّهُ عَلَيْكَ مِنْهَا قَائِمٌ وَحَصِيدٌ We relate to you [Muḥammad] such accounts of earlier towns: some of them are still standing; some have been mown down.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:30:59.238Z",
+      "refword": "6:141:25",
+      "lexword": "حَصَادِهِۦ"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "root": "هيم",
+  "rootArabic": "هيم",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "هِيمٌ",
+      "count": 1
+    },
+    {
+      "form": "يَهِيمُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَهِيمُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "هِيمٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 225,
+      "text": "أَلَمْ تَرَ أَنَّهُمْ فِى كُلِّ وَادٍ يَهِيمُونَ",
+      "highlightedHtml": "أَلَمْ تَرَ أَنَّهُمْ فِى كُلِّ وَادٍ <a class=\"highlight-text\">يَهِيمُونَ</a>",
+      "derivedForms": [
+        "يَهِيمُ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 55,
+      "text": "فَشَٰرِبُونَ شُرْبَ ٱلْهِيمِ",
+      "highlightedHtml": "فَشَٰرِبُونَ شُرْبَ <a class=\"highlight-text\">ٱلْهِيمِ</a>",
+      "derivedForms": [
+        "هِيمٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:58:52.138Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَهِيمُونَ is in the derivative form: يَهِيمُ",
+    "rootDefinitionHtml": "هـ/ي/م   h–y–m to wander about aimlessly, to be confused, to be bewildered, to be puzzled, to be robbed of the senses; to be infatuated, to be enchanted, to be carried away; to be demented by thirst, a waterless desert. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يَهِيمُ yahım and هِيمٌ hım.",
+    "mainDefinitionHtml": "يَهِيمُ yahım [imperf. of v. هَامَ hāma, intrans.] to wander about, to roam, to drift, to ramble senselessly <br><br>(26:225) أَلَمْ تَرَ أَنَّهُمْ فِى كُلِّ وَادٍ يَهِيمُونَ do you not see how they meander around every subject [lit. in every valley]?",
+    "mainEntryId": "wdef-هـ-ي-م.يَهِيمُ",
+    "entries": [
+      {
+        "id": "wdef-هـ-ي-م",
+        "label": "هـ-ي-م",
+        "definitionHtml": "هـ/ي/م   h–y–m to wander about aimlessly, to be confused, to be bewildered, to be puzzled, to be robbed of the senses; to be infatuated, to be enchanted, to be carried away; to be demented by thirst, a waterless desert. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> يَهِيمُ yahım and هِيمٌ hım.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-هـ-ي-م.يَهِيمُ",
+        "label": "يَهِيمُ",
+        "definitionHtml": "يَهِيمُ yahım [imperf. of v. هَامَ hāma, intrans.] to wander about, to roam, to drift, to ramble senselessly <br><br>(26:225) أَلَمْ تَرَ أَنَّهُمْ فِى كُلِّ وَادٍ يَهِيمُونَ do you not see how they meander around every subject [lit. in every valley]?",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-هـ-ي-م.هِيمٌ",
+        "label": "هِيمٌ",
+        "definitionHtml": "هِيمٌ hım [pl. of act. part. أَهْيَمُ ʾahyam or هَائِم hāʾim] (of camels) confused or demented (through thirst) <br><br>(56:55) فَشَارِبُونَ شُرْبَ الْهِيمِ drinking [it] like the drinking of thirst‐demented camels.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:02:50.700Z",
+      "refword": "26:225:7",
+      "lexword": "يَهِيمُونَ"
+    }
+  }
+}

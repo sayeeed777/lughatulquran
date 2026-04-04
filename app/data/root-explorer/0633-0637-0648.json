@@ -1,0 +1,74 @@
+{
+  "root": "سطو",
+  "rootArabic": "سطو",
+  "stats": {
+    "totalOccurrences": 1,
+    "derivativeCount": 1,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "يَسطون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 22,
+      "surahName": "Al-Hajj",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسطون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 22,
+      "ayah": 72,
+      "text": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ ٱلْمُنكَرَ ۖ يَكَادُونَ يَسْطُونَ بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ آيَاتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "highlightedHtml": "وَإِذَا تُتْلَىٰ عَلَيْهِمْ آيَاتُنَا بَيِّنَٰتٍ تَعْرِفُ فِى وُجُوهِ ٱلَّذِينَ كَفَرُوا۟ ٱلْمُنكَرَ ۖ يَكَادُونَ <a class=\"highlight-text\">يَسْطُونَ</a> بِٱلَّذِينَ يَتْلُونَ عَلَيْهِمْ آيَاتِنَا ۗ قُلْ أَفَأُنَبِّئُكُم بِشَرٍّ مِّن ذَٰلِكُمُ ۗ ٱلنَّارُ وَعَدَهَا ٱللَّهُ ٱلَّذِينَ كَفَرُوا۟ ۖ وَبِئْسَ ٱلْمَصِيرُ",
+      "derivedForms": [
+        "يَسطون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:46:57.620Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural imperfect verb",
+    "derivativeNote": "يَسْطُونَ is in the derivative form: يَسطون",
+    "rootDefinitionHtml": "س/ط/و   s–ṭ–w to assail, to assault, to pounce upon, to attack violently. Of this root, only يَسْطون yasṭūn occurs 1 time in the Qur’an<br>.",
+    "mainDefinitionHtml": "يَسطون yasṭūn [imperf. of v. سَطا saṭā, intrans. with prepsﺒ and عَلى] to assault, to attack violently <br><br>(22:72) يَكَادُونَ يَسْطُونَ بِالَّذِينَ يَتْلُونَ عَلَيْهِمْ ءَايَاتِنَا they almost attack those who recite to them Our revelations.",
+    "mainEntryId": "wdef-س-ط-و.يَسطون",
+    "entries": [
+      {
+        "id": "wdef-س-ط-و",
+        "label": "س-ط-و",
+        "definitionHtml": "س/ط/و   s–ṭ–w to assail, to assault, to pounce upon, to attack violently. Of this root, only يَسْطون yasṭūn occurs 1 time in the Qur’an<br>.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-س-ط-و.يَسطون",
+        "label": "يَسطون",
+        "definitionHtml": "يَسطون yasṭūn [imperf. of v. سَطا saṭā, intrans. with prepsﺒ and عَلى] to assault, to attack violently <br><br>(22:72) يَكَادُونَ يَسْطُونَ بِالَّذِينَ يَتْلُونَ عَلَيْهِمْ ءَايَاتِنَا they almost attack those who recite to them Our revelations.",
+        "isRoot": false,
+        "isMain": true
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:40:00.290Z",
+      "refword": "22:72:13",
+      "lexword": "يَسْطُونَ"
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "root": "قلي",
+  "rootArabic": "قلي",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 2,
+    "ayahCount": 2
+  },
+  "derivatives": [
+    {
+      "form": "قَالِين",
+      "count": 1
+    },
+    {
+      "form": "قَلاَ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 26,
+      "surahName": "Ash-Shu'ara'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَالِين",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 93,
+      "surahName": "Ad-Duha",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "قَلاَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 26,
+      "ayah": 168,
+      "text": "قَالَ إِنِّى لِعَمَلِكُم مِّنَ ٱلْقَالِينَ",
+      "highlightedHtml": "قَالَ إِنِّى لِعَمَلِكُم مِّنَ <a class=\"highlight-text\">ٱلْقَالِينَ</a>",
+      "derivedForms": [
+        "قَالِين"
+      ]
+    },
+    {
+      "surah": 93,
+      "ayah": 3,
+      "text": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَىٰ",
+      "highlightedHtml": "مَا وَدَّعَكَ رَبُّكَ وَمَا <a class=\"highlight-text\">قَلَىٰ</a>",
+      "derivedForms": [
+        "قَلاَ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:54:12.935Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine plural active participle",
+    "derivativeNote": "ٱلْقَالِينَ is in the derivative form: قَالِين",
+    "rootDefinitionHtml": "ق/ل/و-ي   q–l–w/y to dislike, to hate, to shun, to desert, to boycott; to roast; to toss about; to climb. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> قَلاَ qalā and قَالِين qālın.",
+    "mainDefinitionHtml": "قَالِين qālın [pl. of act. part. قَالِى qālı] one who hates, loathes or detests <br><br>(26:168) إِنِّي لِعَمَلِكُمْ مِنَ الْقَالِينَ truly, I am one of those who detest what you do.",
+    "mainEntryId": "wdef-ق-ل-و-ي.قَالِين",
+    "entries": [
+      {
+        "id": "wdef-ق-ل-و-ي",
+        "label": "ق-ل-و-ي",
+        "definitionHtml": "ق/ل/و-ي   q–l–w/y to dislike, to hate, to shun, to desert, to boycott; to roast; to toss about; to climb. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> قَلاَ qalā and قَالِين qālın.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ق-ل-و-ي.قَالِين",
+        "label": "قَالِين",
+        "definitionHtml": "قَالِين qālın [pl. of act. part. قَالِى qālı] one who hates, loathes or detests <br><br>(26:168) إِنِّي لِعَمَلِكُمْ مِنَ الْقَالِينَ truly, I am one of those who detest what you do.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ق-ل-و-ي.قَلاَ",
+        "label": "قَلاَ",
+        "definitionHtml": "قَلاَ qalā ū [v. trans.] to come to shun, to come to dislike <br><br>(93:3) مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى your Lord has neither forsaken you [Prophet], nor [has He come to] hate [you].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:53:57.330Z",
+      "refword": "26:168:5",
+      "lexword": "ٱلْقَالِينَ"
+    }
+  }
+}

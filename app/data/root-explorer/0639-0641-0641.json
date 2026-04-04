@@ -1,0 +1,136 @@
+{
+  "root": "عفف",
+  "rootArabic": "عفف",
+  "stats": {
+    "totalOccurrences": 4,
+    "derivativeCount": 2,
+    "surahCount": 3,
+    "ayahCount": 4
+  },
+  "derivatives": [
+    {
+      "form": "يَسْتَعْفِفُ",
+      "count": 3
+    },
+    {
+      "form": "تَعَفُّفٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "تَعَفُّفٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 4,
+      "surahName": "An-Nisa'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْفِفُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 24,
+      "surahName": "An-Nur",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "يَسْتَعْفِفُ",
+          "count": 2,
+          "totalInQuran": 3
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 273,
+      "text": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "highlightedHtml": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ <a class=\"highlight-text\">ٱلتَّعَفُّفِ</a> تَعْرِفُهُم بِسِيمَٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+      "derivedForms": [
+        "تَعَفُّفٌ"
+      ]
+    },
+    {
+      "surah": 4,
+      "ayah": 6,
+      "text": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "highlightedHtml": "وَٱبْتَلُوا۟ ٱلْيَتَٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ آنَسْتُمْ مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا <a class=\"highlight-text\">فَلْيَسْتَعْفِفْ</a> ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+      "derivedForms": [
+        "يَسْتَعْفِفُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 33,
+      "text": "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَٰبَ مِمَّا مَلَكَتْ أَيْمَٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ آتَاكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "<a class=\"highlight-text\">وَلْيَسْتَعْفِفِ</a> ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَٰبَ مِمَّا مَلَكَتْ أَيْمَٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ آتَاكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "يَسْتَعْفِفُ"
+      ]
+    },
+    {
+      "surah": 24,
+      "ayah": 60,
+      "text": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن يَسْتَعْفِفْنَ خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "highlightedHtml": "وَٱلْقَوَٰعِدُ مِنَ ٱلنِّسَآءِ ٱلَّٰتِى لَا يَرْجُونَ نِكَاحًا فَلَيْسَ عَلَيْهِنَّ جُنَاحٌ أَن يَضَعْنَ ثِيَابَهُنَّ غَيْرَ مُتَبَرِّجَٰتٍۭ بِزِينَةٍ ۖ وَأَن <a class=\"highlight-text\">يَسْتَعْفِفْنَ</a> خَيْرٌ لَّهُنَّ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+      "derivedForms": [
+        "يَسْتَعْفِفُ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:51:11.065Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "genitive masculine (form V) verbal noun",
+    "derivativeNote": "ٱلتَّعَفُّفِ is in the derivative form: تَعَفُّفٌ",
+    "rootDefinitionHtml": "ع/ف/ف   ʿ–f–f the small amount of milk which remains in the udder of a female animal after feeding her young, to suckle such an amount of milk, meagre quantity; austerity, modesty, chastity, to refrain from committing unlawful or shameful acts. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَسْتَعْفِفُ yastaʿfif 3 times and تَعَفُّفٌ taʿaffuf 1 time.",
+    "mainDefinitionHtml": "تَعَفُّفٌ taʿaffuf [v. n./n.] self‐restraint from worldly pleasures <br><br>(2:273) ‏يَحْسَبُهُمُ‏ ‏الْجَاهِلُ‏ ‏أَغْنِيَاءَ‏ ‏مِنَ‏ ‏التَّعَفُّفِ‏ the undiscerning might think them rich because of their self‐restraint [from showing how needy they are].",
+    "mainEntryId": "wdef-ع-ف-ف.تَعَفُّفٌ",
+    "entries": [
+      {
+        "id": "wdef-ع-ف-ف",
+        "label": "ع-ف-ف",
+        "definitionHtml": "ع/ف/ف   ʿ–f–f the small amount of milk which remains in the udder of a female animal after feeding her young, to suckle such an amount of milk, meagre quantity; austerity, modesty, chastity, to refrain from committing unlawful or shameful acts. <br><br>Of this root, 2 forms occur 4 times in the Qur’an:<br> يَسْتَعْفِفُ yastaʿfif 3 times and تَعَفُّفٌ taʿaffuf 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ع-ف-ف.تَعَفُّفٌ",
+        "label": "تَعَفُّفٌ",
+        "definitionHtml": "تَعَفُّفٌ taʿaffuf [v. n./n.] self‐restraint from worldly pleasures <br><br>(2:273) ‏يَحْسَبُهُمُ‏ ‏الْجَاهِلُ‏ ‏أَغْنِيَاءَ‏ ‏مِنَ‏ ‏التَّعَفُّفِ‏ the undiscerning might think them rich because of their self‐restraint [from showing how needy they are].",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ع-ف-ف.يَسْتَعْفِفُ",
+        "label": "يَسْتَعْفِفُ",
+        "definitionHtml": "يَسْتَعْفِفُ yastaʿfif [imperf. of v. X intrans.] to check oneself from succumbing to the temptation of committing desirable but otherwise sinful acts, to check oneself against temptation, to guard one’s chastity <br><br>(24:33) وَلْيَسْتَعْفِفِ‏ ‏الَّذِينَ‏ ‏لاَ‏ ‏يَجِدُونَ‏ ‏نِكَاحًا‏ ‏‏ let those who are unable to marry, keep chaste.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:48:04.592Z",
+      "refword": "2:273:16",
+      "lexword": "ٱلتَّعَفُّفِ"
+    }
+  }
+}

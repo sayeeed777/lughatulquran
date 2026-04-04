@@ -1,0 +1,91 @@
+{
+  "root": "برم",
+  "rootArabic": "برم",
+  "stats": {
+    "totalOccurrences": 2,
+    "derivativeCount": 2,
+    "surahCount": 1,
+    "ayahCount": 1
+  },
+  "derivatives": [
+    {
+      "form": "أَبْرَمَ",
+      "count": 1
+    },
+    {
+      "form": "مُبْرِمُون",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَبْرَمَ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُبْرِمُون",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 43,
+      "ayah": 79,
+      "text": "أَمْ أَبْرَمُوٓا۟ أَمْرًا فَإِنَّا مُبْرِمُونَ",
+      "highlightedHtml": "أَمْ <a class=\"highlight-text\">أَبْرَمُوٓا۟</a> أَمْرًا فَإِنَّا <a class=\"highlight-text\">مُبْرِمُونَ</a>",
+      "derivedForms": [
+        "أَبْرَمَ",
+        "مُبْرِمُون"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:39:31.710Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form IV) perfect verb",
+    "derivativeNote": "أَبْرَمُوٓا۟ is in the derivative form: أَبْرَمَ",
+    "rootDefinitionHtml": "ب/ر/م   b–r–m a stone pot; a twisted rope; to twist, to tighten; to confirm, to plan. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أَبْرَمَ ʾabrama and مُبْرِمُون mubrimūn.",
+    "mainDefinitionHtml": "أَبْرَمَ ʾabrama [v. IV, trans.] to decide firmly, to contrive, to determine <br><br>(43:79) أَمْ أَبْرَمُوا أَمْرًا فَإِنَّا مُبْرِمُونَ have they determined something? We, too, have been determining.",
+    "mainEntryId": "wdef-ب-ر-م.أَبْرَمَ",
+    "entries": [
+      {
+        "id": "wdef-ب-ر-م",
+        "label": "ب-ر-م",
+        "definitionHtml": "ب/ر/م   b–r–m a stone pot; a twisted rope; to twist, to tighten; to confirm, to plan. <br><br>Of this root, 2 forms occur 1 time each in the Qur’an:<br> أَبْرَمَ ʾabrama and مُبْرِمُون mubrimūn.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ب-ر-م.أَبْرَمَ",
+        "label": "أَبْرَمَ",
+        "definitionHtml": "أَبْرَمَ ʾabrama [v. IV, trans.] to decide firmly, to contrive, to determine <br><br>(43:79) أَمْ أَبْرَمُوا أَمْرًا فَإِنَّا مُبْرِمُونَ have they determined something? We, too, have been determining.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ب-ر-م.مُبْرِمُون",
+        "label": "مُبْرِمُون",
+        "definitionHtml": "مُبْرِمُون mubrimūn [pl. of act. part. مُبْرِمٌ mubrim] ones who scheme or determine <br><br>(43:79) أَمْ أَبْرَمُوا أَمْرًا فَإِنَّا مُبْرِمُونَ have they determined something? We, too, have been determining.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:25:56.944Z",
+      "refword": "43:79:2",
+      "lexword": "أَبْرَمُوٓا۟"
+    }
+  }
+}

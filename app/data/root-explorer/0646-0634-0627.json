@@ -1,0 +1,540 @@
+{
+  "root": "نشا",
+  "rootArabic": "نشا",
+  "stats": {
+    "totalOccurrences": 28,
+    "derivativeCount": 7,
+    "surahCount": 14,
+    "ayahCount": 25
+  },
+  "derivatives": [
+    {
+      "form": "أَنْشَأَ",
+      "count": 20
+    },
+    {
+      "form": "نَشْأَةٌ",
+      "count": 3
+    },
+    {
+      "form": "إِنْشَاءٌ",
+      "count": 1
+    },
+    {
+      "form": "مُنْشَآتٌ",
+      "count": 1
+    },
+    {
+      "form": "مُنْشِئُون",
+      "count": 1
+    },
+    {
+      "form": "نَاشِئَةٌ",
+      "count": 1
+    },
+    {
+      "form": "يُنَشَّأُ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 6,
+      "surahName": "Al-An'am",
+      "totalRootInSurah": 4,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 4,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 11,
+      "surahName": "Hud",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 13,
+      "surahName": "Ar-Ra'd",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 21,
+      "surahName": "Al-Anbiya'",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 23,
+      "surahName": "Al-Mu'minun",
+      "totalRootInSurah": 5,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 5,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 29,
+      "surahName": "Al-'Ankabut",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "نَشْأَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 36,
+      "surahName": "Ya Sin",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 43,
+      "surahName": "Az-Zukhruf",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُنَشَّأُ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 53,
+      "surahName": "An-Najm",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        },
+        {
+          "form": "نَشْأَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 55,
+      "surahName": "Ar-Rahman",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "مُنْشَآتٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 56,
+      "surahName": "Al-Waqi'ah",
+      "totalRootInSurah": 6,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 3,
+          "totalInQuran": 20
+        },
+        {
+          "form": "إِنْشَاءٌ",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "مُنْشِئُون",
+          "count": 1,
+          "totalInQuran": 1
+        },
+        {
+          "form": "نَشْأَةٌ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 67,
+      "surahName": "Al-Mulk",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "أَنْشَأَ",
+          "count": 1,
+          "totalInQuran": 20
+        }
+      ]
+    },
+    {
+      "surah": 73,
+      "surahName": "Al-Muzzammil",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "نَاشِئَةٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 6,
+      "ayah": 6,
+      "text": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ وَأَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "highlightedHtml": "أَلَمْ يَرَوْا۟ كَمْ أَهْلَكْنَا مِن قَبْلِهِم مِّن قَرْنٍ مَّكَّنَّٰهُمْ فِى ٱلْأَرْضِ مَا لَمْ نُمَكِّن لَّكُمْ وَأَرْسَلْنَا ٱلسَّمَآءَ عَلَيْهِم مِّدْرَارًا وَجَعَلْنَا ٱلْأَنْهَٰرَ تَجْرِى مِن تَحْتِهِمْ فَأَهْلَكْنَٰهُم بِذُنُوبِهِمْ <a class=\"highlight-text\">وَأَنشَأْنَا</a> مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 98,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَكُم مِّن نَّفْسٍ وَٰحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍ يَفْقَهُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ <a class=\"highlight-text\">أَنشَأَكُم</a> مِّن نَّفْسٍ وَٰحِدَةٍ فَمُسْتَقَرٌّ وَمُسْتَوْدَعٌ ۗ قَدْ فَصَّلْنَا ٱلْءَايَٰتِ لِقَوْمٍ يَفْقَهُونَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 133,
+      "text": "وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ أَنشَأَكُم مِّن ذُرِّيَّةِ قَوْمٍ آخَرِينَ",
+      "highlightedHtml": "وَرَبُّكَ ٱلْغَنِىُّ ذُو ٱلرَّحْمَةِ ۚ إِن يَشَأْ يُذْهِبْكُمْ وَيَسْتَخْلِفْ مِنۢ بَعْدِكُم مَّا يَشَآءُ كَمَآ <a class=\"highlight-text\">أَنشَأَكُم</a> مِّن ذُرِّيَّةِ قَوْمٍ آخَرِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 6,
+      "ayah": 141,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَ جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ <a class=\"highlight-text\">أَنشَأَ</a> جَنَّٰتٍ مَّعْرُوشَٰتٍ وَغَيْرَ مَعْرُوشَٰتٍ وَٱلنَّخْلَ وَٱلزَّرْعَ مُخْتَلِفًا أُكُلُهُۥ وَٱلزَّيْتُونَ وَٱلرُّمَّانَ مُتَشَٰبِهًا وَغَيْرَ مُتَشَٰبِهٍ ۚ كُلُوا۟ مِن ثَمَرِهِۦٓ إِذَآ أَثْمَرَ وَءَاتُوا۟ حَقَّهُۥ يَوْمَ حَصَادِهِۦ ۖ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 11,
+      "ayah": 61,
+      "text": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+      "highlightedHtml": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَٰلِحًا ۚ قَالَ يَٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُۥ ۖ هُوَ <a class=\"highlight-text\">أَنشَأَكُم</a> مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 13,
+      "ayah": 12,
+      "text": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا وَيُنشِئُ ٱلسَّحَابَ ٱلثِّقَالَ",
+      "highlightedHtml": "هُوَ ٱلَّذِى يُرِيكُمُ ٱلْبَرْقَ خَوْفًا وَطَمَعًا <a class=\"highlight-text\">وَيُنشِئُ</a> ٱلسَّحَابَ ٱلثِّقَالَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 21,
+      "ayah": 11,
+      "text": "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً وَأَنشَأْنَا بَعْدَهَا قَوْمًا آخَرِينَ",
+      "highlightedHtml": "وَكَمْ قَصَمْنَا مِن قَرْيَةٍ كَانَتْ ظَالِمَةً <a class=\"highlight-text\">وَأَنشَأْنَا</a> بَعْدَهَا قَوْمًا آخَرِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 14,
+      "text": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ أَنشَأْنَٰهُ خَلْقًا آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ",
+      "highlightedHtml": "ثُمَّ خَلَقْنَا ٱلنُّطْفَةَ عَلَقَةً فَخَلَقْنَا ٱلْعَلَقَةَ مُضْغَةً فَخَلَقْنَا ٱلْمُضْغَةَ عِظَٰمًا فَكَسَوْنَا ٱلْعِظَٰمَ لَحْمًا ثُمَّ <a class=\"highlight-text\">أَنشَأْنَٰهُ</a> خَلْقًا آخَرَ ۚ فَتَبَارَكَ ٱللَّهُ أَحْسَنُ ٱلْخَٰلِقِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 19,
+      "text": "فَأَنشَأْنَا لَكُم بِهِۦ جَنَّٰتٍ مِّن نَّخِيلٍ وَأَعْنَٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "highlightedHtml": "<a class=\"highlight-text\">فَأَنشَأْنَا</a> لَكُم بِهِۦ جَنَّٰتٍ مِّن نَّخِيلٍ وَأَعْنَٰبٍ لَّكُمْ فِيهَا فَوَٰكِهُ كَثِيرَةٌ وَمِنْهَا تَأْكُلُونَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 31,
+      "text": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَنشَأْنَا</a> مِنۢ بَعْدِهِمْ قَرْنًا آخَرِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 42,
+      "text": "ثُمَّ أَنشَأْنَا مِنۢ بَعْدِهِمْ قُرُونًا آخَرِينَ",
+      "highlightedHtml": "ثُمَّ <a class=\"highlight-text\">أَنشَأْنَا</a> مِنۢ بَعْدِهِمْ قُرُونًا آخَرِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 23,
+      "ayah": 78,
+      "text": "وَهُوَ ٱلَّذِىٓ أَنشَأَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
+      "highlightedHtml": "وَهُوَ ٱلَّذِىٓ <a class=\"highlight-text\">أَنشَأَ</a> لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۚ قَلِيلًا مَّا تَشْكُرُونَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 45,
+      "text": "وَلَٰكِنَّآ أَنشَأْنَا قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "highlightedHtml": "وَلَٰكِنَّآ <a class=\"highlight-text\">أَنشَأْنَا</a> قُرُونًا فَتَطَاوَلَ عَلَيْهِمُ ٱلْعُمُرُ ۚ وَمَا كُنتَ ثَاوِيًا فِىٓ أَهْلِ مَدْيَنَ تَتْلُوا۟ عَلَيْهِمْ آيَاتِنَا وَلَٰكِنَّا كُنَّا مُرْسِلِينَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 29,
+      "ayah": 20,
+      "text": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "highlightedHtml": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ <a class=\"highlight-text\">يُنشِئُ</a> <a class=\"highlight-text\">ٱلنَّشْأَةَ</a> الْآخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+      "derivedForms": [
+        "أَنْشَأَ",
+        "نَشْأَةٌ"
+      ]
+    },
+    {
+      "surah": 36,
+      "ayah": 79,
+      "text": "قُلْ يُحْيِيهَا ٱلَّذِىٓ أَنشَأَهَآ أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+      "highlightedHtml": "قُلْ يُحْيِيهَا ٱلَّذِىٓ <a class=\"highlight-text\">أَنشَأَهَآ</a> أَوَّلَ مَرَّةٍ ۖ وَهُوَ بِكُلِّ خَلْقٍ عَلِيمٌ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 43,
+      "ayah": 18,
+      "text": "أَوَمَن يُنَشَّؤُا۟ فِى ٱلْحِلْيَةِ وَهُوَ فِى ٱلْخِصَامِ غَيْرُ مُبِينٍ",
+      "highlightedHtml": "أَوَمَن <a class=\"highlight-text\">يُنَشَّؤُا۟</a> فِى ٱلْحِلْيَةِ وَهُوَ فِى ٱلْخِصَامِ غَيْرُ مُبِينٍ",
+      "derivedForms": [
+        "يُنَشَّأُ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 32,
+      "text": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+      "highlightedHtml": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ <a class=\"highlight-text\">أَنشَأَكُم</a> مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 53,
+      "ayah": 47,
+      "text": "وَأَنَّ عَلَيْهِ ٱلنَّشْأَةَ الْأُخْرَى",
+      "highlightedHtml": "وَأَنَّ عَلَيْهِ <a class=\"highlight-text\">ٱلنَّشْأَةَ</a> الْأُخْرَى",
+      "derivedForms": [
+        "نَشْأَةٌ"
+      ]
+    },
+    {
+      "surah": 55,
+      "ayah": 24,
+      "text": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ",
+      "highlightedHtml": "وَلَهُ ٱلْجَوَارِ <a class=\"highlight-text\">ٱلْمُنشَـَٔاتُ</a> فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ",
+      "derivedForms": [
+        "مُنْشَآتٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 35,
+      "text": "إِنَّآ أَنشَأْنَٰهُنَّ إِنشَآءً",
+      "highlightedHtml": "إِنَّآ <a class=\"highlight-text\">أَنشَأْنَٰهُنَّ</a> <a class=\"highlight-text\">إِنشَآءً</a>",
+      "derivedForms": [
+        "أَنْشَأَ",
+        "إِنْشَاءٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 61,
+      "text": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ وَنُنشِئَكُمْ فِى مَا لَا تَعْلَمُونَ",
+      "highlightedHtml": "عَلَىٰٓ أَن نُّبَدِّلَ أَمْثَٰلَكُمْ <a class=\"highlight-text\">وَنُنشِئَكُمْ</a> فِى مَا لَا تَعْلَمُونَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 62,
+      "text": "وَلَقَدْ عَلِمْتُمُ ٱلنَّشْأَةَ ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+      "highlightedHtml": "وَلَقَدْ عَلِمْتُمُ <a class=\"highlight-text\">ٱلنَّشْأَةَ</a> ٱلْأُولَىٰ فَلَوْلَا تَذَكَّرُونَ",
+      "derivedForms": [
+        "نَشْأَةٌ"
+      ]
+    },
+    {
+      "surah": 56,
+      "ayah": 72,
+      "text": "أَأَنْتُمْ أَنشَأْتُمْ شَجَرَتَهَآ أَمْ نَحْنُ ٱلْمُنشِـُٔونَ",
+      "highlightedHtml": "أَأَنْتُمْ <a class=\"highlight-text\">أَنشَأْتُمْ</a> شَجَرَتَهَآ أَمْ نَحْنُ <a class=\"highlight-text\">ٱلْمُنشِـُٔونَ</a>",
+      "derivedForms": [
+        "أَنْشَأَ",
+        "مُنْشِئُون"
+      ]
+    },
+    {
+      "surah": 67,
+      "ayah": 23,
+      "text": "قُلْ هُوَ ٱلَّذِىٓ أَنشَأَكُمْ وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ",
+      "highlightedHtml": "قُلْ هُوَ ٱلَّذِىٓ <a class=\"highlight-text\">أَنشَأَكُمْ</a> وَجَعَلَ لَكُمُ ٱلسَّمْعَ وَٱلْأَبْصَٰرَ وَٱلْأَفْـِٔدَةَ ۖ قَلِيلًا مَّا تَشْكُرُونَ",
+      "derivedForms": [
+        "أَنْشَأَ"
+      ]
+    },
+    {
+      "surah": 73,
+      "ayah": 6,
+      "text": "إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا",
+      "highlightedHtml": "إِنَّ <a class=\"highlight-text\">نَاشِئَةَ</a> ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا",
+      "derivedForms": [
+        "نَاشِئَةٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:57:23.531Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "1st person plural (form IV) perfect verb",
+    "derivativeNote": "وَأَنشَأْنَا is in the derivative form: أَنْشَأَ",
+    "rootDefinitionHtml": "ن/ش/أ   n–sh–ʾ the young, youth, young plants and animals, the young generations, the first hours of the night<br>; to rise, to grow, to emerge, to come into being, to create, to initiate, to cause to grow, to raise from the dead; to glean information. <br><br>Of this root, 7 forms occur 28 times in the Qur’an:<br> يُنَشَّأُ yunashshaʾ 1 time; أَنْشَأَ ʾanshaʾa 20 times; نَاشِئَةٌ nāshiʾatun 1 time; نَشْأَةٌ nashʾatun 3 times; إِنْشَاءٌʾinshāʾ 1 time; مُنْشِئُون munshiʾūn 1 time and مُنْشَآتٌ munshaʾāt 1 time.",
+    "mainDefinitionHtml": "أَنْشَأَ ʾanshaʾa [v. IV trans.] <br><br><strong>1 </strong>to create, to fashion out <br><br>(11:61) هُوَ أَنْشَأَكُمْ مِنَ الأَرْضِ He brought you into being from the earth <br><br><strong>2 </strong>to initiate, to give rise to <br><br>(6:6) وَأَنْشَأْنَا مِنْ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ and We raised other generations after them <br><br><strong>3 </strong>to make into, to transfigure, to transmute <br><br>(23:14) فَخَلَقْنَا الْمُضْغَةَ عِظَامًا فَكَسَوْنَا الْعِظَامَ لَحْمًا ثُمَّ أَنْشَأْنَاهُ خَلْقًا ءَاخَرَ then we fashioned the lump of flesh into bones, then We clothed the bones with flesh, then We transformed him into a different creation/creature <br><br><strong>4 </strong>to form, to shape, to build up <br><br>(13:12) هُوَ الَّذِي يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا وَيُنْشِئُ السَّحَابَ الثِّقَالَ it is He who shows you the lightning, [inspiring] fear and hope and He forms the heavy rainclouds <br><br><strong>5 </strong>to devise, to make <br><br>(23:78) وَهُوَ الَّذِي أَنْشَأَ لَكُمُ السَّمْعَ وَالأَبْصَارَ وَالأَفْئِدَةَ it is He who devised for you hearing, sight and hearts <br><br><strong>6 </strong>to renew, to re‐create <br><br>(56:35) إِنَّا أَنْشَأْنَاهُنَّ إِنْشَاءً فَجَعَلْنَاهُنَّ أَبْكَارًا عُرُبًا أَتْرَابًا We have created them anew, making them virginal, loving and of matching age.",
+    "mainEntryId": "wdef-ن-ش-أ.أَنْشَأَ",
+    "entries": [
+      {
+        "id": "wdef-ن-ش-أ",
+        "label": "ن-ش-أ",
+        "definitionHtml": "ن/ش/أ   n–sh–ʾ the young, youth, young plants and animals, the young generations, the first hours of the night<br>; to rise, to grow, to emerge, to come into being, to create, to initiate, to cause to grow, to raise from the dead; to glean information. <br><br>Of this root, 7 forms occur 28 times in the Qur’an:<br> يُنَشَّأُ yunashshaʾ 1 time; أَنْشَأَ ʾanshaʾa 20 times; نَاشِئَةٌ nāshiʾatun 1 time; نَشْأَةٌ nashʾatun 3 times; إِنْشَاءٌʾinshāʾ 1 time; مُنْشِئُون munshiʾūn 1 time and مُنْشَآتٌ munshaʾāt 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.أَنْشَأَ",
+        "label": "أَنْشَأَ",
+        "definitionHtml": "أَنْشَأَ ʾanshaʾa [v. IV trans.] <br><br><strong>1 </strong>to create, to fashion out <br><br>(11:61) هُوَ أَنْشَأَكُمْ مِنَ الأَرْضِ He brought you into being from the earth <br><br><strong>2 </strong>to initiate, to give rise to <br><br>(6:6) وَأَنْشَأْنَا مِنْ بَعْدِهِمْ قَرْنًا ءَاخَرِينَ and We raised other generations after them <br><br><strong>3 </strong>to make into, to transfigure, to transmute <br><br>(23:14) فَخَلَقْنَا الْمُضْغَةَ عِظَامًا فَكَسَوْنَا الْعِظَامَ لَحْمًا ثُمَّ أَنْشَأْنَاهُ خَلْقًا ءَاخَرَ then we fashioned the lump of flesh into bones, then We clothed the bones with flesh, then We transformed him into a different creation/creature <br><br><strong>4 </strong>to form, to shape, to build up <br><br>(13:12) هُوَ الَّذِي يُرِيكُمُ الْبَرْقَ خَوْفًا وَطَمَعًا وَيُنْشِئُ السَّحَابَ الثِّقَالَ it is He who shows you the lightning, [inspiring] fear and hope and He forms the heavy rainclouds <br><br><strong>5 </strong>to devise, to make <br><br>(23:78) وَهُوَ الَّذِي أَنْشَأَ لَكُمُ السَّمْعَ وَالأَبْصَارَ وَالأَفْئِدَةَ it is He who devised for you hearing, sight and hearts <br><br><strong>6 </strong>to renew, to re‐create <br><br>(56:35) إِنَّا أَنْشَأْنَاهُنَّ إِنْشَاءً فَجَعَلْنَاهُنَّ أَبْكَارًا عُرُبًا أَتْرَابًا We have created them anew, making them virginal, loving and of matching age.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ن-ش-أ.إِنْشَاءٌ",
+        "label": "إِنْشَاءٌ",
+        "definitionHtml": "إِنْشَاءٌ ʾinshāʾ [v. n.] the act of creating, initiation <br><br>(56:35) إِنَّا أَنْشَأْنَاهُنَّ إِنْشَاءً We have created them anew.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.مُنْشَآتٌ",
+        "label": "مُنْشَآتٌ",
+        "definitionHtml": "مُنْشَآتٌ munshaʾāt [pl. of fem. pass. part. مُنْشَأَة munshaʾatun] constructed, initiated, raised aloft, hoisted up <br><br>(55:24) وَلَهُ الْجَوَارِ الْمُنْشَآتُ فِى الْبَحْرِ كَالأَعْلاَمِ among His signs are the ships [lit. the runners of the sea], constructed like floating mountains (or, sailing swiftly, like fluttering flags).",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.مُنْشِئُون",
+        "label": "مُنْشِئُون",
+        "definitionHtml": "مُنْشِئُون munshiʾūn [pl. of act. part. مُنْشِئ munshiʾ] ones who initiate, produce, fashion <br><br>(56:72) ءَأَنْتُمْ أَنْشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنْشِئُونَ is it you who have brought into being the tree [that serves as its fuel] or are We its creators?",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.نَاشِئَةٌ",
+        "label": "نَاشِئَةٌ",
+        "definitionHtml": "نَاشِئَةٌ nāshiʾatun [fem. act. part.] that which appears anew, that which occurs for the first time ِ*<br><br>(73:6) نَاشِئَةَ اللَّيْلِ variously interpreted as: prayers in the middle of the night, hours of the night spent in prayer, those who spend such hours in prayer, night prayers (or, those who perform such prayers) [lit. that which is initiated at night, such as the hours of the night, or events taking place during the night].",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.نَشْأَةٌ",
+        "label": "نَشْأَةٌ",
+        "definitionHtml": "نَشْأَةٌ nashʾatun [v. n./unit n.] creation, initiation; a creation <br><br>(56:62) وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الأُولَى you have already known the first creation.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ن-ش-أ.يُنَشَّأُ",
+        "label": "يُنَشَّأُ",
+        "definitionHtml": "يُنَشَّأُ yunashshaʾ [imperf. pass. v. II] to be raised, to be brought up, to be reared *<br><br>(43:18) مَنْ يُنَشَّأُ فِى الْحِلْيَةِ a little girl [lit. one who is brought up amidst [an abundance of] jewellery].",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T13:00:02.284Z",
+      "refword": "6:6:27",
+      "lexword": "وَأَنشَأْنَا"
+    }
+  }
+}

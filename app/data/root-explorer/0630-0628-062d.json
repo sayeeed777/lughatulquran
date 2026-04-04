@@ -1,0 +1,249 @@
+{
+  "root": "ذبح",
+  "rootArabic": "ذبح",
+  "stats": {
+    "totalOccurrences": 9,
+    "derivativeCount": 4,
+    "surahCount": 6,
+    "ayahCount": 9
+  },
+  "derivatives": [
+    {
+      "form": "ذَبَحَ",
+      "count": 4
+    },
+    {
+      "form": "يُذَبِّحُ",
+      "count": 3
+    },
+    {
+      "form": "ذُبِحَ",
+      "count": 1
+    },
+    {
+      "form": "ذِبْحٌ",
+      "count": 1
+    }
+  ],
+  "surahOccurrences": [
+    {
+      "surah": 2,
+      "surahName": "Al-Baqarah",
+      "totalRootInSurah": 3,
+      "derivatives": [
+        {
+          "form": "ذَبَحَ",
+          "count": 2,
+          "totalInQuran": 4
+        },
+        {
+          "form": "يُذَبِّحُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 5,
+      "surahName": "Al-Ma'idah",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذُبِحَ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    },
+    {
+      "surah": 14,
+      "surahName": "Ibrahim",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُذَبِّحُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 27,
+      "surahName": "An-Naml",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "ذَبَحَ",
+          "count": 1,
+          "totalInQuran": 4
+        }
+      ]
+    },
+    {
+      "surah": 28,
+      "surahName": "Al-Qasas",
+      "totalRootInSurah": 1,
+      "derivatives": [
+        {
+          "form": "يُذَبِّحُ",
+          "count": 1,
+          "totalInQuran": 3
+        }
+      ]
+    },
+    {
+      "surah": 37,
+      "surahName": "As-Saffat",
+      "totalRootInSurah": 2,
+      "derivatives": [
+        {
+          "form": "ذَبَحَ",
+          "count": 1,
+          "totalInQuran": 4
+        },
+        {
+          "form": "ذِبْحٌ",
+          "count": 1,
+          "totalInQuran": 1
+        }
+      ]
+    }
+  ],
+  "ayahOccurrences": [
+    {
+      "surah": 2,
+      "ayah": 49,
+      "text": "وَإِذْ نَجَّيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "highlightedHtml": "وَإِذْ نَجَّيْنَٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ <a class=\"highlight-text\">يُذَبِّحُونَ</a> أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "derivedForms": [
+        "يُذَبِّحُ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 67,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً ۖ قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا ۖ قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن <a class=\"highlight-text\">تَذْبَحُوا۟</a> بَقَرَةً ۖ قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا ۖ قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ",
+      "derivedForms": [
+        "ذَبَحَ"
+      ]
+    },
+    {
+      "surah": 2,
+      "ayah": 71,
+      "text": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ فَذَبَحُوهَا وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "highlightedHtml": "قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا ذَلُولٌ تُثِيرُ ٱلْأَرْضَ وَلَا تَسْقِى ٱلْحَرْثَ مُسَلَّمَةٌ لَّا شِيَةَ فِيهَا ۚ قَالُوا۟ ٱلْـَٰٔنَ جِئْتَ بِٱلْحَقِّ ۚ <a class=\"highlight-text\">فَذَبَحُوهَا</a> وَمَا كَادُوا۟ يَفْعَلُونَ",
+      "derivedForms": [
+        "ذَبَحَ"
+      ]
+    },
+    {
+      "surah": 5,
+      "ayah": 3,
+      "text": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "highlightedHtml": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا <a class=\"highlight-text\">ذُبِحَ</a> عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+      "derivedForms": [
+        "ذُبِحَ"
+      ]
+    },
+    {
+      "surah": 14,
+      "ayah": 6,
+      "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "highlightedHtml": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ <a class=\"highlight-text\">وَيُذَبِّحُونَ</a> أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+      "derivedForms": [
+        "يُذَبِّحُ"
+      ]
+    },
+    {
+      "surah": 27,
+      "ayah": 21,
+      "text": "لَأُعَذِّبَنَّهُۥ عَذَابًا شَدِيدًا أَوْ لَأَا۟ذْبَحَنَّهُۥٓ أَوْ لَيَأْتِيَنِّى بِسُلْطَٰنٍ مُّبِينٍ",
+      "highlightedHtml": "لَأُعَذِّبَنَّهُۥ عَذَابًا شَدِيدًا أَوْ <a class=\"highlight-text\">لَأَا۟ذْبَحَنَّهُۥٓ</a> أَوْ لَيَأْتِيَنِّى بِسُلْطَٰنٍ مُّبِينٍ",
+      "derivedForms": [
+        "ذَبَحَ"
+      ]
+    },
+    {
+      "surah": 28,
+      "ayah": 4,
+      "text": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
+      "highlightedHtml": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ <a class=\"highlight-text\">يُذَبِّحُ</a> أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
+      "derivedForms": [
+        "يُذَبِّحُ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 102,
+      "text": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ أَذْبَحُكَ فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "highlightedHtml": "فَلَمَّا بَلَغَ مَعَهُ ٱلسَّعْىَ قَالَ يَٰبُنَىَّ إِنِّىٓ أَرَىٰ فِى ٱلْمَنَامِ أَنِّىٓ <a class=\"highlight-text\">أَذْبَحُكَ</a> فَٱنظُرْ مَاذَا تَرَىٰ ۚ قَالَ يَٰٓأَبَتِ ٱفْعَلْ مَا تُؤْمَرُ ۖ سَتَجِدُنِىٓ إِن شَآءَ ٱللَّهُ مِنَ ٱلصَّٰبِرِينَ",
+      "derivedForms": [
+        "ذَبَحَ"
+      ]
+    },
+    {
+      "surah": 37,
+      "ayah": 107,
+      "text": "وَفَدَيْنَٰهُ بِذِبْحٍ عَظِيمٍ",
+      "highlightedHtml": "وَفَدَيْنَٰهُ <a class=\"highlight-text\">بِذِبْحٍ</a> عَظِيمٍ",
+      "derivedForms": [
+        "ذِبْحٌ"
+      ]
+    }
+  ],
+  "source": {
+    "provider": "quranhive-snapshot",
+    "fetchedAt": "2026-04-04T09:44:38.953Z"
+  },
+  "lexSnapshot": {
+    "wordGrammar": "3rd person masculine plural (form II) imperfect verb",
+    "derivativeNote": "يُذَبِّحُونَ is in the derivative form: يُذَبِّحُ",
+    "rootDefinitionHtml": "ذ/ب/ح   dh–b–ḥ flood channels<br>; a disease in the throat; to cut the throat, to slay, a butchered animal, to sacrifice, an animal fit or prepared for slaughter or sacrifice. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> ذَبَحَ dhabaḥa 4 times; ذُبِحَ dhubiḥa 1 time; يُذَبِّحُ yudhabbiḥ 3 times and ذِبْحٌ dhibḥ 1 time.",
+    "mainDefinitionHtml": "يُذَبِّحُ yudhabbiḥ [imperf. of v. II ذَبَّحَ dhabbaḥa, trans.] to be in the habit of slaughtering, to slaughter in number <br><br>(28:4) يَسْتَضْعِفُ طَائِفَةً مِنْهُمْ يُذَبِّحُ أَبْنَاءَهُمْ وَيَسْتَحْيِي نِسَاءَهُم he deems as weak one group of theirs: slaughtering their sons and sparing their women.",
+    "mainEntryId": "wdef-ذ-ب-ح.يُذَبِّحُ",
+    "entries": [
+      {
+        "id": "wdef-ذ-ب-ح",
+        "label": "ذ-ب-ح",
+        "definitionHtml": "ذ/ب/ح   dh–b–ḥ flood channels<br>; a disease in the throat; to cut the throat, to slay, a butchered animal, to sacrifice, an animal fit or prepared for slaughter or sacrifice. <br><br>Of this root, 4 forms occur 9 times in the Qur’an:<br> ذَبَحَ dhabaḥa 4 times; ذُبِحَ dhubiḥa 1 time; يُذَبِّحُ yudhabbiḥ 3 times and ذِبْحٌ dhibḥ 1 time.",
+        "isRoot": true,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ب-ح.يُذَبِّحُ",
+        "label": "يُذَبِّحُ",
+        "definitionHtml": "يُذَبِّحُ yudhabbiḥ [imperf. of v. II ذَبَّحَ dhabbaḥa, trans.] to be in the habit of slaughtering, to slaughter in number <br><br>(28:4) يَسْتَضْعِفُ طَائِفَةً مِنْهُمْ يُذَبِّحُ أَبْنَاءَهُمْ وَيَسْتَحْيِي نِسَاءَهُم he deems as weak one group of theirs: slaughtering their sons and sparing their women.",
+        "isRoot": false,
+        "isMain": true
+      },
+      {
+        "id": "wdef-ذ-ب-ح.ذَبَحَ",
+        "label": "ذَبَحَ",
+        "definitionHtml": "ذَبَحَ dhabaḥa a [v. trans.] <br><br><strong>1 </strong>to slay <br><br>(27:21) لأُعَذِّبَنَّهُ عَذَابًا شَدِيدًا أَوْ لأَذْبَحَنَّهُ I will punish him severely or slaughter him <br><br><strong>2 </strong>to ritually sacrifice <br><br>(2:67) إِنَّ اللَّهَ يَأْمُرُكُمْ أَنْ تَذْبَحُوا بَقَرَةً God commands you to sacrifice a cow.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ب-ح.ذُبِحَ",
+        "label": "ذُبِحَ",
+        "definitionHtml": "ذُبِحَ dhubiḥa [pass. v.] to be ritually sacrificed <br><br>(5:3) وَمَا ذُبِحَ عَلَى النُّصُبِ and that which is sacrificed on idolatrous altars.",
+        "isRoot": false,
+        "isMain": false
+      },
+      {
+        "id": "wdef-ذ-ب-ح.ذِبْحٌ",
+        "label": "ذِبْحٌ",
+        "definitionHtml": "ذِبْحٌ dhibḥ [n.] an animal earmarked or fit to be sacrificed, a sacrificial animal <br><br>(37:107) وَفَدَيْنَاهُ بِذِبْحٍ عَظِيمٍ We ransomed him with a momentous sacrifice.",
+        "isRoot": false,
+        "isMain": false
+      }
+    ],
+    "source": {
+      "provider": "quranhive-lex-snapshot",
+      "fetchedAt": "2026-04-04T12:35:35.512Z",
+      "refword": "2:49:9",
+      "lexword": "يُذَبِّحُونَ"
+    }
+  }
+}
