@@ -6,9 +6,9 @@
 :root[data-theme="mist"] {
   color-scheme: dark;
 
-  --bg-deep: #2f4a4e;
-  --bg-mid: #2f4a4e;
-  --bg-light: #476167;
+  --bg-deep: #263d42;
+  --bg-mid: #263d42;
+  --bg-light: #3e575c;
   --surface-soft: #2c454a;
   --surface: #315055;
   --surface-strong: #3a5d63;

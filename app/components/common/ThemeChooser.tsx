@@ -10,7 +10,7 @@ const THEMES: { id: ThemeName; label: string; colors: [string, string, string] }
   { id: "light", label: "Parchment", colors: ["#e8ded1", "#f0e7db", "#425236"] },
   { id: "bw", label: "Black & White", colors: ["#ffffff", "#f5f5f5", "#111111"] },
   { id: "bw-dark", label: "Dark B&W", colors: ["#000000", "#111111", "#ffffff"] },
-  { id: "mist", label: "Mist", colors: ["#2f4a4e", "#2a4247", "#8fb299"] },
+  { id: "mist", label: "Mist", colors: ["#263d42", "#2a4247", "#8fb299"] },
   { id: "sky", label: "Sky", colors: ["#b8d4e4", "#c6dfea", "#1b5d6e"] }
 ];
 
