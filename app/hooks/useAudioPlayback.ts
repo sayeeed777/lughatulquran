@@ -30,6 +30,7 @@ export function useAudioPlayback({
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [isAudioPaused, setIsAudioPaused] = useState(false);
   const [activeWordPosition, setActiveWordPosition] = useState<number | null>(null);
+  const [singleAyahStopAt, setSingleAyahStopAt] = useState<NowPlaying | null>(null);
 
   useEffect(() => {
     if (!nowPlaying || !isAutoPlaying) {
@@ -45,6 +46,7 @@ export function useAudioPlayback({
     (startFromAyah = 1) => {
       if (!selectedSurah) return;
       stopMemorize();
+      setSingleAyahStopAt(null);
       const start =
         Number.isFinite(Number(startFromAyah)) && Number(startFromAyah) >= 1
           ? Number(startFromAyah)
@@ -60,6 +62,7 @@ export function useAudioPlayback({
 
   const handleStopAutoPlay = useCallback(() => {
     stopMemorize();
+    setSingleAyahStopAt(null);
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
@@ -107,6 +110,19 @@ export function useAudioPlayback({
       return;
     }
 
+    if (
+      singleAyahStopAt
+      && nowPlaying
+      && singleAyahStopAt.surah === nowPlaying.surah
+      && singleAyahStopAt.ayah === nowPlaying.ayah
+    ) {
+      setSingleAyahStopAt(null);
+      setIsAutoPlaying(false);
+      setNowPlaying(null);
+      setIsAudioPaused(false);
+      return;
+    }
+
     // Handle regular auto-play
     if (!isAutoPlaying || !nowPlaying || !selectedSurah) {
       setIsAudioPaused(false);
@@ -131,6 +147,7 @@ export function useAudioPlayback({
     memorizeConfig,
     selectedSurah,
     nowPlaying,
+    singleAyahStopAt,
     isAutoPlaying,
     setMemorizeConfig,
     setFocusedAyahKey,
@@ -140,11 +157,14 @@ export function useAudioPlayback({
   const handlePlayAyah = useCallback(
     (surah: number, ayah: number) => {
       stopMemorize();
-      setIsAutoPlaying(false);
+      setSingleAyahStopAt({ surah, ayah });
+      setIsAutoPlaying(true);
       setIsAudioPaused(false);
       setNowPlaying({ surah, ayah });
+      setFocusedAyahKey(verseKey(surah, ayah));
+      setPendingScroll(ayah);
     },
-    [stopMemorize]
+    [stopMemorize, setFocusedAyahKey, setPendingScroll]
   );
 
   const handleToggleAyah = useCallback(
@@ -152,6 +172,7 @@ export function useAudioPlayback({
       if (memorizeConfig.active) {
         stopMemorize();
       }
+      setSingleAyahStopAt(null);
       // If same ayah is playing, stop playback
       if (nowPlaying && nowPlaying.surah === surah && nowPlaying.ayah === ayah) {
         setIsAutoPlaying(false);
