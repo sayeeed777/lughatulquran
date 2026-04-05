@@ -27,8 +27,8 @@ const buildCsp = (nonce: string) =>
     "font-src 'self' data: https://verses.quran.foundation https://cdn.jsdelivr.net",
     `style-src 'self' 'nonce-${nonce}'`,
     `script-src 'self' 'nonce-${nonce}'`,
-    "connect-src 'self' https://vitals.vercel-insights.com",
-    "media-src 'self' https://everyayah.com https://audio.qurancdn.com",
+    "connect-src 'self' https://vitals.vercel-insights.com https://api.quran.com",
+    "media-src 'self' https://everyayah.com https://audio.qurancdn.com https://download.quranicaudio.com",
     "worker-src 'self'",
     "manifest-src 'self'"
   ].join("; ");
