@@ -1144,6 +1144,17 @@
   color: var(--text-primary);
 }
 
+.study-ayah-word-trigger.playback-active {
+  color: var(--accent-2);
+  text-shadow: 0 0 0.45em rgba(111, 212, 177, 0.18);
+}
+
+.study-ayah-word-trigger.active.playback-active {
+  background: color-mix(in srgb, var(--accent-2) 14%, rgba(205, 176, 124, 0.22) 86%);
+  color: var(--text-primary);
+  text-shadow: none;
+}
+
 .study-ayah-translation {
   font-size: calc(1rem * var(--translation-scale, 1));
   line-height: 1.8;

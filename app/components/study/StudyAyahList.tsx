@@ -24,6 +24,7 @@ type StudyAyahListProps = {
   viewMode: "surah" | "juz" | "page";
   scopeLabel?: string;
   nowPlaying: { surah: number; ayah: number } | null;
+  activeWordPosition: number | null;
   isAudioPaused: boolean;
   focusedAyahKey: string | null;
   dimNonFocused: boolean;
@@ -63,6 +64,7 @@ export default function StudyAyahList({
   viewMode,
   scopeLabel,
   nowPlaying,
+  activeWordPosition,
   isAudioPaused,
   focusedAyahKey,
   dimNonFocused,
@@ -141,6 +143,11 @@ export default function StudyAyahList({
               scopeIndex={index + 1}
               viewMode={viewMode}
               isActivePlay={isActivePlay}
+              activeWordPosition={
+                isPlaying
+                  ? activeWordPosition
+                  : null
+              }
               isFocused={isFocused}
               isMarked={isMarked}
               isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
@@ -191,6 +198,7 @@ export default function StudyAyahList({
       isBookmarked,
       isMushafView,
       nowPlaying,
+      activeWordPosition,
       onFocusAyahKey,
       onOpenMemorize,
       onOpenNote,

@@ -143,6 +143,12 @@
   border-color: rgba(0, 0, 0, 0.12);
 }
 
+:root[data-theme="bw"] .ayah-arabic-word.active,
+:root[data-theme="bw"] .study-ayah-word-trigger.playback-active {
+  color: #0f766e;
+  text-shadow: none;
+}
+
 :root[data-theme="bw"] .ayah-number-badge {
   background: rgba(0, 0, 0, 0.05);
   color: var(--muted);

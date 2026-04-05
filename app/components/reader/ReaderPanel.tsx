@@ -67,6 +67,7 @@ export default function ReaderPanel() {
     nowPlaying,
     isAutoPlaying,
     isAudioPaused,
+    activeWordPosition,
     audioSrc,
     nextAudioSrc,
     reciterLabel,
@@ -77,6 +78,7 @@ export default function ReaderPanel() {
     surahPageStart,
     surahPageEnd,
     setReciterId,
+    setActiveWordPosition,
     handlePlaySurah: onPlaySurah,
     handleStopAutoPlay: onStopAutoPlay,
     handleAudioEnded: onAudioEnded,
@@ -484,6 +486,7 @@ export default function ReaderPanel() {
         surahPageStart={surahPageStart}
         surahPageEnd={surahPageEnd}
         showPlayerBar={false}
+        onWordTimingChange={setActiveWordPosition}
       />
 
       {activeError && <InlineError title="Reader unavailable" message={activeError} onRetry={onRetry} />}
@@ -527,6 +530,7 @@ export default function ReaderPanel() {
                     hasNote={hasNote}
                     isFocused={isFocused}
                     nowPlaying={nowPlaying}
+                    activeWordPosition={activeWordPosition}
                     isAudioPaused={isAudioPaused}
                     showTransliteration={showTransliteration}
                     verseKey={key}
@@ -585,6 +589,7 @@ export default function ReaderPanel() {
                         hasNote={hasNote}
                         isFocused={isFocused}
                         nowPlaying={nowPlaying}
+                        activeWordPosition={activeWordPosition}
                         isAudioPaused={isAudioPaused}
                         words={words}
                         showWordByWord={showWordByWord}

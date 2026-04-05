@@ -66,6 +66,7 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     nowPlaying={audio.nowPlaying}
                     isAutoPlaying={audio.isAutoPlaying}
                     isAudioPaused={audio.isAudioPaused}
+                    activeWordPosition={audio.activeWordPosition}
                     audioSrc={audioSrc}
                     nextAudioSrc={nextAudioSrc}
                     reciterLabel={audio.selectedReciter.label}
@@ -79,6 +80,7 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     selectedReciter={audio.selectedReciter}
                     playbackRate={audio.playbackRate}
                     setPlaybackRate={audio.setPlaybackRate}
+                    setActiveWordPosition={audio.setActiveWordPosition}
                     handlePlaySurah={audio.handlePlaySurah}
                     handleStopAutoPlay={audio.handleStopAutoPlay}
                     handleAudioEnded={audio.handleAudioEnded}

@@ -9,6 +9,7 @@ type AudioContextValue = {
     nowPlaying: NowPlaying | null;
     isAutoPlaying: boolean;
     isAudioPaused: boolean;
+    activeWordPosition: number | null;
     audioSrc: string | null;
     nextAudioSrc: string | null;
     reciterLabel: string;
@@ -23,6 +24,7 @@ type AudioContextValue = {
     selectedReciter: Reciter;
     playbackRate: number;
     setPlaybackRate: SetState<number>;
+    setActiveWordPosition: SetState<number | null>;
     // Actions
     handlePlaySurah: (startAyah: number) => void;
     handleStopAutoPlay: () => void;
@@ -40,6 +42,7 @@ export function AudioProvider({ children, ...props }: AudioProviderProps) {
         nowPlaying: props.nowPlaying,
         isAutoPlaying: props.isAutoPlaying,
         isAudioPaused: props.isAudioPaused,
+        activeWordPosition: props.activeWordPosition,
         audioSrc: props.audioSrc,
         nextAudioSrc: props.nextAudioSrc,
         reciterLabel: props.reciterLabel,
@@ -53,18 +56,19 @@ export function AudioProvider({ children, ...props }: AudioProviderProps) {
         selectedReciter: props.selectedReciter,
         playbackRate: props.playbackRate,
         setPlaybackRate: props.setPlaybackRate,
+        setActiveWordPosition: props.setActiveWordPosition,
         handlePlaySurah: props.handlePlaySurah,
         handleStopAutoPlay: props.handleStopAutoPlay,
         handleAudioEnded: props.handleAudioEnded,
         handlePlayAyah: props.handlePlayAyah,
         handleToggleAyah: props.handleToggleAyah,
     }), [
-        props.nowPlaying, props.isAutoPlaying, props.isAudioPaused,
+        props.nowPlaying, props.isAutoPlaying, props.isAudioPaused, props.activeWordPosition,
         props.audioSrc, props.nextAudioSrc, props.reciterLabel,
         props.reciterBaseUrl, props.nowPlayingLabel, props.nowPlayingPage,
         props.surahPageStart, props.surahPageEnd, props.reciterId,
         props.setReciterId, props.selectedReciter, props.playbackRate,
-        props.setPlaybackRate, props.handlePlaySurah, props.handleStopAutoPlay,
+        props.setPlaybackRate, props.setActiveWordPosition, props.handlePlaySurah, props.handleStopAutoPlay,
         props.handleAudioEnded, props.handlePlayAyah, props.handleToggleAyah,
     ]);
     return (

@@ -53,6 +53,31 @@ export type NowPlaying = {
   ayah: number;
 };
 
+export type ChapterWordTiming = {
+  position: number;
+  fromMs: number;
+  toMs: number;
+};
+
+export type ChapterVerseTiming = {
+  ayah: number;
+  fromMs: number;
+  toMs: number;
+  words: ChapterWordTiming[];
+};
+
+export type ChapterAudioTimingSnapshot = {
+  reciterId: string;
+  reciterApiId: number;
+  surah: number;
+  audioUrl: string;
+  timings: ChapterVerseTiming[];
+  source?: {
+    provider?: string;
+    fetchedAt?: string | null;
+  };
+};
+
 export type MemorizeConfig = {
   active: boolean;
   startAyah: number;

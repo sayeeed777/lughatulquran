@@ -11,6 +11,7 @@ type AyahCardProps = {
   hasNote?: boolean;
   isFocused?: boolean;
   nowPlaying?: NowPlaying | null;
+  activeWordPosition?: number | null;
   isAudioPaused?: boolean;
   words?: Word[];
   showWordByWord?: boolean;
@@ -34,6 +35,7 @@ const AyahCard = memo(function AyahCard({
   hasNote,
   isFocused,
   nowPlaying,
+  activeWordPosition,
   isAudioPaused,
   words = [],
   showWordByWord,
@@ -53,6 +55,7 @@ const AyahCard = memo(function AyahCard({
   const isNowPlaying =
     nowPlaying && nowPlaying.surah === surahNumber && nowPlaying.ayah === ayah.number;
   const isPlaying = isNowPlaying && !isAudioPaused;
+  const shouldSplitArabic = Boolean(isNowPlaying && words.length);
 
   // Translation label map
   const translationLabels: Record<string, string> = {
@@ -177,9 +180,26 @@ const AyahCard = memo(function AyahCard({
           </button>
         </div>
       </div>
-      <p className="ayah-arabic" lang="ar" dir="rtl">
-        {formatArabic(ayah.arabic || "")}
-      </p>
+      {shouldSplitArabic ? (
+        <p className="ayah-arabic ayah-arabic-highlightable" lang="ar" dir="rtl">
+          {words.map((word, wordIndex) => {
+            const position = Number(word.position) || wordIndex + 1;
+            const isActiveWord = isPlaying && activeWordPosition === position;
+            return (
+              <span
+                key={`${key}-arabic-word-${position}-${wordIndex}`}
+                className={`ayah-arabic-word${isActiveWord ? " active" : ""}`}
+              >
+                {word.arabic}
+              </span>
+            );
+          })}
+        </p>
+      ) : (
+        <p className="ayah-arabic" lang="ar" dir="rtl">
+          {formatArabic(ayah.arabic || "")}
+        </p>
+      )}
       {showTransliteration && ayah.transliteration ? (
         <p dir="auto" className="ayah-transliteration">
           {ayah.transliteration}

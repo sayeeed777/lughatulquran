@@ -58,6 +58,7 @@ export default function StudyModeView({
     nowPlaying,
     isAutoPlaying,
     isAudioPaused,
+    activeWordPosition,
     audioSrc,
     reciterLabel,
     reciterBaseUrl,
@@ -68,6 +69,7 @@ export default function StudyModeView({
     setReciterId,
     playbackRate,
     setPlaybackRate,
+    setActiveWordPosition,
     handleStopAutoPlay: onStopAutoPlay,
     handlePlaySurah: onPlaySurah,
     handlePlayAyah: onPlayAyah,
@@ -461,6 +463,7 @@ export default function StudyModeView({
           focusedAyahKey={focusedAyahKey}
           dimNonFocused={dimNonFocused}
           nowPlaying={nowPlaying}
+          activeWordPosition={activeWordPosition}
           isAudioPaused={isAudioPaused}
           onFocusAyahKey={setFocusedAyahKey}
           onTogglePlay={handleStudyAyahPlay}
@@ -516,6 +519,7 @@ export default function StudyModeView({
           surahPageStart={surahPageStart}
           surahPageEnd={surahPageEnd}
           showPlayerBar={false}
+          onWordTimingChange={setActiveWordPosition}
           memorizeActive={Boolean(memorizeConfig?.active)}
           memorizeStartAyah={memorizeConfig?.startAyah}
           memorizeEndAyah={memorizeConfig?.endAyah}

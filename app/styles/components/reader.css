@@ -499,6 +499,25 @@
   margin: 12px 0 8px;
 }
 
+.ayah-arabic-highlightable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  gap: 0.08em 0.16em;
+}
+
+.ayah-arabic-word {
+  unicode-bidi: isolate;
+  padding: 0;
+  transition: color 0.18s ease, text-shadow 0.18s ease, opacity 0.18s ease;
+}
+
+.ayah-arabic-word.active {
+  color: var(--accent-2);
+  text-shadow: 0 0 0.45em rgba(111, 212, 177, 0.18);
+}
+
 .ayah-translation {
   color: var(--muted);
   font-size: calc(var(--text-base) * var(--translation-scale));

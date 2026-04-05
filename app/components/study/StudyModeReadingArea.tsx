@@ -25,6 +25,7 @@ type StudyModeReadingAreaProps = {
   focusedAyahKey: string | null;
   dimNonFocused: boolean;
   nowPlaying: NowPlaying | null;
+  activeWordPosition: number | null;
   isAudioPaused: boolean;
   onFocusAyahKey: (key: string) => void;
   onTogglePlay: (surah: number, ayah: number) => void;
@@ -76,6 +77,7 @@ export default function StudyModeReadingArea({
   focusedAyahKey,
   dimNonFocused,
   nowPlaying,
+  activeWordPosition,
   isAudioPaused,
   onFocusAyahKey,
   onTogglePlay,
@@ -175,6 +177,7 @@ export default function StudyModeReadingArea({
           viewMode={studyScopeMode}
           scopeLabel={activeScopeLabel}
           nowPlaying={nowPlaying}
+          activeWordPosition={activeWordPosition}
           isAudioPaused={isAudioPaused}
           focusedAyahKey={focusedAyahKey}
           dimNonFocused={dimNonFocused}

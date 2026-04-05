@@ -18,6 +18,7 @@
     "verify:prayer": "node scripts/verify-prayer-times.mjs",
     "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs",
     "ingest:root-explorer": "node scripts/fetch-root-explorer.mjs",
+    "ingest:audio-timings": "node scripts/fetch-audio-timings.mjs",
     "split:quran-seo-text": "node scripts/split-quran-seo-text.mjs"
   },
   "dependencies": {

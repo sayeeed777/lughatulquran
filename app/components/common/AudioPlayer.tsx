@@ -1,8 +1,9 @@
 "use client";
 
 import { useRef, useEffect, useCallback } from "react";
+import { getTimingPositionFix, isWordHighlightDisabled } from "../../lib/audioTimingSafety";
 import { pad } from "../../lib/utils";
-import type { Surah } from "../../lib/types";
+import type { ChapterAudioTimingSnapshot, ChapterVerseTiming, ChapterWordTiming, Surah } from "../../lib/types";
 
 type SurahSummary = Pick<Surah, "number" | "numberOfAyahs">;
 
@@ -36,12 +37,14 @@ type AudioPlayerProps = {
   memorizeEndAyah?: number;
   memorizeLoops?: number;
   memorizeRemaining?: number;
+  onWordTimingChange?: (position: number | null) => void;
 };
 
 type ChapterTimestamp = {
   verse_key?: string;
   timestamp_from?: number;
   timestamp_to?: number;
+  segments?: unknown[];
 };
 
 type ChapterRecitationResponse = {
@@ -49,12 +52,6 @@ type ChapterRecitationResponse = {
     audio_url?: string;
     timestamps?: ChapterTimestamp[];
   };
-};
-
-type ChapterVerseTiming = {
-  ayah: number;
-  fromMs: number;
-  toMs: number;
 };
 
 type ChapterAudioData = {
@@ -74,6 +71,8 @@ const QURAN_API_RECITER_BY_LOCAL_ID: Record<string, number> = {
   minshawi: 8
 };
 
+const LOCAL_TIMING_RECITER_IDS = new Set(["husary", "alafasy"]);
+
 const parseAyahFromVerseKey = (verseKey?: string): number | null => {
   if (!verseKey) return null;
   const [, ayahRaw] = verseKey.split(":");
@@ -85,6 +84,78 @@ const normalizeAudioUrl = (audioUrl?: string): string | null => {
   if (!audioUrl) return null;
   if (/^https?:\/\//i.test(audioUrl)) return audioUrl;
   return `https://audio.qurancdn.com/${audioUrl.replace(/^\/+/, "")}`;
+};
+
+const normalizeWordSegments = (segments?: unknown[]): ChapterWordTiming[] => {
+  if (!Array.isArray(segments)) return [];
+
+  return segments
+    .map((segment) => {
+      if (!Array.isArray(segment) || segment.length < 3) return null;
+      const position = Number(segment[0]);
+      const fromMs = Number(segment[1]);
+      const toMs = Number(segment[2]);
+      if (
+        !Number.isInteger(position)
+        || position < 1
+        || !Number.isFinite(fromMs)
+        || !Number.isFinite(toMs)
+        || toMs < fromMs
+      ) {
+        return null;
+      }
+      return { position, fromMs, toMs };
+    })
+    .filter((segment): segment is ChapterWordTiming => segment !== null);
+};
+
+const applyKnownTimingPositionFix = (
+  reciterId: string,
+  surahNumber: number,
+  ayahNumber: number,
+  words: ChapterWordTiming[]
+) => {
+  const expectedPositions = getTimingPositionFix(reciterId, surahNumber, ayahNumber);
+  if (!expectedPositions || expectedPositions.length !== words.length) {
+    return words;
+  }
+
+  return words.map((word, index) => ({
+    ...word,
+    position: expectedPositions[index] ?? word.position
+  }));
+};
+
+const normalizeStoredWordTimings = (
+  reciterId: string,
+  surahNumber: number,
+  ayahNumber: number,
+  words?: ChapterWordTiming[]
+): ChapterWordTiming[] => {
+  if (!Array.isArray(words)) return [];
+  if (isWordHighlightDisabled(reciterId, surahNumber, ayahNumber)) {
+    return [];
+  }
+
+  const normalized = words
+    .map((word) => {
+      const position = Number(word?.position);
+      const fromMs = Number(word?.fromMs);
+      const toMs = Number(word?.toMs);
+      if (
+        !Number.isInteger(position)
+        || position < 1
+        || !Number.isFinite(fromMs)
+        || !Number.isFinite(toMs)
+        || toMs < fromMs
+      ) {
+        return null;
+      }
+      return { position, fromMs, toMs };
+    })
+    .filter((word): word is ChapterWordTiming => word !== null);
+
+  return applyKnownTimingPositionFix(reciterId, surahNumber, ayahNumber, normalized);
 };
 
 type ActivateChapterModeOptions = {
@@ -113,7 +184,8 @@ export default function AudioPlayer({
   memorizeStartAyah = 1,
   memorizeEndAyah = 1,
   memorizeLoops = 0,
-  memorizeRemaining = 0
+  memorizeRemaining = 0,
+  onWordTimingChange
 }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const preloadRef = useRef<HTMLAudioElement | null>(null);
@@ -124,6 +196,7 @@ export default function AudioPlayer({
   const chapterKeyRef = useRef<string | null>(null);
   const chapterCurrentAyahRef = useRef<number | null>(null);
   const chapterTimingIndexRef = useRef(0);
+  const activeWordPositionRef = useRef<number | null>(null);
   const chapterSwitchingRef = useRef(false);
   const chapterCacheRef = useRef<Map<string, ChapterAudioData>>(new Map());
   const audioSrcRef = useRef<string | null>(audioSrc);
@@ -171,12 +244,19 @@ export default function AudioPlayer({
     selectedSurahRef.current = selectedSurah;
   }, [selectedSurah]);
 
+  const emitWordTimingChange = useCallback((position: number | null) => {
+    if (activeWordPositionRef.current === position) return;
+    activeWordPositionRef.current = position;
+    onWordTimingChange?.(position);
+  }, [onWordTimingChange]);
+
   const disableChapterMode = useCallback(() => {
     chapterModeRef.current = false;
     chapterKeyRef.current = null;
     chapterCurrentAyahRef.current = null;
     chapterTimingIndexRef.current = 0;
-  }, []);
+    emitWordTimingChange(null);
+  }, [emitWordTimingChange]);
 
   const getChapterCacheKey = useCallback((localReciterId: string, surahNumber: number) => {
     return `${localReciterId}:${surahNumber}`;
@@ -190,6 +270,55 @@ export default function AudioPlayer({
       const cacheKey = getChapterCacheKey(localReciterId, surahNumber);
       const cached = chapterCacheRef.current.get(cacheKey);
       if (cached) return cached;
+
+      if (LOCAL_TIMING_RECITER_IDS.has(localReciterId)) {
+        const localResponse = await fetch(`/api/audio-timings/${localReciterId}/${surahNumber}`);
+        if (!localResponse.ok) return null;
+
+        const localPayload = (await localResponse.json()) as ChapterAudioTimingSnapshot;
+        const localAudioUrl = normalizeAudioUrl(localPayload.audioUrl);
+        const localTimings: ChapterVerseTiming[] = Array.isArray(localPayload.timings)
+          ? localPayload.timings
+              .map((item) => {
+                const ayah = Number(item?.ayah);
+                const fromMs = Number(item?.fromMs);
+                const toMs = Number(item?.toMs);
+                if (
+                  !Number.isInteger(ayah)
+                  || ayah < 1
+                  || !Number.isFinite(fromMs)
+                  || !Number.isFinite(toMs)
+                  || toMs < fromMs
+                ) {
+                  return null;
+                }
+
+                return {
+                  ayah,
+                  fromMs,
+                  toMs,
+                  words: normalizeStoredWordTimings(localReciterId, surahNumber, ayah, item?.words)
+                };
+              })
+              .filter((item): item is ChapterVerseTiming => item !== null)
+          : [];
+
+        if (!localAudioUrl || !localTimings.length) return null;
+
+        const byAyah = new Map<number, ChapterVerseTiming>();
+        for (const timing of localTimings) {
+          byAyah.set(timing.ayah, timing);
+        }
+
+        const chapterData: ChapterAudioData = {
+          audioUrl: localAudioUrl,
+          timings: localTimings,
+          byAyah
+        };
+
+        chapterCacheRef.current.set(cacheKey, chapterData);
+        return chapterData;
+      }
 
       const response = await fetch(
         `https://api.quran.com/api/v4/chapter_recitations/${reciterApiId}/${surahNumber}?segments=true`
@@ -209,7 +338,12 @@ export default function AudioPlayer({
           if (!ayah || !Number.isFinite(fromMs) || !Number.isFinite(toMs) || toMs < fromMs) {
             return null;
           }
-          return { ayah, fromMs, toMs };
+          return {
+            ayah,
+            fromMs,
+            toMs,
+            words: normalizeWordSegments(item.segments)
+          };
         })
         .filter((item): item is ChapterVerseTiming => item !== null);
 
@@ -258,6 +392,26 @@ export default function AudioPlayer({
 
     chapterTimingIndexRef.current = index;
     return current.ayah;
+  }, []);
+
+  const resolveWordAtTimestamp = useCallback((timing: ChapterVerseTiming | undefined, currentTimeMs: number) => {
+    if (!timing?.words?.length) return null;
+
+    const inRange = timing.words.find(
+      (word) => currentTimeMs >= word.fromMs && currentTimeMs <= word.toMs
+    );
+    if (inRange) return inRange.position;
+
+    let fallback: number | null = null;
+    for (const word of timing.words) {
+      if (currentTimeMs >= word.fromMs) {
+        fallback = word.position;
+        continue;
+      }
+      break;
+    }
+
+    return fallback;
   }, []);
 
   const activateChapterMode = useCallback(
@@ -366,6 +520,7 @@ export default function AudioPlayer({
     const audio = audioRef.current;
     if (!audio) return;
     const handleEnded = () => {
+      emitWordTimingChange(null);
       retryCountRef.current = 0;
       if (isAutoPlayingRef.current && memorizeActiveRef.current) {
         // Keep memorize/repeat in ayah mode so repeat boundaries are exact.
@@ -429,7 +584,7 @@ export default function AudioPlayer({
     };
     audio.addEventListener("ended", handleEnded);
     return () => audio.removeEventListener("ended", handleEnded);
-  }, [disableChapterMode, getNextSrcFromCurrent, onAudioEnded, onStopAutoPlay]);
+  }, [disableChapterMode, emitWordTimingChange, getNextSrcFromCurrent, onAudioEnded, onStopAutoPlay]);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -441,11 +596,20 @@ export default function AudioPlayer({
       if (!cacheKey) return;
 
       const chapterData = chapterCacheRef.current.get(cacheKey);
-      if (!chapterData) return;
+      if (!chapterData) {
+        emitWordTimingChange(null);
+        return;
+      }
 
       const currentTimeMs = Math.floor(audio.currentTime * 1000);
       const ayahAtTime = resolveAyahAtTimestamp(chapterData, currentTimeMs);
-      if (!ayahAtTime) return;
+      if (!ayahAtTime) {
+        emitWordTimingChange(null);
+        return;
+      }
+
+      const currentTiming = chapterData.byAyah.get(ayahAtTime);
+      emitWordTimingChange(resolveWordAtTimestamp(currentTiming, currentTimeMs));
 
       const trackedAyah = chapterCurrentAyahRef.current;
       if (!trackedAyah) {
@@ -461,7 +625,13 @@ export default function AudioPlayer({
 
     audio.addEventListener("timeupdate", handleTimeUpdate);
     return () => audio.removeEventListener("timeupdate", handleTimeUpdate);
-  }, [onAudioEnded, resolveAyahAtTimestamp]);
+  }, [emitWordTimingChange, onAudioEnded, resolveAyahAtTimestamp, resolveWordAtTimestamp]);
+
+  useEffect(() => {
+    if (isAudioPaused || !isAutoPlaying || !chapterModeRef.current) {
+      emitWordTimingChange(null);
+    }
+  }, [emitWordTimingChange, isAudioPaused, isAutoPlaying]);
 
   // Background resilience: recover from network/decoder stalls while autoplaying.
   useEffect(() => {

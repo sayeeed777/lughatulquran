@@ -192,6 +192,7 @@ export function useHomeController() {
     nowPlaying,
     isAutoPlaying,
     isAudioPaused,
+    activeWordPosition,
     handlePlaySurah,
     handleStopAutoPlay,
     handleAudioEnded,
@@ -199,7 +200,8 @@ export function useHomeController() {
     handleToggleAyah,
     setNowPlaying,
     setIsAutoPlaying,
-    setIsAudioPaused
+    setIsAudioPaused,
+    setActiveWordPosition
   } = useAudioPlayback({
     selectedSurah,
     memorizeConfig,
@@ -386,7 +388,10 @@ export function useHomeController() {
     loading: wordLoading,
     error: wordError,
     refetch: refetchWordByWord
-  } = useWordByWord(selectedSurah?.number, showWordByWord || readingMode);
+  } = useWordByWord(
+    selectedSurah?.number,
+    showWordByWord || readingMode || Boolean(nowPlaying && selectedSurah?.number === nowPlaying.surah)
+  );
   // Plan Summary
   const { planSummary, formatRangeLabel } = useHomePlan(
     surahs,
@@ -585,6 +590,7 @@ export function useHomeController() {
       nowPlaying,
       isAutoPlaying,
       isAudioPaused,
+      activeWordPosition,
       nowPlayingLabel,
       handlePlaySurah,
       handleStopAutoPlay,
@@ -595,7 +601,8 @@ export function useHomeController() {
       setReciterId,
       selectedReciter,
       playbackRate,
-      setPlaybackRate
+      setPlaybackRate,
+      setActiveWordPosition
     },
     bookmarks: {
       bookmarks,

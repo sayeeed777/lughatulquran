@@ -26,6 +26,7 @@ type StudyAyahCardProps = {
   scopeIndex: number;
   viewMode: "surah" | "juz" | "page";
   isActivePlay: boolean;
+  activeWordPosition?: number | null;
   isFocused: boolean;
   isMarked: boolean;
   isDimmed: boolean;
@@ -66,6 +67,7 @@ function StudyAyahCardComponent({
   scopeIndex,
   viewMode,
   isActivePlay,
+  activeWordPosition,
   isFocused,
   isMarked,
   isDimmed,
@@ -393,11 +395,12 @@ function StudyAyahCardComponent({
             {words.map((word, wordIndex) => {
               const position = Number(word.position) || wordIndex + 1;
               const isSelected = selectedWordPosition === position;
+              const isPlaybackActive = isActivePlay && activeWordPosition === position;
               return (
                 <button
                   key={`${cardId}-arabic-word-${position}`}
                   type="button"
-                  className={`study-ayah-word-trigger${isSelected ? " active" : ""}`}
+                  className={`study-ayah-word-trigger${isSelected ? " active" : ""}${isPlaybackActive ? " playback-active" : ""}`}
                   onClick={(event) => {
                     event.stopPropagation();
                     onWordSelect(word, ayahNumber, wordIndex);

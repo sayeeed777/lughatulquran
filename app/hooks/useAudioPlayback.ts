@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import type { Dispatch, SetStateAction } from "react";
 import { verseKey } from "../lib/utils";
 import type { Surah, MemorizeConfig, NowPlaying } from "../lib/types";
@@ -29,6 +29,13 @@ export function useAudioPlayback({
   const [nowPlaying, setNowPlaying] = useState<NowPlaying | null>(null);
   const [isAutoPlaying, setIsAutoPlaying] = useState(false);
   const [isAudioPaused, setIsAudioPaused] = useState(false);
+  const [activeWordPosition, setActiveWordPosition] = useState<number | null>(null);
+
+  useEffect(() => {
+    if (!nowPlaying || !isAutoPlaying) {
+      setActiveWordPosition(null);
+    }
+  }, [nowPlaying?.surah, nowPlaying?.ayah, isAutoPlaying]);
 
   const stopMemorize = useCallback(() => {
     setMemorizeConfig((prev) => ({ ...prev, active: false, remaining: 0 }));
@@ -167,6 +174,7 @@ export function useAudioPlayback({
     nowPlaying,
     isAutoPlaying,
     isAudioPaused,
+    activeWordPosition,
     // Actions
     handlePlaySurah,
     handleStopAutoPlay,
@@ -175,6 +183,7 @@ export function useAudioPlayback({
     handleToggleAyah,
     setNowPlaying,
     setIsAutoPlaying,
-    setIsAudioPaused
+    setIsAudioPaused,
+    setActiveWordPosition
   };
 }
