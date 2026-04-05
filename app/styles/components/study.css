@@ -2986,6 +2986,12 @@
     border-radius: 0;
     border-left: none;
     border-right: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
   }
 
   .study-lexicon-modal.root-modal {
@@ -2996,6 +3002,12 @@
     border-radius: 0;
     border-left: none;
     border-right: none;
+    border-top: none;
+    border-bottom: none;
+    box-shadow: none;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
   }
 
   .study-lexicon-backdrop.root-layer {
