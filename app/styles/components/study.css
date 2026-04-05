@@ -2155,10 +2155,12 @@
 
 .study-lexicon-modal.root-modal {
   width: min(620px, 96vw);
+  background: #101418;
 }
 
 .study-lexicon-modal.root-explorer-modal {
   width: min(860px, 96vw);
+  background: #101418;
 }
 
 .study-lexicon-header {
@@ -2976,9 +2978,32 @@
     border-radius: var(--radius-lg);
   }
 
+  .study-lexicon-modal.root-explorer-modal {
+    width: 100vw;
+    max-width: none;
+    max-height: 100dvh;
+    min-height: 100dvh;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .study-lexicon-modal.root-modal {
+    width: 100vw;
+    max-width: none;
+    max-height: 100dvh;
+    min-height: 100dvh;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
   .study-lexicon-backdrop.root-layer {
     background: transparent;
     backdrop-filter: none;
+    padding: 0;
+    align-items: stretch;
+    justify-content: stretch;
   }
 
   .study-lexicon-header {
@@ -2999,7 +3024,7 @@
   }
 
   .study-root-explorer-hero {
-    padding: 16px;
+    padding: 18px;
     gap: 14px;
   }
 
@@ -3008,17 +3033,62 @@
     gap: 12px;
   }
 
+  .study-lexicon-modal.root-explorer-modal .study-lexicon-header {
+    padding: 12px 14px 10px;
+  }
+
+  .study-lexicon-modal.root-modal .study-lexicon-header {
+    padding: 12px 14px 10px;
+  }
+
+  .study-lexicon-modal.root-explorer-modal .study-lexicon-body {
+    padding: 12px 14px calc(18px + env(safe-area-inset-bottom));
+  }
+
+  .study-lexicon-modal.root-modal .study-lexicon-body {
+    padding: 12px 14px calc(18px + env(safe-area-inset-bottom));
+  }
+
   .study-root-explorer-root {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   .study-root-explorer-summary {
     font-size: 0.94rem;
-    line-height: 1.7;
+    line-height: 1.68;
+  }
+
+  .study-root-explorer-hero {
+    padding: 14px;
+  }
+
+  .study-root-explorer-hero-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .study-root-explorer-root-block {
+    min-width: 92px;
+    flex: 0 0 92px;
+  }
+
+  .study-root-explorer-summary-block {
+    gap: 6px;
+  }
+
+  .study-root-explorer-stat {
+    padding: 9px 10px;
+  }
+
+  .study-root-lex-panel {
+    padding: 14px;
   }
 
   .study-lexicon-meta-row {
     gap: 8px;
+    flex-direction: column;
+    align-items: stretch;
   }
 
   .study-lexicon-guide-toggle {
@@ -3029,8 +3099,9 @@
   }
 
   .study-lexicon-guide-popover {
-    width: min(320px, calc(100vw - 48px));
-    right: 0;
+    width: min(320px, calc(100vw - 32px));
+    right: auto;
+    left: 0;
     padding: 9px;
   }
 
@@ -3074,6 +3145,15 @@
   .study-root-surah-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .study-root-surah-card {
+    padding: 13px 14px;
+  }
+
+  .study-root-surah-preview-text {
+    font-size: 1.1rem;
+    line-height: 1.88;
   }
 
   .study-root-surah-heading {
