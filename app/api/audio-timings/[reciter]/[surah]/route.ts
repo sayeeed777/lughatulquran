@@ -3,6 +3,7 @@ import type { NextRequest } from "next/server";
 import { apiRateGuard } from "../../../../lib/apiRateLimit";
 import { getLocalChapterAudioTiming, hasLocalAudioTimingReciter } from "../../../../lib/audioTimings";
 
+export const runtime = "nodejs";
 export const revalidate = 86400;
 
 type RouteContext = {

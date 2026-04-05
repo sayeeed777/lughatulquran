@@ -3,6 +3,10 @@ const isProd = process.env.NODE_ENV === "production";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  outputFileTracingIncludes: {
+    "/api/audio-timings/[reciter]/[surah]": ["./app/data/audio-timings/**/*.json"],
+    "/api/lexicon/root/[root]": ["./app/data/root-explorer/**/*.json"]
+  },
   redirects: async () => [
     {
       source: "/bn/:path*",
