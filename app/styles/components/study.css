@@ -2288,6 +2288,33 @@
   overflow: hidden;
 }
 
+.study-lexicon-word-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-width: 0;
+}
+
+.study-word-audio-icon {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 999px;
+  background: rgba(111, 212, 177, 0.14);
+  color: var(--accent-2);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.study-word-audio-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
 .study-lane-open-btn {
   align-self: flex-start;
   border: none;
@@ -2343,14 +2370,14 @@
 
 .study-lexicon-actions {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: stretch;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 10px;
+  width: 100%;
 }
 
-.study-root-link,
-.study-word-audio-btn {
+.study-root-link {
   border: none;
   border-radius: var(--radius-full);
   padding: 9px 14px;
@@ -2368,15 +2395,15 @@
 .study-root-insight-btn {
   background: linear-gradient(135deg, rgba(111, 212, 177, 0.2), rgba(111, 212, 177, 0.12));
   color: var(--text-primary);
-}
-
-.study-word-audio-btn {
-  background: linear-gradient(135deg, rgba(111, 212, 177, 0.2), rgba(111, 212, 177, 0.12));
-  color: var(--text-primary);
+  width: 100%;
+  min-height: 46px;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
 }
 
 .study-lane-open-btn:hover,
-.study-word-audio-btn:hover,
+.study-word-audio-icon:hover,
 .study-root-insight-btn:hover {
   filter: brightness(1.05);
 }
@@ -3067,15 +3094,23 @@
     align-items: stretch;
   }
 
-  .study-root-link,
-  .study-word-audio-btn {
+  .study-root-link {
     width: 100%;
     justify-content: center;
     display: inline-flex;
   }
 
   .study-root-insight-btn {
-    display: none;
+    display: inline-flex;
+  }
+
+  .study-lexicon-word-row {
+    gap: 8px;
+  }
+
+  .study-word-audio-icon {
+    width: 36px;
+    height: 36px;
   }
 
   .memorize-stepper {

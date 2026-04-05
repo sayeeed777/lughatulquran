@@ -287,9 +287,26 @@ export default function StudyLexiconModals({
                     </div>
                   )}
 
-                  <p className="study-lexicon-word" lang="ar" dir="rtl">
-                    {selectedWordDetails.arabic}
-                  </p>
+                  <div className="study-lexicon-word-row">
+                    {selectedWordDetails.audioUrl ? (
+                      <button
+                        type="button"
+                        className="study-word-audio-icon"
+                        onClick={() => onPlayWordAudio(selectedWordDetails.audioUrl)}
+                        aria-label="Play word audio"
+                        title="Play word audio"
+                      >
+                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">
+                          <path d="M11 5 6.5 9H3v6h3.5L11 19z" fill="currentColor" stroke="none" />
+                          <path d="M15.5 9.5a4 4 0 0 1 0 5" strokeLinecap="round" />
+                          <path d="M17.8 7a7 7 0 0 1 0 10" strokeLinecap="round" />
+                        </svg>
+                      </button>
+                    ) : null}
+                    <p className="study-lexicon-word" lang="ar" dir="rtl">
+                      {selectedWordDetails.arabic}
+                    </p>
+                  </div>
                 </div>
 
                 {selectedWordDetails.translation ? (
@@ -334,15 +351,6 @@ export default function StudyLexiconModals({
                     <span className="study-lexicon-unavailable">Root unavailable</span>
                   )}
 
-                  {selectedWordDetails.audioUrl ? (
-                    <button
-                      type="button"
-                      className="study-word-audio-btn"
-                      onClick={() => onPlayWordAudio(selectedWordDetails.audioUrl)}
-                    >
-                      Play word audio
-                    </button>
-                  ) : null}
                 </div>
               </div>
             </motion.div>
