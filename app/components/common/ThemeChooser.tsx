@@ -11,7 +11,7 @@ const THEMES: { id: ThemeName; label: string; colors: [string, string, string] }
   { id: "bw", label: "Black & White", colors: ["#ffffff", "#f5f5f5", "#111111"] },
   { id: "bw-dark", label: "Dark B&W", colors: ["#000000", "#111111", "#ffffff"] },
   { id: "mist", label: "Mist", colors: ["#263d42", "#2a4247", "#8fb299"] },
-  { id: "sky", label: "Sky", colors: ["#b8d4e4", "#dbeaf2", "#567f9a"] }
+  { id: "sky", label: "Sky", colors: ["#b8d4e4", "#dbeaf2", "#1b6b80"] }
 ];
 
 function ThemeChooser() {

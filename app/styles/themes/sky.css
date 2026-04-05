@@ -17,9 +17,9 @@
   --text: #143149;
   --muted: #4f748a;
 
-  /* Powder-blue accents */
-  --accent: #4d7590;
-  --accent-2: #6f97b1;
+  /* Ocean teal accents */
+  --accent: #1b6b80;
+  --accent-2: #238a9e;
 
   /* Soft blue borders */
   --stroke: rgba(86, 127, 154, 0.12);
@@ -38,7 +38,7 @@
     0 12px 32px rgba(12, 45, 72, 0.1),
     0 32px 64px rgba(12, 45, 72, 0.08);
 
-  --gradient-primary: linear-gradient(135deg, #7ea4bb 0%, #567f9a 100%);
+  --gradient-primary: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
 }
 
 /* Body — Sky blue gradient */
@@ -120,11 +120,11 @@
 }
 
 :root[data-theme="sky"] .settings-select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2340728a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234f748a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 }
 
 :root[data-theme="sky"] .mobile-select {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%2340728a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%234f748a' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
 }
 
 /* Sidebar / surah panel — seamless blend */
@@ -233,7 +233,17 @@
 }
 
 :root[data-theme="sky"] .ayah-card.focused {
-  background: rgba(194, 217, 232, 0.96);
+  background: rgba(215, 234, 244, 0.95);
+}
+
+:root[data-theme="sky"] .ayah-card.active {
+  background: rgba(218, 236, 245, 0.96);
+  border-color: rgba(27, 107, 128, 0.08);
+}
+
+:root[data-theme="sky"] .ayah-number-badge {
+  background: rgba(27, 107, 128, 0.1);
+  color: var(--muted);
 }
 
 :root[data-theme="sky"] .audio-placeholder {
@@ -532,8 +542,8 @@
 }
 
 :root[data-theme="sky"] .study-rail-btn.active {
-  background: #6f97b1;
-  color: #f4f9fc;
+  background: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
+  color: #dbeaf2;
   box-shadow: none;
 }
 
@@ -715,8 +725,8 @@
 }
 
 :root[data-theme="sky"] .memorize-primary {
-  background: #6f97b1;
-  color: #f4f9fc;
+  background: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
+  color: #dbeaf2;
 }
 
 /* Last read card */
@@ -829,8 +839,8 @@
 /* Playing states */
 :root[data-theme="sky"] .study-ayah-card.playing,
 :root[data-theme="sky"] .ayah-card.playing {
-  background: rgba(196, 219, 234, 0.96) !important;
-  border-color: rgba(86, 127, 154, 0.12) !important;
+  background: rgba(218, 236, 245, 0.96) !important;
+  border-color: rgba(27, 107, 128, 0.08) !important;
 }
 
 /* Segmented control */
@@ -901,13 +911,13 @@
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
-  background: rgba(194, 217, 232, 0.96) !important;
+  background: rgba(215, 234, 244, 0.95) !important;
 }
 
 @media (hover: none) and (pointer: coarse) {
   :root[data-theme="sky"] .ayah-card:active,
   :root[data-theme="sky"] .ayah-card:focus {
-    background: rgba(200, 222, 236, 0.94) !important;
+    background: rgba(215, 234, 244, 0.95) !important;
     box-shadow: none !important;
     transition: none !important;
   }
@@ -1160,6 +1170,68 @@
 
 :root[data-theme="sky"] .surah-prayer-hint-dismiss:hover {
   color: #0a4a5a;
+}
+
+/* Tajweed colors — tuned for sky-blue background */
+:root[data-theme="sky"] .study-mode-container .tajweed {
+  color: #2e7a66;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.ham_wasl {
+  color: #7f8a82;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.laam_shamsiyah {
+  color: #b8842e;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.laam_qamariyah {
+  color: #3b6fa3;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.madda_normal,
+:root[data-theme="sky"] .study-mode-container .tajweed.madda_permissible,
+:root[data-theme="sky"] .study-mode-container .tajweed.madda_obligatory {
+  color: #3b6fa3;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.madda_necessary {
+  color: #b2553b;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.qalqalah,
+:root[data-theme="sky"] .study-mode-container .tajweed.qalaqah {
+  color: #b84242;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.ikhafa,
+:root[data-theme="sky"] .study-mode-container .tajweed.ikhafa_shafawi,
+:root[data-theme="sky"] .study-mode-container .tajweed.ikhfaa {
+  color: #6a4bb3;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.iqlab {
+  color: #2b7ba3;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.idgham_with_ghunnah,
+:root[data-theme="sky"] .study-mode-container .tajweed.idgham_shafawi,
+:root[data-theme="sky"] .study-mode-container .tajweed.ghunnah {
+  color: #2f7d4b;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.idgham_without_ghunnah {
+  color: #2c6aa6;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.idgham_wo_ghunnah {
+  color: #2c6aa6;
+}
+
+:root[data-theme="sky"] .study-mode-container .tajweed.slnt {
+  color: #7f8a82;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 /* Select arrow SVGs */
