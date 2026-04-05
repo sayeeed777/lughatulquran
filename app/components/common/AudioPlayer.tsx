@@ -438,6 +438,7 @@ export default function AudioPlayer({
         : currentNowPlaying.ayah;
 
       chapterSwitchingRef.current = true;
+      emitWordTimingChange(null);
       try {
         const chapterData = await fetchChapterAudioData(reciterId, currentNowPlaying.surah);
         if (!chapterData) return false;
@@ -713,11 +714,13 @@ export default function AudioPlayer({
     };
 
     const handleStall = () => {
+      if (chapterSwitchingRef.current) return;
       if (!isAutoPlayingRef.current || isAudioPausedRef.current) return;
       tryRecovery();
     };
 
     const handlePause = () => {
+      if (chapterSwitchingRef.current) return;
       if (pausedByMediaSessionRef.current) return;
       if (!isAutoPlayingRef.current || isAudioPausedRef.current) return;
       if (audio.ended) return;
@@ -778,6 +781,23 @@ export default function AudioPlayer({
         preserveAyahProgress: false,
         allowWhileVisible: true,
         targetAyah: nowPlaying.ayah
+      }).then((activated) => {
+        if (activated) return;
+
+        const audio = audioRef.current;
+        const fallbackSrc = audioSrcRef.current;
+        if (!audio || !fallbackSrc) return;
+        if (chapterModeRef.current || chapterSwitchingRef.current) return;
+
+        if (audio.src !== fallbackSrc) {
+          audio.src = fallbackSrc;
+          audio.load();
+        }
+
+        audio.playbackRate = playbackRateRef.current;
+        if (audio.paused && !isAudioPausedRef.current && !pausedByMediaSessionRef.current) {
+          audio.play().catch(() => {});
+        }
       });
       return;
     }
@@ -828,7 +848,7 @@ export default function AudioPlayer({
       return;
     }
 
-    if (chapterModeRef.current) {
+    if (chapterModeRef.current || chapterSwitchingRef.current) {
       return;
     }
 
