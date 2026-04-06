@@ -2210,17 +2210,26 @@
   margin: 0;
   font-family: var(--font-arabic), serif;
   font-size: clamp(1.85rem, 2.8vw, 2.45rem);
-  line-height: 1.2;
+  line-height: 1.6;
   color: var(--text-primary);
   text-align: right;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
+.study-lexicon-word-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  padding-right: 16px;
+}
+
 .study-lexicon-translation {
   margin: 0;
   color: var(--muted);
   font-size: 0.9rem;
+  text-align: right;
 }
 
 .study-lexicon-top-row {
@@ -2231,18 +2240,16 @@
 }
 
 .study-lexicon-root-focus {
-  border: 1px solid rgba(111, 212, 177, 0.22);
+  border: none;
   background: rgba(111, 212, 177, 0.1);
-  border-radius: var(--radius-full);
-  padding: 8px 12px;
+  border-radius: var(--radius-lg);
+  padding: 14px 24px;
   display: inline-flex;
-  align-items: baseline;
-  gap: 8px;
-  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
   text-align: left;
   min-height: 0;
   max-width: min(72%, 360px);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
 }
 
 .study-lexicon-root-focus.is-unavailable {
@@ -2251,7 +2258,7 @@
 }
 
 .study-lexicon-root-heading {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   letter-spacing: 0.04em;
   color: var(--muted);
   white-space: nowrap;
@@ -2259,8 +2266,8 @@
 
 .study-lexicon-root-arabic {
   font-family: var(--font-arabic), serif;
-  font-size: 1.5rem;
-  line-height: 1;
+  font-size: 1.8rem;
+  line-height: 1.3;
   color: var(--text-primary);
 }
 

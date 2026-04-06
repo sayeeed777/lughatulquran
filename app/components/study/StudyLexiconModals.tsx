@@ -258,12 +258,11 @@ export default function StudyLexiconModals({
               onClick={(event) => event.stopPropagation()}
             >
               <div className="study-lexicon-header">
-                <div>
-                  <p className="study-lexicon-eyebrow">Word</p>
-                  <h3>Word Details</h3>
-                </div>
-                <button className="study-lexicon-close" onClick={onCloseWordDetails} type="button">
-                  ✕
+                <h3>Word Details</h3>
+                <button className="study-lexicon-close" onClick={onCloseWordDetails} type="button" aria-label="Close">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg>
                 </button>
               </div>
 
@@ -287,31 +286,32 @@ export default function StudyLexiconModals({
                     </div>
                   )}
 
-                  <div className="study-lexicon-word-row">
-                    {selectedWordDetails.audioUrl ? (
-                      <button
-                        type="button"
-                        className="study-word-audio-icon"
-                        onClick={() => onPlayWordAudio(selectedWordDetails.audioUrl)}
-                        aria-label="Play word audio"
-                        title="Play word audio"
-                      >
-                        <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">
-                          <path d="M11 5 6.5 9H3v6h3.5L11 19z" fill="currentColor" stroke="none" />
-                          <path d="M15.5 9.5a4 4 0 0 1 0 5" strokeLinecap="round" />
-                          <path d="M17.8 7a7 7 0 0 1 0 10" strokeLinecap="round" />
-                        </svg>
-                      </button>
+                  <div className="study-lexicon-word-block">
+                    <div className="study-lexicon-word-row">
+                      {selectedWordDetails.audioUrl ? (
+                        <button
+                          type="button"
+                          className="study-word-audio-icon"
+                          onClick={() => onPlayWordAudio(selectedWordDetails.audioUrl)}
+                          aria-label="Play word audio"
+                          title="Play word audio"
+                        >
+                          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2">
+                            <path d="M11 5 6.5 9H3v6h3.5L11 19z" fill="currentColor" stroke="none" />
+                            <path d="M15.5 9.5a4 4 0 0 1 0 5" strokeLinecap="round" />
+                            <path d="M17.8 7a7 7 0 0 1 0 10" strokeLinecap="round" />
+                          </svg>
+                        </button>
+                      ) : null}
+                      <p className="study-lexicon-word" lang="ar" dir="rtl">
+                        {selectedWordDetails.arabic}
+                      </p>
+                    </div>
+                    {selectedWordDetails.translation ? (
+                      <p className="study-lexicon-translation">{selectedWordDetails.translation}</p>
                     ) : null}
-                    <p className="study-lexicon-word" lang="ar" dir="rtl">
-                      {selectedWordDetails.arabic}
-                    </p>
                   </div>
                 </div>
-
-                {selectedWordDetails.translation ? (
-                  <p className="study-lexicon-translation">{selectedWordDetails.translation}</p>
-                ) : null}
 
                 <div className="study-lexicon-summary-grid">
                   <div className="study-lexicon-summary-item">
