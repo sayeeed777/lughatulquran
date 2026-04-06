@@ -917,6 +917,11 @@
   color: #333;
 }
 
+:root[data-theme="bw"] .study-root-ayah-highlight {
+  color: #0f766e;
+}
+
+:root[data-theme="bw"] .study-word-audio-icon,
 :root[data-theme="bw"] .study-word-audio-btn {
   background: rgba(0, 0, 0, 0.08);
   color: #333;

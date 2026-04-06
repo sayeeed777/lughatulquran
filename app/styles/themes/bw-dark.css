@@ -910,6 +910,7 @@
   color: #ccc;
 }
 
+:root[data-theme="bw-dark"] .study-word-audio-icon,
 :root[data-theme="bw-dark"] .study-word-audio-btn {
   background: rgba(255, 255, 255, 0.08);
   color: #ccc;

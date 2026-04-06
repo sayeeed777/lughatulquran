@@ -495,6 +495,7 @@
 :root[data-theme="mist"] .study-lane-open-btn,
 :root[data-theme="mist"] .study-root-link,
 :root[data-theme="mist"] .study-root-insight-btn,
+:root[data-theme="mist"] .study-word-audio-icon,
 :root[data-theme="mist"] .study-word-audio-btn {
   background: rgba(190, 220, 198, 0.14);
   color: var(--accent);

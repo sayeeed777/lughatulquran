@@ -517,6 +517,11 @@
   color: var(--accent);
 }
 
+:root[data-theme="light"] .study-root-ayah-highlight {
+  color: #496734;
+}
+
+:root[data-theme="light"] .study-word-audio-icon,
 :root[data-theme="light"] .study-word-audio-btn {
   background: rgba(66, 82, 54, 0.14);
   color: var(--accent);

@@ -2155,12 +2155,10 @@
 
 .study-lexicon-modal.root-modal {
   width: min(620px, 96vw);
-  background: #101418;
 }
 
 .study-lexicon-modal.root-explorer-modal {
   width: min(860px, 96vw);
-  background: #101418;
 }
 
 .study-lexicon-header {
@@ -2314,7 +2312,7 @@
   justify-content: center;
   border: none;
   border-radius: 999px;
-  background: rgba(111, 212, 177, 0.14);
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
   color: var(--accent-2);
   -webkit-tap-highlight-color: transparent;
 }
@@ -2422,7 +2420,8 @@
   font-size: 0.7rem;
   letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.35);
+  color: var(--muted);
+  opacity: 0.8;
   font-weight: 500;
 }
 
@@ -2592,7 +2591,7 @@
   padding: 4px 0 22px;
   background: none;
   border: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid color-mix(in srgb, var(--stroke) 78%, transparent);
   border-radius: 0;
 }
 
@@ -2639,7 +2638,7 @@
   margin: 0;
   font-size: 1rem;
   line-height: 1.75;
-  color: rgba(227, 234, 240, 0.82);
+  color: color-mix(in srgb, var(--text) 88%, transparent);
 }
 
 .study-root-explorer-stats {
@@ -2683,15 +2682,15 @@
   align-items: center;
   border-radius: var(--radius-full);
   padding: 6px 12px;
-  background: rgba(255, 255, 255, 0.04);
-  color: rgba(255, 255, 255, 0.55);
+  background: color-mix(in srgb, var(--text) 7%, transparent);
+  color: color-mix(in srgb, var(--text) 68%, transparent);
   font-size: 0.76rem;
   line-height: 1.45;
 }
 
 .study-root-lex-note.is-wide {
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
+  background: color-mix(in srgb, var(--text) 5%, transparent);
 }
 
 .study-root-lex-entry-row {
@@ -2700,7 +2699,7 @@
   overflow-x: auto;
   padding-bottom: 8px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+  scrollbar-color: color-mix(in srgb, var(--text) 20%, transparent) transparent;
 }
 
 .study-root-lex-entry-row::-webkit-scrollbar {
@@ -2712,12 +2711,12 @@
 }
 
 .study-root-lex-entry-row::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.16);
+  background: color-mix(in srgb, var(--text) 20%, transparent);
   border-radius: 999px;
 }
 
 .study-root-lex-entry-row::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.24);
+  background: color-mix(in srgb, var(--text) 28%, transparent);
 }
 
 .study-root-lex-entry {
@@ -2725,8 +2724,8 @@
   border: none;
   border-radius: var(--radius-full);
   padding: 9px 16px;
-  background: rgba(255, 255, 255, 0.04);
-  color: var(--text-primary);
+  background: color-mix(in srgb, var(--text) 6%, transparent);
+  color: var(--text);
   font-family: var(--font-arabic), serif;
   font-size: 1.3rem;
   line-height: 1.3;
@@ -2735,22 +2734,22 @@
 }
 
 .study-root-lex-entry:hover {
-  background: rgba(255, 255, 255, 0.07);
+  background: color-mix(in srgb, var(--text) 10%, transparent);
 }
 
 .study-root-lex-entry.is-active {
-  background: rgba(111, 212, 177, 0.12);
-  box-shadow: inset 0 0 0 1.5px rgba(111, 212, 177, 0.3);
-  color: var(--text-primary);
+  background: color-mix(in srgb, var(--accent-2) 14%, transparent);
+  box-shadow: inset 0 0 0 1.5px color-mix(in srgb, var(--accent-2) 42%, transparent);
+  color: var(--text);
 }
 
 .study-root-lex-entry:focus-visible {
   outline: none;
-  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.2);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 22%, transparent);
 }
 
 .study-root-lex-html {
-  color: rgba(227, 234, 240, 0.82);
+  color: color-mix(in srgb, var(--text) 88%, transparent);
   font-size: 0.94rem;
   line-height: 1.9;
   overflow-wrap: anywhere;
@@ -2769,7 +2768,7 @@
 }
 
 .study-root-derivative-card {
-  background: rgba(255, 255, 255, 0.04);
+  background: color-mix(in srgb, var(--text) 6%, transparent);
   border: none;
   border-radius: var(--radius-full);
   padding: 8px 14px;
@@ -2781,7 +2780,7 @@
 }
 
 .study-root-derivative-card:hover {
-  background: rgba(255, 255, 255, 0.07);
+  background: color-mix(in srgb, var(--text) 10%, transparent);
 }
 
 .study-root-surah-card,
@@ -2800,7 +2799,7 @@
 
 .study-root-derivative-count {
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.3);
+  color: color-mix(in srgb, var(--muted) 88%, transparent);
   white-space: nowrap;
 }
 
@@ -2816,7 +2815,7 @@
   flex-direction: column;
   gap: 12px;
   background: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid color-mix(in srgb, var(--stroke) 78%, transparent);
   border-radius: 0;
 }
 
@@ -2857,11 +2856,11 @@
   min-height: 26px;
   padding: 0 10px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.04);
+  background: color-mix(in srgb, var(--text) 6%, transparent);
   border: none;
   font-size: 0.74rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.45);
+  color: color-mix(in srgb, var(--text) 60%, transparent);
 }
 
 .study-root-surah-preview-list {
@@ -2869,7 +2868,7 @@
   flex-direction: column;
   gap: 0;
   padding-top: 4px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid color-mix(in srgb, var(--stroke) 78%, transparent);
 }
 
 .study-root-surah-preview {
@@ -2891,7 +2890,7 @@
 }
 
 .study-root-surah-preview:hover {
-  background: rgba(255, 255, 255, 0.03);
+  background: color-mix(in srgb, var(--text) 4%, transparent);
 }
 
 .study-root-surah-preview:focus-visible {
@@ -2904,7 +2903,7 @@
 .study-root-surah-preview-ref {
   font-size: 0.72rem;
   font-weight: 700;
-  color: var(--muted);
+  color: color-mix(in srgb, var(--muted) 92%, transparent);
   letter-spacing: 0.03em;
 }
 
@@ -2919,9 +2918,9 @@
   display: inline-flex;
   align-items: center;
   padding-top: 10px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid color-mix(in srgb, var(--stroke) 78%, transparent);
   font-size: 0.74rem;
-  color: var(--muted);
+  color: color-mix(in srgb, var(--muted) 92%, transparent);
 }
 
 .study-root-surah-chip-row {
@@ -2934,19 +2933,18 @@
   gap: 6px;
   border-radius: var(--radius-full);
   padding: 5px 10px;
-  background: rgba(255, 255, 255, 0.05);
+  background: color-mix(in srgb, var(--text) 6%, transparent);
   font-size: 0.76rem;
   color: var(--text);
 }
 
 .study-root-surah-chip.is-summary {
-  background: rgba(255, 255, 255, 0.04);
+  background: color-mix(in srgb, var(--text) 4%, transparent);
   color: var(--muted);
 }
 
 .study-root-ayah-highlight {
   color: var(--accent-2);
-  font-weight: 700;
 }
 
 @media (max-width: 640px) {
@@ -5900,11 +5898,13 @@
 }
 
 /* Study word audio button */
+:root[data-theme="bw"] .study-word-audio-icon,
 :root[data-theme="bw"] .study-word-audio-btn {
   background: rgba(0, 0, 0, 0.08);
   color: #333;
 }
 
+:root[data-theme="bw"] .study-word-audio-icon:hover,
 :root[data-theme="bw"] .study-word-audio-btn:hover {
   background: rgba(0, 0, 0, 0.12);
 }

@@ -655,6 +655,7 @@
 :root[data-theme="sky"] .study-lane-open-btn,
 :root[data-theme="sky"] .study-root-link,
 :root[data-theme="sky"] .study-root-insight-btn,
+:root[data-theme="sky"] .study-word-audio-icon,
 :root[data-theme="sky"] .study-word-audio-btn {
   background: rgba(20, 78, 95, 0.12);
   color: var(--accent);
