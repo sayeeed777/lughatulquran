@@ -2418,17 +2418,19 @@
 }
 
 .study-lexicon-section h4 {
-  margin: 0 0 8px;
-  font-size: 0.84rem;
-  letter-spacing: 0.05em;
+  margin: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 500;
 }
 
 .study-lexicon-section {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
+  padding-top: 20px;
 }
 
 .study-lexicon-guide {
@@ -2586,25 +2588,26 @@
 .study-root-explorer-hero {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  padding: 18px;
-  background: color-mix(in srgb, var(--card-strong) 76%, transparent);
-  border: 1px solid color-mix(in srgb, var(--stroke) 34%, transparent);
-  border-radius: var(--radius-lg);
+  gap: 24px;
+  padding: 4px 0 22px;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0;
 }
 
 .study-root-explorer-hero-header {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
 }
 
 .study-root-explorer-root-block,
 .study-root-explorer-summary-block {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .study-root-explorer-root-block {
@@ -2621,8 +2624,8 @@
   justify-content: center;
   width: 100%;
   font-family: var(--font-arabic), serif;
-  font-size: clamp(2rem, 4vw, 2.7rem);
-  line-height: 1;
+  font-size: clamp(2.2rem, 4.5vw, 3rem);
+  line-height: 1.3;
   color: var(--text-primary);
   text-align: center;
 }
@@ -2635,37 +2638,38 @@
 .study-root-explorer-summary {
   margin: 0;
   font-size: 1rem;
-  line-height: 1.7;
-  color: rgba(227, 234, 240, 0.92);
+  line-height: 1.75;
+  color: rgba(227, 234, 240, 0.82);
 }
 
 .study-root-explorer-stats {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 28px;
 }
 
 .study-root-explorer-stat {
-  padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.05);
-  border-radius: 14px;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
   display: flex;
-  flex-direction: column;
-  gap: 5px;
+  align-items: baseline;
+  gap: 6px;
 }
 
 .study-root-explorer-stat strong {
-  font-size: 1.08rem;
+  font-size: 1.05rem;
   line-height: 1;
   color: var(--text-primary);
+  font-weight: 600;
 }
 
 .study-root-lex-panel {
-  background: color-mix(in srgb, var(--card-strong) 72%, transparent);
-  border: 1px solid color-mix(in srgb, var(--stroke) 28%, transparent);
-  border-radius: var(--radius-lg);
-  padding: 18px;
+  background: none;
+  border: none;
+  border-radius: 0;
+  padding: 0;
 }
 
 .study-root-lex-notes {
@@ -2678,25 +2682,25 @@
   display: inline-flex;
   align-items: center;
   border-radius: var(--radius-full);
-  padding: 7px 11px;
-  background: rgba(255, 255, 255, 0.045);
-  color: var(--text);
-  font-size: 0.78rem;
+  padding: 6px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.76rem;
   line-height: 1.45;
 }
 
 .study-root-lex-note.is-wide {
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.035);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .study-root-lex-entry-row {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   overflow-x: auto;
-  padding-bottom: 6px;
+  padding-bottom: 8px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255, 255, 255, 0.16) transparent;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
 }
 
 .study-root-lex-entry-row::-webkit-scrollbar {
@@ -2718,38 +2722,37 @@
 
 .study-root-lex-entry {
   flex: 0 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 16px;
-  padding: 10px 15px;
-  background: rgba(255, 255, 255, 0.03);
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 9px 16px;
+  background: rgba(255, 255, 255, 0.04);
   color: var(--text-primary);
   font-family: var(--font-arabic), serif;
   font-size: 1.3rem;
   line-height: 1.3;
-  transition: background 0.18s ease, border-color 0.18s ease, transform 0.18s ease;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
   -webkit-tap-highlight-color: transparent;
 }
 
 .study-root-lex-entry:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .study-root-lex-entry.is-active {
-  background: rgba(111, 212, 177, 0.11);
-  border-color: rgba(111, 212, 177, 0.28);
+  background: rgba(111, 212, 177, 0.12);
+  box-shadow: inset 0 0 0 1.5px rgba(111, 212, 177, 0.3);
   color: var(--text-primary);
 }
 
 .study-root-lex-entry:focus-visible {
   outline: none;
-  border-color: rgba(111, 212, 177, 0.5);
-  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.16);
+  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.2);
 }
 
 .study-root-lex-html {
-  color: rgba(227, 234, 240, 0.92);
-  font-size: 0.95rem;
-  line-height: 1.86;
+  color: rgba(227, 234, 240, 0.82);
+  font-size: 0.94rem;
+  line-height: 1.9;
   overflow-wrap: anywhere;
   direction: ltr;
   text-align: left;
@@ -2762,23 +2765,30 @@
 .study-root-derivative-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-}
-
-.study-root-derivative-card,
-.study-root-surah-card,
-.study-root-ayah-card {
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: var(--radius-md);
+  gap: 8px;
 }
 
 .study-root-derivative-card {
-  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+  border-radius: var(--radius-full);
+  padding: 8px 14px;
   display: inline-flex;
   align-items: center;
   justify-content: flex-start;
   gap: 8px;
+  transition: background 0.15s ease;
+}
+
+.study-root-derivative-card:hover {
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.study-root-surah-card,
+.study-root-ayah-card {
+  background: none;
+  border: none;
+  border-radius: 0;
 }
 
 .study-root-derivative-form {
@@ -2789,8 +2799,8 @@
 }
 
 .study-root-derivative-count {
-  font-size: 0.76rem;
-  color: var(--muted);
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.3);
   white-space: nowrap;
 }
 
@@ -2801,12 +2811,17 @@
 }
 
 .study-root-surah-card {
-  padding: 16px 18px;
+  padding: 16px 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  background: rgba(255, 255, 255, 0.035);
-  border-radius: var(--radius-lg);
+  background: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0;
+}
+
+.study-root-surah-card:last-child {
+  border-bottom: none;
 }
 
 .study-root-surah-header {
@@ -2842,11 +2857,11 @@
   min-height: 26px;
   padding: 0 10px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  font-size: 0.76rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: none;
+  font-size: 0.74rem;
   font-weight: 600;
-  color: var(--text);
+  color: rgba(255, 255, 255, 0.45);
 }
 
 .study-root-surah-preview-list {
@@ -2859,23 +2874,24 @@
 
 .study-root-surah-preview {
   border: none;
-  border-radius: 0;
+  border-radius: var(--radius-sm);
   background: transparent;
-  padding: 12px 0;
+  padding: 12px 10px;
+  margin: 0 -10px;
   display: flex;
   flex-direction: column;
   gap: 6px;
   text-align: left;
   cursor: pointer;
-  transition: color 0.18s ease, opacity 0.18s ease;
+  transition: background 0.2s ease;
 }
 
 .study-root-surah-preview + .study-root-surah-preview {
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: none;
 }
 
 .study-root-surah-preview:hover {
-  opacity: 0.92;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .study-root-surah-preview:focus-visible {
@@ -3038,26 +3054,39 @@
     grid-template-columns: 1fr;
   }
 
-  .study-root-explorer-stats {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .study-root-explorer-hero {
-    padding: 18px;
-    gap: 14px;
+    padding: 16px;
+    gap: 16px;
+    background: color-mix(in srgb, var(--card-strong) 76%, transparent);
+    border: 1px solid color-mix(in srgb, var(--stroke) 34%, transparent);
+    border-radius: var(--radius-lg);
+    border-bottom-color: color-mix(in srgb, var(--stroke) 34%, transparent);
   }
 
   .study-root-explorer-hero-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .study-root-explorer-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .study-root-explorer-stat {
     flex-direction: column;
-    gap: 12px;
+    gap: 4px;
+    padding: 10px 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
   }
 
-  .study-lexicon-modal.root-explorer-modal .study-lexicon-header {
-    padding: 12px 14px 10px;
-  }
-
+  .study-lexicon-modal.root-explorer-modal .study-lexicon-header,
   .study-lexicon-modal.root-modal .study-lexicon-header {
-    padding: 12px 14px 10px;
+    padding: 14px 16px 0;
   }
 
   .study-lexicon-modal.root-explorer-modal .study-lexicon-body {
@@ -3069,39 +3098,28 @@
   }
 
   .study-root-explorer-root {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .study-root-explorer-summary {
     font-size: 0.94rem;
-    line-height: 1.68;
-  }
-
-  .study-root-explorer-hero {
-    padding: 14px;
-  }
-
-  .study-root-explorer-hero-header {
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 14px;
+    line-height: 1.7;
   }
 
   .study-root-explorer-root-block {
-    min-width: 92px;
-    flex: 0 0 92px;
+    min-width: 90px;
+    flex: 0 0 90px;
   }
 
   .study-root-explorer-summary-block {
     gap: 6px;
   }
 
-  .study-root-explorer-stat {
-    padding: 9px 10px;
-  }
-
   .study-root-lex-panel {
     padding: 14px;
+    background: color-mix(in srgb, var(--card-strong) 72%, transparent);
+    border: 1px solid color-mix(in srgb, var(--stroke) 28%, transparent);
+    border-radius: var(--radius-lg);
   }
 
   .study-lexicon-meta-row {
@@ -3140,10 +3158,15 @@
     grid-template-columns: 1fr;
   }
 
+  .study-lexicon-section {
+    padding-top: 14px;
+    gap: 12px;
+  }
+
   .study-lexicon-section h4 {
-    margin-bottom: 6px;
-    font-size: 0.8rem;
-    letter-spacing: 0.045em;
+    margin-bottom: 2px;
+    font-size: 0.66rem;
+    letter-spacing: 0.06em;
   }
 
   .study-lexicon-list {
@@ -3158,7 +3181,7 @@
 
   .study-root-lex-entry {
     font-size: 1.14rem;
-    padding: 9px 12px;
+    padding: 8px 14px;
   }
 
   .study-root-surah-header {
@@ -3167,16 +3190,11 @@
   }
 
   .study-root-surah-card {
-    padding: 13px 14px;
-  }
-
-  .study-root-surah-preview-text {
-    font-size: 1.1rem;
-    line-height: 1.88;
-  }
-
-  .study-root-surah-heading {
-    width: 100%;
+    padding: 14px;
+    background: color-mix(in srgb, var(--card-strong) 72%, transparent);
+    border: 1px solid color-mix(in srgb, var(--stroke) 28%, transparent);
+    border-radius: var(--radius-lg);
+    border-bottom-color: color-mix(in srgb, var(--stroke) 28%, transparent);
   }
 
   .study-root-surah-preview-text {
@@ -3184,8 +3202,8 @@
     line-height: 1.78;
   }
 
-  .study-root-surah-card {
-    padding: 14px 15px;
+  .study-root-surah-heading {
+    width: 100%;
   }
 
   .study-lexicon-actions {

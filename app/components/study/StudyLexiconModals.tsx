@@ -494,12 +494,11 @@ export default function StudyLexiconModals({
             onClick={(event) => event.stopPropagation()}
           >
             <div className="study-lexicon-header">
-              <div>
-                <p className="study-lexicon-eyebrow">Root Details</p>
-                <h3>{selectedWordDetails.rootArabic || rootLexicon?.rootArabic || "Root"}</h3>
-              </div>
-              <button className="study-lexicon-close" onClick={onCloseRootDetailsModal} type="button">
-                ✕
+              <h3>Root Details</h3>
+              <button className="study-lexicon-close" onClick={onCloseRootDetailsModal} type="button" aria-label="Close">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M18 6L6 18M6 6l12 12" />
+                </svg>
               </button>
             </div>
 
