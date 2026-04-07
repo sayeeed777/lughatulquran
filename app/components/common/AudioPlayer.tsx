@@ -189,6 +189,7 @@ export default function AudioPlayer({
 }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const preloadRef = useRef<HTMLAudioElement | null>(null);
+  const chapterPreloadRef = useRef<HTMLAudioElement | null>(null);
   const retryCountRef = useRef(0);
   const recoverTimerRef = useRef<number | null>(null);
   const pausedByMediaSessionRef = useRef(false);
@@ -452,24 +453,29 @@ export default function AudioPlayer({
           Math.max(currentAyahTiming.fromMs, currentAyahTiming.toMs - 120)
         );
         const desiredSeconds = desiredMs / 1000;
+        const canFastStartFromBeginning = targetAyahNumber === 1 && desiredSeconds <= 0.12;
 
         if (audio.src !== chapterData.audioUrl) {
           audio.src = chapterData.audioUrl;
-          audio.load();
-          await new Promise<void>((resolve) => {
-            const timeoutId = window.setTimeout(resolve, 1400);
-            const onLoaded = () => {
-              window.clearTimeout(timeoutId);
-              resolve();
-            };
-            audio.addEventListener("loadedmetadata", onLoaded, { once: true });
-          });
+          if (!canFastStartFromBeginning) {
+            audio.load();
+            await new Promise<void>((resolve) => {
+              const timeoutId = window.setTimeout(resolve, 1400);
+              const onLoaded = () => {
+                window.clearTimeout(timeoutId);
+                resolve();
+              };
+              audio.addEventListener("loadedmetadata", onLoaded, { once: true });
+            });
+          }
         }
 
-        try {
-          audio.currentTime = desiredSeconds;
-        } catch {
-          // ignore seek errors
+        if (!canFastStartFromBeginning) {
+          try {
+            audio.currentTime = desiredSeconds;
+          } catch {
+            // ignore seek errors
+          }
         }
 
         audio.playbackRate = playbackRateRef.current;
@@ -831,6 +837,28 @@ export default function AudioPlayer({
     const index = chapterData.timings.findIndex((item) => item.ayah === nowPlaying.ayah);
     chapterTimingIndexRef.current = index >= 0 ? index : 0;
   }, [activateChapterMode, disableChapterMode, getChapterCacheKey, isAutoPlaying, memorizeActive, nowPlaying, reciterId]);
+
+  useEffect(() => {
+    if (!selectedSurah || memorizeActive) return;
+    if (!QURAN_API_RECITER_BY_LOCAL_ID[reciterId]) return;
+
+    let cancelled = false;
+
+    void fetchChapterAudioData(reciterId, selectedSurah.number).then((chapterData) => {
+      if (cancelled || !chapterData || typeof window === "undefined") return;
+
+      const preloader = chapterPreloadRef.current ?? new Audio();
+      preloader.preload = "metadata";
+      if (preloader.src !== chapterData.audioUrl) {
+        preloader.src = chapterData.audioUrl;
+        chapterPreloadRef.current = preloader;
+      }
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [fetchChapterAudioData, memorizeActive, reciterId, selectedSurah]);
 
   // Update src imperatively (no remount) and play.
   // Guard: if audio is already playing the correct src (set imperatively in the

@@ -150,9 +150,10 @@ export function useSurahDetails(
         if (includeTransliteration) {
           params.set("transliteration", "1");
         }
-        const url = params.toString()
-          ? `/api/surah/${surahId}?${params.toString()}`
-          : `/api/surah/${surahId}`;
+        // Bump when /api/surah response shape or text source changes — busts
+        // persisted IndexedDB cache so users pick up the new payload.
+        params.set("v", "2");
+        const url = `/api/surah/${surahId}?${params.toString()}`;
 
         const payload = await fetchJSON<SurahDetail>(url, {
           ttl: 10 * 60 * 1000,
@@ -204,14 +205,14 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
   }, []);
 
   useEffect(() => {
-    if (!showWordByWord || !selectedSurahNumber) return;
+    if (!selectedSurahNumber) return;
     if (wordByAyah[selectedSurahNumber]) return;
 
     const controller = new AbortController();
     setLoading(true);
     setError(null);
 
-    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}?v=5`, {
+    fetchJSON<WordByWordPayload>(`/api/words/${selectedSurahNumber}?v=6`, {
       ttl: 24 * 60 * 60 * 1000,
       retries: 1,
       retryDelay: 300,
@@ -242,7 +243,7 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
     return () => {
       controller.abort();
     };
-  }, [showWordByWord, selectedSurahNumber, wordByAyah]);
+  }, [selectedSurahNumber, wordByAyah, showWordByWord]);
 
   return { wordByAyah, loading, error, refetch };
 }

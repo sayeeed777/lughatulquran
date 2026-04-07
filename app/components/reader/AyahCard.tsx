@@ -1,6 +1,6 @@
 "use client";
 
-import { memo } from "react";
+import { Fragment, memo } from "react";
 import type { Ayah, Word, NowPlaying } from "../../lib/types";
 
 type AyahCardProps = {
@@ -56,6 +56,7 @@ const AyahCard = memo(function AyahCard({
     nowPlaying && nowPlaying.surah === surahNumber && nowPlaying.ayah === ayah.number;
   const isPlaying = isNowPlaying && !isAudioPaused;
   const shouldSplitArabic = Boolean(isNowPlaying && words.length);
+  const formattedArabic = formatArabic(ayah.arabic || "");
 
   // Translation label map
   const translationLabels: Record<string, string> = {
@@ -186,18 +187,18 @@ const AyahCard = memo(function AyahCard({
             const position = Number(word.position) || wordIndex + 1;
             const isActiveWord = isPlaying && activeWordPosition === position;
             return (
-              <span
-                key={`${key}-arabic-word-${position}-${wordIndex}`}
-                className={`ayah-arabic-word${isActiveWord ? " active" : ""}`}
-              >
-                {word.arabic}
-              </span>
+              <Fragment key={`${key}-arabic-word-${position}-${wordIndex}`}>
+                <span className={`ayah-arabic-word${isActiveWord ? " active" : ""}`}>
+                  {word.arabic}
+                </span>
+                {wordIndex < words.length - 1 ? " " : null}
+              </Fragment>
             );
           })}
         </p>
       ) : (
         <p className="ayah-arabic" lang="ar" dir="rtl">
-          {formatArabic(ayah.arabic || "")}
+          {formattedArabic}
         </p>
       )}
       {showTransliteration && ayah.transliteration ? (
