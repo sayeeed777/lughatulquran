@@ -6,7 +6,9 @@ import { getJuzPayload } from "../../../lib/quranScopeLoader";
 
 const EDITIONS = ALL_TRANSLATIONS;
 
-export const revalidate = 86400;
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800"
+};
 
 type RouteContext = {
   params: { id: string } | Promise<{ id: string }>;
@@ -63,20 +65,23 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
       return NextResponse.json({ error: "Juz not found." }, { status: 404 });
     }
 
-    return NextResponse.json({
-      scope: {
-        type: "juz",
-        id: juzNumber,
-        label: `Juz ${juzNumber}`,
-        versesCount: payload.entry.verses_count,
-        firstVerseKey: payload.entry.first_verse_key,
-        lastVerseKey: payload.entry.last_verse_key
+    return NextResponse.json(
+      {
+        scope: {
+          type: "juz",
+          id: juzNumber,
+          label: `Juz ${juzNumber}`,
+          versesCount: payload.entry.verses_count,
+          firstVerseKey: payload.entry.first_verse_key,
+          lastVerseKey: payload.entry.last_verse_key
+        },
+        sections: payload.sections,
+        ayahs: payload.ayahs,
+        arabicScript: "uthmani",
+        translationOrder: translationIds
       },
-      sections: payload.sections,
-      ayahs: payload.ayahs,
-      arabicScript: "uthmani",
-      translationOrder: translationIds
-    });
+      { headers: CACHE_HEADERS }
+    );
   } catch {
     return NextResponse.json(
       { error: "Unable to load juz data." },

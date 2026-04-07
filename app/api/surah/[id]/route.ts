@@ -8,7 +8,9 @@ import quranText from "../../../data/quran-text.json";
 
 const EDITIONS = ALL_TRANSLATIONS;
 
-export const revalidate = 86400;
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800"
+};
 
 type ArabicVerse = {
   number: number;
@@ -149,19 +151,22 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
       });
     }
 
-    return NextResponse.json({
-      surah: {
-        number: surahMeta.number,
-        name: surahMeta.arabicName,
-        englishName: surahMeta.englishName,
-        englishNameTranslation: surahMeta.translation,
-        numberOfAyahs: surahMeta.ayahCount,
-        revelationType: surahMeta.revelationType
+    return NextResponse.json(
+      {
+        surah: {
+          number: surahMeta.number,
+          name: surahMeta.arabicName,
+          englishName: surahMeta.englishName,
+          englishNameTranslation: surahMeta.translation,
+          numberOfAyahs: surahMeta.ayahCount,
+          revelationType: surahMeta.revelationType
+        },
+        ayahs,
+        arabicScript: "uthmani",
+        translationOrder: translationIds
       },
-      ayahs,
-      arabicScript: "uthmani",
-      translationOrder: translationIds
-    });
+      { headers: CACHE_HEADERS }
+    );
   } catch (error) {
     console.error("API Error:", error);
     return NextResponse.json(

@@ -53,6 +53,18 @@ export function proxy(request: NextRequest) {
   const { hostname, pathname } = request.nextUrl;
   const localeFromPath = localeFromPathname(pathname);
 
+  // These endpoints are image/static-like payloads and don't need CSP nonces
+  // or locale header work on every request.
+  if (
+    pathname === "/apple-touch-icon.png"
+    || pathname === "/apple-touch-icon-precomposed.png"
+    || pathname.startsWith("/favicon-")
+    || pathname === "/opengraph-image"
+    || pathname.endsWith("/opengraph-image")
+  ) {
+    return NextResponse.next();
+  }
+
   // Redirect known legacy production hosts to canonical domain.
   if (LEGACY_PRODUCTION_HOSTS.has(hostname)) {
     const url = request.nextUrl.clone();
@@ -111,6 +123,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    "/((?!api|_next/static|_next/image|favicon.ico|manifest.json|sw.js|sw-register.js|offline.html|icons|robots\\.txt|sitemap\\.xml|sitemap).*)"
+    "/((?!api|_next/static|_next/image|favicon.ico|manifest.json|sw.js|sw-register.js|offline.html|icons|robots\\.txt|sitemap\\.xml|sitemap|apple-touch-icon\\.png|apple-touch-icon-precomposed\\.png|favicon-32x32\\.png|favicon-48x48\\.png|favicon-96x96\\.png).*)"
   ]
 };

@@ -3,7 +3,9 @@ import type { NextRequest } from "next/server";
 import { apiRateGuard } from "../../../lib/apiRateLimit";
 import { getWordsByAyahForSurah } from "../../../lib/wordByWordLoader";
 
-export const revalidate = 86400;
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800"
+};
 
 type RouteContext = {
   params: { id: string } | Promise<{ id: string }>;
@@ -24,7 +26,7 @@ export async function GET(_request: NextRequest, { params }: RouteContext) {
 
   try {
     const wordsByAyah = await getWordsByAyahForSurah(surahNumber);
-    return NextResponse.json({ wordsByAyah });
+    return NextResponse.json({ wordsByAyah }, { headers: CACHE_HEADERS });
   } catch {
     return NextResponse.json(
       { error: "Unable to reach word-by-word API." },
