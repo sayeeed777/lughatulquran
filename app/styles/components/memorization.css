@@ -859,7 +859,7 @@
 
 .mem-card-arabic {
   margin: 0;
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(1.85rem, 4vw, 2.8rem);
   line-height: 2;
   color: var(--text);
@@ -907,7 +907,7 @@
 
 .mem-card-word-trigger--standalone {
   align-self: flex-end;
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(2.2rem, 5.5vw, 3.2rem);
   line-height: 1.8;
   color: var(--text);
@@ -984,7 +984,7 @@
 
 .mem-card-context-arabic {
   margin: 0;
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(1.2rem, 2.8vw, 1.7rem);
   line-height: 1.9;
   color: color-mix(in srgb, var(--text) 85%, transparent);

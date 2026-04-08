@@ -30,6 +30,12 @@ export const clamp = (value: number, min: number, max: number): number =>
 export const pad = (value: number | string, length = 3): string =>
   String(value).padStart(length, "0");
 
+// Match the cleaner verse-display convention for card-style Quran text while keeping
+// the underlying stored data intact. These small meem annotation signs were the ones
+// showing up as stray visible mim glyphs in reader/study cards.
+export const normalizeQuranDisplayArabic = (text: string): string =>
+  text.replace(/[\u06E2\u06ED]/g, "");
+
 // Audio URL generator
 export const getAudioUrl = (baseUrl: string, surahNumber: number, ayahNumber: number): string =>
   `${baseUrl}/${pad(surahNumber)}${pad(ayahNumber)}.mp3`;
@@ -98,4 +104,3 @@ export const formatProgress = (current: number, total: number) => {
   const percentage = total > 0 ? Math.round((current / total) * 100) : 0;
   return { current, total, percentage };
 };
-

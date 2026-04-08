@@ -3,6 +3,7 @@
 import { useMemo } from "react";
 import StudyAyahCard from "./StudyAyahCard";
 import { renderTajweedMarkup } from "./StudyModeHelpers";
+import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import type {
   SelectedWordDetails,
   StudyMarks,
@@ -153,7 +154,9 @@ export default function StudyAyahList({
               isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
               showTajweed={showTajweed}
               arabicContent={
-                showTajweed && ayah.arabicTajweed ? renderTajweedMarkup(ayah.arabicTajweed) : ayah.arabic || ""
+                showTajweed && ayah.arabicTajweed
+                  ? renderTajweedMarkup(ayah.arabicTajweed)
+                  : normalizeQuranDisplayArabic(ayah.arabic || "")
               }
               translationText={translationText}
               showTranslation={showTranslation}

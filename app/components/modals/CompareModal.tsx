@@ -1,6 +1,7 @@
 "use client";
 
 import { ALL_TRANSLATIONS } from "../../lib/constants";
+import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
 import { useEffect, useState } from "react";
 
@@ -52,7 +53,7 @@ export default function CompareModal() {
     return null;
   }
 
-  const formatArabic = (text?: string) => text ?? "";
+  const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const allTranslations = payload?.translations || {};
 
   return (

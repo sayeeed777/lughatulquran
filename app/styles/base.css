@@ -40,6 +40,8 @@
     --translation-scale: 1;
     --font-arabic: "Scheherazade New", "Amiri", "KFGQPC Hafs", "UthmanicHafs",
         "Noto Naskh Arabic", "Traditional Arabic", serif;
+    --font-arabic-unicode: "Uthman Naskh", "Scheherazade New", "Amiri",
+        "Noto Naskh Arabic", "Traditional Arabic", serif;
 
     /* Apple-style consistent radius system */
     --radius-xs: 6px;
@@ -67,18 +69,26 @@
 /* Typography utility tokens (CSP-safe, class based) */
 .arabic-font-scheherazade-new {
     --font-arabic: "Scheherazade New", "Amiri", "Traditional Arabic", serif;
+    --font-arabic-unicode: "Scheherazade New", "Amiri",
+        "Noto Naskh Arabic", "Traditional Arabic", serif;
 }
 
 .arabic-font-kfgqpc-hafs {
     --font-arabic: "KFGQPC Hafs", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+    --font-arabic-unicode: "Uthman Naskh", "Scheherazade New", "Amiri",
+        "Noto Naskh Arabic", "Traditional Arabic", serif;
 }
 
 .arabic-font-kfgqpc-hafssmart {
     --font-arabic: "KFGQPC Hafs Smart", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+    --font-arabic-unicode: "Uthman Naskh", "Scheherazade New", "Amiri",
+        "Noto Naskh Arabic", "Traditional Arabic", serif;
 }
 
 .arabic-font-uthman-naskh {
     --font-arabic: "Uthman Naskh", "UthmanicHafs", "Traditional Arabic", "Scheherazade New", serif;
+    --font-arabic-unicode: "Uthman Naskh", "Scheherazade New", "Amiri",
+        "Noto Naskh Arabic", "Traditional Arabic", serif;
 }
 
 .arabic-scale-60 {

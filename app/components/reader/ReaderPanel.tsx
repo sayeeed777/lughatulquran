@@ -7,7 +7,7 @@ import BismillahBanner from "./BismillahBanner";
 import { SettingsModal } from "../modals";
 import { AyahListSkeleton } from "../skeletons";
 import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
-import { verseKey, clamp } from "../../lib/utils";
+import { verseKey, clamp, normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 import StudyMushafPage from "../study/StudyMushafPage";
 
@@ -94,7 +94,7 @@ export default function ReaderPanel() {
     copyAyahLink: onCopyLink,
     handleSelectSurah: onSelectSurah
   } = useActions();
-  const formatArabic = (text?: string) => text ?? "";
+  const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
 
   const isScopeMode = readerScopeMode !== "surah";

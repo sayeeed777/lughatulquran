@@ -486,7 +486,7 @@
 }
 
 .ayah-arabic {
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: calc(1.65rem * var(--arabic-scale));
   /* Desktop: Slightly larger (26px) */
   line-height: 2.1;
@@ -546,7 +546,7 @@
 }
 
 .word-ar {
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: 1rem;
   color: var(--text);
   font-feature-settings: "calt" 1, "ccmp" 1, "liga" 1;
@@ -576,7 +576,7 @@
 }
 
 .bismillah-arabic {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: calc(2rem * var(--arabic-scale));
   line-height: 1.8;
   color: var(--text-primary);

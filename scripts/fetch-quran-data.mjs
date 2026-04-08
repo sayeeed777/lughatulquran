@@ -29,20 +29,15 @@ async function fetchSurahFromQdc(surahNum) {
   let page = 1;
   let hasNext = true;
   while (hasNext) {
-    // Word-level text_uthmani is the rich KFGQPC build (includes iqlab small low mim,
-    // small high mim, etc.). The verse-level text_uthmani field strips some of these
-    // pronunciation marks, which causes a mismatch with /api/words at runtime.
-    const url = `${QDC}/verses/by_chapter/${surahNum}?language=en&words=true&word_fields=text_uthmani,char_type_name,translation,transliteration&translation_fields=text&fields=text_uthmani_tajweed,page_number&page=${page}&per_page=50`;
+    // Keep the richer word-level text for word highlighting, but keep the verse-level
+    // display text from QDC's verse field so card-style ayah text does not inherit the
+    // extra low-meem pronunciation marker.
+    const url = `${QDC}/verses/by_chapter/${surahNum}?language=en&words=true&word_fields=text_uthmani,char_type_name,translation,transliteration&translation_fields=text&fields=text_uthmani,text_uthmani_tajweed,page_number&page=${page}&per_page=50`;
     const res = await fetch(url);
     if (!res.ok) throw new Error(`Arabic fetch failed for surah ${surahNum} page ${page}`);
     const data = await res.json();
     for (const v of data.verses || []) {
       const wordList = (v.words || []).filter((w) => w.char_type_name === "word");
-
-      const ar = wordList
-        .map((w) => w.text_uthmani)
-        .filter(Boolean)
-        .join(" ");
 
       const wordsForAyah = wordList
         .map((w) => {
@@ -65,7 +60,7 @@ async function fetchSurahFromQdc(surahNum) {
 
       verses.push({
         n: v.verse_number,
-        ar,
+        ar: v.text_uthmani || "",
         tj: v.text_uthmani_tajweed || null,
         pg: v.page_number || null,
       });

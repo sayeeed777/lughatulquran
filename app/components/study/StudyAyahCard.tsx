@@ -7,6 +7,7 @@ import type {
   PointerEvent as ReactPointerEvent,
   ReactNode
 } from "react";
+import { normalizeQuranDisplayArabic } from "../../lib/utils";
 
 type StudyWord = {
   arabic: string;
@@ -406,7 +407,7 @@ function StudyAyahCardComponent({
                     onWordSelect(word, ayahNumber, wordIndex);
                   }}
                 >
-                  {word.arabic}
+                  {normalizeQuranDisplayArabic(word.arabic)}
                 </button>
               );
             })}
@@ -564,7 +565,7 @@ function StudyAyahCardComponent({
                   type="button"
                 >
                   <span className="word-ar" lang="ar" dir="rtl">
-                    {word.arabic}
+                    {normalizeQuranDisplayArabic(word.arabic)}
                   </span>
                   {word.translation && <span className="word-en">{word.translation}</span>}
                 </button>

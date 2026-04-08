@@ -2,6 +2,7 @@
 
 import { Fragment, memo } from "react";
 import type { Ayah, Word, NowPlaying } from "../../lib/types";
+import { normalizeQuranDisplayArabic } from "../../lib/utils";
 
 type AyahCardProps = {
   ayah: Ayah;
@@ -189,7 +190,7 @@ const AyahCard = memo(function AyahCard({
             return (
               <Fragment key={`${key}-arabic-word-${position}-${wordIndex}`}>
                 <span className={`ayah-arabic-word${isActiveWord ? " active" : ""}`}>
-                  {word.arabic}
+                  {normalizeQuranDisplayArabic(word.arabic)}
                 </span>
                 {wordIndex < words.length - 1 ? " " : null}
               </Fragment>
@@ -230,7 +231,7 @@ const AyahCard = memo(function AyahCard({
           {words.map((word, wordIndex) => (
             <div className="word-chip" key={`${key}-${wordIndex}`}>
               <span className="word-ar" lang="ar" dir="rtl">
-                {word.arabic}
+                {normalizeQuranDisplayArabic(word.arabic)}
               </span>
               {word.translation && <span className="word-en">{word.translation}</span>}
             </div>

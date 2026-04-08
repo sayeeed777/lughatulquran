@@ -6,6 +6,7 @@ import StudyLexiconModals from "../study/StudyLexiconModals";
 import useWordLexicon from "../study/useWordLexicon";
 import { useActions } from "../../contexts";
 import { getMemorizationReviewPreview, type SchedulerOptions } from "../../lib/memorizationScheduler";
+import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import type {
   MemorizationCard,
   MemorizationCardMode,
@@ -202,7 +203,7 @@ export default function MemorizationSessionCard({
               className={`mem-card-word-trigger${isSelected ? " active" : ""}`}
               onClick={() => handleMemorizationWordSelect(word, card.ayahNumber, wordIndex)}
             >
-              {word.arabic}
+              {normalizeQuranDisplayArabic(word.arabic)}
             </button>
           );
         })}
@@ -215,7 +216,7 @@ export default function MemorizationSessionCard({
     if (isWordMode) {
       return (
         <p className="mem-card-arabic mem-card-arabic--word" lang="ar" dir="rtl">
-          {card.wordArabic || card.arabic}
+          {normalizeQuranDisplayArabic(card.wordArabic || card.arabic)}
         </p>
       );
     }
@@ -225,14 +226,14 @@ export default function MemorizationSessionCard({
     if (card.cardMode === "first-words") {
       return (
         <>
-          <p className="mem-card-arabic" lang="ar" dir="rtl">{card.firstWords}</p>
+        <p className="mem-card-arabic" lang="ar" dir="rtl">{normalizeQuranDisplayArabic(card.firstWords)}</p>
           <p className="mem-card-hint">Continue from these words…</p>
         </>
       );
     }
     return (
       <>
-        <p className="mem-card-arabic" lang="ar" dir="rtl">{card.arabic}</p>
+        <p className="mem-card-arabic" lang="ar" dir="rtl">{normalizeQuranDisplayArabic(card.arabic)}</p>
         <p className="mem-card-hint">What does this mean?</p>
       </>
     );
@@ -302,11 +303,11 @@ export default function MemorizationSessionCard({
                       lang="ar"
                       dir="rtl"
                     >
-                      {focusedWord.arabic}
+                      {normalizeQuranDisplayArabic(focusedWord.arabic)}
                     </button>
                   ) : (
                     <p className="mem-card-arabic mem-card-arabic--word" lang="ar" dir="rtl">
-                      {card.wordArabic || card.arabic}
+                      {normalizeQuranDisplayArabic(card.wordArabic || card.arabic)}
                     </p>
                   )}
                 </div>
@@ -338,7 +339,7 @@ export default function MemorizationSessionCard({
               <>
                 <div className="mem-answer-section">
                   <span className="mem-answer-label">Arabic</span>
-                  {renderInteractiveAyah(card.arabic, "mem-card-arabic")}
+                  {renderInteractiveAyah(normalizeQuranDisplayArabic(card.arabic), "mem-card-arabic")}
                 </div>
                 <div className="mem-answer-divider" />
                 <div className="mem-answer-section">

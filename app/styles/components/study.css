@@ -341,7 +341,7 @@
 }
 
 .study-arabic-name {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(2rem, 3.8vw, 3rem);
   color: var(--accent);
   display: block;
@@ -371,7 +371,7 @@
 
 /* Bismillah */
 .study-bismillah {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(1.3rem, 2.4vw, 1.85rem);
   text-align: center;
   color: var(--accent-2);
@@ -914,7 +914,7 @@
 
 .study-scope-section-arabic {
   margin: 0;
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: clamp(1.3rem, 2.2vw, 1.85rem);
   color: var(--accent-2);
   opacity: 0.9;
@@ -1069,7 +1069,7 @@
 }
 
 .study-ayah-arabic {
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: calc(2rem * var(--arabic-scale, 1));
   line-height: 2.2;
   color: var(--text);
@@ -2206,7 +2206,7 @@
 
 .study-lexicon-word {
   margin: 0;
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: clamp(1.85rem, 2.8vw, 2.45rem);
   line-height: 1.6;
   color: var(--text-primary);
@@ -2263,7 +2263,7 @@
 }
 
 .study-lexicon-root-arabic {
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: 1.8rem;
   line-height: 1.3;
   color: var(--text-primary);
@@ -2622,7 +2622,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: clamp(2.2rem, 4.5vw, 3rem);
   line-height: 1.3;
   color: var(--text-primary);
@@ -2726,7 +2726,7 @@
   padding: 9px 16px;
   background: color-mix(in srgb, var(--text) 6%, transparent);
   color: var(--text);
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: 1.3rem;
   line-height: 1.3;
   transition: background 0.2s ease, box-shadow 0.2s ease;
@@ -2791,7 +2791,7 @@
 }
 
 .study-root-derivative-form {
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: 1.14rem;
   line-height: 1.2;
   color: var(--text-primary);
@@ -2908,7 +2908,7 @@
 }
 
 .study-root-surah-preview-text {
-  font-family: var(--font-arabic), serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
   font-size: 1.18rem;
   line-height: 1.95;
   color: var(--text-primary);
@@ -3501,7 +3501,7 @@
 
 .sqp-result-arabic {
   margin: 0;
-  font-family: var(--font-arabic);
+  font-family: var(--font-arabic-unicode, var(--font-arabic));
   font-size: 1rem;
   line-height: 1.8;
   color: var(--text);
@@ -4612,7 +4612,7 @@
 .study-mode-container.script-naskh .study-ayah-arabic,
 .study-mode-container.script-naskh .study-bismillah,
 .study-mode-container.script-naskh .study-arabic-name {
-  font-family: "Scheherazade New", "Amiri", serif;
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
 }
 
 /* ── Notes panel (redesigned) ── */
