@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { SURAH_BY_SLUG } from "../../data/surahs";
 
 export const runtime = "edge";
-export const alt = "OpenFurqan — Surah with English, Bangla & Urdu Translations";
+export const alt = "OpenFurqan — Read and Study the Quran";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

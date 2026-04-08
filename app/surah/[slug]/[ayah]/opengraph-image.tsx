@@ -1,11 +1,21 @@
 import { ImageResponse } from "next/og";
-import { SURAH_BY_SLUG } from "../../../data/surahs";
+import { SURAH_BY_SLUG, SURAHS } from "../../../data/surahs";
 import { loadVerseSeoText } from "../../../lib/seoQuranText";
 
 export const runtime = "nodejs";
-export const alt = "OpenFurqan — Ayah with English, Bangla & Urdu Translations";
+export const dynamicParams = false;
+export const alt = "OpenFurqan — Read and Study the Quran";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+
+export function generateStaticParams() {
+  return SURAHS.flatMap((surah) =>
+    Array.from({ length: surah.ayahCount }, (_, index) => ({
+      slug: surah.slug,
+      ayah: String(index + 1)
+    }))
+  );
+}
 
 export default async function OGImage({ params }: { params: Promise<{ slug: string; ayah: string }> }) {
   const { slug, ayah } = await params;

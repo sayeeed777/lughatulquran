@@ -17,7 +17,9 @@ import {
   getRootExplorerPayload
 } from "../../../../lib/lexicon/rootExplorer";
 
-export const revalidate = 86400;
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800"
+};
 
 type RouteContext = {
   params: { root: string } | Promise<{ root: string }>;
@@ -49,30 +51,33 @@ export async function GET(request: Request, { params }: RouteContext) {
   const rootMeaning = await getPrimaryRootMeaning(root);
 
   if (isSummaryMode) {
-    return NextResponse.json({
-      root,
-      rootArabic: buckwalterToArabic(root),
-      rootMeaning,
-      rootMeaningSource: "primary-root-meanings",
-      coreMeanings: [],
-      definitions: [],
-      lemmas: [],
-      references: [],
-      primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
-      primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
-      laneAvailable: false,
-      morphologyAvailable: false,
-      morphologyError: null,
-      rootExplorerAvailable: false,
-      rootExplorerError: null,
-      rootExplorerSource: null,
-      stats: null,
-      derivatives: [],
-      surahOccurrences: [],
-      ayahOccurrences: [],
-      lexSnapshot: null,
-      fullPayload: false
-    });
+    return NextResponse.json(
+      {
+        root,
+        rootArabic: buckwalterToArabic(root),
+        rootMeaning,
+        rootMeaningSource: "primary-root-meanings",
+        coreMeanings: [],
+        definitions: [],
+        lemmas: [],
+        references: [],
+        primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
+        primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
+        laneAvailable: false,
+        morphologyAvailable: false,
+        morphologyError: null,
+        rootExplorerAvailable: false,
+        rootExplorerError: null,
+        rootExplorerSource: null,
+        stats: null,
+        derivatives: [],
+        surahOccurrences: [],
+        ayahOccurrences: [],
+        lexSnapshot: null,
+        fullPayload: false
+      },
+      { headers: CACHE_HEADERS }
+    );
   }
 
   const [index, laneEntry, rootExplorerPayload] = await Promise.all([
@@ -86,28 +91,31 @@ export async function GET(request: Request, { params }: RouteContext) {
   const coreMeanings = laneEntry?.coreMeanings || [];
   const definitions = laneEntry?.definitions || [];
 
-  return NextResponse.json({
-    root,
-    rootArabic: laneEntry?.rootArabic || buckwalterToArabic(root),
-    rootMeaning,
-    rootMeaningSource: "primary-root-meanings",
-    coreMeanings,
-    definitions,
-    lemmas,
-    references,
-    primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
-    primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
-    laneAvailable: await hasLaneLexicon(),
-    morphologyAvailable: Boolean(index),
-    morphologyError: index ? null : getMorphologyLoadError(),
-    rootExplorerAvailable: Boolean(rootExplorerPayload),
-    rootExplorerError: rootExplorerPayload ? null : getRootExplorerLoadError(),
-    rootExplorerSource: rootExplorerPayload?.source || null,
-    stats: rootExplorerPayload?.stats || null,
-    derivatives: rootExplorerPayload?.derivatives || [],
-    surahOccurrences: rootExplorerPayload?.surahOccurrences || [],
-    ayahOccurrences: rootExplorerPayload?.ayahOccurrences || [],
-    lexSnapshot: rootExplorerPayload?.lexSnapshot || null,
-    fullPayload: true
-  });
+  return NextResponse.json(
+    {
+      root,
+      rootArabic: laneEntry?.rootArabic || buckwalterToArabic(root),
+      rootMeaning,
+      rootMeaningSource: "primary-root-meanings",
+      coreMeanings,
+      definitions,
+      lemmas,
+      references,
+      primaryRootMeaningsAvailable: await hasPrimaryRootMeanings(),
+      primaryRootMeaningsError: rootMeaning ? null : getPrimaryRootMeaningsLoadError(),
+      laneAvailable: await hasLaneLexicon(),
+      morphologyAvailable: Boolean(index),
+      morphologyError: index ? null : getMorphologyLoadError(),
+      rootExplorerAvailable: Boolean(rootExplorerPayload),
+      rootExplorerError: rootExplorerPayload ? null : getRootExplorerLoadError(),
+      rootExplorerSource: rootExplorerPayload?.source || null,
+      stats: rootExplorerPayload?.stats || null,
+      derivatives: rootExplorerPayload?.derivatives || [],
+      surahOccurrences: rootExplorerPayload?.surahOccurrences || [],
+      ayahOccurrences: rootExplorerPayload?.ayahOccurrences || [],
+      lexSnapshot: rootExplorerPayload?.lexSnapshot || null,
+      fullPayload: true
+    },
+    { headers: CACHE_HEADERS }
+  );
 }

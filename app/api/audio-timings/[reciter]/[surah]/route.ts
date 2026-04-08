@@ -1,10 +1,18 @@
 import { NextResponse } from "next/server";
-import type { NextRequest } from "next/server";
-import { apiRateGuard } from "../../../../lib/apiRateLimit";
-import { getLocalChapterAudioTiming, hasLocalAudioTimingReciter } from "../../../../lib/audioTimings";
+import {
+  LOCAL_AUDIO_TIMING_RECITERS,
+  getLocalChapterAudioTiming,
+  hasLocalAudioTimingReciter
+} from "../../../../lib/audioTimings";
 
 export const runtime = "nodejs";
-export const revalidate = 86400;
+export const dynamic = "force-static";
+export const dynamicParams = false;
+export const revalidate = false;
+
+const CACHE_HEADERS = {
+  "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800"
+};
 
 type RouteContext = {
   params:
@@ -12,10 +20,16 @@ type RouteContext = {
     | Promise<{ reciter: string; surah: string }>;
 };
 
-export async function GET(request: NextRequest, { params }: RouteContext) {
-  const blocked = await apiRateGuard(request, "api-audio-timings");
-  if (blocked) return blocked;
+export function generateStaticParams() {
+  return LOCAL_AUDIO_TIMING_RECITERS.flatMap((reciter) =>
+    Array.from({ length: 114 }, (_, i) => ({
+      reciter,
+      surah: String(i + 1)
+    }))
+  );
+}
 
+export async function GET(_request: Request, { params }: RouteContext) {
   const { reciter, surah } = await Promise.resolve(params);
   const reciterId = String(reciter || "").trim();
   const surahNumber = Number(surah);
@@ -33,5 +47,5 @@ export async function GET(request: NextRequest, { params }: RouteContext) {
     return NextResponse.json({ error: "Timing snapshot not found." }, { status: 404 });
   }
 
-  return NextResponse.json(payload);
+  return NextResponse.json(payload, { headers: CACHE_HEADERS });
 }
