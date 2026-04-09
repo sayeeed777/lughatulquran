@@ -3711,8 +3711,19 @@
   flex-shrink: 0;
 }
 
-/* ── Search tips ── */
-.sqp-tips {
+/* ── Search guide ── */
+.sqp-search-guide {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sqp-search-guide-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.sqp-search-guide-card {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -3722,35 +3733,21 @@
   border: 1px solid color-mix(in srgb, var(--stroke) 15%, transparent);
 }
 
-.sqp-tips-label {
-  font-size: 0.64rem;
-  font-weight: 640;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  opacity: 0.6;
-}
-
-.sqp-tips-list {
+.sqp-search-guide-title {
   margin: 0;
-  padding: 0 0 0 16px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
 }
 
-.sqp-tips-list li {
+.sqp-search-guide-desc {
+  margin: 0;
   font-size: 0.7rem;
   font-weight: 420;
   color: var(--muted);
   line-height: 1.5;
   opacity: 0.7;
-}
-
-.sqp-tips-list strong {
-  font-weight: 620;
-  color: var(--text);
-  opacity: 0.8;
 }
 
 .study-tool-section {

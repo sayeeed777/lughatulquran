@@ -32,22 +32,30 @@ type SearchFilterKey =
   | "root"
   | "lemma";
 
-const TOPIC_GROUPS: Array<{ title: string; topics: string[] }> = [
+const SEARCH_GUIDE: Array<{
+  title: string;
+  desc: string;
+  examples: string[];
+}> = [
   {
-    title: "Core Themes",
-    topics: ["Mercy", "Faith", "Patience", "Forgiveness", "Guidance", "Gratitude"]
+    title: "Verse reference",
+    desc: "Jump straight to a known ayah.",
+    examples: ["2:255", "36:58", "surah 18 ayah 10"]
   },
   {
-    title: "Worship & Practice",
-    topics: ["Prayer", "Fasting", "Charity", "Hajj", "Repentance", "Supplication"]
+    title: "Arabic or translation",
+    desc: "Search visible Quran words or English meanings.",
+    examples: ["رحمة", "forgiveness", "Moses"]
   },
   {
-    title: "Life & Society",
-    topics: ["Justice", "Family", "Kindness", "Honesty", "Knowledge", "Wealth"]
+    title: "Roots and lemmas",
+    desc: "Use study-style searches for word families.",
+    examples: ["رحم", "كتاب", "Yunus"]
   },
   {
-    title: "Hereafter",
-    topics: ["Paradise", "Hell", "Judgement Day", "Death", "Resurrection", "Angels"]
+    title: "Themes",
+    desc: "Try broad ideas to explore related verses.",
+    examples: ["mercy", "guidance", "patience"]
   }
 ];
 
@@ -258,11 +266,11 @@ export default function StudyQuickPanelSearchTab({
     }
   }, [searchQuery, runSearch]);
 
-  const handleTopicClick = (topic: string) => {
-    saveRecentSearch(topic);
+  const handleExampleClick = (query: string) => {
+    saveRecentSearch(query);
     setRecentSearches(getRecentSearches());
     pendingSearchRef.current = true;
-    setSearchQuery(topic);
+    setSearchQuery(query);
   };
 
   const handleRecentClick = (query: string) => {
@@ -362,6 +370,33 @@ export default function StudyQuickPanelSearchTab({
             </div>
           )}
 
+          {/* Search guide */}
+          <div className="sqp-search-guide">
+            <div className="sqp-section-header">
+              <span className="sqp-section-label">What You Can Search</span>
+            </div>
+            <div className="sqp-search-guide-grid">
+              {SEARCH_GUIDE.map((item) => (
+                <section key={item.title} className="sqp-search-guide-card">
+                  <h4 className="sqp-search-guide-title">{item.title}</h4>
+                  <p className="sqp-search-guide-desc">{item.desc}</p>
+                  <div className="sqp-chip-list">
+                    {item.examples.map((example) => (
+                      <button
+                        key={example}
+                        type="button"
+                        className="sqp-chip sqp-chip--topic"
+                        onClick={() => handleExampleClick(example)}
+                      >
+                        {example}
+                      </button>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </div>
+
           {/* Key Verses */}
           <div className="sqp-section">
             <div className="sqp-section-header">
@@ -386,33 +421,6 @@ export default function StudyQuickPanelSearchTab({
                 </button>
               ))}
             </div>
-          </div>
-
-          {/* Topic exploration */}
-          {TOPIC_GROUPS.map((group) => (
-            <div key={group.title} className="sqp-section">
-              <div className="sqp-section-header">
-                <span className="sqp-section-label">{group.title}</span>
-              </div>
-              <div className="sqp-chip-list">
-                {group.topics.map((topic) => (
-                  <button key={topic} type="button" className="sqp-chip sqp-chip--topic" onClick={() => handleTopicClick(topic)}>
-                    {topic}
-                  </button>
-                ))}
-              </div>
-            </div>
-          ))}
-
-          {/* Search tips */}
-          <div className="sqp-tips">
-            <span className="sqp-tips-label">Tips</span>
-            <ul className="sqp-tips-list">
-              <li>Type a verse reference like <strong>2:255</strong> to jump directly</li>
-              <li>Search in English or Arabic</li>
-              <li>Try <strong>root:رحم</strong> or <strong>lemma:كتاب</strong> for deeper study</li>
-              <li>Try broad topics like &ldquo;mercy&rdquo; or specific words</li>
-            </ul>
           </div>
         </>
       )}
