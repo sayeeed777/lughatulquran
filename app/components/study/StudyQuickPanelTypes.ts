@@ -43,6 +43,7 @@ export type SearchResult = {
   matchLabel?: string;
   page?: number | null;
   juz?: number | null;
+  matchedRoot?: string | null;
 };
 
 export type StudyQuickPanelContentProps = {
@@ -115,6 +116,7 @@ export type StudyQuickPanelContentProps = {
   searchError: string | null;
   searchHasRun: boolean;
   searchResults: SearchResult[];
+  onOpenRootDetails: (root: string) => void;
   onOpenNote: (surah: number, ayah: number) => void;
   todayVersesRead: number;
   weekTotal: number;

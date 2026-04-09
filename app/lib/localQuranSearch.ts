@@ -32,6 +32,7 @@ export type LocalSearchResult = {
   matchLabel?: string;
   page?: number | null;
   juz?: number | null;
+  matchedRoot?: string | null;
 };
 
 type PreparedSearchEntry = SearchIndexEntry & {
@@ -163,6 +164,34 @@ const searchSurahStarts = (query: string): Array<LocalSearchResult & { score: nu
     .slice(0, 10);
 };
 
+const findMatchedArabicRoot = (
+  entry: SearchIndexEntry,
+  normalized: string,
+  normalizedBuckwalter: string
+) => {
+  const arabicRoots = entry.ra || [];
+  if (normalized) {
+    const matchedArabic = arabicRoots.find((root) => {
+      const normalizedRoot = normalizeForSearch(root);
+      return normalizedRoot === normalized || normalizedRoot.includes(normalized);
+    });
+    if (matchedArabic) return matchedArabic;
+  }
+
+  if (normalizedBuckwalter) {
+    const buckRoots = entry.rb || [];
+    const matchedIndex = buckRoots.findIndex((root) => {
+      const normalizedRoot = normalizeBuckwalterLike(root);
+      return normalizedRoot === normalizedBuckwalter || normalizedRoot.includes(normalizedBuckwalter);
+    });
+    if (matchedIndex >= 0) {
+      return arabicRoots[matchedIndex] || arabicRoots[0] || null;
+    }
+  }
+
+  return arabicRoots[0] || null;
+};
+
 export const searchLocalQuran = (query: string, limit = LOCAL_MAX_RESULTS): LocalSearchResult[] => {
   const { mode, value } = getMode(query);
   const normalized = normalizeForSearch(value);
@@ -272,6 +301,7 @@ export const searchLocalQuran = (query: string, limit = LOCAL_MAX_RESULTS): Loca
       matchLabel,
       page: entry.pg ?? null,
       juz: entry.j ?? null,
+      matchedRoot: hasRootMatch ? findMatchedArabicRoot(entry, normalized, normalizedBuckwalter) : null,
       score
     });
   }

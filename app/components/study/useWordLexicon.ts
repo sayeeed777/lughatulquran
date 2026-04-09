@@ -30,6 +30,8 @@ export default function useWordLexicon({
   const [selectedWordDetails, setSelectedWordDetails] = useState<SelectedWordDetails | null>(null);
   const [isLaneModalOpen, setIsLaneModalOpen] = useState(false);
   const [isRootDetailsModalOpen, setIsRootDetailsModalOpen] = useState(false);
+  const [standaloneRoot, setStandaloneRoot] = useState("");
+  const [standaloneRootArabic, setStandaloneRootArabic] = useState("");
   const [rootLexicon, setRootLexicon] = useState<RootLexiconPayload | null>(null);
   const [rootLexiconLoading, setRootLexiconLoading] = useState(false);
   const [rootLexiconError, setRootLexiconError] = useState<string | null>(null);
@@ -198,6 +200,8 @@ export default function useWordLexicon({
       if (!selectedSurahNumber) return;
       rootLookupRequestRef.current += 1;
       const position = Number(word.position) || wordIndex + 1;
+      setStandaloneRoot("");
+      setStandaloneRootArabic("");
       setSelectedWordDetails({
         surah: selectedSurahNumber,
         ayah: ayahNumber,
@@ -253,6 +257,8 @@ export default function useWordLexicon({
     setSelectedWordDetails(null);
     setIsLaneModalOpen(false);
     setIsRootDetailsModalOpen(false);
+    setStandaloneRoot("");
+    setStandaloneRootArabic("");
     setRootLexicon(null);
     setRootLexiconError(null);
     setRootLexiconLoading(false);
@@ -290,6 +296,8 @@ export default function useWordLexicon({
     async (root?: string) => {
       const normalizedRoot = (root || "").trim();
       if (!normalizedRoot) return;
+      setStandaloneRoot(normalizedRoot);
+      setStandaloneRootArabic(normalizedRoot);
       setIsLaneModalOpen(false);
       setIsRootDetailsModalOpen(true);
       await ensureFullRootLexicon(normalizedRoot);
@@ -299,11 +307,13 @@ export default function useWordLexicon({
 
   const closeRootDetailsModal = useCallback(() => {
     setIsRootDetailsModalOpen(false);
+    setStandaloneRoot("");
+    setStandaloneRootArabic("");
   }, []);
 
-  const selectedRoot = (selectedWordDetails?.root || "").trim();
+  const selectedRoot = (selectedWordDetails?.root || standaloneRoot || "").trim();
   const selectedRootArabic =
-    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || "";
+    selectedWordDetails?.rootArabic || rootLexicon?.rootArabic || standaloneRootArabic || "";
 
   const distillRootMeaning = useCallback((value?: string) => {
     const raw = (value || "").replace(/\s+/g, " ").trim();

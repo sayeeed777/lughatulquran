@@ -16,6 +16,7 @@ type SearchResult = {
   matchLabel?: string;
   page?: number | null;
   juz?: number | null;
+  matchedRoot?: string | null;
 };
 
 /** Simple string hash to avoid storing full user-agent strings in memory. */

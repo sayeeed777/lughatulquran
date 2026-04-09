@@ -487,7 +487,7 @@ export default function StudyLexiconModals({
         </div>
       ) : null}
 
-      {selectedWordDetails && isRootDetailsModalOpen ? (
+      {isRootDetailsModalOpen ? (
         <div className="study-lexicon-backdrop root-layer" onClick={onCloseRootDetailsModal}>
           <div
             className="study-lexicon-modal root-explorer-modal"
@@ -514,7 +514,7 @@ export default function StudyLexiconModals({
                       <div className="study-root-explorer-root-block">
                         <span className="study-lexicon-label">Root</span>
                         <span className="study-root-explorer-root" lang="ar" dir="rtl">
-                          {rootLexicon?.rootArabic || selectedWordDetails.rootArabic || "—"}
+                          {rootLexicon?.rootArabic || selectedRootArabic || "—"}
                         </span>
                       </div>
                       <div className="study-root-explorer-summary-block">

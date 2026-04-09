@@ -19,6 +19,7 @@ type StudyQuickPanelSearchTabProps = Pick<
   | "searchResults"
   | "surahByNumber"
   | "onJumpToAyah"
+  | "onOpenRootDetails"
   | "onClosePanel"
 >;
 
@@ -229,6 +230,7 @@ export default function StudyQuickPanelSearchTab({
   searchResults,
   surahByNumber,
   onJumpToAyah,
+  onOpenRootDetails,
   onClosePanel
 }: StudyQuickPanelSearchTabProps) {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -460,6 +462,7 @@ export default function StudyQuickPanelSearchTab({
                 ? surahByNumber.get(result.surah)?.englishName || `Surah ${result.surah}`
                 : "";
               const verseKey = result.surah && result.ayah ? `${result.surah}:${result.ayah}` : "";
+              const showRootDetails = Boolean(result.matchedRoot);
               return (
                 <li
                   key={`${result.surah}-${result.ayah}-${index}`}
@@ -499,6 +502,21 @@ export default function StudyQuickPanelSearchTab({
                   {result.translation && (
                     <p className="sqp-result-translation">{renderHighlightedText(result.translation, searchQuery)}</p>
                   )}
+                  {showRootDetails && result.matchedRoot ? (
+                    <div className="sqp-result-actions">
+                      <button
+                        type="button"
+                        className="sqp-result-action"
+                        onClick={(event) => {
+                          event.stopPropagation();
+                          onOpenRootDetails(result.matchedRoot || "");
+                          onClosePanel();
+                        }}
+                      >
+                        Root Details
+                      </button>
+                    </div>
+                  ) : null}
                 </li>
               );
             })}

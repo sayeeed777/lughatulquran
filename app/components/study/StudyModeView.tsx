@@ -630,6 +630,7 @@ export default function StudyModeView({
             searchError={searchError}
             searchHasRun={searchHasRun}
             searchResults={searchResults}
+            onOpenRootDetails={openRootDetails}
             onOpenNote={onOpenNote}
             todayVersesRead={todayStats.versesRead}
             weekTotal={weekTotal}
