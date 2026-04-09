@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npm run split:quran-seo-text",
+    "prebuild": "npm run build:search-index && npm run split:quran-seo-text",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
@@ -17,6 +17,7 @@
     "normalize:translations": "node scripts/normalize-translation-json.mjs",
     "verify:prayer": "node scripts/verify-prayer-times.mjs",
     "build:prayer-locations-supplemental": "node scripts/build-prayer-locations-supplemental.mjs",
+    "build:search-index": "node scripts/build-quran-search-index.mjs",
     "ingest:root-explorer": "node scripts/fetch-root-explorer.mjs",
     "ingest:audio-timings": "node scripts/fetch-audio-timings.mjs",
     "split:quran-seo-text": "node scripts/split-quran-seo-text.mjs"

@@ -1,10 +1,12 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { Fragment, type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { StudyQuickPanelContentProps } from "./StudyQuickPanelTypes";
 
 const RECENT_SEARCHES_KEY = "quran_recent_searches";
 const MAX_RECENT = 6;
+const COMBINING_MARKS_RE = /[\u0300-\u036f]/g;
+const ARABIC_DIACRITICS_RE = /[\u064B-\u065F\u0670\u06D6-\u06ED]/g;
 
 type StudyQuickPanelSearchTabProps = Pick<
   StudyQuickPanelContentProps,
@@ -19,6 +21,16 @@ type StudyQuickPanelSearchTabProps = Pick<
   | "onJumpToAyah"
   | "onClosePanel"
 >;
+
+type SearchFilterKey =
+  | "all"
+  | "surah"
+  | "arabic"
+  | "translation"
+  | "gloss"
+  | "transliteration"
+  | "root"
+  | "lemma";
 
 const TOPIC_GROUPS: Array<{ title: string; topics: string[] }> = [
   {
@@ -70,6 +82,135 @@ const clearRecentSearches = () => {
   try { localStorage.removeItem(RECENT_SEARCHES_KEY); } catch { /* ignore */ }
 };
 
+const normalizeForHighlight = (value: string) =>
+  String(value || "")
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(COMBINING_MARKS_RE, "")
+    .replace(ARABIC_DIACRITICS_RE, "")
+    .trim();
+
+const getHighlightQuery = (query: string) =>
+  query
+    .trim()
+    .replace(/^root\s*:/i, "")
+    .replace(/^lemma\s*:/i, "")
+    .replace(/^surah\s*:/i, "")
+    .trim();
+
+const getFilterKey = (matchType?: string): SearchFilterKey => {
+  switch (matchType) {
+    case "surah":
+    case "arabic":
+    case "translation":
+    case "gloss":
+    case "transliteration":
+    case "root":
+    case "lemma":
+      return matchType;
+    default:
+      return "all";
+  }
+};
+
+const FILTER_LABELS: Record<SearchFilterKey, string> = {
+  all: "All",
+  surah: "Surah",
+  arabic: "Arabic",
+  translation: "Translation",
+  gloss: "Meaning",
+  transliteration: "Translit",
+  root: "Root",
+  lemma: "Lemma"
+};
+
+const findHighlightRanges = (text: string, rawQuery: string) => {
+  const baseQuery = getHighlightQuery(rawQuery);
+  if (!text || !baseQuery) return [];
+
+  const terms = [...new Set(
+    baseQuery
+      .split(/\s+/)
+      .map((term) => normalizeForHighlight(term))
+      .filter(Boolean)
+  )].sort((a, b) => b.length - a.length);
+
+  if (!terms.length) return [];
+
+  let normalizedText = "";
+  const normalizedToOriginal: number[] = [];
+  let offset = 0;
+
+  for (const char of text) {
+    const charStart = offset;
+    offset += char.length;
+    const normalizedChar = normalizeForHighlight(char);
+    if (!normalizedChar) continue;
+    for (const outChar of normalizedChar) {
+      normalizedText += outChar;
+      normalizedToOriginal.push(charStart);
+    }
+  }
+
+  const ranges: Array<{ start: number; end: number }> = [];
+
+  for (const term of terms) {
+    let searchFrom = 0;
+    while (searchFrom < normalizedText.length) {
+      const foundAt = normalizedText.indexOf(term, searchFrom);
+      if (foundAt === -1) break;
+      const lastIndex = foundAt + term.length - 1;
+      const start = normalizedToOriginal[foundAt];
+      const end = lastIndex + 1 < normalizedToOriginal.length
+        ? normalizedToOriginal[lastIndex + 1]
+        : text.length;
+      if (typeof start === "number" && typeof end === "number" && end > start) {
+        ranges.push({ start, end });
+      }
+      searchFrom = foundAt + term.length;
+    }
+  }
+
+  ranges.sort((a, b) => a.start - b.start || a.end - b.end);
+
+  const merged: Array<{ start: number; end: number }> = [];
+  for (const range of ranges) {
+    const prev = merged[merged.length - 1];
+    if (!prev || range.start > prev.end) {
+      merged.push(range);
+    } else if (range.end > prev.end) {
+      prev.end = range.end;
+    }
+  }
+
+  return merged;
+};
+
+const renderHighlightedText = (text: string, query: string) => {
+  const ranges = findHighlightRanges(text, query);
+  if (!ranges.length) return text;
+
+  const parts: ReactNode[] = [];
+  let cursor = 0;
+  ranges.forEach((range, index) => {
+    if (range.start > cursor) {
+      parts.push(text.slice(cursor, range.start));
+    }
+    parts.push(
+      <mark key={`${range.start}-${range.end}-${index}`} className="sqp-highlight">
+        {text.slice(range.start, range.end)}
+      </mark>
+    );
+    cursor = range.end;
+  });
+  if (cursor < text.length) {
+    parts.push(text.slice(cursor));
+  }
+  return parts.map((part, index) => (
+    <Fragment key={typeof part === "string" ? `text-${index}` : `mark-${index}`}>{part}</Fragment>
+  ));
+};
+
 export default function StudyQuickPanelSearchTab({
   searchQuery,
   setSearchQuery,
@@ -85,11 +226,16 @@ export default function StudyQuickPanelSearchTab({
   const inputRef = useRef<HTMLInputElement>(null);
   const pendingSearchRef = useRef(false);
   const [recentSearches, setRecentSearches] = useState<string[]>([]);
+  const [activeFilter, setActiveFilter] = useState<SearchFilterKey>("all");
 
   useEffect(() => {
     setRecentSearches(getRecentSearches());
     setTimeout(() => inputRef.current?.focus(), 80);
   }, []);
+
+  useEffect(() => {
+    setActiveFilter("all");
+  }, [searchQuery, searchResults]);
 
   const handleSearch = useCallback(() => {
     const q = searchQuery.trim();
@@ -139,6 +285,19 @@ export default function StudyQuickPanelSearchTab({
   const hasQuery = searchQuery.trim().length > 0;
   const showHome = !hasQuery && !searchHasRun && !searchLoading;
   const showEmpty = !searchLoading && !searchError && searchResults.length === 0;
+  const availableFilters = useMemo(() => {
+    const present = new Set<SearchFilterKey>(["all"]);
+    searchResults.forEach((result) => {
+      present.add(getFilterKey(result.matchType));
+    });
+    return (["all", "surah", "arabic", "translation", "gloss", "transliteration", "root", "lemma"] as SearchFilterKey[])
+      .filter((filter) => present.has(filter));
+  }, [searchResults]);
+  const filteredResults = useMemo(
+    () => searchResults.filter((result) => activeFilter === "all" || getFilterKey(result.matchType) === activeFilter),
+    [activeFilter, searchResults]
+  );
+  const showFilteredEmpty = !searchLoading && !searchError && searchResults.length > 0 && filteredResults.length === 0;
 
   return (
     <div className="quick-panel-section">
@@ -251,6 +410,7 @@ export default function StudyQuickPanelSearchTab({
             <ul className="sqp-tips-list">
               <li>Type a verse reference like <strong>2:255</strong> to jump directly</li>
               <li>Search in English or Arabic</li>
+              <li>Try <strong>root:رحم</strong> or <strong>lemma:كتاب</strong> for deeper study</li>
               <li>Try broad topics like &ldquo;mercy&rdquo; or specific words</li>
             </ul>
           </div>
@@ -269,9 +429,25 @@ export default function StudyQuickPanelSearchTab({
       {/* Results */}
       {searchResults.length > 0 && (
         <div className="sqp-search-results-wrap">
-          <span className="sqp-result-count">{searchResults.length} result{searchResults.length !== 1 ? "s" : ""}</span>
+          <div className="sqp-search-results-top">
+            <span className="sqp-result-count">{filteredResults.length} result{filteredResults.length !== 1 ? "s" : ""}</span>
+            {availableFilters.length > 1 && (
+              <div className="sqp-search-filters">
+                {availableFilters.map((filter) => (
+                  <button
+                    key={filter}
+                    type="button"
+                    className={`sqp-search-filter${activeFilter === filter ? " is-active" : ""}`}
+                    onClick={() => setActiveFilter(filter)}
+                  >
+                    {FILTER_LABELS[filter]}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <ul className="sqp-search-results">
-            {searchResults.map((result, index) => {
+            {filteredResults.map((result, index) => {
               const name = result.surah
                 ? surahByNumber.get(result.surah)?.englishName || `Surah ${result.surah}`
                 : "";
@@ -297,19 +473,34 @@ export default function StudyQuickPanelSearchTab({
                   }}
                 >
                   <div className="sqp-result-header">
-                    <span className="sqp-result-name">{name}</span>
+                    <span className="sqp-result-name">{renderHighlightedText(name, searchQuery)}</span>
                     {verseKey && <span className="sqp-result-key">{verseKey}</span>}
                   </div>
+                  {(result.matchLabel || result.page || result.juz) && (
+                    <div className="sqp-result-meta">
+                      {[
+                        result.matchLabel,
+                        result.juz ? `Juz ${result.juz}` : null,
+                        result.page ? `Page ${result.page}` : null
+                      ].filter(Boolean).join(" · ")}
+                    </div>
+                  )}
                   {result.text && (
-                    <p className="sqp-result-arabic" lang="ar" dir="rtl">{result.text}</p>
+                    <p className="sqp-result-arabic" lang="ar" dir="rtl">{renderHighlightedText(result.text, searchQuery)}</p>
                   )}
                   {result.translation && (
-                    <p className="sqp-result-translation">{result.translation}</p>
+                    <p className="sqp-result-translation">{renderHighlightedText(result.translation, searchQuery)}</p>
                   )}
                 </li>
               );
             })}
           </ul>
+          {showFilteredEmpty && (
+            <div className="sqp-search-empty sqp-search-empty--inline">
+              <p>No {FILTER_LABELS[activeFilter].toLowerCase()} matches</p>
+              <span>Try switching filters or broadening the query.</span>
+            </div>
+          )}
         </div>
       )}
     </div>

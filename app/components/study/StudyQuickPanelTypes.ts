@@ -39,6 +39,10 @@ export type SearchResult = {
   ayah?: number;
   text?: string;
   translation?: string;
+  matchType?: string;
+  matchLabel?: string;
+  page?: number | null;
+  juz?: number | null;
 };
 
 export type StudyQuickPanelContentProps = {
