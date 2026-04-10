@@ -714,6 +714,245 @@
 }
 
 /* =============================================
+   SHARE PANEL
+   ============================================= */
+
+.share-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: var(--z-modal);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fadeIn 0.15s ease;
+}
+
+.share-panel {
+  background: var(--card-strong, rgba(14, 19, 24, 0.96));
+  border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  width: 100%;
+  max-width: 480px;
+  padding: 8px 24px 28px;
+  animation: slideUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
+  position: relative;
+}
+
+.share-handle {
+  width: 36px;
+  height: 4px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 auto 16px;
+}
+
+.share-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.share-reference {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-2);
+}
+
+.share-close-btn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-full);
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.share-close-btn svg {
+  width: 14px;
+  height: 14px;
+}
+
+.share-close-btn:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* Social icons row */
+.share-socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 8px 0 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  margin-bottom: 16px;
+}
+
+.share-social-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.15s ease;
+}
+
+.share-social-btn:hover {
+  transform: scale(1.08);
+}
+
+.share-social-btn:active {
+  transform: scale(0.95);
+}
+
+.share-social-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.share-social-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.share-social-more {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: var(--text);
+}
+
+.share-social-label {
+  font-size: var(--text-xs);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* Action buttons */
+.share-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.share-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px 16px;
+  border: none;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.share-action-btn svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.share-action-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.share-action-btn:active {
+  transform: scale(0.98);
+}
+
+.share-action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.share-action-image {
+  background: var(--gradient-primary);
+  color: #f4fffb;
+}
+
+.share-action-image:hover {
+  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
+}
+
+/* Share toast */
+.share-toast {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 10, 10, 0.92);
+  color: var(--accent-2);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 8px 18px;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  pointer-events: none;
+  animation: shareToastIn 0.2s ease-out, shareToastOut 0.3s 1.2s ease-in forwards;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+@keyframes shareToastIn {
+  from { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+@keyframes shareToastOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+/* Note vs Share toggle: share on mobile, note on desktop */
+.ayah-share-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .ayah-note-btn {
+    display: none;
+  }
+
+  .ayah-share-btn {
+    display: inline-flex;
+  }
+}
+
+/* Desktop: center the panel instead of bottom sheet */
+@media (min-width: 769px) {
+  .share-overlay {
+    align-items: center;
+  }
+
+  .share-panel {
+    border-radius: var(--radius-xl);
+    max-width: 420px;
+  }
+
+  .share-handle {
+    display: none;
+  }
+}
+
+/* =============================================
    B&W THEME OVERRIDES
    ============================================= */
 

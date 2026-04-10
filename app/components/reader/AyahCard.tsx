@@ -25,6 +25,7 @@ type AyahCardProps = {
   onOpenNote: (surah: number, ayah: number) => void;
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
+  onShare?: (ayah: Ayah, surahNumber: number) => void;
   formatArabic: (text: string) => string;
 };
 
@@ -48,6 +49,7 @@ const AyahCard = memo(function AyahCard({
   onToggleBookmark,
   onOpenNote,
   onCompare,
+  onShare,
   formatArabic
 }: AyahCardProps) {
   // Support both array and single string for backwards compatibility
@@ -140,7 +142,7 @@ const AyahCard = memo(function AyahCard({
             </svg>
           </button>
           <button
-            className={`action-icon-btn${hasNote ? " saved" : ""}`}
+            className={`action-icon-btn ayah-note-btn${hasNote ? " saved" : ""}`}
             onClick={(e) => {
               e.stopPropagation();
               onOpenNote(surahNumber, ayah.number);
@@ -165,6 +167,25 @@ const AyahCard = memo(function AyahCard({
               />
             </svg>
           </button>
+          {onShare && (
+            <button
+              className="action-icon-btn ayah-share-btn"
+              onClick={(e) => {
+                e.stopPropagation();
+                onShare(ayah, surahNumber);
+              }}
+              aria-label="Share ayah"
+              title="Share ayah"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="18" cy="5" r="3" />
+                <circle cx="6" cy="12" r="3" />
+                <circle cx="18" cy="19" r="3" />
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
+              </svg>
+            </button>
+          )}
           <button
             className="action-icon-btn is-compare"
             onClick={(e) => {

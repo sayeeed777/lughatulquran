@@ -10,6 +10,8 @@ import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } f
 import { verseKey, clamp, normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 import StudyMushafPage from "../study/StudyMushafPage";
+import SharePanel from "./SharePanel";
+import type { Ayah } from "../../lib/types";
 
 export default function ReaderPanel() {
   // Consume from contexts
@@ -28,7 +30,8 @@ export default function ReaderPanel() {
     readerScopeLoading,
     readerScopeError,
     readerScopeMeta,
-    readerScopeLayout
+    readerScopeLayout,
+    surahByNumber
   } = useQuranData();
   const {
     query,
@@ -99,6 +102,13 @@ export default function ReaderPanel() {
 
   const isScopeMode = readerScopeMode !== "surah";
   const hasMushafLayout = readerScopeMode === "page" && Boolean(readerScopeLayout?.lines?.length);
+
+  // -- Share Panel State --
+  const [shareAyah, setShareAyah] = useState<{ ayah: Ayah; surahNumber: number } | null>(null);
+
+  const handleShare = (ayah: Ayah, surahNum: number) => {
+    setShareAyah({ ayah, surahNumber: surahNum });
+  };
 
   // -- Deferred Rendering State --
   const [visibleCount, setVisibleCount] = useState(15);
@@ -541,6 +551,7 @@ export default function ReaderPanel() {
                     onOpenNote={onOpenNote}
                     onCompare={onCompare}
                     onCopyLink={onCopyLink}
+                    onShare={handleShare}
                     formatArabic={formatArabic}
                   />
                 );
@@ -602,6 +613,7 @@ export default function ReaderPanel() {
                         onOpenNote={onOpenNote}
                         onCompare={onCompare}
                         onCopyLink={onCopyLink}
+                        onShare={handleShare}
                         formatArabic={formatArabic}
                       />
                     );
@@ -620,6 +632,27 @@ export default function ReaderPanel() {
           )}
         </>
       )}
+
+      {/* Share Panel */}
+      <SharePanel
+        isOpen={Boolean(shareAyah)}
+        onClose={() => setShareAyah(null)}
+        ayah={shareAyah?.ayah ?? null}
+        surahNumber={shareAyah?.surahNumber ?? 0}
+        surahName={
+          shareAyah
+            ? surahByNumber.get(shareAyah.surahNumber)?.englishName || `Surah ${shareAyah.surahNumber}`
+            : ""
+        }
+        surahNameArabic={
+          shareAyah
+            ? surahByNumber.get(shareAyah.surahNumber)?.name || ""
+            : ""
+        }
+        selectedTranslation={
+          Array.isArray(selectedTranslations) ? selectedTranslations[0] || "en-arberry" : selectedTranslations
+        }
+      />
     </section>
   );
 }
