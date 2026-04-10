@@ -340,8 +340,12 @@ export default function SharePanel({
       a.click();
       URL.revokeObjectURL(url);
       showToast("Image saved");
-    } catch {
-      showToast("Failed to generate image");
+    } catch (err) {
+      if (err instanceof DOMException && err.name === "AbortError") {
+        // User dismissed share sheet — not an error
+      } else {
+        showToast("Failed to generate image");
+      }
     }
     setGeneratingImage(false);
   };

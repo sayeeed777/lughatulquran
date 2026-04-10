@@ -1009,6 +1009,13 @@
 }
 
 /* Scrollbar — scoped to panels only */
+:root[data-theme="mist"] .surah-list,
+:root[data-theme="mist"] .study-panel,
+:root[data-theme="mist"] .page-grid,
+:root[data-theme="mist"] .mobile-settings-body {
+  scrollbar-color: rgba(190, 220, 198, 0.15) transparent;
+}
+
 :root[data-theme="mist"] .surah-list::-webkit-scrollbar-track,
 :root[data-theme="mist"] .study-panel::-webkit-scrollbar-track,
 :root[data-theme="mist"] .page-grid::-webkit-scrollbar-track,

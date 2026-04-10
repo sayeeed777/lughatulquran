@@ -763,6 +763,13 @@
 }
 
 /* Scrollbar — Olive tinted, scoped to panels only */
+:root[data-theme="light"] .surah-list,
+:root[data-theme="light"] .study-panel,
+:root[data-theme="light"] .page-grid,
+:root[data-theme="light"] .mobile-settings-body {
+  scrollbar-color: rgba(66, 82, 54, 0.15) transparent;
+}
+
 :root[data-theme="light"] .surah-list::-webkit-scrollbar,
 :root[data-theme="light"] .study-panel::-webkit-scrollbar,
 :root[data-theme="light"] .page-grid::-webkit-scrollbar,

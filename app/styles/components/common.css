@@ -600,6 +600,14 @@
 }
 
 /* Immersive Scrollbar — only for panels, not body/main page */
+.surah-list,
+.study-panel,
+.page-grid,
+.mobile-settings-body {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
 .surah-list::-webkit-scrollbar,
 .study-panel::-webkit-scrollbar,
 .page-grid::-webkit-scrollbar,
