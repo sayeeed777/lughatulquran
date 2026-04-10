@@ -504,17 +504,29 @@
   transform: scale(0.97);
 }
 
-.compare-panel {
+.compare-overlay {
   position: fixed;
-  inset: auto 24px 24px auto;
-  width: min(520px, 90vw);
-  background: var(--card-strong);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: var(--z-overlay);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: fadeIn 0.15s ease;
+}
+
+.compare-panel {
+  position: relative;
+  width: min(520px, 100%);
+  background: var(--bg-mid, #141c22);
   border-radius: var(--radius-lg);
   border: none;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-elevated);
   padding: 20px;
-  z-index: 10;
-  animation: fadeUp 0.4s ease;
+  animation: slideUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 .compare-header {
@@ -532,13 +544,39 @@
   background: rgba(255, 255, 255, 0.08);
 }
 
+.compare-scroll-wrap {
+  position: relative;
+}
+
 .compare-body {
   display: flex;
   flex-direction: column;
   gap: 16px;
   max-height: 70vh;
   overflow-y: auto;
-  padding-right: 6px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.compare-body::-webkit-scrollbar {
+  display: none;
+}
+
+.compare-scrollbar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.compare-scrollbar-thumb {
+  width: 3px;
+  border-radius: 3px;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .compare-block {
@@ -561,25 +599,35 @@
   font-size: calc(0.95rem * var(--translation-scale));
 }
 
-/* Immersive Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+/* Immersive Scrollbar — only for panels, not body/main page */
+.surah-list::-webkit-scrollbar,
+.study-panel::-webkit-scrollbar,
+.page-grid::-webkit-scrollbar,
+.mobile-settings-body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
 }
 
-::-webkit-scrollbar-track {
-  background: rgba(11, 28, 32, 0.5);
+.surah-list::-webkit-scrollbar-track,
+.study-panel::-webkit-scrollbar-track,
+.page-grid::-webkit-scrollbar-track,
+.mobile-settings-body::-webkit-scrollbar-track {
+  background: transparent;
 }
 
-::-webkit-scrollbar-thumb {
+.surah-list::-webkit-scrollbar-thumb,
+.study-panel::-webkit-scrollbar-thumb,
+.page-grid::-webkit-scrollbar-thumb,
+.mobile-settings-body::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-full);
-  border: 2px solid transparent;
-  background-clip: content-box;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+.surah-list::-webkit-scrollbar-thumb:hover,
+.study-panel::-webkit-scrollbar-thumb:hover,
+.page-grid::-webkit-scrollbar-thumb:hover,
+.mobile-settings-body::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
 }
 
 /* Back To Top Button */
@@ -737,9 +785,19 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     display: flex;
   }
 
+  .compare-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+
   .compare-panel {
-    inset: auto 16px 16px 16px;
-    width: auto;
+    width: 100%;
+    max-height: 85vh;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+  }
+
+  .compare-body {
+    max-height: 70vh;
   }
 
   .note-panel {
@@ -1304,25 +1362,7 @@ textarea:focus-visible {
   color: var(--text);
 }
 
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.15);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.25);
-}
+/* Global scrollbar removed — scoped to panels only (see above) */
 
 /* Keyboard shortcuts hint */
 .shortcuts-hint {

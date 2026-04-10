@@ -323,7 +323,7 @@ export default function SharePanel({
 
       // Try native share with image first
       if (navigator.share && navigator.canShare) {
-        const file = new File([blob], `${reference.replace(/\s+/g, "-")}.png`, { type: "image/png" });
+        const file = new File([blob], `${reference.replace(/[^a-zA-Z0-9]+/g, "-")}.png`, { type: "image/png" });
         const shareData = { files: [file], title: reference };
         if (navigator.canShare(shareData)) {
           await navigator.share(shareData);
@@ -336,7 +336,7 @@ export default function SharePanel({
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `${reference.replace(/\s+/g, "-")}.png`;
+      a.download = `${reference.replace(/[^a-zA-Z0-9]+/g, "-")}.png`;
       a.click();
       URL.revokeObjectURL(url);
       showToast("Image saved");

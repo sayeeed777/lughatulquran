@@ -397,6 +397,12 @@ html {
     background-color: var(--bg-deep);
     /* Stable overscroll fallback per active theme */
     -webkit-tap-highlight-color: transparent;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -408,6 +414,12 @@ body {
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -762,22 +762,34 @@
   background: var(--accent);
 }
 
-/* Scrollbar — Olive tinted */
-:root[data-theme="light"] ::-webkit-scrollbar {
+/* Scrollbar — Olive tinted, scoped to panels only */
+:root[data-theme="light"] .surah-list::-webkit-scrollbar,
+:root[data-theme="light"] .study-panel::-webkit-scrollbar,
+:root[data-theme="light"] .page-grid::-webkit-scrollbar,
+:root[data-theme="light"] .mobile-settings-body::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
-:root[data-theme="light"] ::-webkit-scrollbar-track {
+:root[data-theme="light"] .surah-list::-webkit-scrollbar-track,
+:root[data-theme="light"] .study-panel::-webkit-scrollbar-track,
+:root[data-theme="light"] .page-grid::-webkit-scrollbar-track,
+:root[data-theme="light"] .mobile-settings-body::-webkit-scrollbar-track {
   background: transparent;
 }
 
-:root[data-theme="light"] ::-webkit-scrollbar-thumb {
+:root[data-theme="light"] .surah-list::-webkit-scrollbar-thumb,
+:root[data-theme="light"] .study-panel::-webkit-scrollbar-thumb,
+:root[data-theme="light"] .page-grid::-webkit-scrollbar-thumb,
+:root[data-theme="light"] .mobile-settings-body::-webkit-scrollbar-thumb {
   background: rgba(66, 82, 54, 0.15);
   border-radius: 4px;
 }
 
-:root[data-theme="light"] ::-webkit-scrollbar-thumb:hover {
+:root[data-theme="light"] .surah-list::-webkit-scrollbar-thumb:hover,
+:root[data-theme="light"] .study-panel::-webkit-scrollbar-thumb:hover,
+:root[data-theme="light"] .page-grid::-webkit-scrollbar-thumb:hover,
+:root[data-theme="light"] .mobile-settings-body::-webkit-scrollbar-thumb:hover {
   background: rgba(66, 82, 54, 0.25);
 }
 

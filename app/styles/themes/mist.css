@@ -1008,16 +1008,25 @@
   color: #c8e3cf;
 }
 
-/* Scrollbar */
-:root[data-theme="mist"] ::-webkit-scrollbar-track {
+/* Scrollbar — scoped to panels only */
+:root[data-theme="mist"] .surah-list::-webkit-scrollbar-track,
+:root[data-theme="mist"] .study-panel::-webkit-scrollbar-track,
+:root[data-theme="mist"] .page-grid::-webkit-scrollbar-track,
+:root[data-theme="mist"] .mobile-settings-body::-webkit-scrollbar-track {
   background: transparent;
 }
 
-:root[data-theme="mist"] ::-webkit-scrollbar-thumb {
+:root[data-theme="mist"] .surah-list::-webkit-scrollbar-thumb,
+:root[data-theme="mist"] .study-panel::-webkit-scrollbar-thumb,
+:root[data-theme="mist"] .page-grid::-webkit-scrollbar-thumb,
+:root[data-theme="mist"] .mobile-settings-body::-webkit-scrollbar-thumb {
   background-color: rgba(190, 220, 198, 0.15);
 }
 
-:root[data-theme="mist"] ::-webkit-scrollbar-thumb:hover {
+:root[data-theme="mist"] .surah-list::-webkit-scrollbar-thumb:hover,
+:root[data-theme="mist"] .study-panel::-webkit-scrollbar-thumb:hover,
+:root[data-theme="mist"] .page-grid::-webkit-scrollbar-thumb:hover,
+:root[data-theme="mist"] .mobile-settings-body::-webkit-scrollbar-thumb:hover {
   background-color: rgba(190, 220, 198, 0.25);
 }
 

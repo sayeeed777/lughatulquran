@@ -3,7 +3,7 @@
 import { ALL_TRANSLATIONS } from "../../lib/constants";
 import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef, useCallback } from "react";
 
 type CompareAllPayload = {
   translations?: Record<string, { text?: string }>;
@@ -56,46 +56,92 @@ export default function CompareModal() {
   const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const allTranslations = payload?.translations || {};
 
-  return (
-    <div className="compare-panel" role="dialog" aria-modal="true" aria-labelledby="compare-modal-title">
-      <div className="compare-header">
-        <div>
-          <p className="eyebrow">Ayah {selectedAyah.number}</p>
-          <h3 id="compare-modal-title">
-            {selectedSurah.englishName} - {selectedSurah.name}
-          </h3>
-        </div>
-        <button className="close-btn" onClick={onClose}>
-          Close
-        </button>
-      </div>
-      <div className="compare-body">
-        <div className="compare-block">
-          <p className="label">Arabic (Uthmani)</p>
-          <p className="ayah-arabic" lang="ar" dir="rtl">
-            {formatArabic(selectedAyah.arabic)}
-          </p>
-        </div>
-        {error && (
-          <div className="compare-block">
-            <p className="label">Compare mode</p>
-            <p className="compare-text">{error}</p>
-          </div>
-        )}
-        {ALL_TRANSLATIONS.map((translation) => {
-          const translationText =
-            allTranslations?.[translation.id]?.text
-            || selectedAyah.translations?.[translation.id]?.text;
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const thumbRef = useRef<HTMLDivElement>(null);
 
-          return (
-            <div key={translation.id} className="compare-block">
-              <p className="label">{translation.label}</p>
-              <p dir="auto" className="compare-text">
-                {translationText || (loading ? "Loading..." : "Translation unavailable.")}
+  const updateThumb = useCallback(() => {
+    const el = scrollRef.current;
+    const thumb = thumbRef.current;
+    if (!el || !thumb) return;
+    const ratio = el.clientHeight / el.scrollHeight;
+    if (ratio >= 1) {
+      thumb.style.opacity = "0";
+      return;
+    }
+    const thumbHeight = Math.max(30, ratio * el.clientHeight);
+    const scrollRatio = el.scrollTop / (el.scrollHeight - el.clientHeight);
+    const maxTop = el.clientHeight - thumbHeight;
+    thumb.style.height = `${thumbHeight}px`;
+    thumb.style.transform = `translateY(${scrollRatio * maxTop}px)`;
+    thumb.style.opacity = "1";
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.addEventListener("scroll", updateThumb, { passive: true });
+    const observer = new ResizeObserver(updateThumb);
+    observer.observe(el);
+    updateThumb();
+    return () => {
+      el.removeEventListener("scroll", updateThumb);
+      observer.disconnect();
+    };
+  }, [updateThumb, loading]);
+
+  return (
+    <div className="compare-overlay" onClick={onClose}>
+      <div
+        className="compare-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="compare-modal-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="compare-header">
+          <div>
+            <p className="eyebrow">Ayah {selectedAyah.number}</p>
+            <h3 id="compare-modal-title">
+              {selectedSurah.englishName} - {selectedSurah.name}
+            </h3>
+          </div>
+          <button className="close-btn" onClick={onClose}>
+            Close
+          </button>
+        </div>
+        <div className="compare-scroll-wrap">
+          <div className="compare-body" ref={scrollRef}>
+            <div className="compare-block">
+              <p className="label">Arabic (Uthmani)</p>
+              <p className="ayah-arabic" lang="ar" dir="rtl">
+                {formatArabic(selectedAyah.arabic)}
               </p>
             </div>
-          );
-        })}
+            {error && (
+              <div className="compare-block">
+                <p className="label">Compare mode</p>
+                <p className="compare-text">{error}</p>
+              </div>
+            )}
+            {ALL_TRANSLATIONS.map((translation) => {
+              const translationText =
+                allTranslations?.[translation.id]?.text
+                || selectedAyah.translations?.[translation.id]?.text;
+
+              return (
+                <div key={translation.id} className="compare-block">
+                  <p className="label">{translation.label}</p>
+                  <p dir="auto" className="compare-text">
+                    {translationText || (loading ? "Loading..." : "Translation unavailable.")}
+                  </p>
+                </div>
+              );
+            })}
+          </div>
+          <div className="compare-scrollbar">
+            <div className="compare-scrollbar-thumb" ref={thumbRef} />
+          </div>
+        </div>
       </div>
     </div>
   );

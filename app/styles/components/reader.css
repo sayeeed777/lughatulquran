@@ -921,18 +921,10 @@
   to { opacity: 0; }
 }
 
-/* Note vs Share toggle: share on mobile, note on desktop */
-.ayah-share-btn {
-  display: none;
-}
-
+/* Note hidden on mobile, share always visible */
 @media (max-width: 768px) {
   .ayah-note-btn {
     display: none;
-  }
-
-  .ayah-share-btn {
-    display: inline-flex;
   }
 }
 
