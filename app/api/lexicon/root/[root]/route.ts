@@ -1,4 +1,6 @@
 import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
+import { apiRateGuard } from "../../../../lib/apiRateLimit";
 import { buckwalterToArabic } from "../../../../lib/lexicon/buckwalter";
 import { getLaneEntry, hasLaneLexicon } from "../../../../lib/lexicon/lane";
 import {
@@ -34,7 +36,10 @@ const safeDecodeURIComponent = (value: string) => {
   }
 };
 
-export async function GET(request: Request, { params }: RouteContext) {
+export async function GET(request: NextRequest, { params }: RouteContext) {
+  const blocked = await apiRateGuard(request, "api-lexicon-root");
+  if (blocked) return blocked;
+
   const resolvedParams = await Promise.resolve(params);
   const rawRoot = safeDecodeURIComponent(resolvedParams?.root || "");
   if (rawRoot === null) {
