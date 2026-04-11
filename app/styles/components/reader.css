@@ -505,10 +505,28 @@
 
 .ayah-arabic-word {
   padding: 0;
+  margin: 0;
+  border: none;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  cursor: pointer;
   transition: color 0.18s ease, opacity 0.18s ease;
 }
 
-.ayah-arabic-word.active {
+.ayah-arabic-word:hover {
+  color: var(--accent-2);
+}
+
+.ayah-arabic-word:focus-visible {
+  outline: none;
+  color: var(--accent-2);
+}
+
+.ayah-arabic-word.active,
+.ayah-arabic-word.tap-playing {
   color: var(--accent-2);
 }
 

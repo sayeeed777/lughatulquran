@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, memo } from "react";
+import { Fragment, memo, useCallback, useEffect, useRef, useState } from "react";
 import type { Ayah, Word, NowPlaying } from "../../lib/types";
 import { normalizeQuranDisplayArabic } from "../../lib/utils";
 
@@ -58,8 +58,43 @@ const AyahCard = memo(function AyahCard({
   const isNowPlaying =
     nowPlaying && nowPlaying.surah === surahNumber && nowPlaying.ayah === ayah.number;
   const isPlaying = isNowPlaying && !isAudioPaused;
-  const shouldSplitArabic = Boolean(isNowPlaying && words.length);
+  const hasInteractiveWords = words.length > 0;
+  const shouldSplitArabic = hasInteractiveWords;
   const formattedArabic = formatArabic(ayah.arabic || "");
+
+  const wordAudioRef = useRef<HTMLAudioElement | null>(null);
+  const [tapPlayingPosition, setTapPlayingPosition] = useState<number | null>(null);
+
+  const playWordAudio = useCallback((word: Word, position: number) => {
+    if (!word.audioUrl) return;
+    if (wordAudioRef.current) {
+      wordAudioRef.current.pause();
+      wordAudioRef.current.src = "";
+      wordAudioRef.current = null;
+    }
+    const audio = new Audio(word.audioUrl);
+    wordAudioRef.current = audio;
+    setTapPlayingPosition(position);
+    const clear = () => {
+      if (wordAudioRef.current === audio) {
+        wordAudioRef.current = null;
+      }
+      setTapPlayingPosition((prev) => (prev === position ? null : prev));
+    };
+    audio.addEventListener("ended", clear);
+    audio.addEventListener("error", clear);
+    audio.play().catch(clear);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (wordAudioRef.current) {
+        wordAudioRef.current.pause();
+        wordAudioRef.current.src = "";
+        wordAudioRef.current = null;
+      }
+    };
+  }, []);
 
   // Translation label map
   const translationLabels: Record<string, string> = {
@@ -208,11 +243,20 @@ const AyahCard = memo(function AyahCard({
           {words.map((word, wordIndex) => {
             const position = Number(word.position) || wordIndex + 1;
             const isActiveWord = isPlaying && activeWordPosition === position;
+            const isTapActive = tapPlayingPosition === position;
             return (
               <Fragment key={`${key}-arabic-word-${position}-${wordIndex}`}>
-                <span className={`ayah-arabic-word${isActiveWord ? " active" : ""}`}>
+                <button
+                  type="button"
+                  className={`ayah-arabic-word${isActiveWord ? " active" : ""}${isTapActive ? " tap-playing" : ""}`}
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    playWordAudio(word, position);
+                  }}
+                  aria-label={`Play word ${position}`}
+                >
                   {normalizeQuranDisplayArabic(word.arabic)}
-                </span>
+                </button>
                 {wordIndex < words.length - 1 ? " " : null}
               </Fragment>
             );
