@@ -266,8 +266,8 @@
 }
 
 :root[data-theme="mist"] .compare-block {
-  background: rgba(190, 220, 198, 0.04);
-  border-color: rgba(190, 220, 198, 0.08);
+  background: rgba(10, 20, 24, 0.5);
+  border-color: rgba(190, 220, 198, 0.12);
 }
 
 /* Settings modal container */

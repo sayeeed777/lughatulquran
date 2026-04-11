@@ -520,12 +520,16 @@
 
 .compare-panel {
   position: relative;
-  width: min(520px, 100%);
+  width: min(720px, 100%);
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
   background: var(--bg-mid, #141c22);
   border-radius: var(--radius-lg);
   border: none;
   box-shadow: var(--shadow-elevated);
-  padding: 20px;
+  padding: 24px 28px;
+  font-size: 1rem;
   animation: slideUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
@@ -537,6 +541,74 @@
   margin-bottom: 16px;
 }
 
+.compare-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--stroke);
+  margin-bottom: 16px;
+}
+
+.compare-tab {
+  flex: 1;
+  position: relative;
+  padding: 10px 12px 12px;
+  border: none;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.compare-tab:hover {
+  color: var(--text);
+}
+
+.compare-tab.active {
+  color: var(--text);
+}
+
+.compare-tab.active::after {
+  content: "";
+  position: absolute;
+  left: 16px;
+  right: 16px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--accent-2);
+  border-radius: 2px 2px 0 0;
+}
+
+.compare-tafsir-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.compare-tafsir-select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--stroke);
+  background: var(--bg-light);
+  color: var(--text);
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+
+.compare-tafsir-text {
+  white-space: pre-wrap;
+  line-height: 2;
+  letter-spacing: 0.015em;
+  word-spacing: normal;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-break: break-word;
+}
+
 .close-btn {
   border-radius: var(--radius-full);
   border: none;
@@ -546,13 +618,18 @@
 
 .compare-scroll-wrap {
   position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .compare-body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  max-height: 70vh;
+  flex: 1;
+  min-height: 0;
   overflow-y: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -580,10 +657,10 @@
 }
 
 .compare-block {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.35);
   border-radius: var(--radius-sm);
   padding: 12px 14px;
-  border: none;
+  border: 1px solid var(--stroke);
 }
 
 .label {
@@ -802,10 +879,9 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     width: 100%;
     max-height: 85vh;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
-  }
-
-  .compare-body {
-    max-height: 70vh;
+    padding: 20px;
+    padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
+    font-size: 0.9375rem;
   }
 
   .note-panel {
