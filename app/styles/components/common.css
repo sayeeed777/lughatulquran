@@ -786,14 +786,33 @@
   margin: 0;
 }
 
+/* Dark-theme-only tweaks for the compare modal:
+   Both translation rows and tafseer body use a bluish-muted tone that's
+   slightly lifted from --muted (#a8b0ba) so the glyphs feel crisper on
+   the deep dark background while still staying gentle for long reading.
+   Other themes (light/mist/sky/bw/bw-dark) keep the shared values above. */
+:root[data-theme="dark"] .compare-translation-text {
+  color: #bec6d0;
+  opacity: 1;
+}
+
+:root[data-theme="dark"] .compare-translation-text.compare-tafsir-text {
+  color: #bec6d0;
+  opacity: 1;
+}
+
 .compare-body::-webkit-scrollbar {
   display: none;
 }
 
+/* Sit flush against the panel's inner right edge instead of inside the
+   content padding. Panel has padding: 24px 28px; pushing right: -20px
+   places the thumb ~8px from the panel border — away from the text,
+   visually anchored to the panel edge like a native scrollbar. */
 .compare-scrollbar {
   position: absolute;
   top: 0;
-  right: 0;
+  right: -20px;
   width: 3px;
   height: 100%;
   pointer-events: none;
@@ -802,7 +821,7 @@
 .compare-scrollbar-thumb {
   width: 3px;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.18);
   opacity: 0;
   transition: opacity 0.2s ease;
 }
