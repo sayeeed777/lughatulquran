@@ -653,6 +653,7 @@
   -webkit-hyphens: auto;
   word-break: break-word;
   padding-top: 6px;
+  opacity: 0.78;
 }
 
 .close-btn {
@@ -778,7 +779,8 @@
 }
 
 .compare-translation-text {
-  color: var(--muted);
+  color: var(--text);
+  opacity: 0.88;
   font-size: calc(0.95rem * var(--translation-scale));
   line-height: 1.65;
   margin: 0;

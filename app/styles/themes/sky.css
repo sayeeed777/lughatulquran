@@ -588,6 +588,122 @@
   background: rgba(176, 64, 64, 0.14);
 }
 
+/* Quick panel — Study tab */
+:root[data-theme="sky"] .qp-a-today  { color: #0e8a5f; }
+:root[data-theme="sky"] .qp-a-week   { color: #1d6fbf; }
+:root[data-theme="sky"] .qp-a-streak { color: #c8731e; }
+:root[data-theme="sky"] .qp-a-session { color: #6a4fb8; }
+:root[data-theme="sky"] .qp-streak-warm .qp-a-streak { color: #c8731e; }
+:root[data-theme="sky"] .qp-streak-fire .qp-a-streak { color: #b25216; }
+
+:root[data-theme="sky"] .qp-a-label {
+  color: var(--muted);
+}
+
+:root[data-theme="sky"] .qp-a-stats {
+  border-bottom-color: rgba(86, 127, 154, 0.12);
+}
+
+:root[data-theme="sky"] .qp-group {
+  border-bottom-color: rgba(86, 127, 154, 0.1);
+}
+
+:root[data-theme="sky"] .qp-bar-track {
+  background: rgba(86, 127, 154, 0.14);
+}
+
+:root[data-theme="sky"] .qp-bar-fill {
+  background: linear-gradient(180deg, #1d6fbf 0%, rgba(29, 111, 191, 0.55) 100%);
+}
+
+:root[data-theme="sky"] .qp-bar-col.today .qp-bar-fill {
+  background: linear-gradient(180deg, #c8731e 0%, rgba(200, 115, 30, 0.6) 100%);
+  box-shadow: none;
+}
+
+:root[data-theme="sky"] .qp-bar-col.today .qp-bar-value,
+:root[data-theme="sky"] .qp-bar-col.today .qp-bar-label {
+  color: #c8731e;
+}
+
+:root[data-theme="sky"] .qp-bar-label {
+  color: rgba(20, 49, 73, 0.4);
+}
+
+:root[data-theme="sky"] .qp-bar-value {
+  color: var(--muted);
+}
+
+:root[data-theme="sky"] .qp-goal-bar {
+  background: rgba(86, 127, 154, 0.12);
+}
+
+:root[data-theme="sky"] .qp-goal-bar-fill {
+  background: linear-gradient(90deg, #1b6b80, #238a9e);
+  box-shadow: none;
+}
+
+:root[data-theme="sky"] .qp-stepper {
+  background: rgba(86, 127, 154, 0.1);
+}
+
+:root[data-theme="sky"] .qp-stepper-btn {
+  color: var(--accent);
+}
+
+:root[data-theme="sky"] .qp-stepper-btn:hover {
+  background: rgba(27, 107, 128, 0.12);
+  color: var(--accent);
+}
+
+/* Surah Progress rows — deeper, saturated green so rings and badges
+   don't wash out against the light sky background. */
+:root[data-theme="sky"] .qp-surah-row {
+  border-bottom-color: rgba(86, 127, 154, 0.1);
+}
+
+:root[data-theme="sky"] .qp-surah-row:hover {
+  background: rgba(27, 107, 128, 0.06);
+}
+
+:root[data-theme="sky"] .qp-surah-name {
+  color: var(--text);
+}
+
+:root[data-theme="sky"] .qp-surah-detail {
+  color: var(--muted);
+}
+
+:root[data-theme="sky"] .qp-ring-bg {
+  stroke: rgba(86, 127, 154, 0.22);
+}
+
+:root[data-theme="sky"] .qp-ring-fill {
+  stroke: #0e8a5f;
+}
+
+:root[data-theme="sky"] .qp-surah-pct {
+  color: var(--muted);
+}
+
+:root[data-theme="sky"] .qp-surah-pct.done {
+  color: #0e8a5f;
+  background: rgba(14, 138, 95, 0.12);
+}
+
+:root[data-theme="sky"] .qp-surah-mem-pct {
+  color: #0e8a5f;
+}
+
+:root[data-theme="sky"] .qp-surah-mem-pct.done {
+  color: #0e8a5f;
+  background: rgba(14, 138, 95, 0.14);
+}
+
+:root[data-theme="sky"] .qp-surah-hifz-detail {
+  color: #0e8a5f;
+}
+
 /* Lexicon modal */
 :root[data-theme="sky"] .study-lexicon-backdrop {
   background: rgba(12, 45, 72, 0.2);
