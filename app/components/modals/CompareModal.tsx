@@ -5,6 +5,7 @@ import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
 import { useEffect, useState, useRef, useCallback } from "react";
 import { TAFSIR_EDITIONS } from "../study/StudyModeHelpers";
+import { CloseIcon, CopyIcon, CheckIcon } from "../common/Icons";
 
 type CompareAllPayload = {
   translations?: Record<string, { text?: string }>;
@@ -31,6 +32,7 @@ export default function CompareModal() {
   const [tafsirText, setTafsirText] = useState<string>("");
   const [tafsirLoading, setTafsirLoading] = useState(false);
   const [tafsirError, setTafsirError] = useState<string | null>(null);
+  const [copiedId, setCopiedId] = useState<string | null>(null);
 
   useEffect(() => {
     setActiveTab("translations");
@@ -139,6 +141,60 @@ export default function CompareModal() {
     };
   }, [updateThumb, loading]);
 
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.stopPropagation();
+        onClose();
+      } else if (e.key === "ArrowLeft") {
+        setActiveTab("translations");
+      } else if (e.key === "ArrowRight") {
+        setActiveTab("tafseer");
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
+  const copyToClipboard = async (id: string, text: string) => {
+    let success = false;
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        success = true;
+      }
+    } catch {
+      success = false;
+    }
+
+    if (!success) {
+      try {
+        const textarea = document.createElement("textarea");
+        textarea.value = text;
+        textarea.setAttribute("readonly", "");
+        textarea.style.position = "fixed";
+        textarea.style.top = "0";
+        textarea.style.left = "0";
+        textarea.style.opacity = "0";
+        document.body.appendChild(textarea);
+        textarea.select();
+        textarea.setSelectionRange(0, text.length);
+        success = document.execCommand("copy");
+        document.body.removeChild(textarea);
+      } catch {
+        success = false;
+      }
+    }
+
+    if (success) {
+      setCopiedId(id);
+      setTimeout(
+        () => setCopiedId((current) => (current === id ? null : current)),
+        1500,
+      );
+    }
+  };
+
   return (
     <div className="compare-overlay" onClick={onClose}>
       <div
@@ -149,15 +205,23 @@ export default function CompareModal() {
         onClick={(e) => e.stopPropagation()}
       >
         <div className="compare-header">
-          <div>
-            <p className="eyebrow">Ayah {selectedAyah.number}</p>
-            <h3 id="compare-modal-title">
-              {selectedSurah.englishName} - {selectedSurah.name}
-            </h3>
-          </div>
-          <button className="close-btn" onClick={onClose}>
-            Close
+          <h3 id="compare-modal-title" className="compare-header-title">
+            <span className="compare-header-surah">{selectedSurah.englishName}</span>
+            <span className="compare-header-ayah">Ayah {selectedAyah.number}</span>
+          </h3>
+          <button
+            className="compare-close-icon"
+            onClick={onClose}
+            aria-label="Close"
+            type="button"
+          >
+            <CloseIcon size={18} />
           </button>
+        </div>
+        <div className="compare-arabic-hero compare-arabic-hero--desktop">
+          <p className="ayah-arabic" lang="ar" dir="rtl">
+            {formatArabic(selectedAyah.arabic)}
+          </p>
         </div>
         <div className="compare-tabs" role="tablist">
           <button
@@ -179,39 +243,53 @@ export default function CompareModal() {
         </div>
         <div className="compare-scroll-wrap">
           <div className="compare-body" ref={scrollRef}>
-            <div className="compare-block">
-              <p className="label">Arabic (Uthmani)</p>
+            <div className="compare-arabic-hero compare-arabic-hero--mobile">
               <p className="ayah-arabic" lang="ar" dir="rtl">
                 {formatArabic(selectedAyah.arabic)}
               </p>
             </div>
             {activeTab === "translations" ? (
-              <>
+              <div className="compare-translations-list">
                 {error && (
-                  <div className="compare-block">
-                    <p className="label">Compare mode</p>
-                    <p className="compare-text">{error}</p>
+                  <div className="compare-translation-row">
+                    <p className="compare-translation-label">Compare mode</p>
+                    <p className="compare-translation-text">{error}</p>
                   </div>
                 )}
                 {ALL_TRANSLATIONS.map((translation) => {
                   const translationText =
                     allTranslations?.[translation.id]?.text
                     || selectedAyah.translations?.[translation.id]?.text;
+                  const canCopy = Boolean(translationText);
+                  const isCopied = copiedId === translation.id;
 
                   return (
-                    <div key={translation.id} className="compare-block">
-                      <p className="label">{translation.label}</p>
-                      <p dir="auto" className="compare-text">
+                    <div key={translation.id} className="compare-translation-row">
+                      <p className="compare-translation-label">{translation.label}</p>
+                      <p dir="auto" className="compare-translation-text">
                         {translationText || (loading ? "Loading..." : "Translation unavailable.")}
                       </p>
+                      {canCopy && (
+                        <button
+                          type="button"
+                          className={`compare-row-copy${isCopied ? " is-copied" : ""}`}
+                          onClick={() => copyToClipboard(translation.id, translationText!)}
+                          aria-label={isCopied ? "Copied" : "Copy translation"}
+                          title={isCopied ? "Copied" : "Copy"}
+                        >
+                          {isCopied ? <CheckIcon size={14} /> : <CopyIcon size={14} />}
+                        </button>
+                      )}
                     </div>
                   );
                 })}
-              </>
+              </div>
             ) : (
-              <>
-                <div className="compare-block compare-tafsir-picker">
-                  <label className="label" htmlFor="compare-tafsir-edition">Tafseer Edition</label>
+              <div className="compare-translations-list">
+                <div className="compare-translation-row compare-tafsir-picker">
+                  <label className="compare-translation-label" htmlFor="compare-tafsir-edition">
+                    Tafseer Edition
+                  </label>
                   <select
                     id="compare-tafsir-edition"
                     className="compare-tafsir-select"
@@ -225,8 +303,8 @@ export default function CompareModal() {
                     ))}
                   </select>
                 </div>
-                <div className="compare-block">
-                  <div className="compare-text compare-tafsir-text">
+                <div className="compare-translation-row">
+                  <div className="compare-translation-text compare-tafsir-text">
                     {tafsirLoading
                       ? "Loading tafseer..."
                       : tafsirError
@@ -234,7 +312,7 @@ export default function CompareModal() {
                         : tafsirText || "No tafseer available for this ayah."}
                   </div>
                 </div>
-              </>
+              </div>
             )}
           </div>
           <div className="compare-scrollbar">
