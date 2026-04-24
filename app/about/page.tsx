@@ -5,14 +5,14 @@ import { getCspNonce } from "../lib/csp";
 export const metadata: Metadata = {
   title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools & Memorization",
   description:
-    "OpenFurqan is a free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 reciters, local recitation notes, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed colors, Tafsir, prayer times, and more.",
+    "OpenFurqan is a free, open-source Quran reading web application with 20+ translations, 16 reciters, ayah image sharing, word-synced audio highlights, local Quran search, memorization, Tafsir, root lexicon, prayer times, and more.",
   alternates: {
     canonical: "/about"
   },
   openGraph: {
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web app with 16 reciters, local recitation notes, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more.",
+      "A free, open-source Quran reading web app with 16 reciters, ayah image sharing, Anki-style memorization, local Quran search, word-by-word analysis, Tajweed, Tafsir, and more.",
     url: "https://openfurqan.com/about",
     siteName: "OpenFurqan",
     type: "website"
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About OpenFurqan — Free Open-Source Quran Reader",
     description:
-      "A free, open-source Quran reading web app with 16 reciters, local recitation notes, Anki-style memorization, Surah/Juz/Page views, word-by-word analysis, Tajweed, Tafsir, and more."
+      "A free, open-source Quran reading web app with 16 reciters, ayah image sharing, Anki-style memorization, local Quran search, word-by-word analysis, Tajweed, Tafsir, and more."
   }
 };
 
@@ -50,18 +50,23 @@ export default async function AboutPage() {
       priceCurrency: "USD"
     },
     description:
-      "A free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 audio reciters, local recitation notes, Surah/Juz/Page views, Anki-style spaced repetition memorization, word-by-word analysis, Tajweed color-coding, Tafsir, prayer times, and study features.",
+      "A free, open-source Quran reading web application with 20+ translations across 9+ languages, 16 audio reciters, local recitation notes, Surah/Juz/Page views, ayah image sharing, Anki-style spaced repetition memorization, word-by-word analysis, word-synced recitation highlights, local Quran search, Tajweed color-coding, Tafsir, prayer times, and study features.",
     featureList: [
       "20+ Quran translations in 9+ languages",
       "16 audio reciters with adjustable playback speed",
+      "Word-synced audio highlighting for supported reciters",
       "Recitation notes with local WAV recording, replay, download, and delete",
       "Surah, Juz, and Page reading views",
+      "Compare translations from each ayah card",
+      "Share ayahs as generated images with background palettes and text-size controls",
       "Anki-style spaced repetition memorization (SRS) with flashcards",
+      "Word-by-word meaning memorization cards",
       "Word-by-word Arabic analysis with root and morphology",
       "15+ color-coded Tajweed pronunciation rules",
-      "Study Mode with bookmarks, notes, and reading plans",
+      "Study Mode with bookmarks, notes, reading plans, search, and embedded memorization",
       "Hifz memorization mode with repetition loops",
       "7+ Tafsir editions",
+      "Local Quran search by Arabic, translation, transliteration, word meaning, root, lemma, and surah name",
       "Prayer times for 31+ countries",
       "Arabic root lexicon with Lane's Lexicon definitions",
       "Reading statistics and streak tracking",
@@ -102,9 +107,10 @@ export default async function AboutPage() {
             OpenFurqan is a free, open-source web application for reading and deeply studying the
             Quran. It pairs a clean, distraction-free reader with a full-featured Study Mode — giving
             you 20+ translations, 16 audio reciters, local recitation notes, Surah/Juz/Page views,
-            Anki-style spaced repetition memorization, word-by-word Arabic analysis, Tajweed
-            color-coding, 7+ Tafsir editions, and daily reading statistics. No account, no ads, no
-            payment — just open and read.
+            ayah image sharing, Anki-style spaced repetition memorization, word-by-word Arabic
+            analysis, word-synced recitation highlights, local Quran search, Tajweed color-coding,
+            7+ Tafsir editions, and daily reading statistics. No account, no ads, no payment — just
+            open and read.
           </p>
         </section>
 
@@ -119,9 +125,9 @@ export default async function AboutPage() {
           <p className="info-text">
             OpenFurqan was built to end that tab-switching. Reading, studying, memorizing, and
             listening live in a single fast interface. Tap a word and see its root in Lane&#39;s
-            Lexicon. Flip to Tafsir without losing your place. Review flashcards with spaced
-            repetition. Track your streak across days and weeks. All in one place, all free, all
-            without signing up.
+            Lexicon. Compare translations from the ayah card. Flip to Tafsir without losing your
+            place. Review flashcards with spaced repetition. Share an ayah as a clean image. Track
+            your streak across days and weeks. All in one place, all free, all without signing up.
           </p>
           <p className="info-text">
             The project is independently developed and will always remain free and open source.
@@ -135,9 +141,12 @@ export default async function AboutPage() {
             <li><strong>No login required.</strong> Your notes, progress, and recitation recordings stay on your device and are not uploaded to our servers.</li>
             <li><strong>No ads, ever.</strong> No banners, no pop-ups, no sponsored content.</li>
             <li><strong>Reader + study in one place.</strong> Switch between a simple reader and a deep study workspace without leaving the app.</li>
+            <li><strong>Compare without leaving the ayah.</strong> Use the compare icon to review translations and continue into Tafsir from the same reading flow.</li>
+            <li><strong>Share ayahs beautifully.</strong> Generate ayah images with background palettes, Arabic and English text-size controls, save, and native share.</li>
             <li><strong>Recitation notes built in.</strong> Record your own recitation, replay it, download it, or delete it from the Notes rail.</li>
             <li><strong>Memorize with spaced repetition.</strong> Anki-style flashcards that schedule reviews based on your recall — not just audio loops.</li>
-            <li><strong>Word-level Arabic study.</strong> Click any word to see its root, morphology, Lane&#39;s Lexicon definition, and every occurrence in the Quran.</li>
+            <li><strong>Word-level Arabic study.</strong> Click any word to see its meaning, root, morphology, Lane&#39;s Lexicon definition, word audio, and every occurrence in the Quran.</li>
+            <li><strong>Powerful Quran search.</strong> Search Arabic text, translation, transliteration, word meanings, roots, lemmas, and surah names.</li>
             <li><strong>Three reading views.</strong> Read by Surah, by Juz (all 30), or by Mushaf page (all 604 pages).</li>
             <li><strong>Fast and installable.</strong> Works offline as a Progressive Web App. Install it on your phone like a native app.</li>
           </ul>
@@ -152,6 +161,7 @@ export default async function AboutPage() {
             <li>Anyone memorizing the Quran (Hifz) — with spaced repetition flashcards or audio repetition loops</li>
             <li>Readers who prefer Juz or Page-based reading alongside traditional Surah view</li>
             <li>Researchers comparing Quran translations across multiple languages</li>
+            <li>Creators who want to share Quran ayahs as polished images with canonical ayah links</li>
             <li>Teachers looking for a free tool to share with students — no accounts to manage</li>
           </ul>
         </section>
@@ -166,7 +176,15 @@ export default async function AboutPage() {
                 English: Sahih International, Arberry, Pickthall, Yusuf Ali, Taqi Usmani, Haleem,
                 Al-Hilali &amp; Khan, Maarif-ul-Quran, Ahmed Raza. Bangla: Muhiuddin Khan,
                 Zohurul Hoque. Urdu: Kanz al-Iman, Bayan-ul-Quran. Plus Hindi, Turkish, French,
-                German, Spanish, and Sinhala. Show multiple translations side by side.
+                German, Spanish, and Sinhala. Show multiple translations side by side or open the
+                compare panel from any ayah card.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Translation Compare</h3>
+              <p className="info-feature-desc">
+                Use the compare icon on a reader ayah card to review available translations for that
+                verse, then continue into Tafsir when you want deeper commentary.
               </p>
             </div>
             <div className="info-feature-item">
@@ -175,7 +193,8 @@ export default async function AboutPage() {
                 Alafasy, As-Sudais, Ash-Shuraym, Ash-Shaatree, Al-Muaiqly, Hani Rifai, Abdul Basit
                 (Murattal &amp; Mujawwad), Al-Husary (Standard &amp; Muallim), Al-Minshawi,
                 Al-Ghamdi, al-Ajmy, Ali Jabir, Al Tunaiji, and Ad-Dussary. Adjustable playback speed
-                and continuous surah playback.
+                and continuous surah playback. Supported reciters include word-synced Arabic
+                highlighting during playback.
               </p>
             </div>
             <div className="info-feature-item">
@@ -199,7 +218,8 @@ export default async function AboutPage() {
               <p className="info-feature-desc">
                 Spaced repetition flashcards for long-term Quran memorization. See an ayah, rate your
                 recall (Again / Hard / Good / Easy), and the algorithm schedules the next review.
-                Audio autoplay, session stats, streak tracking, and session sharing included.
+                Audio autoplay, session stats, streak tracking, word-by-word meaning cards, embedded
+                Study Mode access, and session sharing included.
               </p>
             </div>
             <div className="info-feature-item">
@@ -214,8 +234,9 @@ export default async function AboutPage() {
               <h3 className="info-feature-title">Word-by-Word &amp; Lexicon</h3>
               <p className="info-feature-desc">
                 Morphological breakdown of every word: root, lemma, part-of-speech, and individual
-                word audio. Click any word to open Lane&#39;s Lexicon with definitions, Buckwalter
-                transliteration, and all Quran occurrences of that root.
+                word audio. Tap any word to open Word Details, then continue into Root Details and
+                Lane&#39;s Lexicon with definitions, Buckwalter transliteration, forms, statistics, and
+                Quran occurrences of that root.
               </p>
             </div>
             <div className="info-feature-item">
@@ -230,15 +251,31 @@ export default async function AboutPage() {
               <h3 className="info-feature-title">7+ Tafsir Editions</h3>
               <p className="info-feature-desc">
                 Maarif-ul-Quran, Maududi, Ahsanul Bayaan, Mokhtasar, Al-Jalalayn, Kashf Al-Asrar,
-                and Hindi Tafseer. Load Tafsir for any ayah on demand without leaving your reading.
+                and Hindi Tafseer. Load Tafsir for any ayah on demand without leaving your reading
+                or use the compare flow to move from translation comparison into commentary.
               </p>
             </div>
             <div className="info-feature-item">
               <h3 className="info-feature-title">Study Mode</h3>
               <p className="info-feature-desc">
                 Bookmarks, personal notes per ayah, customizable reading plans with daily goals,
-                reading statistics with streaks, advanced search with key verses and topic exploration,
-                and long-term reading history — all in one workspace.
+                reading statistics with streaks, embedded memorization, local Quran search, and
+                long-term reading history — all in one workspace.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Local Quran Search</h3>
+              <p className="info-feature-desc">
+                Search Arabic text, translation, transliteration, word meanings, roots, lemmas, and
+                surah names. Root-match results can open Root Details directly for deeper study.
+              </p>
+            </div>
+            <div className="info-feature-item">
+              <h3 className="info-feature-title">Share Ayahs as Images</h3>
+              <p className="info-feature-desc">
+                Generate a clean ayah image with Arabic, translation, surah reference, background
+                palettes, and Arabic/English text-size controls. Save the image or share it from
+                your device. Text sharing uses canonical ayah links like /surah/yusuf/53.
               </p>
             </div>
             <div className="info-feature-item">
@@ -258,9 +295,9 @@ export default async function AboutPage() {
             <div className="info-feature-item">
               <h3 className="info-feature-title">Customization</h3>
               <p className="info-feature-desc">
-                4 themes (Dark, Parchment, Black &amp; White, Dark B&amp;W), 4 Arabic fonts, Uthmani
-                or Naskh script, adjustable text sizes, full keyboard shortcuts, and offline PWA
-                support.
+                4 themes (Dark, Parchment, Black &amp; White, Dark B&amp;W), 4 Arabic fonts including
+                Scheherazade New as the default, Uthmani or Naskh script, adjustable text sizes,
+                full keyboard shortcuts, and offline PWA support.
               </p>
             </div>
           </div>
