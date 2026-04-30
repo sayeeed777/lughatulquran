@@ -54,6 +54,8 @@ export default function CompareModal() {
   const loadedTafsirKeyRef = useRef<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
+  const activeTabRef = useRef<CompareTab>("translations");
+  activeTabRef.current = activeTab;
 
   const updateThumb = useCallback(() => {
     const el = scrollRef.current;
@@ -166,7 +168,14 @@ export default function CompareModal() {
   }, [activeTab, isTafsirEditionLoaded, selectedAyahNumber, selectedSurahNumber, tafsirEdition]);
 
   useEffect(() => {
-    if (!isTafsirEditionLoaded || !selectedAyahNumber || !selectedSurahNumber) return;
+    if (
+      activeTabRef.current === "tafseer" ||
+      !isTafsirEditionLoaded ||
+      !selectedAyahNumber ||
+      !selectedSurahNumber
+    ) {
+      return;
+    }
 
     const controller = new AbortController();
     const key = getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber);
@@ -234,6 +243,18 @@ export default function CompareModal() {
 
   const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const allTranslations = payload?.translations || {};
+  const currentTafsirKey =
+    selectedSurahNumber && selectedAyahNumber
+      ? getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber)
+      : null;
+  const showTafsirLoading =
+    tafsirLoading ||
+    (
+      activeTab === "tafseer" &&
+      Boolean(currentTafsirKey) &&
+      loadedTafsirKeyRef.current !== currentTafsirKey &&
+      !tafsirError
+    );
 
   const copyToClipboard = async (id: string, text: string) => {
     let success = false;
@@ -384,7 +405,7 @@ export default function CompareModal() {
                 </div>
                 <div className="compare-translation-row">
                   <div className="compare-translation-text compare-tafsir-text">
-                    {tafsirLoading
+                    {showTafsirLoading
                       ? "Loading tafseer..."
                       : tafsirError
                         ? tafsirError

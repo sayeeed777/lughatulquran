@@ -1,4 +1,6 @@
 import type { ReactNode } from "react";
+export { TAFSIR_EDITIONS } from "../../lib/tafsirEditions";
+export type { TafsirEdition } from "../../lib/tafsirEditions";
 
 type TajweedTagName = "tajweed" | "span";
 
@@ -12,11 +14,6 @@ export type TajweedLegendItem = {
   swatchClass: string;
   label: string;
   description: string;
-};
-
-export type TafsirEdition = {
-  id: string;
-  label: string;
 };
 
 export const hasLexiconData = (
@@ -208,13 +205,3 @@ export const TAJWEED_LEGEND: TajweedLegendItem[] = [
     description: "A letter present in the script that is not pronounced."
   }
 ];
-
-export const TAFSIR_EDITIONS: readonly TafsirEdition[] = [
-  { id: "en-tafsir-maarif-ul-quran", label: "Maarif-ul-Quran" },
-  { id: "en-maududi", label: "Maududi (Notes)" },
-  { id: "bn-tafsir-ahsanul-bayaan", label: "Bangla Tafsir (Ahsanul Bayaan)" },
-  { id: "bengali-mokhtasar", label: "Bangla Tafsir (Mokhtasar)" },
-  { id: "hi-tafsir-farooq", label: "Hindi Tafseer (Farooq & Ahmed)" },
-  { id: "en-kashf-al-asrar-tafsir", label: "Kashf Al-Asrar" },
-  { id: "en-al-jalalayn", label: "Al-Jalalayn" }
-] as const;

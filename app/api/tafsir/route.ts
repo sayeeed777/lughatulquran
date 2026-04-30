@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { SURAH_AYAH_COUNTS } from "../../lib/constants";
+import { isKnownTafsirEdition, isLocalTafsirEdition } from "../../lib/tafsirEditions";
 import { getAyahTranslation } from "../../lib/translationLoader";
 
 export const revalidate = 2592000;
@@ -10,20 +11,6 @@ const TAFSIR_BASE_URLS = [
   "https://cdn.statically.io/gh/spa5k/tafsir_api/main/tafsir",
   "https://raw.githubusercontent.com/spa5k/tafsir_api/main/tafsir"
 ];
-
-const LOCAL_EDITIONS = new Set([
-  // Stored locally under app/data/translations/en-maududi.json, but treated as tafsir-style notes.
-  "en-maududi",
-  "bn-tafsir-ahsanul-bayaan",
-  "bengali-mokhtasar",
-  "hi-tafsir-farooq"
-]);
-
-const REMOTE_EDITIONS = new Set([
-  "en-tafsir-maarif-ul-quran",
-  "en-kashf-al-asrar-tafsir",
-  "en-al-jalalayn"
-]);
 
 type TafsirResponse = {
   text?: string;
@@ -69,6 +56,9 @@ const fetchAyahText = async (edition: string, surah: number, ayah: number) => {
     if (match?.text) {
       return match.text;
     }
+    if (Array.isArray(perSurah?.ayahs)) {
+      return "";
+    }
   }
   return "";
 };
@@ -79,7 +69,7 @@ export async function GET(request: NextRequest) {
   const surah = Number(url.searchParams.get("surah"));
   const ayah = Number(url.searchParams.get("ayah"));
 
-  if (!edition || (!REMOTE_EDITIONS.has(edition) && !LOCAL_EDITIONS.has(edition))) {
+  if (!edition || !isKnownTafsirEdition(edition)) {
     return NextResponse.json({ error: "Invalid tafsir edition." }, { status: 400 });
   }
   if (!Number.isInteger(surah) || surah < 1 || surah > 114) {
@@ -91,7 +81,7 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const rawText = LOCAL_EDITIONS.has(edition)
+    const rawText = isLocalTafsirEdition(edition)
       ? (await getAyahTranslation(edition, surah, ayah)) || ""
       : await fetchAyahText(edition, surah, ayah);
 
