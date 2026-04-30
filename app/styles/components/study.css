@@ -6,7 +6,7 @@
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: linear-gradient(180deg, #0a0f12 0%, #050810 100%);
+  background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-mid) 100%);
   overflow: hidden;
 }
 
@@ -15,8 +15,8 @@
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(111, 212, 177, 0.08), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(216, 179, 106, 0.05), transparent);
+    radial-gradient(ellipse 80% 50% at 50% -20%, var(--accent-2-alpha-08), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 100%, var(--accent-alpha-05), transparent);
   pointer-events: none;
 }
 
@@ -359,7 +359,7 @@
 .decoration-line {
   width: 60px;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(216, 179, 106, 0.5), transparent);
+  background: linear-gradient(90deg, transparent, var(--accent-alpha-50), transparent);
 }
 
 .decoration-dot {
@@ -414,8 +414,8 @@
   margin: 0 auto;
   padding: clamp(28px, 4vw, 48px) clamp(20px, 3vw, 36px) clamp(16px, 2vw, 24px);
   border-radius: 4px;
-  background: var(--card, #0f1215);
-  border: 1.5px solid var(--stroke, rgba(139, 115, 85, 0.18));
+  background: var(--card);
+  border: 1.5px solid var(--stroke);
   box-shadow: var(--shadow-card, 0 1px 4px rgba(0, 0, 0, 0.3));
   display: flex;
   flex-direction: column;
@@ -931,9 +931,10 @@
 .study-ayah-card {
   position: relative;
   padding: 24px 28px;
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--study-ayah-card-bg);
   border-radius: var(--radius-lg);
   border: none;
+  box-shadow: var(--study-ayah-card-shadow, none);
   content-visibility: auto;
   contain-intrinsic-size: 320px;
   transition:
@@ -943,7 +944,7 @@
 }
 
 .study-ayah-card:hover {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--study-ayah-card-bg-hover);
 }
 
 .study-ayah-card.page-mode {
@@ -965,27 +966,28 @@
 }
 
 .study-ayah-card.playing {
-  background: rgba(111, 212, 177, 0.06);
+  background: var(--study-ayah-card-playing-bg, var(--accent-2-alpha-06));
 }
 
 .study-ayah-card.marked {
-  background: rgba(111, 212, 177, 0.14);
+  background: var(--study-ayah-card-marked-bg, var(--accent-2-alpha-14));
+  box-shadow: var(--study-ayah-card-marked-shadow, none);
 }
 
 .study-ayah-card.marked:hover {
-  background: rgba(111, 212, 177, 0.18);
+  background: var(--study-ayah-card-marked-hover-bg, var(--accent-2-alpha-18));
 }
 
 .study-ayah-card.marked.playing {
-  background: rgba(111, 212, 177, 0.2);
+  background: var(--study-ayah-card-marked-playing-bg, var(--accent-2-alpha-20));
 }
 
 .study-ayah-card.memorized {
-  border-left: 3px solid rgba(111, 212, 177, 0.5);
+  border-left: 3px solid var(--accent-2-alpha-50);
 }
 
 .action-icon-btn.hifz-icon.memorized {
-  background: rgba(111, 212, 177, 0.16);
+  background: var(--accent-2-alpha-16);
   color: var(--accent-2);
 }
 
@@ -1005,7 +1007,7 @@
   animation: hifzToastIn 0.2s ease-out, hifzToastOut 0.3s 1.2s ease-in forwards;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(111, 212, 177, 0.15);
+  border: 1px solid var(--accent-2-alpha-15);
   z-index: 1100;
 }
 
@@ -1136,21 +1138,21 @@
 }
 
 .study-ayah-word-trigger:hover {
-  background: rgba(111, 212, 177, 0.1);
+  background: var(--study-word-hover-bg, var(--accent-2-alpha-10));
 }
 
 .study-ayah-word-trigger.active {
-  background: rgba(205, 176, 124, 0.34);
-  color: var(--text-primary);
+  background: var(--study-word-active-bg, var(--accent-alpha-34));
+  color: var(--study-word-active-text, var(--text));
 }
 
 .study-ayah-word-trigger.playback-active {
-  color: var(--accent-2);
-  text-shadow: 0 0 0.45em rgba(111, 212, 177, 0.18);
+  color: var(--study-playback-active-text, var(--accent-2));
+  text-shadow: var(--study-playback-active-shadow, 0 0 0.45em var(--accent-2-alpha-18));
 }
 
 .study-ayah-word-trigger.active.playback-active {
-  background: color-mix(in srgb, var(--accent-2) 14%, rgba(205, 176, 124, 0.22) 86%);
+  background: color-mix(in srgb, var(--accent-2) 14%, var(--accent-alpha-22) 86%);
   color: var(--text-primary);
   text-shadow: none;
 }
@@ -1199,7 +1201,7 @@
 }
 
 .study-ayah-action.active {
-  background: rgba(216, 179, 106, 0.15);
+  background: var(--accent-alpha-15);
   color: var(--accent);
 }
 
@@ -1287,13 +1289,13 @@
 }
 
 .control-btn.primary {
-  background: var(--gradient-primary);
-  color: #f4fffb;
+  background: var(--study-primary-control-bg, var(--gradient-primary));
+  color: var(--study-primary-control-text);
   border-color: transparent;
 }
 
 .control-btn.primary:hover {
-  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
+  background: var(--study-primary-control-bg-hover);
 }
 
 .control-btn.icon-only {
@@ -1365,12 +1367,12 @@
   right: 0;
   bottom: 0;
   width: min(400px, 90vw);
-  background: #0e1317;
-  border-left: none;
+  background: var(--quick-panel-bg);
+  border-left: 1px solid var(--quick-panel-border, transparent);
   z-index: 201;
   display: flex;
   flex-direction: column;
-  box-shadow: -20px 0 60px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--quick-panel-shadow, -20px 0 60px rgba(0, 0, 0, 0.3));
   pointer-events: none;
   visibility: hidden;
 }
@@ -1417,8 +1419,9 @@
   gap: 8px;
   padding: 10px;
   border-radius: var(--radius-lg);
-  background: rgba(18, 24, 30, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--study-rail-bg);
+  border: 1px solid var(--study-rail-border);
+  box-shadow: var(--study-rail-shadow, none);
   backdrop-filter: blur(18px) saturate(160%);
   -webkit-backdrop-filter: blur(18px) saturate(160%);
   z-index: 120;
@@ -1432,7 +1435,7 @@
   align-items: center;
   justify-content: center;
   color: var(--muted);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--study-rail-button-bg);
   border: none;
   transition:
     background-color 0.2s ease,
@@ -1466,7 +1469,7 @@
   background: color-mix(in srgb, var(--text) 85%, transparent);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  color: var(--bg-light, #fff);
+  color: var(--bg-light);
   font-size: 0.68rem;
   font-weight: 540;
   white-space: nowrap;
@@ -1481,12 +1484,12 @@
 
 .study-rail-btn:hover {
   color: var(--text);
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--study-rail-button-bg-hover);
 }
 
 .study-rail-btn.active {
-  color: #f4fffb;
-  background: var(--gradient-primary);
+  color: var(--study-rail-button-active-text);
+  background: var(--study-rail-button-active-bg, var(--gradient-primary));
 }
 
 .quick-panel-close:hover {
@@ -1499,7 +1502,7 @@
   overflow-y: auto;
   padding: 20px;
   scrollbar-width: thin;
-  scrollbar-color: rgba(111, 212, 177, 0.25) transparent;
+  scrollbar-color: var(--accent-2-alpha-25) transparent;
 }
 
 .quick-panel-content::-webkit-scrollbar {
@@ -1511,12 +1514,12 @@
 }
 
 .quick-panel-content::-webkit-scrollbar-thumb {
-  background: rgba(111, 212, 177, 0.22);
+  background: var(--accent-2-alpha-22);
   border-radius: 10px;
 }
 
 .quick-panel-content::-webkit-scrollbar-thumb:hover {
-  background: rgba(111, 212, 177, 0.38);
+  background: var(--accent-2-alpha-38);
 }
 
 .quick-panel-section {
@@ -1598,11 +1601,11 @@
 }
 
 .toggle-switch.active {
-  background: linear-gradient(135deg, #3f8f79 0%, #6fd4b1 100%);
-  border-color: rgba(111, 212, 177, 0.55);
+  background: var(--toggle-switch-active-bg, var(--gradient-primary));
+  border-color: var(--toggle-switch-active-border, var(--accent-2-alpha-55));
   box-shadow:
     inset 0 1px 1px rgba(255, 255, 255, 0.14),
-    0 0 0 1px rgba(111, 212, 177, 0.14);
+    0 0 0 1px var(--toggle-switch-active-ring, var(--accent-2-alpha-14));
 }
 
 .toggle-switch input {
@@ -1661,7 +1664,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(111, 212, 177, 0.12);
+  background: var(--accent-2-alpha-12);
   border-radius: var(--radius-xs);
   font-size: 0.95rem;
   font-weight: 600;
@@ -1696,7 +1699,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  background: linear-gradient(90deg, #58b998 0%, #6fd4b1 100%);
+  background: var(--slider-track-fill-bg, linear-gradient(90deg, var(--accent-2-alpha-70) 0%, var(--accent-2) 100%));
   border-radius: 3px;
   transition: width 0.15s ease;
 }
@@ -1760,8 +1763,8 @@
 }
 
 .study-reciter-chip.selected {
-  background: rgba(111, 212, 177, 0.12);
-  border-color: rgba(111, 212, 177, 0.3);
+  background: var(--accent-2-alpha-12);
+  border-color: var(--accent-2-alpha-30);
 }
 
 .reciter-avatar-sm {
@@ -1776,7 +1779,7 @@
 }
 
 .study-reciter-chip.selected .reciter-avatar-sm {
-  background: rgba(111, 212, 177, 0.2);
+  background: var(--accent-2-alpha-20);
 }
 
 .reciter-avatar-sm svg {
@@ -1797,7 +1800,7 @@
 }
 
 .study-reciter-chip.selected .reciter-chip-name {
-  color: #d8fff0;
+  color: var(--accent-contrast);
 }
 
 .reciter-check {
@@ -1814,7 +1817,7 @@
 .reciter-check svg {
   width: 12px;
   height: 12px;
-  color: #0e1418;
+  color: var(--reciter-check-icon-color, var(--study-primary-control-text));
 }
 
 /* Study tools + memorize + search */
@@ -2121,8 +2124,8 @@
 }
 
 .memorize-primary {
-  background: var(--gradient-primary);
-  color: #f4fffb;
+  background: var(--study-primary-control-bg, var(--gradient-primary));
+  color: var(--study-primary-control-text);
 }
 
 /* Word/root lexicon overlays */
@@ -2146,11 +2149,34 @@
   width: min(520px, 94vw);
   max-height: min(82vh, 760px);
   overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--text) 18%, transparent) transparent;
   border-radius: var(--radius-lg);
   background: rgba(16, 20, 24, 0.97);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.36);
   color: var(--text);
+}
+
+.study-lexicon-modal::-webkit-scrollbar {
+  width: 8px;
+}
+
+.study-lexicon-modal::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 14px 0;
+}
+
+.study-lexicon-modal::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--text) 18%, transparent);
+  border: 2px solid transparent;
+  border-radius: var(--radius-full);
+  background-clip: content-box;
+}
+
+.study-lexicon-modal::-webkit-scrollbar-thumb:hover {
+  background: color-mix(in srgb, var(--text) 28%, transparent);
+  background-clip: content-box;
 }
 
 .study-lexicon-modal.root-modal {
@@ -2239,7 +2265,7 @@
 
 .study-lexicon-root-focus {
   border: none;
-  background: rgba(111, 212, 177, 0.1);
+  background: var(--accent-2-alpha-10);
   border-radius: var(--radius-lg);
   padding: 14px 24px;
   display: inline-flex;
@@ -2330,7 +2356,7 @@
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.02em;
-  background: linear-gradient(135deg, rgba(111, 212, 177, 0.2), rgba(111, 212, 177, 0.12));
+  background: linear-gradient(135deg, var(--accent-2-alpha-20), var(--accent-2-alpha-12));
   color: var(--text-primary);
   -webkit-tap-highlight-color: transparent;
 }
@@ -2395,12 +2421,12 @@
 }
 
 .study-root-link {
-  background: rgba(111, 212, 177, 0.16);
+  background: var(--accent-2-alpha-16);
   color: var(--accent-2);
 }
 
 .study-root-insight-btn {
-  background: linear-gradient(135deg, rgba(111, 212, 177, 0.2), rgba(111, 212, 177, 0.12));
+  background: linear-gradient(135deg, var(--accent-2-alpha-20), var(--accent-2-alpha-12));
   color: var(--text-primary);
   width: 100%;
   min-height: 46px;
@@ -2573,8 +2599,8 @@
 
 .study-lexicon-ref.is-link:focus-visible {
   outline: none;
-  border-color: rgba(111, 212, 177, 0.5);
-  box-shadow: 0 0 0 2px rgba(111, 212, 177, 0.16);
+  border-color: var(--accent-2-alpha-50);
+  box-shadow: 0 0 0 2px var(--accent-2-alpha-16);
 }
 
 .study-lexicon-unavailable {
@@ -2896,8 +2922,8 @@
 .study-root-surah-preview:focus-visible {
   outline: none;
   border-radius: 12px;
-  box-shadow: inset 0 0 0 1px rgba(111, 212, 177, 0.4);
-  background: rgba(111, 212, 177, 0.04);
+  box-shadow: inset 0 0 0 1px var(--accent-2-alpha-40);
+  background: var(--accent-2-alpha-04);
 }
 
 .study-root-surah-preview-ref {
@@ -2944,7 +2970,7 @@
 }
 
 .study-root-ayah-highlight {
-  color: var(--accent-2);
+  color: var(--study-root-ayah-highlight-text, var(--accent-2));
 }
 
 @media (max-width: 640px) {
@@ -3320,7 +3346,7 @@
 }
 
 .sqp-search-status--error {
-  color: #f3a08b;
+  color: var(--search-error-text, var(--control-danger-text));
 }
 
 .sqp-search-spinner {
@@ -3590,8 +3616,7 @@
 
 .sqp-highlight {
   background: transparent;
-  color: var(--accent-2);
-  padding: 0;
+  color: var(--search-highlight-text, var(--accent-2));
 }
 
 .sqp-search-empty--inline {
@@ -3803,9 +3828,9 @@
   font-weight: 650;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #d8fff0;
-  background: rgba(111, 212, 177, 0.2);
-  border: 1px solid rgba(111, 212, 177, 0.35);
+  color: var(--accent-contrast);
+  background: var(--accent-2-alpha-20);
+  border: 1px solid var(--accent-2-alpha-35);
 }
 
 .tool-hero-copy {
@@ -4000,7 +4025,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: var(--bg-light, #f4faf7);
+  background: var(--bg-light);
   border: 2px solid color-mix(in srgb, var(--text) 50%, transparent);
   box-shadow: 0 2px 6px color-mix(in srgb, var(--text) 20%, transparent);
   margin-top: -4px;
@@ -4010,7 +4035,7 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: var(--bg-light, #f4faf7);
+  background: var(--bg-light);
   border: 2px solid color-mix(in srgb, var(--text) 50%, transparent);
   box-shadow: 0 2px 6px color-mix(in srgb, var(--text) 20%, transparent);
 }
@@ -4513,7 +4538,7 @@
 }
 
 .study-word-chip.playing {
-  background: rgba(111, 212, 177, 0.12);
+  background: var(--accent-2-alpha-12);
   color: var(--accent-2);
 }
 
@@ -4889,12 +4914,12 @@
 }
 
 .notes-btn--danger {
-  background: color-mix(in srgb, #f87171 10%, transparent);
-  color: #f3a08b;
+  background: var(--notes-danger-bg, var(--control-danger-bg));
+  color: var(--notes-danger-text, var(--control-danger-text));
 }
 
 .notes-btn--danger:hover {
-  background: color-mix(in srgb, #f87171 18%, transparent);
+  background: var(--notes-danger-hover-bg, var(--control-danger-bg-hover));
 }
 
 .notes-btn--small {
@@ -5002,9 +5027,9 @@
 }
 
 .notes-audio-recorder-badge.is-recording {
-  color: #fca5a5;
-  background: color-mix(in srgb, #ef4444 18%, transparent);
-  box-shadow: 0 0 0 0 color-mix(in srgb, #ef4444 18%, transparent);
+  color: var(--notes-recording-text, var(--control-danger-text));
+  background: var(--notes-recording-bg, var(--control-danger-bg-hover));
+  box-shadow: 0 0 0 0 var(--notes-recording-bg, var(--control-danger-bg-hover));
   animation: notes-recording-pulse 1.3s ease-out infinite;
 }
 
@@ -5112,14 +5137,14 @@
 }
 
 .notes-audio-action.is-danger {
-  color: #f3a08b;
-  background: color-mix(in srgb, #f87171 8%, transparent);
-  border-color: color-mix(in srgb, #f87171 20%, transparent);
+  color: var(--notes-danger-text, var(--control-danger-text));
+  background: var(--notes-audio-danger-bg, var(--control-danger-bg));
+  border-color: var(--notes-audio-danger-border, var(--control-danger-bg-hover));
 }
 
 .notes-audio-action.is-danger:hover {
-  background: color-mix(in srgb, #f87171 14%, transparent);
-  border-color: color-mix(in srgb, #f87171 28%, transparent);
+  background: var(--notes-audio-danger-hover-bg, var(--control-danger-bg-hover));
+  border-color: var(--notes-audio-danger-hover-border, var(--control-danger-bg-hover));
 }
 
 .notes-audio-card-controls {
@@ -5415,11 +5440,11 @@
 
 @keyframes notes-recording-pulse {
   0% {
-    box-shadow: 0 0 0 0 color-mix(in srgb, #ef4444 28%, transparent);
+    box-shadow: 0 0 0 0 var(--notes-recording-pulse-start, var(--control-danger-bg-hover));
   }
 
   100% {
-    box-shadow: 0 0 0 12px color-mix(in srgb, #ef4444 0%, transparent);
+    box-shadow: 0 0 0 12px var(--notes-recording-pulse-end, transparent);
   }
 }
 
@@ -5881,29 +5906,29 @@
 
 /* Study ayah cards - playing and marked states */
 :root[data-theme="bw"] .study-ayah-card.playing {
-  background: rgba(0, 0, 0, 0.05) !important;
+  background: var(--study-ayah-card-playing-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked {
-  background: rgba(0, 0, 0, 0.1) !important;
+  background: var(--study-ayah-card-marked-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked:hover {
-  background: rgba(0, 0, 0, 0.14) !important;
+  background: var(--study-ayah-card-marked-hover-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked.playing {
-  background: rgba(0, 0, 0, 0.12) !important;
+  background: var(--study-ayah-card-marked-playing-bg) !important;
 }
 
 /* Study ayah word trigger */
 :root[data-theme="bw"] .study-ayah-word-trigger:hover {
-  background: rgba(0, 0, 0, 0.06);
+  background: var(--study-word-hover-bg);
 }
 
 :root[data-theme="bw"] .study-ayah-word-trigger.active {
-  background: rgba(0, 0, 0, 0.1);
-  color: #111;
+  background: var(--study-word-active-bg);
+  color: var(--study-word-active-text);
 }
 
 /* Toggle switch active state */
@@ -6078,7 +6103,7 @@
 .qp-group-header h4 {
   font-size: var(--text-base, 0.9375rem);
   font-weight: 650;
-  color: var(--text, #f2eee6);
+  color: var(--text);
   letter-spacing: -0.02em;
   margin: 0;
 }
@@ -6136,8 +6161,8 @@
   width: 100%;
   padding: 10px;
   border-radius: var(--radius-sm);
-  border: 1px solid rgba(111, 212, 177, 0.2);
-  background: rgba(111, 212, 177, 0.08);
+  border: 1px solid var(--accent-2-alpha-20);
+  background: var(--accent-2-alpha-08);
   color: var(--accent-2);
   font-size: 0.78rem;
   font-weight: 580;
@@ -6146,7 +6171,7 @@
 }
 
 .hifz-action-btn:hover {
-  background: rgba(111, 212, 177, 0.14);
+  background: var(--accent-2-alpha-14);
 }
 
 .hifz-clear-link {
@@ -6198,7 +6223,7 @@
 .qp-a-label {
   font-size: 0.68rem;
   font-weight: 500;
-  color: var(--muted, #7a8290);
+  color: var(--muted);
   line-height: 1;
 }
 
@@ -6238,7 +6263,7 @@
 .qp-bar-value {
   font-size: var(--text-xs, 0.6875rem);
   font-weight: 600;
-  color: var(--muted, #7a8290);
+  color: var(--muted);
   min-height: 16px;
   font-variant-numeric: tabular-nums;
 }
@@ -6263,12 +6288,12 @@
 }
 
 .qp-bar-col.today .qp-bar-fill {
-  background: linear-gradient(180deg, #d8b36a 0%, rgba(216, 179, 106, 0.3) 100%);
-  box-shadow: 0 0 12px rgba(216, 179, 106, 0.25);
+  background: linear-gradient(180deg, var(--accent) 0%, var(--accent-alpha-30) 100%);
+  box-shadow: 0 0 12px var(--accent-alpha-25);
 }
 
 .qp-bar-col.today .qp-bar-value {
-  color: #d8b36a;
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -6281,7 +6306,7 @@
 }
 
 .qp-bar-col.today .qp-bar-label {
-  color: #d8b36a;
+  color: var(--accent);
   font-weight: 700;
 }
 
@@ -6302,7 +6327,7 @@
 .qp-goal-fraction {
   font-size: var(--text-2xl, 1.6875rem);
   font-weight: 750;
-  color: var(--text, #f2eee6);
+  color: var(--text);
   line-height: 1;
   letter-spacing: -0.035em;
   font-variant-numeric: tabular-nums;
@@ -6311,12 +6336,12 @@
 .qp-goal-of {
   font-size: var(--text-sm, 0.8125rem);
   font-weight: 500;
-  color: var(--muted, #7a8290);
+  color: var(--muted);
 }
 
 .qp-goal-sublabel {
   font-size: var(--text-xs, 0.6875rem);
-  color: var(--muted, #7a8290);
+  color: var(--muted);
   letter-spacing: 0.03em;
 }
 
@@ -6352,7 +6377,7 @@
   height: 36px;
   background: none;
   border: none;
-  color: var(--accent-2, #6fd4b1);
+  color: var(--accent-2);
   cursor: pointer;
   transition: background 0.15s ease;
 }
@@ -6375,7 +6400,7 @@
   text-align: center;
   font-size: var(--text-sm, 0.8125rem);
   font-weight: 650;
-  color: var(--text, #f2eee6);
+  color: var(--text);
   user-select: none;
   font-variant-numeric: tabular-nums;
   border-left: 1px solid rgba(255, 255, 255, 0.08);
@@ -6403,7 +6428,7 @@
   gap: 3px;
   background: none;
   border: none;
-  color: var(--accent-2, #6fd4b1);
+  color: var(--accent-2);
   font-size: var(--text-xs, 0.6875rem);
   font-weight: 550;
   cursor: pointer;
@@ -6476,7 +6501,7 @@
 .qp-surah-name {
   font-size: var(--text-sm, 0.8125rem);
   font-weight: 560;
-  color: var(--text, #f2eee6);
+  color: var(--text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -6485,7 +6510,7 @@
 
 .qp-surah-detail {
   font-size: var(--text-xs, 0.6875rem);
-  color: var(--muted, #7a8290);
+  color: var(--muted);
 }
 
 .qp-surah-badges {
@@ -6498,7 +6523,7 @@
 .qp-surah-pct {
   font-size: var(--text-sm, 0.8125rem);
   font-weight: 600;
-  color: var(--muted, #7a8290);
+  color: var(--muted);
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -6517,7 +6542,7 @@
 .qp-surah-mem-pct {
   font-size: 0.7rem;
   font-weight: 600;
-  color: var(--accent-2, #6fd4b1);
+  color: var(--accent-2);
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -6525,8 +6550,8 @@
 }
 
 .qp-surah-mem-pct.done {
-  color: #6fd4b1;
-  background: rgba(111, 212, 177, 0.1);
+  color: var(--accent-2);
+  background: var(--accent-2-alpha-10);
   width: 24px;
   height: 24px;
   border-radius: 50%;
@@ -6534,7 +6559,7 @@
 }
 
 .qp-surah-hifz-detail {
-  color: var(--accent-2, #6fd4b1);
+  color: var(--accent-2);
 }
 
 .qp-almost-banner {
@@ -6550,7 +6575,7 @@
 .qp-almost-text {
   font-size: var(--text-xs, 0.6875rem);
   font-weight: 500;
-  color: var(--muted, #7a8290);
+  color: var(--muted);
   line-height: 1.45;
 }
 
@@ -6609,7 +6634,7 @@
 }
 
 :root[data-theme="light"] .qp-stepper-btn {
-  color: var(--accent-2, #5d6e50);
+  color: var(--accent-2);
 }
 
 :root[data-theme="light"] .qp-stepper-btn:hover:not(:disabled) {
@@ -6627,7 +6652,7 @@
 }
 
 :root[data-theme="light"] .qp-see-all {
-  color: var(--accent-2, #5d6e50);
+  color: var(--accent-2);
 }
 
 :root[data-theme="light"] .qp-ring-bg {

@@ -1,4 +1,5 @@
 /* Theme imports — each theme in its own file */
+@import "./themes/dark.css";
 @import "./themes/light.css";
 @import "./themes/bw.css";
 @import "./themes/bw-dark.css";

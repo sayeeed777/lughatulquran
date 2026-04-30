@@ -12,6 +12,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "check:themes": "node scripts/check-theme-tokens.mjs",
     "test": "tsc --noEmit && vitest run",
     "test:watch": "vitest",
     "normalize:translations": "node scripts/normalize-translation-json.mjs",

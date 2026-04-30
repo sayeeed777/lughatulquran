@@ -89,7 +89,7 @@
 
 .mem-btn--primary {
   background: var(--gradient-primary);
-  color: #eef8f3;
+  color: var(--mem-primary-text, var(--study-primary-control-text));
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
@@ -653,9 +653,9 @@
   gap: 10px;
   padding: 12px 14px;
   border-radius: 12px;
-  background: color-mix(in srgb, #ef4444 8%, transparent);
-  border: 1px solid color-mix(in srgb, #ef4444 15%, transparent);
-  color: #f3a08b;
+  background: var(--mem-error-bg, var(--control-danger-bg));
+  border: 1px solid var(--mem-error-border, var(--control-danger-bg-hover));
+  color: var(--mem-error-text, var(--control-danger-text));
   font-size: 0.8rem;
 }
 
@@ -699,7 +699,7 @@
 }
 
 .mem-progress-pill--good strong  { color: var(--accent-2); }
-.mem-progress-pill--again strong { color: #f3a08b; }
+.mem-progress-pill--again strong { color: var(--mem-again-soft-text, var(--control-danger-text)); }
 
 .mem-progress-track {
   height: 3px;
@@ -785,8 +785,8 @@
   align-items: center;
   padding: 2px 7px;
   border-radius: var(--radius-full);
-  background: color-mix(in srgb, #ef4444 10%, transparent);
-  color: #ef4444;
+  background: var(--mem-again-bg, var(--control-danger-bg));
+  color: var(--mem-again-text, var(--control-danger-text));
   font-size: 0.58rem;
   font-weight: 640;
   text-transform: uppercase;
@@ -1058,14 +1058,14 @@
 }
 
 .mem-rate-btn--again {
-  background: color-mix(in srgb, #ef4444 10%, transparent);
-  color: #ef4444;
+  background: var(--mem-again-bg, var(--control-danger-bg));
+  color: var(--mem-again-text, var(--control-danger-text));
 }
-.mem-rate-btn--again .mem-rate-interval { color: #ef4444; }
-.mem-rate-btn--again .mem-rate-key     { color: #ef4444; }
+.mem-rate-btn--again .mem-rate-interval { color: var(--mem-again-text, var(--control-danger-text)); }
+.mem-rate-btn--again .mem-rate-key     { color: var(--mem-again-text, var(--control-danger-text)); }
 .mem-rate-btn--again:hover {
-  background: color-mix(in srgb, #ef4444 16%, transparent);
-  border-color: color-mix(in srgb, #ef4444 20%, transparent);
+  background: var(--mem-again-hover-bg, var(--control-danger-bg-hover));
+  border-color: var(--mem-again-hover-border, var(--control-danger-bg-hover));
 }
 
 .mem-rate-btn--hard {
@@ -1197,7 +1197,7 @@
   transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.mem-breakdown-seg--again { background: #ef4444; }
+.mem-breakdown-seg--again { background: var(--mem-again-text, var(--control-danger-text)); }
 .mem-breakdown-seg--hard  { background: #edb95e; }
 .mem-breakdown-seg--good  { background: var(--accent-2); }
 .mem-breakdown-seg--easy  { background: #6eade8; }
@@ -1216,7 +1216,7 @@
   font-variant-numeric: tabular-nums;
 }
 
-.mem-breakdown-item--again { color: #ef4444; }
+.mem-breakdown-item--again { color: var(--mem-again-text, var(--control-danger-text)); }
 .mem-breakdown-item--hard  { color: #edb95e; }
 .mem-breakdown-item--good  { color: var(--accent-2); }
 .mem-breakdown-item--easy  { color: #6eade8; }

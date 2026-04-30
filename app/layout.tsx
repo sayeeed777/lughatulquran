@@ -138,7 +138,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
       "Prayer times with 11 calculation methods",
       "Reading statistics and streak tracking",
       "Surah, Juz, and Mushaf page reading modes",
-      "4 visual themes",
+      "6 visual themes",
       "Offline support as a Progressive Web App",
       "Customizable Arabic fonts and text sizes"
     ]

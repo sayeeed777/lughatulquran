@@ -1,8 +1,10 @@
 "use client";
 
 import { ALL_TRANSLATIONS } from "../../lib/constants";
+import { fetchJSON } from "../../lib/apiClient";
 import { normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
+import { useLocalStorage } from "../../hooks";
 import { useEffect, useState, useRef, useCallback } from "react";
 import { TAFSIR_EDITIONS } from "../study/StudyModeHelpers";
 import { CloseIcon, CopyIcon, CheckIcon } from "../common/Icons";
@@ -18,96 +20,38 @@ type TafsirPayload = {
 
 type CompareTab = "translations" | "tafseer";
 
+const TAFSIR_CACHE_TTL = 30 * 24 * 60 * 60 * 1000;
+
+const getTafsirCacheKey = (edition: string, surah: number, ayah: number) =>
+  `tafsir:v2:${edition}:${surah}:${ayah}`;
+
+const getTafsirUrl = (edition: string, surah: number, ayah: number) =>
+  `/api/tafsir?edition=${encodeURIComponent(edition)}&surah=${surah}&ayah=${ayah}`;
+
+const cleanTafsirText = (text: string) =>
+  text.replace(/\uFFFD+/gu, " ").replace(/\s+/g, " ").trim();
+
 export default function CompareModal() {
   const { selectedSurah } = useQuranData();
   const { selectedAyah, setSelectedAyah } = useUIState();
-  const onClose = () => setSelectedAyah(null);
+  const onClose = useCallback(() => setSelectedAyah(null), [setSelectedAyah]);
+  const selectedSurahNumber = selectedSurah?.number;
+  const selectedAyahNumber = selectedAyah?.number;
 
   const [activeTab, setActiveTab] = useState<CompareTab>("translations");
   const [payload, setPayload] = useState<CompareAllPayload | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const [tafsirEdition, setTafsirEdition] = useState<string>(TAFSIR_EDITIONS[0].id);
+  const [tafsirEdition, setTafsirEdition, isTafsirEditionLoaded] = useLocalStorage<string>(
+    "quran_tafsir_edition",
+    TAFSIR_EDITIONS[0].id
+  );
   const [tafsirText, setTafsirText] = useState<string>("");
   const [tafsirLoading, setTafsirLoading] = useState(false);
   const [tafsirError, setTafsirError] = useState<string | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
-
-  useEffect(() => {
-    setActiveTab("translations");
-  }, [selectedAyah?.number, selectedSurah?.number]);
-
-  useEffect(() => {
-    if (!selectedAyah || !selectedSurah) return;
-
-    const controller = new AbortController();
-    setLoading(true);
-    setError(null);
-    setPayload(null);
-
-    const url = `/api/ayah/translations?surah=${selectedSurah.number}&ayah=${selectedAyah.number}`;
-    fetch(url, { signal: controller.signal })
-      .then(async (res) => {
-        if (!res.ok) {
-          throw new Error(`Compare request failed (${res.status})`);
-        }
-        return (await res.json()) as CompareAllPayload;
-      })
-      .then((data) => setPayload(data))
-      .catch((err) => {
-        if (controller.signal.aborted) return;
-        setError(err instanceof Error ? err.message : String(err));
-      })
-      .finally(() => {
-        if (controller.signal.aborted) return;
-        setLoading(false);
-      });
-
-    return () => {
-      controller.abort();
-    };
-  }, [selectedSurah, selectedAyah]);
-
-  useEffect(() => {
-    if (activeTab !== "tafseer" || !selectedAyah || !selectedSurah) return;
-
-    const controller = new AbortController();
-    setTafsirLoading(true);
-    setTafsirError(null);
-    setTafsirText("");
-
-    const url = `/api/tafsir?edition=${encodeURIComponent(tafsirEdition)}&surah=${selectedSurah.number}&ayah=${selectedAyah.number}`;
-    fetch(url, { signal: controller.signal })
-      .then(async (res) => {
-        const data = (await res.json()) as TafsirPayload;
-        if (!res.ok) {
-          throw new Error(data.error || `Tafsir request failed (${res.status})`);
-        }
-        return data;
-      })
-      .then((data) => setTafsirText(data.text || ""))
-      .catch((err) => {
-        if (controller.signal.aborted) return;
-        setTafsirError(err instanceof Error ? err.message : String(err));
-      })
-      .finally(() => {
-        if (controller.signal.aborted) return;
-        setTafsirLoading(false);
-      });
-
-    return () => {
-      controller.abort();
-    };
-  }, [activeTab, selectedAyah, selectedSurah, tafsirEdition]);
-
-  if (!selectedAyah || !selectedSurah) {
-    return null;
-  }
-
-  const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
-  const allTranslations = payload?.translations || {};
-
+  const loadedTafsirKeyRef = useRef<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
 
@@ -129,6 +73,132 @@ export default function CompareModal() {
   }, []);
 
   useEffect(() => {
+    setActiveTab("translations");
+  }, [selectedAyahNumber, selectedSurahNumber]);
+
+  useEffect(() => {
+    if (!isTafsirEditionLoaded) return;
+    if (!TAFSIR_EDITIONS.some((edition) => edition.id === tafsirEdition)) {
+      setTafsirEdition(TAFSIR_EDITIONS[0].id);
+    }
+  }, [isTafsirEditionLoaded, tafsirEdition, setTafsirEdition]);
+
+  useEffect(() => {
+    if (!selectedAyahNumber || !selectedSurahNumber) return;
+
+    const controller = new AbortController();
+    setLoading(true);
+    setError(null);
+    setPayload(null);
+
+    const url = `/api/ayah/translations?surah=${selectedSurahNumber}&ayah=${selectedAyahNumber}`;
+    fetch(url, { signal: controller.signal })
+      .then(async (res) => {
+        if (!res.ok) {
+          throw new Error(`Compare request failed (${res.status})`);
+        }
+        return (await res.json()) as CompareAllPayload;
+      })
+      .then((data) => setPayload(data))
+      .catch((err) => {
+        if (controller.signal.aborted) return;
+        setError(err instanceof Error ? err.message : String(err));
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setLoading(false);
+      });
+
+    return () => {
+      controller.abort();
+    };
+  }, [selectedSurahNumber, selectedAyahNumber]);
+
+  useEffect(() => {
+    if (
+      activeTab !== "tafseer" ||
+      !isTafsirEditionLoaded ||
+      !selectedAyahNumber ||
+      !selectedSurahNumber
+    ) {
+      return;
+    }
+
+    const controller = new AbortController();
+    const key = getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber);
+    if (loadedTafsirKeyRef.current === key) {
+      setTafsirLoading(false);
+      return;
+    }
+
+    setTafsirLoading(true);
+    setTafsirError(null);
+    setTafsirText("");
+
+    fetchJSON<TafsirPayload>(getTafsirUrl(tafsirEdition, selectedSurahNumber, selectedAyahNumber), {
+      ttl: TAFSIR_CACHE_TTL,
+      retries: 1,
+      retryDelay: 300,
+      cacheKey: key,
+      persist: true,
+      staleWhileRevalidate: true,
+      signal: controller.signal
+    })
+      .then((data) => {
+        if (data.error) {
+          throw new Error(data.error);
+        }
+        loadedTafsirKeyRef.current = key;
+        setTafsirText(cleanTafsirText(data.text || ""));
+      })
+      .catch((err) => {
+        if (controller.signal.aborted) return;
+        setTafsirError(err instanceof Error ? err.message : String(err));
+      })
+      .finally(() => {
+        if (controller.signal.aborted) return;
+        setTafsirLoading(false);
+      });
+
+    return () => {
+      controller.abort();
+    };
+  }, [activeTab, isTafsirEditionLoaded, selectedAyahNumber, selectedSurahNumber, tafsirEdition]);
+
+  useEffect(() => {
+    if (!isTafsirEditionLoaded || !selectedAyahNumber || !selectedSurahNumber) return;
+
+    const controller = new AbortController();
+    const key = getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber);
+    loadedTafsirKeyRef.current = null;
+    setTafsirText("");
+    setTafsirError(null);
+    setTafsirLoading(false);
+
+    fetchJSON<TafsirPayload>(getTafsirUrl(tafsirEdition, selectedSurahNumber, selectedAyahNumber), {
+      ttl: TAFSIR_CACHE_TTL,
+      retries: 1,
+      retryDelay: 300,
+      cacheKey: key,
+      persist: true,
+      staleWhileRevalidate: true,
+      signal: controller.signal
+    })
+      .then((data) => {
+        if (controller.signal.aborted || data.error) return;
+        loadedTafsirKeyRef.current = key;
+        setTafsirText(cleanTafsirText(data.text || ""));
+      })
+      .catch(() => {
+        // Prefetch is best-effort; the visible Tafseer tab fetch reports errors.
+      });
+
+    return () => {
+      controller.abort();
+    };
+  }, [isTafsirEditionLoaded, selectedAyahNumber, selectedSurahNumber, tafsirEdition]);
+
+  useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
     el.addEventListener("scroll", updateThumb, { passive: true });
@@ -139,9 +209,11 @@ export default function CompareModal() {
       el.removeEventListener("scroll", updateThumb);
       observer.disconnect();
     };
-  }, [updateThumb, loading]);
+  }, [updateThumb, loading, activeTab, tafsirLoading, tafsirText]);
 
   useEffect(() => {
+    if (!selectedAyahNumber) return;
+
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "Escape") {
         e.stopPropagation();
@@ -154,7 +226,14 @@ export default function CompareModal() {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, []);
+  }, [onClose, selectedAyahNumber]);
+
+  if (!selectedAyah || !selectedSurah) {
+    return null;
+  }
+
+  const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
+  const allTranslations = payload?.translations || {};
 
   const copyToClipboard = async (id: string, text: string) => {
     let success = false;

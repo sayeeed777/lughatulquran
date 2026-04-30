@@ -223,7 +223,8 @@
 
 .settings-select:focus {
   outline: none;
-  border-color: rgba(111, 212, 177, 0.4);
+  border-color: var(--accent-2);
+  box-shadow: var(--focus-ring, none);
 }
 
 .settings-field {
@@ -254,7 +255,8 @@
 
 .settings-input:focus {
   outline: none;
-  border-color: rgba(111, 212, 177, 0.4);
+  border-color: var(--accent-2);
+  box-shadow: var(--focus-ring, none);
 }
 
 .settings-field-hint {
@@ -280,7 +282,7 @@
   top: 4px;
   left: 4px;
   height: calc(100% - 8px);
-  background: linear-gradient(135deg, rgba(111, 212, 177, 0.25) 0%, rgba(111, 212, 177, 0.15) 100%);
+  background: var(--segmented-active-bg, linear-gradient(135deg, var(--accent-2-alpha-25) 0%, var(--accent-2-alpha-15) 100%));
   border-radius: var(--radius-sm);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -302,7 +304,7 @@
 }
 
 .segmented-btn.active {
-  color: #d8fff0;
+  color: var(--accent-contrast);
 }
 
 .segmented-btn:hover:not(.active) {
@@ -350,7 +352,7 @@
 }
 
 .translation-chip.selected {
-  background: rgba(111, 212, 177, 0.08);
+  background: var(--reader-action-primary-bg, var(--accent-2-alpha-08));
 }
 
 .chip-label {
@@ -388,7 +390,7 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--accent);
-  background: rgba(216, 179, 106, 0.1);
+  background: var(--accent-alpha-10);
   padding: 2px 7px;
   border-radius: var(--radius-xs);
   margin-left: auto;
@@ -435,7 +437,7 @@
     padding: 16px 18px;
     min-height: 58px;
     border-radius: 14px;
-    -webkit-tap-highlight-color: rgba(111, 212, 177, 0.1);
+    -webkit-tap-highlight-color: var(--accent-2-alpha-10);
   }
 
   .translation-chip:active {
@@ -625,7 +627,7 @@
 }
 
 .reciter-card.selected {
-  background: rgba(111, 212, 177, 0.08);
+  background: var(--reader-action-primary-bg, var(--accent-2-alpha-08));
 }
 
 .reciter-avatar {
@@ -645,7 +647,7 @@
 }
 
 .reciter-card.selected .reciter-avatar {
-  background: rgba(111, 212, 177, 0.12);
+  background: var(--reader-action-primary-bg-hover, var(--accent-2-alpha-12));
 }
 
 .reciter-card.selected .reciter-avatar svg {
@@ -815,7 +817,7 @@
     padding: 14px 14px;
     gap: 14px;
     min-height: 56px;
-    -webkit-tap-highlight-color: rgba(111, 212, 177, 0.08);
+    -webkit-tap-highlight-color: var(--accent-2-alpha-08);
   }
 
   .reciter-card:active {
@@ -849,7 +851,7 @@
   .translation-chip {
     padding: 14px 14px;
     min-height: 52px;
-    -webkit-tap-highlight-color: rgba(111, 212, 177, 0.08);
+    -webkit-tap-highlight-color: var(--accent-2-alpha-08);
   }
 
   .translation-chip:active {
@@ -989,7 +991,7 @@
   .settings-modal-overlay a.btn {
     min-height: 44px;
     min-width: 44px;
-    -webkit-tap-highlight-color: rgba(111, 212, 177, 0.15);
+    -webkit-tap-highlight-color: var(--accent-2-alpha-15);
     touch-action: manipulation;
   }
 

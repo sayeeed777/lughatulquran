@@ -65,7 +65,7 @@
   width: min(220px, 68vw);
   padding: 10px 12px;
   border-radius: 12px;
-  border: 1px solid rgba(111, 212, 177, 0.3);
+  border: 1px solid var(--accent-2-alpha-30);
   background: linear-gradient(150deg, rgba(19, 34, 38, 0.96), rgba(12, 22, 27, 0.95));
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
   z-index: 45;
@@ -79,8 +79,8 @@
   right: 18px;
   width: 10px;
   height: 10px;
-  border-left: 1px solid rgba(111, 212, 177, 0.3);
-  border-top: 1px solid rgba(111, 212, 177, 0.3);
+  border-left: 1px solid var(--accent-2-alpha-30);
+  border-top: 1px solid var(--accent-2-alpha-30);
   background: rgba(17, 31, 36, 0.96);
   transform: rotate(45deg);
 }
@@ -211,7 +211,7 @@
 }
 
 .surah-item.active {
-  background: rgba(111, 212, 177, 0.08);
+  background: var(--accent-2-alpha-08);
 }
 
 .surah-item:last-child {

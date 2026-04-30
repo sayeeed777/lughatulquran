@@ -20,9 +20,11 @@
   /* Ocean teal accents */
   --accent: #1b6b80;
   --accent-2: #238a9e;
+  --accent-contrast: var(--accent);
 
   /* Soft blue borders */
   --stroke: rgba(86, 127, 154, 0.12);
+  --compare-row-divider: rgba(86, 127, 154, 0.12);
 
   /* Soft ocean shadows */
   --shadow:
@@ -39,6 +41,67 @@
     0 32px 64px rgba(12, 45, 72, 0.08);
 
   --gradient-primary: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
+
+  --reader-card-bg: rgba(208, 228, 240, 0.9);
+  --reader-card-bg-hover: rgba(200, 222, 236, 0.96);
+  --reader-card-bg-focused: rgba(215, 234, 244, 0.95);
+  --reader-card-bg-active: rgba(218, 236, 245, 0.96);
+  --reader-card-shadow-hover: 0 2px 10px rgba(12, 45, 72, 0.04);
+  --reader-action-bg: rgba(255, 255, 255, 0.32);
+  --reader-action-bg-hover: rgba(232, 243, 249, 0.88);
+  --reader-action-bg-active: rgba(220, 235, 244, 0.96);
+  --reader-action-text: var(--accent);
+  --reader-action-primary-bg: rgba(220, 235, 244, 0.92);
+  --reader-action-primary-bg-hover: rgba(208, 228, 240, 0.98);
+  --reader-action-primary-text: var(--accent);
+  --reader-action-danger-text: #b04040;
+  --reader-action-danger-bg-hover: rgba(176, 64, 64, 0.08);
+  --reader-control-stop-bg: rgba(255, 255, 255, 0.34);
+  --reader-control-stop-bg-hover: rgba(220, 235, 244, 0.88);
+  --reader-control-stop-text: var(--accent);
+  --reader-control-play-bg: var(--gradient-primary);
+  --reader-control-play-bg-hover: linear-gradient(135deg, #207a91 0%, #2a9aaf 100%);
+  --reader-control-play-text: #dbeaf2;
+  --control-danger-bg: rgba(176, 64, 64, 0.08);
+  --control-danger-bg-hover: rgba(176, 64, 64, 0.12);
+  --control-danger-text: #b04040;
+  --field-bg: rgba(255, 255, 255, 0.34);
+  --field-bg-hover: rgba(220, 235, 244, 0.88);
+  --field-bg-focus: rgba(220, 235, 244, 0.96);
+  --focus-ring: 0 0 0 2px rgba(27, 107, 128, 0.16);
+  --segmented-active-bg: linear-gradient(135deg, rgba(27, 107, 128, 0.16), rgba(35, 138, 158, 0.1));
+  --segmented-active-text: var(--accent);
+  --share-primary-bg: var(--gradient-primary);
+  --share-primary-bg-hover: linear-gradient(135deg, #207a91 0%, #2a9aaf 100%);
+  --share-primary-text: #dbeaf2;
+  --share-primary-shadow: 0 6px 18px rgba(12, 45, 72, 0.12);
+  --share-primary-shadow-hover: 0 8px 22px rgba(12, 45, 72, 0.16);
+
+  --study-ayah-card-bg: rgba(208, 228, 240, 0.9);
+  --study-ayah-card-bg-hover: rgba(200, 222, 236, 0.96);
+  --study-ayah-card-shadow: 0 1px 6px rgba(12, 45, 72, 0.03);
+  --study-ayah-card-playing-bg: rgba(216, 233, 243, 0.98);
+  --study-ayah-card-marked-bg: rgba(198, 220, 235, 0.98);
+  --study-ayah-card-marked-hover-bg: rgba(192, 216, 232, 1);
+  --study-ayah-card-marked-playing-bg: rgba(206, 225, 238, 1);
+  --study-ayah-card-marked-shadow: 0 1px 6px rgba(86, 127, 154, 0.05);
+  --study-word-hover-bg: rgba(20, 78, 95, 0.08);
+  --study-word-active-bg: rgba(198, 223, 234, 0.88);
+  --study-word-active-text: var(--text);
+  --study-rail-bg: rgba(219, 234, 242, 0.94);
+  --study-rail-border: rgba(86, 127, 154, 0.1);
+  --study-rail-shadow: 0 6px 18px rgba(12, 45, 72, 0.07);
+  --study-rail-button-bg: rgba(255, 255, 255, 0.34);
+  --study-rail-button-bg-hover: rgba(220, 235, 244, 0.88);
+  --study-rail-button-active-bg: var(--gradient-primary);
+  --study-rail-button-active-text: #dbeaf2;
+  --study-primary-control-bg: var(--gradient-primary);
+  --study-primary-control-bg-hover: linear-gradient(135deg, #207a91 0%, #2a9aaf 100%);
+  --study-primary-control-text: #dbeaf2;
+  --search-highlight-text: #0e8a5f;
+  --quick-panel-bg: rgba(219, 234, 242, 0.97);
+  --quick-panel-border: rgba(86, 127, 154, 0.1);
+  --quick-panel-shadow: 0 10px 24px rgba(12, 45, 72, 0.08);
 }
 
 /* Body — Sky blue gradient */
@@ -221,23 +284,23 @@
 
 /* Ayah Cards — Ocean teal surfaces */
 :root[data-theme="sky"] .ayah-card {
-  background: rgba(208, 228, 240, 0.9);
+  background: var(--reader-card-bg);
   border: none;
   box-shadow: none;
   transition: background 0.2s ease;
 }
 
 :root[data-theme="sky"] .ayah-card:hover {
-  background: rgba(200, 222, 236, 0.96);
-  box-shadow: 0 2px 10px rgba(12, 45, 72, 0.04);
+  background: var(--reader-card-bg-hover);
+  box-shadow: var(--reader-card-shadow-hover);
 }
 
 :root[data-theme="sky"] .ayah-card.focused {
-  background: rgba(215, 234, 244, 0.95);
+  background: var(--reader-card-bg-focused);
 }
 
 :root[data-theme="sky"] .ayah-card.active {
-  background: rgba(218, 236, 245, 0.96);
+  background: var(--reader-card-bg-active);
   border-color: rgba(27, 107, 128, 0.08);
 }
 
@@ -268,41 +331,41 @@
 
 /* Action Buttons — Teal ghost */
 :root[data-theme="sky"] .action-btn {
-  background: rgba(255, 255, 255, 0.32);
+  background: var(--reader-action-bg);
   border: 1px solid transparent;
-  color: var(--accent);
+  color: var(--reader-action-text);
   font-weight: 500;
   transition: all 0.2s ease;
 }
 
 :root[data-theme="sky"] .action-btn:hover {
-  background: rgba(232, 243, 249, 0.88);
+  background: var(--reader-action-bg-hover);
   transform: none;
   box-shadow: none;
 }
 
 :root[data-theme="sky"] .action-btn:active {
-  background: rgba(220, 235, 244, 0.96);
+  background: var(--reader-action-bg-active);
   transform: translateY(0);
   box-shadow: none;
 }
 
 :root[data-theme="sky"] .action-btn.saved,
 :root[data-theme="sky"] .action-btn--primary {
-  background: rgba(220, 235, 244, 0.92);
-  color: var(--accent);
+  background: var(--reader-action-primary-bg);
+  color: var(--reader-action-primary-text);
 }
 
 :root[data-theme="sky"] .action-btn--primary:hover {
-  background: rgba(208, 228, 240, 0.98);
+  background: var(--reader-action-primary-bg-hover);
 }
 
 :root[data-theme="sky"] .action-btn--danger {
-  color: #b04040;
+  color: var(--reader-action-danger-text);
 }
 
 :root[data-theme="sky"] .action-btn--danger:hover {
-  background: rgba(176, 64, 64, 0.08);
+  background: var(--reader-action-danger-bg-hover);
 }
 
 /* Quick controls — flat */
@@ -482,30 +545,30 @@
 }
 
 :root[data-theme="sky"] .study-ayah-card {
-  background: rgba(208, 228, 240, 0.9);
+  background: var(--study-ayah-card-bg);
   border: none;
-  box-shadow: 0 1px 6px rgba(12, 45, 72, 0.03);
+  box-shadow: var(--study-ayah-card-shadow);
 }
 
 :root[data-theme="sky"] .study-ayah-card:hover {
-  background: rgba(200, 222, 236, 0.96);
+  background: var(--study-ayah-card-bg-hover);
 }
 
 :root[data-theme="sky"] .study-ayah-card.playing {
-  background: rgba(216, 233, 243, 0.98);
+  background: var(--study-ayah-card-playing-bg);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked {
-  background: rgba(198, 220, 235, 0.98);
-  box-shadow: 0 1px 6px rgba(86, 127, 154, 0.05);
+  background: var(--study-ayah-card-marked-bg);
+  box-shadow: var(--study-ayah-card-marked-shadow);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked:hover {
-  background: rgba(192, 216, 232, 1);
+  background: var(--study-ayah-card-marked-hover-bg);
 }
 
 :root[data-theme="sky"] .study-ayah-card.marked.playing {
-  background: rgba(206, 225, 238, 1);
+  background: var(--study-ayah-card-marked-playing-bg);
 }
 
 :root[data-theme="sky"] .study-ayah-number {
@@ -514,44 +577,44 @@
 }
 
 :root[data-theme="sky"] .study-ayah-word-trigger:hover {
-  background: rgba(20, 78, 95, 0.08);
+  background: var(--study-word-hover-bg);
 }
 
 :root[data-theme="sky"] .study-ayah-word-trigger.active {
-  background: rgba(198, 223, 234, 0.88);
-  color: var(--text);
+  background: var(--study-word-active-bg);
+  color: var(--study-word-active-text);
 }
 
 /* Study rail */
 :root[data-theme="sky"] .study-rail {
-  background: rgba(219, 234, 242, 0.94);
-  border: 1px solid rgba(86, 127, 154, 0.1);
-  box-shadow: 0 6px 18px rgba(12, 45, 72, 0.07);
+  background: var(--study-rail-bg);
+  border: 1px solid var(--study-rail-border);
+  box-shadow: var(--study-rail-shadow);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
 
 :root[data-theme="sky"] .study-rail-btn {
-  background: rgba(255, 255, 255, 0.34);
+  background: var(--study-rail-button-bg);
   color: var(--muted);
 }
 
 :root[data-theme="sky"] .study-rail-btn:hover {
-  background: rgba(220, 235, 244, 0.88);
+  background: var(--study-rail-button-bg-hover);
   color: var(--text);
 }
 
 :root[data-theme="sky"] .study-rail-btn.active {
-  background: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
-  color: #dbeaf2;
+  background: var(--study-rail-button-active-bg);
+  color: var(--study-rail-button-active-text);
   box-shadow: none;
 }
 
 /* Quick panel */
 :root[data-theme="sky"] .quick-panel {
-  background: rgba(219, 234, 242, 0.97);
-  border: 1px solid rgba(86, 127, 154, 0.1);
-  box-shadow: 0 10px 24px rgba(12, 45, 72, 0.08);
+  background: var(--quick-panel-bg);
+  border: 1px solid var(--quick-panel-border);
+  box-shadow: var(--quick-panel-shadow);
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
@@ -842,8 +905,8 @@
 }
 
 :root[data-theme="sky"] .memorize-primary {
-  background: linear-gradient(135deg, #1b6b80 0%, #238a9e 100%);
-  color: #dbeaf2;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
 /* Last read card */

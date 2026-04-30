@@ -16,8 +16,10 @@
 
   --accent: #eeeeee;
   --accent-2: #cccccc;
+  --accent-contrast: #eeeeee;
 
   --stroke: rgba(255, 255, 255, 0.1);
+  --compare-row-divider: rgba(255, 255, 255, 0.08);
 
   --shadow:
     0 1px 3px rgba(0, 0, 0, 0.3),
@@ -33,6 +35,70 @@
     0 32px 64px rgba(0, 0, 0, 0.4);
 
   --gradient-primary: linear-gradient(135deg, #ccc 0%, #eee 100%);
+
+  --reader-card-bg: rgba(255, 255, 255, 0.03);
+  --reader-card-bg-hover: rgba(255, 255, 255, 0.05);
+  --reader-card-bg-focused: rgba(255, 255, 255, 0.04);
+  --reader-card-bg-active: rgba(255, 255, 255, 0.07);
+  --reader-card-shadow-hover: none;
+  --reader-action-bg: rgba(255, 255, 255, 0.05);
+  --reader-action-bg-hover: rgba(255, 255, 255, 0.1);
+  --reader-action-bg-active: rgba(255, 255, 255, 0.14);
+  --reader-action-text: var(--text);
+  --reader-action-primary-bg: rgba(255, 255, 255, 0.1);
+  --reader-action-primary-bg-hover: rgba(255, 255, 255, 0.15);
+  --reader-action-primary-text: #eee;
+  --reader-action-danger-text: #ff6b6b;
+  --reader-action-danger-bg-hover: rgba(255, 107, 107, 0.1);
+  --reader-control-stop-bg: rgba(255, 255, 255, 0.06);
+  --reader-control-stop-bg-hover: rgba(255, 255, 255, 0.1);
+  --reader-control-stop-text: #ccc;
+  --reader-control-play-bg: #eee;
+  --reader-control-play-bg-hover: #fff;
+  --reader-control-play-text: #000;
+  --search-highlight-text: #6fd4b1;
+  --audio-bar-play-bg: rgba(255, 255, 255, 0.1);
+  --audio-bar-play-bg-hover: rgba(255, 255, 255, 0.15);
+  --audio-bar-play-text: #eee;
+  --control-danger-bg: rgba(255, 107, 107, 0.08);
+  --control-danger-bg-hover: rgba(255, 107, 107, 0.12);
+  --control-danger-text: #ff6b6b;
+  --field-bg: rgba(255, 255, 255, 0.05);
+  --field-bg-hover: rgba(255, 255, 255, 0.08);
+  --field-bg-focus: #111;
+  --focus-ring: 0 0 0 2px rgba(255, 255, 255, 0.15);
+  --segmented-active-bg: rgba(255, 255, 255, 0.12);
+  --segmented-active-text: #eee;
+  --share-primary-bg: #eee;
+  --share-primary-bg-hover: #fff;
+  --share-primary-text: #000;
+  --share-primary-shadow: none;
+  --share-primary-shadow-hover: none;
+
+  --study-ayah-card-bg: rgba(255, 255, 255, 0.03);
+  --study-ayah-card-bg-hover: rgba(255, 255, 255, 0.05);
+  --study-ayah-card-shadow: none;
+  --study-ayah-card-playing-bg: rgba(255, 255, 255, 0.06);
+  --study-ayah-card-marked-bg: rgba(255, 255, 255, 0.12);
+  --study-ayah-card-marked-hover-bg: rgba(255, 255, 255, 0.16);
+  --study-ayah-card-marked-playing-bg: rgba(255, 255, 255, 0.18);
+  --study-ayah-card-marked-shadow: none;
+  --study-word-hover-bg: rgba(255, 255, 255, 0.06);
+  --study-word-active-bg: rgba(255, 255, 255, 0.1);
+  --study-word-active-text: #eee;
+  --study-rail-bg: rgba(10, 10, 10, 0.96);
+  --study-rail-border: rgba(255, 255, 255, 0.1);
+  --study-rail-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  --study-rail-button-bg: rgba(255, 255, 255, 0.05);
+  --study-rail-button-bg-hover: rgba(255, 255, 255, 0.1);
+  --study-rail-button-active-bg: #eee;
+  --study-rail-button-active-text: #000;
+  --study-primary-control-bg: #eee;
+  --study-primary-control-bg-hover: #fff;
+  --study-primary-control-text: #000;
+  --quick-panel-bg: rgba(10, 10, 10, 0.96);
+  --quick-panel-border: rgba(255, 255, 255, 0.08);
+  --quick-panel-shadow: -20px 0 60px rgba(0, 0, 0, 0.35);
 }
 
 :root[data-theme="bw-dark"] body {
@@ -129,16 +195,16 @@
 
 /* Ayah cards */
 :root[data-theme="bw-dark"] .ayah-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--reader-card-bg);
   border-color: rgba(255, 255, 255, 0.06);
 }
 
 :root[data-theme="bw-dark"] .ayah-card:hover {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--reader-card-bg-hover);
 }
 
 :root[data-theme="bw-dark"] .ayah-card.active {
-  background: rgba(255, 255, 255, 0.07);
+  background: var(--reader-card-bg-active);
   border-color: rgba(255, 255, 255, 0.12);
 }
 
@@ -275,8 +341,9 @@
 
 /* Quick panel */
 :root[data-theme="bw-dark"] .quick-panel {
-  background: rgba(10, 10, 10, 0.96);
-  border-color: rgba(255, 255, 255, 0.08);
+  background: var(--quick-panel-bg);
+  border-color: var(--quick-panel-border);
+  box-shadow: var(--quick-panel-shadow);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -701,25 +768,25 @@
    ============================================= */
 
 :root[data-theme="bw-dark"] .study-rail {
-  background: rgba(10, 10, 10, 0.96);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  background: var(--study-rail-bg);
+  border: 1px solid var(--study-rail-border);
+  box-shadow: var(--study-rail-shadow);
   backdrop-filter: blur(18px) saturate(150%);
 }
 
 :root[data-theme="bw-dark"] .study-rail-btn {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--study-rail-button-bg);
   color: #888;
 }
 
 :root[data-theme="bw-dark"] .study-rail-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--study-rail-button-bg-hover);
   color: #eee;
 }
 
 :root[data-theme="bw-dark"] .study-rail-btn.active {
-  background: #eee;
-  color: #000;
+  background: var(--study-rail-button-active-bg);
+  color: var(--study-rail-button-active-text);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
@@ -943,19 +1010,19 @@
 
 /* Study Ayah Card States */
 :root[data-theme="bw-dark"] .study-ayah-card.playing {
-  background: rgba(255, 255, 255, 0.06) !important;
+  background: var(--study-ayah-card-playing-bg) !important;
 }
 
 :root[data-theme="bw-dark"] .study-ayah-card.marked {
-  background: rgba(255, 255, 255, 0.12) !important;
+  background: var(--study-ayah-card-marked-bg) !important;
 }
 
 :root[data-theme="bw-dark"] .study-ayah-card.marked:hover {
-  background: rgba(255, 255, 255, 0.16) !important;
+  background: var(--study-ayah-card-marked-hover-bg) !important;
 }
 
 :root[data-theme="bw-dark"] .study-ayah-card.marked.playing {
-  background: rgba(255, 255, 255, 0.18) !important;
+  background: var(--study-ayah-card-marked-playing-bg) !important;
 }
 
 
@@ -1336,30 +1403,30 @@
 }
 
 /* =============================================
-   FIX: Override hardcoded teal/aqua colors
+   Theme token bridge for legacy hardcoded color escapes
    ============================================= */
 
-/* Play button in quick controls (reader.css leaks #f4fffb + teal gradient) */
+/* Play button in quick controls */
 :root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn {
-  background: #eee;
-  color: #000;
+  background: var(--reader-control-play-bg);
+  color: var(--reader-control-play-text);
 }
 
 :root[data-theme="bw-dark"] .quick-controls-row .action-btn.play-btn:hover {
-  background: #fff;
+  background: var(--reader-control-play-bg-hover);
 }
 
-/* Audio bar play button (audio.css leaks #f4fffb + teal gradient) */
+/* Audio bar play button */
 :root[data-theme="bw-dark"] .audio-bar .play-surah-btn {
-  background: rgba(255, 255, 255, 0.1);
-  color: #eee;
+  background: var(--audio-bar-play-bg);
+  color: var(--audio-bar-play-text);
 }
 
 :root[data-theme="bw-dark"] .audio-bar .play-surah-btn:hover {
-  background: rgba(255, 255, 255, 0.15);
+  background: var(--audio-bar-play-bg-hover);
 }
 
-/* Audio bar stop button (audio.css leaks red tint) */
+/* Audio bar stop button */
 :root[data-theme="bw-dark"] .quick-play .stop-btn {
   background: rgba(255, 255, 255, 0.08);
   color: #ccc;
@@ -1369,65 +1436,64 @@
   background: rgba(255, 255, 255, 0.12);
 }
 
-/* Study control-btn.primary (study.css leaks #f4fffb + teal gradient) */
+/* Study primary controls */
 :root[data-theme="bw-dark"] .control-btn.primary {
-  background: #eee;
-  color: #000;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
 :root[data-theme="bw-dark"] .control-btn.primary:hover {
-  background: #fff;
+  background: var(--study-primary-control-bg-hover);
 }
 
-/* Study rail active button (study.css leaks #f4fffb + teal gradient) */
+/* Study rail active button */
 :root[data-theme="bw-dark"] .study-rail-btn.active {
-  background: #eee;
-  color: #000;
+  background: var(--study-rail-button-active-bg);
+  color: var(--study-rail-button-active-text);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Memorize primary button (study.css leaks #f4fffb) */
 :root[data-theme="bw-dark"] .memorize-primary {
-  background: #eee;
-  color: #000;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
-/* Reader search focus ring (reader.css leaks teal glow) */
+/* Reader search focus ring */
 :root[data-theme="bw-dark"] .reader-search input:focus,
 :root[data-theme="bw-dark"] .go-ayah input:focus {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
 }
 
-/* Translation toggle active (reader.css leaks green tint) */
+/* Translation toggle active */
 :root[data-theme="bw-dark"] .translation-toggle button.active,
 :root[data-theme="bw-dark"] .translation-toggle-mobile button.active {
   background: rgba(255, 255, 255, 0.12);
   color: #eee;
 }
 
-/* Ayah card focused (reader.css leaks green tint) */
+/* Ayah card focused */
 :root[data-theme="bw-dark"] .ayah-card.focused {
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--reader-card-bg-focused);
 }
 
-/* Action btn saved/primary (common.css leaks green tint) */
+/* Action btn saved/primary */
 :root[data-theme="bw-dark"] .action-btn.saved,
 :root[data-theme="bw-dark"] .action-btn--primary {
-  background: rgba(255, 255, 255, 0.1);
-  color: #eee;
+  background: var(--reader-action-primary-bg);
+  color: var(--reader-action-primary-text);
 }
 
 :root[data-theme="bw-dark"] .action-btn--primary:hover {
   background: rgba(255, 255, 255, 0.15);
 }
 
-/* Search focus ring (common.css leaks teal glow) */
+/* Search focus ring */
 :root[data-theme="bw-dark"] .search:focus {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.15);
 }
 
 /* =============================================
-   FIX: Consolidate error/danger colors to #ff6b6b
+   Error/danger colors
    ============================================= */
 
 :root[data-theme="bw-dark"] .meta.error,
@@ -1441,15 +1507,15 @@
 }
 
 :root[data-theme="bw-dark"] .action-btn--danger {
-  color: #ff6b6b;
+  color: var(--reader-action-danger-text);
 }
 
 :root[data-theme="bw-dark"] .action-btn--danger:hover {
-  background: rgba(255, 107, 107, 0.1);
+  background: var(--reader-action-danger-bg-hover);
 }
 
 /* =============================================
-   FIX: Tafsir edition chevron green circle
+   Tafsir edition chevron
    ============================================= */
 
 :root[data-theme="bw-dark"] .tafsir-edition-chevron {
@@ -1464,7 +1530,7 @@
 }
 
 /* =============================================
-   FIX: "Use current ayah" button green tint
+   Quick item action
    ============================================= */
 
 :root[data-theme="bw-dark"] .quick-item-action {

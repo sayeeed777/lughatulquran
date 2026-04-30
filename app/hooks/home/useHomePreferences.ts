@@ -13,7 +13,12 @@ import {
   getReciterBootstrapMode,
   LEGACY_DEFAULT_RECITER
 } from "../../lib/reciterPreferences";
-import type { ThemeName } from "../../contexts/ThemeContext";
+import {
+  DEFAULT_THEME,
+  isLightThemeName,
+  normalizeThemeName,
+} from "../../lib/themes";
+import type { ThemeName } from "../../lib/themes";
 import { useLocalStorage } from "../common";
 import { clamp } from "../../lib/utils";
 import { useReadingPlan, useFontScale } from "../useAppSettings";
@@ -186,29 +191,29 @@ export function useHomePreferences() {
   ]);
 
   const [theme, setThemeState] = useState<ThemeName>(() => {
-    if (typeof window === "undefined") return "dark";
+    if (typeof window === "undefined") return DEFAULT_THEME;
     try {
       const storedTheme = localStorage.getItem(STORAGE_KEYS.theme);
       if (storedTheme) {
         const parsed = JSON.parse(storedTheme);
-        const normalizedTheme = parsed === "ocean" ? "mist" : parsed;
-        if (normalizedTheme === "dark" || normalizedTheme === "light" || normalizedTheme === "bw" || normalizedTheme === "bw-dark" || normalizedTheme === "mist" || normalizedTheme === "sky") {
-          if (parsed === "ocean") {
-            localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify("mist"));
+        const normalizedTheme = normalizeThemeName(parsed);
+        if (normalizedTheme) {
+          if (normalizedTheme !== parsed) {
+            localStorage.setItem(STORAGE_KEYS.theme, JSON.stringify(normalizedTheme));
           }
           return normalizedTheme;
         }
       }
       const isMobileView = window.matchMedia?.(mobileViewportQuery)?.matches;
       if (isMobileView) {
-        return "dark";
+        return DEFAULT_THEME;
       }
-      return window.matchMedia?.("(prefers-color-scheme: light)")?.matches ? "light" : "dark";
+      return window.matchMedia?.("(prefers-color-scheme: light)")?.matches ? "light" : DEFAULT_THEME;
     } catch {
-      return "dark";
+      return DEFAULT_THEME;
     }
   });
-  const isLightTheme = theme === "light" || theme === "bw" || theme === "sky";
+  const isLightTheme = isLightThemeName(theme);
 
   const setThemeValue = useCallback((t: ThemeName) => {
     // Enable smooth transition, then switch theme

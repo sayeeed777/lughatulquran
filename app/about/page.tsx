@@ -71,7 +71,7 @@ export default async function AboutPage() {
       "Arabic root lexicon with Lane's Lexicon definitions",
       "Reading statistics and streak tracking",
       "Reading progress persistence per surah, juz, and page",
-      "4 visual themes with smooth transitions",
+      "6 visual themes with smooth transitions",
       "Full keyboard shortcuts",
       "Offline support as Progressive Web App",
       "Customizable Arabic fonts and text sizes"
@@ -295,7 +295,7 @@ export default async function AboutPage() {
             <div className="info-feature-item">
               <h3 className="info-feature-title">Customization</h3>
               <p className="info-feature-desc">
-                4 themes (Dark, Parchment, Black &amp; White, Dark B&amp;W), 4 Arabic fonts including
+                6 themes (Dark, Parchment, Black &amp; White, Dark B&amp;W, Mist, and Sky), 4 Arabic fonts including
                 Scheherazade New as the default, Uthmani or Naskh script, adjustable text sizes,
                 full keyboard shortcuts, and offline PWA support.
               </p>

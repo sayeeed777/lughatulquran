@@ -210,7 +210,7 @@ const FAQ_ITEMS = [
   {
     question: "How do I change the theme?",
     answer:
-      "Click the theme switcher icon in the topbar. Choose from 4 themes: Dark (default dark background), Parchment (warm light background), Black & White (pure contrast), or Dark B&W (true black background). Theme changes animate smoothly between colors."
+      "Click the theme switcher icon in the topbar. Choose from 6 themes: Dark, Parchment, Black & White, Dark B&W, Mist, and Sky. Theme changes animate smoothly between colors."
   },
   {
     question: "How do I customize text size and fonts?",

@@ -15,9 +15,11 @@
   /* Serene olive accent — Deep Forest Olive */
   --accent: #425236;
   --accent-2: #5d6e50;
+  --accent-contrast: var(--accent);
 
   /* Soft olive-tinted borders */
   --stroke: rgba(66, 82, 54, 0.08);
+  --compare-row-divider: rgba(66, 82, 54, 0.1);
 
   /* Warm, earthy layered shadows */
   --shadow:
@@ -35,6 +37,69 @@
     0 2px 8px rgba(45, 52, 40, 0.04),
     0 12px 32px rgba(45, 52, 40, 0.08),
     0 32px 64px rgba(45, 52, 40, 0.06);
+
+  --gradient-primary: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
+
+  --reader-card-bg: rgba(240, 231, 219, 0.5);
+  --reader-card-bg-hover: rgba(240, 231, 219, 0.95);
+  --reader-card-bg-focused: rgba(66, 82, 54, 0.06);
+  --reader-card-bg-active: rgba(66, 82, 54, 0.08);
+  --reader-card-shadow-hover: 0 4px 24px rgba(45, 52, 40, 0.03);
+  --reader-action-bg: rgba(66, 82, 54, 0.06);
+  --reader-action-bg-hover: rgba(66, 82, 54, 0.12);
+  --reader-action-bg-active: rgba(66, 82, 54, 0.15);
+  --reader-action-text: var(--accent);
+  --reader-action-primary-bg: rgba(66, 82, 54, 0.1);
+  --reader-action-primary-bg-hover: rgba(66, 82, 54, 0.15);
+  --reader-action-primary-text: var(--accent);
+  --reader-action-danger-text: #9d4b3f;
+  --reader-action-danger-bg-hover: rgba(157, 75, 63, 0.1);
+  --reader-control-stop-bg: rgba(66, 82, 54, 0.08);
+  --reader-control-stop-bg-hover: rgba(66, 82, 54, 0.14);
+  --reader-control-stop-text: var(--accent);
+  --reader-control-play-bg: var(--gradient-primary);
+  --reader-control-play-bg-hover: linear-gradient(135deg, #4d6040 0%, #66785a 100%);
+  --reader-control-play-text: #f0e7db;
+  --control-danger-bg: rgba(157, 75, 63, 0.1);
+  --control-danger-bg-hover: rgba(157, 75, 63, 0.16);
+  --control-danger-text: #9d4b3f;
+  --field-bg: rgba(66, 82, 54, 0.04);
+  --field-bg-hover: rgba(66, 82, 54, 0.08);
+  --field-bg-focus: #f0e7db;
+  --focus-ring: 0 0 0 2px rgba(66, 82, 54, 0.16);
+  --segmented-active-bg: linear-gradient(135deg, rgba(66, 82, 54, 0.18), rgba(66, 82, 54, 0.1));
+  --segmented-active-text: var(--accent);
+  --share-primary-bg: var(--gradient-primary);
+  --share-primary-bg-hover: linear-gradient(135deg, #4d6040 0%, #66785a 100%);
+  --share-primary-text: #f0e7db;
+  --share-primary-shadow: 0 6px 18px rgba(66, 82, 54, 0.18);
+  --share-primary-shadow-hover: 0 8px 22px rgba(66, 82, 54, 0.22);
+
+  --study-ayah-card-bg: rgba(240, 231, 219, 0.85);
+  --study-ayah-card-bg-hover: rgba(240, 231, 219, 0.95);
+  --study-ayah-card-shadow: 0 2px 12px rgba(45, 52, 40, 0.04);
+  --study-ayah-card-playing-bg: rgba(66, 82, 54, 0.06);
+  --study-ayah-card-marked-bg: rgba(102, 122, 78, 0.16);
+  --study-ayah-card-marked-hover-bg: rgba(102, 122, 78, 0.2);
+  --study-ayah-card-marked-playing-bg: rgba(90, 110, 69, 0.22);
+  --study-ayah-card-marked-shadow: 0 2px 10px rgba(66, 82, 54, 0.08);
+  --study-word-hover-bg: rgba(66, 82, 54, 0.1);
+  --study-word-active-bg: rgba(66, 82, 54, 0.14);
+  --study-word-active-text: var(--text);
+  --study-rail-bg: rgba(240, 231, 219, 0.92);
+  --study-rail-border: rgba(66, 82, 54, 0.12);
+  --study-rail-shadow: 0 8px 24px rgba(45, 52, 40, 0.12);
+  --study-rail-button-bg: rgba(66, 82, 54, 0.08);
+  --study-rail-button-bg-hover: rgba(66, 82, 54, 0.16);
+  --study-rail-button-active-bg: var(--gradient-primary);
+  --study-rail-button-active-text: #f0e7db;
+  --study-primary-control-bg: var(--gradient-primary);
+  --study-primary-control-bg-hover: linear-gradient(135deg, #4d6040 0%, #66785a 100%);
+  --study-primary-control-text: #f0e7db;
+  --search-highlight-text: #2e7a66;
+  --quick-panel-bg: rgba(240, 231, 219, 0.95);
+  --quick-panel-border: rgba(66, 82, 54, 0.1);
+  --quick-panel-shadow: var(--shadow-elevated);
 }
 
 /* Body — Soft parchment gradient */
@@ -198,19 +263,19 @@
 
 /* Ayah Cards — Pure soft parchment, no boxy feel */
 :root[data-theme="light"] .ayah-card {
-  background: rgba(240, 231, 219, 0.5);
+  background: var(--reader-card-bg);
   border: none;
   box-shadow: none;
   transition: background 0.2s ease;
 }
 
 :root[data-theme="light"] .ayah-card:hover {
-  background: rgba(240, 231, 219, 0.95);
-  box-shadow: 0 4px 24px rgba(45, 52, 40, 0.03);
+  background: var(--reader-card-bg-hover);
+  box-shadow: var(--reader-card-shadow-hover);
 }
 
 :root[data-theme="light"] .ayah-card.focused {
-  background: rgba(66, 82, 54, 0.06);
+  background: var(--reader-card-bg-focused);
 }
 
 :root[data-theme="light"] .audio-placeholder {
@@ -378,30 +443,30 @@
 }
 
 :root[data-theme="light"] .study-ayah-card {
-  background: rgba(240, 231, 219, 0.85);
+  background: var(--study-ayah-card-bg);
   border: none;
-  box-shadow: 0 2px 12px rgba(45, 52, 40, 0.04);
+  box-shadow: var(--study-ayah-card-shadow);
 }
 
 :root[data-theme="light"] .study-ayah-card:hover {
-  background: rgba(240, 231, 219, 0.95);
+  background: var(--study-ayah-card-bg-hover);
 }
 
 :root[data-theme="light"] .study-ayah-card.playing {
-  background: rgba(66, 82, 54, 0.06);
+  background: var(--study-ayah-card-playing-bg);
 }
 
 :root[data-theme="light"] .study-ayah-card.marked {
-  background: rgba(102, 122, 78, 0.16);
-  box-shadow: 0 2px 10px rgba(66, 82, 54, 0.08);
+  background: var(--study-ayah-card-marked-bg);
+  box-shadow: var(--study-ayah-card-marked-shadow);
 }
 
 :root[data-theme="light"] .study-ayah-card.marked:hover {
-  background: rgba(102, 122, 78, 0.2);
+  background: var(--study-ayah-card-marked-hover-bg);
 }
 
 :root[data-theme="light"] .study-ayah-card.marked.playing {
-  background: rgba(90, 110, 69, 0.22);
+  background: var(--study-ayah-card-marked-playing-bg);
 }
 
 :root[data-theme="light"] .study-ayah-number {
@@ -575,9 +640,9 @@
 
 /* Quick panel */
 :root[data-theme="light"] .quick-panel {
-  background: rgba(240, 231, 219, 0.95);
-  border: 1px solid rgba(66, 82, 54, 0.1);
-  box-shadow: var(--shadow-elevated);
+  background: var(--quick-panel-bg);
+  border: 1px solid var(--quick-panel-border);
+  box-shadow: var(--quick-panel-shadow);
   backdrop-filter: blur(20px) saturate(180%);
 }
 
@@ -601,25 +666,25 @@
 
 /* Study rail */
 :root[data-theme="light"] .study-rail {
-  background: rgba(240, 231, 219, 0.92);
-  border: 1px solid rgba(66, 82, 54, 0.12);
-  box-shadow: 0 8px 24px rgba(45, 52, 40, 0.12);
+  background: var(--study-rail-bg);
+  border: 1px solid var(--study-rail-border);
+  box-shadow: var(--study-rail-shadow);
   backdrop-filter: blur(18px) saturate(150%);
 }
 
 :root[data-theme="light"] .study-rail-btn {
-  background: rgba(66, 82, 54, 0.08);
+  background: var(--study-rail-button-bg);
   color: var(--muted);
 }
 
 :root[data-theme="light"] .study-rail-btn:hover {
-  background: rgba(66, 82, 54, 0.16);
+  background: var(--study-rail-button-bg-hover);
   color: var(--text);
 }
 
 :root[data-theme="light"] .study-rail-btn.active {
-  background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
-  color: #f0e7db;
+  background: var(--study-rail-button-active-bg);
+  color: var(--study-rail-button-active-text);
   box-shadow: 0 6px 16px rgba(66, 82, 54, 0.2);
 }
 
@@ -670,8 +735,8 @@
 }
 
 :root[data-theme="light"] .memorize-primary {
-  background: linear-gradient(135deg, #425236 0%, #5d6e50 100%);
-  color: #f0e7db;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
 @media (max-width: 768px) {
@@ -1074,22 +1139,22 @@
 
 /* Filled text buttons (Continue, etc.) */
 :root[data-theme="light"] .action-btn {
-  background: rgba(66, 82, 54, 0.06);
-  color: var(--accent);
+  background: var(--reader-action-bg);
+  color: var(--reader-action-text);
   border: none;
   font-weight: 500;
   transition: all 0.2s ease;
 }
 
 :root[data-theme="light"] .action-btn:hover {
-  background: rgba(66, 82, 54, 0.12);
+  background: var(--reader-action-bg-hover);
   transform: translateY(-1px);
   box-shadow: 0 2px 8px rgba(66, 82, 54, 0.08);
   /* Soft shadow on hover */
 }
 
 :root[data-theme="light"] .action-btn:active {
-  background: rgba(66, 82, 54, 0.15);
+  background: var(--reader-action-bg-active);
   transform: translateY(0);
   box-shadow: none;
 }

@@ -12,7 +12,7 @@ import type {
   SetState,
   StudySession
 } from "../lib/types";
-import type { ThemeName } from "./ThemeContext";
+import type { ThemeName } from "../lib/themes";
 
 type PreferencesContextValue = {
   readingPlan: ReadingPlan;

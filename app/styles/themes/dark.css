@@ -1,0 +1,178 @@
+/* =============================================
+   DARK THEME
+   Default dark Quran reading experience
+   ============================================= */
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg-deep: #0e1418;
+  --bg-mid: #141c22;
+  --bg-light: #1b242c;
+  --card: rgba(12, 16, 20, 0.72);
+  --card-strong: rgba(14, 19, 24, 0.92);
+
+  --text: #f2eee6;
+  --muted: #a8b0ba;
+
+  --accent: #d8b36a;
+  --accent-2: #6fd4b1;
+  --accent-contrast: #d8fff0;
+
+  --stroke: rgba(255, 255, 255, 0.1);
+  --compare-row-divider: rgba(255, 255, 255, 0.05);
+
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.4);
+  --shadow-card:
+    0 1px 3px rgba(0, 0, 0, 0.12),
+    0 4px 16px rgba(0, 0, 0, 0.16);
+  --shadow-elevated:
+    0 4px 12px rgba(0, 0, 0, 0.15),
+    0 16px 40px rgba(0, 0, 0, 0.25),
+    0 32px 64px rgba(0, 0, 0, 0.15);
+
+  --gradient-primary: linear-gradient(135deg, #2e6a5f 0%, #235a52 100%);
+
+  --reader-card-bg: rgba(255, 255, 255, 0.02);
+  --reader-card-bg-hover: rgba(255, 255, 255, 0.04);
+  --reader-card-bg-focused: rgba(111, 212, 177, 0.04);
+  --reader-card-bg-active: rgba(111, 212, 177, 0.06);
+  --reader-card-shadow-hover: none;
+  --reader-action-bg: rgba(255, 255, 255, 0.08);
+  --reader-action-bg-hover: rgba(255, 255, 255, 0.14);
+  --reader-action-bg-active: rgba(255, 255, 255, 0.18);
+  --reader-action-text: var(--text);
+  --reader-action-primary-bg: rgba(111, 212, 177, 0.15);
+  --reader-action-primary-bg-hover: rgba(111, 212, 177, 0.25);
+  --reader-action-primary-text: var(--accent-2);
+  --reader-action-danger-text: #f3a08b;
+  --reader-action-danger-bg-hover: rgba(243, 160, 139, 0.12);
+  --reader-control-stop-bg: rgba(255, 255, 255, 0.1);
+  --reader-control-stop-bg-hover: rgba(255, 255, 255, 0.15);
+  --reader-control-stop-text: var(--text);
+  --reader-control-play-bg: var(--gradient-primary);
+  --reader-control-play-bg-hover: linear-gradient(135deg, #347467 0%, #29635a 100%);
+  --reader-control-play-text: #f4fffb;
+  --control-danger-bg: rgba(248, 113, 113, 0.15);
+  --control-danger-bg-hover: rgba(248, 113, 113, 0.25);
+  --control-danger-text: #ffc9c9;
+  --field-bg: rgba(255, 255, 255, 0.06);
+  --field-bg-hover: rgba(255, 255, 255, 0.08);
+  --field-bg-focus: rgba(255, 255, 255, 0.1);
+  --focus-ring: 0 0 0 2px rgba(111, 212, 177, 0.2);
+  --segmented-active-bg: linear-gradient(135deg, rgba(111, 212, 177, 0.25), rgba(111, 212, 177, 0.15));
+  --segmented-active-text: #d8fff0;
+  --share-primary-bg: linear-gradient(135deg, #2e6a5f 0%, #1e5048 100%);
+  --share-primary-bg-hover: linear-gradient(135deg, #347467 0%, #235a52 100%);
+  --share-primary-text: #f4fffb;
+  --share-primary-shadow: 0 6px 18px rgba(46, 106, 95, 0.35);
+  --share-primary-shadow-hover: 0 8px 22px rgba(46, 106, 95, 0.45);
+
+  --study-ayah-card-bg: rgba(255, 255, 255, 0.02);
+  --study-ayah-card-bg-hover: rgba(255, 255, 255, 0.04);
+  --study-ayah-card-shadow: none;
+  --study-ayah-card-playing-bg: rgba(111, 212, 177, 0.06);
+  --study-ayah-card-marked-bg: rgba(111, 212, 177, 0.14);
+  --study-ayah-card-marked-hover-bg: rgba(111, 212, 177, 0.18);
+  --study-ayah-card-marked-playing-bg: rgba(111, 212, 177, 0.2);
+  --study-ayah-card-marked-shadow: none;
+  --study-word-hover-bg: rgba(111, 212, 177, 0.1);
+  --study-word-active-bg: rgba(205, 176, 124, 0.34);
+  --study-word-active-text: var(--text);
+  --study-rail-bg: rgba(18, 24, 30, 0.7);
+  --study-rail-border: rgba(255, 255, 255, 0.06);
+  --study-rail-shadow: none;
+  --study-rail-button-bg: rgba(255, 255, 255, 0.04);
+  --study-rail-button-bg-hover: rgba(255, 255, 255, 0.1);
+  --study-rail-button-active-bg: var(--gradient-primary);
+  --study-rail-button-active-text: #f4fffb;
+  --study-primary-control-bg: var(--gradient-primary);
+  --study-primary-control-bg-hover: linear-gradient(135deg, #347467 0%, #29635a 100%);
+  --study-primary-control-text: #f4fffb;
+  --quick-panel-bg: #0e1317;
+  --quick-panel-border: transparent;
+  --quick-panel-shadow: -20px 0 60px rgba(0, 0, 0, 0.3);
+
+  --mem-primary-text: #eef8f3;
+  --mem-error-bg: color-mix(in srgb, #ef4444 8%, transparent);
+  --mem-error-border: color-mix(in srgb, #ef4444 15%, transparent);
+  --mem-error-text: #f3a08b;
+  --mem-again-soft-text: #f3a08b;
+  --mem-again-bg: color-mix(in srgb, #ef4444 10%, transparent);
+  --mem-again-text: #ef4444;
+  --mem-again-hover-bg: color-mix(in srgb, #ef4444 16%, transparent);
+  --mem-again-hover-border: color-mix(in srgb, #ef4444 20%, transparent);
+
+  --toggle-switch-active-bg: linear-gradient(135deg, #3f8f79 0%, #6fd4b1 100%);
+  --toggle-switch-active-border: rgba(111, 212, 177, 0.55);
+  --toggle-switch-active-ring: rgba(111, 212, 177, 0.14);
+  --slider-track-fill-bg: linear-gradient(90deg, #58b998 0%, #6fd4b1 100%);
+  --reciter-check-icon-color: #0e1418;
+  --search-error-text: #f3a08b;
+  --search-highlight-text: var(--accent-2);
+
+  --notes-danger-bg: color-mix(in srgb, #f87171 10%, transparent);
+  --notes-danger-text: #f3a08b;
+  --notes-danger-hover-bg: color-mix(in srgb, #f87171 18%, transparent);
+  --notes-recording-text: #fca5a5;
+  --notes-recording-bg: color-mix(in srgb, #ef4444 18%, transparent);
+  --notes-recording-pulse-start: color-mix(in srgb, #ef4444 28%, transparent);
+  --notes-recording-pulse-end: color-mix(in srgb, #ef4444 0%, transparent);
+  --notes-audio-danger-bg: color-mix(in srgb, #f87171 8%, transparent);
+  --notes-audio-danger-border: color-mix(in srgb, #f87171 20%, transparent);
+  --notes-audio-danger-hover-bg: color-mix(in srgb, #f87171 14%, transparent);
+  --notes-audio-danger-hover-border: color-mix(in srgb, #f87171 28%, transparent);
+}
+
+/* Study mode shell */
+:root[data-theme="dark"] .app.reading {
+  background: linear-gradient(180deg, #050d10, #071014);
+}
+
+:root[data-theme="dark"] .study-mode-container {
+  background: linear-gradient(180deg, #0a0f12 0%, #050810 100%);
+}
+
+:root[data-theme="dark"] .study-ambient-bg {
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(111, 212, 177, 0.08), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(216, 179, 106, 0.05), transparent);
+}
+
+/* Root details modal */
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal {
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-lexicon-header h3,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-explorer-root,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-explorer-summary,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-explorer-stat strong,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-lex-html,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-lex-html strong,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-derivative-form,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-name,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-preview-text,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-chip,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-lex-entry {
+  color: #ffffff;
+}
+
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-lexicon-value,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-lex-note,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-total,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-preview-ref,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-preview-more,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-surah-chip.is-summary,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-lexicon-unavailable {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-lexicon-label,
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-lexicon-section h4 {
+  color: rgba(255, 255, 255, 0.68);
+}
+
+:root[data-theme="dark"] .study-lexicon-modal.root-explorer-modal .study-root-lex-entry.is-active {
+  color: #ffffff;
+}

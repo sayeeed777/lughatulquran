@@ -28,8 +28,8 @@
 }
 
 .audio-bar .play-surah-btn {
-  background: var(--gradient-primary);
-  color: #f4fffb;
+  background: var(--audio-bar-play-bg, var(--study-primary-control-bg, var(--reader-control-play-bg, var(--gradient-primary))));
+  color: var(--audio-bar-play-text, var(--study-primary-control-text, var(--reader-control-play-text)));
   border: none;
   padding: 10px 18px;
   border-radius: var(--radius-sm);
@@ -42,12 +42,12 @@
 }
 
 .audio-bar .play-surah-btn:hover {
-  background: linear-gradient(135deg, #347467 0%, #29635a 100%);
+  background: var(--audio-bar-play-bg-hover, var(--study-primary-control-bg-hover, var(--reader-control-play-bg-hover)));
 }
 
 .audio-bar .stop-btn {
-  background: rgba(248, 113, 113, 0.15);
-  color: #ffc9c9;
+  background: var(--control-danger-bg);
+  color: var(--control-danger-text);
   padding: 10px 18px;
   border-radius: var(--radius-sm);
   border: none;
@@ -60,7 +60,7 @@
 }
 
 .audio-bar .stop-btn:hover {
-  background: rgba(248, 113, 113, 0.25);
+  background: var(--control-danger-bg-hover);
 }
 
 .audio-bar .label {

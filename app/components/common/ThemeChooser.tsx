@@ -3,16 +3,7 @@
 import { memo, useEffect, useRef, useState } from "react";
 import { useTheme } from "../../contexts";
 import { PaletteIcon } from "./Icons";
-import type { ThemeName } from "../../contexts/ThemeContext";
-
-const THEMES: { id: ThemeName; label: string; colors: [string, string, string] }[] = [
-  { id: "dark", label: "Dark", colors: ["#0e1418", "#1b242c", "#6fd4b1"] },
-  { id: "light", label: "Parchment", colors: ["#e8ded1", "#f0e7db", "#425236"] },
-  { id: "bw", label: "Black & White", colors: ["#ffffff", "#f5f5f5", "#111111"] },
-  { id: "bw-dark", label: "Dark B&W", colors: ["#000000", "#111111", "#ffffff"] },
-  { id: "mist", label: "Mist", colors: ["#263d42", "#2a4247", "#8fb299"] },
-  { id: "sky", label: "Sky", colors: ["#b8d4e4", "#dbeaf2", "#1b6b80"] }
-];
+import { THEMES } from "../../lib/themes";
 
 function ThemeChooser() {
   const { theme, setTheme } = useTheme();
@@ -54,9 +45,9 @@ function ThemeChooser() {
               }}
             >
               <div className="theme-swatch" aria-hidden="true">
-                <div style={{ background: t.colors[0], flex: 1 }} />
-                <div style={{ background: t.colors[1], flex: 1 }} />
-                <div style={{ background: t.colors[2], flex: 0.4 }} />
+                <div style={{ background: t.swatch[0], flex: 1 }} />
+                <div style={{ background: t.swatch[1], flex: 1 }} />
+                <div style={{ background: t.swatch[2], flex: 0.4 }} />
               </div>
               <span className="theme-label">{t.label}</span>
               {theme === t.id && (

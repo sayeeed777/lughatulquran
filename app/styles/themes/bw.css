@@ -17,8 +17,10 @@
 
   --accent: #111111;
   --accent-2: #333333;
+  --accent-contrast: #111111;
 
   --stroke: rgba(0, 0, 0, 0.1);
+  --compare-row-divider: rgba(0, 0, 0, 0.08);
 
   --shadow:
     0 1px 3px rgba(0, 0, 0, 0.04),
@@ -34,6 +36,73 @@
     0 32px 64px rgba(0, 0, 0, 0.08);
 
   --gradient-primary: linear-gradient(135deg, #333 0%, #111 100%);
+
+  --reader-card-bg: rgba(250, 250, 250, 0.6);
+  --reader-card-bg-hover: rgba(245, 245, 245, 0.8);
+  --reader-card-bg-focused: rgba(0, 0, 0, 0.04);
+  --reader-card-bg-active: rgba(240, 240, 240, 0.8);
+  --reader-card-shadow-hover: none;
+  --reader-action-bg: rgba(0, 0, 0, 0.05);
+  --reader-action-bg-hover: rgba(0, 0, 0, 0.1);
+  --reader-action-bg-active: rgba(0, 0, 0, 0.12);
+  --reader-action-text: var(--text);
+  --reader-action-primary-bg: rgba(0, 0, 0, 0.1);
+  --reader-action-primary-bg-hover: rgba(0, 0, 0, 0.15);
+  --reader-action-primary-text: #111;
+  --reader-action-danger-text: #cc3333;
+  --reader-action-danger-bg-hover: rgba(204, 51, 51, 0.08);
+  --reader-control-stop-bg: rgba(0, 0, 0, 0.06);
+  --reader-control-stop-bg-hover: rgba(0, 0, 0, 0.1);
+  --reader-control-stop-text: #333;
+  --reader-control-play-bg: #111;
+  --reader-control-play-bg-hover: #000;
+  --reader-control-play-text: #fff;
+  --audio-bar-play-bg: rgba(0, 0, 0, 0.08);
+  --audio-bar-play-bg-hover: rgba(0, 0, 0, 0.12);
+  --audio-bar-play-text: #111;
+  --study-playback-active-text: #0f766e;
+  --study-playback-active-shadow: none;
+  --study-root-ayah-highlight-text: #0f766e;
+  --search-highlight-text: #0f766e;
+  --control-danger-bg: rgba(204, 51, 51, 0.08);
+  --control-danger-bg-hover: rgba(204, 51, 51, 0.12);
+  --control-danger-text: #cc3333;
+  --field-bg: rgba(0, 0, 0, 0.05);
+  --field-bg-hover: rgba(0, 0, 0, 0.08);
+  --field-bg-focus: #f5f5f5;
+  --focus-ring: 0 0 0 2px rgba(0, 0, 0, 0.15);
+  --segmented-active-bg: rgba(0, 0, 0, 0.12);
+  --segmented-active-text: #111;
+  --share-primary-bg: #111;
+  --share-primary-bg-hover: #000;
+  --share-primary-text: #fff;
+  --share-primary-shadow: none;
+  --share-primary-shadow-hover: none;
+
+  --study-ayah-card-bg: rgba(0, 0, 0, 0.03);
+  --study-ayah-card-bg-hover: rgba(0, 0, 0, 0.05);
+  --study-ayah-card-shadow: none;
+  --study-ayah-card-playing-bg: rgba(0, 0, 0, 0.06);
+  --study-ayah-card-marked-bg: rgba(0, 0, 0, 0.12);
+  --study-ayah-card-marked-hover-bg: rgba(0, 0, 0, 0.16);
+  --study-ayah-card-marked-playing-bg: rgba(0, 0, 0, 0.18);
+  --study-ayah-card-marked-shadow: none;
+  --study-word-hover-bg: rgba(0, 0, 0, 0.06);
+  --study-word-active-bg: rgba(0, 0, 0, 0.08);
+  --study-word-active-text: #111;
+  --study-rail-bg: rgba(255, 255, 255, 0.96);
+  --study-rail-border: rgba(0, 0, 0, 0.1);
+  --study-rail-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  --study-rail-button-bg: rgba(0, 0, 0, 0.05);
+  --study-rail-button-bg-hover: rgba(0, 0, 0, 0.1);
+  --study-rail-button-active-bg: #111;
+  --study-rail-button-active-text: #fff;
+  --study-primary-control-bg: #111;
+  --study-primary-control-bg-hover: #000;
+  --study-primary-control-text: #fff;
+  --quick-panel-bg: rgba(255, 255, 255, 0.96);
+  --quick-panel-border: rgba(0, 0, 0, 0.08);
+  --quick-panel-shadow: -20px 0 60px rgba(0, 0, 0, 0.12);
 }
 
 :root[data-theme="bw"] body {
@@ -130,22 +199,22 @@
 
 /* Ayah cards */
 :root[data-theme="bw"] .ayah-card {
-  background: rgba(250, 250, 250, 0.6);
+  background: var(--reader-card-bg);
   border-color: rgba(0, 0, 0, 0.06);
 }
 
 :root[data-theme="bw"] .ayah-card:hover {
-  background: rgba(245, 245, 245, 0.8);
+  background: var(--reader-card-bg-hover);
 }
 
 :root[data-theme="bw"] .ayah-card.active {
-  background: rgba(240, 240, 240, 0.8);
+  background: var(--reader-card-bg-active);
   border-color: rgba(0, 0, 0, 0.12);
 }
 
 :root[data-theme="bw"] .ayah-arabic-word.active,
 :root[data-theme="bw"] .study-ayah-word-trigger.playback-active {
-  color: #0f766e;
+  color: var(--study-playback-active-text);
   text-shadow: none;
 }
 
@@ -156,14 +225,14 @@
 
 /* Action buttons */
 :root[data-theme="bw"] .action-btn {
-  background: rgba(0, 0, 0, 0.05);
-  color: var(--text);
+  background: var(--reader-action-bg);
+  color: var(--reader-action-text);
   box-shadow: none;
   transform: none;
 }
 
 :root[data-theme="bw"] .action-btn:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--reader-action-bg-hover);
   box-shadow: none;
   transform: none;
 }
@@ -175,43 +244,43 @@
 
 :root[data-theme="bw"] .action-btn.saved,
 :root[data-theme="bw"] .action-btn--primary {
-  background: rgba(0, 0, 0, 0.08);
-  color: #111;
+  background: var(--reader-action-primary-bg);
+  color: var(--reader-action-primary-text);
 }
 
 :root[data-theme="bw"] .action-btn--primary:hover {
-  background: rgba(0, 0, 0, 0.14);
+  background: var(--reader-action-primary-bg-hover);
 }
 
 :root[data-theme="bw"] .action-btn--danger {
-  color: #cc3333;
+  color: var(--reader-action-danger-text);
 }
 
 :root[data-theme="bw"] .action-btn--danger:hover {
-  background: rgba(204, 51, 51, 0.08);
+  background: var(--reader-action-danger-bg-hover);
 }
 
 /* Quick controls stop/play buttons — flat for bw */
 :root[data-theme="bw"] .quick-controls-row .action-btn.stop-btn {
-  background: rgba(0, 0, 0, 0.06);
-  color: #333;
+  background: var(--reader-control-stop-bg);
+  color: var(--reader-control-stop-text);
   box-shadow: none;
   transform: none;
 }
 
 :root[data-theme="bw"] .quick-controls-row .action-btn.stop-btn:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--reader-control-stop-bg-hover);
 }
 
 :root[data-theme="bw"] .quick-controls-row .action-btn.play-btn {
-  background: rgba(0, 0, 0, 0.08);
-  color: #111;
+  background: var(--reader-control-play-bg);
+  color: var(--reader-control-play-text);
   box-shadow: none;
   transform: none;
 }
 
 :root[data-theme="bw"] .quick-controls-row .action-btn.play-btn:hover {
-  background: rgba(0, 0, 0, 0.12);
+  background: var(--reader-control-play-bg-hover);
 }
 
 /* Compare / note modals */
@@ -282,8 +351,9 @@
 
 /* Quick panel */
 :root[data-theme="bw"] .quick-panel {
-  background: rgba(255, 255, 255, 0.96);
-  border-color: rgba(0, 0, 0, 0.08);
+  background: var(--quick-panel-bg);
+  border-color: var(--quick-panel-border);
+  box-shadow: var(--quick-panel-shadow);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
 }
@@ -708,25 +778,25 @@
    ============================================= */
 
 :root[data-theme="bw"] .study-rail {
-  background: rgba(255, 255, 255, 0.96);
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  background: var(--study-rail-bg);
+  border: 1px solid var(--study-rail-border);
+  box-shadow: var(--study-rail-shadow);
   backdrop-filter: blur(18px) saturate(150%);
 }
 
 :root[data-theme="bw"] .study-rail-btn {
-  background: rgba(0, 0, 0, 0.05);
+  background: var(--study-rail-button-bg);
   color: #666;
 }
 
 :root[data-theme="bw"] .study-rail-btn:hover {
-  background: rgba(0, 0, 0, 0.1);
+  background: var(--study-rail-button-bg-hover);
   color: #111;
 }
 
 :root[data-theme="bw"] .study-rail-btn.active {
-  background: #111;
-  color: #fff;
+  background: var(--study-rail-button-active-bg);
+  color: var(--study-rail-button-active-text);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -934,7 +1004,7 @@
 }
 
 :root[data-theme="bw"] .study-root-ayah-highlight {
-  color: #0f766e;
+  color: var(--study-root-ayah-highlight-text);
 }
 
 :root[data-theme="bw"] .study-word-audio-icon,
@@ -954,19 +1024,19 @@
 
 /* Study Mode Ayah Card States - B&W theme */
 :root[data-theme="bw"] .study-ayah-card.playing {
-  background: rgba(0, 0, 0, 0.06) !important;
+  background: var(--study-ayah-card-playing-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked {
-  background: rgba(0, 0, 0, 0.12) !important;
+  background: var(--study-ayah-card-marked-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked:hover {
-  background: rgba(0, 0, 0, 0.16) !important;
+  background: var(--study-ayah-card-marked-hover-bg) !important;
 }
 
 :root[data-theme="bw"] .study-ayah-card.marked.playing {
-  background: rgba(0, 0, 0, 0.18) !important;
+  background: var(--study-ayah-card-marked-playing-bg) !important;
 }
 
 
@@ -1256,30 +1326,30 @@
 }
 
 /* =============================================
-   FIX: Override hardcoded teal/aqua colors
+   Theme token bridge for legacy hardcoded color escapes
    ============================================= */
 
-/* Play button in quick controls (reader.css leaks #f4fffb + teal gradient) */
+/* Play button in quick controls */
 :root[data-theme="bw"] .quick-controls-row .action-btn.play-btn {
-  background: #111;
-  color: #fff;
+  background: var(--reader-control-play-bg);
+  color: var(--reader-control-play-text);
 }
 
 :root[data-theme="bw"] .quick-controls-row .action-btn.play-btn:hover {
-  background: #000;
+  background: var(--reader-control-play-bg-hover);
 }
 
-/* Audio bar play button (audio.css leaks #f4fffb + teal gradient) */
+/* Audio bar play button */
 :root[data-theme="bw"] .audio-bar .play-surah-btn {
-  background: rgba(0, 0, 0, 0.08);
-  color: #111;
+  background: var(--audio-bar-play-bg);
+  color: var(--audio-bar-play-text);
 }
 
 :root[data-theme="bw"] .audio-bar .play-surah-btn:hover {
-  background: rgba(0, 0, 0, 0.12);
+  background: var(--audio-bar-play-bg-hover);
 }
 
-/* Audio bar stop button (audio.css leaks red tint) */
+/* Audio bar stop button */
 :root[data-theme="bw"] .quick-play .stop-btn {
   background: rgba(0, 0, 0, 0.06);
   color: #333;
@@ -1289,26 +1359,25 @@
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* Study control-btn.primary (study.css leaks #f4fffb + teal gradient) */
+/* Study primary controls */
 :root[data-theme="bw"] .control-btn.primary {
-  background: #111;
-  color: #fff;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
 :root[data-theme="bw"] .control-btn.primary:hover {
-  background: #000;
+  background: var(--study-primary-control-bg-hover);
 }
 
 /* Study rail active button — already overridden above */
 
-/* Memorize primary button (study.css leaks #f4fffb) */
 :root[data-theme="bw"] .memorize-primary {
-  background: #111;
-  color: #fff;
+  background: var(--study-primary-control-bg);
+  color: var(--study-primary-control-text);
 }
 
 /* =============================================
-   FIX: Consolidate error/danger colors to #cc3333
+   Error/danger colors
    ============================================= */
 
 :root[data-theme="bw"] .meta.error,
@@ -1322,15 +1391,15 @@
 }
 
 :root[data-theme="bw"] .action-btn--danger {
-  color: #cc3333;
+  color: var(--reader-action-danger-text);
 }
 
 :root[data-theme="bw"] .action-btn--danger:hover {
-  background: rgba(204, 51, 51, 0.08);
+  background: var(--reader-action-danger-bg-hover);
 }
 
 /* =============================================
-   FIX: Slider track background for B&W light
+   Slider track background for B&W light
    ============================================= */
 
 :root[data-theme="bw"] .quick-controls-row .quick-slider input[type="range"] {
@@ -1338,7 +1407,7 @@
 }
 
 /* =============================================
-   FIX: Tafsir edition chevron green circle
+   Tafsir edition chevron
    ============================================= */
 
 :root[data-theme="bw"] .tafsir-edition-chevron {
