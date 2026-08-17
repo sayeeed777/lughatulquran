@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import MemorizationSessionCard from "./MemorizationSessionCard";
 import useMemorizationSrs, { DEFAULT_MEMORIZATION_SETTINGS } from "./useMemorizationSrs";
-import type { MasteryBreakdown, SessionHistoryEntry } from "./useMemorizationSrs";
 import { useLocalStorage } from "../../hooks";
 import { SURAHS } from "../../data/surahs";
 import { fetchJSON } from "../../lib/apiClient";

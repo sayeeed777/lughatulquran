@@ -420,6 +420,7 @@ export function useHomeController() {
     playbackRate,
     fontScale,
     readingMode,
+    readerRepeatActive: Boolean(readerRepeat && readerRepeat.mode !== null),
     memorizeConfig,
     setMemorizeConfig,
     setIsAutoPlaying,

@@ -42,15 +42,16 @@ class FakeTransaction {
   constructor(private store: Map<string, unknown>) {}
 
   objectStore() {
-    const transaction = this;
+    const store = this.store;
+    const complete = () => this.complete();
 
     return {
       getAll() {
         const request = createRequest<unknown[]>();
         window.setTimeout(() => {
-          request.result = Array.from(transaction.store.values());
+          request.result = Array.from(store.values());
           request.onsuccess?.(new Event("success"));
-          transaction.complete();
+          complete();
         }, 0);
         return request as IDBRequest<unknown[]>;
       },
@@ -58,20 +59,20 @@ class FakeTransaction {
         const request = createRequest<IDBValidKey>();
         window.setTimeout(() => {
           const record = value as { id: string };
-          transaction.store.set(record.id, record);
+          store.set(record.id, record);
           request.result = record.id;
           request.onsuccess?.(new Event("success"));
-          transaction.complete();
+          complete();
         }, 0);
         return request as IDBRequest<IDBValidKey>;
       },
       delete(key: IDBValidKey) {
         const request = createRequest<undefined>();
         window.setTimeout(() => {
-          transaction.store.delete(String(key));
+          store.delete(String(key));
           request.result = undefined;
           request.onsuccess?.(new Event("success"));
-          transaction.complete();
+          complete();
         }, 0);
         return request as IDBRequest<undefined>;
       }

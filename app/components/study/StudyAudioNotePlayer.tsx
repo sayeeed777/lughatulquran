@@ -63,8 +63,9 @@ export default function StudyAudioNotePlayer({
   }, [audioSrc, fallbackDurationMs]);
 
   useEffect(() => {
+    const audio = audioRef.current;
     return () => {
-      audioRef.current?.pause();
+      audio?.pause();
     };
   }, []);
 

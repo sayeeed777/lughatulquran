@@ -443,6 +443,9 @@ export default function AudioPlayer({
       try {
         const chapterData = await fetchChapterAudioData(reciterId, currentNowPlaying.surah);
         if (!chapterData) return false;
+        // Repeat/memorization may have been enabled while chapter metadata was
+        // loading. Do not let the completed request replace the ayah audio.
+        if (memorizeActiveRef.current) return false;
 
         const currentAyahTiming = chapterData.byAyah.get(targetAyahNumber);
         if (!currentAyahTiming) return false;
@@ -496,7 +499,7 @@ export default function AudioPlayer({
         chapterSwitchingRef.current = false;
       }
     },
-    [fetchChapterAudioData, getChapterCacheKey, reciterId]
+    [emitWordTimingChange, fetchChapterAudioData, getChapterCacheKey, reciterId]
   );
 
   const getNextSrcFromCurrent = useCallback((currentSrc: string) => {
@@ -765,9 +768,27 @@ export default function AudioPlayer({
 
   useEffect(() => {
     if (!memorizeActive) return;
-    if (!chapterModeRef.current) return;
+
+    // Memorization and Reader repeat require an individual ayah file so the
+    // native `ended` event fires at the exact repeat boundary. Chapter mode
+    // uses one long surah file and therefore cannot repeat a single ayah.
     disableChapterMode();
-  }, [disableChapterMode, memorizeActive]);
+
+    const audio = audioRef.current;
+    if (!audio || !audioSrc) return;
+
+    pausedByMediaSessionRef.current = false;
+    retryCountRef.current = 0;
+    if (audio.src !== audioSrc) {
+      audio.src = audioSrc;
+      audio.load();
+    }
+    audio.playbackRate = playbackRateRef.current;
+
+    if (isAutoPlaying && !isAudioPaused && audio.paused) {
+      audio.play().catch(() => {});
+    }
+  }, [audioSrc, disableChapterMode, isAudioPaused, isAutoPlaying, memorizeActive]);
 
   // Primary autoplay strategy (Quran.com-like): use chapter stream + verse timestamps.
   // Keep ayah-by-ayah playback as fallback when no chapter recitation mapping exists.

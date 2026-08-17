@@ -164,6 +164,20 @@ const searchSurahStarts = (query: string): Array<LocalSearchResult & { score: nu
     .slice(0, 10);
 };
 
+const withoutSearchScore = (
+  result: LocalSearchResult & { score: number }
+): LocalSearchResult => ({
+  surah: result.surah,
+  ayah: result.ayah,
+  text: result.text,
+  translation: result.translation,
+  matchType: result.matchType,
+  matchLabel: result.matchLabel,
+  page: result.page,
+  juz: result.juz,
+  matchedRoot: result.matchedRoot
+});
+
 const findMatchedArabicRoot = (
   entry: SearchIndexEntry,
   normalized: string,
@@ -199,7 +213,7 @@ export const searchLocalQuran = (query: string, limit = LOCAL_MAX_RESULTS): Loca
   if (!normalized && !normalizedBuckwalter) return [];
 
   if (mode === "surah") {
-    return searchSurahStarts(value).map(({ score: _score, ...result }) => result);
+    return searchSurahStarts(value).map(withoutSearchScore);
   }
 
   const terms = normalized ? normalized.split(" ").filter(Boolean) : [];
@@ -323,7 +337,7 @@ export const searchLocalQuran = (query: string, limit = LOCAL_MAX_RESULTS): Loca
     const key = `${result.surah || 0}:${result.ayah || 0}:${result.matchType || ""}`;
     if (seen.has(key)) continue;
     seen.add(key);
-    deduped.push(result);
+    deduped.push(withoutSearchScore(result));
     if (deduped.length >= limit) break;
   }
 

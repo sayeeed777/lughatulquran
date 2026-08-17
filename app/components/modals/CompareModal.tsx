@@ -50,12 +50,11 @@ export default function CompareModal() {
   const [tafsirText, setTafsirText] = useState<string>("");
   const [tafsirLoading, setTafsirLoading] = useState(false);
   const [tafsirError, setTafsirError] = useState<string | null>(null);
+  const [loadedTafsirKey, setLoadedTafsirKey] = useState<string | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
-  const loadedTafsirKeyRef = useRef<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
   const activeTabRef = useRef<CompareTab>("translations");
-  activeTabRef.current = activeTab;
 
   const updateThumb = useCallback(() => {
     const el = scrollRef.current;
@@ -77,6 +76,10 @@ export default function CompareModal() {
   useEffect(() => {
     setActiveTab("translations");
   }, [selectedAyahNumber, selectedSurahNumber]);
+
+  useEffect(() => {
+    activeTabRef.current = activeTab;
+  }, [activeTab]);
 
   useEffect(() => {
     if (!isTafsirEditionLoaded) return;
@@ -128,7 +131,7 @@ export default function CompareModal() {
 
     const controller = new AbortController();
     const key = getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber);
-    if (loadedTafsirKeyRef.current === key) {
+    if (loadedTafsirKey === key) {
       setTafsirLoading(false);
       return;
     }
@@ -150,7 +153,7 @@ export default function CompareModal() {
         if (data.error) {
           throw new Error(data.error);
         }
-        loadedTafsirKeyRef.current = key;
+        setLoadedTafsirKey(key);
         setTafsirText(cleanTafsirText(data.text || ""));
       })
       .catch((err) => {
@@ -165,7 +168,14 @@ export default function CompareModal() {
     return () => {
       controller.abort();
     };
-  }, [activeTab, isTafsirEditionLoaded, selectedAyahNumber, selectedSurahNumber, tafsirEdition]);
+  }, [
+    activeTab,
+    isTafsirEditionLoaded,
+    loadedTafsirKey,
+    selectedAyahNumber,
+    selectedSurahNumber,
+    tafsirEdition
+  ]);
 
   useEffect(() => {
     if (
@@ -179,7 +189,7 @@ export default function CompareModal() {
 
     const controller = new AbortController();
     const key = getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber);
-    loadedTafsirKeyRef.current = null;
+    setLoadedTafsirKey(null);
     setTafsirText("");
     setTafsirError(null);
     setTafsirLoading(false);
@@ -195,7 +205,7 @@ export default function CompareModal() {
     })
       .then((data) => {
         if (controller.signal.aborted || data.error) return;
-        loadedTafsirKeyRef.current = key;
+        setLoadedTafsirKey(key);
         setTafsirText(cleanTafsirText(data.text || ""));
       })
       .catch(() => {
@@ -252,7 +262,7 @@ export default function CompareModal() {
     (
       activeTab === "tafseer" &&
       Boolean(currentTafsirKey) &&
-      loadedTafsirKeyRef.current !== currentTafsirKey &&
+      loadedTafsirKey !== currentTafsirKey &&
       !tafsirError
     );
 

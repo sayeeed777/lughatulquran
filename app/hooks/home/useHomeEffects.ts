@@ -22,6 +22,7 @@ type UseHomeEffectsParams = {
   playbackRate: number;
   fontScale: { arabic: number; translation: number };
   readingMode: boolean;
+  readerRepeatActive: boolean;
   memorizeConfig: MemorizeConfig;
   setMemorizeConfig: (value: MemorizeConfig | ((prev: MemorizeConfig) => MemorizeConfig)) => void;
   setIsAutoPlaying: (value: boolean) => void;
@@ -29,6 +30,16 @@ type UseHomeEffectsParams = {
   nowPlaying: NowPlaying | null;
   isAutoPlaying: boolean;
 };
+
+export const shouldStopStudyMemorization = ({
+  readingMode,
+  readerRepeatActive,
+  memorizeActive
+}: {
+  readingMode: boolean;
+  readerRepeatActive: boolean;
+  memorizeActive: boolean;
+}) => !readingMode && !readerRepeatActive && memorizeActive;
 
 export function useHomeEffects({
   surahs,
@@ -46,6 +57,7 @@ export function useHomeEffects({
   playbackRate,
   fontScale,
   readingMode,
+  readerRepeatActive,
   memorizeConfig,
   setMemorizeConfig,
   setIsAutoPlaying,
@@ -201,14 +213,25 @@ export function useHomeEffects({
     updateStudySession
   ]);
 
-  // Stop memorize when exiting study mode
+  // Stop Study Mode memorization when leaving Study Mode. Reader repeat shares
+  // the same loop state, so it must remain active in the normal reader.
   useEffect(() => {
-    if (readingMode) return;
-    if (!memorizeConfig.active) return;
+    if (!shouldStopStudyMemorization({
+      readingMode,
+      readerRepeatActive,
+      memorizeActive: memorizeConfig.active
+    })) return;
     setMemorizeConfig((prev) => ({ ...prev, active: false, remaining: 0 }));
     setIsAutoPlaying(false);
     setIsAudioPaused(false);
-  }, [readingMode, memorizeConfig.active, setMemorizeConfig, setIsAutoPlaying, setIsAudioPaused]);
+  }, [
+    readingMode,
+    readerRepeatActive,
+    memorizeConfig.active,
+    setMemorizeConfig,
+    setIsAutoPlaying,
+    setIsAudioPaused
+  ]);
 
   // Pending Scroll Logic
   useEffect(() => {
