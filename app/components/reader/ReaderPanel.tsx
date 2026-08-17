@@ -59,6 +59,7 @@ export default function ReaderPanel() {
     setShowWordByWord,
     showTransliteration,
     setShowTransliteration,
+    memorizeConfig,
     fontScale,
     setFontScale,
     prayerSettings,
@@ -71,6 +72,7 @@ export default function ReaderPanel() {
     isAutoPlaying,
     isAudioPaused,
     activeWordPosition,
+    readerRepeat,
     audioSrc,
     nextAudioSrc,
     reciterLabel,
@@ -86,7 +88,9 @@ export default function ReaderPanel() {
     handleStopAutoPlay: onStopAutoPlay,
     handleAudioEnded: onAudioEnded,
     handlePlayAyah: onPlay,
-    handleToggleAyah: onTogglePlay
+    handleToggleAyah: onTogglePlay,
+    handleCycleReaderRepeat: onCycleReaderRepeat,
+    handleSetReaderRepeat: onSetReaderRepeat
   } = useAudio();
   const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const {
@@ -497,6 +501,11 @@ export default function ReaderPanel() {
         surahPageEnd={surahPageEnd}
         showPlayerBar={false}
         onWordTimingChange={setActiveWordPosition}
+        memorizeActive={Boolean(memorizeConfig?.active)}
+        memorizeStartAyah={memorizeConfig?.startAyah}
+        memorizeEndAyah={memorizeConfig?.endAyah}
+        memorizeLoops={memorizeConfig?.loops}
+        memorizeRemaining={memorizeConfig?.remaining}
       />
 
       {activeError && <InlineError title="Reader unavailable" message={activeError} onRetry={onRetry} />}
@@ -542,6 +551,7 @@ export default function ReaderPanel() {
                     nowPlaying={nowPlaying}
                     activeWordPosition={activeWordPosition}
                     isAudioPaused={isAudioPaused}
+                    readerRepeat={readerRepeat}
                     showTransliteration={showTransliteration}
                     verseKey={key}
                     onFocus={setFocusedAyahKey}
@@ -552,6 +562,8 @@ export default function ReaderPanel() {
                     onCompare={onCompare}
                     onCopyLink={onCopyLink}
                     onShare={handleShare}
+                    onCycleRepeat={onCycleReaderRepeat}
+                    onSetRepeat={onSetReaderRepeat}
                     formatArabic={formatArabic}
                   />
                 );
@@ -602,6 +614,7 @@ export default function ReaderPanel() {
                         nowPlaying={nowPlaying}
                         activeWordPosition={activeWordPosition}
                         isAudioPaused={isAudioPaused}
+                        readerRepeat={readerRepeat}
                         words={words}
                         showWordByWord={showWordByWord}
                         showTransliteration={showTransliteration}
@@ -614,6 +627,8 @@ export default function ReaderPanel() {
                         onCompare={onCompare}
                         onCopyLink={onCopyLink}
                         onShare={handleShare}
+                        onCycleRepeat={onCycleReaderRepeat}
+                        onSetRepeat={onSetReaderRepeat}
                         formatArabic={formatArabic}
                       />
                     );

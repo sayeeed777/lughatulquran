@@ -26,7 +26,7 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
     : null;
 
   // Preload next verse while current plays for seamless background playback
-  const nextAudioSrc = audio.nowPlaying && audio.isAutoPlaying
+  const nextAudioSrc = audio.nowPlaying && audio.isAutoPlaying && audio.readerRepeat?.mode == null
     ? getAudioUrl(audio.selectedReciter.baseUrl, audio.nowPlaying.surah, audio.nowPlaying.ayah + 1)
     : null;
 
@@ -67,6 +67,7 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     isAutoPlaying={audio.isAutoPlaying}
                     isAudioPaused={audio.isAudioPaused}
                     activeWordPosition={audio.activeWordPosition}
+                    readerRepeat={audio.readerRepeat}
                     audioSrc={audioSrc}
                     nextAudioSrc={nextAudioSrc}
                     reciterLabel={audio.selectedReciter.label}
@@ -86,6 +87,8 @@ export default function HomeProviders({ children }: HomeProvidersProps) {
                     handleAudioEnded={audio.handleAudioEnded}
                     handlePlayAyah={audio.handlePlayAyah}
                     handleToggleAyah={audio.handleToggleAyah}
+                    handleCycleReaderRepeat={audio.handleCycleReaderRepeat}
+                    handleSetReaderRepeat={audio.handleSetReaderRepeat}
                   >
                     {children}
                   </AudioProvider>

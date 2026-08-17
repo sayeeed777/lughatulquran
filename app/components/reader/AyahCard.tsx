@@ -1,7 +1,8 @@
 "use client";
 
 import { Fragment, memo, useCallback, useEffect, useRef, useState } from "react";
-import type { Ayah, Word, NowPlaying } from "../../lib/types";
+import type { MouseEvent } from "react";
+import type { Ayah, Word, NowPlaying, ReaderRepeatMode, ReaderRepeatState } from "../../lib/types";
 import { normalizeQuranDisplayArabic } from "../../lib/utils";
 
 type AyahCardProps = {
@@ -14,6 +15,7 @@ type AyahCardProps = {
   nowPlaying?: NowPlaying | null;
   activeWordPosition?: number | null;
   isAudioPaused?: boolean;
+  readerRepeat?: ReaderRepeatState | null;
   words?: Word[];
   showWordByWord?: boolean;
   showTransliteration?: boolean;
@@ -26,6 +28,8 @@ type AyahCardProps = {
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
   onShare?: (ayah: Ayah, surahNumber: number) => void;
+  onCycleRepeat?: (surah: number, ayah: number) => void;
+  onSetRepeat?: (surah: number, ayah: number, mode: ReaderRepeatMode | null) => void;
   formatArabic: (text: string) => string;
 };
 
@@ -39,6 +43,7 @@ const AyahCard = memo(function AyahCard({
   nowPlaying,
   activeWordPosition,
   isAudioPaused,
+  readerRepeat,
   words = [],
   showWordByWord,
   showTransliteration = false,
@@ -50,6 +55,8 @@ const AyahCard = memo(function AyahCard({
   onOpenNote,
   onCompare,
   onShare,
+  onCycleRepeat,
+  onSetRepeat,
   formatArabic
 }: AyahCardProps) {
   // Support both array and single string for backwards compatibility
@@ -61,8 +68,14 @@ const AyahCard = memo(function AyahCard({
   const hasInteractiveWords = words.length > 0;
   const shouldSplitArabic = hasInteractiveWords;
   const formattedArabic = formatArabic(ayah.arabic || "");
+  const isRepeatTarget =
+    readerRepeat && readerRepeat.surah === surahNumber && readerRepeat.ayah === ayah.number;
+  const repeatLabel = isRepeatTarget && readerRepeat.mode !== null
+    ? readerRepeat.mode === 0 ? "∞" : `${readerRepeat.mode}x`
+    : null;
 
   const wordAudioRef = useRef<HTMLAudioElement | null>(null);
+  const repeatClickTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [tapPlayingPosition, setTapPlayingPosition] = useState<number | null>(null);
 
   const playWordAudio = useCallback((word: Word, position: number) => {
@@ -93,8 +106,32 @@ const AyahCard = memo(function AyahCard({
         wordAudioRef.current.src = "";
         wordAudioRef.current = null;
       }
+      if (repeatClickTimerRef.current) {
+        clearTimeout(repeatClickTimerRef.current);
+        repeatClickTimerRef.current = null;
+      }
     };
   }, []);
+
+  const handleRepeatClick = useCallback(
+    (event: MouseEvent<HTMLButtonElement>) => {
+      event.stopPropagation();
+      if (!onCycleRepeat) return;
+
+      if (repeatClickTimerRef.current) {
+        clearTimeout(repeatClickTimerRef.current);
+        repeatClickTimerRef.current = null;
+        onSetRepeat?.(surahNumber, ayah.number, 2);
+        return;
+      }
+
+      repeatClickTimerRef.current = setTimeout(() => {
+        repeatClickTimerRef.current = null;
+        onCycleRepeat(surahNumber, ayah.number);
+      }, 220);
+    },
+    [ayah.number, onCycleRepeat, onSetRepeat, surahNumber]
+  );
 
   // Translation label map
   const translationLabels: Record<string, string> = {
@@ -157,6 +194,50 @@ const AyahCard = memo(function AyahCard({
               </svg>
             )}
           </button>
+          {isRepeatTarget && onCycleRepeat && (
+            <button
+              className={`action-icon-btn memorize-icon reader-repeat-icon${repeatLabel ? " active" : ""}`}
+              onClick={handleRepeatClick}
+              aria-label={repeatLabel ? `Ayah repeat ${repeatLabel}` : "Set ayah repeat"}
+              title={repeatLabel ? `Ayah repeat ${repeatLabel}` : "Set ayah repeat"}
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M17 2l4 4-4 4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M3 12v-2a4 4 0 0 1 4-4h14"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M7 22l-4-4 4-4"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M21 14v2a4 4 0 0 1-4 4H3"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+              {repeatLabel ? <span className="reader-repeat-label">{repeatLabel}</span> : null}
+            </button>
+          )}
           <button
             className={`action-icon-btn${isSaved ? " saved" : ""}`}
             onClick={(e) => {

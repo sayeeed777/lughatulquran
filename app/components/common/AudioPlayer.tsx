@@ -561,7 +561,12 @@ export default function AudioPlayer({
             /\d{6}\.mp3(?:\?.*)?$/,
             `${pad(surah)}${pad(targetAyah)}.mp3`
           );
-          audio.src = targetSrc;
+          const currentSrc = audio.currentSrc || audio.src;
+          if (currentSrc === targetSrc) {
+            audio.currentTime = 0;
+          } else {
+            audio.src = targetSrc;
+          }
           audio.playbackRate = playbackRateRef.current;
           audio.play().catch(() => {});
         }

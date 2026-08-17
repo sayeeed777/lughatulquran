@@ -1589,6 +1589,35 @@ textarea:focus-visible {
   color: var(--accent-2);
 }
 
+.action-icon-btn.reader-repeat-icon {
+  position: relative;
+}
+
+.action-icon-btn.reader-repeat-icon.active {
+  background: var(--reader-action-bg-hover, color-mix(in srgb, var(--text) 8%, transparent));
+  color: var(--text);
+}
+
+.action-icon-btn.reader-repeat-icon.active svg {
+  opacity: 1;
+}
+
+.reader-repeat-label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: currentColor;
+  font-size: 0.34rem;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  text-shadow:
+    0 0 2px var(--reader-card-bg, var(--surface)),
+    0 0 4px var(--reader-card-bg, var(--surface));
+}
+
 @keyframes focusPulse {
   0% {
     box-shadow: 0 0 0 0 var(--accent-alpha-40);

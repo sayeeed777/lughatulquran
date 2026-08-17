@@ -53,6 +53,14 @@ export type NowPlaying = {
   ayah: number;
 };
 
+export type ReaderRepeatMode = 1 | 2 | 3 | 0;
+
+export type ReaderRepeatState = {
+  surah: number;
+  ayah: number;
+  mode: ReaderRepeatMode | null;
+};
+
 export type ChapterWordTiming = {
   position: number;
   fromMs: number;

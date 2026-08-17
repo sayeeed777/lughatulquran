@@ -2,7 +2,7 @@
 
 import { createContext, useContext, useMemo } from "react";
 import type { ReactNode } from "react";
-import type { NowPlaying, Reciter, SetState } from "../lib/types";
+import type { NowPlaying, ReaderRepeatMode, ReaderRepeatState, Reciter, SetState } from "../lib/types";
 
 type AudioContextValue = {
     // State
@@ -10,6 +10,7 @@ type AudioContextValue = {
     isAutoPlaying: boolean;
     isAudioPaused: boolean;
     activeWordPosition: number | null;
+    readerRepeat: ReaderRepeatState | null;
     audioSrc: string | null;
     nextAudioSrc: string | null;
     reciterLabel: string;
@@ -31,6 +32,8 @@ type AudioContextValue = {
     handleAudioEnded: () => void;
     handlePlayAyah: (surah: number, ayah: number) => void;
     handleToggleAyah: (surah: number, ayah: number) => void;
+    handleCycleReaderRepeat: (surah: number, ayah: number) => void;
+    handleSetReaderRepeat: (surah: number, ayah: number, mode: ReaderRepeatMode | null) => void;
 };
 
 const AudioContext = createContext<AudioContextValue | null>(null);
@@ -43,6 +46,7 @@ export function AudioProvider({ children, ...props }: AudioProviderProps) {
         isAutoPlaying: props.isAutoPlaying,
         isAudioPaused: props.isAudioPaused,
         activeWordPosition: props.activeWordPosition,
+        readerRepeat: props.readerRepeat,
         audioSrc: props.audioSrc,
         nextAudioSrc: props.nextAudioSrc,
         reciterLabel: props.reciterLabel,
@@ -62,14 +66,17 @@ export function AudioProvider({ children, ...props }: AudioProviderProps) {
         handleAudioEnded: props.handleAudioEnded,
         handlePlayAyah: props.handlePlayAyah,
         handleToggleAyah: props.handleToggleAyah,
+        handleCycleReaderRepeat: props.handleCycleReaderRepeat,
+        handleSetReaderRepeat: props.handleSetReaderRepeat,
     }), [
         props.nowPlaying, props.isAutoPlaying, props.isAudioPaused, props.activeWordPosition,
-        props.audioSrc, props.nextAudioSrc, props.reciterLabel,
+        props.readerRepeat, props.audioSrc, props.nextAudioSrc, props.reciterLabel,
         props.reciterBaseUrl, props.nowPlayingLabel, props.nowPlayingPage,
         props.surahPageStart, props.surahPageEnd, props.reciterId,
         props.setReciterId, props.selectedReciter, props.playbackRate,
         props.setPlaybackRate, props.setActiveWordPosition, props.handlePlaySurah, props.handleStopAutoPlay,
         props.handleAudioEnded, props.handlePlayAyah, props.handleToggleAyah,
+        props.handleCycleReaderRepeat, props.handleSetReaderRepeat,
     ]);
     return (
         <AudioContext.Provider value={value}>
