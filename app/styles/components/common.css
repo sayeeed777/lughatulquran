@@ -549,6 +549,13 @@
   letter-spacing: -0.005em;
 }
 
+.compare-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
 .compare-header-surah {
   color: var(--text);
 }
@@ -584,6 +591,35 @@
 
 .compare-close-icon:active {
   transform: scale(0.95);
+}
+
+.compare-nav-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, opacity 0.15s ease;
+}
+
+.compare-nav-icon:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+}
+
+.compare-nav-icon:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.compare-nav-icon:disabled {
+  opacity: 0.28;
+  cursor: default;
 }
 
 .compare-tabs {
@@ -626,13 +662,23 @@
 }
 
 .compare-tafsir-picker {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px;
+  flex: 0 0 auto;
+  padding: 0 2px 14px;
+  border-bottom: 1px solid var(--compare-row-divider);
+}
+
+.compare-tafsir-picker .compare-translation-label {
+  margin: 0;
+  white-space: nowrap;
 }
 
 .compare-tafsir-select {
   width: 100%;
+  min-width: 0;
   padding: 10px 12px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--stroke);
@@ -642,18 +688,99 @@
   cursor: pointer;
 }
 
-.compare-translation-text.compare-tafsir-text {
-  white-space: pre-wrap;
+.compare-tafsir-content {
+  width: 100%;
+  padding: 20px 2px 28px;
+}
+
+.compare-tafsir-text {
+  width: min(100%, 68ch);
+  margin-inline: auto;
+  color: var(--text);
+  opacity: 0.9;
+  font-size: calc(1rem * var(--translation-scale));
+  line-height: 1.82;
+  letter-spacing: normal;
+  overflow-wrap: anywhere;
+  text-align: start;
+}
+
+.compare-tafsir-text > p {
+  margin: 0;
+  line-height: inherit;
+  text-align: start;
+}
+
+.compare-tafsir-text > p + p {
+  margin-top: 1.15em;
+}
+
+.compare-tafsir-text > .compare-tafsir-quote {
+  width: min(100%, 48ch);
+  margin-inline: auto;
+  padding: 0.7em 1em;
+  border: 1px solid color-mix(in srgb, var(--accent-2) 18%, transparent);
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--accent-2) 6%, transparent);
+  color: var(--text);
+  font-family: var(--font-arabic-unicode, var(--font-arabic)), serif;
+  font-size: 1.08em;
   line-height: 2;
-  letter-spacing: 0.015em;
-  word-spacing: normal;
-  text-align: justify;
-  text-align-last: left;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  word-break: break-word;
-  padding-top: 6px;
-  opacity: 0.78;
+  text-align: center;
+}
+
+.compare-tafsir-message {
+  color: var(--muted);
+}
+
+.compare-tafsir-message.error {
+  color: var(--danger, #ef8b8b);
+}
+
+.compare-tafsir-loading {
+  display: grid;
+  gap: 12px;
+  padding-top: 4px;
+}
+
+.compare-tafsir-loading span {
+  display: block;
+  height: 0.9em;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  animation: compareTafsirPulse 1.4s ease-in-out infinite;
+}
+
+.compare-tafsir-loading span:nth-child(2) {
+  width: 92%;
+}
+
+.compare-tafsir-loading span:nth-child(3) {
+  width: 68%;
+}
+
+@keyframes compareTafsirPulse {
+  0%, 100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .compare-tafsir-loading span,
+  .compare-skeleton-label,
+  .compare-skeleton-line {
+    animation: none;
+    opacity: 0.7;
+  }
+}
+
+@media (hover: none), (pointer: coarse) {
+  .compare-row-copy {
+    opacity: 0.72;
+  }
 }
 
 .close-btn {
@@ -768,6 +895,45 @@
   border-bottom: none;
 }
 
+.compare-translation-status {
+  margin: 0;
+  padding: 18px 2px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.compare-translation-status.error {
+  color: var(--danger, #ef8b8b);
+}
+
+.compare-translation-skeleton {
+  display: grid;
+  gap: 10px;
+}
+
+.compare-skeleton-label,
+.compare-skeleton-line {
+  display: block;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--text) 10%, transparent);
+  animation: compareTafsirPulse 1.4s ease-in-out infinite;
+}
+
+.compare-skeleton-label {
+  width: 22%;
+  height: 0.65rem;
+}
+
+.compare-skeleton-line {
+  width: 100%;
+  height: 0.85rem;
+}
+
+.compare-skeleton-line.short {
+  width: 72%;
+}
+
 .compare-translation-label {
   font-size: 0.7rem;
   letter-spacing: 0.12em;
@@ -787,7 +953,7 @@
 }
 
 /* Dark-theme-only tweaks for the compare modal:
-   Both translation rows and tafseer body use a bluish-muted tone that's
+   Both translation rows and Tafsir body use a bluish-muted tone that's
    slightly lifted from --muted (#a8b0ba) so the glyphs feel crisper on
    the deep dark background while still staying gentle for long reading.
    Other themes (light/mist/sky/bw/bw-dark) keep the shared values above. */
@@ -796,7 +962,7 @@
   opacity: 1;
 }
 
-:root[data-theme="dark"] .compare-translation-text.compare-tafsir-text {
+:root[data-theme="dark"] .compare-tafsir-text {
   color: #bec6d0;
   opacity: 1;
 }

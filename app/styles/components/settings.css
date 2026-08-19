@@ -201,6 +201,42 @@
   gap: 6px;
 }
 
+.reader-preference-toggle {
+  gap: 16px;
+}
+
+.reader-preference-toggle .toggle-info {
+  min-width: 0;
+}
+
+.reader-preference-icon {
+  width: 28px;
+  height: 28px;
+  flex: 0 0 28px;
+  display: grid;
+  place-items: center;
+  color: var(--accent-2);
+  background: var(--accent-2-alpha-08);
+  border: 1px solid var(--accent-2-alpha-14);
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.reader-preference-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.reader-preference-description {
+  max-width: 310px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.45;
+}
+
 /* Select — solid input field */
 .settings-select {
   width: 100%;
@@ -418,17 +454,17 @@
 }
 
 .translation-item .translation-label {
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--accent-2);
+  letter-spacing: 0.02em;
+  color: var(--muted);
+  opacity: 0.86;
 }
 
 .ayah-translation.multi {
-  padding-left: 12px;
-  border-left: 2px solid var(--accent-2);
-  border-left-color: color-mix(in srgb, var(--accent-2) 40%, transparent);
+  padding-inline-start: 12px;
+  border-inline-start: 2px solid var(--accent-2);
+  border-inline-start-color: color-mix(in srgb, var(--accent-2) 40%, transparent);
 }
 
 /* Mobile optimizations for translation chips */

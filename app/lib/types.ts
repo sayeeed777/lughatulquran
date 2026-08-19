@@ -182,6 +182,7 @@ export type SettingsTabId = "display" | "audio" | "prayer";
 export type Word = {
   arabic: string;
   translation?: string;
+  transliteration?: string;
   audioUrl?: string;
   position?: number;
   lemma?: string;

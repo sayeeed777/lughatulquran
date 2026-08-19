@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import { SURAH_AYAH_COUNTS } from "../../lib/constants";
 import { isKnownTafsirEdition, isLocalTafsirEdition } from "../../lib/tafsirEditions";
+import { cleanTafsirText } from "../../lib/tafsirText";
 import { getAyahTranslation } from "../../lib/translationLoader";
 
 export const revalidate = 2592000;
@@ -20,14 +21,6 @@ type TafsirResponse = {
 
 type TafsirSurahResponse = {
   ayahs?: Array<{ ayah?: number; text?: string }>;
-};
-
-const cleanTafsirText = (input: string) => {
-  let text = input;
-  text = text.replace(/(\p{L})\uFFFD(\p{L})/gu, "$1$2");
-  text = text.replace(/\uFFFD+/gu, " ");
-  text = text.replace(/\s+/g, " ").trim();
-  return text;
 };
 
 const fetchJson = async (url: string) => {

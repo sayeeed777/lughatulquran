@@ -28,6 +28,7 @@ type AyahCardProps = {
   onCompare: (ayah: Ayah) => void;
   onCopyLink?: (surah: number, ayah: number) => void;
   onShare?: (ayah: Ayah, surahNumber: number) => void;
+  onWordSelect?: (word: Word, ayahNumber: number, wordIndex: number) => void;
   onCycleRepeat?: (surah: number, ayah: number) => void;
   onSetRepeat?: (surah: number, ayah: number, mode: ReaderRepeatMode | null) => void;
   formatArabic: (text: string) => string;
@@ -55,6 +56,7 @@ const AyahCard = memo(function AyahCard({
   onOpenNote,
   onCompare,
   onShare,
+  onWordSelect,
   onCycleRepeat,
   onSetRepeat,
   formatArabic
@@ -157,16 +159,17 @@ const AyahCard = memo(function AyahCard({
   };
 
   return (
-    <li
-      id={`ayah-${ayah.number}`}
-      className={`ayah-card${isFocused ? " focused" : ""}`}
-      tabIndex={0}
-      onClick={() => {
-        onFocus(key);
-        onPlay(surahNumber, ayah.number);
-      }}
-      onFocus={() => onFocus(key)}
-    >
+    <>
+      <li
+        id={`ayah-${ayah.number}`}
+        className={`ayah-card${isFocused ? " focused" : ""}`}
+        tabIndex={0}
+        onClick={() => {
+          onFocus(key);
+          onPlay(surahNumber, ayah.number);
+        }}
+        onFocus={() => onFocus(key)}
+      >
       <div className="ayah-header">
         <span className="ayah-number">Ayah {ayah.number}</span>
         <div className="ayah-actions">
@@ -332,9 +335,13 @@ const AyahCard = memo(function AyahCard({
                   className={`ayah-arabic-word${isActiveWord ? " active" : ""}${isTapActive ? " tap-playing" : ""}`}
                   onClick={(e) => {
                     e.stopPropagation();
-                    playWordAudio(word, position);
+                    if (onWordSelect) {
+                      onWordSelect(word, ayah.number, wordIndex);
+                    } else {
+                      playWordAudio(word, position);
+                    }
                   }}
-                  aria-label={`Play word ${position}`}
+                  aria-label={onWordSelect ? `Open details for ${word.translation || `word ${position}`}` : `Play word ${position}`}
                 >
                   {normalizeQuranDisplayArabic(word.arabic)}
                 </button>
@@ -360,11 +367,9 @@ const AyahCard = memo(function AyahCard({
           const translation = ayah.translations?.[translationId];
           return (
             <div key={translationId} className="translation-item">
-              {translationIds.length > 1 && (
-                <span className="translation-label">
-                  {translationLabels[translationId] || translationId}
-                </span>
-              )}
+              <span className="translation-label">
+                {translationLabels[translationId] || translationId}
+              </span>
               <p dir="auto" className={`ayah-translation${translationIds.length > 1 ? " multi" : ""}`}>
                 {translation?.text || "Translation unavailable."}
               </p>
@@ -372,19 +377,32 @@ const AyahCard = memo(function AyahCard({
           );
         })}
       </div>
-      {showWordByWord && words.length > 0 && (
-        <div className="word-row">
-          {words.map((word, wordIndex) => (
-            <div className="word-chip" key={`${key}-${wordIndex}`}>
-              <span className="word-ar" lang="ar" dir="rtl">
-                {normalizeQuranDisplayArabic(word.arabic)}
-              </span>
-              {word.translation && <span className="word-en">{word.translation}</span>}
-            </div>
-          ))}
-        </div>
-      )}
-    </li>
+        {showWordByWord && words.length > 0 && (
+          <div className="word-row">
+            {words.map((word, wordIndex) => {
+              const position = Number(word.position) || wordIndex + 1;
+              return (
+                <button
+                  type="button"
+                  className="word-chip"
+                  key={`${key}-${wordIndex}`}
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    playWordAudio(word, position);
+                  }}
+                  aria-label={`Play ${word.translation || `word ${position}`}`}
+                >
+                  <span className="word-ar" lang="ar" dir="rtl">
+                    {normalizeQuranDisplayArabic(word.arabic)}
+                  </span>
+                  {word.translation && <span className="word-en">{word.translation}</span>}
+                </button>
+              );
+            })}
+          </div>
+        )}
+      </li>
+    </>
   );
 });
 

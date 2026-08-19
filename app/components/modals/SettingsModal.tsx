@@ -33,6 +33,10 @@ type SettingsModalProps = {
   translations: Option[];
   selectedTranslations?: string[];
   setSelectedTranslations: Dispatch<SetStateAction<string[]>>;
+  showWordByWord: boolean;
+  setShowWordByWord: Dispatch<SetStateAction<boolean>>;
+  showRootDetails: boolean;
+  setShowRootDetails: Dispatch<SetStateAction<boolean>>;
   showTransliteration: boolean;
   setShowTransliteration: Dispatch<SetStateAction<boolean>>;
   fontScale: FontScale;
@@ -63,6 +67,10 @@ function SettingsModal({
   translations,
   selectedTranslations = ["en-arberry"],
   setSelectedTranslations,
+  showWordByWord,
+  setShowWordByWord,
+  showRootDetails,
+  setShowRootDetails,
   showTransliteration,
   setShowTransliteration,
   // Font Scale
@@ -273,6 +281,50 @@ function SettingsModal({
                     className="settings-tab-content"
                   >
                     <SettingsSection title="Reading" delay={0}>
+                      <label className="study-premium-toggle reader-preference-toggle">
+                        <span className="toggle-info">
+                          <span className="toggle-icon reader-preference-icon" aria-hidden="true">
+                            W
+                          </span>
+                          <span className="reader-preference-copy">
+                            <span className="toggle-label">Word-by-word meanings</span>
+                            <span className="reader-preference-description">
+                              Show Arabic-English word chips below each ayah. Tap a chip to hear it. Shortcut: W
+                            </span>
+                          </span>
+                        </span>
+                        <span className={`toggle-switch ${showWordByWord ? "active" : ""}`}>
+                          <input
+                            type="checkbox"
+                            checked={showWordByWord}
+                            onChange={(event) => setShowWordByWord(event.target.checked)}
+                            aria-label="Show word-by-word meanings in Reader"
+                          />
+                          <span className="toggle-slider" aria-hidden="true" />
+                        </span>
+                      </label>
+                      <label className="study-premium-toggle reader-preference-toggle">
+                        <span className="toggle-info">
+                          <span className="toggle-icon reader-preference-icon" aria-hidden="true">
+                            ج
+                          </span>
+                          <span className="reader-preference-copy">
+                            <span className="toggle-label">Root details</span>
+                            <span className="reader-preference-description">
+                              Tap a word in the main Arabic ayah to open its meaning, root, and lexicon.
+                            </span>
+                          </span>
+                        </span>
+                        <span className={`toggle-switch ${showRootDetails ? "active" : ""}`}>
+                          <input
+                            type="checkbox"
+                            checked={showRootDetails}
+                            onChange={(event) => setShowRootDetails(event.target.checked)}
+                            aria-label="Open root details when tapping Arabic words"
+                          />
+                          <span className="toggle-slider" aria-hidden="true" />
+                        </span>
+                      </label>
                       <label className="study-premium-toggle">
                         <span className="toggle-info">
                           <span className="toggle-icon" aria-hidden="true">

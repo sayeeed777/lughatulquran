@@ -2,12 +2,23 @@
 
 import { ALL_TRANSLATIONS } from "../../lib/constants";
 import { fetchJSON } from "../../lib/apiClient";
-import { normalizeQuranDisplayArabic } from "../../lib/utils";
+import {
+  cleanTafsirText,
+  getTafsirParagraphDirection,
+  splitTafsirParagraphs
+} from "../../lib/tafsirText";
+import { normalizeQuranDisplayArabic, verseKey } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
 import { useLocalStorage } from "../../hooks";
 import { useEffect, useState, useRef, useCallback } from "react";
 import { TAFSIR_EDITIONS } from "../study/StudyModeHelpers";
-import { CloseIcon, CopyIcon, CheckIcon } from "../common/Icons";
+import {
+  CheckIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  CloseIcon,
+  CopyIcon
+} from "../common/Icons";
 
 type CompareAllPayload = {
   translations?: Record<string, { text?: string }>;
@@ -18,22 +29,19 @@ type TafsirPayload = {
   error?: string;
 };
 
-type CompareTab = "translations" | "tafseer";
+type CompareTab = "translations" | "tafsir";
 
 const TAFSIR_CACHE_TTL = 30 * 24 * 60 * 60 * 1000;
 
 const getTafsirCacheKey = (edition: string, surah: number, ayah: number) =>
-  `tafsir:v2:${edition}:${surah}:${ayah}`;
+  `tafsir:v3:${edition}:${surah}:${ayah}`;
 
 const getTafsirUrl = (edition: string, surah: number, ayah: number) =>
   `/api/tafsir?edition=${encodeURIComponent(edition)}&surah=${surah}&ayah=${ayah}`;
 
-const cleanTafsirText = (text: string) =>
-  text.replace(/\uFFFD+/gu, " ").replace(/\s+/g, " ").trim();
-
 export default function CompareModal() {
-  const { selectedSurah } = useQuranData();
-  const { selectedAyah, setSelectedAyah } = useUIState();
+  const { selectedSurah, surahData } = useQuranData();
+  const { selectedAyah, setSelectedAyah, setFocusedAyahKey } = useUIState();
   const onClose = useCallback(() => setSelectedAyah(null), [setSelectedAyah]);
   const selectedSurahNumber = selectedSurah?.number;
   const selectedAyahNumber = selectedAyah?.number;
@@ -72,10 +80,6 @@ export default function CompareModal() {
     thumb.style.transform = `translateY(${scrollRatio * maxTop}px)`;
     thumb.style.opacity = "1";
   }, []);
-
-  useEffect(() => {
-    setActiveTab("translations");
-  }, [selectedAyahNumber, selectedSurahNumber]);
 
   useEffect(() => {
     activeTabRef.current = activeTab;
@@ -121,7 +125,7 @@ export default function CompareModal() {
 
   useEffect(() => {
     if (
-      activeTab !== "tafseer" ||
+      activeTab !== "tafsir" ||
       !isTafsirEditionLoaded ||
       !selectedAyahNumber ||
       !selectedSurahNumber
@@ -179,7 +183,7 @@ export default function CompareModal() {
 
   useEffect(() => {
     if (
-      activeTabRef.current === "tafseer" ||
+      activeTabRef.current === "tafsir" ||
       !isTafsirEditionLoaded ||
       !selectedAyahNumber ||
       !selectedSurahNumber
@@ -209,7 +213,7 @@ export default function CompareModal() {
         setTafsirText(cleanTafsirText(data.text || ""));
       })
       .catch(() => {
-        // Prefetch is best-effort; the visible Tafseer tab fetch reports errors.
+        // Prefetch is best-effort; the visible Tafsir tab fetch reports errors.
       });
 
     return () => {
@@ -240,7 +244,7 @@ export default function CompareModal() {
       } else if (e.key === "ArrowLeft") {
         setActiveTab("translations");
       } else if (e.key === "ArrowRight") {
-        setActiveTab("tafseer");
+        setActiveTab("tafsir");
       }
     };
     window.addEventListener("keydown", onKey);
@@ -253,6 +257,17 @@ export default function CompareModal() {
 
   const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const allTranslations = payload?.translations || {};
+  const availableTranslations = ALL_TRANSLATIONS.filter(
+    (translation) =>
+      Boolean(allTranslations?.[translation.id]?.text) ||
+      Boolean(selectedAyah.translations?.[translation.id]?.text)
+  );
+  const selectedTafsirEdition =
+    TAFSIR_EDITIONS.find((edition) => edition.id === tafsirEdition) || TAFSIR_EDITIONS[0];
+  const tafsirParagraphs = splitTafsirParagraphs(tafsirText);
+  const surahAyahs = surahData?.ayahs || [];
+  const previousAyah = surahAyahs.find((ayah) => ayah.number === selectedAyah.number - 1);
+  const nextAyah = surahAyahs.find((ayah) => ayah.number === selectedAyah.number + 1);
   const currentTafsirKey =
     selectedSurahNumber && selectedAyahNumber
       ? getTafsirCacheKey(tafsirEdition, selectedSurahNumber, selectedAyahNumber)
@@ -260,7 +275,7 @@ export default function CompareModal() {
   const showTafsirLoading =
     tafsirLoading ||
     (
-      activeTab === "tafseer" &&
+      activeTab === "tafsir" &&
       Boolean(currentTafsirKey) &&
       loadedTafsirKey !== currentTafsirKey &&
       !tafsirError
@@ -305,6 +320,15 @@ export default function CompareModal() {
     }
   };
 
+  const navigateToAyah = (ayah: typeof selectedAyah | undefined) => {
+    if (!ayah) return;
+    setSelectedAyah(ayah);
+    setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
+    if (scrollRef.current) {
+      scrollRef.current.scrollTop = 0;
+    }
+  };
+
   return (
     <div className="compare-overlay" onClick={onClose}>
       <div
@@ -319,14 +343,36 @@ export default function CompareModal() {
             <span className="compare-header-surah">{selectedSurah.englishName}</span>
             <span className="compare-header-ayah">Ayah {selectedAyah.number}</span>
           </h3>
-          <button
-            className="compare-close-icon"
-            onClick={onClose}
-            aria-label="Close"
-            type="button"
-          >
-            <CloseIcon size={18} />
-          </button>
+          <div className="compare-header-actions">
+            <button
+              className="compare-nav-icon"
+              onClick={() => navigateToAyah(previousAyah)}
+              aria-label="Previous ayah"
+              title="Previous ayah"
+              type="button"
+              disabled={!previousAyah}
+            >
+              <ChevronLeftIcon size={18} />
+            </button>
+            <button
+              className="compare-nav-icon"
+              onClick={() => navigateToAyah(nextAyah)}
+              aria-label="Next ayah"
+              title="Next ayah"
+              type="button"
+              disabled={!nextAyah}
+            >
+              <ChevronRightIcon size={18} />
+            </button>
+            <button
+              className="compare-close-icon"
+              onClick={onClose}
+              aria-label="Close"
+              type="button"
+            >
+              <CloseIcon size={18} />
+            </button>
+          </div>
         </div>
         <div className="compare-arabic-hero compare-arabic-hero--desktop">
           <p className="ayah-arabic" lang="ar" dir="rtl">
@@ -344,14 +390,33 @@ export default function CompareModal() {
           </button>
           <button
             role="tab"
-            aria-selected={activeTab === "tafseer"}
-            className={`compare-tab${activeTab === "tafseer" ? " active" : ""}`}
-            onClick={() => setActiveTab("tafseer")}
+            aria-selected={activeTab === "tafsir"}
+            className={`compare-tab${activeTab === "tafsir" ? " active" : ""}`}
+            onClick={() => setActiveTab("tafsir")}
           >
-            Tafseer
+            Tafsir
           </button>
         </div>
         <div className="compare-scroll-wrap">
+          {activeTab === "tafsir" && (
+            <div className="compare-tafsir-picker">
+              <label className="compare-translation-label" htmlFor="compare-tafsir-edition">
+                Tafsir edition
+              </label>
+              <select
+                id="compare-tafsir-edition"
+                className="compare-tafsir-select"
+                value={tafsirEdition}
+                onChange={(event) => setTafsirEdition(event.target.value)}
+              >
+                {TAFSIR_EDITIONS.map((edition) => (
+                  <option key={edition.id} value={edition.id}>
+                    {edition.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
           <div className="compare-body" ref={scrollRef}>
             <div className="compare-arabic-hero compare-arabic-hero--mobile">
               <p className="ayah-arabic" lang="ar" dir="rtl">
@@ -359,69 +424,93 @@ export default function CompareModal() {
               </p>
             </div>
             {activeTab === "translations" ? (
-              <div className="compare-translations-list">
+              <div className="compare-translations-list" aria-busy={loading}>
                 {error && (
-                  <div className="compare-translation-row">
-                    <p className="compare-translation-label">Compare mode</p>
-                    <p className="compare-translation-text">{error}</p>
-                  </div>
+                  <p className="compare-translation-status error" role="alert">
+                    {error}
+                  </p>
                 )}
-                {ALL_TRANSLATIONS.map((translation) => {
-                  const translationText =
-                    allTranslations?.[translation.id]?.text
-                    || selectedAyah.translations?.[translation.id]?.text;
-                  const canCopy = Boolean(translationText);
-                  const isCopied = copiedId === translation.id;
+                {loading ? (
+                  <div className="compare-translation-loading" role="status" aria-label="Loading translations">
+                    {Array.from({ length: 5 }, (_, index) => (
+                      <div key={index} className="compare-translation-row compare-translation-skeleton">
+                        <span className="compare-skeleton-label" />
+                        <span className="compare-skeleton-line" />
+                        <span className="compare-skeleton-line short" />
+                      </div>
+                    ))}
+                  </div>
+                ) : availableTranslations.length > 0 ? (
+                  availableTranslations.map((translation) => {
+                    const translationText =
+                      allTranslations?.[translation.id]?.text ||
+                      selectedAyah.translations?.[translation.id]?.text ||
+                      "";
+                    const isCopied = copiedId === translation.id;
 
-                  return (
-                    <div key={translation.id} className="compare-translation-row">
-                      <p className="compare-translation-label">{translation.label}</p>
-                      <p dir="auto" className="compare-translation-text">
-                        {translationText || (loading ? "Loading..." : "Translation unavailable.")}
-                      </p>
-                      {canCopy && (
+                    return (
+                      <div key={translation.id} className="compare-translation-row">
+                        <p className="compare-translation-label">{translation.label}</p>
+                        <p dir="auto" className="compare-translation-text">
+                          {translationText}
+                        </p>
                         <button
                           type="button"
                           className={`compare-row-copy${isCopied ? " is-copied" : ""}`}
-                          onClick={() => copyToClipboard(translation.id, translationText!)}
-                          aria-label={isCopied ? "Copied" : "Copy translation"}
+                          onClick={() => copyToClipboard(translation.id, translationText)}
+                          aria-label={isCopied ? "Copied" : `Copy ${translation.label} translation`}
                           title={isCopied ? "Copied" : "Copy"}
                         >
                           {isCopied ? <CheckIcon size={14} /> : <CopyIcon size={14} />}
                         </button>
-                      )}
-                    </div>
-                  );
-                })}
+                      </div>
+                    );
+                  })
+                ) : !error ? (
+                  <p className="compare-translation-status">No translations are available for this ayah.</p>
+                ) : null}
               </div>
             ) : (
-              <div className="compare-translations-list">
-                <div className="compare-translation-row compare-tafsir-picker">
-                  <label className="compare-translation-label" htmlFor="compare-tafsir-edition">
-                    Tafseer Edition
-                  </label>
-                  <select
-                    id="compare-tafsir-edition"
-                    className="compare-tafsir-select"
-                    value={tafsirEdition}
-                    onChange={(e) => setTafsirEdition(e.target.value)}
-                  >
-                    {TAFSIR_EDITIONS.map((edition) => (
-                      <option key={edition.id} value={edition.id}>
-                        {edition.label}
-                      </option>
-                    ))}
-                  </select>
-                </div>
-                <div className="compare-translation-row">
-                  <div className="compare-translation-text compare-tafsir-text">
-                    {showTafsirLoading
-                      ? "Loading tafseer..."
-                      : tafsirError
-                        ? tafsirError
-                        : tafsirText || "No tafseer available for this ayah."}
-                  </div>
-                </div>
+              <div className="compare-tafsir-content">
+                <article
+                  className="compare-tafsir-text"
+                  lang={selectedTafsirEdition.language}
+                  dir={selectedTafsirEdition.direction}
+                  aria-busy={showTafsirLoading}
+                >
+                  {showTafsirLoading ? (
+                    <div className="compare-tafsir-loading" role="status" aria-label="Loading Tafsir">
+                      <span />
+                      <span />
+                      <span />
+                    </div>
+                  ) : tafsirError ? (
+                    <p className="compare-tafsir-message error" role="alert">
+                      {tafsirError}
+                    </p>
+                  ) : tafsirParagraphs.length > 0 ? (
+                    tafsirParagraphs.map((paragraph, index) => {
+                      const direction = getTafsirParagraphDirection(
+                        paragraph,
+                        selectedTafsirEdition.direction
+                      );
+                      const isArabicQuote =
+                        selectedTafsirEdition.direction === "ltr" && direction === "rtl";
+
+                      return (
+                        <p
+                          key={`${tafsirEdition}-${index}`}
+                          className={isArabicQuote ? "compare-tafsir-quote" : undefined}
+                          dir={direction}
+                        >
+                          {paragraph}
+                        </p>
+                      );
+                    })
+                  ) : (
+                    <p className="compare-tafsir-message">No Tafsir is available for this ayah.</p>
+                  )}
+                </article>
               </div>
             )}
           </div>

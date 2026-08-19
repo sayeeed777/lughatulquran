@@ -208,6 +208,7 @@ export default function useWordLexicon({
         position,
         arabic: word.arabic,
         translation: word.translation,
+        transliteration: word.transliteration,
         audioUrl: word.audioUrl,
         lemma: word.lemma,
         root: word.root,

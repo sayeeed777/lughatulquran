@@ -137,6 +137,10 @@ export function useHomeController() {
     selectedReciter,
     arabicFontId,
     setArabicFontId,
+    showWordByWord,
+    setShowWordByWord,
+    showRootDetails,
+    setShowRootDetails,
     showTransliteration,
     setShowTransliteration,
     showStudyTransliteration,
@@ -227,7 +231,6 @@ export function useHomeController() {
   // UI State
   const [selectedAyah, setSelectedAyah] = useState<Ayah | null>(null);
   const [goToAyahInput, setGoToAyahInput] = useState("");
-  const [showWordByWord, setShowWordByWord] = useState(false);
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
   const [readingMode, setReadingMode] = useState(false);
   const [showShortcuts, setShowShortcuts] = useState(false);
@@ -393,7 +396,7 @@ export function useHomeController() {
     refetch: refetchWordByWord
   } = useWordByWord(
     selectedSurah?.number,
-    showWordByWord || readingMode || Boolean(nowPlaying && selectedSurah?.number === nowPlaying.surah)
+    showWordByWord || showRootDetails || readingMode || Boolean(nowPlaying && selectedSurah?.number === nowPlaying.surah)
   );
   // Plan Summary
   const { planSummary, formatRangeLabel } = useHomePlan(
@@ -536,7 +539,7 @@ export function useHomeController() {
     refetchSurahs();
     if (selectedSurah?.number) {
       refetchSurahDetails();
-      if (showWordByWord || readingMode) {
+      if (showWordByWord || showRootDetails || readingMode) {
         refetchWordByWord(selectedSurah.number);
       }
     }
@@ -546,6 +549,7 @@ export function useHomeController() {
     refetchWordByWord,
     selectedSurah?.number,
     showWordByWord,
+    showRootDetails,
     readingMode
   ]);
 
@@ -635,6 +639,8 @@ export function useHomeController() {
       setSelectedTranslations,
       showWordByWord,
       setShowWordByWord,
+      showRootDetails,
+      setShowRootDetails,
       showTransliteration,
       setShowTransliteration,
       showStudyTransliteration,

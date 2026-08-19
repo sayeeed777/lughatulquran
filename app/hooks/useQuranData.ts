@@ -205,7 +205,7 @@ export function useWordByWord(selectedSurahNumber?: number | null, showWordByWor
   }, []);
 
   useEffect(() => {
-    if (!selectedSurahNumber) return;
+    if (!selectedSurahNumber || !showWordByWord) return;
     if (wordByAyah[selectedSurahNumber]) return;
 
     const controller = new AbortController();

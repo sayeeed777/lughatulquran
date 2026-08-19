@@ -10,6 +10,8 @@ import { ALL_TRANSLATIONS, NO_BISMILLAH_SURAHS, AUDIO_RECITERS, ARABIC_FONTS } f
 import { verseKey, clamp, normalizeQuranDisplayArabic } from "../../lib/utils";
 import { useAudio, useBookmarkContext, useQuranData, useUIState, usePreferences, useActions } from "../../contexts";
 import StudyMushafPage from "../study/StudyMushafPage";
+import StudyLexiconModals from "../study/StudyLexiconModals";
+import useWordLexicon from "../study/useWordLexicon";
 import SharePanel from "./SharePanel";
 import type { Ayah } from "../../lib/types";
 
@@ -57,6 +59,8 @@ export default function ReaderPanel() {
     setSelectedTranslations,
     showWordByWord,
     setShowWordByWord,
+    showRootDetails,
+    setShowRootDetails,
     showTransliteration,
     setShowTransliteration,
     memorizeConfig,
@@ -95,17 +99,46 @@ export default function ReaderPanel() {
   const { bookmarks, notes, toggleBookmark: onToggleBookmark, openNote: onOpenNote } = useBookmarkContext();
   const {
     handleGoToAyah,
+    jumpToAyah,
     handleSelectPage,
     retryData: onRetry,
     handleCompare: onCompare,
     copyAyahLink: onCopyLink,
     handleSelectSurah: onSelectSurah
   } = useActions();
+  const {
+    wordAudioRef,
+    selectedWordDetails,
+    isLaneModalOpen,
+    isRootDetailsModalOpen,
+    rootLexicon,
+    rootLexiconLoading,
+    rootLexiconError,
+    handleWordAudio,
+    handleWordSelect,
+    closeWordDetails,
+    openLaneLexicon,
+    closeLaneModal,
+    openRootDetails,
+    closeRootDetailsModal,
+    selectedRoot,
+    selectedRootArabic,
+    rootMeaningSummary,
+    laneActionLabel
+  } = useWordLexicon({
+    selectedSurahNumber: selectedSurah?.number || 0,
+    wordByAyah,
+    wordLoading
+  });
   const formatArabic = (text?: string) => normalizeQuranDisplayArabic(text ?? "");
   const loadMoreSentinelRef = useRef<HTMLDivElement | null>(null);
 
   const isScopeMode = readerScopeMode !== "surah";
   const hasMushafLayout = readerScopeMode === "page" && Boolean(readerScopeLayout?.lines?.length);
+  const shouldUseReaderWords =
+    showWordByWord ||
+    showRootDetails ||
+    Boolean(nowPlaying && selectedSurah?.number === nowPlaying.surah);
 
   // -- Share Panel State --
   const [shareAyah, setShareAyah] = useState<{ ayah: Ayah; surahNumber: number } | null>(null);
@@ -358,6 +391,10 @@ export default function ReaderPanel() {
         translations={ALL_TRANSLATIONS}
         selectedTranslations={selectedTranslations}
         setSelectedTranslations={setSelectedTranslations}
+        showWordByWord={showWordByWord}
+        setShowWordByWord={setShowWordByWord}
+        showRootDetails={showRootDetails}
+        setShowRootDetails={setShowRootDetails}
         showTransliteration={showTransliteration}
         setShowTransliteration={setShowTransliteration}
         fontScale={fontScale}
@@ -374,6 +411,30 @@ export default function ReaderPanel() {
         hasPrayerLocation={hasPrayerLocation}
         clamp={clamp}
       />
+
+      <StudyLexiconModals
+        selectedWordDetails={selectedWordDetails}
+        isLaneModalOpen={isLaneModalOpen}
+        isRootDetailsModalOpen={isRootDetailsModalOpen}
+        selectedRoot={selectedRoot}
+        selectedRootArabic={selectedRootArabic}
+        rootMeaningSummary={rootMeaningSummary}
+        laneActionLabel={laneActionLabel}
+        rootLexiconError={rootLexiconError}
+        rootLexiconLoading={rootLexiconLoading}
+        rootLexicon={rootLexicon}
+        onCloseWordDetails={closeWordDetails}
+        onCloseLaneModal={closeLaneModal}
+        onCloseRootDetailsModal={closeRootDetailsModal}
+        onOpenLaneLexicon={openLaneLexicon}
+        onOpenRootDetails={openRootDetails}
+        onPlayWordAudio={handleWordAudio}
+        onJumpToAyah={(surah, ayah) => {
+          closeWordDetails();
+          jumpToAyah(surah, ayah);
+        }}
+      />
+      <audio ref={wordAudioRef} hidden />
 
       {/* Mobile Search Modal */}
       {isMobileSearchOpen && (
@@ -601,7 +662,9 @@ export default function ReaderPanel() {
                     const isSaved = bookmarks.includes(key);
                     const hasNote = Boolean(notes[key]);
                     const isFocused = focusedAyahKey === key;
-                    const words = wordByAyah[selectedSurah.number]?.[ayah.number] || [];
+                    const words = shouldUseReaderWords
+                      ? wordByAyah[selectedSurah.number]?.[ayah.number] || []
+                      : [];
                     return (
                       <AyahCard
                         key={ayah.number}
@@ -627,6 +690,7 @@ export default function ReaderPanel() {
                         onCompare={onCompare}
                         onCopyLink={onCopyLink}
                         onShare={handleShare}
+                        onWordSelect={showRootDetails ? handleWordSelect : undefined}
                         onCycleRepeat={onCycleReaderRepeat}
                         onSetRepeat={onSetReaderRepeat}
                         formatArabic={formatArabic}

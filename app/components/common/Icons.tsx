@@ -48,6 +48,22 @@ export function CloseIcon({ size = 18, ...props }: IconProps) {
     );
 }
 
+export function ChevronLeftIcon({ size = 18, ...props }: IconProps) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
+            <path d="m15 18-6-6 6-6" />
+        </svg>
+    );
+}
+
+export function ChevronRightIcon({ size = 18, ...props }: IconProps) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>
+            <path d="m9 18 6-6-6-6" />
+        </svg>
+    );
+}
+
 export function CopyIcon({ size = 16, ...props }: IconProps) {
     return (
         <svg width={size} height={size} viewBox="0 0 24 24" {...defaults} {...props}>

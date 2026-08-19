@@ -217,6 +217,8 @@ export const STORAGE_KEYS = {
   plan: "quran_plan",
   fontScale: "quran_font_scale",
   translations: "quran_translations",
+  showWordByWord: "quran_show_word_by_word",
+  showRootDetails: "quran_show_root_details",
   showTransliteration: "quran_show_transliteration",
   showStudyTransliteration: "quran_show_study_transliteration",
   playbackRate: "quran_playback_rate",

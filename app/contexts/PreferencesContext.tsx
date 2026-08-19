@@ -25,6 +25,8 @@ type PreferencesContextValue = {
   setSelectedTranslations: SetState<string[]>;
   showWordByWord: boolean;
   setShowWordByWord: SetState<boolean>;
+  showRootDetails: boolean;
+  setShowRootDetails: SetState<boolean>;
   showTransliteration: boolean;
   setShowTransliteration: SetState<boolean>;
   showStudyTransliteration: boolean;
@@ -60,6 +62,8 @@ export function PreferencesProvider({ children, ...props }: PreferencesProviderP
     setSelectedTranslations: props.setSelectedTranslations,
     showWordByWord: props.showWordByWord,
     setShowWordByWord: props.setShowWordByWord,
+    showRootDetails: props.showRootDetails,
+    setShowRootDetails: props.setShowRootDetails,
     showTransliteration: props.showTransliteration,
     setShowTransliteration: props.setShowTransliteration,
     showStudyTransliteration: props.showStudyTransliteration,
@@ -81,6 +85,7 @@ export function PreferencesProvider({ children, ...props }: PreferencesProviderP
     props.readingPlan, props.setReadingPlan, props.fontScale, props.setFontScale,
     props.arabicFontId, props.setArabicFontId, props.selectedTranslations,
     props.setSelectedTranslations, props.showWordByWord, props.setShowWordByWord,
+    props.showRootDetails, props.setShowRootDetails,
     props.showTransliteration, props.setShowTransliteration,
     props.showStudyTransliteration, props.setShowStudyTransliteration,
     props.prayerSettings, props.setPrayerSettings, props.nextPrayerPreview,

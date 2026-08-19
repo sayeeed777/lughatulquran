@@ -162,6 +162,14 @@ export function useHomePreferences() {
     STORAGE_KEYS.showTransliteration,
     false
   );
+  const [showWordByWord, setShowWordByWord] = useLocalStorage(
+    STORAGE_KEYS.showWordByWord,
+    false
+  );
+  const [showRootDetails, setShowRootDetails] = useLocalStorage(
+    STORAGE_KEYS.showRootDetails,
+    false
+  );
   const [showStudyTransliteration, setShowStudyTransliteration] = useLocalStorage(
     STORAGE_KEYS.showStudyTransliteration,
     false
@@ -238,6 +246,10 @@ export function useHomePreferences() {
     arabicFontId,
     setArabicFontId,
     selectedArabicFont,
+    showWordByWord,
+    setShowWordByWord,
+    showRootDetails,
+    setShowRootDetails,
     showTransliteration,
     setShowTransliteration,
     showStudyTransliteration,

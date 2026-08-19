@@ -19,6 +19,7 @@ export type SelectedWordDetails = {
   position: number;
   arabic: string;
   translation?: string;
+  transliteration?: string;
   audioUrl?: string;
   lemma?: string;
   root?: string;
