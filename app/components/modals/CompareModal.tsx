@@ -10,7 +10,7 @@ import {
 import { normalizeQuranDisplayArabic, verseKey } from "../../lib/utils";
 import { useQuranData, useUIState } from "../../contexts";
 import { useLocalStorage } from "../../hooks";
-import { useEffect, useState, useRef, useCallback } from "react";
+import { useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 import { TAFSIR_EDITIONS } from "../study/StudyModeHelpers";
 import {
   CheckIcon,
@@ -63,6 +63,13 @@ export default function CompareModal() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
   const activeTabRef = useRef<CompareTab>("translations");
+  const scrollPositionsRef = useRef<Record<string, number>>({});
+  const suppressScrollSaveRef = useRef(false);
+  const restoreFrameRef = useRef<number | null>(null);
+  const isOpen = Boolean(selectedSurahNumber && selectedAyahNumber);
+  const currentScrollKey = isOpen
+    ? `${selectedSurahNumber}:${selectedAyahNumber}:${activeTab}`
+    : null;
 
   const updateThumb = useCallback(() => {
     const el = scrollRef.current;
@@ -81,9 +88,69 @@ export default function CompareModal() {
     thumb.style.opacity = "1";
   }, []);
 
+  const saveCurrentScrollPosition = useCallback(() => {
+    if (!currentScrollKey || !scrollRef.current) return;
+    scrollPositionsRef.current[currentScrollKey] = scrollRef.current.scrollTop;
+  }, [currentScrollKey]);
+
+  const changeActiveTab = useCallback(
+    (tab: CompareTab) => {
+      if (tab === activeTab) return;
+      saveCurrentScrollPosition();
+      setActiveTab(tab);
+    },
+    [activeTab, saveCurrentScrollPosition]
+  );
+
   useEffect(() => {
     activeTabRef.current = activeTab;
   }, [activeTab]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const body = document.body;
+    const previousOverflow = body.style.overflow;
+    const previousPaddingRight = body.style.paddingRight;
+    const scrollbarGap = window.innerWidth - document.documentElement.clientWidth;
+
+    body.style.overflow = "hidden";
+    if (scrollbarGap > 0) {
+      body.style.paddingRight = `${scrollbarGap}px`;
+    }
+
+    return () => {
+      body.style.overflow = previousOverflow;
+      body.style.paddingRight = previousPaddingRight;
+    };
+  }, [isOpen]);
+
+  useLayoutEffect(() => {
+    const el = scrollRef.current;
+    if (!el || !currentScrollKey) return;
+
+    suppressScrollSaveRef.current = true;
+    el.scrollTop = scrollPositionsRef.current[currentScrollKey] ?? 0;
+    updateThumb();
+
+    if (restoreFrameRef.current !== null) {
+      window.cancelAnimationFrame(restoreFrameRef.current);
+    }
+    restoreFrameRef.current = window.requestAnimationFrame(() => {
+      restoreFrameRef.current = window.requestAnimationFrame(() => {
+        suppressScrollSaveRef.current = false;
+        restoreFrameRef.current = null;
+      });
+    });
+
+    return () => {
+      if (restoreFrameRef.current !== null) {
+        window.cancelAnimationFrame(restoreFrameRef.current);
+        restoreFrameRef.current = null;
+      }
+      suppressScrollSaveRef.current = true;
+    };
+  }, [currentScrollKey, loading, payload, tafsirLoading, tafsirText, updateThumb]);
 
   useEffect(() => {
     if (!isTafsirEditionLoaded) return;
@@ -224,12 +291,10 @@ export default function CompareModal() {
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
-    el.addEventListener("scroll", updateThumb, { passive: true });
     const observer = new ResizeObserver(updateThumb);
     observer.observe(el);
     updateThumb();
     return () => {
-      el.removeEventListener("scroll", updateThumb);
       observer.disconnect();
     };
   }, [updateThumb, loading, activeTab, tafsirLoading, tafsirText]);
@@ -242,14 +307,14 @@ export default function CompareModal() {
         e.stopPropagation();
         onClose();
       } else if (e.key === "ArrowLeft") {
-        setActiveTab("translations");
+        changeActiveTab("translations");
       } else if (e.key === "ArrowRight") {
-        setActiveTab("tafsir");
+        changeActiveTab("tafsir");
       }
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [onClose, selectedAyahNumber]);
+  }, [changeActiveTab, onClose, selectedAyahNumber]);
 
   if (!selectedAyah || !selectedSurah) {
     return null;
@@ -322,11 +387,9 @@ export default function CompareModal() {
 
   const navigateToAyah = (ayah: typeof selectedAyah | undefined) => {
     if (!ayah) return;
+    saveCurrentScrollPosition();
     setSelectedAyah(ayah);
     setFocusedAyahKey(verseKey(selectedSurah.number, ayah.number));
-    if (scrollRef.current) {
-      scrollRef.current.scrollTop = 0;
-    }
   };
 
   return (
@@ -384,7 +447,7 @@ export default function CompareModal() {
             role="tab"
             aria-selected={activeTab === "translations"}
             className={`compare-tab${activeTab === "translations" ? " active" : ""}`}
-            onClick={() => setActiveTab("translations")}
+            onClick={() => changeActiveTab("translations")}
           >
             Translations
           </button>
@@ -392,7 +455,7 @@ export default function CompareModal() {
             role="tab"
             aria-selected={activeTab === "tafsir"}
             className={`compare-tab${activeTab === "tafsir" ? " active" : ""}`}
-            onClick={() => setActiveTab("tafsir")}
+            onClick={() => changeActiveTab("tafsir")}
           >
             Tafsir
           </button>
@@ -417,7 +480,16 @@ export default function CompareModal() {
               </select>
             </div>
           )}
-          <div className="compare-body" ref={scrollRef}>
+          <div
+            className="compare-body"
+            ref={scrollRef}
+            onScroll={() => {
+              if (!suppressScrollSaveRef.current) {
+                saveCurrentScrollPosition();
+              }
+              updateThumb();
+            }}
+          >
             <div className="compare-arabic-hero compare-arabic-hero--mobile">
               <p className="ayah-arabic" lang="ar" dir="rtl">
                 {formatArabic(selectedAyah.arabic)}

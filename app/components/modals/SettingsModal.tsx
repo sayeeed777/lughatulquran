@@ -288,9 +288,6 @@ function SettingsModal({
                           </span>
                           <span className="reader-preference-copy">
                             <span className="toggle-label">Word-by-word meanings</span>
-                            <span className="reader-preference-description">
-                              Show Arabic-English word chips below each ayah. Tap a chip to hear it. Shortcut: W
-                            </span>
                           </span>
                         </span>
                         <span className={`toggle-switch ${showWordByWord ? "active" : ""}`}>

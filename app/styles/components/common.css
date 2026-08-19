@@ -515,6 +515,7 @@
   align-items: center;
   justify-content: center;
   padding: 24px;
+  overscroll-behavior: contain;
   animation: fadeIn 0.15s ease;
 }
 
@@ -530,6 +531,7 @@
   box-shadow: var(--shadow-elevated);
   padding: 24px 28px;
   font-size: 1rem;
+  overscroll-behavior: contain;
   animation: slideUp 0.3s cubic-bezier(0.32, 0.72, 0, 1);
 }
 
@@ -805,6 +807,9 @@
   flex: 1;
   min-height: 0;
   overflow-y: auto;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -1213,11 +1218,67 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 
   .compare-panel {
     width: 100%;
+    height: 85vh;
+    height: 85dvh;
     max-height: 85vh;
+    max-height: 85dvh;
+    box-sizing: border-box;
     border-radius: var(--radius-xl) var(--radius-xl) 0 0;
     padding: 20px;
     padding-bottom: calc(20px + env(safe-area-inset-bottom, 0px));
     font-size: 0.9375rem;
+  }
+
+  .compare-header {
+    gap: 8px;
+  }
+
+  .compare-header-title {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    white-space: nowrap;
+  }
+
+  .compare-header-surah {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .compare-header-ayah {
+    flex-shrink: 0;
+    margin-left: 6px;
+    padding-left: 6px;
+  }
+
+  .compare-header-actions {
+    gap: 2px;
+  }
+
+  .compare-nav-icon,
+  .compare-close-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .compare-tab {
+    min-height: 44px;
+  }
+
+  .compare-tafsir-select {
+    min-height: 44px;
+  }
+
+  .compare-translation-row:has(.compare-row-copy) {
+    padding-right: 52px;
+  }
+
+  .compare-row-copy {
+    top: 8px;
+    right: 0;
+    width: 44px;
+    height: 44px;
   }
 
   .compare-arabic-hero--desktop {
@@ -1267,6 +1328,17 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   .mobile-settings-panel {
     border-radius: var(--radius-lg) var(--radius-lg) 0 0;
     max-width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .compare-tafsir-picker {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .compare-tafsir-select {
+    width: 100%;
   }
 }
 
