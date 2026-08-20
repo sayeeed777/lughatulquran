@@ -19,6 +19,7 @@ import {
   CloseIcon,
   CopyIcon
 } from "../common/Icons";
+import ReaderTafsirEditionPicker from "./ReaderTafsirEditionPicker";
 
 type CompareAllPayload = {
   translations?: Record<string, { text?: string }>;
@@ -463,21 +464,12 @@ export default function CompareModal() {
         <div className="compare-scroll-wrap">
           {activeTab === "tafsir" && (
             <div className="compare-tafsir-picker">
-              <label className="compare-translation-label" htmlFor="compare-tafsir-edition">
-                Tafsir edition
-              </label>
-              <select
-                id="compare-tafsir-edition"
-                className="compare-tafsir-select"
+              <span className="compare-translation-label">Tafsir edition</span>
+              <ReaderTafsirEditionPicker
+                editions={TAFSIR_EDITIONS}
                 value={tafsirEdition}
-                onChange={(event) => setTafsirEdition(event.target.value)}
-              >
-                {TAFSIR_EDITIONS.map((edition) => (
-                  <option key={edition.id} value={edition.id}>
-                    {edition.label}
-                  </option>
-                ))}
-              </select>
+                onChange={setTafsirEdition}
+              />
             </div>
           )}
           <div

@@ -522,7 +522,11 @@
 .compare-panel {
   position: relative;
   width: min(720px, 100%);
+  height: min(760px, 88vh);
+  height: min(760px, 88dvh);
   max-height: 88vh;
+  max-height: 88dvh;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   background: var(--bg-deep);
@@ -681,13 +685,336 @@
 .compare-tafsir-select {
   width: 100%;
   min-width: 0;
+  min-height: 44px;
   padding: 10px 12px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--stroke);
   background: var(--bg-light);
   color: var(--text);
+  font-family: inherit;
   font-size: 0.875rem;
+  text-align: left;
   cursor: pointer;
+}
+
+.reader-tafsir-picker-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  transition: border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reader-tafsir-picker-trigger:hover {
+  border-color: color-mix(in srgb, var(--accent-2) 42%, var(--stroke));
+  background: color-mix(in srgb, var(--accent-2) 5%, var(--bg-light));
+}
+
+.reader-tafsir-picker-trigger:focus-visible {
+  outline: none;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 14%, transparent);
+}
+
+.reader-tafsir-picker-trigger-copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 2px;
+}
+
+.reader-tafsir-picker-trigger-label {
+  overflow: hidden;
+  color: var(--text);
+  font-weight: 560;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reader-tafsir-picker-trigger-language {
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+
+.reader-tafsir-picker-chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  flex: 0 0 26px;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--accent-2) 11%, transparent);
+  color: var(--accent-2);
+}
+
+.reader-tafsir-picker-chevron svg {
+  width: 13px;
+  height: 13px;
+}
+
+.reader-tafsir-picker-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(3, 7, 10, 0.68);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overscroll-behavior: contain;
+  animation: readerTafsirPickerFade 0.16s ease-out;
+}
+
+.reader-tafsir-picker-sheet {
+  width: min(460px, 100%);
+  max-height: min(680px, 84dvh);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--bg-deep);
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.46);
+  color: var(--text);
+  animation: readerTafsirPickerEnter 0.22s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.reader-tafsir-picker-handle {
+  display: none;
+}
+
+.reader-tafsir-picker-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px 20px 14px;
+}
+
+.reader-tafsir-picker-eyebrow {
+  margin: 0 0 3px;
+  color: var(--accent-2);
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.reader-tafsir-picker-header h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 1.15rem;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+}
+
+.reader-tafsir-picker-close {
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius-full);
+  background: color-mix(in srgb, var(--text) 7%, transparent);
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.reader-tafsir-picker-close:hover,
+.reader-tafsir-picker-close:focus-visible {
+  background: color-mix(in srgb, var(--text) 12%, transparent);
+  color: var(--text);
+}
+
+.reader-tafsir-picker-search {
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 20px 12px;
+  padding: 0 14px;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--text) 4%, transparent);
+  color: var(--muted);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.reader-tafsir-picker-search:focus-within {
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-2) 12%, transparent);
+}
+
+.reader-tafsir-picker-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+.reader-tafsir-picker-search input::placeholder {
+  color: var(--muted);
+  opacity: 0.75;
+}
+
+.reader-tafsir-picker-search input:focus,
+.reader-tafsir-picker-search input:focus-visible {
+  border-color: transparent !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.reader-tafsir-picker-options {
+  min-height: 0;
+  overflow-y: auto;
+  padding: 0 12px calc(16px + env(safe-area-inset-bottom, 0px));
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--text) 16%, transparent) transparent;
+}
+
+.reader-tafsir-picker-group + .reader-tafsir-picker-group {
+  margin-top: 10px;
+}
+
+.reader-tafsir-picker-group h4 {
+  margin: 0;
+  padding: 10px 8px 6px;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.reader-tafsir-picker-option {
+  width: 100%;
+  min-height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 10px 10px 10px 12px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.14s ease, border-color 0.14s ease;
+}
+
+.reader-tafsir-picker-option:hover,
+.reader-tafsir-picker-option:focus-visible {
+  outline: none;
+  background: color-mix(in srgb, var(--text) 5%, transparent);
+}
+
+.reader-tafsir-picker-option.selected {
+  border-color: color-mix(in srgb, var(--accent-2) 25%, transparent);
+  background: color-mix(in srgb, var(--accent-2) 10%, transparent);
+}
+
+.reader-tafsir-picker-check {
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, var(--text) 22%, transparent);
+  border-radius: var(--radius-full);
+  color: transparent;
+}
+
+.reader-tafsir-picker-option.selected .reader-tafsir-picker-check {
+  border-color: var(--accent-2);
+  background: var(--accent-2);
+  color: var(--bg-deep);
+}
+
+.reader-tafsir-picker-empty {
+  padding: 40px 18px 48px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+  text-align: center;
+}
+
+@keyframes readerTafsirPickerFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes readerTafsirPickerEnter {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  .reader-tafsir-picker-overlay {
+    align-items: flex-end;
+    padding: 0;
+  }
+
+  .reader-tafsir-picker-sheet {
+    width: 100%;
+    max-height: 82dvh;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    animation-name: readerTafsirPickerMobileEnter;
+  }
+
+  .reader-tafsir-picker-handle {
+    width: 38px;
+    height: 4px;
+    display: block;
+    flex: 0 0 auto;
+    margin: 9px auto 0;
+    border-radius: var(--radius-full);
+    background: color-mix(in srgb, var(--text) 20%, transparent);
+  }
+
+  .reader-tafsir-picker-header {
+    padding-top: 12px;
+  }
+}
+
+@keyframes readerTafsirPickerMobileEnter {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reader-tafsir-picker-overlay,
+  .reader-tafsir-picker-sheet {
+    animation: none;
+  }
 }
 
 .compare-tafsir-content {
@@ -1331,7 +1658,7 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .compare-tafsir-picker {
     grid-template-columns: minmax(0, 1fr);
     gap: 8px;
