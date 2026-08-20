@@ -1,6 +1,9 @@
 import { describe, expect, it } from "vitest";
-import { STORAGE_KEYS } from "../../lib/constants";
-import { getReciterBootstrapMode } from "../../lib/reciterPreferences";
+import { DEFAULT_RECITER_ID, STORAGE_KEYS } from "../../lib/constants";
+import {
+  getReciterBootstrapMode,
+  resolveBootstrappedReciterId
+} from "../../lib/reciterPreferences";
 
 const createStorage = (entries: Record<string, string>) => ({
   getItem: (key: string) => entries[key] ?? null
@@ -33,5 +36,7 @@ describe("getReciterBootstrapMode", () => {
 
   it("uses the new default only for brand-new users", () => {
     expect(getReciterBootstrapMode(createStorage({}))).toBe("new-user");
+    expect(DEFAULT_RECITER_ID).toBe("alafasy");
+    expect(resolveBootstrappedReciterId(createStorage({}))).toBe("alafasy");
   });
 });

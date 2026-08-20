@@ -82,7 +82,7 @@ export const AUDIO_RECITERS = [
   }
 ];
 
-export const DEFAULT_RECITER_ID = "husary";
+export const DEFAULT_RECITER_ID = "alafasy";
 export const DEFAULT_RECITER =
   AUDIO_RECITERS.find((reciter) => reciter.id === DEFAULT_RECITER_ID) ??
   AUDIO_RECITERS[0];
