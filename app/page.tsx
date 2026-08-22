@@ -12,7 +12,8 @@ import {
   SettingsIcon,
   HomeProviders
 } from "./components";
-import { FONT_SCALE } from "./lib/constants";
+import { FONT_SCALE, STORAGE_KEYS } from "./lib/constants";
+import { useLocalStorage } from "./hooks";
 import { clamp } from "./lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "./lib/styleClasses";
 import { useUIState, usePreferences, useAudio, useActions } from "./contexts";
@@ -62,6 +63,14 @@ const KeyboardShortcutsHelp = dynamic(
 function HomeContent() {
   const [isPrayerPanelOpen, setIsPrayerPanelOpen] = useState(false);
   const [showStudyPulse, setShowStudyPulse] = useState(false);
+  const [isSurahPanelCollapsed, setIsSurahPanelCollapsed] = useLocalStorage(
+    STORAGE_KEYS.surahPanelCollapsed,
+    false
+  );
+  const [isStudyPanelCollapsed, setIsStudyPanelCollapsed] = useLocalStorage(
+    STORAGE_KEYS.studyPanelCollapsed,
+    false
+  );
 
   const ui = useUIState();
   const preferences = usePreferences();
@@ -218,7 +227,9 @@ function HomeContent() {
         </div>
       </div>
 
-      <section className="content">
+      <section
+        className={`content${isSurahPanelCollapsed ? " surah-panel-is-collapsed" : ""}${isStudyPanelCollapsed ? " study-panel-is-collapsed" : ""}`}
+      >
         <SectionErrorBoundary title="Surah list unavailable">
           <SurahList
             onOpenPrayer={() => setIsPrayerPanelOpen(true)}
@@ -227,6 +238,8 @@ function HomeContent() {
               ui.setShowMobileSettings(true);
             }}
             onOpenSearch={() => ui.setShowMobileSearch(true)}
+            isCollapsed={isSurahPanelCollapsed}
+            onToggleCollapsed={() => setIsSurahPanelCollapsed((collapsed) => !collapsed)}
           />
         </SectionErrorBoundary>
 
@@ -238,6 +251,8 @@ function HomeContent() {
           <StudyPanel
             continueSession={continueSession}
             onContinueSession={handleContinueSession}
+            isCollapsed={isStudyPanelCollapsed}
+            onToggleCollapsed={() => setIsStudyPanelCollapsed((collapsed) => !collapsed)}
           />
         </SectionErrorBoundary>
       </section>

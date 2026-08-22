@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { SurahListSkeleton } from "../skeletons";
 import { InlineError, SettingsIcon, ThemeChooser } from "../common";
 import { useQuranData, useUIState, useActions } from "../../contexts";
@@ -9,6 +9,8 @@ type SurahListProps = {
   onOpenPrayer?: () => void;
   onOpenSettings?: () => void;
   onOpenSearch?: () => void;
+  isCollapsed?: boolean;
+  onToggleCollapsed?: () => void;
 };
 
 const JUZ_STARTS: Record<number, string> = {
@@ -181,13 +183,69 @@ function PageSelector() {
 export default function SurahList({
   onOpenPrayer,
   onOpenSettings,
-  onOpenSearch
+  onOpenSearch,
+  isCollapsed = false,
+  onToggleCollapsed
 }: SurahListProps) {
   const { surahs, filteredSurahs, selectedSurah, loadingSurahs: loading, surahsError: error } = useQuranData();
   const { query, setQuery, readerScopeMode } = useUIState();
   const { handleSelectSurah: onSelectSurah, retryData: onRetry } = useActions();
+  const [isQuickSurahOpen, setIsQuickSurahOpen] = useState(false);
+  const [quickSurahQuery, setQuickSurahQuery] = useState("");
+  const quickSurahPanelRef = useRef<HTMLDivElement>(null);
+  const quickSurahSearchRef = useRef<HTMLInputElement>(null);
   const effectiveQuery = String(query || "").replace(/[\u200B-\u200D\u2060\uFEFF]/g, "").trim();
   const visibleSurahs = effectiveQuery ? filteredSurahs : surahs;
+  const normalizedQuickQuery = quickSurahQuery.trim().toLocaleLowerCase();
+  const quickSurahs = normalizedQuickQuery
+    ? surahs.filter((surah) => (
+        `${surah.number} ${surah.englishName} ${surah.englishNameTranslation} ${surah.name}`
+          .toLocaleLowerCase()
+          .includes(normalizedQuickQuery)
+      ))
+    : surahs;
+
+  useEffect(() => {
+    if (!isQuickSurahOpen) return;
+
+    const focusFrame = window.requestAnimationFrame(() => quickSurahSearchRef.current?.focus());
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!quickSurahPanelRef.current?.contains(event.target as Node)) {
+        setIsQuickSurahOpen(false);
+      }
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setIsQuickSurahOpen(false);
+      }
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.cancelAnimationFrame(focusFrame);
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isQuickSurahOpen]);
+
+  const collapseToggle = (
+    <button
+      type="button"
+      className="surah-panel-collapse-toggle"
+      onClick={() => {
+        setIsQuickSurahOpen(false);
+        onToggleCollapsed?.();
+      }}
+      aria-label={isCollapsed ? "Expand Surah sidebar" : "Collapse Surah sidebar"}
+      title={isCollapsed ? "Expand Surah sidebar" : "Collapse Surah sidebar"}
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3.5" y="4" width="17" height="16" rx="3" />
+        <path d="M15 4v16" />
+      </svg>
+    </button>
+  );
 
   const headerActions = (onOpenPrayer || onOpenSettings || onOpenSearch) ? (
     <div className="surah-header-actions">
@@ -212,11 +270,25 @@ export default function SurahList({
 
   if (loading) {
     return (
-      <aside className="panel surah-panel">
+      <aside
+        className={`panel surah-panel${isCollapsed ? " is-collapsed" : ""}`}
+        aria-label="Surah sidebar"
+      >
         <div className="surah-panel-header">
           <h2>Surahs</h2>
-          {headerActions}
+          <div className="surah-panel-header-controls">
+            {!isCollapsed && collapseToggle}
+            {headerActions}
+          </div>
         </div>
+        {isCollapsed && (
+          <div className="surah-panel-collapsed-toolbar">
+            {collapseToggle}
+            <button className="surah-panel-quick-trigger" type="button" disabled>
+              –
+            </button>
+          </div>
+        )}
         <ScopeModeSwitcher />
         <div className="surah-search-wrapper">
           <input className="search" placeholder="Search surahs…" value="" disabled readOnly />
@@ -227,13 +299,108 @@ export default function SurahList({
   }
 
   return (
-    <aside className="panel surah-panel">
+    <aside
+      className={`panel surah-panel${isCollapsed ? " is-collapsed" : ""}`}
+      aria-label="Surah sidebar"
+    >
       <div className="surah-panel-header">
         <h2>
           {readerScopeMode === "surah" ? "Surahs" : readerScopeMode === "juz" ? "Juz" : "Pages"}
         </h2>
-        {headerActions}
+        <div className="surah-panel-header-controls">
+          {!isCollapsed && collapseToggle}
+          {headerActions}
+        </div>
       </div>
+
+      {isCollapsed && (
+        <div className="surah-panel-collapsed-toolbar">
+          {collapseToggle}
+          <div className="surah-panel-quick-select" ref={quickSurahPanelRef}>
+            <button
+              type="button"
+              className="surah-panel-quick-trigger"
+              onClick={() => {
+                setQuickSurahQuery("");
+                setIsQuickSurahOpen((open) => !open);
+              }}
+              aria-label={`Quick Surah select, currently ${selectedSurah?.englishName || "unknown"}`}
+              aria-expanded={isQuickSurahOpen}
+              aria-controls="surah-quick-select-popover"
+              title="Quick Surah select"
+            >
+              <span>{selectedSurah?.number ?? "–"}</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true">
+                <path d="m3 4.5 3 3 3-3" />
+              </svg>
+            </button>
+
+            {isQuickSurahOpen && (
+              <div
+                id="surah-quick-select-popover"
+                className="surah-quick-select-popover"
+              role="dialog"
+              aria-label="Quick Surah select"
+            >
+                <div className="surah-quick-select-header">
+                  <div>
+                    <p className="surah-quick-select-title">Jump to Surah</p>
+                    <p className="surah-quick-select-current">
+                      {selectedSurah ? `${selectedSurah.number}. ${selectedSurah.englishName}` : "Choose a Surah"}
+                    </p>
+                  </div>
+                  <button
+                    type="button"
+                    className="surah-quick-select-close"
+                    onClick={() => setIsQuickSurahOpen(false)}
+                    aria-label="Close quick Surah select"
+                  >
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="m7 7 10 10M17 7 7 17" />
+                    </svg>
+                  </button>
+                </div>
+
+                <div className="surah-quick-select-search">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="11" cy="11" r="7" />
+                    <path d="m16 16 4 4" />
+                  </svg>
+                  <input
+                    ref={quickSurahSearchRef}
+                    value={quickSurahQuery}
+                    onChange={(event) => setQuickSurahQuery(event.target.value)}
+                    placeholder="Search name or number…"
+                    aria-label="Search Surahs for quick selection"
+                  />
+                </div>
+
+                <div className="surah-quick-select-list" role="listbox" aria-label="Surahs">
+                  {quickSurahs.length ? quickSurahs.map((surah) => (
+                    <button
+                      key={surah.number}
+                      type="button"
+                      className={`surah-quick-select-item${selectedSurah?.number === surah.number ? " is-current" : ""}`}
+                      onClick={() => {
+                        onSelectSurah(surah);
+                        setIsQuickSurahOpen(false);
+                      }}
+                      role="option"
+                      aria-selected={selectedSurah?.number === surah.number}
+                    >
+                      <span className="surah-quick-select-number">{surah.number}</span>
+                      <span className="surah-quick-select-name">{surah.englishName}</span>
+                      <span className="surah-quick-select-arabic" lang="ar" dir="rtl">{surah.name}</span>
+                    </button>
+                  )) : (
+                    <p className="surah-quick-select-empty">No Surahs found</p>
+                  )}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       <ScopeModeSwitcher />
 

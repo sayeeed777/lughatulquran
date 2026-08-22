@@ -221,6 +221,8 @@ export const STORAGE_KEYS = {
   showRootDetails: "quran_show_root_details",
   showTransliteration: "quran_show_transliteration",
   showStudyTransliteration: "quran_show_study_transliteration",
+  surahPanelCollapsed: "quran_surah_panel_collapsed",
+  studyPanelCollapsed: "quran_study_panel_collapsed",
   playbackRate: "quran_playback_rate",
   lastRead: "quran_last_read",
   studySession: "quran_study_session",
