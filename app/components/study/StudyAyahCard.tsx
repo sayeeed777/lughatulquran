@@ -196,8 +196,8 @@ function StudyAyahCardComponent({
                     event.stopPropagation();
                     onOpenMemorize(ayahNumber);
                   }}
-                  aria-label="Memorize / Repeat"
-                  title="Memorize / Repeat"
+                  aria-label="Repeat Ayah"
+                  title="Repeat Ayah"
                   type="button"
                 >
                   <svg viewBox="0 0 24 24" aria-hidden="true">

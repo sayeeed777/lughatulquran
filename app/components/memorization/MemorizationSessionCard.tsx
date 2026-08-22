@@ -38,9 +38,9 @@ const PROMPT: Record<MemorizationCardMode, string> = {
 };
 
 const RATINGS: Array<{ r: MemorizationRating; label: string; key: string }> = [
-  { r: "again", label: "Again", key: "1" },
-  { r: "hard",  label: "Hard",  key: "2" },
-  { r: "good",  label: "Good",  key: "3" },
+  { r: "again", label: "Forgot", key: "1" },
+  { r: "hard",  label: "With effort",  key: "2" },
+  { r: "good",  label: "Remembered",  key: "3" },
   { r: "easy",  label: "Easy",  key: "4" }
 ];
 
@@ -373,19 +373,22 @@ export default function MemorizationSessionCard({
           </button>
         </div>
       ) : (
-        <div className="mem-rating-row">
-          {RATINGS.map((opt) => (
-            <button
-              key={opt.r}
-              type="button"
-              className={`mem-rate-btn mem-rate-btn--${opt.r}`}
-              onClick={() => onRate(opt.r)}
-            >
-              <span className="mem-rate-label">{opt.label}</span>
-              <span className="mem-rate-interval">{getMemorizationReviewPreview(state || undefined, opt.r, schedulerOpts)}</span>
-              <span className="mem-rate-key">{opt.key}</span>
-            </button>
-          ))}
+        <div className="mem-rating-wrap">
+          <p className="mem-rating-help">How well did you remember it? Your answer schedules the next review.</p>
+          <div className="mem-rating-row">
+            {RATINGS.map((opt) => (
+              <button
+                key={opt.r}
+                type="button"
+                className={`mem-rate-btn mem-rate-btn--${opt.r}`}
+                onClick={() => onRate(opt.r)}
+              >
+                <span className="mem-rate-label">{opt.label}</span>
+                <span className="mem-rate-interval">{getMemorizationReviewPreview(state || undefined, opt.r, schedulerOpts)}</span>
+                <span className="mem-rate-key">{opt.key}</span>
+              </button>
+            ))}
+          </div>
         </div>
       )}
 

@@ -51,8 +51,7 @@ export default function StudyModeView({
     fontScale,
     setFontScale,
     memorizeConfig,
-    startMemorize: onStartMemorize,
-    stopMemorize: onStopMemorize
+    startMemorize: onStartMemorize
   } = usePreferences();
   const {
     nowPlaying,
@@ -412,9 +411,16 @@ export default function StudyModeView({
     setShowMemorizationPreview((previous) => !previous);
   }, [onStopAutoPlay, setShowQuickPanel]);
 
+  const repeatRound = memorizeConfig?.loops > 0
+    ? Math.min(
+        memorizeConfig.loops,
+        Math.max(1, memorizeConfig.loops - memorizeConfig.remaining + 1)
+      )
+    : null;
+
   return (
     <div
-      className={`study-mode-container${(isMushafView || isPageScope) ? " mushaf-view" : ""}${isPageScope ? " page-scope" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""
+      className={`study-mode-container${(isMushafView || isPageScope) ? " mushaf-view" : ""}${isPageScope ? " page-scope" : ""}${memorizeConfig?.active ? " repeat-active" : ""}${scriptStyle === "naskh" ? " script-naskh" : ""
         } ${studyTypographyClasses}`}
     >
       {/* Ambient Background */}
@@ -443,7 +449,13 @@ export default function StudyModeView({
 
       {showMemorizationPreview ? (
         <div className="study-reading-area study-reading-area-preview" ref={scrollContainerRef}>
-          <MemorizationApp embedded reciterId={reciterId} onBack={toggleMemorizationPreview} />
+          <MemorizationApp
+            embedded
+            reciterId={reciterId}
+            initialSurahNumber={selectedSurahNumber}
+            initialAyahNumber={focusedAyahNumber}
+            onBack={toggleMemorizationPreview}
+          />
         </div>
       ) : (
         <StudyModeReadingArea
@@ -497,6 +509,25 @@ export default function StudyModeView({
           showHifzMode={showHifzMode}
           verseKey={verseKey}
         />
+      )}
+
+      {!showMemorizationPreview && memorizeConfig?.active && (
+        <div className="study-repeat-status" role="status" aria-live="polite">
+          <div className="study-repeat-status-copy">
+            <strong>Repeat Ayah</strong>
+            <span>
+              {memorizeConfig.startAyah === memorizeConfig.endAyah
+                ? `Ayah ${nowPlaying?.ayah || memorizeConfig.startAyah}`
+                : `Ayah ${nowPlaying?.ayah || memorizeConfig.startAyah} · Range ${memorizeConfig.startAyah}–${memorizeConfig.endAyah}`}
+              {repeatRound
+                ? ` · Round ${repeatRound} of ${memorizeConfig.loops}`
+                : " · Continuous repeat"}
+            </span>
+          </div>
+          <button type="button" onClick={onStopAutoPlay} aria-label="Stop repeating">
+            Stop
+          </button>
+        </div>
       )}
 
       {/* Audio Player */}
@@ -680,7 +711,7 @@ export default function StudyModeView({
           onUpdateEnd={updateMemorizeEnd}
           onUpdateLoops={updateMemorizeLoops}
           onStartMemorize={onStartMemorize}
-          onStopMemorize={onStopMemorize}
+          onStopMemorize={onStopAutoPlay}
         />
       ) : null}
 

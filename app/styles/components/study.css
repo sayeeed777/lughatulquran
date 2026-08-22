@@ -152,6 +152,60 @@
   gap: 16px;
 }
 
+.study-repeat-status {
+  position: fixed;
+  top: 76px;
+  left: 50%;
+  z-index: 99;
+  width: min(560px, calc(100vw - 160px));
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 12px 10px 14px;
+  border: 1px solid color-mix(in srgb, var(--accent-2) 28%, rgba(255, 255, 255, 0.08));
+  border-radius: var(--radius-md);
+  background: color-mix(in srgb, var(--card-strong) 94%, var(--bg-deep));
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+
+.study-repeat-status-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.study-repeat-status-copy strong {
+  color: var(--text);
+  font-size: 0.78rem;
+}
+
+.study-repeat-status-copy span {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.7rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.study-repeat-status button {
+  flex-shrink: 0;
+  min-height: 32px;
+  padding: 6px 12px;
+  border: 1px solid color-mix(in srgb, var(--stroke) 35%, transparent);
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--text) 7%, transparent);
+  color: var(--text);
+  font-size: 0.72rem;
+  font-weight: 650;
+}
+
+.study-repeat-status button:hover {
+  background: color-mix(in srgb, var(--text) 12%, transparent);
+}
+
 .study-preview-toggle {
   min-height: 40px;
   padding: 0 14px;
@@ -307,6 +361,11 @@
 
 .study-reading-area-preview {
   padding-top: 88px;
+}
+
+.study-mode-container.repeat-active .study-reading-area:not(.study-reading-area-preview) {
+  padding-top: 140px;
+  scroll-padding-top: 140px;
 }
 
 .study-reading-area {
@@ -5599,6 +5658,16 @@
 
   .study-reading-area {
     padding: 72px 16px 140px;
+  }
+
+  .study-repeat-status {
+    top: 66px;
+    width: calc(100vw - 32px);
+  }
+
+  .study-mode-container.repeat-active .study-reading-area:not(.study-reading-area-preview) {
+    padding-top: 136px;
+    scroll-padding-top: 136px;
   }
 
   .study-reading-area-preview {

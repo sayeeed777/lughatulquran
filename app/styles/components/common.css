@@ -737,6 +737,16 @@
   line-height: 1.2;
 }
 
+.reader-tafsir-picker-trigger-action {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.reader-tafsir-picker-trigger-action-label {
+  display: none;
+}
+
 .reader-tafsir-picker-chevron {
   display: inline-flex;
   align-items: center;
@@ -1119,26 +1129,35 @@
   background: rgba(255, 255, 255, 0.08);
 }
 
+.compare-flow {
+  display: contents;
+}
+
 .compare-scroll-wrap {
   position: relative;
   flex: 1;
   min-height: 0;
   display: flex;
   flex-direction: column;
-}
-
-.compare-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-  flex: 1;
-  min-height: 0;
   overflow-y: auto;
   overscroll-behavior-y: contain;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-y;
   scrollbar-width: none;
   -ms-overflow-style: none;
+}
+
+.compare-scroll-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.compare-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 0 0 auto;
+  min-height: auto;
+  overflow: visible;
 }
 
 .compare-arabic-hero {
@@ -1308,6 +1327,7 @@
    places the thumb ~8px from the panel border — away from the text,
    visually anchored to the panel edge like a native scrollbar. */
 .compare-scrollbar {
+  display: none;
   position: absolute;
   top: 0;
   right: -20px;
@@ -1322,6 +1342,154 @@
   background: rgba(255, 255, 255, 0.18);
   opacity: 0;
   transition: opacity 0.2s ease;
+}
+
+@media (min-width: 1101px) {
+  .compare-flow {
+    position: relative;
+    display: flex;
+    flex: 1;
+    min-height: 0;
+    flex-direction: column;
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scrollbar-color: color-mix(in srgb, var(--text) 22%, transparent) transparent;
+    scrollbar-width: thin;
+  }
+
+  .compare-flow::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .compare-flow::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .compare-flow::-webkit-scrollbar-thumb {
+    border-radius: var(--radius-full);
+    background: color-mix(in srgb, var(--text) 22%, transparent);
+  }
+
+  .compare-tabs {
+    margin-bottom: 10px;
+  }
+
+  .compare-scroll-wrap {
+    display: block;
+    flex: 0 0 auto;
+    min-height: auto;
+    overflow: visible;
+    overscroll-behavior-y: auto;
+    touch-action: auto;
+  }
+
+  .compare-body {
+    display: block;
+    flex: none;
+    min-height: auto;
+    overflow: visible;
+    overscroll-behavior-y: auto;
+    touch-action: auto;
+  }
+
+  .compare-scrollbar {
+    display: none;
+  }
+
+  .compare-tafsir-picker {
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
+  .compare-tafsir-select {
+    min-height: 36px;
+    padding: 5px 8px 5px 10px;
+  }
+
+  .reader-tafsir-picker-trigger-copy {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  .reader-tafsir-picker-trigger-language {
+    flex-shrink: 0;
+  }
+
+  .reader-tafsir-picker-trigger-language::before {
+    content: "·";
+    margin-right: 6px;
+  }
+
+  .reader-tafsir-picker-chevron {
+    width: 22px;
+    height: 22px;
+    flex-basis: 22px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .compare-tafsir-picker {
+    gap: 10px;
+    padding: 0 2px 6px;
+  }
+
+  .compare-tafsir-select {
+    min-height: 44px;
+    padding: 6px 2px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .reader-tafsir-picker-trigger:hover {
+    border-color: transparent;
+    background: transparent;
+  }
+
+  .reader-tafsir-picker-trigger:focus-visible {
+    border-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 18%, transparent);
+  }
+
+  .reader-tafsir-picker-trigger-copy {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  .reader-tafsir-picker-trigger-language {
+    flex-shrink: 0;
+  }
+
+  .reader-tafsir-picker-trigger-language::before {
+    content: "·";
+    margin-right: 5px;
+  }
+
+  .reader-tafsir-picker-trigger-action {
+    gap: 1px;
+    min-height: 30px;
+    padding: 2px 3px 2px 9px;
+    border-radius: var(--radius-full);
+    background: color-mix(in srgb, var(--accent-2) 11%, transparent);
+    color: var(--accent-2);
+  }
+
+  .reader-tafsir-picker-trigger-action-label {
+    display: inline;
+    font-size: 0.72rem;
+    font-weight: 650;
+    line-height: 1;
+  }
+
+  .reader-tafsir-picker-chevron {
+    width: 24px;
+    height: 24px;
+    flex-basis: 24px;
+    background: transparent;
+  }
 }
 
 .compare-block {
@@ -1661,7 +1829,11 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
 @media (max-width: 480px) {
   .compare-tafsir-picker {
     grid-template-columns: minmax(0, 1fr);
-    gap: 8px;
+    gap: 0;
+  }
+
+  .compare-tafsir-picker > .compare-translation-label {
+    display: none;
   }
 
   .compare-tafsir-select {

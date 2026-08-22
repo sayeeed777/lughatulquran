@@ -100,7 +100,7 @@ export default function StudyMemorizeModal({
             className="memorize-modal"
             role="dialog"
             aria-modal="true"
-            aria-label="Repeat settings"
+            aria-label="Repeat Ayah"
             initial={{ opacity: 0, y: 20, scale: 0.98 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.98 }}
@@ -108,8 +108,8 @@ export default function StudyMemorizeModal({
           >
             <div className="memorize-modal-header">
               <div>
-                <h3>Repeat Settings</h3>
-                <p>{selectedSurah?.englishName || "Surah"}</p>
+                <h3>Repeat Ayah</h3>
+                <p>{selectedSurah?.englishName || "Surah"} · Choose what to repeat</p>
               </div>
               <button className="memorize-close" onClick={onClose} aria-label="Close" type="button">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -193,7 +193,7 @@ export default function StudyMemorizeModal({
 
             <div className="memorize-steps">
               <div className="memorize-step-row">
-                <span>Repeat range</span>
+                <span>Number of repeats</span>
                 <div className="memorize-stepper">
                   <button type="button" onClick={() => onUpdateLoops(-1)} aria-label="Decrease repeats">
                     -
@@ -207,7 +207,11 @@ export default function StudyMemorizeModal({
                 </div>
                 <span className="stepper-suffix">times</span>
               </div>
-              <p className="memorize-hint">Set repeats to 0 for infinite looping.</p>
+              <p className="memorize-hint">
+                {memorizeDraft.loops === 0
+                  ? "Continuous repeat is on. Playback will continue until you stop it."
+                  : `${memorizeDraft.loops} complete ${memorizeDraft.loops === 1 ? "round" : "rounds"} of the selected ayah or range.`}
+              </p>
             </div>
 
             <div className="memorize-footer">

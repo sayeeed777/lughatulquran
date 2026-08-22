@@ -253,6 +253,29 @@
   cursor: pointer;
 }
 
+.mem-settings-advanced {
+  border-top: 1px solid color-mix(in srgb, var(--stroke) 30%, transparent);
+  padding-top: 14px;
+}
+
+.mem-settings-advanced summary {
+  color: var(--text);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.mem-settings-advanced > p {
+  margin: 8px 0 14px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.mem-settings-advanced .mem-settings-toggle {
+  margin-top: 14px;
+}
+
 /* ── Setup ── */
 .mem-setup {
   display: flex;
@@ -321,6 +344,11 @@
   font-weight: 480;
   cursor: pointer;
   transition: all 0.2s ease;
+}
+
+.mem-select option {
+  background: var(--bg-mid);
+  color: var(--text);
 }
 
 .mem-select:hover {
@@ -392,6 +420,13 @@
 .mem-mode-card.active .mem-mode-card-title {
   color: var(--accent-2);
   font-weight: 620;
+}
+
+.mem-mode-description {
+  margin: -16px 0 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
 }
 
 .mem-mode-card-desc {
@@ -1003,6 +1038,20 @@
 }
 
 /* ── Rating row ── */
+.mem-rating-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mem-rating-help {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.45;
+  text-align: center;
+}
+
 .mem-rating-row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

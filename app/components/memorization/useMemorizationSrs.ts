@@ -103,7 +103,14 @@ type UndoSnapshot = {
   previousStats: SessionStats;
 };
 
-export default function useMemorizationSrs(deck: MemorizationDeckResponse | null) {
+type UseMemorizationSrsOptions = {
+  preferredStartAyah?: number;
+};
+
+export default function useMemorizationSrs(
+  deck: MemorizationDeckResponse | null,
+  { preferredStartAyah }: UseMemorizationSrsOptions = {}
+) {
   const [settings, setSettings] = useLocalStorage<MemorizationSettings>(
     STORAGE_KEYS.memorizationSettings,
     DEFAULT_MEMORIZATION_SETTINGS
@@ -217,7 +224,13 @@ export default function useMemorizationSrs(deck: MemorizationDeckResponse | null
 
   const buildQueue = useCallback(() => {
     const now = Date.now();
-    const cards = deck?.cards || [];
+    const deckCards = deck?.cards || [];
+    const preferredIndex = preferredStartAyah
+      ? deckCards.findIndex((card) => card.ayahNumber >= preferredStartAyah)
+      : -1;
+    const cards = preferredIndex > 0
+      ? [...deckCards.slice(preferredIndex), ...deckCards.slice(0, preferredIndex)]
+      : deckCards;
     const dueLearning = cards
       .filter((card) => {
         const state = progress[card.id];
@@ -239,7 +252,9 @@ export default function useMemorizationSrs(deck: MemorizationDeckResponse | null
       .slice(0, settings.newCardsPerDay);
 
     return [...dueLearning, ...dueReview, ...newCards];
-  }, [deck?.cards, progress, settings.maxReviewsPerDay, settings.newCardsPerDay]);
+  }, [deck?.cards, preferredStartAyah, progress, settings.maxReviewsPerDay, settings.newCardsPerDay]);
+
+  const sessionSize = useMemo(() => buildQueue().length, [buildQueue]);
 
   const currentCard = sessionQueue.length ? cardMap.get(sessionQueue[0]) || null : null;
 
@@ -384,6 +399,7 @@ export default function useMemorizationSrs(deck: MemorizationDeckResponse | null
     sessionHistory,
     settings,
     setSettings,
+    sessionSize,
     sessionActive,
     sessionQueue,
     currentCard,

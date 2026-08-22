@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import MemorizationSessionCard from "./MemorizationSessionCard";
 import useMemorizationSrs, { DEFAULT_MEMORIZATION_SETTINGS } from "./useMemorizationSrs";
 import { useLocalStorage } from "../../hooks";
@@ -50,6 +50,8 @@ const CARD_MODES: Array<{ id: MemorizationCardMode; label: string; desc: string;
 type MemorizationAppProps = {
   embedded?: boolean;
   reciterId?: string;
+  initialSurahNumber?: number;
+  initialAyahNumber?: number;
   onBack?: () => void;
 };
 
@@ -77,7 +79,13 @@ export function applyReciterToMemorizationDeck(
   };
 }
 
-export function MemorizationApp({ embedded = false, reciterId: activeReciterId, onBack }: MemorizationAppProps = {}) {
+export function MemorizationApp({
+  embedded = false,
+  reciterId: activeReciterId,
+  initialSurahNumber,
+  initialAyahNumber,
+  onBack
+}: MemorizationAppProps = {}) {
   const [prefs, setPrefs, prefsLoaded] = useLocalStorage<MemorizationDeckPrefs>(
     STORAGE_KEYS.memorizationDeckState,
     DEFAULT_PREFS
@@ -86,6 +94,17 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [bootstrapReciterId, setBootstrapReciterId] = useState<string | null>(null);
+  const initialScopeSyncedRef = useRef(false);
+
+  useEffect(() => {
+    if (!embedded || !prefsLoaded || !initialSurahNumber || initialScopeSyncedRef.current) return;
+    initialScopeSyncedRef.current = true;
+    setPrefs((previous) => ({
+      ...previous,
+      scopeMode: "surah",
+      surahNumber: initialSurahNumber
+    }));
+  }, [embedded, initialSurahNumber, prefsLoaded, setPrefs]);
 
   useEffect(() => {
     if (typeof window === "undefined" || activeReciterId) return;
@@ -153,6 +172,11 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
     [rawDeck, resolvedReciter.baseUrl]
   );
 
+  const preferredStartAyah = prefs.scopeMode === "surah"
+    && prefs.surahNumber === initialSurahNumber
+    ? initialAyahNumber
+    : undefined;
+
   const {
     counts,
     mastery,
@@ -171,9 +195,10 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
     canUndo,
     settings,
     setSettings,
+    sessionSize,
     suspendCurrentCard,
     resetDeckProgress
-  } = useMemorizationSrs(deck);
+  } = useMemorizationSrs(deck, { preferredStartAyah });
 
   const [autoPlayAudio, setAutoPlayAudio] = useLocalStorage<boolean>(
     STORAGE_KEYS.memorizationAutoPlay,
@@ -350,7 +375,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
 
           <div className="mem-settings-grid">
             <label className="mem-settings-field">
-              <span className="mem-settings-label">New cards per day</span>
+              <span className="mem-settings-label">New cards per session</span>
               <input
                 type="number"
                 className="mem-settings-input"
@@ -361,7 +386,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
               />
             </label>
             <label className="mem-settings-field">
-              <span className="mem-settings-label">Max reviews per day</span>
+              <span className="mem-settings-label">Review cards per session</span>
               <input
                 type="number"
                 className="mem-settings-input"
@@ -371,60 +396,75 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
                 onChange={(e) => setSettings((s) => ({ ...s, maxReviewsPerDay: Math.max(1, Number(e.target.value) || 1) }))}
               />
             </label>
-            <label className="mem-settings-field">
-              <span className="mem-settings-label">Graduating interval (days)</span>
-              <input
-                type="number"
-                className="mem-settings-input"
-                min={1}
-                max={365}
-                value={settings.graduatingIntervalDays}
-                onChange={(e) => setSettings((s) => ({ ...s, graduatingIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
-              />
-            </label>
-            <label className="mem-settings-field">
-              <span className="mem-settings-label">Easy interval (days)</span>
-              <input
-                type="number"
-                className="mem-settings-input"
-                min={1}
-                max={365}
-                value={settings.easyIntervalDays}
-                onChange={(e) => setSettings((s) => ({ ...s, easyIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
-              />
-            </label>
-            <label className="mem-settings-field">
-              <span className="mem-settings-label">Max interval (days)</span>
-              <input
-                type="number"
-                className="mem-settings-input"
-                min={1}
-                max={3650}
-                value={settings.maxIntervalDays}
-                onChange={(e) => setSettings((s) => ({ ...s, maxIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
-              />
-            </label>
-            <label className="mem-settings-field">
-              <span className="mem-settings-label">Leech threshold (lapses)</span>
-              <input
-                type="number"
-                className="mem-settings-input"
-                min={3}
-                max={99}
-                value={settings.leechThreshold}
-                onChange={(e) => setSettings((s) => ({ ...s, leechThreshold: Math.max(3, Number(e.target.value) || 8) }))}
-              />
-            </label>
           </div>
 
           <label className="mem-settings-toggle">
             <input
               type="checkbox"
-              checked={settings.autoSuspendLeeches}
-              onChange={(e) => setSettings((s) => ({ ...s, autoSuspendLeeches: e.target.checked }))}
+              checked={autoPlayAudio}
+              onChange={(e) => setAutoPlayAudio(e.target.checked)}
             />
-            <span>Auto-suspend leech cards</span>
+            <span>Play audio automatically during practice</span>
           </label>
+
+          <details className="mem-settings-advanced">
+            <summary>Advanced scheduling</summary>
+            <p>Control how quickly remembered cards return for review.</p>
+            <div className="mem-settings-grid">
+              <label className="mem-settings-field">
+                <span className="mem-settings-label">First successful review (days)</span>
+                <input
+                  type="number"
+                  className="mem-settings-input"
+                  min={1}
+                  max={365}
+                  value={settings.graduatingIntervalDays}
+                  onChange={(e) => setSettings((s) => ({ ...s, graduatingIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+                />
+              </label>
+              <label className="mem-settings-field">
+                <span className="mem-settings-label">Easy review (days)</span>
+                <input
+                  type="number"
+                  className="mem-settings-input"
+                  min={1}
+                  max={365}
+                  value={settings.easyIntervalDays}
+                  onChange={(e) => setSettings((s) => ({ ...s, easyIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+                />
+              </label>
+              <label className="mem-settings-field">
+                <span className="mem-settings-label">Longest review interval (days)</span>
+                <input
+                  type="number"
+                  className="mem-settings-input"
+                  min={1}
+                  max={3650}
+                  value={settings.maxIntervalDays}
+                  onChange={(e) => setSettings((s) => ({ ...s, maxIntervalDays: Math.max(1, Number(e.target.value) || 1) }))}
+                />
+              </label>
+              <label className="mem-settings-field">
+                <span className="mem-settings-label">Struggle limit before hiding</span>
+                <input
+                  type="number"
+                  className="mem-settings-input"
+                  min={3}
+                  max={99}
+                  value={settings.leechThreshold}
+                  onChange={(e) => setSettings((s) => ({ ...s, leechThreshold: Math.max(3, Number(e.target.value) || 8) }))}
+                />
+              </label>
+            </div>
+            <label className="mem-settings-toggle">
+              <input
+                type="checkbox"
+                checked={settings.autoSuspendLeeches}
+                onChange={(e) => setSettings((s) => ({ ...s, autoSuspendLeeches: e.target.checked }))}
+              />
+              <span>Hide cards that repeatedly cause difficulty</span>
+            </label>
+          </details>
 
           <button
             type="button"
@@ -483,6 +523,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
               </button>
             ))}
           </div>
+          <p className="mem-mode-description">{activeMode.desc}</p>
 
           {/* Mastery + Activity — flowing sections */}
           <div className="mem-insights">
@@ -556,13 +597,19 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
             type="button"
             className="mem-btn mem-btn--primary mem-btn--full mem-btn--start"
             onClick={startSession}
-            disabled={!deck || loading}
+            disabled={!deck || loading || sessionSize === 0}
           >
-            {loading ? "Loading…" : `Start session · ${counts.dueNow} due`}
+            {loading
+              ? "Loading…"
+              : sessionSize > 0
+                ? `Start ${sessionSize}-card session`
+                : "Nothing due right now"}
           </button>
 
           <div className="mem-deck-footer">
-            <span className="mem-deck-meta">{totalCards} cards · {activeMode.label}</span>
+            <span className="mem-deck-meta">
+              {counts.dueNow} available · {totalCards} cards · {activeMode.label}
+            </span>
             <button
               type="button"
               className="mem-btn mem-btn--ghost mem-btn--sm"
@@ -598,7 +645,7 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
                 <strong>{sessionStats.reviewed}</strong>&nbsp;reviewed
               </span>
               <span className="mem-progress-pill mem-progress-pill--good">
-                <strong>{sessionStats.completed}</strong>&nbsp;passed
+                <strong>{sessionStats.completed}</strong>&nbsp;recalled
               </span>
               {sessionStats.againCount > 0 && (
                 <span className="mem-progress-pill mem-progress-pill--again">
@@ -682,9 +729,9 @@ export function MemorizationApp({ embedded = false, reciterId: activeReciterId, 
                     )}
                   </div>
                   <div className="mem-complete-breakdown-legend">
-                    {sessionStats.againCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--again">{sessionStats.againCount} Again</span>}
-                    {sessionStats.hardCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--hard">{sessionStats.hardCount} Hard</span>}
-                    {sessionStats.goodCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--good">{sessionStats.goodCount} Good</span>}
+                    {sessionStats.againCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--again">{sessionStats.againCount} Forgot</span>}
+                    {sessionStats.hardCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--hard">{sessionStats.hardCount} With effort</span>}
+                    {sessionStats.goodCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--good">{sessionStats.goodCount} Remembered</span>}
                     {sessionStats.easyCount > 0 && <span className="mem-breakdown-item mem-breakdown-item--easy">{sessionStats.easyCount} Easy</span>}
                   </div>
                 </div>

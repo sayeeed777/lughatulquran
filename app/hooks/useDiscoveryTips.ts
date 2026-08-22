@@ -15,7 +15,7 @@ const TIPS: Tip[] = [
   },
   {
     id: "tools-open",
-    message: "Try Memorize Mode to track which ayahs you've memorized",
+    message: "Try Track Memorization to mark the ayahs you've memorized",
   },
   {
     id: "surah-progress",

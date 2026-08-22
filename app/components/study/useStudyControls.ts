@@ -78,7 +78,7 @@ export default function useStudyControls({
   const [memorizeDraft, setMemorizeDraft] = useState<MemorizeDraft>({
     startAyah: 1,
     endAyah: 1,
-    loops: 2
+    loops: 3
   });
   const [studyMarks, setStudyMarks] = useLocalStorage<StudyMarks>("quran_study_marks", {});
   const [hifzMarks, setHifzMarks] = useLocalStorage<StudyMarks>("quran_hifz", {});
@@ -529,7 +529,7 @@ export default function useStudyControls({
       setMemorizeDraft({
         startAyah: start,
         endAyah: start,
-        loops: Number.isFinite(memorizeConfig?.loops) ? memorizeConfig.loops : 2
+        loops: Number.isFinite(memorizeConfig?.loops) ? memorizeConfig.loops : 3
       });
       setShowMemorizeModal(true);
     },

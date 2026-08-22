@@ -176,8 +176,8 @@ export default function StudyQuickPanelToolTab({
         </div>
         <div className="tool-toggle-grid">
           <ToggleCard
-            title="Memorize Mode"
-            subtitle="Mark ayahs as you memorize them."
+            title="Track Memorization"
+            subtitle="Show checkmarks to track memorized ayahs."
             checked={showHifzMode}
             onChange={setShowHifzMode}
           />
@@ -299,8 +299,8 @@ export default function StudyQuickPanelToolTab({
 
       {showHifzMode && (
         <div className="study-card tool-block">
-          <div className="hifz-guide" role="note" aria-label="Memorization guide">
-            <p className="hifz-guide-title">How memorization works</p>
+          <div className="hifz-guide" role="note" aria-label="Memorization tracking guide">
+            <p className="hifz-guide-title">How tracking works</p>
             <ul className="hifz-guide-list">
               <li>A <strong>✓</strong> icon now appears on each ayah card</li>
               <li>After memorizing an ayah, tap the icon to mark it</li>

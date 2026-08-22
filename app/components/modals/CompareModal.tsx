@@ -61,6 +61,7 @@ export default function CompareModal() {
   const [tafsirError, setTafsirError] = useState<string | null>(null);
   const [loadedTafsirKey, setLoadedTafsirKey] = useState<string | null>(null);
   const [copiedId, setCopiedId] = useState<string | null>(null);
+  const desktopScrollRef = useRef<HTMLDivElement>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const thumbRef = useRef<HTMLDivElement>(null);
   const activeTabRef = useRef<CompareTab>("translations");
@@ -72,8 +73,15 @@ export default function CompareModal() {
     ? `${selectedSurahNumber}:${selectedAyahNumber}:${activeTab}`
     : null;
 
+  const getScrollContainer = useCallback(() => {
+    if (typeof window !== "undefined" && window.matchMedia("(min-width: 1101px)").matches) {
+      return desktopScrollRef.current;
+    }
+    return scrollRef.current;
+  }, []);
+
   const updateThumb = useCallback(() => {
-    const el = scrollRef.current;
+    const el = getScrollContainer();
     const thumb = thumbRef.current;
     if (!el || !thumb) return;
     const ratio = el.clientHeight / el.scrollHeight;
@@ -87,12 +95,13 @@ export default function CompareModal() {
     thumb.style.height = `${thumbHeight}px`;
     thumb.style.transform = `translateY(${scrollRatio * maxTop}px)`;
     thumb.style.opacity = "1";
-  }, []);
+  }, [getScrollContainer]);
 
   const saveCurrentScrollPosition = useCallback(() => {
-    if (!currentScrollKey || !scrollRef.current) return;
-    scrollPositionsRef.current[currentScrollKey] = scrollRef.current.scrollTop;
-  }, [currentScrollKey]);
+    const el = getScrollContainer();
+    if (!currentScrollKey || !el) return;
+    scrollPositionsRef.current[currentScrollKey] = el.scrollTop;
+  }, [currentScrollKey, getScrollContainer]);
 
   const changeActiveTab = useCallback(
     (tab: CompareTab) => {
@@ -127,7 +136,7 @@ export default function CompareModal() {
   }, [isOpen]);
 
   useLayoutEffect(() => {
-    const el = scrollRef.current;
+    const el = getScrollContainer();
     if (!el || !currentScrollKey) return;
 
     suppressScrollSaveRef.current = true;
@@ -151,7 +160,7 @@ export default function CompareModal() {
       }
       suppressScrollSaveRef.current = true;
     };
-  }, [currentScrollKey, loading, payload, tafsirLoading, tafsirText, updateThumb]);
+  }, [currentScrollKey, getScrollContainer, loading, payload, tafsirLoading, tafsirText, updateThumb]);
 
   useEffect(() => {
     if (!isTafsirEditionLoaded) return;
@@ -290,7 +299,7 @@ export default function CompareModal() {
   }, [isTafsirEditionLoaded, selectedAyahNumber, selectedSurahNumber, tafsirEdition]);
 
   useEffect(() => {
-    const el = scrollRef.current;
+    const el = getScrollContainer();
     if (!el) return;
     const observer = new ResizeObserver(updateThumb);
     observer.observe(el);
@@ -298,7 +307,7 @@ export default function CompareModal() {
     return () => {
       observer.disconnect();
     };
-  }, [updateThumb, loading, activeTab, tafsirLoading, tafsirText]);
+  }, [getScrollContainer, updateThumb, loading, activeTab, tafsirLoading, tafsirText]);
 
   useEffect(() => {
     if (!selectedAyahNumber) return;
@@ -438,42 +447,41 @@ export default function CompareModal() {
             </button>
           </div>
         </div>
-        <div className="compare-arabic-hero compare-arabic-hero--desktop">
-          <p className="ayah-arabic" lang="ar" dir="rtl">
-            {formatArabic(selectedAyah.arabic)}
-          </p>
-        </div>
-        <div className="compare-tabs" role="tablist">
-          <button
-            role="tab"
-            aria-selected={activeTab === "translations"}
-            className={`compare-tab${activeTab === "translations" ? " active" : ""}`}
-            onClick={() => changeActiveTab("translations")}
-          >
-            Translations
-          </button>
-          <button
-            role="tab"
-            aria-selected={activeTab === "tafsir"}
-            className={`compare-tab${activeTab === "tafsir" ? " active" : ""}`}
-            onClick={() => changeActiveTab("tafsir")}
-          >
-            Tafsir
-          </button>
-        </div>
-        <div className="compare-scroll-wrap">
-          {activeTab === "tafsir" && (
-            <div className="compare-tafsir-picker">
-              <span className="compare-translation-label">Tafsir edition</span>
-              <ReaderTafsirEditionPicker
-                editions={TAFSIR_EDITIONS}
-                value={tafsirEdition}
-                onChange={setTafsirEdition}
-              />
-            </div>
-          )}
+        <div
+          className="compare-flow"
+          ref={desktopScrollRef}
+          onScroll={() => {
+            if (!suppressScrollSaveRef.current) {
+              saveCurrentScrollPosition();
+            }
+            updateThumb();
+          }}
+        >
+          <div className="compare-arabic-hero compare-arabic-hero--desktop">
+            <p className="ayah-arabic" lang="ar" dir="rtl">
+              {formatArabic(selectedAyah.arabic)}
+            </p>
+          </div>
+          <div className="compare-tabs" role="tablist">
+            <button
+              role="tab"
+              aria-selected={activeTab === "translations"}
+              className={`compare-tab${activeTab === "translations" ? " active" : ""}`}
+              onClick={() => changeActiveTab("translations")}
+            >
+              Translations
+            </button>
+            <button
+              role="tab"
+              aria-selected={activeTab === "tafsir"}
+              className={`compare-tab${activeTab === "tafsir" ? " active" : ""}`}
+              onClick={() => changeActiveTab("tafsir")}
+            >
+              Tafsir
+            </button>
+          </div>
           <div
-            className="compare-body"
+            className="compare-scroll-wrap"
             ref={scrollRef}
             onScroll={() => {
               if (!suppressScrollSaveRef.current) {
@@ -482,6 +490,17 @@ export default function CompareModal() {
               updateThumb();
             }}
           >
+            {activeTab === "tafsir" && (
+              <div className="compare-tafsir-picker">
+                <span className="compare-translation-label">Tafsir edition</span>
+                <ReaderTafsirEditionPicker
+                  editions={TAFSIR_EDITIONS}
+                  value={tafsirEdition}
+                  onChange={setTafsirEdition}
+                />
+              </div>
+            )}
+            <div className="compare-body">
             <div className="compare-arabic-hero compare-arabic-hero--mobile">
               <p className="ayah-arabic" lang="ar" dir="rtl">
                 {formatArabic(selectedAyah.arabic)}
@@ -577,9 +596,10 @@ export default function CompareModal() {
                 </article>
               </div>
             )}
-          </div>
-          <div className="compare-scrollbar">
-            <div className="compare-scrollbar-thumb" ref={thumbRef} />
+            </div>
+            <div className="compare-scrollbar">
+              <div className="compare-scrollbar-thumb" ref={thumbRef} />
+            </div>
           </div>
         </div>
       </div>

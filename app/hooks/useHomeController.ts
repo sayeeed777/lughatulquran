@@ -183,7 +183,7 @@ export function useHomeController() {
     active: false,
     startAyah: 1,
     endAyah: 5,
-    loops: 0,
+    loops: 3,
     remaining: 0
   });
 

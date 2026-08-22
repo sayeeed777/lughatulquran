@@ -126,6 +126,7 @@ export default function ReaderTafsirEditionPicker({
         className="compare-tafsir-select reader-tafsir-picker-trigger"
         aria-haspopup="dialog"
         aria-expanded={isOpen}
+        aria-label={`Choose Tafsir edition, current ${selectedEdition?.label || "none"}`}
         onClick={openPicker}
       >
         <span className="reader-tafsir-picker-trigger-copy">
@@ -138,10 +139,13 @@ export default function ReaderTafsirEditionPicker({
             </span>
           )}
         </span>
-        <span className="reader-tafsir-picker-chevron" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="m6 9 6 6 6-6" />
-          </svg>
+        <span className="reader-tafsir-picker-trigger-action" aria-hidden="true">
+          <span className="reader-tafsir-picker-trigger-action-label">Change</span>
+          <span className="reader-tafsir-picker-chevron">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </span>
         </span>
       </button>
 
