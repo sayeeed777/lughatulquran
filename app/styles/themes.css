@@ -5,3 +5,10 @@
 @import "./themes/bw-dark.css";
 @import "./themes/mist.css";
 @import "./themes/sky.css";
+
+/* The pearl wordmark symbol is for dark surfaces; light themes use ink teal. */
+:root[data-theme="light"] .brand-symbol,
+:root[data-theme="sky"] .brand-symbol,
+:root[data-theme="bw"] .brand-symbol {
+  background-image: url('/icons/openfurqan-header-mark-dark-v1.png');
+}

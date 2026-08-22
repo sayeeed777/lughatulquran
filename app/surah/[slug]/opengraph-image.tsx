@@ -36,11 +36,11 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
             width: 80,
             height: 80,
             borderRadius: 20,
-            background: "rgba(216, 179, 106, 0.12)",
-            border: "2px solid rgba(216, 179, 106, 0.3)",
+            background: "rgba(216, 213, 205, 0.1)",
+            border: "2px solid rgba(216, 213, 205, 0.26)",
             fontSize: 32,
             fontWeight: 700,
-            color: "#d8b36a",
+            color: "#e8e4db",
             marginBottom: 28,
           }}
         >
@@ -62,7 +62,7 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
         <div
           style={{
             fontSize: 24,
-            color: "#d8b36a",
+            color: "#c8c6bf",
             marginBottom: 28,
           }}
         >

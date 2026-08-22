@@ -1,11 +1,26 @@
 import { ImageResponse } from "next/og";
+import { headers } from "next/headers";
 
 export const runtime = "edge";
 export const alt = "OpenFurqan — Read and Study the Quran";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
-export default function OGImage() {
+export default async function OGImage() {
+  const requestHeaders = await headers();
+  const requestHost = (requestHeaders.get("x-forwarded-host") || requestHeaders.get("host") || "")
+    .split(",")[0]
+    .trim();
+  const isLocalHost = requestHost.startsWith("localhost:") || requestHost.startsWith("127.0.0.1:");
+  const isTrustedHost = isLocalHost
+    || requestHost === "openfurqan.com"
+    || requestHost === "www.openfurqan.com"
+    || requestHost.endsWith(".vercel.app");
+  const brandOrigin = isTrustedHost
+    ? `${isLocalHost ? "http" : "https"}://${requestHost}`
+    : "https://openfurqan.com";
+  const brandIcon = `${brandOrigin}/icons/openfurqan-app-v6-512.png`;
+
   return new ImageResponse(
     (
       <div
@@ -20,33 +35,13 @@ export default function OGImage() {
           fontFamily: "system-ui, sans-serif",
         }}
       >
-        {/* Book icon */}
-        <svg
+        <img
+          src={brandIcon}
+          alt=""
           width="120"
           height="120"
-          viewBox="0 0 64 64"
-          fill="none"
-          style={{ marginBottom: 32 }}
-        >
-          <path
-            d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-            stroke="#d8b36a"
-            strokeWidth="3"
-            strokeLinejoin="round"
-          />
-          <path
-            d="M32 14v28"
-            stroke="#d8b36a"
-            strokeWidth="3"
-            strokeLinecap="round"
-          />
-          <path
-            d="M20 24h12M20 32h12M20 40h12"
-            stroke="#d8b36a"
-            strokeWidth="2.5"
-            strokeLinecap="round"
-          />
-        </svg>
+          style={{ marginBottom: 32, borderRadius: 28 }}
+        />
 
         {/* Title */}
         <div
@@ -65,12 +60,12 @@ export default function OGImage() {
         <div
           style={{
             fontSize: 28,
-            color: "#d8b36a",
+            color: "#d8d5cd",
             letterSpacing: "0.02em",
             marginBottom: 24,
           }}
         >
-          Read Quran · English · Bangla · Urdu
+          Read and study the Quran
         </div>
 
         {/* Features */}
@@ -82,13 +77,13 @@ export default function OGImage() {
             color: "#a8b0ba",
           }}
         >
-          <span>22+ Translations</span>
+          <span>Root Meanings</span>
           <span style={{ color: "#4a5568" }}>·</span>
-          <span>Word-by-Word</span>
+          <span>Lane’s Lexicon</span>
           <span style={{ color: "#4a5568" }}>·</span>
-          <span>Audio Recitation</span>
+          <span>Tafsir</span>
           <span style={{ color: "#4a5568" }}>·</span>
-          <span>Prayer Times</span>
+          <span>Memorization</span>
         </div>
       </div>
     ),

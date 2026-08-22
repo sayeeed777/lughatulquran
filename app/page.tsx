@@ -161,24 +161,7 @@ function HomeContent() {
     <main className={`app ${appTypographyClasses}`}>
       <div className="topbar">
         <div className="logo">
-          <div className="logo-mark" aria-hidden="true">
-            <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
-              <path
-                d="M12 18c6-3 14-4 20-4s14 1 20 4v28c-6-3-14-4-20-4s-14 1-20 4V18Z"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinejoin="round"
-              />
-              <path d="M32 14v28" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-              <path
-                d="M20 24h12M20 32h12M20 40h12"
-                stroke="currentColor"
-                strokeWidth="2.5"
-                strokeLinecap="round"
-              />
-            </svg>
-          </div>
+          <div className="brand-symbol" aria-hidden="true" />
           <div className="logo-text">
             <h1 className="logo-title">Open<span className="logo-highlight">Furqan</span></h1>
           </div>

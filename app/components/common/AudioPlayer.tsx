@@ -969,8 +969,8 @@ export default function AudioPlayer({
       artist: reciterLabel,
       album: "The Holy Quran — OpenFurqan",
       artwork: [
-        { src: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
-        { src: "/icons/icon-512x512.png", sizes: "512x512", type: "image/png" }
+        { src: "/icons/openfurqan-app-v6-192.png", sizes: "192x192", type: "image/png" },
+        { src: "/icons/openfurqan-app-v6-512.png", sizes: "512x512", type: "image/png" }
       ]
     });
 

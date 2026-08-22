@@ -21,8 +21,10 @@ const PRECACHE_URLS = [
   "/favicon-48x48.png",
   "/favicon-96x96.png",
   "/apple-touch-icon.png",
-  "/icons/icon-192x192.png",
-  "/icons/icon-512x512.png"
+  "/icons/openfurqan-app-v6-192.png",
+  "/icons/openfurqan-app-v6-512.png",
+  "/icons/openfurqan-maskable-v6-192.png",
+  "/icons/openfurqan-maskable-v6-512.png"
 ];
 
 sw.addEventListener("install", /** @param {ExtendableEvent} event */ (event) => {
