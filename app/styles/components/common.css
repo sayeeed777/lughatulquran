@@ -1050,6 +1050,14 @@
   text-align: start;
 }
 
+.compare-tafsir-text > p:not(.compare-tafsir-quote):not(.compare-tafsir-message) {
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-align: justify;
+  text-align-last: start;
+  text-justify: inter-word;
+}
+
 .compare-tafsir-text > p + p {
   margin-top: 1.15em;
 }
