@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import type { StudyQuickPanelContentProps } from "./StudyQuickPanelTypes";
 
 type StudyQuickPanelToolTabProps = Pick<
@@ -124,6 +125,142 @@ function ScopeNav({ label, value, min, max, onChange }: ScopeNavProps) {
   );
 }
 
+type ReciterPickerProps = Pick<
+  StudyQuickPanelContentProps,
+  "reciters" | "reciterId" | "setReciterId"
+>;
+
+function ReciterPicker({ reciters, reciterId, setReciterId }: ReciterPickerProps) {
+  const [isOpen, setIsOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const pickerRef = useRef<HTMLDivElement>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const searchRef = useRef<HTMLInputElement>(null);
+  const listboxId = useId();
+  const selectedReciterLabel =
+    reciters.find((reciter) => reciter.id === reciterId)?.label || "Select reciter";
+  const filteredReciters = useMemo(() => {
+    const normalizedQuery = query.trim().toLocaleLowerCase();
+    if (!normalizedQuery) return reciters;
+    return reciters.filter((reciter) =>
+      reciter.label.toLocaleLowerCase().includes(normalizedQuery)
+    );
+  }, [query, reciters]);
+
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handlePointerDown = (event: PointerEvent) => {
+      if (!pickerRef.current?.contains(event.target as Node)) {
+        setIsOpen(false);
+        setQuery("");
+      }
+    };
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key !== "Escape") return;
+      setIsOpen(false);
+      setQuery("");
+      triggerRef.current?.focus();
+    };
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    const focusFrame = window.requestAnimationFrame(() => searchRef.current?.focus());
+
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+      window.cancelAnimationFrame(focusFrame);
+    };
+  }, [isOpen]);
+
+  const selectReciter = (nextReciterId: string) => {
+    setReciterId(nextReciterId);
+    setIsOpen(false);
+    setQuery("");
+    window.requestAnimationFrame(() => triggerRef.current?.focus());
+  };
+
+  return (
+    <div className="tool-reciter-select-shell" ref={pickerRef}>
+      <span className="tool-reciter-caption">Current</span>
+      <div className="tool-reciter-picker">
+        <button
+          ref={triggerRef}
+          type="button"
+          className={`tool-reciter-select-field${isOpen ? " open" : ""}`}
+          aria-haspopup="listbox"
+          aria-expanded={isOpen}
+          aria-controls={isOpen ? listboxId : undefined}
+          onClick={() => {
+            setIsOpen((current) => !current);
+            if (isOpen) setQuery("");
+          }}
+          onKeyDown={(event) => {
+            if (event.key === "ArrowDown" && !isOpen) {
+              event.preventDefault();
+              setIsOpen(true);
+            }
+          }}
+        >
+          <span className="tool-reciter-selected">{selectedReciterLabel}</span>
+          <span className="tool-reciter-chevron" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+          </span>
+        </button>
+
+        {isOpen && (
+          <div className="tool-reciter-menu">
+            <label className="tool-reciter-search">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" />
+                <path d="m20 20-3.5-3.5" />
+              </svg>
+              <input
+                ref={searchRef}
+                type="search"
+                value={query}
+                onChange={(event) => setQuery(event.target.value)}
+                placeholder="Search reciters"
+                aria-label="Search reciters"
+              />
+            </label>
+            <div className="tool-reciter-options" id={listboxId} role="listbox" aria-label="Choose reciter">
+              {filteredReciters.map((reciter) => {
+                const isSelected = reciter.id === reciterId;
+                return (
+                  <button
+                    key={reciter.id}
+                    type="button"
+                    role="option"
+                    aria-selected={isSelected}
+                    className={`tool-reciter-option${isSelected ? " selected" : ""}`}
+                    onClick={() => selectReciter(reciter.id)}
+                  >
+                    <span>{reciter.label}</span>
+                    <span className="tool-reciter-option-check" aria-hidden="true">
+                      {isSelected && (
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25">
+                          <path d="m5 12 4 4 10-10" />
+                        </svg>
+                      )}
+                    </span>
+                  </button>
+                );
+              })}
+              {filteredReciters.length === 0 && (
+                <p className="tool-reciter-empty">No reciters found.</p>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function StudyQuickPanelToolTab({
   showTranslation,
   setShowTranslation,
@@ -164,9 +301,6 @@ export default function StudyQuickPanelToolTab({
   setScriptStyle,
   tajweedLegend
 }: StudyQuickPanelToolTabProps) {
-  const selectedReciterLabel =
-    reciters.find((reciter) => reciter.id === reciterId)?.label || "Select reciter";
-
   return (
     <div className="quick-panel-section study-tool-section">
       <div className="study-card tool-block">
@@ -438,29 +572,7 @@ export default function StudyQuickPanelToolTab({
           <h5>Reciter</h5>
           <span>Set your default recitation voice</span>
         </div>
-        <div className="tool-reciter-select-shell">
-          <span className="tool-reciter-caption">Current</span>
-          <div className="tool-reciter-select-field">
-            <span className="tool-reciter-selected">{selectedReciterLabel}</span>
-            <span className="tool-reciter-chevron" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <path d="m6 9 6 6 6-6" />
-              </svg>
-            </span>
-            <select
-              className="tool-reciter-select-native"
-              value={reciterId}
-              onChange={(event) => setReciterId(event.target.value)}
-              aria-label="Reciter"
-            >
-              {reciters.map((reciter) => (
-                <option key={reciter.id} value={reciter.id}>
-                  {reciter.label}
-                </option>
-              ))}
-            </select>
-          </div>
-        </div>
+        <ReciterPicker reciters={reciters} reciterId={reciterId} setReciterId={setReciterId} />
       </div>
     </div>
   );

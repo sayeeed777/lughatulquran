@@ -1195,8 +1195,8 @@
   border-bottom: 1px solid var(--compare-row-divider);
 }
 
-.compare-translation-row:has(.compare-row-copy) {
-  padding-right: 40px;
+.compare-translation-row:has(.compare-row-copy) .compare-translation-label {
+  padding-inline-end: 40px;
 }
 
 .compare-row-copy {
@@ -1309,6 +1309,11 @@
   font-size: calc(0.95rem * var(--translation-scale));
   line-height: 1.65;
   margin: 0;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  text-align: justify;
+  text-align-last: start;
+  text-justify: inter-word;
 }
 
 /* Dark-theme-only tweaks for the compare modal:
@@ -1773,8 +1778,8 @@ input[type="date"]::-webkit-calendar-picker-indicator:hover {
     min-height: 44px;
   }
 
-  .compare-translation-row:has(.compare-row-copy) {
-    padding-right: 52px;
+  .compare-translation-row:has(.compare-row-copy) .compare-translation-label {
+    padding-inline-end: 52px;
   }
 
   .compare-row-copy {
