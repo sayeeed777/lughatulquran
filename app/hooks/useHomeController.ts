@@ -241,9 +241,12 @@ export function useHomeController() {
   const [nextPrayerPreview, setNextPrayerPreview] = useState<NextPrayerPreview | null>(null);
 
   // Reader Scope State (juz / page navigation on front reader)
-  const [readerScopeMode, setReaderScopeMode] = useLocalStorage<ReaderScopeMode>("reader_scope_mode", "surah");
-  const [readerJuzNumber, setReaderJuzNumber] = useLocalStorage<number>("reader_juz_number", 1);
-  const [readerPageNumber, setReaderPageNumber] = useLocalStorage<number>("reader_page_number", 1);
+  const [readerScopeMode, setReaderScopeMode, isReaderScopeModeLoaded] = useLocalStorage<ReaderScopeMode>("reader_scope_mode", "surah");
+  const [readerJuzNumber, setReaderJuzNumber, isReaderJuzNumberLoaded] = useLocalStorage<number>("reader_juz_number", 1);
+  const [readerPageNumber, setReaderPageNumber, isReaderPageNumberLoaded] = useLocalStorage<number>("reader_page_number", 1);
+  const isReaderScopeStorageReady = isReaderScopeModeLoaded
+    && isReaderJuzNumberLoaded
+    && isReaderPageNumberLoaded;
   const [readerScopeAyahs, setReaderScopeAyahs] = useState<ScopeAyah[]>([]);
   const [readerScopeMeta, setReaderScopeMeta] = useState<ScopeMeta | null>(null);
   const [readerScopeLayout, setReaderScopeLayout] = useState<MushafPageLayout | null>(null);
@@ -413,6 +416,13 @@ export function useHomeController() {
     setSelectedSurah,
     focusedAyahKey,
     setFocusedAyahKey,
+    readerScopeMode,
+    setReaderScopeMode,
+    readerJuzNumber,
+    setReaderJuzNumber,
+    readerPageNumber,
+    setReaderPageNumber,
+    isReaderScopeStorageReady,
     pendingScroll,
     setPendingScroll,
     surahData: surahData as SurahData | null,
@@ -451,6 +461,7 @@ export function useHomeController() {
       if (isMobileViewport) {
         // Mobile: avoid a second ayah-targeted scroll that conflicts with the panel smooth scroll.
         setPendingScroll(null);
+        setFocusedAyahKey(null);
       } else {
         const firstAyahKey = verseKey(surah.number, 1);
         setPendingScroll(null);
@@ -481,6 +492,8 @@ export function useHomeController() {
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
+    setPendingScroll(null);
+    setFocusedAyahKey(null);
     setReaderJuzNumber(juz);
     setReaderScopeMode("juz");
     scrollReaderIntoView();
@@ -491,6 +504,8 @@ export function useHomeController() {
     setIsAutoPlaying(false);
     setNowPlaying(null);
     setIsAudioPaused(false);
+    setPendingScroll(null);
+    setFocusedAyahKey(null);
     setReaderPageNumber(page);
     setReaderScopeMode("page");
     scrollReaderIntoView();
@@ -500,6 +515,7 @@ export function useHomeController() {
     if (!selectedSurah) return;
     const number = Number(goToAyahInput);
     if (!number || number < 1 || number > selectedSurah.numberOfAyahs) return;
+    setReaderScopeMode("surah");
     setPendingScroll(number);
     setFocusedAyahKey(verseKey(selectedSurah.number, number));
   };
@@ -507,6 +523,7 @@ export function useHomeController() {
   const jumpToAyah = (surahNumber: number, ayahNumber: number) => {
     const targetSurah = surahByNumber.get(surahNumber);
     if (!targetSurah) return;
+    setReaderScopeMode("surah");
     setSelectedSurah(targetSurah as Surah);
     setPendingScroll(ayahNumber);
     setFocusedAyahKey(verseKey(surahNumber, ayahNumber));
@@ -515,6 +532,8 @@ export function useHomeController() {
   const copyAyahLink = useCallback(async (surahNumber: number, ayahNumber: number) => {
     if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
+    url.searchParams.delete("page");
+    url.searchParams.delete("juz");
     url.searchParams.set("surah", String(surahNumber));
     url.searchParams.set("ayah", String(ayahNumber));
     url.hash = `ayah-${ayahNumber}`;

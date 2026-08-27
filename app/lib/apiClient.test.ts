@@ -43,4 +43,45 @@ describe("apiClient.fetchJSON", () => {
 
     await expect(fetchJSON("/api/error", { fetcher })).rejects.toThrow("bad");
   });
+
+  it("does not let one abortable consumer cancel another", async () => {
+    clearApiCache();
+    let requestCount = 0;
+    const fetcher = vi.fn((_input: RequestInfo | URL, init?: RequestInit) => {
+      requestCount += 1;
+      if (requestCount === 1) {
+        return new Promise<Response>((_resolve, reject) => {
+          init?.signal?.addEventListener("abort", () => {
+            const error = new Error("aborted");
+            error.name = "AbortError";
+            reject(error);
+          });
+        });
+      }
+
+      return Promise.resolve({
+        ok: true,
+        json: async () => ({ request: requestCount })
+      } as Response);
+    });
+    const firstController = new AbortController();
+    const secondController = new AbortController();
+
+    const firstRequest = fetchJSON("/api/shared", {
+      cacheKey: "shared",
+      fetcher,
+      signal: firstController.signal
+    });
+    const secondRequest = fetchJSON<{ request: number }>("/api/shared", {
+      cacheKey: "shared",
+      fetcher,
+      signal: secondController.signal
+    });
+
+    firstController.abort();
+
+    await expect(firstRequest).rejects.toMatchObject({ name: "AbortError" });
+    await expect(secondRequest).resolves.toEqual({ request: 2 });
+    expect(fetcher).toHaveBeenCalledTimes(2);
+  });
 });

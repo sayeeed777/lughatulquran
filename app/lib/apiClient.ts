@@ -229,6 +229,12 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
 
   const startRequest = () => {
     const request = performFetch();
+
+    // Abort signals belong to one component/effect lifecycle. Sharing that
+    // promise would let one consumer abort another consumer's identical
+    // request (notably during React Strict Mode's setup/cleanup replay).
+    if (signal) return request;
+
     inflight.set(cacheKey, request);
     request.finally(() => inflight.delete(cacheKey)).catch(() => { });
     return request;
@@ -241,7 +247,7 @@ export async function fetchJSON<T = unknown>(url: string, options: FetchJSONOpti
     return staleEntry.data as T;
   }
 
-  if (inflight.has(cacheKey)) {
+  if (!signal && inflight.has(cacheKey)) {
     return inflight.get(cacheKey) as Promise<T>;
   }
 

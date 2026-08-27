@@ -1,10 +1,119 @@
 "use client";
 
-import { useEffect } from "react";
-import { useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { parseVerseKey, verseKey } from "../../lib/utils";
 import type { StudySession } from "../common";
-import type { MemorizeConfig, NowPlaying, Surah, SurahData } from "./types";
+import type {
+  MemorizeConfig,
+  NowPlaying,
+  ReaderScopeMode,
+  Surah,
+  SurahData
+} from "./types";
+
+const MAX_JUZ_NUMBER = 30;
+const MAX_MUSHAF_PAGE = 604;
+
+type ReaderUrlState =
+  | { mode: "surah"; surah: number; ayah: number | null }
+  | { mode: "juz"; value: number }
+  | { mode: "page"; value: number };
+
+const parseIntegerInRange = (value: string | null, min: number, max: number) => {
+  if (!value || !/^\d+$/.test(value)) return null;
+  const parsed = Number(value);
+  return Number.isSafeInteger(parsed) && parsed >= min && parsed <= max ? parsed : null;
+};
+
+export function resolveReaderUrlState(
+  search: string,
+  hash: string,
+  surahs: Pick<Surah, "number" | "numberOfAyahs">[]
+): ReaderUrlState | null {
+  const params = new URLSearchParams(search);
+  const requestedSurah = parseIntegerInRange(params.get("surah"), 1, 114);
+  const targetSurah = requestedSurah
+    ? surahs.find((surah) => surah.number === requestedSurah)
+    : null;
+
+  // A valid Surah link is the most specific reader intent and must always
+  // override a previously persisted Page or Juz selection.
+  if (targetSurah) {
+    const queryAyah = parseIntegerInRange(
+      params.get("ayah"),
+      1,
+      targetSurah.numberOfAyahs
+    );
+    const hashMatch = hash.match(/^#?ayah-(\d+)$/);
+    const hashAyah = parseIntegerInRange(
+      hashMatch?.[1] || null,
+      1,
+      targetSurah.numberOfAyahs
+    );
+
+    return {
+      mode: "surah",
+      surah: targetSurah.number,
+      ayah: queryAyah ?? hashAyah
+    };
+  }
+
+  const page = parseIntegerInRange(params.get("page"), 1, MAX_MUSHAF_PAGE);
+  if (page) return { mode: "page", value: page };
+
+  const juz = parseIntegerInRange(params.get("juz"), 1, MAX_JUZ_NUMBER);
+  if (juz) return { mode: "juz", value: juz };
+
+  return null;
+}
+
+export function buildReaderUrl({
+  currentUrl,
+  readerScopeMode,
+  readerJuzNumber,
+  readerPageNumber,
+  selectedSurahNumber,
+  focusedAyahNumber
+}: {
+  currentUrl: string;
+  readerScopeMode: ReaderScopeMode;
+  readerJuzNumber: number;
+  readerPageNumber: number;
+  selectedSurahNumber: number | null;
+  focusedAyahNumber: number | null;
+}) {
+  const url = new URL(currentUrl);
+
+  if (readerScopeMode === "page") {
+    url.searchParams.set("page", String(readerPageNumber));
+    url.searchParams.delete("juz");
+    url.searchParams.delete("surah");
+    url.searchParams.delete("ayah");
+    if (/^#ayah-\d+$/.test(url.hash)) url.hash = "";
+    return url;
+  }
+
+  if (readerScopeMode === "juz") {
+    url.searchParams.set("juz", String(readerJuzNumber));
+    url.searchParams.delete("page");
+    url.searchParams.delete("surah");
+    url.searchParams.delete("ayah");
+    if (/^#ayah-\d+$/.test(url.hash)) url.hash = "";
+    return url;
+  }
+
+  url.searchParams.delete("page");
+  url.searchParams.delete("juz");
+  if (selectedSurahNumber) {
+    url.searchParams.set("surah", String(selectedSurahNumber));
+  }
+  if (focusedAyahNumber) {
+    url.searchParams.set("ayah", String(focusedAyahNumber));
+  } else {
+    url.searchParams.delete("ayah");
+  }
+  return url;
+}
 
 type UseHomeEffectsParams = {
   surahs: Surah[];
@@ -12,6 +121,13 @@ type UseHomeEffectsParams = {
   setSelectedSurah: (surah: Surah | null) => void;
   focusedAyahKey: string | null;
   setFocusedAyahKey: (value: string | null) => void;
+  readerScopeMode: ReaderScopeMode;
+  setReaderScopeMode: (value: ReaderScopeMode) => void;
+  readerJuzNumber: number;
+  setReaderJuzNumber: (value: number) => void;
+  readerPageNumber: number;
+  setReaderPageNumber: (value: number) => void;
+  isReaderScopeStorageReady: boolean;
   pendingScroll: number | null;
   setPendingScroll: (value: number | null) => void;
   surahData: SurahData | null;
@@ -47,6 +163,13 @@ export function useHomeEffects({
   setSelectedSurah,
   focusedAyahKey,
   setFocusedAyahKey,
+  readerScopeMode,
+  setReaderScopeMode,
+  readerJuzNumber,
+  setReaderJuzNumber,
+  readerPageNumber,
+  setReaderPageNumber,
+  isReaderScopeStorageReady,
   pendingScroll,
   setPendingScroll,
   surahData,
@@ -67,76 +190,136 @@ export function useHomeEffects({
 }: UseHomeEffectsParams) {
   const studySessionWriteTimerRef = useRef<number | null>(null);
   const lastStudySessionSignatureRef = useRef<string>("");
+  const [isReaderUrlInitialized, setIsReaderUrlInitialized] = useState(false);
 
   // Initial Surah Selection & URL handling
   useEffect(() => {
-    if (!surahs.length || selectedSurah) return;
+    if (!isReaderScopeStorageReady || !surahs.length || isReaderUrlInitialized) return;
 
     if (typeof window !== "undefined") {
-      const params = new URLSearchParams(window.location.search);
-      const surahParam = Number(params.get("surah"));
-      const ayahParam = Number(params.get("ayah"));
-      const hashMatch = window.location.hash.match(/ayah-(\d+)/);
-      const hashAyah = hashMatch ? Number(hashMatch[1]) : null;
+      const readerUrlState = resolveReaderUrlState(
+        window.location.search,
+        window.location.hash,
+        surahs
+      );
 
-      const targetSurah = surahs.find((surah) => surah.number === surahParam);
-      if (targetSurah) {
+      if (readerUrlState?.mode === "surah") {
+        const targetSurah = surahs.find((surah) => surah.number === readerUrlState.surah);
+        if (!targetSurah) return;
+        setReaderScopeMode("surah");
         setSelectedSurah(targetSurah);
-        const targetAyah = ayahParam || hashAyah;
-        if (targetAyah) {
-          setPendingScroll(targetAyah);
-          setFocusedAyahKey(verseKey(targetSurah.number, targetAyah));
+        if (readerUrlState.ayah) {
+          setPendingScroll(readerUrlState.ayah);
+          setFocusedAyahKey(verseKey(targetSurah.number, readerUrlState.ayah));
         }
+        setIsReaderUrlInitialized(true);
         return;
+      }
+
+      if (readerUrlState?.mode === "page") {
+        setReaderPageNumber(readerUrlState.value);
+        setReaderScopeMode("page");
+      } else if (readerUrlState?.mode === "juz") {
+        setReaderJuzNumber(readerUrlState.value);
+        setReaderScopeMode("juz");
       }
     }
     setSelectedSurah(surahs[0] || null);
-  }, [surahs, selectedSurah, setSelectedSurah, setPendingScroll, setFocusedAyahKey]);
+    setIsReaderUrlInitialized(true);
+  }, [
+    isReaderScopeStorageReady,
+    isReaderUrlInitialized,
+    surahs,
+    setSelectedSurah,
+    setPendingScroll,
+    setFocusedAyahKey,
+    setReaderScopeMode,
+    setReaderJuzNumber,
+    setReaderPageNumber
+  ]);
 
-  // Sync URL with selection (debounced to avoid excessive calls during autoplay)
-  const lastUrlUpdateRef = useRef(0);
+  // Keep one unambiguous reader scope in the URL. replaceState preserves the
+  // current history entry while making refreshes and copied URLs deterministic.
   useEffect(() => {
-    if (typeof window === "undefined" || !selectedSurah) return;
-    const now = Date.now();
-    // Throttle URL updates to at most once per 500ms
-    if (now - lastUrlUpdateRef.current < 500) return;
-    lastUrlUpdateRef.current = now;
-    const url = new URL(window.location.href);
-    url.searchParams.set("surah", String(selectedSurah.number));
-    if (focusedAyahKey) {
-      const { ayah } = parseVerseKey(focusedAyahKey);
-      url.searchParams.set("ayah", String(ayah));
-    } else {
-      url.searchParams.delete("ayah");
+    if (typeof window === "undefined" || !isReaderUrlInitialized || !selectedSurah) return;
+    const focusedAyahNumber = focusedAyahKey
+      ? parseVerseKey(focusedAyahKey).ayah
+      : null;
+    const url = buildReaderUrl({
+      currentUrl: window.location.href,
+      readerScopeMode,
+      readerJuzNumber,
+      readerPageNumber,
+      selectedSurahNumber: selectedSurah.number,
+      focusedAyahNumber
+    });
+    if (url.toString() !== window.location.href) {
+      window.history.replaceState({}, "", url);
     }
-    window.history.replaceState({}, "", url);
-  }, [selectedSurah, focusedAyahKey]);
+  }, [
+    selectedSurah,
+    focusedAyahKey,
+    readerScopeMode,
+    readerJuzNumber,
+    readerPageNumber,
+    isReaderUrlInitialized
+  ]);
 
   // Handle browser back/forward navigation
   useEffect(() => {
     if (typeof window === "undefined") return;
 
     const handlePopState = () => {
-      const params = new URLSearchParams(window.location.search);
-      const surahParam = Number(params.get("surah"));
-      const ayahParam = Number(params.get("ayah"));
+      const readerUrlState = resolveReaderUrlState(
+        window.location.search,
+        window.location.hash,
+        surahs
+      );
+      if (!readerUrlState) return;
 
-      if (!surahParam || !surahs.length) return;
-      const targetSurah = surahs.find((s) => s.number === surahParam);
+      if (readerUrlState.mode === "page") {
+        setReaderPageNumber(readerUrlState.value);
+        setReaderScopeMode("page");
+        setPendingScroll(null);
+        setFocusedAyahKey(null);
+        return;
+      }
+
+      if (readerUrlState.mode === "juz") {
+        setReaderJuzNumber(readerUrlState.value);
+        setReaderScopeMode("juz");
+        setPendingScroll(null);
+        setFocusedAyahKey(null);
+        return;
+      }
+
+      const targetSurah = surahs.find((s) => s.number === readerUrlState.surah);
       if (!targetSurah) return;
-
-      if (!selectedSurah || selectedSurah.number !== surahParam) {
+      setReaderScopeMode("surah");
+      if (!selectedSurah || selectedSurah.number !== readerUrlState.surah) {
         setSelectedSurah(targetSurah);
       }
-      if (ayahParam) {
-        setPendingScroll(ayahParam);
-        setFocusedAyahKey(verseKey(surahParam, ayahParam));
+      if (readerUrlState.ayah) {
+        setPendingScroll(readerUrlState.ayah);
+        setFocusedAyahKey(verseKey(readerUrlState.surah, readerUrlState.ayah));
+      } else {
+        setPendingScroll(null);
+        setFocusedAyahKey(null);
       }
     };
 
     window.addEventListener("popstate", handlePopState);
     return () => window.removeEventListener("popstate", handlePopState);
-  }, [surahs, selectedSurah, setSelectedSurah, setPendingScroll, setFocusedAyahKey]);
+  }, [
+    surahs,
+    selectedSurah,
+    setSelectedSurah,
+    setPendingScroll,
+    setFocusedAyahKey,
+    setReaderScopeMode,
+    setReaderJuzNumber,
+    setReaderPageNumber
+  ]);
 
   // Update Last Read
   useEffect(() => {

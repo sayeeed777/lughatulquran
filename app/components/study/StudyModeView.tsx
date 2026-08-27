@@ -15,9 +15,9 @@ import type { MushafPageLayout } from "./StudyModeTypes";
 import StudyQuickPanelContent from "./StudyQuickPanelContent";
 import useStudyControls from "./useStudyControls";
 import useWordLexicon from "./useWordLexicon";
-import type { StudyScopeAyah, StudyScopeMode, StudyScopeResponse } from "./StudyScopeTypes";
+import type { StudyScopeAyah, StudyScopeResponse } from "./StudyScopeTypes";
 import { AUDIO_RECITERS, ARABIC_FONTS } from "../../lib/constants";
-import { useLocalStorage, useReadingStats } from "../../hooks";
+import { useReadingStats } from "../../hooks";
 import { useDiscoveryTips } from "../../hooks/useDiscoveryTips";
 import { verseKey, clamp } from "../../lib/utils";
 import { getArabicFontClass, getArabicScaleClass, getTranslationScaleClass } from "../../lib/styleClasses";
@@ -41,7 +41,16 @@ export default function StudyModeView({
     wordLoading,
     surahByNumber
   } = useQuranData();
-  const { focusedAyahKey, setFocusedAyahKey } = useUIState();
+  const {
+    focusedAyahKey,
+    setFocusedAyahKey,
+    readerScopeMode: studyScopeMode,
+    setReaderScopeMode: setStudyScopeMode,
+    readerJuzNumber: studyJuzNumber,
+    setReaderJuzNumber: setStudyJuzNumber,
+    readerPageNumber: studyPageNumber,
+    setReaderPageNumber: setStudyPageNumber
+  } = useUIState();
   const {
     arabicFontId,
     setArabicFontId,
@@ -101,12 +110,6 @@ export default function StudyModeView({
   const primaryTranslation = translationIds[0] || "en-arberry";
   const translationKey = translationIds.join(",");
 
-  const [studyScopeMode, setStudyScopeMode] = useLocalStorage<StudyScopeMode>(
-    "quran_study_scope_mode",
-    "surah"
-  );
-  const [studyJuzNumber, setStudyJuzNumber] = useLocalStorage<number>("quran_study_juz_number", 1);
-  const [studyPageNumber, setStudyPageNumber] = useLocalStorage<number>("quran_study_page_number", 1);
   const [showMemorizationPreview, setShowMemorizationPreview] = useState(false);
   const [scopedAyahs, setScopedAyahs] = useState<StudyScopeAyah[]>([]);
   const [scopeMeta, setScopeMeta] = useState<StudyScopeResponse["scope"] | null>(null);
@@ -381,6 +384,14 @@ export default function StudyModeView({
     [isSurahScope, onJumpToAyah, setStudyScopeMode, scrollToVerseKey]
   );
 
+  // Audio state changes frequently. Read the latest value through a ref so the
+  // play handler keeps a stable identity and memoized ayah cards do not all
+  // rerender whenever playback advances.
+  const nowPlayingRef = useRef(nowPlaying);
+  useEffect(() => {
+    nowPlayingRef.current = nowPlaying;
+  }, [nowPlaying]);
+
   const handleStudyAyahPlay = useCallback(
     (surah: number, ayah: number) => {
       if (studyScopeMode === "surah") {
@@ -388,14 +399,15 @@ export default function StudyModeView({
         return;
       }
 
-      if (nowPlaying?.surah === surah && nowPlaying?.ayah === ayah) {
+      const currentNowPlaying = nowPlayingRef.current;
+      if (currentNowPlaying?.surah === surah && currentNowPlaying?.ayah === ayah) {
         onStopAutoPlay();
         return;
       }
 
       onPlayAyah(surah, ayah);
     },
-    [nowPlaying?.ayah, nowPlaying?.surah, onPlayAyah, onStopAutoPlay, onTogglePlay, studyScopeMode]
+    [onPlayAyah, onStopAutoPlay, onTogglePlay, studyScopeMode]
   );
 
   const activeScopeLabel = isSurahScope

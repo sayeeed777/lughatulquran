@@ -17,6 +17,11 @@ type StudyAyahItem = Ayah & {
   verseKey?: string;
 };
 
+// Keep the empty word collection referentially stable so playback/focus
+// updates do not invalidate every memoized ayah card when word-by-word data is
+// hidden or unavailable.
+const EMPTY_STUDY_WORDS: Word[] = [];
+
 type StudyAyahListProps = {
   ayahs: StudyAyahItem[];
   selectedSurahNumber: number;
@@ -96,28 +101,72 @@ export default function StudyAyahList({
   onToggleHifzMark,
   showHifzMode
 }: StudyAyahListProps) {
-  const ayahCards = useMemo(
+  // Tajweed markup produces React nodes. Prepare it only when the Quran data or
+  // display settings change so audio/focus updates can preserve prop identity
+  // for every unaffected memoized card in long Surahs.
+  const preparedAyahs = useMemo(
     () =>
       ayahs.map((ayah, index) => {
         const ayahNum = ayah.number;
         const effectiveSurahNumber = ayah.surahNumber || selectedSurahNumber || 0;
         const key = ayah.verseKey || verseKey(effectiveSurahNumber, ayahNum);
+        const previousSurahNumber = ayahs[index - 1]?.surahNumber || selectedSurahNumber || 0;
+        const showSectionHeader = viewMode !== "surah" && (
+          index === 0 || previousSurahNumber !== effectiveSurahNumber
+        );
+
+        return {
+          ayah,
+          ayahNum,
+          effectiveSurahNumber,
+          key,
+          showSectionHeader,
+          surahMeta: surahByNumber.get(effectiveSurahNumber),
+          arabicContent: showTajweed && ayah.arabicTajweed
+            ? renderTajweedMarkup(ayah.arabicTajweed)
+            : normalizeQuranDisplayArabic(ayah.arabic || ""),
+          translationText: ayah.translations?.[primaryTranslation]?.text || ""
+        };
+      }),
+    [
+      ayahs,
+      primaryTranslation,
+      selectedSurahNumber,
+      showTajweed,
+      surahByNumber,
+      verseKey,
+      viewMode
+    ]
+  );
+
+  const ayahCards = useMemo(
+    () =>
+      preparedAyahs.map((preparedAyah, index) => {
+        const {
+          ayah,
+          ayahNum,
+          effectiveSurahNumber,
+          key,
+          showSectionHeader,
+          surahMeta,
+          arabicContent,
+          translationText
+        } = preparedAyah;
         const bookmarked = isBookmarked(effectiveSurahNumber, ayahNum);
         const noted = hasNote(effectiveSurahNumber, ayahNum);
         const isPlaying = nowPlaying?.surah === effectiveSurahNumber && nowPlaying?.ayah === ayahNum;
         const isActivePlay = isPlaying && !isAudioPaused;
         const words = effectiveSurahNumber === selectedSurahNumber && ayahNum
-          ? wordsByAyahForStudy?.[ayahNum] || []
-          : [];
+          ? wordsByAyahForStudy?.[ayahNum] || EMPTY_STUDY_WORDS
+          : EMPTY_STUDY_WORDS;
         const isFocused = focusedAyahKey === key;
         const isMarked = Boolean(studyMarks?.[key]);
         const isMemorized = Boolean(hifzMarks?.[key]);
-        const translationText = ayah.translations?.[primaryTranslation]?.text || "";
-        const previousSurahNumber = ayahs[index - 1]?.surahNumber || selectedSurahNumber || 0;
-        const showSectionHeader = viewMode !== "surah" && index === 0
-          ? true
-          : viewMode !== "surah" && previousSurahNumber !== effectiveSurahNumber;
-        const surahMeta = surahByNumber.get(effectiveSurahNumber);
+        const activeCardWordAudioUrl = showWordByWord && wordAudioUrl && words.some(
+          (word) => resolveWordAudioUrl(word.audioUrl) === wordAudioUrl
+        )
+          ? wordAudioUrl
+          : null;
 
         return (
           <div key={key || `ayah-${index}`}>
@@ -153,11 +202,7 @@ export default function StudyAyahList({
               isMarked={isMarked}
               isDimmed={Boolean(dimNonFocused && focusedAyahKey && !isFocused)}
               showTajweed={showTajweed}
-              arabicContent={
-                showTajweed && ayah.arabicTajweed
-                  ? renderTajweedMarkup(ayah.arabicTajweed)
-                  : normalizeQuranDisplayArabic(ayah.arabic || "")
-              }
+              arabicContent={arabicContent}
               translationText={translationText}
               showTranslation={showTranslation}
               transliterationText={ayah.transliteration || ""}
@@ -166,7 +211,7 @@ export default function StudyAyahList({
               showWordByWord={showWordByWord}
               words={words}
               wordLoading={effectiveWordLoading}
-              wordAudioUrl={wordAudioUrl}
+              wordAudioUrl={activeCardWordAudioUrl}
               selectedWordPosition={
                 selectedWordDetails?.surah === effectiveSurahNumber &&
                   selectedWordDetails?.ayah === ayahNum
@@ -193,7 +238,6 @@ export default function StudyAyahList({
         );
       }),
     [
-      ayahs,
       dimNonFocused,
       focusedAyahKey,
       hasNote,
@@ -211,7 +255,7 @@ export default function StudyAyahList({
       onToggleStudyMarkByKey,
       onWordAudio,
       onWordSelect,
-      primaryTranslation,
+      preparedAyahs,
       resolveWordAudioUrl,
       scopeLabel,
       selectedSurahNumber,
@@ -222,13 +266,11 @@ export default function StudyAyahList({
       showTranslation,
       showTransliteration,
       showWordByWord,
-      surahByNumber,
       studyMarks,
       hifzMarks,
       onToggleHifzMark,
       showHifzMode,
       viewMode,
-      verseKey,
       wordAudioUrl,
       wordsByAyahForStudy,
       effectiveWordLoading
