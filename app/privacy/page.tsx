@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         <header className="seo-header">
           <h1 className="seo-english-title">Privacy Policy</h1>
           <p className="seo-translation">
-            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 24 September 2026.
+            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 27 September 2026.
           </p>
         </header>
 
@@ -62,8 +62,8 @@ export default function PrivacyPage() {
         <section className="info-section">
           <h2 className="info-section-title">Content the app downloads</h2>
           <p className="info-text">
-            The Quran text, translations, and most study material are built into the app. Some
-            content is downloaded when you use it:
+            The Quran text, the main translations, and most study material are built into the
+            app. Some content is downloaded when you use it:
           </p>
           <ul className="info-audience-list">
             <li>
@@ -75,15 +75,15 @@ export default function PrivacyPage() {
               when you play a word.
             </li>
             <li>
-              Tafsir, from jsDelivr (cdn.jsdelivr.net) or GitHub (raw.githubusercontent.com), when
-              you open a tafsir that is not built in.
+              Tafsirs and further translations, from OpenFurqan&#39;s own data server
+              (data.openfurqan.com, hosted by Cloudflare), when you open one that is not built in.
             </li>
           </ul>
           <p className="info-text">
             These requests carry no account or personal details, only what any download needs. As
             with any website, these services receive your phone&#39;s IP address and the file
-            requested, and handle it under their own privacy policies. Downloaded audio and tafsir
-            are kept on your phone for offline use.
+            requested, and handle it under their own privacy policies. Downloaded audio, tafsirs,
+            and translations are kept on your phone for offline use.
           </p>
         </section>
 
