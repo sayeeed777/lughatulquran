@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         <header className="seo-header">
           <h1 className="seo-english-title">Privacy Policy</h1>
           <p className="seo-translation">
-            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 27 September 2026.
+            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 7 October 2026.
           </p>
         </header>
 
@@ -45,7 +45,9 @@ export default function PrivacyPage() {
           <p className="info-text">
             Your bookmarks, notes, voice recordings, reading progress, practice progress, and
             settings are saved only on your phone. We have no server that receives them and no way
-            to see them. Uninstalling the app, or clearing its storage, removes them.
+            to see them. Uninstalling the app, or clearing its storage, removes them from the app;
+            the backup file in Download/OpenFurqan (see Backups and sharing) is separate and stays
+            until you delete it.
           </p>
         </section>
 
@@ -67,23 +69,26 @@ export default function PrivacyPage() {
           </p>
           <ul className="info-audience-list">
             <li>
-              Recitation audio, from EveryAyah (everyayah.com), when you play or download a
-              recitation.
+              Recitation audio, when you play or download a recitation: from EveryAyah
+              (everyayah.com), QuranicAudio (download.quranicaudio.com) and Tarteel&#39;s audio
+              service (audio-cdn.tarteel.ai). A surah you listen to may be saved over Wi-Fi so it
+              plays offline next time.
             </li>
             <li>
               Word pronunciation audio, from Quran.com&#39;s audio service (audio.qurancdn.com),
               when you play a word.
             </li>
             <li>
-              Tafsirs and further translations, from OpenFurqan&#39;s own data server
-              (data.openfurqan.com, hosted by Cloudflare), when you open one that is not built in.
+              Tafsirs, further translations, word meanings, hadith, and the timings that highlight
+              each recited word, from OpenFurqan&#39;s own data server (data.openfurqan.com, hosted
+              by Cloudflare), when you first open them.
             </li>
           </ul>
           <p className="info-text">
             These requests carry no account or personal details, only what any download needs. As
             with any website, these services receive your phone&#39;s IP address and the file
-            requested, and handle it under their own privacy policies. Downloaded audio, tafsirs,
-            and translations are kept on your phone for offline use.
+            requested, and handle it under their own privacy policies. Downloaded audio and study
+            material are kept on your phone for offline use.
           </p>
         </section>
 
@@ -110,7 +115,8 @@ export default function PrivacyPage() {
           <h2 className="info-section-title">Notifications</h2>
           <p className="info-text">
             While a recitation plays, the app shows a playback control in your notifications and on
-            the lock screen. It sends no other notifications.
+            the lock screen. If you turn on Ayah of the day in Settings, it also sends one quiet
+            notification a day, at the time you choose. It sends no other notifications.
           </p>
         </section>
 
