@@ -1,20 +1,18 @@
 import { ImageResponse } from "next/og";
-import { SURAH_BY_SLUG, SURAHS } from "../../../data/surahs";
+import { notFound } from "next/navigation";
+import { SURAH_BY_SLUG } from "../../../data/surahs";
 import { loadVerseSeoText } from "../../../lib/seoQuranText";
 
 export const runtime = "nodejs";
-export const dynamicParams = false;
 export const alt = "OpenFurqan — Read and Study the Quran";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
+// Rendering all 6,236 images took ~14 of the ~18 build minutes on Vercel.
+// Instead each image is rendered the first time a link preview requests it
+// and cached from then on.
 export function generateStaticParams() {
-  return SURAHS.flatMap((surah) =>
-    Array.from({ length: surah.ayahCount }, (_, index) => ({
-      slug: surah.slug,
-      ayah: String(index + 1)
-    }))
-  );
+  return [];
 }
 
 export default async function OGImage({ params }: { params: Promise<{ slug: string; ayah: string }> }) {
@@ -22,8 +20,16 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
   const surah = SURAH_BY_SLUG.get(slug);
   const ayahNum = Number(ayah);
 
-  if (!surah || !Number.isInteger(ayahNum) || ayahNum < 1 || ayahNum > surah.ayahCount) {
-    return new ImageResponse(<div style={{ width: "100%", height: "100%", background: "#0b1c20" }} />, { ...size });
+  // 404 before rendering so made-up URLs (including aliases like "01") can't
+  // each spend CPU on an image.
+  if (
+    !surah
+    || !Number.isInteger(ayahNum)
+    || String(ayahNum) !== ayah
+    || ayahNum < 1
+    || ayahNum > surah.ayahCount
+  ) {
+    notFound();
   }
 
   let verse: { ar: string; en: string } | null = null;

@@ -1,10 +1,14 @@
 import { ImageResponse } from "next/og";
-import { SURAH_BY_SLUG } from "../../data/surahs";
+import { SURAH_BY_SLUG, SURAHS } from "../../data/surahs";
 
-export const runtime = "edge";
+export const dynamicParams = false;
 export const alt = "OpenFurqan — Read and Study the Quran";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
+
+export function generateStaticParams() {
+  return SURAHS.map((surah) => ({ slug: surah.slug }));
+}
 
 export default async function OGImage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -56,7 +60,7 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
             marginBottom: 10,
           }}
         >
-          Surah {surah.englishName}
+          {`Surah ${surah.englishName}`}
         </div>
 
         <div
