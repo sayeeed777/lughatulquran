@@ -15,6 +15,12 @@ export function generateStaticParams() {
   return [];
 }
 
+// ImageResponse defaults to "max-age=0, must-revalidate", and Next.js keeps a
+// route's own Cache-Control instead of adding its ISR one, so Vercel treated
+// each cached image as stale within seconds and re-rendered it. This is the
+// header Next.js sends for prerendered pages.
+const CACHE_HEADERS = { "Cache-Control": "s-maxage=31536000" };
+
 export default async function OGImage({ params }: { params: Promise<{ slug: string; ayah: string }> }) {
   const { slug, ayah } = await params;
   const surah = SURAH_BY_SLUG.get(slug);
@@ -131,6 +137,6 @@ export default async function OGImage({ params }: { params: Promise<{ slug: stri
         </div>
       </div>
     ),
-    { ...size }
+    { ...size, headers: CACHE_HEADERS }
   );
 }
