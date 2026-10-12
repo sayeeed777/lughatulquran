@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getCspNonce } from "../lib/csp";
 
 export const metadata: Metadata = {
   title: "About OpenFurqan — Free Open-Source Quran Reader with Study Tools & Memorization",
@@ -25,9 +24,7 @@ export const metadata: Metadata = {
   }
 };
 
-export default async function AboutPage() {
-  const nonce = await getCspNonce();
-
+export default function AboutPage() {
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -82,12 +79,10 @@ export default async function AboutPage() {
   return (
     <div className="seo-page">
       <script
-        nonce={nonce}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
       />
       <script
-        nonce={nonce}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(appJsonLd) }}
       />

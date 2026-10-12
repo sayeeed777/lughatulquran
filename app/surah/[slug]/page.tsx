@@ -3,7 +3,6 @@ import Link from "next/link";
 import { SURAH_BY_SLUG, SURAHS, SURAH_BY_NUMBER } from "../../data/surahs";
 import type { Metadata } from "next";
 import { loadFirstVerseSeoText, loadSurahSeoText } from "../../lib/seoQuranText";
-import { getCspNonce } from "../../lib/csp";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -53,7 +52,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function SurahPage({ params }: Props) {
-  const nonce = await getCspNonce();
   const { slug } = await params;
   const surah = SURAH_BY_SLUG.get(slug);
   if (!surah) notFound();
@@ -109,8 +107,8 @@ export default async function SurahPage({ params }: Props) {
 
   return (
     <div className="seo-page">
-      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
-      <script nonce={nonce} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(chapterJsonLd) }} />
 
       <div className="seo-container">
         {/* Header */}

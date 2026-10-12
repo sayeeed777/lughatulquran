@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getCspNonce } from "../lib/csp";
 
 const FAQ_ITEMS = [
   // General
@@ -291,9 +290,7 @@ export const metadata: Metadata = {
   }
 };
 
-export default async function FaqPage() {
-  const nonce = await getCspNonce();
-
+export default function FaqPage() {
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -312,7 +309,6 @@ export default async function FaqPage() {
   return (
     <div className="seo-page">
       <script
-        nonce={nonce}
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />

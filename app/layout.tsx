@@ -4,9 +4,7 @@ import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import { getCspNonce } from "./lib/csp";
-import { headers } from "next/headers";
-import { DEFAULT_LOCALE, normalizeLocale } from "./lib/locales";
+import { DEFAULT_LOCALE } from "./lib/locales";
 
 export const metadata: Metadata = {
   title: {
@@ -97,10 +95,9 @@ type RootLayoutProps = {
   children: ReactNode;
 };
 
-export default async function RootLayout({ children }: RootLayoutProps) {
-  const requestHeaders = await headers();
-  const locale = normalizeLocale(requestHeaders.get("x-locale")) || DEFAULT_LOCALE;
-  const nonce = await getCspNonce();
+// Must not read request headers or cookies: that would force every page to
+// render per request instead of being prerendered at build time.
+export default function RootLayout({ children }: RootLayoutProps) {
   const serviceWorkerVersion = process.env.NEXT_PUBLIC_APP_VERSION
     || process.env.VERCEL_GIT_COMMIT_SHA
     || process.env.VERCEL_DEPLOYMENT_ID
@@ -144,7 +141,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   };
 
   return (
-    <html lang={locale} translate="no" suppressHydrationWarning>
+    <html lang={DEFAULT_LOCALE} translate="no" suppressHydrationWarning>
       <head>
         <link rel="preconnect" href="https://cdn.jsdelivr.net" crossOrigin="" />
         <link rel="preconnect" href="https://verses.quran.foundation" crossOrigin="" />
@@ -152,11 +149,10 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         <link rel="icon" href="/favicon-96x96.png" sizes="96x96" type="image/png" />
         <link rel="icon" href="/favicon-48x48.png" sizes="48x48" type="image/png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
-        <Script nonce={nonce} src="/theme-init.js" strategy="beforeInteractive" />
+        <Script src="/theme-init.js" strategy="beforeInteractive" />
       </head>
       <body>
         <script
-          nonce={nonce}
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
@@ -165,7 +161,6 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         <SpeedInsights />
         {process.env.NODE_ENV === "production" && (
           <Script
-            nonce={nonce}
             src={`/sw-register.js?v=${encodeURIComponent(serviceWorkerVersion)}`}
             strategy="afterInteractive"
           />
