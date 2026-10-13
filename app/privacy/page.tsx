@@ -27,7 +27,7 @@ export default function PrivacyPage() {
         <header className="seo-header">
           <h1 className="seo-english-title">Privacy Policy</h1>
           <p className="seo-translation">
-            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 7 October 2026.
+            For the OpenFurqan app on Android (com.openfurqan.app). Last updated 13 October 2026.
           </p>
         </header>
 
@@ -65,30 +65,9 @@ export default function PrivacyPage() {
           <h2 className="info-section-title">Content the app downloads</h2>
           <p className="info-text">
             The Quran text, the main translations, and most study material are built into the
-            app. Some content is downloaded when you use it:
-          </p>
-          <ul className="info-audience-list">
-            <li>
-              Recitation audio, when you play or download a recitation: from EveryAyah
-              (everyayah.com), QuranicAudio (download.quranicaudio.com) and Tarteel&#39;s audio
-              service (audio-cdn.tarteel.ai). A surah you listen to may be saved over Wi-Fi so it
-              plays offline next time.
-            </li>
-            <li>
-              Word pronunciation audio, from Quran.com&#39;s audio service (audio.qurancdn.com),
-              when you play a word.
-            </li>
-            <li>
-              Tafsirs, further translations, word meanings, hadith, and the timings that highlight
-              each recited word, from OpenFurqan&#39;s own data server (data.openfurqan.com, hosted
-              by Cloudflare), when you first open them.
-            </li>
-          </ul>
-          <p className="info-text">
-            These requests carry no account or personal details, only what any download needs. As
-            with any website, these services receive your phone&#39;s IP address and the file
-            requested, and handle it under their own privacy policies. Downloaded audio and study
-            material are kept on your phone for offline use.
+            app. Some content, such as recitation audio and tafsirs, is downloaded the first time
+            you use it and kept on your phone for offline use. These downloads carry no account or
+            personal details.
           </p>
         </section>
 
@@ -108,6 +87,16 @@ export default function PrivacyPage() {
             The app is excluded from Google&#39;s cloud backup. When you move to a new phone with
             Android&#39;s phone-to-phone transfer, your app data can be copied directly to the new
             phone.
+          </p>
+        </section>
+
+        <section className="info-section">
+          <h2 className="info-section-title">Links that leave the app</h2>
+          <p className="info-text">
+            Three rows in Settings open another app, and only when you tap them: Rate OpenFurqan
+            opens the app&#39;s page on Google Play, Privacy policy opens this page in your browser,
+            and Contact opens your email app with a new message to us, which you write and send
+            yourself.
           </p>
         </section>
 
